@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>TEI Publisher API Documentation</title>
+        <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@3/swagger-ui.css"/>
+        <script src="https://unpkg.com/swagger-ui-dist@3/swagger-ui-bundle.js" charset="UTF-8"/>
+    </head>
+    <body>
+        <div id="swagger"/>
+        <div id="custom"/>
+        <script>
+            window.onload = function() {
+                SwaggerUIBundle({
+                    url: "modules/lib/api.json",
+                    dom_id: '#swagger',
+                    displayOperationId: true,
+                    displayRequestDuration: true,
+                    showExtensions: true,
+                    withCredentials: true
+                });
+
+                SwaggerUIBundle({
+                    url: "modules/custom-api.json",
+                    dom_id: '#custom',
+                    displayOperationId: true,
+                    displayRequestDuration: true,
+                    showExtensions: true,
+                    withCredentials: true
+                });
+            }
+        </script>
+    </body>
+</html>
