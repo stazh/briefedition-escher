@@ -59,7 +59,7 @@ declare variable $config:default-language := "en";
  : the parameters below for further configuration), or 'page' to browse
  : a document by actual pages determined by TEI pb elements.
  :)
-declare variable $config:default-view :="div";
+declare variable $config:default-view :="single";
 
 (:
  : The default HTML template used for viewing document content. This can be
@@ -284,7 +284,7 @@ declare variable $config:data-root :=$config:app-root || "/data";
  : The root of the collection hierarchy whose files should be displayed
  : on the entry page. Can be different from $config:data-root.
  :)
-declare variable $config:data-default := $config:data-root;
+declare variable $config:data-default := $config:data-root || "/letters";
 
 (:~
  : A sequence of root elements which should be excluded from the list of
@@ -297,7 +297,7 @@ declare variable $config:data-exclude :=
 (:~
  : The main ODD to be used by default
  :)
-declare variable $config:default-odd :="docbook.odd";
+declare variable $config:default-odd :="escher.odd";
 
 (:~
  : Complete list of ODD files used by the app. If you add another ODD to this list,

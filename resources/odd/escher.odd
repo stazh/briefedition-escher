@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teipublisher_odds.xsd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:pb="http://teipublisher.com/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,13 +27,81 @@
                 <p>born digital</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <rendition source="escher.css"/>
+            </tagsDecl>
+        </encodingDesc>
         <revisionDesc>
             <change when="2021-01-20+01:00">Initial version</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <schemaSpec start="TEI teiCorpus" source="teipublisher.odd" ident="escher"> </schemaSpec>
+            <schemaSpec start="TEI teiCorpus" ident="escher" source="teipublisher.odd"> <elementSpec ident="note" mode="change">
+                    <model predicate="@type=&#34;annotation&#34;" behaviour="inline" cssClass="annotation">
+            <outputRendition xml:space="preserve">
+            
+            </outputRendition>
+        </model>
+                    <model behaviour="note">
+            <param name="place" value="@place"/>
+            <param name="label" value="@n"/>
+        </model>
+                </elementSpec>
+                <elementSpec ident="placeName" mode="add">
+                    <model behaviour="alternate" cssClass="popover">
+            <param name="default" value="."/>
+            <param name="alternate" value="@key"/>
+        </model>
+                </elementSpec>
+                <elementSpec ident="choice" mode="change">
+                    <model output="plain" predicate="sic and corr" behaviour="inline">
+            <param name="content" value="corr[1]"/>
+        </model>
+                    <model output="plain" predicate="abbr and expan" behaviour="inline">
+            <param name="content" value="expan[1]"/>
+        </model>
+                    <model output="plain" predicate="orig and reg" behaviour="inline">
+            <param name="content" value="reg[1]"/>
+        </model>
+                    <model predicate="sic and corr" behaviour="alternate" cssClass="popover">
+            <param name="default" value="sic[1]"/>
+            <param name="alternate" value="corr[1]"/>
+        </model>
+                    <model predicate="abbr and expan" behaviour="alternate" cssClass="popover">
+            <param name="default" value="abbr[1]"/>
+            <param name="alternate" value="expan[1]"/>
+        </model>
+                    <model predicate="orig and reg" behaviour="alternate" cssClass="popover">
+            <param name="default" value="orig[1]"/>
+            <param name="alternate" value="reg[1]"/>
+        </model>
+                </elementSpec>
+                <elementSpec ident="hi" mode="change">
+                    <model behaviour="inline"/>
+                    <model predicate="@rend=&#34;sup&#34;" behaviour="inline" cssClass="sup"/>
+                    <model predicate="@rendition" behaviour="inline" useSourceRendition="true">
+            <outputRendition xml:space="preserve">
+            font-style: italic;
+            </outputRendition>
+        </model>
+                    <model predicate="not(@rendition)" behaviour="inline">
+            <outputRendition xml:space="preserve">
+            font-style: italic;
+            </outputRendition>
+        </model>
+                </elementSpec>
+                <elementSpec ident="supplied" mode="change">
+                    <model behaviour="inline"/>
+                </elementSpec>
+                <elementSpec ident="lb" mode="change">
+                    <model behaviour="break" cssClass="line" useSourceRendition="true">
+            <param name="type" value="'line'"/>
+            <param name="label" value="@n"/>
+        </model>
+                </elementSpec>
+            </schemaSpec>
         </body>
     </text>
 </TEI>
