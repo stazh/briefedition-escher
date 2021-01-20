@@ -9,6 +9,23 @@
     font-size: 0.8em;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .annotation {
     font-style: italic;
+}
+
+br {
+    display: block;
+}
+
+br.toggle {
+    display: none;
+}
+
+.toggle {
+    font-style: unset;
+    text-decoration: none;
 }
