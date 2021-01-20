@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2851" n="" type="Brief">
+  <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alfred Escher an Gottfried Keller, Zürich, Dienstag, September 5, 1876</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ZBZ</institution>
+                        <idno type="original"/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="escher">
+                    <list>
+                        <item>Einladungsbriefe (diverse)</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName ref="Keller Gottfried" type="addressee">Gottfried Keller</persName>
+                    <placeName>Zürich</placeName>
+                    <date when="1876-09-05">Dienstag, September 5, 1876</date>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2005-04-11" who="SK">Transkription</change>
+            <change when="2013-08-26" who="STW">Migration nach XML</change>
+            <change when="2013-09-02" who="OD">Migrationsverifizierung umgesetzt</change>
+            <change when="2014-01-10" who="XR">Auszeichnung 1 umgesetzt</change>
+            <change when="2014-01-15" who="CR">Verifizierung 1 umgesetzt</change>
+            <change when="2014-01-16" who="RH">Auszeichnung 2 umgesetzt</change>
+            <change when="2014-05-20" who="VP">Verifizierung 2 umgesetzt</change>
+            <change when="2014-01-22" who="SWK">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2014-01-28" who="LH">Übertragung der Transkriptionsverifizierung geprüft</change>
+            <change when="2014-04-09" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt</change>
+        </revisionDesc>
+    </teiHeader>
+  <text>
+    <front>
+      <div type="opener">
+        <p rend="left" xml:id="K_2851_p1">
+                    <lb xml:id="p1-l1"/>Hochverehrter Herr &amp; Freund!</p>
+      </div>
+    </front>
+    <body>
+      <p rend="indent" xml:id="K_2851_p2">
+                <lb xml:id="p1-l2"/>So eben benachrichtigt mich
+            <lb xml:id="p1-l3"/>mein Freund <persName type="person" key="Karrer-Burger Karl">Karrer</persName>, daß er <date when="1876-09-06">morgen</date> <lb xml:id="p1-l4"/>bei mir vorsprechen werde. Annehmend,
+            <lb xml:id="p1-l5"/>daß Sie vielleicht nicht ungerne seine Be<lb break="no" xml:id="p1-l6"/>kanntschaft machen werden, bitte ich Sie,
+            <lb xml:id="p1-l7"/>
+                <date when="1876-09-06">morgen</date> (Mitwoch)<note type="transcript">sic!</note> Abend 5 Uhr das Diner
+            <lb xml:id="p1-l8"/>im <placeName type="place" key="Belvoir (Enge, Zürich)">Belvoir</placeName> einnehmen zu wollen.
+        </p>
+    </body>
+    <back>
+      <div type="closer">
+        <p rend="center" xml:id="K_2851_p3">
+                    <lb xml:id="p1-l9"/>In freundschaftlicher Hochachtung
+            <lb xml:id="p1-l10"/>Ihr
+        </p>
+      </div>
+      <div type="address">
+        <p rend="right" xml:id="K_2851_p4">
+                    <lb xml:id="p1-l11"/>
+          <choice>
+                        <abbr>Dr</abbr>
+                        <expan>Doktor / Doctor</expan>
+                    </choice> A Escher</p>
+      </div>
+      <div type="dateline">
+        <p rend="left" xml:id="K_2851_p5">
+                    <lb xml:id="p1-l12"/>
+          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+          <lb xml:id="p1-l13"/>
+          <date when="1876-09-05">5 <choice>
+                            <abbr>Sept<hi rend="sup">r</hi> </abbr>
+                            <expan>September</expan>
+                        </choice> 1876</date>
+        </p>
+      </div>
+    </back>
+  </text>
+</TEI>

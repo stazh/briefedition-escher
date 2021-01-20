@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1144" n="" type="Brief">
+  <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Johann Konrad Kern an Alfred Escher, s.l., [1853]</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BAR</institution>
+                        <idno type="original">CH-BAR#J1.67#1000/1363#310*</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="escher">
+                    <list/>
+                </keywords>
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Kern Johann Konrad" type="sender">Johann Konrad Kern</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <placeName>s.l.</placeName>
+                    <date when="1853">[1853]</date>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-14" who="AI">Migration nach XML</change>
+            <change when="2013-06-04" who="NP">Auszeichnung 1 umgesetzt</change>
+            <change when="2013-07-08" who="DG">Verifizierung 1 umgesetzt</change>
+            <change when="2013-07-12" who="DG">Auszeichnung 2 umgesetzt</change>
+            <change when="2013-07-22" who="JS">Migrationsverifizierung umgesetzt</change>
+            <change when="2013-08-15" who="DG">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2013-08-22" who="KB">Übertragung Transkriptionsverfizierung Seiterle überprüft</change>
+            <change when="2013-10-23" who="VP">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="2013-11-13" who="CF">Verifizierung 2 umgesetzt</change>
+        </revisionDesc>
+    </teiHeader>
+  <text>
+    <front>
+      <div type="opener">
+        <p rend="indent" xml:id="K_1144_p1"> <seg type="com">
+                        <note type="addendum" xml:id="K_1144_c0">Datierung gemäss Archivnotiz.</note>
+                    </seg> <lb xml:id="p1-l1"/>Lieber Freund.</p>
+      </div>
+    </front>
+    <body>
+      <p rend="left" xml:id="K_1144_p2">
+                <lb xml:id="p1-l2"/>Von <placeName type="place" key="Romanshorn">Romansorn</placeName>
+                <note type="transcript">sic!</note> sind die Kaufvträge<note type="transcript">sic!</note> noch nicht 
+		<lb xml:id="p1-l3"/>eingegangen, so daß wir heute wohl keine
+		<lb xml:id="p1-l4"/>Sitzung halten können <choice>
+                    <abbr>u.</abbr>
+                    <expan>und</expan>
+                </choice> das Beste ist wenn
+		<lb xml:id="p1-l5"/>wir bei der <choice>
+                    <abbr>reglementar.</abbr>
+                    <expan>reglementarisch</expan>
+                </choice> Zeit bleiben Montags
+			<lb xml:id="p1-l6"/>4 Uhr.</p>
+    </body>
+    <back>
+      <div type="closer">
+        <p rend="right" xml:id="K_1144_p3">
+                    <lb xml:id="p1-l7"/>Mit freundschaftlichem Gruße</p>
+        <p rend="right" xml:id="K_1144_p4">
+                    <lb xml:id="p1-l8"/>Dein</p>
+      </div>
+      <div type="address">
+        <p rend="right" xml:id="K_1144_p5">
+                    <lb xml:id="p1-l9"/>Kern</p>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1185" n="" type="Brief">
+  <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Johann Konrad Kern an Alfred Escher, s.l., Samstag, März 19, 1853</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BAR</institution>
+                        <idno type="original">CH-BAR#J1.67#1000/1363#310*</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="escher">
+                    <list>
+                        <item>Wahlen</item>
+                        <item>Zürich-Bodensee-Bahn (ZBB)</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Kern Johann Konrad" type="sender">Johann Konrad Kern</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <placeName>s.l.</placeName>
+                    <date when="1853-03-19">Samstag, März 19, 1853</date>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-15" who="SCK">Migration nach XML</change>
+            <change when="2013-06-05" who="NP">Auszeichnung 1 umgesetzt</change>
+            <change when="2013-07-08" who="RO">Verifizierung 1 umgesetzt</change>
+            <change when="2013-7-15" who="SWK">Auszeichnung 2 umgesetzt</change>
+            <change when="2013-07-23" who="CB">Migrationsverifizierung umgesetzt</change>
+            <change when="2013-08-14" who="DG">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2013-08-22" who="KB">Übertragung Transkriptionsverifizierung Seiterle überprüft</change>
+            <change when="2013-10-24" who="VP">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="2013-12-10" who="VP">Verifizierung 2 umgesetzt</change>
+        </revisionDesc>
+    </teiHeader>
+  <text>
+    <front>
+      <div type="opener">
+        <p rend="indent" xml:id="K_1185_p1">
+                    <seg type="com">
+                        <note type="addendum" xml:id="K_1185_c0">Datierung gemäss Poststempel.</note>
+                    </seg>
+          <lb xml:id="p1-l1"/>Lieber Freund!</p>
+      </div>
+    </front>
+    <body>
+      <p rend="left" xml:id="K_1185_p2">
+                <lb xml:id="p1-l2"/>Ich vergaß <date when="1853-03-19">heute</date> Abend zu bemerken
+				<lb xml:id="p1-l3"/>daß es für die <placeName type="place" key="Thurgau">thurg.</placeName> Mitglieder wünschbar
+				<lb xml:id="p1-l4"/>ist es werde der Verwalt<supplied>un</supplied>gsrath statt
+				<lb xml:id="p1-l5"/>auf <date when="1853-03-29">Osterdienstag</date> eher auf <date when="1853-03-30">Mitwoch</date>
+                <note type="transcript">sic!</note> <choice>
+                    <abbr>od.</abbr>
+                    <expan>oder</expan>
+                </choice> <lb xml:id="p1-l6"/>  <date when="1853-03-31">Donnerstag</date> der gleichen Woche ein berufen.
+				<lb xml:id="p1-l7"/>Wir haben am <date when="1853-03-29">Osterdienstag</date> im ganzen
+				<lb xml:id="p1-l8"/>Kanton Wahlen. Ich könnte ebenfalls nicht
+				<lb xml:id="p1-l9"/>früher als am <date when="1853-03-29">Osterdienstag</date> Abends <choice>
+                    <abbr>od.</abbr>
+                    <expan>oder</expan>
+                </choice> <date when="1853-03-30">Mitwoch</date> <lb xml:id="p1-l10"/>früh eintreffen. 
+			</p>
+    </body>
+    <back>
+      <div type="closer">
+        <p rend="right" xml:id="K_1185_p3">
+                    <lb xml:id="p1-l11"/>Mit freundschaftlichem Gruße</p>
+        <p rend="right" xml:id="K_1185_p4">
+                    <lb xml:id="p1-l12"/>Dein</p>
+      </div>
+      <div type="address">
+        <p rend="right" xml:id="K_1185_p5">
+                    <lb xml:id="p1-l13"/>Kern.</p>
+      </div>
+    </back>
+  </text>
+</TEI>
