@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="escher" default="xar">
+    <xmlproperty file="expath-pkg.xml"/><!-- Adjust path below to match location of your npm binary -->
+    <property name="npm" value="/usr/local/bin/npm"/>
+    <property name="project.version" value="${package(version)}"/>
+    <property name="project.app" value="${package(abbrev)}"/>
+    <property name="build.dir" value="build"/>
+    <property name="scripts.dir" value="node_modules/@teipublisher/pb-components/dist"/>
+    <target name="clean">
+        <delete dir="${build}"/>
+        <delete dir="resources/scripts" includes="*.js *.map"/>
+        <delete dir="resources/images/leaflet"/>
+        <delete dir="resources/images/openseadragon"/>
+        <delete dir="resources/i18n/common"/>
+        <delete dir="resources/css" includes="leaflet/** prismjs/**"/>
+        <delete dir="resources/lib"/>
+    </target>
+    <target name="prepare">
+        <copy todir="resources/scripts">
+            <fileset dir="${scripts.dir}">
+                <include name="*.js"/>
+                <include name="*.map"/>
+            </fileset>
+        </copy>
+        <copy file="node_modules/leaflet/dist/leaflet.css" todir="resources/css/leaflet"/>
+        <copy todir="resources/images/leaflet">
+            <fileset dir="node_modules/leaflet/dist/images"/>
+        </copy>
+        <copy todir="resources/images/openseadragon">
+            <fileset dir="node_modules/openseadragon/build/openseadragon/images"/>
+        </copy>
+        <copy file="node_modules/openseadragon/build/openseadragon/openseadragon.min.js" todir="resources/lib"/>
+        <copy todir="resources/css/prismjs">
+            <fileset dir="node_modules/prismjs/themes"/>
+        </copy>
+        <copy todir="resources/i18n/common">
+            <fileset dir="node_modules/@teipublisher/pb-components/i18n/common"/>
+        </copy>
+    </target>
+    <target name="xar-local" depends="npm.install,prepare,xar"/>
+    <target name="xar">
+        <mkdir dir="${build.dir}"/>
+        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* node_modules/**"/>
+    </target>
+    <target name="xar-complete" depends="npm.install,xar"/>
+    <target name="npm.install">
+        <exec executable="${npm}" outputproperty="npm.output">
+            <arg line="install"/>
+        </exec>
+        <echo message="${npm.output}"/>
+    </target>
+</project>
