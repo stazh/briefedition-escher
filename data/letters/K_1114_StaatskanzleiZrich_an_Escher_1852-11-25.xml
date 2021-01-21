@@ -3,7 +3,7 @@
   <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> an Alfred Escher, Zürich, Donnerstag, November 25, 1852</title>
+                <title>Staatskanzlei Zürich an Alfred Escher, Zürich, Donnerstag, November 25, 1852</title>
             </titleStmt>
             <publicationStmt>
                 <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="" type="sender"/>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName type="sender">Staatskanzlei Zürich</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1852-11-25">Donnerstag, November 25, 1852</date>
                 </correspAction>
@@ -76,23 +76,25 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_1114_p5">
-                <lb xml:id="p1-l7"/>Der Regierungsrath hat in seiner <date when="1852-11-25">heutigen</date> <lb xml:id="p1-l8"/>
+                    <lb xml:id="p1-l7"/>Der Regierungsrath hat in seiner <date when="1852-11-25">heutigen</date> <lb xml:id="p1-l8"/>
 			Sitzung beschloßen, von einer vom <date when="1852-11-23">23. <choice>
-                        <abbr>d. M.</abbr>
-                        <expan>dieses Monats</expan>
-                    </choice> </date> <lb xml:id="p1-l9"/>
-                <choice>
-                    <abbr>erh.</abbr>
-                    <expan>erhalten</expan>
-                </choice> Zuschrift des Herrn <persName type="person" key="Coindet John">
-                    <hi>John Coindet</hi>
-                </persName> <lb xml:id="p1-l10"/>
+                            <abbr>d. M.</abbr>
+                            <expan>dieses Monats</expan>
+                        </choice> </date> <lb xml:id="p1-l9"/>
+                    <choice>
+                        <abbr>erh.</abbr>
+                        <expan>erhalten</expan>
+                    </choice> Zuschrift des Herrn <persName type="person" key="Coindet John">
+                        <hi>John Coindet</hi>
+                    </persName> <lb xml:id="p1-l10"/>
 			in <placeName type="place" key="Genf">Genf</placeName>, Namens der dortigen Westbahn-<lb break="no" xml:id="p1-l11"/>Gesellschaft, 
 			dem engeren Eisenbahn-<lb break="no" xml:id="p1-l12"/>Ausschuße einer <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>–<placeName type="place" key="Bodensee">Bodensee</placeName>bahn<lb xml:id="p1-l13"/>
 			vertrauliche Mittheilung zu machen.
 			</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_1114_p6">

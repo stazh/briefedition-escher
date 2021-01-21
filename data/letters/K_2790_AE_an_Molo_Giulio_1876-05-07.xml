@@ -10,7 +10,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier>
+                    <msIdentifier type="Entwurf">
                         <institution>BAR</institution>
                         <idno type="original">CH-BAR#J1.67#1000/1363#76*</idno>
                     </msIdentifier>
@@ -29,7 +29,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName ref="Molo Giulio" type="addressee">Giulio Molo</persName>
+                    <persName ref="Molo Giulio" type="sender">Giulio Molo</persName>
                     <placeName>Zürich</placeName>
                     <date when="1876-05-07">Sonntag, Mai 7, 1876</date>
                 </correspAction>
@@ -97,15 +97,16 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_2790_p4">
         <lb xml:id="p1-l5"/>Répondant à <seg type="ref">votre lettre du <date when="1876-05-01">1<hi rend="sup">er</hi> <choice>
-                            <abbr>C<hi rend="sup">t</hi>
-                            </abbr>
-                            <expan>Courant (laufenden [Monats])</expan>
-                        </choice>
-                    </date>
-                    <ref type="letter" target="K_2785"><!--→ Nr. 231--></ref>
-                </seg>,
+                                <abbr>C<hi rend="sup">t</hi>
+                                </abbr>
+                                <expan>Courant (laufenden [Monats])</expan>
+                            </choice>
+                        </date>
+                        <ref type="letter" target="K_2785"><!--→ Nr. 231--></ref>
+                    </seg>,
         <lb xml:id="p1-l6"/>je dois vous faire remarquer <del>en premier li</del> tout d'a<lb break="no" xml:id="p1-l7"/>bord qu'il ne m'est <add>pas</add> possible, dans ma position vis-
         <lb xml:id="p1-l8"/>à-vis de la Compagnie du Gothard, de donner des
         <lb xml:id="p1-l9"/> conseils en ce qui touche la vente des actions de
@@ -116,7 +117,7 @@
         <lb xml:id="p1-l14"/> <del>toutefois que la position est differente et que je puis 
         <lb xml:id="p1-l15"/> courir de chances aux quelles il peut ne pas vous 
         <lb xml:id="p1-l16"/> convenir de vous exposer.</del>
-                <note type="transcript">Nachträglicher Korrektureinschub aus der linken Spalte:</note> <add xml:id="p1-l16-i1">toutefois que, par suite même de ma position,   
+                    <note type="transcript">Nachträglicher Korrektureinschub aus der linken Spalte:</note> <add xml:id="p1-l16-i1">toutefois que, par suite même de ma position,   
         <lb xml:id="p1-l17"/>je ne me considère pas comme aussi libre que 
         <lb xml:id="p1-l18"/>d'autres de vendre des actions du Gothard.</add> </p>
       <p rend="indent" xml:id="K_2790_p5">
@@ -128,14 +129,15 @@
         <lb xml:id="p1-l24"/>encore plus que d'autres sujettes <supplied type="unclear">...</supplied> <supplied type="unclear">...</supplied> à des grandes fluctuation
         <lb xml:id="p1-l25"/>considerable et même à des pertes.</del> <add xml:id="p1-l25-i1">vous cacherai pas mon éton<lb break="no" xml:id="p1-l26"/>nement de voir des personnes placer tout ce qu'elles 
         <lb xml:id="p1-l27"/>possèdent en actions du Gothard, <choice>
-                        <abbr>c. à. d.</abbr>
-                        <expan>c'est à dire (das heisst)</expan>
-                    </choice> d'une entreprise 
+                            <abbr>c. à. d.</abbr>
+                            <expan>c'est à dire (das heisst)</expan>
+                        </choice> d'une entreprise 
         <lb xml:id="p1-l28"/>qui, comme tout le monde le savait, est – par la
         <lb xml:id="p1-l29"/>nature même des choses – excessivement chanceuse.</add> <seg type="ref">
-                    <ref type="sum" target="Rekonstruktion_Gotthardbahn_d1.4">Weitere Aktionärsbriefe<!-- → Band 1, S. 400--></ref>
-                </seg> </p>
-    </body>
+                        <ref type="sum" target="Rekonstruktion_Gotthardbahn_d1.4">Weitere Aktionärsbriefe<!-- → Band 1, S. 400--></ref>
+                    </seg> </p>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="left" xml:id="K_2790_p6">

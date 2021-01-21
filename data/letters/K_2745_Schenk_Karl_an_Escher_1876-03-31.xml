@@ -30,7 +30,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Schenk Karl" type="sender">Karl Schenk</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1876-03-31">Freitag, März 31, 1876</date>
                 </correspAction>
@@ -57,19 +57,21 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_2745_p2">
-                <lb xml:id="p1-l2"/>Unter bester Verdankung Ihrer Nachricht betreffend 
+                    <lb xml:id="p1-l2"/>Unter bester Verdankung Ihrer Nachricht betreffend 
             <lb xml:id="p1-l3"/>die Direction der <choice>
-                    <abbr>N.O.Bahn</abbr>
-                    <expan>NordOstBahn</expan>
-                </choice> und Herrn <persName type="person" key="Stoll Georg">Stoll</persName> kann 
+                        <abbr>N.O.Bahn</abbr>
+                        <expan>NordOstBahn</expan>
+                    </choice> und Herrn <persName type="person" key="Stoll Georg">Stoll</persName> kann 
             <lb xml:id="p1-l4"/>ich Ihnen hierwiederum mittheilen, daß auch die 
             <lb xml:id="p1-l5"/>Direction der <choice>
-                    <abbr>C.Bahn</abbr>
-                    <expan>CentralBahn</expan>
-                </choice> und der <placeName type="place" key="Jura">Jura</placeName>bahn unserer
+                        <abbr>C.Bahn</abbr>
+                        <expan>CentralBahn</expan>
+                    </choice> und der <placeName type="place" key="Jura">Jura</placeName>bahn unserer
             <lb xml:id="p1-l6"/>Einladung entsprechen werden. </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_2745_p3">

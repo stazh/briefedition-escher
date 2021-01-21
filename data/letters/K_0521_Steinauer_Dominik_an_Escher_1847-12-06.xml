@@ -28,7 +28,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Steinauer Dominik" type="sender">Dominik Steinauer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Einsiedeln</placeName>
                     <date when="1847-12-06">Montag, Dezember 6, 1847</date>
                 </correspAction>
@@ -97,6 +97,7 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_0521_p4">
                 <lb xml:id="p1-l4"/>Das Ergebniß der gestrigen Bezirks Gemeinde<lb xml:id="p1-l5"/> in der <placeName type="place" key="March">March</placeName> wird Dir bei Empfang dieses Brie
                 <lb break="no" xml:id="p1-l6"/>fes
@@ -106,12 +107,12 @@
                     <hi>Düggelis</hi>
                 </persName> <lb xml:id="p1-l8"/>
         &amp; des <choice>
-                    <abbr>H.</abbr>
-                    <expan>Herr</expan>
-                </choice> <choice>
-                    <abbr>Rathsh.</abbr>
-                    <expan>Rathsherr</expan>
-                </choice> <persName type="person" key="Stählin">Stählin</persName> 
+                        <abbr>H.</abbr>
+                        <expan>Herr</expan>
+                    </choice> <choice>
+                        <abbr>Rathsh.</abbr>
+                        <expan>Rathsherr</expan>
+                    </choice> <persName type="person" key="Stählin">Stählin</persName> 
         zuzuschreiben ist. Hätte<lb xml:id="p1-l9"/> man die Abfassungs Maaßregel zur Anwen
                 <lb break="no" xml:id="p1-l10"/>dung gebracht, so wäre dieser nicht nur unschäd
                 <lb break="no" xml:id="p1-l11"/>lich,
@@ -126,8 +127,8 @@
         <lb xml:id="p1-l21"/> In den Bezirken <placeName type="place" key="Wollerau">
                     <hi>Wollerau</hi>
                 </placeName> &amp; <placeName type="place" key="Pfäffikon (Freienbach)">
-                    <hi>Pfefficon</hi>
-                </placeName> <lb xml:id="p1-l22"/> sieht's besser aus, von <placeName type="place" key="Küssnacht (SZ)">
+                        <hi>Pfefficon</hi>
+                    </placeName> <lb xml:id="p1-l22"/> sieht's besser aus, von <placeName type="place" key="Küssnacht (SZ)">
                     <hi>Küssnacht</hi>
                 </placeName> &amp;
         <placeName type="place" key="Gersau">
@@ -135,7 +136,8 @@
                 </placeName> <lb xml:id="p1-l23"/> wo ebenfalls Gemeinden waren,
           mangeln<lb xml:id="p1-l24"/> die Berichte. Später Mehreres, ob auch <lb xml:id="p1-l25"/>
         Schöneres? – </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="center" xml:id="K_0521_p5">

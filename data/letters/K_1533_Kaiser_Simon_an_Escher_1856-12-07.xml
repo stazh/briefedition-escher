@@ -30,7 +30,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Kaiser Simon" type="sender">Simon Kaiser</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1856-12-07">Sonntag, Dezember 7, 1856</date>
                 </correspAction>
@@ -65,17 +65,19 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_1533_p3">
-                <lb xml:id="p1-l3"/>Im Auftrage des <choice>
-                    <abbr>Hrn</abbr>
-                    <expan>Herrn</expan>
-                </choice> <persName type="person" key="Schiess Johann Ulrich">Kanzlers</persName> <lb xml:id="p1-l4"/>beehre ich mich, Ihnen ein Exemplar
+                    <lb xml:id="p1-l3"/>Im Auftrage des <choice>
+                        <abbr>Hrn</abbr>
+                        <expan>Herrn</expan>
+                    </choice> <persName type="person" key="Schiess Johann Ulrich">Kanzlers</persName> <lb xml:id="p1-l4"/>beehre ich mich, Ihnen ein Exemplar
             <lb xml:id="p1-l5"/>des<note type="transcript">sic!</note> <choice>
-                    <abbr>Bundesräthl.</abbr>
-                    <expan>Bundesräthlich</expan>
-                </choice> Memoire über 
+                        <abbr>Bundesräthl.</abbr>
+                        <expan>Bundesräthlich</expan>
+                    </choice> Memoire über 
             <lb xml:id="p1-l6"/>die <placeName type="place" key="Neuenburg">Neuenburger</placeName>-Frage zu über<lb break="no" xml:id="p1-l7"/>senden.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_1533_p4">

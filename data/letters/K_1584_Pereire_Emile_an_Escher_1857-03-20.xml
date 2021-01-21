@@ -34,7 +34,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Pereire Emile" type="sender">Emile Pereire</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Paris</placeName>
                     <date when="1857-03-20">Freitag, März 20, 1857</date>
                 </correspAction>
@@ -70,8 +70,9 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_1584_p4">
-                <lb xml:id="p1-l5"/>Conformément à ce dont nous sommes convenus
+                    <lb xml:id="p1-l5"/>Conformément à ce dont nous sommes convenus
         <lb xml:id="p1-l6"/>verbalement, je viens vous renouveler l'assurance que,
         <lb xml:id="p1-l7"/>dans l'Assemblée générale qui devra décider du siége de
         <lb xml:id="p1-l8"/>la Société Générale des Chemins de Fer Suisses, j'userai
@@ -79,7 +80,8 @@
         <lb xml:id="p1-l10"/>que je représente, soit par mes relations avec d'autres
         <lb xml:id="p1-l11"/>Administrateurs, pour faire désigner <placeName type="place" key="Zürich (Stadt)">Zurich</placeName> comme
         <lb xml:id="p1-l12"/>siège de la Société.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="center" xml:id="K_1584_p5">

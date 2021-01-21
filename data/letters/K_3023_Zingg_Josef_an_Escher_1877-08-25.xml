@@ -31,7 +31,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Luzern</placeName>
                     <date when="1877-08-25">Samstag, August 25, 1877</date>
                 </correspAction>
@@ -125,12 +125,13 @@ Hochverehrter Herr Präsident!
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_3023_p3">
                 <lb xml:id="p1-l3"/>Soeben hat mich <seg type="ref">
                     <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> Oberingenieur<lb xml:id="p1-l4"/>
+                            <abbr>Hr.</abbr>
+                            <expan>Herr</expan>
+                        </choice> Oberingenieur<lb xml:id="p1-l4"/>
                     <persName type="person" key="Pressel Wilhelm">Preßel</persName>
                     <ref type="kbp">→ Wilhelm Pressel</ref>
                 </seg> verlaßen. Derselbe ist von der<lb xml:id="p1-l5"/> <seg type="ref">Bereisung des <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>
@@ -141,15 +142,15 @@ sehr gut studirt sei. <seg type="com">
                     <note xml:id="K_3023_c1">
                         <persName type="person" key="Pressel Wilhelm">Pressel</persName> basierte seine Beurteilungen auf einen von <ref type="kbp"/>
                         <persName type="person" key="Hellwag Konrad Wilhelm">Konrad Wilhelm Hellwag</persName> am <date when="1877-07-18">18.</date> <choice>
-                            <abbr>bzw.</abbr>
-                            <expan>beziehungsweise</expan>
-                        </choice> <date when="1877-07-28">28. Juli 1877</date> eingereichten Voranschlag, welcher die von der internationalen Konferenz vom Juni 1877 gutgeheissenen Projektmodifikationen berücksichtigte. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Pressel, Gutachten (8. September 1877)</ref>; <ref type="lit">Wanner, Gotthardbahn</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 395.</note>
+                                <abbr>bzw.</abbr>
+                                <expan>beziehungsweise</expan>
+                            </choice> <date when="1877-07-28">28. Juli 1877</date> eingereichten Voranschlag, welcher die von der internationalen Konferenz vom Juni 1877 gutgeheissenen Projektmodifikationen berücksichtigte. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Pressel, Gutachten (8. September 1877)</ref>; <ref type="lit">Wanner, Gotthardbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 395.</note>
                 </seg> Nichtsdestoweniger<lb xml:id="p1-l8"/>
 hofft er, daß noch ganz erhebliche Er
                 <lb break="no" xml:id="p1-l9"/>sparniße 
@@ -163,12 +164,12 @@ womit sehr viel zu erreichen sei;<lb xml:id="p1-l14"/>
 zu einer bedeutenden Abkürzung der<lb xml:id="p1-l16"/>
 kostbilligen Kehrtunnel führen werde &amp; <lb xml:id="p1-l17"/>
                     <hi rend="underline">einspuriger Bau der Tunnel</hi>.<note xml:id="K_3023_c2">Die Vorschläge <persName type="person" key="Pressel Wilhelm">Pressels</persName> gingen über die von der internationalen <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>konferenz im Juni 1877 beschlossenen Werte hinaus, welche – von Ausnahmen abgesehen – den minimalen Kurvenradius auf 280 m und das Steigungsmaximum auf 26–27‰ festgelegt hatte. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Conférences internationales 1877</ref>, Protocole final, 12. Juni 1877 (<choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 69);<!--Diese von Pressel vorgeschlagenen Massnahmen gingen beträchtlich über die von der internationalen Konferenz beschlossenen Werte hinaus: Das Schlussprotokoll vom 12. Juni  1877 begrenzte den minimalen Kurvenradius grundsätzlich auf 300 Meter; das Steigungsmaximum wurde auf 25 ‰ festgelegt. In Ausnahmefällen, welche der Zustimmung des Bundesrates bedurften, durften diese Werte leicht überschritten werden: <obj>Le Conseil fédéral n'autorisera la Compagnie à appliquer ces rayons minimum (280 mètres) et ces pentes maximum (26 à 27 ‰) que dans le cas où l'on réaliserait par ce moyen d'importantes économies.</obj> <abbr>Vgl.</abbr> <ref type="lit">Conférences internationales 1877, Protocole final, 12. Juni 1877 (S. 68-72).</ref>-->
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Conférences internationales 1877</ref>, Protocole final, 12. Juni 1877 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 69);<!--Diese von Pressel vorgeschlagenen Massnahmen gingen beträchtlich über die von der internationalen Konferenz beschlossenen Werte hinaus: Das Schlussprotokoll vom 12. Juni  1877 begrenzte den minimalen Kurvenradius grundsätzlich auf 300 Meter; das Steigungsmaximum wurde auf 25 ‰ festgelegt. In Ausnahmefällen, welche der Zustimmung des Bundesrates bedurften, durften diese Werte leicht überschritten werden: <obj>Le Conseil fédéral n'autorisera la Compagnie à appliquer ces rayons minimum (280 mètres) et ces pentes maximum (26 à 27 ‰) que dans le cas où l'on réaliserait par ce moyen d'importantes économies.</obj> <abbr>Vgl.</abbr> <ref type="lit">Conférences internationales 1877, Protocole final, 12. Juni 1877 (S. 68-72).</ref>-->
                         <ref type="lit">Pressel, Gutachten (8. September 1877)</ref>; <ref type="lit">Pressel, Gutachten (9. September 1877)</ref>. – Zur einspurigen Anlage der Tunnels<!--äussert sich Pressel der Verfasser der Untersuchung im-->
                         <ref type="letter" target="K_3030"><!--→ Nr. 308--></ref>.</note>
                 </seg> Abgesehen<lb xml:id="p1-l18"/>
@@ -181,40 +182,40 @@ Vereinfachungen in der Anlage statt
                 <lb break="no" xml:id="p2-l4"/>finden 
 können, die er nun noch speciell<lb xml:id="p2-l5"/>
 studieren will, so <choice>
-                    <abbr>z. B.</abbr>
-                    <expan>zum Beispiel</expan>
-                </choice> in der Anlage<lb xml:id="p2-l6"/>
+                        <abbr>z. B.</abbr>
+                        <expan>zum Beispiel</expan>
+                    </choice> in der Anlage<lb xml:id="p2-l6"/>
 der Bahn bei 
         <placeName type="place" key="Goldau (Arth)">Goldau</placeName> <seg type="com">
                     <note xml:id="K_3023_c3">Nachträgliche Unterstreichung des Wortes von Eschers Hand mit Bleistift.</note>
                 </seg>, außerhalb <placeName type="place" key="Brunnen (Ingenbohl)">Brunnen</placeName>, <seg type="com">
                     <note xml:id="K_3023_c4">Nachträgliche Notiz am linken Seitenrand von Eschers Hand mit Bleistift: <bibl>
                             <choice>
-                                <abbr>NB</abbr>
-                                <expan>Nota Bene (beachte)</expan>
-                            </choice>
+                                    <abbr>NB</abbr>
+                                    <expan>Nota Bene (beachte)</expan>
+                                </choice>
                         </bibl>.</note>
                 </seg> <lb xml:id="p2-l7"/>
         längs der <placeName type="place" key="Axen">Axen</placeName>straße, in der Streke <choice>
-                    <abbr>v.</abbr>
-                    <expan>von</expan>
-                </choice> <lb xml:id="p2-l8"/>
+                        <abbr>v.</abbr>
+                        <expan>von</expan>
+                    </choice> <lb xml:id="p2-l8"/>
                 <placeName type="place" key="Wassen (UR)">Waßen</placeName> nach <placeName type="place" key="Göschenen">Göschenen</placeName>, bei den
         <placeName type="place" key="Dazio Grande (Prato Leventina)">
-                    <hi>Dazio</hi>
-                </placeName>
+                        <hi>Dazio</hi>
+                    </placeName>
                 <lb break="no" xml:id="p2-l9"/>Tunneln &amp; den Kreiskehren <choice>
-                    <abbr>v.</abbr>
-                    <expan>von</expan>
-                </choice> <placeName type="place" key="Giornico">
-                    <hi>Giornico</hi>
-                </placeName>.<!--<com>[<b>PENDENT</b>. Lokalisierung der Ortschaften. Sekundär.]</com></c> -->
+                        <abbr>v.</abbr>
+                        <expan>von</expan>
+                    </choice> <placeName type="place" key="Giornico">
+                        <hi>Giornico</hi>
+                    </placeName>.<!--<com>[<b>PENDENT</b>. Lokalisierung der Ortschaften. Sekundär.]</com></c> -->
             </p>
       <p rend="left" xml:id="K_3023_p4">
                 <lb xml:id="p2-l10"/>Des Fernern bemerkte <choice>
-                    <abbr>Hr.</abbr>
-                    <expan>Herr</expan>
-                </choice> <persName type="person" key="Pressel Wilhelm">Preßel</persName>,<lb xml:id="p2-l11"/>
+                        <abbr>Hr.</abbr>
+                        <expan>Herr</expan>
+                    </choice> <persName type="person" key="Pressel Wilhelm">Preßel</persName>,<lb xml:id="p2-l11"/>
 daß er dafür halte, daß auch in den<lb xml:id="p2-l12"/>
                 <hi rend="underline">Normalien</hi> noch verschiedene Veränderungen<lb xml:id="p2-l13"/>
 zum Zweke der Erzielung einer Kosten
@@ -222,9 +223,9 @@ zum Zweke der Erzielung einer Kosten
 eintreten können, ohne die<lb xml:id="p2-l15"/>
 Solidität der Bahnanlage zu gefährden.<lb xml:id="p2-l16"/>
                 <choice>
-                    <abbr>Hr.</abbr>
-                    <expan>Herr</expan>
-                </choice> <seg type="ref">
+                        <abbr>Hr.</abbr>
+                        <expan>Herr</expan>
+                    </choice> <seg type="ref">
                     <persName type="person" key="Hellwag Konrad Wilhelm">Hellwag</persName>
                     <ref type="kbp">→ Konrad Wilhelm Hellwag</ref>
                 </seg> habe bezüglich des Mauer
@@ -234,9 +235,9 @@ die Tunnel (nicht den großen Tunnel) möchte<lb xml:id="p2-l19"/>
 er eine billigere Art der Maurung vor
                 <lb break="no" xml:id="p2-l20"/>schlagen &amp; zwar im Einverständniß mit <seg type="ref">
                     <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <lb xml:id="p2-l21"/>
+                            <abbr>Hrn.</abbr>
+                            <expan>Herrn</expan>
+                        </choice> <lb xml:id="p2-l21"/>
                     <persName type="person" key="Kauffmann Jakob">Kaufmann</persName>
                     <ref type="kbp">→ Jakob Kauffmann</ref>
                 </seg>. –  <pb n="3"/>
@@ -249,25 +250,25 @@ sei; er werde nun diese Seite der Sache<lb xml:id="p3-l4"/>
 noch im Detail prüfen &amp; studieren. – <seg type="com">
                     <note xml:id="K_3023_c5">Nachträgliche Notiz am linken Seitenrand von Eschers Hand mit Bleistift: <bibl>
                             <choice>
-                                <abbr>NB</abbr>
-                                <expan>Nota Bene (beachte)</expan>
-                            </choice>
+                                    <abbr>NB</abbr>
+                                    <expan>Nota Bene (beachte)</expan>
+                                </choice>
                         </bibl>.</note>
                 </seg> </p>
       <p rend="left" xml:id="K_3023_p6">
                 <lb xml:id="p3-l5"/> <seg type="com">
                     <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
+                            <abbr>Hr.</abbr>
+                            <expan>Herr</expan>
+                        </choice>
           <persName type="person" key="Pressel Wilhelm">Preßel</persName> sagte, daß er nun etwa<lb xml:id="p3-l6"/>
 14 Tage brauche, um seine Ideen &amp; Vorschläge<lb xml:id="p3-l7"/>
           zusammenzustellen;<note xml:id="K_3023_c6">
                         <persName type="person" key="Pressel Wilhelm">Pressel</persName> unterrichtete Escher über die Resultate seiner Untersuchung in den zwei erwähnten Berichten
             am <date when="1877-09-09">9. September 1877</date>. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="letter" target="K_3038"><!--Brief Wilhelm Pressel an Escher, 9. September 1877 (BAR J I.67-6.70)--></ref>.</note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="letter" target="K_3038"><!--Brief Wilhelm Pressel an Escher, 9. September 1877 (BAR J I.67-6.70)--></ref>.</note>
                 </seg> es wäre ihm angenehm,<lb xml:id="p3-l8"/>
 dieselben uns sodann zu allfälligen<lb xml:id="p3-l9"/>
 Bemerkungen vorlegen zu können. –</p>
@@ -275,23 +276,23 @@ Bemerkungen vorlegen zu können. –</p>
                 <lb xml:id="p3-l10"/>Ich weiß nun nicht recht, ob Sie noch<lb xml:id="p3-l11"/>
 vorgängig dieser Zusammenstellung mit<lb xml:id="p3-l12"/>
                 <choice>
-                    <abbr>Hrn.</abbr>
-                    <expan>Herrn</expan>
-                </choice> <persName type="person" key="Pressel Wilhelm">Preßel</persName> Rüksprache zu nehmen wünschen,<lb xml:id="p3-l13"/>
+                        <abbr>Hrn.</abbr>
+                        <expan>Herrn</expan>
+                    </choice> <persName type="person" key="Pressel Wilhelm">Preßel</persName> Rüksprache zu nehmen wünschen,<lb xml:id="p3-l13"/>
 oder <add>erst</add> wenn diese vorläufige Arbeit vor
                 <lb break="no" xml:id="p3-l14"/>liegt. 
 Es hat mir scheinen wollen, daß<lb xml:id="p3-l15"/>
                 <choice>
-                    <abbr>Hr.</abbr>
-                    <expan>Herr</expan>
-                </choice> <persName type="person" key="Pressel Wilhelm">Preßel</persName> seine Vorschläge in der einten<lb xml:id="p3-l16"/>&amp; andern Richtung noch von dem Ergebniß<lb xml:id="p3-l17"/>
+                        <abbr>Hr.</abbr>
+                        <expan>Herr</expan>
+                    </choice> <persName type="person" key="Pressel Wilhelm">Preßel</persName> seine Vorschläge in der einten<lb xml:id="p3-l16"/>&amp; andern Richtung noch von dem Ergebniß<lb xml:id="p3-l17"/>
 von Aufnahmen abhängig macht, die<lb xml:id="p3-l18"/>
 er bereits angeordnet hat. Wahrscheinlich <seg type="com">
                     <note xml:id="K_3023_c7">Nachträgliche Notiz am linken Seitenrand von Eschers Hand mit Bleistift: <bibl>
                             <choice>
-                                <abbr>NB</abbr>
-                                <expan>Nota Bene (beachte)</expan>
-                            </choice>
+                                    <abbr>NB</abbr>
+                                    <expan>Nota Bene (beachte)</expan>
+                                </choice>
                         </bibl>.</note>
                 </seg> <lb xml:id="p3-l19"/>
 werden sich verschiedene Vorschläge erst bei<lb xml:id="p3-l20"/>
@@ -311,29 +312,30 @@ der Baugrundsätze eine Besprechung.<lb xml:id="p4-l8"/>
 Bezüglich der Letztern habe ich noch beizu
                 <lb break="no" xml:id="p4-l9"/>fügen, 
 daß <choice>
-                    <abbr>Hr.</abbr>
-                    <expan>Herr</expan>
-                </choice> <persName type="person" key="Pressel Wilhelm">Preßel</persName> die Hoffnung<lb xml:id="p4-l10"/>
+                        <abbr>Hr.</abbr>
+                        <expan>Herr</expan>
+                    </choice> <persName type="person" key="Pressel Wilhelm">Preßel</persName> die Hoffnung<lb xml:id="p4-l10"/>
 ausgesprochen hat, es würde ihm nicht<lb xml:id="p4-l11"/>
 schwer fallen, deren Genehmhaltung<lb xml:id="p4-l12"/>
 in <placeName type="place" key="Berlin (D)">
-                    <hi>Berlin</hi>
-                </placeName> zu erwirken. –</p>
+                        <hi>Berlin</hi>
+                    </placeName> zu erwirken. –</p>
       <p rend="left" xml:id="K_3023_p9">
                 <lb xml:id="p4-l13"/>
         <date when="1877-08-26">Morgen</date> hoffe ich <seg type="ref">
                     <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Feer-Herzog Carl">
-                        <hi>Feer</hi>-Herzog</persName>
+                            <abbr>Hrn.</abbr>
+                            <expan>Herrn</expan>
+                        </choice> <persName type="person" key="Feer-Herzog Carl">
+                            <hi>Feer</hi>-Herzog</persName>
                     <ref type="kbp">→ Carl Feer-Herzog</ref>
                 </seg> <lb xml:id="p4-l14"/>
 zu sehen, welcher <date when="1877-08-24">gestern</date> mit <persName type="person" key="Pressel Wilhelm">Preßel</persName> <lb xml:id="p4-l15"/>
 in <placeName type="place" key="Brunnen (Ingenbohl)">
-                    <hi>Brunnen</hi>
-                </placeName> zusammengetroffen ist.</p>
-    </body>
+                        <hi>Brunnen</hi>
+                    </placeName> zusammengetroffen ist.</p>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="left" xml:id="K_3023_p10">

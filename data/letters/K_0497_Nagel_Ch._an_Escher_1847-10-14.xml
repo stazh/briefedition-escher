@@ -28,7 +28,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Nagel Ch." type="sender">Ch. Nagel</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Paris</placeName>
                     <date when="1847-10-14">Donnerstag, Oktober 14, 1847</date>
                 </correspAction>
@@ -89,15 +89,16 @@ d'Etat de Canton du <placeName type="place" key="Zürich">Zurich,</placeName> </
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_0497_p4">
                 <lb xml:id="p1-l6"/>
 J'ai pris la liberté au<lb xml:id="p1-l7"/>
 mois d'août dernier de vous<lb xml:id="p1-l8"/>
 adresser par l'entremise de<lb xml:id="p1-l9"/>
 mon frère, <choice>
-                    <abbr>M</abbr>
-                    <expan>Monsieur (Herr)</expan>
-                </choice> <persName type="person" key="Nagel Friedrich">Frédéric Nagel</persName>,
+                        <abbr>M</abbr>
+                        <expan>Monsieur (Herr)</expan>
+                    </choice> <persName type="person" key="Nagel Friedrich">Frédéric Nagel</persName>,
                 <note type="transcript">1793-1865</note> <lb xml:id="p1-l10"/>
 à <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>, une lettre dans laquelle<lb xml:id="p1-l11"/>
 je vous demandais votre opinion<lb xml:id="p1-l12"/>
@@ -126,7 +127,8 @@ serait heureux d'y finir ses jours.<lb xml:id="p2-l12"/>
 Il désirerait une réponse assez<lb xml:id="p2-l13"/>
 prompte pour qu'il put se<lb xml:id="p2-l14"/>
 décider avant l'hiver.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_0497_p5">

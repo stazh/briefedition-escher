@@ -28,7 +28,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Waldner August" type="sender">August Waldner</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1879-03-21">Freitag, März 21, 1879</date>
                 </correspAction>
@@ -74,17 +74,19 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_3230_p4">
-                <lb xml:id="p1-l8"/>Herr Professor <choice>
-                    <abbr>D<hi rend="sup">r</hi> </abbr>
-                    <expan>Doktor / Doctor</expan>
-                </choice> <persName type="person" key="Vogt Gustav">
-                    <hi>Vogt</hi>
-                </persName>, dem Sie auf <lb xml:id="p1-l9"/>
-                <date when="1879-03-21">heute</date> Abend telegraphisch ein Rendez-vous
+                    <lb xml:id="p1-l8"/>Herr Professor <choice>
+                        <abbr>D<hi rend="sup">r</hi> </abbr>
+                        <expan>Doktor / Doctor</expan>
+                    </choice> <persName type="person" key="Vogt Gustav">
+                        <hi>Vogt</hi>
+                    </persName>, dem Sie auf <lb xml:id="p1-l9"/>
+                    <date when="1879-03-21">heute</date> Abend telegraphisch ein Rendez-vous
                     <lb xml:id="p1-l10"/>vorgeschlagen haben, befindet sich seit <date when="1879-03-20">gest<lb break="no" xml:id="p1-l11"/>ern</date> in <placeName type="place" key="Bern (Stadt)">Bern</placeName>. Da wir seine Adresse nicht <lb xml:id="p1-l12"/>kennen, so konnten wir
                 ihn von dem In<lb break="no" xml:id="p1-l13"/>halte Ihres Telegrammes nicht verstän<lb break="no" xml:id="p1-l14"/>digen.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_3230_p5">

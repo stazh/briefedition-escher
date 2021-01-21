@@ -29,7 +29,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Dammann Leodegar" type="sender">Leodegar Dammann</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Kulm</placeName>
                     <date when="1845-09-17">Mittwoch, September 17, 1845</date>
                 </correspAction>
@@ -89,6 +89,7 @@
       </div><!--Leerer Absatz-->
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_0399_p3">
                 <lb xml:id="p1-l3"/>Sie werden es meiner Lage zu gut halten, wenn ich<lb xml:id="p1-l4"/> Sie
         nochmals um Ihre Verwendung dringend ersuche. Denn<lb xml:id="p1-l5"/> so sehr ich mir auch seit
@@ -115,9 +116,9 @@
             Jakob Imobersteg</ref></r> --> mein<lb xml:id="p2-l2"/> spezieller Freund (seit <placeName type="place" key="Heidelberg (D)">Heidelberg</placeName>
         &amp;
         <placeName type="place" key="Paris (F)">Paris</placeName>), aber auch er<lb xml:id="p2-l3"/> und Herr <choice>
-                    <abbr>D</abbr>
-                    <expan>Doktor / Doctor</expan>
-                </choice> <persName type="person" key="Knobel Eduard">Knobel</persName> in
+                        <abbr>D</abbr>
+                        <expan>Doktor / Doctor</expan>
+                    </choice> <persName type="person" key="Knobel Eduard">Knobel</persName> in
           <placeName type="place" key="Nidau">Nidau</placeName>, mein ehemaliger Professor<lb xml:id="p2-l4"/>
         konnten mir bishin keinen Plaz verschaffen; es sei<lb xml:id="p2-l5"/> alles übersezt. Man
         sollte kaum glauben, daß in<lb xml:id="p2-l6"/> der Schweiz <hi rend="underline">Studien</hi> so schwer anzubringen
@@ -140,17 +141,17 @@
           Zeit<pb n="3"/>
                 <lb xml:id="p3-l1"/> zu thun, und ich stehe wieder aufrecht, aber eben in
           dieser<lb xml:id="p3-l2"/> einigen Zeit muß ich mich auf <hi rend="underline">liberale</hi> Freunde <choice>
-                    <abbr>u</abbr>
-                    <expan>und</expan>
-                </choice> Gönner<lb xml:id="p3-l3"/> verlassen. Sie begreifen wohl, daß für
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Gönner<lb xml:id="p3-l3"/> verlassen. Sie begreifen wohl, daß für
         Jemanden, der<lb xml:id="p3-l4"/> von Hause aus ohne Vermögen ist, schon die bisherigen<lb xml:id="p3-l5"/> bald zehn Monate zu
         prästiren<!--<com id="K_0399_c5">Prästieren: aushalten, ertragen. <ref type="lit">Grimm Jacob/Grimm Wilhelm, Deutsches Wörterbuch</ref>.</com>-->
         schwer fallen mußte.<lb xml:id="p3-l6"/> Endlich muß ich wieder meine Studien sich rentiren
           laßen.<lb xml:id="p3-l7"/> Ich glaubte in Ihrem Kanton auch als Lehrer ankommen<lb xml:id="p3-l8"/> zu können, &amp; stand deßhalb mit Herrn Bürgermeister<lb xml:id="p3-l9"/>
                 <choice>
-                    <abbr>D</abbr>
-                    <expan>Doktor / Doctor</expan>
-                </choice> <persName type="person" key="Zehnder Ulrich">Zehnder</persName><!--<com id="K_0399_c6">Ulrich Zehnder (1798–1877).</com>--> in
+                        <abbr>D</abbr>
+                        <expan>Doktor / Doctor</expan>
+                    </choice> <persName type="person" key="Zehnder Ulrich">Zehnder</persName><!--<com id="K_0399_c6">Ulrich Zehnder (1798–1877).</com>--> in
         <hi>Correspondenz</hi>. Aus einem <date when="1845-09-17">heute</date> von<lb xml:id="p3-l10"/> demselben
         erhaltenen Briefe ersehe ich, daß Sie bereits<lb xml:id="p3-l11"/> im Besitze meiner Zeugniße u
         seit Längerm in Aus
@@ -167,7 +168,8 @@
           so
                 <lb break="no" xml:id="p3-l22"/>wie Ihnen meine gewiß nur <hi rend="underline">nothgedrungenen</hi> <hi rend="underline">Bitten</hi> <lb xml:id="p3-l23"/> nochmals angelegenst empfehlend geharrt mit Schweizer
                 <lb break="no" xml:id="p3-l24"/>gruß &amp; wahrer Hochachtung</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_0399_p6">

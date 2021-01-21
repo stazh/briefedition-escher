@@ -31,7 +31,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Widmer Johann Conrad" type="sender">Johann Conrad Widmer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1863-09-21">Montag, September 21, 1863</date>
                 </correspAction>
@@ -117,12 +117,13 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_2031_p2">
                 <lb xml:id="p1-l2"/>
         <date when="1863-09-20">Gestern</date> gieng ich noch expreß nach <placeName type="place" key="Frauenfeld">Frauenfeld</placeName>.<lb xml:id="p1-l3"/> Unterwegs reiste ich mit
 					Herrn <seg type="com">Minister <persName type="person" key="Kern Johann Konrad">
-                        <hi>Kern</hi>
-                    </persName>
+                            <hi>Kern</hi>
+                        </persName>
                     <note xml:id="K_2031_c1">
                         <persName type="person" key="Kern Johann Konrad">Johann Konrad Kern</persName> (1808–1888), <placeName type="place" key="Thurgau">Thurgauer</placeName> Politiker, ausserordentlicher Gesandter
 						und bevollmächtigter Minister der Schweiz in <placeName type="place" key="Paris (F)">Paris</placeName>.</note>
@@ -146,15 +147,15 @@
                 </seg> )<lb xml:id="p1-l8"/> einstweilen mit dem Ausspruch zuwarten wollen.<lb xml:id="p1-l9"/>
 				Die Minorität wagt es nicht, den <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName> <lb xml:id="p1-l10"/> zu empfehlen; Herr <persName type="person" key="Labhardt Philipp Gottlieb">Labhardt</persName> sagte mir, er
 					selbst<lb xml:id="p1-l11"/> halte den <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName> für die beßere Linie.<lb xml:id="p1-l12"/> Dann kommen die aber – aber – <choice>
-                    <abbr>usw</abbr>
-                    <expan>und so weiter</expan>
-                </choice>, und<lb xml:id="p1-l13"/> die <choice>
-                    <abbr>sog.</abbr>
-                    <expan>sogenannt</expan>
-                </choice> Schlauheiten, sich in keine <del>Schlau
+                        <abbr>usw</abbr>
+                        <expan>und so weiter</expan>
+                    </choice>, und<lb xml:id="p1-l13"/> die <choice>
+                        <abbr>sog.</abbr>
+                        <expan>sogenannt</expan>
+                    </choice> Schlauheiten, sich in keine <del>Schlau
                     <lb break="no" xml:id="p1-l14"/>heiten</del> <seg type="com">
-                    <add>Consequenzen</add>
-                    <note xml:id="K_2031_c4">Nachträgliche Korrektur, ursprünglich:
+                        <add>Consequenzen</add>
+                        <note xml:id="K_2031_c4">Nachträgliche Korrektur, ursprünglich:
 							<bibl>Schlauheiten</bibl>.</note>
                 </seg> <!--Transkriptionsbereinigung--> hineinziehen zu laßen. Ob die <placeName type="place" key="St. Gallen">St.<lb xml:id="p1-l15"/> Galler</placeName> dahinter steken, weiß ich
 					nicht.</p>
@@ -163,9 +164,9 @@
                     <persName type="person" key="Anderwert Fridolin">Anderwert</persName>
                     <ref type="kbp">→ Fridolin Anderwert</ref>
                 </seg> &amp; <choice>
-                    <abbr>Oberg.Präs.</abbr>
-                    <expan>ObergerichtsPräsident</expan>
-                </choice> <seg type="com">
+                        <abbr>Oberg.Präs.</abbr>
+                        <expan>ObergerichtsPräsident</expan>
+                    </choice> <seg type="com">
                     <persName type="person" key="Ramsperger Augustin">Ramsperger</persName>
                     <note xml:id="K_2031_c5">
                         <persName type="person" key="Ramsperger Augustin">Augustin Ramsperger</persName>
@@ -180,14 +181,14 @@
                 <lb xml:id="p1-l23"/>
         <date when="1863-09-21">Heute</date> Abend bringt die <seg type="com">
                     <choice>
-                        <abbr>
+                            <abbr>
                         <placeName type="place" key="Thurgau">Thurg.</placeName> Zeitung</abbr>
-                        <expan>Thurgauer Zeitung</expan>
-                    </choice> <lb xml:id="p1-l24"/> noch einen Artikel von mir<note xml:id="K_2031_c6">
+                            <expan>Thurgauer Zeitung</expan>
+                        </choice> <lb xml:id="p1-l24"/> noch einen Artikel von mir<note xml:id="K_2031_c6">
                         <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Thurgauer Zeitung</ref>,
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Thurgauer Zeitung</ref>,
 						22. September 1863. – Der Regierungsrat des Kantons <placeName type="place" key="Thurgau">Thurgau</placeName> machte schliesslich <bibl>von der durch den
 							Großen Rath ihm zuerkannten Befugniß Gebrauch</bibl> und erklärte den
 						Beitritt zur <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>übereinkunft. <ref type="lit">Thurgauer Zeitung</ref>,
@@ -195,7 +196,8 @@
                 </seg>, berechnet<lb xml:id="p1-l25"/> auf den Großen
 				Rath, der sich <date when="1863-09-22">morgen</date> in<lb xml:id="p1-l26"/>
                 <placeName type="place" key="Weinfelden">Weinfelden</placeName> versammelt. </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="center" xml:id="K_2031_p6">

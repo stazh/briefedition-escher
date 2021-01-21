@@ -28,7 +28,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1877-11-05">Montag, November 5, 1877</date>
                 </correspAction>
@@ -56,8 +56,9 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_3076_p2">
-                <lb xml:id="p1-l2"/>Ich habe Ihnen schon telegraphirt,
+                    <lb xml:id="p1-l2"/>Ich habe Ihnen schon telegraphirt,
                 <lb xml:id="p1-l3"/>dass Herr <persName type="person" key="Heer Joachim">Heer</persName> seit acht Tagen
                 <lb xml:id="p1-l4"/>in <placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName> im Urlaub ist und erst
                 <lb xml:id="p1-l5"/>Mitte oder Ende dieser Woche wieder
@@ -66,16 +67,17 @@
                 <lb xml:id="p1-l9"/>angesagt wurde. Sie würden mich
                 <lb xml:id="p1-l10"/>also <date when="1877-11-06">morgen</date> allein und nur bis
                 <pb n="2"/>
-                <lb xml:id="p2-l1"/>9 Uhr und nach der Sitzung <choice>
-                    <abbr>d. h.</abbr>
-                    <expan>das heisst / das heißt</expan>
-                </choice> <lb xml:id="p2-l2"/>Nachmittags treffen. In diesen mir ge<lb break="no" xml:id="p2-l3"/>zogenen Grenzen stelle ich mich mit
+                    <lb xml:id="p2-l1"/>9 Uhr und nach der Sitzung <choice>
+                        <abbr>d. h.</abbr>
+                        <expan>das heisst / das heißt</expan>
+                    </choice> <lb xml:id="p2-l2"/>Nachmittags treffen. In diesen mir ge<lb break="no" xml:id="p2-l3"/>zogenen Grenzen stelle ich mich mit
                 <lb xml:id="p2-l4"/>Vergnügen zur Verfügung. Ziehen Sie
                 <lb xml:id="p2-l5"/>es vor Herrn <persName type="person" key="Heer Joachim">Heer</persName> auch zu treffen,
                 <lb xml:id="p2-l6"/>so mache ich mich anheischig Sie von
                 <lb xml:id="p2-l7"/>seiner Rückkunft sofort zu verstän<lb break="no" xml:id="p2-l8"/>digen.
             </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="right" xml:id="K_3076_p3">

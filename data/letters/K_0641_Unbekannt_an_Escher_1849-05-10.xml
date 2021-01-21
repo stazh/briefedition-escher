@@ -32,7 +32,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Brändli Benjamin" type="sender">Benjamin Brändli</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1849-05-10">Donnerstag, Mai 10, 1849</date>
                 </correspAction>
@@ -89,6 +89,7 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_0641_p3">
                 <lb xml:id="p1-l3"/>Noch immer liege ich im Krankenbette, <lb xml:id="p1-l4"/>
 auf das ich vor 3 Wochen durch einen Rückfall auf's <lb xml:id="p1-l5"/>
@@ -124,11 +125,11 @@ Cirkular &amp; den beigelegten Vorschlag ein
                 <lb break="no" xml:id="p1-l26"/>sehen,
 den Letztern unterschreiben &amp; die Papiere <lb xml:id="p1-l27"/>
 dem Herrn <choice>
-                    <abbr>
-                        <hi>D<hi rend="sup">r</hi>
-                        </hi> </abbr>
-                    <expan>Doktor / Doctor</expan>
-                </choice> <persName type="person" key="Weidmann Felix">Weidmann</persName> zu<del>it</del> gleichem Zwecke mit <lb xml:id="p1-l28"/>
+                        <abbr>
+                            <hi>D<hi rend="sup">r</hi>
+                            </hi> </abbr>
+                        <expan>Doktor / Doctor</expan>
+                    </choice> <persName type="person" key="Weidmann Felix">Weidmann</persName> zu<del>it</del> gleichem Zwecke mit <lb xml:id="p1-l28"/>
 dem Gesuche mittheilen möchtest, daß er sie mir <lb xml:id="p1-l29"/>
 möglichst bald zurücksende. Tröste Dich hiebei <lb xml:id="p1-l30"/>
 mit mir, der ich in<del>it</del> meiner Krankheit mit <lb xml:id="p1-l31"/>
@@ -136,7 +137,8 @@ dieser <persName type="person" key="Studer">
                     <note type="transcript">?</note> Studer'schen</persName> Sache wirklich über Gebühr <pb n="2"/>
                 <lb xml:id="p2-l1"/>
 geplagt worden bin.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="left" xml:id="K_0641_p4">

@@ -10,9 +10,9 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier>
+                    <msIdentifier type="Entwurf">
                         <institution>SBB Historic</institution>
-                        <idno type="original"/>
+                        <idno type="original">VGB_GB_SBBGB01_015</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
@@ -29,7 +29,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName ref="Kaufmann Rudolf" type="addressee">Rudolf Kaufmann</persName>
+                    <persName ref="Kaufmann Rudolf" type="sender">Rudolf Kaufmann</persName>
                     <placeName>Zürich</placeName>
                     <date when="1871-10-24">Dienstag, Oktober 24, 1871</date>
                 </correspAction>
@@ -69,22 +69,24 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_8020_p3">
-                <lb xml:id="p1-l4"/>Anmit bescheinige ich Ihnen den
+                    <lb xml:id="p1-l4"/>Anmit bescheinige ich Ihnen den
         <lb xml:id="p1-l5"/> <seg type="ref">Empfang<ref type="letter" target="K_8017"/>
-                </seg> Ihres Verpflichtungsscheines für den
+                    </seg> Ihres Verpflichtungsscheines für den
         <lb xml:id="p1-l6"/>Beitritt zu dem Consortium für Beschaffung
         <lb xml:id="p1-l7"/>des zu dem Baue der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn erforder<lb break="no" xml:id="p1-l8"/>lichen Kapitales mit der Summe von
             <lb xml:id="p1-l9"/>
-                <choice>
-                    <abbr>
-                        <hi>Fr</hi>.</abbr>
-                    <expan>Franken / Francs / Franchi</expan>
-                </choice> 1,000,000 (⅓ in Aktien <choice>
-                    <abbr>u</abbr>
-                    <expan>und</expan>
-                </choice> ⅔ in Obli<lb break="no" xml:id="p1-l10"/>gationen).</p>
-    </body>
+                    <choice>
+                        <abbr>
+                            <hi>Fr</hi>.</abbr>
+                        <expan>Franken / Francs / Franchi</expan>
+                    </choice> 1,000,000 (⅓ in Aktien <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> ⅔ in Obli<lb break="no" xml:id="p1-l10"/>gationen).</p>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_8020_p4">

@@ -30,7 +30,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Pestalozzi Leonhard" type="sender">Leonhard Pestalozzi</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1849-11-19">Montag, November 19, 1849</date>
                 </correspAction>
@@ -105,6 +105,7 @@
       </div><!--Leerer Absatz-->
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_0716_p2">
                 <lb xml:id="p1-l2"/>Dankbar für Ihre gefällige <seg type="com">Mittheilung<note xml:id="K_0716_c1">Brief nicht
             ermittelt.</note>
@@ -116,9 +117,9 @@
                     <seg type="com">Münz
                         <lb break="no" xml:id="p1-l5"/>gutachten<note xml:id="K_0716_c2">Das von Leonhard Pestalozzi im Auftrag der <placeName type="place" key="Zürich">zürcherischen</placeName> Handelskammer erstellte Gutachten
               empfahl die Einführung eines Schweizer Frankens basierend auf dem <placeName type="place" key="Süddeutschland">süddeutschen</placeName> Guldenfuss. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice>
+                                    <abbr>Vgl.</abbr>
+                                    <expan>Vergleiche</expan>
+                                </choice>
                             <ref type="lit">Pestalozzi, Schweizerfranken</ref>.</note>
                     </seg>
                     <ref target="Institutionen_Strukturen_Prozesse_d1.4.3" type="sum">Münzwesen<!--→ S. 25-27--></ref>
@@ -133,11 +134,11 @@
                     </note>
                 </seg> tüchtig an die Ausarbeitung gemacht
           &amp; wenn<lb xml:id="p1-l10"/> man mir längstens noch <choice>
-                    <abbr>
+                        <abbr>
                     <hi>C<hi rend="sup">a</hi> </hi>
                 </abbr>
-                    <expan>Circa</expan>
-                </choice> 10 Tage Zeit läst<note type="transcript">sic!</note> so hoffe ich<lb xml:id="p1-l11"/> eine gründliche Arbeit zu
+                        <expan>Circa</expan>
+                    </choice> 10 Tage Zeit läst<note type="transcript">sic!</note> so hoffe ich<lb xml:id="p1-l11"/> eine gründliche Arbeit zu
         vollenden.<metamark>#</metamark>
                 <note type="transcript">Zeichen für Einschub aus dem unteren Rand der Seite 1:</note> <add xml:id="p1-l11-i1">
                     <metamark>#</metamark>&amp; hoffe, daß bei der Handelskammer
@@ -153,10 +154,10 @@
           der<lb xml:id="p1-l22"/> geringhaltigen Münzen kennt man durchaus nicht genau. Aus<lb xml:id="p1-l23"/>
         diesem Grund &amp; wegen Rechnungsirrungen kann der<lb xml:id="p1-l24"/> muthmaßliche
         Verlust mit weit mehr Wahrscheinlichkeit<lb xml:id="p1-l25"/> auf 4 <hi>à</hi> 5 Millionen <choice>
-                    <abbr>Schw.
+                        <abbr>Schw.
           Fr</abbr>
-                    <expan>Schweizer Franken / Francs</expan>
-                </choice> als wie H<supplied>err</supplied> <seg type="com">
+                        <expan>Schweizer Franken / Francs</expan>
+                    </choice> als wie H<supplied>err</supplied> <seg type="com">
                     <persName type="person" key="Speiser Johann Jakob">
                         <hi>Speiser</hi>
                     </persName>
@@ -164,25 +165,25 @@
                         <persName type="person" key="Speiser Johann Jakob">Johann Jakob
               Speiser</persName> (1813–1856), <placeName type="place" key="Basel">Basler</placeName> Bankier und
               <choice>
-                            <abbr>eidg.</abbr>
-                            <expan>eidgenössisch</expan>
-                        </choice> Münzexperte. <ref target="Institutionen_Strukturen_Prozesse_p23" type="sum"><!--→ S.
+                                <abbr>eidg.</abbr>
+                                <expan>eidgenössisch</expan>
+                            </choice> Münzexperte. <ref target="Institutionen_Strukturen_Prozesse_p23" type="sum"><!--→ S.
             25-26--></ref>.</note>
                 </seg> glaubt <pb n="2"/>
                 <lb xml:id="p2-l1"/> auf blos<note type="transcript">sic!</note> ½ Million <choice>
-                    <abbr>Schw
+                        <abbr>Schw
           Fr</abbr>
-                    <expan>Schweizer Franken / Francs</expan>
-                </choice> angenohmen<note type="transcript">sic!</note> werden. <placeName type="place" key="Genf">
+                        <expan>Schweizer Franken / Francs</expan>
+                    </choice> angenohmen<note type="transcript">sic!</note> werden. <placeName type="place" key="Genf">
                     <hi>Genf</hi>
                 </placeName> das<lb xml:id="p2-l2"/> gewiß
         weniger schlechte Scheidemünz<note type="transcript">sic!</note> als die übrige Schweiz<lb xml:id="p2-l3"/> besaß, hat vor 10 Jahren die
         Umwandlung seines alten<lb xml:id="p2-l4"/> Münzsistems in das <placeName type="place" key="Frankreich">franz<supplied>ösische</supplied>
                 </placeName>
         121 000 <choice>
-                    <abbr>Schw. Franken</abbr>
-                    <expan>Schweizer Franken</expan>
-                </choice> gekostet<lb xml:id="p2-l5"/> was die Erwartungen weit überstieg
+                        <abbr>Schw. Franken</abbr>
+                        <expan>Schweizer Franken</expan>
+                    </choice> gekostet<lb xml:id="p2-l5"/> was die Erwartungen weit überstieg
           &amp; nach <placeName type="place" key="Genf">
                     <hi>Genfs</hi>
                 </placeName>
@@ -197,11 +198,12 @@
  Gesammt<note type="transcript">sic!</note> Schweiz nur 4 mal so viel koste als<lb xml:id="p2-l12"/>jene des kleinen Kanton <placeName type="place" key="Genf">
                         <hi>Genf</hi>.
                     </placeName>
-                </add> 
+                    </add> 
         Ich glaube dieses &amp; manches andere<lb xml:id="p2-l13"/>
         verdiene eine nähere Prüfung. Ich wünsche eben so wenig<lb xml:id="p2-l14"/> daß man das
           Schweizerische Sistem das ich vertheidige<lb xml:id="p2-l15"/> leichthin annehme, hingegen daß man dem alten goldnen<lb xml:id="p2-l16"/> Sprüchlein getreu bleibe «Prüfet alles» –</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_0716_p3">

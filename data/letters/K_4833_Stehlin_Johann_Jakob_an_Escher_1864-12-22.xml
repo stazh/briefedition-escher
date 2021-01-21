@@ -12,7 +12,7 @@
                 <msDesc>
                     <msIdentifier>
                         <institution>SBB Historic</institution>
-                        <idno type="original"/>
+                        <idno type="original">VGB_GB_SBBGB01_004</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
@@ -29,7 +29,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Stehlin Johann Jakob" type="sender">Johann Jakob Stehlin</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Basel</placeName>
                     <date when="1864-12-22">Donnerstag, Dezember 22, 1864</date>
                 </correspAction>
@@ -71,6 +71,7 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_4833_p2">
                 <lb xml:id="p1-l2"/>Von Herrn Stabshauptmann <persName type="person" key="Kündig Andreas">Kündig</persName> Direktor
                 <lb xml:id="p1-l3"/>der Kadaster<note type="transcript">sic!</note>Vermessungen in <placeName type="place" key="Solothurn">
@@ -92,9 +93,9 @@
                 <lb xml:id="p1-l15"/>Herr <hi>
                     <persName type="person" key="Landerer Rodolfo">Landerer</persName> </hi><!-- korrigiert von "Lauderer" zu "Landerer", BF, 28.07.2014 --> hat auf seine informativen
                 <lb xml:id="p1-l16"/>Anfragen <choice>
-                    <abbr>bezügl.</abbr>
-                    <expan>bezüglich</expan>
-                </choice> Herrn <hi>
+                        <abbr>bezügl.</abbr>
+                        <expan>bezüglich</expan>
+                    </choice> Herrn <hi>
                     <persName type="person" key="Garrand">Garrand</persName> </hi> noch
                 <lb xml:id="p1-l17"/>keine Antwort erhalten, seine Nase ist
                 <pb n="2"/>
@@ -114,7 +115,8 @@
                 <lb xml:id="p2-l12"/>mindern und ich gerne die Last ihrer<note type="transcript">sic!</note> <lb xml:id="p2-l13"/>Geschäfte bezüglich der <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>Sache
                 <lb xml:id="p2-l14"/>mittragen helfen würde. –
             </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
                 <p rend="left" xml:id="K_4833_p5">

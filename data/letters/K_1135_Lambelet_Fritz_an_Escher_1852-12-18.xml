@@ -32,7 +32,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Lambelet Fritz" type="sender">Fritz Lambelet</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Les Verrières</placeName>
                     <date when="1852-12-18">Samstag, Dezember 18, 1852</date>
                 </correspAction>
@@ -85,14 +85,15 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_1135_p3">
                 <lb xml:id="p1-l3"/>J'ai eu l'honneur de vous <seg type="ref">écrire<ref type="letter" target="K_1124"/>
                 </seg> le <date when="1852-12-04">4 <choice>
-                        <abbr>C<hi rend="sup">t</hi>
-                        </abbr>
-                        <expan>Currentis (laufenden [Monats])</expan>
-                    </choice>
-                </date>. Comme nos
+                            <abbr>C<hi rend="sup">t</hi>
+                            </abbr>
+                            <expan>Currentis (laufenden [Monats])</expan>
+                        </choice>
+                    </date>. Comme nos
 				projets<lb xml:id="p1-l4"/> intéressent directement ceux dont vous vous occupez à <placeName type="place" key="Zürich (Stadt)">Zurich</placeName> et qu'il
 				devient<lb xml:id="p1-l5"/> important de chercher jour à les harmoniser je viens, Monsieur, vous
 				annoncer<lb xml:id="p1-l6"/> que n<supplied>ous</supplied> avons relevé la Ligne <placeName type="place" key="Les Verrières">Verrières</placeName>–<placeName type="place" key="Lyss">Lyss</placeName>
@@ -131,7 +132,8 @@
 				à l'égard de <placeName type="place" key="Neuenburg">Neuchatel</placeName>, mais c'est
 				essentiellement vis-<lb xml:id="p2-l3"/>à-vis de n<supplied>otre</supplied> Canton que toutes leurs intrigues ont
 				parti.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_1135_p7">

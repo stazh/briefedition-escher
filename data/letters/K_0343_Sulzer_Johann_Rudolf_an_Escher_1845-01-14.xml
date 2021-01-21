@@ -26,7 +26,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Sulzer Johann Rudolf" type="sender">Johann Rudolf Sulzer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Winterthur</placeName>
                     <date when="1845-01-14">Dienstag, Januar 14, 1845</date>
                 </correspAction>
@@ -84,13 +84,14 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_0343_p3">
                 <lb xml:id="p1-l3"/>Die am <date when="1845-01-12">letzten Sontag</date> bezeichneten Bezirks
                 <lb break="no" xml:id="p1-l4"/>Ausschüße waren <date when="1845-01-14">Heute</date> besammelt &amp; bezeichneten
         <lb xml:id="p1-l5"/> ebenfalls die Gemeindsausschüße für den <choice>
-                    <abbr>h:</abbr>
-                    <expan>hiesig</expan>
-                </choice> Bezirk,<lb xml:id="p1-l6"/> welche auf <date when="1845-01-19">künftigen
+                        <abbr>h:</abbr>
+                        <expan>hiesig</expan>
+                    </choice> Bezirk,<lb xml:id="p1-l6"/> welche auf <date when="1845-01-19">künftigen
           Sontag</date> einberufen wurden<lb xml:id="p1-l7"/> um einerseits die <hi>Organisation</hi> zu beenden
         &amp; ander
                 <lb break="no" xml:id="p1-l8"/>seits die wahre Stimmung des Volkes zu
@@ -102,7 +103,8 @@
           <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> oder anderwärts etwa<lb xml:id="p1-l15"/>
         besonders bemerkenswerthes zugetragen mit ein<lb xml:id="p1-l16"/> paar Zeilen mittheilen
         würden.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_0343_p4">

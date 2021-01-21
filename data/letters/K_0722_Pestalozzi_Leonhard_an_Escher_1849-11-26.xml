@@ -30,7 +30,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Pestalozzi Leonhard" type="sender">Leonhard Pestalozzi</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1849-11-26">Montag, November 26, 1849</date>
                 </correspAction>
@@ -91,15 +91,16 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_0722_p2">
                 <lb xml:id="p1-l2"/> Ich empfing Ihre werthen<!-- <r>--> Zeilen<!--<ref type="letter" target="?" /></r> --> vom
          <date when="1849-11-20">20 
                         <choice>
-                        <abbr>
-                            <hi>Ct</hi>
-                        </abbr>
-                        <expan>Currentis (laufenden [Monats])</expan>
-                    </choice> 
+                            <abbr>
+                                <hi>Ct</hi>
+                            </abbr>
+                            <expan>Currentis (laufenden [Monats])</expan>
+                        </choice> 
                 </date> &amp; gleichzeitig<lb xml:id="p1-l3"/> einen Brief von Herrn Ständerath <persName type="person" key="Fischer Bernhard Friedrich">
                     <hi>Fischer</hi>
                 </persName> der als Mitglied der Münz
@@ -117,7 +118,8 @@
         Bundesrathe vorgeschlagnen Münzsistems<note type="transcript">sic!</note> die Münzver
                 <lb break="no" xml:id="p1-l19"/>wirrung vermehren &amp; nur große Kosten &amp; Unfrieden<lb xml:id="p1-l20"/> bringen würde. - Beides besitzen wir schon in
         vollem Maße. </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="left" xml:id="K_0722_p3">

@@ -29,7 +29,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1878-05-26">Sonntag, Mai 26, 1878</date>
                 </correspAction>
@@ -92,6 +92,7 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_3159_p4">
                 <lb xml:id="p1-l4"/>Indem ich mir erlaube, Ihnen einen <date when="1878-05-25">gestern</date> von Herrn
                 <lb xml:id="p1-l5"/>
@@ -104,9 +105,9 @@
                 </persName>, <hi>
                     <persName type="person" key="Dapples Ernest">Dapples</persName>
                 </hi> <choice>
-                    <abbr>u.</abbr>
-                    <expan>und</expan>
-                </choice> <hi>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> <hi>
                     <persName type="person" key="Koller Gottlieb">Koller</persName>
                 </hi> bei mir die Überzeugung 
                 <lb xml:id="p1-l8"/>befestigt hat, daß alle Subventionen von Kantonen und
@@ -116,9 +117,9 @@
                     <hi>Bern</hi>
                 </placeName> <lb xml:id="p1-l11"/>salviren sich der Art, daß sie sagen im ungünstigsten
                 <lb xml:id="p1-l12"/>Fall werden alle <hi>Reserve</hi>summen absorbirt <choice>
-                    <abbr>u.</abbr>
-                    <expan>und</expan>
-                </choice> dazu noch
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> dazu noch
                 <lb xml:id="p1-l13"/>ein <hi>Manco</hi> von <hi>circa</hi> 6 Millionen erzeugt werden, da
                 <lb xml:id="p1-l14"/>der Vollendungstermin auf <date when="1882-07-01">1<hi rend="sup">t</hi> Juli 1882</date> anzusezen<note type="transcript">sic!</note> sey.
                 <lb xml:id="p1-l15"/>Sie glauben zwar selbst nicht an diesen ungünstigsten 
@@ -127,9 +128,9 @@
             </p>
       <p rend="indent" xml:id="K_3159_p5">
                 <lb xml:id="p1-l18"/>Unter diesen Umständen kann nur ein <hi>Offert à forfait</hi> <lb xml:id="p1-l19"/>helfen <choice>
-                    <abbr>u.</abbr>
-                    <expan>und</expan>
-                </choice> zwar worinn<note type="transcript">sic!</note> der Baubeginn alsbald verlangt
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> zwar worinn<note type="transcript">sic!</note> der Baubeginn alsbald verlangt
                 <lb xml:id="p1-l20"/>wird. Eine Bundesabstimmung wird nur ein verwerfendes
                 <pb n="2"/>
                 <lb xml:id="p2-l1"/>Resultat ergeben, darüber dürfte kein Zweifel mehr
@@ -140,7 +141,7 @@
                 <lb xml:id="p2-l4"/>die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>frage nach meinem Urtheil nur in Ver
                 <lb break="no" xml:id="p2-l5"/>bindung mit der <hi>
                     <placeName type="place" key="Monte Ceneri (Pass)">Monte Ceneri</placeName>
-                </hi>linie in der Schweiz 
+                    </hi>linie in der Schweiz 
                 <lb xml:id="p2-l6"/>und <placeName type="place" key="Italien (Königreich)">Italien</placeName> gelöst werden. Anders geht es
                 <lb xml:id="p2-l7"/>nicht.
             </p>
@@ -151,7 +152,8 @@
                     <placeName type="place" key="Bern (Stadt)">Bern</placeName> </hi> berichten, <date when="1878-05-27">morgen</date> Abend bin
                 <lb xml:id="p2-l11"/>ich wieder hier.
             </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="center" xml:id="K_3159_p8">

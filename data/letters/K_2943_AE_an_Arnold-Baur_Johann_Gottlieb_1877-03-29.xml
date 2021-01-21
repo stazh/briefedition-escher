@@ -10,7 +10,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier>
+                    <msIdentifier type="Entwurf">
                         <institution>BAR</institution>
                         <idno type="original">CH-BAR#J1.67#1000/1363#76*</idno>
                     </msIdentifier>
@@ -31,7 +31,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName ref="Arnold-Baur Johann Gottlieb" type="addressee">Johann Gottlieb Arnold-Baur</persName>
+                    <persName ref="Arnold-Baur Johann Gottlieb" type="sender">Johann Gottlieb Arnold-Baur</persName>
                     <placeName>Zürich</placeName>
                     <date when="1877-03-29">Donnerstag, März 29, 1877</date>
                 </correspAction>
@@ -128,30 +128,31 @@
                     <lb xml:id="p1-l4"/>Geehrter Herr! </p> </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_2943_p4">
         <lb xml:id="p1-l5"/>In Beantwortung Ihres verehrlichen
         <lb xml:id="p1-l6"/> <seg type="ref">Schreibens vom <date when="1877-03-26">26. <choice>
-                            <abbr>d. Mts.</abbr>
-                            <expan>dieses Monats</expan>
-                        </choice> </date>
+                                <abbr>d. Mts.</abbr>
+                                <expan>dieses Monats</expan>
+                            </choice> </date>
                     <ref type="letter" target="K_2940"><!--→ Nr. 279--></ref>
                 </seg>, worin Sie mich
         <lb xml:id="p1-l7"/> anfragen, ob es rathsamer sei, <note type="transcript">Einschubtext aus der linken Spalte:</note> 
         <add xml:id="p1-l7-i1">weitere Einzahlungen auf</add> die in Ihrem Be
                 <lb break="no" xml:id="p1-l8"/>sitze befindlichen Interimsaktien der <choice>
-                    <abbr>Gotthard
+                        <abbr>Gotthard
                     <lb break="no" xml:id="p1-l9"/>bahngesell.</abbr>
-                    <expan>Gotthardbahngesellschaft</expan>
-                </choice> zu leisten oder diese Titel zum ge
+                        <expan>Gotthardbahngesellschaft</expan>
+                    </choice> zu leisten oder diese Titel zum ge
                 <lb break="no" xml:id="p1-l10"/>genwärtigen Kurse zu veräußern, beehre ich
         <lb xml:id="p1-l11"/> mich, Ihnen <del>
-                    <supplied type="unclear">rückan</supplied>
-                </del> zur Kenntniß zu bringen,
+                        <supplied type="unclear">rückan</supplied>
+                    </del> zur Kenntniß zu bringen,
         <lb xml:id="p1-l12"/> daß ich grundsätzlich dergleichen Räthe nicht
         <lb xml:id="p1-l13"/> ertheile <choice>
-                    <abbr>u.</abbr>
-                    <expan>und</expan>
-                </choice> wie Sie, wenn Sie sich an meine
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> wie Sie, wenn Sie sich an meine
         <lb xml:id="p1-l14"/> Stelle setzten, gewiß unbeanstandet zu
                 <lb break="no" xml:id="p1-l15"/>geben werden, auch nicht ertheilen kann.
         <lb xml:id="p1-l16"/> Ich <del>kann nur hervorheben</del> <add>muß <seg type="com">nicht<note xml:id="K_2943_c1">Verschrieb, wohl gemeint: «mich».</note>
@@ -161,9 +162,9 @@
                 </add> daß ich
           per
                 <lb break="no" xml:id="p1-l17"/>sönlich von den Aktien <choice>
-                    <abbr>u.</abbr>
-                    <expan>und</expan>
-                </choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice>
           Obligatio
                 <lb break="no" xml:id="p1-l18"/>nen, welche ich von Anfang an be<del>sitzt</del>
                 <add>saß</add>, 
@@ -183,16 +184,16 @@
                         <note xml:id="K_2943_c3">Nachträgliche Korrektur, ursprünglich: <bibl>Schließlich darf ich mein Erstaunen darüber nicht unterdrücken</bibl>.</note>
                     </seg> 
         <lb xml:id="p1-l29"/> wollen Sie es mir <choice>
-                        <abbr>n.</abbr>
-                        <expan>nicht</expan>
-                    </choice> verargen, wenn
+                            <abbr>n.</abbr>
+                            <expan>nicht</expan>
+                        </choice> verargen, wenn
         <lb xml:id="p1-l30"/> ich mich darüber wundere, 
         <lb xml:id="p1-l31"/>daß <del>es Leute 
         <lb xml:id="p1-l32"/>gibt, welche</del> Sie sich entschließen <seg type="com">konnten<note xml:id="K_2943_c4">Nachträgliche Korrektur, ursprünglich: <bibl>daß es Leute gibt welche</bibl>.</note>
                     </seg>, alle Ihre Ersparnisse in Aktien
         <lb xml:id="p1-l33"/> der Gotthardbahn anzulegen, <del>
-                        <supplied type="unclear">...</supplied>
-                    </del> einer Unternehmung,<note type="transcript">durch Umstellugszeichen umgestellt, ursprünglich: einer Unternehmung, anzulegen,</note>
+                            <supplied type="unclear">...</supplied>
+                        </del> einer Unternehmung,<note type="transcript">durch Umstellugszeichen umgestellt, ursprünglich: einer Unternehmung, anzulegen,</note>
         <lb xml:id="p1-l34"/>
                     <del>anlegen, welche, wie jederman wissen müßte</del>, 
         <lb xml:id="p1-l35"/>
@@ -205,7 +206,8 @@
                     <lb break="no" xml:id="p1-l39"/>trachtet werd<supplied>en</supplied> muß.</add> <seg type="ref">
                     <ref type="sum" target="Rekonstruktion_Gotthardbahn_p19">Weitere Aktionärsbriefe<!-- → Band 1, S. 400--></ref>
                 </seg> </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_2943_p6">

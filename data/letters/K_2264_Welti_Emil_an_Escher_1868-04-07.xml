@@ -31,7 +31,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1868-04-07">Dienstag, April 7, 1868</date>
                 </correspAction>
@@ -68,56 +68,58 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_2264_p2">
-                <lb xml:id="p1-l2"/>Nach meinem Dafürhalten sind unsere Angelegenheiten<lb xml:id="p1-l3"/>auf gutem Wege. Herr <seg type="ref">
-                    <persName type="person" key="Schenk Karl">Schenk</persName>
-                    <ref type="kbp">→ Karl Schenk</ref>
-                </seg> hat <date when="1868-04-06">gestern</date> im Bundes<lb break="no" xml:id="p1-l4"/>rath angekündigt, dass er bei Berathung der Instructio<lb break="no" xml:id="p1-l5"/>nen für den <seg type="ref">
-                    <placeName type="place" key="Deutschland">deutschen</placeName> Handelsvertrag<ref type="sum" target="Gotthardvereinigung_d1.3">Handelsvertrag<!-- → Band 1, S. 199–200--></ref>
-                </seg> einen Vorschlag <choice>
-                    <abbr>betr.</abbr>
-                    <expan>betreffend</expan>
-                </choice> <lb xml:id="p1-l6"/>die <placeName type="place" key="Alpen">Alpen</placeName>bahn einbringen werde. Er that das desshalb um<lb xml:id="p1-l7"/>zum Voraus die Einwendung zu beseitigen als ob man<lb xml:id="p1-l8"/>den Bundesrath in der letzten Stunde habe überraschen<lb xml:id="p1-l9"/>wollen. Was den angekündigten Vorschlag selbst anbelangt<lb xml:id="p1-l10"/>so geht derselbe dahin, dass sich die contrahirenden Staa<lb break="no" xml:id="p1-l11"/>ten zu gemeinsamer Bethätigung zum Zweck der Erstellung<lb xml:id="p1-l12"/>einer <choice>
-                    <abbr>schweiz.</abbr>
-                    <expan>schweizerisch</expan>
-                </choice> <placeName type="place" key="Alpen">Alpen</placeName>bahn verpflichten. So ungefähr ist der<lb xml:id="p1-l13"/>Wortlaut welcher genau mit dem Antrage zusammenfällt<lb xml:id="p1-l14"/>den Herr <seg type="ref">
-                    <persName type="person" key="Dubs Jakob">Dubs</persName>
-                    <ref type="kbp">→ Jakob Dubs</ref>
-                </seg> als damaliger Chef des Innern bei der<lb xml:id="p1-l15"/>ersten <seg type="ref">Berathung der Instructionen im Jahr 1865<ref type="sum" target="Gotthardvereinigung_p5">Verhandlungen 1865<!-- → Band 1, S. 195--></ref>
-                </seg> gestellt<lb xml:id="p1-l16"/>hat. Es liegt schon hierin eine Garantie dass <seg type="com">Herr <lb xml:id="p1-l17"/>
-                    <persName type="person" key="Dubs Jakob">Dubs</persName> zu dem Antrag stimmen wird;<note xml:id="K_2264_c1">Über die Abstimmung im Bundesrat und das Abstimmungsverhalten der Bundesräte berichtet Welti Escher am <date when="1868-04-22">22. April</date> <ref type="letter" target="K_2273"><!--→ Nr. 88--></ref>.</note>
-                </seg> was er mir <pb n="2"/>
-                <lb xml:id="p2-l1"/>übrigens nicht förmlich erklärt hat. Dagegen weiss ich<lb xml:id="p2-l2"/>von ihm selbst soviel, dass er den <seg type="ref">
-                    <persName type="person" key="Roeder Maximilian Heinrich von">
-                        <placeName type="place" key="Preussen (Königreich)">preussischen</placeName> Ge<lb break="no" xml:id="p2-l3"/>sandten</persName>
-                    <ref type="kbp">→ Maximilian Heinrich von Roeder</ref>
-                </seg> veranlasst hat offiziös in <placeName type="place" key="Berlin (D)">Berlin</placeName> anzufra<lb break="no" xml:id="p2-l4"/>gen ob man geneigt sei bei den Vertragsverhandlungen<lb xml:id="p2-l5"/>den Gegenstand zur Besprechung zu bringen. Herr <persName type="person" key="Roeder Maximilian Heinrich von">von<lb xml:id="p2-l6"/>Röder</persName> mit dem ich seither die Sache wiederholt be<lb break="no" xml:id="p2-l7"/>sprach zeigte sich sofort bereit und hat sich in ei<lb break="no" xml:id="p2-l8"/>nem Schreiben an sein Ministerium gewendet welches<lb xml:id="p2-l9"/>ich selbst gelesen habe und dessen Inhalt mir sehr an<lb break="no" xml:id="p2-l10"/>gemessen erscheint. Er zweifelt nicht an einer günstigen<lb xml:id="p2-l11"/>Antwort und für diesen Fall wäre dann die Entscheidung<lb xml:id="p2-l12"/>im Bundesrath nicht im Mindesten zweifelhaft. </p>
+                    <lb xml:id="p1-l2"/>Nach meinem Dafürhalten sind unsere Angelegenheiten<lb xml:id="p1-l3"/>auf gutem Wege. Herr <seg type="ref">
+                        <persName type="person" key="Schenk Karl">Schenk</persName>
+                        <ref type="kbp">→ Karl Schenk</ref>
+                    </seg> hat <date when="1868-04-06">gestern</date> im Bundes<lb break="no" xml:id="p1-l4"/>rath angekündigt, dass er bei Berathung der Instructio<lb break="no" xml:id="p1-l5"/>nen für den <seg type="ref">
+                        <placeName type="place" key="Deutschland">deutschen</placeName> Handelsvertrag<ref type="sum" target="Gotthardvereinigung_d1.3">Handelsvertrag<!-- → Band 1, S. 199–200--></ref>
+                    </seg> einen Vorschlag <choice>
+                        <abbr>betr.</abbr>
+                        <expan>betreffend</expan>
+                    </choice> <lb xml:id="p1-l6"/>die <placeName type="place" key="Alpen">Alpen</placeName>bahn einbringen werde. Er that das desshalb um<lb xml:id="p1-l7"/>zum Voraus die Einwendung zu beseitigen als ob man<lb xml:id="p1-l8"/>den Bundesrath in der letzten Stunde habe überraschen<lb xml:id="p1-l9"/>wollen. Was den angekündigten Vorschlag selbst anbelangt<lb xml:id="p1-l10"/>so geht derselbe dahin, dass sich die contrahirenden Staa<lb break="no" xml:id="p1-l11"/>ten zu gemeinsamer Bethätigung zum Zweck der Erstellung<lb xml:id="p1-l12"/>einer <choice>
+                        <abbr>schweiz.</abbr>
+                        <expan>schweizerisch</expan>
+                    </choice> <placeName type="place" key="Alpen">Alpen</placeName>bahn verpflichten. So ungefähr ist der<lb xml:id="p1-l13"/>Wortlaut welcher genau mit dem Antrage zusammenfällt<lb xml:id="p1-l14"/>den Herr <seg type="ref">
+                        <persName type="person" key="Dubs Jakob">Dubs</persName>
+                        <ref type="kbp">→ Jakob Dubs</ref>
+                    </seg> als damaliger Chef des Innern bei der<lb xml:id="p1-l15"/>ersten <seg type="ref">Berathung der Instructionen im Jahr 1865<ref type="sum" target="Gotthardvereinigung_p5">Verhandlungen 1865<!-- → Band 1, S. 195--></ref>
+                    </seg> gestellt<lb xml:id="p1-l16"/>hat. Es liegt schon hierin eine Garantie dass <seg type="com">Herr <lb xml:id="p1-l17"/>
+                        <persName type="person" key="Dubs Jakob">Dubs</persName> zu dem Antrag stimmen wird;<note xml:id="K_2264_c1">Über die Abstimmung im Bundesrat und das Abstimmungsverhalten der Bundesräte berichtet Welti Escher am <date when="1868-04-22">22. April</date> <ref type="letter" target="K_2273"><!--→ Nr. 88--></ref>.</note>
+                    </seg> was er mir <pb n="2"/>
+                    <lb xml:id="p2-l1"/>übrigens nicht förmlich erklärt hat. Dagegen weiss ich<lb xml:id="p2-l2"/>von ihm selbst soviel, dass er den <seg type="ref">
+                        <persName type="person" key="Roeder Maximilian Heinrich von">
+                            <placeName type="place" key="Preussen (Königreich)">preussischen</placeName> Ge<lb break="no" xml:id="p2-l3"/>sandten</persName>
+                        <ref type="kbp">→ Maximilian Heinrich von Roeder</ref>
+                    </seg> veranlasst hat offiziös in <placeName type="place" key="Berlin (D)">Berlin</placeName> anzufra<lb break="no" xml:id="p2-l4"/>gen ob man geneigt sei bei den Vertragsverhandlungen<lb xml:id="p2-l5"/>den Gegenstand zur Besprechung zu bringen. Herr <persName type="person" key="Roeder Maximilian Heinrich von">von<lb xml:id="p2-l6"/>Röder</persName> mit dem ich seither die Sache wiederholt be<lb break="no" xml:id="p2-l7"/>sprach zeigte sich sofort bereit und hat sich in ei<lb break="no" xml:id="p2-l8"/>nem Schreiben an sein Ministerium gewendet welches<lb xml:id="p2-l9"/>ich selbst gelesen habe und dessen Inhalt mir sehr an<lb break="no" xml:id="p2-l10"/>gemessen erscheint. Er zweifelt nicht an einer günstigen<lb xml:id="p2-l11"/>Antwort und für diesen Fall wäre dann die Entscheidung<lb xml:id="p2-l12"/>im Bundesrath nicht im Mindesten zweifelhaft. </p>
       <p rend="indent" xml:id="K_2264_p3">
-                <lb xml:id="p2-l13"/>Ob <seg type="ref">Herr <persName type="person" key="Heer Joachim">Heer</persName>
-                    <ref type="kbp">→ Joachim Heer</ref>
-                </seg> den Vertrag noch negoziren wird ist<lb xml:id="p2-l14"/>
+                    <lb xml:id="p2-l13"/>Ob <seg type="ref">Herr <persName type="person" key="Heer Joachim">Heer</persName>
+                        <ref type="kbp">→ Joachim Heer</ref>
+                    </seg> den Vertrag noch negoziren wird ist<lb xml:id="p2-l14"/>
 immer noch nicht definitiv ausgemacht, dagegen hat<lb xml:id="p2-l15"/> <seg type="com">Herr <persName type="person" key="Stähelin-Brunner August">Stähelin</persName>
-                    <note xml:id="K_2264_c2">
-                        <persName type="person" key="Stähelin-Brunner August">August Stähelin-Brunner</persName> (1812–1886), Grossrat (<placeName type="place" key="Basel-Stadt">BS</placeName>), Verwaltungsrat der <ref type="kbe"/>Schweizerischen Centralbahn und der <placeName type="place" key="Basel-Stadt">Basler</placeName> Handelsbank.</note>
-                </seg> <seg type="com">bestimmt zugesagt.<note xml:id="K_2264_c3">
-                        <persName type="person" key="Heer Joachim">Heer</persName> erklärte sich nach seiner Demission als ausserordentlicher Gesandter und bevollmächtigter Minister der Schweiz in <placeName type="place" key="Berlin (D)">Berlin</placeName> bereit, die Vertragsverhandlungen mit den <placeName type="place" key="Deutschland">deutschen</placeName> Staaten in Sondermission weiterzuführen. Er reiste im März 1868 nach <placeName type="place" key="Berlin (D)">Berlin</placeName> zurück, doch war die Dauer seines Aufenthalts unsicher, da er seine Teilnahme an der <placeName type="place" key="Glarus">Glarner</placeName> Landsgemeinde zugesagt hatte.<!-- Stähelin seinerseits sah sich durch Privatgeschäfte verhindert. Beide machten ihre Zusage nicht zuletzt von der Mitwirkung des anderen abhängig.-->
-                        <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004352">
-                            <ref type="lit">Prot. BR</ref>, 5. Februar 1868</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004372">
-                            <ref type="lit">Prot. BR</ref>, 23. März 1868</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004373">
-                            <ref type="lit">Prot. BR</ref>, 25. März 1868</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004376">
-                            <ref type="lit">Prot. BR</ref>, 1. April 1868</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004377">
-                            <ref type="lit">Prot. BR</ref>, 3. April 1868</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004378">
-                            <ref type="lit">Prot. BR</ref>, 6. April 1868</ref>; <ref type="lit">Widmer, Schweizer Gesandtschaft</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 66; <ref type="letter" target="K_2221_c5"><!-- → Nr. 83 (Kommentar)--></ref>.</note>
-                </seg> Sobald Herr <persName type="person" key="Schenk Karl">Schenk</persName> <lb xml:id="p2-l16"/>
+                        <note xml:id="K_2264_c2">
+                            <persName type="person" key="Stähelin-Brunner August">August Stähelin-Brunner</persName> (1812–1886), Grossrat (<placeName type="place" key="Basel-Stadt">BS</placeName>), Verwaltungsrat der <ref type="kbe"/>Schweizerischen Centralbahn und der <placeName type="place" key="Basel-Stadt">Basler</placeName> Handelsbank.</note>
+                    </seg> <seg type="com">bestimmt zugesagt.<note xml:id="K_2264_c3">
+                            <persName type="person" key="Heer Joachim">Heer</persName> erklärte sich nach seiner Demission als ausserordentlicher Gesandter und bevollmächtigter Minister der Schweiz in <placeName type="place" key="Berlin (D)">Berlin</placeName> bereit, die Vertragsverhandlungen mit den <placeName type="place" key="Deutschland">deutschen</placeName> Staaten in Sondermission weiterzuführen. Er reiste im März 1868 nach <placeName type="place" key="Berlin (D)">Berlin</placeName> zurück, doch war die Dauer seines Aufenthalts unsicher, da er seine Teilnahme an der <placeName type="place" key="Glarus">Glarner</placeName> Landsgemeinde zugesagt hatte.<!-- Stähelin seinerseits sah sich durch Privatgeschäfte verhindert. Beide machten ihre Zusage nicht zuletzt von der Mitwirkung des anderen abhängig.-->
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004352">
+                                <ref type="lit">Prot. BR</ref>, 5. Februar 1868</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004372">
+                                <ref type="lit">Prot. BR</ref>, 23. März 1868</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004373">
+                                <ref type="lit">Prot. BR</ref>, 25. März 1868</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004376">
+                                <ref type="lit">Prot. BR</ref>, 1. April 1868</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004377">
+                                <ref type="lit">Prot. BR</ref>, 3. April 1868</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004378">
+                                <ref type="lit">Prot. BR</ref>, 6. April 1868</ref>; <ref type="lit">Widmer, Schweizer Gesandtschaft</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 66; <ref type="letter" target="K_2221_c5"><!-- → Nr. 83 (Kommentar)--></ref>.</note>
+                    </seg> Sobald Herr <persName type="person" key="Schenk Karl">Schenk</persName> <lb xml:id="p2-l16"/>
 seinen Antrag eingereicht hat theile ich Ihnen den<lb xml:id="p2-l17"/>
 Wortlaut mit </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="center" xml:id="K_2264_p4">

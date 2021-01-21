@@ -33,7 +33,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1877-03-09">Freitag, März 9, 1877</date>
                 </correspAction>
@@ -71,50 +71,68 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_2935_p2">
-                <lb xml:id="p1-l2"/>Ich beehre mich Ihnen hiemit im An<lb break="no" xml:id="p1-l3"/>schluße 
+                    <lb xml:id="p1-l2"/>Ich beehre mich Ihnen hiemit im An<lb break="no" xml:id="p1-l3"/>schluße 
 den <seg type="com">Brief<note xml:id="K_2935_c1">Beilage nicht ermittelt.</note>
-                </seg> <seg type="ref">
-                    <persName type="person" key="Maraini Clemente">
-                        <hi>Maraini's</hi>
-                    </persName>
-                    <ref type="kbp">→ Clemente Maraini</ref>
-                </seg> wieder<lb xml:id="p1-l4"/>
+                    </seg> <seg type="ref">
+                        <persName type="person" key="Maraini Clemente">
+                            <hi>Maraini's</hi>
+                        </persName>
+                        <ref type="kbp">→ Clemente Maraini</ref>
+                    </seg> wieder<lb xml:id="p1-l4"/>
 zu übermachen, welchen mir <date when="1877-03-07">vor<lb break="no" xml:id="p1-l5"/>gestern</date> <choice>
-                    <abbr>Hr.</abbr>
-                    <expan>Herr</expan>
-                </choice> Bundesrath <seg type="ref">
-                    <persName type="person" key="Welti Emil">Welti</persName>
-                    <ref type="kbp">→ Emil Welti</ref>
-                </seg> über<lb break="no" xml:id="p1-l6"/>geben 
+                        <abbr>Hr.</abbr>
+                        <expan>Herr</expan>
+                    </choice> Bundesrath <seg type="ref">
+                        <persName type="person" key="Welti Emil">Welti</persName>
+                        <ref type="kbp">→ Emil Welti</ref>
+                    </seg> über<lb break="no" xml:id="p1-l6"/>geben 
 hat &amp; den ich Ihrem Wunsche<lb xml:id="p1-l7"/>
 gemäß <seg type="ref">
-                    <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Schenk Karl">Schenk</persName>
-                    <ref type="kbp">→ Karl Schenk</ref>
-                </seg> zur Kenntnißnahme<lb xml:id="p1-l8"/>
+                        <choice>
+                            <abbr>Hrn.</abbr>
+                            <expan>Herrn</expan>
+                        </choice> <persName type="person" key="Schenk Karl">Schenk</persName>
+                        <ref type="kbp">→ Karl Schenk</ref>
+                    </seg> zur Kenntnißnahme<lb xml:id="p1-l8"/>
 mitgetheilt habe. <choice>
-                    <abbr>Hr.</abbr>
-                    <expan>Herr</expan>
-                </choice> <persName type="person" key="Schenk Karl">Schenk</persName> hat<lb xml:id="p1-l9"/>
+                        <abbr>Hr.</abbr>
+                        <expan>Herr</expan>
+                    </choice> <persName type="person" key="Schenk Karl">Schenk</persName> hat<lb xml:id="p1-l9"/>
 mir bei diesem Anlaße gesagt,<lb xml:id="p1-l10"/>
         daß ein neuer <seg type="com">Bericht<note xml:id="K_2935_c2">Bericht nicht ermittelt. – Es handelt sich vermutlich um den Bericht <persName type="person" key="Roth Arnold">Roths</persName> vom <date when="1877-03-05">5. März 1877</date>, unter anderem <bibl>über den Stand der Frage betreffend die Abhaltung einer Konferenz für die Wiederherstellung der Gotthardbahn-Gesellschaft</bibl>. <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005966" type="www">
-                            <ref type="lit">Prot. BR</ref>, 9. März 1877</ref>.</note>
-                </seg> des <seg type="com">
-                    <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <choice>
-                        <abbr>Dr.</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> <lb xml:id="p1-l11"/>
-                    <persName type="person" key="Roth Arnold">Roth</persName>
-                    <note xml:id="K_2935_c3">
-                        <persName type="person" key="Roth Arnold">Arnold Roth</persName> (1836–1904), ausserordentlicher Gesandter und bevollmächtigter Minister der Schweiz in <placeName type="place" key="Berlin (D)">Berlin</placeName>.</note>
-                </seg> eingelangt sei, zufolge welchem<lb xml:id="p1-l12"/> <seg type="com">
-                    <choice>
+                                <ref type="lit">Prot. BR</ref>, 9. März 1877</ref>.</note>
+                    </seg> des <seg type="com">
+                        <choice>
+                            <abbr>Hrn.</abbr>
+                            <expan>Herrn</expan>
+                        </choice> <choice>
+                            <abbr>Dr.</abbr>
+                            <expan>Doktor / Doctor</expan>
+                        </choice> <lb xml:id="p1-l11"/>
+                        <persName type="person" key="Roth Arnold">Roth</persName>
+                        <note xml:id="K_2935_c3">
+                            <persName type="person" key="Roth Arnold">Arnold Roth</persName> (1836–1904), ausserordentlicher Gesandter und bevollmächtigter Minister der Schweiz in <placeName type="place" key="Berlin (D)">Berlin</placeName>.</note>
+                    </seg> eingelangt sei, zufolge welchem<lb xml:id="p1-l12"/> <seg type="com">
+                        <choice>
+                            <abbr>Hr.</abbr>
+                            <expan>Herr</expan>
+                        </choice> <choice>
+                            <abbr>v.</abbr>
+                            <expan>von</expan>
+                        </choice> <persName type="person" key="Bülow Bernhard Ernst von">
+                            <hi>Bulow</hi>
+                        </persName>
+                        <note xml:id="K_2935_c4">
+                            <persName type="person" key="Bülow Bernhard Ernst von">Bernhard Ernst von Bülow</persName> (1815–1879), Staatsminister ohne Geschäftsbereich des Königreichs <placeName type="place" key="Preussen (Königreich)">Preussen</placeName>, Staatssekretär des Auswärtigen Amts des <placeName type="place" key="Deutsches Reich">Deutschen Reichs</placeName>.</note>
+                    </seg> die Hoffnung ausge<lb break="no" xml:id="p1-l13"/>sprochen 
+habe, noch im Laufe dieses<lb xml:id="p1-l14"/>
+Monats die internationale <choice>
+                        <abbr>Comm.</abbr>
+                        <expan>Commission / Commißion</expan>
+                    </choice> <lb xml:id="p1-l15"/>
+        beschiken zu können. <choice>
                         <abbr>Hr.</abbr>
                         <expan>Herr</expan>
                     </choice> <choice>
@@ -122,25 +140,8 @@ mir bei diesem Anlaße gesagt,<lb xml:id="p1-l10"/>
                         <expan>von</expan>
                     </choice> <persName type="person" key="Bülow Bernhard Ernst von">
                         <hi>Bulow</hi>
-                    </persName>
-                    <note xml:id="K_2935_c4">
-                        <persName type="person" key="Bülow Bernhard Ernst von">Bernhard Ernst von Bülow</persName> (1815–1879), Staatsminister ohne Geschäftsbereich des Königreichs <placeName type="place" key="Preussen (Königreich)">Preussen</placeName>, Staatssekretär des Auswärtigen Amts des <placeName type="place" key="Deutsches Reich">Deutschen Reichs</placeName>.</note>
-                </seg> die Hoffnung ausge<lb break="no" xml:id="p1-l13"/>sprochen 
-habe, noch im Laufe dieses<lb xml:id="p1-l14"/>
-Monats die internationale <choice>
-                    <abbr>Comm.</abbr>
-                    <expan>Commission / Commißion</expan>
-                </choice> <lb xml:id="p1-l15"/>
-        beschiken zu können. <choice>
-                    <abbr>Hr.</abbr>
-                    <expan>Herr</expan>
-                </choice> <choice>
-                    <abbr>v.</abbr>
-                    <expan>von</expan>
-                </choice> <persName type="person" key="Bülow Bernhard Ernst von">
-                    <hi>Bulow</hi>
-                </persName> <pb n="2"/>
-                <lb xml:id="p2-l1"/>
+                    </persName> <pb n="2"/>
+                    <lb xml:id="p2-l1"/>
 habe des Fernern eröffnet, daß<lb xml:id="p2-l2"/>
 auch die <placeName type="place" key="Italien (Königreich)">italienische</placeName> Regierung – welcher<lb xml:id="p2-l3"/>
 gegenüber man es nicht an Mahnungen<lb xml:id="p2-l4"/>
@@ -148,94 +149,94 @@ zur Beförderung der Sache habe fehlen<lb xml:id="p2-l5"/>
 laßen – sich für Erhaltung der<lb xml:id="p2-l6"/>
 bestehenden Gesellschaft ausgesprochen<lb xml:id="p2-l7"/>
 habe. Durch <seg type="com">
-                    <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <choice>
-                        <abbr>B.R.</abbr>
-                        <expan>BundesRath</expan>
-                    </choice> <del>
-                        <supplied type="unclear">Pioda</supplied>
-                    </del> <persName type="person" key="Hammer Bernhard">Hammer</persName>
-                    <note xml:id="K_2935_c5">
-                        <persName type="person" key="Hammer Bernhard">Bernhard Hammer</persName> (1822–1907), Bundesrat (<placeName type="place" key="Solothurn">SO</placeName>).</note>
-                </seg> <lb xml:id="p2-l8"/>
+                        <choice>
+                            <abbr>Hrn.</abbr>
+                            <expan>Herrn</expan>
+                        </choice> <choice>
+                            <abbr>B.R.</abbr>
+                            <expan>BundesRath</expan>
+                        </choice> <del>
+                            <supplied type="unclear">Pioda</supplied>
+                        </del> <persName type="person" key="Hammer Bernhard">Hammer</persName>
+                        <note xml:id="K_2935_c5">
+                            <persName type="person" key="Hammer Bernhard">Bernhard Hammer</persName> (1822–1907), Bundesrat (<placeName type="place" key="Solothurn">SO</placeName>).</note>
+                    </seg> <lb xml:id="p2-l8"/>
 ist mir noch mitgetheilt worden,<lb xml:id="p2-l9"/>
 daß der Bundesrath beschloßen hat,<lb xml:id="p2-l10"/>
 durch <seg type="ref">
+                        <choice>
+                            <abbr>Hrn.</abbr>
+                            <expan>Herrn</expan>
+                        </choice> <persName type="person" key="Pioda Giovanni Battista">
+                            <hi>Pioda</hi>
+                        </persName>
+                        <ref type="kbp">→ Giovanni Battista Pioda</ref>
+                    </seg> <seg type="com">bei der <placeName type="place" key="Italien (Königreich)">italienischen</placeName> <lb xml:id="p2-l11"/>
+Regierung neuerdings auf be<lb break="no" xml:id="p2-l12"/>förderliche 
+  Antwort zu dringen.<note xml:id="K_2935_c6">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005966">
+                                <ref type="lit">Prot. BR</ref>, 9. März 1877</ref>.</note>
+                    </seg> –<lb xml:id="p2-l13"/>
                     <choice>
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Pioda Giovanni Battista">
-                        <hi>Pioda</hi>
-                    </persName>
-                    <ref type="kbp">→ Giovanni Battista Pioda</ref>
-                </seg> <seg type="com">bei der <placeName type="place" key="Italien (Königreich)">italienischen</placeName> <lb xml:id="p2-l11"/>
-Regierung neuerdings auf be<lb break="no" xml:id="p2-l12"/>förderliche 
-  Antwort zu dringen.<note xml:id="K_2935_c6">
-                        <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005966">
-                            <ref type="lit">Prot. BR</ref>, 9. März 1877</ref>.</note>
-                </seg> –<lb xml:id="p2-l13"/>
-                <choice>
-                    <abbr>Hrn.</abbr>
-                    <expan>Herrn</expan>
-                </choice> Bundesrath <persName type="person" key="Schenk Karl">Schenk</persName> habe ich<lb xml:id="p2-l14"/>
+                    </choice> Bundesrath <persName type="person" key="Schenk Karl">Schenk</persName> habe ich<lb xml:id="p2-l14"/>
 vorläufig mündlich von den <seg type="com">Ver<lb break="no" xml:id="p2-l15"/>handlungen 
 mit der Diskontogesell<lb break="no" xml:id="p2-l16"/>schaft<note xml:id="K_2935_c7">Gemeint ist die <placeName type="place" key="Berlin (D)">Berliner</placeName> Disconto-Gesellschaft, ein Mitglied des Finanzkonsortiums zur Beschaffung des Investitionskapitals der Gotthardbahn. <ref type="sum" target="Gotthardvereinigung_d1.8"><!-- → Band 1, S. 207–209--></ref>.<!--Gemeint ist die Berliner Disconto-Gesellschaft, welche eine führende Position innerhalb des zur Beschaffung des 
     Investitionskapitals der Gotthardbahn gebildeten internationalen Finanzkonsortiums übernommen hatte. <abbr>Vgl.</abbr> <ref type="lit">Vertrag Beschaffung Baukapital</ref>; <ref type="lit">Geschäftsbericht GB</ref> 1872, S. 7&ndash;8; <ref type="lit">Jung, Aufbruch</ref>, S. 659.-->
-                    </note>
-                </seg> <seg type="com">betreffend Hinausschieben des<lb xml:id="p2-l17"/>
+                        </note>
+                    </seg> <seg type="com">betreffend Hinausschieben des<lb xml:id="p2-l17"/>
 Abnahmetermins für die IV. <hi>Serie</hi> <pb n="3"/>
-                    <lb xml:id="p3-l1"/>
+                        <lb xml:id="p3-l1"/>
 unserer Obligationen<note xml:id="K_2935_c8">Der ursprünglich auf den <date when="1877-03-31">31. März 1877</date> festgesetzte Abnahmetermin für die vierte Serie der 
     Gotthardbahnobligationen in der Höhe von 20 <choice>
-                            <abbr>Mio.</abbr>
-                            <expan>Million(en)</expan>
-                        </choice> Franken wurde angesichts der noch nicht vollzogenen Rekonstruktion zuerst auf den <date when="1877-06-30">30. Juni</date>, sodann auf den <date when="1877-08-15">15. August</date>
+                                <abbr>Mio.</abbr>
+                                <expan>Million(en)</expan>
+                            </choice> Franken wurde angesichts der noch nicht vollzogenen Rekonstruktion zuerst auf den <date when="1877-06-30">30. Juni</date>, sodann auf den <date when="1877-08-15">15. August</date>
     und schliesslich auf den <date when="1877-10-31">31. Oktober 1877</date> verschoben. Am <date when="1877-09-17">17. September 1877</date> begannen zudem die<!--erst rund fünf Monate später abgeschlossenen --> Verhandlungen 
   über die Abnahme der vierten Obligationenserie zwischen der Gotthardbahn-Gesellschaft und dem Finanzkonsortium. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Geschäftsbericht GB</ref> 1877, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Geschäftsbericht GB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 
     11; <ref type="sum" target="Rekonstruktion_Gotthardbahn_p20"><!-- → Band 1, S. 400--></ref>. 
 					</note>
-                </seg> Kenntniß gegeben &amp; <lb xml:id="p3-l2"/>
+                    </seg> Kenntniß gegeben &amp; <lb xml:id="p3-l2"/>
 eine schriftliche Eingabe <choice>
-                    <abbr>betr.</abbr>
-                    <expan>betreffend</expan>
-                </choice> Genehmigung<lb xml:id="p3-l3"/>
+                        <abbr>betr.</abbr>
+                        <expan>betreffend</expan>
+                    </choice> Genehmigung<lb xml:id="p3-l3"/>
 unsres Beschlußes in Aussicht gestellt.<lb xml:id="p3-l4"/>
 Er äußerte bei diesem Anlaße die<lb xml:id="p3-l5"/>
 sonderbare Ansicht daß, wenn man<lb xml:id="p3-l6"/>
 den Termin nicht verlängern &amp; im<lb xml:id="p3-l7"/>
 Falle der Nichteinzahlung die <seg type="com">
-                    <hi>Caution</hi>
-                    <note xml:id="K_2935_c9">Das Finanzkonsortium hatte sich vertraglich verpflichtet, der Gotthardbahn eine Kaution im Umfang von<!--jeweils--> 20% des noch nicht abgenommenen Obligationenkapitals zu 
+                        <hi>Caution</hi>
+                        <note xml:id="K_2935_c9">Das Finanzkonsortium hatte sich vertraglich verpflichtet, der Gotthardbahn eine Kaution im Umfang von<!--jeweils--> 20% des noch nicht abgenommenen Obligationenkapitals zu 
     hinterlegen.<!--Gemäss § 7 lit. d. des Vertrages betreffend die Beschaffung des Baukapitals für die 
     Gotthardbahn von 1871--> Der Wert der vierten Obligationenserie betrug 20 <choice>
-                            <abbr>Mio.</abbr>
-                            <expan>Million(en)</expan>
-                        </choice> Franken, derjenige der Kaution dementsprechend 4 <choice>
-                            <abbr>Mio.</abbr>
-                            <expan>Million(en)</expan>
-                        </choice> Franken. 
+                                <abbr>Mio.</abbr>
+                                <expan>Million(en)</expan>
+                            </choice> Franken, derjenige der Kaution dementsprechend 4 <choice>
+                                <abbr>Mio.</abbr>
+                                <expan>Million(en)</expan>
+                            </choice> Franken. 
     <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Vertrag Beschaffung Baukapital</ref>, § 7 <choice>
-                            <abbr>lit.</abbr>
-                            <expan>litera (Buchstabe)</expan>
-                        </choice> d, § 11; <ref type="lit">Geschäftsbericht GB</ref> 1877, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 13.</note>
-                </seg> <lb xml:id="p3-l8"/>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Vertrag Beschaffung Baukapital</ref>, § 7 <choice>
+                                <abbr>lit.</abbr>
+                                <expan>litera (Buchstabe)</expan>
+                            </choice> d, § 11; <ref type="lit">Geschäftsbericht GB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 13.</note>
+                    </seg> <lb xml:id="p3-l8"/>
 für verfallen erklären würde, man <add>vielleicht</add> <lb xml:id="p3-l9"/>
 eine festere Handhabe gegen das<lb xml:id="p3-l10"/>
 Consortium bei den Rekonstruktions<lb break="no" xml:id="p3-l11"/>verhandlungen 
@@ -244,29 +245,30 @@ weiß nicht, ob es mir gelungen ist, diese<lb xml:id="p3-l13"/>
 nach meiner Auffaßung verkehrte<lb xml:id="p3-l14"/>
 Anschauung zu berichtigen; ich werde<lb xml:id="p3-l15"/>
 nicht ermangeln, diesfalls noch mit<lb xml:id="p3-l16"/>
-                <choice>
-                    <abbr>Hrn.</abbr>
-                    <expan>Herrn</expan>
-                </choice> <persName type="person" key="Welti Emil">Welti</persName> zu sprechen, der sich übrigens<lb xml:id="p3-l17"/>
+                    <choice>
+                        <abbr>Hrn.</abbr>
+                        <expan>Herrn</expan>
+                    </choice> <persName type="person" key="Welti Emil">Welti</persName> zu sprechen, der sich übrigens<lb xml:id="p3-l17"/>
 bereits mit unserm Beschluße ganz <pb n="4"/>
-                <lb xml:id="p4-l1"/>
+                    <lb xml:id="p4-l1"/>
 einverstanden erklärt hat. <choice>
-                    <abbr>Hr.</abbr>
-                    <expan>Herr</expan>
-                </choice> <persName type="person" key="Schenk Karl">Sch.</persName> <lb xml:id="p4-l2"/>
+                        <abbr>Hr.</abbr>
+                        <expan>Herr</expan>
+                    </choice> <persName type="person" key="Schenk Karl">Sch.</persName> <lb xml:id="p4-l2"/>
 scheint den Gedanken zu hegen, man<lb xml:id="p4-l3"/>
 werde bei der Rekonstruktion <seg type="ref">dem<lb xml:id="p4-l4"/>
 bestehenden Aktien- &amp; Obligationen<lb break="no" xml:id="p4-l5"/>kapital<ref type="sum" target="Gotthardvereinigung_p47">Modalitäten Finanzierung GB<!-- → Band 1, S. 209--></ref><!--<com>Das für die Erstellung der Gotthardbahn notwendige Investitionskapital wurde von der Gotthardkonferenz 1869 mit einem Betrag von 187 Mio. Franken beziffert, wovon 85 Mio. Franken als Subventionen und 102 Mio. Franken durch ein Finanzkonsortium aufgebracht werden sollten. Der Betrag des Konsortiums wurde in ein Aktienkapital von 34 Mio. Franken und in ein Obligationenkapital von 68 Mio. Franken aufgeteilt.<ref type="sum">&rarr; Überblickskommentar BF</ref>.
 					</com>-->
-                </seg> Prioritätsobligationen vor<lb break="no" xml:id="p4-l6"/>anstellen &amp; wenn die Obligationen<lb xml:id="p4-l7"/>
+                    </seg> Prioritätsobligationen vor<lb break="no" xml:id="p4-l6"/>anstellen &amp; wenn die Obligationen<lb xml:id="p4-l7"/>
 in Folge einer Erklärung des Con<lb break="no" xml:id="p4-l8"/>sortiums, 
 die IV<hi rend="sup">te</hi> <hi>Serie</hi> nicht einzahlen zu<lb xml:id="p4-l9"/> <seg type="com">
-                    <note xml:id="K_2935_c10">Unleserliche Nachträgliche Notitz von dritter Hand mit Bleistift</note>
-                </seg> wollen, recht tief sinken, die Obli<lb break="no" xml:id="p4-l10"/>gationsinhaber 
+                        <note xml:id="K_2935_c10">Unleserliche Nachträgliche Notitz von dritter Hand mit Bleistift</note>
+                    </seg> wollen, recht tief sinken, die Obli<lb break="no" xml:id="p4-l10"/>gationsinhaber 
 um so leichter zu<lb xml:id="p4-l11"/>
 einem solchen <hi>Arrangement</hi> bringen<lb xml:id="p4-l12"/>
 können! –</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_2935_p3">

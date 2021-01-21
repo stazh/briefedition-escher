@@ -31,7 +31,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Hellwag Konrad Wilhelm" type="sender">Konrad Wilhelm Hellwag</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1875-06-21">Montag, Juni 21, 1875</date>
                 </correspAction>
@@ -129,6 +129,7 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_2684_p4">
                 <lb xml:id="p1-l5"/>Nachdem <date when="1875-06-21">heute</date> eine Sendung meiner Papiere <lb xml:id="p1-l6"/>von <placeName type="place" key="Wien (A)">
                     <hi>Wien</hi>
@@ -140,15 +141,15 @@
       <p rend="indent" xml:id="K_2684_p5">
                 <lb xml:id="p1-l12"/>Wenn ich es Ihnen gegenüber auch nicht für <lb xml:id="p1-l13"/> nöthig
         erachte, die Richtigkeit meiner Angaben <choice>
-                    <abbr>üb.</abbr>
-                    <expan>über</expan>
-                </choice> <lb xml:id="p1-l14"/> meine Vergangenheit förmlich zu belegen, so wäre <lb xml:id="p1-l15"/> es mir
+                        <abbr>üb.</abbr>
+                        <expan>über</expan>
+                    </choice> <lb xml:id="p1-l14"/> meine Vergangenheit förmlich zu belegen, so wäre <lb xml:id="p1-l15"/> es mir
         doch angenehm, wenn sie davon Kenntniß <lb xml:id="p1-l16"/> nehmen wollten, wie man meine
         einstige <lb xml:id="p1-l17"/> Thätigkeit bei der<!-- <r>--> Südbahn<!--<ref type="kbe">→ k.k. privilegierte Südbahngesellschaft [<pendenz>PENDENT. Kbe? (25.06.2007)</pendenz>. Ev. Vorgänger-/Nachfolgebahn!]</ref></r> -->
                 <choice>
-                    <abbr>u.</abbr>
-                    <expan>und</expan>
-                </choice> namentlich bei dem <lb xml:id="p1-l18"/> Bau der<!-- <c>-->
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> namentlich bei dem <lb xml:id="p1-l18"/> Bau der<!-- <c>-->
                 <placeName type="place" key="Brenner (Pass, A-I)">
                     <hi>Brennerbahn</hi>
                 </placeName><!--<com>[<pendenz>PENDENT. Kbe? (25.06.2007)</pendenz>.] Die rund 125 km lange Brennerbahn wurde von 1864 bis 1867 erbaut und führt von <idx type="place" norm="Innsbruck (A)">Innsbruck</idx> über den <idx type="place" norm="Brenner (Pass)">Brennerpass</idx> nach <idx type="place" norm="Bozen (I)">Bozen</idx>. <abbr>Vgl.</abbr> von <ref type="lit">Röll, Enzyklopädie</ref> III, S. 62–65.</com></c> -->
@@ -162,13 +163,14 @@
                 <lb break="no" xml:id="p1-l22"/>se Papiere den beiden Herren Directoren der Gotthard
                 <lb break="no" xml:id="p1-l23"/>bahn und<!-- <r>--> Herrn
           <choice>
-                    <abbr>Insp.</abbr>
-                    <expan>Inspektor</expan>
-                </choice> <persName type="person" key="Koller Gottlieb">
+                        <abbr>Insp.</abbr>
+                        <expan>Inspektor</expan>
+                    </choice> <persName type="person" key="Koller Gottlieb">
                     <hi>Koller</hi>
                 </persName><!--<ref type="kbp">→ Gottlieb Koller</ref></r> -->, und wem Sie sonst <lb xml:id="p1-l24"/>
         glauben, vorzuzeigen </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="center" xml:id="K_2684_p7">

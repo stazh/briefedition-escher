@@ -35,7 +35,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Mevissen Gustav von" type="sender">Gustav von Mevissen</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Köln</placeName>
                     <date when="1876-02-14">Montag, Februar 14, 1876</date>
                 </correspAction>
@@ -146,11 +146,12 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_2713_p4">
                 <lb xml:id="p1-l4"/>Die Mittheilungen welche Sie mit<lb xml:id="p1-l5"/> <seg type="ref">Ihrem Geehrten vom <date when="1876-02-12">12<hi rend="sup">ten</hi> <choice>
-                            <abbr>dß</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date>
+                                <abbr>dß</abbr>
+                                <expan>dieses [Monats]</expan>
+                            </choice> </date>
                     <ref type="letter" target="K_2712"><!--→ Nr. 202--></ref>
                 </seg> mir 
                bezüglich<lb xml:id="p1-l6"/>
@@ -177,9 +178,9 @@ welcher nach den jetzigen Mittheilungen<lb xml:id="p1-l22"/>
                     <note xml:id="K_2713_c2"><!--Hellwag
 						 rechnete in seiner im Februar 1876 fertiggestellten Expertise für die Erstellung der Gotthardbahn mit Mehrkosten von 102 Mio. Franken im Vergleich zu den von der Gotthardkonferenz im Jahre 1869  budgetierten 187 Mio. Franken. -->
                         <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Hellwag, Bericht</ref>.</note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Hellwag, Bericht</ref>.</note>
                 </seg> <seg type="ref">
                     <ref type="letter" target="K_2712">Bericht Hellwag Februar 1876<!-- → Nr. 202--></ref>
                     <ref type="sum" target="Rekonstruktion_Gotthardbahn_p4"><!--→ Band 1, S. 391–392--></ref>
@@ -212,9 +213,9 @@ in dem Schreiben der Direction an den BundesRath <seg type="com">
 						<ref type="sum">&rarr; Überblickskommentar MF II</ref>. &ndash; Escher hatte dem <ref type="letter">&rarr; Brief Escher an Gustav von Mevissen vom 12. Februar 1876</ref> eine 
                Abschrift des Entwurfs dieses Schreibens beigelegt. -->
                         <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Direktion GB, Schreiben Finanzlage</ref>. </note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Direktion GB, Schreiben Finanzlage</ref>. </note>
                 </seg> <lb xml:id="p2-l14"/>
 in trefflicher alle Seiten der Lage besprechender<lb xml:id="p2-l15"/>
 Weise geschehen.<lb xml:id="p2-l16"/>
@@ -224,19 +225,19 @@ hergestellt werden können namentlich also<lb xml:id="p2-l19"/>
 Sistirung des Angriffs <seg type="com">der in der letzten Sitzung
 				<lb xml:id="p2-l20"/>
   besprochenen Tunnelbauten<note xml:id="K_2713_c7">Der Verwaltungsrat der Gotthardbahn-Gesellschaft beschloss in seiner Sitzung vom <date when="1875-10-13">13. Oktober 1875</date>, die Erstellung von sechs Tunnels, deren Bauzeit auf nahezu fünf Jahre veranschlagt worden war, sofort in Angriff zu nehmen. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Prot. VR GB</ref>, 13. Oktober 1875 (<choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 87–88).</note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. VR GB</ref>, 13. Oktober 1875 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 87–88).</note>
                 </seg>, und Sistirung 
                aller<lb xml:id="p2-l21"/>
 LieferungsVerträge für Schienen <choice>
-                    <abbr>
-                        <hi>etc</hi>.</abbr>
-                    <expan>et cetera (und anderes)</expan>
-                </choice> <lb xml:id="p2-l22"/>
+                        <abbr>
+                            <hi>etc</hi>.</abbr>
+                        <expan>et cetera (und anderes)</expan>
+                    </choice> <lb xml:id="p2-l22"/>
 Ich habe über das mögliche Resultat der<lb xml:id="p2-l23"/>
 unumgänglichen mit der internationalen<lb xml:id="p2-l24"/>
 Conferenz zu pflegenden Verhandlungen in<lb xml:id="p2-l25"/>
@@ -289,8 +290,8 @@ stellen und durch Vertrag mit der <placeName type="place" key="Italien (Königre
 Regierung die gleichzeitige Vollendung der Strecke<lb xml:id="p3-l20"/>
                 <placeName type="place" key="Luino (I)">
                     <hi>Luino</hi>
-                </placeName>-<placeName type="place" key="Arona (I)">
-                    <hi>Arona</hi>
+                    </placeName>-<placeName type="place" key="Arona (I)">
+                        <hi>Arona</hi>
                 </placeName><!--<com type="loco">Arona (Provinz Novara, Piemont): Gemeinde am Lago Maggiore.</com></c> --> zu sichern. Ergiebt sich daß<lb xml:id="p3-l21"/>
 die <hi rend="underline">vorhandenen</hi> Mittel auch <del>auf</del> zur<lb xml:id="p3-l22"/>
 Ausführung der Strecke <placeName type="place" key="Bellinzona">
@@ -305,7 +306,7 @@ ausreichen so könnte statt
                 <placeName type="place" key="Pino (I)">
                         <hi>Pino</hi> 
                 </placeName>
-                <lb xml:id="p3-l24"/>
+                    <lb xml:id="p3-l24"/>
 auch die Strecke <placeName type="place" key="Bellinzona">
                     <hi>Bellinzona</hi>
                 </placeName> <placeName type="place" key="Lugano">
@@ -352,12 +353,12 @@ rechtzeitig vorgebeugt  werden soll.<note xml:id="K_2713_c9">Absatz nachträglic
                 <lb xml:id="p5-l1"/>Im <seg type="com">
                     <placeName type="place" key="Deutsches Reich">deutschen Reiche</placeName> waltet leider die<lb xml:id="p5-l2"/>
 gröste<note type="transcript">sic!</note> Krise<note xml:id="K_2713_c10">Mit den von der wirtschaftsgeschichtlichen Literatur als «Gründerkrise» oder «Grosse Depression» bezeichneten Ereignissen setzte im <placeName type="place" key="Deutsches Reich">Deutschen Reich</placeName> ab 1873 eine Phase stagnierenden wirtschaftlichen Wachstums ein. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Henning, Wirtschafts- und Sozialgeschichte</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 792–793.<!-- [<b>PENDENT</b>. 1. Ausführlicher? 2. Kürzel Literaturangabe.]-->
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Henning, Wirtschafts- und Sozialgeschichte</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 792–793.<!-- [<b>PENDENT</b>. 1. Ausführlicher? 2. Kürzel Literaturangabe.]-->
                     </note>
                 </seg> welche das gegenwärtige Geschlecht<lb xml:id="p5-l3"/>
 erlebt hat noch ungeschwächt fort und die<lb xml:id="p5-l4"/>
@@ -368,15 +369,15 @@ ergreifen. Der Moment ist daher so ungünstig,<lb xml:id="p5-l8"/>
 wie möglich um die <seg type="com">Reichsvertretung zur<lb xml:id="p5-l9"/>
 Erhöhung des <placeName type="place" key="Deutsches Reich">deutschen</placeName> Zuschusses<note xml:id="K_2713_c11">Das <placeName type="place" key="Deutsches Reich">Deutsche Reich</placeName> sicherte 1871 eine Beteiligung an der 
                Subventionierung der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn im Umfang von 20 <choice>
-                            <abbr>Mio.</abbr>
-                            <expan>Million(en)</expan>
-                        </choice> Franken zu. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Übereinkunft Beitritt Deutsches Reich 1871</ref>, <choice>
-                            <abbr>Art.</abbr>
-                            <expan>Artikel</expan>
-                        </choice> 1; <ref type="sum" target="Gotthardvereinigung_p33"><!--→ Band 1, S. 204–205--></ref>.</note>
+                                <abbr>Mio.</abbr>
+                                <expan>Million(en)</expan>
+                            </choice> Franken zu. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Übereinkunft Beitritt Deutsches Reich 1871</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 1; <ref type="sum" target="Gotthardvereinigung_p33"><!--→ Band 1, S. 204–205--></ref>.</note>
                 </seg> eventuell zu<lb xml:id="p5-l10"/>
 bestimmen. Schon bei Gelegenheit der jüngsten Sitzung<lb xml:id="p5-l11"/>
 äußerte ich <seg type="com">wie<note xml:id="K_2713_c12">Nachträgliche Notiz von Eschers Hand mit Bleistift: <bibl>, wie</bibl>.</note>
@@ -415,13 +416,13 @@ des Herrenhauses<!--<com>Die erste Kammer des preussischen Landtages. <abbr>Vgl.
 					</com></c> --> 
         collidiren wird. <seg type="com">
                     <note xml:id="K_2713_c13"><!--<ref type="letter">&rarr; Brief Escher an Gustav von Mevissen, 12. Februar 1876</ref>. &ndash;--> Mevissen liess sich an der Verwaltungsratssitzung der Gotthardbahn-Gesellschaft vom <date when="1876-03-03">3. März 1876</date> durch <persName type="person" key="Dülberg Franz">Geheimrat Franz Dülberg</persName> aus <placeName type="place" key="Berlin (D)">Berlin</placeName> vertreten. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Prot. VR GB</ref>, 3. März 1876; <ref type="letter" target="K_2729"><!--→ Nr. 209--></ref>.</note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. VR GB</ref>, 3. März 1876; <ref type="letter" target="K_2729"><!--→ Nr. 209--></ref>.</note>
                 </seg> <lb xml:id="p6-l10"/>
         Bei dem großen Interesse welches außer<lb xml:id="p6-l11"/> <seg type="ref">Herrn Geheimrath <persName type="person" key="Hansemann Adolph von">
-                        <hi>Hansemann</hi>
-                    </persName>
+                            <hi>Hansemann</hi>
+                        </persName>
                     <ref type="kbp">→ Adolph von Hansemann</ref>
                 </seg> gewiß Herr<lb xml:id="p6-l12"/> <seg type="com">
                     Freiherr <persName type="person" key="Oppenheim Abraham von">
@@ -438,29 +439,30 @@ die Erlaubniß sowohl Ihre gütigen Mittheilungen <seg type="com">
                     <note xml:id="K_2713_c15">Zeile nachträglich von Eschers Hand mit Bleistift markiert.</note>
                 </seg> <lb xml:id="p6-l18"/>
 wie den Entwurf der Denkschrift Herrn <persName type="person" key="Oppenheim Abraham von">
-                    <hi>von Oppenheim</hi>
-                </persName> <lb xml:id="p6-l19"/>
+                        <hi>von Oppenheim</hi>
+                    </persName> <lb xml:id="p6-l19"/>
 zu unterbreiten. Auch dürfte sich der Zusammentritt<lb xml:id="p6-l20"/>
 der Hauptmitglieder des <seg type="ref">
                     <placeName type="place" key="Deutsches Reich">deutschen</placeName> Consortiums<ref type="sum" target="Gotthardvereinigung_d1.8">Finanzkonsortium<!-- → Band 1, S. 207–209--></ref>
                 </seg> <lb xml:id="p6-l21"/> <seg type="com">
                     Fherr <persName type="person" key="Rothschild Mayer Carl von">
-                        <hi>von Rothschildt</hi>
-                    </persName>
+                            <hi>von Rothschildt</hi>
+                        </persName>
                     <note xml:id="K_2713_c16">
                         <persName type="person" key="Rothschild Mayer Carl von">Mayer Carl von Rothschild</persName> (1820–1886), Mitglied des <placeName type="place" key="Preussen (Königreich)">preussischen</placeName> Herrenhauses, Leiter des Bankhauses Mayer Amschel von Rothschild und Söhne in <placeName type="place" key="Frankfurt am Main (D)">Frankfurt am Main</placeName>, Verwaltungsrat der Gotthardbahn-Gesellschaft.
 </note>
                 </seg>, <choice>
-                    <abbr>GR</abbr>
-                    <expan>GeheimRath</expan>
-                </choice> <persName type="person" key="Hansemann Adolph von">von Hansemann</persName> und <seg type="com">
+                        <abbr>GR</abbr>
+                        <expan>GeheimRath</expan>
+                    </choice> <persName type="person" key="Hansemann Adolph von">von Hansemann</persName> und <seg type="com">
                     <note xml:id="K_2713_c17">Zeile nachträglich von Eschers Hand mit Bleistift markiert.</note>
                 </seg> <lb xml:id="p6-l22"/>
                 Frh <persName type="person" key="Oppenheim Abraham von">
-                    <hi>von Oppenheim</hi>
-                </persName> einen Tag vor der nächsten<lb xml:id="p6-l23"/>
+                        <hi>von Oppenheim</hi>
+                    </persName> einen Tag vor der nächsten<lb xml:id="p6-l23"/>
 Sitzung des Verwaltungsrathes empfehlen.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="left" xml:id="K_2713_p11">

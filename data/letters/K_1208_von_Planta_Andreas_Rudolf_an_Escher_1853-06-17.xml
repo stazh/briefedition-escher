@@ -32,7 +32,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Planta (Samedan) Andreas Rudolf von" type="sender">Andreas Rudolf von Planta</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Chur</placeName>
                     <date when="1853-06-17">Freitag, Juni 17, 1853</date>
                 </correspAction>
@@ -115,12 +115,13 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_1208_p3">
                 <lb xml:id="p1-l3"/> <seg type="ref">Vor meiner Abreise<ref type="sum" target="Ostalpenbahnfrage_p12">Tessiner Konzession<!--S. 44--></ref>
                 </seg> nur zwei Worte.<lb xml:id="p1-l4"/>
                 <placeName type="place" key="Tessin">
-                    <hi>Tessin</hi>
-                </placeName> (<seg type="ref">
+                        <hi>Tessin</hi>
+                    </placeName> (<seg type="ref">
                     <persName type="person" key="Pioda Giovanni Battista">
                         <hi>Pioda</hi>
                     </persName>
@@ -128,14 +129,14 @@
                 </seg>) hat also den Großen Rath<lb xml:id="p1-l5"/>
 vertagt, wie <seg type="ref">
                     <persName type="person" key="Dubs Jakob">
-                        <hi>Dubs</hi>
-                    </persName>
+                            <hi>Dubs</hi>
+                        </persName>
                     <ref type="kbp">→ Jakob Dubs</ref>
                 </seg> Ihnen <seg type="ref">melden<lb xml:id="p1-l6"/>
 wird.<ref type="letter" target="K_1205"><!--Nr. 9--></ref>
                     <ref type="letter" target="K_3418"><!-- Nr. 21--></ref>
                 </seg> Seither sind alle <hi>Emissaers</hi>
-                <lb xml:id="p1-l7"/>
+                    <lb xml:id="p1-l7"/>
 von dort abgegangen. –</p>
       <p rend="indent" xml:id="K_1208_p4">
                 <lb xml:id="p1-l8"/> <seg type="ref">
@@ -157,10 +158,10 @@ sogar zusichernde Erklärungen mit<lb xml:id="p1-l11"/>
                 <persName type="person" key="Pioda Giovanni Battista">
                     <hi>Pioda</hi>
                 </persName> <choice>
-                    <abbr>
+                        <abbr>
                     <hi>etc</hi> </abbr>
-                    <expan>et cetera (und anderes)</expan>
-                </choice> gewechselt <hi>in puncto</hi> <lb xml:id="p1-l12"/>
+                        <expan>et cetera (und anderes)</expan>
+                    </choice> gewechselt <hi>in puncto</hi> <lb xml:id="p1-l12"/>
                 <placeName type="place" key="Alpen">Alpen</placeName>bahn, eventuel <hi rend="underline">
                     <placeName type="place" key="Lukmanier (Pass)">
                         <hi>Lukmanier</hi>
@@ -175,9 +176,9 @@ Begehren der <seg type="ref">
                     <ref type="letter" target="K_1205"><!--Nr. 9--></ref>
                 </seg> <lb xml:id="p1-l17"/>
 gehalten, sodaß <persName type="person" key="Killias Wolfgang">
-                    <hi>Killias</hi>
-                </persName> einen<lb xml:id="p1-l18"/> <seg type="com">
-                    <hi>perfiden</hi> Streich vermuthet mit
+                        <hi>Killias</hi>
+                    </persName> einen<lb xml:id="p1-l18"/> <seg type="com">
+                        <hi>perfiden</hi> Streich vermuthet mit
                     <lb break="no" xml:id="p1-l19"/>telst 
 fingirter <hi rend="underline">
                         <placeName type="place" key="Lukmanier (Pass)">
@@ -194,15 +195,15 @@ die von <placeName type="place" key="Paris (F)">
                         <hi>Lukmanier</hi>
                     </placeName>subsidien<lb xml:id="p1-l22"/>
   streitig machen sollen!<note xml:id="K_1208_c3">Die <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName>seite fürchtete offenbar eine Intrige der Schweizerischen Centralbahn und ihrer <placeName type="place" key="Paris (F)">Pariser</placeName> Financiers. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 71<!--; <ref type="letter" target="K_1230_c6">→ Nr. 12 (Kommentar)</ref>, gelöscht, CF, 23.06.2015-->.  – Über das angebliche Interesse <placeName type="place" key="Basel-Stadt">Basels</placeName> am <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName> wurde auch in der Presse berichtet und dieses als «Windbeutelei» kommentiert. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Liberaler Alpenbote</ref>, 14. Juni 1853.</note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 71<!--; <ref type="letter" target="K_1230_c6">→ Nr. 12 (Kommentar)</ref>, gelöscht, CF, 23.06.2015-->.  – Über das angebliche Interesse <placeName type="place" key="Basel-Stadt">Basels</placeName> am <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName> wurde auch in der Presse berichtet und dieses als «Windbeutelei» kommentiert. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Liberaler Alpenbote</ref>, 14. Juni 1853.</note>
                 </seg> <pb n="2"/>
             </p>
       <p rend="indent" xml:id="K_1208_p5">
@@ -226,12 +227,12 @@ Unternehmen in <placeName type="place" key="Paris (F)">
                         <hi>Paris</hi>
                     </placeName> wieder<lb xml:id="p2-l8"/>
   flott zu machen<note xml:id="K_1208_c5">Angesichts der im schweizerischen Eisenbahnfieber entstandenen Konkurrenzsituation und des Kurszerfalls der Schweizerische Centralbahn-Aktien versuchten die <placeName type="place" key="Paris (F)">Pariser</placeName> Geldgeber das Unternehmen mit der Linie <placeName type="place" key="Genf">Genf</placeName>–<placeName type="place" key="Bern">Bern</placeName> (Kantonsgrenze) zu fusionieren. Die Fusion kam allerdings nicht zustande. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 71; <ref type="letter" target="K_1254_c6"><!--→ Nr. 22 (Kommentar)--></ref>.</note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 71; <ref type="letter" target="K_1254_c6"><!--→ Nr. 22 (Kommentar)--></ref>.</note>
                 </seg>, <placeName type="place" key="Zürich">
                     <hi>Zürich</hi>
                 </placeName> <lb xml:id="p2-l9"/>
@@ -261,9 +262,9 @@ andrer Seits gehörig die<lb xml:id="p3-l3"/>
                 <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>sympathien (<seg type="com">siehe<lb xml:id="p3-l4"/>
 Neue <placeName type="place" key="Zürich">Zürcher</placeName> Zeitung<note xml:id="K_1208_c6">
                         <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">NZZ</ref>, 9. Juni 1853, 16. Juni 1853; <ref type="letter" target="K_1230"><!--→ Nr. 12--></ref>.</note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 9. Juni 1853, 16. Juni 1853; <ref type="letter" target="K_1230"><!--→ Nr. 12--></ref>.</note>
                 </seg>), namen
                 <lb break="no" xml:id="p3-l5"/>tlich 
 auch in <placeName type="place" key="Zürich">
@@ -290,12 +291,12 @@ mittheilen. –</p>
       <p rend="indent" xml:id="K_1208_p7">
                 <lb xml:id="p3-l14"/>Eine <seg type="com">
                     <date when="1853-06-16">gestrige</date> Reglungs Conferenz<note xml:id="K_1208_c8">Am <date when="1853-06-16">16. Juni 1853</date> trafen Abgeordnete der Kantone <placeName type="place" key="St. Gallen">St. Gallen</placeName> und <placeName type="place" key="Graubünden">Graubünden</placeName> in <placeName type="place" key="Chur">Chur</placeName> zusammen, um über das weitere Vorgehen in der Konzessionsfrage im <placeName type="place" key="Tessin">Tessin</placeName> und in <placeName type="place" key="Sardinien-Piemont (Königreich)">Sardinien-Piemont</placeName> zu beraten. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Prot. VR/WK SOB</ref>, 17. Juni 1853, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 74.</note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. VR/WK SOB</ref>, 17. Juni 1853, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 74.</note>
                 </seg> <lb xml:id="p3-l15"/> mit <placeName type="place" key="St. Gallen">St Galler</placeName> Herren hat nichts<lb xml:id="p3-l16"/>
 als Insinuationen an <placeName type="place" key="Tessin">Tessin</placeName> <lb xml:id="p3-l17"/>
 zu Tage gefördert. Missionen<lb xml:id="p3-l18"/>
@@ -334,34 +335,35 @@ alle Zukunft – <hi rend="underline">düpirt</hi>! – Verzeihen<lb xml:id="p4-
 Sie diesen lezten Stoßseufzer<lb xml:id="p4-l16"/>
 eines Abreisenden. In <date when="1853-06-27">10 Tagen</date> <lb xml:id="p4-l17"/>
 will ich Rede stehen, aber<lb xml:id="p4-l18"/> <seg type="com">bis dahin haben Sie <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <hi rend="underline">
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> <hi rend="underline">
                         <placeName type="place" key="Zürich">
                             <hi>Zürich</hi>
                         </placeName>
                     </hi> <lb xml:id="p4-l19"/>
 die <placeName type="place" key="Lukmanier (Pass)">
-                        <hi>Lukmanier</hi>
-                    </placeName> und Eisenbahnfrage<lb xml:id="p4-l20"/>
+                            <hi>Lukmanier</hi>
+                        </placeName> und Eisenbahnfrage<lb xml:id="p4-l20"/>
   entschieden. Fusion<note xml:id="K_1208_c9">Ob Planta die Fusion von <placeName type="place" key="Linth">Linth-</placeName> und <placeName type="place" key="Rhein">Rheinlinie</placeName> der Schweizerische Südostbahn oder die Vereinigung der Schweizerischen Südostbahn mit dem <placeName type="place" key="England">englischen</placeName> Konsortium oder gar die Fusion der <ref type="kbe"/>Schweizerischen Nordbahn mit der <ref type="kbe"/>Zürich–Bodensee-Bahn meint, ist unklar. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">NZZ</ref>, 11. Juni 1853; <ref type="letter" target="K_1195"><!--→ Nr. 6--></ref>; <placeName type="place" key="Rhein">Rhein</placeName>- <choice>
-                            <abbr>vs.</abbr>
-                            <expan>versus</expan>
-                        </choice> <placeName type="place" key="Linth">Linth</placeName>linie <ref type="sum" target="Ostalpenbahnfrage_p17"><!--S. 46--></ref>.</note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 11. Juni 1853; <ref type="letter" target="K_1195"><!--→ Nr. 6--></ref>; <placeName type="place" key="Rhein">Rhein</placeName>- <choice>
+                                <abbr>vs.</abbr>
+                                <expan>versus</expan>
+                            </choice> <placeName type="place" key="Linth">Linth</placeName>linie <ref type="sum" target="Ostalpenbahnfrage_p17"><!--S. 46--></ref>.</note>
                 </seg> und <seg type="com">Betheiligung<lb xml:id="p4-l21"/>
     für Südostbahn<note xml:id="K_1208_c10">Der Grosse Rat des Kantons <placeName type="place" key="St. Gallen">St. Gallen</placeName> hatte zwar die Beteiligung am <date when="1853-06-10">10. Juni 1853</date> zugunsten des Gesamtunternehmens gesprochen, doch mit Vorbehalten betreffend die <placeName type="place" key="Walensee">Walensee</placeName>linie. In <placeName type="place" key="Zürich">Zürich</placeName> kam das Geschäft nicht wie erhofft in der Ende Juni bevorstehenden Session des <placeName type="place" key="Zürich">Zürcher</placeName> Grossen Rates zur Behandlung, sondern erst am <date when="1853-10-04">4. Oktober 1853</date>. Für die gleichzeitig aus Nordbahn und Eschers Zürich–Bodensee-Bahn fusionierte <ref type="kbe"/>Nordostbahn (ausserordentliche Generalversammlungen am <date when="1853-06-23">23.</date> <choice>
-                            <abbr>bzw.</abbr>
-                            <expan>beziehungsweise</expan>
-                        </choice> <date when="1853-06-27">27. Juni 1853</date>) war eine Beteiligung an der Schweizerische Südostbahn allerdings noch kein Thema. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Prot. Dir. Zürich-Bodensee-Bahn</ref>, 1853; <ref type="lit">Prot. Dir. Nordbahn</ref>, 1853; <ref type="lit">NZZ</ref>, 18. Juni 1853, 5. Oktober 1853; <ref type="letter" target="K_1195"><!--→ Nr. 6--></ref>; <ref type="sum" target="Ostalpenbahnfrage_p17"><!--S. 46–47--></ref>.</note>
+                                <abbr>bzw.</abbr>
+                                <expan>beziehungsweise</expan>
+                            </choice> <date when="1853-06-27">27. Juni 1853</date>) war eine Beteiligung an der Schweizerische Südostbahn allerdings noch kein Thema. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. Dir. Zürich-Bodensee-Bahn</ref>, 1853; <ref type="lit">Prot. Dir. Nordbahn</ref>, 1853; <ref type="lit">NZZ</ref>, 18. Juni 1853, 5. Oktober 1853; <ref type="letter" target="K_1195"><!--→ Nr. 6--></ref>; <ref type="sum" target="Ostalpenbahnfrage_p17"><!--S. 46–47--></ref>.</note>
                 </seg> geben den Ausschlag.<lb xml:id="p4-l22"/>
 In drängender Eile bestens grüßen<supplied>d</supplied> </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_1208_p9">

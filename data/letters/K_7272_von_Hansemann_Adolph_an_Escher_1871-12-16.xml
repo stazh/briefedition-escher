@@ -12,7 +12,7 @@
                 <msDesc>
                     <msIdentifier>
                         <institution>SBB Historic</institution>
-                        <idno type="original"/>
+                        <idno type="original">VGB_GB_SBBGB01_061</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
@@ -30,7 +30,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="Hansemann Adolph von" type="sender">Adolph von Hansemann</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
                     <placeName>Berlin</placeName>
                     <date when="1871-12-16">Samstag, Dezember 16, 1871</date>
                 </correspAction>
@@ -97,17 +97,18 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_7272_p3">
                 <lb xml:id="p1-l3"/>Ich besitze Ihre <choice>
-                    <abbr>freundl.</abbr>
-                    <expan>freundlich</expan>
-                </choice> <seg type="ref">Mitthei
+                        <abbr>freundl.</abbr>
+                        <expan>freundlich</expan>
+                    </choice> <seg type="ref">Mitthei
                     <lb break="no" xml:id="p1-l4"/>lungen<ref type="letter" target="K_6790"/>
                 </seg> vom <date when="1871-12-11">11<hi rend="sup">ten </hi>
-                    <choice>
-                        <abbr>Dss.</abbr>
-                        <expan>Dieses [Monats]</expan>
-                    </choice>
+                        <choice>
+                            <abbr>Dss.</abbr>
+                            <expan>Dieses [Monats]</expan>
+                        </choice>
                 </date>, sowie Ihr Tele
                 <lb break="no" xml:id="p1-l5"/>gramm:
                 <lb xml:id="p1-l6"/>«Die Anlagen zu dem einen
@@ -176,9 +177,9 @@
                     <persName type="person" key="Hartwich Emil Hermann">Hartwig</persName> </hi> aufmerksam
                 <lb xml:id="p3-l4"/>machte, erwähnt Herr <hi>
                     <choice>
-                        <abbr>D<hi rend="sup">r</hi> </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> <persName type="person" key="Parcus Ludwig August">Parcus</persName> </hi> den
+                            <abbr>D<hi rend="sup">r</hi> </abbr>
+                            <expan>Doktor / Doctor</expan>
+                        </choice> <persName type="person" key="Parcus Ludwig August">Parcus</persName> </hi> den
                 <lb xml:id="p3-l5"/>Herrn <hi>
                     <persName type="person" key="Werder Johann Ludwig">Werder</persName> </hi> in <hi>
                     <placeName type="place" key="Nürnberg (D)">Nürnberg</placeName>
@@ -190,7 +191,7 @@
                 <lb xml:id="p3-l10"/>einer Preis-Aufgabe für die Inter
                 <lb break="no" xml:id="p3-l11"/>essen des <hi>
                     <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>
-                </hi>baues herangezogen
+                    </hi>baues herangezogen
                 <lb xml:id="p3-l12"/>werden könnte.
             </p>
       <p rend="indent" xml:id="K_7272_p6">
@@ -205,7 +206,8 @@
                 <lb xml:id="p3-l20"/>Erniedrigung des Zinsfußes nach allen
                 <lb xml:id="p3-l21"/>Richtungen hin entgegengehen.
             </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="right" xml:id="K_7272_p8">
