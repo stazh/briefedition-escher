@@ -17,7 +17,7 @@ declare variable $pm-config:web-transform := function($xml as node()*, $paramete
     switch ($odd)
     case "escher.odd" return pm-escher-web:transform($xml, $parameters)
 case "docbook.odd" return pm-docbook-web:transform($xml, $parameters)
-    default return pm-docbook-web:transform($xml, $parameters)
+    default return pm-escher-web:transform($xml, $parameters)
             
     
 };
@@ -28,7 +28,7 @@ declare variable $pm-config:print-transform := function($xml as node()*, $parame
     switch ($odd)
     case "escher.odd" return pm-escher-print:transform($xml, $parameters)
 case "docbook.odd" return pm-docbook-print:transform($xml, $parameters)
-    default return pm-docbook-print:transform($xml, $parameters)
+    default return pm-escher-print:transform($xml, $parameters)
             
     
 };
@@ -39,7 +39,7 @@ declare variable $pm-config:latex-transform := function($xml as node()*, $parame
     switch ($odd)
     case "escher.odd" return pm-escher-latex:transform($xml, $parameters)
 case "docbook.odd" return pm-docbook-latex:transform($xml, $parameters)
-    default return pm-docbook-latex:transform($xml, $parameters)
+    default return pm-escher-latex:transform($xml, $parameters)
             
     
 };
@@ -50,7 +50,7 @@ declare variable $pm-config:epub-transform := function($xml as node()*, $paramet
     switch ($odd)
     case "escher.odd" return pm-escher-epub:transform($xml, $parameters)
 case "docbook.odd" return pm-docbook-epub:transform($xml, $parameters)
-    default return pm-docbook-epub:transform($xml, $parameters)
+    default return pm-escher-epub:transform($xml, $parameters)
             
     
 };

@@ -125,16 +125,20 @@
                     <model behaviour="listItem"/>
                 </elementSpec>
                 <elementSpec ident="teiHeader" mode="change">
-        <model predicate="$parameters?header='reference'" behaviour="inline">
+                    <model predicate="$parameters?header='reference'" behaviour="inline">
             <param name="id" value="substring-after(ancestor::TEI/@xml:id, 'K_')"/>
             <param name="ref" value="(.//msIdentifier/institution, ' ', .//msIdentifier/idno[@type='original'])"/>
-            <pb:template xmlns="" xml:space="preserve"><div>AES B[[id]] | [[ref]]</div></pb:template>
+            <param name="type" value="let $type:= .//msIdentifier/@type return if ($type != '') then ' (' || $type || ')' else ()"/>
+            <pb:template xmlns="" xml:space="preserve"><div>AES B[[id]] | [[ref]][[type]]</div></pb:template>
+            <outputRendition xml:space="preserve">
+            
+            </outputRendition>
         </model>
-        <model output="latex" behaviour="metadata"/>
-        <model output="fo" behaviour="omit"/>
-        <model output="web" predicate="$parameters?header='short'" behaviour="block"/>
-        <model output="web" behaviour="metadata"/>
-    </elementSpec>
+                    <model output="latex" behaviour="metadata"/>
+                    <model output="fo" behaviour="omit"/>
+                    <model output="web" predicate="$parameters?header='short'" behaviour="block"/>
+                    <model output="web" behaviour="metadata"/>
+                </elementSpec>
             </schemaSpec>
         </body>
     </text>
