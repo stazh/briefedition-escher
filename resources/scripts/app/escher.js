@@ -11,9 +11,16 @@ function findEndOfRange(current, selector) {
     return last;
 }
 
+let root;
+
+// find popovers containing the id in their data-ref attribute and call the callback for each.
+function findPopovers(id, callback) {
+    root.querySelectorAll(`pb-popover[data-ref=${id}]`).forEach(callback);
+}
+
 window.addEventListener('load', () => {
     pbEvents.subscribe('pb-update', 'transcription', (ev) => {
-        const root = ev.detail.root;
+        root = ev.detail.root;
         root.querySelectorAll('br').forEach((br) => {
             const next = findEndOfRange(br, 'br');
             if (!next) {
@@ -27,4 +34,23 @@ window.addEventListener('load', () => {
             range.surroundContents(wrapper);
         });
     });
+
+    // wait until register content has been loaded, then walk trough the transcription
+    // and extend all persName, placeName etc. popovers with the additional information
+    pbEvents.subscribe('pb-update', 'register', (ev) => {
+        ev.detail.root.querySelectorAll('paper-checkbox[data-ref]').forEach((checkbox) => {
+            const id = checkbox.getAttribute('data-ref');
+            
+            checkbox.addEventListener('change', () => {
+                findPopovers(id, (ref) => {
+                    if (checkbox.checked) {
+                        ref.classList.add('highlight');
+                    } else {
+                        ref.classList.remove('highlight');
+                    }
+                });
+            });
+        });
+    });
+
 });

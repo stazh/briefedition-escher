@@ -53,11 +53,17 @@
                     <model predicate="$parameters?header='context'" behaviour="listItem">
             <param name="label" value="@key/string()"/>
             <param name="uri" value="let $initial := substring(@key, 1, 1) return 'https://www.briefedition.alfred-escher.ch/kontexte/orte/' || $initial || '/' || @key"/>
-            <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
+            <param name="ref" value="@key"/>
+            <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
         </model>
-                    <model behaviour="alternate" cssClass="popover">
-            <param name="default" value="."/>
-            <param name="alternate" value="@key"/>
+                    <model behaviour="inline" cssClass="popover">
+            <param name="content" value="."/>
+            <param name="label" value="@key"/>
+            <param name="ref" value="@key"/>
+            <pb:template xmlns="" xml:space="preserve"><pb-popover data-ref="[[ref]]">
+  <span slot="default">[[content]]</span>
+  <span slot="alternate">[[label]]</span>
+</pb-popover></pb:template>
         </model>
                 </elementSpec>
                 <elementSpec ident="choice" mode="change">
@@ -228,7 +234,17 @@
                     <model predicate="$parameters?header='context'" behaviour="listItem">
             <param name="uri" value="let $initial := substring(@key, 1, 1) return 'https://www.briefedition.alfred-escher.ch/kontexte/personen/korrespondenten-und-erwahnte-personen/' || $initial || '/' || @key/string() || '/'"/>
             <param name="label" value="@key"/>
-            <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
+            <param name="ref" value="@key"/>
+            <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
+        </model>
+                    <model behaviour="inline">
+            <param name="content" value="."/>
+            <param name="label" value="@key"/>
+            <param name="ref" value="@key"/>
+            <pb:template xmlns="" xml:space="preserve"><pb-popover data-ref="[[ref]]">
+  <span slot="default">[[content]]</span>
+  <span slot="alternate">[[label]]</span>
+</pb-popover></pb:template>
         </model>
                 </elementSpec>
             <elementSpec ident="ref" mode="change">
@@ -238,7 +254,14 @@
             <param name="uri" value="let $target := @target return util:document-name(collection('/db/apps/escher/data/letters')/id($target))"/>
             <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]">[[label]]: [[letter]]</a></pb:template>
         </model>
-                    <model predicate="not(@target)" behaviour="inline"/>
+                    <model predicate="@type='letter'" behaviour="inline">
+            <param name="ref" value="@target"/>
+            <param name="label" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)//titleStmt/title"/>
+            <pb:template xmlns="" xml:space="preserve"><pb-popover data-ref="[[ref]]">
+  <span slot="default"><iron-icon icons="icons:mail"/></span>
+  <span slot="alternate">[[label]]</span>
+</pb-popover></pb:template>
+        </model>
                     <model predicate="not(node())" behaviour="link">
             <param name="content" value="@target"/>
             <param name="uri" value="@target"/>
