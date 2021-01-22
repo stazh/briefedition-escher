@@ -236,7 +236,7 @@
             <param name="ref" value="@key"/>
             <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
         </model>
-                    <model behaviour="inline">
+                <model behaviour="inline" cssClass="popover">
             <param name="content" value="."/>
             <param name="label" value="@key"/>
             <param name="ref" value="@key"/>

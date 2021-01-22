@@ -23,6 +23,10 @@
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <script src="resources/scripts/app/escher.js"></script>
         <style>
+            body {
+                --pb-view-height: calc(100vh - 173px)
+            }
+
             @media (min-width: 769px) {
                 .toolbar pb-navigation {
                     display: none;
@@ -32,7 +36,7 @@
             .content-body {
                 position: relative;
                 display: grid;
-                height: calc(100vh - 173px);
+                height: var(--pb-view-height);
                 grid-template-columns: 1fr auto minmax(360px, 640px);
             }
 
@@ -61,6 +65,10 @@
                 .content-body pb-navigation {
                     display: none;
                 }
+            }
+
+            pb-facsimile {
+                --pb-facsimile-height: var(--pb-view-height);
             }
         </style>
     </head>
