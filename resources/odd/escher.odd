@@ -108,14 +108,14 @@
             text-align: right;
             </outputRendition>
         </model>
-                    <model behaviour="paragraph" useSourceRendition="true">
+                    <model behaviour="paragraph" cssClass="indent" useSourceRendition="true">
             <outputRendition xml:space="preserve">
             text-align: justify;
             </outputRendition>
         </model>
                 </elementSpec>
                 <elementSpec ident="keywords" mode="add">
-                    <model behaviour="inline">
+                    <model behaviour="inline" cssClass="subheading">
             <param name="keywords" value="for $i at $pos in .//item  order by $i return (if ($pos &gt; 1) then ', ' else (), $i)"/>
             <pb:template xmlns="" xml:space="preserve"><div>Schlagwörter: [[keywords]]</div></pb:template>
         </model>
@@ -125,11 +125,11 @@
                     <model behaviour="listItem"/>
                 </elementSpec>
                 <elementSpec ident="teiHeader" mode="change">
-                    <model predicate="$parameters?header='reference'" behaviour="inline">
+                    <model predicate="$parameters?header='reference'" behaviour="inline" cssClass="subheading">
             <param name="id" value="substring-after(ancestor::TEI/@xml:id, 'K_')"/>
             <param name="ref" value="(.//msIdentifier/institution, ' ', .//msIdentifier/idno[@type='original'])"/>
             <param name="type" value="let $type:= .//msIdentifier/@type return if ($type != '') then ' (' || $type || ')' else ()"/>
-            <pb:template xmlns="" xml:space="preserve"><div>AES B[[id]] | [[ref]][[type]]</div></pb:template>
+            <pb:template xmlns="" xml:space="preserve">AES B[[id]] | [[ref]][[type]]</pb:template>
             <outputRendition xml:space="preserve">
             
             </outputRendition>
@@ -139,6 +139,53 @@
                     <model output="web" predicate="$parameters?header='short'" behaviour="block"/>
                     <model output="web" behaviour="metadata"/>
                 </elementSpec>
+            <elementSpec ident="title" mode="change">
+        <model predicate="$parameters?header='short'" behaviour="heading">
+            <param name="level" value="2"/>
+        </model>
+        <modelSequence predicate="parent::titleStmt/parent::fileDesc">
+            <model predicate="preceding-sibling::title" behaviour="text">
+                <param name="content" value="' — '"/>
+            </model>
+            <model behaviour="inline"/>
+        </modelSequence>
+        <model predicate="not(@level) and parent::bibl" behaviour="inline"/>
+        <modelSequence predicate="@level='m' or not(@level)">
+            <model behaviour="inline">
+                <outputRendition xml:space="preserve">
+                font-style: italic;
+                </outputRendition>
+            </model>
+            <model predicate="ancestor::biblFull" behaviour="text">
+                <param name="content" value="', '"/>
+            </model>
+        </modelSequence>
+        <modelSequence predicate="@level='s' or @level='j'">
+            <model behaviour="inline">
+                <outputRendition xml:space="preserve">
+                font-style: italic;
+                </outputRendition>
+            </model>
+            <model predicate="following-sibling::* and     (  ancestor::biblFull)" behaviour="text">
+                <param name="content" value="', '"/>
+            </model>
+        </modelSequence>
+        <modelSequence predicate="@level='u' or @level='a'">
+            <model behaviour="inline">
+                <outputRendition xml:space="preserve">
+                font-style: italic;
+                </outputRendition>
+            </model>
+            <model predicate="following-sibling::* and     (    ancestor::biblFull)" behaviour="text">
+                <param name="content" value="'. '"/>
+            </model>
+        </modelSequence>
+        <model behaviour="inline">
+            <outputRendition xml:space="preserve">
+            font-style: italic;
+            </outputRendition>
+        </model>
+    </elementSpec>
             </schemaSpec>
         </body>
     </text>

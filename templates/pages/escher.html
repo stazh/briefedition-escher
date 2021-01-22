@@ -15,6 +15,8 @@
 
         <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap"/>
+
         <link rel="stylesheet" href="resources/css/theme.css"/>
         <link rel="stylesheet" href="resources/css/escher.css"/>
 
@@ -77,17 +79,17 @@
                         </div>
                     </pb-drawer>
                     <section class="breadcrumbs">
-                        <pb-view id="reference-view1" src="document1" xpath="//teiHeader" view="single">
+                        <pb-view id="reference-view1" src="document1" xpath="//teiHeader" view="single" load-css="odd/escher.css">
                             <pb-param name="header" value="reference"/>
                         </pb-view>
                     </section>
                     <section class="breadcrumbs">
-                        <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt/title" view="single">
+                        <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt/title" view="single" load-css="odd/escher.css">
                             <pb-param name="header" value="short"/>
                         </pb-view>
                     </section>
                     <section class="breadcrumbs">
-                        <pb-view id="keywords-view1" src="document1" xpath="//teiHeader//keywords" view="single">
+                        <pb-view id="keywords-view1" src="document1" xpath="//teiHeader//keywords" view="single" load-css="odd/escher.css">
                             <pb-param name="header" value="short"/>
                         </pb-view>
                     </section>

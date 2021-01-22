@@ -1,0 +1,35 @@
+/* Due to a safari issue, relative paths to background images won't work as variables, so we list them here */
+.logo { background-image: url("../images/escher_logo.png"); }
+.splash { background-image: url("../images/tei-publisher-logo-color.svg"); }
+.menubar { background-image: none; }
+.toolbar { background-image: none; }
+app-header { background-image: none; }
+
+body {
+    --pb-logo-image-width: 544px;
+    --pb-logo-image-height: 109px;
+    --pb-menubar-background-color: #f7f8f8;
+    --pb-menubar-color: var(--pb-color-primary);
+    --pb-toolbar-background-color: #f0f0f0;
+    --pb-toolbar-color: var(--pb-color-primary);
+    --pb-base-font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
+    --pb-base-font-size: 16px;
+    --pb-base-font-weight: 400;
+    --pb-base-line-height: 1.8;
+
+    --pb-heading-font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
+    
+    --pb-content-font-family: var(--pb-base-font-family);
+    --pb-content-font-size: 16px;
+
+}
+
+
+
+
+.menubar {
+    height: 109px;
+}
+.menubar .logo {
+    margin: 0 16px 0 0;
+}
