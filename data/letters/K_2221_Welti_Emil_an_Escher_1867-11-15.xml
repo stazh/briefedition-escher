@@ -28,36 +28,80 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1867-11-15">Freitag, November 15, 1867</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="05-06-01" who="SD/BF"> transkribiert</change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert</change>
-            <change when="06-07-25" who="BF">provisorisch kommentiert 1</change>
-            <change when="2006-12-07" who="SM">Konvertierung provisorisch nachbearbeitet</change>
-            <change when="2006-12-22" who="WB">Konvertierung nachbearbeitet (Indexierung fehlt!)</change>
-            <change when="2007-01-24" who="TN">Korrekturen übertragen</change>
-            <change when="2007-03-2007; 27-02-07" who="BF">provisorisch kommentiert 2</change>
-            <change when="2007-04-13" who="WB">indexiert</change>
-            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen</change>
-            <change when="2007-05-15" who="BF">Umsetzung Lektorat und Verifizierung</change>
-            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2</change>
-            <change when="2007-06-21" who="BF">Umsetzung Verifizierung Verweise</change>
-            <change when="2007-07-12" who="BF">Umsetzung Lektorat MK 2</change>
-            <change when="2007-08-02" who="BF">Umsetzung Verifizierung Personenerwähnungen</change>
-            <change when="2007-08-29" who="BF">Korrekturen 3 Haberthür übertragen</change>
-            <change when="2008-07-28" who="SW">Auf Stand Edition gebracht</change>
-            <change when="2011-07-15" who="HA">e-Edition: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-08-04" who="AH">e-Edition: Verifizierung 1 umgesetzt</change>
-            <change when="2011-08-31" who="BP">e-Edition: Verifizierung 2 umgesetzt</change>
-            <change when="2014-01-28" who="MB">Migrationsverifizierung umgesetzt</change>
-            <change when="2014-11-17" who="CA">Verifizierung 2 umgesetzt</change>
-            <change when="2014-11-17" who="CA">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="05-06-01" who="SD/BF"> transkribiert
+                
+            </change>
+            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
+                
+            </change>
+            <change when="06-07-25" who="BF">provisorisch kommentiert 1
+                
+            </change>
+            <change when="2006-12-07" who="SM">Konvertierung provisorisch nachbearbeitet
+                
+            </change>
+            <change when="2006-12-22" who="WB">Konvertierung nachbearbeitet (Indexierung fehlt!)
+                
+            </change>
+            <change when="2007-01-24" who="TN">Korrekturen übertragen
+                
+            </change>
+            <change when="2007-03-2007; 27-02-07" who="BF">provisorisch kommentiert 2
+                
+            </change>
+            <change when="2007-04-13" who="WB">indexiert
+                
+            </change>
+            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen
+                
+            </change>
+            <change when="2007-05-15" who="BF">Umsetzung Lektorat und Verifizierung
+                
+            </change>
+            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2
+                
+            </change>
+            <change when="2007-06-21" who="BF">Umsetzung Verifizierung Verweise
+                
+            </change>
+            <change when="2007-07-12" who="BF">Umsetzung Lektorat MK 2
+                
+            </change>
+            <change when="2007-08-02" who="BF">Umsetzung Verifizierung Personenerwähnungen
+                
+            </change>
+            <change when="2007-08-29" who="BF">Korrekturen 3 Haberthür übertragen
+                
+            </change>
+            <change when="2008-07-28" who="SW">Auf Stand Edition gebracht
+                
+            </change>
+            <change when="2011-07-15" who="HA">e-Edition: Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-04" who="AH">e-Edition: Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-31" who="BP">e-Edition: Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-01-28" who="MB">Migrationsverifizierung umgesetzt
+                
+            </change>
+            <change when="2014-11-17" who="CA">Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-11-17" who="CA">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -70,91 +114,100 @@
     <body>
             <div>
       <p rend="left" xml:id="K_2221_p2">
-                    <lb xml:id="p1-l2"/>Von Tag zu Tag hoffte ich <seg type="com">Ihren letzten<lb xml:id="p1-l3"/>
+                <lb xml:id="p1-l2"/>Von Tag zu Tag hoffte ich <seg type="com">Ihren letzten<lb xml:id="p1-l3"/>
 Brief<note xml:id="K_2221_c1">Brief nicht ermittelt.</note>
-                    </seg> in einläßlicher Weise nämlich so<lb xml:id="p1-l4"/>
+                </seg> in einläßlicher Weise nämlich so<lb xml:id="p1-l4"/>
 zu beantworten daß ich meine eigenen<lb xml:id="p1-l5"/> <seg type="com">Anschauungen über das Bundesstaatsrecht<lb xml:id="p1-l6"/>
 in Eisenbahnsachen<note xml:id="K_2221_c2">Escher hatte zuvor ein «Schema zur Beleuchtung der Schweizer <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage vom bundesrechtlichen Standpunkte aus» erarbeitet. <ref type="letter" target="K_2219"><!-- → Nr. 81--></ref>; <ref type="letter" target="K_2220"><!-- → Nr. 82--></ref>.</note>
-                    </seg> ausführlich aus einander<lb xml:id="p1-l7"/>
+                </seg> ausführlich aus einander<lb xml:id="p1-l7"/>
 setzte. Ich bin aber seit einiger Zeit so<lb xml:id="p1-l8"/>
-in Anspruch genommen daß ich keine Zeit da<lb break="no" xml:id="p1-l9"/>zu 
+in Anspruch genommen daß ich keine Zeit da
+                <lb break="no" xml:id="p1-l9"/>zu 
 fand, <seg type="com">besonders da ich vier Wochen<lb xml:id="p1-l10"/>
   lang zwei Departemente zu besorgen hatte.<note xml:id="K_2221_c3">Welti war 1867 Vorsteher des Militärdepartements und Stellvertreter von <persName type="person" key="Knüsel Josef Martin">Josef Martin Knüsel</persName> im Justiz- und Polizeidepartement. <persName type="person" key="Knüsel Josef Martin">Knüsel</persName> reichte am <date when="1867-10-07">7. Oktober</date> ein Urlaubsgesuch ein und war bis am <date when="1867-11-06">6. November</date> abwesend. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?ID=10005331">Aus den Verhandlungen des schweizerischen Bundesrathes (vom 21. Dezember 1866), in: <ref type="lit">BBl</ref> 1866 III, S. 376</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004299">
-                                <ref type="lit">Prot. BR</ref>, 7. Oktober 1867</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004312" type="www">
-                                <ref type="lit">Prot. BR</ref>, 6. November 1867</ref>.</note>
-                    </seg> <lb xml:id="p1-l11"/>
+                            <ref type="lit">Prot. BR</ref>, 7. Oktober 1867</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004312" type="www">
+                            <ref type="lit">Prot. BR</ref>, 6. November 1867</ref>.</note>
+                </seg> <lb xml:id="p1-l11"/>
 Im Allgemeinen bin ich mit Ihren Sätzen<lb xml:id="p1-l12"/>
 einverstanden <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> werde Ihnen die Abwei<lb break="no" xml:id="p1-l13"/>chungen 
+                    </choice> werde Ihnen die Abwei
+                <lb break="no" xml:id="p1-l13"/>chungen 
 baldigst mittheilen. Der <seg type="ref">traurige<lb xml:id="p1-l14"/>
 Zustand in dem sich <placeName type="place" key="Italien (Königreich)">Italien</placeName> befindet<ref type="letter" target="K_2220"><!-- → Nr. 82--></ref>
-                    </seg> giebt<lb xml:id="p1-l15"/>
+                </seg> giebt<lb xml:id="p1-l15"/>
 wenig Hoffnung daß die Sache vorwärts<lb xml:id="p1-l16"/>
 gehe; <seg type="ref">Herr <persName type="person" key="Pioda Giovanni Battista">Pioda</persName>
-                        <ref type="kbp">→ Giovanni Battista Pioda</ref>
-                    </seg> scheint auch noch keine<pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-weitern Schritte gethan zu haben; wenig<lb break="no" xml:id="p2-l2"/>stens 
+                    <ref type="kbp">→ Giovanni Battista Pioda</ref>
+                </seg> scheint auch noch keine<pb n="2"/>
+                <lb xml:id="p2-l1"/>
+weitern Schritte gethan zu haben; wenig
+                <lb break="no" xml:id="p2-l2"/>stens 
 schreibt er nichts drüber. Mit<lb xml:id="p2-l3"/>
 dem neuen Gesandten <seg type="com">
-                        <persName type="person" key="Melegari Luigi Amedeo">
-                            <hi>Melegari</hi>
-                        </persName>
-                        <note xml:id="K_2221_c4">
-                            <persName type="person" key="Melegari Luigi Amedeo">Luigi Amedeo Melegari</persName> (1805–1881), ausserordentlicher Gesandter und bevollmächtigter Minister des Königreichs <placeName type="place" key="Italien (Königreich)">Italien</placeName> in <placeName type="place" key="Bern (Stadt)">Bern</placeName>.</note>
-                    </seg> hatte ich<lb xml:id="p2-l4"/>
+                    <persName type="person" key="Melegari Luigi Amedeo">
+                        <hi>Melegari</hi>
+                    </persName>
+                    <note xml:id="K_2221_c4">
+                        <persName type="person" key="Melegari Luigi Amedeo">Luigi Amedeo Melegari</persName> (1805–1881), ausserordentlicher Gesandter und bevollmächtigter Minister des Königreichs <placeName type="place" key="Italien (Königreich)">Italien</placeName> in <placeName type="place" key="Bern (Stadt)">Bern</placeName>.</note>
+                </seg> hatte ich<lb xml:id="p2-l4"/>
 jüngst eine einläßliche Besprechung. Er<lb xml:id="p2-l5"/>
 sagte mir in <placeName type="place" key="Italien (Königreich)">Italien</placeName> könne von einem<lb xml:id="p2-l6"/>
 andern Paß als dem <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName> überhaupt<lb xml:id="p2-l7"/>
 nicht mehr die Rede sein; sobald einige<lb xml:id="p2-l8"/>
 Ruhe eintrete werde sich das Ministerium<lb xml:id="p2-l9"/>
-ohne Zweifel gerne mit der Sache be<lb break="no" xml:id="p2-l10"/>faßen; 
-er halte dafür die sofortige Co<lb break="no" xml:id="p2-l11"/>operation 
+ohne Zweifel gerne mit der Sache be
+                <lb break="no" xml:id="p2-l10"/>faßen; 
+er halte dafür die sofortige Co
+                <lb break="no" xml:id="p2-l11"/>operation 
 von <placeName type="place" key="Preussen (Königreich)">Preußen</placeName> sei absolut nöthig.<lb xml:id="p2-l12"/>
 Sei einmal die Sache in Gang so werde<lb xml:id="p2-l13"/>
-nichts mehr im Stande sein sie aufzuhal<lb break="no" xml:id="p2-l14"/>ten. 
+nichts mehr im Stande sein sie aufzuhal
+                <lb break="no" xml:id="p2-l14"/>ten. 
 Die schlechten finanziellen Verhältniße<lb xml:id="p2-l15"/>
 hätten auch dem <seg type="ref">
-                        <placeName type="place" key="Mont-Cenis (Pass, F-I)">
-                            <hi>Mont Cenis</hi>
-                        </placeName>
-                        <ref type="letter" target="K_1780">Mont-Cenis-Bahn<!-- → Nr. 35--></ref>
-                    </seg> nachdem<lb xml:id="p2-l16"/>
+                    <placeName type="place" key="Mont-Cenis (Pass, F-I)">
+                        <hi>Mont Cenis</hi>
+                    </placeName>
+                    <ref type="letter" target="K_1780">Mont-Cenis-Bahn<!-- → Nr. 35--></ref>
+                </seg> nachdem<lb xml:id="p2-l16"/>
 er einmal begonnen gewesen sei nichts<pb n="3"/>
-                    <lb xml:id="p3-l1"/>
+                <lb xml:id="p3-l1"/>
 mehr anhaben können <choice>
                         <abbr>etc.</abbr>
                         <expan>et cetera (und anderes)</expan>
                     </choice><!--<com>
 						<b>PENDENT (2. Priorität) [Italienische Beteiligung beim Mont-Cenis?]</b>
 					</com>-->
-                </p>
+            </p>
       <p rend="indent" xml:id="K_2221_p3">
-                    <lb xml:id="p3-l2"/>Von größter Wichtigkeit für uns ist<lb xml:id="p3-l3"/>
+                <lb xml:id="p3-l2"/>Von größter Wichtigkeit für uns ist<lb xml:id="p3-l3"/>
 die Wiederbesetzung der <seg type="com">
-                        <placeName type="place" key="Preussen (Königreich)">preußischen</placeName> Ge<lb break="no" xml:id="p3-l4"/>sandtschaft.  
-Ich bin persönlich sehr in Ver<lb break="no" xml:id="p3-l5"/>legenheit 
+                    <placeName type="place" key="Preussen (Königreich)">preußischen</placeName> Ge
+                    <lb break="no" xml:id="p3-l4"/>sandtschaft.  
+Ich bin persönlich sehr in Ver
+                    <lb break="no" xml:id="p3-l5"/>legenheit 
 <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> bei meinen Collegen scheint<lb xml:id="p3-l6"/>
-sich eine Meinung auch noch nicht gebil<lb break="no" xml:id="p3-l7"/>det 
+sich eine Meinung auch noch nicht gebil
+                    <lb break="no" xml:id="p3-l7"/>det 
 zu haben. Es scheint mir dringend<lb xml:id="p3-l8"/>
   nöthig daß die Wahl bald stattfinde.<note xml:id="K_2221_c5">Am <date when="1867-04-22">22. April 1867</date> ernannte der Bundesrat <ref type="kbp"/>
-                            <persName type="person" key="Heer Joachim">Joachim Heer</persName> zum ausserordentlichen Gesandten und bevollmächtigten Minister der Schweiz bei den <placeName type="place" key="Deutschland">deutschen Staaten</placeName> mit Sitz in <placeName type="place" key="Berlin (D)">Berlin</placeName>. <persName type="person" key="Heer Joachim">Heer</persName> sah sich selbst lediglich als Übergangslösung und reichte im Herbst 1867 seine Demission ein<!--, die der Bundesrat am 2. Dezember akzeptierte-->. Im März 1868 kehrte er für die Unterhandlung des Handelsvertrages und anderer Abkommen nach <placeName type="place" key="Berlin (D)">Berlin</placeName> zurück. <choice>
+                        <persName type="person" key="Heer Joachim">Joachim Heer</persName> zum ausserordentlichen Gesandten und bevollmächtigten Minister der Schweiz bei den <placeName type="place" key="Deutschland">deutschen Staaten</placeName> mit Sitz in <placeName type="place" key="Berlin (D)">Berlin</placeName>. <persName type="person" key="Heer Joachim">Heer</persName> sah sich selbst lediglich als Übergangslösung und reichte im Herbst 1867 seine Demission ein<!--, die der Bundesrat am 2. Dezember akzeptierte-->. Im März 1868 kehrte er für die Unterhandlung des Handelsvertrages und anderer Abkommen nach <placeName type="place" key="Berlin (D)">Berlin</placeName> zurück. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="letter" target="K_2194"><!--Brief Joachim Heer an Escher, 20. April 1867 (BAR J I.67-8)<!-\- (K_2194)-\->--></ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004225" type="www">
-                                <ref type="lit">Prot. BR</ref>, 17. April 1867</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004227">
-                                <ref type="lit">Prot. BR</ref>, 22. April 1867</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004254">
-                                <ref type="lit">Prot. BR</ref>, 24. Juni 1867</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004305" type="www">
-                                <ref type="lit">Prot. BR</ref>, 21. Oktober 1867</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004323">
-                                <ref type="lit">Prot. BR</ref>, 2. Dezember 1867</ref><!--; 5. Februar 1868-->; <ref type="lit">Heer, Aufzeichnungen</ref> 1867, <choice>
+                            <ref type="lit">Prot. BR</ref>, 17. April 1867</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004227">
+                            <ref type="lit">Prot. BR</ref>, 22. April 1867</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004254">
+                            <ref type="lit">Prot. BR</ref>, 24. Juni 1867</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004305" type="www">
+                            <ref type="lit">Prot. BR</ref>, 21. Oktober 1867</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004323">
+                            <ref type="lit">Prot. BR</ref>, 2. Dezember 1867</ref><!--; 5. Februar 1868-->; <ref type="lit">Heer, Aufzeichnungen</ref> 1867, <choice>
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 1–121; <ref type="lit">Widmer, Schweizer Gesandtschaft</ref>, <choice>
@@ -164,17 +217,20 @@ zu haben. Es scheint mir dringend<lb xml:id="p3-l8"/>
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 58–65, 266–267; <ref type="letter" target="K_2264"><!-- → Nr. 85--></ref>.</note>
-                    </seg> <lb xml:id="p3-l9"/>
+                </seg> <lb xml:id="p3-l9"/>
         Von Seite des <seg type="ref">hiesigen <persName type="person" key="Roeder Maximilian Heinrich von">
-                            <placeName type="place" key="Preussen (Königreich)">preußischen</placeName> Ge<lb break="no" xml:id="p3-l10"/>sandten</persName>
-                        <ref type="kbp">→ Maximilian Heinrich von Roeder
+                        <placeName type="place" key="Preussen (Königreich)">preußischen</placeName> Ge
+                        <lb break="no" xml:id="p3-l10"/>sandten</persName>
+                    <ref type="kbp">→ Maximilian Heinrich von Roeder
 </ref>
-                    </seg> erhalte ich stetsfort die be<lb break="no" xml:id="p3-l11"/>stimmtesten 
+                </seg> erhalte ich stetsfort die be
+                <lb break="no" xml:id="p3-l11"/>stimmtesten 
 Zusagen von dem Intereße<lb xml:id="p3-l12"/>
-welches das Ministerium an der <placeName type="place" key="Alpen">Alpen</placeName> <lb break="no" xml:id="p3-l13"/>bahn 
+welches das Ministerium an der <placeName type="place" key="Alpen">Alpen</placeName> 
+                <lb break="no" xml:id="p3-l13"/>bahn 
 nehme. Ich werde die Frage <seg type="com">in einer<lb xml:id="p3-l14"/>
 der nächsten Sitzungen wieder zur Sprache<pb n="4"/>
-                        <lb xml:id="p4-l1"/>
+                    <lb xml:id="p4-l1"/>
 bringen <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
@@ -182,31 +238,34 @@ bringen <choice>
 ohne erst eine Antwort von <placeName type="place" key="Italien (Königreich)">Italien</placeName> <lb xml:id="p4-l3"/>
 abzuwarten sofort auch bei <placeName type="place" key="Preussen (Königreich)">Preußen</placeName> die<lb xml:id="p4-l4"/>
   Sache anhängig mache.<note xml:id="K_2221_c6">Eine diesbezügliche Vorlage Weltis konnte in den Bundesratsprotokollen nicht ermittelt werden; die erste Behandlung der <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage im Bundesrat nach diesem Brief fand am<date when="1867-11-29"> 29. November</date> statt. Sie wurde von <ref type="kbp"/>
-                            <persName type="person" key="Schenk Karl">Karl Schenk</persName> auf äussere Veranlassung vorgebracht und betraf ein <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName>bahnprojekt. <choice>
+                        <persName type="person" key="Schenk Karl">Karl Schenk</persName> auf äussere Veranlassung vorgebracht und betraf ein <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName>bahnprojekt. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004322">
-                                <ref type="lit">Prot. BR</ref>, 29. November 1867</ref>.</note>
-                    </seg> Wenn wir nichts<lb xml:id="p4-l5"/>
-dafür thun so können wir von An<lb break="no" xml:id="p4-l6"/>dern 
+                            <ref type="lit">Prot. BR</ref>, 29. November 1867</ref>.</note>
+                </seg> Wenn wir nichts<lb xml:id="p4-l5"/>
+dafür thun so können wir von An
+                <lb break="no" xml:id="p4-l6"/>dern 
 nichts erwarten. Jetzt ist noch die<lb xml:id="p4-l7"/>
 Möglichkeit eines Erfolges vorhanden, <seg type="com">in<lb xml:id="p4-l8"/>
   einem Jahr wüthet vielleicht der Krieg.<note xml:id="K_2221_c7">Verhandlungen zwischen den <placeName type="place" key="Niederlande">Niederlanden</placeName> und <placeName type="place" key="Frankreich">Frankreich</placeName> über die Abtretung <placeName type="place" key="Luxemburg (Grossherzogtum)">Luxemburgs</placeName> im Frühjahr 1867 belasteten das ohnehin gespannte Verhältnis zwischen <placeName type="place" key="Frankreich">Frankreich</placeName> und <placeName type="place" key="Preussen (Königreich)">Preussen</placeName><!--, das bereits durch die Folgen des Preussisch-Österreichischen Kriegs von 1866 belastet war, weiter-->. Zudem war <placeName type="place" key="Frankreich">Frankreich</placeName> beunruhigt<!--die Frage des Eintrittes der süddeutschen Staaten in den <idx type="place" norm="Deutscher Zollverein">Zollverein</idx>, d.h. ihre--> über die Annäherung der <placeName type="place" key="Süddeutschland">süddeutschen Staaten</placeName> an <placeName type="place" key="Preussen (Königreich)">Preussen</placeName> und den <placeName type="place" key="Norddeutscher Bund">Norddeutschen Bund</placeName>. 1870 brach der <placeName type="place" key="Deutschland">Deutsch</placeName>-<placeName type="place" key="Frankreich">Französische</placeName> Krieg aus. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004230" type="www">
-                                <ref type="lit">Prot. BR</ref>, 29. April 1867</ref>; <ref type="www" target="http://www.reichstagsprotokolle.de/Blatt3_nb_bsb00000436_00515.html">
-                                <ref type="lit">Sten. Bericht Reichstag Norddeutscher Bund</ref>, 1. April 1867 (S. 487–490)</ref>; <ref type="www" target="http://www.reichstagsprotokolle.de/Blatt3_nb_bsb00000438_00697.html">
-                                <ref type="lit">Sten. Bericht Reichstag Norddeutscher Bund</ref>, 26. Oktober 1867 (S. 671–682)</ref>; <ref type="lit">Lenger, Revolution</ref>, <choice>
+                            <ref type="lit">Prot. BR</ref>, 29. April 1867</ref>; <ref type="www" target="http://www.reichstagsprotokolle.de/Blatt3_nb_bsb00000436_00515.html">
+                            <ref type="lit">Sten. Bericht Reichstag Norddeutscher Bund</ref>, 1. April 1867 (S. 487–490)</ref>; <ref type="www" target="http://www.reichstagsprotokolle.de/Blatt3_nb_bsb00000438_00697.html">
+                            <ref type="lit">Sten. Bericht Reichstag Norddeutscher Bund</ref>, 26. Oktober 1867 (S. 671–682)</ref>; <ref type="lit">Lenger, Revolution</ref>, <choice>
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 328–334; <ref type="lit">Kinder/Hilgemann, dtv-Atlas II</ref>, <choice>
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 349, 353; <ref type="sum" target="Gotthardvereinigung_d1.7"><!-- → Band 1, S. 206--></ref>.</note>
-                    </seg> <lb xml:id="p4-l9"/>
-Die allgemeine Apathie ist mir unerklär<lb break="no" xml:id="p4-l10"/>lich. 
-Mit Freuden helfe ich zu jedem an<lb break="no" xml:id="p4-l11"/>dern 
+                </seg> <lb xml:id="p4-l9"/>
+Die allgemeine Apathie ist mir unerklär
+                <lb break="no" xml:id="p4-l10"/>lich. 
+Mit Freuden helfe ich zu jedem an
+                <lb break="no" xml:id="p4-l11"/>dern 
 Paß wenn der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName> nicht zu<lb xml:id="p4-l12"/>
 Stande kommen kann. Wißen Sie vielleicht<lb xml:id="p4-l13"/>
 etwas Neueres so bitte ich um gefällige<lb xml:id="p4-l14"/>

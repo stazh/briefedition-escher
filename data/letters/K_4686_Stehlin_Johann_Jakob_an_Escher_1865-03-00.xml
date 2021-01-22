@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Stehlin Johann Jakob" type="sender">Johann Jakob Stehlin</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Stehlin Johann Jakob" type="sender">Johann Jakob Stehlin</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>s.l.</placeName>
                     <date when="1865-03">[03?] [1865?]</date>
                 </correspAction>
@@ -62,7 +62,9 @@
             <change when="2014-08-12" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-01-17" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-17" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -87,6 +89,7 @@
                     <hi>Stähelin</hi>
                 </persName> an, daß der BundesRath
 				<lb xml:id="p1-l3"/>keine <hi>Instruction</hi> zur Beantragung eines <hi>Artikels</hi> <lb xml:id="p1-l4"/>bezüglich <placeName type="place" key="Alpen">Alpen</placeName>bahn unsern <hi>Commissarien</hi> zum <placeName type="place" key="Deutschland">deutsch</placeName>
+                
                 <lb break="no" xml:id="p1-l5"/>schweizerischen HandelsVertrag ertheilt, sie aber
 				<lb xml:id="p1-l6"/>angewiesen habe, die Frage vorerst mit den
 				<lb xml:id="p1-l7"/>

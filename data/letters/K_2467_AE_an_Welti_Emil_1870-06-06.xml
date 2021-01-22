@@ -31,36 +31,80 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName ref="Welti Emil" type="sender">Emil Welti</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Welti Emil" type="addressee">Emil Welti</persName>
                     <placeName>Zürich</placeName>
                     <date when="1870-06-06">Montag, Juni 6, 1870</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2005-06-01" who="BF/SD">Transkription: transkribiert</change>
-            <change when="2006-09-29" who="BF">provisorisch kommentiert 1</change>
-            <change when="2007-01-15" who="BF">XML angepasst [Indexierung fehlt!]</change>
-            <change when="2007-02-07" who="TN">Korrekturen übertragen</change>
-            <change when="2007-04-2007; 12-03-02" who="BF">provisorisch kommentiert 2</change>
-            <change when="2007-03-23" who="WB">indexiert</change>
-            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen</change>
-            <change when="2007-05-18" who="BF">Umsetzung Lektorat und Verifizierung</change>
-            <change when="2007-05-19" who="SK">Original überprüft und Unterschrift angepasst</change>
-            <change when="2007-06-11" who="WB">Umsetzung Lektorat 2</change>
-            <change when="2007-06-13" who="TN">Zitate (inkl. grau hinterlegtes) verifiziert</change>
-            <change when="2007-06-25" who="BF">Umsetzung Verifizierung Verweise</change>
-            <change when="2007-07-12" who="BF">Umsetzung Lektorat MK 2</change>
-            <change when="2007-08-08" who="BF">Umsetzung Verifizierung Personenerwähnungen</change>
-            <change when="2007-08-29" who="BF">Korrekturen 3 Haberthür übertragen</change>
-            <change when="2008-07-31" who="SW">Auf Stand Edition gebracht</change>
-            <change when="2011-07-18" who="TM">e-Edition: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-08-04" who="AH">e-Edition: Verifizierung 1 umgesetzt</change>
-            <change when="2014-01-29" who="AW">Migrationsverifizierung umgesetzt</change>
-            <change when="2014-11-28" who="VP">Auszeichnung 2 umgesetzt</change>
-            <change when="2014-11-28" who="VP">Verifizierung 2 umgesetzt</change>
-            <change when="2014-11-28" who="VP">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="2005-06-01" who="BF/SD">Transkription: transkribiert
+                
+            </change>
+            <change when="2006-09-29" who="BF">provisorisch kommentiert 1
+                
+            </change>
+            <change when="2007-01-15" who="BF">XML angepasst [Indexierung fehlt!]
+                
+            </change>
+            <change when="2007-02-07" who="TN">Korrekturen übertragen
+                
+            </change>
+            <change when="2007-04-2007; 12-03-02" who="BF">provisorisch kommentiert 2
+                
+            </change>
+            <change when="2007-03-23" who="WB">indexiert
+                
+            </change>
+            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen
+                
+            </change>
+            <change when="2007-05-18" who="BF">Umsetzung Lektorat und Verifizierung
+                
+            </change>
+            <change when="2007-05-19" who="SK">Original überprüft und Unterschrift angepasst
+                
+            </change>
+            <change when="2007-06-11" who="WB">Umsetzung Lektorat 2
+                
+            </change>
+            <change when="2007-06-13" who="TN">Zitate (inkl. grau hinterlegtes) verifiziert
+                
+            </change>
+            <change when="2007-06-25" who="BF">Umsetzung Verifizierung Verweise
+                
+            </change>
+            <change when="2007-07-12" who="BF">Umsetzung Lektorat MK 2
+                
+            </change>
+            <change when="2007-08-08" who="BF">Umsetzung Verifizierung Personenerwähnungen
+                
+            </change>
+            <change when="2007-08-29" who="BF">Korrekturen 3 Haberthür übertragen
+                
+            </change>
+            <change when="2008-07-31" who="SW">Auf Stand Edition gebracht
+                
+            </change>
+            <change when="2011-07-18" who="TM">e-Edition: Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-04" who="AH">e-Edition: Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2014-01-29" who="AW">Migrationsverifizierung umgesetzt
+                
+            </change>
+            <change when="2014-11-28" who="VP">Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2014-11-28" who="VP">Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-11-28" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -73,45 +117,53 @@
     <body>
             <div>
       <p rend="indent" xml:id="K_2467_p2">
-                    <lb xml:id="p1-l2"/>Vor allem danke ich Ihnen für den<lb xml:id="p1-l3"/>
+                <lb xml:id="p1-l2"/>Vor allem danke ich Ihnen für den<lb xml:id="p1-l3"/>
 Aufschluß, den Sie mir hinsichtlich der auf die<lb xml:id="p1-l4"/>
-Verhandlungen mit der <placeName type="place" key="Deutschland">deutschen</placeName> Finanz be<lb break="no" xml:id="p1-l5"/>züglichen 
- Stelle in <seg type="com">Ihrem verehrl. Drittletz<lb break="no" xml:id="p1-l6"/>ten 
+Verhandlungen mit der <placeName type="place" key="Deutschland">deutschen</placeName> Finanz be
+                <lb break="no" xml:id="p1-l5"/>züglichen 
+ Stelle in <seg type="com">Ihrem verehrl. Drittletz
+                    <lb break="no" xml:id="p1-l6"/>ten 
  Schreiben<note xml:id="K_2467_c1">
-                            <choice>
+                        <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="letter" target="K_2462"><!--Brief Emil Welti an Escher, 1. Juni 1870 (BAR J I.2)--></ref>.</note>
-                    </seg> <seg type="com">zu ertheilen die Freundlichkeit<lb xml:id="p1-l7"/>
+                </seg> <seg type="com">zu ertheilen die Freundlichkeit<lb xml:id="p1-l7"/>
 haben.<note xml:id="K_2467_c2">Escher äussert sich am <date when="1870-06-02">2. Juni 1870</date> über besagte Briefstelle, die er als Hinweis auf Schuldzuweisungen verstand. Tags darauf klärt Welti das Missverständnis auf. <ref type="letter" target="K_2463"><!-- → Nr. 137--></ref>; <ref type="letter" target="K_2466"><!-- → Nr. 138--></ref>.</note>
-                    </seg> Derselbe hat mich vollkommen befrie<lb break="no" xml:id="p1-l8"/>digt. 
+                </seg> Derselbe hat mich vollkommen befrie
+                <lb break="no" xml:id="p1-l8"/>digt. 
 Seien Sie überzeugt, daß ich Ihnen<lb xml:id="p1-l9"/>
-nie auch nur die Vermittlung von Anschul<lb break="no" xml:id="p1-l10"/>digungen 
-Dritter hinsichtlich meiner Thätig<lb break="no" xml:id="p1-l11"/>keit 
+nie auch nur die Vermittlung von Anschul
+                <lb break="no" xml:id="p1-l10"/>digungen 
+Dritter hinsichtlich meiner Thätig
+                <lb break="no" xml:id="p1-l11"/>keit 
 in der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>angelegenheit, welche<lb xml:id="p1-l12"/>
 Ihnen unbegründet scheinen, zutrauen<lb xml:id="p1-l13"/>
 würde. Es gibt aber Fälle, in denen man<lb xml:id="p1-l14"/>
 sich verpflichtet fühlt, einen Freund vor<lb xml:id="p1-l15"/>
 Unverstand zu warnen, der gegen ihn im<lb xml:id="p1-l16"/>
 Finstern schleicht &amp; ich habe mir hiemit<pb n="2"/>
-                    <lb xml:id="p2-l1"/>
+                <lb xml:id="p2-l1"/>
 die fragliche Stelle Ihres Briefes erklärt.
 </p>
       <p rend="indent" xml:id="K_2467_p3">
-                    <lb xml:id="p2-l2"/>
+                <lb xml:id="p2-l2"/>
 				Was nun die Frage der Completirung<lb xml:id="p2-l3"/>
 der Schweizerischen Subvention vor der<lb xml:id="p2-l4"/> <seg type="ref">Behandlung der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>frage durch die<lb xml:id="p2-l5"/>
 Bundesversammlung<ref type="letter" target="K_2463"><!-- → Nr. 137--></ref>
-                        <ref type="sum" target="Gotthardvereinigung_p29"><!-- → Band 1, S. 203–204--></ref>
-                    </seg> anbetrifft, so aner<lb break="no" xml:id="p2-l6"/>kenne 
+                    <ref type="sum" target="Gotthardvereinigung_p29"><!-- → Band 1, S. 203–204--></ref>
+                </seg> anbetrifft, so aner
+                <lb break="no" xml:id="p2-l6"/>kenne 
 ich, daß die Sicherstellung der ganzen<lb xml:id="p2-l7"/>
 Subventionssumme vor diesem Zeitpuncte<lb xml:id="p2-l8"/>
 wünschbar ist, wie dieß von jedem Schritte<lb xml:id="p2-l9"/>
 gesagt werden kann, der weiter auf der<lb xml:id="p2-l10"/>
-zu unserm gemeinschaftlichen Ziele führen<lb break="no" xml:id="p2-l11"/>den 
+zu unserm gemeinschaftlichen Ziele führen
+                <lb break="no" xml:id="p2-l11"/>den 
 Bahn gethan wird. Dagegen vermag <lb xml:id="p2-l12"/>
 ich der Sicherstellung der <seg type="com">halben Million,<lb xml:id="p2-l13"/>
-welche ungefähr an der Schweizerischen Sub<lb break="no" xml:id="p2-l14"/>vention 
+welche ungefähr an der Schweizerischen Sub
+                    <lb break="no" xml:id="p2-l14"/>vention 
 noch fehlt<note xml:id="K_2467_c3">Im Bericht des Bundesrates an die Bundesversammlung vom <date when="1870-06-30">30. Juni 1870</date> wird eine fest übernommene Subventionssumme von 19 240 000 Franken genannt, womit noch 760 000 Franken ungedeckt waren. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
@@ -119,13 +171,15 @@ noch fehlt<note xml:id="K_2467_c3">Im Bericht des Bundesrates an die Bundesversa
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 858.</note>
-                    </seg>, bis zur Behandlung<lb xml:id="p2-l15"/>
-der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>frage durch unsere Bundes<lb break="no" xml:id="p2-l16"/>versammlung 
-eine <seg type="com">besonders große Be<lb break="no" xml:id="p2-l17"/>deutung 
+                </seg>, bis zur Behandlung<lb xml:id="p2-l15"/>
+der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>frage durch unsere Bundes
+                <lb break="no" xml:id="p2-l16"/>versammlung 
+eine <seg type="com">besonders große Be
+                    <lb break="no" xml:id="p2-l17"/>deutung 
 nicht beizumessen &amp; zwar aus dem <lb xml:id="p2-l18"/>
 einfachen Grunde, weil gewiß niemand<lb xml:id="p2-l19"/>
 im Inlande oder auch im Auslande daran<pb n="3"/>
-                        <lb xml:id="p3-l1"/>
+                    <lb xml:id="p3-l1"/>
 zweifelt, daß die fehlende halbe Million<lb xml:id="p3-l2"/>
 noch werde beigebracht werden.<note xml:id="K_2467_c4">Der vom Bundesrat der Bundesversammlung bezüglich der Genehmigung des Staatsvertrages von 1869 vorgelegte Beschlussantrag enthielt den Vorbehalt, dass die Ratifikation erst erfolgen könne, wenn die schweizerische Subvention vollständig gesichert sei. Welti äusserte Bedenken über diesen Vorbehalt: <bibl>Abgesehen davon, dass in der Bundesversammlung den Gegnern dadurch eine Handhabe für die Rückweisung gegeben wird, muss es dem Ausland ganz unbegreiflich vorkommen, dass die Schweiz nicht im Stande gewesen sein soll, den letzten <hi rend="underline">vierzigsten</hi> Theil ihrer Subvention für ein solches Werk bis zum Moment der endlichen Genehmigung durch die oberste Landesbehörde beizubringen.</bibl> <ref type="letter" target="K_2464"/>. <choice>
                                 <abbr>Vgl.</abbr>
@@ -134,204 +188,252 @@ noch werde beigebracht werden.<note xml:id="K_2467_c4">Der vom Bundesrat der Bun
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 859–860, 865.</note>
-                    </seg> Das 
+                </seg> Das 
 				<lb xml:id="p3-l3"/>Wie anlangend, <seg type="com">über welches Sie meine<lb xml:id="p3-l4"/>
-Anschauungsweise kennen zu lernen wün<lb break="no" xml:id="p3-l5"/>schen<note xml:id="K_2467_c5">Welti zog zwei Möglichkeiten zur Beschaffung der noch fehlenden Schweizer Subvention in Erwägung: die Übernahme durch alle Subventionierenden im Verhältnis ihrer bereits geleisteten Subventionen oder die vorläufige Leistung einer Garantie durch einen Subventionierenden oder einen Dritten.  Beide Varianten schienen schwer durchführbar.<!-- <obj>Ohne alle Rücksicht auf diese Verhältnisse sehe ich aber überhaupt nicht ein, woher wir noch irgend etwas erhalten sollen und meine Bitte geht wesentlich dahin, dass Sie mir sagen möchten welches in dieser Beziehung Ihre Anschauungen seien.</obj>-->
-                            <choice>
+Anschauungsweise kennen zu lernen wün
+                    <lb break="no" xml:id="p3-l5"/>schen<note xml:id="K_2467_c5">Welti zog zwei Möglichkeiten zur Beschaffung der noch fehlenden Schweizer Subvention in Erwägung: die Übernahme durch alle Subventionierenden im Verhältnis ihrer bereits geleisteten Subventionen oder die vorläufige Leistung einer Garantie durch einen Subventionierenden oder einen Dritten.  Beide Varianten schienen schwer durchführbar.<!-- <obj>Ohne alle Rücksicht auf diese Verhältnisse sehe ich aber überhaupt nicht ein, woher wir noch irgend etwas erhalten sollen und meine Bitte geht wesentlich dahin, dass Sie mir sagen möchten welches in dieser Beziehung Ihre Anschauungen seien.</obj>-->
+                        <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="letter" target="K_2464"/>.</note>
-                    </seg>, erlaube ich mir vor allem die<lb xml:id="p3-l6"/>
+                </seg>, erlaube ich mir vor allem die<lb xml:id="p3-l6"/>
 Frage aufzuwerfen, ob denn der Bund, <lb xml:id="p3-l7"/>
-weit entfernt, an die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>unter<lb break="no" xml:id="p3-l8"/>nehmung 
-etwas beizutragen, an dersel<lb break="no" xml:id="p3-l9"/>ben 
+weit entfernt, an die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>unter
+                <lb break="no" xml:id="p3-l8"/>nehmung 
+etwas beizutragen, an dersel
+                <lb break="no" xml:id="p3-l9"/>ben 
 noch fiscalisch lucriren wolle,<lb xml:id="p3-l10"/>
 mit andern Worten &amp; concret ausgedrückt<lb xml:id="p3-l11"/>
 ob der Bund die ihm in Folge des Wegfalles<lb xml:id="p3-l12"/>
-des größten Theiles der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>-Schnee<lb break="no" xml:id="p3-l13"/>bruchkosten 
-zu gut kommende Ersparniß ein<lb break="no" xml:id="p3-l14"/>fach 
+des größten Theiles der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>-Schnee
+                <lb break="no" xml:id="p3-l13"/>bruchkosten 
+zu gut kommende Ersparniß ein
+                <lb break="no" xml:id="p3-l14"/>fach 
 in der Tasche behalten &amp; nicht etwa die<lb xml:id="p3-l15"/>
-Hälfte davon, welche capitalisirt unge<lb break="no" xml:id="p3-l16"/>fähr 
-eine halbe Million Franken betra<lb break="no" xml:id="p3-l17"/>gen 
+Hälfte davon, welche capitalisirt unge
+                <lb break="no" xml:id="p3-l16"/>fähr 
+eine halbe Million Franken betra
+                <lb break="no" xml:id="p3-l17"/>gen 
 mag, der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>unternehmung<lb xml:id="p3-l18"/>
 zukommen lassen wolle. Ich begreife ganz<lb xml:id="p3-l19"/>
 gut, daß, wenn man einmal – was ich<pb n="4"/>
-                    <lb xml:id="p4-l1"/>
-zwar fortwährend als eine thörichte Schwä<lb break="no" xml:id="p4-l2"/>che 
+                <lb xml:id="p4-l1"/>
+zwar fortwährend als eine thörichte Schwä
+                <lb break="no" xml:id="p4-l2"/>che 
 betrachten werde – den <seg type="com">
-                        <choice>
+                    <choice>
                             <abbr>Art.</abbr>
                             <expan>Artikel</expan>
                         </choice> 21<note xml:id="K_2467_c6">
-                            <choice>
+                        <choice>
                                 <abbr>Art.</abbr>
                                 <expan>Artikel</expan>
                             </choice> 21 der Bundesverfassung von 1848 gestattete dem Bund die Errichtung oder Unterstützung öffentlicher Werke. <ref type="letter" target="K_2037"><!-- → Nr. 56--></ref>.</note>
-                    </seg> nicht auf<lb xml:id="p4-l3"/>
+                </seg> nicht auf<lb xml:id="p4-l3"/>
 die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>unternehmung anwenden<lb xml:id="p4-l4"/>
-will, davon keine Rede sein kann, von die<lb break="no" xml:id="p4-l5"/>sem 
-Principe (!) zum Zwecke der Beschaf<lb break="no" xml:id="p4-l6"/>fung 
+will, davon keine Rede sein kann, von die
+                <lb break="no" xml:id="p4-l5"/>sem 
+Principe (!) zum Zwecke der Beschaf
+                <lb break="no" xml:id="p4-l6"/>fung 
 einer verhältnißmäßig geringen<lb xml:id="p4-l7"/>
 Summe abzugehen. Aber hier handelt es<lb xml:id="p4-l8"/>
 sich nicht um eine Subvention, sondern um<lb xml:id="p4-l9"/>
-die Verzichtleistung auf einen Theil ei<lb break="no" xml:id="p4-l10"/>nes 
-fiscalischen Gewinnes, welcher der Eid<lb break="no" xml:id="p4-l11"/>genossenschaft 
+die Verzichtleistung auf einen Theil ei
+                <lb break="no" xml:id="p4-l10"/>nes 
+fiscalischen Gewinnes, welcher der Eid
+                <lb break="no" xml:id="p4-l11"/>genossenschaft 
 in Folge des Zustandekommens<lb xml:id="p4-l12"/>
 eines Werkes, für dessen Verwirklichung<lb xml:id="p4-l13"/>
 Cantone, Eisenbahngesellschaften &amp; Privaten<lb xml:id="p4-l14"/>
-fast übermenschliche Anstrengungen ma<lb break="no" xml:id="p4-l15"/>chen, 
+fast übermenschliche Anstrengungen ma
+                <lb break="no" xml:id="p4-l15"/>chen, 
 wie eine gebratene Taube in den <lb xml:id="p4-l16"/>
 Mund fliegt! – Will die Eidgenossenschaft<lb xml:id="p4-l17"/>
 diese Taube ganz verspeisen &amp; muß also die<lb xml:id="p4-l18"/>
 halbe Million anderswo gesucht werden,<lb xml:id="p4-l19"/>
 so ließe sich vielleicht davon reden, <seg type="com">daß<pb n="5"/>
-                        <lb xml:id="p5-l1"/>
+                    <lb xml:id="p5-l1"/>
 man derjenigen Stadt, beziehungsweise<lb xml:id="p5-l2"/>
 demjenigen Cantone, wohin der Sitz der<lb xml:id="p5-l3"/>
-                        <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahnunternehmung verlegt wer<lb break="no" xml:id="p5-l4"/>den 
+                    <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahnunternehmung verlegt wer
+                    <lb break="no" xml:id="p5-l4"/>den 
 wird, die Bezalung der fraglichen<lb xml:id="p5-l5"/>
 Summe überbinden würde.<note xml:id="K_2467_c7">Tatsächlich übernahm die Stadt <placeName type="place" key="Luzern (Stadt)">Luzern</placeName>, um zum Sitz der Gesellschaft bestimmt zu werden, einen beträchtlichen Teil der fehlenden Subvention. <ref type="sum" target="Gotthardvereinigung_p49"><!-- → Band 1, S. 209--></ref>.</note>
-                    </seg> – Von einer Na<lb break="no" xml:id="p5-l6"/>tionalsubscription 
+                </seg> – Von einer Na
+                <lb break="no" xml:id="p5-l6"/>tionalsubscription 
 möchte ich darum nicht<lb xml:id="p5-l7"/>
 sprechen, weil mir immer vorschwebt, daß<lb xml:id="p5-l8"/>
-man derselben zur Bildung der Gesell<lb break="no" xml:id="p5-l9"/>schaft 
+man derselben zur Bildung der Gesell
+                <lb break="no" xml:id="p5-l9"/>schaft 
 noch bedürfen könnte. – Bevor ich<lb xml:id="p5-l10"/>
 dieses Thema verlasse, erlaube ich mir noch<lb xml:id="p5-l11"/>
-eine Seite der vorwürfigen Frage zu be<lb break="no" xml:id="p5-l12"/>rühren. 
+eine Seite der vorwürfigen Frage zu be
+                <lb break="no" xml:id="p5-l12"/>rühren. 
 Vielleicht ist es ganz practisch, <lb xml:id="p5-l13"/>
-wenn die Schweizerische Subvention bei Be<lb break="no" xml:id="p5-l14"/>handlung 
+wenn die Schweizerische Subvention bei Be
+                <lb break="no" xml:id="p5-l14"/>handlung 
 des <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vertrages in der<lb xml:id="p5-l15"/>
-Bundesversammlung noch nicht vollstän<lb break="no" xml:id="p5-l16"/>dig 
-beigebracht ist. Ich könnte mir den<lb break="no" xml:id="p5-l17"/>ken, 
-daß, wenn die Schweizerische Subven<lb break="no" xml:id="p5-l18"/>tion 
+Bundesversammlung noch nicht vollstän
+                <lb break="no" xml:id="p5-l16"/>dig 
+beigebracht ist. Ich könnte mir den
+                <lb break="no" xml:id="p5-l17"/>ken, 
+daß, wenn die Schweizerische Subven
+                <lb break="no" xml:id="p5-l18"/>tion 
 in ihrem ganzen Umfange gesichert<lb xml:id="p5-l19"/>
 wäre, sich eine gewisse Üppigkeit eines<pb n="6"/>
-                    <lb xml:id="p6-l1"/>
-guten Theiles der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>isten in der Bun<lb break="no" xml:id="p6-l2"/>desversammlung 
-bemächtigen &amp; daß die Mit<lb break="no" xml:id="p6-l3"/>glieder 
-der Räthe, welche ich hiebei im Au<lb break="no" xml:id="p6-l4"/>ge 
-habe, die 20 Millionen in der Tasche die<lb xml:id="p6-l5"/> <seg type="com">Bedingungen, welche im <placeName type="place" key="Zürich">Zürcher'schen</placeName> Can<lb break="no" xml:id="p6-l6"/>tonsrathe
+                <lb xml:id="p6-l1"/>
+guten Theiles der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>isten in der Bun
+                <lb break="no" xml:id="p6-l2"/>desversammlung 
+bemächtigen &amp; daß die Mit
+                <lb break="no" xml:id="p6-l3"/>glieder 
+der Räthe, welche ich hiebei im Au
+                <lb break="no" xml:id="p6-l4"/>ge 
+habe, die 20 Millionen in der Tasche die<lb xml:id="p6-l5"/> <seg type="com">Bedingungen, welche im <placeName type="place" key="Zürich">Zürcher'schen</placeName> Can
+                    <lb break="no" xml:id="p6-l6"/>tonsrathe
 					 
 vorgeschlagen worden<note xml:id="K_2467_c8">Escher<!--präsidierte die Kommission des Zürcherischen Kantonsrates in der Frage der kantonalen Gotthardsubvention. --> beantragte am <date when="1870-03-28">28. März</date> im <placeName type="place" key="Zürich">Zürcher</placeName> Kantonsrat eine bedingungslose Unterstützung des <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>unternehmens bei gleichzeitiger Rückweisung des Subventionsbegehrens für das <placeName type="place" key="Splügen (Pass)">Splügen</placeName>projekt. Dieser Antrag wurde angenommen, obwohl er von Seite der Demokraten<!--, namentlich <idx type="person" norm="Ziegler Theodor">Theodor Ziegler</idx>, <idx type="person" norm="Sulzer Johann Jakob">Johann Jakob Sulzer</idx>, <idx type="person" norm="Ziegler Gottlieb">Gottlieb Ziegler</idx> und <idx type="person" norm="Bleuler Salomon">Salomon Bleuler-Hausheer</idx>,--> vehement bekämpft wurde. Von diesen aufgeworfene Bedingungen betrafen die Forderung, für das Verkehrsgebiet <placeName type="place" key="Zürich">Zürichs</placeName> dieselben Bedingungen und Erleichterungen bezüglich Transporttarifen und Differentialtaxen zu erhalten, wie sie den Subventionsstaaten für den Transitverkehr zugestanden würden, sowie die Zusicherung, das <placeName type="place" key="Splügen (Pass)">Splügen</placeName>projekt im gleichen Masse zu unterstützen wie das <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>unternehmen. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">NZZ</ref>, 17. März 1870, 29. März 1870, 30. März 1870, 31. März 1870; <ref type="letter" target="K_3103"><!-- → Nr. 334--></ref>.</note>
-                    </seg>, reprodu<lb break="no" xml:id="p6-l7"/>ziren 
+                </seg>, reprodu
+                <lb break="no" xml:id="p6-l7"/>ziren 
 oder andere verwandte Dinge auf<lb xml:id="p6-l8"/>
-die Bahn bringen dürften. Ist die Schwei<lb break="no" xml:id="p6-l9"/>zerische 
+die Bahn bringen dürften. Ist die Schwei
+                <lb break="no" xml:id="p6-l9"/>zerische 
 Subvention noch nicht vollständig<lb xml:id="p6-l10"/>
 beschafft, so wäre vielleicht auf etwas mehr<lb xml:id="p6-l11"/>
 verständige Mäßigung zu zählen! Item,<lb xml:id="p6-l12"/>
 das sind so Ansichten eines Menschen, der<lb xml:id="p6-l13"/>
-                    <hi>nolens volens</hi> schon viele psychologische Stu<lb break="no" xml:id="p6-l14"/>dien 
+                <hi>nolens volens</hi> schon viele psychologische Stu
+                <lb break="no" xml:id="p6-l14"/>dien 
 zu machen im Falle war. Ich bin der<lb xml:id="p6-l15"/>
 Belehrung zugänglich &amp; ganz bereit, die<lb xml:id="p6-l16"/>
 Besprechung der von Ihnen angeregten<lb xml:id="p6-l17"/>
 Frage auf dem Wege der Correspondenz <lb xml:id="p6-l18"/>
-oder auf anderm Wege mit Ihnen fortzu<lb break="no" xml:id="p6-l19"/>setzen. 
+oder auf anderm Wege mit Ihnen fortzu
+                <lb break="no" xml:id="p6-l19"/>setzen. 
 			</p>
       <p rend="indent" xml:id="K_2467_p4">
-                    <lb xml:id="p6-l20"/>Der Gedanke <seg type="com">
-                        <persName type="person" key="Gonzenbach August von">Gonzenbach's</persName>
-                        <note xml:id="K_2467_c9">
-                            <persName type="person" key="Gonzenbach August von">August von Gonzenbach</persName> (1808–1887), Grossrat und Nationalrat (<placeName type="place" key="Bern">BE</placeName>), Direktionspräsident der <placeName type="place" key="Bern">Berner</placeName> Handelsbank; <persName type="person" key="Gonzenbach August von">Gonzenbach</persName> lobbyierte im Auftrag der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung in <placeName type="place" key="Italien (Königreich)">Italien</placeName>.</note>
-                    </seg>, von Bundes<pb n="7"/>
-                    <lb xml:id="p7-l1"/>
+                <lb xml:id="p6-l20"/>Der Gedanke <seg type="com">
+                    <persName type="person" key="Gonzenbach August von">Gonzenbach's</persName>
+                    <note xml:id="K_2467_c9">
+                        <persName type="person" key="Gonzenbach August von">August von Gonzenbach</persName> (1808–1887), Grossrat und Nationalrat (<placeName type="place" key="Bern">BE</placeName>), Direktionspräsident der <placeName type="place" key="Bern">Berner</placeName> Handelsbank; <persName type="person" key="Gonzenbach August von">Gonzenbach</persName> lobbyierte im Auftrag der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung in <placeName type="place" key="Italien (Königreich)">Italien</placeName>.</note>
+                </seg>, von Bundes<pb n="7"/>
+                <lb xml:id="p7-l1"/>
 wegen oder von der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung aus<lb xml:id="p7-l2"/>
 vermittelst besonderer Mission <seg type="com">
-                        <persName type="person" key="Bismarck Otto von">Bismark</persName>
-                        <note xml:id="K_2467_c10">
-                            <persName type="person" key="Bismarck Otto von">Otto von Bismarck</persName> (1815–1898), Ministerpräsident und Aussenminister des Königreichs <placeName type="place" key="Preussen (Königreich)">Preussen</placeName>, Kanzler des <placeName type="place" key="Norddeutscher Bund">Norddeutschen Bundes</placeName>.</note>
-                    </seg> <lb xml:id="p7-l3"/>
-anzugehen, daß er vor Behandlung des <placeName type="place" key="St. Gotthard (Pass)">Gott<lb break="no" xml:id="p7-l4"/>hard</placeName>vertrages 
-im <placeName type="place" key="Italien (Königreich)">Italienischen</placeName> Parlamen<lb break="no" xml:id="p7-l5"/>te <seg type="ref">die an der <placeName type="place" key="Deutschland">deutschen</placeName> Subvention fehlenden<lb xml:id="p7-l6"/>
+                    <persName type="person" key="Bismarck Otto von">Bismark</persName>
+                    <note xml:id="K_2467_c10">
+                        <persName type="person" key="Bismarck Otto von">Otto von Bismarck</persName> (1815–1898), Ministerpräsident und Aussenminister des Königreichs <placeName type="place" key="Preussen (Königreich)">Preussen</placeName>, Kanzler des <placeName type="place" key="Norddeutscher Bund">Norddeutschen Bundes</placeName>.</note>
+                </seg> <lb xml:id="p7-l3"/>
+anzugehen, daß er vor Behandlung des <placeName type="place" key="St. Gotthard (Pass)">Gott
+                    <lb break="no" xml:id="p7-l4"/>hard</placeName>vertrages 
+im <placeName type="place" key="Italien (Königreich)">Italienischen</placeName> Parlamen
+                <lb break="no" xml:id="p7-l5"/>te <seg type="ref">die an der <placeName type="place" key="Deutschland">deutschen</placeName> Subvention fehlenden<lb xml:id="p7-l6"/>
 7 Millionen<ref type="sum" target="Gotthardvereinigung_p33"><!-- → Band 1, S. 204--></ref>
-                    </seg> <hi>quasi</hi> als gesichert erkläre,<lb xml:id="p7-l7"/>
+                </seg> <hi>quasi</hi> als gesichert erkläre,<lb xml:id="p7-l7"/>
 scheint mir abgelehnt werden zu müssen, <seg type="com">wie<lb xml:id="p7-l8"/>
 Sie sich denn auch bereits gegen denselben<lb xml:id="p7-l9"/>
 ausgesprochen haben.<note xml:id="K_2467_c11">Welti teilte <persName type="person" key="Gonzenbach August von">Gonzenbach</persName> in einer Unterredung am <date when="1870-06-01">1. Juni</date> mit, dass der Bundesrat eine Sondermission ablehnen würde. Er erklärte sich bereit, an Escher zu schreiben, damit dieser allenfalls eine solche spezielle Mission durch die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung veranlasse, unterstützte diesen Vorschlag aber nicht. Gegen eine Entsendung <persName type="person" key="Gonzenbach August von">Gonzenbachs</persName> sprach auch, dass dieser zumindest beim <placeName type="place" key="Preussen (Königreich)">preussischen</placeName> Oberbaudirektor <ref type="kbp"/>
-                            <persName type="person" key="Weishaupt Theodor">Theodor Weishaupt</persName> keine Persona grata zu sein schien. <choice>
+                        <persName type="person" key="Weishaupt Theodor">Theodor Weishaupt</persName> keine Persona grata zu sein schien. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="letter" target="K_2464"><!--Brief Emil Welti an Escher, 2. Juni 1870 (BAR J I.2)--></ref>.</note>
-                    </seg> Vorerst glaube <lb xml:id="p7-l10"/>
-ich, daß wie die Dinge gegenwärtig in <placeName type="place" key="Italien (Königreich)">Ita<lb break="no" xml:id="p7-l11"/>lien</placeName>
+                </seg> Vorerst glaube <lb xml:id="p7-l10"/>
+ich, daß wie die Dinge gegenwärtig in <placeName type="place" key="Italien (Königreich)">Ita
+                    <lb break="no" xml:id="p7-l11"/>lien</placeName>
 				 
-stehen, einer <seg type="ref">Ratification des Ver<lb break="no" xml:id="p7-l12"/>trages 
+stehen, einer <seg type="ref">Ratification des Ver
+                    <lb break="no" xml:id="p7-l12"/>trages 
 durch das dortige Parlament<ref type="sum" target="Gotthardvereinigung_p36"><!-- → Band 1, S. 205--></ref>
-                    </seg> auch <lb xml:id="p7-l13"/>
+                </seg> auch <lb xml:id="p7-l13"/>
 ohne eine solche vorgängige Erklärung <lb xml:id="p7-l14"/>
-                    <persName type="person" key="Bismarck Otto von">Bismark's</persName> entgegen gesehen werden kann,<lb xml:id="p7-l15"/>&amp; sodann &amp; ganz besonders fällt bei mir für<lb xml:id="p7-l16"/>
-die Ablehnung in die Waagschale, daß <persName type="person" key="Bismarck Otto von">Bis<lb break="no" xml:id="p7-l17"/>mark</persName>
+                <persName type="person" key="Bismarck Otto von">Bismark's</persName> entgegen gesehen werden kann,<lb xml:id="p7-l15"/>&amp; sodann &amp; ganz besonders fällt bei mir für<lb xml:id="p7-l16"/>
+die Ablehnung in die Waagschale, daß <persName type="person" key="Bismarck Otto von">Bis
+                    <lb break="no" xml:id="p7-l17"/>mark</persName>
 				 
-eine derartige Erklärung nie ab<lb break="no" xml:id="p7-l18"/>geben 
+eine derartige Erklärung nie ab
+                <lb break="no" xml:id="p7-l18"/>geben 
 würde. Ich habe im März bei der<lb xml:id="p7-l19"/>
 Unterredung, die ich mit ihm hielt, den<lb xml:id="p7-l20"/>
-				Gedanken einer solchen <hi>quasi</hi> Gewährlei<pb n="8"/>
-                    <lb xml:id="p8-l1"/>stung 
+				Gedanken einer solchen <hi>quasi</hi> Gewährlei
+                <pb n="8"/>
+                <lb xml:id="p8-l1"/>stung 
 der <placeName type="place" key="Deutschland">deutschen</placeName> Subvention durch den<lb xml:id="p8-l2"/>
-                    <placeName type="place" key="Norddeutscher Bund">Norddeutschen Bund</placeName> anklingen lassen, bin<lb xml:id="p8-l3"/>
+                <placeName type="place" key="Norddeutscher Bund">Norddeutschen Bund</placeName> anklingen lassen, bin<lb xml:id="p8-l3"/>
 aber sogleich auf entschiedenen Widerstand <lb xml:id="p8-l4"/>
-gestoßen. Wie vorsichtig <persName type="person" key="Bismarck Otto von">B.</persName> in dieser Rich<lb break="no" xml:id="p8-l5"/>tung 
+gestoßen. Wie vorsichtig <persName type="person" key="Bismarck Otto von">B.</persName> in dieser Rich
+                <lb break="no" xml:id="p8-l5"/>tung 
 vorgeht, sieht man am besten aus <lb xml:id="p8-l6"/>
 der <seg type="ref">Reservation, die er hinsichtlich des<lb xml:id="p8-l7"/>
 von den Eisenbahngesellschaften zu beschaffenden<lb xml:id="p8-l8"/>
 Beitrages an die <placeName type="place" key="Deutschland">deutsche</placeName> Subvention seinen<lb xml:id="p8-l9"/>
 neusten Eröffnungen an den Bundesrath<lb xml:id="p8-l10"/>
 beifügen zu sollen geglaubt hat.<ref type="letter" target="K_2466"><!-- → Nr. 138--></ref>
-                    </seg> Was wir, <lb xml:id="p8-l11"/>
+                </seg> Was wir, <lb xml:id="p8-l11"/>
 wie die Dinge heute stehen, in Sachen allein <lb xml:id="p8-l12"/>
 thun können, besteht, wie mir scheint, darin,<lb xml:id="p8-l13"/>
-daß wir uns über den Beitritt des <placeName type="place" key="Norddeutscher Bund">Nord<lb break="no" xml:id="p8-l14"/>deutschen 
-Bundes</placeName> zu dem <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vertra<lb break="no" xml:id="p8-l15"/>ge, 
+daß wir uns über den Beitritt des <placeName type="place" key="Norddeutscher Bund">Nord
+                    <lb break="no" xml:id="p8-l14"/>deutschen 
+Bundes</placeName> zu dem <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vertra
+                <lb break="no" xml:id="p8-l15"/>ge, 
 unter welchen <persName type="person" key="Bismarck Otto von">Bismark</persName> seinen Namen<lb xml:id="p8-l16"/>
 setzen will, freuen &amp;, <hi rend="underline">so viel in unsern<lb xml:id="p8-l17"/>
 				Kräften steht, darauf hinwirken, daß der<lb xml:id="p8-l18"/>
-                        <placeName type="place" key="Norddeutscher Bund">Norddeutsche Bund</placeName> unter Aufbietung<lb xml:id="p8-l19"/>
+                    <placeName type="place" key="Norddeutscher Bund">Norddeutsche Bund</placeName> unter Aufbietung<lb xml:id="p8-l19"/>
 				aller ihm zu Gebote stehenden Mittel auf<lb xml:id="p8-l20"/>
 				die Completirung der <placeName type="place" key="Deutschland">deutschen</placeName> Subvention</hi> <pb n="9"/>
-                    <lb xml:id="p9-l1"/>
-                    <hi rend="underline">bis auf den in Aussicht genommenen Betrag	<lb xml:id="p9-l2"/>
+                <lb xml:id="p9-l1"/>
+                <hi rend="underline">bis auf den in Aussicht genommenen Betrag	<lb xml:id="p9-l2"/>
 				hinwirke</hi>. Wie ich Ihnen am <date when="1870-06-04">Samstage</date> <lb xml:id="p9-l3"/> <seg type="com">telegraphisch<note xml:id="K_2467_c12">Telegramm nicht ermittelt.</note>
-                    </seg> mitzutheilen die Ehre hatte, bin<lb xml:id="p9-l4"/>
-ich mit dem Verfahren vollkommen einver<lb break="no" xml:id="p9-l5"/>standen, 
+                </seg> mitzutheilen die Ehre hatte, bin<lb xml:id="p9-l4"/>
+ich mit dem Verfahren vollkommen einver
+                <lb break="no" xml:id="p9-l5"/>standen, 
 welches die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>commission des<lb xml:id="p9-l6"/>
-Bundesrathes gegenüber den neusten Eröff<lb break="no" xml:id="p9-l7"/>nungen 
-des <placeName type="place" key="Norddeutscher Bund">Norddeutschen Bundes</placeName> in Anwen<lb break="no" xml:id="p9-l8"/>dung 
+Bundesrathes gegenüber den neusten Eröff
+                <lb break="no" xml:id="p9-l7"/>nungen 
+des <placeName type="place" key="Norddeutscher Bund">Norddeutschen Bundes</placeName> in Anwen
+                <lb break="no" xml:id="p9-l8"/>dung 
 zu bringen gedenkt.</p>
       <p rend="indent" xml:id="K_2467_p5">
-                    <lb xml:id="p9-l9"/> <seg type="ref">
-                        <persName type="person" key="Stamm Ernest">Stamm</persName>
-                        <ref type="kbp">→ Ernest Stamm</ref>
-                    </seg> <seg type="com">telegraphirte mir am <date when="1870-06-04">Samstage</date> <lb xml:id="p9-l10"/>
+                <lb xml:id="p9-l9"/> <seg type="ref">
+                    <persName type="person" key="Stamm Ernest">Stamm</persName>
+                    <ref type="kbp">→ Ernest Stamm</ref>
+                </seg> <seg type="com">telegraphirte mir am <date when="1870-06-04">Samstage</date> <lb xml:id="p9-l10"/>
 von <placeName type="place" key="Florenz (I)">Florenz</placeName>
-                        <note xml:id="K_2467_c13">Telegramm nicht ermittelt.</note>
-                    </seg>, daß das Ministerium we<lb break="no" xml:id="p9-l11"/>gen 
+                    <note xml:id="K_2467_c13">Telegramm nicht ermittelt.</note>
+                </seg>, daß das Ministerium we
+                <lb break="no" xml:id="p9-l11"/>gen 
 der <seg type="ref">Invasionsgeschichte<ref type="letter" target="K_2472">Invasion Gruppe Nathan<!-- → Nr. 140--></ref>
-                    </seg> sehr erbost<lb xml:id="p9-l12"/>&amp; Willens sei, den <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vertrag dem<lb xml:id="p9-l13"/>
+                </seg> sehr erbost<lb xml:id="p9-l12"/>&amp; Willens sei, den <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vertrag dem<lb xml:id="p9-l13"/>
 Parlament erst, nachdem es von der<lb xml:id="p9-l14"/>
-Schweiz Satisfaction erhalten habe, vorzu<lb break="no" xml:id="p9-l15"/>legen. <seg type="com">Die <date when="1870-06-05">gestrige</date> Depesche<note xml:id="K_2467_c14">Telegramm nicht ermittelt.</note>
-                    </seg> gibt von<lb xml:id="p9-l16"/>
-einer mildern &amp; – verständigern Stim<lb break="no" xml:id="p9-l17"/>mung 
+Schweiz Satisfaction erhalten habe, vorzu
+                <lb break="no" xml:id="p9-l15"/>legen. <seg type="com">Die <date when="1870-06-05">gestrige</date> Depesche<note xml:id="K_2467_c14">Telegramm nicht ermittelt.</note>
+                </seg> gibt von<lb xml:id="p9-l16"/>
+einer mildern &amp; – verständigern Stim
+                <lb break="no" xml:id="p9-l17"/>mung 
 des Ministerium's Zeugniß. Sie<lb xml:id="p9-l18"/>
 meldet, <seg type="com">
-                        <persName type="person" key="Gadda Giuseppe">
-                            <hi>Gadda</hi>
-                        </persName>
-                        <note xml:id="K_2467_c15">
-                            <persName type="person" key="Gadda Giuseppe">Giuseppe Gadda</persName> (1822–1901), Senator und Minister für öffentliche Arbeiten des Königreichs <placeName type="place" key="Italien (Königreich)">Italien</placeName>.</note>
-                    </seg> sei beauftragt, den Ge<lb break="no" xml:id="p9-l19"/>setzesentwurf 
+                    <persName type="person" key="Gadda Giuseppe">
+                        <hi>Gadda</hi>
+                    </persName>
+                    <note xml:id="K_2467_c15">
+                        <persName type="person" key="Gadda Giuseppe">Giuseppe Gadda</persName> (1822–1901), Senator und Minister für öffentliche Arbeiten des Königreichs <placeName type="place" key="Italien (Königreich)">Italien</placeName>.</note>
+                </seg> sei beauftragt, den Ge
+                <lb break="no" xml:id="p9-l19"/>setzesentwurf 
 				<choice>
                         <abbr>betr.</abbr>
                         <expan>betreffend</expan>
                     </choice> den <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName> zur<pb n="10"/>
-                    <lb xml:id="p10-l1"/>
+                <lb xml:id="p10-l1"/>
 Vorlage an das Parlament auszuarbeiten.
 </p>
       <p rend="indent" xml:id="K_2467_p6">
-                    <lb xml:id="p10-l2"/>Ich denke, der Bundesrath werde <lb xml:id="p10-l3"/>
-                    <placeName type="place" key="Italien (Königreich)">Italien</placeName>, soweit es in der Invasionsge<lb break="no" xml:id="p10-l4"/>schichte 
-in seinem Rechte <hi rend="underline">ist</hi>, auch Recht <hi rend="underline">ge<lb break="no" xml:id="p10-l5"/>ben</hi>.
+                <lb xml:id="p10-l2"/>Ich denke, der Bundesrath werde <lb xml:id="p10-l3"/>
+                <placeName type="place" key="Italien (Königreich)">Italien</placeName>, soweit es in der Invasionsge
+                <lb break="no" xml:id="p10-l4"/>schichte 
+in seinem Rechte <hi rend="underline">ist</hi>, auch Recht <hi rend="underline">ge
+                    <lb break="no" xml:id="p10-l5"/>ben</hi>.
 Sehr dankbar wäre ich Ihnen für<lb xml:id="p10-l6"/>
 einige Mittheilungen über den Stand<lb xml:id="p10-l7"/>
 dieser Angelegenheit, damit ich mich in<lb xml:id="p10-l8"/>
@@ -339,41 +441,48 @@ meiner Correspondenz mit <placeName type="place" key="Italien (Königreich)">Ita
 darnach richten könnte.
 </p>
       <p rend="indent" xml:id="K_2467_p7">
-                    <lb xml:id="p10-l10"/>
+                <lb xml:id="p10-l10"/>
         <persName type="person" key="Stamm Ernest">Stamm</persName> schreibt &amp; telegraphirt mir<lb xml:id="p10-l11"/>
 fortwährend, die Rückkehr <persName type="person" key="Gonzenbach August von">Gonzenbach's</persName> <lb xml:id="p10-l12"/>
-nach <placeName type="place" key="Florenz (I)">Florenz</placeName> sei ganz überflüssig. Hin<lb break="no" xml:id="p10-l13"/>wieder 
-soll <persName type="person" key="Gonzenbach August von">Gonzenbach</persName> die Ansicht aus<lb break="no" xml:id="p10-l14"/>sprechen, 
-daß <persName type="person" key="Stamm Ernest">Stamm's</persName> «Frechheiten» in <placeName type="place" key="Florenz (I)">Flo<lb break="no" xml:id="p10-l15"/>renz</placeName>
+nach <placeName type="place" key="Florenz (I)">Florenz</placeName> sei ganz überflüssig. Hin
+                <lb break="no" xml:id="p10-l13"/>wieder 
+soll <persName type="person" key="Gonzenbach August von">Gonzenbach</persName> die Ansicht aus
+                <lb break="no" xml:id="p10-l14"/>sprechen, 
+daß <persName type="person" key="Stamm Ernest">Stamm's</persName> «Frechheiten» in <placeName type="place" key="Florenz (I)">Flo
+                    <lb break="no" xml:id="p10-l15"/>renz</placeName>
 				 
 mehr schaden als nützen dürften.<lb xml:id="p10-l16"/>
 Ich denke, <persName type="person" key="Stamm Ernest">Stamm</persName> verstehe sich besser auf die<lb xml:id="p10-l17"/>
-                    <placeName type="place" key="Italien (Königreich)">Italienische</placeName> Mode als <persName type="person" key="Gonzenbach August von">Gonzenbach</persName>!
+                <placeName type="place" key="Italien (Königreich)">Italienische</placeName> Mode als <persName type="person" key="Gonzenbach August von">Gonzenbach</persName>!
 </p>
       <p rend="indent" xml:id="K_2467_p8">
-                    <lb xml:id="p10-l18"/>Damit Sie sehen, wie das <seg type="ref">
-                        <persName type="person" key="Häberlin Eduard">Häberlin'sche</persName>
-                        <ref type="kbp">→ Eduard Häberlin</ref>
-                    </seg> <seg type="com">Or<lb break="no" xml:id="p10-l19"/>gan<note xml:id="K_2467_c16">
-                            <persName type="person" key="Häberlin Eduard">Häberlin</persName> gab ab März 1867 die «<placeName type="place" key="Thurgau">Thurgauer</placeName> Volkszeitung» heraus. <choice>
+                <lb xml:id="p10-l18"/>Damit Sie sehen, wie das <seg type="ref">
+                    <persName type="person" key="Häberlin Eduard">Häberlin'sche</persName>
+                    <ref type="kbp">→ Eduard Häberlin</ref>
+                </seg> <seg type="com">Or
+                    <lb break="no" xml:id="p10-l19"/>gan<note xml:id="K_2467_c16">
+                        <persName type="person" key="Häberlin Eduard">Häberlin</persName> gab ab März 1867 die «<placeName type="place" key="Thurgau">Thurgauer</placeName> Volkszeitung» heraus. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Mebold, Häberlin</ref>, <choice>
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 287–288.</note>
-                    </seg> im <placeName type="place" key="Thurgau">Thurgau</placeName> die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>angelegen<pb n="11"/>
-                    <lb xml:id="p11-l1"/>heit 
+                </seg> im <placeName type="place" key="Thurgau">Thurgau</placeName> die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>angelegen
+                <pb n="11"/>
+                <lb xml:id="p11-l1"/>heit 
 				
- behandelt, erlaube ich mir, <seg type="com">eine Num<lb break="no" xml:id="p11-l2"/>mer 
+ behandelt, erlaube ich mir, <seg type="com">eine Num
+                    <lb break="no" xml:id="p11-l2"/>mer 
 dieses Blattes beizulegen.<note xml:id="K_2467_c17">Beilage nicht ermittelt.</note>
-                    </seg> </p>
+                </seg> </p>
       <p rend="indent" xml:id="K_2467_p9">
-                    <lb xml:id="p11-l3"/>Von <seg type="com">
-                        <persName type="person" key="Sybel Alexander von">Sybel</persName>
-                        <note xml:id="K_2467_c18">
-                            <persName type="person" key="Sybel Alexander von">Alexander von Sybel</persName> (1823–1902), Mitglied des <placeName type="place" key="Preussen (Königreich)">preussischen</placeName> Abgeordnetenhauses und des Reichstags des <placeName type="place" key="Norddeutscher Bund">Norddeutschen Bundes</placeName>.</note>
-                    </seg> bin ich zur Stunde noch ohne Ant<lb break="no" xml:id="p11-l4"/>wort. 
+                <lb xml:id="p11-l3"/>Von <seg type="com">
+                    <persName type="person" key="Sybel Alexander von">Sybel</persName>
+                    <note xml:id="K_2467_c18">
+                        <persName type="person" key="Sybel Alexander von">Alexander von Sybel</persName> (1823–1902), Mitglied des <placeName type="place" key="Preussen (Königreich)">preussischen</placeName> Abgeordnetenhauses und des Reichstags des <placeName type="place" key="Norddeutscher Bund">Norddeutschen Bundes</placeName>.</note>
+                </seg> bin ich zur Stunde noch ohne Ant
+                <lb break="no" xml:id="p11-l4"/>wort. 
 Wenn ich morgen früh keinen Brief<lb xml:id="p11-l5"/>
 von ihm erhalte, werde ich ihn telegraphisch <lb xml:id="p11-l6"/>
 moniren.

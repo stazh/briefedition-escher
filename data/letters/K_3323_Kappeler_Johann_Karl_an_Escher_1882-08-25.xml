@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Kappeler Johann Karl" type="sender">Johann Karl Kappeler</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Kappeler Johann Karl" type="sender">Johann Karl Kappeler</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Flims</placeName>
                     <date when="1882-08-25">Freitag, August 25, 1882</date>
                 </correspAction>
@@ -62,7 +62,9 @@
                 umgesetzt
                 
             </change>
-            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -74,8 +76,8 @@
             <placeName type="place" key="Flims">[Flims]</placeName>
            den <date when="1882-08-25">25<hi rend="sup">t</hi> <choice>
                             <abbr>
-                                <hi>Aug</hi>
-                            </abbr>
+                            <hi>Aug</hi>
+                        </abbr>
                             <expan>August</expan>
                         </choice> 82</date>!</p>
       </div>
@@ -107,8 +109,8 @@
             <lb xml:id="p1-l12"/>Beziehungen <add>eintreten</add>. Der Satz ist auch unnütz herbei
                 <lb break="no" xml:id="p1-l13"/>gezogen &amp; der Abschluß ohne denselben
             <lb xml:id="p1-l14"/>
-                    <hi>concludent</hi> <add>&amp; Genugthuung <hi>involvirend</hi>
-                    </add>. Geht dieß nicht, so kann ich
+                <hi>concludent</hi> <add>&amp; Genugthuung <hi>involvirend</hi>
+                </add>. Geht dieß nicht, so kann ich
             <lb xml:id="p1-l15"/>mich nicht entschließen irgend etwas Neues
             <lb xml:id="p1-l16"/>vorzunehmen. Bleibt dann <persName type="person" key="Scherr Johannes">Scherr</persName> bei seinem
             <lb xml:id="p1-l17"/>Entschluß so muß das Gesuch dem

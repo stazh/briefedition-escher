@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Stehlin Johann Jakob" type="sender">Johann Jakob Stehlin</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Stehlin Johann Jakob" type="sender">Johann Jakob Stehlin</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Basel</placeName>
                     <date when="1864-10-31">Montag, Oktober 31, 1864</date>
                 </correspAction>
@@ -67,7 +67,9 @@
         umgesetzt
                 
             </change>
-            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -85,15 +87,15 @@
       <p rend="indent" xml:id="K_3581_p2">
                 <lb xml:id="p1-l2"/>
         <date when="1864-10-28">Freitags</date> von <placeName type="place" key="Olten">
-                        <hi>Olten</hi>
-                    </placeName> heimkehrend
+                    <hi>Olten</hi>
+                </placeName> heimkehrend
         fand ich <lb xml:id="p1-l3"/>ein antwortendes <hi>telegramm</hi> von <choice>
                         <abbr>H.</abbr>
                         <expan>Herr</expan>
                     </choice> <seg type="com">
                     <persName type="person" key="Gönner Adolph">
-                            <hi>Goenner</hi>
-                        </persName>
+                        <hi>Goenner</hi>
+                    </persName>
                     <note xml:id="K_3581_c2">
                         <persName type="person" key="Gönner Adolph">Adolph Gönner</persName> (<choice>
                                 <abbr>gest.</abbr>
@@ -101,8 +103,8 @@
                             </choice> 1869)
             aus <placeName type="place" key="Basel-Stadt">Basel</placeName>, hauptamtliche Tätigkeit nicht
             ermittelt, Vorsitzender der protestantischen Gemeinde in <placeName type="place" key="Mailand (I)">
-                                <hi>Mailand</hi>
-                            </placeName>.</note>
+                            <hi>Mailand</hi>
+                        </placeName>.</note>
                 </seg> in <placeName type="place" key="Mailand (I)">Mailand</placeName> <lb xml:id="p1-l4"/>und <date when="1864-10-31">heute</date> geht mir das darin <hi>annonçierte</hi>
         Schreiben <lb xml:id="p1-l5"/>zu, <seg type="com">welches beilege.<note xml:id="K_3581_c3">Beilage nicht ermittelt.</note>
                 </seg> </p>
@@ -116,8 +118,8 @@
                 </seg> stattgehabte <lb xml:id="p1-l7"/>Besprechung in hier, muß von eint
         oder anderer <lb xml:id="p1-l8"/>Seite mißverstanden worden sein, denn <persName type="person" key="Koller Gottlieb">Koller</persName> <lb xml:id="p1-l9"/>erwartete von <persName type="person" key="Gönner Adolph">Gönner</persName> vorerst Bericht, ob <lb xml:id="p1-l10"/>Herr <seg type="com">
                     <persName type="person" key="Tatti Luigi">
-                            <hi>Tatti</hi>
-                        </persName>
+                        <hi>Tatti</hi>
+                    </persName>
                     <note xml:id="K_3581_c5">
                         <persName type="person" key="Tatti Luigi">Luigi
               Tatti</persName> (1808–1881), Architekt und Ingenieur aus <placeName type="place" key="Mailand (I)">Mailand</placeName>, Verfasser mehrerer Studien über die <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage,
@@ -130,20 +132,20 @@
                     </choice> <persName type="person" key="Gönner Adolph">Gönner</persName> weitere
         Auskunft <choice>
                         <abbr>
-                            <hi>resp</hi>
-                        </abbr>
+                    <hi>resp</hi>
+                </abbr>
                         <expan>respektive / respective</expan>
                     </choice> die <lb xml:id="p1-l13"/>
-                    <hi>Commissariats</hi>
+                <hi>Commissariats</hi>
         Instruktion zu Handen Herrn <lb xml:id="p1-l14"/>
                 <persName type="person" key="Tatti Luigi">
-                        <hi>Tatti's</hi>
-                    </persName>
+                    <hi>Tatti's</hi>
+                </persName>
         übermitteln, Herr <persName type="person" key="Gönner Adolph">Gönner</persName> aber <lb xml:id="p1-l15"/> scheint
         lezteres sofort erwartet zu haben. <lb xml:id="p1-l16"/>Nach der nun erhaltenen Auskunft ist wohl
         <lb xml:id="p1-l17"/>anzunehmen Herr <persName type="person" key="Tatti Luigi">
-                        <hi>Tatti</hi>
-                    </persName> könne auf irgendeine
+                    <hi>Tatti</hi>
+                </persName> könne auf irgendeine
         <lb xml:id="p1-l18"/>Weise unseren Zweken nüzlich werden, ob <lb xml:id="p1-l19"/>aber gerade in der Stellung eines
           ständigen<pb n="2"/>
                 <lb xml:id="p2-l1"/> <hi>Commissairs</hi> ist insofern ungewiß, als <choice>
@@ -155,11 +157,11 @@
                         <abbr>H.</abbr>
                         <expan>Herr</expan>
                     </choice> <persName type="person" key="Tatti Luigi">
-                        <hi>Tatti</hi>
-                    </persName> <lb xml:id="p2-l3"/>sich in
+                    <hi>Tatti</hi>
+                </persName> <lb xml:id="p2-l3"/>sich in
         der Lage und Verhältnissen befindet <lb xml:id="p2-l4"/> seine nächste Zeit ausschließlich einem
         <lb xml:id="p2-l5"/>
-                    <hi>Commissariate</hi> in der <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>sFrage
+                <hi>Commissariate</hi> in der <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>sFrage
         zu
                 <lb break="no" xml:id="p2-l6"/>zuwenden. –</p>
       <p rend="left" xml:id="K_3581_p4">
@@ -170,8 +172,8 @@
                         <expan>Herr</expan>
                     </choice> <seg type="com">
                     <persName type="person" key="Meiss Jean Conrad von">
-                            <hi>v</hi>. <hi>Mais</hi>
-                        </persName>
+                        <hi>v</hi>. <hi>Mais</hi>
+                    </persName>
                     <note xml:id="K_3581_c6">
                         <persName type="person" key="Meiss Jean Conrad von">Jean Conrad von Meiss</persName> (<choice>
                                 <abbr>geb.</abbr>
@@ -183,9 +185,9 @@
                         <abbr>H.</abbr>
                         <expan>Herr</expan>
                     </choice> <persName type="person" key="Tatti Luigi">
-                        <hi>Tatti</hi>
-                    </persName> als eine Art <seg type="com">
-                        <hi>Reserve</hi>;<note xml:id="K_3581_c7">Der engere Ausschuss kam in seiner Sitzung vom <date when="1864-10-28">28.
+                    <hi>Tatti</hi>
+                </persName> als eine Art <seg type="com">
+                    <hi>Reserve</hi>;<note xml:id="K_3581_c7">Der engere Ausschuss kam in seiner Sitzung vom <date when="1864-10-28">28.
               Oktober 1864</date> überein, <persName type="person" key="Meiss Jean Conrad von">Meiss</persName>
             mit der Übernahme des ständigen Kommissariats der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung in <placeName type="place" key="Italien (Königreich)">Italien</placeName> zu beauftragen. <choice>
                                 <abbr>Vgl.</abbr>
@@ -205,8 +207,8 @@
         erfahren <lb xml:id="p2-l17"/>und ersuche Inlage wieder <hi>retourniren</hi> zu wollen. <lb xml:id="p2-l18"/>Sollte es noch möglich
         sein, dem Wunsche <lb xml:id="p2-l19"/>Herrn <persName type="person" key="Gönner Adolph">Gönners</persName>, durch
         Zusendung einiger <lb xml:id="p2-l20"/>
-                    <hi>Exemplare</hi> des <seg type="com">
-                        <hi>Commerziellen</hi> Gutachtens<note xml:id="K_3581_c8">Das kommerzielle
+                <hi>Exemplare</hi> des <seg type="com">
+                    <hi>Commerziellen</hi> Gutachtens<note xml:id="K_3581_c8">Das kommerzielle
             Gutachten <persName type="person" key="Koller Gottlieb">Kollers</persName>, des
           Direktionsmitglieds der Centralbahn <persName type="person" key="Schmidlin Wilhelm">Wilhelm Schmidlin</persName> und des Direktionsmitglieds der
            Nordostbahn <ref type="kbp"/>
@@ -234,7 +236,7 @@
                     <lb xml:id="p3-l5"/>
           <placeName type="place" key="Basel-Stadt">Basel</placeName> den <date when="1864-10-31">31 <choice>
                             <abbr>8<hi>br</hi>
-                            </abbr>
+                        </abbr>
                             <expan>October</expan>
                         </choice> 1864</date> </p>
       </div>

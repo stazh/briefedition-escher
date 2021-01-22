@@ -29,35 +29,77 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Luzern</placeName>
                     <date when="1878-07-04">Donnerstag, Juli 4, 1878</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2005-07-07" who="MW">transkribiert</change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert</change>
-            <change when="2005-10-24" who="SD">Verifizierung: auszugsweise verifiziert</change>
-            <change when="2006-12-05" who="SM">Konvertierung provisorisch nachbearbeitet</change>
-            <change when="2007-01-05" who="SM">Korrekturen übertragen</change>
-            <change when="2007-01-19" who="WB">Konvertierung nachbearbeitet</change>
-            <change when="2007-04-24" who="SK">Korrekturen 1 Haberthür übertragen</change>
-            <change when="2007-05-26" who="WB">indexiert</change>
-            <change when="2007-05-26" who="SK">Umsetzung Lektorat und Verifizierung</change>
-            <change when="2007-05-30" who="SK">Publikationsort kontrolliert</change>
-            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2</change>
-            <change when="2007-06-20" who="SK">Umsetzung Verifizierung Verweise</change>
-            <change when="2007-07-26" who="SK">Umsetzung Lektorat MK 2</change>
-            <change when="2008-08-11" who="SW">Auf Stand Edition gebracht</change>
-            <change when="2011-07-21" who="HA">e-Edition: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-08-09" who="TM">e-Edition: Verifizierung 1 umgesetzt</change>
-            <change when="2011-08-22" who="BP">e-Edition: Verifizierung 2 umgesetzt</change>
-            <change when="2014-01-27" who="DG">Migrationsverifizierung umgesetzt</change>
-            <change when="2014-12-03" who="LB">Auszeichnung 2 umgesetzt</change>
-            <change when="2014-12-03" who="LB">Verifizierung 2 umgesetzt</change>
-            <change when="2014-12-03" who="LB">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="2005-07-07" who="MW">transkribiert
+                
+            </change>
+            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
+                
+            </change>
+            <change when="2005-10-24" who="SD">Verifizierung: auszugsweise verifiziert
+                
+            </change>
+            <change when="2006-12-05" who="SM">Konvertierung provisorisch nachbearbeitet
+                
+            </change>
+            <change when="2007-01-05" who="SM">Korrekturen übertragen
+                
+            </change>
+            <change when="2007-01-19" who="WB">Konvertierung nachbearbeitet
+                
+            </change>
+            <change when="2007-04-24" who="SK">Korrekturen 1 Haberthür übertragen
+                
+            </change>
+            <change when="2007-05-26" who="WB">indexiert
+                
+            </change>
+            <change when="2007-05-26" who="SK">Umsetzung Lektorat und Verifizierung
+                
+            </change>
+            <change when="2007-05-30" who="SK">Publikationsort kontrolliert
+                
+            </change>
+            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2
+                
+            </change>
+            <change when="2007-06-20" who="SK">Umsetzung Verifizierung Verweise
+                
+            </change>
+            <change when="2007-07-26" who="SK">Umsetzung Lektorat MK 2
+                
+            </change>
+            <change when="2008-08-11" who="SW">Auf Stand Edition gebracht
+                
+            </change>
+            <change when="2011-07-21" who="HA">e-Edition: Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-09" who="TM">e-Edition: Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-22" who="BP">e-Edition: Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-01-27" who="DG">Migrationsverifizierung umgesetzt
+                
+            </change>
+            <change when="2014-12-03" who="LB">Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2014-12-03" who="LB">Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-12-03" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -70,7 +112,7 @@
     <body>
             <div>
       <p rend="left" xml:id="K_3176_p2">
-                    <lb xml:id="p1-l2"/>
+                <lb xml:id="p1-l2"/>
         <choice>
                         <abbr>Hr.</abbr>
                         <expan>Herr</expan>
@@ -88,36 +130,39 @@ zwischen Ihnen &amp; <choice>
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <seg type="ref">
-                        <hi>
-                            <persName type="person" key="Feer-Herzog Carl">Feer</persName> </hi>
-                        <ref type="kbp">→ Carl Feer-Herzog</ref>
-                    </seg> &amp; <seg type="ref">
-                        <persName type="person" key="Welti Emil">
-                            <hi>Welti</hi>
-                        </persName>
-                        <ref type="kbp">→ Emil Welti</ref>
-                    </seg> in<lb xml:id="p1-l6"/>
-                    <placeName type="place" key="Olten">
-                        <hi>Olten</hi>
-                    </placeName> stattgefunden haben. Ich kann<lb xml:id="p1-l7"/>
+                    <hi>
+                        <persName type="person" key="Feer-Herzog Carl">Feer</persName> </hi>
+                    <ref type="kbp">→ Carl Feer-Herzog</ref>
+                </seg> &amp; <seg type="ref">
+                    <persName type="person" key="Welti Emil">
+                        <hi>Welti</hi>
+                    </persName>
+                    <ref type="kbp">→ Emil Welti</ref>
+                </seg> in<lb xml:id="p1-l6"/>
+                <placeName type="place" key="Olten">
+                    <hi>Olten</hi>
+                </placeName> stattgefunden haben. Ich kann<lb xml:id="p1-l7"/>
 Ihnen nicht sagen, wie schwer die<lb xml:id="p1-l8"/>
 Nachricht, daß Sie definitiv aus der<lb xml:id="p1-l9"/>
 Direktion der <choice>
                         <abbr>
-                            <hi>GB.</hi> </abbr>
+                    <hi>GB.</hi> </abbr>
                         <expan>GotthardBahn</expan>
                     </choice> auszutreten<lb xml:id="p1-l10"/>
 sich entschloßen haben, auf mich drükt.<lb xml:id="p1-l11"/>
-Wenn ich mit Rüksicht auf Ihre <seg type="ref">Ge<lb break="no" xml:id="p1-l12"/>sundheitsverhältniße<ref type="letter" target="K_3147"><!--Nr. 344--></ref>
-                    </seg> &amp; andere <seg type="ref">Um<lb break="no" xml:id="p1-l13"/>stände<ref type="letter" target="K_3174"><!--Nr. 355--></ref>
-                    </seg> den Entschluß auch begreife,<lb xml:id="p1-l14"/>
+Wenn ich mit Rüksicht auf Ihre <seg type="ref">Ge
+                    <lb break="no" xml:id="p1-l12"/>sundheitsverhältniße<ref type="letter" target="K_3147"><!--Nr. 344--></ref>
+                </seg> &amp; andere <seg type="ref">Um
+                    <lb break="no" xml:id="p1-l13"/>stände<ref type="letter" target="K_3174"><!--Nr. 355--></ref>
+                </seg> den Entschluß auch begreife,<lb xml:id="p1-l14"/>
 so kann ich <add>mich</add> doch fast nicht in den <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
+                <lb xml:id="p2-l1"/>
 Gedanken finden, daß Sie nicht<lb xml:id="p2-l2"/>
-mehr der <add>engern</add> Verwaltung des Unter<lb break="no" xml:id="p2-l3"/>nehmens 
+mehr der <add>engern</add> Verwaltung des Unter
+                <lb break="no" xml:id="p2-l3"/>nehmens 
 angehören sollen, für<lb xml:id="p2-l4"/>
 das Sie <seg type="com">seit 15 Jahren<note xml:id="K_3176_c1">Zeitspanne seit der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>konferenz vom <date when="1863-08-07">7.</date>/<date when="1863-08-08">8. August 1863</date> in <placeName type="place" key="Luzern (Stadt)">Luzern</placeName>. <ref type="sum" target="Kurswechsel_d1.6"><!--S. 157–158--></ref>.</note>
-                    </seg> mit einer<lb xml:id="p2-l5"/>
+                </seg> mit einer<lb xml:id="p2-l5"/>
         unendlichen Summe <choice>
                         <abbr>v.</abbr>
                         <expan>von</expan>
@@ -135,7 +180,7 @@ Schritt unabwendbar ist, ich nie<lb xml:id="p2-l15"/>
                         <abbr>v.</abbr>
                         <expan>von</expan>
                     </choice> Freundschaft <pb n="3"/>
-                    <lb xml:id="p3-l1"/> &amp; Wohlwollen vergeßen werde, welche<lb xml:id="p3-l2"/>
+                <lb xml:id="p3-l1"/> &amp; Wohlwollen vergeßen werde, welche<lb xml:id="p3-l2"/>
 Sie mir während der langen Periode<lb xml:id="p3-l3"/>
 unseres Zusammenwirkens für das<lb xml:id="p3-l4"/>
 Zustandekommen des großen Werkes<lb xml:id="p3-l5"/>

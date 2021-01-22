@@ -38,8 +38,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Baumann Caspar" type="sender">Caspar Baumann</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Baumann Caspar" type="sender">Caspar Baumann</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Horgen</placeName>
                     <date when="1857-03-12">Donnerstag, März 12, 1857</date>
                 </correspAction>
@@ -76,7 +76,9 @@
             <change when="2014-07-23" who="JS">Nachbearbeitung umgesetzt
                 
             </change>
-            <change when="2016-12-21" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-21" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -146,8 +148,8 @@
                 <lb xml:id="p2-l27"/>Es steigert dieses die Frage über die <placeName type="place" key="Seetal (ZH)">Seethal</placeName>bahn zu einer<lb xml:id="p2-l28"/> Lebensfrage für <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> &amp; das Thalgebiet. –</p>
       <p rend="indent" xml:id="K_1581_p9">
                 <lb xml:id="p2-l29"/>Bisher waren die <hi>Intressen</hi> <placeName type="place" key="Zürich (Stadt)">
-                        <hi>Zürich's</hi>
-                    </placeName> &amp; der <hi>Nord</hi>ostbahn<lb xml:id="p2-l30"/> die gleichen; eine Verschmelzung
+                    <hi>Zürich's</hi>
+                </placeName> &amp; der <hi>Nord</hi>ostbahn<lb xml:id="p2-l30"/> die gleichen; eine Verschmelzung
         der Nordostbahn mit den<lb xml:id="p2-l31"/> westlichen Bahnen ohne die Erstellung der Linie
           <placeName type="place" key="Zürich (Stadt)">
                     <hi>Zürich</hi>
@@ -157,8 +159,8 @@
                 </placeName> im höchsten<pb n="3"/>
                 <lb xml:id="p3-l1"/> Grade
         verlezen, indem <placeName type="place" key="Zürich (Stadt)">
-                        <hi>Zürich</hi>
-                    </placeName> vom großen
+                    <hi>Zürich</hi>
+                </placeName> vom großen
           Weltverkehr<lb xml:id="p3-l2"/> ab Seite gelegt, langsam dahin siechen würde. </p>
       <p rend="indent" xml:id="K_1581_p10">
                 <lb xml:id="p3-l3"/>Unsere Gesellschaft wird für Erstellung der <placeName type="place" key="Zürichsee">See</placeName>bahn allen<lb xml:id="p3-l4"/> Kräften aufbieten, – &amp; wenn es

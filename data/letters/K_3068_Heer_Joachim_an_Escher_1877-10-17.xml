@@ -32,8 +32,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Heer Joachim" type="sender">Joachim Heer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Heer Joachim" type="sender">Joachim Heer</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1877-10-17">Mittwoch, Oktober 17, 1877</date>
                 </correspAction>
@@ -103,7 +103,9 @@
             <change when="12-08" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
             <change when="2018-12-17" who="DB">Transkriptionsverifizierung Seiterle umgesetzt
       
       </change>
@@ -204,8 +206,8 @@ von Anfang an in Aussicht genommen <choice>
                 <lb xml:id="p2-l1"/>
 hätte. Ich ließ dies verschiedentlich durchblikken, befand mich aber natürlich dabei, als<lb xml:id="p2-l2"/>
 Vertreter der Bundesbehörde, in einer etwas delikaten Lage: von <placeName type="place" key="Bern">
-                        <hi>Bern</hi>
-                    </placeName> wurde der Ge
+                    <hi>Bern</hi>
+                </placeName> wurde der Ge
                 <lb break="no" xml:id="p2-l3"/>danke, 
 die Last unter die Kantone <choice>
                         <abbr>u.</abbr>
@@ -222,8 +224,8 @@ Zeug gegangen, als <placeName type="place" key="Schwyz">
                 </placeName>. <placeName type="place" key="Bern">
                     <hi>Bern</hi>
                 </placeName> kam immer auf seine <seg type="com">
-                        <hi>Aut</hi>–<hi>aut</hi>
-                        <note xml:id="K_3068_c6">Aut... aut (<choice>
+                    <hi>Aut</hi>–<hi>aut</hi>
+                    <note xml:id="K_3068_c6">Aut... aut (<choice>
                                 <abbr>lat.</abbr>
                                 <expan>lateinisch</expan>
                             </choice>): entweder... oder.</note>
@@ -242,6 +244,7 @@ möglich, zu einem andern Ergebnisse zu gelangen, als zu demjenigen, was jetzt v
                     <hi>Bern</hi>
                 </placeName>, <placeName type="place" key="Basel-Stadt">
                     <hi>Basel carré</hi>
+                    
                     <lb break="no" xml:id="p2-l10"/>ment</placeName>, <placeName type="place" key="Aargau">
                     <hi>Aargau</hi>
                 </placeName> etwas schüchtern die Quoten, wie das <hi>Tableau</hi> sie enthält, übernehmen.<lb xml:id="p2-l11"/>
@@ -326,8 +329,8 @@ zu theilen.  – Daneben wetterte <persName type="person" key="Favre Louis">
                 </seg>: <lb xml:id="p2-l18"/>
 mit <seg type="ref">
                     <persName type="person" key="Kauffmann Jakob">
-                            <hi>Kaufmann</hi>
-                        </persName>
+                        <hi>Kaufmann</hi>
+                    </persName>
                     <ref type="kbp">
 → Jakob Kauffmann</ref>
                 </seg> <choice>
@@ -374,7 +377,7 @@ Meine Arbeitstage waren in letzter Zeit fast über Gebühr ausgefüllt.</p>
 <hi>Arrangement</hi> bei der <seg type="ref">
                     <choice>
                             <abbr>
-                                <hi>NOB</hi>.</abbr>
+                        <hi>NOB</hi>.</abbr>
                             <expan>NordOstBahn</expan>
                         </choice>
                     <ref type="kbe">→ NOB</ref>

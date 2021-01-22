@@ -27,8 +27,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Huggenberg Johann Jakob" type="sender">Johann Jakob Huggenberg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Huggenberg Johann Jakob" type="sender">Johann Jakob Huggenberg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Winterthur</placeName>
                     <date when="1845-10-26">Sonntag, Oktober 26, 1845</date>
                 </correspAction>
@@ -60,7 +60,9 @@
             <change when="2015-01-07" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -144,7 +146,7 @@ zu wag<supplied>en</supplied>; die Schlechtigkeit muß fallen <choice>
                     <lb xml:id="p1-l29"/>
           <placeName type="place" key="Winterthur">Winterthur</placeName> den <date when="1845-10-26">26. <choice>
                             <abbr>
-                                <hi>Oct</hi>.</abbr>
+                            <hi>Oct</hi>.</abbr>
                             <expan>October</expan>
                         </choice> 1845.</date> </p>
       </div>

@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Koller Gottlieb" type="sender">Gottlieb Koller</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Koller Gottlieb" type="sender">Gottlieb Koller</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Florenz</placeName>
                     <date when="1866-02-27">Dienstag, Februar 27, 1866</date>
                 </correspAction>
@@ -67,7 +67,9 @@
                     umgesetzt
                 
             </change>
-            <change when="2017-01-17" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-17" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -177,8 +179,8 @@
                         <expan>diesfällig</expan>
                     </choice> Hoffnungen niederzuschlagen, <lb xml:id="p2-l3"/>womit nicht gesagt ist, daß man
                 nicht <hi rend="underline">nach näherer Untersuchung</hi> <lb xml:id="p2-l4"/>das System <hi>
-                        <persName type="person" key="Fell John Barraclough">Fell</persName>
-                    </hi> <hi rend="underline">provisorisch</hi> von <hi>
+                    <persName type="person" key="Fell John Barraclough">Fell</persName>
+                </hi> <hi rend="underline">provisorisch</hi> von <hi>
                     <placeName type="place" key="Airolo">Airolo</placeName> </hi> bis
                         <hi>
                     <placeName type="place" key="Göschenen">Göschenen</placeName> </hi> <lb xml:id="p2-l5"/>anwenden werde, obwohl ich mir keine großen Vortheile <lb xml:id="p2-l6"/>davon verspreche.
@@ -206,23 +208,23 @@
                 </hi>, der wie
                         <lb xml:id="p2-l17"/>
                 <hi>
-                        <persName type="person" key="Bertschinger Karl Eduard">Bertschinger</persName>
-                    </hi>, 
+                    <persName type="person" key="Bertschinger Karl Eduard">Bertschinger</persName>
+                </hi>, 
                     <hi>
-                        <persName type="person" key="Gönner Adolph">Gönner</persName>
-                    </hi>  <choice>
+                    <persName type="person" key="Gönner Adolph">Gönner</persName>
+                </hi>  <choice>
                         <abbr>&amp;. a.</abbr>
                         <expan>und andere</expan>
                     </choice> sehr gut für die Sache gestimmt <lb xml:id="p2-l18"/>ist. Nur
                     <hi>
-                        <persName type="person" key="Schennis Johann Kaspar">Schännis</persName>
-                    </hi>  macht
+                    <persName type="person" key="Schennis Johann Kaspar">Schännis</persName>
+                </hi>  macht
                 eine traurige Ausnahme, seine <lb xml:id="p2-l19"/>Sprache ist die der <placeName type="place" key="St. Gallen">
                     <hi>S<hi rend="sup">t</hi> Galler</hi>
                 </placeName>blätter, kein Geld in <placeName type="place" key="Italien (Königreich)">Italien</placeName>, Intriguen <lb xml:id="p2-l20"/>von <hi>
                     <persName type="person" key="Jacini Stefano">Jacini</persName> </hi> <choice>
                         <abbr>
-                            <hi>etc</hi>.</abbr>
+                    <hi>etc</hi>.</abbr>
                         <expan>et cetera (und anderes)</expan>
                     </choice> Er steht ungefähr auf der Höhe unsers
                 Präsident <lb xml:id="p2-l21"/>
@@ -275,8 +277,8 @@
         <date when="1866-02-28">Morgen</date> gehen Berichte an Herrn <hi>
                     <persName type="person" key="Stoll Georg">Stoll</persName> </hi> ab; <supplied type="unclear">
                     <hi>
-                            <persName type="person" key="Ferrucci">Ferrucci</persName>
-                        </hi>
+                        <persName type="person" key="Ferrucci">Ferrucci</persName>
+                    </hi>
                 </supplied> <lb xml:id="p3-l18"/>ist etwas geizig damit, ich muß immer betteln. </p>
     </div>
         </body>

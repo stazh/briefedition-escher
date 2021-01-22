@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zwicky Heinrich Lukas" type="sender">Heinrich Lukas Zwicky</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zwicky Heinrich Lukas" type="sender">Heinrich Lukas Zwicky</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Wien</placeName>
                     <date when="1845-06-15-1845-06-13">13 06 1845 15 06 1845</date>
                 </correspAction>
@@ -71,7 +71,9 @@
             <change when="2014-12-18" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -345,7 +347,7 @@
         Geschäft wußte ich<pb n="3"/>
                 <lb xml:id="p3-l1"/> nichts Besseres zu thun, als mit
             <add>d<supplied>en</supplied>
-                    </add> Leut<supplied>en</supplied> aus der <placeName type="place" key="Leopoldstadt (Wien, A)">Leopoldsstdt</placeName> duch d. Jägerzeile in d<supplied>en</supplied>
+                </add> Leut<supplied>en</supplied> aus der <placeName type="place" key="Leopoldstadt (Wien, A)">Leopoldsstdt</placeName> duch d. Jägerzeile in d<supplied>en</supplied>
         Prater hinaus zu schwimmen, wohin sich auch<lb xml:id="p3-l2"/> eine enorme Menschenmasse
         bewegte. Die Jägerzeile, d<supplied>er</supplied> <placeName type="place" key="München (D)">Müncher</placeName>
         Ludwigsstrasse nicht unähnlich in Hinsicht auf schöne Privatgebäude,<lb xml:id="p3-l3"/> nur
@@ -556,8 +558,8 @@
                 <lb xml:id="p4-l4"/>Adresse: <placeName type="place" key="Alservorstadt (Wien, A)">Alser.
           Vorstadt.</placeName> Wickenburg Strasse <choice>
                         <abbr>
-                            <hi>Nr</hi>
-                        </abbr>
+                    <hi>Nr</hi>
+                </abbr>
                         <expan>Nummer</expan>
                     </choice> 8.<lb xml:id="p4-l5"/> 2 Stock, Thüre 7.</p>
       <p rend="left" xml:id="K_0380_p6">
@@ -572,9 +574,9 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> Babetch<supplied>en</supplied>  Besonds möchte für eizelne ds Graben-Bad. <supplied type="unclear">
-                        <hi>des</hi>
-                    </supplied> <supplied type="unclear">
-                        <hi>ital</hi>.</supplied> einige <choice>
+                    <hi>des</hi>
+                </supplied> <supplied type="unclear">
+                    <hi>ital</hi>.</supplied> einige <choice>
                         <abbr>Anziehungkrft</abbr>
                         <expan>Anziehungskraft</expan>
                     </choice> besitzen.</p>

@@ -33,8 +33,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1877-09-12">Mittwoch, September 12, 1877</date>
                 </correspAction>
@@ -104,7 +104,9 @@
             <change when="2014-12-05" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -171,8 +173,8 @@ zu <choice>
                     <ref type="kbp">
 → Carl Feer-Herzog</ref>
                 </seg> nach <placeName type="place" key="Aarau">
-                        <hi>Aarau</hi>
-                    </placeName>, um ihm das Ergebniß der<lb xml:id="p1-l8"/> <seg type="ref">
+                    <hi>Aarau</hi>
+                </placeName>, um ihm das Ergebniß der<lb xml:id="p1-l8"/> <seg type="ref">
                     <persName type="person" key="Pressel Wilhelm">
                         <hi>Pressel'schen</hi>
                     </persName> Expertise <seg type="com">
@@ -195,8 +197,8 @@ zu <choice>
 enttäuscht zu seyn, daß die Ersparnisse in neuen Vorschlägen,<lb xml:id="p1-l10"/>
 anstatt in Reductionen des <seg type="ref">
                     <persName type="person" key="Hellwag Konrad Wilhelm">
-                            <hi>Hellwag'schen</hi>
-                        </persName>
+                        <hi>Hellwag'schen</hi>
+                    </persName>
                     <ref type="kbp">→ Konrad Wilhelm Hellwag</ref>
                 </seg> <seg type="com">Voranschlags<note xml:id="K_3044_c2">
                         <persName type="person" key="Pressel Wilhelm">Pressel</persName> stützte seine Beurteilungen auf einen von <persName type="person" key="Hellwag Konrad Wilhelm">Hellwag</persName> am <date when="1877-07-18">18.</date> <choice>
@@ -235,8 +237,8 @@ welches mich über die <seg type="com">Äusserung des <choice>
                         <hi>Feer</hi>
                     </persName> befiel, es sey gefährlich,<lb xml:id="p1-l22"/>
 an den Principien zu rütteln, auf Grund derer das <placeName type="place" key="Luzern (Stadt)">
-                            <hi>Luzerner</hi>
-                        </placeName> <lb xml:id="p1-l23"/>
+                        <hi>Luzerner</hi>
+                    </placeName> <lb xml:id="p1-l23"/>
 Programm zu Stande kam  – 
     «Abänderungen hieran stellen <pb n="2"/>
                     <lb xml:id="p2-l1"/>
@@ -285,7 +287,7 @@ Radius gehen werden, worauf sich <choice>
 aber der erreichte Vortheil – das <seg type="com">Näherrücken der Stationen<lb xml:id="p2-l13"/>
   auf den Bergbahnen auf im <choice>
                             <abbr>
-                                <hi>Max</hi>.</abbr>
+                        <hi>Max</hi>.</abbr>
                             <expan>Maximum</expan>
                         </choice> 6 Kilometer<note xml:id="K_3044_c6">
                         <persName type="person" key="Pressel Wilhelm">Pressel</persName> befürchtete, dass die Leistungsfähigkeit der vorläufig eingleisig gebauten Gotthardbahn zu sehr herabgesetzt würde, wenn die Bahnstationen zu weit auseinander lägen. In der Folge revidierte die Bauleitung das Bauprojekt derart, dass der Abstand der Stationen eine Distanz von 8 <choice>
@@ -307,7 +309,7 @@ genehmigen werden. </p>
       <p rend="indent" xml:id="K_3044_p9">
                 <lb xml:id="p2-l16"/>Man kann sich nun fragen, <hi rend="underline">wann</hi> man an die Staaten damit<lb xml:id="p2-l17"/>
 gelangen soll, nach dem <date when="1877-09-30">30<hi rend="sup">t</hi> <hi>Septbr</hi>
-                    </date> oder sofort? Ich war<lb xml:id="p2-l18"/>
+                </date> oder sofort? Ich war<lb xml:id="p2-l18"/>
                 <date when="1877-09-11">gestern</date> noch in dieser Frage unentschieden, nach weiterem<lb xml:id="p2-l19"/>
 Nachdenken finde ich aber jedes weitere Zaudern für unmotivirt. </p>
       <p rend="indent" xml:id="K_3044_p10">
@@ -325,7 +327,7 @@ nur gebaut<lb xml:id="p2-l24"/>
 werden, wenn die 28 Millionen Subventionen zusammenkommen und <pb n="3"/>
                 <lb xml:id="p3-l1"/>
         wenn <seg type="com">die 12 Millionen <hi>Deficit</hi>
-                        <note xml:id="K_3044_c7">Für die Erstellung des reduzierten Netzes der Gotthardbahn-Gesellschaft (Linien <placeName type="place" key="Immensee (Küssnacht, SZ)">Immensee</placeName>–<placeName type="place" key="Pino (I)">Pino</placeName>, <placeName type="place" key="Cadenazzo">Cadenazzo</placeName>–<placeName type="place" key="Locarno">Locarno</placeName>, <placeName type="place" key="Lugano">Lugano</placeName>–<placeName type="place" key="Chiasso">Chiasso</placeName>) rechnete die Konferenz in der Sitzung vom <date when="1877-06-09">9. Juni 1877</date> mit Kosten von insgesamt 227 <choice>
+                    <note xml:id="K_3044_c7">Für die Erstellung des reduzierten Netzes der Gotthardbahn-Gesellschaft (Linien <placeName type="place" key="Immensee (Küssnacht, SZ)">Immensee</placeName>–<placeName type="place" key="Pino (I)">Pino</placeName>, <placeName type="place" key="Cadenazzo">Cadenazzo</placeName>–<placeName type="place" key="Locarno">Locarno</placeName>, <placeName type="place" key="Lugano">Lugano</placeName>–<placeName type="place" key="Chiasso">Chiasso</placeName>) rechnete die Konferenz in der Sitzung vom <date when="1877-06-09">9. Juni 1877</date> mit Kosten von insgesamt 227 <choice>
                                 <abbr>Mio.</abbr>
                                 <expan>Million(en)</expan>
                             </choice> Franken. Gegenüber dem Voranschlag von 1869 resultierte somit ein Defizit von 40 <choice>
@@ -351,7 +353,7 @@ Operationen im jezigen Moment. Mit den <persName type="person" key="Pressel Wilh
                     <hi>Pressel'schen</hi>
                 </persName> <lb xml:id="p3-l6"/>
 Vorschlägen und <seg type="com">den eingereichten <hi>Offerten</hi>
-                        <note xml:id="K_3044_c8">Verschiedene Bauunternehmer wünschten bereits im Spätsommer 1877 Einsicht in die neusten Bauprojekte zu nehmen, um Offerten für die noch zu realisierenden Bahnlinien vorbereiten zu können. <choice>
+                    <note xml:id="K_3044_c8">Verschiedene Bauunternehmer wünschten bereits im Spätsommer 1877 Einsicht in die neusten Bauprojekte zu nehmen, um Offerten für die noch zu realisierenden Bahnlinien vorbereiten zu können. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Wanner, Gotthardbahn</ref>, <choice>
@@ -375,7 +377,7 @@ der Überschreitung muß daher der Credit zurückkehren. </p>
       <p rend="indent" xml:id="K_3044_p12">
                 <lb xml:id="p3-l13"/>Wenn ein Bank- oder Handlungshaus zahlungsunfähig<lb xml:id="p3-l14"/>
 wird, so gehen die Gläubiger auf ein gütliches <hi>Arrangement</hi>
-                    <lb xml:id="p3-l15"/>
+                <lb xml:id="p3-l15"/>
 weit eher ein, wenn nachgewiesen werden kann daß durch<lb xml:id="p3-l16"/>
 Gewährung von gewissen Zugeständnissen der Fall des Hauses<lb xml:id="p3-l17"/>
 verhindert werden kann. Geradeso werden <del>S</del> die Subventions
@@ -384,8 +386,8 @@ ihre weiter gewährte Beiträge sicherlich <hi rend="underline">eher</hi> <lb xm
 geben, wenn sie die Überzeugung gewinnen, damit sey<lb xml:id="p3-l20"/>
 der Gesellschaft geholfen. Ich befinde mich daher mit Herrn<lb xml:id="p3-l21"/>
                 <persName type="person" key="Feer-Herzog Carl">
-                        <hi>Feer</hi>
-                    </persName> und vielleicht auch mit Ihnen im Widerspruch.</p>
+                    <hi>Feer</hi>
+                </persName> und vielleicht auch mit Ihnen im Widerspruch.</p>
       <p rend="indent" xml:id="K_3044_p13">
                 <lb xml:id="p3-l22"/>Nach meinem Dafürhalten sollte bei den <seg type="com">bevorstehenden<lb xml:id="p3-l23"/>
           Verhandlungen mit dem Consortium<note xml:id="K_3044_c9">Die Disconto-Gesellschaft in <placeName type="place" key="Berlin (D)">Berlin</placeName> hatte zu einer auf den <date when="1877-09-17">17. September 1877</date> in <placeName type="place" key="Frankfurt am Main (D)">Frankfurt am Main</placeName> stattfindenden Konferenz betreffend die vierte Obligationenserie der Gotthardbahn-Gesellschaft eingeladen. <choice>

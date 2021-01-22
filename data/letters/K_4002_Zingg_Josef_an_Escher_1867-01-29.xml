@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Luzern</placeName>
                     <date when="1867-01-29">Dienstag, Januar 29, 1867</date>
                 </correspAction>
@@ -143,14 +143,14 @@
                         <abbr>Hr.</abbr>
                         <expan>Herr</expan>
                     </choice> <persName type="person" key="Koller Gottlieb">
-                        <hi>Koller</hi>
-                    </persName> von dem Verhalten des <choice>
+                    <hi>Koller</hi>
+                </persName> von dem Verhalten des <choice>
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <lb xml:id="p2-l16"/>
                 <persName type="person" key="Fowler John">
-                        <hi>Fowler</hi>
-                    </persName> berichtet, läßt kaum hoffen, daß wir
+                    <hi>Fowler</hi>
+                </persName> berichtet, läßt kaum hoffen, daß wir
 				von<lb xml:id="p2-l17"/> dieser Seite die gewünschte Förderung einer Finanz
                 <lb break="no" xml:id="p2-l18"/>gesellschaft
 				erwarten dürfen. Es scheint mir, daß,<lb xml:id="p2-l19"/> sofern die <placeName type="place" key="Preussen (Königreich)">preußische</placeName> Regierung das Unternehmen<lb xml:id="p2-l20"/>
@@ -170,6 +170,7 @@
 					Association</hi> auch die Anfrage zu<lb xml:id="p3-l5"/> richten, ob sie den gegenwärtigen
 				Zeitpunkt für<lb xml:id="p3-l6"/> geeignet erachte, ein Conceßions- &amp;
 				<hi>Subventions</hi>
+                
                 <lb break="no" xml:id="p3-l7"/>gesuch an die <placeName type="place" key="Tessin">Teß.</placeName>
 				Behörden einzureichen. Würden<lb xml:id="p3-l8"/> Sie vielleicht die Güte haben, <choice>
                         <abbr>Hrn.</abbr>

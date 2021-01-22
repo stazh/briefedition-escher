@@ -32,35 +32,77 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1869-09-09">Donnerstag, September 9, 1869</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="05-06-01" who="BF/SD"> transkribiert</change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert</change>
-            <change when="06-08-31" who="BF"> provisorisch</change>
-            <change when="2006-12-07" who="SM">Konvertierung provisorisch nachbearbeitet</change>
-            <change when="2007-01-03" who="WB">Konvertierung nachbearbeitet (Indexierung fehlt!)</change>
-            <change when="2007-01-29" who="TN">Korrekturen übertragen</change>
-            <change when="2007-04-2007; 11-02-21" who="BF">provisorisch kommentiert 2</change>
-            <change when="2007-04-13" who="WB">indexiert</change>
-            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen</change>
-            <change when="2007-05-17" who="BF">Umsetzung Lektorat und Verifizierung</change>
-            <change when="2007-06-11" who="WB">Umsetzung Lektorat 2</change>
-            <change when="2007-06-12" who="TN">Briefzitat verifiziert</change>
-            <change when="2007-06-25" who="BF">Umsetzung Verifizierung Verweise</change>
-            <change when="2007-08-07" who="BF">Umsetzung Verifizierung Personenerwähnungen</change>
-            <change when="2008-07-29" who="SW">Auf Stand Edition gebracht</change>
-            <change when="2011-07-15" who="TM">e-Edition: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-08-04" who="HA">e-Edition: Verifizierung 1 umgesetzt</change>
-            <change when="2011-09-01" who="BP">e-Edition: Verifizierung 2 umgesetzt</change>
-            <change when="2014-01-28" who="AW">Migrationsverifizierung</change>
-            <change when="2014-11-19" who="VP">Verifizierung 2 umgesetzt</change>
-            <change when="2014-11-19" who="VP">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="05-06-01" who="BF/SD"> transkribiert
+                
+            </change>
+            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
+                
+            </change>
+            <change when="06-08-31" who="BF"> provisorisch
+                
+            </change>
+            <change when="2006-12-07" who="SM">Konvertierung provisorisch nachbearbeitet
+                
+            </change>
+            <change when="2007-01-03" who="WB">Konvertierung nachbearbeitet (Indexierung fehlt!)
+                
+            </change>
+            <change when="2007-01-29" who="TN">Korrekturen übertragen
+                
+            </change>
+            <change when="2007-04-2007; 11-02-21" who="BF">provisorisch kommentiert 2
+                
+            </change>
+            <change when="2007-04-13" who="WB">indexiert
+                
+            </change>
+            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen
+                
+            </change>
+            <change when="2007-05-17" who="BF">Umsetzung Lektorat und Verifizierung
+                
+            </change>
+            <change when="2007-06-11" who="WB">Umsetzung Lektorat 2
+                
+            </change>
+            <change when="2007-06-12" who="TN">Briefzitat verifiziert
+                
+            </change>
+            <change when="2007-06-25" who="BF">Umsetzung Verifizierung Verweise
+                
+            </change>
+            <change when="2007-08-07" who="BF">Umsetzung Verifizierung Personenerwähnungen
+                
+            </change>
+            <change when="2008-07-29" who="SW">Auf Stand Edition gebracht
+                
+            </change>
+            <change when="2011-07-15" who="TM">e-Edition: Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-04" who="HA">e-Edition: Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2011-09-01" who="BP">e-Edition: Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-01-28" who="AW">Migrationsverifizierung
+                
+            </change>
+            <change when="2014-11-19" who="VP">Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-11-19" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -73,122 +115,132 @@
     <body>
             <div>
       <p rend="indent" xml:id="K_2363_p2">
-                    <lb xml:id="p1-l2"/>Der Bundesrath hat schon <date when="1869-09-08">gestern</date> <lb xml:id="p1-l3"/>
+                <lb xml:id="p1-l2"/>Der Bundesrath hat schon <date when="1869-09-08">gestern</date> <lb xml:id="p1-l3"/>
         die Abordnung für die <seg type="com">Conferenz<note xml:id="K_2363_c1">Gemeint ist die internationale <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>konferenz von <date when="1869-09-15">15. September</date> bis <date when="1869-10-13">13. Oktober 1869</date> in <placeName type="place" key="Bern (Stadt)">Bern</placeName>. <ref type="sum" target="Gotthardvereinigung_p25"><!--→ Band 1, S. 201–202--></ref>.</note>
-                    </seg> <lb xml:id="p1-l4"/>
+                </seg> <lb xml:id="p1-l4"/>
 bestellt und neben <seg type="ref">Herrn <persName type="person" key="Schenk Karl">Schenk</persName>
-                        <ref type="kbp">→ Karl Schenk</ref>
-                    </seg> <choice>
+                    <ref type="kbp">→ Karl Schenk</ref>
+                </seg> <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> <lb xml:id="p1-l5"/>
         mir auch <seg type="ref">Herrn <persName type="person" key="Dubs Jakob">Dubs</persName>
-                        <ref type="kbp">→ Jakob Dubs</ref>
-                    </seg> <seg type="com">ernannt.<note xml:id="K_2363_c2">
-                            <choice>
+                    <ref type="kbp">→ Jakob Dubs</ref>
+                </seg> <seg type="com">ernannt.<note xml:id="K_2363_c2">
+                        <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004605" type="www">
-                                <ref type="lit">Prot. BR</ref>, 8. September 1869</ref>.</note>
-                    </seg> Mit<lb xml:id="p1-l6"/>
+                            <ref type="lit">Prot. BR</ref>, 8. September 1869</ref>.</note>
+                </seg> Mit<lb xml:id="p1-l6"/>
 letzterem habe ich vorher gesprochen<lb xml:id="p1-l7"/>
 und ihn «ganz bereit gefunden die Sache<lb xml:id="p1-l8"/>
 nach Kräften zu fördern». Er war auch<lb xml:id="p1-l9"/>
 mit der Art des Vorgehens wie wir es<lb xml:id="p1-l10"/>
-besprochen hatten vollständig einverstan<lb break="no" xml:id="p1-l11"/>den.<!--<com>Dubs, dessen Verhältnis zu Escher sich im Laufe der vergangenen Jahre spürbar verschlechtert hatte, teilte Eschers Ansichten in der Alpenbahnfrage nicht, war aber auf Weltis Vorschlag hin dennoch bereit, an der internationalen Gotthardkonferenz als Vertreter des Bundes teilzunehmen. Bei Beratungen während der Konferenz stiessen Dubs und Escher wiederholt zusammen. <abbr>Vgl.</abbr> <ref type="lit">Ermatinger, Dubs</ref>, S. 138&ndash;139.</com>--> <seg type="com">Die Instructionen welche sich vorerst<lb xml:id="p1-l12"/>
-nur auf die technische Seite beziehen wer<lb break="no" xml:id="p1-l13"/>den 
+besprochen hatten vollständig einverstan
+                <lb break="no" xml:id="p1-l11"/>den.<!--<com>Dubs, dessen Verhältnis zu Escher sich im Laufe der vergangenen Jahre spürbar verschlechtert hatte, teilte Eschers Ansichten in der Alpenbahnfrage nicht, war aber auf Weltis Vorschlag hin dennoch bereit, an der internationalen Gotthardkonferenz als Vertreter des Bundes teilzunehmen. Bei Beratungen während der Konferenz stiessen Dubs und Escher wiederholt zusammen. <abbr>Vgl.</abbr> <ref type="lit">Ermatinger, Dubs</ref>, S. 138&ndash;139.</com>--> <seg type="com">Die Instructionen welche sich vorerst<lb xml:id="p1-l12"/>
+nur auf die technische Seite beziehen wer
+                    <lb break="no" xml:id="p1-l13"/>den 
   am <date when="1869-09-17">nächsten Freitag</date> behandelt.<note xml:id="K_2363_c3">Der Bundesrat genehmigte den Instruktionsentwurf am <date when="1869-09-13">13. September</date>. Die schweizerische Delegation hatte <bibl>als oberste Richtschnur für die Verhandlungen im Auge zu behalten, daß die politische Stellung der Schweiz, ihre Unabhängigkeit und Neutralität absolut intakt bleiben soll</bibl>.<!--Als Basis für die Unterhandlungen sollte das von der Gotthardvereinigung vorgelegte Projekt dienen, wobei die Delegierten im Besonderen mitwirken sollten, <obj>da&sz; die in den Plan aufgenommene Monte-Cenere-Linie festgehalten werde.</obj> Sie wurden ermächtigt, <obj>sich Namens der Eidgeno&sz;enschaft für den Betrag derjenigen Subsidien zu verpflichten, welche von den Kantonen und schweizer. Eisenbahngesellschaften zugesagt worden sind</obj>-->
-                            <bibl>Die Uebernahme einer selbständigen Subvention von Seiten des Bundes</bibl> sollte abgelehnt werden. <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004607">
-                                <ref type="lit">Prot. BR</ref>, 13. September 1869</ref>.<!-- <ref type="sum">&rarr; Überblickskommentar Alpenbahn-Diplomatie</ref>-->
-                        </note>
-                    </seg> </p>
+                        <bibl>Die Uebernahme einer selbständigen Subvention von Seiten des Bundes</bibl> sollte abgelehnt werden. <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004607">
+                            <ref type="lit">Prot. BR</ref>, 13. September 1869</ref>.<!-- <ref type="sum">&rarr; Überblickskommentar Alpenbahn-Diplomatie</ref>-->
+                    </note>
+                </seg> </p>
       <p rend="indent" xml:id="K_2363_p3">
-                    <lb xml:id="p1-l14"/>Das Verhältniss gegenüber der Gotthard<lb break="no" xml:id="p1-l15"/>vereinigung 
+                <lb xml:id="p1-l14"/>Das Verhältniss gegenüber der Gotthard
+                <lb break="no" xml:id="p1-l15"/>vereinigung 
 würde <seg type="com">ganz nach unserer<lb xml:id="p1-l16"/>
 Abrede<note xml:id="K_2363_c4">Welti bezieht sich vermutlich auf die am <date when="1869-09-06">6. September 1869</date> angekündigte mündliche Besprechung. <ref type="letter" target="K_2361"><!--→ Nr. 114--></ref>.</note>
-                    </seg> geordnet und es geht <seg type="com">das daherige <pb n="2"/>
-                        <lb xml:id="p2-l1"/>
+                </seg> geordnet und es geht <seg type="com">das daherige <pb n="2"/>
+                    <lb xml:id="p2-l1"/>
   Schreiben<note xml:id="K_2363_c5">Der Ausschuss der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung behandelte das vom <date when="1869-09-08">8. September</date> datierte Schreiben des Bundesrates am <date when="1869-09-12">12. September</date>. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 12. September 1869<!--, Traktandum 4-->. </note>
-                    </seg> schon <date when="1869-09-09">heute</date> ab.</p>
+                </seg> schon <date when="1869-09-09">heute</date> ab.</p>
       <p rend="indent" xml:id="K_2363_p4">
-                    <lb xml:id="p2-l2"/>Mit <seg type="com">
-                        <persName type="person" key="Jacini Stefano">Jacini</persName>
-                        <note xml:id="K_2363_c6">
-                            <persName type="person" key="Jacini Stefano">Stefano Jacini</persName> (1826–1891), ehemaliger Minister für öffentliche Arbeiten des Königreichs <placeName type="place" key="Italien (Königreich)">Italien</placeName>.</note>
-                    </seg> habe ich mich <date when="1869-09-08">gestern</date> <lb xml:id="p2-l3"/>
+                <lb xml:id="p2-l2"/>Mit <seg type="com">
+                    <persName type="person" key="Jacini Stefano">Jacini</persName>
+                    <note xml:id="K_2363_c6">
+                        <persName type="person" key="Jacini Stefano">Stefano Jacini</persName> (1826–1891), ehemaliger Minister für öffentliche Arbeiten des Königreichs <placeName type="place" key="Italien (Königreich)">Italien</placeName>.</note>
+                </seg> habe ich mich <date when="1869-09-08">gestern</date> <lb xml:id="p2-l3"/>
 Abend sehr einlässlich unterhalten. Er<lb xml:id="p2-l4"/>
 sagt mir <placeName type="place" key="Italien (Königreich)">Italien</placeName> im ganzen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> grossen<lb xml:id="p2-l5"/>
 sei in der <hi rend="underline">Wahl</hi> des <placeName type="place" key="Alpen">Alpen</placeName>passes ziemlich<lb xml:id="p2-l6"/>
-indifferent. In <placeName type="place" key="Oberitalien">Oberitalien</placeName> sei nur <placeName type="place" key="Genua (I)">Ge<lb break="no" xml:id="p2-l7"/>nua</placeName> 
+indifferent. In <placeName type="place" key="Oberitalien">Oberitalien</placeName> sei nur <placeName type="place" key="Genua (I)">Ge
+                    <lb break="no" xml:id="p2-l7"/>nua</placeName> 
 entschieden für den <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>. In<lb xml:id="p2-l8"/>
-                    <placeName type="place" key="Venedig (I)">Venedig</placeName> <choice>
+                <placeName type="place" key="Venedig (I)">Venedig</placeName> <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> <placeName type="place" key="Mailand (I)">Mailand</placeName> habe <date when="1869-09-09">heute</date> der <placeName type="place" key="Splügen (Pass)">Splü<lb break="no" xml:id="p2-l9"/>gen</placeName> 
-die Oberhand. Man habe von un<lb break="no" xml:id="p2-l10"/>serer 
+                    </choice> <placeName type="place" key="Mailand (I)">Mailand</placeName> habe <date when="1869-09-09">heute</date> der <placeName type="place" key="Splügen (Pass)">Splü
+                    <lb break="no" xml:id="p2-l9"/>gen</placeName> 
+die Oberhand. Man habe von un
+                <lb break="no" xml:id="p2-l10"/>serer 
 Seite es unterlassen <placeName type="place" key="Mailand (I)">Mailand</placeName> zu<lb xml:id="p2-l11"/>
 bearbeiten. <seg type="ref">Herr <persName type="person" key="Feer-Herzog Carl">Feer-Herzog</persName>
-                        <ref type="kbp">→ Carl Feer-Herzog</ref>
-                    </seg> sei von ihm<lb xml:id="p2-l12"/>
+                    <ref type="kbp">→ Carl Feer-Herzog</ref>
+                </seg> sei von ihm<lb xml:id="p2-l12"/>
 darauf aufmerksam gemacht worden, dass<lb xml:id="p2-l13"/>
-                    <placeName type="place" key="Mailand (I)">Mailand</placeName> vor allem aus und vor <placeName type="place" key="Genua (I)">Genua</placeName> <lb xml:id="p2-l14"/>
+                <placeName type="place" key="Mailand (I)">Mailand</placeName> vor allem aus und vor <placeName type="place" key="Genua (I)">Genua</placeName> <lb xml:id="p2-l14"/>
 in unser Interesse gezogen werden sollte;<lb xml:id="p2-l15"/>
 er bedaure sehr dass es trotzdem <pb n="3"/>
-                    <lb xml:id="p3-l1"/>
+                <lb xml:id="p3-l1"/>
 nicht geschehen sei. Jetzt mache sich<lb xml:id="p3-l2"/>
 alles viel schwerer; gleichwol dürfe<lb xml:id="p3-l3"/>
 man nicht anstehen alle Mittel der<lb xml:id="p3-l4"/>
 Überredung, der Presse und amtlicher Schritte<lb xml:id="p3-l5"/>
-in Anwendung zu bringen. Ich bemerk<lb break="no" xml:id="p3-l6"/>te 
+in Anwendung zu bringen. Ich bemerk
+                <lb break="no" xml:id="p3-l6"/>te 
 ihm dass <seg type="ref">Herr <persName type="person" key="Koller Gottlieb">Kohler</persName>
-                        <ref type="kbp">→ Gottlieb Koller</ref>
-                    </seg> zur Zeit<lb xml:id="p3-l7"/> <seg type="com">sich in <placeName type="place" key="Mailand (I)">Mailand</placeName> befinde <choice>
+                    <ref type="kbp">→ Gottlieb Koller</ref>
+                </seg> zur Zeit<lb xml:id="p3-l7"/> <seg type="com">sich in <placeName type="place" key="Mailand (I)">Mailand</placeName> befinde <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> versprach<lb xml:id="p3-l8"/>
 im Weitern Sie zu ersuchen, dass nichts<lb xml:id="p3-l9"/>
   versäumt werde.<note xml:id="K_2363_c7">Am selben Tag, dem <date when="1869-09-09">9. September</date>, schreibt Escher an <persName type="person" key="Feer-Herzog Carl">Feer-Herzog</persName>,<!--und kommt in ein paar Zeilen auf Mailand zu sprechen. Seit dem Vortag befinden sich <ref type="kbp"/>&rarr; Gottlieb Koller und Heinrich Fierz-Etzweiler in Mailand. Escher erwähnt Weltis Gespräch mit Melegari und Jacini vom Vorabend und dass er Welti ersucht habe, mit diesen Herren zu beraten, was in Mailand zu tun sei. Escher schliesst mit den Worten, --> dass er <bibl>schon lange das [...] instinctive Gefühl hatte, daß wir in <placeName type="place" key="Mailand (I)">Mailand</placeName> untergraben werden</bibl>. Am <date when="1869-09-12">12. September</date> beschloss der Ausschuss der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung, <bibl>in nächster Zeit eine Abordnung nach <placeName type="place" key="Mailand (I)">Mailand</placeName> zu senden, um dort die Interessen der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>-Vereinigung in dem gegenwärtigen entscheidenden Augenblicke bestthunlich zu wahren</bibl>.<!-- Jacini seinerseits war am 7. September vom Mailänder Stadtrat in eine Kommission berufen worden, welche den für Mailand geeignetsten Pass bezeichnen sollte. Sein Ablehnungsschreiben, in dem er sich klar für den Gotthard aussprach, wurde in der NZZ veröffentlicht.-->
-                            <ref type="letter" target="K_2362"><!--Brief Escher an Carl Feer-Herzog, 9. September 1869 (ZBZ FA Escher vom Glas)--></ref>; <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 12. September 1869<!--, Traktandum 5. <abbr>Vgl.</abbr> <ref type="lit">NZZ</ref>, 6. Oktober 1869-->. </note>
-                    </seg> Aus <placeName type="place" key="Venedig (I)">Venedig</placeName> er<lb break="no" xml:id="p3-l10"/>hielt 
+                        <ref type="letter" target="K_2362"><!--Brief Escher an Carl Feer-Herzog, 9. September 1869 (ZBZ FA Escher vom Glas)--></ref>; <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 12. September 1869<!--, Traktandum 5. <abbr>Vgl.</abbr> <ref type="lit">NZZ</ref>, 6. Oktober 1869-->. </note>
+                </seg> Aus <placeName type="place" key="Venedig (I)">Venedig</placeName> er
+                <lb break="no" xml:id="p3-l10"/>hielt 
 ich <date when="1869-09-08">gestern</date> eine Depesche <seg type="com">unseres<lb xml:id="p3-l11"/>
   <persName type="person" key="Cérésole Victor">Consuls</persName>
-                        <note xml:id="K_2363_c8">
-                            <persName type="person" key="Cérésole Victor">Victor Cérésole</persName> (1831–1892), Konsul der Schweiz in <placeName type="place" key="Venedig (I)">Venedig</placeName>.</note>
-                    </seg> welche meldet: der dortige<lb xml:id="p3-l12"/>
+                    <note xml:id="K_2363_c8">
+                        <persName type="person" key="Cérésole Victor">Victor Cérésole</persName> (1831–1892), Konsul der Schweiz in <placeName type="place" key="Venedig (I)">Venedig</placeName>.</note>
+                </seg> welche meldet: der dortige<lb xml:id="p3-l12"/>
 Provincialrath habe beschlossen bei dem<lb xml:id="p3-l13"/>
 Bauministerium dahin zu wirken<lb xml:id="p3-l14"/> <seg type="com">dass die <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage nunmehr auch<lb xml:id="p3-l15"/>
 mit Rücksicht auf <placeName type="place" key="Venedig (I)">Venedig</placeName> studirt <pb n="4"/>
-                        <lb xml:id="p4-l1"/>
+                    <lb xml:id="p4-l1"/>
 das in der letzten Untersuchung noch<lb xml:id="p4-l2"/>
   ausser Betracht geblieben sei<note xml:id="K_2363_c9">Da das <placeName type="place" key="Venetien">Veneto</placeName> erst im Oktober 1866 als Folge des <placeName type="place" key="Deutschland">Deutsch</placeName>-<placeName type="place" key="Österreich (Kaisertum)">Österreichischen</placeName> Krieges ins Königreich <placeName type="place" key="Italien (Königreich)">Italien</placeName> aufgenommen wurde, hatte es bei der Untersuchung der von <persName type="person" key="Jacini Stefano">Jacini</persName> geleiteten Kommission der
 Jahre 1865/66 keinen Einfluss. Auch die Handelskammer von <placeName type="place" key="Bergamo (I)">Bergamo</placeName> wandte sich mit diesem Anliegen an die <placeName type="place" key="Italien (Königreich)">italienische</placeName> Regierung. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">NZZ</ref>, 8. September 1869; <ref type="sum" target="Gotthardvereinigung_p9"><!--→ Band 1, S. 196--></ref> <ref type="sum" target="Gotthardvereinigung_p13"><!--→ Band 1, S. 198--></ref>.</note>
-                    </seg> <choice>
+                </seg> <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> ferner<lb xml:id="p4-l3"/>
-das Ministerium des Aeussern anzu<lb break="no" xml:id="p4-l4"/>gehen, 
+das Ministerium des Aeussern anzu
+                <lb break="no" xml:id="p4-l4"/>gehen, 
 dass bei den Conferenzen in <placeName type="place" key="Bern (Stadt)">Bern</placeName> <lb xml:id="p4-l5"/>
 nichts präjudicirt werde. Die übrigen<lb xml:id="p4-l6"/>
 Provincialräthe sollen ersucht werden<lb xml:id="p4-l7"/>
 ähnliche Beschlüsse zu fassen.</p>
       <p rend="indent" xml:id="K_2363_p5">
-                    <lb xml:id="p4-l8"/>Sie sehen dass der Kampf auf der<lb xml:id="p4-l9"/>
+                <lb xml:id="p4-l8"/>Sie sehen dass der Kampf auf der<lb xml:id="p4-l9"/>
 ganzen Linie beginnt; ich hielte es<lb xml:id="p4-l10"/>
 für dringend nöthig dass jemand nach<lb xml:id="p4-l11"/>
-                    <placeName type="place" key="Florenz (I)">Florenz</placeName> geschickt würde um nament<lb break="no" xml:id="p4-l12"/>lich 
+                <placeName type="place" key="Florenz (I)">Florenz</placeName> geschickt würde um nament
+                <lb break="no" xml:id="p4-l12"/>lich 
 bei dem Ministerium allfälligen<lb xml:id="p4-l13"/>
 Störungen entgegen zu wirken.</p>
       <p rend="indent" xml:id="K_2363_p6">
-                    <lb xml:id="p4-l14"/>
+                <lb xml:id="p4-l14"/>
         <persName type="person" key="Jacini Stefano">Jacini</persName> fürchtet für das endliche Resultat<lb xml:id="p4-l15"/>
 nichts, insofern man unserseits allem<lb xml:id="p4-l16"/>
 aufbiete.</p>

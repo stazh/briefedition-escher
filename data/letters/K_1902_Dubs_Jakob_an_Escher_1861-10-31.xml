@@ -35,24 +35,44 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Dubs Jakob" type="sender">Jakob Dubs</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Dubs Jakob" type="sender">Jakob Dubs</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1861-10-31">Donnerstag, Oktober 31, 1861</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2005-03-2005, 15-03-14" who="BF, SK, WB">Transkription</change>
-            <change when="2013-06-25" who="NB">Migration nach XML</change>
-            <change when="2013-06-28" who="AO">Transkriptionsverifizierung Seiterle umgesetzt</change>
-            <change when="2013-07-02" who="MA">Auszeichnung 1 umgesetzt</change>
-            <change when="2013-07-11" who="SB">Verifizierung 1 umgesetzt</change>
-            <change when="2013-07-23" who="MB">Migrationsverifizierung umgesetzt</change>
-            <change when="2013-07-24" who="KR">Inhaltliche Qualitätsprüfung umgesetzt</change>
-            <change when="2013-07-26" who="NB">Auszeichnung 2 umgesetzt</change>
-            <change when="2013-08-12" who="KB">Transkriptionsverifizierung Seiterle überprüft</change>
-            <change when="2013-11-13" who="KR">Verifizierung 2 umgesetzt</change>
+            <change when="2005-03-2005, 15-03-14" who="BF, SK, WB">Transkription
+                
+            </change>
+            <change when="2013-06-25" who="NB">Migration nach XML
+                
+            </change>
+            <change when="2013-06-28" who="AO">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
+            <change when="2013-07-02" who="MA">Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2013-07-11" who="SB">Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2013-07-23" who="MB">Migrationsverifizierung umgesetzt
+                
+            </change>
+            <change when="2013-07-24" who="KR">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
+            <change when="2013-07-26" who="NB">Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2013-08-12" who="KB">Transkriptionsverifizierung Seiterle überprüft
+                
+            </change>
+            <change when="2013-11-13" who="KR">Verifizierung 2 umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -74,12 +94,13 @@
     <body>
             <div>
       <p rend="indent" xml:id="K_1902_p3">
-                    <lb xml:id="p1-l3"/>Wahrscheinlich interessirt es 
+                <lb xml:id="p1-l3"/>Wahrscheinlich interessirt es 
             <lb xml:id="p1-l4"/>Dich, über die neuste Verwicklung mit <placeName type="place" key="Frankreich">Frankreich</placeName> <lb xml:id="p1-l5"/>im <placeName type="place" key="Dappental">Dappenthal</placeName> etwas Näheres zu hören. Es 
             <lb xml:id="p1-l6"/>ist Dir wahrscheinlich bekannt, daß der <choice>
                         <abbr>Kt.</abbr>
                         <expan>Kanton</expan>
-                    </choice> <placeName type="place" key="Waadt">Waadt</placeName> <lb xml:id="p1-l7"/>bisdahin die Hohheitsrechte<note type="transcript">sic!</note> in diesem <placeName type="place" key="Dappental">Thal</placeName> in An<lb break="no" xml:id="p1-l8"/>spruch genommen &amp;. ausgeübt hat, wobei immerhin
+                    </choice> <placeName type="place" key="Waadt">Waadt</placeName> <lb xml:id="p1-l7"/>bisdahin die Hohheitsrechte<note type="transcript">sic!</note> in diesem <placeName type="place" key="Dappental">Thal</placeName> in An
+                <lb break="no" xml:id="p1-l8"/>spruch genommen &amp;. ausgeübt hat, wobei immerhin
             <lb xml:id="p1-l9"/>bisweilen auch <placeName type="place" key="Frankreich">französischer</placeName> Seits dann &amp;. wann
             <lb xml:id="p1-l10"/>hineingegriffen wurde &amp;. überhaupt von dieser Seite
             <lb xml:id="p1-l11"/>die Hohheit des <choice>
@@ -87,34 +108,43 @@
                         <expan>Kantons</expan>
                     </choice> <placeName type="place" key="Waadt">Waadt</placeName> nicht anerkannt war.</p>
       <p rend="indent" xml:id="K_1902_p4">
-                    <lb xml:id="p1-l12"/>In neuerer Zeit vernahm nun
+                <lb xml:id="p1-l12"/>In neuerer Zeit vernahm nun
             <lb xml:id="p1-l13"/>der Bundesrath zuerst, es haben die Gensdarmen<note type="transcript">sic!</note> <lb xml:id="p1-l14"/>des benachbarten <placeName type="place" key="Frankreich">franz.</placeName> Postens erklärt, sie
-                <lb xml:id="p1-l15"/>haben Auftrag bekommen, die <placeName type="place" key="Waadt">Waadtländer</placeName> <lb xml:id="p1-l16"/>an fernerer Ausübung der Justizhohheit gewalt<lb break="no" xml:id="p1-l17"/>sam zu hindern &amp;. zu diesem Behuf die Mann<lb break="no" xml:id="p1-l18"/>schaft des <hi>Fort les Rousses</hi> in Anspruch zu
+                <lb xml:id="p1-l15"/>haben Auftrag bekommen, die <placeName type="place" key="Waadt">Waadtländer</placeName> <lb xml:id="p1-l16"/>an fernerer Ausübung der Justizhohheit gewalt
+                <lb break="no" xml:id="p1-l17"/>sam zu hindern &amp;. zu diesem Behuf die Mann
+                <lb break="no" xml:id="p1-l18"/>schaft des <hi>Fort les Rousses</hi> in Anspruch zu
                 <lb xml:id="p1-l19"/>nehmen. Der <choice>
                         <abbr>BR.</abbr>
                         <expan>BundesRath</expan>
-                    </choice> wollte auf das Gensdar<lb break="no" xml:id="p1-l20"/>meriegeschwätz keine Schritte thun, sondern
+                    </choice> wollte auf das Gensdar
+                <lb break="no" xml:id="p1-l20"/>meriegeschwätz keine Schritte thun, sondern
                 <lb xml:id="p1-l21"/>avisirte darüber nur H<supplied>errn</supplied> <persName type="person" key="Kern Johann Konrad">Kern</persName>.<pb n="2"/>
-                </p>
+            </p>
       <p rend="indent" xml:id="K_1902_p5">
-                    <lb xml:id="p2-l1"/>In den letzten Monaten hatten die <placeName type="place" key="Waadt">Waadt<lb break="no" xml:id="p2-l2"/>länder</placeName> Gensdarmen im <placeName type="place" key="Dappental">Dappenthal</placeName> einige Jagd<lb break="no" xml:id="p2-l3"/>frevler verfolgt &amp;. es entstanden dabei Thät<lb break="no" xml:id="p2-l4"/>lichkeiten mit den Jägern. Auch war ein Mann,
+                <lb xml:id="p2-l1"/>In den letzten Monaten hatten die <placeName type="place" key="Waadt">Waadt
+                    <lb break="no" xml:id="p2-l2"/>länder</placeName> Gensdarmen im <placeName type="place" key="Dappental">Dappenthal</placeName> einige Jagd
+                <lb break="no" xml:id="p2-l3"/>frevler verfolgt &amp;. es entstanden dabei Thät
+                <lb break="no" xml:id="p2-l4"/>lichkeiten mit den Jägern. Auch war ein Mann,
                 <lb xml:id="p2-l5"/>der im <placeName type="place" key="Dappental">Dappenthal</placeName> eine Frau mißhandelt 
                 <lb xml:id="p2-l6"/>hatte, in <placeName type="place" key="Nyon">
-                        <hi>Nyon</hi>
-                    </placeName> bestraft &amp;. der Polizei zur
+                    <hi>Nyon</hi>
+                </placeName> bestraft &amp;. der Polizei zur
                 <lb xml:id="p2-l7"/>Fahndung aufgegeben worden.</p>
       <p rend="indent" xml:id="K_1902_p6">
-                    <lb xml:id="p2-l8"/>Vor <choice>
+                <lb xml:id="p2-l8"/>Vor <choice>
                         <abbr>c<hi rend="sup">a</hi> </abbr>
                         <expan>circa</expan>
                     </choice> 8–10. Tagen kam nun <hi>
-                        <choice>
+                    <choice>
                             <abbr>M:</abbr>
                             <expan>Monsieur (Herr)</expan>
-                        </choice> <persName type="person" key="Turgot Louis-Félix-Etienne de">Turgot</persName> </hi> <lb xml:id="p2-l9"/>zum <persName type="person" key="Knüsel Josef Martin">Bundespräsidenten</persName> &amp;. machte ihm die münd<lb break="no" xml:id="p2-l10"/>liche Mittheilung, daß das Ministerium wirk<lb break="no" xml:id="p2-l11"/>lich denjenigen Befehl ertheilt habe, welcher
+                        </choice> <persName type="person" key="Turgot Louis-Félix-Etienne de">Turgot</persName> </hi> <lb xml:id="p2-l9"/>zum <persName type="person" key="Knüsel Josef Martin">Bundespräsidenten</persName> &amp;. machte ihm die münd
+                <lb break="no" xml:id="p2-l10"/>liche Mittheilung, daß das Ministerium wirk
+                <lb break="no" xml:id="p2-l11"/>lich denjenigen Befehl ertheilt habe, welcher
                 <lb xml:id="p2-l12"/>von den Gensdarmen rapportirt worden war.
-                <lb xml:id="p2-l13"/>Der <persName type="person" key="Knüsel Josef Martin">BPräs.</persName> verlangte eine schriftliche Mitthei<lb break="no" xml:id="p2-l14"/>lung, zu der sich <hi>
-                        <persName type="person" key="Turgot Louis-Félix-Etienne de">Turgot</persName> </hi> nicht autorisirt
+                <lb xml:id="p2-l13"/>Der <persName type="person" key="Knüsel Josef Martin">BPräs.</persName> verlangte eine schriftliche Mitthei
+                <lb break="no" xml:id="p2-l14"/>lung, zu der sich <hi>
+                    <persName type="person" key="Turgot Louis-Félix-Etienne de">Turgot</persName> </hi> nicht autorisirt
                 <lb xml:id="p2-l15"/>erklärte. Der <choice>
                         <abbr>BR.</abbr>
                         <expan>BundesRath</expan>
@@ -123,50 +153,54 @@
                 <lb xml:id="p2-l17"/>nehmen, wies aber gestern <placeName type="place" key="Waadt">Waadt</placeName> an,
                 <lb xml:id="p2-l18"/>den <hi>Status quo</hi> festzuhalten.</p>
       <p rend="indent" xml:id="K_1902_p7">
-                    <lb xml:id="p2-l19"/>Heute kam nun durch ein Schreiben
+                <lb xml:id="p2-l19"/>Heute kam nun durch ein Schreiben
                 <lb xml:id="p2-l20"/>des Staatsraths von <placeName type="place" key="Waadt">Waadt</placeName> die Mittheilung,
                 <lb xml:id="p2-l21"/>daß wirklich ein Detaschement<note type="transcript">sic!</note> Truppen des 
         <lb xml:id="p2-l22"/>
-                    <hi>Forts <placeName type="place" key="Les Rousses (F)">les Rousses</placeName> </hi>
-                    <note type="transcript">sic!</note> mit Gensdarmerie den
+                <hi>Forts <placeName type="place" key="Les Rousses (F)">les Rousses</placeName> </hi>
+                <note type="transcript">sic!</note> mit Gensdarmerie den
             <pb n="3"/>
-                    <lb xml:id="p3-l1"/>Weiler <hi>
-                        <placeName type="place" key="Les Cressonnières (Les Rousses, F)">Cressonières</placeName> </hi> besetzt habe, um die <placeName type="place" key="Waadt">Waadt<lb break="no" xml:id="p3-l2"/>länd.</placeName> Gensdarmerie zu verhindern, dortseits eine
+                <lb xml:id="p3-l1"/>Weiler <hi>
+                    <placeName type="place" key="Les Cressonnières (Les Rousses, F)">Cressonières</placeName> </hi> besetzt habe, um die <placeName type="place" key="Waadt">Waadt
+                    <lb break="no" xml:id="p3-l2"/>länd.</placeName> Gensdarmerie zu verhindern, dortseits eine
                  <lb xml:id="p3-l3"/>Arrestation vorzunehmen. Dabei erlaubten sich
                 <lb xml:id="p3-l4"/>die Soldaten einige Exzesse, sie nahmen einige
                 <lb xml:id="p3-l5"/>Cigarren &amp;. <choice>
                         <abbr>dgl</abbr>
                         <expan>dergleichen</expan>
                     </choice>. Dieß geschah am <date when="1861-10-28">28. <hi>
-                            <choice>
+                        <choice>
                                 <abbr>Oct.</abbr>
                                 <expan>October</expan>
                             </choice> </hi>
-                    </date> Das 
+                </date> Das 
                 <lb xml:id="p3-l6"/>Nähere werden die Zeitungen bringen.</p>
       <p rend="indent" xml:id="K_1902_p8">
-                    <lb xml:id="p3-l7"/>Der <persName type="person" key="Knüsel Josef Martin">BPräs.</persName> rief sofort den Rath zusammen
+                <lb xml:id="p3-l7"/>Der <persName type="person" key="Knüsel Josef Martin">BPräs.</persName> rief sofort den Rath zusammen
                 <lb xml:id="p3-l8"/>&amp;. man beschloß 1. Absendung 2er Commissäre zur
-                <lb xml:id="p3-l9"/>nähern Constatirung des Factums 2. Reklama<lb break="no" xml:id="p3-l10"/>tion bei der <placeName type="place" key="Frankreich">Franz.</placeName> Regierung mit dem Begehren
+                <lb xml:id="p3-l9"/>nähern Constatirung des Factums 2. Reklama
+                <lb break="no" xml:id="p3-l10"/>tion bei der <placeName type="place" key="Frankreich">Franz.</placeName> Regierung mit dem Begehren
                 <lb xml:id="p3-l11"/>um Rücknahme &amp;. Satisfaction. Als spätere
                 <lb xml:id="p3-l12"/>Schritte wurden vorläufig angekündigt vom
-                <lb xml:id="p3-l13"/>H<supplied>errn</supplied> <persName type="person" key="Knüsel Josef Martin">Präsidenten</persName>: eine Protestation bei den <placeName type="place" key="Wien (A)">Wiener</placeName> <lb break="no" xml:id="p3-l14"/>kongreßmächten, von H<supplied>errn</supplied> <persName type="person" key="Stämpfli Jakob">Stämpfli</persName>: gewaltsames
+                <lb xml:id="p3-l13"/>H<supplied>errn</supplied> <persName type="person" key="Knüsel Josef Martin">Präsidenten</persName>: eine Protestation bei den <placeName type="place" key="Wien (A)">Wiener</placeName> 
+                <lb break="no" xml:id="p3-l14"/>kongreßmächten, von H<supplied>errn</supplied> <persName type="person" key="Stämpfli Jakob">Stämpfli</persName>: gewaltsames
                 <lb xml:id="p3-l15"/>Zurücktreiben, von H<supplied>errn</supplied> <persName type="person" key="Fornerod Constant">Fornerod</persName>: eine allgemeine
                 <lb xml:id="p3-l16"/>Beschwerde an die Kongreßmächte über die neuen
                 <lb xml:id="p3-l17"/>Vexationen <placeName type="place" key="Frankreich">Frankreichs</placeName>. Wahrscheinlich wird
                 <lb xml:id="p3-l18"/>es beim Erstern sein Bewenden haben.</p>
       <p rend="indent" xml:id="K_1902_p9">
-                    <lb xml:id="p3-l19"/>Die Position <placeName type="place" key="Frankreich">Frankreichs</placeName> ist die, daß es 
+                <lb xml:id="p3-l19"/>Die Position <placeName type="place" key="Frankreich">Frankreichs</placeName> ist die, daß es 
                 <lb xml:id="p3-l20"/>verlangt, es solle kein Theil Hohheitsakte
                 <lb xml:id="p3-l21"/>in dem bestrittenen Thal ausüben, wodurch
                 <lb xml:id="p3-l22"/>wir freilich aus dem Besitz entsetzt würden:
                 <lb xml:id="p3-l23"/>abgesehen noch von andern Schwierigkeiten,
             <pb n="4"/>
-                    <lb xml:id="p4-l1"/>welche die Schöpfung einer solchen Freistatt mit sich
+                <lb xml:id="p4-l1"/>welche die Schöpfung einer solchen Freistatt mit sich
                 <lb xml:id="p4-l2"/>brächte. Wir sagen: Festhaltung des <hi>Status quo</hi> <lb xml:id="p4-l3"/>allfällig mit einem provisorischen <hi>modus vivendi</hi>,
-                <lb xml:id="p4-l4"/>dessen Regulierung aber seine großen Schwierig<lb break="no" xml:id="p4-l5"/>keiten haben dürfte. Ich sprach vor einiger
+                <lb xml:id="p4-l4"/>dessen Regulierung aber seine großen Schwierig
+                <lb break="no" xml:id="p4-l5"/>keiten haben dürfte. Ich sprach vor einiger
                 <lb xml:id="p4-l6"/>Zeit mit <hi>
-                        <persName type="person" key="Turgot Louis-Félix-Etienne de">Turgot</persName> </hi> über die Frage. Er sagte mir, 
+                    <persName type="person" key="Turgot Louis-Félix-Etienne de">Turgot</persName> </hi> über die Frage. Er sagte mir, 
                 <lb xml:id="p4-l7"/>er wünsche diese Frage noch vor Neujahr zu
                 <lb xml:id="p4-l8"/>regeln, weil nach Neujahr sich darüber nicht
                 <lb xml:id="p4-l9"/>mehr verkehren lasse mit dem <persName type="person" key="Stämpfli Jakob">dannzumaligen
@@ -174,21 +208,23 @@
                 <lb xml:id="p4-l11"/>unmöglich, diesen alten Streit so rasch abthun
                 <lb xml:id="p4-l12"/>zu können &amp;. mittlerweile müssen wir am
                 <lb xml:id="p4-l13"/>
-                    <hi>Status quo</hi> festhalten.</p>
+                <hi>Status quo</hi> festhalten.</p>
       <p rend="indent" xml:id="K_1902_p10">
-                    <lb xml:id="p4-l14"/>Die Hauptfrage ist aber natürlich die: was
+                <lb xml:id="p4-l14"/>Die Hauptfrage ist aber natürlich die: was
                 <lb xml:id="p4-l15"/>will <placeName type="place" key="Frankreich">Frankreich</placeName> mit diesem neuen Handel;
-                <lb xml:id="p4-l16"/>warum jetzt auf einmal dieses gewalt<lb break="no" xml:id="p4-l17"/>thätige Auftreten?</p>
+                <lb xml:id="p4-l16"/>warum jetzt auf einmal dieses gewalt
+                <lb break="no" xml:id="p4-l17"/>thätige Auftreten?</p>
       <p rend="indent" xml:id="K_1902_p11">
-                    <lb xml:id="p4-l18"/>Darauf kann es verschiedene Antwor<lb break="no" xml:id="p4-l19"/>ten geben. Die <persName type="person" key="Stämpfli Jakob">St.</persName> Partei sagt: es ist die
+                <lb xml:id="p4-l18"/>Darauf kann es verschiedene Antwor
+                <lb break="no" xml:id="p4-l19"/>ten geben. Die <persName type="person" key="Stämpfli Jakob">St.</persName> Partei sagt: es ist die
                 <lb xml:id="p4-l20"/>Einleitung zu einem großen bewaffneten 
                 <lb xml:id="p4-l21"/>Konflikt; man häuft vorläufig Beschwerden.
                 <lb xml:id="p4-l22"/>Unmöglich ist das nicht. Eine gereizte Stimmung
             <pb n="5"/>
-                    <lb xml:id="p5-l1"/>scheint in den gouvernementalen Kreisen gegen die
+                <lb xml:id="p5-l1"/>scheint in den gouvernementalen Kreisen gegen die
                 <lb xml:id="p5-l2"/>Schweiz vorzuwalten.</p>
       <p rend="indent" xml:id="K_1902_p12">
-                    <lb xml:id="p5-l3"/>Auf der andern Seite will mir das doch
+                <lb xml:id="p5-l3"/>Auf der andern Seite will mir das doch
                 <lb xml:id="p5-l4"/>nicht recht einleuchten. Es mag schon sein, daß
                 <lb xml:id="p5-l5"/>eine Partei in <placeName type="place" key="Frankreich">Frankreich</placeName> <choice>
                         <abbr>annexionist.</abbr>
@@ -202,22 +238,22 @@
                 <lb xml:id="p5-l11"/>hat, so wird es schwerlich gleichzeitig mit
                 <lb xml:id="p5-l12"/>der Schweiz anbinden wollen.</p>
       <p rend="indent" xml:id="K_1902_p13">
-                    <lb xml:id="p5-l13"/>Es wollte mir sogar sehr scheinen,
+                <lb xml:id="p5-l13"/>Es wollte mir sogar sehr scheinen,
                 <lb xml:id="p5-l14"/>
-                    <placeName type="place" key="Frankreich">Frankreich</placeName> wolle mit diesem neuen Handel
+                <placeName type="place" key="Frankreich">Frankreich</placeName> wolle mit diesem neuen Handel
                 <lb xml:id="p5-l15"/>mehr die Aufmerksamkeit von den andern
                 <lb xml:id="p5-l16"/>Händeln ablenken, in welchen es den Rückzug
                 <lb xml:id="p5-l17"/>angetreten hat. Die Versetzung <persName type="person" key="Grandguillot Alcide-Pierre">Grandguillots</persName><!--LB, Alcide-Pierre war französischer Publizist und Chefredaktor des "Constitutionnel"-->, <lb xml:id="p5-l18"/>die Erklärung im <date when="1861-10-31">heutigen</date> Moniteur über die
                 <lb xml:id="p5-l19"/>Stellung der offiziösen Blätter, das uns 
                 <lb xml:id="p5-l20"/>von ziemlich zuverläßiger Seite mitgetheilte
         <lb xml:id="p5-l21"/>Gerücht, daß <persName type="person" key="Bonaparte Charles Louis Napoléon">Napol.</persName> in der <hi>
-                        <placeName type="place" key="Ville-la-Grand (F)">Villa la Grand</placeName> Affaire</hi> <lb xml:id="p5-l22"/>sehr nachgiebig gestimmt sei – sind eher Anzeichen
+                    <placeName type="place" key="Ville-la-Grand (F)">Villa la Grand</placeName> Affaire</hi> <lb xml:id="p5-l22"/>sehr nachgiebig gestimmt sei – sind eher Anzeichen
             <pb n="6"/>
-                    <lb xml:id="p6-l1"/>einer friedlichern Gesinnung. Das <placeName type="place" key="Dappental">Dappenthal</placeName> <lb xml:id="p6-l2"/>ist hinwieder ein Punkt, wo man ohne
+                <lb xml:id="p6-l1"/>einer friedlichern Gesinnung. Das <placeName type="place" key="Dappental">Dappenthal</placeName> <lb xml:id="p6-l2"/>ist hinwieder ein Punkt, wo man ohne
                 <lb xml:id="p6-l3"/>besondere Gefahr ein bischen mit einander 
                 <lb xml:id="p6-l4"/>streiten kann.</p>
       <p rend="indent" xml:id="K_1902_p14">
-                    <lb xml:id="p6-l5"/>Aber Alles das ist bloße Conjektur.
+                <lb xml:id="p6-l5"/>Aber Alles das ist bloße Conjektur.
                 <lb xml:id="p6-l6"/>Wir werden den weitern Gang der Dinge
                 <lb xml:id="p6-l7"/>abwarten müssen. Ich denke indeß, Du
                 <lb xml:id="p6-l8"/>werdest ebenfalls damit einverstanden

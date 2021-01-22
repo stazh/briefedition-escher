@@ -28,24 +28,44 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Frey Emil" type="sender">Emil Frey</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Frey Emil" type="sender">Emil Frey</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Basel</placeName>
                     <date when="1876-10-09">Montag, Oktober 9, 1876</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2013-08-11" who="MW">Transkription</change>
-            <change when="2013-08-26" who="STW">Migration nach XML</change>
-            <change when="2013-09-02" who="OD">Migrationsverifizierung umgesetzt</change>
-            <change when="2014-01-10" who="IB">Auszeichnung 1 umgesetzt</change>
-            <change when="2014-01-15" who="NS">Verifizierung 1 umgesetzt</change>
-            <change when="2014-01-16" who="CR">Auszeichnung 2 umgesetzt</change>
-            <change when="2014-05-20" who="VP">Verifizierung 2 umgesetzt</change>
-            <change when="2014-01-22" who="LW">Transkriptionsverifizierung</change>
-            <change when="2014-01-28" who="SWK">Übertragung Transkriptionsverifizierung geprüft</change>
-            <change when="2014-04-09" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="2013-08-11" who="MW">Transkription
+                
+            </change>
+            <change when="2013-08-26" who="STW">Migration nach XML
+                
+            </change>
+            <change when="2013-09-02" who="OD">Migrationsverifizierung umgesetzt
+                
+            </change>
+            <change when="2014-01-10" who="IB">Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2014-01-15" who="NS">Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2014-01-16" who="CR">Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2014-05-20" who="VP">Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-01-22" who="LW">Transkriptionsverifizierung
+                
+            </change>
+            <change when="2014-01-28" who="SWK">Übertragung Transkriptionsverifizierung geprüft
+                
+            </change>
+            <change when="2014-04-09" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -67,7 +87,7 @@
             <placeName type="place" key="Basel-Stadt">Basel</placeName>, den</fw>
           <date when="1876-10-09">9 <choice>
                             <abbr>
-                                <hi>Oct</hi>.</abbr>
+                            <hi>Oct</hi>.</abbr>
                             <expan>October</expan>
                         </choice> <fw>187</fw>6</date>.</p>
       </div>
@@ -79,7 +99,7 @@
     <body>
             <div>
       <p rend="indent" xml:id="K_2860_p4">
-                    <lb xml:id="p1-l8"/>Im Besitze Ihrer <choice>
+                <lb xml:id="p1-l8"/>Im Besitze Ihrer <choice>
                         <abbr>verehrl.</abbr>
                         <expan>verehrlich</expan>
                     </choice> Zeilen von <date when="1876-10-08">gestern</date> beehre 
@@ -88,20 +108,22 @@
             <lb xml:id="p1-l11"/>wird. Ich war die ganze letzte Woche abwesend; 
             <lb xml:id="p1-l12"/>jener Abdruck aus dem «<choice>
                         <abbr>
-                            <placeName type="place" key="Aargau">A.</placeName> Tagbl.</abbr>
+                    <placeName type="place" key="Aargau">A.</placeName> Tagbl.</abbr>
                         <expan>Aargauer Tagblatt</expan>
                     </choice>» geschah ohne 
             <lb xml:id="p1-l13"/>mein Wissen auf den Wunsche eines hiesigen 
             <lb xml:id="p1-l14"/>Industriellen, Namens <persName type="person" key="Schlumberger-Legrand Oscar">
-                        <hi>Schlumberger-Legrand</hi>
-                    </persName>, 
+                    <hi>Schlumberger-Legrand</hi>
+                </persName>, 
             <lb xml:id="p1-l15"/>der unserem Blatte im Uebrigen gänzlich 
             <pb n="2"/>
-                    <lb xml:id="p2-l1"/>ferne steht.</p>
+                <lb xml:id="p2-l1"/>ferne steht.</p>
       <p rend="indent" xml:id="K_2860_p5">
-                    <lb xml:id="p2-l2"/>Ihre Erwiderung, deren sachliche Richtigkeit 
+                <lb xml:id="p2-l2"/>Ihre Erwiderung, deren sachliche Richtigkeit 
                 <lb xml:id="p2-l3"/>in die Augen springt, wird indessen nicht 
-                <lb xml:id="p2-l4"/>ermangeln, den Motiven, welche den Verwalt<lb break="no" xml:id="p2-l5"/>ungsrath der Gotthardbahn bei fraglicher Beschluß<lb break="no" xml:id="p2-l6"/>fassung geleitet haben, eine angemessenere 
+                <lb xml:id="p2-l4"/>ermangeln, den Motiven, welche den Verwalt
+                <lb break="no" xml:id="p2-l5"/>ungsrath der Gotthardbahn bei fraglicher Beschluß
+                <lb break="no" xml:id="p2-l6"/>fassung geleitet haben, eine angemessenere 
                 <lb xml:id="p2-l7"/>Würdigung Seitens des Publikums angedeihen 
                 <lb xml:id="p2-l8"/>zu lassen.</p>
     </div>
@@ -110,7 +132,8 @@
       <div type="closer">
         <p rend="indent" xml:id="K_2860_p6">
                     <lb xml:id="p2-l9"/>Genehmigen Sie, hochgeachteter Herr 
-            <lb xml:id="p2-l10"/>Präsident, bei dieser Gelegenheit die Ver<pb n="3"/>
+            <lb xml:id="p2-l10"/>Präsident, bei dieser Gelegenheit die Ver
+                    <pb n="3"/>
                     <lb xml:id="p3-l1"/>sicherung meiner aufrichtigen Hochachtung!</p>
       </div>
       <div type="address">

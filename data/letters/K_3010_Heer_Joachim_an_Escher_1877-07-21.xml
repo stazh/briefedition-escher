@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Heer Joachim" type="sender">Joachim Heer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Heer Joachim" type="sender">Joachim Heer</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1877-07-21">Samstag, Juli 21, 1877</date>
                 </correspAction>
@@ -101,7 +101,9 @@
             <change when="2014-12-04" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -258,8 +260,8 @@ das Zusammentreffen dieser amtlichen Bemerkung mit einer Notiz, die in einem ver
                         <expan>Herrn</expan>
                     </choice> <seg type="ref">
                     <persName type="person" key="Pioda Giovanni Battista">
-                            <hi>Pioda</hi>
-                        </persName>
+                        <hi>Pioda</hi>
+                    </persName>
                     <ref type="kbp">→ Giovanni Battista Pioda</ref>
                 </seg> <seg type="com">von <date when="1877-07-17">17<hi rend="sup">t</hi> <choice>
                                 <abbr>l. Ms.</abbr>

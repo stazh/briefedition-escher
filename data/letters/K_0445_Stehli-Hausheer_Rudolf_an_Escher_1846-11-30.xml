@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Stehli-Hausheer Rudolf" type="sender">Rudolf Stehli-Hausheer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Stehli-Hausheer Rudolf" type="sender">Rudolf Stehli-Hausheer</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Lunnern</placeName>
                     <date when="1846-11-30">Montag, November 30, 1846</date>
                 </correspAction>
@@ -63,7 +63,9 @@
             <change when="2014-12-19" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -94,7 +96,7 @@
                         <expan>RegierungsRathe</expan>
                     </choice> zum Entscheide <choice>
                         <abbr>
-                            <hi>resp</hi>.</abbr>
+                    <hi>resp</hi>.</abbr>
                         <expan>respektive / respective</expan>
                     </choice> für Hinterbringung eines Antra
                 <lb break="no" xml:id="p1-l9"/>ges an den
@@ -126,7 +128,7 @@
       <p rend="indent" xml:id="K_0445_p6">
                 <lb xml:id="p2-l16"/>Alles Gründe, die kaum in einer einzigen andern<lb xml:id="p2-l17"/> Gemeinde
         des Kantons so zusammentreffen d<add>ürfte<supplied>n</supplied>
-                    </add>, daher auch <hi>Consequenzen</hi> <lb xml:id="p2-l18"/>
+                </add>, daher auch <hi>Consequenzen</hi> <lb xml:id="p2-l18"/>
         nicht zu fürchten sind. – Wenn Sie mein Hochgeachteter<lb xml:id="p2-l19"/> Herr die Opfer in's
         Auge faßen, welche der verlangende Theil<lb xml:id="p2-l20"/> zu bringen bereit ist, so wird
         Ihnen gewiß klar, wie schmerz
@@ -196,8 +198,8 @@
           <placeName type="place" key="Lunnern (Obfelden)">Lunnern</placeName> den 
          <date when="1846-11-30">30. <choice>
                             <abbr>
-                                <hi>9<hi rend="sup">bris</hi>
-                                </hi> </abbr>
+                            <hi>9<hi rend="sup">bris</hi>
+                            </hi> </abbr>
                             <expan>novembris (November)</expan>
                         </choice> 1846.</date>
         </p>

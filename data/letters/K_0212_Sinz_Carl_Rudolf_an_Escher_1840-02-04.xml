@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Sinz Carl Rudolf" type="sender">Carl Rudolf Sinz</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Sinz Carl Rudolf" type="sender">Carl Rudolf Sinz</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Berlin</placeName>
                     <date when="1840-02-04">Dienstag, Februar 4, 1840</date>
                 </correspAction>
@@ -78,7 +78,9 @@
           umgesetzt
                 
             </change>
-            <change when="2016-12-19" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-19" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -135,7 +137,7 @@
           lenken<lb xml:id="p1-l21"/>eine ausgezeichnete Bildung &amp; ebenso reiche
         Erfahrung verlangt, wie man es denn der einseitigen Stabilität auch ni<supplied>cht</supplied> <lb xml:id="p1-l22"/>verargen <add>darf</add>, wenn sie sich nicht alles so mir nichts dir nichts
         über d. Haufen werfen läßt &amp; d. Glauben an d. neue<lb xml:id="p1-l23"/>
-                    <del>Gluk</del> glükliche Zeit die je mehr sie verheißen wird um so weniger sich sehen läßt, nicht zu
+                <del>Gluk</del> glükliche Zeit die je mehr sie verheißen wird um so weniger sich sehen läßt, nicht zu
         adoptiren vermag.
                 <note type="transcript">Rand auf Kopie umgebogen</note> <lb xml:id="p1-l24"/>Reine Prüfung dessen was wir bedürfen, basirt auf den Grund dessen was wir
         bereits besitzen, d. Nationali
@@ -149,7 +151,7 @@
                         <expan>oder</expan>
                     </choice> später fällt mit ihrem<lb xml:id="p1-l29"/>Namen auch ihre
         Sache den bloßen Wechselfällen der Geschichte anheim. Um zu erinnern wie schön<lb xml:id="p1-l30"/>
-                    <del>zwei</del> verschiedene Formen <choice>
+                <del>zwei</del> verschiedene Formen <choice>
                         <abbr>b.</abbr>
                         <expan>bei</expan>
                     </choice> verschiedner Anlage
@@ -215,8 +217,8 @@
         ich dir genügen. Auf d. Winter kehre ich wieder hieher zurük, insofern<lb xml:id="p2-l23"/>
                 <persName type="person" key="Schönlein Johann Lukas">Schönlein</persName>, woran nun doch nicht zu
         zweifeln ist seine Klinik hält; – neben der seinigen werde ich indessen<lb xml:id="p2-l24"/>nicht mehr <persName type="person" key="Rust Johann Nepomuk">
-                        <hi>Rust</hi>
-                    </persName> &amp; <hi>Jüngken</hi>, sondern d. beiden <hi>Polikliniken</hi> von <persName type="person" key="Osann Emil">
+                    <hi>Rust</hi>
+                </persName> &amp; <hi>Jüngken</hi>, sondern d. beiden <hi>Polikliniken</hi> von <persName type="person" key="Osann Emil">
                     <hi>Osann</hi>
                 </persName> (medizinisch) &amp;d.v.<persName type="person" key="Graefe Carl Ferdinand von">
                     <hi>v. Graefe</hi>
@@ -337,7 +339,7 @@
                         <expan>Herr</expan>
                     </choice> <choice>
                         <abbr>
-                            <hi>Prof</hi>.</abbr>
+                    <hi>Prof</hi>.</abbr>
                         <expan>Professor</expan>
                     </choice> <persName type="person" key="Heer Oswald">
                     <hi>Heer</hi>

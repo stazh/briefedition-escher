@@ -36,8 +36,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Lusser Josef" type="sender">Josef Lusser</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Lusser Josef" type="sender">Josef Lusser</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Altdorf (UR)</placeName>
                     <date when="1848-11-02">Donnerstag, November 2, 1848</date>
                 </correspAction>
@@ -79,7 +79,9 @@
             <change when="2013-01-14" who="JM">Transkriptionsverifizierung T. Binder umgesetzt
                 
             </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -131,7 +133,7 @@ zuführen. Ferner wurde von den <choice>
                         <expan>Herrn</expan>
                     </choice> <choice>
                         <abbr>
-                            <hi>Dr</hi>.</abbr>
+                    <hi>Dr</hi>.</abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> <persName type="person" key="Lusser Karl Franz">
                     <hi>Lusser</hi>

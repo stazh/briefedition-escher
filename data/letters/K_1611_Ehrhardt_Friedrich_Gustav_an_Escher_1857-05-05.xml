@@ -39,8 +39,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Ehrhardt Friedrich Gustav" type="sender">Friedrich Gustav Ehrhardt</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Ehrhardt Friedrich Gustav" type="sender">Friedrich Gustav Ehrhardt</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1857-05-05">Dienstag, Mai 5, 1857</date>
                 </correspAction>
@@ -98,7 +98,9 @@
             <change when="2014-04-14" who="TM">Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -241,7 +243,7 @@ Anordnungen im Hause <choice>
 den Spuren des Derangements für zukünftige<lb xml:id="p2-l25"/>
 Arrangements. Sonst ist Alles wie früherer <seg type="com">Status<lb xml:id="p2-l26"/>
 <hi>quo</hi>
-                        <note xml:id="K_1611_c3">Status quo (<choice>
+                    <note xml:id="K_1611_c3">Status quo (<choice>
                                 <abbr>lat.</abbr>
                                 <expan>lateinisch</expan>
                             </choice>): Zustand, in dem sich etwas befindet.</note>
@@ -489,15 +491,15 @@ vorwärts. Zur Zeit sind nicht weniger als 7 Arbeiter beschäftigt.</p>
                     </seg> empfiehlt dringend seine Vorschläge, denen auch <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Deine<lb xml:id="p4-l24"/>
 					Mutter</persName> beistimmte. Ein guter Gärtner für <choice>
                         <abbr>
-                            <hi>Fr</hi>
-                        </abbr>
+                        <hi>Fr</hi>
+                    </abbr>
                         <expan>Franken / Francs / Franchi</expan>
                     </choice> 1200 ist jedenfalls<lb xml:id="p4-l25"/>
 					einem schlechtern für <seg type="com">
                         <choice>
                             <abbr>
-                                <hi>Fr</hi>
-                            </abbr>
+                            <hi>Fr</hi>
+                        </abbr>
                             <expan>Franken / Francs / Franchi</expan>
                         </choice> 9000 oder 8000<note xml:id="K_1611_c22">Verschrieb, wohl gemeint: «<choice>
                                 <abbr>Fr.</abbr>

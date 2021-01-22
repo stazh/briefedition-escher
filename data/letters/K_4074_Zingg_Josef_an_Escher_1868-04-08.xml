@@ -33,8 +33,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Luzern</placeName>
                     <date when="1868-04-08">Mittwoch, April 8, 1868</date>
                 </correspAction>
@@ -42,19 +42,33 @@
         </profileDesc>
         <revisionDesc>
             <change when="2012-08-06" who="LM">Auszeichnung 1
-				umgesetzt</change>
+				umgesetzt
+                
+            </change>
             <change when="2012-08-07" who="FW">Verifizierung 1
-				umgesetzt</change>
+				umgesetzt
+                
+            </change>
             <change when="2013-02-04" who="SWK">Transkriptionsverfizierung T. Binder
-					umgesetzt</change>
+					umgesetzt
+                
+            </change>
             <change when="2013-06-07" who="BB">Übertragung der Transkriptionsverifizierung
-					geprüft</change>
+					geprüft
+                
+            </change>
             <change when="2014-02-06" who="SWK">Auszeichnung 2
-				umgesetzt</change>
+				umgesetzt
+                
+            </change>
             <change when="2014-06-13" who="LB">Verifizierung 2
-				umgesetzt</change>
+				umgesetzt
+                
+            </change>
             <change when="2014-06-13" who="LB">Inhaltliche Qualitätsprüfung
-					umgesetzt</change>
+					umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -68,8 +82,8 @@
     <body>
             <div>
       <p rend="left" xml:id="K_4074_p2">
-                    <lb xml:id="p1-l2"/>Indem ich Ihnen Ihre verehrliche<lb xml:id="p1-l3"/> <seg type="ref">Zuschrift<ref type="letter" target="K_4064"/>
-                    </seg> vom <date when="1868-04-02">2 <choice>
+                <lb xml:id="p1-l2"/>Indem ich Ihnen Ihre verehrliche<lb xml:id="p1-l3"/> <seg type="ref">Zuschrift<ref type="letter" target="K_4064"/>
+                </seg> vom <date when="1868-04-02">2 <choice>
                             <abbr>fl.
 							Monats</abbr>
                             <expan>fliessenden / fließenden Monats</expan>
@@ -90,16 +104,20 @@
                         <expan>von</expan>
                     </choice> <placeName type="place" key="Luzern">Luzern</placeName> <lb xml:id="p1-l13"/> unterbleiben können.</p>
       <p rend="left" xml:id="K_4074_p3">
-                    <lb xml:id="p1-l14"/>Für den Fall, daß der Bundesrath<lb xml:id="p1-l15"/> die <choice>
+                <lb xml:id="p1-l14"/>Für den Fall, daß der Bundesrath<lb xml:id="p1-l15"/> die <choice>
                         <abbr>schweiz.</abbr>
                         <expan>schweizerisch</expan>
                     </choice> Abgeordneten für die<pb n="2"/>
-                    <lb xml:id="p2-l1"/> Unterhandlungen betreffend
+                <lb xml:id="p2-l1"/> Unterhandlungen betreffend
 				den<lb xml:id="p2-l2"/> Handelsvertrag mit <placeName type="place" key="Deutschland">Deutschland</placeName> <lb xml:id="p2-l3"/> mit einer unsern Wünschen entsprechenden<lb xml:id="p2-l4"/> Instruktion
 				zur Förderung der<lb xml:id="p2-l5"/>
-                    <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage versehen hat, er<lb break="no" xml:id="p2-l6"/>überigt noch die Frage, ob gleich<lb break="no" xml:id="p2-l7"/>zeitig von Seite des <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>aus<lb break="no" xml:id="p2-l8"/>schußes noch Schritte zur
-				Unter<lb break="no" xml:id="p2-l9"/>stützung der Sache bei einflußreichen<lb xml:id="p2-l10"/> Mitgliedern des <placeName type="place" key="Deutscher Zollverein">Zoll</placeName>parlaments <supplied type="unclear">
-                        <choice>
+                <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage versehen hat, er
+                <lb break="no" xml:id="p2-l6"/>überigt noch die Frage, ob gleich
+                <lb break="no" xml:id="p2-l7"/>zeitig von Seite des <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>aus
+                <lb break="no" xml:id="p2-l8"/>schußes noch Schritte zur
+				Unter
+                <lb break="no" xml:id="p2-l9"/>stützung der Sache bei einflußreichen<lb xml:id="p2-l10"/> Mitgliedern des <placeName type="place" key="Deutscher Zollverein">Zoll</placeName>parlaments <supplied type="unclear">
+                    <choice>
                             <abbr>etc</abbr>
                             <expan>et cetera (und anderes)</expan>
                         </choice> </supplied> <lb xml:id="p2-l11"/> gethan werden sollen? –

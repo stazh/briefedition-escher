@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1878-05-26">Sonntag, Mai 26, 1878</date>
                 </correspAction>
@@ -66,7 +66,9 @@
             <change when="2014-05-20" who="LB">Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -141,7 +143,7 @@
                 <lb xml:id="p2-l4"/>die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>frage nach meinem Urtheil nur in Ver
                 <lb break="no" xml:id="p2-l5"/>bindung mit der <hi>
                     <placeName type="place" key="Monte Ceneri (Pass)">Monte Ceneri</placeName>
-                    </hi>linie in der Schweiz 
+                </hi>linie in der Schweiz 
                 <lb xml:id="p2-l6"/>und <placeName type="place" key="Italien (Königreich)">Italien</placeName> gelöst werden. Anders geht es
                 <lb xml:id="p2-l7"/>nicht.
             </p>

@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Escher (vom Glas) Jakob" type="sender">Jakob Escher</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Escher (vom Glas) Jakob" type="sender">Jakob Escher</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Berlin</placeName>
                     <date when="1838-06-06-1838-06-05">05 06 1838 06 06 1838</date>
                 </correspAction>
@@ -78,7 +78,9 @@
             <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen umgesetzt 
                 
             </change>
-            <change when="2016-12-19" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-19" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -186,7 +188,7 @@
         – Noch Ein Mal, auf<lb xml:id="p1-l45"/> einer Höhe zwischen <placeName type="place" key="Stockach (D)">Stockach</placeName> und <placeName type="place" key="Tuttlingen (D)">Tuttlingen</placeName>, sah ich die lange <placeName type="place" key="Alpen">Alpenkette</placeName> im
         Glanz der Abendsonne; so fern, daß die untern Massen<lb xml:id="p1-l46"/> im Horizont
         verschwa<del>nd</del>
-                    <add>mm</add>enen, nur die Schneefelder und Gletscher wie in der Luft schwebten. Es war das
+                <add>mm</add>enen, nur die Schneefelder und Gletscher wie in der Luft schwebten. Es war das
         Letzte, was ich vom Vaterlande<lb xml:id="p1-l47"/> sah, und was ich immer auch in den nächsten
         Jahren in Natur und Kunst schauen mag, so weiß ich doch, daß ich <hi rend="underline">den</hi> Tag den<lb xml:id="p1-l48"/> schönsten meines Leben nennen werde, an dem ich zum ersten Male wieder unsre
         Berge in ihrer ganzen Herrlichkeit sehen<lb xml:id="p1-l49"/> kann. – In <placeName type="place" key="Bad Cannstatt (Stuttgart, D)">Cannstatt</placeName> traf ich meinen Bruder ganz gesund an;
@@ -393,7 +395,7 @@
         und geht oft mit <persName type="person" key="Escher (vom Luchs) Hans Conrad von">Escher</persName>,
           <persName type="person" key="Finsterwald Johann Rudolf">Finsterwald</persName> <choice>
                         <abbr>
-                            <hi>etc</hi>.</abbr>
+                    <hi>etc</hi>.</abbr>
                         <expan>et cetera (und anderes)</expan>
                     </choice> Den<lb xml:id="p3-l43"/>Philologen <persName type="person" key="Honegger Johannes">Honegger</persName> kannte ich früher nicht; er ist äußerlich etwas
         abstoßend, arbeitet tüchtig, und ißt zu Hause, so daß wir ihn nicht<lb xml:id="p3-l44"/>oft

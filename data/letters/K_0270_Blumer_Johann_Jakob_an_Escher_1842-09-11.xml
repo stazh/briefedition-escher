@@ -28,25 +28,45 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Blumer Johann Jakob" type="sender">Johann Jakob Blumer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Blumer Johann Jakob" type="sender">Johann Jakob Blumer</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Glarus</placeName>
                     <date when="1842-09-11">Sonntag, September 11, 1842</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2006-12-27" who="MW">transkribiert</change>
-            <change when="April 2010" who="swissedit, UR">automatisch von Word nach XML konvertiert</change>
-            <change when="2010-04-29" who="BF">Konvertierung manuell bearbeitet</change>
-            <change when="2010-08-10" who="BF">Personen und Orte indexiert</change>
-            <change when="2010-12-14" who="BF">Transkriptionsverifizierung T. Binder umgesetzt</change>
-            <change when="2011-06-30" who="AH">e-Edition: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-07-01" who="TM">e-Edition: Verifizierung 1 umgesetzt</change>
+            <change when="2006-12-27" who="MW">transkribiert
+                
+            </change>
+            <change when="April 2010" who="swissedit, UR">automatisch von Word nach XML konvertiert
+                
+            </change>
+            <change when="2010-04-29" who="BF">Konvertierung manuell bearbeitet
+                
+            </change>
+            <change when="2010-08-10" who="BF">Personen und Orte indexiert
+                
+            </change>
+            <change when="2010-12-14" who="BF">Transkriptionsverifizierung T. Binder umgesetzt
+                
+            </change>
+            <change when="2011-06-30" who="AH">e-Edition: Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2011-07-01" who="TM">e-Edition: Verifizierung 1 umgesetzt
+                
+            </change>
             <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen umgesetzt
-</change>
-            <change when="2011-07-25" who="HA">e-Edition: Auszeichnung 2 umgesetzt</change>
-            <change when="2011-07-28" who="AH">e-Edition: Verifizierung 2 umgesetzt</change>
+
+                
+            </change>
+            <change when="2011-07-25" who="HA">e-Edition: Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2011-07-28" who="AH">e-Edition: Verifizierung 2 umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -64,15 +84,17 @@
     <body>
             <div>
       <p rend="indent" xml:id="K_0270_p3">
-                    <lb xml:id="p1-l3"/>Da <persName type="person" key="Zwicky Heinrich Lukas">Zwicki</persName><!--wirklich verifizieren lässt sich nicht, welcher Zwicky hier einen kurzen Abstecher nach Zürich macht; Heinrich Lukas studiert ja eigentlich dort – Anfang September wäre aber denkbar, dass er bereits einige Tage zuhause in Glarus war, und zum Semesterabschluss nochmals kurz nach Zürich zurückkehrt, bevor er dann für die Semesterferien wieder nach Glarus geht.-->
-                    <date when="1842-09-12">morgen</date> nach <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> geht, so will ich ihm doch gleich einige<lb xml:id="p1-l4"/>
+                <lb xml:id="p1-l3"/>Da <persName type="person" key="Zwicky Heinrich Lukas">Zwicki</persName><!--wirklich verifizieren lässt sich nicht, welcher Zwicky hier einen kurzen Abstecher nach Zürich macht; Heinrich Lukas studiert ja eigentlich dort – Anfang September wäre aber denkbar, dass er bereits einige Tage zuhause in Glarus war, und zum Semesterabschluss nochmals kurz nach Zürich zurückkehrt, bevor er dann für die Semesterferien wieder nach Glarus geht.-->
+                <date when="1842-09-12">morgen</date> nach <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> geht, so will ich ihm doch gleich einige<lb xml:id="p1-l4"/>
 Zeilen zur Beantwortung deines <date when="1842-09-10">gestrigen</date> Berichtes mitgeben, obschon die Sache sonst<lb xml:id="p1-l5"/>
 noch keine Eile hätte. Was deine Einladung, an deine Promotion nach <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> zu kommen,<lb xml:id="p1-l6"/>
 betrifft, so wäre zwar allerdings einerseits der Anlaß für mich intressant genug <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
-                    </choice> <add>anderseits</add> die Ge<lb break="no" xml:id="p1-l7"/>legenheit,
- meine übrigen <placeName type="place" key="Zürich">Zürcher</placeName> Freunde, namentlich <persName type="person" key="Brändli Benjamin">Brändli</persName>, wieder zu sehen mir sehr er<lb break="no" xml:id="p1-l8"/>wünscht; 
+                    </choice> <add>anderseits</add> die Ge
+                <lb break="no" xml:id="p1-l7"/>legenheit,
+ meine übrigen <placeName type="place" key="Zürich">Zürcher</placeName> Freunde, namentlich <persName type="person" key="Brändli Benjamin">Brändli</persName>, wieder zu sehen mir sehr er
+                <lb break="no" xml:id="p1-l8"/>wünscht; 
 allein letztres wird auch sonst wieder etwa einmal geschehen können <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
@@ -81,7 +103,8 @@ nähme mir die Sache, besonders da nun die Promotion <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> der dazu gehörige Schmaus einige<lb xml:id="p1-l10"/>
-Tage auseinanderliegen werden, zu viele Zeit weg, die ich lieber auf unsern mich so sehr an<lb break="no" xml:id="p1-l11"/>ziehenden 
+Tage auseinanderliegen werden, zu viele Zeit weg, die ich lieber auf unsern mich so sehr an
+                <lb break="no" xml:id="p1-l11"/>ziehenden 
 Aufenthalt in <placeName type="place" key="Appenzell (Bezirk)">Appenzell</placeName> <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
@@ -93,9 +116,11 @@ noch einen Umweg über <placeName type="place" key="Walenstadt">Walenstatt</plac
                         <expan>und</expan>
                     </choice> durch's <placeName type="place" key="Rheintal">Rheinthal</placeName>, wo ich noch gar nie gewesen bin,<lb xml:id="p1-l16"/>
 zu machen. Im letztern Falle würde ich mich aber jedenfalls so einrichten, daß ich<lb xml:id="p1-l17"/>  <date when="1842-09-21">Mittwoch</date> Abends, wo du in <placeName type="place" key="Appenzell (Bezirk)">Appenzell</placeName> anlangen wirst, mich ebenfalls dort einfinden<lb xml:id="p1-l18"/>
-werde. <persName type="person" key="Aepli Arnold Otto">Aepli</persName> werde ich verabredetermaßen noch von der Zeit unsers Eintreffens da<lb break="no" xml:id="p1-l19"/>selbst 
+werde. <persName type="person" key="Aepli Arnold Otto">Aepli</persName> werde ich verabredetermaßen noch von der Zeit unsers Eintreffens da
+                <lb break="no" xml:id="p1-l19"/>selbst 
 benachrichtigen; wahrscheinlich wird er dann am <date when="1842-09-25">folgenden Sonntag</date> nach <placeName type="place" key="Appenzell (Bezirk)">Appenzell</placeName> <lb xml:id="p1-l20"/>
-kommen. Habe doch die Güte, mir durch <persName type="person" key="Zwicky Heinrich Lukas">Zwicki</persName>, wenn er zurückkehren wird, deine Disser<lb break="no" xml:id="p1-l21"/>tation 
+kommen. Habe doch die Güte, mir durch <persName type="person" key="Zwicky Heinrich Lukas">Zwicki</persName>, wenn er zurückkehren wird, deine Disser
+                <lb break="no" xml:id="p1-l21"/>tation 
 zu schicken, die ich nun mit großem Eifer wo möglich noch vor meiner Abreise<lb xml:id="p1-l22"/>
 lesen werde, wenn sie hiefür nicht zu lang <choice>
                         <abbr>u.</abbr>

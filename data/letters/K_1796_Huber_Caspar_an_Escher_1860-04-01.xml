@@ -33,8 +33,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Huber Caspar" type="sender">Caspar Huber</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Huber Caspar" type="sender">Caspar Huber</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>s.l.</placeName>
                     <date when="1860-04-01">Sonntag, April 1, 1860</date>
                 </correspAction>
@@ -66,7 +66,9 @@
             <change when="2013-11-04" who="CA">Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -98,8 +100,8 @@
 				vom <date when="1860-03-29">29. 
                         <choice>
                             <abbr>
-                                <hi>P<hi rend="sup">to</hi>
-                                </hi> </abbr>
+                        <hi>P<hi rend="sup">to</hi>
+                        </hi> </abbr>
                             <expan>Passato (vergangenen [Monats])</expan>
                         </choice>
                      </date> <choice>
@@ -149,7 +151,7 @@
                 </placeName> <lb xml:id="p2-l6"/>
 		durch die Besetzung der <hi>Commissionen</hi> eine<lb xml:id="p2-l7"/>
 		so ehrenvolle Stellung einnimmt. Ich <hi>gratuliere</hi>
-                    <lb xml:id="p2-l8"/>
+                <lb xml:id="p2-l8"/>
 		Ihnen ebenfalls von ganzem Herzen zu der<lb xml:id="p2-l9"/>
 		glänzenden <hi>Satisfaction</hi> die Ihnen bei<lb xml:id="p2-l10"/>
 		diesem Anlaße zu Theil geworden ist.<lb xml:id="p2-l11"/>
@@ -158,7 +160,8 @@
                         <expan>und</expan>
                     </choice> welche Parthei-Intriguen dem <placeName type="place" key="Savoyen">
                     <hi>Savoyer</hi>
-                    </placeName>
+                </placeName>
+                
                 <lb break="no" xml:id="p2-l12"/>Zug, 
 		den man überall einstimmig verur
                 <lb break="no" xml:id="p2-l13"/>theilt, 
@@ -166,7 +169,8 @@
 		man gespannt etwas Bestimmtes zu vernehm<supplied>en</supplied>.<lb xml:id="p2-l15"/>
 		In der Hoffnung, daß wir den Frieden behal
                 <lb break="no" xml:id="p2-l16"/>ten, 
-		ohne an unserer Ehre etwas zu ver<lb break="no" xml:id="p2-l17"/>geben,
+		ohne an unserer Ehre etwas zu ver
+                <lb break="no" xml:id="p2-l17"/>geben,
 		glaube ich schwerlich daß ein Anlei<supplied>hen</supplied> <lb xml:id="p2-l18"/>
 		der Eidgenossenschaft nöthig werden wird,<lb xml:id="p2-l19"/>
 		sollte jedoch gegen Erwarten der Fall ein

@@ -35,8 +35,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1878-01-06">Sonntag, Januar 6, 1878</date>
                 </correspAction>
@@ -106,7 +106,9 @@
             <change when="2014-12-02" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -288,10 +290,11 @@ weil du sollst».</p>
                         <abbr>Gotth.bahngesellschaft</abbr>
                         <expan>Gotthardbahngesellschaft</expan>
                     </choice> die Linie <placeName type="place" key="Lugano">Lugano</placeName>-<placeName type="place" key="Chiasso">
-                        <hi>Chiasso</hi>
-                    </placeName> nicht einer<lb xml:id="p3-l12"/>neu zu bildenden Gesellschaft abtreten darf, welche die <placeName type="place" key="Monte Ceneri (Pass)">
+                    <hi>Chiasso</hi>
+                </placeName> nicht einer<lb xml:id="p3-l12"/>neu zu bildenden Gesellschaft abtreten darf, welche die <placeName type="place" key="Monte Ceneri (Pass)">
                     <hi>Monte Ceneri</hi>
-                    </placeName>
+                </placeName>
+                
                 <lb break="no" xml:id="p3-l13"/>linie erstellt. Als Sackbahn ist nur Verlust auf dem Betrieb, somit<lb xml:id="p3-l14"/>nur eine Last für die Gesellschaft. Actionäre <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
@@ -311,8 +314,8 @@ weil du sollst».</p>
                         <abbr>incl.</abbr>
                         <expan>inclusive</expan>
                     </choice> dem <placeName type="place" key="Tessin">
-                        <hi>Tessin</hi>
-                    </placeName> <choice>
+                    <hi>Tessin</hi>
+                </placeName> <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> den <placeName type="place" key="Italien (Königreich)">italienischen</placeName> Städten 6 Millionen<lb xml:id="p3-l20"/>
@@ -339,7 +342,7 @@ für die Schweiz eminent wichtige Frage der Gotthardbahn nicht<lb xml:id="p4-l8"
                 <lb xml:id="p4-l9"/>Ich maße mir nicht an Ihnen Vorschläge machen zu wollen,<lb xml:id="p4-l10"/>
 aber die Überzeugung habe ich, daß die Vergebung der Bahn<lb xml:id="p4-l11"/>
 noch vor dem<date when="1878-04-01">1<hi rend="sup">t</hi> <hi>April</hi>
-                    </date> zu geschehen hat und zu diesem Zweck<lb xml:id="p4-l12"/>
+                </date> zu geschehen hat und zu diesem Zweck<lb xml:id="p4-l12"/>
 muß rasch verhandelt werden.</p>
     </div>
         </body>

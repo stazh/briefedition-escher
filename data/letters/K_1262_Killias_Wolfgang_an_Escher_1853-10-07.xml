@@ -33,23 +33,41 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Killias Wolfgang" type="sender">Wolfgang Killias</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Killias Wolfgang" type="sender">Wolfgang Killias</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1853-10-07">Freitag, Oktober 7, 1853</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2013-02-25" who="BB">Migration nach XML umgesetzt</change>
-            <change when="2013-06-05" who="NP">Auszeichnung 1 umgesetzt</change>
-            <change when="2013-07-09" who="RO">Verifizierung 1 umgesetzt</change>
-            <change when="2013-07-15" who="DG">Auszeichnung 2 umgesetzt</change>
-            <change when="2013-07-23" who="CB">Migrationsverifizierung umgesetzt</change>
-            <change when="2013-08-15" who="CB">Transkriptionsverfizierung Seiterle umgesetzt</change>
-            <change when="2013-08-22" who="JS">Übertragung Transkriptionsverifizierung geprüft</change>
-            <change when="2013-10-28" who="VP">Inhaltliche Qualitätsprüfung umgesetzt</change>
-            <change when="2013-12-11" who="VP">Verifizierung 2 umgesetzt</change>
+            <change when="2013-02-25" who="BB">Migration nach XML umgesetzt
+                
+            </change>
+            <change when="2013-06-05" who="NP">Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2013-07-09" who="RO">Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2013-07-15" who="DG">Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2013-07-23" who="CB">Migrationsverifizierung umgesetzt
+                
+            </change>
+            <change when="2013-08-15" who="CB">Transkriptionsverfizierung Seiterle umgesetzt
+                
+            </change>
+            <change when="2013-08-22" who="JS">Übertragung Transkriptionsverifizierung geprüft
+                
+            </change>
+            <change when="2013-10-28" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
+            <change when="2013-12-11" who="VP">Verifizierung 2 umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -73,50 +91,54 @@
     <body>
             <div>
       <p rend="indent" xml:id="K_1262_p3">
-                    <lb xml:id="p1-l3"/>Gemäß Ihrem Wunsche beeile ich mich Ihnen meine 
+                <lb xml:id="p1-l3"/>Gemäß Ihrem Wunsche beeile ich mich Ihnen meine 
 				<lb xml:id="p1-l4"/>Ansichten in Betreff einer Betheiligung meiner <placeName type="place" key="England">engl.</placeName> <choice>
                         <abbr>
-                            <hi>Comp</hi>.</abbr>
+                    <hi>Comp</hi>.</abbr>
                         <expan>Compagnia / Compagnie / Company (Gesellschaft)</expan>
                     </choice> <lb xml:id="p1-l5"/>bei dem <placeName type="place" key="Bözberg">Bötzberg</placeName> mitzutheilen.</p>
       <p rend="indent" xml:id="K_1262_p4">
-                    <lb xml:id="p1-l6"/>Ich habe schon seit dem Beginn meiner Unter<lb break="no" xml:id="p1-l7"/>handlungen unverrückt auf diesen Punkt hingear<lb break="no" xml:id="p1-l8"/>beitet, in der Überzeugung daß die Stellung der 
+                <lb xml:id="p1-l6"/>Ich habe schon seit dem Beginn meiner Unter
+                <lb break="no" xml:id="p1-l7"/>handlungen unverrückt auf diesen Punkt hingear
+                <lb break="no" xml:id="p1-l8"/>beitet, in der Überzeugung daß die Stellung der 
         <lb xml:id="p1-l9"/>Nordostbahn gegenüber der Concurrenz von <hi>
-                        <placeName type="place" key="Schaffhausen (Stadt)">Schaf<note type="transcript">sic!</note> <lb xml:id="p1-l10"/>hausen</placeName> </hi>–<hi>
-                        <placeName type="place" key="Basel-Stadt">Basel</placeName> </hi> für den ost-westlichen Zug <choice>
+                    <placeName type="place" key="Schaffhausen (Stadt)">Schaf
+                        <note type="transcript">sic!</note> <lb xml:id="p1-l10"/>hausen</placeName> </hi>–<hi>
+                    <placeName type="place" key="Basel-Stadt">Basel</placeName> </hi> für den ost-westlichen Zug <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> der 
 				<lb xml:id="p1-l11"/>Concurrenz von <hi>
-                        <placeName type="place" key="Friedrichshafen (D)">
-                            <supplied type="unclear">Fhafen</supplied>
-                        </placeName>
-                    </hi>–<hi>
-                        <placeName type="place" key="Bruchsal (D)">Bruchsal</placeName> </hi> <choice>
+                    <placeName type="place" key="Friedrichshafen (D)">
+                        <supplied type="unclear">Fhafen</supplied>
+                    </placeName>
+                </hi>–<hi>
+                    <placeName type="place" key="Bruchsal (D)">Bruchsal</placeName> </hi> <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> <hi>
-                        <placeName type="place" key="Konstanz (D)">Constanz</placeName> </hi>–
+                    <placeName type="place" key="Konstanz (D)">Constanz</placeName> </hi>–
 				<lb xml:id="p1-l12"/>
-                    <hi>
-                        <placeName type="place" key="Offenburg (D)">Offenburg</placeName> </hi> für den nord-südlichen Zug die kürzeste 
+                <hi>
+                    <placeName type="place" key="Offenburg (D)">Offenburg</placeName> </hi> für den nord-südlichen Zug die kürzeste 
 				<lb xml:id="p1-l13"/>Linie von <hi>
-                        <placeName type="place" key="Brugg (AG)">Brugg</placeName> </hi> nach <hi>
-                        <placeName type="place" key="Basel-Stadt">Basel</placeName> </hi>
-                    <hi rend="underline">unabweislich</hi> erfordert. 
+                    <placeName type="place" key="Brugg (AG)">Brugg</placeName> </hi> nach <hi>
+                    <placeName type="place" key="Basel-Stadt">Basel</placeName> </hi>
+                <hi rend="underline">unabweislich</hi> erfordert. 
 			<lb xml:id="p1-l14"/>Nur als wichtige durchlaufende <placeName type="place" key="Europa">
-                        <hi rend="underline">europ:</hi>
-                    </placeName> Linie kann 
+                    <hi rend="underline">europ:</hi>
+                </placeName> Linie kann 
 				<lb xml:id="p1-l15"/>die Nordostbahn den ihr nöthigen <hi>appui</hi> auf den 
-			<lb xml:id="p1-l16"/>Börsen finden. Für sie ist der <placeName type="place" key="Bözberg">Bötzberg</placeName> eine lebens<lb break="no" xml:id="p1-l17"/>wichtige Frage. Weniger wichtig ist sie für den <hi>
-                        <placeName type="place" key="Lukmanier (Pass)">Lukm<hi rend="sup">r</hi>
-                        </placeName>
-                    </hi>, 
+			<lb xml:id="p1-l16"/>Börsen finden. Für sie ist der <placeName type="place" key="Bözberg">Bötzberg</placeName> eine lebens
+                <lb break="no" xml:id="p1-l17"/>wichtige Frage. Weniger wichtig ist sie für den <hi>
+                    <placeName type="place" key="Lukmanier (Pass)">Lukm<hi rend="sup">r</hi>
+                    </placeName>
+                </hi>, 
 				<lb xml:id="p1-l18"/>da seine Ausmündung nicht an <placeName type="place" key="Basel-Stadt">
-                        <hi>Basel</hi>
-                    </placeName> gebunden ist 
+                    <hi>Basel</hi>
+                </placeName> gebunden ist 
         <lb xml:id="p1-l19"/>
-                    <choice>
+                <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> aus diesem Grunde konnte ich auch den Gedanken nicht 
@@ -130,53 +152,59 @@
                         <expan>und</expan>
                     </choice> Versetzung 
 				<lb xml:id="p1-l24"/>des Gesammt<hi>directions</hi>-Sitzes nach <hi>
-                        <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> </hi> handelte, 
+                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> </hi> handelte, 
 			<lb xml:id="p1-l25"/>die allerdings im entschiedensten Interesse beider 
         <lb xml:id="p1-l26"/>Theile läge <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> die meinen <placeName type="place" key="England">Engl<hi rend="sup">n</hi>
-                    </placeName> ziemlich zu mun<lb break="no" xml:id="p1-l27"/>den schien. Aber daran wird vor der Hand Ihrer<lb break="no" xml:id="p1-l28"/>seits schwerlich zu denken sein <choice>
+                </placeName> ziemlich zu mun
+                <lb break="no" xml:id="p1-l27"/>den schien. Aber daran wird vor der Hand Ihrer
+                <lb break="no" xml:id="p1-l28"/>seits schwerlich zu denken sein <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> so fehlt mir 
 			<lb xml:id="p1-l29"/>auch der Haupthebel um in der Sache zu wirken.<pb n="2"/>
-                    <lb xml:id="p2-l1"/>Soviel im Allgemeinen. Im Besondern 
+                <lb xml:id="p2-l1"/>Soviel im Allgemeinen. Im Besondern 
 			<lb xml:id="p2-l2"/>kömmt dann noch hinzu, daß ich in der gegenwärtigen 
-			<lb xml:id="p2-l3"/>Börsenklemme nicht wohl wagen dürfte eine Aus<lb break="no" xml:id="p2-l4"/>dehnung unsres <hi>Capital</hi>bedarfs zu beantragen. 
+			<lb xml:id="p2-l3"/>Börsenklemme nicht wohl wagen dürfte eine Aus
+                <lb break="no" xml:id="p2-l4"/>dehnung unsres <hi>Capital</hi>bedarfs zu beantragen. 
 			<lb xml:id="p2-l5"/>Dieß kann nur bei gutem Börsenwetter geschehen. 
 				<lb xml:id="p2-l6"/>Wie bald aber der jetzt stürmische <hi>Barometer</hi>stand 
 			<lb xml:id="p2-l7"/>sich wieder auf «anhaltend schön» heben werde, ist 
 			<lb xml:id="p2-l8"/>von Tag zu Tag ungewisser. Erst wenn die beiden 
 				<lb xml:id="p2-l9"/>
-                    <hi>contrairen Electricitäten</hi> sich in ein Ungewitter 
+                <hi>contrairen Electricitäten</hi> sich in ein Ungewitter 
 				<lb xml:id="p2-l10"/>entladen haben werden, wird man vom nächst <del>
-                        <supplied type="unclear">künf</supplied>
-                    </del> <lb xml:id="p2-l11"/>folgenden Wetter mit einiger Sicherheit reden 
+                    <supplied type="unclear">künf</supplied>
+                </del> <lb xml:id="p2-l11"/>folgenden Wetter mit einiger Sicherheit reden 
 				<lb xml:id="p2-l12"/>können. Sie können <add>indeß</add> überzeugt sein daß ich jede 
 			<lb xml:id="p2-l13"/>günstige Conjunctur benutzen werde um für meine 
 			<lb xml:id="p2-l14"/>Überzeugung zu plaidiren.</p>
       <p rend="indent" xml:id="K_1262_p5">
-                    <lb xml:id="p2-l15"/>Unter diesen Umständen möchte ich drin<lb break="no" xml:id="p2-l16"/>gend wünschen, daß die <hi>
-                        <placeName type="place" key="Waldshut (Waldshut-Tiengen, D)">Waldshuter</placeName> </hi>frage so lange 
+                <lb xml:id="p2-l15"/>Unter diesen Umständen möchte ich drin
+                <lb break="no" xml:id="p2-l16"/>gend wünschen, daß die <hi>
+                    <placeName type="place" key="Waldshut (Waldshut-Tiengen, D)">Waldshuter</placeName> </hi>frage so lange 
 			<lb xml:id="p2-l17"/>als möglich noch offen gehalten würde. Der dortige 
         <lb xml:id="p2-l18"/>Anschluß entläuft Ihnen in keinem Falle <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> <lb xml:id="p2-l19"/>
-                    <del>wenn es</del> eben weil es im Interesse von <hi>
-                        <placeName type="place" key="Baden (Grossherzogtum)">Baden</placeName> </hi> <lb xml:id="p2-l20"/>liegt, Sie hievon <del>zu</del> baldmöglichst zu binden, so 
+                <del>wenn es</del> eben weil es im Interesse von <hi>
+                    <placeName type="place" key="Baden (Grossherzogtum)">Baden</placeName> </hi> <lb xml:id="p2-l20"/>liegt, Sie hievon <del>zu</del> baldmöglichst zu binden, so 
 			<lb xml:id="p2-l21"/>liegt es umgekehrt im <choice>
                         <abbr>schweiz.</abbr>
                         <expan>schweizerisch</expan>
                     </choice> Interesse sich 
 			<lb xml:id="p2-l22"/>damit nicht zu übereilen.</p>
       <p rend="indent" xml:id="K_1262_p6">
-                    <lb xml:id="p2-l23"/>Dieß ist alles Wesentliche was ich Ihnen 
+                <lb xml:id="p2-l23"/>Dieß ist alles Wesentliche was ich Ihnen 
 			<lb xml:id="p2-l24"/>über diese Sache zu sagen weiß. Wären die Zeiten 
 			<lb xml:id="p2-l25"/>anders so könnte ich mich entschiedner äußern.<pb n="3"/>
-                    <lb xml:id="p3-l1"/>Übrigens begreifen Sie, daß ich von mir aus, ge<lb break="no" xml:id="p3-l2"/>wissermaßen <hi>theoretisch</hi>, viel schwerer in der 
-				<lb xml:id="p3-l3"/>Sache wirken kann als wenn ich <add>mich</add> auf ein Ent<lb break="no" xml:id="p3-l4"/>gegenkommen von Ihrer Seite, auf einen <hi>directen</hi> <lb xml:id="p3-l5"/>oder <hi>indirecten</hi> Auftrag stützen könnte, der 
+                <lb xml:id="p3-l1"/>Übrigens begreifen Sie, daß ich von mir aus, ge
+                <lb break="no" xml:id="p3-l2"/>wissermaßen <hi>theoretisch</hi>, viel schwerer in der 
+				<lb xml:id="p3-l3"/>Sache wirken kann als wenn ich <add>mich</add> auf ein Ent
+                <lb break="no" xml:id="p3-l4"/>gegenkommen von Ihrer Seite, auf einen <hi>directen</hi> <lb xml:id="p3-l5"/>oder <hi>indirecten</hi> Auftrag stützen könnte, der 
 			<lb xml:id="p3-l6"/>in einem gelegenen Zeitpunkte ausgeführt 
 			<lb xml:id="p3-l7"/>werden sollte. Soviel mir bekannt ist bedarf 
 			<lb xml:id="p3-l8"/>die Nordostbahn einer kräftigen auswärtigen 
@@ -187,12 +215,12 @@
                         <expan>und</expan>
                     </choice> für einmal wenn nicht eine <hi>Fusion</hi> <lb xml:id="p3-l12"/>so doch eine enge <hi>Allianz</hi> zwischen der Südostbahn 
         <lb xml:id="p3-l13"/>
-                    <choice>
+                <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> dem <placeName type="place" key="Lukmanier (Pass)">
-                        <hi>Lukm<hi rend="sup">r</hi> </hi>
-                    </placeName> erzielen.</p>
+                    <hi>Lukm<hi rend="sup">r</hi> </hi>
+                </placeName> erzielen.</p>
     </div>
         </body>
     <back>
@@ -206,7 +234,8 @@
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> <lb xml:id="p3-l16"/>indem ich Ihnen noch mein <date when="1853-10-06">Gestriges</date> bestätige 
-          <lb xml:id="p3-l17"/>empfehle ich mich Ihnen wiederholt mit aufrich<lb break="no" xml:id="p3-l18"/>tiger Verehrung <choice>
+          <lb xml:id="p3-l17"/>empfehle ich mich Ihnen wiederholt mit aufrich
+                    <lb break="no" xml:id="p3-l18"/>tiger Verehrung <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> Ergebenheit</p>

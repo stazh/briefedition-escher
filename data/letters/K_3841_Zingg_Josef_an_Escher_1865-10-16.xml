@@ -31,8 +31,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Luzern</placeName>
                     <date when="1865-10-16">Montag, Oktober 16, 1865</date>
                 </correspAction>
@@ -119,15 +119,15 @@
                         <expan>Herrn</expan>
                     </choice> Staatsrath
 				<lb xml:id="p2-l10"/>
-                    <persName type="person" key="Forni Carlo Antonio">
-                        <hi>Forni</hi>
-                    </persName>  noch angefragt, auf wann die
+                <persName type="person" key="Forni Carlo Antonio">
+                    <hi>Forni</hi>
+                </persName>  noch angefragt, auf wann die
 			<lb xml:id="p2-l11"/>Rükkehr des <choice>
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <persName type="person" key="Pioda Luigi">
-                        <hi>Pioda</hi>
-                    </persName> erwartet
+                    <hi>Pioda</hi>
+                </persName> erwartet
 			<lb xml:id="p2-l12"/>werde. Ich bin aber bis zur Stunde
 			<lb xml:id="p2-l13"/>noch ohne Antwort. –
 			</p>
@@ -153,7 +153,7 @@
                         <expan>Herr</expan>
                     </choice> <choice>
                         <abbr>
-                            <hi>Dr</hi>.</abbr>
+                    <hi>Dr</hi>.</abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> <persName type="person" key="Pfyffer (von Altishofen) Kasimir">C. Pfyffer</persName> erklärt
 			<lb xml:id="p3-l8"/>haben, ihr <hi>Votum</hi> von der Annahme
@@ -166,7 +166,7 @@
 				<lb xml:id="p3-l15"/>Eine Volksabstimmung über das Steuer
                 <lb break="no" xml:id="p3-l16"/>gesetz wird wahrscheinlich erst den <date when="1865-11-12">12 <choice>
                             <abbr>
-                                <hi>Nov</hi>.</abbr>
+                        <hi>Nov</hi>.</abbr>
                             <expan>November</expan>
                         </choice> </date> <lb xml:id="p3-l17"/>stattfinden können. Würden Sie es für
 			<lb xml:id="p3-l18"/>zu spät erachten, wenn die Großraths
@@ -176,6 +176,7 @@
 			<lb xml:id="p4-l2"/>nämlich noch, daß die Verwerfung des
 			<lb xml:id="p4-l3"/>Steuergesetzes nicht gelingen &amp; dadurch
 			<lb xml:id="p4-l4"/>die Zahl der Stimmen für die <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>
+                
                 <lb break="no" xml:id="p4-l5"/>bahnbetheiligung vermehrt würde. –
 			</p>
       <p rend="indent" xml:id="K_3841_p5">
@@ -209,8 +210,8 @@
                         <hi>Luzern</hi>
                     </placeName>  d. <date when="1865-10-16">16 <choice>
                             <abbr>
-                                <hi>8<hi rend="sup">br</hi>
-                                </hi> </abbr>
+                            <hi>8<hi rend="sup">br</hi>
+                            </hi> </abbr>
                             <expan>October</expan>
                         </choice>65.</date> </p>
       </div>

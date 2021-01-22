@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Heer Oswald" type="sender">Oswald Heer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Heer Oswald" type="sender">Oswald Heer</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1867-12-15">Sonntag, Dezember 15, 1867</date>
                 </correspAction>
@@ -65,7 +65,8 @@
                 
             </change>
             <change when="2016-12-09" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        </change>
+        
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -96,7 +97,7 @@
                     </choice> Motto<lb xml:id="p1-l4"/>
 			gar erschrekliche Enthüllungen erwarteten, <del>
                     <supplied type="unclear">...</supplied>
-                    </del> nicht wenig<lb xml:id="p1-l5"/>
+                </del> nicht wenig<lb xml:id="p1-l5"/>
 			enttäuscht worden sein, denn wenn selbst ein <persName type="person" key="Locher Friedrich">Locher</persName> nichts<lb xml:id="p1-l6"/>
 			als Erbärmlichkeiten gegen Dich vorzubringen weiss, muss eine<lb xml:id="p1-l7"/>
 			solche Schrift gerade die gegentheilige Wirkung haben, als<lb xml:id="p1-l8"/>

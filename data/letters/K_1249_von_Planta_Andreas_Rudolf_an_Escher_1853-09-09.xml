@@ -33,36 +33,80 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Planta (Samedan) Andreas Rudolf von" type="sender">Andreas Rudolf von Planta</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Planta (Samedan) Andreas Rudolf von" type="sender">Andreas Rudolf von Planta</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Samedan</placeName>
                     <date when="1853-09-09">Freitag, September 9, 1853</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2005-07-2005/01-06-30" who="IM/WB/SD"> transkribiert</change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert</change>
-            <change when="2006-08-09" who="SK"> provisorisch ausführlich kommentiert 1</change>
-            <change when="2006-12-05" who="SM">Konvertierung provisorisch nachbearbeitet</change>
-            <change when="2007-01-09" who="SM">Korrekturen übertragen</change>
-            <change when="2007-01-19" who="WB">Konvertierung nachbearbeitet</change>
-            <change when="2007-04-23" who="SK">Korrekturen 1 Haberthür übertragen</change>
-            <change when="2007-05-19" who="SK">Datierung überprüft, Keywords angepasst</change>
-            <change when="2007-05-21" who="WB">indexiert</change>
-            <change when="2007-05-21" who="SK">Umsetzung Lektorat und Verifizierung</change>
-            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2</change>
-            <change when="2007-06-19" who="SK">Umsetzung Verifizierung Verweise</change>
-            <change when="2007-07-19" who="SK">Umsetzung Verifizierung Personenerwähnungen</change>
-            <change when="2007-07-25" who="SK">Umsetzung Lektorat MK 2</change>
-            <change when="2007-08-24" who="SK">Korrekturen 3 Haberthür übertragen</change>
-            <change when="2008-07-23" who="SW">Auf Stand Edition gebracht</change>
-            <change when="2011-07-12" who="DD">e-Editon: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-08-02" who="AH">e-Edition: Verifizierung 1 umgesetzt</change>
-            <change when="2011-08-18" who="AH">e-Edition: Auszeichnung 2 umgesetzt</change>
-            <change when="2014-01-30" who="AW">Migrationsverifizierung umgesetzt</change>
-            <change when="2014-07-21" who="VP">Verifizierung 2 umgesetzt</change>
-            <change when="2014-07-21" who="VP">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="2005-07-2005/01-06-30" who="IM/WB/SD"> transkribiert
+                
+            </change>
+            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
+                
+            </change>
+            <change when="2006-08-09" who="SK"> provisorisch ausführlich kommentiert 1
+                
+            </change>
+            <change when="2006-12-05" who="SM">Konvertierung provisorisch nachbearbeitet
+                
+            </change>
+            <change when="2007-01-09" who="SM">Korrekturen übertragen
+                
+            </change>
+            <change when="2007-01-19" who="WB">Konvertierung nachbearbeitet
+                
+            </change>
+            <change when="2007-04-23" who="SK">Korrekturen 1 Haberthür übertragen
+                
+            </change>
+            <change when="2007-05-19" who="SK">Datierung überprüft, Keywords angepasst
+                
+            </change>
+            <change when="2007-05-21" who="WB">indexiert
+                
+            </change>
+            <change when="2007-05-21" who="SK">Umsetzung Lektorat und Verifizierung
+                
+            </change>
+            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2
+                
+            </change>
+            <change when="2007-06-19" who="SK">Umsetzung Verifizierung Verweise
+                
+            </change>
+            <change when="2007-07-19" who="SK">Umsetzung Verifizierung Personenerwähnungen
+                
+            </change>
+            <change when="2007-07-25" who="SK">Umsetzung Lektorat MK 2
+                
+            </change>
+            <change when="2007-08-24" who="SK">Korrekturen 3 Haberthür übertragen
+                
+            </change>
+            <change when="2008-07-23" who="SW">Auf Stand Edition gebracht
+                
+            </change>
+            <change when="2011-07-12" who="DD">e-Editon: Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-02" who="AH">e-Edition: Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-18" who="AH">e-Edition: Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2014-01-30" who="AW">Migrationsverifizierung umgesetzt
+                
+            </change>
+            <change when="2014-07-21" who="VP">Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-07-21" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -90,105 +134,108 @@
     <body>
             <div>
       <p rend="left" xml:id="K_1249_p3">
-                    <lb xml:id="p1-l3"/>Ich erhalte soeben <seg type="com">Ihre <choice>
+                <lb xml:id="p1-l3"/>Ich erhalte soeben <seg type="com">Ihre <choice>
                             <abbr>telegraph.</abbr>
                             <expan>telegraphisch</expan>
                         </choice> Depesche vom<lb xml:id="p1-l4"/>
-                        <date when="1853-09-08">8. <choice>
+                    <date when="1853-09-08">8. <choice>
                                 <abbr>d. M.</abbr>
                                 <expan>dieses Monats</expan>
                             </choice> </date>
-                        <note xml:id="K_1249_c2">Telegramm nicht ermittelt.</note>
-                    </seg> sowie die <seg type="com">Copie Ihres Briefes<note xml:id="K_1249_c3">Brief nicht ermittelt.</note>
-                    </seg> an <seg type="ref">
-                        <persName type="person" key="Salis (Soglio) Anton von">
-                            <hi>Salis</hi>
-                        </persName>
-                        <ref type="kbp">→ Anton von Salis (Soglio)</ref>
-                    </seg>. –<lb xml:id="p1-l5"/>
+                    <note xml:id="K_1249_c2">Telegramm nicht ermittelt.</note>
+                </seg> sowie die <seg type="com">Copie Ihres Briefes<note xml:id="K_1249_c3">Brief nicht ermittelt.</note>
+                </seg> an <seg type="ref">
+                    <persName type="person" key="Salis (Soglio) Anton von">
+                        <hi>Salis</hi>
+                    </persName>
+                    <ref type="kbp">→ Anton von Salis (Soglio)</ref>
+                </seg>. –<lb xml:id="p1-l5"/>
 Bei meiner Abreise von <placeName type="place" key="Chur">
-                        <hi>Chur</hi>
-                    </placeName> war verabredet<lb xml:id="p1-l6"/>
+                    <hi>Chur</hi>
+                </placeName> war verabredet<lb xml:id="p1-l6"/>
 worden, allen <hi rend="underline">vier</hi> Kantonsregierungen <seg type="com">unsere<lb xml:id="p1-l7"/>
 Conventionen<note xml:id="K_1249_c4">
-                            <choice>
+                        <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Konvention Gründung Gesellschaft</ref>; <ref type="lit">Verbalprozess SOB</ref>; <ref type="lit">Zweiter Verbalprozess SOB</ref>; <ref type="letter" target="K_1243"><!--Nr. 18--></ref>; <ref type="sum" target="Ostalpenbahnfrage_p14"><!-- → Band 1, S. 45--></ref>.</note>
-                    </seg> wörtlich mitzutheilen mit Aus<lb break="no" xml:id="p1-l8"/>nahme 
+                </seg> wörtlich mitzutheilen mit Aus
+                <lb break="no" xml:id="p1-l8"/>nahme 
 der Protocolle, die man auszüglich mittheilen<lb xml:id="p1-l9"/>
 wollte. –  <placeName type="place" key="Zürich">Zürich</placeName> würde hierin ganz den<lb xml:id="p1-l10"/>
 anderen drei Cantonen gleichgehalten. Ebenso<lb xml:id="p1-l11"/>
 sollten die <seg type="com">Statuten<note xml:id="K_1249_c5">
-                            <choice>
+                        <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Constituirungsakt und Statuten SOB</ref>; <ref type="letter" target="K_1234"><!-- → Nr. 15--></ref>; <ref type="letter" target="K_1243"><!-- → 18--></ref>.</note>
-                    </seg>, sobald übersezt beförder<lb break="no" xml:id="p1-l12"/>lichst 
+                </seg>, sobald übersezt beförder
+                <lb break="no" xml:id="p1-l12"/>lichst 
 den Regierungen vorgelegt werden. –<lb xml:id="p1-l13"/>
 Wie <persName type="person" key="Salis (Soglio) Anton von">
-                        <hi>Salis</hi>
-                    </persName> schreibt ist die Convention selbst nun<lb xml:id="p1-l14"/>
+                    <hi>Salis</hi>
+                </persName> schreibt ist die Convention selbst nun<lb xml:id="p1-l14"/>
 in Ihren Händen und die Statuten werden<lb xml:id="p1-l15"/>
 folgen. – Was die Protokolle betrifft, so<lb xml:id="p1-l16"/>
 wäre es gescheider<note type="transcript">sic!</note> gewesen, auch diese wörtlich<lb xml:id="p1-l17"/>
 zu übermachen, da sie rein Unpraejudizirliches<lb xml:id="p1-l18"/>
 enthalten. Aber bei der <seg type="com">
-                        <supplied type="unclear">Gall</supplied>sucht<note xml:id="K_1249_c6">Gallsucht: Jähzorn.</note>
-                    </seg> <seg type="com">
-                        <persName type="person" key="Hungerbühler Johann Matthias">
-                            <hi>Hunger</hi> <lb break="no" xml:id="p1-l19"/>
-                            <hi>bühlers</hi>
-                        </persName>
-                        <note xml:id="K_1249_c7">
-                            <persName type="person" key="Hungerbühler Johann Matthias">Johann Matthias Hungerbühler</persName> (1805–1884), Grossrat, Mitglied des Kleinen Rats und Nationalrat (<placeName type="place" key="St. Gallen">SG</placeName>), Verwaltungsrat der <ref type="kbe"/>St. Gallisch-Appenzellischen Eisenbahn.</note>
-                    </seg>, namentlich <seg type="com">
-                        <persName type="person" key="Baumgartner Gallus Jakob">Baumgartners</persName>
-                        <note xml:id="K_1249_c8">
-                            <persName type="person" key="Baumgartner Gallus Jakob">Gallus Jakob Baumgartner</persName> (1797–1869), Grossrat (<placeName type="place" key="St. Gallen">SG</placeName>), ehemals Mitglied des provisorischen Verwaltungsrates und neu einer der drei Direktoren der <ref type="kbe"/>Südostbahn, zuständig für die Rechts- und Kontrollabteilung; 1853 kurzzeitig Verwaltungsrat der St. Gallisch-Appenzellischen Eisenbahn. <ref type="letter" target="K_1243"><!-- → Nr. 18--></ref>.</note>
-                    </seg> Angst weil<lb xml:id="p1-l20"/>
+                    <supplied type="unclear">Gall</supplied>sucht<note xml:id="K_1249_c6">Gallsucht: Jähzorn.</note>
+                </seg> <seg type="com">
+                    <persName type="person" key="Hungerbühler Johann Matthias">
+                        <hi>Hunger</hi> 
+                        <lb break="no" xml:id="p1-l19"/>
+                        <hi>bühlers</hi>
+                    </persName>
+                    <note xml:id="K_1249_c7">
+                        <persName type="person" key="Hungerbühler Johann Matthias">Johann Matthias Hungerbühler</persName> (1805–1884), Grossrat, Mitglied des Kleinen Rats und Nationalrat (<placeName type="place" key="St. Gallen">SG</placeName>), Verwaltungsrat der <ref type="kbe"/>St. Gallisch-Appenzellischen Eisenbahn.</note>
+                </seg>, namentlich <seg type="com">
+                    <persName type="person" key="Baumgartner Gallus Jakob">Baumgartners</persName>
+                    <note xml:id="K_1249_c8">
+                        <persName type="person" key="Baumgartner Gallus Jakob">Gallus Jakob Baumgartner</persName> (1797–1869), Grossrat (<placeName type="place" key="St. Gallen">SG</placeName>), ehemals Mitglied des provisorischen Verwaltungsrates und neu einer der drei Direktoren der <ref type="kbe"/>Südostbahn, zuständig für die Rechts- und Kontrollabteilung; 1853 kurzzeitig Verwaltungsrat der St. Gallisch-Appenzellischen Eisenbahn. <ref type="letter" target="K_1243"><!-- → Nr. 18--></ref>.</note>
+                </seg> Angst weil<lb xml:id="p1-l20"/>
 von seiner Stellung die Rede ist, bewogen zur<lb xml:id="p1-l21"/>
 blos auszüglichen Mittheilung. <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
+                <lb xml:id="p2-l1"/>
         Hätte ich <del>Baum</del>die Documente hier würde<lb xml:id="p2-l2"/>
         ich sie Ihnen unbedencklich <hi rend="underline">privatim</hi> mittheilen<lb xml:id="p2-l3"/>
         nur <hi rend="underline">offiziel</hi> dürfen wir gegen <placeName type="place" key="Zürich">Zürich</placeName> nicht<lb xml:id="p2-l4"/>
         comunicativer sein, als gegen die 3 Kantone...<lb xml:id="p2-l5"/> <seg type="ref">
-                        <persName type="person" key="Blumer Johann Jakob">
-                            <hi>Blumer</hi>
-                        </persName>
-                        <ref type="kbp">→ Johann Jakob Blumer</ref>
-                    </seg> kennt die Sache übrigens genau.<lb xml:id="p2-l6"/>
+                    <persName type="person" key="Blumer Johann Jakob">
+                        <hi>Blumer</hi>
+                    </persName>
+                    <ref type="kbp">→ Johann Jakob Blumer</ref>
+                </seg> kennt die Sache übrigens genau.<lb xml:id="p2-l6"/>
         Folgendes ist der Hauptinhalt</p>
       <p rend="indent" xml:id="K_1249_p4">
-                    <lb xml:id="p2-l7"/>
+                <lb xml:id="p2-l7"/>
         <choice>
                         <abbr>1<hi rend="sup">o</hi> </abbr>
                         <expan>primo (erstens)</expan>
                     </choice> im ersten Protokoll heißt es, die<lb xml:id="p2-l8"/>
-                    <placeName type="place" key="England">Engländer</placeName> wünschten in der Direction einen<lb xml:id="p2-l9"/>
+                <placeName type="place" key="England">Engländer</placeName> wünschten in der Direction einen<lb xml:id="p2-l9"/>
         Mann ihres Vertrauens zu sehen, wenn auch Schweizer,<lb xml:id="p2-l10"/>
         und schlügen dazu <seg type="ref">
-                        <persName type="person" key="Killias Wolfgang">
-                            <hi>Killias</hi>
-                        </persName>
-                        <ref type="kbp">→ Wolfgang Killias</ref>
-                    </seg> vor, worauf wir des<lb xml:id="p2-l11"/>
+                    <persName type="person" key="Killias Wolfgang">
+                        <hi>Killias</hi>
+                    </persName>
+                    <ref type="kbp">→ Wolfgang Killias</ref>
+                </seg> vor, worauf wir des<lb xml:id="p2-l11"/>
         Hausfriedens <choice>
                         <abbr>
-                            <hi>etc</hi> </abbr>
+                    <hi>etc</hi> </abbr>
                         <expan>et cetera (und anderes)</expan>
                     </choice> wegen auch <persName type="person" key="Baumgartner Gallus Jakob">
-                        <hi>Baumgartner</hi>
-                    </persName> und<lb xml:id="p2-l12"/> <seg type="ref">
-                        <persName type="person" key="La Nicca Richard">
-                            <hi>La Nicca</hi>
-                        </persName>
-                        <ref type="kbp">→ Richard La Nicca</ref>
-                    </seg> <seg type="com">bezeichneten, welche ebenfalls genehmiget<lb xml:id="p2-l13"/>
+                    <hi>Baumgartner</hi>
+                </persName> und<lb xml:id="p2-l12"/> <seg type="ref">
+                    <persName type="person" key="La Nicca Richard">
+                        <hi>La Nicca</hi>
+                    </persName>
+                    <ref type="kbp">→ Richard La Nicca</ref>
+                </seg> <seg type="com">bezeichneten, welche ebenfalls genehmiget<lb xml:id="p2-l13"/>
           wurden. Diese Direktion dauert während der<lb xml:id="p2-l14"/>
-                        <hi rend="underline">Bauzeit</hi> und hört auf, sobald der <hi rend="underline">Betrieb</hi> beginnt.<note xml:id="K_1249_c9">
-                            <choice>
+                    <hi rend="underline">Bauzeit</hi> und hört auf, sobald der <hi rend="underline">Betrieb</hi> beginnt.<note xml:id="K_1249_c9">
+                        <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Verbalprozess SOB</ref>, <choice>
@@ -198,20 +245,21 @@ blos auszüglichen Mittheilung. <pb n="2"/>
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 15–16. </note>
-                    </seg> <lb xml:id="p2-l15"/> <seg type="com">Ihr Gehalt ist 7500 <choice>
+                </seg> <lb xml:id="p2-l15"/> <seg type="com">Ihr Gehalt ist 7500 <choice>
                             <abbr>Fr.</abbr>
                             <expan>Franken / Francs / Franchi</expan>
                         </choice> per Jahr. Mitglieder des<lb xml:id="p2-l16"/>
-                        <hi>Generalcomites</hi> erhalten Taggeld von 15 <choice>
+                    <hi>Generalcomites</hi> erhalten Taggeld von 15 <choice>
                             <abbr>Fr.</abbr>
                             <expan>Franken / Francs / Franchi</expan>
                         </choice> und<lb xml:id="p2-l17"/>
             Reisegeld von 1 <choice>
                             <abbr>Fr.</abbr>
                             <expan>Franken / Francs / Franchi</expan>
-                        </choice> per Stunde. Die ganze General<lb break="no" xml:id="p2-l18"/>administration 
+                        </choice> per Stunde. Die ganze General
+                    <lb break="no" xml:id="p2-l18"/>administration 
             darf <del>1200 <supplied type="unclear">℔</supplied>
-                        </del> <add>1200 <supplied type="unclear">℔</supplied> </add> <hi>Sterling</hi> nicht übersteigen<lb xml:id="p2-l19"/>
+                    </del> <add>1200 <supplied type="unclear">℔</supplied> </add> <hi>Sterling</hi> nicht übersteigen<lb xml:id="p2-l19"/>
             da sonst die <placeName type="place" key="England">Engländer</placeName> beim Bau à forfait zu viel<lb xml:id="p2-l20"/>
             einbüßen müßten.<note xml:id="K_1249_c10">Gehaltsangaben und Entschädigungen stimmen mit den Angaben im Verbalprozess überein; die Gesamtkosten der Administration sind hier mit 37 500 Schweizer Franken angegeben. <choice>
                                 <abbr>Vgl.</abbr>
@@ -223,11 +271,11 @@ blos auszüglichen Mittheilung. <pb n="2"/>
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 17. </note>
-                    </seg> <add>Es geht diese Ausgabe nämlich mit den <seg type="com">25 <choice>
+                </seg> <add>Es geht diese Ausgabe nämlich mit den <seg type="com">25 <choice>
                                 <abbr>Mill.</abbr>
                                 <expan>Million</expan>
                             </choice>
-                            <note xml:id="K_1249_c11">Die Gesamtkosten für die Erstellung der ersten Sektion wurden auf 25 <choice>
+                        <note xml:id="K_1249_c11">Die Gesamtkosten für die Erstellung der ersten Sektion wurden auf 25 <choice>
                                     <abbr>Mio.</abbr>
                                     <expan>Million(en)</expan>
                                 </choice> Franken beziffert. <choice>
@@ -240,7 +288,7 @@ blos auszüglichen Mittheilung. <pb n="2"/>
                                     <abbr>S.</abbr>
                                     <expan>Seite(n)</expan>
                                 </choice> 7; <ref type="sum" target="Ostalpenbahnfrage_p14"><!-- → Band 1, S. 45--></ref>.</note>
-                        </seg> </add> <lb xml:id="p2-l21"/> <seg type="com">Ferner sollen unsere Vorbereitungsauslagen <add>ebenfall<!--Transkriptionsbereinigung: [s] entfernt--></add> <lb xml:id="p2-l22"/>
+                    </seg> </add> <lb xml:id="p2-l21"/> <seg type="com">Ferner sollen unsere Vorbereitungsauslagen <add>ebenfall<!--Transkriptionsbereinigung: [s] entfernt--></add> <lb xml:id="p2-l22"/>
               aus den 25 <choice>
                             <abbr>Mill.</abbr>
                             <expan>Million</expan>
@@ -249,8 +297,8 @@ blos auszüglichen Mittheilung. <pb n="2"/>
                             <abbr>Fr.</abbr>
                             <expan>Franken / Francs / Franchi</expan>
                         </choice> übersteigen. –<pb n="3"/>
-                        <note xml:id="K_1249_c12">
-                            <choice>
+                    <note xml:id="K_1249_c12">
+                        <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Verbalprozess SOB</ref>, <choice>
@@ -260,23 +308,24 @@ blos auszüglichen Mittheilung. <pb n="2"/>
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 17. </note>
-                    </seg> <lb xml:id="p3-l1"/>Ein 3<hi rend="sup">ter</hi> <choice>
+                </seg> <lb xml:id="p3-l1"/>Ein 3<hi rend="sup">ter</hi> <choice>
                         <abbr>Art.</abbr>
                         <expan>Artikel</expan>
                     </choice> bestimmt, daß wir die Erklärung<lb xml:id="p3-l2"/>
 des Rücktrits im Falle der Fusion mit der<lb xml:id="p3-l3"/> <seg type="ref">2<hi rend="sup">ten</hi> Section<ref type="sum" target="Ostalpenbahnfrage_p14">2. Sektion<!-- → Band 1, S. 45--></ref>
-                    </seg> schon <hi rend="underline">jezt</hi> von unsern Actionairs<lb xml:id="p3-l4"/>
+                </seg> schon <hi rend="underline">jezt</hi> von unsern Actionairs<lb xml:id="p3-l4"/>
 einholen sollen, in dem die <seg type="ref">
-                        <placeName type="place" key="England">Engländer</placeName>
-                        <ref type="sum" target="Ostalpenbahnfrage_p11">Englisches Konsortium<!-- → Band 1, S. 44--></ref>
-                    </seg> den<lb xml:id="p3-l5"/>
+                    <placeName type="place" key="England">Engländer</placeName>
+                    <ref type="sum" target="Ostalpenbahnfrage_p11">Englisches Konsortium<!-- → Band 1, S. 44--></ref>
+                </seg> den<lb xml:id="p3-l5"/>
 frühern <supplied type="unclear">Uso</supplied> nicht fortdauern laßen wollten<lb xml:id="p3-l6"/>
 nämlich die facultative Wahl selbst <hi rend="underline">später</hi> <lb xml:id="p3-l7"/>
 sich einlösen zu laßen. – <seg type="com">Dagegen verpflichten<lb xml:id="p3-l8"/>
 sich die <placeName type="place" key="England">Engländer</placeName>, sofern wir 9 <choice>
                             <abbr>Mill.</abbr>
                             <expan>Million</expan>
-                        </choice> ein<lb break="no" xml:id="p3-l9"/>schießen <hi rend="underline">nöthigenfalls</hi> das Fehlende an den<lb xml:id="p3-l10"/>
+                        </choice> ein
+                    <lb break="no" xml:id="p3-l9"/>schießen <hi rend="underline">nöthigenfalls</hi> das Fehlende an den<lb xml:id="p3-l10"/>
 12½ auch zu übernehmen, obschon ungern. –<lb xml:id="p3-l11"/>
 Fehlen <add>aber</add> die vollen 9 <choice>
                             <abbr>Mill.</abbr>
@@ -295,18 +344,18 @@ ihnen auch frei zurückzutreten.<note xml:id="K_1249_c13">Der Inhalt dieses drit
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 18.</note>
-                    </seg> – Der<lb xml:id="p3-l13"/>
+                </seg> – Der<lb xml:id="p3-l13"/>
 lezte Artikel enthält eine Empfelung<lb xml:id="p3-l14"/>
-                    <hi rend="underline">unserer</hi> Ingenieurs und Gegenerklärung<lb xml:id="p3-l15"/>
+                <hi rend="underline">unserer</hi> Ingenieurs und Gegenerklärung<lb xml:id="p3-l15"/>
         des <hi>Oberingenieurs</hi> <seg type="com">
-                        <persName type="person" key="Hemans George Willoughby">
-                            <hi>Hemans</hi>
-                        </persName>
-                        <note xml:id="K_1249_c14">
-                            <persName type="person" key="Hemans George Willoughby">George Willoughby Hemans</persName> (1814–1885), <placeName type="place" key="Irland">irischer</placeName> Eisenbahningenieur, Oberingenieur der Schweizerischen Südostbahn.</note>
-                    </seg>. <seg type="com">
-                        <note xml:id="K_1249_c15">
-                            <persName type="person" key="Hemans George Willoughby">Hemans</persName> gab mündlich die Versicherung ab, die schweizerischen Ingenieure, welche an technischen Vorarbeiten für die Schweizerischen Südostbahn beteiligt gewesen waren, bei Eignung weiter zu beschäftigen. <choice>
+                    <persName type="person" key="Hemans George Willoughby">
+                        <hi>Hemans</hi>
+                    </persName>
+                    <note xml:id="K_1249_c14">
+                        <persName type="person" key="Hemans George Willoughby">George Willoughby Hemans</persName> (1814–1885), <placeName type="place" key="Irland">irischer</placeName> Eisenbahningenieur, Oberingenieur der Schweizerischen Südostbahn.</note>
+                </seg>. <seg type="com">
+                    <note xml:id="K_1249_c15">
+                        <persName type="person" key="Hemans George Willoughby">Hemans</persName> gab mündlich die Versicherung ab, die schweizerischen Ingenieure, welche an technischen Vorarbeiten für die Schweizerischen Südostbahn beteiligt gewesen waren, bei Eignung weiter zu beschäftigen. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Verbalprozess SOB</ref>, <choice>
@@ -316,35 +365,36 @@ lezte Artikel enthält eine Empfelung<lb xml:id="p3-l14"/>
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 18–19. </note>
-                    </seg> <hi rend="underline">Sehr</hi> unschuldig!<lb xml:id="p3-l16"/>
+                </seg> <hi rend="underline">Sehr</hi> unschuldig!<lb xml:id="p3-l16"/>
 Sie sehen, das 1<hi rend="sup">te</hi> Protokoll enthält<lb xml:id="p3-l17"/>
-                    <hi>personalia</hi>. <del>und</del> Die <persName type="person" key="Baumgartner Gallus Jakob">Baumgartnersche</persName> <supplied type="unclear">...</supplied> <lb xml:id="p3-l18"/>
-bemerkten diese Geheimnißkramerei. Über<lb break="no" xml:id="p3-l19"/>haupt 
+                <hi>personalia</hi>. <del>und</del> Die <persName type="person" key="Baumgartner Gallus Jakob">Baumgartnersche</persName> <supplied type="unclear">...</supplied> <lb xml:id="p3-l18"/>
+bemerkten diese Geheimnißkramerei. Über
+                <lb break="no" xml:id="p3-l19"/>haupt 
 ist dieser Herr sehr auf sich bedacht und gut zu<lb xml:id="p3-l20"/>
 brauchen als Gegenhacken gegen <persName type="person" key="Hungerbühler Johann Matthias">
-                        <hi>Hungerbühler</hi>
-                    </persName>, aber<lb xml:id="p3-l21"/>
+                    <hi>Hungerbühler</hi>
+                </persName>, aber<lb xml:id="p3-l21"/>
 soweit es von ihm abhinge <seg type="ref">möchte er <hi rend="underline">
-                            <placeName type="place" key="Zürich">
-                                <hi>Zürich</hi>
-                            </placeName>
-                        </hi> <lb xml:id="p3-l22"/>
+                        <placeName type="place" key="Zürich">
+                            <hi>Zürich</hi>
+                        </placeName>
+                    </hi> <lb xml:id="p3-l22"/>
 ebenfalls gern aus dem Spiele haben;<ref type="letter" target="K_1230"><!-- → Nr. 12--></ref>
-                    </seg> und ich <del>just</del> <lb xml:id="p3-l23"/>
+                </seg> und ich <del>just</del> <lb xml:id="p3-l23"/>
 möchte au <hi>contraire</hi>, <hi rend="underline">
-                        <placeName type="place" key="Zürich">Zürich</placeName>
-                    </hi>
+                    <placeName type="place" key="Zürich">Zürich</placeName>
+                </hi>
 dabei als Gegenmacht gegen<lb xml:id="p3-l24"/>
-                    <placeName type="place" key="St. Gallen">
-                        <hi>S<hi rend="sup">t</hi> <hi rend="underline">Gallen</hi> </hi>
-                    </placeName>! <hi rend="underline">Ihr</hi> als <hi rend="underline">unser</hi> Intereße<lb xml:id="p3-l25"/> <seg type="ref">erheischt <hi rend="underline">Ihre</hi> Betheiligung<lb xml:id="p3-l26"/>
-                        <hi rend="underline">dringend</hi>!!<ref type="sum" target="Ostalpenbahnfrage_p16"><!-- → Band 1, S. 46–47--></ref>
-                    </seg> <pb n="4"/>
-                    <lb xml:id="p4-l1"/> <seg type="com">Während das erste Protokoll <hi>personalia</hi> enthält<lb xml:id="p4-l2"/>
+                <placeName type="place" key="St. Gallen">
+                    <hi>S<hi rend="sup">t</hi> <hi rend="underline">Gallen</hi> </hi>
+                </placeName>! <hi rend="underline">Ihr</hi> als <hi rend="underline">unser</hi> Intereße<lb xml:id="p3-l25"/> <seg type="ref">erheischt <hi rend="underline">Ihre</hi> Betheiligung<lb xml:id="p3-l26"/>
+                    <hi rend="underline">dringend</hi>!!<ref type="sum" target="Ostalpenbahnfrage_p16"><!-- → Band 1, S. 46–47--></ref>
+                </seg> <pb n="4"/>
+                <lb xml:id="p4-l1"/> <seg type="com">Während das erste Protokoll <hi>personalia</hi> enthält<lb xml:id="p4-l2"/>
 betrifft das 2<hi rend="sup">te</hi>, das von mir verfaßt<lb xml:id="p4-l3"/>
 wurde, nachträglich zur Beruhigung der<lb xml:id="p4-l4"/>
 Gemüther, die Cautionen beim Bau.<note xml:id="K_1249_c16">
-                            <choice>
+                        <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Zweiter Verbalprozess SOB</ref>, <choice>
@@ -354,21 +404,21 @@ Gemüther, die Cautionen beim Bau.<note xml:id="K_1249_c16">
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 20–21.</note>
-                    </seg> <lb xml:id="p4-l5"/>
+                </seg> <lb xml:id="p4-l5"/>
 Ich will trachten, daß Salis Ihnen wörtliche<lb xml:id="p4-l6"/> <seg type="com">Abschrift verschafft.<note xml:id="K_1249_c17">Brief nicht ermittelt.</note>
-                    </seg> Hauptinhalt ist in<lb xml:id="p4-l7"/> <seg type="com">nebigem Circular<note xml:id="K_1249_c18">Beilage nicht überliefert. – Gemeint ist das Kreisschreiben vom <date when="1853-09-05">5. September 1853</date>. <choice>
+                </seg> Hauptinhalt ist in<lb xml:id="p4-l7"/> <seg type="com">nebigem Circular<note xml:id="K_1249_c18">Beilage nicht überliefert. – Gemeint ist das Kreisschreiben vom <date when="1853-09-05">5. September 1853</date>. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Kreisschreiben SOB 1853</ref>.</note>
-                    </seg> angegeben.  –<lb xml:id="p4-l8"/>
+                </seg> angegeben.  –<lb xml:id="p4-l8"/>
 Endlich mache ich Sie auf <seg type="com">
-                        <choice>
+                    <choice>
                             <abbr>Art.</abbr>
                             <expan>Artikel</expan>
                         </choice> 6 der<lb xml:id="p4-l9"/>
 Statuten aufmercksam ebenfalls<lb xml:id="p4-l10"/>
 den <del>Ita</del> Bau betreffend.<note xml:id="K_1249_c19">
-                            <choice>
+                        <choice>
                                 <abbr>Art.</abbr>
                                 <expan>Artikel</expan>
                             </choice> 6 der Statuten enthält die Grundlagen betreffend Vergabe der Bauarbeiten im Akkord an die <placeName type="place" key="England">englischen</placeName> Unternehmer und verweist auf den Vertrag (Convention) sowie auf die Vorschriften in den Konzessionen der Kantone. Die Summe von 25 <choice>
@@ -384,13 +434,13 @@ den <del>Ita</del> Bau betreffend.<note xml:id="K_1249_c19">
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Konvention Gründung Gesellschaft</ref>.</note>
-                    </seg> –</p>
+                </seg> –</p>
       <p rend="indent" xml:id="K_1249_p5">
-                    <lb xml:id="p4-l11"/>Einen <hi rend="underline">Rücktrit</hi> Seitens der Kantone<lb xml:id="p4-l12"/> befürchten wir nicht, höchstens Hacken Seitens<lb xml:id="p4-l13"/>
+                <lb xml:id="p4-l11"/>Einen <hi rend="underline">Rücktrit</hi> Seitens der Kantone<lb xml:id="p4-l12"/> befürchten wir nicht, höchstens Hacken Seitens<lb xml:id="p4-l13"/>
 von <placeName type="place" key="St. Gallen">St. Gallen</placeName> bei Genehmigung der Statuten<lb xml:id="p4-l14"/>
 indem man doch eine offizielle Vertretung<lb xml:id="p4-l15"/>
 der Kantone <add>
-                        <choice>
+                    <choice>
                             <abbr>resp.</abbr>
                             <expan>respektive / respective</expan>
                         </choice> Regierungsräthe</add> im Generalrath zu Gunsten<lb xml:id="p4-l16"/>
@@ -406,9 +456,9 @@ die ausländischen Capitalisten sich ebenfalls bedancken<lb xml:id="p4-l22"/>
 müßten. – Auch die Privat<hi>actionairs</hi> würden<lb xml:id="p4-l23"/>
 schwerlich starck abfallen und jedenfalls sich eisetzen<!--Transkriptionsbereinigung: [n] entfernt-->. <lb xml:id="p4-l24"/>
         Am besorgtesten waren wir in Betreff der<lb xml:id="p4-l25"/> <seg type="com">
-                        <placeName type="place" key="Chur">
-                            <hi>Churer</hi>
-                        </placeName> Stadtmillion.<note xml:id="K_1249_c20">Neben den Kantonen <placeName type="place" key="St. Gallen">St. Gallen</placeName> mit 2,75 <choice>
+                    <placeName type="place" key="Chur">
+                        <hi>Churer</hi>
+                    </placeName> Stadtmillion.<note xml:id="K_1249_c20">Neben den Kantonen <placeName type="place" key="St. Gallen">St. Gallen</placeName> mit 2,75 <choice>
                                 <abbr>Mio.</abbr>
                                 <expan>Million(en)</expan>
                             </choice> Franken und <placeName type="place" key="Graubünden">Graubünden</placeName> mit 2 <choice>
@@ -424,21 +474,21 @@ schwerlich starck abfallen und jedenfalls sich eisetzen<!--Transkriptionsbereini
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 29. – Diese Beteiligung wurde im September 1853 nochmals bestätigt. <ref type="letter" target="K_1254"><!-- → Nr. 22--></ref>.</note>
-                    </seg> <pb n="5"/>
-                    <lb xml:id="p5-l1"/>
+                </seg> <pb n="5"/>
+                <lb xml:id="p5-l1"/>
 Aber <persName type="person" key="Salis (Soglio) Anton von">
-                        <hi>Salis</hi>
-                    </persName> schreibt <date when="1853-09-09">heute</date>, die Stimmung sei<lb xml:id="p5-l2"/>
+                    <hi>Salis</hi>
+                </persName> schreibt <date when="1853-09-09">heute</date>, die Stimmung sei<lb xml:id="p5-l2"/>
 gut. Wenn Sie abfallen wollten, könnte<lb xml:id="p5-l3"/>
 man die Stadt zu empfindlich strafen, um<lb xml:id="p5-l4"/>
 nicht die shopkeepers und Handwerker <add>ziemlich</add> <lb xml:id="p5-l5"/>
     für uns stimmen machen zu können! –<lb xml:id="p5-l6"/>
 Also Abtrünnige hoffen wir nicht viele<lb xml:id="p5-l7"/>
 zu finden. – Die <seg type="ref">
-                        <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>intriguen<ref type="letter" target="K_1233"><!-- → Nr. 14--></ref>
-                    </seg> wircken<lb xml:id="p5-l8"/>
-                    <del>auch</del> hinfür nur günstig. – <seg type="com">
-                        <add>Auf 9 <choice>
+                    <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>intriguen<ref type="letter" target="K_1233"><!-- → Nr. 14--></ref>
+                </seg> wircken<lb xml:id="p5-l8"/>
+                <del>auch</del> hinfür nur günstig. – <seg type="com">
+                    <add>Auf 9 <choice>
                                 <abbr>Mill.</abbr>
                                 <expan>Million</expan>
                             </choice> sollten wir rechnen können</add>.<note xml:id="K_1249_c21">Die Beteiligung auf Schweizer Seite belief sich schlussendlich auf 9,189 <choice>
@@ -451,198 +501,202 @@ zu finden. – Die <seg type="ref">
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 37.</note>
-                    </seg> <lb xml:id="p5-l9"/>
+                </seg> <lb xml:id="p5-l9"/>
 Wir hoffen aber überdies noch bis auf<lb xml:id="p5-l10"/>
 12 <choice>
                         <abbr>Mill.</abbr>
                         <expan>Million</expan>
                     </choice> eigne Actien einzuschießen,<lb xml:id="p5-l11"/>
 falls <hi rend="underline">
-                        <placeName type="place" key="Zürich">Zürich</placeName>
-                    </hi> sich betheiliget.</p>
+                    <placeName type="place" key="Zürich">Zürich</placeName>
+                </hi> sich betheiliget.</p>
       <p rend="indent" xml:id="K_1249_p6">
-                    <lb xml:id="p5-l12"/>Laßen Sie nun, ich bitte<del>,</del> in Ihrem<lb xml:id="p5-l13"/>
+                <lb xml:id="p5-l12"/>Laßen Sie nun, ich bitte<del>,</del> in Ihrem<lb xml:id="p5-l13"/>
 spezifisch <hi rend="underline">
-                        <placeName type="place" key="Zürich">zürcherischen</placeName>
-                    </hi> Intereße und zum<lb xml:id="p5-l14"/>
+                    <placeName type="place" key="Zürich">zürcherischen</placeName>
+                </hi> Intereße und zum<lb xml:id="p5-l14"/>
 Gegenschuß gegen <placeName type="place" key="Luzern">
-                        <hi>Luzerniana</hi>
-                    </placeName> den<lb xml:id="p5-l15"/>
+                    <hi>Luzerniana</hi>
+                </placeName> den<lb xml:id="p5-l15"/>
 Betheiligungsbeschluß gleich los und von <add>rechtzeitig</add> <lb xml:id="p5-l16"/>
 Stappel gehen, dann telegraphieren Sie ihn<lb xml:id="p5-l17"/>
 an Freund <seg type="ref">
-                        <persName type="person" key="Dubs Jakob">
-                            <hi>Dubs</hi>
-                        </persName>
-                        <ref type="kbp">→ Jakob Dubs</ref>
-                    </seg> <seg type="com">
-                        <note xml:id="K_1249_c22">
-                            <persName type="person" key="Dubs Jakob">Dubs</persName> war als Abgeordneter des Kantons <placeName type="place" key="Zürich">Zürich</placeName> zu den Verhandlungen betreffend <placeName type="place" key="Lukmanier (Pass)">Lukmanierkonzession</placeName> an der ausserordentlichen Septembersession des <placeName type="place" key="Tessin">Tessiner</placeName> Grossen Rates vom <date when="1853-09-12">12.</date> bis <date when="1853-09-15">15. September 1853</date> vorgesehen, konnte an dieser dann aber nicht teilnehmen. Statt dessen wurde <ref type="kbp"/>
-                            <persName type="person" key="Sidler Georg Joseph">Georg Joseph Sidler</persName> nach <placeName type="place" key="Bellinzona">Bellinzona</placeName> entsandt. <ref type="letter" target="K_3418"><!-- → Nr. 21--></ref>.</note>
-                    </seg> oder <persName type="person" key="Killias Wolfgang">
-                        <hi>Killias</hi>
-                    </persName> nach <placeName type="place" key="Bellinzona">
-                        <hi>Bellenz</hi>
-                    </placeName>. </p>
+                    <persName type="person" key="Dubs Jakob">
+                        <hi>Dubs</hi>
+                    </persName>
+                    <ref type="kbp">→ Jakob Dubs</ref>
+                </seg> <seg type="com">
+                    <note xml:id="K_1249_c22">
+                        <persName type="person" key="Dubs Jakob">Dubs</persName> war als Abgeordneter des Kantons <placeName type="place" key="Zürich">Zürich</placeName> zu den Verhandlungen betreffend <placeName type="place" key="Lukmanier (Pass)">Lukmanierkonzession</placeName> an der ausserordentlichen Septembersession des <placeName type="place" key="Tessin">Tessiner</placeName> Grossen Rates vom <date when="1853-09-12">12.</date> bis <date when="1853-09-15">15. September 1853</date> vorgesehen, konnte an dieser dann aber nicht teilnehmen. Statt dessen wurde <ref type="kbp"/>
+                        <persName type="person" key="Sidler Georg Joseph">Georg Joseph Sidler</persName> nach <placeName type="place" key="Bellinzona">Bellinzona</placeName> entsandt. <ref type="letter" target="K_3418"><!-- → Nr. 21--></ref>.</note>
+                </seg> oder <persName type="person" key="Killias Wolfgang">
+                    <hi>Killias</hi>
+                </persName> nach <placeName type="place" key="Bellinzona">
+                    <hi>Bellenz</hi>
+                </placeName>. </p>
       <p rend="indent" xml:id="K_1249_p7">
-                    <lb xml:id="p5-l18"/>Eine <choice>
+                <lb xml:id="p5-l18"/>Eine <choice>
                         <abbr>telegr.</abbr>
                         <expan>telegraphisch</expan>
                     </choice> Depesche von <persName type="person" key="Killias Wolfgang">
-                        <hi>Killias</hi>
-                    </persName> <del>schreibt</del> aus<lb xml:id="p5-l19"/>
-                    <placeName type="place" key="Bellinzona">
-                        <hi>Bellenz</hi>
-                    </placeName> meldet mir <date when="1853-09-09">heute</date> abend: « <seg type="com">
-                        <hi>Memorial</hi>
-                        <note xml:id="K_1249_c23">Memorial des <placeName type="place" key="Luzern">Kantons Luzern</placeName> an den Bundesrat vom <date when="1853-09-03">3. September 1853</date> mit der Aufforderung, sich an den Konzessionsverhandlungen im <placeName type="place" key="Tessin">Tessin</placeName> vertreten zu lassen. <choice>
+                    <hi>Killias</hi>
+                </persName> <del>schreibt</del> aus<lb xml:id="p5-l19"/>
+                <placeName type="place" key="Bellinzona">
+                    <hi>Bellenz</hi>
+                </placeName> meldet mir <date when="1853-09-09">heute</date> abend: « <seg type="com">
+                    <hi>Memorial</hi>
+                    <note xml:id="K_1249_c23">Memorial des <placeName type="place" key="Luzern">Kantons Luzern</placeName> an den Bundesrat vom <date when="1853-09-03">3. September 1853</date> mit der Aufforderung, sich an den Konzessionsverhandlungen im <placeName type="place" key="Tessin">Tessin</placeName> vertreten zu lassen. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Memorial Gotthardts-Eisenbahn 1853</ref>; <ref type="letter" target="K_1247"><!--Brief Anton von Salis an Escher, 8. September 1853 (BAR J I.67-8)--></ref>; <ref type="letter" target="K_1248"><!-- → Nr 19--></ref>; <ref type="sum" target="Ostalpenbahnfrage_p21"><!-- → Band 1, S. 48--></ref>.</note>
-                    </seg> <lb xml:id="p5-l20"/>
+                </seg> <lb xml:id="p5-l20"/>
 wird pulverisirt, Abordnung des Bundesraths kommt<lb xml:id="p5-l21"/>
         schwerlich, <seg type="com">
-                        <placeName type="place" key="Lugano">
-                            <hi>Lugano</hi>
-                        </placeName> einziger Anstand, vielleicht zu haben.»<note xml:id="K_1249_c24">Die Schweizerische Südostbahn anerbot sich neuerdings, auch die <placeName type="place" key="Monte Ceneri (Pass)">Ceneri-Linie</placeName> (<placeName type="place" key="Bellinzona">Bellinzona</placeName>–<placeName type="place" key="Lugano">Lugano</placeName>) zu bauen, da ansonsten Opposition aus dem <placeName type="place" key="Sottoceneri">Sottoceneri</placeName> drohte. <choice>
+                    <placeName type="place" key="Lugano">
+                        <hi>Lugano</hi>
+                    </placeName> einziger Anstand, vielleicht zu haben.»<note xml:id="K_1249_c24">Die Schweizerische Südostbahn anerbot sich neuerdings, auch die <placeName type="place" key="Monte Ceneri (Pass)">Ceneri-Linie</placeName> (<placeName type="place" key="Bellinzona">Bellinzona</placeName>–<placeName type="place" key="Lugano">Lugano</placeName>) zu bauen, da ansonsten Opposition aus dem <placeName type="place" key="Sottoceneri">Sottoceneri</placeName> drohte. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Liberaler Alpenbote</ref>, 13. September 1853; <ref type="letter" target="K_1203"><!-- → Nr. 7--></ref>; <ref type="letter" target="K_1204"><!-- → Nr. 8--></ref>; <ref type="letter" target="K_3418"><!-- → Nr. 21--></ref>; <ref type="sum" target="Ostalpenbahnfrage_d1.4"><!-- → Band 1, S. 44–46--></ref>.</note>
-                    </seg> </p>
+                </seg> </p>
       <p rend="indent" xml:id="K_1249_p8">
-                    <lb xml:id="p5-l22"/>Nun noch <placeName type="place" key="Zürich">zürcherischer</placeName> Trumpf darauf und die <lb xml:id="p5-l23"/>
+                <lb xml:id="p5-l22"/>Nun noch <placeName type="place" key="Zürich">zürcherischer</placeName> Trumpf darauf und die <lb xml:id="p5-l23"/>
     Sache ist in Ordnung!! <pb n="6"/>
-                </p>
+            </p>
       <p rend="indent" xml:id="K_1249_p9">
-                    <lb xml:id="p6-l1"/>Da die Post mir erst Abends die Briefe bringt<lb xml:id="p6-l2"/>
+                <lb xml:id="p6-l1"/>Da die Post mir erst Abends die Briefe bringt<lb xml:id="p6-l2"/>
 und ich meine Correspondenz über Nacht<lb xml:id="p6-l3"/>
-abfertigen muß, wollen Sie meine Eil<lb break="no" xml:id="p6-l4"/>fertigkeit 
+abfertigen muß, wollen Sie meine Eil
+                <lb break="no" xml:id="p6-l4"/>fertigkeit 
 entschuldigen. Ich habe <date when="1853-09-09">heute</date> <lb xml:id="p6-l5"/>
     viel noch auf der <seg type="com">Kunkel.<note xml:id="K_1249_c25">Kunkel: Spinnrocken; viel auf der Kunkel haben, übertragen: viel zu tun haben.</note>
-                    </seg> –</p>
+                </seg> –</p>
       <p rend="left" xml:id="K_1249_p10">
-                    <lb xml:id="p6-l6"/>Der <choice>
+                <lb xml:id="p6-l6"/>Der <choice>
                         <abbr>schweiz.</abbr>
                         <expan>schweizerisch</expan>
-                    </choice> <seg type="ref">Generalrath wird von <add>der</add> Generalver<lb break="no" xml:id="p6-l7"/>sammlung 
+                    </choice> <seg type="ref">Generalrath wird von <add>der</add> Generalver
+                    <lb break="no" xml:id="p6-l7"/>sammlung 
           am <date when="1853-11-08">8ten <choice>
                                 <abbr>
-                                    <hi>Novb<hi rend="sup">r</hi> </hi>
-                                </abbr>
+                            <hi>Novb<hi rend="sup">r</hi> </hi>
+                        </abbr>
                                 <expan>November</expan>
                             </choice> </date> gewählt.<ref type="letter" target="K_1273"><!-- → Nr. 28--></ref>
-                        <ref type="sum" target="Ostalpenbahnfrage_p19"><!-- → Band 1, S. 47--></ref>
-                    </seg> Ich<lb xml:id="p6-l8"/>
+                    <ref type="sum" target="Ostalpenbahnfrage_p19"><!-- → Band 1, S. 47--></ref>
+                </seg> Ich<lb xml:id="p6-l8"/>
 hätte ihn folgendermaßen componirt, wenn<lb xml:id="p6-l9"/>
         ich alle Stimmen dirigiren könnte. Von<lb xml:id="p6-l10"/>
-                    <placeName type="place" key="St. Gallen">
-                        <hi>S<hi rend="sup">t</hi> Gallen</hi>
-                    </placeName>: <seg type="com">
-                        <persName type="person" key="Curti Basil Ferdinand">
-                            <hi>Curti</hi>
-                        </persName>
-                        <note xml:id="K_1249_c26">
-                            <persName type="person" key="Curti Basil Ferdinand">Basil Ferdinand Curti</persName> (1804–1888), Grossrat und Regierungsrat (<placeName type="place" key="St. Gallen">SG</placeName>), Mitglied des weiteren Komitees der Schweizerischen Südostbahn. </note>
-                    </seg> <del>und</del> Landamman und <seg type="com">
-                        <persName type="person" key="Rohrer Christian">
-                            <hi>Rohrer</hi>
-                        </persName>
-                        <note xml:id="K_1249_c27">
-                            <persName type="person" key="Rohrer Christian">Christian Rohrer</persName> (1811–1886), Grossrat und Nationalrat (<placeName type="place" key="St. Gallen">SG</placeName>), Mitglied des weiteren Komitees der Schweizerischen Südostbahn.</note>
-                    </seg> (<placeName type="place" key="Linth">Linth</placeName> und<lb xml:id="p6-l11"/>
-                    <placeName type="place" key="Rhein">Rheinlinie</placeName>) <placeName type="place" key="Glarus">
-                        <hi>Glarus</hi>
-                    </placeName>: <persName type="person" key="Blumer Johann Jakob">
-                        <hi>Blumer</hi>
-                    </persName>, <placeName type="place" key="Graubünden">Bünden</placeName>: <choice>
+                <placeName type="place" key="St. Gallen">
+                    <hi>S<hi rend="sup">t</hi> Gallen</hi>
+                </placeName>: <seg type="com">
+                    <persName type="person" key="Curti Basil Ferdinand">
+                        <hi>Curti</hi>
+                    </persName>
+                    <note xml:id="K_1249_c26">
+                        <persName type="person" key="Curti Basil Ferdinand">Basil Ferdinand Curti</persName> (1804–1888), Grossrat und Regierungsrat (<placeName type="place" key="St. Gallen">SG</placeName>), Mitglied des weiteren Komitees der Schweizerischen Südostbahn. </note>
+                </seg> <del>und</del> Landamman und <seg type="com">
+                    <persName type="person" key="Rohrer Christian">
+                        <hi>Rohrer</hi>
+                    </persName>
+                    <note xml:id="K_1249_c27">
+                        <persName type="person" key="Rohrer Christian">Christian Rohrer</persName> (1811–1886), Grossrat und Nationalrat (<placeName type="place" key="St. Gallen">SG</placeName>), Mitglied des weiteren Komitees der Schweizerischen Südostbahn.</note>
+                </seg> (<placeName type="place" key="Linth">Linth</placeName> und<lb xml:id="p6-l11"/>
+                <placeName type="place" key="Rhein">Rheinlinie</placeName>) <placeName type="place" key="Glarus">
+                    <hi>Glarus</hi>
+                </placeName>: <persName type="person" key="Blumer Johann Jakob">
+                    <hi>Blumer</hi>
+                </persName>, <placeName type="place" key="Graubünden">Bünden</placeName>: <choice>
                         <abbr>Regrath</abbr>
                         <expan>Regierungsrath</expan>
                     </choice> <lb xml:id="p6-l12"/> <seg type="com">
-                        <persName type="person" key="Franz Max">
-                            <hi>Franz</hi>
-                        </persName>
-                        <note xml:id="K_1249_c28">
-                            <persName type="person" key="Franz Max">Max Franz</persName> (1814–1889), Grossrat, 1850 und 1852 Mitglied des Kleinen Rats (<placeName type="place" key="Graubünden">GR</placeName>), Mitglied des provisorischen Verwaltungsrates der Schweizerischen Südostbahn.</note>
-                    </seg> und <hi>Planta Andreas</hi><!--keine Person, da er selbst--> (<add>qua</add> Mitglieder des <supplied type="unclear">
-                        <choice>
+                    <persName type="person" key="Franz Max">
+                        <hi>Franz</hi>
+                    </persName>
+                    <note xml:id="K_1249_c28">
+                        <persName type="person" key="Franz Max">Max Franz</persName> (1814–1889), Grossrat, 1850 und 1852 Mitglied des Kleinen Rats (<placeName type="place" key="Graubünden">GR</placeName>), Mitglied des provisorischen Verwaltungsrates der Schweizerischen Südostbahn.</note>
+                </seg> und <hi>Planta Andreas</hi><!--keine Person, da er selbst--> (<add>qua</add> Mitglieder des <supplied type="unclear">
+                    <choice>
                             <abbr>prov.</abbr>
                             <expan>provisorisch</expan>
-                        </choice> </supplied> Ver<lb break="no" xml:id="p6-l13"/>waltungsrathes; 
+                        </choice> </supplied> Ver
+                <lb break="no" xml:id="p6-l13"/>waltungsrathes; 
 ersterer wie <persName type="person" key="Curti Basil Ferdinand">
-                        <hi>Curti</hi>
-                    </persName> Regierungs<lb break="no" xml:id="p6-l14"/>rath 
+                    <hi>Curti</hi>
+                </persName> Regierungs
+                <lb break="no" xml:id="p6-l14"/>rath 
 im Amt) <placeName type="place" key="Zürich">
-                        <hi>Zürich</hi>
-                    </placeName> den 6<hi rend="sup">ten</hi> etwa <seg type="com">
-                        <persName type="person" key="Schulthess-Rechberg Gustav Anton von">
-                            <hi>Schulthess</hi> <lb xml:id="p6-l15"/>
-                            <hi>Rechberg</hi>
-                        </persName>
-                        <note xml:id="K_1249_c29">
-                            <persName type="person" key="Schulthess-Rechberg Gustav Anton von">Gustav Anton von Schulthess-Rechberg</persName> (1815–1891), <placeName type="place" key="Zürich">Zürcher</placeName> Bankier und Unternehmer.</note>
-                    </seg> oder ein Politiker, halte aber aufrichtig<lb xml:id="p6-l16"/>
+                    <hi>Zürich</hi>
+                </placeName> den 6<hi rend="sup">ten</hi> etwa <seg type="com">
+                    <persName type="person" key="Schulthess-Rechberg Gustav Anton von">
+                        <hi>Schulthess</hi> <lb xml:id="p6-l15"/>
+                        <hi>Rechberg</hi>
+                    </persName>
+                    <note xml:id="K_1249_c29">
+                        <persName type="person" key="Schulthess-Rechberg Gustav Anton von">Gustav Anton von Schulthess-Rechberg</persName> (1815–1891), <placeName type="place" key="Zürich">Zürcher</placeName> Bankier und Unternehmer.</note>
+                </seg> oder ein Politiker, halte aber aufrichtig<lb xml:id="p6-l16"/>
 gestanden ebenso sehr auf Kaufleute, da<lb xml:id="p6-l17"/>
     wir genug Juristen haben. – Sie kommen doch<lb xml:id="p6-l18"/>
 				nicht aus der <seg type="ref">Nordostbahn<ref type="kbe">→ NOB</ref>
-                    </seg> <seg type="com">weg<note xml:id="K_1249_c30">Escher, der an der Versammlung vom <date when="1853-11-08">8. November 1853</date> nicht teilnahm, wurde zwar für das Generalkomitee portiert, aber nicht gewählt. <ref type="letter" target="K_1273"><!-- → Nr. 28--></ref>.</note>
-                    </seg> und Freund <persName type="person" key="Dubs Jakob">
-                        <hi>Dubs</hi>
-                    </persName> <lb xml:id="p6-l19"/>
+                </seg> <seg type="com">weg<note xml:id="K_1249_c30">Escher, der an der Versammlung vom <date when="1853-11-08">8. November 1853</date> nicht teilnahm, wurde zwar für das Generalkomitee portiert, aber nicht gewählt. <ref type="letter" target="K_1273"><!-- → Nr. 28--></ref>.</note>
+                </seg> und Freund <persName type="person" key="Dubs Jakob">
+                    <hi>Dubs</hi>
+                </persName> <lb xml:id="p6-l19"/>
     hat schwerlich großen Geschmack am <hi rend="underline">Administriren</hi>? –<lb xml:id="p6-l20"/>
-                    <persName type="person" key="Schulthess-Rechberg Gustav Anton von">
-                        <hi>Schulthess</hi>
-                    </persName> würde qua Banquier eifriger Freund <add>der Eisenbahnen</add> zugleich<lb xml:id="p6-l21"/>
-                    <del>
-                        <supplied type="unclear">für</supplied>
-                    </del> Stadt und Kanton repraesentiren. Indessen ich nähme<lb xml:id="p6-l22"/>
-                    <hi rend="underline">Jeden</hi> gern, besonders wenn er <hi rend="underline">viel</hi> vertreten muß!<lb xml:id="p6-l23"/>
+                <persName type="person" key="Schulthess-Rechberg Gustav Anton von">
+                    <hi>Schulthess</hi>
+                </persName> würde qua Banquier eifriger Freund <add>der Eisenbahnen</add> zugleich<lb xml:id="p6-l21"/>
+                <del>
+                    <supplied type="unclear">für</supplied>
+                </del> Stadt und Kanton repraesentiren. Indessen ich nähme<lb xml:id="p6-l22"/>
+                <hi rend="underline">Jeden</hi> gern, besonders wenn er <hi rend="underline">viel</hi> vertreten muß!<lb xml:id="p6-l23"/>
 Zu <hi>Suppleanten</hi> der Direction hätte ich in petto die zwei<lb xml:id="p6-l24"/>
         andern Mitglieder des jetzigen Verwaltungsrathes nämlich<lb xml:id="p6-l25"/>
-                    <persName type="person" key="Salis (Soglio) Anton von">
-                        <hi>Salis</hi>
-                    </persName> und <seg type="com">
-                        <persName type="person" key="Höfliger Anton">
-                            <hi>Höfliger</hi>
-                        </persName>
-                        <note xml:id="K_1249_c31">
-                            <persName type="person" key="Höfliger Anton">Anton Höfliger</persName> (1811–1886), Grossrat (<placeName type="place" key="St. Gallen">SG</placeName>), Mitglied des provisorischen Verwaltungsrates der Schweizerischen Südostbahn, ehemals Mitglied des Eisenbahnkomitees <placeName type="place" key="Rapperswil (Rapperswil-Jona)">Rapperswil</placeName>.</note>
-                    </seg>, <seg type="com">ersterer im <hi rend="underline">Rechnungs</hi>wesen, lezterer<lb xml:id="p6-l26"/>
+                <persName type="person" key="Salis (Soglio) Anton von">
+                    <hi>Salis</hi>
+                </persName> und <seg type="com">
+                    <persName type="person" key="Höfliger Anton">
+                        <hi>Höfliger</hi>
+                    </persName>
+                    <note xml:id="K_1249_c31">
+                        <persName type="person" key="Höfliger Anton">Anton Höfliger</persName> (1811–1886), Grossrat (<placeName type="place" key="St. Gallen">SG</placeName>), Mitglied des provisorischen Verwaltungsrates der Schweizerischen Südostbahn, ehemals Mitglied des Eisenbahnkomitees <placeName type="place" key="Rapperswil (Rapperswil-Jona)">Rapperswil</placeName>.</note>
+                </seg>, <seg type="com">ersterer im <hi rend="underline">Rechnungs</hi>wesen, lezterer<lb xml:id="p6-l26"/>
 im Accomodiren sehr verwendbar, <add>da er</add> ein <hi rend="underline">honetter</hi> ausnahmsweise<lb xml:id="p6-l27"/>
           sehr traitabler <placeName type="place" key="St. Gallen">
-                            <hi>St. Galler</hi>
-                        </placeName> der <placeName type="place" key="Linth">Linth</placeName>linie ist.<note xml:id="K_1249_c32">Tatsächlich wurden am <date when="1853-12-19">19. Dezember 1853</date> <persName type="person" key="Salis (Soglio) Anton von">Salis</persName> und <persName type="person" key="Höfliger Anton">Höfliger</persName> zu Suppleanten ernannt. <choice>
+                        <hi>St. Galler</hi>
+                    </placeName> der <placeName type="place" key="Linth">Linth</placeName>linie ist.<note xml:id="K_1249_c32">Tatsächlich wurden am <date when="1853-12-19">19. Dezember 1853</date> <persName type="person" key="Salis (Soglio) Anton von">Salis</persName> und <persName type="person" key="Höfliger Anton">Höfliger</persName> zu Suppleanten ernannt. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice>Protokoll der Sitzung des Generalkomite's vom 19. Dezember 1853, in: <ref type="lit">Urkunden SOB</ref>, <choice>
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 23–25. – Zur <placeName type="place" key="Linth">Linth</placeName>linie <ref type="sum" target="Ostalpenbahnfrage_p17"><!-- → Band 1, S. 46--></ref>.</note>
-                    </seg> <pb n="7"/>
-                </p>
-                <p rend="indent" xml:id="K_1249_p11">
-                    <lb xml:id="p7-l1"/>
+                </seg> <pb n="7"/>
+            </p>
+            <p rend="indent" xml:id="K_1249_p11">
+                <lb xml:id="p7-l1"/>
 Schließlich muß ich Sie aber bei allen<lb xml:id="p7-l2"/>
-                    <hi rend="underline">Grazien</hi> der alten und neuern Zeit (und <del>diese</del> gegen<lb xml:id="p7-l3"/>
-                    <hi rend="underline">diese</hi> werden Sie wohl nicht so gefühllos sein, wie<lb xml:id="p7-l4"/>
+                <hi rend="underline">Grazien</hi> der alten und neuern Zeit (und <del>diese</del> gegen<lb xml:id="p7-l3"/>
+                <hi rend="underline">diese</hi> werden Sie wohl nicht so gefühllos sein, wie<lb xml:id="p7-l4"/>
         weiland <seg type="com">
-                        <persName type="person" key="Scipio Africanus der Ältere Publius Cornelius">
-                            <hi>Scipio</hi>
-                        </persName> <del>in Spanien</del> gegen die schöne <placeName type="place" key="Spanien">Spanierin</placeName>!)<note xml:id="K_1249_c33">Anspielung auf eine Episode bei der Eroberung von <placeName type="place" key="Cartagena (E)">Carthago Nova</placeName> (<placeName type="place" key="Cartagena (E)">Cartagena</placeName>, im Süden <placeName type="place" key="Spanien">Spaniens</placeName>) durch <persName type="person" key="Scipio Africanus der Ältere Publius Cornelius">Scipio Africanus der Ältere</persName> (236–183 <choice>
+                    <persName type="person" key="Scipio Africanus der Ältere Publius Cornelius">
+                        <hi>Scipio</hi>
+                    </persName> <del>in Spanien</del> gegen die schöne <placeName type="place" key="Spanien">Spanierin</placeName>!)<note xml:id="K_1249_c33">Anspielung auf eine Episode bei der Eroberung von <placeName type="place" key="Cartagena (E)">Carthago Nova</placeName> (<placeName type="place" key="Cartagena (E)">Cartagena</placeName>, im Süden <placeName type="place" key="Spanien">Spaniens</placeName>) durch <persName type="person" key="Scipio Africanus der Ältere Publius Cornelius">Scipio Africanus der Ältere</persName> (236–183 <choice>
                                 <abbr>v. Chr.</abbr>
                                 <expan>vor Christus</expan>
                             </choice>), in der  <persName type="person" key="Scipio Africanus der Ältere Publius Cornelius">Scipio</persName> – grossmütig entsagend – eine schöne Kriegsgefangene ihrem Bräutigam, dem <placeName type="place" key="Keltiberien">keltiberischen</placeName> Fürstensohn <persName type="person" key="Allucius">Allucius</persName>, aushändigt. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Livius</ref>, 26, 49–50.</note>
-                    </seg> <lb xml:id="p7-l5"/>
+                </seg> <lb xml:id="p7-l5"/>
 bitten und beschwören, sorgen Sie dafür, daß<lb xml:id="p7-l6"/>
-                    <placeName type="place" key="St. Gallen">St. Gallen</placeName> sich nicht rühmen könne, durch<lb xml:id="p7-l7"/>
-                    <hi rend="underline">seinen</hi> Impuls <add>allein</add> die <placeName type="place" key="Lukmanier (Pass)">
-                        <hi>Lukmanier</hi>bahn</placeName> zu Wege<lb xml:id="p7-l8"/>
+                <placeName type="place" key="St. Gallen">St. Gallen</placeName> sich nicht rühmen könne, durch<lb xml:id="p7-l7"/>
+                <hi rend="underline">seinen</hi> Impuls <add>allein</add> die <placeName type="place" key="Lukmanier (Pass)">
+                    <hi>Lukmanier</hi>bahn</placeName> zu Wege<lb xml:id="p7-l8"/>
 gebracht zu haben und zwar mittelst <hi rend="underline">seiner</hi> <add>großen</add> <lb xml:id="p7-l9"/>
 Subsidien, obschon es die <seg type="com">
-                        <placeName type="place" key="Wil (SG)">
-                            <hi>Wyler</hi>linie</placeName> <del>be</del> unter<lb xml:id="p7-l10"/>
+                    <placeName type="place" key="Wil (SG)">
+                        <hi>Wyler</hi>linie</placeName> <del>be</del> unter<lb xml:id="p7-l10"/>
 den ungünstigsten Umständen <add>gleichzeitig</add> auf den Schultern<lb xml:id="p7-l11"/>
 hatte<note xml:id="K_1249_c34">Die St. Gallisch-Appenzellische Eisenbahn und der beteiligte Kanton <placeName type="place" key="St. Gallen">St. Gallen</placeName> gerieten mit ihrer Linie <placeName type="place" key="Winterthur">Winterthur</placeName>–<placeName type="place" key="Wil (SG)">Wil</placeName>–<placeName type="place" key="St. Gallen (Stadt)">St. Gallen</placeName>–<placeName type="place" key="Rorschach">Rorschach</placeName> früh
     in finanzielle Schwierigkeiten. <choice>
@@ -652,10 +706,10 @@ hatte<note xml:id="K_1249_c34">Die St. Gallisch-Appenzellische Eisenbahn und der
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 77–78.</note>
-                    </seg>, während <hi rend="underline">
-                        <placeName type="place" key="Zürich">Zürich</placeName>
-                    </hi> von seiner <seg type="com">
-                        <placeName type="place" key="Romanshorn">Romanshorner</placeName> <lb xml:id="p7-l12"/>
+                </seg>, während <hi rend="underline">
+                    <placeName type="place" key="Zürich">Zürich</placeName>
+                </hi> von seiner <seg type="com">
+                    <placeName type="place" key="Romanshorn">Romanshorner</placeName> <lb xml:id="p7-l12"/>
 Linie<note xml:id="K_1249_c35">Linie <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>–<placeName type="place" key="Romanshorn">Romanshorn</placeName> der <ref type="kbe"/>Zürich-Bodensee-Bahn (<choice>
                                 <abbr>bzw.</abbr>
                                 <expan>beziehungsweise</expan>
@@ -667,65 +721,66 @@ Linie<note xml:id="K_1249_c35">Linie <placeName type="place" key="Zürich (Stadt
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 75.</note>
-                    </seg> bereits so erschöpft war, daß es <hi rend="underline">nichts</hi> mehr<lb xml:id="p7-l13"/>
+                </seg> bereits so erschöpft war, daß es <hi rend="underline">nichts</hi> mehr<lb xml:id="p7-l13"/>
     zu leisten sich unterstanden! – Beim Bau, in der<lb xml:id="p7-l14"/>
 Verwaltung und im <add>ewigen</add> Renomiren müßte man diesen<lb xml:id="p7-l15"/>
 Trumpf noch <hi rend="underline">fortfühlen</hi>
-                    <note type="transcript">sic!</note> bis zum 5<hi rend="sup">t</hi> &amp; 6<hi rend="sup">ten</hi> Geschlecht!!<lb xml:id="p7-l16"/>
+                <note type="transcript">sic!</note> bis zum 5<hi rend="sup">t</hi> &amp; 6<hi rend="sup">ten</hi> Geschlecht!!<lb xml:id="p7-l16"/>
 Die <placeName type="place" key="Rapperswil (Rapperswil-Jona)">Rapperschwyler</placeName> wünschen <hi rend="underline">sehr</hi> Ihre<del>e</del> Betheiligung, die<lb xml:id="p7-l17"/>
 Herrschlinge dagegen weniger! Für uns <placeName type="place" key="Graubünden">Bündner</placeName> und<lb xml:id="p7-l18"/>
-                    <placeName type="place" key="Glarus">
-                        <hi>Glarner</hi>
-                    </placeName> wäre es <hi rend="underline">äußerst</hi> wichtig, denn dann<lb xml:id="p7-l19"/>
+                <placeName type="place" key="Glarus">
+                    <hi>Glarner</hi>
+                </placeName> wäre es <hi rend="underline">äußerst</hi> wichtig, denn dann<lb xml:id="p7-l19"/>
 hätten wir drei <hi rend="underline">stets</hi> die <hi rend="underline">Mehrheit</hi> und der<lb xml:id="p7-l20"/>
 moralische Eindruck auf den Börsen, in <placeName type="place" key="Tessin">
-                        <hi>Tessin</hi>
-                    </placeName> und<lb xml:id="p7-l21"/>
-                    <placeName type="place" key="Sardinien-Piemont (Königreich)">
-                        <hi>Piemont</hi>
-                    </placeName> und in der Schweiz selbst wäre von<lb xml:id="p7-l22"/>
-den besten Folgen! Bei mir ist es ein felsenfester Glaubens<lb break="no" xml:id="p7-l23"/>artikel, 
+                    <hi>Tessin</hi>
+                </placeName> und<lb xml:id="p7-l21"/>
+                <placeName type="place" key="Sardinien-Piemont (Königreich)">
+                    <hi>Piemont</hi>
+                </placeName> und in der Schweiz selbst wäre von<lb xml:id="p7-l22"/>
+den besten Folgen! Bei mir ist es ein felsenfester Glaubens
+                <lb break="no" xml:id="p7-l23"/>artikel, 
 daß <hi rend="underline">
-                        <placeName type="place" key="Zürich">
-                            <hi>Zürich</hi>
-                        </placeName>
-                    </hi> einen <hi rend="underline">ungeheuern</hi> <hi rend="underline">politischen</hi> und<lb xml:id="p7-l24"/>
-                    <hi rend="underline">mercantilen</hi> Fehler begeht, wenn es bei der <seg type="ref">Südostbahn<ref type="kbe">→ SOB</ref>
-                    </seg> <lb xml:id="p7-l25"/>
-                    <choice>
+                    <placeName type="place" key="Zürich">
+                        <hi>Zürich</hi>
+                    </placeName>
+                </hi> einen <hi rend="underline">ungeheuern</hi> <hi rend="underline">politischen</hi> und<lb xml:id="p7-l24"/>
+                <hi rend="underline">mercantilen</hi> Fehler begeht, wenn es bei der <seg type="ref">Südostbahn<ref type="kbe">→ SOB</ref>
+                </seg> <lb xml:id="p7-l25"/>
+                <choice>
                         <abbr>resp.</abbr>
                         <expan>respektive / respective</expan>
                     </choice> <placeName type="place" key="Lukmanier (Pass)">Lukmanierlinie</placeName> unbetheiligt und<lb xml:id="p7-l26"/>
 einflußlos bleibt! <pb n="8"/>
-                </p>
+            </p>
       <p rend="indent" xml:id="K_1249_p12">
-                    <lb xml:id="p8-l1"/>Die <placeName type="place" key="Lukmanier (Pass)">
-                        <hi>Lukmanier</hi>bahn</placeName> kommt nun einmal <hi rend="underline">doch</hi> zu<lb xml:id="p8-l2"/>
+                <lb xml:id="p8-l1"/>Die <placeName type="place" key="Lukmanier (Pass)">
+                    <hi>Lukmanier</hi>bahn</placeName> kommt nun einmal <hi rend="underline">doch</hi> zu<lb xml:id="p8-l2"/>
 Stande. <seg type="ref">Wenn <placeName type="place" key="Tessin">
-                            <hi>Tessin</hi>
-                        </placeName> Dummheiten macht, wird<lb xml:id="p8-l3"/>
+                        <hi>Tessin</hi>
+                    </placeName> Dummheiten macht, wird<lb xml:id="p8-l3"/>
 es per Hungercur zur Vernunft gebracht!<ref type="letter" target="K_1243"><!-- → Nr. 18--></ref>
-                        <ref type="letter" target="K_1248"><!-- → Nr. 19--></ref>
-                    </seg> Denn<lb xml:id="p8-l4"/>
-                    <placeName type="place" key="Sardinien-Piemont (Königreich)">Piemont</placeName> sperrt wegen Vertragsbruches? –<lb xml:id="p8-l5"/>
+                    <ref type="letter" target="K_1248"><!-- → Nr. 19--></ref>
+                </seg> Denn<lb xml:id="p8-l4"/>
+                <placeName type="place" key="Sardinien-Piemont (Königreich)">Piemont</placeName> sperrt wegen Vertragsbruches? –<lb xml:id="p8-l5"/>
 Ob <placeName type="place" key="Österreich (Kaisertum)">Oestreich</placeName> dann öffnet weiß ich nicht; wir in<lb xml:id="p8-l6"/>
-                    <placeName type="place" key="Graubünden">Bünden</placeName> steuern ihnen dann schwerlich wieder Geld<lb xml:id="p8-l7"/>
+                <placeName type="place" key="Graubünden">Bünden</placeName> steuern ihnen dann schwerlich wieder Geld<lb xml:id="p8-l7"/>
     ebensowenig sonst im Osten. – Ob dann <placeName type="place" key="Uri">
-                        <hi>Uri</hi>
-                    </placeName> <lb xml:id="p8-l8"/>
-                    <placeName type="place" key="Luzern">
-                        <hi>Luzern</hi>
-                    </placeName> und Vater <seg type="com">
-                        <persName type="person" key="Trog Johann Jakob">
-                            <hi>Trog</hi>
-                        </persName>
-                        <note xml:id="K_1249_c36">
-                            <persName type="person" key="Trog Johann Jakob">Johann Jakob Trog</persName> (1807–1867), Kantonsratspräsident und Nationalrat (<placeName type="place" key="Solothurn">SO</placeName>), Bundesrichter, Direktionsmitglied der <ref type="kbe"/>Schweizerischen Centralbahn.</note>
-                    </seg> viel senden 
+                    <hi>Uri</hi>
+                </placeName> <lb xml:id="p8-l8"/>
+                <placeName type="place" key="Luzern">
+                    <hi>Luzern</hi>
+                </placeName> und Vater <seg type="com">
+                    <persName type="person" key="Trog Johann Jakob">
+                        <hi>Trog</hi>
+                    </persName>
+                    <note xml:id="K_1249_c36">
+                        <persName type="person" key="Trog Johann Jakob">Johann Jakob Trog</persName> (1807–1867), Kantonsratspräsident und Nationalrat (<placeName type="place" key="Solothurn">SO</placeName>), Bundesrichter, Direktionsmitglied der <ref type="kbe"/>Schweizerischen Centralbahn.</note>
+                </seg> viel senden 
     werden, laße<lb xml:id="p8-l9"/>
     ich dahingestellt. – <hi>Piemont</hi> wäre ganz sicherlich<lb xml:id="p8-l10"/>
-                    <hi rend="underline">wüthend</hi> besonders die <placeName type="place" key="Genua (I)">
-                        <hi>Genuesen</hi>!</placeName>  –</p>
+                <hi rend="underline">wüthend</hi> besonders die <placeName type="place" key="Genua (I)">
+                    <hi>Genuesen</hi>!</placeName>  –</p>
     </div>
         </body>
     <back>

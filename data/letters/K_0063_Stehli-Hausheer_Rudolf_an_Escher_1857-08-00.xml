@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Stehli-Hausheer Rudolf" type="sender">Rudolf Stehli-Hausheer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Stehli-Hausheer Rudolf" type="sender">Rudolf Stehli-Hausheer</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>s.l.</placeName>
                     <date when="1857-08">[08] [1857]</date>
                 </correspAction>
@@ -62,7 +62,9 @@
             <change when="2013-09-30" who="KR">Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2017-07-03" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-03" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -81,12 +83,12 @@
                     <lb xml:id="p1-l4"/>
           <choice>
                         <abbr>
-                            <hi>Tit</hi>:</abbr>
+                        <hi>Tit</hi>:</abbr>
                         <expan>Titulo (mit Titel)</expan>
                     </choice> Herrn Bürgermeister <choice>
                         <abbr>
-                            <hi>D<hi rend="sup">r</hi>
-                            </hi> </abbr>
+                        <hi>D<hi rend="sup">r</hi>
+                        </hi> </abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> Af<hi rend="sup">d</hi> Escher <placeName type="place" key="Zürich (Stadt)">Zürich.</placeName> </p>
       </div>
@@ -108,8 +110,8 @@
                         <expan>RegierungsRath</expan>
                     </choice> des Standes <placeName type="place" key="Zürich">Zürich</placeName> <choice>
                         <abbr>
-                            <hi>p<hi rend="sup">r</hi>
-                            </hi> </abbr>
+                    <hi>p<hi rend="sup">r</hi>
+                    </hi> </abbr>
                         <expan>per</expan>
                     </choice> <date when="1857-08-27">27. <choice>
                             <abbr>dieß.</abbr>

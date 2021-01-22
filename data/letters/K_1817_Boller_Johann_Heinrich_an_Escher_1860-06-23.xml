@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Boller Johann Heinrich" type="sender">Johann Heinrich Boller</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Boller Johann Heinrich" type="sender">Johann Heinrich Boller</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Uster</placeName>
                     <date when="1860-06-23">Samstag, Juni 23, 1860</date>
                 </correspAction>
@@ -95,7 +95,9 @@
 					umgesetzt
                 
             </change>
-            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -139,8 +141,8 @@
                 <lb xml:id="p2-l1"/> neue Aufgabe sollte Ihre Bürde nicht zu sehr vermehren.<lb xml:id="p2-l2"/> Gewiß finden Sie der Kräfte, welche die speziellen Ar
                 <lb break="no" xml:id="p2-l3"/>beiten &amp; Mühen – Missionen <choice>
                         <abbr>
-                            <hi>etc</hi>
-                        </abbr>
+                    <hi>etc</hi>
+                </abbr>
                         <expan>et cetera (und anderes)</expan>
                     </choice>. –
 				übernehmen wollen<lb xml:id="p2-l4"/> und können, genug, die Ihnen zur Seite stehen<lb xml:id="p2-l5"/> werden, und auf die Sie alles Einzelne abladen kön
@@ -155,7 +157,7 @@
 						Bestreben<lb xml:id="p2-l16"/>
                     <placeName type="place" key="Zürich">Zürichs</placeName> sich einen <placeName type="place" key="Graubünden">rhätischen</placeName> <placeName type="place" key="Alpen">Alpen</placeName>paß nach <placeName type="place" key="Italien">Italien</placeName> <lb xml:id="p2-l17"/> offen zu halten, nicht <del>
                         <supplied type="unclear">...</supplied>
-                        </del> Jahrhunderte alt, ist es<lb xml:id="p2-l18"/> nicht traditionell?<note xml:id="K_1817_c2">Zur Präferenz <placeName type="place" key="Zürich">Zürichs</placeName> in der Frage
+                    </del> Jahrhunderte alt, ist es<lb xml:id="p2-l18"/> nicht traditionell?<note xml:id="K_1817_c2">Zur Präferenz <placeName type="place" key="Zürich">Zürichs</placeName> in der Frage
 						des Warentransports Richtung Süden <ref type="sum" target="Weichenstellung_p13"><!-- → Band 1, S. 28--></ref>.</note>
                 </seg> Liegt diesem Bestreben nicht<lb xml:id="p2-l19"/> die Erkenntniß der Anforderungen
 				des eigenen<lb xml:id="p2-l20"/> Interesses zu Grunde? <seg type="ref">Und wäre <placeName type="place" key="Zürich">Zürich</placeName>, wenn<lb xml:id="p2-l21"/> eine <placeName type="place" key="Alpen">Alpen</placeName>bahn durch die <placeName type="place" key="Graubünden">rhätischen</placeName> Thäler gebaut<lb xml:id="p2-l22"/> würde, nicht der natürliche
@@ -166,17 +168,17 @@
                     <lb break="no" xml:id="p2-l27"/>henden Landen <placeName type="place" key="Italien">italienischer</placeName> Zunge,<ref type="letter" target="K_1819"><!-- → Nr. 40--></ref>
                 </seg> – und der von wei
                 <lb break="no" xml:id="p2-l28"/>ter, von der <placeName type="place" key="Orient">
-                        <hi>Levante</hi>
-                    </placeName> her, über das <placeName type="place" key="Mittelmeer">mittelländische Meer</placeName> <lb xml:id="p2-l29"/> kömmt &amp; geht. Sollte dieß sogar erst auch für einen<lb xml:id="p2-l30"/> großen Theil unsers <placeName type="place" key="Amerika">amerikanischen</placeName> Verkehrs der<lb xml:id="p2-l31"/> Fall sein? <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> liegt um mehr als um einen Drittel
+                    <hi>Levante</hi>
+                </placeName> her, über das <placeName type="place" key="Mittelmeer">mittelländische Meer</placeName> <lb xml:id="p2-l29"/> kömmt &amp; geht. Sollte dieß sogar erst auch für einen<lb xml:id="p2-l30"/> großen Theil unsers <placeName type="place" key="Amerika">amerikanischen</placeName> Verkehrs der<lb xml:id="p2-l31"/> Fall sein? <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> liegt um mehr als um einen Drittel
 					näher<note type="transcript">Kustode: am</note> <pb n="3"/>
                 <lb xml:id="p3-l1"/> am Meere über <del>als</del> <placeName type="place" key="Genua (I)">
-                        <hi>Genua</hi>
-                    </placeName> als
+                    <hi>Genua</hi>
+                </placeName> als
 				über <placeName type="place" key="Le Havre (F)">
-                        <hi>Hâvre</hi>
-                    </placeName>, das jetzt fast<lb xml:id="p3-l2"/> ausschließlich unsern Seehafen bildet. Glauben Sie<lb xml:id="p3-l3"/> nicht, <placeName type="place" key="Genua (I)">
-                        <hi>Genua</hi>
-                    </placeName> werde nach Erstellung eines dahin
+                    <hi>Hâvre</hi>
+                </placeName>, das jetzt fast<lb xml:id="p3-l2"/> ausschließlich unsern Seehafen bildet. Glauben Sie<lb xml:id="p3-l3"/> nicht, <placeName type="place" key="Genua (I)">
+                    <hi>Genua</hi>
+                </placeName> werde nach Erstellung eines dahin
 					führenden<lb xml:id="p3-l4"/> Schienenweges, für die Schweiz und einen großen
 					Theil<lb xml:id="p3-l5"/> von <placeName type="place" key="Süddeutschland">Süddeutschland</placeName> der natürliche Hafen für Ein- und<lb xml:id="p3-l6"/> Ausfuhr
 				aller Waaren, die ihres Gewichtes wegen<lb xml:id="p3-l7"/> mit Segelschiff über den
@@ -250,7 +252,7 @@
                             </choice> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?ID=10003107">
                             <ref type="lit">BBl</ref> 1860 II, S. 508</ref>.</note>
                 </seg> sollte<lb xml:id="p5-l13"/> <seg type="com">die Constituirung des erweiterten <hi>Comités</hi>
-                        <note xml:id="K_1817_c5">Der engere Ausschuss
+                    <note xml:id="K_1817_c5">Der engere Ausschuss
 					des <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName>komitees kam am
 							<date when="1860-06-28">28. Juni 1860</date> zusammen. Ob und wann das gesamte
 						Komitee zusammentrat, lässt sich nicht eruieren, ein diesbezügliches

@@ -27,8 +27,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Tschudi Christoph" type="sender">Christoph Tschudi</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Tschudi Christoph" type="sender">Christoph Tschudi</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Glarus</placeName>
                     <date when="1843-10-03">Dienstag, Oktober 3, 1843</date>
                 </correspAction>
@@ -63,7 +63,9 @@
 					umgesetzt
                 
             </change>
-            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -138,7 +140,7 @@
           <placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName>, <date when="1843-10-03">3.
 						<choice>
                             <abbr>
-                                <hi>Oct</hi>.</abbr>
+                            <hi>Oct</hi>.</abbr>
                             <expan>October</expan>
                         </choice> 43</date>.</p>
       </div>

@@ -32,8 +32,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1877-01-25">Donnerstag, Januar 25, 1877</date>
                 </correspAction>
@@ -172,16 +172,16 @@
           <cell rend="center">208<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
           <cell rend="center">178<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
@@ -191,16 +191,16 @@
           <cell rend="center">213<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
           <cell rend="center">195<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
@@ -210,16 +210,16 @@
           <cell rend="center">224<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
           <cell rend="center">148<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
@@ -229,16 +229,16 @@
           <cell rend="center">189<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
           <cell rend="center">115<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
@@ -248,16 +248,16 @@
           <cell rend="center">193<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
           <cell rend="center">138<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
@@ -267,16 +267,16 @@
           <cell rend="center">206<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
           <cell rend="center">110<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
@@ -312,7 +312,7 @@
                 <choice>
                         <abbr>
                     <hi>fs</hi>
-                        </abbr>
+                </abbr>
                         <expan>francs (Franken)</expan>
                     </choice> 120000 <hi>pro</hi> Monat, ferner die Kosten
                 <lb xml:id="p2-l24"/>seines Haupt<hi>bureau's</hi> in <hi>
@@ -320,7 +320,7 @@
                 <choice>
                         <abbr>
                     <hi>fs</hi>
-                        </abbr>
+                </abbr>
                         <expan>francs (Franken)</expan>
                     </choice> 5000 <hi>pro</hi> Monat, so daß – die Angaben
                 <lb xml:id="p2-l26"/>der Gotthard<hi>ingenieure</hi> als richtig voraus
@@ -329,7 +329,7 @@
                 <choice>
                         <abbr>
                     <hi>fs</hi>
-                        </abbr>
+                </abbr>
                         <expan>francs (Franken)</expan>
                     </choice> 22000 <hi>pro</hi> Monat sich ergiebt. Nun
                 <lb xml:id="p2-l29"/>befinden sich die Arbeiten allerdings
@@ -367,7 +367,7 @@
                 <choice>
                         <abbr>
                     <hi>Novbr</hi>
-                        </abbr>
+                </abbr>
                         <expan>November</expan>
                     </choice> <choice>
                         <abbr>u.</abbr>
@@ -375,7 +375,7 @@
                     </choice> <choice>
                         <abbr>
                     <hi>Dezbr</hi>
-                        </abbr>
+                </abbr>
                         <expan>Dezember</expan>
                     </choice> macht verglichen je
                 <lb xml:id="p3-l4"/>
@@ -421,16 +421,16 @@
             <lb xml:id="p3-l14"/>in Folge Reduction des Stollenpreißes
             <lb xml:id="p3-l15"/>gegenwärtig monatlich noch <choice>
                         <abbr>
-                            <hi>fs</hi>
-                        </abbr>
+                    <hi>fs</hi>
+                </abbr>
                         <expan>francs (Franken)</expan>
                     </choice> 100000
             <lb xml:id="p3-l16"/>zuschießen. Hienach würde sich der
             <lb xml:id="p3-l17"/>oben berechnete Nuzen an den Arbeiten
             <lb xml:id="p3-l18"/>in einen Schaden von <choice>
                         <abbr>
-                            <hi>fr</hi>
-                        </abbr>
+                    <hi>fr</hi>
+                </abbr>
                         <expan>franken / francs / franchi</expan>
                     </choice> 45000 umwandeln. <seg type="com">
                     <note xml:id="K_7826_c2">Nachträgliche Notiz von Eschers Hand mit Bleistift: <bibl>für d. Zukunft gegenwärtig</bibl>.</note>
@@ -504,8 +504,8 @@
           <cell rend="left">1218<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
@@ -515,8 +515,8 @@
           <cell rend="left">838<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
@@ -526,8 +526,8 @@
           <cell rend="left">1208<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
@@ -537,8 +537,8 @@
           <cell rend="left">1295<choice>
                                 <abbr>
                             <hi rend="sup">
-                                        <hi>m</hi>
-                                    </hi> </abbr>
+                                <hi>m</hi>
+                            </hi> </abbr>
                                 <expan>meter</expan>
                             </choice>
                     </cell>
@@ -672,8 +672,8 @@
                 <lb break="no" xml:id="p6-l28"/>ausbruch fertig und noch 8700 <choice>
                         <abbr>
                     <hi rend="sup">
-                                <hi>m</hi>
-                            </hi> </abbr>
+                        <hi>m</hi>
+                    </hi> </abbr>
                         <expan>meter</expan>
                     </choice> zu vollenden
                 <lb xml:id="p6-l29"/>seyn werden, so würde sich ein Verlust
@@ -711,13 +711,13 @@
                 <lb xml:id="p7-l12"/>
           <choice>
                         <abbr>
-                            <hi>fs</hi>
-                        </abbr>
+                    <hi>fs</hi>
+                </abbr>
                         <expan>francs (Franken)</expan>
                     </choice> 3400 anstatt <choice>
                         <abbr>
-                            <hi>fs</hi>
-                        </abbr>
+                    <hi>fs</hi>
+                </abbr>
                         <expan>francs (Franken)</expan>
                     </choice> 2800.–<note type="transcript">ganzer Absatz als Insert links vom Text</note> <lb xml:id="p7-l13"/>
                 <metamark>+</metamark> Dabei wird er noch die Bedingung

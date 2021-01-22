@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Pestalozzi Leonhard" type="sender">Leonhard Pestalozzi</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Pestalozzi Leonhard" type="sender">Leonhard Pestalozzi</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1850-02-23">Samstag, Februar 23, 1850</date>
                 </correspAction>
@@ -68,7 +68,9 @@
             <change when="2013-07-18" who="SW">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-01-17" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-17" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -103,8 +105,8 @@
 					einen<lb xml:id="p1-l8"/> vermittelnden <placeName type="place" key="Frankreich">franz.</placeName> Geldtarif des <placeName type="place" key="Deutschland">deutschen</placeName>
 				Geldes vorzuschlagen<lb xml:id="p1-l9"/> sondern eher nach meinem Gutachten <choice>
                         <abbr>
-                            <hi>fol</hi>
-                        </abbr>
+                    <hi>fol</hi>
+                </abbr>
                         <expan>folio</expan>
                     </choice> 36 – <hi>IV</hi> «nicht näher<lb xml:id="p1-l10"/> in die Ausführung
 				des <placeName type="place" key="Frankreich">franz.</placeName> Sistems einzutretten da man<lb xml:id="p1-l11"/> dasselbe im Ganzen sowohl als in allen Einzelheiten für<lb xml:id="p1-l12"/> verwerflich &amp; unausführbar halte»<note type="transcript">Klammern
@@ -123,7 +125,7 @@
                         </choice> <persName type="person" key="Pestalozzi Hans Conrad">Pestalozzi-Hofmeister</persName> </hi> <lb xml:id="p1-l24"/> als <hi>
                     <choice>
                             <abbr>
-                                <hi>Praesid</hi>.</abbr>
+                        <hi>Praesid</hi>.</abbr>
                             <expan>Praesident</expan>
                         </choice> </hi> des <choice>
                         <abbr>hies.</abbr>
@@ -132,8 +134,8 @@
                     <hi>Kündig</hi>
                 </persName> <hi>Actuar</hi> deselben<lb xml:id="p1-l25"/> besprochen &amp; nach dem drängenden
 				Wunsche <placeName type="place" key="St. Gallen">
-                        <hi>S</hi>. <hi>Gallens</hi>
-                    </placeName> entschloßen<lb xml:id="p1-l26"/> haben die Mitglieder des Industrie Vereins sowohl als das<lb xml:id="p1-l27"/> größere <hi>publicum</hi> zu einer Versammlung auf <date when="1850-03-01">kommenden Freitag </date> <lb xml:id="p1-l28"/>
+                    <hi>S</hi>. <hi>Gallens</hi>
+                </placeName> entschloßen<lb xml:id="p1-l26"/> haben die Mitglieder des Industrie Vereins sowohl als das<lb xml:id="p1-l27"/> größere <hi>publicum</hi> zu einer Versammlung auf <date when="1850-03-01">kommenden Freitag </date> <lb xml:id="p1-l28"/>
                 <choice>
                         <abbr>od.</abbr>
                         <expan>oder</expan>
@@ -149,9 +151,9 @@
 					H<supplied>errn</supplied> <persName type="person" key="Fischer Bernhard Friedrich">
                     <hi>Fischer</hi>
                 </persName> <lb xml:id="p2-l6"/> nach <placeName type="place" key="Aarau">
-                        <hi>Arau</hi>
-                    </placeName>, wo sich <date when="1850-02-24">morgen</date> der <placeName type="place" key="Aargau">
-                        <hi>Aarg</hi>.</placeName>
+                    <hi>Arau</hi>
+                </placeName>, wo sich <date when="1850-02-24">morgen</date> der <placeName type="place" key="Aargau">
+                    <hi>Aarg</hi>.</placeName>
 				Gewerbeverein in<lb xml:id="p2-l7"/> dieser Angelegenheit besammelt &amp; bitte Sie
 				gütigst diese<lb xml:id="p2-l8"/> Zeilen noch H<supplied>errn</supplied> <choice>
                         <abbr>RRth</abbr>

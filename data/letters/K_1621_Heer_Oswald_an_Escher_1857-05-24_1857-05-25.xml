@@ -33,8 +33,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Heer Oswald" type="sender">Oswald Heer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Heer Oswald" type="sender">Oswald Heer</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1857-05-25-1857-05-24">24 05 1857 25 05 1857</date>
                 </correspAction>
@@ -75,7 +75,9 @@
             <change when="2013-12-09" who="LB">Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -161,7 +163,7 @@
                     <persName type="person" key="Ehrhardt Friedrich Gustav">Ehr
                         <lb break="no" xml:id="p2-l17"/>hart</persName> </hi> geschrieben haben wird, glaubten wir damals der Sache in
         Ordnung. <lb xml:id="p2-l18"/>
-                    <del>Er sagte</del> Ich habe ganz im Sinne Deiner Weisungen mit ihm gesprochen und <lb xml:id="p2-l19"/>aus der Art und Weise wie er dieß aufgenommen und überhaupt sich über die <lb xml:id="p2-l20"/>Aufgabe, die ihm werde, aussprach, hatte ich die Ueberzeugung gewonnen, <lb xml:id="p2-l21"/>daß dieser Mann sich in der That trefflich für die Stelle eignen <lb xml:id="p2-l22"/>würde. Nur mißfiel mir, daß er noch von Wein sprach und ferner <pb n="3"/>
+                <del>Er sagte</del> Ich habe ganz im Sinne Deiner Weisungen mit ihm gesprochen und <lb xml:id="p2-l19"/>aus der Art und Weise wie er dieß aufgenommen und überhaupt sich über die <lb xml:id="p2-l20"/>Aufgabe, die ihm werde, aussprach, hatte ich die Ueberzeugung gewonnen, <lb xml:id="p2-l21"/>daß dieser Mann sich in der That trefflich für die Stelle eignen <lb xml:id="p2-l22"/>würde. Nur mißfiel mir, daß er noch von Wein sprach und ferner <pb n="3"/>
                 <lb xml:id="p3-l1"/>von Pflanzland, um Gemüse für seine Familie darauf bauen zu können. <lb xml:id="p3-l2"/>Ich habe ihm in Betreff dieser Punkte gesagt, daß ich keinerlei Vollmachten
           <lb xml:id="p3-l3"/>habe ihm sowas zuzusagen, daß aber nach Meiner Ansicht von Lieferung <lb xml:id="p3-l4"/>des Weines keine Rede sein könne, wogegen ein par Gartenbeete zum <lb xml:id="p3-l5"/>Anpflanzen von Gemüse vielleicht von Dir würden bewilligt werden, <lb xml:id="p3-l6"/>wenn Du mit seinen Leistungen völlig zufrieden seiest. Da er sich <lb xml:id="p3-l7"/>mit dieser Auffaßung einverstanden erklärte und sein bestimmtes <hi>Jawort</hi> <lb xml:id="p3-l8"/>abgab, wenn Herr <hi>
                     [<persName type="person" key="Lehr">Fehr</persName>]
@@ -174,7 +176,7 @@
                         <expan>Herr</expan>
                     </choice> <hi>
                     <persName type="person" key="Ortgies Eduard">Ortgies</persName>
-                    </hi> 
+                </hi> 
                gebeten hatte auf seiner <lb xml:id="p3-l18"/>Hochzeitreise nach <placeName type="place" key="Stuttgart (D)">Stuttgart</placeName> und <placeName type="place" key="Frankfurt am Main (D)">Frankfurt</placeName> sich nach einem Gärtner zu <lb xml:id="p3-l19"/>erkundigen, mußte ich seine Zurückkunft abwarten um mit ihm <del>zu</del> <lb xml:id="p3-l20"/>die Sache zu besprechen. Er hatte sich nach <hi>
                     <placeName type="place" key="München (D)">München</placeName> </hi> an seinen Freund <hi>
                     <persName type="person" key="Effner Carl">Effner</persName> </hi> <lb xml:id="p3-l21"/>gewendet, welcher an die Stelle, einen
@@ -191,11 +193,11 @@
                 <lb xml:id="p4-l1"/>für kürzere Zeit oder aber lebenslänglich sei und ferner ob die Gärtnerei <lb xml:id="p4-l2"/>der Art sei, daß sie Gelegenheit biete, sich auszuzeichnen und ob sie <lb xml:id="p4-l3"/>Zeitgemäß vorwärts schreite. Die letztere Bemerkung scheint zu sagen, <lb xml:id="p4-l4"/>daß
         er mehr Blumengärtner ist, doch hatte er Gelegenheit sich auch <lb xml:id="p4-l5"/>in der
         Landschaftsgärtnerei auszu<del>zeichnen</del>
-                    <add>bilden</add>. Er war in der
+                <add>bilden</add>. Er war in der
           Landesbaum
                 <lb break="no" xml:id="p4-l6"/>schule zu <placeName type="place" key="Herrenhausen (Hannover, D)">
-                        <hi>Herrenhausen</hi>
-                    </placeName> <choice>
+                    <hi>Herrenhausen</hi>
+                </placeName> <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> auf dem
@@ -227,7 +229,7 @@
                         <expan>Herr</expan>
                     </choice> <hi>
                     <persName type="person" key="Ortgies Eduard">Ortgies</persName>
-                    </hi> versichert ist <choice>
+                </hi> versichert ist <choice>
                         <abbr>Hr.</abbr>
                         <expan>Herr</expan>
                     </choice> <hi>
@@ -235,9 +237,9 @@
           <lb xml:id="p4-l11"/>zuverläßiger Mann, so daß <add>auf</add> seine Empfehlung zu gehen sei.
         Da <del>der</del> 
           <lb xml:id="p4-l12"/>
-                    <del>Mann</del> <add>mir</add> <persName type="person" key="Burkhard Georg">
-                        <hi>Burkhard</hi>
-                    </persName> aber
+                <del>Mann</del> <add>mir</add> <persName type="person" key="Burkhard Georg">
+                    <hi>Burkhard</hi>
+                </persName> aber
         keineswegs allen Anforderungen, die Du gerade <lb xml:id="p4-l13"/>für Deinen Zweck im Auge
         hast, zu entsprechen scheint und ferner Du <lb xml:id="p4-l14"/>jedenfalls in naher Zeit nach
           <placeName type="place" key="München (D)">
@@ -250,7 +252,7 @@
                 <lb break="no" xml:id="p4-l19"/>lungen. Ich werde ihm
         daher durch <hi>
                     <persName type="person" key="Ortgies Eduard">Ortgies</persName>
-                    </hi> schreiben laßen, daß Du
+                </hi> schreiben laßen, daß Du
         bei <lb xml:id="p4-l20"/>Deiner Anwesenheit in <hi>
                     <placeName type="place" key="München (D)">München</placeName> </hi> ihm werdest das Nähere mittheilen. In zweiter <lb xml:id="p4-l21"/>Linie
         hat <choice>
@@ -264,8 +266,8 @@
                     <placeName type="place" key="München (D)">München</placeName> </hi> <seg type="ref">mittheilen<ref type="letter" target="K_1623"/>
                 </seg> und bitte <pb n="5"/>
                 <lb xml:id="p5-l1"/>Dich diese abzuwarten bevor Du mit <persName type="person" key="Burkhard Georg">
-                        <hi>Burkhard</hi>
-                    </persName> sprichst, indem ich <lb xml:id="p5-l2"/>immer noch hoffe, beßere Vorschläge Dir machen zu können und jeden
+                    <hi>Burkhard</hi>
+                </persName> sprichst, indem ich <lb xml:id="p5-l2"/>immer noch hoffe, beßere Vorschläge Dir machen zu können und jeden
                 <lb break="no" xml:id="p5-l3"/>falls es so einrichten werde, daß Du bald möglich diese erhälst<note type="transcript">sic!</note>. Ich <lb xml:id="p5-l4"/>habe nach <hi>
                     <placeName type="place" key="Basel-Stadt">Basel</placeName> </hi> geschrieben, ferner mich nach dem Gärtner des <choice>
                         <abbr>Hr.</abbr>
@@ -280,14 +282,14 @@
                         <expan>Herrn</expan>
                     </choice> <hi>
                     <persName type="person" key="Delessert François Marie">Delessert</persName> </hi> in <placeName type="place" key="Passy (F)">
-                        <hi>Passy</hi>
-                    </placeName> bei <hi>
+                    <hi>Passy</hi>
+                </placeName> bei <hi>
                     <placeName type="place" key="Paris (F)">Paris</placeName>
                 </hi>, wie mir <persName type="person" key="Heusser">
-                        <hi>Heusser</hi>
-                    </persName> <lb xml:id="p5-l7"/>sagt, der mir ferner einen <persName type="person" key="Hüssi">
-                        <hi>Hüssi</hi>
-                    </persName> Gärtner in
+                    <hi>Heusser</hi>
+                </persName> <lb xml:id="p5-l7"/>sagt, der mir ferner einen <persName type="person" key="Hüssi">
+                    <hi>Hüssi</hi>
+                </persName> Gärtner in
         <hi>
                     <placeName type="place" key="Richterswil">Richtensweil</placeName> </hi> empfiehlt. <lb xml:id="p5-l8"/>Es sei dieß ein Mann ähnlich wie <hi>
                     <persName type="person" key="Blattner Rudolf">Blattner</persName>
@@ -300,13 +302,13 @@
         tüchtiger Gärtner hinkäme, da <persName type="person" key="Otto Adolf">
                     <hi>Otto</hi>
                 </persName> <lb xml:id="p5-l13"/>seinen Pflichten nicht nachkommt. Was den Untergärtner anbetrifft, weißst<note type="transcript">sic!</note> <lb xml:id="p5-l14"/>Du, daß <persName type="person" key="Huber">Huber</persName> nach <placeName type="place" key="Basel-Stadt">
-                        <hi>Basel</hi>
-                    </placeName>
+                    <hi>Basel</hi>
+                </placeName>
         gegangen ist; unterdeßen versieht ein <lb xml:id="p5-l15"/>gewißer <hi>
                     <persName type="person" key="Dosemann">
                         <supplied type="unclear">
-                                <hi>Resemann</hi>
-                            </supplied>
+                            <hi>Resemann</hi>
+                        </supplied>
                     </persName>
                 </hi> die Stelle, welcher sonst bei
             <hi>
@@ -316,8 +318,8 @@
                     </choice> sammt «<hi>Nüni</hi> und
         Abendbrodt» bekommt. Ich habe heute mit <lb xml:id="p5-l17"/>
                 <persName type="person" key="Heusser">
-                        <hi>Heusser</hi>
-                    </persName> darüber gesprochen, daß dieser bleibt, bis ein neuer
+                    <hi>Heusser</hi>
+                </persName> darüber gesprochen, daß dieser bleibt, bis ein neuer
         Gehilfe ge
                 <lb break="no" xml:id="p5-l18"/>funden, der am besten mit dem neuen Gärtner eintreten
         würde. Ich habe <lb xml:id="p5-l19"/>mit <persName type="person" key="Heusser">Heußer</persName> auch
@@ -341,9 +343,9 @@
         Monat <hi>Mai</hi> sehr ungünstig, <lb xml:id="p6-l8"/>eben weil das Wetter so schön und trocken war; <date when="1857-05-24">heute</date> aber haben wir <lb xml:id="p6-l9"/>einen wohlthätigen Regen und
           <del>jetzt</del> <add>
                     <persName type="person" key="Heusser">
-                            <hi>Heusser</hi>
-                        </persName>
-                    </add>
+                        <hi>Heusser</hi>
+                    </persName>
+                </add>
         verspricht dieß zu benutzen. </p>
       <p rend="indent" xml:id="K_1621_p4">
                 <lb xml:id="p6-l10"/>Als ich <date when="1857-05-23">gestern</date> Abend in <hi>
@@ -415,23 +417,23 @@
         in der Gärtnerangelegenheit was Neues erfahre<del>n</del>, sogleich <del>Di</del> <lb xml:id="p8-l6"/>darüber <seg type="ref">Nachricht<ref type="letter" target="K_1623"/>
                 </seg> geben. Es wird nun doch am besten
         sein, wenn Du <lb xml:id="p8-l7"/>sogleich den <persName type="person" key="Burkhard Georg">
-                        <hi>Burkhard</hi>
-                    </persName> zu Dir kommen läßt und Dir den Mann <lb xml:id="p8-l8"/>ansiehst; da Deine
+                    <hi>Burkhard</hi>
+                </persName> zu Dir kommen läßt und Dir den Mann <lb xml:id="p8-l8"/>ansiehst; da Deine
         Rückreise schneller von Statten gieng, als ich <lb xml:id="p8-l9"/>es erwartet habe, weiß ich
         nicht ob es möglich sein wird Dir bestimmte <lb xml:id="p8-l10"/>Vorschläge von hier aus Dir
         noch nach <hi>
                     <placeName type="place" key="München (D)">München</placeName> </hi> zukommen zu <lb xml:id="p8-l11"/>laßen; denn wenn ich auch nach verschiedenen Seiten geschrieben <lb xml:id="p8-l12"/>habe, so kann man nie wißen, wann Antwort kommt, und wer sie <lb xml:id="p8-l13"/>bringt. Gefällt Dir <persName type="person" key="Burkhard Georg">
-                        <hi>Burkhard</hi>
-                    </persName>, so
+                    <hi>Burkhard</hi>
+                </persName>, so
         wirst Du wohl sogleich mit <lb xml:id="p8-l14"/>ihm die Sache in Ordnung <del>ordnen</del> bringen. </p>
       <p rend="indent" xml:id="K_1621_p6">
                 <lb xml:id="p8-l15"/>Was den Oben erwähnten <persName type="person" key="Hüssi">
-                        <hi>Hüssi</hi>
-                    </persName> betrifft, so ist dieser ver
+                    <hi>Hüssi</hi>
+                </persName> betrifft, so ist dieser ver
                 <lb break="no" xml:id="p8-l16"/>heirathet (habe 1
         Kind) und man müßte ihm wohl ähnliche <hi>Propositionen</hi> <lb xml:id="p8-l17"/>machen wie dem <persName type="person" key="Blattner Rudolf">
-                        <hi>Blattner</hi>
-                    </persName>.</p>
+                    <hi>Blattner</hi>
+                </persName>.</p>
       <p rend="indent" xml:id="K_1621_p7">
                 <lb xml:id="p8-l18"/>Ich bitte Dich <persName type="person" key="Escher-Uebel Augusta">Deine <choice>
                             <abbr>l.</abbr>

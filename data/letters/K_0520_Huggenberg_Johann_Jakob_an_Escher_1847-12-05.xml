@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Huggenberg Johann Jakob" type="sender">Johann Jakob Huggenberg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Huggenberg Johann Jakob" type="sender">Johann Jakob Huggenberg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Winterthur</placeName>
                     <date when="1847-12-05">Sonntag, Dezember 5, 1847</date>
                 </correspAction>
@@ -63,7 +63,9 @@
             <change when="2015-01-05" who="CA">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -115,7 +117,7 @@ den Bezirk <placeName type="place" key="Winterthur">Winterthur</placeName> <choi
                     </choice> zu ertheilen -
                 <lb xml:id="p1-l17"/>Früher wäre die <choice>
                         <abbr>
-                            <hi>Publicat</hi>.</abbr>
+                    <hi>Publicat</hi>.</abbr>
                         <expan>Publication</expan>
                     </choice> eines solch<supplied>en</supplied> Ver
                 <lb break="no" xml:id="p1-l18"/>zeichnißes,
@@ -128,7 +130,7 @@ während meines Aufenthalts in <placeName type="place" key="Zürich (Stadt)">Zü
 Zeit gewidmet zu haben; allein Sie waren<lb xml:id="p1-l24"/>
 immer so sehr beschäftigt, daß es eine wahre<lb xml:id="p1-l25"/>
 Ungerechtigkeit gewesen wäre, wenn der <hi>Tyrann</hi>
-                    <lb xml:id="p1-l26"/>
+                <lb xml:id="p1-l26"/>
 von <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> Sie noch mehr in Anspruch genommen hätte<lb xml:id="p1-l27"/>
 als es ohnehin der Fall war. Meine herzlich<supplied>en</supplied> <lb xml:id="p1-l28"/>
 Empfehlung<supplied>en</supplied>, wenn ich Sie bitten darf, an <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">
@@ -181,7 +183,7 @@ so. Nur furchtlos <choice>
                     <lb xml:id="p2-l7"/>
           <placeName type="place" key="Winterthur">Winterthur</placeName> den <date when="1847-12-05">5. <choice>
                             <abbr>
-                                <hi>Dec</hi>.</abbr>
+                            <hi>Dec</hi>.</abbr>
                             <expan>December</expan>
                         </choice> 1847</date> </p>
       </div>

@@ -34,8 +34,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Schweizer Heinrich" type="sender">Heinrich Schweizer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Schweizer Heinrich" type="sender">Heinrich Schweizer</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Rüti (ZH)</placeName>
                     <date when="1848-03-23">Donnerstag, März 23, 1848</date>
                 </correspAction>
@@ -76,7 +76,9 @@
             <change when="2015-01-05" who="CA">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -219,12 +221,12 @@
                         <expan>und</expan>
                     </choice> <date when="1847-01-15">15. I. 47.</date> (<choice>
                         <abbr>
-                            <hi>cf</hi>.</abbr>
+                    <hi>cf</hi>.</abbr>
                         <expan>conferatur (vergleiche)</expan>
                     </choice> Amtsblatt 1847. <choice>
                         <abbr>
-                            <hi>N<hi rend="sup">o</hi>
-                            </hi> </abbr>
+                    <hi>N<hi rend="sup">o</hi>
+                    </hi> </abbr>
                         <expan>Numero (Nummer)</expan>
                     </choice> 14)? Und gibt<lb xml:id="p1-l31"/>
                 <hi rend="underline">es kein Mittel, unser
@@ -424,9 +426,9 @@
       <p rend="left" xml:id="K_0548_p7">
                 <lb xml:id="p3-l17"/>5. Endlich – <hi>horribile dictu!</hi> – komme ich gar noch aufs <hi rend="underline">Tanzen</hi> mit Dir zu
           sprechen!<lb xml:id="p3-l18"/> Der Regierungsrath hat nämlich den <hi rend="underline">2<hi rend="sup">n</hi>
-                    </hi> dießjährigen
+                </hi> dießjährigen
         <hi rend="underline">
-                        <add>Tanz-</add>Sonntag</hi> auf den <hi rend="underline">
+                    <add>Tanz-</add>Sonntag</hi> auf den <hi rend="underline">
                     <date when="1848-04-09">9 April</date>
                 </hi> verlegt.<lb xml:id="p3-l19"/> Ohne Zweifel
         geschah dieß mit Hinsicht aufs letzte Jahr, wo der <date when="1847-04-11">11 April</date> <hi rend="underline">als
@@ -449,8 +451,8 @@
                     </choice> vielleicht e. andern Sonntag) zu verlegen.
         Ich gewärtige nun gerne,<lb xml:id="p3-l25"/> was etwa viele der nächsten <choice>
                         <abbr>
-                            <hi>N<hi rend="sup">o</hi>
-                            </hi> </abbr>
+                    <hi>N<hi rend="sup">o</hi>
+                    </hi> </abbr>
                         <expan>Numero (Nummer)</expan>
                     </choice> des Amtsblattes dießfalls anzeigen werde, <choice>
                         <abbr>od.</abbr>

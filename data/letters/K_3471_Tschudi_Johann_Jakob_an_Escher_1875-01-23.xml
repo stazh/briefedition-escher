@@ -32,8 +32,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Tschudi Johann Jakob" type="sender">Johann Jakob Tschudi</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Tschudi Johann Jakob" type="sender">Johann Jakob Tschudi</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>s.l.</placeName>
                     <date when="1875-01-23">Samstag, Januar 23, 1875</date>
                 </correspAction>
@@ -66,7 +66,9 @@
           umgesetzt
                 
             </change>
-            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -113,7 +115,7 @@
                 <lb xml:id="p1-l17"/>
         <hi>Baron <persName type="person" key="Weber Max Maria von">v.
           Weber</persName> </hi> hat mir zufälligerweise vor <lb xml:id="p1-l18"/>
-                    <hi>circa</hi> 14 Tagen <choice>
+                <hi>circa</hi> 14 Tagen <choice>
                         <abbr>Hr</abbr>
                         <expan>Herr</expan>
                     </choice> <hi>Oberinspector <persName type="person" key="Ržiha Franz">Rziha</persName> </hi> <lb xml:id="p1-l19"/>vorgestellt
@@ -123,7 +125,7 @@
                     </choice> dieser hatte die Gefälligkeit<pb n="2"/>
                 <lb xml:id="p2-l1"/>mir in einem längeren
           <hi>Exposé</hi> seine Ansichten <lb xml:id="p2-l2"/>über den <hi>
-                        <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>tunel</hi>bau, den er voriges <lb xml:id="p2-l3"/>Jahr besuchte <choice>
+                    <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>tunel</hi>bau, den er voriges <lb xml:id="p2-l3"/>Jahr besuchte <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> seitdem mit
@@ -204,7 +206,7 @@
                 </persName> ist
         gegenwärtig für ein Paar Tage <lb xml:id="p3-l10"/>hier; wir haben uns in der Erinnerung der
         <lb xml:id="p3-l11"/>
-                    <hi>Gymnasial</hi>zeit ergangen. Man würde ihm <lb xml:id="p3-l12"/>sehr Unrecht thuen wollte man ihn etwa als
+                <hi>Gymnasial</hi>zeit ergangen. Man würde ihm <lb xml:id="p3-l12"/>sehr Unrecht thuen wollte man ihn etwa als
           <lb xml:id="p3-l13"/>
                 <hi>Swiss gentleman</hi> betrachten. Trotzdem er als <choice>
                         <abbr>eidgen.</abbr>

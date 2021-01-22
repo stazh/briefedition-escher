@@ -34,8 +34,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Mevissen Gustav von" type="sender">Gustav von Mevissen</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Mevissen Gustav von" type="sender">Gustav von Mevissen</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Köln</placeName>
                     <date when="1876-02-14">Montag, Februar 14, 1876</date>
                 </correspAction>
@@ -108,7 +108,9 @@
             <change when="2014-11-21" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -235,7 +237,7 @@ Sistirung des Angriffs <seg type="com">der in der letzten Sitzung
                aller<lb xml:id="p2-l21"/>
 LieferungsVerträge für Schienen <choice>
                         <abbr>
-                            <hi>etc</hi>.</abbr>
+                    <hi>etc</hi>.</abbr>
                         <expan>et cetera (und anderes)</expan>
                     </choice> <lb xml:id="p2-l22"/>
 Ich habe über das mögliche Resultat der<lb xml:id="p2-l23"/>
@@ -290,8 +292,8 @@ stellen und durch Vertrag mit der <placeName type="place" key="Italien (Königre
 Regierung die gleichzeitige Vollendung der Strecke<lb xml:id="p3-l20"/>
                 <placeName type="place" key="Luino (I)">
                     <hi>Luino</hi>
-                    </placeName>-<placeName type="place" key="Arona (I)">
-                        <hi>Arona</hi>
+                </placeName>-<placeName type="place" key="Arona (I)">
+                    <hi>Arona</hi>
                 </placeName><!--<com type="loco">Arona (Provinz Novara, Piemont): Gemeinde am Lago Maggiore.</com></c> --> zu sichern. Ergiebt sich daß<lb xml:id="p3-l21"/>
 die <hi rend="underline">vorhandenen</hi> Mittel auch <del>auf</del> zur<lb xml:id="p3-l22"/>
 Ausführung der Strecke <placeName type="place" key="Bellinzona">
@@ -306,7 +308,7 @@ ausreichen so könnte statt
                 <placeName type="place" key="Pino (I)">
                         <hi>Pino</hi> 
                 </placeName>
-                    <lb xml:id="p3-l24"/>
+                <lb xml:id="p3-l24"/>
 auch die Strecke <placeName type="place" key="Bellinzona">
                     <hi>Bellinzona</hi>
                 </placeName> <placeName type="place" key="Lugano">
@@ -421,8 +423,8 @@ des Herrenhauses<!--<com>Die erste Kammer des preussischen Landtages. <abbr>Vgl.
                             </choice> <ref type="lit">Prot. VR GB</ref>, 3. März 1876; <ref type="letter" target="K_2729"><!--→ Nr. 209--></ref>.</note>
                 </seg> <lb xml:id="p6-l10"/>
         Bei dem großen Interesse welches außer<lb xml:id="p6-l11"/> <seg type="ref">Herrn Geheimrath <persName type="person" key="Hansemann Adolph von">
-                            <hi>Hansemann</hi>
-                        </persName>
+                        <hi>Hansemann</hi>
+                    </persName>
                     <ref type="kbp">→ Adolph von Hansemann</ref>
                 </seg> gewiß Herr<lb xml:id="p6-l12"/> <seg type="com">
                     Freiherr <persName type="person" key="Oppenheim Abraham von">
@@ -439,15 +441,15 @@ die Erlaubniß sowohl Ihre gütigen Mittheilungen <seg type="com">
                     <note xml:id="K_2713_c15">Zeile nachträglich von Eschers Hand mit Bleistift markiert.</note>
                 </seg> <lb xml:id="p6-l18"/>
 wie den Entwurf der Denkschrift Herrn <persName type="person" key="Oppenheim Abraham von">
-                        <hi>von Oppenheim</hi>
-                    </persName> <lb xml:id="p6-l19"/>
+                    <hi>von Oppenheim</hi>
+                </persName> <lb xml:id="p6-l19"/>
 zu unterbreiten. Auch dürfte sich der Zusammentritt<lb xml:id="p6-l20"/>
 der Hauptmitglieder des <seg type="ref">
                     <placeName type="place" key="Deutsches Reich">deutschen</placeName> Consortiums<ref type="sum" target="Gotthardvereinigung_d1.8">Finanzkonsortium<!-- → Band 1, S. 207–209--></ref>
                 </seg> <lb xml:id="p6-l21"/> <seg type="com">
                     Fherr <persName type="person" key="Rothschild Mayer Carl von">
-                            <hi>von Rothschildt</hi>
-                        </persName>
+                        <hi>von Rothschildt</hi>
+                    </persName>
                     <note xml:id="K_2713_c16">
                         <persName type="person" key="Rothschild Mayer Carl von">Mayer Carl von Rothschild</persName> (1820–1886), Mitglied des <placeName type="place" key="Preussen (Königreich)">preussischen</placeName> Herrenhauses, Leiter des Bankhauses Mayer Amschel von Rothschild und Söhne in <placeName type="place" key="Frankfurt am Main (D)">Frankfurt am Main</placeName>, Verwaltungsrat der Gotthardbahn-Gesellschaft.
 </note>
@@ -458,8 +460,8 @@ der Hauptmitglieder des <seg type="ref">
                     <note xml:id="K_2713_c17">Zeile nachträglich von Eschers Hand mit Bleistift markiert.</note>
                 </seg> <lb xml:id="p6-l22"/>
                 Frh <persName type="person" key="Oppenheim Abraham von">
-                        <hi>von Oppenheim</hi>
-                    </persName> einen Tag vor der nächsten<lb xml:id="p6-l23"/>
+                    <hi>von Oppenheim</hi>
+                </persName> einen Tag vor der nächsten<lb xml:id="p6-l23"/>
 Sitzung des Verwaltungsrathes empfehlen.</p>
     </div>
         </body>

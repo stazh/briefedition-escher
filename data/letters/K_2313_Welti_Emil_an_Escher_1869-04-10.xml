@@ -27,31 +27,49 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1869-04-10">Samstag, April 10, 1869</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2013-08-07" who="CH">Migration nach XML</change>
+            <change when="2013-08-07" who="CH">Migration nach XML
+                
+            </change>
             <change when="2013-08-30" who="LH">Migrationsverifizierung
-                    umgesetzt</change>
+                    umgesetzt
+                
+            </change>
             <change when="2014-01-07" who="IB">Auszeichnung 1
-                umgesetzt</change>
+                umgesetzt
+                
+            </change>
             <change when="2014-01-08" who="LW">Verifizierung 1
-                umgesetzt</change>
+                umgesetzt
+                
+            </change>
             <change when="2014-01-13" who="XR">Auszeichnung 2
-                umgesetzt</change>
+                umgesetzt
+                
+            </change>
             <change when="2014-01-16" who="LH">Transkriptionsverifizierung Seiterle
-                    umgesetzt</change>
+                    umgesetzt
+                
+            </change>
             <change when="2014-01-20" who="MA">Übertragung der Transkriptionsverifizierung
-                    gerprüft</change>
+                    gerprüft
+                
+            </change>
             <change when="2014-03-17" who="MLB">Inhaltliche Qualitätsprüfung
-                    umgesetzt</change>
+                    umgesetzt
+                
+            </change>
             <change when="2014-05-13" who="LB">Verifizierung 2
-                umgesetzt</change>
+                umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -65,10 +83,12 @@
     <body>
             <div>
       <p rend="left" xml:id="K_2313_p2">
-                    <lb xml:id="p1-l2"/>In Sachen der <placeName type="place" key="Alpen">Alpen</placeName>bahn kann <lb xml:id="p1-l3"/>ich Ihnen von hier aus
-                    momen<lb break="no" xml:id="p1-l4"/>tan nichts neues berichten. Diese <lb xml:id="p1-l5"/>Zeilen haben nur den Zweck Ihnen <lb xml:id="p1-l6"/>mit verbindlichstem Danke den <lb xml:id="p1-l7"/> <seg type="ref">Brief des Herrn <persName type="person" key="Feer-Herzog Carl">Feer-Herzog</persName>
-                        <ref type="letter" target="K_6569"/>
-                    </seg> zu<lb break="no" xml:id="p1-l8"/>rükzustellen<note type="transcript">sic!</note>. </p>
+                <lb xml:id="p1-l2"/>In Sachen der <placeName type="place" key="Alpen">Alpen</placeName>bahn kann <lb xml:id="p1-l3"/>ich Ihnen von hier aus
+                    momen
+                <lb break="no" xml:id="p1-l4"/>tan nichts neues berichten. Diese <lb xml:id="p1-l5"/>Zeilen haben nur den Zweck Ihnen <lb xml:id="p1-l6"/>mit verbindlichstem Danke den <lb xml:id="p1-l7"/> <seg type="ref">Brief des Herrn <persName type="person" key="Feer-Herzog Carl">Feer-Herzog</persName>
+                    <ref type="letter" target="K_6569"/>
+                </seg> zu
+                <lb break="no" xml:id="p1-l8"/>rükzustellen<note type="transcript">sic!</note>. </p>
     </div>
         </body>
     <back>

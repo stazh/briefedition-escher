@@ -25,22 +25,38 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName ref="Schenk Karl" type="sender">Karl Schenk</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Schenk Karl" type="addressee">Karl Schenk</persName>
                     <placeName>Zürich</placeName>
                     <date when="1871-06-17">Samstag, Juni 17, 1871</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2013-08-08" who="RO">Migration nach XML</change>
-            <change when="2013-09-02" who="LW">Migrationsverifizierung umgesetzt</change>
-            <change when="2014-01-08" who="RH">Auszeichnung 1 umgesetzt</change>
-            <change when="2014-01-09" who="LW">Verifizierung 1 umgesetzt</change>
-            <change when="2014-01-14" who="XR">Auszeichnung 2 umgesetzt</change>
-            <change when="2014-01-16" who="LH">Transkriptionsverifizierung Seiterle umgesetzt</change>
-            <change when="2014-01-22" who="MA">Übertragung der Transkriptionsverifizierung gerprüft</change>
-            <change when="2014-03-20" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="2013-08-08" who="RO">Migration nach XML
+                
+            </change>
+            <change when="2013-09-02" who="LW">Migrationsverifizierung umgesetzt
+                
+            </change>
+            <change when="2014-01-08" who="RH">Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2014-01-09" who="LW">Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2014-01-14" who="XR">Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2014-01-16" who="LH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
+            <change when="2014-01-22" who="MA">Übertragung der Transkriptionsverifizierung gerprüft
+                
+            </change>
+            <change when="2014-03-20" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -55,15 +71,17 @@
     <body>
             <div>
       <p rend="indent" xml:id="K_2529_p2">
-                    <lb xml:id="p1-l2"/>In Beilage beehre ich mich, Ihnen
+                <lb xml:id="p1-l2"/>In Beilage beehre ich mich, Ihnen
                 <lb xml:id="p1-l3"/>einen <seg type="ref">Bericht <persName type="person" key="Gonzenbach August von">Gonzenbach's</persName> vom <date when="1871-06-14">14</date>/ <date when="1871-06-16">16</date> <choice>
                             <abbr>dss. M.</abbr>
                             <expan>dieses Monats</expan>
                         </choice>
-                        <ref type="letter" target="K_3450"/>
-                    </seg> <lb xml:id="p1-l4"/>mit der höflichen Bitte zu übermitteln, 
-                <lb xml:id="p1-l5"/>mir denselben sammt den letzthin über<lb break="no" xml:id="p1-l6"/>sandten <seg type="ref">zwei Schriftstücken<ref type="letter" target="K_3447"/>
-                    </seg> nach gemach<lb break="no" xml:id="p1-l7"/>tem Gebrauche wieder zukommen lassen
+                    <ref type="letter" target="K_3450"/>
+                </seg> <lb xml:id="p1-l4"/>mit der höflichen Bitte zu übermitteln, 
+                <lb xml:id="p1-l5"/>mir denselben sammt den letzthin über
+                <lb break="no" xml:id="p1-l6"/>sandten <seg type="ref">zwei Schriftstücken<ref type="letter" target="K_3447"/>
+                </seg> nach gemach
+                <lb break="no" xml:id="p1-l7"/>tem Gebrauche wieder zukommen lassen
                 <lb xml:id="p1-l8"/>zu wollen.</p>
     </div>
         </body>

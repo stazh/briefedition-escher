@@ -29,23 +29,41 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Fraisse William" type="sender">William Fraisse</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Fraisse William" type="sender">William Fraisse</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Lausanne</placeName>
                     <date when="1856-07-09">Mittwoch, Juli 9, 1856</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2013-06-24" who="CH">Migration nach XML</change>
-            <change when="2013-06-24" who="NB">Auszeichnung 1 umgesetzt</change>
-            <change when="2013-07-12" who="CD">Transkriptionsverifizierung Seiterle umgesetzt</change>
-            <change when="2013-07-17" who="JS">Verifizierung 1 umgesetzt</change>
-            <change when="2013-07-18" who="CB">Auszeichnung 2 umgesetzt</change>
-            <change when="2013-07-23" who="JS">Migrationsverifizierung umgesetzt</change>
-            <change when="2013-08-13" who="KB">Transkriptionsverifizierung Seiterle überprüft</change>
-            <change when="2013-11-14" who="VP">Inhaltliche Qualitätsprüfung umgesetzt</change>
-            <change when="2013-12-18" who="VP">Verifizierung 2 umgesetzt</change>
+            <change when="2013-06-24" who="CH">Migration nach XML
+                
+            </change>
+            <change when="2013-06-24" who="NB">Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2013-07-12" who="CD">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
+            <change when="2013-07-17" who="JS">Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2013-07-18" who="CB">Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2013-07-23" who="JS">Migrationsverifizierung umgesetzt
+                
+            </change>
+            <change when="2013-08-13" who="KB">Transkriptionsverifizierung Seiterle überprüft
+                
+            </change>
+            <change when="2013-11-14" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
+            <change when="2013-12-18" who="VP">Verifizierung 2 umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -64,7 +82,7 @@
     <body>
             <div>
       <p rend="indent" xml:id="K_1496_p3">
-                    <lb xml:id="p1-l3"/>Malgré mon désir de vous procurer les renseignements
+                <lb xml:id="p1-l3"/>Malgré mon désir de vous procurer les renseignements
             <lb xml:id="p1-l4"/>que vous me faites l'honneur de me demander, je
             <lb xml:id="p1-l5"/>ne puis le faire que d'une manière sommaire
             <lb xml:id="p1-l6"/>et bien imparfaite. Faute de document: 
@@ -78,13 +96,13 @@
             <lb xml:id="p1-l12"/>et en majeure partie à <placeName type="place" key="Paris (F)">Paris</placeName> dans ce moment. 
             <lb xml:id="p1-l13"/>Son rapport doit etre à <placeName type="place" key="Genf (Stadt)">Genève</placeName>.</p>
       <p rend="indent" xml:id="K_1496_p4">
-                    <lb xml:id="p1-l14"/>Voici toutes fois les chiffres que je puis vous
+                <lb xml:id="p1-l14"/>Voici toutes fois les chiffres que je puis vous
                 <lb xml:id="p1-l15"/>donner pour la ligne à créer entre <placeName type="place" key="Herzogenbuchsee">
-                        <hi rend="underline">Herzogenbuchseé</hi>
-                    </placeName>
-                    <note type="transcript">sic</note> <lb xml:id="p1-l16"/>et <placeName type="place" key="Yverdon-les-Bains">
-                        <hi rend="underline">Yverdon</hi>
-                    </placeName> – par diverses Combinaisons –</p>
+                    <hi rend="underline">Herzogenbuchseé</hi>
+                </placeName>
+                <note type="transcript">sic</note> <lb xml:id="p1-l16"/>et <placeName type="place" key="Yverdon-les-Bains">
+                    <hi rend="underline">Yverdon</hi>
+                </placeName> – par diverses Combinaisons –</p>
       <table>
         <row xml:id="p1-l17">
           <cell>
@@ -92,20 +110,20 @@
                                 <abbr>1<hi rend="sup">o</hi> </abbr>
                                 <expan>primo (erstens)</expan>
                             </choice>
-                        </cell>
+                    </cell>
           <cell>par <placeName type="place" key="Solothurn">Soleure</placeName>, <placeName type="place" key="Biel (BE)">Bienne</placeName>, <placeName type="place" key="Lyss">Lyss</placeName>, <placeName type="place" key="Murten">Morat</placeName>, <placeName type="place" key="Payerne">Payerne</placeName> </cell>
           <cell>105,7 <choice>
                                 <abbr>kilomet.</abbr>
                                 <expan>kilomètre (Kilometer)</expan>
                             </choice> </cell>
-                    </row>
+                </row>
         <row xml:id="p1-l18">
           <cell>
             <choice>
                                 <abbr>2<hi rend="sup">o</hi> </abbr>
                                 <expan>secundo (zweitens)</expan>
                             </choice>
-                        </cell>
+                    </cell>
           <cell>par <placeName type="place" key="Solothurn">Soleure</placeName>, <placeName type="place" key="Biel (BE)">Bienne</placeName>, <placeName type="place" key="La Neuveville">Neuveville</placeName>, <placeName type="place" key="Le Landeron">Landeron</placeName> </cell>
           <cell/>
         </row>
@@ -113,19 +131,19 @@
           <cell/>
           <cell>
             <placeName type="place" key="Neuenburg (Stadt)">Neuchatel</placeName>, <placeName type="place" key="Vaumarcus">Vauxmarcus</placeName>
-                            <note type="transcript">sic</note> (rive gauche)</cell>
+                        <note type="transcript">sic</note> (rive gauche)</cell>
           <cell>90 <choice>
                                 <abbr>kilom.</abbr>
                                 <expan>kilomètre (Kilometer)</expan>
                             </choice> </cell>
-                    </row>
+                </row>
         <row xml:id="p1-l20">
           <cell>
             <choice>
                                 <abbr>3<hi rend="sup">o</hi> </abbr>
                                 <expan>tertio (drittens)</expan>
                             </choice>
-                        </cell>
+                    </cell>
           <cell>par <placeName type="place" key="Solothurn">Soleure</placeName>, <placeName type="place" key="Biel (BE)">Bienne</placeName> <placeName type="place" key="Lyss">Lyss</placeName>, Pont de <placeName type="place" key="Zihl">Thielle</placeName> </cell>
           <cell/>
         </row>
@@ -133,19 +151,19 @@
           <cell/>
           <cell>
             <placeName type="place" key="Neuenburg (Stadt)">Neuchatel</placeName>, <placeName type="place" key="Vaumarcus">Vauxmarcus</placeName>
-                            <note type="transcript">sic</note> </cell>
+                        <note type="transcript">sic</note> </cell>
           <cell>97 <choice>
                                 <abbr>kilom.</abbr>
                                 <expan>kilomètre (Kilometer)</expan>
                             </choice> <pb n="2"/>
-                        </cell> </row>
+                    </cell> </row>
         <row xml:id="p2-l1">
           <cell>
             <choice>
                                 <abbr>4<hi rend="sup">o</hi> </abbr>
                                 <expan>quarto (viertens)</expan>
                             </choice>
-                        </cell>
+                    </cell>
           <cell>par <placeName type="place" key="Solothurn">Soleure</placeName>,<placeName type="place" key="Biel (BE)">Bienne</placeName> Pont de <placeName type="place" key="Zihl">Thielle</placeName> </cell>
           <cell>kilometres</cell> </row>
         <row xml:id="p2-l2">
@@ -153,7 +171,7 @@
           <cell>
             <placeName type="place" key="Neuenburg (Stadt)">Neuchatel</placeName>
             <placeName type="place" key="Vaumarcus">Vauxmarcus</placeName>
-                            <note type="transcript">sic</note>, (évitant le crochet de <placeName type="place" key="Lyss">Lyss</placeName>)</cell>
+                        <note type="transcript">sic</note>, (évitant le crochet de <placeName type="place" key="Lyss">Lyss</placeName>)</cell>
           <cell> 92 à 93</cell> </row>
         <row xml:id="p2-l3">
           <cell>
@@ -161,7 +179,7 @@
                                 <abbr>5<hi rend="sup">o</hi> </abbr>
                                 <expan>quinto (fünftens)</expan>
                             </choice>
-                        </cell>
+                    </cell>
           <cell>par <placeName type="place" key="Burgdorf">Berthoud</placeName>, <placeName type="place" key="Bern (Stadt)">Berne</placeName>, <placeName type="place" key="Laupen (BE)">Laupen</placeName>, <placeName type="place" key="Murten">Morat</placeName> </cell>
           <cell/>
         </row>
@@ -179,14 +197,14 @@
                                 <abbr>metr</abbr>
                                 <expan>mètre (Meter)</expan>
                             </choice> </cell>
-                    </row>
+                </row>
         <row xml:id="p2-l5">
           <cell>
             <choice>
                                 <abbr>6<hi rend="sup">o</hi> </abbr>
                                 <expan>sexto (sechstens)</expan>
                             </choice>
-                        </cell>
+                    </cell>
           <cell>par <placeName type="place" key="Burgdorf">Berthoud</placeName>, <placeName type="place" key="Bern (Stadt)">Berne</placeName>, <placeName type="place" key="Thörishaus (Köniz-Neuenegg)">Thörishaus</placeName> <placeName type="place" key="Freiburg im Üechtland">Frybourg</placeName> </cell>
           <cell/>
         </row>
@@ -198,14 +216,14 @@
                                 <abbr>m</abbr>
                                 <expan>mètre (Meter)</expan>
                             </choice> </cell>
-                    </row>
+                </row>
         <row xml:id="p2-l7">
           <cell>
             <choice>
                                 <abbr>7<hi rend="sup">o</hi> </abbr>
                                 <expan>septimo (siebtens)</expan>
                             </choice>
-                        </cell>
+                    </cell>
           <cell>par <placeName type="place" key="Burgdorf">Berthoud</placeName>, <placeName type="place" key="Bern (Stadt)">Berne</placeName>, <placeName type="place" key="Thörishaus (Köniz-Neuenegg)">Thörishaus</placeName> <placeName type="place" key="Freiburg im Üechtland">Frybourg</placeName> </cell>
           <cell/>
         </row>
@@ -225,7 +243,7 @@
                                 <abbr>8<hi rend="sup">o</hi> </abbr>
                                 <expan>octo (achtens)</expan>
                             </choice>
-                        </cell>
+                    </cell>
           <cell>le même tracé, en taillant <placeName type="place" key="Oleyres">Oleyre</placeName>, pour</cell>
           <cell/>
         </row>
@@ -234,19 +252,19 @@
           <cell>se rapprocher de <placeName type="place" key="Donatyre">Donatyre</placeName> – environ –</cell>
           <cell>110 à 111 <choice>
                                 <abbr>
-                                    <hi rend="sup">Kilom</hi> </abbr>
+                            <hi rend="sup">Kilom</hi> </abbr>
                                 <expan>Kilomètre (Kilometer)</expan>
                             </choice>
-                        </cell> </row>
+                    </cell> </row>
       </table>
       <p rend="left" xml:id="K_1496_p5">
-                    <lb xml:id="p2-l12"/>Quant aux pentes elles varient de Zéro à 10 pour mille
+                <lb xml:id="p2-l12"/>Quant aux pentes elles varient de Zéro à 10 pour mille
         <lb xml:id="p2-l13"/>à l'exception du tracé (<choice>
                         <abbr>N<hi rend="sup">o</hi> </abbr>
                         <expan>Numero (Nummer)</expan>
                     </choice> 6) qui passe au <placeName type="place" key="Lac de Seedorf">lac de Seedorf</placeName>. 
                 <lb xml:id="p2-l14"/>
-                    <choice>
+                <choice>
                         <abbr>M<hi rend="sup">r</hi> </abbr>
                         <expan>Monsieur (Herr)</expan>
                     </choice> <persName type="person" key="Etzel Karl von">Etzel</persName> le propose avec 20 pour mille de pente sur 
@@ -258,20 +276,20 @@
         <lb xml:id="p2-l17"/>une pente de 16⅔ pour mille sur 9890 metres, et une 
                 <lb xml:id="p2-l18"/>autre de 10 2/10 pour mille sur 3175 metres –</p>
       <p rend="indent" xml:id="K_1496_p6">
-                    <lb xml:id="p2-l19"/>Ce rapprochement, entre les deux ingénieurs prouve
+                <lb xml:id="p2-l19"/>Ce rapprochement, entre les deux ingénieurs prouve
                 <lb xml:id="p2-l20"/>que la nècéssité de la rampe résulte de la Configuration
                 <lb xml:id="p2-l21"/>du sol, ce qui tend à faire abandonner absolument 
                 <lb xml:id="p2-l22"/>le tracé de <placeName type="place" key="Freiburg im Üechtland">Frybourg</placeName> par le <placeName type="place" key="Lac de Seedorf">Lac de Seedorf</placeName>, qui est
                 <lb xml:id="p2-l23"/>cependant celui qui résulte du Dècret <placeName type="place" key="Freiburg">Frybourgeois</placeName> – 
                 <lb xml:id="p2-l24"/>et a faire préférer le tracé un peu plus long par
         <lb xml:id="p2-l25"/>
-                    <placeName type="place" key="Misery (Misery-Courtion)">Courtion</placeName> et <placeName type="place" key="Courtepin">Courtepin</placeName>, (<choice>
+                <placeName type="place" key="Misery (Misery-Courtion)">Courtion</placeName> et <placeName type="place" key="Courtepin">Courtepin</placeName>, (<choice>
                         <abbr>N<hi rend="sup">o</hi> </abbr>
                         <expan>Numero (Nummer)</expan>
                     </choice> 7) qui offre des pentes
                 <lb xml:id="p2-l26"/>moins fortes...
                 <pb n="3"/>
-                    <lb xml:id="p3-l1"/>il est évident d ailleurs<note type="transcript">sic!</note> pour tout le monde que
+                <lb xml:id="p3-l1"/>il est évident d ailleurs<note type="transcript">sic!</note> pour tout le monde que
                 <lb xml:id="p3-l2"/>tous les tracés par la plaine, offrant des facilités
                 <lb xml:id="p3-l3"/>pour les pentes trés faibles, <del>et</del> les courbes à grand
                 <lb xml:id="p3-l4"/>rayon et les grands alignément<note type="transcript">sic!</note> droits, ensuite
@@ -288,7 +306,7 @@
                 <lb xml:id="p3-l15"/>impérieuse nécéssité, ou d'une impossibilité de
                 <lb xml:id="p3-l16"/>passer ailleurs. –</p>
       <p rend="indent" xml:id="K_1496_p7">
-                    <lb xml:id="p3-l17"/>Les frais permanents d'éxploitation et les tarifs
+                <lb xml:id="p3-l17"/>Les frais permanents d'éxploitation et les tarifs
                 <lb xml:id="p3-l18"/>du commerce sont des conséquences perpetuelles
                 <lb xml:id="p3-l19"/>des qualités du tracé. – – –</p>
     </div>

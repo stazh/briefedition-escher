@@ -34,8 +34,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>LuzernLützelau</placeName>
                     <date when="1877-08-22">Mittwoch, August 22, 1877</date>
                 </correspAction>
@@ -105,7 +105,9 @@
             <change when="2014-12-05" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -240,11 +242,11 @@ ich noch ohne Nachricht, ob der <choice>
                     </choice> die Sache erledigt hat<lb xml:id="p2-l6"/>
 oder nicht. Sollte die Erledigung noch länger auf sich<lb xml:id="p2-l7"/>
 warten laßen, so gedenke ich nochmals nach <placeName type="place" key="Bern (Stadt)">
-                        <hi>Bern</hi>
-                    </placeName> zu gehen. –</p>
+                    <hi>Bern</hi>
+                </placeName> zu gehen. –</p>
       <p rend="indent" xml:id="K_3022_p6">
                 <lb xml:id="p2-l8"/>Es wird wohl richtig sein, daß <seg type="ref">unser College <persName type="person" key="Weber Johann">
-                            <hi>W</hi>.</persName>
+                        <hi>W</hi>.</persName>
                     <ref type="kbp">→ Johann Weber</ref>
                 </seg> an den<lb xml:id="p2-l9"/> <seg type="com">
                     <placeName type="place" key="Bern">Bernischen</placeName> Conventikeln Theil nimmt.<note xml:id="K_3022_c6">Gemeint sind vermutlich die Verhandlungen der von <ref type="kbp"/>
@@ -256,10 +258,10 @@ warten laßen, so gedenke ich nochmals nach <placeName type="place" key="Bern (S
                                 <expan>Seite(n)</expan>
                             </choice> 160; <ref type="letter" target="K_3016"><!--→ Nr. 302--></ref>.</note>
                 </seg> Vorige Woche war<lb xml:id="p2-l10"/>er wieder in <placeName type="place" key="Bern (Stadt)">
-                        <hi>Bern</hi>
-                    </placeName>, ohne über seine Wahrnehmungen &amp; <lb xml:id="p2-l11"/>Besprechungen ein Wort mitzutheilen. Ich habe den Eindruk,<lb xml:id="p2-l12"/>daß man von <placeName type="place" key="Bern">
-                        <hi>Bern</hi>
-                    </placeName> aus (wenigstens <choice>
+                    <hi>Bern</hi>
+                </placeName>, ohne über seine Wahrnehmungen &amp; <lb xml:id="p2-l11"/>Besprechungen ein Wort mitzutheilen. Ich habe den Eindruk,<lb xml:id="p2-l12"/>daß man von <placeName type="place" key="Bern">
+                    <hi>Bern</hi>
+                </placeName> aus (wenigstens <choice>
                         <abbr>v.</abbr>
                         <expan>von</expan>
                     </choice> einer Seite)<lb xml:id="p2-l13"/>darauf hinarbeitet, daß die <seg type="ref">
@@ -267,7 +269,7 @@ warten laßen, so gedenke ich nochmals nach <placeName type="place" key="Bern (S
                             <abbr>schweiz.</abbr>
                             <expan>schweizerisch</expan>
                         </choice> <hi>Subvention</hi>
-                        <ref type="letter" target="K_3003"><!--→ Nr. 298--></ref>
+                    <ref type="letter" target="K_3003"><!--→ Nr. 298--></ref>
                 </seg> <seg type="com">
                     <note xml:id="K_3022_c7">Die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>konferenz vom Juni 1877<!--in Luzern --> beschloss, die Gotthardbahn-Gesellschaft mit einer Nachsubvention von 28 <choice>
                                 <abbr>Mio.</abbr>
@@ -297,8 +299,8 @@ warten laßen, so gedenke ich nochmals nach <placeName type="place" key="Bern (S
                     </persName>
                     <note xml:id="K_3022_c9">Person nicht ermittelt.</note>
                 </seg> geschriebenes<lb xml:id="p2-l20"/>Briefchen gesehen, worin nakt erklärt wurde, <placeName type="place" key="Bern">
-                        <hi>Bern</hi>
-                    </placeName> <lb xml:id="p2-l21"/>wolle nicht den Ruin der Gesellschaft (wie er Tags zuvor<lb xml:id="p2-l22"/>in einer Wirthschaft gepredigt), sondern Lösung der <pb n="3"/>
+                    <hi>Bern</hi>
+                </placeName> <lb xml:id="p2-l21"/>wolle nicht den Ruin der Gesellschaft (wie er Tags zuvor<lb xml:id="p2-l22"/>in einer Wirthschaft gepredigt), sondern Lösung der <pb n="3"/>
                 <lb xml:id="p3-l1"/>Gotthardbahnfrage mit Steilrampen &amp; Trajekten. Durch <seg type="com">
                     <choice>
                             <abbr>Hrn.</abbr>
@@ -358,8 +360,8 @@ wieder geködert würde. – <pb n="4"/>
                     <lb break="no" xml:id="p4-l7"/>stellt. Ich möchte daher wünschen, daß man <placeName type="place" key="Bern">
                         <hi>Bern</hi>
                     </placeName> immerhin<lb xml:id="p4-l8"/>soweit nur möglich entgegenkommt, da ich ohne die<lb xml:id="p4-l9"/>Mithülfe von <placeName type="place" key="Bern">
-                            <hi>Bern</hi>
-                        </placeName> keinerlei Möglichkeit sehe, die<lb xml:id="p4-l10"/>
+                        <hi>Bern</hi>
+                    </placeName> keinerlei Möglichkeit sehe, die<lb xml:id="p4-l10"/>
                     <choice>
                             <abbr>schweiz.</abbr>
                             <expan>schweizerisch</expan>
@@ -369,6 +371,7 @@ wieder geködert würde. – <pb n="4"/>
                 <lb xml:id="p4-l12"/>Ich theile vollständig Ihre Auffaßung, daß die<lb xml:id="p4-l13"/>
 				Vergebung eines größern Theils der Arbeiten an <placeName type="place" key="Italien (Königreich)">italienische</placeName> <lb xml:id="p4-l14"/>
 				Unternehmer eine entsprechende Lösung der <hi>Subventions</hi>
+                
                 <lb break="no" xml:id="p4-l15"/>frage 
 in <placeName type="place" key="Italien (Königreich)">Italien</placeName> wesentlich zu erleichtern im Stande ist &amp; bin<lb xml:id="p4-l16"/>
 				daher mit dem <choice>
@@ -379,16 +382,16 @@ in <placeName type="place" key="Italien (Königreich)">Italien</placeName> wesen
                             <abbr>Hrn.</abbr>
                             <expan>Herrn</expan>
                         </choice> <persName type="person" key="Maraini Clemente">
-                            <hi>Maraini</hi>
-                        </persName>
+                        <hi>Maraini</hi>
+                    </persName>
                     <ref type="kbp">→ Clemente Maraini</ref>
                 </seg> gegenüber gethanen<lb xml:id="p4-l17"/>
 Schritte ganz einverstanden.<!-- <c><com>[<b>PENDENT</b>. Schritte Eschers unklar. Sekundär.]
 </com></c> --> Hinwieder wird es sich empfehlen,<lb xml:id="p4-l18"/>
 auch die <seg type="ref">Verhandlungen mit <seg type="com">
                         <persName type="person" key="Single Heinrich">
-                                <hi>Single</hi>
-                            </persName>
+                            <hi>Single</hi>
+                        </persName>
                         <note xml:id="K_3022_c14">
                             <persName type="person" key="Single Heinrich">Heinrich Single</persName> (Lebensdaten nicht ermittelt), Ingenieur aus dem Raum <placeName type="place" key="Württemberg (Königreich)">Württemberg</placeName>.</note>
                     </seg>

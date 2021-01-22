@@ -32,8 +32,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Jenny-Dinner Caspar" type="sender">Caspar Jenny-Dinner</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Jenny-Dinner Caspar" type="sender">Caspar Jenny-Dinner</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Ziegelbrücke</placeName>
                     <date when="1882-05-23">Dienstag, Mai 23, 1882</date>
                 </correspAction>
@@ -94,7 +94,9 @@
             <change when="2014-12-01" who="CA">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -154,7 +156,7 @@ wiederum Ihnen &amp; Ihrer aufopfernden<lb xml:id="p2-l17"/>
 Hingebung auf Unkosten Ihrer Gesund
                 <lb break="no" xml:id="p2-l18"/>heit 
         das gelungene Werk der <seg type="ref">
-                        <hi>Reconstruc
+                    <hi>Reconstruc
                     <lb break="no" xml:id="p2-l19"/>tion</hi>!<ref type="sum" target="Rekonstruktion_Gotthardbahn_d1.3"><!--S. 394–401--></ref>
                     <ref type="sum" target="Rekonstruktion_Gotthardbahn_d1.4"><!--S. 394–401--></ref>
                     <ref type="sum" target="Rekonstruktion_Gotthardbahn_d1.5"><!--S. 394–401--></ref>

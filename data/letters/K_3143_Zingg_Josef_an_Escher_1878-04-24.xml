@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Luzern</placeName>
                     <date when="1878-04-24">Mittwoch, April 24, 1878</date>
                 </correspAction>
@@ -40,25 +40,63 @@
         
         
       </change>
-            <change when="November 2006" who="swissedit, MS/UR">von Word nach XML konvertiert</change>
-            <change when="2007-01-15" who="MF">provisorisch kommentiert 1</change>
-            <change when="2007-02-27" who="TN">Korrekturen übertragen</change>
-            <change when="2007-03-21" who="MF">provisorisch kommentiert 2</change>
-            <change when="2007-04-12" who="MF">kommentiert 3</change>
-            <change when="2007-04-24" who="MF">Korrekturen 1 Haberthür übertragen</change>
-            <change when="2007-05-11" who="WB">indexiert</change>
-            <change when="2007-05-25" who="MF">Umsetzung Lektorat und Verifizierung</change>
-            <change when="2007-06-15" who="WB">Umsetzung Lektorat 2</change>
-            <change when="2007-06-26" who="MF">Umsetzung Verifizierung Verweise</change>
-            <change when="2007-07-22" who="MF">Umsetzung Verifizierung Personenerwähnungen</change>
-            <change when="2008-08-11" who="SW">Auf Stand Edition gebracht</change>
-            <change when="2011-07-21" who="TM">e-Edition: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-08-09" who="HA">e-Edition: Verifizierung 1 umgesetzt</change>
-            <change when="2011-08-22" who="BP">e-Edition: Verifizierung 2 umgesetzt</change>
-            <change when="2014-01-27" who="MB">Migrationverifizierung umgesetzt</change>
-            <change when="2014-12-02" who="LB">Auszeichnung 2 umgesetzt</change>
-            <change when="2014-12-02" who="LB">Verifizierung 2 umgesetzt</change>
-            <change when="2014-12-02" who="LB">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="November 2006" who="swissedit, MS/UR">von Word nach XML konvertiert
+                
+            </change>
+            <change when="2007-01-15" who="MF">provisorisch kommentiert 1
+                
+            </change>
+            <change when="2007-02-27" who="TN">Korrekturen übertragen
+                
+            </change>
+            <change when="2007-03-21" who="MF">provisorisch kommentiert 2
+                
+            </change>
+            <change when="2007-04-12" who="MF">kommentiert 3
+                
+            </change>
+            <change when="2007-04-24" who="MF">Korrekturen 1 Haberthür übertragen
+                
+            </change>
+            <change when="2007-05-11" who="WB">indexiert
+                
+            </change>
+            <change when="2007-05-25" who="MF">Umsetzung Lektorat und Verifizierung
+                
+            </change>
+            <change when="2007-06-15" who="WB">Umsetzung Lektorat 2
+                
+            </change>
+            <change when="2007-06-26" who="MF">Umsetzung Verifizierung Verweise
+                
+            </change>
+            <change when="2007-07-22" who="MF">Umsetzung Verifizierung Personenerwähnungen
+                
+            </change>
+            <change when="2008-08-11" who="SW">Auf Stand Edition gebracht
+                
+            </change>
+            <change when="2011-07-21" who="TM">e-Edition: Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-09" who="HA">e-Edition: Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-22" who="BP">e-Edition: Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-01-27" who="MB">Migrationverifizierung umgesetzt
+                
+            </change>
+            <change when="2014-12-02" who="LB">Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2014-12-02" who="LB">Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-12-02" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -73,25 +111,25 @@ Hochverehrter Herr Präsident!
     <body>
             <div>
       <p rend="left" xml:id="K_3143_p2">
-                    <lb xml:id="p1-l2"/>Im Anschluße an <seg type="com">meine <date when="1878-04-23">gestrige</date> <lb xml:id="p1-l3"/>
+                <lb xml:id="p1-l2"/>Im Anschluße an <seg type="com">meine <date when="1878-04-23">gestrige</date> <lb xml:id="p1-l3"/>
 telegraphische Anzeige<note xml:id="K_3143_c1">Telegramm nicht ermittelt.</note>
-                    </seg> von dem<lb xml:id="p1-l4"/>
+                </seg> von dem<lb xml:id="p1-l4"/>
 unerwartet rasch erfolgten Hinschiede<lb xml:id="p1-l5"/>
 unsers Collegen <seg type="ref">
-                        <persName type="person" key="Weber Johann">Weber</persName>
-                        <ref type="kbp">→ Johann Weber</ref>
-                    </seg> beehre ich<lb xml:id="p1-l6"/> <seg type="com">mich Ihnen mitzutheilen, daß die<lb xml:id="p1-l7"/>
+                    <persName type="person" key="Weber Johann">Weber</persName>
+                    <ref type="kbp">→ Johann Weber</ref>
+                </seg> beehre ich<lb xml:id="p1-l6"/> <seg type="com">mich Ihnen mitzutheilen, daß die<lb xml:id="p1-l7"/>
 Beerdigung <date when="1878-04-26">nächsten Freitag</date> in<lb xml:id="p1-l8"/>
-                        <placeName type="place" key="Kirchberg (BE)">Kirchberg</placeName> stattfinden wird.<note xml:id="K_3143_c2">
-                            <persName type="person" key="Weber Johann">Weber</persName> starb am <date when="1878-04-23">23. April 1878</date> an einer Lungenentzündung. <choice>
+                    <placeName type="place" key="Kirchberg (BE)">Kirchberg</placeName> stattfinden wird.<note xml:id="K_3143_c2">
+                        <persName type="person" key="Weber Johann">Weber</persName> starb am <date when="1878-04-23">23. April 1878</date> an einer Lungenentzündung. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Geschäftsbericht GB</ref> 1878, <choice>
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 8; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006117">
-                                <ref type="lit">Prot. BR</ref>, 26. April 1878</ref>.</note>
-                    </seg> Ich<lb xml:id="p1-l9"/>
+                            <ref type="lit">Prot. BR</ref>, 26. April 1878</ref>.</note>
+                </seg> Ich<lb xml:id="p1-l9"/>
 nehme an, daß ich – vielleicht in<lb xml:id="p1-l10"/>
         Verbindung mit <choice>
                         <abbr>Hrn.</abbr>
@@ -100,33 +138,34 @@ nehme an, daß ich – vielleicht in<lb xml:id="p1-l10"/>
                         <abbr>Direktionsek.</abbr>
                         <expan>Direktionssekretär</expan>
                     </choice> <lb xml:id="p1-l11"/> <seg type="com">
-                        <persName type="person" key="Dula Franz">Dula</persName>
-                        <note xml:id="K_3143_c3">
-                            <persName type="person" key="Dula Franz">Franz Dula</persName> (<choice>
+                    <persName type="person" key="Dula Franz">Dula</persName>
+                    <note xml:id="K_3143_c3">
+                        <persName type="person" key="Dula Franz">Franz Dula</persName> (<choice>
                                 <abbr>geb.</abbr>
                                 <expan>geboren</expan>
                             </choice> 1840), Sekretär der Direktion der Gotthardbahn-Gesellschaft, Obergerichtsschreiber in <placeName type="place" key="Luzern (Stadt)">Luzern</placeName>.</note>
-                    </seg> oder <seg type="ref">
-                        <persName type="person" key="Schweizer Friedrich">Schweizer</persName>
-                        <ref type="kbp">→ Friedrich Schweizer</ref>
-                    </seg> – Namens der<lb xml:id="p1-l12"/>
+                </seg> oder <seg type="ref">
+                    <persName type="person" key="Schweizer Friedrich">Schweizer</persName>
+                    <ref type="kbp">→ Friedrich Schweizer</ref>
+                </seg> – Namens der<lb xml:id="p1-l12"/>
 Direktion der Beerdigungsfeier<lb xml:id="p1-l13"/>
 werde beizuwohnen haben &amp; daß<lb xml:id="p1-l14"/>
 es vielleicht passend sein wird, der <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
+                <lb xml:id="p2-l1"/>
 Familie noch officiell das Beileid<lb xml:id="p2-l2"/>
 auszudrüken. – </p>
       <p rend="left" xml:id="K_3143_p3">
-                    <lb xml:id="p2-l3"/>An die Kanzlei des III. <hi>Departements</hi> <lb xml:id="p2-l4"/>
+                <lb xml:id="p2-l3"/>An die Kanzlei des III. <hi>Departements</hi> <lb xml:id="p2-l4"/>
 habe ich den Auftrag gegeben,<lb xml:id="p2-l5"/>
 die auf dem <hi>Bureau</hi> &amp; im Hause des<lb xml:id="p2-l6"/>
-                    <choice>
+                <choice>
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <choice>
                         <abbr>Dir.</abbr>
                         <expan>Direktor / Director</expan>
-                    </choice> <persName type="person" key="Weber Johann">Weber</persName> befindlichen Gott<lb break="no" xml:id="p2-l7"/>hardbahnakten 
+                    </choice> <persName type="person" key="Weber Johann">Weber</persName> befindlichen Gott
+                <lb break="no" xml:id="p2-l7"/>hardbahnakten 
 zu sammeln &amp; zu<lb xml:id="p2-l8"/>
 untersuchen, was allfällig an<lb xml:id="p2-l9"/>
 anhängigen Geschäften vorhanden<lb xml:id="p2-l10"/>
@@ -134,11 +173,12 @@ sei, damit sodann die Erledigung<lb xml:id="p2-l11"/>
 derselben eingeleitet werden kann.<lb xml:id="p2-l12"/>
 Ob ich diese Geschäfte an die Hand<lb xml:id="p2-l13"/>
 nehmen oder Ihnen senden soll,<lb xml:id="p2-l14"/>
-darüber gewärtige ich Ihren ge<lb break="no" xml:id="p2-l15"/>fälligen 
+darüber gewärtige ich Ihren ge
+                <lb break="no" xml:id="p2-l15"/>fälligen 
 Entscheid, indem ich das <pb n="3"/>
-                    <lb xml:id="p3-l1"/>
+                <lb xml:id="p3-l1"/>
 Anerbieten bestätige, das ich Ihnen<lb xml:id="p3-l2"/>
-                    <date when="1878-04-23">gestern</date> Morgen durch <choice>
+                <date when="1878-04-23">gestern</date> Morgen durch <choice>
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <persName type="person" key="Schweizer Friedrich">Schweizer</persName> <lb xml:id="p3-l3"/>
@@ -147,13 +187,15 @@ habe machen laßen. <seg type="com">Ich befinde<lb xml:id="p3-l4"/>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="letter" target="K_3134"><!--Brief Josef Zingg an Escher, 10. April 1878 (BAR J I.67-8)--></ref>.</note>
-                    </seg> – </p>
+                </seg> – </p>
       <p rend="left" xml:id="K_3143_p4">
-                    <lb xml:id="p3-l5"/>Mit dem herzlichen Wunsche, <seg type="ref">daß<lb xml:id="p3-l6"/>
+                <lb xml:id="p3-l5"/>Mit dem herzlichen Wunsche, <seg type="ref">daß<lb xml:id="p3-l6"/>
 Letztres auch bei Ihnen recht bald<lb xml:id="p3-l7"/>
 wieder der Fall sein möge<ref type="letter" target="K_3138"><!--→ Nr. 342--></ref>
-                    </seg>, ver<lb break="no" xml:id="p3-l8"/>bleibe 
-ich mit dem Ausdruke vor<lb break="no" xml:id="p3-l9"/>züglicher 
+                </seg>, ver
+                <lb break="no" xml:id="p3-l8"/>bleibe 
+ich mit dem Ausdruke vor
+                <lb break="no" xml:id="p3-l9"/>züglicher 
 Hochachtung.</p>
     </div>
         </body>

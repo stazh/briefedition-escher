@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Schweizer Heinrich" type="sender">Heinrich Schweizer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Schweizer Heinrich" type="sender">Heinrich Schweizer</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Schwerzenbach</placeName>
                     <date when="1839-10-10">Donnerstag, Oktober 10, 1839</date>
                 </correspAction>
@@ -69,7 +69,9 @@
           umgesetzt
                 
             </change>
-            <change when="2016-12-19" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-19" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -135,8 +137,8 @@
                         <expan>Gulden</expan>
                     </choice> <choice>
                         <abbr>
-                            <hi>p<hi rend="sup">r</hi>
-                            </hi> </abbr>
+                    <hi>p<hi rend="sup">r</hi>
+                    </hi> </abbr>
                         <expan>per</expan>
                     </choice> <choice>
                         <abbr>Klftr</abbr>
@@ -155,8 +157,8 @@
                         <expan>Schilling</expan>
                     </choice> <choice>
                         <abbr>
-                            <hi>p<hi rend="sup">r</hi>
-                            </hi> </abbr>
+                    <hi>p<hi rend="sup">r</hi>
+                    </hi> </abbr>
                         <expan>per</expan>
                     </choice> <choice>
                         <abbr>Klftr</abbr>

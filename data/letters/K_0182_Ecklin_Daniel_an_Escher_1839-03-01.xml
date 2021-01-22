@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Ecklin Daniel" type="sender">Daniel Ecklin</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Ecklin Daniel" type="sender">Daniel Ecklin</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Basel</placeName>
                     <date when="1839-03-01">Freitag, März 1, 1839</date>
                 </correspAction>
@@ -65,7 +65,9 @@
             <change when="2011-07-27" who="AH">e-Edition: Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2016-12-19" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-19" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -82,8 +84,8 @@
                         <abbr>m.</abbr>
                         <expan>mein</expan>
                     </choice> Theurer, in <placeName type="place" key="Berlin (D)">
-                        <hi>Berlin</hi>
-                    </placeName> von mir erhältst,<lb xml:id="p1-l3"/>bezeuge ich dir vor Allem meine herzliche Freude über deine Wiedergenesung. Freilich<lb xml:id="p1-l4"/>weilt in derselben Herberge des Herzens noch ein anderer Gast, der ebenfalls seine<lb xml:id="p1-l5"/>Ansprüche, sein älteres Recht geltend macht, <choice>
+                    <hi>Berlin</hi>
+                </placeName> von mir erhältst,<lb xml:id="p1-l3"/>bezeuge ich dir vor Allem meine herzliche Freude über deine Wiedergenesung. Freilich<lb xml:id="p1-l4"/>weilt in derselben Herberge des Herzens noch ein anderer Gast, der ebenfalls seine<lb xml:id="p1-l5"/>Ansprüche, sein älteres Recht geltend macht, <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> der Wirth darf <choice>
@@ -195,12 +197,12 @@ darum männlich <choice>
                         <expan>und</expan>
                     </choice> fest, mit trockenen Augen 
                     <del>nach</del> <add>
-                        <del>in</del>
-                    </add> der Zukunft entgegengeschaut! –<lb xml:id="p2-l27"/>
+                    <del>in</del>
+                </add> der Zukunft entgegengeschaut! –<lb xml:id="p2-l27"/>
 Ich gedenke, in der 2<hi rend="sup">ten</hi> Woche nach <date when="1839-03-31">Ostern</date> von hier abzureisen; meine <hi>Route</hi> wird<lb xml:id="p2-l28"/>
 ungefähr diese sein: <placeName type="place" key="Freiburg im Breisgau (D)">Freiburg</placeName>  –  <placeName type="place" key="Strassburg (F)">Straßburg</placeName>  –  <placeName type="place" key="Mannheim (D)">Mannheim</placeName>  –  <placeName type="place" key="Heidelberg (D)">Heidelberg</placeName>  –  <placeName type="place" key="Mainz (D)">
-                        <hi>Mainz</hi>
-                    </placeName>  –  <placeName type="place" key="Frankfurt am Main (D)">Frankfurt</placeName> –<lb xml:id="p2-l29"/>
+                    <hi>Mainz</hi>
+                </placeName>  –  <placeName type="place" key="Frankfurt am Main (D)">Frankfurt</placeName> –<lb xml:id="p2-l29"/>
                 <placeName type="place" key="Leipzig (D)">Leipzig</placeName>  – <placeName type="place" key="Berlin (D)">Berlin</placeName>. – Möchtest du nur recht zur Gesundheit erstarken; das Bewußtsein<lb xml:id="p2-l30"/>
 dich gesund <choice>
                         <abbr>u.</abbr>

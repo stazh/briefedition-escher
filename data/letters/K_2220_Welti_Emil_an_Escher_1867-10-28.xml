@@ -31,33 +31,71 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1867-10-28">Montag, Oktober 28, 1867</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2005-06-09" who="SK"> transkribiert</change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert</change>
-            <change when="2006-07-24" who="BF"> provisorisch</change>
-            <change when="2006-12-05" who="SM">Konvertierung provisorisch nachbearbeitet</change>
-            <change when="2006-12-22" who="WB">Konvertierung nachbearbeitet</change>
-            <change when="2007-01-24" who="TN">Korrekturen übertragen</change>
-            <change when="2007-03-2007; 27-02-07" who="BF">provisorisch kommentiert 2</change>
-            <change when="2007-04-13" who="WB">indexiert</change>
-            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen</change>
-            <change when="2007-05-15" who="BF">Umsetzung Lektorat und Verifizierung</change>
-            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2</change>
-            <change when="2007-06-21" who="BF">Umsetzung Verifizierung Verweise</change>
-            <change when="2007-08-02" who="BF">Umsetzung Verifizierung Personenerwähnungen</change>
-            <change when="2008-07-28" who="SW">Auf Stand Edition gebracht</change>
-            <change when="2011-07-15" who="TM">e-Edition: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-08-04" who="HA">e-Edition: Verifizierung 1 umgesetzt</change>
-            <change when="2011-08-31" who="HA">e-Edition: Verifizierung 2 umgesetzt</change>
-            <change when="2014-11-17" who="CA">Verifizierung 2 umgesetzt</change>
-            <change when="2014-11-17" who="CA">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="2005-06-09" who="SK"> transkribiert
+                
+            </change>
+            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
+                
+            </change>
+            <change when="2006-07-24" who="BF"> provisorisch
+                
+            </change>
+            <change when="2006-12-05" who="SM">Konvertierung provisorisch nachbearbeitet
+                
+            </change>
+            <change when="2006-12-22" who="WB">Konvertierung nachbearbeitet
+                
+            </change>
+            <change when="2007-01-24" who="TN">Korrekturen übertragen
+                
+            </change>
+            <change when="2007-03-2007; 27-02-07" who="BF">provisorisch kommentiert 2
+                
+            </change>
+            <change when="2007-04-13" who="WB">indexiert
+                
+            </change>
+            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen
+                
+            </change>
+            <change when="2007-05-15" who="BF">Umsetzung Lektorat und Verifizierung
+                
+            </change>
+            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2
+                
+            </change>
+            <change when="2007-06-21" who="BF">Umsetzung Verifizierung Verweise
+                
+            </change>
+            <change when="2007-08-02" who="BF">Umsetzung Verifizierung Personenerwähnungen
+                
+            </change>
+            <change when="2008-07-28" who="SW">Auf Stand Edition gebracht
+                
+            </change>
+            <change when="2011-07-15" who="TM">e-Edition: Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-04" who="HA">e-Edition: Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-31" who="HA">e-Edition: Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-11-17" who="CA">Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-11-17" who="CA">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -70,116 +108,130 @@
     <body>
             <div>
       <p rend="left" xml:id="K_2220_p2">
-                    <lb xml:id="p1-l2"/>Von Herrn <seg type="ref">
-                        <persName type="person" key="Schenk Karl">Schenk</persName>
-                        <ref type="kbp">→ Karl Schenk</ref>
-                    </seg> habe ich <seg type="com">Ihre Ausein<lb break="no" xml:id="p1-l3"/>andersetzung<note xml:id="K_2220_c1">Gemeint ist ein von Escher ausgearbeitetes «Schema für die Beleuchtung der <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage vom bundesrechtlichen Standpuncte aus». <ref type="letter" target="K_2219"><!--→ Nr. 81--></ref> <ref type="letter" target="K_2221"><!--→ Nr. 83--></ref>.</note>
-                    </seg> noch nicht erhalten; er<lb xml:id="p1-l4"/>
+                <lb xml:id="p1-l2"/>Von Herrn <seg type="ref">
+                    <persName type="person" key="Schenk Karl">Schenk</persName>
+                    <ref type="kbp">→ Karl Schenk</ref>
+                </seg> habe ich <seg type="com">Ihre Ausein
+                    <lb break="no" xml:id="p1-l3"/>andersetzung<note xml:id="K_2220_c1">Gemeint ist ein von Escher ausgearbeitetes «Schema für die Beleuchtung der <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage vom bundesrechtlichen Standpuncte aus». <ref type="letter" target="K_2219"><!--→ Nr. 81--></ref> <ref type="letter" target="K_2221"><!--→ Nr. 83--></ref>.</note>
+                </seg> noch nicht erhalten; er<lb xml:id="p1-l4"/>
 hat mir sie aber auf <date when="1867-10-28">heute</date> zugesagt<lb xml:id="p1-l5"/>
-                    <choice>
+                <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> ich werde dann gerne Ihnen meine<lb xml:id="p1-l6"/>
 Ansicht darüber sagen.</p>
       <p rend="indent" xml:id="K_2220_p3">
-                    <lb xml:id="p1-l7"/>Zweck dieses Briefes ist die Mit<lb break="no" xml:id="p1-l8"/>theilung 
+                <lb xml:id="p1-l7"/>Zweck dieses Briefes ist die Mit
+                <lb break="no" xml:id="p1-l8"/>theilung 
 einer Antwort des <seg type="ref">
-                        <choice>
+                    <choice>
                             <abbr>H.</abbr>
                             <expan>Herr</expan>
                         </choice> <persName type="person" key="Pioda Giovanni Battista">Pioda</persName>
-                        <ref type="kbp">→ Giovanni Battista Pioda</ref>
-                    </seg> <lb xml:id="p1-l9"/> <seg type="com">in Betreff der Eisenbahnangelegenheit.<note xml:id="K_2220_c2">Am <date when="1867-09-07">7. September 1867</date> hatte der Bundesrat beschlossen, durch den Schweizer Gesandten in
+                    <ref type="kbp">→ Giovanni Battista Pioda</ref>
+                </seg> <lb xml:id="p1-l9"/> <seg type="com">in Betreff der Eisenbahnangelegenheit.<note xml:id="K_2220_c2">Am <date when="1867-09-07">7. September 1867</date> hatte der Bundesrat beschlossen, durch den Schweizer Gesandten in
   <placeName type="place" key="Italien (Königreich)">Italien</placeName> eine offizielle Anfrage bei der <placeName type="place" key="Italien (Königreich)">italienischen</placeName> Regierung bezüglich deren Intentionen in der <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage vorzubringen. <persName type="person" key="Pioda Giovanni Battista">Pioda</persName> erstattete dem Bundesrat unter Datum vom <date when="1867-10-22">22. Oktober</date> Bericht. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004310" type="www">
-                                <ref type="lit">Prot. BR</ref>, 1. November 1867</ref>; <ref type="letter" target="K_2215"><!-- → Nr. 79--></ref>.</note>
-                    </seg> <lb xml:id="p1-l10"/>
+                            <ref type="lit">Prot. BR</ref>, 1. November 1867</ref>; <ref type="letter" target="K_2215"><!-- → Nr. 79--></ref>.</note>
+                </seg> <lb xml:id="p1-l10"/>
 Er schreibt darüber: es sei ihm erst<lb xml:id="p1-l11"/>
 kürzlich möglich geworden mit dem<lb xml:id="p1-l12"/>
 				Minister der öffentlichen Arbeiten<lb xml:id="p1-l13"/> ( <seg type="com">
-                        <persName type="person" key="Giovanola Antonio">
-                            <hi>Giovannola</hi>
-                        </persName>
-                        <note xml:id="K_2220_c3">
-                            <persName type="person" key="Giovanola Antonio">Antonio Giovanola</persName> (1814–1882), Senator und Minister für öffentliche Arbeiten des Königreichs <placeName type="place" key="Italien (Königreich)">Italien</placeName>.</note>
-                    </seg> ) zu sprechen <choice>
+                    <persName type="person" key="Giovanola Antonio">
+                        <hi>Giovannola</hi>
+                    </persName>
+                    <note xml:id="K_2220_c3">
+                        <persName type="person" key="Giovanola Antonio">Antonio Giovanola</persName> (1814–1882), Senator und Minister für öffentliche Arbeiten des Königreichs <placeName type="place" key="Italien (Königreich)">Italien</placeName>.</note>
+                </seg> ) zu sprechen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> dieser <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
+                <lb xml:id="p2-l1"/>
 habe sich so geäußert: </p>
       <p rend="indent" xml:id="K_2220_p4">
-                    <hi>
+                <hi>
           <lb xml:id="p2-l2"/>La Suisse ne peut pas douter de<lb xml:id="p2-l3"/>
-l'interêt que met l'<placeName type="place" key="Italien (Königreich)">Italie</placeName> à l'éxe<lb break="no" xml:id="p2-l4"/>cution 
-        d'un passage des <placeName type="place" key="Alpen">Alpes</placeName> <placeName type="place" key="Italien">italo</placeName> <lb break="no" xml:id="p2-l5"/>suisses, 
-mais parceque elle y met beau<lb break="no" xml:id="p2-l6"/>coup 
-d'interêt elle ne veut pas re<lb break="no" xml:id="p2-l7"/>commencer 
+l'interêt que met l'<placeName type="place" key="Italien (Königreich)">Italie</placeName> à l'éxe
+                    <lb break="no" xml:id="p2-l4"/>cution 
+        d'un passage des <placeName type="place" key="Alpen">Alpes</placeName> <placeName type="place" key="Italien">italo</placeName> 
+                    <lb break="no" xml:id="p2-l5"/>suisses, 
+mais parceque elle y met beau
+                    <lb break="no" xml:id="p2-l6"/>coup 
+d'interêt elle ne veut pas re
+                    <lb break="no" xml:id="p2-l7"/>commencer 
 des études déja faites, elle<lb xml:id="p2-l8"/>
-ne veut pas se mettre dans un de<lb break="no" xml:id="p2-l9"/>dale 
+ne veut pas se mettre dans un de
+                    <lb break="no" xml:id="p2-l9"/>dale 
 de conférences gouvernementales qui<lb xml:id="p2-l10"/>
 pourraient reprendre la chose <seg type="com">ab ovo<note xml:id="K_2220_c4">Ab ovo (<choice>
                                     <abbr>lat.</abbr>
                                     <expan>lateinisch</expan>
                                 </choice>): vom Ei aus; übertragen: von den ersten Anfängen an.</note>
-                        </seg>. <lb xml:id="p2-l11"/>
+                    </seg>. <lb xml:id="p2-l11"/>
 Il's'agit maintenant de savoir s'il y<lb xml:id="p2-l12"/>
-a quelqu'un qui fasse une offre d'é<lb break="no" xml:id="p2-l13"/>xecution; 
+a quelqu'un qui fasse une offre d'é
+                    <lb break="no" xml:id="p2-l13"/>xecution; 
 c'est alors qu'on pourra<lb xml:id="p2-l14"/>
 aviser aux subsides à acoorder. La<lb xml:id="p2-l15"/>
 attendant, a-t-il dit, le <seg type="ref">
-                            <placeName type="place" key="Brenner (Pass, A-I)">Brenner</placeName> <lb xml:id="p2-l16"/>
+                        <placeName type="place" key="Brenner (Pass, A-I)">Brenner</placeName> <lb xml:id="p2-l16"/>
 et le <placeName type="place" key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>
-                            <ref type="letter" target="K_1780">Brennerbahn, Mont-Cenis-Bahn<!-- → Nr. 35--></ref>
-                        </seg> serviront au plus <pb n="3"/>
-                        <lb xml:id="p3-l1"/>
+                        <ref type="letter" target="K_1780">Brennerbahn, Mont-Cenis-Bahn<!-- → Nr. 35--></ref>
+                    </seg> serviront au plus <pb n="3"/>
+                    <lb xml:id="p3-l1"/>
 pressé.</hi>
       </p>
       <p rend="left" xml:id="K_2220_p5">
-                    <lb xml:id="p3-l2"/>Von dem <seg type="com">
-                        <persName type="person" key="Rattazzi Urbano">Finanzminister</persName>
-                        <note xml:id="K_2220_c5"><!--[Unklar: genannt werden (Internet-Quellen...) sowohl 
+                <lb xml:id="p3-l2"/>Von dem <seg type="com">
+                    <persName type="person" key="Rattazzi Urbano">Finanzminister</persName>
+                    <note xml:id="K_2220_c5"><!--[Unklar: genannt werden (Internet-Quellen...) sowohl 
 						<idx type="person" norm="Blasiis Fancesco de">Francesco De Blasiis</idx> (1823&ndash;1873) wie auch <idx type="person" norm="Ferrara Francesco">Francesco Ferrara</idx> (1810&ndash;1900), wobei letzterer wohl ursprünglich ernannt wurde, dann aber zurücktrat und interimistisch (?) von Rattazzi selbst abgelöst wurde. Denkbar also auch Urbano Rattazzi (1808&ndash;1873). Blasiis hingegen ist als Minister für Agricoltura, Industria e Commercio ernannt worden (NZZ, April 1867)...&ndash; <b>ergo: Identität des Finanzministers (Ministro delle Finanze) ist unklar (da laut BR-Prot. Pioda nur schreibt, mit Giovanola und dem Ministerpräsidenten gesprochen zu haben, wäre die Vermutung Finanzminister = Ministerpräsident = Rattazzi am wahrscheinlichsten)]</b> --> Ministerpräsident <persName type="person" key="Rattazzi Urbano">Urbano Rattazzi</persName> (1808–1873) ersetzte im Juli 1867 den<!--im April 1867 ernannten--> zurückgetretenen <persName type="person" key="Ferrara Francesco">Francesco Ferrara</persName> (1810–1900) ad interim als Finanzminister des Königreichs <placeName type="place" key="Italien (Königreich)">Italien</placeName>.</note>
-                    </seg> <choice>
+                </seg> <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> <seg type="com">dem der<lb xml:id="p3-l3"/>
-                        <persName type="person" key="Minister für öffentliche Angelegenheiten">öffentlichen Angelegenheiten</persName>
-                        <note xml:id="K_2220_c6"><!--[Evtl. bezeichnet er mit öffentliche Angelegenheiten das Ministerium der Lavori Pubblici, d.h. für öffentliche Arbeiten. Somit wäre an dieser Stelle erneut Giovanola gemeint. Laut BR-Prot. schreibt Pioda nämlich nur, sich mit dem Ministerpräsidenten (= Rattazzi = Finanzminister?) und dem der öffentlichen Arbeiten gesprochen zu haben... Er könnte aber auch den Minister der Pubblica Istruzione (Erziehungsminister) meinen. dies wäre Michele Coppino (1822&ndash;1901), evtl. auch den Aussenminister (affari esteri), dies wäre Pompeo Di Campello (1803&ndash;1884)] --> Die von Welti verwendete Bezeichnung des Ministers ist nicht eindeutig und womöglich ein Schreib- oder Übersetzungsfehler. Möglicherweise handelt es sich um den Aussenminister (<choice>
+                    <persName type="person" key="Minister für öffentliche Angelegenheiten">öffentlichen Angelegenheiten</persName>
+                    <note xml:id="K_2220_c6"><!--[Evtl. bezeichnet er mit öffentliche Angelegenheiten das Ministerium der Lavori Pubblici, d.h. für öffentliche Arbeiten. Somit wäre an dieser Stelle erneut Giovanola gemeint. Laut BR-Prot. schreibt Pioda nämlich nur, sich mit dem Ministerpräsidenten (= Rattazzi = Finanzminister?) und dem der öffentlichen Arbeiten gesprochen zu haben... Er könnte aber auch den Minister der Pubblica Istruzione (Erziehungsminister) meinen. dies wäre Michele Coppino (1822&ndash;1901), evtl. auch den Aussenminister (affari esteri), dies wäre Pompeo Di Campello (1803&ndash;1884)] --> Die von Welti verwendete Bezeichnung des Ministers ist nicht eindeutig und womöglich ein Schreib- oder Übersetzungsfehler. Möglicherweise handelt es sich um den Aussenminister (<choice>
                                 <abbr>ital.</abbr>
                                 <expan>italienisch</expan>
                             </choice>: Ministro degli Affari Esteri), <persName type="person" key="Campello Pompeo di">Pompeo di Campello</persName> (1803–1884). Denkbar ist auch der Bildungsminister (<choice>
                                 <abbr>ital.</abbr>
                                 <expan>italienisch</expan>
                             </choice>: Ministro della Pubblica Istruzione), <persName type="person" key="Coppino Michele">Michele Coppino</persName> (1822–1901).</note>
-                    </seg> – so schreibt<lb xml:id="p3-l4"/>
-Herr <persName type="person" key="Pioda Giovanni Battista">Pioda</persName> – habe er günstige aber all<lb break="no" xml:id="p3-l5"/>gemeine 
-Antwort bekommen; da das Mini<lb break="no" xml:id="p3-l6"/>sterium 
+                </seg> – so schreibt<lb xml:id="p3-l4"/>
+Herr <persName type="person" key="Pioda Giovanni Battista">Pioda</persName> – habe er günstige aber all
+                <lb break="no" xml:id="p3-l5"/>gemeine 
+Antwort bekommen; da das Mini
+                <lb break="no" xml:id="p3-l6"/>sterium 
 in der jetzigen Lage sich mit<lb xml:id="p3-l7"/>
 der Sache nicht befaßen könne, habe er<lb xml:id="p3-l8"/>
 die offizielle Note nicht über reicht<lb xml:id="p3-l9"/>
-                    <choice>
+                <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> wolle die <seg type="com">Bildung eines neuen<lb xml:id="p3-l10"/> Ministeriums abwarten.<note xml:id="K_2220_c7">Das Kabinett des bisherigen Ministerpräsidenten<!--Urbano -->
-                            <persName type="person" key="Rattazzi Urbano">Rattazzi</persName><!--(1808&ndash;1873) --> wurde bereits am <date when="1867-10-27">27. Oktober</date> durch ein neues Ministerkollegium unter <persName type="person" key="Menabrea Luigi Federico">Luigi Federico Menabrea</persName> (1809–1896) ersetzt, so dass die von <persName type="person" key="Pioda Giovanni Battista">Pioda</persName> erwähnten Minister zum Zeitpunkt von Weltis Brief bereits nicht mehr im Amt waren. Doch noch Mitte Januar 1868 stellte der Ausschuss der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung fest, dass <bibl>die in raschem Wechsel einander ablösenden Ministerien</bibl> sich noch nicht mit Angelegenheiten wie der <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage beschäftigen konnten. <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 13. Januar 1868<!--, Traktandum 4-->. <choice>
+                        <persName type="person" key="Rattazzi Urbano">Rattazzi</persName><!--(1808&ndash;1873) --> wurde bereits am <date when="1867-10-27">27. Oktober</date> durch ein neues Ministerkollegium unter <persName type="person" key="Menabrea Luigi Federico">Luigi Federico Menabrea</persName> (1809–1896) ersetzt, so dass die von <persName type="person" key="Pioda Giovanni Battista">Pioda</persName> erwähnten Minister zum Zeitpunkt von Weltis Brief bereits nicht mehr im Amt waren. Doch noch Mitte Januar 1868 stellte der Ausschuss der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung fest, dass <bibl>die in raschem Wechsel einander ablösenden Ministerien</bibl> sich noch nicht mit Angelegenheiten wie der <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage beschäftigen konnten. <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 13. Januar 1868<!--, Traktandum 4-->. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">NZZ</ref>, 22. Oktober 1867, 26. Oktober 1867, 27. Oktober 1867, 28. Oktober 1867<!-- 2. November 1867-->. </note>
-                    </seg> </p>
+                </seg> </p>
       <p rend="indent" xml:id="K_2220_p6">
-                    <lb xml:id="p3-l11"/>So sehr ich auch persönlich mit dem<lb xml:id="p3-l12"/>
+                <lb xml:id="p3-l11"/>So sehr ich auch persönlich mit dem<lb xml:id="p3-l12"/>
 letztern Entschluß einverstanden sein<lb xml:id="p3-l13"/>
-muß so kann ich doch das Beneh<lb break="no" xml:id="p3-l14"/>men 
-des Herrn <persName type="person" key="Pioda Giovanni Battista">Pioda</persName> nicht be<lb break="no" xml:id="p3-l15"/>greifen. 
-        Offenbar ist der Herr <persName type="person" key="Giovanola Antonio">Mini<pb n="4"/>
-                        <lb xml:id="p4-l1"/>ster 
+muß so kann ich doch das Beneh
+                <lb break="no" xml:id="p3-l14"/>men 
+des Herrn <persName type="person" key="Pioda Giovanni Battista">Pioda</persName> nicht be
+                <lb break="no" xml:id="p3-l15"/>greifen. 
+        Offenbar ist der Herr <persName type="person" key="Giovanola Antonio">Mini
+                    <pb n="4"/>
+                    <lb xml:id="p4-l1"/>ster 
 der <choice>
                             <abbr>öffentl.</abbr>
                             <expan>öffentlich</expan>
-                        </choice> Arbeiten</persName> über die An<lb break="no" xml:id="p4-l2"/>gelegenheit 
+                        </choice> Arbeiten</persName> über die An
+                <lb break="no" xml:id="p4-l2"/>gelegenheit 
 sehr schlecht orientirt <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -197,11 +249,12 @@ Bundesrath befindet<note xml:id="K_2220_c8">Bundespräsident <persName type="per
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 185–186; <ref type="letter" target="K_2218"><!--→ Nr. 80--></ref>.</note>
-                    </seg> auseinander zu<lb xml:id="p4-l7"/>
+                </seg> auseinander zu<lb xml:id="p4-l7"/>
 setzen. Ich fürchte es werde das<lb xml:id="p4-l8"/>
 auch in Zukunft nicht viel beßer<lb xml:id="p4-l9"/>
 kommen. Sobald wieder eine neue<lb xml:id="p4-l10"/>
-Antwort eingeht gebe ich Ihnen da<lb break="no" xml:id="p4-l11"/>von 
+Antwort eingeht gebe ich Ihnen da
+                <lb break="no" xml:id="p4-l11"/>von 
 Kenntniß. </p>
     </div>
         </body>

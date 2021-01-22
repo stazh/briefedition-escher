@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Killias Wolfgang" type="sender">Wolfgang Killias</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Killias Wolfgang" type="sender">Wolfgang Killias</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Chur</placeName>
                     <date when="1861-03-15">Freitag, März 15, 1861</date>
                 </correspAction>
@@ -88,7 +88,9 @@
             <change when="2014-07-18" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -147,8 +149,8 @@
                 </seg> zu den <placeName type="place" key="Alpen">Al
                     <lb break="no" xml:id="p1-l5"/>pen</placeName>bahn-Artikeln in <choice>
                         <abbr>
-                            <hi>N</hi>
-                        </abbr>
+                    <hi>N</hi>
+                </abbr>
                         <expan>Nummer</expan>
                     </choice> 4 <choice>
                         <abbr>u.</abbr>
@@ -168,12 +170,12 @@
                     </persName>
                     <ref type="kbp">→ Jean Antoine Michel</ref>
                 </seg> hat der <placeName type="place" key="Sardinien-Piemont (Königreich)">
-                        <hi>Sard</hi>.</placeName> <choice>
+                    <hi>Sard</hi>.</placeName> <choice>
                         <abbr>Regg</abbr>
                         <expan>Regierung</expan>
                     </choice> ein <seg type="com">
-                        <hi>Memorial</hi>
-                        <note xml:id="K_1868_c3">
+                    <hi>Memorial</hi>
+                    <note xml:id="K_1868_c3">
                         <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
@@ -206,7 +208,7 @@
       <p rend="indent" xml:id="K_1868_p5">
                 <lb xml:id="p1-l16"/>Die <seg type="ref">
                     <hi>Sub-Commission</hi> für die östlichen <placeName type="place" key="Graubünden">
-                            <hi>Graub</hi>.</placeName>-<lb xml:id="p1-l17"/>Päße<ref type="sum" target="Ostalpenbahnfrage_d1.8">Italienische
+                        <hi>Graub</hi>.</placeName>-<lb xml:id="p1-l17"/>Päße<ref type="sum" target="Ostalpenbahnfrage_d1.8">Italienische
 						Alpenbahnkommission<!-- → Band 1, S. 53-->
                     </ref>
                 </seg> <seg type="com">hat sich einstimmig für den <placeName type="place" key="Splügen (Pass)">
@@ -224,7 +226,7 @@
 						sei.<lb xml:id="p1-l20"/> Die 2<hi rend="sup">te</hi> <hi>Sub-Commission</hi> für die westlichen
 					Päße wird sich für<lb xml:id="p1-l21"/> den <placeName type="place" key="Lukmanier (Pass)">
                         <hi>Lukm<hi rend="sup">r</hi>
-                            </hi>
+                        </hi>
                     </placeName> entscheiden; das <hi>Votum</hi> der
 						3<hi rend="sup">ten</hi>, der <choice>
                             <abbr>
@@ -232,7 +234,7 @@
                             <expan>staats-oeconomisch</expan>
                         </choice> <lb xml:id="p1-l22"/>
                     <del>&amp;</del> <hi>SubCommission</hi> ist noch zweifelhaft. Die Gesammt <hi>Commission</hi>
-                        <lb xml:id="p1-l23"/> hat daher noch keine Sitzungen halten können.<note xml:id="K_1868_c4">Die <placeName type="place" key="Italien (Königreich)">italienische</placeName> <placeName type="place" key="Alpen">Alpen</placeName>bahnkommission hielt am <date when="1861-04-08">8. April 1861</date> fest, der <placeName type="place" key="Splügen (Pass)">Splügen</placeName> sei als Verbindung zwischen <placeName type="place" key="Hinterrheintal">Hinterrheintal</placeName> und <placeName type="place" key="Comersee">Comersee</placeName>, der <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName> aber als Verbindung des <placeName type="place" key="Tessin">Tessins</placeName> mit der Nordschweiz am
+                    <lb xml:id="p1-l23"/> hat daher noch keine Sitzungen halten können.<note xml:id="K_1868_c4">Die <placeName type="place" key="Italien (Königreich)">italienische</placeName> <placeName type="place" key="Alpen">Alpen</placeName>bahnkommission hielt am <date when="1861-04-08">8. April 1861</date> fest, der <placeName type="place" key="Splügen (Pass)">Splügen</placeName> sei als Verbindung zwischen <placeName type="place" key="Hinterrheintal">Hinterrheintal</placeName> und <placeName type="place" key="Comersee">Comersee</placeName>, der <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName> aber als Verbindung des <placeName type="place" key="Tessin">Tessins</placeName> mit der Nordschweiz am
 						geeignetsten. In der Gesamtbewertung obsiegte der <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName> mit 6 zu 3 Stimmen. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
@@ -291,8 +293,8 @@
                                 <expan>Artikel</expan>
                             </choice> 2; <ref type="letter" target="K_1875"><!-- → Nr. 45--></ref>. </note>
                 </seg> – <lb xml:id="p1-l28"/> ein <hi>capitaler</hi> Unsinn, da diese kaum mit dem jetzigen <placeName type="place" key="Splügen (Pass)">
-                        <hi>Splügen</hi>
-                    </placeName> <lb xml:id="p1-l29"/> concurriren könnte <choice>
+                    <hi>Splügen</hi>
+                </placeName> <lb xml:id="p1-l29"/> concurriren könnte <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> den Weg zum Beßern

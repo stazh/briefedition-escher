@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Bollier Rudolf" type="sender">Rudolf Bollier</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Bollier Rudolf" type="sender">Rudolf Bollier</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Luzern</placeName>
                     <date when="1848-01-10">Montag, Januar 10, 1848</date>
                 </correspAction>
@@ -71,7 +71,9 @@
             <change when="2014-12-16" who="CA">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -134,8 +136,8 @@ kommen werde. Dieß bestätigt nun vollständig der Instruktions
                         <expan>Grossen / Großen Rathe</expan>
                     </choice> von <placeName type="place" key="Genf">Genf</placeName> vorgelegt wurde.<lb xml:id="p2-l10"/>
                 <hi>
-                        <persName type="person" key="Fazy James">J. Fazy</persName>
-                    </hi> spielt in dieser Sache eine Rolle, die neuerdings<lb xml:id="p2-l11"/>
+                    <persName type="person" key="Fazy James">J. Fazy</persName>
+                </hi> spielt in dieser Sache eine Rolle, die neuerdings<lb xml:id="p2-l11"/>
 zu Vermuthungen Veranlassung gibt. Meine Überzeug<supplied>un</supplied>g<lb xml:id="p2-l12"/>
 ist, daß wenn die Tagsatzung in dieser Frage nicht mit<lb xml:id="p2-l13"/>
  aller Strenge &amp; Entschiedenheit auftritet<note type="transcript">sic!</note> – es nachher<lb xml:id="p2-l14"/>

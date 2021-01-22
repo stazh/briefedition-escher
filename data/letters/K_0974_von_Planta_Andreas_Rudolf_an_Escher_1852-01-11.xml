@@ -25,8 +25,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Planta (Samedan) Andreas Rudolf von" type="sender">Andreas Rudolf von Planta</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Planta (Samedan) Andreas Rudolf von" type="sender">Andreas Rudolf von Planta</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1852-01-11">Sonntag, Januar 11, 1852</date>
                 </correspAction>
@@ -70,7 +70,9 @@
         umgesetzt
                 
             </change>
-            <change when="2017-07-03" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-03" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -84,10 +86,10 @@
             <div>
       <p rend="left" xml:id="K_0974_p2">
                 <lb xml:id="p1-l2"/>Mein werther Mitbürger, Herr Bürgermeister <persName type="person" key="Bavier-von Salis Simeon">
-                        <hi>Simeon Bawier</hi>
-                    </persName> <lb xml:id="p1-l3"/> von <placeName type="place" key="Chur">
-                        <hi>Chur</hi>
-                    </placeName>, wünschte mit mir zugleich Ihnen <date when="1852-01-12">Morgen,
+                    <hi>Simeon Bawier</hi>
+                </persName> <lb xml:id="p1-l3"/> von <placeName type="place" key="Chur">
+                    <hi>Chur</hi>
+                </placeName>, wünschte mit mir zugleich Ihnen <date when="1852-01-12">Morgen,
           Montags <lb xml:id="p1-l4"/> den 12<hi rend="sup">ten</hi> <choice>
                             <abbr>d. M.</abbr>
                             <expan>dieses Monats</expan>
@@ -115,8 +117,8 @@
         <p rend="right" xml:id="K_0974_p6">
                     <lb xml:id="p1-l14"/>Winkelwiese <choice>
                         <abbr>
-                            <hi>N<hi rend="sup">o</hi>
-                            </hi> </abbr>
+                        <hi>N<hi rend="sup">o</hi>
+                        </hi> </abbr>
                         <expan>Numero (Nummer)</expan>
                     </choice> 772</p>
         <p rend="left" xml:id="K_0974_p7">

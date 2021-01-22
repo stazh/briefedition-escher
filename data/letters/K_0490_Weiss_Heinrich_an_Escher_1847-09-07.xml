@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Weiss Heinrich" type="sender">Heinrich Weiss</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Weiss Heinrich" type="sender">Heinrich Weiss</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Winterthur</placeName>
                     <date when="1847-09-07">Dienstag, September 7, 1847</date>
                 </correspAction>
@@ -72,7 +72,9 @@
             <change when="2015-01-05" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
             <change when="2018-11-22" who="DB">Transkriptionsverifizierung Seiterle umgesetzt
       
       </change>
@@ -86,8 +88,8 @@
           <placeName type="place" key="Winterthur">Winterthur</placeName>
          <date when="1847-09-07">7. <choice>
                             <abbr>
-                                <hi>7<hi rend="sup">br</hi>
-                                </hi> </abbr>
+                            <hi>7<hi rend="sup">br</hi>
+                            </hi> </abbr>
                             <expan>September</expan>
                         </choice> 1847.</date>
         </p>

@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Huggenberg Johann Jakob" type="sender">Johann Jakob Huggenberg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Huggenberg Johann Jakob" type="sender">Johann Jakob Huggenberg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Winterthur</placeName>
                     <date when="1848-08-15">Dienstag, August 15, 1848</date>
                 </correspAction>
@@ -69,7 +69,9 @@
             <change when="2015-01-05" who="CA">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -137,7 +139,7 @@ veranstalten, ihnen den Sachverhalt mittheilen <choice>
 von ihnen vernehmen: ob der eine oder andere<lb xml:id="p1-l23"/>
 gewillt sey, <hi rend="underline">an die Schulden</hi>, oder aber <add>
                     <hi rend="underline">nicht vielmehr</hi>
-                    </add> an den<lb xml:id="p1-l24"/>
+                </add> an den<lb xml:id="p1-l24"/>
 				hinterlaßenen <persName type="person" key="Weiss Emil">Sohn</persName> <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
@@ -179,8 +181,8 @@ glaubten wir, folgende Männer wären zu beruf<supplied>en</supplied>:<lb xml:id
                         <expan>RegierungsRath</expan>
                     </choice> <persName type="person" key="Wieland Johann Jakob">Wieland</persName>, Oberst <persName type="person" key="Fierz Hans Jakob">Fierz</persName>, <choice>
                         <abbr>
-                            <hi>D<hi rend="sup">r</hi>
-                            </hi> </abbr>
+                    <hi>D<hi rend="sup">r</hi>
+                    </hi> </abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> <persName type="person" key="Rüegg Heinrich">Rüegg</persName> in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>,<lb xml:id="p1-l38"/>
         alt <choice>
@@ -188,8 +190,8 @@ glaubten wir, folgende Männer wären zu beruf<supplied>en</supplied>:<lb xml:id
                         <expan>RegierungsRath</expan>
                     </choice> <persName type="person" key="Krauer Hartmann">Krauer</persName>, <choice>
                         <abbr>
-                            <hi>D<hi rend="sup">r</hi>
-                            </hi> </abbr>
+                    <hi>D<hi rend="sup">r</hi>
+                    </hi> </abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> <persName type="person" key="Weidmann Felix">Weidmann</persName>, <persName type="person" key="Gujer Johann Kaspar">Gujer</persName> in <placeName type="place" key="Fehraltorf">Fehraltorf</placeName>,<pb n="2"/>
                 <lb xml:id="p2-l1"/>
@@ -202,7 +204,8 @@ glaubten wir, folgende Männer wären zu beruf<supplied>en</supplied>:<lb xml:id
                         <expan>CantonsRath</expan>
                     </choice> <persName type="person" key="Arbenz Johann Ulrich">Arbenz</persName> in <placeName type="place" key="Andelfingen">Andelfing<supplied>en</supplied>
                 </placeName>, <supplied type="unclear">
-                    <persName type="person" key="Brunner-Aberli Johann Jakob">Brunner<lb break="no" xml:id="p2-l3"/>Aberli</persName> </supplied> in <placeName type="place" key="Winterthur">Winterthur</placeName>, alt <choice>
+                    <persName type="person" key="Brunner-Aberli Johann Jakob">Brunner
+                        <lb break="no" xml:id="p2-l3"/>Aberli</persName> </supplied> in <placeName type="place" key="Winterthur">Winterthur</placeName>, alt <choice>
                         <abbr>Erz.Rath</abbr>
                         <expan>ErziehungsRath</expan>
                     </choice> <persName type="person" key="Rüegg Johannes">Rüegg</persName>, <choice>
@@ -212,8 +215,8 @@ glaubten wir, folgende Männer wären zu beruf<supplied>en</supplied>:<lb xml:id
                     <persName type="person" key="Surber Heinrich">Surber</persName>
                 , <choice>
                         <abbr>
-                            <hi>D<hi rend="sup">r</hi>
-                            </hi> </abbr>
+                    <hi>D<hi rend="sup">r</hi>
+                    </hi> </abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> <persName type="person" key="Pestalozzi Hans Jakob">Pestaluz</persName>, <persName type="person" key="Geilinger Heinrich">Geilinger</persName> zur Arche, <choice>
                         <abbr>Statth</abbr>
@@ -247,8 +250,8 @@ besten hier <choice>
                     </choice> ich würde Sie dann zum Voraus<lb xml:id="p2-l12"/>
 aufs Freundlichste zu uns einladen. –<lb xml:id="p2-l13"/>
 Für Entferntere wird es <del>
-                        <supplied type="unclear">...</supplied>
-                    </del> immerhin ungeleg<supplied>en</supplied> seyn zu<lb xml:id="p2-l14"/>
+                    <supplied type="unclear">...</supplied>
+                </del> immerhin ungeleg<supplied>en</supplied> seyn zu<lb xml:id="p2-l14"/>
 erschein<supplied>en</supplied>, wenn man es mit diesen nur schriftlich<lb xml:id="p2-l15"/>
 behandeln könnte; nur fürchte ich, man erreicht den<lb xml:id="p2-l16"/>
 Zwek nicht vollständig. – Ich will nun gerne<lb xml:id="p2-l17"/>
@@ -265,7 +268,7 @@ Weiß</persName> die nächste Woche eine <hi>definitive</hi> Er
                         <expan>Waisenbehörde</expan>
                     </choice> <choice>
                         <abbr>
-                            <hi>resp</hi>.</abbr>
+                    <hi>resp</hi>.</abbr>
                         <expan>respektive / respective</expan>
                     </choice> dem Gerichte<lb xml:id="p2-l22"/>
 abgeben <hi rend="underline">muß</hi>.</p>
@@ -278,7 +281,7 @@ abgeben <hi rend="underline">muß</hi>.</p>
                     </choice> wählte zum Bezirksrichter, für Herrn<lb xml:id="p2-l25"/>
                 <persName type="person" key="Weiss Heinrich">Weiß</persName>, H<supplied>errn</supplied> <choice>
                         <abbr>
-                            <hi>Proc</hi>.</abbr>
+                    <hi>Proc</hi>.</abbr>
                         <expan>Procurator</expan>
                     </choice> <persName type="person" key="Spiller Johann Jakob">Spiller</persName>; die <placeName type="place" key="Elgg">Elgger</placeName> Wahlmänner<lb xml:id="p2-l26"/>
 bezeugten darüber große Freude; ich hoffe<lb xml:id="p2-l27"/>

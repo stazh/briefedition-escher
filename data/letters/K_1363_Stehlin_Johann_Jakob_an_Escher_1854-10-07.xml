@@ -35,8 +35,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Stehlin Johann Jakob" type="sender">Johann Jakob Stehlin</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Stehlin Johann Jakob" type="sender">Johann Jakob Stehlin</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Basel</placeName>
                     <date when="1854-10-07">Samstag, Oktober 7, 1854</date>
                 </correspAction>
@@ -70,7 +70,9 @@
             <change when="2013-10-02" who="KR">Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2016-12-21" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-21" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -127,7 +129,7 @@
         <lb xml:id="p2-l13"/>in welcher er umso fördernder auf das <placeName type="place" key="Bözberg">Bözberg</placeName> Unternehmen
         <lb xml:id="p2-l14"/>einwirken könnte. Er ist der eifrigste Gegner, jener an der
         <lb xml:id="p2-l15"/>
-                    <hi>Spize</hi> des <hi>Central</hi>BahnUnternehmens stehender Persönlichkeiten, 
+                <hi>Spize</hi> des <hi>Central</hi>BahnUnternehmens stehender Persönlichkeiten, 
             <lb xml:id="p2-l16"/>die auch seine <hi>Opposition</hi> fürchten. Wenn ich nun <choice>
                         <abbr>H.</abbr>
                         <expan>Herr</expan>
@@ -159,14 +161,15 @@
         <lb xml:id="p3-l11"/>deren gesunkene Aktien, durch das schnelle Decken des jüngsten 
         <lb xml:id="p3-l12"/>Anlehens wieder bedeutend gehoben worden sind. – Es ist wohl 
         <lb xml:id="p3-l13"/>unter uns selbst verständlich, daß diese Mittheilungen als <hi>con</hi>
+                
                 <lb break="no" xml:id="p3-l14"/>
                 <hi>fidentionell</hi> gemacht zu betrachten sind. </p>
       <p rend="left" xml:id="K_1363_p6">
                 <lb xml:id="p3-l15"/>Mit Bedauren<note type="transcript">sic!</note> vernahm ich, daß Herr <hi>
                     <persName type="person" key="Rüttimann Johann Jakob">Rüttimann</persName> </hi> nicht mehr im 
                 <lb xml:id="p3-l16"/>Ständerath erscheinen und Herr <persName type="person" key="Dubs Jakob">
-                        <hi>Dubs</hi>
-                    </persName> aus dem NationalRathe
+                    <hi>Dubs</hi>
+                </persName> aus dem NationalRathe
         <lb xml:id="p3-l17"/>scheiden wird, solche Männer werden ungerne vermißt, umso mehr
                 <lb xml:id="p3-l18"/>als das <placeName type="place" key="Westschweiz">welsche</placeName> Treiben, auf die nächsten NationalRathsWahlen
         <lb xml:id="p3-l19"/>einen der jezigen Mehrheit ungünstigen Einfluß ausüben könnte,
@@ -183,8 +186,8 @@
         <pb n="4"/>
                 <lb xml:id="p4-l1"/>
                 <persName type="person" key="Rüttimann Johann Jakob">
-                        <hi>Rüttimann</hi>
-                    </persName>, den Gruß aus dem <placeName type="place" key="Zürich">Zürcherischen</placeName> RathsSaale, gelegentl. <lb xml:id="p4-l2"/>an gleicher Stelle, bestens zu erwiedern.</p>
+                    <hi>Rüttimann</hi>
+                </persName>, den Gruß aus dem <placeName type="place" key="Zürich">Zürcherischen</placeName> RathsSaale, gelegentl. <lb xml:id="p4-l2"/>an gleicher Stelle, bestens zu erwiedern.</p>
     </div>
         </body>
     <back>

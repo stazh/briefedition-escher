@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Sinz Carl Rudolf" type="sender">Carl Rudolf Sinz</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Sinz Carl Rudolf" type="sender">Carl Rudolf Sinz</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Heidelberg</placeName>
                     <date when="1841-08-10">Dienstag, August 10, 1841</date>
                 </correspAction>
@@ -65,7 +65,9 @@
             <change when="2011-07-28" who="AH">e-Edition: Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2017-07-03" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-03" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -238,8 +240,8 @@ alten Bekannten sich ebenfalls einfinden werden. Von hier aus werden wahrscheinl
                 </persName> aus <placeName type="place" key="Basel-Stadt">
                     <hi>Basel</hi>
                 </placeName> eintreffen. <persName type="person" key="Ackermann Joseph">
-                        <hi>Akermann</hi>
-                    </persName> ist durch sein<lb xml:id="p3-l26"/>
+                    <hi>Akermann</hi>
+                </persName> ist durch sein<lb xml:id="p3-l26"/>
 Examen verhindert. – Hier bleibe ich nur noch <hi rend="underline">bis zum <date when="1841-08-28">28<hi rend="sup">ten</hi> August</date>
 					&amp;</hi> ziemlich<lb xml:id="p3-l27"/>
 wahrscheinlich werde ich vor dem Feste in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> sein, um wo möglich noch einige<lb xml:id="p3-l28"/>
@@ -248,7 +250,7 @@ wahrscheinlich werde ich vor dem Feste in <placeName type="place" key="Zürich (
                         <abbr>dß</abbr>
                         <expan>daß</expan>
                     </choice> du bald oder bereits <add>schon jezt</add>
-                    <lb xml:id="p3-l30"/>
+                <lb xml:id="p3-l30"/>
 wieder rüstig auf den Beinen sein mögest</p>
     </div>
         </body>
@@ -267,7 +269,7 @@ wieder rüstig auf den Beinen sein mögest</p>
         <p rend="left" xml:id="K_0252_p7">
                     <lb xml:id="p3-l34"/>Viele Grüße an <persName type="person" key="Freuler Johann Heinrich">Freuler</persName>, <persName type="person" key="Aepli Alfred Johannes">A. Aepli</persName>, <persName type="person" key="Bühler">Bühler</persName> <choice>
                         <abbr>
-                            <hi>etc</hi>.</abbr>
+                        <hi>etc</hi>.</abbr>
                         <expan>et cetera (und anderes)</expan>
                     </choice> </p>
       </postscript>

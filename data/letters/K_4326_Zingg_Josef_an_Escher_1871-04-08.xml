@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Luzern</placeName>
                     <date when="1871-04-08">Samstag, April 8, 1871</date>
                 </correspAction>
@@ -84,8 +84,9 @@ zugekommen, womit um Aufschluß
 				<lb xml:id="p1-l5"/>über den derzeitigen Stand der <placeName type="place" key="St. Gotthard (Pass)">Gott
                     <lb break="no" xml:id="p1-l6"/>hardt</placeName>bahnangelegenheit, namentlich über
 				 <lb xml:id="p1-l7"/>die Größe der bis jetzt zugesicherten <hi>Sub</hi>
+                
                 <lb break="no" xml:id="p1-l8"/>
-                    <hi>ventionen</hi> &amp; die Bildung der ausführenden
+                <hi>ventionen</hi> &amp; die Bildung der ausführenden
 				<lb xml:id="p1-l9"/>Finanzgesellschaft ersucht wird. –</p>
       <p rend="indent" xml:id="K_4326_p3">
                 <lb xml:id="p1-l10"/>Ich habe den Entwurf zu einem Ant
@@ -109,7 +110,7 @@ zugekommen, womit um Aufschluß
 				<lb xml:id="p2-l13"/>
                 <choice>
                         <abbr>
-                            <hi>Dec</hi>.</abbr>
+                    <hi>Dec</hi>.</abbr>
                         <expan>December</expan>
                     </choice> 1869 nicht vollständig zur Hand
 				<lb xml:id="p2-l14"/>stehen, mußte ich mich bei mehrern

@@ -28,32 +28,68 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1870-05-07">Samstag, Mai 7, 1870</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2005-06-01" who="BF/SD">Transkription: transkribiert</change>
-            <change when="2006-09-/22-21" who="BF">provisorisch kommentiert 1</change>
-            <change when="2007-01-23" who="BF">XML angepasst [Indexierung unvollständig!]</change>
-            <change when="2007-02-14" who="TN">Korrekturen übertragen</change>
-            <change when="2007-04-2007; 11-02-27" who="BF">provisorisch kommentiert 2</change>
-            <change when="2007-04-16" who="WB">indexiert</change>
-            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen</change>
-            <change when="2007-05-17" who="BF">Umsetzung Lektorat und Verifizierung</change>
-            <change when="2007-06-11" who="WB">Umsetzung Lektorat 2</change>
-            <change when="2007-06-25" who="BF">Umsetzung Verifizierung Verweise</change>
-            <change when="2007-08-07" who="BF">Umsetzung Verifizierung Personenerwähnungen</change>
-            <change when="2008-07-30" who="SW">Auf Stand Edition gebracht</change>
-            <change when="2011-07-18" who="TM">e-Edition: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-08-04" who="AH">e-Edition: Verifizierung 1 umgesetzt</change>
-            <change when="2014-01-28" who="AW">Migrationsverifizierung</change>
-            <change when="2014-11-27" who="VP">Auszeichnung 2 umgesetzt</change>
-            <change when="2014-11-27" who="VP">Verifizierung 2 umgesetzt</change>
-            <change when="2014-11-27" who="VP">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="2005-06-01" who="BF/SD">Transkription: transkribiert
+                
+            </change>
+            <change when="2006-09-/22-21" who="BF">provisorisch kommentiert 1
+                
+            </change>
+            <change when="2007-01-23" who="BF">XML angepasst [Indexierung unvollständig!]
+                
+            </change>
+            <change when="2007-02-14" who="TN">Korrekturen übertragen
+                
+            </change>
+            <change when="2007-04-2007; 11-02-27" who="BF">provisorisch kommentiert 2
+                
+            </change>
+            <change when="2007-04-16" who="WB">indexiert
+                
+            </change>
+            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen
+                
+            </change>
+            <change when="2007-05-17" who="BF">Umsetzung Lektorat und Verifizierung
+                
+            </change>
+            <change when="2007-06-11" who="WB">Umsetzung Lektorat 2
+                
+            </change>
+            <change when="2007-06-25" who="BF">Umsetzung Verifizierung Verweise
+                
+            </change>
+            <change when="2007-08-07" who="BF">Umsetzung Verifizierung Personenerwähnungen
+                
+            </change>
+            <change when="2008-07-30" who="SW">Auf Stand Edition gebracht
+                
+            </change>
+            <change when="2011-07-18" who="TM">e-Edition: Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-04" who="AH">e-Edition: Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2014-01-28" who="AW">Migrationsverifizierung
+                
+            </change>
+            <change when="2014-11-27" who="VP">Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2014-11-27" who="VP">Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-11-27" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -66,36 +102,37 @@
     <body>
             <div>
       <p rend="left" xml:id="K_2436_p2">
-                    <lb xml:id="p1-l2"/>Von <seg type="com">Herrn <persName type="person" key="Mercier Charles Emanuel Philippe">Mercier</persName>
-                        <note xml:id="K_2436_c1">
-                            <persName type="person" key="Mercier Charles Emanuel Philippe">Charles Philippe Mercier</persName> (1844–1889), Legationssekretär der Schweizer Gesandtschaft in <placeName type="place" key="Berlin (D)">Berlin</placeName>.</note>
-                    </seg> kommt so eben ein <seg type="com">Brief<note xml:id="K_2436_c2">Besagter Brief <persName type="person" key="Mercier Charles Emanuel Philippe">Merciers</persName> stammt vermutlich vom <date when="1870-05-05">5. Mai</date>. Am <date when="1870-05-06">6. Mai</date> berichtete er erneut über den Stand der Subventionsfrage in <placeName type="place" key="Norddeutscher Bund">Norddeutschland</placeName> und erwähnte seinen Brief vom Vortag. <choice>
+                <lb xml:id="p1-l2"/>Von <seg type="com">Herrn <persName type="person" key="Mercier Charles Emanuel Philippe">Mercier</persName>
+                    <note xml:id="K_2436_c1">
+                        <persName type="person" key="Mercier Charles Emanuel Philippe">Charles Philippe Mercier</persName> (1844–1889), Legationssekretär der Schweizer Gesandtschaft in <placeName type="place" key="Berlin (D)">Berlin</placeName>.</note>
+                </seg> kommt so eben ein <seg type="com">Brief<note xml:id="K_2436_c2">Besagter Brief <persName type="person" key="Mercier Charles Emanuel Philippe">Merciers</persName> stammt vermutlich vom <date when="1870-05-05">5. Mai</date>. Am <date when="1870-05-06">6. Mai</date> berichtete er erneut über den Stand der Subventionsfrage in <placeName type="place" key="Norddeutscher Bund">Norddeutschland</placeName> und erwähnte seinen Brief vom Vortag. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?ID=60000693">
-                                <ref type="third-party-letter">Schreiben Charles Philipp Mercier an Jakob Dubs, 6. Mai 1870</ref>, in: <ref type="lit">DDS</ref> II, S. 350–351</ref>.</note>
-                    </seg> <lb xml:id="p1-l3"/>
+                            <ref type="third-party-letter">Schreiben Charles Philipp Mercier an Jakob Dubs, 6. Mai 1870</ref>, in: <ref type="lit">DDS</ref> II, S. 350–351</ref>.</note>
+                </seg> <lb xml:id="p1-l3"/>
 ein. <seg type="ref">Herr <persName type="person" key="Weishaupt Theodor">Weisshaupt</persName>
-                        <ref type="kbp">→ Theodor Weishaupt</ref>
-                    </seg> mit dem er eine<lb xml:id="p1-l4"/>
+                    <ref type="kbp">→ Theodor Weishaupt</ref>
+                </seg> mit dem er eine<lb xml:id="p1-l4"/>
 Unterredung hatte, sagte ihm, <seg type="com">dass der<lb xml:id="p1-l5"/>
-                        <placeName type="place" key="Norddeutscher Bund">Norddeutsche Bund</placeName> die nöthigen Schritte thue<lb xml:id="p1-l6"/>
+                    <placeName type="place" key="Norddeutscher Bund">Norddeutsche Bund</placeName> die nöthigen Schritte thue<lb xml:id="p1-l6"/>
 um die Summe von 20 Millionen voll zu<lb xml:id="p1-l7"/>
 machen.<note xml:id="K_2436_c3">Gemeint ist die Subvention in Höhe von 20 <choice>
                                 <abbr>Mio.</abbr>
                                 <expan>Million(en)</expan>
                             </choice> Franken, welche die <placeName type="place" key="Deutschland">deutschen Staaten</placeName> an der internationalen <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>konferenz von 1869 als gemeinsamen Beitrag an die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn zugesichert hatten. <ref type="sum" target="Gotthardvereinigung_d1.4"><!-- → Band 1, S. 201–202--></ref>; <ref type="sum" target="Gotthardvereinigung_p33"><!-- → Band 1, S. 204--></ref>.</note>
-                    </seg> Wenn man auch annehme, so habe <lb xml:id="p1-l8"/>
+                </seg> Wenn man auch annehme, so habe <lb xml:id="p1-l8"/>
 er sich geäussert, dass der <placeName type="place" key="Norddeutscher Bund">norddeutsche Bund</placeName> <lb xml:id="p1-l9"/>
 nur 12 Millionen gebe, so werde es leicht sein<lb xml:id="p1-l10"/> <seg type="com">von <placeName type="place" key="Baden (Grossherzogtum)">Baden</placeName> 2 weitere Millionen<note xml:id="K_2436_c4">
-                            <placeName type="place" key="Baden (Grossherzogtum)">Baden</placeName> hatte bereits im März eine Subvention von 3 <choice>
+                        <placeName type="place" key="Baden (Grossherzogtum)">Baden</placeName> hatte bereits im März eine Subvention von 3 <choice>
                                 <abbr>Mio.</abbr>
                                 <expan>Million(en)</expan>
                             </choice> Franken zugesichert und käme somit insgesamt auf 5 <choice>
                                 <abbr>Mio.</abbr>
                                 <expan>Million(en)</expan>
                             </choice> <ref type="letter" target="K_2419"><!-- → Nr. 128--></ref>.</note>
-                    </seg> und von <placeName type="place" key="Württemberg (Königreich)">Wür<lb break="no" xml:id="p1-l11"/>temberg</placeName> 
+                </seg> und von <placeName type="place" key="Württemberg (Königreich)">Wür
+                    <lb break="no" xml:id="p1-l11"/>temberg</placeName> 
 und <placeName type="place" key="Hessen (Grossherzogtum)">Hessen</placeName> den Rest von 3 <choice>
                         <abbr>Mill.</abbr>
                         <expan>Million</expan>
@@ -103,7 +140,7 @@ und <placeName type="place" key="Hessen (Grossherzogtum)">Hessen</placeName> den
 erlangen. <seg type="com">Die daherigen Schritte gegen diese Staaten<lb xml:id="p1-l13"/>
 seien schon eingeleitet und er zweifle nicht am<lb xml:id="p1-l14"/>
 Erfolg.<note xml:id="K_2436_c5">
-                            <placeName type="place" key="Preussen (Königreich)">Preussischen</placeName> Zeitungen war in den folgenden Tagen zu entnehmen, dass die Gesamtsubvention des <placeName type="place" key="Norddeutscher Bund">Norddeutschen Bundes</placeName> tatsächlich nicht mehr als 12 <choice>
+                        <placeName type="place" key="Preussen (Königreich)">Preussischen</placeName> Zeitungen war in den folgenden Tagen zu entnehmen, dass die Gesamtsubvention des <placeName type="place" key="Norddeutscher Bund">Norddeutschen Bundes</placeName> tatsächlich nicht mehr als 12 <choice>
                                 <abbr>Mio.</abbr>
                                 <expan>Million(en)</expan>
                             </choice> Franken betragen würde. Nach Meldungen, die Escher aus <placeName type="place" key="Berlin (D)">Berlin</placeName> erhielt, herrschten in Betreff der für die 20 <choice>
@@ -113,46 +150,50 @@ Erfolg.<note xml:id="K_2436_c5">
                                 <abbr>Mio.</abbr>
                                 <expan>Million(en)</expan>
                             </choice> auch beim <placeName type="place" key="Norddeutscher Bund">norddeutschen</placeName> Kanzleramtspräsidenten <persName type="person" key="Delbrück Rudolph von">Rudolph von Delbrück</persName> <bibl>lediglich hoffnungsvolle Überzeugungen oder überzeugungsvolle Hoffnungen &amp; sonst nichts</bibl> vor.<!--Welti fürchtete, dass Norddeutschland sich darauf verlasse, dass die Schweiz, eher als den Vertrag hinfällig werden zu lassen, diese Summe übernehmen würde, sofern die süddeutschen Staaten nicht dazu bereit sein sollten. -->
-                            <ref type="letter" target="K_2439"/>. <choice>
+                        <ref type="letter" target="K_2439"/>. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="letter" target="K_2438"/>.</note>
-                    </seg> </p>
+                </seg> </p>
       <p rend="indent" xml:id="K_2436_p3">
-                    <lb xml:id="p1-l15"/>Herr <persName type="person" key="Mercier Charles Emanuel Philippe">Mercier</persName> scheint Herrn <persName type="person" key="Weishaupt Theodor">Weisshaupt</persName> <lb xml:id="p1-l16"/>
+                <lb xml:id="p1-l15"/>Herr <persName type="person" key="Mercier Charles Emanuel Philippe">Mercier</persName> scheint Herrn <persName type="person" key="Weishaupt Theodor">Weisshaupt</persName> <lb xml:id="p1-l16"/>
 angefragt zu haben ob nicht Schritte von uns <lb xml:id="p1-l17"/>
 gethan werden sollten um den <placeName type="place" key="Norddeutscher Bund">Norddeutschen <lb xml:id="p1-l18"/>
-Bund</placeName> zu einer directeren Verpflichtung zu ver<lb break="no" xml:id="p1-l19"/>mögen. 
+Bund</placeName> zu einer directeren Verpflichtung zu ver
+                <lb break="no" xml:id="p1-l19"/>mögen. 
 Dass er diese Frage gethan hat sagt er<pb n="2"/>
-                    <lb xml:id="p2-l1"/>
+                <lb xml:id="p2-l1"/>
 zwar nicht aber ich schliesse es nicht<lb xml:id="p2-l2"/>
 bloss aus dem Auftrage den er hiezu von<lb xml:id="p2-l3"/> <seg type="ref">Herrn <persName type="person" key="Dubs Jakob">Dubs</persName>
-                        <ref type="kbp">→ Jakob Dubs</ref>
-                    </seg> erhalten hat sondern auch<lb xml:id="p2-l4"/>
+                    <ref type="kbp">→ Jakob Dubs</ref>
+                </seg> erhalten hat sondern auch<lb xml:id="p2-l4"/>
 aus seiner an Obiges anschliessenden<lb xml:id="p2-l5"/>
 Mittheilung, wonach sich Herr <persName type="person" key="Weishaupt Theodor">W.</persName> im<lb xml:id="p2-l6"/>
-Weitern geäussert habe, dass bei gegenwär<lb break="no" xml:id="p2-l7"/>tigen <del>Lage</del> Stand der Dinge nichts im Stande<lb xml:id="p2-l8"/>
+Weitern geäussert habe, dass bei gegenwär
+                <lb break="no" xml:id="p2-l7"/>tigen <del>Lage</del> Stand der Dinge nichts im Stande<lb xml:id="p2-l8"/>
 sein werde die <placeName type="place" key="Norddeutscher Bund">Norddeutsche</placeName> Regierung von<lb xml:id="p2-l9"/>
 eingeschlagnen Wege abzubringen.</p>
       <p rend="indent" xml:id="K_2436_p4">
-                    <lb xml:id="p2-l10"/>Ferner ist zu bemerken dass Herr<lb xml:id="p2-l11"/>
-                    <persName type="person" key="Mercier Charles Emanuel Philippe">Mercier</persName> ganz darüber schweigt, <seg type="com">ob von<lb xml:id="p2-l12"/>
-hier aus der Gesandtschaft jemand bei<lb break="no" xml:id="p2-l13"/>gegeben 
+                <lb xml:id="p2-l10"/>Ferner ist zu bemerken dass Herr<lb xml:id="p2-l11"/>
+                <persName type="person" key="Mercier Charles Emanuel Philippe">Mercier</persName> ganz darüber schweigt, <seg type="com">ob von<lb xml:id="p2-l12"/>
+hier aus der Gesandtschaft jemand bei
+                    <lb break="no" xml:id="p2-l13"/>gegeben 
 werden soll, obschon ihm eine<lb xml:id="p2-l14"/>
 Antwort auf diese Frage durch Herrn<lb xml:id="p2-l15"/>
-                        <persName type="person" key="Dubs Jakob">Dubs</persName> nahe gelegt wurde.<note xml:id="K_2436_c6">Am <date when="1870-05-03">3. Mai</date> beschloss die bundesrätliche <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahnkommission, beim Bundesrat zu beantragen, Welti nach <placeName type="place" key="Berlin (D)">Berlin</placeName> zu schicken, sofern die <placeName type="place" key="Norddeutscher Bund">norddeutsche</placeName> Regierung in der Subventionsfrage auf ihrem Standpunkt beharre. <choice>
+                    <persName type="person" key="Dubs Jakob">Dubs</persName> nahe gelegt wurde.<note xml:id="K_2436_c6">Am <date when="1870-05-03">3. Mai</date> beschloss die bundesrätliche <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahnkommission, beim Bundesrat zu beantragen, Welti nach <placeName type="place" key="Berlin (D)">Berlin</placeName> zu schicken, sofern die <placeName type="place" key="Norddeutscher Bund">norddeutsche</placeName> Regierung in der Subventionsfrage auf ihrem Standpunkt beharre. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="letter" target="K_2433"/>.</note>
-                    </seg> Ich gehe<lb xml:id="p2-l16"/>
+                </seg> Ich gehe<lb xml:id="p2-l16"/>
 wohl nicht fehl wenn ich daraus<pb n="3"/>
-                    <lb xml:id="p3-l1"/>
+                <lb xml:id="p3-l1"/>
 schliesse dass Herr <persName type="person" key="Mercier Charles Emanuel Philippe">Mercier</persName> eine solche<lb xml:id="p3-l2"/>
 Intervention nicht gern sehen würde.
 			</p>
       <p rend="indent" xml:id="K_2436_p5">
-                    <lb xml:id="p3-l3"/>Unter diesen Umständen hält der<lb xml:id="p3-l4"/>
-Ausschuss dafür dass ausserordent<lb break="no" xml:id="p3-l5"/>liche 
+                <lb xml:id="p3-l3"/>Unter diesen Umständen hält der<lb xml:id="p3-l4"/>
+Ausschuss dafür dass ausserordent
+                <lb break="no" xml:id="p3-l5"/>liche 
  Schritte unterbleiben sollen.
 </p>
     </div>

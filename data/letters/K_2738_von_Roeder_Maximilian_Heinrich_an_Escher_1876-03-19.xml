@@ -31,8 +31,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Roeder Maximilian Heinrich von" type="sender">Maximilian Heinrich von Roeder</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Roeder Maximilian Heinrich von" type="sender">Maximilian Heinrich von Roeder</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1876-03-19">Sonntag, März 19, 1876</date>
                 </correspAction>
@@ -102,7 +102,9 @@
             <change when="2014-11-21" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -113,7 +115,7 @@
           <lb xml:id="p1-l2"/>Herrn Präsidenten
           <lb xml:id="p1-l3"/>Herrn <choice>
                         <abbr>
-                            <hi>Dctr</hi>.</abbr>
+                        <hi>Dctr</hi>.</abbr>
                         <expan>Doctor</expan>
                     </choice> <hi>Alfred Escher</hi>
           <lb xml:id="p1-l4"/>Hier <seg type="com">
@@ -136,8 +138,8 @@ zu haben, umsomehr als ich muthmaszlich erst<lb xml:id="p1-l9"/>
                 <date when="1876-03-25">Sonnabend</date> zurückkehre. </p>
       <p rend="left" xml:id="K_2738_p4">
                 <lb xml:id="p1-l10"/>Wenn ich Ihnen neulich nicht vom <placeName type="place" key="St. Gotthard (Pass)">
-                        <hi>Gotthard</hi>
-                    </placeName> <lb xml:id="p1-l11"/>
+                    <hi>Gotthard</hi>
+                </placeName> <lb xml:id="p1-l11"/>
 und seiner miszlichen Lage gesprochen habe,<lb xml:id="p1-l12"/>
 so geschah dies aus schuldiger Rücksicht, um<lb xml:id="p1-l13"/>
 mich nicht unberufen in dem gegenwärtigen<lb xml:id="p1-l14"/>
@@ -145,8 +147,8 @@ Stadium in diese heikele Frage zu mischen. </p>
       <p rend="left" xml:id="K_2738_p5">
                 <lb xml:id="p1-l15"/>Inzwischen bin ich nunmehr vom <seg type="com">Fürsten<lb xml:id="p1-l16"/>
                     <persName type="person" key="Bismarck Otto von">
-                            <hi>Bismarck</hi>
-                        </persName>
+                        <hi>Bismarck</hi>
+                    </persName>
                     <note xml:id="K_2738_c2">
                         <persName type="person" key="Bismarck Otto von">Otto von Bismarck</persName> (1815–1898), Ministerpräsident und Aussenminister des Königreichs <placeName type="place" key="Preussen (Königreich)">Preussen</placeName>, Kanzler des <placeName type="place" key="Deutsches Reich">Deutschen Reichs</placeName>.</note>
                 </seg> zur Darlegung meiner Ansicht<lb xml:id="p1-l17"/>
@@ -155,8 +157,8 @@ Weise dahin geht, dasz die Beibehaltung des <pb n="2"/>
                 <note type="transcript">Kustode: Herrn</note> <lb xml:id="p2-l1"/><!-- Wortwiederholung am Seitenende aufgehoben -->
 Herrn <seg type="ref">
                     <persName type="person" key="Favre Louis">
-                            <hi>Favre</hi>
-                        </persName>
+                        <hi>Favre</hi>
+                    </persName>
                     <ref type="kbp">→ Louis Favre</ref>
                 </seg>, <seg type="com">und das unausgesetzte Fort
                     <lb break="no" xml:id="p2-l2"/>schreiten 
@@ -189,15 +191,15 @@ Zwei Drittel der Subsidien dem Tunnel zu
                 </seg>, ist dies der Brennpunkt, und<lb xml:id="p2-l7"/>
 nach Aussage und Urtheil vieler Kenner<lb xml:id="p2-l8"/>
 hat Herr <persName type="person" key="Favre Louis">
-                        <hi>Favre</hi>
-                    </persName> die ihm gewordene schwere<lb xml:id="p2-l9"/>
+                    <hi>Favre</hi>
+                </persName> die ihm gewordene schwere<lb xml:id="p2-l9"/>
 Aufgabe bisher innerhalb der vorgeschriebe
                 <lb break="no" xml:id="p2-l10"/>nen 
 Frist angemessen gelöst. Das daher die
                 <lb break="no" xml:id="p2-l11"/>sem 
 zugewandte Vertrauen scheint, bei den<lb xml:id="p2-l12"/>
         jüngsten Erfahrungen, die man mit dem<lb xml:id="p2-l13"/> <seg type="com">
-                        <hi>Regie</hi>bau<note xml:id="K_2738_c5">Der zwischen der Gotthardbahn-Gesellschaft und <persName type="person" key="Favre Louis">Favre</persName> im Jahr 1872 abgeschlossene Vertrag fixierte feste Vergütungen für die von <persName type="person" key="Favre Louis">Favre</persName> auszuführenden Bauarbeiten. Damit unterschied er sich grundsätzlich vom Regiebau, der eine aufwandabhängige Vergütung der geleisteten Tätigkeiten vornimmt. <choice>
+                    <hi>Regie</hi>bau<note xml:id="K_2738_c5">Der zwischen der Gotthardbahn-Gesellschaft und <persName type="person" key="Favre Louis">Favre</persName> im Jahr 1872 abgeschlossene Vertrag fixierte feste Vergütungen für die von <persName type="person" key="Favre Louis">Favre</persName> auszuführenden Bauarbeiten. Damit unterschied er sich grundsätzlich vom Regiebau, der eine aufwandabhängige Vergütung der geleisteten Tätigkeiten vornimmt. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Vertrag Gotthardtunnel</ref>, Annex I, § 1.</note>

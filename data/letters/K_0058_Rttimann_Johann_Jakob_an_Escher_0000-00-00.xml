@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Rüttimann Johann Jakob" type="sender">Johann Jakob Rüttimann</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Rüttimann Johann Jakob" type="sender">Johann Jakob Rüttimann</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>s.l.</placeName>
                     <date when=""/>
                 </correspAction>
@@ -65,7 +65,9 @@
             <change when="2013-10-31" who="BF">Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -84,8 +86,8 @@
                 <lb break="no" xml:id="p1-l5"/>tung. Die 2000 Stück, die zuletzt allein
         <lb xml:id="p1-l6"/>noch zu 360 <choice>
                         <abbr>
-                            <hi>fcs</hi>
-                        </abbr>
+                    <hi>fcs</hi>
+                </abbr>
                         <expan>francs (Franken)</expan>
                     </choice> fest angebothen
             <lb xml:id="p1-l7"/>waren, hat <choice>

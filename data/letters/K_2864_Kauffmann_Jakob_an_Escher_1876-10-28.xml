@@ -32,8 +32,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1876-10-28">Samstag, Oktober 28, 1876</date>
                 </correspAction>
@@ -144,6 +144,7 @@
                     <lb xml:id="p1-l3"/>
         <fw>Betreff:</fw> Beginn der Stollenarbeiten in<lb xml:id="p1-l4"/> den 5 Kehrtunnels
         der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>
+                    
                     <lb break="no" xml:id="p1-l5"/>bahn von über 1500<choice>
                         <abbr>
                         <hi rend="sup">m</hi> </abbr>
@@ -350,7 +351,7 @@
                 <lb xml:id="p2-l12"/>Als <hi>Maximum</hi> des Fortschrittes können<lb xml:id="p2-l13"/> <hi>pro</hi> Ort in 24 Stunden
         60 <choice>
                         <abbr>
-                            <hi>centim</hi>.</abbr>
+                    <hi>centim</hi>.</abbr>
                         <expan>centimeter</expan>
                     </choice> <lb xml:id="p2-l14"/> angenommen werden, daher könnte
         der <lb xml:id="p2-l15"/> Durchschlag erfolgen</p>
@@ -369,7 +370,7 @@
           </row>
           <row xml:id="p2-l19">
             <cell>
-                            <hi>Fondo</hi> "</cell>
+                        <hi>Fondo</hi> "</cell>
             <cell> 1316 "</cell>
           </row>
           <row xml:id="p2-l20">
@@ -386,7 +387,7 @@
       <p rend="indent" xml:id="K_2864_p14">
                 <lb xml:id="p2-l28"/>Ich bemerke ausdrücklich, daß der<lb xml:id="p2-l29"/> Fortschritt von 60 <choice>
                         <abbr>
-                            <hi>centim</hi>.</abbr>
+                    <hi>centim</hi>.</abbr>
                         <expan>centimeter</expan>
                     </choice> <hi>pro</hi> Tag schon eine<lb xml:id="p2-l30"/> sehr tüchtige
         Leistung ist und nicht<lb xml:id="p2-l31"/> immer mit voller Zuversicht darauf gebaut<lb xml:id="p2-l32"/> werden kann, sobald das Gebirge sehr fest<lb xml:id="p2-l33"/> wird, oder Wasser
@@ -499,6 +500,7 @@
                     <ref type="letter" target="K_3264">Simplon<!-- → Nr. 402--></ref>
                 </seg> spätestens dann<lb xml:id="p3-l27"/> begonnen wird, wenn
         auf der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>
+                
                 <lb break="no" xml:id="p3-l28"/>bahn nur der angenommene Verkehr<lb xml:id="p3-l29"/>
         erreicht wird. Wenn also – aus<lb xml:id="p3-l30"/> Ersparnißrücksichten – nur die Wahl<lb xml:id="p3-l31"/> bleibt zwischen einspuriger Adhäsions
                 <lb break="no" xml:id="p3-l32"/>bahn nach
@@ -527,14 +529,14 @@
                 <hi rend="underline">Form</hi> übersehen. Es handelt sich hiebei<lb xml:id="p4-l14"/> um eine
         Kostendifferenz von <hi>circa</hi> <choice>
                         <abbr>
-                            <hi>fs</hi>
-                        </abbr>
+                    <hi>fs</hi>
+                </abbr>
                         <expan>francs (Franken)</expan>
                     </choice> 1.750 000.<lb xml:id="p4-l15"/> Die monatlichen Kosten der Stollen an allen<lb xml:id="p4-l16"/> 5 Tunnels
         berechnen sich auf <choice>
                         <abbr>
-                            <hi>fs</hi>
-                        </abbr>
+                    <hi>fs</hi>
+                </abbr>
                         <expan>francs (Franken)</expan>
                     </choice> 36 000 und<lb xml:id="p4-l17"/> für
         5 Monate <choice>
@@ -543,8 +545,8 @@
                     </choice> 180 000. Dazu kommt<lb xml:id="p4-l18"/> noch
         eine Summe von <choice>
                         <abbr>
-                            <hi>fs</hi>
-                        </abbr>
+                    <hi>fs</hi>
+                </abbr>
                         <expan>francs (Franken)</expan>
                     </choice> 25 000 für Erstellung<lb xml:id="p4-l19"/> von Schmiden, <hi>Magazinen</hi> <choice>
                         <abbr>u.</abbr>
@@ -552,8 +554,8 @@
                     </choice> Transport
                 <lb break="no" xml:id="p4-l20"/>geräthen. Die Totalsumme von <choice>
                         <abbr>
-                            <hi>fs</hi>
-                        </abbr>
+                    <hi>fs</hi>
+                </abbr>
                         <expan>francs (Franken)</expan>
                     </choice> 205
           000<lb xml:id="p4-l21"/> erscheint nur beträchtlich, wenn sie unnüzer<lb xml:id="p4-l22"/> Weise
@@ -561,7 +563,7 @@
         Falls sich die technische<lb xml:id="p4-l26"/> Commission für das <persName type="person" key="Hellwag Konrad Wilhelm">
                     <hi>Hellwag'sche</hi>
                 </persName> <hi>Project</hi>
-                    <lb xml:id="p4-l27"/>
+                <lb xml:id="p4-l27"/>
         entscheidet, was mir nicht zweifelhaft<lb xml:id="p4-l28"/> ist – auch den Beginn der
           Stollenbau
                 <lb break="no" xml:id="p4-l29"/>arbeiten beschließen, <choice>

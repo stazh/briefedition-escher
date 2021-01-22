@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Luzern</placeName>
                     <date when="1865-11-25">Samstag, November 25, 1865</date>
                 </correspAction>
@@ -85,15 +85,15 @@
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <persName type="person" key="Ducoster Charles">
-                        <hi>Ducoster</hi>
-                    </persName> aus
+                    <hi>Ducoster</hi>
+                </persName> aus
 			<lb xml:id="p1-l5"/>
                 <placeName type="place" key="Florenz (I)">Florenz</placeName> an <choice>
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <persName type="person" key="Koller Gottlieb">
-                        <hi>Koller</hi>
-                    </persName>, welche über
+                    <hi>Koller</hi>
+                </persName>, welche über
 			<lb xml:id="p1-l6"/>die Verhandlungen der <placeName type="place" key="Italien (Königreich)">italienischen</placeName> <lb xml:id="p1-l7"/>
                 <placeName type="place" key="Alpen">Alpen</placeName>bahnkommißion Aufschlüße
 			<lb xml:id="p1-l8"/>von einigem Intereße geben;
@@ -116,18 +116,18 @@
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <persName type="person" key="Koller Gottlieb">
-                        <hi>Koller</hi>
-                    </persName> mit
+                    <hi>Koller</hi>
+                </persName> mit
 			<lb xml:id="p1-l12"/>einer Nummer des <hi>Appenino</hi> &amp; zwei
 			<lb xml:id="p1-l13"/>ältern Briefen <choice>
                         <abbr>v.</abbr>
                         <expan>von</expan>
                     </choice> <persName type="person" key="Bertani Agostino">
-                        <hi>Bertani</hi>
-                    </persName>, welche
+                    <hi>Bertani</hi>
+                </persName>, welche
 			<lb xml:id="p1-l14"/>über die Haltung <persName type="person" key="Cattaneo Carlo">
-                        <hi>Cattaneo's</hi>
-                    </persName> ein
+                    <hi>Cattaneo's</hi>
+                </persName> ein
 			<lb xml:id="p1-l15"/>fatales Licht verbreiten. Es dürfte
 			<lb xml:id="p1-l16"/>vielleicht gut sein, davon <choice>
                         <abbr>Hrn.</abbr>
@@ -139,15 +139,15 @@
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <persName type="person" key="Crispi Francesco">
-                        <hi>Crispi</hi>
-                    </persName> mitzutheilen,
+                    <hi>Crispi</hi>
+                </persName> mitzutheilen,
 			<lb xml:id="p2-l4"/>so könnte dieß wohl am füglichsten
 			<lb xml:id="p2-l5"/>durch <choice>
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <persName type="person" key="Schmidlin Wilhelm">
-                        <hi>Schmidlin</hi>
-                    </persName> geschehen.
+                    <hi>Schmidlin</hi>
+                </persName> geschehen.
 			</p>
       <p rend="left" xml:id="K_3863_p6">
                 <lb xml:id="p2-l6"/>
@@ -181,9 +181,9 @@
                 <lb break="no" xml:id="p3-l3"/>meinden zu wahren. Das sollte auch
 			<lb xml:id="p3-l4"/>in <placeName type="place" key="Schwyz">Schwyz</placeName> beruhigen dürfen. Das 
 			<lb xml:id="p3-l5"/>
-                    <hi>Comité</hi> habe sich mit dem <hi rend="underline">Detail</hi> des
+                <hi>Comité</hi> habe sich mit dem <hi rend="underline">Detail</hi> des
 			<lb xml:id="p3-l6"/>
-                    <hi>Traçe</hi> &amp; Anlage der Stationen nicht
+                <hi>Traçe</hi> &amp; Anlage der Stationen nicht
 			<lb xml:id="p3-l7"/>befaßt &amp; die dermalen in den Plänen
 			<lb xml:id="p3-l8"/>erscheinenden Anlagen seien als
 			<lb xml:id="p3-l9"/>Vorschläge der Techniker zu betrachten.
@@ -193,13 +193,13 @@
       <p rend="indent" xml:id="K_3863_p7">
                 <lb xml:id="p3-l14"/>Nach <hi rend="underline">
                     <placeName type="place" key="Zug">
-                            <hi>Zug</hi>
-                        </placeName>
+                        <hi>Zug</hi>
+                    </placeName>
                 </hi> habe ich confidentiell über
 			<lb xml:id="p3-l15"/>die Sachlage in Beziehung auf die
 			<lb xml:id="p3-l16"/>direkte Linie über <placeName type="place" key="Zug (Stadt)">
-                        <hi>Zug</hi>
-                    </placeName> an <choice>
+                    <hi>Zug</hi>
+                </placeName> an <choice>
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <choice>
@@ -214,6 +214,7 @@
 			<pb n="4"/>
                 <lb xml:id="p4-l1"/>Gemeindeversammlung der Stadt <placeName type="place" key="Luzern (Stadt)">Luzern</placeName> <lb xml:id="p4-l2"/>ist nun eingelangt, so daß die Caßations
                 <lb break="no" xml:id="p4-l3"/>beschwerde gegen den <hi>Subventions</hi>
+                
                 <lb break="no" xml:id="p4-l4"/>beschluß wie ich hoffe am <date when="1865-11-27">Montag</date> <lb xml:id="p4-l5"/>oder spätestens am <date when="1865-11-29">Mitwoch</date> behandelt
 			<lb xml:id="p4-l6"/>werden kann. –
 			</p>

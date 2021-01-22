@@ -31,8 +31,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Stehlin Johann Jakob" type="sender">Johann Jakob Stehlin</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Stehlin Johann Jakob" type="sender">Johann Jakob Stehlin</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Basel</placeName>
                     <date when="1868-04-21">Dienstag, April 21, 1868</date>
                 </correspAction>
@@ -68,7 +68,9 @@
 					umgesetzt
                 
             </change>
-            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -97,32 +99,33 @@
 				beschränken <lb xml:id="p1-l13"/>lassen. —</p>
       <p rend="left" xml:id="K_3431_p4">
                 <lb xml:id="p1-l14"/>Herr <persName type="person" key="Koller Gottlieb">
-                        <hi>Koller</hi>
-                    </persName> sagte
+                    <hi>Koller</hi>
+                </persName> sagte
 				mir <date when="1868-04-19">Vorgestern</date>, daß er einige <lb xml:id="p1-l15"/>Briefe an <choice>
                         <abbr>H.</abbr>
                         <expan>Herr</expan>
                     </choice> <persName type="person" key="Zingg Josef">
-                        <hi>Zingg</hi>
-                    </persName> übermittelt und die Ansicht
+                    <hi>Zingg</hi>
+                </persName> übermittelt und die Ansicht
 				<lb xml:id="p1-l16"/>ausgesprochen habe, es möchten <hi>Delegirte</hi> des <lb xml:id="p1-l17"/>Ausschußes der Eröffnung der
 					<persName type="person" key="Fell John Barraclough">
-                        <hi>Fell'schen</hi>
-                    </persName> Bahn <lb xml:id="p1-l18"/>auf
+                    <hi>Fell'schen</hi>
+                </persName> Bahn <lb xml:id="p1-l18"/>auf
 				dem <placeName type="place" key="Mont-Cenis (Pass, F-I)">
-                        <hi>Mont Cenis</hi>
-                    </placeName> beiwohnen,
+                    <hi>Mont Cenis</hi>
+                </placeName> beiwohnen,
 				wofür er mehrere <lb xml:id="p1-l19"/>UnterstüzungsGründe anführte, die ich ruhen <lb xml:id="p1-l20"/>lasse, aber
 				umsomehr wünschen möchte, daß <lb xml:id="p1-l21"/>
                 <choice>
                         <abbr>H.</abbr>
                         <expan>Herr</expan>
                     </choice> <persName type="person" key="Koller Gottlieb">
-                        <hi>Koller</hi>
-                    </persName> abgeordnet würde, denn für
+                    <hi>Koller</hi>
+                </persName> abgeordnet würde, denn für
 				uns wird<pb n="2"/>
                 <lb xml:id="p2-l1"/>es immer wichtiger aufgeklärt zu werden, <lb xml:id="p2-l2"/>über den Werth
 				oder Unwerth von <placeName type="place" key="Alpen">Alpen</placeName>
+                
                 <lb break="no" xml:id="p2-l3"/>Ueberschienungen, die sich über eine gewisse <lb xml:id="p2-l4"/>Höhe
 				erheben, oder die in ihrer Betriebsweise <lb xml:id="p2-l5"/> von dem <choice>
                         <abbr>gewöhnl.</abbr>
@@ -132,15 +135,16 @@
                         <expan>zum Beispiel</expan>
                     </choice> mit den <persName type="person" key="Fell John Barraclough">
                     <hi>Fell'schen</hi>
-                    </persName> &amp; andern
+                </persName> &amp; andern
 						<hi>Systêm<supplied>en</supplied>
                 </hi>.</p>
       <p rend="left" xml:id="K_3431_p5">
                 <lb xml:id="p2-l7"/>Wir müssen Waffen haben, um die <placeName type="place" key="Lukmanier (Pass)">
-                        <hi>Lucmanier</hi>
+                    <hi>Lucmanier</hi>
+                    
                     <lb break="no" xml:id="p2-l8"/>
                 </placeName>
-                    <hi>projecte</hi> zu bekämpfen und das auf dem <lb xml:id="p2-l9"/>
+                <hi>projecte</hi> zu bekämpfen und das auf dem <lb xml:id="p2-l9"/>
                 <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName> mögliche zu behaupten. Mir <lb xml:id="p2-l10"/>scheint, daß Sie
 				mit <choice>
                         <abbr>H.</abbr>

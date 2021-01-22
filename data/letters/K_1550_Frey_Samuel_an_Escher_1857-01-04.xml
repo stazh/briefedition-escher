@@ -34,8 +34,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Frey Samuel" type="sender">Samuel Frey</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Frey Samuel" type="sender">Samuel Frey</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Gontenschwil</placeName>
                     <date when="1857-01-04">Sonntag, Januar 4, 1857</date>
                 </correspAction>
@@ -69,7 +69,9 @@
             <change when="2013-11-04" who="CA">Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2016-12-21" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-21" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -93,15 +95,15 @@
                 <lb break="no" xml:id="p1-l4"/>wärtigen möchte vielleicht (<hi>Risum teneatis amici</hi>)
         ein quasi-diplomatischer sein!<lb xml:id="p1-l5"/> Zur Sache! – Wie ich in den Zeitungen lese,
         ist Herr <hi>
-                        <choice>
+                    <choice>
                             <abbr>D<hi rend="sup">r</hi> </abbr>
                             <expan>Doktor / Doctor</expan>
                         </choice> <persName type="person" key="Kern Johann Konrad">Kern</persName>
-                    </hi> in Begleitung des<lb xml:id="p1-l6"/> Herrn <persName type="person" key="Barman Joseph-Hyacinthe">
-                        <hi>Barmann</hi>
-                    </persName> nach <placeName type="place" key="Paris (F)">
-                        <hi>Paris</hi>
-                    </placeName> gereist. – Laut den Nachrichten, welche im «Bund» zu<lb xml:id="p1-l7"/> lesen sind, sollen dort Friedensunterhandlungen stattfinden. – Es wäre nun
+                </hi> in Begleitung des<lb xml:id="p1-l6"/> Herrn <persName type="person" key="Barman Joseph-Hyacinthe">
+                    <hi>Barmann</hi>
+                </persName> nach <placeName type="place" key="Paris (F)">
+                    <hi>Paris</hi>
+                </placeName> gereist. – Laut den Nachrichten, welche im «Bund» zu<lb xml:id="p1-l7"/> lesen sind, sollen dort Friedensunterhandlungen stattfinden. – Es wäre nun
           leicht<lb xml:id="p1-l8"/> möglich<del>t</del>, daß gewisse Projekte vorgelegt würden, welche
         uns zum erwünschten Ziele<lb xml:id="p1-l9"/> führen könnten, wie <choice>
                         <abbr>z.
@@ -117,8 +119,8 @@
         die Bundesversammlung zusammenberufen, um von derselben <add>zu</add> vernehmen,<lb xml:id="p1-l14"/> ob sie mit einem derartigen <hi>Arrangement</hi> einverstanden wäre oder nicht.<lb xml:id="p1-l15"/> Schon während der Bundesversammlung hörte ich <hi rend="underline">öfter</hi> die Bemerkung
           machen,<lb xml:id="p1-l16"/> der Bundesrath hätte gut daran gethan, wenn er <hi rend="underline">nach</hi> dem
           <persName type="person" key="Bonaparte Charles Louis Napoléon">
-                        <hi>Napoleon'</hi>
-                    </persName>schen<lb xml:id="p1-l17"/> Vermittlungsvorschlag, die Räthe einberufen hätte, – bevor er denselben<lb xml:id="p1-l18"/> einfach refüsirte. – Auch jetzt bin ich von bedeutenden Männern<lb xml:id="p1-l19"/> unsers Cantons mit der Frage behelligt worden, ob nun die Bundesver
+                    <hi>Napoleon'</hi>
+                </persName>schen<lb xml:id="p1-l17"/> Vermittlungsvorschlag, die Räthe einberufen hätte, – bevor er denselben<lb xml:id="p1-l18"/> einfach refüsirte. – Auch jetzt bin ich von bedeutenden Männern<lb xml:id="p1-l19"/> unsers Cantons mit der Frage behelligt worden, ob nun die Bundesver
                 <lb break="no" xml:id="p1-l20"/>sammlung den Bundesrath wieder machen lassen wolle, was ihm beliebe,<pb n="2"/>
                 <lb xml:id="p2-l1"/>&amp; ob man ihm nicht den Auftrag ertheilt habe,
           <hi rend="underline">bevor</hi> er allfällige<lb xml:id="p2-l2"/> Vermittlungsprojekte verwerfe, die <choice>
@@ -134,6 +136,7 @@
       <p rend="indent" xml:id="K_1550_p5">
                 <lb xml:id="p2-l11"/>Ich stelle mir vor, der Bundesrath würde zwar jedenfalls <hi rend="underline">alsdann</hi> <lb xml:id="p2-l12"/> die Bundesversammlung convoziren, wenn er einen Vorschlag
           <hi rend="underline">annehm</hi>
+                
                 <lb break="no" xml:id="p2-l13"/>
                 <hi rend="underline">bar</hi> fände; allein ich glaube, er sollte dieses
         auch <hi rend="underline">dannzumal</hi> schon<lb xml:id="p2-l14"/> thun, wenn die letzten Vorschläge von <placeName type="place" key="Paris (F)">Paris</placeName> aus formulirt vorlägen<lb xml:id="p2-l15"/> und

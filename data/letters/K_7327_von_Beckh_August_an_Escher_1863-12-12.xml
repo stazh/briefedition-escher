@@ -35,8 +35,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Beckh August von" type="sender">August von Beckh</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Beckh August von" type="sender">August von Beckh</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Stuttgart</placeName>
                     <date when="1863-12-12">Samstag, Dezember 12, 1863</date>
                 </correspAction>
@@ -70,7 +70,9 @@
             <change when="2014-07-23" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-01-17" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-17" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -389,8 +391,8 @@
                     <placeName type="place" key="Altdorf (UR)">Altdorf</placeName>–<placeName type="place" key="Erstfeld">Erstfeld</placeName> <supplied type="unclear">
                         <choice>
                             <abbr>
-                                <hi>pp</hi>
-                            </abbr>
+                            <hi>pp</hi>
+                        </abbr>
                             <expan>perge, perge (fahre fort, fahre fort)</expan>
                         </choice> </supplied> je besonders erscheint, so kann nicht allein
                     <lb xml:id="p7-l15"/>jede derartige Verfügung leicht ausgeführt werden, sondern

@@ -32,8 +32,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Kern Johann Konrad" type="sender">Johann Konrad Kern</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Kern Johann Konrad" type="sender">Johann Konrad Kern</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Frauenfeld</placeName>
                     <date when="1852-11-12">Freitag, November 12, 1852</date>
                 </correspAction>
@@ -67,7 +67,9 @@
             <change when="2013-11-13" who="CF">Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2016-12-21" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-21" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -93,7 +95,7 @@
                 <hi rend="underline">Eines</hi> Unternehmens zu verständigen. Wie ich <date when="1852-11-11">gestern</date> <lb xml:id="p1-l8"/>hörte, soll die Gesellschaft, welche die <placeName type="place" key="Waadt">Waadtländer</placeName> <lb xml:id="p1-l9"/>Linie baut gesinnt seyn, auch für unsre Linie mit 
 				<lb xml:id="p1-l10"/>einem Konzeßionsgesuch einzukommen, was auch vorläufig
 				<lb xml:id="p1-l11"/>mündlich <add>dem <hi>Comité</hi>
-                        <note type="transcript">sic!</note> </add> eröffnet worden ist. Da nun aber <hi rend="underline">in jeziger</hi>
+                    <note type="transcript">sic!</note> </add> eröffnet worden ist. Da nun aber <hi rend="underline">in jeziger</hi>
                 <note type="transcript">sic!</note> <lb xml:id="p1-l12"/>
                 <hi rend="underline">Zeit</hi> bei uns auch eine Betheiligung des Staates
 				<lb xml:id="p1-l13"/>unzweifelhaft ist – woran man bei Berathung der 
@@ -125,8 +127,8 @@
 				<lb xml:id="p2-l9"/>erhält. Diejenigen die Werth auf eine Verbindung
 				<lb xml:id="p2-l10"/>mit <placeName type="place" key="St. Gallen">St Gallen</placeName> sezen, können ruhig seyn; wenn auch 
 				<lb xml:id="p2-l11"/>durch das Vorgehen von <placeName type="place" key="Zürich">
-                        <hi>Zürich</hi>
-                    </placeName> &amp; <placeName type="place" key="Thurgau">Thurgau</placeName> die 
+                    <hi>Zürich</hi>
+                </placeName> &amp; <placeName type="place" key="Thurgau">Thurgau</placeName> die 
 				<lb xml:id="p2-l12"/>Erstell<supplied>un</supplied>g der obern Linie erschwert oder gehindert
 				<lb xml:id="p2-l13"/>werden sollte, so wird <placeName type="place" key="St. Gallen">St Gallen</placeName> nach <placeName type="place" key="Rorschach">Rorschach</placeName> <lb xml:id="p2-l14"/>bauen; <choice>
                         <abbr>u.</abbr>
@@ -144,7 +146,7 @@
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> der Ertrag einer gemeinsamen <placeName type="place" key="Zürich">Zürich</placeName> <placeName type="place" key="Thurgau">
-                        <hi>Thurg</hi>.</placeName> <lb xml:id="p3-l2"/>Linie um so größer, das Risiko der beiden Kantone um so
+                    <hi>Thurg</hi>.</placeName> <lb xml:id="p3-l2"/>Linie um so größer, das Risiko der beiden Kantone um so
 				<lb xml:id="p3-l3"/>geringer. Ich möchte dir daher durch diese vertraulichen
 				<lb xml:id="p3-l4"/>Zeilen doch sehr empfehlen, wo immer möglich, unsre
 				<lb xml:id="p3-l5"/>Konferenz auf die ersten Tage der nächsten Woche zu

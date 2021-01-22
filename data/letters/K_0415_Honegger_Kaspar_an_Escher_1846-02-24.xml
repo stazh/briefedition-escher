@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Honegger Kaspar" type="sender">Kaspar Honegger</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Honegger Kaspar" type="sender">Kaspar Honegger</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Thalwil</placeName>
                     <date when="1846-02-24">Dienstag, Februar 24, 1846</date>
                 </correspAction>
@@ -70,7 +70,9 @@
             <change when="2014-12-15" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -242,7 +244,7 @@
                         <expan>liberal</expan>
                     </choice> Partei nicht, ist selbst liberal gesinnt <choice>
                         <abbr>
-                            <hi>etc</hi>.</abbr>
+                    <hi>etc</hi>.</abbr>
                         <expan>et cetera (und anderes)</expan>
                     </choice> </p>
       <p rend="left" xml:id="K_0415_p13">

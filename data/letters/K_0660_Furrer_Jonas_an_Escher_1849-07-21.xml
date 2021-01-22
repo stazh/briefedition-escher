@@ -39,8 +39,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Furrer Jonas" type="sender">Jonas Furrer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Furrer Jonas" type="sender">Jonas Furrer</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1849-07-21">Samstag, Juli 21, 1849</date>
                 </correspAction>
@@ -80,7 +80,9 @@
             <change when="2012-12-11" who="SW">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -192,8 +194,8 @@
                 </placeName> eine Verweisung <pb n="3"/>
                 <lb xml:id="p3-l1"/>
 				über die <placeName type="place" key="Alpen">
-                        <hi>Alpen</hi>
-                    </placeName> in die deutsche Schweiz noch
+                    <hi>Alpen</hi>
+                </placeName> in die deutsche Schweiz noch
 				drükender war, als eine Entfernung<lb xml:id="p3-l2"/> der <placeName type="place" key="Deutschland">deutschen</placeName> Flüchtlinge nach <placeName type="place" key="Frankreich">Frankreich</placeName> oder <placeName type="place" key="Belgien">Belgien</placeName> oder <placeName type="place" key="England">England</placeName>. –<lb xml:id="p3-l3"/> Die Wegweisung kann übrigens
 				auch noch den Nutzen haben, Auslieferungs
                 <lb break="no" xml:id="p3-l4"/>Begehren zuvorzukommen, welche auf
@@ -261,8 +263,8 @@
 				ich nicht Zeit<lb xml:id="p4-l6"/> finde, einen zweyten zu versenden. – Wegen enormer
 				Geschäfte<lb xml:id="p4-l7"/> konnte ich leider <!-- <r>-->
                 <persName type="person" key="Bollier Rudolf">
-                        <hi>Bollier</hi>
-                    </persName><!--<ref type="kbp">→ Rudolf Bollier </ref></r> --> noch nie besuchen, was mir sehr wehe thut.<lb xml:id="p4-l8"/> Wie soll es kommen mit den
+                    <hi>Bollier</hi>
+                </persName><!--<ref type="kbp">→ Rudolf Bollier </ref></r> --> noch nie besuchen, was mir sehr wehe thut.<lb xml:id="p4-l8"/> Wie soll es kommen mit den
 				gesetzgeberischen Arbeiten? Wir haben<lb xml:id="p4-l9"/> täglich Sitzung <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>

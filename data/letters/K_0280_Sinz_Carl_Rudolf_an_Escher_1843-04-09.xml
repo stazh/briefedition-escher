@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Sinz Carl Rudolf" type="sender">Carl Rudolf Sinz</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Sinz Carl Rudolf" type="sender">Carl Rudolf Sinz</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>s.l.</placeName>
                     <date when="1843-04-09">Sonntag, April 9, 1843</date>
                 </correspAction>
@@ -75,7 +75,9 @@
             <change when="2011-07-28" who="AH">e-Edition: Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2017-07-03" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-03" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -96,7 +98,7 @@
 				&amp; Ankunft in <placeName type="place" key="Neuenburg (Stadt)">Neuschatel</placeName> unterrichtet warest. <persName type="person" key="Tschudi Johann Jakob">Tschudy</persName> war hoch erfreut wie er zum erstenmal<lb xml:id="p1-l4"/>
 wieder ein Schweizerdorf betrat; der Uebergang von <placeName type="place" key="Frankreich">französischem</placeName> auf ächt<note type="transcript">sic!</note> <placeName type="place" key="Deutschland">deutschen</placeName> <lb xml:id="p1-l5"/>
   Schweizerboden ist so scharf <add>im Kanton <placeName type="place" key="Neuenburg">Neuschatel</placeName>
-                    </add> bestimmt, <choice>
+                </add> bestimmt, <choice>
                         <abbr>dß</abbr>
                         <expan>daß</expan>
                     </choice> das Heimliche, das Saubere unserer heimathlichen<lb xml:id="p1-l6"/>
@@ -127,6 +129,7 @@ einem sich nicht überschätzenden, aber an den mannigfaltigsten Erfahrungen in 
 				<lb xml:id="p1-l14"/>
 großen Dingen reichen Weltmanne &amp; besonders ausgezeichnetem Chirurgen zu thun habe.<lb xml:id="p1-l15"/>
 Am 2<hi rend="sup">ten</hi> Tage war ich installirt. Da wir die nemliche Therapeutik befolgen wie die <placeName type="place" key="Paris (F)">Pariser</placeName>
+                
                 <lb break="no" xml:id="p1-l16"/>professoren, 
 so kam mir mein <del>Auf</del> Winteraufenthalt sehr zu statten &amp; ich war daher <del>gleich</del> alsbald<lb xml:id="p1-l17"/>
 eingepaukt. Mein Verhältniss zu meinem Prinzipal gestaltete sich von einem Tage zum andern<lb xml:id="p1-l18"/>
@@ -216,7 +219,7 @@ alle gleich angenehm &amp; gebildet sind &amp; jenen ernst-heitern, ungezwungene
 besitzen, der leider in unsern übrigen Schweizerstädten immer seltner wird. Ich komme<lb xml:id="p2-l25"/>
 öfters dahin, um so mehr als die Familie <hi>
                     <persName type="person" key="Gallot Georges Frédéric">Gallot</persName> </hi> die ist, die <add>in <placeName type="place" key="Neuenburg (Stadt)">Neuschatel</placeName>
-                    </add> noch am meisten für<lb xml:id="p2-l26"/>
+                </add> noch am meisten für<lb xml:id="p2-l26"/>
 Musik thut &amp; die Verwandtschaft &amp; die besten musikalischen Kräfte der Stadt<lb xml:id="p2-l27"/>
 monatlich einmal zu einem kleinern, sehr artigen Conzerte vereinigt. Ich befinde<lb xml:id="p2-l28"/>
 mich sehr wohl in dieser Familie &amp; lezten <date when="1843-04-08">Samstag</date>, wo die Taufe eines Kindes von<lb xml:id="p2-l29"/>
@@ -286,7 +289,7 @@ Regionen, die ich nicht kenne, sollen sein wie überall. – Als Resultat meines
   auf meine Wissenschaft, auf d. Erlernung d. Sprache <choice>
                         <abbr>
                     <hi>etc</hi>
-                        </abbr>
+                </abbr>
                         <expan>et cetera (und anderes)</expan>
                     </choice> sondern <choice>
                         <abbr>dß</abbr>

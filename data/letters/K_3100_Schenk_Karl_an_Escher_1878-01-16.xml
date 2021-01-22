@@ -32,8 +32,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Schenk Karl" type="sender">Karl Schenk</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Schenk Karl" type="sender">Karl Schenk</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1878-01-16">Mittwoch, Januar 16, 1878</date>
                 </correspAction>
@@ -71,7 +71,9 @@
                 umgesetzt
                 
             </change>
-            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -92,7 +94,7 @@
         <p rend="left" xml:id="K_3100_p3">
                     <lb xml:id="p1-l5"/>Herrn Nationalrath <choice>
                         <abbr>
-                            <hi>Dr</hi>.</abbr>
+                        <hi>Dr</hi>.</abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> <hi>Escher</hi> in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.
                 </p>

@@ -29,34 +29,74 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1868-04-27">Montag, April 27, 1868</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="05-06-01" who="SD/BF"> transkribiert</change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert</change>
-            <change when="06-07-31" who="BF">kommentiert provisorisch</change>
-            <change when="2006-12-07" who="SM">Konvertierung provisorisch nachbearbeitet</change>
-            <change when="2006-12-22" who="WB">Konvertierung nachbearbeitet (Indexierung fehlt!)</change>
-            <change when="2007-01-25" who="TN">Korrekturen übertragen</change>
-            <change when="2007-02-09" who="BF">provisorisch kommentiert 2</change>
-            <change when="2007-04-13" who="WB">indexiert</change>
-            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen</change>
-            <change when="2007-05-16" who="BF">Umsetzung Lektorat und Verifizierung</change>
-            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2</change>
-            <change when="2007-06-22" who="BF">Umsetzung Verifizierung Verweise</change>
-            <change when="2007-08-02" who="BF">Umsetzung Verifizierung Personenerwähnungen</change>
-            <change when="2008-07-28" who="SW">Auf Stand Edition gebracht</change>
-            <change when="2011-07-15" who="TM">e-Edition: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-08-04" who="HA">e-Edition: Verifizierung 1 umgesetzt</change>
-            <change when="2011-08-31" who="HA">e-Edition: Verifizierung 2 umgesetzt</change>
-            <change when="2014-01-28" who="MB">Migrationsverifizierung umgesetzt</change>
-            <change when="2014-11-18" who="CA">Verifizierung 2 umgesetzt</change>
-            <change when="2014-11-18" who="CA">Inhaltliche Qualitätsprüfung umgesetzt</change>
+            <change when="05-06-01" who="SD/BF"> transkribiert
+                
+            </change>
+            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
+                
+            </change>
+            <change when="06-07-31" who="BF">kommentiert provisorisch
+                
+            </change>
+            <change when="2006-12-07" who="SM">Konvertierung provisorisch nachbearbeitet
+                
+            </change>
+            <change when="2006-12-22" who="WB">Konvertierung nachbearbeitet (Indexierung fehlt!)
+                
+            </change>
+            <change when="2007-01-25" who="TN">Korrekturen übertragen
+                
+            </change>
+            <change when="2007-02-09" who="BF">provisorisch kommentiert 2
+                
+            </change>
+            <change when="2007-04-13" who="WB">indexiert
+                
+            </change>
+            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen
+                
+            </change>
+            <change when="2007-05-16" who="BF">Umsetzung Lektorat und Verifizierung
+                
+            </change>
+            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2
+                
+            </change>
+            <change when="2007-06-22" who="BF">Umsetzung Verifizierung Verweise
+                
+            </change>
+            <change when="2007-08-02" who="BF">Umsetzung Verifizierung Personenerwähnungen
+                
+            </change>
+            <change when="2008-07-28" who="SW">Auf Stand Edition gebracht
+                
+            </change>
+            <change when="2011-07-15" who="TM">e-Edition: Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-04" who="HA">e-Edition: Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2011-08-31" who="HA">e-Edition: Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-01-28" who="MB">Migrationsverifizierung umgesetzt
+                
+            </change>
+            <change when="2014-11-18" who="CA">Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-11-18" who="CA">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -69,66 +109,74 @@
     <body>
             <div>
       <p rend="left" xml:id="K_2278_p2">
-                    <lb xml:id="p1-l2"/>Von unsern <seg type="com">Abgeordneten<note xml:id="K_2278_c1">Gemeint sind <persName type="person" key="Stähelin-Brunner August">August Stähelin-Brunner</persName> und <ref type="kbp"/>
-                            <persName type="person" key="Heer Joachim">Joachim Heer</persName>. <ref type="letter" target="K_2264"><!--→ Nr. 85--></ref>.</note>
-                    </seg> ist der<lb xml:id="p1-l3"/> <seg type="com">Bericht<note xml:id="K_2278_c2">
-                            <choice>
+                <lb xml:id="p1-l2"/>Von unsern <seg type="com">Abgeordneten<note xml:id="K_2278_c1">Gemeint sind <persName type="person" key="Stähelin-Brunner August">August Stähelin-Brunner</persName> und <ref type="kbp"/>
+                        <persName type="person" key="Heer Joachim">Joachim Heer</persName>. <ref type="letter" target="K_2264"><!--→ Nr. 85--></ref>.</note>
+                </seg> ist der<lb xml:id="p1-l3"/> <seg type="com">Bericht<note xml:id="K_2278_c2">
+                        <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004387" type="www">
-                                <ref type="lit">Prot. BR</ref>, 27. April 1868</ref>.</note>
-                    </seg> eingegangen der sich nach<lb xml:id="p1-l4"/>
+                            <ref type="lit">Prot. BR</ref>, 27. April 1868</ref>.</note>
+                </seg> eingegangen der sich nach<lb xml:id="p1-l4"/>
 dem <seg type="com">Briefe<note xml:id="K_2278_c3">Besagter Brief <persName type="person" key="Stähelin-Brunner August">Stähelin-Brunners</persName> war wohl an <ref type="kbp"/>
-                            <persName type="person" key="Stehlin Johann Jakob">Johann Jakob Stehlin</persName> gerichtet. Dieser hatte ihn Escher geschickt mit der Anweisung, den Brief an Welti weiterzuleiten. <ref type="letter" target="K_2275"><!--→ Nr. 90--></ref>.</note>
-                    </seg> des Herrn <seg type="com">
-                        <persName type="person" key="Stähelin-Brunner August">Stähelin</persName>
-                        <note xml:id="K_2278_c4">
-                            <persName type="person" key="Stähelin-Brunner August">August Stähelin-Brunner</persName> (1812–1886), Grossrat (<placeName type="place" key="Basel-Stadt">BS</placeName>), Verwaltungsrat der <ref type="kbe"/>Schweizerischen Centralbahn und der <placeName type="place" key="Basel-Stadt">Basler</placeName> Handelsbank.</note>
-                    </seg> er<lb break="no" xml:id="p1-l5"/>warten 
+                        <persName type="person" key="Stehlin Johann Jakob">Johann Jakob Stehlin</persName> gerichtet. Dieser hatte ihn Escher geschickt mit der Anweisung, den Brief an Welti weiterzuleiten. <ref type="letter" target="K_2275"><!--→ Nr. 90--></ref>.</note>
+                </seg> des Herrn <seg type="com">
+                    <persName type="person" key="Stähelin-Brunner August">Stähelin</persName>
+                    <note xml:id="K_2278_c4">
+                        <persName type="person" key="Stähelin-Brunner August">August Stähelin-Brunner</persName> (1812–1886), Grossrat (<placeName type="place" key="Basel-Stadt">BS</placeName>), Verwaltungsrat der <ref type="kbe"/>Schweizerischen Centralbahn und der <placeName type="place" key="Basel-Stadt">Basler</placeName> Handelsbank.</note>
+                </seg> er
+                <lb break="no" xml:id="p1-l5"/>warten 
 liess.</p>
       <p rend="indent" xml:id="K_2278_p3">
-                    <lb xml:id="p1-l6"/>Die <placeName type="place" key="Deutschland">Deutschen</placeName> erklären dass Sie den<lb xml:id="p1-l7"/>Handelsvertrag  als gescheitert betrach<lb break="no" xml:id="p1-l8"/>ten 
+                <lb xml:id="p1-l6"/>Die <placeName type="place" key="Deutschland">Deutschen</placeName> erklären dass Sie den<lb xml:id="p1-l7"/>Handelsvertrag  als gescheitert betrach
+                <lb break="no" xml:id="p1-l8"/>ten 
 wenn wir auf der <seg type="ref">Aufnahme<lb xml:id="p1-l9"/>
   des Eisenbahnartikels<ref type="letter" target="K_2273">Eisenbahnartikel<!-- → Nr. 88--></ref>
-                    </seg> bestehen. Die<lb xml:id="p1-l10"/>
-                    <placeName type="place" key="Süddeutschland">Süddeutschen</placeName> bestritten dem <placeName type="place" key="Deutscher Zollverein">Zollverein</placeName> <lb xml:id="p1-l11"/>
-die Competenz eine derartige Verbindlich<lb break="no" xml:id="p1-l12"/>keit 
+                </seg> bestehen. Die<lb xml:id="p1-l10"/>
+                <placeName type="place" key="Süddeutschland">Süddeutschen</placeName> bestritten dem <placeName type="place" key="Deutscher Zollverein">Zollverein</placeName> <lb xml:id="p1-l11"/>
+die Competenz eine derartige Verbindlich
+                <lb break="no" xml:id="p1-l12"/>keit 
 einzugehen und der <placeName type="place" key="Norddeutscher Bund">Nordbund</placeName> <lb xml:id="p1-l13"/>
 erklärte er werde sie solange nicht<lb xml:id="p1-l14"/>
-eingehen bis von Seite des Bundesra<lb break="no" xml:id="p1-l15"/>thes 
+eingehen bis von Seite des Bundesra
+                <lb break="no" xml:id="p1-l15"/>thes 
 positivere Vorschläge gemacht haben<lb xml:id="p1-l16"/>
-werde, welche sich auf Richtung, Bau<pb n="2"/>
-                    <lb xml:id="p2-l1"/>zeit  
+werde, welche sich auf Richtung, Bau
+                <pb n="2"/>
+                <lb xml:id="p2-l1"/>zeit  
 und Baucapital beziehen.</p>
       <p rend="indent" xml:id="K_2278_p4">
-                    <lb xml:id="p2-l2"/>Unter diesen Umständen blieb dem<lb xml:id="p2-l3"/>
+                <lb xml:id="p2-l2"/>Unter diesen Umständen blieb dem<lb xml:id="p2-l3"/>
 Bundesrath nur übrig <date when="1868-04-27">heute</date> die<lb xml:id="p2-l4"/>
 Abgeordneten durch nachstehendes<lb xml:id="p2-l5"/>
 Telegramm zu instruiren: </p>
       <p rend="indent" xml:id="K_2278_p5">
-                    <lb xml:id="p2-l6"/>Erklärung des <placeName type="place" key="Norddeutscher Bund">Nordbundes</placeName> wenigstens<lb xml:id="p2-l7"/>
+                <lb xml:id="p2-l6"/>Erklärung des <placeName type="place" key="Norddeutscher Bund">Nordbundes</placeName> wenigstens<lb xml:id="p2-l7"/>
 in Form einer Note wünschbar welche<lb xml:id="p2-l8"/>
-als Anknüpfungspunct für spätere Se<lb break="no" xml:id="p2-l9"/>paratverhandlungen 
+als Anknüpfungspunct für spätere Se
+                <lb break="no" xml:id="p2-l9"/>paratverhandlungen 
 dienen kann im Fall<lb xml:id="p2-l10"/>
 von der Schweiz bestimmtere Vorlagen<lb xml:id="p2-l11"/>
 gemacht werden. </p>
       <p rend="indent" xml:id="K_2278_p6">
-                    <lb xml:id="p2-l12"/>Ich bin überzeugt dass das Re<lb break="no" xml:id="p2-l13"/>sultat 
+                <lb xml:id="p2-l12"/>Ich bin überzeugt dass das Re
+                <lb break="no" xml:id="p2-l13"/>sultat 
 ein anderes gewesen wäre<lb xml:id="p2-l14"/>
 wenn man von hier aus die<lb xml:id="p2-l15"/>
 richtigen Mittel benützt oder <pb n="3"/>
-                    <lb xml:id="p3-l1"/>
+                <lb xml:id="p3-l1"/>
 wenigstens nur <seg type="ref">Herrn <persName type="person" key="Heer Joachim">Heer</persName>
-                        <ref type="kbp">→ Joachim Heer</ref>
-                    </seg> <seg type="ref">zur<lb xml:id="p3-l2"/>
+                    <ref type="kbp">→ Joachim Heer</ref>
+                </seg> <seg type="ref">zur<lb xml:id="p3-l2"/>
 rechten Zeit instruirt <choice>
                             <abbr>d. h.</abbr>
                             <expan>das heisst / das heißt</expan>
                         </choice> in die<lb xml:id="p3-l3"/>
 Unmöglichkeit versetzt hätte seine<lb xml:id="p3-l4"/>
-eigenen Ideen zur Geltung zu brin<lb break="no" xml:id="p3-l5"/>gen.<ref type="letter" target="K_2275"><!--→ Nr. 90--></ref>
-                    </seg>
-                </p>
+eigenen Ideen zur Geltung zu brin
+                    <lb break="no" xml:id="p3-l5"/>gen.<ref type="letter" target="K_2275"><!--→ Nr. 90--></ref>
+                </seg>
+            </p>
     </div>
         </body>
     <back>

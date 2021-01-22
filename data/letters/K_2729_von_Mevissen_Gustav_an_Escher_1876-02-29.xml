@@ -33,8 +33,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Mevissen Gustav von" type="sender">Gustav von Mevissen</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Mevissen Gustav von" type="sender">Gustav von Mevissen</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Köln</placeName>
                     <date when="1876-02-29">Dienstag, Februar 29, 1876</date>
                 </correspAction>
@@ -107,7 +107,9 @@
             <change when="2014-11-20" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -147,30 +149,30 @@ Unwohlseyn <seg type="com">
                 </seg> für die nächsten Tage ans<lb xml:id="p1-l6"/>
 Haus gefesselt und <seg type="com">verhindert am <date when="1876-03-03">3</date> <choice>
                             <abbr>
-                                <hi>resp</hi>
-                            </abbr>
+                        <hi>resp</hi>
+                    </abbr>
                             <expan>respektive / respective</expan>
                         </choice> <date when="1876-03-02">2 <hi>März</hi>
-                        </date> <lb xml:id="p1-l7"/>
+                    </date> <lb xml:id="p1-l7"/>
 in <placeName type="place" key="Bern (Stadt)">
-                            <hi>Bern</hi>
-                        </placeName> zu seyn.<note xml:id="K_2729_c2">Am <date when="1876-03-03">3. März 1876</date> fand in <placeName type="place" key="Bern (Stadt)">Bern</placeName> eine Sitzung des Verwaltungsrats der Gotthardbahn-Gesellschaft statt. <choice>
+                        <hi>Bern</hi>
+                    </placeName> zu seyn.<note xml:id="K_2729_c2">Am <date when="1876-03-03">3. März 1876</date> fand in <placeName type="place" key="Bern (Stadt)">Bern</placeName> eine Sitzung des Verwaltungsrats der Gotthardbahn-Gesellschaft statt. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Prot. VR GB</ref>, 3. März 1876.</note>
                 </seg> Ich habe <seg type="com">Herrn 
     Geheimrath <persName type="person" key="Dülberg Franz">
-                            <hi>Düllberg</hi>
-                        </persName>
+                        <hi>Düllberg</hi>
+                    </persName>
                     <note xml:id="K_2729_c3">
                         <persName type="person" key="Dülberg Franz">Franz Dülberg</persName> (1827–1887), Direktor der <placeName type="place" key="Darmstadt (D)">Darmstädter</placeName> Bank für Handel und Industrie.</note>
                 </seg> <lb xml:id="p1-l8"/>
 gebeten mich in <placeName type="place" key="Bern (Stadt)">
-                        <hi>Bern</hi>
-                    </placeName> zu vertreten.</p>
+                    <hi>Bern</hi>
+                </placeName> zu vertreten.</p>
       <p rend="left" xml:id="K_2729_p5">
                 <lb xml:id="p1-l9"/>Auch <seg type="ref">Herr <persName type="person" key="Hansemann Adolph von">von <hi>Hansemann</hi>
-                        </persName>
+                    </persName>
                     <ref type="kbp">→ Adolph von Hansemann</ref>
                 </seg> den ich vor einigen Tagen<lb xml:id="p1-l10"/>
 hier sah wird schwerlich es ermöglichen können am <date when="1876-02-03">3<hi rend="sup">ten</hi> <lb xml:id="p1-l11"/>
@@ -178,11 +180,11 @@ hier sah wird schwerlich es ermöglichen können am <date when="1876-02-03">3<hi
                             <abbr>ds</abbr>
                             <expan>dieses [Monats]</expan>
                         </choice> </date> von <placeName type="place" key="Paris (F)">
-                        <hi>Paris</hi>
-                    </placeName> und <placeName type="place" key="London (UK)">London</placeName> wohin er sich begeben<lb xml:id="p1-l12"/>
+                    <hi>Paris</hi>
+                </placeName> und <placeName type="place" key="London (UK)">London</placeName> wohin er sich begeben<lb xml:id="p1-l12"/>
         zurück zu seyn; und da auch <seg type="com">Herr <persName type="person" key="Oppenheim Abraham von">
                         <hi>Aron Oppenheim</hi>
-                        </persName>
+                    </persName>
                     <note xml:id="K_2729_c4">Gemeint ist vermutlich <persName type="person" key="Oppenheim Abraham von">Abraham von Oppenheim</persName> (1804–1878), <placeName type="place" key="Köln (D)">Kölner</placeName> Bankier, Teilhaber am Bankhaus Salomon Oppenheim junior und Compagnie, Verwaltungsrat der Gotthardbahn-Gesellschaft, oder <persName type="person" key="Oppenheim Albert von">Albert von Oppenheim</persName> (1834–1912), <placeName type="place" key="Köln (D)">Kölner</placeName> Bankier und Kunstsammler, Stellvertreter <persName type="person" key="Oppenheim Abraham von">Abraham von Oppenheims</persName> im Verwaltungsrat der Gotthardbahn-Gesellschaft.</note>
                 </seg> <lb xml:id="p1-l13"/>
 zur Zeit von hier nicht abkömmlich ist so dürfte die<lb xml:id="p1-l14"/>
@@ -194,18 +196,18 @@ erscheinen lassen muß auf einen späteren Terminus<lb xml:id="p1-l18"/>
 zu verschieben seyn.</p>
       <p rend="left" xml:id="K_2729_p6">
                 <lb xml:id="p1-l19"/>Herr <persName type="person" key="Hansemann Adolph von">von <hi>Hansemann</hi>
-                    </persName> sprach mir die Ansicht aus<lb xml:id="p1-l20"/>
+                </persName> sprach mir die Ansicht aus<lb xml:id="p1-l20"/>
 daß unverzügliche vertrauliche Verhandlungen<lb xml:id="p1-l21"/>
 Seitens der Direction <choice>
                         <abbr>
-                            <hi>resp</hi>
-                        </abbr>
+                    <hi>resp</hi>
+                </abbr>
                         <expan>respektive / respective</expan>
                     </choice> des <seg type="com">hochgeehrten<lb xml:id="p1-l22"/>
 Praesidenten derselben<note xml:id="K_2729_c5">Gemeint ist Alfred Escher.</note>
                 </seg> mit dem <seg type="com">ReichsKanzler<lb xml:id="p1-l23"/>
 Fürsten <persName type="person" key="Bismarck Otto von">von <hi>Bismark</hi>
-                        </persName>
+                    </persName>
                     <note xml:id="K_2729_c6">
                         <persName type="person" key="Bismarck Otto von">Otto von Bismarck</persName> (1815–1898), Ministerpräsident und Aussenminister des Königreichs <placeName type="place" key="Preussen (Königreich)">Preussen</placeName>, Kanzler des <placeName type="place" key="Deutsches Reich">Deutschen Reichs</placeName>.</note>
                 </seg> indicirt seyen, um<note type="transcript">Seitenwechselzeichen</note> <pb n="2"/>
@@ -214,15 +216,15 @@ sich zu vergewissern ob und inwieweit<lb xml:id="p2-l2"/>
 von jener Seite auf Bereitwilligkeit zu<lb xml:id="p2-l3"/>
 finanzieller Unterstützung der Gotthardbahn in<lb xml:id="p2-l4"/>
 erweitertem Maaße zu rechnen sey.<lb xml:id="p2-l5"/> <seg type="ref">Diese seine Anschauung wird Herr <persName type="person" key="Hansemann Adolph von">von <hi>H</hi>
-                        </persName> <lb xml:id="p2-l6"/> inzwischen ohne Zweifel auch direct Ihrem<lb xml:id="p2-l7"/>
+                    </persName> <lb xml:id="p2-l6"/> inzwischen ohne Zweifel auch direct Ihrem<lb xml:id="p2-l7"/>
 geneigten Ermessen unterbreitet haben.<ref type="letter" target="K_2720"><!--→ Nr. 205--></ref>
                 </seg> <lb xml:id="p2-l8"/>
 				Bei der augenblicklichen <seg type="ref">sehr gedrückten Stimmung<lb xml:id="p2-l9"/>
 im <placeName type="place" key="Deutsches Reich">deutschen Reiche</placeName>
                     <ref type="letter" target="K_2713_c10">«Gründerkrise»<!-- → Nr. 203 (Kommentar)--></ref>
                 </seg> wird Fürst <persName type="person" key="Bismarck Otto von">
-                        <hi>Bismark</hi>
-                    </persName> <lb xml:id="p2-l10"/>
+                    <hi>Bismark</hi>
+                </persName> <lb xml:id="p2-l10"/>
 im Reichstage wie im Landtage jedenfalls eine<lb xml:id="p2-l11"/>
 schwere Aufgabe zu lösen haben wenn er für das<lb xml:id="p2-l12"/>
                 <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>Unternehmen Geld flüssig machen will.<lb xml:id="p2-l13"/>
@@ -252,8 +254,8 @@ sämmtlicher <placeName type="place" key="Italien (Königreich)">italischer</pla
                             </choice> 55.</note>
                 </seg> so dürfte dieselbe vielleicht geneigt<lb xml:id="p3-l2"/>
 zu machen seyn die Strecken bis <placeName type="place" key="Bellinzona">
-                        <hi>Bellinzona</hi>
-                    </placeName> zu<lb xml:id="p3-l3"/>
+                    <hi>Bellinzona</hi>
+                </placeName> zu<lb xml:id="p3-l3"/>
 bauen <hi>resp</hi> zu übernehmen? Eine Beschränkung des<lb xml:id="p3-l4"/> <seg type="com">ursprünglichen Bauplanes<note xml:id="K_2729_c8"><!--Der Staatsvertrag betreffend den Bau der Gotthardbahn von 1869 definiert in Art. 1 die zum Bauprogramm der 
     Gotthardeisenbahn gehörenden Bahnlinien. -->
                         <choice>
@@ -264,8 +266,8 @@ bauen <hi>resp</hi> zu übernehmen? Eine Beschränkung des<lb xml:id="p3-l4"/> <
 					</note>
                 </seg> <choice>
                         <abbr>
-                            <hi>resp</hi>
-                        </abbr>
+                    <hi>resp</hi>
+                </abbr>
                         <expan>respektive / respective</expan>
                     </choice> der
 Uebertrag eines<lb xml:id="p3-l5"/>

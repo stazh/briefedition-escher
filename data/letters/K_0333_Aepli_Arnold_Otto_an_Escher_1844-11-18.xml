@@ -27,8 +27,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Aepli Arnold Otto" type="sender">Arnold Otto Aepli</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Aepli Arnold Otto" type="sender">Arnold Otto Aepli</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>St. Gallen</placeName>
                     <date when="1844-11-18">Montag, November 18, 1844</date>
                 </correspAction>
@@ -64,7 +64,9 @@
             <change when="2014-12-17" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
             <change when="2018-11-22" who="DB">Transkriptionsverifizierung Seiterle umgesetzt
       
       </change>
@@ -128,7 +130,7 @@ diese Stelle nur deshalb an, um zu zeigen, wie sehr es im Sinne des<lb xml:id="p
 Gesetzes liegt, einmal vom Kleinen Rath von der Hand gewiesene<lb xml:id="p1-l21"/>
 Klagen über Zurechnung zu erschweren, wie gegen einen derartigen<lb xml:id="p1-l22"/>
 beharrlichen Kläger beinahe eine <hi>praesumtio doli</hi>
-                    <note type="transcript">Annahme der Arglist</note> festgestellt wird <choice>
+                <note type="transcript">Annahme der Arglist</note> festgestellt wird <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> <lb xml:id="p1-l23"/>
@@ -268,20 +270,20 @@ Vorhandensein <choice>
                     </choice> allein der groben Fahrläßigkeit<lb xml:id="p2-l35"/>
 des Gemeinderathes bei zu meßen sei, bedarf keiner Erörterung. –<lb xml:id="p2-l36"/>
 Was nun den Advokaten anbelangt, so muß ich allerdings in erster Linie <persName type="person" key="Lutz">
-                        <hi>Lutz</hi>
-                    </persName>
+                    <hi>Lutz</hi>
+                </persName>
                 <note type="transcript">Korrektur BK: Vorname nicht ermittelt</note> <lb xml:id="p2-l37"/>
 vorschlagen. Er ist fleißig, gewissenhaft, loyal, erfahren, gewandt, wie<lb xml:id="p2-l38"/>
 kaum ein anderer, aber freilich etwas entfernt vom Ort der gelegenen<lb xml:id="p2-l39"/>
 Sache. In der Nähe befände sich <hi>
                     <choice>
                             <abbr>D<hi rend="sup">r</hi>
-                            </abbr>
+                    </abbr>
                             <expan>Doktor / Doctor</expan>
                         </choice> <persName type="person" key="Dreselly">Dreselly</persName>
                 </hi>, in <placeName type="place" key="Uznach">
-                        <hi>Uznach</hi>
-                    </placeName>, <add>von Geburt</add> ein <del>ref</del> <placeName type="place" key="Bayern (Königreich)">Bayer</placeName>,<lb xml:id="p2-l40"/>
+                    <hi>Uznach</hi>
+                </placeName>, <add>von Geburt</add> ein <del>ref</del> <placeName type="place" key="Bayern (Königreich)">Bayer</placeName>,<lb xml:id="p2-l40"/>
 der sich erst vor einigen Jahren im Kantone eingekauft hat. Er ist noch<pb n="3"/>
                 <lb xml:id="p3-l1"/>
 wenig vor Kantonsgericht aufgetreten <choice>
@@ -309,19 +311,20 @@ Sache mehr angelegen sein, doch ist er sehr breit <choice>
                 <lb break="no" xml:id="p3-l7"/>sinn. 
 Von den hiesigen Advokaten habe ich dir schon früher gesprochen,<lb xml:id="p3-l8"/>
 wenn ich nicht irre. Zu nennen wäre noch Kantonsrath <persName type="person" key="Hoffmann Joseph Marzell">
-                        <hi>Jos</hi>. <hi>Hoff</hi>
+                    <hi>Jos</hi>. <hi>Hoff</hi>
+                    
                     <lb break="no" xml:id="p3-l9"/>
-                        <hi>mann</hi>
-                    </persName>, 
+                    <hi>mann</hi>
+                </persName>, 
 auf <hi>Wiggen</hi>
-                    <note type="transcript">Korrektur BK: Keine Person, Schloss Wiggen gemeint</note>, bei <placeName type="place" key="Rorschach">
+                <note type="transcript">Korrektur BK: Keine Person, Schloss Wiggen gemeint</note>, bei <placeName type="place" key="Rorschach">
                     <hi>Rorschach</hi>
                 </placeName>, einer der gebildetern, doch<lb xml:id="p3-l10"/>
 plädirt er nicht mit sonderlichem Glück, weil ihm, obschon er fließend<lb xml:id="p3-l11"/>
 spricht, die Gabe fehlt den gehörigen Eindruck hervorzubringen.<lb xml:id="p3-l12"/>
 In erster Linie würde ich daher wieder auf <persName type="person" key="Lutz">
-                        <hi>Lutz</hi>
-                    </persName>, in zweiter auf<lb xml:id="p3-l13"/>
+                    <hi>Lutz</hi>
+                </persName>, in zweiter auf<lb xml:id="p3-l13"/>
                 <persName type="person" key="Weber">
                     <hi>Weber</hi>
                 </persName> (Kantonsrath <choice>
@@ -329,15 +332,16 @@ In erster Linie würde ich daher wieder auf <persName type="person" key="Lutz">
                         <expan>und</expan>
                     </choice>
 				Fürsprech in <placeName type="place" key="Lichtensteig">
-                        <hi>Lichtensteig</hi>
-                    </placeName>) <choice>
+                    <hi>Lichtensteig</hi>
+                </placeName>) <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> in dritter auf <persName type="person" key="Hoffmann Joseph Marzell">
-                        <hi>Hoff</hi>
+                    <hi>Hoff</hi>
+                    
                     <lb break="no" xml:id="p3-l14"/>
-                        <hi>mann</hi>
-                    </persName> 
+                    <hi>mann</hi>
+                </persName> 
 rathen. –</p>
       <p rend="indent" xml:id="K_0333_p5">
                 <lb xml:id="p3-l15"/>Das <del>Ta</del> politische Tagesgespräch hier bildet fortwährend die <supplied type="unclear">Bischofs-</supplied>
@@ -412,7 +416,7 @@ Dir zu erhalten.</p>
                     <lb xml:id="p3-l40"/>
           <placeName type="place" key="St. Gallen (Stadt)">St Gallen</placeName> den <date when="1844-11-18">18. <choice>
                             <abbr>
-                                <hi>Nov</hi>.</abbr>
+                            <hi>Nov</hi>.</abbr>
                             <expan>November</expan>
                         </choice> 1844</date>.</p>
       </div>
@@ -423,7 +427,7 @@ Dir zu erhalten.</p>
           <persName type="person" key="Brändli Benjamin">Brändli</persName> hat weder an einen, noch viel weniger an zwei meiner <hi rend="underline">Freunde</hi> bezahlt, sonst müßte<lb xml:id="p3-l42"/>
 ich schon längst im Besitze der <choice>
                         <abbr>
-                            <hi>f</hi>.</abbr>
+                        <hi>f</hi>.</abbr>
                         <expan>franken / francs / franchi / Gulden</expan>
                     </choice> 5.30. sein. Wenn er sich die <placeName type="place" key="St. Gallen">St Gallischen</placeName> Gesetze durchaus von mir zum<lb xml:id="p3-l43"/>
           Geschenk machen laßen will, so ersuche ich ihn nun auf das erste leere Blatt: «<hi>Aepli</hi> seinem <persName type="person" key="Brändli Benjamin">

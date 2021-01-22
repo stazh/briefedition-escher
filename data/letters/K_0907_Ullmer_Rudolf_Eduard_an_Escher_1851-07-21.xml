@@ -34,8 +34,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Ullmer Rudolf Eduard" type="sender">Rudolf Eduard Ullmer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Ullmer Rudolf Eduard" type="sender">Rudolf Eduard Ullmer</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Enge</placeName>
                     <date when="1851-07-21">Montag, Juli 21, 1851</date>
                 </correspAction>
@@ -79,7 +79,9 @@
             <change when="2013-01-08" who="SW">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -148,11 +150,11 @@
                 </persName> allein im Obmannamte an &amp; frug ihn,
 				wie es mit H<supplied>errn</supplied> <lb xml:id="p1-l21"/>
                 <hi>
-                        <choice>
+                    <choice>
                             <abbr>D<hi rend="sup">r</hi> </abbr>
                             <expan>Doktor / Doctor</expan>
                         </choice>
-                    </hi> <persName type="person" key="Pestalozzi Hans Jakob">Pestalutz</persName> stehe, ob er wol<note type="transcript">sic!</note> die Wahl annehme. Er erklärte, keine bestimmte Antwort
+                </hi> <persName type="person" key="Pestalozzi Hans Jakob">Pestalutz</persName> stehe, ob er wol<note type="transcript">sic!</note> die Wahl annehme. Er erklärte, keine bestimmte Antwort
 				geben zu können; <lb xml:id="p1-l22"/> immerhin scheine es ihm, der <choice>
                         <abbr>Gr. Rath</abbr>
                         <expan>Grosser / Großer Rath</expan>

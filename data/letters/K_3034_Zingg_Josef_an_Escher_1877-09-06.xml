@@ -31,8 +31,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Luzern</placeName>
                     <date when="1877-09-06">Donnerstag, September 6, 1877</date>
                 </correspAction>
@@ -114,7 +114,9 @@
             <change when="2014-12-05" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-23" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -168,8 +170,8 @@ unterzeichnete <hi>Passus</hi> ist nach
                             <abbr>Hrn.</abbr>
                             <expan>Herrn</expan>
                         </choice> <persName type="person" key="Massa Mattia">
-                            <hi>Massa</hi>
-                        </persName>
+                        <hi>Massa</hi>
+                    </persName>
                     <note xml:id="K_3034_c2">
                         <persName type="person" key="Massa Mattia">Mattia Massa</persName> (Lebensdaten nicht ermittelt), Generaldirektor der <ref type="kbe"/>Strade Ferrate dell'Alta Italia.</note>
                 </seg> eingeschmuggelt<lb xml:id="p1-l12"/>
@@ -195,8 +197,8 @@ einer entschiedenern Einsprache der <choice>
 für dermalen beseitigt werden können, <pb n="2"/>
                 <lb xml:id="p2-l1"/>
 denn <persName type="person" key="Massa Mattia">
-                        <hi>Massa</hi>
-                    </persName> war durch die Verein
+                    <hi>Massa</hi>
+                </persName> war durch die Verein
                 <lb break="no" xml:id="p2-l2"/>barung 
 unter I. befriedigt &amp; selbst<lb xml:id="p2-l3"/> <seg type="com">
                     <persName type="person" key="Biglia Felice">
@@ -314,11 +316,11 @@ den Eindruk, daß unmittelbar vor<lb xml:id="p3-l5"/>
                             <abbr>dieß</abbr>
                             <expan>dieses [Monats]</expan>
                         </choice>
-                    </date>) &amp; ohne vorausge
+                </date>) &amp; ohne vorausge
                 <lb break="no" xml:id="p3-l6"/>gangene 
 Verständigung mit dem <choice>
                         <abbr>
-                            <hi>BR</hi>.</abbr>
+                    <hi>BR</hi>.</abbr>
                         <expan>BundesRath</expan>
                     </choice> <lb xml:id="p3-l7"/>
 von einer Rükhaltung der <add>dermaligen</add> Abschlagszahlg<!--Transkriptionsbereinigung: [un] entfernt-->
@@ -335,27 +337,27 @@ noch nähern Bericht. – <choice>
                         <abbr>Hr.</abbr>
                         <expan>Herr</expan>
                     </choice> <persName type="person" key="Favre Louis">
-                        <hi>Favre</hi>
-                    </persName> <lb xml:id="p3-l11"/>
+                    <hi>Favre</hi>
+                </persName> <lb xml:id="p3-l11"/>
         hinwieder will die Abschlagsberechnung<lb xml:id="p3-l12"/>
                 <choice>
                         <abbr>v.</abbr>
                         <expan>von</expan>
                     </choice> <placeName type="place" key="Airolo">
-                        <hi>Airolo</hi>
-                    </placeName> nicht unterzeichnen, weil man<lb xml:id="p3-l13"/>
+                    <hi>Airolo</hi>
+                </placeName> nicht unterzeichnen, weil man<lb xml:id="p3-l13"/>
 ihm wegen schlechtem Mauerwerk einen<lb xml:id="p3-l14"/>
         Abzug <choice>
                         <abbr>v.</abbr>
                         <expan>von</expan>
                     </choice> <choice>
                         <abbr>
-                            <hi>c<hi rend="sup">a</hi>
-                            </hi> </abbr>
+                    <hi>c<hi rend="sup">a</hi>
+                    </hi> </abbr>
                         <expan>circa</expan>
                     </choice> 17,000 <choice>
                         <abbr>
-                            <hi>fs</hi>.</abbr>
+                    <hi>fs</hi>.</abbr>
                         <expan>francs (Franken)</expan>
                     </choice> gemacht hat &amp; äußerte<lb xml:id="p3-l15"/>
 sich <seg type="ref">

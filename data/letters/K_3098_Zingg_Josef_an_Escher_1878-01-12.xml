@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Luzern</placeName>
                     <date when="1878-01-12">Samstag, Januar 12, 1878</date>
                 </correspAction>
@@ -101,7 +101,9 @@
             <change when="2014-12-02" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -167,7 +169,7 @@ das Consortiums auf <seg type="com">unsere Propositionen<lb xml:id="p1-l10"/>
                             <expan>von</expan>
                         </choice> <date when="1877-12-14">14 <choice>
                                 <abbr>
-                                    <hi>Dec</hi>.</abbr>
+                            <hi>Dec</hi>.</abbr>
                                 <expan>December</expan>
                             </choice> </date>
                     <note xml:id="K_3098_c4">Die Gegenvorschläge sind im Protokoll des Verwaltungsrats der <choice>
@@ -183,7 +185,7 @@ das Consortiums auf <seg type="com">unsere Propositionen<lb xml:id="p1-l10"/>
                 </seg> abhin gekommen sei &amp; ersuchte uns in den<lb xml:id="p1-l11"/>
 Punkten, in denen es eine Aenderung wünschte, um<lb xml:id="p1-l12"/>
 unsere Aeußerung. Hernach stellte das <hi>Consortium</hi>
-                    <lb xml:id="p1-l13"/>
+                <lb xml:id="p1-l13"/>
 das Protokoll fest, das uns zur Aeußerung über
                 <lb break="no" xml:id="p1-l14"/>mittelt 
 werden soll, in der Meinung, daß dann<lb xml:id="p1-l15"/>
@@ -279,7 +281,7 @@ Betrage gegen Verpfändung oder <hi>Cession</hi> des je das<lb xml:id="p3-l16"/>
 folgende Baujahr fällig werdenden <hi>Subventions</hi>be
                 <lb break="no" xml:id="p3-l17"/>trage 
 vorzuschießen. Wir haben dem <hi>Consortium</hi>
-                    <lb xml:id="p3-l18"/>
+                <lb xml:id="p3-l18"/>
 erklärt, daß wir bereit seien, demselben bezüglich der<lb xml:id="p3-l19"/>
 Abnahme der Obligationen so weit nur immer thunlich<lb xml:id="p3-l20"/>
 entgegenzukommen, aber daß <del>sie</del> <add>wir</add> darauf Bedacht nehmen <pb n="4"/>
@@ -290,7 +292,8 @@ nicht mit größern Zinsen belasten können. <choice>
                         <abbr>Hr.</abbr>
                         <expan>Herr</expan>
                     </choice> <persName type="person" key="Oppenheim Eduard von">
-                        <hi>Oppen</hi>
+                    <hi>Oppen</hi>
+                    
                     <lb break="no" xml:id="p4-l4"/>heim</persName> 
 bemerkte darauf, daß das Geld nach seiner<lb xml:id="p4-l5"/>
 Ansicht zum gleichen Zinsfuß vorgeschoßen würde, zu<lb xml:id="p4-l6"/>
@@ -303,8 +306,8 @@ wie <choice>
                         <expan>Herr</expan>
                     </choice> <seg type="com">
                     <persName type="person" key="Stoll Georg">
-                            <hi>Stoll</hi>
-                        </persName>
+                        <hi>Stoll</hi>
+                    </persName>
                     <note xml:id="K_3098_c9">
                         <persName type="person" key="Stoll Georg">Georg Stoll</persName> (1818–1904), Vizepräsident des Verwaltungsrats der <ref type="kbe"/>Schweizerischen Nordostbahn,  Direktionsmitglied der Schweizerischen Kreditanstalt.</note>
                 </seg>, wollten indeßen dieser Ansicht<lb xml:id="p4-l8"/>
@@ -335,8 +338,8 @@ die <seg type="ref">68 <choice>
                             <expan>Million</expan>
                         </choice> <choice>
                             <abbr>
-                                <hi>fs.</hi>
-                            </abbr>
+                        <hi>fs.</hi>
+                    </abbr>
                             <expan>francs (Franken)</expan>
                         </choice>
                     <ref type="sum" target="Gotthardvereinigung_p47">Modalitäten Finanzierung GB<!-- → Band 1, S. 209--></ref>
@@ -375,8 +378,8 @@ für einsweilen nicht zu kommen, da die <add>anwesenden</add> Mitglieder des<lb 
 Consortiums, wie mir scheint, zunächst nun wieder die<lb xml:id="p5-l14"/>
 Zustimmung ihrer Mandatare, Verwaltungsräthe <choice>
                         <abbr>
-                            <hi>etc</hi>
-                        </abbr>
+                    <hi>etc</hi>
+                </abbr>
                         <expan>et cetera (und anderes)</expan>
                     </choice> <lb xml:id="p5-l15"/>
 einzuholen wünschen. Obschon mir die Begehren zu<lb xml:id="p5-l16"/>
@@ -442,7 +445,7 @@ Ergebenheit.</p>
                         <expan>Hohen Herrn</expan>
                     </choice> Präsident <choice>
                         <abbr>
-                            <hi>Dr</hi>.</abbr>
+                        <hi>Dr</hi>.</abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> <hi>A</hi>. <hi>Escher</hi> in <lb xml:id="p6-l14"/>
                     <hi rend="underline">

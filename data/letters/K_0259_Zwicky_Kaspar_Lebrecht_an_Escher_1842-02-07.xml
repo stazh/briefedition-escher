@@ -28,29 +28,59 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zwicky Kaspar Lebrecht" type="sender">Kaspar Lebrecht Zwicky</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zwicky Kaspar Lebrecht" type="sender">Kaspar Lebrecht Zwicky</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Matt</placeName>
                     <date when="1842-02-07">Montag, Februar 7, 1842</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2005-06-13" who="SK">Transkribiert </change>
-            <change when="November 2008" who="swissedit, UR">von Word nach XML konvertiert </change>
-            <change when="2009-05-28" who="BF">provisorisch kommentiert</change>
-            <change when="2009-07-16" who="BF">Transkriptionsverifizierung T. Binder umgesetzt</change>
-            <change when="2009-07-22" who="BF">Korrekturen 1 Haberthür übertragen</change>
-            <change when="2009-08-27" who="BF">Index für Ortsregister gesetzt</change>
-            <change when="2009-11-18" who="BF">Umsetzung Lektorat JJ / Überarbeitung Kommentare</change>
-            <change when="2009-11-26" who="BF">Korrekturen 2 Haberthür übertragen</change>
-            <change when="2011-04-08" who="CF">Auf Stand Edition gebracht</change>
-            <change when="2011-06-22" who="TM">e-Edition: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-06-28" who="AH">e-Edition: Verifizierung 1 umgesetzt</change>
-            <change when="2011-07-19" who="NH"> e-Edition: Auszeichnung Themen umgesetzt </change>
-            <change when="2011-07-25" who="TM">e-Edition: Auszeichnung 2 umgesetzt</change>
-            <change when="2011-07-28" who="HA">e-Edition: Verifizierung 2 umgesetzt</change>
-            <change when="2015-03-11" who="CA">e-Edition: Transkriptionsverifizierung Seiterle 2 umgesetzt</change>
+            <change when="2005-06-13" who="SK">Transkribiert 
+                
+            </change>
+            <change when="November 2008" who="swissedit, UR">von Word nach XML konvertiert 
+                
+            </change>
+            <change when="2009-05-28" who="BF">provisorisch kommentiert
+                
+            </change>
+            <change when="2009-07-16" who="BF">Transkriptionsverifizierung T. Binder umgesetzt
+                
+            </change>
+            <change when="2009-07-22" who="BF">Korrekturen 1 Haberthür übertragen
+                
+            </change>
+            <change when="2009-08-27" who="BF">Index für Ortsregister gesetzt
+                
+            </change>
+            <change when="2009-11-18" who="BF">Umsetzung Lektorat JJ / Überarbeitung Kommentare
+                
+            </change>
+            <change when="2009-11-26" who="BF">Korrekturen 2 Haberthür übertragen
+                
+            </change>
+            <change when="2011-04-08" who="CF">Auf Stand Edition gebracht
+                
+            </change>
+            <change when="2011-06-22" who="TM">e-Edition: Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2011-06-28" who="AH">e-Edition: Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2011-07-19" who="NH"> e-Edition: Auszeichnung Themen umgesetzt 
+                
+            </change>
+            <change when="2011-07-25" who="TM">e-Edition: Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2011-07-28" who="HA">e-Edition: Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2015-03-11" who="CA">e-Edition: Transkriptionsverifizierung Seiterle 2 umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -61,7 +91,7 @@
           <placeName type="place" key="Matt (Glarus Süd)">Matt</placeName> d<supplied>en</supplied> <seg type="com">
                         <date when="1842-01-07">7t<supplied>en</supplied> <choice>
                                 <abbr>
-                                    <hi>Jan</hi>.</abbr>
+                                <hi>Jan</hi>.</abbr>
                                 <expan>Januar</expan>
                             </choice> 1842</date>
                         <note xml:id="K_0259_c1">Die Datierung auf Januar ist wohl irrig. Aufgrund des
@@ -77,7 +107,7 @@
     <body>
             <div>
       <p rend="left" xml:id="K_0259_p3">
-                    <lb xml:id="p1-l3"/>Länger läßt mir nun mein Gewissen keine Ruhe mehr, ich muß dir
+                <lb xml:id="p1-l3"/>Länger läßt mir nun mein Gewissen keine Ruhe mehr, ich muß dir
 				schreiben, aber<lb xml:id="p1-l4"/> glaube nicht, daß ich es bloß um des Gewissens
       	will<supplied>en</supplied> thue. Ich schreibe dir auch<lb xml:id="p1-l5"/> gerne, <choice>
                         <abbr>u</abbr>
@@ -117,7 +147,8 @@
                         <expan>von</expan>
                     </choice> demselb<supplied>en</supplied> <lb xml:id="p1-l16"/> zu bilden scheint, das Zusammenwirk<supplied>en</supplied> der
 					Persönlichkeit<supplied>en</supplied>. Wir sind durch keine <choice>
-                        <abbr>wissen<lb break="no" xml:id="p1-l17"/>schaftl.</abbr>
+                        <abbr>wissen
+                    <lb break="no" xml:id="p1-l17"/>schaftl.</abbr>
                         <expan>wissenschaftlich</expan>
                     </choice> Studien zusammengeführt word<supplied>en</supplied> noch
 				durch andere gemeinschaftliche Interess<supplied>en</supplied>, sofern<lb xml:id="p1-l18"/> es
@@ -131,36 +162,37 @@
                         <expan>und</expan>
                     </choice> wenn ich daran denke, so ist es mir eben<lb xml:id="p1-l20"/> eine Freude, dir zu schreib<supplied>en</supplied>.</p>
       <p rend="left" xml:id="K_0259_p4">
-                    <lb xml:id="p1-l21"/>Für dies Mal muß ich dich mit Erzählung meiner Lebensschicksale in
+                <lb xml:id="p1-l21"/>Für dies Mal muß ich dich mit Erzählung meiner Lebensschicksale in
 					d<supplied>en</supplied> letzt<supplied>en</supplied> 2 Monaten<lb xml:id="p1-l22"/>heimsuch<supplied>en</supplied>. Es wird darin manches vorkommen, das einen Anklang hat
 				zu dem was<lb xml:id="p1-l23"/>wir bei dir gesproch<supplied>en</supplied>. Wie du weißt, hielt
-				ich gleich am andern Tage nach mei<lb break="no" xml:id="p1-l24"/>ner Abreise von <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> meinen Einzug in <placeName type="place" key="Linthal (Glarus Süd)">Linthal</placeName>, nachdem ich noch einen recht<lb xml:id="p1-l25"/>fröhlich<supplied>en</supplied> Abend bei d<supplied>en</supplied> Meinig<supplied>en</supplied> verlebt
+				ich gleich am andern Tage nach mei
+                <lb break="no" xml:id="p1-l24"/>ner Abreise von <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> meinen Einzug in <placeName type="place" key="Linthal (Glarus Süd)">Linthal</placeName>, nachdem ich noch einen recht<lb xml:id="p1-l25"/>fröhlich<supplied>en</supplied> Abend bei d<supplied>en</supplied> Meinig<supplied>en</supplied> verlebt
       	hatte. Ich wurde auf's beste aufgenommen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> war<lb xml:id="p1-l26"/>auch hier bald heimisch. In <seg type="com">
-                        <persName type="person" key="Ritter Johannes G.">Ritter</persName>
-                        <note xml:id="K_0259_c2">
-                            <persName type="person" key="Ritter Johannes G.">Johannes G. Ritter</persName>
+                    <persName type="person" key="Ritter Johannes G.">Ritter</persName>
+                    <note xml:id="K_0259_c2">
+                        <persName type="person" key="Ritter Johannes G.">Johannes G. Ritter</persName>
       		(1813–1902), Pfarrer in <placeName type="place" key="Linthal (Glarus Süd)">Linthal</placeName>.</note>
-                    </seg> fand ich einen sehr tüchtig gebildet<supplied>en</supplied> <choice>
+                </seg> fand ich einen sehr tüchtig gebildet<supplied>en</supplied> <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> liebereich<supplied>en</supplied> <note type="transcript">sic!</note> Mann,<lb xml:id="p1-l27"/>dem ich mit
 				jedem Tage näher gekommen bin, so daß wir in d. Neujahrsnacht <seg type="com">schmollirt<supplied>en</supplied>
-                        <note xml:id="K_0259_c3">Schmollieren, Schmollis trinken: Brüderschaft machen.</note>
-                    </seg>. <lb xml:id="p1-l28"/>Auch in meinen sonstig<supplied>en</supplied> Umgebung<supplied>en</supplied>
+                    <note xml:id="K_0259_c3">Schmollieren, Schmollis trinken: Brüderschaft machen.</note>
+                </seg>. <lb xml:id="p1-l28"/>Auch in meinen sonstig<supplied>en</supplied> Umgebung<supplied>en</supplied>
 				konnte es mir wohl sein. <seg type="com">Die Frau<note xml:id="K_0259_c4">Person nicht
 						ermittelt.</note>
-                    </seg> spricht zwar<lb xml:id="p1-l29"/>im Anfang wenig an, ist aber doch nicht so
+                </seg> spricht zwar<lb xml:id="p1-l29"/>im Anfang wenig an, ist aber doch nicht so
 				unangenehm, wie viele Leute sagen,<lb xml:id="p1-l30"/>dageg<supplied>en</supplied> ist <seg type="com">
-                        <persName type="person" key="Ritter Johannes G.">Ritters</persName> Mutter<note xml:id="K_0259_c5">Person nicht ermittelt.</note>
-                    </seg> eine ausgezeichnete Frau. Auch das schöne neue Pfarrhaus <pb n="2"/>
-                    <lb xml:id="p2-l1"/>konnte noch etwas zur Behaglichkeit beitrag<supplied>en</supplied>. Zu thun
+                    <persName type="person" key="Ritter Johannes G.">Ritters</persName> Mutter<note xml:id="K_0259_c5">Person nicht ermittelt.</note>
+                </seg> eine ausgezeichnete Frau. Auch das schöne neue Pfarrhaus <pb n="2"/>
+                <lb xml:id="p2-l1"/>konnte noch etwas zur Behaglichkeit beitrag<supplied>en</supplied>. Zu thun
 				hatte ich freilich nun alle<lb xml:id="p2-l2"/>Hände voll, in 3 Woch<supplied>en</supplied> 7 Mal
 				zu predig<supplied>en</supplied>, was für einen Anfänger viel zu viel<lb xml:id="p2-l3"/>ist. <seg type="com">Jene unglücklich<supplied>en</supplied> <placeName type="place" key="St. Gallen (Stadt)">St.
 							Gallisch<supplied>en</supplied>
-                        </placeName>  «Stillstände»<note xml:id="K_0259_c6">Vermutlich Anspielung auf Aussetzer
+                    </placeName>  «Stillstände»<note xml:id="K_0259_c6">Vermutlich Anspielung auf Aussetzer
 						während Zwickys Examens-Probepredigt in <placeName type="place" key="St. Gallen (Stadt)">St. Gallen</placeName>. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
@@ -168,7 +200,8 @@
                                 <abbr>S.</abbr>
                                 <expan>Seite(n)</expan>
                             </choice> 29.</note>
-                    </seg> hab<supplied>en</supplied> sich nicht wiederholt, aber be<lb break="no" xml:id="p2-l4"/>fang<supplied>en</supplied> blieb der Vortrag doch immer. Die Gemeinde war
+                </seg> hab<supplied>en</supplied> sich nicht wiederholt, aber be
+                <lb break="no" xml:id="p2-l4"/>fang<supplied>en</supplied> blieb der Vortrag doch immer. Die Gemeinde war
 				leidlich zufried<supplied>en</supplied>
       	<choice>
                         <abbr>u</abbr>
@@ -178,11 +211,12 @@
 				habe ich etwas<lb xml:id="p2-l7"/>näher kennen gelernt, da ich auch einige Male in der
 				Schule katechetisch<supplied>en</supplied> Unterricht<lb xml:id="p2-l8"/>zu geb<supplied>en</supplied>
 				hatte. Es ist doch ein unbeschreiblich häßlicher Menschenschlag in dieser Gegend.<lb xml:id="p2-l9"/>Er ist zwar hier auch nicht besonders, aber doch viel besser. Am <date when="1841-12-31">Sylvester</date> predigte<lb xml:id="p2-l10"/>
-                    <persName type="person" key="Ritter Johannes G.">Ritter</persName> selbst wiede<note type="transcript">sic</note>
+                <persName type="person" key="Ritter Johannes G.">Ritter</persName> selbst wiede<note type="transcript">sic</note>
       	<choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice>  gefiel mir ungemein wohl. Er war mir auch ein trefflicher Re<lb break="no" xml:id="p2-l11"/>censent meiner Predigt<supplied>en</supplied>
+                    </choice>  gefiel mir ungemein wohl. Er war mir auch ein trefflicher Re
+                <lb break="no" xml:id="p2-l11"/>censent meiner Predigt<supplied>en</supplied>
       	<choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -196,17 +230,17 @@
                     </choice> 
 				das was<lb xml:id="p2-l13"/>hätte gesagt werd<supplied>en</supplied> soll<supplied>en</supplied>,
 					neb<supplied>en</supplied> einander stand. Er hat darin Aehnlichkeit mit <seg type="com">
-                        <persName type="person" key="Nitzsch Karl Immanuel">Nitzsch</persName>
-                        <note xml:id="K_0259_c7">
-                            <persName type="person" key="Nitzsch Karl Immanuel">Karl Immanuel Nitzsch</persName>
+                    <persName type="person" key="Nitzsch Karl Immanuel">Nitzsch</persName>
+                    <note xml:id="K_0259_c7">
+                        <persName type="person" key="Nitzsch Karl Immanuel">Karl Immanuel Nitzsch</persName>
 						(1787–1868), ordentlicher Professor für systematische und praktische
 						Theologie an der Universität <placeName type="place" key="Bonn (D)">Bonn</placeName>.</note>
-                    </seg>. <lb xml:id="p2-l14"/>Am <date when="1842-01-04">4ten <choice>
+                </seg>. <lb xml:id="p2-l14"/>Am <date when="1842-01-04">4ten <choice>
                             <abbr>
-                                <hi>Jan</hi>.</abbr>
+                        <hi>Jan</hi>.</abbr>
                             <expan>Januar</expan>
                         </choice>
-                    </date>, <del>nachde</del> als
+                </date>, <del>nachde</del> als
 				ich ziemlich versichert sein konnte, daß <persName type="person" key="Ritter Johannes G.">R.s</persName> Gesundheit<lb xml:id="p2-l15"/>wieder stark
       	genug sey (es fehlte ihm in der ganzen Zeit nicht sehr viel, aber was da<lb xml:id="p2-l16"/>war erregte Besorgniß <choice>
                         <abbr>u</abbr>
@@ -218,9 +252,9 @@
                         <expan>und</expan>
                     </choice> 
       	<lb xml:id="p2-l17"/>verweilte den ganzen Tag bei <seg type="ref">
-                        <persName type="person" key="Blumer Johann Jakob">Blumer</persName>
-                        <ref type="kbp">→ Johann Jakob Blumer</ref>
-                    </seg>. Ich hatte ihn auf dem Hinweg nur flüchtig<lb xml:id="p2-l18"/>gesehen <choice>
+                    <persName type="person" key="Blumer Johann Jakob">Blumer</persName>
+                    <ref type="kbp">→ Johann Jakob Blumer</ref>
+                </seg>. Ich hatte ihn auf dem Hinweg nur flüchtig<lb xml:id="p2-l18"/>gesehen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>  so hatten wir jetzt d<supplied>en</supplied> ganz<supplied>en</supplied> Tag
@@ -236,70 +270,71 @@
                     </choice> Gespräches ist. – Schon vor <date when="1841-12-25">Weihnacht<supplied>en</supplied> </date> hatte ich einen Ruf<lb xml:id="p2-l22"/>nach <placeName type="place" key="Matt (Glarus Süd)">Matt</placeName> erhalten &amp;
 				angenommen. Ich dachte nun, den Jenner wenigstens für mich<lb xml:id="p2-l23"/>zu
 					hab<supplied>en</supplied>, wurde aber von <seg type="com">
-                        <persName type="person" key="Heer Jakob">
-                            <hi>Heer</hi>
-                        </persName>
-                        <note xml:id="K_0259_c8">
-                            <persName type="person" key="Heer Jakob">Jakob Heer</persName> (1784–1864), Pfarrer
+                    <persName type="person" key="Heer Jakob">
+                        <hi>Heer</hi>
+                    </persName>
+                    <note xml:id="K_0259_c8">
+                        <persName type="person" key="Heer Jakob">Jakob Heer</persName> (1784–1864), Pfarrer
 						in <placeName type="place" key="Matt (Glarus Süd)">Matt</placeName>; Vater <ref type="kbp"/>
-                            <persName type="person" key="Heer Oswald">Oswald Heers</persName>.</note>
-                    </seg> dringend gebet<supplied>en</supplied> schon auf d<supplied>en</supplied> <date when="1842-01-16">16t<supplied>en</supplied> </date> zu erscheinen.<lb xml:id="p2-l24"/>Ich sagte auch zu <choice>
+                        <persName type="person" key="Heer Oswald">Oswald Heers</persName>.</note>
+                </seg> dringend gebet<supplied>en</supplied> schon auf d<supplied>en</supplied> <date when="1842-01-16">16t<supplied>en</supplied> </date> zu erscheinen.<lb xml:id="p2-l24"/>Ich sagte auch zu <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> 
 				versprach, am <date when="1842-01-15">15<hi rend="sup">t<supplied>en</supplied> </hi>
-                    </date> dort zu sein. Am <date when="1842-01-14">Tage vorher</date> machte<lb xml:id="p2-l25"/>ich mit <seg type="com">meiner Schwester<note xml:id="K_0259_c9">Person nicht ermittelt.</note>
-                    </seg> noch eine Fahrt nach <placeName type="place" key="Linthal (Glarus Süd)">Linthal</placeName>, hauptsächlich ihrentweg<supplied>en</supplied>. Auf der<lb xml:id="p2-l26"/>Rückfahrt besucht<supplied>en</supplied> wir noch <persName type="person" key="Blumer Johann Jakob">Blumers</persName>. Es zeigte sich von <seg type="com">d<supplied>en</supplied> <persName type="person" key="Blumer-Heer Anna Katharina">
-                            <persName type="person" key="Blumer Adam">Eltern</persName>
-                        </persName>
-                        <note xml:id="K_0259_c10">
-                            <persName type="person" key="Blumer-Heer Anna Katharina">Anna Katharina
+                </date> dort zu sein. Am <date when="1842-01-14">Tage vorher</date> machte<lb xml:id="p2-l25"/>ich mit <seg type="com">meiner Schwester<note xml:id="K_0259_c9">Person nicht ermittelt.</note>
+                </seg> noch eine Fahrt nach <placeName type="place" key="Linthal (Glarus Süd)">Linthal</placeName>, hauptsächlich ihrentweg<supplied>en</supplied>. Auf der<lb xml:id="p2-l26"/>Rückfahrt besucht<supplied>en</supplied> wir noch <persName type="person" key="Blumer Johann Jakob">Blumers</persName>. Es zeigte sich von <seg type="com">d<supplied>en</supplied> <persName type="person" key="Blumer-Heer Anna Katharina">
+                        <persName type="person" key="Blumer Adam">Eltern</persName>
+                    </persName>
+                    <note xml:id="K_0259_c10">
+                        <persName type="person" key="Blumer-Heer Anna Katharina">Anna Katharina
 							Blumer-Heer</persName> (1791–1873), Tochter der <persName type="person" key="Heer-Zwicky Susanna">Susanna Heer-Zwicky</persName> und des Ratsherrn
 							<persName type="person" key="Heer-Zwicky Joachim">Joachim Heer-Zwicky</persName>,
 						und <persName type="person" key="Blumer Adam">Adam Blumer</persName> (1785–1859),
 						Kaufmann, <placeName type="place" key="Glarus">Glarner</placeName> Gemeindepräsident
 						und Appellationsrichter (<placeName type="place" key="Glarus">GL</placeName>).</note>
-                    </seg> niemand, dagegen war<lb xml:id="p2-l27"/> <seg type="com">
-                        <persName type="person" key="Blumer Johann Jakob">B's</persName> <persName type="person" key="Blumer-Heer Susanna">Braut</persName>
-                        <note xml:id="K_0259_c11">
-                            <persName type="person" key="Blumer-Heer Susanna">Susanna Heer</persName>
+                </seg> niemand, dagegen war<lb xml:id="p2-l27"/> <seg type="com">
+                    <persName type="person" key="Blumer Johann Jakob">B's</persName> <persName type="person" key="Blumer-Heer Susanna">Braut</persName>
+                    <note xml:id="K_0259_c11">
+                        <persName type="person" key="Blumer-Heer Susanna">Susanna Heer</persName>
 						(1820–1902), Tochter der <persName type="person" key="Heer-Schindler Dorothea">Dorothea Heer-Schindler</persName> und des <persName type="person" key="Heer Cosmus">Cosmus Heer</persName>, Cousine <persName type="person" key="Blumer Johann Jakob">Blumers</persName> und ältere Schwester des
 						späteren Bundesrats <persName type="person" key="Heer Joachim">Joachim
 							Heer</persName>.</note>
-                    </seg> da. Man unterhielt sich mit d. <hi>Clavier</hi>. Den andern Morg<supplied>en</supplied>,
+                </seg> da. Man unterhielt sich mit d. <hi>Clavier</hi>. Den andern Morg<supplied>en</supplied>,
 				auf dem<lb xml:id="p2-l28"/>Weg nach <placeName type="place" key="Matt (Glarus Süd)">Matt</placeName> kam ich nochmals zu <persName type="person" key="Blumer Johann Jakob">Blumer</persName> um eine Mitgabe nach <placeName type="place" key="Matt (Glarus Süd)">Matt</placeName> zu erhalt<supplied>en</supplied>,<lb xml:id="p2-l29"/>was für eine, weißt du
 				vielleicht schon. Ich erfuhr <del>auch</del> nämlich bei<lb xml:id="p2-l30"/>Anlaß der Verabredg eines
 				Tages d. Zusammenkunft von ihm, <choice>
                         <abbr>dß</abbr>
                         <expan>daß</expan>
                     </choice> <seg type="com">
-                        <persName type="person" key="Tschudi-Blumer Susanna">
-                            <choice>
+                    <persName type="person" key="Tschudi-Blumer Susanna">
+                        <choice>
                                 <abbr>s.</abbr>
                                 <expan>sein</expan>
                             </choice> Schwester</persName>
-                        <note xml:id="K_0259_c12">
-                            <persName type="person" key="Tschudi-Blumer Susanna">Susanna Blumer</persName>
+                    <note xml:id="K_0259_c12">
+                        <persName type="person" key="Tschudi-Blumer Susanna">Susanna Blumer</persName>
 						(1820–1880), Tochter der <persName type="person" key="Blumer-Heer Anna Katharina">Anna Katharina Blumer-Heer</persName> und
 						des <persName type="person" key="Blumer Adam">Adam Blumer</persName>.</note>
-                    </seg> <lb xml:id="p2-l31"/>sich bald mit <seg type="com">
-                        <persName type="person" key="Tschudi Johannes">Hans</persName>
-                        <note xml:id="K_0259_c13">
-                            <persName type="person" key="Tschudi Johannes">Johannes Tschudi</persName>
+                </seg> <lb xml:id="p2-l31"/>sich bald mit <seg type="com">
+                    <persName type="person" key="Tschudi Johannes">Hans</persName>
+                    <note xml:id="K_0259_c13">
+                        <persName type="person" key="Tschudi Johannes">Johannes Tschudi</persName>
 						(1819–1859), Kriminalrichter (<placeName type="place" key="Glarus">GL</placeName>).</note>
-                    </seg> verlob<supplied>en</supplied> werde, der im Sinne habe, nächstens die
+                </seg> verlob<supplied>en</supplied> werde, der im Sinne habe, nächstens die
 					ernstlichst<supplied>en</supplied> <lb xml:id="p2-l32"/>Bewerbg<supplied>en</supplied> anzubring<supplied>en</supplied>. Es wird dir sonderbar
 				erscheinen, wenn ich dir berichte, <choice>
                         <abbr>dß</abbr>
                         <expan>daß</expan>
                     </choice> <lb xml:id="p2-l33"/>
-                    <persName type="person" key="Blumer Johann Jakob">Blumer</persName> nicht glaubte, daß ich
-				ernstliche Absicht<supplied>en</supplied> hatte, doch ist mir die Sache bald be<lb break="no" xml:id="p2-l34"/>greiflich vorgekommen. Ich hatte absichtlich in der
+                <persName type="person" key="Blumer Johann Jakob">Blumer</persName> nicht glaubte, daß ich
+				ernstliche Absicht<supplied>en</supplied> hatte, doch ist mir die Sache bald be
+                <lb break="no" xml:id="p2-l34"/>greiflich vorgekommen. Ich hatte absichtlich in der
       	letzt<supplied>en</supplied> Zeit <persName type="person" key="Blumer Johann Jakob">Blumern</persName> wenig mehr <pb n="3"/>
-                    <lb xml:id="p3-l1"/>von meiner Liebe gesagt, auch zu <persName type="person" key="Tschudi-Blumer Susanna">S.</persName> <supplied type="unclear">...</supplied> <supplied type="unclear">...im</supplied> <note type="transcript">Fehlstelle</note> Tone der
+                <lb xml:id="p3-l1"/>von meiner Liebe gesagt, auch zu <persName type="person" key="Tschudi-Blumer Susanna">S.</persName> <supplied type="unclear">...</supplied> <supplied type="unclear">...im</supplied> <note type="transcript">Fehlstelle</note> Tone der
       	unbefang<supplied>en</supplied>st<supplied>en</supplied> Heiterkeit<lb xml:id="p3-l2"/>gesproch<supplied>en</supplied>, weil ich es auch nicht an <supplied type="unclear">der</supplied> <supplied type="unclear">Zeit</supplied> <note type="transcript">Fehlstelle</note> hielt, besonders vor dem
 				Examen, <lb xml:id="p3-l3"/>anders aufzutreten. <persName type="person" key="Blumer Johann Jakob">Blumer</persName> versicherte mir daß auch <persName type="person" key="Tschudi-Blumer Susanna">
-                        <choice>
+                    <choice>
                             <abbr>s.</abbr>
                             <expan>sein</expan>
                         </choice> Schwester</persName> <choice>
@@ -318,7 +353,7 @@
                         <abbr>zieml.</abbr>
                         <expan>ziemlich</expan>
                     </choice> auf. Fand<lb xml:id="p3-l6"/>
-                    <choice>
+                <choice>
                         <abbr>s.</abbr>
                         <expan>sie</expan>
                     </choice> <choice>
@@ -332,13 +367,13 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> war sie e. <seg type="com">
-                        <hi>tabula rasa</hi>
-                        <note xml:id="K_0259_c14">Tabula rasa (<choice>
+                    <hi>tabula rasa</hi>
+                    <note xml:id="K_0259_c14">Tabula rasa (<choice>
                                 <abbr>lat.</abbr>
                                 <expan>lateinisch</expan>
                             </choice>):
 						ausgewischte Tafel; übertragen: unbeschriebenes Blatt.</note>
-                    </seg> zu vergleich<supplied>en</supplied>, so war<lb xml:id="p3-l7"/>natürlich, daß der
+                </seg> zu vergleich<supplied>en</supplied>, so war<lb xml:id="p3-l7"/>natürlich, daß der
 					d<supplied>en</supplied> Vorzug erhielt, für d<supplied>en</supplied> mehr äußere Gründe
 					sprach<supplied>en</supplied>.<lb xml:id="p3-l8"/>Besonders im <placeName type="place" key="Glarus">Glarnerland</placeName> bedarf es eines groß<supplied>en</supplied> Entschlusses, bis ein<lb xml:id="p3-l9"/>Mädch<supplied>en</supplied> dieses Standes eine <choice>
                         <abbr>Fr.</abbr>
@@ -347,13 +382,15 @@
                         <abbr>Pf.</abbr>
                         <expan>Pfarrer</expan>
                     </choice> wird. Ich trug <persName type="person" key="Blumer Johann Jakob">Blumer</persName> einzig auf, ihr meine<lb xml:id="p3-l10"/>Gesinnung mitzutheil<supplied>en</supplied> ohne weiteres hinzuzufüg<supplied>en</supplied>. So reiste
-				ich ab. Mit welchen Ge<lb break="no" xml:id="p3-l11"/>fühlen, kannst du dir denk<supplied>en</supplied>. Sie war für mich todt
+				ich ab. Mit welchen Ge
+                <lb break="no" xml:id="p3-l11"/>fühlen, kannst du dir denk<supplied>en</supplied>. Sie war für mich todt
       	<choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> ich fand die <seg type="com">Knote<note xml:id="K_0259_c15">Knote:
       		seelische Verwirrung.</note>
-                    </seg> ei<lb break="no" xml:id="p3-l12"/>ner Thräne würdig, sonst aber erhob mich mein eignes Gefühl <choice>
+                </seg> ei
+                <lb break="no" xml:id="p3-l12"/>ner Thräne würdig, sonst aber erhob mich mein eignes Gefühl <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> ich stellte mich<lb xml:id="p3-l13"/>stärker auf mich selbst.
@@ -374,7 +411,8 @@
 					werd<supplied>en</supplied>. 14 Tage lang hatte ich noch einen letzt<supplied>en</supplied> Schimmer
 				von Hoffnung,<lb xml:id="p3-l19"/>er wurde aber ausgelöscht bei uns. Zusammenkunft in
 					<placeName type="place" key="Sool (Glarus Süd)">Sool</placeName>, wo ich erfuhr, daß sie
-				nun wirk<lb break="no" xml:id="p3-l20"/>lich Braut sey. Es waren herrliche Stund<supplied>en</supplied> die wir hier
+				nun wirk
+                <lb break="no" xml:id="p3-l20"/>lich Braut sey. Es waren herrliche Stund<supplied>en</supplied> die wir hier
 				einsam zusammen verlebt<supplied>en</supplied>,<lb xml:id="p3-l21"/>obgleich in ihnen ein bitteres
 				Geschick mir zur Gewißheit wurde. <persName type="person" key="Blumer Johann Jakob">Blumer</persName> ist mir durch<lb xml:id="p3-l22"/>diese Zeit hindurch gewiß nicht im
 					Geringst<supplied>en</supplied> entfremdet word<supplied>en</supplied>, vielmehr wurde<lb xml:id="p3-l23"/>ich mit ihm nun enger verbund<supplied>en</supplied>. Wie einst von der Liebe
@@ -392,7 +430,8 @@
       	ich Zeit über<lb xml:id="p3-l28"/>den Verlust nachzudenk<supplied>en</supplied>, <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> auch dazu, die Ruhe wiederzugewinnen. Ich bin recht ger<lb break="no" xml:id="p3-l29"/>ne hier <choice>
+                    </choice> auch dazu, die Ruhe wiederzugewinnen. Ich bin recht ger
+                <lb break="no" xml:id="p3-l29"/>ne hier <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> es läßt sich alles besser an als
@@ -403,32 +442,33 @@
 				mir viele Freude. Mit dem Predig<supplied>en</supplied> gehts besser<lb xml:id="p3-l31"/>als in
 					<placeName type="place" key="Linthal (Glarus Süd)">Linthal</placeName>
 				&amp; die Kirche ist gewöhnlich ziemlich voll. Zu thun habe ich
-				auch hier ge<lb break="no" xml:id="p3-l32"/>nug, so daß ich eb<supplied>en</supplied> fast nicht zum
+				auch hier ge
+                <lb break="no" xml:id="p3-l32"/>nug, so daß ich eb<supplied>en</supplied> fast nicht zum
 					Briefschreib<supplied>en</supplied> komme. Das nächste Mal will<lb xml:id="p3-l33"/>ich dir
 				mehr von meinem hiesig<supplied>en</supplied> Leb<supplied>en</supplied> erzählen. Wahrscheinlich
 				schreibe ich dir<lb xml:id="p3-l34"/>dann von <placeName type="place" key="Mollis (Glarus Nord)">Mollis</placeName> aus in den «Ferien». – Grüße mir
 				herzlich <seg type="ref">
-                        <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">
-                            <persName type="person" key="Escher (vom Glas) Heinrich">deine
+                    <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">
+                        <persName type="person" key="Escher (vom Glas) Heinrich">deine
 								verehrt<supplied>en</supplied> Eltern</persName>
-                        </persName>
-                        <ref type="kbp">→ Lydia Escher-Zollikofer (von Altenklingen)</ref>
-                        <ref type="kbp">→ Heinrich Escher (vom Glas)</ref>
-                    </seg>, deren<lb xml:id="p3-l35"/>ich immer in dankbar freudiger Erinnerung mit gedenke,
+                    </persName>
+                    <ref type="kbp">→ Lydia Escher-Zollikofer (von Altenklingen)</ref>
+                    <ref type="kbp">→ Heinrich Escher (vom Glas)</ref>
+                </seg>, deren<lb xml:id="p3-l35"/>ich immer in dankbar freudiger Erinnerung mit gedenke,
 				wenn ich dein gedenke, auch <seg type="ref">
-                        <persName type="person" key="Stockar-Escher (vom Glas) Clementine">deine<lb xml:id="p3-l36"/>Schwester</persName>
-                        <ref type="kbp">→ Clementine Stockar-Escher</ref>
-                    </seg> &amp; <seg type="com">Herrn <persName type="person" key="Stockar Kaspar">Stocker</persName>
-                        <note xml:id="K_0259_c16">
-                            <persName type="person" key="Stockar Kaspar">Kaspar Stockar</persName> (1812–1882),
+                    <persName type="person" key="Stockar-Escher (vom Glas) Clementine">deine<lb xml:id="p3-l36"/>Schwester</persName>
+                    <ref type="kbp">→ Clementine Stockar-Escher</ref>
+                </seg> &amp; <seg type="com">Herrn <persName type="person" key="Stockar Kaspar">Stocker</persName>
+                    <note xml:id="K_0259_c16">
+                        <persName type="person" key="Stockar Kaspar">Kaspar Stockar</persName> (1812–1882),
 						Besitzer des Kupferhammers (Werk, in dem Kupfer durch den Hammer oder Walzen
 						bearbeitet wird) am Hegibach in <placeName type="place" key="Hirslanden (Zürich)">Hirslanden</placeName>.</note>
-                    </seg>, so wie das <seg type="com">
-                        <supplied type="unclear">«<persName type="person" key="Stockar Armin">Eichornbübi</persName>»</supplied>
-                        <note xml:id="K_0259_c17">Gemeint ist vermutlich <persName type="person" key="Stockar Armin">Armin Stockar</persName> (1839–1909), Sohn von <persName type="person" key="Stockar-Escher (vom Glas) Clementine">Clementine
+                </seg>, so wie das <seg type="com">
+                    <supplied type="unclear">«<persName type="person" key="Stockar Armin">Eichornbübi</persName>»</supplied>
+                    <note xml:id="K_0259_c17">Gemeint ist vermutlich <persName type="person" key="Stockar Armin">Armin Stockar</persName> (1839–1909), Sohn von <persName type="person" key="Stockar-Escher (vom Glas) Clementine">Clementine
 							Stockar-Escher</persName> und <persName type="person" key="Stockar Kaspar">Kaspar
 							Stockar</persName>.</note>
-                    </seg> <note type="transcript">Fehlstelle</note> </p>
+                </seg> <note type="transcript">Fehlstelle</note> </p>
     </div>
         </body>
     <back>

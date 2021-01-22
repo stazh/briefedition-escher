@@ -30,10 +30,10 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Debattis" type="sender"> 
+                    <persName key="Debattis" type="sender"> 
             Debattis
           </persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Appenzell</placeName>
                     <date when="1839-08-29">Donnerstag, August 29, 1839</date>
                 </correspAction>
@@ -77,7 +77,9 @@
           umgesetzt
                 
             </change>
-            <change when="2016-12-19" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-19" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -141,7 +143,7 @@
         allein er ließ mir sagen, er werde es mir nach<lb xml:id="p2-l11"/>
                 <placeName type="place" key="Karlsruhe (D)">Karlsruhe</placeName> übersenden. –  <choice>
                         <abbr>H<hi rend="sup">r</hi>
-                        </abbr>
+                </abbr>
                         <expan>Herr</expan>
                     </choice> <persName type="person" key="Stadler">Stadtler</persName>, den ich zu sprechen das
         Vergnügen hatte, meint,<lb xml:id="p2-l12"/>
@@ -203,7 +205,7 @@
             <persName type="person" key="Stockar-Escher (vom Glas) Clementine"> Ihrer Frau
             Schwester</persName>,<lb xml:id="p3-l7"/> dem Herrn <hi>Doctor</hi> <persName type="person" key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName> und <choice>
                         <abbr>Hr<hi rend="sup">n</hi>
-                        </abbr>
+                </abbr>
                         <expan>Herrn</expan>
                     </choice> <persName type="person" key="Stadler">Stadler</persName> bestens zu empfehlen, wünsche
           ich<lb xml:id="p3-l8"/> Ihnen ein herzliches Lebewohl, und bitte zugleich um die Genehmigung

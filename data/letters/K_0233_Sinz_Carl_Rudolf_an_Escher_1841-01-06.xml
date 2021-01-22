@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Sinz Carl Rudolf" type="sender">Carl Rudolf Sinz</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Sinz Carl Rudolf" type="sender">Carl Rudolf Sinz</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Berlin</placeName>
                     <date when="1841-01-06">Mittwoch, Januar 6, 1841</date>
                 </correspAction>
@@ -78,7 +78,9 @@
           umgesetzt
                 
             </change>
-            <change when="2017-07-03" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-03" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -104,6 +106,7 @@
         gegen dein Versprechen ohne einen Besuch in unserm<lb xml:id="p1-l4"/>sehr winterlichen <placeName type="place" key="Berlin (D)">Berlin</placeName> in das neue Jahr hinüber hüpfen ließest; du
         hast dir nur selbst zuzuschreiben<lb xml:id="p1-l5"/>wenn ich so zudringlich bin, dir mit einem,
         zwar nicht salbungsvollen, aber um so besser gemeinten <date when="1841-01-01">Neujahrs</date>
+                
                 <lb break="no" xml:id="p1-l6"/>wunsche zuvorzukommen. Darin bin ich nicht glüklicher<note type="transcript">sic</note> <choice>
                         <abbr>od.</abbr>
                         <expan>oder</expan>
@@ -149,8 +152,8 @@
                         <expan>oder</expan>
                     </choice> abschöpfen wie
         die Sahne von der magern Milch. Daß man <persName type="person" key="Linné Carl von">
-                        <hi>Linné</hi>
-                    </persName> studiert<lb xml:id="p1-l24"/>ehe man zu den natürlichen
+                    <hi>Linné</hi>
+                </persName> studiert<lb xml:id="p1-l24"/>ehe man zu den natürlichen
         Systemen d. Naturwissenschaft übergeht findet man ganz in der<lb xml:id="p1-l25"/>Ordnung &amp; trotz der vielen Unzulänglichkeiten, trotz der vielen Wiedersprüche<note type="transcript">sic</note> welche jenes <add>System</add> enthält, annerkennt<lb xml:id="p1-l26"/>doch jeder nicht ganz stupide Botaniker dessen Nothwendigkeit sowohl für d.
         Anfänger, dem es sich vor<lb xml:id="p1-l27"/>allem um d. Vorstellung, um d. Anschauung in d.
         Wissenschaft handelt um erst sodann zum Urtheilen, <choice>
@@ -166,9 +169,9 @@
                         <abbr>dß</abbr>
                         <expan>daß</expan>
                     </choice> <lb xml:id="p1-l31"/>
-                    <del>
-                        <supplied type="unclear">...</supplied>
-                    </del> <del>mit</del> d. Unterschied. <choice>
+                <del>
+                    <supplied type="unclear">...</supplied>
+                </del> <del>mit</del> d. Unterschied. <choice>
                         <abbr>natürl.</abbr>
                         <expan>natürlich</expan>
                     </choice> &amp; <choice>
@@ -266,7 +269,7 @@
         sagen; zu ihr gehört indess <pb n="3"/>
                 <lb xml:id="p3-l1"/>schon die ganze Chirurgie &amp; Augenheilkunde ihrer Pathogenie &amp; Pathologie
           nicht &amp; Chirurgen unterscheiden sich <hi>in</hi>
-                    <lb xml:id="p3-l2"/>
+                <lb xml:id="p3-l2"/>
                 <hi>praxi</hi> nur noch durch d. Ausübung schwieriger Operationen. – Für das
         nächste Semester habe ich<lb xml:id="p3-l3"/>nach längerm Schwanken <hi rend="underline">
                     <placeName type="place" key="Heidelberg (D)">Heidelberg</placeName>

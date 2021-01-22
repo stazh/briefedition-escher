@@ -32,8 +32,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Gerwig Robert" type="sender">Robert Gerwig</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Gerwig Robert" type="sender">Robert Gerwig</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Karlsruhe</placeName>
                     <date when="1872-03-31">Sonntag, März 31, 1872</date>
                 </correspAction>
@@ -106,7 +106,9 @@
             <change when="2014-11-18" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -234,8 +236,8 @@ großen Tunnels wollte ich folgendes bemerken:</p>
 zu entscheiden, die auf die Erstellung des großen<lb xml:id="p3-l11"/>
 Tunnels <choice>
                         <abbr>
-                            <hi>&amp; &amp;</hi>
-                        </abbr>
+                    <hi>&amp; &amp;</hi>
+                </abbr>
                         <expan>et cetera (und anderes)</expan>
                     </choice> <hi rend="underline">Bezug haben</hi>.</p>
       <p rend="indent" xml:id="K_2607_p6">
@@ -403,7 +405,8 @@ trotz meiner hier geäußerten Bedenken<lb xml:id="p7-l16"/>
 ein sofortiges Ausschreiben für dennoch<lb xml:id="p7-l17"/>
 angezeigt, so kann dasselbe bei meiner<lb xml:id="p7-l18"/>
 Anwesenheit in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> ganz wohl abgefaßt<lb xml:id="p7-l19"/>
-werden, da die dazu erforderlichen that<note type="transcript">Seitenwechselzeichen</note> 
+werden, da die dazu erforderlichen that
+                <note type="transcript">Seitenwechselzeichen</note> 
                 <pb n="8"/>
                 <lb xml:id="p8-l1"/>sächlichen  
 Angaben von mir jederzeit gemacht<lb xml:id="p8-l2"/>

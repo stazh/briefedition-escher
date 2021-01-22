@@ -31,8 +31,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Koller Gottlieb" type="sender">Gottlieb Koller</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Koller Gottlieb" type="sender">Gottlieb Koller</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Mailand</placeName>
                     <date when="1866-02-21">Mittwoch, Februar 21, 1866</date>
                 </correspAction>
@@ -70,7 +70,9 @@
                     umgesetzt
                 
             </change>
-            <change when="2017-01-17" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-17" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -181,7 +183,7 @@
                 &amp; auch den Vicepräsidenten der Handelskammer Herrn <lb xml:id="p2-l9"/>
                     <persName type="person" key="Villa Pernice Angelo">
                         <hi>Villa Pernice</hi>
-                    </persName> 
+                </persName> 
                 &amp; habe im Sinn auch bei dieser Gelegenheit die
                 <lb xml:id="p2-l10"/>Empfehlungsbriefe von Herrn <hi>
                     <persName type="person" key="Fierz Johann Heinrich">Fierz</persName> </hi> zu benützen. </p>
@@ -231,7 +233,7 @@
                 von den <hi>Agenten Rothschilds</hi> <lb xml:id="p3-l15"/>&amp;
                 <hi>Baron <persName type="person" key="Allesina (von Schweitzer) Ferdinand">Schw.</persName> </hi>
                 <note type="transcript">Baron Schweizer</note> sagt auch von <hi>
-                        <persName type="person" key="Malaret">Malaret</persName> </hi>
+                    <persName type="person" key="Malaret">Malaret</persName> </hi>
                  unterstützt. <choice>
                         <abbr>Hr.</abbr>
                         <expan>Herr</expan>
@@ -298,14 +300,14 @@
                 <lb xml:id="p4-l13"/>Die Nachricht wegen <hi>
                     <persName type="person" key="Hudson James">Hudson</persName> </hi> Abweisung der Konzession <lb xml:id="p4-l14"/>hatte ich von Herrn 
                     <hi>
-                        <persName type="person" key="Trümpler">Trümpler</persName>
-                    </hi>.
+                    <persName type="person" key="Trümpler">Trümpler</persName>
+                </hi>.
                 Derselbe theilte mir <date when="1866-02-19">vorgestern</date> <lb xml:id="p4-l15"/>auch mit, daß <hi>
                     <persName type="person" key="Strousberg">Strousberg</persName> </hi>
                 sich in <hi>
                     <placeName type="place" key="Florenz (I)">Florenz</placeName> </hi> befinde &amp; dort <lb xml:id="p4-l16"/>die Wechsel <persName type="person" key="Monton">
-                        <hi>Montons</hi>
-                    </persName> 
+                    <hi>Montons</hi>
+                </persName> 
         habe einlösen wollen, worauf nicht <lb xml:id="p4-l17"/>eingetreten worden sei. <hi>
                     <persName type="person" key="Strousberg">Str.</persName> </hi> <hi>agire</hi> jetzt mit <hi>
                     <persName type="person" key="Breda Vincenzo Stefano">Breda</persName>

@@ -34,8 +34,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Graffenried Karl Wilhelm von" type="sender">Karl Wilhelm von Graffenried</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Graffenried Karl Wilhelm von" type="sender">Karl Wilhelm von Graffenried</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1857-02-26">Donnerstag, Februar 26, 1857</date>
                 </correspAction>
@@ -69,7 +69,9 @@
             <change when="2013-12-20" who="VP">Verifizierung 2 umgesetzt
                 
             </change>
-            <change when="2016-12-21" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-21" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -101,11 +103,11 @@
       <p rend="indent" xml:id="K_1574_p4">
                 <lb xml:id="p1-l5"/>
         Ich empfange soeben von Herrn <persName type="person" key="Morel-Fatio Arnold">A. <hi>Morel-Fatio</hi>
-                    </persName><!--LB, verifiziert-->
+                </persName><!--LB, verifiziert-->
                     <lb xml:id="p1-l6"/>
 		in <placeName type="place" key="Paris (F)">
-                        <hi>Paris</hi>
-                    </placeName> einen Brief, dessen Inhalt ich Ihnen mittheilen<lb xml:id="p1-l7"/>
+                    <hi>Paris</hi>
+                </placeName> einen Brief, dessen Inhalt ich Ihnen mittheilen<lb xml:id="p1-l7"/>
 		zu müssen glaubte. Derselbe lautet folgendermassen:<lb xml:id="p1-l8"/>
 			<hi>«Je viens de lire le rapport de la dernière assemblée du Chemin<lb xml:id="p1-l9"/>
 		de fer de <placeName type="place" key="St. Gallen">S<hi rend="sup">t</hi> Gall</placeName> et les détails qui sont donnés sur la sanction<lb xml:id="p1-l10"/>

@@ -27,24 +27,44 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName ref="Vogt Gustav" type="sender">Gustav Vogt</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Vogt Gustav" type="addressee">Gustav Vogt</persName>
                     <placeName>Luzern</placeName>
                     <date when="1877-07-04">Mittwoch, Juli 4, 1877</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2005-04-13" who="SK">Transkription</change>
-            <change when="2013-08-26" who="LH">Migration nach XML</change>
-            <change when="2013-08-30" who="CD">Migrationsverifizierung umgesetzt</change>
-            <change when="2014-01-10" who="NS">Auszeichnung 1 umgesetzt</change>
-            <change when="2014-01-15" who="XR">Verifizierung 1 umgesetzt</change>
-            <change when="2014-01-16" who="XR">Auszeichnung 2 umgesetzt</change>
-            <change when="2014-01-22" who="SWK">Transkriptionsverifizierung Seiterle umgesetzt</change>
-            <change when="2014-01-27" who="LH">Übertragung der Transkriptionsverifizierung geprüft</change>
-            <change when="2014-04-22" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt</change>
-            <change when="2014-05-21" who="VP">Verifizierung 2 umgesetzt</change>
+            <change when="2005-04-13" who="SK">Transkription
+                
+            </change>
+            <change when="2013-08-26" who="LH">Migration nach XML
+                
+            </change>
+            <change when="2013-08-30" who="CD">Migrationsverifizierung umgesetzt
+                
+            </change>
+            <change when="2014-01-10" who="NS">Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2014-01-15" who="XR">Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2014-01-16" who="XR">Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2014-01-22" who="SWK">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
+            <change when="2014-01-27" who="LH">Übertragung der Transkriptionsverifizierung geprüft
+                
+            </change>
+            <change when="2014-04-22" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
+            <change when="2014-05-21" who="VP">Verifizierung 2 umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -67,8 +87,8 @@
         <p rend="center" xml:id="K_3006_p3">
                     <lb xml:id="p1-l4"/>Herrn <hi>Professor</hi> <choice>
                         <abbr>
-                            <hi>D<hi rend="sup">r</hi> </hi>
-                        </abbr>
+                        <hi>D<hi rend="sup">r</hi> </hi>
+                    </abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> <hi>G. Vogt</hi> </p>
         <p rend="right" xml:id="K_3006_p4">
@@ -88,19 +108,22 @@
     <body>
             <div>
       <p rend="indent" xml:id="K_3006_p6">
-                    <lb xml:id="p1-l7"/>Mit Ihrer geschätzten Zuschrift vom <date when="1877-07-01">1. <choice>
+                <lb xml:id="p1-l7"/>Mit Ihrer geschätzten Zuschrift vom <date when="1877-07-01">1. <choice>
                             <abbr>d. Mts.</abbr>
                             <expan>dieses Monats</expan>
                         </choice> </date> übersenden
                 <lb xml:id="p1-l8"/>Sie uns Ihre Deservitenrechnung für den Zeitraum vom <date when="1876-01-01">1. Januar</date> <lb xml:id="p1-l9"/>bis <date when="1876-06-30">30. Juni <choice>
                             <abbr>l. Js.</abbr>
                             <expan>laufenden / letzten Jahres</expan>
-                        </choice> </date> mit dem Beifügen, Sie haben dieselbe so ein<lb break="no" xml:id="p1-l10"/>gerichtet, daß die Zulage einer Gratification dießmal übel an<lb break="no" xml:id="p1-l11"/>gebracht wäre und von Ihnen auch nicht angenommen werden
+                        </choice> </date> mit dem Beifügen, Sie haben dieselbe so ein
+                <lb break="no" xml:id="p1-l10"/>gerichtet, daß die Zulage einer Gratification dießmal übel an
+                <lb break="no" xml:id="p1-l11"/>gebracht wäre und von Ihnen auch nicht angenommen werden
                 <lb xml:id="p1-l12"/>könnte.
             </p>
       <p rend="indent" xml:id="K_3006_p7">
-                    <lb xml:id="p1-l13"/>Im Hinblicke auf diese Eröffnung bleibt uns nichts andres
-                <lb xml:id="p1-l14"/>übrig, als Ihnen den Betrag Ihrer Rechnung einfach zu über<lb break="no" xml:id="p1-l15"/>mitteln, was wir anmit zu thun die Ehre haben.
+                <lb xml:id="p1-l13"/>Im Hinblicke auf diese Eröffnung bleibt uns nichts andres
+                <lb xml:id="p1-l14"/>übrig, als Ihnen den Betrag Ihrer Rechnung einfach zu über
+                <lb break="no" xml:id="p1-l15"/>mitteln, was wir anmit zu thun die Ehre haben.
             </p>
     </div>
         </body>
@@ -131,11 +154,11 @@
                     <lb xml:id="p1-l23"/>Beilage <hi rend="underline">
                         <choice>
                             <abbr>
-                                <hi>fr</hi>.</abbr>
+                            <hi>fr</hi>.</abbr>
                             <expan>franken / francs / franchi</expan>
                         </choice> 699.70 <choice>
                             <abbr>
-                                <hi>cts</hi>.</abbr>
+                            <hi>cts</hi>.</abbr>
                             <expan>centimes (Rappen)</expan>
                         </choice>
                     </hi>

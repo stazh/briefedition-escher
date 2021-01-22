@@ -27,22 +27,38 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Luzern</placeName>
                     <date when="1876-09-04">Montag, September 4, 1876</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2014-01-13" who="LH">Migration nach XML</change>
-            <change when="2014-01-13" who="LW">Migrationsverifizierung umgesetzt</change>
-            <change when="2014-01-13" who="AW">Auszeichnung 1 umgesetzt</change>
-            <change when="2014-01-14" who="TM">Verifizierung 1 umgesetzt</change>
-            <change when="2014-01-14" who="IB">Auszeichnung 2 umgesetzt</change>
-            <change when="2014-05-20" who="VP">Verifizierung 2 umgesetzt</change>
-            <change when="2014-08-13" who="JS">Transkriptionsverifizierung Seiterle umgesetzt</change>
-            <change when="2014-08-14" who="SWK">Übertragung der Transkriptionsverifizierung geprüft</change>
+            <change when="2014-01-13" who="LH">Migration nach XML
+                
+            </change>
+            <change when="2014-01-13" who="LW">Migrationsverifizierung umgesetzt
+                
+            </change>
+            <change when="2014-01-13" who="AW">Auszeichnung 1 umgesetzt
+                
+            </change>
+            <change when="2014-01-14" who="TM">Verifizierung 1 umgesetzt
+                
+            </change>
+            <change when="2014-01-14" who="IB">Auszeichnung 2 umgesetzt
+                
+            </change>
+            <change when="2014-05-20" who="VP">Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-08-13" who="JS">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
+            <change when="2014-08-14" who="SWK">Übertragung der Transkriptionsverifizierung geprüft
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -55,11 +71,11 @@
     <body>
             <div>
       <p rend="left" xml:id="K_2850_p2">
-                    <lb xml:id="p1-l2"/>Mit dem besten Danke sende
+                <lb xml:id="p1-l2"/>Mit dem besten Danke sende
 			<lb xml:id="p1-l3"/>ich Ihnen die mir gefälligst zur
 			<lb xml:id="p1-l4"/>Einsicht übermachten Akten
 			<lb xml:id="p1-l5"/>
-                    <choice>
+                <choice>
                         <abbr>betr.</abbr>
                         <expan>betreffend</expan>
                     </choice> die neuesten Mittheilungen
@@ -67,16 +83,17 @@
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <hi>
-                        <persName type="person" key="Maraini Clemente">Maraini</persName> </hi> &amp; <hi>
-                        <persName type="person" key="Weishaupt Theodor">Weishaupt</persName> </hi> <lb xml:id="p1-l7"/>wieder zu. Das <hi>Résumé</hi> über
+                    <persName type="person" key="Maraini Clemente">Maraini</persName> </hi> &amp; <hi>
+                    <persName type="person" key="Weishaupt Theodor">Weishaupt</persName> </hi> <lb xml:id="p1-l7"/>wieder zu. Das <hi>Résumé</hi> über
 			<lb xml:id="p1-l8"/>die Unterredung mit <choice>
                         <abbr>Hrn.</abbr>
                         <expan>Herrn</expan>
                     </choice> <lb xml:id="p1-l9"/>
-                    <persName type="person" key="Weishaupt Theodor">Weishaupt</persName> hat mich sehr gefreut.
+                <persName type="person" key="Weishaupt Theodor">Weishaupt</persName> hat mich sehr gefreut.
 		</p>
       <p rend="indent" xml:id="K_2850_p3">
-                    <lb xml:id="p1-l10"/>Genehmigen sie bei diesem An<lb break="no" xml:id="p1-l11"/>laße die erneute Versicherung
+                <lb xml:id="p1-l10"/>Genehmigen sie bei diesem An
+                <lb break="no" xml:id="p1-l11"/>laße die erneute Versicherung
 				<lb xml:id="p1-l12"/>ausgezeichnetster Hochachtung
 			</p>
     </div>
@@ -104,7 +121,7 @@
                         <hi>Luzern</hi>
                     </placeName> d. <date when="1876-09-04">4. <choice>
                             <abbr>
-                                <hi>Sep</hi>.</abbr>
+                            <hi>Sep</hi>.</abbr>
                             <expan>September</expan>
                         </choice> 76.</date> </p>
       </div>

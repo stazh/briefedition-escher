@@ -31,8 +31,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Schweizer Heinrich" type="sender">Heinrich Schweizer</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Schweizer Heinrich" type="sender">Heinrich Schweizer</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Rüti (ZH)</placeName>
                     <date when="1844-02-01-1844-01-31">31 01 1844 01 02 1844</date>
                 </correspAction>
@@ -66,7 +66,9 @@
             <change when="2014-12-15" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-07-03" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-07-03" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -99,12 +101,12 @@
                 <lb xml:id="p1-l5"/>Auf Deine freundlichen Zeilen vom <date when="1843-12-31">31
 					December</date> <choice>
                         <abbr>
-                            <hi>a</hi>. <hi>p</hi>.</abbr>
+                    <hi>a</hi>. <hi>p</hi>.</abbr>
                         <expan>anni praeteriti (des vergangenen Jahres)</expan>
                     </choice>
 				komme ich am <date when="1844-12-31">31 Januar</date> <choice>
                         <abbr>
-                            <hi>a</hi>. <hi>c</hi>.</abbr>
+                    <hi>a</hi>. <hi>c</hi>.</abbr>
                         <expan>anni currentis (des laufenden Jahres)</expan>
                     </choice> mit meiner Be
                 <lb break="no" xml:id="p1-l6"/>antwortung bei Dir ein, und ohne Zweifel wirst Du finden, das heiße
@@ -120,9 +122,9 @@
                     </choice> viel im
 				Geiste verweile.<lb xml:id="p1-l10"/>
                 <add>
-                        <hi>Est angulus terræ, qui mihi præ ceteris ridet.
+                    <hi>Est angulus terræ, qui mihi præ ceteris ridet.
 					–</hi>
-                    </add>
+                </add>
                 <note type="transcript">Einschub zwischen die Zeilen.</note> <lb xml:id="p1-l11"/> Dabei
 				fällt es mir manchmal gar schwer aufs Herz, so lange Zeit im Ungewissen zu sein, wie
 				es dort stehe und<lb xml:id="p1-l12"/> gehe, und Du wirst mich Dir sehr zum Danke
@@ -209,7 +211,7 @@
                 </abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> <hi>juris</hi> <supplied type="unclear">
-                        <hi>U</hi>.</supplied> verborgen; von<lb xml:id="p1-l28"/> theologischen Büchern nimmt er wenig Notiz, wie ein gewisser
+                    <hi>U</hi>.</supplied> verborgen; von<lb xml:id="p1-l28"/> theologischen Büchern nimmt er wenig Notiz, wie ein gewisser
 				anderer Herr <hi>Doctor</hi>, der fort <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
@@ -254,8 +256,8 @@
 				wo Du als Substitut einer Kanzelei<note type="transcript">sic</note>, wie Dein <persName type="person" key="Escher (vom Glas) Jakob">Freund
 					<choice>
                             <abbr>
-                                <hi>D<hi rend="sup">r</hi>
-                                </hi> </abbr>
+                        <hi>D<hi rend="sup">r</hi>
+                        </hi> </abbr>
                             <expan>Doktor / Doctor</expan>
                         </choice> im <choice>
                             <abbr>Whof.</abbr>

@@ -31,8 +31,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Pestalozzi Leonhard" type="sender">Leonhard Pestalozzi</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Pestalozzi Leonhard" type="sender">Leonhard Pestalozzi</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1850-04-09">Dienstag, April 9, 1850</date>
                 </correspAction>
@@ -69,7 +69,9 @@
           umgesetzt
                 
             </change>
-            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -144,12 +146,12 @@
         hiesigen Post<hi>bureaux</hi> über Nacht liegen<lb xml:id="p2-l15"/>jüngsthin wie man mich versicherte
         gegen <choice>
                         <abbr>
-                            <hi>f</hi>
-                        </abbr>
+                    <hi>f</hi>
+                </abbr>
                         <expan>franken / francs / franchi / Gulden</expan>
                     </choice> <hi rend="underline">100</hi>/ <choice>
                         <abbr>/<hi>M</hi>
-                        </abbr>
+                </abbr>
                         <expan>Mille (tausend)</expan>
                     </choice> -
                 <note type="transcript">M befindet sich unterhalb von 100, in e-Edition jedoch
@@ -164,7 +166,7 @@
         dennoch ab &amp; es scheint mir also eine<lb xml:id="p2-l23"/> übel berechnete Ersparniß, wenn
         man aus diesem<lb xml:id="p2-l24"/> Grund die Wache weggenohmen hat, während aller<lb xml:id="p2-l25"/> Orten das Lumpenpak<note type="transcript">sic!</note> sich mehrt. Die Oberpost
           <hi>Direction</hi> <lb xml:id="p2-l26"/> dürfte es leicht zu beräuen haben. Sollte vielleicht <pb n="3"/>
-                    <lb xml:id="p3-l1"/>ein
+                <lb xml:id="p3-l1"/>ein
                  diesfalsiges Misverständniß<note type="transcript">sic!</note> zwischen
         der Ober Postdirection<lb xml:id="p3-l2"/>&amp; der hiesigen Regierung obwalten, so sind gewiß
           Sie<lb xml:id="p3-l3"/> mit Ihrem vielvermögenden Einfluß am beßten<note type="transcript">sic!</note> im Fall<lb xml:id="p3-l4"/> dasselbe zu heben, daher ich mir

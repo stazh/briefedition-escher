@@ -31,8 +31,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1878-03-04">Montag, März 4, 1878</date>
                 </correspAction>
@@ -98,7 +98,9 @@
             <change when="2014-12-02" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
                 
             </change>
-            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -119,7 +121,7 @@
         <p rend="indent" xml:id="K_3114_p3">
                     <lb xml:id="p1-l3"/>Herrn Präsidenten <choice>
                         <abbr>
-                            <hi>Dr</hi>.</abbr>
+                        <hi>Dr</hi>.</abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> <hi>A. Escher</hi> </p>
         <p rend="right" xml:id="K_3114_p4">
@@ -152,8 +154,8 @@ ich am <date when="1878-03-02">lezten Samstag</date> auf Ihren Wunsch hin in ein
 						 ein im Jahre 1878 erschienenes &laquo;Experten-Gutachten über die Projektirung und Devisirung des sogenannten reduzirten Nezes des Gotthardbahn&raquo;.-->
                     </note>
                 </seg> in <placeName type="place" key="Bern (Stadt)">
-                        <hi>Bern</hi>
-                    </placeName> um seine Erfahrungen beim<lb xml:id="p1-l12"/>
+                    <hi>Bern</hi>
+                </placeName> um seine Erfahrungen beim<lb xml:id="p1-l12"/>
 Betrieb der einspurigen Tunnels der <seg type="ref">Jurabahnen<ref type="kbe">→ JB</ref>
                 </seg> befragt und<lb xml:id="p1-l13"/>
 sprach sich derselbe hierüber folgendermaßen aus:</p>
@@ -171,8 +173,8 @@ sprach sich derselbe hierüber folgendermaßen aus:</p>
                             </choice> 39, 121.</note>
                 </seg> und <seg type="com">
                     <placeName type="place" key="Saint-Ursanne (Clos du Doubs)">
-                            <hi>St</hi>. <hi>Ursanne</hi>
-                        </placeName>
+                        <hi>St</hi>. <hi>Ursanne</hi>
+                    </placeName>
                     <note xml:id="K_3114_c4"><!--St-Ursanne (JU): Im Tal des Doubs gelegene Gemeinde südöstlich Porrentruy. &ndash; --> Gemeint ist der<!--2,966 km lange --> Croix-Tunnel zwischen <placeName type="place" key="Saint-Ursanne (Clos du Doubs)">St-Ursanne</placeName> und <placeName type="place" key="Courgenay (JU)">Courgenay</placeName>. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
@@ -230,7 +232,7 @@ ausgeführt.</p>
                     <hi rend="sup">m</hi> </abbr>
                         <expan>meter</expan>
                     </choice> lange <seg type="com">Tunnel <hi>des Loges</hi>
-                        <note xml:id="K_3114_c6">Gemeint ist der<!--3,259 km lange --> Tunnel zwischen <placeName type="place" key="Les Hauts-Geneveys (Val-de-Ruz)">Les Hauts-Geneveys</placeName> und <placeName type="place" key="La Chaux-de-Fonds">La Chaux-de-Fonds</placeName>. <choice>
+                    <note xml:id="K_3114_c6">Gemeint ist der<!--3,259 km lange --> Tunnel zwischen <placeName type="place" key="Les Hauts-Geneveys (Val-de-Ruz)">Les Hauts-Geneveys</placeName> und <placeName type="place" key="La Chaux-de-Fonds">La Chaux-de-Fonds</placeName>. <choice>
                                 <abbr>Vgl.</abbr>
                                 <expan>Vergleiche</expan>
                             </choice> <ref type="lit">Wägli, Bahnprofil</ref>, <choice>
@@ -238,11 +240,11 @@ ausgeführt.</p>
                                 <expan>Seite(n)</expan>
                             </choice> 35, 120.</note>
                 </seg> auf der Bahn von <placeName type="place" key="Neuenburg (Stadt)">
-                        <hi>Neuchatel</hi>
-                    </placeName> <lb xml:id="p2-l6"/>
+                    <hi>Neuchatel</hi>
+                </placeName> <lb xml:id="p2-l6"/>
 nach <placeName type="place" key="Le Locle">
-                        <hi>Locle</hi>
-                    </placeName><!--<com type="loco">Le Locle (NE): Gemeinde südwestlich von La Chaux-de-Fonds.</com></c> --> hat dagegen einen Schacht 1900<choice>
+                    <hi>Locle</hi>
+                </placeName><!--<com type="loco">Le Locle (NE): Gemeinde südwestlich von La Chaux-de-Fonds.</com></c> --> hat dagegen einen Schacht 1900<choice>
                         <abbr>
                     <hi rend="sup">m</hi> </abbr>
                         <expan>meter</expan>
@@ -295,7 +297,7 @@ Höhe von 7<choice>
                         <expan>meter</expan>
                     </choice> <choice>
                         <abbr>
-                            <hi>resp</hi>.</abbr>
+                    <hi>resp</hi>.</abbr>
                         <expan>respektive / respective</expan>
                     </choice> 6,5<choice>
                         <abbr>
@@ -325,8 +327,8 @@ werden könnten.</p>
       <p rend="indent" xml:id="K_3114_p10">
                 <lb xml:id="p3-l14"/>Wenn im <seg type="ref">
                     <placeName type="place" key="Mont-Cenis (Pass, F-I)">
-                            <hi>Mont Cenis</hi>
-                        </placeName>
+                        <hi>Mont Cenis</hi>
+                    </placeName>
                     <ref type="letter" target="K_1780">Mont-Cenis-Bahn<!-- → Nr. 35--></ref>
                 </seg> und den andern Tunnels schon Unzukömmlichkeiten<lb xml:id="p3-l15"/>
 in Folge Rauchansammlung vorkamen, so hat dies seinen Grund darin,<lb xml:id="p3-l16"/>

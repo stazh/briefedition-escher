@@ -32,29 +32,47 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName ref="Servadio Giacomo" type="sender">Giacomo Servadio</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Servadio Giacomo" type="addressee">Giacomo Servadio</persName>
                     <placeName>Zürich</placeName>
                     <date when="1871-11-15">Mittwoch, November 15, 1871</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2014-01-28" who="NP">Transkription</change>
+            <change when="2014-01-28" who="NP">Transkription
+                
+            </change>
             <change when="2014-07-01" who="CH">Auszeichnung 1
-				umgesetzt</change>
+				umgesetzt
+                
+            </change>
             <change when="2014-07-03" who="SG">Verifizierung 1
-				umgesetzt</change>
+				umgesetzt
+                
+            </change>
             <change when="2014-07-10" who="MB">Auszeichnung 2
-				umgesetzt</change>
+				umgesetzt
+                
+            </change>
             <change when="2014-07-21" who="JS">Nachbearbeitung
-				umgesetzt</change>
+				umgesetzt
+                
+            </change>
             <change when="2014-07-25" who="LW">Transkriptionsverifizierung Seiterle
-					umgesetzt</change>
+					umgesetzt
+                
+            </change>
             <change when="2014-08-04" who="IB">Übertragung der Transkriptionsverifizierung
-					geprüft</change>
-            <change when="2014-11-06" who="LB">Verifizierung 2 umgesetzt</change>
-            <change when="2014-11-06" who="LB">Inhaltliche Qualitätsprüfung umgesetzt</change>
+					geprüft
+                
+            </change>
+            <change when="2014-11-06" who="LB">Verifizierung 2 umgesetzt
+                
+            </change>
+            <change when="2014-11-06" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -64,7 +82,7 @@
                         <note type="addendum" xml:id="K_7082_c0">Nachträgliche Notiz in der Mitte links auf Seite 1 von dritter Hand: <bibl>
                                 <choice>
                                     <abbr>
-                                        <hi>Exp</hi>.</abbr>
+                                    <hi>Exp</hi>.</abbr>
                                     <expan>Expedirt</expan>
                                 </choice> <date when="1871-11-15">15 <choice>
                                         <abbr>Nov.</abbr>
@@ -99,51 +117,53 @@
     <body>
             <div>
       <p rend="indent" xml:id="K_7082_p4">
-                    <lb xml:id="p1-l6"/>J'ai l'honneur de vous accuser réception
+                <lb xml:id="p1-l6"/>J'ai l'honneur de vous accuser réception
 					<lb xml:id="p1-l7"/>de vos dépêches des <date when="1871-11-09">9</date>, <date when="1871-11-11">11</date> et <date when="1871-11-12">12 <choice>
                             <abbr>cour<hi rend="sup">t</hi> </abbr>
                             <expan>courant (laufenden [Monats])</expan>
                         </choice>
-                    </date>, et de vous confir<lb break="no" xml:id="p1-l8"/>mer les miennes des <date when="1871-11-10">10</date>, <date when="1871-11-12">12</date> et <date when="1871-11-13">13</date>. </p>
+                </date>, et de vous confir
+                <lb break="no" xml:id="p1-l8"/>mer les miennes des <date when="1871-11-10">10</date>, <date when="1871-11-12">12</date> et <date when="1871-11-13">13</date>. </p>
       <p rend="indent" xml:id="K_7082_p5">
-                    <lb xml:id="p1-l9"/>Je viens de recevoir votre estimée <seg type="ref">lettre<ref type="letter" target="K_7071"/>
-                    </seg> du <date when="1871-11-09">9
+                <lb xml:id="p1-l9"/>Je viens de recevoir votre estimée <seg type="ref">lettre<ref type="letter" target="K_7071"/>
+                </seg> du <date when="1871-11-09">9
 						<choice>
                             <abbr>C<hi rend="sup">t</hi> </abbr>
                             <expan>Courant (laufenden [Monats])</expan>
                         </choice>
-                    </date>; <lb xml:id="p1-l10"/>je prends bonne note de son contenu et en particulier <lb xml:id="p1-l11"/>de ce que vous, Monsieur le Commandeur, et Monsieur <lb xml:id="p1-l12"/>
-                    <persName type="person" key="Bombrini Carlo">Bombrini</persName>, êtes nommés Membres
+                </date>; <lb xml:id="p1-l10"/>je prends bonne note de son contenu et en particulier <lb xml:id="p1-l11"/>de ce que vous, Monsieur le Commandeur, et Monsieur <lb xml:id="p1-l12"/>
+                <persName type="person" key="Bombrini Carlo">Bombrini</persName>, êtes nommés Membres
 				du Comité Syndical, <lb xml:id="p1-l13"/>et aussi de ce que les Membres <del>désignés
 					presque à présent</del> <add>
-                        <placeName type="place" key="Italien (Königreich)">italiens</placeName> désignés</add> <lb xml:id="p1-l14"/>pour le Conseil d'Administration sont vous, <del>Monsieur <lb xml:id="p1-l15"/>le Commandeur</del>, Monsieur <persName type="person" key="Bombrini Carlo">Bombrini</persName> et Monsieur le <lb xml:id="p1-l16"/>Général
+                    <placeName type="place" key="Italien (Königreich)">italiens</placeName> désignés</add> <lb xml:id="p1-l14"/>pour le Conseil d'Administration sont vous, <del>Monsieur <lb xml:id="p1-l15"/>le Commandeur</del>, Monsieur <persName type="person" key="Bombrini Carlo">Bombrini</persName> et Monsieur le <lb xml:id="p1-l16"/>Général
 					<persName type="person" key="Menabrea Luigi Federico">Menabrea</persName>. Quant à la
 				quatrième élection <lb xml:id="p1-l17"/>à faire par le groupe <placeName type="place" key="Italien (Königreich)">Italien</placeName>, j'attends votre réponse <lb xml:id="p1-l18"/>télégraphique. </p>
       <p rend="indent" xml:id="K_7082_p6">
-                    <lb xml:id="p1-l19"/>Les motifs qui m'ont empêché d'accepter
+                <lb xml:id="p1-l19"/>Les motifs qui m'ont empêché d'accepter
 				les deux <lb xml:id="p1-l20"/>noms proposés, sont que <choice>
                         <abbr>M.</abbr>
                         <expan>Monsieur (Herr)</expan>
                     </choice> <persName type="person" key="Grattoni Severino">Grattoni</persName> aurait beau <lb xml:id="p1-l21"/>donner une déclaration formelle qu'il renonce aux <lb xml:id="p1-l22"/>travaux du grand tunnel, l'impression générale n'en <lb xml:id="p1-l23"/>serait pas
-				moins qu'en <add>entrant</add> <del>accpetant mon nomination <lb xml:id="p1-l24"/>comme Membre du</del> <add>dans le</add> Conseil d'Administration, il s'empa<lb break="no" xml:id="p1-l25"/>re en quelque sorte de <hi rend="underline">ces</hi> <del>travaux</del> <hi rend="underline">mêmes</hi> travaux et <lb xml:id="p1-l26"/>qu'une espèce de monopole lui est assuré à
+				moins qu'en <add>entrant</add> <del>accpetant mon nomination <lb xml:id="p1-l24"/>comme Membre du</del> <add>dans le</add> Conseil d'Administration, il s'empa
+                <lb break="no" xml:id="p1-l25"/>re en quelque sorte de <hi rend="underline">ces</hi> <del>travaux</del> <hi rend="underline">mêmes</hi> travaux et <lb xml:id="p1-l26"/>qu'une espèce de monopole lui est assuré à
 				cet <lb xml:id="p1-l27"/>égard. <del>On réconnaîtrait ainsi les intentions de</del> <add>
-                        <del>Il a</del> Je n'ai pas besoin de dire qu'on verra avec</add>
-                    <note type="transcript">Kustode: satisfac...</note> <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-                    <del>Mr. Grattoni, que je me plais à croire désintéressées, <lb xml:id="p2-l2"/>et ce choix, quelque convenable qu'il soit à tous les <lb xml:id="p2-l3"/>autres égards, serait produirait un effet déplorable en <lb xml:id="p2-l4"/>Allemagne et en Suisse par <hi rend="underline">l'apparence</hi> de
+                    <del>Il a</del> Je n'ai pas besoin de dire qu'on verra avec</add>
+                <note type="transcript">Kustode: satisfac...</note> <pb n="2"/>
+                <lb xml:id="p2-l1"/>
+                <del>Mr. Grattoni, que je me plais à croire désintéressées, <lb xml:id="p2-l2"/>et ce choix, quelque convenable qu'il soit à tous les <lb xml:id="p2-l3"/>autres égards, serait produirait un effet déplorable en <lb xml:id="p2-l4"/>Allemagne et en Suisse par <hi rend="underline">l'apparence</hi> de
 						<hi rend="underline">favoritisme</hi> <lb xml:id="p2-l5"/>dont on le supposerait entâché.</del> <add xml:id="p2-l5-i1">satisfaction <choice>
                             <abbr>M.</abbr>
                             <expan>Monsieur (Herr)</expan>
                         </choice> <persName type="person" key="Grattoni Severino">Grattoni</persName> au rang des
 					concurrents <lb xml:id="p2-l6"/>pour l'entreprise de la perforation du tunnel; mais s'il <lb xml:id="p2-l7"/>y avait
 					l'apparence que, d'emblée, il est sûr de son affaire, <lb xml:id="p2-l8"/>
-                        <del>«</del> cela
+                    <del>«</del> cela
 					produirait un mauvais effet en deça des <placeName type="place" key="Alpen">Alpes</placeName> <lb xml:id="p2-l9"/>et, à en juger d'après la nature des hommes qui est <lb xml:id="p2-l10"/>à peu près
 					partout la même, il me semble <del>qu'il a</del> <del>que la</del> <lb xml:id="p2-l11"/>que cet effet
 					défavorable se manifesterait pareillement <lb xml:id="p2-l12"/>
-                        <del>serait pareillement ainsi</del>
+                    <del>serait pareillement ainsi</del>
 					au-delà des <placeName type="place" key="Alpen">Alpes</placeName>.</add> Quant à <lb xml:id="p2-l13"/>
-                    <choice>
+                <choice>
                         <abbr>Mr</abbr>
                         <expan>Monsieur (Herr)</expan>
                     </choice> <persName type="person" key="Beretta Antonio">Beretta</persName>, dont j'ai eu le plaisir de
@@ -152,51 +172,52 @@
 				d'administration de votre Société, j'ai <lb xml:id="p2-l17"/>craint que la Banca
 				Nazionale n'en prenne ombrage <lb xml:id="p2-l18"/>et ne trouve que la prépondérance
 						<del>
-                        <supplied type="unclear">...</supplied>
-                    </del> de votre côté <lb xml:id="p2-l19"/>est trop
+                    <supplied type="unclear">...</supplied>
+                </del> de votre côté <lb xml:id="p2-l19"/>est trop
 				grande. J'ai cru d'autant plus nécessaire <lb xml:id="p2-l20"/>de ménager les
 				susceptibilités de la Banca Nazionale <lb xml:id="p2-l21"/>que, d'après une lettre que
 				j'ai reçue d'elle au sujet <lb xml:id="p2-l22"/>de la réduction, il m'a paru qu'elle se
 				croyait <add>déjà</add> un <add>
-                        <del>déjà</del> </add> <lb xml:id="p2-l23"/>peu mise <del>de côté</del> <add>à l'écart.</add> J'espère que vous comprendrez la <lb xml:id="p2-l24"/>position
+                    <del>déjà</del> </add> <lb xml:id="p2-l23"/>peu mise <del>de côté</del> <add>à l'écart.</add> J'espère que vous comprendrez la <lb xml:id="p2-l24"/>position
 				délicate dans laquelle je me trouve et <lb xml:id="p2-l25"/>que vous ne <del>doutez
 					pas</del> <add>mettez pas en doute</add> que, tout en ayant les <lb xml:id="p2-l26"/>égards
 				qu'exige cette position, je ne me fasse un <lb xml:id="p2-l27"/>plaisir d'entrer autant
 				que possible dans vos désirs. </p>
       <p rend="indent" xml:id="K_7082_p7">
-                    <lb xml:id="p2-l28"/>Il <del>sera</del> ne sera pas sans
+                <lb xml:id="p2-l28"/>Il <del>sera</del> ne sera pas sans
 				intérêt pour vous, Monsieur <lb xml:id="p2-l29"/>le Commandeur, d'apprendre où en sont
 				les choses, <add>relativement à la formation de la Société du S. Gothard. Je</add> <lb xml:id="p2-l30"/>
-                    <del>je</del> m'empresse de vous fournir <date when="1871-11-15">aujourd'hui</date> de plus <lb xml:id="p2-l31"/>amples détails à <del>
-                        <supplied type="unclear">...</supplied>
-                    </del> ce sujet. </p>
+                <del>je</del> m'empresse de vous fournir <date when="1871-11-15">aujourd'hui</date> de plus <lb xml:id="p2-l31"/>amples détails à <del>
+                    <supplied type="unclear">...</supplied>
+                </del> ce sujet. </p>
       <p rend="indent" xml:id="K_7082_p8">
-                    <lb xml:id="p2-l32"/>La participation <del>du groupe
+                <lb xml:id="p2-l32"/>La participation <del>du groupe
 					Allemand</del> <add>au tiers réservé à l'<hi rend="underline">
-                            <placeName type="place" key="Deutsches Reich">Allemagne</placeName>
-                        </hi>
-                    </add> est définitive<lb break="no" xml:id="p2-l33"/>ment réglée comme suit:</p>
+                        <placeName type="place" key="Deutsches Reich">Allemagne</placeName>
+                    </hi>
+                </add> est définitive
+                <lb break="no" xml:id="p2-l33"/>ment réglée comme suit:</p>
       <table>
         <row xml:id="p2-l34">
           <cell>Direction de la Société d'Escompte à <placeName type="place" key="Berlin (D)">Berlin</placeName>
-                        </cell>
+                    </cell>
           <cell>23% <del>du tiers réservé à l'Allemagne</del>
-                        </cell>
+                    </cell>
         </row>
         <row xml:id="p2-l35">
           <cell>Banque du Commerce et de l'Industrie à <placeName type="place" key="Darmstadt (D)">Darmstadt</placeName>
-                        </cell>
+                    </cell>
           <cell>17%<pb n="3"/>
-                        </cell>
+                    </cell>
         </row>
         <row xml:id="p3-l1">
           <cell>A. de Rothschild &amp; fils à <placeName type="place" key="Frankfurt am Main (D)">Francfort s/M</placeName>
-                        </cell>
+                    </cell>
           <cell>17%</cell>
         </row>
         <row xml:id="p3-l2">
           <cell>Société financière A. Schaaffhausen à <placeName type="place" key="Köln (D)">Cologne</placeName>
-                        </cell>
+                    </cell>
           <cell>12%</cell>
         </row>
         <row xml:id="p3-l3">
@@ -216,9 +237,10 @@
         </row>
       </table>
       <p rend="indent" xml:id="K_7082_p9">
-                    <lb xml:id="p3-l7"/>Seront nommés Membres du Conseil d'administra<lb break="no" xml:id="p3-l8"/>tion par le groupe <placeName type="place" key="Deutsches Reich">Allemand</placeName>:</p>
+                <lb xml:id="p3-l7"/>Seront nommés Membres du Conseil d'administra
+                <lb break="no" xml:id="p3-l8"/>tion par le groupe <placeName type="place" key="Deutsches Reich">Allemand</placeName>:</p>
       <p rend="left" xml:id="K_7082_p10">
-                    <lb xml:id="p3-l9"/>
+                <lb xml:id="p3-l9"/>
         <choice>
                         <abbr>M.</abbr>
                         <expan>Monsieur (Herr)</expan>
@@ -226,8 +248,8 @@
 				Conseiller Intime <persName type="person" key="Mevissen Gustav von">Mevissen</persName>, de
 					<placeName type="place" key="Köln (D)">Cologne</placeName> <lb xml:id="p3-l10"/>" le <del>D<hi rend="sup">r</hi> Parcus</del> Baron <persName type="person" key="Oppenheim Abraham von">A. Oppenheim</persName>, de <placeName type="place" key="Köln (D)">Cologne</placeName> <lb xml:id="p3-l11"/>" <persName type="person" key="Wendelstadt Victor">V.
 					Wendelsstadt</persName>, Directeur de la Société financière <add>A. Schaffhausen à <del>
-                            <supplied type="unclear">...</supplied>
-                        </del> <placeName type="place" key="Köln (D)">Cologne</placeName> </add> <lb xml:id="p3-l12"/>" le Baron <persName type="person" key="Rothschild Mayer Carl von">Charles de Rotschild</persName><!-- Sowohl Mayer Carl als auch sein Bruder Wilhelm Carl kommen in Frage --> de <placeName type="place" key="Frankfurt am Main (D)">Francfort vs M.</placeName> <add xml:id="p3-l12-i1">et Suppléants: <lb xml:id="p3-l13"/>pour <choice>
+                        <supplied type="unclear">...</supplied>
+                    </del> <placeName type="place" key="Köln (D)">Cologne</placeName> </add> <lb xml:id="p3-l12"/>" le Baron <persName type="person" key="Rothschild Mayer Carl von">Charles de Rotschild</persName><!-- Sowohl Mayer Carl als auch sein Bruder Wilhelm Carl kommen in Frage --> de <placeName type="place" key="Frankfurt am Main (D)">Francfort vs M.</placeName> <add xml:id="p3-l12-i1">et Suppléants: <lb xml:id="p3-l13"/>pour <choice>
                             <abbr>M.</abbr>
                             <expan>Monsieur (Herr)</expan>
                         </choice> <persName type="person" key="Mevissen Gustav von">Mevissen</persName>; <choice>
@@ -241,7 +263,7 @@
 						d'<persName type="person" key="Oppenheim Abraham von">Oppenheim</persName>: un des
 					Associés de la <lb xml:id="p3-l16"/>maison S. Oppenheim jeune &amp; <choice>
                             <abbr>C<hi rend="sup">ie</hi>
-                            </abbr>
+                    </abbr>
                             <expan>Compagnie (Gesellschaft)</expan>
                         </choice>, à <placeName type="place" key="Köln (D)">Cologne</placeName>; <lb xml:id="p3-l17"/>pour <choice>
                             <abbr>M.</abbr>
@@ -254,19 +276,21 @@
                             <abbr>M.</abbr>
                             <expan>Monsieur (Herr)</expan>
                         </choice> le Conseiller Intime <lb xml:id="p3-l20"/>
-                        <persName type="person" key="Bleichröder Gerson von">Bleichröder</persName>.</add> </p>
+                    <persName type="person" key="Bleichröder Gerson von">Bleichröder</persName>.</add> </p>
       <p rend="indent" xml:id="K_7082_p11">
-                    <lb xml:id="p3-l21"/>Quant <del>aux Membres allemands
-					de</del> au Comité Syn<lb break="no" xml:id="p3-l22"/>dical, la Direction de la Société d'Escompte à <placeName type="place" key="Berlin (D)">Berlin</placeName> en <lb xml:id="p3-l23"/>aura la Présidence,
+                <lb xml:id="p3-l21"/>Quant <del>aux Membres allemands
+					de</del> au Comité Syn
+                <lb break="no" xml:id="p3-l22"/>dical, la Direction de la Société d'Escompte à <placeName type="place" key="Berlin (D)">Berlin</placeName> en <lb xml:id="p3-l23"/>aura la Présidence,
 				conformément à l'<choice>
                         <abbr>Art</abbr>
                         <expan>Article (Artikel)</expan>
-                    </choice> 4 de la Conven<lb break="no" xml:id="p3-l24"/>tion Syndicale du <date when="1871-10-10">10 Octobre 1871</date>. Les
+                    </choice> 4 de la Conven
+                <lb break="no" xml:id="p3-l24"/>tion Syndicale du <date when="1871-10-10">10 Octobre 1871</date>. Les
 				deux membres <del>et <lb xml:id="p3-l25"/>leurs</del> à nommer par le groupe <placeName type="place" key="Deutsches Reich">Allemand</placeName>, ne sont <lb xml:id="p3-l26"/>pas
 				encore désignés; mais le seront ces jours-ci, ainsi <lb xml:id="p3-l27"/>que leurs
 				suppléants. </p>
       <p rend="indent" xml:id="K_7082_p12">
-                    <lb xml:id="p3-l28"/>La participation au tiers réservé à la
+                <lb xml:id="p3-l28"/>La participation au tiers réservé à la
 					<hi rend="underline">Suisse</hi> est <lb xml:id="p3-l29"/>fixée de la manière suivante: </p>
       <table>
         <row xml:id="p3-l30">
@@ -314,7 +338,7 @@
           <cell>Banque de <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName>, à <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName> </cell>
           <cell>"</cell>
           <cell>1.000.000<pb n="4"/>
-                        </cell>
+                    </cell>
         </row>
         <row xml:id="p4-l1">
           <cell>Banque d'<placeName type="place" key="Aargau">Argovie</placeName>, à <placeName type="place" key="Aarau">Aarau</placeName> </cell>
@@ -339,7 +363,7 @@
         </row>
       </table>
       <p rend="indent" xml:id="K_7082_p13">
-                    <lb xml:id="p4-l5"/>Vous savez que, d'après les Statuts et
+                <lb xml:id="p4-l5"/>Vous savez que, d'après les Statuts et
 				la Convention <lb xml:id="p4-l6"/>Syndicale, 6 Membres du Conseil d'administration pour
 					<lb xml:id="p4-l7"/>la période de construction sont nommés par la Réunion <lb xml:id="p4-l8"/>du <placeName type="place" key="St. Gotthard (Pass)">S. Gothard</placeName>, 6
 				par le Conseil fédéral Suisse et 4 par <lb xml:id="p4-l9"/>le groupe <del>Suisse
@@ -349,9 +373,9 @@
 					<del>financier</del> <lb xml:id="p4-l12"/>Suisse <add>du Consortium</add> et enfin le Conseil fédéral
 				lui-même. <lb xml:id="p4-l13"/>Ont été nommés: </p>
       <p rend="center" xml:id="K_7082_p14">
-                    <lb xml:id="p4-l14"/>Par la Réunion du <placeName type="place" key="St. Gotthard (Pass)">S. Gothard</placeName>.</p>
+                <lb xml:id="p4-l14"/>Par la Réunion du <placeName type="place" key="St. Gotthard (Pass)">S. Gothard</placeName>.</p>
       <p rend="left" xml:id="K_7082_p15">
-                    <lb xml:id="p4-l15"/>
+                <lb xml:id="p4-l15"/>
         <choice>
                         <abbr>M.</abbr>
                         <expan>Monsieur (Herr)</expan>
@@ -361,16 +385,16 @@
 				du Central, à <placeName type="place" key="Basel-Stadt">Bâle</placeName>. <lb xml:id="p4-l18"/>"
 					<persName type="person" key="Hettlingen Joseph Maria von">de Hettlingen</persName>,
         Landammann de <placeName type="place" key="Schwyz">Schwytz</placeName>
-                    <note type="transcript">sic!</note>. <lb xml:id="p4-l19"/>" <persName type="person" key="Arnold-Muheim Josef">Arnold</persName>, Colonel fédéral et
+                <note type="transcript">sic!</note>. <lb xml:id="p4-l19"/>" <persName type="person" key="Arnold-Muheim Josef">Arnold</persName>, Colonel fédéral et
 				Landammann d'<placeName type="place" key="Uri">Uri</placeName>. <lb xml:id="p4-l20"/>" <persName type="person" key="Franchini Alessandro">Franchini</persName>, Conseiller d'Etat du
 					<placeName type="place" key="Tessin">Tessin</placeName>.</p>
       <p rend="indent" xml:id="K_7082_p16">
-                    <lb xml:id="p4-l21"/>Par le Groupe <del>financier</del>
+                <lb xml:id="p4-l21"/>Par le Groupe <del>financier</del>
 				Suisse du Consortium.</p>
       <p rend="left" xml:id="K_7082_p17">
-                    <lb xml:id="p4-l22"/>" <persName type="person" key="Hansemann Adolph von">Hansemann</persName>,
+                <lb xml:id="p4-l22"/>" <persName type="person" key="Hansemann Adolph von">Hansemann</persName>,
 				Conseiller Intime de Commerce, chef de la Société d'Escompte de <placeName type="place" key="Berlin (D)">Berlin</placeName>. <lb xml:id="p4-l23"/>
-                    <choice>
+                <choice>
                         <abbr>M.</abbr>
                         <expan>Monsieur (Herr)</expan>
                     </choice> <persName type="person" key="Stoll Georg">Stoll</persName>, Directeur des Chemins de fer
@@ -381,17 +405,17 @@
                         <expan>Compagnie (Gesellschaft)</expan>
                     </choice> de <placeName type="place" key="Winterthur">Winterthur</placeName> </p>
       <p rend="center" xml:id="K_7082_p18">
-                    <lb xml:id="p4-l26"/>Par le Conseil fédéral Suisse.</p>
+                <lb xml:id="p4-l26"/>Par le Conseil fédéral Suisse.</p>
       <p rend="left" xml:id="K_7082_p19">
-                    <lb xml:id="p4-l27"/>
+                <lb xml:id="p4-l27"/>
         <choice>
                         <abbr>M.</abbr>
                         <expan>Monsieur (Herr)</expan>
                     </choice>
         <persName type="person" key="Weber Johann">Weber</persName>, Président du Conseil d'Etat de
 					<placeName type="place" key="Bern">Berne</placeName>. <lb xml:id="p4-l28"/>" <persName type="person" key="Feer-Herzog Carl">Feer-Herzog</persName>, d'<placeName type="place" key="Aarau">Aarau</placeName>, Député au Conseil National<pb n="5"/>
-                    <lb xml:id="p5-l1"/>
-                    <choice>
+                <lb xml:id="p5-l1"/>
+                <choice>
                         <abbr>M.</abbr>
                         <expan>Monsieur (Herr)</expan>
                     </choice> <persName type="person" key="Stehlin Johann Jakob">Stehlin</persName>, Bourgmestre de <placeName type="place" key="Basel-Stadt">Bâle</placeName> et Député au Conseil National. <lb xml:id="p5-l2"/>" <persName type="person" key="Anderwert Fridolin">Anderwerdt</persName>, de
@@ -399,15 +423,15 @@
 				National. <lb xml:id="p5-l3"/>" <persName type="person" key="Stocker-Steiger Abraham">Stocker</persName>, de <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName>,
 				Colonel fédéral. <lb xml:id="p5-l4"/>" <persName type="person" key="Karrer-Burger Karl">Karrer</persName>, Président du Grand Conseil de <placeName type="place" key="Bern">Berne</placeName>, Député <lb xml:id="p5-l5"/>au Conseil National. <lb xml:id="p5-l6"/>Quant
 				au Comité Syndical, le Groupe <del>financier</del> <lb xml:id="p5-l7"/>Suisse<metamark>T</metamark> <add>
-                        <metamark>T</metamark>du
+                    <metamark>T</metamark>du
 					Consortium</add> a désigné <del>par ses</del> <add>comme</add> Membres: <lb xml:id="p5-l8"/>
-                    <choice>
+                <choice>
                         <abbr>M.</abbr>
                         <expan>Monsieur (Herr)</expan>
                     </choice>
 				Alfred Escher, de <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>, Député au
 				Conseil National. <lb xml:id="p5-l9"/>
-                    <choice>
+                <choice>
                         <abbr>M.</abbr>
                         <expan>Monsieur (Herr)</expan>
                     </choice> <persName type="person" key="Zahn-Rognon Eduard">Zahn-Rognon</persName>, Chef de la maison de
@@ -417,7 +441,7 @@
                     </choice>
 				Alban à <placeName type="place" key="Basel-Stadt">Bâle</placeName>. <lb xml:id="p5-l11"/>et comme
 				Suppléants: <lb xml:id="p5-l12"/>pour <del>ma personne</del> <add>
-                        <choice>
+                    <choice>
                             <abbr>M.</abbr>
                             <expan>Monsieur (Herr)</expan>
                         </choice> Escher</add>; <choice>
@@ -437,10 +461,11 @@
                         <expan>Compagnie (Gesellschaft)</expan>
                     </choice> de <placeName type="place" key="Basel-Stadt">Bâle</placeName>.</p>
       <p rend="indent" xml:id="K_7082_p20">
-                    <lb xml:id="p5-l16"/>Vous voyez par là que le Conseil
+                <lb xml:id="p5-l16"/>Vous voyez par là que le Conseil
 				d'administration <lb xml:id="p5-l17"/>et le Comité Syndical vont être complets en ce qui
 					<lb xml:id="p5-l18"/>concerne la Suisse et l'<placeName type="place" key="Deutsches Reich">Allemagne</placeName>, et il est à espérer <lb xml:id="p5-l19"/>qu'il ne tardera pas à en être de même quant à <lb xml:id="p5-l20"/>l'<placeName type="place" key="Italien (Königreich)">Italie</placeName>. <del>Dans ces
-					circonstances</del> <add>Les choses étant ainsi,</add> le Conseil d'Admi<lb break="no" xml:id="p5-l21"/>nistration sera <del>prochainement</del> appelé <add>sous peu</add> <del>dans quelques <lb xml:id="p5-l22"/>jours</del> à se constituer <del>très</del> pour
+					circonstances</del> <add>Les choses étant ainsi,</add> le Conseil d'Admi
+                <lb break="no" xml:id="p5-l21"/>nistration sera <del>prochainement</del> appelé <add>sous peu</add> <del>dans quelques <lb xml:id="p5-l22"/>jours</del> à se constituer <del>très</del> pour
 				nommer la Direction, <lb xml:id="p5-l23"/>certainement la fonction la plus importante
 				qui lui <lb xml:id="p5-l24"/>incombe. </p>
     </div>

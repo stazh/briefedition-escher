@@ -27,8 +27,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Ecklin Daniel" type="sender">Daniel Ecklin</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Ecklin Daniel" type="sender">Daniel Ecklin</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Basel</placeName>
                     <date when="1839-04-12">Freitag, April 12, 1839</date>
                 </correspAction>
@@ -72,7 +72,9 @@
           umgesetzt
                 
             </change>
-            <change when="2016-12-19" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
+            <change when="2016-12-19" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
+                
+            </change>
         </revisionDesc>
     </teiHeader>
   <text>
@@ -138,7 +140,7 @@
                     </choice> mein Herz –<lb xml:id="p1-l18"/> frohlockte. – Doch zu früh. – Sofort
         ging ich zu <choice>
                         <abbr>
-                            <hi>Dr</hi>.</abbr>
+                    <hi>Dr</hi>.</abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> <persName type="person" key="Streckeisen Karl">Streckeisen</persName>, der mir<lb xml:id="p1-l19"/> befreundet <choice>
                         <abbr>u.</abbr>
@@ -229,7 +231,7 @@
                         <expan>und</expan>
                     </choice> <persName type="person" key="Brenner">Brenner</persName> lassen dem H<supplied>errn</supplied> <choice>
                         <abbr>
-                            <hi>Dr</hi>.</abbr>
+                    <hi>Dr</hi>.</abbr>
                         <expan>Doktor / Doctor</expan>
                     </choice> <persName type="person" key="Streiff Christoph">Streif</persName> freundlichst den Gruß erwiedern,
           auch<lb xml:id="p2-l20"/> ich schließe mich an dieselben an. – Du magst bei ihm meine Parthei
