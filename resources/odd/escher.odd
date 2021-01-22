@@ -108,10 +108,7 @@
                     <model behaviour="inline"/>
                 </elementSpec>
                 <elementSpec ident="lb" mode="change">
-                    <model behaviour="break" cssClass="line" useSourceRendition="true">
-            <param name="type" value="'line'"/>
-            <param name="label" value="@n"/>
-        </model>
+                    <model behaviour="line-break" cssClass="line" useSourceRendition="true"></model>
                 </elementSpec>
             <elementSpec ident="p" mode="change">
                     <model predicate="@rend=&#34;right&#34;" behaviour="paragraph">
@@ -278,6 +275,15 @@
                     <model behaviour="link">
             <param name="uri" value="@target"/>
         </model>
+                </elementSpec>
+                <elementSpec ident="body" mode="change">
+                    <modelSequence>
+                        <model behaviour="index">
+                            <param name="type" value="'toc'"/>
+                        </model>
+                        <model behaviour="facsimiles"/>
+                        <model behaviour="block"/>
+                    </modelSequence>
                 </elementSpec>
             </schemaSpec>
         </body>

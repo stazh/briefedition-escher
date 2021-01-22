@@ -32,7 +32,7 @@
             .content-body {
                 position: relative;
                 display: grid;
-                grid-template-columns: 1fr auto;
+                grid-template-columns: 1fr auto minmax(360px, 640px);
             }
 
             .transcript {
@@ -97,12 +97,15 @@
                             </pb-view>
                             <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"/>
                         </section>
-                        
                         <aside>
                             <pb-view id="register" src="document1" subscribe="transcription" emit="register" xpath="//teiHeader" view="single" load-css="odd/escher.css">
                                 <pb-param name="header" value="context"/>
                             </pb-view>
                         </aside>
+                        <pb-facsimile base-uri="https://apps.existsolutions.com/cantaloupe/iiif/2/" default-zoom-level="0"
+                            show-navigator="show-navigator" show-navigation-control="show-navigation-control"
+                            subscribe="transcription">
+                        </pb-facsimile>
                     </main>
                 </app-header-layout>
             </app-drawer-layout>

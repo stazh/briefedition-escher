@@ -18,9 +18,22 @@ function findPopovers(id, callback) {
     root.querySelectorAll(`pb-popover[data-ref="${id}"]`).forEach(callback);
 }
 
+function adjustCoords(coordsString) {
+    const coords = coordsString.split(',');
+    return [coords[0], coords[1], coords[2] - coords[0], coords[3] - coords[1]];
+}
+
 window.addEventListener('load', () => {
     pbEvents.subscribe('pb-update', 'transcription', (ev) => {
         root = ev.detail.root;
+        root.style.display = 'relative';
+
+        const regionImage = document.createElement('img');
+        regionImage.style.display = 'block';
+        regionImage.style.position = 'absolute';
+        regionImage.style.zIndex = 1001;
+        root.appendChild(regionImage);
+
         root.querySelectorAll('br').forEach((br) => {
             const next = findEndOfRange(br, 'br');
             if (!next) {
@@ -28,6 +41,19 @@ window.addEventListener('load', () => {
             }
             const wrapper = document.createElement('span');
             wrapper.className = 'line';
+
+            const file = br.getAttribute('data-image');
+            const coords = br.getAttribute('data-coords');
+            const updatedCoords = adjustCoords(coords);
+            wrapper.addEventListener('mouseenter', (ev) => {
+                const top  = (ev.target.offsetTop - updatedCoords[3] + 20) + 'px';
+                regionImage.src = `https://apps.existsolutions.com/cantaloupe/iiif/2/${file}/${updatedCoords.join(',')}/full/0/default.jpg`;
+                regionImage.style.top = top;
+                regionImage.style.display = '';
+            });
+            wrapper.addEventListener('mouseleave', (ev) => {
+                regionImage.style.display = 'none';
+            });
             const range = document.createRange();
             range.setStartBefore(br);
             range.setEndAfter(next);
