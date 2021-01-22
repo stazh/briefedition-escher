@@ -32,10 +32,12 @@
             .content-body {
                 position: relative;
                 display: grid;
+                height: calc(100vh - 173px);
                 grid-template-columns: 1fr auto minmax(360px, 640px);
             }
 
             .transcript {
+                overflow: auto;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -98,7 +100,7 @@
                             <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"/>
                         </section>
                         <aside>
-                            <pb-view id="register" src="document1" subscribe="transcription" emit="register" xpath="//teiHeader" view="single" load-css="odd/escher.css">
+                            <pb-view id="register" src="document1" subscribe="transcription" emit="register" xpath="//teiHeader" view="single">
                                 <pb-param name="header" value="context"/>
                             </pb-view>
                         </aside>
