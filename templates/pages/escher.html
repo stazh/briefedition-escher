@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="resources/css/escher.css"/>
 
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <script src="resources/scripts/app/escher.js"></script>
         <style>
             @media (min-width: 769px) {
                 .toolbar pb-navigation {
@@ -30,8 +31,13 @@
 
             .content-body {
                 position: relative;
-                display: flex;
-                justify-content: center;
+                display: grid;
+                grid-template-columns: 1fr auto;
+            }
+
+            .transcript {
+                margin-left: auto;
+                margin-right: auto;
             }
 
             .content-body pb-navigation {
@@ -78,31 +84,25 @@
                             </pb-load>
                         </div>
                     </pb-drawer>
-                    <section class="breadcrumbs">
-                        <pb-view id="reference-view1" src="document1" xpath="//teiHeader" view="single" load-css="odd/escher.css">
-                            <pb-param name="header" value="reference"/>
-                        </pb-view>
-                    </section>
-                    <section class="breadcrumbs">
-                        <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt/title" view="single" load-css="odd/escher.css">
-                            <pb-param name="header" value="short"/>
-                        </pb-view>
-                    </section>
-                    <section class="breadcrumbs">
-                        <pb-view id="keywords-view1" src="document1" xpath="//teiHeader//keywords" view="single" load-css="odd/escher.css">
-                            <pb-param name="header" value="short"/>
-                        </pb-view>
-                    </section>
                     <main class="content-body">
-                        <paper-card heading="Briefe">
+                        <section class="transcript">
+                            <pb-view id="reference-view1" src="document1" xpath="//teiHeader" view="single" load-css="odd/escher.css">
+                                <pb-param name="header" value="reference"/>
+                            </pb-view>
+                            <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt/title" view="single" load-css="odd/escher.css">
+                                <pb-param name="header" value="short"/>
+                            </pb-view>
+                            <pb-view id="keywords-view1" src="document1" xpath="//teiHeader//keywords" view="single" load-css="odd/escher.css">
+                                <pb-param name="header" value="short"/>
+                            </pb-view>
                             <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"/>
-                        </paper-card>
+                        </section>
                         
-                        <paper-card heading="Kontexte">
+                        <aside>
                             <pb-view id="context" src="document1" subscribe="transcription" emit="transcription" xpath="//teiHeader" view="single" load-css="odd/escher.css">
                                 <pb-param name="header" value="context"/>
                             </pb-view>
-                        </paper-card>
+                        </aside>
                     </main>
                 </app-header-layout>
             </app-drawer-layout>
