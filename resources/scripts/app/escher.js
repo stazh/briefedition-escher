@@ -15,7 +15,7 @@ let root;
 
 // find popovers containing the id in their data-ref attribute and call the callback for each.
 function findPopovers(id, callback) {
-    root.querySelectorAll(`pb-popover[data-ref=${id}]`).forEach(callback);
+    root.querySelectorAll(`pb-popover[data-ref="${id}"]`).forEach(callback);
 }
 
 window.addEventListener('load', () => {
