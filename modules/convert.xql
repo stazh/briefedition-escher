@@ -430,7 +430,7 @@ declare function local:metadata($metadata) {
                         if (count($from?persons)) then
                             for $p in $from?persons
                             return
-                            <persName ref="{$p?key}" type="sender">{$p?label}</persName>
+                            <persName key="{$p?key}" type="sender">{$p?label}</persName>
                         else
                             <persName type="sender">{$from?label}</persName>
                 }
@@ -440,7 +440,7 @@ declare function local:metadata($metadata) {
                         if (count($to?persons)) then
                             for $p in $to?persons
                             return
-                            <persName ref="{$p?key}" type="sender">{$p?label}</persName>
+                            <persName key="{$p?key}" type="addressee">{$p?label}</persName>
                         else
                             <persName type="sender">{$to?label}</persName>
                 }
