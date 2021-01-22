@@ -50,7 +50,7 @@
         </model>
                 </elementSpec>
                 <elementSpec ident="placeName" mode="add">
-                    <model predicate="$parameters?header='context'" behaviour="listItem">
+                    <model predicate="$parameters?header='context'" behaviour="block">
             <param name="label" value="@key/string()"/>
             <param name="uri" value="let $initial := substring(@key, 1, 1) return 'https://www.briefedition.alfred-escher.ch/kontexte/orte/' || $initial || '/' || @key"/>
             <param name="ref" value="@key"/>
@@ -142,14 +142,13 @@
             <param name="persons" value="for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1]"/>
             <param name="places" value="for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1]"/>
             <param name="letters" value="for $p in root(.)//text//ref[@type='letter']     let $k := $p/@target       group by $k       order by $k        return $p[1]"/>
+            <param name="sum" value="for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1]"/>
             <pb:template xmlns="" xml:space="preserve"><div>  
   <h4>Korrespondenten</h4>
   	[[correspondents]]
 
   <h4>Briefdatum</h4>
   	[[date]]
-
-  <h4>Markierungen eingeblendet</h4>
   
   <h4>Personen</h4>
   	[[persons]]
@@ -159,6 +158,9 @@
   
   <h4>Briefe</h4>
   	[[letters]]
+  
+  <h4>Überblickskommentare</h4>
+  	[[sum]]
 
 </div></pb:template>
         </model>
@@ -225,13 +227,13 @@
         </model>
                 </elementSpec>
             <elementSpec ident="persName" mode="add">
-                    <model predicate="$parameters?header='context' and @key and ancestor::correspDesc" behaviour="listItem">
+                    <model predicate="$parameters?header='context' and @key and ancestor::correspDesc" behaviour="block">
             <param name="label" value="."/>
             <param name="uri" value="let $initial := substring(@key, 1, 1) return 'https://www.briefedition.alfred-escher.ch/kontexte/personen/korrespondenten-und-erwahnte-personen/' || $initial || '/' || @key/string() || '/'"/>
             <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
         </model>
-                    <model predicate="$parameters?header='context' and ancestor::correspDesc" behaviour="listItem"/>
-                    <model predicate="$parameters?header='context'" behaviour="listItem">
+                    <model predicate="$parameters?header='context' and ancestor::correspDesc" behaviour="block"/>
+                    <model predicate="$parameters?header='context'" behaviour="block">
             <param name="uri" value="let $initial := substring(@key, 1, 1) return 'https://www.briefedition.alfred-escher.ch/kontexte/personen/korrespondenten-und-erwahnte-personen/' || $initial || '/' || @key/string() || '/'"/>
             <param name="label" value="@key"/>
             <param name="ref" value="@key"/>
@@ -248,7 +250,13 @@
         </model>
                 </elementSpec>
             <elementSpec ident="ref" mode="change">
-                    <model predicate="$parameters?header='context' and @type='letter'" behaviour="listItem">
+                    <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
+            <param name="ref" value="@target"/>
+            <param name="label" value="@target"/>
+            <param name="uri" value="@target"/>
+            <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]">[[label]]</a></pb:template>
+        </model>
+                    <model predicate="$parameters?header='context' and @type='letter'" behaviour="block">
             <param name="label" value="."/>
             <param name="letter" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)//titleStmt/title"/>
             <param name="uri" value="let $target := @target return util:document-name(collection('/db/apps/escher/data/letters')/id($target))"/>
