@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Schulthess-Rechberg Gustav Anton von" type="sender">Gustav Anton von Schulthess-Rechberg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Schulthess-Rechberg Gustav Anton von" type="sender">Gustav Anton von Schulthess-Rechberg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1855-04-17">Dienstag, April 17, 1855</date>
                 </correspAction>
@@ -61,20 +61,22 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_1423_p3">
-                <lb xml:id="p1-l3"/>Sollte die Linie <placeName type="place" key="Aarau">Aarau</placeName>–<placeName type="place" key="Brugg (AG)">Brugg</placeName> <lb xml:id="p1-l4"/>der <placeName type="place" key="Bözberg">Bözberg</placeName>gesellschaft codiert werden, so wäre es für
+                    <lb xml:id="p1-l3"/>Sollte die Linie <placeName type="place" key="Aarau">Aarau</placeName>–<placeName type="place" key="Brugg (AG)">Brugg</placeName> <lb xml:id="p1-l4"/>der <placeName type="place" key="Bözberg">Bözberg</placeName>gesellschaft codiert werden, so wäre es für
         <lb xml:id="p1-l5"/>dieselbe äußerst wichtig, die Pläne dieser Strecke
         <lb xml:id="p1-l6"/>einsehn lassen zu können. Darf ich Sie daher für
         <lb xml:id="p1-l7"/>
-                <choice>
-                    <abbr>H:</abbr>
-                    <expan>Herr</expan>
-                </choice> <persName type="person" key="Arnaud">
-                    <hi>Arnaud</hi>
-                </persName> um die Erlaubniß bitten von denselben
+                    <choice>
+                        <abbr>H:</abbr>
+                        <expan>Herr</expan>
+                    </choice> <persName type="person" key="Arnaud">
+                        <hi>Arnaud</hi>
+                    </persName> um die Erlaubniß bitten von denselben
         <lb xml:id="p1-l8"/>auf dem <hi>Büreau</hi> der Nordostbahn Einsicht nehmen
         <lb xml:id="p1-l9"/>zu dürfen?</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="center" xml:id="K_1423_p4">

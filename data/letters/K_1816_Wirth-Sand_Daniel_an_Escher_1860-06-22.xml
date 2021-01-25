@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Wirth-Sand Daniel" type="sender">Daniel Wirth-Sand</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Wirth-Sand Daniel" type="sender">Daniel Wirth-Sand</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>St. Gallen</placeName>
                     <date when="1860-06-22">Freitag, Juni 22, 1860</date>
                 </correspAction>
@@ -113,6 +113,7 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_1816_p3">
                 <lb xml:id="p1-l3"/>Die Herren <seg type="ref">
                     <persName type="person" key="Michel Jean Antoine">Michel</persName>
@@ -125,12 +126,12 @@
 					Angelegenheit<lb xml:id="p1-l7"/> ebenfalls mit einigen Zeilen zu belästigen. – Es
 					ist<lb xml:id="p1-l8"/> Ihnen bekannt, in welchem Stadium sie sich gegenwärtig<lb xml:id="p1-l9"/> befindet &amp; wie sehr wir wünschen, daß Sie
 				sich entschließen<lb xml:id="p1-l10"/> möchten, in das neu zu bildende <seg type="ref">Gründer<hi>Comité</hi>
-                    <ref type="sum" target="Ostalpenbahnfrage_p40"><!--→ Band 1, S. 53–54--></ref>
+                        <ref type="sum" target="Ostalpenbahnfrage_p40"><!--→ Band 1, S. 53–54--></ref>
                 </seg> einzutretten.<lb xml:id="p1-l11"/> Es wäre anmaaßend von mir, wollte ich, Ihnen
 					gegenüber,<lb xml:id="p1-l12"/> von den Vortheilen &amp; der
 				Bedeutung sprechen, die die<lb xml:id="p1-l13"/> Ausführung der <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName>linie auch für <placeName type="place" key="Zürich">
-                    <hi>Zürich</hi>
-                </placeName> &amp; die<lb xml:id="p1-l14"/> <seg type="ref">Nordostbahn<ref type="kbe">→ NOB</ref>
+                        <hi>Zürich</hi>
+                    </placeName> &amp; die<lb xml:id="p1-l14"/> <seg type="ref">Nordostbahn<ref type="kbe">→ NOB</ref>
                 </seg> hat &amp; mit sich bringen muß. - Ich beschränke mich<lb xml:id="p1-l15"/> auf die angelegentliche Bitte, unser, durch die Herren <persName type="person" key="Michel Jean Antoine">Michel</persName> und<lb xml:id="p1-l16"/>
                 <persName type="person" key="Boller Johann Heinrich">Boller</persName> <seg type="com">an Sie gerichtetes Gesuch<note xml:id="K_1816_c1">Das Gesuch um Beitritt zum neuen
 							<placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName>komitee wurde
@@ -149,7 +150,8 @@
                 </seg>, so der ganzen <placeName type="place" key="Ostschweiz">Ostschweiz</placeName> zu
 					großem<lb xml:id="p2-l2"/> Vortheil &amp; Nutzen gereichen muß.
 				–</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_1816_p4">

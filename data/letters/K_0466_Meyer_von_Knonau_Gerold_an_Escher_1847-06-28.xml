@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Meyer von Knonau Gerold" type="sender">Gerold Meyer von Knonau</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Meyer von Knonau Gerold" type="sender">Gerold Meyer von Knonau</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1847-06-28">Montag, Juni 28, 1847</date>
                 </correspAction>
@@ -61,16 +61,17 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_0466_p2">
-                <lb xml:id="p1-l2"/>Sie haben ohne Zweifel von unserm gemeinschaftli<lb break="no" xml:id="p1-l3"/>chen 
+                    <lb xml:id="p1-l2"/>Sie haben ohne Zweifel von unserm gemeinschaftli<lb break="no" xml:id="p1-l3"/>chen 
 Freunde, Herrn <choice>
-                    <abbr>
-                        <hi>Dr</hi>.</abbr>
-                    <expan>Doktor / Doctor</expan>
-                </choice> <seg type="ref">
-                    <persName type="person" key="Furrer Jonas">Furrer</persName>
-                    <ref type="kbp">→ Jonas Furrer</ref>
-                </seg>, vernommen, welche Eröffnung<lb xml:id="p1-l4"/>
+                        <abbr>
+                            <hi>Dr</hi>.</abbr>
+                        <expan>Doktor / Doctor</expan>
+                    </choice> <seg type="ref">
+                        <persName type="person" key="Furrer Jonas">Furrer</persName>
+                        <ref type="kbp">→ Jonas Furrer</ref>
+                    </seg>, vernommen, welche Eröffnung<lb xml:id="p1-l4"/>
 er mir <date when="1847-06-27">gestern</date> gemacht hat, ein Anerbiethen, das mich im<lb xml:id="p1-l5"/>
 höchsten Grade freuen mußte, und <add>auf</add> das nicht einzugehen mir wahre<lb xml:id="p1-l6"/>
 Mühe machte, indem ich Männern, wie Herr <persName type="person" key="Furrer Jonas">Furrer</persName>
@@ -80,12 +81,12 @@ genöthigt gewesen sein würde, meinen Lebensplan ganz aufzugeben,<lb xml:id="p1
 Unternehmungen, in die ich mich ganz hineingelebt, fast nicht mehr<lb xml:id="p1-l11"/>
 ausführen zu können, Arbeiten, durch die ich hoffe, dem Staate<lb xml:id="p1-l12"/>
 wie den Wissenschaften nützlich zu werden. <seg type="com">
-                    <note xml:id="K_0466_c1">
-                        <persName type="person" key="Furrer Jonas">Furrer</persName> hatte Meyer von Knonau die Übernahme der Staatsschreiberstelle nahegelegt, was dieser aber ablehnte. Escher wurde darauf am <date when="1847-06-29">29. Juni 1847</date> vom Regierungsrat zum ersten Staatsschreiber ernannt. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">NZZ</ref>, 30. Juni 1847; <ref type="sum" target="Aufstieg_p26"><!--→S. 26--></ref>.</note>
-                </seg> Sie haben vollkom<lb break="no" xml:id="p1-l13"/>men
+                        <note xml:id="K_0466_c1">
+                            <persName type="person" key="Furrer Jonas">Furrer</persName> hatte Meyer von Knonau die Übernahme der Staatsschreiberstelle nahegelegt, was dieser aber ablehnte. Escher wurde darauf am <date when="1847-06-29">29. Juni 1847</date> vom Regierungsrat zum ersten Staatsschreiber ernannt. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 30. Juni 1847; <ref type="sum" target="Aufstieg_p26"><!--→S. 26--></ref>.</note>
+                    </seg> Sie haben vollkom<lb break="no" xml:id="p1-l13"/>men
  recht gehabt, als Sie letzten <date when="1847-06-23">Mittwoch</date> mir sagten, mit<lb xml:id="p1-l14"/>
 einer Behörde, wie der gegenwärtige Regierungsrath sei, arbei<lb break="no" xml:id="p1-l15"/>ten
  zu können, biethe ja nur Angenehmes dar, &amp; gerade dieß<lb xml:id="p1-l16"/>
@@ -93,7 +94,7 @@ läßt mich hoffen, daß Sie, dem eine noch bedeutendere poli<lb break="no" xml:
  Zukunft, als jetzt, bevorsteht, sich geneigt zeigen werden,<lb xml:id="p1-l18"/>
 Ihren Freunden den Dienst zu erweisen, die Leitung der<lb xml:id="p1-l19"/>
 wichtigsten Canzellei des Cantons zu übernehmen, &amp; wenn es auch<pb n="2"/>
-                <lb xml:id="p2-l1"/>
+                    <lb xml:id="p2-l1"/>
 nur für zwei, drei Jahre sein sollte. Sie werden in der Folge<lb xml:id="p2-l2"/>
 sehen, von welch' ungeheuerm Vortheile dieß für Sie war &amp;
 				<lb xml:id="p2-l3"/>
@@ -104,10 +105,11 @@ machten. Berathende Stimme hätten Sie ja jedenfalls, &amp; durch Ihre<lb xml:id
 Voten und Ihren Einfluß würden sie völlig das erreichen, was Sie<lb xml:id="p2-l8"/>
 durch das Recht mitzustimmen erlangen könnten.</p>
       <p rend="indent" xml:id="K_0466_p3">
-                <lb xml:id="p2-l9"/>Ich glaubte Ihnen, Hochgeachteter Herr! diese Zeilen<lb xml:id="p2-l10"/>
+                    <lb xml:id="p2-l9"/>Ich glaubte Ihnen, Hochgeachteter Herr! diese Zeilen<lb xml:id="p2-l10"/>
 schreiben zu dürfen &amp; freue mich sehr, Sie vielleicht schon in<lb xml:id="p2-l11"/>
 24 Stunden als Staatsschreiber zu wissen.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="right" xml:id="K_0466_p4">

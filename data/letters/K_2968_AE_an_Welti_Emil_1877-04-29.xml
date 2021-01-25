@@ -10,7 +10,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier>
+                    <msIdentifier type="Abzug">
                         <institution>BAR</institution>
                         <idno type="original">CH-BAR#J1.67#1000/1363#186*</idno>
                     </msIdentifier>
@@ -27,8 +27,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName ref="Welti Emil" type="addressee">Emil Welti</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Welti Emil" type="addressee">Emil Welti</persName>
                     <placeName>Zürich</placeName>
                     <date when="1877-04-29">Sonntag, April 29, 1877</date>
                 </correspAction>
@@ -55,13 +55,14 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_2968_p2">
-                <lb xml:id="p1-l2"/>In Beilage beehre ich mich Ihnen
+                    <lb xml:id="p1-l2"/>In Beilage beehre ich mich Ihnen
             <lb xml:id="p1-l3"/>eine weitere <seg type="ref">Mittheilung<ref type="letter" target="K_2965"/>
-                </seg> von <persName type="person" key="Maraini Clemente">Marai<lb break="no" xml:id="p1-l4"/>ni</persName>, welche <date when="1877-04-29">heute</date> Morgen eingegangen
+                    </seg> von <persName type="person" key="Maraini Clemente">Marai<lb break="no" xml:id="p1-l4"/>ni</persName>, welche <date when="1877-04-29">heute</date> Morgen eingegangen
             <lb xml:id="p1-l5"/>ist, zu übermitteln: Ich habe eben eine
             <lb xml:id="p1-l6"/>einläßliche <seg type="ref">Zuschrift<ref type="letter" target="K_2970"/>
-                </seg> an denselben im Sinne 
+                    </seg> an denselben im Sinne 
             <lb xml:id="p1-l7"/>unserer Besprechung von <date when="1877-04-29">heute</date> Morgen
             <lb xml:id="p1-l8"/>festgestellt. Sie wird <date when="1877-04-30">Morgen</date> abgehen. Ich
             <lb xml:id="p1-l9"/>werde nicht verfehlen, Ihnen eine Abschrift
@@ -71,16 +72,17 @@
             <lb xml:id="p1-l13"/>mir erhalten werde.
         </p>
       <p rend="indent" xml:id="K_2968_p3">
-                <lb xml:id="p1-l14"/>Darf ich um <choice>
-                    <abbr>gef.</abbr>
-                    <expan>gefällig</expan>
-                </choice> Rücksendung der
+                    <lb xml:id="p1-l14"/>Darf ich um <choice>
+                        <abbr>gef.</abbr>
+                        <expan>gefällig</expan>
+                    </choice> Rücksendung der
             <lb xml:id="p1-l15"/>Beilage Behufs Zustellung an <choice>
-                    <abbr>Hrn.</abbr>
-                    <expan>Herrn</expan>
-                </choice> <persName type="person" key="Zingg Josef">Zingg</persName> <lb xml:id="p1-l16"/>bitten.
+                        <abbr>Hrn.</abbr>
+                        <expan>Herrn</expan>
+                    </choice> <persName type="person" key="Zingg Josef">Zingg</persName> <lb xml:id="p1-l16"/>bitten.
         </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_2968_p4">

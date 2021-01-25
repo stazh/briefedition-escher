@@ -31,8 +31,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1876-04-15">Samstag, April 15, 1876</date>
                 </correspAction>
@@ -72,90 +72,92 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_2763_p2">
-                <lb xml:id="p1-l2"/>
+                    <lb xml:id="p1-l2"/>
 Den Augenblick erhalte ich einen<lb xml:id="p1-l3"/>
 Brief von Herrn <seg type="com">
-                    <persName type="person" key="Hammer Bernhard">Hammer</persName>
-                    <note xml:id="K_2763_c1">
-                        <persName type="person" key="Hammer Bernhard">Bernhard Hammer</persName> (1822–1907), Bundesrat (<placeName type="place" key="Solothurn">SO</placeName>), ausserordentlicher Gesandter und bevollmächtigter Minister der Schweiz in <placeName type="place" key="Berlin (D)">Berlin</placeName>. <ref type="letter" target="K_2749_c2"><!-- → Nr. 216 (Kommentar)--></ref>.</note>
-                </seg>, der mir<lb xml:id="p1-l4"/>
+                        <persName type="person" key="Hammer Bernhard">Hammer</persName>
+                        <note xml:id="K_2763_c1">
+                            <persName type="person" key="Hammer Bernhard">Bernhard Hammer</persName> (1822–1907), Bundesrat (<placeName type="place" key="Solothurn">SO</placeName>), ausserordentlicher Gesandter und bevollmächtigter Minister der Schweiz in <placeName type="place" key="Berlin (D)">Berlin</placeName>. <ref type="letter" target="K_2749_c2"><!-- → Nr. 216 (Kommentar)--></ref>.</note>
+                    </seg>, der mir<lb xml:id="p1-l4"/>
 über die <seg type="com">Publication Ihrer Antwort<note xml:id="K_2763_c2">Gemeint ist die Stellungnahme der Direktion der Gotthardbahn-Gesellschaft zu drei in der «<placeName type="place" key="Norddeutschland">Norddeutschen</placeName> Allgemeinen Zeitung» erschienenen Artikeln. <ref type="sum" target="Rekonstruktion_Gotthardbahn_d1.7"><!-- → Band 1, S. 406–407--></ref>.</note>
-                </seg> <lb xml:id="p1-l5"/>
+                    </seg> <lb xml:id="p1-l5"/>
 folgendes schreibt:</p>
       <p rend="indent" xml:id="K_2763_p3">
-                <lb xml:id="p1-l6"/>«Ich finde 1) dass sich die Einrückung<lb xml:id="p1-l7"/>
+                    <lb xml:id="p1-l6"/>«Ich finde 1) dass sich die Einrückung<lb xml:id="p1-l7"/>
         in die <seg type="com">
-                    <choice>
-                        <abbr>
-                            <placeName type="place" key="Norddeutschland">N.D.</placeName>A.Z.</abbr>
-                        <expan>NordDeutsche Allgemeine Zeitung</expan>
-                    </choice>
-                    <note xml:id="K_2763_c3">Gemeint ist die «<placeName type="place" key="Norddeutschland">Norddeutsche</placeName> Allgemeine Zeitung».</note>
-                </seg> welche noch immer<lb xml:id="p1-l8"/>
+                        <choice>
+                            <abbr>
+                                <placeName type="place" key="Norddeutschland">N.D.</placeName>A.Z.</abbr>
+                            <expan>NordDeutsche Allgemeine Zeitung</expan>
+                        </choice>
+                        <note xml:id="K_2763_c3">Gemeint ist die «<placeName type="place" key="Norddeutschland">Norddeutsche</placeName> Allgemeine Zeitung».</note>
+                    </seg> welche noch immer<lb xml:id="p1-l8"/>
 offiziös inspirirt ist nicht eignet. </p>
       <p rend="indent" xml:id="K_2763_p4">
-                <lb xml:id="p1-l9"/>2) dass jedenfalls die Gesandtschaft <pb n="2"/>
-                <lb xml:id="p2-l1"/>
+                    <lb xml:id="p1-l9"/>2) dass jedenfalls die Gesandtschaft <pb n="2"/>
+                    <lb xml:id="p2-l1"/>
 nicht als Vermittlerin sich geriren<lb xml:id="p2-l2"/>
 darf.</p>
       <p rend="indent" xml:id="K_2763_p5">
-                <lb xml:id="p2-l3"/>Ich möchte vorschlagen:</p>
+                    <lb xml:id="p2-l3"/>Ich möchte vorschlagen:</p>
       <p rend="indent" xml:id="K_2763_p6">
-                <lb xml:id="p2-l4"/>a) entweder durch einen discreten<lb xml:id="p2-l5"/>
+                    <lb xml:id="p2-l4"/>a) entweder durch einen discreten<lb xml:id="p2-l5"/>
 Vertreter die Einsendung in die <placeName type="place" key="Köln (D)">köl<lb break="no" xml:id="p2-l6"/>nische</placeName> 
 Zeitung oder den <placeName type="place" key="Schwaben">schwäbischen</placeName> <lb xml:id="p2-l7"/>
 				Mercur gelangen zu lassen, was ich be<lb break="no" xml:id="p2-l8"/>sorgen 
 könnte. </p>
       <p rend="indent" xml:id="K_2763_p7">
-                <lb xml:id="p2-l9"/>b) oder die Einsendung durch die<lb xml:id="p2-l10"/>Gottharddirection direct an die <choice>
-                    <abbr>
-                        <placeName type="place" key="Norddeutschland">N.</placeName>A.Z.</abbr>
-                    <expan>Norddeutsche Allgemeine Zeitung</expan>
-                </choice> <lb xml:id="p2-l11"/>
+                    <lb xml:id="p2-l9"/>b) oder die Einsendung durch die<lb xml:id="p2-l10"/>Gottharddirection direct an die <choice>
+                        <abbr>
+                            <placeName type="place" key="Norddeutschland">N.</placeName>A.Z.</abbr>
+                        <expan>Norddeutsche Allgemeine Zeitung</expan>
+                    </choice> <lb xml:id="p2-l11"/>
 gelangen zu lassen. <pb n="3"/>
-            </p>
+                </p>
       <p rend="indent" xml:id="K_2763_p8">
-                <lb xml:id="p3-l1"/>Das Verfahren sub. a. würde sich<lb xml:id="p3-l2"/>
+                    <lb xml:id="p3-l1"/>Das Verfahren sub. a. würde sich<lb xml:id="p3-l2"/>
 als das kürzere empfehlen. Dann<lb xml:id="p3-l3"/>
 dürfte auch im eint <choice>
-                    <abbr>u</abbr>
-                    <expan>und</expan>
-                </choice> anderen Falle<lb xml:id="p3-l4"/> <seg type="com">am Schlusse die Erwähnung des Bun<lb break="no" xml:id="p3-l5"/>desrathes<note xml:id="K_2763_c4">
-                        <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="telegram">Telegramm Escher an Emil Welti, 16. April 1876 (<ref type="lit">BAR J I.67-8</ref>)<!--→ Nr. 224-->
-                        </ref>.</note>
-                </seg> – der sich selbst zu ver<lb break="no" xml:id="p3-l6"/>theidigen 
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> anderen Falle<lb xml:id="p3-l4"/> <seg type="com">am Schlusse die Erwähnung des Bun<lb break="no" xml:id="p3-l5"/>desrathes<note xml:id="K_2763_c4">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="telegram">Telegramm Escher an Emil Welti, 16. April 1876 (<ref type="lit">BAR J I.67-8</ref>)<!--→ Nr. 224-->
+                            </ref>.</note>
+                    </seg> – der sich selbst zu ver<lb break="no" xml:id="p3-l6"/>theidigen 
 wissen werde – sowie<lb xml:id="p3-l7"/>
 die Stelle wegen der «trüben Quelle»<lb xml:id="p3-l8"/>
 die doch nicht sicher bekannt ist,<lb xml:id="p3-l9"/>
 weggelassen und die <seg type="ref">Hinweisung<lb xml:id="p3-l10"/>
 auf die Techniker, denen man zu <pb n="4"/>
-                    <lb xml:id="p4-l1"/>
+                        <lb xml:id="p4-l1"/>
 viel gefolgt,<ref type="sum" target="Rekonstruktion_Gotthardbahn_p36"><!-- → Band 1, S. 407--></ref>
-                </seg> gekürzt <choice>
-                    <abbr>u</abbr>
-                    <expan>und</expan>
-                </choice> so gefasst werden,<lb xml:id="p4-l2"/>
+                    </seg> gekürzt <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> so gefasst werden,<lb xml:id="p4-l2"/>
 dass auf die Techniker der interna<lb break="no" xml:id="p4-l3"/>tionalen 
 Conferenz nicht mit Fin<lb break="no" xml:id="p4-l4"/>gern 
 hingewiesen würde.
 			</p>
       <p rend="indent" xml:id="K_2763_p9">
-                <lb xml:id="p4-l5"/>Ich erwarte brieflich oder telegraphisch<lb xml:id="p4-l6"/>
+                    <lb xml:id="p4-l5"/>Ich erwarte brieflich oder telegraphisch<lb xml:id="p4-l6"/>
 umgehend Bericht.» </p>
       <p rend="indent" xml:id="K_2763_p10">
-                <lb xml:id="p4-l7"/>Soweit Herr <persName type="person" key="Hammer Bernhard">Hammer</persName>. Ich glaube<lb xml:id="p4-l8"/>
+                    <lb xml:id="p4-l7"/>Soweit Herr <persName type="person" key="Hammer Bernhard">Hammer</persName>. Ich glaube<lb xml:id="p4-l8"/>
 Sie würden gut thun sich direct<lb xml:id="p4-l9"/>
 mit ihm in Verbindung zu setzen,<lb xml:id="p4-l10"/>
 damit keine Zeit verloren geht. <pb n="5"/>
-                <lb xml:id="p5-l1"/>
+                    <lb xml:id="p5-l1"/>
 Wünschen Sie aber meine Da<lb break="no" xml:id="p5-l2"/>zwischenkunft, 
 so steht sie<lb xml:id="p5-l3"/>
 selbstverständlich zu Diensten.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_2763_p11">

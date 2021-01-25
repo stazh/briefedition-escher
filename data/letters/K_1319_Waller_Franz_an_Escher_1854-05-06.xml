@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Waller Franz" type="sender">Franz Waller</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Waller Franz" type="sender">Franz Waller</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Rheinfelden</placeName>
                     <date when="1854-05-06">Samstag, Mai 6, 1854</date>
                 </correspAction>
@@ -71,103 +71,105 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_1319_p3">
-                <lb xml:id="p1-l3"/>Du wirst meine diplomatische Schlauheit kaum verkennen, wenn ich<lb xml:id="p1-l4"/>
+                    <lb xml:id="p1-l3"/>Du wirst meine diplomatische Schlauheit kaum verkennen, wenn ich<lb xml:id="p1-l4"/>
 			die <seg type="com">glückliche Stimmung des Triumphators<note xml:id="K_1319_c1">Waller bezieht sich vermutlich auf die von Escher als Direktionspräsident geleitete Generalversammlung der Nordostbahn vom <date when="1854-04-26">26. April 1854</date>. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Geschäftsbericht NOB</ref> 1853.</note>
-                </seg>, des bekränzten Direk<lb break="no" xml:id="p1-l5"/>tors 
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Geschäftsbericht NOB</ref> 1853.</note>
+                    </seg>, des bekränzten Direk<lb break="no" xml:id="p1-l5"/>tors 
 				der <seg type="ref">Nordostbahn<ref type="kbe">→ NOB</ref>
-                </seg> verwende, um für die armen <placeName type="place" key="Aargau">aargauschen</placeName>
-                <note type="transcript">sic!</note> <lb xml:id="p1-l6"/>
+                    </seg> verwende, um für die armen <placeName type="place" key="Aargau">aargauschen</placeName>
+                    <note type="transcript">sic!</note> <lb xml:id="p1-l6"/>
 			Salinen einen Silberblick der Huld zu gewinnen. Steht auch<lb xml:id="p1-l7"/>
 			das zu Berührende unter der Linie deiner Stellung, dennoch<lb xml:id="p1-l8"/>
 			wage ich es Dich hinabzuziehen, eben um dem Geringen Bedeu<lb break="no" xml:id="p1-l9"/>tung 
 			zu geben.
 			</p>
       <p rend="left" xml:id="K_1319_p4">
-                <lb xml:id="p1-l10"/>Seit einiger Zeit verfrachten wir unser nach <placeName type="place" key="Zürich">Zürich</placeName> <placeName type="place" key="St. Gallen">S<hi rend="sup">t</hi> Gallen</placeName> &amp; <lb xml:id="p1-l11"/>
-                <placeName type="place" key="Glarus">Glarus</placeName> bestimte<note type="transcript">sic!</note> Salz auf der Eisenbahn von <placeName type="place" key="Baden (AG)">Baden</placeName> nach <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>;<lb xml:id="p1-l12"/>
+                    <lb xml:id="p1-l10"/>Seit einiger Zeit verfrachten wir unser nach <placeName type="place" key="Zürich">Zürich</placeName> <placeName type="place" key="St. Gallen">S<hi rend="sup">t</hi> Gallen</placeName> &amp; <lb xml:id="p1-l11"/>
+                    <placeName type="place" key="Glarus">Glarus</placeName> bestimte<note type="transcript">sic!</note> Salz auf der Eisenbahn von <placeName type="place" key="Baden (AG)">Baden</placeName> nach <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>;<lb xml:id="p1-l12"/>
 			bald dürften auch die Sendungen nach <placeName type="place" key="Thurgau">Thurgau</placeName> &amp; <placeName type="place" key="Graubünden">Graubündten</placeName> <lb xml:id="p1-l13"/>
 			folgen. Der Tarif ist uns <choice>
-                    <abbr>pr</abbr>
-                    <expan>per</expan>
-                </choice> Faß auf <choice>
-                    <abbr>fr.</abbr>
-                    <expan>franken / francs / franchi</expan>
-                </choice> 1.20 <choice>
-                    <abbr>cs</abbr>
-                    <expan>centimes (Rappen)</expan>
-                </choice> gestellt.<lb xml:id="p1-l14"/>
+                        <abbr>pr</abbr>
+                        <expan>per</expan>
+                    </choice> Faß auf <choice>
+                        <abbr>fr.</abbr>
+                        <expan>franken / francs / franchi</expan>
+                    </choice> 1.20 <choice>
+                        <abbr>cs</abbr>
+                        <expan>centimes (Rappen)</expan>
+                    </choice> gestellt.<lb xml:id="p1-l14"/>
 			Nun weißt Du, daß &amp; wie sehr bei unsern letzthin abgeschlo<lb break="no" xml:id="p1-l15"/>ßenen 
 			Verträgen mit <placeName type="place" key="Zürich">Zürich</placeName> &amp; <placeName type="place" key="St. Gallen">S<hi rend="sup">t</hi> Gallen</placeName> unsere Salzpreise<lb xml:id="p1-l16"/>
 			herabgiengen. Dagegen <seg type="com">zeigt dein jüngster glänzender Ver<lb break="no" xml:id="p1-l17"/>waltungsbericht 
 			über die Erträgniße der <placeName type="place" key="Zürich (Stadt)">Zürcher</placeName>–<placeName type="place" key="Baden (AG)">Baden</placeName>linie<lb xml:id="p1-l18"/>
 			mehr als befriedigende Ergebniße.<note xml:id="K_1319_c2">Der Geschäftsbericht der Nordostbahn für das Jahr 1853 wies für die Strecke <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>–<placeName type="place" key="Baden (AG)">Baden</placeName> für den Zeitraum vom <date when="1853-07-01">1. Juli</date> bis <date when="1853-12-31">31. Dezember 1853</date> einen Nettoertrag von <choice>
-                            <abbr>Fr.</abbr>
-                            <expan>Franken</expan>
-                        </choice> 75 847.24 aus. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Geschäftsbericht NOB</ref> 1853, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 7–10.</note>
-                </seg> Diese beiden Verhältniße <pb n="2"/>
-                <lb xml:id="p2-l1"/>
+                                <abbr>Fr.</abbr>
+                                <expan>Franken</expan>
+                            </choice> 75 847.24 aus. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Geschäftsbericht NOB</ref> 1853, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 7–10.</note>
+                    </seg> Diese beiden Verhältniße <pb n="2"/>
+                    <lb xml:id="p2-l1"/>
 			berechtigen mich zu der Erwartung, daß die Direktion der Nordostbahn<lb xml:id="p2-l2"/>
 			sich zu etwelcher Ermäßigung des nebenbenanten<note type="transcript">sic!</note> Tarifes herbeilassen dürfte.<lb xml:id="p2-l3"/>
 			Ein Herabgehen bis auf 1. <choice>
-                    <abbr>Frk.</abbr>
-                    <expan>Franken</expan>
-                </choice> <choice>
-                    <abbr>pr</abbr>
-                    <expan>per</expan>
-                </choice> Faß wäre nach meinem Ermessen eine<lb xml:id="p2-l4"/>
+                        <abbr>Frk.</abbr>
+                        <expan>Franken</expan>
+                    </choice> <choice>
+                        <abbr>pr</abbr>
+                        <expan>per</expan>
+                    </choice> Faß wäre nach meinem Ermessen eine<lb xml:id="p2-l4"/>
 			den Umständen ganz entsprechende Verfügung. Da die Zahl der Fäßer<lb xml:id="p2-l5"/>
 			bald die Zahl von 5000 erreichen dürfte, so wäre der Direktorialkasse<lb xml:id="p2-l6"/>
 			von unserer Seite noch immer eine recht anmuthige Einnahme gesichert.</p>
       <p rend="indent" xml:id="K_1319_p5">
-                <lb xml:id="p2-l7"/> <seg type="com">Willst du mit zwei Worten mir <choice>
-                        <abbr>gef.</abbr>
-                        <expan>gefällig</expan>
-                    </choice> sagen, ob ich mich offiziell für<lb xml:id="p2-l8"/>
+                    <lb xml:id="p2-l7"/> <seg type="com">Willst du mit zwei Worten mir <choice>
+                            <abbr>gef.</abbr>
+                            <expan>gefällig</expan>
+                        </choice> sagen, ob ich mich offiziell für<lb xml:id="p2-l8"/>
 			diese confidentielle Bitte an die <choice>
-                        <abbr>Tit</abbr>
-                        <expan>Titulo (mit Titel)</expan>
-                    </choice> Direktion wenden soll &amp; ob ich auf<lb xml:id="p2-l9"/>
+                            <abbr>Tit</abbr>
+                            <expan>Titulo (mit Titel)</expan>
+                        </choice> Direktion wenden soll &amp; ob ich auf<lb xml:id="p2-l9"/>
 				deine freundliche Unterstützung hoffen dürfe?<note xml:id="K_1319_c3">Escher brachte Wallers Anliegen in der Direktionssitzung am <date when="1854-05-13">13. Mai</date> zur Sprache. Die Direktion sprach sich gegen eine Senkung des Transporttarifs für das <placeName type="place" key="Aargau">aargauische</placeName> Salz aus. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Prot. Dir. NOB</ref>, 26. November 1853 (<choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 126), 10. Dezember 1853 (<choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 156), 13. Mai 1854 (<choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 5); <ref type="lit">Geschäftsbericht NOB</ref> 1854, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 12.<!--«So wurden unter anderm für den Salztransport theils unmittelbar mit den betreffenden Salinenverwaltungen, theils mit den Transportunternehmern Verkommnisse abgeschlossen, gemäss welchen die Salzsendungen nach verschiedenen Kantonen der Ostschweiz der Bahn übergeben werden.» (Geschäftsbericht NOB 1854, S. 12).-->
-                    </note>
-                </seg> </p>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. Dir. NOB</ref>, 26. November 1853 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 126), 10. Dezember 1853 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 156), 13. Mai 1854 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 5); <ref type="lit">Geschäftsbericht NOB</ref> 1854, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 12.<!--«So wurden unter anderm für den Salztransport theils unmittelbar mit den betreffenden Salinenverwaltungen, theils mit den Transportunternehmern Verkommnisse abgeschlossen, gemäss welchen die Salzsendungen nach verschiedenen Kantonen der Ostschweiz der Bahn übergeben werden.» (Geschäftsbericht NOB 1854, S. 12).-->
+                        </note>
+                    </seg> </p>
       <p rend="indent" xml:id="K_1319_p6">
-                <lb xml:id="p2-l10"/>Für Euere <seg type="com">Wahlen<note xml:id="K_1319_c4">Am <date when="1854-05-07">7. Mai</date> fanden im Kanton <placeName type="place" key="Zürich">Zürich</placeName> Grossratswahlen statt. Die liberale Partei um Escher blieb siegreich: Von den 208 durch das Volk gewählten Grossräten waren rund 150 dieser Partei zuzuordnen. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">NZZ</ref>, 7. Mai 1854, 8. Mai 1854, 9. Mai 1854.</note>
-                </seg> das herzlichste «Glück auf»! Ein Augur sehe<lb xml:id="p2-l11"/>
+                    <lb xml:id="p2-l10"/>Für Euere <seg type="com">Wahlen<note xml:id="K_1319_c4">Am <date when="1854-05-07">7. Mai</date> fanden im Kanton <placeName type="place" key="Zürich">Zürich</placeName> Grossratswahlen statt. Die liberale Partei um Escher blieb siegreich: Von den 208 durch das Volk gewählten Grossräten waren rund 150 dieser Partei zuzuordnen. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 7. Mai 1854, 8. Mai 1854, 9. Mai 1854.</note>
+                    </seg> das herzlichste «Glück auf»! Ein Augur sehe<lb xml:id="p2-l11"/>
 			ich Euern Adler richtigen Fluges &amp; Zuges sich gen Himmel heben;<lb xml:id="p2-l12"/>
 				sie werden Dir, dem Kanton <placeName type="place" key="Zürich">Zürich</placeName> &amp; der Eidgenoßenschaft den Lorbeer<lb xml:id="p2-l13"/>
 			eines Siegers bringen, wie derselbe der ausgezeichneten Thatkraft,<lb xml:id="p2-l14"/>
 				dem reinen bewußten Wollen &amp; der sittlichen Macht einer redlichen<lb xml:id="p2-l15"/>
 			Politik gebührt.
 			</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="center" xml:id="K_1319_p7">

@@ -10,7 +10,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier>
+                    <msIdentifier type="Abzug">
                         <institution>BAR</institution>
                         <idno type="original">CH-BAR#J1.67#1000/1363#186*</idno>
                     </msIdentifier>
@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName ref="Mevissen Gustav von" type="addressee">Gustav von Mevissen</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Mevissen Gustav von" type="addressee">Gustav von Mevissen</persName>
                     <placeName>Zürich</placeName>
                     <date when="1876-06-01">Donnerstag, Juni 1, 1876</date>
                 </correspAction>
@@ -78,38 +78,39 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_2804_p3">
-                <lb xml:id="p1-l3"/>Wir haben sehr bedauert, Sie in der Sitzung des<lb xml:id="p1-l4"/>
+                    <lb xml:id="p1-l3"/>Wir haben sehr bedauert, Sie in der Sitzung des<lb xml:id="p1-l4"/>
         kombinirten Kollegiums der <seg type="com">verwaltungsräthlichen Kommission<note xml:id="K_2804_c1">Der Verwaltungsrat der Gotthardbahn-Gesellschaft beschloss in seiner Sitzung vom <date when="1876-03-03">3. März 1876</date>, eine siebenköpfige Rekonstruktionskommission einzusetzen. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Prot. VR GB</ref>, 3. März 1876 (<choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 99).</note>
-                </seg> und<lb xml:id="p1-l5"/>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. VR GB</ref>, 3. März 1876 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 99).</note>
+                    </seg> und<lb xml:id="p1-l5"/>
 der Direktion betreffend Reorganisation der Gotthardbahnunternehmung,<lb xml:id="p1-l6"/>
 welche am <date when="1876-05-29">letzten Montag</date> in <placeName type="place" key="Bern (Stadt)">Bern</placeName> stattgefunden hat, vermissen zu<lb xml:id="p1-l7"/>
 müssen und uns Ihrer sachkundigen Mitwirkung nicht erfreuen zu können.<!--<com>[<b>PENDENT</b>. Sitzung in Bern vom 29. Mai 1876. VR Prot. 
     Gotthardbahn vom 29. Mai 1876. Check SBB Historic.]</com></c> -->
-            </p>
+                </p>
       <p rend="indent" xml:id="K_2804_p4">
-                <lb xml:id="p1-l8"/> <seg type="com">Das Programm<note xml:id="K_2804_c2">Das genannte Programm sah die Erstellung des gesamten <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahnnetzes vor. Für den Fall, dass die dazu benötigten Geldmittel nicht aufgebracht werden könnten, wurde als zweite Möglichkeit die Verschiebung der Erstellung gewisser Zufahrtslinien sowie als dritte Eventualität der Einsatz von Trajektschiffen auf dem <placeName type="place" key="Vierwaldstättersee">Vierwaldstättersee</placeName> und dem <placeName type="place" key="Lago Maggiore">Lago Maggiore</placeName> in Erwägung gezogen. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> Programm für die Reorganisation der Gotthardbahnunternehmung (vom Juni 1876) (<ref type="lit">SBB Historic VGB_GB_SBBGB01_017<!--_08--></ref>); <ref type="lit">Wanner, Gotthardbahn</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 385–386.<!--Das genannte Programm beabsichtigte die Realisierung der Gotthardbahn mittels eines Drei-Punkte-Plans: Erstens sollte grundsätzlich das gesamte in Art. 1 des Staatsvertrages von 1869 vorgesehene Gotthardbahn-Netz gebaut werden. Zweitens sollte zuerst der Bau einer durchgehenden Schienenverbindung von Immensee nach Pino sichergestellt und die Ausführung der Zufahrtslinien auf einen späteren Zeitpunkt verschoben werden, falls die erforderlichen Geldmittel nicht von Anfang an für das gesamte Netz ausreichen würden. Eine dritte Möglichkeit wurde darin gesehen, vorerst ausschliesslich die Strecke Flüelen&ndash;Biasca zu erstellen und den übrigen Zufahrstverkehr mittels sogenannter Trajektschiffe auf dem Vierwaldstätter- und Langensee sicher zu stellen. Das Programm schloss zudem provisorische oder bleibende Modifikationen in den bisherigen Bauprojekten ebenso ein, wie Vorschläge hinsichtlich der Finanzierungsmodalitäten. <abbr>Vgl.</abbr> <ref type="lit">Wanner, Gotthardbahn</ref>, S. 385&ndash;386; <ref type="lit">Staatsvertrag Gotthardbahn 1869</ref>, Art. 1. [<b>PENDENT</b>. 1. Wording 2. Programm ev. im SBB Historic? Programme für die Reorganisation der GB; Originale, Belege, Vorlage an den Bundesrat, VGB_GB_SBBGB02_015_06.]-->
-                    </note>
-                </seg>, das Ihnen in Ihrer Eigenschaft als Mitglied<lb xml:id="p1-l9"/>
+                    <lb xml:id="p1-l8"/> <seg type="com">Das Programm<note xml:id="K_2804_c2">Das genannte Programm sah die Erstellung des gesamten <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahnnetzes vor. Für den Fall, dass die dazu benötigten Geldmittel nicht aufgebracht werden könnten, wurde als zweite Möglichkeit die Verschiebung der Erstellung gewisser Zufahrtslinien sowie als dritte Eventualität der Einsatz von Trajektschiffen auf dem <placeName type="place" key="Vierwaldstättersee">Vierwaldstättersee</placeName> und dem <placeName type="place" key="Lago Maggiore">Lago Maggiore</placeName> in Erwägung gezogen. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Programm für die Reorganisation der Gotthardbahnunternehmung (vom Juni 1876) (<ref type="lit">SBB Historic VGB_GB_SBBGB01_017<!--_08--></ref>); <ref type="lit">Wanner, Gotthardbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 385–386.<!--Das genannte Programm beabsichtigte die Realisierung der Gotthardbahn mittels eines Drei-Punkte-Plans: Erstens sollte grundsätzlich das gesamte in Art. 1 des Staatsvertrages von 1869 vorgesehene Gotthardbahn-Netz gebaut werden. Zweitens sollte zuerst der Bau einer durchgehenden Schienenverbindung von Immensee nach Pino sichergestellt und die Ausführung der Zufahrtslinien auf einen späteren Zeitpunkt verschoben werden, falls die erforderlichen Geldmittel nicht von Anfang an für das gesamte Netz ausreichen würden. Eine dritte Möglichkeit wurde darin gesehen, vorerst ausschliesslich die Strecke Flüelen&ndash;Biasca zu erstellen und den übrigen Zufahrstverkehr mittels sogenannter Trajektschiffe auf dem Vierwaldstätter- und Langensee sicher zu stellen. Das Programm schloss zudem provisorische oder bleibende Modifikationen in den bisherigen Bauprojekten ebenso ein, wie Vorschläge hinsichtlich der Finanzierungsmodalitäten. <abbr>Vgl.</abbr> <ref type="lit">Wanner, Gotthardbahn</ref>, S. 385&ndash;386; <ref type="lit">Staatsvertrag Gotthardbahn 1869</ref>, Art. 1. [<b>PENDENT</b>. 1. Wording 2. Programm ev. im SBB Historic? Programme für die Reorganisation der GB; Originale, Belege, Vorlage an den Bundesrat, VGB_GB_SBBGB02_015_06.]-->
+                        </note>
+                    </seg>, das Ihnen in Ihrer Eigenschaft als Mitglied<lb xml:id="p1-l9"/>
 der verwaltungsräthlichen Kommission in konfidentieller Weise mitgetheilt<lb xml:id="p1-l10"/>
         wurde, ist im Wesentlichen angenommen worden und es wird nun eine<lb xml:id="p1-l11"/> <seg type="com">Kundgebung an den Schweizerischen Bundesrath im Sinne desselben erfolgen.<note xml:id="K_2804_c3">Die Direktion der Gotthardbahn-Gesellschaft übermittelte dem Bundesrat  das Programm für die Reorganisation der Gotthardbahnunternehmung am <date when="1876-06-14">14.</date>/<date when="1876-06-15">15. Juni 1876</date>. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005836" type="www">
-                            <ref type="lit">Prot. BR</ref>, 26. Juni 1876</ref>.</note>
-                </seg> <lb xml:id="p1-l12"/>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005836" type="www">
+                                <ref type="lit">Prot. BR</ref>, 26. Juni 1876</ref>.</note>
+                    </seg> <lb xml:id="p1-l12"/>
 Hierauf werden sachbezügliche Verhandlungen zwischen dieser Behörde und<lb xml:id="p1-l13"/>
 unserer Verwaltung stattfinden, welche zunächst auf mündlichem Wege<lb xml:id="p1-l14"/>
 gepflogen werden dürften. Im Laufe dieser Verhandlungen sowie<lb xml:id="p1-l15"/>
@@ -117,31 +118,32 @@ zweifelsohne auch später noch wird das dem Schweizerischen Bundesrathe<lb xml:i
 Namens der Gesellschaft vorgelegte Programm wohl noch viele Wandlungen<lb xml:id="p1-l17"/>
 zu erfahren haben. </p>
       <p rend="indent" xml:id="K_2804_p5">
-                <lb xml:id="p1-l18"/>Bei dieser Sachlage wäre es nun von großem Werthe für mich,<lb xml:id="p1-l19"/> <seg type="ref">Ihre Ansicht<ref type="letter" target="K_2809"><!-- → Nr. 242--></ref>
-                    <ref type="letter" target="K_2810"><!-- → Nr. 243--></ref>
-                </seg> über das Ihnen zugestellte Programm zu kennen, um dieselbe <pb n="2"/>
-                <lb xml:id="p2-l1"/>
+                    <lb xml:id="p1-l18"/>Bei dieser Sachlage wäre es nun von großem Werthe für mich,<lb xml:id="p1-l19"/> <seg type="ref">Ihre Ansicht<ref type="letter" target="K_2809"><!-- → Nr. 242--></ref>
+                        <ref type="letter" target="K_2810"><!-- → Nr. 243--></ref>
+                    </seg> über das Ihnen zugestellte Programm zu kennen, um dieselbe <pb n="2"/>
+                    <lb xml:id="p2-l1"/>
 bei den bevorstehenden Verhandlungen in gebührende Würdigung ziehen<lb xml:id="p2-l2"/>
 zu können. Ich erlaube mir daher, die höfliche Bitte an Sie zu richten,<lb xml:id="p2-l3"/>
 mir Ihre Anschauungsweise gütigst kundgeben zu wollen.</p>
       <p rend="indent" xml:id="K_2804_p6">
-                <lb xml:id="p2-l4"/>
+                    <lb xml:id="p2-l4"/>
 				Für den Fall, daß es Ihnen nicht bereits bekannt wäre, glaube<lb xml:id="p2-l5"/>
 ich Sie noch davon unterrichten zu sollen, <seg type="ref">daß die <placeName type="place" key="Deutsches Reich">deutsche</placeName> Regierung <lb xml:id="p2-l6"/>
 in ihrer Antwort an den <choice>
-                        <abbr>Schweiz.</abbr>
-                        <expan>Schweizerisch</expan>
-                    </choice> Bundesrath nicht etwa die Theilnahme an<lb xml:id="p2-l7"/>
+                            <abbr>Schweiz.</abbr>
+                            <expan>Schweizerisch</expan>
+                        </choice> Bundesrath nicht etwa die Theilnahme an<lb xml:id="p2-l7"/>
 einer internationalen Konferenz in Sachen der Gotthardbahn überhaupt ab<lb break="no" xml:id="p2-l8"/>gelehnt,<ref type="sum" target="Rekonstruktion_Gotthardbahn_p6"><!-- → Band 1, S. 392–393--></ref>
-                    <ref type="letter" target="K_2799"><!-- → Nr. 240--></ref>
-                </seg> sondern vielmehr die Erklärung abgegeben hat, sie erachte die<lb xml:id="p2-l9"/>
+                        <ref type="letter" target="K_2799"><!-- → Nr. 240--></ref>
+                    </seg> sondern vielmehr die Erklärung abgegeben hat, sie erachte die<lb xml:id="p2-l9"/>
 Abhaltung einer technischen Vorkonferenz nicht für nothwendig, da sie das<lb xml:id="p2-l10"/>
         Ergebniß der von dem Bundesrathe angeordneten bezüglichen Untersuchungen<lb xml:id="p2-l11"/>
 vertrauensvoll gewärtige; dagegen werde sie eine internationale Kon<lb break="no" xml:id="p2-l12"/>ferenz 
 mit diplomatischem Charakter gerne beschicken.<!--<com>
 						Vgl. Prot. BR, 16. Dezember 1876. -->
-            </p>
-    </body>
+                </p>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_2804_p7">

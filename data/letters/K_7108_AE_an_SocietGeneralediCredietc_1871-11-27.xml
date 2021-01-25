@@ -3,16 +3,16 @@
   <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Alfred Escher an , Zürich, Montag, November 27, 1871</title>
+                <title>Alfred Escher an Società Generale di Credito Provinciale e Comunale, Zürich, Montag, November 27, 1871</title>
             </titleStmt>
             <publicationStmt>
                 <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier>
+                    <msIdentifier type="Entwurf">
                         <institution>SBB Historic</institution>
-                        <idno type="original"/>
+                        <idno type="original">VGB_GB_SBBGB01_014</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName ref="" type="addressee"/>
+                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName type="sender">Società Generale di Credito Provinciale e Comunale</persName>
                     <placeName>Zürich</placeName>
                     <date when="1871-11-27">Montag, November 27, 1871</date>
                 </correspAction>
@@ -73,18 +73,20 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_7108_p3">
-                <lb xml:id="p1-l3"/>J'ai l'honneur de vous accuser réception
+                    <lb xml:id="p1-l3"/>J'ai l'honneur de vous accuser réception
         	<lb xml:id="p1-l4"/>de vos estimées <seg type="ref">lettres<ref type="letter" target="K_7100"/>
-                    <ref type="letter" target="K_7101"/>
-                </seg> des <date when="1871-11-21">21</date> et <date when="1871-11-22">22 courant</date>, par lesquelles
+                        <ref type="letter" target="K_7101"/>
+                    </seg> des <date when="1871-11-21">21</date> et <date when="1871-11-22">22 courant</date>, par lesquelles
         	<lb xml:id="p1-l5"/>vous m'informez que vous avez fait déposer entre
         	<lb xml:id="p1-l6"/>les mains du Conseil fédéral Suisse des titres de rente
         	<lb xml:id="p1-l7"/>
-                <placeName type="place" key="Italien (Königreich)">italienne</placeName> destinés à représenter votre quote-part du
+                    <placeName type="place" key="Italien (Königreich)">italienne</placeName> destinés à représenter votre quote-part du
         	<lb xml:id="p1-l8"/>cautionnement dans l'entreprise du <placeName type="place" key="St. Gotthard (Pass)">S. Gothard</placeName>.
         	</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_7108_p4">

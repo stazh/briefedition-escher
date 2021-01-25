@@ -31,8 +31,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Keller (vom Steinbock) Friedrich Ludwig" type="sender">Friedrich Ludwig Keller</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Keller (vom Steinbock) Friedrich Ludwig" type="sender">Friedrich Ludwig Keller</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Berlin</placeName>
                     <date when="1854-07-16">Sonntag, Juli 16, 1854</date>
                 </correspAction>
@@ -81,6 +81,7 @@
       </div>
       </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_1336_p2">
                 <lb xml:id="p1-l2"/>Ich beeile mich, mein lieber Vetter, Dir betreffend die genannten und andere Candidaten zu 
         <lb xml:id="p1-l3"/>den erledigten Professuren (gratulire zu <persName type="person" key="Erxleben Albrecht">Erxleben</persName>) was ich jetzt schon weiß mitzutheilen, und stimme 
@@ -94,19 +95,19 @@
         <lb xml:id="p1-l7"/>venditio</hi> und jetzt zuletzt über Compensation geschrieben und vieles in <del>der</del> seiner <placeName type="place" key="Heidelberg (D)">Heidelb</placeName> Critischen
         <lb xml:id="p1-l8"/>Zeitschrift. Gar nicht schlecht, aber fast etwas zu viel und zu schnell. Nach seinem persönlichen 
         <lb xml:id="p1-l9"/>Eindruck ist mir sein Lehrtalent ungewiß, gehört habe ich nichts darüber. Für 1200. <choice>
-                    <abbr>
+                        <abbr>
                     <hi>Fr</hi>.</abbr>
-                    <expan>Franken / Francs / Franchi</expan>
-                </choice> <supplied type="unclear">...</supplied> <choice>
-                    <abbr>Schw. G.</abbr>
-                    <expan>Schweizer Geld</expan>
-                </choice> wäre 
+                        <expan>Franken / Francs / Franchi</expan>
+                    </choice> <supplied type="unclear">...</supplied> <choice>
+                        <abbr>Schw. G.</abbr>
+                        <expan>Schweizer Geld</expan>
+                    </choice> wäre 
         <lb xml:id="p1-l10"/>er ohne Zweifel zu bekommen, und zwar als <hi>
                     <choice>
-                        <abbr>Extraord<hi rend="sup">s</hi>
+                            <abbr>Extraord<hi rend="sup">s</hi>
                     </abbr>
-                        <expan>Extraordinarius (ausserordentlicher [Professor])</expan>
-                    </choice>.</hi> </p>
+                            <expan>Extraordinarius (ausserordentlicher [Professor])</expan>
+                        </choice>.</hi> </p>
       <p rend="indent" xml:id="K_1336_p4">
                 <lb xml:id="p1-l11"/>
         <hi rend="underline">
@@ -114,28 +115,28 @@
                 </hi> hat mir in diesen Tagen geschrieben und seine zwei Schriften eingeschickt, die Dir wohl bekannt 
         <lb xml:id="p1-l12"/>sein werden, da er, wie er sagte, sich bei Euch gemeldet, sie also gewiß auch eingeschickt hat. Persönlich
         <lb xml:id="p1-l13"/>kenne ich ihn nicht, wohl aber sehr genau seine zweite Schrift über die <choice>
-                    <abbr>prätor. Judicialstip.</abbr>
-                    <expan>prätorische Judicialstipulation</expan>
-                </choice>, die ich 
+                        <abbr>prätor. Judicialstip.</abbr>
+                        <expan>prätorische Judicialstipulation</expan>
+                    </choice>, die ich 
         <lb xml:id="p1-l14"/>vor kurzer Zeit für den <persName type="person" key="Minister">Minister</persName> zu censiren hatte. Dieselbe ist tief, scharf und zäh gedacht, mit 
         <lb xml:id="p1-l15"/>überwiegend guten Resultaten, aber meines Bedünkens dunkel und schwierig geschrieben und von einem 
         <lb xml:id="p1-l16"/>gewissen Mangel an Darstellungsgabe <del>
                     <supplied type="unclear">...</supplied>
-                </del> zeugend, was gewöhnlich für das Lehrtalent von schlimmer 
+                    </del> zeugend, was gewöhnlich für das Lehrtalent von schlimmer 
         <lb xml:id="p1-l17"/>Vorbedeutung ist. Es war mir <del>eine</del> oft eine wahre <hi>Corvée</hi>
                 <note type="transcript">= Schinderei, lästige Pflicht</note> zu erfahren, was er eigentlich wolle, obgleich 
         <pb n="2"/>
                 <lb xml:id="p2-l1"/>die Materie mir sehr nahe lag. Ich müßte ihn aber doch noch sehen, um deßwegen ihn wirklich abzu
                 <lb break="no" xml:id="p2-l2"/>rathen, denn Schreiben und Reden ist doch noch zweierlei. Als <choice>
-                    <abbr>
+                        <abbr>
                     <hi>Extraord<hi rend="sup">s</hi> </hi>
                 </abbr>
-                    <expan>Extraordinarius (ausserordentlicher [Professor])</expan>
-                </choice> mit <choice>
-                    <abbr>
+                        <expan>Extraordinarius (ausserordentlicher [Professor])</expan>
+                    </choice> mit <choice>
+                        <abbr>
                     <hi>Fr</hi>.</abbr>
-                    <expan>Franken / Francs / Franchi</expan>
-                </choice> 1200. gewiß zu haben. </p>
+                        <expan>Franken / Francs / Franchi</expan>
+                    </choice> 1200. gewiß zu haben. </p>
       <p rend="left" xml:id="K_1336_p5">
                 <lb xml:id="p2-l3"/>
         <hi rend="underline">
@@ -146,15 +147,15 @@
                 </hi> in Frage, der über das <placeName type="place" key="Römisches Reich">römische</placeName> Contumacial Verfahren<note type="transcript">= gerichtliches Verfahren gegen Abwesende</note> eine artige kleine 
         <lb xml:id="p2-l5"/>Schrift herausgegeben hat, schon seit mehrern Jahren <hi>
                     <choice>
-                        <abbr>Prof. extr.</abbr>
-                        <expan>Professor extraordinarius (ausserordentlicher Professor)</expan>
-                    </choice>
+                            <abbr>Prof. extr.</abbr>
+                            <expan>Professor extraordinarius (ausserordentlicher Professor)</expan>
+                        </choice>
                 </hi>, also wohl nur als <hi>Ordinarius</hi> etwa mit 
         <lb xml:id="p2-l6"/>24–2700. <choice>
-                    <abbr>
+                        <abbr>
                     <hi>Fr</hi>.</abbr>
-                    <expan>Franken / Francs / Franchi</expan>
-                </choice> zu haben. Persönlich mir unbekannt. Dann gibt es in <placeName type="place" key="Bayern (Königreich)">Baiern</placeName> einen <persName type="person" key="Völderndorff und Waradein Otto von">Otto Freiherrn<hi rend="underline"> v. Völders</hi> 
+                        <expan>Franken / Francs / Franchi</expan>
+                    </choice> zu haben. Persönlich mir unbekannt. Dann gibt es in <placeName type="place" key="Bayern (Königreich)">Baiern</placeName> einen <persName type="person" key="Völderndorff und Waradein Otto von">Otto Freiherrn<hi rend="underline"> v. Völders</hi> 
                     <lb break="no" xml:id="p2-l7"/>dorff</persName>, der einige hübsche kleinere Sachen geschrieben hat, und den ich doch nicht ungenannt lassen will, da er 
          <lb xml:id="p2-l8"/>etwas geistreiches zu haben scheint. Ein Kamel dagegen ist <hi rend="underline">
                     <persName type="person" key="Helmolt Theodor Ludwig von">Helmolt</persName>
@@ -162,28 +163,28 @@
         <lb xml:id="p2-l9"/>Unter den Jüngern muß ich aber noch besonders auf <hi>
                     <persName type="person" key="Bekker Ernst Immanuel">Bekker</persName>
                 </hi>, <choice>
-                    <abbr>
+                        <abbr>
                     <hi>PrivDoc</hi>.</abbr>
-                    <expan>PrivatDocent</expan>
-                </choice> in <placeName type="place" key="Halle (Saale) (D)">Halle</placeName>, aufmerksam machen, den Sohn des
+                        <expan>PrivatDocent</expan>
+                    </choice> in <placeName type="place" key="Halle (Saale) (D)">Halle</placeName>, aufmerksam machen, den Sohn des
         <lb xml:id="p2-l10"/>hiesigen Philologen <persName type="person" key="Bekker Immanuel">Immanuel</persName>, mir ganz genau bekannt. Ich habe ihn <choice>
-                    <abbr>i. J.</abbr>
-                    <expan>im Jahr</expan>
-                </choice> 1848. promovirt, und er ist, seit ich in
+                        <abbr>i. J.</abbr>
+                        <expan>im Jahr</expan>
+                    </choice> 1848. promovirt, und er ist, seit ich in
         <lb xml:id="p2-l11"/>
                 <placeName type="place" key="Berlin (D)">Berlin</placeName> bin, der einzige, der die erste Note bekommen hat. <hi>
                     <choice>
-                        <abbr>Diss.</abbr>
-                        <expan>Dissertation</expan>
-                    </choice> </hi> über die Eviction. Er schrieb dann zur Habilitation
+                            <abbr>Diss.</abbr>
+                            <expan>Dissertation</expan>
+                        </choice> </hi> über die Eviction. Er schrieb dann zur Habilitation
         <lb xml:id="p2-l12"/>über die Käufe bei <persName type="person" key="Plautus Titus Maccius">
                     <hi>Plautus</hi>
                 </persName> und neuerlich ein Buch über die processualische Consumtion, worin er beweisen will, 
         <lb xml:id="p2-l13"/>daß die <hi>
                     <choice>
-                        <abbr>Exc<hi rend="sup">o</hi> rei iud<hi rend="sup">ae</hi> </abbr>
-                        <expan>Exceptio rei iudicatae (Einrede der rechtskräftig entschiedenen Sache)</expan>
-                    </choice>
+                            <abbr>Exc<hi rend="sup">o</hi> rei iud<hi rend="sup">ae</hi> </abbr>
+                            <expan>Exceptio rei iudicatae (Einrede der rechtskräftig entschiedenen Sache)</expan>
+                        </choice>
                 </hi> <hi rend="underline">nur</hi> Consumtion und nie den positiven Inhalt des Urtheils geltend gemacht habe, was ihm 
         <lb xml:id="p2-l14"/>jedoch nach meinem und Anderer Urtheil keineswegs gelungen ist. <persName type="person" key="Huschke Philipp Eduard">Huschke</persName> sagt darüber in einer sehr ausführlichen 
         <lb xml:id="p2-l15"/>und gerechten Kritik, es sei kein gutes Buch, aber es mache den Eindruck, der Verfasser könne wohl noch dazu
@@ -191,9 +192,9 @@
                     <persName type="person" key="Bekker Ernst Immanuel">Bekker</persName>
                 </hi> hat etwas spitzfindiges, scharfes, malitiöses, 
         <lb xml:id="p2-l17"/>was sich aber leicht abschleifen kann, viel leichter als daß aus einem zahmen <persName type="person" key="Erxleben Albrecht">Erxleben</persName> <choice>
-                    <abbr>u. dgl.</abbr>
-                    <expan>und dergleichen</expan>
-                </choice> etwas kluges wird. 
+                        <abbr>u. dgl.</abbr>
+                        <expan>und dergleichen</expan>
+                    </choice> etwas kluges wird. 
         <pb n="3"/>
                 <lb xml:id="p3-l1"/>In Gelehrsamkeit, Tiefe, Scharfsinn und <add>geistiger</add> Operationsfähigkeit möchte ich <persName type="person" key="Bekker Ernst Immanuel">
                     <hi>Bekker</hi>
@@ -207,32 +208,32 @@
         <lb xml:id="p3-l5"/>sondern etwa mir den Auftrag zu geben, ihm eine so und so beschaffene Stelle auf sofortiges Ja oder Nein münd
                 <lb break="no" xml:id="p3-l6"/>lich anzubieten, und hielte es, obgleich er jetzt bloß Privatdocent ist, für zweckmäßig, ihm dann gleich eine ordentliche 
         <lb xml:id="p3-l7"/>Professur mit etwa <choice>
-                    <abbr>Fr.</abbr>
-                    <expan>Franken / Francs / Franchi</expan>
-                </choice> 2000. (nur) zu bestimmen. </p>
+                        <abbr>Fr.</abbr>
+                        <expan>Franken / Francs / Franchi</expan>
+                    </choice> 2000. (nur) zu bestimmen. </p>
       <p rend="indent" xml:id="K_1336_p6">
                 <lb xml:id="p3-l8"/>Für eine ordentliche Professur käme endlich auch <persName type="person" key="Müller Karl Otto">K. O. Müller</persName>, <hi>
                     <choice>
-                        <abbr>Prof. extr.</abbr>
-                        <expan>Professor extraordinarius (ausserordentlicher Professor)</expan>
-                    </choice> </hi> in <placeName type="place" key="Leipzig (D)">Leipzig</placeName> in Betracht, der aber den vollen etats
+                            <abbr>Prof. extr.</abbr>
+                            <expan>Professor extraordinarius (ausserordentlicher Professor)</expan>
+                        </choice> </hi> in <placeName type="place" key="Leipzig (D)">Leipzig</placeName> in Betracht, der aber den vollen etats
                 <lb break="no" xml:id="p3-l9"/>mäßigen Gehalt bekommen müßte; er hat über Eviction und über Eisenbahnvergehen geschrieben und neuerlich ein 
         <lb xml:id="p3-l10"/>InstitutionenLehrbuch herausgegeben, – etwa 32–35. Jahre alt, mir genau bekannt.</p>
       <p rend="indent" xml:id="K_1336_p7">
                 <lb xml:id="p3-l11"/>So viel für jetzt. Nun habe ich aber in 3. Wochen Ferien, und wenn ich Dir damit dienen kann, etwa einen der 
             <lb xml:id="p3-l12"/>genannten, so weit ich ihn persönlich noch nicht kenne, in <placeName type="place" key="Göttingen (D)">Göttingen</placeName>, <placeName type="place" key="Breslau (PL)">Breslau</placeName> <choice>
-                    <abbr>u. dgl.</abbr>
-                    <expan>und dergleichen</expan>
-                </choice> in Augenschein zu nehmen, so bin 
+                        <abbr>u. dgl.</abbr>
+                        <expan>und dergleichen</expan>
+                    </choice> in Augenschein zu nehmen, so bin 
         <lb xml:id="p3-l13"/>ich dazu gerne bereit, wenn man auf solchen ein etwas bestimmteres Auge geworfen hätte. Auch etwaige Unterhand
                 <lb break="no" xml:id="p3-l14"/>lungen werde ich mit Vergnügen übernehmen. Ist es wahr, daß <persName type="person" key="Geib Gustav">Geib</persName> sehr bedenklich erkrankt ist? Und <persName type="person" key="Snell Ludwig">L. Snell</persName> <lb xml:id="p3-l15"/>todt? Ich hatte gerade in den letzten Monaten auf seinen Wunsch vielfach mit dem <persName type="person" key="Bodelschwingh Carl von">Finanzminister</persName> wegen seiner 
         <lb xml:id="p3-l16"/>Pension verhandelt. </p>
       <p rend="indent" xml:id="K_1336_p8">
                 <lb xml:id="p3-l17"/>So. Und nun bitte schreibe noch etwas näheres von <persName type="person" key="Stockar-Escher (vom Glas) Clementine">Clementine</persName>, deren Krankheit uns alle wahrhaft beunruhigt. Grüße sie
         <lb xml:id="p3-l18"/>und die <choice>
-                    <abbr>l.</abbr>
-                    <expan>lieb</expan>
-                </choice> <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Mutter</persName> recht herzlich. Und was macht <persName type="person" key="Escher (vom Glas) Anna">
+                        <abbr>l.</abbr>
+                        <expan>lieb</expan>
+                    </choice> <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Mutter</persName> recht herzlich. Und was macht <persName type="person" key="Escher (vom Glas) Anna">
                     <hi>Nannette</hi>
                 </persName> und die <hi>
                     <persName type="person" key="Escher (vom Glas) Georg">
@@ -247,7 +248,8 @@
         <lb xml:id="p4-l3"/>macht sich dabei in der Schule gut. <persName type="person" key="Keller Carl Emil">Emil</persName> befindet sich wie in <persName type="person" key="Abraham">Abrahams</persName> Schooße<note type="transcript">sic!</note> als Aufseher auf einem Gute in <placeName type="place" key="Schlesien">Schlesien</placeName>, 
         <lb xml:id="p4-l4"/>und hat neulich seinen ersten Lieutenantsdienst in der Landwehr gemacht. <persName type="person" key="Keller-Lavater Ida">Frau</persName> und <persName type="person" key="Keller Emma">Emma</persName> sind munter und gesund, 
         <lb xml:id="p4-l5"/>und grüßen schön. Jetzt weißt Du alles, grüße Alle so mir nachfragen, und schreibe bald wieder. </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="center" xml:id="K_1336_p9">

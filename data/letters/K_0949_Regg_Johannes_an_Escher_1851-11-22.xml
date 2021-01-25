@@ -27,8 +27,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Rüegg Johannes" type="sender">Johannes Rüegg</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Rüegg Johannes" type="sender">Johannes Rüegg</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Winterthur</placeName>
                     <date when="1851-11-22">Samstag, November 22, 1851</date>
                 </correspAction>
@@ -78,6 +78,7 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_0949_p2">
                 <lb xml:id="p1-l2"/>Die Vorsteherschaft des Landboten hat sich <date when="1851-11-21">gestern</date>
         einläßlich mit der <lb xml:id="p1-l3"/> Frage beschäftiget, wie und auf welche Art für das Jahr
@@ -98,23 +99,23 @@
         Bezirken sich <lb xml:id="p1-l18"/> der Sache kräftig anzunehmen, – denn auch darüber sind wir
         bitter <lb xml:id="p1-l19"/> in's Klare gekommen. Dieser Punkt es nun vorzüglich, der uns <lb xml:id="p1-l20"/> veranlaßt Hülfe und Unterstützung bei Ihnen und bei Ihren Freun
                 <lb break="no" xml:id="p1-l21"/>den, Herr <persName type="person" key="Dubs Jakob">Dubs</persName>, Herr <persName type="person" key="Bollier Rudolf">Bollier</persName> <choice>
-                    <abbr>&amp;. A.</abbr>
-                    <expan>und Andere</expan>
-                </choice> zu suchen und
+                        <abbr>&amp;. A.</abbr>
+                        <expan>und Andere</expan>
+                    </choice> zu suchen und
         Sie zu bitten, Ihren <lb xml:id="p1-l22"/> Einfluß dahin zu verwenden, daß wir vorzugsweise in
         oder um <lb xml:id="p1-l23"/>
                 <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> Jemand finden,
         der es übernähme in der angedeuteten <lb xml:id="p1-l24"/> Richtung zu wirken. Herr <persName type="person" key="Dubs Jakob">Dubs</persName> hätte vielleicht die Güte ein Gleiches <lb xml:id="p1-l25"/> zu thun mit Bezug auf den Bezirk <placeName type="place" key="Affoltern am Albis">Affoltern</placeName>, Herr <choice>
-                    <abbr>Rgrth</abbr>
-                    <expan>Regierungsrath</expan>
-                </choice> <persName type="person" key="Bollier Rudolf">Bollier</persName> <lb xml:id="p1-l26"/> mit Hinsicht auf die beiden Seeufer,
+                        <abbr>Rgrth</abbr>
+                        <expan>Regierungsrath</expan>
+                    </choice> <persName type="person" key="Bollier Rudolf">Bollier</persName> <lb xml:id="p1-l26"/> mit Hinsicht auf die beiden Seeufer,
         wo für uns seit mehrern <lb xml:id="p1-l27"/> Jahren <hi rend="underline">Niemand</hi> eingestanden ist. Für den
         Bezirk <placeName type="place" key="Winterthur">Wthr</placeName>, wenn mög
                 <lb break="no" xml:id="p1-l28"/>lich
         für <placeName type="place" key="Andelfingen">Andelfingen</placeName> und <choice>
-                    <abbr>A.</abbr>
-                    <expan>Andere</expan>
-                </choice>, 
+                        <abbr>A.</abbr>
+                        <expan>Andere</expan>
+                    </choice>, 
         werden wir Hülfe zu finden suchen. <lb xml:id="p1-l29"/> Das dürfen wir uns nicht verhehlen, daß
           <del>es</del> <add>unsere Absicht</add> nur dann erreicht werden <pb n="2"/>
                 <lb xml:id="p2-l1"/> kann, wenn der Gegenstand <hi rend="underline">kräftig</hi> an die Hand genommen und kein Mittel<lb xml:id="p2-l2"/> unbeachtet gelassen wird die Liberalen tüchtig aufzurütteln. Die vor
@@ -139,7 +140,8 @@
         Berücksichtigung re
                 <lb break="no" xml:id="p2-l29"/>digiren würde, in bedeutender An<del>theil</del> <add>zahl</add> gratis unter's Publikum zu <lb xml:id="p2-l30"/> bringen.
         –</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="left" xml:id="K_0949_p4">

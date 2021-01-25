@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Lusser Josef" type="sender">Josef Lusser</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Lusser Josef" type="sender">Josef Lusser</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Altdorf (UR)</placeName>
                     <date when="1851-10-20">Montag, Oktober 20, 1851</date>
                 </correspAction>
@@ -81,6 +81,7 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_0936_p2">
                 <lb xml:id="p1-l2"/> Indem ich Ihnen für Ihre ebenso schnelle<lb xml:id="p1-l3"/> als
 				beruhigende Antwort herzlich danke;<lb xml:id="p1-l4"/> wage ich's auch noch, Sie, wie
@@ -91,30 +92,30 @@
 				<placeName type="place" key="Nidwalden">Niedwalden</placeName>,<lb xml:id="p1-l7"/> sollen, wie ich
 				so eben erfahre, gesinnt sein<lb xml:id="p1-l8"/> liberale Männer zu Nationalräthen
 					zuwählen<lb xml:id="p1-l9"/> &amp; zwar in <placeName type="place" key="Nidwalden">Niedwalden</placeName> den <choice>
-                    <abbr>Hrn.</abbr>
-                    <expan>Herrn</expan>
-                </choice> alt
+                        <abbr>Hrn.</abbr>
+                        <expan>Herrn</expan>
+                    </choice> alt
 					Statthalter<lb xml:id="p1-l10"/>
                 <persName type="person" key="Odermatt Franz Josef">Odermatt</persName> &amp; in
 					<placeName type="place" key="Obwalden">Obwalden</placeName> den wakeren<lb xml:id="p1-l11"/>
 				Landammann <persName type="person" key="Michel Alois">Michel</persName>! Diese frohe Kunde<lb xml:id="p1-l12"/> hat unsere wenigen Liberalen wieder ermuthigt<lb xml:id="p1-l13"/>
 					&amp; wir werden uns daher <date when="1851-10-21">Morgen</date> auch mit<lb xml:id="p1-l14"/> einigen vertrauten Männern vom Lande<lb xml:id="p1-l15"/> berathen, ob
 				wir nicht auch versuchen sollten<lb xml:id="p1-l16"/> den <choice>
-                    <abbr>Hrn.</abbr>
-                    <expan>Herrn</expan>
-                </choice> Bundesrichter <persName type="person" key="Jauch Franz">
-                    <hi>Jauch</hi>
-                </persName> zum
+                        <abbr>Hrn.</abbr>
+                        <expan>Herrn</expan>
+                    </choice> Bundesrichter <persName type="person" key="Jauch Franz">
+                        <hi>Jauch</hi>
+                    </persName> zum
 					Nationalrath<lb xml:id="p1-l17"/> vorzuschlagen! Wären die 
 					<placeName type="place" key="Urserental">Ursner</placeName>
 				 wirklich<lb xml:id="p1-l18"/> liberal, so sollten sie hinab
 				an die Lands
                 <lb break="no" xml:id="p1-l19"/>gemeinde kommen &amp; uns helfen <choice>
-                    <abbr>Hrn.</abbr>
-                    <expan>Herrn</expan>
-                </choice> <persName type="person" key="Jauch Franz">
-                    <hi>Jauch</hi>
-                </persName> <lb xml:id="p1-l20"/> zuwählen, allein diese Leute dadroben sind<lb xml:id="p1-l21"/> leider
+                        <abbr>Hrn.</abbr>
+                        <expan>Herrn</expan>
+                    </choice> <persName type="person" key="Jauch Franz">
+                        <hi>Jauch</hi>
+                    </persName> <lb xml:id="p1-l20"/> zuwählen, allein diese Leute dadroben sind<lb xml:id="p1-l21"/> leider
 				bloße Sakpatrioten &amp; kommen nicht ohne<lb xml:id="p1-l22"/> man bezahle sie
 					&amp; so werden wir leider<lb xml:id="p1-l23"/> wohl für dieses Mal noch
 				auf diese Wahl<lb xml:id="p1-l24"/> verzichten müßen! Wenn es nur bei Ihnen
@@ -136,7 +137,8 @@
                 <lb xml:id="p2-l13"/> Indem ich hoffe, Ihnen mit diesen paar Zeilen<lb xml:id="p2-l14"/>
 				nicht beschwerlich geworden zusein, habe die<lb xml:id="p2-l15"/> Ehre, Sie meiner
 				tiefsten Hochachtung zuversicher<supplied>n</supplied> <lb xml:id="p2-l16"/> mit welcher stets geharret </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="center" xml:id="K_0936_p7">

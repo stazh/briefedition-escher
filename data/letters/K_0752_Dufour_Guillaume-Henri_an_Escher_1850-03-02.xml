@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Dufour Guillaume-Henri" type="sender">Guillaume-Henri Dufour</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Dufour Guillaume-Henri" type="sender">Guillaume-Henri Dufour</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Genf</placeName>
                     <date when="1850-03-02">Samstag, März 2, 1850</date>
                 </correspAction>
@@ -66,20 +66,22 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_0752_p3">
-                <lb xml:id="p1-l3"/> Je viens à regrèt vous annoncer que<lb xml:id="p1-l4"/> je ne puis pas me
+                    <lb xml:id="p1-l3"/> Je viens à regrèt vous annoncer que<lb xml:id="p1-l4"/> je ne puis pas me
         rendre à <placeName type="place" key="Bern (Stadt)">Berne</placeName> <lb xml:id="p1-l5"/> pour assister aux
         séance de la Com<lb break="no" xml:id="p1-l6"/>mission que vous présidez. Deux af<lb break="no" xml:id="p1-l7"/>faires importantes, que je ne puis pas<lb xml:id="p1-l8"/> négliger et qu'il faut absolument
           terminer,<lb xml:id="p1-l9"/> me retiennent ici. Je vous prie donc<lb xml:id="p1-l10"/> de vouloir
         bien excuser mon absence. </p>
       <p rend="indent" xml:id="K_0752_p4">
-                <lb xml:id="p1-l11"/> Au reste, d'après ce que m'a dit notre<lb xml:id="p1-l12"/> Collègue le <choice>
-                    <abbr>Col.</abbr>
-                    <expan>Colonel (Oberst)</expan>
-                </choice> <persName type="person" key="Siegfried Samuel Friedrich">Siegfried</persName><!--verifiziert CF-->, il ne s'agirait<lb xml:id="p1-l13"/> pour le moment, que d'examiner le
+                    <lb xml:id="p1-l11"/> Au reste, d'après ce que m'a dit notre<lb xml:id="p1-l12"/> Collègue le <choice>
+                        <abbr>Col.</abbr>
+                        <expan>Colonel (Oberst)</expan>
+                    </choice> <persName type="person" key="Siegfried Samuel Friedrich">Siegfried</persName><!--verifiziert CF-->, il ne s'agirait<lb xml:id="p1-l13"/> pour le moment, que d'examiner le
           projet<lb xml:id="p1-l14"/> de loi d'expropriation; en quoi je ne serais<lb xml:id="p1-l15"/> que
         d'une bien faible utilité à la Commission. </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_0752_p5">

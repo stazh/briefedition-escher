@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1876-03-24">Freitag, März 24, 1876</date>
                 </correspAction>
@@ -59,19 +59,21 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_2741_p2">
-                <lb xml:id="p1-l2"/>Ich habe das Machwerk <seg type="com">
-                    <note xml:id="K_2741_c1">Nachträgliche Notiz von Eschers Hand mit Bleistift: <bibl>Artikel d. <choice>
-                                <abbr>Norddeutsch. Allg. Ztg.</abbr>
-                                <expan>Norddeutsche Allgemeine Zeitung</expan>
-                            </choice> </bibl>
-                    </note>
-                </seg> gelesen; kann
+                    <lb xml:id="p1-l2"/>Ich habe das Machwerk <seg type="com">
+                        <note xml:id="K_2741_c1">Nachträgliche Notiz von Eschers Hand mit Bleistift: <bibl>Artikel d. <choice>
+                                    <abbr>Norddeutsch. Allg. Ztg.</abbr>
+                                    <expan>Norddeutsche Allgemeine Zeitung</expan>
+                                </choice> </bibl>
+                        </note>
+                    </seg> gelesen; kann
             <lb xml:id="p1-l3"/>aber nur sagen dass der es geschrieben
             <lb xml:id="p1-l4"/>hat ein ganz infamer Schuft sein muss.
             <lb xml:id="p1-l5"/>Ich selbst würde dem Namen nicht auf
             <lb xml:id="p1-l6"/>die Spur kommen.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="right" xml:id="K_2741_p3">

@@ -10,7 +10,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier>
+                    <msIdentifier type="Abzug">
                         <institution>BAR</institution>
                         <idno type="original">CH-BAR#J1.67#1000/1363#186*</idno>
                     </msIdentifier>
@@ -27,8 +27,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName ref="Hirzel-Lampe Hans Caspar" type="addressee">Hans Caspar Hirzel-Lampe</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
+                    <persName key="Hirzel-Lampe Hans Caspar" type="addressee">Hans Caspar Hirzel-Lampe</persName>
                     <placeName>Zürich</placeName>
                     <date when="1859-03-12">Samstag, März 12, 1859</date>
                 </correspAction>
@@ -57,15 +57,16 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_1764_p2">
-                <lb xml:id="p1-l2"/>Obgleich Sie Ihre <seg type="ref">Zeilen<ref type="letter" target="K_1180"/>
-                </seg> <choice>
-                    <abbr>v.</abbr>
-                    <expan>von</expan>
-                </choice> <lb xml:id="p1-l3"/>  <date when="1859-03-09">9 <choice>
-                        <abbr>dß.</abbr>
-                        <expan>dieses [Monats]</expan>
-                    </choice> </date> nicht als <placeName type="place" key="Leipzig (D)">Leipziger</placeName>, sondern
+                    <lb xml:id="p1-l2"/>Obgleich Sie Ihre <seg type="ref">Zeilen<ref type="letter" target="K_1180"/>
+                    </seg> <choice>
+                        <abbr>v.</abbr>
+                        <expan>von</expan>
+                    </choice> <lb xml:id="p1-l3"/>  <date when="1859-03-09">9 <choice>
+                            <abbr>dß.</abbr>
+                            <expan>dieses [Monats]</expan>
+                        </choice> </date> nicht als <placeName type="place" key="Leipzig (D)">Leipziger</placeName>, sondern
             <lb xml:id="p1-l4"/>als <placeName type="place" key="Zürich (Stadt)">Zürcher</placeName> an mich zu richten
             <lb xml:id="p1-l5"/>erklären, so muß ich gleichwol
             <lb xml:id="p1-l6"/>zu meinem Bedauern bekennen,
@@ -78,7 +79,7 @@
             <lb xml:id="p1-l14"/>wohl nicht einer nähern Ausei<lb break="no" xml:id="p1-l15"/>nandersetzung, daß, wenn ich
             <lb xml:id="p1-l16"/>auch sonst zu einer solchen Sinnes<lb break="no" xml:id="p1-l17"/>änderung geneigt gewesen wäre,
             <pb n="2"/>
-                <lb xml:id="p2-l1"/>was zwar durchaus nicht der Fall
+                    <lb xml:id="p2-l1"/>was zwar durchaus nicht der Fall
             <lb xml:id="p2-l2"/>ist, die Anwendung jenes Mit<lb break="no" xml:id="p2-l3"/>tels sie nicht gestatten würde.
             <lb xml:id="p2-l4"/>Was sie aber mit «Beschlüssen»
             <lb xml:id="p2-l5"/>meinen, «zu welchen Sie die Ge<lb break="no" xml:id="p2-l6"/>neralversammlung veranlassen
@@ -92,16 +93,17 @@
             <lb xml:id="p2-l18"/>aus welchem Grunde – als unan<lb break="no" xml:id="p2-l19"/>genehm für mich vorstellt, gehö<lb break="no" xml:id="p2-l20"/>rig die Spitze bieten zu können.
             <lb xml:id="p2-l21"/>Hiezu bin ich auch vollständig
             <pb n="3"/>
-                <lb xml:id="p3-l1"/>gerüstet &amp; aufgelegt!</p>
+                    <lb xml:id="p3-l1"/>gerüstet &amp; aufgelegt!</p>
       <p rend="indent" xml:id="K_1764_p3">
-                <lb xml:id="p3-l2"/>Ich bedaure die gegenwärtige
+                    <lb xml:id="p3-l2"/>Ich bedaure die gegenwärtige
                 <lb xml:id="p3-l3"/>Correspondenz, zu der ich keine
                 <lb xml:id="p3-l4"/>Veranlassung gegeben habe, &amp;
                 <lb xml:id="p3-l5"/>glaube mich der Hoffnung hin<lb break="no" xml:id="p3-l6"/>geben zu dürfen, daß auch Sie
                 <lb xml:id="p3-l7"/>es in Zukunft vorziehen wer<lb break="no" xml:id="p3-l8"/>den, in der bisherigen ange<lb break="no" xml:id="p3-l9"/>nehmen Weise mit mir zu
                 <lb xml:id="p3-l10"/>verkehren.
             </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="center" xml:id="K_1764_p4">

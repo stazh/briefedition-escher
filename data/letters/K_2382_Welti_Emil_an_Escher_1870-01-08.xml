@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1870-01-08">Samstag, Januar 8, 1870</date>
                 </correspAction>
@@ -66,21 +66,23 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_2382_p2">
-                <lb xml:id="p1-l2"/>Indem ich Ihnen die mir gefälligst
+                    <lb xml:id="p1-l2"/>Indem ich Ihnen die mir gefälligst
                     mit<lb break="no" xml:id="p1-l3"/>getheilten Acten wieder zurückstelle bemer<lb break="no" xml:id="p1-l4"/>ke ich dass hier momentan wieder <lb xml:id="p1-l5"/>ein etwas besserer
                 Wind in der Sub<lb break="no" xml:id="p1-l6"/>ventionsfrage weht; wie lange er an<lb break="no" xml:id="p1-l7"/>halten wird weiss ich freilich nicht. <lb xml:id="p1-l8"/>Wie Sie aus
                 den Zeitungen wohl schon <lb xml:id="p1-l9"/>ersehen haben ist die Conferenz mit den <pb n="2"/>
-                <lb xml:id="p2-l1"/>subventionirenden<note type="transcript">sic!</note> Cantonen <choice>
-                    <abbr>u</abbr>
-                    <expan>und</expan>
-                </choice> Gesellschaften <lb xml:id="p2-l2"/>auf <date when="1870-01-24">Montag den 24. <choice>
-                        <abbr>d. Mts.</abbr>
-                        <expan>dieses Monats</expan>
-                    </choice> </date> angesetzt. <lb xml:id="p2-l3"/>Ist <placeName type="place" key="Bern">Bern</placeName> nun an Ihre Regierung
+                    <lb xml:id="p2-l1"/>subventionirenden<note type="transcript">sic!</note> Cantonen <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Gesellschaften <lb xml:id="p2-l2"/>auf <date when="1870-01-24">Montag den 24. <choice>
+                            <abbr>d. Mts.</abbr>
+                            <expan>dieses Monats</expan>
+                        </choice> </date> angesetzt. <lb xml:id="p2-l3"/>Ist <placeName type="place" key="Bern">Bern</placeName> nun an Ihre Regierung
                 gelangt? <lb xml:id="p2-l4"/>Ich bitte Sie mich hierüber nur mit <lb xml:id="p2-l5"/>einer
                 Zeile zu verständigen.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_2382_p3">

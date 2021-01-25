@@ -30,8 +30,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Weiss Heinrich" type="sender">Heinrich Weiss</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Weiss Heinrich" type="sender">Heinrich Weiss</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Winterthur</placeName>
                     <date when="1847-08-06">Freitag, August 6, 1847</date>
                 </correspAction>
@@ -61,42 +61,43 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_0478_p2">
-                <lb xml:id="p1-l2"/>Auf <choice>
-                    <abbr>m:</abbr>
-                    <expan>mein</expan>
-                </choice> Rückreise von <placeName type="place" key="Bern (Stadt)">Bern</placeName> hätte ich Sie gerne besucht, um Ihnen mündlich mitzu<lb break="no" xml:id="p1-l3"/>theilen,
+                    <lb xml:id="p1-l2"/>Auf <choice>
+                        <abbr>m:</abbr>
+                        <expan>mein</expan>
+                    </choice> Rückreise von <placeName type="place" key="Bern (Stadt)">Bern</placeName> hätte ich Sie gerne besucht, um Ihnen mündlich mitzu<lb break="no" xml:id="p1-l3"/>theilen,
  welche Eindrücke ich von dem dortigen dreitägigen Aufenthalte zurückgebracht<lb xml:id="p1-l4"/>
 hatte; das schnelle Durchreisen gestattete mir aber den Besuch nicht. Desshalb hier Einiges schrift<lb break="no" xml:id="p1-l5"/>lich. 
 – Die kantonalen Zustände <placeName type="place" key="Bern">Berns</placeName> gefallen mir nicht. Es ist möglich, daß der Mangel<lb xml:id="p1-l6"/>
 an Gelegenheit, die <choice>
-                    <abbr>HH.</abbr>
-                    <expan>Herren</expan>
-                </choice> <seg type="com">
-                    <persName type="person" key="Ochsenbein Ulrich">Ochsenbein</persName>
-                    <note xml:id="K_0478_c1">
-                        <persName type="person" key="Ochsenbein Ulrich">Ulrich Ochsenbein</persName> (1811–1890), Tagsatzungspräsident und Regierungsrat (<placeName type="place" key="Bern">BE</placeName>).</note>
-                </seg>, <seg type="com">
-                    <persName type="person" key="Schneider Johann Rudolf">Schneider</persName>
-                    <note xml:id="K_0478_c2">
-                        <persName type="person" key="Schneider Johann Rudolf">Johann Rudolf Schneider</persName> (1804–1880), Tagsatzungsgesandter und Regierungsrat (<placeName type="place" key="Bern">BE</placeName>).</note>
-                </seg> &amp; <seg type="com">
-                    <persName type="person" key="Stämpfli Jakob">Stämpfli</persName>
-                    <note xml:id="K_0478_c3">
-                        <persName type="person" key="Stämpfli Jakob">Jakob Stämpfli</persName> (1820–1879), Tagsatzungsgesandter und Regierungsrat (<placeName type="place" key="Bern">BE</placeName>).</note>
-                </seg> zu sprechen &amp; der Umstand, daß ich nur<lb xml:id="p1-l7"/> <seg type="com">
-                    <persName type="person" key="Niggeler Niklaus">Niggeler</persName>
-                    <note xml:id="K_0478_c4">
-                        <persName type="person" key="Niggeler Niklaus">Niklaus Niggeler</persName> (1817–1872), Präsident des Grossen Rats (<placeName type="place" key="Bern">BE</placeName>), Anwalt und Redaktor der «<placeName type="place" key="Bern">Berner</placeName> Zeitung».</note>
-                </seg>, <seg type="com">
-                    <persName type="person" key="Scherz Jakob">Scherz</persName>
-                    <note xml:id="K_0478_c5">
-                        <persName type="person" key="Scherz Jakob">Jakob Scherz</persName> (1818–1889), Grossrat (<placeName type="place" key="Bern">BE</placeName>), Fürsprecher in <placeName type="place" key="Bern">Bern</placeName> und Mitarbeiter bei der «<placeName type="place" key="Bern">Berner</placeName> Zeitung».</note>
-                </seg> &amp; <seg type="com">
-                    <persName type="person" key="Matthys Andreas">Matthys</persName>
-                    <note xml:id="K_0478_c6">
-                        <persName type="person" key="Matthys Andreas">Andreas Matthys</persName> (1817–1872), Grossrat (<placeName type="place" key="Bern">BE</placeName>) und Anwalt.</note>
-                </seg> im großen Rathe sah, die Schuld an dieser Ansicht tragen. Ich<lb xml:id="p1-l8"/>
+                        <abbr>HH.</abbr>
+                        <expan>Herren</expan>
+                    </choice> <seg type="com">
+                        <persName type="person" key="Ochsenbein Ulrich">Ochsenbein</persName>
+                        <note xml:id="K_0478_c1">
+                            <persName type="person" key="Ochsenbein Ulrich">Ulrich Ochsenbein</persName> (1811–1890), Tagsatzungspräsident und Regierungsrat (<placeName type="place" key="Bern">BE</placeName>).</note>
+                    </seg>, <seg type="com">
+                        <persName type="person" key="Schneider Johann Rudolf">Schneider</persName>
+                        <note xml:id="K_0478_c2">
+                            <persName type="person" key="Schneider Johann Rudolf">Johann Rudolf Schneider</persName> (1804–1880), Tagsatzungsgesandter und Regierungsrat (<placeName type="place" key="Bern">BE</placeName>).</note>
+                    </seg> &amp; <seg type="com">
+                        <persName type="person" key="Stämpfli Jakob">Stämpfli</persName>
+                        <note xml:id="K_0478_c3">
+                            <persName type="person" key="Stämpfli Jakob">Jakob Stämpfli</persName> (1820–1879), Tagsatzungsgesandter und Regierungsrat (<placeName type="place" key="Bern">BE</placeName>).</note>
+                    </seg> zu sprechen &amp; der Umstand, daß ich nur<lb xml:id="p1-l7"/> <seg type="com">
+                        <persName type="person" key="Niggeler Niklaus">Niggeler</persName>
+                        <note xml:id="K_0478_c4">
+                            <persName type="person" key="Niggeler Niklaus">Niklaus Niggeler</persName> (1817–1872), Präsident des Grossen Rats (<placeName type="place" key="Bern">BE</placeName>), Anwalt und Redaktor der «<placeName type="place" key="Bern">Berner</placeName> Zeitung».</note>
+                    </seg>, <seg type="com">
+                        <persName type="person" key="Scherz Jakob">Scherz</persName>
+                        <note xml:id="K_0478_c5">
+                            <persName type="person" key="Scherz Jakob">Jakob Scherz</persName> (1818–1889), Grossrat (<placeName type="place" key="Bern">BE</placeName>), Fürsprecher in <placeName type="place" key="Bern">Bern</placeName> und Mitarbeiter bei der «<placeName type="place" key="Bern">Berner</placeName> Zeitung».</note>
+                    </seg> &amp; <seg type="com">
+                        <persName type="person" key="Matthys Andreas">Matthys</persName>
+                        <note xml:id="K_0478_c6">
+                            <persName type="person" key="Matthys Andreas">Andreas Matthys</persName> (1817–1872), Grossrat (<placeName type="place" key="Bern">BE</placeName>) und Anwalt.</note>
+                    </seg> im großen Rathe sah, die Schuld an dieser Ansicht tragen. Ich<lb xml:id="p1-l8"/>
 wohnte nämmlich <note type="transcript">sic!</note> der Großrathssitzung einige Stunden bei; mit welcher Oberflächlichkeit aber<lb xml:id="p1-l9"/>
 hier die Sachen behandelt wurden, kann ich Ihnen nicht genug sagen, &amp; hauptsächlich waren<lb xml:id="p1-l10"/>
 es diese 3 jungen Männer, welche die Verhandlungen leiteten &amp; fortführten. Von einem<lb xml:id="p1-l11"/>
@@ -109,76 +110,76 @@ Männer sowohl in als außer der Behörde das große Wort zu führen, und ihnen 
 jene Gründlichkeit, jene Bildung und jener praktische Blick, der seit 1830 im großen<lb xml:id="p1-l18"/>
 Rathe von <placeName type="place" key="Zürich">Zürich</placeName> sich geltend gemacht hat. Es ist im buchstäblichen Sinne die hohle, leere<lb xml:id="p1-l19"/>
 Schule «Vater <seg type="com">
-                    <persName type="person" key="Snell Wilhelm">Snells</persName>
-                    <note xml:id="K_0478_c7">
-                        <persName type="person" key="Snell Wilhelm">Wilhelm Snell</persName> (1789–1851), Landrat (<placeName type="place" key="Basel-Landschaft">BL</placeName>) und Privatgelehrter in <placeName type="place" key="Liestal">Liestal</placeName> – <persName type="person" key="Snell Wilhelm">Snell</persName> war von 1833 bis 1845 als Rechtsprofessor an der Universität <placeName type="place" key="Bern (Stadt)">Bern</placeName> tätig. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D13292.php">
-                            <ref type="lit">HLS online</ref>, Snell Wilhelm</ref>.</note>
-                </seg> », die sich in einseitiger Weise Alles nach ihren jugendlichen<lb xml:id="p1-l20"/>
+                        <persName type="person" key="Snell Wilhelm">Snells</persName>
+                        <note xml:id="K_0478_c7">
+                            <persName type="person" key="Snell Wilhelm">Wilhelm Snell</persName> (1789–1851), Landrat (<placeName type="place" key="Basel-Landschaft">BL</placeName>) und Privatgelehrter in <placeName type="place" key="Liestal">Liestal</placeName> – <persName type="person" key="Snell Wilhelm">Snell</persName> war von 1833 bis 1845 als Rechtsprofessor an der Universität <placeName type="place" key="Bern (Stadt)">Bern</placeName> tätig. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D13292.php">
+                                <ref type="lit">HLS online</ref>, Snell Wilhelm</ref>.</note>
+                    </seg> », die sich in einseitiger Weise Alles nach ihren jugendlichen<lb xml:id="p1-l20"/>
 Ideen zu beurtheilen &amp; zu schaffen herausnimmt. Der Geist, der in diesem Kreise herrscht,<lb xml:id="p1-l21"/>
         ist nicht der wahre, ächte <note type="transcript">sic!</note> <placeName type="place" key="Bern">Berner</placeName> Geist, nur fremdes flüchtiges, flottes <seg type="com">Reis<note xml:id="K_0478_c8">Reis: Zweig.</note>
-                </seg>, auf den<lb xml:id="p1-l22"/>
+                    </seg>, auf den<lb xml:id="p1-l22"/>
 harten Stamm verpflanzt, auf dem er nun &amp; nimmermehr Frucht tragen kann. Ich fürchte,<lb xml:id="p1-l23"/>
 wenn ich nicht die Sache zu düster ansehe, das Ding wird sich ändern.</p>
       <p rend="indent" xml:id="K_0478_p3">
-                <lb xml:id="p1-l24"/>Wie es um die <seg type="com">Tagsatzung<note xml:id="K_0478_c9">Die erste Session der ordentlichen Tagsatzung fand vom <date when="1847-07-05">5. Juli</date> bis zum <date when="1847-09-09">9. September 1847</date> in <placeName type="place" key="Bern (Stadt)">Bern</placeName> statt.</note>
-                </seg> steht, wissen Sie, auch wenn Sie nicht selbst sahen, dennoch<lb xml:id="p1-l25"/>
+                    <lb xml:id="p1-l24"/>Wie es um die <seg type="com">Tagsatzung<note xml:id="K_0478_c9">Die erste Session der ordentlichen Tagsatzung fand vom <date when="1847-07-05">5. Juli</date> bis zum <date when="1847-09-09">9. September 1847</date> in <placeName type="place" key="Bern (Stadt)">Bern</placeName> statt.</note>
+                    </seg> steht, wissen Sie, auch wenn Sie nicht selbst sahen, dennoch<lb xml:id="p1-l25"/>
 so gut wie ich. Unser <seg type="ref">
-                    <persName type="person" key="Furrer Jonas">Furrer</persName>
-                    <ref type="kbp">→ Jonas Furrer</ref>
-                </seg> ist entschieden, keine Spur mehr von jener Stimmung, beim<lb xml:id="p1-l26"/>
+                        <persName type="person" key="Furrer Jonas">Furrer</persName>
+                        <ref type="kbp">→ Jonas Furrer</ref>
+                    </seg> ist entschieden, keine Spur mehr von jener Stimmung, beim<lb xml:id="p1-l26"/>
         letzten <seg type="com">großen Rathe.<note xml:id="K_0478_c10">Im <placeName type="place" key="Zürich">Zürcher</placeName> Grossen Rat wurde am <date when="1847-06-22">22. Juni 1847</date> über die Tagsatzungsinstruktionen abgestimmt. Im Vorfeld der Grossratsverhandlungen erhob <persName type="person" key="Furrer Jonas">Furrer</persName> Einwände gegen den Instruktionsentwurf betreffend Auflösung des Sonderbunds und die Ausweisung der Jesuiten, der ihm zu radikal war. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">NZZ</ref>, 22. Juni 1847, 23. Juni 1847, 24. Juni 1847; <ref type="lit">Strobel, Jesuiten</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 369–370.</note>
-                </seg> <seg type="ref">
-                    <persName type="person" key="Rüttimann Johann Jakob">Rütimann</persName>
-                    <ref type="kbp">→ Johann Jakob Rüttimann</ref>
-                </seg> <note type="transcript">sic!</note> bleibt sich gleich. Unsere Gesandtschaft genießt große<lb xml:id="p1-l27"/>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 22. Juni 1847, 23. Juni 1847, 24. Juni 1847; <ref type="lit">Strobel, Jesuiten</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 369–370.</note>
+                    </seg> <seg type="ref">
+                        <persName type="person" key="Rüttimann Johann Jakob">Rütimann</persName>
+                        <ref type="kbp">→ Johann Jakob Rüttimann</ref>
+                    </seg> <note type="transcript">sic!</note> bleibt sich gleich. Unsere Gesandtschaft genießt große<lb xml:id="p1-l27"/>
 Achtung &amp; Vertrauen &amp; man hört auf ihre Stimme, ihren Rath. Selbst <seg type="com">
-                    <persName type="person" key="Druey Henri">Druey</persName>
-                    <note xml:id="K_0478_c11">
-                        <persName type="person" key="Druey Henri">Henri Druey</persName> (1799–1855), Tagsatzungsgesandter und Staatsrat (<placeName type="place" key="Waadt">VD</placeName>).</note>
-                </seg> hat sich zu<lb break="no" xml:id="p1-l28"/>trauensvoll
+                        <persName type="person" key="Druey Henri">Druey</persName>
+                        <note xml:id="K_0478_c11">
+                            <persName type="person" key="Druey Henri">Henri Druey</persName> (1799–1855), Tagsatzungsgesandter und Staatsrat (<placeName type="place" key="Waadt">VD</placeName>).</note>
+                    </seg> hat sich zu<lb break="no" xml:id="p1-l28"/>trauensvoll
  angeschlossen &amp; es hat überhaupt unter den freisinnigen Gesandten bis<lb xml:id="p1-l29"/>
 an dem Abend, da in ihrer Konferenz (es war Dienstags den <date when="1847-07-27">27. <choice>
-                        <abbr>v. M.</abbr>
-                        <expan>vorigen / vergangenen Monats</expan>
-                    </choice>
-                </date>, der letzte Tag mei<lb break="no" xml:id="p1-l30"/>nes 
+                            <abbr>v. M.</abbr>
+                            <expan>vorigen / vergangenen Monats</expan>
+                        </choice>
+                    </date>, der letzte Tag mei<lb break="no" xml:id="p1-l30"/>nes 
 Dortseins) die Abordnung von Kommissarien zur Sprache kam, die erfreulichste<lb xml:id="p1-l31"/>
 Harmonie <seg type="com">geherrscht.<note xml:id="K_0478_c12">Von einigen Politikern wurde die Meinung vertreten, dass vor Auflösung des Sonderbunds durch Waffengewalt Kommissäre in die Sonderbundskantone entsandt werden sollten, um die Bevölkerung über die Situation aufzuklären und ihr die Möglichkeit zu geben, den Sonderbund mittels Volksabstimmung aufzulösen. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="third-party-letter">Brief Johann Baptist Weder an Wilhelm Matthias Näff, 2. September 1847 (<ref type="lit">KBSG Ms</ref> S 201 H)</ref>.</note>
-                </seg> Hier aber geriethen <persName type="person" key="Druey Henri">Druey</persName>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="third-party-letter">Brief Johann Baptist Weder an Wilhelm Matthias Näff, 2. September 1847 (<ref type="lit">KBSG Ms</ref> S 201 H)</ref>.</note>
+                    </seg> Hier aber geriethen <persName type="person" key="Druey Henri">Druey</persName>
 				&amp; <seg type="com">
-                    <persName type="person" key="Naeff Wilhelm Matthias">Näff</persName>
-                    <note xml:id="K_0478_c13">
-                        <persName type="person" key="Naeff Wilhelm Matthias">Wilhelm Matthias Näff</persName> (1802–1881), Tagsatzungsgesandter und Mitglied des Kleinen und Grossen Rats (<placeName type="place" key="St. Gallen">SG</placeName>).</note>
-                </seg> hart an einander, weil<lb xml:id="p1-l32"/>
+                        <persName type="person" key="Naeff Wilhelm Matthias">Näff</persName>
+                        <note xml:id="K_0478_c13">
+                            <persName type="person" key="Naeff Wilhelm Matthias">Wilhelm Matthias Näff</persName> (1802–1881), Tagsatzungsgesandter und Mitglied des Kleinen und Grossen Rats (<placeName type="place" key="St. Gallen">SG</placeName>).</note>
+                    </seg> hart an einander, weil<lb xml:id="p1-l32"/>
 letzterer ja dieser Maßregel nicht Hand bieten wollte, indem er sie theils selbst schon<lb xml:id="p1-l33"/>
 als Exekutions- theils &amp; hauptsächlich als eine zu weitern Beschlüssen führende Maß<lb break="no" xml:id="p1-l34"/>regel 
 ansah, &amp;
 				<persName type="person" key="Druey Henri">Druey</persName> der Stimmung im <placeName type="place" key="Westschweiz">Westen der Schweiz</placeName> Rechnung getragen<lb xml:id="p1-l35"/>
 wissen wollte. Die Lage dieser Männer ist in der That keine beneidenswerthe.<pb n="2"/>
-                <lb xml:id="p2-l1"/>
+                    <lb xml:id="p2-l1"/>
 Die Verhältnisse sind so schwierig, daß es fast mehr als menschlicher Weisheit bedarf,<lb xml:id="p2-l2"/>
 die geeigneten Mittel zu einer glücklichen Lösung derselben aufzufinden, wenn es<lb xml:id="p2-l3"/>
 nicht vollends rein unmöglich ist, sie zu lösen. Wer bürgt <choice>
-                    <abbr>z. B.</abbr>
-                    <expan>zum Beispiel</expan>
-                </choice> dafür, daß irgend eine<lb xml:id="p2-l4"/>
+                        <abbr>z. B.</abbr>
+                        <expan>zum Beispiel</expan>
+                    </choice> dafür, daß irgend eine<lb xml:id="p2-l4"/>
 Maßregel gerade den vorausgesetzten und nicht einen entgegengesetzten Erfolg habe.<lb xml:id="p2-l5"/>
 Kommissarien <choice>
-                    <abbr>z. B.</abbr>
-                    <expan>zum Beispiel</expan>
-                </choice> können gute Wirkungen haben; eben so viel Wahrscheinlichkeit ist<lb xml:id="p2-l6"/>
+                        <abbr>z. B.</abbr>
+                        <expan>zum Beispiel</expan>
+                    </choice> können gute Wirkungen haben; eben so viel Wahrscheinlichkeit ist<lb xml:id="p2-l6"/>
 aber, daß diese Wirkung ausbleibt, &amp; wie dann? Wenn <placeName type="place" key="St. Gallen">St. Gallen</placeName> am Ende noch<lb xml:id="p2-l7"/>
 für Kommissarien stimmt, und diesen wird aber die Nase vor der Thüre zugeschlossen<lb xml:id="p2-l8"/>
 oder überhaupt keine Folge geleistet, so kann <placeName type="place" key="St. Gallen">St. Gallen</placeName> doch dazu nicht stimmen, was<lb xml:id="p2-l9"/>
@@ -192,80 +193,81 @@ Sachen werden sich am Ende von selbst machen; es wird &amp; muß etwas geschehen
 das zur Lösung zwingt, denn in diesem Zustande <hi rend="underline">kann</hi> die Eidgenossenschaft<lb xml:id="p2-l16"/>
 unmöglich lange mehr verbleiben.</p>
       <p rend="indent" xml:id="K_0478_p4">
-                <lb xml:id="p2-l17"/>Nun von <placeName type="place" key="Bern">Bern</placeName> nach <placeName type="place" key="Zürich">Zürich</placeName>! Ueber den Stand der Dinge in unserm Kanton würde<lb xml:id="p2-l18"/>
+                    <lb xml:id="p2-l17"/>Nun von <placeName type="place" key="Bern">Bern</placeName> nach <placeName type="place" key="Zürich">Zürich</placeName>! Ueber den Stand der Dinge in unserm Kanton würde<lb xml:id="p2-l18"/>
 ich zwar lieber mündlich als schriftlich mich mit Ihnen besprechen. Sind Sie aber meiner An<lb break="no" xml:id="p2-l19"/>sicht,
  so kann das Schriftliche zum Mündlichen führen. Es kann nicht anders sein, auch bei<lb xml:id="p2-l20"/>
 Ihnen steigt gewiß mitunter der Gedanke auf, daß früher oder später, vielleicht<lb xml:id="p2-l21"/>
 gar bald unser große Rath für <seg type="ref">Exekution<ref type="sum" target="Umwaelzung_p35"><!--→ S. 39-40--></ref>
-                </seg> wird instruiren müßen. Nur da muß man sich<lb xml:id="p2-l22"/>
+                    </seg> wird instruiren müßen. Nur da muß man sich<lb xml:id="p2-l22"/>
 allerdings fragen, wie wird das Volk diesen Beschluß aufnehmen, welchen Effekt wird<lb xml:id="p2-l23"/>
 der Ruf zu den Waffen bei demselben machen? So viel ich höre, darf nicht bezweifelt<lb xml:id="p2-l24"/>
 werden, es werde demselben von den meisten Seiten willig entsprochen werden; dagegen<lb xml:id="p2-l25"/>
 höre ich von andern Seiten, namentlich vom <placeName type="place" key="Zürichsee">See</placeName>
 				&amp; aus dem Osten vom Gegentheil. Nament<lb break="no" xml:id="p2-l26"/>lich 
 soll am linken <placeName type="place" key="Zürichsee">See</placeName>ufer die Stimmung eine <seg type="com">morose<note xml:id="K_0478_c14">Moros: mürrisch, verdriesslich.</note>
-                </seg> sein. Vor etwa 10 Tagen schrieb<lb xml:id="p2-l27"/>
+                    </seg> sein. Vor etwa 10 Tagen schrieb<lb xml:id="p2-l27"/>
 mir ein Bekannter von <placeName type="place" key="Wädenswil">Wädenschweil</placeName>: Wenn ihr die Kanonen herausnehmen wollt,<lb xml:id="p2-l28"/>
 so brauchet sie zuerst in <placeName type="place" key="Wädenswil">Wädenschweil</placeName>
 				&amp;
 				<placeName type="place" key="Richterswil">Richterschweil</placeName>! <choice>
-                    <abbr>Hr.</abbr>
-                    <expan>Herr</expan>
-                </choice> <choice>
-                    <abbr>Dr.</abbr>
-                    <expan>Doktor / Doctor</expan>
-                </choice> <seg type="com">
-                    <persName type="person" key="Pestalozzi Hans Jakob">Pestaluzz</persName>
-                    <note xml:id="K_0478_c15">
-                        <persName type="person" key="Pestalozzi Hans Jakob">Hans Jakob Pestalozzi</persName> (1801–1874), Grossrat und Kantonsfürsprecher (<placeName type="place" key="Zürich">ZH</placeName>).</note>
-                </seg>, der sich in<lb xml:id="p2-l29"/>
+                        <abbr>Hr.</abbr>
+                        <expan>Herr</expan>
+                    </choice> <choice>
+                        <abbr>Dr.</abbr>
+                        <expan>Doktor / Doctor</expan>
+                    </choice> <seg type="com">
+                        <persName type="person" key="Pestalozzi Hans Jakob">Pestaluzz</persName>
+                        <note xml:id="K_0478_c15">
+                            <persName type="person" key="Pestalozzi Hans Jakob">Hans Jakob Pestalozzi</persName> (1801–1874), Grossrat und Kantonsfürsprecher (<placeName type="place" key="Zürich">ZH</placeName>).</note>
+                    </seg>, der sich in<lb xml:id="p2-l29"/>
 jüngster Zeit einige Tage in <placeName type="place" key="Wädenswil">Wdschwl.</placeName> aufhielt, bringt ganz übereinstimmende Berichte<lb xml:id="p2-l30"/>
 				&amp; will aus dem dortigen Treiben schließen, daß, wenn der große Rath zu jener In<lb break="no" xml:id="p2-l31"/>struktionsberathung
  einberufen werde, von unsern Gegnern ein Streich werde versucht<lb xml:id="p2-l32"/>
 werden. An andern Orten sollen die Geistlichen von den Kanzeln herab den Leuten den<lb xml:id="p2-l33"/>
         Kopf heiß machen. (Man erzählt <choice>
-                    <abbr>z. B.</abbr>
-                    <expan>zum Beispiel</expan>
-                </choice> von <seg type="com">
-                    <persName type="person" key="Schinz Mathias">Schinz</persName>
-                    <note xml:id="K_0478_c16">
-                        <persName type="person" key="Schinz Mathias">Mathias Schinz</persName> (1805–1867), Pfarrer in <placeName type="place" key="Oberwinterthur (Winterthur)">Oberwinterthur</placeName>.</note>
-                </seg> in <placeName type="place" key="Oberwinterthur (Winterthur)">Oberwinterthur</placeName>, in seiner Erndte<lb break="no" xml:id="p2-l34"/>Predigt <note type="transcript">sic!</note>
+                        <abbr>z. B.</abbr>
+                        <expan>zum Beispiel</expan>
+                    </choice> von <seg type="com">
+                        <persName type="person" key="Schinz Mathias">Schinz</persName>
+                        <note xml:id="K_0478_c16">
+                            <persName type="person" key="Schinz Mathias">Mathias Schinz</persName> (1805–1867), Pfarrer in <placeName type="place" key="Oberwinterthur (Winterthur)">Oberwinterthur</placeName>.</note>
+                    </seg> in <placeName type="place" key="Oberwinterthur (Winterthur)">Oberwinterthur</placeName>, in seiner Erndte<lb break="no" xml:id="p2-l34"/>Predigt <note type="transcript">sic!</note>
  habe er die Fülle des Erntesegens mit glänzenden Farben ausgemalt und<lb xml:id="p2-l35"/>
 die traurige Betrachtung daran geknüpft, wie es Wähler gebe, die damit umgehen,<lb xml:id="p2-l36"/>
         den Bauer aus seinem Erndtereichthum heraus- &amp; in den Bürgerkrieg hineinzureißen.)<lb xml:id="p2-l37"/>
 Diesen Sachen lege ich keine größere Bedeutung bei, als sie wirklich haben; allein möglich<pb n="3"/>
-                <lb xml:id="p3-l1"/>
+                    <lb xml:id="p3-l1"/>
 ist es, daß man sich nicht täuscht, wenn man sie als die Vorboten dessen ansieht, was geschehen<lb xml:id="p3-l2"/>
 würde, wenn der Fall einträte. – So <seg type="com">deliberirten<note xml:id="K_0478_c17">Deliberieren: beratschlagen.</note>
-                </seg> auch wir hiesige Freunde <date when="1847-08-05">gestern</date> Abend &amp;
+                    </seg> auch wir hiesige Freunde <date when="1847-08-05">gestern</date> Abend &amp;
 				<lb xml:id="p3-l3"/>
 gelangten dabei zu dem Schlusse, auch wir sollten uns vorbereiten, &amp; ich übernahm es daher gerne,<lb xml:id="p3-l4"/>
         Ihnen die Proposition zu machen, daß wir uns nächsten <date when="1847-08-08">Sonntag</date> über 8 Tage <add>d<supplied>en</supplied> <date when="1847-08-15">15.</date>
-                </add> <choice>
-                    <abbr>Nachm.</abbr>
-                    <expan>Nachmittag</expan>
-                </choice> 3 Uhr<lb xml:id="p3-l5"/>
+                    </add> <choice>
+                        <abbr>Nachm.</abbr>
+                        <expan>Nachmittag</expan>
+                    </choice> 3 Uhr<lb xml:id="p3-l5"/>
 in <placeName type="place" key="Baltenswil (Bassersdorf)">Baltenschweil</placeName> wiedersehen. Sind Sie damit einverstanden, so bringen Sie wieder Ihre &amp;
 				<lb xml:id="p3-l6"/>
         unsere guten Freunde mit; ich will daßelbe von hier aus thun. Weiter herum Freunde<lb xml:id="p3-l7"/>
 einzuladen, wird diesmal noch nicht nothwendig sein. Sorgen Sie inzwischen <choice>
-                    <abbr>gefl.</abbr>
-                    <expan>gefällig</expan>
-                </choice> dafür,<lb xml:id="p3-l8"/>
+                        <abbr>gefl.</abbr>
+                        <expan>gefällig</expan>
+                    </choice> dafür,<lb xml:id="p3-l8"/>
 daß wir uns von der Lage der Dinge in jenem Momente, sowohl was die Tagsatzung<lb xml:id="p3-l9"/>
 als was <choice>
-                    <abbr>us.</abbr>
-                    <expan>unser</expan>
-                </choice> Kanton betrifft, ein richtiges Bild machen können, jenes vielleicht am besten<lb xml:id="p3-l10"/>
+                        <abbr>us.</abbr>
+                        <expan>unser</expan>
+                    </choice> Kanton betrifft, ein richtiges Bild machen können, jenes vielleicht am besten<lb xml:id="p3-l10"/>
 durch <choice>
-                    <abbr>H.</abbr>
-                    <expan>Herr</expan>
-                </choice> <seg type="ref">
-                    <persName type="person" key="Bollier Rudolf">Bollier</persName>
-                    <ref type="kbp">→ Rudolf Bollier</ref>
-                </seg>, dieses durch Ihre Korrespondenzen mit <placeName type="place" key="Bern">Bern</placeName>.</p>
-    </body>
+                        <abbr>H.</abbr>
+                        <expan>Herr</expan>
+                    </choice> <seg type="ref">
+                        <persName type="person" key="Bollier Rudolf">Bollier</persName>
+                        <ref type="kbp">→ Rudolf Bollier</ref>
+                    </seg>, dieses durch Ihre Korrespondenzen mit <placeName type="place" key="Bern">Bern</placeName>.</p>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_0478_p5">

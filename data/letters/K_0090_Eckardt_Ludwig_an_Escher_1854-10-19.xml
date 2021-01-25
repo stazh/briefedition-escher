@@ -29,8 +29,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Eckardt Ludwig" type="sender">Ludwig Eckardt</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Eckardt Ludwig" type="sender">Ludwig Eckardt</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1854-10-19">Donnerstag, Oktober 19, 1854</date>
                 </correspAction>
@@ -91,6 +91,7 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_0090_p3">
                 <lb xml:id="p1-l3"/>Ich ersuche Sie, mich in die Zahl der Bewerber um die Lehrstelle
 					der</p>
@@ -134,9 +135,9 @@
                 <hi rend="underline">b.</hi> <hi rend="underline">ein Gutachten der philosophischen Fakultät der Hochschule <placeName type="place" key="Bern (Stadt)">Bern</placeName>,</hi> unter
                 <lb break="no" xml:id="p1-l33"/>zeichnet vom
 					<choice>
-                    <abbr>Hrn.</abbr>
-                    <expan>Herrn</expan>
-                </choice> Dekan <persName type="person" key="Studer Bernhard">B.
+                        <abbr>Hrn.</abbr>
+                        <expan>Herrn</expan>
+                    </choice> Dekan <persName type="person" key="Studer Bernhard">B.
 					Studer</persName>, einem verehrten Mitgliede des <pb n="2"/>
                 <lb xml:id="p2-l1"/> eidgenössischen
 				Schulraths, worin mich dieselbe nach gehörten Vorträgen<lb xml:id="p2-l2"/> und gründlicher Prüfung
@@ -152,14 +153,14 @@
 				die ich angekündigt habe, zu Stande gekommen sind.<lb xml:id="p2-l11"/> (Auf Ferienausflügen habe
 				ich auch größere Kurse in <placeName type="place" key="Solothurn">Solothurn</placeName>, <placeName type="place" key="Burgdorf">Burgdorf</placeName>,<lb xml:id="p2-l12"/>
                 <placeName type="place" key="Biel (BE)">Biel</placeName> <choice>
-                    <abbr>u. s. w.</abbr>
-                    <expan>und so weiter</expan>
-                </choice> gelesen und ästhetische Bildungskeime in weitere Kreise
+                        <abbr>u. s. w.</abbr>
+                        <expan>und so weiter</expan>
+                    </choice> gelesen und ästhetische Bildungskeime in weitere Kreise
 				mit<lb xml:id="p2-l13"/> Erfolg zu bringen gesucht). <lb xml:id="p2-l14"/>d. <hi rend="underline">Litterarische Arbeiten:</hi> 1.«Vorlesungen über <persName type="person" key="Goethe Johann Wolfgang von">Goethes</persName>
 				Tasso»<lb xml:id="p2-l15"/> bevorwortet von <choice>
-                    <abbr>Prof.</abbr>
-                    <expan>Professor</expan>
-                </choice> <hi rend="underline">
+                        <abbr>Prof.</abbr>
+                        <expan>Professor</expan>
+                    </choice> <hi rend="underline">
                     <persName type="person" key="Troxler Ignaz Paul Vital">Troxler</persName>
                 </hi> 2. «<persName type="person" key="Schiller Friedrich">Schillers</persName> Geistesgang» 3. «Über<lb xml:id="p2-l16"/>
                 <persName type="person" key="Shakespeare William">Shakspears</persName> Hamlet.»<!-- stillschweigend ergänzt, LB --> Sie sollen
@@ -172,41 +173,41 @@
 				daß<lb xml:id="p2-l21"/> sie die genannten Arbeiten zu den besten auf diesem Gebiete zählen. Es
 				<lb xml:id="p2-l22"/> liegen – so viel ich zu Stande bringen konnte, Noten von kompetenten<lb xml:id="p2-l23"/>
 				Männern vor wie <choice>
-                    <abbr>Prof.</abbr>
-                    <expan>Professor</expan>
-                </choice> <hi rend="underline">
+                        <abbr>Prof.</abbr>
+                        <expan>Professor</expan>
+                    </choice> <hi rend="underline">
                     <persName type="person" key="Kurz Heinrich">Kurz</persName>
                 </hi> in <placeName type="place" key="Aarau">Aarau</placeName>, <choice>
-                    <abbr>Prof.</abbr>
-                    <expan>Professor</expan>
-                </choice> <hi rend="underline">
+                        <abbr>Prof.</abbr>
+                        <expan>Professor</expan>
+                    </choice> <hi rend="underline">
                     <persName type="person" key="Düntzer Heinrich">Düntzer</persName>
                 </hi> in <placeName type="place" key="Köln (D)">Köln</placeName>, <choice>
-                    <abbr>Prof.</abbr>
-                    <expan>Professor</expan>
-                </choice> <lb xml:id="p2-l24"/>
+                        <abbr>Prof.</abbr>
+                        <expan>Professor</expan>
+                    </choice> <lb xml:id="p2-l24"/>
                 <hi rend="underline">
                     <persName type="person" key="Carrière Moriz">Carriere</persName>
                 </hi> in <placeName type="place" key="München (D)">München</placeName>, <choice>
-                    <abbr>Prof.</abbr>
-                    <expan>Professor</expan>
-                </choice> <hi rend="underline">
+                        <abbr>Prof.</abbr>
+                        <expan>Professor</expan>
+                    </choice> <hi rend="underline">
                     <persName type="person" key="Henne Josef Anton">Henne</persName>
                 </hi> in <placeName type="place" key="Bern (Stadt)">Bern</placeName>, <choice>
-                    <abbr>Prof.</abbr>
-                    <expan>Professor</expan>
-                </choice> <hi rend="underline">
+                        <abbr>Prof.</abbr>
+                        <expan>Professor</expan>
+                    </choice> <hi rend="underline">
                     <persName type="person" key="Wackernagel Wilhelm">Wakernagel</persName>
                 </hi> in <placeName type="place" key="Basel-Stadt">Basel</placeName>,<lb xml:id="p2-l25"/>
                 <choice>
-                    <abbr>Prof.</abbr>
-                    <expan>Professor</expan>
-                </choice> <hi rend="underline">
+                        <abbr>Prof.</abbr>
+                        <expan>Professor</expan>
+                    </choice> <hi rend="underline">
                     <persName type="person" key="Reichlin-Meldegg Carl Alexander Maria">Reichlin-Meldegg</persName><!-- LB, verifiziert-->
                 </hi> in <placeName type="place" key="Heidelberg (D)">Heidelberg</placeName>, <choice>
-                    <abbr>Dr.</abbr>
-                    <expan>Doktor / Doctor</expan>
-                </choice> <hi rend="underline">
+                        <abbr>Dr.</abbr>
+                        <expan>Doktor / Doctor</expan>
+                    </choice> <hi rend="underline">
                     <persName type="person" key="Schubart">Schubart</persName>
                 </hi> in <placeName type="place" key="Weimar (D)">Weimar</placeName>, <hi rend="underline">
                     <persName type="person" key="Hoffmann">Hoffmann</persName>
@@ -220,9 +221,9 @@
 					Ense</persName><!--LB, verifiziert-->
                 </hi> in<lb xml:id="p2-l27"/>
                 <placeName type="place" key="Berlin (D)">Berlin</placeName> <choice>
-                    <abbr>u. s. w.</abbr>
-                    <expan>und so weiter</expan>
-                </choice> <del>vor</del>, – Namen, denen ich wol nichts hinzuzufügen brauche.</p>
+                        <abbr>u. s. w.</abbr>
+                        <expan>und so weiter</expan>
+                    </choice> <del>vor</del>, – Namen, denen ich wol nichts hinzuzufügen brauche.</p>
       <p rend="indent" xml:id="K_0090_p8">
                 <lb xml:id="p2-l28"/>Ich bin allerdings nicht in der Schweiz geboren, aber wenn
 				ein<lb xml:id="p2-l29"/> fünfjähriges unausgesetztes, mehr als touristenartig oberflächliches<lb xml:id="p2-l30"/>
@@ -240,15 +241,15 @@
                 <lb break="no" xml:id="p3-l4"/>sprechen gesucht habe, wenn ich nicht fürchten müßte, in den Verdacht
 				zu kommen,<lb xml:id="p3-l5"/> ich spekulirte mit meinen Gefühlen. Dagegen darf ich mich aber auf
 				ein<lb xml:id="p3-l6"/> Mitglied des <choice>
-                    <abbr>eidg.</abbr>
-                    <expan>eidgenössisch / eidgenößisch</expan>
-                </choice> Schulraths, <choice>
-                    <abbr>Hrn.</abbr>
-                    <expan>Herrn</expan>
-                </choice> <choice>
-                    <abbr>Prof.</abbr>
-                    <expan>Professor</expan>
-                </choice> <hi rend="underline">
+                        <abbr>eidg.</abbr>
+                        <expan>eidgenössisch / eidgenößisch</expan>
+                    </choice> Schulraths, <choice>
+                        <abbr>Hrn.</abbr>
+                        <expan>Herrn</expan>
+                    </choice> <choice>
+                        <abbr>Prof.</abbr>
+                        <expan>Professor</expan>
+                    </choice> <hi rend="underline">
                     <persName type="person" key="Studer Bernhard">Studer</persName>
                 </hi> berufen, und er wird
 				mir nicht<lb xml:id="p3-l7"/> das Zeugniß versagen, meine Gesinnung für die Schweiz ist eine
@@ -273,9 +274,9 @@
                 </hi>, 
                     <persName type="person" key="Fichte Immanuel Hermann">Fichte
 						<choice>
-                        <abbr>d. j.</abbr>
-                        <expan>des jüngeren</expan>
-                    </choice>
+                            <abbr>d. j.</abbr>
+                            <expan>des jüngeren</expan>
+                        </choice>
                     </persName>
                 , <hi rend="underline">
                     <persName type="person" key="Chalybäus Heinrich Moritz">Chalybäus</persName>
@@ -301,23 +302,23 @@
 				Seele zu werfen!<lb xml:id="p3-l34"/> So denkend, faßte ich den Entschluß, mich um die bewußte Stelle
 				zu bewerben.<lb xml:id="p3-l35"/> Näher ist der Wirkungskreis derselben nicht bezeichnet; ich denke
 				mir ihn<lb xml:id="p3-l36"/> etwa so, daß er Vorträge umfaßt:<lb xml:id="p3-l37"/>
-                <hi rend="underline">1.</hi> Geschichte der <choice>
-                    <abbr>d. Litt.</abbr>
-                    <expan>deutsche Litteratur</expan>
-                </choice> <choice>
-                    <abbr>z. B.</abbr>
-                    <expan>zum Beispiel</expan>
-                </choice> des 18. Jahrhunderts.<lb xml:id="p3-l38"/>
-                <hi rend="underline">2.</hi> Entwicklung eines Dichterlebens
+                    <hi rend="underline">1.</hi> Geschichte der <choice>
+                        <abbr>d. Litt.</abbr>
+                        <expan>deutsche Litteratur</expan>
+                    </choice> <choice>
+                        <abbr>z. B.</abbr>
+                        <expan>zum Beispiel</expan>
+                    </choice> des 18. Jahrhunderts.<lb xml:id="p3-l38"/>
+                    <hi rend="underline">2.</hi> Entwicklung eines Dichterlebens
 					<choice>
-                    <abbr>z. B.</abbr>
-                    <expan>zum Beispiel</expan>
-                </choice> <persName type="person" key="Schiller Friedrich">Schillers</persName>.<lb xml:id="p3-l39"/>
-                <hi rend="underline">3.</hi> Entwicklung
+                        <abbr>z. B.</abbr>
+                        <expan>zum Beispiel</expan>
+                    </choice> <persName type="person" key="Schiller Friedrich">Schillers</persName>.<lb xml:id="p3-l39"/>
+                    <hi rend="underline">3.</hi> Entwicklung
 				einer Dichtung <choice>
-                    <abbr>z. B.</abbr>
-                    <expan>zum Beispiel</expan>
-                </choice> Faust.</p>
+                        <abbr>z. B.</abbr>
+                        <expan>zum Beispiel</expan>
+                    </choice> Faust.</p>
       <p rend="indent" xml:id="K_0090_p11">
                 <lb xml:id="p3-l40"/>Bei Vorträgen der 2. Art wird detaillirter als bei denen der 1., bei<pb n="4"/>
                 <lb xml:id="p4-l1"/> denen der 3. wieder detaillirter als bei der 2. eingetreten. Vielleicht wäre
@@ -327,10 +328,10 @@
                 <lb xml:id="p4-l3"/>Für den Fall, daß die Wahl mich treffen sollte, so bitte ich um
 				die Bewilli
                 <lb break="no" xml:id="p4-l4"/>gung, auch über <hi rend="underline">Ästhetik</hi> lesen zu können, die <choice>
-                    <abbr>z.
+                        <abbr>z.
 					B.</abbr>
-                    <expan>zum Beispiel</expan>
-                </choice> im <placeName type="place" key="Karlsruhe (D)">Karlsruher</placeName>
+                        <expan>zum Beispiel</expan>
+                    </choice> im <placeName type="place" key="Karlsruhe (D)">Karlsruher</placeName>
 				Polytechnikum<lb xml:id="p4-l5"/> als besonderes Unterrichtsfach angegeben ist. Die Ästhetik ist
 				mein Lieblingsstudium<lb xml:id="p4-l6"/> und ihre Aufnahme in den Lektionskatalog sollte dem
 				verehrten Schulrath nur ange
@@ -340,21 +341,21 @@
 				Unterrichtsanstalten nur<lb xml:id="p4-l9"/> höchst förderlich ist, wenn ihre Lehrer litterarisch
 				thätig sind, so füge ich noch bei, daß<lb xml:id="p4-l10"/> <hi rend="underline">1.</hi> in nächster Zeit eine ästhetische
 				Schrift im Drucke erscheint, – 2. <choice>
-                    <abbr>Hr.</abbr>
-                    <expan>Herr</expan>
-                </choice> Buchhändler <persName type="person" key="Hochhausen">Hoch
+                        <abbr>Hr.</abbr>
+                        <expan>Herr</expan>
+                    </choice> Buchhändler <persName type="person" key="Hochhausen">Hoch
                     <lb break="no" xml:id="p4-l11"/>hausen</persName><!-- Vermutlich Carl Hochhausen, aber keine gesicherten Angaben, darum nur Nachname -->
 				in <placeName type="place" key="Jena (D)">Jena</placeName>, der «Erläuterungen zu deutschen Klassikern» herausgibt und
 				jeden<lb xml:id="p4-l12"/> Klassiker einem besondern Tutor <choice>
-                    <abbr>z. B.</abbr>
-                    <expan>zum Beispiel</expan>
-                </choice> <persName type="person" key="Goethe Johann Wolfgang von">Goethe</persName> dem <choice>
-                    <abbr>Hrn.</abbr>
-                    <expan>Herrn</expan>
-                </choice> <choice>
-                    <abbr>Prof.</abbr>
-                    <expan>Professor</expan>
-                </choice> <persName type="person" key="Düntzer Heinrich">Düntzer</persName> übertrug, mir<lb xml:id="p4-l13"/> den Kommentar zu
+                        <abbr>z. B.</abbr>
+                        <expan>zum Beispiel</expan>
+                    </choice> <persName type="person" key="Goethe Johann Wolfgang von">Goethe</persName> dem <choice>
+                        <abbr>Hrn.</abbr>
+                        <expan>Herrn</expan>
+                    </choice> <choice>
+                        <abbr>Prof.</abbr>
+                        <expan>Professor</expan>
+                    </choice> <persName type="person" key="Düntzer Heinrich">Düntzer</persName> übertrug, mir<lb xml:id="p4-l13"/> den Kommentar zu
 					<persName type="person" key="Schiller Friedrich">Schiller</persName> (15 Bändchen)
 				anvertraute 3. daß ich schon seit<lb xml:id="p4-l14"/> längerer Zeit mit einer
 					<hi rend="underline">Litteraturgeschichte der Schweiz</hi> beschäftigt bin, von<lb xml:id="p4-l15"/> der als Probe
@@ -369,7 +370,8 @@
                 <hi rend="underline">treue Pflichterfüllung im Lehramt</hi> und ein fortgesetztes Streben,
 				überall,<lb xml:id="p4-l20"/> wo ich kann, für ästhetische Bildung zu arbeiten (ich habe es in <placeName type="place" key="Bern (Stadt)">Bern</placeName> gewiß<lb xml:id="p4-l21"/> treulich gethan) zusage,
 				bitte ich Sie, die Beilagen eines Blickes zu<lb xml:id="p4-l22"/> würdigen.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="right" xml:id="K_0090_p15">

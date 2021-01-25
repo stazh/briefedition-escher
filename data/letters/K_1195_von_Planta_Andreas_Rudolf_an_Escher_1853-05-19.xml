@@ -40,8 +40,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Planta (Samedan) Andreas Rudolf von" type="sender">Andreas Rudolf von Planta</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Planta (Samedan) Andreas Rudolf von" type="sender">Andreas Rudolf von Planta</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Chur</placeName>
                     <date when="1853-05-19">Donnerstag, Mai 19, 1853</date>
                 </correspAction>
@@ -146,14 +146,15 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="left" xml:id="K_1195_p3">
                 <lb xml:id="p1-l3"/>Ich schreite zur Beantwortung Ihrer Fragen, wie folgt</p>
       <p rend="indent" xml:id="K_1195_p4">
                 <lb xml:id="p1-l4"/>
         <choice>
-                    <abbr>1<hi rend="sup">o</hi> </abbr>
-                    <expan>primo (erstens)</expan>
-                </choice> Das <placeName type="place" key="Lukmanier (Pass)">
+                        <abbr>1<hi rend="sup">o</hi> </abbr>
+                        <expan>primo (erstens)</expan>
+                    </choice> Das <placeName type="place" key="Lukmanier (Pass)">
                     <hi>Lukmanier</hi>project</placeName> hat noch keine bestimmte<lb xml:id="p1-l5"/> Abgrenzung, indem die <seg type="ref">Strecke <placeName type="place" key="Locarno">
                         <hi>Locarno</hi>
                     </placeName>–<placeName type="place" key="Chur">
@@ -162,31 +163,31 @@
                     <ref type="sum" target="Ostalpenbahnfrage_p14"><!--→ Band 1, S. 45--></ref>
                 </seg> der <seg type="ref">Südostbahn<ref type="kbe">→ SOB</ref>
                 </seg> abzielt.<lb xml:id="p1-l7"/> Vermutlich wird es die ganze <choice>
-                    <abbr>sog.</abbr>
-                    <expan>sogenannt</expan>
-                </choice> Südostbahn in<lb xml:id="p1-l8"/>
+                        <abbr>sog.</abbr>
+                        <expan>sogenannt</expan>
+                    </choice> Südostbahn in<lb xml:id="p1-l8"/>
                 <hi rend="underline">allen</hi> Sectionen umfaßen und ist in <seg type="com">
                     <placeName type="place" key="London (UK)">
-                        <hi>London</hi>
-                    </placeName>
+                            <hi>London</hi>
+                        </placeName>
                     <note xml:id="K_1195_c2">Zu diesem Zeitpunkt befand sich <ref type="kbp"/>
                         <persName type="person" key="Killias Wolfgang">Wolfgang Killias</persName> in <placeName type="place" key="London (UK)">London</placeName> zu Verhandlungen mit englischen
             Investoren. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Prot. VR/WK SOB</ref>,
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. VR/WK SOB</ref>,
             21. Mai 1853 (<choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 57); <ref type="lit">Bänziger-La Nicca,
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 57); <ref type="lit">Bänziger-La Nicca,
               Richard La Nicca</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 174.</note>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 174.</note>
                 </seg> zunächst<lb xml:id="p1-l9"/> auf 100 <choice>
-                    <abbr>Mill.</abbr>
-                    <expan>Million</expan>
-                </choice> veranschlagt. Die Größe dieser
+                        <abbr>Mill.</abbr>
+                        <expan>Million</expan>
+                    </choice> veranschlagt. Die Größe dieser
           Summe<lb xml:id="p1-l10"/> allein macht es möglich mit Banquiers <hi rend="underline">ersten</hi> <lb xml:id="p1-l11"/> Ranges zu unterhandeln. <seg type="com">
                     <persName type="person" key="Masterman John">
                         <hi>Masterman</hi>
@@ -200,15 +201,15 @@
                     <note xml:id="K_1195_c4">
                         <persName type="person" key="Rothschild Lionel Nathan de">Lionel Nathan de
               Rothschild</persName> (1806–1879), <placeName type="place" key="England">englisch-jüdischer</placeName> Bankier, gelangte erst 1858 als Abgeordneter für <placeName type="place" key="London (UK)">London</placeName> ins <placeName type="place" key="Grossbritannien">britische</placeName> Unterhaus. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="www" target="http://www.jewishencyclopedia.com">
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="www" target="http://www.jewishencyclopedia.com">
                             <ref type="lit">Jewish Encyclopedia online</ref>, Lionel Nathan de Rothschild<!-- (4. September
               2006)-->
                         </ref>.</note>
                 </seg> <lb xml:id="p1-l12"/> Gegner bei den Wahlen in <placeName type="place" key="London (UK)">
-                    <hi>London</hi>
-                </placeName>, ist der Hauptpatron.<lb xml:id="p1-l13"/> Auch <seg type="com">
+                        <hi>London</hi>
+                    </placeName>, ist der Hauptpatron.<lb xml:id="p1-l13"/> Auch <seg type="com">
                     <persName type="person" key="Gladstone Robertson">
                         <hi>Gladstone</hi>
                     </persName>
@@ -219,8 +220,8 @@
                 </seg> und andere Größen sind
         nicht fern, da<lb xml:id="p1-l14"/> der Vermittler eben Herr <seg type="com">
                     <persName type="person" key="Brett John Watkins">
-                        <hi>Brett</hi>
-                    </persName>
+                            <hi>Brett</hi>
+                        </persName>
                     <note xml:id="K_1195_c6">
                         <persName type="person" key="Brett John Watkins">John Watkins Brett</persName> (1805–1863), <placeName type="place" key="England">englischer</placeName> Telegrapheningenieur, stellte die erste
             Telegraphenverbindung durch den <placeName type="place" key="Ärmelkanal">Ärmelkanal</placeName>
@@ -228,47 +229,47 @@
                 </seg>, der große Fertiger<lb xml:id="p1-l15"/> der <hi>Submarinen</hi> Telegraphen ist. –
           Grundbedingung<lb xml:id="p1-l16"/> des Zustandekommens sind aber zur
           Zeichnung<lb xml:id="p1-l17"/> von <hi>c<hi rend="sup">a</hi>
-                </hi> <seg type="com">20 <add>bis 30</add> Millionen mit
+                    </hi> <seg type="com">20 <add>bis 30</add> Millionen mit
             <hi rend="underline">zurückstehenden</hi> Zinsen.<note xml:id="K_1195_c7">Gemeint sind nachrangige Aktien: Der
             Anleger erhält erst dann eine Rendite ausbezahlt, wenn die Ansprüche der anderen
             Aktionäre befriedigt werden konnten.</note>
                 </seg> <lb xml:id="p1-l18"/>
                 <choice>
-                    <abbr>2<hi rend="sup">o</hi> </abbr>
-                    <expan>secundo (zweitens)</expan>
-                </choice> Die Bergeisenbahn <del>so</del> kostet, wenn man den <seg type="com">neuen<lb xml:id="p1-l19"/> Riesentunnel<note xml:id="K_1195_c8">
+                        <abbr>2<hi rend="sup">o</hi> </abbr>
+                        <expan>secundo (zweitens)</expan>
+                    </choice> Die Bergeisenbahn <del>so</del> kostet, wenn man den <seg type="com">neuen<lb xml:id="p1-l19"/> Riesentunnel<note xml:id="K_1195_c8">
                         <ref type="kbp"/>
                         <persName type="person" key="La Nicca Richard">Richard La Nicca</persName> projektierte und
           veröffentlichte Ende März 1853 zwei neue Varianten der Untertunnelung des <placeName type="place" key="Lukmanier (Pass)">Lukmaniers</placeName> mit je einem langen Tunnel (25,6 <choice>
-                            <abbr>bzw.</abbr>
-                            <expan>beziehungsweise</expan>
-                        </choice> 28,7 <choice>
-                            <abbr>km</abbr>
-                            <expan>Kilometer</expan>
-                        </choice>) von <placeName type="place" key="Disentis-Mustér">Disentis</placeName> bis nach <placeName type="place" key="Camperio (Blenio)">Camperio</placeName> <choice>
-                            <abbr>bzw.</abbr>
-                            <expan>beziehungsweise</expan>
-                        </choice> bis nach <placeName type="place" key="Olivone (Blenio)">Olivone</placeName>. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">La Nicca, Übersteigung</ref>; <ref type="lit">Schmidlin,
+                                <abbr>bzw.</abbr>
+                                <expan>beziehungsweise</expan>
+                            </choice> 28,7 <choice>
+                                <abbr>km</abbr>
+                                <expan>Kilometer</expan>
+                            </choice>) von <placeName type="place" key="Disentis-Mustér">Disentis</placeName> bis nach <placeName type="place" key="Camperio (Blenio)">Camperio</placeName> <choice>
+                                <abbr>bzw.</abbr>
+                                <expan>beziehungsweise</expan>
+                            </choice> bis nach <placeName type="place" key="Olivone (Blenio)">Olivone</placeName>. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">La Nicca, Übersteigung</ref>; <ref type="lit">Schmidlin,
               Ostalpenbahnfrage</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 38; <ref type="lit">Caprez,
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 38; <ref type="lit">Caprez,
               Übersteigung</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 215; <ref type="sum" target="Ostalpenbahnfrage_p9"><!--→ Band 1, S. 43–44--></ref>.</note>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 215; <ref type="sum" target="Ostalpenbahnfrage_p9"><!--→ Band 1, S. 43–44--></ref>.</note>
                 </seg> ausführen
         will 25 <choice>
-                    <abbr>Mill.</abbr>
-                    <expan>Million</expan>
-                </choice>, wahrscheinlich<lb xml:id="p1-l20"/> beschränckt
+                        <abbr>Mill.</abbr>
+                        <expan>Million</expan>
+                    </choice>, wahrscheinlich<lb xml:id="p1-l20"/> beschränckt
         man sich aber für den Augenblick auf Beschienung<lb xml:id="p1-l21"/> des Berges möglichst nahe
         von beiden Seiten und vorzüglicher<lb xml:id="p1-l22"/> Chaussirung desselben. – In diesem Falle
         kostete die <hi>Chaussee</hi>
-                <lb xml:id="p1-l23"/> 2 Millionen, hätte aber <add>an einigen Stellen</add>
+                    <lb xml:id="p1-l23"/> 2 Millionen, hätte aber <add>an einigen Stellen</add>
         höchstens 5%tige Steigungen, sodaß<lb xml:id="p1-l24"/> man durch und durch Trapp fahren
         könnte. – Ohne <lb xml:id="p1-l25"/>Berg kostet <placeName type="place" key="Locarno">
                     <hi>Locarno</hi>
@@ -277,21 +278,21 @@
                 </placeName> 50 Millionen. –  <pb n="2"/>
                 <lb xml:id="p2-l1"/>
                 <choice>
-                    <abbr>3<hi rend="sup">o</hi> </abbr>
-                    <expan>tertio (drittens)</expan>
-                </choice> Die <seg type="com">
+                        <abbr>3<hi rend="sup">o</hi> </abbr>
+                        <expan>tertio (drittens)</expan>
+                    </choice> Die <seg type="com">
                     <placeName type="place" key="Sardinien-Piemont (Königreich)">sardinischen</placeName> Kammern haben votirt mit<lb xml:id="p2-l2"/>
                     <hi rend="underline">zurückstehenden</hi> Zinsen 10 Millionen<note xml:id="K_1195_c9">Die
             Abgeordnetenkammer des Königreichs <placeName type="place" key="Sardinien-Piemont (Königreich)">Sardinien-Piemont</placeName> sprach sich am <date when="1853-05-07">7. Mai 1853</date> für einen Gesetzesvorschlag zugunsten einer
             Eisenbahn über den <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName> aus, der auch eine
             Subsidie von 10 Mio. Franken umfasste. Definitiv verabschiedet wurde das Gesetz von
             beiden Kammern am <date when="1853-06-05">5. Juni 1853</date>. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Liberaler Alpenbote</ref>, 14. Mai 1853; <ref type="lit">Planta, Alpenbahn</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 26.</note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Liberaler Alpenbote</ref>, 14. Mai 1853; <ref type="lit">Planta, Alpenbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 26.</note>
                 </seg> (<hi>qua</hi>
           <hi rend="underline">
                     <hi>Praemie</hi>
@@ -301,11 +302,11 @@
                 </placeName> schon früher 14,
         die Provinzen stellen in<lb xml:id="p2-l4"/> Aussicht 6, die Regierung noch 10 als Anlehen<lb xml:id="p2-l5"/> oder <hi>per</hi> Actie, machte zußammen 40 im<lb xml:id="p2-l6"/> besten Fall. Statt
         dessen wird man aber<lb xml:id="p2-l7"/> darauf dringen, daß Staat, <placeName type="place" key="Genua (I)">
-                    <hi>Genua</hi>
-                </placeName> und Provinzen<lb xml:id="p2-l8"/> 25–30 <choice>
-                    <abbr>Mill.</abbr>
-                    <expan>Million</expan>
-                </choice> zeichnen mit <hi rend="underline">zurückstehenden</hi> Zinsen.<lb xml:id="p2-l9"/> Ist der <del>T</del>
+                        <hi>Genua</hi>
+                    </placeName> und Provinzen<lb xml:id="p2-l8"/> 25–30 <choice>
+                        <abbr>Mill.</abbr>
+                        <expan>Million</expan>
+                    </choice> zeichnen mit <hi rend="underline">zurückstehenden</hi> Zinsen.<lb xml:id="p2-l9"/> Ist der <del>T</del>
         Riesentunnel <hi rend="underline">
                     <hi>gratis</hi>
                 </hi> erstellt, so rentiren<lb xml:id="p2-l10"/> sich die andern Actien
@@ -319,18 +320,18 @@
         mit <hi rend="underline">zurückstehenden</hi> Zinsen<!--emendiert: Komma gesetzt-->
                 <lb xml:id="p2-l17"/> wir
         sollten es demnach auf <hi>c<hi rend="sup">a</hi>
-                </hi> 12½ <choice>
-                    <abbr>Mill.</abbr>
-                    <expan>Million</expan>
-                </choice> bringen. –<lb xml:id="p2-l18"/> Ministerium in <placeName type="place" key="Turin (I)">
+                    </hi> 12½ <choice>
+                        <abbr>Mill.</abbr>
+                        <expan>Million</expan>
+                    </choice> bringen. –<lb xml:id="p2-l18"/> Ministerium in <placeName type="place" key="Turin (I)">
                     <hi>Turin</hi>
                 </placeName>, <choice>
-                    <abbr>
-                        <hi>Comp</hi>
-                        <hi rend="sup">l</hi>
-                    </abbr>
-                    <expan>Complizen</expan>
-                </choice>
+                        <abbr>
+                            <hi>Comp</hi>
+                            <hi rend="sup">l</hi>
+                        </abbr>
+                        <expan>Complizen</expan>
+                    </choice>
                  <persName type="person" key="Brett John Watkins">
                     <hi>Brett</hi>
                 </persName> in <placeName type="place" key="London (UK)">
@@ -345,7 +346,7 @@
         Verbindung, da neulich zwischen uns<lb xml:id="p2-l22"/> und den <placeName type="place" key="Lukmanier (Pass)">
                     <hi>Lukmanier</hi>
                 </placeName>
-                <hi>supporters</hi> in <placeName type="place" key="Turin (I)">
+                    <hi>supporters</hi> in <placeName type="place" key="Turin (I)">
                     <hi>Turin</hi>
                 </placeName> auch<lb xml:id="p2-l23"/>
                 <hi rend="underline">directe</hi> <del>Ver</del> Correspondenz begonnen hat und<lb xml:id="p2-l24"/> mein Schwiegervater <seg type="com">
@@ -353,9 +354,9 @@
                     <note xml:id="K_1195_c10">
                         <persName type="person" key="Planta (Reichenau) Ulrich von">Ulrich von Planta
               (Reichenau)</persName> (1791–1875), <choice>
-                            <abbr>eidg.</abbr>
-                            <expan>eidgenössisch</expan>
-                        </choice> Oberst, <placeName type="place" key="Graubünden">Bündner</placeName> Politiker, engagierte sich in sozialen
+                                <abbr>eidg.</abbr>
+                                <expan>eidgenössisch</expan>
+                            </choice> Oberst, <placeName type="place" key="Graubünden">Bündner</placeName> Politiker, engagierte sich in sozialen
             und wirtschaftspolitischen Angelegenheiten; Vater von Plantas Ehefrau <persName type="person" key="Planta (Reichenau)-von Planta (Samedan) Maria Ulrica von">Maria Ulrica von Planta-von Planta</persName>.</note>
                 </seg> <lb xml:id="p2-l25"/> jüngst in <placeName type="place" key="Turin (I)">
                     <hi>Turin</hi>
@@ -371,9 +372,9 @@
                 </seg> conferirte. –  <pb n="3"/>
                 <lb xml:id="p3-l1"/>
                 <choice>
-                    <abbr>4<hi rend="sup">o</hi> </abbr>
-                    <expan>quarto (viertens)</expan>
-                </choice> In <placeName type="place" key="Turin (I)">
+                        <abbr>4<hi rend="sup">o</hi> </abbr>
+                        <expan>quarto (viertens)</expan>
+                    </choice> In <placeName type="place" key="Turin (I)">
                     <hi>Turin</hi>
                 </placeName> ist
         die Stimmung äußerst gut und<lb xml:id="p3-l2"/> mein <persName type="person" key="Planta (Reichenau) Ulrich von">Schwiegervater</persName> schreibt, sie seien dort zu ihren<lb xml:id="p3-l3"/> <hi>premiers amours</hi>
@@ -392,9 +393,9 @@
                 </seg> soll nächstens<lb xml:id="p3-l11"/> auf Expertise anlangen. –
         <lb xml:id="p3-l12"/>
                 <choice>
-                    <abbr>5<hi rend="sup">o</hi> </abbr>
-                    <expan>quinto (fünftens)</expan>
-                </choice> <seg type="ref">
+                        <abbr>5<hi rend="sup">o</hi> </abbr>
+                        <expan>quinto (fünftens)</expan>
+                    </choice> <seg type="ref">
                     <persName type="person" key="Killias Wolfgang">
                         <hi>Killias</hi>
                     </persName> hat die Instruction<ref type="sum" target="Ostalpenbahnfrage_p11"><!--→ Band 1, S. 44--></ref>
@@ -426,28 +427,28 @@
           selbst<lb xml:id="p4-l11"/> immer noch in Frage steht. –
         <lb xml:id="p4-l12"/> 7. Umso bedauerlicher ist es, daß wir im Inlande<lb xml:id="p4-l13"/> es
         nicht auf die 12 <choice>
-                    <abbr>Mill.</abbr>
-                    <expan>Million</expan>
-                </choice> bringen. <seg type="ref">Am allerbärmlichsten<lb xml:id="p4-l14"/> zeigt sich <hi rend="underline">
+                        <abbr>Mill.</abbr>
+                        <expan>Million</expan>
+                    </choice> bringen. <seg type="ref">Am allerbärmlichsten<lb xml:id="p4-l14"/> zeigt sich <hi rend="underline">
                         <placeName type="place" key="Glarus">
                             <hi>Glarus</hi>
                         </placeName>
                     </hi>
                     <ref type="letter" target="K_1178"><!--→ Nr. 5--></ref>
                 </seg>, wo sämmtliche <seg type="com">Privatzeichnungen<lb xml:id="p4-l15"/> nur 300,000 <choice>
-                        <abbr>fr</abbr>
-                        <expan>franken / francs / franchi</expan>
-                    </choice> ausmachen und die Landsgemeinde<lb xml:id="p4-l16"/> vielleicht auch jeden
+                            <abbr>fr</abbr>
+                            <expan>franken / francs / franchi</expan>
+                        </choice> ausmachen und die Landsgemeinde<lb xml:id="p4-l16"/> vielleicht auch jeden
           Staatsbeitrag versagt!<note xml:id="K_1195_c14">Der Beitrag von <placeName type="place" key="Glarus">Glarner</placeName> Privatleuten erhöhte sich bis zum Abschluss der Zeichnungen nicht mehr.
             Hingegen beteiligten sich der Kanton <placeName type="place" key="Glarus">Glarus</placeName> mit
             einer halben Million, Gemeinden und Korporationen mit 43 000 Franken. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Wegmann, Vereinigte
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Wegmann, Vereinigte
             Schweizerbahnen</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 39.</note>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 39.</note>
                 </seg> <lb xml:id="p4-l17"/>
         Dagegen rührt sich jezt das <placeName type="place" key="Rheintal">Rheinthal</placeName> auf
         einmal<lb xml:id="p4-l18"/> mehr, doch unter der Bedingung <seg type="com">das<note xml:id="K_1195_c15">Verschrieb, wohl gemeint: «daß».</note>
@@ -455,38 +456,38 @@
                     <placeName type="place" key="Walensee">Wallensee
                         <lb break="no" xml:id="p4-l19"/>
                     </placeName>straße nicht gebaut werde bis <hi rend="underline">25</hi> <choice>
-                        <abbr>Mill.</abbr>
-                        <expan>Million</expan>
-                    </choice> gedeckt<lb xml:id="p4-l20"/> sind.<note xml:id="K_1195_c16">Gemeint ist nicht die Strasse, sondern die Bahnlinie. Die Bedingung findet sich leicht
+                            <abbr>Mill.</abbr>
+                            <expan>Million</expan>
+                        </choice> gedeckt<lb xml:id="p4-l20"/> sind.<note xml:id="K_1195_c16">Gemeint ist nicht die Strasse, sondern die Bahnlinie. Die Bedingung findet sich leicht
             abgeschwächt auch im Beschluss des <placeName type="place" key="St. Gallen">St. Galler</placeName>
             Grossen Rates: <bibl>Für die <hi>obgenannten</hi> Linien [<placeName type="place" key="Rorschach">Rorschach</placeName>–<placeName type="place" key="Chur">Chur</placeName>, <placeName type="place" key="Sargans">Sargans</placeName>–<placeName type="place" key="Walenstadt">Walenstadt</placeName>] nämlich ist jener Totalbeitrag von <choice>
-                                <abbr>Fr.</abbr>
-                                <expan>Franken / Francs / Franchi</expan>
-                            </choice> 2,750,000 schon verwendbar, sobald <hi>14 Millionen</hi> <choice>
-                                <abbr>Fr.</abbr>
-                                <expan>Franken / Francs / Franchi</expan>
-                            </choice> gezeichnet sind, (das ganze Aktien-Kapital der
+                                    <abbr>Fr.</abbr>
+                                    <expan>Franken / Francs / Franchi</expan>
+                                </choice> 2,750,000 schon verwendbar, sobald <hi>14 Millionen</hi> <choice>
+                                    <abbr>Fr.</abbr>
+                                    <expan>Franken / Francs / Franchi</expan>
+                                </choice> gezeichnet sind, (das ganze Aktien-Kapital der
               Südostbahn ist bekanntlich auf 25 <choice>
-                                <abbr>Mill.</abbr>
-                                <expan>Million</expan>
-                            </choice> <choice>
-                                <abbr>Fr.</abbr>
-                                <expan>Franken / Francs / Franchi</expan>
-                            </choice> festgesetzt); für die Linie <hi>
+                                    <abbr>Mill.</abbr>
+                                    <expan>Million</expan>
+                                </choice> <choice>
+                                    <abbr>Fr.</abbr>
+                                    <expan>Franken / Francs / Franchi</expan>
+                                </choice> festgesetzt); für die Linie <hi>
                                 <placeName type="place" key="Walenstadt">Wallenstadt</placeName>–<placeName type="place" key="Weesen">Weesen</placeName> </hi> aber, welche für <placeName type="place" key="Graubünden">Bünden</placeName>
               ohne Vergleich die wichtigste ist, weil wir dort noch <hi>nicht einmal</hi> eine
                 <hi>Straße</hi>, überhaupt <hi>gar keine gesicherte stetige</hi> Verbindung haben,
               sind die <placeName type="place" key="St. Gallen">St. Galler</placeName> Staatsbeiträge erst dann
               verwendbar, wenn <hi>20 Millionen</hi> gezeichnet sein werden.</bibl> <ref type="lit">Liberaler Alpenbote</ref>, 25. Juni 1853. – Zur Konkurrenz <placeName type="place" key="Rhein">Rhein-</placeName> <choice>
-                            <abbr>vs.</abbr>
-                            <expan>versus</expan>
-                        </choice> <placeName type="place" key="Linth">Linth</placeName>linie <ref type="sum" target="Ostalpenbahnfrage_p17"><!--→ Band 1, S. 46--></ref>.</note>
+                                <abbr>vs.</abbr>
+                                <expan>versus</expan>
+                            </choice> <placeName type="place" key="Linth">Linth</placeName>linie <ref type="sum" target="Ostalpenbahnfrage_p17"><!--→ Band 1, S. 46--></ref>.</note>
                 </seg> Auch in <placeName type="place" key="St. Gallen">St. Gallen</placeName> ist man noch rasend ver
                 <lb break="no" xml:id="p4-l21"/>grämmt gegen die
         <placeName type="place" key="Walensee">Wallensee</placeName>bahn. <seg type="com">
                     <persName type="person" key="Baumgartner Gallus Jakob">
-                        <hi>Baumgartner</hi>
-                    </persName>
+                            <hi>Baumgartner</hi>
+                        </persName>
                     <note xml:id="K_1195_c17">
                         <persName type="person" key="Baumgartner Gallus Jakob">Gallus
               Jakob Baumgartner</persName> (1797–1869), Grossrat (<placeName type="place" key="St. Gallen">SG</placeName>), Mitglied des provisorischen
@@ -499,9 +500,9 @@
             Kantone alle bereits im Januar 1853 genehmigt, die Konzessionsakte dem Verwaltungsrat
             der Schweizerischen Südostbahn jedoch erst im Mai durch den
             jeweiligen Kleinen Rat ausgehändigt. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Konzessionsakt Walenstadt–Weesen–Rapperswil 1853</ref>; Konzessionsakt des Kleinen Rathes des Kantons St. Gallen, betreffend Erstellung einer
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Konzessionsakt Walenstadt–Weesen–Rapperswil 1853</ref>; Konzessionsakt des Kleinen Rathes des Kantons St. Gallen, betreffend Erstellung einer
               Eisenbahn von Rorschach nach Ragatz und von Sargans nach Wallenstadt (vom 15. Januar /
               6. Mai 1853) (<ref type="lit">SBB Historic VGB_GEM_SBBZH104_001<!--_01--></ref>); Concessionsact des Cantons Graubünden betreffend Erstellung einer Eisenbahn von der
               Kantonsgränze bei Ragatz bis Chur, als Theil der Bahn von Rorschach nach Chur und von
@@ -515,23 +516,23 @@
                 </seg> <lb xml:id="p5-l5"/> zu hintertreiben suchen. – Man wird umso üppiger<lb xml:id="p5-l6"/> sein, als <placeName type="place" key="Glarus">
                     <hi>Glarus</hi>
                 </placeName> und <placeName type="place" key="Zürich">
-                    <hi>Zürich</hi>
-                </placeName>
+                        <hi>Zürich</hi>
+                    </placeName>
         nichts gethan oder<lb xml:id="p5-l7"/> höchstens 1 Million bis 1½ aufbrachten, während<lb xml:id="p5-l8"/> <seg type="ref">für das 1<hi rend="sup">ste</hi> Project <placeName type="place" key="Rorschach">Rorschach</placeName> <placeName type="place" key="Walenstadt">Wallenstadt</placeName> <placeName type="place" key="Chur">
-                        <hi>Chur</hi>
-                    </placeName> <lb xml:id="p5-l9"/>
+                            <hi>Chur</hi>
+                        </placeName> <lb xml:id="p5-l9"/>
               <del>
-                        <supplied type="unclear">8 M</supplied>
-                    </del> 5 Millionen öffentlicher<ref type="sum" target="Ostalpenbahnfrage_p16"><!--→ Band 1, S. 46--></ref>
+                            <supplied type="unclear">8 M</supplied>
+                        </del> 5 Millionen öffentlicher<ref type="sum" target="Ostalpenbahnfrage_p16"><!--→ Band 1, S. 46--></ref>
                 </seg> und <choice>
-                    <abbr>
-                        <hi>c<hi rend="sup">a</hi>
-                        </hi> </abbr>
-                    <expan>circa</expan>
-                </choice> 1½ bis 2 <choice>
-                    <abbr>Mill.</abbr>
-                    <expan>Million</expan>
-                </choice> <lb xml:id="p5-l10"/> Privatactien bereits vorliegen. Ferner tendiren<lb xml:id="p5-l11"/> die <hi>Genuesen</hi> zunächst nach dem <hi rend="underline">
+                        <abbr>
+                            <hi>c<hi rend="sup">a</hi>
+                            </hi> </abbr>
+                        <expan>circa</expan>
+                    </choice> 1½ bis 2 <choice>
+                        <abbr>Mill.</abbr>
+                        <expan>Million</expan>
+                    </choice> <lb xml:id="p5-l10"/> Privatactien bereits vorliegen. Ferner tendiren<lb xml:id="p5-l11"/> die <hi>Genuesen</hi> zunächst nach dem <hi rend="underline">
                     <placeName type="place" key="Bodensee">Bodensee</placeName>
                 </hi> <lb xml:id="p5-l12"/> selbst das Decret lautet so. Auch die <seg type="ref">
                     <placeName type="place" key="Kinzigtal">
@@ -541,15 +542,15 @@
                 </seg> scheint nunmehr beschloßen oder
         wenigstens<lb xml:id="p5-l14"/> sicher zu sein. – Die <placeName type="place" key="England">Engländer</placeName> endlich haben<lb xml:id="p5-l15"/> schon das Hauptinteresse an der <seg type="com">
                     <placeName type="place" key="Luxemburg (Grossherzogtum)">
-                        <hi>Luxemburger</hi>linie</placeName>
+                            <hi>Luxemburger</hi>linie</placeName>
                     <note xml:id="K_1195_c19">Gemeint ist wahrscheinlich die Verbindung <placeName type="place" key="Basel-Stadt">Basel</placeName>–<placeName type="place" key="Strassburg (F)">Strassburg</placeName>–<placeName type="place" key="Metz (F)">Metz</placeName>–<placeName type="place" key="Luxemburg (L)">Luxemburg</placeName>–<placeName type="place" key="Namur (B)">Namur</placeName>–<placeName type="place" key="Liège (B)">Lüttich</placeName>–<placeName type="place" key="Ostende (B)">Ostende</placeName>(–<placeName type="place" key="Dover (UK)">Dover</placeName>).
             Davon fehlte bis anhin das Bindeglied <placeName type="place" key="Metz (F)">Metz</placeName>–<placeName type="place" key="Luxemburg (L)">Luxemburg</placeName>–<placeName type="place" key="Namur (B)">Namur</placeName>; diese Strecke wurde erst 1859 eröffnet. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Putzger, Historischer Atlas</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 96.</note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Putzger, Historischer Atlas</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 96.</note>
                 </seg>. <lb xml:id="p5-l16"/> <seg type="ref">
                     <del>Unendl.</del> Zu dem Allem kommt die
             geheime<lb xml:id="p5-l17"/> Lust  <del>der</del> <seg type="com">gewisser Coryphäen<note xml:id="K_1195_c20">Gemeint sind
@@ -593,51 +594,51 @@
                 </placeName> noch<lb xml:id="p6-l4"/> vorzuziehen ist oder nicht. – Aber das weiß ich,<lb xml:id="p6-l5"/> daß mit dieser Zeichnung unserm Unternehmen<lb xml:id="p6-l6"/> gar blutwenig
         geholfen ist, indem <seg type="com">am <date when="1853-05-24">24<hi rend="sup">sten</hi> <lb xml:id="p6-l7"/>
                         <choice>
-                            <abbr>d. M.</abbr>
-                            <expan>dieses Monats</expan>
-                        </choice> </date>
+                                <abbr>d. M.</abbr>
+                                <expan>dieses Monats</expan>
+                            </choice> </date>
                     <note xml:id="K_1195_c23">Der <date when="1853-05-24">24. Mai 1853</date> war der Schlusstag
               für die Aktienzeichnung der Schweizerischen Südostbahn. Die
             Zeichnungsfrist wurde allerdings stillschweigend bis Ende Mai 1853 verlängert. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">NZZ</ref>, 12. Mai 1853; <ref type="lit">Prot. VR/WK SOB</ref>, 21. Mai 1853 (<choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 58).</note>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 12. Mai 1853; <ref type="lit">Prot. VR/WK SOB</ref>, 21. Mai 1853 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 58).</note>
                 </seg> deßhalb der Stand unserer inländischen<lb xml:id="p6-l8"/> Zeichnungen und namentlich derjenigen <seg type="ref">für die<lb xml:id="p6-l9"/>Südostbahn ganz
           gleich pitoyabel steht.<ref type="sum" target="Ostalpenbahnfrage_p10"><!--→ Band 1, S. 44--></ref>
                 </seg> Hätte<lb xml:id="p6-l10"/> man uns dagegen <del>en</del> einstweilen
           eine<lb xml:id="p6-l11"/> halbe Million oder eine ganze noch zugeführt<lb xml:id="p6-l12"/> so
         hätte man daran wircklich etwas Reelles<lb xml:id="p6-l13"/> gehabt. – Daß <hi rend="underline">beide</hi> Seeufer,
           <placeName type="place" key="Winterthur">
-                    <hi>Winterthur</hi>
-                </placeName> <choice>
-                    <abbr>usw</abbr>
-                    <expan>und so weiter</expan>
-                </choice> <lb xml:id="p6-l14"/> auch nicht <hi rend="underline">eine</hi> <hi rend="underline">einzige</hi> Actie genommen ist
+                        <hi>Winterthur</hi>
+                    </placeName> <choice>
+                        <abbr>usw</abbr>
+                        <expan>und so weiter</expan>
+                    </choice> <lb xml:id="p6-l14"/> auch nicht <hi rend="underline">eine</hi> <hi rend="underline">einzige</hi> Actie genommen ist
           nun<lb xml:id="p6-l15"/> einmal ein Benehmen, das man sehr zum Nachtheil<lb xml:id="p6-l16"/> von
           <placeName type="place" key="Zürich">
-                    <hi>Zürich</hi>
-                </placeName> ausbeuten kann. –        
+                        <hi>Zürich</hi>
+                    </placeName> ausbeuten kann. –        
           <lb xml:id="p6-l17"/> <seg type="com">7.<note xml:id="K_1195_c24">Fehler in der Aufzählung, gemeint: «8.».</note>
                 </seg> <!--Transkriptionsbereinigung--> Betreffend den Staatsbeitrag so werden wir<lb xml:id="p6-l18"/> <seg type="com">
                     <date when="1853-05-21">nächsten <del>Sonnta</del> Samstag</date> die Frage behandeln.<note xml:id="K_1195_c25">Am <date when="1853-05-21">21. Mai 1853</date> fand eine Sitzung des
           Verwaltungsrates der Schweizerischen Südostbahn statt. <bibl>Gleich
               nach Aufhebung der vormittäglichen Sitzung ist eine telegraphische Depesche von <choice>
-                                <abbr>Hrn.</abbr>
-                                <expan>Herrn</expan>
-                            </choice> Bürgermeister Escher in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> an <choice>
-                                <abbr>Hrn.</abbr>
-                                <expan>Herrn</expan>
-                            </choice> Nationalrath v. Planta eingelangt, in
+                                    <abbr>Hrn.</abbr>
+                                    <expan>Herrn</expan>
+                                </choice> Bürgermeister Escher in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> an <choice>
+                                    <abbr>Hrn.</abbr>
+                                    <expan>Herrn</expan>
+                                </choice> Nationalrath v. Planta eingelangt, in
             welcher derselbe ein Ansuchen um eine Staatsbetheiligung an den Rath <placeName type="place" key="Zürich">Zürich's</placeName>, der sich Mitte Juni oder
               gegen Ende Juni versammeln wird, anräth.</bibl> Darauf wird beschlossen, um eine
             Staatsbeteiligung <bibl>in schicklicher Zeit einzukommen</bibl>. <ref type="lit">Prot.
               VR/WK SOB</ref>, 21. Mai 1853 (<choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 58–59). – Telegramm
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 58–59). – Telegramm
             nicht ermittelt. – Mit «Bürgermeister» wurde in <placeName type="place" key="Zürich">Zürich</placeName> vor 1850 der Regierungspräsident bezeichnet. <ref type="letter" target="K_1815_c1"><!--→ Nr. 37 (Kommentar)--></ref>.</note>
                 </seg> <lb xml:id="p6-l19"/> Wir
         fürchten nur daß wir <del>dort</del> <add>bei Ihnen</add> nichts bekommen<lb xml:id="p6-l20"/>
@@ -675,8 +676,8 @@
                     <hi>Brugg</hi>
                 </placeName> den
           <placeName type="place" key="Bözberg">
-                    <hi>Bötzberg</hi>
-                </placeName> und<lb xml:id="p7-l13"/> die Linie <placeName type="place" key="Chur">
+                        <hi>Bötzberg</hi>
+                    </placeName> und<lb xml:id="p7-l13"/> die Linie <placeName type="place" key="Chur">
                     <hi>Chur</hi>
                 </placeName>–<placeName type="place" key="Basel-Stadt">
                     <hi>Basel</hi>
@@ -686,7 +687,7 @@
         ihm Aufträge und Vollmachten dann<lb xml:id="p7-l17"/> kann er eher agiren. – Die <placeName type="place" key="Linth">Linth</placeName>linie<lb xml:id="p7-l18"/> und der <placeName type="place" key="Bözberg">
                     <hi>Bötzberg</hi>
                 </placeName> sind neben dem <hi>Lukmanier</hi>
-                <lb xml:id="p7-l19"/> seine Marotten,
+                    <lb xml:id="p7-l19"/> seine Marotten,
         daß er den Zweig bis <placeName type="place" key="Rapperswil (Rapperswil-Jona)">
                     <hi>Rapper</hi>
                     <lb break="no" xml:id="p7-l20"/>
@@ -744,43 +745,43 @@
                         <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> fand den Anschluss ans <placeName type="place" key="Deutschland">süddeutsche</placeName> Bahnnetz schliesslich 1856/57 über <placeName type="place" key="Schaffhausen (Stadt)">Schaffhausen</placeName> durch die Fusion der <ref type="kbe"/>Nordostbahn mit der <ref type="kbe"/>Rheinfallbahn. Ursprünglich
             war jedoch vorgesehen, die Fortsetzung der <placeName type="place" key="Kinzigtal">Kinzigtal</placeName>bahn über <placeName type="place" key="Schaffhausen (Stadt)">Schaffhausen</placeName> und <placeName type="place" key="Rorschach">Rorschach</placeName> Richtung
               <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName> zu führen. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
               484–485; <ref type="lit">Wegmann, Vereinigte Schweizerbahnen</ref>, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 42; <ref type="sum" target="Ostalpenbahnfrage_p29"><!--→ Band 1, S. 51--></ref>.</note>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 42; <ref type="sum" target="Ostalpenbahnfrage_p29"><!--→ Band 1, S. 51--></ref>.</note>
                 </seg> – Daher schließe ich mit meinem<lb xml:id="p8-l12"/> <seg type="com">
                     <hi>Ceterum censeo</hi>
                     <note xml:id="K_1195_c27">Ceterum censeo (<choice>
-                            <abbr>lat.</abbr>
-                            <expan>lateinisch</expan>
-                        </choice>): im übrigen meine ich.</note>
+                                <abbr>lat.</abbr>
+                                <expan>lateinisch</expan>
+                            </choice>): im übrigen meine ich.</note>
                 </seg>, daß man ganz unverantwortlich<lb xml:id="p8-l13"/> leichtsinnig handelt am See und auch im<lb xml:id="p8-l14"/>
                 <placeName type="place" key="Jona (Rapperswil-Jona)">
                     <hi>Jona</hi>
                 </placeName> &amp; <placeName type="place" key="Glatttal">
                     <hi>Glatthal</hi>
                 </placeName> <choice>
-                    <abbr>
+                        <abbr>
                     <hi>etc</hi> </abbr>
-                    <expan>et cetera (und anderes)</expan>
-                </choice> wenn man die<lb xml:id="p8-l15"/>Südostbahn in diesem <hi rend="underline">Moment</hi> ignorirt<lb xml:id="p8-l16"/> und die <placeName type="place" key="Linth">Linth</placeName>linie im Stiche läßt. –<lb xml:id="p8-l17"/> Ich sollte nach dem <seg type="com">
+                        <expan>et cetera (und anderes)</expan>
+                    </choice> wenn man die<lb xml:id="p8-l15"/>Südostbahn in diesem <hi rend="underline">Moment</hi> ignorirt<lb xml:id="p8-l16"/> und die <placeName type="place" key="Linth">Linth</placeName>linie im Stiche läßt. –<lb xml:id="p8-l17"/> Ich sollte nach dem <seg type="com">
                     <placeName type="place" key="Thurgau">
                         <hi>Thurgau</hi>
                     </placeName>
                     <note xml:id="K_1195_c28">Plantas Familie besass Güter im <placeName type="place" key="Thurgau">Thurgau</placeName>. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Gruner,
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Gruner,
               Bundesversammlung</ref> I, <choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 622; <ref type="letter" target="K_0758"><!--→ Nr. 2--></ref>.</note>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 622; <ref type="letter" target="K_0758"><!--→ Nr. 2--></ref>.</note>
                 </seg>, nach <placeName type="place" key="Turin (I)">
                     <hi>Turin</hi>
                 </placeName>,<lb xml:id="p8-l18"/> nach <placeName type="place" key="Tessin">
@@ -791,13 +792,13 @@
           Reisen ist.<note xml:id="K_1195_c29">Die Verwaltungsräte befanden sich auf «Missionen» für die
             Schweizerische Südostbahn in <placeName type="place" key="München (D)">München</placeName>, <placeName type="place" key="Mailand (I)">Mailand</placeName>,
               <placeName type="place" key="Wien (A)">Wien</placeName> und <placeName type="place" key="London (UK)">London</placeName>. <choice>
-                            <abbr>Vgl.</abbr>
-                            <expan>Vergleiche</expan>
-                        </choice> <ref type="lit">Prot. VR/WK
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. VR/WK
               SOB</ref>, 21. Mai 1853 (<choice>
-                            <abbr>S.</abbr>
-                            <expan>Seite(n)</expan>
-                        </choice> 56–57).</note>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 56–57).</note>
                 </seg> Von
           einem<lb xml:id="p8-l21"/> Besuch in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> kann
         mithin nicht die<lb xml:id="p8-l22"/> Rede sein. Nächstens vielleicht
@@ -805,7 +806,8 @@
                 <lb xml:id="p8-l23"/> für heute schließe ich
         eiligst <del>den</del> <hi rend="underline">grüßend</hi> <lb xml:id="p8-l24"/> meinen un<del>ge</del> <add>über</add>lesenen Brief
         Seitens </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="right" xml:id="K_1195_p7">

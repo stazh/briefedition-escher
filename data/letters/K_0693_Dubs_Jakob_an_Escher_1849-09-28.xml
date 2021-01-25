@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Dubs Jakob" type="sender">Jakob Dubs</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Dubs Jakob" type="sender">Jakob Dubs</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Zürich</placeName>
                     <date when="1849-09-28">Freitag, September 28, 1849</date>
                 </correspAction>
@@ -94,19 +94,21 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_0693_p3">
                 <lb xml:id="p1-l3"/>Mit verbindlichstem Dank sende ich Ihnen hier<lb xml:id="p1-l4"/> den Beschluß
         des <choice>
-                    <abbr>Erz.Rathes</abbr>
-                    <expan>ErziehungsRathes</expan>
-                </choice> in Sachen 
+                        <abbr>Erz.Rathes</abbr>
+                        <expan>ErziehungsRathes</expan>
+                    </choice> in Sachen 
                     <persName type="person" key="Scherr">Scherr</persName>  wieder zurück. – <lb xml:id="p1-l5"/> Herr <persName type="person" key="H.">H.</persName> züchtigt die <choice>
-                    <abbr>Eidg. Z.</abbr>
-                    <expan>Eidgenössische / Eidgenößische Zeitung</expan>
-                </choice> vortrefflich
+                        <abbr>Eidg. Z.</abbr>
+                        <expan>Eidgenössische / Eidgenößische Zeitung</expan>
+                    </choice> vortrefflich
           &amp;. zu meinem<lb xml:id="p1-l6"/> innigsten Entzücken im feinsten,
         <hi rend="underline">diplomatischen</hi> Styl.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="right" xml:id="K_0693_p4">

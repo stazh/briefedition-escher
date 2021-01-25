@@ -28,8 +28,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Brunner Karl Heinrich" type="sender">Karl Heinrich Brunner</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Brunner Karl Heinrich" type="sender">Karl Heinrich Brunner</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Bern</placeName>
                     <date when="1845-10-20">Montag, Oktober 20, 1845</date>
                 </correspAction>
@@ -84,6 +84,7 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_0403_p3">
                 <lb xml:id="p1-l3"/>Im Sinne Ihrer Zuschrift vom <date when="1845-10-17">17 dß</date>, welche Sie mir noch vor<lb xml:id="p1-l4"/>
 		meiner Abreise zu adressiren die Güte hatten, habe ich heute Gelegenheit<lb xml:id="p1-l5"/>
@@ -91,32 +92,32 @@
                     <hi>Neuchatelern</hi>
                 </placeName> <lb xml:id="p1-l6"/>
 		zu sprechen &amp; in Übereinstimmung mit H<supplied>errn</supplied> <choice>
-                    <abbr>
+                        <abbr>
                     <hi>Reg.R.</hi> </abbr>
-                    <expan>RegierungsRath</expan>
-                </choice> <persName type="person" key="Schneider Johann Rudolf">
+                        <expan>RegierungsRath</expan>
+                    </choice> <persName type="person" key="Schneider Johann Rudolf">
                     <hi>Schneider</hi>
                 </persName> habe ich ver
                 <lb break="no" xml:id="p1-l7"/>nohmen, 
 daß für die <persName type="person" key="Kaufmann Melchior">
                     <persName type="person" key="Hofmann Ludwig">
                         <persName type="person" key="Birrer Joseph">3 <choice>
-                                <abbr>Befr.</abbr>
-                                <expan>Befreier</expan>
-                            </choice>
+                                    <abbr>Befr.</abbr>
+                                    <expan>Befreier</expan>
+                                </choice>
                         </persName>
                     </persName>
                 </persName> <persName type="person" key="Steiger Jakob Robert">Steigers</persName> nur die kleine Summe von <choice>
-                    <abbr>
-                        <hi>c<hi rend="sup">a</hi>
-                        </hi> </abbr>
-                    <expan>circa</expan>
-                </choice> <lb xml:id="p1-l8"/>
+                        <abbr>
+                            <hi>c<hi rend="sup">a</hi>
+                            </hi> </abbr>
+                        <expan>circa</expan>
+                    </choice> <lb xml:id="p1-l8"/>
 		300 <choice>
-                    <abbr>
-                        <hi>ffr</hi>.</abbr>
-                    <expan>franken / francs / franchi</expan>
-                </choice> an das <hi>Comité</hi> nach <placeName type="place" key="Bern (Stadt)">
+                        <abbr>
+                            <hi>ffr</hi>.</abbr>
+                        <expan>franken / francs / franchi</expan>
+                    </choice> an das <hi>Comité</hi> nach <placeName type="place" key="Bern (Stadt)">
                     <hi>Bern</hi>
                 </placeName> abgegangen sei, – alle andern<lb xml:id="p1-l9"/>
 		Gelder von <placeName type="place" key="La Chaux-de-Fonds">
@@ -126,73 +127,74 @@ daß für die <persName type="person" key="Kaufmann Melchior">
                 </placeName>, <placeName type="place" key="Val de Travers (Tal)">
                     <hi>Val de Travers</hi>
                 </placeName> <choice>
-                    <abbr>&amp;sw</abbr>
-                    <expan>und so weiter</expan>
-                </choice> <choice>
-                    <abbr>&amp;sw</abbr>
-                    <expan>und so weiter</expan>
-                </choice> seien
+                        <abbr>&amp;sw</abbr>
+                        <expan>und so weiter</expan>
+                    </choice> <choice>
+                        <abbr>&amp;sw</abbr>
+                        <expan>und so weiter</expan>
+                    </choice> seien
 				<lb xml:id="p1-l10"/>
                 <hi rend="underline">mit besondern Bestimmungen</hi> versehen gewesen. Dann theilte<lb xml:id="p1-l11"/>
 		mir Herr <persName type="person" key="Schneider Johann Rudolf">
                     <hi>Schneider</hi>
                 </persName> mit, daß 600 <choice>
-                    <abbr>
-                        <hi>ffr</hi>.</abbr>
-                    <expan>franken / francs / franchi</expan>
-                </choice> von <placeName type="place" key="Freiburg im Üechtland">Freiburg</placeName> eingegangen,<lb xml:id="p1-l12"/>
+                        <abbr>
+                            <hi>ffr</hi>.</abbr>
+                        <expan>franken / francs / franchi</expan>
+                    </choice> von <placeName type="place" key="Freiburg im Üechtland">Freiburg</placeName> eingegangen,<lb xml:id="p1-l12"/>
 				welche mit obigen 300 <choice>
-                    <abbr>
-                        <hi>ffr</hi>.</abbr>
-                    <expan>franken / francs / franchi</expan>
-                </choice> in der vor einigen Tagen an Herrn<lb xml:id="p1-l13"/>
+                        <abbr>
+                            <hi>ffr</hi>.</abbr>
+                        <expan>franken / francs / franchi</expan>
+                    </choice> in der vor einigen Tagen an Herrn<lb xml:id="p1-l13"/>
                 <persName type="person" key="Wäffler-Egli Rudolf">
-                    <hi>Waeffler</hi>
-                </persName> in <placeName type="place" key="Winterthur">
-                    <hi>Wthur</hi>
-                </placeName> zu Handen des <hi>Comités</hi> abgegangenen Summe von 
+                        <hi>Waeffler</hi>
+                    </persName> in <placeName type="place" key="Winterthur">
+                        <hi>Wthur</hi>
+                    </placeName> zu Handen des <hi>Comités</hi> abgegangenen Summe von 
 		<lb xml:id="p1-l14"/>
                 <choice>
-                    <abbr>
-                        <hi>c<hi rend="sup">a</hi>
-                        </hi> </abbr>
-                    <expan>circa</expan>
-                </choice> <choice>
-                    <abbr>
-                        <hi>fr</hi>
-                    </abbr>
-                    <expan>franken / francs / franchi</expan>
-                </choice> 6000 <supplied type="unclear">
+                        <abbr>
+                            <hi>c<hi rend="sup">a</hi>
+                            </hi> </abbr>
+                        <expan>circa</expan>
+                    </choice> <choice>
+                        <abbr>
+                            <hi>fr</hi>
+                        </abbr>
+                        <expan>franken / francs / franchi</expan>
+                    </choice> 6000 <supplied type="unclear">
                     <hi>de Suisse</hi> </supplied>
                 <hi rend="underline">inbegriffen</hi> seien.</p>
       <p rend="indent" xml:id="K_0403_p4">
                 <lb xml:id="p1-l15"/>Auf m<supplied>eine</supplied> dringlichen Vorstellungen, daß <choice>
-                    <abbr>u. s. w.</abbr>
-                    <expan>und so weiter</expan>
-                </choice> noch Viel erforderlich<lb xml:id="p1-l16"/>
+                        <abbr>u. s. w.</abbr>
+                        <expan>und so weiter</expan>
+                    </choice> noch Viel erforderlich<lb xml:id="p1-l16"/>
         sei, daß Herr <persName type="person" key="Gross">Gross</persName> den Betreffenden vielleicht zu glänzende Versprech
                 <lb break="no" xml:id="p1-l17"/>ungen gemacht habe, welche man nunmehr nur theilweise erfüllen<lb xml:id="p1-l18"/>
         könne, äußerte sich Herr <persName type="person" key="Schneider Johann Rudolf">
                     <hi>Schneider</hi>
                 </persName>, daß sie von ihrer früheren <lb xml:id="p1-l19"/>
         Zusage von 10000 <choice>
-                    <abbr>
-                        <hi>fr</hi>.</abbr>
-                    <expan>franken / francs / franchi</expan>
-                </choice> nicht zurückgehen werden, sondern vielmehr<lb xml:id="p1-l20"/>
+                        <abbr>
+                            <hi>fr</hi>.</abbr>
+                        <expan>franken / francs / franchi</expan>
+                    </choice> nicht zurückgehen werden, sondern vielmehr<lb xml:id="p1-l20"/>
         bis zur <hi>Concurrenz</hi> von 24,000 <choice>
-                    <abbr>
-                        <hi>fr</hi>.</abbr>
-                    <expan>franken / francs / franchi</expan>
-                </choice> nachträglich gerne <hi>contribuiren</hi> <lb xml:id="p1-l21"/>
+                        <abbr>
+                            <hi>fr</hi>.</abbr>
+                        <expan>franken / francs / franchi</expan>
+                    </choice> nachträglich gerne <hi>contribuiren</hi> <lb xml:id="p1-l21"/>
         wollten, wenn es <hi rend="underline">verlangt</hi> werde. Freilich sei die Art &amp; Weise<lb xml:id="p1-l22"/>
         wie sie von Seite <placeName type="place" key="Winterthur">
-                    <hi>Wthur's</hi>
-                </placeName> daran erinnert worden, nicht sehr geeignet,<lb xml:id="p1-l23"/>
+                        <hi>Wthur's</hi>
+                    </placeName> daran erinnert worden, nicht sehr geeignet,<lb xml:id="p1-l23"/>
         Geld aus der Tasche zu locken, allein dessenungeachtet werden sie ihr Möglichstes<lb xml:id="p1-l24"/>
         thun, wenn es nothwendig sei. Ob nun, während m<supplied>eines</supplied><!--nach T. Binder: m<add>eines</add>--> Aufenthaltes noch Etwas<lb xml:id="p1-l25"/>
         geschieht, ist zu gewärtigen.</p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="right" xml:id="K_0403_p5">

@@ -12,7 +12,7 @@
                 <msDesc>
                     <msIdentifier>
                         <institution>SBB Historic</institution>
-                        <idno type="original"/>
+                        <idno type="original">VGB_GB_SBBGB01_005</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
@@ -31,8 +31,8 @@
             </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="Koller Gottlieb" type="sender">Gottlieb Koller</persName>
-                    <persName ref="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
+                    <persName key="Koller Gottlieb" type="sender">Gottlieb Koller</persName>
+                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
                     <placeName>Basel</placeName>
                     <date when="1864-10-23">Sonntag, Oktober 23, 1864</date>
                 </correspAction>
@@ -111,6 +111,7 @@
       </div>
     </front>
     <body>
+            <div>
       <p rend="indent" xml:id="K_5055_p5">
                 <lb xml:id="p1-l6"/>In umgehender Erwiderung Ihrer verehrlichen Zuschrift <lb xml:id="p1-l7"/>von <date when="1864-10-22">gestern</date> habe die Ehre Ihnen mitzutheilen, daß die
                     <lb xml:id="p1-l8"/>
@@ -120,16 +121,16 @@
                 möchten dieselben soweit thunlich nach folgenden Bau
                 <lb break="no" xml:id="p1-l11"/>grundsätzen modificirt werden, in der Meinung, daß wo <lb xml:id="p1-l12"/>dies nicht geschehen
                 wäre, die <choice>
-                    <abbr>bezügl.</abbr>
-                    <expan>bezüglich</expan>
-                </choice> Abänderung von ihnen <lb xml:id="p1-l13"/>selbst
+                        <abbr>bezügl.</abbr>
+                        <expan>bezüglich</expan>
+                    </choice> Abänderung von ihnen <lb xml:id="p1-l13"/>selbst
                 vorgenommen &amp; nach derselben die Vergleichung in Bezug
                 <lb xml:id="p1-l14"/>auf Längen, <hi>Trace</hi>verhältnisse, Kosten <choice>
-                    <abbr>
-                        <hi>etc</hi>
-                    </abbr>
-                    <expan>et cetera (und anderes)</expan>
-                </choice> stattfinden würde. </p>
+                        <abbr>
+                            <hi>etc</hi>
+                        </abbr>
+                        <expan>et cetera (und anderes)</expan>
+                    </choice> stattfinden würde. </p>
       <table>
         <row xml:id="p1-l15">
           <cell rend="left">Maximalsteigung der offenen Bahn</cell>
@@ -141,35 +142,35 @@
         </row>
         <row xml:id="p1-l17">
           <cell rend="left">" in Tunneln von mehr als 150<choice>
-                            <abbr>
+                                <abbr>
                             <hi rend="sup">m</hi> </abbr>
-                            <expan>meter</expan>
-                        </choice> Länge</cell>
+                                <expan>meter</expan>
+                            </choice> Länge</cell>
           <cell rend="right">20 "</cell>
         </row>
         <row xml:id="p1-l18">
           <cell rend="left">" in Kreistunneln mit 300<choice>
-                            <abbr>
+                                <abbr>
                             <hi rend="sup">m</hi> </abbr>
-                            <expan>meter</expan>
-                        </choice>
+                                <expan>meter</expan>
+                            </choice>
                         Radius</cell>
           <cell rend="right">15 "</cell>
         </row>
         <row xml:id="p1-l19">
           <cell rend="left">" in offenen Kreiskehren mit 300<choice>
-                            <abbr>
+                                <abbr>
                             <hi rend="sup">m</hi> </abbr>
-                            <expan>meter</expan>
-                        </choice> Radius</cell>
+                                <expan>meter</expan>
+                            </choice> Radius</cell>
           <cell rend="right">20 "</cell>
         </row>
         <row xml:id="p1-l20">
           <cell rend="left">" zwischen zwei Spitzkehren bei 450<choice>
-                            <abbr>
+                                <abbr>
                             <hi rend="sup">m</hi> </abbr>
-                            <expan>meter</expan>
-                        </choice> Radius <lb xml:id="p1-l21"/>in der Annahme, daß die Züge
+                                <expan>meter</expan>
+                            </choice> Radius <lb xml:id="p1-l21"/>in der Annahme, daß die Züge
                         geschoben werden</cell>
           <cell rend="right">15 "</cell>
         </row>
@@ -273,10 +274,10 @@
       </table>
       <p rend="left" xml:id="K_5055_p8">
                 <lb xml:id="p2-l12"/>Wenn außerdem die Steigung in Tunneln von mehr als 150<choice>
-                    <abbr>
+                        <abbr>
                     <hi rend="sup">m</hi> </abbr>
-                    <expan>meter</expan>
-                </choice> Länge <lb xml:id="p2-l13"/>auf 20‰ herabgesetzt werden muß, so wird
+                        <expan>meter</expan>
+                    </choice> Länge <lb xml:id="p2-l13"/>auf 20‰ herabgesetzt werden muß, so wird
                 sich schließlich </p>
       <table>
         <row xml:id="p2-l14">
@@ -289,11 +290,11 @@
           <cell rend="center">von</cell>
           <cell rend="center">
             <hi>
-                            <choice>
-                                <abbr>C<hi rend="sup">a</hi> </abbr>
-                                <expan>Circa</expan>
-                            </choice>
-                        </hi>
+                                <choice>
+                                    <abbr>C<hi rend="sup">a</hi> </abbr>
+                                    <expan>Circa</expan>
+                                </choice>
+                            </hi>
           </cell>
           <cell rend="center">9</cell>
           <cell rend="center">Kilometer</cell>
@@ -354,9 +355,9 @@
                     <placeName type="place" key="Italien (Königreich)">ital.</placeName> Experten</persName> anzuordnen.
                     <lb xml:id="p3-l17"/>
                 <choice>
-                    <abbr>Hr.</abbr>
-                    <expan>Herr</expan>
-                </choice> <persName type="person" key="Wetli Kaspar">Wetli</persName> wurde von diesen Herren
+                        <abbr>Hr.</abbr>
+                        <expan>Herr</expan>
+                    </choice> <persName type="person" key="Wetli Kaspar">Wetli</persName> wurde von diesen Herren
                 persönlich ersucht, sein Projekt <lb xml:id="p3-l18"/>in einigen Punkten zu modificiren, namentlich
                 die Zahl der <lb xml:id="p3-l19"/>Spitzkehren zu vermindern &amp; dagegen die
                 Längen der Kehrlinie <lb xml:id="p3-l20"/>etwas zu vergrößern, ferner auch den untersten direkten
@@ -373,18 +374,18 @@
                 geben, so kann es gewiß nur im Intresse der <lb xml:id="p4-l3"/>Sache liegen, wenn demselben
                 ebenfalls größere Vorbereitung <lb xml:id="p4-l4"/>gegeben wird &amp; wenn die
                     <choice>
-                    <abbr>bezügl.</abbr>
-                    <expan>bezüglich</expan>
-                </choice> Materialien, als Bericht,
+                        <abbr>bezügl.</abbr>
+                        <expan>bezüglich</expan>
+                    </choice> Materialien, als Bericht,
                 <lb xml:id="p4-l5"/>Kostenberechnung &amp; modificirte Tracirung, von Herrn
                     <persName type="person" key="Wetli Kaspar">Wetli</persName> <lb xml:id="p4-l6"/>direkt verlangt werden, mit der selbstverständlichen Voraus
                 <lb break="no" xml:id="p4-l7"/>setzung,
                 daß diese Arbeit rein sachlich gehalten &amp; ebenfalls <lb xml:id="p4-l8"/>vor
                 dem Druck einer Prüfung unterzogen werde, was sich <lb xml:id="p4-l9"/>
                 <choice>
-                    <abbr>Hr.</abbr>
-                    <expan>Herr</expan>
-                </choice> <persName type="person" key="Wetli Kaspar">Wetli</persName> wohl auch gefallen lassen wird. </p>
+                        <abbr>Hr.</abbr>
+                        <expan>Herr</expan>
+                    </choice> <persName type="person" key="Wetli Kaspar">Wetli</persName> wohl auch gefallen lassen wird. </p>
       <p rend="indent" xml:id="K_5055_p12">
                 <lb xml:id="p4-l10"/>Wenn Sie es wünschen bin ich gern bereit Ihnen <lb xml:id="p4-l11"/>über obige Angelegenheit
                 noch weitere Auskunft mündlich <lb xml:id="p4-l12"/>zu geben &amp; habe nur zu
@@ -399,7 +400,8 @@
                     <placeName type="place" key="Splügen (Pass)">Splügen</placeName>projekt</hi> an Herrn Präsident <lb xml:id="p4-l18"/>
                 <hi>
                     <persName type="person" key="Zingg Josef">Zingg</persName> </hi> zu Handen des Ausschusses. </p>
-    </body>
+    </div>
+        </body>
     <back>
       <div type="closer">
         <p rend="indent" xml:id="K_5055_p14">
