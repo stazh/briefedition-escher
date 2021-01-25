@@ -12,6 +12,8 @@
     <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
     <link rel="stylesheet" href="resources/css/theme.css"/>
+    <link rel="stylesheet" href="resources/css/escher.css"/>
+
     <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
     <custom-style>
         <style>
@@ -109,31 +111,6 @@
             #document-list {
                 flex: 2;
                 margin-right: 20px;
-            }
-            
-            .upload-panel {
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-                min-width: 360px;
-            }
-            
-            aside .upload {
-                --paper-card-header: {
-                    background-color: #607D8B;
-                }
-                ;
-                --paper-card-header-text: {
-                    font-family: "Oswald", Verdana, "Helvetica", sans-serif;
-                    font-size: 16px;
-                    font-weight: 400;
-                    color: white;
-                }
-                ;
-            }
-            
-            aside .upload {
-                width: 100%;
             }
             
             .parent-link iron-icon {
@@ -249,7 +226,8 @@
 </head>
 
 <body>
-    <pb-page data-template="pages:pb-page" unresolved="unresolved">
+    <pb-page data-template="pages:pb-page" unresolved="unresolved" 
+        locales="resources/i18n/{{ns}}/{{lng}}.json" locale-fallback-ns="app">
         <app-drawer-layout force-narrow="force-narrow">
             <app-drawer slot="drawer" align="right">
                 <div class="drawer-content">
@@ -326,15 +304,6 @@
                                 </div>
                             </div>
                         </paper-card>
-                        <pb-restricted class="upload-panel" login="login">
-                            <aside>
-                                <paper-card class="upload" data-i18n="[heading]upload.upload" heading="Upload">
-                                    <div class="card-content">
-                                        <pb-upload id="upload" emit="docs" accept=".xml, .tei, .odd, .docx, .mei"/>
-                                    </div>
-                                </paper-card>
-                            </aside>
-                        </pb-restricted>
                     </section>
                 </main>
                 <footer class="version">
