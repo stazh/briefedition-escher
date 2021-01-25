@@ -256,7 +256,10 @@
                     <model predicate="$parameters?header='context' and @type='letter'" behaviour="block">
             <param name="label" value="."/>
             <param name="letter" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)//titleStmt/title"/>
-            <param name="uri" value="let $target := @target return util:document-name(collection('/db/apps/escher/data/letters')/id($target))"/>
+            <param name="uri" value="let $target := @target 
+            let $letter := collection('/db/apps/escher/data/letters')/id($target)
+            return 
+            if ($letter) then util:document-name($letter) else () "/>
             <param name="ref" value="@target"/>
             <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]">[[label]]: [[letter]]</a></pb:template>
         </model>
