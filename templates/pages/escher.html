@@ -37,7 +37,7 @@
                 position: relative;
                 display: grid;
                 height: var(--pb-view-height);
-                grid-template-columns: 1fr auto minmax(360px, 640px);
+                grid-template-columns: 1fr minmax(360px, 640px);
             }
 
             .content-body.toggle {
@@ -77,6 +77,14 @@
 
             .content-body.toggle pb-facsimile {
                 display: none;
+            }
+
+            .content-body aside {
+                display: none;
+            }
+
+            .content-body.toggle aside {
+                display: block;
             }
         </style>
     </head>
