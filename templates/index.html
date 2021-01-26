@@ -65,19 +65,23 @@
                     display: none;
                 }
                 .panels {
-                    display: flex;
-                    flex-direction: row;
+                    display: grid;
+                    grid-template-columns: minmax(256px, auto) 1fr;
                 }
+
                 .panels .doclist {
-                    flex: 2 auto;
                     margin-right: 20px;
                 }
             }
             
             .panels {
-                margin-bottom: 40px;
+                height: calc(100vh - 275px);
             }
             
+            #document-list, #facets {
+                overflow: auto;
+            }
+
             .panels .doclist {
                 --paper-tabs-selection-bar-color: #607D8B;
                 --paper-tab-content: {
@@ -286,26 +290,20 @@
                         <h1 class="tp-title" data-template="config:app-title"/>
                     </section>
                     <section class="panels">
-                        <paper-card class="doclist" data-i18n="[heading]browse.documents" heading="documents">
-                            <div class="card-content">
-                                <div class="browse" slot="page">
-                                    <pb-custom-form id="facets" url="api/search/facets" event="pb-results-received" subscribe="docs" emit="docs"/>
-                                    <pb-browse-docs id="document-list" url="api/collection/" 
-                                    sort-options="[{&#34;label&#34;: &#34;facets.sender&#34;, &#34;value&#34;: &#34;sender&#34;},{&#34;label&#34;: &#34;facets.addressee&#34;, &#34;value&#34;: &#34;addressee&#34;},{&#34;label&#34;: &#34;facets.place&#34;, &#34;value&#34;: &#34;place&#34;},{&#34;label&#34;: &#34;facets.date&#34;, &#34;value&#34;: &#34;notAfter&#34;},{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;}]" sort-by="notAfter" 
-                                    filter-options="[{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;facets.sender&#34;, &#34;value&#34;: &#34;sender&#34;},{&#34;label&#34;: &#34;facets.addressee&#34;, &#34;value&#34;: &#34;addressee&#34;},{&#34;label&#34;: &#34;facets.place&#34;, &#34;value&#34;: &#34;place&#34;},{&#34;label&#34;: &#34;facets.keyword&#34;, &#34;value&#34;: &#34;keyword&#34;}]" filter-by="title" auto="auto" history="history" login="login" emit="docs" subscribe="docs">
-                                        <pb-paginate slot="toolbar" id="paginate" per-page="10" range="5" emit="docs" subscribe="docs"/>
-                                        <pb-restricted login="login" slot="toolbar">
-                                            <pb-ajax emit="docs" url="api/odd" method="post" data-template="pages:parse-params" event="pb-search-resubmit" title="Recompile ODD" data-i18n="[title]odd.manage.regenerate-all">
-                                                <h3 slot="title">
-                                                    <pb-i18n key="odd.manage.regenerate-all"/>
-                                                </h3>
-                                                <paper-icon-button icon="icons:update"/>
-                                            </pb-ajax>
-                                        </pb-restricted>
-                                    </pb-browse-docs>
-                                </div>
-                            </div>
-                        </paper-card>
+                        <pb-custom-form id="facets" url="api/search/facets" event="pb-results-received" subscribe="docs" emit="docs"/>
+                        <pb-browse-docs id="document-list" url="api/collection/" 
+                        sort-options="[{&#34;label&#34;: &#34;facets.sender&#34;, &#34;value&#34;: &#34;sender&#34;},{&#34;label&#34;: &#34;facets.addressee&#34;, &#34;value&#34;: &#34;addressee&#34;},{&#34;label&#34;: &#34;facets.place&#34;, &#34;value&#34;: &#34;place&#34;},{&#34;label&#34;: &#34;facets.date&#34;, &#34;value&#34;: &#34;notAfter&#34;},{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;}]" sort-by="notAfter" 
+                        filter-options="[{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;facets.sender&#34;, &#34;value&#34;: &#34;sender&#34;},{&#34;label&#34;: &#34;facets.addressee&#34;, &#34;value&#34;: &#34;addressee&#34;},{&#34;label&#34;: &#34;facets.place&#34;, &#34;value&#34;: &#34;place&#34;},{&#34;label&#34;: &#34;facets.keyword&#34;, &#34;value&#34;: &#34;keyword&#34;}]" filter-by="title" auto="auto" history="history" login="login" emit="docs" subscribe="docs">
+                            <pb-paginate slot="toolbar" id="paginate" per-page="10" range="5" emit="docs" subscribe="docs"/>
+                            <pb-restricted login="login" slot="toolbar">
+                                <pb-ajax emit="docs" url="api/odd" method="post" data-template="pages:parse-params" event="pb-search-resubmit" title="Recompile ODD" data-i18n="[title]odd.manage.regenerate-all">
+                                    <h3 slot="title">
+                                        <pb-i18n key="odd.manage.regenerate-all"/>
+                                    </h3>
+                                    <paper-icon-button icon="icons:update"/>
+                                </pb-ajax>
+                            </pb-restricted>
+                        </pb-browse-docs>
                     </section>
                 </main>
                 <footer class="version">
