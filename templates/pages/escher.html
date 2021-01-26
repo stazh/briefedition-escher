@@ -40,6 +40,10 @@
                 grid-template-columns: 1fr auto minmax(360px, 640px);
             }
 
+            .content-body.toggle {
+                grid-template-columns: 1fr auto;
+            }
+
             .transcript {
                 overflow: auto;
                 margin-left: auto;
@@ -70,11 +74,15 @@
             pb-facsimile {
                 --pb-facsimile-height: var(--pb-view-height);
             }
+
+            .content-body.toggle pb-facsimile {
+                display: none;
+            }
         </style>
     </head>
 
     <body>
-        <pb-page data-template="pages:pb-page" unresolved="unresolved">
+        <pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription">
             <pb-document id="document1" data-template="pages:pb-document"/>
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
