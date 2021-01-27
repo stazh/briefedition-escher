@@ -2,6 +2,7 @@ xquery version "3.1";
 
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 
+declare option exist:serialize "indent=no expand-xincludes=no";
 (:declare default element namespace "http://www.tei-c.org/ns/1.0";:)
 
 
@@ -85,14 +86,12 @@ declare function local:convert($nodes as node()*) {
                     }
                 </p>
             case element(lb) | element(br) return
-                <lb xmlns="http://www.tei-c.org/ns/1.0">
-                    {
+                <lb xmlns="http://www.tei-c.org/ns/1.0">{
                         $node/@* except ($node/@id),
                         if (local-name(($node/preceding-sibling::*)[last()])='sh') then attribute break {'no'} else (),
                         if ($node/@id) then attribute xml:id {$node/@id} else (),
                         local:convert($node/node())
-                    }
-                </lb>
+                    }</lb>
             (:  hyphens are treated via lb element :)
             case element(sh) return
                 ()
@@ -301,6 +300,9 @@ declare function local:convert($nodes as node()*) {
                     element { node-name($node) } {
                         $node/@*, local:convert($node/node())
                     }
+            case text() 
+            return
+                if (normalize-space($node) = '' and $node/preceding-sibling::sh and $node/following-sibling::lb) then () else $node
             default return
                 $node
 };
@@ -455,13 +457,14 @@ declare function local:metadata($metadata) {
   </teiHeader>
 };
 
-
-(: let $escher := doc('/db/apps/escher/data/temp/K_8419_EidgenssischerVorort_an_Escher_1848-10-26.xml')/*:editedletter :)
-(: return local:convert($escher) :)
+(: let $letter := doc('/db/apps/escher/data/temp/K_0060_Rttimann_Johann_Jakob_an_Escher_0000-00-00.xml')/*:editedletter  :)
 
 for $letter in collection('/db/apps/escher/data/temp')/*:editedletter
 
 let $file := util:document-name($letter)
-let $contents := local:convert($letter)
+let $contents := serialize(local:convert($letter),
+                    <output:serialization-parameters xmlns:output="http://www.w3.org/2010/xslt-xquery-serialization">
+                      <output:indent>no</output:indent>
+                    </output:serialization-parameters>)
 
 return xmldb:store('/db/apps/escher/data/letters', $file, $contents)
