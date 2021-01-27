@@ -22,7 +22,7 @@ declare function pmf:line-break($config as map(*), $node as node(), $class as xs
     let $map := collection("/db/apps/escher/data/regions")/mappingtable/doc[@id=$id][@n=$pageId]
     return (
         if ($node/@break = 'no') then
-            text { '-' }
+            <span class="hyphen">-</span>
         else
             (),
         <br class="{$class}" data-image="{$map/@image}" data-coords="{$map/area[@target=$node/@xml:id]/@coords}"/>
