@@ -108,7 +108,7 @@
                     <model behaviour="inline"/>
                 </elementSpec>
                 <elementSpec ident="lb" mode="change">
-                    <model behaviour="line-break" cssClass="line" useSourceRendition="true"></model>
+                    <model behaviour="line-break" cssClass="line" useSourceRendition="true"/>
                 </elementSpec>
             <elementSpec ident="p" mode="change">
                     <model predicate="@rend=&#34;right&#34;" behaviour="paragraph">
@@ -124,7 +124,7 @@
                 </elementSpec>
                 <elementSpec ident="keywords" mode="add">
                     <model behaviour="inline" cssClass="subheading">
-            <param name="keywords" value="for $i at $pos in .//item  order by $i return (if ($pos &gt; 1) then ', ' else (), $i)"/>
+            <param name="keywords" value="string-join(for $k in .//item order by $k return $k, ', ')"/>
             <pb:template xmlns="" xml:space="preserve"><div>Schlagwörter: [[keywords]]</div></pb:template>
         </model>
                 </elementSpec>
@@ -236,7 +236,7 @@
             <param name="ref" value="@key"/>
             <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
         </model>
-                <model behaviour="inline" cssClass="popover">
+                    <model behaviour="inline" cssClass="popover">
             <param name="content" value="."/>
             <param name="label" value="@key"/>
             <param name="ref" value="@key"/>
@@ -256,10 +256,7 @@
                     <model predicate="$parameters?header='context' and @type='letter'" behaviour="block">
             <param name="label" value="."/>
             <param name="letter" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)//titleStmt/title"/>
-            <param name="uri" value="let $target := @target 
-            let $letter := collection('/db/apps/escher/data/letters')/id($target)
-            return 
-            if ($letter) then util:document-name($letter) else () "/>
+            <param name="uri" value="let $target := @target              let $letter := collection('/db/apps/escher/data/letters')/id($target)             return              if ($letter) then util:document-name($letter) else () "/>
             <param name="ref" value="@target"/>
             <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]">[[label]]: [[letter]]</a></pb:template>
         </model>
@@ -281,12 +278,12 @@
                 </elementSpec>
                 <elementSpec ident="body" mode="change">
                     <modelSequence>
-                        <model behaviour="index">
-                            <param name="type" value="'toc'"/>
-                        </model>
-                        <model behaviour="facsimiles"/>
-                        <model behaviour="block"/>
-                    </modelSequence>
+            <model behaviour="index">
+                <param name="type" value="'toc'"/>
+            </model>
+            <model behaviour="facsimiles"/>
+            <model behaviour="block"/>
+        </modelSequence>
                 </elementSpec>
             </schemaSpec>
         </body>
