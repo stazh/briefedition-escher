@@ -36,5 +36,11 @@
             <text match="//tei:titleStmt/tei:title"/>
             <text match="//tei:msDesc/tei:head"/>
         </lucene>
+        <range>
+            <create qname="doc">
+                <field name="doc-id" match="@id" type="xs:string"/>
+                <field name="doc-n" match="@n" type="xs:string"/>
+            </create>
+        </range>
     </index>
 </collection>
