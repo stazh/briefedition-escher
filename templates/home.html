@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title data-template="config:app-title"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="resources/css/theme.css"/>
+    <link rel="stylesheet" href="resources/css/escher.css"/>
+
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <style>
+        main {
+            display: flex;
+            max-width: 1014px;
+            margin: 32px auto 0 auto;
+            font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            color: #424242;
+            background-color: #f1f1f1;
+            padding: 12px 16px;
+            font-size: 11px;
+        }
+
+        section {
+            margin-right: 20px;
+        }
+
+        .tp-title {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .teaser {
+            font-size: 18px;
+            line-height: 27px;
+        }
+
+        .box {
+            background-color: rgb(182, 138, 145);
+            padding: 12px 18px;
+            margin-top: 64px;
+        }
+        .box a, .box a:link {
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <pb-page data-template="pages:pb-page" unresolved="unresolved" 
+        locales="resources/i18n/{{ns}}/{{lng}}.json" locale-fallback-ns="app">
+        <app-header-layout>
+            <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                <app-toolbar class="menubar">
+                    <a href="${app}/main.html" class="logo" data-template="pages:parse-params"/>
+                    <pb-media-query query="(min-width: 1024px)">
+                        <a href="${app}/index.html" data-template="pages:parse-params">Briefe</a>
+                        <pb-restricted login="login" group="tei">
+                            <paper-menu-button>
+                                <a href="#" slot="dropdown-trigger">
+                                    <pb-i18n key="menu.admin.title">Admin</pb-i18n>
+                                </a>
+                                <paper-listbox slot="dropdown-content">
+                                    <paper-item>
+                                        <pb-download url="api/apps/download">
+                                            <pb-i18n key="appgen.xar-download">Download App as .xar</pb-i18n>
+                                        </pb-download>
+                                    </paper-item>
+                                    <paper-item data-template="pages:edit-odd-list"/>
+                                    <paper-item>
+                                        <a href="${app}/api.html" data-template="pages:parse-params" target="_blank">API Documentation</a>
+                                    </paper-item>
+                                </paper-listbox>
+                            </paper-menu-button>
+                        </pb-restricted>
+                        <!-- Search input -->
+                        <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" redirect="redirect"/>
+
+                        <!-- language selector -->
+                        <pb-lang name="lang" data-template="pages:languages"/>
+                    </pb-media-query>
+                    <pb-login id="login" group="tei">
+                        <iron-icon slot="icon" icon="account-circle"/>
+                    </pb-login>
+                    <pb-progress indeterminate="indeterminate" bottom-item="bottom-item" subscribe="docs"/>
+                </app-toolbar>
+                <pb-media-query query="(max-width: 1023px)">
+                    <app-toolbar class="toolbar" sticky="sticky">
+                        <!-- Search input -->
+                        <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" redirect="redirect"/>
+                        <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
+                    </app-toolbar>
+                </pb-media-query>
+            </app-header>
+            <main>
+                <section>
+                    <h1 class="tp-title">Herzlich willkommen bei der Alfred Escher-Briefedition</h1>
+                    <p class="teaser">Erleben Sie mit Alfred Escher die Schweiz im 19. Jahrhundert. Tauchen Sie ein in die faszinierende Welt der 
+                        Briefe und verfolgen Sie die einzigartige Agenda Alfred Eschers. Gewinnen Sie vielfältige Eindrücke von 
+                        Ereignissen und Phänomenen und lassen Sie sich von bisher unbekannten Zusammenhängen überraschen.</p>
+                    <div class="box"><a href="${app}/index.html" data-template="pages:parse-params">Briefe</a></div>
+                </section>
+                <aside>
+                    <img src="https://www.briefedition.alfred-escher.ch/media/gallery/person/Escher_vom_Glas_Alfred_04.jpg"/>
+                </aside>
+            </main>
+            <footer>
+                <p class="contact-address"><a href="https://www.alfred-escher.ch/" target="_blank">Alfred Escher-Stiftung</a>, c/o Zentralbibliothek Zürich, Zähringerplatz 6, 8001 Zürich, Schweiz</p>
+                <p>Zitiervorschlag: Jung Joseph (Hrsg.), Digitale Briefedition Alfred Escher, Launch Juli 2015 (laufend aktualisiert), Zürich: Alfred Escher-Stiftung.
+                        <a href="https://briefedition.alfred-escher.ch/" title="Briefedition Alfred Escher">https://briefedition.alfred-escher.ch/</a>
+                </p>
+            </footer>
+        </app-header-layout>
+    </pb-page>
+    <div class="splash"/>
+</body>
+
+</html>
