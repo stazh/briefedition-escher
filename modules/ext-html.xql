@@ -25,6 +25,10 @@ declare function pmf:line-break($config as map(*), $node as node(), $class as xs
             <span class="hyphen">-</span>
         else
             (),
-        <br class="{$class}" data-image="{$map/@image}" data-coords="{$map/area[@target=$node/@xml:id]/@coords}"/>
+        <br class="{$class}" data-image="{$map/@image}" data-coords="{$map/area[@target=$node/@xml:id]/@coords}"/>,
+        if ($node/@break = 'no') then
+            ()
+        else
+            text { ' ' }
     )
 };
