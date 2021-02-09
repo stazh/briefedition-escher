@@ -33,11 +33,8 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                     $header//tei:titleStmt/tei:title,
                     $root/dbk:info/dbk:title
                 ), " - ")
-            case "author" return (
-                $header//tei:correspDesc/tei:correspAction/tei:persName,
-                $header//tei:titleStmt/tei:author,
-                $root/dbk:info/dbk:author
-            )
+            case "author" return 
+                idx:get-person($header//tei:correspDesc/tei:correspAction/tei:persName[@type='sender'])
             case "sender" return (
                 idx:get-person($header//tei:correspDesc/tei:correspAction/tei:persName[@type='sender'])
             )
@@ -51,12 +48,10 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 $header//tei:profileDesc//tei:keywords//tei:item
             case "notAfter" return
                 idx:get-notAfter($header//tei:correspDesc//tei:date)
+            case "notAfter" return
+                idx:get-notBefore($header//tei:correspDesc//tei:date)
             case "language" return
-                head((
-                    $header//tei:langUsage/tei:language/@ident,
-                    $root/@xml:lang,
-                    $header/@xml:lang
-                ))
+                'de'
             case "date" return head((
                 $header//tei:correspDesc/tei:correspAction/tei:date/@when,
                 $header//tei:sourceDesc/(tei:bibl|tei:biblFull)/tei:publicationStmt/tei:date,
@@ -66,7 +61,8 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             ))
             case "genre" return (
                 idx:get-genre($header),
-                $root/dbk:info/dbk:keywordset[@vocab="#genre"]/dbk:keyword
+                $root/dbk:info/dbk:keywordset[@vocab="#genre"]/dbk:keyword,
+                'letter'
             )
             default return
                 ()
@@ -81,6 +77,11 @@ declare function idx:get-person($persName as element()*) {
 (: Escher died on Dec 6th 1882, assuming no correspondence after the end of the month would even arrive :)
 declare function idx:get-notAfter($date as element()?) {
     if ($date/@when != ('', '0000-00-00')) then $date/@when else '1882-12-31'
+};
+
+(: E :)
+declare function idx:get-notBefore($date as element()?) {
+    if ($date/@when != ('', '0000-00-00')) then $date/@when else '1800-01-01'
 };
 
 declare function idx:get-genre($header as element()?) {

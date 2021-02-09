@@ -14,6 +14,9 @@
 
                 <field name="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
                 <field name="notAfter" expression="nav:get-metadata(ancestor::tei:TEI, 'notAfter')"/>
+                <field name="notBefore" expression="nav:get-metadata(ancestor::tei:TEI, 'notBefore')"/>
+
+                <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
 
                 <field name="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
                 <field name="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')"/>
@@ -21,8 +24,16 @@
                 <facet dimension="genre" expression="nav:get-metadata(ancestor::tei:TEI, 'genre')" hierarchical="yes"/>
                 <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
                 <facet dimension="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
+                <facet dimension="author" expression="nav:get-metadata(ancestor::tei:TEI, 'author')"/>
                 <facet dimension="addressee" expression="nav:get-metadata(ancestor::tei:TEI, 'addressee')"/>
                 <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
+                <facet dimension="notAfter" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), '-')" hierarchical="yes"/>
+                <facet dimension="notBefore" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notBefore'), '-')" hierarchical="yes"/>
+
+                <facet dimension="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
+
+
+                <facet dimension="corpus" expression="'escher'"/>
 
                 <facet dimension="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
 
