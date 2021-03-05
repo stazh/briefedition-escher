@@ -5,7 +5,6 @@
         <lucene>
             <module uri="http://teipublisher.com/index" prefix="nav" at="index.xql"/>
             <text match="/tei:TEI/tei:text">
-                <ignore qname="tei:div"/>
                 <field name="title" expression="nav:get-metadata(ancestor::tei:TEI, 'title')"/>
                 <field name="author" expression="nav:get-metadata(ancestor::tei:TEI, 'author')"/>
                 <field name="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
@@ -19,6 +18,8 @@
                 <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
 
                 <field name="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
+                <field name="corpus" expression="'escher'"/>
+
                 <field name="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')"/>
                 <field name="file" expression="util:document-name(.)"/>
                 <facet dimension="genre" expression="nav:get-metadata(ancestor::tei:TEI, 'genre')" hierarchical="yes"/>
