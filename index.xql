@@ -51,7 +51,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "notAfter" return
                 idx:get-notBefore($header//tei:correspDesc//tei:date)
             case "language" return
-                'de'
+                head(($root/@xml:lang, 'de'))
             case "date" return head((
                 $header//tei:correspDesc/tei:correspAction/tei:date/@when,
                 $header//tei:sourceDesc/(tei:bibl|tei:biblFull)/tei:publicationStmt/tei:date,
