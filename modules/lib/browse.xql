@@ -19,7 +19,7 @@ xquery version "3.1";
 
 module namespace app="http://www.tei-c.org/tei-simple/templates";
 
-import module namespace templates="http://exist-db.org/xquery/templates";
+import module namespace templates="http://exist-db.org/xquery/html-templating";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "../config.xqm";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
 import module namespace pm-config="http://www.tei-c.org/tei-simple/pm-config" at "../pm-config.xql";
@@ -73,7 +73,7 @@ function app:list-works($node as node(), $model as map(*), $filter as xs:string?
     let $filtered :=
         if (app:use-cache($params, $cached)) then
             $cached
-        else if (exists($filter)) then
+        else if (exists($filter) and $filter != '') then
             query:query-metadata($browse, $filter, $sort)
         else
             let $options := query:options($sort)
@@ -195,73 +195,6 @@ declare function app:download-link($node as node(), $model as map(*), $mode as x
             $node/node()
         }
 };
-
-declare
-    %templates:wrap
-function app:fix-links($node as node(), $model as map(*)) {
-    app:fix-links(templates:process($node/node(), $model))
-};
-
-declare function app:fix-links($nodes as node()*) {
-    for $node in $nodes
-    return
-        typeswitch($node)
-            case element(form) return
-                let $action :=
-                    replace(
-                        $node/@action,
-                        "\$app",
-                        (request:get-context-path() || substring-after($config:app-root, "/db"))
-                    )
-                return
-                    element { node-name($node) } {
-                        attribute action {$action}, $node/@* except $node/@action, app:fix-links($node/node())
-                    }
-            case element(a) | element(link) return
-                (: skip links with @data-template attributes; otherwise we can run into duplicate @href errors :)
-                if ($node/@data-template) then
-                    $node
-                else
-                    let $href :=
-                        replace(
-                            $node/@href,
-                            "\$app",
-                            (request:get-context-path() || substring-after($config:app-root, "/db"))
-                        )
-                    return
-                        element { node-name($node) } {
-                            attribute href { app:parse-href($href) },
-                            $node/@* except $node/@href,
-                            app:fix-links($node/node())
-                        }
-            case element() return
-                element { node-name($node) } {
-                    $node/@*, app:fix-links($node/node())
-                }
-            default return
-                $node
-};
-
-declare %private function app:parse-href($href as xs:string) {
-    if (matches($href, "\$\{[^\}]+\}")) then
-        string-join(
-            let $parsed := analyze-string($href, "\$\{([^\}]+?)(?::([^\}]+))?\}")
-            for $token in $parsed/node()
-            return
-                typeswitch($token)
-                    case element(fn:non-match) return $token/string()
-                    case element(fn:match) return
-                        let $paramName := $token/fn:group[1]
-                        let $default := $token/fn:group[2]
-                        return
-                            request:get-parameter($paramName, $default)
-                    default return $token
-        )
-    else
-        $href
-};
-
-
 
 declare function app:dispatch-action($node as node(), $model as map(*), $action as xs:string?) {
     switch ($action)

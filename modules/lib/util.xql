@@ -21,6 +21,12 @@ module namespace tpu="http://www.tei-c.org/tei-publisher/util";
 
 
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "../config.xqm";
+import module namespace templates="http://exist-db.org/xquery/html-templating";
+
+declare variable $tpu:template-config := map {
+    $templates:CONFIG_APP_ROOT : $config:app-root,
+    $templates:CONFIG_STOP_ON_ERROR : true()
+};
 
 declare function tpu:parse-pi($doc as document-node(), $view as xs:string?) {
     tpu:parse-pi($doc, $view, request:get-parameter("odd", ()))
@@ -56,14 +62,47 @@ declare function tpu:parse-pi($doc as document-node(), $view as xs:string?, $odd
             doc-available($config:odd-root || "/" || $pis?odd)
         else
             false()
+    let $pisWithOdd :=
+        if ($defaultConfig?overwrite) then
+            if ($cfgOddAvail) then
+                map:merge(($default, map { "odd": $pis?odd, "output": $pis?output }))
+            else
+                map:merge(($default, map { "output": $pis?output }))
+        else
+            $pis
     (: ODD from parameter should overwrite ODD defined in PI :)
     let $config :=
         if ($odd) then
-            map:merge(($pis, map { "odd": $odd }))
+            map:merge(($pisWithOdd, map { "odd": $odd }))
         else if ($cfgOddAvail) then
-            $pis
+            $pisWithOdd
         else
-            map:merge(($pis, map { "odd": $defaultConfig?odd }))
+            map:merge(($pisWithOdd, map { "odd": $defaultConfig?odd }))
     return
         map:merge(($default, $config))
+};
+
+declare function tpu:get-template-config($request as map(*)) {
+    map:merge((
+        $tpu:template-config,
+        map {
+            $templates:CONFIG_PARAM_RESOLVER : function($param) {
+                let $pval := array:fold-right(
+                    [
+                        request:get-parameter($param, ()),
+                        $request?parameters($param),
+                        request:get-attribute($param),
+                        session:get-attribute($config:session-prefix || "." || $param)
+                    ], (),
+                    function($zero, $current) {
+                        if (exists($zero)) then
+                            $zero
+                        else
+                            $current
+                    }
+                )
+                return
+                    $pval
+            }
+        }))
 };

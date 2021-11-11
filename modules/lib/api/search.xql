@@ -3,6 +3,7 @@ xquery version "3.1";
 module namespace sapi="http://teipublisher.com/api/search";
 
 import module namespace query="http://www.tei-c.org/tei-simple/query" at "../../query.xql";
+import module namespace nav="http://www.tei-c.org/tei-simple/navigation" at "../../navigation.xql";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "../../config.xqm";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "../util.xql";
 import module namespace kwic="http://exist-db.org/xquery/kwic" at "resource:org/exist/xquery/lib/kwic.xql";
@@ -66,7 +67,7 @@ declare %private function sapi:show-hits($request as map(*), $hits as item()*, $
     let $config := tpu:parse-pi(root($hit), $request?parameters?view)
     let $parent := query:get-parent-section($config, $hit)
     let $parent-id := config:get-identifier($parent)
-    let $parent-id := if ($docs) then replace($parent-id, "^.*?([^/]*)$", "$1") else $parent-id
+    let $parent-id := if (exists($docs)) then replace($parent-id, "^.*?([^/]*)$", "$1") else $parent-id
     let $div := query:get-current($config, $parent)
     let $expanded := util:expand($hit, "add-exist-id=all")
     let $docId := config:get-identifier($div)
@@ -98,8 +99,9 @@ declare %private function sapi:show-hits($request as map(*), $hits as item()*, $
                                     else
                                         util:node-id($div)
                     else
-                        util:node-id($div)
-                let $config := <config width="60" table="no" link="{$docId}?root={$docLink}&amp;action=search&amp;view={$config?view}&amp;odd={$config?odd}#{$matchId}"/>
+                        (: Check if the document has sections, otherwise don't pass root :)
+                        if (nav:get-section-for-node($config, $div)) then util:node-id($div) else ()
+                let $config := <config width="60" table="no" link="{$docId}?{if ($docLink) then 'root=' || $docLink || '&amp;' else ()}action=search&amp;view={$config?view}&amp;odd={$config?odd}#{$matchId}"/>
                 return
                     kwic:get-summary($expanded, $match, $config)
             }

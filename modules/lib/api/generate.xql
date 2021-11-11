@@ -25,14 +25,14 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "../../config.xqm";
 import module namespace errors = "http://exist-db.org/xquery/router/errors";
-import module namespace dbutil="http://exist-db.org/xquery/dbutil";
 
 declare variable $deploy:EXPATH_DESCRIPTOR :=
     <package xmlns="http://expath.org/ns/pkg"
         version="0.1" spec="1.0">
-        <dependency package="http://exist-db.org/apps/shared"/>
-        <dependency package="http://existsolutions.com/apps/tei-publisher-lib" semver-min="2.8.8"/>
-        <dependency package="http://exist-db.org/open-api/router" semver-min="0.2.0"/>
+        <dependency processor="http://exist-db.org" semver-min="5.2.0"/>
+        <dependency package="http://exist-db.org/html-templating"/>
+        <dependency package="http://existsolutions.com/apps/tei-publisher-lib" semver-min="2.9.2"/>
+        <dependency package="http://exist-db.org/open-api/router" semver-min="0.5.1"/>
     </package>
 ;
 
@@ -106,7 +106,7 @@ declare variable $deploy:ANT_FILE :=
             <zip basedir="." destfile="${{build.dir}}/${{project.app}}-${{project.version}}.xar"
                 excludes="${{build.dir}}/* node_modules/**"/>
         </target>
-        <target name="xar-complete" depends="npm.install,xar"/>
+        <target name="xar-complete" depends="clean,npm.install,xar"/>
         <target name="npm.install">
             <exec executable="${{npm}}" outputproperty="npm.output">
                 <arg line="install" />
@@ -276,6 +276,7 @@ declare function deploy:store-xconf($collection as xs:string?, $json as map(*)) 
                     <text qname="tei:head"/>
                     <text match="//tei:titleStmt/tei:title"/>
                     <text match="//tei:msDesc/tei:head"/>
+                    <text match="//tei:listPlace/tei:place/tei:placeName"/>
                     <text qname="dbk:article">
                         <ignore qname="dbk:section"/>
                         <field name="title" expression="nav:get-metadata(., 'title')"/>
@@ -340,7 +341,7 @@ declare function deploy:expand($collection as xs:string, $resource as xs:string,
 
 declare function deploy:store-libs($target as xs:string, $userData as xs:string+, $permissions as xs:string) {
     let $path := $config:app-root || "/modules"
-    for $lib in ("map.xql", "facets.xql", xmldb:get-child-resources($path)[starts-with(., "navigation")],
+    for $lib in ("map.xql", "facets.xql", "annotation-config.xqm", xmldb:get-child-resources($path)[starts-with(., "navigation")],
         xmldb:get-child-resources($path)[starts-with(., "query")])
     return (
         xmldb:copy-resource($path, $lib, $target || "/modules", $lib)
@@ -363,7 +364,7 @@ declare function deploy:copy-odd($collection as xs:string, $json as map(*)) {
     let $target := $collection || "/resources/odd"
     return (
         let $mkcol := deploy:mkcol($target, ("tei", "tei"), "rwxr-x---")
-        for $file in distinct-values(("docx.odd", "tei_simplePrint.odd", "teipublisher.odd", deploy:get-odds($json)))
+        for $file in distinct-values(("docx.odd", "tei_simplePrint.odd", "teipublisher.odd", "annotations.odd", deploy:get-odds($json)))
         let $source := doc($config:odd-root || "/" || $file)
         let $cssLink := $source//tei:teiHeader/tei:encodingDesc/tei:tagsDecl/tei:rendition/@source
         let $css := util:binary-doc($config:odd-root || "/" || $cssLink)
@@ -423,6 +424,7 @@ declare function deploy:create-app($collection as xs:string, $json as map(*)) {
         deploy:copy-collection($collection, $base || "/templates/basic", ($json?owner, "tei"), "rw-r--r--"),
         deploy:copy-collection($collection || "/templates/pages", $base || "/templates/pages", ($json?owner, "tei"), "rw-r--r--"),
         deploy:copy-collection($collection || "/resources/fonts", $base || "/resources/fonts", ($json?owner, "tei"), "rw-r--r--"),
+        deploy:copy-collection($collection || "/resources/scripts/annotations", $base || "/resources/scripts/annotations", ($json?owner, "tei"), "rw-r--r--"),
         deploy:expand($collection || "/modules", "config.xqm", $replacements),
         deploy:store-libs($collection, ($json?owner, "tei"), "rw-r--r--"),
         deploy:expand($collection || "/modules/lib", "api.json", $replacements),
@@ -443,9 +445,25 @@ declare function deploy:create-app($collection as xs:string, $json as map(*)) {
         $collection
 };
 
+declare function deploy:scan($root as xs:anyURI, $func as function(xs:anyURI, xs:anyURI?) as item()*) {
+    $func($root, ()),
+    if (sm:has-access($root, "rx")) then
+        for $child in xmldb:get-child-resources($root)
+        return
+            $func($root, xs:anyURI($root || "/" || $child))
+    else
+        (),
+    if (sm:has-access($root, "rx")) then
+        for $child in xmldb:get-child-collections($root)
+        return
+            deploy:scan(xs:anyURI($root || "/" || $child), $func)
+    else
+        ()
+};
+
 declare %private function deploy:zip-entries($app-collection as xs:string) {
     (: compression:zip doesn't seem to store empty collections, so we'll scan for only resources :)
-    dbutil:scan(xs:anyURI($app-collection), function($collection as xs:anyURI, $resource as xs:anyURI?) {
+    deploy:scan(xs:anyURI($app-collection), function($collection as xs:anyURI, $resource as xs:anyURI?) {
         if (exists($resource)) then
             let $relative-path := substring-after($resource, $app-collection || "/")
             return

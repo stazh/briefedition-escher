@@ -27,10 +27,11 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace expath="http://expath.org/ns/pkg";
 
 import module namespace nav="http://www.tei-c.org/tei-simple/navigation" at "../navigation.xql";
-import module namespace templates="http://exist-db.org/xquery/templates";
+import module namespace templates="http://exist-db.org/xquery/html-templating";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "../config.xqm";
 import module namespace pm-config="http://www.tei-c.org/tei-simple/pm-config" at "../pm-config.xql";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
+import module namespace lib="http://exist-db.org/xquery/html-templating/lib" at "templates-lib.xqm";
 
 declare variable $pages:EXIDE :=
     let $pkg := collection(repo:get-root())//expath:package[@name = "http://exist-db.org/apps/eXide"]
@@ -43,23 +44,22 @@ declare variable $pages:EXIDE :=
     return
         replace($path, "/+", "/");
 
-declare function pages:pb-document($node as node(), $model as map(*)) {
-    let $odd := ($node/@odd, $model?odd)[1]
+(:~
+ : Needed for backwards compatibility with TEI Publisher 7.0
+ :)
+declare function pages:parse-params($node as node(), $model as map(*)) {
+    lib:parse-params($node, $model, "\$\{", "\}")
+};
+
+declare function pages:pb-document($node as node(), $model as map(*), $odd as xs:string?) {
+    let $oddParam := ($node/@odd, $model?odd, $odd)[1]
     let $data := config:get-document($model?doc)
-    let $config := tpu:parse-pi(root($data), $model?view, $odd)
+    let $config := tpu:parse-pi(root($data), $model?view, $oddParam)
     return
         <pb-document path="{$model?doc}" root-path="{$config:data-root}" view="{$config?view}" odd="{replace($config?odd, '^(.*)\.odd', '$1')}"
             source-view="{$pages:EXIDE}">
             { $node/@id }
         </pb-document>
-};
-
-declare
-    %templates:wrap
-function pages:pb-markdown($node as node(), $model as map(*)) {
-    attribute url  {
-        "api/document/" || $model?doc
-    }
 };
 
 (:~
@@ -80,14 +80,6 @@ declare function pages:load-components($node as node(), $model as map(*)) {
         default return
             <script type="module"
                 src="{$config:webcomponents-cdn}@{$config:webcomponents}/dist/{$node/@src}"></script>
-};
-
-declare function pages:current-language($node as node(), $model as map(*), $lang as xs:string?) {
-    element { node-name($node) } {
-        $node/@*,
-        attribute selected { $lang },
-        $node/*
-    }
 };
 
 declare function pages:load-xml($view as xs:string?, $root as xs:string?, $doc as xs:string) {
@@ -347,39 +339,6 @@ declare function pages:switch-view-id($data as element()+, $view as xs:string) {
         $root
 };
 
-declare function pages:parse-params($node as node(), $model as map(*)) {
-    element { node-name($node) } {
-        for $attr in $node/@*
-        return
-            if (matches($attr, "\$\{[^\}]+\}")) then
-                attribute { node-name($attr) } {
-                    string-join(
-                        let $parsed := analyze-string($attr, "\$\{([^\}]+?)(?::([^\}]+))?\}")
-                        for $token in $parsed/node()
-                        return
-                            typeswitch($token)
-                                case element(fn:non-match) return $token/string()
-                                case element(fn:match) return
-                                    let $paramName := $token/fn:group[1]/string()
-                                    let $default := $token/fn:group[2]/string()
-                                    let $found := [
-                                        request:get-parameter($paramName, $default),
-                                        $model($paramName),
-                                        session:get-attribute($config:session-prefix || "." || $paramName)
-                                    ]
-                                    return
-                                        array:fold-right($found, (), function($in, $value) {
-                                            if (exists($in)) then $in else $value
-                                        })
-                                default return $token
-                    )
-                }
-            else
-                $attr,
-        templates:process($node/node(), $model)
-    }
-};
-
 declare 
     %templates:wrap
 function pages:languages($node as node(), $model as map(*)) {
@@ -402,12 +361,6 @@ function pages:api-version($node as node(), $model as map(*)) {
     let $json := json-doc($config:app-root || "/modules/lib/api.json")
     return
         $json?info?version
-};
-
-declare 
-    %templates:wrap
-function pages:error-description($node as node(), $model as map(*)) {
-    $model?description
 };
 
 declare
