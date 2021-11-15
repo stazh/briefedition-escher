@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alfred Escher-Briefe: Editionsprinzipien</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="editionsprinzipien">
+            <head>Editionsprinzipien</head>
+            <p>Die Editionsprinzipien betreffen die Basistranskription der Briefe. Über die
+               verschiedenen Arten der Darstellungen der Transkription siehe auch «<ref
+                  target="https://www.briefedition.alfred-escher.ch/uber-die-edition/benutzeroberflache/"
+                  >Benutzeroberfläche</ref>».</p>
+            <div>
+               <head>Briefselektion</head>
+               <div>
+                  <head>Briefe und weitere Schreiben</head>
+                  <p>Die digitale Edition der Alfred Escher-Briefe umfasst sämtliche überlieferte
+                     Briefe von und an Alfred Escher. Nicht aufgenommen ist die Geschäfts- und die
+                     weitere offizielle Korrespondenz, sofern Alfred Escher nicht als Einzelperson
+                     Empfänger oder Absender ist. Das Entscheidungskriterium ist die Unterschrift
+                     oder die Anrede. Erklärungsbeispiel: Unterschreibt Alfred Escher nicht als
+                     Einzelperson, sondern zusammen mit einem weiteren Vertreter derselben
+                     Institution (z.B. dem Sekretär), oder erhält nicht Escher als Einzelperson das
+                     entsprechende Schreiben, sondern ein Gremium, so wird es nicht in die Edition
+                     aufgenommen. Fallweise aufgenommen werden briefähnliche Korrespondenzstücke,
+                     beispielsweise Einladungskarten, Todesanzeigen, «offene Briefe» (mehrfach
+                     ausgefertigte bzw. mit technischen Verfahren vervielfältigte Briefe an einen
+                     weiteren Empfängerkreis) oder Begleitzettel zu einer Briefübermittlung.
+                     Telegramme werden nicht aufgenommen. </p>
+               </div>
+               <div>
+                  <head>Briefvarianten</head>
+                  <p>Die Briefe sind in verschiedenen Varianten überliefert: Original, Abzug,
+                     Abschrift, Entwurf oder Mikrofilm. Ist das Original vorhanden, wird dieses in
+                     die Edition aufgenommen. Fehlt dieses bzw. konnte es nicht ermittelt werden,
+                     wird diejenige Form aufgenommen, die dem Original am nächsten steht. </p>
+               </div>
+               <div>
+                  <head>Transkription</head>
+                  <div>
+                     <head>Grundsätzliches</head>
+                     <p>Die Briefe werden grundsätzlich buchstaben- und zeichengetreu transkribiert.
+                        Dies betrifft sowohl die Orthographie als auch die Interpunktion. Können
+                        Zeichen nicht zweifelsfrei gelesen, jedoch aus dem Kontext interpretiert
+                        bzw. ergänzt werden, so werden die entsprechenden Stellen nicht
+                        gekennzeichnet. Kann ein Wortlaut nicht zweifelsfrei gelesen bzw.
+                        interpretiert werden, so wird das entsprechende Wort mit einer eckigen
+                        Klammer mit Fragezeichen umgeben «[?]». Kann eine Textstelle nicht gelesen
+                        und nicht interpretiert werden, so wird an ihrer Stelle eine eckige Klammer
+                        mit Fragezeichen und drei Punkten gesetzt «[…?]». Kann die Schreibweise
+                        eines Wortes nicht gemäss den in diesem Text aufgestellten Regeln
+                        entschieden werden, gelangt die heutige Orthographie zur Anwendung. </p>
+                  </div>
+                  <div>
+                     <head>Briefelemente</head>
+                     <p>Transkribiert werden die folgenden Elemente eines Briefs: Briefkopf
+                        (gedruckt, gestanzt, gepresst oder als Wasserzeichen), Datum, Anrede,
+                        Textkörper, Grussformel, Unterschrift, Postskript, Hinweis auf Anlagen und
+                        allfällige sonstige Hinweise des Autors (z.B. «privatim», «Franko» u. dgl.)
+                        sowie Absenderanschrift und Empfängeranschrift, die sich auf den Briefseiten
+                        selbst befinden. </p>
+                     <p>Briefköpfe werden aufgenommen, ausser wenn sie von der Papierfabrik stammen
+                        (z.B. «BATH», «WINTERTHUR») und lediglich Angaben über die Herkunft bzw. Art
+                        des Papiers geben. </p>
+                     <p>Dem Brief beigegebene Materialien werden nicht transkribiert.
+                        Empfängeranschrift, Absenderanschrift und Poststempel auf Umschlagseiten
+                        werden nicht transkribiert. </p>
+                     <p>Textelemente, die nach dem Versand des Briefes hinzugefügt wurden und einen
+                        inhaltlichen Mehrwert bieten, werden in einer Fussnote transkribiert. Dazu
+                        gehören Stempel zeitgenössischer Institute, zeitgenössische Inhaltsangaben
+                        sowie Kommentare und Markierungen, die eindeutig dem Absender oder dem
+                        Empfänger zugeordnet werden können. Später angebrachte Stempel von Archiven,
+                        archivalische Notizen sowie Markierungen, die weder dem Absender noch dem
+                        Empfänger zugeordnet werden können, werden nicht transkribiert. </p>
+                     <p>Eine Besonderheit bilden Empfängeranschriften, die von erster Hand mit
+                        Bleistift auf dem nicht versandten Abzug eines Briefes ergänzt wurden. Diese
+                        werden ebenfalls in einer Fussnote transkribiert. </p>
+                  </div>
+                  <div>
+                     <head>Spezifikationen für Orthographie und Interpunktion</head>
+                     <p><emph>Spezialzeichen</emph></p>
+                     <p>Das lange s («?») wird als normales s («s») transkribiert. Das scharfe s
+                        («ß») wird als solches transkribiert; erscheint es im Original als «sz»,
+                        wird «sz» transkribiert. Die S-Varianten (scharfes / langes / Doppel-S) sind
+                        häufig nicht zu unterscheiden. In diesem Fall werden sie auf Briefebene
+                        einheitlich behandelt. Kann aus einem einzelnen Brief keine Usanz abgeleitet
+                        werden, so erfolgt die Unterscheidung gemäss der grundsätzlichen Praxis des
+                        Schreibers. Lässt sich diese nicht ermitteln, werden die S-Varianten gemäss
+                        heutiger Orthographie normalisiert. </p>
+                     <p>Geminationsstriche werden stillschweigend durch eine Verdoppelung des
+                        Buchstabens ersetzt. Umlautpunkte bei «y» werden stillschweigend
+                        weggelassen. </p>
+                     <p>Fehlende Umlautstriche und i-Punkte werden stillschweigend ergänzt. Eine
+                        Ausnahme bilden Fremd- und Lehnwörter aus dem Lateinischen/Französischen
+                        sowie gewisse Namen, welche von einigen Schreibern offensichtlich
+                        absichtlich ohne Umlautzeichen geschrieben worden sind. </p>
+                     <p>Der Unterschied zwischen einem ligierten «und», einem abgekürzten «und» und
+                        einem Et-Zeichen ist nicht in jedem Fall zu erkennen. Ein Schriftzeichen,
+                        das einer stilisierten, schnörkelhaften Schreibung für «und» entspricht,
+                        wird als Et-Zeichen transkribiert, wenn es nicht eindeutig als abgekürztes
+                        oder ligiertes «und» gelesen werden kann. Ein tironisches Et wird als
+                        Et-Zeichen («&amp;») transkribiert. </p>
+                     <p><emph>Interpunktion</emph></p>
+                     <p>Fehlende Punkte am Satzende werden grundsätzlich stillschweigend ergänzt.
+                        Zwischen Grussformel und Unterschrift sowie bei Nachsätzen, die oft nur in
+                        Stichwörtern oder Teilsätzen abgefasst sind, wird er fallweise nicht
+                        ergänzt. Wird im Original eine Auslassung mit Punkten bezeichnet, wird die
+                        Anzahl der Punkte übernommen. Jegliche Unterstreichung oder Unterpunktung
+                        bei hochgestellten Buchstaben wird stillschweigend weggelassen. </p>
+                     <p>An- und Abführungszeichen werden als Guillemets («») transkribiert. Fehlende
+                        Abführungszeichen und fehlende schliessende Klammern werden stillschweigend
+                        ergänzt. Anführungszeichen zu Beginn jeder neuen Zeile bei Zitaten werden
+                        ersetzt durch An- und Abführungszeichen am Anfang und am Schluss des Zitats. </p>
+                     <p>Öffnende und schliessende Klammern werden als runde Klammern «( )»
+                        transkribiert, selbst wenn sie im Original etwa mit «/:» oder ähnlichen
+                        Zeichen geschrieben wurden. </p>
+                     <p xml:id="halbgeviertstriche">Gedankenstriche werden als Halbgeviertstriche
+                        transkribiert, unabhängig davon, wie lange der Strich im Original ausgeführt
+                        wurde und unabhängig davon, ob der Strich im Original in der Mitte der Zeile
+                        oder als Unterstrich geschrieben wurde. Als Schlusszeichen am Absatzende,
+                        welches auf das eigentliche Satzzeichen folgt, wird ein Halbgeviertstrich
+                        mit vorangehendem Leerschlag gesetzt. Als Auslassungszeichen bei
+                        Geldbeträgen für die Zahlen hinter dem Komma wird ein Halbgeviertstrich
+                        gesetzt. Dieser steht unmittelbar hinter dem Punkt. Ein Bis-Strich bei
+                        Tages-, Wochen-, Monats- und Jahresangaben in Zahlen, bei Wert-, Mass- und
+                        Mengenangaben sowie bei Streckenangaben zwischen den Ortsbezeichnungen wird
+                        als Halbgeviertstrich transkribiert. </p>
+                     <p>Doppelte Bindestriche werden stillschweigend als einfache Bindestriche
+                        transkribiert. Bindestriche werden als Divis transkribiert. Doppelnamen und
+                        ähnliche Wortkompositionen werden mit Divis ohne Leerschlag getrennt. </p>
+                     <p><emph>Gross- und Kleinschreibung</emph></p>
+                     <p>Gross- und Kleinschreibungen, insbesondere «h»/«H» und «d»/«D», sind häufig
+                        nicht zu unterscheiden. Im Zweifelsfalle werden sie auf Briefebene
+                        einheitlich behandelt. Kann aus einem einzelnen Brief keine Usanz abgeleitet
+                        werden, so erfolgt die Unterscheidung gemäss der grundsätzlichen Praxis des
+                        Schreibers. Lässt sich diese nicht ermitteln, werden die Gross-und
+                        Kleinschreibungen gemäss heutiger Orthographie normalisiert, wobei
+                        Personalpronomen der 2. Person gross geschrieben werden. </p>
+                     <p>Zwei Spezifika betreffen hierbei die Briefe von Alfred Escher sowie von Emil
+                        Welti. Die Personalpronomen der 2. Person Singular in den Briefen von Alfred
+                        Escher werden generell gross geschrieben. In den von Emil Welti verfassten
+                        Briefen in lateinischer Schrift wird die Gross- und Kleinschreibung gemäss
+                        heutiger Orthographie (Duden) transkribiert. </p>
+                     <p>Bei Abkürzungen für die Währung «Franken»/«franc(s)» sind die
+                        Gross-/Kleinschreibung und die Unterscheidung zwischen Kurrentschrift und
+                        lateinischer Schrift häufig nicht zu erkennen. Im Zweifelsfalle werden diese
+                        Abkürzungen in lateinischer Schrift klein geschrieben. </p>
+                     <p><emph>Verschleifungen, Ligaturen und Abkürzungen</emph></p>
+                     <p>Verschleifungen und Ligaturen werden stillschweigend in der grammatikalisch
+                        korrekten Schreibweise aufgelöst. Abkürzungen ohne Kürzelschleife werden
+                        zeichengetreu transkribiert. </p>
+                     <p>Ein Wort, das sowohl eine Kürzelschleife als auch einen Abkürzungspunkt
+                        enthält, wird es als Abkürzung mit Abkürzungspunkt transkribiert. Bestehen
+                        Zweifel, ob es sich um eine Ligatur oder eine Abkürzung ohne Abkürzungspunkt
+                        handelt, wird das Wort als Abkürzung ohne Abkürzungspunkt transkribiert.
+                        Eine Ausnahme davon bildet die Ligatur/Abkürzung der Endsilbe «-ung». Diese
+                        wird im Zweifelsfalle als Ligatur transkribiert. </p>
+                     <p><emph>Getrennt- und Zusammenschreibung, Leerschläge</emph></p>
+                     <p>Fehlende Bindestriche am Zeilenende werden stillschweigend ergänzt. Eine
+                        Ausnahme bilden Komposita, deren zweiter Teil mit grossem Buchstaben
+                        geschrieben steht und die teilweise mit und teilweise ohne Leerschlag
+                        geschrieben wurden. Bei Verhältnisangaben mit einem Doppelpunkt, bei Zahlen
+                        mit adjektivischer Endung, bei Divis und Halbgeviertstrichen sowie vor
+                        Prozentzeichen werden keine Leerschläge gesetzt (Ausnahme bei
+                        Halbgeviertstrichen <ref target="#halbgeviertstriche">siehe oben</ref>).
+                        Zwischen den einzelnen Bestandteilen der Datumszeile wird ein Leerschlag
+                        gesetzt, auch wenn die einzelnen Teile mit einem Schrägstrich getrennt sind.
+                        Bei Komposita ist die Getrennt-/Zusammenschreibung oft nicht unterscheidbar.
+                        Im Zweifelsfall wird ein Leerschlag gesetzt. </p>
+                     <p>Bei mehrteiligen Abkürzungen wird ein Leerschlag zwischen die
+                        Kürzungsbuchstaben mit Punkt (oder Doppelpunkt) gesetzt. Bestehen
+                        mehrteilige Abkürzungen aus einzelnen Kürzungsbuchstaben (bzw. höchstens 1
+                        Bestandteil aus zwei oder mehr Buchstaben) mit Punkt, werden die
+                        Bestandteile durch Leerschlag voneinander getrennt. Sind die Bestandteile
+                        dagegen nicht durch Punkte voneinander getrennt, wird kein Leerschlag
+                        gesetzt. Bei mehrteiligen Abkürzungen, bei denen mindestens 2 Bestandteile
+                        aus zwei oder mehr Buchstaben bestehen oder mindestens 1 Bestandteil als
+                        Vollwort vorhanden ist, werden die Bestandteile – ob mit oder ohne Punkt –
+                        durch einen Leerschlag voneinander getrennt. Abgekürzte Komposita werden
+                        ohne Leerschläge transkribiert, auch wenn sie vom Schreiber weit auseinander
+                        geschrieben wurden. Abkürzungsformen des Wortes «Sankt» stehen immer durch
+                        Leerschlag getrennt von dem folgenden geographischen usw. Namen. Zwischen
+                        die abgekürzten Namensbestandteile wie Titel, akademische Grade, Vornamen,
+                        Namen, Herkunftsbezeichnungen, Namenszusätze usw. werden stets Leerschläge
+                        gesetzt. Bei den oft als gängige Namensform von Organisationen,
+                        Gesellschaften/Institutionen/Firmen, auch von Zeitungs- und
+                        Zeitschriftentiteln, Bücherreihen u. dgl. verwendeten Kurzwörtern bestehend
+                        aus einzelnen Buchstaben werden keine Leerschläge gesetzt. Werden jedoch nur
+                        einzelne Wörter des Namens der Organisation abgekürzt, so wird zwischen dem
+                        Kürzungsbuchstaben eines einzelnen Wortes, sofern er mit einem Punkt
+                        versehen ist, und dem ausgeschriebenen Wort bzw. Kürzungsbuchstaben eines
+                        weiteren Wortes ein Leerschlag gesetzt. Abkürzung von Zeitungen,
+                        Gesellschaften u. ä. mit einem Anfangsbuchstaben «Sch.» sind keine
+                        Kurzwörter und werden mit einem Leerschlag transkribiert. </p>
+                     <p><emph>Unterschriften</emph></p>
+                     <p>Nach Möglichkeit werden Unterschriften ebenfalls buchstabengetreu
+                        transkribiert, wobei Schwundformen einzelner Buchstaben anhand von
+                        Vergleichsmaterial auf die ursprüngliche Vollform zurückgeführt werden. Die
+                        typische Unterschrift Eschers, entziffert als «Dr A Escher», wird
+                        entsprechend transkribiert. </p>
+                  </div>
+                  <div>
+                     <head>Spezifikationen für Layout und Textformatierung</head>
+                     <p><emph>Lateinische und gesperrte Texte</emph></p>
+                     <p>Einzelne Begriffe und Buchstaben in lateinischer Schrift werden in der
+                        Transkription gekennzeichnet. Mit derselben Markierung werden gesperrte
+                        Textteile gekennzeichnet. </p>
+                     <p><emph>Gedruckte, gestempelte, gestanzte Texte und Wasserzeichen</emph></p>
+                     <p>Textteile, welche gedruckt, gestempelt, gestanzt oder ein Wasserzeichen
+                        sind, werden gekennzeichnet. Dabei wird nicht zwischen diesen vier Typen
+                        unterschieden. </p>
+                     <p><emph>Unterstreichungen</emph></p>
+                     <p>Unterstreichungen im Originaltext werden in der Transkription
+                        gekennzeichnet; es wird dabei nicht zwischen einfacher und mehrfacher
+                        Unterstreichung unterschieden. </p>
+                     <p><emph>Hochstellungen</emph></p>
+                     <p>Hochgestellte Buchstaben werden hochgestellt transkribiert. </p>
+                     <p><emph>Streichungen und Einfügungen</emph></p>
+                     <p>Durchgestrichenes – ob einzelne Buchstaben oder ganze Wörter oder Sätze –
+                        wird transkribiert und entsprechend markiert. </p>
+                     <p>Einschübe und Einfügungen werden an der passenden Stelle des Brieftextes
+                        transkribiert und als Einfügung gekennzeichnet. Einschübe innerhalb von
+                        Einschüben werden nicht durch zusätzliche Einschub-Zeichen markiert. Durch
+                        den Schreiber gesetzte Einfügungszeichen wie «*» oder «?» werden
+                        transkribiert und an die vom Schreiber markierte Stelle gesetzt. </p>
+                     <p>Werden Wortfolgen mittels Setzen von Zahlen über den Wörtern geändert, wird
+                        die aus der Nummerierung sich ergebende korrigierte Reihenfolge der Wörter
+                        stillschweigend befolgt. Bei Briefentwürfen, die durch den Schreiber
+                        mehrfach durch Streichungen und Einfügungen korrigiert worden sind, wird die
+                        Zeilenkonkordanz nicht beibehalten, wenn im transkribierten Text die
+                        Sinnzusammenhänge und Intentionen des Schreibers (Ablauf des
+                        Korrekturgedankens) nicht mehr erkennbar wären. </p>
+                     <p><emph>Gliederung</emph></p>
+                     <p>Der Zeilenwechsel wird markiert. Erfolgt dieser mitten im Wort, so wird er
+                        ebenfalls übernommen und die Silbentrennung entsprechend gekennzeichnet. </p>
+                     <p>Die einzelnen Absätze des Brieftexts werden als Absatz gekennzeichnet. Die
+                        Ausrichtung wird auf vier verschiedene Arten erfasst: links, zentriert,
+                        rechts und mit Einzug der ersten Zeile. </p>
+                     <p>Die Paginierung des Originals wird mit einer entsprechenden Markierung am
+                        Ende der vorangehenden Seite festgehalten. Erfolgt der Seitenwechsel mitten
+                        im Wort, steht die Markierung innerhalb des betreffenden Wortes. Kustoden
+                        (Verweiselemente), die am Ende einer Seite auf die Anfangssilbe oder das
+                        erste Wort der Folgeseite verweisen, werden nicht transkribiert, ebenso
+                        Wendehinweise und Seitenzahlen. </p>
+                     <p><emph>Weitere Layout-Eigenheiten</emph></p>
+                     <p>Nicht eindeutig placierbare Ergänzungen des Schreibers werden grundsätzlich
+                        am Ende des Briefes transkribiert. Empfängeranschriften des Schreibers,
+                        welche bei mehrseitigen Briefen am Ende der ersten Seite stehen, werden als
+                        solche am Anfang des Briefes transkribiert und mit einer entsprechenden
+                        Fussnote gekennzeichnet. Die Fussnoten für Textelemente, welche nach dem
+                        Versand des Briefes angebracht wurden, werden an die betreffende Textstelle
+                        gesetzt. Können sie keiner Textstelle zugeordnet werden, werden sie an den
+                        Anfang des Briefes gesetzt und speziell gekennzeichnet. </p>
+                     <p>Bei Briefen von Alfred Escher, die nicht von seiner Hand geschrieben sind,
+                        wird dies in einer speziell gekennzeichneten Fussnote am Anfang des Briefes
+                        dokumentiert. Ebenso wird bei nachträglichen Ergänzungen auf Briefen an
+                        Alfred Escher kommentiert, von wessen Hand die Ergänzung geschrieben ist.
+                     </p>
+                  </div>
+                  <div>
+                     <head>Französisch, italienisch oder englisch verfasste Briefe</head>
+                     <p>Finden sich in einem Brief Begriffe mit und ohne Umlautzeichen (z.B.
+                        «Splugen» neben «Splügen»), werden Umlautzeichen nicht ergänzt. Die Akzente
+                        in französischen Briefen werden vorlagengetreu transkribiert. In
+                        Zweifelsfällen, d.h., wenn gesetzte Akzente nicht eindeutig identifizierbar
+                        sind, wird nach heutigem Gebrauch transkribiert. In französischen Briefen
+                        werden die Wörter «je» und «de» ausgeschrieben, auch wenn sie im Original
+                        als «j.» bzw. «d.» vorkommen. </p>
+                     <p>In französischen und italienischen Briefen kann die Gross-/Kleinschreibung
+                        der Buchstaben «c», «m» und «s» oftmals nicht unterschieden werden. Werden
+                        Begriffe wie «commission», «concession», «cession», «comité», «crédits» usw.
+                        unspezifisch verwendet, werden sie mit kleinem Anfangsbuchstaben
+                        transkribiert. Dagegen wird eine bestimmte «Commission» usw. gross
+                        geschrieben. Abkürzungen von «Monsieur», «Monsieurs»/«Messieurs» usw. werden
+                        gross geschrieben. Dagegen werden Abkürzungen von «million(s)», «majorité»
+                        usw. klein geschrieben. Der Ausdruck Suisse wird in adjektivischem Gebrauch
+                        im Zweifelsfall klein geschrieben, sofern es sich dabei nicht um einen
+                        Bestandteil von Appellativen handelt. In Zweifelsfällen wird gemäss heutiger
+                        französischer bzw. italienischer Praxis transkribiert. </p>
+                  </div>
+                  <div>
+                     <head>Editorische Bearbeitung</head>
+                     <div>
+                        <head>Briefe</head>
+                        <p><emph>Metadaten</emph></p>
+                        <p>Die Korrespondenten des Briefs sind der Absender und der Empfänger
+                           (Adressat). Zumeist handelt es sich dabei um natürliche Personen. Wird
+                           ein Brief von mehreren natürlichen Personen unterzeichnet oder richtet
+                           sich ein Brief in der Adresse bzw. Anrede an mehrere natürliche Personen,
+                           so werden sämtliche Personen als Korrespondenten vermerkt. Richtet sich
+                           ein Brief an eine juristische Person (z.B. ein Unternehmen, ein Gremium
+                           eines Unternehmens oder ein politisches Gremium), so wird die juristische
+                           Person als Empfänger erfasst. Wird eine natürliche Person in ihrer bei
+                           einem Gremium ausgeübten Funktion explizit adressiert (z.B. als
+                           Verwaltungsratspräsident), so gilt die natürliche Person als
+                           Korrespondent. Zeichnet eine natürliche Person mit Einzelunterschrift
+                           namens eines Gremiums, gilt üblicherweise die natürliche Person als
+                           Absender. Zeichnen zwei oder mehr natürliche Personen kollektiv für ein
+                           Gremium (z.B. Präsident und Sekretär für ein politisches Gremium oder ein
+                           Unternehmen), so gilt die juristische Person als Absender. In
+                           Ausnahmefällen wird trotz Einzelunterschrift einer natürlichen Person
+                           allerdings die juristische Person oder eine andere natürliche Person als
+                           Absender erachtet: z.B. wenn ein Teilhaber eines Unternehmens für das
+                           Gesamtunternehmen schreibt und dabei konsequent die Wir-Form verwendet
+                           oder wenn ein Sekretär oder sonstiger Angestellter stellvertretend für
+                           ein Unternehmen, eine Unternehmensleitung oder einen politischen
+                           Vorgesetzten schreibt. In einem solchen Fall gilt die unterzeichnende
+                           natürliche Person zwar als Briefschreiber, aber nicht als Absender. </p>
+                        <p>Als Datum des Briefs gilt üblicherweise der Tag, an dem der Brief gemäss
+                           Angabe des Absenders geschrieben wurde, d.h. das Datum, das auf dem
+                           Briefpapier – in einer Datumszeile am Anfang oder am Ende des Briefs –
+                           genannt wird. Nennt der Absender mehrere Daten für die Entstehung des
+                           Briefs, so werden diese vollzählig erfasst. Bei nicht oder unvollständig
+                           datierten Briefen wird das Datum nach Möglichkeit erschlossen. Dies kann
+                           aufgrund von Angaben im Inhalt des Briefs erfolgen oder aufgrund von
+                           äusseren Informationen wie einem Poststempel oder Hinweisen in anderen
+                           Briefen (z.B. Erwähnung im direkten Antwortbrief). Erschlossene
+                           Briefdaten (bzw. die erschlossenen Bestandteile des Datums) werden
+                           entsprechend gekennzeichnet und in einem Stellenkommentar erläutert.
+                           Dabei wird nicht etwa zwischen Entstehungs- und Absendedatum
+                           unterschieden. </p>
+                        <p>Sowohl Herkunfts- wie Bestimmungsort des Briefs werden in den Metadaten
+                           erfasst, sofern die entsprechende Angabe ausdrücklich auf dem Briefbogen
+                           vermerkt ist. Angaben z.B. vom Poststempel werden nicht berücksichtigt,
+                           und es werden auch keine Orte erschlossen. Adressen, Strassennamen u.
+                           dgl. werden nicht berücksichtigt, und es wird auch nicht etwa anstelle
+                           eines Strassennamens die Ortschaft erfasst, in der sich die Strasse
+                           befindet. </p>
+                        <p>Der Standort der Vorlage (Provenienz) ist gemäss den Vorgaben des
+                           Archivguthalters (Archiv, Bibliothek) erfasst. Die Erfassung der
+                           Provenienz auf Stufe Dokument oder Dossier erfolgt abhängig von der
+                           Erschliessungstiefe des Archivguthalters. </p>
+                        <p>Eine bereits erfolgte Publikation eines Briefs ist soweit bekannt erfasst
+                           und ausgewiesen. Systematisch berücksichtigte Publikationsorte sind
+                           zunächst die Werke der Alfred Escher-Stiftung, namentlich die sechs Bände
+                           der gedruckten Briefeditionsreihe [Escher Briefe] sowie die 2006
+                           erschienene vierbändige Escher-Biographie von Joseph Jung [Jung,
+                           Aufbruch]. Ebenfalls systematisch berücksichtigt sind die
+                           Escher-Biographie von Ernst Gagliardi [Gagliardi, Escher], Gagliardis
+                           Sammlung von Briefen schweizerischer Juristen [Gagliardi,
+                           Juristenbriefe], Julia Gauss' Sammlung von Briefen schweizerischer
+                           Politiker [Gauss, Briefe], Alexander Islers Biographie Jonas Furrers
+                           [Isler, Furrer], die diplomatischen Dokumente der Schweiz [DDS],
+                           Ferdinand Strobels Werk über die Geschichte der Jesuiten in der Schweiz
+                           [Strobel, Jesuiten], Anton Largiadèrs Werk über Johann Jakob Rüttimann
+                           und die Bundesrevision [Largiadèr, Rüttimann] sowie Rinaldo Caddeos Werk
+                           mit den Briefwechseln von Carlo Cattaneo [Caddeo, Cattaneo]. </p>
+                        <p>Sämtliche Briefe sind beschlagwortet. Die Schlagwörter entstammen einer
+                           für die Edition erstellten Schlagwortliste. Diese Liste umfasst über 300
+                           Begriffe, die nicht hierarchisch gegliedert sind und beliebig kombiniert
+                           werden können. Thematisiert ein Brief beispielsweise Bundesratswahlen, so
+                           sind die Schlagwörter «Wahlen» und «Bundesrat» erfasst. Briefe, deren
+                           Inhalt keinem der Schlagwörter zugewiesen werden kann, erhalten kein
+                           Schlagwort. </p>
+                        <p xml:id="auszeichnung_briefe"><emph>Auszeichnungen</emph></p>
+                        <p>Sämtliche Briefe werden im XML-Format mit einer Minimalauszeichnung
+                           versehen (Beschreibung der Auszeichnung: siehe Anhang zu den <ref
+                              target="https://www.briefedition.alfred-escher.ch/uber-die-edition/technische-grundlagen/"
+                              >technischen Grundlagen</ref>; siehe folgendes Beispiel: <ref
+                              target="https://www.briefedition.alfred-escher.ch/media/documents/Beispielbrief_B0198.pdf"
+                              >XML-Illustration AES B0198</ref>). Dazu gehört neben dem Erfassen der
+                           Metadaten die Kennzeichnung aller genannten Personen und Orte mit einer
+                           eindeutig identifizierbaren Normbezeichnung in moderner Orthographie.
+                           Weiterhin werden erwähnte Datumsangaben, Abkürzungen und erwähnte
+                           Korrespondenz Alfred Eschers systematisch gekennzeichnet. </p>
+                        <p>Sämtliche erwähnten natürlichen Personen – explizit wie implizit – werden
+                           indexiert, einschliesslich historischer und biblischer Figuren (z.B.
+                           «Cicero», «Moses»). Nicht indexiert werden Nennungen juristischer
+                           Personen, die Sender und Empfänger des jeweiligen Briefs sowie
+                           Personalpronomen. Ebenso wird auf eine Indexierung der Nennungen Alfred
+                           Eschers verzichtet. Die Personennennungen werden mit einer eindeutig
+                           identifizierbaren Normbezeichnung in moderner Orthographie versehen. Dies
+                           ermöglicht die Verknüpfung von Personen über alle Inhalte der Edition
+                           hinweg. Die Normbezeichnung setzt sich in der Regel aus dem Familien- und
+                           dem Vornamen der Person zusammen. Bei der Namens- wie bei der Normbildung
+                           werden Prädikate (z.B. «von», «de») berücksichtigt, Titel nicht.
+                           Nennungen von Personen, bei denen nur der Vor- oder nur der Familienname
+                           oder nur eine Umschreibung (z.B. die Amtstätigkeit) bekannt ist, werden
+                           ebenfalls indexiert. Sie erhalten eine Normbezeichnung passend zur
+                           Nennung im Text, werden aber nicht ins Personenverzeichnis aufgenommen
+                           und nicht über verschiedene Inhalte hinweg verknüpft. </p>
+                        <p>Erwähnte Orte werden bei expliziter Erwähnung indexiert. Grundsätzlich
+                           werden sämtliche erwähnten Toponyme indexiert, d.h. neben Ortschaften im
+                           engeren Sinn (z.B. Dörfer, Dorfteile, Städte) auch Regionen, Staaten,
+                           Pässe, Berge und Gewässer, nicht jedoch Strassen, Adressen oder Gebäude.
+                           Eine Ausnahme bildet Eschers Wohnsitz Belvoir in Enge (Zürich). Von der
+                           Indexierung des Ortes «Schweiz» wird abgesehen. Die Ortsnennungen werden
+                           mit einer eindeutig identifizierbaren Normbezeichnung in moderner
+                           Orthographie versehen. Dies ermöglicht die Verknüpfung von Orten über
+                           alle Inhalte der Edition hinweg. Bei heute ungebräuchlichen
+                           Ortsbezeichnungen oder nicht mehr eigenständigen politischen Gemeinden
+                           berücksichtigt die Normbezeichnung die derzeit gültige Ortsbezeichnung,
+                           gegebenenfalls in Klammern die heutige Gemeindezugehörigkeit. Bei
+                           nichtschweizerischen Orten beinhaltet die Normbezeichnung stets das
+                           Länderkürzel der heutigen Staatszugehörigkeit, bei nicht eindeutigen
+                           schweizerischen Orten das Kantonskürzel (z.B. «Baden (AG»), «Biel (BE)»,
+                           «Biel (VS)»). Indexiert werden auch abgeleitete Substantive (z.B.
+                           «Franzosen») oder adjektivische Verwendung (z.B. «französisch»);
+                           topographische Adjektive (z.B. «französisch») werden jedoch nicht
+                           indexiert, wenn damit statt dem geographischen Raum die Sprache gemeint
+                           ist. Bei Ländern wird gegebenenfalls zwischen der Bezeichnung des
+                           allgemeinen geographischen Raums (z.B. «Deutschland») und einer
+                           grenzspezifischen Bezeichnung (z.B. «Deutscher Zollverein», «Deutsches
+                           Reich») unterschieden. Bei Nennungen von Eisenbahnen werden die
+                           Ortsbezeichnungen nicht indexiert, wenn mit der Nennung eindeutig die
+                           juristische Person bezeichnet ist. Diese sind über die Beschlagwortung
+                           auffindbar. Eine Ausnahme bilden hierbei im Ausland gelegene
+                           Eisenbahngesellschaften: da diese nicht in den Schlagwörtern aufgefangen
+                           sind, werden in diesen Fällen die Orte indexiert. Nicht identifizierbare
+                           Orte werden ebenfalls indexiert. Sie erhalten eine Normbezeichnung
+                           passend zur Nennung im Text, werden aber nicht ins Ortverzeichnis
+                           aufgenommen und nicht über verschiedene Inhalte hinweg verknüpft. </p>
+                        <p>Abkürzungen werden bei jeder Erwähnung markiert und mit einer normierten
+                           Auflösung der Abkürzung versehen. Ausgenommen davon sind abgekürzte
+                           Personennennungen, Ortsnennungen und bestimmte oder unbestimmte Artikel.
+                           Nicht als Abkürzung indexiert werden Schreibungen, bei denen lediglich
+                           ein Buchstabe fehlt (z.B. «Beziehng.»). Zusammengehörende Ausdrücke
+                           werden als Ganzes indexiert, auch wenn nur ein Wort abgekürzt wurde (z.B.
+                           «Gr. Rath»). Die Auflösung berücksichtigt die damalige Orthographie, wenn
+                           diese aus der Schreibweise der Abkürzung ersichtlich ist, und führt
+                           gegebenenfalls Schreibvarianten und Übersetzungen auf (z.B. «Gr. Rath» ->
+                           «Grosser Rath / Großer Rath»).</p>
+                        <p>Explizit und implizit genannte tagesgenaue Datumsangaben werden markiert
+                           und mit einer Normbezeichnung versehen. Nicht indexiert werden ungenaue
+                           Angaben wie «nächste Woche», «letztes Jahr».</p>
+                        <p>In sämtlichen Briefen wird erwähnte Korrespondenz Alfred Eschers in Form
+                           von Referenzen auf diese Briefe ausgezeichnet, wenn der verwiesene Brief
+                           in der Escher-Edition enthalten ist. Bei weiterführend kommentierten
+                           Briefen (siehe weiter unten) werden zusätzlich auch thematische
+                           Zusammenhänge mit Verweisen auf Briefe und Überblickskommentare vermerkt. </p>
+                        <p>Funktionale Textelemente wie Anrede, Datumszeile, Grussformel,
+                           Unterschrift, Adresse, Beilagenvermerk oder gedruckte Briefköpfe werden
+                           ausgezeichnet. Dies erlaubt beispielsweise einen Vergleich der
+                           verschiedenen Anredeformen. </p>
+                        <p><emph>Stellenkommentare</emph></p>
+                        <p>Es wird unterschieden zwischen weiterführend kommentierten und nicht bzw.
+                           teilweise kommentierten Briefen. Die Stellenkommentare stehen in den
+                           Briefen jeweils in Form von Fussnoten. Bei allen Briefen sind
+                           gegebenenfalls Hinweise auf nachträgliche Ergänzungen am Brief oder auf
+                           im Brief eingebundene Abbildungen sowie Hinweise auf die Datierung
+                           vermerkt. Die weiterführend kommentierten Briefe verfügen darüber hinaus
+                           über Kommentare, welche Informationen enthalten, die zur
+                           Kontextualisierung beitragen. Darin finden sich etwa biographische
+                           Angaben zu erwähnten Personen, Erläuterungen zu Sachverhalten, erwähnten
+                           Dokumenten, technischen Begriffen sowie zu lateinischen oder nicht mehr
+                           gebräuchlichen deutschen Begriffen, Quellenausweise sowie Verweise auf
+                           andere Briefe und auf Überblickskommentare. Nicht identifizierte Personen
+                           und nicht entschlüsselte Sachverhalte sowie nicht eruierte Beilagen
+                           werden mit der Bemerkung «nicht ermittelt» gekennzeichnet, nicht
+                           vorhandene Beilagen mit «nicht überliefert». Diese weiterführend
+                           kommentierten Briefe sind in den Brieflisten jeweils speziell
+                           gekennzeichnet (+).</p>
+                        <p><emph>Digitalisate</emph></p>
+                        <p>Es werden für alle Briefe Digitalisate des vollständigen Briefs erstellt,
+                           inklusive der in der Transkription nicht berücksichtigten Elemente wie
+                           Briefumschläge sowie teilweise auch Beilagen.</p>
+                        <p>Diese Digitalisate sind mit einer Auflösung von 300 dpi eingescannt. Die
+                           Scans sind im Format TIFF gespeichert, das als Archivformat verwendet
+                           wird. Für die Präsentation in der digitalen Edition werden die Dateien in
+                           JPEG-Dateien mit derselben Auflösung umgewandelt. Jeweils die ersten
+                           Seiten jedes Briefes sind mit einem Massraster und einer Norm-Farbskala
+                           versehen. </p>
+                        <p>Von sämtlichen Briefen, von denen ein Digitalisat vorliegt, wird für die
+                           zeilengenaue synoptische Darstellung eine Mapping-Tabelle erstellt (siehe
+                              <ref
+                              target="https://www.briefedition.alfred-escher.ch/uber-die-edition/technische-grundlagen/"
+                              >technische Grundlagen</ref>). Die Erkennung der einzelnen Zeilen
+                           geschieht in einem ersten Schritt automatisch. Anschliessend erfolgt die
+                           manuelle Kontrolle und Bearbeitung. Der als Zeile erkannte Bildausschnitt
+                           soll so gewählt sein, dass das Schriftbild inklusive Ober- und
+                           Unterlängen vollständig ersichtlich ist. </p>
+                     </div>
+                     <div>
+                        <head>Kontextinformationen</head>
+                        <p><emph>Überblickskommentare</emph></p>
+                        <p>Der Einbettung der Briefe in den historischen Kontext dienen sogenannte
+                           Überblickskommentare, welche die Sachverhalte in grössere Zusammenhänge
+                           stellen. Damit werden gleichzeitig die Stellenkommentare der Briefe
+                           entlastet. </p>
+                        <p>Bei den Überblickskommentaren handelt es sich um längere editorische
+                           Texte, welche verschiedene Escher-relevante Themen behandeln und die
+                           Briefe in einen thematischen Rahmen einordnen. Die in der digitalen
+                           Edition publizierten Überblickskommentare werden aus den <ref
+                              target="https://www.alfred-escher.ch/de/briefe/gedruckte-briefedition/"
+                              >gedruckten Editionsbänden</ref> übernommen, die unter der
+                           Herausgeberschaft und wissenschaftlichen Leitung von Professor Joseph
+                           Jung im Auftrag der Alfred Escher-Stiftung im Verlag NZZ Libro in Zürich
+                           erschienen sind: Band 1: Alfred Escher zwischen Lukmanier und Gotthard.
+                           Briefe zur schweizerischen Alpenbahnfrage 1850–1882, Zürich 2008. – Band
+                           2: Alfred Eschers Briefe aus der Jugend- und Studentenzeit (1831–1843),
+                           bearbeitet und kommentiert von Bruno Fischer, Zürich 2010. – Band 3:
+                           Alfred Eschers Briefwechsel 1843–1848. Jesuiten, Freischaren, Sonderbund,
+                           Bundesrevision, bearbeitet und kommentiert von Björn Koch, Zürich 2011. –
+                           Band 4: Alfred Eschers Briefwechsel, 1848–1852. Aufbau des jungen
+                           Bundesstaates, politische Flüchtlinge und Neutralität, bearbeitet und
+                           kommentiert von Sandra Wiederkehr, Zürich 2012. – Band 5: Alfred Eschers
+                           Briefwechsel, 1852–1866. Wirtschaftsliberales Zeitfenster, Gründungen,
+                           Aussenpolitik, mit Beiträgen von Claudia Aufdermauer, Bruno Fischer,
+                           Joseph Jung, Björn Koch, Katrin Rigort und Sandra Wiederkehr, Zürich
+                           2013. – Band 6: Alfred Eschers Briefwechsel, 1866–1882. Private
+                           Eisenbahngesellschaften in der Krise, Gotthardbahn, politische
+                           Opposition, mit Beiträgen von Claudia Aufdermauer, Basil Böhni, Lisa
+                           Bollinger, Bruno Fischer, Josef Inauen, Joseph Jung, Björn Koch und
+                           Vincent Pick, Zürich 2015. </p>
+                        <p>In den Überblickskommentaren werden Personen, Orte, Abkürzungen und
+                           erwähnte Daten analog zur Handhabung bei der Briefauszeichnung (<ref
+                              target="#auszeichnung_briefe">siehe oben</ref>) ausgezeichnet.
+                           Thematisch mit dem Überblickskommentar verbundene Briefe und andere
+                           Überblickskommentare werden als Verweise referenziert. </p>
+                        <p>Alle Überblickskommentare, mit Ausnahme der in Form einer Chronologie
+                           erstellten, verfügen über einen Anmerkungsapparat. In diesen Kommentaren
+                           werden bibliographische Angaben zu den verwendeten Quellen und
+                           Literaturwerken genannt. Auch weiterführende inhaltliche Ausführungen
+                           können in die Anmerkungen gesetzt werden. </p>
+                        <p><emph>Kurzbiographien</emph></p>
+                        <p>Zu sämtlichen identifizierten Korrespondenten – sofern es sich dabei um
+                           natürliche Personen handelt – sowie zu ausgewählten weiteren Personen
+                           (namentlich Eschers engsten Familienangehörigen) wird eine Kurzbiographie
+                           erstellt. Diese Biographien bieten in einer normierten Struktur die
+                           relevanten biographischen Angaben zur jeweiligen Person. </p>
+                        <p>Die Biographien beginnen stets mit dem vollständigen Namen und den
+                           Lebensdaten. Bestehen Verwandtschaftsbeziehungen zu anderen Personen mit
+                           Kurzbiographien, wird dies eingangs ebenfalls vermerkt. Es folgen die
+                           Angabe der Herkunft (Kanton bzw. Staat oder Region) und die Bezeichnungen
+                           der Berufskategorien, in denen die Person tätig war (z.B. Politiker,
+                           Unternehmer, Redaktor, Publizist, Theologe, Ingenieur, Jurist, Beamter).
+                           Die Reihenfolge der Kategorien entspricht dem Gewicht des jeweiligen
+                           Bereichs im Lebenslauf der Person (z.B. wird ein Theologe, der zeitlebens
+                           als Pfarrer tätig war und noch für ein paar Jahre in einem politischen
+                           Gremium sass, an erster Stelle als Theologe bezeichnet). Bei Politikern
+                           wird die politische Gesinnung genannt, bei Theologen die
+                           Religionszugehörigkeit. Anschliessend folgen die einzelnen Ämter,
+                           Funktionen und Karrierestufen des Lebenslaufs geordnet nach
+                           Berufskategorien und innerhalb dieser Kategorien chronologisch. Es können
+                           Zusätze zu besonderen Leistungen und Tätigkeiten folgen, Zugehörigkeit zu
+                           einer Studentenverbindung sowie eine Einschätzung des Verhältnisses der
+                           Person zu Alfred Escher. Abgeschlossen wird jede Kurzbiographie mit einer
+                           Auswahl relevanter Quellen- und Literaturangaben. Handelt es sich bei der
+                           Person nicht um einen Korrespondenzpartner Eschers, wird dies am Schluss
+                           der Biographie angemerkt. </p>
+                        <p>In den Kurzbiographien werden Personen, Orte, Abkürzungen und erwähnte
+                           Daten analog zur Handhabung bei der Briefauszeichnung (<ref
+                              target="#auszeichnung_briefe">siehe oben</ref>) ausgezeichnet. Werden
+                           Überblickskommentare oder Korrespondenzen Alfred Eschers in den
+                           Referenzen verwendet, so werden diese Verweise ausgezeichnet. </p>
+                        <p>Bei allen Personen – ob mit oder ohne Kurzbiographie – werden
+                           systematisch die Lebensdaten, die Nummer aus der Gemeinsamen Normdatei
+                           (GND) sowie Artikel in der Online-Ausgabe des historischen Lexikons der
+                           Schweiz (HLS online) als externe Angaben erfasst. </p>
+                        <p><emph>Orte</emph></p>
+                        <p>Sämtliche identifizierten Orte (<ref target="#auszeichnung_briefe">siehe
+                              oben, Briefauszeichnung</ref>) werden ins Briefverzeichnis
+                           aufgenommen. Sie werden einer von vier Kategorien (Ort, Gewässer,
+                           Gebirge, Fläche) zugeordnet, und es werden ihre geographischen
+                           Koordinaten erhoben. Bei Gemeinden wird hierfür das Zentrum genommen, bei
+                           Territorien die Hauptstadt, bei Fliessgewässern die Quelle. Die
+                           Koordinaten für den sichtbaren Kartenausschnitt werden jeweils so
+                           gewählt, dass der relevante Bereich inklusive eines für die räumliche
+                           Einordnung nützlichen Umfelds sichtbar ist. </p>
+                        <p><emph>Chronologie</emph></p>
+                        <p>Die Chronologie zu Alfred Escher enthält einerseits sämtliche
+                           politischen, wirtschaftlichen und sonstigen Ämter, die Escher ausgeübt
+                           hat. Sie erfasst Präsidien von Ämtern, nicht jedoch Vizepräsidien. Die
+                           Chronologie umfasst die relevanten biographischen Ereignisse aus Eschers
+                           Leben sowie kontextuelle Ereignisse, die mit seinem Leben und Wirken in
+                           Verbindung stehen, etwa Eschers Teilnahme an Sitzungen politischer und
+                           wirtschaftlicher Gremien. </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
