@@ -31,10 +31,26 @@
                 </paper-item>
             </paper-listbox>
         </paper-menu-button>
-        
-        <a href="${app}/about.html" data-template="pages:parse-params">Über die Edition</a>
 
-        
+        <paper-menu-button>
+            <a href="#" slot="dropdown-trigger" data-i18n="[title]menu.about" title="i18n(download)">
+                <pb-i18n key="menu.about">Über die Edition</pb-i18n>
+            </a>
+            <paper-listbox slot="dropdown-content">
+                <paper-item>
+                    <a href="${app}/uber-die-edition/credits.xml" data-template="pages:parse-params">Credits</a>
+                </paper-item>
+                <paper-item>
+                    <a href="${app}/uber-die-edition/projektbeschrieb.xml" data-template="pages:parse-params">Projektbeschrieb</a>
+                </paper-item>
+                <paper-item>
+                    <a href="${app}/uber-die-edition/editionsprinzipien.xml" data-template="pages:parse-params">Editionsprinzipien</a>
+                </paper-item>
+                <paper-item>
+                    <a href="${app}/uber-die-edition/technische-grundlagen.xml" data-template="pages:parse-params">Technische grundlagen</a>
+                </paper-item>
+            </paper-listbox>
+        </paper-menu-button>        
         <paper-menu-button>
             <a href="#" slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
                 <pb-i18n key="menu.download.title">Download</pb-i18n>

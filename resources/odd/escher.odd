@@ -285,6 +285,9 @@
             <model behaviour="block"/>
         </modelSequence>
                 </elementSpec>
+                <elementSpec ident="emph" mode="add">
+                    <model behaviour="inline" cssClass="emph"/>
+                </elementSpec>
             </schemaSpec>
         </body>
     </text>

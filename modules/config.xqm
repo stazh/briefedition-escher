@@ -414,25 +414,25 @@ declare variable $config:dts-import-collection := $config:data-default || "/play
  :)
 declare function config:collection-config($collection as xs:string?, $docUri as xs:string?) {
     (: Return empty sequence to use default config :)
-    ()
+    
 
     (: 
      : Replace line above with the following code to switch between different view configurations per collection.
      : $collection corresponds to the relative collection path (i.e. after $config:data-root). 
      :)
-    (:
+    
     switch ($collection)
-        case "playground" return
+        case "uber-die-edition" return
             map {
-                "odd": "dodis.odd",
-                "view": "body",
+                "odd": "escher.odd",
+                "view": "single",
                 "depth": $config:pagination-depth,
                 "fill": $config:pagination-fill,
-                "template": "facsimile.html"
+                "template": "about.html"
             }
         default return
             ()
-    :)
+    
 };
 
 (:~
