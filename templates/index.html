@@ -243,39 +243,8 @@
                 </app-drawer>
                 <app-header-layout>
                 <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
-                    <app-toolbar class="menubar">
-                        <a href="${app}/home.html" class="logo" data-template="pages:parse-params"/>
-                        <pb-media-query query="(min-width: 1024px)">
-                            <a href="${app}/index.html" data-template="pages:parse-params">Briefe</a>
-                            <pb-restricted login="login" group="tei">
-                                <paper-menu-button>
-                                    <a href="#" slot="dropdown-trigger">
-                                        <pb-i18n key="menu.admin.title">Admin</pb-i18n>
-                                    </a>
-                                    <paper-listbox slot="dropdown-content">
-                                        <paper-item>
-                                            <pb-download url="api/apps/download">
-                                                <pb-i18n key="appgen.xar-download">Download App as .xar</pb-i18n>
-                                            </pb-download>
-                                        </paper-item>
-                                        <paper-item data-template="pages:edit-odd-list"/>
-                                        <paper-item>
-                                            <a href="${app}/api.html" data-template="pages:parse-params" target="_blank">API Documentation</a>
-                                        </paper-item>
-                                    </paper-listbox>
-                                </paper-menu-button>
-                            </pb-restricted>
-                            <!-- Search input -->
-                            <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" redirect="redirect"/>
+                    <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
 
-                            <!-- language selector -->
-                            <pb-lang name="lang" data-template="pages:languages"/>
-                        </pb-media-query>
-                        <pb-login id="login" group="tei">
-                            <iron-icon slot="icon" icon="account-circle"/>
-                        </pb-login>
-                        <pb-progress indeterminate="indeterminate" bottom-item="bottom-item" subscribe="docs"/>
-                    </app-toolbar>
                     <pb-media-query query="(max-width: 1023px)">
                         <app-toolbar class="toolbar" sticky="sticky">
                             <!-- Search input -->

@@ -4,6 +4,38 @@
     <pb-media-query query="min-width: 1024px">
         <a href="${app}/index.html" data-template="pages:parse-params">Briefe</a>
         <paper-menu-button>
+            <a href="#" slot="dropdown-trigger" data-i18n="[title]menu.contexts" title="foo">
+                <pb-i18n key="menu.contexts">Kontexte</pb-i18n>
+            </a>
+            <paper-listbox slot="dropdown-content">
+                <paper-item>
+                    <pb-i18n key="menu.escher">Alfred Escher</pb-i18n>
+                </paper-item>
+                <paper-item>
+                    <pb-i18n key="menu.chronologie">Chronologie</pb-i18n>
+                </paper-item>
+                <paper-item>
+                    <pb-i18n key="menu.escher">Personen</pb-i18n>
+                </paper-item>
+                <paper-item>
+                    <pb-i18n key="menu.escher">Orte</pb-i18n>
+                </paper-item>
+                <paper-item>
+                    <pb-i18n key="menu.escher">Überblickskommentare</pb-i18n>
+                </paper-item>
+                <paper-item>
+                    <pb-i18n key="menu.escher">Abkurzungen</pb-i18n>
+                </paper-item>
+                <paper-item>
+                    <pb-i18n key="menu.escher">Bibliographie</pb-i18n>
+                </paper-item>
+            </paper-listbox>
+        </paper-menu-button>
+        
+        <a href="${app}/about.html" data-template="pages:parse-params">Über die Edition</a>
+
+        
+        <paper-menu-button>
             <a href="#" slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
                 <pb-i18n key="menu.download.title">Download</pb-i18n>
             </a>
