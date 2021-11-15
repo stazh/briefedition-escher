@@ -53,8 +53,13 @@ declare function conv:person($person as element(biography)) {
     return
         <person xml:id="{conv:fix-xmlid($person/@id)}" n="{$person/@id}">
             <persName>
-                <forename>{$meta/name/firstname/string()}</forename>
-                <surname>{$meta/name/lastname/string()}</surname>
+                {
+                    if ($meta/name/firstname != "") then (
+                        <forename>{$meta/name/firstname/string()}</forename>,
+                        <surname>{$meta/name/lastname/string()}</surname>
+                    ) else
+                        $meta/name/lastname/string()
+                }
             </persName>
             { conv:date($meta/age) }
             { 
