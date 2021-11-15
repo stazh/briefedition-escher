@@ -158,6 +158,9 @@ declare function teis:expand($data as node()) {
                         ($data/ancestor::tei:text)
                     else
                       ($data/ancestor::tei:div, $data/ancestor::tei:text)[1]
+                      (: fixes a bug in search results linking :)
+        else if ($data/self::document-node()) then 
+            $data/descendant-or-self::tei:text
         else
             $data
     let $result := teis:query-default-view($div, $query, $field)
