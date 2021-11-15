@@ -35,6 +35,8 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 ), " - ")
             case "type" return
                 $header//tei:msIdentifier/@type
+            case "provenience" return
+                $header//tei:msDesc//tei:institution
             case "number" return
                 $root/@xml:id
             case "author" return 

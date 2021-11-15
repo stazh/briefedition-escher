@@ -127,6 +127,12 @@ declare variable $config:facets := [
         "hierarchical": false()
     },
     map {
+        "dimension": "provenience",
+        "heading": "facets.provenience",
+        "max": 5,
+        "hierarchical": false()
+    },
+    map {
         "dimension": "language",
         "heading": "facets.language",
         "max": 5,
