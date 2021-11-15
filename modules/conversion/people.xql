@@ -57,9 +57,14 @@ declare function conv:person($person as element(biography)) {
                 <surname>{$meta/name/lastname/string()}</surname>
             </persName>
             { conv:date($meta/age) }
-            <note type="bio">
-            { conv:body($person/body/*) }
-            </note>
+            { 
+                if ($person/body/*) then
+                    <note type="bio">
+                    { conv:body($person/body/*) }
+                    </note>
+                else
+                    ()
+            }
             {
                 $meta/links/pnd[. != ""]/string() ! conv:idno(., "gnd"),
                 $meta/links/link/url[. != ""]/string() ! conv:idno(., "URI")
@@ -71,7 +76,7 @@ declare function conv:person($person as element(biography)) {
 };
 
 declare function conv:fix-xmlid($id as xs:string) {
-    translate($id, " ()", "-_")
+    translate($id, " ()'", "-_")
 };
 
 declare function conv:idno($id, $type) {
