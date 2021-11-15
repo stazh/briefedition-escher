@@ -442,9 +442,22 @@ declare function config:collection-config($collection as xs:string?, $docUri as 
                 "fill": $config:pagination-fill,
                 "template": "about.html"
             }
+        case "letters" return
+            map {
+                "odd": $config:default-odd,
+                "view": $config:default-view,
+                "depth": $config:pagination-depth,
+                "fill": $config:pagination-fill,
+                "template": $config:default-template
+            }
         default return
-            ()
-    
+            map {
+                "odd": "escher.odd",
+                "view": "single",
+                "depth": $config:pagination-depth,
+                "fill": $config:pagination-fill,
+                "template": "about.html"
+            }
 };
 
 (:~
