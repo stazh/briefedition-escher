@@ -33,6 +33,10 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                     $header//tei:titleStmt/tei:title,
                     $root/dbk:info/dbk:title
                 ), " - ")
+            case "type" return
+                $header//tei:msIdentifier/@type
+            case "number" return
+                $root/@xml:id
             case "author" return 
                 idx:get-person($header//tei:correspDesc/tei:correspAction/tei:persName[@type='sender'])
             case "sender" return (

@@ -17,6 +17,9 @@
 
                 <field name="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
 
+                <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
+                <field name="number" expression="nav:get-metadata(ancestor::tei:TEI, 'number')"/>
+
                 <field name="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
                 <field name="corpus" expression="'escher'"/>
 
@@ -33,6 +36,8 @@
 
                 <facet dimension="year" expression="substring(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), 1, 4)"/>
 
+                <facet dimension="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
+                <facet dimension="number" expression="nav:get-metadata(ancestor::tei:TEI, 'number')"/>
 
                 <facet dimension="corpus" expression="'escher'"/>
 
