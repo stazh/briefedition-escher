@@ -19,6 +19,22 @@ import module namespace vapi="http://teipublisher.com/api/view" at "lib/api/view
 import module namespace errors = "http://exist-db.org/xquery/router/errors";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
 
+declare function api:view-commentary($request as map(*)) {
+    let $name := xmldb:decode($request?parameters?name)
+    let $entry := collection($config:data-root || "/commentary")/id($name)
+    return
+        if ($entry) then
+            let $template := doc($config:app-root || "/templates/pages/commentary.html")
+            let $model := map { 
+                "doc": $config:data-root || "/commentary/" || util:document-name($entry),
+                "template": "commentary.html"
+            }
+            return
+                templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
+        else
+            error($errors:NOT_FOUND, "Document " || $request?parameters?id || " not found")
+};
+
 declare function api:view-person($request as map(*)) {
     let $name := xmldb:decode($request?parameters?name)
     let $person := doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[@n = $name]
