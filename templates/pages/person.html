@@ -10,45 +10,20 @@
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
 
         <title data-template="config:app-title"/>
-        <meta name="description" content="Default single text layout"/>
-        <meta name="pb-template" content="view.html"/>
+        <meta name="description" content="Metadaten zur Person"/>
+        <meta name="pb-template" content="person.html"/>
 
         <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
         <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="resources/css/escher.css"/>
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <style>
-            @media (min-width: 769px) {
-                .toolbar pb-navigation {
-                    display: none;
-                }
+            .toolbar pb-navigation {
+                display: none;
             }
-
-            .content-body {
-                position: relative;
-                display: flex;
-                justify-content: center;
-            }
-
-            .content-body pb-navigation {
-                position: fixed;
-                bottom: 45%;
-                --paper-fab-background: #35424b;
-                color: white;
-            }
-
-            .content-body pb-navigation[direction=backward] {
-                left: 20px;
-            }
-
-            .content-body pb-navigation[direction=forward] {
-                right: 20px;
-            }
-
-            @media (max-width: 769px) {
-                .content-body pb-navigation {
-                    display: none;
-                }
+            div {
+                margin: 0 16px;
             }
         </style>
     </head>
@@ -63,9 +38,13 @@
                         <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
                         <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
                     </app-header>
-                    <main class="content-body">
+                    <main>
                         <pb-view id="view1" src="document1" xpath="${xpath}" subscribe="transcription" emit="transcription"
-                            data-template="pages:parse-params"/>
+                            data-template="pages:parse-params">
+                            <pb-param name="display" value="person-meta"/>
+                        </pb-view>
+                        <div data-template="custom:person-mentions"></div>
+                        <div data-template="custom:person-letters"></div>
                     </main>
                 </app-header-layout>
             </app-drawer-layout>

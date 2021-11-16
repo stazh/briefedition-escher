@@ -40,10 +40,18 @@ declare function api:view-person($request as map(*)) {
     let $person := doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[@n = $name]
     return
         if ($person) then
+            let $persName := $person/tei:persName
+            let $label :=
+                if ($persName/tei:surname) then
+                    string-join(($persName/tei:forename, $persName/tei:surname), " ")
+                else
+                    $persName/string()
             let $template := doc($config:app-root || "/templates/pages/person.html")
             let $model := map { 
                 "doc": $config:data-root || "/people.xml",
                 "xpath": '//tei:listPerson/tei:person[@n = "' || $name || '"]',
+                "name": $label,
+                "key": $name,
                 "template": "person.html"
             }
             return
@@ -79,11 +87,10 @@ declare function api:people($request as map(*)) {
                             string-join(($name/tei:surname, $name/tei:forename), ", ")
                         else
                             $name/string()
-                    let $link := $person/@n
                     return
                         map {
                             "id": $person/@xml:id/string(),
-                            "name": <a href="{$link}">{$label}</a>,
+                            "name": <a href="{$person/@n}">{$label}</a>,
                             "dates": string-join(($person/tei:birth, $person/tei:death), "–")
                         }
                 }
@@ -106,6 +113,43 @@ declare function api:sort($people as element()*, $dir as xs:string) {
             $sorted
         else
             reverse($sorted)
+};
+
+declare function api:person-mentions($node as node(), $model as map(*)) {
+    let $mentions := collection($config:data-root || "/letters")//tei:text[.//tei:persName/@key=$model?key]
+    where count($mentions) > 0
+    return
+        <div>
+            <h3>Erwähnungen von {$model?name}</h3>
+            <h4>In Briefen: {count($mentions)}</h4>
+            <ul>
+            {
+                for $mention in $mentions
+                return
+                    <li><a href="../../letters/{util:document-name($mention)}">{root($mention)//tei:titleStmt/tei:title/text()}</a></li>
+            }
+            </ul>
+        </div>
+};
+
+declare function api:person-letters($node as node(), $model as map(*)) {
+    let $mentions := collection($config:data-root || "/letters")//tei:correspDesc/tei:correspAction[tei:persName/@key=$model?key]
+    return
+        if (count($mentions) > 15) then
+            <div>
+                <h3><a href="../../index.html?facet-sender={$model?key}">Briefe von und an {$model?name}</a></h3>
+            </div>
+        else
+            <div>
+                <h3>Briefe von und an {$model?name}</h3>
+                <ol>
+                {
+                    for $mention in $mentions
+                    return
+                        <li><a href="../../letters/{util:document-name($mention)}">{root($mention)//tei:titleStmt/tei:title/text()}</a></li>
+                }
+                </ol>
+            </div>
 };
 
 (:~
