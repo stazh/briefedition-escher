@@ -41,7 +41,7 @@
             <schemaSpec start="TEI teiCorpus" ident="escher" source="teipublisher.odd"> <elementSpec ident="note" mode="change">
                     <model predicate="@type=&#34;annotation&#34;" behaviour="inline" cssClass="annotation">
             <outputRendition xml:space="preserve">
-
+            
             </outputRendition>
         </model>
                     <model behaviour="note">
@@ -111,8 +111,8 @@
                     <model behaviour="line-break" cssClass="line" useSourceRendition="true"/>
                 </elementSpec>
             <elementSpec ident="p" mode="change">
-                <model predicate="$parameters?display='person-meta'" behaviour="paragraph"/>
-                <model predicate="@rend=&#34;right&#34;" behaviour="paragraph">
+                    <model predicate="$parameters?display='person-meta'" behaviour="paragraph"/>
+                    <model predicate="@rend=&#34;right&#34;" behaviour="paragraph">
             <outputRendition xml:space="preserve">
             text-align: right;
             </outputRendition>
@@ -138,14 +138,13 @@
             <param name="content" value="(./fileDesc/sourceDesc, ./fileDesc/titleStmt)"/>
         </model>
                     <model predicate="$parameters?header='context'" behaviour="inline">
-                        <param name="correspondents" value=".//correspDesc//persName"/>
-                        <!--param name="date" value=".//correspDesc//date"/-->
-                        <param name="dates" value=".//correspDesc//date/@when"/>
-                        <param name="persons" value="for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1]"/>
-                        <param name="places" value="for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1]"/>
-                        <param name="letters" value="for $p in root(.)//text//ref[@type='letter']     let $k := $p/@target       group by $k       order by $k        return $p[1]"/>
-                        <param name="sum" value="for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1]"/>
-                        <pb:template xmlns="" xml:space="preserve">
+            <param name="correspondents" value=".//correspDesc//persName"/>
+            <param name="dates" value=".//correspDesc//date/@when"/>
+            <param name="persons" value="for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1]"/>
+            <param name="places" value="for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1]"/>
+            <param name="letters" value="for $p in root(.)//text//ref[@type='letter']     let $k := $p/@target       group by $k       order by $k        return $p[1]"/>
+            <param name="sum" value="for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1]"/>
+            <pb:template xmlns="" xml:space="preserve">
                             <div>
                                 <h4>Korrespondenten</h4>
                                 [[correspondents]]
@@ -166,14 +165,14 @@
                                 [[sum]]
                             </div>
                         </pb:template>
-                    </model>
+        </model>
                     <model predicate="$parameters?header='reference'" behaviour="inline" cssClass="subheading">
             <param name="id" value="substring-after(ancestor::TEI/@xml:id, 'K_')"/>
             <param name="ref" value="(.//msIdentifier/institution, ' ', .//msIdentifier/idno[@type='original'])"/>
             <param name="type" value="let $type:= .//msIdentifier/@type return if ($type != '') then ' (' || $type || ')' else ()"/>
             <pb:template xmlns="" xml:space="preserve">AES B[[id]] | [[ref]][[type]]</pb:template>
             <outputRendition xml:space="preserve">
-
+            
             </outputRendition>
         </model>
                     <model output="latex" behaviour="metadata"/>
@@ -233,19 +232,19 @@
         </model>
                 </elementSpec>
             <elementSpec ident="date" mode="add">
-                <model predicate="$parameters?header='context' and @when and ancestor::correspDesc" behaviour="block">
-                    <param name="label" value="ec:format-date(@when)"/>
-                    <param name="uri" value="let $date := replace(@when/string(), '-', '/') return 'https://www.briefedition.alfred-escher.ch/kontexte/chronologie/ansicht-tage/' || $date || '/'"/>
-                    <pb:template xmlns="" xml:space="preserve">
+                    <model predicate="$parameters?header='context' and @when and ancestor::correspDesc" behaviour="block">
+            <param name="label" value="ec:format-date(@when)"/>
+            <param name="uri" value="let $date := replace(@when/string(), '-', '/') return 'https://www.briefedition.alfred-escher.ch/kontexte/chronologie/ansicht-tage/' || $date || '/'"/>
+            <pb:template xmlns="" xml:space="preserve">
                         <a href="[[uri]]" target="_blank">[[label]]</a>
                     </pb:template>
-                </model>
-            </elementSpec>
+        </model>
+                </elementSpec>
             <elementSpec ident="persName" mode="add">
                     <model predicate="$parameters?display='person-meta'" behaviour="inline"/>
                     <model predicate="$parameters?header='context' and @key and ancestor::correspDesc" behaviour="block">
             <param name="label" value="."/>
-            <param name="uri" value="let $initial := substring(@key, 1, 1) return 'https://www.briefedition.alfred-escher.ch/kontexte/personen/korrespondenten-und-erwahnte-personen/' || $initial || '/' || @key/string() || '/'"/>
+            <param name="uri" value="'../kontexte/personen/' || @key"/>
             <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
         </model>
                     <model predicate="$parameters?header='context' and ancestor::correspDesc" behaviour="block"/>
@@ -323,12 +322,6 @@
             </model>
         </modelSequence>
                 </elementSpec>
-                <elementSpec ident="text" mode="change">
-                    <model predicate="$parameters?display='person-meta'" behaviour="listItem">
-            <param name="content" value="root($parameters?root)//titleStmt"/>
-        </model>
-                    <model behaviour="body"/>
-                </elementSpec>     
             <elementSpec ident="author" mode="change">
                     <model predicate="ancestor::teiHeader" behaviour="block"/>
                     <model behaviour="inline"/>
@@ -392,7 +385,34 @@
                     <model predicate="$parameters?header=&#34;subsections&#34;" behaviour="block">
             <param name="content" value=".//head"/>
         </model>
+                    <model predicate="$parameters?display='person-meta'" behaviour="listItem">
+            <param name="content" value="root($parameters?root)//titleStmt"/>
+        </model>
+                    <model output="web" behaviour="init"/>
                     <model behaviour="body"/>
+                </elementSpec>
+            <elementSpec ident="titleStmt" mode="change">
+                    <model output="latex" behaviour="meta">
+            <param name="content" value="."/>
+        </model>
+                    <model output="fo" behaviour="heading"/>
+                    <model predicate="$parameters?mode='title'" behaviour="heading">
+            <param name="content" value="title[not(@type)]"/>
+            <param name="level" value="5"/>
+        </model>
+                    <modelSequence output="web" predicate="$parameters?header='short'">
+            <model behaviour="link">
+                <param name="content" value="title[1]"/>
+                <param name="uri" value="&#34;briefe/B&#34; || substring-after(ancestor::TEI/@xml:id, &#34;K_&#34;)"/>
+            </model>
+            <model behaviour="block">
+                <param name="content" value="subsequence(title, 2)"/>
+            </model>
+            <model behaviour="block">
+                <param name="content" value="author"/>
+            </model>
+        </modelSequence>
+                    <model output="web" behaviour="block"/>
                 </elementSpec>
             </schemaSpec>
         </body>
