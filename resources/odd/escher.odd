@@ -383,13 +383,14 @@
                 </elementSpec>
                 <elementSpec ident="text" mode="change">
                     <model predicate="$parameters?header=&#34;subsections&#34;" behaviour="block">
-            <param name="content" value=".//head"/>
-        </model>
+                        <param name="content" value=".//head"/>
+                    </model>
                     <model predicate="$parameters?display='person-meta'" behaviour="listItem">
-            <param name="content" value="root($parameters?root)//titleStmt"/>
-        </model>
-                    <model output="web" behaviour="init"/>
-                    <model behaviour="body"/>
+                        <param name="content" value="root($parameters?root)//titleStmt"/>
+                    </model>
+                    <model behaviour="body">
+                        <pb:set-param name="regions" value="let $id := root(.)/TEI/@xml:id return collection('/db/apps/escher/data/regions')/mappingtable/doc[@id=$id]"/>
+                    </model>
                 </elementSpec>
             <elementSpec ident="titleStmt" mode="change">
                     <model output="latex" behaviour="meta">
