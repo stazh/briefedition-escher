@@ -1,63 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Vollendung" name="Vollendung">
-	<metadata>
-		<title>Vollendung</title>
-		<author>
-			<name>Susanna Kraus, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Vollendung">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vollendung</title>
+                <author>
+			Susanna Kraus, unter der Leitung von Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Escher zwischen Lukmanier und Gotthard. Briefe
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Escher zwischen Lukmanier und Gotthard. Briefe
 				zur schweizerischen Alpenbahnfrage 1850–1882 (Alfred Escher. Briefe. Ein Editions-
-				und Forschungsprojekt der Alfred Escher-Stiftung, Band 1), Zürich 2008</volume_title>
-			<short_title>Jung, Escher Briefe, Band 1</short_title>
-			<volume>1</volume>
-			<page>665–669</page>
-		</source>
-		<description>Durchstich des Gotthardtunnels – Eröffnung der Gotthardlinie und letzte Ehrungen</description>
-		<revision>
-			<change>XML-Grundstruktur erstellt, CF, 07.02.2011</change>
-			<change>Auszeichnung nach DTD-Umstellung, CF, 14.06.2011</change>
-			<change>Verifizierung 1 umgesetzt, SB, 30.08.2013</change>
-			<change>Auszeichnung 2 umgesetzt, MB, 15.01.2014</change>
-			<change>Verifiziert, BF, 17.06.2015</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Vollendung_d1">
+				und Forschungsprojekt der Alfred Escher-Stiftung, Band 1), Zürich 2008</title>
+                    <title type="short">Jung, Escher Briefe, Band 1</title>
+                    <ref type="volume" target="V1">665–669</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Durchstich des Gotthardtunnels – Eröffnung der Gotthardlinie und letzte Ehrungen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, CF, 07.02.2011</change>
+                <change>Auszeichnung nach DTD-Umstellung, CF, 14.06.2011</change>
+                <change>Verifizierung 1 umgesetzt, SB, 30.08.2013</change>
+                <change>Auszeichnung 2 umgesetzt, MB, 15.01.2014</change>
+                <change>Verifiziert, BF, 17.06.2015</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Vollendung_d1">
 			<head>
 				<pb n="665"/> Vollendung</head>
-				<div id="Vollendung_d1.1">
-			<p id="Vollendung_p1"><hi rend="italics">In Alfred Eschers gesamten nachgelassenen Briefen nimmt die
+				<div xml:id="Vollendung_d1.1">
+			<p xml:id="Vollendung_p1">
+                        <hi rend="italics">In Alfred Eschers gesamten nachgelassenen Briefen nimmt die
 					Korrespondenz der Jahre 1880 bis 1882 einen vergleichsweise kleinen Platz ein.
-					Davon betrifft jedoch ein erheblicher Teil gerade die <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn. Allerdings
+					Davon betrifft jedoch ein erheblicher Teil gerade die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn. Allerdings
 					beschränken sich diese Briefe mit wenigen Ausnahmen auf die zwei herausragenden
-					Ereignisse: den Durchstich des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnels und die Eröffnungsfeierlichkeiten
-					der Bahn. Das schiedsgerichtliche Urteil in der Causa <idx type="person" norm="Hellwag Konrad Wilhelm">Hellwag</idx> im Februar 1880
+					Ereignisse: den Durchstich des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels und die Eröffnungsfeierlichkeiten
+					der Bahn. Das schiedsgerichtliche Urteil in der Causa <persName key="Hellwag Konrad Wilhelm">Hellwag</persName> im Februar 1880
 					ist ebensowenig Thema wie die weiterhin aktuellen gerichtlichen Verhandlungen
 					der Gotthardbahn mit dem Unternehmen Favre. Von den bisher dominierenden
-					Korrespondenzpartnern in <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>sachen ist Bundesrat <ref type="kbp"/>  <idx type="person" norm="Heer Joachim">Joachim
-					Heer</idx> bereits 1879, Verwaltungsratspräsident <ref type="kbp"/>  <idx type="person" norm="Feer-Herzog Carl">Carl Feer-Herzog</idx>
-					Anfang 1880 gestorben. Mit <ref type="kbp"/>  <idx type="person" norm="Welti Emil">Emil Welti</idx> ist der Briefwechsel
-					zwei Jahre unterbrochen; <ref type="kbp"/>  <idx type="person" norm="Zingg Josef">Josef Zingg</idx> erscheint nurmehr als
+					Korrespondenzpartnern in <placeName key="St. Gotthard (Pass)">Gotthard</placeName>sachen ist Bundesrat   <persName key="Heer Joachim">Joachim
+					Heer</persName> bereits 1879, Verwaltungsratspräsident   <persName key="Feer-Herzog Carl">Carl Feer-Herzog</persName>
+					Anfang 1880 gestorben. Mit   <persName key="Welti Emil">Emil Welti</persName> ist der Briefwechsel
+					zwei Jahre unterbrochen;   <persName key="Zingg Josef">Josef Zingg</persName> erscheint nurmehr als
 					Unterzeichner der offiziellen Briefe der Gotthardbahndirektion. Persönlichen
 					brieflichen Kontakt scheint es nicht mehr gegeben zu haben, ebensowenig wie mit
-					dem Gesandten des <idx type="place" norm="Deutsches Reich">Deutschen Reiches</idx>, <ref type="kbp"/>  <idx type="person" norm="Roeder Maximilian Heinrich von">Maximilian Heinrich von
-					Roeder</idx>. Allfällig existierende Briefschaften mit diesen Personen oder zu den
+					dem Gesandten des <placeName key="Deutsches Reich">Deutschen Reiches</placeName>,   <persName key="Roeder Maximilian Heinrich von">Maximilian Heinrich von
+					Roeder</persName>. Allfällig existierende Briefschaften mit diesen Personen oder zu den
 					genannten Themen müssen demnach verlorengegangen sein. Die Glückwunschadressen
 					zum Tunneldurchstich finden sich zusammen mit den Briefen rund um den Rücktritt
 					von der Gotthardbahnspitze in der gleichen Mappe im Bundesarchiv. Die
 					Gratulationen zur Eröffnung der Bahn sowie diesbezügliche Zeitungen stellte
 					Escher in einem separaten Dossier thematisch zusammen; die verschiedenen
 					offiziellen Einladungen und Unterlagen dazu archivierte er ebenfalls
-						akkurat.<com id="Vollendung_c1"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">BAR J I.67-6.72</ref>; <ref type="lit">BAR J I.67-6.74</ref>; <ref type="lit">BAR J I.67-6.75</ref>.</com>
+						akkurat.<com xml:id="Vollendung_c1">
+                                <choice>
+                                    <abbr>Vgl.</abbr>
+                                    <expan>Vergleiche</expan>
+                                </choice> <ref type="lit">BAR J I.67-6.72</ref>; <ref type="lit">BAR J I.67-6.74</ref>; <ref type="lit">BAR J I.67-6.75</ref>.</com>
 				</hi>
 			</p>
 			</div>
-			<div id="Vollendung_d1.2">
+			<div xml:id="Vollendung_d1.2">
 				<head>Der Durchstich des Gotthardtunnels</head>
-				<p id="Vollendung_p2">Es war still geworden um den Politiker und Unternehmer Alfred
-						Escher.<com id="Vollendung_c2">Vorliegende Zusammenfassung der Jahre 1880
+				<p xml:id="Vollendung_p2">Es war still geworden um den Politiker und Unternehmer Alfred
+						Escher.<com xml:id="Vollendung_c2">Vorliegende Zusammenfassung der Jahre 1880
 						bis 1882 stützt sich hauptsächlich auf die vorhandenen Briefquellen. Für
 						speziell biographische Fragen wurde die entsprechende Literatur zu Alfred
 						Escher beigezogen, namentlich die ausführliche Darstellung von Joseph Jung,
@@ -65,185 +86,387 @@
 						Aufbruch</ref>] sowie die frühe Biographie von Ernst Gagliardi, «Alfred Escher.
 						Vier Jahrzehnte neuerer Schweizergeschichte», Frauenfeld 1919 [<ref type="lit">Gagliardi,
 						Escher</ref>].</com> Die Angriffe auf seine Person im Zusammenhang mit der
-					<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>diskussion von 1878 hatten Spuren hinterlassen – bei seinen ehemaligen
+					<placeName key="St. Gotthard (Pass)">Gotthard</placeName>diskussion von 1878 hatten Spuren hinterlassen – bei seinen ehemaligen
 					politischen Freunden, die ihn nun mieden, vor allem aber bei ihm selbst, der
 					durch die öffentliche Hinterfragung seiner Fähigkeiten und seiner guten
-					Absichten in eine tiefe Depression stürzte.<com id="Vollendung_c3"><abbr norm="Vergleiche">Vgl.</abbr>
-						Ausführungen von Ludwig Forrer (<ref type="lit">ZBZ NL Gagliardi, Dossier 61</ref>); Ausführungen von Ulrich Kollbrunner (<ref type="lit">ZBZ NL Gagliardi, Dossier 61</ref>).</com><ref type="sum" target="Rekonstruktion_Gotthardbahn_p47"><!--→ S. 411--></ref> Die ganze
-					Schweiz fieberte dem Durchstich des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnels entgegen, der im Dezember
+					Absichten in eine tiefe Depression stürzte.<com xml:id="Vollendung_c3">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Ausführungen von Ludwig Forrer (<ref type="lit">ZBZ NL Gagliardi, Dossier 61</ref>); Ausführungen von Ulrich Kollbrunner (<ref type="lit">ZBZ NL Gagliardi, Dossier 61</ref>).</com>
+                        <ref type="sum" target="Rekonstruktion_Gotthardbahn_p47"><!--→ S. 411--></ref> Die ganze
+					Schweiz fieberte dem Durchstich des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels entgegen, der im Dezember
 					1879 auf Ende März und Anfang Februar 1880 auf Anfang März prognostiziert wurde.
-					Entgegen den Berechnungen brach der Sondierbohrer bereits am Abend des <d norm="28.02.1880">28.
-					Februar</d> von Süden nach Norden durch. Am nächsten Tag – es war Sonntag, der <d norm="29.02.1880">29.
-					Februar 1880</d> – wurde im Beisein von Zeitungsjournalisten und Honoratioren der
-					letzte Rest des trennenden Gesteins weggesprengt.<com id="Vollendung_c4"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Egli, Gotthardbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 214–215; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 625–641.</com> Telegramme
-					trugen die Nachricht in die ganze Welt hinaus.<com id="Vollendung_c5"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="telegram">Telegramm Unbekannt an Escher, 29. Februar 1880 (<ref type="lit">BAR J I.67-6.72</ref>)<!--→ Nr. 391--></ref>; <ref type="telegram">Telegramm Johann Ulrich Schiess an Escher, 29. Februar 1880 (<ref type="lit">BAR J I.67-8</ref>)<!--→ Nr. 392--></ref>; <ref type="telegram">Telegramm Emil Welti an Escher, 29. Februar 1880 (<ref type="lit">BAR J I.67-8</ref>)<!--→ Nr. 393--></ref>.</com> Auch in der <idx type="place" norm="Enge (Zürich)">Enge</idx> liefen die
-					Drähte heiss. Allerdings trafen die Meldungen und Glückwünsche im <idx type="place" norm="Belvoir (Enge, Zürich)">Belvoir</idx> nicht
-					auf den Empfänger<com id="Vollendung_c6"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="telegram">Telegramm Tessiner Staatsrat an Escher, 1. März 1880 (<ref type="lit">BAR J I.67-6.72</ref>)<!--→ Nr. 395--></ref>.</com><ref type="letter" target="K_0005"><!--→ Nr. 406--></ref>: Escher weilte mit seiner Tochter <idx type="person" norm="Escher (vom Glas) Lydia">Lydia</idx> fern vom Geschehen in
-					<idx type="place" norm="Paris (F)">Paris</idx>. Seinen genauen Aufenthaltsort – das Hotel Meurice an der Rue de Rivoli –
+					Entgegen den Berechnungen brach der Sondierbohrer bereits am Abend des <date when="1880-02-28">28.
+					Februar</date> von Süden nach Norden durch. Am nächsten Tag – es war Sonntag, der <date when="1880-02-29">29.
+					Februar 1880</date> – wurde im Beisein von Zeitungsjournalisten und Honoratioren der
+					letzte Rest des trennenden Gesteins weggesprengt.<com xml:id="Vollendung_c4">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Egli, Gotthardbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 214–215; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 625–641.</com> Telegramme
+					trugen die Nachricht in die ganze Welt hinaus.<com xml:id="Vollendung_c5">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Telegramm Unbekannt an Escher, 29. Februar 1880 (<ref type="lit">BAR J I.67-6.72</ref>)<!--→ Nr. 391-->; Telegramm Johann Ulrich Schiess an Escher, 29. Februar 1880 (<ref type="lit">BAR J I.67-8</ref>)<!--→ Nr. 392-->; Telegramm Emil Welti an Escher, 29. Februar 1880 (<ref type="lit">BAR J I.67-8</ref>)<!--→ Nr. 393-->.</com> Auch in der <placeName key="Enge (Zürich)">Enge</placeName> liefen die
+					Drähte heiss. Allerdings trafen die Meldungen und Glückwünsche im <placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName> nicht
+					auf den Empfänger<com xml:id="Vollendung_c6">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Telegramm Tessiner Staatsrat an Escher, 1. März 1880 (<ref type="lit">BAR J I.67-6.72</ref>)<!--→ Nr. 395-->.</com><!--→ Nr. 406-->: Escher weilte mit seiner Tochter <persName key="Escher (vom Glas) Lydia">Lydia</persName> fern vom Geschehen in
+					<placeName key="Paris (F)">Paris</placeName>. Seinen genauen Aufenthaltsort – das Hotel Meurice an der Rue de Rivoli –
 					kannten offenbar nur wenige. Bei den offiziellen Verlautbarungen wurde Eschers
 					Name nicht genannt; kaum jemand traute sich, öffentlich seine Verdienste zu
 					würdigen. Die vereinzelten Stimmen, die es wagten, wurden durchwegs von seiten
 					politischer Nebenfiguren und kommunaler Gremien laut und liessen sich an einer
-					Hand abzählen<ref type="letter" target="K_3259"><!--→ Nr. 398--></ref>. Diese Missachtung empörte selbst politische Gegner wie die
-					Konservativen <ref type="kbp"/>  <idx type="person" norm="Riedmatten Antoine de">Antoine de Riedmatten</idx> <ref type="letter" target="K_3264"><!--→ Nr. 402--></ref> oder <idx type="person" norm="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von
-						Segesser</idx>.<com id="Vollendung_c7"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Gagliardi, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 667–669.</com> <ref type="sum" target="Rekonstruktion_Gotthardbahn_p33"><!--→ S. 405--></ref>
-					Immerhin beanspruchte die Redaktion der <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr> einen «großen Theil des Verdienstes»
+					Hand abzählen<!--→ Nr. 398-->. Diese Missachtung empörte selbst politische Gegner wie die
+					Konservativen   <persName key="Riedmatten Antoine de">Antoine de Riedmatten</persName> <!--→ Nr. 402--> oder <persName key="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von
+						Segesser</persName>.<com xml:id="Vollendung_c7">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Gagliardi, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 667–669.</com> <ref type="sum" target="Rekonstruktion_Gotthardbahn_p33"><!--→ S. 405--></ref>
+					Immerhin beanspruchte die Redaktion der <choice>
+                            <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                            <expan>Neue Zürcher Zeitung</expan>
+                        </choice> einen «großen Theil des Verdienstes»
 					für Escher. Daneben kamen in privaten Briefen Bedauern über die Situation und
-					Dankbarkeit für Eschers Einsatz für das <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>projekt zum Ausdruck, mitunter –
-					wie bereits 1878 – unter Verweis auf das gerechtere Urteil der Nachwelt.<ref type="letter" target="K_3259"><!--→ Nr. 398--></ref> <ref type="letter" target="K_3260"><!--→ Nr. 399--></ref> <ref type="letter" target="K_3268"><!--→ Nr. 405--></ref> <ref type="sum" target="Rekonstruktion_Gotthardbahn_p47"><!--→S. 411--></ref>
+					Dankbarkeit für Eschers Einsatz für das <placeName key="St. Gotthard (Pass)">Gotthard</placeName>projekt zum Ausdruck, mitunter –
+					wie bereits 1878 – unter Verweis auf das gerechtere Urteil der Nachwelt.<!--→ Nr. 398--> <!--→ Nr. 399--> <!--→ Nr. 405--> <ref type="sum" target="Rekonstruktion_Gotthardbahn_p47"><!--→S. 411--></ref>
 					Offenbar <pb n="666"/>bemühte sich aber niemand, den Abwesenden an die vom
-					Unternehmen Favre am <d norm="03.03.1880">3. März 1880</d> ausgerichtete offizielle Feier nach <idx type="place" norm="Airolo">Airolo</idx>
+					Unternehmen Favre am <date when="1880-03-03">3. März 1880</date> ausgerichtete offizielle Feier nach <placeName key="Airolo">Airolo</placeName>
 					einzuladen. Zwar war auch der Bundesrat abwesend, doch liess er sich durch den
-					ehemaligen <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>inspektor <ref type="kbp"/><idx type="person" norm="Koller Gottlieb">Gottlieb Koller</idx> und seinen
-					Amtsnachfolger, <idx type="person" norm="Dapples Ernest">Ernest Dapples</idx>, vertreten.<com id="Vollendung_c8"><ref type="lit">NZZ</ref>, 4. März
-						1880. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006340"><ref type="lit">Prot. BR</ref>, 20. Februar 1880</ref>; <ref type="lit">NZZ</ref>, 3. März 1880.</com>
+					ehemaligen <placeName key="St. Gotthard (Pass)">Gotthard</placeName>inspektor <persName key="Koller Gottlieb">Gottlieb Koller</persName> und seinen
+					Amtsnachfolger, <persName key="Dapples Ernest">Ernest Dapples</persName>, vertreten.<com xml:id="Vollendung_c8">
+                            <ref type="lit">NZZ</ref>, 4. März
+						1880. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006340">
+                                <ref type="lit">Prot. BR</ref>, 20. Februar 1880</ref>; <ref type="lit">NZZ</ref>, 3. März 1880.</com>
 				</p>
-				<p id="Vollendung_p3">Während für die einen der Durchstich des Tunnels Anlass zu
-					fröhlichen Festivitäten war<com id="Vollendung_c9"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="telegram">Telegramm Ambros Eberle und andere an Escher, 7./8. März 1880 (<ref type="lit">BAR J I.67-6.72</ref>)<!--→ Nr. 400--></ref>.</com>, sahen ihn andere als ihr Unglück. Die <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr> druckte
-					dazu einen Bericht aus dem <idx type="place" norm="Urserental">Urserental</idx>: «Dieser Tunnel mit der Eisenbahn durch
+				<p xml:id="Vollendung_p3">Während für die einen der Durchstich des Tunnels Anlass zu
+					fröhlichen Festivitäten war<com xml:id="Vollendung_c9">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Telegramm Ambros Eberle und andere an Escher, 7./8. März 1880 (<ref type="lit">BAR J I.67-6.72</ref>)<!--→ Nr. 400-->.</com>, sahen ihn andere als ihr Unglück. Die <choice>
+                            <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                            <expan>Neue Zürcher Zeitung</expan>
+                        </choice> druckte
+					dazu einen Bericht aus dem <placeName key="Urserental">Urserental</placeName>: «Dieser Tunnel mit der Eisenbahn durch
 					dasselbe ist für den größern Theil unserer Thalbevölkerung das Grab ihres
-					Wohlstandes. [...] Daß aber das <idx type="place" norm="Urserental">Urserner</idx>volk bei dem Jubelrausch drunten auch
+					Wohlstandes. [...] Daß aber das <placeName key="Urserental">Urserner</placeName>volk bei dem Jubelrausch drunten auch
 					freudig einstimme, wäre so wenig gedenkbar gewesen, als daß Einer seinem
 					vollends ausgeschaufelten Grabe herzlich zujauchze.» Weiter ist die Rede von
 					«trauriger Isolirtheit» und «massenhafter Auswanderung», da die bisherige
 					Verdienstquelle im Transportgewerbe komplett zu versiegen und die Paßstrasse zu
-					veröden drohten.<com id="Vollendung_c10"><ref type="lit">NZZ</ref>, 15. März 1880.</com>
+					veröden drohten.<com xml:id="Vollendung_c10">
+                            <ref type="lit">NZZ</ref>, 15. März 1880.</com>
 				</p>
-				<p id="Vollendung_p4">Am Montag, dem <d norm="01.03.1880">1. März 1880</d>, wurden den am Bau beteiligten
-					Arbeitern in einer feierlichen Zeremonie in <idx type="place" norm="Göschenen">Göschenen</idx> im Namen der
-					Gotthardbahn-Gesellschaft (<abbr norm="Gotthardbahn-Gesellschaft">GB</abbr>) und des Bundesrates eigens zu diesem Anlass
+				<p xml:id="Vollendung_p4">Am Montag, dem <date when="1880-03-01">1. März 1880</date>, wurden den am Bau beteiligten
+					Arbeitern in einer feierlichen Zeremonie in <placeName key="Göschenen">Göschenen</placeName> im Namen der
+					Gotthardbahn-Gesellschaft (<choice>
+                            <abbr>GB</abbr>
+                            <expan>Gotthardbahn-Gesellschaft</expan>
+                        </choice>) und des Bundesrates eigens zu diesem Anlass
 					geprägte Gedenkmünzen übergeben – die Tunnelarbeiter erhielten eine silberne,
-					die auf freier Strecke Beschäftigten eine bronzene.<com id="Vollendung_c11"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 631, 636; <ref type="lit">Egli, Gotthardbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 215.</com> Die
-					überzähligen Medaillen wurden Förderern der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn wie etwa den
-					finanzierenden Kantonen und den Gesandtschaften <idx type="place" norm="Italien (Königreich)">Italiens</idx> und des <idx type="place" norm="Deutsches Reich">Deutschen
-					Reiches</idx> geschenkt.<com id="Vollendung_c12"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006343"><ref type="lit">Prot. BR</ref>, 2. März 1880</ref>.</com>
-					Auch Escher bekam von der Direktion der Gotthardbahn eine solche nach <idx type="place" norm="Paris (F)">Paris</idx>
-					zugeschickt.<ref type="letter" target="K_3263"><!--→ Nr. 401--></ref> <ref type="letter" target="K_7572"><!--→ Nr. 404--></ref> Dieses Exemplar reiste kurze Zeit später in Eschers Gepäck in die
-					<idx type="place" norm="Enge (Zürich)">Enge</idx> und von dort per Post nach <idx type="place" norm="Hottingen (Zürich)">Hottingen</idx>: Der Präsident der Gemeinde <idx type="place" norm="Hottingen (Zürich)">Hottingen</idx>
-					(heute ein Quartier der Stadt <idx type="place" norm="Zürich (Stadt)">Zürich</idx>) hatte sich nämlich erfolglos bemüht, von
+					die auf freier Strecke Beschäftigten eine bronzene.<com xml:id="Vollendung_c11">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 631, 636; <ref type="lit">Egli, Gotthardbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 215.</com> Die
+					überzähligen Medaillen wurden Förderern der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn wie etwa den
+					finanzierenden Kantonen und den Gesandtschaften <placeName key="Italien (Königreich)">Italiens</placeName> und des <placeName key="Deutsches Reich">Deutschen
+					Reiches</placeName> geschenkt.<com xml:id="Vollendung_c12">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006343">
+                                <ref type="lit">Prot. BR</ref>, 2. März 1880</ref>.</com>
+					Auch Escher bekam von der Direktion der Gotthardbahn eine solche nach <placeName key="Paris (F)">Paris</placeName>
+					zugeschickt.<!--→ Nr. 401--> <!--→ Nr. 404--> Dieses Exemplar reiste kurze Zeit später in Eschers Gepäck in die
+					<placeName key="Enge (Zürich)">Enge</placeName> und von dort per Post nach <placeName key="Hottingen (Zürich)">Hottingen</placeName>: Der Präsident der Gemeinde <placeName key="Hottingen (Zürich)">Hottingen</placeName>
+					(heute ein Quartier der Stadt <placeName key="Zürich (Stadt)">Zürich</placeName>) hatte sich nämlich erfolglos bemüht, von
 					der Gotthardbahn eine Medaille für das Gemeindearchiv zu bekommen. Da bat er
 					Escher, seinen Einfluss geltend zu machen, worauf dieser kurzerhand seine eigene
-					Medaille nach <idx type="place" norm="Hottingen (Zürich)">Hottingen</idx> sandte.<ref type="letter" target="K_3270"><!--→ Nr. 407--></ref> <ref type="letter" target="K_3272"><!--→ Nr. 408--></ref> Der Gemeinderat wollte dieses Geschenk jedoch
-					nicht annehmen und schickte es an Escher zurück.<com id="Vollendung_c13"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Gagliardi, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 668.</com><ref type="letter" target="K_3277"><!--→ Nr. 409--></ref>
+					Medaille nach <placeName key="Hottingen (Zürich)">Hottingen</placeName> sandte.<!--→ Nr. 407--> <!--→ Nr. 408--> Der Gemeinderat wollte dieses Geschenk jedoch
+					nicht annehmen und schickte es an Escher zurück.<com xml:id="Vollendung_c13">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Gagliardi, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 668.</com><!--→ Nr. 409-->
 				</p>
-				<p id="Vollendung_p5">Bei den offiziellen Feiern zum Durchstich wurde der zeitweise
-					ebenfalls stark kritisierte <ref type="kbp"/><idx type="person" norm="Favre Louis">Louis Favre</idx> nun in höchsten Tönen
+				<p xml:id="Vollendung_p5">Bei den offiziellen Feiern zum Durchstich wurde der zeitweise
+					ebenfalls stark kritisierte <persName key="Favre Louis">Louis Favre</persName> nun in höchsten Tönen
 					gelobt.<ref type="sum" target="Rekonstruktion_Gotthardbahn_p29"><!--→ S. 404--></ref> Durch seinen Tod im Tunnel im Juli 1879 war er ein tragischer Held
 					geworden, dem es nicht mehr vergönnt war, die Vollendung seines Werkes zu
 					erleben. Ähnlich sollte es auch Escher ergehen: Kaum war er Ende 1882 begraben,
-					begannen die Vorbereitungsarbeiten für sein Denkmal vor dem Bahnhof <idx type="place" norm="Zürich (Stadt)">Zürich</idx>.<com id="Vollendung_c14"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 4. März 1880; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 20–26,
+					begannen die Vorbereitungsarbeiten für sein Denkmal vor dem Bahnhof <placeName key="Zürich (Stadt)">Zürich</placeName>.<com xml:id="Vollendung_c14">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 4. März 1880; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 20–26,
 						645.</com>
 				</p>
-				<p id="Vollendung_p6">Escher hatte selbstverständlich für seinen enormen Einsatz
-					beim Bau der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>linie auch öffentliche Anerkennung gesucht. Die Entmachtung
+				<p xml:id="Vollendung_p6">Escher hatte selbstverständlich für seinen enormen Einsatz
+					beim Bau der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>linie auch öffentliche Anerkennung gesucht. Die Entmachtung
 					bei der Gotthardbahn schmerzte ihn viel mehr als seinerzeit die Angriffe der
-					Demokraten und die politischen Umwälzungen von 1867–1869 im Kanton <idx type="place" norm="Zürich">Zürich</idx>.<com id="Vollendung_c15"><abbr norm="Vergleiche">Vgl.</abbr> Ausführungen von Berta Rieter-Bodmer (<ref type="lit">ZBZ NL Gagliardi, Dossier 61</ref>); <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 226–228.</com> Seine Dankbarkeit
+					Demokraten und die politischen Umwälzungen von 1867–1869 im Kanton <placeName key="Zürich">Zürich</placeName>.<com xml:id="Vollendung_c15">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Ausführungen von Berta Rieter-Bodmer (<ref type="lit">ZBZ NL Gagliardi, Dossier 61</ref>); <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 226–228.</com> Seine Dankbarkeit
 					für die anerkennende und aufmunternde Korrespondenz findet in seinen
-					Antwortschreiben beredten Ausdruck.<ref type="letter" target="K_3255"><!--→ Nr. 403--></ref> <ref type="letter" target="K_3313"><!--→ Nr. 422--></ref></p>
+					Antwortschreiben beredten Ausdruck.<!--→ Nr. 403--> <!--→ Nr. 422-->
+                    </p>
 			</div>
-			<div id="Vollendung_d1.3">
+			<div xml:id="Vollendung_d1.3">
 				<head>Die Eröffnung der Gotthardlinie und letzte Ehrungen</head>
-				<p id="Vollendung_p7">Am <d norm="01.01.1882">1. Januar 1882</d>, 15 Monate später als ursprünglich geplant<ref type="sum" target="Gotthardvereinigung_p58"><!--→ S. 212--></ref>,
+				<p xml:id="Vollendung_p7">Am <date when="1882-01-01">1. Januar 1882</date>, 15 Monate später als ursprünglich geplant<ref type="sum" target="Gotthardvereinigung_p58"><!--→ S. 212--></ref>,
 					wurde der Tunnel für den Verkehr geöffnet. In den folgenden Monaten konnten auch
-					die Bauarbeiten an den Bergstrecken abgeschlossen werden.<com id="Vollendung_c16"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 641.</com> Zur offiziellen
-					Eröffnungsfeier der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn wurde Escher am <d norm="02.05.1882">2. Mai</d> von Bundespräsident <ref type="kbp"/>  <idx type="person" norm="Bavier Simeon">Simeon Bavier</idx> namens des Bundesrates<ref type="letter" target="K_3295"><!--→ Nr. 411--></ref>, <d norm="05.05.1882">drei Tage später</d> auch
-					von der Direktion der Gotthardbahn<ref type="letter" target="K_3297"><!--→ Nr. 412--></ref> eingeladen. Allerdings dürfte die Bedeutung
+					die Bauarbeiten an den Bergstrecken abgeschlossen werden.<com xml:id="Vollendung_c16">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 641.</com> Zur offiziellen
+					Eröffnungsfeier der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn wurde Escher am <date when="1882-05-02">2. Mai</date> von Bundespräsident   <persName key="Bavier Simeon">Simeon Bavier</persName> namens des Bundesrates<!--→ Nr. 411-->, <date when="1882-05-05">drei Tage später</date> auch
+					von der Direktion der Gotthardbahn<!--→ Nr. 412--> eingeladen. Allerdings dürfte die Bedeutung
 					dieser Ehrung für Escher durch die Tatsache geschmälert worden sein, dass er
 					zuvor bereits eine Einladung erhalten hatte, wie sie jedem gewöhnlichen
 					Nationalrat zugekommen war. Die <pb n="667"/>persönliche Einladung traf erst
-					kurz vor Ablauf der nationalrätlichen Anmeldefrist ein.<com id="Vollendung_c17"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="third-party-letter">Schreiben der Bundeskanzlei an die Mitglieder der Bundesversammlung,
+					kurz vor Ablauf der nationalrätlichen Anmeldefrist ein.<com xml:id="Vollendung_c17">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Schreiben der Bundeskanzlei an die Mitglieder der Bundesversammlung,
 						26. April 1882 (<ref type="lit">BAR J
-						I.67-6.74</ref>)</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006600"><ref type="lit">Prot. BR</ref>, 25. April 1882</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006601"><ref type="lit">Prot. BR</ref>, 28. April 1882</ref>.</com> Escher sah sich
+						I.67-6.74</ref>); <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006600">
+                                <ref type="lit">Prot. BR</ref>, 25. April 1882</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006601">
+                                <ref type="lit">Prot. BR</ref>, 28. April 1882</ref>.</com> Escher sah sich
 					jedoch aus gesundheitlichen Gründen nicht in der Lage, die Einladung anzunehmen.
-					Während eines Kuraufenthaltes mit seiner Tochter <idx type="person" norm="Escher (vom Glas) Lydia">Lydia</idx> in <idx type="place" norm="Nizza (F)">Nizza</idx> im März 1882
+					Während eines Kuraufenthaltes mit seiner Tochter <persName key="Escher (vom Glas) Lydia">Lydia</persName> in <placeName key="Nizza (F)">Nizza</placeName> im März 1882
 					hatte er eine mit seiner Diabetes in Verbindung stehende lebensgefährliche
 					Karbunkel-Operation über sich ergehen lassen müssen. Für die anstrengenden
-					mehrtägigen Feierlichkeiten war er noch zu geschwächt.<com id="Vollendung_c18"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 4. April 1882; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 303; <ref type="lit">Gagliardi, Escher</ref>, <abbr norm="Seite(n)">S.</abbr>
-						672–673.</com><ref type="letter" target="K_3298"><!--→ Nr. 413--></ref>
+					mehrtägigen Feierlichkeiten war er noch zu geschwächt.<com xml:id="Vollendung_c18">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 4. April 1882; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 303; <ref type="lit">Gagliardi, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						672–673.</com><!--→ Nr. 413-->
 				</p>
-				<p id="Vollendung_p8">Bundespräsident <idx type="person" norm="Bavier Simeon">Bavier</idx>, der als <idx type="place" norm="Graubünden">Bündner</idx> Nationalrat manche
-					Rede für die Ost<idx type="place" norm="Alpen">alpen</idx>bahn und gegen das <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>projekt gehalten und als
-					Ingenieur selbst zwei Projekte für eine <idx type="place" norm="Splügen (Pass)">Splügen</idx>bahn verfasst hatte<ref type="sum" target="Gotthardvereinigung_p27"><!--→ S. 203--></ref>, sah sich nun
-					unversehens in der Rolle, die <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn zu eröffnen und an der Feier die
-					erste Rede zu halten.<com id="Vollendung_c19">Die Rede im Wortlaut findet sich
-						in: <ref type="lit">Bavier, Lebenserinnerungen</ref>, <abbr norm="Seite(n)">S.</abbr> 71–73, sowie in: <ref type="lit">NZZ</ref>, 24. Mai 1882. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Bavier, Lebenserinnerungen</ref>, <abbr norm="Seite(n)">S.</abbr> 49–50.</com> Die Feierlichkeiten zogen sich
-					einschliesslich der An- und Abreise über fünf Tage hin – von Sonntag, dem <d norm="21.05.1882">21.
-					Mai</d>, bis Donnerstag, dem <d norm="25.05.1882">25. Mai 1882</d> – und boten den Teilnehmern ein in der
+				<p xml:id="Vollendung_p8">Bundespräsident <persName key="Bavier Simeon">Bavier</persName>, der als <placeName key="Graubünden">Bündner</placeName> Nationalrat manche
+					Rede für die Ost<placeName key="Alpen">alpen</placeName>bahn und gegen das <placeName key="St. Gotthard (Pass)">Gotthard</placeName>projekt gehalten und als
+					Ingenieur selbst zwei Projekte für eine <placeName key="Splügen (Pass)">Splügen</placeName>bahn verfasst hatte<ref type="sum" target="Gotthardvereinigung_p27"><!--→ S. 203--></ref>, sah sich nun
+					unversehens in der Rolle, die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn zu eröffnen und an der Feier die
+					erste Rede zu halten.<com xml:id="Vollendung_c19">Die Rede im Wortlaut findet sich
+						in: <ref type="lit">Bavier, Lebenserinnerungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 71–73, sowie in: <ref type="lit">NZZ</ref>, 24. Mai 1882. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Bavier, Lebenserinnerungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 49–50.</com> Die Feierlichkeiten zogen sich
+					einschliesslich der An- und Abreise über fünf Tage hin – von Sonntag, dem <date when="1882-05-21">21.
+					Mai</date>, bis Donnerstag, dem <date when="1882-05-25">25. Mai 1882</date> – und boten den Teilnehmern ein in der
 					Schweiz bisher noch nie dagewesenes Spektakel mit Feuerwerk und hochmoderner
-					elektrischer Beleuchtung. Nach der Ankunft in <idx type="place" norm="Luzern (Stadt)">Luzern</idx> stand für geladene Gäste am
-					<d norm="22.05.1882">22. Mai</d> als erster Höhepunkt die Abendgala auf dem Programm. Am <d norm="23.05.1882">23. Mai</d> reiste
-					die ganze Gesellschaft auf dem neuen Schienenweg nach <idx type="place" norm="Mailand (I)">Mailand</idx>, wo am Tag darauf
+					elektrischer Beleuchtung. Nach der Ankunft in <placeName key="Luzern (Stadt)">Luzern</placeName> stand für geladene Gäste am
+					<date when="1882-05-22">22. Mai</date> als erster Höhepunkt die Abendgala auf dem Programm. Am <date when="1882-05-23">23. Mai</date> reiste
+					die ganze Gesellschaft auf dem neuen Schienenweg nach <placeName key="Mailand (I)">Mailand</placeName>, wo am Tag darauf
 					zwei Déjeuners gegeben wurden, eines davon in der Scala, organisiert von der
-					Schweizerkolonie in <idx type="place" norm="Mailand (I)">Mailand</idx>.<com id="Vollendung_c20"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="telegram">Telegramm Schweizerkolonie Mailand an Escher, 24. Mai 1882 (<ref type="lit">BAR J I.67-6.75</ref>)<!--→ Nr. 423--></ref>.</com> Am Abend waren die Gäste zu einem grossen Bankett
-					geladen, und tags darauf, am <d norm="25.05.1882">25. Mai</d>, reisten sie alle wieder zurück.<com id="Vollendung_c21"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 22. Mai 1882, 23. Mai 1882, 24. Mai 1882, 25.
-						Mai 1882, 26. Mai 1882. – Die Eröffnungsfeierlichkeiten der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn
-						werden bei Jung eingehend beschrieben. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
+					Schweizerkolonie in <placeName key="Mailand (I)">Mailand</placeName>.<com xml:id="Vollendung_c20">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Telegramm Schweizerkolonie Mailand an Escher, 24. Mai 1882 (<ref type="lit">BAR J I.67-6.75</ref>)<!--→ Nr. 423-->.</com> Am Abend waren die Gäste zu einem grossen Bankett
+					geladen, und tags darauf, am <date when="1882-05-25">25. Mai</date>, reisten sie alle wieder zurück.<com xml:id="Vollendung_c21">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 22. Mai 1882, 23. Mai 1882, 24. Mai 1882, 25.
+						Mai 1882, 26. Mai 1882. – Die Eröffnungsfeierlichkeiten der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn
+						werden bei Jung eingehend beschrieben. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						646–655.</com> Die Feierlichkeiten boten einigen alten Bekannten Eschers
-					Anlass zu schriftlichen Glückwünschen.<com id="Vollendung_c22"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="telegram">Telegramm Männerchor Enge an Escher, 21. Mai 1882 (<ref type="lit">BAR J I.67-6.75</ref>)<!--→ Nr. 418--></ref>.</com><ref type="letter" target="K_3308"><!--→ Nr. 420--></ref><ref type="letter" target="K_3310"><!--→ Nr. 421--></ref><ref type="letter" target="K_0008"><!--→ Nr. 426--></ref> In den Briefen und Telegrammen kommen
+					Anlass zu schriftlichen Glückwünschen.<com xml:id="Vollendung_c22">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Telegramm Männerchor Enge an Escher, 21. Mai 1882 (<ref type="lit">BAR J I.67-6.75</ref>)<!--→ Nr. 418-->.</com><!--→ Nr. 420--><!--→ Nr. 421--><!--→ Nr. 426--> In den Briefen und Telegrammen kommen
 					Dankbarkeit für seinen Einsatz für das «vaterländische Werk» wie auch Sorge um
 					seine Gesundheit zum Ausdruck.</p>
-				<p id="Vollendung_p9">Wie schon bei den Festveranstaltungen zum Tunneldurchstich
+				<p xml:id="Vollendung_p9">Wie schon bei den Festveranstaltungen zum Tunneldurchstich
 					machten sich auch die Verlierer des neuen Verkehrsmittels bemerkbar. Zu diesen
-					zählten sich nicht nur beispielsweise die <idx type="place" norm="Graubünden">Bündner</idx> Spediteure, sondern ebenso die
-					direkt an der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>linie ansässige <idx type="place" norm="Uri">Urner</idx> Bevölkerung. Wie <idx type="person" norm="Bavier Simeon">Bavier</idx> in seinen
+					zählten sich nicht nur beispielsweise die <placeName key="Graubünden">Bündner</placeName> Spediteure, sondern ebenso die
+					direkt an der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>linie ansässige <placeName key="Uri">Urner</placeName> Bevölkerung. Wie <persName key="Bavier Simeon">Bavier</persName> in seinen
 					Erinnerungen ausführt, begegneten dem Festzug unterwegs schwarze Fahnen.
-					Hellsichtig schreibt er weiter: «Es hat mich diese <idx type="place" norm="Uri">Urner</idx>misere immer mehr in der
-					Überzeugung bestärkt, daß bei internationalen <idx type="place" norm="Alpen">Alpen</idx>bahnen die in den <idx type="place" norm="Alpen">Alpen</idx>
+					Hellsichtig schreibt er weiter: «Es hat mich diese <placeName key="Uri">Urner</placeName>misere immer mehr in der
+					Überzeugung bestärkt, daß bei internationalen <placeName key="Alpen">Alpen</placeName>bahnen die in den <placeName key="Alpen">Alpen</placeName>
 					liegenden Strecken verlieren und die weiter entfernt liegenden Zentren
-						gewinnen.»<com id="Vollendung_c23"><ref type="lit">Bavier, Lebenserinnerungen</ref>, <abbr norm="Seite(n)">S.</abbr> 74.</com>
+						gewinnen.»<com xml:id="Vollendung_c23">
+                            <ref type="lit">Bavier, Lebenserinnerungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 74.</com>
 				</p>
-				<p id="Vollendung_p10">Escher hingegen freute sich gemäss Zeugenberichten sehr über
-					die Fertigstellung der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn. Vermutlich konnte er jedoch seinen Plan,
-					das Werk in Augenschein zu nehmen, nicht mehr umsetzen.<com id="Vollendung_c24"><abbr norm="Vergleiche">Vgl.</abbr> Ausführungen von Berta Rieter-Bodmer (<ref type="lit">ZBZ NL Gagliardi, Dossier 61</ref>).</com> Immerhin übermachte ihm die Gotthardbahndirektion einen Bildband
-					über die Bahn.<ref type="letter" target="K_3302"><!--→ Nr. 415--></ref> <ref type="letter" target="K_3304"><!--→ Nr. 417--></ref> Vermutlich handelt es sich dabei um das bekannte Werk
-					«Photographische Ansichten der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn» aus dem Atelier des Fotografen
-					<idx type="person" norm="Braun Adolphe">Adolphe Braun</idx> – der erste Bildband einer ganzen Reihe, die sich dem Mythos
-					<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> noch widmen sollte. Auch einen ersten Reiseführer und einen
-					historischen Abriss über die Entstehung der Bahnlinie<ref type="letter" target="K_3303"><!--→ Nr. 416--></ref> <ref type="letter" target="K_3307"><!--→ Nr. 419--></ref>, der bereits nach dem
-					Tunneldurchstich erschienen war, erhielt Escher zugeschickt.<com id="Vollendung_c25"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 722; <ref type="lit">Koch, Führer</ref>; <ref type="lit">Egli, Gotthardbahn</ref>.</com><ref type="letter" target="K_3278"><!--→ Nr. 410--></ref>
+				<p xml:id="Vollendung_p10">Escher hingegen freute sich gemäss Zeugenberichten sehr über
+					die Fertigstellung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn. Vermutlich konnte er jedoch seinen Plan,
+					das Werk in Augenschein zu nehmen, nicht mehr umsetzen.<com xml:id="Vollendung_c24">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Ausführungen von Berta Rieter-Bodmer (<ref type="lit">ZBZ NL Gagliardi, Dossier 61</ref>).</com> Immerhin übermachte ihm die Gotthardbahndirektion einen Bildband
+					über die Bahn.<!--→ Nr. 415--> <!--→ Nr. 417--> Vermutlich handelt es sich dabei um das bekannte Werk
+					«Photographische Ansichten der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn» aus dem Atelier des Fotografen
+					<persName key="Braun Adolphe">Adolphe Braun</persName> – der erste Bildband einer ganzen Reihe, die sich dem Mythos
+					<placeName key="St. Gotthard (Pass)">Gotthard</placeName> noch widmen sollte. Auch einen ersten Reiseführer und einen
+					historischen Abriss über die Entstehung der Bahnlinie<!--→ Nr. 416--> <!--→ Nr. 419-->, der bereits nach dem
+					Tunneldurchstich erschienen war, erhielt Escher zugeschickt.<com xml:id="Vollendung_c25">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 722; <ref type="lit">Koch, Führer</ref>; <ref type="lit">Egli, Gotthardbahn</ref>.</com><!--→ Nr. 410-->
 				</p>
-				<p id="Vollendung_p11">Die Genugtuung über die glückliche Vollendung der
-					<idx type="place" norm="Alpen">Alpen</idx>transversale und den erfolgreichen Start des Unternehmens milderte wohl für
+				<p xml:id="Vollendung_p11">Die Genugtuung über die glückliche Vollendung der
+					<placeName key="Alpen">Alpen</placeName>transversale und den erfolgreichen Start des Unternehmens milderte wohl für
 					Escher die Härte seines erzwungenen Rücktritts. Mit den ersten in beiden
-					Richtungen abgehenden Nachtschnellzügen am <d norm="31.05.1882">31. Mai</d> / <d norm="01.06.1882">1. Juni 1882</d> wurde die
-					<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>linie dem regulären Verkehr übergeben. Das Vertrauen der Anleger in das
-					Unternehmen kehrte mit der Betriebsaufnahme nach und nach zurück.<com id="Vollendung_c26"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 588, 674.</com> Zusehends
+					Richtungen abgehenden Nachtschnellzügen am <date when="1882-05-31">31. Mai</date> / <date when="1882-06-01">1. Juni 1882</date> wurde die
+					<placeName key="St. Gotthard (Pass)">Gotthard</placeName>linie dem regulären Verkehr übergeben. Das Vertrauen der Anleger in das
+					Unternehmen kehrte mit der Betriebsaufnahme nach und nach zurück.<com xml:id="Vollendung_c26">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 588, 674.</com> Zusehends
 					verbesserte sich die wirtschaftliche Lage der Gotthardbahn, so dass die
 					Zeitungen kurz vor Eschers Tod melden konnten, die Aktien seien «auf über 600
-					<abbr norm="Franken / Francs / Franchi">Fr.</abbr> hinaufgetrieben».<com id="Vollendung_c27"><ref type="lit">Zürcherische Freitagszeitung</ref>, 24. November 1882.</com> Der Strom der Transitgüter schwoll schneller an als
-					erwartet: «Seit der Eröffnung der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn <pb n="668"/>wächst die Einfuhr
-						<hi rend="italics"><idx type="place" norm="Deutsches Reich">deutscher</idx> </hi> Waaren und Rohstoffe in ganz unglaublicher
+					<choice>
+                            <abbr>Fr.</abbr>
+                            <expan>Franken / Francs / Franchi</expan>
+                        </choice> hinaufgetrieben».<com xml:id="Vollendung_c27">
+                            <ref type="lit">Zürcherische Freitagszeitung</ref>, 24. November 1882.</com> Der Strom der Transitgüter schwoll schneller an als
+					erwartet: «Seit der Eröffnung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn <pb n="668"/>wächst die Einfuhr
+						<hi rend="italics">
+                            <placeName key="Deutsches Reich">deutscher</placeName> </hi> Waaren und Rohstoffe in ganz unglaublicher
 					Weise; auch der Bierkonsum steigert sich gewaltig im Lande, wo die Citronen
-						wachsen.»<com id="Vollendung_c28"><ref type="lit">Zürcherische Freitagszeitung</ref>, 17. November 1882.</com> Mitunter nicht weniger exotisch waren die Güter, welche
-					Ende 1882 den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> in der Gegenrichtung passierten: «Durch den <idx type="place" norm="St. Gotthard (Pass)"><hi rend="italics">Gotthard</hi> </idx> wurden letzte Woche drei für <idx type="place" norm="Hamburg (D)">Hamburg</idx> bestimmte
-					<idx type="place" norm="Indien (Britisch-Ostindien)">indische</idx> <hi rend="italics">Elephanten</hi> spedirt.»<com id="Vollendung_c29"><ref type="lit">Zürcherische Freitagszeitung</ref>, 24. November 1882.</com>
+						wachsen.»<com xml:id="Vollendung_c28">
+                            <ref type="lit">Zürcherische Freitagszeitung</ref>, 17. November 1882.</com> Mitunter nicht weniger exotisch waren die Güter, welche
+					Ende 1882 den <placeName key="St. Gotthard (Pass)">Gotthard</placeName> in der Gegenrichtung passierten: «Durch den <placeName key="St. Gotthard (Pass)">
+                            <hi rend="italics">Gotthard</hi> </placeName> wurden letzte Woche drei für <placeName key="Hamburg (D)">Hamburg</placeName> bestimmte
+					<placeName key="Indien (Britisch-Ostindien)">indische</placeName> <hi rend="italics">Elephanten</hi> spedirt.»<com xml:id="Vollendung_c29">
+                            <ref type="lit">Zürcherische Freitagszeitung</ref>, 24. November 1882.</com>
 				</p>
-				<p id="Vollendung_p12">Escher wurde nun auch von der Öffentlichkeit und der Presse
-					wieder anders wahrgenommen<com id="Vollendung_c30"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="telegram">Telegramm Tessiner Staatsrat an Escher, 1. März 1880 (<ref type="lit">BAR J I.67-6.72</ref>)<!--→ Nr. 395--></ref>.</com><ref type="letter" target="K_2587"><!--→ Nr. 166--></ref><ref type="letter" target="K_3187"><!--→ Nr. 364--></ref>: «Die Zukunft dürfte dem <idx type="person" norm="Escher von der Linth Hans Conrad">Escher von der Linth</idx> einen
-					Escher vom <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> beigesellen.»<com id="Vollendung_c31"><ref type="lit">Der Allmann</ref>, 1. Januar
-						1882. <abbr norm="Vergleiche">Vgl.</abbr>
+				<p xml:id="Vollendung_p12">Escher wurde nun auch von der Öffentlichkeit und der Presse
+					wieder anders wahrgenommen<com xml:id="Vollendung_c30">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Telegramm Tessiner Staatsrat an Escher, 1. März 1880 (<ref type="lit">BAR J I.67-6.72</ref>)<!--→ Nr. 395-->.</com><!--→ Nr. 166--><!--→ Nr. 364-->: «Die Zukunft dürfte dem <persName key="Escher von der Linth Hans Conrad">Escher von der Linth</persName> einen
+					Escher vom <placeName key="St. Gotthard (Pass)">Gotthard</placeName> beigesellen.»<com xml:id="Vollendung_c31">
+                            <ref type="lit">Der Allmann</ref>, 1. Januar
+						1882. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						Alexander Schweizer, Rede gehalten bei der Bestattung Dr. Alfred Eschers,
 						in: <ref type="lit">NZZ</ref>, 12. Dezember 1882. </com> Mitte November 1882 wurde Escher noch die
-					Anerkennung zuteil, zur Ehrung seiner Verdienste um die <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn in den
-					Verein für Eisenbahnkunde in <idx type="place" norm="Berlin (D)">Berlin</idx> aufgenommen zu werden<ref type="letter" target="K_3330"><!--→ Nr. 427--></ref> – als drittes
-					Ehrenmitglied in der 40jährigen Geschichte der Vereinigung.<com id="Vollendung_c32"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verein für Eisenbahnkunde, Verzeichniss</ref>, <abbr norm="Seite(n)">S.</abbr> 14;
-						<ref type="lit">Verein für Eisenbahnkunde, Festschrift</ref>, <abbr norm="Seite(n)">S.</abbr> 7, 135.</com> Lange konnte er
+					Anerkennung zuteil, zur Ehrung seiner Verdienste um die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn in den
+					Verein für Eisenbahnkunde in <placeName key="Berlin (D)">Berlin</placeName> aufgenommen zu werden<!--→ Nr. 427--> – als drittes
+					Ehrenmitglied in der 40jährigen Geschichte der Vereinigung.<com xml:id="Vollendung_c32">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verein für Eisenbahnkunde, Verzeichniss</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 14;
+						<ref type="lit">Verein für Eisenbahnkunde, Festschrift</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 7, 135.</com> Lange konnte er
 					sich allerdings über diese Mitgliedschaft nicht mehr freuen. Seit 1878 war er
 					immer wieder krank gewesen<ref type="sum" target="Rekonstruktion_Gotthardbahn_d1.8"><!--→ S. 410--></ref> <ref type="sum" target="Vollendung_p7"><!--→ S. 667--></ref>; sein altes Augenleiden plagte ihn ebenso wie
-					Nervenüberreizung, Diabetes und Nierenstörungen.<com id="Vollendung_c33"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 299; <ref type="lit">Centralcommission, Escher-Denkmal</ref>, <abbr norm="Seite(n)">S.</abbr> 87.</com> Von
+					Nervenüberreizung, Diabetes und Nierenstörungen.<com xml:id="Vollendung_c33">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 299; <ref type="lit">Centralcommission, Escher-Denkmal</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 87.</com> Von
 					der Karbunkel-Operation im März 1882 war Escher wieder genesen. Als aber Ende
 					November erneut Komplikationen auftraten, führten die Abszesse zu einer
-					Blutvergiftung. Alfred Escher starb in den frühen Morgenstunden des <d norm="06.12.1882">6. Dezember
-						1882</d>.<com id="Vollendung_c34"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 303, 308; <ref type="third-party-letter">Telegramm
+					Blutvergiftung. Alfred Escher starb in den frühen Morgenstunden des <date when="1882-12-06">6. Dezember
+						1882</date>.<com xml:id="Vollendung_c34">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 303, 308; Telegramm
 						von Georg Stoll an Josef Zingg, 6. Dezember 1882 (<ref type="lit">SBB Historic
-						VGB_GB_SBBGB01_059</ref>)</ref>.</com>
+						VGB_GB_SBBGB01_059</ref>).</com>
 				</p>
 			</div>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>

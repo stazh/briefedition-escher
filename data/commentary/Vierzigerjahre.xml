@@ -1,35 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Vierzigerjahre" name="Vierzigerjahre">
-	<metadata>
-		<title>Alfred Escher und die 1840er Jahre</title>
-		<author>
-			<name>Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Vierzigerjahre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alfred Escher und die 1840er Jahre</title>
+                <author>
+			Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1843–1848). Jesuiten,
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1843–1848). Jesuiten,
 				Freischaren, Sonderbund, Bundesrevision, bearbeitet und kommentiert von Björn Koch
 				(Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-				Escher-Stiftung, Band 3), Zürich 2011</volume_title>
-			<short_title>Jung/Koch, Escher Briefe, Band 3</short_title>
-			<volume>3</volume>
-			<page>7–8</page>
-		</source>
-		<description/>
-		<revision>
-			<change>XML-Grundstruktur erstellt, TM, 01.02.2013</change>
-			<change>Auszeichnung 1 umgesetzt, BB, 01.02.2013</change>
-			<change>Verifizierung 1 und 2 sowie Auszeichnung 2, TM, 01.02.2013</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Vierzigerjahre_d1">
+				Escher-Stiftung, Band 3), Zürich 2011</title>
+                    <title type="short">Jung/Koch, Escher Briefe, Band 3</title>
+                    <ref type="volume" target="V3">7–8</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, TM, 01.02.2013</change>
+                <change>Auszeichnung 1 umgesetzt, BB, 01.02.2013</change>
+                <change>Verifizierung 1 und 2 sowie Auszeichnung 2, TM, 01.02.2013</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Vierzigerjahre_d1">
 			<head>
 				<pb n="7"/>Alfred Escher und die 1840er Jahre</head>
-			<div id="Vierzigerjahre_d1.1">
+			<div xml:id="Vierzigerjahre_d1.1">
 				<head/>
-				<p id="Vierzigerjahre_p1">Die Aufhebung <idx type="place" norm="Aargau">aargauischer</idx> Klöster, die Berufung der
-					Jesuiten nach <idx type="place" norm="Luzern">Luzern</idx>, die Freischarenzüge und schliesslich der Sonderbundskrieg
+				<p xml:id="Vierzigerjahre_p1">Die Aufhebung <placeName key="Aargau">aargauischer</placeName> Klöster, die Berufung der
+					Jesuiten nach <placeName key="Luzern">Luzern</placeName>, die Freischarenzüge und schliesslich der Sonderbundskrieg
 					sind Ausdruck tiefgreifender und unversöhnlicher Gegensätze, welche die
 					Eidgenossenschaft der 1840er Jahre prägten. In der historischen Interpretation
 					werden diese Konflikte oft mit konfessioneller Farbe bestrichen. Doch letztlich
@@ -40,12 +56,12 @@
 					Briefen von und an Alfred Escher zeigt sich, dass es ursprünglich keine
 					konfessionellen Programme waren, die das fortschrittliche Lager vom
 					konservativen trennten. Konservativ konnte man als Katholik und als Reformierter
-					sein, liberal ebenso. Wie der reformierte <idx type="place" norm="Bern">Berner</idx> Schriftsteller und Pfarrer
-					<idx type="person" norm="Gotthelf Jeremias">Jeremias Gotthelf</idx> konservativ war, so war der katholische Pfarrer <idx type="person" norm="Federer Josef Anton Sebastian">Joseph Anton
-					Sebastian Federer</idx> aus <idx type="place" norm="St. Gallen">St. Gallen</idx> fortschrittlich. Doch die Ereignisse
+					sein, liberal ebenso. Wie der reformierte <placeName key="Bern">Berner</placeName> Schriftsteller und Pfarrer
+					<persName key="Gotthelf Jeremias">Jeremias Gotthelf</persName> konservativ war, so war der katholische Pfarrer <persName key="Federer Josef Anton Sebastian">Joseph Anton
+					Sebastian Federer</persName> aus <placeName key="St. Gallen">St. Gallen</placeName> fortschrittlich. Doch die Ereignisse
 					vergifteten das Klima, bis schliesslich alles und jedes zu einer Frage der
 					Konfession wurde.</p>
-				<p id="Vierzigerjahre_p2">Die Briefe von und an Escher, erstmals systematisch
+				<p xml:id="Vierzigerjahre_p2">Die Briefe von und an Escher, erstmals systematisch
 					erschlossen, ermöglichen einen neuen Zugang zu den Herausforderungen jener
 					schwer belasteten Zeit. Sie verorten das Kernproblem der Krisen der 1840er Jahre
 					unmissverständlich in den politischen Differenzen und in fundamental
@@ -64,43 +80,43 @@
 					Kampf um die Ausweisung der Jesuiten aus der Schweiz, auch sein persönliches
 					Engagement für Freischärler, die aufgrund der Verhältnisse nicht mehr in ihre
 					Heimatkantone zurückkehren konnten. Es erscheint mehr als bemerkenswert, dass
-					Escher zusammen mit dem damaligen katholischen Pfarrer von <idx type="place" norm="Zürich (Stadt)">Zürich</idx>, dem liberalen
-					<idx type="person" norm="Kälin Robert">Robert Kälin</idx>, einen Hilfsfonds für gestrauchelte <idx type="place" norm="Luzern">Luzerner</idx> Freischärler und deren
+					Escher zusammen mit dem damaligen katholischen Pfarrer von <placeName key="Zürich (Stadt)">Zürich</placeName>, dem liberalen
+					<persName key="Kälin Robert">Robert Kälin</persName>, einen Hilfsfonds für gestrauchelte <placeName key="Luzern">Luzerner</placeName> Freischärler und deren
 					Familien äufnete und dafür «Fundraising» betrieb. Und als der zum Tod
-					verurteilte radikal-liberale Politiker <idx type="person" norm="Steiger Jakob Robert">Jakob Robert Steiger</idx> aus dem <idx type="place" norm="Luzern (Stadt)">Luzerner</idx>
-					Gefängnis befreit wurde, führten deutliche Spuren nach <idx type="place" norm="Zürich">Zürich</idx>.</p>
-				<p id="Vierzigerjahre_p3">Am 26. Januar 1845 fand in <idx type="place" norm="Unterstrass (Zürich)">Unterstrass</idx> eine
+					verurteilte radikal-liberale Politiker <persName key="Steiger Jakob Robert">Jakob Robert Steiger</persName> aus dem <placeName key="Luzern (Stadt)">Luzerner</placeName>
+					Gefängnis befreit wurde, führten deutliche Spuren nach <placeName key="Zürich">Zürich</placeName>.</p>
+				<p xml:id="Vierzigerjahre_p3">Am 26. Januar 1845 fand in <placeName key="Unterstrass (Zürich)">Unterstrass</placeName> eine
 					Volksversammlung statt. Zusammen mit anderen Liberalen hatte Escher die
 					Proklamation unterzeichnet, um gegen die Zulassung der Jesuiten in der Schweiz
-					zu protestieren. Der Aufmarsch von rund 20 000 Männern aus <idx type="place" norm="Zürich">Zürich</idx> und namentlich
+					zu protestieren. Der Aufmarsch von rund 20 000 Männern aus <placeName key="Zürich">Zürich</placeName> und namentlich
 					aus den östlichen Landesgegenden machte die politische Veranstaltung zu einem
 					weit ausstrahlenden Ereignis. Aus der Rückschau betrachtet zeigt sich, dass die
-					Bühne in <idx type="place" norm="Unterstrass (Zürich)">Unterstrass</idx> das Schlüsselereignis für die zunehmend auch
+					Bühne in <placeName key="Unterstrass (Zürich)">Unterstrass</placeName> das Schlüsselereignis für die zunehmend auch
 					kantonsübergreifende Popularität des jungen Escher darstellt. Kurz darauf
 					standen zwei weitere Plattformen bereit, die Escher für die eigene politische
-					Profilierung rigoros nutzte: 1845 und 1846 war <idx type="place" norm="Zürich">Zürich</idx> Vorort der
-					Eidgenossenschaft, und die <pb n="8"/>Stadt an der <idx type="place" norm="Limmat">Limmat</idx> wurde folglich jeweils für Wochen
+					Profilierung rigoros nutzte: 1845 und 1846 war <placeName key="Zürich">Zürich</placeName> Vorort der
+					Eidgenossenschaft, und die <pb n="8"/>Stadt an der <placeName key="Limmat">Limmat</placeName> wurde folglich jeweils für Wochen
 					das Zentrum der eidgenössischen Politik. Wohl bot sich Escher als dritter
-					Gesandter des Standes <idx type="place" norm="Zürich">Zürich</idx> Gelegenheit, die Entscheidungsträger aus den
+					Gesandter des Standes <placeName key="Zürich">Zürich</placeName> Gelegenheit, die Entscheidungsträger aus den
 					einzelnen Kantonen kennenzulernen. Doch erfolgsentscheidender für die weitere
 					politische Karriere auf eidgenössischer Ebene als die Rolle als dritter
 					Gesandter waren die informellen Kontakte, die Escher im Umfeld der Tagsatzung
 					pflegte. Wenn Alfred Escher in der Blüte des Wirtschaftsliberalismus der
 					1850/60er Jahre als Meister von Netzwerken von seinen Freunden bewundert und von
 					seinen Gegnern kritisiert wird, so zeigt sich diese Fähigkeit bereits Mitte der
-					1840er Jahre zu Zeiten der Tagsatzungen in <idx type="place" norm="Zürich (Stadt)">Zürich</idx>. Der vorliegende Band
+					1840er Jahre zu Zeiten der Tagsatzungen in <placeName key="Zürich (Stadt)">Zürich</placeName>. Der vorliegende Band
 					dokumentiert dies eindrücklich. Privilegiert durch seine begüterte Herkunft und
-					ausgestattet mit einem prächtigen Anwesen am linken <idx type="place" norm="Zürichsee">Zürichsee</idx>ufer, lud Escher
+					ausgestattet mit einem prächtigen Anwesen am linken <placeName key="Zürichsee">Zürichsee</placeName>ufer, lud Escher
 					die radikal-liberalen Gesandten der Tagsatzung jeweils an einem Abend in der
-					Woche zu sich ins «<idx type="place" norm="Belvoir (Enge, Zürich)">Belvoir</idx>», wo man bei kulturellem Rahmenprogramm den
+					Woche zu sich ins «<placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName>», wo man bei kulturellem Rahmenprogramm den
 					geselligen Kontakt pflegte, wo man aber auch Zeit und Gelegenheit hatte, unter
 					Gleichgesinnten wichtige Staatsangelegenheiten und politische Geschäfte zu
 					besprechen.</p>
-				<p id="Vierzigerjahre_p4">Als «Propagandaminister» der Antijesuitenbewegung reiste
+				<p xml:id="Vierzigerjahre_p4">Als «Propagandaminister» der Antijesuitenbewegung reiste
 					Escher durch die Schweiz, korrespondierte mit einer zunehmend wachsenden Zahl
 					von Mitstreitern. Seine wirtschaftliche Unabhängigkeit erlaubte es ihm, dieser
 					Aufgabe einen Grossteil seiner Zeit zu widmen. Regelmässig schrieb Escher für
-					die «Neue <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» und motivierte Studienfreunde aus nah und fern,
+					die «Neue <placeName key="Zürich">Zürcher</placeName> Zeitung» und motivierte Studienfreunde aus nah und fern,
 					dasselbe zu tun, um Zustände und Vorgänge in ihren jeweiligen Kantonen aus
 					liberaler Optik zu beleuchten. Eschers Briefwechsel lässt auch Gegensätze
 					innerhalb des radikal-liberalen Lagers zum Vorschein kommen. Denn man war sich
@@ -116,20 +132,20 @@
 					erforderlichen Stimmen zur gewaltsamen Auflösung des Sonderbunds zu erzielen, zu
 					einer eigentlichen tour de force. Wiederholt tauschte sich Escher mit seinen
 					Briefpartnern über diese grosse und folgenschwere Herausforderung aus. Besonders
-					eindrücklich sind die Erwägungen und Erörterungen, die Escher und sein <idx type="place" norm="Glarus">Glarner</idx>
-					Studien- und Lebensfreund <idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumer</idx> anstellten. Durch Eschers
+					eindrücklich sind die Erwägungen und Erörterungen, die Escher und sein <placeName key="Glarus">Glarner</placeName>
+					Studien- und Lebensfreund <persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName> anstellten. Durch Eschers
 					Briefwechsel werden die Problemlösungsstrategien im radikal-liberalen Lager
 					eindrücklich dokumentiert.</p>
-				<p id="Vierzigerjahre_p5">1847 wurden die katholisch-konservativen Kräfte
+				<p xml:id="Vierzigerjahre_p5">1847 wurden die katholisch-konservativen Kräfte
 					militärisch besiegt. Damit war der Weg für die lang ersehnte Revision des Bundes
 					geebnet. Mit der Niederlage im Sonderbundskrieg und mit der sich durchsetzenden
 					radikal-liberalen Hegemonie im neuen Bundesstaat meldete sich die
 					katholisch-konservative Schweiz 1848 ab. Auf Jahre und Jahrzehnte hinaus blieben
 					die Verlierer von den höchsten Ämtern und Funktionen des Staates ausgeschlossen.
 					Als Grossratspräsident und zudem als Präsident der entsprechenden Kommission war
-					Escher 1848 die treibende Kraft bei der Bundesrevision im Kanton <idx type="place" norm="Zürich">Zürich</idx>. Auf
-					eidgenössischer Ebene vertrat mit <idx type="person" norm="Furrer Jonas">Jonas Furrer</idx> einer von Eschers engsten
-					Vertrauten die liberalen <idx type="place" norm="Zürich">Zürcher</idx> Interessen. Regelmässig tauschten sich die
+					Escher 1848 die treibende Kraft bei der Bundesrevision im Kanton <placeName key="Zürich">Zürich</placeName>. Auf
+					eidgenössischer Ebene vertrat mit <persName key="Furrer Jonas">Jonas Furrer</persName> einer von Eschers engsten
+					Vertrauten die liberalen <placeName key="Zürich">Zürcher</placeName> Interessen. Regelmässig tauschten sich die
 					beiden Politiker auch auf dem Korrespondenzweg über wichtige Aspekte aus. Auf
 					diese Weise findet sich die Genese der für die Schweiz hochbedeutenden
 					Bundesverfassung nachgezeichnet und wird mit dem Zugang über Eschers
@@ -137,4 +153,5 @@
 			</div>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>

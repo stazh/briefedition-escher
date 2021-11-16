@@ -1,128 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Miszellen" name="Miszellen">
-	<metadata>
-		<title>Miszellen</title>
-		<author>
-			<name>Katrin Rigort, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Miszellen">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Miszellen</title>
+                <author>
+			Katrin Rigort, unter der Leitung von Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1852–1866).
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1852–1866).
 				Wirtschaftsliberales Zeitfenster, Gründungen, Aussenpolitik, mit Beiträgen von
 				Claudia Aufdermauer, Bruno Fischer, Joseph Jung, Björn Koch, Katrin Rigort und Sandra
 				Wiederkehr (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-				Escher-Stiftung, Band 5), Zürich 2013</volume_title>
-			<short_title>Jung, Escher Briefe, Band 5</short_title>
-			<volume>5</volume>
-			<page>111–120</page>
-		</source>
-		<description>Engagement für die Opfer des Brands von Glarus – Eschers Einfluss auf die NZZ – Aufhebung des Klosters Rheinau und die Auswirkungen auf das Projekt der eidg. Universität</description>
-		<revision>
-			<change>XML-Grundstruktur erstellt, NB, 19.07.2013 </change>
-			<change>Migrationsverifizierung umgesetzt, RO/NB, 23.07.2013</change>
-			<change>e-Edition: Auszeichnung 1 umgesetzt, NP, 25.07.2013</change>
-			<change>Verifizierung 1 umgesetzt, LW, 29.07.2013</change>
-			<change>Auszeichnung 2 umgesetzt, MB, 14.08.2013</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Miszellen_d1">
-			<head><pb n="111"/>Miszellen</head>
+				Escher-Stiftung, Band 5), Zürich 2013</title>
+                    <title type="short">Jung, Escher Briefe, Band 5</title>
+                    <ref type="volume" target="V5">111–120</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Engagement für die Opfer des Brands von Glarus – Eschers Einfluss auf die NZZ – Aufhebung des Klosters Rheinau und die Auswirkungen auf das Projekt der eidg. Universität</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, NB, 19.07.2013 </change>
+                <change>Migrationsverifizierung umgesetzt, RO/NB, 23.07.2013</change>
+                <change>e-Edition: Auszeichnung 1 umgesetzt, NP, 25.07.2013</change>
+                <change>Verifizierung 1 umgesetzt, LW, 29.07.2013</change>
+                <change>Auszeichnung 2 umgesetzt, MB, 14.08.2013</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Miszellen_d1">
+			<head>
+                    <pb n="111"/>Miszellen</head>
 
-			<div id="Miszellen_d1.1">
+			<div xml:id="Miszellen_d1.1">
 				<head>Eschers Engagement für die Opfer des Brands von Glarus</head>
 
-				<p id="Miszellen_p1">Die Brandkatastrophe von <idx type="place" norm="Glarus">Glarus</idx> war ein einschneidendes Ereignis: Ein gewaltiger
-					Föhnsturm wütete in der Nacht vom <d norm="10.05.1861">10.</d> auf den <d norm="11.05.1861">11. Mai 1861</d> und fegte das Feuer in Windeseile über
+				<p xml:id="Miszellen_p1">Die Brandkatastrophe von <placeName key="Glarus">Glarus</placeName> war ein einschneidendes Ereignis: Ein gewaltiger
+					Föhnsturm wütete in der Nacht vom <date when="1861-05-10">10.</date> auf den <date when="1861-05-11">11. Mai 1861</date> und fegte das Feuer in Windeseile über
 					die eng aneinandergebauten und mit Schindeldächern bedeckten Häuser der Stadt,
 					die gnadenlos erfasst wurden. Zwei Drittel der Stadt, über 600 Wohnungen, Ställe
-					und Magazine wurden zerstört und rund 2200 Menschen auf einen Schlag obdachlos.<com id="Miszellen_c1"> Zur Brandkatastrophe <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Winteler, Glarus Hauptort</ref>, <abbr norm="Seite(n)">S.</abbr> 202–226; <ref type="lit">Brunner, Blumer Glarus</ref>, <abbr norm="Seite(n)">S.</abbr> 83–134; <ref type="lit">Hauser, Stadt in Flammen</ref>; <ref type="lit">Kaufmann, Spielhof</ref>. – Zum Brand von <idx type="place" norm="Glarus">Glarus</idx> aus der Sicht von Zeitzeugen <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Tschudi, Glarus</ref>, <abbr norm="Seite(n)">S.</abbr> 27–45; <ref type="lit">Blumer, Erinnerungen</ref>, <abbr norm="Seite(n)">S.</abbr> 33(c)–37(d); <ref type="lit">Becker, Glarner Landsgemeinde</ref>; <ref type="lit">Becker, Brand von Glarus</ref>; <ref type="lit">Senn, Brand von Glarus</ref>; <ref type="lit">Tschudi, Hülfskomite</ref>; Berichterstattung in der <ref type="lit">NZZ</ref> und der «<ref type="lit">Neue Glarner-Zeitung</ref>», 1861 und 1862. – Zur
-						Bewältigung von Naturkatastrophen <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Pfister, Tag danach</ref>; <ref type="lit">Müller/Fässler/Grünig, Not als Lehrmeisterin</ref>; <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D47887.php"><ref type="lit">HLS online</ref>, Naturkatastrophen</ref>.</com> Alfred Escher
-					reiste bereits am <d norm="11.05.1861">folgenden Tag</d> nach <idx type="place" norm="Glarus">Glarus</idx>, um sich ein Bild vom Ausmass der Katastrophe zu
-					machen und seinem langjährigen Freund <ref type="kbp"/>
-					<idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumer</idx>, der ebenfalls sein
+					und Magazine wurden zerstört und rund 2200 Menschen auf einen Schlag obdachlos.<com xml:id="Miszellen_c1"> Zur Brandkatastrophe <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Winteler, Glarus Hauptort</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 202–226; <ref type="lit">Brunner, Blumer Glarus</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 83–134; <ref type="lit">Hauser, Stadt in Flammen</ref>; <ref type="lit">Kaufmann, Spielhof</ref>. – Zum Brand von <placeName key="Glarus">Glarus</placeName> aus der Sicht von Zeitzeugen <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Tschudi, Glarus</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 27–45; <ref type="lit">Blumer, Erinnerungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 33(c)–37(d); <ref type="lit">Becker, Glarner Landsgemeinde</ref>; <ref type="lit">Becker, Brand von Glarus</ref>; <ref type="lit">Senn, Brand von Glarus</ref>; <ref type="lit">Tschudi, Hülfskomite</ref>; Berichterstattung in der <ref type="lit">NZZ</ref> und der «<ref type="lit">Neue Glarner-Zeitung</ref>», 1861 und 1862. – Zur
+						Bewältigung von Naturkatastrophen <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Pfister, Tag danach</ref>; <ref type="lit">Müller/Fässler/Grünig, Not als Lehrmeisterin</ref>; <ref target="http://www.hls-dhs-dss.ch/textes/d/D47887.php">
+                                <ref type="lit">HLS online</ref>, Naturkatastrophen</ref>.</com> Alfred Escher
+					reiste bereits am <date when="1861-05-11">folgenden Tag</date> nach <placeName key="Glarus">Glarus</placeName>, um sich ein Bild vom Ausmass der Katastrophe zu
+					machen und seinem langjährigen Freund 
+					<persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName>, der ebenfalls sein
 					Haus verloren hatte, erste Sachhilfe «mit Dingen, die in den Flammen aufgegangen
-					waren und die man sich nicht sofort wieder verschaffen kann», zu leisten.<com id="Miszellen_c2">
-						<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Blumer, Erinnerungen</ref>, <abbr norm="Seite(n)">S.</abbr> 34(d); <ref type="letter" target="K_1880"><!--→ Nr. 82--></ref>.</com> </p>
+					waren und die man sich nicht sofort wieder verschaffen kann», zu leisten.<com xml:id="Miszellen_c2">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Blumer, Erinnerungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 34(d); <!--→ Nr. 82-->.</com> </p>
 
-				<p id="Miszellen_p2">Escher war tief betroffen von der ungeheuren Zerstörung,
+				<p xml:id="Miszellen_p2">Escher war tief betroffen von der ungeheuren Zerstörung,
 					besonders nahe ging ihm aber der Schicksalsschlag seines Freundes. Sein erster
-					Brief nach diesem Ereignis datiert vom <d norm="05.06.1861">5. Juni 1861</d> <ref type="letter" target="K_1880"><!--Nr.82--></ref>. Er ist sehr persönlich gehalten und
-					voller Zuspruch und Ermutigung. Escher bringt darin zum Ausdruck, dass er <idx type="person" norm="Blumer Johann Jakob">Blumers</idx> Besonnenheit, «Ruhe &amp; Stärke
+					Brief nach diesem Ereignis datiert vom <date when="1861-06-05">5. Juni 1861</date> <!--Nr.82-->. Er ist sehr persönlich gehalten und
+					voller Zuspruch und Ermutigung. Escher bringt darin zum Ausdruck, dass er <persName key="Blumer Johann Jakob">Blumers</persName> Besonnenheit, «Ruhe &amp; Stärke
 					des Characters», seit den Anfängen ihrer Freundschaft kenne und schätze und dass
-					sie ihn stets beeindruckt habe.<com id="Miszellen_c3"> Zur Freundschaft Eschers und <ref type="kbp"/>
-						<idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumers</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 96–99.</com> Er sei deshalb überzeugt, dass er
-					auch in dieser schweren Zeit den Mut nicht verlieren werde.<com id="Miszellen_c4"> Zeichen der Entmutigung bei <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> waren vor allem angesichts des
+					sie ihn stets beeindruckt habe.<com xml:id="Miszellen_c3"> Zur Freundschaft Eschers und 
+						<persName key="Blumer Johann Jakob">Johann Jakob Blumers</persName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 96–99.</com> Er sei deshalb überzeugt, dass er
+					auch in dieser schweren Zeit den Mut nicht verlieren werde.<com xml:id="Miszellen_c4"> Zeichen der Entmutigung bei <persName key="Blumer Johann Jakob">Blumer</persName> waren vor allem angesichts des
 						verheerenden Ausmasses der Brandkatastrophe aufgetreten. Aus seinen
 						Erinnerungen geht hervor, dass er kurzzeitig auch an eine Auswanderung
-						gedacht hat. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Blumer, Erinnerungen</ref>, <abbr norm="Seite(n)">S.</abbr> 34(a–d); <ref type="lit">Brunner, Blumer Glarus</ref>, <abbr norm="Seite(n)">S.</abbr> 85–86. <ref type="letter" target="K_1926"><!--→ Nr. 91--></ref>
-						<ref type="letter" target="K_1929"><!--→ Nr. 92--></ref> </com> Zu allem Unglück verstarb
-					kaum zwei Wochen nach der Brandnacht <idx type="person" norm="Blumer Cosmus">Blumers Onkel</idx>, der <idx type="place" norm="Glarus">Glarner</idx> Landammann <idx type="person" norm="Blumer Cosmus">Cosmus Blumer</idx>, der ihn und <idx type="person" norm="Blumer-Heer Susanna">seine Frau</idx> vorübergehend in seinem Haus
-					aufgenommen hatte und der ihm ein väterlicher Freund<ref type="letter" target="K_1880"><!--Nr.82--></ref> <ref type="letter" target="K_1881"><!--Nr.83--></ref> gewesen war.<com id="Miszellen_c5">
-						<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_1878"><!--Brief Johann Jakob Blumer an Escher, 1. Juni 1861 (FA
-							Tschudi)--></ref>; <ref type="lit">Blumer, Erinnerungen</ref>, <abbr norm="Seite(n)">S.</abbr> 34(c), 35(a).</com> Escher drückte auch hier
-					in einer längeren Würdigung des <idx type="person" norm="Blumer Cosmus">Verstorbenen</idx> seine Anteilnahme aus.</p>
+						gedacht hat. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Blumer, Erinnerungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 34(a–d); <ref type="lit">Brunner, Blumer Glarus</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 85–86. <!--→ Nr. 91-->
+						<!--→ Nr. 92--> </com> Zu allem Unglück verstarb
+					kaum zwei Wochen nach der Brandnacht <persName key="Blumer Cosmus">Blumers Onkel</persName>, der <placeName key="Glarus">Glarner</placeName> Landammann <persName key="Blumer Cosmus">Cosmus Blumer</persName>, der ihn und <persName key="Blumer-Heer Susanna">seine Frau</persName> vorübergehend in seinem Haus
+					aufgenommen hatte und der ihm ein väterlicher Freund<!--Nr.82--> <!--Nr.83--> gewesen war.<com xml:id="Miszellen_c5">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Johann Jakob Blumer an Escher, 1. Juni 1861 (FA
+							Tschudi)-->; <ref type="lit">Blumer, Erinnerungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 34(c), 35(a).</com> Escher drückte auch hier
+					in einer längeren Würdigung des <persName key="Blumer Cosmus">Verstorbenen</persName> seine Anteilnahme aus.</p>
 
-				<p id="Miszellen_p3">Da <idx type="person" norm="Blumer Johann Jakob">Blumers</idx> Bibliothek und viele seiner
+				<p xml:id="Miszellen_p3">Da <persName key="Blumer Johann Jakob">Blumers</persName> Bibliothek und viele seiner
 					Schriften und Akten verbrannt waren, hatte Escher ihm grosszügigen Ersatz aus
-					seiner eigenen Bibliothek angeboten.<com id="Miszellen_c6">
-						<idx type="person" norm="Blumer Johann Jakob">Blumer</idx> arbeitete zu dieser Zeit an
+					seiner eigenen Bibliothek angeboten.<com xml:id="Miszellen_c6">
+						<persName key="Blumer Johann Jakob">Blumer</persName> arbeitete zu dieser Zeit an
 						einem Handbuch zum schweizerischen Bundesstaatsrecht. Auch
 						ein Teil des noch nicht abgeschlossenen Manuskripts war verbrannt. Er
 						beschrieb später in seinen Erinnerungen, wie er es wieder rekapituliert
-						hatte. Der erste Band wurde 1863 veröffentlicht. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Blumer, Erinnerungen</ref>, <abbr norm="Seite(n)">S.</abbr> 36(a–c); <ref type="lit">Blumer, Handbuch Bundesstaatsrecht</ref>.</com> Neben den von <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> gewünschten wohl vor allem
+						hatte. Der erste Band wurde 1863 veröffentlicht. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Blumer, Erinnerungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 36(a–c); <ref type="lit">Blumer, Handbuch Bundesstaatsrecht</ref>.</com> Neben den von <persName key="Blumer Johann Jakob">Blumer</persName> gewünschten wohl vor allem
 					juristischen Werken liess Escher weitere «zur Ausfüllung» der Versandkiste
-					beilegen, wie seine Frau <ref type="kbp"/><idx type="person" norm="Escher-Uebel Augusta">Augusta Escher-Uebel</idx> an <idx type="person" norm="Blumer Johann Jakob">Blumers</idx> Frau 
-					<idx type="person" norm="Blumer-Heer Susanna">Susanna</idx> schrieb.<com id="Miszellen_c7">Namentlich erwähnt sind neben dem Archiv für Civilistische Praxis
-						<idx type="person" norm="Hottinger Johann Jakob">Johann Jakob Hottingers</idx> Buch über <idx type="person" norm="Zwingli Huldrych">Zwingli</idx> und seine Zeit von 1842, <idx type="person" norm="Hegel Georg Wilhelm Friedrich">Hegels</idx> Philosophie, zudem
-						«zeitgenössische Geschichten» von <idx type="person" norm="Schneider Adolf">Adolf Schneider</idx> und das Nibelungenlied von
-						einem nicht näher bezeichneten <idx type="person" norm="Bachmann">Bachmann</idx>. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="third-party-letter">Brief Augusta Escher-Uebel an Susanne Blumer-Heer, 28./29.
-							Dezember 1861 (<ref type="lit">FA Tschudi</ref>)</ref>; <ref type="letter" target="K_1903_c4"><!--→ Nr. 86 (Kommentar)--></ref>.</com> Vor allem
-					Dankbarkeit, aber auch Bescheidenheit drücken sich in <idx type="person" norm="Blumer Johann Jakob">Blumers</idx> Reaktionen aus: «Du [Escher] wirst
-					freilich denken, ich [<idx type="person" norm="Blumer Johann Jakob">Blumer</idx>] habe zum Theil gerade das Beste
+					beilegen, wie seine Frau <persName key="Escher-Uebel Augusta">Augusta Escher-Uebel</persName> an <persName key="Blumer Johann Jakob">Blumers</persName> Frau 
+					<persName key="Blumer-Heer Susanna">Susanna</persName> schrieb.<com xml:id="Miszellen_c7">Namentlich erwähnt sind neben dem Archiv für Civilistische Praxis
+						<persName key="Hottinger Johann Jakob">Johann Jakob Hottingers</persName> Buch über <persName key="Zwingli Huldrych">Zwingli</persName> und seine Zeit von 1842, <persName key="Hegel Georg Wilhelm Friedrich">Hegels</persName> Philosophie, zudem
+						«zeitgenössische Geschichten» von <persName key="Schneider Adolf">Adolf Schneider</persName> und das Nibelungenlied von
+						einem nicht näher bezeichneten <persName key="Bachmann">Bachmann</persName>. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Brief Augusta Escher-Uebel an Susanne Blumer-Heer, 28./29.
+							Dezember 1861 (<ref type="lit">FA Tschudi</ref>); <!--→ Nr. 86 (Kommentar)-->.</com> Vor allem
+					Dankbarkeit, aber auch Bescheidenheit drücken sich in <persName key="Blumer Johann Jakob">Blumers</persName> Reaktionen aus: «Du [Escher] wirst
+					freilich denken, ich [<persName key="Blumer Johann Jakob">Blumer</persName>] habe zum Theil gerade das Beste
 					ausgelesen, [...]. [Es] werden mir die Bücher willkommen seyn als bleibende
 					Erinnerungszeichen deiner Freundschaft, welche sich in den ersten Tagen nach dem
-					Brande auf eine für uns so rührende <abbr norm="und">u</abbr> zarte Weise geoffenbart hat.»<com id="Miszellen_c8">
-						<ref type="letter" target="K_1890"><!--Brief Johann Jakob Blumer an Escher, 9. September 1861 (FA
-							Tschudi)--></ref>.</com> Escher seinerseits hätte ihm gerne mehr geholfen:
+					Brande auf eine für uns so rührende <choice>
+                            <abbr>u</abbr>
+                            <expan>und</expan>
+                        </choice> zarte Weise geoffenbart hat.»<com xml:id="Miszellen_c8">
+						<!--Brief Johann Jakob Blumer an Escher, 9. September 1861 (FA
+							Tschudi)-->.</com> Escher seinerseits hätte ihm gerne mehr geholfen:
 					«Es ist uns [der Familie Escher] so peinlich, daß Ihr [die Blumers] trotz meiner
-					wiederholten Bitten nicht über uns verfügt habt.»<ref type="letter" target="K_1880"><!--Nr.82--></ref> </p>
+					wiederholten Bitten nicht über uns verfügt habt.»<!--Nr.82--> </p>
 
-				<p id="Miszellen_p4">In der Folge engagierte sich Escher insbesondere bei der
+				<p xml:id="Miszellen_p4">In der Folge engagierte sich Escher insbesondere bei der
 					Mittelbeschaffung für die Brandgeschädigten. Das Schadensausmass wurde auf über
 					10 Mio. Franken geschätzt – eine damals unermesslich hohe Summe –, wobei
 					indirekte Folgeschäden, etwa Einbussen durch die brandbedingte Verhinderung der
-					Gewerbetätigkeit, in diesem Betrag noch nicht eingerechnet waren.<com id="Miszellen_c9"> Es gibt verschiedene Angaben zur Höhe des Brandschadens.
-						Der Gemeinderat von <idx type="place" norm="Glarus">Glarus</idx> hatte eine Kommission eingesetzt, die sich
-						schon am <d norm="13.05.1861">13. Mai 1861</d> mit diesbezüglichen Erhebungen
+					Gewerbetätigkeit, in diesem Betrag noch nicht eingerechnet waren.<com xml:id="Miszellen_c9"> Es gibt verschiedene Angaben zur Höhe des Brandschadens.
+						Der Gemeinderat von <placeName key="Glarus">Glarus</placeName> hatte eine Kommission eingesetzt, die sich
+						schon am <date when="1861-05-13">13. Mai 1861</date> mit diesbezüglichen Erhebungen
 						befasst hatte. Es wurden Befragungen durchgeführt und Protokolle erstellt
 						über Gebäude- und Mobiliarschäden. Später wurde eine Revisionskommission
 						gebildet, bestehend aus je zwei Mitgliedern der Regierung, des Gemeinderats
 						und des Hilfskomitees, die diese Angaben prüfte. Insgesamt konnte die
-						Schadensumme dadurch um 1 <abbr norm="Million(en)">Mio.</abbr> Franken reduziert werden. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Tschudi, Glarus</ref>, <abbr norm="Seite(n)">S.</abbr> 42; <ref type="lit">Tschudi, Hülfskomite</ref>, <abbr norm="Seite(n)">S.</abbr> 37, 61–66; <ref type="lit">Hülfskomite der Stadt Zürich für Glarus</ref>.</com> Der
-					Brand von <idx type="place" norm="Glarus">Glarus</idx> brachte den viel zu geringen kantonalen
-					Versicherungsschutz schlagartig zu Bewusstsein.<com id="Miszellen_c10"> Ein Katastrophenfall belastete vor allem die kleinen
+						Schadensumme dadurch um 1 <choice>
+                                <abbr>Mio.</abbr>
+                                <expan>Million(en)</expan>
+                            </choice> Franken reduziert werden. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Tschudi, Glarus</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 42; <ref type="lit">Tschudi, Hülfskomite</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 37, 61–66; <ref type="lit">Hülfskomite der Stadt Zürich für Glarus</ref>.</com> Der
+					Brand von <placeName key="Glarus">Glarus</placeName> brachte den viel zu geringen kantonalen
+					Versicherungsschutz schlagartig zu Bewusstsein.<com xml:id="Miszellen_c10"> Ein Katastrophenfall belastete vor allem die kleinen
 						Kantone. Bei einer Risikodeckung von 75% der Schadensumme blieben enorme
 						Beträge zu zahlen, die über Jahrzehnte hohe Schulden und Abgaben mit sich
-						brachten. <idx type="place" norm="Glarus">Glarus</idx> konnte auf keinerlei Vermögen zurückgreifen
+						brachten. <placeName key="Glarus">Glarus</placeName> konnte auf keinerlei Vermögen zurückgreifen
 						und hatte bereits vor dem Brand hohe Steuern für seinen Budgetausgleich
 						erhoben. Allein die Zinszahlungen für den Schuldbetrag stellte eine grosse
-						Belastung dar.<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Tschudi, Hülfskomite</ref>, <abbr norm="Seite(n)">S.</abbr> 36–40; <ref type="lit">Blumer, Erinnerungen</ref>, <abbr norm="Seite(n)">S.</abbr> 35(b – c).</com> Die Folgen und ihre
+						Belastung dar.<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Tschudi, Hülfskomite</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 36–40; <ref type="lit">Blumer, Erinnerungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 35(b – c).</com> Die Folgen und ihre
 					Bewältigung beschleunigten denn auch die interkantonale Diskussion um die Rolle
 					von Bund und Kantonen bei Assekuranzfragen und geeigneten präventiven
-					Massnahmen.<com id="Miszellen_c11"> Diskutiert wurden unter anderem die Einführung einer
+					Massnahmen.<com xml:id="Miszellen_c11"> Diskutiert wurden unter anderem die Einführung einer
 						obligatorischen schweizerischen Gebäudeversicherung, die Frage der
 						Rückversicherung und die Bildung von Reservefonds. Die Hauptschwierigkeiten
 						bei all diesen Vorschlägen lagen in den unterschiedlichen Gesetzgebungen der
@@ -132,317 +231,642 @@
 						Errichtung eines Konkordats zur gegenseitigen Rückversicherung der
 						kantonalen Gebäudeversicherungsanstalten zu treffen. Ein Jahr später lag ein
 						erster Entwurf vor. Die Gründung von Versicherungsunternehmen, wie der
-						Helvetia Schweizerischen Feuerversicherungs-Gesellschaft in <idx type="place" norm="St. Gallen">St. Gallen</idx> am <d norm="07.11.1861">7. November 1861</d> und der <idx type="place" norm="Basel-Stadt">Basler</idx> Versicherungs-Gesellschaft gegen
+						Helvetia Schweizerischen Feuerversicherungs-Gesellschaft in <placeName key="St. Gallen">St. Gallen</placeName> am <date when="1861-11-07">7. November 1861</date> und der <placeName key="Basel-Stadt">Basler</placeName> Versicherungs-Gesellschaft gegen
 						Feuerschaden im Jahre 1863, resultierte unmittelbar aus den Erfahrungen des
-						Brands von <idx type="place" norm="Glarus">Glarus</idx>. Auch die Einführung der professionellen
+						Brands von <placeName key="Glarus">Glarus</placeName>. Auch die Einführung der professionellen
 						Rückversicherung geht auf dieses Ereignis zurück. 1864 wurde die
-						Schweizerische Rückversicherungs-Gesellschaft in <idx type="place" norm="Zürich">Zürich</idx> gegründet. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">NZZ</ref>, 4. Juni 1861, 6. Juni 1861, 25. März 1862; <ref type="lit">Fässler, Fürio</ref>, <abbr norm="Seite(n)">S.</abbr> 83; <ref type="lit">Müller/Fässler/Grünig, Not als Lehrmeisterin</ref>, <abbr norm="Seite(n)">S.</abbr> 270. – Zur Entwicklung der
-						Privatversicherungen in der Schweiz <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Oberholzer, Privatversicherung</ref>; <ref type="lit">Jung, Winterthur</ref>, <abbr norm="Seite(n)">S.</abbr> 16–52.</com> </p>
+						Schweizerische Rückversicherungs-Gesellschaft in <placeName key="Zürich">Zürich</placeName> gegründet. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">NZZ</ref>, 4. Juni 1861, 6. Juni 1861, 25. März 1862; <ref type="lit">Fässler, Fürio</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 83; <ref type="lit">Müller/Fässler/Grünig, Not als Lehrmeisterin</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 270. – Zur Entwicklung der
+						Privatversicherungen in der Schweiz <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Oberholzer, Privatversicherung</ref>; <ref type="lit">Jung, Winterthur</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 16–52.</com> </p>
 
-				<p id="Miszellen_p5">Zunächst ging es aber um die Organisation einer pragmatischen
-					und unbürokratischen Hilfe, die die gröbste Not der Bevölkerung linderte.<com id="Miszellen_c12"> Der Brand löste eine grosse Welle der Solidarität und
-						Hilfsbereitschaft im In- und Ausland aus. <abbr norm="Vergleiche">Vgl.</abbr>
+				<p xml:id="Miszellen_p5">Zunächst ging es aber um die Organisation einer pragmatischen
+					und unbürokratischen Hilfe, die die gröbste Not der Bevölkerung linderte.<com xml:id="Miszellen_c12"> Der Brand löste eine grosse Welle der Solidarität und
+						Hilfsbereitschaft im In- und Ausland aus. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Tschudi, Hülfskomite</ref>; <ref type="lit">Tschudi, Glarus</ref>; <ref type="lit">NZZ</ref> in den Wochen und Monaten nach dem Brand unter der
-						Rubrik «Was in den Kantonen für Glarus geschieht»; <ref type="lit">NZZ</ref>, 29. Juli 1861; <ref type="lit">Fässler, Fürio</ref>, <abbr norm="Seite(n)">S.</abbr> 60–69; <ref type="lit">Müller/Fässler/Grünig, Not als Lehrmeisterin</ref>, <abbr norm="Seite(n)">S.</abbr> 278; <ref type="letter" target="K_1881_c4"><!--→ Nr. 83 (Kommentar)--></ref>.</com> Escher
+						Rubrik «Was in den Kantonen für Glarus geschieht»; <ref type="lit">NZZ</ref>, 29. Juli 1861; <ref type="lit">Fässler, Fürio</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 60–69; <ref type="lit">Müller/Fässler/Grünig, Not als Lehrmeisterin</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 278; <!--→ Nr. 83 (Kommentar)-->.</com> Escher
 					veranlasste beispielsweise die Direktion der Schweizerischen Kreditanstalt,
 					einen Aufruf an den «Handelsstand des Aus<pb n="112"/>lands» für eine Spendensammlung zugunsten der Brandgeschädigten zu
 					erlassen. Ausserdem erreichte er, dass der Verwaltungsrat der Kreditanstalt eine
-					Spende von 10 000 Franken bewilligte.<com id="Miszellen_c13">
-						<abbr norm="Vergleiche">Vgl.</abbr>
+					Spende von 10 000 Franken bewilligte.<com xml:id="Miszellen_c13">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Prot. VR SKA</ref>, 14. Mai 1861; <ref type="lit">NZZ</ref>, 15. Mai 1861.</com> Ferner sorgte er dafür, dass
-					die in <idx type="place" norm="Zürich (Stadt)">Zürich</idx> eingegangenen Spendengelder bis zu ihrer
+					die in <placeName key="Zürich (Stadt)">Zürich</placeName> eingegangenen Spendengelder bis zu ihrer
 					Verwendung bei der Kreditanstalt zu einem vorteilhaften Zins angelegt werden
-					konnten.<com id="Miszellen_c14"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Hülfskomite der Stadt Zürich für Glarus</ref>.</com> Weiter
-					regte er ein Darlehensgesuch bei der Schweizerischen Gemeinnützigen Gesellschaft an<com id="Miszellen_c15">
-						<ref type="letter" target="K_1881_c4"><!--→ Nr. 83 (Kommentar)--></ref>.</com> und offerierte <idx type="place" norm="Glarus">Glarus</idx> schliesslich selbst ein günstiges Darlehen der
-					Kreditanstalt.<com id="Miszellen_c16"> Aufgrund der unerwartet zahlreich eingegangenen
-						Spendengelder konnte jedoch darauf verzichtet werden. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_1949"><!--Brief Johann Jakob Blumer an Escher, 20. September 1962
-							(FA Tschudi)--></ref>; <ref type="letter" target="K_1950"><!--Brief Johann Jakob Blumer an Escher, 4. Oktober 1862 (FA
-							Tschudi)--></ref>; <ref type="lit">Hülfskomite der Stadt Zürich für Glarus</ref>; <ref type="lit">Aufruf der Centralkommission der SGG</ref>, 12. Juli
+					konnten.<com xml:id="Miszellen_c14">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Hülfskomite der Stadt Zürich für Glarus</ref>.</com> Weiter
+					regte er ein Darlehensgesuch bei der Schweizerischen Gemeinnützigen Gesellschaft an<com xml:id="Miszellen_c15">
+						<!--→ Nr. 83 (Kommentar)-->.</com> und offerierte <placeName key="Glarus">Glarus</placeName> schliesslich selbst ein günstiges Darlehen der
+					Kreditanstalt.<com xml:id="Miszellen_c16"> Aufgrund der unerwartet zahlreich eingegangenen
+						Spendengelder konnte jedoch darauf verzichtet werden. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Johann Jakob Blumer an Escher, 20. September 1962
+							(FA Tschudi)-->; <!--Brief Johann Jakob Blumer an Escher, 4. Oktober 1862 (FA
+							Tschudi)-->; <ref type="lit">Hülfskomite der Stadt Zürich für Glarus</ref>; <ref type="lit">Aufruf der Centralkommission der SGG</ref>, 12. Juli
 						1861.</com> </p>
 
-				<p id="Miszellen_p6">Escher arbeitete darüber hinaus eng mit dem Hilfskomitee der
-					Stadt <idx type="place" norm="Zürich (Stadt)">Zürich</idx> für <idx type="place" norm="Glarus">Glarus</idx> zusammen. In dessen Namen übergab er dem <idx type="place" norm="Glarus">Glarner</idx> Hilfskomitee, das mit der Verteilung der
-					eingegangenen Spendengelder beauftragt war, 6000 Franken.<com id="Miszellen_c17">
-						<abbr norm="Vergleiche">Vgl.</abbr>
+				<p xml:id="Miszellen_p6">Escher arbeitete darüber hinaus eng mit dem Hilfskomitee der
+					Stadt <placeName key="Zürich (Stadt)">Zürich</placeName> für <placeName key="Glarus">Glarus</placeName> zusammen. In dessen Namen übergab er dem <placeName key="Glarus">Glarner</placeName> Hilfskomitee, das mit der Verteilung der
+					eingegangenen Spendengelder beauftragt war, 6000 Franken.<com xml:id="Miszellen_c17">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">NZZ</ref>, 21. Mai 1861.</com> Ausserdem veranlasste er, dass
-					die <ref type="kbe"/> Nordostbahn alle Hilfsgüter und Personen, die an
-					Hilfeleistungen beteiligt waren, über Wochen gratis nach <idx type="place" norm="Glarus">Glarus</idx> beförderte.<com id="Miszellen_c18">
-						<abbr norm="Vergleiche">Vgl.</abbr>
+					die  Nordostbahn alle Hilfsgüter und Personen, die an
+					Hilfeleistungen beteiligt waren, über Wochen gratis nach <placeName key="Glarus">Glarus</placeName> beförderte.<com xml:id="Miszellen_c18">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Hülfskomite der Stadt Zürich für Glarus</ref>.</com> </p>
 
-				<p id="Miszellen_p7">Escher konnte also in verschiedenen Bereichen Einfluss nehmen,
-					um <idx type="place" norm="Glarus">Glarus</idx> und damit auch seinen Freund zu unterstützen. <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> konsultierte ihn denn auch vermehrt
-					bei Finanzierungsfragen zum Wiederaufbau und zur zukünftigen Entwicklung von <idx type="place" norm="Glarus">Glarus</idx>.<ref type="letter" target="K_1881"><!--Nr.83--></ref> Obwohl auch andere Sachfragen allmählich
-					wieder in ihren Briefwechsel Einzug hielten<ref type="letter" target="K_1903"><!--Nr.86--></ref>, bleibt jedoch die besondere Bedeutung
-					von Familie und engen Freunden für den persönlichen Rückhalt weiterhin spürbar.<com id="Miszellen_c19">
-						<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_1890"><!--Brief Johann Jakob Blumer an Escher, 9. September 1861 (FA
-							Tschudi)--></ref>; <ref type="letter" target="K_1949"><!--Brief Johann Jakob Blumer an Escher, 20. September 1862
-							(FA Tschudi)--></ref>; <ref type="letter" target="K_1950"><!--Brief Johann Jakob Blumer an Escher, 4. Oktober 1862 (FA
-							Tschudi)--></ref>; – Auch bei Sachthemen weist der Briefwechsel oft eine
-						persönliche Note auf, etwa wenn <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> befürchtete, dass den <idx type="place" norm="Glarus">Glarnern</idx> eine Annahme weiterer Hilfsangebote «als
-						bettelhafte Zudringlichkeit ausgelegt werden könnte». <ref type="letter" target="K_1881"><!--→ Nr. 83--></ref>.</com> Die fast zeitgleich
-					erfolgte Geburt <idx type="person" norm="Escher (vom Glas) Hedwig">Hedwigs</idx> <ref type="letter" target="K_1880"><!--Nr.82--></ref>, Eschers <idx type="person" norm="Escher (vom Glas) Hedwig">zweiter Tochter</idx>, und damit die unmittelbare Nähe
+				<p xml:id="Miszellen_p7">Escher konnte also in verschiedenen Bereichen Einfluss nehmen,
+					um <placeName key="Glarus">Glarus</placeName> und damit auch seinen Freund zu unterstützen. <persName key="Blumer Johann Jakob">Blumer</persName> konsultierte ihn denn auch vermehrt
+					bei Finanzierungsfragen zum Wiederaufbau und zur zukünftigen Entwicklung von <placeName key="Glarus">Glarus</placeName>.<!--Nr.83--> Obwohl auch andere Sachfragen allmählich
+					wieder in ihren Briefwechsel Einzug hielten<!--Nr.86-->, bleibt jedoch die besondere Bedeutung
+					von Familie und engen Freunden für den persönlichen Rückhalt weiterhin spürbar.<com xml:id="Miszellen_c19">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Johann Jakob Blumer an Escher, 9. September 1861 (FA
+							Tschudi)-->; <!--Brief Johann Jakob Blumer an Escher, 20. September 1862
+							(FA Tschudi)-->; <!--Brief Johann Jakob Blumer an Escher, 4. Oktober 1862 (FA
+							Tschudi)-->; – Auch bei Sachthemen weist der Briefwechsel oft eine
+						persönliche Note auf, etwa wenn <persName key="Blumer Johann Jakob">Blumer</persName> befürchtete, dass den <placeName key="Glarus">Glarnern</placeName> eine Annahme weiterer Hilfsangebote «als
+						bettelhafte Zudringlichkeit ausgelegt werden könnte». <!--→ Nr. 83-->.</com> Die fast zeitgleich
+					erfolgte Geburt <persName key="Escher (vom Glas) Hedwig">Hedwigs</persName> <!--Nr.82-->, Eschers <persName key="Escher (vom Glas) Hedwig">zweiter Tochter</persName>, und damit die unmittelbare Nähe
 					von Freud und Leid, gab den Freunden Anlass zu allgemeineren Überlegungen über
-					die Schicksalhaftigkeit und «menschliche Kurzsichtigkeit»<ref type="letter" target="K_1881"><!--Nr.83--></ref>, wie <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> sich ausdrückte. Auch Escher musste
+					die Schicksalhaftigkeit und «menschliche Kurzsichtigkeit»<!--Nr.83-->, wie <persName key="Blumer Johann Jakob">Blumer</persName> sich ausdrückte. Auch Escher musste
 					das «Unwiederbringliche» angesichts seines Wunsches nach einem Sohn annehmen –
-					viel gravierender aber war dies, als die kleine <idx type="person" norm="Escher (vom Glas) Hedwig">Hedwig</idx> nach nur einem Jahr starb.<com id="Miszellen_c20">
-						<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 262–267.</com> Escher umriss, von Trauer und
-					Erschöpfung gezeichnet, in einem Brief vom <d norm="28.07.1862">28. Juli 1862</d> <ref type="letter" target="K_1942"><!--Nr.93--></ref> an <ref type="kbp"/>
-					<idx type="person" norm="Zwicky Kaspar Lebrecht">Kaspar Lebrecht Zwicky</idx>, einen weiteren
-					gemeinsamen Jugendfreund Eschers und <idx type="person" norm="Blumer Johann Jakob">Blumers</idx>, in nur wenigen Zügen die
-					Ereignisse ihrer kurzen Krankheit.<com id="Miszellen_c21"> Zur Beziehung Eschers zu <ref type="kbp"/>
-						<idx type="person" norm="Zwicky Kaspar Lebrecht">Kaspar Lebrecht Zwicky</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 96, 240, 275.</com> Eschers Frau <idx type="person" norm="Escher-Uebel Augusta">Augusta</idx> wird später von ihren
-					Zweifeln und ihrem eigenen Schmerz über den Verlust des <idx type="person" norm="Escher (vom Glas) Hedwig">Kindes</idx> schreiben und auch, dass neben der
-					«Ergebung in den göttlichen Willen» ihr die Anwesenheit <idx type="person" norm="Uebel-von Geiger Juliane Charlotte">ihrer Mutter</idx> und <idx type="person" norm="Monten-Uebel Anna">Schwester</idx>, insbesondere aber ihres Mannes,
-					Trost verliehen habe.<com id="Miszellen_c22">
-						<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="third-party-letter">Brief Augusta Escher-Uebel an Susanne Blumer-Heer, 27.
-							August 1862 (<ref type="lit">FA Tschudi</ref>)</ref>. – Zu Freud und Leid im <idx type="place" norm="Belvoir (Enge, Zürich)">Belvoir</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 238–271.</com> </p>
+					viel gravierender aber war dies, als die kleine <persName key="Escher (vom Glas) Hedwig">Hedwig</persName> nach nur einem Jahr starb.<com xml:id="Miszellen_c20">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 262–267.</com> Escher umriss, von Trauer und
+					Erschöpfung gezeichnet, in einem Brief vom <date when="1862-07-28">28. Juli 1862</date> <!--Nr.93--> an 
+					<persName key="Zwicky Kaspar Lebrecht">Kaspar Lebrecht Zwicky</persName>, einen weiteren
+					gemeinsamen Jugendfreund Eschers und <persName key="Blumer Johann Jakob">Blumers</persName>, in nur wenigen Zügen die
+					Ereignisse ihrer kurzen Krankheit.<com xml:id="Miszellen_c21"> Zur Beziehung Eschers zu 
+						<persName key="Zwicky Kaspar Lebrecht">Kaspar Lebrecht Zwicky</persName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 96, 240, 275.</com> Eschers Frau <persName key="Escher-Uebel Augusta">Augusta</persName> wird später von ihren
+					Zweifeln und ihrem eigenen Schmerz über den Verlust des <persName key="Escher (vom Glas) Hedwig">Kindes</persName> schreiben und auch, dass neben der
+					«Ergebung in den göttlichen Willen» ihr die Anwesenheit <persName key="Uebel-von Geiger Juliane Charlotte">ihrer Mutter</persName> und <persName key="Monten-Uebel Anna">Schwester</persName>, insbesondere aber ihres Mannes,
+					Trost verliehen habe.<com xml:id="Miszellen_c22">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Brief Augusta Escher-Uebel an Susanne Blumer-Heer, 27.
+							August 1862 (<ref type="lit">FA Tschudi</ref>). – Zu Freud und Leid im <placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 238–271.</com> </p>
 			</div>
 
-			<div id="Miszellen_d1.2">
+			<div xml:id="Miszellen_d1.2">
 				<head>Eschers Einfluss auf die «Neue Zürcher Zeitung»: Die Causa Felber</head>
 
-				<p id="Miszellen_p8">Zu Beginn des Jahres 1862 schrieb Alfred Escher einen heute
-					nicht mehr erhaltenen Brief an den Mitherausgeber der «Neuen <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» <ref type="kbp"/>
-					<idx type="person" norm="Fisch-Hagenbuch Friedrich">Friedrich Fisch-Hagenbuch</idx>.<com id="Miszellen_c23"> Der Brief datierte vom <d norm="15.01.1862">15. Januar 1862</d>; <ref type="letter" target="K_1921"><!--→ Nr. 90--></ref>.</com> Er hatte sich darin für ein
-					langfristiges Vertragsverhältnis zugunsten des Chefredaktors <idx type="person" norm="Felber Peter Jakob">Peter Felber</idx> eingesetzt, das mit einer
+				<p xml:id="Miszellen_p8">Zu Beginn des Jahres 1862 schrieb Alfred Escher einen heute
+					nicht mehr erhaltenen Brief an den Mitherausgeber der «Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung» 
+					<persName key="Fisch-Hagenbuch Friedrich">Friedrich Fisch-Hagenbuch</persName>.<com xml:id="Miszellen_c23"> Der Brief datierte vom <date when="1862-01-15">15. Januar 1862</date>; <!--→ Nr. 90-->.</com> Er hatte sich darin für ein
+					langfristiges Vertragsverhältnis zugunsten des Chefredaktors <persName key="Felber Peter Jakob">Peter Felber</persName> eingesetzt, das mit einer
 					sechsmonatigen Probezeit beginnen und an deren Ende ein Schiedsgericht,
-					bestehend aus <ref type="kbp"/>
-					<idx type="person" norm="Rüttimann Johann Jakob">Johann Jakob Rüttimann</idx> und <idx type="person" norm="Stoll Georg">Georg Stoll</idx>, über die endgültige Anstellung
-					befinden sollte.<com id="Miszellen_c24"> Sowohl <ref type="kbp"/><idx type="person" norm="Rüttimann Johann Jakob">Johann Jakob Rüttimann</idx> als auch <idx type="person" norm="Stoll Georg">Georg Stoll</idx> waren enge Vertraute Eschers. <idx type="person" norm="Rüttimann Johann Jakob">Rüttimann</idx> war ein langjähriger
-						Freund Eschers und sein juristischer Berater bei allen seinen Gründungen. <idx type="person" norm="Stoll Georg">Stoll</idx> wurde 1853 von Escher zum Sekretär der <ref type="kbe"/> Zürich-Bodensee-Bahn und 1858 in die Direktion der <ref type="kbe"/> Nordostbahn berufen. Ende der 1860er Jahre wurde er
-						Verwaltungsrat der Neuen <idx type="place" norm="Zürich">Zürcher</idx> Zeitung. – Zu <idx type="person" norm="Rüttimann Johann Jakob">Rüttimann</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 749–750. – Zu <idx type="person" norm="Stoll Georg">Stoll</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Stoll, Stoll</ref>; <ref type="lit">Strebel, Rückkauf</ref>, <abbr norm="Seite(n)">S.</abbr> 352.</com> Diese Einflussnahme Eschers auf die
-					Redaktionsangelegenheiten veranlasste <idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</idx> in seinem
-					Antwortschreiben vom <d norm="20.01.1862">20. Januar 1862</d> <ref type="letter" target="K_1921"><!--Nr.90--></ref>, etwas weiter auszuholen und sowohl eine
+					bestehend aus 
+					<persName key="Rüttimann Johann Jakob">Johann Jakob Rüttimann</persName> und <persName key="Stoll Georg">Georg Stoll</persName>, über die endgültige Anstellung
+					befinden sollte.<com xml:id="Miszellen_c24"> Sowohl <persName key="Rüttimann Johann Jakob">Johann Jakob Rüttimann</persName> als auch <persName key="Stoll Georg">Georg Stoll</persName> waren enge Vertraute Eschers. <persName key="Rüttimann Johann Jakob">Rüttimann</persName> war ein langjähriger
+						Freund Eschers und sein juristischer Berater bei allen seinen Gründungen. <persName key="Stoll Georg">Stoll</persName> wurde 1853 von Escher zum Sekretär der  Zürich-Bodensee-Bahn und 1858 in die Direktion der  Nordostbahn berufen. Ende der 1860er Jahre wurde er
+						Verwaltungsrat der Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung. – Zu <persName key="Rüttimann Johann Jakob">Rüttimann</persName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 749–750. – Zu <persName key="Stoll Georg">Stoll</persName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Stoll, Stoll</ref>; <ref type="lit">Strebel, Rückkauf</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 352.</com> Diese Einflussnahme Eschers auf die
+					Redaktionsangelegenheiten veranlasste <persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</persName> in seinem
+					Antwortschreiben vom <date when="1862-01-20">20. Januar 1862</date> <!--Nr.90-->, etwas weiter auszuholen und sowohl eine
 					längere Vorgeschichte der Redaktion als auch eine Chronik der Schwierigkeiten,
-					die sie mit <idx type="person" norm="Felber Peter Jakob">ihrem Chefredaktor</idx> seit dessen
-					Stellenantritt 1849 gehabt hatte, zu verfassen.<com id="Miszellen_c25">
-						<idx type="person" norm="Felber Peter Jakob">Peter Felber</idx> hatte das liberale «<idx type="place" norm="Solothurn">Solothurner</idx> Blatt» redigiert und wechselte nach
-						dem Tod des damaligen <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr>-Chefredaktors <idx type="person" norm="Daverio Ludwig Herkules">Herkules Daverio</idx> 1849 in die <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr>-Redaktion nach <idx type="place" norm="Zürich (Stadt)">Zürich</idx>. Nach anfänglichen Schwierigkeiten
+					die sie mit <persName key="Felber Peter Jakob">ihrem Chefredaktor</persName> seit dessen
+					Stellenantritt 1849 gehabt hatte, zu verfassen.<com xml:id="Miszellen_c25">
+						<persName key="Felber Peter Jakob">Peter Felber</persName> hatte das liberale «<placeName key="Solothurn">Solothurner</placeName> Blatt» redigiert und wechselte nach
+						dem Tod des damaligen <choice>
+                                <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                                <expan>Neue Zürcher Zeitung</expan>
+                            </choice>-Chefredaktors <persName key="Daverio Ludwig Herkules">Herkules Daverio</persName> 1849 in die <choice>
+                                <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                                <expan>Neue Zürcher Zeitung</expan>
+                            </choice>-Redaktion nach <placeName key="Zürich (Stadt)">Zürich</placeName>. Nach anfänglichen Schwierigkeiten
 						gelang es ihm, allmählich Fuss zu fassen und sich als verlässlicher
-						Berichterstatter der liberalen <idx type="place" norm="Zürich">Zürcher</idx> Wirtschaftspolitik zu etablieren. Sein
+						Berichterstatter der liberalen <placeName key="Zürich">Zürcher</placeName> Wirtschaftspolitik zu etablieren. Sein
 						wiederholtes Plädoyer für eine ab 1856 strikt neutrale Haltung der Schweiz
 						gegenüber dem Ausland und seine klare Meinung zum Privatbetrieb der
 						Eisenbahnen und gegen Zentralisierungstendenzen in Eisenbahnfragen machten
-						ihn schliesslich zum Sprachrohr der <idx type="place" norm="Zürich">Zürcher</idx> Liberalen, deren Interessen er in der <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr> kämpferisch vertrat. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Weisz, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 32–87. – Zu <idx type="person" norm="Felber Peter Jakob">Felbers</idx> Biographie und Werdegang in der <abbr norm="Neue Zürcher Zeitung">NZZ</abbr>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Weisz, NZZ</ref>; <ref type="lit">Maissen, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 45–52; <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D3098.php"><ref type="lit">HLS online</ref>, Felber Peter Jakob</ref>; <ref type="lit">HBLS</ref> III, <abbr norm="Seite(n)">S.</abbr> 132–133; <ref type="lit">Blaser, Bibliographie</ref>, <abbr norm="Seite(n)">S.</abbr> 1201. – Zu <idx type="person" norm="Daverio Ludwig Herkules">Ludwig Herkules Daverio</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">NZZ</ref>, 14. April 1849 (Nekrolog); <ref type="lit">Weisz, Redaktoren</ref>, <abbr norm="Seite(n)">S.</abbr> 301–333; <ref type="lit">HBLS</ref> II, <abbr norm="Seite(n)">S.</abbr> 672; <ref type="lit">Weisz, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 10.</com> Sein Rückblick sei das «Kriterium
+						ihn schliesslich zum Sprachrohr der <placeName key="Zürich">Zürcher</placeName> Liberalen, deren Interessen er in der <choice>
+                                <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                                <expan>Neue Zürcher Zeitung</expan>
+                            </choice> kämpferisch vertrat. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Weisz, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 32–87. – Zu <persName key="Felber Peter Jakob">Felbers</persName> Biographie und Werdegang in der <choice>
+                                <abbr>NZZ</abbr>
+                                <expan>Neue Zürcher Zeitung</expan>
+                            </choice>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Weisz, NZZ</ref>; <ref type="lit">Maissen, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 45–52; <ref target="http://www.hls-dhs-dss.ch/textes/d/D3098.php">
+                                <ref type="lit">HLS online</ref>, Felber Peter Jakob</ref>; <ref type="lit">HBLS</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 132–133; <ref type="lit">Blaser, Bibliographie</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 1201. – Zu <persName key="Daverio Ludwig Herkules">Ludwig Herkules Daverio</persName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">NZZ</ref>, 14. April 1849 (Nekrolog); <ref type="lit">Weisz, Redaktoren</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 301–333; <ref type="lit">HBLS</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 672; <ref type="lit">Weisz, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 10.</com> Sein Rückblick sei das «Kriterium
 					für die Gegenwart», wie er schreibt, für seine Entscheidung nämlich, dass er
-					sich zwar noch einmal für <idx type="person" norm="Felber Peter Jakob">Felbers</idx> Verbleiben in der Redaktion
+					sich zwar noch einmal für <persName key="Felber Peter Jakob">Felbers</persName> Verbleiben in der Redaktion
 					entschlossen habe, insofern Eschers Wunsch nachgekommen sei, inskünftig jedoch
-					Personalfragen unabhängig entscheiden werde.<com id="Miszellen_c26"> Zur Geschichte der <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr> und ihrer Redaktoren <abbr norm="vergleiche">vgl.</abbr>
+					Personalfragen unabhängig entscheiden werde.<com xml:id="Miszellen_c26"> Zur Geschichte der <choice>
+                                <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                                <expan>Neue Zürcher Zeitung</expan>
+                            </choice> und ihrer Redaktoren <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
 						<ref type="lit">Weisz, NZZ</ref>; <ref type="lit">Weisz, Redaktoren</ref>; <ref type="lit">Maissen, NZZ</ref>; <ref type="lit">Meyer, NZZ</ref>.</com> Dieser lange Brief lässt zwar
-					lediglich Rückschlüsse darüber zu, was Escher <idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</idx> in seinen angeblichen
+					lediglich Rückschlüsse darüber zu, was Escher <persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</persName> in seinen angeblichen
 					«Postulaten» zu den <pb n="113"/> neuen Vertragsbedingungen im einzelnen mitgeteilt haben mag;
 					allein die Tatsache aber, dass die Zusammenarbeit in der Redaktion und die
 					Konsequenzen daraus offensichtlich nicht nur innerbetrieblich diskutiert wurden,
 					verweist auf die Brisanz und Tragweite der Angelegenheit und den Einfluss
 					Eschers auf die Redaktion.</p>
 
-				<p id="Miszellen_p9"><idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuchs</idx> Brief offenbart das
+				<p xml:id="Miszellen_p9">
+                        <persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuchs</persName> Brief offenbart das
 					Dilemma des Verlags an einem konkreten Beispiel: Mitten im lang andauernden
-					Eisenbahnstreit um die Linienführung der <ref type="kbe"/> Westbahn<ref type="sum" target="Eisenbahngeschichte_d1.3.2">Westbahnkonflikt <!--→ S. 42–47--></ref>, gefolgt von der
-					Fusionsfrage der schweizerischen Eisenbahngesellschaften, war die <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr> in finanzielle Schwierigkeiten geraten,
-					weil ihre Abonnentenzahlen stark zurückgegangen waren.<com id="Miszellen_c27"> Zum Westbahnkonflikt <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Halperin, Westbahnkonflikt</ref>; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 468–482; <ref type="lit">Weisz, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 69–72; <ref type="sum" target="Eisenbahngeschichte_d1.3.2"><!--→ S. 42–47--></ref>.</com> In diesen Eisenbahnkonflikten
-					war es wiederholt zu Auseinandersetzungen zwischen den <idx type="place" norm="Bern">Berner</idx> Radikalen und den <idx type="place" norm="Zürich">Zürcher</idx> Liberalen gekommen, die auch in der Presse ihren
+					Eisenbahnstreit um die Linienführung der  Westbahn<ref type="sum" target="Eisenbahngeschichte_d1.3.2">Westbahnkonflikt <!--→ S. 42–47--></ref>, gefolgt von der
+					Fusionsfrage der schweizerischen Eisenbahngesellschaften, war die <choice>
+                            <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                            <expan>Neue Zürcher Zeitung</expan>
+                        </choice> in finanzielle Schwierigkeiten geraten,
+					weil ihre Abonnentenzahlen stark zurückgegangen waren.<com xml:id="Miszellen_c27"> Zum Westbahnkonflikt <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Halperin, Westbahnkonflikt</ref>; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 468–482; <ref type="lit">Weisz, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 69–72; <ref type="sum" target="Eisenbahngeschichte_d1.3.2"><!--→ S. 42–47--></ref>.</com> In diesen Eisenbahnkonflikten
+					war es wiederholt zu Auseinandersetzungen zwischen den <placeName key="Bern">Berner</placeName> Radikalen und den <placeName key="Zürich">Zürcher</placeName> Liberalen gekommen, die auch in der Presse ihren
 					Niederschlag fanden. Sie waren insbesondere in den beiden Repräsentanten
-					Bundesrat <ref type="kbp"/><idx type="person" norm="Stämpfli Jakob">Jakob Stämpfli </idx> und
+					Bundesrat <persName key="Stämpfli Jakob">Jakob Stämpfli </persName> und
 					Nordostbahn-Direktionspräsident Alfred Escher personifiziert und wurden
-					entsprechend in der «<idx type="place" norm="Bern">Berner</idx> Zeitung» und der «Neue <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» polemisch ausgetragen. <idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</idx> wollte deshalb «die
-					Redaction, <abbr norm="respektive / respective">resp.</abbr> den innern Werth &amp; Gehalt der <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr>tg» heben und <idx type="person" norm="Felber Peter Jakob">Felber</idx> mit zwei Hilfsredaktoren unter die
+					entsprechend in der «<placeName key="Bern">Berner</placeName> Zeitung» und der «Neue <placeName key="Zürich">Zürcher</placeName> Zeitung» polemisch ausgetragen. <persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</persName> wollte deshalb «die
+					Redaction, <choice>
+                            <abbr>resp.</abbr>
+                            <expan>respektive / respective</expan>
+                        </choice> den innern Werth &amp; Gehalt der <choice>
+                            <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                            <expan>Neue Zürcher Zeitung</expan>
+                        </choice>tg» heben und <persName key="Felber Peter Jakob">Felber</persName> mit zwei Hilfsredaktoren unter die
 					Arme greifen. Dieser wies jedoch eine finanzielle Beteiligung in Form einer
 					Gehaltsreduktion zurück und drohte mit Kündigung. Da sein polemischer
 					Schreibstil ein von Escher erwünschtes Mittel der publizistischen Entgegnung auf
 					die Anfeindungen von radikaler Seite war, erreichte er mit seiner Drohung, dass
 					die Direktion der Nordostbahn schliesslich die Differenz zu seinem bisherigen
-					Gehalt sowie die zwei Redaktorenstellen zu seiner Entlastung finanzierte<ref type="letter" target="K_1921"><!--Nr.90--></ref>. Mit diesen Massnahmen war ein Kompromiss
+					Gehalt sowie die zwei Redaktorenstellen zu seiner Entlastung finanzierte<!--Nr.90-->. Mit diesen Massnahmen war ein Kompromiss
 					gefunden, der einerseits die Redaktion personell und finanziell stärkte,
-					andererseits die Funktion der <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr> als Presseorgan der <idx type="place" norm="Zürich">Zürcher</idx> Liberalen mit <idx type="person" norm="Felber Peter Jakob">Peter Felber</idx> an der Spitze sicherte.</p>
-				<p id="Miszellen_p10"><idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</idx> unterstrich in seinem
+					andererseits die Funktion der <choice>
+                            <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                            <expan>Neue Zürcher Zeitung</expan>
+                        </choice> als Presseorgan der <placeName key="Zürich">Zürcher</placeName> Liberalen mit <persName key="Felber Peter Jakob">Peter Felber</persName> an der Spitze sicherte.</p>
+				<p xml:id="Miszellen_p10">
+                        <persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</persName> unterstrich in seinem
 					Brief seine Loyalität und sein Pflichtbewusstsein Escher gegenüber und betonte,
-					dass die <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr> ihm immer treu zu Diensten gestanden sei.
-					Er attestierte dabei auch <idx type="person" norm="Felber Peter Jakob">Felber</idx> eine «vorzügliche dialektische
+					dass die <choice>
+                            <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                            <expan>Neue Zürcher Zeitung</expan>
+                        </choice> ihm immer treu zu Diensten gestanden sei.
+					Er attestierte dabei auch <persName key="Felber Peter Jakob">Felber</persName> eine «vorzügliche dialektische
 					Begabung» und gab an, sich wiederholt für ihn persönlich eingesetzt zu haben. Er
 					spricht von Schuldgefühlen und Selbstverleugnung ebenso wie von persönlicher
-					Zuneigung, die ihn die unternehmerischen Interessen der <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr> beinahe hätten vergessen lassen. Dies
-					obwohl <idx type="person" norm="Felber Peter Jakob">Felber</idx> eine eigenwillige und streitbare
+					Zuneigung, die ihn die unternehmerischen Interessen der <choice>
+                            <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                            <expan>Neue Zürcher Zeitung</expan>
+                        </choice> beinahe hätten vergessen lassen. Dies
+					obwohl <persName key="Felber Peter Jakob">Felber</persName> eine eigenwillige und streitbare
 					Persönlichkeit war, die Sachverhalte zuspitzte und allgemein einen
-					publizistischen Stil pflegte, der vom Publikum nicht immer goutiert wurde. <idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</idx> erinnerte daran, dass
+					publizistischen Stil pflegte, der vom Publikum nicht immer goutiert wurde. <persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</persName> erinnerte daran, dass
 					selbst «Escher und seine Freunde [...] sich zeitweise sehr mißfällig über die
-					Redaktion <idx type="person" norm="Felber Peter Jakob">Felbers</idx> geäussert»<ref type="letter" target="K_1921"><!--Nr.90--></ref> hätten. Das im Brief zum Ausdruck
-					kommende Wohlwollen <idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuchs</idx> scheint indes vor
+					Redaktion <persName key="Felber Peter Jakob">Felbers</persName> geäussert»<!--Nr.90--> hätten. Das im Brief zum Ausdruck
+					kommende Wohlwollen <persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuchs</persName> scheint indes vor
 					allem rhetorisch als Rechtfertigung für seinen aktuellen Entscheid zu den
-					Anstellungsbedingungen <idx type="person" norm="Felber Peter Jakob">Felbers</idx> und seine Abgrenzungsabsicht
-					gegenüber Escher inszeniert zu sein. Denn <idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</idx> war allgemein weniger
-					an der Zeitung als am Buchverlag interessiert<ref type="letter" target="K_1921"><!--Nr.90--></ref>, und es war vor allem sein Schwiegervater <idx type="person" norm="Hagenbuch Johannes">Johannes Hagenbuch</idx>, der die internen
-					Querelen in der Redaktion bis anhin aufgefangen und an <idx type="person" norm="Felber Peter Jakob">Felber</idx> festgehalten hatte.<com id="Miszellen_c28">
-						<idx type="person" norm="Hagenbuch Johannes">Johannes Hagenbuch</idx> gehörte dem
+					Anstellungsbedingungen <persName key="Felber Peter Jakob">Felbers</persName> und seine Abgrenzungsabsicht
+					gegenüber Escher inszeniert zu sein. Denn <persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</persName> war allgemein weniger
+					an der Zeitung als am Buchverlag interessiert<!--Nr.90-->, und es war vor allem sein Schwiegervater <persName key="Hagenbuch Johannes">Johannes Hagenbuch</persName>, der die internen
+					Querelen in der Redaktion bis anhin aufgefangen und an <persName key="Felber Peter Jakob">Felber</persName> festgehalten hatte.<com xml:id="Miszellen_c28">
+						<persName key="Hagenbuch Johannes">Johannes Hagenbuch</persName> gehörte dem
 						Gründungskomitee der Kreditanstalt und später ihrem Verwaltungsrat an, mit
-						anderen Worten jenem einschlägigen Kreis liberal gesinnter Männer aus der <idx type="place" norm="Zürich">Zürcher</idx> Politik und Wirtschaft, die in engstem
+						anderen Worten jenem einschlägigen Kreis liberal gesinnter Männer aus der <placeName key="Zürich">Zürcher</placeName> Politik und Wirtschaft, die in engstem
 						Verhältnis zu Escher standen und die dieser für seine Projekte gezielt
 						ausgewählt und gewonnen hatte. Er hatte sich vom Buchhändlerlehrling in der
 						Verlagsbuchhandlung Orell Füssli &amp; Co. zum Teilhaber des Unternehmens
-						hochgearbeitet. 1849 hatte er <idx type="person" norm="Felber Peter Jakob">Peter Felber</idx> in die Redaktion berufen.
-						1854 wurde er zum alleinigen Besitzer und Herausgeber der <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr>. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 746, 752, 759–763, 793–803, 814; <ref type="lit">Weisz, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 84–85, 190–192. – Zu <idx type="person" norm="Hagenbuch Johannes">Johannes Hagenbuch</idx> und dem Verlag Orell
-						Füssli <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">NZZ</ref>, 10. Oktober 1863 (Nekrolog); <ref type="lit">Corrodi-Sulzer, Orell Füssli</ref>, <abbr norm="Seite(n)">S.</abbr> IV–V; <ref type="lit">Rychner, Orell Füssli</ref>, <abbr norm="Seite(n)">S.</abbr> 143–144; <ref type="lit">HBLS</ref> IV, <abbr norm="Seite(n)">S.</abbr> 52; <ref type="lit">Jöhr, SKA</ref>, <abbr norm="Seite(n)">S.</abbr> 557.</com>
-					<idx type="person" norm="Hagenbuch Johannes">Hagenbuch</idx> hatte <idx type="person" norm="Fisch-Hagenbuch Friedrich">seinen Schwiegersohn</idx> als Teilhaber
+						hochgearbeitet. 1849 hatte er <persName key="Felber Peter Jakob">Peter Felber</persName> in die Redaktion berufen.
+						1854 wurde er zum alleinigen Besitzer und Herausgeber der <choice>
+                                <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                                <expan>Neue Zürcher Zeitung</expan>
+                            </choice>. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 746, 752, 759–763, 793–803, 814; <ref type="lit">Weisz, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 84–85, 190–192. – Zu <persName key="Hagenbuch Johannes">Johannes Hagenbuch</persName> und dem Verlag Orell
+						Füssli <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">NZZ</ref>, 10. Oktober 1863 (Nekrolog); <ref type="lit">Corrodi-Sulzer, Orell Füssli</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> IV–V; <ref type="lit">Rychner, Orell Füssli</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 143–144; <ref type="lit">HBLS</ref> IV, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 52; <ref type="lit">Jöhr, SKA</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 557.</com>
+					<persName key="Hagenbuch Johannes">Hagenbuch</persName> hatte <persName key="Fisch-Hagenbuch Friedrich">seinen Schwiegersohn</persName> als Teilhaber
 					ins Unternehmen aufgenommen und ihm angesichts seines Alters und seiner
 					zunehmenden Gebrechlichkeit die Leitung des Verlags nach und nach übertragen.
-					Der sich anbahnende Generationswechsel wirkte sich indes immer deutlicher auf <idx type="person" norm="Felber Peter Jakob">Felber</idx> aus, der den Verlust des «Zutrauens»
+					Der sich anbahnende Generationswechsel wirkte sich indes immer deutlicher auf <persName key="Felber Peter Jakob">Felber</persName> aus, der den Verlust des «Zutrauens»
 					des neuen Verlegers beklagte. Ende 1861 warf er schliesslich das Handtuch und
 					hoffte, «in dem großen Wirkkreise des Herrn Escher irgendeine Arbeitsstelle» zu
-					finden.<com id="Miszellen_c29">
-						<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="third-party-letter">Brief Peter Felber an Jakob Dubs, 17. März 1862</ref>,
-						gedruckt in Auszügen, in: <ref type="lit">Weisz, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 154–155.</com> «Herr Escher hat aber einen
-					andern als den von mir [<idx type="person" norm="Felber Peter Jakob">Felber</idx>] beabsichtigten Weg für gut befunden
-					und die Vermittlung zwischen dem <pb n="114"/> Chef unseres Hauses [<idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</idx>] und mir versucht.»<com id="Miszellen_c30">
-						<ref type="third-party-letter">Brief Peter Felber an Jakob Dubs, 17. März 1862</ref>, <abbr norm="zitiert">zit.</abbr>
-						<ref type="lit">Weisz, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 154. – <idx type="person" norm="Felber Peter Jakob">Felber</idx> hatte in demselben Brief <idx type="person" norm="Dubs Jakob">Dubs</idx> unter anderem selbst um «ein Zeichen» des
-						Wohlwollens <ref type="kbp"/>
-						<idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuchs</idx> und um das
-						Erwirken eines langfristigen Vertrags ersucht. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="third-party-letter">Brief Peter Felber an Jakob Dubs, 17. März 1862</ref>, <abbr norm="zitiert">zit.</abbr>
-						<ref type="lit">Weisz, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 154–155.</com>
-					<idx type="person" norm="Felber Peter Jakob">Felber</idx> sollte demnach in der Redaktion
-					verbleiben und erhielt den eingangs erwähnten langfristigen Vertrag.<com id="Miszellen_c31"> Escher war durch den <idx type="place" norm="St. Gallen">St. Galler</idx> Nationalrat <idx type="person" norm="Curti Basil Ferdinand">Basil Curti</idx>, der ein Jugendfreund <idx type="person" norm="Felber Peter Jakob">Felbers</idx> war, über dessen Kündigung
-						informiert worden. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="third-party-letter">Brief Peter Felber an Jakob Dubs, 17. März 1862</ref>, <abbr norm="zitiert">zit.</abbr>
-						<ref type="lit">Weisz, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 154.</com> </p>
+					finden.<com xml:id="Miszellen_c29">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Brief Peter Felber an Jakob Dubs, 17. März 1862,
+						gedruckt in Auszügen, in: <ref type="lit">Weisz, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 154–155.</com> «Herr Escher hat aber einen
+					andern als den von mir [<persName key="Felber Peter Jakob">Felber</persName>] beabsichtigten Weg für gut befunden
+					und die Vermittlung zwischen dem <pb n="114"/> Chef unseres Hauses [<persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</persName>] und mir versucht.»<com xml:id="Miszellen_c30">
+						Brief Peter Felber an Jakob Dubs, 17. März 1862, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice>
+						<ref type="lit">Weisz, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 154. – <persName key="Felber Peter Jakob">Felber</persName> hatte in demselben Brief <persName key="Dubs Jakob">Dubs</persName> unter anderem selbst um «ein Zeichen» des
+						Wohlwollens 
+						<persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuchs</persName> und um das
+						Erwirken eines langfristigen Vertrags ersucht. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Brief Peter Felber an Jakob Dubs, 17. März 1862, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice>
+						<ref type="lit">Weisz, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 154–155.</com>
+					<persName key="Felber Peter Jakob">Felber</persName> sollte demnach in der Redaktion
+					verbleiben und erhielt den eingangs erwähnten langfristigen Vertrag.<com xml:id="Miszellen_c31"> Escher war durch den <placeName key="St. Gallen">St. Galler</placeName> Nationalrat <persName key="Curti Basil Ferdinand">Basil Curti</persName>, der ein Jugendfreund <persName key="Felber Peter Jakob">Felbers</persName> war, über dessen Kündigung
+						informiert worden. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Brief Peter Felber an Jakob Dubs, 17. März 1862, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice>
+						<ref type="lit">Weisz, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 154.</com> </p>
 
-				<p id="Miszellen_p11">Escher ging nicht weiter auf <idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuchs</idx> Bestreben nach einem
+				<p xml:id="Miszellen_p11">Escher ging nicht weiter auf <persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuchs</persName> Bestreben nach einem
 					autonomen Personalentscheid ein und setzte sich damit auch über dessen
-					finanzielle Bedenken hinweg. <idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</idx> war empört: «Lieber
+					finanzielle Bedenken hinweg. <persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</persName> war empört: «Lieber
 					will ich schließlich die Zeitung verschenken oder verkaufen, als länger Sklave
 					und dazu der Schleppträger von Personen und Interessen zu sein, welche jene nur
 					als Mittel betrachten, ohne sich sonst irgend um deren Existenz zu kümmern. Die
-					Kämpfe mit der Union Suisse [<ref type="kbe"/> Vereinigte Schweizerbahnen], <idx type="place" norm="Oron-la-Ville">Oron</idx>-Ostwestbahn [<ref type="kbe"/><idx type="place" norm="Lausanne">Lausanne</idx>– <idx type="place" norm="Freiburg im Üechtland">Fribourg</idx>–<idx type="place" norm="Bern (Stadt)">Bern</idx>-Bahn] <abbr norm="und so weiter">usw.</abbr> haben mir schlaflose Nächte und viel Arbeit
-					verursacht und unserm Hause eine Einbuße von 40 000 Francs, allerwenigstens.»<com id="Miszellen_c32"> Brief <idx type="person" norm="Fisch-Hagenbuch Friedrich">Friedrich Fisch-Hagenbuch</idx> an <idx type="person" norm="Dubs Jakob">Jakob Dubs</idx>, <abbr norm="sine dato (undatiert)">s. d.</abbr>, <abbr norm="zitiert">zit.</abbr>
+					Kämpfe mit der Union Suisse [ Vereinigte Schweizerbahnen], <placeName key="Oron-la-Ville">Oron</placeName>-Ostwestbahn [<placeName key="Lausanne">Lausanne</placeName>– <placeName key="Freiburg im Üechtland">Fribourg</placeName>–<placeName key="Bern (Stadt)">Bern</placeName>-Bahn] <choice>
+                            <abbr>usw.</abbr>
+                            <expan>und so weiter</expan>
+                        </choice> haben mir schlaflose Nächte und viel Arbeit
+					verursacht und unserm Hause eine Einbuße von 40 000 Francs, allerwenigstens.»<com xml:id="Miszellen_c32"> Brief <persName key="Fisch-Hagenbuch Friedrich">Friedrich Fisch-Hagenbuch</persName> an <persName key="Dubs Jakob">Jakob Dubs</persName>, <choice>
+                                <abbr>s. d.</abbr>
+                                <expan>sine dato (undatiert)</expan>
+                            </choice>, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice>
 						<ref type="lit">Züricher Post</ref>, 1. Februar 1903.</com> </p>
 
-				<p id="Miszellen_p12">Es sollte das letzte Mal sein, dass <idx type="person" norm="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</idx> einlenkte.<com id="Miszellen_c33"> 1868 verkaufte er die Zeitung tatsächlich. Der 1866
-						gegründete «Politische Gemeindeverein» übernahm unter seinem Präsidenten <idx type="person" norm="Escher (vom Glas) Eugen">Eugen Escher</idx> 1868 die <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr> und gründete eine Aktiengesellschaft. <idx type="person" norm="Escher (vom Glas) Eugen">Eugen Escher</idx> wurde der neue
-						Chefredaktor. <idx type="person" norm="Felber Peter Jakob">Felber</idx> konnte noch bis zu seinem Tod
+				<p xml:id="Miszellen_p12">Es sollte das letzte Mal sein, dass <persName key="Fisch-Hagenbuch Friedrich">Fisch-Hagenbuch</persName> einlenkte.<com xml:id="Miszellen_c33"> 1868 verkaufte er die Zeitung tatsächlich. Der 1866
+						gegründete «Politische Gemeindeverein» übernahm unter seinem Präsidenten <persName key="Escher (vom Glas) Eugen">Eugen Escher</persName> 1868 die <choice>
+                                <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                                <expan>Neue Zürcher Zeitung</expan>
+                            </choice> und gründete eine Aktiengesellschaft. <persName key="Escher (vom Glas) Eugen">Eugen Escher</persName> wurde der neue
+						Chefredaktor. <persName key="Felber Peter Jakob">Felber</persName> konnte noch bis zu seinem Tod
 						1872 in der Redaktion verbleiben, hatte aber keinen massgeblichen Einfluss
-						mehr. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Meyer, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 59–64.</com> Er war nicht mehr bereit, Eschers
+						mehr. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Meyer, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 59–64.</com> Er war nicht mehr bereit, Eschers
 					liberale Interessen bedingungslos zu vertreten und dabei finanzielle Einbussen
-					hinzunehmen. Er stufte deshalb <idx type="person" norm="Felber Peter Jakob">Peter Felber</idx> zum Ressortleiter zurück und
+					hinzunehmen. Er stufte deshalb <persName key="Felber Peter Jakob">Peter Felber</persName> zum Ressortleiter zurück und
 					entzog ihm die Zuständigkeit für den Lokalbereich, so dass er sich nicht mehr
-					öffentlich zur <idx type="place" norm="Zürich">Zürcher</idx> Politik äussern konnte.<com id="Miszellen_c34">
-						<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Maissen, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 51–52; <ref type="lit">Weisz, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 190–192, 247–257.</com>
-					<idx type="person" norm="Felber Peter Jakob">Felber</idx> seinerseits hätte Escher weiterhin
+					öffentlich zur <placeName key="Zürich">Zürcher</placeName> Politik äussern konnte.<com xml:id="Miszellen_c34">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Maissen, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 51–52; <ref type="lit">Weisz, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 190–192, 247–257.</com>
+					<persName key="Felber Peter Jakob">Felber</persName> seinerseits hätte Escher weiterhin
 					unterstützt, und seine publizistischen Qualitäten wären im Zuge der
 					Verfassungsrevision und dem Erstarken der demokratischen Bewegung im weiteren
-					Verlauf der 1860er Jahre sicherlich hilfreich gewesen.<com id="Miszellen_c35"> Zur Verfassungsrevision und zu der demokratischen
-						Bewegung aus publizistischer Sicht <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Weisz, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 193–231, 247–257; <ref type="lit">Meyer, NZZ</ref>, <abbr norm="Seite(n)">S.</abbr> 55–58.</com> Escher sah sich in der Folge
-					nicht mehr hinreichend durch die <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr> vertreten und zog sich mehr und mehr von
+					Verlauf der 1860er Jahre sicherlich hilfreich gewesen.<com xml:id="Miszellen_c35"> Zur Verfassungsrevision und zu der demokratischen
+						Bewegung aus publizistischer Sicht <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Weisz, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 193–231, 247–257; <ref type="lit">Meyer, NZZ</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 55–58.</com> Escher sah sich in der Folge
+					nicht mehr hinreichend durch die <choice>
+                            <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                            <expan>Neue Zürcher Zeitung</expan>
+                        </choice> vertreten und zog sich mehr und mehr von
 					ihr zurück.</p>
 			</div>
 
-			<div id="Miszellen_d1.3">
+			<div xml:id="Miszellen_d1.3">
 				<head>Die Aufhebung des Klosters Rheinau und die Auswirkungen auf das Projekt der
 					eidgenössischen Universität</head>
-				<p id="Miszellen_p13">Alfred Escher war am <d norm="24.12.1861">24. Dezember 1861</d> in die Kommission zur Prüfung des
-					Gesetzesentwurfs zur Aufhebung des Stiftes <idx type="place" norm="Rheinau (Kloster)">Rheinau</idx> des <idx type="place" norm="Zürich">Zürcher</idx> Grossen Rats gewählt worden. Kaum drei Monate
+				<p xml:id="Miszellen_p13">Alfred Escher war am <date when="1861-12-24">24. Dezember 1861</date> in die Kommission zur Prüfung des
+					Gesetzesentwurfs zur Aufhebung des Stiftes <placeName key="Rheinau (Kloster)">Rheinau</placeName> des <placeName key="Zürich">Zürcher</placeName> Grossen Rats gewählt worden. Kaum drei Monate
 					später fiel der endgültige Entscheid zur Aufhebung dieses Benediktinerklosters.
-					Am <d norm="22.04.1862">22. April 1862</d> wurde ein entsprechendes Gesetz
-					erlassen, und am <d norm="06.05.1862">6.</d>/<d norm="07.05.1862">7. Mai</d> fand die offizielle Übergabe an die kantonalen
-					Behörden statt.<com id="Miszellen_c36">
-						<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Prot. Grosser Rat ZH</ref>, 3. März 1862 (<abbr norm="Seite(n)">S.</abbr> 271–275), 22. April
-							1862 (<abbr norm="Seite(n)">S.</abbr> 284–286); <ref type="lit">NZZ</ref>, 25. Dezember 1861, 23. April 1862; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 906, 1006–1007. – Zur Aufhebung des <idx type="place" norm="Rheinau (Kloster)">Klosters Rheinau</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
+					Am <date when="1862-04-22">22. April 1862</date> wurde ein entsprechendes Gesetz
+					erlassen, und am <date when="1862-05-06">6.</date>/<date when="1862-05-07">7. Mai</date> fand die offizielle Übergabe an die kantonalen
+					Behörden statt.<com xml:id="Miszellen_c36">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Prot. Grosser Rat ZH</ref>, 3. März 1862 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 271–275), 22. April
+							1862 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 284–286); <ref type="lit">NZZ</ref>, 25. Dezember 1861, 23. April 1862; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 906, 1006–1007. – Zur Aufhebung des <placeName key="Rheinau (Kloster)">Klosters Rheinau</placeName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
 						<ref type="lit">Schoch, Kloster Rheinau</ref>; <ref type="lit">Schoch, Aufhebung Rheinau</ref>.</com> Die so besiegelte
 					Klosteraufhebung hatte indes eine längere Vorgeschichte, auf die der Grosse Rat
-					in seiner Begründung rekurrierte.<com id="Miszellen_c37"> Bereits in den 1830er Jahren war dieses einzige
+					in seiner Begründung rekurrierte.<com xml:id="Miszellen_c37"> Bereits in den 1830er Jahren war dieses einzige
 						katholische Kloster auf Kantonsgebiet im Zuge der Regeneration ins Visier
-						der herrschenden radikal-liberalen Politik geraten. In den Kantonen <idx type="place" norm="Aargau">Aargau</idx> und <idx type="place" norm="St. Gallen">St. Gallen </idx> waren die Klöster bereits damals
-						unter Staatsverwaltung gestellt worden, was auch im protestantischen Kanton <idx type="place" norm="Zürich">Zürich</idx> die Aufhebungsfrage belebte. Das <idx type="place" norm="Rheinau (Kloster)">Kloster Rheinau</idx> war 1836 der kantonalen
+						der herrschenden radikal-liberalen Politik geraten. In den Kantonen <placeName key="Aargau">Aargau</placeName> und <placeName key="St. Gallen">St. Gallen </placeName> waren die Klöster bereits damals
+						unter Staatsverwaltung gestellt worden, was auch im protestantischen Kanton <placeName key="Zürich">Zürich</placeName> die Aufhebungsfrage belebte. Das <placeName key="Rheinau (Kloster)">Kloster Rheinau</placeName> war 1836 der kantonalen
 						Verwaltung unterstellt, zu Beitragszahlungen an die Volksschule und die
-						katholische Pfarrstelle in <idx type="place" norm="Zürich">Zürich</idx> verpflichtet und so in seiner Autonomie
+						katholische Pfarrstelle in <placeName key="Zürich">Zürich</placeName> verpflichtet und so in seiner Autonomie
 						beschränkt worden. Das gleichzeitig erlassene Aufnahmeverbot von Novizen und
 						Geistlichen aus anderen Klöstern kam langfristig einer Aufhebung auf
 						«natürlichem» Wege gleich. Das Kloster sofort aufzuheben hatte einen
 						entscheidenden Nachteil, wie auch Escher fünfzehn Jahre später, 1851, in
-						einem Brief an den liberalen katholischen Pfarrer <ref type="kbp"/>
-						<idx type="person" norm="Federer Josef Anton Sebastian">Josef Anton Sebastian Federer</idx>
-						festhielt: «Schon sehr lange ist im <abbr norm="Canton">Ctn.</abbr>
-						<idx type="place" norm="Zürich">Zürich</idx> davon die Rede, dieses Kloster aufzuheben
+						einem Brief an den liberalen katholischen Pfarrer 
+						<persName key="Federer Josef Anton Sebastian">Josef Anton Sebastian Federer</persName>
+						festhielt: «Schon sehr lange ist im <choice>
+                                <abbr>Ctn.</abbr>
+                                <expan>Canton</expan>
+                            </choice>
+						<placeName key="Zürich">Zürich</placeName> davon die Rede, dieses Kloster aufzuheben
 						&amp; wohl wäre es schon längst aufgehoben worden, wenn nicht beinahe die
-						Hälfte seiner Güter im Großherzogthum <idx type="place" norm="Baden (Grossherzogtum)">Baden</idx> läge &amp; dieser Staat das
+						Hälfte seiner Güter im Großherzogthum <placeName key="Baden (Grossherzogtum)">Baden</placeName> läge &amp; dieser Staat das
 						Epavenrecht geltend machen würde. Vielleicht wird man trotz dieses
-						ungünstigen Umstandes das Kloster säcularisiren [...].» <ref type="letter" target="K_0910"><!--Brief Escher an Josef Anton Sebastian Federer, 5. August
-							1851 (KBSG Federer)--></ref>. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_0910"><!--Jung/Wiederkehr, Escher Briefe, Bd. 4, S. 198–201--></ref>; <ref type="letter" target="K_0911"><!--Jung/Wiederkehr, Escher Briefe, Bd. 4, S. 198–201--></ref>. – Epavenrecht: Heimfallsrecht. Ein nicht unerheblicher
+						ungünstigen Umstandes das Kloster säcularisiren [...].» <!--Brief Escher an Josef Anton Sebastian Federer, 5. August
+							1851 (KBSG Federer)-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Jung/Wiederkehr, Escher Briefe, Bd. 4, S. 198–201-->; <!--Jung/Wiederkehr, Escher Briefe, Bd. 4, S. 198–201-->. – Epavenrecht: Heimfallsrecht. Ein nicht unerheblicher
 						Teil der ausserkantonalen Ländereien und Güter des Klosters lag auf dem
-						Gebiet des Grossherzogtums <idx type="place" norm="Baden (Grossherzogtum)">Baden</idx> und wurde von diesem im Falle
+						Gebiet des Grossherzogtums <placeName key="Baden (Grossherzogtum)">Baden</placeName> und wurde von diesem im Falle
 						einer Klosteraufhebung aufgrund des Heimfallsrechts mit einem
-						staatsrechtlichen Beschlag belegt. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10002133">Staatsvertrag zwischen der schweizerischen
+						staatsrechtlichen Beschlag belegt. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10002133">Staatsvertrag zwischen der schweizerischen
 						Eidgenossenschaft und dem Grossherzogthum Baden, betreffend die
 						gegenseitigen Bedingungen über Freizügigkeit und weitere nachbarliche
 						Verhältnisse (vom 6. Dezember 1856), in: <ref type="lit">BBl</ref> 1857
-						I, S. 107–109</ref>; <ref type="lit">Inauen, Brennpunkt Schweiz</ref>, <abbr norm="Seite(n)">S.</abbr> 214–215. – Zur Regenerationszeit im Kanton <idx type="place" norm="Zürich">Zürich</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Wettstein, Regeneration</ref>; <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <abbr norm="Seite(n)">S.</abbr> 81–116. – Zum Kirchenwesen in der
-						Regenerationszeit <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Wettstein, Regeneration</ref>, <abbr norm="Seite(n)">S.</abbr> 437–454.</com> Er habe einerseits die «für
+						I, S. 107–109</ref>; <ref type="lit">Inauen, Brennpunkt Schweiz</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 214–215. – Zur Regenerationszeit im Kanton <placeName key="Zürich">Zürich</placeName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Wettstein, Regeneration</ref>; <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 81–116. – Zum Kirchenwesen in der
+						Regenerationszeit <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Wettstein, Regeneration</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 437–454.</com> Er habe einerseits die «für
 					Staat und Kloster unwürdigen Verhältnisse» zu einem Ende bringen, andererseits
 					den zahlreich eingegangenen Gesuchen um eine Wiedereinsetzung des Klosters nicht
 					entsprechen wollen, weil er meinte, damit seine radikal-liberalen Vorgänger in
-					Frage zu stellen und zu desavouieren.<com id="Miszellen_c38"> Seit den 1830er Jahren hatte sich die Zahl der Mönche
-						aufgrund eines Novizenaufnahmeverbots von etwa sechzig auf elf verringert. <abbr norm="Vergleiche">Vgl.</abbr> Rede des Regierungsratspräsidenten Ulrich
+					Frage zu stellen und zu desavouieren.<com xml:id="Miszellen_c38"> Seit den 1830er Jahren hatte sich die Zahl der Mönche
+						aufgrund eines Novizenaufnahmeverbots von etwa sechzig auf elf verringert. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Rede des Regierungsratspräsidenten Ulrich
 						Zehnder in der Sitzung des Grossen Rats vom 23. Dezember 1861, in: <ref type="lit">NZZ</ref>, 25. Dezember 1861 sowie sein Votum im Grossen Rat
 						als Referent der Kommission, in: <ref type="lit">NZZ</ref>, 19. Dezember 1861, 4. März 1862, 5. März 1862. –
-						Zu den Gesuchen um die Wiedereinsetzung des <idx type="place" norm="Rheinau (Kloster)">Klosters Rheinau</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">NZZ</ref>, 25. Dezember 1861, 4. März 1862; <ref type="lit">Schoch, Kloster Rheinau</ref>, <abbr norm="Seite(n)">S.</abbr> 90–92.</com> Für Escher war die Aufhebung
+						Zu den Gesuchen um die Wiedereinsetzung des <placeName key="Rheinau (Kloster)">Klosters Rheinau</placeName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">NZZ</ref>, 25. Dezember 1861, 4. März 1862; <ref type="lit">Schoch, Kloster Rheinau</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 90–92.</com> Für Escher war die Aufhebung
 					«lediglich die Konsequenz von Schlußnahmen, welche der Große Rath seit einem
-					Vierteljahrhundert in dieser Angelegenheit zu fassen sich veranlaßt fand».<com id="Miszellen_c39"> Eschers Eröffnungsrede im Grossen Rat vom <d norm="23.12.1861">23. Dezember 1861</d>, in: <ref type="lit">NZZ</ref>, 24. Dezember 1861.</com> Dies zeigt, wie sehr der
+					Vierteljahrhundert in dieser Angelegenheit zu fassen sich veranlaßt fand».<com xml:id="Miszellen_c39"> Eschers Eröffnungsrede im Grossen Rat vom <date when="1861-12-23">23. Dezember 1861</date>, in: <ref type="lit">NZZ</ref>, 24. Dezember 1861.</com> Dies zeigt, wie sehr der
 					Geist der einstigen Reformpartei noch immer nachwirkte, aber insbesondere auch,
-					wie stark Escher selbst von dieser politischen Bewegung geprägt war.<com id="Miszellen_c40">Zu ihren Vertretern zählte beispielsweise <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Friedrich Ludwig
-							Keller</idx>, Eschers Doktorvater und Kopf der damaligen
-						radikal-liberalen Partei des Kantons <idx type="place" norm="Zürich">Zürich</idx>, oder <ref type="kbp"/>
-						<idx type="person" norm="Furrer Jonas">Jonas Furrer</idx>, Eschers enger Freund und Mentor,
-						der in ihm nach dem <idx type="place" norm="Zürich">Zürich</idx>putsch einen hoffnungsvollen Vertreter der
+					wie stark Escher selbst von dieser politischen Bewegung geprägt war.<com xml:id="Miszellen_c40">Zu ihren Vertretern zählte beispielsweise <persName key="Keller (vom Steinbock) Friedrich Ludwig">Friedrich Ludwig
+							Keller</persName>, Eschers Doktorvater und Kopf der damaligen
+						radikal-liberalen Partei des Kantons <placeName key="Zürich">Zürich</placeName>, oder 
+						<persName key="Furrer Jonas">Jonas Furrer</persName>, Eschers enger Freund und Mentor,
+						der in ihm nach dem <placeName key="Zürich">Zürich</placeName>putsch einen hoffnungsvollen Vertreter der
 						neuen Generation sah, dem er die Erneuerung der liberalen Partei im Kampf
-						gegen die Konservativen zutraute. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="sum" target="Freunde_und_Bekannte_p21"><!--Jung/Fischer, Escher Briefe, Bd. 2, S. 20--></ref>; <ref type="sum" target="Hochschulmotion_d1"><!--Jung/Fischer, Escher Briefe, Bd. 2, S. 37–43--></ref>; <ref type="lit">Jung/Koch, Escher Briefe, Band 3</ref>; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 78–79, 96–97, 156–158, 173–181; <ref type="lit">Schmid, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 63–65; <ref type="lit">Gagliardi, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 126–128. – Zum <idx type="place" norm="Zürich">Zürich</idx>putsch 1839 und Eschers Einstieg in die
-						Politik <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 155–195.</com> </p>
-				<p id="Miszellen_p14">Trotz dieser rhetorisch-argumentativen Anknüpfung an frühere
+						gegen die Konservativen zutraute. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="sum" target="Freunde_und_Bekannte_p21"><!--Jung/Fischer, Escher Briefe, Bd. 2, S. 20--></ref>; <ref type="sum" target="Hochschulmotion_d1"><!--Jung/Fischer, Escher Briefe, Bd. 2, S. 37–43--></ref>; <ref type="lit">Jung/Koch, Escher Briefe, Band 3</ref>; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 78–79, 96–97, 156–158, 173–181; <ref type="lit">Schmid, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 63–65; <ref type="lit">Gagliardi, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 126–128. – Zum <placeName key="Zürich">Zürich</placeName>putsch 1839 und Eschers Einstieg in die
+						Politik <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 155–195.</com> </p>
+				<p xml:id="Miszellen_p14">Trotz dieser rhetorisch-argumentativen Anknüpfung an frühere
 					Debatten sah sich der Grosse Rat mit hartnäckigen Vorwürfen des
-					Bereicherungsverdachts und der Diskriminierung der Katholiken konfrontiert.<com id="Miszellen_c41"> Das in Anmerkung 37 erwähnte Epavenrecht bestand 1862
-						nicht mehr. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Inauen, Brennpunkt Schweiz</ref>, <abbr norm="Seite(n)">S.</abbr> 214–215.</com> Er versuchte sich dagegen zu
+					Bereicherungsverdachts und der Diskriminierung der Katholiken konfrontiert.<com xml:id="Miszellen_c41"> Das in Anmerkung 37 erwähnte Epavenrecht bestand 1862
+						nicht mehr. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Inauen, Brennpunkt Schweiz</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 214–215.</com> Er versuchte sich dagegen zu
 					verwahren und betonte, das Klostervermögen werde in erster Linie für die
 					kirchlichen Bedürfnisse der seit dem freien Niederlassungsrecht stetig
 					erweiterten katholischen Gemeinden, aber auch für die Priesterausbildung sowie
-					die Armen- und Krankenversorgung verwendet.<com id="Miszellen_c42">
-						<abbr norm="Vergleiche">Vgl.</abbr> Gesetzesentwurf betreffend die Aufhebung
+					die Armen- und Krankenversorgung verwendet.<com xml:id="Miszellen_c42">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Gesetzesentwurf betreffend die Aufhebung
 						des Stiftes Rheinau und Weisung des Regierungsrathes an den hohen Großen
 						Rath zu dem Gesetzesentwurf betreffend die Aufhebung des Stiftes Rheinau,
 						in: <ref type="lit">Amtsblatt ZH</ref>, 17. Dezember 1861 (S. 1616–1621); <ref type="lit">NZZ</ref>, 4. März 1862.</com> Escher hatte in seiner
@@ -452,107 +876,149 @@
 					krankhafter Sentimentalität, von dem sichern Kompasse des gesunden
 					Menschenverstandes geleitet, entschlossen vorwärts auf der bisher von dem Großen
 					Rathe in dieser Angelegenheit eingeschlagenen Bahn und vergessen wir nicht, daß
-					wenn die Säkularisation des <idx type="place" norm="Rheinau (Kloster)">Klosters Rheinau</idx> erst jetzt ausgesprochen
+					wenn die Säkularisation des <placeName key="Rheinau (Kloster)">Klosters Rheinau</placeName> erst jetzt ausgesprochen
 					wird, dies lediglich äußern und zufälligen Umständen zuzuschreiben ist, welche
-					bisanhin der Aufhebung des Stiftes hindernd in den Weg traten.»<com id="Miszellen_c43"> Eschers Eröffnungsrede zur ordentlichen Wintersitzung
+					bisanhin der Aufhebung des Stiftes hindernd in den Weg traten.»<com xml:id="Miszellen_c43"> Eschers Eröffnungsrede zur ordentlichen Wintersitzung
 						des Grossen Rats am 23. Dezember 1861, in: <ref type="lit">NZZ</ref>, 24. Dezember 1861.</com> Mit solchen Statements
 					verärgerte er die konservativen Katholiken der Zentralschweiz ebenso wie
-					reformiert-konservative Kreise, die dem <idx type="place" norm="Rheinau (Kloster)">Kloster Rheinau</idx> Sympathie entgegenbrachten.
-					Dies bestätigte ihm auch der Direktionspräsident der Rentenanstalt, <ref type="kbp"/>
-					<idx type="person" norm="Widmer Johann Conrad">Johann Conrad Widmer</idx>, den er eigens zur
+					reformiert-konservative Kreise, die dem <placeName key="Rheinau (Kloster)">Kloster Rheinau</placeName> Sympathie entgegenbrachten.
+					Dies bestätigte ihm auch der Direktionspräsident der Rentenanstalt, 
+					<persName key="Widmer Johann Conrad">Johann Conrad Widmer</persName>, den er eigens zur
 					Sondierung der Stimmungslage in die Zentralschweiz geschickt hatte, in seinem
-					Brief vom <d norm="06.05.1862">6. Mai 1862</d> <ref type="letter" target="K_1929"><!--Nr.92--></ref>. <idx type="person" norm="Widmer Johann Conrad">Widmer</idx> hob im wesentlichen zwei Umstände
+					Brief vom <date when="1862-05-06">6. Mai 1862</date> <!--Nr.92-->. <persName key="Widmer Johann Conrad">Widmer</persName> hob im wesentlichen zwei Umstände
 					hervor, welche die dortigen Katholiken und insbesondere konservative Kreise
-					gegen <idx type="place" norm="Zürich">Zürich</idx> aufgebracht hatten: der allgemeine Eindruck, der
-					Protestantismus nehme überhand, und eben die Rhetorik, mit der die Aufhebung des <idx type="place" norm="Rheinau (Kloster)">Klosters Rheinau</idx> einhergegangen war.</p>
+					gegen <placeName key="Zürich">Zürich</placeName> aufgebracht hatten: der allgemeine Eindruck, der
+					Protestantismus nehme überhand, und eben die Rhetorik, mit der die Aufhebung des <placeName key="Rheinau (Kloster)">Klosters Rheinau</placeName> einhergegangen war.</p>
 
-				<p id="Miszellen_p15">Escher hatte sich durch seine kompromisslose Haltung und
+				<p xml:id="Miszellen_p15">Escher hatte sich durch seine kompromisslose Haltung und
 					seine unsensiblen Äusserungen in einer Weise exponiert, die sich nun
 					hinsichtllich eines Unternehmens, das in erheblichem Umfang auf die
 					Zentralschweizer Unterstützung angewiesen war, immer deutlicher abzeichnete. Die
-					Rede ist von der eidgenössischen Universität<ref type="letter" target="K_1926"><!--Nr.91--></ref>. Escher hatte das 1854 im Ständerat
+					Rede ist von der eidgenössischen Universität<!--Nr.91-->. Escher hatte das 1854 im Ständerat
 					gescheiterte Projekt im Herbst 1861 wieder ins Auge gefasst und wollte ihm,
 					zusammen mit seinem langjährigen Freund und Präsidenten des Schweizerischen
-					Lehrervereins, <idx type="person" norm="Fries David">David Fries</idx> <ref type="letter" target="K_1929"><!--Nr.92--></ref>, neuen Aufwind geben.<com id="Miszellen_c44"> Zur eidgenössischen Universität und den Hochschulfragen
-						allgemein <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 854–889. – Zur Wiederaufnahme des Projekts der
-						eidgenössischen Universität in den 1860er Jahren <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 900–913.</com> Da dieses Projekt schon früher
+					Lehrervereins, <persName key="Fries David">David Fries</persName> <!--Nr.92-->, neuen Aufwind geben.<com xml:id="Miszellen_c44"> Zur eidgenössischen Universität und den Hochschulfragen
+						allgemein <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 854–889. – Zur Wiederaufnahme des Projekts der
+						eidgenössischen Universität in den 1860er Jahren <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 900–913.</com> Da dieses Projekt schon früher
 					mit Eschers persönlichem Ehrgeiz assoziiert worden war, erstaunt es wenig, dass
 					aufgrund seiner unnachgiebigen Haltung in der Aufhebungsfrage schnell wieder
 					eine Verbindung zwischen einer allfälligen Verwendung des Klostervermögens und
-					der Finanzierung der eidgenössischen Universität hergestellt war.<com id="Miszellen_c45">
-						<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 870.</com> Obwohl Escher dies stets
+					der Finanzierung der eidgenössischen Universität hergestellt war.<com xml:id="Miszellen_c45">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 870.</com> Obwohl Escher dies stets
 					zurückgewiesen hatte, gibt es Anzeichen, die auf einen entsprechenden
 					Zusammenhang hindeuten. Als nämlich im Grossen Rat über die Verwendung des für
-					Bildungszwecke vorgesehenen Teils des <idx type="place" norm="Rheinau (Kloster)">Rheinauer</idx> Vermögens beraten wurde,
+					Bildungszwecke vorgesehenen Teils des <placeName key="Rheinau (Kloster)">Rheinauer</placeName> Vermögens beraten wurde,
 					entwickelte Escher die folgende Vision: Aus einer alten, nicht mehr zeitgemässen
 					Institution wie dem Kloster sollte ein «neues Monument geschaffen werden, auf
-					das man noch in spätern Zeiten hinweisen könne».<com id="Miszellen_c46">
+					das man noch in spätern Zeiten hinweisen könne».<com xml:id="Miszellen_c46">
 						<ref type="lit">NZZ</ref>, 3. Juli 1863.</com> Escher stellte die
-					Hochschulfrage als ein unmittelbares Interesse von <idx type="place" norm="Zürich">Zürichs</idx> eidgenössischer Politik dar. Weil die
+					Hochschulfrage als ein unmittelbares Interesse von <placeName key="Zürich">Zürichs</placeName> eidgenössischer Politik dar. Weil die
 					Bundesversammlung, wie er meinte, jederzeit eine eidgenössische Universität
-					beschliessen könne, müsse sich <idx type="place" norm="Zürich">Zürich</idx> zwischenzeitlich durch die gezielte Förderung
+					beschliessen könne, müsse sich <placeName key="Zürich">Zürich</placeName> zwischenzeitlich durch die gezielte Förderung
 					seiner kantonalen Universität als Standort prädestinieren, wozu nun auch die
 					Mittel verfügbar seien. Er verband damit ein kantonales Bildungsinteresse mit
 					der eidgenössischen Universität und dem Klostervermögen und beförderte so die
 					Zustimmung zum Kommissionsantrag bei der abschliessenden Abstimmung im Grossen
 					Rat. Gleichzeitig lieferte er damit seinen Gegnern aber auch einen Anlass für
-					ihre Polemik und bestätigte die in ihren Augen vorliegende Bereicherungsabsicht.<com id="Miszellen_c47">
-						<abbr norm="Vergleiche">Vgl.</abbr>
+					ihre Polemik und bestätigte die in ihren Augen vorliegende Bereicherungsabsicht.<com xml:id="Miszellen_c47">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">NZZ</ref>, 23. Januar 1862, 13. April 1862, 20. November
 						1862.</com> </p>
 
-				<p id="Miszellen_p16">Eine weitere Schwierigkeit zeichnete sich seit dem <d norm="31.03.1862">31. März 1862</d> mit der Motion <idx type="person" norm="Wieland Hans">Wieland</idx> hinsichtlich der Standortfrage ab.<com id="Miszellen_c48"> Bei dieser von Oberst <idx type="person" norm="Wieland Hans">Hans Wieland</idx> im Grossen Rat von <idx type="place" norm="Basel-Stadt">Basel</idx> eingebrachten Motion handelte es sich um
-						eine Anfrage, ob die eidgenössische Universität nicht auch in <idx type="place" norm="Basel-Stadt">Basel</idx> eingerichtet werden könne. Die Motion kam
+				<p xml:id="Miszellen_p16">Eine weitere Schwierigkeit zeichnete sich seit dem <date when="1862-03-31">31. März 1862</date> mit der Motion <persName key="Wieland Hans">Wieland</persName> hinsichtlich der Standortfrage ab.<com xml:id="Miszellen_c48"> Bei dieser von Oberst <persName key="Wieland Hans">Hans Wieland</persName> im Grossen Rat von <placeName key="Basel-Stadt">Basel</placeName> eingebrachten Motion handelte es sich um
+						eine Anfrage, ob die eidgenössische Universität nicht auch in <placeName key="Basel-Stadt">Basel</placeName> eingerichtet werden könne. Die Motion kam
 						relativ überraschend, wurde aber auch als Reaktion auf Eschers Rede im
-						Nationalrat vom <d norm="07.02.1862">7. Februar 1862</d> verstanden. Darin hatte er die
-						Bildungspolitik als eine wesentliche Aufgabe des Bundes erwähnt. <abbr norm="Vergleiche">Vgl.</abbr> Rede Eschers im Nationalrat, 7. Februar
-						1862, in: <ref type="lit">NZZ</ref>, 11. Februar 1862, 10. April 1862, 13. April 1862; <ref type="lit">Der Schweizerbote</ref>, 7. März 1862, 3. Juli 1863; <ref type="lit">Jung, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 296; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 911–913; <ref type="letter" target="K_1926_c16"><!--→ Nr. 91 (Kommentar)--></ref>.</com> Neben dem
-					reichen <idx type="place" norm="Basel-Stadt">Basel</idx> hatten auch andere Städte Anspruch auf die
-					eidgenössische Universität erhoben und konkurrenzierten nun <idx type="place" norm="Zürich (Stadt)">Zürich</idx>, das sie bedingt durch die
-					Klosteraufhebung für isoliert hielten. Die Motion <idx type="person" norm="Wieland Hans">Wieland</idx> hatte auch Escher überrascht, weshalb er
-					unverzüglich bei seinem wichtigsten Informanten aus dem Bundesrat, <ref type="kbp"/>
-					<idx type="person" norm="Dubs Jakob">Jakob Dubs</idx>, nachfragte, ob in <idx type="place" norm="Bern (Stadt)">Bern</idx> bezüglich der Universität ein Dekret erlas <pb n="116"/>sen worden sei, das diese Motion begünstigt habe.<com id="Miszellen_c49">
-						<abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_1963"><!--
-						Brief Escher an Jakob Dubs, 2. April 1862, in: <ref type="lit">Züricher Post</ref>, 25. Januar 1903--></ref>; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 144.</com>
-					<idx type="person" norm="Dubs Jakob">Dubs</idx> schrieb Escher am <d norm="03.04.1862">3. April 1862</d> <ref type="letter" target="K_1926"><!--Nr.91--></ref>, dies sei zwar nicht der Fall, die <idx type="place" norm="Basel-Stadt">Basler</idx> Presse und andere Zeitungen hätten den
-					Vorstoss jedoch positiv aufgenommen. Auch <idx type="person" norm="Dubs Jakob">Dubs</idx> brachte die durch die Klosteraufhebung
-					brüskierten Kreise und die Agitation gegen <idx type="place" norm="Zürich">Zürich</idx> miteinander in Verbindung und riet Escher,
+						Nationalrat vom <date when="1862-02-07">7. Februar 1862</date> verstanden. Darin hatte er die
+						Bildungspolitik als eine wesentliche Aufgabe des Bundes erwähnt. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Rede Eschers im Nationalrat, 7. Februar
+						1862, in: <ref type="lit">NZZ</ref>, 11. Februar 1862, 10. April 1862, 13. April 1862; <ref type="lit">Der Schweizerbote</ref>, 7. März 1862, 3. Juli 1863; <ref type="lit">Jung, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 296; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 911–913; <!--→ Nr. 91 (Kommentar)-->.</com> Neben dem
+					reichen <placeName key="Basel-Stadt">Basel</placeName> hatten auch andere Städte Anspruch auf die
+					eidgenössische Universität erhoben und konkurrenzierten nun <placeName key="Zürich (Stadt)">Zürich</placeName>, das sie bedingt durch die
+					Klosteraufhebung für isoliert hielten. Die Motion <persName key="Wieland Hans">Wieland</persName> hatte auch Escher überrascht, weshalb er
+					unverzüglich bei seinem wichtigsten Informanten aus dem Bundesrat, 
+					<persName key="Dubs Jakob">Jakob Dubs</persName>, nachfragte, ob in <placeName key="Bern (Stadt)">Bern</placeName> bezüglich der Universität ein Dekret erlas <pb n="116"/>sen worden sei, das diese Motion begünstigt habe.<com xml:id="Miszellen_c49">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <!--
+						Brief Escher an Jakob Dubs, 2. April 1862, in: <ref type="lit">Züricher Post</ref>, 25. Januar 1903-->; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 144.</com>
+					<persName key="Dubs Jakob">Dubs</persName> schrieb Escher am <date when="1862-04-03">3. April 1862</date> <!--Nr.91-->, dies sei zwar nicht der Fall, die <placeName key="Basel-Stadt">Basler</placeName> Presse und andere Zeitungen hätten den
+					Vorstoss jedoch positiv aufgenommen. Auch <persName key="Dubs Jakob">Dubs</persName> brachte die durch die Klosteraufhebung
+					brüskierten Kreise und die Agitation gegen <placeName key="Zürich">Zürich</placeName> miteinander in Verbindung und riet Escher,
 					vorerst eine «etwas zaudernde Politik in dieser Frage einzuhalten». Er legte ihm
 					im Sinne einer Schadensbegrenzung nahe, durch ein gezieltes Entgegenkommen und
 					Engagement für katholische Anliegen sich insbesondere mit den Zentralschweizern
-					zu versöhnen, damit ihnen ein Eintreten für den <idx type="place" norm="Zürich (Stadt)">Zürcher</idx> Standort wieder möglich werde. <idx type="person" norm="Dubs Jakob">Dubs</idx> zeigte sich sehr konkret und engagiert in
+					zu versöhnen, damit ihnen ein Eintreten für den <placeName key="Zürich (Stadt)">Zürcher</placeName> Standort wieder möglich werde. <persName key="Dubs Jakob">Dubs</persName> zeigte sich sehr konkret und engagiert in
 					seinen Vorschlägen und meinte zudem, dass nur so wirklich der Nachweis erbracht
 					werden könne, dass «dem Klostergute eine lebensvollere Verwendung» gegeben
-					werde.<com id="Miszellen_c50">
-						<ref type="kbp"/>
-						<idx type="person" norm="Dubs Jakob">Jakob Dubs</idx> verwies in den Beispielen, die er
+					werde.<com xml:id="Miszellen_c50">
+						
+						<persName key="Dubs Jakob">Jakob Dubs</persName> verwies in den Beispielen, die er
 						Escher für ein Engagement empfahl, auf aktuelle Themen wie die
 						Reorganisation der katholischen Gemeinden, die Einrichtung eines
 						Stipendienfonds oder den Anschluss der katholischen Gemeinden an einen
-						Bistumsverband. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Dubs, Tagebücher</ref>, 3. April 1862; <ref type="letter" target="K_1926"><!--→ Nr. 91--></ref>.</com> </p>
+						Bistumsverband. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Dubs, Tagebücher</ref>, 3. April 1862; <!--→ Nr. 91-->.</com> </p>
 
-				<p id="Miszellen_p17">Auch für <idx type="person" norm="Widmer Johann Conrad">Johann Conrad Widmer</idx>, Eschers zweiten
-					wichtigen Berater in dieser Angelegenheit<ref type="letter" target="K_1929"><!--→ Nr. 92--></ref>, war es eine Frage der Zeit, die eine erneute
+				<p xml:id="Miszellen_p17">Auch für <persName key="Widmer Johann Conrad">Johann Conrad Widmer</persName>, Eschers zweiten
+					wichtigen Berater in dieser Angelegenheit<!--→ Nr. 92-->, war es eine Frage der Zeit, die eine erneute
 					Annäherung ermöglichen würde. Denn selbst diejenigen Leute in der
 					Zentralschweiz, die wüssten, dass die katholische Kirche durch die
 					Klosteraufhebung «nicht verliere, sondern gewinne», wünschten, dass sich die
-					Wogen wieder glätteten, um in der Hochschulfrage «frischer für <idx type="place" norm="Zürich (Stadt)">Zürich</idx> stimmen» zu können. <idx type="person" norm="Widmer Johann Conrad">Widmer</idx> ging in seiner brieflichen
+					Wogen wieder glätteten, um in der Hochschulfrage «frischer für <placeName key="Zürich (Stadt)">Zürich</placeName> stimmen» zu können. <persName key="Widmer Johann Conrad">Widmer</persName> ging in seiner brieflichen
 					Rückmeldung aus der Zentralschweiz auch auf die zugrunde liegende
 					Mentalitätsfrage ein. Weil er die Zentralschweizer historisch und wirtschaftlich
-					näher bei <idx type="place" norm="Zürich (Stadt)">Zürich</idx> als bei <idx type="place" norm="Basel-Stadt">Basel</idx> verortete, schien ihm auch die Überwindung
-					der konfessionellen Kluft naheliegend.<com id="Miszellen_c51">
-						<abbr norm="Vergleiche">Vgl.</abbr>
+					näher bei <placeName key="Zürich (Stadt)">Zürich</placeName> als bei <placeName key="Basel-Stadt">Basel</placeName> verortete, schien ihm auch die Überwindung
+					der konfessionellen Kluft naheliegend.<com xml:id="Miszellen_c51">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">NZZ</ref>, 23. Januar 1862, 11. April 1862, 26. April
 						1862.</com> Seine Vorschläge und Einsichten im Hinblick auf eine
 					eidgenössische Universität und eine neue Generation von Studierenden
 					beinhalteten denn auch eine Chance zur Versöhnung und für einen nachhaltigen
 					kulturellen und wirtschaftlichen Austausch.</p>
 
-				<p id="Miszellen_p18">Eschers unnachgiebige und undiplomatische Haltung ist zu
+				<p xml:id="Miszellen_p18">Eschers unnachgiebige und undiplomatische Haltung ist zu
 					einem guten Teil den an alte Ressentiments anknüpfenden Konflikten
 					zuzuschreiben, die durch die Klosteraufhebung wieder aktualisiert und in der
 					Folge auf das Projekt der eidgenössischen Universität übertragen wurden. Dagegen
@@ -560,12 +1026,17 @@
 					verholfen zu haben, die Situation besser einordnen und die vorherrschenden
 					Stimmungen adäquater sondieren zu können. Die freundschaftlichen Ratschläge, die
 					damit einhergingen, mögen ihm den einen oder anderen Denkanstoss gegeben haben
-					und scheinen auch da und dort in seinen Äusserungen wieder auf.<com id="Miszellen_c52">
-						<abbr norm="Vergleiche">Vgl.</abbr> Eschers Votum in der Kommission zur
+					und scheinen auch da und dort in seinen Äusserungen wieder auf.<com xml:id="Miszellen_c52">
+						<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Eschers Votum in der Kommission zur
 						Verwendung des Klostervermögens, in: <ref type="lit">NZZ</ref>, 3. Juli 1863; <ref type="lit">NZZ</ref>, 23. Januar 1862.</com> </p>
 
 			</div>
-			<p id="Miszellen_p19"><hi rend="italics">Katrin Rigort</hi> </p>
+			<p xml:id="Miszellen_p19">
+                    <hi rend="italics">Katrin Rigort</hi> </p>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>

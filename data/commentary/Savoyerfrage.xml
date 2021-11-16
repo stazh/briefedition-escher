@@ -1,128 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Savoyerfrage" name="Savoyerfrage">
-	<metadata>
-		<title>Chronologie der Savoyer Frage 1860</title>
-		<author>
-			<name>Claudia Aufdermauer, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Savoyerfrage">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chronologie der Savoyer Frage 1860</title>
+                <author>
+			Claudia Aufdermauer, unter der Leitung von Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1852–1866).
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1852–1866).
 				Wirtschaftsliberales Zeitfenster, Gründungen, Aussenpolitik, mit Beiträgen von
 				Claudia Aufdermauer, Bruno Fischer, Joseph Jung, Björn Koch, Katrin Rigort und Sandra
 				Wiederkehr (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-				Escher-Stiftung, Band 5), Zürich 2013</volume_title>
-			<short_title>Jung, Escher Briefe, Band 5</short_title>
-			<volume>5</volume>
-			<page>385–386</page>
-		</source>
-		<description/>
-		<revision>
-			<change>XML-Grundstruktur erstellt, RO, 30.07.2013 </change>
-			<change>Auszeichnung 1 umgesetzt, CH, 31.07.2013</change>
-			<change>Verifizierung 1 umgesetzt, MB, 02.08.2013</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Savoyerfrage_d1">
+				Escher-Stiftung, Band 5), Zürich 2013</title>
+                    <title type="short">Jung, Escher Briefe, Band 5</title>
+                    <ref type="volume" target="V5">385–386</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, RO, 30.07.2013 </change>
+                <change>Auszeichnung 1 umgesetzt, CH, 31.07.2013</change>
+                <change>Verifizierung 1 umgesetzt, MB, 02.08.2013</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Savoyerfrage_d1">
 		
-		<head><pb n="385"/>Chronologie der Savoyer Frage 1860</head>
-		<div id="Savoyerfrage_d1.1"><head/>
-		<p id="Savoyerfrage_p1"><table><tr id="Savoyerfrage_r1"><tab><d norm="06.02.1860">6. Februar 1860</d> </tab> <tab><idx type="person" norm="Tillos Jean-Henri">Jean-Henri Tillos</idx>, der <idx type="place" norm="Frankreich">französische</idx> Geschäftsträger in <idx type="place" norm="Bern (Stadt)">Bern</idx>, eröffnet dem Bundespräsidenten <idx type="person" norm="Frey-Herosé Friedrich">Friedrich
-		Frey-Herosé</idx>, dass die Frage betreffend Angliederung <idx type="place" norm="Savoyen">Savoyens</idx> an <idx type="place" norm="Frankreich">Frankreich</idx> zwar noch nicht auf dem Tapet
-		sei, <idx type="person" norm="Bonaparte Charles Louis Napoléon">Napoleon III.</idx> die Abtretung von <idx type="place" norm="Chablais">Chablais</idx> und <idx type="place" norm="Faucigny (F)">Faucigny</idx> an die Schweiz indes nicht verweigern würde.
-		Eine ähnliche Aussage macht der <idx type="place" norm="Frankreich">französische</idx> Aussenminister <idx type="person" norm="Thouvenel Edouard">Edouard Thouvenel</idx> <d norm="06.02.1860">am selben Tag</d> gegenüber
-		<idx type="person" norm="Kern Johann Konrad">Johann Konrad Kern</idx>, dem Schweizer Gesandten in <idx type="place" norm="Paris (F)">Paris</idx>.</tab> </tr>
+		<head>
+                    <pb n="385"/>Chronologie der Savoyer Frage 1860</head>
+		<div xml:id="Savoyerfrage_d1.1">
+                    <head/>
+		<p xml:id="Savoyerfrage_p1">
+                        <table>
+                            <tr xml:id="Savoyerfrage_r1">
+                                <tab>
+                                    <date when="1860-02-06">6. Februar 1860</date> </tab> <tab>
+                                    <persName key="Tillos Jean-Henri">Jean-Henri Tillos</persName>, der <placeName key="Frankreich">französische</placeName> Geschäftsträger in <placeName key="Bern (Stadt)">Bern</placeName>, eröffnet dem Bundespräsidenten <persName key="Frey-Herosé Friedrich">Friedrich
+		Frey-Herosé</persName>, dass die Frage betreffend Angliederung <placeName key="Savoyen">Savoyens</placeName> an <placeName key="Frankreich">Frankreich</placeName> zwar noch nicht auf dem Tapet
+		sei, <persName key="Bonaparte Charles Louis Napoléon">Napoleon III.</persName> die Abtretung von <placeName key="Chablais">Chablais</placeName> und <placeName key="Faucigny (F)">Faucigny</placeName> an die Schweiz indes nicht verweigern würde.
+		Eine ähnliche Aussage macht der <placeName key="Frankreich">französische</placeName> Aussenminister <persName key="Thouvenel Edouard">Edouard Thouvenel</persName> <date when="1860-02-06">am selben Tag</date> gegenüber
+		<persName key="Kern Johann Konrad">Johann Konrad Kern</persName>, dem Schweizer Gesandten in <placeName key="Paris (F)">Paris</placeName>.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r2"><tab><d norm="01.03.1860">1. März 1860</d> </tab> <tab><idx type="person" norm="Bonaparte Charles Louis Napoléon">Napoleon III.</idx> macht in seiner Thronrede seine Absichten betreffend Angliederung <idx type="place" norm="Savoyen">Savoyens</idx> an <idx type="place" norm="Frankreich">Frankreich</idx>
+		<tr xml:id="Savoyerfrage_r2">
+                                <tab>
+                                    <date when="1860-03-01">1. März 1860</date> </tab> <tab>
+                                    <persName key="Bonaparte Charles Louis Napoléon">Napoleon III.</persName> macht in seiner Thronrede seine Absichten betreffend Angliederung <placeName key="Savoyen">Savoyens</placeName> an <placeName key="Frankreich">Frankreich</placeName>
 		bekannt.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r3"><tab><d norm="12.03.1860">12. März 1860</d> </tab><tab> Eine Delegation von <idx type="place" norm="Savoyen">Savoyern</idx> protestiert bei <idx type="person" norm="Bonaparte Charles Louis Napoléon">Napoleon III.</idx> gegen eine Zerstückelung <idx type="place" norm="Savoyen">Savoyens</idx>.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r3">
+                                <tab>
+                                    <date when="1860-03-12">12. März 1860</date> </tab>
+                                <tab> Eine Delegation von <placeName key="Savoyen">Savoyern</placeName> protestiert bei <persName key="Bonaparte Charles Louis Napoléon">Napoleon III.</persName> gegen eine Zerstückelung <placeName key="Savoyen">Savoyens</placeName>.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r4"><tab><d norm="16.03.1860">16. März 1860</d> </tab> <tab>Der Bundesrat beschliesst, alle Vorkehrungen betreffend Militärbereitschaft zu treffen. Zudem ersucht er
-		<idx type="person" norm="Dufour Guillaume-Henri">Guillaume-Henri Dufour</idx>, sich inoffiziös und privatim nach <idx type="place" norm="Paris (F)">Paris</idx> zu begeben und um eine Audienz bei
-		<idx type="person" norm="Bonaparte Charles Louis Napoléon">Napoleon III.</idx> nachzusuchen.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r4">
+                                <tab>
+                                    <date when="1860-03-16">16. März 1860</date> </tab> <tab>Der Bundesrat beschliesst, alle Vorkehrungen betreffend Militärbereitschaft zu treffen. Zudem ersucht er
+		<persName key="Dufour Guillaume-Henri">Guillaume-Henri Dufour</persName>, sich inoffiziös und privatim nach <placeName key="Paris (F)">Paris</placeName> zu begeben und um eine Audienz bei
+		<persName key="Bonaparte Charles Louis Napoléon">Napoleon III.</persName> nachzusuchen.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r5"><tab><d norm="19.03.1860">19. März 1860</d> </tab> <tab>Der Bundesrat beschliesst eine Note an die Grossmächte, um gegen eine Angliederung <idx type="place" norm="Haute-Savoie (Département, F)">Nordsavoyens</idx> an
-		<idx type="place" norm="Frankreich">Frankreich</idx> zu protestieren.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r5">
+                                <tab>
+                                    <date when="1860-03-19">19. März 1860</date> </tab> <tab>Der Bundesrat beschliesst eine Note an die Grossmächte, um gegen eine Angliederung <placeName key="Haute-Savoie (Département, F)">Nordsavoyens</placeName> an
+		<placeName key="Frankreich">Frankreich</placeName> zu protestieren.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r6"><tab><d norm="23.03.1860">23. März 1860</d> </tab> <tab>Der Bundesrat erfährt, dass die Mitglieder des <idx type="place" norm="Bern">Berner</idx> Grossen Rats der <idx type="place" norm="Savoyen">Savoyer</idx> Frage im Sinne der Selbsterhaltung
+		<tr xml:id="Savoyerfrage_r6">
+                                <tab>
+                                    <date when="1860-03-23">23. März 1860</date> </tab> <tab>Der Bundesrat erfährt, dass die Mitglieder des <placeName key="Bern">Berner</placeName> Grossen Rats der <placeName key="Savoyen">Savoyer</placeName> Frage im Sinne der Selbsterhaltung
 		der Schweiz grosse Bedeutung beimessen.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r7"><tab><d norm="23.03.1860">23. März 1860</d> </tab><tab> Der Bundesrat beschliesst, die Bundesversammlung auf den <d norm="29.03.1860">29. März 1860</d> zu einer ausserordentlichen
+		<tr xml:id="Savoyerfrage_r7">
+                                <tab>
+                                    <date when="1860-03-23">23. März 1860</date> </tab>
+                                <tab> Der Bundesrat beschliesst, die Bundesversammlung auf den <date when="1860-03-29">29. März 1860</date> zu einer ausserordentlichen
 		Sitzung einzuberufen.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r8"><tab><d norm="24.03.1860">24. März 1860</d> </tab> <tab><idx type="place" norm="Frankreich">Frankreich</idx> und <idx type="place" norm="Sardinien-Piemont (Königreich)">Sardinien-Piemont</idx> unterzeichnen einen Zessionsvertrag. Dieser betrifft die Abtretung
-		<idx type="place" norm="Savoyen">Savoyens</idx> und <idx type="place" norm="Nizza (F)">Nizzas</idx> an <idx type="place" norm="Frankreich">Frankreich</idx>. Als der Bundesrat <d norm="27.03.1860">drei Tage später</d> von diesem Vertrag erfährt, beauftragt
-		er die Schweizer Gesandten in <idx type="place" norm="Paris (F)">Paris</idx> und <idx type="place" norm="Turin (I)">Turin</idx>, gegen jede militärische oder zivile Besitznahme von <idx type="place" norm="Haute-Savoie (Département, F)">Nordsavoyen</idx>
+		<tr xml:id="Savoyerfrage_r8">
+                                <tab>
+                                    <date when="1860-03-24">24. März 1860</date> </tab> <tab>
+                                    <placeName key="Frankreich">Frankreich</placeName> und <placeName key="Sardinien-Piemont (Königreich)">Sardinien-Piemont</placeName> unterzeichnen einen Zessionsvertrag. Dieser betrifft die Abtretung
+		<placeName key="Savoyen">Savoyens</placeName> und <placeName key="Nizza (F)">Nizzas</placeName> an <placeName key="Frankreich">Frankreich</placeName>. Als der Bundesrat <date when="1860-03-27">drei Tage später</date> von diesem Vertrag erfährt, beauftragt
+		er die Schweizer Gesandten in <placeName key="Paris (F)">Paris</placeName> und <placeName key="Turin (I)">Turin</placeName>, gegen jede militärische oder zivile Besitznahme von <placeName key="Haute-Savoie (Département, F)">Nordsavoyen</placeName>
 		zu protestieren.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r9"><tab><d norm="25.03.1860">25. März 1860</d> </tab> <tab>Eine vom Centralausschuss der radikalen Studentenverbindung Helvetia aufgebotene Versammlung in <idx type="place" norm="Bern (Stadt)">Bern</idx>
+		<tr xml:id="Savoyerfrage_r9">
+                                <tab>
+                                    <date when="1860-03-25">25. März 1860</date> </tab> <tab>Eine vom Centralausschuss der radikalen Studentenverbindung Helvetia aufgebotene Versammlung in <placeName key="Bern (Stadt)">Bern</placeName>
 		fordert vom Bundesrat militärische Massnahmen.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r10"><tab><d norm="25.03.1860">25. März 1860</d> </tab> <tab>Der Bundesrat beschliesst in einer ausserordentlichen Nachtsitzung, Truppen zu Wiederholungskursen
+		<tr xml:id="Savoyerfrage_r10">
+                                <tab>
+                                    <date when="1860-03-25">25. März 1860</date> </tab> <tab>Der Bundesrat beschliesst in einer ausserordentlichen Nachtsitzung, Truppen zu Wiederholungskursen
 		einzuberufen.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r11"><tab><d norm="29.03.1860">29. März 1860</d> –
-		<d norm="04.04.1860">4. April 1860</d> </tab>
-		<tab>Alfred Escher nimmt an der ausserordentlichen Session des Nationalrats in <idx type="place" norm="Bern (Stadt)">Bern</idx> teil.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r11">
+                                <tab>
+                                    <date when="1860-03-29">29. März 1860</date> –
+		<date when="1860-04-04">4. April 1860</date> </tab>
+		<tab>Alfred Escher nimmt an der ausserordentlichen Session des Nationalrats in <placeName key="Bern (Stadt)">Bern</placeName> teil.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r12"><tab><d norm="29.03.1860">29. März 1860</d> </tab><tab> Der Nationalrat wählt Escher zum Präsidenten der Kommission in der <idx type="place" norm="Savoyen">Savoyer</idx> Frage.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r12">
+                                <tab>
+                                    <date when="1860-03-29">29. März 1860</date> </tab>
+                                <tab> Der Nationalrat wählt Escher zum Präsidenten der Kommission in der <placeName key="Savoyen">Savoyer</placeName> Frage.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r13"><tab><d norm="29.03.1860">29.</d>/<d norm="30.03.1860">30. März 1860</d> </tab><tab> Eine Gruppe um den <idx type="place" norm="Genf">Genfer</idx> Uhrmacher <idx type="person" norm="Perrier John">John Perrier</idx> kapert in <idx type="place" norm="Genf (Stadt)">Genf</idx> ein Schiff und geht in <idx type="place" norm="Haute-Savoie (Département, F)">Nordsavoyen</idx> an
+		<tr xml:id="Savoyerfrage_r13">
+                                <tab>
+                                    <date when="1860-03-29">29.</date>/<date when="1860-03-30">30. März 1860</date> </tab>
+                                <tab> Eine Gruppe um den <placeName key="Genf">Genfer</placeName> Uhrmacher <persName key="Perrier John">John Perrier</persName> kapert in <placeName key="Genf (Stadt)">Genf</placeName> ein Schiff und geht in <placeName key="Haute-Savoie (Département, F)">Nordsavoyen</placeName> an
 		Land, um dort einen proschweizerischen Aufstand zu unterstützen.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r14"><tab><d norm="31.03.1860">31. März 1860</d> </tab> <tab>Der Bundesrat beschliesst, die Ständeräte <idx type="person" norm="Aepli Arnold Otto">Arnold Otto Aepli</idx> (<idx type="place" norm="St. Gallen">SG</idx>) und <idx type="person" norm="Welti Emil">Emil Welti</idx> (<idx type="place" norm="Aargau">AG</idx>) als Kommissäre nach
-		<idx type="place" norm="Genf (Stadt)">Genf</idx> abzuordnen, um die Ereignisse rund um den «<idx type="place" norm="Savoyen">Savoyer</idx>zug» zu untersuchen.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r14">
+                                <tab>
+                                    <date when="1860-03-31">31. März 1860</date> </tab> <tab>Der Bundesrat beschliesst, die Ständeräte <persName key="Aepli Arnold Otto">Arnold Otto Aepli</persName> (<placeName key="St. Gallen">SG</placeName>) und <persName key="Welti Emil">Emil Welti</persName> (<placeName key="Aargau">AG</placeName>) als Kommissäre nach
+		<placeName key="Genf (Stadt)">Genf</placeName> abzuordnen, um die Ereignisse rund um den «<placeName key="Savoyen">Savoyer</placeName>zug» zu untersuchen.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r15"><tab><d norm="01.04.1860">1.</d>/<d norm="02.04.1860">2. April 1860</d> </tab><tab> Als Berichterstatter der nationalrätlichen Kommission in der <idx type="place" norm="Savoyen">Savoyer</idx> Frage verhandelt Escher mit dem
+		<tr xml:id="Savoyerfrage_r15">
+                                <tab>
+                                    <date when="1860-04-01">1.</date>/<date when="1860-04-02">2. April 1860</date> </tab>
+                                <tab> Als Berichterstatter der nationalrätlichen Kommission in der <placeName key="Savoyen">Savoyer</placeName> Frage verhandelt Escher mit dem
 		Bundesrat.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r16"><tab><d norm="03.04.1860">3. April 1860</d> </tab><tab> Als Berichterstatter der nationalrätlichen Kommission in der <idx type="place" norm="Savoyen">Savoyer</idx> Frage empfiehlt Escher, dem Bundesrat
+		<tr xml:id="Savoyerfrage_r16">
+                                <tab>
+                                    <date when="1860-04-03">3. April 1860</date> </tab>
+                                <tab> Als Berichterstatter der nationalrätlichen Kommission in der <placeName key="Savoyen">Savoyer</placeName> Frage empfiehlt Escher, dem Bundesrat
 		die beantragte Vollmacht zu erteilen.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r17"><tab><d norm="03.04.1860">3.</d>/<d norm="04.04.1860">4. April 1860</d> </tab> <tab>Die Bundesversammlung erteilt dem Bundesrat die beantragte Vollmacht.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r17">
+                                <tab>
+                                    <date when="1860-04-03">3.</date>/<date when="1860-04-04">4. April 1860</date> </tab> <tab>Die Bundesversammlung erteilt dem Bundesrat die beantragte Vollmacht.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r18"><tab><d norm="05.04.1860">5. April 1860</d> </tab> <tab>Der Bundesrat beschliesst eine Note an die Grossmächte, um gegen jede militärische oder zivile Besitznahme
-		<idx type="place" norm="Frankreich">Frankreichs</idx> von <idx type="place" norm="Savoyen">Savoyen</idx> zu protestieren. Der Status quo müsse bis zum Entscheid einer internationalen
+		<tr xml:id="Savoyerfrage_r18">
+                                <tab>
+                                    <date when="1860-04-05">5. April 1860</date> </tab> <tab>Der Bundesrat beschliesst eine Note an die Grossmächte, um gegen jede militärische oder zivile Besitznahme
+		<placeName key="Frankreich">Frankreichs</placeName> von <placeName key="Savoyen">Savoyen</placeName> zu protestieren. Der Status quo müsse bis zum Entscheid einer internationalen
 		Konferenz beibehalten werden.</tab> </tr>
 			
-			<tr id="Savoyerfrage_r19"><tab><d norm="05.04.1860">5. April 1860</d> </tab> <tab>Der Bundesrat ernennt <idx type="person" norm="De la Rive Auguste">Auguste De la Rive</idx> (<idx type="place" norm="Genf">GE</idx>), der seit März 1860 in offiziöser Weise in <idx type="place" norm="London (UK)">London</idx> wirkt, zum
-		ausserordentlichen Schweizer Gesandten. <d norm="10.04.1860">Fünf Tage später</d> beschliesst der Bundesrat, Nationalrat <idx type="person" norm="Dapples Edouard">Edouard
-		Dapples</idx> (<idx type="place" norm="Waadt">WaadtVD</idx>) als ausserordentlichen Schweizer Gesandten nach <idx type="place" norm="Berlin (D)">Berlin</idx> abzuordnen. Insgesamt sind nun fünf
-				Schweizer Gesandte im Ausland im Einsatz. Neben <idx type="person" norm="Dapples Edouard">Dapples</idx> und <idx type="person" norm="De la Rive Auguste">De la Rive</idx> sind dies der im Februar 1860
-		ausserordentlich nach <idx type="place" norm="Turin (I)">Turin</idx> gesandte <idx type="person" norm="Tourte Abraham Louis">Abraham Louis Tourte</idx> (<idx type="place" norm="Genf">GE</idx>), <idx type="person" norm="Kern Johann Konrad">Johann Konrad Kern</idx>, der ordentliche
-		Schweizer Gesandte in <idx type="place" norm="Paris (F)">Paris</idx>, und <idx type="person" norm="Steiger Ludwig Eduard">Ludwig Eduard Steiger</idx>, der ständige Schweizer Geschäftsträger in <idx type="place" norm="Wien (A)">Wien</idx>.</tab> </tr>
+			<tr xml:id="Savoyerfrage_r19">
+                                <tab>
+                                    <date when="1860-04-05">5. April 1860</date> </tab> <tab>Der Bundesrat ernennt <persName key="De la Rive Auguste">Auguste De la Rive</persName> (<placeName key="Genf">GE</placeName>), der seit März 1860 in offiziöser Weise in <placeName key="London (UK)">London</placeName> wirkt, zum
+		ausserordentlichen Schweizer Gesandten. <date when="1860-04-10">Fünf Tage später</date> beschliesst der Bundesrat, Nationalrat <persName key="Dapples Edouard">Edouard
+		Dapples</persName> (<placeName key="Waadt">WaadtVD</placeName>) als ausserordentlichen Schweizer Gesandten nach <placeName key="Berlin (D)">Berlin</placeName> abzuordnen. Insgesamt sind nun fünf
+				Schweizer Gesandte im Ausland im Einsatz. Neben <persName key="Dapples Edouard">Dapples</persName> und <persName key="De la Rive Auguste">De la Rive</persName> sind dies der im Februar 1860
+		ausserordentlich nach <placeName key="Turin (I)">Turin</placeName> gesandte <persName key="Tourte Abraham Louis">Abraham Louis Tourte</persName> (<placeName key="Genf">GE</placeName>), <persName key="Kern Johann Konrad">Johann Konrad Kern</persName>, der ordentliche
+		Schweizer Gesandte in <placeName key="Paris (F)">Paris</placeName>, und <persName key="Steiger Ludwig Eduard">Ludwig Eduard Steiger</persName>, der ständige Schweizer Geschäftsträger in <placeName key="Wien (A)">Wien</placeName>.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r20"><tab><d norm="10.04.1860">10. April 1860</d> </tab><tab> Der Bundesrat beschliesst eine Note an die Grossmächte, um gegen die geplante Abstimmung in <idx type="place" norm="Haute-Savoie (Département, F)">Nordsavoyen</idx>
+		<tr xml:id="Savoyerfrage_r20">
+                                <tab>
+                                    <date when="1860-04-10">10. April 1860</date> </tab>
+                                <tab> Der Bundesrat beschliesst eine Note an die Grossmächte, um gegen die geplante Abstimmung in <placeName key="Haute-Savoie (Département, F)">Nordsavoyen</placeName>
 		zu protestieren.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r21"><tab><d norm="16.04.1860">16.</d>–<d norm="22.04.1860">22. April 1860</d> </tab> <tab>Fünf vom <idx type="place" norm="Zürich">Zürcher</idx> Ständerat <idx type="person" norm="Dubs Jakob">Jakob Dubs</idx> verfasste Artikel erscheinen unter dem Titel «Die tiefern Differenzen
-		in der <idx type="place" norm="Savoyen">Savoyer</idx>frage» in der «Neuen <idx type="place" norm="Zürich">Zürcher</idx> Zeitung». Sie führen zur Intensivierung des Schlagabtauschs in
+		<tr xml:id="Savoyerfrage_r21">
+                                <tab>
+                                    <date when="1860-04-16">16.</date>–<date when="1860-04-22">22. April 1860</date> </tab> <tab>Fünf vom <placeName key="Zürich">Zürcher</placeName> Ständerat <persName key="Dubs Jakob">Jakob Dubs</persName> verfasste Artikel erscheinen unter dem Titel «Die tiefern Differenzen
+		in der <placeName key="Savoyen">Savoyer</placeName>frage» in der «Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung». Sie führen zur Intensivierung des Schlagabtauschs in
 		der Presse.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r22"><tab><d norm="22.04.1860">22.</d>/<d norm="23.04.1860">23. April 1860</d> </tab><tab> Ein Plebiszit in <idx type="place" norm="Haute-Savoie (Département, F)">Nordsavoyen</idx> schafft klare Verhältnisse: Mit einem Ja-Stimmen-Anteil von über 90% wird die
-		Angliederung an <idx type="place" norm="Frankreich">Frankreich</idx> angenommen. Eine Angliederung an die Schweiz steht nicht zur Diskussion.<pb n="386"/></tab> </tr>
+		<tr xml:id="Savoyerfrage_r22">
+                                <tab>
+                                    <date when="1860-04-22">22.</date>/<date when="1860-04-23">23. April 1860</date> </tab>
+                                <tab> Ein Plebiszit in <placeName key="Haute-Savoie (Département, F)">Nordsavoyen</placeName> schafft klare Verhältnisse: Mit einem Ja-Stimmen-Anteil von über 90% wird die
+		Angliederung an <placeName key="Frankreich">Frankreich</placeName> angenommen. Eine Angliederung an die Schweiz steht nicht zur Diskussion.<pb n="386"/>
+                                </tab> </tr>
 		
 		
 		
 		
-		<tr id="Savoyerfrage_r23"><tab><d norm="29.05.1860">29. Mai 1860</d> –
-		<d norm="10.06.1860">10. Juni 1860</d> </tab>
-		<tab>Das Parlament in <idx type="place" norm="Turin (I)">Turin</idx> ratifiziert den Zessionsvertrag vom <d norm="24.03.1860">24. März 1860</d>.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r23">
+                                <tab>
+                                    <date when="1860-05-29">29. Mai 1860</date> –
+		<date when="1860-06-10">10. Juni 1860</date> </tab>
+		<tab>Das Parlament in <placeName key="Turin (I)">Turin</placeName> ratifiziert den Zessionsvertrag vom <date when="1860-03-24">24. März 1860</date>.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r24"><tab><d norm="12.06.1860">12. Juni 1860</d> </tab> <tab>Der <idx type="place" norm="Frankreich">französische</idx> Senat ratifiziert den Zessionsvertrag vom <d norm="24.03.1860">24. März 1860</d>.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r24">
+                                <tab>
+                                    <date when="1860-06-12">12. Juni 1860</date> </tab> <tab>Der <placeName key="Frankreich">französische</placeName> Senat ratifiziert den Zessionsvertrag vom <date when="1860-03-24">24. März 1860</date>.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r25"><tab><d norm="14.06.1860">14. Juni 1860</d> </tab> <tab><idx type="place" norm="Frankreich">Frankreich</idx> nimmt von <idx type="place" norm="Savoyen">Savoyen</idx> zivil und militärisch Besitz.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r25">
+                                <tab>
+                                    <date when="1860-06-14">14. Juni 1860</date> </tab> <tab>
+                                    <placeName key="Frankreich">Frankreich</placeName> nimmt von <placeName key="Savoyen">Savoyen</placeName> zivil und militärisch Besitz.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r26"><tab><d norm="02.06.1860">2.</d>–<d norm="21.06.1860">21. Juli 1860</d> </tab><tab> Escher nimmt an der ordentlichen Session des Nationalrats in <idx type="place" norm="Bern (Stadt)">Bern</idx> teil.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r26">
+                                <tab>
+                                    <date when="1860-06-02">2.</date>–<date when="1860-06-21">21. Juli 1860</date> </tab>
+                                <tab> Escher nimmt an der ordentlichen Session des Nationalrats in <placeName key="Bern (Stadt)">Bern</placeName> teil.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r27"><tab><d norm="10.06.1860">10</d>./<d norm="12.06.1860">12. Juli 1860</d> </tab> <tab>Escher spricht als Kommissionsberichterstatter im Nationalrat zur <idx type="place" norm="Savoyen">Savoyer</idx> Frage.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r27">
+                                <tab>
+                                    <date when="1860-06-10">10</date>./<date when="1860-06-12">12. Juli 1860</date> </tab> <tab>Escher spricht als Kommissionsberichterstatter im Nationalrat zur <placeName key="Savoyen">Savoyer</placeName> Frage.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r28"><tab><d norm="12.06.1860">12.</d>/<d norm="19.06.1860">19. Juli 1860</d> </tab> <tab>Die Bundesversammlung erneuert die Vollmacht des Bundesrats.</tab> </tr>
+		<tr xml:id="Savoyerfrage_r28">
+                                <tab>
+                                    <date when="1860-06-12">12.</date>/<date when="1860-06-19">19. Juli 1860</date> </tab> <tab>Die Bundesversammlung erneuert die Vollmacht des Bundesrats.</tab> </tr>
 			
-		<tr id="Savoyerfrage_r29"><tab><d norm="20.06.1860">20. Juli 1860</d> </tab><tab> Der Bundesrat beschliesst, die <idx type="place" norm="Savoyen">Savoyer</idx> Frage vorerst ruhen zu lassen.</tab> </tr></table> </p>
+		<tr xml:id="Savoyerfrage_r29">
+                                <tab>
+                                    <date when="1860-06-20">20. Juli 1860</date> </tab>
+                                <tab> Der Bundesrat beschliesst, die <placeName key="Savoyen">Savoyer</placeName> Frage vorerst ruhen zu lassen.</tab> </tr>
+                        </table> </p>
 		</div>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>

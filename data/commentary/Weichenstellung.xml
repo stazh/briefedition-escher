@@ -1,103 +1,230 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Weichenstellung" name="Weichenstellung">
-	<metadata>
-				<title>Weichenstellung zum Eisenbahnland Schweiz</title>
-				<author>
-					<name>Susanna Kraus, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Weichenstellung">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weichenstellung zum Eisenbahnland Schweiz</title>
+                <author>
+					Susanna Kraus, unter der Leitung von Prof. Dr. Joseph Jung
 				</author>
-			<source><volume_title>Jung Joseph (Hrsg.), Alfred Escher zwischen Lukmanier und Gotthard. Briefe zur schweizerischen 
-					Alpenbahnfrage 1850–1882 (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred Escher-Stiftung, Band 1), Zürich 2008</volume_title>
-				<short_title>Jung, Escher Briefe, Band 1</short_title>
-				<volume>1</volume>
-				<page>25–30</page>
-			</source>
-		<description>Anfänge des Eisenbahnbaus – Eisenbahngesetz von 1852 – Regionale, nationale und internationale Verbindungen</description>
-		<revision>
-			<change>XML-Grundstruktur erstellt, CF, 03.02.2011</change>
-			<change>Auszeichnung nach DTD-Umstellung, CF, 14.06.2011</change>
-			<change>Auszeichnung 1 umgesetzt, STW, 29.08.2013</change>
-			<change>Verifizierung 1 umgesetzt, NB, 29.08.2013</change>
-			<change>Auszeichnung 2 umgesetzt, MB, 15.01.2014</change>
-			<change>Verifizierung 2 in Arbeit, BF, 22.07.2014</change>
-			<change>Verifiziert, BF, 17.06.2015</change>
-		</revision>
-	</metadata>
-		<body>
-			<div id="Weichenstellung_d1">				
-				<head><pb n="25"/>Weichenstellung zum Eisenbahnland Schweiz</head>
-				<div id="Weichenstellung_d1.1"><p id="Weichenstellung_p1"><hi rend="italics">Die frühe Entwicklung des Eisenbahnbaus in der Schweiz von 1850 bis 1852/53 ist im Gesamtkorpus der Briefe von und an Alfred Escher ausführlich dokumentiert. Escher versandte oder empfing diese Korrespondenz in seinen Funktionen als Bundes- oder Kantonalpolitiker, als Promotor der <ref type="kbe"/> Zürich-Bodensee-Bahn oder als Privatmann. Aus diesem Bestand wurden in die vorliegende Edition diejenigen Briefe aus der Frühphase aufgenommen, welche auch auf das Ost<idx type="place" norm="Alpen">alpen</idx>bahnprojekt eingehen.</hi> </p></div>
-				<div id="Weichenstellung_d1.2">
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Escher zwischen Lukmanier und Gotthard. Briefe zur schweizerischen 
+					Alpenbahnfrage 1850–1882 (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred Escher-Stiftung, Band 1), Zürich 2008</title>
+                    <title type="short">Jung, Escher Briefe, Band 1</title>
+                    <ref type="volume" target="V1">25–30</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Anfänge des Eisenbahnbaus – Eisenbahngesetz von 1852 – Regionale, nationale und internationale Verbindungen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, CF, 03.02.2011</change>
+                <change>Auszeichnung nach DTD-Umstellung, CF, 14.06.2011</change>
+                <change>Auszeichnung 1 umgesetzt, STW, 29.08.2013</change>
+                <change>Verifizierung 1 umgesetzt, NB, 29.08.2013</change>
+                <change>Auszeichnung 2 umgesetzt, MB, 15.01.2014</change>
+                <change>Verifizierung 2 in Arbeit, BF, 22.07.2014</change>
+                <change>Verifiziert, BF, 17.06.2015</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+			<div xml:id="Weichenstellung_d1">				
+				<head>
+                    <pb n="25"/>Weichenstellung zum Eisenbahnland Schweiz</head>
+				<div xml:id="Weichenstellung_d1.1">
+                    <p xml:id="Weichenstellung_p1">
+                        <hi rend="italics">Die frühe Entwicklung des Eisenbahnbaus in der Schweiz von 1850 bis 1852/53 ist im Gesamtkorpus der Briefe von und an Alfred Escher ausführlich dokumentiert. Escher versandte oder empfing diese Korrespondenz in seinen Funktionen als Bundes- oder Kantonalpolitiker, als Promotor der  Zürich-Bodensee-Bahn oder als Privatmann. Aus diesem Bestand wurden in die vorliegende Edition diejenigen Briefe aus der Frühphase aufgenommen, welche auch auf das Ost<placeName key="Alpen">alpen</placeName>bahnprojekt eingehen.</hi> </p>
+                </div>
+				<div xml:id="Weichenstellung_d1.2">
 					<head>Die Anfänge des Eisenbahnbaus</head>
-					<p id="Weichenstellung_p2">Die Schweiz trat vergleichsweise spät ins Eisenbahnzeitalter ein. Bereits 1825 hatte in <idx type="place" norm="England">England</idx>
-						die erste Bahnlinie ihren regulären Betrieb aufgenommen. Die frühesten Bahnstrecken auf dem <idx type="place" norm="Europa">europäischen</idx> Festland wurden
+					<p xml:id="Weichenstellung_p2">Die Schweiz trat vergleichsweise spät ins Eisenbahnzeitalter ein. Bereits 1825 hatte in <placeName key="England">England</placeName>
+						die erste Bahnlinie ihren regulären Betrieb aufgenommen. Die frühesten Bahnstrecken auf dem <placeName key="Europa">europäischen</placeName> Festland wurden
 						in den 1830er Jahren gebaut. Zu dieser Zeit wurde die Eisenbahnfrage zwar auch in der Schweiz thematisiert. Über Diskussionen
 						bezüglich Linienführungen kam man in der Alten Eidgenossenschaft allerdings kaum hinaus: Das politische System der Tagsatzung war
 						für derartige Neuerungen zu träge. Die strukturellen Voraussetzungen waren im Staatenbund, dessen Gebietseinheiten durch unzählige Zölle,
 						unterschiedliche Masse, Währungen und Rechtssysteme getrennt waren, nicht gegeben. Hinzu kamen Auseinandersetzungen konfessioneller Art, welche
-						die Sicht auf vordringliche materielle Fragen verstellten.<com id="Weichenstellung_c1"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 8–15; <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <abbr norm="Seite(n)">S.</abbr> 16–26.</com>
+						die Sicht auf vordringliche materielle Fragen verstellten.<com xml:id="Weichenstellung_c1">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 8–15; <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 16–26.</com>
 					</p>
-					<p id="Weichenstellung_p3">1844 erreichte die erste Eisenbahn die Schweizer Grenze: <idx type="place" norm="Basel-Stadt">Basel</idx> 
-						wurde an die <idx type="place" norm="Frankreich">französische</idx> Linie <idx type="place" norm="Strassburg (F)">Strassburg</idx>–<idx type="place" norm="Saint-Louis (F)">Saint-Louis</idx> angeschlossen. 1847 konnte endlich die erste
-						kurze Schweizer Bahnlinie, diejenige der sogenannten Spanischbrötlibahn (<ref type="kbe"/>Schweizerische Nordbahn) von 
-						<idx type="place" norm="Zürich (Stadt)">Zürich</idx> nach <idx type="place" norm="Baden (AG)">Baden</idx> (23,3 <abbr norm="Kilometer">km</abbr>), eröffnet werden. Im selben Jahr wurden die schwelenden Konflikte zwischen den Kantonen im Sonderbundskrieg
+					<p xml:id="Weichenstellung_p3">1844 erreichte die erste Eisenbahn die Schweizer Grenze: <placeName key="Basel-Stadt">Basel</placeName> 
+						wurde an die <placeName key="Frankreich">französische</placeName> Linie <placeName key="Strassburg (F)">Strassburg</placeName>–<placeName key="Saint-Louis (F)">Saint-Louis</placeName> angeschlossen. 1847 konnte endlich die erste
+						kurze Schweizer Bahnlinie, diejenige der sogenannten Spanischbrötlibahn (Schweizerische Nordbahn) von 
+						<placeName key="Zürich (Stadt)">Zürich</placeName> nach <placeName key="Baden (AG)">Baden</placeName> (23,3 <choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice>), eröffnet werden. Im selben Jahr wurden die schwelenden Konflikte zwischen den Kantonen im Sonderbundskrieg
 						mit Waffengewalt ausgetragen. Ein Jahr später (1848) war der neue Bundesstaat geboren. Doch auch danach stand die Eisenbahn nicht zuoberst
-						auf der politischen Agenda. Jene, die das Thema als lebenswichtig erkannt hatten, waren sich auch dessen Sprengkraft bewusst: Regionale Grabenkämpfe<ref type="letter" target="K_0993"><!--→ Nr. 3--></ref>
-						waren vorprogrammiert und drohten die Bevölkerung in unversöhnliche Regionalparteien zu spalten.<com id="Weichenstellung_c2"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 357, 366–368.</com>
+						auf der politischen Agenda. Jene, die das Thema als lebenswichtig erkannt hatten, waren sich auch dessen Sprengkraft bewusst: Regionale Grabenkämpfe<!--→ Nr. 3-->
+						waren vorprogrammiert und drohten die Bevölkerung in unversöhnliche Regionalparteien zu spalten.<com xml:id="Weichenstellung_c2">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 357, 366–368.</com>
 					</p>
-					<p id="Weichenstellung_p4">Alfred Escher, bisher in Bahnfragen ein unbeschriebenes Blatt, setzte sich 1849 als Nationalratspräsident 
+					<p xml:id="Weichenstellung_p4">Alfred Escher, bisher in Bahnfragen ein unbeschriebenes Blatt, setzte sich 1849 als Nationalratspräsident 
 						nachdrücklich für den Bau von Eisenbahnen ein. In der Eröffnungsrede zur Herbstsession forderte er, «daß wir jene
 							<hi rend="italics">Schöpfungen, welche dringende Bedürfnisse unserer Zeit gebieterisch fordern, von Bundeswegen in's Leben rufen,</hi>» wozu er an erster
-						Stelle die <hi rend="italics">«Eisenbahnangelegenheit»</hi> zählte.<com id="Weichenstellung_c3"><ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000210">Rede des Herrn Amtsbürgermeisters Dr. Escher,
+						Stelle die <hi rend="italics">«Eisenbahnangelegenheit»</hi> zählte.<com xml:id="Weichenstellung_c3">
+                            <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000210">Rede des Herrn Amtsbürgermeisters Dr. Escher,
 							Präsidenten des Nationalrathes, gehalten beim Wiederzusammentritte, den 12. November 1849, in: <ref type="lit">BBl</ref> 1849 III, S. 160</ref>.</com> Er gehörte zu den
 						14 Nationalräten, welche den Bundesrat im Dezember 1849 in einer Motion ersuchten, eisenbahntechnische Gutachten erstellen zu lassen, die Planung des
 						Schweizer Schienennetzes an die Hand zu nehmen und ein Expropriationsgesetz zu entwerfen. Elf der Unterzeichnenden wurden kurz darauf in die neue
-						Eisenbahnkommission gewählt.<ref type="letter" target="K_0757"><!--→ Nr. 1--></ref> <ref type="letter" target="K_0993"><!--→ Nr. 3--></ref> Escher, der am meisten Stimmen auf sich vereint hatte, amtete als deren Präsident. Die Kommission bestand des weiteren aus
-						den Nationalräten <idx type="person" norm="Bischoff Achilles">Achilles Bischoff</idx> (<idx type="place" norm="Basel-Stadt">BS</idx>), <idx type="person" norm="Blanchenay Louis">Louis Blanchenay</idx> (<idx type="place" norm="Waadt">VD</idx>), <idx type="person" norm="Dufour Guillaume-Henri">Guillaume-Henri Dufour</idx> (<idx type="place" norm="Bern">BE</idx>/<idx type="place" norm="Genf">GE</idx>), <idx type="person" norm="Erpf Franz Eduard">Franz Eduard Erpf</idx> (<idx type="place" norm="St. Gallen">SG</idx>, nach seinem frühen Tod durch
-						<idx type="person" norm="Hungerbühler Johann Matthias">Johann Matthias Hungerbühler</idx>, <idx type="place" norm="St. Gallen">SG</idx>, ersetzt), <idx type="person" norm="Kern Johann Konrad">Johann Konrad Kern</idx> (<idx type="place" norm="Thurgau">TG</idx>), <ref type="kbp"/>  <idx type="person" norm="Peyer im Hof Johann Friedrich">Johann Friedrich Peyer im Hof</idx> (<idx type="place" norm="Schaffhausen">SH</idx>), <ref type="kbp"/>
-						<idx type="person" norm="Pioda Giovanni Battista">Giovanni Battista Pioda</idx> (<idx type="place" norm="Tessin">TI</idx>), <idx type="person" norm="Siegfried Samuel Friedrich">Samuel Friedrich Siegfried</idx> (<idx type="place" norm="Aargau">AG</idx>), <ref type="kbp"/>  <idx type="person" norm="Stämpfli Jakob">Jakob Stämpfli</idx> (<idx type="place" norm="Bern">BE</idx>) und <idx type="person" norm="Steiger Jakob Robert">Jakob Robert Steiger</idx> (<idx type="place" norm="Luzern">LU</idx>). Die Motion
-						unterzeichnet hatten zudem <idx type="person" norm="Brunner Benjamin">Benjamin Brunner</idx> (<idx type="place" norm="Solothurn">SO</idx>), <idx type="person" norm="Favre Louis-Eugène">Louis-Eugène Favre</idx> (<idx type="place" norm="Neuenburg">NE</idx>) und <pb n="26"/><idx type="person" norm="Planta (Samedan) Andreas Rudolf von">Andreas Rudolf von Planta</idx> (<idx type="place" norm="Graubünden">GR</idx>). Die <idx type="place" norm="Ostschweiz">Ostschweiz</idx> und mit ihr
-						die Anhänger einer Ost<idx type="place" norm="Alpen">alpen</idx>bahn waren in der Kommission untervertreten.<com id="Weichenstellung_c4"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000263">Beschluß der Bundesversammlung, die schweizerische
-							Eisenbahnangelegenheit betreffend, in: <ref type="lit">BBl</ref> 1850 I, S. 54–56</ref>; <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <abbr norm="Seite(n)">S.</abbr> 265, 268, 304; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 368–369.</com>
+						Eisenbahnkommission gewählt.<!--→ Nr. 1--> <!--→ Nr. 3--> Escher, der am meisten Stimmen auf sich vereint hatte, amtete als deren Präsident. Die Kommission bestand des weiteren aus
+						den Nationalräten <persName key="Bischoff Achilles">Achilles Bischoff</persName> (<placeName key="Basel-Stadt">BS</placeName>), <persName key="Blanchenay Louis">Louis Blanchenay</persName> (<placeName key="Waadt">VD</placeName>), <persName key="Dufour Guillaume-Henri">Guillaume-Henri Dufour</persName> (<placeName key="Bern">BE</placeName>/<placeName key="Genf">GE</placeName>), <persName key="Erpf Franz Eduard">Franz Eduard Erpf</persName> (<placeName key="St. Gallen">SG</placeName>, nach seinem frühen Tod durch
+						<persName key="Hungerbühler Johann Matthias">Johann Matthias Hungerbühler</persName>, <placeName key="St. Gallen">SG</placeName>, ersetzt), <persName key="Kern Johann Konrad">Johann Konrad Kern</persName> (<placeName key="Thurgau">TG</placeName>),   <persName key="Peyer im Hof Johann Friedrich">Johann Friedrich Peyer im Hof</persName> (<placeName key="Schaffhausen">SH</placeName>), 
+						<persName key="Pioda Giovanni Battista">Giovanni Battista Pioda</persName> (<placeName key="Tessin">TI</placeName>), <persName key="Siegfried Samuel Friedrich">Samuel Friedrich Siegfried</persName> (<placeName key="Aargau">AG</placeName>),   <persName key="Stämpfli Jakob">Jakob Stämpfli</persName> (<placeName key="Bern">BE</placeName>) und <persName key="Steiger Jakob Robert">Jakob Robert Steiger</persName> (<placeName key="Luzern">LU</placeName>). Die Motion
+						unterzeichnet hatten zudem <persName key="Brunner Benjamin">Benjamin Brunner</persName> (<placeName key="Solothurn">SO</placeName>), <persName key="Favre Louis-Eugène">Louis-Eugène Favre</persName> (<placeName key="Neuenburg">NE</placeName>) und <pb n="26"/>
+                        <persName key="Planta (Samedan) Andreas Rudolf von">Andreas Rudolf von Planta</persName> (<placeName key="Graubünden">GR</placeName>). Die <placeName key="Ostschweiz">Ostschweiz</placeName> und mit ihr
+						die Anhänger einer Ost<placeName key="Alpen">alpen</placeName>bahn waren in der Kommission untervertreten.<com xml:id="Weichenstellung_c4">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000263">Beschluß der Bundesversammlung, die schweizerische
+							Eisenbahnangelegenheit betreffend, in: <ref type="lit">BBl</ref> 1850 I, S. 54–56</ref>; <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 265, 268, 304; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 368–369.</com>
 					</p>
-					<p id="Weichenstellung_p5">Währenddessen stellte die Schweiz auf der Eisenbahnkarte <idx type="place" norm="Europa">Europas</idx> weiterhin einen blinden Fleck dar. Auch in den folgenden zwei
+					<p xml:id="Weichenstellung_p5">Währenddessen stellte die Schweiz auf der Eisenbahnkarte <placeName key="Europa">Europas</placeName> weiterhin einen blinden Fleck dar. Auch in den folgenden zwei
 						Jahren änderte sich daran vergleichsweise wenig; allerdings wurden erste Vorarbeiten geleistet. Bundesrat und Eisenbahnkommission entwarfen ein
-						Expropriationsgesetz<ref type="letter" target="K_0757"><!--→ Nr. 1--></ref>, das am <d norm="01.05.1850">1. Mai 1850</d> von der Bundesversammlung angenommen wurde.<com id="Weichenstellung_c5"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000336">Bundesgesetz, betreffend die
+						Expropriationsgesetz<!--→ Nr. 1-->, das am <date when="1850-05-01">1. Mai 1850</date> von der Bundesversammlung angenommen wurde.<com xml:id="Weichenstellung_c5">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000336">Bundesgesetz, betreffend die
 							Verbindlichkeit zur Abtretung von Privatrechten (vom 1. Mai 1850), in: <ref type="lit">BBl</ref> 1850 II, S. 47–62</ref>.</com> Das Eidgenössische Eisenbahnbüro, der Vorläufer des
-						heutigen Bundesamtes für Verkehr, wurde geschaffen und dem Ingenieur <ref type="kbp"/>  <idx type="person" norm="Koller Gottlieb">Gottlieb Koller</idx> unterstellt. Von Sommer bis Herbst 1850 verfassten die
-						beiden <idx type="place" norm="England">englischen</idx> Experten <idx type="person" norm="Stephenson Robert">Robert Stephenson</idx> und <idx type="person" norm="Swinburne Henry">Henry Swinburne</idx> im Auftrag des Bundesrates ein Gutachten über mögliche Linienführungen. Ein weiteres
+						heutigen Bundesamtes für Verkehr, wurde geschaffen und dem Ingenieur   <persName key="Koller Gottlieb">Gottlieb Koller</persName> unterstellt. Von Sommer bis Herbst 1850 verfassten die
+						beiden <placeName key="England">englischen</placeName> Experten <persName key="Stephenson Robert">Robert Stephenson</persName> und <persName key="Swinburne Henry">Henry Swinburne</persName> im Auftrag des Bundesrates ein Gutachten über mögliche Linienführungen. Ein weiteres
 						Expertengremium erstellte ein Finanzgutachten. In der Frage, ob der Bau der Eisenbahnen durch den Staat oder durch privat finanzierte Unternehmen an die Hand
-						genommen werden sollte, waren sich die Experten uneins.<com id="Weichenstellung_c6"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000480">Instruktion des Bundesrathes für die Experten, in: <ref type="lit">BBl</ref> 1850 III,
-							S. 429–431</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000481">Bericht der vom Bundesrathe einberufenen Experten: Herren R. Stephenson, M. P., und H. Swinburne über den Bau von Eisenbahnen in der Schweiz,
-								in: <ref type="lit">BBl</ref> 1850 III, S. 432–496</ref>; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 372–379; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 52–60.</com><ref type="letter" target="K_0993"><!--→ Nr. 3--></ref>
+						genommen werden sollte, waren sich die Experten uneins.<com xml:id="Weichenstellung_c6">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000480">Instruktion des Bundesrathes für die Experten, in: <ref type="lit">BBl</ref> 1850 III,
+							S. 429–431</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000481">Bericht der vom Bundesrathe einberufenen Experten: Herren R. Stephenson, M. P., und H. Swinburne über den Bau von Eisenbahnen in der Schweiz,
+								in: <ref type="lit">BBl</ref> 1850 III, S. 432–496</ref>; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 372–379; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 52–60.</com><!--→ Nr. 3-->
 					</p>
-					<p id="Weichenstellung_p6">Greifbare Konsequenzen hatten die Gutachten keine. Die Uneinigkeit der Kantone über das Streckennetz führte zu kaum endenden Kontroversen.
-						Doch die Zeit drängte, denn die Schweiz drohte umfahren zu werden. Der <idx type="place" norm="Alpen">alpen</idx>querende Eisenbahnverkehr suchte sich seinen Weg an der Schweiz vorbei. Im Osten war
-						die <idx type="place" norm="Semmering (Pass, A)">Semmering</idx>bahn<ref type="letter" target="K_2309_c8">Semmeringbahn<!--→ Nr. 98 (Kommentar)--></ref> als Verbindung zwischen <idx type="place" norm="Wien (A)">Wien</idx> und <idx type="place" norm="Triest (I)">Triest</idx> im Bau (gebaut 1850–1854) und die <idx type="place" norm="Brenner (Pass, A-I)">Brenner</idx>linie<ref type="letter" target="K_1780_c4">Brennerbahn<!--→ Nr. 35--></ref> in Planung (gebaut 1864–1867), im Westen stand der
-						<idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Tunnel<ref type="letter" target="K_1780_c3">Mont-Cenis-Bahn<!--→ Nr. 35--></ref> vor der Realisierung (gebaut 1857–1871).<com id="Weichenstellung_c7"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Röll, Enzyklopädie</ref> I (<abbr norm="Seite(n)">S.</abbr> 137), III (<abbr norm="Seite(n)">S.</abbr> 62–65), VII (<abbr norm="Seite(n)">S.</abbr> 301–303);
-							<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 554.</com>
+					<p xml:id="Weichenstellung_p6">Greifbare Konsequenzen hatten die Gutachten keine. Die Uneinigkeit der Kantone über das Streckennetz führte zu kaum endenden Kontroversen.
+						Doch die Zeit drängte, denn die Schweiz drohte umfahren zu werden. Der <placeName key="Alpen">alpen</placeName>querende Eisenbahnverkehr suchte sich seinen Weg an der Schweiz vorbei. Im Osten war
+						die <placeName key="Semmering (Pass, A)">Semmering</placeName>bahnSemmeringbahn<!--→ Nr. 98 (Kommentar)--> als Verbindung zwischen <placeName key="Wien (A)">Wien</placeName> und <placeName key="Triest (I)">Triest</placeName> im Bau (gebaut 1850–1854) und die <placeName key="Brenner (Pass, A-I)">Brenner</placeName>linieBrennerbahn<!--→ Nr. 35--> in Planung (gebaut 1864–1867), im Westen stand der
+						<placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-TunnelMont-Cenis-Bahn<!--→ Nr. 35--> vor der Realisierung (gebaut 1857–1871).<com xml:id="Weichenstellung_c7">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Röll, Enzyklopädie</ref> I (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 137), III (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 62–65), VII (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 301–303);
+							<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 554.</com>
 					</p>
-					<p id="Weichenstellung_p7">In der Debatte um Staats- oder Privatbau der Eisenbahnen hielt sich Escher lange Zeit
-						bedeckt.<com id="Weichenstellung_c8">Die Darstellung zu Alfred Eschers Wirken in der Frühphase der Schweizer Eisenbahngeschichte stützt sich im wesentlichen
-							auf Jung. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 364–393. </com> Zwar war er ursprünglich einem klar zentralistischen Staatsbild verpflichtet, neigte aber zunehmend dem
+					<p xml:id="Weichenstellung_p7">In der Debatte um Staats- oder Privatbau der Eisenbahnen hielt sich Escher lange Zeit
+						bedeckt.<com xml:id="Weichenstellung_c8">Die Darstellung zu Alfred Eschers Wirken in der Frühphase der Schweizer Eisenbahngeschichte stützt sich im wesentlichen
+							auf Jung. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 364–393. </com> Zwar war er ursprünglich einem klar zentralistischen Staatsbild verpflichtet, neigte aber zunehmend dem
 						Privatbau zu und wurde schliesslich zu dessen vehementem Befürworter. Dies hatte mehrere Gründe: Es stand zu befürchten, dass die dringende Aufgabe des
 						Eisenbahnbaus weiter verschleppt werden würde. Ausserdem schien die Finanzierung durch den Bund schwierig zu bewerkstelligen. Nachdem einige
 						Eisenbahngesellschaften im Ausland in finanzielle Schwierigkeiten geraten waren, grassierte in der Öffentlichkeit die Angst vor einer möglichen
 						Staatsverschuldung. Escher wollte die sehr beschränkten Bundesmittel lieber dem zweiten anstehenden grossen Infrastrukturprojekt zufliessen lassen,
-						jenem der eidgenössischen Hochschule,<ref type="letter" target="K_0993"><!--→ Nr. 3--></ref> denn bei diesem Vorhaben, das ihn seit Studententagen beschäftigte und das er nun in der nationalrätlichen
-						Hochschulkommission mit Verve vertrat, war eine zentralistische Vorgehensweise der einzig gangbare Weg.<com id="Weichenstellung_c9"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 371–372, 386–388, 391; <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <abbr norm="Seite(n)">S.</abbr> 309–310. – Zum Verhältnis Escher/Polytechnikum siehe Jung. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 855–913.</com>
+						jenem der eidgenössischen Hochschule,<!--→ Nr. 3--> denn bei diesem Vorhaben, das ihn seit Studententagen beschäftigte und das er nun in der nationalrätlichen
+						Hochschulkommission mit Verve vertrat, war eine zentralistische Vorgehensweise der einzig gangbare Weg.<com xml:id="Weichenstellung_c9">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 371–372, 386–388, 391; <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 309–310. – Zum Verhältnis Escher/Polytechnikum siehe Jung. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 855–913.</com>
 					</p>
 				</div>
-				<div id="Weichenstellung_d1.3">
+				<div xml:id="Weichenstellung_d1.3">
 					<head>Das Eisenbahngesetz von 1852</head>
-					<p id="Weichenstellung_p8">1852 fassten die eidgenössischen Räte das heisse Eisen der Bahnfrage endlich an. Gegen die Meinung der Mehrheit der nationalrätlichen
-						Eisenbahnkommission stellten sie die Weichen auf Privatbau und verabschiedeten am <d norm="28.07.1852">28. Juli 1852</d> das Eisenbahngesetz. Es schaffte die nötige Klarheit und wirkte
+					<p xml:id="Weichenstellung_p8">1852 fassten die eidgenössischen Räte das heisse Eisen der Bahnfrage endlich an. Gegen die Meinung der Mehrheit der nationalrätlichen
+						Eisenbahnkommission stellten sie die Weichen auf Privatbau und verabschiedeten am <date when="1852-07-28">28. Juli 1852</date> das Eisenbahngesetz. Es schaffte die nötige Klarheit und wirkte
 						wie ein Startschuss; ein Wettkampf aller gegen alle entbrannte. Gut ein Jahr später, Ende 1853, existierten in der Schweiz schon elf Bahngesellschaften. 1856
-						waren rund 300 Streckenkilometer gebaut, 1866 bereits deren 1300.<com id="Weichenstellung_c10"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 66; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 388, 392, 449;
-							<ref type="lit">Siegenthaler/Ritzmann-Blickenstorfer, Statistik</ref>, <abbr norm="Seite(n)">S.</abbr> 769. – <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Eisenbahngesetz 1852</ref>; <ref type="lit">Eisenbahngesetz 1872</ref>. – Zu kantonalen Konzessionen, Konzessionsrecht
-							und -praxis siehe Bauer. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 68–70.</com> Das Eisenbahngesetz von 1852 eröffnete den privaten Bahngesellschaften eine enorme
+						waren rund 300 Streckenkilometer gebaut, 1866 bereits deren 1300.<com xml:id="Weichenstellung_c10">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 66; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 388, 392, 449;
+							<ref type="lit">Siegenthaler/Ritzmann-Blickenstorfer, Statistik</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 769. – <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Eisenbahngesetz 1852</ref>; <ref type="lit">Eisenbahngesetz 1872</ref>. – Zu kantonalen Konzessionen, Konzessionsrecht
+							und -praxis siehe Bauer. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 68–70.</com> Das Eisenbahngesetz von 1852 eröffnete den privaten Bahngesellschaften eine enorme
 						Machtfülle; die Einflussmöglichkeiten von Bund und Kantonen waren minimal. Den Kantonen stand die Erteilung der Konzessionen zu, der Bund musste zusätzlich sein
 						Einverständnis geben. Lediglich die Verletzung militärischer Interessen konnte eine Verweigerung der eidgenössischen Genehmigung nach sich ziehen. Andererseits
 						hatte der Bund die Möglichkeit, Zwangskonzessionen zu erteilen,<pb n="27"/> falls sich ein Kanton aus nichtigen Gründen gegen die Bewilligung einer im Interesse
@@ -106,100 +233,279 @@
 						Gewährung von Anschlüssen zwischen den Netzen der verschiedenen Bahngesellschaften. Weiter wurden dem Bund die Befugnis zur Festlegung von Normen sowie ein
 						Rückkaufsrecht eingeräumt. Die Details für den Rückkauf waren in den Konzessionsverhandlungen, an denen der Bundesrat sich vertreten lassen konnte, zu
 						vereinbaren, ebenso die Fristen, innert deren mit den Erdarbeiten an der betreffenden Linie begonnen werden musste. Bei ergebnislosem Ablauf solcher Fristen
-						erloschen die Konzessionen. In der Praxis wurden diese jedoch oft mehrfach verlängert.<ref type="letter" target="K_1820_c2"><!--→ Nr. 41 (Kommentar)--></ref> Das neue Eisenbahngesetz von 1872 übertrug die Kompetenz zur Erteilung
-						von Konzessionen dem Bund  und gestand den Kantonen lediglich eine Mitwirkung bei den vorbereitenden Verhandlungen zu.<com id="Weichenstellung_c11"><abbr norm="Vergleiche">Vgl.</abbr>
-							<ref type="lit">Eisenbahngesetz 1852</ref>; <ref type="lit">Eisenbahngesetz 1872</ref>.</com><ref type="letter" target="K_2323"><!--→ Nr. 101--></ref> <ref type="letter" target="K_2336"><!--→ Nr. 104--></ref>
+						erloschen die Konzessionen. In der Praxis wurden diese jedoch oft mehrfach verlängert.<!--→ Nr. 41 (Kommentar)--> Das neue Eisenbahngesetz von 1872 übertrug die Kompetenz zur Erteilung
+						von Konzessionen dem Bund  und gestand den Kantonen lediglich eine Mitwirkung bei den vorbereitenden Verhandlungen zu.<com xml:id="Weichenstellung_c11">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+							<ref type="lit">Eisenbahngesetz 1852</ref>; <ref type="lit">Eisenbahngesetz 1872</ref>.</com><!--→ Nr. 101--> <!--→ Nr. 104-->
 					</p>
-					<p id="Weichenstellung_p9">Die Schweizerische Nordostbahn (<ref type="kbe"/><abbr norm="Schweizerische Nordostbahn">NOB</abbr>), die 1853 aus der Fusion zwischen der Nordbahn und der
-						<ref type="kbe"/>Zürich-Bodensee-Bahn hervorgegangen und deren Direktionspräsident Escher bis 1871 war, entwickelte sich bald zu einem der führenden
-						Unternehmen und sicherte dem Kanton <idx type="place" norm="Zürich">Zürich</idx> durch ihr Liniennetz eine wirtschaftliche Vormachtstellung. In der <idx type="place" norm="Alpen">Alpen</idx>bahnfrage waren die Schweizerische
-						Südostbahn (<ref type="kbe"/><abbr norm="Schweizerische Südostbahn">SOB</abbr>; nicht zu verwechseln mit der heute noch existierenden Schweizerischen Südostbahn mit dem Stammnetz <idx type="place" norm="Wädenswil">Wädenswil</idx>–<idx type="place" norm="Einsiedeln">Einsiedeln</idx> und
-						<idx type="place" norm="Rapperswil (Rapperswil-Jona)">Rapperswil</idx>–<idx type="place" norm="Arth">Arth</idx>-<idx type="place" norm="Goldau (Arth)">Goldau</idx>) und die Schweizerische Centralbahn (<ref type="kbe"/><abbr norm="Schweizerische Centralbahn">SCB</abbr>) tonangebend. Erstere zielte Richtung <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx>, letztere Richtung
-						<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>.<com id="Weichenstellung_c12"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 214–216, 449; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 70–79.</com>
+					<p xml:id="Weichenstellung_p9">Die Schweizerische Nordostbahn (<choice>
+                            <abbr>NOB</abbr>
+                            <expan>Schweizerische Nordostbahn</expan>
+                        </choice>), die 1853 aus der Fusion zwischen der Nordbahn und der
+						Zürich-Bodensee-Bahn hervorgegangen und deren Direktionspräsident Escher bis 1871 war, entwickelte sich bald zu einem der führenden
+						Unternehmen und sicherte dem Kanton <placeName key="Zürich">Zürich</placeName> durch ihr Liniennetz eine wirtschaftliche Vormachtstellung. In der <placeName key="Alpen">Alpen</placeName>bahnfrage waren die Schweizerische
+						Südostbahn (<choice>
+                            <abbr>SOB</abbr>
+                            <expan>Schweizerische Südostbahn</expan>
+                        </choice>; nicht zu verwechseln mit der heute noch existierenden Schweizerischen Südostbahn mit dem Stammnetz <placeName key="Wädenswil">Wädenswil</placeName>–<placeName key="Einsiedeln">Einsiedeln</placeName> und
+						<placeName key="Rapperswil (Rapperswil-Jona)">Rapperswil</placeName>–<placeName key="Arth">Arth</placeName>-<placeName key="Goldau (Arth)">Goldau</placeName>) und die Schweizerische Centralbahn (<choice>
+                            <abbr>SCB</abbr>
+                            <expan>Schweizerische Centralbahn</expan>
+                        </choice>) tonangebend. Erstere zielte Richtung <placeName key="Lukmanier (Pass)">Lukmanier</placeName>, letztere Richtung
+						<placeName key="St. Gotthard (Pass)">Gotthard</placeName>.<com xml:id="Weichenstellung_c12">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 214–216, 449; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 70–79.</com>
 					</p>
 				</div>
-				<div id="Weichenstellung_d1.4">
+				<div xml:id="Weichenstellung_d1.4">
 					<head>Regionale, nationale und internationale Verbindungen</head>
-					<p id="Weichenstellung_p10">Das Augenmerk der Schweizer Eisenbahnpioniere richtete sich auch über die Binnenlinien hinaus auf die Anbindung an bereits
-						bestehende internationale Streckennetze. Hier lockte die Erschliessung neuer Wirtschaftsräume. Für eine Überschienung der <idx type="place" norm="Alpen">Alpen</idx> wurden Mitte des
-						19. Jahrhunderts verschiedene Schweizer Pässe in Betracht gezogen, darunter <idx type="place" norm="Septimerpass">Septimer</idx>, <idx type="place" norm="Splügen (Pass)">Splügen</idx>, <idx type="place" norm="San Bernardino (Pass)">San Bernardino</idx>, <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx>, <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>, <idx type="place" norm="Grimsel (Pass)">Grimsel</idx> und <idx type="place" norm="Simplon (Pass)">Simplon</idx>.
-						Ernsthafte und umfassende Anstrengungen wurden zunächst nur für den <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx> und – später – den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> unternommen. <idx type="person" norm="Stephenson Robert">Stephenson</idx> und <idx type="person" norm="Swinburne Henry">Swinburne</idx>
-						beantworteten die Frage nach einer <idx type="place" norm="Alpen">Alpen</idx>bahn mit Blick auf den <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx> als technisch schwierig und wirtschaftlich gesehen für 
-die Schweiz nicht zwingend, da vor allem die Nachbarstaaten die Früchte ernten würden.<com id="Weichenstellung_c13"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000481">Bericht der vom Bundesrathe einberufenen Experten:
+					<p xml:id="Weichenstellung_p10">Das Augenmerk der Schweizer Eisenbahnpioniere richtete sich auch über die Binnenlinien hinaus auf die Anbindung an bereits
+						bestehende internationale Streckennetze. Hier lockte die Erschliessung neuer Wirtschaftsräume. Für eine Überschienung der <placeName key="Alpen">Alpen</placeName> wurden Mitte des
+						19. Jahrhunderts verschiedene Schweizer Pässe in Betracht gezogen, darunter <placeName key="Septimerpass">Septimer</placeName>, <placeName key="Splügen (Pass)">Splügen</placeName>, <placeName key="San Bernardino (Pass)">San Bernardino</placeName>, <placeName key="Lukmanier (Pass)">Lukmanier</placeName>, <placeName key="St. Gotthard (Pass)">Gotthard</placeName>, <placeName key="Grimsel (Pass)">Grimsel</placeName> und <placeName key="Simplon (Pass)">Simplon</placeName>.
+						Ernsthafte und umfassende Anstrengungen wurden zunächst nur für den <placeName key="Lukmanier (Pass)">Lukmanier</placeName> und – später – den <placeName key="St. Gotthard (Pass)">Gotthard</placeName> unternommen. <persName key="Stephenson Robert">Stephenson</persName> und <persName key="Swinburne Henry">Swinburne</persName>
+						beantworteten die Frage nach einer <placeName key="Alpen">Alpen</placeName>bahn mit Blick auf den <placeName key="Lukmanier (Pass)">Lukmanier</placeName> als technisch schwierig und wirtschaftlich gesehen für 
+die Schweiz nicht zwingend, da vor allem die Nachbarstaaten die Früchte ernten würden.<com xml:id="Weichenstellung_c13">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000481">Bericht der vom Bundesrathe einberufenen Experten:
 	Herren R. Stephenson, M. P., und H. Swinburne über den Bau von Eisenbahnen in der Schweiz, in: <ref type="lit">BBl</ref> 1850 III, S. 478–481</ref>.</com> Bezeichnenderweise waren die Schweizer
-						<idx type="place" norm="Alpen">Alpen</idx> bereits Gegenstand ausländischer Eisenbahnprojekte, als in der Eidgenossenschaft das neue Transportmittel noch kaum thematisiert wurde: 1833
-						entwarf man im Grossherzogtum <idx type="place" norm="Baden (Grossherzogtum)">Baden</idx> Pläne für eine Linie von <idx type="place" norm="Mainz (D)">Mainz</idx> nach <idx type="place" norm="Frankfurt am Main (D)">Frankfurt am Main</idx> und <idx type="place" norm="Basel-Stadt">Basel</idx> mit Anschluss nach <idx type="place" norm="Chur">Chur</idx> und <idx type="place" norm="Oberitalien">Norditalien</idx>.<com id="Weichenstellung_c14"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 17.</com>
+						<placeName key="Alpen">Alpen</placeName> bereits Gegenstand ausländischer Eisenbahnprojekte, als in der Eidgenossenschaft das neue Transportmittel noch kaum thematisiert wurde: 1833
+						entwarf man im Grossherzogtum <placeName key="Baden (Grossherzogtum)">Baden</placeName> Pläne für eine Linie von <placeName key="Mainz (D)">Mainz</placeName> nach <placeName key="Frankfurt am Main (D)">Frankfurt am Main</placeName> und <placeName key="Basel-Stadt">Basel</placeName> mit Anschluss nach <placeName key="Chur">Chur</placeName> und <placeName key="Oberitalien">Norditalien</placeName>.<com xml:id="Weichenstellung_c14">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 17.</com>
 					</p>
-					<p id="Weichenstellung_p11">Im Oktober 1837 fand in <idx type="place" norm="Zürich (Stadt)">Zürich</idx> eine breit abgestützte Eisenbahnkonferenz statt. Bereits zu diesem Zeitpunkt zeichnete sich
-						in der Deutschschweiz eine Spaltung der Stände in Befürworter einer Ost<idx type="place" norm="Alpen">alpen</idx>bahn und Anhänger der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>linie ab.<com id="Weichenstellung_c15"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <abbr norm="Seite(n)">S.</abbr> 36–39.</com> Ein Jahr später bemühte sich der <idx type="place" norm="Italien">Italiener</idx> <idx type="person" norm="Volta Zanino">Zanino Volta</idx> bei den <idx type="place" norm="Graubünden">Bündner</idx>
-						und <idx type="place" norm="St. Gallen">St. Galler</idx> Behörden erfolglos um eine Konzession für «Erbauung eines Schienenweges von Eisen oder Granit» vom <idx type="place" norm="Walensee">Walensee</idx> bis in die <idx type="place" norm="Lombardei">Lombardei</idx> mit
-						einem Tunnel durch den <idx type="place" norm="Splügen (Pass)">Splügen</idx>.<com id="Weichenstellung_c16"><ref type="lit">Gubler, Eisenbahnpolitik</ref>, <abbr norm="Seite(n)">S.</abbr> 123. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <abbr norm="Seite(n)">S.</abbr> 123–124.</com>
-						Ebenfalls um 1838 befasste sich der <idx type="place" norm="Graubünden">Bündner</idx> Kantonsingenieur <ref type="kbp"/>  <idx type="person" norm="La Nicca Richard">Richard La Nicca</idx> mit dem Gedanken einer Eisenbahn<idx type="place" norm="Alpen">alpen</idx>transversalen,
-						zuerst über <idx type="place" norm="San Bernardino (Pass)">San Bernardino</idx> oder <idx type="place" norm="Splügen (Pass)">Splügen</idx> <ref type="letter" target="K_1178_c6">Splügen<!--→ Nr. 5 (Kommentar)--></ref>, ab 1845 auf der <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx>route.<com id="Weichenstellung_c17"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Planta, Alpenbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 4, 10;
-							<ref type="lit">Bänziger-La Nicca, Richard La Nicca</ref>, <abbr norm="Seite(n)">S.</abbr> 128–129.</com>
-						<pb n="28"/>Die Verbindung von <idx type="place" norm="Zürich (Stadt)">Zürich</idx> nach <idx type="place" norm="Chur">Chur</idx> war überdies als Zweiglinie der 1838 gegründeten und 1841 bereits wieder liquidierten Basel-Zürcher
-						Eisenbahngesellschaft im Gespräch. Der Misserfolg dieser Unternehmung war nicht zuletzt auf den Dissens zwischen <idx type="place" norm="Zürich (Stadt)">Zürich</idx> und <idx type="place" norm="Basel-Stadt">Basel</idx> hinsichtlich des
-						<idx type="place" norm="Alpen">Alpen</idx>übergangs und seiner Zubringerlinien zurückzuführen.<com id="Weichenstellung_c18"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 19. Dezember 1842; <ref type="lit">Gubler, Eisenbahnpolitik</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 31–33, 116; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 20–25.</com> So kurz die Lebensdauer dieser Gesellschaft auch war – mit ihren Terrainvermessungen und
+					<p xml:id="Weichenstellung_p11">Im Oktober 1837 fand in <placeName key="Zürich (Stadt)">Zürich</placeName> eine breit abgestützte Eisenbahnkonferenz statt. Bereits zu diesem Zeitpunkt zeichnete sich
+						in der Deutschschweiz eine Spaltung der Stände in Befürworter einer Ost<placeName key="Alpen">alpen</placeName>bahn und Anhänger der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>linie ab.<com xml:id="Weichenstellung_c15">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 36–39.</com> Ein Jahr später bemühte sich der <placeName key="Italien">Italiener</placeName> <persName key="Volta Zanino">Zanino Volta</persName> bei den <placeName key="Graubünden">Bündner</placeName>
+						und <placeName key="St. Gallen">St. Galler</placeName> Behörden erfolglos um eine Konzession für «Erbauung eines Schienenweges von Eisen oder Granit» vom <placeName key="Walensee">Walensee</placeName> bis in die <placeName key="Lombardei">Lombardei</placeName> mit
+						einem Tunnel durch den <placeName key="Splügen (Pass)">Splügen</placeName>.<com xml:id="Weichenstellung_c16">
+                            <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 123. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 123–124.</com>
+						Ebenfalls um 1838 befasste sich der <placeName key="Graubünden">Bündner</placeName> Kantonsingenieur   <persName key="La Nicca Richard">Richard La Nicca</persName> mit dem Gedanken einer Eisenbahn<placeName key="Alpen">alpen</placeName>transversalen,
+						zuerst über <placeName key="San Bernardino (Pass)">San Bernardino</placeName> oder <placeName key="Splügen (Pass)">Splügen</placeName> Splügen<!--→ Nr. 5 (Kommentar)-->, ab 1845 auf der <placeName key="Lukmanier (Pass)">Lukmanier</placeName>route.<com xml:id="Weichenstellung_c17">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Planta, Alpenbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 4, 10;
+							<ref type="lit">Bänziger-La Nicca, Richard La Nicca</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 128–129.</com>
+						<pb n="28"/>Die Verbindung von <placeName key="Zürich (Stadt)">Zürich</placeName> nach <placeName key="Chur">Chur</placeName> war überdies als Zweiglinie der 1838 gegründeten und 1841 bereits wieder liquidierten Basel-Zürcher
+						Eisenbahngesellschaft im Gespräch. Der Misserfolg dieser Unternehmung war nicht zuletzt auf den Dissens zwischen <placeName key="Zürich (Stadt)">Zürich</placeName> und <placeName key="Basel-Stadt">Basel</placeName> hinsichtlich des
+						<placeName key="Alpen">Alpen</placeName>übergangs und seiner Zubringerlinien zurückzuführen.<com xml:id="Weichenstellung_c18">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 19. Dezember 1842; <ref type="lit">Gubler, Eisenbahnpolitik</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 31–33, 116; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 20–25.</com> So kurz die Lebensdauer dieser Gesellschaft auch war – mit ihren Terrainvermessungen und
 						konkreten Planungen markiert sie den Auftakt zur eigentlichen schweizerischen Eisenbahngeschichte.</p>
-					<p id="Weichenstellung_p12"><idx type="place" norm="Zürich (Stadt)">Zürichs</idx> Bahnverbindung mit <idx type="place" norm="Basel-Stadt">Basel</idx> scheiterte auch im zweiten Anlauf infolge unterschiedlicher Interessen
-						und Konzepte des Streckenverlaufs. Im Grund aber ging es um die alte Rivalität der beiden Städte; die Nordbahn blieb 1847 in <idx type="place" norm="Baden (AG)">Baden</idx> stecken.
-						Die Fortsetzung über <idx type="place" norm="Koblenz (AG)">Koblenz</idx> und <idx type="place" norm="Waldshut (Waldshut-Tiengen, D)">Waldshut</idx> als Umfahrung der strittigen Strecke Richtung <idx type="place" norm="Basel-Stadt">Basel</idx> über <idx type="place" norm="Deutschland">deutsches</idx> Gebiet konnte erst 1859 verwirklicht
-						werden; diejenige nach <idx type="place" norm="Chur">Chur</idx> und weiter Richtung Süden bestand vorerst nur in den Köpfen von <idx type="person" norm="La Nicca Richard">La Nicca</idx> und den Nordbahnvertretern.<com id="Weichenstellung_c19"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <abbr norm="Seite(n)">S.</abbr> 193, 198; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 77.</com><ref type="letter" target="K_0993"><!--→ Nr. 3--></ref> <ref type="letter" target="K_1254"><!--→ Nr. 22--></ref>
+					<p xml:id="Weichenstellung_p12">
+                        <placeName key="Zürich (Stadt)">Zürichs</placeName> Bahnverbindung mit <placeName key="Basel-Stadt">Basel</placeName> scheiterte auch im zweiten Anlauf infolge unterschiedlicher Interessen
+						und Konzepte des Streckenverlaufs. Im Grund aber ging es um die alte Rivalität der beiden Städte; die Nordbahn blieb 1847 in <placeName key="Baden (AG)">Baden</placeName> stecken.
+						Die Fortsetzung über <placeName key="Koblenz (AG)">Koblenz</placeName> und <placeName key="Waldshut (Waldshut-Tiengen, D)">Waldshut</placeName> als Umfahrung der strittigen Strecke Richtung <placeName key="Basel-Stadt">Basel</placeName> über <placeName key="Deutschland">deutsches</placeName> Gebiet konnte erst 1859 verwirklicht
+						werden; diejenige nach <placeName key="Chur">Chur</placeName> und weiter Richtung Süden bestand vorerst nur in den Köpfen von <persName key="La Nicca Richard">La Nicca</persName> und den Nordbahnvertretern.<com xml:id="Weichenstellung_c19">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 193, 198; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 77.</com><!--→ Nr. 3--> <!--→ Nr. 22-->
 					</p>
-					<p id="Weichenstellung_p13">In <idx type="place" norm="Zürich (Stadt)">Zürich</idx> orientierte man sich zunächst Richtung Nordosten und peilte über <idx type="place" norm="Winterthur">Winterthur</idx> und <idx type="place" norm="Romanshorn">Romanshorn</idx> den <idx type="place" norm="Bodensee">Bodensee</idx> an.
+					<p xml:id="Weichenstellung_p13">In <placeName key="Zürich (Stadt)">Zürich</placeName> orientierte man sich zunächst Richtung Nordosten und peilte über <placeName key="Winterthur">Winterthur</placeName> und <placeName key="Romanshorn">Romanshorn</placeName> den <placeName key="Bodensee">Bodensee</placeName> an.
 						Die von Escher 1853 eigens zu diesem Zweck gegründete Zürich-Bodensee-Bahn fusionierte noch im selben Jahr mit der Nordbahn zur Nordostbahn.
-						Was die Verbindung mit <idx type="place" norm="Italien">Italien</idx> angeht, hatten die <idx type="place" norm="Zürich">Zürcher</idx> ihre Waren bis dahin sowohl über die <idx type="place" norm="Graubünden">Bündner</idx> Paßstrassen als auch über die <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>strasse
-						spediert. Anfang des 19. Jahrhunderts scheint die <idx type="place" norm="Graubünden">Bündner</idx> Route schneller und billiger und darum von den <idx type="place" norm="Zürich">Zürchern</idx> noch bevorzugt worden zu sein; die
-						verbesserten Bedingungen am <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> führten jedoch bis Mitte des Jahrhunderts zu einer Verlagerung zugunsten des <idx type="place" norm="Zentralschweiz">innerschweizer</idx> Passes. Betreffend
-						die Wahl der Bahntransversale durch die <idx type="place" norm="Alpen">Alpen</idx> standen <idx type="place" norm="Zürich (Stadt)">Zürich</idx> grundsätzlich beide Optionen offen, im Gegensatz zu <idx type="place" norm="Basel-Stadt">Basel</idx> oder <idx type="place" norm="St. Gallen (Stadt)">St. Gallen</idx>. Dennoch schlug
-						sich <idx type="place" norm="Zürich (Stadt)">Zürich</idx> aus Gründen der technischen Machbarkeit und der politischen Verbundenheit zunächst auf die Seite der <idx type="place" norm="Ostschweiz">Ostschweiz</idx>.<com id="Weichenstellung_c20"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 19. Dezember 1842, 5. Juli 1853; <ref type="lit">Baumann, Güterverkehr</ref>, <abbr norm="Seite(n)">S.</abbr> 161; <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <abbr norm="Seite(n)">S.</abbr> 132; Jung,
-							Aufbruch, <abbr norm="Seite(n)">S.</abbr> 414–446.</com>
+						Was die Verbindung mit <placeName key="Italien">Italien</placeName> angeht, hatten die <placeName key="Zürich">Zürcher</placeName> ihre Waren bis dahin sowohl über die <placeName key="Graubünden">Bündner</placeName> Paßstrassen als auch über die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>strasse
+						spediert. Anfang des 19. Jahrhunderts scheint die <placeName key="Graubünden">Bündner</placeName> Route schneller und billiger und darum von den <placeName key="Zürich">Zürchern</placeName> noch bevorzugt worden zu sein; die
+						verbesserten Bedingungen am <placeName key="St. Gotthard (Pass)">Gotthard</placeName> führten jedoch bis Mitte des Jahrhunderts zu einer Verlagerung zugunsten des <placeName key="Zentralschweiz">innerschweizer</placeName> Passes. Betreffend
+						die Wahl der Bahntransversale durch die <placeName key="Alpen">Alpen</placeName> standen <placeName key="Zürich (Stadt)">Zürich</placeName> grundsätzlich beide Optionen offen, im Gegensatz zu <placeName key="Basel-Stadt">Basel</placeName> oder <placeName key="St. Gallen (Stadt)">St. Gallen</placeName>. Dennoch schlug
+						sich <placeName key="Zürich (Stadt)">Zürich</placeName> aus Gründen der technischen Machbarkeit und der politischen Verbundenheit zunächst auf die Seite der <placeName key="Ostschweiz">Ostschweiz</placeName>.<com xml:id="Weichenstellung_c20">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 19. Dezember 1842, 5. Juli 1853; <ref type="lit">Baumann, Güterverkehr</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 161; <ref type="lit">Gubler, Eisenbahnpolitik</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 132; Jung,
+							Aufbruch, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 414–446.</com>
 					</p>
-					<p id="Weichenstellung_p14"><idx type="place" norm="Basel-Stadt">Basel</idx>, bereits seit 1844 ans <idx type="place" norm="Frankreich">französische</idx> Eisenbahnnetz angeschlossen, suchte den Schienenweg nach Süden durch den <idx type="place" norm="Hauenstein (Pass)">Hauenstein</idx>
-						nach <idx type="place" norm="Olten">Olten</idx> und weiter Richtung <idx type="place" norm="Luzern (Stadt)">Luzern</idx> und <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>. Dies war schon mit der Kutsche der übliche Weg von <idx type="place" norm="Basel-Stadt">Basel</idx> nach <idx type="place" norm="Italien">Italien</idx> gewesen. <idx type="place" norm="Olten">Olten</idx> wurde dabei
-						die Rolle eines Eisenbahnknotenpunkts zugedacht, von dem auch die Linie nach <idx type="place" norm="Zürich (Stadt)">Zürich</idx> abzweigen sollte.<ref type="letter" target="K_0993"><!--→ Nr. 3--></ref> <ref type="letter" target="K_1260"><!--→ Nr. 24--></ref> <ref type="letter" target="K_1487"><!--→ Nr. 33--></ref> In der <idx type="place" norm="Ostschweiz">Ostschweiz</idx> konnte man jedoch am  Umweg von
-						<idx type="place" norm="Zürich (Stadt)">Zürich</idx> über <idx type="place" norm="Olten">Olten</idx> nach <idx type="place" norm="Basel-Stadt">Basel</idx> mit der Gabelung Richtung <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> keinen Gefallen finden und plädierte nachdrücklich für die kürzere Verbindung zwischen
-						<idx type="place" norm="Chur">Chur</idx> <abbr norm="beziehungsweise">bzw.</abbr> <idx type="place" norm="Zürich (Stadt)">Zürich</idx> und <idx type="place" norm="Basel-Stadt">Basel</idx> durch den <idx type="place" norm="Bözberg">Bözberg</idx> via <idx type="place" norm="Frick">Frick</idx><ref type="letter" target="K_1195"><!--→ Nr. 6--></ref> <ref type="letter" target="K_1254"><!--→ Nr. 22--></ref> (diese Strecke ist trotz <idx type="place" norm="Hauenstein (Pass)">Hauenstein</idx>-Basistunnel auch heute noch gut 14 <abbr norm="Kilometer">km</abbr> kürzer als jene über
-						<idx type="place" norm="Olten">Olten</idx>). Die <idx type="place" norm="Olten">Oltner</idx> Linie wurde jedoch einiges früher fertig: Mit dem Bau des 2495 <abbr norm="Meter">m</abbr> langen <idx type="place" norm="Hauenstein (Pass)">Hauenstein</idx>-Scheiteltunnels wurde bereits im Juli 1853 begonnen;
-						knapp fünf Jahre später war der erste längere Tunnel der Schweiz vollendet. Die Strecke durch den <idx type="place" norm="Bözberg">Bözberg</idx> hingegen konnte erst 1875 eröffnet werden.<com id="Weichenstellung_c21"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Wägli, Schienennetz</ref>, <abbr norm="Seite(n)">S.</abbr> 185, 188 (Profile 500/550), 193 (Profil 700); <ref type="lit">Niederhäusern/Danuser, Olten</ref>, <abbr norm="Seite(n)">S.</abbr> 32; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 73, 109.</com><ref type="letter" target="K_2395"><!--→ Nr. 124--></ref>
+					<p xml:id="Weichenstellung_p14">
+                        <placeName key="Basel-Stadt">Basel</placeName>, bereits seit 1844 ans <placeName key="Frankreich">französische</placeName> Eisenbahnnetz angeschlossen, suchte den Schienenweg nach Süden durch den <placeName key="Hauenstein (Pass)">Hauenstein</placeName>
+						nach <placeName key="Olten">Olten</placeName> und weiter Richtung <placeName key="Luzern (Stadt)">Luzern</placeName> und <placeName key="St. Gotthard (Pass)">Gotthard</placeName>. Dies war schon mit der Kutsche der übliche Weg von <placeName key="Basel-Stadt">Basel</placeName> nach <placeName key="Italien">Italien</placeName> gewesen. <placeName key="Olten">Olten</placeName> wurde dabei
+						die Rolle eines Eisenbahnknotenpunkts zugedacht, von dem auch die Linie nach <placeName key="Zürich (Stadt)">Zürich</placeName> abzweigen sollte.<!--→ Nr. 3--> <!--→ Nr. 24--> <!--→ Nr. 33--> In der <placeName key="Ostschweiz">Ostschweiz</placeName> konnte man jedoch am  Umweg von
+						<placeName key="Zürich (Stadt)">Zürich</placeName> über <placeName key="Olten">Olten</placeName> nach <placeName key="Basel-Stadt">Basel</placeName> mit der Gabelung Richtung <placeName key="St. Gotthard (Pass)">Gotthard</placeName> keinen Gefallen finden und plädierte nachdrücklich für die kürzere Verbindung zwischen
+						<placeName key="Chur">Chur</placeName> <choice>
+                            <abbr>bzw.</abbr>
+                            <expan>beziehungsweise</expan>
+                        </choice> <placeName key="Zürich (Stadt)">Zürich</placeName> und <placeName key="Basel-Stadt">Basel</placeName> durch den <placeName key="Bözberg">Bözberg</placeName> via <placeName key="Frick">Frick</placeName><!--→ Nr. 6--> <!--→ Nr. 22--> (diese Strecke ist trotz <placeName key="Hauenstein (Pass)">Hauenstein</placeName>-Basistunnel auch heute noch gut 14 <choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice> kürzer als jene über
+						<placeName key="Olten">Olten</placeName>). Die <placeName key="Olten">Oltner</placeName> Linie wurde jedoch einiges früher fertig: Mit dem Bau des 2495 <choice>
+                            <abbr>m</abbr>
+                            <expan>Meter</expan>
+                        </choice> langen <placeName key="Hauenstein (Pass)">Hauenstein</placeName>-Scheiteltunnels wurde bereits im Juli 1853 begonnen;
+						knapp fünf Jahre später war der erste längere Tunnel der Schweiz vollendet. Die Strecke durch den <placeName key="Bözberg">Bözberg</placeName> hingegen konnte erst 1875 eröffnet werden.<com xml:id="Weichenstellung_c21">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Wägli, Schienennetz</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 185, 188 (Profile 500/550), 193 (Profil 700); <ref type="lit">Niederhäusern/Danuser, Olten</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 32; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 73, 109.</com><!--→ Nr. 124-->
 					</p>
-					<p id="Weichenstellung_p15">Für <idx type="place" norm="St. Gallen">St. Gallen</idx> verlangten vorab zwei Linien nach Anbindung ans nationale und internationale Netz: <idx type="place" norm="Rorschach">Rorschach</idx>–<idx type="place" norm="St. Gallen (Stadt)">St. Gallen</idx>–<idx type="place" norm="Wil (SG)">Wil</idx>–<idx type="place" norm="Winterthur">Winterthur</idx> und weiter
-						nach <idx type="place" norm="Zürich (Stadt)">Zürich</idx> sowie <idx type="place" norm="Rorschach">Rorschach</idx>–<idx type="place" norm="Sargans">Sargans</idx>–<idx type="place" norm="Chur">Chur</idx> mit der Anschlußstrecke über die <idx type="place" norm="Alpen">Alpen</idx>. Dem Hafen von <idx type="place" norm="Rorschach">Rorschach</idx> kam dabei eine wichtige Rolle zu. Allerdings torpedierte die
-						Nordostbahn diese Pläne und setzte auf den Hafen im <idx type="place" norm="Thurgau">thurgauischen</idx> <idx type="place" norm="Romanshorn">Romanshorn</idx>, der dem <idx type="place" norm="Rorschach">Rorschacher</idx> Hafen denn auch bald den Rang ablaufen sollte.<com id="Weichenstellung_c22"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Heer, Rorschach</ref>, <abbr norm="Seite(n)">S.</abbr> 54; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 75, 77.</com> Die Interessen von <idx type="place" norm="St. Gallen">St. Gallen</idx> und <idx type="place" norm="Zürich">Zürich</idx> kollidierten auch in der Frage
-						der Verbindung von <idx type="place" norm="Zürich (Stadt)">Zürich</idx> nach <idx type="place" norm="Chur">Chur</idx> (<idx type="place" norm="Zürich (Stadt)">Zürich</idx>–<idx type="place" norm="Rapperswil (Rapperswil-Jona)">Rapperswil</idx>–<idx type="place" norm="Weesen">Weesen</idx>–<idx type="place" norm="Walenstadt">Walenstadt</idx>–<idx type="place" norm="Sargans">Sargans</idx>–<idx type="place" norm="Chur">Chur</idx>), an der <idx type="place" norm="St. Gallen">St. Gallen</idx> nicht sonderlich interessiert war, die jedoch auf weiten Strecken
-						auf <idx type="place" norm="St. Gallen">St. Galler</idx> Gebiet liegt. <pb n="29"/>
+					<p xml:id="Weichenstellung_p15">Für <placeName key="St. Gallen">St. Gallen</placeName> verlangten vorab zwei Linien nach Anbindung ans nationale und internationale Netz: <placeName key="Rorschach">Rorschach</placeName>–<placeName key="St. Gallen (Stadt)">St. Gallen</placeName>–<placeName key="Wil (SG)">Wil</placeName>–<placeName key="Winterthur">Winterthur</placeName> und weiter
+						nach <placeName key="Zürich (Stadt)">Zürich</placeName> sowie <placeName key="Rorschach">Rorschach</placeName>–<placeName key="Sargans">Sargans</placeName>–<placeName key="Chur">Chur</placeName> mit der Anschlußstrecke über die <placeName key="Alpen">Alpen</placeName>. Dem Hafen von <placeName key="Rorschach">Rorschach</placeName> kam dabei eine wichtige Rolle zu. Allerdings torpedierte die
+						Nordostbahn diese Pläne und setzte auf den Hafen im <placeName key="Thurgau">thurgauischen</placeName> <placeName key="Romanshorn">Romanshorn</placeName>, der dem <placeName key="Rorschach">Rorschacher</placeName> Hafen denn auch bald den Rang ablaufen sollte.<com xml:id="Weichenstellung_c22">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Heer, Rorschach</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 54; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 75, 77.</com> Die Interessen von <placeName key="St. Gallen">St. Gallen</placeName> und <placeName key="Zürich">Zürich</placeName> kollidierten auch in der Frage
+						der Verbindung von <placeName key="Zürich (Stadt)">Zürich</placeName> nach <placeName key="Chur">Chur</placeName> (<placeName key="Zürich (Stadt)">Zürich</placeName>–<placeName key="Rapperswil (Rapperswil-Jona)">Rapperswil</placeName>–<placeName key="Weesen">Weesen</placeName>–<placeName key="Walenstadt">Walenstadt</placeName>–<placeName key="Sargans">Sargans</placeName>–<placeName key="Chur">Chur</placeName>), an der <placeName key="St. Gallen">St. Gallen</placeName> nicht sonderlich interessiert war, die jedoch auf weiten Strecken
+						auf <placeName key="St. Gallen">St. Galler</placeName> Gebiet liegt. <pb n="29"/>
 </p>
-					<p id="Weichenstellung_p16">Die Linie entlang dem <idx type="place" norm="Walensee">Walensee</idx> führte ein kurzes Stück über <idx type="place" norm="Glarus">Glarner</idx> Boden. Der Gedanke an den Bau einer Eisenbahn scheint aber in <idx type="place" norm="Glarus">Glarus</idx> Anfang der
-						1850er Jahre noch in weiter Ferne gewesen zu sein. Die beiden Hauptinteressenten, <idx type="place" norm="Graubünden">Graubünden</idx> und <idx type="place" norm="Zürich">Zürich</idx>, wiesen den kleinen Bergkanton auf die Möglichkeit einer Zweigbahn
-						nach der Kantonshauptstadt <idx type="place" norm="Glarus (Gemeinde)">Glarus</idx> hin und animierten ihn, sich für den Bau dieser Linie stark zu machen.<com id="Weichenstellung_c23"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_1003"><!--Brief Johann Jakob Blumer an Escher, 19. März 1852(FA Tschudi)--></ref>.</com><ref type="letter" target="K_1120"><!--→ Nr. 4--></ref> <ref type="letter" target="K_1178"><!--→ Nr. 5--></ref> Daraufhin bildete sich ein <idx type="place" norm="Glarus">Glarner</idx> Eisenbahnkomitee. <idx type="place" norm="Glarus">Glarus</idx> war den <idx type="place" norm="Graubünden">Bündnern</idx> als weiterer Mitspieler und Gegengewicht zu <idx type="place" norm="St. Gallen">St. Gallen</idx>
-						sehr willkommen. Die geographische Lage auf der Linie <idx type="place" norm="Zürich (Stadt)">Zürich</idx>–<idx type="place" norm="Chur">Chur</idx> und die natürliche Barriere der <idx type="place" norm="Glarus">Glarner</idx> <idx type="place" norm="Alpen">Alpen</idx> schlossen für diesen Kanton die Option einer Eisenbahnlinie
-						über den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> von vornherein aus.</p>
-					<p id="Weichenstellung_p17">Stand im Falle von <idx type="place" norm="Zürich">Zürich</idx>, <idx type="place" norm="Basel-Stadt">Basel</idx>, <idx type="place" norm="St. Gallen">St. Gallen</idx> und <idx type="place" norm="Glarus">Glarus</idx> der schnellere und günstigere Transport durch die Eisenbahn als Erfordernis der heimischen
-						Industrie im Vordergrund, hatte <idx type="place" norm="Graubünden">Graubünden</idx> als einer der traditionell führenden Transitkantone am Transportgewerbe als solchem vitales Interesse. Der Blick richtete sich
-						naturgemäss auf die Nord-Süd-Achse und die Verbindung zum aufstrebenden Wirtschaftszentrum <idx type="place" norm="Zürich (Stadt)">Zürich</idx>. Die Promotoren der Ost<idx type="place" norm="Alpen">alpen</idx>bahn hatten neben dem Schutz der <idx type="place" norm="Graubünden">Bündner</idx>
-						Spediteurfirmen auch die Förderung der einkommensschwachen Berggebiete auf ihre Fahnen geschrieben.<com id="Weichenstellung_c24"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Metz, Graubünden</ref>, <abbr norm="Seite(n)">S.</abbr> 105; <ref type="lit">Müller,
-						Alpenbahn-Bestrebungen</ref>, <abbr norm="Seite(n)">S.</abbr> 29.</com>
+					<p xml:id="Weichenstellung_p16">Die Linie entlang dem <placeName key="Walensee">Walensee</placeName> führte ein kurzes Stück über <placeName key="Glarus">Glarner</placeName> Boden. Der Gedanke an den Bau einer Eisenbahn scheint aber in <placeName key="Glarus">Glarus</placeName> Anfang der
+						1850er Jahre noch in weiter Ferne gewesen zu sein. Die beiden Hauptinteressenten, <placeName key="Graubünden">Graubünden</placeName> und <placeName key="Zürich">Zürich</placeName>, wiesen den kleinen Bergkanton auf die Möglichkeit einer Zweigbahn
+						nach der Kantonshauptstadt <placeName key="Glarus (Gemeinde)">Glarus</placeName> hin und animierten ihn, sich für den Bau dieser Linie stark zu machen.<com xml:id="Weichenstellung_c23">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <!--Brief Johann Jakob Blumer an Escher, 19. März 1852(FA Tschudi)-->.</com><!--→ Nr. 4--> <!--→ Nr. 5--> Daraufhin bildete sich ein <placeName key="Glarus">Glarner</placeName> Eisenbahnkomitee. <placeName key="Glarus">Glarus</placeName> war den <placeName key="Graubünden">Bündnern</placeName> als weiterer Mitspieler und Gegengewicht zu <placeName key="St. Gallen">St. Gallen</placeName>
+						sehr willkommen. Die geographische Lage auf der Linie <placeName key="Zürich (Stadt)">Zürich</placeName>–<placeName key="Chur">Chur</placeName> und die natürliche Barriere der <placeName key="Glarus">Glarner</placeName> <placeName key="Alpen">Alpen</placeName> schlossen für diesen Kanton die Option einer Eisenbahnlinie
+						über den <placeName key="St. Gotthard (Pass)">Gotthard</placeName> von vornherein aus.</p>
+					<p xml:id="Weichenstellung_p17">Stand im Falle von <placeName key="Zürich">Zürich</placeName>, <placeName key="Basel-Stadt">Basel</placeName>, <placeName key="St. Gallen">St. Gallen</placeName> und <placeName key="Glarus">Glarus</placeName> der schnellere und günstigere Transport durch die Eisenbahn als Erfordernis der heimischen
+						Industrie im Vordergrund, hatte <placeName key="Graubünden">Graubünden</placeName> als einer der traditionell führenden Transitkantone am Transportgewerbe als solchem vitales Interesse. Der Blick richtete sich
+						naturgemäss auf die Nord-Süd-Achse und die Verbindung zum aufstrebenden Wirtschaftszentrum <placeName key="Zürich (Stadt)">Zürich</placeName>. Die Promotoren der Ost<placeName key="Alpen">alpen</placeName>bahn hatten neben dem Schutz der <placeName key="Graubünden">Bündner</placeName>
+						Spediteurfirmen auch die Förderung der einkommensschwachen Berggebiete auf ihre Fahnen geschrieben.<com xml:id="Weichenstellung_c24">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Metz, Graubünden</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 105; <ref type="lit">Müller,
+						Alpenbahn-Bestrebungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 29.</com>
 					</p>
-					<p id="Weichenstellung_p18">Die <idx type="place" norm="Graubünden">Bündner</idx> Pässe konkurrierten seit Jahrhunderten mit dem <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>. Verkehrstechnisch hatten die <idx type="place" norm="Graubünden">Bündner</idx> mit der Fertigstellung der
-						«Kunststrassen» über <idx type="place" norm="Splügen (Pass)">Splügen</idx> und <idx type="place" norm="San Bernardino (Pass)">San Bernardino</idx> 1823 die Nase vorn; der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> zog jedoch bereits 1836 nach.<com id="Weichenstellung_c25"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Simonett, Verkehr</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 64–65.</com> Einer bequemeren Verbindung von <idx type="place" norm="Chur">Chur</idx> nach <idx type="place" norm="Zürich (Stadt)">Zürich</idx> standen noch die Hindernisse am <idx type="place" norm="Walensee">Walensee</idx> im Weg.<ref type="letter" target="K_1195_c16"><!--→ Nr. 6 (Kommentar)--></ref> Die in den Jahren 1836 bis 1851 erstellte Strasse
-						über den <idx type="place" norm="Kerenzerberg">Kerenzerberg</idx> befriedigte ebensowenig wie die langsame Schiffahrt über <idx type="place" norm="Walensee">Walensee</idx>, <idx type="place" norm="Linth">Linth</idx>kanal und <idx type="place" norm="Zürichsee">Zürichsee</idx>. Ursprünglich hatte man dem Anschluss an Dampfschifflinien
-						auf Seen und Flussläufen einige Bedeutung zugemessen und daher einen Ausbau des <idx type="place" norm="Linth">Linth</idx>kanals in Betracht gezogen.<ref type="letter" target="K_0757"><!--→ Nr. 1--></ref> <ref type="letter" target="K_0758"><!--→ Nr. 2--></ref> Auch die Experten <idx type="person" norm="Stephenson Robert">Stephenson</idx> und <idx type="person" norm="Swinburne Henry">Swinburne</idx> hatten die
-						Wasserwege in ihr Konzept des Streckennetzes integriert, doch verloren diese durch die eisenbahntechnische Entwicklung sehr bald an Bedeutung.<com id="Weichenstellung_c26"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 54; <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D15974.php"><ref type="lit">HLS online</ref>, Kerenzerberg</ref>.</com>Für eine <idx type="place" norm="Walensee">Walensee</idx>strasse dem Ufer entlang wurden zwischen
-						den interessierten Kantonen <idx type="place" norm="St. Gallen">St. Gallen</idx>, <idx type="place" norm="Graubünden">Graubünden</idx>, <idx type="place" norm="Glarus">Glarus</idx> und <idx type="place" norm="Zürich">Zürich</idx> verschiedene Pläne diskutiert. Escher engagierte sich als <idx type="place" norm="Zürich">Zürcher</idx> Sonderbeauftragter in dieser Sache
-						an vorderster Front. Allerdings stellte sich nun die Frage, ob statt einer Strasse nicht eine Bahnlinie erstellt werden sollte.<ref type="letter" target="K_0757"><!--→ Nr. 1--></ref> <ref type="letter" target="K_0758"><!--→ Nr. 2--></ref> <ref type="letter" target="K_0993"><!--→ Nr. 3--></ref> <ref type="letter" target="K_1178"><!--→ Nr. 5--></ref> Tatsächlich kam die Eisenbahnlinie lange
-						vor der Strasse zustande, deren Bau über hundert Jahre zurückgestellt wurde (gebaut 1957–1964).<com id="Weichenstellung_c27"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Prot. RR Kt. ZH</ref>, 7. Februar 1850,
-							30. März 1850, 16. Mai 1850, 26. September 1850, 3. Oktober 1850, 15. Oktober 1850, 26. Oktober 1850; <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D15974.php"><ref type="lit">HLS online</ref>, Kerenzerberg</ref>.</com>
+					<p xml:id="Weichenstellung_p18">Die <placeName key="Graubünden">Bündner</placeName> Pässe konkurrierten seit Jahrhunderten mit dem <placeName key="St. Gotthard (Pass)">Gotthard</placeName>. Verkehrstechnisch hatten die <placeName key="Graubünden">Bündner</placeName> mit der Fertigstellung der
+						«Kunststrassen» über <placeName key="Splügen (Pass)">Splügen</placeName> und <placeName key="San Bernardino (Pass)">San Bernardino</placeName> 1823 die Nase vorn; der <placeName key="St. Gotthard (Pass)">Gotthard</placeName> zog jedoch bereits 1836 nach.<com xml:id="Weichenstellung_c25">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Simonett, Verkehr</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 64–65.</com> Einer bequemeren Verbindung von <placeName key="Chur">Chur</placeName> nach <placeName key="Zürich (Stadt)">Zürich</placeName> standen noch die Hindernisse am <placeName key="Walensee">Walensee</placeName> im Weg.<!--→ Nr. 6 (Kommentar)--> Die in den Jahren 1836 bis 1851 erstellte Strasse
+						über den <placeName key="Kerenzerberg">Kerenzerberg</placeName> befriedigte ebensowenig wie die langsame Schiffahrt über <placeName key="Walensee">Walensee</placeName>, <placeName key="Linth">Linth</placeName>kanal und <placeName key="Zürichsee">Zürichsee</placeName>. Ursprünglich hatte man dem Anschluss an Dampfschifflinien
+						auf Seen und Flussläufen einige Bedeutung zugemessen und daher einen Ausbau des <placeName key="Linth">Linth</placeName>kanals in Betracht gezogen.<!--→ Nr. 1--> <!--→ Nr. 2--> Auch die Experten <persName key="Stephenson Robert">Stephenson</persName> und <persName key="Swinburne Henry">Swinburne</persName> hatten die
+						Wasserwege in ihr Konzept des Streckennetzes integriert, doch verloren diese durch die eisenbahntechnische Entwicklung sehr bald an Bedeutung.<com xml:id="Weichenstellung_c26">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 54; <ref target="http://www.hls-dhs-dss.ch/textes/d/D15974.php">
+                                <ref type="lit">HLS online</ref>, Kerenzerberg</ref>.</com>Für eine <placeName key="Walensee">Walensee</placeName>strasse dem Ufer entlang wurden zwischen
+						den interessierten Kantonen <placeName key="St. Gallen">St. Gallen</placeName>, <placeName key="Graubünden">Graubünden</placeName>, <placeName key="Glarus">Glarus</placeName> und <placeName key="Zürich">Zürich</placeName> verschiedene Pläne diskutiert. Escher engagierte sich als <placeName key="Zürich">Zürcher</placeName> Sonderbeauftragter in dieser Sache
+						an vorderster Front. Allerdings stellte sich nun die Frage, ob statt einer Strasse nicht eine Bahnlinie erstellt werden sollte.<!--→ Nr. 1--> <!--→ Nr. 2--> <!--→ Nr. 3--> <!--→ Nr. 5--> Tatsächlich kam die Eisenbahnlinie lange
+						vor der Strasse zustande, deren Bau über hundert Jahre zurückgestellt wurde (gebaut 1957–1964).<com xml:id="Weichenstellung_c27">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. RR Kt. ZH</ref>, 7. Februar 1850,
+							30. März 1850, 16. Mai 1850, 26. September 1850, 3. Oktober 1850, 15. Oktober 1850, 26. Oktober 1850; <ref target="http://www.hls-dhs-dss.ch/textes/d/D15974.php">
+                                <ref type="lit">HLS online</ref>, Kerenzerberg</ref>.</com>
 					</p>
-					<p id="Weichenstellung_p19">In <idx type="place" norm="Genf">Genf</idx> liebäugelte man mit dem Tunnel durch den nahegelegenen <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx> <ref type="letter" target="K_0993"><!--→ Nr. 3--></ref>; andere Gegenden der <idx type="place" norm="Westschweiz">Westschweiz</idx>, allen voran das <idx type="place" norm="Wallis">Wallis</idx>, favorisierten den <idx type="place" norm="Simplon (Pass)">Simplon</idx> für den Bau einer <idx type="place" norm="Alpen">Alpen</idx>bahn. Entsprechende
+					<p xml:id="Weichenstellung_p19">In <placeName key="Genf">Genf</placeName> liebäugelte man mit dem Tunnel durch den nahegelegenen <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName> <!--→ Nr. 3-->; andere Gegenden der <placeName key="Westschweiz">Westschweiz</placeName>, allen voran das <placeName key="Wallis">Wallis</placeName>, favorisierten den <placeName key="Simplon (Pass)">Simplon</placeName> für den Bau einer <placeName key="Alpen">Alpen</placeName>bahn. Entsprechende
 						Pläne wurden schon in den 1850er Jahren geschmiedet. Der Tunnel konnte in der Tat auch realisiert werden, allerdings erst in den Jahren 1898–1906.</p>
-					<p id="Weichenstellung_p20">Die <idx type="place" norm="Bern">Berner</idx> planten um die Jahrhundertmitte, mittels einer <idx type="place" norm="Grimsel (Pass)">Grimsel</idx>bahn ins <idx type="place" norm="Wallis">Wallis</idx> zu gelangen und von da weiter über <idx type="place" norm="Albrunpass">Albrun</idx>, <idx type="place" norm="Griespass">Gries</idx> oder <idx type="place" norm="Simplon (Pass)">Simplon</idx>
-						nach <idx type="place" norm="Italien">Italien</idx>. 1864 wurde gar ein <idx type="place" norm="Bern">Berner</idx> <idx type="place" norm="Grimsel (Pass)">Grimsel</idx>bahnkomitee gegründet.<ref type="sum" target="Gotthardvereinigung_p11"><!--→ S. 197–198--></ref> Bereits zwei Jahre später legte man in <idx type="place" norm="Bern">Bern</idx> diese Pläne jedoch ad acta, da die Fortschritte am
-						<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> eine Umsetzung unrealistisch erscheinen liessen. Anstelle des <idx type="place" norm="Grimsel (Pass)">Grimsel</idx>projekts wurde schliesslich der Tunnel durch den <idx type="place" norm="Lötschberg">Lötschberg</idx> gebaut (eröffnet 1913).<com id="Weichenstellung_c28"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 549, 551, 569; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 87–92, 137–139, 151–154. – Bei Volmar werden die <idx type="place" norm="Bern">Berner</idx> <idx type="place" norm="Grimsel (Pass)">Grimsel</idx>pläne 
-							detailliert geschildert. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Volmar, Alpenbahnpolitik</ref>, <abbr norm="Seite(n)">S.</abbr> 9–96.</com>
+					<p xml:id="Weichenstellung_p20">Die <placeName key="Bern">Berner</placeName> planten um die Jahrhundertmitte, mittels einer <placeName key="Grimsel (Pass)">Grimsel</placeName>bahn ins <placeName key="Wallis">Wallis</placeName> zu gelangen und von da weiter über <placeName key="Albrunpass">Albrun</placeName>, <placeName key="Griespass">Gries</placeName> oder <placeName key="Simplon (Pass)">Simplon</placeName>
+						nach <placeName key="Italien">Italien</placeName>. 1864 wurde gar ein <placeName key="Bern">Berner</placeName> <placeName key="Grimsel (Pass)">Grimsel</placeName>bahnkomitee gegründet.<ref type="sum" target="Gotthardvereinigung_p11"><!--→ S. 197–198--></ref> Bereits zwei Jahre später legte man in <placeName key="Bern">Bern</placeName> diese Pläne jedoch ad acta, da die Fortschritte am
+						<placeName key="St. Gotthard (Pass)">Gotthard</placeName> eine Umsetzung unrealistisch erscheinen liessen. Anstelle des <placeName key="Grimsel (Pass)">Grimsel</placeName>projekts wurde schliesslich der Tunnel durch den <placeName key="Lötschberg">Lötschberg</placeName> gebaut (eröffnet 1913).<com xml:id="Weichenstellung_c28">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 549, 551, 569; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 87–92, 137–139, 151–154. – Bei Volmar werden die <placeName key="Bern">Berner</placeName> <placeName key="Grimsel (Pass)">Grimsel</placeName>pläne 
+							detailliert geschildert. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Volmar, Alpenbahnpolitik</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 9–96.</com>
 					</p>
 				</div>
 			</div>
 		</body>
-</commentary>
+    </text>
+</TEI>

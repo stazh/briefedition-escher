@@ -1,141 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Turicensia" name="Turicensia">
-  <metadata>
-    <title>Turicensia</title>
-    <author>
-      <name>Sandra Wiederkehr, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Turicensia">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Turicensia</title>
+                <author>
+      Sandra Wiederkehr, unter der Leitung von Prof. Dr. Joseph Jung
     </author>
-    <source>
-      <volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1848–1852). Aufbau des jungen
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1848–1852). Aufbau des jungen
         Bundesstaates, politische Flüchtlinge und Neutralität, bearbeitet und kommentiert von Sandra
         Wiederkehr (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-        Escher-Stiftung, Band 4), Zürich 2012</volume_title>
-      <short_title>Jung/Wiederkehr, Escher Briefe, Band 4</short_title>
-      <volume>4</volume>
-      <page>68–77</page>
-    </source>
-    <description>Stimmungsbilder – Escher als Erziehungsdirektor und Kirchenrat – Jubiläumsfeier von 1851</description>
-    <revision>
-      <change>XML-Grundstruktur erstellt, TM, 21.06.2012</change>
-      <change>e-Edition: Auszeichnung 1 umgesetzt, SCK, 21.06.2012</change>
-      <change>e-Edition: Verifizierung 1 umgesetzt, AH, 25.06.2012</change>
-      <change>e-Edition: Auszeichnung 2 umgesetzt, FM, 11.07.2012</change>
-      <change>e-Edition: Verifizierung 2 umgesetzt, TM, 06.06.2013</change>
-    </revision>
-  </metadata>
-  <body>
-    <div id="Turicensia_d1">
+        Escher-Stiftung, Band 4), Zürich 2012</title>
+                    <title type="short">Jung/Wiederkehr, Escher Briefe, Band 4</title>
+                    <ref type="volume" target="V4">68–77</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Stimmungsbilder – Escher als Erziehungsdirektor und Kirchenrat – Jubiläumsfeier von 1851</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, TM, 21.06.2012</change>
+                <change>e-Edition: Auszeichnung 1 umgesetzt, SCK, 21.06.2012</change>
+                <change>e-Edition: Verifizierung 1 umgesetzt, AH, 25.06.2012</change>
+                <change>e-Edition: Auszeichnung 2 umgesetzt, FM, 11.07.2012</change>
+                <change>e-Edition: Verifizierung 2 umgesetzt, TM, 06.06.2013</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+    <div xml:id="Turicensia_d1">
       <head>Turicensia</head>
-      <div id="Turicensia_d1.1">
+      <div xml:id="Turicensia_d1.1">
         <head/>
-        <p id="Turicensia_p1"><pb n="68"/>In den rund 440 Briefen von und an Alfred Escher, die für die Zeit zwischen
+        <p xml:id="Turicensia_p1">
+                        <pb n="68"/>In den rund 440 Briefen von und an Alfred Escher, die für die Zeit zwischen
         November 1848 und Juli 1852 dokumentiert sind, kommen neben den grossen Themen der
-        Bundespolitik zahlreiche <idx norm="Zürich" type="place">zürcherische</idx> Aspekte zur
-        Sprache. Sie betreffen beispielsweise die <idx norm="Zürich" type="place">Zürcher</idx>
+        Bundespolitik zahlreiche <placeName key="Zürich">zürcherische</placeName> Aspekte zur
+        Sprache. Sie betreffen beispielsweise die <placeName key="Zürich">Zürcher</placeName>
         Verfassungsrevision des Jahres 1849, das Erziehungswesen, Wahlen und parteipolitische
         Themen, Infrastrukturfragen oder die Organisation der Feierlichkeiten zur 500jährigen
-        Zugehörigkeit <idx norm="Zürich" type="place">Zürichs</idx> zur
+        Zugehörigkeit <placeName key="Zürich">Zürichs</placeName> zur
         Eidgenossenschaft.</p> </div>
-      <div id="Turicensia_d1.2">
+      <div xml:id="Turicensia_d1.2">
         <head>Stimmungsbilder</head>
-        <p id="Turicensia_p2">Im eidgenössischen Parlament war der Kanton <idx norm="Zürich" type="place">Zürich</idx> nach <idx norm="Bern" type="place">Bern</idx> die stärkste
-          Kraft. Der Kanton <idx norm="Zürich" type="place">Zürich</idx> war eine der treibenden
+        <p xml:id="Turicensia_p2">Im eidgenössischen Parlament war der Kanton <placeName key="Zürich">Zürich</placeName> nach <placeName key="Bern">Bern</placeName> die stärkste
+          Kraft. Der Kanton <placeName key="Zürich">Zürich</placeName> war eine der treibenden
           Kräfte hinter der Bundesrevision gewesen und entsandte 1848 Politiker der ersten Garde in
           die eidgenössischen Räte. Die Einsitznahme erfahrener Kantonspolitiker im eidgenössischen
           Parlament ist einer der Erfolgsfaktoren des jungen Bundesstaates. Die Mitarbeit
           zahlreicher Regierungsräte aus verschiedenen Kantonen hat den Austausch von Problemen,
           Kenntnissen und Erfahrungen zwischen der kantonalen und der eidgenössischen Ebene
-          gefördert<com id="Turicensia_c1">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000003">Beschluß der Tagsatzung über die Einführung der neuen Bundesverfassung, in: <ref type="lit">BBl</ref> 1848/49 I, S. 36–37</ref>; <ref type="lit">Neidhart, Bundesparlament</ref>, <abbr norm="Seite(n)">S.</abbr> 35, 49.
-          </com>. Unter den zwölf <idx norm="Zürich" type="place">Zürcher</idx> Nationalräten im
-          Jahr 1848 waren die Regierungsräte Alfred Escher, <idx norm="Benz Rudolf" type="person">Rudolf Benz</idx>, <ref type="kbp"/>
-          <idx norm="Bollier Rudolf" type="person">Rudolf Bollier</idx>, <idx norm="Ziegler Paul Karl Eduard" type="person">Paul Karl Eduard Ziegler</idx> sowie
-          Bezirksstatthalter <ref type="kbp"/>
-          <idx norm="Müller Johann Jakob" type="person">Johann Jakob Müller </idx><com id="Turicensia_c2">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Gruner, Nationalratswahlen</ref> III, <abbr norm="Seite(n)">S.</abbr> 9–10.</com>. Regierungsrat <ref type="kbp"/>
-          <idx norm="Rüttimann Johann Jakob" type="person">Johann Jakob Rüttimann</idx> nahm im
-          Ständerat Einsitz und wurde von der Bundesversammlung ans Bundesgericht gewählt<com id="Turicensia_c3">Gemäss Bundesverfassung von 1848 waren eidgenössische Parlamentarier
+          gefördert<com xml:id="Turicensia_c1">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10000003">Beschluß der Tagsatzung über die Einführung der neuen Bundesverfassung, in: <ref type="lit">BBl</ref> 1848/49 I, S. 36–37</ref>; <ref type="lit">Neidhart, Bundesparlament</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 35, 49.
+          </com>. Unter den zwölf <placeName key="Zürich">Zürcher</placeName> Nationalräten im
+          Jahr 1848 waren die Regierungsräte Alfred Escher, <persName key="Benz Rudolf">Rudolf Benz</persName>, 
+          <persName key="Bollier Rudolf">Rudolf Bollier</persName>, <persName key="Ziegler Paul Karl Eduard">Paul Karl Eduard Ziegler</persName> sowie
+          Bezirksstatthalter 
+          <persName key="Müller Johann Jakob">Johann Jakob Müller </persName>
+                        <com xml:id="Turicensia_c2">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 9–10.</com>. Regierungsrat 
+          <persName key="Rüttimann Johann Jakob">Johann Jakob Rüttimann</persName> nahm im
+          Ständerat Einsitz und wurde von der Bundesversammlung ans Bundesgericht gewählt<com xml:id="Turicensia_c3">Gemäss Bundesverfassung von 1848 waren eidgenössische Parlamentarier
             als Bundesrichter wählbar. Durch die Totalrevision der Bundesverfassung im Jahr 1874
             wurde das Bundesgericht zu einer ständigen Behörde mit erweiterten Kompetenzen.
             Gleichzeitig wurde das Amt eines Bundesrichters mit anderen öffentlichen Ämtern für
-            unvereinbar erklärt. <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Beeler, Gewaltentrennung</ref>, <abbr norm="Seite(n)">S.</abbr>
-            95.</com>. Zusammen mit <idx norm="Rüttimann Johann Jakob" type="person">Rüttimann</idx>
-          hatte der <idx norm="Zürich" type="place">zürcherische</idx> Grosse Rat den damaligen
-          Führer der <idx norm="Zürich" type="place">Zürcher</idx> Radikal-Liberalen, Regierungsrat
-            <ref type="kbp"/>
-          <idx norm="Furrer Jonas" type="person">Jonas Furrer</idx>, in den Ständerat delegiert.
-            <idx norm="Furrer Jonas" type="person">Furrer</idx> wurde im November 1848 von der
-          Vereinigten Bundesversammlung in den Bundesrat<ref type="letter" target="K_0594"><!--2--></ref> und zum ersten Bundespräsidenten gewählt. Infolgedessen musste er aus
-          der kantonalen Politik ausscheiden.<com id="Turicensia_c4">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Gruner, Bundesversammlung</ref> I, <abbr norm="Seite(n)">S.</abbr>
-            99–100; <ref type="lit">Altermatt, Bundesräte</ref>, <abbr norm="Seite(n)">S.</abbr>
-            103–105.</com> In diese Lücke trat Alfred Escher, der zum führenden Kopf der <idx norm="Zürich" type="place">Zürcher</idx> Liberalen wurde und wiederholt als
-          Amtsbürgermeister <abbr norm="beziehungsweise">bzw.</abbr> Regierungspräsident<ref type="letter" target="K_0596"><!--3--></ref>
-          <ref type="letter" target="K_0607"><!--4--></ref> amtete. Im Vergleich zu heute war die
+            unvereinbar erklärt. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Beeler, Gewaltentrennung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+            95.</com>. Zusammen mit <persName key="Rüttimann Johann Jakob">Rüttimann</persName>
+          hatte der <placeName key="Zürich">zürcherische</placeName> Grosse Rat den damaligen
+          Führer der <placeName key="Zürich">Zürcher</placeName> Radikal-Liberalen, Regierungsrat
+            
+          <persName key="Furrer Jonas">Jonas Furrer</persName>, in den Ständerat delegiert.
+            <persName key="Furrer Jonas">Furrer</persName> wurde im November 1848 von der
+          Vereinigten Bundesversammlung in den Bundesrat<!--2--> und zum ersten Bundespräsidenten gewählt. Infolgedessen musste er aus
+          der kantonalen Politik ausscheiden.<com xml:id="Turicensia_c4">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Gruner, Bundesversammlung</ref> I, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+            99–100; <ref type="lit">Altermatt, Bundesräte</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+            103–105.</com> In diese Lücke trat Alfred Escher, der zum führenden Kopf der <placeName key="Zürich">Zürcher</placeName> Liberalen wurde und wiederholt als
+          Amtsbürgermeister <choice>
+                            <abbr>bzw.</abbr>
+                            <expan>beziehungsweise</expan>
+                        </choice> Regierungspräsident<!--3-->
+          <!--4--> amtete. Im Vergleich zu heute war die
           Visibilität des Regierungspräsidenten ganz allgemein eine viel grössere und wurde noch
           gesteigert durch die Tatsache, dass die einzelnen Kantone damals viel grösseren Einfluss
           besassen. Eschers Stellung in der kantonalen Politik legte die Basis für seinen Erfolg auf
-            Bundesebene.<com id="Turicensia_c5">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <abbr norm="Seite(n)">S.</abbr>
-            369–370; <ref type="lit">Gagliardi, Escher</ref>, <abbr norm="Seite(n)">S.</abbr>
+            Bundesebene.<com xml:id="Turicensia_c5">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+            369–370; <ref type="lit">Gagliardi, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
             125–126, 150.</com>
         </p>
-        <p id="Turicensia_p3">In Anbetracht der wochenlangen Absenzen der Bundespolitiker stellt
+        <p xml:id="Turicensia_p3">In Anbetracht der wochenlangen Absenzen der Bundespolitiker stellt
           sich die Frage, wie die Geschäfte trotz der langen Reisezeiten und der räumlichen Distanz
           abgewickelt wurden. Die Korrespondenz Alfred Eschers und die Berichterstattungen der
-          «Neuen <idx norm="Zürich" type="place">Zürcher</idx> Zeitung» zeigen, dass den jeweiligen
+          «Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung» zeigen, dass den jeweiligen
           Stellvertretern eine wichtige Rolle zukam und dass die Mitglieder der Bundesversammlung
-          auch während der Session immer wieder für bedeutsame Geschäfte nach <idx norm="Zürich (Stadt)" type="place">Zürich</idx> zurückreisten.<com id="Turicensia_c6">Beispielsweise schrieb
-              <idx norm="Zehnder Ulrich" type="person">Ulrich Zehnder</idx> als zweiter
-            Regierungspräsident im Dezember 1851 nach <idx norm="Bern (Stadt)" type="place">Bern</idx>, dass die anwesenden Regierungsratsmitglieder im Hinblick auf wichtige
-            anstehende Geschäfte «dringend wünschen, daß [...] außer Herrn Oberst <idx norm="Ziegler Paul Karl Eduard" type="person">Ziegler</idx>, dessen Eintreffen
-            zugesagt ist, noch eines der in <idx norm="Bern (Stadt)" type="place">Bern</idx>
-            befindlichen Mitglieder des Regierungsrathes in <idx norm="Zürich (Stadt)" type="place">Zürich</idx> sich einfinde, um an diesen Verhandlungen Theil zu nehmen [...]». Er bat
-            Escher, sich diesbezüglich mit <idx norm="Rüttimann Johann Jakob" type="person">Johann
-              Jakob Rüttimann</idx> und <idx norm="Benz Rudolf" type="person">Rudolf Benz</idx>
-            abzusprechen. <ref type="letter" target="K_0966"><!--Schreiben Präsident und Regierungsrat
-              ZH an Escher, 18. Dezember 1851 (BAR J I.67-4.2.30)--></ref>.
+          auch während der Session immer wieder für bedeutsame Geschäfte nach <placeName key="Zürich (Stadt)">Zürich</placeName> zurückreisten.<com xml:id="Turicensia_c6">Beispielsweise schrieb
+              <persName key="Zehnder Ulrich">Ulrich Zehnder</persName> als zweiter
+            Regierungspräsident im Dezember 1851 nach <placeName key="Bern (Stadt)">Bern</placeName>, dass die anwesenden Regierungsratsmitglieder im Hinblick auf wichtige
+            anstehende Geschäfte «dringend wünschen, daß [...] außer Herrn Oberst <persName key="Ziegler Paul Karl Eduard">Ziegler</persName>, dessen Eintreffen
+            zugesagt ist, noch eines der in <placeName key="Bern (Stadt)">Bern</placeName>
+            befindlichen Mitglieder des Regierungsrathes in <placeName key="Zürich (Stadt)">Zürich</placeName> sich einfinde, um an diesen Verhandlungen Theil zu nehmen [...]». Er bat
+            Escher, sich diesbezüglich mit <persName key="Rüttimann Johann Jakob">Johann
+              Jakob Rüttimann</persName> und <persName key="Benz Rudolf">Rudolf Benz</persName>
+            abzusprechen. <!--Schreiben Präsident und Regierungsrat
+              ZH an Escher, 18. Dezember 1851 (BAR J I.67-4.2.30)-->.
             – Im Dezember 1851 stellte die Staatsrechnungsprüfungskommission den Antrag, dass
             künftig nur noch zwei Mitglieder des Regierungsrats in den Bundesbehörden sitzen dürfen.
             Escher reagierte auf diesen Antrag, indem er eine Untersuchung der Verwaltung forderte
             und anführte, dass die Verwaltung mehr Sitzungen abgehalten und mehr Geschäfte erledigt
             habe als in den Vorjahren. Im Juni 1852 beschloss der Grosse Rat, die gleichzeitige
-            Einsitznahme in Regierungsrat und eidgenössischem Parlament nicht zu verbieten. <abbr norm="Vergleiche">Vgl.</abbr>
+            Einsitznahme in Regierungsrat und eidgenössischem Parlament nicht zu verbieten. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
             <ref type="lit">NZZ</ref>, 24. Dezember 1851, 29. Juni 1852. </com> Ausserdem wurde
-          zwischen <idx norm="Zürich (Stadt)" type="place">Zürich</idx> und <idx norm="Bern (Stadt)" type="place">Bern</idx> eine rege Korrespondenz geführt: man berichtete über den Lauf
+          zwischen <placeName key="Zürich (Stadt)">Zürich</placeName> und <placeName key="Bern (Stadt)">Bern</placeName> eine rege Korrespondenz geführt: man berichtete über den Lauf
           der Geschäfte, erteilte Anweisungen und Ratschläge, bat um Einschätzungen. Gelegentlich
-          liessen sich die Regierungsräte Unterlagen schicken, um in <idx norm="Bern (Stadt)" type="place">Bern</idx> arbeiten zu können.</p>
-        <p id="Turicensia_p4">In der Bundesverfassung von 1848 war die Hauptstadtfrage bewusst
+          liessen sich die Regierungsräte Unterlagen schicken, um in <placeName key="Bern (Stadt)">Bern</placeName> arbeiten zu können.</p>
+        <p xml:id="Turicensia_p4">In der Bundesverfassung von 1848 war die Hauptstadtfrage bewusst
           ausgeklammert und der Bundesgesetzgebung anheimgestellt worden, weil sie zwangsläufig zu
-          Interessenkonflikten führen musste.<com id="Turicensia_c7">«Alles, was sich auf den Sitz
+          Interessenkonflikten führen musste.<com xml:id="Turicensia_c7">«Alles, was sich auf den Sitz
             der Bundesbehörden bezieht, ist Gegenstand der Bundesgesetzgebung.» <ref type="lit">BV
-              1848</ref>, <abbr norm="Artikel">Art.</abbr> 108. </com> Am <d norm="27.11.1848">27.</d>/<d norm="28.11.1848">28.
-            November 1848</d> berieten der National- und Ständerat in dieser Angelegenheit. Sie
+              1848</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 108. </com> Am <date when="1848-11-27">27.</date>/<date when="1848-11-28">28.
+            November 1848</date> berieten der National- und Ständerat in dieser Angelegenheit. Sie
           beschlossen, das Rotationsprinzip des Vorortes aufzugeben und statt dessen eine permanente
           Bundeshauptstadt zu bezeichnen. In der engeren Auswahl befanden<pb n="69"/> sich die drei
-          ehemaligen Vororte <idx norm="Bern (Stadt)" type="place">Bern</idx>, <idx norm="Luzern (Stadt)" type="place">Luzern</idx> und <idx norm="Zürich (Stadt)" type="place">Zürich</idx>. Die Anhänger <idx norm="Luzern (Stadt)" type="place">Luzerns</idx> hoben die zentrale Lage der Stadt hervor und zeigten sich überzeugt, dass
-          eine Wahl <idx norm="Luzern (Stadt)" type="place">Luzerns</idx> in der <idx type="place" norm="Zentralschweiz">Innerschweiz</idx> zu
+          ehemaligen Vororte <placeName key="Bern (Stadt)">Bern</placeName>, <placeName key="Luzern (Stadt)">Luzern</placeName> und <placeName key="Zürich (Stadt)">Zürich</placeName>. Die Anhänger <placeName key="Luzern (Stadt)">Luzerns</placeName> hoben die zentrale Lage der Stadt hervor und zeigten sich überzeugt, dass
+          eine Wahl <placeName key="Luzern (Stadt)">Luzerns</placeName> in der <placeName key="Zentralschweiz">Innerschweiz</placeName> zu
           einer Verbesserung der Einstellung gegenüber dem Bundesstaate beitragen könnte. Während
-            <idx norm="Zürich (Stadt)" type="place">Zürich</idx> mit guter Infrastruktur,
-          Naturschönheiten und Weltoffenheit warb, sprachen die geographische Nähe zur <idx norm="Westschweiz" type="place">französischsprachigen Schweiz</idx> sowie
-          verteidigungstechnische Argumente für <idx norm="Bern (Stadt)" type="place">Bern</idx>.<com id="Turicensia_c8">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D10102.php"><ref type="lit">HLS
+            <placeName key="Zürich (Stadt)">Zürich</placeName> mit guter Infrastruktur,
+          Naturschönheiten und Weltoffenheit warb, sprachen die geographische Nähe zur <placeName key="Westschweiz">französischsprachigen Schweiz</placeName> sowie
+          verteidigungstechnische Argumente für <placeName key="Bern (Stadt)">Bern</placeName>.<com xml:id="Turicensia_c8">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref target="http://www.hls-dhs-dss.ch/textes/d/D10102.php">
+                                <ref type="lit">HLS
                 online</ref>, Bundesstadt</ref>. </com>
         </p>
-        <p id="Turicensia_p5">In einem anonym in der «Neuen <idx norm="Zürich" type="place">Zürcher</idx> Zeitung» erschienenen Artikel mit dem Titel «Die Bundesstadt» setzte sich
-          auch der damals in <idx norm="Bern (Stadt)" type="place">Bern</idx> wohnhafte <idx norm="Deutschland" type="place">deutsche</idx> Immigrant <ref type="kbp"/>
-          <idx norm="Snell Ludwig" type="person">Ludwig Snell</idx> für <idx norm="Zürich (Stadt)" type="place">Zürich</idx> ein. Er lobte die «kosmopolitische Denkart und Hospitalität»
-          der <idx norm="Zürich (Stadt)" type="place">Zürcher</idx>. In der ganzen Stadt wehe
-          «derselbe heitere, humane, soziale Geist».<com id="Turicensia_c9">
+        <p xml:id="Turicensia_p5">In einem anonym in der «Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung» erschienenen Artikel mit dem Titel «Die Bundesstadt» setzte sich
+          auch der damals in <placeName key="Bern (Stadt)">Bern</placeName> wohnhafte <placeName key="Deutschland">deutsche</placeName> Immigrant 
+          <persName key="Snell Ludwig">Ludwig Snell</persName> für <placeName key="Zürich (Stadt)">Zürich</placeName> ein. Er lobte die «kosmopolitische Denkart und Hospitalität»
+          der <placeName key="Zürich (Stadt)">Zürcher</placeName>. In der ganzen Stadt wehe
+          «derselbe heitere, humane, soziale Geist».<com xml:id="Turicensia_c9">
             <ref type="lit">Snell, Bundesstadt</ref>, (5. November 1848). </com>
-          <idx norm="Snell Ludwig" type="person">Snell</idx> machte den Erfolg des neuen
+          <persName key="Snell Ludwig">Snell</persName> machte den Erfolg des neuen
           Bundesstaates unter anderem davon abhängig, ob die Grundsätze des neuen Bundes – Freiheit,
           Gerechtigkeit und Humanität – von der Regierung des Kantons, in der die Hauptstadt zu
           liegen käme, gelebt würden: «Hier ist es nun Jedem einleuchtend, wie nothwendig es ist,
@@ -143,127 +210,173 @@
           mit diesem Geist, mit diesen Lebensprinzipien der verjüngten Eidgenossenschaft <hi rend="italics">in einem innig befreundeten, sympathetischen Verhältniß stehe</hi>, oder
           mit andern Worten, daß das Staatsleben des Kantons, wo der Bund seinen Sitz hat, <hi rend="italics">selbst von jenen Grundsätzen durchdrungen und vollständig beherrscht
             sei</hi>. Ist dieß der Fall, so wird die fernere Entwickelung der Eidgenossenschaft frei
-          und selbstständig, zum Glück und zur Wohlfahrt der Schweiz erfolgen.»<com id="Turicensia_c10">
+          und selbstständig, zum Glück und zur Wohlfahrt der Schweiz erfolgen.»<com xml:id="Turicensia_c10">
             <ref type="lit">Snell, Bundesstadt</ref>, (6. November 1848). </com> Der
-          damalige Redaktor der «Neuen <idx norm="Zürich" type="place">Zürcher</idx>
-          Zeitung», <idx norm="Daverio Ludwig Herkules" type="person">Ludwig Herkules
-            Daverio</idx>, hatte Alfred Escher einige Exemplare des Artikels zukommen lassen und ihn
-          gebeten, diese im Nationalrat zu verbreiten.<com id="Turicensia_c11">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="letter" target="K_0581"><!--Brief Herkules Daverio an Escher, 7. November 1848
-              (BAR J I.67-8)--></ref>.
+          damalige Redaktor der «Neuen <placeName key="Zürich">Zürcher</placeName>
+          Zeitung», <persName key="Daverio Ludwig Herkules">Ludwig Herkules
+            Daverio</persName>, hatte Alfred Escher einige Exemplare des Artikels zukommen lassen und ihn
+          gebeten, diese im Nationalrat zu verbreiten.<com xml:id="Turicensia_c11">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <!--Brief Herkules Daverio an Escher, 7. November 1848
+              (BAR J I.67-8)-->.
           </com> Doch alle Interventionen blieben ohne Erfolg: Beide Räte entschieden sich deutlich
-          zugunsten von <idx norm="Bern (Stadt)" type="place">Bern</idx> als neue
-            Bundeshauptstadt<ref type="letter" target="K_0580"><!--1--></ref>.<com id="Turicensia_c12"> Resultate der Abstimmungen über den Sitz der Bundesbehörden:
-            Nationalrat: <idx norm="Bern (Stadt)" type="place">Bern</idx> (58), <idx norm="Zürich (Stadt)" type="place">Zürich</idx> (35), <idx norm="Luzern (Stadt)" type="place">Luzern</idx> (6); Ständerat: <idx norm="Bern (Stadt)" type="place">Bern</idx> (21), <idx norm="Zürich (Stadt)" type="place">Zürich</idx> (13), <idx norm="Luzern (Stadt)" type="place">Luzern</idx> (3). <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D10102.php"><ref type="lit">HLS
+          zugunsten von <placeName key="Bern (Stadt)">Bern</placeName> als neue
+            Bundeshauptstadt<!--1-->.<com xml:id="Turicensia_c12"> Resultate der Abstimmungen über den Sitz der Bundesbehörden:
+            Nationalrat: <placeName key="Bern (Stadt)">Bern</placeName> (58), <placeName key="Zürich (Stadt)">Zürich</placeName> (35), <placeName key="Luzern (Stadt)">Luzern</placeName> (6); Ständerat: <placeName key="Bern (Stadt)">Bern</placeName> (21), <placeName key="Zürich (Stadt)">Zürich</placeName> (13), <placeName key="Luzern (Stadt)">Luzern</placeName> (3). <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref target="http://www.hls-dhs-dss.ch/textes/d/D10102.php">
+                                <ref type="lit">HLS
                 online</ref>, Bundesstadt</ref>. – Eine vollständige Auflistung der
-            Abstimmungsresultate (namentliche Nennung) wurde in der <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr> abgedruckt. <abbr norm="Vergleiche">Vgl.</abbr>
+            Abstimmungsresultate (namentliche Nennung) wurde in der <choice>
+                                <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                                <expan>Neue Zürcher Zeitung</expan>
+                            </choice> abgedruckt. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
             <ref type="lit">NZZ</ref>, 1. Dezember 1848.</com> Als Kompensation für den entgangenen
-          Bundessitz sollte die geplante eidgenössische Universität<ref type="sum" target="Institutionen_Strukturen_Prozesse_d1.6"><!--31-33--></ref> in <idx norm="Zürich (Stadt)" type="place">Zürich</idx> angesiedelt werden. Dennoch war die Enttäuschung in <idx norm="Zürich (Stadt)" type="place">Zürich</idx> gross, wie ein leicht verbitterter
-          Kommentar in der «Neuen <idx norm="Zürich" type="place">Zürcher</idx> Zeitung» beweist:
-            «<idx norm="Zürich (Stadt)" type="place">Zürich</idx> hat die zurückhaltende,
+          Bundessitz sollte die geplante eidgenössische Universität<ref type="sum" target="Institutionen_Strukturen_Prozesse_d1.6"><!--31-33--></ref> in <placeName key="Zürich (Stadt)">Zürich</placeName> angesiedelt werden. Dennoch war die Enttäuschung in <placeName key="Zürich (Stadt)">Zürich</placeName> gross, wie ein leicht verbitterter
+          Kommentar in der «Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung» beweist:
+            «<placeName key="Zürich (Stadt)">Zürich</placeName> hat die zurückhaltende,
           bescheidene Stellung, wie sie für Mitbewerber sich ziemt, nicht einen Augenblick
-          verlassen, <idx norm="Bern (Stadt)" type="place">Bern</idx> nicht einen Augenblick
-          eingenommen [...].»<com id="Turicensia_c13"> «<idx norm="Zürich (Stadt)" type="place">Zürich</idx> und die Bundesstadt», in: <ref type="lit">NZZ</ref>, 1. Dezember 1848.
+          verlassen, <placeName key="Bern (Stadt)">Bern</placeName> nicht einen Augenblick
+          eingenommen [...].»<com xml:id="Turicensia_c13"> «<placeName key="Zürich (Stadt)">Zürich</placeName> und die Bundesstadt», in: <ref type="lit">NZZ</ref>, 1. Dezember 1848.
           </com>
         </p>
-        <p id="Turicensia_p6">Obwohl oder gerade weil die Würfel in der Frage der Bundeshauptstadt
-          zugunsten von <idx norm="Bern (Stadt)" type="place">Bern</idx> gefallen waren, rief Alfred
-          Escher in seiner Rede zur Eröffnung der Wintersitzung 1848 des <idx norm="Zürich" type="place">zürcherischen</idx> Grossen Rates dazu auf, sich für den Kanton <idx norm="Zürich" type="place">Zürich</idx> und die Schweiz als Ganzes einzusetzen, um <idx norm="Zürich" type="place">Zürich</idx> auf diese Weise wenn auch nicht den Rang der
+        <p xml:id="Turicensia_p6">Obwohl oder gerade weil die Würfel in der Frage der Bundeshauptstadt
+          zugunsten von <placeName key="Bern (Stadt)">Bern</placeName> gefallen waren, rief Alfred
+          Escher in seiner Rede zur Eröffnung der Wintersitzung 1848 des <placeName key="Zürich">zürcherischen</placeName> Grossen Rates dazu auf, sich für den Kanton <placeName key="Zürich">Zürich</placeName> und die Schweiz als Ganzes einzusetzen, um <placeName key="Zürich">Zürich</placeName> auf diese Weise wenn auch nicht den Rang der
           Bundesstadt, so doch die Stellung als führende Kraft in der Schweizerischen
           Eidgenossenschaft zu sichern: «Lassen wir unsern Schmerz nicht in eine ärmliche
-          Eifersüchtelei gegen <idx norm="Bern (Stadt)" type="place">Bern</idx>, lassen wir ihn noch
+          Eifersüchtelei gegen <placeName key="Bern (Stadt)">Bern</placeName>, lassen wir ihn noch
           weniger in eine kleinliche Gereiztheit oder gar in ein feindseliges Verhalten gegen die
           Eidgenossenschaft ausarten: gerade dadurch würden wir ja beweisen, daß wir des
           Bundessitzes unwürdig gewesen wären. Vergessen wir nicht, daß der Kanton, in dessen Gebiet
           sich der Bundessitz befindet, nicht deßwegen schon nothwendig eidgenössischer Vorort ist.
-          Nein, <abbr norm="Titulo (mit Titel)">Tit.</abbr>
+          Nein, <choice>
+                            <abbr>Tit.</abbr>
+                            <expan>Titulo (mit Titel)</expan>
+                        </choice>
           <hi rend="italics">der schweizerische Stand wird Vorort sein, der es den andern zuvorthut
             in eidgenössischer Gesinnung und in unermüdlicher Fürsorge für die Wohlfahrt des
-            Volkes.</hi>»<com id="Turicensia_c14">
+            Volkes.</hi>»<com xml:id="Turicensia_c14">
             <ref type="lit">NZZ</ref>, 27. Dezember 1848. </com> In diesem Sinne befasste sich
           Escher intensiv mit Infrastrukturfragen. Er engagierte sich für Ausbau und Stärkung der
           kantonalen Universität sowie für die die Gründung einer eidgenössischen Hochschule. Escher
           richtete seinen Blick schon früh über die Kantonsgrenzen hinaus und dachte in
-          Wirtschaftsräumen. Er erkannte, dass der Ausbau des Verkehrs- und Kommunikationsnetzes<pb n="70"/> eine Voraussetzung für die weitere Entwicklung des Kantons <idx norm="Zürich" type="place">Zürich</idx> und die Ausdehnung seines Einflusses im Bundesstaat darstellte
+          Wirtschaftsräumen. Er erkannte, dass der Ausbau des Verkehrs- und Kommunikationsnetzes<pb n="70"/> eine Voraussetzung für die weitere Entwicklung des Kantons <placeName key="Zürich">Zürich</placeName> und die Ausdehnung seines Einflusses im Bundesstaat darstellte
           und dass die eidgenössische Verkehrspolitik, insbesondere das Eisenbahnwesen, von
-          herausragendem Interesse für den Kanton war.<ref type="letter" target="K_0719"><!--26--></ref>
-          <ref type="letter" target="K_0721"><!--28--></ref>
-          <ref type="letter" target="K_0861"><!--37--></ref>
+          herausragendem Interesse für den Kanton war.<!--26-->
+          <!--28-->
+          <!--37-->
           <ref type="sum" target="Institutionen_Strukturen_Prozesse_d1.5"><!--29-31--></ref>
         </p>
-        <p id="Turicensia_p7">Genauso wie die <idx norm="Zürich" type="place">Zürcher</idx>
+        <p xml:id="Turicensia_p7">Genauso wie die <placeName key="Zürich">Zürcher</placeName>
           Radikal-Liberalen auf Bundesebene versuchten, gute und verlässliche Leute aus dem Kanton
           oder «zugewandten Orten» in wichtige Positionen zu bringen, waren sie bemüht,
           Schlüsselstellen im Kanton mit Leuten aus den eigenen Reihen zu besetzen. Die Briefe von
           und an Alfred Escher zeigen, dass nicht nur bei politischen Ämtern im engen Sinn auf die
           politische Gesinnung der Kandidaten geachtet wurde, sondern auch bei der Besetzung von
-          Richter-, Statthalter-, Redaktoren-, Lehrer- und Pfarrstellen<ref type="letter" target="K_0853"><!--52--></ref>. Im Blickfeld stand beispielsweise die <idx norm="Zürich" type="place">Zürcher</idx> Presselandschaft. Wiederholt kommt in den
-          Briefen von und an Alfred Escher das Fehlen einer echt liberalen <idx norm="Zürich" type="place">Zürcher</idx> Tageszeitung zur Sprache<ref type="letter" target="K_0867"><!--56--></ref>, hatte doch die «Neue <idx norm="Zürich" type="place">Zürcher</idx>
-          Zeitung» mit dem Tod von Chefredaktor <idx norm="Daverio Ludwig Herkules" type="person">Herkules Daverio</idx> im Jahr 1849 vorübergehend das Vertrauen der fortschrittlichen
-          Kräfte verloren. Unter anderem wurde kritisiert, dass sein Nachfolger <idx norm="Felber Peter Jakob" type="person">Peter Jakob Felber</idx> zu sehr auf einen
+          Richter-, Statthalter-, Redaktoren-, Lehrer- und Pfarrstellen<!--52-->. Im Blickfeld stand beispielsweise die <placeName key="Zürich">Zürcher</placeName> Presselandschaft. Wiederholt kommt in den
+          Briefen von und an Alfred Escher das Fehlen einer echt liberalen <placeName key="Zürich">Zürcher</placeName> Tageszeitung zur Sprache<!--56-->, hatte doch die «Neue <placeName key="Zürich">Zürcher</placeName>
+          Zeitung» mit dem Tod von Chefredaktor <persName key="Daverio Ludwig Herkules">Herkules Daverio</persName> im Jahr 1849 vorübergehend das Vertrauen der fortschrittlichen
+          Kräfte verloren. Unter anderem wurde kritisiert, dass sein Nachfolger <persName key="Felber Peter Jakob">Peter Jakob Felber</persName> zu sehr auf einen
           Ausgleich mit den ehemaligen Sonderbehemaligen Sonderbündlern bedacht,
-          «versöhnungssüchtig» und zuweilen «realitätsfremd» sei.<com id="Turicensia_c15">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Gagliardi, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 186; <ref type="lit">Dändliker, Zürich</ref> III, <abbr norm="Seite(n)">S.</abbr> 353. –
-              <idx norm="Fisch-Hagenbuch Friedrich" type="person">Friedrich Fisch-Hagenbuch</idx>
-            (Mitinhaber von Orell, Füßli &amp; Compagnie, der Herausgeberin der «Neuen <idx norm="Zürich" type="place">Zürcher</idx> Zeitung») schrieb 1862 in einem Brief an
-            Alfred Escher, dass das Blatt bei der Übernahme der Redaktion durch <idx norm="Felber Peter Jakob" type="person">Peter Jakob Felber</idx> im Juli 1849 rund
+          «versöhnungssüchtig» und zuweilen «realitätsfremd» sei.<com xml:id="Turicensia_c15">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Gagliardi, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 186; <ref type="lit">Dändliker, Zürich</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 353. –
+              <persName key="Fisch-Hagenbuch Friedrich">Friedrich Fisch-Hagenbuch</persName>
+            (Mitinhaber von Orell, Füßli &amp; Compagnie, der Herausgeberin der «Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung») schrieb 1862 in einem Brief an
+            Alfred Escher, dass das Blatt bei der Übernahme der Redaktion durch <persName key="Felber Peter Jakob">Peter Jakob Felber</persName> im Juli 1849 rund
             3500 Abonnenten hatte. Bis Anfang 1852 habe die Zeitung aber über 1000 Abonnenten
-            verloren. Mehrmals habe man mit <idx type="person" norm="Felber Peter Jakob">Felber</idx> das Gespräch gesucht, weil man «die Rührigkeit
-            der Redaction stimuliren» wollte. <abbr norm="Vergleiche">Vgl.</abbr>
-<ref type="letter" target="K_1921"><!--Brief Friedrich Fisch-Hagenbuch an Escher, 20. Januar
-            1862 (BAR J I.67-8)--></ref>
-          </com> Unzufrieden mit der Berichterstattung der «Neuen <idx norm="Zürich" type="place">Zürcher</idx> Zeitung» in der <idx norm="Freiburg" type="place">Freiburger</idx> Frage,
-          wandte sich Alfred Escher – früher selber Korrespondent der <abbr norm="Neue Zürcher Zeitung">N<idx type="place" norm="Zürich">Z</idx>Z</abbr> – im Mai 1852 an <idx norm="Roth Abraham" type="person">Abraham Roth</idx>, um eine Übersiedlung des von ihm redigierten «Bundes»
-          nach <idx norm="Zürich (Stadt)" type="place">Zürich</idx> anzuregen. Seiner Ansicht nach würde
-          sich <idx norm="Zürich (Stadt)" type="place">Zürich</idx> mit seiner bundesfreundlichen Gesinnung
+            verloren. Mehrmals habe man mit <persName key="Felber Peter Jakob">Felber</persName> das Gespräch gesucht, weil man «die Rührigkeit
+            der Redaction stimuliren» wollte. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+<!--Brief Friedrich Fisch-Hagenbuch an Escher, 20. Januar
+            1862 (BAR J I.67-8)-->
+          </com> Unzufrieden mit der Berichterstattung der «Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung» in der <placeName key="Freiburg">Freiburger</placeName> Frage,
+          wandte sich Alfred Escher – früher selber Korrespondent der <choice>
+                            <abbr>N<placeName key="Zürich">Z</placeName>Z</abbr>
+                            <expan>Neue Zürcher Zeitung</expan>
+                        </choice> – im Mai 1852 an <persName key="Roth Abraham">Abraham Roth</persName>, um eine Übersiedlung des von ihm redigierten «Bundes»
+          nach <placeName key="Zürich (Stadt)">Zürich</placeName> anzuregen. Seiner Ansicht nach würde
+          sich <placeName key="Zürich (Stadt)">Zürich</placeName> mit seiner bundesfreundlichen Gesinnung
           als Sitz des Blattes besonders eignen. Gleichzeitig habe der «Bund», «dessen
           vorherrschende Bedeutung immer in seinem <hi rend="italics">Eidgenössischen</hi> Character
-          zu suchen sein wird, auf diese Stellung <idx norm="Zürich" type="place">Zürichs</idx> in
+          zu suchen sein wird, auf diese Stellung <placeName key="Zürich">Zürichs</placeName> in
           Bundesangelegenheiten ein besonderes Gewicht zu legen». Dieser Ortswechsel biete beiden
-          Seiten Vorteile: Während der «Bund» sich damit den <idx norm="Bern" type="place">Berner</idx> Pressegesetzen entziehe, unter welchen ein «durchaus ruhig &amp; würdig,
-          jedoch entschieden gehaltenes freisinniges Blatte nicht bestehen» könne, erhalte <idx norm="Zürich" type="place">Zürich</idx> im Gegenzug die ersehnte liberale
-            Tageszeitung.<com id="Turicensia_c16"><ref type="letter" target="K_1033"><!--Brief Escher an Abraham Roth, 26. Mai 1852 (ZBZ FA
-              Escher vom Glas)--></ref>.</com>
-          <idx norm="Roth Abraham" type="person">Roth</idx> informierte Alfred Escher jedoch im
-          November 1852, dass das Projekt einer Verlegung des «Bundes» nach <idx norm="Zürich (Stadt)" type="place">Zürich</idx> aus finanziellen Gründen nicht weiter verfolgt werde.<com id="Turicensia_c17"><ref type="letter" target="K_1110"><!--Brief Abraham Roth an Escher, 19. November 1852 (BAR
-              J I.67-8)--></ref>.
+          Seiten Vorteile: Während der «Bund» sich damit den <placeName key="Bern">Berner</placeName> Pressegesetzen entziehe, unter welchen ein «durchaus ruhig &amp; würdig,
+          jedoch entschieden gehaltenes freisinniges Blatte nicht bestehen» könne, erhalte <placeName key="Zürich">Zürich</placeName> im Gegenzug die ersehnte liberale
+            Tageszeitung.<com xml:id="Turicensia_c16"><!--Brief Escher an Abraham Roth, 26. Mai 1852 (ZBZ FA
+              Escher vom Glas)-->.</com>
+          <persName key="Roth Abraham">Roth</persName> informierte Alfred Escher jedoch im
+          November 1852, dass das Projekt einer Verlegung des «Bundes» nach <placeName key="Zürich (Stadt)">Zürich</placeName> aus finanziellen Gründen nicht weiter verfolgt werde.<com xml:id="Turicensia_c17"><!--Brief Abraham Roth an Escher, 19. November 1852 (BAR
+              J I.67-8)-->.
           </com>
         </p>
-        <p id="Turicensia_p8">In der Korrespondenz Alfred Eschers widerspiegelt sich auch die
-          Besorgnis radikal-liberaler Kreise über sozialistische Forderungen <idx norm="Treichler Johann Jakob" type="person">Johann Jakob Treichlers</idx>, dem im August
-          1850 nach dem Rücktritt von <idx norm="Dubs Jakob" type="person">Jakob Dubs</idx> –
+        <p xml:id="Turicensia_p8">In der Korrespondenz Alfred Eschers widerspiegelt sich auch die
+          Besorgnis radikal-liberaler Kreise über sozialistische Forderungen <persName key="Treichler Johann Jakob">Johann Jakob Treichlers</persName>, dem im August
+          1850 nach dem Rücktritt von <persName key="Dubs Jakob">Jakob Dubs</persName> –
           mangels anderer Kandidaten – die Redaktion des «Schweizerischen Republikaners» übertragen
-          werden musste<ref type="letter" target="K_0822"><!--47--></ref>
-          <ref type="letter" target="K_0823"><!--48--></ref>. In der Folge übernahm <idx norm="Dubs Jakob" type="person">Dubs</idx> zwar die Redaktion des «Landboten» und machte
-          diesen vorübergehend zum Parteiblatt der Liberalen.<com id="Turicensia_c18">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Dändliker, Zürich</ref> III, <abbr norm="Seite(n)">S.</abbr> 353.
-          </com> Vor allem aufgrund seiner Verankerung in der Region <idx norm="Winterthur" type="place">Winterthur</idx> eignete sich der «Landbote» jedoch wenig als kantonal<idx norm="Zürich" type="place">zürcherisches</idx> Blatt.</p>
+          werden musste<!--47-->
+          <!--48-->. In der Folge übernahm <persName key="Dubs Jakob">Dubs</persName> zwar die Redaktion des «Landboten» und machte
+          diesen vorübergehend zum Parteiblatt der Liberalen.<com xml:id="Turicensia_c18">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Dändliker, Zürich</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 353.
+          </com> Vor allem aufgrund seiner Verankerung in der Region <placeName key="Winterthur">Winterthur</placeName> eignete sich der «Landbote» jedoch wenig als kantonal<placeName key="Zürich">zürcherisches</placeName> Blatt.</p>
       </div>
-      <div id="Turicensia_d1.3">
+      <div xml:id="Turicensia_d1.3">
         <head>Die Einführung des Direktorialsystems: Alfred Escher als Erziehungsdirektor und
           Kirchenrat</head>
-        <p id="Turicensia_p9">Grossrat <idx norm="Brändli Benjamin" type="person">Benjamin
-            Brändli</idx>, ein Studienfreund Alfred Eschers, reichte 1847 einen parlamentarischen
-          Vorstoss für die Einführung des sogenannten Direktorialsystems ein.<ref type="letter" target="K_0710"><!--24--></ref>
-          <ref type="letter" target="K_0721"><!--28--></ref> Damit sollten die Probleme der auf dem
-          sogenannten Kollegialsystem basierenden <idx norm="Zürich" type="place">zürcherisches</idx> Regierungsorganisation behoben werden («Zersplitterung der Kräfte»,
+        <p xml:id="Turicensia_p9">Grossrat <persName key="Brändli Benjamin">Benjamin
+            Brändli</persName>, ein Studienfreund Alfred Eschers, reichte 1847 einen parlamentarischen
+          Vorstoss für die Einführung des sogenannten Direktorialsystems ein.<!--24-->
+          <!--28--> Damit sollten die Probleme der auf dem
+          sogenannten Kollegialsystem basierenden <placeName key="Zürich">zürcherisches</placeName> Regierungsorganisation behoben werden («Zersplitterung der Kräfte»,
           «Oberflächlichkeit», ein «schleppender Geschäftsgang» und mangelnde Verantwortlichkeit).
           Zur Prüfung und Berichterstattung wurde die Motion an eine fünfzehnköpfige Kommission
-          überwiesen, der sowohl <idx norm="Brändli Benjamin" type="person">Brändli</idx> als auch
+          überwiesen, der sowohl <persName key="Brändli Benjamin">Brändli</persName> als auch
           Escher angehörten. Bedingt durch die Ausarbeitung der neuen Bundesverfassung kam es zu
           Verzögerungen, so dass der erstberatende Kommissionsausschuss erst im<pb n="71"/> Dezember
-          1848 zu seiner ersten Sitzung zusammentrat.<com id="Turicensia_c19">
-            <ref type="lit">NZZ</ref>, 12. April 1849. <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <abbr norm="Seite(n)">S.</abbr> 146–149. </com> Escher war an der Ausarbeitung der Verfassungsänderung
+          1848 zu seiner ersten Sitzung zusammentrat.<com xml:id="Turicensia_c19">
+            <ref type="lit">NZZ</ref>, 12. April 1849. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 146–149. </com> Escher war an der Ausarbeitung der Verfassungsänderung
           massgeblich beteiligt und konnte den Grossen Rat im Frühling 1849 von seinem
-          «modifizierten Direktorialsystem» überzeugen. Beim <idx norm="Zürich" type="place">Zürcher</idx> Direktorialsystem handelte es sich strenggenommen um ein
+          «modifizierten Direktorialsystem» überzeugen. Beim <placeName key="Zürich">Zürcher</placeName> Direktorialsystem handelte es sich strenggenommen um ein
           Departementalsystem. Dieses wurde aber – in Anlehnung an die als «Direktionen»
           bezeichneten Abteilungen der Kantonsverwaltung – «Direktorialsystem» genannt. In diesem
-          Modell spielten die Direktoren, <abbr norm="das heisst">d. h.</abbr> die den einzelnen
+          Modell spielten die Direktoren, <choice>
+                            <abbr>d. h.</abbr>
+                            <expan>das heisst</expan>
+                        </choice> die den einzelnen
           Departementen vorstehenden Regierungsräte, bei der Vorberatung der Geschäfte die zentrale
           Rolle. Darüber hinaus bekamen sie Entscheidungsbefugnisse, um laufende
           Verwaltungsgeschäfte selbständig erledigen zu können. Diese Befugnisse waren jedoch
@@ -272,55 +385,97 @@
           notwendige Kontrolle sicherstellen. Die Gegner des Direktorialsystems argumentierten, dass
           damit eine angemessene Kontrolle nicht sichergestellt sei und dass einzelne Personen einen
           zu grossen Einfluss hätten. Der gemässigt konservative Grossrat und Obergerichtspräsident
-            <idx norm="Finsler Hans Georg" type="person">Hans Georg Finsler</idx> meinte: «Dieß
+            <persName key="Finsler Hans Georg">Hans Georg Finsler</persName> meinte: «Dieß
           System ist unrepublikanisch. Es widerstrebt dem allgemeinen Gefühle, Wohl und Wehe ganzer
-          Zweige in eines Einzelnen Hand zu legen.»<com id="Turicensia_c20">
-            <ref type="lit">NZZ</ref>, 12. April 1849. <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <abbr norm="Seite(n)">S.</abbr>
+          Zweige in eines Einzelnen Hand zu legen.»<com xml:id="Turicensia_c20">
+            <ref type="lit">NZZ</ref>, 12. April 1849. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
             147, 150–152. </com> Es gelang Alfred Escher, sein Direktorialsystem gegen den
           vehementen Widerstand konservativer Mitglieder des Grossen Rates durchzusetzen. In der
-          Volksabstimmung vom <d norm="18.11.1849">18. November 1849</d>
-          <ref type="letter" target="K_0710"><!--24--></ref> wurde die Verfassungsrevision mit 8723
+          Volksabstimmung vom <date when="1849-11-18">18. November 1849</date>
+          <!--24--> wurde die Verfassungsrevision mit 8723
           zu 2117 Stimmen vom Volk überraschend deutlich angenommen. Die Stimmbeteiligung war mit
-          18,2% jedoch sehr gering. Die revidierte Verfassung wurde am <d norm="20.12.1849">20. Dezember 1849</d> in Kraft gesetzt und am <d norm="30.04.1850">30. April 1850</d>
-          durch die Bundesversammlung gewährleistet.<com id="Turicensia_c21">
-            <abbr norm="Vergleiche">Vgl.</abbr>
+          18,2% jedoch sehr gering. Die revidierte Verfassung wurde am <date when="1849-12-20">20. Dezember 1849</date> in Kraft gesetzt und am <date when="1850-04-30">30. April 1850</date>
+          durch die Bundesversammlung gewährleistet.<com xml:id="Turicensia_c21">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
             <ref type="lit">NZZ</ref>, 5. Dezember 1849; <ref type="lit">Schmid, Zürcher
-              Kantonsregierung</ref>, <abbr norm="Seite(n)">S.</abbr> 151–155, 160–161. </com>
+              Kantonsregierung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 151–155, 160–161. </com>
         </p>
-        <p id="Turicensia_p10">Die Umsetzung der Verfassungsänderung<ref type="letter" target="K_0861"><!--37--></ref> wurde durch das Organisationsgesetz aus dem Jahr 1850
+        <p xml:id="Turicensia_p10">Die Umsetzung der Verfassungsänderung<!--37--> wurde durch das Organisationsgesetz aus dem Jahr 1850
           geregelt. Auch dieser Gesetzesentwurf wurde von Alfred Escher ausgearbeitet und im Grossen
           Rat verteidigt. Escher setzte sich unter anderem mit der Forderung durch, dass die
           Regierungsräte nicht länger als acht Jahre ein und derselben Direktion vorstehen durften.
           Er erklärte: «So entschieden ich für das Direktorialsystem war, so entschieden will ich
-          nun auch alle Garantien, welche einen Mißbrauch der Einzelgewalt unmöglich machen.»<com id="Turicensia_c22">
-            <ref type="lit">NZZ</ref>, 4. April 1850. <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <abbr norm="Seite(n)">S.</abbr>
-            155–158. </com> Regierungsrat <idx norm="Zehnder Ulrich" type="person">Ulrich
-            Zehnder</idx> schätzte das Direktorialsystem aufgrund der erhöhten «Verantwortlichkeit»
+          nun auch alle Garantien, welche einen Mißbrauch der Einzelgewalt unmöglich machen.»<com xml:id="Turicensia_c22">
+            <ref type="lit">NZZ</ref>, 4. April 1850. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+            155–158. </com> Regierungsrat <persName key="Zehnder Ulrich">Ulrich
+            Zehnder</persName> schätzte das Direktorialsystem aufgrund der erhöhten «Verantwortlichkeit»
           und der «Ersparnis an Zeit». Statt wie bis anhin sieben bis zehn Sitzungen besuchte er nur
-          noch zwei bis drei Sitzungen pro Woche.<com id="Turicensia_c23">
-            <ref type="lit">Zehnder, Fünfziger Jahre</ref>, <abbr norm="Seite(n)">S.</abbr> 125.
-              <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Zehnder, Fünfziger Jahre</ref>, <abbr norm="Seite(n)">S.</abbr> 127.
+          noch zwei bis drei Sitzungen pro Woche.<com xml:id="Turicensia_c23">
+            <ref type="lit">Zehnder, Fünfziger Jahre</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 125.
+              <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Zehnder, Fünfziger Jahre</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 127.
           </com>Von entscheidender Bedeutung war dies vor allem für die in die Bundesversammlung
           gewählten Regierungsräte, weil es die Vereinbarkeit von kantonalen und eidgenössischen
           Mandaten verbesserte.</p>
-        <p id="Turicensia_p11">Alfred Escher war seit Dezember 1845 Mitglied des Erziehungsrats des
-          Kantons <idx norm="Zürich" type="place">Zürich</idx> und gehörte diesem bis zu seinem
+        <p xml:id="Turicensia_p11">Alfred Escher war seit Dezember 1845 Mitglied des Erziehungsrats des
+          Kantons <placeName key="Zürich">Zürich</placeName> und gehörte diesem bis zu seinem
           Rücktritt aus dem Regierungsrat im Jahr 1855 an. Nach Einführung des Direktorialsystems
           (1850) übernahm Escher die Leitung der Direktion des Erziehungswesens, der er bis 1855
           vorstand. In seiner Funktion als Erziehungsdirektor war er auch Präsident des
-            Erziehungsrates.<com id="Turicensia_c24">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 146–147; <ref type="lit">Hunziker, Erziehungsrat</ref>, <abbr norm="Seite(n)">S.</abbr> 83, 86. –
+            Erziehungsrates.<com xml:id="Turicensia_c24">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 146–147; <ref type="lit">Hunziker, Erziehungsrat</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 83, 86. –
             Das Organisationsgesetz aus dem Jahr 1850 sah insgesamt neun Direktionen vor: Direktion
             des Innern, Direktion der Polizei, Direktion der Finanzen, Direktion der öffentlichen
             Arbeiten, Direktion des Militärs, Direktion der Justiz, Direktion des Erziehungswesens,
             Direktion der politischen Angelegenheiten und Direktion der Medizinalangelegenheiten.
             Beibehalten wurden der Erziehungsrat und der Kirchenrat; einzelne Direktionen erhielten
-            spezielle Fachkommissionen. <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <abbr norm="Seite(n)">S.</abbr>
+            spezielle Fachkommissionen. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
             157, 377. </com> Eschers Interesse an bildungspolitischen Fragen gründete auf seinem
           Streben nach Fortschritt. Bereits im Juni 1846 hatte Escher im Grossen Rat eine Reform des
           Mittelschulwesens (Gymnasium und Industrieschule) angeregt, welche die Einführung des
@@ -328,68 +483,125 @@
           naturwissenschaftlicher Fächer und eine Neuausrichtung des Unterrichts in Geschichte und
           Deutsch vorsah. Escher war der Ansicht, dass sich die Mittelschulbildung auch an den
           Bedürfnissen der Wirtschaft orientieren sollte, und trug mit diesem Antrag der ständig
-          wachsenden Bedeutung<pb n="72"/> technischen Wissens Rechnung.<com id="Turicensia_c25">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Muralt, Zürich</ref>, <abbr norm="Seite(n)">S.</abbr> 142; <ref type="lit">Gagliardi, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 84–85; <ref type="lit">Grube, Kantonsschule</ref>, <abbr norm="Seite(n)">S.</abbr> 14. </com>
+          wachsenden Bedeutung<pb n="72"/> technischen Wissens Rechnung.<com xml:id="Turicensia_c25">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Muralt, Zürich</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 142; <ref type="lit">Gagliardi, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 84–85; <ref type="lit">Grube, Kantonsschule</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 14. </com>
           Mitgewirkt hatte Escher dann auch bei der Ausarbeitung des neuen Organisationsgesetzes für
-          die Kantonsschule, das im April 1847 vom Grossen Rat des Kantons <idx norm="Zürich" type="place">Zürich</idx> verabschiedet worden war.<com id="Turicensia_c26">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Hunziker, Erziehungsrat</ref>, <abbr norm="Seite(n)">S.</abbr> 49.
+          die Kantonsschule, das im April 1847 vom Grossen Rat des Kantons <placeName key="Zürich">Zürich</placeName> verabschiedet worden war.<com xml:id="Turicensia_c26">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Hunziker, Erziehungsrat</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 49.
           </com>
         </p>
-        <p id="Turicensia_p12">Als Erziehungsdirektor redigierte Alfred Escher die Gesetzesentwürfe
+        <p xml:id="Turicensia_p12">Als Erziehungsdirektor redigierte Alfred Escher die Gesetzesentwürfe
           über die Schullehrerbesoldung und über die Unterstützungen an Schulgenossenschaften.
           Escher war der Überzeugung, dass die Herrschaft des Volkes in der repräsentativen
-          Demokratie, wie sie mit der Kantonsverfassung von 1831 in <idx norm="Zürich" type="place">Zürich</idx> eingeführt worden war, am besten verwirklicht sei. Um die in der
+          Demokratie, wie sie mit der Kantonsverfassung von 1831 in <placeName key="Zürich">Zürich</placeName> eingeführt worden war, am besten verwirklicht sei. Um die in der
           Verfassung verankerten Grundsätze zu schützen, müsse der «Buchstabe lebendig gemacht»
           werden. Er präzisierte: «Eine sichere, ja die sicherste Bürgschaft dafür, daß unsere
           Verfassung immer mehr eine Wahrheit werde, erblicke ich in der Erhebung des
-            Volksschulwesens.»<com id="Turicensia_c27">
+            Volksschulwesens.»<com xml:id="Turicensia_c27">
             <ref type="lit">Schweizerischer Republikaner</ref>, 6. August 1844. – In einer Zuschrift
-            an den Wahlkreis <idx norm="Elgg" type="place">Elgg</idx> erklärte Alfred Escher Annahme
+            an den Wahlkreis <placeName key="Elgg">Elgg</placeName> erklärte Alfred Escher Annahme
             der Wahl in den Grossen Rat und nahm gleichzeitig Stellung zu wichtigen Zeitfragen.
-              <abbr norm="Vergleiche">Vgl.</abbr>
+              <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
             <ref type="lit">Schweizerischer Republikaner</ref>, 6. August 1844. </com> Im Grossen
           Rat setzte sich Escher für eine Erhöhung der Lehrerlöhne ein. Er argumentierte, dass
           Volksbildung die Voraussetzung jeder demokratischen Staatsform und politischen Entwicklung
           des Kantons sei. Die Volksbildung würde aber bei einem «auf tiefer Stufe stehenden
           Lehrerstand» zurückbleiben. Die Lehrerbesoldungen müssten darum angehoben werden, weil
           «eine wahre Erhebung des Lehrerstandes mit der äußern Existenz desselben in Verbindung
-          stehe». Am <d norm="28.01.1851">28. Januar 1851</d> hiess der Grosse Rat diesen Antrag
-            gut.<com id="Turicensia_c28">
-            <ref type="lit">NZZ</ref>, 17. Dezember 1850. <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="letter" target="K_0839"><!--Brief Escher an Franz Hagenbuch, 19. November 1850
-              (ZBZ FA Escher vom Glas)--></ref>;
-              <ref type="lit">Kreis, Volksschule</ref>, <abbr norm="Seite(n)">S.</abbr> 456. – Zur
-            materiellen Lage der <idx norm="Zürich" type="place">zürcherischen</idx>
-            Volksschullehrer <abbr norm="vergleiche">vgl.</abbr>
-            <ref type="lit">Bloch Pfister, Volksbildung</ref>, <abbr norm="Seite(n)">S.</abbr>
+          stehe». Am <date when="1851-01-28">28. Januar 1851</date> hiess der Grosse Rat diesen Antrag
+            gut.<com xml:id="Turicensia_c28">
+            <ref type="lit">NZZ</ref>, 17. Dezember 1850. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <!--Brief Escher an Franz Hagenbuch, 19. November 1850
+              (ZBZ FA Escher vom Glas)-->;
+              <ref type="lit">Kreis, Volksschule</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 456. – Zur
+            materiellen Lage der <placeName key="Zürich">zürcherischen</placeName>
+            Volksschullehrer <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+            <ref type="lit">Bloch Pfister, Volksbildung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
             457–492. </com>
         </p>
-        <p id="Turicensia_p13">In Bezug auf die Lehrerwahlen hatten in den 1840er Jahren
-          verschiedene Petitionen die Abschaffung des erziehungsrätlichen Dreiervorschlags<ref type="letter" target="K_0710_c1"><!--24 (Kommentar)--></ref> zuhanden der Schulgemeinden
-            verlangt.<com id="Turicensia_c29"> Die Schulgemeinde wählte ihren Lehrer aus einem ihr
+        <p xml:id="Turicensia_p13">In Bezug auf die Lehrerwahlen hatten in den 1840er Jahren
+          verschiedene Petitionen die Abschaffung des erziehungsrätlichen Dreiervorschlags<!--24 (Kommentar)--> zuhanden der Schulgemeinden
+            verlangt.<com xml:id="Turicensia_c29"> Die Schulgemeinde wählte ihren Lehrer aus einem ihr
             vom Erziehungsrat vorgelegten Dreiervorschlag. Die Schulsynode befürwortete 1847 die
             Aufhebung des Dreiervorschlages, «da er seine Bedeutung verloren, da er die Entwicklung
             des republikanischen Lebens hemme, und da der Erziehungsrath durch andere Mittel in den
             Stand gesetzt werden könne, die Lehrerwahlen zu kontrollieren». Verhandlungen der Synode
-            1847, <abbr norm="zitiert">zit.</abbr>
-            <ref type="lit">Bloch Pfister, Volksbildung</ref>, <abbr norm="Seite(n)">S.</abbr> 394.
+            1847, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice>
+            <ref type="lit">Bloch Pfister, Volksbildung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 394.
           </com> Die Umsetzung dieser Forderung fiel in Eschers Zeit als Erziehungsrat: 1849 wurde
           der entsprechende Verfassungsartikel dahingehend abgeändert, dass die Schulgemeinden ihre
           Primarlehrer frei wählen konnten. Der Erziehungsrat bestimmte fortan lediglich, welche
-          Personen als wahlfähig galten. Diese Neuerung wurde ins Lehrerwahlgesetz vom <d norm="02.04.1850">2. April 1850</d> übernommen.<com id="Turicensia_c30">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Kreis, Volksschule</ref>, <abbr norm="Seite(n)">S.</abbr> 450–451; <ref type="lit">Bloch Pfister, Volksbildung</ref>, <abbr norm="Seite(n)">S.</abbr> 393–395.
-            – Das Verfassungsgesetz von 1849 gab <abbr norm="Artikel">Art.</abbr> 86 der <idx norm="Zürich" type="place">Zürcher</idx> Kantonsverfassung von 1831 folgenden
+          Personen als wahlfähig galten. Diese Neuerung wurde ins Lehrerwahlgesetz vom <date when="1850-04-02">2. April 1850</date> übernommen.<com xml:id="Turicensia_c30">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Kreis, Volksschule</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 450–451; <ref type="lit">Bloch Pfister, Volksbildung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 393–395.
+            – Das Verfassungsgesetz von 1849 gab <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 86 der <placeName key="Zürich">Zürcher</placeName> Kantonsverfassung von 1831 folgenden
             Wortlaut: «Die Schulgemeinden wählen die Lehrer an ihren Primarschulen aus der Zahl
             derjenigen, welche von dem Erziehungsrathe hiezu für wahlfähig erklärt worden sind.»
-              <abbr norm="Artikel">Art.</abbr> 85 über die Wahl der Pfarrer wurde in vergleichbarer
+              <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 85 über die Wahl der Pfarrer wurde in vergleichbarer
             Weise abgeändert. Verfassungsgesetz betreffend Abänderung der §§ 85 und 86 der
             Verfassung (Wahl der Pfarrer und Lehrer), in: <ref type="lit">Sammlung Gesetze,
-              Beschlüsse, Verordnungen</ref> VIII, <abbr norm="Seite(n)">S.</abbr> 67. </com>
+              Beschlüsse, Verordnungen</ref> VIII, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 67. </com>
         </p>
-        <p id="Turicensia_p14">Im Sommer 1850 beschloss der Erziehungsrat auf Antrag seines
+        <p xml:id="Turicensia_p14">Im Sommer 1850 beschloss der Erziehungsrat auf Antrag seines
           Präsidenten Alfred Escher, bei Schulpflegen und Schulkapiteln Gutachten darüber
           einzuholen, ob eine Revision der Schulgesetze gewünscht werde, namentlich um die geltenden
           Bestimmungen zu systematisieren und zu aktualisieren. Die mit der Prüfung derselben
@@ -397,22 +609,29 @@
           dass eine grundlegende Revision des Volksschulwesens nicht als nötig erachtet wurde,
           stufte er das Projekt in den Prioritäten hinter dringlichere Zeitprobleme wie
           beispielsweise die Zoll- und Eisenbahnpolitik zurück. Die Revision der Unterrichtsgesetze
-          wurde schliesslich erst unter seinem Nachfolger <idx norm="Dubs Jakob" type="person">Jakob
-            Dubs</idx> wieder an die Hand genommen und im Jahr 1859 umgesetzt.<com id="Turicensia_c31">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Frey, Volksschulgesetzgebung</ref>, <abbr norm="Seite(n)">S.</abbr> 72,
-            81–84; <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D3625.php"><ref type="lit">HLS online</ref>, Dubs Jakob</ref>. </com> Nicht einverstanden mit Eschers neuer
-          Prioritätensetzung war der Sekretär der Erziehungsdirektion, <ref type="kbp"/>
-          <idx norm="Tobler Johann Jakob" type="person">Johann Jakob Tobler</idx>
-          <ref type="letter" target="K_1047"><!--82--></ref>. Im Juli 1852 schrieb er: «Sie haben
-          mich <d norm="21.07.1852">heute</d> durch die Mittheilung, daß Sie in nächster Zeit des Eisenbahnwesens wegen
+          wurde schliesslich erst unter seinem Nachfolger <persName key="Dubs Jakob">Jakob
+            Dubs</persName> wieder an die Hand genommen und im Jahr 1859 umgesetzt.<com xml:id="Turicensia_c31">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Frey, Volksschulgesetzgebung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 72,
+            81–84; <ref target="http://www.hls-dhs-dss.ch/textes/d/D3625.php">
+                                <ref type="lit">HLS online</ref>, Dubs Jakob</ref>. </com> Nicht einverstanden mit Eschers neuer
+          Prioritätensetzung war der Sekretär der Erziehungsdirektion, 
+          <persName key="Tobler Johann Jakob">Johann Jakob Tobler</persName>
+          <!--82-->. Im Juli 1852 schrieb er: «Sie haben
+          mich <date when="1852-07-21">heute</date> durch die Mittheilung, daß Sie in nächster Zeit des Eisenbahnwesens wegen
           vielleicht dem Erziehungswesen weniger obliegen können, recht sehr erschreckt. [...] Ich
           darf Ihnen vor Allem nicht verbergen, daß sich schon seit längerer Zeit die Ueberzeugung
           bei mir immer fester gestaltet hat, daß der Direktor des Erziehungswesens ganz und nur
           seiner Direktion sollte leben können. Ich sage von ferne nicht, daß Sie dabei das
           Geringste versäumt, daß Sie nicht auch Vortreffliches nun auf die Bahn gebracht haben;
           aber – mancher Uebelstand ist aus Mangel an Zeit, ihn zu beseitigen, doch noch geblieben;
-          manche Reform, die unternommen werden könnte und sollte unterblieben.» Auch hätte <idx norm="Tobler Johann Jakob" type="person">Tobler</idx> es vorgezogen, wenn sich Escher
+          manche Reform, die unternommen werden könnte und sollte unterblieben.» Auch hätte <persName key="Tobler Johann Jakob">Tobler</persName> es vorgezogen, wenn sich Escher
           statt mit «Eisenbahn Kabalen» mit Universitätsfragen beschäftigt hätte<ref type="sum" target="Institutionen_Strukturen_Prozesse_d1.6"><!--31-33--></ref>. Escher hatte das Projekt einer
           eidgenössischen Universität in der Tat ruhen lassen – nicht weil er dessen Bedeutung nicht
           erkannt hätte, sondern weil ihm die Zeit<pb n="73"/> aufgrund der ungelösten
@@ -420,232 +639,355 @@
           Möglichkeiten des Bundes herrschte, setzte Escher sich mit unverminderter Energie dafür
           ein. Wenn auch die eidgenössische Universität nicht verwirklicht werden konnte, so gelang
           es Escher und seinen Mitstreitern immerhin, dem Polytechnikum zum Durchbruch zu verhelfen
-          und dieses nach <idx norm="Zürich (Stadt)" type="place">Zürich</idx> zu holen.<com id="Turicensia_c32">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 870–872; 880–887.
+          und dieses nach <placeName key="Zürich (Stadt)">Zürich</placeName> zu holen.<com xml:id="Turicensia_c32">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 870–872; 880–887.
           </com>
         </p>
-        <p id="Turicensia_p15">In Bezug auf die kantonale Universität hatte sich Alfred Escher stets
-          persönlich bemüht, vielversprechende junge Professoren nach <idx norm="Zürich (Stadt)" type="place">Zürich</idx> zu holen<ref type="letter" target="K_0743"><!--40--></ref>
-          <ref type="letter" target="K_0862"><!--55--></ref>, um so die Attraktivität der Hochschule
+        <p xml:id="Turicensia_p15">In Bezug auf die kantonale Universität hatte sich Alfred Escher stets
+          persönlich bemüht, vielversprechende junge Professoren nach <placeName key="Zürich (Stadt)">Zürich</placeName> zu holen<!--40-->
+          <!--55-->, um so die Attraktivität der Hochschule
           im Rahmen ihrer beschränkten finanziellen Mittel zu steigern. Erziehungsdirektor Escher
           beteiligte sich aktiv an der Professorensuche, erkundigte sich nach möglichen Kandidaten,
           holte Referenzen ein, nahm mit geeignet erscheinenden Personen Kontakt auf und schickte
           Vertrauensleute hin. Als sich <pb n="74"/>im Zuge der Revolutionen von 1848/49 das Klima
-          für fortschrittliche Köpfe in <idx norm="Deutschland" type="place">Deutschland</idx>
+          für fortschrittliche Köpfe in <placeName key="Deutschland">Deutschland</placeName>
           erheblich verschlechterte<ref type="sum" target="Fluechtlingswesen_d1.3"><!--53-58--></ref>, wusste Escher die Gunst der Stunde zu nutzen und interessante
-          Persönlichkeiten zu verpflichten. Betreffend die Berufung von <idx norm="Mommsen Theodor" type="person">Theodor Mommsen</idx> beispielsweise stand Escher in regem brieflichem
-          Kontakt mit seinem an der Universität <idx norm="Berlin (D)" type="place">Berlin</idx>
-          lehrenden Vetter <ref type="kbp"/>
-          <idx norm="Keller (vom Steinbock) Friedrich Ludwig" type="person">Friedrich Ludwig Keller</idx>
-          sowie dem Schweizer Konsul in <idx norm="Leipzig (D)" type="place">Leipzig</idx>, <ref type="kbp"/>
-          <idx norm="Hirzel-Lampe Hans Caspar" type="person">Hans Caspar Hirzel-Lampe</idx>.<com id="Turicensia_c33">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="letter" target="K_0862"><!--Nr. 55--></ref>; <ref type="letter" target="K_0862"><!--Brief Friedrich Ludwig Keller an Escher
-              vom 3. März 1851 (BAR J I.67-8)--></ref>;
-              <ref type="letter" target="K_0884"><!--Brief
-              Friedrich Ludwig Keller an Escher vom 27. April 1851 (BAR J I.67-8)--></ref>;
-              <ref type="letter" target="K_0922"><!--Brief Hans Caspar Hirzel-Lampe an Escher vom
-              9. September 1851 (BAR J I.67-8)--></ref>;
-              <ref type="letter" target="K_0924"><!--Brief
-              Friedrich Ludwig Keller an Escher vom 18. September 1851 (BAR J I.67-8)--></ref>.
+          Persönlichkeiten zu verpflichten. Betreffend die Berufung von <persName key="Mommsen Theodor">Theodor Mommsen</persName> beispielsweise stand Escher in regem brieflichem
+          Kontakt mit seinem an der Universität <placeName key="Berlin (D)">Berlin</placeName>
+          lehrenden Vetter 
+          <persName key="Keller (vom Steinbock) Friedrich Ludwig">Friedrich Ludwig Keller</persName>
+          sowie dem Schweizer Konsul in <placeName key="Leipzig (D)">Leipzig</placeName>, 
+          <persName key="Hirzel-Lampe Hans Caspar">Hans Caspar Hirzel-Lampe</persName>.<com xml:id="Turicensia_c33">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <!--Nr. 55-->; <!--Brief Friedrich Ludwig Keller an Escher
+              vom 3. März 1851 (BAR J I.67-8)-->;
+              <!--Brief
+              Friedrich Ludwig Keller an Escher vom 27. April 1851 (BAR J I.67-8)-->;
+              <!--Brief Hans Caspar Hirzel-Lampe an Escher vom
+              9. September 1851 (BAR J I.67-8)-->;
+              <!--Brief
+              Friedrich Ludwig Keller an Escher vom 18. September 1851 (BAR J I.67-8)-->.
           </com> Wie wirkungsvoll dieses Rekrutierungssystem war, zeigt sich daran, dass dieser
-          bedeutende Staatsrechtler für <idx norm="Zürich (Stadt)" type="place">Zürich</idx>
-          gewonnen werden konnte. Als <idx norm="Mommsen Theodor" type="person">Mommsen</idx> 1851
-          in <idx norm="Leipzig (D)" type="place">Leipzig</idx> infolge «aufständischer Aktivität»
+          bedeutende Staatsrechtler für <placeName key="Zürich (Stadt)">Zürich</placeName>
+          gewonnen werden konnte. Als <persName key="Mommsen Theodor">Mommsen</persName> 1851
+          in <placeName key="Leipzig (D)">Leipzig</placeName> infolge «aufständischer Aktivität»
           seines Amtes als ausserordentlicher Professor enthoben wurde, nahm er einen Ruf an die
-          Universität <idx norm="Zürich (Stadt)" type="place">Zürich</idx> an und wirkte in den
-          Jahren 1852–1854 als ordentlicher Professor für <idx norm="Römisches Reich" type="place">römisches</idx> Recht.<com id="Turicensia_c34">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D10438.php"><ref type="lit">HLS
-                online</ref>, Mommsen Theodor</ref>. – Zu <idx norm="Mommsen Theodor" type="person">Mommsens</idx> Wirken in <idx norm="Zürich (Stadt)" type="place">Zürich</idx>
-            <abbr norm="vergleiche">vgl.</abbr>
+          Universität <placeName key="Zürich (Stadt)">Zürich</placeName> an und wirkte in den
+          Jahren 1852–1854 als ordentlicher Professor für <placeName key="Römisches Reich">römisches</placeName> Recht.<com xml:id="Turicensia_c34">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref target="http://www.hls-dhs-dss.ch/textes/d/D10438.php">
+                                <ref type="lit">HLS
+                online</ref>, Mommsen Theodor</ref>. – Zu <persName key="Mommsen Theodor">Mommsens</persName> Wirken in <placeName key="Zürich (Stadt)">Zürich</placeName>
+            <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
             <ref type="lit">Meyer, Mommsen</ref>. </com> Vom Einfluss Eschers und von seinem
           persönlichen Engagement für Volksschullehrer und Professoren an Mittelschulen und
           Universität zeugen verschiedene Bitt- und Dankesbriefe, die Anstellungsbedingungen oder
-          organisatorische Fragen betreffen, sowie Eschers Briefe an <idx norm="Heer Oswald" type="person">Oswald Heer</idx>, die Eschers Besorgnis um dessen Gesundheitszustand zum
-          Ausdruck bringen.<com id="Turicensia_c35">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="letter" target="K_0816"><!--Brief Escher an Oswald Heer vom 8. August 1850 (ZBZ NL O. Heer)--></ref>; <ref type="letter" target="K_0819"><!--Brief Escher an Oswald Heer vom 20. August 1850 (ZBZ NL O.
-              Heer)--></ref>;
-              <ref type="letter" target="K_0824"><!--Brief Escher an Oswald Heer vom 3. September 1850 (ZBZ
-              NL O. Heer)--></ref>.
+          organisatorische Fragen betreffen, sowie Eschers Briefe an <persName key="Heer Oswald">Oswald Heer</persName>, die Eschers Besorgnis um dessen Gesundheitszustand zum
+          Ausdruck bringen.<com xml:id="Turicensia_c35">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <!--Brief Escher an Oswald Heer vom 8. August 1850 (ZBZ NL O. Heer)-->; <!--Brief Escher an Oswald Heer vom 20. August 1850 (ZBZ NL O.
+              Heer)-->;
+              <!--Brief Escher an Oswald Heer vom 3. September 1850 (ZBZ
+              NL O. Heer)-->.
           </com>
         </p>
-        <p id="Turicensia_p16">Immer wieder beschäftigte sich Alfred Escher auch mit
+        <p xml:id="Turicensia_p16">Immer wieder beschäftigte sich Alfred Escher auch mit
           Stipendiengesuchen. Unter anderem setzte er sich im Erziehungs- und im Regierungsrat
-          wiederholt für finanzielle Unterstützung des jungen <idx norm="Keller Gottfried" type="person">Gottfried Keller</idx> ein. Im Herbst 1849 bedankte sich dieser für das
+          wiederholt für finanzielle Unterstützung des jungen <persName key="Keller Gottfried">Gottfried Keller</persName> ein. Im Herbst 1849 bedankte sich dieser für das
           regierungsrätliche Stipendium: «Hochverehrter Herr Bürgermeister! Sie haben wiederholt mir
           das gütige Wohlwollen erwiesen, von den Beschlüssen des hohen Erziehungs- und
           Regierungsrathes mir freundlichst Kenntniß geben zu wollen. Seither habe ich auch die
           ammtliche Anzeige durch die Staatskanzlei sowie die Summe für das bevorstehende Semester
           erhalten und bin dadurch in den Stand gesetzt, ferner auf freie und bequeme Art meiner
-          literarischen Entwicklung nachleben zu können.» Escher war früh auf das Talent <idx norm="Keller Gottfried" type="person">Gottfried Kellers</idx> aufmerksam geworden und
-          entwickelte sich zu einem Förderer des jungen Dichters.<com id="Turicensia_c36">
-            <ref type="letter" target="K_0704"><!--Brief Gottfried Keller an Escher, 30. Oktober 1849 (ZBZ Ms GK
-              77.6)--></ref>.
-              <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 140–141. </com>
+          literarischen Entwicklung nachleben zu können.» Escher war früh auf das Talent <persName key="Keller Gottfried">Gottfried Kellers</persName> aufmerksam geworden und
+          entwickelte sich zu einem Förderer des jungen Dichters.<com xml:id="Turicensia_c36">
+            <!--Brief Gottfried Keller an Escher, 30. Oktober 1849 (ZBZ Ms GK
+              77.6)-->.
+              <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 140–141. </com>
         </p>
-        <p id="Turicensia_p17">Im Dezember 1848, gleichzeitig mit seiner Wahl zum Amtsbürgermeister,
-          wurde Alfred Escher in den Kirchenrat des Kantons <idx norm="Zürich" type="place">Zürich</idx> gewählt.<com id="Turicensia_c37">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Gagliardi, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 125. </com>
-          <ref type="letter" target="K_0596"><!--3--></ref>
-          <ref type="letter" target="K_0724"><!--29--></ref>
-          <ref type="letter" target="K_0747"><!--35--></ref> Über sein Wirken in diesem Gremium ist
+        <p xml:id="Turicensia_p17">Im Dezember 1848, gleichzeitig mit seiner Wahl zum Amtsbürgermeister,
+          wurde Alfred Escher in den Kirchenrat des Kantons <placeName key="Zürich">Zürich</placeName> gewählt.<com xml:id="Turicensia_c37">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Gagliardi, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 125. </com>
+          <!--3-->
+          <!--29-->
+          <!--35--> Über sein Wirken in diesem Gremium ist
           wenig bekannt. In wissenschaftlicher Literatur und in Nachrufen wird dieser Aspekt
           zugunsten seiner Hauptwirkungsbereiche wenig beleuchtet, und auch in den Briefen von und
           an Escher aus den Jahren 1848−1852 wird diese Thematik nur am Rande angesprochen. Alfred
           Escher betrachtete Religion als Privatsache: Der Staat sollte seinen Bürgern in
           Glaubenssachen möglichst viel Freiraum lassen, sich so wenig als möglich einmischen und
           sich hüten, religiöse Überzeugungen zu verletzen. In seiner Zuschrift an die Wähler von
-            <idx norm="Elgg" type="place">Elgg</idx> aus dem Jahr 1844 forderte er aber auch, dass
+            <placeName key="Elgg">Elgg</placeName> aus dem Jahr 1844 forderte er aber auch, dass
           man Versuchen der Kirche, in die Bereiche des Staates überzugreifen und dessen
-          Unabhängigkeit anzugreifen, entschieden entgegentreten müsse.<com id="Turicensia_c38">
-            <abbr norm="Vergleiche">Vgl.</abbr>
+          Unabhängigkeit anzugreifen, entschieden entgegentreten müsse.<com xml:id="Turicensia_c38">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
             <ref type="lit">Schweizerischer Republikaner</ref>, 6. August 1844. </com>
         </p>
-        <p id="Turicensia_p18">Im Zuge der 1849 beschlossenen Einführung des Direktorialsystems
+        <p xml:id="Turicensia_p18">Im Zuge der 1849 beschlossenen Einführung des Direktorialsystems
           wurde Alfred Escher mit der Ausarbeitung des Gesetzesentwurfs über Organisation,
           Befugnisse und Pflichten des Regierungsrats und seiner Direktionen beauftragt. Diese
           Vorlage betraf auch den Kirchenrat, und konservative Kreise warfen Escher vor, er wolle
           den Einfluss der Geistlichkeit brechen und den Kirchenrat zu einem Departement des
           Regierungsrats machen. Umstritten war unter anderem das Projekt der Einführung einer
-          gemischten Synode.<ref type="letter" target="K_0747"><!--35--></ref> Gemeint war damit die
-          Ergänzung der Versammlung der <idx norm="Zürich" type="place">Zürcher</idx> Pfarrer mit
-          Laien, wie es seit den 1830er Jahren wiederholt gefordert wurde. Escher hatte bei <idx norm="Blumer Johann Jakob" type="person">Johann Jakob Blumer</idx> Erkundigungen über
-          das Funktionieren der gemischten Synode im Kanton <idx norm="Glarus" type="place">Glarus</idx> eingeholt. Dieser hatte ihm das Organisationsreglement übersandt und seine
+          gemischten Synode.<!--35--> Gemeint war damit die
+          Ergänzung der Versammlung der <placeName key="Zürich">Zürcher</placeName> Pfarrer mit
+          Laien, wie es seit den 1830er Jahren wiederholt gefordert wurde. Escher hatte bei <persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName> Erkundigungen über
+          das Funktionieren der gemischten Synode im Kanton <placeName key="Glarus">Glarus</placeName> eingeholt. Dieser hatte ihm das Organisationsreglement übersandt und seine
           Vorbehalte gegen diese Institution geschildert. Auch Escher nahm Abstand von diesem
-          Projekt. An der ausserordentlichen Synode der <idx norm="Zürich" type="place">zürcherischen</idx> Geistlichkeit im Februar 1850 bezeichnete er eine gemischte Synode
+          Projekt. An der ausserordentlichen Synode der <placeName key="Zürich">zürcherischen</placeName> Geistlichkeit im Februar 1850 bezeichnete er eine gemischte Synode
           als «unnatürlich in ihrem Prinzipe». Ausserdem liege sie «weder im Bewußtsein, noch in den
-          Bedürfnissen des Volkes».<com id="Turicensia_c39">
-            <ref type="lit">NZZ</ref>, 10. Februar 1850. <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Hess, Kirchliche Gesetzgebung</ref>, <abbr norm="Seite(n)">S.</abbr>
-            152; <ref type="lit">Gagliardi, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 151.
+          Bedürfnissen des Volkes».<com xml:id="Turicensia_c39">
+            <ref type="lit">NZZ</ref>, 10. Februar 1850. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Hess, Kirchliche Gesetzgebung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+            152; <ref type="lit">Gagliardi, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 151.
           </com>
         </p>
-        <p id="Turicensia_p19">Getreu seinen Ansichten über die Stellung der Kirche im Staat setzte
-          sich Alfred Escher 1850 für die Berufung des reformierten Theologen <idx norm="Biedermann Alois Emanuel" type="person">Alois Emanuel Biedermann</idx> an die
-          Universität <idx norm="Zürich (Stadt)" type="place">Zürich</idx> ein. <idx norm="Biedermann Alois Emanuel" type="person">Biedermann</idx> hatte in den 1840er
-          Jahren als Pfarrer in <idx norm="Münchenstein" type="place">Münchenstein</idx> gewirkt. Er
+        <p xml:id="Turicensia_p19">Getreu seinen Ansichten über die Stellung der Kirche im Staat setzte
+          sich Alfred Escher 1850 für die Berufung des reformierten Theologen <persName key="Biedermann Alois Emanuel">Alois Emanuel Biedermann</persName> an die
+          Universität <placeName key="Zürich (Stadt)">Zürich</placeName> ein. <persName key="Biedermann Alois Emanuel">Biedermann</persName> hatte in den 1840er
+          Jahren als Pfarrer in <placeName key="Münchenstein">Münchenstein</placeName> gewirkt. Er
           hatte seinem liberalen theologisch-kirchlichen Credo in Vorträgen und Schriften Ausdruck
           verliehen und entwickelte sich innerhalb der reformierten Kirche der Schweiz zu einem
-          führenden Vertreter einer fortschrittlichen Theologie. <idx norm="Biedermann Alois Emanuel" type="person">Biedermann</idx> war wie Escher ehemaliges
+          führenden Vertreter einer fortschrittlichen Theologie. <persName key="Biedermann Alois Emanuel">Biedermann</persName> war wie Escher ehemaliges
           Mitglied des Zofingervereins und nahm an Eschers Akademischen Mittwochgesellschaft
-            teil.<com id="Turicensia_c40">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D10442.php"><ref type="lit">HLS
+            teil.<com xml:id="Turicensia_c40">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref target="http://www.hls-dhs-dss.ch/textes/d/D10442.php">
+                                <ref type="lit">HLS
                 online</ref>, Biedermann Alois Emanuel</ref>; <ref type="lit">Frey,
-              Volksschulgesetzgebung</ref>, <abbr norm="Seite(n)">S.</abbr> 74–75. – Zur
-            Akademischen Mittwochgesellschaft <abbr norm="vergleiche">vgl.</abbr>
+              Volksschulgesetzgebung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 74–75. – Zur
+            Akademischen Mittwochgesellschaft <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
             <ref type="sum" target="Aufstieg_p11"><!--Jung/Koch, Escher Briefe, Bd. 3, S. 22–23--></ref>.</com>
         </p>
       </div>
-      <div id="Turicensia_d1.4">
+      <div xml:id="Turicensia_d1.4">
         <head>Die Jubiläumsfeier von 1851</head>
-        <p id="Turicensia_p20"><ref type="letter" target="K_0856"><!--53--></ref>
-          <ref type="letter" target="K_0854"><!--57--></ref>
-          <ref type="letter" target="K_0878"><!--58--></ref>
-          <ref type="letter" target="K_0896"><!--59--></ref> In den ersten Maitagen des Jahres 1851
-          feierte der Kanton <idx norm="Zürich" type="place">Zürich</idx> das Jubiläum der
+        <p xml:id="Turicensia_p20"><!--53-->
+          <!--57-->
+          <!--58-->
+          <!--59--> In den ersten Maitagen des Jahres 1851
+          feierte der Kanton <placeName key="Zürich">Zürich</placeName> das Jubiläum der
           500jährigen Zugehörigkeit zur Eidgenossenschaft. Es war die erste derartige Feier im neuen
           Bundesstaat. Entsprechend gross waren die Erwartungen, die man in dieses Jubiläum setzte,
           das im Idealfall ein nationales Friedensfest darstellen und die Basis für das Gedeihen des
           Bundesstaates weiter festigen konnte. Erschwert wurde die Organisation des Festes
           allerdings durch Parteiquerelen und die Nachwirkungen der noch nicht lange zurückliegenden
-          <idx type="place" norm="Zentralschweiz">innerschweizerischen</idx> Auseinandersetzungen. Dass die Feier zum Siegesfest über den
-          Sonderbund verkomme, befürchtete nicht zuletzt der konservative <idx norm="Wyss Georg von" type="person">Georg von Wyss</idx>. Als der <idx norm="Zürich" type="place">Zürcher</idx> Grosse Rat im Januar 1851 über den Kredit für die
-          Jubiläumsfeierlichkeiten beriet, beantragte er, dass sich der Kanton <idx norm="Zürich" type="place">Zürich</idx> angesichts der schwierigen Lage in den ehemaligen
+          <placeName key="Zentralschweiz">innerschweizerischen</placeName> Auseinandersetzungen. Dass die Feier zum Siegesfest über den
+          Sonderbund verkomme, befürchtete nicht zuletzt der konservative <persName key="Wyss Georg von">Georg von Wyss</persName>. Als der <placeName key="Zürich">Zürcher</placeName> Grosse Rat im Januar 1851 über den Kredit für die
+          Jubiläumsfeierlichkeiten beriet, beantragte er, dass sich der Kanton <placeName key="Zürich">Zürich</placeName> angesichts der schwierigen Lage in den ehemaligen
           Sonderbundskantonen dafür einsetze, dass «die Opfer, welche für den neuen Bund auf die
           alten Miteidgenossen gelegt wurden, denselben erleichtert würden». Der Antrag und dessen
-          Ablehnung lösten eine wüste Pressepolemik aus.<com id="Turicensia_c41">
-            <ref type="lit">NZZ</ref>, 29. Januar 1851. <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Pfiffner, Bundesfest 1851</ref>, <abbr norm="Seite(n)">S.</abbr> 119–123. </com>
+          Ablehnung lösten eine wüste Pressepolemik aus.<com xml:id="Turicensia_c41">
+            <ref type="lit">NZZ</ref>, 29. Januar 1851. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Pfiffner, Bundesfest 1851</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 119–123. </com>
         </p>
-        <p id="Turicensia_p21">Die Organisatoren hofften lange Zeit, dass die <idx type="place" norm="Zentralschweiz">Innerschweizer</idx> Kantone
+        <p xml:id="Turicensia_p21">Die Organisatoren hofften lange Zeit, dass die <placeName key="Zentralschweiz">Innerschweizer</placeName> Kantone
           die offizielle Einladung zum Jubiläumsfest annehmen würden. Dies taten sie nicht, und
-          schliesslich nahm nur der damals liberal regierte Kanton <idx norm="Luzern" type="place">Luzern</idx> am Fest teil, während die Kantone <idx norm="Uri" type="place">Uri</idx>,
-            <idx norm="Schwyz" type="place">Schwyz</idx> und <idx norm="Unterwalden" type="place">Unterwalden</idx> ihr offizielles Fernbleiben mit unverheilten Wunden und der
+          schliesslich nahm nur der damals liberal regierte Kanton <placeName key="Luzern">Luzern</placeName> am Fest teil, während die Kantone <placeName key="Uri">Uri</placeName>,
+            <placeName key="Schwyz">Schwyz</placeName> und <placeName key="Unterwalden">Unterwalden</placeName> ihr offizielles Fernbleiben mit unverheilten Wunden und der
           schwierigen Situation in der Heimat begründeten. Das hielt eine Anzahl Schützen aus den
           Urkantonen nicht davon ab, am Jubelschiessen teilzunehmen. Behindert wurde die
-          Organisation des «<idx type="place" norm="Zürich">Züri</idx>festes» ferner durch die Interessengegensätze zwischen der
+          Organisation des «<placeName key="Zürich">Züri</placeName>festes» ferner durch die Interessengegensätze zwischen der
           liberalen Landschaft und den «alten Herren» der mehrheitlich konservativ gesinnten Hauptstadt. Diese Differenzen zwischen<pb n="75"/>
 Stadt und Kanton offenbarten sich unter anderem in der Diskussion rund um den
-          geeigneten Zeitpunkt der Feierlichkeiten sowie die Art und Weise der Illumination.<com id="Turicensia_c42">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Pfiffner, Bundesfest 1851</ref>, <abbr norm="Seite(n)">S.</abbr> 122–125, 131, 134. – Die Absage des Kantons <idx norm="Uri" type="place">Uri</idx> wurde im «Landboten» veröffentlicht. <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Der Landbote</ref>, 17. April 1851. </com><ref type="letter" target="K_0878"><!--58--></ref> In einem Brief an Alfred
-          Escher bedauerte <idx norm="Blumer Johann Jakob" type="person">Johann Jakob Blumer</idx>
+          geeigneten Zeitpunkt der Feierlichkeiten sowie die Art und Weise der Illumination.<com xml:id="Turicensia_c42">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Pfiffner, Bundesfest 1851</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 122–125, 131, 134. – Die Absage des Kantons <placeName key="Uri">Uri</placeName> wurde im «Landboten» veröffentlicht. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Der Landbote</ref>, 17. April 1851. </com><!--58--> In einem Brief an Alfred
+          Escher bedauerte <persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName>
           die parteipolitischen Streitereien rund um die Organisation des Festes: «Ich läugne nicht,
           daß es mir wehe thut, ein Fest von so schöner, ächt vaterländischer Bedeutung durch den
-          Trotz <abbr norm="und">u.</abbr> die Ränke einer Parthei, welche sich mit der Gegenwart nicht
+          Trotz <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> die Ränke einer Parthei, welche sich mit der Gegenwart nicht
           aussöhnen kann, auf mannigfache Weise getrübt zu sehen; aber ich hoffe gleich wohl,
-          dasselbe werde in der Hauptsache noch gelingen, <abbr norm="und">u.</abbr> für mich bietet es
-          jedenfalls den Anlaß zu einem angenehmen Ausfluge dar.»<com id="Turicensia_c43">
-            <ref type="letter" target="K_0879"><!--Brief Johann Jakob Blumer an Escher, 19. April 1851 (FA
-              Tschudi)--></ref>.
+          dasselbe werde in der Hauptsache noch gelingen, <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> für mich bietet es
+          jedenfalls den Anlaß zu einem angenehmen Ausfluge dar.»<com xml:id="Turicensia_c43">
+            <!--Brief Johann Jakob Blumer an Escher, 19. April 1851 (FA
+              Tschudi)-->.
           </com>
         </p>
-        <p id="Turicensia_p22">All den Querelen zum Trotz konnten die Organisatoren mit einem
-          eindrücklichen Programm aufwarten: Am <d norm="01.05.1851">1. Mai 1851</d> führte ein
+        <p xml:id="Turicensia_p22">All den Querelen zum Trotz konnten die Organisatoren mit einem
+          eindrücklichen Programm aufwarten: Am <date when="1851-05-01">1. Mai 1851</date> führte ein
           festlicher Umzug mit den geladenen Gästen vom Rathaus durch die Stadt zum Festplatz beim
           Bahnhof, wo Reden und Gesänge folgen. Für den Abend waren ein kostümierter historischer
           Umzug, ein Feuerwerk auf dem See sowie die Beleuchtung des Grossmünsters und des Rathauses
-          sowie Freudenfeuer entlang der beiden Seeufer und der <idx norm="Albis" type="place">Albiskette</idx> geplant.<com id="Turicensia_c44">
-            <abbr norm="Vergleiche">Vgl.</abbr>
+          sowie Freudenfeuer entlang der beiden Seeufer und der <placeName key="Albis">Albiskette</placeName> geplant.<com xml:id="Turicensia_c44">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
             <ref type="lit">NZZ</ref>, 28. April 1851. – Eine detaillierte Schilderung der
-            Festivitäten befindet sich im Nachlass von <idx norm="Meyer von Knonau Gerold" type="person">Gerold Meyer von Knonau</idx>. <abbr norm="Vergleiche">Vgl.</abbr>
+            Festivitäten befindet sich im Nachlass von <persName key="Meyer von Knonau Gerold">Gerold Meyer von Knonau</persName>. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
             <ref type="lit">Meyer von Knonau, Bundesjubiläum</ref>. – Der vom Regen arg in
-            Mitleidenschaft gezogene historische Umzug wurde am <d norm="11.05.1851">11. Mai 1851</d> wiederholt; das Feuerwerk musste auf den <d norm="06.05.1851">6. Mai</d> verschoben
-            werden. <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Meyer von Knonau, Bundesjubiläum</ref>, <abbr norm="Seite(n)">S.</abbr>
-            9; <ref type="lit">Pfiffner, Bundesfest 1851</ref>, <abbr norm="Seite(n)">S.</abbr> 134.
-          </com> Am <d norm="04.05.1851">4. Mai</d> fanden in den Gemeinden Jugendfeste statt, und
-          zwischen dem <d norm="03.05.1851">3.</d> und dem <d norm="10.05.1851">10. Mai</d> massen
+            Mitleidenschaft gezogene historische Umzug wurde am <date when="1851-05-11">11. Mai 1851</date> wiederholt; das Feuerwerk musste auf den <date when="1851-05-06">6. Mai</date> verschoben
+            werden. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Meyer von Knonau, Bundesjubiläum</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+            9; <ref type="lit">Pfiffner, Bundesfest 1851</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 134.
+          </com> Am <date when="1851-05-04">4. Mai</date> fanden in den Gemeinden Jugendfeste statt, und
+          zwischen dem <date when="1851-05-03">3.</date> und dem <date when="1851-05-10">10. Mai</date> massen
           sich die Schützen beim Jubelschiessen. Unter den zahlreichen nationalen Festen des
-          19. Jahrhunderts nimmt das erste «<idx type="place" norm="Zürich">Züri</idx>fest» einen besonderen Platz ein, weil mit ihm der
-          Übergang vom alten Bund zum Bundesstaat gefeiert wurde.<com id="Turicensia_c45">
-            <abbr norm="Vergleiche">Vgl.</abbr>
-            <ref type="lit">Pfiffner, Bundesfest 1851</ref>, <abbr norm="Seite(n)">S.</abbr> 117,
+          19. Jahrhunderts nimmt das erste «<placeName key="Zürich">Züri</placeName>fest» einen besonderen Platz ein, weil mit ihm der
+          Übergang vom alten Bund zum Bundesstaat gefeiert wurde.<com xml:id="Turicensia_c45">
+            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+            <ref type="lit">Pfiffner, Bundesfest 1851</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 117,
             131, 134. </com>
         </p>
-        <p id="Turicensia_p23">Im Rückblick auf das Fest schimpfte die «Freitagszeitung»: «Die
+        <p xml:id="Turicensia_p23">Im Rückblick auf das Fest schimpfte die «Freitagszeitung»: «Die
           Veranstalter [...], welche [...] mit dem Feste weniger das vergangene Ereigniß feiern, als
           einem neuen, einem politischen Siege, um nicht zu sagen, einem Parteisiege, die Kraft der
           Weihe zu geben beabsichtigten, waren durch den Widerstand, den sie vielfach theils in
           politischer Abneigung, theils in Gleichgültigkeit fanden, gereizt, und wurden selbst wegen
-          sächlicher Hindernisse über Personen erbittert.»<com id="Turicensia_c46">
+          sächlicher Hindernisse über Personen erbittert.»<com xml:id="Turicensia_c46">
             <ref type="lit">Zürcherische Freitagszeitung</ref>, 9. Mai 1851. </com> Die
           Emotionalitäten, die mit der Durchführung der Jubiläumsfeierlichkeiten verbunden waren,
           aber auch die Verbissenheit, mit der die Beteiligten ihren Vorstellungen zum Durchbruch
           verhelfen wollten, widerspiegeln sich sowohl in der Anzahl als auch im Ton der in dieser
           Angelegenheit an Escher gerichteten Briefe. Wenn auch von den Festveranstaltern die
-          altschweizerische Vergangenheit festlich in Szene gesetzt<com id="Turicensia_c47">Eine
-            Schilderung des Umzugs findet sich in <idx norm="Meyer von Knonau Gerold" type="person">Gerold Meyer von Knonaus</idx> nachgelassenen Papieren: «Der Zug hatte in lebendigen
+          altschweizerische Vergangenheit festlich in Szene gesetzt<com xml:id="Turicensia_c47">Eine
+            Schilderung des Umzugs findet sich in <persName key="Meyer von Knonau Gerold">Gerold Meyer von Knonaus</persName> nachgelassenen Papieren: «Der Zug hatte in lebendigen
             Bildern die schönsten Partien der vaterländischen Geschichte vom 14. bis in das
-            18. Jahrhundert hinab aufzurollen. Voran [rolt?] Musiker in Weiß <abbr norm="und">u</abbr>
-            Blau gekleidet. Es kamen nun 1.) der Reichsherold <abbr norm="und">u</abbr> der
-            Reichsbannerträger zum Zeichen, daß <idx norm="Zürich (Stadt)" type="place">Zürich</idx>
+            18. Jahrhundert hinab aufzurollen. Voran [rolt?] Musiker in Weiß <choice>
+                                <abbr>u</abbr>
+                                <expan>und</expan>
+                            </choice>
+            Blau gekleidet. Es kamen nun 1.) der Reichsherold <choice>
+                                <abbr>u</abbr>
+                                <expan>und</expan>
+                            </choice> der
+            Reichsbannerträger zum Zeichen, daß <placeName key="Zürich (Stadt)">Zürich</placeName>
             1351 beim Eintritt in den Bund eine freie Reichsstadt gewesen war; 2.) der Abschluß des
-            Bundes dargestellt durch den Bürgermeister <idx norm="Brun Rudolf" type="person">Brun</idx>
-            <abbr norm="und">u</abbr> den Gewaltsboten der Waldstätte, begleitet von Rittern,
-            Bannerträgern <abbr norm="und">u</abbr> Stadtknechten; 3.) die Constafler <abbr norm="und">u</abbr> Zünfte <idx norm="Zürich (Stadt)" type="place">Zürichs</idx> mit ihren
-            verschiedenartigen Insignien; 4.) die Helden der Schlacht bei <idx norm="Dättwil (Baden, AG)" type="place">Tätwyl</idx>, voran die gewonnenen Banner, gefolgt von Wagen mit Helmen
-              <abbr norm="und">u</abbr> Schilden erschlagener Ritter; 5.) der Auszug zur <idx norm="Sempach" type="place">Sempacher</idx> Schlacht, 1386, angeführt durch <idx norm="Gundoldingen Petermann von" type="person">Gundoldingen</idx>
-            <abbr norm="und">u</abbr>
-            <idx norm="Winkelried Arnold von" type="person">Arnold von Winkelried</idx>, die im
-            siegreichen Kampfe gegen Herzog <idx norm="Leopold IV. (Österreich)" type="person">Leopold
-              von Oesterreich</idx> ruhmvoll fielen, eine höchst belebte Gruppe, bei der auch der
-            sogenannte Stier von <idx norm="Uri" type="place">Ury</idx>, ein phantastisch
-            gekleideter Mann, mit dumpf tönendem Horne nicht fehlte [...].» <abbr norm="und so weiter">usw.</abbr>
-            <ref type="lit">Meyer von Knonau, Bundesjubiläum</ref>, <abbr norm="Seite(n)">S.</abbr> 11. </com> und so auch die Verdienste der Urschweiz gewürdigt wurden, so
-          liessen Alfred Escher und andere politische Meinungsmacher in <idx norm="Zürich" type="place">Zürich</idx> doch die sich bietende Möglichkeit, einen Schritt auf die 1847
-          unterlegenen <idx type="place" norm="Zentralschweiz">Innerschweizer</idx> Kantone zuzugehen, ungenutzt verstreichen. Zu einem
+            Bundes dargestellt durch den Bürgermeister <persName key="Brun Rudolf">Brun</persName>
+            <choice>
+                                <abbr>u</abbr>
+                                <expan>und</expan>
+                            </choice> den Gewaltsboten der Waldstätte, begleitet von Rittern,
+            Bannerträgern <choice>
+                                <abbr>u</abbr>
+                                <expan>und</expan>
+                            </choice> Stadtknechten; 3.) die Constafler <choice>
+                                <abbr>u</abbr>
+                                <expan>und</expan>
+                            </choice> Zünfte <placeName key="Zürich (Stadt)">Zürichs</placeName> mit ihren
+            verschiedenartigen Insignien; 4.) die Helden der Schlacht bei <placeName key="Dättwil (Baden, AG)">Tätwyl</placeName>, voran die gewonnenen Banner, gefolgt von Wagen mit Helmen
+              <choice>
+                                <abbr>u</abbr>
+                                <expan>und</expan>
+                            </choice> Schilden erschlagener Ritter; 5.) der Auszug zur <placeName key="Sempach">Sempacher</placeName> Schlacht, 1386, angeführt durch <persName key="Gundoldingen Petermann von">Gundoldingen</persName>
+            <choice>
+                                <abbr>u</abbr>
+                                <expan>und</expan>
+                            </choice>
+            <persName key="Winkelried Arnold von">Arnold von Winkelried</persName>, die im
+            siegreichen Kampfe gegen Herzog <persName key="Leopold IV. (Österreich)">Leopold
+              von Oesterreich</persName> ruhmvoll fielen, eine höchst belebte Gruppe, bei der auch der
+            sogenannte Stier von <placeName key="Uri">Ury</placeName>, ein phantastisch
+            gekleideter Mann, mit dumpf tönendem Horne nicht fehlte [...].» <choice>
+                                <abbr>usw.</abbr>
+                                <expan>und so weiter</expan>
+                            </choice>
+            <ref type="lit">Meyer von Knonau, Bundesjubiläum</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 11. </com> und so auch die Verdienste der Urschweiz gewürdigt wurden, so
+          liessen Alfred Escher und andere politische Meinungsmacher in <placeName key="Zürich">Zürich</placeName> doch die sich bietende Möglichkeit, einen Schritt auf die 1847
+          unterlegenen <placeName key="Zentralschweiz">Innerschweizer</placeName> Kantone zuzugehen, ungenutzt verstreichen. Zu einem
           konzilianteren Auftreten gegenüber den ehemaligen Sonderbundskantonen und der Opposition
-          im eigenen Kanton waren die in <idx norm="Zürich" type="place">Zürich</idx> regierenden
+          im eigenen Kanton waren die in <placeName key="Zürich">Zürich</placeName> regierenden
           Radikal-Liberalen offensichtlich noch nicht bereit.</p>
       </div>
     </div>
   </body>
-</commentary>
+    </text>
+</TEI>

@@ -1,535 +1,829 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Fuer_die_Gotthardvereinigung_in_Italien" name="Für die Gotthardvereinigung in Italien">
-	<metadata>
-		<title>Im Auftrag der Gotthardvereinigung in Italien: 1870–1879</title>
-		<author>
-			<name>Claudia Aufdermauer, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Fuer_die_Gotthardvereinigung_in_Italien">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Im Auftrag der Gotthardvereinigung in Italien: 1870–1879</title>
+                <author>
+			Claudia Aufdermauer, unter der Leitung von Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1866–1882).
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1866–1882).
 				Private Eisenbahngesellschaften in der Krise, Gotthardbahn, politische Opposition, mit Beiträgen von
 				Claudia Aufdermauer, Basil Böhni, Lisa Bollinger, Bruno Fischer, Josef Inauen, Joseph Jung, Björn Koch und Vincent Pick (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-				Escher-Stiftung, Band 6), Zürich 2015</volume_title>
-			<short_title>Jung, Escher Briefe, Band 6</short_title>
-			<volume>6</volume>
-			<page>117–127</page>
-		</source>
-		<description>Konsolidierung des Gotthardprojekts – Diplomatische Querelen – Nachsubvention</description>
-		<revision>
-			<change>XML-Grundstruktur erstellt, MB, 07.08.2014</change>
-			<change>Auszeichnung 1 umgesetzt, XR, 11.08.2014</change>
-			<change>Migrationsverifizierung umgesetzt, LW, 11.08.2014</change>
-			<change>Verifizierung 1 umgesetzt, LW, 12.08.2014</change>
-			<change>Personen, Orte und Eisenbahngesellschaften verifiziert, LB, 29.10.2014</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Fuer_die_Gotthardvereinigung_in_Italien_d1">
-			<head><pb n="117"/>Im Auftrag der Gotthardvereinigung in Italien: 1870–1879</head>
-			<div id="Fuer_die_Gotthardvereinigung_in_Italien_d1.1">
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p1"><idx type="place" norm="Italien (Königreich)">Italien</idx> war neben der Schweiz
-					und <idx type="place" norm="Deutschland">Deutschland</idx> das dritte Land,
-					welches sich für den Bau der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn engagierte. Die <idx type="place" norm="St. Gotthard (Pass)">Gotthardvereinigung</idx> wollte ihre dortigen
+				Escher-Stiftung, Band 6), Zürich 2015</title>
+                    <title type="short">Jung, Escher Briefe, Band 6</title>
+                    <ref type="volume" target="V6">117–127</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Konsolidierung des Gotthardprojekts – Diplomatische Querelen – Nachsubvention</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, MB, 07.08.2014</change>
+                <change>Auszeichnung 1 umgesetzt, XR, 11.08.2014</change>
+                <change>Migrationsverifizierung umgesetzt, LW, 11.08.2014</change>
+                <change>Verifizierung 1 umgesetzt, LW, 12.08.2014</change>
+                <change>Personen, Orte und Eisenbahngesellschaften verifiziert, LB, 29.10.2014</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Fuer_die_Gotthardvereinigung_in_Italien_d1">
+			<head>
+                    <pb n="117"/>Im Auftrag der Gotthardvereinigung in Italien: 1870–1879</head>
+			<div xml:id="Fuer_die_Gotthardvereinigung_in_Italien_d1.1">
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p1">
+                        <placeName key="Italien (Königreich)">Italien</placeName> war neben der Schweiz
+					und <placeName key="Deutschland">Deutschland</placeName> das dritte Land,
+					welches sich für den Bau der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn engagierte. Die <placeName key="St. Gotthard (Pass)">Gotthardvereinigung</placeName> wollte ihre dortigen
 					Interessen, namentlich im Zusammenhang mit der Ratifizierung der Staatsverträge
-					von 1869 und 1877, nicht vollumfänglich durch <idx type="person" norm="Pioda Giovanni Battista">Giovanni Battista Pioda</idx>, den
+					von 1869 und 1877, nicht vollumfänglich durch <persName key="Pioda Giovanni Battista">Giovanni Battista Pioda</persName>, den
 					ausserordentlichen Gesandten und bevollmächtigten Minister der Schweiz,
 					vertreten lassen. Sie errichtete daher eine ständige Agentur, die zunächst vom
-					<idx type="place" norm="Elsass">elsässischen</idx> Ingenieur <idx type="person" norm="Stamm Ernest">Ernest Stamm</idx>
-					und ab 1872 vom <idx type="place" norm="Tessin">Tessiner</idx> Ingenieur <idx type="person" norm="Maraini Clemente">Clemente Maraini</idx> besetzt wurde.
-					Zudem sandte sie den <idx type="place" norm="Bern">Berner</idx> Nationalrat <idx type="person" norm="Gonzenbach August von">August von Gonzenbach</idx>
-					dreimal als Delegierten nach dem «schönen, aber oft so freudlosen <idx type="place" norm="Italien (Königreich)">Italien</idx>».<com id="Fuer_die_Gotthardvereinigung_in_Italien_c1"><ref type="letter" target="K_5294"><!--Brief Escher an August von Gonzenbach, 17.
-							April 1870--></ref>.</com> </p>
+					<placeName key="Elsass">elsässischen</placeName> Ingenieur <persName key="Stamm Ernest">Ernest Stamm</persName>
+					und ab 1872 vom <placeName key="Tessin">Tessiner</placeName> Ingenieur <persName key="Maraini Clemente">Clemente Maraini</persName> besetzt wurde.
+					Zudem sandte sie den <placeName key="Bern">Berner</placeName> Nationalrat <persName key="Gonzenbach August von">August von Gonzenbach</persName>
+					dreimal als Delegierten nach dem «schönen, aber oft so freudlosen <placeName key="Italien (Königreich)">Italien</placeName>».<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c1"><!--Brief Escher an August von Gonzenbach, 17.
+							April 1870-->.</com> </p>
 			</div>
-			<div id="Fuer_die_Gotthardvereinigung_in_Italien_d1.2">
+			<div xml:id="Fuer_die_Gotthardvereinigung_in_Italien_d1.2">
 				<head>Die Konsolidierung des Gotthardprojekts in Italien</head>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p2">Die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung
-					hatte sich an der internationalen <idx type="place" norm="St. Gotthard (Pass)">Gotthardkonferenz</idx> von 1869<ref type="sum" target="Gotthardkonferenz_1869_d1"><!--S. 54-71--></ref><ref type="sum" target="Gotthardbahnprojekt_in_der_Escher-Korrespondenz_d1.5"><!--78--></ref><ref type="sum" target="Chronologie_Gotthardbahn_r47"><!--S. 252--></ref> verpflichtet, dafür zu sorgen, dass
-					in <idx type="place" norm="Italien (Königreich)">Italien</idx> Subventionen im
-					Betrag von 45 <abbr norm="Million(en)">Mio.</abbr> Franken gesprochen
-							würden.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c2"><abbr norm="Vergleiche">Vgl.</abbr>
-								<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10006532" type="www"><ref type="lit">Staatsvertrag Gotthardbahn 1869</ref>, Art. 16, 20</ref>. – Zur
-						Konsolidierung des <idx type="place" norm="St. Gotthard (Pass)">Gotthardprojekts</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
-						574–587; <ref type="sum" target="Gotthardvereinigung_d1.4"><!--Jung, Escher Briefe, Bd. 1, S. 201–207--></ref>; <ref type="lit">Wanner, Gotthardunternehmen</ref>, <abbr norm="Seite(n)">S.</abbr> 183–187.</com> Bald kamen indes Zweifel auf, ob <idx type="place" norm="Italien (Königreich)">Italien</idx> an dieser
-					Vereinbarung festhalten werde.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c3"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5693"><!--Brief Clemente Maraini an Escher, 24.
-						Februar 1870--></ref>.</com>
-					Es wurde angenommen, dass sich die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung nur getrauen werde, den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vertrag der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Kammer vorzulegen, wenn <idx type="place" norm="Mailand (I)">Mailand</idx> ein entsprechendes Zeichen
-					setze und einer Subventionierung des <idx type="place" norm="St. Gotthard (Pass)">Gotthards</idx> zustimme. Um dies zu erreichen,
-					begab sich <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> im
-					März 1870 auf Wunsch Alfred Eschers und der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vereinigung nach «dem <hi rend="italics">entscheidenden</hi> Kampfplatze» <idx type="place" norm="Mailand (I)">Mailand</idx>.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c4"><ref type="letter" target="K_5277"><!--Brief Escher an August von Gonzenbach, 12. März 1870--></ref>. – Zu
-							<idx type="place" norm="Mailand (I)">Mailands</idx> Bedeutung für das
-							<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>projekt
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="letter" target="K_5695"><!--Brief
-						Clemente Maraini an Escher, 6. Mai 1870--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p3"><idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> machte sich in
-						<idx type="place" norm="Mailand (I)">Mailand</idx> sogleich an die Arbeit:
-					Er gründete ein Unterstützungskomitee für den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>, liess Interna zur Haltung des
-						<idx type="place" norm="Norddeutscher Bund">Norddeutschen Bundes</idx> <ref type="letter" target="K_5280"><!--Brief Escher an August von Gonzenbach, 18. März 1870--></ref> sowie
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p2">Die <placeName key="Italien (Königreich)">italienische</placeName> Regierung
+					hatte sich an der internationalen <placeName key="St. Gotthard (Pass)">Gotthardkonferenz</placeName> von 1869<ref type="sum" target="Gotthardkonferenz_1869_d1"><!--S. 54-71--></ref>
+                        <ref type="sum" target="Gotthardbahnprojekt_in_der_Escher-Korrespondenz_d1.5"><!--78--></ref>
+                        <ref type="sum" target="Chronologie_Gotthardbahn_r47"><!--S. 252--></ref> verpflichtet, dafür zu sorgen, dass
+					in <placeName key="Italien (Königreich)">Italien</placeName> Subventionen im
+					Betrag von 45 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken gesprochen
+							würden.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c2">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+								<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10006532">
+                                <ref type="lit">Staatsvertrag Gotthardbahn 1869</ref>, Art. 16, 20</ref>. – Zur
+						Konsolidierung des <placeName key="St. Gotthard (Pass)">Gotthardprojekts</placeName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						574–587; <ref type="sum" target="Gotthardvereinigung_d1.4"><!--Jung, Escher Briefe, Bd. 1, S. 201–207--></ref>; <ref type="lit">Wanner, Gotthardunternehmen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 183–187.</com> Bald kamen indes Zweifel auf, ob <placeName key="Italien (Königreich)">Italien</placeName> an dieser
+					Vereinbarung festhalten werde.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c3">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Clemente Maraini an Escher, 24.
+						Februar 1870-->.</com>
+					Es wurde angenommen, dass sich die <placeName key="Italien (Königreich)">italienische</placeName> Regierung nur getrauen werde, den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vertrag der <placeName key="Italien (Königreich)">italienischen</placeName> Kammer vorzulegen, wenn <placeName key="Mailand (I)">Mailand</placeName> ein entsprechendes Zeichen
+					setze und einer Subventionierung des <placeName key="St. Gotthard (Pass)">Gotthards</placeName> zustimme. Um dies zu erreichen,
+					begab sich <persName key="Gonzenbach August von">Gonzenbach</persName> im
+					März 1870 auf Wunsch Alfred Eschers und der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung nach «dem <hi rend="italics">entscheidenden</hi> Kampfplatze» <placeName key="Mailand (I)">Mailand</placeName>.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c4"><!--Brief Escher an August von Gonzenbach, 12. März 1870-->. – Zu
+							<placeName key="Mailand (I)">Mailands</placeName> Bedeutung für das
+							<placeName key="St. Gotthard (Pass)">Gotthard</placeName>projekt
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<!--Brief
+						Clemente Maraini an Escher, 6. Mai 1870-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p3">
+                        <persName key="Gonzenbach August von">Gonzenbach</persName> machte sich in
+						<placeName key="Mailand (I)">Mailand</placeName> sogleich an die Arbeit:
+					Er gründete ein Unterstützungskomitee für den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>, liess Interna zur Haltung des
+						<placeName key="Norddeutscher Bund">Norddeutschen Bundes</placeName> <!--Brief Escher an August von Gonzenbach, 18. März 1870--> sowie
 					technische Gutachten<ref type="sum" target="Korrespondenz_Escher-Zingg_p29"><!--S. 92--></ref>
-					und Artikel der «Neuen <idx type="place" norm="Zürich">Zürcher</idx>
+					und Artikel der «Neuen <placeName key="Zürich">Zürcher</placeName>
 					Zeitung», die ihm Escher übermittelte, mündlich und schriftlich verbreiten und
-					ging «Mann für Mann» des <idx type="place" norm="Mailand (I)">Mailänder</idx>
+					ging «Mann für Mann» des <placeName key="Mailand (I)">Mailänder</placeName>
 					Provinzialrats durch, um die Mitglieder desselben in «Freunde, Gegner, und
-					Zweifelhafte» des <idx type="place" norm="St. Gotthard (Pass)">Gotthards</idx>
-					einteilen zu können.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c5"><ref type="letter" target="K_5283"><!--Brief August von Gonzenbach an Escher, 19.
-						März 1870--></ref>.
-							<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5284"><!--Brief August von Gonzenbach an Escher, 22. März
-						1870--></ref>;
-							<ref type="letter" target="K_5700"><!--Brief Escher an Clemente Maraini, 25. März 1870--></ref>.</com>
-					Gemäss Eschers Einschätzung tat <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> somit «alles in <idx type="place" norm="Italien (Königreich)">Italien</idx>, was gethan werden kann &amp;
-					gethan werden soll».<com id="Fuer_die_Gotthardvereinigung_in_Italien_c6"><ref type="letter" target="K_5294"><!--Brief Escher an August von
-						Gonzenbach, 17. April 1870--></ref>.</com>
-					Mitte Mai 1870 war sich <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> «so zu sagen sicher», dass der <idx type="place" norm="Mailand (I)">Mailänder</idx> Provinzialrat 2 <abbr norm="Million(en)">Mio.</abbr> Franken für den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> sprechen werde. Zu <idx type="person" norm="Gonzenbach August von">Gonzenbachs</idx> Enttäuschung sprach der <idx type="place" norm="Mailand (I)">Mailänder</idx> Provinzialrat am <d norm="22.05.1870">22. Mai 1870</d> indes nur 1 <abbr norm="Million(en)">Mio.</abbr> Franken für den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c7"><ref type="letter" target="K_5305"><!--Brief August von Gonzenbach an Escher, 20. Mai 1870--></ref>. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5306"><!--Brief August von Gonzenbach an Escher,
-							23. Mai 1870--></ref>.</com><ref type="sum" target="Finanzierung_Gotthardbahn_d1"><!-- 214-225 --></ref></p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p4">Nach <idx type="person" norm="Gonzenbach August von">Gonzenbachs</idx> Heimreise
-					korrespondierte Escher mit dem <idx type="place" norm="Elsass">Elsässer</idx>
-					Ingenieur <idx type="person" norm="Stamm Ernest">Ernest Stamm</idx>, der im Mai
-					1870 zum offiziellen Repräsentanten des Ausschusses der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vereinigung in <idx type="place" norm="Italien (Königreich)">Italien</idx> ernannt worden war.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c8"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="telegram">Telegramm Escher an Ernest Stamm, 1. Juni 1870 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>. – Zur
-						Anstellung von <idx type="person" norm="Stamm Ernest">Ernest Stamm</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="letter" target="K_5302"><!--Brief Escher an
-						August von Gonzenbach, 15. Mai 1870--></ref>;
-							<ref type="letter" target="K_5702"><!--Brief Escher an Clemente
-						Maraini, 16. Mai 1870--></ref>.</com>
-					Die Wahl <idx type="person" norm="Stamm Ernest">Stamms</idx> zum offiziellen
-					Repräsentanten erwies sich binnen kurzem als Fehlentscheid. <idx type="person" norm="Stamm Ernest">Stamm</idx> schrieb schwerverständliche Briefe und
+					Zweifelhafte» des <placeName key="St. Gotthard (Pass)">Gotthards</placeName>
+					einteilen zu können.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c5"><!--Brief August von Gonzenbach an Escher, 19.
+						März 1870-->.
+							<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief August von Gonzenbach an Escher, 22. März
+						1870-->;
+							<!--Brief Escher an Clemente Maraini, 25. März 1870-->.</com>
+					Gemäss Eschers Einschätzung tat <persName key="Gonzenbach August von">Gonzenbach</persName> somit «alles in <placeName key="Italien (Königreich)">Italien</placeName>, was gethan werden kann &amp;
+					gethan werden soll».<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c6"><!--Brief Escher an August von
+						Gonzenbach, 17. April 1870-->.</com>
+					Mitte Mai 1870 war sich <persName key="Gonzenbach August von">Gonzenbach</persName> «so zu sagen sicher», dass der <placeName key="Mailand (I)">Mailänder</placeName> Provinzialrat 2 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken für den <placeName key="St. Gotthard (Pass)">Gotthard</placeName> sprechen werde. Zu <persName key="Gonzenbach August von">Gonzenbachs</persName> Enttäuschung sprach der <placeName key="Mailand (I)">Mailänder</placeName> Provinzialrat am <date when="1870-05-22">22. Mai 1870</date> indes nur 1 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken für den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c7"><!--Brief August von Gonzenbach an Escher, 20. Mai 1870-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief August von Gonzenbach an Escher,
+							23. Mai 1870-->.</com>
+                        <ref type="sum" target="Finanzierung_Gotthardbahn_d1"><!-- 214-225 --></ref>
+                    </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p4">Nach <persName key="Gonzenbach August von">Gonzenbachs</persName> Heimreise
+					korrespondierte Escher mit dem <placeName key="Elsass">Elsässer</placeName>
+					Ingenieur <persName key="Stamm Ernest">Ernest Stamm</persName>, der im Mai
+					1870 zum offiziellen Repräsentanten des Ausschusses der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung in <placeName key="Italien (Königreich)">Italien</placeName> ernannt worden war.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c8">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Telegramm Escher an Ernest Stamm, 1. Juni 1870 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>). – Zur
+						Anstellung von <persName key="Stamm Ernest">Ernest Stamm</persName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<!--Brief Escher an
+						August von Gonzenbach, 15. Mai 1870-->;
+							<!--Brief Escher an Clemente
+						Maraini, 16. Mai 1870-->.</com>
+					Die Wahl <persName key="Stamm Ernest">Stamms</persName> zum offiziellen
+					Repräsentanten erwies sich binnen kurzem als Fehlentscheid. <persName key="Stamm Ernest">Stamm</persName> schrieb schwerverständliche Briefe und
 					Telegramme, handelte ohne Befugnis und forderte bereits nach wenigen Tagen mehr
-					Geld, da das vereinbarte Gehalt zur Deckung der Lebenshaltungskosten in <idx type="place" norm="Italien (Königreich)">Italien</idx> nicht
-							ausreiche.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c9"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5654"><!--Brief Ernest Stamm an
-						Escher, 31. Mai 1870--></ref>; <ref type="letter" target="K_5660"><!--Brief Ernest Stamm an Escher, 7. Juni 1870--></ref>; <ref type="letter" target="K_3440"><!--Brief Ernest Stamm an Escher, 19. Juni 1870--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p5">Als die <idx type="place" norm="Italien (Königreich)">italienische</idx>
-					Regierung im Juni 1870 beschloss, den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vertrag der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Kammer vorzulegen, bat
-					Escher <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx>, zum
-					zweiten Mal nach <idx type="place" norm="Italien (Königreich)">Italien</idx> zu
+					Geld, da das vereinbarte Gehalt zur Deckung der Lebenshaltungskosten in <placeName key="Italien (Königreich)">Italien</placeName> nicht
+							ausreiche.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c9">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Ernest Stamm an
+						Escher, 31. Mai 1870-->; <!--Brief Ernest Stamm an Escher, 7. Juni 1870-->; <!--Brief Ernest Stamm an Escher, 19. Juni 1870-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p5">Als die <placeName key="Italien (Königreich)">italienische</placeName>
+					Regierung im Juni 1870 beschloss, den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vertrag der <placeName key="Italien (Königreich)">italienischen</placeName> Kammer vorzulegen, bat
+					Escher <persName key="Gonzenbach August von">Gonzenbach</persName>, zum
+					zweiten Mal nach <placeName key="Italien (Königreich)">Italien</placeName> zu
 					reisen, da er es nicht gut fände, «nur durch die eine &amp; dazu noch sehr
-					eigenthümlich gefärbte Brille <idx type="person" norm="Stamm Ernest">Stamm's</idx> zu sehen».<com id="Fuer_die_Gotthardvereinigung_in_Italien_c10"><ref type="letter" target="K_5310"><!--Brief Escher an August
-						von Gonzenbach, 11. Juni 1870--></ref>.</com>
-					In <idx type="place" norm="Florenz (I)">Florenz</idx> kam es zwischen <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> und <idx type="person" norm="Stamm Ernest">Stamm</idx> zum Streit: «Was meine
-					persönlichen Beziehungen zu Herrn <idx type="person" norm="Stamm Ernest">Stamm</idx> betrifft, so würde ich darüber lieber schweigen. Er hat mich
+					eigenthümlich gefärbte Brille <persName key="Stamm Ernest">Stamm's</persName> zu sehen».<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c10"><!--Brief Escher an August
+						von Gonzenbach, 11. Juni 1870-->.</com>
+					In <placeName key="Florenz (I)">Florenz</placeName> kam es zwischen <persName key="Gonzenbach August von">Gonzenbach</persName> und <persName key="Stamm Ernest">Stamm</persName> zum Streit: «Was meine
+					persönlichen Beziehungen zu Herrn <persName key="Stamm Ernest">Stamm</persName> betrifft, so würde ich darüber lieber schweigen. Er hat mich
 					empfangen wie ein Ambassadeur einen attaché empfängt: Votre arriveè ne m'a pas
 					eté annoncée sagte er mir. Combien de jours est ce que vous comptez rester ici?
-					Ich <pb n="118"/>bleibe um die <hi rend="italics">Sache</hi> nicht zu verderben <hi rend="italics">ruhig</hi>, erklärte aber H[errn] <idx type="person" norm="Stamm Ernest">Stamm</idx>, ich sei <hi rend="italics">vor</hi> ihm der
-					Bevollmächtigte der <abbr norm="GotthardBahn"><idx type="place" norm="St. Gotthard (Pass)">G</idx>B</abbr> gewesen <abbr norm="und">u</abbr> brauche ihm daher weder annoncirt zu werden noch ihm zu sagen wie
+					Ich <pb n="118"/>bleibe um die <hi rend="italics">Sache</hi> nicht zu verderben <hi rend="italics">ruhig</hi>, erklärte aber H[errn] <persName key="Stamm Ernest">Stamm</persName>, ich sei <hi rend="italics">vor</hi> ihm der
+					Bevollmächtigte der <choice>
+                            <abbr>
+                                <placeName key="St. Gotthard (Pass)">G</placeName>B</abbr>
+                            <expan>GotthardBahn</expan>
+                        </choice> gewesen <choice>
+                            <abbr>u</abbr>
+                            <expan>und</expan>
+                        </choice> brauche ihm daher weder annoncirt zu werden noch ihm zu sagen wie
 					lange ich bleiben wolle, ich werde bleiben so lange ich es für<hi rend="italics"> nützlich</hi> halte, indem ich nicht zu meinem <hi rend="italics">Vergnügen</hi> hier sei, und nicht wie er mit meiner ganzen Familie in
 					einer <hi rend="italics">schönen</hi>
-					<hi rend="italics">Wohnung</hi> <abbr norm="et cetera (und anderes)">&amp;</abbr> <abbr norm="et cetera (und anderes)">&amp;</abbr> <abbr norm="et cetera (und anderes)">&amp;</abbr> lebe.» Da <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> «<hi rend="italics">unter</hi>
-					H[errn] <idx type="person" norm="Stamm Ernest">St.</idx> [...] keine 24 Stunden
-					in <idx type="place" norm="Florenz (I)">Florenz</idx>» verbringen
-							wollte<com id="Fuer_die_Gotthardvereinigung_in_Italien_c11"><ref type="letter" target="K_5313"><!--Brief August von Gonzenbach an Escher, 22. Juni 1870--></ref>.</com>,
-					musste sich Escher um die «Fehde» der beiden Delegierten der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vereinigung kümmern. Er wies <idx type="person" norm="Stamm Ernest">Stamm</idx>, den er längst als
+					<hi rend="italics">Wohnung</hi> <choice>
+                            <abbr>&amp;</abbr>
+                            <expan>et cetera (und anderes)</expan>
+                        </choice> <choice>
+                            <abbr>&amp;</abbr>
+                            <expan>et cetera (und anderes)</expan>
+                        </choice> <choice>
+                            <abbr>&amp;</abbr>
+                            <expan>et cetera (und anderes)</expan>
+                        </choice> lebe.» Da <persName key="Gonzenbach August von">Gonzenbach</persName> «<hi rend="italics">unter</hi>
+					H[errn] <persName key="Stamm Ernest">St.</persName> [...] keine 24 Stunden
+					in <placeName key="Florenz (I)">Florenz</placeName>» verbringen
+							wollte<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c11"><!--Brief August von Gonzenbach an Escher, 22. Juni 1870-->.</com>,
+					musste sich Escher um die «Fehde» der beiden Delegierten der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung kümmern. Er wies <persName key="Stamm Ernest">Stamm</persName>, den er längst als
 					«nothwendiges Übel» betrachtete, an, sich nur noch mit den geschäftlichen
-					Tätigkeiten zu befassen und den Kontakt mit der «offiziellen Welt» <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> zu
-							überlassen.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c12"><ref type="letter" target="K_5321"><!--Brief Escher an August von Gonzenbach, 3. Juli 1870--></ref>. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5668"><!--Brief Ernest Stamm an Escher, 22. Juni 1870--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p6">Schliesslich reiste <idx type="person" norm="Stamm Ernest">Stamm</idx>
-					eigenmächtig nach <idx type="place" norm="Paris (F)">Paris</idx>, während sich
-						<idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> mit der
-						<idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung
-					in Verbindung setzte. Er drängte darauf, dass sie der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Kammer so schnell wie
-					möglich den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vertrag
-					von 1869 vorlege, auf dass die Kammer darüber abstimmen könne.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c13"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_5318"><!--Brief
-						August von Gonzenbach an Escher, 26. Juni 1870--></ref>.
-						– Im Juli 1870 kannten weder Escher noch <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx>
-						<idx type="person" norm="Stamm Ernest">Stamms</idx> Aufenthaltsort. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="telegram">Telegramm August von Gonzenbach an Escher, 7. Juli 1870
-								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>; <ref type="telegram">Telegramm Escher an August von Gonzenbach, 8. Juli 1870
-								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>. –
-						Escher schien <idx type="person" norm="Stamm Ernest">Stamms</idx> Briefe und
-						Telegramme zunehmend zu ignorieren bzw. unbeantwortet zu lassen. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5681"><!--Brief Ernest Stamm an Escher, 19. Februar 1871--></ref>; <ref type="telegram">Telegramm Ernest Stamm an Escher, 2. März 1871 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>.</com> Zu
-					dieser Abstimmung kam es im Sommer 1870 indes nicht. <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> packte Ende Juli 1870 seine
-					Koffer: Da nur noch wenige Mitglieder der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Kammer anwesend seien, werde
-					die Diskussion unmöglich, die Hitze sei unerträglich, und «der Krieg<ref type="letter" target="K_4916"><!--Brief Escher an Giovanni Battista Pioda, 2. Februar
-							1871--></ref> <ref type="sum" target="Chronologie_Gotthardbahn_r60">Deutsch-Französischer Krieg 1870/71<!--S. 225--></ref> allein beschäftigt die Geister!».<com id="Fuer_die_Gotthardvereinigung_in_Italien_c14"><ref type="letter" target="K_5334"><!--Brief August von Gonzenbach an Escher, 27.
-						Juli 1870--></ref>.
-							<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5330"><!--Brief August von Gonzenbach an Escher, 20. Juli
-						1870--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p7">Anfang 1871 schien es, als ob die Verhandlungen über den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vertrag in der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Kammer binnen kurzem wieder
-					aufgenommen würden. <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> machte sich sogleich bereit, seine dritte Mission
+					Tätigkeiten zu befassen und den Kontakt mit der «offiziellen Welt» <persName key="Gonzenbach August von">Gonzenbach</persName> zu
+							überlassen.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c12"><!--Brief Escher an August von Gonzenbach, 3. Juli 1870-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Ernest Stamm an Escher, 22. Juni 1870-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p6">Schliesslich reiste <persName key="Stamm Ernest">Stamm</persName>
+					eigenmächtig nach <placeName key="Paris (F)">Paris</placeName>, während sich
+						<persName key="Gonzenbach August von">Gonzenbach</persName> mit der
+						<placeName key="Italien (Königreich)">italienischen</placeName> Regierung
+					in Verbindung setzte. Er drängte darauf, dass sie der <placeName key="Italien (Königreich)">italienischen</placeName> Kammer so schnell wie
+					möglich den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vertrag
+					von 1869 vorlege, auf dass die Kammer darüber abstimmen könne.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c13">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <!--Brief
+						August von Gonzenbach an Escher, 26. Juni 1870-->.
+						– Im Juli 1870 kannten weder Escher noch <persName key="Gonzenbach August von">Gonzenbach</persName>
+						<persName key="Stamm Ernest">Stamms</persName> Aufenthaltsort. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Telegramm August von Gonzenbach an Escher, 7. Juli 1870
+								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>); Telegramm Escher an August von Gonzenbach, 8. Juli 1870
+								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>). –
+						Escher schien <persName key="Stamm Ernest">Stamms</persName> Briefe und
+						Telegramme zunehmend zu ignorieren bzw. unbeantwortet zu lassen. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Ernest Stamm an Escher, 19. Februar 1871-->; Telegramm Ernest Stamm an Escher, 2. März 1871 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>).</com> Zu
+					dieser Abstimmung kam es im Sommer 1870 indes nicht. <persName key="Gonzenbach August von">Gonzenbach</persName> packte Ende Juli 1870 seine
+					Koffer: Da nur noch wenige Mitglieder der <placeName key="Italien (Königreich)">italienischen</placeName> Kammer anwesend seien, werde
+					die Diskussion unmöglich, die Hitze sei unerträglich, und «der Krieg<!--Brief Escher an Giovanni Battista Pioda, 2. Februar
+							1871--> <ref type="sum" target="Chronologie_Gotthardbahn_r60">Deutsch-Französischer Krieg 1870/71<!--S. 225--></ref> allein beschäftigt die Geister!».<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c14"><!--Brief August von Gonzenbach an Escher, 27.
+						Juli 1870-->.
+							<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief August von Gonzenbach an Escher, 20. Juli
+						1870-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p7">Anfang 1871 schien es, als ob die Verhandlungen über den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vertrag in der <placeName key="Italien (Königreich)">italienischen</placeName> Kammer binnen kurzem wieder
+					aufgenommen würden. <persName key="Gonzenbach August von">Gonzenbach</persName> machte sich sogleich bereit, seine dritte Mission
 					anzutreten. Er sollte dafür sorgen, dass die Kammer den Staatsvertrag noch
-					vor der Verlegung der Hauptstadt von <idx type="place" norm="Florenz (I)">Florenz</idx> nach <idx type="place" norm="Rom (I)">Rom</idx>
-							ratifizierte.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c15"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_3452"><!--Brief Giovanni Battista Pioda an Escher,
-							15. Januar 1871--></ref>.</com> Kaum in <idx type="place" norm="Florenz (I)">Florenz</idx> angekommen, reiste <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> wieder in die Schweiz, um zwei
-					Forderungen der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung mit Escher und mit dem Bundesrat mündlich zu
-					besprechen. Zum einen erkundige sich die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung, ob die <idx type="place" norm="Italien (Königreich)">Italien</idx> gehörenden Maschinen,
-					welche für den Bau des <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Tunnels gebraucht worden waren, auch für den Bau des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnels verwendet
-					werden könnten und ob man <idx type="place" norm="Italien (Königreich)">Italien</idx> dieses Material allenfalls der Subventionszahlung anrechnen
-					könne. Zum anderen wünsche die Regierung, dass die Ausführung des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnels Ingenieuren
+					vor der Verlegung der Hauptstadt von <placeName key="Florenz (I)">Florenz</placeName> nach <placeName key="Rom (I)">Rom</placeName>
+							ratifizierte.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c15">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Giovanni Battista Pioda an Escher,
+							15. Januar 1871-->.</com> Kaum in <placeName key="Florenz (I)">Florenz</placeName> angekommen, reiste <persName key="Gonzenbach August von">Gonzenbach</persName> wieder in die Schweiz, um zwei
+					Forderungen der <placeName key="Italien (Königreich)">italienischen</placeName> Regierung mit Escher und mit dem Bundesrat mündlich zu
+					besprechen. Zum einen erkundige sich die <placeName key="Italien (Königreich)">italienische</placeName> Regierung, ob die <placeName key="Italien (Königreich)">Italien</placeName> gehörenden Maschinen,
+					welche für den Bau des <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Tunnels gebraucht worden waren, auch für den Bau des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels verwendet
+					werden könnten und ob man <placeName key="Italien (Königreich)">Italien</placeName> dieses Material allenfalls der Subventionszahlung anrechnen
+					könne. Zum anderen wünsche die Regierung, dass die Ausführung des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels Ingenieuren
 					anvertraut werde, welche bereits Erfahrungen auf diesem Gebiet gesammelt
-							hätten.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c16"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_3444"><!--Brief August von Gonzenbach an Escher, 5. April 1871--></ref>. –
-						Zur Verwendung des <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Materials beim Bau des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnels <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="letter" target="K_4917"><!--Brief Giovanni Battista Pioda an Escher, 14. März 1871--></ref>;
-							<ref type="letter" target="K_4918"><!--Brief Escher an Giovanni Battista Pioda, 20. März 1871--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p8">Die erste Forderung der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung stiess auf wenig Widerstand. Wie Escher
-					prognostiziert hatte, willigte der Ausschuss der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vereinigung ein, beim Bau des <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Tunnels benutzte
+							hätten.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c16">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief August von Gonzenbach an Escher, 5. April 1871-->. –
+						Zur Verwendung des <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Materials beim Bau des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<!--Brief Giovanni Battista Pioda an Escher, 14. März 1871-->;
+							<!--Brief Escher an Giovanni Battista Pioda, 20. März 1871-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p8">Die erste Forderung der <placeName key="Italien (Königreich)">italienischen</placeName> Regierung stiess auf wenig Widerstand. Wie Escher
+					prognostiziert hatte, willigte der Ausschuss der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung ein, beim Bau des <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Tunnels benutzte
 					Maschinen und auch Material zu einem noch zu bestimmenden Preis zu übernehmen.
-						<idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> wurde
-					ermächtigt, der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung entsprechende Zusicherungen zu
-							geben.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c17"><abbr norm="Vergleiche">Vgl.</abbr>
+						<persName key="Gonzenbach August von">Gonzenbach</persName> wurde
+					ermächtigt, der <placeName key="Italien (Königreich)">italienischen</placeName> Regierung entsprechende Zusicherungen zu
+							geben.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c17">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 27. April 1871;
-							<ref type="letter" target="K_5426"><!--Brief August von Gonzenbach
-						an Escher, 17. Mai 1871--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p9">Die zweite Forderung der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung bereitete mehr Kopfzerbrechen. Der Bundesrat
-					war nicht prinzipiell dagegen, dem <idx type="place" norm="Italien (Königreich)">italienischen</idx> Ingenieur <idx type="person" norm="Grattoni Severino">Severino Grattoni</idx>, der am <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Tunnel mitgewirkt hatte und
-					an den die <idx type="place" norm="Italien (Königreich)">italienische</idx>
+							<!--Brief August von Gonzenbach
+						an Escher, 17. Mai 1871-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p9">Die zweite Forderung der <placeName key="Italien (Königreich)">italienischen</placeName> Regierung bereitete mehr Kopfzerbrechen. Der Bundesrat
+					war nicht prinzipiell dagegen, dem <placeName key="Italien (Königreich)">italienischen</placeName> Ingenieur <persName key="Grattoni Severino">Severino Grattoni</persName>, der am <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Tunnel mitgewirkt hatte und
+					an den die <placeName key="Italien (Königreich)">italienische</placeName>
 					Regierung namentlich dachte, einen Anteil, und zwar «[une] part principale», an
-					der Ausführung des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnels einzuräumen. Genau wie der Ausschuss der <idx type="place" norm="St. Gotthard (Pass)">Gotthardvereinigung</idx> wollte er
+					der Ausführung des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels einzuräumen. Genau wie der Ausschuss der <placeName key="St. Gotthard (Pass)">Gotthardvereinigung</placeName> wollte er
 					indes die Hände der noch zu bildenden Finanzgesellschaft, welche den Bau des
-						<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnels
-					übernehmen sollte, in keiner Weise vorgängig binden. <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> sollte daher versuchen, dafür
-					zu sorgen, dass die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung von der zweiten Forderung absehe.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c18"><ref type="letter" target="K_5412"><!--Brief August von Gonzenbach an Escher, 17. April 1871--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p10">Als <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> Anfang Mai
-					1871 wieder in <idx type="place" norm="Florenz (I)">Florenz</idx> eintraf,
-					zeigte sich die <idx type="place" norm="Italien (Königreich)">italienische</idx>
-					Regierung sehr enttäuscht, dass man ihrem Wunsch, «nicht nur <idx type="place" norm="Italien (Königreich)">italienisches</idx> Capital [...], sondern auch
-						<idx type="place" norm="Italien (Königreich)">italienische</idx> Intelligenz
-					und Erfahrung» beim Bau des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnels zu ver<pb n="119"/>wenden, nicht entsprochen hatte.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c19"><ref type="letter" target="K_3445"><!--Brief August von Gonzenbach an Escher, 11. Mai 1871--></ref>.</com>
-					Die Lage verschlechterte sich zusätzlich, als die <idx type="place" norm="Italien (Königreich)">italienische</idx> Kammer mitteilen liess, dass
-					sie nur dann über die <idx type="place" norm="Alpen">Alpen</idx>bahnfrage
-					debattieren werde, wenn der Bundesrat beide Forderungen der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung akzeptiere. <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> und <idx type="person" norm="Pioda Giovanni Battista">Giovanni Battista Pioda</idx>,
-					der Schweizer Gesandte in <idx type="place" norm="Italien (Königreich)">Italien</idx>, wünschten angesichts dieser Umstände, dass Escher so schnell
-					wie möglich nach <idx type="place" norm="Florenz (I)">Florenz</idx> komme, um
+						<placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels
+					übernehmen sollte, in keiner Weise vorgängig binden. <persName key="Gonzenbach August von">Gonzenbach</persName> sollte daher versuchen, dafür
+					zu sorgen, dass die <placeName key="Italien (Königreich)">italienische</placeName> Regierung von der zweiten Forderung absehe.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c18"><!--Brief August von Gonzenbach an Escher, 17. April 1871-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p10">Als <persName key="Gonzenbach August von">Gonzenbach</persName> Anfang Mai
+					1871 wieder in <placeName key="Florenz (I)">Florenz</placeName> eintraf,
+					zeigte sich die <placeName key="Italien (Königreich)">italienische</placeName>
+					Regierung sehr enttäuscht, dass man ihrem Wunsch, «nicht nur <placeName key="Italien (Königreich)">italienisches</placeName> Capital [...], sondern auch
+						<placeName key="Italien (Königreich)">italienische</placeName> Intelligenz
+					und Erfahrung» beim Bau des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels zu ver<pb n="119"/>wenden, nicht entsprochen hatte.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c19"><!--Brief August von Gonzenbach an Escher, 11. Mai 1871-->.</com>
+					Die Lage verschlechterte sich zusätzlich, als die <placeName key="Italien (Königreich)">italienische</placeName> Kammer mitteilen liess, dass
+					sie nur dann über die <placeName key="Alpen">Alpen</placeName>bahnfrage
+					debattieren werde, wenn der Bundesrat beide Forderungen der <placeName key="Italien (Königreich)">italienischen</placeName> Regierung akzeptiere. <persName key="Gonzenbach August von">Gonzenbach</persName> und <persName key="Pioda Giovanni Battista">Giovanni Battista Pioda</persName>,
+					der Schweizer Gesandte in <placeName key="Italien (Königreich)">Italien</placeName>, wünschten angesichts dieser Umstände, dass Escher so schnell
+					wie möglich nach <placeName key="Florenz (I)">Florenz</placeName> komme, um
 					Missverständnisse aus dem Weg zu räumen: «La situation est telle que votre
-					presence ici est urgente [...].»<com id="Fuer_die_Gotthardvereinigung_in_Italien_c20"><ref type="telegram">Telegramm August von
+					presence ici est urgente [...].»<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c20">Telegramm August von
 							Gonzenbach, 11. Mai 1871 (<ref type="lit">SBB Historic
-								VGB_GB_SBBGB01_007</ref>)</ref>. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_4920"><!--Brief Giovanni Battista Pioda an Escher, 11. Mai 1871--></ref>;
-							<ref type="letter" target="K_3446"><!--Brief August
-						von Gonzenbach an Escher, 14. Mai 1871--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p11">Escher, der aus Termingründen nicht nach <idx type="place" norm="Florenz (I)">Florenz</idx> gehen konnte, suchte umgehend Bundespräsident <idx type="person" norm="Schenk Karl">Karl Schenk</idx> auf, um mit diesem die
-					Lage zu besprechen.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c21"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="telegram">Telegramm Escher an August von Gonzenbach, 15. Mai 1871
-							(<ref type="lit">SBB Historic VGB_GB_SBBGB01_007</ref>)</ref>; <ref type="letter" target="K_2518"><!--Brief Escher an Karl Schenk, 17. Mai 1871--></ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004932"><ref type="lit">Prot. BR</ref>, 17. Mai 1871</ref>.</com> Am <d norm="26.05.1871">26. Mai
-						1871</d> verfasste der Bundesrat eine offizielle Erklärung zuhanden der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung. Auf
-					Basis seiner auf Artikel 11 des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vertrags von 1869 zurückgehenden Befugnis verpflichtete sich
+								VGB_GB_SBBGB01_007</ref>). <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Giovanni Battista Pioda an Escher, 11. Mai 1871-->;
+							<!--Brief August
+						von Gonzenbach an Escher, 14. Mai 1871-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p11">Escher, der aus Termingründen nicht nach <placeName key="Florenz (I)">Florenz</placeName> gehen konnte, suchte umgehend Bundespräsident <persName key="Schenk Karl">Karl Schenk</persName> auf, um mit diesem die
+					Lage zu besprechen.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c21">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Telegramm Escher an August von Gonzenbach, 15. Mai 1871
+							(<ref type="lit">SBB Historic VGB_GB_SBBGB01_007</ref>); <!--Brief Escher an Karl Schenk, 17. Mai 1871-->; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004932">
+                                <ref type="lit">Prot. BR</ref>, 17. Mai 1871</ref>.</com> Am <date when="1871-05-26">26. Mai
+						1871</date> verfasste der Bundesrat eine offizielle Erklärung zuhanden der <placeName key="Italien (Königreich)">italienischen</placeName> Regierung. Auf
+					Basis seiner auf Artikel 11 des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vertrags von 1869 zurückgehenden Befugnis verpflichtete sich
 					der Bundesrat, dafür zu sorgen, dass den Ingenieuren und dem technischen
-					Personal des <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Tunnels ein Anteil, und zwar «une part équitable», an den
-					Arbeiten des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnels
+					Personal des <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Tunnels ein Anteil, und zwar «une part équitable», an den
+					Arbeiten des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels
 					zukomme. Allerdings verstehe es sich von selbst, dass durch diese Zusicherung
 					die freie Konkurrenz bei der Auftragsvergabe in keiner Weise beschränkt werde.
 					Der Bundesrat werde sich kraft seiner Befugnis für die beste Offerte
-					entscheiden. Es stünde den Ingenieuren und dem technischen Personal des <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Tunnels danach
-					frei, in den abzuschliessenden Vertrag einzutreten.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c22"><ref type="lit">Prot.
-							BR</ref>, 26. Mai 1871. <abbr norm="Vergleiche">Vgl.</abbr>
+					entscheiden. Es stünde den Ingenieuren und dem technischen Personal des <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Tunnels danach
+					frei, in den abzuschliessenden Vertrag einzutreten.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c22">
+                            <ref type="lit">Prot.
+							BR</ref>, 26. Mai 1871. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 22. Mai 1871;
-						<ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10006532"><ref type="lit">Staatsvertrag Gotthardbahn 1869</ref>, Art. 11</ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p12">In der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Kammer
-					war im Mai und Juni 1871 «eine lebhafte Discussion» über den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vertrag im Gang.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c23"><ref type="letter" target="K_5428"><!--Brief August von Gonzenbach an Escher, 28. Mai
-						1871--></ref>.
-							<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_3447"><!--Brief August von Gonzenbach an Escher, 11. Juni 1871--></ref>.</com>
-					Gemäss <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> hatte
-						<idx type="person" norm="Grattoni Severino">Grattoni</idx>, der den
-					Wahlkreis <idx type="place" norm="Voghera (I)">Voghera</idx> in der Kammer vertrat, mit Sachkenntnis für den Vertrag
+						<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10006532">
+                                <ref type="lit">Staatsvertrag Gotthardbahn 1869</ref>, Art. 11</ref>.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p12">In der <placeName key="Italien (Königreich)">italienischen</placeName> Kammer
+					war im Mai und Juni 1871 «eine lebhafte Discussion» über den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vertrag im Gang.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c23"><!--Brief August von Gonzenbach an Escher, 28. Mai
+						1871-->.
+							<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief August von Gonzenbach an Escher, 11. Juni 1871-->.</com>
+					Gemäss <persName key="Gonzenbach August von">Gonzenbach</persName> hatte
+						<persName key="Grattoni Severino">Grattoni</persName>, der den
+					Wahlkreis <placeName key="Voghera (I)">Voghera</placeName> in der Kammer vertrat, mit Sachkenntnis für den Vertrag
 					plädiert. Anschliessend habe er sich gegen den Vorwurf verteidigen müssen,
-					hinsichtlich des <idx type="place" norm="St. Gotthard (Pass)">Gotthards</idx>
-					eigene Interessen zu verfolgen. <idx type="person" norm="Grattoni Severino">Grattoni</idx> habe sodann die Erklärung abgegeben, «daß er beim <idx type="place" norm="St. Gotthard (Pass)">Gothard</idx> weder betheiligt <hi rend="italics">war</hi> – noch betheiligt <hi rend="italics">sei</hi> – noch
-					betheiligt <hi rend="italics">sein werde</hi>».<com id="Fuer_die_Gotthardvereinigung_in_Italien_c24"><ref type="letter" target="K_3450"><!--Brief August von Gonzenbach an Escher, 14. Juni
-							1871--></ref>.</com> Am <d norm="15.06.1871">15. Juni 1871</d> konnte <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> mitteilen, dass
-					die Kammer den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vertrag mit 161 zu 51 Stimmen ratifiziert hatte. «Sehr
-					erfreut», endlich ans Ziel gelangt zu sein, reiste <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> in die Schweiz
-							zurück.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c25"><ref type="letter" target="K_3451"><!--Brief August von Gonzenbach an Escher, 16. Juni 1871--></ref>.
-							<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="telegram">Telegramm August von Gonzenbach an Escher, 15. Juni
-							1871 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_007</ref>)</ref>. –
-						Zur Abstimmung über den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vertrag im Senat <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="telegram">Telegramm Giovanni Battista Pioda an Escher, 28. Juni
-							1871 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004954"><ref type="lit">Prot. BR</ref>, 28. Juni 1871</ref>.</com> </p>
+					hinsichtlich des <placeName key="St. Gotthard (Pass)">Gotthards</placeName>
+					eigene Interessen zu verfolgen. <persName key="Grattoni Severino">Grattoni</persName> habe sodann die Erklärung abgegeben, «daß er beim <placeName key="St. Gotthard (Pass)">Gothard</placeName> weder betheiligt <hi rend="italics">war</hi> – noch betheiligt <hi rend="italics">sei</hi> – noch
+					betheiligt <hi rend="italics">sein werde</hi>».<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c24"><!--Brief August von Gonzenbach an Escher, 14. Juni
+							1871-->.</com> Am <date when="1871-06-15">15. Juni 1871</date> konnte <persName key="Gonzenbach August von">Gonzenbach</persName> mitteilen, dass
+					die Kammer den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vertrag mit 161 zu 51 Stimmen ratifiziert hatte. «Sehr
+					erfreut», endlich ans Ziel gelangt zu sein, reiste <persName key="Gonzenbach August von">Gonzenbach</persName> in die Schweiz
+							zurück.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c25"><!--Brief August von Gonzenbach an Escher, 16. Juni 1871-->.
+							<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Telegramm August von Gonzenbach an Escher, 15. Juni
+							1871 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_007</ref>). –
+						Zur Abstimmung über den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vertrag im Senat <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						Telegramm Giovanni Battista Pioda an Escher, 28. Juni
+							1871 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>); <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004954">
+                                <ref type="lit">Prot. BR</ref>, 28. Juni 1871</ref>.</com> </p>
 			</div>
-			<div id="Fuer_die_Gotthardvereinigung_in_Italien_d1.3">
+			<div xml:id="Fuer_die_Gotthardvereinigung_in_Italien_d1.3">
 				<head>Diplomatische Querelen wegen der Auftragsvergabe an Louis Favre</head>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p13">Am <d norm="05.04.1872">5. April 1872</d> wurden die Arbeiten für den Bau des
-						<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnels
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p13">Am <date when="1872-04-05">5. April 1872</date> wurden die Arbeiten für den Bau des
+						<placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels
 					ausgeschrieben. Innert sechs Wochen trafen bei der Gotthardbahn-Gesellschaft
-					sieben Offerten ein. Zur mündlichen Verhandlung nach <idx type="place" norm="Zürich (Stadt)">Zürich</idx> wurden der <idx type="place" norm="Genf">Genfer</idx> Bauunternehmer <idx type="person" norm="Favre Louis">Louis Favre</idx> sowie <idx type="person" norm="Borelli Bartolomeo">Bartolomeo Borelli</idx>, der Direktor der Società
-						<idx type="place" norm="Italien (Königreich)">Italiana</idx> di Lavori
+					sieben Offerten ein. Zur mündlichen Verhandlung nach <placeName key="Zürich (Stadt)">Zürich</placeName> wurden der <placeName key="Genf">Genfer</placeName> Bauunternehmer <persName key="Favre Louis">Louis Favre</persName> sowie <persName key="Borelli Bartolomeo">Bartolomeo Borelli</persName>, der Direktor der Società
+						<placeName key="Italien (Königreich)">Italiana</placeName> di Lavori
 					Pubblici, eingeladen. Den Zuschlag<ref type="sum" target="Chronologie_Gotthardbahn_r80">Vertrag mit Louis Favre<!--S. 227--></ref> für die
-					Bauarbeiten erhielt schliesslich <idx type="person" norm="Favre Louis">Favre</idx>, da bei ihm die geschätzte Bauzeit um ein Jahr kürzer und die
-					veranschlagten Kosten rund 12 <abbr norm="Million(en)">Mio.</abbr> Franken
-					tiefer als bei der mitkonkurrierenden Società <idx type="place" norm="Italien (Königreich)">Italiana</idx> di Lavori Pubblici ausfielen.
-					Ausserdem war <idx type="person" norm="Favre Louis">Favre</idx> im Gegensatz zur
+					Bauarbeiten erhielt schliesslich <persName key="Favre Louis">Favre</persName>, da bei ihm die geschätzte Bauzeit um ein Jahr kürzer und die
+					veranschlagten Kosten rund 12 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken
+					tiefer als bei der mitkonkurrierenden Società <placeName key="Italien (Königreich)">Italiana</placeName> di Lavori Pubblici ausfielen.
+					Ausserdem war <persName key="Favre Louis">Favre</persName> im Gegensatz zur
 					Società bereit, bereits nach Ablauf der von ihm offerierten Bauzeit die
-					Kautionszahlung zu leisten. Am <d norm="07.08.1872">7. August 1872</d>
+					Kautionszahlung zu leisten. Am <date when="1872-08-07">7. August 1872</date>
 					unterschrieb Escher in seiner Funktion als Direktionspräsident der
-					Gotthardbahn-Gesellschaft mit <idx type="person" norm="Favre Louis">Favre</idx>
-					einen entsprechenden Vertrag.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c26"><abbr norm="Vergleiche">Vgl.</abbr>
+					Gotthardbahn-Gesellschaft mit <persName key="Favre Louis">Favre</persName>
+					einen entsprechenden Vertrag.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c26">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Vertrag Gotthardtunnel</ref>; <ref type="lit">Prot. VR
 							GB</ref>, 17. August 1872. – Zur Ausschreibung der Bauarbeiten und zum
-						Wettbewerb zwischen <idx type="person" norm="Favre Louis">Louis Favre</idx>
-						und der Società <idx type="place" norm="Italien (Königreich)">Italiana</idx>
-						di Lavori Pubblici von <idx type="person" norm="Grattoni Severino">Severino
-							Grattoni</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
-						590–606; <ref type="letter" target="K_5371"><!--Brief Escher an Unbekannt, 19. Oktober 1872--></ref>; <ref type="letter" target="K_2767"><!--Brief Escher
-						an Johann Heinrich Fierz, 17. April 1876--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p14">Die Vergabe der Bauarbeiten an <idx type="person" norm="Favre Louis">Favre</idx>
-					wirbelte in <idx type="place" norm="Italien (Königreich)">Italien</idx>
-					«sehr bedeutend Staub» auf.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c27"><ref type="letter" target="K_2629"><!--Brief Emil
-							Welti an Escher, 14. August 1872--></ref>.</com> Wie Escher von <idx type="person" norm="Maraini Clemente">Clemente Maraini</idx> erfuhr <ref type="letter" target="K_6116"><!--Brief Clemente Maraini an Escher, 2. Februar 1872--></ref>, der in der
-					Zwischenzeit <idx type="person" norm="Stamm Ernest">Stamms</idx> Position als
-					offizieller Repräsentant der Gotthardbahn-Gesellschaft in <idx type="place" norm="Italien (Königreich)">Italien</idx> eingenommen hatte, ging die
-					öffentliche Meinung in <idx type="place" norm="Italien (Königreich)">Italien</idx> bald zum Tagesgeschäft über. Anders sehe es aber bei der beim
-					Wettbewerb unterlegenen Società <idx type="place" norm="Italien (Königreich)">Italiana</idx> di Lavori Pubblici und ihrem Verwaltungsratspräsidenten <idx type="person" norm="Grattoni Severino">Severino Grattoni</idx> aus. Die
-					Società habe eine Delegation nach <idx type="place" norm="Rom (I)">Rom</idx>
-					abgeordnet, um <pb n="121"/>sich bei der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung darüber zu beschweren, dass die
-					Gotthardbahn-Gesellschaft das <idx type="place" norm="Italien (Königreich)">italienische</idx> Element bei der Auftragsvergabe zu wenig berücksichtigt
-							habe.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c28"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5338"><!--Brief Clemente
-						Maraini an Escher, 13. August 1872--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p15">Der Bundesrat, der den Vertrag mit <idx type="person" norm="Favre Louis">Favre</idx> genehmigte, liess denselben der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung mit dem Vermerk
-					übermitteln, dass es den Ingenieuren und dem technischen Personal des <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Tunnels nun
+						Wettbewerb zwischen <persName key="Favre Louis">Louis Favre</persName>
+						und der Società <placeName key="Italien (Königreich)">Italiana</placeName>
+						di Lavori Pubblici von <persName key="Grattoni Severino">Severino
+							Grattoni</persName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						590–606; <!--Brief Escher an Unbekannt, 19. Oktober 1872-->; <!--Brief Escher
+						an Johann Heinrich Fierz, 17. April 1876-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p14">Die Vergabe der Bauarbeiten an <persName key="Favre Louis">Favre</persName>
+					wirbelte in <placeName key="Italien (Königreich)">Italien</placeName>
+					«sehr bedeutend Staub» auf.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c27"><!--Brief Emil
+							Welti an Escher, 14. August 1872-->.</com> Wie Escher von <persName key="Maraini Clemente">Clemente Maraini</persName> erfuhr <!--Brief Clemente Maraini an Escher, 2. Februar 1872-->, der in der
+					Zwischenzeit <persName key="Stamm Ernest">Stamms</persName> Position als
+					offizieller Repräsentant der Gotthardbahn-Gesellschaft in <placeName key="Italien (Königreich)">Italien</placeName> eingenommen hatte, ging die
+					öffentliche Meinung in <placeName key="Italien (Königreich)">Italien</placeName> bald zum Tagesgeschäft über. Anders sehe es aber bei der beim
+					Wettbewerb unterlegenen Società <placeName key="Italien (Königreich)">Italiana</placeName> di Lavori Pubblici und ihrem Verwaltungsratspräsidenten <persName key="Grattoni Severino">Severino Grattoni</persName> aus. Die
+					Società habe eine Delegation nach <placeName key="Rom (I)">Rom</placeName>
+					abgeordnet, um <pb n="121"/>sich bei der <placeName key="Italien (Königreich)">italienischen</placeName> Regierung darüber zu beschweren, dass die
+					Gotthardbahn-Gesellschaft das <placeName key="Italien (Königreich)">italienische</placeName> Element bei der Auftragsvergabe zu wenig berücksichtigt
+							habe.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c28">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Clemente
+						Maraini an Escher, 13. August 1872-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p15">Der Bundesrat, der den Vertrag mit <persName key="Favre Louis">Favre</persName> genehmigte, liess denselben der <placeName key="Italien (Königreich)">italienischen</placeName> Regierung mit dem Vermerk
+					übermitteln, dass es den Ingenieuren und dem technischen Personal des <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Tunnels nun
 					während vier Wochen freistehe, als solidarisch verpflichtete Mitkontrahenten zur
-					Hälfte in die Rechte und Pflichten des Vertrags mit <idx type="person" norm="Favre Louis">Favre</idx> einzutreten. Falls dem Bundesrat innert
+					Hälfte in die Rechte und Pflichten des Vertrags mit <persName key="Favre Louis">Favre</persName> einzutreten. Falls dem Bundesrat innert
 					dieser Frist keine Interessenten genannt worden seien, gehe er davon aus, dass
-						<idx type="place" norm="Italien (Königreich)">Italien</idx> von seinem auf
-					der Erklärung vom <d norm="26.05.1871">26. Mai 1871</d> basierenden Recht keinen
-					Gebrauch machen wolle. Infolgedessen würde der Bundesrat <idx type="person" norm="Favre Louis">Favre</idx> als alleinigen Kontrahenten gegenüber der
-					Gotthardbahn-Gesellschaft anerkennen.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c29"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Vertrag Gotthardtunnel</ref>, <abbr norm="Artikel">Art.</abbr> 13; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005149"><ref type="lit">Prot. BR</ref>, 22. August 1872</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005150" type="www"><ref type="lit">Prot. BR</ref>, 23.
+						<placeName key="Italien (Königreich)">Italien</placeName> von seinem auf
+					der Erklärung vom <date when="1871-05-26">26. Mai 1871</date> basierenden Recht keinen
+					Gebrauch machen wolle. Infolgedessen würde der Bundesrat <persName key="Favre Louis">Favre</persName> als alleinigen Kontrahenten gegenüber der
+					Gotthardbahn-Gesellschaft anerkennen.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c29">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Vertrag Gotthardtunnel</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 13; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005149">
+                                <ref type="lit">Prot. BR</ref>, 22. August 1872</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005150">
+                                <ref type="lit">Prot. BR</ref>, 23.
 						August 1872</ref>; <ref type="lit">Prot. Dir. GB</ref>, 28. August 1872.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p16"><idx type="place" norm="Italien (Königreich)">Italien</idx> nahm die Mitteilung
-					und die Frist des Bundesrats «nicht freundlich» auf.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c30"><ref type="lit">Prot.
-							BR</ref>, 28. August 1872. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=60000910"><ref type="third-party-letter">Brief Giovanni Battista Pioda an Emil Welti,
-							27. August 1872</ref>, in: <ref type="lit">DDS</ref> II, S.
-						678–679</ref>.</com> Wie Bundespräsident <idx type="person" norm="Welti Emil">Emil Welti</idx> Escher anvertraute, begann sich <idx type="person" norm="Melegari Luigi Amedeo">Luigi Amedeo Melegari</idx>, der
-					ausserordentliche Gesandte und bevollmächtigte Minister des Königreichs <idx type="place" norm="Italien (Königreich)">Italien</idx> in <idx type="place" norm="Bern (Stadt)">Bern</idx>, «ganz unleidlich zu geberden»: Er bezeichne
-						<idx type="person" norm="Favre Louis">Favre</idx> als «ouvrier», als
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p16">
+                        <placeName key="Italien (Königreich)">Italien</placeName> nahm die Mitteilung
+					und die Frist des Bundesrats «nicht freundlich» auf.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c30">
+                            <ref type="lit">Prot.
+							BR</ref>, 28. August 1872. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=60000910">Brief Giovanni Battista Pioda an Emil Welti,
+							27. August 1872, in: <ref type="lit">DDS</ref> II, S.
+						678–679</ref>.</com> Wie Bundespräsident <persName key="Welti Emil">Emil Welti</persName> Escher anvertraute, begann sich <persName key="Melegari Luigi Amedeo">Luigi Amedeo Melegari</persName>, der
+					ausserordentliche Gesandte und bevollmächtigte Minister des Königreichs <placeName key="Italien (Königreich)">Italien</placeName> in <placeName key="Bern (Stadt)">Bern</placeName>, «ganz unleidlich zu geberden»: Er bezeichne
+						<persName key="Favre Louis">Favre</persName> als «ouvrier», als
 					«conducteur de travaux» und als kleinen «entrepreneur», welcher der Aufgabe, die
 					Bauarbeiten zu leiten, nicht gewachsen sei. Des weiteren behaupte er «steif
-						<abbr norm="und">u.</abbr> fest», dass sich die Ingenieure und das
-					technische Personal des <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Tunnels gemäss der Erklärung vom <d norm="26.05.1871">26.
-						Mai 1871</d> auch am Bau des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnels beteiligen dürften, ohne Mitkontrahenten zu
-							sein.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c31"><ref type="letter" target="K_2632"><!--Brief Emil Welti an Escher, 24. August 1872--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p17"><idx type="person" norm="Welti Emil">Welti</idx> befürchtete, dass <idx type="place" norm="Italien (Königreich)">Italien</idx> die
+						<choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> fest», dass sich die Ingenieure und das
+					technische Personal des <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Tunnels gemäss der Erklärung vom <date when="1871-05-26">26.
+						Mai 1871</date> auch am Bau des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels beteiligen dürften, ohne Mitkontrahenten zu
+							sein.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c31"><!--Brief Emil Welti an Escher, 24. August 1872-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p17">
+                        <persName key="Welti Emil">Welti</persName> befürchtete, dass <placeName key="Italien (Königreich)">Italien</placeName> die
 					Subventionszahlungen einstellen könnte. Er erkundigte sich daher bei Escher, ob
-					man eine Erklärung zugunsten der Anstellung des <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Personals abgeben könnte, um
-					die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung
+					man eine Erklärung zugunsten der Anstellung des <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Personals abgeben könnte, um
+					die <placeName key="Italien (Königreich)">italienische</placeName> Regierung
 					zu beschwichtigen. Escher war der Ansicht, dass die Schweiz in dieser Hinsicht
 					rechtlich zu keiner Erklärung verpflichtet sei. Ausserdem gelte es zwischen der
-					Anstellung von Arbeitern, welche durch <idx type="person" norm="Favre Louis">Favre</idx>, und der Anstellung von Ingenieuren, welche durch die
-					Gotthardbahn-Gesellschaft zu erfolgen habe, zu unterscheiden.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c32"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5339"><!--Brief Emil Welti an Escher, 2. September 1872--></ref>; <ref type="letter" target="K_5342"><!--Brief Escher an Emil Welti, 3. September 1872--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p18">Da es Escher aber nicht einfach dem Bundesrat überlassen wollte, «wie er mit <idx type="place" norm="Italien (Königreich)">Italien</idx> fertig wird»<com id="Fuer_die_Gotthardvereinigung_in_Italien_c33"><ref type="letter" target="K_5344"><!--Brief Emil Welti an Escher, 4. September 1872--></ref>.</com>,
-					suchte er «gewissermaßen um des lieben Friedens willen» <idx type="person" norm="Favre Louis">Favre</idx> auf. Dieser erklärte sich bereit, bei der
-					Anstellung von Arbeitern das <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Personal in erster Linie zu berücksichtigen.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c34"><ref type="letter" target="K_5348"><!--Brief Escher an Emil
-						Welti, 6. September 1872--></ref>. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5350"><!--Brief Emil Welti an Escher 9.
-						September 1872--></ref>.</com>
+					Anstellung von Arbeitern, welche durch <persName key="Favre Louis">Favre</persName>, und der Anstellung von Ingenieuren, welche durch die
+					Gotthardbahn-Gesellschaft zu erfolgen habe, zu unterscheiden.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c32">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Emil Welti an Escher, 2. September 1872-->; <!--Brief Escher an Emil Welti, 3. September 1872-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p18">Da es Escher aber nicht einfach dem Bundesrat überlassen wollte, «wie er mit <placeName key="Italien (Königreich)">Italien</placeName> fertig wird»<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c33"><!--Brief Emil Welti an Escher, 4. September 1872-->.</com>,
+					suchte er «gewissermaßen um des lieben Friedens willen» <persName key="Favre Louis">Favre</persName> auf. Dieser erklärte sich bereit, bei der
+					Anstellung von Arbeitern das <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Personal in erster Linie zu berücksichtigen.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c34"><!--Brief Escher an Emil
+						Welti, 6. September 1872-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Emil Welti an Escher 9.
+						September 1872-->.</com>
 					Weiter wollte Escher, dem bereits diese Erklärung nicht behagte, keinesfalls
 					gehen. Man dürfe die Gotthardbahn-Gesellschaft nicht zwingen, Ingenieure des
-						<idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>
-					anzustellen. Es sei möglich, dass diese <idx type="person" norm="Grattoni Severino">Grattoni</idx> nahestünden und «der Bauleitung und
-						<idx type="person" norm="Favre Louis">Favre</idx> unter der Hand entgegen
-					wirken könnten». Dadurch würde sich <idx type="person" norm="Grattoni Severino">Grattonis</idx> Behauptung bewahrheiten, «daß wir nämlich nach einiger Zeit
-					trotz des Vertrages mit <idx type="person" norm="Favre Louis">Favre</idx> ‹den
+						<placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>
+					anzustellen. Es sei möglich, dass diese <persName key="Grattoni Severino">Grattoni</persName> nahestünden und «der Bauleitung und
+						<persName key="Favre Louis">Favre</persName> unter der Hand entgegen
+					wirken könnten». Dadurch würde sich <persName key="Grattoni Severino">Grattonis</persName> Behauptung bewahrheiten, «daß wir nämlich nach einiger Zeit
+					trotz des Vertrages mit <persName key="Favre Louis">Favre</persName> ‹den
 					Hut in der Hand› ihn werden bitten müssen, den Tunnel bauen zu wollen, den wir
-					ohne ihn auszuführen nicht im Stande seien».<com id="Fuer_die_Gotthardvereinigung_in_Italien_c35"><ref type="letter" target="K_5353"><!--Brief Escher an Emil Welti,
-						12. September 1872--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p19">Nachdem die Frist von vier Wochen verstrichen war, ohne dass dem Bundesrat von
-					seiten der <idx type="place" norm="Italien (Königreich)">italienischen</idx>
+					ohne ihn auszuführen nicht im Stande seien».<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c35"><!--Brief Escher an Emil Welti,
+						12. September 1872-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p19">Nachdem die Frist von vier Wochen verstrichen war, ohne dass dem Bundesrat von
+					seiten der <placeName key="Italien (Königreich)">italienischen</placeName>
 					Regierung weitere Interessenten gemeldet worden waren, ging Escher davon aus,
-					dass <idx type="person" norm="Favre Louis">Favre</idx> nun alleiniger Kontrahent
-					für den Bau des <idx type="place" norm="St. Gotthard (Pass)">Gotthardy</idx>tunnels sei. Dies stimmte ihn zuversichtlich, dass die Affäre
-					betreffend <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Personal binnen kurzem ausgestanden sein werde.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c36"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_8371"><!--Brief Escher
-						an Clemente Maraini, 24. September 1872--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p20">Als <idx type="person" norm="Welti Emil">Welti</idx> Escher Mitte Oktober 1872
-					mitteilte, dass die Situation in <idx type="place" norm="Italien (Königreich)">Italien</idx> immer noch sehr angespannt sei, sandte Escher <idx type="person" norm="Maraini Clemente">Maraini</idx> nach <idx type="place" norm="Rom (I)">Rom</idx>, um sich über die Angelegenheit Klarheit zu
-							verschaffen.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c37"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5367"><!--Brief Emil Welti an Escher, 14.
-						Oktober 1872--></ref>; <ref type="telegram">Telegramm Escher an Clemente Maraini, 14. Oktober 1872
-								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>; <ref type="telegram">Telegramm Clemente Maraini an Escher, 15. Oktober 1872
-								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>.</com>
-					Die Situation, welche <idx type="person" norm="Maraini Clemente">Maraini</idx>
-					in <idx type="place" norm="Rom (I)">Rom</idx> vorfand, war «déplorable» und
-					seiner Ansicht nach das Resultat von Lügen und Intrigen von <idx type="person" norm="Grattoni Severino">Grattoni</idx> sowie von diplomati<pb n="122"/>schen
-					Ungeschicklichkeiten. So behaupte <idx type="person" norm="Grattoni Severino">Grattoni</idx>, im Besitz eines Schreibens zu sein, welches beweise, dass
-					seine Offerte nur 7 <abbr norm="Million(en)">Mio.</abbr> und nicht 12 <abbr norm="Million(en)">Mio.</abbr> Franken teurer als diejenige <idx type="person" norm="Favre Louis">Favres</idx> gewesen sei. Was die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung
-					anbelange, so sei diese insbesondere darüber verärgert, dass ihr Minister <idx type="person" norm="Melegari Luigi Amedeo">Melegari</idx> getäuscht worden
-					sei. Wie aus <idx type="person" norm="Melegari Luigi Amedeo">Melegaris</idx>
-					Telegrammen hervorgehe, habe <idx type="person" norm="Welti Emil">Welti</idx>
-					versprochen, dass der Bundesrat mit der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung Rücksprache halten
+					dass <persName key="Favre Louis">Favre</persName> nun alleiniger Kontrahent
+					für den Bau des <placeName key="St. Gotthard (Pass)">Gotthardy</placeName>tunnels sei. Dies stimmte ihn zuversichtlich, dass die Affäre
+					betreffend <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Personal binnen kurzem ausgestanden sein werde.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c36">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Escher
+						an Clemente Maraini, 24. September 1872-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p20">Als <persName key="Welti Emil">Welti</persName> Escher Mitte Oktober 1872
+					mitteilte, dass die Situation in <placeName key="Italien (Königreich)">Italien</placeName> immer noch sehr angespannt sei, sandte Escher <persName key="Maraini Clemente">Maraini</persName> nach <placeName key="Rom (I)">Rom</placeName>, um sich über die Angelegenheit Klarheit zu
+							verschaffen.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c37">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Emil Welti an Escher, 14.
+						Oktober 1872-->; Telegramm Escher an Clemente Maraini, 14. Oktober 1872
+								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>); Telegramm Clemente Maraini an Escher, 15. Oktober 1872
+								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>).</com>
+					Die Situation, welche <persName key="Maraini Clemente">Maraini</persName>
+					in <placeName key="Rom (I)">Rom</placeName> vorfand, war «déplorable» und
+					seiner Ansicht nach das Resultat von Lügen und Intrigen von <persName key="Grattoni Severino">Grattoni</persName> sowie von diplomati<pb n="122"/>schen
+					Ungeschicklichkeiten. So behaupte <persName key="Grattoni Severino">Grattoni</persName>, im Besitz eines Schreibens zu sein, welches beweise, dass
+					seine Offerte nur 7 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> und nicht 12 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken teurer als diejenige <persName key="Favre Louis">Favres</persName> gewesen sei. Was die <placeName key="Italien (Königreich)">italienische</placeName> Regierung
+					anbelange, so sei diese insbesondere darüber verärgert, dass ihr Minister <persName key="Melegari Luigi Amedeo">Melegari</persName> getäuscht worden
+					sei. Wie aus <persName key="Melegari Luigi Amedeo">Melegaris</persName>
+					Telegrammen hervorgehe, habe <persName key="Welti Emil">Welti</persName>
+					versprochen, dass der Bundesrat mit der <placeName key="Italien (Königreich)">italienischen</placeName> Regierung Rücksprache halten
 					werde, bevor er einen Vertrag mit einem Bauunternehmen genehmige. Nun erwäge
-					man, sich vom <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vertrag
-					zurückzuziehen und die 45 <abbr norm="Million(en)">Mio.</abbr> Franken nicht zu
-					bezahlen oder aber <idx type="person" norm="Melegari Luigi Amedeo">Melegari</idx> zurückzurufen und die diplomatischen Beziehungen zur Schweiz
-							abzubrechen.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c38"><ref type="letter" target="K_5379"><!--Brief Clemente Maraini an Escher, 26. Oktober 1872--></ref>. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5370"><!--Brief Emil Welti an Escher, 16. Oktober 1872--></ref>; <ref type="letter" target="K_8372"><!--Brief
-						Escher an Clemente Maraini, 19. Oktober 1872--></ref>.
-						– <idx type="person" norm="Welti Emil">Welti</idx> dementierte vehement die
-						«sonderbare Behauptung des Herrn <idx type="person" norm="Melegari Luigi Amedeo">Melegari</idx> von einer ‹entente
-						preliminaire›». <ref type="letter" target="K_2643"><!--Brief Emil Welti an
-							Escher, 7. November 1872--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p21"><idx type="person" norm="Maraini Clemente">Maraini</idx> und <idx type="person" norm="Pioda Giovanni Battista">Pioda</idx> bemühten sich im Oktober und
+					man, sich vom <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vertrag
+					zurückzuziehen und die 45 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken nicht zu
+					bezahlen oder aber <persName key="Melegari Luigi Amedeo">Melegari</persName> zurückzurufen und die diplomatischen Beziehungen zur Schweiz
+							abzubrechen.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c38"><!--Brief Clemente Maraini an Escher, 26. Oktober 1872-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Emil Welti an Escher, 16. Oktober 1872-->; <!--Brief
+						Escher an Clemente Maraini, 19. Oktober 1872-->.
+						– <persName key="Welti Emil">Welti</persName> dementierte vehement die
+						«sonderbare Behauptung des Herrn <persName key="Melegari Luigi Amedeo">Melegari</persName> von einer ‹entente
+						preliminaire›». <!--Brief Emil Welti an
+							Escher, 7. November 1872-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p21">
+                        <persName key="Maraini Clemente">Maraini</persName> und <persName key="Pioda Giovanni Battista">Pioda</persName> bemühten sich im Oktober und
 					November 1872 intensiv um eine friedliche Beilegung des diplomatischen Zwistes.
-					Sie sprachen wiederholt bei der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung vor und konterten Angriffe in der Presse.
-					Unterstützung erhielten sie dabei von <idx type="person" norm="Favre Louis">Favre</idx> und <idx type="person" norm="Melegari Luigi Amedeo">Melegari</idx>, welche sich ebenfalls in <idx type="place" norm="Rom (I)">Rom</idx> befanden. Während <idx type="person" norm="Melegari Luigi Amedeo">Melegari</idx> die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung zu besänftigen suchte, begab sich <idx type="person" norm="Favre Louis">Favre</idx> mit Abgeordneten der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung nach
-						<idx type="place" norm="Turin (I)">Turin</idx>, um bezüglich des <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Materials eine
-					Einigung zu erzielen.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c39"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_8367"><!--Brief
-						Clemente Maraini an Escher, 27. Oktober 1872--></ref>;
-							<ref type="third-party-letter">Telegramm Clemente Maraini und Louis Favre an
+					Sie sprachen wiederholt bei der <placeName key="Italien (Königreich)">italienischen</placeName> Regierung vor und konterten Angriffe in der Presse.
+					Unterstützung erhielten sie dabei von <persName key="Favre Louis">Favre</persName> und <persName key="Melegari Luigi Amedeo">Melegari</persName>, welche sich ebenfalls in <placeName key="Rom (I)">Rom</placeName> befanden. Während <persName key="Melegari Luigi Amedeo">Melegari</persName> die <placeName key="Italien (Königreich)">italienische</placeName> Regierung zu besänftigen suchte, begab sich <persName key="Favre Louis">Favre</persName> mit Abgeordneten der <placeName key="Italien (Königreich)">italienischen</placeName> Regierung nach
+						<placeName key="Turin (I)">Turin</placeName>, um bezüglich des <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Materials eine
+					Einigung zu erzielen.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c39">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief
+						Clemente Maraini an Escher, 27. Oktober 1872-->;
+							Telegramm Clemente Maraini und Louis Favre an
 							Escher, 28./29. Oktober 1872 (<ref type="lit">SBB Historic
-								VGB_GB_SBBGB01_006</ref>)</ref>; <ref type="letter" target="K_8368"><!--Brief
-						Clemente Maraini an Escher, 28. Oktober 1872--></ref>;
-							<ref type="letter" target="K_8369"><!--Brief Clemente
-						Maraini an Escher, 31. Oktober 1872--></ref>;
-							<ref type="letter" target="K_8370"><!--Brief Clemente Maraini an
-						Escher, 19. November 1872--></ref>;
-						<ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005182"><ref type="lit">Prot. BR</ref>, 4. November 1872</ref>; <ref type="lit">Prot.
+								VGB_GB_SBBGB01_006</ref>); <!--Brief
+						Clemente Maraini an Escher, 28. Oktober 1872-->;
+							<!--Brief Clemente
+						Maraini an Escher, 31. Oktober 1872-->;
+							<!--Brief Clemente Maraini an
+						Escher, 19. November 1872-->;
+						<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005182">
+                                <ref type="lit">Prot. BR</ref>, 4. November 1872</ref>; <ref type="lit">Prot.
 							Dir. GB</ref>, 4. November 1872.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p22">Zur selben Zeit bekannte <idx type="person" norm="Welti Emil">Welti</idx>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p22">Zur selben Zeit bekannte <persName key="Welti Emil">Welti</persName>
 					gegenüber Escher, dass er «diese ganze Geschichte nicht mehr begreife». Zunächst
-					habe die <idx type="place" norm="Italien (Königreich)">italienische</idx>
-					Regierung, nachdem sie vom Bundesrat über den Vertrag mit <idx type="person" norm="Favre Louis">Favre</idx> in Kenntnis gesetzt worden sei, auf Basis der
-					Erklärung vom <d norm="26.05.1871">26. Mai 1871</d> auf der Anstellung von
-					Arbeitern des <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Tunnels bestanden. Nachdem der Bundesrat diesbezüglich eine
-					Erklärung abgegeben habe, sei es um die Übernahme des <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Materials gegangen. Nun, nach
+					habe die <placeName key="Italien (Königreich)">italienische</placeName>
+					Regierung, nachdem sie vom Bundesrat über den Vertrag mit <persName key="Favre Louis">Favre</persName> in Kenntnis gesetzt worden sei, auf Basis der
+					Erklärung vom <date when="1871-05-26">26. Mai 1871</date> auf der Anstellung von
+					Arbeitern des <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Tunnels bestanden. Nachdem der Bundesrat diesbezüglich eine
+					Erklärung abgegeben habe, sei es um die Übernahme des <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Materials gegangen. Nun, nach
 					der Klärung dieses Punktes, komme man wieder auf die Personalfrage zurück, und
 					«zwar in einer Weise die, es gar nicht einmal zu verbergen sucht, dass die
-					persönlichen Interessen weit hinauf ihre Vertreter finden».<com id="Fuer_die_Gotthardvereinigung_in_Italien_c40"><ref type="letter" target="K_5354"><!--Brief Emil Welti an Escher, November 1872
-							(SBB Historic VGB_GB_SBBGB01_006)--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p23">Die Kontroverse zwischen <idx type="place" norm="Italien (Königreich)">Italien</idx> und der Schweiz wurde im Januar 1873 abschliessend gelöst.
-					Zum einen erklärte die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung offiziell, dass die Ingenieure und das
-					technische Personal des <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Tunnels von einer Beteiligung am Vertrag mit <idx type="person" norm="Favre Louis">Favre</idx> absehen würden. Zum anderen
-					konnten <idx type="person" norm="Welti Emil">Welti</idx> und <idx type="person" norm="Melegari Luigi Amedeo">Melegari</idx> die Differenzen klären und die
-					Angelegenheit damit ad acta legen.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c41"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005203"><ref type="lit">Prot. BR</ref>, 16. Dezember 1872</ref>; <ref type="letter" target="K_5384"><!--Brief Clemente Maraini an Escher, 21. Dezember 1872--></ref>; <ref type="letter" target="K_5385"><!--Brief Emil Welti an Escher, 3. Januar 1873--></ref>; <ref type="third-party-letter">Brief Direktion der Gotthardbahn-Gesellschaft
+					persönlichen Interessen weit hinauf ihre Vertreter finden».<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c40"><!--Brief Emil Welti an Escher, November 1872
+							(SBB Historic VGB_GB_SBBGB01_006)-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p23">Die Kontroverse zwischen <placeName key="Italien (Königreich)">Italien</placeName> und der Schweiz wurde im Januar 1873 abschliessend gelöst.
+					Zum einen erklärte die <placeName key="Italien (Königreich)">italienische</placeName> Regierung offiziell, dass die Ingenieure und das
+					technische Personal des <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Tunnels von einer Beteiligung am Vertrag mit <persName key="Favre Louis">Favre</persName> absehen würden. Zum anderen
+					konnten <persName key="Welti Emil">Welti</persName> und <persName key="Melegari Luigi Amedeo">Melegari</persName> die Differenzen klären und die
+					Angelegenheit damit ad acta legen.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c41">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005203">
+                                <ref type="lit">Prot. BR</ref>, 16. Dezember 1872</ref>; <!--Brief Clemente Maraini an Escher, 21. Dezember 1872-->; <!--Brief Emil Welti an Escher, 3. Januar 1873-->; Brief Direktion der Gotthardbahn-Gesellschaft
 							an BR, 13./14. Januar 1873 (<ref type="lit">SBB Historic
-								VGB_GB_SBBGB01_006</ref>)</ref>.</com> </p>
+								VGB_GB_SBBGB01_006</ref>).</com> </p>
 			</div>
-			<div id="Fuer_die_Gotthardvereinigung_in_Italien_d1.4">
+			<div xml:id="Fuer_die_Gotthardvereinigung_in_Italien_d1.4">
 				<head>Der Kampf um die Nachsubvention in Italien</head>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p24">Im Frühjahr 1875 war die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung informiert worden, dass das Kapital der
-					Gotthardbahn-Gesellschaft nicht genüge, um den Bau der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn zu Ende zu führen. Gemäss <idx type="person" norm="Maraini Clemente">Marainis</idx> Regierungsquelle hatte
-					der anonyme Informant von mehr als 60 <abbr norm="Million(en)">Mio.</abbr>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p24">Im Frühjahr 1875 war die <placeName key="Italien (Königreich)">italienische</placeName> Regierung informiert worden, dass das Kapital der
+					Gotthardbahn-Gesellschaft nicht genüge, um den Bau der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn zu Ende zu führen. Gemäss <persName key="Maraini Clemente">Marainis</persName> Regierungsquelle hatte
+					der anonyme Informant von mehr als 60 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice>
 					Franken gesprochen, welche für den Abschluss der Arbeiten noch fehlen würden.
-					Der Informant habe die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung ersucht, beim Bundesrat auf eine
-					internationale Untersuchung der Angelegenheit zu drängen. <idx type="person" norm="Maraini Clemente">Maraini</idx> bat Escher, ihm Broschüren zum
-					tatsächlichen Stand der Arbeiten am <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> zukommen zu lassen, damit er diese Informationen in den <idx type="place" norm="Italien (Königreich)">italienischen</idx> Zeitungen
-					verbreiten und entsprechende Gerüchte im Keim ersticken könne.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c42"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_8223"><!--Brief Clemente Maraini an Escher, 2. Mai 1875--></ref>; <ref type="telegram">Telegramm Escher an Clemente Maraini, 6. Mai 1875 (<ref type="lit">SBB Historic VGB_GB_SBBGB03_012</ref>)</ref>. – Zur
-						Rekonstruktion der Gotthardbahn <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
-						661–709; <ref type="sum" target="Rekonstruktion_Gotthardbahn_d1"><!--Jung, Escher Briefe, Bd. 1, S. 391–415--></ref>; <ref type="lit">Wanner, Gotthardbahn</ref>, <abbr norm="Seite(n)">S.</abbr>
+					Der Informant habe die <placeName key="Italien (Königreich)">italienische</placeName> Regierung ersucht, beim Bundesrat auf eine
+					internationale Untersuchung der Angelegenheit zu drängen. <persName key="Maraini Clemente">Maraini</persName> bat Escher, ihm Broschüren zum
+					tatsächlichen Stand der Arbeiten am <placeName key="St. Gotthard (Pass)">Gotthard</placeName> zukommen zu lassen, damit er diese Informationen in den <placeName key="Italien (Königreich)">italienischen</placeName> Zeitungen
+					verbreiten und entsprechende Gerüchte im Keim ersticken könne.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c42">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Clemente Maraini an Escher, 2. Mai 1875-->; Telegramm Escher an Clemente Maraini, 6. Mai 1875 (<ref type="lit">SBB Historic VGB_GB_SBBGB03_012</ref>). – Zur
+						Rekonstruktion der Gotthardbahn <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						661–709; <ref type="sum" target="Rekonstruktion_Gotthardbahn_d1"><!--Jung, Escher Briefe, Bd. 1, S. 391–415--></ref>; <ref type="lit">Wanner, Gotthardbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						353–522.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p25">Anfang 1876<ref type="sum" target="Chronologie_Gotthardbahn_r92"><!--S. 229-230--></ref> wurde bestätigt, dass die Erstellung der
-						<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn mehr
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p25">Anfang 1876<ref type="sum" target="Chronologie_Gotthardbahn_r92"><!--S. 229-230--></ref> wurde bestätigt, dass die Erstellung der
+						<placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn mehr
 					kostete, als 1869 veranschlagt worden war. Eine vom Bundesrat zur technischen
 					Überprüfung der mutmasslichen Kostenüberschreitung und der diesbezüglichen
 					Berechnungen eingesetzte Expertenkommission kam im November 1876 zum Schluss,
-					dass zur Fertigstellung der Arbeiten an der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn rund 74 <abbr norm="Million(en)">Mio.</abbr> Franken fehlten. Escher liess das Protokoll
+					dass zur Fertigstellung der Arbeiten an der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn rund 74 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken fehlten. Escher liess das Protokoll
 					der Expertenkom<pb n="123"/>mission zusammen mit zwei Finanzierungsprogrammen und einem
-					revidierten Kostenvoranschlag Mitte Dezember 1876 vertraulich <idx type="person" norm="Maraini Clemente">Maraini</idx> zustellen, zum selben Zeitpunkt, wie
-					der Bundesrat diese Dokumente an die Regierungen <idx type="place" norm="Deutsches Reich">Deutschlands</idx> und <idx type="place" norm="Italien (Königreich)">Italiens</idx> abgehen liess. Der Bundesrat
+					revidierten Kostenvoranschlag Mitte Dezember 1876 vertraulich <persName key="Maraini Clemente">Maraini</persName> zustellen, zum selben Zeitpunkt, wie
+					der Bundesrat diese Dokumente an die Regierungen <placeName key="Deutsches Reich">Deutschlands</placeName> und <placeName key="Italien (Königreich)">Italiens</placeName> abgehen liess. Der Bundesrat
 					verband damit die Einladung an die beiden Staaten, nach Prüfung der Unterlagen
 					an einer neuen diplomatischen Konferenz teilzunehmen, um über die Massnahmen zur
-					Reorganisation der Gotthardbahn zu befinden.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c43"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5764"><!--Brief
-						Escher an Clemente Maraini, 17. Dezember 1876--></ref>;
-						<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005791" type="www"><ref type="lit">Prot. BR</ref>, 20. März 1876</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005924"><ref type="lit">Prot. BR</ref>, 16. Dezember
+					Reorganisation der Gotthardbahn zu befinden.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c43">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief
+						Escher an Clemente Maraini, 17. Dezember 1876-->;
+						<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005791">
+                                <ref type="lit">Prot. BR</ref>, 20. März 1876</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005924">
+                                <ref type="lit">Prot. BR</ref>, 16. Dezember
 					1876</ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p26">Da die offizielle Antwort der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Regierung auf die bundesrätliche Konferenzanfrage auf
-					sich warten liess, erkundigte sich Escher bei <idx type="person" norm="Maraini Clemente">Maraini</idx> nach der <idx type="place" norm="Italien (Königreich)">italienischen</idx> Reaktion. <idx type="person" norm="Maraini Clemente">Maraini</idx> erwiderte ihm, dass der bundesrätliche
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p26">Da die offizielle Antwort der <placeName key="Italien (Königreich)">italienischen</placeName> Regierung auf die bundesrätliche Konferenzanfrage auf
+					sich warten liess, erkundigte sich Escher bei <persName key="Maraini Clemente">Maraini</persName> nach der <placeName key="Italien (Königreich)">italienischen</placeName> Reaktion. <persName key="Maraini Clemente">Maraini</persName> erwiderte ihm, dass der bundesrätliche
 					Vorschlag, auch wenn es noch etwas dauern werde, mit Sicherheit durchkommen
-							werde.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c44"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5765"><!--Brief Escher an Clemente Maraini, 13. Januar 1877--></ref>; <ref type="telegram">Telegramm Escher an Clemente Maraini, 30. Januar 1877
-								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>; <ref type="telegram">Telegramm Clemente Maraini an Escher, 31. Januar 1877
-								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>.
+							werde.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c44">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Escher an Clemente Maraini, 13. Januar 1877-->; Telegramm Escher an Clemente Maraini, 30. Januar 1877
+								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>); Telegramm Clemente Maraini an Escher, 31. Januar 1877
+								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>).
 					</com> Escher stellte dieses Telegramm umgehend dem Bundesrat zu. Dieser freute
-					sich über diese Nachricht; von <idx type="person" norm="Pioda Giovanni Battista">Pioda</idx> habe man noch nichts vernommen. Für Escher, der glaubte, dass
-					die Gotthardbahn-Gesellschaft «keinen bessern Repräsentanten in <idx type="place" norm="Italien (Königreich)">Italien</idx> haben könnte als <idx type="person" norm="Maraini Clemente">Maraini</idx>»<com id="Fuer_die_Gotthardvereinigung_in_Italien_c45"><ref type="letter" target="K_2845"><!--Brief Escher an Emil Welti, 2. September 1876--></ref>. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_2906"><!--Brief Joachim Heer an Escher, 1. Februar 1877--></ref>.</com>, war
-					es «nicht zweifelhaft, daß <idx type="person" norm="Maraini Clemente">Maraini</idx> mehr weiß als <idx type="person" norm="Pioda Giovanni Battista">Pioda</idx>».<com id="Fuer_die_Gotthardvereinigung_in_Italien_c46"><ref type="letter" target="K_2909"><!--Brief Escher an Josef Zingg, 2. Februar 1877--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p27">Trotz des anfänglichen Enthusiasmus von <idx type="person" norm="Maraini Clemente">Maraini</idx> verzögerte sich die Angelegenheit. Wie
-					dem Bundesrat mitgeteilt wurde, war «das <idx type="place" norm="Italien (Königreich)">italienische</idx> Ministerium von den
-					Tagesfragen so sehr in Anspruch genommen, dass es sich mit dem <idx type="place" norm="St. Gotthard (Pass)">Gothardt</idx> zu beschäftigen keine Zeit»
-					gefunden habe. Um etwas Schwung in die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung zu bringen,
-					wünschten <idx type="person" norm="Pioda Giovanni Battista">Pioda</idx> und <idx type="person" norm="Maraini Clemente">Maraini</idx>, dass der Bundesrat
-					einen Spezialkommissär nach <idx type="place" norm="Rom (I)">Rom</idx> schicke.
+					sich über diese Nachricht; von <persName key="Pioda Giovanni Battista">Pioda</persName> habe man noch nichts vernommen. Für Escher, der glaubte, dass
+					die Gotthardbahn-Gesellschaft «keinen bessern Repräsentanten in <placeName key="Italien (Königreich)">Italien</placeName> haben könnte als <persName key="Maraini Clemente">Maraini</persName>»<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c45"><!--Brief Escher an Emil Welti, 2. September 1876-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <!--Brief Joachim Heer an Escher, 1. Februar 1877-->.</com>, war
+					es «nicht zweifelhaft, daß <persName key="Maraini Clemente">Maraini</persName> mehr weiß als <persName key="Pioda Giovanni Battista">Pioda</persName>».<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c46"><!--Brief Escher an Josef Zingg, 2. Februar 1877-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p27">Trotz des anfänglichen Enthusiasmus von <persName key="Maraini Clemente">Maraini</persName> verzögerte sich die Angelegenheit. Wie
+					dem Bundesrat mitgeteilt wurde, war «das <placeName key="Italien (Königreich)">italienische</placeName> Ministerium von den
+					Tagesfragen so sehr in Anspruch genommen, dass es sich mit dem <placeName key="St. Gotthard (Pass)">Gothardt</placeName> zu beschäftigen keine Zeit»
+					gefunden habe. Um etwas Schwung in die <placeName key="Italien (Königreich)">italienische</placeName> Regierung zu bringen,
+					wünschten <persName key="Pioda Giovanni Battista">Pioda</persName> und <persName key="Maraini Clemente">Maraini</persName>, dass der Bundesrat
+					einen Spezialkommissär nach <placeName key="Rom (I)">Rom</placeName> schicke.
 					Escher lehnte eine solche Abordnung ab, da dies die Angelegenheit zusätzlich
 					verzögern würde. Ausserdem müsse der Bundesrat jeden Anschein von
-					Separatverhandlungen mit <idx type="place" norm="Italien (Königreich)">Italien</idx> unter Ausschluss <idx type="place" norm="Deutsches Reich">Deutschlands</idx> vermeiden.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c47"><ref type="letter" target="K_2960"><!--Brief Emil Welti an Escher, 23. April
-						1877--></ref>. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="telegram">Telegramm Clemente Maraini an Escher, 15. März 1877
-								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>; <ref type="telegram">Telegramm Escher an Clemente Maraini, 16. März 1877
-								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>. – Aus
+					Separatverhandlungen mit <placeName key="Italien (Königreich)">Italien</placeName> unter Ausschluss <placeName key="Deutsches Reich">Deutschlands</placeName> vermeiden.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c47"><!--Brief Emil Welti an Escher, 23. April
+						1877-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Telegramm Clemente Maraini an Escher, 15. März 1877
+								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>); Telegramm Escher an Clemente Maraini, 16. März 1877
+								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>). – Aus
 						denselben Gründen lehnte man es auch ab, einen zusätzlichen Gesandten nach
-							<idx type="place" norm="Berlin (D)">Berlin</idx> zu senden. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_2929"><!--Brief Fridolin Anderwert an Escher, 1. März 1877--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p28">In der Ansicht, dass sich <idx type="place" norm="Italien (Königreich)">Italien</idx>, <idx type="place" norm="Deutsches Reich">Deutschland</idx>
+							<placeName key="Berlin (D)">Berlin</placeName> zu senden. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Fridolin Anderwert an Escher, 1. März 1877-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p28">In der Ansicht, dass sich <placeName key="Italien (Königreich)">Italien</placeName>, <placeName key="Deutsches Reich">Deutschland</placeName>
 					und die Schweiz vor Beschickung einer internationalen Konferenz auf eine
-					gemeinsame Grundlage stellen müssten, übermittelte die <idx type="place" norm="Deutsches Reich">deutsche</idx> Regierung dem Bundesrat am <d norm="13.04.1877">13. April 1877</d> ein Promemoria<ref type="sum" target="Chronologie_Gotthardbahn_r102"><!--S. 231--></ref> mit Vorschlägen zur
-					Rekonstruktion der Gotthardbahn. <idx type="person" norm="Maraini Clemente">Maraini</idx> riet Escher, das Promemoria anzunehmen, da dieses gute
-					Chancen habe, in <idx type="place" norm="Italien (Königreich)">Italien</idx> –
+					gemeinsame Grundlage stellen müssten, übermittelte die <placeName key="Deutsches Reich">deutsche</placeName> Regierung dem Bundesrat am <date when="1877-04-13">13. April 1877</date> ein Promemoria<ref type="sum" target="Chronologie_Gotthardbahn_r102"><!--S. 231--></ref> mit Vorschlägen zur
+					Rekonstruktion der Gotthardbahn. <persName key="Maraini Clemente">Maraini</persName> riet Escher, das Promemoria anzunehmen, da dieses gute
+					Chancen habe, in <placeName key="Italien (Königreich)">Italien</placeName> –
 					welches zurzeit auch mit inländischen Finanzierungsschwierigkeiten zu kämpfen
-					habe – Unterstützung zu finden.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c48"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005983"><ref type="lit">Prot. BR</ref>, 17. April 1877</ref>; <ref type="letter" target="K_2961"><!--Brief
-						Clemente Maraini an Escher, 24. April 1877--></ref>;
-							<ref type="letter" target="K_2965"><!-- Brief Clemente Maraini an Escher, 26. April
-								1877 (<ref type="lit">BAR J I.67-8</ref>) --></ref>.</com> Escher erwiderte
-					ihm, dass die <idx type="place" norm="Deutsches Reich">deutschen</idx> Vorschläge
+					habe – Unterstützung zu finden.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c48">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005983">
+                                <ref type="lit">Prot. BR</ref>, 17. April 1877</ref>; <!--Brief
+						Clemente Maraini an Escher, 24. April 1877-->;
+							<!-- Brief Clemente Maraini an Escher, 26. April
+								1877 (<ref type="lit">BAR J I.67-8</ref>) -->.</com> Escher erwiderte
+					ihm, dass die <placeName key="Deutsches Reich">deutschen</placeName> Vorschläge
 					bezüglich Reorganisation der Gotthardbahn «malheureusement inadmissibles» und in
 					finanzieller Hinsicht nicht durchführbar seien. Wenn man das Bahnnetz gemäss den
-						<idx type="place" norm="Deutsches Reich">deutschen</idx> Vorschlägen auf eine
+						<placeName key="Deutsches Reich">deutschen</placeName> Vorschlägen auf eine
 					durchgehende Linie beschränken und die vertragsmässig zu erstellenden
-					Nebenbahnen <idx type="place" norm="Luzern (Stadt)">Luzern</idx>–<idx type="place" norm="Immensee (Küssnacht, SZ)">Immensee</idx>, <idx type="place" norm="Zug (Stadt)">Zug</idx>–<idx type="place" norm="Arth">Arth</idx> und <idx type="place" norm="Bellinzona">Bellinzona</idx>–<idx type="place" norm="Lugano">Lugano</idx> weglassen würde, so würde dies den
+					Nebenbahnen <placeName key="Luzern (Stadt)">Luzern</placeName>–<placeName key="Immensee (Küssnacht, SZ)">Immensee</placeName>, <placeName key="Zug (Stadt)">Zug</placeName>–<placeName key="Arth">Arth</placeName> und <placeName key="Bellinzona">Bellinzona</placeName>–<placeName key="Lugano">Lugano</placeName> weglassen würde, so würde dies den
 					Kantonen und Eisenbahngesellschaften, welche an der Erstellung dieser Linien
 					interessiert seien, nicht gefallen. Es wäre zu befürchten, dass sie sich weigern
 					würden, die Subventionszahlungen weiter zu bezahlen, oder dass sie gar die
 					Rückzahlung ihrer bereits investierten Summen verlangen würden. Komplikationen
 					könnten sich auch im Hinblick auf das Konsortium und die Aktionäre ergeben. Der
-					Bundesrat habe unterdessen in <idx type="place" norm="Berlin (D)">Berlin</idx>
+					Bundesrat habe unterdessen in <placeName key="Berlin (D)">Berlin</placeName>
 					erklären lassen, dass man eine Konferenz einberufe, um die grundsätzlichen
 					Punkte zu klären, weshalb man sich nicht im Vorfeld darüber zu einigen
-							brauche.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c49"><ref type="letter" target="K_2970"><!--Brief Escher
-						an Clemente Maraini, 29. April 1877--></ref>.
-							<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_2957"><!--Brief Emil Welti an
-						Escher, 13. April 1877--></ref>; <ref type="letter" target="K_2958"><!--Brief Escher an Emil Welti, 17. April 1877--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p29">Nachdem die <idx type="place" norm="Deutsches Reich">deutsche</idx> Regierung Anfang
+							brauche.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c49"><!--Brief Escher
+						an Clemente Maraini, 29. April 1877-->.
+							<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Emil Welti an
+						Escher, 13. April 1877-->; <!--Brief Escher an Emil Welti, 17. April 1877-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p29">Nachdem die <placeName key="Deutsches Reich">deutsche</placeName> Regierung Anfang
 					Mai 1877 ihre Vorschläge zurückzog und die Beschickung einer internationalen
-					Konferenz zusagte, beschloss der Bundesrat, den <idx type="place" norm="Zürich">Zürcher</idx> Ingenieur <idx type="person" norm="Koller Gottlieb">Gottlieb
-						Koller</idx> «behufs Klarstellung des wirklichen Standes der Dinge in <idx type="place" norm="Italien (Königreich)">Italien</idx>» nach <idx type="place" norm="Rom (I)">Rom</idx> zu senden.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c50"><ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005992"><ref type="lit">Prot.
-							BR</ref>, 7. Mai 1877</ref>. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_2972"><!--Brief Emil Welti an Escher, 30. April 1877--></ref>.</com> Wie <idx type="person" norm="Welti Emil">Welti</idx> Escher anvertraute, erfuhr
-					dieser «in wenig Tagen mehr [...] als <idx type="person" norm="Pioda Giovanni Battista">Pioda</idx> in Wochen». Gemeinsam suchten
-						<idx type="person" norm="Pioda Giovanni Battista">Pioda</idx>, <idx type="person" norm="Maraini Clemente">Maraini</idx> und <idx type="person" norm="Koller Gottlieb">Koller</idx> in der Folge auf die <pb n="124"/><idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung einzuwirken. Am <d norm="14.05.1877">12. Mai 1877</d> erklärte sich die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung ebenfalls zur
-					Beschickung einer internationalen Konferenz bereit.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c51"><ref type="letter" target="K_2981"><!--Brief Emil Welti an Escher, 12. Mai 1877--></ref>.
-							<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_2980"><!--Brief
-						Clemente Maraini an Escher, 10. Mai 1877--></ref>; <ref type="telegram">Telegramm Clemente Maraini an Escher, 19. Mai 1877 (<ref type="lit">BAR J I.67-8</ref>)</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005995"><ref type="lit">Prot.
+					Konferenz zusagte, beschloss der Bundesrat, den <placeName key="Zürich">Zürcher</placeName> Ingenieur <persName key="Koller Gottlieb">Gottlieb
+						Koller</persName> «behufs Klarstellung des wirklichen Standes der Dinge in <placeName key="Italien (Königreich)">Italien</placeName>» nach <placeName key="Rom (I)">Rom</placeName> zu senden.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c50">
+                            <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005992">
+                                <ref type="lit">Prot.
+							BR</ref>, 7. Mai 1877</ref>. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Emil Welti an Escher, 30. April 1877-->.</com> Wie <persName key="Welti Emil">Welti</persName> Escher anvertraute, erfuhr
+					dieser «in wenig Tagen mehr [...] als <persName key="Pioda Giovanni Battista">Pioda</persName> in Wochen». Gemeinsam suchten
+						<persName key="Pioda Giovanni Battista">Pioda</persName>, <persName key="Maraini Clemente">Maraini</persName> und <persName key="Koller Gottlieb">Koller</persName> in der Folge auf die <pb n="124"/>
+                        <placeName key="Italien (Königreich)">italienische</placeName> Regierung einzuwirken. Am <date when="1877-05-14">12. Mai 1877</date> erklärte sich die <placeName key="Italien (Königreich)">italienische</placeName> Regierung ebenfalls zur
+					Beschickung einer internationalen Konferenz bereit.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c51"><!--Brief Emil Welti an Escher, 12. Mai 1877-->.
+							<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief
+						Clemente Maraini an Escher, 10. Mai 1877-->; Telegramm Clemente Maraini an Escher, 19. Mai 1877 (<ref type="lit">BAR J I.67-8</ref>); <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70005995">
+                                <ref type="lit">Prot.
 							BR</ref>, 14. Mai 1877</ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p30">Die internationale <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>konferenz von Juni 1877<ref type="sum" target="Chronologie_Gotthardbahn_r103"><!--S. 232--></ref> legte die Nachsubventionierung der
-					<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn auf 40 <abbr norm="Million(en)">Mio.</abbr> Franken fest: 12 <abbr norm="Million(en)">Mio.</abbr> Franken musste die Gotthardbahn-Gesellschaft
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p30">Die internationale <placeName key="St. Gotthard (Pass)">Gotthard</placeName>konferenz von Juni 1877<ref type="sum" target="Chronologie_Gotthardbahn_r103"><!--S. 232--></ref> legte die Nachsubventionierung der
+					<placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn auf 40 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken fest: 12 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken musste die Gotthardbahn-Gesellschaft
 					als weiteres Investitionskapital selbst aufbringen; für die Beschaffung der
-					verbleibenden 28 <abbr norm="Million(en)">Mio.</abbr> Franken sollten die
-					beteiligten Staaten sorgen. Die Schweiz sollte 8 <abbr norm="Million(en)">Mio.</abbr> Franken, <idx type="place" norm="Deutsches Reich">Deutschland</idx> und <idx type="place" norm="Italien (Königreich)">Italien</idx> je 10 <abbr norm="Million(en)">Mio.</abbr> Franken
-							übernehmen.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c52"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
+					verbleibenden 28 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken sollten die
+					beteiligten Staaten sorgen. Die Schweiz sollte 8 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken, <placeName key="Deutsches Reich">Deutschland</placeName> und <placeName key="Italien (Königreich)">Italien</placeName> je 10 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken
+							übernehmen.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c52">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						662–670; <ref type="sum" target="Rekonstruktion_Gotthardbahn_p11"><!--Jung, Escher Briefe, Bd. 1, S. 395–396--></ref>.</com>
-					Gemäss <idx type="person" norm="Maraini Clemente">Marainis</idx> Nachforschungen
-					waren die <idx type="place" norm="Italien (Königreich)">italienischen</idx>
-					Abgeordneten mit dem Resultat der Konferenz sehr zufrieden. <idx type="person" norm="Maraini Clemente">Maraini</idx> war überzeugt, dass die <idx type="place" norm="Italien (Königreich)">italienische</idx> Regierung das
-					Protokoll der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>konferenz dieses Mal ohne Umschweife genehmigen werde: «En
-						<idx type="place" norm="Italien (Königreich)">Italie</idx> tout ira
-							bien.»<com id="Fuer_die_Gotthardvereinigung_in_Italien_c53"><ref type="letter" target="K_5795"><!--Brief Clemente Maraini an Escher, 14. August 1877--></ref>. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_5792"><!--Brief Clemente Maraini an Escher, 7. Juli 1877--></ref>; <ref type="letter" target="K_5797"><!--Brief Clemente
-						Maraini an Escher, 10. September 1877--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p31">Diese Nachricht freute Escher, der noch nicht wusste, woher die
-					Gotthardbahn-Gesellschaft das Kapital, welches sie gemäss <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>konferenz selbst aufzubringen
+					Gemäss <persName key="Maraini Clemente">Marainis</persName> Nachforschungen
+					waren die <placeName key="Italien (Königreich)">italienischen</placeName>
+					Abgeordneten mit dem Resultat der Konferenz sehr zufrieden. <persName key="Maraini Clemente">Maraini</persName> war überzeugt, dass die <placeName key="Italien (Königreich)">italienische</placeName> Regierung das
+					Protokoll der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>konferenz dieses Mal ohne Umschweife genehmigen werde: «En
+						<placeName key="Italien (Königreich)">Italie</placeName> tout ira
+							bien.»<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c53"><!--Brief Clemente Maraini an Escher, 14. August 1877-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Clemente Maraini an Escher, 7. Juli 1877-->; <!--Brief Clemente
+						Maraini an Escher, 10. September 1877-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p31">Diese Nachricht freute Escher, der noch nicht wusste, woher die
+					Gotthardbahn-Gesellschaft das Kapital, welches sie gemäss <placeName key="St. Gotthard (Pass)">Gotthard</placeName>konferenz selbst aufzubringen
 					hatte, nehmen sollte: «Vous savez que j'ai toujours plaidé la thèse que, dans le
 					moment actuel, il serait presque impossible de trouver pour l'entreprise du Gothard de nouveaux capitaux
 					privés, et c'est pour ce motif que la Direction a présenté au Conseil fédéral le
@@ -537,57 +831,83 @@
 					internationale Konferenz auf die Idee, dass die beteiligten Staaten für die
 					Beschaffung des gesamten Nachsubventionsbetrags zuständig sein sollten, nicht
 					eingegangen war, war Escher nach wie vor überzeugt, dass dadurch das Überleben
-					des Unternehmens gesichert wäre. Er wollte daher von <idx type="person" norm="Maraini Clemente">Maraini</idx> wissen, ob <idx type="place" norm="Italien (Königreich)">Italien</idx> allenfalls zu einer weiteren
-					Staatsgarantie Hand bieten würde.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c54"><ref type="letter" target="K_5994"><!--Brief Escher an Clemente Maraini,
-						21. September 1877--></ref>.
+					des Unternehmens gesichert wäre. Er wollte daher von <persName key="Maraini Clemente">Maraini</persName> wissen, ob <placeName key="Italien (Königreich)">Italien</placeName> allenfalls zu einer weiteren
+					Staatsgarantie Hand bieten würde.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c54"><!--Brief Escher an Clemente Maraini,
+						21. September 1877-->.
 						– Escher hielt die Beschaffung der geforderten Geldsumme zum momentanen
 						Zeitpunkt für beinahe ausgeschlossen, da die Verhandlungen der
-						Gotthardbahn-Gesellschaft mit dem Finanzkonsortium in <idx type="place" norm="Frankfurt am Main (D)">Frankfurt am Main</idx> zur Abnahme der
-						vierten Obligationenserie im Betrag von 20 <abbr norm="Million(en)">Mio.</abbr> Franken vor wenigen Tagen gescheitert waren. <abbr norm="Vergleiche">Vgl.</abbr>
+						Gotthardbahn-Gesellschaft mit dem Finanzkonsortium in <placeName key="Frankfurt am Main (D)">Frankfurt am Main</placeName> zur Abnahme der
+						vierten Obligationenserie im Betrag von 20 <choice>
+                                <abbr>Mio.</abbr>
+                                <expan>Million(en)</expan>
+                            </choice> Franken vor wenigen Tagen gescheitert waren. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="sum" target="Rekonstruktion_Gotthardbahn_d1.5"><!--Jung, Escher Briefe, Bd. 1, S. 399–401--></ref>; <ref type="sum" target="Chronologie_Gotthardbahn_r109"><!--S. 262--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p32"><idx type="person" norm="Maraini Clemente">Maraini</idx> missverstand Eschers
-					Absicht. Er glaubte, dass Escher zur Klärung dieser Frage eine neue <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>konferenz einberufen
-					wolle, und konsultierte diesbezüglich <idx type="person" norm="Depretis Agostino">Agostino Depretis</idx>, den Ministerpräsidenten
-					des Königreichs <idx type="place" norm="Italien (Königreich)">Italien</idx>.
-					Dieser erklärte sich gegenüber <idx type="person" norm="Maraini Clemente">Maraini</idx> zur Beschickung einer neuen internationalen Konferenz bereit,
-					falls die Initiative vom Bundesrat aus komme und sich die <idx type="place" norm="Deutsches Reich">deutsche</idx> Regierung der Konferenz ebenfalls
-							anschlösse.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c55"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="telegram">Telegramm Clemente Maraini an Escher, 24. September
-							1877 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>; <ref type="letter" target="K_5998"><!--Brief Clemente Maraini an Escher, 7.
-							Oktober 1877--></ref>.</com> Der Bundesrat, der seit der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>konferenz von Juni 1877 auf die
-					Ratifikation des Konferenzprotokolls pochte und <idx type="person" norm="Pioda Giovanni Battista">Pioda</idx> in dieser Hinsicht in <idx type="place" norm="Italien (Königreich)">Italien</idx> wirken liess, war
-					über <idx type="person" norm="Maraini Clemente">Marainis</idx>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p32">
+                        <persName key="Maraini Clemente">Maraini</persName> missverstand Eschers
+					Absicht. Er glaubte, dass Escher zur Klärung dieser Frage eine neue <placeName key="St. Gotthard (Pass)">Gotthard</placeName>konferenz einberufen
+					wolle, und konsultierte diesbezüglich <persName key="Depretis Agostino">Agostino Depretis</persName>, den Ministerpräsidenten
+					des Königreichs <placeName key="Italien (Königreich)">Italien</placeName>.
+					Dieser erklärte sich gegenüber <persName key="Maraini Clemente">Maraini</persName> zur Beschickung einer neuen internationalen Konferenz bereit,
+					falls die Initiative vom Bundesrat aus komme und sich die <placeName key="Deutsches Reich">deutsche</placeName> Regierung der Konferenz ebenfalls
+							anschlösse.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c55">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Telegramm Clemente Maraini an Escher, 24. September
+							1877 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>); <!--Brief Clemente Maraini an Escher, 7.
+							Oktober 1877-->.</com> Der Bundesrat, der seit der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>konferenz von Juni 1877 auf die
+					Ratifikation des Konferenzprotokolls pochte und <persName key="Pioda Giovanni Battista">Pioda</persName> in dieser Hinsicht in <placeName key="Italien (Königreich)">Italien</placeName> wirken liess, war
+					über <persName key="Maraini Clemente">Marainis</persName>
 					«Hintertreppen-Diplomatie, die mit unserer offiziellen Vertretung sich unter
-					Umständen in widerwärtigster Weise kreuzen könnte», nicht erbaut.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c56"><ref type="letter" target="K_3066"><!--Brief Joachim Heer an Escher, 11. Oktober
-						1877--></ref>.
-							<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_3064"><!--Brief Escher an Joachim Heer, 10. Oktober--></ref>; <ref type="letter" target="K_3067"><!--Brief Escher an Joachim Heer, 15. Oktober 1877--></ref>.</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p33">Auch Escher war schockiert, dass <idx type="person" norm="Maraini Clemente">Maraini</idx> ihn derart missverstehen konnte, und wies ihn per Telegramm
+					Umständen in widerwärtigster Weise kreuzen könnte», nicht erbaut.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c56"><!--Brief Joachim Heer an Escher, 11. Oktober
+						1877-->.
+							<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Escher an Joachim Heer, 10. Oktober-->; <!--Brief Escher an Joachim Heer, 15. Oktober 1877-->.</com> </p>
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p33">Auch Escher war schockiert, dass <persName key="Maraini Clemente">Maraini</persName> ihn derart missverstehen konnte, und wies ihn per Telegramm
 					an, keine weiteren Schritte zu unternehmen, bevor er nicht seinen eben an ihn
 					adressierten Brief erhalten habe. Darin teilte er ihm mit, dass er das Protokoll
-					der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>konferenz von
+					der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>konferenz von
 					Juni 1877 keineswegs habe in Frage stellen wollen. Es sei «absolument
 					impossible», dass der Bundesrat dieses Protokoll verwerfe und eine neue
 					Konferenz einberufe. Vielmehr sei es nach wie vor das oberste Ziel, dass das
 					Protokoll ratifiziert werde, damit die von den drei Staaten in Aussicht
-					gestellte zusätzliche Unterstützung von 28 <abbr norm="Million(en)">Mio.</abbr>
-					Franken gesichert sei. <idx type="person" norm="Maraini Clemente">Maraini</idx>
-					solle nun alles daransetzen, dass dies so schnell wie möglich geschehe.<com id="Fuer_die_Gotthardvereinigung_in_Italien_c57"><ref type="letter" target="K_5999"><!--Brief Escher an Clemente Maraini, 14. Oktober 1877--></ref>. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="telegram">Telegramm Escher an Clemente Maraini, 15. Oktober 1877
-								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>)</ref>.
+					gestellte zusätzliche Unterstützung von 28 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice>
+					Franken gesichert sei. <persName key="Maraini Clemente">Maraini</persName>
+					solle nun alles daransetzen, dass dies so schnell wie möglich geschehe.<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c57"><!--Brief Escher an Clemente Maraini, 14. Oktober 1877-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						Telegramm Escher an Clemente Maraini, 15. Oktober 1877
+								(<ref type="lit">SBB Historic VGB_GB_SBBGB01_006</ref>).
 					</com> </p>
-				<p id="Fuer_die_Gotthardvereinigung_in_Italien_p34">Im Juni 1879 tauschten die drei Staaten die Ratifikationsurkunden zum
-					Zusatzvertrag der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>konferenz von 1877 aus. Zu diesem Zeitpunkt war Alfred Escher
-					nicht mehr Direktionspräsident der Gotthardbahn-Gesellschaft. <idx type="person" norm="Maraini Clemente">Maraini</idx> wusste von Eschers im Juli 1878
-					erfolgten Rücktritt. Da Escher für <idx type="person" norm="Maraini Clemente">Maraini</idx> aber nach wie vor die Vertrauensperson war, sandte er seine
+				<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p34">Im Juni 1879 tauschten die drei Staaten die Ratifikationsurkunden zum
+					Zusatzvertrag der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>konferenz von 1877 aus. Zu diesem Zeitpunkt war Alfred Escher
+					nicht mehr Direktionspräsident der Gotthardbahn-Gesellschaft. <persName key="Maraini Clemente">Maraini</persName> wusste von Eschers im Juli 1878
+					erfolgten Rücktritt. Da Escher für <persName key="Maraini Clemente">Maraini</persName> aber nach wie vor die Vertrauensperson war, sandte er seine
 					Berichte weiterhin an ihn: «J'ai bien vu, et avec grand regret, que vous vous
 					êtes retiré de la Présidence de la Direction [...] Mais je n'ai confiance qu'en
-					vous et c'est à vous que j'adresse mes notes.»<com id="Fuer_die_Gotthardvereinigung_in_Italien_c58"><ref type="letter" target="K_3225"><!--Brief Clemente Maraini an Escher, 20. Februar
-						1879--></ref>.
-							<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006253"><ref type="lit">Prot. BR</ref>, 19. Juni 1879</ref>.</com> </p>
+					vous et c'est à vous que j'adresse mes notes.»<com xml:id="Fuer_die_Gotthardvereinigung_in_Italien_c58"><!--Brief Clemente Maraini an Escher, 20. Februar
+						1879-->.
+							<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006253">
+                                <ref type="lit">Prot. BR</ref>, 19. Juni 1879</ref>.</com> </p>
 			</div>
-			<p id="Fuer_die_Gotthardvereinigung_in_Italien_p35"><hi rend="italics">Claudia Aufdermauer</hi> </p>
+			<p xml:id="Fuer_die_Gotthardvereinigung_in_Italien_p35">
+                    <hi rend="italics">Claudia Aufdermauer</hi> </p>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>

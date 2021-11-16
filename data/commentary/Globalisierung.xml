@@ -1,58 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Globalisierung" name="Globalisierung">
-	<metadata>
-		<title>Wege zur Globalisierung: Die Eliminierung der Alpen für den Transitverkehr</title>
-		<author>
-			<name>Helmut Stalder</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Globalisierung">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wege zur Globalisierung: Die Eliminierung der Alpen für den Transitverkehr</title>
+                <author>
+			Helmut Stalder
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Escher zwischen Lukmanier und Gotthard.
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Escher zwischen Lukmanier und Gotthard.
 				Briefe zur schweizerischen Alpenbahnfrage 1850–1882 (Alfred Escher. Briefe. 
-				Ein Editions- und Forschungsprojekt der Alfred Escher-Stiftung, Band 1), Zürich 2008</volume_title>
-			<short_title>Jung, Escher Briefe, Band 1</short_title>
-			<volume>1</volume>
-			<page>17–23</page>
-		</source>
-		<description>Römerstrasse – Transitwege – Simplon – Beschleunigung – Individualisierung</description>
-		<revision>
-			<change>Auszeichnung 1 umgesetzt, STW, 06.08.2013 </change>
-			<change>Verifizierung 1 umgesetzt, NB, 29.08.2013</change>
-			<change>Auszeichnung 2 umgesetzt, MB, 13.01.2014</change>
-			<change>Verifiziert, BF, 18.06.2015</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Globalisierung_d1">
-		<head><pb n="17"/>Wege zur Globalisierung: Die Eliminierung der Alpen für den Transitverkehr</head>
-		<div id="Globalisierung_d1.1">
+				Ein Editions- und Forschungsprojekt der Alfred Escher-Stiftung, Band 1), Zürich 2008</title>
+                    <title type="short">Jung, Escher Briefe, Band 1</title>
+                    <ref type="volume" target="V1">17–23</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Römerstrasse – Transitwege – Simplon – Beschleunigung – Individualisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>Auszeichnung 1 umgesetzt, STW, 06.08.2013 </change>
+                <change>Verifizierung 1 umgesetzt, NB, 29.08.2013</change>
+                <change>Auszeichnung 2 umgesetzt, MB, 13.01.2014</change>
+                <change>Verifiziert, BF, 18.06.2015</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Globalisierung_d1">
+		<head>
+                    <pb n="17"/>Wege zur Globalisierung: Die Eliminierung der Alpen für den Transitverkehr</head>
+		<div xml:id="Globalisierung_d1.1">
 			<head/>
-			<p id="Globalisierung_p1">Verkehr hat einen simplen Grund: Dinge sind an einem Ort vorhanden und fehlen anderswo.
+			<p xml:id="Globalisierung_p1">Verkehr hat einen simplen Grund: Dinge sind an einem Ort vorhanden und fehlen anderswo.
 		Das setzt Menschen und Güter in Bewegung. Damit Verkehr funktioniert, braucht
 		es allerdings viel: Wege müssen gebaut, unterhalten und geschützt werden. Verkehrsmittel
 		müssen verfügbar sein und Einrichtungen, welche die Zirkulation abwickeln. Und schliesslich
 		braucht es Menschen, die das ganze komplexe Hin und Her bewerkstelligen.</p>
-		<p id="Globalisierung_p2">Zu Verkehr führen in der Geschichte vor allem zwei Motive. Machtpolitik ist die erste
+		<p xml:id="Globalisierung_p2">Zu Verkehr führen in der Geschichte vor allem zwei Motive. Machtpolitik ist die erste
 		Triebkraft. Kaiser, Könige und Feldherren aller Epochen brauchten Wege, um rasch kriegswichtige
 		Nachrichten zu übermitteln und Armeen zu verschieben. Die zweite Triebkraft ist der
 		Profit. Ist hier ein Gut im Überfluss vorhanden und dort rar, lässt sich ein Preis erzielen, der die
 		Reise lohnt. Ware zirkuliert, weil jemand rechnet. Handelsverkehr ist damit das Ergebnis von
 		Arbeitsteilung und Austausch zum gegenseitigen Vorteil. Es gibt sogar Strassen, die nach
 		ihrem
-		wichtigsten Handelsgut benannt sind: die antike «Bernsteinstrasse» von der <idx type="place" norm="Ostsee">Ostsee</idx> an
-			die <idx type="place" norm="Adria">Adria</idx>, die «Weihrauchstrasse» von <idx type="place" norm="Indien (Britisch-Ostindien)">Indien</idx> dem <idx type="place" norm="Rotes Meer">Roten Meer</idx> entlang ans <idx type="place" norm="Mittelmeer">Mittelmeer</idx>, die
-		«Seidenstrasse» von <idx type="place" norm="China">China</idx> über <idx type="place" norm="Indien (Britisch-Ostindien)">Indien</idx>, <idx type="place" norm="Damaskus (SYR)">Damaskus</idx> nach <idx type="place" norm="Venedig (I)">Venedig</idx>. Wo Handelsrouten verlaufen,
+		wichtigsten Handelsgut benannt sind: die antike «Bernsteinstrasse» von der <placeName key="Ostsee">Ostsee</placeName> an
+			die <placeName key="Adria">Adria</placeName>, die «Weihrauchstrasse» von <placeName key="Indien (Britisch-Ostindien)">Indien</placeName> dem <placeName key="Rotes Meer">Roten Meer</placeName> entlang ans <placeName key="Mittelmeer">Mittelmeer</placeName>, die
+		«Seidenstrasse» von <placeName key="China">China</placeName> über <placeName key="Indien (Britisch-Ostindien)">Indien</placeName>, <placeName key="Damaskus (SYR)">Damaskus</placeName> nach <placeName key="Venedig (I)">Venedig</placeName>. Wo Handelsrouten verlaufen,
 		ändern sich die Lebensbedingungen weiträumig und nachhaltig. Menschen werden reich,
 		Städte blühen auf, Imperien entstehen.</p>
-		<p id="Globalisierung_p3">Verkehrswege waren deshalb stets ein Kriegsgrund. Die Herrschaft über wichtige Routen
-		verhiess Wohlstand, ein Unterbruch konnte ein Reich existentiell treffen. Als die <idx type="place" norm="Türkei">Türken</idx> 1453
-			<idx type="place" norm="Istanbul (TR)">Konstantinopel</idx> eroberten, warf dies das gesamte christliche Abendland zurück. Das <idx type="place" norm="Osmanisches Reich">Osmanische
-		Reich</idx> kontrollierte den Landweg nach <idx type="place" norm="Asien">Asien</idx>. Dies verschob die Gewichte der damaligen
-			Welt und stachelte <idx type="person" norm="Kolumbus Christoph">Kolumbus</idx> an, dass er aufbrach, um im Westen den Seeweg nach <idx type="place" norm="Indien (Britisch-Ostindien)">Indien</idx> zu
-			finden – und die Neue Welt entdeckte. Auch der <idx type="place" norm="Suezkanal">Suezkanal</idx> 1869 und der <idx type="place" norm="Panamakanal">Panamakanal</idx> 1920
+		<p xml:id="Globalisierung_p3">Verkehrswege waren deshalb stets ein Kriegsgrund. Die Herrschaft über wichtige Routen
+		verhiess Wohlstand, ein Unterbruch konnte ein Reich existentiell treffen. Als die <placeName key="Türkei">Türken</placeName> 1453
+			<placeName key="Istanbul (TR)">Konstantinopel</placeName> eroberten, warf dies das gesamte christliche Abendland zurück. Das <placeName key="Osmanisches Reich">Osmanische
+		Reich</placeName> kontrollierte den Landweg nach <placeName key="Asien">Asien</placeName>. Dies verschob die Gewichte der damaligen
+			Welt und stachelte <persName key="Kolumbus Christoph">Kolumbus</persName> an, dass er aufbrach, um im Westen den Seeweg nach <placeName key="Indien (Britisch-Ostindien)">Indien</placeName> zu
+			finden – und die Neue Welt entdeckte. Auch der <placeName key="Suezkanal">Suezkanal</placeName> 1869 und der <placeName key="Panamakanal">Panamakanal</placeName> 1920
 		strukturierten die Weltkarte neu. Wo Verkehrslinien verlaufen und wer sie kontrolliert, beeinflusst
 		seit jeher die Geopolitik.</p>
-		<p id="Globalisierung_p4">Je begehrter eine Ware, desto mehr lohnt es sich, sie von weit herzuschaffen. Bis in die
+		<p xml:id="Globalisierung_p4">Je begehrter eine Ware, desto mehr lohnt es sich, sie von weit herzuschaffen. Bis in die
 		Neuzeit war Gütertransport jedoch risikoreich und teuer. Auf dem Wasser liessen sich grosse
 		Mengen verfrachten, doch drohten Stürme, technische Unzulänglichkeiten, Seeräuber und
 		rivalisierende Mächte. Der Landverkehr war nicht minder gefährlich und kostspielig. Und
@@ -60,159 +77,182 @@
 		war Transportieren äusserst zeitaufwendig, solange Segel, Ruder, Lasttiere und die
 		eigenen Beine das Tempo bestimmten. Deshalb trachteten Machthaber aller Zeiten danach,
 		Verkehrsverbindungen sicherer, kürzer und einfacher zu machen.</p>
-		<p id="Globalisierung_p5">Ein grosses Problem boten die <idx type="place" norm="Alpen">Alpen</idx>. Der Wall aus Fels, Eis und Schnee liess sich nur mit
+		<p xml:id="Globalisierung_p5">Ein grosses Problem boten die <placeName key="Alpen">Alpen</placeName>. Der Wall aus Fels, Eis und Schnee liess sich nur mit
 		höchster Anstrengung überwinden. Der Bau leistungsfähiger Traversen ist eine Geschichte
-		von Blut, Schweiss und Tränen, die sich hinzieht von den <idx type="place" norm="Römisches Reich">Römern</idx> bis in die Gegenwart. Die
-		wenigen Stellen, wo Menschen Wege über die <idx type="place" norm="Alpen">Alpen</idx> legen konnten, gab die Natur vor. Wie sie
+		von Blut, Schweiss und Tränen, die sich hinzieht von den <placeName key="Römisches Reich">Römern</placeName> bis in die Gegenwart. Die
+		wenigen Stellen, wo Menschen Wege über die <placeName key="Alpen">Alpen</placeName> legen konnten, gab die Natur vor. Wie sie
 		es taten, bestimmten die technischen Möglichkeiten ihrer Epoche und ihr Wagemut. Wann und
 		warum sie es taten, ergab sich aus politischen Konstellationen und Chancen des Marktes.</p> </div>
-		<div id="Globalisierung_d1.2">
+		<div xml:id="Globalisierung_d1.2">
 			<head>Ein Kaiserreich für eine Römerstrasse</head>
-		<p id="Globalisierung_p6">Für die <idx type="place" norm="Römisches Reich">Römer</idx>, die ersten «Global Player» der Weltgeschichte, waren Strassen das Rückgrat
+		<p xml:id="Globalisierung_p6">Für die <placeName key="Römisches Reich">Römer</placeName>, die ersten «Global Player» der Weltgeschichte, waren Strassen das Rückgrat
 		ihrer Macht. Nach einer Eroberung galt es, die neue Provinz ins Imperium und den gemeinsamen
 		Wirtschaftsraum zu integrieren. Die Strassen waren – ein Novum der Epoche –
 		<pb n="18"/>gepflastert. So waren sie bei jeder Witterung passierbar und erlaubten den Eilbotenverkehr
 		und schnelle Truppenbewegungen. Die militärischen Motive wurden bald von Handelsinteressen
-		überlagert. Kaufleute kamen, um das konsumhungrige Weltzentrum <idx type="place" norm="Rom (I)">Rom</idx> mit den Schätzen
+		überlagert. Kaufleute kamen, um das konsumhungrige Weltzentrum <placeName key="Rom (I)">Rom</placeName> mit den Schätzen
 		der Provinzen zu versorgen. Auch die Unterworfenen erkannten rasch den Vorteil der
-		Strassen, die in ganz <idx type="place" norm="Europa">Europa</idx> die Teilnahme am Welthandel ermöglichten.</p>
-		<p id="Globalisierung_p7">Die <idx type="place" norm="Römisches Reich">Römer</idx> hatten die Pässe früh eingesetzt im grossen Strategiespiel um die Macht.
-			<idx type="person" norm="Hannibal">Hannibal</idx> überrumpelte <idx type="place" norm="Rom (I)">Rom</idx>, als er 218 <abbr norm="vor Christus">v. Chr.</abbr> sein Heer mit den Elefanten beim <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>
-			über die <idx type="place" norm="Alpen">Alpen</idx> führte, während <idx type="person" norm="Scipio Publius Cornelius">Scipio</idx> am <idx type="place" norm="Kleiner Sankt Bernhard (Pass, F-I)">Kleinen St. Bernhard</idx> lauerte. <idx type="person" norm="Pompeius Magnus Gnaeus">Pompejus</idx> nahm 77
-			<abbr norm="vor Christus">v. Chr.</abbr> den <idx type="place" norm="Montgenèvre (Pass, F-I)">Montgenèvre</idx>, um nach <idx type="place" norm="Spanien">Spanien</idx> vorzudringen. Und als <idx type="person" norm="Caesar Gaius Iulius">Julius Cäsar</idx> ein Auge auf
-			<idx type="place" norm="Gallien">Gallien</idx> geworfen hatte, schickte er 57 <abbr norm="vor Christus">v. Chr.</abbr> zuerst eine Legion zum <idx type="place" norm="Grosser Sankt Bernhard (Pass)">Grossen St. Bernhard</idx>,
+		Strassen, die in ganz <placeName key="Europa">Europa</placeName> die Teilnahme am Welthandel ermöglichten.</p>
+		<p xml:id="Globalisierung_p7">Die <placeName key="Römisches Reich">Römer</placeName> hatten die Pässe früh eingesetzt im grossen Strategiespiel um die Macht.
+			<persName key="Hannibal">Hannibal</persName> überrumpelte <placeName key="Rom (I)">Rom</placeName>, als er 218 <choice>
+                            <abbr>v. Chr.</abbr>
+                            <expan>vor Christus</expan>
+                        </choice> sein Heer mit den Elefanten beim <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>
+			über die <placeName key="Alpen">Alpen</placeName> führte, während <persName key="Scipio Publius Cornelius">Scipio</persName> am <placeName key="Kleiner Sankt Bernhard (Pass, F-I)">Kleinen St. Bernhard</placeName> lauerte. <persName key="Pompeius Magnus Gnaeus">Pompejus</persName> nahm 77
+			<choice>
+                            <abbr>v. Chr.</abbr>
+                            <expan>vor Christus</expan>
+                        </choice> den <placeName key="Montgenèvre (Pass, F-I)">Montgenèvre</placeName>, um nach <placeName key="Spanien">Spanien</placeName> vorzudringen. Und als <persName key="Caesar Gaius Iulius">Julius Cäsar</persName> ein Auge auf
+			<placeName key="Gallien">Gallien</placeName> geworfen hatte, schickte er 57 <choice>
+                            <abbr>v. Chr.</abbr>
+                            <expan>vor Christus</expan>
+                        </choice> zuerst eine Legion zum <placeName key="Grosser Sankt Bernhard (Pass)">Grossen St. Bernhard</placeName>,
 		«um die Alpenpässe zu öffnen, welche die Kaufleute bis dahin nur mit grosser Gefahr und
-		unter Erlegung schwerer Zölle passieren konnten». Rasch erschlossen die <idx type="place" norm="Römisches Reich">Römer</idx> den <idx type="place" norm="Alpen">Alpen</idx>raum
+		unter Erlegung schwerer Zölle passieren konnten». Rasch erschlossen die <placeName key="Römisches Reich">Römer</placeName> den <placeName key="Alpen">Alpen</placeName>raum
 		mit Fernstrassen über die Pässe. Während der 300jährigen Pax Augusta stieg Helvetien zum Mittelstück des Nord-Süd-Verkehrs auf. Spediteure brachten Kühe, Käse und Felle nach
-		<idx type="place" norm="Italien">Italien</idx> und holten von dort Waffen, Werkzeuge und mediterrane Speisen. Im Osten war die
-		Via Claudia Augusta bedeutend, eine Fahrstrasse von <idx type="place" norm="Verona (I)">Verona</idx> über den <idx type="place" norm="Reschen (Pass, A-I)">Reschenpass</idx> nach
-		<idx type="place" norm="Augsburg (D)">Augsburg</idx>. Die wichtigste <idx type="place" norm="Alpen">Alpen</idx>transversale auf schweizerischem Gebiet lief über die <idx type="place" norm="Graubünden">Bündner</idx>
-		Pässe, vom <idx type="place" norm="Comersee">Comersee</idx> über den <idx type="place" norm="Splügen (Pass)">Splügen</idx> und durch die <idx type="place" norm="Viamala">Via Mala</idx> oder über <idx type="place" norm="Septimerpass">Septimer</idx> <abbr norm="beziehungsweise">bzw.</abbr>
-		<idx type="place" norm="Maloja (Pass)">Maloja</idx> und <idx type="place" norm="Julier (Pass)">Julier</idx> nach <idx type="place" norm="Chur">Chur</idx>. Der <idx type="place" norm="Julier (Pass)">Julier</idx> war einer der wenigen Pässe, über den schon in <idx type="place" norm="Römisches Reich">römischer</idx>
-		Zeit zweirädrige Karren rumpelten. Im Westen verlief eine weitere Hauptroute von <idx type="place" norm="Turin (I)">Turin</idx>
-			via <idx type="place" norm="Grosser Sankt Bernhard (Pass)">Grossen
-			St. Bernhard</idx> zur Kolonialstadt Aventicum (<idx type="place" norm="Avenches">Avenches</idx>). Als wichtigste Passage zu
-		den Provinzen <idx type="place" norm="Gallien">Gallia</idx> und <idx type="place" norm="Belgica">Belgica</idx> war diese Route strategisch höchst bedeutsam, erst recht
-			nach der Eroberung <idx type="place" norm="Britannien">Britanniens</idx> um 45 <abbr norm="nach Christus">n. Chr.</abbr>, und dies obwohl sie nicht fahrbar war.</p>
-			<p id="Globalisierung_p8">Zwischen dem <idx type="place" norm="Grosser Sankt Bernhard (Pass)">Grossen St. Bernhard</idx> und den <idx type="place" norm="Graubünden">Bünder</idx> Pässen nutzten die <idx type="place" norm="Römisches Reich">Römer</idx> weitere
-				Routen, so jene via <idx type="place" norm="Griespass">Griespass</idx>, <idx type="place" norm="Grimsel (Pass)">Grimsel</idx> und <idx type="place" norm="Brünig (Pass)">Brünig</idx> nach Vindonissa (<idx type="place" norm="Windisch">Windisch</idx>) und Augusta
-		Raurica (<idx type="place" norm="Augst">Augst</idx>). Den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> dagegen mieden sie. Die <idx type="place" norm="Schöllenen">Schöllenen</idx>schlucht konnten sie zwar
+		<placeName key="Italien">Italien</placeName> und holten von dort Waffen, Werkzeuge und mediterrane Speisen. Im Osten war die
+		Via Claudia Augusta bedeutend, eine Fahrstrasse von <placeName key="Verona (I)">Verona</placeName> über den <placeName key="Reschen (Pass, A-I)">Reschenpass</placeName> nach
+		<placeName key="Augsburg (D)">Augsburg</placeName>. Die wichtigste <placeName key="Alpen">Alpen</placeName>transversale auf schweizerischem Gebiet lief über die <placeName key="Graubünden">Bündner</placeName>
+		Pässe, vom <placeName key="Comersee">Comersee</placeName> über den <placeName key="Splügen (Pass)">Splügen</placeName> und durch die <placeName key="Viamala">Via Mala</placeName> oder über <placeName key="Septimerpass">Septimer</placeName> <choice>
+                            <abbr>bzw.</abbr>
+                            <expan>beziehungsweise</expan>
+                        </choice>
+		<placeName key="Maloja (Pass)">Maloja</placeName> und <placeName key="Julier (Pass)">Julier</placeName> nach <placeName key="Chur">Chur</placeName>. Der <placeName key="Julier (Pass)">Julier</placeName> war einer der wenigen Pässe, über den schon in <placeName key="Römisches Reich">römischer</placeName>
+		Zeit zweirädrige Karren rumpelten. Im Westen verlief eine weitere Hauptroute von <placeName key="Turin (I)">Turin</placeName>
+			via <placeName key="Grosser Sankt Bernhard (Pass)">Grossen
+			St. Bernhard</placeName> zur Kolonialstadt Aventicum (<placeName key="Avenches">Avenches</placeName>). Als wichtigste Passage zu
+		den Provinzen <placeName key="Gallien">Gallia</placeName> und <placeName key="Belgica">Belgica</placeName> war diese Route strategisch höchst bedeutsam, erst recht
+			nach der Eroberung <placeName key="Britannien">Britanniens</placeName> um 45 <choice>
+                            <abbr>n. Chr.</abbr>
+                            <expan>nach Christus</expan>
+                        </choice>, und dies obwohl sie nicht fahrbar war.</p>
+			<p xml:id="Globalisierung_p8">Zwischen dem <placeName key="Grosser Sankt Bernhard (Pass)">Grossen St. Bernhard</placeName> und den <placeName key="Graubünden">Bünder</placeName> Pässen nutzten die <placeName key="Römisches Reich">Römer</placeName> weitere
+				Routen, so jene via <placeName key="Griespass">Griespass</placeName>, <placeName key="Grimsel (Pass)">Grimsel</placeName> und <placeName key="Brünig (Pass)">Brünig</placeName> nach Vindonissa (<placeName key="Windisch">Windisch</placeName>) und Augusta
+		Raurica (<placeName key="Augst">Augst</placeName>). Den <placeName key="St. Gotthard (Pass)">Gotthard</placeName> dagegen mieden sie. Die <placeName key="Schöllenen">Schöllenen</placeName>schlucht konnten sie zwar
 		umgehen. Aber als Weg für Truppen und Lasttiere war er ungeeignet. Es sollte bis ins hohe
-		Mittelalter dauern, bis der zentrale <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>weg neue geopolitische Verhältnisse schuf.</p>
+		Mittelalter dauern, bis der zentrale <placeName key="St. Gotthard (Pass)">Gotthard</placeName>weg neue geopolitische Verhältnisse schuf.</p>
 		</div>
-		<div id="Globalisierung_d1.3">
+		<div xml:id="Globalisierung_d1.3">
 			<head>Käse und Brokat auf internationalen Pfaden</head>
-		<p id="Globalisierung_p9">Mit dem Zerfall des <idx type="place" norm="Römisches Reich">Imperiums</idx> zerfielen im 4. und 5. Jahrhundert das Verkehrssystem
+		<p xml:id="Globalisierung_p9">Mit dem Zerfall des <placeName key="Römisches Reich">Imperiums</placeName> zerfielen im 4. und 5. Jahrhundert das Verkehrssystem
 		und der Fernhandel. Händler und Fuhrwerker verlegten sich nun auf den Verkehr zwischen
-		Städten, Dörfern und Klöstern. Während des <idx type="place" norm="Fränkisches Reich">Fränkischen Reiches</idx> etablierten sich vor allem
+		Städten, Dörfern und Klöstern. Während des <placeName key="Fränkisches Reich">Fränkischen Reiches</placeName> etablierten sich vor allem
 		Benediktiner an allen wichtigen Routen und Pässen; sie unterhielten die Wege und wickelten
 		den Saumverkehr ab, in enger Verbindung mit dem Pilgerwesen. So wurde um 750 auch das
-		Kloster <idx type="place" norm="Disentis-Mustér">Disentis</idx> gegründet, das den <idx type="place" norm="Oberalp (Pass)">Oberalppass</idx> und den nun stark benutzten <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx>
-			sicherte. Besonders <idx type="person" norm="Karl I. (Franken)">Karl der Grosse</idx> versuchte um 800 mit der Machterweiterung nach <idx type="place" norm="Italien">Mittelitalien</idx>
-		den Handel über die <idx type="place" norm="Alpen">Alpen</idx> in Gang zu bringen. Auch nach der Teilung des Reiches
+		Kloster <placeName key="Disentis-Mustér">Disentis</placeName> gegründet, das den <placeName key="Oberalp (Pass)">Oberalppass</placeName> und den nun stark benutzten <placeName key="Lukmanier (Pass)">Lukmanier</placeName>
+			sicherte. Besonders <persName key="Karl I. (Franken)">Karl der Grosse</persName> versuchte um 800 mit der Machterweiterung nach <placeName key="Italien">Mittelitalien</placeName>
+		den Handel über die <placeName key="Alpen">Alpen</placeName> in Gang zu bringen. Auch nach der Teilung des Reiches
 		blieb
-		der Saumverkehr intakt. Mit den <idx type="place" norm="Italien">Italien</idx>feldzügen von <idx type="person" norm="Otto I. (Heiliges Römisches Reich)">Otto dem Grossen</idx> gewannen die Pässe
-			um 950 erhöhte Bedeutung. Besonders das Bistum <idx type="place" norm="Chur (Bistum)">Chur</idx> am <idx type="place" norm="Splügen (Pass)">Splügen</idx> und am <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx> und
-			das Bistum <idx type="place" norm="Sitten">Sitten</idx> am <idx type="place" norm="Grosser Sankt Bernhard (Pass)">Grossen St. Bernhard</idx> und am <idx type="place" norm="Simplon (Pass)">Simplon</idx> hielten den <idx type="place" norm="Alpen">Alpen</idx>transit in Gang.</p>
-		<p id="Globalisierung_p10">Um 1100 begann eine revolutionäre Umwälzung. Im Flachland stellte man auf die Dreifelderwirtschaft
+		der Saumverkehr intakt. Mit den <placeName key="Italien">Italien</placeName>feldzügen von <persName key="Otto I. (Heiliges Römisches Reich)">Otto dem Grossen</persName> gewannen die Pässe
+			um 950 erhöhte Bedeutung. Besonders das Bistum <placeName key="Chur (Bistum)">Chur</placeName> am <placeName key="Splügen (Pass)">Splügen</placeName> und am <placeName key="Lukmanier (Pass)">Lukmanier</placeName> und
+			das Bistum <placeName key="Sitten">Sitten</placeName> am <placeName key="Grosser Sankt Bernhard (Pass)">Grossen St. Bernhard</placeName> und am <placeName key="Simplon (Pass)">Simplon</placeName> hielten den <placeName key="Alpen">Alpen</placeName>transit in Gang.</p>
+		<p xml:id="Globalisierung_p10">Um 1100 begann eine revolutionäre Umwälzung. Im Flachland stellte man auf die Dreifelderwirtschaft
 		um und setzte Eisenpflüge ein. Die Produktivität stieg, so dass der Boden
 		mehr Menschen ernährte. Arbeitskraft wurde frei, Gewerbe und Handel blühten auf. In höhe<pb n="19"/>ren Lagen gaben die Bauern den auf Selbstversorgung ausgerichteten Ackerbau auf und konzentrierten
 		sich auf Vieh- und Milchwirtschaft. Auch das erhöhte die Produktivität. Für die
 		Überschüsse an Vieh, Käse und Leder mussten neue Märkte erschlossen werden, umgekehrt
 		wollte man nun viele Güter anderswo beschaffen. Das neue Prinzip hiess Arbeitsteilung und
-		Austausch – das Prinzip der Globalisierung. Im Spätmittelalter begann im <idx type="place" norm="Alpen">Alpen</idx>raum dieser
+		Austausch – das Prinzip der Globalisierung. Im Spätmittelalter begann im <placeName key="Alpen">Alpen</placeName>raum dieser
 		Prozess der Spezialisierung auf die lokal günstige Produktion und den überregionalen Austausch,
 		der heute eine weltumspannende Dimension erreicht hat. Der Druck war gross, die
-		Passwege leistungsfähiger zu machen und neue zu erschliessen. Damit rückte der <idx type="place" norm="St. Gotthard (Pass)">St. Gotthard</idx>
-		ins Licht der Geschichte. Mit der Öffnung der <idx type="place" norm="Schöllenen">Schöllenen</idx> um 1200 entstand die direkteste
-		Nord-Süd-Verbindung in den Zentral<idx type="place" norm="Alpen">alpen</idx>. Über den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> gingen durchaus auch Transitgüter.
-		Nach Süden: Tuch aus <idx type="place" norm="Frankreich">Nordfrankreich</idx>, <idx type="place" norm="Deutschland">Deutschland</idx> und <idx type="place" norm="Flandern">Flandern</idx>, Salz, Pelze, Leder,
+		Passwege leistungsfähiger zu machen und neue zu erschliessen. Damit rückte der <placeName key="St. Gotthard (Pass)">St. Gotthard</placeName>
+		ins Licht der Geschichte. Mit der Öffnung der <placeName key="Schöllenen">Schöllenen</placeName> um 1200 entstand die direkteste
+		Nord-Süd-Verbindung in den Zentral<placeName key="Alpen">alpen</placeName>. Über den <placeName key="St. Gotthard (Pass)">Gotthard</placeName> gingen durchaus auch Transitgüter.
+		Nach Süden: Tuch aus <placeName key="Frankreich">Nordfrankreich</placeName>, <placeName key="Deutschland">Deutschland</placeName> und <placeName key="Flandern">Flandern</placeName>, Salz, Pelze, Leder,
 		Wachs, Glas, Waffen, Haus- und Ackergeräte. Nach Norden: Samtstoffe
-		aus <idx type="place" norm="Genua (I)">Genua</idx>, Seide und
-		Brokat aus <idx type="place" norm="Venedig (I)">Venedig</idx>, <idx type="place" norm="Genua (I)">Genua</idx> und <idx type="place" norm="Florenz (I)">Florenz</idx>, Früchte, Gewürze, Wein, Färbe- und Arzneimittel,
-		Rüstungen und Waffen aus <idx type="place" norm="Oberitalien">Nord-</idx> und <idx type="place" norm="Italien">Mittelitalien</idx>; ferner Luxusgüter
-		aus dem <idx type="place" norm="Orient">Orient</idx> wie
-		Teppiche, Edelsteine, Perlen. Gleichwohl war der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> bis in die Neuzeit nicht primär eine
+		aus <placeName key="Genua (I)">Genua</placeName>, Seide und
+		Brokat aus <placeName key="Venedig (I)">Venedig</placeName>, <placeName key="Genua (I)">Genua</placeName> und <placeName key="Florenz (I)">Florenz</placeName>, Früchte, Gewürze, Wein, Färbe- und Arzneimittel,
+		Rüstungen und Waffen aus <placeName key="Oberitalien">Nord-</placeName> und <placeName key="Italien">Mittelitalien</placeName>; ferner Luxusgüter
+		aus dem <placeName key="Orient">Orient</placeName> wie
+		Teppiche, Edelsteine, Perlen. Gleichwohl war der <placeName key="St. Gotthard (Pass)">Gotthard</placeName> bis in die Neuzeit nicht primär eine
 		Transitachse für den internationalen Handel. Er diente zur Hauptsache als Transportweg für
-		lokale Erzeugnisse; vor allem Käse und Vieh aus der <idx type="place" norm="Zentralschweiz">Zentralschweiz</idx> gingen auf die Märkte in
-		der <idx type="place" norm="Leventina">Leventina</idx> und der <idx type="place" norm="Lombardei">Lombardei</idx>. Das Transitgut machte nur einen kleinen Teil aus: um 1500
+		lokale Erzeugnisse; vor allem Käse und Vieh aus der <placeName key="Zentralschweiz">Zentralschweiz</placeName> gingen auf die Märkte in
+		der <placeName key="Leventina">Leventina</placeName> und der <placeName key="Lombardei">Lombardei</placeName>. Das Transitgut machte nur einen kleinen Teil aus: um 1500
 		erforderte es nur eine Säumerkolonne pro Woche. Selbst zur Hochblüte der Säumerei
 		am
-		<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> wurde stets ein Vielfaches der Menge über <idx type="place" norm="Graubünden">Graubünden</idx> verschoben.</p>
+		<placeName key="St. Gotthard (Pass)">Gotthard</placeName> wurde stets ein Vielfaches der Menge über <placeName key="Graubünden">Graubünden</placeName> verschoben.</p>
 		</div>
-		<div id="Globalisierung_d1.4">
+		<div xml:id="Globalisierung_d1.4">
 			<head>Transitwege als Staatsgrund</head>
-		<p id="Globalisierung_p11">Auch wenn die internationale Bedeutung des <idx type="place" norm="St. Gotthard (Pass)">Gotthards</idx> für den Handel sekundär war,
-		hatte seine geostrategische Lage dennoch weitreichende Folgen. An etlichen <idx type="place" norm="Alpen">Alpen</idx>pässen
+		<p xml:id="Globalisierung_p11">Auch wenn die internationale Bedeutung des <placeName key="St. Gotthard (Pass)">Gotthards</placeName> für den Handel sekundär war,
+		hatte seine geostrategische Lage dennoch weitreichende Folgen. An etlichen <placeName key="Alpen">Alpen</placeName>pässen
 		kam es damals zu lokalen Bündnissen, die die Herrschaft über die Passwege sichern sollten.
-		Es bildeten sich sogenannte Paßstaaten, so der «Bund von <idx type="place" norm="Briançon (F)">Briançon</idx>» am <idx type="place" norm="Montgenèvre (Pass, F-I)">Montgenèvre</idx>,
-		<idx type="place" norm="Savoyen">Savoyen</idx>
-			mit den <idx type="place" norm="Kleiner Sankt Bernhard (Pass, F-I)"><idx type="place" norm="Grosser Sankt Bernhard (Pass)">St.-Bernhard-Pässen</idx> </idx> und dem <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>, <idx type="place" norm="Tirol">Tirol</idx> mit dem <idx type="place" norm="Brenner (Pass, A-I)">Brenner</idx>. Um den
-		<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> formierte sich die Eidgenossenschaft. Wie die Reichsstädte verlangten auch die
-		<idx type="place" norm="Alpen">alpinen</idx>
+		Es bildeten sich sogenannte Paßstaaten, so der «Bund von <placeName key="Briançon (F)">Briançon</placeName>» am <placeName key="Montgenèvre (Pass, F-I)">Montgenèvre</placeName>,
+		<placeName key="Savoyen">Savoyen</placeName>
+			mit den <placeName key="Kleiner Sankt Bernhard (Pass, F-I)">
+                            <placeName key="Grosser Sankt Bernhard (Pass)">St.-Bernhard-Pässen</placeName> </placeName> und dem <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>, <placeName key="Tirol">Tirol</placeName> mit dem <placeName key="Brenner (Pass, A-I)">Brenner</placeName>. Um den
+		<placeName key="St. Gotthard (Pass)">Gotthard</placeName> formierte sich die Eidgenossenschaft. Wie die Reichsstädte verlangten auch die
+		<placeName key="Alpen">alpinen</placeName>
 		Paßstaaten wegen ihren strategischen Sattelpositionen Privilegien.</p>
-			<p id="Globalisierung_p12"><idx type="person" norm="Friedrich II. (Heiliges Römisches Reich)">Friedrich II.</idx> verlieh <idx type="place" norm="Uri">Uri</idx> und <idx type="place" norm="Schwyz">Schwyz</idx> 1231 und 1240 die Reichsunmittelbarkeit. Das bedeutete,
+			<p xml:id="Globalisierung_p12">
+                        <persName key="Friedrich II. (Heiliges Römisches Reich)">Friedrich II.</persName> verlieh <placeName key="Uri">Uri</placeName> und <placeName key="Schwyz">Schwyz</placeName> 1231 und 1240 die Reichsunmittelbarkeit. Das bedeutete,
 		dass die Gebiete nicht mehr als Lehen vergeben wurden und direkt dem Kaiser unterstanden.
-		Die <idx type="place" norm="Habsburgerreich">Habsburger</idx> hatten sich aber bereits die Nordzugänge zum <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> angeeignet
+		Die <placeName key="Habsburgerreich">Habsburger</placeName> hatten sich aber bereits die Nordzugänge zum <placeName key="St. Gotthard (Pass)">Gotthard</placeName> angeeignet
 		und versuchten die volle Herrschaft über das Gebiet zu erlangen. Das führte zu den Abwehrbündnissen
 		der Waldstätte von 1273 und 1291. Nach dem Sieg der Eidgenossen über die
-				<idx type="place" norm="Habsburgerreich">Habsburger</idx> 1315 bei <idx type="place" norm="Morgarten (Oberägeri)">Morgarten</idx> bestätigte der <idx type="person" norm="Ludwig IV. (Heiliges Römisches Reich)">Kaiser</idx> ihre Privilegien. Damit begann der
+				<placeName key="Habsburgerreich">Habsburger</placeName> 1315 bei <placeName key="Morgarten (Oberägeri)">Morgarten</placeName> bestätigte der <persName key="Ludwig IV. (Heiliges Römisches Reich)">Kaiser</persName> ihre Privilegien. Damit begann der
 		lange Weg der Eidgenossenschaft zur heutigen Gestalt. Sie arrondierte ihr Gebiet mit Bündnissen,
-		expandierte mit Eroberungen und konsolidierte ihre Position. Der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> war in
+		expandierte mit Eroberungen und konsolidierte ihre Position. Der <placeName key="St. Gotthard (Pass)">Gotthard</placeName> war in
 		diesem Prozess nicht die einzige Kraft, aber er war eine Orientierungslinie für die Territorialbildung.
 		Während andere Paßstaaten später in die grossen Reiche integriert oder aufgeteilt
 		wurden, konnte sich die Eidgenossenschaft als einziger Paßstaat behaupten.</p>
-		<p id="Globalisierung_p13">Dass die Schweiz mit ihrer Schlüsselposition eine <idx type="place" norm="Europa">europäische</idx> Funktion ausübt, machte
-			<idx type="person" norm="Bonaparte Napoléon">Napoleon</idx> in dem Moment klar, als die Alte Eidgenossenschaft zusammenbrach. Im Herbst
-		1799 traf in <idx type="place" norm="Zürich (Stadt)">Zürich</idx> das Heer von <idx type="place" norm="Frankreich">Frankreich</idx> auf jeniges von <idx type="place" norm="Russland">Russland</idx> und <idx type="place" norm="Österreich (Kaisertum)">Österreich</idx> zur entscheidenden
-			Schlacht. Die Koalition rief General <idx type="person" norm="Suworow Alexander">Alexander Suworow</idx> aus <idx type="place" norm="Oberitalien">Norditalien</idx> zu Hilfe.
-			<pb n="20"/>Die <idx type="place" norm="Frankreich">Franzosen</idx> konnten <idx type="person" norm="Suworow Alexander">Suworow</idx> am <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> jedoch lang genug aufhalten. Nach ihrem Sieg
-			in <idx type="place" norm="Zürich (Stadt)">Zürich</idx> blieb <idx type="place" norm="Genf (Stadt)">Genf</idx> <idx type="place" norm="Frankreich">französisch</idx>, das <idx type="place" norm="Wallis">Wallis</idx> wurde annektiert. 1803 diktierte <idx type="person" norm="Bonaparte Napoléon">Napoleon</idx> der
-		Schweiz die Mediationsverfassung und sagte klar, weshalb er sie nicht auflöste: «<idx type="place" norm="Frankreich">Frankreich</idx>
-		hat den <idx type="place" norm="Simplon (Pass)">Simplon</idx>, <idx type="place" norm="Österreich (Kaisertum)">Österreich</idx> hat <idx type="place" norm="Tirol">Tirol</idx>. Ihr seid in Sicherheit zwischen diesen Grossmächten,
+		<p xml:id="Globalisierung_p13">Dass die Schweiz mit ihrer Schlüsselposition eine <placeName key="Europa">europäische</placeName> Funktion ausübt, machte
+			<persName key="Bonaparte Napoléon">Napoleon</persName> in dem Moment klar, als die Alte Eidgenossenschaft zusammenbrach. Im Herbst
+		1799 traf in <placeName key="Zürich (Stadt)">Zürich</placeName> das Heer von <placeName key="Frankreich">Frankreich</placeName> auf jeniges von <placeName key="Russland">Russland</placeName> und <placeName key="Österreich (Kaisertum)">Österreich</placeName> zur entscheidenden
+			Schlacht. Die Koalition rief General <persName key="Suworow Alexander">Alexander Suworow</persName> aus <placeName key="Oberitalien">Norditalien</placeName> zu Hilfe.
+			<pb n="20"/>Die <placeName key="Frankreich">Franzosen</placeName> konnten <persName key="Suworow Alexander">Suworow</persName> am <placeName key="St. Gotthard (Pass)">Gotthard</placeName> jedoch lang genug aufhalten. Nach ihrem Sieg
+			in <placeName key="Zürich (Stadt)">Zürich</placeName> blieb <placeName key="Genf (Stadt)">Genf</placeName> <placeName key="Frankreich">französisch</placeName>, das <placeName key="Wallis">Wallis</placeName> wurde annektiert. 1803 diktierte <persName key="Bonaparte Napoléon">Napoleon</persName> der
+		Schweiz die Mediationsverfassung und sagte klar, weshalb er sie nicht auflöste: «<placeName key="Frankreich">Frankreich</placeName>
+		hat den <placeName key="Simplon (Pass)">Simplon</placeName>, <placeName key="Österreich (Kaisertum)">Österreich</placeName> hat <placeName key="Tirol">Tirol</placeName>. Ihr seid in Sicherheit zwischen diesen Grossmächten,
 		die sich im Gleichgewicht befinden. Ihr bleibt im Ruhezustand, selbst wenn es zu Schwankungen
 		kommt, weil ihr die Mitte einnehmt zwischen dem Balken der Waage.» Der Grund also,
-		warum es aus <idx type="person" norm="Bonaparte Napoléon">Napoleons</idx> Sicht die Schweiz braucht, ist ein machtpolitischer: Jede Grossmacht
-		hätte gern die Pässe, den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> insbesondere. Aber keine liesse es zu, dass die andere ihn
-		sich einverleibte. <idx type="place" norm="Frankreich">Frankreich</idx> begnügt sich mit dem <idx type="place" norm="Simplon (Pass)">Simplon</idx>, <idx type="place" norm="Österreich (Kaisertum)">Österreich</idx> mit <idx type="place" norm="Tirol">Tirol</idx>. Um die andern
-		braucht es eine neutrale Zone. Um der <idx type="place" norm="Europa">europäischen</idx> Balance willen muss die Schweiz
+		warum es aus <persName key="Bonaparte Napoléon">Napoleons</persName> Sicht die Schweiz braucht, ist ein machtpolitischer: Jede Grossmacht
+		hätte gern die Pässe, den <placeName key="St. Gotthard (Pass)">Gotthard</placeName> insbesondere. Aber keine liesse es zu, dass die andere ihn
+		sich einverleibte. <placeName key="Frankreich">Frankreich</placeName> begnügt sich mit dem <placeName key="Simplon (Pass)">Simplon</placeName>, <placeName key="Österreich (Kaisertum)">Österreich</placeName> mit <placeName key="Tirol">Tirol</placeName>. Um die andern
+		braucht es eine neutrale Zone. Um der <placeName key="Europa">europäischen</placeName> Balance willen muss die Schweiz
 		garantieren, dass die Pässe den Grossmächten gleichermassen entzogen bleiben. Jede Abkehr
 		von diesem Neutralitätsdienst stellt ihr Daseinsrecht in Frage. Die Schweiz von 1800 verdankt
 		ihre Existenz
-		allein der Lage an den Transitachsen und den <idx type="place" norm="Europa">europäischen</idx> Rivalitäten.</p>
+		allein der Lage an den Transitachsen und den <placeName key="Europa">europäischen</placeName> Rivalitäten.</p>
 		</div>
-		<div id="Globalisierung_d1.5">
+		<div xml:id="Globalisierung_d1.5">
 			<head>Zwei Pioniertaten am Simplon</head>
-		<p id="Globalisierung_p14">Am <idx type="place" norm="Simplon (Pass)">Simplon</idx> sind zwei Pioniertaten zu vermerken, die das Rad der Geschichte vorwärts
+		<p xml:id="Globalisierung_p14">Am <placeName key="Simplon (Pass)">Simplon</placeName> sind zwei Pioniertaten zu vermerken, die das Rad der Geschichte vorwärts
 		drehten. Die eine hatte ihrem Antrieb im Streben nach Profit, die andere war militärischer
-		Natur: Am <idx type="place" norm="Simplon (Pass)">Simplon</idx> fand der Übergang vom mittelalterlichen Passverkehr zum modernen
-		Speditionswesen statt. Und am <idx type="place" norm="Simplon (Pass)">Simplon</idx> wurde die erste Hoch<idx type="place" norm="Alpen">alpen</idx>strasse gebaut.</p>
-		<p id="Globalisierung_p15">Während am <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> die Säumerei bis ins 19. Jahrhundert genossenschaftlich organisiert
+		Natur: Am <placeName key="Simplon (Pass)">Simplon</placeName> fand der Übergang vom mittelalterlichen Passverkehr zum modernen
+		Speditionswesen statt. Und am <placeName key="Simplon (Pass)">Simplon</placeName> wurde die erste Hoch<placeName key="Alpen">alpen</placeName>strasse gebaut.</p>
+		<p xml:id="Globalisierung_p15">Während am <placeName key="St. Gotthard (Pass)">Gotthard</placeName> die Säumerei bis ins 19. Jahrhundert genossenschaftlich organisiert
 		war und lokale Bauern im Nebenerwerb die Strecke umständlich in Etappen bedienten, verlief
-		die Entwicklung am <idx type="place" norm="Simplon (Pass)">Simplon</idx> anders. <idx type="person" norm="Stockalper Kaspar Jodok von">Kaspar Jodok von Stockalper</idx> (1609–1691) erkannte
+		die Entwicklung am <placeName key="Simplon (Pass)">Simplon</placeName> anders. <persName key="Stockalper Kaspar Jodok von">Kaspar Jodok von Stockalper</persName> (1609–1691) erkannte
 		die
-		Chancen des <idx type="place" norm="Simplon (Pass)">Simplons</idx> als Direktverbindung <idx type="place" norm="Mailand (I)">Mailand</idx>–<idx type="place" norm="Paris (F)">Paris</idx> und den Profit, den ein integral
+		Chancen des <placeName key="Simplon (Pass)">Simplons</placeName> als Direktverbindung <placeName key="Mailand (I)">Mailand</placeName>–<placeName key="Paris (F)">Paris</placeName> und den Profit, den ein integral
 		organisierter Transport versprach. Als weltgewandter Geschäftsmann gründete er nach dem
 		Vorbild der Fugger einen Speditions- und Handelskonzern und wickelte alles aus einer Hand
 		ab. Man kann ihn als den ersten «Global Player» des Schweizer Handels bezeichnen.</p>
-		<p id="Globalisierung_p16">1634 erwarb er das Transportrecht am <idx type="place" norm="Simplon (Pass)">Simplon</idx>, 1648 das Salzmonopol. Er richtete einen
+		<p xml:id="Globalisierung_p16">1634 erwarb er das Transportrecht am <placeName key="Simplon (Pass)">Simplon</placeName>, 1648 das Salzmonopol. Er richtete einen
 		Kurierdienst ein, sanierte den Saumweg, baute Susten und Depots, betrieb einen Geldverleih
-		und beschäftigte ein Heer von Menschen. Er wurde der einflussreichste Mann im <idx type="place" norm="Wallis">Wallis</idx>; sein
-			Handelshaus in <idx type="place" norm="Brig (Brig-Glis)">Brig</idx> baute er als Schloss. Man nannte <idx type="person" norm="Stockalper Kaspar Jodok von">Stockalper</idx> «le roi du <idx type="place" norm="Simplon (Pass)">Simplon</idx>». Am
+		und beschäftigte ein Heer von Menschen. Er wurde der einflussreichste Mann im <placeName key="Wallis">Wallis</placeName>; sein
+			Handelshaus in <placeName key="Brig (Brig-Glis)">Brig</placeName> baute er als Schloss. Man nannte <persName key="Stockalper Kaspar Jodok von">Stockalper</persName> «le roi du <placeName key="Simplon (Pass)">Simplon</placeName>». Am
 		Ende brachten ihn Rivalen zu Fall, mit einer Anklage wegen Missbrauchs des Salzmonopols.
 		Sie enthoben ihn aller Ämter, zogen seinen Besitz ein und zwangen ihn zur Flucht.</p>
-			<p id="Globalisierung_p17">Die zweite Pioniertat ist <idx type="person" norm="Bonaparte Napoléon">Napoleon</idx> zu danken. Der «Global Player» ersten Ranges lernte
-				am <idx type="place" norm="Simplon (Pass)">Simplon</idx> eine wichtige Lektion: Im Jahr 1800 überschritt er mit 30 000 Mann den <idx type="place" norm="Grosser Sankt Bernhard (Pass)">Grossen
-			St. Bernhard</idx>; General <idx type="person" norm="Béthencourt Antoine-Charles de">Antoine-Charles Béthencourt</idx> sollte mit 1000 Mann über den <idx type="place" norm="Simplon (Pass)">Simplon</idx>
-				kommen. Der <idx type="person" norm="Béthencourt Antoine-Charles de">General</idx> schaffte dies nur mit grösster Mühe und traf verspätet und ohne
+			<p xml:id="Globalisierung_p17">Die zweite Pioniertat ist <persName key="Bonaparte Napoléon">Napoleon</persName> zu danken. Der «Global Player» ersten Ranges lernte
+				am <placeName key="Simplon (Pass)">Simplon</placeName> eine wichtige Lektion: Im Jahr 1800 überschritt er mit 30 000 Mann den <placeName key="Grosser Sankt Bernhard (Pass)">Grossen
+			St. Bernhard</placeName>; General <persName key="Béthencourt Antoine-Charles de">Antoine-Charles Béthencourt</persName> sollte mit 1000 Mann über den <placeName key="Simplon (Pass)">Simplon</placeName>
+				kommen. Der <persName key="Béthencourt Antoine-Charles de">General</persName> schaffte dies nur mit grösster Mühe und traf verspätet und ohne
 		Artillerie
-		in <idx type="place" norm="Italien">Italien</idx> ein. Dies bestätigte <idx type="person" norm="Bonaparte Napoléon">Napoleon</idx>, dass für Truppenverlegungen von <idx type="place" norm="Paris (F)">Paris</idx> nach
-				<idx type="place" norm="Mailand (I)">Mailand</idx> eine Fahrstrasse zwingend sei. Sofort verfügte er: Der Weg <idx type="place" norm="Brig (Brig-Glis)">Brig</idx>–<idx type="place" norm="Domodossola (I)">Domodossola</idx>
+		in <placeName key="Italien">Italien</placeName> ein. Dies bestätigte <persName key="Bonaparte Napoléon">Napoleon</persName>, dass für Truppenverlegungen von <placeName key="Paris (F)">Paris</placeName> nach
+				<placeName key="Mailand (I)">Mailand</placeName> eine Fahrstrasse zwingend sei. Sofort verfügte er: Der Weg <placeName key="Brig (Brig-Glis)">Brig</placeName>–<placeName key="Domodossola (I)">Domodossola</placeName>
 		«sera rendu praticable
-		pour les canons». Im Herbst 1805 war die <idx type="place" norm="Simplon (Pass)">Simplon</idx>strasse vollendet:
-		63 <abbr norm="Kilometer">km</abbr> mit einer fast konstanten Steigung von 3,5% bis zum Scheitelpunkt auf 2004 <abbr norm="Meter">m</abbr>, 611
-		Viadukte, sieben Galerien – die erste fahrbare Strasse der Neuzeit über die Hoch<idx type="place" norm="Alpen">alpen</idx>.</p>
-		<p id="Globalisierung_p18">Damit stand die Moderne vor der Tür. Das Rad begann die <idx type="place" norm="Alpen">Alpen</idx> zu erobern. In den
+		pour les canons». Im Herbst 1805 war die <placeName key="Simplon (Pass)">Simplon</placeName>strasse vollendet:
+		63 <choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice> mit einer fast konstanten Steigung von 3,5% bis zum Scheitelpunkt auf 2004 <choice>
+                            <abbr>m</abbr>
+                            <expan>Meter</expan>
+                        </choice>, 611
+		Viadukte, sieben Galerien – die erste fahrbare Strasse der Neuzeit über die Hoch<placeName key="Alpen">alpen</placeName>.</p>
+		<p xml:id="Globalisierung_p18">Damit stand die Moderne vor der Tür. Das Rad begann die <placeName key="Alpen">Alpen</placeName> zu erobern. In den
 		nächsten Jahrzehnten wurden alle wichtigen Passwege zu Strassen ausgebaut. Nun machten
 		die unwirtschaftlichen Saumtiere Platz. Die bedeutend leistungsfähigeren Deichselwagen wa<pb n="21"/>ren im Unterhalt jedoch teuer, so dass sich das Fuhrgewerbe professionalisierte und Speditionsfirmen
 		entstanden. Den Personenverkehr wickelten nun Postkutschen ab. Die Reisezeiten
@@ -223,129 +263,141 @@
 		Serpentinen und Brücken, diese Wunderwerke der Ingenieure, zogen Städter noch magisch
 		an, als die Pässe längst durch Bahntunnels unterquert wurden.</p>
 		</div>
-		<div id="Globalisierung_d1.6">
+		<div xml:id="Globalisierung_d1.6">
 			<head>Beschleunigung – das Mass der neuen Zeit</head>
-		<p id="Globalisierung_p19">Die Schweiz brach spät in die Eisenbahnepoche auf, wegen der fehlenden Schwerindustrie,
+		<p xml:id="Globalisierung_p19">Die Schweiz brach spät in die Eisenbahnepoche auf, wegen der fehlenden Schwerindustrie,
 		der Topographie und der politischen Zerstückelung. Schon seit den 1830er Jahren wurde
-		die <idx type="place" norm="Alpen">Alpen</idx>bahnfrage heftig diskutiert, denn es war klar, dass ein Bahnsystem ohne <idx type="place" norm="Alpen">Alpen</idx>übergang
-		in die Sackgasse führen würde. <idx type="place" norm="Splügen (Pass)">Splügen</idx>? <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx>? <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>? Die Zeit drängte,
-		denn 1854 nahm die <idx type="place" norm="Semmering (Pass, A)">Semmering</idx>bahn <idx type="place" norm="Wien (A)">Wien</idx>–<idx type="place" norm="Triest (I)">Triest</idx> den Verkehr auf, die Projekte für die <idx type="place" norm="Brenner (Pass, A-I)">Brenner</idx>linie
-		im Osten und den <idx type="place" norm="Mont-Cenis (Pass, F-I)">Mont-Cenis</idx>-Tunnel im Westen schritten voran. Alfred Escher befürchtete,
+		die <placeName key="Alpen">Alpen</placeName>bahnfrage heftig diskutiert, denn es war klar, dass ein Bahnsystem ohne <placeName key="Alpen">Alpen</placeName>übergang
+		in die Sackgasse führen würde. <placeName key="Splügen (Pass)">Splügen</placeName>? <placeName key="Lukmanier (Pass)">Lukmanier</placeName>? <placeName key="St. Gotthard (Pass)">Gotthard</placeName>? Die Zeit drängte,
+		denn 1854 nahm die <placeName key="Semmering (Pass, A)">Semmering</placeName>bahn <placeName key="Wien (A)">Wien</placeName>–<placeName key="Triest (I)">Triest</placeName> den Verkehr auf, die Projekte für die <placeName key="Brenner (Pass, A-I)">Brenner</placeName>linie
+		im Osten und den <placeName key="Mont-Cenis (Pass, F-I)">Mont-Cenis</placeName>-Tunnel im Westen schritten voran. Alfred Escher befürchtete,
 		die Schweiz werde umfahren, nicht nur von der Bahn, sondern von der ganzen
 		modernen Entwicklung.</p>
-		<p id="Globalisierung_p20">Die Eröffnung der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn 1882 mit dem damals längsten Tunnel der Welt bedeutete
+		<p xml:id="Globalisierung_p20">Die Eröffnung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn 1882 mit dem damals längsten Tunnel der Welt bedeutete
 		für die Schweiz einen Epochensprung. Sie verwandelte den Nachteil der Binnenlage in
-		einen Transitvorteil und öffnete die Schweiz dem Weltverkehr mit Anschluss via <idx type="place" norm="Rotterdam (Niederlande)">Rotterdam</idx> an
-		<idx type="place" norm="Amerika">Amerika</idx> und via <idx type="place" norm="Genua (I)">Genua</idx> und den <idx type="place" norm="Suezkanal">Suezkanal</idx> an Fernost. Was war der wesentliche Fortschritt,
+		einen Transitvorteil und öffnete die Schweiz dem Weltverkehr mit Anschluss via <placeName key="Rotterdam (Niederlande)">Rotterdam</placeName> an
+		<placeName key="Amerika">Amerika</placeName> und via <placeName key="Genua (I)">Genua</placeName> und den <placeName key="Suezkanal">Suezkanal</placeName> an Fernost. Was war der wesentliche Fortschritt,
 		der mit diesem Bauwerk erreicht wurde? Tempo und Tonnage! Zur Kutschenzeit dauerte die
-		Fahrt <idx type="place" norm="Basel-Stadt">Basel</idx>–<idx type="place" norm="Mailand (I)">Mailand</idx> 50 Stunden; die <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn reduzierte die Reise auf 10 Stunden und
+		Fahrt <placeName key="Basel-Stadt">Basel</placeName>–<placeName key="Mailand (I)">Mailand</placeName> 50 Stunden; die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn reduzierte die Reise auf 10 Stunden und
 		multiplizierte die Frachtkapazität um ein Vielfaches. Die Eisenbahn war die Hochtechnologie
-		des 19. Jahrhunderts, das Symbol des Fortschritts. Die <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn mit dem 15 <abbr norm="Kilometer">km</abbr> langen
+		des 19. Jahrhunderts, das Symbol des Fortschritts. Die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn mit dem 15 <choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice> langen
 		Tunnel katapultierte die Schweiz an die Spitze der Entwicklung. Indem die Schiene das ewige
-		Hindernis <idx type="place" norm="Alpen">Alpen</idx> an zentraler Stelle gerade durchstiess, setzte sie erstmals die Nähe der nördlichen
+		Hindernis <placeName key="Alpen">Alpen</placeName> an zentraler Stelle gerade durchstiess, setzte sie erstmals die Nähe der nördlichen
 		und südlichen Ebenen in Geschwindigkeit um. Beschleunigung, der wichtigste Maßstab
-		des Industriezeitalters, war in der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn am reinsten verkörpert.</p>
-		<p id="Globalisierung_p21">Der Temposprung von der Kutsche zur Bahn verschaffte der Schweiz den entscheidenden
+		des Industriezeitalters, war in der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn am reinsten verkörpert.</p>
+		<p xml:id="Globalisierung_p21">Der Temposprung von der Kutsche zur Bahn verschaffte der Schweiz den entscheidenden
 		Vorteil im kontinentalen Verkehr: Aus der Sackgasse wurde eine Drehscheibe. Die erste
-		Hochleistungsachse durchs Herz der <idx type="place" norm="Alpen">Alpen</idx> war für die Schweiz der wesentliche Schritt zur
+		Hochleistungsachse durchs Herz der <placeName key="Alpen">Alpen</placeName> war für die Schweiz der wesentliche Schritt zur
 		Globalisierung. Dank ihr konnte sie sich vom Agrarstaat zum modernen, weltweit vernetzten
 		Industrie-, Finanz- und Forschungsplatz entwickeln. Kein anderes Bauwerk hat die Schweiz
 		tiefgreifender und nachhaltiger verändert. Und es gibt wohl kein anderes Land, dessen Rolle
 		und Identität im gleichen Mass von einem einzigen Bauwerk geprägt worden ist.</p>
-		<p id="Globalisierung_p22">Ihre Position als modernes Transitland festigte die Schweiz 1906 mit dem 19,8 <abbr norm="Kilometer">km</abbr> langen
-		<idx type="place" norm="Simplon (Pass)">Simplon</idx>tunnel. Er wurde sogleich elektrifiziert, so dass er die künftige Triebtechnik mit noch
-		mehr Kraft und Tempo vorwegnahm. Mit dem 1913 vollendeten <idx type="place" norm="Lötschberg">Lötschberg</idx>tunnel entstand
-		neben dem <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> die zweite Hochleistungsachse. Ihren internationalen Charakter betonte
-		die <idx type="place" norm="Simplon (Pass)">Simplon</idx>linie mit einer besonderen Bahn: dem «<idx type="place" norm="Orient">Orient</idx>-Express». Von 1920 an verkehrte er
-		unter dem Namen «<idx type="place" norm="Simplon (Pass)">Simplon</idx>-<idx type="place" norm="Orient">Orient</idx>-Express» auf der kürzesten Linie von <idx type="place" norm="Paris (F)">Paris</idx> über <idx type="place" norm="Genf (Stadt)">Genf</idx>,
-		<idx type="place" norm="Simplon (Pass)">Simplon</idx>, <idx type="place" norm="Mailand (I)">Mailand</idx>, <idx type="place" norm="Venedig (I)">Venedig</idx>, <idx type="place" norm="Triest (I)">Triest</idx>, <idx type="place" norm="Zagreb (HR)">Zagreb</idx>, <idx type="place" norm="Belgrad (SRB)">Belgrad</idx> nach <idx type="place" norm="Athen (GRE)">Athen</idx> und <idx type="place" norm="Istanbul (TR)">Istanbul</idx>.</p>
+		<p xml:id="Globalisierung_p22">Ihre Position als modernes Transitland festigte die Schweiz 1906 mit dem 19,8 <choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice> langen
+		<placeName key="Simplon (Pass)">Simplon</placeName>tunnel. Er wurde sogleich elektrifiziert, so dass er die künftige Triebtechnik mit noch
+		mehr Kraft und Tempo vorwegnahm. Mit dem 1913 vollendeten <placeName key="Lötschberg">Lötschberg</placeName>tunnel entstand
+		neben dem <placeName key="St. Gotthard (Pass)">Gotthard</placeName> die zweite Hochleistungsachse. Ihren internationalen Charakter betonte
+		die <placeName key="Simplon (Pass)">Simplon</placeName>linie mit einer besonderen Bahn: dem «<placeName key="Orient">Orient</placeName>-Express». Von 1920 an verkehrte er
+		unter dem Namen «<placeName key="Simplon (Pass)">Simplon</placeName>-<placeName key="Orient">Orient</placeName>-Express» auf der kürzesten Linie von <placeName key="Paris (F)">Paris</placeName> über <placeName key="Genf (Stadt)">Genf</placeName>,
+		<placeName key="Simplon (Pass)">Simplon</placeName>, <placeName key="Mailand (I)">Mailand</placeName>, <placeName key="Venedig (I)">Venedig</placeName>, <placeName key="Triest (I)">Triest</placeName>, <placeName key="Zagreb (HR)">Zagreb</placeName>, <placeName key="Belgrad (SRB)">Belgrad</placeName> nach <placeName key="Athen (GRE)">Athen</placeName> und <placeName key="Istanbul (TR)">Istanbul</placeName>.</p>
 		</div>
-		<div id="Globalisierung_d1.7">
-			<head><pb n="22"/>Individualisierung auf Achsen</head>
-		<p id="Globalisierung_p23">Der Siegeszug des Automobils auf den <idx type="place" norm="Alpen">Alpen</idx>transversalen begann holprig. Um 1900
+		<div xml:id="Globalisierung_d1.7">
+			<head>
+                        <pb n="22"/>Individualisierung auf Achsen</head>
+		<p xml:id="Globalisierung_p23">Der Siegeszug des Automobils auf den <placeName key="Alpen">Alpen</placeName>transversalen begann holprig. Um 1900
 		tauchten auf den Pässen erste Autos auf. Doch das Vergnügen war noch vermögenden Herrenfahrern
 		vorbehalten, und die Behörden stemmten sich lang gegen die Vehikel und die «Staubplage». In den 1920er Jahren machten die ersten Postautos Passreisen auch für Normalsterbliche
-		erschwinglich; es begann das Zeitalter des <idx type="place" norm="Alpen">alpinen</idx> Massentourismus. Nach dem Zweiten
+		erschwinglich; es begann das Zeitalter des <placeName key="Alpen">alpinen</placeName> Massentourismus. Nach dem Zweiten
 		Weltkrieg brachte die fortschreitende Motorisierung einen regelrechten Boom des Autoverkehrs.
 		Wer konnte, genoss die neue Freiheit. Das war ja die neue Qualität, die das Auto
 		gegenüber
 		der Bahn auszeichnete: die Individualisierung des schnellen und bequemen Reisens.
 		In den 1950er Jahren zeichnete sich ab, dass die Strassen aus der Kutschenzeit dem Ansturm
 		nicht mehr lange gewachsen sein würden. 1965 fuhren in sechs Monaten fast 900 000 Autos
-		über den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>. Kleinwagen quälten sich die <idx type="place" norm="Schöllenen">Schöllenen</idx> hinauf, Busse zwängten sich
-		durch die <idx type="place" norm="Tremola">Tremola</idx>kehren, an Spitzentagen kollabierte der Verkehr.</p>
-		<p id="Globalisierung_p24">Für Güter hingegen spielte der Strassentransport lange keine Rolle, da war die Bahn unschlagbar.
-		Dies änderte sich mit dem Bau der Autobahn und des Strassentunnels am <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>.
-		Bei der Eröffnung 1980 verkündete Bundesrat <idx type="person" norm="Hürlimann Hans">Hans Hürlimann</idx> noch: «Dieser Tunnel ist
+		über den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>. Kleinwagen quälten sich die <placeName key="Schöllenen">Schöllenen</placeName> hinauf, Busse zwängten sich
+		durch die <placeName key="Tremola">Tremola</placeName>kehren, an Spitzentagen kollabierte der Verkehr.</p>
+		<p xml:id="Globalisierung_p24">Für Güter hingegen spielte der Strassentransport lange keine Rolle, da war die Bahn unschlagbar.
+		Dies änderte sich mit dem Bau der Autobahn und des Strassentunnels am <placeName key="St. Gotthard (Pass)">Gotthard</placeName>.
+		Bei der Eröffnung 1980 verkündete Bundesrat <persName key="Hürlimann Hans">Hans Hürlimann</persName> noch: «Dieser Tunnel ist
 		kein Korridor für den Schwerverkehr.» Doch es kam anders. Der Strassentunnel machte die
-		<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>achse für den Schwerverkehr zur besten und schnellsten Nord-Süd-Verbindung in
-		<idx type="place" norm="Europa">Europa</idx>. Sie ist die einzige Hochleistungsstrasse durch die Schweizer <idx type="place" norm="Alpen">Alpen</idx>. <idx type="place" norm="San Bernardino (Pass)">San Bernardino</idx>
-		und <idx type="place" norm="Simplon (Pass)">Simplon</idx> werden zwar oft von Lastwagen benutzt, sind aber nicht für den Schwerverkehr
-		ausgelegt. Daneben gibt es als Hochleistungsstrassen nur noch die <idx type="place" norm="Montblanc">Montblanc</idx>- und die
-		<idx type="place" norm="Brenner (Pass, A-I)">Brenner</idx>route. Die <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>autobahn konkurrenzierte bald einmal die Bahn, denn sie ermöglichte
+		<placeName key="St. Gotthard (Pass)">Gotthard</placeName>achse für den Schwerverkehr zur besten und schnellsten Nord-Süd-Verbindung in
+		<placeName key="Europa">Europa</placeName>. Sie ist die einzige Hochleistungsstrasse durch die Schweizer <placeName key="Alpen">Alpen</placeName>. <placeName key="San Bernardino (Pass)">San Bernardino</placeName>
+		und <placeName key="Simplon (Pass)">Simplon</placeName> werden zwar oft von Lastwagen benutzt, sind aber nicht für den Schwerverkehr
+		ausgelegt. Daneben gibt es als Hochleistungsstrassen nur noch die <placeName key="Montblanc">Montblanc</placeName>- und die
+		<placeName key="Brenner (Pass, A-I)">Brenner</placeName>route. Die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>autobahn konkurrenzierte bald einmal die Bahn, denn sie ermöglichte
 		– wie das Auto im Personenverkehr – die Individualisierung des Güterverkehrs. Wann
 		immer man will mit vielen
-		Tonnen Fracht in 15 Minuten hindurch – noch nie war die <idx type="place" norm="Alpen">Alpen</idx>querung
+		Tonnen Fracht in 15 Minuten hindurch – noch nie war die <placeName key="Alpen">Alpen</placeName>querung
 		für Spediteure so leicht, so schnell und so bedürfnisgerecht möglich. Das veränderte
 		die Kalkulationen.
 		Es begann sich zu lohnen, Ware weitherum zu verschieben und gar einzelne
-		Arbeitsschritte an weit auseinanderliegenden Orten auszuführen. Die <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>strassenachse
+		Arbeitsschritte an weit auseinanderliegenden Orten auszuführen. Die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>strassenachse
 		wurde zu einer
-		Hauptschlagader der Globalisierung in <idx type="place" norm="Europa">Europa</idx> und – Opfer ihres eigenen
+		Hauptschlagader der Globalisierung in <placeName key="Europa">Europa</placeName> und – Opfer ihres eigenen
 		Erfolgs.
 		Der Traum von der freien Fahrt wird heute durch die Masse, die ihn auslebt, immer mehr zum
 		Albtraum. Statt individueller Freiheit im Auto und freier Disponibilität im Lastwagen
 		herrscht
 		immer öfter kollektive Unfreiheit im Stau.</p>
-		<p id="Globalisierung_p25">Obwohl die Lastwagen heute im «Tropfenzählersystem» durch den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> geschleust
+		<p xml:id="Globalisierung_p25">Obwohl die Lastwagen heute im «Tropfenzählersystem» durch den <placeName key="St. Gotthard (Pass)">Gotthard</placeName> geschleust
 		werden müssen und eine Bewirtschaftung des knappen Verkehrsraums diskutiert wird, will
-		die Schweiz die Achse nicht erweitern. 1994 nahm das Volk die <idx type="place" norm="Alpen">Alpen</idx>initiative an, die den
+		die Schweiz die Achse nicht erweitern. 1994 nahm das Volk die <placeName key="Alpen">Alpen</placeName>initiative an, die den
 		Ausbau der Transitstrassen verbietet. 2004 lehnte es den Bau einer zweiten Strassenröhre am
-		<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> ausdrücklich ab. Die Entscheide markieren eine epochale Wende in der Geschichte
-		der <idx type="place" norm="Alpen">Alpen</idx>transversalen. Jahrhundertelang galt die Devise, die Pässe mehr und mehr dem
+		<placeName key="St. Gotthard (Pass)">Gotthard</placeName> ausdrücklich ab. Die Entscheide markieren eine epochale Wende in der Geschichte
+		der <placeName key="Alpen">Alpen</placeName>transversalen. Jahrhundertelang galt die Devise, die Pässe mehr und mehr dem
 		Verkehr zu öffnen. Jede Generation bot das Äusserste an Erfindergeist, technischem Können
 		und Geld auf, um die nächste Etappe zu schaffen und den Verkehr zu erleichtern. Stets lautete
 		die Frage, <hi rend="italics">wie</hi> man dies tun soll, und nicht, <hi rend="italics">ob</hi> man es tun soll. Mit dem Nein zur zweiten
-		Strassenröhre am <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> wurde erstmals in der Geschichte des Transits eine Verbindung
+		Strassenröhre am <placeName key="St. Gotthard (Pass)">Gotthard</placeName> wurde erstmals in der Geschichte des Transits eine Verbindung
 		nicht gebaut – nicht weil man nicht konnte, sondern weil man nicht wollte. Das ist ein Paradigmawechsel.
 		Mehr Strassentransport wird im Zeitalter der 40-Tönner-Karawanen von vielen
 		nicht mehr als positiv gesehen, nicht mehr als Quelle von Verdienst und Wohlstand wie zu
 		<pb n="23"/>Säumers Zeiten, sondern als Bedrohung des Lebensraums. Auf den asphaltierten Korridoren
 		der Globalisierung
-		im <idx type="place" norm="Alpen">Alpen</idx>raum soll nun die Grenze des Wachstums erreicht sein. Der <idx type="place" norm="Alpen">Alpen</idx>transit,
+		im <placeName key="Alpen">Alpen</placeName>raum soll nun die Grenze des Wachstums erreicht sein. Der <placeName key="Alpen">Alpen</placeName>transit,
 		so das Konzept, ist im 21. Jahrhundert Sache der schnellen, effizienten Flachbahnen.</p>
 		</div>
-		<div id="Globalisierung_d1.8">
+		<div xml:id="Globalisierung_d1.8">
 			<head>Auf der Ideallinie</head>
-		<p id="Globalisierung_p26">Vereinfachung und Tempogewinn ziehen sich als Konstanten durch den Jahrhunderte
-		dauernden Prozess, den <idx type="place" norm="Alpen">Alpen</idx>wall zu bezwingen. Beim Bau jeder neuen Verbindung ging es
+		<p xml:id="Globalisierung_p26">Vereinfachung und Tempogewinn ziehen sich als Konstanten durch den Jahrhunderte
+		dauernden Prozess, den <placeName key="Alpen">Alpen</placeName>wall zu bezwingen. Beim Bau jeder neuen Verbindung ging es
 		im Grunde darum, den Wegverlauf der Ideallinie anzunähern und dies mittels Technik gegen
 		die Natur durchzusetzen. Das Prinzip hiess: Annäherung der Vertikalen an die Horizontale
-		und Begradigung der Serpentinen. Die <idx type="place" norm="Römisches Reich">Römer</idx> legten die ersten Stufen und hieben Karrengeleise
+		und Begradigung der Serpentinen. Die <placeName key="Römisches Reich">Römer</placeName> legten die ersten Stufen und hieben Karrengeleise
 		in den Fels. Mit Brücken und Stegen lösten sich die Baumeister des Mittelalters vom
 		verschlungenen Verlauf der Hirtenpfade, den die Natur vorgab. Mit Sprengungen durch Felsbarrieren
 		zwang man im 18. Jahrhundert den Bergen die Direttissima auf. Mit gemauerten
 		Kunststrassen egalisierten die Ingenieure des 19. Jahrhunderts die Steilheit des Geländes. Die
-		<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn war ein Quantensprung im Prozess, den Verkehrsweg nach der Idee statt nach
+		<placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn war ein Quantensprung im Prozess, den Verkehrsweg nach der Idee statt nach
 		der Natur zu bauen. Indem sie mit Viadukten und Tunnels die natürlichen Hindernisse überbrückte
 		und durchschnitt, triumphierte die Triangulation über die Tektonik. Man feierte sie als
 		«Sieg über die Vertikale». Die Autobahnen des 20. Jahrhunderts schliesslich haben sich fast
 		ganz von den natürlichen Beschränkungen gelöst und überwinden Schluchten und Täler in
 		weiten Schwüngen, wie sie die Ingenieure am Reissbrett entwarfen. Begradigung der Serpentinen,
 		Annäherung an die Horizontale – Basistunnel führen das Prinzip zur Vollendung. Der
-		57 <abbr norm="Kilometer">km</abbr> lange <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>basistunnel ist die gerade Linie von Ebene zu Ebene. Er ist nicht mehr
+		57 <choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice> lange <placeName key="St. Gotthard (Pass)">Gotthard</placeName>basistunnel ist die gerade Linie von Ebene zu Ebene. Er ist nicht mehr
 		eine Annäherung an die Ideallinie. Er <hi rend="italics">ist</hi> die Ideallinie.</p>
-		<p id="Globalisierung_p27">Durch den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>basistunnel werden Personenzüge mit 250 Stundenkilometern rasen
-		und die Reise <idx type="place" norm="Zürich (Stadt)">Zürich</idx>–<idx type="place" norm="Mailand (I)">Mailand</idx> um anderthalb Stunden auf 2 Stunden 40 Minuten verkürzen.
+		<p xml:id="Globalisierung_p27">Durch den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>basistunnel werden Personenzüge mit 250 Stundenkilometern rasen
+		und die Reise <placeName key="Zürich (Stadt)">Zürich</placeName>–<placeName key="Mailand (I)">Mailand</placeName> um anderthalb Stunden auf 2 Stunden 40 Minuten verkürzen.
 		Güterzüge
 		können ohne die Steigung viel mehr laden und bis 160 Stundenkilometer schnell
 		fahren, was die Kapazität der Güterachse verdoppelt. Welch ein Hochleistungskanal zur
 		Globalisierung!
-		Mit der Flachbahn am <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> beginnt eine neue Ära, die das Gesicht des
+		Mit der Flachbahn am <placeName key="St. Gotthard (Pass)">Gotthard</placeName> beginnt eine neue Ära, die das Gesicht des
 		Kontinents verändern wird. Auf der Ideallinie von Ebene zu Ebene, das bedeutet nichts weniger
-		als – die Eliminierung der <idx type="place" norm="Alpen">Alpen</idx> für den Transitverkehr.</p>
+		als – die Eliminierung der <placeName key="Alpen">Alpen</placeName> für den Transitverkehr.</p>
 					</div>
-			<p id="Globalisierung_p28"><hi rend="italics">Helmut Stalder</hi> </p>
+			<p xml:id="Globalisierung_p28">
+                    <hi rend="italics">Helmut Stalder</hi> </p>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>

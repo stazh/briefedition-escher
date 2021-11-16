@@ -1,128 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Aufstieg" name="Aufstieg">
-  <metadata>
-    <title>Eschers Aufstieg in der Politik (1842–1848)</title>
-    <author>
-    	<name>Björn Koch, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Aufstieg">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Eschers Aufstieg in der Politik (1842–1848)</title>
+                <author>
+    	Björn Koch, unter der Leitung von Prof. Dr. Joseph Jung
     </author>
-    <source>
-      <volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1843–1848). Jesuiten,
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1843–1848). Jesuiten,
 				Freischaren, Sonderbund, Bundesrevision, bearbeitet und kommentiert von Björn Koch
 				(Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-				Escher-Stiftung, Band 3), Zürich 2011</volume_title>
-    	<short_title>Jung/Koch, Escher Briefe, Band 3</short_title>
-      <volume>3</volume>
-      <page>19–29</page>
-    </source>
-  	<description>Paris: Zukunftspläne – Zürich: Voller Tatendrang – Politik</description>
-    <revision>
-      <change>XML-Grundstruktur erstellt, CF, 15.06.2011</change>
-      <change>Auszeichnung nach DTD-Umstellung, CF, 15.06.2011</change>
-      <change>e-Edition: Auzeichnung 1 umgesetzt, BP, 12.07.2011</change>
-      <change>e-Edition: Verifizierung 1 umgesetzt, TM, 17.07.2011</change>
-      <change>e-Edition: Auzeichnung 2 umgesetzt, TM, 27.07.2011</change>
-      <change>e-Edition: Verifizierung 2 umgesetzt, BP, 28.07.2011</change>
-    	<change>Verifiziert, BF, 18.06.2015</change>
-    </revision>
-  </metadata>
-  <body>
-    <div id="Aufstieg_d1">
+				Escher-Stiftung, Band 3), Zürich 2011</title>
+                    <title type="short">Jung/Koch, Escher Briefe, Band 3</title>
+                    <ref type="volume" target="V3">19–29</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Paris: Zukunftspläne – Zürich: Voller Tatendrang – Politik</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, CF, 15.06.2011</change>
+                <change>Auszeichnung nach DTD-Umstellung, CF, 15.06.2011</change>
+                <change>e-Edition: Auzeichnung 1 umgesetzt, BP, 12.07.2011</change>
+                <change>e-Edition: Verifizierung 1 umgesetzt, TM, 17.07.2011</change>
+                <change>e-Edition: Auzeichnung 2 umgesetzt, TM, 27.07.2011</change>
+                <change>e-Edition: Verifizierung 2 umgesetzt, BP, 28.07.2011</change>
+                <change>Verifiziert, BF, 18.06.2015</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+    <div xml:id="Aufstieg_d1">
       <head>
         <pb n="19"/>Eschers Aufstieg in der Politik (1842–1848)</head>
-      <div id="Aufstieg_d1.1">
+      <div xml:id="Aufstieg_d1.1">
         <head>Paris: Zukunftspläne</head>
-        <p id="Aufstieg_p1">Escher weiss nicht mehr, wo ihm der Kopf steht<ref type="letter" target="K_4638"><!--Nr. 44--></ref>. Dies schreibt er zumindest dem <idx type="place" norm="Appenzell Ausserrhoden">Appenzeller</idx> Landammann und
-        	Tagsatzungsgesandten <ref type="kbp"/><idx type="person" norm="Zellweger Jakob">Jakob Zellweger</idx> im November
+        <p xml:id="Aufstieg_p1">Escher weiss nicht mehr, wo ihm der Kopf steht<!--Nr. 44-->. Dies schreibt er zumindest dem <placeName key="Appenzell Ausserrhoden">Appenzeller</placeName> Landammann und
+        	Tagsatzungsgesandten <persName key="Zellweger Jakob">Jakob Zellweger</persName> im November
 					1846. Gerade einmal 27 Jahre alt ist Escher zu diesem Zeitpunkt und politisiert
-					bereits im <idx type="place" norm="Zürich">Zürcher</idx> Grossen Rat, ist
-					Mitglied des Erziehungsrats und vertritt die Interessen <idx type="place" norm="Zürich">Zürichs</idx> an den Tagsatzungen von 1845 und 1846 als
+					bereits im <placeName key="Zürich">Zürcher</placeName> Grossen Rat, ist
+					Mitglied des Erziehungsrats und vertritt die Interessen <placeName key="Zürich">Zürichs</placeName> an den Tagsatzungen von 1845 und 1846 als
 					dritter Gesandter. Doch damit nicht genug; er hält Vorlesungen als Privatdozent
-					an der Universität <idx type="place" norm="Zürich (Stadt)">Zürich</idx> und
+					an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName> und
 					pflegt ausgiebigen Kontakt mit den politisch Gleichgesinnten in der ganzen
 					Eidgenossenschaft. Arbeit ist Eschers Leben. Ab den 1840er Jahren dreht sich
 					alles um seine Ämter und die Politik. Später opfert Escher sich für seine
 					Gründungen auf – allen voran für die Nordostbahn-Gesellschaft und die Schweizerische Kreditanstalt.</p>
-        <p id="Aufstieg_p2">Doch blenden wir zurück zum September 1842. Escher hatte sein
-					Studium an der Universität <idx type="place" norm="Zürich (Stadt)">Zürich</idx>
+        <p xml:id="Aufstieg_p2">Doch blenden wir zurück zum September 1842. Escher hatte sein
+					Studium an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName>
 					mit dem Doktor beider Rechte abgeschlossen; er war der erste, dem diese Würde an
-					der 1833 gegründeten Hochschule zuteil wurde.<com id="Aufstieg_c1"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Schmid, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 138–144.</com> Viele
+					der 1833 gegründeten Hochschule zuteil wurde.<com xml:id="Aufstieg_c1">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Schmid, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 138–144.</com> Viele
 					Wege standen dem jungen Juristen offen. Grundsätzlich hätte man sich Escher in
-					einer Anwaltskanzlei vorstellen können – etwa als Partner <ref type="kbp"/><idx type="person" norm="Furrer Jonas">Jonas Furrers</idx>. Sein juristisches
+					einer Anwaltskanzlei vorstellen können – etwa als Partner <persName key="Furrer Jonas">Jonas Furrers</persName>. Sein juristisches
 					Talent hätte ihn zweifellos auch an ein Gericht oder in ein staatliches Amt
 					führen können. Bei Eschers publizistischer Begabung wäre die Mitarbeit in einer
-					Zeitungsredaktion – etwa bei der «Neuen <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» – ebenso denkbar gewesen. Und warum sollte sich
+					Zeitungsredaktion – etwa bei der «Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung» – ebenso denkbar gewesen. Und warum sollte sich
 					Escher nicht nochmals neu orientieren und seinen Jugendtraum von einem
 					naturwissenschaftlichen Studium verwirklichen, um sich danach zusammen mit dem
-					früheren Hauslehrer <ref type="kbp"/><idx type="person" norm="Heer Oswald">Oswald Heer</idx> der <idx type="person" norm="Escher (vom Glas) Heinrich">väterlichen</idx> entomologischen Sammlung
-						anzunehmen?<com id="Aufstieg_c2">Zu Eschers Interesse an den
-						Naturwissenschaften <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 94.</com> Im September
+					früheren Hauslehrer <persName key="Heer Oswald">Oswald Heer</persName> der <persName key="Escher (vom Glas) Heinrich">väterlichen</persName> entomologischen Sammlung
+						anzunehmen?<com xml:id="Aufstieg_c2">Zu Eschers Interesse an den
+						Naturwissenschaften <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 94.</com> Im September
 					1842 musste sich Escher vorerst Klarheit über seinen weiteren Weg verschaffen
 					und spielte mit dem Gedanken, sich zu diesem Zweck für einige Zeit ins Ausland
 					zu begeben.</p>
-        <p id="Aufstieg_p3">Dieser Wunsch kam nicht von ungefähr. Einerseits lag der Familie
-					Escher das Reisen im Blut. Alfred Eschers Grossvater <idx type="person" norm="Escher (vom Glas)-Keller Hans Caspar">Hans Caspar Escher-Keller</idx> hatte
-					ausgiebige Expeditionen nach <idx type="place" norm="Russland">Russland</idx>
-					unternommen, die beiden Onkel <idx type="person" norm="Escher (vom Glas) Friedrich Ludwig">Friedrich Ludwig</idx> und <idx type="person" norm="Escher (vom Glas) Ferdinand">Ferdinand Escher</idx> brachten einen
-					Grossteil ihres Lebens in <idx type="place" norm="Russland">Russland</idx> und
-        	auf <idx type="place" norm="Kuba">Kuba</idx> zu, und auch den Vater <ref type="kbp"/><idx type="person" norm="Escher (vom Glas) Heinrich">Heinrich Escher</idx>
-					führten seine Geschäfte schon in jungen Jahren nach <idx type="place" norm="Frankreich">Frankreich</idx> und <idx type="place" norm="Nordamerika">Nordamerika</idx>.<com id="Aufstieg_c3">Zur Familiengeschichte
-							<abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 28–41.</com>
-					Andererseits darf die Bedeutung von Alfred Eschers Vetter <ref type="kbp"/><idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Friedrich
-						Ludwig Keller</idx>, Rechtsprofessor an der Universität <idx type="place" norm="Zürich (Stadt)">Zürich</idx>, nicht unterschätzt werden. Auf sein
+        <p xml:id="Aufstieg_p3">Dieser Wunsch kam nicht von ungefähr. Einerseits lag der Familie
+					Escher das Reisen im Blut. Alfred Eschers Grossvater <persName key="Escher (vom Glas)-Keller Hans Caspar">Hans Caspar Escher-Keller</persName> hatte
+					ausgiebige Expeditionen nach <placeName key="Russland">Russland</placeName>
+					unternommen, die beiden Onkel <persName key="Escher (vom Glas) Friedrich Ludwig">Friedrich Ludwig</persName> und <persName key="Escher (vom Glas) Ferdinand">Ferdinand Escher</persName> brachten einen
+					Grossteil ihres Lebens in <placeName key="Russland">Russland</placeName> und
+        	auf <placeName key="Kuba">Kuba</placeName> zu, und auch den Vater <persName key="Escher (vom Glas) Heinrich">Heinrich Escher</persName>
+					führten seine Geschäfte schon in jungen Jahren nach <placeName key="Frankreich">Frankreich</placeName> und <placeName key="Nordamerika">Nordamerika</placeName>.<com xml:id="Aufstieg_c3">Zur Familiengeschichte
+							<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 28–41.</com>
+					Andererseits darf die Bedeutung von Alfred Eschers Vetter <persName key="Keller (vom Steinbock) Friedrich Ludwig">Friedrich
+						Ludwig Keller</persName>, Rechtsprofessor an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName>, nicht unterschätzt werden. Auf sein
 					Anraten hin schrieb sich Escher im April 1837 für das Studium der Rechte ein und
-					trat damit in die Einflußsphäre <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Kellers</idx>. Nach Abschluss
+					trat damit in die Einflußsphäre <persName key="Keller (vom Steinbock) Friedrich Ludwig">Kellers</persName>. Nach Abschluss
 					seiner juristischen Studien entschied sich Escher, auch sein
-					Dissertationsvorhaben unter <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Kellers</idx> Leitung in
+					Dissertationsvorhaben unter <persName key="Keller (vom Steinbock) Friedrich Ludwig">Kellers</persName> Leitung in
 					Angriff zu nehmen. Der Entscheid zur Promotion verweist bereits auf die damalige
 					Absicht, sich die wissenschaftliche Laufbahn offenzuhalten – eine Ansicht, die
-					auch Eschers Freund <ref type="kbp"/><idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumer</idx> vertrat:
+					auch Eschers Freund <persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName> vertrat:
 					«Für dich war freilich, da du Dozent zu werden beabsichtigst, die Erreichung der
-					Doktorwürde beinahe unerläßlich [...].»<com id="Aufstieg_c4"><ref type="letter" target="K_0268"><!--Nr. 60--></ref>. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Schmid, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 140.</com> </p>
-        <p id="Aufstieg_p4">Escher hatte während seines Studiums Auslandsemester in <idx type="place" norm="Bonn (D)">Bonn</idx> und <idx type="place" norm="Berlin (D)">Berlin</idx> verbracht. 1838 schrieb <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Keller</idx> seinem Schüler,
+					Doktorwürde beinahe unerläßlich [...].»<com xml:id="Aufstieg_c4"><!--Nr. 60-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Schmid, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 140.</com> </p>
+        <p xml:id="Aufstieg_p4">Escher hatte während seines Studiums Auslandsemester in <placeName key="Bonn (D)">Bonn</placeName> und <placeName key="Berlin (D)">Berlin</placeName> verbracht. 1838 schrieb <persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName> seinem Schüler,
 					dass er es «für einen durchaus veralteten Bildungsplan [halte], wenn wir
-					Schweizer die <abbr norm="sogenannt">s.g.</abbr> solide Bildung ausschließlich in <idx type="place" norm="Deutschland">Teutschland</idx> holen wollen». Deshalb
-					empfahl er Escher einen längeren Aufenthalt in <idx type="place" norm="England">England</idx>, damit er sich dort eigenen Studien und der «Beobachtung des
-					öffentlichen Lebens im weitesten Sinne» widmen könne.<com id="Aufstieg_c5"><ref type="letter" target="K_0177"><!--Nr. 30--></ref>. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Schmid, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 141–142.</com> <pb n="20"/>Diesen Rat befolgte Escher Ende 1842 nur teilweise, denn er
-					entschied sich, das Vorhaben in <idx type="place" norm="Frankreich">Frankreich</idx> und nicht in <idx type="place" norm="England">England</idx> umzusetzen.</p>
-        <p id="Aufstieg_p5">Da sich einige Studienfreunde Eschers bereits in <idx type="place" norm="Paris (F)">Paris</idx> aufhielten, konnte er diese
+					Schweizer die <choice>
+                            <abbr>s.g.</abbr>
+                            <expan>sogenannt</expan>
+                        </choice> solide Bildung ausschließlich in <placeName key="Deutschland">Teutschland</placeName> holen wollen». Deshalb
+					empfahl er Escher einen längeren Aufenthalt in <placeName key="England">England</placeName>, damit er sich dort eigenen Studien und der «Beobachtung des
+					öffentlichen Lebens im weitesten Sinne» widmen könne.<com xml:id="Aufstieg_c5"><!--Nr. 30-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Schmid, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 141–142.</com> <pb n="20"/>Diesen Rat befolgte Escher Ende 1842 nur teilweise, denn er
+					entschied sich, das Vorhaben in <placeName key="Frankreich">Frankreich</placeName> und nicht in <placeName key="England">England</placeName> umzusetzen.</p>
+        <p xml:id="Aufstieg_p5">Da sich einige Studienfreunde Eschers bereits in <placeName key="Paris (F)">Paris</placeName> aufhielten, konnte er diese
 					Kontakte nutzen, um sich vor seiner Abreise nach einer angemessenen Unterkunft
-					für seinen halbjährigen Aufenthalt zu erkundigen. Der junge Mediziner <ref type="kbp"/><idx type="person" norm="Sinz Carl Rudolf">Carl Rudolf Sinz</idx> nahm sich der
+					für seinen halbjährigen Aufenthalt zu erkundigen. Der junge Mediziner <persName key="Sinz Carl Rudolf">Carl Rudolf Sinz</persName> nahm sich der
 					Unterbringung seines Freundes an, was sich aber nicht so einfach gestalten
-					sollte. Escher stellte gewisse Ansprüche an sein Auslandsdomizil, und <idx type="person" norm="Sinz Carl Rudolf">Sinz</idx> meldete nach <idx type="place" norm="Zürich (Stadt)">Zürich</idx> über die Wohnsituation in
-						<idx type="place" norm="Paris (F)">Paris</idx>: «Die Weite des Weges würde
+					sollte. Escher stellte gewisse Ansprüche an sein Auslandsdomizil, und <persName key="Sinz Carl Rudolf">Sinz</persName> meldete nach <placeName key="Zürich (Stadt)">Zürich</placeName> über die Wohnsituation in
+						<placeName key="Paris (F)">Paris</placeName>: «Die Weite des Weges würde
 					weniger machen (sie ist jedenfalls nicht beträchtlicher als die Streke die du
-					von <idx type="place" norm="Belvoir (Enge, Zürich)">Belvoir</idx> nach der Stadt
+					von <placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName> nach der Stadt
 					zu machen hast,) wenn du in unser Quartier zögest. Nur ist es schwer Zimmer zu
-					finden, die groß genug sind, um <abbr norm="zum beispiel">zb.</abbr> mit Ehren Leute aus der höhern
-					Gesellschaft bei sich zu empfangen.»<com id="Aufstieg_c6"><ref type="letter" target="K_0273"><!--Nr. 62--></ref>.</com> Escher quartierte sich
-					schliesslich im Hôtel Manchester an der Rue de Gramont ein.<com id="Aufstieg_c7"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Schmid, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 159.</com> </p>
-        <p id="Aufstieg_p6">In der Weltstadt angelangt, befand sich Escher in der
+					finden, die groß genug sind, um <choice>
+                            <abbr>zb.</abbr>
+                            <expan>zum beispiel</expan>
+                        </choice> mit Ehren Leute aus der höhern
+					Gesellschaft bei sich zu empfangen.»<com xml:id="Aufstieg_c6"><!--Nr. 62-->.</com> Escher quartierte sich
+					schliesslich im Hôtel Manchester an der Rue de Gramont ein.<com xml:id="Aufstieg_c7">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Schmid, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 159.</com> </p>
+        <p xml:id="Aufstieg_p6">In der Weltstadt angelangt, befand sich Escher in der
 					komfortablen Lage, dass er keinen Verpflichtungen nachzukommen brauchte und
 					somit Zeit für sich hatte. Er befand sich in einem Zustand der Zwanglosigkeit –
 					es sollte das letzte Mal in seinem Leben sein, dass er seine Tage nach Lust und
-					Laune gestalten konnte. <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Kellers</idx> Empfehlung zur
+					Laune gestalten konnte. <persName key="Keller (vom Steinbock) Friedrich Ludwig">Kellers</persName> Empfehlung zur
 					«Beobachtung des öffentlichen Lebens» gewährte einen grossen Spielraum. Escher
-					traf sich häufig mit schweizerischen und <idx type="place" norm="Deutschland">deutschen</idx> Freunden im «Café de la Rotonde» im Quartier Latin.
+					traf sich häufig mit schweizerischen und <placeName key="Deutschland">deutschen</placeName> Freunden im «Café de la Rotonde» im Quartier Latin.
 					«Rotundia» nannte sich das Grüppchen der «Exilanten», die dort regelmässig über
 					Gott und die Welt debattierten und sich Briefe von gemeinsamen Freunden
-					vorlasen.<com id="Aufstieg_c8"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_0283"><!--Bd. 2, Nr. 66--></ref>; <ref type="letter" target="K_0287"><!--Brief--></ref>.</com> Mit dem «Rotundianer» <ref type="kbp"/><idx type="person" norm="Honegger Johannes">Johannes Honegger</idx> besuchte
-					Escher <idx type="place" norm="Versailles (F)">Versailles</idx> und die «<idx type="place" norm="Paris (F)">Pariser</idx>-Merkwürdigkeiten»; die beiden
-					waren zudem begeisterte Operngänger.<com id="Aufstieg_c9"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_0283"><!--Bd. 2, Nr. 66--></ref>; <ref type="letter" target="K_0267"><!--Brief--></ref>.</com> Zu ihren Lieblingsopern zählte «La part du diable» von <idx type="person" norm="Auber Daniel">Daniel Auber</idx>, die
-					Escher dreimal besuchte. Vor allem die <idx type="place" norm="Spanien">spanische</idx> Sängerin <idx type="person" norm="Rossi-Caccia Juana">Juana Rossi-Caccia</idx> hatte es ihm angetan.<com id="Aufstieg_c10"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_0283"><!--Bd. 2, Nr. 66--></ref>.</com> Als Eschers Doktorvater <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Keller</idx> über Ostern in <idx type="place" norm="Paris (F)">Paris</idx> weilte, wollte dieser in «die Bibliotheken
-					[...] keinen Fuß»<com id="Aufstieg_c11"><ref type="letter" target="K_0283"><!--Bd. 2, Nr. 66--></ref>.</com> setzen; er hielt sich zusammen mit Escher
-					bevorzugt in Antiquariaten und im Theater auf<ref type="letter" target="K_0295"><!--Nr. 2--></ref>. Bei diesen Unternehmungen zeigt sich an Escher eine
+					vorlasen.<com xml:id="Aufstieg_c8">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <!--Bd. 2, Nr. 66-->; <!--Brief-->.</com> Mit dem «Rotundianer» <persName key="Honegger Johannes">Johannes Honegger</persName> besuchte
+					Escher <placeName key="Versailles (F)">Versailles</placeName> und die «<placeName key="Paris (F)">Pariser</placeName>-Merkwürdigkeiten»; die beiden
+					waren zudem begeisterte Operngänger.<com xml:id="Aufstieg_c9">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <!--Bd. 2, Nr. 66-->; <!--Brief-->.</com> Zu ihren Lieblingsopern zählte «La part du diable» von <persName key="Auber Daniel">Daniel Auber</persName>, die
+					Escher dreimal besuchte. Vor allem die <placeName key="Spanien">spanische</placeName> Sängerin <persName key="Rossi-Caccia Juana">Juana Rossi-Caccia</persName> hatte es ihm angetan.<com xml:id="Aufstieg_c10">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <!--Bd. 2, Nr. 66-->.</com> Als Eschers Doktorvater <persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName> über Ostern in <placeName key="Paris (F)">Paris</placeName> weilte, wollte dieser in «die Bibliotheken
+					[...] keinen Fuß»<com xml:id="Aufstieg_c11"><!--Bd. 2, Nr. 66-->.</com> setzen; er hielt sich zusammen mit Escher
+					bevorzugt in Antiquariaten und im Theater auf<!--Nr. 2-->. Bei diesen Unternehmungen zeigt sich an Escher eine
 					Unbeschwertheit, die man später vergeblich suchen wird.</p>
-        <p id="Aufstieg_p7">Dennoch waren Eschers Pläne für den <idx type="place" norm="Paris (F)">Paris</idx>-Aufenthalt keineswegs auf Opern- und
+        <p xml:id="Aufstieg_p7">Dennoch waren Eschers Pläne für den <placeName key="Paris (F)">Paris</placeName>-Aufenthalt keineswegs auf Opern- und
 					Museumsbesuche ausgerichtet. Seine Absicht war vielmehr, sich über seine
 					Zukunftspläne klar zu werden. Darüber hinaus beschäftigte sich Escher mit der
-					Philosophie <idx type="person" norm="Hegel Georg Wilhelm Friedrich">Hegels</idx>, besuchte Gerichtsverhandlungen und setzte sich mit der <idx type="place" norm="Frankreich">französischen</idx> Rechtsprechung
-						auseinander.<com id="Aufstieg_c12"><idx type="person" norm="Blumer Johann Jakob">Blumer</idx> stellte Escher ein <idx type="person" norm="Hegel Georg Wilhelm Friedrich">Hegel</idx>-Buch zu,
-						damit sich dieser mit dessen Philosophie auseinandersetzen konnte. Laut <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> konnte sich Escher
-						mit dieser Materie jedoch nicht anfreunden. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_0275"/>; <ref type="letter" target="K_0286"/>.</com> An seinen Vetter <idx type="person" norm="Escher (vom Glas) Jakob">Jakob Escher</idx> schrieb er über das «Provisorium», in dem er sich
+					Philosophie <persName key="Hegel Georg Wilhelm Friedrich">Hegels</persName>, besuchte Gerichtsverhandlungen und setzte sich mit der <placeName key="Frankreich">französischen</placeName> Rechtsprechung
+						auseinander.<com xml:id="Aufstieg_c12">
+                            <persName key="Blumer Johann Jakob">Blumer</persName> stellte Escher ein <persName key="Hegel Georg Wilhelm Friedrich">Hegel</persName>-Buch zu,
+						damit sich dieser mit dessen Philosophie auseinandersetzen konnte. Laut <persName key="Blumer Johann Jakob">Blumer</persName> konnte sich Escher
+						mit dieser Materie jedoch nicht anfreunden. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> ; .</com> An seinen Vetter <persName key="Escher (vom Glas) Jakob">Jakob Escher</persName> schrieb er über das «Provisorium», in dem er sich
 					befinde, und legte in langen Ausführungen seine Gedanken zu juristischen
-					Sachverhalten dar.<com id="Aufstieg_c13"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_0283"><!--Nr. 66--></ref>.</com> Alfred Escher
-					suchte eine neue Herausforderung und empfand dabei die Zerstreuungen in <idx type="place" norm="Paris (F)">Paris</idx> zunehmend als hinderlich.
+					Sachverhalten dar.<com xml:id="Aufstieg_c13">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <!--Nr. 66-->.</com> Alfred Escher
+					suchte eine neue Herausforderung und empfand dabei die Zerstreuungen in <placeName key="Paris (F)">Paris</placeName> zunehmend als hinderlich.
 					Aufgewühlt schrieb er im April 1843: «Ich bin in diesen Wochen immer mit meiner
 					Zukunft beschäftigt. So wenig die unendlich vielgestaltigen &amp; zerstreuenden
 					äußern Verhältnisse, in denen ich hier lebe, dazu geeignet sind, mir diejenige
@@ -131,406 +211,601 @@
 					das unabweisliche Bedürfniß, mir ein bestimmtes Ziel für mein Sinnen &amp;
 					Streben zu setzen, damit ich von jetzt an keinen Augenblick für die Erjagung
 					desselben verliere, zu einem festen Entschlusse in Beziehung auf die Laufbahn
-					hin, in der ich das Bischen Kraft, das Gott mir anvertraut, aufreiben soll.»<com id="Aufstieg_c14"><ref type="letter" target="K_0283"><!--Nr. 66--></ref>.</com> Bereits in diesen Worten zeigt sich das später
+					hin, in der ich das Bischen Kraft, das Gott mir anvertraut, aufreiben soll.»<com xml:id="Aufstieg_c14"><!--Nr. 66-->.</com> Bereits in diesen Worten zeigt sich das später
 					immer ausgeprägter hervortretende Arbeitsethos Eschers. Das gesellschaftliche
-					Leben in den <idx type="place" norm="Paris (F)">Pariser</idx> Salons, die
+					Leben in den <placeName key="Paris (F)">Pariser</placeName> Salons, die
 					Kunstschätze und die <pb n="21"/>kulturelle Vielfalt der Stadt genoss Escher
 					wohl zu Beginn seines Aufenthalts. Doch auf lange Sicht war dies nicht das
 					Leben, das er sich wünschte, da es seinen Schaffensdrang nicht befriedigte.</p>
-        <p id="Aufstieg_p8">Alfred Escher haderte mit dem Umstand, dass er seine bisherige
+        <p xml:id="Aufstieg_p8">Alfred Escher haderte mit dem Umstand, dass er seine bisherige
 					wissenschaftliche Beschäftigung als einengend und unzeitgemäss empfand. In
-					seiner Dissertation hatte er sich mit <idx type="place" norm="Römisches Reich">römischem</idx> Recht befasst, einer Thematik,
-					die ihm nun weltfremd erschien.<com id="Aufstieg_c15"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Escher, De testium ratione</ref>.</com> <idx type="person" norm="Escher (vom Glas) Jakob">Jakob Escher</idx> teilte er
+					seiner Dissertation hatte er sich mit <placeName key="Römisches Reich">römischem</placeName> Recht befasst, einer Thematik,
+					die ihm nun weltfremd erschien.<com xml:id="Aufstieg_c15">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Escher, De testium ratione</ref>.</com> <persName key="Escher (vom Glas) Jakob">Jakob Escher</persName> teilte er
 					seine Besorgnis mit, dass er bei einer weiteren Beschäftigung mit dieser
 					Thematik Gefahr laufe, «in den Rechten der andern und so namentlich auch der
-					modernen Völker ein Idiote» zu bleiben.<com id="Aufstieg_c16"><ref type="letter" target="K_0283"><!--Nr. 66--></ref>.</com> Gerade das Hier und Jetzt
-					interessierte Escher brennend. Denn wenn auch das <idx type="place" norm="Römisches Reich">römische</idx> Recht die Grundlage der modernen
+					modernen Völker ein Idiote» zu bleiben.<com xml:id="Aufstieg_c16"><!--Nr. 66-->.</com> Gerade das Hier und Jetzt
+					interessierte Escher brennend. Denn wenn auch das <placeName key="Römisches Reich">römische</placeName> Recht die Grundlage der modernen
 					Jurisprudenz bildete, so wollte er nicht mehr nur die althergebrachte
 					Gesetzgebung nachvollziehen, sondern die Befähigung für eine praxisorientierte
 					Tätigkeit erlangen: «Ich will hier lieber von der auffallenden Erscheinung
-					reden, daß man auf den <idx type="place" norm="Deutschland">deutschen</idx>
+					reden, daß man auf den <placeName key="Deutschland">deutschen</placeName>
 					Universitäten &amp; also auch auf der unsrigen [...] es zu vergessen scheint,
 					daß eine wesentliche Aufgabe ihrer Rechtsfacultäten auch darin besteht, die
 					ihrer Pflege anvertrauten zu gesetzgeberischer Thätigkeit zu befähigen. [...]
-					Die <idx type="place" norm="Frankreich">Franzosen</idx> [...] haben jene Aufgabe
-					der Universitätsbildung erkannt.»<com id="Aufstieg_c17"><ref type="letter" target="K_0283"><!--Nr. 66--></ref>.</com> In <idx type="place" norm="Frankreich">Frankreich</idx> hatte er eine lebendige Wissenschaft entdeckt, die nicht
+					Die <placeName key="Frankreich">Franzosen</placeName> [...] haben jene Aufgabe
+					der Universitätsbildung erkannt.»<com xml:id="Aufstieg_c17"><!--Nr. 66-->.</com> In <placeName key="Frankreich">Frankreich</placeName> hatte er eine lebendige Wissenschaft entdeckt, die nicht
 					in lähmender Ehrfurcht vor dem Alten verharrte und darüber die Rechtssetzung der
 					Gegenwart vergass.</p>
-        <p id="Aufstieg_p9"><idx type="place" norm="Paris (F)">Paris</idx> eröffnete Escher
+        <p xml:id="Aufstieg_p9">
+                        <placeName key="Paris (F)">Paris</placeName> eröffnete Escher
 					neue Perspektiven. Und hier bot sich ihm auch die Gelegenheit, Pläne zur
-					Gestaltung der Eidgenossenschaft zu schmieden. In Gesprächen mit den <idx type="place" norm="Paris (F)">Pariser</idx> Freunden – allen voran mit <idx type="person" norm="Honegger Johannes">Johannes Honegger</idx> – gewann die
-					Vision einer fortschrittlichen Schweiz zunehmend an Konturen. <idx type="person" norm="Honegger Johannes">Honegger</idx> rief sich diese Zeit auch später
+					Gestaltung der Eidgenossenschaft zu schmieden. In Gesprächen mit den <placeName key="Paris (F)">Pariser</placeName> Freunden – allen voran mit <persName key="Honegger Johannes">Johannes Honegger</persName> – gewann die
+					Vision einer fortschrittlichen Schweiz zunehmend an Konturen. <persName key="Honegger Johannes">Honegger</persName> rief sich diese Zeit auch später
 					noch gerne ins Gedächtnis, in der er mit Escher über die «zukünftige
-						Gestaltung»<ref type="letter" target="K_0323"><!--Nr. 12--></ref> der
+						Gestaltung»<!--Nr. 12--> der
 					politischen Tätigkeit sinnierte. Diese Gespräche beeinflussten auch Eschers
 					wissenschaftliche Ausrichtung. Er wollte sich nun intensiv mit vergleichenden
 					Rechtswissenschaften beschäftigen und sich mit der modernen Rechtsprechung
-					auseinandersetzen. Voller Enthusiasmus offenbarte er <idx type="person" norm="Honegger Johannes">Honegger</idx> seine Ideen, wie dieser sich später
-					erinnerte: «Heute vor einem Jahr hast du mir in der Rotonde deinen Brief an <idx type="person" norm="Escher (vom Glas) Jakob">J. Escher</idx> vorgelesen, in
-					dem du mit freudiger Begeisterung deine neuen, durch <abbr norm="Doktor / Doctor">Dr.</abbr> <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Kellers</idx>
-					Anwesenheit in <idx type="place" norm="Paris (F)">Paris</idx>, völlig zur Reife
-					gediehenen wissenschaftlichen Pläne auseinandersetztest.»<com id="Aufstieg_c18"><ref type="letter" target="K_0319"/>.</com> Escher entwarf einen
+					auseinandersetzen. Voller Enthusiasmus offenbarte er <persName key="Honegger Johannes">Honegger</persName> seine Ideen, wie dieser sich später
+					erinnerte: «Heute vor einem Jahr hast du mir in der Rotonde deinen Brief an <persName key="Escher (vom Glas) Jakob">J. Escher</persName> vorgelesen, in
+					dem du mit freudiger Begeisterung deine neuen, durch <choice>
+                            <abbr>Dr.</abbr>
+                            <expan>Doktor / Doctor</expan>
+                        </choice> <persName key="Keller (vom Steinbock) Friedrich Ludwig">Kellers</persName>
+					Anwesenheit in <placeName key="Paris (F)">Paris</placeName>, völlig zur Reife
+					gediehenen wissenschaftlichen Pläne auseinandersetztest.»<com xml:id="Aufstieg_c18">.</com> Escher entwarf einen
 					Grundriss für ein ambitioniertes Projekt, bei dem er die Rechtsgeschichte der
-					gesamten Eidgenossenschaft aufarbeiten wollte.<com id="Aufstieg_c19"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_0287"/>; <ref type="letter" target="K_0286"/>.</com> Mit «feurigem Eifer» sah Escher der Verwirklichung seiner Pläne
-					entgegen. An <idx type="person" norm="Escher (vom Glas) Jakob">Jakob
-						Escher</idx> schrieb er: «Es ist jetzt der Augenblick gekommen, da ich einen
+					gesamten Eidgenossenschaft aufarbeiten wollte.<com xml:id="Aufstieg_c19">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> ; .</com> Mit «feurigem Eifer» sah Escher der Verwirklichung seiner Pläne
+					entgegen. An <persName key="Escher (vom Glas) Jakob">Jakob
+						Escher</persName> schrieb er: «Es ist jetzt der Augenblick gekommen, da ich einen
 					für meine ganze Zukunft entscheidenden Entschluß, wohl den wichtigsten meines
 					Lebens, zu faßen habe. In wenigen Wochen werde ich in der Heimath sein und die
 					Ruhe der mich umgebenden äußern Verhältniße werden dann die angestrengten
 					Arbeiten begünstigen [...]. Ich habe vielleicht schon zu viel Zeit auf eine
 					Richtung verwendet, von der ich mir als ich sie zu verfolgen anfing, nicht
 					genugsame Rechenschaft gegeben und die nun wohl kaum die meinige bleiben
-						wird.»<com id="Aufstieg_c20"><ref type="letter" target="K_0287"/>.</com> </p>
+						wird.»<com xml:id="Aufstieg_c20">.</com> </p>
       </div>
-      <div id="Aufstieg_d1.2">
+      <div xml:id="Aufstieg_d1.2">
         <head>Zürich: Voller Tatendrang</head>
-        <p id="Aufstieg_p10">Escher kehrte im Juli 1843 beseelt von frischen Eindrücken und
-					Plänen zurück nach <idx type="place" norm="Zürich (Stadt)">Zürich</idx>. Er traf
-					sich mit <idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumer</idx>
-					in <idx type="place" norm="Rapperswil (Rapperswil-Jona)">Rapperswil</idx>,
+        <p xml:id="Aufstieg_p10">Escher kehrte im Juli 1843 beseelt von frischen Eindrücken und
+					Plänen zurück nach <placeName key="Zürich (Stadt)">Zürich</placeName>. Er traf
+					sich mit <persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName>
+					in <placeName key="Rapperswil (Rapperswil-Jona)">Rapperswil</placeName>,
 					um ihn für sein Projekt zur Erarbeitung einer Schweizer Rechtsgeschichte zu
-					gewinnen. Obwohl <idx type="person" norm="Blumer Johann Jakob">Blumer</idx>
+					gewinnen. Obwohl <persName key="Blumer Johann Jakob">Blumer</persName>
 					skeptisch war, was den Umfang und die Ausführbarkeit betraf, freute er sich über
 					die Neuorientierung seines <pb n="22"/>Freundes: «Mich haben auch deine
-					Mittheilungen über deine veränderten wissenschaftlichen Pläne <abbr norm="und">u.</abbr>
-					Ansichten im Allgemeinen höchlich intressirt <abbr norm="und">u.</abbr> gefreut.»<ref type="letter" target="K_0294"><!--Nr. 1--></ref> Vor allem betonte er auch
+					Mittheilungen über deine veränderten wissenschaftlichen Pläne <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice>
+					Ansichten im Allgemeinen höchlich intressirt <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> gefreut.»<!--Nr. 1--> Vor allem betonte er auch
 					den praktischen Nutzen des Vorhabens: «So aufgefaßt ist dein Standpunkt, wie du
-					richtig bemerktest, jedenfalls ächt praktisch im schönsten <abbr norm="und">u.</abbr>
-					würdigsten Sinne des Wortes; du kannst als Dozent <abbr norm="und">u.</abbr> nachher
-					vielleicht als Politiker dadurch sehr viel Gutes <abbr norm="und">u.</abbr> Zweckmäßiges
-					stiften.» <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> war sich
+					richtig bemerktest, jedenfalls ächt praktisch im schönsten <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice>
+					würdigsten Sinne des Wortes; du kannst als Dozent <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> nachher
+					vielleicht als Politiker dadurch sehr viel Gutes <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> Zweckmäßiges
+					stiften.» <persName key="Blumer Johann Jakob">Blumer</persName> war sich
 					also schon im August 1843 sicher, dass Escher «nachher als Politiker» von dem
 					nun eingeschlagenen wissenschaftlichen Weg profitieren könne. Das projektierte
-					Vorhaben wurde jedoch ziemlich bald nicht mehr weiter verfolgt. <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> schrieb dazu
+					Vorhaben wurde jedoch ziemlich bald nicht mehr weiter verfolgt. <persName key="Blumer Johann Jakob">Blumer</persName> schrieb dazu
 					lediglich, dass er schon zu Beginn «Bedenken über die Ausführbarkeit» geäussert
 					habe, «deren Begründetheit sich bald erwies, indem das ganze Projekt in die
-					Brüche ging [...]».<com id="Aufstieg_c21"><ref type="lit">Blumer, Erinnerungen</ref>,
-					<abbr norm="Seite(n)">S.</abbr> 12(d).</com> </p>
-        <p id="Aufstieg_p11">Die Schweizer Rechtsgeschichte rückte zunehmend in den
+					Brüche ging [...]».<com xml:id="Aufstieg_c21">
+                            <ref type="lit">Blumer, Erinnerungen</ref>,
+					<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 12(d).</com> </p>
+        <p xml:id="Aufstieg_p11">Die Schweizer Rechtsgeschichte rückte zunehmend in den
 					Hintergrund, da Escher von anderen Plänen und Geschäften in Beschlag genommen
 					wurde. Beispielsweise von der Akademischen Mittwochgesellschaft. Die
 					Mittwochgesellschaft wurde 1842 von einem Kreis von Zofingern um Escher ins
 					Leben gerufen und erwuchs aus dem Bedürfnis, die Geselligkeit und den
 					Gedankenaustausch unter Farbenbrüdern über die Aktivzeit der Zofingia hinaus zu
 					erhalten. Schon als Centralpräsident des Zofingervereins hatte Escher 1841 in
-					einer Rede den Gedanken eines «Männerzofingervereins» aufgegriffen.<com id="Aufstieg_c22"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 112–128.</com>
+					einer Rede den Gedanken eines «Männerzofingervereins» aufgegriffen.<com xml:id="Aufstieg_c22">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 112–128.</com>
 					Innerhalb der Zofingia scheiterten Bemühungen, eine Altherrenvereinigung zu
 					gründen, so dass sich Escher und seine Freunde schliesslich selbst der Sache
-						annahmen.<com id="Aufstieg_c23">Quellen zum Gründungsakt der
-						Mittwochgesellschaft fehlen. Im November 1842 nennt <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> eine «Dienstagsgesellschaft». Im
+						annahmen.<com xml:id="Aufstieg_c23">Quellen zum Gründungsakt der
+						Mittwochgesellschaft fehlen. Im November 1842 nennt <persName key="Blumer Johann Jakob">Blumer</persName> eine «Dienstagsgesellschaft». Im
 						August 1843 ist von der «Donnerstagsgesellschaft» die Rede. Erst später
-						wurden die Treffen auf den Mittwoch gelegt. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_0274"/>; <ref type="letter" target="K_0295"><!--Nr. 2--></ref>;
-							<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 195–199; <ref type="lit">Schmid, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 153–158, 186–190; <ref type="lit">Rüegg, System Escher</ref>. – Eine offizielle
+						wurden die Treffen auf den Mittwoch gelegt. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> ; <!--Nr. 2-->;
+							<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 195–199; <ref type="lit">Schmid, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 153–158, 186–190; <ref type="lit">Rüegg, System Escher</ref>. – Eine offizielle
 						Altherrenvereinigung des Schweizerischen Zofingervereins etablierte sich
-						erst 1861. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Ehinger, Philisterium</ref>.</com> </p>
-        <p id="Aufstieg_p12">An der Mittwochgesellschaft beteiligten sich etwa zwanzig
-					ehemalige oder kurz vor dem Abschluss stehende Studenten der Universität <idx type="place" norm="Zürich (Stadt)">Zürich</idx>. Der Verein setzte sich aus
+						erst 1861. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Ehinger, Philisterium</ref>.</com> </p>
+        <p xml:id="Aufstieg_p12">An der Mittwochgesellschaft beteiligten sich etwa zwanzig
+					ehemalige oder kurz vor dem Abschluss stehende Studenten der Universität <placeName key="Zürich (Stadt)">Zürich</placeName>. Der Verein setzte sich aus
 					einem bunten Haufen von Juristen, Theologen, Philologen und
 					Naturwissenschaftlern zusammen. Man traf sich im Sommer im «Drahtschmidli»,
-					einem direkt an der <idx type="place" norm="Limmat">Limmat</idx> gelegenen
-					Wirtshaus, das für sein gutes Bier bekannt war.<com id="Aufstieg_c24"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Escher, Ober- und Unterstrass</ref>,
-						<abbr norm="Seite(n)">S.</abbr> 194–195.</com> Im Winter wurde das «Café Littéraire»
-					bevorzugt, ein Kaffeehaus in unmittelbarer Nähe des <idx type="place" norm="Zürich (Stadt)">Zürcher</idx> Rathauses und beliebter Treffpunkt in
-					radikal-liberalen Kreisen.<com id="Aufstieg_c25"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Müller, Zürcher Kaffeehauskultur</ref>,
-						<abbr norm="Seite(n)">S.</abbr> 184–199.</com> Escher hatte sich durch seinen <idx type="place" norm="Paris (F)">Paris</idx>-Aufenthalt verändert und stellte
+					einem direkt an der <placeName key="Limmat">Limmat</placeName> gelegenen
+					Wirtshaus, das für sein gutes Bier bekannt war.<com xml:id="Aufstieg_c24">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Escher, Ober- und Unterstrass</ref>,
+						<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 194–195.</com> Im Winter wurde das «Café Littéraire»
+					bevorzugt, ein Kaffeehaus in unmittelbarer Nähe des <placeName key="Zürich (Stadt)">Zürcher</placeName> Rathauses und beliebter Treffpunkt in
+					radikal-liberalen Kreisen.<com xml:id="Aufstieg_c25">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Müller, Zürcher Kaffeehauskultur</ref>,
+						<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 184–199.</com> Escher hatte sich durch seinen <placeName key="Paris (F)">Paris</placeName>-Aufenthalt verändert und stellte
 					auch an die Mittwochgesellschaft neue Ansprüche. Der rein akademische Disput und
-					das gesellige Beisammensein genügten ihm nicht mehr. Zusammen mit <idx type="person" norm="Honegger Johannes">Johannes Honegger</idx> hatte Escher
-					in <idx type="place" norm="Paris (F)">Paris</idx> über die Zukunft der Schweiz
+					das gesellige Beisammensein genügten ihm nicht mehr. Zusammen mit <persName key="Honegger Johannes">Johannes Honegger</persName> hatte Escher
+					in <placeName key="Paris (F)">Paris</placeName> über die Zukunft der Schweiz
 					disputiert, und sie waren zum Schluss gelangt, dass die fortschrittlichen Kräfte
 					gebündelt werden müssen; die Mittwochgesellschaft entwickelte sich bald zu einer
 					zentralen Plattform zur besseren Organisation und Verflechtung des
-					radikal-liberalen Lagers<ref type="letter" target="K_0295"><!--Nr. 2--></ref> <ref type="letter" target="K_0314"><!--Nr. 10--></ref> <ref type="letter" target="K_0323"><!--Nr. 12--></ref>.
-					Im Oktober 1843 begann Escher mit <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> eine briefliche Diskussion über die politische Ausrichtung der
-					Mittwochgesellschaft. Escher hatte <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> um seine Ansicht darüber gebeten, ob sich der Verein «in
-					politische <abbr norm="und">u.</abbr> religiöse Diskussionen einlassen solle [...]»<ref type="letter" target="K_0300"><!--Nr. 4--></ref>. <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> vertrat die Meinung, «daß ein Verein
+					radikal-liberalen Lagers<!--Nr. 2--> <!--Nr. 10--> <!--Nr. 12-->.
+					Im Oktober 1843 begann Escher mit <persName key="Blumer Johann Jakob">Blumer</persName> eine briefliche Diskussion über die politische Ausrichtung der
+					Mittwochgesellschaft. Escher hatte <persName key="Blumer Johann Jakob">Blumer</persName> um seine Ansicht darüber gebeten, ob sich der Verein «in
+					politische <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> religiöse Diskussionen einlassen solle [...]»<!--Nr. 4-->. <persName key="Blumer Johann Jakob">Blumer</persName> vertrat die Meinung, «daß ein Verein
 					von Leuten unsers Alters nicht mehr die Aufgabe haben könne, welche wir früher
 					dem Zofingervereine setzten [...]. Demnach könnte jene Beschäftigung in Euerm
 					Vereine keinen andern Zweck haben, als die Vorbereitung zu sofortigem
-					gemeinschaftlichem Einwirken in die Verhältnisse des Staats <abbr norm="und">u.</abbr> der
+					gemeinschaftlichem Einwirken in die Verhältnisse des Staats <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> der
 					Kirche; die Bildung einer Angriffskolonne, einer ‹Phalanx› nach deinem
 					Ausdrucke; euer Verein würde also dadurch zum politischen, während er jetzt bloß
-					eine freundschaftliche <abbr norm="und">u.</abbr> gesellige Tendenz hat.»</p>
-        <p id="Aufstieg_p13">Die Mittwochgesellschaft bildete eines der Fundamente für
+					eine freundschaftliche <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> gesellige Tendenz hat.»</p>
+        <p xml:id="Aufstieg_p13">Die Mittwochgesellschaft bildete eines der Fundamente für
 					Eschers rege Netzwerktätigkeit, wie auch die während den Tagsatzungen von 1845
-					und 1846 in <idx type="place" norm="Zürich (Stadt)">Zürich</idx> ins Leben
-					gerufenen Donnerstagsgesellschaften<ref type="letter" target="K_0435"><!--Nr. 42--></ref>, bei denen Escher radikal-liberale Gesandte zu sich ins
-						<pb n="23"/><idx type="place" norm="Belvoir (Enge, Zürich)">Belvoir</idx>
+					und 1846 in <placeName key="Zürich (Stadt)">Zürich</placeName> ins Leben
+					gerufenen Donnerstagsgesellschaften<!--Nr. 42-->, bei denen Escher radikal-liberale Gesandte zu sich ins
+						<pb n="23"/>
+                        <placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName>
 					einlud. Um die Machenschaften und den Einfluss der Mittwochgesellschaft entstand
 					ein veritabler Mythos, und so bot sie in den 1860er Jahren eine willkommene
-					Angriffsfläche für den Pamphletisten <idx type="person" norm="Locher Friedrich">Friedrich Locher</idx> und die demokratische Bewegung.<com id="Aufstieg_c26">Zu den Angriffen <idx type="person" norm="Locher Friedrich">Lochers</idx> und der demokratischen Bewegung
-							<abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 226–237.</com> </p>
-        <p id="Aufstieg_p14">Nicht nur die Mittwochgesellschaft wollte Escher nach seiner
-					Rückkehr aus <idx type="place" norm="Paris (F)">Paris</idx> vermehrt auf
+					Angriffsfläche für den Pamphletisten <persName key="Locher Friedrich">Friedrich Locher</persName> und die demokratische Bewegung.<com xml:id="Aufstieg_c26">Zu den Angriffen <persName key="Locher Friedrich">Lochers</persName> und der demokratischen Bewegung
+							<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 226–237.</com> </p>
+        <p xml:id="Aufstieg_p14">Nicht nur die Mittwochgesellschaft wollte Escher nach seiner
+					Rückkehr aus <placeName key="Paris (F)">Paris</placeName> vermehrt auf
 					politische Sachfragen ausrichten, auch er selbst strebte eine aktivere
-					politische Rolle an. <idx type="person" norm="Blumer Johann Jakob">Blumer</idx>
+					politische Rolle an. <persName key="Blumer Johann Jakob">Blumer</persName>
 					stand in diesem Punkt hinter seinem Freund: «Die Frage, ob sich Leute von
-					unserer Alters- <abbr norm="und">u.</abbr> Bildungsstufe auf eine eben dieser Stufe
+					unserer Alters- <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> Bildungsstufe auf eine eben dieser Stufe
 					entsprechende Weise in die Tagesfragen einmischen, ob sie thätig wirkend in's
 					politische, überhaupt in's öffentliche Leben hinaustreten sollen, ist für mich
 					bald entschieden, denn ich habe sie schon seit längerer Zeit [...] bejahend
-						beantwortet.»<ref type="letter" target="K_0300"><!--Nr. 4--></ref> </p>
-        <p id="Aufstieg_p15">Eine Gelegenheit, «in's öffentliche Leben» hinauszutreten,
+						beantwortet.»<!--Nr. 4--> </p>
+        <p xml:id="Aufstieg_p15">Eine Gelegenheit, «in's öffentliche Leben» hinauszutreten,
 					sollte sich Escher 1844 bieten. Im Februar und März 1844 erschien eine anonyme
-					Artikelserie Eschers in der «Neuen <idx type="place" norm="Zürich">Zürcher</idx>
-					Zeitung», in der er die Lage der <idx type="place" norm="Zürich (Stadt)">Zürcher</idx> Universität thematisierte und den Kampf mit den konservativen Kräften aufnahm.<com id="Aufstieg_c27"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 28. Februar 1844, 7. März 1844, 8. März 1844.</com><ref type="letter" target="K_0327"><!--Nr. 15--></ref> <ref type="sum" target="Umwaelzung_d1.1"><!--S. 30-31--></ref> In den Artikeln zeigte sich Escher kampfeslustig. Die Einleitung
+					Artikelserie Eschers in der «Neuen <placeName key="Zürich">Zürcher</placeName>
+					Zeitung», in der er die Lage der <placeName key="Zürich (Stadt)">Zürcher</placeName> Universität thematisierte und den Kampf mit den konservativen Kräften aufnahm.<com xml:id="Aufstieg_c27">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 28. Februar 1844, 7. März 1844, 8. März 1844.</com><!--Nr. 15--> <ref type="sum" target="Umwaelzung_d1.1"><!--S. 30-31--></ref> In den Artikeln zeigte sich Escher kampfeslustig. Die Einleitung
 					zu seinem publizistischen Einstand verdeutlicht, dass Escher sich mit diesem
 					Schritt stärker exponieren und sich zu einem aktiven Beteiligten im Kampf um die
 					Stärkung der radikal-liberalen Errungenschaften erheben wollte: «Wenn aus dem
 					Sumpfe unserer politischen Journalistik Leidenschaften hervortauchen, die,
 					gewännen sie die Oberhand, das geistige Leben unserer Hochschule verkümmern und
 					so ihre Existenz erschüttern müßten, wenn dadurch die wissenschaftliche und
-					kulturliche Errungenschaft, die <idx type="place" norm="Zürich">Zürich</idx> im Laufe der Zeiten und namentlich auch durch die Regeneration
+					kulturliche Errungenschaft, die <placeName key="Zürich">Zürich</placeName> im Laufe der Zeiten und namentlich auch durch die Regeneration
 					der 30ger Jahre erworben, in Frage gestellt wird, dann ist es wohl an der Zeit,
 					daß auch diejenigen, die bisanhin als müßige Zuschauer dem Zeitungskampfe ferne
-					gestanden, in die Schranken treten, um die gefährdeten Güter zu wahren.»<com id="Aufstieg_c28"><ref type="lit">NZZ</ref>, 28. Februar 1844.</com> </p>
-        <p id="Aufstieg_p16">Die Parteistreitigkeiten machten vor den Toren der Universität
+					gestanden, in die Schranken treten, um die gefährdeten Güter zu wahren.»<com xml:id="Aufstieg_c28">
+                            <ref type="lit">NZZ</ref>, 28. Februar 1844.</com> </p>
+        <p xml:id="Aufstieg_p16">Die Parteistreitigkeiten machten vor den Toren der Universität
 					nicht halt. Die konservativen Kräfte hatten seit dem Regierungsumsturz vom
 					September 1839 auch im Erziehungsrat die Mehrheit gewonnen und übten ihren
 					Einfluss auf Berufungen und die Schwerpunkte von Forschung und Lehre aus. Die
 					Spannungen an der Universität, die sich seit 1839 immer mehr verschärften,
 					kulminierten Ende 1843 im Weggang von zwei angesehenen Professoren der
-					medizinischen Fakultät: <idx type="person" norm="Henle Jacob">Jacob Henle</idx>
-					und <idx type="person" norm="Pfeufer Karl von">Karl von Pfeufer</idx>. Sie nannten als
+					medizinischen Fakultät: <persName key="Henle Jacob">Jacob Henle</persName>
+					und <persName key="Pfeufer Karl von">Karl von Pfeufer</persName>. Sie nannten als
 					Grund für ihren Abgang unter anderem das Misstrauen gegenüber den
 					Medizinprofessoren, deren Einfluss die konservative Regierung auf ein Minimum zu
-					beschränken suchte.<com id="Aufstieg_c29"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 430–431.</com> Dem Ärger über den Verlust der beiden
-        	Professoren machte Escher in einem Brief an den Studienfreund <ref type="kbp"/><idx type="person" norm="Aepli Arnold Otto">Arnold Otto Aepli</idx> Luft:
+					beschränken suchte.<com xml:id="Aufstieg_c29">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 430–431.</com> Dem Ärger über den Verlust der beiden
+        	Professoren machte Escher in einem Brief an den Studienfreund <persName key="Aepli Arnold Otto">Arnold Otto Aepli</persName> Luft:
 					«Beschränktheit &amp; Ignoranz, die von oben herab begünstigt werden, haben so
-					der Hochschule zwei ihrer tüchtigsten Lehrer geraubt!»<ref type="letter" target="K_0303"><!--Nr. 5--></ref> </p>
-        <p id="Aufstieg_p17">Doch nicht nur diese Abgänge liessen die radikal-liberalen
+					der Hochschule zwei ihrer tüchtigsten Lehrer geraubt!»<!--Nr. 5--> </p>
+        <p xml:id="Aufstieg_p17">Doch nicht nur diese Abgänge liessen die radikal-liberalen
 					Kräfte um die Universität bangen. Ende Januar 1844 bereitete ihnen auch die Wahl
-					von <idx type="person" norm="Bluntschli Johann Caspar">Johann Caspar
-						Bluntschli</idx>, dem Führer der <idx type="place" norm="Zürich">Zürcher</idx> Konservativen, zum Rektor der Hochschule Kopfzerbrechen.
-					Escher schrieb in der «Neuen <idx type="place" norm="Zürich">Zürcher</idx>
-					Zeitung» zur Wahl <idx type="person" norm="Bluntschli Johann Caspar">Bluntschlis</idx>, dass er dessen wissenschaftlichen Verdienste durchaus
+					von <persName key="Bluntschli Johann Caspar">Johann Caspar
+						Bluntschli</persName>, dem Führer der <placeName key="Zürich">Zürcher</placeName> Konservativen, zum Rektor der Hochschule Kopfzerbrechen.
+					Escher schrieb in der «Neuen <placeName key="Zürich">Zürcher</placeName>
+					Zeitung» zur Wahl <persName key="Bluntschli Johann Caspar">Bluntschlis</persName>, dass er dessen wissenschaftlichen Verdienste durchaus
 					anerkenne, diese jedoch für das hohe Amt eines Rektors sekundär seien: «Bei der
 					Rektorwahl ist aber nicht bloß dieser [der wissenschaftliche] Maßstab anzulegen,
 					es ist im Gegentheile namentlich darauf zu sehen, daß der zu Wählende durch
 					seine ganze Vergangenheit genügende Garantieen gegeben, daß ihm die Hochschule
 					als eine <hi rend="italics">freie</hi> Pflanzschule der Wissenschaft am Herzen
-					liege [...].»<com id="Aufstieg_c30"><ref type="lit">NZZ</ref>, 28. Februar
+					liege [...].»<com xml:id="Aufstieg_c30">
+                            <ref type="lit">NZZ</ref>, 28. Februar
 						1844.</com> Genau diese Freiheit – die liberale Geisteshaltung – schien ihm
 					bei dieser Wahl aber nicht gewährleistet zu sein.</p>
-        <p id="Aufstieg_p18"><pb n="24"/>Im Januar 1844 machte zudem die Nachricht die Runde, dass <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Friedrich
-						Ludwig Keller</idx> ebenfalls beabsichtige, die Universität zu verlassen, um
-        	einem Ruf nach <idx type="place" norm="Halle (Saale) (D)">Halle</idx> zu folgen.
-					Mit «eigentlicher Bestürzung» berichtete die «Neue <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» über diese Neuigkeit. Nachdem die
+        <p xml:id="Aufstieg_p18">
+                        <pb n="24"/>Im Januar 1844 machte zudem die Nachricht die Runde, dass <persName key="Keller (vom Steinbock) Friedrich Ludwig">Friedrich
+						Ludwig Keller</persName> ebenfalls beabsichtige, die Universität zu verlassen, um
+        	einem Ruf nach <placeName key="Halle (Saale) (D)">Halle</placeName> zu folgen.
+					Mit «eigentlicher Bestürzung» berichtete die «Neue <placeName key="Zürich">Zürcher</placeName> Zeitung» über diese Neuigkeit. Nachdem die
 					Hochschule den Anfeindungen bislang standgehalten habe, werde sie nun des Mannes
 					beraubt, der «als Dozent ihr zur Stütze und Zierde wurde». Es sei unverkennbar,
-					wie sehr der drohende Verlust <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Kellers</idx> «den Charakter
-					eines historischen Ereignisses an sich tragen würde».<com id="Aufstieg_c31"><ref type="lit">NZZ</ref>, 5. Januar 1844. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 433–435.</com> Die Befürchtungen sollten sich
-					bestätigen: Ende März 1844 verliess <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Keller</idx> <idx type="place" norm="Zürich (Stadt)">Zürich</idx> Richtung <idx type="place" norm="Deutschland">Deutschland</idx>.<com id="Aufstieg_c32"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 22. März 1844.</com> </p>
-        <p id="Aufstieg_p19"><idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Keller</idx> hatte aber für
-					Ersatz gesorgt<ref type="letter" target="K_0311"><!--Nr. 8--></ref>. Die
+					wie sehr der drohende Verlust <persName key="Keller (vom Steinbock) Friedrich Ludwig">Kellers</persName> «den Charakter
+					eines historischen Ereignisses an sich tragen würde».<com xml:id="Aufstieg_c31">
+                            <ref type="lit">NZZ</ref>, 5. Januar 1844. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 433–435.</com> Die Befürchtungen sollten sich
+					bestätigen: Ende März 1844 verliess <persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName> <placeName key="Zürich (Stadt)">Zürich</placeName> Richtung <placeName key="Deutschland">Deutschland</placeName>.<com xml:id="Aufstieg_c32">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 22. März 1844.</com> </p>
+        <p xml:id="Aufstieg_p19">
+                        <persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName> hatte aber für
+					Ersatz gesorgt<!--Nr. 8-->. Die
 					Universität sei in Bedrängnis geraten, gestand er in seiner Abschiedsrede ein,
-					doch sei es gelungen, «treffliche jüngere Kräfte» zu mobilisieren.<com id="Aufstieg_c33"><ref type="lit">NZZ</ref>, 16. März 1844.</com> Damit
+					doch sei es gelungen, «treffliche jüngere Kräfte» zu mobilisieren.<com xml:id="Aufstieg_c33">
+                            <ref type="lit">NZZ</ref>, 16. März 1844.</com> Damit
 					meinte er unter anderem Alfred Escher, der mit Schreiben vom 31. Januar 1844 dem
 					Erziehungsrat seinen Wunsch ankündigte, sich «in der staatswissenschaftlichen
-					Facultät der hiesigen Hochschule als Privatdozent zu habilitiren».<com id="Aufstieg_c34"><ref type="letter" target="K_4639"><!--Schreiben Escher an den Zürcher
- Erziehungsrat, 31. Januar 1844 (StAZH U 105 g.1)--></ref>.</com> Ermutigt
-					wurde er zu diesem Schritt von seinem Mentor <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Keller</idx>. Escher schrieb
-					an <idx type="person" norm="Aepli Arnold Otto">Aepli</idx> nach <idx type="place" norm="St. Gallen (Stadt)">St. Gallen</idx>, dass <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Keller</idx>
+					Facultät der hiesigen Hochschule als Privatdozent zu habilitiren».<com xml:id="Aufstieg_c34"><!--Schreiben Escher an den Zürcher
+ Erziehungsrat, 31. Januar 1844 (StAZH U 105 g.1)-->.</com> Ermutigt
+					wurde er zu diesem Schritt von seinem Mentor <persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName>. Escher schrieb
+					an <persName key="Aepli Arnold Otto">Aepli</persName> nach <placeName key="St. Gallen (Stadt)">St. Gallen</placeName>, dass <persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName>
 					und andere aus dem radikal-liberalen Lager wünschten, dass er sich «mit
-					Extrapost als Privatdozent habilitire»<ref type="letter" target="K_0313"><!--Nr. 9--></ref>. Über Eschers Entscheid meldete die «Neue <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» begeistert: «Wir hatten
+					Extrapost als Privatdozent habilitire»<!--Nr. 9-->. Über Eschers Entscheid meldete die «Neue <placeName key="Zürich">Zürcher</placeName> Zeitung» begeistert: «Wir hatten
 					mit innigem Bedauern die schnell aufeinanderfolgenden Demissionen der
-						<abbr norm="Herren">HH.</abbr> <abbr norm="Professor">Prof.</abbr> <idx type="person" norm="Pfeufer Karl von">Pfeufer</idx>, <idx type="person" norm="Henle Jacob">Henle</idx> und <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Keller</idx>,
-					ebenso viele Schläge für die Existenz der <idx type="place" norm="Zürich (Stadt)">zürcherischen</idx> Universität, einregistrirt. Mit
+						<choice>
+                            <abbr>HH.</abbr>
+                            <expan>Herren</expan>
+                        </choice> <choice>
+                            <abbr>Prof.</abbr>
+                            <expan>Professor</expan>
+                        </choice> <persName key="Pfeufer Karl von">Pfeufer</persName>, <persName key="Henle Jacob">Henle</persName> und <persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName>,
+					ebenso viele Schläge für die Existenz der <placeName key="Zürich (Stadt)">zürcherischen</placeName> Universität, einregistrirt. Mit
 					ebenso viel Freude melden wir heute, daß [...] die Lücken theilweise durch Kräfte
 					ergänzt werden, die lediglich aus freiem Antrieb und aus Liebe zu dem
 					gefährdeten Institute sich darbieten. Herr Alfred Escher,
-					<abbr norm="Doctor Juris Utriusque (Doktor beider Rechte)">Dr. J. U.</abbr>, [...] hat gestern in der akademischen
+					<choice>
+                            <abbr>Dr. J. U.</abbr>
+                            <expan>Doctor Juris Utriusque (Doktor beider Rechte)</expan>
+                        </choice>, [...] hat gestern in der akademischen
 					Aula, behufs seiner Zulassung als <hi rend="italics">Privatdozent</hi> an der
-					staatswissenschaftlichen Fakultät eine Probevorlesung gehalten.»<com id="Aufstieg_c35"><ref type="lit">NZZ</ref>, 11. Februar 1844.</com> Und
-					auch <idx type="person" norm="Honegger Johannes">Honegger</idx> zeigte sich
-					erfreut darüber, dass die <idx type="place" norm="Zürich (Stadt)">Zürcher</idx>
+					staatswissenschaftlichen Fakultät eine Probevorlesung gehalten.»<com xml:id="Aufstieg_c35">
+                            <ref type="lit">NZZ</ref>, 11. Februar 1844.</com> Und
+					auch <persName key="Honegger Johannes">Honegger</persName> zeigte sich
+					erfreut darüber, dass die <placeName key="Zürich (Stadt)">Zürcher</placeName>
 					Hochschule Escher für sich gewinnen konnte: «Es hat meinem Herzen wohl gethan,
 					als ich dich [...] mit entschloßenem Sinne für eine thatkräftige Hebung unsrer so
-					jämmerlich mißhandelten Hochschule in die Schranken treten sah.»<com id="Aufstieg_c36"><ref type="letter" target="K_0319"/>.</com> Escher war
+					jämmerlich mißhandelten Hochschule in die Schranken treten sah.»<com xml:id="Aufstieg_c36">.</com> Escher war
 					durch sein unermüdliches Eintreten für die radikal-liberalen Kräfte in der
 					Hochschulangelegenheit zu einem festen Bestandteil des fortschrittlichen Lagers
 					geworden. Der erste Schritt auf der akademischen Laufbahn war gleichzeitig ein
-					politischer Akt, was Eschers Studienfreund <ref type="kbp"/><idx type="person" norm="Tschudi Johann Jakob">Johann Jakob Tschudi</idx> nicht
+					politischer Akt, was Eschers Studienfreund <persName key="Tschudi Johann Jakob">Johann Jakob Tschudi</persName> nicht
 					ohne Bedenken feststellte: «Du bist in den Kampfplatz getretten und mußt gegen
-					zahlreiche, mächtige Gegner ankämpfen [...].»<com id="Aufstieg_c37"><ref type="letter" target="K_0320"/>.</com> </p>
-        <p id="Aufstieg_p20">In seiner Tätigkeit als Privatdozent widerspiegelte sich
+					zahlreiche, mächtige Gegner ankämpfen [...].»<com xml:id="Aufstieg_c37">.</com> </p>
+        <p xml:id="Aufstieg_p20">In seiner Tätigkeit als Privatdozent widerspiegelte sich
 					Eschers Vorliebe für die moderne Rechtsprechung. Die erste Vorlesung, die er
-					1844 ankündigte, sollte sich beispielsweise mit dem <idx type="place" norm="Deutschland">deutschen</idx> und dem <idx type="place" norm="Frankreich">französischen</idx> Zivilprozess befassen. Im
+					1844 ankündigte, sollte sich beispielsweise mit dem <placeName key="Deutschland">deutschen</placeName> und dem <placeName key="Frankreich">französischen</placeName> Zivilprozess befassen. Im
 					darauffolgenden Semester plante er eine Veranstaltung zum Bundesstaatsrecht der
-					Schweiz, <idx type="place" norm="Deutschland">Deutschlands</idx> und der <idx type="place" norm="Nordamerika">nordamerikanischen</idx> Freistaaten.<com id="Aufstieg_c38">Eine Aufstellung aller von Escher angekündigten
+					Schweiz, <placeName key="Deutschland">Deutschlands</placeName> und der <placeName key="Nordamerika">nordamerikanischen</placeName> Freistaaten.<com xml:id="Aufstieg_c38">Eine Aufstellung aller von Escher angekündigten
 						Vorlesungen findet sich in der Chronologie Alfred Eschers.</com> Thematisch liegen Welten zwischen seiner
-					Dissertation über die Zeugen im <idx type="place" norm="Römisches Reich">römischen</idx> Prozess und diesen zeitgenössischen komparativen Studien.
+					Dissertation über die Zeugen im <placeName key="Römisches Reich">römischen</placeName> Prozess und diesen zeitgenössischen komparativen Studien.
 					Jedoch teilten die Studenten die Begeisterung für das neue Forschungsfeld nicht:
 					Die ersten drei Veranstaltungen konnte Escher mangels Interesse seitens der
 					Studentenschaft nicht abhalten. Seine erste Vorlesung hielt er erst im
-					Wintersemester 1845/46.<com id="Aufstieg_c39">Gemäss der Zusammenstellung der
-						an der Universität <idx type="place" norm="Zürich (Stadt)">Zürich</idx>
+					Wintersemester 1845/46.<com xml:id="Aufstieg_c39">Gemäss der Zusammenstellung der
+						an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName>
 						gehaltenen Vorlesungen kamen Eschers angekündigte Veranstaltungen der ersten
 						drei Semester nicht zustande. Erst im Wintersemester 1845/46 ist Eschers
 						Vorlesung über Bundesstaatsrecht aufgeführt. Zu Eschers Tätigkeit als
-						Privatdozent <abbr norm="vergleiche">vgl.</abbr> Kasse der Hochschule Zürich, Tableaux betr. Frequenz d.
-						Vorlesungen, SS 1833 – SS 1902 (<ref type="lit">StAZH U 98b-2</ref>); <ref type="letter" target="K_0316"/>; <ref type="letter" target="K_0334"/>; <ref type="lit">Schmid, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 178–180.</com><ref type="letter" target="K_0335"><!--Nr. 18--></ref> So verwundert es
+						Privatdozent <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> Kasse der Hochschule Zürich, Tableaux betr. Frequenz d.
+						Vorlesungen, SS 1833 – SS 1902 (<ref type="lit">StAZH U 98b-2</ref>); ; ; <ref type="lit">Schmid, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 178–180.</com><!--Nr. 18--> So verwundert es
 					nicht, dass Eschers Enttäuschung über den misslungenen Einstieg in die
-					Privatdozentur gross war. <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> hatte Eschers Unzufriedenheit bereits im Sommer 1844 geahnt:
+					Privatdozentur gross war. <persName key="Blumer Johann Jakob">Blumer</persName> hatte Eschers Unzufriedenheit bereits im Sommer 1844 geahnt:
 					«Daß dich deine Stellung als Privatdozent nicht ausschließlich befriedigen
-					werde, habe ich immer vorausgesehen [...].»<com id="Aufstieg_c40"><ref type="letter" target="K_0321"/>.</com> Die Privatdozentur hatte für
+					werde, habe ich immer vorausgesehen [...].»<com xml:id="Aufstieg_c40">.</com> Die Privatdozentur hatte für
 					Escher massiv an Attraktivität eingebüsst. Er sehnte sich nach einer <pb n="25"/>neuen Herausforderung, die mehr Gestaltungsmöglichkeiten bot. Diese liess
 					nicht lange auf sich warten.</p>
       </div>
-      <div id="Aufstieg_d1.3">
+      <div xml:id="Aufstieg_d1.3">
         <head>Die Politik</head>
-        <p id="Aufstieg_p21">Während Escher an der Universität nicht die erhoffte Beachtung
+        <p xml:id="Aufstieg_p21">Während Escher an der Universität nicht die erhoffte Beachtung
 					fand, wurde ihm von anderer Seite um so mehr Aufmerksamkeit zuteil: vom Kopf der
-        	<idx type="place" norm="Zürich">Zürcher</idx> Radikal-Liberalen <idx type="person" norm="Furrer Jonas">Jonas Furrer</idx> und dessen Freund <ref type="kbp"/><idx type="person" norm="Huggenberg Johann Jakob">Johann Jakob Huggenberg</idx>.
-					Als ein Grossrat aus dem Wahlkreis <idx type="place" norm="Elgg">Elgg</idx>
-					(Bezirk <idx type="place" norm="Winterthur">Winterthur</idx>, Grenzgemeinde zum
-					Kanton <idx type="place" norm="Thurgau">Thurgau</idx>) sein Mandat niederlegte,
-					wurden <idx type="person" norm="Furrer Jonas">Furrer</idx> und <idx type="person" norm="Huggenberg Johann Jakob">Huggenberg</idx> aktiv und
-					überzeugten Escher zu kandidieren.<com id="Aufstieg_c41">Zum Einfluss von <idx type="person" norm="Furrer Jonas">Jonas Furrer</idx> und <idx type="person" norm="Huggenberg Johann Jakob">Johann Jakob
-							Huggenberg</idx> auf Eschers Wahl in den Grossen Rat <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Der Beobachter</ref>, 23. Juli 1844; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 175–177; <ref type="lit">Dejung/Stähli/Ganz, Furrer</ref>,
-						<abbr norm="Seite(n)">S.</abbr> 54.</com> Am <d norm="21.07.1844">21. Juli 1844</d> gelang
-					ihnen das Kunststück: Alfred Escher aus der <idx type="place" norm="Enge (Zürich)">Enge</idx> bei <idx type="place" norm="Zürich (Stadt)">Zürich</idx> wurde von der Bevölkerung des entfernten <idx type="place" norm="Elgg">Elgg</idx> – <idx type="person" norm="Huggenberg Johann Jakob">Huggenbergs</idx> Bürgergemeinde – in den Grossen Rat gewählt<ref type="letter" target="K_0325"><!--Nr. 13--></ref>. Der «Landbote» bemerkte
-					angesichts dieser ungewöhnlichen Wahl: «Dieselben [die <idx type="place" norm="Elgg">Elgger</idx> Wähler] haben es über sich vermocht, ihre eigenen
+        	<placeName key="Zürich">Zürcher</placeName> Radikal-Liberalen <persName key="Furrer Jonas">Jonas Furrer</persName> und dessen Freund <persName key="Huggenberg Johann Jakob">Johann Jakob Huggenberg</persName>.
+					Als ein Grossrat aus dem Wahlkreis <placeName key="Elgg">Elgg</placeName>
+					(Bezirk <placeName key="Winterthur">Winterthur</placeName>, Grenzgemeinde zum
+					Kanton <placeName key="Thurgau">Thurgau</placeName>) sein Mandat niederlegte,
+					wurden <persName key="Furrer Jonas">Furrer</persName> und <persName key="Huggenberg Johann Jakob">Huggenberg</persName> aktiv und
+					überzeugten Escher zu kandidieren.<com xml:id="Aufstieg_c41">Zum Einfluss von <persName key="Furrer Jonas">Jonas Furrer</persName> und <persName key="Huggenberg Johann Jakob">Johann Jakob
+							Huggenberg</persName> auf Eschers Wahl in den Grossen Rat <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Der Beobachter</ref>, 23. Juli 1844; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 175–177; <ref type="lit">Dejung/Stähli/Ganz, Furrer</ref>,
+						<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 54.</com> Am <date when="1844-07-21">21. Juli 1844</date> gelang
+					ihnen das Kunststück: Alfred Escher aus der <placeName key="Enge (Zürich)">Enge</placeName> bei <placeName key="Zürich (Stadt)">Zürich</placeName> wurde von der Bevölkerung des entfernten <placeName key="Elgg">Elgg</placeName> – <persName key="Huggenberg Johann Jakob">Huggenbergs</persName> Bürgergemeinde – in den Grossen Rat gewählt<!--Nr. 13-->. Der «Landbote» bemerkte
+					angesichts dieser ungewöhnlichen Wahl: «Dieselben [die <placeName key="Elgg">Elgger</placeName> Wähler] haben es über sich vermocht, ihre eigenen
 					persönlichen Wünsche einem höhern Bedürfnisse, allfällige Lokalinteressen höhern
 					Interessen, einen zunächst am Haus, an der Gemeinde hangenden Sinne dem
-					kantonalen, dem vaterländischen Sinne unterzuordnen. Darum Ehre ihnen!»<com id="Aufstieg_c42"><ref type="lit">Der Landbote</ref>, 25. Juli 1844.</com> </p>
-        <p id="Aufstieg_p22">Doch Escher war sich nicht sicher, ob er die Wahl annehmen
+					kantonalen, dem vaterländischen Sinne unterzuordnen. Darum Ehre ihnen!»<com xml:id="Aufstieg_c42">
+                            <ref type="lit">Der Landbote</ref>, 25. Juli 1844.</com> </p>
+        <p xml:id="Aufstieg_p22">Doch Escher war sich nicht sicher, ob er die Wahl annehmen
 					sollte oder nicht. An mehrere Freunde schrieb er Briefe, mit der Bitte, ihn bei
 					seiner Entscheidung zu unterstützen. Die Antworten fielen durchwegs dahingehend
-					aus, dass Escher die Wahl keinesfalls ablehnen solle.<com id="Aufstieg_c43"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_0277"/>; <ref type="letter" target="K_0324"><!-- Brief Johann Jakob Blumer an
-						Escher, 21./22. Juli 1844 (FA Tschudi) --></ref>.</com><ref type="letter" target="K_0326"><!--Nr. 14--></ref> Auch <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Keller</idx> hatte Escher
-					anscheinend zu diesem Schritt gedrängt, wie wir von <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> erfahren: «Es giebt aber
-					Eigenschaften des Partheihauptes <abbr norm="und">u.</abbr> überhaupt des Staatsmannes,
+					aus, dass Escher die Wahl keinesfalls ablehnen solle.<com xml:id="Aufstieg_c43">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> ; <!-- Brief Johann Jakob Blumer an
+						Escher, 21./22. Juli 1844 (FA Tschudi) -->.</com><!--Nr. 14--> Auch <persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName> hatte Escher
+					anscheinend zu diesem Schritt gedrängt, wie wir von <persName key="Blumer Johann Jakob">Blumer</persName> erfahren: «Es giebt aber
+					Eigenschaften des Partheihauptes <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> überhaupt des Staatsmannes,
 					welche man nicht im Studirzimmer, sondern eben vorzugsweise nur durch die
 					Theilnahme an öffentlichen Verhandlungen sich aneignet [...]. Solche Gründe mögen
-					auch <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Keller</idx> bewogen haben, dir die eventuelle Annahme einer Großrathswahl
-					anzurathen; ein Rath, den du jedenfalls sehr zu berücksichtigen hast.»<com id="Aufstieg_c44"><ref type="letter" target="K_0324"><!-- Brief Johann Jakob
-						Blumer an Escher, 21./22. Juli 1844 (FA Tschudi) --></ref>.</com> Zwei Wochen liess Escher verstreichen, bis der «Schweizerische
-					Republikaner» am <d norm="06.08.1844">6. August 1844</d> die frohe Botschaft
-					seiner Wahlannahme verkünden konnte.<com id="Aufstieg_c45"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Schweizerischer Republikaner</ref>, 6. August 1844.</com> </p>
-        <p id="Aufstieg_p23">Wieso hatte Escher die Wahl nicht umgehend angenommen? Eine
-					Rolle spielte die Erfahrung mit dem konservativen Regierungsumsturz – dem <idx type="place" norm="Zürich">Zürich</idx>putsch<ref type="sum" target="Umwaelzung_d1.1"><!--S. 30-31--></ref> – vom September 1839. Während
-						<idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Friedrich
-						Ludwig Keller</idx> in den 1830er Jahren zu den Führern der
+					auch <persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName> bewogen haben, dir die eventuelle Annahme einer Großrathswahl
+					anzurathen; ein Rath, den du jedenfalls sehr zu berücksichtigen hast.»<com xml:id="Aufstieg_c44"><!-- Brief Johann Jakob
+						Blumer an Escher, 21./22. Juli 1844 (FA Tschudi) -->.</com> Zwei Wochen liess Escher verstreichen, bis der «Schweizerische
+					Republikaner» am <date when="1844-08-06">6. August 1844</date> die frohe Botschaft
+					seiner Wahlannahme verkünden konnte.<com xml:id="Aufstieg_c45">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Schweizerischer Republikaner</ref>, 6. August 1844.</com> </p>
+        <p xml:id="Aufstieg_p23">Wieso hatte Escher die Wahl nicht umgehend angenommen? Eine
+					Rolle spielte die Erfahrung mit dem konservativen Regierungsumsturz – dem <placeName key="Zürich">Zürich</placeName>putsch<ref type="sum" target="Umwaelzung_d1.1"><!--S. 30-31--></ref> – vom September 1839. Während
+						<persName key="Keller (vom Steinbock) Friedrich Ludwig">Friedrich
+						Ludwig Keller</persName> in den 1830er Jahren zu den Führern der
 					radikal-liberalen Kräfte im Kanton zählte, wurde er aufgrund der
-					Regierungsübernahme durch die <idx type="place" norm="Zürich">Zürcher</idx>
-					Konservativen ganz aus der Politik gedrängt.<com id="Aufstieg_c46"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="www" target="http://www.deutsche-biographie.de/ppn100177085.html?anchor=adb"><ref type="lit">ADB</ref> XV, S. 570–579</ref>.</com> <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Keller</idx>
+					Regierungsübernahme durch die <placeName key="Zürich">Zürcher</placeName>
+					Konservativen ganz aus der Politik gedrängt.<com xml:id="Aufstieg_c46">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref target="http://www.deutsche-biographie.de/ppn100177085.html?anchor=adb">
+                                <ref type="lit">ADB</ref> XV, S. 570–579</ref>.</com> <persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName>
 					erfuhr am eigenen Leib, wie schnell der Wind drehen konnte; eben noch an der
 					Spitze des politischen Apparats, war er nach dem Regierungsumsturz froh, sich
 					wieder der Wissenschaft zuwenden zu können. Vielen anderen erging es ebenso, und
-					Escher kannte diese Schicksale.<com id="Aufstieg_c47"><idx type="person" norm="Zehnder Ulrich">Ulrich Zehnder</idx>, bis zum <idx type="place" norm="Zürich">Zürich</idx>putsch Regierungsrat, schreibt in seinen
+					Escher kannte diese Schicksale.<com xml:id="Aufstieg_c47">
+                            <persName key="Zehnder Ulrich">Ulrich Zehnder</persName>, bis zum <placeName key="Zürich">Zürich</placeName>putsch Regierungsrat, schreibt in seinen
 						Lebenserinnerungen: «Vertrieben aus meinen bedeutenderen amtlichen
 						Stellungen, war nach dem Septembersturm meine Zeit fast ausschließlich
 						wieder meinen Berufsgeschäften gewidmet. Ich hatte nun alle Ursache, mich
 						darüber zu freuen, daß ich den Beruf der öffentlichen Stellung nicht
 						geopfert hatte.» <ref type="lit">Zehnder, Vierziger Jahre</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 56.</com> Er ahnte, dass die Grossratsstelle der erste
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 56.</com> Er ahnte, dass die Grossratsstelle der erste
 					Schritt auf einer politischen Laufbahn sein würde, für die es sich nun zu
 					entscheiden galt. Und diese Entscheidung fiel in eine Zeit, in der eine
 					politische Stellung jederzeit einem neuerlichen konservativen Vormarsch zum
 					Opfer fallen konnte. Und was würde dann passieren? Dieser Gedanke umtrieb Escher
-					schon in <idx type="place" norm="Paris (F)">Paris</idx>: «Aber <hi rend="italics">der</hi> Jurist, der bevor er in seiner Wißenschaft recht
+					schon in <placeName key="Paris (F)">Paris</placeName>: «Aber <hi rend="italics">der</hi> Jurist, der bevor er in seiner Wißenschaft recht
 					heimisch geworden, in der Fremde der Politik sein Glück versuchen will, ist,
 					wenn einmal eine Zeit kommen sollte, da er mit Ehren nicht mehr in ihr
-					verbleiben kann, heimathlos.»<com id="Aufstieg_c48"><ref type="letter" target="K_0287"/>.</com> Nun war Escher aber weder in der Wissenschaft
+					verbleiben kann, heimathlos.»<com xml:id="Aufstieg_c48">.</com> Nun war Escher aber weder in der Wissenschaft
 					heimisch geworden, noch hatte er vor, nach dem misslungenen Start seiner
 					akademischen Tätigkeit, diese allzu lange weiterzuverfolgen. Er musste seine
 					Zukunftspläne nochmals überdenken.</p>
-        <p id="Aufstieg_p24"><pb n="26"/>Ein anderer Aspekt scheint ihn stärker beschäftigt zu haben: die
+        <p xml:id="Aufstieg_p24">
+                        <pb n="26"/>Ein anderer Aspekt scheint ihn stärker beschäftigt zu haben: die
 					Angst vor der Öffentlichkeit. Denn Escher wusste, dass er durch eine Wahlannahme
 					sofort ins Blickfeld der konservativen Kritik rücken würde. Nicht dass solche
 					Anfeindungen allein Escher von seinem Vorhaben, den Weg der Politik zu
 					beschreiten, abhalten konnten. Doch bei ihm war die Sachlage etwas
 					komplizierter. Denn damit wurde auch Eschers Familie in Mitleidenschaft gezogen,
-					der das alte <idx type="place" norm="Zürich (Stadt)">Zürcher</idx> Patriziat mit
+					der das alte <placeName key="Zürich (Stadt)">Zürcher</placeName> Patriziat mit
 					offener Feindschaft gegenüberstand.</p>
-        <p id="Aufstieg_p25">Der Ursprung dieser Feindschaft lag im Konkurs von Alfred
-					Eschers Grossvater <idx type="person" norm="Escher (vom Glas)-Keller Hans Caspar">Hans
-						Caspar Escher-Keller</idx> begründet, der 1788 im alten <idx type="place" norm="Zürich (Stadt)">Zürich</idx> einen ungeheuren finanziellen Schaden
-					angerichtet hatte. Sein Sohn <idx type="person" norm="Escher (vom Glas) Heinrich">Heinrich</idx> – Alfred Eschers Vater –
+        <p xml:id="Aufstieg_p25">Der Ursprung dieser Feindschaft lag im Konkurs von Alfred
+					Eschers Grossvater <persName key="Escher (vom Glas)-Keller Hans Caspar">Hans
+						Caspar Escher-Keller</persName> begründet, der 1788 im alten <placeName key="Zürich (Stadt)">Zürich</placeName> einen ungeheuren finanziellen Schaden
+					angerichtet hatte. Sein Sohn <persName key="Escher (vom Glas) Heinrich">Heinrich</persName> – Alfred Eschers Vater –
 					gelangte durch seine Tätigkeit im internationalen Handel zu ansehnlichem
-					Wohlstand. Die vom Konkurs <idx type="person" norm="Escher (vom Glas)-Keller Hans Caspar">Hans Caspar Escher-Kellers</idx>
-					betroffenen Familien erwarteten, dass <idx type="person" norm="Escher (vom Glas) Heinrich">Heinrich Escher</idx> nach damaligem Usus
-					die Schulden des <idx type="person" norm="Escher (vom Glas)-Keller Hans Caspar">Vaters</idx> nun begleichen würde; doch weit gefehlt. <idx type="person" norm="Escher (vom Glas) Heinrich">Heinrich Escher</idx> zahlte nicht und zog
-					sich damit den Groll vieler <idx type="place" norm="Zürich (Stadt)">Stadtzürcher</idx> Familien zu<ref type="letter" target="K_0406"><!--Nr. 35--></ref>. Gerüchte begannen die Runde zu machen, dass der
-					neugewonnene Reichtum durch Sklavenhände in <idx type="place" norm="Kuba">Kuba</idx> erwirtschaftet worden sei. <idx type="person" norm="Escher (vom Glas) Heinrich">Heinrich Escher</idx> wollte in der Folge
-					mit den alteingesessenen <idx type="place" norm="Zürich (Stadt)">Zürchern</idx>
+					Wohlstand. Die vom Konkurs <persName key="Escher (vom Glas)-Keller Hans Caspar">Hans Caspar Escher-Kellers</persName>
+					betroffenen Familien erwarteten, dass <persName key="Escher (vom Glas) Heinrich">Heinrich Escher</persName> nach damaligem Usus
+					die Schulden des <persName key="Escher (vom Glas)-Keller Hans Caspar">Vaters</persName> nun begleichen würde; doch weit gefehlt. <persName key="Escher (vom Glas) Heinrich">Heinrich Escher</persName> zahlte nicht und zog
+					sich damit den Groll vieler <placeName key="Zürich (Stadt)">Stadtzürcher</placeName> Familien zu<!--Nr. 35-->. Gerüchte begannen die Runde zu machen, dass der
+					neugewonnene Reichtum durch Sklavenhände in <placeName key="Kuba">Kuba</placeName> erwirtschaftet worden sei. <persName key="Escher (vom Glas) Heinrich">Heinrich Escher</persName> wollte in der Folge
+					mit den alteingesessenen <placeName key="Zürich (Stadt)">Zürchern</placeName>
 					nichts mehr zu tun haben und unterstrich diesen Bruch 1831 noch mit dem Umzug in
-					das Herrenhaus <idx type="place" norm="Belvoir (Enge, Zürich)">Belvoir</idx>
-					ausserhalb der Stadt.<com id="Aufstieg_c49"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 30–49.</com> Die
-					abweisende Haltung der alten <idx type="place" norm="Zürich (Stadt)">Zürcher</idx> Familien bekam Alfred Escher immer wieder zu spüren; so hiess
-					beispielsweise das <idx type="place" norm="Belvoir (Enge, Zürich)">Belvoir</idx>
-					im Volksmund schlicht «Schuldenblick».<com id="Aufstieg_c50"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Wochenzeitung</ref>, 21. Oktober 1845. </com> Als er am <d norm="21.07.1844">21. Juli 1844</d> in den Grossen Rat gewählt wurde, war
+					das Herrenhaus <placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName>
+					ausserhalb der Stadt.<com xml:id="Aufstieg_c49">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 30–49.</com> Die
+					abweisende Haltung der alten <placeName key="Zürich (Stadt)">Zürcher</placeName> Familien bekam Alfred Escher immer wieder zu spüren; so hiess
+					beispielsweise das <placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName>
+					im Volksmund schlicht «Schuldenblick».<com xml:id="Aufstieg_c50">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Wochenzeitung</ref>, 21. Oktober 1845. </com> Als er am <date when="1844-07-21">21. Juli 1844</date> in den Grossen Rat gewählt wurde, war
 					für Escher klar, dass er sich damit öffentlich exponieren musste und den
 					konservativen Gegnern die Möglichkeit bot, die Familiengeschichte wieder
 					aufzurollen und als Vorwand für Diffamierungen zu missbrauchen. Diese Sorge
 					erschwerte Escher den Schritt in den Grossen Rat. Er kam jedoch zum Schluss,
 					dass er sich wegen der drohenden Offensiven nicht von der Annahme der Wahl
 					abhalten lassen wollte.</p>
-        <p id="Aufstieg_p26">Nachdem Eschers Entscheidung zugunsten des Grossen Rats
+        <p xml:id="Aufstieg_p26">Nachdem Eschers Entscheidung zugunsten des Grossen Rats
 					ausgefallen war, begann für ihn eine intensive Phase, in der er zahlreiche
 					politische Ämter und Aufgaben übernahm. So gehörte er ab 1845 unter anderem der
 					Petitionskommission und dem Erziehungsrat an und amtete zudem als
 					Tagsatzungsgesandter. 1846 kam die Tätigkeit im Gesetzgebungsrat hinzu. Im Juni
 					1847 entschied sich Escher zudem, die ihm vom Regierungsrat angetragene Stelle
-					des ersten Staatsschreibers anzunehmen.<com id="Aufstieg_c51">Eine vollständige
+					des ersten Staatsschreibers anzunehmen.<com xml:id="Aufstieg_c51">Eine vollständige
 						Liste mit Eschers Ämtern findet sich in Jungs Escher-Biographie.
-							<abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 146–149. </com> Diese
+							<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 146–149. </com> Diese
 					Schlüsselposition ermöglichte es ihm, Einblick in alle Regierungsgeschäfte zu
-					nehmen; eine unschätzbare Erfahrung für den jungen Juristen. Der <idx type="place" norm="Zürich">Zürcher</idx> Staatsarchivar <ref type="kbp"/><idx type="person" norm="Meyer von Knonau Gerold">Gerold Meyer von Knonau</idx>
+					nehmen; eine unschätzbare Erfahrung für den jungen Juristen. Der <placeName key="Zürich">Zürcher</placeName> Staatsarchivar <persName key="Meyer von Knonau Gerold">Gerold Meyer von Knonau</persName>
 					wies ihn auf die Bedeutung dieser Stelle für eine achtbare Karriere hin: «Ich
 					brauche Ihnen nicht zu sagen, dass früher unsere besten Staatsmänner, Räte wie
 					Bürgermeister, stets solche waren, die kürzere oder längere Zeit den Weg durch
-					die Staatscanzelleien machten.»<ref type="letter" target="K_0466"><!--Nr. 49--></ref> Das Staatsschreiberamt war äusserst arbeitsintensiv, so
+					die Staatscanzelleien machten.»<!--Nr. 49--> Das Staatsschreiberamt war äusserst arbeitsintensiv, so
 					dass dieser Schritt bei vielen Freunden und Bekannten auf ein gewisses
-					Unverständnis stiess. <idx type="person" norm="Huggenberg Johann Jakob">Johann
-						Jakob Huggenberg</idx> schrieb Escher in seinem Gratulationsbrief, dass er
+					Unverständnis stiess. <persName key="Huggenberg Johann Jakob">Johann
+						Jakob Huggenberg</persName> schrieb Escher in seinem Gratulationsbrief, dass er
 					sich «durch Annahme der Berufung eine große Last aufgeladen [habe]
-						<abbr norm="und">u.</abbr> es wird nicht Wenige wundern, daß Sie dieß thaten [...]»<ref type="letter" target="K_0471"><!--Nr. 51--></ref>. Und auch sein
-        	Grossratskollege <ref type="kbp"/><idx type="person" norm="Weiss Heinrich">Heinrich Weiss</idx>, der sich sehr
+						<choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> es wird nicht Wenige wundern, daß Sie dieß thaten [...]»<!--Nr. 51-->. Und auch sein
+        	Grossratskollege <persName key="Weiss Heinrich">Heinrich Weiss</persName>, der sich sehr
 					darüber freute, dass Escher in Zukunft als Staatsschreiber Einfluss auf die
 					Regierungsgeschäfte nehmen konnte, drückte seine Überraschung über die
 					Aufbürdung dieses Amtes aus: «Ich verberge Ihnen nicht, daß ich es ganz fühlte,
-					welches Opfer Sie bringen.»<com id="Aufstieg_c52"><ref type="letter" target="K_0472"/>. </com> <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> ging noch weiter,
-					indem er seinem Freund zur Annahme des neuen Postens kondolierte<ref type="letter" target="K_0479"><!--Nr. 54--></ref>. Nicht etwa, weil er ihm
+					welches Opfer Sie bringen.»<com xml:id="Aufstieg_c52">. </com> <persName key="Blumer Johann Jakob">Blumer</persName> ging noch weiter,
+					indem er seinem Freund zur Annahme des neuen Postens kondolierte<!--Nr. 54-->. Nicht etwa, weil er ihm
 					die Stelle nicht gegönnt hätte, sondern weil er Escher gut <pb n="27"/>genug
 					kannte, um zu wissen, wie akribisch er sich dem Amt widmen und dabei von Arbeit
 					buchstäblich überhäuft werden würde.</p>
-        <p id="Aufstieg_p27">Die Arbeitsbelastung intensivierte sich zunehmend, so dass
+        <p xml:id="Aufstieg_p27">Die Arbeitsbelastung intensivierte sich zunehmend, so dass
 					Escher im August 1847 die Einladung zur Eröffnung der Nordbahn mit den Worten ablehnte, dass
 					seine Geschäfte, die «in außerordentlichem Umfange auf mir lasten», es ihm nicht
-					erlauben würden, sich «einen halben Tag lang denselben zu entziehen».<com id="Aufstieg_c53"><ref type="letter" target="K_0477"/>. </com> Es entbehrt
+					erlauben würden, sich «einen halben Tag lang denselben zu entziehen».<com xml:id="Aufstieg_c53">. </com> Es entbehrt
 					nicht einer gewissen Ironie, dass der spätere Eisenbahnkönig für die Eröffnung
 					der «Spanischbrötlibahn» –
-					der ersten Schweizer Eisenbahnlinie<com id="Aufstieg_c54">Die erste Bahnlinie,
+					der ersten Schweizer Eisenbahnlinie<com xml:id="Aufstieg_c54">Die erste Bahnlinie,
 						die mit Schweizer Boden in Berührung kam, war die 1844 eröffnete
-						Eisenbahnlinie <idx type="place" norm="Saint-Louis (F)">Saint-Louis</idx>–<idx type="place" norm="Basel-Stadt">Basel</idx> St. Jakob, die von der
-							<idx type="place" norm="Frankreich">französischen</idx> Gesellschaft
+						Eisenbahnlinie <placeName key="Saint-Louis (F)">Saint-Louis</placeName>–<placeName key="Basel-Stadt">Basel</placeName> St. Jakob, die von der
+							<placeName key="Frankreich">französischen</placeName> Gesellschaft
 							Chemins de fer
-							d‘<idx type="place" norm="Elsass">Alsace</idx> betrieben wurde. Die erste von einer schweizerischen
+							d‘<placeName key="Elsass">Alsace</placeName> betrieben wurde. Die erste von einer schweizerischen
 						Gesellschaft begründete Eisenbahnlinie war die 1847 in Betrieb genommene
-						Strecke von <idx type="place" norm="Zürich (Stadt)">Zürich</idx> nach <idx type="place" norm="Baden (AG)">Baden</idx> der Schweizerischen Nordbahn.
-							<abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Thiessing, Schweizer Bahnen</ref> I, <abbr norm="Seite(n)">S.</abbr> 25–40.
-						– Zur Entwicklung der Eisenbahnen in der Schweiz <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>; <ref type="www" target="http://www.bahndaten.ch"><ref type="lit">Bahndaten online</ref> </ref>. </com> – keine Zeit hatte. <idx type="person" norm="Weiss Heinrich">Weiss</idx> machte sich aufgrund des gewaltigen
+						Strecke von <placeName key="Zürich (Stadt)">Zürich</placeName> nach <placeName key="Baden (AG)">Baden</placeName> der Schweizerischen Nordbahn.
+							<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Thiessing, Schweizer Bahnen</ref> I, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 25–40.
+						– Zur Entwicklung der Eisenbahnen in der Schweiz <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>; <ref target="http://www.bahndaten.ch">
+                                <ref type="lit">Bahndaten online</ref> </ref>. </com> – keine Zeit hatte. <persName key="Weiss Heinrich">Weiss</persName> machte sich aufgrund des gewaltigen
 					Einsatzes Eschers sogar Sorgen um das gesundheitliche Wohl des frischgebackenen
 					Staatsschreibers: «Schonen Sie doch Ihr Leben, Ihre Zeit &amp; Gesundheit etwas
-						mehr!»<com id="Aufstieg_c55"><ref type="letter" target="K_0483"/>. </com> </p>
-        <p id="Aufstieg_p28">Der Schriftsteller Adolf Muschg<!--kein IDX, TM--> bemerkte, dass auf dem «<idx type="place" norm="Zürich (Stadt)">Zürcher</idx> Reichtum» bis heute «ein Schatten von Freudlosigkeit [liege],
-					in dem man Eschers verdunkeltes Gesicht zu erkennen glaubt».<com id="Aufstieg_c56"><ref type="lit">Muschg, Heimatland</ref>,
-						<abbr norm="Seite(n)">S.</abbr> 87. </com> Kein Wunder, dass <idx type="person" norm="Keller Gottfried">Gottfried Keller</idx> über den gleichaltrigen
-					Escher mit einer Mischung aus Anerkennung und Unverständnis am <d norm="20.09.1847">20. September 1847</d> in sein Tagebuch notierte: «Ein
+						mehr!»<com xml:id="Aufstieg_c55">. </com> </p>
+        <p xml:id="Aufstieg_p28">Der Schriftsteller Adolf Muschg<!--kein IDX, TM--> bemerkte, dass auf dem «<placeName key="Zürich (Stadt)">Zürcher</placeName> Reichtum» bis heute «ein Schatten von Freudlosigkeit [liege],
+					in dem man Eschers verdunkeltes Gesicht zu erkennen glaubt».<com xml:id="Aufstieg_c56">
+                            <ref type="lit">Muschg, Heimatland</ref>,
+						<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 87. </com> Kein Wunder, dass <persName key="Keller Gottfried">Gottfried Keller</persName> über den gleichaltrigen
+					Escher mit einer Mischung aus Anerkennung und Unverständnis am <date when="1847-09-20">20. September 1847</date> in sein Tagebuch notierte: «Ein
 					erbaulicher Charakter anderer Art ist Alfred Escher; der Sohn eines Millionärs,
 					unterzieht er sich den strengsten Arbeiten vom Morgen bis zum Abend, übernimmt
 					schwere weitläufige Ämter, in einem Alter, wo andere junge Männer von fünf bis
 					achtundzwanzig Jahren [...] das Leben genießen. [...] Ich meinerseits würde
 					schwerlich, auch wenn ich seine Erziehung genossen hätte, den ganzen Tag auf der
-					Schreibstube sitzen, wenn ich dabei sein Geld besäße.»<com id="Aufstieg_c57"><ref type="lit">Ermatinger, Gottfried Keller</ref> II,
-						<abbr norm="Seite(n)">S.</abbr> 159. </com> </p>
-        <p id="Aufstieg_p29">Die Bewältigung eines enormen Arbeitspensums zieht sich wie ein
-					roter Faden durch Eschers Leben. 1846 schrieb er an <idx type="person" norm="Zellweger Jakob">Jakob Zellweger</idx>: «Ich will mich nun nicht
+					Schreibstube sitzen, wenn ich dabei sein Geld besäße.»<com xml:id="Aufstieg_c57">
+                            <ref type="lit">Ermatinger, Gottfried Keller</ref> II,
+						<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 159. </com> </p>
+        <p xml:id="Aufstieg_p29">Die Bewältigung eines enormen Arbeitspensums zieht sich wie ein
+					roter Faden durch Eschers Leben. 1846 schrieb er an <persName key="Zellweger Jakob">Jakob Zellweger</persName>: «Ich will mich nun nicht
 					darüber beklagen, daß ich vom frühen Morgen bis in die späte Nacht arbeiten muß
-						[...]»<ref type="letter" target="K_4638"><!--Nr. 44--></ref>, doch empfand
+						[...]»<!--Nr. 44-->, doch empfand
 					es Escher als mühselig, wenn er nach all seinen politischen Aufgaben «dann auf
 					einmal wieder in den Tempel der Wissenschaft eintreten &amp; auf dem Katheder so
 					frisch erscheinen» müsse, «wie der, dessen einzige Beschäftigung das academische
@@ -538,27 +813,41 @@
 					zunehmend in die Quere. So verwundert es nicht, dass mit der Übernahme der
 					Staatsschreiberstelle 1847 seine universitären Aktivitäten ganz ins
 					Hintertreffen gerieten und er keine Vorlesungen mehr hielt.</p>
-        <p id="Aufstieg_p30">1848 wurde Escher in den Regierungsrat gewählt, im selben Jahr
+        <p xml:id="Aufstieg_p30">1848 wurde Escher in den Regierungsrat gewählt, im selben Jahr
 					in den Nationalrat, und er war sogar bei der Zusammenstellung der ersten
-					Landesregierung als Bundesrat vorgesehen. <idx type="person" norm="Furrer Jonas">Furrer</idx> schrieb im Oktober 1848 an Escher anlässlich der Besetzung des
-					Bundesrats: «Jemand <abbr norm="von">v.</abbr> <idx type="place" norm="Zürich">Zürich</idx> sollte aber jedenfalls gewählt
+					Landesregierung als Bundesrat vorgesehen. <persName key="Furrer Jonas">Furrer</persName> schrieb im Oktober 1848 an Escher anlässlich der Besetzung des
+					Bundesrats: «Jemand <choice>
+                            <abbr>v.</abbr>
+                            <expan>von</expan>
+                        </choice> <placeName key="Zürich">Zürich</placeName> sollte aber jedenfalls gewählt
 					werden. [...] Wie steht es mit dir? Hast du dieser Sache schon deine
 					Aufmerksamkeit geschenkt? Es ist auch das natürlich sehr wichtig, zumal ich
-					wenig Leute weiß, die ich mit Vertrauen im Bundesrath sähe.»<com id="Aufstieg_c58"><ref type="letter" target="K_0587"/>. </com> <idx type="person" norm="Furrer Jonas">Furrer</idx> stellte sich schliesslich
+					wenig Leute weiß, die ich mit Vertrauen im Bundesrath sähe.»<com xml:id="Aufstieg_c58">. </com> <persName key="Furrer Jonas">Furrer</persName> stellte sich schliesslich
 					selbst für das Amt zur Verfügung und machte den Platz an der Spitze der
-					fortschrittlichen Kräfte im Kanton <idx type="place" norm="Zürich">Zürich</idx>
+					fortschrittlichen Kräfte im Kanton <placeName key="Zürich">Zürich</placeName>
 					endgültig für Escher frei. 1849 wurde Escher zum Nationalratspräsidenten erkoren
-					und bekleidete damit mit 30 Jahren bereits das Amt des höchsten Schweizers.<com id="Aufstieg_c59">Zur politischen Karriere Eschers <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 134–237. </com>
+					und bekleidete damit mit 30 Jahren bereits das Amt des höchsten Schweizers.<com xml:id="Aufstieg_c59">Zur politischen Karriere Eschers <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 134–237. </com>
 					Innerhalb von nur fünf Jahren war Escher vom zweifelnden Grossrat an die Spitze
 					des jungen Bundesstaates aufgestiegen. Dieses Muster der rasanten Entwicklungen
 					sollte sich auch in der zukünftigen Gestaltung von Eschers Leben wiederholen.
 					Die Bedeutung, die er auf politischer Ebene erlangt hatte, lässt sich an einer
-					Tagebuchnotiz <idx type="person" norm="Bluntschli Johann Caspar">Johann Caspar
-						Bluntschlis</idx> erahnen. Darin vergleicht er die <idx type="place" norm="Zürich">Zürcher</idx> Regierung mit einer Pyramide, die nicht auf
+					Tagebuchnotiz <persName key="Bluntschli Johann Caspar">Johann Caspar
+						Bluntschlis</persName> erahnen. Darin vergleicht er die <placeName key="Zürich">Zürcher</placeName> Regierung mit einer Pyramide, die nicht auf
 					ihrem Fundament, sondern auf der Spitze steht: «Würde diese (Alfred Escher)
-					zerbrochen, so würde der Rest zusammenstürzen.»<com id="Aufstieg_c60"><ref type="lit">Bluntschli, Denkwürdiges</ref> II, <abbr norm="Seite(n)">S.</abbr> 128.
+					zerbrochen, so würde der Rest zusammenstürzen.»<com xml:id="Aufstieg_c60">
+                            <ref type="lit">Bluntschli, Denkwürdiges</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 128.
 					</com> </p>
       </div>
     </div>
   </body>
-</commentary>
+    </text>
+</TEI>

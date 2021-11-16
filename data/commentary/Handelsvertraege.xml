@@ -1,183 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Handelsvertraege" name="Handelsverträge">
-	<metadata>
-		<title>Chronologie der Handelsverträge 1850–1869</title>
-		<author>
-			<name>Claudia Aufdermauer, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Handelsvertraege">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chronologie der Handelsverträge 1850–1869</title>
+                <author>
+			Claudia Aufdermauer, unter der Leitung von Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1852–1866).
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1852–1866).
 				Wirtschaftsliberales Zeitfenster, Gründungen, Aussenpolitik, mit Beiträgen von
 				Claudia Aufdermauer, Bruno Fischer, Joseph Jung, Björn Koch, Katrin Rigort und Sandra
 				Wiederkehr (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-				Escher-Stiftung, Band 5), Zürich 2013</volume_title>
-			<short_title>Jung, Escher Briefe, Band 5</short_title>
-			<volume>5</volume>
-			<page>387–388</page>
-		</source>
-		<description/>
-		<revision>
-			<change>XML-Grundstruktur erstellt, RO, 30.07.2013 </change>
-			<change>e-Edition: Auszeichnung 1 umgesetzt, MB, 02.08.2013</change>
-			<change>e-Edition: Verifizierung 1 umgesetzt, CB, 02.08.2013</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Handelsvertraege_d1">
-		<head><pb n="387"/>Chronologie der Handelsverträge 1850–1869</head>
-		<div id="Handelsvertraege_d1.1"><head/><p id="Handelsvertraege_p1"><table><tr id="Handelsvertraege_r1"><tab><d norm="25.11.1850">25. November 1850</d> </tab> <tab>Vertrag zwischen der Schweizerischen
-		Eidgenossenschaft und den <idx type="place" norm="Vereinigte Staaten von Amerika">Vereinigten
-		Staaten von Nordamerika</idx> </tab>
+				Escher-Stiftung, Band 5), Zürich 2013</title>
+                    <title type="short">Jung, Escher Briefe, Band 5</title>
+                    <ref type="volume" target="V5">387–388</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, RO, 30.07.2013 </change>
+                <change>e-Edition: Auszeichnung 1 umgesetzt, MB, 02.08.2013</change>
+                <change>e-Edition: Verifizierung 1 umgesetzt, CB, 02.08.2013</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Handelsvertraege_d1">
+		<head>
+                    <pb n="387"/>Chronologie der Handelsverträge 1850–1869</head>
+		<div xml:id="Handelsvertraege_d1.1">
+                    <head/>
+                    <p xml:id="Handelsvertraege_p1">
+                        <table>
+                            <tr xml:id="Handelsvertraege_r1">
+                                <tab>
+                                    <date when="1850-11-25">25. November 1850</date> </tab> <tab>Vertrag zwischen der Schweizerischen
+		Eidgenossenschaft und den <placeName key="Vereinigte Staaten von Amerika">Vereinigten
+		Staaten von Nordamerika</placeName> </tab>
 		<tab>Beide Vertragspartner sichern sich die gegenseitige Gleichstellung
 		mit der am meisten begünstigten Nation und die
 		Auslieferung von Verbrechern zu. Ausserdem regelt der Vertrag
 		die Niederlassungs-, Handels- und Vermögensrechte der
 		jeweiligen Bürger. Die Schweizer dürfen sich in allen Staaten frei
 		niederlassen, indes in den Unionsstaaten keine Grundstücke
-		erwerben. Die <idx type="place" norm="Vereinigte Staaten von Amerika">Amerikaner</idx> dürfen sich in der gesamten Schweiz
+		erwerben. Die <placeName key="Vereinigte Staaten von Amerika">Amerikaner</placeName> dürfen sich in der gesamten Schweiz
 		frei niederlassen und Eigentum erwerben, sofern sie Christen
-		sind. Wegen des Unmuts von jüdischen <idx type="place" norm="Vereinigte Staaten von Amerika">amerikanischen</idx>
+		sind. Wegen des Unmuts von jüdischen <placeName key="Vereinigte Staaten von Amerika">amerikanischen</placeName>
 		Organisationen über diese auf Artikel 41 der Bundesverfassung
 		zurückgehende Bestimmung wird der Vertrag erst im Juli 1855
 		ratifiziert.</tab> </tr>
 			
-		<tr id="Handelsvertraege_r2"><tab><d norm="08.06.1851">8. Juni 1851</d> </tab><tab> Handelsvertrag zwischen der Schweizerischen
+		<tr xml:id="Handelsvertraege_r2">
+                                <tab>
+                                    <date when="1851-06-08">8. Juni 1851</date> </tab>
+                                <tab> Handelsvertrag zwischen der Schweizerischen
 		Eidgenossenschaft und Seiner
-		Majestät dem <idx type="person" norm="Vittorio Emanuele II. (Italien)">König von Sardinien</idx> </tab>
+		Majestät dem <persName key="Vittorio Emanuele II. (Italien)">König von Sardinien</persName> </tab>
 		<tab>Beide Vertragspartner einigen sich auf die Meistbegünstigung,
 		auf die freie Niederlassung im Rahmen der jeweiligen Gesetze,
 		auf die Förderung einer Eisenbahn zur Verbindung der beiden
 		Länder und auf eine jährliche zollfreie Einfuhr von 5000 Hektoliter
 		Wein nach der Schweiz. Darüber hinaus ermässigt die
-		Schweiz die Einfuhrzölle unter anderem auf <idx type="place" norm="Sardinien-Piemont (Königreich)">sardische</idx> Südfrüchte,
-		Olivenöl, Fleisch und Teigwaren, während <idx type="place" norm="Sardinien-Piemont (Königreich)">Sardinien</idx> der
+		Schweiz die Einfuhrzölle unter anderem auf <placeName key="Sardinien-Piemont (Königreich)">sardische</placeName> Südfrüchte,
+		Olivenöl, Fleisch und Teigwaren, während <placeName key="Sardinien-Piemont (Königreich)">Sardinien</placeName> der
 		Schweiz die bereits anderen Staaten zugestandenen Begünstigungen
 		gewährt und den Einfuhrzoll auf Schweizer Käse
 		herabsetzt.</tab> </tr>
 			
-		<tr id="Handelsvertraege_r3"><tab><d norm="06.09.1855">6. September 1855</d> </tab> <tab>Freundschafts-, Handels- und Niederlassungsvertrag
+		<tr xml:id="Handelsvertraege_r3">
+                                <tab>
+                                    <date when="1855-09-06">6. September 1855</date> </tab> <tab>Freundschafts-, Handels- und Niederlassungsvertrag
 		zwischen der Schweizerischen
 		Eidgenossenschaft und Ihrer Majestät der
-		<idx type="person" norm="Victoria (Grossbritannien)">Königin der Vereinigten Reiche von
-		Grossbritannien und Irland</idx> </tab>
-		<tab>Ähnlich wie das schweizerisch-<idx type="place" norm="Amerika">amerikanische</idx> Abkommen von
+		<persName key="Victoria (Grossbritannien)">Königin der Vereinigten Reiche von
+		Grossbritannien und Irland</persName> </tab>
+		<tab>Ähnlich wie das schweizerisch-<placeName key="Amerika">amerikanische</placeName> Abkommen von
 		1850 regelt dieser Vertrag mit Meistbegünstigungsklausel die
 		Niederlassungs-, Handels- und Vermögensrechte der jeweiligen
-		Bürger. Während die Schweiz den <idx type="place" norm="England">englischen</idx> Nichtchristen das
+		Bürger. Während die Schweiz den <placeName key="England">englischen</placeName> Nichtchristen das
 		freie Niederlassungsrecht vorenthält, ist den Schweizern wie
-		allen Ausländern der Erwerb von <idx type="place" norm="England">englischem</idx> Grundeigentum
+		allen Ausländern der Erwerb von <placeName key="England">englischem</placeName> Grundeigentum
 		untersagt.</tab> </tr>
 			
-		<tr id="Handelsvertraege_r4"><tab>Februar 1858</tab> <tab> Scheitern eines Handelsvertrags zwischen
-		der Schweiz und <idx type="place" norm="Iran">Persien</idx> </tab>
-		<tab>Der Bundesrat zieht sich von den seit Juni 1857 mit <idx type="place" norm="Iran">Persien</idx> auf
+		<tr xml:id="Handelsvertraege_r4">
+                                <tab>Februar 1858</tab> <tab> Scheitern eines Handelsvertrags zwischen
+		der Schweiz und <placeName key="Iran">Persien</placeName> </tab>
+		<tab>Der Bundesrat zieht sich von den seit Juni 1857 mit <placeName key="Iran">Persien</placeName> auf
 		dessen Anfrage hin geführten bilateralen Verhandlungen zurück.
 		Der in Ausarbeitung begriffene Vertrag, der die freie Niederlassung
 		aller Bürger vorsieht, ist nicht kompatibel mit Artikel 41 der
 		Bundesverfassung, der Nichtchristen die freie Niederlassung in
 		der Schweiz untersagt.</tab> </tr>
 			
-		<tr id="Handelsvertraege_r5"><tab><d norm="11.12.1862">11. Dezember 1862</d> </tab> <tab>Freundschafts-, Niederlassungs- und
+		<tr xml:id="Handelsvertraege_r5">
+                                <tab>
+                                    <date when="1862-12-11">11. Dezember 1862</date> </tab> <tab>Freundschafts-, Niederlassungs- und
 		Handelsvertrag zwischen der Schweizerischen
 		Eidgenossenschaft und Seiner
-		Majestät dem <idx type="person" norm="Leopold I. (Belgien)">König der Belgier</idx> <!-- LB, verifiziert--></tab>
+		Majestät dem <persName key="Leopold I. (Belgien)">König der Belgier</persName> <!-- LB, verifiziert-->
+                                </tab>
 		<tab>Der Vertrag mit Meistbegünstigungsklausel regelt die
 		Niederlassungs-, Handels- und Vermögensrechte der jeweiligen
-		Bürger entsprechend dem schweizerisch-<idx type="place" norm="England">englischen</idx> Abkommen
-		von 1855. Darüber hinaus gewährt <idx type="place" norm="Belgien">Belgien</idx> der Schweiz die
-		bereits <idx type="place" norm="Frankreich">Frankreich</idx> zugestandenen Einfuhrzollermässigungen –
+		Bürger entsprechend dem schweizerisch-<placeName key="England">englischen</placeName> Abkommen
+		von 1855. Darüber hinaus gewährt <placeName key="Belgien">Belgien</placeName> der Schweiz die
+		bereits <placeName key="Frankreich">Frankreich</placeName> zugestandenen Einfuhrzollermässigungen –
 		unter anderem auf Käse, Uhren, Baumwoll- und Seidenprodukten
-		–, während die Schweiz die Einfuhrzölle auf <idx type="place" norm="Belgien">belgische</idx>
+		–, während die Schweiz die Einfuhrzölle auf <placeName key="Belgien">belgische</placeName>
 		Glasflaschen, Waffen, Töpferwaren, Decken aus Baumwolle
 		sowie Druckpapier herabsetzt.</tab> </tr>
 			
-		<tr id="Handelsvertraege_r6"><tab>Juni 1863</tab> <tab> Scheitern eines Freundschafts-, Niederlassungs-
+		<tr xml:id="Handelsvertraege_r6">
+                                <tab>Juni 1863</tab> <tab> Scheitern eines Freundschafts-, Niederlassungs-
 		und Handelsvertrags zwischen der
 		Schweizerischen Eidgenossenschaft und
-		den <idx type="place" norm="Niederlande">Niederlanden</idx> </tab>
-		<tab>Das <idx type="place" norm="Niederlande">niederländische</idx> Parlament verweigert dem am <d norm="22.11.1862">22. November
-		1862</d> unterzeichneten Vertrag die Ratifikation, da dieser
+		den <placeName key="Niederlande">Niederlanden</placeName> </tab>
+		<tab>Das <placeName key="Niederlande">niederländische</placeName> Parlament verweigert dem am <date when="1862-11-22">22. November
+		1862</date> unterzeichneten Vertrag die Ratifikation, da dieser
 		gemäss Artikel 41 der Bundesverfassung den Nichtchristen das
 		freie Niederlassungsrecht in der Schweiz vorenthält.</tab> </tr>
 		
-		<tr id="Handelsvertraege_r7"><tab><d norm="06.02.1864">6. Februar 1864</d> </tab> <tab>Freundschafts- und Handelsvertrag
+		<tr xml:id="Handelsvertraege_r7">
+                                <tab>
+                                    <date when="1864-02-06">6. Februar 1864</date> </tab> <tab>Freundschafts- und Handelsvertrag
 		zwischen dem Schweizerischen Bundesrat
-		und Seiner Majestät dem <idx type="person" norm="Kōmei (Japan)">Taïkun</idx> von <idx type="place" norm="Japan">Japan</idx> </tab>
+		und Seiner Majestät dem <persName key="Kōmei (Japan)">Taïkun</persName> von <placeName key="Japan">Japan</placeName> </tab>
 		<tab>Zuvor vom Handel ausgeschlossen, erhalten Schweizer Kaufleute
-		durch den Vertrag die Erlaubnis, sich in drei <idx type="place" norm="Japan">japanischen</idx> Häfen
+		durch den Vertrag die Erlaubnis, sich in drei <placeName key="Japan">japanischen</placeName> Häfen
 		niederzulassen und zu handeln. Darüber hinaus einigen sich
 		beide Vertragspartner auf Meistbegünstigung, zollfreie Ein- und
 		Ausfuhr von Silber und Gold, 5–6% Zollgebühr auf alle aus
-		<idx type="place" norm="Japan">Japan</idx> ausgeführten und auf die meisten der nach <idx type="place" norm="Japan">Japan</idx>
+		<placeName key="Japan">Japan</placeName> ausgeführten und auf die meisten der nach <placeName key="Japan">Japan</placeName>
 		eingeführten Produkte (unter anderem auf Baumwoll- und
-		Leinenprodukte, Uhren und Bijouterieartikel).<pb n="388"/></tab> </tr>
-		<tr id="Handelsvertraege_r8"><tab><d norm="30.06.1864">30. Juni 1864</d> </tab><tab> Verträge und Übereinkünfte zwischen der
-		Schweiz und <idx type="place" norm="Frankreich">Frankreich</idx> </tab>
-		<tab><idx type="place" norm="Frankreich">Frankreich</idx> ermässigt die Einfuhrzölle unter anderem auf
+		Leinenprodukte, Uhren und Bijouterieartikel).<pb n="388"/>
+                                </tab> </tr>
+		<tr xml:id="Handelsvertraege_r8">
+                                <tab>
+                                    <date when="1864-06-30">30. Juni 1864</date> </tab>
+                                <tab> Verträge und Übereinkünfte zwischen der
+		Schweiz und <placeName key="Frankreich">Frankreich</placeName> </tab>
+		<tab>
+                                    <placeName key="Frankreich">Frankreich</placeName> ermässigt die Einfuhrzölle unter anderem auf
 		Schweizer Uhren und Seidenbänder und hebt das bisherige
 		Einfuhrverbot für Schweizer Baumwollprodukte auf. Seidenstoffe
-		und Töpferwaren können neu zollfrei nach <idx type="place" norm="Frankreich">Frankreich</idx> ausgeführt
+		und Töpferwaren können neu zollfrei nach <placeName key="Frankreich">Frankreich</placeName> ausgeführt
 		werden. Im Gegenzug senkt die Schweiz den Einfuhrzoll auf
-		<idx type="place" norm="Frankreich">französischem</idx> Wein und willigt in den Abschluss des gesamten
+		<placeName key="Frankreich">französischem</placeName> Wein und willigt in den Abschluss des gesamten
 		Vertragswerks ein. Neben dem Handelsvertrag mit Meistbegünstigungsklausel
 		umfasst dieses eine Übereinkunft zum
 		gegenseitigen Schutz des literarischen, künstlerischen und
 		industriellen Eigentums, eine Übereinkunft über nachbarliche
 		Verhältnisse und Beaufsichtigung der Grenzwaldungen, ein
-		Reglement betreffend die Landschaft <idx type="place" norm="Pays de Gex">Gex</idx> und einen Niederlassungsvertrag.
-		Dieser Niederlassungsvertrag, der von <idx type="place" norm="Frankreich">Frankreich</idx>
+		Reglement betreffend die Landschaft <placeName key="Pays de Gex">Gex</placeName> und einen Niederlassungsvertrag.
+		Dieser Niederlassungsvertrag, der von <placeName key="Frankreich">Frankreich</placeName>
 		als «conditio sine qua non» des gesamten Vertragswerks erklärt
-		wird, ermöglicht neu allen <idx type="place" norm="Frankreich">Franzosen</idx> – unabhängig von ihrer
+		wird, ermöglicht neu allen <placeName key="Frankreich">Franzosen</placeName> – unabhängig von ihrer
 		Religion – die freie Niederlassung in der ganzen Schweiz. Da die
-		Schweizer Juden dadurch gegenüber den <idx type="place" norm="Frankreich">französischen</idx> Juden
+		Schweizer Juden dadurch gegenüber den <placeName key="Frankreich">französischen</placeName> Juden
 		benachteiligt werden, kommt es im Januar 1866 zur Teilrevision
 		der Bundesverfassung von 1848. Das Volk nimmt die Abänderung
 		der Artikel 41 und 48 an, welche den Schweizer Juden nun
 		ebenfalls die freie Niederlassung in der ganzen Schweiz und die
 		Gleichstellung vor dem Gesetz gewähren.</tab> </tr>
 			
-		<tr id="Handelsvertraege_r9"><tab><d norm="20.07.1864">20. Juli 1864</d> </tab> <tab>Freundschafts-, Niederlassungs- und
+		<tr xml:id="Handelsvertraege_r9">
+                                <tab>
+                                    <date when="1864-07-20">20. Juli 1864</date> </tab> <tab>Freundschafts-, Niederlassungs- und
 		Handelsvertrag zwischen der Schweizerischen
 		Eidgenossenschaft und Seiner
-		Majestät dem <idx type="person" norm="Kamehameha V. (Hawaii)">König</idx> <!--LB, verifiziert--> der <idx type="place" norm="Hawaii (USA)">Hawaiian</idx>-Inseln</tab>
+		Majestät dem <persName key="Kamehameha V. (Hawaii)">König</persName> <!--LB, verifiziert--> der <placeName key="Hawaii (USA)">Hawaiian</placeName>-Inseln</tab>
 		<tab>Die beiden Länder, die zuvor in keinen Handelsbeziehungen
 		standen, gewähren sich gegenseitige Niederlassungs- und
 		Handelsfreiheit sowie Meistbegünstigung.</tab> </tr>
 			
-		<tr id="Handelsvertraege_r10"><tab><d norm="14.07.1868">14. Juli 1868</d> </tab> <tab>Handelsvertrag zwischen der Schweizerischen
-		Eidgenossenschaft und <idx type="place" norm="Österreich (Kaisertum)">Österreich</idx> </tab>
+		<tr xml:id="Handelsvertraege_r10">
+                                <tab>
+                                    <date when="1868-07-14">14. Juli 1868</date> </tab> <tab>Handelsvertrag zwischen der Schweizerischen
+		Eidgenossenschaft und <placeName key="Österreich (Kaisertum)">Österreich</placeName> </tab>
 		<tab>Der Vertrag mit Meistbegünstigungsklausel enthält lediglich
 		Bestimmungen zum Veredlungs- und Grenzverkehr. Da
-		<idx type="place" norm="Österreich (Kaisertum)">Österreich</idx> beabsichtigt, den Einfuhrzoll auf Artikeln von
+		<placeName key="Österreich (Kaisertum)">Österreich</placeName> beabsichtigt, den Einfuhrzoll auf Artikeln von
 		Ländern, mit denen es nicht in Handelsbeziehungen steht, auf
 		40% anzuheben, gilt dieser Vertrag trotz der immer noch
-		vorhandenen schutzzöllnerischen Haltung <idx type="place" norm="Österreich (Kaisertum)">Österreichs</idx> als Erfolg.</tab> </tr>
+		vorhandenen schutzzöllnerischen Haltung <placeName key="Österreich (Kaisertum)">Österreichs</placeName> als Erfolg.</tab> </tr>
 			
-		<tr id="Handelsvertraege_r11"><tab><d norm="15.07.1868">15.</d>/<d norm="16.07.1868">16. Juli 1868</d> </tab> <tab>Austausch einer Deklaration zwischen der
-		Schweiz und dem <idx type="place" norm="Kirchenstaat">Kirchenstaat</idx> </tab>
+		<tr xml:id="Handelsvertraege_r11">
+                                <tab>
+                                    <date when="1868-07-15">15.</date>/<date when="1868-07-16">16. Juli 1868</date> </tab> <tab>Austausch einer Deklaration zwischen der
+		Schweiz und dem <placeName key="Kirchenstaat">Kirchenstaat</placeName> </tab>
 		<tab>Beide Vertragspartner sichern sich die gegenseitige Gleichstellung
 		mit der am meisten begünstigen Nation zu.</tab> </tr>
 			
-		<tr id="Handelsvertraege_r12"><tab><d norm="22.07.1868">22. Juli 1868</d> </tab> <tab>Verträge und Übereinkünfte zwischen der
-		Schweiz und <idx type="place" norm="Italien (Königreich)">Italien</idx> </tab>
-		<tab>Ähnlich wie das schweizerisch-<idx type="place" norm="Frankreich">französische</idx> Abkommen
+		<tr xml:id="Handelsvertraege_r12">
+                                <tab>
+                                    <date when="1868-07-22">22. Juli 1868</date> </tab> <tab>Verträge und Übereinkünfte zwischen der
+		Schweiz und <placeName key="Italien (Königreich)">Italien</placeName> </tab>
+		<tab>Ähnlich wie das schweizerisch-<placeName key="Frankreich">französische</placeName> Abkommen
 		von 1864 umfasst das Vertragswerk eine Übereinkunft zum
 		gegenseitigen Schutz des literarischen und künstlerischen
 		Eigentums,
 		einen Handelsvertrag mit Meistbegünstigungsklausel,
 		einen Niederlassungs- und Konsularvertrag und einen
 		Vertrag über die Auslieferung von Verbrechern. Darüber hinaus
-		ermässigt die Schweiz die Einfuhrzölle auf <idx type="place" norm="Italien (Königreich)">italienische</idx> Südfrüchte,
+		ermässigt die Schweiz die Einfuhrzölle auf <placeName key="Italien (Königreich)">italienische</placeName> Südfrüchte,
 		Strohhüte, Teigwaren und Marmorstatuen, während
-		<idx type="place" norm="Italien (Königreich)">Italien</idx> der Schweiz Zollermässigungen unter anderem auf
+		<placeName key="Italien (Königreich)">Italien</placeName> der Schweiz Zollermässigungen unter anderem auf
 		Käse, Uhren, Schokolade, Baumwoll-, Seiden- und Holzartikeln
 		gewährt. Das Vertragswerk enthält zudem einen allgemein
 		gehaltenen Artikel betreffend Förderung von Alpenbahnen.</tab> </tr>
 			
-		<tr id="Handelsvertraege_r13"><tab><d norm="13.05.1869">13. Mai 1869</d> </tab><tab>Verträge zwischen der Schweiz und dem
-		<idx type="place" norm="Deutscher Zollverein">Deutschen Zollverein</idx> </tab>
-		<tab>Ähnlich wie das schweizerisch-<idx type="place" norm="Frankreich">französische</idx> Abkommen von
+		<tr xml:id="Handelsvertraege_r13">
+                                <tab>
+                                    <date when="1869-05-13">13. Mai 1869</date> </tab>
+                                <tab>Verträge zwischen der Schweiz und dem
+		<placeName key="Deutscher Zollverein">Deutschen Zollverein</placeName> </tab>
+		<tab>Ähnlich wie das schweizerisch-<placeName key="Frankreich">französische</placeName> Abkommen von
 		1864 umfasst das Vertragswerk eine Übereinkunft zum
 		gegenseitigen Schutz der Rechte an literarischen Erzeugnissen
 		und Werken der Kunst sowie einen Handels- und Zollvertrag
@@ -186,12 +237,17 @@
 		Heiratsaussteuern und Erbschaftsgüter gegenseitig zollfrei
 		ein- und ausgeführt werden.</tab> </tr>
 			
-		<tr id="Handelsvertraege_r14"><tab><d norm="27.08.1869">27. August 1869</d> </tab><tab> Austausch einer Deklaration zwischen der
-		Schweiz und <idx type="place" norm="Spanien">Spanien</idx> </tab>
+		<tr xml:id="Handelsvertraege_r14">
+                                <tab>
+                                    <date when="1869-08-27">27. August 1869</date> </tab>
+                                <tab> Austausch einer Deklaration zwischen der
+		Schweiz und <placeName key="Spanien">Spanien</placeName> </tab>
 		<tab>Ähnlich wie in der 1868 zwischen der Schweiz und dem
-		<idx type="place" norm="Kirchenstaat">Kirchenstaat</idx> ausgewechselten Deklaration sichern sich
+		<placeName key="Kirchenstaat">Kirchenstaat</placeName> ausgewechselten Deklaration sichern sich
 		die Vertragspartner die gegenseitige Gleichstellung mit der
-		am meisten begünstigen Nation zu.</tab> </tr></table> </p>
+		am meisten begünstigen Nation zu.</tab> </tr>
+                        </table> </p>
 		</div> </div>
 	</body>
-</commentary>
+    </text>
+</TEI>

@@ -1,72 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Eisenbahngesellschaften_in_der_Krise" name="Eisenbahngesellschaften in der Krise">
-	<metadata>
-		<title>Private Eisenbahngesellschaften in der Krise: Die 1870er Jahre</title>
-		<author>
-			<name>Bruno Fischer, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Eisenbahngesellschaften_in_der_Krise">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Private Eisenbahngesellschaften in der Krise: Die 1870er Jahre</title>
+                <author>
+			Bruno Fischer, unter der Leitung von Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1866–1882).
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1866–1882).
 				Private Eisenbahngesellschaften in der Krise, Gotthardbahn, politische Opposition, mit Beiträgen von
 				Claudia Aufdermauer, Basil Böhni, Lisa Bollinger, Bruno Fischer, Josef Inauen, Joseph Jung, Björn Koch und Vincent Pick (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-				Escher-Stiftung, Band 6), Zürich 2015</volume_title>
-			<short_title>Jung, Escher Briefe, Band 6</short_title>
-			<volume>6</volume>
-			<page>32–43</page>
-		</source>
-		<description>Entstehung der Krise – Krisenbewältigung – Erholung</description>
-		<revision>
-			<change>XML-Grundstruktur erstellt, MB, 05.08.2014</change>
-			<change>Auszeichnung 1 umgesetzt, CR, 07.08.2014</change>
-			<change>Migrationsverifizierung umgesetzt, LW, 11.08.2014</change>
-			<change>Verifizierung 1 umgesetzt, MA, 11.08.2014</change>
-			<change>Inhaltliche Verifizierung umgesetzt, BF, 29.08.2014 / 07.10.2014</change>
-			<change>Korrektorat EH umgesetzt, BF, 13.10.2014</change>
-			<change>Auszeichnung Personen/Orte/Eisenbahnen umgesetzt, BF, 28.10.2014</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Eisenbahngesellschaften_in_der_Krise_d1">
-			<head><pb n="32"/>Private Eisenbahngesellschaften in der Krise: Die 1870er Jahre</head>
-			<div id="Eisenbahngesellschaften_in_der_Krise_d1.1">
+				Escher-Stiftung, Band 6), Zürich 2015</title>
+                    <title type="short">Jung, Escher Briefe, Band 6</title>
+                    <ref type="volume" target="V6">32–43</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Entstehung der Krise – Krisenbewältigung – Erholung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, MB, 05.08.2014</change>
+                <change>Auszeichnung 1 umgesetzt, CR, 07.08.2014</change>
+                <change>Migrationsverifizierung umgesetzt, LW, 11.08.2014</change>
+                <change>Verifizierung 1 umgesetzt, MA, 11.08.2014</change>
+                <change>Inhaltliche Verifizierung umgesetzt, BF, 29.08.2014 / 07.10.2014</change>
+                <change>Korrektorat EH umgesetzt, BF, 13.10.2014</change>
+                <change>Auszeichnung Personen/Orte/Eisenbahnen umgesetzt, BF, 28.10.2014</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Eisenbahngesellschaften_in_der_Krise_d1">
+			<head>
+                    <pb n="32"/>Private Eisenbahngesellschaften in der Krise: Die 1870er Jahre</head>
+			<div xml:id="Eisenbahngesellschaften_in_der_Krise_d1.1">
 				<head>Entstehung und Gestalt der Krise</head>
-				<p id="Eisenbahngesellschaften_in_der_Krise_p1">In den ersten beiden Jahrzehnten nach dem Erlass des Bundesgesetzes von 1852,
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p1">In den ersten beiden Jahrzehnten nach dem Erlass des Bundesgesetzes von 1852,
 					welches den Bau der schweizerischen Eisenbahnen Privatgesellschaften unter
 					kantonaler Konzessionshoheit übertragen hatte, machten die Bahnen in der Schweiz
-					eine wechselvolle Entwicklung durch.<com id="Eisenbahngesellschaften_in_der_Krise_c1">Als Quellen zur Krise der schweizerischen
+					eine wechselvolle Entwicklung durch.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c1">Als Quellen zur Krise der schweizerischen
 						Eisenbahngesellschaften in den 1870er Jahren hervorzuheben sind die vom
 						Eidgenössischen Eisenbahndepartement jährlich herausgegebene
 						Eisenbahnstatistik [<ref type="lit">Schweizerische Eisenbahnstatistik</ref>]
 						und der 1883 durch die Nordostbahn publizierte statistische Atlas [<ref type="lit">Direction Nordostbahn, Graphisch-statistischer Atlas</ref>];
 						an zeitgenössischen Werken zur Krise sind beispielhaft zu nennen die
-						Publikationen von <idx type="person" norm="Zschokke Peter Olivier">Peter Olivier Zschokke</idx> [<ref type="lit">Zschokke,
-							Betrieb</ref>], <idx type="person" norm="Dietler Hermann">Hermann Dietler</idx> [<ref type="lit">Dietler,
-							Eisenbahnfrage</ref>] oder <idx type="person" norm="Cuony Albert">Albert Cuony</idx> [<ref type="lit">Cuony,
+						Publikationen von <persName key="Zschokke Peter Olivier">Peter Olivier Zschokke</persName> [<ref type="lit">Zschokke,
+							Betrieb</ref>], <persName key="Dietler Hermann">Hermann Dietler</persName> [<ref type="lit">Dietler,
+							Eisenbahnfrage</ref>] oder <persName key="Cuony Albert">Albert Cuony</persName> [<ref type="lit">Cuony,
 							Crise</ref>]. In der Literatur finden sich Überblicksdarstellungen über
 						die Krise in den bezüglichen Kapiteln der Werke zur schweizerischen
 						Eisenbahngeschichte von Hans Bauer [<ref type="lit">Bauer,
-						Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 108–118] und <idx type="person" norm="Weissenbach Placid">Placid Weissenbach</idx> [<ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <abbr norm="Seite(n)">S.</abbr> 49–77]. Betrachtungen einzelner
-						Aspekte <abbr norm="beziehungsweise">bzw.</abbr> mit dem Fokus auf einzelne Bahnen finden sich beispielsweise
+						Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 108–118] und <persName key="Weissenbach Placid">Placid Weissenbach</persName> [<ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 49–77]. Betrachtungen einzelner
+						Aspekte <choice>
+                                <abbr>bzw.</abbr>
+                                <expan>beziehungsweise</expan>
+                            </choice> mit dem Fokus auf einzelne Bahnen finden sich beispielsweise
 						zur Nordostbahn bei Joseph Jung [<ref type="lit">Jung, Aufbruch</ref>],
 						Jan-Henning Baumann [<ref type="lit">Baumann, Krisenbewältigung</ref>] sowie
 						Adolf Kessler [<ref type="lit">Kessler, Nordostbahn</ref>]; zu den
 						Vereinigten Schweizerbahnen bei Hans Wegmann [<ref type="lit">Wegmann,
-							Vereinigte Schweizerbahnen</ref>]; zur Centralbahn bei <idx type="person" norm="Speiser William">William Speiser</idx>
+							Vereinigte Schweizerbahnen</ref>]; zur Centralbahn bei <persName key="Speiser William">William Speiser</persName>
 							[<ref type="lit">Speiser, Bahnen und Banken</ref>]; zur Nationalbahn bei
 						Arnold Gubler [<ref type="lit">Gubler, Nationalbahn</ref>]; zur
 						Verstaatlichungsfrage bei Robert Herold [<ref type="lit">Herold, Bund und
 							Eisenbahnen</ref>].</com> In dieser Zeit erstellten die grossen
 					Bahngesellschaften ihr Stammnetz, so dass bis 1870 in der Schweiz ein
-					Schienennetz von 1335,482 <abbr norm="Kilometer">km</abbr> Länge bestand. Mit
+					Schienennetz von 1335,482 <choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice> Länge bestand. Mit
 					dieser regen Bautätigkeit gingen jedoch Finanzierungsschwierigkeiten einher,
 					welche alle Eisenbahngesellschaften im Laufe ihrer Existenz zu gewärtigen
 					hatten; insbesondere in der zweiten Hälfte der 1850er Jahre traten bei
-					verschiedenen Gesellschaften krisenhafte Phänomene auf.<com id="Eisenbahngesellschaften_in_der_Krise_c2"><abbr norm="Vergleiche">Vgl.</abbr>
+					verschiedenen Gesellschaften krisenhafte Phänomene auf.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c2">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Direction Nordostbahn, Graphisch-statistischer Atlas</ref>,
-						Tafel 6; <ref type="sum" target="Eisenbahngeschichte_d1.4"><!--Jung, Escher Briefe, Bd. 5, S. 47–55--></ref>; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr>
-						67–87; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <abbr norm="Seite(n)">S.</abbr> 13–29; <ref type="lit">Herold, Bund und
-							Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 42–60; <ref type="lit">Cuony, Débuts</ref>, <abbr norm="Seite(n)">S.</abbr> 17–32,
+						Tafel 6; <ref type="sum" target="Eisenbahngeschichte_d1.4"><!--Jung, Escher Briefe, Bd. 5, S. 47–55--></ref>; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						67–87; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 13–29; <ref type="lit">Herold, Bund und
+							Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 42–60; <ref type="lit">Cuony, Débuts</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 17–32,
 						41–45, 47–54, 57–61, 65–72, 83–89.</com> Die Bahnen überwanden diese
 					Schwierigkeiten und wiesen Anfang der 1870er Jahre stabile wirtschaftliche
 					Verhältnisse vor. So betrug der Einnahmenüberschuss im Geschäftsjahr 1871 bei
@@ -75,49 +120,107 @@
 					858 023 Franken und bei der Bernischen Staatsbahn 743 589 Franken. Dies erlaubte
 					diesen Bahnen die Zahlung einer Dividende an ihre Aktionäre, welche für dieses
 					Jahr zwischen 1,09% (Vereinigte Schweizerbahnen) und 9% (Nordostbahn und
-					Centralbahn) betrug.<com id="Eisenbahngesellschaften_in_der_Krise_c3"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 103; <ref type="lit">Herold, Bund und Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 86. </com> </p>
-				<p id="Eisenbahngesellschaften_in_der_Krise_p2">In den 1870er Jahren erlebte der schweizerische Eisenbahnsektor dann seine zweite
+					Centralbahn) betrug.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c3">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 103; <ref type="lit">Herold, Bund und Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 86. </com> </p>
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p2">In den 1870er Jahren erlebte der schweizerische Eisenbahnsektor dann seine zweite
 					Phase grosser Bautätigkeit nach jener der 1850er Jahre. Zwischen 1871 und 1875
 					eröffneten die Schweizer Bahnen Strecken mit einer gesamten Baulänge von 530
-						<abbr norm="Kilometer">km</abbr>, von 1876 bis 1880 solche von weiteren 522
-					<abbr norm="Kilometer">km</abbr>.<com id="Eisenbahngesellschaften_in_der_Krise_c4"><abbr norm="Vergleiche">Vgl.</abbr>
+						<choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice>, von 1876 bis 1880 solche von weiteren 522
+					<choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice>.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c4">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 							<ref type="lit">Direction Nordostbahn, Graphisch-statistischer
 							Atlas</ref>, Tafel 7, 8. </com> Dabei ging es darum, das bisher
 					errichtete Stammnetz zu erweitern und zu ergänzen. Ein Anstoss dazu war der
-					Entscheid zum Bau der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn; Direktionspräsident dieser im Dezember 1871
-					konstituierten Gesellschaft<!-- Ausgezeichnet für Register --> wurde Alfred Escher.<com id="Eisenbahngesellschaften_in_der_Krise_c5">Zur Entstehungsgeschichte der Gotthardbahn <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="sum" target="Kurswechsel_d1"><!--Jung, Escher Briefe, Bd. 1, S. 151–161--></ref> <ref type="sum" target="Gotthardvereinigung_d1"><!--, 193–215--></ref>; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
-						549–588.</com><ref type="sum" target="Chronologie_Gotthardbahn_r74">Gründung Gotthardbahn-Gesellschaft<!-- S. 226-227--></ref> Die Aussicht auf eine durchgehende Schienentransitroute
-					zwischen dem Norden und dem Süden <idx type="place" norm="Europa">Europas</idx>
+					Entscheid zum Bau der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn; Direktionspräsident dieser im Dezember 1871
+					konstituierten Gesellschaft<!-- Ausgezeichnet für Register --> wurde Alfred Escher.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c5">Zur Entstehungsgeschichte der Gotthardbahn <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="sum" target="Kurswechsel_d1"><!--Jung, Escher Briefe, Bd. 1, S. 151–161--></ref> <ref type="sum" target="Gotthardvereinigung_d1"><!--, 193–215--></ref>; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						549–588.</com>
+                        <ref type="sum" target="Chronologie_Gotthardbahn_r74">Gründung Gotthardbahn-Gesellschaft<!-- S. 226-227--></ref> Die Aussicht auf eine durchgehende Schienentransitroute
+					zwischen dem Norden und dem Süden <placeName key="Europa">Europas</placeName>
 					durch die Schweiz brachte die Gesellschaften dazu, lukrativ scheinende
-					Anschlußstrecken zu bauen. Die Klärung der <idx type="place" norm="Alpen">Alpen</idx>bahnfrage, der Blick auf das rentable Stammnetz und die gute
-					Wirtschaftskonjunktur – während und nach dem <idx type="place" norm="Deutschland">Deutsch</idx>-<idx type="place" norm="Frankreich">Französischen</idx> Krieg stieg das Verkehrsaufkommen stark an, am
+					Anschlußstrecken zu bauen. Die Klärung der <placeName key="Alpen">Alpen</placeName>bahnfrage, der Blick auf das rentable Stammnetz und die gute
+					Wirtschaftskonjunktur – während und nach dem <placeName key="Deutschland">Deutsch</placeName>-<placeName key="Frankreich">Französischen</placeName> Krieg stieg das Verkehrsaufkommen stark an, am
 					Kapitalmarkt waren grosse Summen für Investitionen verfügbar – verstärkten in
 					den bislang nicht ans Schienennetz angeschlossenen Gemeinden und Regionen den
 					Wunsch nach eigenen Verbindungen, auch wenn deren ökonomischer Nutzen mitunter
-					fragwürdig schien.<com id="Eisenbahngesellschaften_in_der_Krise_c6"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 16. </com> Ein wichtiger Faktor war sodann
+					fragwürdig schien.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c6">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 16. </com> Ein wichtiger Faktor war sodann
 					eine Entwicklung auf der politischen Ebene: Die Vertreter der demokratischen
-					Bewegung<ref type="sum" target="Untergang_der_liberalen_Herrschaft_d1">Demokratische Bewegung<!--→ S. 22-31--></ref>, die in <idx type="place" norm="Zürich">Zürich</idx> 1869 die Macht übernommen hatten,
+					Bewegung<ref type="sum" target="Untergang_der_liberalen_Herrschaft_d1">Demokratische Bewegung<!--→ S. 22-31--></ref>, die in <placeName key="Zürich">Zürich</placeName> 1869 die Macht übernommen hatten,
 					wollten auch auf dem Eisenbahnsektor der alten wirtschaftsliberalen Elite um
 					Escher Paroli bieten. Ihr Projekt einer schweizerischen Nationalbahn war eine
-					Wiederbelebung der ursprünglich von Bundesrat <idx type="person" norm="Stämpfli Jakob">Jakob Stämpfli</idx> geförderten Idee eines
-					sogenannten Zweiliniensystems zwischen <idx type="place" norm="Bodensee">Bodensee</idx> und <idx type="place" norm="Genfersee">Genfersee</idx>.<com id="Eisenbahngesellschaften_in_der_Krise_c7">Zur Schweizerischen Nationalbahn <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
+					Wiederbelebung der ursprünglich von Bundesrat <persName key="Stämpfli Jakob">Jakob Stämpfli</persName> geförderten Idee eines
+					sogenannten Zweiliniensystems zwischen <placeName key="Bodensee">Bodensee</placeName> und <placeName key="Genfersee">Genfersee</placeName>.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c7">Zur Schweizerischen Nationalbahn <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						500–519; <ref type="lit">Gubler, Nationalbahn</ref>; <ref type="lit">Bärtschi, Nationalbahn</ref>; <ref type="lit">Ganz, Geschichte Winterthur</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 93–94, 207–218.</com> Als Konkurrenz zur
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 93–94, 207–218.</com> Als Konkurrenz zur
 					Linienführung auf den Netzen der grossen, etablierten Gesellschaften
 					(Nordostbahn, Centralbahn, Ouest-Suisse) planten diese Kreise eine Verbindung
-					des <idx type="place" norm="Bodensee">Bodensees</idx> mit der <idx type="place" norm="Westschweiz">Westschweiz</idx> über <idx type="place" norm="Winterthur">Winterthur</idx>, <idx type="place" norm="Zofingen">Zofingen</idx> und das Netz der Bernischen Staatsbahn.<com id="Eisenbahngesellschaften_in_der_Krise_c8">In den früheren,
-						vergleichbaren Plänen der <idx type="place" norm="Bern">Berner</idx> sollte
-						mit der 1857 gegründeten Ost-West-Bahn eine Linie von <idx type="place" norm="Bern (Stadt)">Bern</idx> über <idx type="place" norm="Luzern (Stadt)">Luzern</idx> und <idx type="place" norm="Zug (Stadt)">Zug</idx> nach <idx type="place" norm="Zürich (Stadt)">Zürich</idx> errichtet werden. Ihre Fortsetzung zu
-						einer durchgehenden Verbindung zwischen <idx type="place" norm="Bodensee">Boden</idx>- und <idx type="place" norm="Genfersee">Genfersee</idx>
+					des <placeName key="Bodensee">Bodensees</placeName> mit der <placeName key="Westschweiz">Westschweiz</placeName> über <placeName key="Winterthur">Winterthur</placeName>, <placeName key="Zofingen">Zofingen</placeName> und das Netz der Bernischen Staatsbahn.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c8">In den früheren,
+						vergleichbaren Plänen der <placeName key="Bern">Berner</placeName> sollte
+						mit der 1857 gegründeten Ost-West-Bahn eine Linie von <placeName key="Bern (Stadt)">Bern</placeName> über <placeName key="Luzern (Stadt)">Luzern</placeName> und <placeName key="Zug (Stadt)">Zug</placeName> nach <placeName key="Zürich (Stadt)">Zürich</placeName> errichtet werden. Ihre Fortsetzung zu
+						einer durchgehenden Verbindung zwischen <placeName key="Bodensee">Boden</placeName>- und <placeName key="Genfersee">Genfersee</placeName>
 						sollte diese im Osten mit dem Netz der Vereinigten Schweizerbahnen, im
-						Westen mit der <idx type="place" norm="Oron-la-Ville">Oron</idx>bahn finden. <abbr norm="Vergleiche">Vgl.</abbr>
+						Westen mit der <placeName key="Oron-la-Ville">Oron</placeName>bahn finden. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="sum" target="Eisenbahngeschichte_p60"><!--Jung, Escher Briefe, Bd. 5, S. 46--></ref> <ref type="sum" target="Eisenbahngeschichte_c190"><!--, 72 (Anm. 190--></ref> <ref type="sum" target="Eisenbahngeschichte_c193"><!--, 193)--></ref> <ref type="sum" target="Eisenbahngeschichte_c201"><!--, S. 73
-							(Anm. 201)--></ref>; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 491; <ref type="lit">Bauer, Eisenbahnen</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 82; <ref type="lit">Weissenbach,
-							Eisenbahnwesen</ref>, <abbr norm="Seite(n)">S.</abbr> 27–28; <ref type="lit">Halperin, Westbahnkonflikt</ref>, <abbr norm="Seite(n)">S.</abbr> 52–53. </com> Gegen diese Pläne setzten sich die drei
+							(Anm. 201)--></ref>; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 491; <ref type="lit">Bauer, Eisenbahnen</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 82; <ref type="lit">Weissenbach,
+							Eisenbahnwesen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 27–28; <ref type="lit">Halperin, Westbahnkonflikt</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 52–53. </com> Gegen diese Pläne setzten sich die drei
 					genannten Gesellschaften zur Wehr, indem sie Verpflichtungen zum Bau
 					verschiedener Linien übernahmen. Unter strategischen Gesichtspunkten schien es
 					sogar vorteilhafter, eine Bahn mit ungünstiger Rentabilitätsaussicht zu bauen,
@@ -125,34 +228,76 @@
 					waren den Bahngesell<pb n="33"/>schaften in den Konzessionen oft Ausschluss- und
 					Vorzugsrechte eingeräumt worden, was ihnen gestattete, Konkurrenzlinien zu
 					verhindern oder deren Bau selbst zu übernehmen. Davon machte die Centralbahn
-					Gebrauch, als sie im Februar 1872 die Konzession für die sogenannte <idx type="place" norm="Gäu">Gäu</idx>bahn (<idx type="place" norm="Olten">Olten</idx>–<idx type="place" norm="Solothurn (Stadt)">Solothurn</idx>–<idx type="place" norm="Lyss">Lyss</idx>) übernahm; <idx type="person" norm="Siegfried Samuel Friedrich">Samuel Friedrich Siegfried</idx>,
+					Gebrauch, als sie im Februar 1872 die Konzession für die sogenannte <placeName key="Gäu">Gäu</placeName>bahn (<placeName key="Olten">Olten</placeName>–<placeName key="Solothurn (Stadt)">Solothurn</placeName>–<placeName key="Lyss">Lyss</placeName>) übernahm; <persName key="Siegfried Samuel Friedrich">Samuel Friedrich Siegfried</persName>,
 					Verwaltungsrat und Direktionsmitglied der Centralbahn, hatte sich im Dezember
 					1871 an Escher gewandt, um diese Übernahme zu besprechen. Da die Nationalbahn
 					geplant hatte, auf dieser Route nach Westen zu gelangen, war ihr nun der Weg
-							abgeschnitten.<com id="Eisenbahngesellschaften_in_der_Krise_c9"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_2584"><!--Brief Samuel Friedrich Siegfried an Escher, 13. Dezember
-			1871 (BAR J I.67-8)--></ref>;
-							<ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <abbr norm="Seite(n)">S.</abbr> 50; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 109. </com> </p>
-				<p id="Eisenbahngesellschaften_in_der_Krise_p3">So übernahmen Bahngesellschaften in den 1870er Jahren aus politischen,
+							abgeschnitten.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c9">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Samuel Friedrich Siegfried an Escher, 13. Dezember
+			1871 (BAR J I.67-8)-->;
+							<ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 50; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 109. </com> </p>
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p3">So übernahmen Bahngesellschaften in den 1870er Jahren aus politischen,
 					strategischen oder wirtschaftlichen Überlegungen zahlreiche Verpflichtungen zum
 					Bau neuer Eisenbahnlinien. Daran änderte auch das Eisenbahngesetz von 1872
 					nichts. Bislang lag die Konzessionshoheit bei den Kantonen; der Bund
 					beziehungsweise die Bundesversammlung musste die Konzessionen zwar genehmigen,
 					doch nannte das Gesetz als Verweigerungsgrund ausdrücklich einzig militärische
-							Überlegungen.<com id="Eisenbahngesellschaften_in_der_Krise_c10"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Eisenbahngesetz 1852</ref>, <abbr norm="Artikel">Art.</abbr>
+							Überlegungen.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c10">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Eisenbahngesetz 1852</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice>
 						7</com>. Mit dem neuen Gesetz sollten nun Auswüchse des geltenden Systems
 					eingedämmt werden, unter anderem indem die Kompetenz zur Konzessionserteilung
 					auf den Bund übertragen wurde. Dieser übte bei der Konzessionserteilung jedoch
-					keine stärkere Regulierung aus als zuvor die Kantone.<com id="Eisenbahngesellschaften_in_der_Krise_c11"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Eisenbahngesetz 1872</ref>; <ref type="lit">Oetiker, Eisenbahn-Gesetzgebung</ref>, <abbr norm="Seite(n)">S.</abbr> 27–83; <ref type="lit">Kessler,
-							Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 262–264; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
-						402–407; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 101–103; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 42–48. – In Anlehnung an das
+					keine stärkere Regulierung aus als zuvor die Kantone.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c11">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Eisenbahngesetz 1872</ref>; <ref type="lit">Oetiker, Eisenbahn-Gesetzgebung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 27–83; <ref type="lit">Kessler,
+							Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 262–264; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						402–407; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 101–103; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 42–48. – In Anlehnung an das
 						Eisenbahngesetz von 1852 wurden im Gesetz von 1872 als Grund für das
 						Verweigern einer Konzession einzig militärische Interessen explizit genannt.
-							<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Eisenbahngesetz 1872</ref>, <abbr norm="Artikel">Art.</abbr>
+							<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Eisenbahngesetz 1872</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice>
 						3, 6. – In der Botschaft des Bundesrates zum Eisenbahngesetz wies dieser auf
 						die finanziellen Schwierigkeiten mancher Bahnen hin und nannte als Schwäche
 						des herrschenden Systems, dass «eine gewisse Souveränität der
@@ -163,57 +308,136 @@
 						Kantonalgewalten waren aber nicht in der Lage, die Konflikte zu schlichten
 						und ihre Interessen gegenüber den Bahngesellschaften, deren Netz sich über
 						mehrere Kantone ausdehnte, durchzusetzen, während der Bund nicht über die
-						notwendigen Kompetenzen dazu verfügte. <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10006906">Botschaft des Bundesrathes an die h. Bundesversammlung zum revidirten
+						notwendigen Kompetenzen dazu verfügte. <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10006906">Botschaft des Bundesrathes an die h. Bundesversammlung zum revidirten
 							Bundesgesez über den Bau und Betrieb von Eisenbahnen im Gebiete der
 							schweizerischen Eidgenossenschaft (vom 16. Juni 1871), in: <ref type="lit">BBl</ref> 1871 II, S. 651.</ref> </com> Der Bau der neu zu
 					erstellenden Linien erforderte beträchtliche Mengen an Kapital. Die Kosten für
 					den Bau jener Linien, zu denen sich die Nordostbahn zwischen 1870 und 1873
-					verpflichtet hatte, wurden ursprünglich auf rund 83 <abbr norm="Million(en)">Mio.</abbr> Franken veranschlagt, wobei diese Berechnungen meist von den
+					verpflichtet hatte, wurden ursprünglich auf rund 83 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken veranschlagt, wobei diese Berechnungen meist von den
 					jeweils zuständigen Komitees und Kantonen stammten. Eigene Voranschläge der
 					Nordostbahn und die Erfahrungen des Baus zeigten, dass die tatsächlichen Kosten
-					wesentlich höher lagen.<ref type="sum" target="Rekonstruktion_Nordostbahn_p7"><!--→ S. 45-46--></ref><com id="Eisenbahngesellschaften_in_der_Krise_c12"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 25–29; <ref type="lit">Jung, Aufbruch</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 536–537; <ref type="lit">Kessler,
-							Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 37–61, 116–120; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <abbr norm="Seite(n)">S.</abbr> 56; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 110. – Für fünf Linien der Nordostbahn, die
-						bis Mitte 1877 fertiggestellt <abbr norm="beziehungsweise">bzw.</abbr> im
-						Bau weit vorangeschritten waren, betrug der ursprüngliche Voranschlag <abbr norm="circa">ca.</abbr> 37 <abbr norm="Million(en)">Mio.</abbr> Franken,
-								der Voranschlag des technischen Büros der Nordostbahn hingegen 54,5 <abbr norm="Million(en)">Mio.</abbr> Franken. Die tatsächlichen Kosten
-						beliefen sich einschliesslich des Transportmaterials auf rund 72 <abbr norm="Million(en)">Mio.</abbr> Franken.
-							<abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 28–29, Beilage III.</com>
+					wesentlich höher lagen.<ref type="sum" target="Rekonstruktion_Nordostbahn_p7"><!--→ S. 45-46--></ref>
+                        <com xml:id="Eisenbahngesellschaften_in_der_Krise_c12">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 25–29; <ref type="lit">Jung, Aufbruch</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 536–537; <ref type="lit">Kessler,
+							Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 37–61, 116–120; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 56; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 110. – Für fünf Linien der Nordostbahn, die
+						bis Mitte 1877 fertiggestellt <choice>
+                                <abbr>bzw.</abbr>
+                                <expan>beziehungsweise</expan>
+                            </choice> im
+						Bau weit vorangeschritten waren, betrug der ursprüngliche Voranschlag <choice>
+                                <abbr>ca.</abbr>
+                                <expan>circa</expan>
+                            </choice> 37 <choice>
+                                <abbr>Mio.</abbr>
+                                <expan>Million(en)</expan>
+                            </choice> Franken,
+								der Voranschlag des technischen Büros der Nordostbahn hingegen 54,5 <choice>
+                                <abbr>Mio.</abbr>
+                                <expan>Million(en)</expan>
+                            </choice> Franken. Die tatsächlichen Kosten
+						beliefen sich einschliesslich des Transportmaterials auf rund 72 <choice>
+                                <abbr>Mio.</abbr>
+                                <expan>Million(en)</expan>
+                            </choice> Franken.
+							<choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 28–29, Beilage III.</com>
 					Kostenüberschreitungen sind etwa auch bei der aus der Bernischen Staatsbahn
 					hervorgegangenen Bern-Luzern-Bahn festzustellen: Die für
-					den Bau von <idx type="place" norm="Langnau (BE)">Langnau</idx>–<idx type="place" norm="Luzern (Stadt)">Luzern</idx> veranschlagten 14 <abbr norm="Million(en)">Mio.</abbr> Franken wurden um 3 <abbr norm="Million(en)">Mio.</abbr> Franken überschritten, die nicht beschafft werden konnten. Nur
-					dank einer Anleihe des Kantons <idx type="place" norm="Bern">Bern</idx> in Höhe
-					von 1 <abbr norm="Million(en)">Mio.</abbr> Franken konnte 1875 der Betrieb der
-					Linie aufgenommen werden.<com id="Eisenbahngesellschaften_in_der_Krise_c13"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Schmid, Kapitalverluste</ref>, <abbr norm="Seite(n)">S.</abbr> 66–67.</com> </p>
-				<p id="Eisenbahngesellschaften_in_der_Krise_p4">Während die Gesellschaften einerseits neues Kapital für die geplanten Bauten
+					den Bau von <placeName key="Langnau (BE)">Langnau</placeName>–<placeName key="Luzern (Stadt)">Luzern</placeName> veranschlagten 14 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken wurden um 3 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken überschritten, die nicht beschafft werden konnten. Nur
+					dank einer Anleihe des Kantons <placeName key="Bern">Bern</placeName> in Höhe
+					von 1 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken konnte 1875 der Betrieb der
+					Linie aufgenommen werden.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c13">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Schmid, Kapitalverluste</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 66–67.</com> </p>
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p4">Während die Gesellschaften einerseits neues Kapital für die geplanten Bauten
 					benötigten, war andererseits bei verschiedenen Gesellschaften ab Mitte der
 					1870er Jahre ein Rückgang der Rentabilität – der pro Bahnkilometer erzielte
 					Überschuss aus dem Betrieb – festzustellen. Der Anteil des Personen- und
 					Güterverkehrs blieb dabei zumeist recht konstant; das heisst, die kilometrischen
 					Einnahmen gingen in beiden Bereichen gleichermassen zurück.</p>
 
-				<p id="Eisenbahngesellschaften_in_der_Krise_p5"><hi rend="italics">Rentabilität der grössten Bahngesellschaften zwischen 1874 und
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p5">
+                        <hi rend="italics">Rentabilität der grössten Bahngesellschaften zwischen 1874 und
 						1882, gerundet auf Franken (Nettoergebnis aus dem Betrieb pro Bahnkilometer,
-						vor Ausgaben für Schuldzinsen, Rückstellungen <abbr norm="und so weiter">usw.</abbr>)</hi><com id="Eisenbahngesellschaften_in_der_Krise_c14"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Schweizerische Eisenbahnstatistik</ref> 1874–1882; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10011782"><ref type="lit">Botschaft BR Rückkauf 1883</ref>, Beilagen (nach S. 322)</ref>. – Basis für die Berechnung der
+						vor Ausgaben für Schuldzinsen, Rückstellungen <choice>
+                                <abbr>usw.</abbr>
+                                <expan>und so weiter</expan>
+                            </choice>)</hi>
+                        <com xml:id="Eisenbahngesellschaften_in_der_Krise_c14">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Schweizerische Eisenbahnstatistik</ref> 1874–1882; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10011782">
+                                <ref type="lit">Botschaft BR Rückkauf 1883</ref>, Beilagen (nach S. 322)</ref>. – Basis für die Berechnung der
 						Rentabilität bilden die Nettoeinnahmen aus dem Betrieb. Die Anzahl
 						Bahnkilometer entspricht der Durchschnittszahl der Betriebskilometer für das
 						jeweilige Jahr.</com>
 				<table>
 						<tr>
 							<tab/>
-							<tab><hi rend="italics">1874</hi> </tab>
-							<tab><hi rend="italics">1875</hi> </tab>
-							<tab><hi rend="italics">1876</hi> </tab>
-							<tab><hi rend="italics">1877</hi> </tab>
-							<tab><hi rend="italics">1878</hi> </tab>
-							<tab><hi rend="italics">1879</hi> </tab>
-							<tab><hi rend="italics">1880</hi> </tab>
-							<tab><hi rend="italics">1881</hi> </tab>
-							<tab><hi rend="italics">1882</hi> </tab>
+							<tab>
+                                    <hi rend="italics">1874</hi> </tab>
+							<tab>
+                                    <hi rend="italics">1875</hi> </tab>
+							<tab>
+                                    <hi rend="italics">1876</hi> </tab>
+							<tab>
+                                    <hi rend="italics">1877</hi> </tab>
+							<tab>
+                                    <hi rend="italics">1878</hi> </tab>
+							<tab>
+                                    <hi rend="italics">1879</hi> </tab>
+							<tab>
+                                    <hi rend="italics">1880</hi> </tab>
+							<tab>
+                                    <hi rend="italics">1881</hi> </tab>
+							<tab>
+                                    <hi rend="italics">1882</hi> </tab>
 						</tr>
 						<tr>
 							<tab>Nordostbahn</tab>
@@ -289,17 +513,30 @@
 						</tr>
 					</table> </p>
 
-				<p id="Eisenbahngesellschaften_in_der_Krise_p6"><pb n="34"/><hi rend="italics">Anteil des Güterverkehrs an den unmittelbaren
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p6">
+                        <pb n="34"/>
+                        <hi rend="italics">Anteil des Güterverkehrs an den unmittelbaren
 						Betriebseinnahmen (aus Personen- und
-						Gütertransport) pro Bahnkilometer in Prozent</hi><com id="Eisenbahngesellschaften_in_der_Krise_c15"><abbr norm="Vergleiche">Vgl.</abbr>
+						Gütertransport) pro Bahnkilometer in Prozent</hi>
+                        <com xml:id="Eisenbahngesellschaften_in_der_Krise_c15">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Schweizerische Eisenbahnstatistik</ref> 1874–1882; <ref type="lit">Direction Nordostbahn, Graphisch-statistischer Atlas</ref>,
-						Tafel 36; <ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 276.</com>
+						Tafel 36; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 276.</com>
 				<table>
 						<tr>
 							<tab/>
-							<tab><hi rend="italics">1870</hi> </tab>
-							<tab><hi rend="italics">1875</hi> </tab>
-							<tab><hi rend="italics">1880</hi> </tab>
+							<tab>
+                                    <hi rend="italics">1870</hi> </tab>
+							<tab>
+                                    <hi rend="italics">1875</hi> </tab>
+							<tab>
+                                    <hi rend="italics">1880</hi> </tab>
 						</tr>
 						<tr>
 							<tab>Nordostbahn</tab>
@@ -339,26 +576,52 @@
 						</tr>
 					</table> </p>
 
-				<p id="Eisenbahngesellschaften_in_der_Krise_p7">Eine Ursache für die sinkende Rentabilität bei verschiedenen Gesellschaften war
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p7">Eine Ursache für die sinkende Rentabilität bei verschiedenen Gesellschaften war
 					wohl ein allgemeiner Rückgang des Verkehrsaufkommens infolge einer
 					Verschlechterung der wirtschaftlichen Konjunktur, der sich im Personen- wie im
 					Gütertransport bemerkbar machte. Überhaupt war die gesamtwirtschaftliche
 					Situation von beträchtlichem Einfluss auf die finanzielle Lage der
-					Gesellschaften. Am <d norm="09.05.1873">9. Mai 1873</d> kam es in <idx type="place" norm="Wien (A)">Wien</idx> zu einem spektakulären Börsenkrach,
+					Gesellschaften. Am <date when="1873-05-09">9. Mai 1873</date> kam es in <placeName key="Wien (A)">Wien</placeName> zu einem spektakulären Börsenkrach,
 					dessen Folgen sich auf die umliegenden Länder übertrugen. In der Schweiz machte
 					sich die Krise durch Exportrückgänge namentlich in der Uhrenbranche und der
-					Metallindustrie bemerkbar, und der <idx type="place" norm="Deutschland">deutsche</idx> Kapitalmarkt war ausgetrocknet.<com id="Eisenbahngesellschaften_in_der_Krise_c16">Zur
+					Metallindustrie bemerkbar, und der <placeName key="Deutschland">deutsche</placeName> Kapitalmarkt war ausgetrocknet.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c16">Zur
 						Konjunkturentwicklung in der Schweiz in den 1870er Jahren und der Depression
-						der 1880er Jahre <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Siegenthaler, Schweiz</ref>, <abbr norm="Seite(n)">S.</abbr>
-						457–459, 468–469; <ref type="lit">Bernegger, Wirtschaft</ref>, <abbr norm="Seite(n)">S.</abbr> 37, 69, 97–105, 119–120; <ref type="lit">Siegenthaler/Ritzmann-Blickenstorfer, Statistik</ref>, <abbr norm="Seite(n)">S.</abbr> 666–667; <ref type="lit">Baumann,
-							Krisenbewältigung</ref>, <abbr norm="Seite(n)">S.</abbr> 20, 23, 28;
+						der 1880er Jahre <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Siegenthaler, Schweiz</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						457–459, 468–469; <ref type="lit">Bernegger, Wirtschaft</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 37, 69, 97–105, 119–120; <ref type="lit">Siegenthaler/Ritzmann-Blickenstorfer, Statistik</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 666–667; <ref type="lit">Baumann,
+							Krisenbewältigung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 20, 23, 28;
 							<ref type="lit">Widmer, Wachstumskrise</ref>; <ref type="lit">Bauer,
-							Bankverein</ref>, <abbr norm="Seite(n)">S.</abbr> 59–60.</com> Waren zu
+							Bankverein</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 59–60.</com> Waren zu
 					Beginn der 1870er Jahre noch in grossem Masse Gelder für Investitionen
 					verfügbar, wurde nun die Kapitalbeschaffung erschwert, und eine generell
-					schlechte Börsenstimmung sorgte für sinkende Aktienkurse.<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p11"><!--S. 35--></ref><com id="Eisenbahngesellschaften_in_der_Krise_c17"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Speiser, Bahnen und Banken</ref>, <abbr norm="Seite(n)">S.</abbr> 154.</com> Andererseits litten die Betriebseinnahmen und
+					schlechte Börsenstimmung sorgte für sinkende Aktienkurse.<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p11"><!--S. 35--></ref>
+                        <com xml:id="Eisenbahngesellschaften_in_der_Krise_c17">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Speiser, Bahnen und Banken</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 154.</com> Andererseits litten die Betriebseinnahmen und
 					damit die Nettoergebnisse unter der schwächelnden Gesamtkonjunktur. Diese
 					konjunkturellen Faktoren mochten manchen Bahnen einen Strich durch die
 					Ertragskalkulationen machen. So nahm die Nationalbahn auf ihrer
@@ -366,71 +629,195 @@
 					Kilometer ein; dies lag deutlich unter ihren Kalkulationen und resultierte für
 					1877 in einem Defizit von 3435 Franken pro Betriebskilometer. Allerdings ist
 					hier in Betracht zu ziehen, dass die Ertragserwartungen auch unabhängig von der
-					Konjunkturentwicklung zu optimistisch waren.<com id="Eisenbahngesellschaften_in_der_Krise_c18"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr>
-						106–107; <ref type="lit">Gubler, Nationalbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 102.</com> Bei manchen Gesellschaften machten sich zudem jene
+					Konjunkturentwicklung zu optimistisch waren.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c18">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						106–107; <ref type="lit">Gubler, Nationalbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 102.</com> Bei manchen Gesellschaften machten sich zudem jene
 					neu eröffneten Linien negativ bemerkbar, die aus strategischen Gründen, nicht
 					wegen ihres betriebswirtschaftlichen Nutzens erstellt wurden und anders als das
 					Stammnetz nur wenig Gewinn abwarfen oder gar einen Nettoverlust einfuhren, womit
-					sie die Rentabilität des Gesamtnetzes minderten.<com id="Eisenbahngesellschaften_in_der_Krise_c19">Kessler berechnet im Fall der Nordostbahn für
+					sie die Rentabilität des Gesamtnetzes minderten.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c19">Kessler berechnet im Fall der Nordostbahn für
 						neue Linien und Beteiligungsbahnen für 1876 einen Betriebsverlust von 1,2
-							<abbr norm="Million(en)">Mio.</abbr> Franken. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr>
+							<choice>
+                                <abbr>Mio.</abbr>
+                                <expan>Million(en)</expan>
+                            </choice> Franken. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						125, 130–131.</com> Ausserdem konnten für die sinkenden kilometrischen
 					Nettoerträge neben tieferen Einnahmen ebenso steigende Ausgaben verantwortlich
 					sein. Beispielhaft wurden im Fall der Nordostbahn Kostensteigerungen im Betrieb
 					als gewinnmindernde Faktoren festgestellt. Diese resultierten unter anderem aus
 					einem ungewöhnlich grossen Personalbestand sowie einem Überbestand an
 					Rollmaterial. So ging der Verwaltungsrat 1877 von unnötigen Anschaffungen von
-					Lokomotiven und Waggons im Betrag von rund 5,5 <abbr norm="Million(en)">Mio.</abbr> Franken aus; im Bereich der Personalkosten ergab sich aufgrund von
+					Lokomotiven und Waggons im Betrag von rund 5,5 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken aus; im Bereich der Personalkosten ergab sich aufgrund von
 					Entlassungen und Lohnreduktionen allein im
 					Bereich Transportdienst für 1877 im Vergleich zum Vorjahr eine Ersparnis von rund 400 000
-							Franken.<com id="Eisenbahngesellschaften_in_der_Krise_c20"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">NZZ</ref>, 27. Februar 1877; <ref type="lit">Geschäftsbericht NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 30;
-							<ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 120–141.</com> </p>
-				<p id="Eisenbahngesellschaften_in_der_Krise_p8">Bedrohlich konnte die Situation für eine Gesellschaft auch werden, wenn die zu
+							Franken.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c20">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">NZZ</ref>, 27. Februar 1877; <ref type="lit">Geschäftsbericht NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 30;
+							<ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 120–141.</com> </p>
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p8">Bedrohlich konnte die Situation für eine Gesellschaft auch werden, wenn die zu
 					bezahlenden Schuldzinsen einen im Verhältnis zu den Einkünften grossen Betrag
 					ausmachten. Wie andere Bahnen auch hatte etwa die Nordostbahn die
 					Kapitalisierung zunehmend auf Fremdkapital abgestützt; 1875 standen bei dieser
-					Gesellschaft Aktien über 39 <abbr norm="Million(en)">Mio.</abbr> Franken
-					Anlei<pb n="35"/>hen über rund 106 <abbr norm="Million(en)">Mio.</abbr> Franken
-							gegenüber.<com id="Eisenbahngesellschaften_in_der_Krise_c21"><abbr norm="Vergleiche">Vgl.</abbr>
+					Gesellschaft Aktien über 39 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken
+					Anlei<pb n="35"/>hen über rund 106 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken
+							gegenüber.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c21">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Direction Nordostbahn, Graphisch-statistischer Atlas</ref>,
 						Tafel 1. – Der Anteil des Fremdkapitals am Gesamtkapital betrug bei der
 						Nordostbahn 1875 somit 73,1%. Bei der Centralbahn betrug dieser Anteil 60,7%
-						(77 350 000 <abbr norm="Franken">Fr.</abbr> von 127 350 000 <abbr norm="Franken">Fr.</abbr>), bei den Vereinigten Schweizerbahnen
-						51,9% (43 077 812 <abbr norm="Franken">Fr.</abbr> von 83 077 812
-							<abbr norm="Franken">Fr.</abbr>) und bei den Suisse Occidentale
-						55,3% (94 408 123 <abbr norm="Franken">Fr.</abbr> von 170 603 509
-							<abbr norm="Franken">Fr.</abbr>). <abbr norm="Vergleiche">Vgl.</abbr>
+						(77 350 000 <choice>
+                                <abbr>Fr.</abbr>
+                                <expan>Franken</expan>
+                            </choice> von 127 350 000 <choice>
+                                <abbr>Fr.</abbr>
+                                <expan>Franken</expan>
+                            </choice>), bei den Vereinigten Schweizerbahnen
+						51,9% (43 077 812 <choice>
+                                <abbr>Fr.</abbr>
+                                <expan>Franken</expan>
+                            </choice> von 83 077 812
+							<choice>
+                                <abbr>Fr.</abbr>
+                                <expan>Franken</expan>
+                            </choice>) und bei den Suisse Occidentale
+						55,3% (94 408 123 <choice>
+                                <abbr>Fr.</abbr>
+                                <expan>Franken</expan>
+                            </choice> von 170 603 509
+							<choice>
+                                <abbr>Fr.</abbr>
+                                <expan>Franken</expan>
+                            </choice>). <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Direction Nordostbahn, Graphisch-statistischer Atlas</ref>,
 						Tafel 1, 2.</com> Dieser hohe Fremdkapitalanteil machte die Gesellschaft
 					abhängig von den Schwankungen des Finanzmarkts, so dass sie bei Geldaufnahmen
-					ungünstige Kurse und hohe Zinsen in Kauf nehmen musste.<com id="Eisenbahngesellschaften_in_der_Krise_c22"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Geiser, Krisis</ref>, <abbr norm="Seite(n)">S.</abbr> 15;
-							<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
-						536; <ref type="lit">Schmid, Kapitalverluste</ref>, <abbr norm="Seite(n)">S.</abbr> 36.</com> Durch die Zunahme des Fremdkapitals stiegen die
-					Kosten für Zinszahlungen; bei der Nordostbahn betrugen diese 1871 <abbr norm="Franken">Fr.</abbr> 2 045 440.73 (bei einem
-					Überschuss des Bahnbetriebs von <abbr norm="Franken">Fr.</abbr> 5 540 424.40)
-					und wuchsen bis 1878 auf <abbr norm="Franken">Fr.</abbr> 6 366 036.40
-					(Überschuss aus dem Bahnbetrieb: <abbr norm="Franken">Fr.</abbr> 6 241 918.56)
-							an.<com id="Eisenbahngesellschaften_in_der_Krise_c23"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Geschäftsbericht NOB</ref> 1871, <abbr norm="Seite(n)">S.</abbr> 33–34; <ref type="lit">Geschäftsbericht NOB</ref> 1878, <abbr norm="Seite(n)">S.</abbr> 49.</com> Bei der Suisse Occidentale betrug
-					die Zinsenlast des Obligationenkapitals 1876 rund 6,5 <abbr norm="Million(en)">Mio.</abbr> Franken; dennoch konnte die Gesellschaft in diesem Jahr
-					Aktiendividenden von insgesamt 1 <abbr norm="Million(en)">Mio.</abbr> Franken
-							ausschütten.<com id="Eisenbahngesellschaften_in_der_Krise_c24"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Schmid, Kapitalverluste</ref>, <abbr norm="Seite(n)">S.</abbr> 56.</com> Bei der Bern-Luzern-Bahn
+					ungünstige Kurse und hohe Zinsen in Kauf nehmen musste.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c22">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Geiser, Krisis</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 15;
+							<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						536; <ref type="lit">Schmid, Kapitalverluste</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 36.</com> Durch die Zunahme des Fremdkapitals stiegen die
+					Kosten für Zinszahlungen; bei der Nordostbahn betrugen diese 1871 <choice>
+                            <abbr>Fr.</abbr>
+                            <expan>Franken</expan>
+                        </choice> 2 045 440.73 (bei einem
+					Überschuss des Bahnbetriebs von <choice>
+                            <abbr>Fr.</abbr>
+                            <expan>Franken</expan>
+                        </choice> 5 540 424.40)
+					und wuchsen bis 1878 auf <choice>
+                            <abbr>Fr.</abbr>
+                            <expan>Franken</expan>
+                        </choice> 6 366 036.40
+					(Überschuss aus dem Bahnbetrieb: <choice>
+                            <abbr>Fr.</abbr>
+                            <expan>Franken</expan>
+                        </choice> 6 241 918.56)
+							an.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c23">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Geschäftsbericht NOB</ref> 1871, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 33–34; <ref type="lit">Geschäftsbericht NOB</ref> 1878, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 49.</com> Bei der Suisse Occidentale betrug
+					die Zinsenlast des Obligationenkapitals 1876 rund 6,5 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken; dennoch konnte die Gesellschaft in diesem Jahr
+					Aktiendividenden von insgesamt 1 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken
+							ausschütten.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c24">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Schmid, Kapitalverluste</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 56.</com> Bei der Bern-Luzern-Bahn
 					hingegen reichte der Betriebsgewinn nicht zur Deckung der Schuldzinsen. Einem
 					Gewinn von gerade einmal 13 000 Franken, den die Bahn im Zeitraum von August bis
 					Dezember 1875 erwirtschaftete, standen 210 000 Franken gegenüber, die sie im
 					gleichen Zeitraum für die Verzinsung des Obligationenkapitals hätte bezahlen
-					müssen. Am <d norm="27.02.1876">27. Februar 1876</d>, weniger als sieben Monate
+					müssen. Am <date when="1876-02-27">27. Februar 1876</date>, weniger als sieben Monate
 					nach Betriebseröffnung, wurde über die Gesellschaft die Zwangsliquidation
-							verhängt.<com id="Eisenbahngesellschaften_in_der_Krise_c25"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Russenberger, Liquidation Bern–Luzern</ref>; <ref type="lit">Speiser, Bahnen und Banken</ref>, <abbr norm="Seite(n)">S.</abbr>
-						165–169; <ref type="lit">Cuony, Débuts</ref>, <abbr norm="Seite(n)">S.</abbr> 55–56; <ref type="lit">Schmid, Kapitalverluste</ref>, <abbr norm="Seite(n)">S.</abbr> 67–68.</com> </p>
+							verhängt.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c25">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Russenberger, Liquidation Bern–Luzern</ref>; <ref type="lit">Speiser, Bahnen und Banken</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						165–169; <ref type="lit">Cuony, Débuts</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 55–56; <ref type="lit">Schmid, Kapitalverluste</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 67–68.</com> </p>
 
-				<p id="Eisenbahngesellschaften_in_der_Krise_p9">Bei rückläufigen oder stagnierenden Betriebsüberschüssen und gleichzeitig
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p9">Bei rückläufigen oder stagnierenden Betriebsüberschüssen und gleichzeitig
 					steigenden Ausgaben für Zinsen blieb entsprechend weniger Ertrag, der den
 					Aktionären in Form von Dividenden weitergegeben werden konnte. Mit sinkenden
 					oder gar ausbleibenden Dividenden sowie Nachrichten über krisenhafte Situationen
@@ -440,23 +827,40 @@
 					Eisenbahnpapiere immer tiefer sanken. Die Aktienkurse sanken ab Mitte der 1870er
 					Jahre und erreichten ihre Tiefststände 1878 und 1879 – die
 					Nordostbahn-Stammaktien etwa, Anfang März 1874 bei rund 600 Franken, wurden am
-					8. Oktober 1878 auf ihrem absolut tiefsten Stand von <abbr norm="Franken">Fr.</abbr> 47.50 gehandelt. Die Aktien der
+					8. Oktober 1878 auf ihrem absolut tiefsten Stand von <choice>
+                            <abbr>Fr.</abbr>
+                            <expan>Franken</expan>
+                        </choice> 47.50 gehandelt. Die Aktien der
 					Centralbahn, Anfang März 1874 noch 650 Franken wert, lagen Mitte 1878 bei unter
 					170 Franken; die Stammaktien der Vereinigten Schweizerbahnen, bereits Anfang
 					März 1874 unter 100 Franken, sanken bis auf 35 Franken Anfang 1879; jene der
 					Suisse Occidentale, Anfang März 1874 noch mehr als 200 Franken wert, lagen
-					Anfang 1879 bei rund 80 Franken.<com id="Eisenbahngesellschaften_in_der_Krise_c26"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Zschokke, Betrieb</ref>, <abbr norm="Seite(n)">S.</abbr>62–69; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10011782"><ref type="lit">Botschaft BR Rückkauf 1883</ref>, S. 296</ref>; <ref type="lit">Kessler,
-							Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 274; <ref type="lit">Gygax, Wirth-Sand</ref>, <abbr norm="Seite(n)">S.</abbr> 51. – Der
+					Anfang 1879 bei rund 80 Franken.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c26">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Zschokke, Betrieb</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>62–69; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10011782">
+                                <ref type="lit">Botschaft BR Rückkauf 1883</ref>, S. 296</ref>; <ref type="lit">Kessler,
+							Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 274; <ref type="lit">Gygax, Wirth-Sand</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 51. – Der
 						Nominalwert dieser Aktien betrug jeweils 500 Franken.</com> </p>
 
-				<p id="Eisenbahngesellschaften_in_der_Krise_p10">Nicht nur in der Schweiz, auch in anderen <idx type="place" norm="Europa">europäischen</idx> Ländern befanden sich zu dieser Zeit
-					Eisenbahngesellschaften in finanziellen Krisensituationen. Im Gebiet des <idx type="place" norm="Deutsches Reich">Deutschen Reichs</idx> etwa bestand zu
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p10">Nicht nur in der Schweiz, auch in anderen <placeName key="Europa">europäischen</placeName> Ländern befanden sich zu dieser Zeit
+					Eisenbahngesellschaften in finanziellen Krisensituationen. Im Gebiet des <placeName key="Deutsches Reich">Deutschen Reichs</placeName> etwa bestand zu
 					Beginn der 1870er Jahre ein Nebeneinander von Privat- und Staatsbahnen: Während
-					die <idx type="place" norm="Süddeutschland">süddeutschen</idx> Staaten <idx type="place" norm="Baden (Grossherzogtum)">Baden</idx>, <idx type="place" norm="Württemberg (Königreich)">Württemberg</idx> und auch <idx type="place" norm="Bayern (Königreich)">Bayern</idx> – abgesehen vom ausgedehnten Netz der 1875 verstaatlichten Bayerischen Ostbahn – nahezu ausschliesslich Staatsbahnen
-					betrieben, existierte in <idx type="place" norm="Preussen (Königreich)">Preussen</idx> ein gemischtes System von Staats- und Privatbahnen. 1871
-					herrschte nach dem <idx type="place" norm="Deutschland">Deutsch</idx>-<idx type="place" norm="Frankreich">Französischen</idx> Krieg mit der
-					<idx type="place" norm="Deutsches Reich">Reichs</idx>gründung und den reichlich fliessenden <idx type="place" norm="Frankreich">französischen</idx> Reparationszahlungen gesamtwirtschaftlich und auch im
+					die <placeName key="Süddeutschland">süddeutschen</placeName> Staaten <placeName key="Baden (Grossherzogtum)">Baden</placeName>, <placeName key="Württemberg (Königreich)">Württemberg</placeName> und auch <placeName key="Bayern (Königreich)">Bayern</placeName> – abgesehen vom ausgedehnten Netz der 1875 verstaatlichten Bayerischen Ostbahn – nahezu ausschliesslich Staatsbahnen
+					betrieben, existierte in <placeName key="Preussen (Königreich)">Preussen</placeName> ein gemischtes System von Staats- und Privatbahnen. 1871
+					herrschte nach dem <placeName key="Deutschland">Deutsch</placeName>-<placeName key="Frankreich">Französischen</placeName> Krieg mit der
+					<placeName key="Deutsches Reich">Reichs</placeName>gründung und den reichlich fliessenden <placeName key="Frankreich">französischen</placeName> Reparationszahlungen gesamtwirtschaftlich und auch im
 					Eisenbahnbereich eine enorme Investitionsfreude, ein eigentliches «Gründungsfieber».
 					Doch die Einnahmen der Neugründungen entsprachen nicht den Erwartungen, und
 					schlechter Materialzustand – unter anderem wegen der starken Belastung während
@@ -464,50 +868,104 @@
 					Privatbahnen zu unregelmässigem und unzuverlässigem Betrieb. Mit der
 					Wirtschaftskrise von 1873 brachen Gesellschaften zusammen, Spekulationsgebilde
 					kamen ans Licht, und die Bereitschaft zu Investitionen in Privatbahnen
-						schwand.<com id="Eisenbahngesellschaften_in_der_Krise_c27">Ein besonders prominenter Fall unter den Firmenkonstrukten, die
+						schwand.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c27">Ein besonders prominenter Fall unter den Firmenkonstrukten, die
 						infolge des Börsenkrachs scheiterten, ist der Zusammenbruch des
-						Finanzierungssystems des sogenannten «Eisenbahnkönigs» <idx type="person" norm="Strousberg Bethel Henry">Bethel Henry Strousberg</idx>. <abbr norm="Vergleiche">Vgl.</abbr>
+						Finanzierungssystems des sogenannten «Eisenbahnkönigs» <persName key="Strousberg Bethel Henry">Bethel Henry Strousberg</persName>. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Borchart, Strousberg</ref>; <ref type="lit">Gall,
-							Eisenbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 30–31.</com> Dies
-					nutzte die <idx type="place" norm="Preussen (Königreich)">preussische</idx>
+							Eisenbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 30–31.</com> Dies
+					nutzte die <placeName key="Preussen (Königreich)">preussische</placeName>
 					Regierung zunächst zu einer «schleichenden» Verstaatlichungspolitik, indem
 					bereits 1872 und 1873 der <pb n="36"/>Bau neuer Staatsbahnen beschlossen wurde und ab etwa 1875
 					in finanziellen Notlagen steckende Privatbahnen übernommen wurden. Ab 1879
-					verstaatlichte <idx type="place" norm="Preussen (Königreich)">Preussen</idx>
+					verstaatlichte <placeName key="Preussen (Königreich)">Preussen</placeName>
 					alle grossen Privatbahnen. Dahinter stand nicht zuletzt der mit der
 					Reichsgründung einhergehende Gedanke möglichst weitgehender Zentralisierung und
-							Vereinheitlichung.<com id="Eisenbahngesellschaften_in_der_Krise_c28"><abbr norm="Vergleiche">Vgl.</abbr>
+							Vereinheitlichung.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c28">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Röll, Enzyklopädie</ref> III, S. 293–296; <ref type="lit">Röll, Enzyklopädie</ref> IV, S. 104–105; <ref type="lit">Röll, Enzyklopädie</ref> VI, S. 482–483; <ref type="lit">Gall,
-							Eisenbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 28–39; <ref type="lit">Klenner, Eisenbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 45–50.</com>
-					Vergleichbare Entwicklungen lassen sich etwa auch in <idx type="place" norm="Italien (Königreich)">Italien</idx> oder <idx type="place" norm="Österreich-Ungarn">Österreich</idx> feststellen, wo der Staat in den
+							Eisenbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 28–39; <ref type="lit">Klenner, Eisenbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 45–50.</com>
+					Vergleichbare Entwicklungen lassen sich etwa auch in <placeName key="Italien (Königreich)">Italien</placeName> oder <placeName key="Österreich-Ungarn">Österreich</placeName> feststellen, wo der Staat in den
 					1870er Jahren zunehmend Einfluss auf Eisenbahngesellschaften in finanziellen
-					Krisensituationen nahm.<com id="Eisenbahngesellschaften_in_der_Krise_c29"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Röll, Enzyklopädie</ref> IV (<abbr norm="Seite(n)">S.</abbr>
-						105–107), VI (<abbr norm="Seite(n)">S.</abbr> 284–287), VII (<abbr norm="Seite(n)">S.</abbr> 428–432); <ref type="lit">Klenner,
-							Eisenbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 81–86, 165–190.</com>
-					In <idx type="place" norm="Grossbritannien">Grossbritannien</idx> wurden die
+					Krisensituationen nahm.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c29">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Röll, Enzyklopädie</ref> IV (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						105–107), VI (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 284–287), VII (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 428–432); <ref type="lit">Klenner,
+							Eisenbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 81–86, 165–190.</com>
+					In <placeName key="Grossbritannien">Grossbritannien</placeName> wurden die
 					grössten Bauinvestitionen bis etwa 1875 getätigt, und auch wenn in den folgenden
 					Jahren und Jahrzehnten die Investitionen zurückgingen, wurde das Schienennetz
 					doch kontinuierlich erweitert und verdichtet. Die Bahnen waren im Besitz von
 					zahlreichen privaten Gesellschaften, wobei sich der Löwenanteil in der Hand von
 					12 bis 15 grossen Unternehmen befand. Die Einflussnahme des Staates war dabei
-					eher gering. In den <idx type="place" norm="Vereinigte Staaten von Amerika">Vereinigten Staaten von Amerika</idx> setzte nach dem Sezessionskrieg ein
+					eher gering. In den <placeName key="Vereinigte Staaten von Amerika">Vereinigten Staaten von Amerika</placeName> setzte nach dem Sezessionskrieg ein
 					starkes Wirtschaftswachstum ein, wobei auch der Eisenbahnsektor einen enormen
-					Aufschwung erlebte. Nach Versiegen des <idx type="place" norm="England">englischen</idx> Kapitalflusses kam es 1872 zu einer Krise der Eisenbahnfinanzen,
+					Aufschwung erlebte. Nach Versiegen des <placeName key="England">englischen</placeName> Kapitalflusses kam es 1872 zu einer Krise der Eisenbahnfinanzen,
 					die zum Zusammenbruch einer Reihe von Banken führte; 1873 gilt als Jahr der
 					grossen Eisenbahnkrisis. Der Staat nahm auf die zahlreichen privaten
 					Bahngesellschaften nur sehr zurückhaltend Einfluss. Vereinheitlichungen
 					erfolgten durch Absprachen unter den Gesellschaften und als Konzentration durch
 					den Ankauf kleinerer Gesellschaften durch grössere in den 1870er
-							Jahren.<com id="Eisenbahngesellschaften_in_der_Krise_c30"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Röll, Enzyklopädie</ref> V (<abbr norm="Seite(n)">S.</abbr>
-						375–379, 387–391), X (<abbr norm="Seite(n)">S.</abbr> 101–103); <ref type="lit">White, Railroaded</ref>, <abbr norm="Seite(n)">S.</abbr>
-						47–87; <ref type="lit">Freeman/Aldcroft, Atlas</ref>, <abbr norm="Seite(n)">S.</abbr> 32–47; <ref type="lit">Klenner, Eisenbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 33–38; <ref type="lit">Bauer,
-						Bankverein</ref>, <abbr norm="Seite(n)">S.</abbr> 59.</com> </p>
+							Jahren.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c30">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Röll, Enzyklopädie</ref> V (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						375–379, 387–391), X (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 101–103); <ref type="lit">White, Railroaded</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						47–87; <ref type="lit">Freeman/Aldcroft, Atlas</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 32–47; <ref type="lit">Klenner, Eisenbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 33–38; <ref type="lit">Bauer,
+						Bankverein</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 59.</com> </p>
 			</div>
-			<div id="Eisenbahngesellschaften_in_der_Krise_d1.2">
+			<div xml:id="Eisenbahngesellschaften_in_der_Krise_d1.2">
 				<head>Strategien zur Krisenbewältigung </head>
-				<p id="Eisenbahngesellschaften_in_der_Krise_p11">Wie gesehen<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p2"><!--S. 32-33--></ref> hatten zu Beginn der
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p11">Wie gesehen<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p2"><!--S. 32-33--></ref> hatten zu Beginn der
 					1870er Jahre verschiedene Bahngesellschaften neue Bauverpflichtungen übernommen,
 					woraus sich ein erheblicher Kapitalbedarf ergab. Zunächst handelte es sich für
 					die Bahngesellschaften wesentlich um eine Finanzierungskrise, das heisst um eine
@@ -516,268 +974,581 @@
 					Gewinnaussichten der Bahnen und mit den Auswirkungen der Wirtschaftskrise und
 					schwindendem Anlegervertrauen zunehmend schwierig. Die grossen Summen, welche
 					die anstehenden Bauprojekte erforderten, konnten auf dem schweizerischen
-					Kapitalmarkt nicht mehr beschafft werden. In <idx type="place" norm="Deutsches Reich">Deutschland</idx> bestand nach dem Gründerkrach von
+					Kapitalmarkt nicht mehr beschafft werden. In <placeName key="Deutsches Reich">Deutschland</placeName> bestand nach dem Gründerkrach von
 					1873<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p9"><!--S. 34--></ref> geringes Interesse, in schweizerische
 					Eisenbahnen zu investieren. Vielmehr wurden dort die in den Gründerjahren
 					erworbenen schweizerischen Eisenbahnaktien und -obligationen
-							abgestossen.<com id="Eisenbahngesellschaften_in_der_Krise_c31"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Speiser, Bahnen und
-						Banken</ref>, <abbr norm="Seite(n)">S.</abbr> 158.</com> Nordostbahn wie
-					Centralbahn richteten sich in ihren Bemühungen in der Folge nach <idx type="place" norm="Paris (F)">Paris</idx> aus. Wie zuvor bereits die Suisse
-					Occidentale, die sich neben dem <idx type="place" norm="Genf (Stadt)">Genfer</idx> Bankenplatz am <idx type="place" norm="Frankreich">französischen</idx> Kapitalmarkt orientiert hatte, wurden die beiden
-					Gesellschaften beim <idx type="place" norm="Paris (F)">Pariser</idx> Comptoir
-					d'Escompte fündig,<ref type="letter" target="K_2814"><!--Brief Georg Stoll an Escher, 20. Juni 1876 (BAR J I.67-8)--></ref> mussten dabei aber ungünstige Anleihensbedingungen – tiefe
-					Übernahmekurse, hohe Zinsen und Provisionen – akzeptieren.<ref type="sum" target="Rekonstruktion_Nordostbahn_p2"><!--S. 44--></ref><com id="Eisenbahngesellschaften_in_der_Krise_c32"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Speiser, Bahnen und Banken</ref>, <abbr norm="Seite(n)">S.</abbr> 154–162; <ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 79–83; <ref type="lit">Schmid,
-							Kapitalverluste</ref>, <abbr norm="Seite(n)">S.</abbr> 16, 33–34, 56;
-							<ref type="lit">Bouvier, Crise</ref>, <abbr norm="Seite(n)">S.</abbr>
+							abgestossen.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c31">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Speiser, Bahnen und
+						Banken</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 158.</com> Nordostbahn wie
+					Centralbahn richteten sich in ihren Bemühungen in der Folge nach <placeName key="Paris (F)">Paris</placeName> aus. Wie zuvor bereits die Suisse
+					Occidentale, die sich neben dem <placeName key="Genf (Stadt)">Genfer</placeName> Bankenplatz am <placeName key="Frankreich">französischen</placeName> Kapitalmarkt orientiert hatte, wurden die beiden
+					Gesellschaften beim <placeName key="Paris (F)">Pariser</placeName> Comptoir
+					d'Escompte fündig,<!--Brief Georg Stoll an Escher, 20. Juni 1876 (BAR J I.67-8)--> mussten dabei aber ungünstige Anleihensbedingungen – tiefe
+					Übernahmekurse, hohe Zinsen und Provisionen – akzeptieren.<ref type="sum" target="Rekonstruktion_Nordostbahn_p2"><!--S. 44--></ref>
+                        <com xml:id="Eisenbahngesellschaften_in_der_Krise_c32">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Speiser, Bahnen und Banken</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 154–162; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 79–83; <ref type="lit">Schmid,
+							Kapitalverluste</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 16, 33–34, 56;
+							<ref type="lit">Bouvier, Crise</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						464–465.</com> </p>
-				<p id="Eisenbahngesellschaften_in_der_Krise_p12">Auch bei erfolgreicher Geldbeschaffung überstiegen die für die ausstehenden
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p12">Auch bei erfolgreicher Geldbeschaffung überstiegen die für die ausstehenden
 					Bauverpflichtungen erforderlichen Gelder jene Beträge, die an neuen Kapitalien
-					zu erhalten waren. So rechnete die Nordostbahn mit einem Kapitalbedarf von 55 <abbr norm="Million(en)">Mio.</abbr> Franken im Zeitraum von 1876 bis 1881, hauptsächlich für im
-					Bau befindliche oder projektierte Linien sowie für Bauarbeiten am alten Netz.<com id="Eisenbahngesellschaften_in_der_Krise_c33"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Geschäftsbericht NOB</ref> 1875, <abbr norm="Seite(n)">S.</abbr> 12–14; <ref type="lit">Kessler, Nordostbahn</ref>, S. 80.</com> Die Centralbahn ihrerseits erstellte im Herbst 1875 ein Baubudget für die Zeit bis 1880, das
-					sich für diese fünf Jahre auf 80 <abbr norm="Million(en)">Mio.</abbr> Franken
-							belief.<com id="Eisenbahngesellschaften_in_der_Krise_c34"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Speiser, Bahnen und Banken</ref>, <abbr norm="Seite(n)">S.</abbr> 157.</com> Als naheliegender Weg zur Kostenvermeidung bot
+					zu erhalten waren. So rechnete die Nordostbahn mit einem Kapitalbedarf von 55 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken im Zeitraum von 1876 bis 1881, hauptsächlich für im
+					Bau befindliche oder projektierte Linien sowie für Bauarbeiten am alten Netz.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c33">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Geschäftsbericht NOB</ref> 1875, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 12–14; <ref type="lit">Kessler, Nordostbahn</ref>, S. 80.</com> Die Centralbahn ihrerseits erstellte im Herbst 1875 ein Baubudget für die Zeit bis 1880, das
+					sich für diese fünf Jahre auf 80 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken
+							belief.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c34">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Speiser, Bahnen und Banken</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 157.</com> Als naheliegender Weg zur Kostenvermeidung bot
 					sich der Verzicht auf oder wenigstens ein Aufschub <pb n="37"/>des Baus neuer Linien an –
 					eine Massnahme, die auch das Comptoir d'Escompte als Bedingung an seine
-					Kreditvergabe knüpfte.<com id="Eisenbahngesellschaften_in_der_Krise_c35">Die <idx type="place" norm="Paris (F)">Pariser</idx>
-						Finanzgruppe um <idx type="person" norm="Hentsch Edouard">Edouard
-							Hentsch</idx> und auch der Nordostbahn-Sanierer <idx type="person" norm="Coutin Jules">Jules Coutin</idx> hatten im Frühling 1877 einen
-						Bauaufschub gefordert. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_2934"><!--Brief Johann Konrad Kern an Escher, 5. März 1877 (BAR J I.67-8)--></ref>.</com>
+					Kreditvergabe knüpfte.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c35">Die <placeName key="Paris (F)">Pariser</placeName>
+						Finanzgruppe um <persName key="Hentsch Edouard">Edouard
+							Hentsch</persName> und auch der Nordostbahn-Sanierer <persName key="Coutin Jules">Jules Coutin</persName> hatten im Frühling 1877 einen
+						Bauaufschub gefordert. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Johann Konrad Kern an Escher, 5. März 1877 (BAR J I.67-8)-->.</com>
 					Dieser Weg wurde auch bei der Gotthardbahn beschritten, die als Teil ihres von
 					Escher geleiteten Reorganisationsprogramms<ref type="sum" target="Chronologie_Gotthardbahn_r88">Rekonstruktion Gotthardbahn<!--S. 229-236--></ref> einige Nebenlinien aus ihrem
-					Bauprogramm strich und die <idx type="place" norm="Monte Ceneri (Pass)">Monte-Ceneri</idx>-Linie von <idx type="place" norm="Bellinzona">Bellinzona</idx> nach <idx type="place" norm="Lugano">Lugano</idx> dank
-					einer eigens dafür geschlossenen Finanzierungsvereinbarung erstellte.<com id="Eisenbahngesellschaften_in_der_Krise_c36">Zur
-						Rekonstruktion der Gotthardbahn <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="sum" target="Rekonstruktion_Gotthardbahn_d1"><!--Jung, Escher Briefe, Bd. 1, S. 391–411--></ref>; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
-						661–674.</com><ref type="sum" target="Finanzierung_Gotthardbahn_d1"><!--214-225--></ref> Die Centralbahn stellte den Bau bereits begonnener Linien
-					ein, nämlich <idx type="place" norm="Langenthal">Langenthal</idx>–<idx type="place" norm="Wauwil">Wauwil</idx>, die <idx type="place" norm="Wasserfallen">Wasserfallen</idx>bahn und <idx type="place" norm="Solothurn (Stadt)">Solothurn</idx>–<idx type="place" norm="Schönbühl (Urtenen-Schönbühl)">Schönbühl</idx>. Bis zu diesem
-					Zeitpunkt waren für die Arbeiten an diesen Linien bereits rund 4 <abbr norm="Million(en)">Mio.</abbr> Franken ausgegeben worden.<com id="Eisenbahngesellschaften_in_der_Krise_c37"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Speiser, Bahnen und Banken</ref>, <abbr norm="Seite(n)">S.</abbr> 157; <ref type="lit">Schmid, Kapitalverluste</ref>, <abbr norm="Seite(n)">S.</abbr> 16–17.</com> Die Nordostbahn erwirkte für
+					Bauprogramm strich und die <placeName key="Monte Ceneri (Pass)">Monte-Ceneri</placeName>-Linie von <placeName key="Bellinzona">Bellinzona</placeName> nach <placeName key="Lugano">Lugano</placeName> dank
+					einer eigens dafür geschlossenen Finanzierungsvereinbarung erstellte.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c36">Zur
+						Rekonstruktion der Gotthardbahn <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="sum" target="Rekonstruktion_Gotthardbahn_d1"><!--Jung, Escher Briefe, Bd. 1, S. 391–411--></ref>; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						661–674.</com>
+                        <ref type="sum" target="Finanzierung_Gotthardbahn_d1"><!--214-225--></ref> Die Centralbahn stellte den Bau bereits begonnener Linien
+					ein, nämlich <placeName key="Langenthal">Langenthal</placeName>–<placeName key="Wauwil">Wauwil</placeName>, die <placeName key="Wasserfallen">Wasserfallen</placeName>bahn und <placeName key="Solothurn (Stadt)">Solothurn</placeName>–<placeName key="Schönbühl (Urtenen-Schönbühl)">Schönbühl</placeName>. Bis zu diesem
+					Zeitpunkt waren für die Arbeiten an diesen Linien bereits rund 4 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken ausgegeben worden.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c37">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Speiser, Bahnen und Banken</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 157; <ref type="lit">Schmid, Kapitalverluste</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 16–17.</com> Die Nordostbahn erwirkte für
 					verschiedene Linien eine mehrjährige Fristerstreckung. <ref type="sum" target="Rekonstruktion_Nordostbahn_d1.3">Baumoratorium<!--S. 45-48--></ref> </p>
-					<p id="Eisenbahngesellschaften_in_der_Krise_p13">Für eine nachhaltige Erholung der
+					<p xml:id="Eisenbahngesellschaften_in_der_Krise_p13">Für eine nachhaltige Erholung der
 					finanziellen Situation war aber auch eine Steigerung der Rentabilität des
 					Bahnbetriebs vonnöten. Die Kosten mussten beschränkt und Ausgaben möglichst
 					vermieden werden. Entsprechende Erwartungen knüpfte auch das Comptoir d'Escompte
 					1876 an seine Kreditvergabe an die Nordostbahn; im Rahmen des finanziellen
 					Rekonstruktionsprogramms, welches diese Gesellschaft zur Überwindung der Krise
-					durchführte, bildete eine Reorganisation des Betriebs<ref type="sum" target="Rekonstruktion_Nordostbahn_d1.5"><!--S. 49-50--></ref> ein zentrales Element. Der <idx type="place" norm="Frankreich">französische</idx> Ingenieur <idx type="person" norm="Coutin Jules">Jules Coutin</idx>, ein Vertrauensmann der <idx type="place" norm="Frankreich">französischen</idx> Geldgeber, war als
+					durchführte, bildete eine Reorganisation des Betriebs<ref type="sum" target="Rekonstruktion_Nordostbahn_d1.5"><!--S. 49-50--></ref> ein zentrales Element. Der <placeName key="Frankreich">französische</placeName> Ingenieur <persName key="Coutin Jules">Jules Coutin</persName>, ein Vertrauensmann der <placeName key="Frankreich">französischen</placeName> Geldgeber, war als
 					Delegierter der Nordostbahn-Direktion für die Durchführung zuständig. Auch zur
-					Rettung der Suisse Occidentale setzten die Financiers einen <idx type="person" norm="Chéronnet Victor">Ingenieur</idx> ihres Vertrauens ein. Anders aber
+					Rettung der Suisse Occidentale setzten die Financiers einen <persName key="Chéronnet Victor">Ingenieur</persName> ihres Vertrauens ein. Anders aber
 						als die Nordostbahn musste sich die Suisse Occidentale, um die Finanzen zu
 					sanieren und Verwaltung und Betrieb zu reorganisieren, Ende 1875 der eigens
 					gegründeten ‹Société Suisse pour l'Industrie des chemins de fer› unterstellen,
 					welche die Verantwortung für den Bahnbetrieb übernahm. Die alleinige Leitung des
-					Unternehmens als Generaldirektor («directeur unique») wurde einem <idx type="place" norm="Frankreich">französischen</idx> Ingenieur, <idx type="person" norm="Chéronnet Victor">Victor Chéronnet</idx>, übertragen.
-						<idx type="person" norm="Chéronnet Victor">Chéronnet</idx> reduzierte die
-					Ausgaben und brachte das Budget ins Gleichgewicht.<com id="Eisenbahngesellschaften_in_der_Krise_c38"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Bouvier, Crise</ref>, <abbr norm="Seite(n)">S.</abbr>
-						465–466; <ref type="lit">Benz, Financement</ref>, <abbr norm="Seite(n)">S.</abbr> 173–177; <ref type="lit">Cuony, Débuts</ref>, <abbr norm="Seite(n)">S.</abbr> 37–38; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 118.</com> Mit Einsparungen, Rekonstruktion
+					Unternehmens als Generaldirektor («directeur unique») wurde einem <placeName key="Frankreich">französischen</placeName> Ingenieur, <persName key="Chéronnet Victor">Victor Chéronnet</persName>, übertragen.
+						<persName key="Chéronnet Victor">Chéronnet</persName> reduzierte die
+					Ausgaben und brachte das Budget ins Gleichgewicht.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c38">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Bouvier, Crise</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						465–466; <ref type="lit">Benz, Financement</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 173–177; <ref type="lit">Cuony, Débuts</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 37–38; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 118.</com> Mit Einsparungen, Rekonstruktion
 					und Kapitalbeschaffung vermochten sich die meisten Bahnen durch die Krise zu
 					retten. Zwei Gesellschaften, die Bern-Luzern-Bahn<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p10"><!--S. 35--></ref> und die Nationalbahn, konnten das schlimmste denkbare Szenario
-					einer Zwangsliquidation nicht verhindern.<com id="Eisenbahngesellschaften_in_der_Krise_c39"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Bärlocher, Zwangsliquidation Nationalbahn</ref>; <ref type="lit">Gubler, Nationalbahn</ref>, <abbr norm="Seite(n)">S.</abbr>
-						104–113; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 512–514; <ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 165–172; <ref type="lit">Cuony, Débuts</ref>, <abbr norm="Seite(n)">S.</abbr> 55–56.</com> Als die Nationalbahn Anfang 1878
+					einer Zwangsliquidation nicht verhindern.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c39">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Bärlocher, Zwangsliquidation Nationalbahn</ref>; <ref type="lit">Gubler, Nationalbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						104–113; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 512–514; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 165–172; <ref type="lit">Cuony, Débuts</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 55–56.</com> Als die Nationalbahn Anfang 1878
 					den Zinsverpflichtungen nicht mehr nachkommen konnte, reichten rund 40 Gläubiger
-					ein Begehren auf Zwangsliquidation ein. Am <d norm="18.02.1878">18. Februar 1878</d> erklärte das Bundesgericht die
-					Zwangsliquidation über die Nationalbahn.<com id="Eisenbahngesellschaften_in_der_Krise_c40"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Bärlocher, Zwangsliquidation Nationalbahn</ref>, <abbr norm="Seite(n)">S.</abbr>
+					ein Begehren auf Zwangsliquidation ein. Am <date when="1878-02-18">18. Februar 1878</date> erklärte das Bundesgericht die
+					Zwangsliquidation über die Nationalbahn.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c40">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Bärlocher, Zwangsliquidation Nationalbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						1–3. – Zur Anwendung kam dabei das Zwangsliquidationsgesetz vom 24. Juni
-						1874. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10008244">Bundesgesetz über die Verpfändung und Zwangsliquidation der Eisenbahnen
-							auf dem Gebiete der schweizerischen Eidgenossenschaft (vom 24. Juni 1874), in: <ref type="lit">BBl</ref> 1874 II, S. 449–458</ref>; <ref type="lit">Oetiker, Eisenbahn-Gesetzgebung</ref>, <abbr norm="Seite(n)">S.</abbr> 623–647.</com>
+						1874. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10008244">Bundesgesetz über die Verpfändung und Zwangsliquidation der Eisenbahnen
+							auf dem Gebiete der schweizerischen Eidgenossenschaft (vom 24. Juni 1874), in: <ref type="lit">BBl</ref> 1874 II, S. 449–458</ref>; <ref type="lit">Oetiker, Eisenbahn-Gesetzgebung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 623–647.</com>
 					Das Scheitern der Nationalbahn brachte auch die demokratische Partei im Kanton
-						<idx type="place" norm="Zürich">Zürich</idx> ins Wanken; bei den
+						<placeName key="Zürich">Zürich</placeName> ins Wanken; bei den
 					Kantonsratswahlen im Mai 1878 gewannen die Liberalen die Sitzmehrheit zurück.
 					Damit kippte die politische Stimmung im Kanton zugunsten der Nordostbahn,
-					politisch motivierte Forderungen ihrer Gegner blieben chancenlos.<com id="Eisenbahngesellschaften_in_der_Krise_c41"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Baumann, Krisenbewältigung</ref>, <abbr norm="Seite(n)">S.</abbr> 32.</com>
+					politisch motivierte Forderungen ihrer Gegner blieben chancenlos.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c41">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Baumann, Krisenbewältigung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 32.</com>
 				</p>
 
-				<p id="Eisenbahngesellschaften_in_der_Krise_p14">Neben finanziellen, organisatorischen und betriebstechnischen Massnahmen nahmen
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p14">Neben finanziellen, organisatorischen und betriebstechnischen Massnahmen nahmen
 					die Bahngesellschaften als vertrauensbildendes Mittel gegenüber der
 					Öffentlichkeit und den Kapitalgebern auch personelle Änderungen in den
 					Führungsgremien vor – die Schuldigen für die Misere mussten bezeichnet werden.
 					Bei der Gotthardbahn wurde Escher, der federführend an der Rekonstruktion von
 					Nordostbahn und Gotthardbahn gewirkt hatte, als Sündenbock geopfert und zum
-					Rücktritt von der Leitung der Gesellschaft gezwungen.<ref type="sum" target="Chronologie_Gotthardbahn_r119">Rücktritt Eschers<!--S. 234--></ref><com id="Eisenbahngesellschaften_in_der_Krise_c42">Zu Eschers erzwungenem
-						Rücktritt von der Gotthardbahn <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
-						676–723.</com> Bei der Nordostbahn mussten mit <idx type="person" norm="Peyer im Hof Johann Friedrich">Johann Friedrich Peyer im Hof</idx> und <idx type="person" norm="Häberlin Eduard">Eduard Häberlin</idx> zwei der
+					Rücktritt von der Leitung der Gesellschaft gezwungen.<ref type="sum" target="Chronologie_Gotthardbahn_r119">Rücktritt Eschers<!--S. 234--></ref>
+                        <com xml:id="Eisenbahngesellschaften_in_der_Krise_c42">Zu Eschers erzwungenem
+						Rücktritt von der Gotthardbahn <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						676–723.</com> Bei der Nordostbahn mussten mit <persName key="Peyer im Hof Johann Friedrich">Johann Friedrich Peyer im Hof</persName> und <persName key="Häberlin Eduard">Eduard Häberlin</persName> zwei der
 					Direktoren gehen, welche die Strategie der Bahn ab 1872 zu verantworten
-							hatten.<com id="Eisenbahngesellschaften_in_der_Krise_c43"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Escher, Lebenslauf</ref>, <abbr norm="Seite(n)">S.</abbr> 156–158; <ref type="lit">Baumann,
-							Krisenbewältigung</ref>, <abbr norm="Seite(n)">S.</abbr> 31–32; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
+							hatten.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c43">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Escher, Lebenslauf</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 156–158; <ref type="lit">Baumann,
+							Krisenbewältigung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 31–32; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						542–543.</com> </p>
 
-				<p id="Eisenbahngesellschaften_in_der_Krise_p15">Wie schon bei Anlass der Finanzierungsschwierigkeiten mancher Bahngesellschaften
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p15">Wie schon bei Anlass der Finanzierungsschwierigkeiten mancher Bahngesellschaften
 					Ende der 1850er und zu Beginn der 1860er Jahre bot die Krise der 1870er Jahre
 					Gelegenheit, <pb n="38"/>Bemühungen zu einer Strukturbereinigung an die Hand zu nehmen oder
 					zumindest zu propagieren. Eine Umstrukturierung und Konzentration durch Fusionen
 					erlebte dabei in den 1870er und 1880er Jahren namentlich das Eisenbahnsystem in
-					der <idx type="place" norm="Westschweiz">Westschweiz</idx>. Diese Entwicklung
+					der <placeName key="Westschweiz">Westschweiz</placeName>. Diese Entwicklung
 					setzte bereits in den 1860er Jahren ein, akzentuierte sich unter dem Eindruck
-					der Krise und führte bis 1890 zur Konzentration des <idx type="place" norm="Westschweiz">westschweizerischen</idx> Bahnnetzes in der grössten
-					Schweizer Privatbahn, der Jura-Simplon-Bahn.<com id="Eisenbahngesellschaften_in_der_Krise_c44"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Speiser, Eisenbahnrückkauf</ref>, <abbr norm="Seite(n)">S.</abbr> 154–156; <ref type="lit">Gigase, Ouest-Suisse</ref>, <abbr norm="Seite(n)">S.</abbr> 295; <ref type="lit">Meyer, Suisse
-							occidentale</ref>; <ref type="lit">Cuony, Débuts</ref>, <abbr norm="Seite(n)">S.</abbr> 32–34, 38–41, 54–56; <ref type="lit">Weissenbach,
-							Eisenbahnwesen</ref>, <abbr norm="Seite(n)">S.</abbr> 61–62; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr>
-						116–118; <ref type="www" target="http://www.bahndaten.ch"><ref type="lit">Bahndaten online</ref></ref>.</com> Als Bereinigung der
+					der Krise und führte bis 1890 zur Konzentration des <placeName key="Westschweiz">westschweizerischen</placeName> Bahnnetzes in der grössten
+					Schweizer Privatbahn, der Jura-Simplon-Bahn.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c44">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Speiser, Eisenbahnrückkauf</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 154–156; <ref type="lit">Gigase, Ouest-Suisse</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 295; <ref type="lit">Meyer, Suisse
+							occidentale</ref>; <ref type="lit">Cuony, Débuts</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 32–34, 38–41, 54–56; <ref type="lit">Weissenbach,
+							Eisenbahnwesen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 61–62; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						116–118; <ref target="http://www.bahndaten.ch">
+                                <ref type="lit">Bahndaten online</ref>
+                            </ref>.</com> Als Bereinigung der
 					Marktsituation durch Übernahmen können zudem die Ergebnisse der erwähnten
 					Zwangsliquidationen<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p10"><!--S. 35--></ref> <ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p15"><!--S. 37--></ref> betrachtet werden: Die Bern-Luzern-Bahn wurde 1877 vom
-					Kanton <idx type="place" norm="Bern">Bern</idx> ersteigert und den Bernischen Jurabahnen zum Betrieb übergeben – den diese bereits zuvor besorgt hatten –, während die Nordostbahn 1880 die konkursite
-					Nationalbahn erwarb.<com id="Eisenbahngesellschaften_in_der_Krise_c45"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Schmid, Kapitalverluste</ref>, <abbr norm="Seite(n)">S.</abbr> 68; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 512.</com> </p>
-				<p id="Eisenbahngesellschaften_in_der_Krise_p16">Die Krise der Eisenbahngesellschaften rief auch die Vertreter des
+					Kanton <placeName key="Bern">Bern</placeName> ersteigert und den Bernischen Jurabahnen zum Betrieb übergeben – den diese bereits zuvor besorgt hatten –, während die Nordostbahn 1880 die konkursite
+					Nationalbahn erwarb.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c45">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Schmid, Kapitalverluste</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 68; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 512.</com> </p>
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p16">Die Krise der Eisenbahngesellschaften rief auch die Vertreter des
 					Staatsbahngedankens auf den Plan, wie das schon bei früheren krisenhaften
-					Vorfällen im schweizerischen Eisenbahnsektor der Fall gewesen war.<com id="Eisenbahngesellschaften_in_der_Krise_c46">Besonders
+					Vorfällen im schweizerischen Eisenbahnsektor der Fall gewesen war.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c46">Besonders
 						hervorzuheben ist hierbei die Broschüre, in welcher der damalige
-						Bundespräsident <idx type="person" norm="Stämpfli Jakob">Jakob
-							Stämpfli</idx> 1862 den «Rückkauf» der Eisenbahnen durch den Bund
-						propagierte. <abbr norm="Vergleiche">Vgl.</abbr>
+						Bundespräsident <persName key="Stämpfli Jakob">Jakob
+							Stämpfli</persName> 1862 den «Rückkauf» der Eisenbahnen durch den Bund
+						propagierte. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Stämpfli, Rückkauf</ref>; <ref type="sum" target="Eisenbahngeschichte_d1.8"><!--Jung, Escher Briefe, Bd. 5, S. 60–62--></ref>.</com> Einen ersten Schritt zu mehr
 					Bundeskompetenzen und einer gewissen Zentralisierung – wenn auch noch nicht zu
-					einer Verstaatlichung – bildete das neue Eisenbahngesetz vom <d norm="23.12.1872">23. Dezember 1872</d>, mit dem die Konzessionserteilung in
+					einer Verstaatlichung – bildete das neue Eisenbahngesetz vom <date when="1872-12-23">23. Dezember 1872</date>, mit dem die Konzessionserteilung in
 					die Zuständigkeit des Bundes überging. In der Bundesverfassung von 1874 wurde
 					dann festgelegt, dass die Gesetzgebung über Bau und Betrieb der Eisenbahnen
 					Sache des Bundes sei, und somit das Eisenbahngesetz von 1872 befestigt. Escher
 					hatte bereits Ende 1870 Repräsentanten der vier grossen Eisenbahngesellschaften zu einer
-					«confidentiellen Besprechung» in <idx type="place" norm="Zürich (Stadt)">Zürich</idx> eingeladen, weil in der parlamentarischen
+					«confidentiellen Besprechung» in <placeName key="Zürich (Stadt)">Zürich</placeName> eingeladen, weil in der parlamentarischen
 					Kommission Tendenzen bestanden, «eingreifende Bestimmungen bezüglich des
 					Eisenbahnwesens zur Aufnahme in die ‹neue Bundesverfassung›
-					vorzuschlagen».<com id="Eisenbahngesellschaften_in_der_Krise_c47"><ref type="letter" target="K_2504"><!--Brief Escher an Andreas Sulger, 30. Dezember 1870 (BAR J I.67-8)--></ref>. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Eisenbahngesetz 1872</ref>; <ref type="lit">BV 1874</ref>, <abbr norm="Artikel">Art.</abbr> 26; <ref type="lit">Oetiker, Eisenbahn-Gesetzgebung</ref>, <abbr norm="Seite(n)">S.</abbr> 27–83; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 101–102.</com> </p>
-				<p id="Eisenbahngesellschaften_in_der_Krise_p17">Ab Mitte der 1870er Jahre erschienen verschiedene Publikationen pro und contra
-							Verstaatlichung.<com id="Eisenbahngesellschaften_in_der_Krise_c48"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Haller, Hundert
-						Jahre</ref>, <abbr norm="Seite(n)">S.</abbr> 28–35.</com> Der radikale <idx type="place" norm="Solothurn">Solothurner</idx> Nationalrat und spätere
-					Gotthardbahn-Direktor <idx type="person" norm="Dietler Hermann">Hermann
-						Dietler</idx> etwa trat dabei für den sofortigen Ankauf der Eisenbahnen
-					durch den Bund ein, während der Generalsekretär der Suisse Occidentale, <idx type="person" norm="Cuony Albert">Albert Cuony</idx>, als
+					vorzuschlagen».<com xml:id="Eisenbahngesellschaften_in_der_Krise_c47"><!--Brief Escher an Andreas Sulger, 30. Dezember 1870 (BAR J I.67-8)-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Eisenbahngesetz 1872</ref>; <ref type="lit">BV 1874</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 26; <ref type="lit">Oetiker, Eisenbahn-Gesetzgebung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 27–83; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 101–102.</com> </p>
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p17">Ab Mitte der 1870er Jahre erschienen verschiedene Publikationen pro und contra
+							Verstaatlichung.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c48">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Haller, Hundert
+						Jahre</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 28–35.</com> Der radikale <placeName key="Solothurn">Solothurner</placeName> Nationalrat und spätere
+					Gotthardbahn-Direktor <persName key="Dietler Hermann">Hermann
+						Dietler</persName> etwa trat dabei für den sofortigen Ankauf der Eisenbahnen
+					durch den Bund ein, während der Generalsekretär der Suisse Occidentale, <persName key="Cuony Albert">Albert Cuony</persName>, als
 					Privatbahnvertreter aus betriebsökonomischen Gründen zumindest eine freiwillige
-					Fusion der Gesellschaften befürwortete, die sich aber zu gegebener Zeit von selbst ergeben würde.<com id="Eisenbahngesellschaften_in_der_Krise_c49"><abbr norm="Vergleiche">Vgl.</abbr>
+					Fusion der Gesellschaften befürwortete, die sich aber zu gegebener Zeit von selbst ergeben würde.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c49">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Dietler, Eisenbahnfrage</ref>; <ref type="lit">Cuony,
 							Crise</ref>.</com> Manche Staatsbahnbefürworter sprachen sich indes aus
 					Rentabilitätsgründen gegen den Kauf der schweizerischen Bahnen durch den Bund zu
-					diesem Zeitpunkt aus.<com id="Eisenbahngesellschaften_in_der_Krise_c50">1874 etwa lehnte der <idx type="place" norm="Basel-Stadt">Basler</idx> Nationalökonom <idx type="person" norm="Geigy Alfred">Alfred Geigy</idx> den Kauf durch den Bund zu diesem
+					diesem Zeitpunkt aus.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c50">1874 etwa lehnte der <placeName key="Basel-Stadt">Basler</placeName> Nationalökonom <persName key="Geigy Alfred">Alfred Geigy</persName> den Kauf durch den Bund zu diesem
 						Zeitpunkt ab, stellte aber eine Verstaatlichung in naher Zukunft in
-						Aussicht. <abbr norm="Vergleiche">Vgl.</abbr>
+						Aussicht. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Geigy, Schweizerisches Eisenbahnwesen</ref>.</com> So
-					schlugen Alt-Bundesrat <idx type="person" norm="Stämpfli Jakob">Jakob
-						Stämpfli</idx>, der radikale <idx type="place" norm="Solothurn">Solothurner</idx> Nationalrat <idx type="person" norm="Kaiser Simon">Simon
-						Kaiser</idx> oder der <idx type="place" norm="Aargau">Aargauer</idx>
-					Ingenieur <idx type="person" norm="Zschokke Peter Olivier">Peter Olivier
-						Zschokke</idx> vor, dass der Betrieb der schweizerischen Eisenbahnen unter
+					schlugen Alt-Bundesrat <persName key="Stämpfli Jakob">Jakob
+						Stämpfli</persName>, der radikale <placeName key="Solothurn">Solothurner</placeName> Nationalrat <persName key="Kaiser Simon">Simon
+						Kaiser</persName> oder der <placeName key="Aargau">Aargauer</placeName>
+					Ingenieur <persName key="Zschokke Peter Olivier">Peter Olivier
+						Zschokke</persName> vor, dass der Betrieb der schweizerischen Eisenbahnen unter
 					Leitung des Bundes zentralisiert werden solle, um ihn zu vereinheitlichen und
 					straffer zu organisieren, bevor dann der Ankauf der Bahnen durch den Bund
-					erfolgen könnte.<com id="Eisenbahngesellschaften_in_der_Krise_c51"><abbr norm="Vergleiche">Vgl.</abbr>
+					erfolgen könnte.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c51">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Stämpfli, Betriebsübernahme</ref>; <ref type="lit">Zschokke,
 							Betrieb</ref>; <ref type="lit">Zschokke/Kaiser, Vereinheitlichung</ref>.
-						– <idx type="person" norm="Kaiser Simon">Kaiser</idx> hatte einen vergleichbaren Vorschlag, jedoch ohne finanzielle Beteiligung des Bundes, bereits 1869 vorgebracht. <abbr norm="Vergleiche">Vgl.</abbr>
+						– <persName key="Kaiser Simon">Kaiser</persName> hatte einen vergleichbaren Vorschlag, jedoch ohne finanzielle Beteiligung des Bundes, bereits 1869 vorgebracht. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Kaiser, Bund und Eisenbahnen</ref>.</com>
-					<idx type="person" norm="Zschokke Peter Olivier">Zschokke</idx> sandte das
+					<persName key="Zschokke Peter Olivier">Zschokke</persName> sandte das
 					bereits im März 1876 erstellte Exposé seiner Untersuchung Anfang 1877 – vor der
-					Publikation der fertigen Schrift – auch an Escher und ersuchte diesen,<ref type="letter" target="K_2904"><!--Zschokke an Escher, 31.
-						Januar 1877--></ref> ihm «das Resultat Ihrer [Eschers] Prüfung mitzutheilen, –
+					Publikation der fertigen Schrift – auch an Escher und ersuchte diesen,<!--Zschokke an Escher, 31.
+						Januar 1877--> ihm «das Resultat Ihrer [Eschers] Prüfung mitzutheilen, –
 					führe dieselbe Sie nun zu einer Annahme oder Ablehnung des von mir angeregten
-					Gedankens». Man darf davon ausgehen, dass <idx type="person" norm="Zschokke Peter Olivier">Zschokkes</idx> Vorschlag von Escher wenig
-					günstig aufgenommen wurde.<com id="Eisenbahngesellschaften_in_der_Krise_c52">Eine bezügliche Antwort Eschers auf dem
-						Korrespondenzweg konnte nicht ermittelt werden. – <abbr norm="Vergleiche">Vgl.</abbr>
+					Gedankens». Man darf davon ausgehen, dass <persName key="Zschokke Peter Olivier">Zschokkes</persName> Vorschlag von Escher wenig
+					günstig aufgenommen wurde.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c52">Eine bezügliche Antwort Eschers auf dem
+						Korrespondenzweg konnte nicht ermittelt werden. – <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						Zschokke Peter Olivier, Rückkauf oder Betriebsübernahme der
 							schweizerischen Eisenbahnen durch den Bund [Exposé] (<ref type="lit">BAR J I.67-6.63</ref>).</com> Auch Schritte
 					auf politischer Ebene wurden vorgeschlagen. 1877 stellte Rückkaufsbefürworter
-						<idx type="person" norm="Stämpfli Jakob">Stämpfli</idx> im Nationalrat den
+						<persName key="Stämpfli Jakob">Stämpfli</persName> im Nationalrat den
 					Antrag, der Bundesrat solle die Mißstände der Eisenbahnen und die Mittel zu
 					deren Behebung untersuchen, machte in seiner Rede aber deutlich, dass er damit
-					auf Einrichtung des Bundesbetriebs abzielte.<com id="Eisenbahngesellschaften_in_der_Krise_c53">«Der Bundesrath wird
+					auf Einrichtung des Bundesbetriebs abzielte.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c53">«Der Bundesrath wird
 						eingeladen, eine einläßliche Untersuchung anzuordnen und den Räthen Bericht
 						zu erstatten über die Ursachen der herrschenden Mißstände im Betriebe und in
 						den finanziellen Verhältnissen in unserem Eisenbahnwesen und über die Mittel
 						und Wege, wie denselben abgeholfen werden könnte.» <ref type="lit">NZZ</ref>, 21. Juni 1877. – Eine zweite Motion
-						ähnlichen Wortlauts, die <idx type="person" norm="Stämpfli Jakob">Stämpfli</idx> am <d norm="21.06.1878">21. Juni 1878</d> mit 34
-						Mitunterzeichnern einreichte, zog er am <d norm="06.12.1878">6. Dezember
-							1878</d> zurück. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10010194">Uebersicht der Verhandlungen der Schweizerischen Bundesversammlung (Wintersession 2.–21. Dezember 1878), in: <ref type="lit">BBl</ref> 1879 I, Beilage zu Nr. 1</ref>.</com> Unterstützung erhielt er durch Anhänger
-					der Verstaatlichungsidee wie <idx type="person" norm="Kaiser Simon">Kaiser</idx>, <idx type="person" norm="Dietler Hermann">Dietler</idx> oder
-					den <idx type="place" norm="Winterthur">Winterthurer</idx> Demokraten <idx type="person" norm="Forrer Ludwig">Ludwig Forrer</idx>. Auf der Gegenseite
-					äusserten sich mit den <pb n="39"/>liberalen Nationalräten <idx type="person" norm="Wirth-Sand Daniel">Daniel Wirth-Sand</idx>, <idx type="person" norm="Planta (Samedan) Andreas Rudolf von">Andreas Rudolf von Planta</idx>
-					(beide Vereinigte Schweizerbahnen) und <idx type="person" norm="Feer-Herzog Carl">Carl Feer-Herzog</idx> (Centralbahn und
-					Gotthardbahn) namentlich Vertreter von Privatbahngesellschaften. <idx type="person" norm="Stämpfli Jakob">Stämpflis</idx> Postulat wurde mit 42
-					gegen 80 Stimmen abgelehnt. Eine analoge Motion <idx type="person" norm="Zschokke Peter Olivier">Zschokkes</idx> im Ständerat wurde ohne
-					Diskussion mit 29 zu 8 Stimmen für nicht erheblich erklärt.<com id="Eisenbahngesellschaften_in_der_Krise_c54"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">NZZ</ref>, 21. Juni 1877; <ref type="lit">Haller, Hundert Jahre</ref>, <abbr norm="Seite(n)">S.</abbr> 35–36.</com>
+						ähnlichen Wortlauts, die <persName key="Stämpfli Jakob">Stämpfli</persName> am <date when="1878-06-21">21. Juni 1878</date> mit 34
+						Mitunterzeichnern einreichte, zog er am <date when="1878-12-06">6. Dezember
+							1878</date> zurück. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10010194">Uebersicht der Verhandlungen der Schweizerischen Bundesversammlung (Wintersession 2.–21. Dezember 1878), in: <ref type="lit">BBl</ref> 1879 I, Beilage zu Nr. 1</ref>.</com> Unterstützung erhielt er durch Anhänger
+					der Verstaatlichungsidee wie <persName key="Kaiser Simon">Kaiser</persName>, <persName key="Dietler Hermann">Dietler</persName> oder
+					den <placeName key="Winterthur">Winterthurer</placeName> Demokraten <persName key="Forrer Ludwig">Ludwig Forrer</persName>. Auf der Gegenseite
+					äusserten sich mit den <pb n="39"/>liberalen Nationalräten <persName key="Wirth-Sand Daniel">Daniel Wirth-Sand</persName>, <persName key="Planta (Samedan) Andreas Rudolf von">Andreas Rudolf von Planta</persName>
+					(beide Vereinigte Schweizerbahnen) und <persName key="Feer-Herzog Carl">Carl Feer-Herzog</persName> (Centralbahn und
+					Gotthardbahn) namentlich Vertreter von Privatbahngesellschaften. <persName key="Stämpfli Jakob">Stämpflis</persName> Postulat wurde mit 42
+					gegen 80 Stimmen abgelehnt. Eine analoge Motion <persName key="Zschokke Peter Olivier">Zschokkes</persName> im Ständerat wurde ohne
+					Diskussion mit 29 zu 8 Stimmen für nicht erheblich erklärt.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c54">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">NZZ</ref>, 21. Juni 1877; <ref type="lit">Haller, Hundert Jahre</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 35–36.</com>
 				</p>
 			</div>
 
-			<div id="Eisenbahngesellschaften_in_der_Krise_d1.3">
+			<div xml:id="Eisenbahngesellschaften_in_der_Krise_d1.3">
 				<head>Allmähliche Erholung nach der Krise</head>
-				<p id="Eisenbahngesellschaften_in_der_Krise_p18">Noch im Fünfjahreszeitraum 1876–1880 waren, wie eingangs erwähnt<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p2"><!--S. 32--></ref>, über 500 Streckenkilometer neu dem Betrieb
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p18">Noch im Fünfjahreszeitraum 1876–1880 waren, wie eingangs erwähnt<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p2"><!--S. 32--></ref>, über 500 Streckenkilometer neu dem Betrieb
 					übergeben worden, wobei diese Eröffnungen fast ausschliesslich auf die Jahre
 					1876 und 1877 fielen. Ab 1878 und in den 1880er Jahren wurden – abgesehen von
-					der 1882 eröffneten <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn<ref type="sum" target="Chronologie_Gotthardbahn_r138">Eröffnung Gotthardbahn<!--S. 236--></ref> – nur noch wenige Bahnkilometer
+					der 1882 eröffneten <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn<ref type="sum" target="Chronologie_Gotthardbahn_r138">Eröffnung Gotthardbahn<!--S. 236--></ref> – nur noch wenige Bahnkilometer
 					Normalspurbahnen in Betrieb genommen. 1883, im Jahr nach der Eröffnung der
-					<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>linie, erreichte das normalspurige Netz in der Schweiz eine Ausdehnung
-					von 2733 <abbr norm="Kilometer">km</abbr>. Bis 1890 kamen lediglich noch 42
-						<abbr norm="Kilometer">km</abbr> hinzu; einerseits wurden die in den 1870er
+					<placeName key="St. Gotthard (Pass)">Gotthard</placeName>linie, erreichte das normalspurige Netz in der Schweiz eine Ausdehnung
+					von 2733 <choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice>. Bis 1890 kamen lediglich noch 42
+						<choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice> hinzu; einerseits wurden die in den 1870er
 					Jahren sistierten Bauvorhaben erst nach 1890 dem Betrieb übergeben (die
 					Nordostbahn eröffnete ihre Moratoriumslinien<ref type="sum" target="Rekonstruktion_Nordostbahn_p9"><!--S. 46-48--></ref> zwischen 1891 und 1897), andererseits verfügte die
-					Schweiz mittlerweile über ein sehr dichtes Schienennetz.<com id="Eisenbahngesellschaften_in_der_Krise_c55"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Direction Nordostbahn, Graphisch-statistischer Atlas</ref>,
-						Tafel 8, 9; <ref type="lit">Botschaft BR Rückkauf 1897</ref>, <abbr norm="Seite(n)">S.</abbr> 477; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 120–121.</com> So sahen die Bahngesellschaften von
+					Schweiz mittlerweile über ein sehr dichtes Schienennetz.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c55">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Direction Nordostbahn, Graphisch-statistischer Atlas</ref>,
+						Tafel 8, 9; <ref type="lit">Botschaft BR Rückkauf 1897</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 477; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 120–121.</com> So sahen die Bahngesellschaften von
 					grösseren Investitionen etwa im Bahnbau ab, während sich die Gesamtwirtschaft
-					noch bis Mitte der 1880er Jahre in einer Phase der Stagnation befand.<com id="Eisenbahngesellschaften_in_der_Krise_c56"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Widmer, Wachstumskrise</ref>, <abbr norm="Seite(n)">S.</abbr> 117–123; <ref type="lit">Siegenthaler, Schweiz</ref>, <abbr norm="Seite(n)">S.</abbr> 457–459.</com> In betriebsökonomischer Hinsicht stellten sich
+					noch bis Mitte der 1880er Jahre in einer Phase der Stagnation befand.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c56">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Widmer, Wachstumskrise</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 117–123; <ref type="lit">Siegenthaler, Schweiz</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 457–459.</com> In betriebsökonomischer Hinsicht stellten sich
 					bei den Eisenbahngesellschaften eine allmähliche Erholung der Finanzen und eine
 					Verbesserung der Rentabilität des Betriebs ein, doch kam es – auch weil während
 					einer Reihe von Jahren die Überschüsse noch zu Abschreibungen und zur Bildung
 					von Reserven verwendet wurden – erst Mitte der 80er Jahre zu einer sichtbaren
 							Gesundung. Ein wichtiger Faktor dafür war neben den in der Krise der 1870er
 					Jahre ergriffenen Massnahmen der Anstieg des Verkehrs infolge der Eröffnung der
-					<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn am <d norm="01.06.1882">1. Juni 1882</d> sowie der <idx type="place" norm="Österreich-Ungarn">österreichischen</idx>
-					<idx type="place" norm="Arlberg (Pass, A)">Arlberg</idx>bahn am <d norm="20.09.1884">20. September 1884</d>; von letzterer profitierten
-					hauptsächlich die Vereinigten Schweizerbahnen.<com id="Eisenbahngesellschaften_in_der_Krise_c57"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Escher, Lebenslauf</ref>, <abbr norm="Seite(n)">S.</abbr>
-						139; <ref type="lit">Röll, Enzyklopädie</ref> VI, <abbr norm="Seite(n)">S.</abbr>
-						484; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <abbr norm="Seite(n)">S.</abbr> 105–107; <ref type="lit">Bauer,
-							Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 116, 120–121.</com>
+					<placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn am <date when="1882-06-01">1. Juni 1882</date> sowie der <placeName key="Österreich-Ungarn">österreichischen</placeName>
+					<placeName key="Arlberg (Pass, A)">Arlberg</placeName>bahn am <date when="1884-09-20">20. September 1884</date>; von letzterer profitierten
+					hauptsächlich die Vereinigten Schweizerbahnen.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c57">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Escher, Lebenslauf</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						139; <ref type="lit">Röll, Enzyklopädie</ref> VI, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						484; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 105–107; <ref type="lit">Bauer,
+							Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 116, 120–121.</com>
 					Weiter profitierten die Gesellschaften davon, dass sich Mitte der 1880er Jahre
 					der Geldmarkt günstiger gestaltete. Die herrschende wirtschaftliche Stagnation
 					führte zu einer Senkung des Diskontzinssatzes. Dies erlaubte den Gesellschaften,
 					Wertpapiere mit tieferen Zinsen zu begeben und so die fixen Kosten dieser
 					Zahlungen zu senken. Beispielsweise erzielte die Nordostbahn 1887 durch die
-					Konversion ihrer Anleihen im Betrag von rund 87 <abbr norm="Million(en)">Mio.</abbr> Franken in zu 4½% verzinsliche Papiere eine jährliche Ersparnis
-					an Zinszahlungen von rund 100 000 Franken im Vergleich zum Vorjahr, mit der Aussicht auf eine solche von über 400 000 Franken für die folgenden Jahre.<com id="Eisenbahngesellschaften_in_der_Krise_c58"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <abbr norm="Seite(n)">S.</abbr> 59; <ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 211–213. – Zu den Konversionsbemühungen der Vereinigten
-						Schweizerbahnen <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Wegmann, Vereinigte Schweizerbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 111–119.</com> </p>
+					Konversion ihrer Anleihen im Betrag von rund 87 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken in zu 4½% verzinsliche Papiere eine jährliche Ersparnis
+					an Zinszahlungen von rund 100 000 Franken im Vergleich zum Vorjahr, mit der Aussicht auf eine solche von über 400 000 Franken für die folgenden Jahre.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c58">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 59; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 211–213. – Zu den Konversionsbemühungen der Vereinigten
+						Schweizerbahnen <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Wegmann, Vereinigte Schweizerbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 111–119.</com> </p>
 
-				<p id="Eisenbahngesellschaften_in_der_Krise_p19">Die von der Krise besonders schwer betroffene Nordostbahn benötigte einige Zeit,
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p19">Die von der Krise besonders schwer betroffene Nordostbahn benötigte einige Zeit,
 					um sich zu erholen. Erst für das Geschäftsjahr 1887 vermochte sie auf die
 					Stammaktien wieder eine Dividende von 2% zu leisten. Für die 1876 geschaffenen
 					Prioritätsaktien, die zwischen 1877 und 1879 ebenfalls keine Dividende erhalten
-					hatten, wurde eine solche ab dem Geschäftsjahr 1880 wieder geleistet.<com id="Eisenbahngesellschaften_in_der_Krise_c59"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr>
+					hatten, wurde eine solche ab dem Geschäftsjahr 1880 wieder geleistet.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c59">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						273. – Allerdings wurde mehrmals Klage gegen die Dividendenzahlung für
 						Prioritätsaktionäre eingereicht, so dass sich die Zahlungen infolge eines
-						langwierigen Rechtsstreits verzögerten. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr>
+						langwierigen Rechtsstreits verzögerten. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						174–176.</com> Escher selbst wollte für dieses Geschäftsjahr den
 					ausgewiesenen Reingewinn teilweise abschreiben, teilweise auf neue Rechnung
 					übertragen. Sein Antrag wurde vom Verwaltungsrat mit 7 gegen 14 Stimmen
 					abgelehnt, da die Mehrheit den Prioritätsaktionären eine Dividende ausschütten
-							wollte.<com id="Eisenbahngesellschaften_in_der_Krise_c60"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_3284"><!--Brief Escher an Georg Stoll, 
-			9. Juni 1881 (ZB Ms Briefe)--></ref>;
-							<ref type="letter" target="K_3286"><!--Brief Escher an Gustav Vogt, 29. Juni 1881 (ZB NL G.
-			Vogt 5.19)--></ref>.</com>
+							wollte.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c60">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Escher an Georg Stoll, 
+			9. Juni 1881 (ZB Ms Briefe)-->;
+							<!--Brief Escher an Gustav Vogt, 29. Juni 1881 (ZB NL G.
+			Vogt 5.19)-->.</com>
 					Die Aktienkurse der Nordostbahn erholten sich in den 1880er Jahren nur langsam;
 					erst 1888 – nachdem wieder eine Dividende auf die Stammaktien ausgezahlt wurde –
-					kletterte der Kurs der Stammaktien auf dem Platz <pb n="40"/><idx type="place" norm="Zürich (Stadt)">Zürich</idx> wieder über pari und erreichte einen
+					kletterte der Kurs der Stammaktien auf dem Platz <pb n="40"/>
+                        <placeName key="Zürich (Stadt)">Zürich</placeName> wieder über pari und erreichte einen
 					Höchstwert für dieses Jahr von 527 Franken, nachdem sie zehn Jahre zuvor für
-					weniger als 50 Franken gehandelt worden waren.<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p11"><!--S. 35--></ref><com id="Eisenbahngesellschaften_in_der_Krise_c61"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr>
+					weniger als 50 Franken gehandelt worden waren.<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p11"><!--S. 35--></ref>
+                        <com xml:id="Eisenbahngesellschaften_in_der_Krise_c61">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						274.</com> </p>
 
-				<p id="Eisenbahngesellschaften_in_der_Krise_p20">In politischer Hinsicht kann um 1880, als die Bahngesellschaften die
+				<p xml:id="Eisenbahngesellschaften_in_der_Krise_p20">In politischer Hinsicht kann um 1880, als die Bahngesellschaften die
 					bedrohlichsten Momente der Krise überwunden hatten, ein vorläufiger Sieg des
-					Privatbahn- über das Staatsbahnprinzip konstatiert werden.<com id="Eisenbahngesellschaften_in_der_Krise_c62"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Baumann, Krisenbewältigung</ref>, <abbr norm="Seite(n)">S.</abbr> 33.</com> Gerade die stark von der Krise betroffenen privaten
+					Privatbahn- über das Staatsbahnprinzip konstatiert werden.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c62">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Baumann, Krisenbewältigung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 33.</com> Gerade die stark von der Krise betroffenen privaten
 					Bahngesellschaften hatten ihre Weiterexistenz wesentlich aus eigener Kraft
 					beziehungsweise dank der Finanzierung mit Privatkapital gesichert, zum Beispiel
 					die Nordostbahn mit der Finanzierung durch die Schweizerische Eisenbahnbank.<ref type="sum" target="Rekonstruktion_Nordostbahn_p12"><!--S. 49--></ref> 1883 musste der Bund
@@ -799,14 +1570,43 @@
 					über das Rechnungswesen wurde im Dezember 1883 erlassen; die
 					Bilanzbereinigungen, zu denen die Eisenbahngesellschaften dadurch gezwungen
 					waren, resultierten bei den sechs grossen Bahnen per Ende 1884 in einem
-					Abschreibungsbetrag von zusammen rund 112 <abbr norm="Million(en)">Mio.</abbr>
+					Abschreibungsbetrag von zusammen rund 112 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice>
 					Franken. Der Bauwert der Gesellschaften und damit zusammenhängend die für den
 					Kauf durch den Bund aufzubringende Geldsumme (welche sich aus dem Reinertrag und
-					den Anlagekosten ergab) waren somit stark gesunken.<com id="Eisenbahngesellschaften_in_der_Krise_c63"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10011782"><ref type="lit">Botschaft BR Rückkauf 1883</ref> </ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10012157">Bundesgesetz über das Rechnungswesen der Eisenbahngesellschaften (vom 21. Dezember 1883), in: <ref type="lit">BBl</ref> 1883 IV, S. 1019–1023</ref>; <ref type="lit">Meyrat, Repertorium II</ref>, <abbr norm="Seite(n)">S.</abbr> 167, 172, 177; <ref type="lit">Haller, Hundert
-							Jahre</ref>, <abbr norm="Seite(n)">S.</abbr> 36–40; <ref type="lit">Herold, Bund und Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr>
-						108–123; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <abbr norm="Seite(n)">S.</abbr> 79; <ref type="lit">Kessler,
-						Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 176–185; <ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 121–123; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 408. –
+					den Anlagekosten ergab) waren somit stark gesunken.<com xml:id="Eisenbahngesellschaften_in_der_Krise_c63">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10011782">
+                                <ref type="lit">Botschaft BR Rückkauf 1883</ref> </ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10012157">Bundesgesetz über das Rechnungswesen der Eisenbahngesellschaften (vom 21. Dezember 1883), in: <ref type="lit">BBl</ref> 1883 IV, S. 1019–1023</ref>; <ref type="lit">Meyrat, Repertorium II</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 167, 172, 177; <ref type="lit">Haller, Hundert
+							Jahre</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 36–40; <ref type="lit">Herold, Bund und Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						108–123; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 79; <ref type="lit">Kessler,
+						Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 176–185; <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 121–123; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 408. –
 						Kern des Gesetzes über das Rechnungswesen war, dass nur jene Kosten in die
 						Aktiven der Bilanz einer Gesellschaft aufgenommen werden durften, die für
 						den Bau oder den Erwerb der Bahn und die Beschaffung des Betriebsmaterials
@@ -815,12 +1615,16 @@
 						bestehenden Anlagen darstellten. Unterhalt und Ersatz der Bahnanlagen
 						mussten aus den Einnahmen oder aus speziellen Fonds bestritten werden. Zudem
 						mussten die Jahresrechnungen und Bilanzen dem Bundesrat vorgelegt werden,
-						bevor sie vor die Generalversammlung gelangten. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10012157">Bundesgesetz über das Rechnungswesen der Eisenbahngesellschaften (vom 21. Dezember 1883), in: <ref type="lit">BBl</ref> 1883 IV, S. 1019–1023</ref>.</com> Auch wenn der Bund bis dahin noch keine
+						bevor sie vor die Generalversammlung gelangten. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10012157">Bundesgesetz über das Rechnungswesen der Eisenbahngesellschaften (vom 21. Dezember 1883), in: <ref type="lit">BBl</ref> 1883 IV, S. 1019–1023</ref>.</com> Auch wenn der Bund bis dahin noch keine
 					Bahngesellschaft übernommen hatte, hatten die Verstaatlichungsbemühungen auf der
 					politischen Ebene doch Fortschritte gemacht, die als Folge der Krise der
 					Eisenbahngesellschaften verstanden werden können.</p>
 			</div>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>

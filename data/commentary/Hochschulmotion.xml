@@ -1,55 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Hochschulmotion" name="Hochschulmotion">
-  <metadata>
-    <title>Die Hochschulmotion von Regierungsrat Bürgi: Alfred Eschers erstes öffentliches
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hochschulmotion">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Die Hochschulmotion von Regierungsrat Bürgi: Alfred Eschers erstes öffentliches
 			Hervortreten (1839)</title>
-    <author>
-    	<name>Bruno Fischer, unter der Leitung von Prof. Dr. Joseph Jung</name>
+                <author>
+    	Bruno Fischer, unter der Leitung von Prof. Dr. Joseph Jung
     </author>
-    <source>
-      <volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefe aus der Jugend- und
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefe aus der Jugend- und
 				Studentenzeit (1831–1843), bearbeitet und kommentiert von Bruno Fischer (Alfred
 				Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred Escher-Stiftung, Band 2),
-				Zürich 2010</volume_title>
-    	<short_title>Jung/Fischer, Escher Briefe, Band 2</short_title>
-      <volume>2</volume>
-      <page>37–43</page>
-    </source><description>Motion Bürgi – Zürichputsch 1839</description>
-    <revision>
-      <change>XML-Grundstruktur erstellt, BF, 04.02.2011, 05.02.2011</change>
-      <change>Auszeichnung nach DTD-Umstellung, CF, 14.06.2011</change>
-      <change>e-Edition: Auszeichnung 1 umgesetzt, BP, 08.07.2011</change>
-      <change>e-Edition: Verifizierung 1 umgesetzt, TM, 13.07.2011</change>
-      <change>e-Edition: Auszeichnung 2 umgesetzt, BP, 27.07.2011</change>
-      <change>e-Edition: Verizifierung 2 umgesetzt, TM, 27.07.2011</change>
-    </revision>
-  </metadata>
-  <body>
-    <div id="Hochschulmotion_d1">
+				Zürich 2010</title>
+                    <title type="short">Jung/Fischer, Escher Briefe, Band 2</title>
+                    <ref type="volume" target="V2">37–43</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Motion Bürgi – Zürichputsch 1839</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, BF, 04.02.2011, 05.02.2011</change>
+                <change>Auszeichnung nach DTD-Umstellung, CF, 14.06.2011</change>
+                <change>e-Edition: Auszeichnung 1 umgesetzt, BP, 08.07.2011</change>
+                <change>e-Edition: Verifizierung 1 umgesetzt, TM, 13.07.2011</change>
+                <change>e-Edition: Auszeichnung 2 umgesetzt, BP, 27.07.2011</change>
+                <change>e-Edition: Verizifierung 2 umgesetzt, TM, 27.07.2011</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+    <div xml:id="Hochschulmotion_d1">
       <head>
         <pb n="37"/>Die Hochschulmotion von Regierungsrat Bürgi: Alfred Eschers erstes
 				öffentliches Hervortreten (1839)</head>
-      <div id="Hochschulmotion_d1.1">
+      <div xml:id="Hochschulmotion_d1.1">
         <head>Die «Motion Bürgi»</head>
-        <p id="Hochschulmotion_p1">Im April 1839 kehrte Alfred Escher, noch gezeichnet von
-					der in <idx type="place" norm="Berlin (D)">Berlin</idx> überstandenen schweren
-					Augenentzündung, nach zwei Auslandsemestern in <idx type="place" norm="Deutschland">Deutschland</idx> <ref type="letter" target="K_0181"><!--Nr. 31--></ref> <ref type="letter" target="K_0191"><!--Nr. 34--></ref> nach <idx type="place" norm="Zürich (Stadt)">Zürich</idx> zurück, um hier sein Rechtsstudium
-						fortzusetzen.<com id="Hochschulmotion_c1">Eine wichtige Quelle für die folgenden Schilderungen
-						bilden die gedruckten Verhandlungen des <idx type="place" norm="Zürich">Zürcher</idx> Grossen Rates <hi rend="italics">[<ref type="lit">Verhandlungen Grosser Rat ZH</ref>]</hi>. – Einen allgemeinen
+        <p xml:id="Hochschulmotion_p1">Im April 1839 kehrte Alfred Escher, noch gezeichnet von
+					der in <placeName key="Berlin (D)">Berlin</placeName> überstandenen schweren
+					Augenentzündung, nach zwei Auslandsemestern in <placeName key="Deutschland">Deutschland</placeName> <!--Nr. 31--> <!--Nr. 34--> nach <placeName key="Zürich (Stadt)">Zürich</placeName> zurück, um hier sein Rechtsstudium
+						fortzusetzen.<com xml:id="Hochschulmotion_c1">Eine wichtige Quelle für die folgenden Schilderungen
+						bilden die gedruckten Verhandlungen des <placeName key="Zürich">Zürcher</placeName> Grossen Rates <hi rend="italics">[<ref type="lit">Verhandlungen Grosser Rat ZH</ref>]</hi>. – Einen allgemeinen
 						Überblick bieten die bezüglichen Abschnitte in Werken zur schweizerischen
-						und <idx type="place" norm="Zürich">zürcherischen</idx> Geschichte,
-						beispielsweise die <idx type="place" norm="Zürich">Zürcher</idx> Geschichten von Dändliker und Wettstein <hi rend="italics">[<ref type="lit">Dändliker, Zürich</ref> III]</hi>,
+						und <placeName key="Zürich">zürcherischen</placeName> Geschichte,
+						beispielsweise die <placeName key="Zürich">Zürcher</placeName> Geschichten von Dändliker und Wettstein <hi rend="italics">[<ref type="lit">Dändliker, Zürich</ref> III]</hi>,
 						von Largiadèr <hi rend="italics">[<ref type="lit">Largiadèr, Zürich</ref>]</hi> oder Craig <hi rend="italics">[<ref type="lit">Craig, Geld und Geist</ref>]</hi> sowie die Schweizer Geschichte von
-						Dierauer <hi rend="italics">[<ref type="lit">Dierauer, Eidgenossenschaft</ref>]</hi>. – Den Fokus auf die <idx type="place" norm="Zürich (Stadt)">Zürcher</idx> Hochschule <abbr norm="beziehungsweise">bzw.</abbr> die Studenten
+						Dierauer <hi rend="italics">[<ref type="lit">Dierauer, Eidgenossenschaft</ref>]</hi>. – Den Fokus auf die <placeName key="Zürich (Stadt)">Zürcher</placeName> Hochschule <choice>
+                                <abbr>bzw.</abbr>
+                                <expan>beziehungsweise</expan>
+                            </choice> die Studenten
 						richten die Universitätsgeschichte von Gagliardi/Nabholz/Strohl <hi rend="italics">[<ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>]</hi> und Erbs Geschichte der Studentenschaft <hi rend="italics">[<ref type="lit">Erb, Studentenschaft</ref>]</hi>. – Das
 						Augenmerk auf die Haltung Eschers und seiner Freunde richtet die
-						Escher-Biographie von Jung <hi rend="italics">[<ref type="lit">Jung, Aufbruch</ref>]</hi>.</com> Die Schweizer Studenten in <idx type="place" norm="Berlin (D)">Berlin</idx> waren über das Geschehen in
+						Escher-Biographie von Jung <hi rend="italics">[<ref type="lit">Jung, Aufbruch</ref>]</hi>.</com> Die Schweizer Studenten in <placeName key="Berlin (D)">Berlin</placeName> waren über das Geschehen in
 					ihrer Heimat stets informiert gewesen, und so hatte Escher eine gute Vorstellung
 					von der Situation, die er bei seiner Rückkehr antreffen würde: Die Existenz der
-						<idx type="place" norm="Zürich (Stadt)">Zürcher</idx> Universität war bedroht. In
-					der Sitzung des <idx type="place" norm="Zürich">Zürcher</idx> Grossen Rates vom
-						<d norm="18.03.1839">18. März 1839</d> hatte Regierungsrat <idx type="person" norm="Bürgi David">David Bürgi</idx> eine Motion eingebracht,
+						<placeName key="Zürich (Stadt)">Zürcher</placeName> Universität war bedroht. In
+					der Sitzung des <placeName key="Zürich">Zürcher</placeName> Grossen Rates vom
+						<date when="1839-03-18">18. März 1839</date> hatte Regierungsrat <persName key="Bürgi David">David Bürgi</persName> eine Motion eingebracht,
 					in der er die Aufhebung der sechs Jahre zuvor gegründeten Universität forderte.
 					Als Gründe nannte die Motion, «1) daß die Hochschule nicht diejenigen
 					erfreulichen Resultate geleistet hat, die man sich bei ihrer Gründung von ihr
@@ -58,165 +78,267 @@
 					ausdrücklich garantirt wird, und durch die Ereignisse der jüngsten Zeit diese
 					Grundlage zerstört ist, mithin es sich nicht denken läßt, daß die Hochschule
 					unter diesen Umständen die gehörige Wirksamkeit haben könne; 3) daß zur
-					Beseitigung der Wahl von Herrn <abbr norm="Doktor / Doctor">Dr.</abbr> <idx type="person" norm="Strauss David Friedrich">Strauß</idx> zum Professor der
+					Beseitigung der Wahl von Herrn <choice>
+                            <abbr>Dr.</abbr>
+                            <expan>Doktor / Doctor</expan>
+                        </choice> <persName key="Strauss David Friedrich">Strauß</persName> zum Professor der
 					Theologie die Aufhebung der Hochschule das einzige verfassungs- und gesetzmäßige
-					Mittel ist».<com id="Hochschulmotion_c2"><ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 19. März 1839 (<abbr norm="Seite(n)">S.</abbr> 6).</com> In seiner
-					mündlichen Ausführung bemängelte <idx type="person" norm="Bürgi David">Bürgi</idx> ausdrücklich, dass die Universität eine wesentliche in sie
+					Mittel ist».<com xml:id="Hochschulmotion_c2">
+                            <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 19. März 1839 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 6).</com> In seiner
+					mündlichen Ausführung bemängelte <persName key="Bürgi David">Bürgi</persName> ausdrücklich, dass die Universität eine wesentliche in sie
 					gesetzte Hoffnung, die Hebung und Verbreitung des «Nationalitätssinnes», nicht
 					erfüllt habe. Vor allem aber versuchte er darzulegen, dass die
 					wissenschaftlichen Leistungen der Universität in keinem Verhältnis zu den
-					finanziellen Aufwendungen des Staates stünden.<com id="Hochschulmotion_c3"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 19. März 1839 (<abbr norm="Seite(n)">S.</abbr> 13–14).</com> </p>
-        <p id="Hochschulmotion_p2">Anlass für <idx type="person" norm="Bürgi David">Bürgis</idx> Schritt war die Kontroverse um die Berufung des liberalen,
-					rationalistischen <idx type="place" norm="Württemberg (Königreich)">Württemberger</idx> Theologen <idx type="person" norm="Strauss David Friedrich">David Friedrich Strauss</idx> auf den
-					Lehrstuhl für Dogmatik an der Universität <idx type="place" norm="Zürich (Stadt)">Zürich</idx>.<com id="Hochschulmotion_c4">Zum sogenannten <idx type="person" norm="Strauss David Friedrich">Straussen</idx>handel <abbr norm="vergleiche">vgl.</abbr> die Ausführungen bei <ref type="lit">Jung, Aufbruch</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 158–160; <ref type="lit">Hildebrandt, Straussenhandel</ref>; <ref type="lit">Zurlinden, Bilder Zürich</ref> I,
-							<abbr norm="Seite(n)">S.</abbr> 147–171.</com> <idx type="person" norm="Strauss David Friedrich">Strauss</idx> hatte 1835 durch
+					finanziellen Aufwendungen des Staates stünden.<com xml:id="Hochschulmotion_c3">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 19. März 1839 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 13–14).</com> </p>
+        <p xml:id="Hochschulmotion_p2">Anlass für <persName key="Bürgi David">Bürgis</persName> Schritt war die Kontroverse um die Berufung des liberalen,
+					rationalistischen <placeName key="Württemberg (Königreich)">Württemberger</placeName> Theologen <persName key="Strauss David Friedrich">David Friedrich Strauss</persName> auf den
+					Lehrstuhl für Dogmatik an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName>.<com xml:id="Hochschulmotion_c4">Zum sogenannten <persName key="Strauss David Friedrich">Straussen</persName>handel <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> die Ausführungen bei <ref type="lit">Jung, Aufbruch</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 158–160; <ref type="lit">Hildebrandt, Straussenhandel</ref>; <ref type="lit">Zurlinden, Bilder Zürich</ref> I,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 147–171.</com> <persName key="Strauss David Friedrich">Strauss</persName> hatte 1835 durch
 					die Publikation der Schrift «Das Leben Jesu kritisch bearbeitet» Bekanntheit
-					erlangt. Darin «kritisiert er die Evangelien <abbr norm="beziehungsweise">bzw.</abbr> die Dogmen, die er von allem
-					Mystischen, Supranaturalen und allem Wunderglauben reinigen will, um <idx type="person" norm="Jesus Christus">Christus</idx>
+					erlangt. Darin «kritisiert er die Evangelien <choice>
+                            <abbr>bzw.</abbr>
+                            <expan>beziehungsweise</expan>
+                        </choice> die Dogmen, die er von allem
+					Mystischen, Supranaturalen und allem Wunderglauben reinigen will, um <persName key="Jesus Christus">Christus</persName>
 					rein menschlich und das Christentum als Idee der Gottmenschheit
-							aufzufassen».<com id="Hochschulmotion_c5"><ref type="lit">Eisler, Philosophen-Lexikon</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 727.</com> </p>
-        <p id="Hochschulmotion_p3">Bereits 1836, nachdem <idx type="person" norm="Rettig Heinrich Christian Michael">Heinrich Christian Michael
-						Rettig</idx>, Professor für Neues Testament, Kirchengeschichte und Dogmatik
-					an der Universität <idx type="place" norm="Zürich (Stadt)">Zürich</idx>,
-					gestorben war<ref type="letter" target="K_0130"><!--Nr. 11--></ref>, wurde <idx type="person" norm="Strauss David Friedrich">Strauss</idx> als Dozent ins Gespräch gebracht. Als 1838 <idx type="person" norm="Rettig Heinrich Christian Michael">Rettigs</idx> Nachfolger <idx type="person" norm="Elwert Eduard">Eduard Elwert</idx> nach <idx type="place" norm="Deutschland">Deutschland</idx> zurückkehrte, wurde der
-					Gedanke wieder aufgegriffen<ref type="letter" target="K_0167"><!--Nr. 26--></ref> und stiess diesmal im Erziehungsrat auf mehr
+							aufzufassen».<com xml:id="Hochschulmotion_c5">
+                            <ref type="lit">Eisler, Philosophen-Lexikon</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 727.</com> </p>
+        <p xml:id="Hochschulmotion_p3">Bereits 1836, nachdem <persName key="Rettig Heinrich Christian Michael">Heinrich Christian Michael
+						Rettig</persName>, Professor für Neues Testament, Kirchengeschichte und Dogmatik
+					an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName>,
+					gestorben war<!--Nr. 11-->, wurde <persName key="Strauss David Friedrich">Strauss</persName> als Dozent ins Gespräch gebracht. Als 1838 <persName key="Rettig Heinrich Christian Michael">Rettigs</persName> Nachfolger <persName key="Elwert Eduard">Eduard Elwert</persName> nach <placeName key="Deutschland">Deutschland</placeName> zurückkehrte, wurde der
+					Gedanke wieder aufgegriffen<!--Nr. 26--> und stiess diesmal im Erziehungsrat auf mehr
 					Unterstützung. Obwohl sich die theologische Fakultät in einem Gutachten nahezu
-					einhellig gegen <idx type="person" norm="Strauss David Friedrich">Strauss</idx>
-					aussprach, berief ihn der Erziehungsrat am <d norm="26.01.1839">26. Januar
-						1839</d> durch Stichentscheid seines Präsidenten, Bürgermeister <idx type="person" norm="Hirzel Conrad Melchior">Conrad Melchior Hirzel</idx>,
-					auf den Lehrstuhl für Dogmatik an die Universität <idx type="place" norm="Zürich (Stadt)">Zürich</idx>. Ende Januar brachte Antistes <idx type="person" norm="Füssli Johann Jakob">Johann Jakob Füssli</idx> eine
+					einhellig gegen <persName key="Strauss David Friedrich">Strauss</persName>
+					aussprach, berief ihn der Erziehungsrat am <date when="1839-01-26">26. Januar
+						1839</date> durch Stichentscheid seines Präsidenten, Bürgermeister <persName key="Hirzel Conrad Melchior">Conrad Melchior Hirzel</persName>,
+					auf den Lehrstuhl für Dogmatik an die Universität <placeName key="Zürich (Stadt)">Zürich</placeName>. Ende Januar brachte Antistes <persName key="Füssli Johann Jakob">Johann Jakob Füssli</persName> eine
 					Motion vor den Grossen Rat, die einen Einfluss des Kirchenrates auf die
 					Besetzung der Lehrstühle der theologischen Fakultät forderte und damit auf die
-					Berufung von <idx type="person" norm="Strauss David Friedrich">Strauss</idx>
+					Berufung von <persName key="Strauss David Friedrich">Strauss</persName>
 					zielte. Unverhohlen erklärten die Radikal-Liberalen in der Diskussion, dass man
-					mit der Berufung von <idx type="person" norm="Strauss David Friedrich">Strauss</idx> auf eine Reform der Kirche abziele, die diese selbst nicht zu
-        	leisten imstande sei, während Theologieprofessor <ref type="kbp"/><idx type="person" norm="Schweizer Alexander">Alexander Schweizer</idx> für die
+					mit der Berufung von <persName key="Strauss David Friedrich">Strauss</persName> auf eine Reform der Kirche abziele, die diese selbst nicht zu
+        	leisten imstande sei, während Theologieprofessor <persName key="Schweizer Alexander">Alexander Schweizer</persName> für die
 					Gegenseite darauf hinwies, dass eine solche Reform einzig von der Kirche, nicht
 					aber von einer Staatsbehörde ausgehen könne. Die Motion wurde mit 98 gegen 49
-					Stimmen für unerheblich erklärt und somit die Berufung von <pb n="38"/><idx type="person" norm="Strauss David Friedrich">Strauss</idx> indirekt
-							gebilligt.<com id="Hochschulmotion_c6"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 31. Januar 1839.</com> Am <d norm="02.02.1839">2.
-						Februar</d> bestätigte der Regierungsrat mit deutlicher Mehrheit die
+					Stimmen für unerheblich erklärt und somit die Berufung von <pb n="38"/>
+                        <persName key="Strauss David Friedrich">Strauss</persName> indirekt
+							gebilligt.<com xml:id="Hochschulmotion_c6">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 31. Januar 1839.</com> Am <date when="1839-02-02">2.
+						Februar</date> bestätigte der Regierungsrat mit deutlicher Mehrheit die
 					Berufung.</p>
-        <p id="Hochschulmotion_p4">Bei den Schweizer Studenten im Ausland hatte diese
+        <p xml:id="Hochschulmotion_p4">Bei den Schweizer Studenten im Ausland hatte diese
 					Berufungsfrage hohe Wellen geworfen. Escher war ein überzeugter Anhänger seines
-					Vetters <ref type="kbp"/><idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Friedrich
-						Ludwig Keller</idx>, führender Kopf der radikal-liberalen Partei, und ein
-					energischer Verfechter von dessen Politik. Zur Zeit der Debatte um <idx type="person" norm="Strauss David Friedrich">Strauss</idx>, im
+					Vetters <persName key="Keller (vom Steinbock) Friedrich Ludwig">Friedrich
+						Ludwig Keller</persName>, führender Kopf der radikal-liberalen Partei, und ein
+					energischer Verfechter von dessen Politik. Zur Zeit der Debatte um <persName key="Strauss David Friedrich">Strauss</persName>, im
 					Wintersemester 1838/39, hatte sich Escher gemeinsam einerseits mit ebenfalls
-					liberal gesinnten Studenten wie <ref type="kbp"/><idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumer</idx>,
-        	andererseits mit konservativ eingestellten Studienkollegen wie <ref type="kbp"/><idx type="person" norm="Escher (vom Glas) Jakob">Jakob Escher</idx> oder <ref type="kbp"/><idx type="person" norm="Wyss Friedrich von">Friedrich von Wyss</idx> in <idx type="place" norm="Berlin (D)">Berlin</idx> aufgehalten. Die heftigen
-					Diskussionen über die <idx type="place" norm="Zürich (Stadt)">Zürcher</idx>
+					liberal gesinnten Studenten wie <persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName>,
+        	andererseits mit konservativ eingestellten Studienkollegen wie <persName key="Escher (vom Glas) Jakob">Jakob Escher</persName> oder <persName key="Wyss Friedrich von">Friedrich von Wyss</persName> in <placeName key="Berlin (D)">Berlin</placeName> aufgehalten. Die heftigen
+					Diskussionen über die <placeName key="Zürich (Stadt)">Zürcher</placeName>
 					Vorgänge rissen einen tiefen Graben zwischen die beiden
-							Lager.<com id="Hochschulmotion_c7"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Wyss, Erinnerungen</ref>, <abbr norm="Seite(n)">S.</abbr> 92; <ref type="lit">Jung, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 118–119.</com> </p>
-        <p id="Hochschulmotion_p5">Im Kanton <idx type="place" norm="Zürich">Zürich</idx>
-					zeigte sich rasch, dass die Berufung von <idx type="person" norm="Strauss David Friedrich">Strauss</idx> bei grossen Teilen der
+							Lager.<com xml:id="Hochschulmotion_c7">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Wyss, Erinnerungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 92; <ref type="lit">Jung, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 118–119.</com> </p>
+        <p xml:id="Hochschulmotion_p5">Im Kanton <placeName key="Zürich">Zürich</placeName>
+					zeigte sich rasch, dass die Berufung von <persName key="Strauss David Friedrich">Strauss</persName> bei grossen Teilen der
 					Kantonsbevölkerung, die den alten, traditionellen Glauben in Gefahr sahen, auf
 					Unverständnis und Ablehnung stiess. Aus Vereinen, die in vielen Gemeinden und
 					Bezirken gebildet wurden, ging ein 22köpfiges Zentralkomitee hervor (von den
-					Gegnern meist Glaubenskomitee genannt), an dessen Spitze <idx type="person" norm="Hürlimann-Landis Johann Jakob">Johann Jakob Hürlimann-Landis</idx> als
-					Präsident und <idx type="person" norm="Rahn-Escher Hans Konrad">Hans Konrad
-						Rahn-Escher</idx> als Vizepräsident standen. Die Hauptforderung des Komitees
-					war: «<idx type="person" norm="Strauss David Friedrich">Strauss</idx> darf und
-					soll nicht kommen!»<com id="Hochschulmotion_c8"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Dändliker, Zürich</ref> III, <abbr norm="Seite(n)">S.</abbr>
+					Gegnern meist Glaubenskomitee genannt), an dessen Spitze <persName key="Hürlimann-Landis Johann Jakob">Johann Jakob Hürlimann-Landis</persName> als
+					Präsident und <persName key="Rahn-Escher Hans Konrad">Hans Konrad
+						Rahn-Escher</persName> als Vizepräsident standen. Die Hauptforderung des Komitees
+					war: «<persName key="Strauss David Friedrich">Strauss</persName> darf und
+					soll nicht kommen!»<com xml:id="Hochschulmotion_c8">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Dändliker, Zürich</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						312.</com> Der Regierungsrat, aufgeschreckt durch die heftige Gegenbewegung,
-					ersuchte den Erziehungsrat, eine Pensionierung von <idx type="person" norm="Strauss David Friedrich">Strauss</idx> noch vor seinem Amtsantritt zu
+					ersuchte den Erziehungsrat, eine Pensionierung von <persName key="Strauss David Friedrich">Strauss</persName> noch vor seinem Amtsantritt zu
 					prüfen. Das Glaubenskomitee seinerseits initiierte eine Petition, die in den
 					Kirchgemeindeversammlungen von 39000 Kantonsbürgern angenommen und lediglich von
-					1000 verworfen wurde. Darin wurde nicht nur die Entfernung von <idx type="person" norm="Strauss David Friedrich">Strauss</idx> und seine
+					1000 verworfen wurde. Darin wurde nicht nur die Entfernung von <persName key="Strauss David Friedrich">Strauss</persName> und seine
 					Ersetzung durch einen «Mann von entschiedenem, evangelisch-christlichem Glauben»
 					gefordert, sondern auch die Bildung einer Kirchensynode, Prüfung der Wahlen von
 					Theologieprofessoren durch den Kirchenrat, Einsitz von Mitgliedern der
 					Kirchensynode im Erziehungsrat, stärkere Betonung der religiösen Richtung im
 					gesamten Schulwesen und Totalrevision des Gesetzes über das Lehrerseminar mit
 					dem Zweck, «daß auch hier die Religion die Grundlage des Unterrichtes
-							bilde».<com id="Hochschulmotion_c9"><ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 18. März 1839 (<abbr norm="Seite(n)">S.</abbr> 3–4).</com> Auf
-					Ersuchen des Regierungsrates sowie mehrerer Grossräte berief Präsident <idx type="person" norm="Furrer Jonas">Jonas Furrer</idx> auf den <d norm="18.03.1839">18. März</d> eine ausserordentliche Sitzung des Grossen
-					Rates ein. Nach langwieriger Diskussion beschloss dieser am <d norm="19.03.1839">19. März</d> mit 149 gegen 38 Stimmen, den Antrag auf Pensionierung von
-						<idx type="person" norm="Strauss David Friedrich">Strauss</idx>
-							anzunehmen.<com id="Hochschulmotion_c10"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 18. März 1839, 19. März
-							1839 (<abbr norm="Seite(n)">S.</abbr> 1–12).</com> </p>
-        <p id="Hochschulmotion_p6">In dieser Situation also hatte <idx type="person" norm="Bürgi David">Bürgi</idx> seine Motion eingereicht. Diese wurde in der
-					Sitzung des Grossen Rates vom <d norm="19.03.1839">19. März</d> nach hitziger
+							bilde».<com xml:id="Hochschulmotion_c9">
+                            <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 18. März 1839 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 3–4).</com> Auf
+					Ersuchen des Regierungsrates sowie mehrerer Grossräte berief Präsident <persName key="Furrer Jonas">Jonas Furrer</persName> auf den <date when="1839-03-18">18. März</date> eine ausserordentliche Sitzung des Grossen
+					Rates ein. Nach langwieriger Diskussion beschloss dieser am <date when="1839-03-19">19. März</date> mit 149 gegen 38 Stimmen, den Antrag auf Pensionierung von
+						<persName key="Strauss David Friedrich">Strauss</persName>
+							anzunehmen.<com xml:id="Hochschulmotion_c10">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 18. März 1839, 19. März
+							1839 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 1–12).</com> </p>
+        <p xml:id="Hochschulmotion_p6">In dieser Situation also hatte <persName key="Bürgi David">Bürgi</persName> seine Motion eingereicht. Diese wurde in der
+					Sitzung des Grossen Rates vom <date when="1839-03-19">19. März</date> nach hitziger
 					Debatte mit 122 gegen 52 Stimmen erheblich erklärt und eine neunköpfige
-					Kommission unter dem Präsidium <idx type="person" norm="Furrer Jonas">Furrers</idx> eingesetzt. Diese sollte untersuchen, ob die Leistungen der
+					Kommission unter dem Präsidium <persName key="Furrer Jonas">Furrers</persName> eingesetzt. Diese sollte untersuchen, ob die Leistungen der
 					Universität den Bedürfnissen und dem ökonomischen Aufwand entsprächen, ob
 					aufgrund dieser Untersuchung die Universität aufzuheben oder weiterzuführen sei
 					und ob allenfalls Veränderungen bei der Kantonsschule vorzunehmen wären.
-					Mitglieder neben <idx type="person" norm="Furrer Jonas">Furrer</idx> waren die
-					Regierungsräte <idx type="person" norm="Bürgi David">Bürgi</idx>, <idx type="person" norm="Weiss Heinrich">Heinrich Weiss</idx> und <idx type="person" norm="Sulzer Eduard">Eduard Sulzer</idx> sowie die Grossräte
-						<idx type="person" norm="Gujer Heinrich">Heinrich Gujer</idx>, <idx type="person" norm="Sulzer Johann Rudolf">Johann Rudolf Sulzer</idx>, <idx type="person" norm="Billeter Karl">Karl Billeter</idx>, <idx type="person" norm="Meyer Ferdinand">Ferdinand Meyer</idx> und <idx type="person" norm="Wieland Johann Jakob">Johann Jakob
-							Wieland</idx>.<com id="Hochschulmotion_c11"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 19. März 1839 (<abbr norm="Seite(n)">S.</abbr> 18).</com> </p>
-        <p id="Hochschulmotion_p7"><idx type="person" norm="Bürgi David">Bürgis</idx> Motion
-					stiess vielerorts auf Unverständnis. Auch die <idx type="place" norm="Zürich (Stadt)">Zürcher</idx> Studenten waren sich, anders als in der
-					Debatte um <idx type="person" norm="Strauss David Friedrich">Strauss</idx>,
-					einig. So meinte etwa <idx type="person" norm="Escher (vom Glas) Jakob">Jakob
-						Escher</idx> Anfang Mai aus <idx type="place" norm="Berlin (D)">Berlin</idx>: «Mag auch das Centralcomité treiben was es will, so kann ich
+					Mitglieder neben <persName key="Furrer Jonas">Furrer</persName> waren die
+					Regierungsräte <persName key="Bürgi David">Bürgi</persName>, <persName key="Weiss Heinrich">Heinrich Weiss</persName> und <persName key="Sulzer Eduard">Eduard Sulzer</persName> sowie die Grossräte
+						<persName key="Gujer Heinrich">Heinrich Gujer</persName>, <persName key="Sulzer Johann Rudolf">Johann Rudolf Sulzer</persName>, <persName key="Billeter Karl">Karl Billeter</persName>, <persName key="Meyer Ferdinand">Ferdinand Meyer</persName> und <persName key="Wieland Johann Jakob">Johann Jakob
+							Wieland</persName>.<com xml:id="Hochschulmotion_c11">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 19. März 1839 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 18).</com> </p>
+        <p xml:id="Hochschulmotion_p7">
+                        <persName key="Bürgi David">Bürgis</persName> Motion
+					stiess vielerorts auf Unverständnis. Auch die <placeName key="Zürich (Stadt)">Zürcher</placeName> Studenten waren sich, anders als in der
+					Debatte um <persName key="Strauss David Friedrich">Strauss</persName>,
+					einig. So meinte etwa <persName key="Escher (vom Glas) Jakob">Jakob
+						Escher</persName> Anfang Mai aus <placeName key="Berlin (D)">Berlin</placeName>: «Mag auch das Centralcomité treiben was es will, so kann ich
 					nicht einsehen, wie man daraus einen Grund gegen die Hochschule finden
-							kann.»<com id="Hochschulmotion_c12"><ref type="letter" target="K_0189"><!-- Brief Jakob Escher an Escher, 5. Mai 1839
-								(BAR J I.67-8)--></ref>.</com> Alfred Escher lieferte die
-					Erklärung: es handelte sich um einen «politischen Kunstgriff der Radikalen»<ref type="letter" target="K_0191"><!--Nr. 34--></ref>, die
+							kann.»<com xml:id="Hochschulmotion_c12"><!-- Brief Jakob Escher an Escher, 5. Mai 1839
+								(BAR J I.67-8)-->.</com> Alfred Escher lieferte die
+					Erklärung: es handelte sich um einen «politischen Kunstgriff der Radikalen»<!--Nr. 34-->, die
 					aus Sorge um das <pb n="39"/> erneuerte Volksschulwesen die Existenz der
 					Universität mit diesem verknüpfen wollten. Das Interesse der Studenten galt
 					vorrangig dem Erhalt der Universität als Bildungseinrichtung. Sie machten sich
-					aber auch Gedanken über die Auswirkungen auf ihre jeweiligen Studienpläne<ref type="letter" target="K_0198"><!--Nr. 35--></ref>. Denn
+					aber auch Gedanken über die Auswirkungen auf ihre jeweiligen Studienpläne<!--Nr. 35-->. Denn
 					sollte auch die Universität gerettet werden, so stellte sich die Frage, ob unter
 					dem Eindruck oder als Folge der Ereignisse die Besetzung der Lehrstühle ändern
 					würde – so befürchteten die Medizinstudenten den Abgang des angesehensten
-					Medizinprofessors der Universität, <idx type="person" norm="Schönlein Johann Lukas">Lukas Schönlein</idx>. Bei den Juristen
+					Medizinprofessors der Universität, <persName key="Schönlein Johann Lukas">Lukas Schönlein</persName>. Bei den Juristen
 					stellte sich die Frage, wie sich die zwei renommiertesten Professoren und
-					zugleich führenden Köpfe der <idx type="place" norm="Zürich">Zürcher</idx> Politik verhalten würden: <idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Keller</idx>,
+					zugleich führenden Köpfe der <placeName key="Zürich">Zürcher</placeName> Politik verhalten würden: <persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName>,
 					das Haupt der radikal-liberalen Partei, und der nach dem Umsturz vom September
-					1839 neu in die Regierung tretende (liberal-)konservative <idx type="person" norm="Bluntschli Johann Caspar">Johann Caspar
-							Bluntschli</idx> <ref type="letter" target="K_0205"><!--Nr. 39--></ref><com id="Hochschulmotion_c13"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_0189"><!-- Brief Jakob Escher an Escher, 5. Mai 1839
-								(BAR J I.67-8) --></ref>; <ref type="letter" target="K_0190"><!-- Brief Johann
-							Jakob Blumer an Escher, 26. Mai 1839 (BAR J I.67-8) --></ref>;
-							<ref type="letter" target="K_0192"><!-- Brief Carl Rudolf Sinz an Escher, 2. Juni 1839
-								(BAR J I.67-8) --></ref>; <ref type="letter" target="K_0193"><!-- Brief Johann
-							Jakob Blumer an Escher, 17. Juni 1839 (BAR J I.67-8) --></ref>;
-							<ref type="letter" target="K_0196"><!-- Brief Jakob Escher an Escher, 2. Juli 1839
-								(BAR J I.67-8) --></ref>.</com>. </p>
-        <p id="Hochschulmotion_p8">Angesichts der Bedrohung ihrer Lehranstalt wurden die
-					Studenten aktiv. Bereits auf die Grossratssitzung vom <d norm="18.03.1839">18.
-						März</d> hin hatte die Studentenschaft der Universität <idx type="place" norm="Zürich (Stadt)">Zürich</idx> eine von 111 Studierenden unterzeichnete
+					1839 neu in die Regierung tretende (liberal-)konservative <persName key="Bluntschli Johann Caspar">Johann Caspar
+							Bluntschli</persName> <!--Nr. 39-->
+                        <com xml:id="Hochschulmotion_c13">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <!-- Brief Jakob Escher an Escher, 5. Mai 1839
+								(BAR J I.67-8) -->; <!-- Brief Johann
+							Jakob Blumer an Escher, 26. Mai 1839 (BAR J I.67-8) -->;
+							<!-- Brief Carl Rudolf Sinz an Escher, 2. Juni 1839
+								(BAR J I.67-8) -->; <!-- Brief Johann
+							Jakob Blumer an Escher, 17. Juni 1839 (BAR J I.67-8) -->;
+							<!-- Brief Jakob Escher an Escher, 2. Juli 1839
+								(BAR J I.67-8) -->.</com>. </p>
+        <p xml:id="Hochschulmotion_p8">Angesichts der Bedrohung ihrer Lehranstalt wurden die
+					Studenten aktiv. Bereits auf die Grossratssitzung vom <date when="1839-03-18">18.
+						März</date> hin hatte die Studentenschaft der Universität <placeName key="Zürich (Stadt)">Zürich</placeName> eine von 111 Studierenden unterzeichnete
 					Adresse an den Grossen Rat gerichtet. Sie ersuchte darin um Erhaltung der
 					Universität unter Garantierung der Lehrfreiheit und unterstützte deshalb den
 					Antrag des Erziehungsrates auf Schaffung einer zweiten Professur für Dogmatik
-					neben <idx type="person" norm="Strauss David Friedrich">Strauss</idx>. Zugleich
+					neben <persName key="Strauss David Friedrich">Strauss</persName>. Zugleich
 					sprach sie sich dafür aus, im Falle der Aufhebung der Universität einen Teil der
 					Mittel zur Stiftung einer gesamteidgenössischen Hochschule zu
-							verwenden.<com id="Hochschulmotion_c14"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 18. März 1839 (<abbr norm="Seite(n)">S.</abbr> 5); <ref type="lit">Erb, Studentenschaft</ref>, <abbr norm="Seite(n)">S.</abbr> 41–43.</com> Nachdem die
+							verwenden.<com xml:id="Hochschulmotion_c14">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 18. März 1839 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 5); <ref type="lit">Erb, Studentenschaft</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 41–43.</com> Nachdem die
 					Motion trotz allem erheblich erklärt worden war, ergriff Escher die Initiative
 					und betätigte sich damit erstmals über den begrenzten Kreis des Zofingervereins
-					hinaus politisch aktiv. Gemeinsam mit <idx type="person" norm="Brändli Benjamin">Benjamin Brändli</idx> verfasste Escher im Namen der an der Universität
-					studierenden <idx type="place" norm="Zürich">Zürcher</idx> Kantonsbürger zur
+					hinaus politisch aktiv. Gemeinsam mit <persName key="Brändli Benjamin">Benjamin Brändli</persName> verfasste Escher im Namen der an der Universität
+					studierenden <placeName key="Zürich">Zürcher</placeName> Kantonsbürger zur
 					Verteidigung der Anstalt eine Broschüre, in der die beiden die Leistungen der
 					Universität ins Licht rückten und für die ungeschmälerte Erhaltung der
 					Universität plädierten. Eine Abschrift ihrer Arbeit stellten sie der Kommission
-					zu, und Escher meinte denn auch, Elemente der Broschüre im Votum <idx type="person" norm="Furrer Jonas">Furrers</idx> an der Kommissionssitzung
-					wiederzuerkennen<ref type="letter" target="K_0191"><!--Nr. 34--></ref>. Unter dem Titel «Die <idx type="place" norm="Zürich (Stadt)">Zürcherische</idx> Hochschule nach den Ansichten der an ihr studirenden
-						<idx type="place" norm="Zürich">Zürcherischen</idx> Kantonsbürger» erschien
+					zu, und Escher meinte denn auch, Elemente der Broschüre im Votum <persName key="Furrer Jonas">Furrers</persName> an der Kommissionssitzung
+					wiederzuerkennen<!--Nr. 34-->. Unter dem Titel «Die <placeName key="Zürich (Stadt)">Zürcherische</placeName> Hochschule nach den Ansichten der an ihr studirenden
+						<placeName key="Zürich">Zürcherischen</placeName> Kantonsbürger» erschien
 					die 28 Seiten starke Broschüre im Laufe des Jahres im
-							Druck.<com id="Hochschulmotion_c15"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Die Zürcherische Hochschule</ref>.</com> Mit einem Rückblick
-					auf ältere wissenschaftliche Anstalten legten Escher und <idx type="person" norm="Brändli Benjamin">Brändli</idx> die «Irrigkeit der Ansicht» dar, dass
+							Druck.<com xml:id="Hochschulmotion_c15">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Die Zürcherische Hochschule</ref>.</com> Mit einem Rückblick
+					auf ältere wissenschaftliche Anstalten legten Escher und <persName key="Brändli Benjamin">Brändli</persName> die «Irrigkeit der Ansicht» dar, dass
 					die Universität «ein willkürliches Produkt der Lieblingsidee Einzelner oder eine
 					durchaus neue Schöpfung jüngster Zeit sei, an deren Stelle früher gar nichts
-					gestanden hätte».<com id="Hochschulmotion_c16"><ref type="lit">Die Zürcherische Hochschule</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 5.</com> Gegen den Vorwurf, die Universität fördere den
+					gestanden hätte».<com xml:id="Hochschulmotion_c16">
+                            <ref type="lit">Die Zürcherische Hochschule</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 5.</com> Gegen den Vorwurf, die Universität fördere den
 					Sinn für «Nationalität» nicht, erwähnten sie für die Seite der Studenten deren
 					Vereinigungen mit ihren vaterländischen Idealen und für die Seite der Lehrer die
-					vorbildliche Behandlung von Themen mit <idx type="place" norm="Zürich">zürcherischem</idx> und schweizerischem Bezug. Daher sei «jener Vorwurf,
+					vorbildliche Behandlung von Themen mit <placeName key="Zürich">zürcherischem</placeName> und schweizerischem Bezug. Daher sei «jener Vorwurf,
 					als würde die Nationalität an unserer Hochschule nicht begünstigt, so weit
-					dieser nämlich einen Sinn hat, zurückzuweisen».<com id="Hochschulmotion_c17"><ref type="lit">Die Zürcherische Hochschule</ref>, <abbr norm="Seite(n)">S.</abbr> 20–21.</com> Gerade die
+					dieser nämlich einen Sinn hat, zurückzuweisen».<com xml:id="Hochschulmotion_c17">
+                            <ref type="lit">Die Zürcherische Hochschule</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 20–21.</com> Gerade die
 					Aufhebung der Universität wäre es, wodurch Gefahren für die schweizerische
 					Nationalität entstünden, da Schweizer zum Studium an ausländischen Universitäten
 					gezwungen würden. In Hinblick auf den finanziellen Aspekt äusserten sie die
 					Erwartung, dass man der Universität, «wenn es nöthig wäre, auch große Opfer zu
 					bringen bereit sei, besonders wenn man für rein materielle Interessen wie Bauten
 					und Straßen, Militärwesen und Anderes so ungeheure Summen verwenden
-							sieht».<com id="Hochschulmotion_c18"><ref type="lit">Die Zürcherische Hochschule</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 21.</com> Sie wiesen ferner nach, dass in manchen
+							sieht».<com xml:id="Hochschulmotion_c18">
+                            <ref type="lit">Die Zürcherische Hochschule</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 21.</com> Sie wiesen ferner nach, dass in manchen
 					Rechnungen der Universität Kosten angelastet wurden, die eigentlich nicht oder
 					nur teilweise auf sie entfielen. Zudem würde der grösste Teil der Ausgaben nicht
 					vom Kanton bestritten; vielmehr seien «die Kosten der Hochschule, die dem Staate
@@ -224,38 +346,74 @@
 					wenn man sie nur noch als Grund gegen eine solche Anstalt, welche die höchsten
 						<pb n="40"/> Interessen des Lebens wahrt, anführen hört, besonders wenn man
 					noch den ökonomischen Nutzen, welchen die Hochschule dem Kantone bringt,
-							bedenkt».<com id="Hochschulmotion_c19"><ref type="lit">Die Zürcherische Hochschule</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 22.</com> </p>
-        <p id="Hochschulmotion_p9">Die vom Grossen Rat bestellte Hochschulkommission trat am
-						<d norm="27.05.1839">27. Mai 1839</d> erstmals zusammen<ref type="letter" target="K_0191"><!--Nr. 34--></ref>. Die Äusserungen der
+							bedenkt».<com xml:id="Hochschulmotion_c19">
+                            <ref type="lit">Die Zürcherische Hochschule</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 22.</com> </p>
+        <p xml:id="Hochschulmotion_p9">Die vom Grossen Rat bestellte Hochschulkommission trat am
+						<date when="1839-05-27">27. Mai 1839</date> erstmals zusammen<!--Nr. 34-->. Die Äusserungen der
 					Mehrzahl der Kommissionsmitglieder liessen schon erahnen, dass die Existenz der
 					Universität nicht ernstlich gefährdet war. Einige Mitglieder sprachen sich von
 					vornherein für unverändertes Beibehalten der Universität aus. Andere bemängelten
 					zwar die verhältnismässig hoch erscheinenden Kosten, sahen aber ein, dass
-					Einsparungsversuche nicht zweckmässig wären.<com id="Hochschulmotion_c20"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 9. Mai 1839; <ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 401–403.</com> Der Grosse Rat behandelte <idx type="person" norm="Bürgi David">Bürgis</idx> Motion am <d norm="27.06.1839">27. Juni</d>. Auf Antrag der Kommission wurde die Motion nach kurzer
-					Diskussion einmütig zurückgewiesen.<com id="Hochschulmotion_c21"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 27. Juni 1839 (<abbr norm="Seite(n)">S.</abbr> 94–96).</com> </p>
+					Einsparungsversuche nicht zweckmässig wären.<com xml:id="Hochschulmotion_c20">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 9. Mai 1839; <ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 401–403.</com> Der Grosse Rat behandelte <persName key="Bürgi David">Bürgis</persName> Motion am <date when="1839-06-27">27. Juni</date>. Auf Antrag der Kommission wurde die Motion nach kurzer
+					Diskussion einmütig zurückgewiesen.<com xml:id="Hochschulmotion_c21">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 27. Juni 1839 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 94–96).</com> </p>
       </div>
-      <div id="Hochschulmotion_d1.2">
+      <div xml:id="Hochschulmotion_d1.2">
         <head>Zürichputsch: Der 6. September 1839</head>
-        <p id="Hochschulmotion_p10">Damit war die Universität gerettet. Die Lage im Kanton
-						<idx type="place" norm="Zürich">Zürich</idx> hingegen blieb angespannt,
+        <p xml:id="Hochschulmotion_p10">Damit war die Universität gerettet. Die Lage im Kanton
+						<placeName key="Zürich">Zürich</placeName> hingegen blieb angespannt,
 					zumal der Grosse Rat in den Sitzungen von März, April und Juni 1839 nicht bereit
-					war, den über die Entfernung von <idx type="person" norm="Strauss David Friedrich">Strauss</idx> hinausgehenden Forderungen des
-					Glaubenskomitees <abbr norm="beziehungsweise">bzw.</abbr> der zahlreichen Petitionen aus den Gemeinden und Bezirken
-					Folge zu leisten. Escher schrieb im April 1839 nach seiner Rückkehr nach <idx type="place" norm="Zürich (Stadt)">Zürich</idx>:
-					«Ich begreife nicht, was diese Menschen, denen es gelungen ist, <idx type="person" norm="Strauss David Friedrich">Strauß</idx> zu verjagen <abbr norm="und">u.</abbr> die
-					Commission zur Untersuchung des Verhältnisses von Kirche <abbr norm="und">u.</abbr> Schule zu veranlaßen
-					[...] jetzt noch wollen.»<ref type="letter" target="K_0186"><!--Nr. 32--></ref> Anfang Mai äusserte <idx type="person" norm="Escher (vom Glas) Jakob">Jakob Escher</idx>, der sich in <idx type="place" norm="Bonn (D)">Bonn</idx> aufhielt, Besorgnis über die
+					war, den über die Entfernung von <persName key="Strauss David Friedrich">Strauss</persName> hinausgehenden Forderungen des
+					Glaubenskomitees <choice>
+                            <abbr>bzw.</abbr>
+                            <expan>beziehungsweise</expan>
+                        </choice> der zahlreichen Petitionen aus den Gemeinden und Bezirken
+					Folge zu leisten. Escher schrieb im April 1839 nach seiner Rückkehr nach <placeName key="Zürich (Stadt)">Zürich</placeName>:
+					«Ich begreife nicht, was diese Menschen, denen es gelungen ist, <persName key="Strauss David Friedrich">Strauß</persName> zu verjagen <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> die
+					Commission zur Untersuchung des Verhältnisses von Kirche <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> Schule zu veranlaßen
+					[...] jetzt noch wollen.»<!--Nr. 32--> Anfang Mai äusserte <persName key="Escher (vom Glas) Jakob">Jakob Escher</persName>, der sich in <placeName key="Bonn (D)">Bonn</placeName> aufhielt, Besorgnis über die
 					weiteren Pläne des Glaubenskomitees: «Was das Centralcomité jetzt noch zu thun
 					beabsichtigt, weiß ich nicht; ich fürchte, was ich auch im Anfang fürchtete, es
 					werde zu weit gehen und mehr unternehmen, als ohne Störung der Ruhe geschehen
-							kann.»<com id="Hochschulmotion_c22"><ref type="letter" target="K_0189"><!-- Brief Jakob Escher an Escher, 5. Mai 1839
-								(BAR J I.67-8) --></ref>.</com> </p>
-        <p id="Hochschulmotion_p11">Es zeigte sich, dass die Gegner der herrschenden
-					radikal-liberalen Partei mehr wollten als nur die Entfernung von <idx type="person" norm="Strauss David Friedrich">Strauss</idx>. Die
+							kann.»<com xml:id="Hochschulmotion_c22"><!-- Brief Jakob Escher an Escher, 5. Mai 1839
+								(BAR J I.67-8) -->.</com> </p>
+        <p xml:id="Hochschulmotion_p11">Es zeigte sich, dass die Gegner der herrschenden
+					radikal-liberalen Partei mehr wollten als nur die Entfernung von <persName key="Strauss David Friedrich">Strauss</persName>. Die
 					Radikal-Liberalen hatten in den 1830er Jahren, der Zeit der
-							Regeneration,<com id="Hochschulmotion_c23">Zur Regenerationszeit im Kanton <idx type="place" norm="Zürich">Zürich</idx> <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Wettstein, Regeneration</ref>; <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <abbr norm="Seite(n)">S.</abbr> 81–116; <ref type="lit">Zurlinden, Bilder Zürich</ref> I, <abbr norm="Seite(n)">S.</abbr>
+							Regeneration,<com xml:id="Hochschulmotion_c23">Zur Regenerationszeit im Kanton <placeName key="Zürich">Zürich</placeName> <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Wettstein, Regeneration</ref>; <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 81–116; <ref type="lit">Zurlinden, Bilder Zürich</ref> I, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						79–144.</com> eine unter wissenschaftlichem Gesichtspunkt ausgezeichnete,
 					umfangreiche Gesetzgebungs- und Verwaltungstätigkeit entfaltet, sich dabei aber
 					immer mehr von den Ansichten und Gefühlen des Volks entfernt. So stand 1839 der
@@ -263,97 +421,181 @@
 					protestantischen Volksgläubigkeit ruhte, eine radikal-elitäre Führungsschicht
 					gegenüber, die dem aufklärerischen Liberalismus anhing. Diese landschaftliche
 					Opposition hatte ihre Macht erkannt und kämpfte nun um genügende Garantien für
-					den christlichen Glauben in Kirche und Schule. Der «<idx type="person" norm="Strauss David Friedrich">Straussen</idx>handel» und die daraus
+					den christlichen Glauben in Kirche und Schule. Der «<persName key="Strauss David Friedrich">Straussen</persName>handel» und die daraus
 					resultierende Aufregung boten nun den Konservativen in der Stadt eine
 					willkommene Gelegenheit, gegen die Radikal-Liberalen vorzugehen und einen
-					politischen Umschwung zu ihren Gunsten herbeizuführen.<com id="Hochschulmotion_c24"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 156–157; <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <abbr norm="Seite(n)">S.</abbr>
+					politischen Umschwung zu ihren Gunsten herbeizuführen.<com xml:id="Hochschulmotion_c24">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 156–157; <ref type="lit">Schmid, Zürcher Kantonsregierung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						117–118.</com> </p>
-        <p id="Hochschulmotion_p12">Regierung und Grosser Rat kamen den Forderungen der
+        <p xml:id="Hochschulmotion_p12">Regierung und Grosser Rat kamen den Forderungen der
 					Bewegung nicht nach, sondern schickten sich vielmehr an – nach Ansicht der
 					Opposition unter Missachtung der selbst eingeführten Versammlungs- und
 					Pressefreiheit –, gegen das Glaubenskomitee juristisch vorzugehen. Darauf
-					versammelten sich am <d norm="02.09.1839">2. September 1839</d>, gewissermassen
-					in einer Analogie zum liberalen <d norm="11.04.1830">Ustertag von 1830</d>,
-					mehrere tausend<com id="Hochschulmotion_c25">Schätzungen zur Teilnehmerzahl schwanken zwischen 8000 und
-						20000. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Dändliker, Zürich</ref> III, <abbr norm="Seite(n)">S.</abbr>
-						318.</com> Männer in <idx type="place" norm="Kloten">Kloten</idx>, um den
+					versammelten sich am <date when="1839-09-02">2. September 1839</date>, gewissermassen
+					in einer Analogie zum liberalen <date when="1830-04-11">Ustertag von 1830</date>,
+					mehrere tausend<com xml:id="Hochschulmotion_c25">Schätzungen zur Teilnehmerzahl schwanken zwischen 8000 und
+						20000. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Dändliker, Zürich</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						318.</com> Männer in <placeName key="Kloten">Kloten</placeName>, um den
 					erneuerten Forderungen Nachdruck zu verleihen. In den folgenden Tagen machte das
 					Gerücht die Runde, Kantone des
 						liberalen Siebnerkonkordats entsendeten Truppen zur Unterstützung der
-						<idx type="place" norm="Zürich">Zürcher</idx> Regierung. Dadurch sah sich
-						<idx type="person" norm="Rahn-Escher Hans Konrad">Rahn-Escher</idx>, der
-					Vizepräsident des Komitees, veranlasst, am <d norm="05.09.1839">5. September
-						1839</d> ein warnendes Sendschreiben an die Bezirke zu richten mit dem
+						<placeName key="Zürich">Zürcher</placeName> Regierung. Dadurch sah sich
+						<persName key="Rahn-Escher Hans Konrad">Rahn-Escher</persName>, der
+					Vizepräsident des Komitees, veranlasst, am <date when="1839-09-05">5. September
+						1839</date> ein warnendes Sendschreiben an die Bezirke zu richten mit dem
 					Aufruf, sich für diesen Fall vorzubereiten. Am Abend desselben Tages läutete
-					Pfarrer <idx type="person" norm="Hirzel Bernhard">Bernhard <pb n="41"/>Hirzel</idx><com id="Hochschulmotion_c26">Zu <idx type="person" norm="Hirzel Bernhard">Bernhard Hirzel</idx> <abbr norm="vergleiche">vgl.</abbr> Aerne Peter, Pfarrer
+					Pfarrer <persName key="Hirzel Bernhard">Bernhard <pb n="41"/>Hirzel</persName>
+                        <com xml:id="Hochschulmotion_c26">Zu <persName key="Hirzel Bernhard">Bernhard Hirzel</persName> <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> Aerne Peter, Pfarrer
  Bernhard Hirzel, Anführer des Putschzuges – Beiträge zu seiner Biographie,
 						in: <ref type="lit">Antiquarische Gesellschaft / Paul-Kläui-Bibliothek,
-							Züriputsch</ref>, <abbr norm="Seite(n)">S.</abbr> 63–121.</com> in seiner Kirche in <idx type="place" norm="Pfäffikon (ZH)">Pfäffikon</idx> Sturm. Die Kirchen der
+							Züriputsch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 63–121.</com> in seiner Kirche in <placeName key="Pfäffikon (ZH)">Pfäffikon</placeName> Sturm. Die Kirchen der
 					umliegenden Gemeinden trugen das Geläut weiter, reitende Boten wurden
-					ausgeschickt, und unter <idx type="person" norm="Hirzel Bernhard">Hirzels</idx>
+					ausgeschickt, und unter <persName key="Hirzel Bernhard">Hirzels</persName>
 					Anführung bewegte sich ein teilweise bewaffneter Zug der Landbevölkerung
-					Richtung <idx type="place" norm="Zürich (Stadt)">Zürich</idx>. Frühmorgens am
-						<d norm="06.09.1839">6. September</d> zog der Landsturm in die Stadt.
-					Eine bewaffnete Kolonne mit <idx type="person" norm="Hirzel Bernhard">Bernhard
-						Hirzel</idx> an der Spitze traf beim Fraumünster auf eine Einheit Dragoner
-					unter dem Befehl von Major <idx type="person" norm="Uebel Bruno">Bruno
-						Uebel</idx><com id="Hochschulmotion_c27">Zu <idx type="person" norm="Uebel Bruno">Bruno Uebel</idx> <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 97–100; <ref type="lit">Jung, Lydia Welti-Escher 2009 (Quellen, Materialien)</ref>, <abbr norm="Seite(n)">S.</abbr> 55–57.</com>, einem
-					gebürtigen <idx type="place" norm="Preussen (Königreich)">Preussen</idx>, dessen
-					Tochter <idx type="person" norm="Escher-Uebel Augusta">Augusta Uebel</idx> 1857
+					Richtung <placeName key="Zürich (Stadt)">Zürich</placeName>. Frühmorgens am
+						<date when="1839-09-06">6. September</date> zog der Landsturm in die Stadt.
+					Eine bewaffnete Kolonne mit <persName key="Hirzel Bernhard">Bernhard
+						Hirzel</persName> an der Spitze traf beim Fraumünster auf eine Einheit Dragoner
+					unter dem Befehl von Major <persName key="Uebel Bruno">Bruno
+						Uebel</persName>
+                        <com xml:id="Hochschulmotion_c27">Zu <persName key="Uebel Bruno">Bruno Uebel</persName> <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 97–100; <ref type="lit">Jung, Lydia Welti-Escher 2009 (Quellen, Materialien)</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 55–57.</com>, einem
+					gebürtigen <placeName key="Preussen (Königreich)">Preussen</placeName>, dessen
+					Tochter <persName key="Escher-Uebel Augusta">Augusta Uebel</persName> 1857
 					Alfred Escher heiratete. Obwohl beide Anführer Blutvergiessen vermeiden wollten,
 					lösten sich Schüsse. Nach einem kurzen Scharmützel zogen sich die Dragoner
 					zurück. Der Landsturm rückte gegen das Zeughaus vor, wo es zu einem
 					Schusswechsel mit Infanterietruppen kam, die das Gebäude bewachten. 14
 					Putschisten kamen ums Leben, mehrere wurden verwundet. Opfer der Schüsse wurde
-					auch Regierungsrat <idx type="person" norm="Hegetschweiler Johannes">Johannes
-						Hegetschweiler</idx><com id="Hochschulmotion_c28">Zu <idx type="person" norm="Hegetschweiler Johannes">Johannes Hegetschweiler</idx> <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Mörgeli, Hegetschweiler</ref>.</com>, der tödlich verwundet
+					auch Regierungsrat <persName key="Hegetschweiler Johannes">Johannes
+						Hegetschweiler</persName>
+                        <com xml:id="Hochschulmotion_c28">Zu <persName key="Hegetschweiler Johannes">Johannes Hegetschweiler</persName> <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Mörgeli, Hegetschweiler</ref>.</com>, der tödlich verwundet
 					wurde, als er den Truppen den Befehl des Regierungsrates überbrachte, das Feuer
 					einzustellen und sich zurückzuziehen. Als sich die Stadt unter Stadtpräsident
-						<idx type="person" norm="Ziegler Paul Karl Eduard">Paul Karl Eduard
-						Ziegler</idx> zur Beruhigung der Lage auf die Seite der Aufständischen
+						<persName key="Ziegler Paul Karl Eduard">Paul Karl Eduard
+						Ziegler</persName> zur Beruhigung der Lage auf die Seite der Aufständischen
 					stellte, war die Entscheidung zuungunsten der Regierung gefallen. Der
-					Regierungsrat löste sich auf.<com id="Hochschulmotion_c29">Zu detaillierteren Darstellungen von Ereignissen und Folgen des <d norm="06.09.1839">6. September</d> <abbr norm="vergleiche">vgl.</abbr> beispielhaft <ref type="lit">Uebel, 6. September 1839</ref>; <ref type="lit">Schulthess, Straussische Bewegung</ref>;
-							<ref type="lit">Zurlinden, Bilder Zürich</ref> I, <abbr norm="Seite(n)">S.</abbr>
+					Regierungsrat löste sich auf.<com xml:id="Hochschulmotion_c29">Zu detaillierteren Darstellungen von Ereignissen und Folgen des <date when="1839-09-06">6. September</date> <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> beispielhaft <ref type="lit">Uebel, 6. September 1839</ref>; <ref type="lit">Schulthess, Straussische Bewegung</ref>;
+							<ref type="lit">Zurlinden, Bilder Zürich</ref> I, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						172–243.</com> </p>
-        <p id="Hochschulmotion_p13">Ein provisorischer Staatsrat wurde eingesetzt, dem neben
-					einigen gemässigten bisherigen Regierungsräten auch <idx type="person" norm="Hürlimann-Landis Johann Jakob">Hürlimann-Landis</idx> angehörte. Am <d norm="09.09.1839">9. September</d> trat der Grosse Rat zusammen – ohne die
-        	führenden Köpfe der liberalen Partei, die sich, teilweise verkleidet, nach <idx type="place" norm="Baden (AG)">Baden</idx> und in andere Städte geflüchtet
-							hatten.<com id="Hochschulmotion_c30"><abbr norm="Vergleiche">Vgl.</abbr>Holstein August Guido, Der erste
+        <p xml:id="Hochschulmotion_p13">Ein provisorischer Staatsrat wurde eingesetzt, dem neben
+					einigen gemässigten bisherigen Regierungsräten auch <persName key="Hürlimann-Landis Johann Jakob">Hürlimann-Landis</persName> angehörte. Am <date when="1839-09-09">9. September</date> trat der Grosse Rat zusammen – ohne die
+        	führenden Köpfe der liberalen Partei, die sich, teilweise verkleidet, nach <placeName key="Baden (AG)">Baden</placeName> und in andere Städte geflüchtet
+							hatten.<com xml:id="Hochschulmotion_c30">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>Holstein August Guido, Der erste
 						Bundespräsident in Frauenkleidern? Baden und der «Züriputsch» vor 150
 						Jahren, in:  <ref type="lit">Antiquarische Gesellschaft /
-							Paul-Kläui-Bibliothek, Züriputsch</ref>, <abbr norm="Seite(n)">S.</abbr> 136–142.</com>
-					Der Grosse Rat beschloss seine eigene Auflösung.<com id="Hochschulmotion_c31"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 9. September 1839 (<abbr norm="Seite(n)">S.</abbr> 97–102).</com>
+							Paul-Kläui-Bibliothek, Züriputsch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 136–142.</com>
+					Der Grosse Rat beschloss seine eigene Auflösung.<com xml:id="Hochschulmotion_c31">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verhandlungen Grosser Rat ZH</ref>, 9. September 1839 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 97–102).</com>
 					In den fälligen Wahlen erzielten die Konservativen eine erhebliche Mehrheit.</p>
-        <p id="Hochschulmotion_p14">Der gewaltsam herbeigeführte Machtwechsel blieb nicht
+        <p xml:id="Hochschulmotion_p14">Der gewaltsam herbeigeführte Machtwechsel blieb nicht
 					ohne Folgen. Die Existenz der Universität selbst wurde zwar nicht mehr in Frage
 					gestellt; Versuche zu grösseren und kleineren Beschränkungen blieben aber nicht
-							aus.<com id="Hochschulmotion_c32"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>,
-							<abbr norm="Seite(n)">S.</abbr> 410–430.</com> Wohin der Weg des Kantons <idx type="place" norm="Zürich">Zürich</idx> unter den neuen Machtverhältnissen
+							aus.<com xml:id="Hochschulmotion_c32">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>,
+							<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 410–430.</com> Wohin der Weg des Kantons <placeName key="Zürich">Zürich</placeName> unter den neuen Machtverhältnissen
 					führen würde, war schwer abzusehen. Im September 1840, ein Jahr nach dem Putsch,
-					befand <ref type="kbp"/><idx type="person" norm="Sinz Carl Rudolf">Carl Rudolf Sinz</idx>, dass der
+					befand <persName key="Sinz Carl Rudolf">Carl Rudolf Sinz</persName>, dass der
 					Blick in die Zukunft trauriger sei als der Rückblick auf die vergangenen
-					Geschehnisse<ref type="letter" target="K_0222"><!--Nr. 47--></ref>. Zudem wirkten die Ereignisse über die Kantonsgrenzen hinaus und
+					Geschehnisse<!--Nr. 47-->. Zudem wirkten die Ereignisse über die Kantonsgrenzen hinaus und
 					hatten Signalwirkung für die konservative Opposition in anderen Kantonen. Der
 					Umsturz in der Hochburg des schweizerischen Liberalismus hatte gezeigt, dass
 					konservative Ideen im Volk eine Mehrheit finden konnten und dass eine liberale
 					Regierung, sei es auch mit revolutionären Mitteln, abgelöst werden
-							konnte.<com id="Hochschulmotion_c33"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Dierauer, Eidgenossenschaft</ref>, <abbr norm="Seite(n)">S.</abbr>
-						624–648.</com> So musste <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> zu Beginn des Jahres 1841 feststellen: «Wenn ich Euern <d norm="06.09.1839">6. September</d>, hinter dem ich zuerst noch etwas Gutes
-					<abbr norm="und">u.</abbr> Wahres zu erblicken glaubte, schon bei näherer Betrachtung seiner Folgen im
+							konnte.<com xml:id="Hochschulmotion_c33">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Dierauer, Eidgenossenschaft</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						624–648.</com> So musste <persName key="Blumer Johann Jakob">Blumer</persName> zu Beginn des Jahres 1841 feststellen: «Wenn ich Euern <date when="1839-09-06">6. September</date>, hinter dem ich zuerst noch etwas Gutes
+					<choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> Wahres zu erblicken glaubte, schon bei näherer Betrachtung seiner Folgen im
 					eignen Cantone von Grund aus verabscheuen lernte, so ist dies jetzt noch weit
 					mehr der Fall, wo das Unkraut, das er emporgetrieben, überall so reichlich zu
-					wuchern scheint. Durch ihn haben die jetzigen Wühler in den <abbr norm="katholisch">kathol.</abbr> Cantonen
-					gelernt, daß man durch ‹Religionsgefahr› das Volk zum Aeußersten treiben <abbr norm="und">u.</abbr>
-					seinen einsichtsvollsten <abbr norm="und">u.</abbr> biedersten Führern entfremden könne; aus ihm sind
+					wuchern scheint. Durch ihn haben die jetzigen Wühler in den <choice>
+                            <abbr>kathol.</abbr>
+                            <expan>katholisch</expan>
+                        </choice> Cantonen
+					gelernt, daß man durch ‹Religionsgefahr› das Volk zum Aeußersten treiben <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice>
+					seinen einsichtsvollsten <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> biedersten Führern entfremden könne; aus ihm sind
 					die unsittigen Anmaßungen derer hervorgegangen, welche dem Volke eine
 					unbeschränkte Gewalt, deren es nicht fähig ist, geben möchten, um es dadurch
-					unter das schmählichste Joch einer Priesterherrschaft zu bringen.»<ref type="letter" target="K_0237"><!--Nr. 51--></ref><com id="Hochschulmotion_c34"><ref type="letter" target="K_0234"><!-- Brief Johann Jakob Blumer an Escher, 10. Januar 1841 (FA
-							Tschudi) --></ref>.</com> </p>
-        <p id="Hochschulmotion_p15">Doch wenn auch der Sturz des radikal-liberalen Regimes
+					unter das schmählichste Joch einer Priesterherrschaft zu bringen.»<!--Nr. 51-->
+                        <com xml:id="Hochschulmotion_c34"><!-- Brief Johann Jakob Blumer an Escher, 10. Januar 1841 (FA
+							Tschudi) -->.</com> </p>
+        <p xml:id="Hochschulmotion_p15">Doch wenn auch der Sturz des radikal-liberalen Regimes
 					für Escher und seine liberalen Studienfreunde ein Schock war, so waren es doch
-					auf längere Sicht gerade die <idx type="place" norm="Zürich">Zürcher</idx>
-					Liberalen und Escher selbst, die von den Folgen des <d norm="06.09.1839">6.
-						September</d> zu profitieren vermochten. Das konservative Septemberregiment
+					auf längere Sicht gerade die <placeName key="Zürich">Zürcher</placeName>
+					Liberalen und Escher selbst, die von den Folgen des <date when="1839-09-06">6.
+						September</date> zu profitieren vermochten. Das konservative Septemberregiment
 					blieb noch bis 1845 an der Macht, verspielte mit seiner Amtsführung aber
 					zunehmend die Sympathien des Volkes. Bereits 1842 verloren die Konservativen
 					ihre <pb n="42"/> ursprünglich überwältigende Mehrheit im Grossen Rat. Die
@@ -361,10 +603,18 @@
 					1830er Jahren bestimmende und 1839 abgesetzte Führungselite abzulösen und neue,
 					frische Kräfte aufzubauen – Kräfte wie Escher, der 1844, im Alter von 25 Jahren,
 					in den Grossen Rat gewählt wurde. Dieser Erfolg und die führende Rolle, die
-					Escher schon bald unter den <idx type="place" norm="Zürich">Zürcher</idx>
+					Escher schon bald unter den <placeName key="Zürich">Zürcher</placeName>
 					Radikal-Liberalen spielte, wären ohne die parteiinterne Flurbereinigung nach dem
-					Septemberputsch so rasch nicht möglich gewesen.<com id="Hochschulmotion_c35"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 121.</com> </p>
+					Septemberputsch so rasch nicht möglich gewesen.<com xml:id="Hochschulmotion_c35">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 121.</com> </p>
       </div>
     </div>
   </body>
-</commentary>
+    </text>
+</TEI>

@@ -1,53 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Korrespondentennetz" name="Korrespondentennetz">
-  <metadata>
-    <title>Eschers Korrespondentennetz</title>
-    <author>
-    	<name>Björn Koch, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Korrespondentennetz">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Eschers Korrespondentennetz</title>
+                <author>
+    	Björn Koch, unter der Leitung von Prof. Dr. Joseph Jung
     </author>
-    <source>
-      <volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1843–1848). Jesuiten, Freischaren,
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1843–1848). Jesuiten, Freischaren,
 			Sonderbund, Bundesrevision, bearbeitet und kommentiert von Björn Koch (Alfred Escher.
 			Briefe. Ein Editions- und Forschungsprojekt der Alfred Escher-Stiftung, Band 3), Zürich
-			2011</volume_title>
-    	<short_title>Jung/Koch, Escher Briefe, Band 3</short_title>
-      <volume>3</volume>
-      <page>15–18</page>
-    </source>
-  	<description/>
-    <revision>
-      <change>XML-Grundstruktur erstellt, CF, 15.06.2011</change>
-      <change>Auszeichnung nach DTD-Umstellung, CF, 15.06.2011</change>
-      <change>e-Edition: Auszeichnung 1 umgesetzt, TM, 12.07.2011</change>
-      <change>e-Edition: Verifizierung 1 umgesetzt, BP, 13.07.2011</change>
-      <change>e-Edition: Auszeichnung 2 umgesetzt, TM, 27.07.2011</change>
-      <change>e-Edition: Verifizierung 2 umgesetzt, BP, 28.07.2011</change>
-    	<change>Verifiziert, BF, 18.06.2015</change>
-    </revision>
-  </metadata>
-  <body>
-    <div id="Korrespondentennetz_d1">
+			2011</title>
+                    <title type="short">Jung/Koch, Escher Briefe, Band 3</title>
+                    <ref type="volume" target="V3">15–18</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, CF, 15.06.2011</change>
+                <change>Auszeichnung nach DTD-Umstellung, CF, 15.06.2011</change>
+                <change>e-Edition: Auszeichnung 1 umgesetzt, TM, 12.07.2011</change>
+                <change>e-Edition: Verifizierung 1 umgesetzt, BP, 13.07.2011</change>
+                <change>e-Edition: Auszeichnung 2 umgesetzt, TM, 27.07.2011</change>
+                <change>e-Edition: Verifizierung 2 umgesetzt, BP, 28.07.2011</change>
+                <change>Verifiziert, BF, 18.06.2015</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+    <div xml:id="Korrespondentennetz_d1">
         <head>
           <pb n="15"/>Eschers Korrespondentennetz</head>
-    	<div id="Korrespondentennetz_d1.1">
+    	<div xml:id="Korrespondentennetz_d1.1">
     		<head/>
-        <p id="Korrespondentennetz_p1">Der <idx type="place" norm="Chur">Churer</idx> Politiker <ref type="kbp"/><idx type="person" norm="Wassali Friedrich">Friedrich
-        	Wassali</idx> (1820–1882) hatte einen Plan. Er wusste, wie den konservativen Kräften
+        <p xml:id="Korrespondentennetz_p1">Der <placeName key="Chur">Churer</placeName> Politiker <persName key="Wassali Friedrich">Friedrich
+        	Wassali</persName> (1820–1882) hatte einen Plan. Er wusste, wie den konservativen Kräften
 					im Land beizukommen war, und schrieb im Juli 1845 an Alfred Escher, dass «eine
 					enge Verbrüderung der liberalen gebildeten jungen Männer in allen Theilen
 					unseres Vaterlandes; nicht laut, sondern stille wirkend; vertheilt in den
-					einzelnen Kantonen»<ref type="letter" target="K_0386"><!--Nr. 31--></ref> unerlässlich sei, um eine bessere Organisation der
+					einzelnen Kantonen»<!--Nr. 31--> unerlässlich sei, um eine bessere Organisation der
 					Radikal-Liberalen zu erreichen. Damit rannte er bei Escher offene Türen ein.
 					Denn auch er empfand die dürftige Vernetzung seiner Parteigänger als grosse
 					Schwäche, wie er in einem Brief vom Juni 1844 feststellte: «Der größte Feind der
 					liberalen Schweiz liegt in ihrer Schweizerischen &amp; kantonalen
-					Desorganisation!»<ref type="letter" target="K_0322"><!--Nr. 11--></ref> Vernetzung und Organisation der Radikal-Liberalen waren
+					Desorganisation!»<!--Nr. 11--> Vernetzung und Organisation der Radikal-Liberalen waren
 					fundamentale Anliegen Eschers, und gleichzeitig verfügte er in diesen Bereichen
 					über ein ausgeprägtes Talent; er war ein begnadeter Netzwerker. Der Auf- und
 					Ausbau eines Netzwerks von fortschrittlichen Kräften zieht sich wie ein roter
 					Faden durch die Korrespondenz von und an Escher der Jahre 1843 bis 1848.</p>
-        <p id="Korrespondentennetz_p2">Doch nicht nur die politische Lage war Gegenstand des
+        <p xml:id="Korrespondentennetz_p2">Doch nicht nur die politische Lage war Gegenstand des
 					brieflichen Austausches. Daneben kam immer wieder Wissenschaftliches,
 					Familiäres, Juristisches, Alltägliches und Nebensächliches zur Sprache.
 					Abschweifungen und fliessende Übergänge zwischen verschiedenen Themen sind für
@@ -55,150 +71,174 @@
 					19. Jahrhunderts gewissen Konventionen unterlag, gewährt gerade die
 					Korrespondenz aufgrund ihrer Zwanglosigkeit und Vertraulichkeit den
 					unmittelbarsten und reichhaltigsten Einblick in Gedanken, Absichten und
-					Lebenswelt Eschers und seiner Korrespondenzpartner.<com id="Korrespondentennetz_c1">Zur Briefkultur des
-						19. Jahrhunderts und ihren Konventionen <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Pierer's Universal-Lexikon</ref> III,
-						<abbr norm="Seite(n)">S.</abbr> 304–306; <ref type="lit">Baasner, Briefkultur</ref>.</com> Nicht nur thematisch zeichnen sich
+					Lebenswelt Eschers und seiner Korrespondenzpartner.<com xml:id="Korrespondentennetz_c1">Zur Briefkultur des
+						19. Jahrhunderts und ihren Konventionen <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Pierer's Universal-Lexikon</ref> III,
+						<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 304–306; <ref type="lit">Baasner, Briefkultur</ref>.</com> Nicht nur thematisch zeichnen sich
 					die Briefe von und an Escher durch ihre Vielfalt aus, sondern auch das
 					Korrespondentennetz war ausnehmend weit verzweigt. Neue Erfahrungen, Ämter und
 					Bekanntschaften brachten neue Briefpartner mit sich. So weitete sich Eschers
 					Briefverkehr mit den Jahren aus, vor allem aufgrund seiner zunehmenden
 					Verflechtung in der kantonalen und eidgenössischen Politik. </p>
-        <p id="Korrespondentennetz_p3">Man muss sich jedoch immer vor Augen halten, dass
+        <p xml:id="Korrespondentennetz_p3">Man muss sich jedoch immer vor Augen halten, dass
 					sich der Kreis von Eschers Korrespondenzpartnern nicht zwangsläufig mit
 					demjenigen seiner Freunde und Bekannten decken musste. Die Korrespondenz
 					ersetzte nicht das persönliche Treffen. Zweck der Briefe war die Überwindung
 					einer räumlichen Distanz. Kontakte sollten trotz geographischer Trennung
 					aufrechterhalten, Informationen über die Stadt- und Kantonsgrenzen hinaus
 					ausgetauscht werden. Dies konnte es mit sich bringen, dass sich das direkte
-					<idx type="place" norm="Zürich">Zürcher</idx> Umfeld nur selten durch Briefe bemerkbar machte; man sah sich ja
+					<placeName key="Zürich">Zürcher</placeName> Umfeld nur selten durch Briefe bemerkbar machte; man sah sich ja
 					regelmässig zum Informations- und Gedankenaustausch. Trotzdem gewährt gerade die
 					Korrespondenz einen eindrucksvollen Einblick in das Ausmass von Eschers
 					Vernetzung. </p>
-        <p id="Korrespondentennetz_p4">Ende 1843, nachdem Escher von seinem halbjährigen
-					<idx type="place" norm="Paris (F)">Paris</idx>-Aufenthalt<ref type="sum" target="Aufstieg_d1.1"><!--S. 19-21--></ref> nach <idx type="place" norm="Zürich (Stadt)">Zürich</idx> zurückgekehrt war, fand der briefliche Austausch
+        <p xml:id="Korrespondentennetz_p4">Ende 1843, nachdem Escher von seinem halbjährigen
+					<placeName key="Paris (F)">Paris</placeName>-Aufenthalt<ref type="sum" target="Aufstieg_d1.1"><!--S. 19-21--></ref> nach <placeName key="Zürich (Stadt)">Zürich</placeName> zurückgekehrt war, fand der briefliche Austausch
 					noch in einem überschaubaren Kreis statt. Eschers Leben hatte sich bislang
-					zwischen <idx type="place" norm="Belvoir (Enge, Zürich)">Belvoir</idx>, Schule und Universität abgespielt; dementsprechend waren es
+					zwischen <placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName>, Schule und Universität abgespielt; dementsprechend waren es
 					auch fast ausschliesslich ehemalige Studien- beziehungsweise
-						Zofingerfreunde<com id="Korrespondentennetz_c2">Zur Bedeutung der Studentenverbindung Zofingia für
-						Escher <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 101–128; <ref type="sum" target="Zofingerverein_d1"><!-- Bd. 2, S. 22-36 --></ref>.</com>, mit denen Escher in brieflichem Kontakt stand.<com id="Korrespondentennetz_c3">Zu
-						Eschers Jugend- und Studienfreunden <abbr norm="vergleiche">vgl.</abbr> <ref type="sum" target="Freunde_und_Bekannte_d1"><!-- Bd. 2, S. 13-21 --></ref>.</com> Dazu gehörte der <idx type="place" norm="Glarus">Glarner</idx> <ref type="kbp"/><idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumer</idx> (1819–1875), mit dem Escher eine lebenslange Freundschaft verband.
-					Kennengelernt hatten sie sich 1836 an einem Turnertreffen auf dem <idx type="place" norm="Irchel">Irchel</idx>
-					(<idx type="place" norm="Zürich (Stadt)">Zürich</idx>). Während des gemeinsamen Rechtsstudiums an der Universität <idx type="place" norm="Zürich (Stadt)">Zürich</idx>
+						Zofingerfreunde<com xml:id="Korrespondentennetz_c2">Zur Bedeutung der Studentenverbindung Zofingia für
+						Escher <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 101–128; <ref type="sum" target="Zofingerverein_d1"><!-- Bd. 2, S. 22-36 --></ref>.</com>, mit denen Escher in brieflichem Kontakt stand.<com xml:id="Korrespondentennetz_c3">Zu
+						Eschers Jugend- und Studienfreunden <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="sum" target="Freunde_und_Bekannte_d1"><!-- Bd. 2, S. 13-21 --></ref>.</com> Dazu gehörte der <placeName key="Glarus">Glarner</placeName> <persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName> (1819–1875), mit dem Escher eine lebenslange Freundschaft verband.
+					Kennengelernt hatten sie sich 1836 an einem Turnertreffen auf dem <placeName key="Irchel">Irchel</placeName>
+					(<placeName key="Zürich (Stadt)">Zürich</placeName>). Während des gemeinsamen Rechtsstudiums an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName>
 					zeigte sich schnell, dass sie auf <pb n="16"/> menschlicher und politischer
-					Ebene harmonierten. <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> war nach Studienabschluss wieder nach <idx type="place" norm="Glarus (Gemeinde)">Glarus</idx>
+					Ebene harmonierten. <persName key="Blumer Johann Jakob">Blumer</persName> war nach Studienabschluss wieder nach <placeName key="Glarus (Gemeinde)">Glarus</placeName>
 					zurückgekehrt, und so unterhielten die beiden Freunde einen regen Briefwechsel,
 					der ein buntes Mosaik von rechtlichen Auseinandersetzungen, politischen Disputen
-					und freundschaftlich-familiärer Plauderei offenlegt. <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> vertrat seinen
+					und freundschaftlich-familiärer Plauderei offenlegt. <persName key="Blumer Johann Jakob">Blumer</persName> vertrat seinen
 					Kanton 1848 an der Tagsatzung, und im gleichen Jahr wurde er in den Ständerat
 					und ans Bundesgericht gewählt. Er sollte bis ans Lebensende in politischen,
 					wirtschaftlichen und persönlichen Fragen ein Vertrauter Eschers bleiben. Eine
-					ähnliche Rolle nahm der <idx type="place" norm="St. Gallen">St. Galler</idx> <ref type="kbp"/><idx type="person" norm="Aepli Arnold Otto">Arnold Otto Aepli</idx>
-					(1816–1897) ein, auch er ein Farbenbruder aus der Zofingia. <idx type="person" norm="Aepli Arnold Otto">Aepli</idx> fand ebenfalls
+					ähnliche Rolle nahm der <placeName key="St. Gallen">St. Galler</placeName> <persName key="Aepli Arnold Otto">Arnold Otto Aepli</persName>
+					(1816–1897) ein, auch er ein Farbenbruder aus der Zofingia. <persName key="Aepli Arnold Otto">Aepli</persName> fand ebenfalls
 					im jungen Bundesstaat seinen Platz, im Ständerat und am Bundesgericht. Neben
-					<idx type="person" norm="Blumer Johann Jakob">Blumer</idx> und <idx type="person" norm="Aepli Arnold Otto">Aepli</idx>, mit denen Escher das Interesse für die Rechtswissenschaften
+					<persName key="Blumer Johann Jakob">Blumer</persName> und <persName key="Aepli Arnold Otto">Aepli</persName>, mit denen Escher das Interesse für die Rechtswissenschaften
 					und die politische Leidenschaft verband, hielt er auch den Briefkontakt zu
 					anderen ehemaligen Gymnasialfreunden und Mitstudenten aufrecht; so etwa zum
-        	<idx type="place" norm="Glarus">Glarner</idx> Naturforscher <ref type="kbp"/><idx type="person" norm="Tschudi Johann Jakob">Johann Jakob Tschudi</idx> (1818–1889) oder
-        	zum <idx type="place" norm="St. Gallen">St. Galler</idx> Mediziner <ref type="kbp"/><idx type="person" norm="Sinz Carl Rudolf">Carl Rudolf Sinz</idx> (1818–1896). </p>
-      	<p id="Korrespondentennetz_p5">In <idx type="place" norm="Paris (F)">Paris</idx> hatte Escher Freundschaft mit <ref type="kbp"/><idx type="person" norm="Honegger Johannes">Johannes Honegger</idx> (1811–1855) geschlossen. Der junge Lehrer
-      		unterrichtete dort an einer Privatschule, dem Institut <idx type="person" norm="Keller Jean Jacques">Keller</idx>. Als sich die
-					beiden Ende 1842 in der <idx type="place" norm="Frankreich">französischen</idx> Metropole begegneten, verstanden sie sich
-					auf Anhieb; das verbindende Element bildete vor allem die Politik.<com id="Korrespondentennetz_c4">Zu
-						<idx type="person" norm="Honegger Johannes">Honeggers</idx> und Eschers gemeinsamer Zeit in <idx type="place" norm="Paris (F)">Paris</idx> <abbr norm="vergleiche">vgl.</abbr> <ref type="letter" target="K_0273"><!--Bd. 2, Nr. 62--></ref>;
-						<ref type="letter" target="K_0278"><!--Bd. 2, Nr. 63--></ref>.</com><ref type="sum" target="Aufstieg_d1.1"><!--S. 20-21--></ref> Dies zeigt sich auch im Briefwechsel, den
-					die beiden nach ihrer Rückkehr in die Schweiz unterhielten. <idx type="person" norm="Honegger Johannes">Honegger</idx>, der an
-					Gymnasien in <idx type="place" norm="Chur">Chur</idx> und <idx type="place" norm="Aarau">Aarau</idx> unterrichtete, war aufgrund seiner Erfahrung im
+        	<placeName key="Glarus">Glarner</placeName> Naturforscher <persName key="Tschudi Johann Jakob">Johann Jakob Tschudi</persName> (1818–1889) oder
+        	zum <placeName key="St. Gallen">St. Galler</placeName> Mediziner <persName key="Sinz Carl Rudolf">Carl Rudolf Sinz</persName> (1818–1896). </p>
+      	<p xml:id="Korrespondentennetz_p5">In <placeName key="Paris (F)">Paris</placeName> hatte Escher Freundschaft mit <persName key="Honegger Johannes">Johannes Honegger</persName> (1811–1855) geschlossen. Der junge Lehrer
+      		unterrichtete dort an einer Privatschule, dem Institut <persName key="Keller Jean Jacques">Keller</persName>. Als sich die
+					beiden Ende 1842 in der <placeName key="Frankreich">französischen</placeName> Metropole begegneten, verstanden sie sich
+					auf Anhieb; das verbindende Element bildete vor allem die Politik.<com xml:id="Korrespondentennetz_c4">Zu
+						<persName key="Honegger Johannes">Honeggers</persName> und Eschers gemeinsamer Zeit in <placeName key="Paris (F)">Paris</placeName> <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <!--Bd. 2, Nr. 62-->;
+						<!--Bd. 2, Nr. 63-->.</com>
+                        <ref type="sum" target="Aufstieg_d1.1"><!--S. 20-21--></ref> Dies zeigt sich auch im Briefwechsel, den
+					die beiden nach ihrer Rückkehr in die Schweiz unterhielten. <persName key="Honegger Johannes">Honegger</persName>, der an
+					Gymnasien in <placeName key="Chur">Chur</placeName> und <placeName key="Aarau">Aarau</placeName> unterrichtete, war aufgrund seiner Erfahrung im
 					Bildungsbereich für Escher ein willkommener Ratgeber in Erziehungs- und
-					Schulfragen<ref type="letter" target="K_0436"><!--Nr. 43--></ref>. Escher setzte sich ab 1845 dafür ein, <idx type="person" norm="Honegger Johannes">Honegger</idx> als Lehrer nach
-					<idx type="place" norm="Zürich (Stadt)">Zürich</idx> zu holen, und unterstützte 1852 dessen Berufung zum Rektor des <idx type="place" norm="Zürich (Stadt)">Zürcher</idx>
-					Gymnasiums; ein Amt, das <idx type="person" norm="Honegger Johannes">Honegger</idx> bis zu seinem Tod bekleidete.</p>
-        <p id="Korrespondentennetz_p6">Durch die Wahl in den Grossen Rat im Sommer 1844
+					Schulfragen<!--Nr. 43-->. Escher setzte sich ab 1845 dafür ein, <persName key="Honegger Johannes">Honegger</persName> als Lehrer nach
+					<placeName key="Zürich (Stadt)">Zürich</placeName> zu holen, und unterstützte 1852 dessen Berufung zum Rektor des <placeName key="Zürich (Stadt)">Zürcher</placeName>
+					Gymnasiums; ein Amt, das <persName key="Honegger Johannes">Honegger</persName> bis zu seinem Tod bekleidete.</p>
+        <p xml:id="Korrespondentennetz_p6">Durch die Wahl in den Grossen Rat im Sommer 1844
 					öffnete sich Escher ein neuer Wirkungskreis<ref type="sum" target="Aufstieg_d1.3"><!--S. 25-26--></ref>. Die politischen Ziele erforderten
 					die vermehrte Zusammenarbeit mit den anderen radikal-liberalen Kräften des
-					Kantons, deren fester Bestandteil er nun wurde. Über seinen Mentor <ref type="kbp"/><idx type="person" norm="Keller (vom Steinbock) Friedrich Ludwig">Friedrich Ludwig Keller</idx> (1799–1860) wurde Escher mit der «alten
-					Politikergarde» bekannt, die bis zum <idx type="place" norm="Zürich">Zürich</idx>putsch<ref type="sum" target="Umwaelzung_d1.1"><!--S. 30-31--></ref> von 1839 den Kanton dominiert
-					hatte. Allen voran <idx type="person" norm="Furrer Jonas">Jonas Furrer</idx> (1805–1861), einer der führenden Köpfe der
-					radikal-liberalen Bewegung <idx type="place" norm="Zürich">Zürichs</idx> und 1848 erster Bundespräsident. Da <idx type="person" norm="Furrer Jonas">Furrer</idx>
-					und Escher in <idx type="place" norm="Zürich (Stadt)">Zürich</idx> lebten und dort den persönlichen Kontakt pflegten,
-					korrespondierten die beiden nur während der Phasen, in denen sich <idx type="person" norm="Furrer Jonas">Furrer</idx> oder
+					Kantons, deren fester Bestandteil er nun wurde. Über seinen Mentor <persName key="Keller (vom Steinbock) Friedrich Ludwig">Friedrich Ludwig Keller</persName> (1799–1860) wurde Escher mit der «alten
+					Politikergarde» bekannt, die bis zum <placeName key="Zürich">Zürich</placeName>putsch<ref type="sum" target="Umwaelzung_d1.1"><!--S. 30-31--></ref> von 1839 den Kanton dominiert
+					hatte. Allen voran <persName key="Furrer Jonas">Jonas Furrer</persName> (1805–1861), einer der führenden Köpfe der
+					radikal-liberalen Bewegung <placeName key="Zürich">Zürichs</placeName> und 1848 erster Bundespräsident. Da <persName key="Furrer Jonas">Furrer</persName>
+					und Escher in <placeName key="Zürich (Stadt)">Zürich</placeName> lebten und dort den persönlichen Kontakt pflegten,
+					korrespondierten die beiden nur während der Phasen, in denen sich <persName key="Furrer Jonas">Furrer</persName> oder
 					Escher auswärts aufhielten. Beispielsweise während der Tagsatzungen von 1847 und
-					1848 in <idx type="place" norm="Bern (Stadt)">Bern</idx>, von denen <idx type="person" norm="Furrer Jonas">Furrer</idx> Escher regelmässig über den Gang der Debatten
-					berichtete und ihn in staatsrechtlichen Angelegenheiten konsultierte<ref type="letter" target="K_0475"><!--Nr. 52--></ref> <ref type="letter" target="K_0480"><!--Nr. 55--></ref> <ref type="letter" target="K_0537"><!--Nr. 70--></ref> <ref type="letter" target="K_0546"><!--Nr. 72--></ref>. Hier
+					1848 in <placeName key="Bern (Stadt)">Bern</placeName>, von denen <persName key="Furrer Jonas">Furrer</persName> Escher regelmässig über den Gang der Debatten
+					berichtete und ihn in staatsrechtlichen Angelegenheiten konsultierte<!--Nr. 52--> <!--Nr. 55--> <!--Nr. 70--> <!--Nr. 72-->. Hier
 					zeichnete sich bereits eine Praxis ab, die sich bewähren sollte; denn auch in
-					<idx type="person" norm="Furrer Jonas">Furrers</idx> Zeit als Bundesrat spielte er Escher wiederholt Informationen und
-					Interna aus der Bundesexekutive zu.<ref type="letter" target="K_0466"><!--Nr. 49--></ref> Dies verdeutlicht, welche Bedeutung <idx type="person" norm="Furrer Jonas">Furrer</idx>
-					dem Urteil des <idx type="place" norm="Zürich">Zürcher</idx> Freundes beimass, und offenbart gleichzeitig Eschers
+					<persName key="Furrer Jonas">Furrers</persName> Zeit als Bundesrat spielte er Escher wiederholt Informationen und
+					Interna aus der Bundesexekutive zu.<!--Nr. 49--> Dies verdeutlicht, welche Bedeutung <persName key="Furrer Jonas">Furrer</persName>
+					dem Urteil des <placeName key="Zürich">Zürcher</placeName> Freundes beimass, und offenbart gleichzeitig Eschers
 					Fähigkeit, sich mit den für ihn relevanten Informanten zu vernetzen. </p>
-        <p id="Korrespondentennetz_p7">Auch mit anderen gestandenen Radikal-Liberalen kam
-        	Escher zunehmend in Kontakt. So etwa mit <ref type="kbp"/><idx type="person" norm="Lips Melchior">Melchior Lips</idx>
-					(1809–1900) aus <idx type="place" norm="Kloten">Kloten</idx>. Dieser machte sich in den 1830er Jahren für die
+        <p xml:id="Korrespondentennetz_p7">Auch mit anderen gestandenen Radikal-Liberalen kam
+        	Escher zunehmend in Kontakt. So etwa mit <persName key="Lips Melchior">Melchior Lips</persName>
+					(1809–1900) aus <placeName key="Kloten">Kloten</placeName>. Dieser machte sich in den 1830er Jahren für die
 					radikal-liberalen Reformen stark, bis die Unruhen im Umfeld der Berufung von
-					<idx type="person" norm="Strauss David Friedrich">David Friedrich Strauss</idx> <ref type="sum" target="Umwaelzung_d1.1"><!--S. 30--></ref> und dem <idx type="place" norm="Zürich">Zürich</idx>putsch seiner Karriere ein vorläufiges
-					Ende bereiteten. <idx type="person" norm="Lips Melchior">Lips</idx> musste 1839 gar <idx type="place" norm="Kloten">Kloten</idx> vorübergehend verlassen, da er in
+					<persName key="Strauss David Friedrich">David Friedrich Strauss</persName> <ref type="sum" target="Umwaelzung_d1.1"><!--S. 30--></ref> und dem <placeName key="Zürich">Zürich</placeName>putsch seiner Karriere ein vorläufiges
+					Ende bereiteten. <persName key="Lips Melchior">Lips</persName> musste 1839 gar <placeName key="Kloten">Kloten</placeName> vorübergehend verlassen, da er in
 					einer «besonders hitzigen Gemeindeversammlung [...] geschmäht» wurde, wobei es
-					«beinahe zu Thätlichkeiten» kam.<com id="Korrespondentennetz_c5"><ref type="lit">Zürcher Wochen-Chronik</ref>, 24. November
- 1900.</com> Einige <pb n="17"/>alte Kämpfer wie <idx type="person" norm="Lips Melchior">Lips</idx> oder auch der
-        	<idx type="place" norm="Bonstetten">Bonstetter</idx> Arzt und Politiker <ref type="kbp"/><idx type="person" norm="Bühler Johann Jacob">Johann Jacob Bühler</idx> (1806–1866)
-					konnten im Verlauf der 1840er Jahre wieder in der <idx type="place" norm="Zürich">Zürcher</idx> Politik Fuss fassen
+					«beinahe zu Thätlichkeiten» kam.<com xml:id="Korrespondentennetz_c5">
+                            <ref type="lit">Zürcher Wochen-Chronik</ref>, 24. November
+ 1900.</com> Einige <pb n="17"/>alte Kämpfer wie <persName key="Lips Melchior">Lips</persName> oder auch der
+        	<placeName key="Bonstetten">Bonstetter</placeName> Arzt und Politiker <persName key="Bühler Johann Jacob">Johann Jacob Bühler</persName> (1806–1866)
+					konnten im Verlauf der 1840er Jahre wieder in der <placeName key="Zürich">Zürcher</placeName> Politik Fuss fassen
 					und tauschten sich auf dem Korrespondenzweg mit dem politischen Aufsteiger
 					Escher aus. </p>
-        <p id="Korrespondentennetz_p8">Ebenfalls schon seit längerer Zeit in der
-					Kantonalpolitik verwurzelt waren die drei <idx type="place" norm="Winterthur">Winterthurer</idx> <ref type="kbp"/><idx type="person" norm="Huggenberg Johann Jakob">Johann
-						Jakob Huggenberg</idx> (1805–1882), <ref type="kbp"/><idx type="person" norm="Weiss Heinrich">Heinrich Weiss</idx> (1789–1848) und
-        	<ref type="kbp"/><idx type="person" norm="Sulzer Johann Rudolf">Johann Rudolf Sulzer</idx> (1789–1850). Sie alle sassen zusammen
+        <p xml:id="Korrespondentennetz_p8">Ebenfalls schon seit längerer Zeit in der
+					Kantonalpolitik verwurzelt waren die drei <placeName key="Winterthur">Winterthurer</placeName> <persName key="Huggenberg Johann Jakob">Johann
+						Jakob Huggenberg</persName> (1805–1882), <persName key="Weiss Heinrich">Heinrich Weiss</persName> (1789–1848) und
+        	<persName key="Sulzer Johann Rudolf">Johann Rudolf Sulzer</persName> (1789–1850). Sie alle sassen zusammen
 					mit Escher im Grossen Rat und unterhielten mit dem jungen Mitstreiter einen
 					regen Briefverkehr, um politische Aktionen zu koordinieren und sich über
-					Aktualitäten auszutauschen. <idx type="person" norm="Huggenberg Johann Jakob">Huggenberg</idx> hatte zudem 1844 tatkräftig Eschers Wahl
+					Aktualitäten auszutauschen. <persName key="Huggenberg Johann Jakob">Huggenberg</persName> hatte zudem 1844 tatkräftig Eschers Wahl
 					in den Grossen Rat gefördert, was eine besondere Verbundenheit zwischen den
 					beiden zur Folge hatte<ref type="sum" target="Aufstieg_d1.3"><!--S. 25--></ref>. </p>
-        <p id="Korrespondentennetz_p9">Der konservative Umsturz von 1839 hatte einen
+        <p xml:id="Korrespondentennetz_p9">Der konservative Umsturz von 1839 hatte einen
 					Grossteil der radikal-liberalen Machthaber der 1830er Jahre aus ihren Ämtern
-					gefegt. Paradoxerweise war es gerade der <idx type="place" norm="Zürich">Zürich</idx>putsch, der den Weg für die
-					«jungen Wilden» um Alfred Escher ebnete. Denn auch wenn Leute wie <idx type="person" norm="Furrer Jonas">Furrer</idx>, <idx type="person" norm="Lips Melchior">Lips</idx>
-					oder <idx type="person" norm="Huggenberg Johann Jakob">Huggenberg</idx> den Weg zurück in staatliche Ämter fanden, waren viele
+					gefegt. Paradoxerweise war es gerade der <placeName key="Zürich">Zürich</placeName>putsch, der den Weg für die
+					«jungen Wilden» um Alfred Escher ebnete. Denn auch wenn Leute wie <persName key="Furrer Jonas">Furrer</persName>, <persName key="Lips Melchior">Lips</persName>
+					oder <persName key="Huggenberg Johann Jakob">Huggenberg</persName> den Weg zurück in staatliche Ämter fanden, waren viele
 					Radikal-Liberale dieser Zeit in Ungnade gefallen oder hatten sich aufgrund des
 					einschneidenden Erlebnisses aus der Politik verabschiedet. Die «alte Garde» war
-					auf junge Gefolgsleute angewiesen. Unter ihnen etwa <ref type="kbp"/><idx type="person" norm="Rüttimann Johann Jakob">Johann
-						Jakob Rüttimann</idx> (1813–1876), der 1844 zusammen mit Escher seine Tätigkeit als
-					Privatdozent an der Universität <idx type="place" norm="Zürich (Stadt)">Zürich</idx> aufnahm und im selben Jahr – ebenfalls
-					mit Escher – in den Grossen Rat gewählt wurde<ref type="sum" target="Aufstieg_d1.2"><!--S. 24-25--></ref>. <idx type="person" norm="Rüttimann Johann Jakob">Rüttimann</idx> war sein ganzes Leben
+					auf junge Gefolgsleute angewiesen. Unter ihnen etwa <persName key="Rüttimann Johann Jakob">Johann
+						Jakob Rüttimann</persName> (1813–1876), der 1844 zusammen mit Escher seine Tätigkeit als
+					Privatdozent an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName> aufnahm und im selben Jahr – ebenfalls
+					mit Escher – in den Grossen Rat gewählt wurde<ref type="sum" target="Aufstieg_d1.2"><!--S. 24-25--></ref>. <persName key="Rüttimann Johann Jakob">Rüttimann</persName> war sein ganzes Leben
 					lang ein Weggefährte Eschers. Er stand bei den politischen Kämpfen der 1840er
 					Jahre genauso an Eschers Seite wie bei den späteren Grossprojekten: bei der
 					Gründung der Nordostbahn-Gesellschaft, der Schweizerischen Kreditanstalt oder
-					der Polytechnischen Schule in <idx type="place" norm="Zürich (Stadt)">Zürich</idx>. Dem Kreis der jungen Radikal-Liberalen
-        	gehörte auch <ref type="kbp"/><idx type="person" norm="Bollier Rudolf">Rudolf Bollier</idx> (1815–1855) an. Der Jurist amtete
-					von 1846 bis 1854 als <idx type="place" norm="Zürich">Zürcher</idx> Regierungsrat und bewegte sich bis zu seinem
-        	frühen Tod 1855 in Eschers näherem Umfeld. Ebenso Eschers Studienfreund <ref type="kbp"/><idx type="person" norm="Hagenbuch Franz">Franz Hagenbuch</idx> (1819–1888), der mit seiner Erfahrung im
+					der Polytechnischen Schule in <placeName key="Zürich (Stadt)">Zürich</placeName>. Dem Kreis der jungen Radikal-Liberalen
+        	gehörte auch <persName key="Bollier Rudolf">Rudolf Bollier</persName> (1815–1855) an. Der Jurist amtete
+					von 1846 bis 1854 als <placeName key="Zürich">Zürcher</placeName> Regierungsrat und bewegte sich bis zu seinem
+        	frühen Tod 1855 in Eschers näherem Umfeld. Ebenso Eschers Studienfreund <persName key="Hagenbuch Franz">Franz Hagenbuch</persName> (1819–1888), der mit seiner Erfahrung im
 					Bezirksgericht und der Tätigkeit als Staatsschreiber den radikal-liberalen
 					Kräften den Rücken stärkte. </p>
-        <p id="Korrespondentennetz_p10">Neben dem kantonal<idx type="place" norm="Zürich">zürcherischen</idx> Netzwerk konnte
+        <p xml:id="Korrespondentennetz_p10">Neben dem kantonal<placeName key="Zürich">zürcherischen</placeName> Netzwerk konnte
 					Escher dank seiner zunehmenden Involvierung in die eidgenössischen
 					Angelegenheiten auch sein überkantonales Kontaktnetz ausbauen. Vor allem die
-					Volksversammlung in <idx type="place" norm="Unterstrass (Zürich)">Unterstrass</idx> <ref type="sum" target="Umwaelzung_d1.4"><!--S. 34-35--></ref> im Januar 1845 und die Tagsatzungen von 1845 und
+					Volksversammlung in <placeName key="Unterstrass (Zürich)">Unterstrass</placeName> <ref type="sum" target="Umwaelzung_d1.4"><!--S. 34-35--></ref> im Januar 1845 und die Tagsatzungen von 1845 und
 					1846, an denen Escher als dritter Gesandter zugegen war, ermöglichten ihm, sich
 					mit den politischen Grössen der gesamten Eidgenossenschaft auszutauschen. Er
-					korrespondierte in der Folge mit Politikern wie dem <idx type="place" norm="Bern">Berner</idx> <ref type="kbp"/><idx type="person" norm="Imobersteg Jakob">Jakob Imobersteg</idx> (1813–1875), dem <idx type="place" norm="Luzern">Luzerner</idx> <ref type="kbp"/><idx type="person" norm="Pfyffer (von Altishofen) Kasimir">Kasimir Pfyffer</idx>
-        	(1794–1875) und dem <idx type="place" norm="St. Gallen">St. Galler</idx> <ref type="kbp"/><idx type="person" norm="Gmür Dominik">Dominik Gmür</idx> (1800–1867), mit
-					denen er 1848 in den Nationalrat einzog. Auch mit <ref type="kbp"/><idx type="person" norm="Steiger Jakob Robert">Jakob Robert
-						Steiger</idx> (1801–1862) – 1848 erster Nationalratspräsident – pflegte Escher den
-					Briefkontakt. Aufgrund seiner oppositionellen Tätigkeit im Kanton <idx type="place" norm="Luzern">Luzern</idx> und
-					seiner Beteiligung an den Freischarenzügen<ref type="sum" target="Umwaelzung_d1.4"><!--S. 34-36--></ref> wurde <idx type="person" norm="Steiger Jakob Robert">Steiger</idx> 1845 verhaftet und zum
-					Tode verurteilt. Er konnte jedoch mit Hilfe von <idx type="place" norm="Zürich">Zürcher</idx> Freunden – unter ihnen
-					Alfred Escher<com id="Korrespondentennetz_c6">Die Involvierung Alfred Eschers in die Befreiung <idx type="person" norm="Steiger Jakob Robert">Jakob Robert
-						Steigers</idx> wird zurzeit im Rahmen eines Dissertationsprojekts des Autors
-						untersucht.</com> – aus dem Gefängnis entkommen<ref type="letter" target="K_4635_c1"><!--Nr. 28 (Kommentar)--></ref>, worauf er vorübergehend
-					beim <idx type="place" norm="Winterthur">Winterthurer</idx> Grossrat <idx type="person" norm="Weiss Heinrich">Heinrich Weiss</idx> Zuflucht fand. In <idx type="place" norm="Schaffhausen">Schaffhausen</idx>
-        	verfügte Escher ebenfalls über Kontakte, etwa zum Politiker und Unternehmer <ref type="kbp"/><idx type="person" norm="Peyer im Hof Johann Friedrich">Johann Friedrich Peyer im Hof</idx> (1817–1900). Die beiden zogen bei
+					korrespondierte in der Folge mit Politikern wie dem <placeName key="Bern">Berner</placeName> <persName key="Imobersteg Jakob">Jakob Imobersteg</persName> (1813–1875), dem <placeName key="Luzern">Luzerner</placeName> <persName key="Pfyffer (von Altishofen) Kasimir">Kasimir Pfyffer</persName>
+        	(1794–1875) und dem <placeName key="St. Gallen">St. Galler</placeName> <persName key="Gmür Dominik">Dominik Gmür</persName> (1800–1867), mit
+					denen er 1848 in den Nationalrat einzog. Auch mit <persName key="Steiger Jakob Robert">Jakob Robert
+						Steiger</persName> (1801–1862) – 1848 erster Nationalratspräsident – pflegte Escher den
+					Briefkontakt. Aufgrund seiner oppositionellen Tätigkeit im Kanton <placeName key="Luzern">Luzern</placeName> und
+					seiner Beteiligung an den Freischarenzügen<ref type="sum" target="Umwaelzung_d1.4"><!--S. 34-36--></ref> wurde <persName key="Steiger Jakob Robert">Steiger</persName> 1845 verhaftet und zum
+					Tode verurteilt. Er konnte jedoch mit Hilfe von <placeName key="Zürich">Zürcher</placeName> Freunden – unter ihnen
+					Alfred Escher<com xml:id="Korrespondentennetz_c6">Die Involvierung Alfred Eschers in die Befreiung <persName key="Steiger Jakob Robert">Jakob Robert
+						Steigers</persName> wird zurzeit im Rahmen eines Dissertationsprojekts des Autors
+						untersucht.</com> – aus dem Gefängnis entkommen<!--Nr. 28 (Kommentar)-->, worauf er vorübergehend
+					beim <placeName key="Winterthur">Winterthurer</placeName> Grossrat <persName key="Weiss Heinrich">Heinrich Weiss</persName> Zuflucht fand. In <placeName key="Schaffhausen">Schaffhausen</placeName>
+        	verfügte Escher ebenfalls über Kontakte, etwa zum Politiker und Unternehmer <persName key="Peyer im Hof Johann Friedrich">Johann Friedrich Peyer im Hof</persName> (1817–1900). Die beiden zogen bei
 					den Bestrebungen um die Jesuitenausweisung am selben Strang und informierten
-					sich gegenseitig über die politische Lage in ihren Heimatkantonen. <idx type="person" norm="Peyer im Hof Johann Friedrich">Peyer im Hof</idx>
-					verblieb auch später in Eschers Umfeld<ref type="letter" target="K_0348"><!--Nr. 22--></ref>, indem er von 1857 <pb n="18"/>bis zur
+					sich gegenseitig über die politische Lage in ihren Heimatkantonen. <persName key="Peyer im Hof Johann Friedrich">Peyer im Hof</persName>
+					verblieb auch später in Eschers Umfeld<!--Nr. 22-->, indem er von 1857 <pb n="18"/>bis zur
 					finanziellen Krise von 1877 in der Direktion der Nordostbahn-Gesellschaft sass.
 					Es folgten darauf eine Phase der Entzweiung und schliesslich der Bruch zwischen
-					den beiden.<com id="Korrespondentennetz_c7"><ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 523–524, 757–758.</com> </p>
-        <p id="Korrespondentennetz_p11">Die Jahre von 1843 bis 1848 waren von zentraler
+					den beiden.<com xml:id="Korrespondentennetz_c7">
+                            <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 523–524, 757–758.</com> </p>
+        <p xml:id="Korrespondentennetz_p11">Die Jahre von 1843 bis 1848 waren von zentraler
 					Bedeutung für Alfred Escher. Der kometenhafte politische Aufstieg, die
 					Etablierung wertvoller Kontakte zu radikal-liberalen Politikern, die Festigung
-					seiner Stellung in der kantonal<idx type="place" norm="Zürich">zürcherischen</idx> Partei – dies alles kann anhand der
+					seiner Stellung in der kantonal<placeName key="Zürich">zürcherischen</placeName> Partei – dies alles kann anhand der
 					Korrespondenz von und an Escher hautnah mitverfolgt werden. Zudem beeindruckt
 					die bunte und illustre Gesellschaft, mit der Escher zu korrespondieren pflegte:
 					Politiker, Juristen, Theologen, Mediziner und Lehrer gehörten ebenso dazu wie
@@ -209,4 +249,5 @@
       </div>
     </div>
   </body>
-</commentary>
+    </text>
+</TEI>

@@ -1,36 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Verfassungskaempfe" name="Verfassungskämpfe">
-	<metadata>
-		<title>Verfassungskämpfe</title>
-		<author>
-			<name>Björn Koch, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Verfassungskaempfe">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verfassungskämpfe</title>
+                <author>
+			Björn Koch, unter der Leitung von Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1866–1882).
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1866–1882).
 				Private Eisenbahngesellschaften in der Krise, Gotthardbahn, politische Opposition, mit Beiträgen von
 				Claudia Aufdermauer, Basil Böhni, Lisa Bollinger, Bruno Fischer, Josef Inauen, Joseph Jung, Björn Koch und Vincent Pick (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-				Escher-Stiftung, Band 6), Zürich 2015</volume_title>
-			<short_title>Jung, Escher Briefe, Band 6</short_title>
-			<volume>6</volume>
-			<page>22–31</page>
-		</source>
-		<description>Zürcher Kantonsverfassung 1869 – Revision der Bundesverfassung 15872/1874</description>
-		<revision>
-			<change>XML-Grundstruktur erstellt, LW, 07.08.2014</change>
-			<change>Migrationsverifizierung umgesetzt, MB, 07.08.2014</change>
-			<change>Auszeichnung 1 umgesetzt, AW, 11.08.2014</change>
-			<change>Verifizierung 1 umgesetzt, LW, 12.08.2014</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Verfassungskaempfe_d1">
-			<head><pb n="22"/>Verfassungskämpfe</head>
-			<div id="Verfassungskaempfe_d1.1">
+				Escher-Stiftung, Band 6), Zürich 2015</title>
+                    <title type="short">Jung, Escher Briefe, Band 6</title>
+                    <ref type="volume" target="V6">22–31</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Zürcher Kantonsverfassung 1869 – Revision der Bundesverfassung 15872/1874</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, LW, 07.08.2014</change>
+                <change>Migrationsverifizierung umgesetzt, MB, 07.08.2014</change>
+                <change>Auszeichnung 1 umgesetzt, AW, 11.08.2014</change>
+                <change>Verifizierung 1 umgesetzt, LW, 12.08.2014</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Verfassungskaempfe_d1">
+			<head>
+                    <pb n="22"/>Verfassungskämpfe</head>
+			<div xml:id="Verfassungskaempfe_d1.1">
 				<head>Zürcher Kantonsverfassung 1869</head>
-				<p id="Verfassungskaempfe_p1">«Immerhin machen wir uns keine Illusionen: Man will in <idx type="place" norm="Zürich">Zürich</idx> etwas
-							Neues.»<com id="Verfassungskaempfe_c1"><ref type="lit">NZZ</ref>, 28. Januar 1868.</com> Mit diesen
-					Worten gestand die «Neue <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» im Januar 1868 ein, was die Liberalen
+				<p xml:id="Verfassungskaempfe_p1">«Immerhin machen wir uns keine Illusionen: Man will in <placeName key="Zürich">Zürich</placeName> etwas
+							Neues.»<com xml:id="Verfassungskaempfe_c1">
+                            <ref type="lit">NZZ</ref>, 28. Januar 1868.</com> Mit diesen
+					Worten gestand die «Neue <placeName key="Zürich">Zürcher</placeName> Zeitung» im Januar 1868 ein, was die Liberalen
 					des Kantons lange Zeit nicht wahrhaben wollten: Die Zeit für eine grundlegende
 					politische Veränderung war gekommen.<ref type="sum" target="Untergang_der_liberalen_Herrschaft_d1.3">Demokratische Bewegung<!--S. 14-17--></ref> Die Forderung nach mehr politischem Mitspracherecht für das
 					Volk wurde aus den Reihen der demokratischen Bewegung schon seit Jahren
@@ -38,53 +56,62 @@
 					Notwendigkeit für grundlegende Eingriffe in den Verfassungstext, hatte sich
 					dieser doch seit bald vierzig Jahren bewährt. Denn Ende der 1860er Jahre hatte
 					immer noch die liberale Restaurationsverfassung von 1831 ihre
-						Gültigkeit.<com id="Verfassungskaempfe_c2">Zur Geschichte der Verfassung des Kantons <idx type="place" norm="Zürich">Zürich</idx>
-							<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <abbr norm="Seite(n)">S.</abbr>
+						Gültigkeit.<com xml:id="Verfassungskaempfe_c2">Zur Geschichte der Verfassung des Kantons <placeName key="Zürich">Zürich</placeName>
+							<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						41–103; <ref type="lit">Kölz, Aufbruch</ref>; <ref type="lit">Dünki,
 							Verfassungsgeschichte</ref>; <ref type="lit">Staatsarchiv ZH, Zürcher
 							Verfassungsgeschichte</ref>; <ref type="lit">Schaffner, Demokratische
 							Bewegung</ref>.</com> </p>
-				<p id="Verfassungskaempfe_p2">Den <idx type="place" norm="Zürich">Zürcher</idx> Liberalen war es lange Zeit gelungen, oppositionelle Anliegen
+				<p xml:id="Verfassungskaempfe_p2">Den <placeName key="Zürich">Zürcher</placeName> Liberalen war es lange Zeit gelungen, oppositionelle Anliegen
 					abzuwehren. Mit dem Erstarken der demokratischen Bewegung in den 1860er Jahren
 					konnte der immer lauter werdende Ruf nach einer Veränderung der Verfassung
-					jedoch nicht mehr ignoriert werden.<ref type="sum" target="Untergang_der_liberalen_Herrschaft_d1">Zum Untergang des Systems<!--12-21--></ref><ref type="sum" target="Lochers_Pamphlete_und_das_System_d1">Zum Untergang des Systems<!--190-213--></ref> So wurde Mitte der 1860er Jahre erstmals über
-					eine Totalrevision der Verfassung beraten. Der <idx type="place" norm="Zürich">Zürcher</idx> Grosse Rat setzte dazu am
-					<d norm="20.06.1864">20. Juni 1864</d> eine Kommission ein, der auch Alfred Escher angehörte. Escher
+					jedoch nicht mehr ignoriert werden.<ref type="sum" target="Untergang_der_liberalen_Herrschaft_d1">Zum Untergang des Systems<!--12-21--></ref>
+                        <ref type="sum" target="Lochers_Pamphlete_und_das_System_d1">Zum Untergang des Systems<!--190-213--></ref> So wurde Mitte der 1860er Jahre erstmals über
+					eine Totalrevision der Verfassung beraten. Der <placeName key="Zürich">Zürcher</placeName> Grosse Rat setzte dazu am
+					<date when="1864-06-20">20. Juni 1864</date> eine Kommission ein, der auch Alfred Escher angehörte. Escher
 					vertrat die Meinung, dass keine grundlegende Anpassung nötig sei und lediglich
 					punktuelle Eingriffe in die Verfassung gemacht werden sollten. Eine
 					Totalrevision konnte in der Folge bereits im Grossen Rat vom Tisch gefegt
 					werden, da die Demokraten im kantonalen Parlament noch keinen genügend starken
 					Rückhalt hatten. Konzessionen wurden jedoch gemacht, indem der Grosse Rat dem Volk sieben
 					revidierte Verfassungsartikel zur Abstimmung vorlegte. Bei der Volksabstimmung
-					vom <d norm="15.10.1865">15. Oktober 1865</d> wurde der Partialrevision vollumfänglich zugestimmt.
+					vom <date when="1865-10-15">15. Oktober 1865</date> wurde der Partialrevision vollumfänglich zugestimmt.
 					Lediglich eine dieser Anpassungen hatte aber richtungweisenden Charakter: Seit
 					1831 oblag es einzig dem Grossen Rat, eine Verfassungsrevision einzuleiten. Mit
 					der Revision von 1865 konnte neu auf Initiative des Volkes eine
 					Verfassungsrevision veranlasst werden. Zudem lag es in der Hand der Stimmbürger,
 					zu bestimmen, ob die Revision durch den Grossen Rat oder einen Verfassungsrat
 					vorgenommen werden sollte.</p>
-				<p id="Verfassungskaempfe_p3">Folgenreich war dieser neue Verfassungsartikel, da damit den Demokraten ein
+				<p xml:id="Verfassungskaempfe_p3">Folgenreich war dieser neue Verfassungsartikel, da damit den Demokraten ein
 					Instrument gegeben wurde, mit dem sie letztlich die Restaurationsverfassung
 					aufbrechen konnten. In den Reihen der demokratischen Bewegung wurde heftig
 					agitiert, um mittels dieses neu gewonnenen Volksrechts eine weitgreifende
 					Verfassungsreform einzuleiten. Ende 1867 starteten die führenden Köpfe der
 					Demokraten eine Grossaktion, um die benötigten 10 000 Unterschriften zu sammeln.
-					Dies gelang innert kürzester Zeit. Das <idx type="place" norm="Zürich">Zürcher</idx> Stimmvolk konnte nun entscheiden,
+					Dies gelang innert kürzester Zeit. Das <placeName key="Zürich">Zürcher</placeName> Stimmvolk konnte nun entscheiden,
 					ob es die alte Verfassung beibehalten wollte oder die Zeit für eine umfassende
-					Reform gekommen war. Die <idx type="place" norm="Zürich">Zürcher</idx> setzten ein deutliches Zeichen: Am <d norm="26.01.1868">26. Januar
-					1868</d> sprachen sie sich für die Totalrevision der Kantonsverfassung aus.</p>
-				<p id="Verfassungskaempfe_p4">Erklärtes Ziel der Reformbefürworter war es, der Führungsriege um Alfred Escher
+					Reform gekommen war. Die <placeName key="Zürich">Zürcher</placeName> setzten ein deutliches Zeichen: Am <date when="1868-01-26">26. Januar
+					1868</date> sprachen sie sich für die Totalrevision der Kantonsverfassung aus.</p>
+				<p xml:id="Verfassungskaempfe_p4">Erklärtes Ziel der Reformbefürworter war es, der Führungsriege um Alfred Escher
 					die politische Macht zu entreissen und diese in die Hand des Volkes zu legen. So
 					hiess es in einem Aufruf der demokratischen Führung an die Stimmbürger des
-					Kantons <idx type="place" norm="Zürich">Zürich</idx>: «An der Spitze unsrer Forderungen aber steht der <hi rend="italics">Ausbau der Volksherrschaft</hi>, die Beiziehung des Volkes
+					Kantons <placeName key="Zürich">Zürich</placeName>: «An der Spitze unsrer Forderungen aber steht der <hi rend="italics">Ausbau der Volksherrschaft</hi>, die Beiziehung des Volkes
 					zur gesetzgeberischen Bethätigung: das <hi rend="italics">Referendum</hi> und
-					die <hi rend="italics">Intiative</hi>.»<com id="Verfassungskaempfe_c3"><ref type="lit">NZZ</ref>, 19.
+					die <hi rend="italics">Intiative</hi>.»<com xml:id="Verfassungskaempfe_c3">
+                            <ref type="lit">NZZ</ref>, 19.
 						Januar 1868 (Beilage).</com> Das Misstrauen gegenüber dem herrschenden
 					System wurde akzentuiert ausgedrückt, indem die Revision nicht an den Grossen
 					Rates delegiert wurde. Statt dessen entschied das Stimmvolk mit einer deutlichen
 					Mehrheit von 83%, dass ein Verfassungsrat eingesetzt werden sollte.</p>
-				<p id="Verfassungskaempfe_p5"><pb n="23"/>Alfred Escher, der 1868 den <idx type="place" norm="Zürich">Zürcher</idx> Grossen Rat präsidierte, nahm diese
+				<p xml:id="Verfassungskaempfe_p5">
+                        <pb n="23"/>Alfred Escher, der 1868 den <placeName key="Zürich">Zürcher</placeName> Grossen Rat präsidierte, nahm diese
 					Misstrauensbekundung gegenüber dem kantonalen Parlament mit Unverständnis auf.
 					In bezug auf die Einsetzung eines Verfassungsrates gab es aus Eschers Sicht
 					nichts zu beschönigen – es handelte sich um einen Vertrauensentzug des Volkes
@@ -95,206 +122,376 @@
 					erblickt werden kann.» Er zeigte sich aber gleichzeitig zuversichtlich, dass
 					dereinst «die unparteiische Geschichte» ein positives Licht auf die
 					Errungenschaften der liberalen Herrschaft der vorangegangenen Jahrzehnte werfen
-						werde.<com id="Verfassungskaempfe_c4">Rede Alfred Eschers vom <d norm="10.02.1868">10. Februar 1868</d>, in: <ref type="lit">NZZ</ref>, 11. Februar 1868.</com> </p>
-				<p id="Verfassungskaempfe_p6">Es ist unverkennbar, dass die sich anbahnenden politischen Veränderungen im
-					Kanton <idx type="place" norm="Zürich">Zürich</idx> Escher zu schaffen machten, zumal die demokratische Bewegung nicht
-					mit persönlichen Angriffen<ref type="sum" target="Untergang_der_liberalen_Herrschaft_p4"><!--13-14--></ref><ref type="sum" target="Lochers_Pamphlete_und_das_System_d1"><!--190-213--></ref> auf ihn und seine politischen Mitstreiter sparte. In dieser
-					«Zeit der Widerwärtigkeiten»<ref type="letter" target="K_2239"><!--Brief Johann
-							Jakob Blumer an Escher, 1. Februar 1868--></ref> standen
-					ihm Freunde wie der <idx type="place" norm="Glarus">Glarner</idx> Ständerat und Bundesrichter <idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumer</idx> als
+						werde.<com xml:id="Verfassungskaempfe_c4">Rede Alfred Eschers vom <date when="1868-02-10">10. Februar 1868</date>, in: <ref type="lit">NZZ</ref>, 11. Februar 1868.</com> </p>
+				<p xml:id="Verfassungskaempfe_p6">Es ist unverkennbar, dass die sich anbahnenden politischen Veränderungen im
+					Kanton <placeName key="Zürich">Zürich</placeName> Escher zu schaffen machten, zumal die demokratische Bewegung nicht
+					mit persönlichen Angriffen<ref type="sum" target="Untergang_der_liberalen_Herrschaft_p4"><!--13-14--></ref>
+                        <ref type="sum" target="Lochers_Pamphlete_und_das_System_d1"><!--190-213--></ref> auf ihn und seine politischen Mitstreiter sparte. In dieser
+					«Zeit der Widerwärtigkeiten»<!--Brief Johann
+							Jakob Blumer an Escher, 1. Februar 1868--> standen
+					ihm Freunde wie der <placeName key="Glarus">Glarner</placeName> Ständerat und Bundesrichter <persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName> als
 					Ratgeber zur Seite. Vor allem die Frage, ob Escher in der Verfassungsdiskussion
 					eine aktive Rolle einnehmen oder sich ihr gänzlich entziehen sollte, besprachen
-					die Freunde miteinander. <idx type="person" norm="Blumer Johann Jakob">Blumer</idx> gab dabei zu bedenken, dass Escher zwar als
+					die Freunde miteinander. <persName key="Blumer Johann Jakob">Blumer</persName> gab dabei zu bedenken, dass Escher zwar als
 					erfahrener Politiker den Verhandlungen des Verfassungsrates wichtige Impulse
 					geben könnte, dass er aber angesichts der politischen Konstellationen mit seinen
-					Ideen in der Minderheit bleiben musste. Escher teilte die Einschätzung <idx type="person" norm="Blumer Johann Jakob">seines
-					Freundes</idx>: «Warum soll ich unter solchen Umständen in nutzlosem Kampfe meine
-					Kräfte aufreiben?»<ref type="letter" target="K_2240"><!--Brief Escher an Johann
-							Jakob Blumer, 2. Februar 1868--></ref>
+					Ideen in der Minderheit bleiben musste. Escher teilte die Einschätzung <persName key="Blumer Johann Jakob">seines
+					Freundes</persName>: «Warum soll ich unter solchen Umständen in nutzlosem Kampfe meine
+					Kräfte aufreiben?»<!--Brief Escher an Johann
+							Jakob Blumer, 2. Februar 1868-->
 				</p>
-				<p id="Verfassungskaempfe_p7">So kam es, dass Escher im Februar 1868 verlauten liess, dass er eine allfällige
-					Wahl in den Verfassungsrat nicht annehmen würde.<com id="Verfassungskaempfe_c5"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 23. Februar 1868. – Zur Nominierung Eschers durch
-						verschiedene <idx type="place" norm="Zürich">Zürcher</idx> Kreise <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">NZZ</ref>, 22. Februar
-						1868.</com> Trotz dieser Mitteilung fiel bei der Verfassungsratswahl vom <d norm="08.03.1868">8.
-					März</d> eine grosse Anzahl von Stimmen auf ihn.<com id="Verfassungskaempfe_c6">Im Wahlkreis <idx type="place" norm="Wiedikon (Zürich)">Wiedikon</idx>, in dem 9
+				<p xml:id="Verfassungskaempfe_p7">So kam es, dass Escher im Februar 1868 verlauten liess, dass er eine allfällige
+					Wahl in den Verfassungsrat nicht annehmen würde.<com xml:id="Verfassungskaempfe_c5">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 23. Februar 1868. – Zur Nominierung Eschers durch
+						verschiedene <placeName key="Zürich">Zürcher</placeName> Kreise <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 22. Februar
+						1868.</com> Trotz dieser Mitteilung fiel bei der Verfassungsratswahl vom <date when="1868-03-08">8.
+					März</date> eine grosse Anzahl von Stimmen auf ihn.<com xml:id="Verfassungskaempfe_c6">Im Wahlkreis <placeName key="Wiedikon (Zürich)">Wiedikon</placeName>, in dem 9
 						Verfassungsräte gestellt werden mussten, erreichten nur zwei das absolute
-						Mehr (total 2209 Votanten): <idx type="person" norm="Zangger Hans Rudolf">Hans Rudolf Zangger</idx> (1599 Stimmen) und
-						Lieutenant <idx type="person" norm="Streuli Jakob">Jakob Streuli</idx> (1195 Stimmen). Am meisten Stimmen unter den
-						Nicht-Gewählten erhielten <idx type="person" norm="Locher Friedrich">Friedrich Locher</idx> (1085 Stimmen) und Alfred Escher
-						(955 Stimmen). <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 10. März 1868.</com> Durch
+						Mehr (total 2209 Votanten): <persName key="Zangger Hans Rudolf">Hans Rudolf Zangger</persName> (1599 Stimmen) und
+						Lieutenant <persName key="Streuli Jakob">Jakob Streuli</persName> (1195 Stimmen). Am meisten Stimmen unter den
+						Nicht-Gewählten erhielten <persName key="Locher Friedrich">Friedrich Locher</persName> (1085 Stimmen) und Alfred Escher
+						(955 Stimmen). <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 10. März 1868.</com> Durch
 					dieses positive Zeichen aus dem Volk liess sich Escher jedoch nicht von seinem
 					Vorhaben abbringen, gab erneut seinen Unwillen gegenüber einer Wahl in den
 					Verfassungsrat öffentlich bekannt und überliess so das Schicksal der neuen
-					Verfassung letztlich den demokratischen Kräften.<com id="Verfassungskaempfe_c7"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 13. März 1868.</com> </p>
-				<p id="Verfassungskaempfe_p8">Als der Verfassungsrat am <d norm="04.05.1868">4. Mai 1868</d> zu seiner konstituierenden Sitzung
+					Verfassung letztlich den demokratischen Kräften.<com xml:id="Verfassungskaempfe_c7">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 13. März 1868.</com> </p>
+				<p xml:id="Verfassungskaempfe_p8">Als der Verfassungsrat am <date when="1868-05-04">4. Mai 1868</date> zu seiner konstituierenden Sitzung
 					zusammentrat, tat er dies ohne Escher. Dies war ein Novum, denn seit den 1840er
 					Jahren hatte es keine verfassungsrelevanten Veränderungen gegeben, die nicht von
-					Escher massgeblich mitgestaltet oder gar initiiert wurden.<com id="Verfassungskaempfe_c8">Zur Rolle Eschers
-						bei Verfassungsrevisionen im Verlauf der 1840er und 1850er Jahre <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Koch, Netzwerke</ref>, <abbr norm="Seite(n)">S.</abbr> 194–200; <ref type="sum" target="Turicensia_d1.3"><!--Jung/Wiederkehr, Escher Briefe, Bd. 4, S. 70–74--></ref>. </com>1868
+					Escher massgeblich mitgestaltet oder gar initiiert wurden.<com xml:id="Verfassungskaempfe_c8">Zur Rolle Eschers
+						bei Verfassungsrevisionen im Verlauf der 1840er und 1850er Jahre <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Koch, Netzwerke</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 194–200; <ref type="sum" target="Turicensia_d1.3"><!--Jung/Wiederkehr, Escher Briefe, Bd. 4, S. 70–74--></ref>. </com>1868
 					stellte somit eine Zäsur dar für die kantonspolitische Wirksamkeit Alfred
-					Eschers. Dieser Bruch war auch Escher bewusst. In einem Brief an <idx type="person" norm="Blumer Johann Jakob">Johann Jakob
-					Blumer</idx> liess er seinen Blick zurück auf die erfolgreiche «Periode des
+					Eschers. Dieser Bruch war auch Escher bewusst. In einem Brief an <persName key="Blumer Johann Jakob">Johann Jakob
+					Blumer</persName> liess er seinen Blick zurück auf die erfolgreiche «Periode des
 					‚Systemes‘» zurückschweifen, «welche den allerdings langen Zeitraum von 1845 bis
-					1868 umfaßt» und «in welchem im <abbr norm="Canton">Ctn.</abbr> <idx type="place" norm="Zürich">Zürich</idx> &amp; in der Eidgenossenschaft unter
-					nicht gerade untergeordneter Mitwirkung des <abbr norm="Cantons">Cts.</abbr> <idx type="place" norm="Zürich">Zürich</idx> auf dem Gebiete der
+					1868 umfaßt» und «in welchem im <choice>
+                            <abbr>Ctn.</abbr>
+                            <expan>Canton</expan>
+                        </choice> <placeName key="Zürich">Zürich</placeName> &amp; in der Eidgenossenschaft unter
+					nicht gerade untergeordneter Mitwirkung des <choice>
+                            <abbr>Cts.</abbr>
+                            <expan>Cantons</expan>
+                        </choice> <placeName key="Zürich">Zürich</placeName> auf dem Gebiete der
 					Politik &amp; auf demjenigen der Pflege der idealen &amp; materiellen Güter
 					namhafte Fortschritte gemacht &amp; große Schöpfungen ins Leben gerufen worden
-							sind».<com id="Verfassungskaempfe_c9"><ref type="letter" target="K_2240"><!--Brief Escher an Johann
-							Jakob Blumer, 2. Februar 1868--></ref>. – Ähnliche Gedanken finden
-						sich auch in einer Präsidialrede Eschers vor dem <idx type="place" norm="Zürich">Zürcher</idx> Grossen Rat. <abbr norm="Vergleiche">Vgl.</abbr>
+							sind».<com xml:id="Verfassungskaempfe_c9"><!--Brief Escher an Johann
+							Jakob Blumer, 2. Februar 1868-->. – Ähnliche Gedanken finden
+						sich auch in einer Präsidialrede Eschers vor dem <placeName key="Zürich">Zürcher</placeName> Grossen Rat. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						Rede Alfred Eschers vom 28. Dezember 1868, in: <ref type="lit">NZZ</ref>,
 						29. Dezember 1868.</com> </p>
-				<p id="Verfassungskaempfe_p9">Knapp ein Jahr nach der ersten Sitzung des Verfassungsrates wurde dem <idx type="place" norm="Zürich">Zürcher
-</idx>
+				<p xml:id="Verfassungskaempfe_p9">Knapp ein Jahr nach der ersten Sitzung des Verfassungsrates wurde dem <placeName key="Zürich">Zürcher
+</placeName>
 					Stimmvolk die Kantonsverfassung vorgelegt. Dieses nahm die revidierte Fassung am
-					<d norm="18.04.1869">18. April 1869</d> mit klarem Mehr an.<com id="Verfassungskaempfe_c10">Die Verfassung wurde mit 35 458 Ja- gegen
-						22 366 Nein-Stimmen angenommen. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <abbr norm="Seite(n)">S.</abbr> 83</com> Was veränderte sich für den
-					Kanton <idx type="place" norm="Zürich">Zürich</idx> mit der neuen Verfassung? Der zentrale Unterschied lässt sich an
+					<date when="1869-04-18">18. April 1869</date> mit klarem Mehr an.<com xml:id="Verfassungskaempfe_c10">Die Verfassung wurde mit 35 458 Ja- gegen
+						22 366 Nein-Stimmen angenommen. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 83</com> Was veränderte sich für den
+					Kanton <placeName key="Zürich">Zürich</placeName> mit der neuen Verfassung? Der zentrale Unterschied lässt sich an
 					Artikel 1 illustrieren. In der Version von 1831 wurde die Verfassung als eine
 					repräsentative bezeichnet: Die Souveränität beruhte zwar auf der Gesamtheit des
 					Volkes, doch wurde sie ausgeübt «durch den Großen Rath als Stellvertreter <pb n="24"/>des
-							Volkes».<com id="Verfassungskaempfe_c11"><ref type="lit">Verfassung ZH 1831</ref>, <abbr norm="Artikel">Art.</abbr> 1.</com> Die
+							Volkes».<com xml:id="Verfassungskaempfe_c11">
+                            <ref type="lit">Verfassung ZH 1831</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 1.</com> Die
 					Verfassung von 1869 basierte hingegen auf dem Grundsatz, dass die Staatsgewalt
 					«unmittelbar durch die Aktivbürger und mittelbar durch die Behörden und Beamten
-					ausgeübt» werden sollte.<com id="Verfassungskaempfe_c12"><ref type="lit">Verfassung ZH 1869</ref>, <abbr norm="Artikel">Art.</abbr>
+					ausgeübt» werden sollte.<com xml:id="Verfassungskaempfe_c12">
+                            <ref type="lit">Verfassung ZH 1869</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice>
 						1.</com> Die Volksrechte wurden massiv ausgebaut und damit die
 					Kompetenzen der Repräsentanten – der Kantonsräte – geschwächt.</p>
-				<p id="Verfassungskaempfe_p10">In der Verfassung von 1831 stellt die Petition das einzige Instrument dar, mit
-					dem das Volk seine Begehren vorbringen konnte.<com id="Verfassungskaempfe_c13"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verfassung ZH 1831</ref>,<abbr norm="Artikel">Art.</abbr> 6.</com> Damit ermöglichte man ihm
+				<p xml:id="Verfassungskaempfe_p10">In der Verfassung von 1831 stellt die Petition das einzige Instrument dar, mit
+					dem das Volk seine Begehren vorbringen konnte.<com xml:id="Verfassungskaempfe_c13">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verfassung ZH 1831</ref>,<choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 6.</com> Damit ermöglichte man ihm
 					jedoch lediglich, Ansichten, Wünsche und Beschwerden beim Grossen Rat
 					einzubringen, ohne einen direkten Einfluss auf die gesetzgeberische Tätigkeit
 					nehmen zu können. Die Verfassung von 1869 gab dem Volk viel weitergehende
 					Möglichkeiten in die Hand, sich am legislativen Prozess zu beteiligen. Mit dem
 					Initiativrecht konnte das Volk einerseits den Erlass, die Aufhebung oder die
-					Abänderung von Gesetzen und Beschlüssen verlangen.<com id="Verfassungskaempfe_c14"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verfassung ZH 1869</ref>, <abbr norm="Artikel">Art.</abbr> 29.</com> Mittels Referendum konnte das
+					Abänderung von Gesetzen und Beschlüssen verlangen.<com xml:id="Verfassungskaempfe_c14">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verfassung ZH 1869</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 29.</com> Mittels Referendum konnte das
 					Volk andererseits über die gesetzgeberischen Akte des Kantonsparlaments
 					abstimmen. Davon betroffen waren alle Verfassungsänderungen, Gesetze und
-					Konkordate sowie ausgewählte Beschlüsse.<com id="Verfassungskaempfe_c15"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verfassung ZH
-							1869</ref>,<abbr norm="Artikel">Art.</abbr> 30.</com> </p>
-				<p id="Verfassungskaempfe_p11">Neben diesen Massnahmen, die dem Volk eine aktive Teilnahme am gesetzgeberischen
+					Konkordate sowie ausgewählte Beschlüsse.<com xml:id="Verfassungskaempfe_c15">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verfassung ZH
+							1869</ref>,<choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 30.</com> </p>
+				<p xml:id="Verfassungskaempfe_p11">Neben diesen Massnahmen, die dem Volk eine aktive Teilnahme am gesetzgeberischen
 					Prozess ermöglichten, schwächte die Verfassung von 1869 die Stellung der
 					Volksrepräsentanten, namentlich des kantonalen Parlaments. Diese Zäsur wird mit
 					der Umbenennung der Legislative von «Grosser Rat» zu «Kantonsrat» unterstrichen.
 					Die Amtsdauer der Kantonsräte wurde von vier auf drei Jahre
-						herabgesetzt.<com id="Verfassungskaempfe_c16"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verfassung ZH 1869</ref>, <abbr norm="Artikel">Art.</abbr>
+						herabgesetzt.<com xml:id="Verfassungskaempfe_c16">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verfassung ZH 1869</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice>
 						11.</com> Mitglieder des Regierungsrates konnten fortan nicht mehr
-					gleichzeitig im Kantonsrat Einsitz nehmen.<com id="Verfassungskaempfe_c17"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verfassung
-							ZH 1869</ref>, <abbr norm="Artikel">Art.</abbr> 33.</com> </p>
-				<p id="Verfassungskaempfe_p12">Eine weitere Schwächung des Repräsentativsystems stellte die Abschaffung der
+					gleichzeitig im Kantonsrat Einsitz nehmen.<com xml:id="Verfassungskaempfe_c17">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verfassung
+							ZH 1869</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 33.</com> </p>
+				<p xml:id="Verfassungskaempfe_p12">Eine weitere Schwächung des Repräsentativsystems stellte die Abschaffung der
 					indirekten Wahlen für den Kantonsrat dar. Zwar war auch in der Verfassung von
 					1831 die Wahl des kantonalen Parlaments Aufgabe des Volkes, doch gestand man den
-					Grossräten zu, einen kleinen Teil der Mitglieder selbst zu wählen.<com id="Verfassungskaempfe_c18">12 von
-						204 Grossratsmitgliedern wurden indirekt gewählt. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verfassung ZH 1831</ref>, <abbr norm="Artikel">Art.</abbr> 33.</com> Die Liberalen hatten diese
+					Grossräten zu, einen kleinen Teil der Mitglieder selbst zu wählen.<com xml:id="Verfassungskaempfe_c18">12 von
+						204 Grossratsmitgliedern wurden indirekt gewählt. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verfassung ZH 1831</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 33.</com> Die Liberalen hatten diese
 					Möglichkeit in der Vergangenheit genutzt, um verdiente politische Mitstreiter in
-					den Grossen Rat zu holen und so ihre Vormachtstellung zu untermauern.<com id="Verfassungskaempfe_c19"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Koch, Netzwerke</ref>, <abbr norm="Seite(n)">S.</abbr> 180.</com> Die Demokraten überliessen es nun gänzlich
+					den Grossen Rat zu holen und so ihre Vormachtstellung zu untermauern.<com xml:id="Verfassungskaempfe_c19">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Koch, Netzwerke</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 180.</com> Die Demokraten überliessen es nun gänzlich
 					dem Volk, seine Repräsentanten zu wählen.</p>
-				<p id="Verfassungskaempfe_p13">Flankiert wurden diese Bestimmungen durch weitere direktdemokratische Massnahmen.
+				<p xml:id="Verfassungskaempfe_p13">Flankiert wurden diese Bestimmungen durch weitere direktdemokratische Massnahmen.
 					Bislang oblag es dem kantonalen Parlament, die Regierungsräte und seit 1848 auch
-					die Ständeräte zu wählen. Neu führte das Volk nun diese Wahlen durch.<com id="Verfassungskaempfe_c20"><abbr norm="Vergleiche">Vgl.</abbr>
-							<ref type="lit">Verfassung ZH 1869</ref>, <abbr norm="Artikel">Art.</abbr> 36.</com> Zudem
+					die Ständeräte zu wählen. Neu führte das Volk nun diese Wahlen durch.<com xml:id="Verfassungskaempfe_c20">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+							<ref type="lit">Verfassung ZH 1869</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 36.</com> Zudem
 					reduzierte die neue Verfassung die Zahl der Regierungsräte von neun auf sieben
 					und legte fest, dass nur noch zwei Mitglieder der kantonalen Regierung
-					gleichzeitig den eidgenössischen Räten angehören durften.<com id="Verfassungskaempfe_c21"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verfassung ZH 1869</ref>, <abbr norm="Artikel">Art.</abbr> 39.</com> All diese Massnahmen
+					gleichzeitig den eidgenössischen Räten angehören durften.<com xml:id="Verfassungskaempfe_c21">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verfassung ZH 1869</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 39.</com> All diese Massnahmen
 					zielten darauf ab, Ämter- und Machtakkumulation zu unterbinden und damit
 					letztlich den Einfluss des Volkes zu stärken.</p>
-				<p id="Verfassungskaempfe_p14">Neben diesen Verfassungsänderungen, die den gesetzgeberischen Prozess zugunsten
+				<p xml:id="Verfassungskaempfe_p14">Neben diesen Verfassungsänderungen, die den gesetzgeberischen Prozess zugunsten
 					des Volkes veränderten, wurden auch in vielen anderen Bereichen Forderungen aus
 					der breiten Bevölkerung aufgenommen, die sozialpolitische Veränderungen
-					herbeiführen sollten.<com id="Verfassungskaempfe_c22">Anpassungen wurden unter anderem in folgenden Bereich
+					herbeiführen sollten.<com xml:id="Verfassungskaempfe_c22">Anpassungen wurden unter anderem in folgenden Bereich
 						vorgenommen: Förderung genossenschaftlicher Strukturen, Schutz der Arbeiter,
 						Bezahlung der ersten Militärausrüstung durch den Kanton, Glaubens-, Kultus-
 						und Lehrfreiheit in Kirchenfragen sowie unentgeltliche Volksschulen. Zu den
-						Anpassungen <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <abbr norm="Seite(n)">S.</abbr>
+						Anpassungen <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 							59–82.</com> Dazu gehörten etwa die Einführung von progressiven
-					Einkommens-, Vermögens- und Erbschaftssteuern.<com id="Verfassungskaempfe_c23">Gemäss der Verfassung von
+					Einkommens-, Vermögens- und Erbschaftssteuern.<com xml:id="Verfassungskaempfe_c23">Gemäss der Verfassung von
 						1831 sollten die Steuern «möglichst gleichmäßig nach Vermögen, Einkommen und
 						Erwerb» erhoben werden. 1869 wurde die Steuerpflicht nach «mäßiger und
-						gerechter Progression» eingeführt. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verfassung ZH 1831</ref>,
-							<abbr norm="Artikel">Art.</abbr> 18; <ref type="lit">Verfassung ZH 1869</ref>, <abbr norm="Artikel">Art.</abbr> 19.</com>
+						gerechter Progression» eingeführt. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verfassung ZH 1831</ref>,
+							<choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 18; <ref type="lit">Verfassung ZH 1869</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 19.</com>
 					Die Verfassung sah darüber hinaus die Errichtung einer staatlich kontrollierten
 					Kantonalbank vor, die Kredite und Hypotheken für Arbeiter, Handwerker und
 					kleinere Betriebe bereitstellen sollte. Dies war ein Kundensegment, das bislang
-					von den Privat- und Geschäftsbanken vernachlässigt wurde.<com id="Verfassungskaempfe_c24"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Verfassung ZH 1869</ref>, <abbr norm="Artikel">Art.</abbr> 24; <ref type="lit">Wetter,
+					von den Privat- und Geschäftsbanken vernachlässigt wurde.<com xml:id="Verfassungskaempfe_c24">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Verfassung ZH 1869</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 24; <ref type="lit">Wetter,
 							Zürcher Kantonalbank</ref>; <ref type="lit">Hauser, Zürcher
 							Kantonalbank</ref>; <ref type="lit">Nüscheler, Zürcher
 							Kantonalbank</ref>.</com> </p>
 			</div>
-			<div id="Verfassungskaempfe_d1.2">
-				<head><pb n="26"/>Revision der Bundesverfassung 1872/1874</head>
-				<p id="Verfassungskaempfe_p15">«Eine sofortige Wiederanregung der Bundesrevison erwarte ich nicht; die Herren
-					haben einstweilen in den Kantonen genug Werg an der Kunkel», schrieb <idx type="person" norm="Blumer Johann Jakob">Johann
-					Jakob Blumer</idx> 1868 an Escher.<ref type="letter" target="K_2241"><!--Brief Johann
-							Jakob Blumer an Escher, 7. Februar 1868--></ref>
-					Tatsächlich sah sich nicht nur der Kanton <idx type="place" norm="Zürich">Zürich</idx> tiefgreifenden politischen
+			<div xml:id="Verfassungskaempfe_d1.2">
+				<head>
+                        <pb n="26"/>Revision der Bundesverfassung 1872/1874</head>
+				<p xml:id="Verfassungskaempfe_p15">«Eine sofortige Wiederanregung der Bundesrevison erwarte ich nicht; die Herren
+					haben einstweilen in den Kantonen genug Werg an der Kunkel», schrieb <persName key="Blumer Johann Jakob">Johann
+					Jakob Blumer</persName> 1868 an Escher.<!--Brief Johann
+							Jakob Blumer an Escher, 7. Februar 1868-->
+					Tatsächlich sah sich nicht nur der Kanton <placeName key="Zürich">Zürich</placeName> tiefgreifenden politischen
 					Veränderungen ausgesetzt. Auch in anderen Kantonen hatte die demokratische
 					Bewegung Reformen eingeleitet, so dass auf eidgenössischer Ebene vorderhand
-					Zurückhaltung geübt wurde.<com id="Verfassungskaempfe_c25">Zu den Verfassungsreformen 1872 und 1874 <abbr norm="vergleiche">vgl.</abbr>
-							<ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <abbr norm="Seite(n)">S.</abbr> 477–626; <ref type="lit">Rappard, Bundesverfassung</ref>, <abbr norm="Seite(n)">S.</abbr> 315–327, 435–500. – Zu
-						den demokratischen Verfassungsreformen in den einzelnen Kantonen <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <abbr norm="Seite(n)">S.</abbr> 43–474.</com> </p>
-				<p id="Verfassungskaempfe_p16">Eine Vorreiterrolle nahm <idx type="place" norm="Basel-Landschaft">Basel-Landschaft</idx> ein. Hier führte das Volk bereits 1863
+					Zurückhaltung geübt wurde.<com xml:id="Verfassungskaempfe_c25">Zu den Verfassungsreformen 1872 und 1874 <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+							<ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 477–626; <ref type="lit">Rappard, Bundesverfassung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 315–327, 435–500. – Zu
+						den demokratischen Verfassungsreformen in den einzelnen Kantonen <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 43–474.</com> </p>
+				<p xml:id="Verfassungskaempfe_p16">Eine Vorreiterrolle nahm <placeName key="Basel-Landschaft">Basel-Landschaft</placeName> ein. Hier führte das Volk bereits 1863
 					eine neue Verfassung ein, in der sehr weitgehende Forderungen der demokratischen
 					Bewegung berücksichtigt wurden. In anderen Kantonen lief der
-					Demokratisierungsprozess weitgehend parallel zu den Entwicklungen in <idx type="place" norm="Zürich">Zürich</idx> ab.
-					Der demokratischen Bewegung im Kanton <idx type="place" norm="Thurgau">Thurgau</idx> etwa dienten die <idx type="place" norm="Zürich">Zürcher</idx>
-					Umwälzungen als Inspiration und Antrieb. Während man in <idx type="place" norm="Zürich">Zürich</idx> gegen das «System
-					Escher» vorging, opponierten die <idx type="place" norm="Thurgau">Thurgauer</idx> Demokraten gegen das «System
-					<idx type="person" norm="Häberlin Eduard">Häberlin</idx>». Gemeint war damit Eschers Studienfreund <idx type="person" norm="Häberlin Eduard">Eduard Häberlin</idx>, der in
-					seiner Heimat die Politik über Jahre prägte. Auch im Kanton <idx type="place" norm="Thurgau">Thurgau</idx> wurde
+					Demokratisierungsprozess weitgehend parallel zu den Entwicklungen in <placeName key="Zürich">Zürich</placeName> ab.
+					Der demokratischen Bewegung im Kanton <placeName key="Thurgau">Thurgau</placeName> etwa dienten die <placeName key="Zürich">Zürcher</placeName>
+					Umwälzungen als Inspiration und Antrieb. Während man in <placeName key="Zürich">Zürich</placeName> gegen das «System
+					Escher» vorging, opponierten die <placeName key="Thurgau">Thurgauer</placeName> Demokraten gegen das «System
+					<persName key="Häberlin Eduard">Häberlin</persName>». Gemeint war damit Eschers Studienfreund <persName key="Häberlin Eduard">Eduard Häberlin</persName>, der in
+					seiner Heimat die Politik über Jahre prägte. Auch im Kanton <placeName key="Thurgau">Thurgau</placeName> wurde
 					schliesslich die Verfassung 1869 in ähnlicher Weise wie im Nachbarkanton
 					revidiert.</p>
-				<p id="Verfassungskaempfe_p17">In den Kantonen <idx type="place" norm="Aargau">Aargau</idx> und <idx type="place" norm="Solothurn">Solothurn</idx> konnte durch die Demokraten zwar keine
+				<p xml:id="Verfassungskaempfe_p17">In den Kantonen <placeName key="Aargau">Aargau</placeName> und <placeName key="Solothurn">Solothurn</placeName> konnte durch die Demokraten zwar keine
 					Totalrevision der Kantonsverfassungen herbeigeführt werden; es gelang ihnen aber
 					im Verlauf der 1860er Jahre trotzdem, ihre Forderungen mittels
-					Verfassungsgesetzen einzubringen. In der <idx type="place" norm="Westschweiz">Westschweiz</idx> kam es in <idx type="place" norm="Genf">Genf</idx> zu teilweise
+					Verfassungsgesetzen einzubringen. In der <placeName key="Westschweiz">Westschweiz</placeName> kam es in <placeName key="Genf">Genf</placeName> zu teilweise
 					blutigen Auseinandersetzungen zwischen radikalen und demokratischen Kräften; das
 					demokratische Aufbegehren zeitigte aber keine Erfolge. In den Kantonen
-					<idx type="place" norm="Schaffhausen">Schaffhausen</idx> und <idx type="place" norm="Bern">Bern</idx> konnten die Reformbewegungen einzig Diskussionen und
+					<placeName key="Schaffhausen">Schaffhausen</placeName> und <placeName key="Bern">Bern</placeName> konnten die Reformbewegungen einzig Diskussionen und
 					Abstimmungen über ihre Anliegen herbeizuführen, drangen damit im Zuge der 1860er
 					Jahre aber noch nicht durch.</p>
-				<p id="Verfassungskaempfe_p18">Die politischen Entwicklungen in den Kantonen durften auf Bundesebene nicht
+				<p xml:id="Verfassungskaempfe_p18">Die politischen Entwicklungen in den Kantonen durften auf Bundesebene nicht
 					unbeachtet bleiben. Dies erkannte auch Alfred Escher. Zusammen mit dem
-					Nationalratspräsidenten und späteren Bundesrat <idx type="person" norm="Heer Joachim">Joachim Heer</idx> organisierte er
+					Nationalratspräsidenten und späteren Bundesrat <persName key="Heer Joachim">Joachim Heer</persName> organisierte er
 					Treffen mit verschiedenen Entscheidungsträgern, um «in Sachen der Revision der
 					Bundesverfassung &amp; zum Zwecke der Organisation unserer Partei in der
-					Bundesversammlung» aktiv zu werden.<com id="Verfassungskaempfe_c26"><ref type="letter" target="K_2342"><!--Brief
-							Escher an Johann Jakob Stehlin, 8. Juni 1869--></ref>. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_2304"><!--Brief Joachim Heer an Escher, 19. März
-							1869--></ref>; <ref type="letter" target="K_2305"><!--Brief Joachim
-							Heer an Escher, 23. März 1869--></ref>; <ref type="letter" target="K_2308"><!--Brief Joachim Heer an Escher, 1. April 1869--></ref>; <ref type="letter" target="K_2346"><!--Brief Joachim Heer an
-							Escher, 23. Juni 1869--></ref>.</com> </p>
-				<p id="Verfassungskaempfe_p19">Auch der Bundesrat reagierte auf die Zeichen der Zeit, indem er in seiner
-					Botschaft an die Bundesversammlung vom <d norm="17.06.1870">17. Juni 1870</d> verlauten liess, dass «die
+					Bundesversammlung» aktiv zu werden.<com xml:id="Verfassungskaempfe_c26"><!--Brief
+							Escher an Johann Jakob Stehlin, 8. Juni 1869-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <!--Brief Joachim Heer an Escher, 19. März
+							1869-->; <!--Brief Joachim
+							Heer an Escher, 23. März 1869-->; <!--Brief Joachim Heer an Escher, 1. April 1869-->; <!--Brief Joachim Heer an
+							Escher, 23. Juni 1869-->.</com> </p>
+				<p xml:id="Verfassungskaempfe_p19">Auch der Bundesrat reagierte auf die Zeichen der Zeit, indem er in seiner
+					Botschaft an die Bundesversammlung vom <date when="1870-06-17">17. Juni 1870</date> verlauten liess, dass «die
 					in einer Reihe von Kantonen veranstaltete Revision der Verfassungen im Sinne
 					einer Entwiklung nach der reinen Demokratie hin» die Frage aufwerfe, «ob das
-					Repräsentativsystem im Bunde nicht ebenfalls umzugestalten sei».<com id="Verfassungskaempfe_c27"><ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10006522">Botschaft
+					Repräsentativsystem im Bunde nicht ebenfalls umzugestalten sei».<com xml:id="Verfassungskaempfe_c27">
+                            <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10006522">Botschaft
 						des Bundesrathes an die h. Bundesversammlung, betreffend die Revision der
 						Bundesverfassung (vom 17. Juni 1870), in: <ref type="lit">BBl</ref> 1870 II, S.
 							665–666.</ref> </com>
 				</p>
-				<p id="Verfassungskaempfe_p20">Die Bundesversammlung nahm sich in der Folge der Sache an und setzte zur
-					entsprechenden Anpassung der Bundesverfassung am <d norm="12.07.1870">12. Juli 1870</d> eine Kommission
-					ein, in die auch Alfred Escher gewählt wurde.<com id="Verfassungskaempfe_c28">Zur Zusammensetzung der
-						19köpfigen Revisionskommission <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">NZZ</ref>, 14. Juli
+				<p xml:id="Verfassungskaempfe_p20">Die Bundesversammlung nahm sich in der Folge der Sache an und setzte zur
+					entsprechenden Anpassung der Bundesverfassung am <date when="1870-07-12">12. Juli 1870</date> eine Kommission
+					ein, in die auch Alfred Escher gewählt wurde.<com xml:id="Verfassungskaempfe_c28">Zur Zusammensetzung der
+						19köpfigen Revisionskommission <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 14. Juli
 						1870.</com> Die wohl wichtigste Neuerung, mit der sich die
 					Verfassungskommission auseinanderzusetzen hatte, war die Einführung von
 					Gesetzesreferendum und Gesetzesinitiative auf Bundesebene. Einer der
 					wortgewaltigsten Gegner dieser neuen Volksrechte war Alfred Escher. Er sprach
-					sich sowohl im Umfeld der <idx type="place" norm="Zürich">Zürcher</idx> Verfassungsreform von 1869 als auch auf
+					sich sowohl im Umfeld der <placeName key="Zürich">Zürcher</placeName> Verfassungsreform von 1869 als auch auf
 					eidgenössischer Ebene 1872 und 1874 dezidiert gegen direktdemokratische Reformen
 					aus. «In Kantonal- und vollends in eidgenössischen Verhältnissen gab ich dem
-					Representativsystem [...] den Vorzug vor der <abbr norm="sogenannt">sogen.</abbr> unmittelbaren
-						Demokratie»<com id="Verfassungskaempfe_c29">Autobiographische Aufzeichnungen von Alfred Escher, <abbr norm="zitiert">zit.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 1017.</com>, schrieb Escher in
-					seinen autobiographischen Aufzeichnungen.<com id="Verfassungskaempfe_c30">Zur Repräsentativdemokratie
-						während der schweizerischen Regeneration <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Schefold,
-							Volkssouveränität</ref>. – <idx type="person" norm="Constant (de Rebecque) Benjamin">Benjamin Constant</idx> gilt gemeinhin als
+					Representativsystem [...] den Vorzug vor der <choice>
+                            <abbr>sogen.</abbr>
+                            <expan>sogenannt</expan>
+                        </choice> unmittelbaren
+						Demokratie»<com xml:id="Verfassungskaempfe_c29">Autobiographische Aufzeichnungen von Alfred Escher, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 1017.</com>, schrieb Escher in
+					seinen autobiographischen Aufzeichnungen.<com xml:id="Verfassungskaempfe_c30">Zur Repräsentativdemokratie
+						während der schweizerischen Regeneration <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Schefold,
+							Volkssouveränität</ref>. – <persName key="Constant (de Rebecque) Benjamin">Benjamin Constant</persName> gilt gemeinhin als
 						prägender Schweizer Theoretiker der Idee, dass die politische
 						Handlungsfähigkeit des Volkes auf eine beschränkte Zahl von Repräsentanten
 						übertragen werden sollte. Den Gedanken legte er im 1818 erschienenen Werk
-						«Cours de politique constitutionnelle» dar. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Hofmann,
-							Constant</ref>; <ref type="lit">Kölz, Verfassungsgeschichte</ref> I, <abbr norm="Seite(n)">S.</abbr>
+						«Cours de politique constitutionnelle» dar. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Hofmann,
+							Constant</ref>; <ref type="lit">Kölz, Verfassungsgeschichte</ref> I, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 							235–246.</com>
 				</p>
-				<p id="Verfassungskaempfe_p21"><pb n="27"/>Aus den Reihen der demokratischen Bewegung wurde immer wieder kolportiert, dass
+				<p xml:id="Verfassungskaempfe_p21">
+                        <pb n="27"/>Aus den Reihen der demokratischen Bewegung wurde immer wieder kolportiert, dass
 					Escher zuweilen als Alleinherrscher wirke, der mit Hilfe seiner weitverzweigten
 					Netzwerke die politischen Geschicke des Landes lenke. Doch dieser Vorwurf
 					prallte an Eschers Demokratieverständnis ab. Kritiker mochten in Eschers Macht
@@ -303,14 +500,20 @@
 					ihm vom Volk übertragenen Aufgaben möglichst effektiv zu erfüllen. Er war
 					überzeugt, dass er als gewählter Volksvertreter im Sinne des Volkes und im
 					Auftrag des Volkes handelte.</p>
-				<p id="Verfassungskaempfe_p22">Escher misstraute der Urteilskraft des Volkes, das in seinen Augen ständig Gefahr
+				<p xml:id="Verfassungskaempfe_p22">Escher misstraute der Urteilskraft des Volkes, das in seinen Augen ständig Gefahr
 					lief, von Demagogen verführt zu werden. Deshalb hielt er eine gebildete Elite –
 					die gewählten Repräsentanten des Volkes – für besser geeignet, den Staat zu
 					führen. Er stellte dabei eine enge Verbindung von Volksbildung und
 					staatsbürgerlicher Mündigkeit her, weshalb er sich zeitlebens an vorderster
-					Front für die Bildungspolitik stark machte.<com id="Verfassungskaempfe_c31">Zu Eschers Rolle in der
-						kantonalen und nationalen Bildungspolitik <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Koch, 
-							Netzwerke</ref>, <abbr norm="Seite(n)">S.</abbr> 184–215.</com> Dies widerspiegelt sich auch bei
+					Front für die Bildungspolitik stark machte.<com xml:id="Verfassungskaempfe_c31">Zu Eschers Rolle in der
+						kantonalen und nationalen Bildungspolitik <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Koch, 
+							Netzwerke</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 184–215.</com> Dies widerspiegelt sich auch bei
 					Eschers Argumentation gegen das Referendum auf Bundesebene bei den
 					Revisionsdiskussionen von 1872. Es wurde in der Debatte wiederholt darauf
 					hingewiesen, dass man, «wenn man das Bundesreferendum einführe, auch für
@@ -319,18 +522,19 @@
 					Schulwesen verbessert worden, in direktestem Widerspruch. Konsequent müßte
 					übrigens dieses Argument dahin leiten, die Volksgesetzgebung einstweilen nicht
 					einzuführen, bis das neue und verbesserte Schulwesen seine Wirkung gethan
-							habe.»<com id="Verfassungskaempfe_c32"><ref type="lit">NZZ</ref>, 16. Dezember 1871
+							habe.»<com xml:id="Verfassungskaempfe_c32">
+                            <ref type="lit">NZZ</ref>, 16. Dezember 1871
 						(Nationalratssitzung vom 14. Dezember 1871).</com> Mit seinen Mahnungen
 					konnte Escher aber nicht durchdringen. Bei der Schlussabstimmung im Parlament
 					nahm dieses sowohl das Referendum als auch die Initiative in den Verfassungsentwurf
 					auf.</p>
-				<p id="Verfassungskaempfe_p23">Die Volksrechte waren nicht die einzige Neuerung, die in der
+				<p xml:id="Verfassungskaempfe_p23">Die Volksrechte waren nicht die einzige Neuerung, die in der
 					Verfassungskommission thematisiert wurde. Man nutzte die Gelegenheit, das
 					Verhältnis von Bund und Kantonen in verschiedener Hinsicht neu auszuloten.
 					Debatten wurden etwa in den Bereichen der Rechtsvereinheitlichung, der Armee und
 					des Unterrichtswesens sowie über das Verhältnis von Staat und Kirche
 					geführt.</p>
-				<p id="Verfassungskaempfe_p24">Escher tat sich in der Verfassungsdiskussion als Verfechter einer vernünftigen
+				<p xml:id="Verfassungskaempfe_p24">Escher tat sich in der Verfassungsdiskussion als Verfechter einer vernünftigen
 					Zuweisung von Kompetenzen an den Bund hervor. Einer weitgehenden Zentralisierung
 					des Militärwesens stand er positiv gegenüber. Auch befürwortete er, dass zivil-
 					und strafrechtliche Belange auf Bundesebene geregelt werden sollten. Escher
@@ -339,12 +543,14 @@
 					sei niemandem möglich, «sich bei der Verschiedenartigkeit unserer Gesetzgebung
 					zurechtzufinden». Escher sah dadurch «die Schweiz betreffs ihrer
 					Konkurrenzfähigkeit entschieden im Nachtheile» gegenüber anderen
-							Staaten.<com id="Verfassungskaempfe_c33"><ref type="lit">NZZ</ref>, 22. Dezember 1871
+							Staaten.<com xml:id="Verfassungskaempfe_c33">
+                            <ref type="lit">NZZ</ref>, 22. Dezember 1871
 						(Nationalratssitzung vom 20. Dezember 1871).</com>
 				</p>
-				<p id="Verfassungskaempfe_p25">Im Austarieren von Zentralisierung und Föderalismus folgte Escher einem
+				<p xml:id="Verfassungskaempfe_p25">Im Austarieren von Zentralisierung und Föderalismus folgte Escher einem
 					pragmatischen Grundsatz: «Wo die bundesstaatliche Stellung uns am Vorwärtsgehen
-					hindert, müssen wir uns auf den einheitlichen Boden stellen.»<com id="Verfassungskaempfe_c34"><ref type="lit">NZZ</ref>, 23. November 1871 (Nationalratssitzung vom 21.
+					hindert, müssen wir uns auf den einheitlichen Boden stellen.»<com xml:id="Verfassungskaempfe_c34">
+                            <ref type="lit">NZZ</ref>, 23. November 1871 (Nationalratssitzung vom 21.
 						November 1871).</com> Bei Fragen der Zentralisierung argumentierte Escher
 					nicht dogmatisch. Im konkreten Fall musste abgewogen werden, was für die Schweiz
 					am besten war. Während Escher in bezug auf die Rechtsprechung und die Armee zu
@@ -353,82 +559,102 @@
 					Recht für ein Hereinziehen des Volksschulwesens in die Kompetenz des Bundes
 					geltend machen könnte», wäre, «daß diese <pb n="28"/>Angelegenheit vom Bunde besser besorgt
 					werde als von den Kantonen». Escher war aber der Ansicht, dass sich dies nur von
-					einer «Minorität der Kantone» behaupten lasse.<com id="Verfassungskaempfe_c35"><ref type="lit">NZZ</ref>,
+					einer «Minorität der Kantone» behaupten lasse.<com xml:id="Verfassungskaempfe_c35">
+                            <ref type="lit">NZZ</ref>,
 						16. Dezember 1871 (Nationalratssitzung vom 14. Dezember 1871).</com>
 				</p>
-				<p id="Verfassungskaempfe_p26">Der Verfassungsentwurf, der schliesslich aus der Parlamentsdebatte resultierte,
+				<p xml:id="Verfassungskaempfe_p26">Der Verfassungsentwurf, der schliesslich aus der Parlamentsdebatte resultierte,
 					beinhaltete ein breites Spektrum an Neuerungen: von direktdemokratischen
 					Instrumenten über eine Neuregelung des Verhältnisses von Staat und Kirche bis
 					hin zu einem Artikel zum Vogel-, Fisch- und Wildschutz. Die revidierte
-					Verfassung wurde dem Volk am <d norm="12.05.1872">12. Mai 1872</d> zur Abstimmung vorgelegt. Mit einem
+					Verfassung wurde dem Volk am <date when="1872-05-12">12. Mai 1872</date> zur Abstimmung vorgelegt. Mit einem
 					knappen Stimmenmehr und einem eindeutigen Ständemehr von 13 ablehnenden gegen 9
-					zustimmende Kantone wurde der neuen Verfassung eine Abfuhr erteilt.<com id="Verfassungskaempfe_c36">Dem
+					zustimmende Kantone wurde der neuen Verfassung eine Abfuhr erteilt.<com xml:id="Verfassungskaempfe_c36">Dem
 						Entwurf stimmten 253 606 Stimmbürger zu, während er von 260 859 verworfen
-						wurde. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Rappard, Bundesverfassung</ref>, <abbr norm="Seite(n)">S.</abbr> 318.</com>
+						wurde. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Rappard, Bundesverfassung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 318.</com>
 				</p>
-				<p id="Verfassungskaempfe_p27"><idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumer</idx>, der sich im Ständerat mit der Verfassung beschäftigt hatte,
+				<p xml:id="Verfassungskaempfe_p27">
+                        <persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName>, der sich im Ständerat mit der Verfassung beschäftigt hatte,
 					sah diese Ablehnung in einem strategisch ungeschickten Entscheid begründet. Er
 					bedauerte in einem Brief an Escher die «unglückliche Revisionsgeschichte» und
 					machte den «unseligen Beschluß» dafür verantwortlich «in globo abstimmen zu
 					lassen»: «Es war beinahe undenkbar, daß bei der Totalabstimmung sich eine
-					Mehrheit von Standesstimmen ergeben werde, <abbr norm="und">u.</abbr> es wäre daher mir unbegreiflich,
+					Mehrheit von Standesstimmen ergeben werde, <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> es wäre daher mir unbegreiflich,
 					wie die Mehrheit der Revisionsfreunde dafür stimmen konnte, sich auf so
-					muthwillige Weise eine Niederlage zu bereiten.»<com id="Verfassungskaempfe_c37"><ref type="letter" target="K_2624"><!--Brief Johann Jakob Blumer an Escher, 11. Juni 1872
-							(K_2624)--></ref>.</com> Eine Abstimmung über einzelne Artikel – da lag
-					<idx type="person" norm="Blumer Johann Jakob">Blumer</idx> wohl richtig – hätte zumindest eine partielle Revision der Verfassung
+					muthwillige Weise eine Niederlage zu bereiten.»<com xml:id="Verfassungskaempfe_c37"><!--Brief Johann Jakob Blumer an Escher, 11. Juni 1872
+							(K_2624)-->.</com> Eine Abstimmung über einzelne Artikel – da lag
+					<persName key="Blumer Johann Jakob">Blumer</persName> wohl richtig – hätte zumindest eine partielle Revision der Verfassung
 					ermöglicht.</p>
-				<p id="Verfassungskaempfe_p28">Die Reformbefürworter liessen sich durch diesen Rückschlag nicht entmutigen. Bereits im Dezember 1872 
+				<p xml:id="Verfassungskaempfe_p28">Die Reformbefürworter liessen sich durch diesen Rückschlag nicht entmutigen. Bereits im Dezember 1872 
 					beschloss die Bundesversammlung, die Revisionsverhandlungen erneut aufzunehmen, und verlangte vom Bundesrat die Ausarbeitung eines
 					Entwurfs. Im Juli 1873 lag der neue Verfassungstext vor, dessen sich daraufhin
 					eine parlamentarische Kommission annahm. Erneut wurde Alfred Escher in die
-					Verfassungskommission gewählt.<com id="Verfassungskaempfe_c38">Die Wahl wurde am <d norm="17.07.1873">17. Juli 1873</d>
-						durchgeführt. Zur Zusammensetzung der Revisionskommission <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">NZZ</ref>, 18. Juli 1873</com>
+					Verfassungskommission gewählt.<com xml:id="Verfassungskaempfe_c38">Die Wahl wurde am <date when="1873-07-17">17. Juli 1873</date>
+						durchgeführt. Zur Zusammensetzung der Revisionskommission <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 18. Juli 1873</com>
 				</p>
-				<p id="Verfassungskaempfe_p29">Man ging nun daran, die Ursachen für die Niederlage zu analysieren und durch
+				<p xml:id="Verfassungskaempfe_p29">Man ging nun daran, die Ursachen für die Niederlage zu analysieren und durch
 					gezielte Eingriffe vom gescheiterten Entwurf zu retten, was zu retten war.
 					Dreh- und Angelpunkt war dabei die Rechtsvereinheitlichung. Bei der Abstimmung
 					von 1872 hatte sich eine breite Front gegen die Verlagerung von Kompetenzen von
 					den Kantonen zum Bund hin gebildet, die letztlich für die Ablehnung des
-					Verfassungsentwurfes verantwortlich war.<com id="Verfassungskaempfe_c39">Auf Widerstand stiessen vor allem
+					Verfassungsentwurfes verantwortlich war.<com xml:id="Verfassungskaempfe_c39">Auf Widerstand stiessen vor allem
 						die Zentralisierungsbestrebungen in den Bereichen Militär, Zivil- und
 						Strafrecht sowie dem Volksschulwesen.</com>
-					Wortführer waren hierbei die <idx type="place" norm="Westschweiz">Westschweizer</idx> Radikalen um <idx type="person" norm="Fazy James">James Fazy</idx>, die auch von
-					Eschers einstigem politischen Weggefährten <idx type="person" norm="Dubs Jakob">Jakob Dubs</idx> unterstützt wurden.
-					Geteilt wurden die Besorgnisse aber auch von der konservativen <idx type="place" norm="Zentralschweiz">Innerschweiz</idx>, die
+					Wortführer waren hierbei die <placeName key="Westschweiz">Westschweizer</placeName> Radikalen um <persName key="Fazy James">James Fazy</persName>, die auch von
+					Eschers einstigem politischen Weggefährten <persName key="Dubs Jakob">Jakob Dubs</persName> unterstützt wurden.
+					Geteilt wurden die Besorgnisse aber auch von der konservativen <placeName key="Zentralschweiz">Innerschweiz</placeName>, die
 					um ihre Kantonalsouveränität fürchtete. Diesen Bedenken trug die
 					Verfassungskommission Rechnung, indem im neuen Entwurf auf eine bundesweite
 					Zentralisierung des Zivil- und Strafrechts verzichtet wurde.</p>
-				<p id="Verfassungskaempfe_p30">Ein weiterer Eingriff erfolgte bei den Volksrechten. Gesetzesreferendum und
+				<p xml:id="Verfassungskaempfe_p30">Ein weiterer Eingriff erfolgte bei den Volksrechten. Gesetzesreferendum und
 					Gesetzesinitiative gaben im Parlament erneut Anlass zu ausführlichen Debatten.
 					Das Parlament erteilte schliesslich der Gesetzesinitiative eine Abfuhr, während
 					das Gesetzesreferendum beibehalten wurde. Die Gegner der Initiative – die
-					<idx type="place" norm="Westschweiz">Westschweizer</idx> Radikalen und die Liberalen um Alfred Escher – wollten eine zu
+					<placeName key="Westschweiz">Westschweizer</placeName> Radikalen und die Liberalen um Alfred Escher – wollten eine zu
 					starke Schwächung des Repräsentativprinzips auf Bundesebene verhindern. Damit
 					konnten sie sich gegen die Deutschschweizer Demokraten durchsetzen. Das
 					Gesetzesreferendum hatte Escher mittlerweile als notwendiges Übel akzeptiert.
 					Bei den Verfassungsdiskussionen gab sich Escher kompromissbereit. Auch wenn er
 					ein dezidierter Gegner von direktdemokratischen Neuerungen war, so wollte er
-					doch in erster Linie die Verfassungskämpfe zu einem Ende zu führen.<com id="Verfassungskaempfe_c40">Zu
-						Eschers Kompromissbereitschaft in der Verfassungsdiskussion <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">NZZ</ref>, 12. Dezember 1873 (Nationalratssitzung vom 10.
+					doch in erster Linie die Verfassungskämpfe zu einem Ende zu führen.<com xml:id="Verfassungskaempfe_c40">Zu
+						Eschers Kompromissbereitschaft in der Verfassungsdiskussion <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 12. Dezember 1873 (Nationalratssitzung vom 10.
 						Dezember 1873).</com> </p>
-				<p id="Verfassungskaempfe_p31">In anderen Bereichen wurde der gescheiterte Verfassungsentwurf von 1872 weitgehend übernommen, so etwa bei der 
+				<p xml:id="Verfassungskaempfe_p31">In anderen Bereichen wurde der gescheiterte Verfassungsentwurf von 1872 weitgehend übernommen, so etwa bei der 
 					Zentralisierung des Militärwesens. Eine Verschärfung erfuhr <pb n="29"/>die Verfassung im zweiten Anlauf gar in Bezug auf das
 					Verhältnis von Staat und Kirche. Anfang der 1870er Jahre befand sich der
 					Kulturkampf auf seinem Höhepunkt. Beim Vorantreiben der Säkularisierung zogen
 					radikale, liberale und demokratische Kräften ausnahmsweise am selben Strick.
 					Ihnen stand einzig das konservative Lager gegenüber, das der zunehmenden
 					Entkirchlichung von Gesellschaft, Bildung und Politik mit Vehemenz entgegentrat
-					– jedoch ohne Erfolg.<com id="Verfassungskaempfe_c41">Zum Kulturkampf in der Schweiz <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Stadler, Kulturkampf</ref>.</com> </p>
-				<p id="Verfassungskaempfe_p32">Am <d norm="12.04.1874">12. April 1874</d>, eine Woche vor dem <d norm="19.04.1874">Abstimmungssonntag</d>, hielt Escher einen
+					– jedoch ohne Erfolg.<com xml:id="Verfassungskaempfe_c41">Zum Kulturkampf in der Schweiz <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Stadler, Kulturkampf</ref>.</com> </p>
+				<p xml:id="Verfassungskaempfe_p32">Am <date when="1874-04-12">12. April 1874</date>, eine Woche vor dem <date when="1874-04-19">Abstimmungssonntag</date>, hielt Escher einen
 					Vortrag zur Verfassungsrevision. Rund 300 Leute fanden sich auf der
-					Bürgliterrasse ein, auf der heute die Kirche <idx type="place" norm="Enge (Zürich)">Enge</idx> steht, um seinen Ausführungen
+					Bürgliterrasse ein, auf der heute die Kirche <placeName key="Enge (Zürich)">Enge</placeName> steht, um seinen Ausführungen
 					zu folgen. Escher drückte dabei sein Misstrauen gegenüber den
 					direktdemokratischen Instrumenten aus, von denen man – so Escher – auch in der
-					«Schwesterrepublik in <idx type="place" norm="Amerika">Amerika</idx>» nichts wisse. Auch in den Kantonen, in denen die
+					«Schwesterrepublik in <placeName key="Amerika">Amerika</placeName>» nichts wisse. Auch in den Kantonen, in denen die
 					Volksrechte bereits ausgebaut worden waren, hatten sich diese noch zu bewähren.
 					Escher stellte fest, dass die Intiativbegehren in den kantonalen Parlamenten
 					einzig für Verwirrung sorgten.</p>
-				<p id="Verfassungskaempfe_p33">Trotz seiner Vorbehalte gegenüber dem Referendum verfolgte Escher die Absicht,
+				<p xml:id="Verfassungskaempfe_p33">Trotz seiner Vorbehalte gegenüber dem Referendum verfolgte Escher die Absicht,
 					die Zuhörer für die Verfassungsrevision zu gewinnen. Denn die positiven Aspekte
 					der Verfassung überwogen die negativen. Escher erhoffte sich, dass «endlich
 					einmal diese Verfassungswirren einen Abschluß finden», so dass in der Schweiz
@@ -437,45 +663,64 @@
 					Verfassungsstreitigkeiten lähmend aus. Das Referendum war der Wermutstropfen in
 					einer ansonsten von Escher als durchwegs positiv empfundenen Verfassungsreform.
 					Denn die Bildung eines einheitlichen Schweizer Wirtschaftsraums wurde durch
-					die Revision vorangetrieben.<com id="Verfassungskaempfe_c42">Kölz schreibt zu den Verfassungsrevisionen
+					die Revision vorangetrieben.<com xml:id="Verfassungskaempfe_c42">Kölz schreibt zu den Verfassungsrevisionen
 						1872/1874: «Im Gegensatz zu 1848 strebte man nun einen einheitlichen
-						Wirtschaftsraum an ohne allerdings diesen Ausdruck zu verwenden.» <ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <abbr norm="Seite(n)">S.</abbr> 625.</com> So endete
+						Wirtschaftsraum an ohne allerdings diesen Ausdruck zu verwenden.» <ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 625.</com> So endete
 					Escher seinen Appell für die neue Verfassung mit den Worten: «Keiner wird es
 					bereuen, das Bewußtsein in sich tragen zu können, daß er mit dazu beigetragen
 					habe, unser Vaterland im Wettstreit zivilisatorischer Bestrebungen kampffähiger
-					zu machen.»<com id="Verfassungskaempfe_c43">Zu Eschers Vortrag in <idx type="place" norm="Enge (Zürich)">Zürich-Enge</idx> vom <d norm="12.04.1874">12. April 1874</d> <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">NZZ</ref>, 14. April 1874.</com> </p>
-				<p id="Verfassungskaempfe_p34">Die Verfassung von 1874 war eine Kompromisslösung, die sowohl im radikalen und
+					zu machen.»<com xml:id="Verfassungskaempfe_c43">Zu Eschers Vortrag in <placeName key="Enge (Zürich)">Zürich-Enge</placeName> vom <date when="1874-04-12">12. April 1874</date> <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 14. April 1874.</com> </p>
+				<p xml:id="Verfassungskaempfe_p34">Die Verfassung von 1874 war eine Kompromisslösung, die sowohl im radikalen und
 					liberalen als auch im demokratischen Lager auf Akzeptanz stossen sollte. Dieses
 					politische Kalkül ging auf. Anders als noch 1872 erfuhr die Verfassung bei der
-					Abstimmung vom <d norm="19.04.1874">19. April 1874</d> eine breite Zustimmung. 340 199 Stimmbürger sowie
+					Abstimmung vom <date when="1874-04-19">19. April 1874</date> eine breite Zustimmung. 340 199 Stimmbürger sowie
 					13½ Stände sprachen sich für die revidierte Verfassung aus. Gegen die Verfassung
-					votierten 198 013 Stimmbürger sowie 8½ Stände. Die <idx type="place" norm="Westschweiz">Westschweizer</idx> Radikalen, die
+					votierten 198 013 Stimmbürger sowie 8½ Stände. Die <placeName key="Westschweiz">Westschweizer</placeName> Radikalen, die
 					noch 1872 gegen die neue Verfassung gestimmt hatten, konnten für den neuen
 					Entwurf gewonnen werden. Anders die katholisch-konservativen Kantone: Die verschärften «Kulturkampfartikel» liessen hier die Ablehnung weiterhin hoch
 					ausfallen – ein Umstand, den die Verfassungsbefürworter in Kauf nehmen
-					mussten.<com id="Verfassungskaempfe_c44">Zu den «Kulturkampfartikeln» in der Bundesverfassung <abbr norm="vergleiche">vgl.</abbr> <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D10388.php"><ref type="lit">HLS online</ref>, Ausnahmeartikel</ref>.</com>
+					mussten.<com xml:id="Verfassungskaempfe_c44">Zu den «Kulturkampfartikeln» in der Bundesverfassung <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref target="http://www.hls-dhs-dss.ch/textes/d/D10388.php">
+                                <ref type="lit">HLS online</ref>, Ausnahmeartikel</ref>.</com>
 				</p>
-				<p id="Verfassungskaempfe_p35">Mit den Verfassungsrevisionen auf Kantons- und Bundesebene der 1860er und 1870er
+				<p xml:id="Verfassungskaempfe_p35">Mit den Verfassungsrevisionen auf Kantons- und Bundesebene der 1860er und 1870er
 					Jahre endete die Zeit der Repräsentativdemokratie in der Schweiz. Bei den
 					«48ern» um Alfred Escher, die nicht zuletzt dank des repräsentativen Systems die
 					Schweiz zum Erfolg geführt hatten, stiess die direkte Demokratie auf
-						Unverständnis.<com id="Verfassungskaempfe_c45">Die Bezeichnung «48er» für Politiker, die den 1848er
-						Geist («The Spirit of 48») geatmet hatten, wurde erstmals von Joseph Jung verwendet. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Projekt Schweiz</ref>.</com> Gar
-					als absurd bezeichnete Eschers Jugendfreund <idx type="person" norm="Tschudi Johann Jakob">Johann Jakob Tschudi</idx> die Volksabstimmungen über die Beschlüsse der gewählten Repräsentanten: «Gesetze, die von
+						Unverständnis.<com xml:id="Verfassungskaempfe_c45">Die Bezeichnung «48er» für Politiker, die den 1848er
+						Geist («The Spirit of 48») geatmet hatten, wurde erstmals von Joseph Jung verwendet. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Projekt Schweiz</ref>.</com> Gar
+					als absurd bezeichnete Eschers Jugendfreund <persName key="Tschudi Johann Jakob">Johann Jakob Tschudi</persName> die Volksabstimmungen über die Beschlüsse der gewählten Repräsentanten: «Gesetze, die von
 					Männern, die vom Volke gewählt sind, also faktisch das Vertrauen des Volkes
 					genießen müßen [...] noch einm[a]l Volksversammlungen zur Begutachtung u[n]d zum
 					Placet vorzulegen, ist ein so absurdes Vorgehen, daß man wirklich an dem
 					gesunden Verstande derer, die solches in Vorschlag bringen, zweifeln möchte
-							[...].»<com id="Verfassungskaempfe_c46"><ref type="letter" target="K_2174"><!--Brief Johann Jakob Tschudi
-							an Escher, 8. November 1866--></ref>.</com> </p>
-				<p id="Verfassungskaempfe_p36"><pb n="30"/>In der Folge schieden nicht wenige der ehemaligen liberalen Köpfe aus den kantonalen und eidgenössischen Spitzenpositionen aus. Im Vorfeld der
-					Verfassungsrevision auf Bundesebene schrieb etwa <idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumer</idx> an Escher:
+							[...].»<com xml:id="Verfassungskaempfe_c46"><!--Brief Johann Jakob Tschudi
+							an Escher, 8. November 1866-->.</com> </p>
+				<p xml:id="Verfassungskaempfe_p36">
+                        <pb n="30"/>In der Folge schieden nicht wenige der ehemaligen liberalen Köpfe aus den kantonalen und eidgenössischen Spitzenpositionen aus. Im Vorfeld der
+					Verfassungsrevision auf Bundesebene schrieb etwa <persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName> an Escher:
 					«Auch gestehe ich, daß ich einem Bundes-Referendum, welches mit der Zeit
-					allerdings kommen kann, schwerlich Geschmack abgewinnen könnte <abbr norm="und">u.</abbr> es gerne
-					Andern überlassen will, mit demselben zu regieren.»<com id="Verfassungskaempfe_c47"><ref type="letter" target="K_2241"><!--Brief Johann Jakob Blumer an Escher, 7. Februar 1868--></ref>.</com>
+					allerdings kommen kann, schwerlich Geschmack abgewinnen könnte <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> es gerne
+					Andern überlassen will, mit demselben zu regieren.»<com xml:id="Verfassungskaempfe_c47"><!--Brief Johann Jakob Blumer an Escher, 7. Februar 1868-->.</com>
 				</p>
 			</div>
-			<p id="Verfassungskaempfe_p37"><hi rend="italics">Björn Koch</hi> </p>
+			<p xml:id="Verfassungskaempfe_p37">
+                    <hi rend="italics">Björn Koch</hi> </p>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>

@@ -1,44 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Wahlkaempfe" name="Wahlkämpfe">
-	<metadata>
-		<title>Wahlkämpfe</title>
-		<author>
-			<name>Björn Koch, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wahlkaempfe">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wahlkämpfe</title>
+                <author>
+			Björn Koch, unter der Leitung von Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1852–1866).
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1852–1866).
 				Wirtschaftsliberales Zeitfenster, Gründungen, Aussenpolitik, mit Beiträgen von
 				Claudia Aufdermauer, Bruno Fischer, Joseph Jung, Björn Koch, Katrin Rigort und Sandra
 				Wiederkehr (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-				Escher-Stiftung, Band 5), Zürich 2013</volume_title>
-			<short_title>Jung, Escher Briefe, Band 5</short_title>
-			<volume>5</volume>
-			<page>100–110</page>
-		</source>
-		<description>Bundesratswahlen 1855 – Nationalratswahlen 1857 – Bundesratswahlen 1857</description>
-		<revision>
-			<change>XML-Grundstruktur erstellt, NB, 22.07.2013 </change>
-			<change>Migrationsverifizierung umgesetzt, RO, 23.7.2013</change>
-			<change>Auszeichnung 1 umgesetzt, MA, 24.7.2013</change>
-			<change>Verifizierung 1 umgesetzt, NP, 29.07.2013</change>
-			<change>Auszeichnung 2 umgesetzt, MB, 14.08.2013</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Wahlkaempfe_d1">
-			<head><pb n="100"/>Wahlkämpfe</head>
-			<div id="Wahlkaempfe_d1.1">
+				Escher-Stiftung, Band 5), Zürich 2013</title>
+                    <title type="short">Jung, Escher Briefe, Band 5</title>
+                    <ref type="volume" target="V5">100–110</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Bundesratswahlen 1855 – Nationalratswahlen 1857 – Bundesratswahlen 1857</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, NB, 22.07.2013 </change>
+                <change>Migrationsverifizierung umgesetzt, RO, 23.7.2013</change>
+                <change>Auszeichnung 1 umgesetzt, MA, 24.7.2013</change>
+                <change>Verifizierung 1 umgesetzt, NP, 29.07.2013</change>
+                <change>Auszeichnung 2 umgesetzt, MB, 14.08.2013</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Wahlkaempfe_d1">
+			<head>
+                    <pb n="100"/>Wahlkämpfe</head>
+			<div xml:id="Wahlkaempfe_d1.1">
 				<head/>
-				<p id="Wahlkaempfe_p1">Seit Eschers Einzug in den <idx type="place" norm="Zürich">Zürcher</idx> Grossen Rat im Jahr 1844 war für ihn die
+				<p xml:id="Wahlkaempfe_p1">Seit Eschers Einzug in den <placeName key="Zürich">Zürcher</placeName> Grossen Rat im Jahr 1844 war für ihn die
 					regelmässige Auseinandersetzung mit Wahlen zur Selbstverständlichkeit geworden.
 					Immer wieder galt es, Ämter und Positionen zu besetzen, auf die zahlreiche
 					Kandidaten aspirierten. Dass die Wahlkämpfe nicht eben zimperlich geführt
 					wurden, erfuhr Escher bereits im vergifteten Klima der 1840er Jahre, als Themen
 					wie die Jesuitenberufung und die Formierung des Sonderbunds die politische
-					Agenda prägten.<com id="Wahlkaempfe_c1">Zu den Angriffen der Konservativen auf Escher in den
-						1840er Jahren <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 199–212; <ref type="sum" target="Aufstieg_d1.3"><!--Jung/Koch, Escher Briefe, Bd. 3, S. 25–26--></ref>.</com>
+					Agenda prägten.<com xml:id="Wahlkaempfe_c1">Zu den Angriffen der Konservativen auf Escher in den
+						1840er Jahren <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 199–212; <ref type="sum" target="Aufstieg_d1.3"><!--Jung/Koch, Escher Briefe, Bd. 3, S. 25–26--></ref>.</com>
 					Auch im jungen Bundesstaat änderte sich nichts am Umstand, dass Sitze und Ämter
 					zuweilen hart umkämpft waren – im Gegenteil: Durch die Bundesverfassung von 1848
 					fand eine Kompetenzverlagerung von den Kantonen zum Bund statt, die ihren
@@ -46,537 +69,843 @@
 					Bundesstaat legten fortan das eidgenössische Parlament und der Bundesrat den
 					politischen Kurs fest. Kein Wunder also, dass gerade die Besetzung dieser
 					Schlüsselpositionen immer wieder Anlass zu Debatten und Auseinandersetzungen
-					bot.<com id="Wahlkaempfe_c2">Die Auseinandersetzungen lassen sich besonders anhand von
-						Eisenbahnprojekten, der Hochschulfrage und der Aussenpolitik illustrieren. <abbr norm="Vergleiche">Vgl.</abbr> die relevanten Ausführungen, in: <ref type="lit">Jung, Aufbruch</ref>.</com> «In der ganzen Schweiz – beginnt
-					man auf die bevorstehenden Wahlen hin zu agitiren», schrieb der <idx type="place" norm="Bern">Berner</idx> Nationalrat <ref type="kbp"/>
-					<idx type="person" norm="Gonzenbach August von">August von Gonzenbach</idx> im Umfeld der
-					Parlamentswahlen des Jahres 1857 an Alfred Escher; «wir werden ganz <idx type="place" norm="Amerika">amerikanische</idx> Zustände erhalten – wo man den
-					politischen Gegner auf das schonungsloseste bekämpft.»<com id="Wahlkaempfe_c3"><ref type="letter" target="K_1674"><!--Brief August von Gonzenbach an Escher, 17. Oktober 1857 (BAR J I.67-8)--></ref>.</com>
-					Dass die «<idx type="place" norm="Amerika">amerikanischen</idx> Zustände» eben auch Schweizer Zustände
+					bot.<com xml:id="Wahlkaempfe_c2">Die Auseinandersetzungen lassen sich besonders anhand von
+						Eisenbahnprojekten, der Hochschulfrage und der Aussenpolitik illustrieren. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> die relevanten Ausführungen, in: <ref type="lit">Jung, Aufbruch</ref>.</com> «In der ganzen Schweiz – beginnt
+					man auf die bevorstehenden Wahlen hin zu agitiren», schrieb der <placeName key="Bern">Berner</placeName> Nationalrat 
+					<persName key="Gonzenbach August von">August von Gonzenbach</persName> im Umfeld der
+					Parlamentswahlen des Jahres 1857 an Alfred Escher; «wir werden ganz <placeName key="Amerika">amerikanische</placeName> Zustände erhalten – wo man den
+					politischen Gegner auf das schonungsloseste bekämpft.»<com xml:id="Wahlkaempfe_c3"><!--Brief August von Gonzenbach an Escher, 17. Oktober 1857 (BAR J I.67-8)-->.</com>
+					Dass die «<placeName key="Amerika">amerikanischen</placeName> Zustände» eben auch Schweizer Zustände
 					waren, bekam Escher im Zuge seiner politischen Laufbahn immer wieder zu
 					spüren.</p>
 			</div>
-			<div id="Wahlkaempfe_d1.2">
+			<div xml:id="Wahlkaempfe_d1.2">
 				<head>Bundesratswahlen 1855: Krankheit und Pannen</head>
-				<p id="Wahlkaempfe_p2">Mit Wahlen waren verschiedene Unwägbarkeiten verbunden. Dies
+				<p xml:id="Wahlkaempfe_p2">Mit Wahlen waren verschiedene Unwägbarkeiten verbunden. Dies
 					zeigte sich 1855 exemplarisch, als es galt, zwei vakante Bundesratssitze zu
 					besetzen. Kurz aufeinander waren Anfang 1855 zwei Mitglieder der Landesregierung
-					verstorben. Der <idx type="place" norm="Solothurn">Solothurner</idx> Magistrat <idx type="person" norm="Munzinger Josef">Josef Munzinger</idx> war schon seit längerer Zeit
+					verstorben. Der <placeName key="Solothurn">Solothurner</placeName> Magistrat <persName key="Munzinger Josef">Josef Munzinger</persName> war schon seit längerer Zeit
 					gesundheitlich schwer angeschlagen gewesen und musste über Wochen in einem mit
 					Kissen gefüllten Rollwagen herumchauffiert werden. Mitten in einer
-					Bundesratssitzung brach er zusammen und erlag am <d norm="06.02.1855">6. Februar 1855</d> seiner Krankheit.<com id="Wahlkaempfe_c4"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">NZZ</ref>, 7. Februar 1855 (Nekrolog); <ref type="lit">Altermatt, Bundesräte</ref>, <abbr norm="Seite(n)">S.</abbr> 82–83.</com> Wenige Wochen später erlitt der <idx type="place" norm="Waadt">Waadt</idx>länder Bundesrat <idx type="person" norm="Druey Henri">Henri Druey</idx> einen Schlaganfall, an dessen Folgen er
-					am <d norm="29.03.1855">29. März 1855</d> starb.<com id="Wahlkaempfe_c5"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">NZZ</ref>, 30. März 1855 (Nekrolog); <ref type="lit">Altermatt, Bundesräte</ref>, <abbr norm="Seite(n)">S.</abbr> 119.</com> Escher war mit den <idx type="person" norm="Munzinger Josef"><idx type="person" norm="Druey Henri">beiden verstorbenen Magistraten</idx> </idx> seit den
-					Tagsatzungen der 1840er Jahre bekannt gewesen. Mit <idx type="person" norm="Munzinger Josef">Munzinger</idx> war Escher zudem seit dem gemeinsamen
-					Aufenthalt im <idx type="place" norm="Tessin">Tessin</idx> als eidgenössische Kommissäre im Jahr 1848 auch
-					freundschaftlich verbunden.<com id="Wahlkaempfe_c6">Zu Eschers und <idx type="person" norm="Munzinger Josef">Munzingers</idx> Mission im Kanton <idx type="place" norm="Tessin">Tessin</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="sum" target="Junger_Bundesstaat_p6"><!--Jung/Wiederkehr, Escher Briefe, Bd. 4, S. 15–16--></ref>; <ref type="lit">Jung, Vom Wehen des Zeitgeistes</ref>, <abbr norm="Seite(n)">S.</abbr> 66; <ref type="lit">Maissen, Sonderbund</ref>, <abbr norm="Seite(n)">S.</abbr> 280–282.</com>
-					<idx type="person" norm="Druey Henri">Henri Druey</idx> vertrat radikalere Ansichten als
+					Bundesratssitzung brach er zusammen und erlag am <date when="1855-02-06">6. Februar 1855</date> seiner Krankheit.<com xml:id="Wahlkaempfe_c4">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">NZZ</ref>, 7. Februar 1855 (Nekrolog); <ref type="lit">Altermatt, Bundesräte</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 82–83.</com> Wenige Wochen später erlitt der <placeName key="Waadt">Waadt</placeName>länder Bundesrat <persName key="Druey Henri">Henri Druey</persName> einen Schlaganfall, an dessen Folgen er
+					am <date when="1855-03-29">29. März 1855</date> starb.<com xml:id="Wahlkaempfe_c5">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">NZZ</ref>, 30. März 1855 (Nekrolog); <ref type="lit">Altermatt, Bundesräte</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 119.</com> Escher war mit den <persName key="Munzinger Josef">
+                            <persName key="Druey Henri">beiden verstorbenen Magistraten</persName> </persName> seit den
+					Tagsatzungen der 1840er Jahre bekannt gewesen. Mit <persName key="Munzinger Josef">Munzinger</persName> war Escher zudem seit dem gemeinsamen
+					Aufenthalt im <placeName key="Tessin">Tessin</placeName> als eidgenössische Kommissäre im Jahr 1848 auch
+					freundschaftlich verbunden.<com xml:id="Wahlkaempfe_c6">Zu Eschers und <persName key="Munzinger Josef">Munzingers</persName> Mission im Kanton <placeName key="Tessin">Tessin</placeName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="sum" target="Junger_Bundesstaat_p6"><!--Jung/Wiederkehr, Escher Briefe, Bd. 4, S. 15–16--></ref>; <ref type="lit">Jung, Vom Wehen des Zeitgeistes</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 66; <ref type="lit">Maissen, Sonderbund</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 280–282.</com>
+					<persName key="Druey Henri">Henri Druey</persName> vertrat radikalere Ansichten als
 					Escher. Doch hatte sich über die Jahre eine Vertrauensbasis gebildet, die trotz
 					unterschiedlicher politischer Positionen eine gute Zusammenarbeit zwischen den
-					beiden ermöglichte.<com id="Wahlkaempfe_c7">Zu den politischen Position von <idx type="person" norm="Munzinger Josef">Munzinger</idx> und <idx type="person" norm="Druey Henri">Druey</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Altermatt, Bundesräte</ref>, <abbr norm="Seite(n)">S.</abbr> 115–126; <ref type="lit">Haefliger, Munzinger</ref>; <ref type="lit">Leresche, Henri Druey</ref>; <ref type="lit">Lasserre, Henri Druey</ref>.</com>
+					beiden ermöglichte.<com xml:id="Wahlkaempfe_c7">Zu den politischen Position von <persName key="Munzinger Josef">Munzinger</persName> und <persName key="Druey Henri">Druey</persName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Altermatt, Bundesräte</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 115–126; <ref type="lit">Haefliger, Munzinger</ref>; <ref type="lit">Leresche, Henri Druey</ref>; <ref type="lit">Lasserre, Henri Druey</ref>.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p3"><idx type="person" norm="Munzinger Josef">Munzinger</idx> und <idx type="person" norm="Druey Henri">Druey</idx> zu ersetzen stellte die Bundesversammlung vor
-					verschiedene Herausforderungen. Die «Neue <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» erstellte ein Anforderungsprofil für
+				<p xml:id="Wahlkaempfe_p3">
+                        <persName key="Munzinger Josef">Munzinger</persName> und <persName key="Druey Henri">Druey</persName> zu ersetzen stellte die Bundesversammlung vor
+					verschiedene Herausforderungen. Die «Neue <placeName key="Zürich">Zürcher</placeName> Zeitung» erstellte ein Anforderungsprofil für
 					potentielle Magistraten: Ein Bundesrat sollte ein Mann sein, «der bereits mit
 					den eidgenössischen Geschäften vielfach betraut ist [...], der eine gründliche
 					staatsmännische Bildung genoß und bei vielfachen Anläßen zeigte, daß er die
 					Sachen mehr als die Personen in's Auge faßt, [...] dessen loyaler Liberalismus
 					durch keine exzentrischen Vorgänge kompromittirt ist und von welchem selbst die
-					finstere Tribune de <idx type="place" norm="Lausanne">Lausanne</idx> nichts Schlimmeres zu sagen weiß als: Er
-					steht gut mit den Männern aller Parteien.»<com id="Wahlkaempfe_c8"><ref type="lit">NZZ</ref>, 30. März 1855.</com> Aus diesen Zeilen sprechen
+					finstere Tribune de <placeName key="Lausanne">Lausanne</placeName> nichts Schlimmeres zu sagen weiß als: Er
+					steht gut mit den Männern aller Parteien.»<com xml:id="Wahlkaempfe_c8">
+                            <ref type="lit">NZZ</ref>, 30. März 1855.</com> Aus diesen Zeilen sprechen
 					die Bedenken der <pb n="101"/>Liberalen, dass die Wahl eines zu radikalen Kandidaten nicht
 					ausgeschlossen werden konnte. Schreckgespenst für die Liberalen war in dieser
-					Beziehung der <idx type="place" norm="Genf">Genfer</idx> Staatsmann <idx type="person" norm="Fazy James">James Fazy</idx>.<com id="Wahlkaempfe_c9">Die radikalen Positionen <idx type="place" norm="Genf">Genfs</idx>, dessen Politik von <idx type="person" norm="Fazy James">James Fazy</idx> dominiert wurde, führten immer wieder
-						zu Konflikten. So gewährte <idx type="place" norm="Genf">Genf</idx> etwa radikalen Flüchtlingen Asyl, was zu
-						Spannungen mit den angrenzenden Monarchien führte. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="sum" target="Fluechtlingswesen_d1.4"><!--Jung/Wiederkehr, Escher Briefe, Bd. 4, S. 59–63--></ref>; <ref type="letter" target="K_1711"><!--→ Nr. 64--></ref>.</com> Bei der Ersetzung <idx type="person" norm="Munzinger Josef">Munzingers</idx> standen noch andere Fragen im Raum:
+					Beziehung der <placeName key="Genf">Genfer</placeName> Staatsmann <persName key="Fazy James">James Fazy</persName>.<com xml:id="Wahlkaempfe_c9">Die radikalen Positionen <placeName key="Genf">Genfs</placeName>, dessen Politik von <persName key="Fazy James">James Fazy</persName> dominiert wurde, führten immer wieder
+						zu Konflikten. So gewährte <placeName key="Genf">Genf</placeName> etwa radikalen Flüchtlingen Asyl, was zu
+						Spannungen mit den angrenzenden Monarchien führte. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="sum" target="Fluechtlingswesen_d1.4"><!--Jung/Wiederkehr, Escher Briefe, Bd. 4, S. 59–63--></ref>; <!--→ Nr. 64-->.</com> Bei der Ersetzung <persName key="Munzinger Josef">Munzingers</persName> standen noch andere Fragen im Raum:
 					Musste sein Nachfolger ebenfalls Katholik sein? Und sollten dieses Mal die
-					bislang vernachlässigten <idx type="place" norm="Zentralschweiz">Zentralschweizer</idx> Kantone einen Vertreter in der
-					Exekutive stellen dürfen?<com id="Wahlkaempfe_c10"><abbr norm="Vergleiche">Vgl.</abbr>
+					bislang vernachlässigten <placeName key="Zentralschweiz">Zentralschweizer</placeName> Kantone einen Vertreter in der
+					Exekutive stellen dürfen?<com xml:id="Wahlkaempfe_c10">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">NZZ</ref>, 30. März 1855; 6. April 1855.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p4">Auch Escher machte sich seine Gedanken zur Besetzung der
+				<p xml:id="Wahlkaempfe_p4">Auch Escher machte sich seine Gedanken zur Besetzung der
 					vakanten Sitze in der Landesregierung und informierte sich im Vorfeld der Wahl
 					über die Aspiranten. Dies wurde jedoch dadurch erschwert, dass Escher 1855
-					schwer erkrankte und sich zur Kur nach <idx type="place" norm="Baden (AG)">Baden</idx> begeben musste.<com id="Wahlkaempfe_c11">Zu Eschers Krankheit und der Kur in <idx type="place" norm="Baden (AG)">Baden</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 272–278.</com> Seine Krankheit hielt Escher
+					schwer erkrankte und sich zur Kur nach <placeName key="Baden (AG)">Baden</placeName> begeben musste.<com xml:id="Wahlkaempfe_c11">Zu Eschers Krankheit und der Kur in <placeName key="Baden (AG)">Baden</placeName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 272–278.</com> Seine Krankheit hielt Escher
 					zwar davon ab, der Session beizuwohnen, nicht aber davon, auf dem
 					Korrespondenzweg Informationen einzuholen und mit seinen politischen
 					Mitstreitern Absprachen über die Bundesratswahl zu treffen. Sein Einfluss kam
 					auf diese Weise jedoch nicht im selben Ausmasse zum Tragen, wie dies vor Ort der
 					Fall gewesen wäre.</p>
 
-				<p id="Wahlkaempfe_p5">Escher kontaktierte unter anderem die beiden <idx type="place" norm="Westschweiz">Westschweizer</idx> Politiker <ref type="kbp"/>
-					<idx type="person" norm="Tourte Abraham Louis">Abraham Louis Tourte</idx> und <idx type="person" norm="Blanchenay Louis">Louis Blanchenay</idx>, um sich von ihnen eine
-					Einschätzung der Kandidaten geben zu lassen. <idx type="person" norm="Tourte Abraham Louis">Tourte</idx> echauffierte sich über eine
-					mögliche Wahl des verdienten Generals <idx type="person" norm="Dufour Guillaume-Henri">Guillaume–Henri Dufour</idx>, den er ein
-					altes Waschweib schimpfte.<com id="Wahlkaempfe_c12">«Pour éviter <idx type="person" norm="Dufour Guillaume-Henri">Dufour</idx> cette vieille lavandière
-						[...].» <ref type="letter" target="K_1410"><!--Brief Abraham Louis Tourte an Escher, 25. März 1855 (BAR J
-							I.67-8)--></ref>.</com>
-					<idx type="person" norm="Blanchenay Louis">Blanchenay</idx> wies Escher auf Schwächen des
-					Spitzenkandidaten <idx type="person" norm="Fornerod Constant">Constant Fornerod</idx> hin: «il a combattu a
-					outrance la creation de l'université federale &amp; de l'ecole polytechni[que]».<com id="Wahlkaempfe_c13"><ref type="letter" target="K_1430"><!--Brief Louis Blanchenay an Escher, 26. April 1855 (BAR J
-							I.67-8)--></ref>.</com> Am Zustandekommen des Eidgenössischen
-					Polytechnikums war Escher massgeblich beteiligt. <idx type="person" norm="Fornerod Constant">Fornerod</idx> hingegen war einer der schärfsten
-					Gegner des Projekts im eidgenössischen Parlament.<com id="Wahlkaempfe_c14"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Guggenbühl, ETH</ref>, <abbr norm="Seite(n)">S.</abbr> 50. </com> Obwohl die Gründung der
-					eidgenössischen Hochschule inzwischen beschlossene Sache war, war <idx type="person" norm="Fornerod Constant">Fornerod</idx> für Escher ein unsicherer Kandidat,
-					dem er wenig Sympathien entgegenzubringen vermochte. <idx type="person" norm="Dufour Guillaume-Henri">Dufour</idx> war kein ernst zu nehmender
-					Anwärter auf einen Bundesratssitz, und <idx type="person" norm="Fazy James">Fazy</idx> kam für Escher aufgrund seiner radikalen
+				<p xml:id="Wahlkaempfe_p5">Escher kontaktierte unter anderem die beiden <placeName key="Westschweiz">Westschweizer</placeName> Politiker 
+					<persName key="Tourte Abraham Louis">Abraham Louis Tourte</persName> und <persName key="Blanchenay Louis">Louis Blanchenay</persName>, um sich von ihnen eine
+					Einschätzung der Kandidaten geben zu lassen. <persName key="Tourte Abraham Louis">Tourte</persName> echauffierte sich über eine
+					mögliche Wahl des verdienten Generals <persName key="Dufour Guillaume-Henri">Guillaume–Henri Dufour</persName>, den er ein
+					altes Waschweib schimpfte.<com xml:id="Wahlkaempfe_c12">«Pour éviter <persName key="Dufour Guillaume-Henri">Dufour</persName> cette vieille lavandière
+						[...].» <!--Brief Abraham Louis Tourte an Escher, 25. März 1855 (BAR J
+							I.67-8)-->.</com>
+					<persName key="Blanchenay Louis">Blanchenay</persName> wies Escher auf Schwächen des
+					Spitzenkandidaten <persName key="Fornerod Constant">Constant Fornerod</persName> hin: «il a combattu a
+					outrance la creation de l'université federale &amp; de l'ecole polytechni[que]».<com xml:id="Wahlkaempfe_c13"><!--Brief Louis Blanchenay an Escher, 26. April 1855 (BAR J
+							I.67-8)-->.</com> Am Zustandekommen des Eidgenössischen
+					Polytechnikums war Escher massgeblich beteiligt. <persName key="Fornerod Constant">Fornerod</persName> hingegen war einer der schärfsten
+					Gegner des Projekts im eidgenössischen Parlament.<com xml:id="Wahlkaempfe_c14">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Guggenbühl, ETH</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 50. </com> Obwohl die Gründung der
+					eidgenössischen Hochschule inzwischen beschlossene Sache war, war <persName key="Fornerod Constant">Fornerod</persName> für Escher ein unsicherer Kandidat,
+					dem er wenig Sympathien entgegenzubringen vermochte. <persName key="Dufour Guillaume-Henri">Dufour</persName> war kein ernst zu nehmender
+					Anwärter auf einen Bundesratssitz, und <persName key="Fazy James">Fazy</persName> kam für Escher aufgrund seiner radikalen
 					Ansichten nicht in Frage. Ein weiterer Aspirant auf einen Sitz in der
-					Landesregierung war der ehemalige <idx type="place" norm="Waadt">Waadt</idx>länder Ständerat <idx type="person" norm="Briatte François">François Briatte</idx> – auch er ein Radikaler.
-					Trotz verschiedener politischer Ansichten entschied sich Escher, die Kandidatur <idx type="person" norm="Briatte François">Briattes</idx> zu unterstützen. Er tat dies in
-					erster Linie deshalb, weil <idx type="person" norm="Briatte François">Briatte</idx> am ehesten die Wahl des
-					Polytechnikumsgegners <idx type="person" norm="Fornerod Constant">Fornerod</idx> verhindern konnte.<ref type="letter" target="K_1453"><!-- Nr.33--></ref> </p>
+					Landesregierung war der ehemalige <placeName key="Waadt">Waadt</placeName>länder Ständerat <persName key="Briatte François">François Briatte</persName> – auch er ein Radikaler.
+					Trotz verschiedener politischer Ansichten entschied sich Escher, die Kandidatur <persName key="Briatte François">Briattes</persName> zu unterstützen. Er tat dies in
+					erster Linie deshalb, weil <persName key="Briatte François">Briatte</persName> am ehesten die Wahl des
+					Polytechnikumsgegners <persName key="Fornerod Constant">Fornerod</persName> verhindern konnte.<!-- Nr.33--> </p>
 
-				<p id="Wahlkaempfe_p6">Escher tauschte sich auf dem Korrespondenzweg mit seinen <idx type="place" norm="Zürich">Zürcher</idx> Parlamentskollegen über die Wahl aus und wies <ref type="kbp"/>
-					<idx type="person" norm="Dubs Jakob">Jakob Dubs</idx> während der krankheitsbedingten
-					Abwesenheit die Rolle seines verlängerten Arms in <idx type="place" norm="Bern (Stadt)">Bern</idx> zu. Escher empfahl <idx type="person" norm="Dubs Jakob">Dubs</idx>, die Propaganda gegen <idx type="person" norm="Fornerod Constant">Fornerod</idx> auf dessen ablehnende Haltung
+				<p xml:id="Wahlkaempfe_p6">Escher tauschte sich auf dem Korrespondenzweg mit seinen <placeName key="Zürich">Zürcher</placeName> Parlamentskollegen über die Wahl aus und wies 
+					<persName key="Dubs Jakob">Jakob Dubs</persName> während der krankheitsbedingten
+					Abwesenheit die Rolle seines verlängerten Arms in <placeName key="Bern (Stadt)">Bern</placeName> zu. Escher empfahl <persName key="Dubs Jakob">Dubs</persName>, die Propaganda gegen <persName key="Fornerod Constant">Fornerod</persName> auf dessen ablehnende Haltung
 					gegenüber dem Polytechnikum auszurichten. «Ich denke aber, wenn du diese Seite
-					bei den <idx type="place" norm="Zürich">Zürchern</idx> anklingen lässest, so wirst du auf Erfolg
-					rechnen können», schrieb Escher an <idx type="person" norm="Dubs Jakob">Dubs</idx>.<com id="Wahlkaempfe_c15"><ref type="letter" target="K_1448"><!--Brief Escher an Jakob Dubs, 3. Juli 1855 (ZBZ Ms Z I
-							136)--></ref>.</com> Ihre Bemühungen, die Wahl <idx type="person" norm="Fornerod Constant">Fornerods</idx> zu verhindern, schienen jedoch auf
-					einigen Widerstand in <idx type="place" norm="Bern (Stadt)">Bern</idx> zu stossen, wie <idx type="person" norm="Dubs Jakob">Dubs</idx> meldete: «Im übrigen wird für <idx type="person" norm="Fornerod Constant">Fornerod</idx> immer noch stark gearbeitet. Man muß
-					sich unsrer Seits sehr in Acht nehmen in Sachen; das Gerücht, daß <idx type="person" norm="Kern Johann Konrad">Kern</idx> mit Instruktionen von Dir gegen <idx type="person" norm="Fornerod Constant">Fornerod</idx> angekommen sei, hat verschiedener
-					Seits nicht günstig gewirkt [...].»<com id="Wahlkaempfe_c16"><ref type="letter" target="K_1449"><!--Brief Jakob Dubs an Escher, 4. Juli 1855 (BAR J
-							I.67-8)--></ref>.</com>
+					bei den <placeName key="Zürich">Zürchern</placeName> anklingen lässest, so wirst du auf Erfolg
+					rechnen können», schrieb Escher an <persName key="Dubs Jakob">Dubs</persName>.<com xml:id="Wahlkaempfe_c15"><!--Brief Escher an Jakob Dubs, 3. Juli 1855 (ZBZ Ms Z I
+							136)-->.</com> Ihre Bemühungen, die Wahl <persName key="Fornerod Constant">Fornerods</persName> zu verhindern, schienen jedoch auf
+					einigen Widerstand in <placeName key="Bern (Stadt)">Bern</placeName> zu stossen, wie <persName key="Dubs Jakob">Dubs</persName> meldete: «Im übrigen wird für <persName key="Fornerod Constant">Fornerod</persName> immer noch stark gearbeitet. Man muß
+					sich unsrer Seits sehr in Acht nehmen in Sachen; das Gerücht, daß <persName key="Kern Johann Konrad">Kern</persName> mit Instruktionen von Dir gegen <persName key="Fornerod Constant">Fornerod</persName> angekommen sei, hat verschiedener
+					Seits nicht günstig gewirkt [...].»<com xml:id="Wahlkaempfe_c16"><!--Brief Jakob Dubs an Escher, 4. Juli 1855 (BAR J
+							I.67-8)-->.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p7">Am <d norm="11.07.1855">11. Juli 1855</d> trat die Bundesversammlung zusammen.
+				<p xml:id="Wahlkaempfe_p7">Am <date when="1855-07-11">11. Juli 1855</date> trat die Bundesversammlung zusammen.
 					Traktandiert war die Besetzung der zwei vakanten Bundesratssitze. Zuerst gingen
-					die Parlamentarier daran, einen Nachfolger für <idx type="person" norm="Druey Henri">Druey</idx> zu bestimmen. Im ersten Wahlgang fielen
+					die Parlamentarier daran, einen Nachfolger für <persName key="Druey Henri">Druey</persName> zu bestimmen. Im ersten Wahlgang fielen
 					Stimmen auf 14 unterschiedliche Kandidaten. Drei hoben sich jedoch klar von den
-					anderen ab, ohne dass einer das absolute Mehr erreichen konnte: <idx type="person" norm="Briatte François">Briatte</idx> mit 47, <idx type="person" norm="Fornerod Constant">Fornerod</idx> mit 43 und <idx type="person" norm="Fazy James">Fazy</idx> mit 23 Stimmen. Doch im <pb n="102"/>zweiten Wahlgang änderten sich die Verhältnisse. Nun lag <idx type="person" norm="Fornerod Constant">Fornerod</idx> mit 70 Stimmen an der Spitze,
-					gefolgt von <idx type="person" norm="Briatte François">Briatte</idx> mit 55 und <idx type="person" norm="Fazy James">Fazy</idx> mit 17 Stimmen. Erneut hatte kein Kandidat das
-					absolute Mehr erreicht. Der dritte Wahlgang machte <idx type="person" norm="Fornerod Constant">Fornerod</idx> zum Bundesrat: 84 Parlamentarier
-					sprachen sich für ihn aus, 60 für <idx type="person" norm="Briatte François">Briatte</idx> und nur noch 4 für <idx type="person" norm="Fazy James">Fazy</idx>.<com id="Wahlkaempfe_c17"><abbr norm="Vergleiche">Vgl.</abbr>
+					anderen ab, ohne dass einer das absolute Mehr erreichen konnte: <persName key="Briatte François">Briatte</persName> mit 47, <persName key="Fornerod Constant">Fornerod</persName> mit 43 und <persName key="Fazy James">Fazy</persName> mit 23 Stimmen. Doch im <pb n="102"/>zweiten Wahlgang änderten sich die Verhältnisse. Nun lag <persName key="Fornerod Constant">Fornerod</persName> mit 70 Stimmen an der Spitze,
+					gefolgt von <persName key="Briatte François">Briatte</persName> mit 55 und <persName key="Fazy James">Fazy</persName> mit 17 Stimmen. Erneut hatte kein Kandidat das
+					absolute Mehr erreicht. Der dritte Wahlgang machte <persName key="Fornerod Constant">Fornerod</persName> zum Bundesrat: 84 Parlamentarier
+					sprachen sich für ihn aus, 60 für <persName key="Briatte François">Briatte</persName> und nur noch 4 für <persName key="Fazy James">Fazy</persName>.<com xml:id="Wahlkaempfe_c17">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">NZZ</ref>, 12. Juli 1855.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p8">«Daß diese Wahl eine für uns ungünstige ist, wurde mir in der
-					letzten Zeit immer klarer»<ref type="letter" target="K_1453"><!--Nr.33--></ref>, schrieb ein enttäuschter <idx type="person" norm="Dubs Jakob">Dubs</idx> an Escher. Nach der Wahl war es Eschers Ziel,
-					Bundesrat <idx type="person" norm="Fornerod Constant">Fornerod</idx> auf Kurs zu bringen, indem <idx type="person" norm="Dubs Jakob">Dubs</idx> eine Unterredung mit ihm «bezüglich seiner
+				<p xml:id="Wahlkaempfe_p8">«Daß diese Wahl eine für uns ungünstige ist, wurde mir in der
+					letzten Zeit immer klarer»<!--Nr.33-->, schrieb ein enttäuschter <persName key="Dubs Jakob">Dubs</persName> an Escher. Nach der Wahl war es Eschers Ziel,
+					Bundesrat <persName key="Fornerod Constant">Fornerod</persName> auf Kurs zu bringen, indem <persName key="Dubs Jakob">Dubs</persName> eine Unterredung mit ihm «bezüglich seiner
 					künftigen Haltung gegenüber dem Polytechnikum» vereinbaren sollte.</p>
 
-				<p id="Wahlkaempfe_p9">Der <idx type="place" norm="Thurgau">Thurgauer</idx> Nationalrat <ref type="kbp"/>
-					<idx type="person" norm="Kern Johann Konrad">Johann Konrad Kern</idx> hatte Escher im Vorfeld
-					der Wahlen ermahnt: «Die <idx type="place" norm="Zürich">Zürcher</idx> sollten sich zu verständigen suchen.»<com id="Wahlkaempfe_c18"><ref type="letter" target="K_1451"><!--Brief Johann Konrad Kern an Escher, 9. Juli 1855 (BAR J
-							I.67-8)--></ref>.</com> Dies gelang nicht. Nicht nur die <idx type="place" norm="Zürich">Zürcher</idx> waren sich uneins, das gesamte liberale Lager
+				<p xml:id="Wahlkaempfe_p9">Der <placeName key="Thurgau">Thurgauer</placeName> Nationalrat 
+					<persName key="Kern Johann Konrad">Johann Konrad Kern</persName> hatte Escher im Vorfeld
+					der Wahlen ermahnt: «Die <placeName key="Zürich">Zürcher</placeName> sollten sich zu verständigen suchen.»<com xml:id="Wahlkaempfe_c18"><!--Brief Johann Konrad Kern an Escher, 9. Juli 1855 (BAR J
+							I.67-8)-->.</com> Dies gelang nicht. Nicht nur die <placeName key="Zürich">Zürcher</placeName> waren sich uneins, das gesamte liberale Lager
 					war zu disparat, als dass man sich hätte auf einen Kandidaten einigen können.
-					Sogar enge Freunde Eschers wie <ref type="kbp"/>
-					<idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumer</idx> und <ref type="kbp"/>
-					<idx type="person" norm="Kappeler Johann Karl">Johann Karl Kappeler</idx> unterstützten <idx type="person" norm="Fornerod Constant">Fornerod</idx>. <ref type="kbp"/>
-					<idx type="person" norm="Furrer Jonas">Jonas Furrer</idx> portierte ihn sogar «förmlich mit
-					Leidenschaft».<com id="Wahlkaempfe_c19"><ref type="letter" target="K_1445"><!--Brief Jakob Dubs an Escher, 2. Juli 1855 (BAR J
-							I.67-8)--></ref>.</com>
+					Sogar enge Freunde Eschers wie 
+					<persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName> und 
+					<persName key="Kappeler Johann Karl">Johann Karl Kappeler</persName> unterstützten <persName key="Fornerod Constant">Fornerod</persName>. 
+					<persName key="Furrer Jonas">Jonas Furrer</persName> portierte ihn sogar «förmlich mit
+					Leidenschaft».<com xml:id="Wahlkaempfe_c19"><!--Brief Jakob Dubs an Escher, 2. Juli 1855 (BAR J
+							I.67-8)-->.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p10">Zwei Faktoren waren dafür verantwortlich, dass <idx type="person" norm="Fornerod Constant">Fornerod</idx> über <idx type="person" norm="Briatte François">Briatte</idx> triumphierte. Zum einen war es dem
-					gesundheitlich angeschlagenen Escher nicht möglich gewesen, von <idx type="place" norm="Baden (AG)">Baden</idx> aus eine geschlossene Front für <idx type="person" norm="Briatte François">Briatte</idx> zu formieren. Hätte Escher in <idx type="place" norm="Bern (Stadt)">Bern</idx> Überzeugungsarbeit leisten und seine Leute
+				<p xml:id="Wahlkaempfe_p10">Zwei Faktoren waren dafür verantwortlich, dass <persName key="Fornerod Constant">Fornerod</persName> über <persName key="Briatte François">Briatte</persName> triumphierte. Zum einen war es dem
+					gesundheitlich angeschlagenen Escher nicht möglich gewesen, von <placeName key="Baden (AG)">Baden</placeName> aus eine geschlossene Front für <persName key="Briatte François">Briatte</persName> zu formieren. Hätte Escher in <placeName key="Bern (Stadt)">Bern</placeName> Überzeugungsarbeit leisten und seine Leute
 					auch zwischen den einzelnen Wahlgängen zusammenhalten können, wäre die Sache
 					womöglich anders ausgegangen. Zum anderen standen sich zwei Kandidaten
-					gegenüber, die ein sehr ähnliches Profil aufwiesen: Beide waren Vertreter der <idx type="place" norm="Waadt">Waadt</idx>länder Radikalen mit langjähriger politischer
+					gegenüber, die ein sehr ähnliches Profil aufwiesen: Beide waren Vertreter der <placeName key="Waadt">Waadt</placeName>länder Radikalen mit langjähriger politischer
 					Erfahrung. Den beiden Kontrahenten fehlte es an greifbaren Gegensätzen, was die
 					Wahl beliebig erscheinen liess. Diese Konstellation hinderte letztlich auch
-					Escher daran, sein volles Gewicht für <idx type="person" norm="Briatte François">Briatte</idx> in die Waagschale zu werfen. Er liess
-					die Zügel schleifen, was <idx type="person" norm="Fornerod Constant">Fornerod</idx> zum Sieg verhalf.</p>
+					Escher daran, sein volles Gewicht für <persName key="Briatte François">Briatte</persName> in die Waagschale zu werfen. Er liess
+					die Zügel schleifen, was <persName key="Fornerod Constant">Fornerod</persName> zum Sieg verhalf.</p>
 
-				<p id="Wahlkaempfe_p11">Die Ausgangslage bei der Wahl des zweiten Bundesrats war
+				<p xml:id="Wahlkaempfe_p11">Die Ausgangslage bei der Wahl des zweiten Bundesrats war
 					eine ganz andere. In diesem Fall gelang es den Liberalen, sich zu verständigen.
-					Auf die Nachfolge <idx type="person" norm="Munzinger Josef">Munzingers</idx> hatte sich Eschers <idx type="place" norm="Glarus">Glarner</idx> Freund <idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumer</idx> ursprünglich leise
+					Auf die Nachfolge <persName key="Munzinger Josef">Munzingers</persName> hatte sich Eschers <placeName key="Glarus">Glarner</placeName> Freund <persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName> ursprünglich leise
 					Hoffnungen gemacht. Er bedauerte folglich die Abwesenheit Eschers: «Ich hatte
 					zwar damals weniger entschiedne Gegner [...], aber auch Niemanden, der ernstlich
 					für mich wirkte, da Escher durch Krankheit verhindert war in der Sitzung zu
-					erscheinen.»<com id="Wahlkaempfe_c20"><ref type="lit">Blumer, Erinnerungen</ref>, <abbr norm="Seite(n)">S.</abbr> 26b.</com>
-					<idx type="person" norm="Blumer Johann Jakob">Blumer</idx> erhielt bei der Bundesratswahl zwar
+					erscheinen.»<com xml:id="Wahlkaempfe_c20">
+                            <ref type="lit">Blumer, Erinnerungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 26b.</com>
+					<persName key="Blumer Johann Jakob">Blumer</persName> erhielt bei der Bundesratswahl zwar
 					vereinzelte Stimmen, doch das liberale Lager hatte andere Pläne. Das Resultat
-					der Wahl schien bereits im Vorfeld klar zu sein, wie einem Brief <idx type="person" norm="Kern Johann Konrad">Kerns</idx> an Escher zu entnehmen ist: «Die
-					andere Wahl wird zuerst auf <idx type="person" norm="Pfyffer (von Altishofen) Kasimir">Pfyffer</idx> &amp; dann auf <idx type="person" norm="Stehlin Johann Jakob">Staeheli</idx> fallen.»<com id="Wahlkaempfe_c21"><ref type="letter" target="K_1451"><!--Brief Johann Konrad Kern an Escher, 9. Juli 1855 (BAR J
-							I.67-8)--></ref>.</com>
+					der Wahl schien bereits im Vorfeld klar zu sein, wie einem Brief <persName key="Kern Johann Konrad">Kerns</persName> an Escher zu entnehmen ist: «Die
+					andere Wahl wird zuerst auf <persName key="Pfyffer (von Altishofen) Kasimir">Pfyffer</persName> &amp; dann auf <persName key="Stehlin Johann Jakob">Staeheli</persName> fallen.»<com xml:id="Wahlkaempfe_c21"><!--Brief Johann Konrad Kern an Escher, 9. Juli 1855 (BAR J
+							I.67-8)-->.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p12"><idx type="person" norm="Kern Johann Konrad">Kerns</idx> Prophezeiung sollte sich bewahrheiten.
-					Im ersten Wahlgang dominierten drei katholische <idx type="place" norm="Luzern">Luzerner</idx> Parlamentarier: <idx type="person" norm="Pfyffer (von Altishofen) Kasimir">Kasimir Pfyffer</idx> mit 66, <idx type="person" norm="Knüsel Josef Martin">Josef Martin Knüsel</idx> mit 23 und <idx type="person" norm="Nager Jost Josef">Jost Josef Nager</idx> mit 21 Stimmen. Das absolute
-					Mehr erreichte jedoch keiner. <idx type="person" norm="Pfyffer (von Altishofen) Kasimir">Pfyffer</idx> trat nach diesem
+				<p xml:id="Wahlkaempfe_p12">
+                        <persName key="Kern Johann Konrad">Kerns</persName> Prophezeiung sollte sich bewahrheiten.
+					Im ersten Wahlgang dominierten drei katholische <placeName key="Luzern">Luzerner</placeName> Parlamentarier: <persName key="Pfyffer (von Altishofen) Kasimir">Kasimir Pfyffer</persName> mit 66, <persName key="Knüsel Josef Martin">Josef Martin Knüsel</persName> mit 23 und <persName key="Nager Jost Josef">Jost Josef Nager</persName> mit 21 Stimmen. Das absolute
+					Mehr erreichte jedoch keiner. <persName key="Pfyffer (von Altishofen) Kasimir">Pfyffer</persName> trat nach diesem
 					ersten Wahlgang vor die Vereinigte Bundesversammlung und kündigte an, dass er
 					eine allfällig auf ihn fallende Wahl nicht annehmen würde. Nun schwenkten viele
-					Parlamentarier zum reformierten <idx type="place" norm="Basel-Stadt">Basler</idx>
-					<ref type="kbp"/>
-					<idx type="person" norm="Stehlin Johann Jakob">Johann Jakob Stehlin</idx>. Beim zweiten und
+					Parlamentarier zum reformierten <placeName key="Basel-Stadt">Basler</placeName>
+					
+					<persName key="Stehlin Johann Jakob">Johann Jakob Stehlin</persName>. Beim zweiten und
 					dritten Wahlgang konnte er die meisten Stimmen auf sich vereinen, erreichte aber
-					das absolute Mehr nicht. Erst der vierte Wahlgang brachte die Entscheidung: <idx type="person" norm="Stehlin Johann Jakob">Stehlin</idx> war mit 83 Stimmen gewählt.<com id="Wahlkaempfe_c22"><abbr norm="Vergleiche">Vgl.</abbr>
+					das absolute Mehr nicht. Erst der vierte Wahlgang brachte die Entscheidung: <persName key="Stehlin Johann Jakob">Stehlin</persName> war mit 83 Stimmen gewählt.<com xml:id="Wahlkaempfe_c22">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">NZZ</ref>, 12. Juli 1855.</com> Doch er zögerte mit der
 					Annahme der Wahl.</p>
 
-				<p id="Wahlkaempfe_p13">Zwei Tage verstrichen, bis dem Parlament verkündet wurde,
-					dass <idx type="person" norm="Stehlin Johann Jakob">Stehlin</idx> das Amt nicht antreten könne. Es
-					war das erste Mal in der Geschichte des Bundesstaates, dass ein <pb n="103"/>gewählter Bundesrat die Annahme der Wahl ausschlug.<com id="Wahlkaempfe_c23">Neben <ref type="kbp"/>
-						<idx type="person" norm="Stehlin Johann Jakob">Johann Jakob Stehlin</idx> schlugen die Wahl
-						in den Bundesrat aus: am <d norm="10.12.1875">10. Dezember 1875</d>
-						<idx type="person" norm="Ruchonnet Louis">Louis Ruchonnet</idx> (<abbr norm="Waadt (Kanton)"><idx type="place" norm="Waadt">VD</idx> </abbr>), am <d norm="18.12.1875">18. Dezember 1875</d>
-						<idx type="person" norm="Estoppey Charles">Charles Estoppey</idx> (<abbr norm="Waadt (Kanton)"><idx type="place" norm="Waadt">VD</idx> </abbr>), am <d norm="22.02.1881">22. Februar 1881</d>
-						<idx type="person" norm="Hoffmann Karl">Karl Hoffmann</idx> (<abbr norm="St. Gallen (Kanton)"><idx type="place" norm="St. Gallen">SG</idx> </abbr>), am <d norm="03.03.1993">3. März 1993</d>
-						<idx type="person" norm="Matthey Francis">Francis Matthey</idx> (<abbr norm="Neuenburg (Kanton)"><idx type="place" norm="Neuenburg">NE</idx> </abbr>). <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Altermatt, Bundesräte</ref>, <abbr norm="Seite(n)">S.</abbr> 58; <ref type="www" target="https://www.admin.ch/gov/de/start/bundesrat/geschichte-des-bundesrats/bundesraete-und-ihre-wahl/wahl-ausgeschlagen-liste.html"><ref type="lit">Wahlausschläge Bundesräte online</ref> </ref>.</com>
-					<idx type="person" norm="Stehlin Johann Jakob">Stehlins</idx> Begründung war, dass die Aufgabe
+				<p xml:id="Wahlkaempfe_p13">Zwei Tage verstrichen, bis dem Parlament verkündet wurde,
+					dass <persName key="Stehlin Johann Jakob">Stehlin</persName> das Amt nicht antreten könne. Es
+					war das erste Mal in der Geschichte des Bundesstaates, dass ein <pb n="103"/>gewählter Bundesrat die Annahme der Wahl ausschlug.<com xml:id="Wahlkaempfe_c23">Neben 
+						<persName key="Stehlin Johann Jakob">Johann Jakob Stehlin</persName> schlugen die Wahl
+						in den Bundesrat aus: am <date when="1875-12-10">10. Dezember 1875</date>
+						<persName key="Ruchonnet Louis">Louis Ruchonnet</persName> (<choice>
+                                <abbr>
+                                    <placeName key="Waadt">VD</placeName> </abbr>
+                                <expan>Waadt (Kanton)</expan>
+                            </choice>), am <date when="1875-12-18">18. Dezember 1875</date>
+						<persName key="Estoppey Charles">Charles Estoppey</persName> (<choice>
+                                <abbr>
+                                    <placeName key="Waadt">VD</placeName> </abbr>
+                                <expan>Waadt (Kanton)</expan>
+                            </choice>), am <date when="1881-02-22">22. Februar 1881</date>
+						<persName key="Hoffmann Karl">Karl Hoffmann</persName> (<choice>
+                                <abbr>
+                                    <placeName key="St. Gallen">SG</placeName> </abbr>
+                                <expan>St. Gallen (Kanton)</expan>
+                            </choice>), am <date when="1993-03-03">3. März 1993</date>
+						<persName key="Matthey Francis">Francis Matthey</persName> (<choice>
+                                <abbr>
+                                    <placeName key="Neuenburg">NE</placeName> </abbr>
+                                <expan>Neuenburg (Kanton)</expan>
+                            </choice>). <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Altermatt, Bundesräte</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 58; <ref target="https://www.admin.ch/gov/de/start/bundesrat/geschichte-des-bundesrats/bundesraete-und-ihre-wahl/wahl-ausgeschlagen-liste.html">
+                                <ref type="lit">Wahlausschläge Bundesräte online</ref> </ref>.</com>
+					<persName key="Stehlin Johann Jakob">Stehlins</persName> Begründung war, dass die Aufgabe
 					eine «Summe staatsmännischen Wissens und Könnens» erfordere und seine
-					«Unzulänglichkeit in Bezug auf das letztere Requisit»<com id="Wahlkaempfe_c24">Schreiben <idx type="person" norm="Stehlin Johann Jakob">Johann Jakob Stehlin</idx> an das
-						Eidgenössische Parlament, <d norm="13.07.1855">13. Juli 1855</d>, <abbr norm="zitiert">zit.</abbr>: <ref type="lit">NZZ</ref>, 18. Juli 1845.</com> verunmögliche ihm die
+					«Unzulänglichkeit in Bezug auf das letztere Requisit»<com xml:id="Wahlkaempfe_c24">Schreiben <persName key="Stehlin Johann Jakob">Johann Jakob Stehlin</persName> an das
+						Eidgenössische Parlament, <date when="1855-07-13">13. Juli 1855</date>, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice>: <ref type="lit">NZZ</ref>, 18. Juli 1845.</com> verunmögliche ihm die
 					Wahlannahme. Zudem verwies er auf den Umstand, dass ein Bundesrat gesetzlich
-					verpflichtet sei, den Wohnsitz nach <idx type="place" norm="Bern (Stadt)">Bern</idx> zu verlegen, was ihm seine
-					Familienverhältnisse nicht erlauben würden.<com id="Wahlkaempfe_c25"><abbr norm="Vergleiche">Vgl.</abbr>
+					verpflichtet sei, den Wohnsitz nach <placeName key="Bern (Stadt)">Bern</placeName> zu verlegen, was ihm seine
+					Familienverhältnisse nicht erlauben würden.<com xml:id="Wahlkaempfe_c25">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">NZZ</ref>, 18. Juli 1845.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p14">Der zweite Grund war wohl der ausschlaggebende. Nach der
-					Wahl hatte Bundespräsident <idx type="person" norm="Furrer Jonas">Jonas Furrer</idx>
-					<idx type="person" norm="Stehlin Johann Jakob">Stehlin</idx> in die <idx type="place" norm="Basel">Basler</idx> Heimat begleitet, «um die <idx type="person" norm="Stehlin-Hagenbach Margaretha">Frau</idx> zur Einwilligung zu bereden»<ref type="letter" target="K_1453"><!--Nr.33--></ref> – jedoch ohne Erfolg. <idx type="person" norm="Dubs Jakob">Dubs</idx> übermittelte Escher umgehend die enttäuschende
-					Nachricht: «In Eile theile ich Dir mit, daß <idx type="person" norm="Stehlin Johann Jakob">Stehli</idx> zufolge der decidirten Erklärung <idx type="person" norm="Stehlin-Hagenbach Margaretha"><abbr norm="seiner">sr.</abbr> Frau</idx>, <idx type="place" norm="Basel-Stadt">Basel</idx> nicht verlassen zu wollen – abgelehnt. Was
-					nun thun? <idx type="person" norm="Stehlin Johann Jakob">Stehlis</idx> Erklärung ist für uns äußerst
-					fatal.»<com id="Wahlkaempfe_c26"><ref type="letter" target="K_1455"><!--Brief Jakob Dubs an Escher, 13. Juli 1855 (BAR J
-							I.67-8)--></ref>.</com> Bei der <idx type="person" norm="Stehlin-Hagenbach Margaretha">Ehefrau</idx>, mit der <idx type="person" norm="Stehlin Johann Jakob">Stehlin</idx> seit 1825 verheiratet war,
-					handelte es sich um <idx type="person" norm="Stehlin-Hagenbach Margaretha">Margaretha Stehlin-Hagenbach</idx>.<com id="Wahlkaempfe_c27"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D4743.php"><ref type="lit">HLS online</ref>, Stehlin Johann Jakob</ref>.</com> Die Hagenbachs
-					sind ein altes <idx type="place" norm="Basel-Stadt">Basler</idx> Geschlecht, dessen Verwurzelung im Kanton
-					bis ins 14. Jahrhundert zurückreicht.<com id="Wahlkaempfe_c28"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D20967.php"><ref type="lit">HLS online</ref>, Hagenbach</ref>.</com> Sich von diesen Wurzeln zu
-					lösen und nach <idx type="place" norm="Bern (Stadt)">Bern</idx> zu ziehen, kam für <idx type="person" norm="Stehlin-Hagenbach Margaretha">Stehlins Ehefrau</idx> nicht in
+				<p xml:id="Wahlkaempfe_p14">Der zweite Grund war wohl der ausschlaggebende. Nach der
+					Wahl hatte Bundespräsident <persName key="Furrer Jonas">Jonas Furrer</persName>
+					<persName key="Stehlin Johann Jakob">Stehlin</persName> in die <placeName key="Basel">Basler</placeName> Heimat begleitet, «um die <persName key="Stehlin-Hagenbach Margaretha">Frau</persName> zur Einwilligung zu bereden»<!--Nr.33--> – jedoch ohne Erfolg. <persName key="Dubs Jakob">Dubs</persName> übermittelte Escher umgehend die enttäuschende
+					Nachricht: «In Eile theile ich Dir mit, daß <persName key="Stehlin Johann Jakob">Stehli</persName> zufolge der decidirten Erklärung <persName key="Stehlin-Hagenbach Margaretha">
+                            <choice>
+                                <abbr>sr.</abbr>
+                                <expan>seiner</expan>
+                            </choice> Frau</persName>, <placeName key="Basel-Stadt">Basel</placeName> nicht verlassen zu wollen – abgelehnt. Was
+					nun thun? <persName key="Stehlin Johann Jakob">Stehlis</persName> Erklärung ist für uns äußerst
+					fatal.»<com xml:id="Wahlkaempfe_c26"><!--Brief Jakob Dubs an Escher, 13. Juli 1855 (BAR J
+							I.67-8)-->.</com> Bei der <persName key="Stehlin-Hagenbach Margaretha">Ehefrau</persName>, mit der <persName key="Stehlin Johann Jakob">Stehlin</persName> seit 1825 verheiratet war,
+					handelte es sich um <persName key="Stehlin-Hagenbach Margaretha">Margaretha Stehlin-Hagenbach</persName>.<com xml:id="Wahlkaempfe_c27">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref target="http://www.hls-dhs-dss.ch/textes/d/D4743.php">
+                                <ref type="lit">HLS online</ref>, Stehlin Johann Jakob</ref>.</com> Die Hagenbachs
+					sind ein altes <placeName key="Basel-Stadt">Basler</placeName> Geschlecht, dessen Verwurzelung im Kanton
+					bis ins 14. Jahrhundert zurückreicht.<com xml:id="Wahlkaempfe_c28">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref target="http://www.hls-dhs-dss.ch/textes/d/D20967.php">
+                                <ref type="lit">HLS online</ref>, Hagenbach</ref>.</com> Sich von diesen Wurzeln zu
+					lösen und nach <placeName key="Bern (Stadt)">Bern</placeName> zu ziehen, kam für <persName key="Stehlin-Hagenbach Margaretha">Stehlins Ehefrau</persName> nicht in
 					Frage.</p>
 
-				<p id="Wahlkaempfe_p15">Die Ablehnung <idx type="person" norm="Stehlin Johann Jakob">Stehlins</idx> brachte Escher in eine
+				<p xml:id="Wahlkaempfe_p15">Die Ablehnung <persName key="Stehlin Johann Jakob">Stehlins</persName> brachte Escher in eine
 					unangenehme Position, da es aus seiner Sicht an einer befriedigenden Alternative
-					mangelte. <idx type="person" norm="Knüsel Josef Martin">Josef Martin Knüsel</idx> hatte in der
-					Bundesratswahl nur knapp hinter <idx type="person" norm="Stehlin Johann Jakob">Stehlin</idx> gelegen. Doch konnte er überhaupt
-					in Frage kommen? Die «<idx type="place" norm="Bern">Berner</idx> Zeitung» zeigte sich von dieser Option nicht
-					begeistert: «Im Nationalrath hat sich <abbr norm="Herr">Hr.</abbr>
-					<idx type="person" norm="Knüsel Josef Martin">Knüsel</idx> nur selten hören lassen und man weiß
+					mangelte. <persName key="Knüsel Josef Martin">Josef Martin Knüsel</persName> hatte in der
+					Bundesratswahl nur knapp hinter <persName key="Stehlin Johann Jakob">Stehlin</persName> gelegen. Doch konnte er überhaupt
+					in Frage kommen? Die «<placeName key="Bern">Berner</placeName> Zeitung» zeigte sich von dieser Option nicht
+					begeistert: «Im Nationalrath hat sich <choice>
+                            <abbr>Hr.</abbr>
+                            <expan>Herr</expan>
+                        </choice>
+					<persName key="Knüsel Josef Martin">Knüsel</persName> nur selten hören lassen und man weiß
 					nicht, daß er in irgend einer wichtigen Frage ein entscheidendes Wort
-					mitgesprochen hätte.»<com id="Wahlkaempfe_c29"><ref type="lit">Berner Zeitung</ref>, 16. Juli 1855.</com> Trotzdem einigte
+					mitgesprochen hätte.»<com xml:id="Wahlkaempfe_c29">
+                            <ref type="lit">Berner Zeitung</ref>, 16. Juli 1855.</com> Trotzdem einigte
 					sich Eschers Lager auf diesen Hinterbänkler, wenn auch ohne jeden Enthusiasmus:
-					«Es frägt sich, ob es nicht am besten sei, unter solchen Umständen geradezu <idx type="person" norm="Knüsel Josef Martin">Knüsel</idx> zu acceptiren.»<com id="Wahlkaempfe_c30"><ref type="letter" target="K_1455"><!--Brief Jakob Dubs an Escher, 13. Juli 1855 (BAR J
-							I.67-8)--></ref>.</com>
+					«Es frägt sich, ob es nicht am besten sei, unter solchen Umständen geradezu <persName key="Knüsel Josef Martin">Knüsel</persName> zu acceptiren.»<com xml:id="Wahlkaempfe_c30"><!--Brief Jakob Dubs an Escher, 13. Juli 1855 (BAR J
+							I.67-8)-->.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p16">So kam es, dass <idx type="person" norm="Knüsel Josef Martin">Knüsel</idx> am <d norm="14.07.1855">14. Juli 1855</d> im zweiten Wahlgang in den Bundesrat
-					gehoben wurde. Obwohl neben <idx type="person" norm="Knüsel Josef Martin">Knüsel</idx> zehn weitere Kandidaten vereinzelte
+				<p xml:id="Wahlkaempfe_p16">So kam es, dass <persName key="Knüsel Josef Martin">Knüsel</persName> am <date when="1855-07-14">14. Juli 1855</date> im zweiten Wahlgang in den Bundesrat
+					gehoben wurde. Obwohl neben <persName key="Knüsel Josef Martin">Knüsel</persName> zehn weitere Kandidaten vereinzelte
 					Stimmen erhielten, schaffte er den Schritt in die Landesregierung letztlich ohne
-					ernst zu nehmende Konkurrenz. Escher legte <idx type="person" norm="Dubs Jakob">Dubs</idx> nach der Wahl nahe, dem neuen Magistraten
-					umgehend zu verdeutlichen, dass er den Bundesratssitz auch den <idx type="place" norm="Zürich">Zürchern</idx> zu verdanken habe: «Denn richtig ist &amp;
-					bleibt es doch, daß wohl niemand in der Bundesversammlung daran gedacht hätte, <idx type="person" norm="Knüsel Josef Martin">Knüsel</idx> in den Bundesrath zu wählen, hätte
-					man nicht 1.) die katholische &amp; 2.) die <idx type="place" norm="Zentralschweiz">Centralschweiz</idx> in dieser Behörde repräsentiren
-					wollen. [...] Es dürfte passend sein, auch <idx type="person" norm="Knüsel Josef Martin">K.</idx> bei Gelegenheit zu sagen, wir erwarten
+					ernst zu nehmende Konkurrenz. Escher legte <persName key="Dubs Jakob">Dubs</persName> nach der Wahl nahe, dem neuen Magistraten
+					umgehend zu verdeutlichen, dass er den Bundesratssitz auch den <placeName key="Zürich">Zürchern</placeName> zu verdanken habe: «Denn richtig ist &amp;
+					bleibt es doch, daß wohl niemand in der Bundesversammlung daran gedacht hätte, <persName key="Knüsel Josef Martin">Knüsel</persName> in den Bundesrath zu wählen, hätte
+					man nicht 1.) die katholische &amp; 2.) die <placeName key="Zentralschweiz">Centralschweiz</placeName> in dieser Behörde repräsentiren
+					wollen. [...] Es dürfte passend sein, auch <persName key="Knüsel Josef Martin">K.</persName> bei Gelegenheit zu sagen, wir erwarten
 					eine unparteiische Haltung im Bundesrathe von seiner Seite, &amp; seien dazu
-					umso mehr berechtigt, als wir ebenfalls für ihn gestimmt hätten.»<ref type="letter" target="K_1458"><!--Nr.34--></ref> </p>
+					umso mehr berechtigt, als wir ebenfalls für ihn gestimmt hätten.»<!--Nr.34--> </p>
 
-				<p id="Wahlkaempfe_p17">Die Bundesratswahlen von 1855 verliefen in verschiedener
+				<p xml:id="Wahlkaempfe_p17">Die Bundesratswahlen von 1855 verliefen in verschiedener
 					Hinsicht nicht ganz nach Eschers Wünschen. Daran zeigt sich, dass seine Präsenz
-					in <idx type="place" norm="Bern (Stadt)">Bern</idx> unerlässlich war, wenn er seinen Interessen
+					in <placeName key="Bern (Stadt)">Bern</placeName> unerlässlich war, wenn er seinen Interessen
 					Nachdruck verleihen wollte. Die Wahlen von 1855 waren insofern atypisch, als
 					Escher ansonsten seinen Einfluss vor Ort geltend machen konnte, wenn es galt,
 					die Exekutive neu zu besetzen.</p>
 
-				<p id="Wahlkaempfe_p18">Ganz in Eschers Sinne verlief etwa die Bundesratswahl von
-					1861. <idx type="person" norm="Furrer Jonas">Jonas Furrer</idx>, Eschers Vertrauter im Bundesrat,
-					verstarb am <d norm="25.07.1861">25. Juli 1861</d>. Als aussichtsreichste Nachfolger galten
-					die beiden <idx type="place" norm="Zürich">Zürcher</idx> Parlamentarier <ref type="kbp"/>
-					<idx type="person" norm="Rüttimann Johann Jakob">Johann Jakob Rüttimann</idx> und <idx type="person" norm="Dubs Jakob">Jakob Dubs</idx>, beide seit den 1840er Jahren mit Escher
-					befreundet.<com id="Wahlkaempfe_c31"><abbr norm="Vergleiche">Vgl.</abbr> Brief Nazar von Reding an Philipp Anton
-						von Segesser, 27. Juli 1861, <abbr norm="zitiert">zit.</abbr>: <ref type="lit">Conzemius, Briefwechsel von Segesser</ref> III, <abbr norm="Seite(n)">S.</abbr> 110.</com> Auch Escher selbst wurde als
+				<p xml:id="Wahlkaempfe_p18">Ganz in Eschers Sinne verlief etwa die Bundesratswahl von
+					1861. <persName key="Furrer Jonas">Jonas Furrer</persName>, Eschers Vertrauter im Bundesrat,
+					verstarb am <date when="1861-07-25">25. Juli 1861</date>. Als aussichtsreichste Nachfolger galten
+					die beiden <placeName key="Zürich">Zürcher</placeName> Parlamentarier 
+					<persName key="Rüttimann Johann Jakob">Johann Jakob Rüttimann</persName> und <persName key="Dubs Jakob">Jakob Dubs</persName>, beide seit den 1840er Jahren mit Escher
+					befreundet.<com xml:id="Wahlkaempfe_c31">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Brief Nazar von Reding an Philipp Anton
+						von Segesser, 27. Juli 1861, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice>: <ref type="lit">Conzemius, Briefwechsel von Segesser</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 110.</com> Auch Escher selbst wurde als
 					potentieller Anwärter herumgeboten, obwohl für ihn ein Sitz im Bundesrat
-					aufgrund seiner wirtschaftlichen Verpflichtungen kein Thema war.<com id="Wahlkaempfe_c32"><abbr norm="Vergleiche">Vgl.</abbr>
+					aufgrund seiner wirtschaftlichen Verpflichtungen kein Thema war.<com xml:id="Wahlkaempfe_c32">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">NZZ</ref>, 31. Juli 1861.</com> Man einigte sich schliesslich
-					auf <idx type="person" norm="Dubs Jakob">Dubs</idx>, dessen Wahl in die <pb n="104"/>Landesregierung ohne Schwierigkeiten bewerkstelligt wurde: Am <d norm="31.07.1861">31. Juli 1861</d> wählten ihn im ersten Wahlgang 90 der
-					146 anwesenden Parlamentarier.<com id="Wahlkaempfe_c33"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Altermatt, Bundesräte</ref>, <abbr norm="Seite(n)">S.</abbr> 163. – Die Bundesversammlung umfasste 1861 164
-						Mitglieder. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Gruner, Bundesversammlung</ref> II, <abbr norm="Seite(n)">S.</abbr> 178.</com>
+					auf <persName key="Dubs Jakob">Dubs</persName>, dessen Wahl in die <pb n="104"/>Landesregierung ohne Schwierigkeiten bewerkstelligt wurde: Am <date when="1861-07-31">31. Juli 1861</date> wählten ihn im ersten Wahlgang 90 der
+					146 anwesenden Parlamentarier.<com xml:id="Wahlkaempfe_c33">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Altermatt, Bundesräte</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 163. – Die Bundesversammlung umfasste 1861 164
+						Mitglieder. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Gruner, Bundesversammlung</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 178.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p19">In diesem Fall war es Escher und seinen Freunden gelungen,
+				<p xml:id="Wahlkaempfe_p19">In diesem Fall war es Escher und seinen Freunden gelungen,
 					für den Wunschkandidaten eine weitreichende Zustimmung zu erhalten, die über die
-					Parteigrenzen hinausreichte. Zwar gab es einigen Widerstand gegen <idx type="person" norm="Dubs Jakob">Dubs</idx> von den Radikalen um <ref type="kbp"/>
-					<idx type="person" norm="Stämpfli Jakob">Jakob Stämpfli</idx>, die <idx type="person" norm="Dubs Jakob">Dubs</idx>' Wahl aufgrund seiner Haltung in der <idx type="place" norm="Savoyen">Savoyer</idx> Frage <ref type="sum" target="Aussenpolitik_d1.3"><!--S. 80–85--></ref> eine «politische Todsünde» schimpften.<com id="Wahlkaempfe_c34"><ref type="lit">NZZ</ref>, 31. Juli 1861.</com> Hingegen hatte <idx type="person" norm="Dubs Jakob">Dubs</idx> die Konservativen auf seiner Seite. So schrieb
-					etwa der katholisch- konservative <idx type="place" norm="Luzern">Luzerner</idx> Nationalrat <idx type="person" norm="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von Segesser</idx> an den
-					ehemaligen <idx type="place" norm="Schwyz">Schwyzer</idx> Ständerat <idx type="person" norm="Reding (von Biberegg) Nazar">Nazar von Reding</idx>: «Ihre Ansichten
-					über die Candidaten theilte ich vollständig und zog also auch die Wahl des <abbr norm="Doktor / Doctor">Dr</abbr>
-					<idx type="person" norm="Dubs Jakob">Dubs</idx> unter Umständen jeder andern, möglichen, vor.»<com id="Wahlkaempfe_c35">Brief <idx type="person" norm="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von Segesser</idx> an <idx type="person" norm="Reding (von Biberegg) Nazar">Nazar von Reding</idx>, <d norm="01.08.1861">1. August 1861</d>, <abbr norm="zitiert">zit.</abbr>
-						<ref type="lit">Conzemius, Briefwechsel von Segesser</ref> III, <abbr norm="Seite(n)">S.</abbr> 114.</com>
+					Parteigrenzen hinausreichte. Zwar gab es einigen Widerstand gegen <persName key="Dubs Jakob">Dubs</persName> von den Radikalen um 
+					<persName key="Stämpfli Jakob">Jakob Stämpfli</persName>, die <persName key="Dubs Jakob">Dubs</persName>' Wahl aufgrund seiner Haltung in der <placeName key="Savoyen">Savoyer</placeName> Frage <ref type="sum" target="Aussenpolitik_d1.3"><!--S. 80–85--></ref> eine «politische Todsünde» schimpften.<com xml:id="Wahlkaempfe_c34">
+                            <ref type="lit">NZZ</ref>, 31. Juli 1861.</com> Hingegen hatte <persName key="Dubs Jakob">Dubs</persName> die Konservativen auf seiner Seite. So schrieb
+					etwa der katholisch- konservative <placeName key="Luzern">Luzerner</placeName> Nationalrat <persName key="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von Segesser</persName> an den
+					ehemaligen <placeName key="Schwyz">Schwyzer</placeName> Ständerat <persName key="Reding (von Biberegg) Nazar">Nazar von Reding</persName>: «Ihre Ansichten
+					über die Candidaten theilte ich vollständig und zog also auch die Wahl des <choice>
+                            <abbr>Dr</abbr>
+                            <expan>Doktor / Doctor</expan>
+                        </choice>
+					<persName key="Dubs Jakob">Dubs</persName> unter Umständen jeder andern, möglichen, vor.»<com xml:id="Wahlkaempfe_c35">Brief <persName key="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von Segesser</persName> an <persName key="Reding (von Biberegg) Nazar">Nazar von Reding</persName>, <date when="1861-08-01">1. August 1861</date>, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice>
+						<ref type="lit">Conzemius, Briefwechsel von Segesser</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 114.</com>
 				</p>
 			</div>
 
-			<div id="Wahlkaempfe_d1.3">
+			<div xml:id="Wahlkaempfe_d1.3">
 				<head>Nationalratswahlen 1857: Doppelwahl</head>
 
-				<p id="Wahlkaempfe_p20">Die Bundesverfassung von 1848 schrieb vor, das
-					eidgenössische Parlament alle drei Jahre neu zu bestellen.<com id="Wahlkaempfe_c36"><ref type="lit">BV 1848</ref>, <abbr norm="Artikel">Art.</abbr> 65.</com> Escher hatte somit regelmässig
+				<p xml:id="Wahlkaempfe_p20">Die Bundesverfassung von 1848 schrieb vor, das
+					eidgenössische Parlament alle drei Jahre neu zu bestellen.<com xml:id="Wahlkaempfe_c36">
+                            <ref type="lit">BV 1848</ref>, <choice>
+                                <abbr>Art.</abbr>
+                                <expan>Artikel</expan>
+                            </choice> 65.</com> Escher hatte somit regelmässig
 					seinen Nationalratssitz zu verteidigen. Besonders aufreibend gestaltete sich
 					dies 1857, als Escher von verschiedener Seite Kritik entgegenschlug. Die Presse
 					griff ein allgemeines Unbehagen gegenüber den Eisenbahnunternehmern auf, die
 					sich nach verbreiteter Ansicht nur um den eigenen Profit und nicht um die
 					nationalen Interessen kümmerten. Der Begriff «Bundesbarone»<ref type="sum" target="Wirtschaftsliberales_Zeitfenster_p9"><!--→ S. 9--></ref> machte die Runde;
-					ein Schmähwort für die neue Elite, die in Politik und Wirtschaft die Fäden zog.<com id="Wahlkaempfe_c37">Zur Propaganda gegen die «Eisenbahnherren» und
-						«Bundesbarone» <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Wehrli, Bundesbarone</ref>; <ref type="lit">Segesser, Sammlung</ref> III, <abbr norm="Seite(n)">S.</abbr> VIII; <ref type="lit">Gagliardi, Escher</ref>, <abbr norm="Seite(n)">S.</abbr> 327–333.</com>
+					ein Schmähwort für die neue Elite, die in Politik und Wirtschaft die Fäden zog.<com xml:id="Wahlkaempfe_c37">Zur Propaganda gegen die «Eisenbahnherren» und
+						«Bundesbarone» <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Wehrli, Bundesbarone</ref>; <ref type="lit">Segesser, Sammlung</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> VIII; <ref type="lit">Gagliardi, Escher</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 327–333.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p21">Der «Landbote» kritisierte Escher im Vorfeld der Wahlen vom
+				<p xml:id="Wahlkaempfe_p21">Der «Landbote» kritisierte Escher im Vorfeld der Wahlen vom
 					Herbst 1857 wiederholt. So schrieb das Blatt etwa, dass Escher «kein Herz für
 					das Volk» habe, dass er herrschsüchtig sei und «keinen Widerspruch ertragen»
-					könne.<com id="Wahlkaempfe_c38"><ref type="lit">Der Landbote</ref>, 15. Oktober 1857.</com> Darüber hinaus
+					könne.<com xml:id="Wahlkaempfe_c38">
+                            <ref type="lit">Der Landbote</ref>, 15. Oktober 1857.</com> Darüber hinaus
 					wurde Escher Vetternwirtschaft und der Missbrauch seiner politischen Stellung
 					für seine wirtschaftlichen Anliegen vorgeworfen. Der «Landbote» kolportierte,
 					dass Escher bei der «Besetzung von Staatsämtern weniger auf Tüchtigkeit als auf
-					Ergebenheit an seine Person geachtet habe».<com id="Wahlkaempfe_c39"><ref type="lit">Der Landbote</ref>, 15. Oktober 1857.</com> Die <idx type="place" norm="Zürich">Zürcher</idx> Nationalräte wurden als «Chor des Herrn Escher»
-					abgekanzelt.<com id="Wahlkaempfe_c40"><ref type="lit">Der Landbote</ref>, 17. Oktober 1857.</com> Das
-					«Intelligenzblatt der Stadt und Landschaft <idx type="place" norm="Zürich">Zürich</idx>» ging so weit, mit der Losung «Wählet keine
-					Eisenbahn- und Geldbarone» in den Wahlkampf zu ziehen.<com id="Wahlkaempfe_c41"><ref type="lit">Intelligenzblatt der Stadt und Landschaft Zürich</ref>, 9. Oktober 1857.</com> Das Blatt
+					Ergebenheit an seine Person geachtet habe».<com xml:id="Wahlkaempfe_c39">
+                            <ref type="lit">Der Landbote</ref>, 15. Oktober 1857.</com> Die <placeName key="Zürich">Zürcher</placeName> Nationalräte wurden als «Chor des Herrn Escher»
+					abgekanzelt.<com xml:id="Wahlkaempfe_c40">
+                            <ref type="lit">Der Landbote</ref>, 17. Oktober 1857.</com> Das
+					«Intelligenzblatt der Stadt und Landschaft <placeName key="Zürich">Zürich</placeName>» ging so weit, mit der Losung «Wählet keine
+					Eisenbahn- und Geldbarone» in den Wahlkampf zu ziehen.<com xml:id="Wahlkaempfe_c41">
+                            <ref type="lit">Intelligenzblatt der Stadt und Landschaft Zürich</ref>, 9. Oktober 1857.</com> Das Blatt
 					wünschte sich, «daß unsere Repräsentation eine von den Eisenbahn- und
-					Finanzinteressen freiere, insbesondere von dem Einfluß des Herrn <abbr norm="Doktor / Doctor">Dr.</abbr> Escher unabhängigere sei, als dieß bisanhin der
-					Fall war».<com id="Wahlkaempfe_c42"><ref type="lit">Intelligenzblatt der Stadt und Landschaft Zürich</ref>, 23. Oktober 1857.</com> Dieses
+					Finanzinteressen freiere, insbesondere von dem Einfluß des Herrn <choice>
+                            <abbr>Dr.</abbr>
+                            <expan>Doktor / Doctor</expan>
+                        </choice> Escher unabhängigere sei, als dieß bisanhin der
+					Fall war».<com xml:id="Wahlkaempfe_c42">
+                            <ref type="lit">Intelligenzblatt der Stadt und Landschaft Zürich</ref>, 23. Oktober 1857.</com> Dieses
 					Anliegen wurde vom «Landboten» kräftig unterstützt: «Es läßt sich nicht leugnen,
 					daß die Eisenbahn- und Spekulationsinteressen in den eidgenössischen Räthen ein
-					Einfluß erlangt haben, der ihnen nicht zukommt.»<com id="Wahlkaempfe_c43"><ref type="lit">Der Landbote</ref>, 3. Oktober 1857.</com>
+					Einfluß erlangt haben, der ihnen nicht zukommt.»<com xml:id="Wahlkaempfe_c43">
+                            <ref type="lit">Der Landbote</ref>, 3. Oktober 1857.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p22">Dieses Klima verunsicherte Escher: Musste er um seinen
-					Nationalratssitz bangen? <idx type="person" norm="Furrer Jonas">Jonas Furrer</idx>, Eschers Freund im Bundesrat, zeigte
+				<p xml:id="Wahlkaempfe_p22">Dieses Klima verunsicherte Escher: Musste er um seinen
+					Nationalratssitz bangen? <persName key="Furrer Jonas">Jonas Furrer</persName>, Eschers Freund im Bundesrat, zeigte
 					sich zumindest besorgt um den Ausgang der Wahlen, «namentlich wegen des
-					Eisenbahngiftes, das ihr leider auch im Canton habt».<com id="Wahlkaempfe_c44"><ref type="letter" target="K_1676"><!--Brief Jonas Furrer an Escher, 22. Oktober 1857 (BAR J
-							I.67-8)--></ref>.</com> Escher war gewillt, für die Erhaltung seines
+					Eisenbahngiftes, das ihr leider auch im Canton habt».<com xml:id="Wahlkaempfe_c44"><!--Brief Jonas Furrer an Escher, 22. Oktober 1857 (BAR J
+							I.67-8)-->.</com> Escher war gewillt, für die Erhaltung seines
 					eidgenössischen Mandats alle Hebel in Bewegung zu setzen.</p>
 
-				<p id="Wahlkaempfe_p23">Für Eschers Propaganda stellte die «Neue <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» ein unverzichtbares Organ dar. Die
+				<p xml:id="Wahlkaempfe_p23">Für Eschers Propaganda stellte die «Neue <placeName key="Zürich">Zürcher</placeName> Zeitung» ein unverzichtbares Organ dar. Die
 					guten Beziehungen gründen in den 1840er Jahren, in denen Escher regelmässig als
-					Korrespondent für das Blatt arbeitete.<com id="Wahlkaempfe_c45">Zur publizistischen Tätigkeit Eschers <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="sum" target="Aufstieg_p15"><!--Jung/Koch, Escher Briefe, Bd. 3, S. 23--></ref>; <ref type="letter" target="K_0323"><!--Nr. 12--></ref>; <ref type="letter" target="K_0407"><!--Nr. 36--></ref>;
-						 <ref type="letter" target="K_0458"><!--Nr. 46--></ref>.</com> Auch standen Escher Personen aus dem Umfeld der «Neuen <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» nahe. <idx type="person" norm="Hagenbuch Johannes">Johannes Hagenbuch</idx> etwa, Hauptinhaber des
-					Verlagshauses Orell Füssli und Compagnie, das die «Neue <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» herausgab<ref type="letter" target="K_1921"><!--Nr.90--></ref><ref type="sum" target="Miszellen_d1.2"><!--S.112–114--></ref>, war gleichzeitig Mitglied des
+					Korrespondent für das Blatt arbeitete.<com xml:id="Wahlkaempfe_c45">Zur publizistischen Tätigkeit Eschers <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="sum" target="Aufstieg_p15"><!--Jung/Koch, Escher Briefe, Bd. 3, S. 23--></ref>; <!--Nr. 12-->; <!--Nr. 36-->;
+						 <!--Nr. 46-->.</com> Auch standen Escher Personen aus dem Umfeld der «Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung» nahe. <persName key="Hagenbuch Johannes">Johannes Hagenbuch</persName> etwa, Hauptinhaber des
+					Verlagshauses Orell Füssli und Compagnie, das die «Neue <placeName key="Zürich">Zürcher</placeName> Zeitung» herausgab<!--Nr.90-->
+                        <ref type="sum" target="Miszellen_d1.2"><!--S.112–114--></ref>, war gleichzeitig Mitglied des
 					Verwaltungsrats von Eschers Kreditanstalt. Zudem hatte das gute Einvernehmen mit
 					den <pb n="105"/>Chefredaktoren Tradition: Von 1843 bis 1845 leitete Eschers
-					Zofingerfreund <idx type="person" norm="Meyer Johann Ludwig">Johann Ludwig Meyer</idx> die Redaktion. Ihm
-					folgte <idx type="person" norm="Daverio Ludwig Herkules">Ludwig Herkules Daverio</idx>, ein
-					politischer Mitstreiter Eschers. Nach <idx type="person" norm="Daverio Ludwig Herkules">Daverios</idx> Tod übernahm 1849 <idx type="person" norm="Felber Peter Jakob">Peter Jakob Felber</idx> die redaktionelle
-					Verantwortung über die «Neue <idx type="place" norm="Zürich">Zürcher</idx> Zeitung».<com id="Wahlkaempfe_c46">Zu den einzelnen Redaktoren <abbr norm="vergleiche">vgl.</abbr>
+					Zofingerfreund <persName key="Meyer Johann Ludwig">Johann Ludwig Meyer</persName> die Redaktion. Ihm
+					folgte <persName key="Daverio Ludwig Herkules">Ludwig Herkules Daverio</persName>, ein
+					politischer Mitstreiter Eschers. Nach <persName key="Daverio Ludwig Herkules">Daverios</persName> Tod übernahm 1849 <persName key="Felber Peter Jakob">Peter Jakob Felber</persName> die redaktionelle
+					Verantwortung über die «Neue <placeName key="Zürich">Zürcher</placeName> Zeitung».<com xml:id="Wahlkaempfe_c46">Zu den einzelnen Redaktoren <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
 						<ref type="lit">Weisz, Redaktoren</ref>; <ref type="lit">Weisz, NZZ</ref>.</com>
-					<idx type="person" norm="Felber Peter Jakob">Felber</idx> politisierte allerdings nicht immer
+					<persName key="Felber Peter Jakob">Felber</persName> politisierte allerdings nicht immer
 					auf Eschers Linie, weshalb sich Escher verschiedentlich kritisch über den
-					Redaktor äusserte.<com id="Wahlkaempfe_c47"><abbr norm="Vergleiche">Vgl.</abbr>
+					Redaktor äusserte.<com xml:id="Wahlkaempfe_c47">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="sum" target="Turicensia_p7"><!--Jung/Wiederkehr, Escher Briefe, Bd. 4, S. 70.--></ref> </com>
-					Trotzdem zogen sie im Wahlkampf am selben Strang. Oder wie es <idx type="person" norm="Felber Peter Jakob">Felber</idx> formulierte: «Wir selbst hatten nie
-					die Ehre zu den persönlichen Freunden des <abbr norm="Herrn">Hrn.</abbr> Escher zu gehören [...]; hingegen betrachteten wir es
+					Trotzdem zogen sie im Wahlkampf am selben Strang. Oder wie es <persName key="Felber Peter Jakob">Felber</persName> formulierte: «Wir selbst hatten nie
+					die Ehre zu den persönlichen Freunden des <choice>
+                            <abbr>Hrn.</abbr>
+                            <expan>Herrn</expan>
+                        </choice> Escher zu gehören [...]; hingegen betrachteten wir es
 					stets als eine Ehrensache, auch bei oft sehr abweichenden Meinungen dem
-					pflichttreuen Beamteten [...] die Anerkennung auszusprechen.»<com id="Wahlkaempfe_c48"><ref type="lit">NZZ</ref>, 2. Oktober 1855.</com> Folglich hielt sich das
-					Blatt im Wahlkampf ganz auf Eschers Linie, und <idx type="person" norm="Felber Peter Jakob">Felber</idx> parierte jeden publizistischen
-					Angriff mit einem Gegenartikel.<com id="Wahlkaempfe_c49"><abbr norm="Vergleiche">Vgl.</abbr>
+					pflichttreuen Beamteten [...] die Anerkennung auszusprechen.»<com xml:id="Wahlkaempfe_c48">
+                            <ref type="lit">NZZ</ref>, 2. Oktober 1855.</com> Folglich hielt sich das
+					Blatt im Wahlkampf ganz auf Eschers Linie, und <persName key="Felber Peter Jakob">Felber</persName> parierte jeden publizistischen
+					Angriff mit einem Gegenartikel.<com xml:id="Wahlkaempfe_c49">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">NZZ</ref>, 30. September 1857, 7. Oktober 1857, 13. Oktober
 						1857, 18. Oktober 1857, 24. Oktober 1857, 22. Oktober 1857, 5. November
 						1857.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p24">Auch ehemalige Freunde aus der Studentenverbindung Zofingia
-					wurden für den Wahlkampf mobilisiert. So etwa der <idx type="place" norm="Albisrieden (Zürich)">Albisrieder</idx> Pfarrer <ref type="kbp"/>
-					<idx type="person" norm="Wegmann Karl Gottlieb">Karl Gottlieb Wegmann</idx>. Dieser placierte
-					eine dreiteilige Artikelserie in der «Neuen <idx type="place" norm="Zürich">Zürcher</idx> Zeitung», in der er Escher als «einen der ersten
+				<p xml:id="Wahlkaempfe_p24">Auch ehemalige Freunde aus der Studentenverbindung Zofingia
+					wurden für den Wahlkampf mobilisiert. So etwa der <placeName key="Albisrieden (Zürich)">Albisrieder</placeName> Pfarrer 
+					<persName key="Wegmann Karl Gottlieb">Karl Gottlieb Wegmann</persName>. Dieser placierte
+					eine dreiteilige Artikelserie in der «Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung», in der er Escher als «einen der ersten
 					Arbeiter im eidgenössischen wie im kantonalen Dienste» lobte und dem Stimmvolk
 					nahelegte, sich nicht verleiten zu lassen, Escher «wegen einigen Eisenbahnhaders
-					[...] zu verleugnen».<com id="Wahlkaempfe_c50"><ref type="lit">NZZ</ref>, 17. Oktober 1857.</com> Im Gegenzug setzte sich
-					Escher dafür ein, dass <idx type="person" norm="Wegmann Karl Gottlieb">Wegmann</idx> zum Direktor der kantonalen
-					Strafanstalt berufen wurde.<ref type="letter" target="K_1684"><!--Nr.62--></ref> </p>
+					[...] zu verleugnen».<com xml:id="Wahlkaempfe_c50">
+                            <ref type="lit">NZZ</ref>, 17. Oktober 1857.</com> Im Gegenzug setzte sich
+					Escher dafür ein, dass <persName key="Wegmann Karl Gottlieb">Wegmann</persName> zum Direktor der kantonalen
+					Strafanstalt berufen wurde.<!--Nr.62--> </p>
 
-				<p id="Wahlkaempfe_p25">Daneben beteiligten sich weitere Akteure aus Eschers
-					Netzwerk an der Wahlpropaganda. <idx type="person" norm="Treichler Johann Jakob">Johann Jakob Treichler</idx>, ehemaliger Kopf
-					der kommunistischen Bewegung im Kanton <idx type="place" norm="Zürich">Zürich</idx>, der 1856 auf Eschers Linie umschwenkte, wurde
-					von diesem beauftragt, in <idx type="person" norm="Treichler Johann Jakob">Treichlers</idx> Heimatbezirk <idx type="place" norm="Affoltern am Albis">Affoltern</idx> um die Wahlen besorgt zu sein:
+				<p xml:id="Wahlkaempfe_p25">Daneben beteiligten sich weitere Akteure aus Eschers
+					Netzwerk an der Wahlpropaganda. <persName key="Treichler Johann Jakob">Johann Jakob Treichler</persName>, ehemaliger Kopf
+					der kommunistischen Bewegung im Kanton <placeName key="Zürich">Zürich</placeName>, der 1856 auf Eschers Linie umschwenkte, wurde
+					von diesem beauftragt, in <persName key="Treichler Johann Jakob">Treichlers</persName> Heimatbezirk <placeName key="Affoltern am Albis">Affoltern</placeName> um die Wahlen besorgt zu sein:
 					«Unter diesen Umständen ist wohl große Rührigkeit von unserer Seite nothwendig.»
-					Escher befürchtete, dass die Wähler in <idx type="place" norm="Affoltern am Albis">Affoltern</idx> ansonsten «die Wahl nach ihrem
-					Sinne durchsetzen». Er bat <idx type="person" norm="Treichler Johann Jakob">Treichler</idx>: «Thun Sie Ihr möglichstes.»<com id="Wahlkaempfe_c51"><ref type="letter" target="K_1686"><!--Brief Escher an Johann Jakob Treichler, 21. November 1857
-							(ZBZ Ms Z II 593.13)--></ref>.</com> Im Bezirk <idx type="place" norm="Horgen">Horgen</idx> war <idx type="person" norm="Hüni-Stettler Heinrich">Heinrich Hüni-Stettler</idx>,
-					Direktionsmitglied der <ref type="kbe"/> Nordostbahn und Verwaltungsrat der Schweizerischen
-					Kreditanstalt, durch seinen Einfluss auf den «Anzeiger von <idx type="place" norm="Horgen">Horgen</idx>» darum bemüht, die Stimmung zugunsten Eschers zu
-					beeinflussen.<com id="Wahlkaempfe_c52"><abbr norm="Vergleiche">Vgl.</abbr>
+					Escher befürchtete, dass die Wähler in <placeName key="Affoltern am Albis">Affoltern</placeName> ansonsten «die Wahl nach ihrem
+					Sinne durchsetzen». Er bat <persName key="Treichler Johann Jakob">Treichler</persName>: «Thun Sie Ihr möglichstes.»<com xml:id="Wahlkaempfe_c51"><!--Brief Escher an Johann Jakob Treichler, 21. November 1857
+							(ZBZ Ms Z II 593.13)-->.</com> Im Bezirk <placeName key="Horgen">Horgen</placeName> war <persName key="Hüni-Stettler Heinrich">Heinrich Hüni-Stettler</persName>,
+					Direktionsmitglied der  Nordostbahn und Verwaltungsrat der Schweizerischen
+					Kreditanstalt, durch seinen Einfluss auf den «Anzeiger von <placeName key="Horgen">Horgen</placeName>» darum bemüht, die Stimmung zugunsten Eschers zu
+					beeinflussen.<com xml:id="Wahlkaempfe_c52">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">Der Bund</ref>, 19. Oktober 1857.</com> Den «Landboten»
 					strafte Escher für seine oppositionelle Haltung ab, indem er keine Inserate der
-					Nordostbahn mehr schaltete.<com id="Wahlkaempfe_c53"><abbr norm="Vergleiche">Vgl.</abbr>
+					Nordostbahn mehr schaltete.<com xml:id="Wahlkaempfe_c53">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">NZZ</ref>, 5. November 1857.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p26">Darüber hinaus ergriff Escher eine ungewöhnliche Massnahme,
-					um seinen Nationalratssitz zu verteidigen: Er kandidierte gleichzeitig im Kanton <idx type="place" norm="Thurgau">Thurgau</idx>. Die «Eidgenössische Zeitung» quittierte diesen
-					Plan mit einem Kopfschütteln: «Ein dankbarer <idx type="place" norm="Thurgau">Thurgauer</idx>, dem um die Wiederwahl <abbr norm="Doktor / Doctor">Dr.</abbr> Eschers in <idx type="place" norm="Zürich">Zürich</idx> bange ist, schlägt dem <idx type="place" norm="Thurgau">thurgauischen</idx> Volke vor, diesen Namen an die Spitze
-					seiner Nationalräthe zu stellen. Macht Euch doch nicht allesammt lächerlich!»<com id="Wahlkaempfe_c54"><ref type="lit">Eidgenössische Zeitung</ref>, 21. Oktober 1857.</com>
+				<p xml:id="Wahlkaempfe_p26">Darüber hinaus ergriff Escher eine ungewöhnliche Massnahme,
+					um seinen Nationalratssitz zu verteidigen: Er kandidierte gleichzeitig im Kanton <placeName key="Thurgau">Thurgau</placeName>. Die «Eidgenössische Zeitung» quittierte diesen
+					Plan mit einem Kopfschütteln: «Ein dankbarer <placeName key="Thurgau">Thurgauer</placeName>, dem um die Wiederwahl <choice>
+                            <abbr>Dr.</abbr>
+                            <expan>Doktor / Doctor</expan>
+                        </choice> Eschers in <placeName key="Zürich">Zürich</placeName> bange ist, schlägt dem <placeName key="Thurgau">thurgauischen</placeName> Volke vor, diesen Namen an die Spitze
+					seiner Nationalräthe zu stellen. Macht Euch doch nicht allesammt lächerlich!»<com xml:id="Wahlkaempfe_c54">
+                            <ref type="lit">Eidgenössische Zeitung</ref>, 21. Oktober 1857.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p27">Der Urheber dieses Gedankens war jedoch kein «dankbarer <idx type="place" norm="Thurgau">Thurgauer</idx>», sondern Escher selbst. Die
+				<p xml:id="Wahlkaempfe_p27">Der Urheber dieses Gedankens war jedoch kein «dankbarer <placeName key="Thurgau">Thurgauer</placeName>», sondern Escher selbst. Die
 					Erfolgsaussichten des Unterfangens wurden zuerst im kleinen Kreis sondiert. Dazu
-					gehörten die beiden <idx type="place" norm="Thurgau">Thurgauer</idx> Parlamentarier <idx type="person" norm="Häberlin Eduard">Eduard Häberlin</idx>, Studien- und Zofingerfreund
-					Eschers, und <idx type="person" norm="Kappeler Johann Karl">Johann Karl Kappeler</idx>, den Escher seit der
-					gemeinsamen Gymnasialzeit in <idx type="place" norm="Zürich (Stadt)">Zürich</idx> kannte. <idx type="person" norm="Kappeler Johann Karl">Kappeler</idx> konnte zwar «nimmermehr glauben»,
-					dass Escher «in <idx type="place" norm="Zürich">Zürich</idx> Gefahr droht»<ref type="letter" target="K_1669"><!--Nr.60--></ref>, gleichwohl wurden umgehend die nötigen
+					gehörten die beiden <placeName key="Thurgau">Thurgauer</placeName> Parlamentarier <persName key="Häberlin Eduard">Eduard Häberlin</persName>, Studien- und Zofingerfreund
+					Eschers, und <persName key="Kappeler Johann Karl">Johann Karl Kappeler</persName>, den Escher seit der
+					gemeinsamen Gymnasialzeit in <placeName key="Zürich (Stadt)">Zürich</placeName> kannte. <persName key="Kappeler Johann Karl">Kappeler</persName> konnte zwar «nimmermehr glauben»,
+					dass Escher «in <placeName key="Zürich">Zürich</placeName> Gefahr droht»<!--Nr.60-->, gleichwohl wurden umgehend die nötigen
 					Schritte eingeleitet. Damit Escher keinem der bisherigen Nationalräte den Sitz
-					streitig machen musste, liess sich <idx type="person" norm="Häberlin Eduard">Häberlin</idx> vorgängig in den Ständerat wählen.<com id="Wahlkaempfe_c55"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Thurgauer Zeitung</ref>, 23. Oktober 1857. – Zu <idx type="person" norm="Häberlin Eduard">Häberlins</idx> Einfluss auf Eschers Wahl <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Mebold, Häberlin</ref>, <abbr norm="Seite(n)">S.</abbr> 136–139.</com> Dort nahm er den Platz von <idx type="person" norm="Kern Johann Konrad">Johann Konrad Kern</idx> ein, der kurz zuvor zum
-					ausserordentlichen Gesandten und bevollmächtigten Minister der Schweiz in <idx type="place" norm="Paris (F)">Paris</idx> ernannt<ref type="sum" target="Aussenpolitik_d1.2.3"><!--S.77--></ref>
-					<pb n="106"/>worden war. Nachdem <idx type="person" norm="Häberlin Eduard">Häberlins</idx> Nationalratssitz auf diese Weise für
-					Escher geräumt worden war, rührte die «<idx type="place" norm="Thurgau">Thurgauer</idx> Zeitung» die Werbetrommel für den <idx type="place" norm="Zürich">Zürcher</idx> Kandidaten.<com id="Wahlkaempfe_c56">Zum politischen Einfluss der «<idx type="place" norm="Thurgau">Thurgauer</idx> Zeitung» <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Mebold, Häberlin</ref>, <abbr norm="Seite(n)">S.</abbr> 271–292.</com> So hiess es unter anderem, dass
+					streitig machen musste, liess sich <persName key="Häberlin Eduard">Häberlin</persName> vorgängig in den Ständerat wählen.<com xml:id="Wahlkaempfe_c55">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Thurgauer Zeitung</ref>, 23. Oktober 1857. – Zu <persName key="Häberlin Eduard">Häberlins</persName> Einfluss auf Eschers Wahl <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Mebold, Häberlin</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 136–139.</com> Dort nahm er den Platz von <persName key="Kern Johann Konrad">Johann Konrad Kern</persName> ein, der kurz zuvor zum
+					ausserordentlichen Gesandten und bevollmächtigten Minister der Schweiz in <placeName key="Paris (F)">Paris</placeName> ernannt<ref type="sum" target="Aussenpolitik_d1.2.3"><!--S.77--></ref>
+					<pb n="106"/>worden war. Nachdem <persName key="Häberlin Eduard">Häberlins</persName> Nationalratssitz auf diese Weise für
+					Escher geräumt worden war, rührte die «<placeName key="Thurgau">Thurgauer</placeName> Zeitung» die Werbetrommel für den <placeName key="Zürich">Zürcher</placeName> Kandidaten.<com xml:id="Wahlkaempfe_c56">Zum politischen Einfluss der «<placeName key="Thurgau">Thurgauer</placeName> Zeitung» <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Mebold, Häberlin</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 271–292.</com> So hiess es unter anderem, dass
 					Escher «mit der neuen Bundesverfassung und Gesetzgebung unzertrennlich verknüpft
 					ist, daß der Mann in allen Wirren der neuern Zeit [...] mit seinem
 					staatsmännischen Takt und Geschick, wie durch seine Charakterfestigkeit und
 					Arbeitsenergie, Ausgezeichnetes geleistet hat und auch, wie kein Anderer,
-					berufen ist, fernerhin zum Wohl des Landes maßgebend zu wirken».<com id="Wahlkaempfe_c57"><ref type="lit">Thurgauer Zeitung</ref>, 23. Oktober 1857.</com>
+					berufen ist, fernerhin zum Wohl des Landes maßgebend zu wirken».<com xml:id="Wahlkaempfe_c57">
+                            <ref type="lit">Thurgauer Zeitung</ref>, 23. Oktober 1857.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p28">Am <d norm="25.10.1857">25. Oktober 1857</d> war in <idx type="place" norm="Zürich">Zürich</idx> und im <idx type="place" norm="Thurgau">Thurgau</idx> Wahltag. Umwälzungen gab es in Eschers Heimat
+				<p xml:id="Wahlkaempfe_p28">Am <date when="1857-10-25">25. Oktober 1857</date> war in <placeName key="Zürich">Zürich</placeName> und im <placeName key="Thurgau">Thurgau</placeName> Wahltag. Umwälzungen gab es in Eschers Heimat
 					keine: Sämtliche wieder antretenden Nationalräte wurden gewählt – Escher in
-					seinem Wahlkreis sogar mit dem besten Resultat (85,5% der Stimmen). Im <idx type="place" norm="Thurgau">Thurgau</idx> bot sich ein ähnliches Bild: Die drei
+					seinem Wahlkreis sogar mit dem besten Resultat (85,5% der Stimmen). Im <placeName key="Thurgau">Thurgau</placeName> bot sich ein ähnliches Bild: Die drei
 					bisherigen Nationalräte wurden in ihrem Amt bestätigt (alle mit über 90% der
-					Stimmen); der Sitz <idx type="person" norm="Häberlin Eduard">Häberlins</idx> ging an Escher (69.9% der Stimmen).<com id="Wahlkaempfe_c58"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Gruner, Nationalratswahlen</ref> III, <abbr norm="Seite(n)">S.</abbr> 57, 66.</com> Eschers <idx type="place" norm="Thurgau">Thurgauer</idx> Freund <idx type="person" norm="Kern Johann Konrad">Johann Konrad Kern</idx> zeigte sich überaus
+					Stimmen); der Sitz <persName key="Häberlin Eduard">Häberlins</persName> ging an Escher (69.9% der Stimmen).<com xml:id="Wahlkaempfe_c58">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 57, 66.</com> Eschers <placeName key="Thurgau">Thurgauer</placeName> Freund <persName key="Kern Johann Konrad">Johann Konrad Kern</persName> zeigte sich überaus
 					zufrieden mit dem Wahlausgang in seinem Heimatkanton: «Mein Kanton hat damit
 					eine Ehrenschuld abgetragen [...]. Diese Doppelwahl ist die würdigste Antwort auf
-					die Angriffe, denen du in der lezten Zeit ausgesezt warest.»<ref type="letter" target="K_1679"><!--Nr.61--></ref> Da Escher kein Doppelmandat im
-					Nationalrat übernehmen konnte, verzichtete er auf die Annahme der <idx type="place" norm="Thurgau">Thurgauer</idx> Wahl, jedoch nicht ohne sich bei den Wählern
-					aus dem Nachbarkanton in einem offenen Brief zu bedanken.<com id="Wahlkaempfe_c59"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Gruner, Nationalratswahlen</ref> III, <abbr norm="Seite(n)">S.</abbr> 57, 66.</com>
+					die Angriffe, denen du in der lezten Zeit ausgesezt warest.»<!--Nr.61--> Da Escher kein Doppelmandat im
+					Nationalrat übernehmen konnte, verzichtete er auf die Annahme der <placeName key="Thurgau">Thurgauer</placeName> Wahl, jedoch nicht ohne sich bei den Wählern
+					aus dem Nachbarkanton in einem offenen Brief zu bedanken.<com xml:id="Wahlkaempfe_c59">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 57, 66.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p29">Waren Eschers Sorgen um seinen Nationalratssitz unbegründet?
-					Nicht unbedingt, wenn man einen Blick in den Kanton <idx type="place" norm="Solothurn">Solothurn</idx> wirft. Dort wurde <idx type="person" norm="Trog Johann Jakob">Johann Jakob Trog</idx>, Direktor der <ref type="kbe"/> Centralbahn, aufgrund der massiven Propaganda gegen die
-					«Eisenbahnherren» nicht wiedergewählt.<com id="Wahlkaempfe_c60"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">NZZ</ref>, 24. Oktober 1857; <ref type="lit">Gruner, Nationalratswahlen</ref> I.2, <abbr norm="Seite(n)">S.</abbr> 628, 637.</com> In einem Akt der Verzweiflung
-					wandte sich ein Freund <idx type="person" norm="Trog Johann Jakob">Trogs</idx> an Escher, um dem gestürzten
+				<p xml:id="Wahlkaempfe_p29">Waren Eschers Sorgen um seinen Nationalratssitz unbegründet?
+					Nicht unbedingt, wenn man einen Blick in den Kanton <placeName key="Solothurn">Solothurn</placeName> wirft. Dort wurde <persName key="Trog Johann Jakob">Johann Jakob Trog</persName>, Direktor der  Centralbahn, aufgrund der massiven Propaganda gegen die
+					«Eisenbahnherren» nicht wiedergewählt.<com xml:id="Wahlkaempfe_c60">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">NZZ</ref>, 24. Oktober 1857; <ref type="lit">Gruner, Nationalratswahlen</ref> I.2, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 628, 637.</com> In einem Akt der Verzweiflung
+					wandte sich ein Freund <persName key="Trog Johann Jakob">Trogs</persName> an Escher, um dem gestürzten
 					Nationalrat doch noch zu seinem Sitz zu verhelfen, denn aufgrund von Eschers
-					Ablehnung der <idx type="place" norm="Thurgau">Thurgauer</idx> Wahl stand im <idx type="place" norm="Ostschweiz">Ostschweizer</idx> Kanton eine Nachwahl bevor. «Sie kennen
-					das Resultat unserer Nationalrathswahlen», schrieb <idx type="person" norm="Trog Johann Jakob">Trogs</idx> Gefährte an Escher; «die irrige Ansicht
-					über die Eisenbahnen bewirkten die Nichtwahl von <abbr norm="Herrn">Hrn.</abbr>
-					<idx type="person" norm="Trog Johann Jakob">Trog</idx>, der Kanton <idx type="place" norm="Solothurn">Solothurn</idx> gab seinen Einfluß preis, den er früher
+					Ablehnung der <placeName key="Thurgau">Thurgauer</placeName> Wahl stand im <placeName key="Ostschweiz">Ostschweizer</placeName> Kanton eine Nachwahl bevor. «Sie kennen
+					das Resultat unserer Nationalrathswahlen», schrieb <persName key="Trog Johann Jakob">Trogs</persName> Gefährte an Escher; «die irrige Ansicht
+					über die Eisenbahnen bewirkten die Nichtwahl von <choice>
+                            <abbr>Hrn.</abbr>
+                            <expan>Herrn</expan>
+                        </choice>
+					<persName key="Trog Johann Jakob">Trog</persName>, der Kanton <placeName key="Solothurn">Solothurn</placeName> gab seinen Einfluß preis, den er früher
 					durch seine Abgeordneten erworben. Jeder Vernünftige inn- &amp; außerhalb des
-					Kantons muß beklagen, daß <abbr norm="Herr">Hr.</abbr>
-					<idx type="person" norm="Trog Johann Jakob">Trog</idx> in eidgenößischen Angelegenheiten außer
-					Wirksamkeit gesetzt werden soll. [...] Sie wurden in <idx type="place" norm="Zürich">Zürich</idx> &amp; <idx type="place" norm="Thurgau">Thurgau</idx> als <abbr norm="NationalRath">Nat.R.</abbr> gewählt. Glauben Sie daß für die Wahl <abbr norm="von">v.</abbr>
-					<abbr norm="Herrn">Hrn.</abbr>
-					<idx type="person" norm="Trog Johann Jakob">Trog</idx> im <idx type="place" norm="Thurgau">Thurgau</idx> Hoffnung sein könnte? Ich weiß mich an
-					Niemanden zu wenden, der über diese Frage beßer unterrichtet wäre als Sie.»<com id="Wahlkaempfe_c61"><ref type="letter" target="K_1680"><!--Brief Jakob Benedikt Schmid an Escher, 2. November 1857
-							(BAR J I.67-8)--></ref>.</com> Doch Escher konnte in dieser Angelegenheit
-					nichts mehr unternehmen. Es aspirierten in der Nachwahl bereits genügend <idx type="place" norm="Thurgau">Thurgauer</idx> Anwärter auf den vakanten Nationalratssitz,
-					so dass es für den <idx type="place" norm="Solothurn">Solothurner</idx>
-					<idx type="person" norm="Trog Johann Jakob">Trog</idx> keine Erfolgsaussichten gab.<com id="Wahlkaempfe_c62">Zum Wahlkampf für die Nachwahlen im Kanton <idx type="place" norm="Thurgau">Thurgau</idx>
-						<abbr norm="vergleiche">vgl.</abbr>
+					Kantons muß beklagen, daß <choice>
+                            <abbr>Hr.</abbr>
+                            <expan>Herr</expan>
+                        </choice>
+					<persName key="Trog Johann Jakob">Trog</persName> in eidgenößischen Angelegenheiten außer
+					Wirksamkeit gesetzt werden soll. [...] Sie wurden in <placeName key="Zürich">Zürich</placeName> &amp; <placeName key="Thurgau">Thurgau</placeName> als <choice>
+                            <abbr>Nat.R.</abbr>
+                            <expan>NationalRath</expan>
+                        </choice> gewählt. Glauben Sie daß für die Wahl <choice>
+                            <abbr>v.</abbr>
+                            <expan>von</expan>
+                        </choice>
+					<choice>
+                            <abbr>Hrn.</abbr>
+                            <expan>Herrn</expan>
+                        </choice>
+					<persName key="Trog Johann Jakob">Trog</persName> im <placeName key="Thurgau">Thurgau</placeName> Hoffnung sein könnte? Ich weiß mich an
+					Niemanden zu wenden, der über diese Frage beßer unterrichtet wäre als Sie.»<com xml:id="Wahlkaempfe_c61"><!--Brief Jakob Benedikt Schmid an Escher, 2. November 1857
+							(BAR J I.67-8)-->.</com> Doch Escher konnte in dieser Angelegenheit
+					nichts mehr unternehmen. Es aspirierten in der Nachwahl bereits genügend <placeName key="Thurgau">Thurgauer</placeName> Anwärter auf den vakanten Nationalratssitz,
+					so dass es für den <placeName key="Solothurn">Solothurner</placeName>
+					<persName key="Trog Johann Jakob">Trog</persName> keine Erfolgsaussichten gab.<com xml:id="Wahlkaempfe_c62">Zum Wahlkampf für die Nachwahlen im Kanton <placeName key="Thurgau">Thurgau</placeName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
 						<ref type="lit">Thurgauer Zeitung</ref>, 14. November 1857.</com> Gewählt
-					wurde am <d norm="04.12.1857">4. Dezember 1857</d> der <idx type="place" norm="Frauenfeld">Frauenfelder</idx> Jurist <idx type="person" norm="Messmer Johann">Johann Messmer</idx> <!--LB, verifiziert-->.<com id="Wahlkaempfe_c63">Am <d norm="22.11.1857">22. November 1857</d> fand die erste Nachwahl statt,
-						bei der <idx type="person" norm="Messmer Johann">Messmer</idx> <!--LB, verifiziert--> zwar am meisten Stimmen erhielt, das
-						absolute Mehr jedoch nicht erreichte. Im zweiten Wahlgang vom <d norm="04.12.1857">4. Dezember 1857</d> wurde er mit 9816 Stimmen (65,7%)
-						in den Nationalrat gewählt. <abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Gruner, Nationalratswahlen</ref> III, <abbr norm="Seite(n)">S.</abbr> 66.</com>
+					wurde am <date when="1857-12-04">4. Dezember 1857</date> der <placeName key="Frauenfeld">Frauenfelder</placeName> Jurist <persName key="Messmer Johann">Johann Messmer</persName> <!--LB, verifiziert-->.<com xml:id="Wahlkaempfe_c63">Am <date when="1857-11-22">22. November 1857</date> fand die erste Nachwahl statt,
+						bei der <persName key="Messmer Johann">Messmer</persName> <!--LB, verifiziert--> zwar am meisten Stimmen erhielt, das
+						absolute Mehr jedoch nicht erreichte. Im zweiten Wahlgang vom <date when="1857-12-04">4. Dezember 1857</date> wurde er mit 9816 Stimmen (65,7%)
+						in den Nationalrat gewählt. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 66.</com>
 				</p>
 			</div>
 
-			<div id="Wahlkaempfe_d1.4">
+			<div xml:id="Wahlkaempfe_d1.4">
 				<head>Bundesratswahlen 1857: Intrige</head>
 
-				<p id="Wahlkaempfe_p30">Am <d norm="07.12.1857">7. Dezember 1857</d> trat die neu bestellte
+				<p xml:id="Wahlkaempfe_p30">Am <date when="1857-12-07">7. Dezember 1857</date> trat die neu bestellte
 					Bundesversammlung zur Wintersession zusammen. Auf der Traktandenliste stand die
 					Wahl der Exekutive. Alle sieben Bundesräte wurden im Amt bestätigt. Trotzdem
-					sorgte das Ereignis im Kanton <idx type="place" norm="Bern">Bern</idx> für Aufruhr. Was war geschehen? Der <idx type="place" norm="Bern">Berner</idx> Bundesrat <idx type="person" norm="Stämpfli Jakob">Jakob Stämpfli</idx> konnte nur 74 Stimmen auf sich
+					sorgte das Ereignis im Kanton <placeName key="Bern">Bern</placeName> für Aufruhr. Was war geschehen? Der <placeName key="Bern">Berner</placeName> Bundesrat <persName key="Stämpfli Jakob">Jakob Stämpfli</persName> konnte nur 74 Stimmen auf sich
 					vereinen und lag damit lediglich zwei Stimmen über dem absoluten Mehr. Zum
-					Vergleich: Der <idx type="place" norm="Zürich">Zürcher</idx> Bundesrat <idx type="person" norm="Furrer Jonas">Jonas Furrer</idx> wurde von 107 Parlamentariern
-					wiedergewählt.<com id="Wahlkaempfe_c64"><abbr norm="Vergleiche">Vgl.</abbr>
+					Vergleich: Der <placeName key="Zürich">Zürcher</placeName> Bundesrat <persName key="Furrer Jonas">Jonas Furrer</persName> wurde von 107 Parlamentariern
+					wiedergewählt.<com xml:id="Wahlkaempfe_c64">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">NZZ</ref>, 11. Dezember 1857.</com> Man vermutete ein
-					Komplott gegen <idx type="person" norm="Stämpfli Jakob">Stämpfli</idx>, das in Eschers Umfeld geschmiedet
-					worden sein musste. Die <pb n="107"/>«<idx type="place" norm="Bern">Berner</idx> Zeitung» witterte eine «<idx type="place" norm="Zürich">Zürcherische</idx> Intrigue gegen die Wahl des Herrn <idx type="person" norm="Stämpfli Jakob">Stämpfli</idx> in den Bundesrath».<com id="Wahlkaempfe_c65"><ref type="lit">Berner Zeitung</ref>, 31. Dezember 1857; <ref type="lit">NZZ</ref>, 1. Januar 1858.</com> Escher galt im Parlament als
-					Königsmacher. So schrieb etwa der abgewählte Nationalrat <idx type="person" norm="Trog Johann Jakob">Trog</idx> im Vorfeld der Bundesratswahlen an
+					Komplott gegen <persName key="Stämpfli Jakob">Stämpfli</persName>, das in Eschers Umfeld geschmiedet
+					worden sein musste. Die <pb n="107"/>«<placeName key="Bern">Berner</placeName> Zeitung» witterte eine «<placeName key="Zürich">Zürcherische</placeName> Intrigue gegen die Wahl des Herrn <persName key="Stämpfli Jakob">Stämpfli</persName> in den Bundesrath».<com xml:id="Wahlkaempfe_c65">
+                            <ref type="lit">Berner Zeitung</ref>, 31. Dezember 1857; <ref type="lit">NZZ</ref>, 1. Januar 1858.</com> Escher galt im Parlament als
+					Königsmacher. So schrieb etwa der abgewählte Nationalrat <persName key="Trog Johann Jakob">Trog</persName> im Vorfeld der Bundesratswahlen an
 					Escher: «Die Frage über die bevorstehenden Wahlen [...] verdient gewiß ernstliche
-					Erwägung. Wie ich die Bundesversammlung kenne, liegt die Sache in Ihrer Hand.»<com id="Wahlkaempfe_c66"><ref type="letter" target="K_1692"><!--Brief Johann Jakob Trog an Escher, 7. Dezember 1857 (BAR J
-							I.67-8)--></ref>.</com> Und auch <ref type="kbp"/>
-					<idx type="person" norm="Ehrhardt Friedrich Gustav">Friedrich Gustav Ehrhardt</idx>, Eschers
+					Erwägung. Wie ich die Bundesversammlung kenne, liegt die Sache in Ihrer Hand.»<com xml:id="Wahlkaempfe_c66"><!--Brief Johann Jakob Trog an Escher, 7. Dezember 1857 (BAR J
+							I.67-8)-->.</com> Und auch 
+					<persName key="Ehrhardt Friedrich Gustav">Friedrich Gustav Ehrhardt</persName>, Eschers
 					rechte Hand, zeigte sich nicht weiter überrascht über die Verdächtigungen: «Daß
-					man Dich im Auge hat, bedarf weiter keiner Auseinandersetzung.»<com id="Wahlkaempfe_c67"><ref type="letter" target="K_1697"><!--Brief Friedrich Gustav Ehrhardt an Escher, 13. Dezember
-							1857 (BAR J I.67-8)--></ref>.</com>
+					man Dich im Auge hat, bedarf weiter keiner Auseinandersetzung.»<com xml:id="Wahlkaempfe_c67"><!--Brief Friedrich Gustav Ehrhardt an Escher, 13. Dezember
+							1857 (BAR J I.67-8)-->.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p31">Escher hätte durchaus seine Gründe gehabt, gegen <idx type="person" norm="Stämpfli Jakob">Stämpfli</idx> zu wirken, gingen ihre Ansichten doch
+				<p xml:id="Wahlkaempfe_p31">Escher hätte durchaus seine Gründe gehabt, gegen <persName key="Stämpfli Jakob">Stämpfli</persName> zu wirken, gingen ihre Ansichten doch
 					in den wichtigen politischen Fragen<ref type="sum" target="Eisenbahngeschichte_d1.8"><!--S.60–62--></ref> <ref type="sum" target="Aussenpolitik_d1.3"><!--S.80–83--></ref> weit auseinander. Vor allem in
 					Eisenbahnangelegenheiten und in der Aussenpolitik gerieten die politischen
-					Schwergewichte wiederholt aneinander. Zu <idx type="person" norm="Stämpfli Jakob">Stämpflis</idx> Plänen zur Verstaatlichung der Bahn
-					schrieb <idx type="person" norm="Trog Johann Jakob">Trog</idx> an Escher: «Es ist wirklich merkwürdig,
-					was sich dieser Demagog im bundesräthlichen Frak herausnimmt.»<com id="Wahlkaempfe_c68"><ref type="letter" target="K_1596"><!--Brief Johann Jakob Trog an Escher, 1. April 1857 (BAR J
-							I.67-8)--></ref>.</com> Doch darf nicht vergessen werden, dass die
-					Beziehung zwischen Escher und <idx type="person" norm="Stämpfli Jakob">Stämpflis</idx> trotz der politischen Differenzen von
-					gegenseitigem Respekt geprägt war.<com id="Wahlkaempfe_c69">Jung thematisiert in seiner Escher-Biographie wiederholt
-						das ambivalente Verhältnis zwischen <ref type="kbp"/>
-						<idx type="person" norm="Stämpfli Jakob">Jakob Stämpfli</idx> und Escher, die bei
+					Schwergewichte wiederholt aneinander. Zu <persName key="Stämpfli Jakob">Stämpflis</persName> Plänen zur Verstaatlichung der Bahn
+					schrieb <persName key="Trog Johann Jakob">Trog</persName> an Escher: «Es ist wirklich merkwürdig,
+					was sich dieser Demagog im bundesräthlichen Frak herausnimmt.»<com xml:id="Wahlkaempfe_c68"><!--Brief Johann Jakob Trog an Escher, 1. April 1857 (BAR J
+							I.67-8)-->.</com> Doch darf nicht vergessen werden, dass die
+					Beziehung zwischen Escher und <persName key="Stämpfli Jakob">Stämpflis</persName> trotz der politischen Differenzen von
+					gegenseitigem Respekt geprägt war.<com xml:id="Wahlkaempfe_c69">Jung thematisiert in seiner Escher-Biographie wiederholt
+						das ambivalente Verhältnis zwischen 
+						<persName key="Stämpfli Jakob">Jakob Stämpfli</persName> und Escher, die bei
 						verschiedenen eisenbahn- und aussenpolitischen Themen auf entgegengesetzten
-						Seiten standen. <abbr norm="Vergleiche">Vgl.</abbr> die relevanten Ausführungen, in: <ref type="lit">Jung, Aufbruch</ref>.</com> In den ersten Jahren des jungen
+						Seiten standen. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> die relevanten Ausführungen, in: <ref type="lit">Jung, Aufbruch</ref>.</com> In den ersten Jahren des jungen
 					Bundesstaates waren die beiden «ungeduldig aufstrebenden Männer» durch «enge
-					Freundschaft unter sich verbunden», wie sich der <idx type="place" norm="Luzern">Luzerner</idx> Nationalrat <idx type="person" norm="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von Segesser</idx>
-					erinnerte.<com id="Wahlkaempfe_c70"><ref type="lit">Segesser, Sammlung</ref> III, <abbr norm="Seite(n)">S.</abbr> XV.</com>
+					Freundschaft unter sich verbunden», wie sich der <placeName key="Luzern">Luzerner</placeName> Nationalrat <persName key="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von Segesser</persName>
+					erinnerte.<com xml:id="Wahlkaempfe_c70">
+                            <ref type="lit">Segesser, Sammlung</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> XV.</com>
 				</p>
-				<p id="Wahlkaempfe_p32">Richtig ist, dass es Pläne zur Beseitigung <idx type="person" norm="Stämpfli Jakob">Stämpflis</idx> gab. Falsch hingegen, dass Escher
-					deren Urheber war. Hinter dem Ansinnen, <idx type="person" norm="Stämpfli Jakob">Stämpfli</idx> aus der Exekutive zu drängen, zog der
-					konservative Nationalrat <idx type="person" norm="Gonzenbach August von">August von Gonzenbach</idx> die Fäden. Er
+				<p xml:id="Wahlkaempfe_p32">Richtig ist, dass es Pläne zur Beseitigung <persName key="Stämpfli Jakob">Stämpflis</persName> gab. Falsch hingegen, dass Escher
+					deren Urheber war. Hinter dem Ansinnen, <persName key="Stämpfli Jakob">Stämpfli</persName> aus der Exekutive zu drängen, zog der
+					konservative Nationalrat <persName key="Gonzenbach August von">August von Gonzenbach</persName> die Fäden. Er
 					glaubte, dass die Zeit reif war für einen reformiertkonservativen Bundesrat, und
-					setzte alle Hebel in Gang, um seinem <idx type="place" norm="Bern">Berner</idx> Amtskollegen <idx type="person" norm="Blösch Eduard">Eduard Blösch</idx> in die Landesregierung zu
-					verhelfen. Er versuchte, <idx type="person" norm="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von Segesser</idx>, Kopf der
+					setzte alle Hebel in Gang, um seinem <placeName key="Bern">Berner</placeName> Amtskollegen <persName key="Blösch Eduard">Eduard Blösch</persName> in die Landesregierung zu
+					verhelfen. Er versuchte, <persName key="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von Segesser</persName>, Kopf der
 					Katholisch-Konservativen im Parlament, für sein Vorhaben zu gewinnen. Dieser
 					konnte sich jedoch nicht vorbehaltlos für das Unterfangen erwärmen, da er einen
 					katholischen Kandidaten bevorzugte: «Meine Meinung ist, die Conservativen sollen
-					den Landammann <idx type="person" norm="Reding (von Biberegg) Nazar">Nazar Reding</idx> von <idx type="place" norm="Schwyz">Schwytz</idx>, den ersten Staatsmann und Character der <idx type="place" norm="Zentralschweiz">innern Schweiz</idx>, als ihren Candidaten aufstellen
-					und wenn er wegfällt, jeweilen gegen die <idx type="person" norm="Furrer Jonas">Furrer</idx>partei stimmen. Weiter als zu einer
-					Demonstration die unsere Existenz darthut, bringen wir es doch nicht.»<com id="Wahlkaempfe_c71">Brief <idx type="person" norm="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von Segesser</idx> an <idx type="person" norm="Gonzenbach August von">August von Gonzenbach</idx>, <d norm="04.12.1857">4. Dezember 1857</d>, <abbr norm="zitiert">zit.</abbr>: <ref type="lit">Conzemius, Briefwechsel von Segesser</ref> II, <abbr norm="Seite(n)">S.</abbr> 237–238.</com>
+					den Landammann <persName key="Reding (von Biberegg) Nazar">Nazar Reding</persName> von <placeName key="Schwyz">Schwytz</placeName>, den ersten Staatsmann und Character der <placeName key="Zentralschweiz">innern Schweiz</placeName>, als ihren Candidaten aufstellen
+					und wenn er wegfällt, jeweilen gegen die <persName key="Furrer Jonas">Furrer</persName>partei stimmen. Weiter als zu einer
+					Demonstration die unsere Existenz darthut, bringen wir es doch nicht.»<com xml:id="Wahlkaempfe_c71">Brief <persName key="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von Segesser</persName> an <persName key="Gonzenbach August von">August von Gonzenbach</persName>, <date when="1857-12-04">4. Dezember 1857</date>, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice>: <ref type="lit">Conzemius, Briefwechsel von Segesser</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 237–238.</com>
 				</p>
 
-				<p id="Wahlkaempfe_p33">Nicht nur in konservativen Kreisen suchte <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> nach Beistand. Er wandte sich
-					auch an Escher, dessen Einflussnahme für eine Wahl <idx type="person" norm="Blösch Eduard">Blöschs</idx> unerlässlich gewesen wäre. <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> bat den <idx type="place" norm="Zürich">Zürcher</idx> Nationalrat um eine Vorbesprechung der Wahlen
-					und kündigte an: «Sollte man sich dahin verständigen können <idx type="person" norm="Stämpfli Jakob">St[ämpfli]</idx> an <idx type="person" norm="Blösch Eduard">Blösch</idx> zu vertauschen – so würde letzterer kaum
-					ausschlagen.»<com id="Wahlkaempfe_c72"><ref type="letter" target="K_1689"><!--Brief August von Gonzenbach an Escher, 30. November
-							1857--></ref>.</com> Escher zeigte sich jedoch nicht willens, mit den
-					Konservativen gegen <idx type="person" norm="Stämpfli Jakob">Stämpfli</idx> zu paktieren.</p>
+				<p xml:id="Wahlkaempfe_p33">Nicht nur in konservativen Kreisen suchte <persName key="Gonzenbach August von">Gonzenbach</persName> nach Beistand. Er wandte sich
+					auch an Escher, dessen Einflussnahme für eine Wahl <persName key="Blösch Eduard">Blöschs</persName> unerlässlich gewesen wäre. <persName key="Gonzenbach August von">Gonzenbach</persName> bat den <placeName key="Zürich">Zürcher</placeName> Nationalrat um eine Vorbesprechung der Wahlen
+					und kündigte an: «Sollte man sich dahin verständigen können <persName key="Stämpfli Jakob">St[ämpfli]</persName> an <persName key="Blösch Eduard">Blösch</persName> zu vertauschen – so würde letzterer kaum
+					ausschlagen.»<com xml:id="Wahlkaempfe_c72"><!--Brief August von Gonzenbach an Escher, 30. November
+							1857-->.</com> Escher zeigte sich jedoch nicht willens, mit den
+					Konservativen gegen <persName key="Stämpfli Jakob">Stämpfli</persName> zu paktieren.</p>
 
-				<p id="Wahlkaempfe_p34">Eschers Zurückhaltung widerspiegelt sich im Wahlresultat: 38
-					Stimmen fielen auf <idx type="person" norm="Blösch Eduard">Blösch</idx>. Trotzdem wurde ein Komplott Eschers gegen <idx type="person" norm="Stämpfli Jakob">Stämpfli</idx> vermutet und die Stimmen für <idx type="person" norm="Blösch Eduard">Blösch</idx> den «Nordostbahnmännern» zugeschrieben.<com id="Wahlkaempfe_c73"><abbr norm="Vergleiche">Vgl.</abbr>
+				<p xml:id="Wahlkaempfe_p34">Eschers Zurückhaltung widerspiegelt sich im Wahlresultat: 38
+					Stimmen fielen auf <persName key="Blösch Eduard">Blösch</persName>. Trotzdem wurde ein Komplott Eschers gegen <persName key="Stämpfli Jakob">Stämpfli</persName> vermutet und die Stimmen für <persName key="Blösch Eduard">Blösch</persName> den «Nordostbahnmännern» zugeschrieben.<com xml:id="Wahlkaempfe_c73">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
 						<ref type="lit">NZZ</ref>, 1. Januar 1858.</com> Die Verdächtigungen gegen
-					Escher veranlassten <idx type="person" norm="Gonzenbach August von">Gonzenbach</idx> dazu, eine Richtigstellung zu
+					Escher veranlassten <persName key="Gonzenbach August von">Gonzenbach</persName> dazu, eine Richtigstellung zu
 					publizieren: Escher habe ihm bei seiner Unterredung geantwortet, «es liege kein
 					Grund vor, große Aenderungen im Bundesrathe eintreten zu lassen». Escher habe
 					«noch mit Niemandem über die Wahlen gesprochen und gedenke überhaupt nicht
-					Einfluß auf dieselben zu üben».<com id="Wahlkaempfe_c74"><ref type="lit">NZZ</ref>, 6. Januar 1858.</com> Mit dieser öffentlichen
+					Einfluß auf dieselben zu üben».<com xml:id="Wahlkaempfe_c74">
+                            <ref type="lit">NZZ</ref>, 6. Januar 1858.</com> Mit dieser öffentlichen
 					Erklärung waren die Wogen geglättet. Dass Eschers Gegner bei einem Misserfolg
 					die Urheber sofort in seinen Reihen suchten, illustriert den Einfluss, den man
 					ihm in solchen Fragen beimass.</p>
 
 
-				<p id="Wahlkaempfe_p35"><pb n="108"/>Im Umfeld von Wahlen schlug Escher wiederholt Kritik entgegen.
+				<p xml:id="Wahlkaempfe_p35">
+                        <pb n="108"/>Im Umfeld von Wahlen schlug Escher wiederholt Kritik entgegen.
 					Seine dominante Stellung in der eidgenössischen Politik, verbunden mit seinem
-					wirtschaftlichen Engagement, löste in manchen Kreisen Unbehagen aus. Der <idx type="place" norm="Thurgau">thurgauische</idx> «Wächter» etwa stellte im Umfeld der
+					wirtschaftlichen Engagement, löste in manchen Kreisen Unbehagen aus. Der <placeName key="Thurgau">thurgauische</placeName> «Wächter» etwa stellte im Umfeld der
 					Nationalratswahlen von 1857 erfreut fest, die Opposition gegen Escher sei «ein
 					Aufflackern des republikanischen Selbstbewußtseins, das sich nicht bevormunden,
-					nicht vogten lassen will».<com id="Wahlkaempfe_c75"><ref type="lit">Der Wächter</ref>, 29. Oktober 1857.</com> Aus dem
+					nicht vogten lassen will».<com xml:id="Wahlkaempfe_c75">
+                            <ref type="lit">Der Wächter</ref>, 29. Oktober 1857.</com> Aus dem
 					«Aufflackern» entwickelte sich zunehmend ein loderndes Feuer, das durch die
 					demokratische Bewegung am Leben gehalten wurde <ref type="sum" target="Wirtschaftsliberales_Zeitfenster_p13"><!--→ S. 11--></ref>. Escher und sein «System»
-					entwickelten sich zu einem prominenten Feindbild.<com id="Wahlkaempfe_c76">Die demokratische Bewegung und ihre Angriffe auf Escher
-						werden Gegenstand von <abbr norm="Band">Bd.</abbr> 6 der Briefedition sein.</com> Tangiert wurde
+					entwickelten sich zu einem prominenten Feindbild.<com xml:id="Wahlkaempfe_c76">Die demokratische Bewegung und ihre Angriffe auf Escher
+						werden Gegenstand von <choice>
+                                <abbr>Bd.</abbr>
+                                <expan>Band</expan>
+                            </choice> 6 der Briefedition sein.</com> Tangiert wurde
 					Escher davon jedoch nur marginal. Ein Blick auf seine Ergebnisse in den
 					Nationalratswahlen zeigt, dass sein Sitz im eidgenössischen Parlament nie
 					ernsthaft bedroht war. Dreizehnmal wurde Escher von 1848 bis zu seinem Tod 1882
-					im Kanton <idx type="place" norm="Zürich">Zürich</idx> in den Nationalrat gewählt, und dies stets im
+					im Kanton <placeName key="Zürich">Zürich</placeName> in den Nationalrat gewählt, und dies stets im
 					ersten Wahlgang. Sechsmal belegte er dabei in seinem Wahlkreis den Spitzenplatz,
 					fünfmal erhielt er am zweitmeisten Stimmen. Nur 1878 und 1881 rangierte er auf
-					Platz drei.<com id="Wahlkaempfe_c77"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Gruner, Nationalratswahlen</ref> III, <abbr norm="Seite(n)">S.</abbr> 9–171.</com> Angesichts dieser Ergebnisse
+					Platz drei.<com xml:id="Wahlkaempfe_c77">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 9–171.</com> Angesichts dieser Ergebnisse
 					relativiert sich die Durchschlagskraft seiner Gegner.</p>
 
 
 			</div>
-			<p id="Wahlkaempfe_p36"><hi rend="italics">Björn Koch</hi> </p>
+			<p xml:id="Wahlkaempfe_p36">
+                    <hi rend="italics">Björn Koch</hi> </p>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>

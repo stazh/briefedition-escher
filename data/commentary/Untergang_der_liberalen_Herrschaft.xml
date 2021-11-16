@@ -1,66 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Untergang_der_liberalen_Herrschaft" name="Untergang der liberalen Herrschaft">
-	<metadata>
-		<title>«Der Prinzeps und sein Hof» oder wie die liberale Herrschaft in Zürich unterging</title>
-		<author>
-			<name>Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Untergang_der_liberalen_Herrschaft">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>«Der Prinzeps und sein Hof» oder wie die liberale Herrschaft in Zürich unterging</title>
+                <author>
+			Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1866–1882).
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1866–1882).
 				Private Eisenbahngesellschaften in der Krise, Gotthardbahn, politische Opposition, mit Beiträgen von
 				Claudia Aufdermauer, Basil Böhni, Lisa Bollinger, Bruno Fischer, Josef Inauen, Joseph Jung, Björn Koch und Vincent Pick (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-				Escher-Stiftung, Band 6), Zürich 2015</volume_title>
-			<short_title>Jung, Escher Briefe, Band 6</short_title>
-			<volume>6</volume>
-			<page>12–21</page>
-		</source>
-		<description>Eschers liberale Herrschaft – Opposition formiert sich in Winterthur</description>
-		<revision>
-			<change>Migration, TM, 01.04.2015</change>
-			<change>Auszeichnung 1 und 2 umgesetzt, VP</change>
-			<change>Verifizierung 1 und 2 umgesetzt, BF, 23./24.04.2015</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Untergang_der_liberalen_Herrschaft_d1">
-			<head><pb n="12"/>«Der Prinzeps und sein Hof» oder wie die liberale Herrschaft in Zürich unterging</head>
-			<div id="Untergang_der_liberalen_Herrschaft_d1.1">
-				<p id="Untergang_der_liberalen_Herrschaft_p1"><hi rend="italics">«‹Sehen Sie diese zwei Pfirsiche›, sagt ein <idx type="place" norm="Frankreich">französischer</idx> Schriftsteller‚ ‹beide gleich wundervoll!
+				Escher-Stiftung, Band 6), Zürich 2015</title>
+                    <title type="short">Jung, Escher Briefe, Band 6</title>
+                    <ref type="volume" target="V6">12–21</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Eschers liberale Herrschaft – Opposition formiert sich in Winterthur</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>Migration, TM, 01.04.2015</change>
+                <change>Auszeichnung 1 und 2 umgesetzt, VP</change>
+                <change>Verifizierung 1 und 2 umgesetzt, BF, 23./24.04.2015</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Untergang_der_liberalen_Herrschaft_d1">
+			<head>
+                    <pb n="12"/>«Der Prinzeps und sein Hof» oder wie die liberale Herrschaft in Zürich unterging</head>
+			<div xml:id="Untergang_der_liberalen_Herrschaft_d1.1">
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p1">
+                        <hi rend="italics">«‹Sehen Sie diese zwei Pfirsiche›, sagt ein <placeName key="Frankreich">französischer</placeName> Schriftsteller‚ ‹beide gleich wundervoll!
 				Der eine kostet fünf Franken, der andere nur fünfzig Centimes.› – ‹Woher dieser Unterschied?›
 				– ‹Bemerken Sie hier unter dem Flaume des einen den kleinen Punkt. Es ist ein
 				Fliegenstich. Heute können Sie die Frucht noch genießen, morgen werden Sie schon einen
 				Theil herausschneiden müssen, denn an diesem Fliegenstich wird sie zu Grunde gehen.› –
-				Bezeichnung eines solchen Fliegenstichs im Staatsleben ist Aufgabe dieser Schrift.»</hi><com id="Untergang_der_liberalen_Herrschaft_c1"><ref type="lit">Locher, Freiherren</ref>, <abbr norm="Seite(n)">S.</abbr> 1.</com><ref type="sum" target="Lochers_Pamphlete_und_das_System_d1">Locher und seine Pamphlete<!-- 190-213 --></ref>
+				Bezeichnung eines solchen Fliegenstichs im Staatsleben ist Aufgabe dieser Schrift.»</hi>
+                        <com xml:id="Untergang_der_liberalen_Herrschaft_c1">
+                            <ref type="lit">Locher, Freiherren</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 1.</com>
+                        <ref type="sum" target="Lochers_Pamphlete_und_das_System_d1">Locher und seine Pamphlete<!-- 190-213 --></ref>
 			</p>
-			<p id="Untergang_der_liberalen_Herrschaft_p2">Anfang der 1830er Jahre verbarg sich <idx type="place" norm="Zürich (Stadt)">Zürich</idx> hinter seiner Wehrmauer aus dem 17. Jahrhundert.
+			<p xml:id="Untergang_der_liberalen_Herrschaft_p2">Anfang der 1830er Jahre verbarg sich <placeName key="Zürich (Stadt)">Zürich</placeName> hinter seiner Wehrmauer aus dem 17. Jahrhundert.
 				Mitte des 19. Jahrhunderts war die Stadt wohl ein bedeutendes Zentrum, doch
 				rangierte sie damals nach Bevölkerungsgrösse und wirtschaftlichem Gewicht nicht an der
-				Spitze der Schweizer Städte. Ende des 19. Jahrhunderts hingegen war <idx type="place" norm="Zürich (Stadt)">Zürich</idx> unangefochten
+				Spitze der Schweizer Städte. Ende des 19. Jahrhunderts hingegen war <placeName key="Zürich (Stadt)">Zürich</placeName> unangefochten
 				die bevölkerungsmässig grösste, wirtschaftlich sowie wissenschafts- und kulturpolitisch bedeutendste
 				Metropole des Landes. Die Weichen dieser Entwicklung zu Macht und Grösse
 				wurden in der Ära Escher gestellt, in jenem knapp zwanzig Jahre umfassenden goldenen
 				Zeitalter des Liberalismus, das – mit dem Ausgangspunkt 1848 und der Geburt der neuen
 				Schweiz – sich in den 1850er Jahren glanzvoll entfaltete, bis es – überstrapaziert – Ende der
-				1860er Jahre zu Ende ging.<com id="Untergang_der_liberalen_Herrschaft_c2">Zum wirtschaftsliberalen Zeitfenster <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Erfolgsgeschichten</ref>, <abbr norm="Seite(n)">S.</abbr> 10–13. Zum «Spirit of 48» <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Projekt Schweiz</ref>.</com>
+				1860er Jahre zu Ende ging.<com xml:id="Untergang_der_liberalen_Herrschaft_c2">Zum wirtschaftsliberalen Zeitfenster <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Erfolgsgeschichten</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 10–13. Zum «Spirit of 48» <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Projekt Schweiz</ref>.</com>
 			</p>
 			</div>
-			<div id="Untergang_der_liberalen_Herrschaft_d1.2">
+			<div xml:id="Untergang_der_liberalen_Herrschaft_d1.2">
 				<head>Alfred Eschers liberale Herrschaft: Glanz und Gloria</head>
-				<p id="Untergang_der_liberalen_Herrschaft_p3">Mit dem liberalen Politiker, Pionier und Wirtschaftsführer Alfred Escher steht <idx type="place" norm="Zürich (Stadt)">Zürichs</idx>
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p3">Mit dem liberalen Politiker, Pionier und Wirtschaftsführer Alfred Escher steht <placeName key="Zürich (Stadt)">Zürichs</placeName>
 					Aufstieg denn auch in direktem Zusammenhang. Durch sein Engagement in der Eisenbahnpolitik,
-					bei der Gründung und Entwicklung des Polytechnikums (heute <abbr norm="Eidgenössische Technische Hochschule (Zürich)">ETH</abbr> <idx type="place" norm="Zürich (Stadt)">Zürich</idx>), der Kreditanstalt
+					bei der Gründung und Entwicklung des Polytechnikums (heute <choice>
+                            <abbr>ETH</abbr>
+                            <expan>Eidgenössische Technische Hochschule (Zürich)</expan>
+                        </choice> <placeName key="Zürich (Stadt)">Zürich</placeName>), der Kreditanstalt
 					(heute Credit Suisse), der Rentenanstalt (heute Swiss Life), der Rückversicherungsgesellschaft
 					(heute Swiss Re) und anderer Wirtschaftsunternehmen förderte Escher den Standort
-					<idx type="place" norm="Zürich (Stadt)">Zürich</idx> gezielt und baute an der <idx type="place" norm="Limmat">Limmat</idx> ein machtpolitisches Zentrum auf, das grossräumig
-					über die <idx type="place" norm="Zürich">zürcherischen</idx> Kantonsgrenzen hinaus konzipiert war.<com id="Untergang_der_liberalen_Herrschaft_c3">Zu Eschers Wirkmächtigkeit (Eisenbahnpolitik, <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>projekt, Kreditanstalt, Eidgenössisches Polytechnikum,
-						Aussenpolitik) <abbr norm="vergleiche">vgl.</abbr> die entsprechenden Ausführungen in <ref type="lit">Jung, Aufbruch</ref>. – Zur Kreditanstalt <abbr norm="vergleiche">vgl.</abbr>
+					<placeName key="Zürich (Stadt)">Zürich</placeName> gezielt und baute an der <placeName key="Limmat">Limmat</placeName> ein machtpolitisches Zentrum auf, das grossräumig
+					über die <placeName key="Zürich">zürcherischen</placeName> Kantonsgrenzen hinaus konzipiert war.<com xml:id="Untergang_der_liberalen_Herrschaft_c3">Zu Eschers Wirkmächtigkeit (Eisenbahnpolitik, <placeName key="St. Gotthard (Pass)">Gotthard</placeName>projekt, Kreditanstalt, Eidgenössisches Polytechnikum,
+						Aussenpolitik) <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> die entsprechenden Ausführungen in <ref type="lit">Jung, Aufbruch</ref>. – Zur Kreditanstalt <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
 						<ref type="lit">Jung, Kreditanstalt</ref>.</com> Dank seinen Initiativen und
-					Projekten prosperierten in der <idx type="place" norm="Limmat">Limmat</idx>stadt Industrie, Handel, Verkehr, Wissenschaft und Kultur.
-					Im Herbst 1855 trat Alfred Escher aus der <idx type="place" norm="Zürich">Zürcher</idx> Regierung aus. Doch damit gab er die
+					Projekten prosperierten in der <placeName key="Limmat">Limmat</placeName>stadt Industrie, Handel, Verkehr, Wissenschaft und Kultur.
+					Im Herbst 1855 trat Alfred Escher aus der <placeName key="Zürich">Zürcher</placeName> Regierung aus. Doch damit gab er die
 					politische Führung von Kanton und Stadt nicht aus der Hand. Weiterhin gehörte er dem
 					Grossen Rat an, den er bis zu seinem Tod 1882 noch viermal präsidierte (1857, 1861, 1864,
-					1868); er nahm Einsitz in wichtige grossrätliche Kommissionen und war in der Stadt <idx type="place" norm="Zürich (Stadt)">Zürich</idx>
+					1868); er nahm Einsitz in wichtige grossrätliche Kommissionen und war in der Stadt <placeName key="Zürich (Stadt)">Zürich</placeName>
 					Mitglied des Grossen Stadtrats, des Baukollegiums und der Eisenbahnkommission. Eschers
 					Mehrfachrollen als exekutiver und legislativer Politiker sowie als Unternehmer waren trotz
 					aller Vorbehalte aus staatsrechtlicher Sicht und trotz aller Missfallenskundgebungen seitens
@@ -70,16 +112,26 @@
 					Rahmenbedingungen, damit seine Schöpfungen sich entwickeln und schnell zu Grösse und
 					Erfolg heranwachsen konnten.
 				</p>
-				<p id="Untergang_der_liberalen_Herrschaft_p4">Eschers persönliche Netzwerke und seine für heutige Verhältnisse unvorstellbare Macht
-					mit der gleichzeitigen Ausübung wichtiger Ämter, Funktionen und Tätigkeiten sind sprich<pb n="13"/>wörtlich.<com id="Untergang_der_liberalen_Herrschaft_c4"><abbr norm="Vergleiche">Vgl.</abbr> die entsprechenden Ausführungen in <ref type="lit">Koch, Netzwerke</ref>.</com> Man betrachte ein Vertragswerk aus dem Jahr 1853, das Bau und Betrieb der Eisenbahn
-					von <idx type="place" norm="Zürich (Stadt)">Zürich</idx> an die Kantonsgrenze bei <idx type="place" norm="Dietikon">Dietikon</idx> regelte und von Escher – in vierfachen
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p4">Eschers persönliche Netzwerke und seine für heutige Verhältnisse unvorstellbare Macht
+					mit der gleichzeitigen Ausübung wichtiger Ämter, Funktionen und Tätigkeiten sind sprich<pb n="13"/>wörtlich.<com xml:id="Untergang_der_liberalen_Herrschaft_c4">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> die entsprechenden Ausführungen in <ref type="lit">Koch, Netzwerke</ref>.</com> Man betrachte ein Vertragswerk aus dem Jahr 1853, das Bau und Betrieb der Eisenbahn
+					von <placeName key="Zürich (Stadt)">Zürich</placeName> an die Kantonsgrenze bei <placeName key="Dietikon">Dietikon</placeName> regelte und von Escher – in vierfachen
 					Funktionen – viermal unterzeichnet wurde. Und so ging dieses Schriftstück unter der Bezeichnung
-					«der gevierteilte Escher» in die Geschichte ein.<com id="Untergang_der_liberalen_Herrschaft_c5">Escher unterzeichnete in seinen Eigenschaften als Abgeordneter der Direktion der Zürich-Bodensee-Bahn
-						(<d norm="17.06.1853">17. Juni 1853</d>), als Direktionspräsident der Zürich-Bodensee-Bahn (<d norm="21.06.1853">21. Juni 1853</d>), als Verwaltungsratspräsident
-						der Zürich-Bodensee-Bahn (<d norm="22.06.1853">22. Juni 1853</d>) und als Zweiter Präsident des Regierungsrats des
-						Kantons <idx type="place" norm="Zürich">Zürich</idx> (<d norm="21.06.1853">21. Juni 1853</d>). <abbr norm="Vergleiche">Vgl.</abbr> Vertrag zwischen dem H. Stande Zürich und der Schweizerischen
+					«der gevierteilte Escher» in die Geschichte ein.<com xml:id="Untergang_der_liberalen_Herrschaft_c5">Escher unterzeichnete in seinen Eigenschaften als Abgeordneter der Direktion der Zürich-Bodensee-Bahn
+						(<date when="1853-06-17">17. Juni 1853</date>), als Direktionspräsident der Zürich-Bodensee-Bahn (<date when="1853-06-21">21. Juni 1853</date>), als Verwaltungsratspräsident
+						der Zürich-Bodensee-Bahn (<date when="1853-06-22">22. Juni 1853</date>) und als Zweiter Präsident des Regierungsrats des
+						Kantons <placeName key="Zürich">Zürich</placeName> (<date when="1853-06-21">21. Juni 1853</date>). <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Vertrag zwischen dem H. Stande Zürich und der Schweizerischen
 						Nordostbahngesellschaft betreffend den Bau und Betrieb der Eisenbahn von Zürich an die Kantonsgrenze
-						bei Dietikon (vom 17. Juni 1853), Teilabdruck in: <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 456–457.</com> Kritik blieb nicht aus. Man warf Escher
+						bei Dietikon (vom 17. Juni 1853), Teilabdruck in: <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 456–457.</com> Kritik blieb nicht aus. Man warf Escher
 					vor, er habe bei der Konzessionserteilung für diese Strecke als Vertreter des Staates wie der
 					Eisenbahngesellschaft mit sich selber verhandelt. Dem ist nichts beizufügen, es war so. Denn
 					Escher hat dies mit seinen vier Unterschriften auf demselben Papier höchstpersönlich dokumentiert.
@@ -87,41 +139,88 @@
 					Eisenbahngesellschaften bestehende notorische Problem der Kreditbeschaffung für seine Gesellschaft
 					1856 löste, indem er für die Nordostbahn gleichsam eine eigene Hausbank gründete,
 					die Kreditanstalt – und, die Sache auf die Spitze treibend, sowohl die Bank als auch die
-					Bahngesellschaft persönlich führte.<com id="Untergang_der_liberalen_Herrschaft_c6">Zur Gründungsgeschichte der Kreditanstalt <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 733–851. Dazu: <ref type="lit">Jung, Kreditanstalt</ref>.</com> Als dann 1857 die Rentenanstalt dazukam, bestanden
+					Bahngesellschaft persönlich führte.<com xml:id="Untergang_der_liberalen_Herrschaft_c6">Zur Gründungsgeschichte der Kreditanstalt <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 733–851. Dazu: <ref type="lit">Jung, Kreditanstalt</ref>.</com> Als dann 1857 die Rentenanstalt dazukam, bestanden
 					drei bedeutende wirtschaftspolitische Plattformen, die Eschers Macht illustrierten und seinen
-					Einfluss multiplizierten.<com id="Untergang_der_liberalen_Herrschaft_c7">Zur Gründungsgeschichte der Rentenanstalt und zur Abhängigkeit der Rentenanstalt von der Kreditanstalt
-						<abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 825–833.</com> Ende der 1850er Jahre verfügten diese Gesellschaften über insgesamt
-					54 Verwaltungsratssitze, deren Besetzung über Eschers präsidialen Tisch liefen.<com id="Untergang_der_liberalen_Herrschaft_c8">Fallbeispiel 1859: Nordostbahn: 25; Rentenanstalt: 13; Kreditanstalt: 16. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jöhr, SKA</ref>, <abbr norm="Seite(n)">S.</abbr> 556–557.</com> Aufgrund
+					Einfluss multiplizierten.<com xml:id="Untergang_der_liberalen_Herrschaft_c7">Zur Gründungsgeschichte der Rentenanstalt und zur Abhängigkeit der Rentenanstalt von der Kreditanstalt
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 825–833.</com> Ende der 1850er Jahre verfügten diese Gesellschaften über insgesamt
+					54 Verwaltungsratssitze, deren Besetzung über Eschers präsidialen Tisch liefen.<com xml:id="Untergang_der_liberalen_Herrschaft_c8">Fallbeispiel 1859: Nordostbahn: 25; Rentenanstalt: 13; Kreditanstalt: 16. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jöhr, SKA</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 556–557.</com> Aufgrund
 					der speziellen Kapitalstruktur der Rentenanstalt wurde das Versicherungsinstitut damals
 					bezeichnenderweise als «Bureau der Schweizerischen Kreditanstalt» bezeichnet. Dass
 					der «Herr Präsident» sowohl in «seinem» Bank- als auch in «seinem» Versicherungsinstitut
 					operativ durchgriff, vermag weniger zu überraschen als die Tatsache, dass sich die Abfahrt
-					der Züge «seiner» Nordostbahn im Bahnhof <idx type="place" norm="Zürich (Stadt)">Zürich</idx> nicht nach dem Fahrplan, sondern nach
-					den Wünschen des Herrn Präsidenten zu richten hatte.<com id="Untergang_der_liberalen_Herrschaft_c9"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 272.</com> Mag dies nach Legendenbildung
+					der Züge «seiner» Nordostbahn im Bahnhof <placeName key="Zürich (Stadt)">Zürich</placeName> nicht nach dem Fahrplan, sondern nach
+					den Wünschen des Herrn Präsidenten zu richten hatte.<com xml:id="Untergang_der_liberalen_Herrschaft_c9">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 272.</com> Mag dies nach Legendenbildung
 					klingen – das folgende Beispiel basiert auf harten Fakten: 1856/57 war Escher gleichzeitig
 					Verwaltungsratspräsident der Kreditanstalt, Direktionspräsident der Nordostbahn, Präsident
-					des Nationalrates, Präsident des <idx type="place" norm="Zürich">zürcherischen</idx> Grossen Rates – um lediglich die Gremien zu
+					des Nationalrates, Präsident des <placeName key="Zürich">zürcherischen</placeName> Grossen Rates – um lediglich die Gremien zu
 					nennen, bei denen er das Präsidium innehatte. Dazu kämen, wollte man alle Gremien nennen,
-					die wirtschaftlichen und politischen Ausschüsse und Kommissionen in Legionenstärke.<com id="Untergang_der_liberalen_Herrschaft_c10"><abbr norm="Vergleiche">Vgl.</abbr> beispielhaft <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 145–149.</com> Diese
+					die wirtschaftlichen und politischen Ausschüsse und Kommissionen in Legionenstärke.<com xml:id="Untergang_der_liberalen_Herrschaft_c10">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> beispielhaft <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 145–149.</com> Diese
 					Kumulation von Ämtern und Funktionen bedeutete indes nicht, dass Escher seine politische
 					Macht für private Zwecke missbraucht hätte. Gemäss seinem Verständnis als Grossbürger
 					setzte er lediglich seinen Einfluss zielgerichtet ein, um «seine» Unternehmen und «seine»
 					Projekte, die privatwirtschaftlichen wie die öffentlichen, bestmöglich zu fördern – zum Wohle
-					der Sache, zum Nutzen des Kantons <idx type="place" norm="Zürich">Zürich</idx> und zum Fortschritt der Schweiz.
+					der Sache, zum Nutzen des Kantons <placeName key="Zürich">Zürich</placeName> und zum Fortschritt der Schweiz.
 				</p>
-				<p id="Untergang_der_liberalen_Herrschaft_p5">Eschers fast unbeschränkte Macht im Stande <idx type="place" norm="Zürich">Zürich</idx>, arrondiert durch seinen Einfluss in
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p5">Eschers fast unbeschränkte Macht im Stande <placeName key="Zürich">Zürich</placeName>, arrondiert durch seinen Einfluss in
 					anderen liberal regierten Kantonen, fand ihre Abbildung auf eidgenössischer Ebene. Jahrelang
-					galt Escher auch in <idx type="place" norm="Bern (Stadt)">Bern</idx> als der einflussreichste Politiker, nicht nur weil er von 1848 bis 1882
+					galt Escher auch in <placeName key="Bern (Stadt)">Bern</placeName> als der einflussreichste Politiker, nicht nur weil er von 1848 bis 1882
 					während insgesamt 34 Jahren im Nationalrat sass. Eschers Wirkmächtigkeit wird durch parlamentarische
 					Taten und staatsmännische Auftritte dokumentiert. Dass Escher viermal zum
 					Nationalratspräsidenten gewählt wurde (1849/50, 1855, 1856/57, 1862/63), unterstreicht
-					dies.<com id="Untergang_der_liberalen_Herrschaft_c11">Zum Politiker Escher <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 134–237.</com> Es fehlt nicht an Äusserungen, welche die Macht Eschers auf der nationalen Ebene
+					dies.<com xml:id="Untergang_der_liberalen_Herrschaft_c11">Zum Politiker Escher <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 134–237.</com> Es fehlt nicht an Äusserungen, welche die Macht Eschers auf der nationalen Ebene
 					illustrieren.
-					Der Radikale und spätere Bundesrat <idx type="person" norm="Ruchonnet Louis">Louis Ruchonnet</idx> schrieb 1866, die Bundesversammlung
-					befinde sich in der Hand von einigen «grossen Tieren», angeführt vom <idx type="place" norm="Zürich">Zürcher</idx>
+					Der Radikale und spätere Bundesrat <persName key="Ruchonnet Louis">Louis Ruchonnet</persName> schrieb 1866, die Bundesversammlung
+					befinde sich in der Hand von einigen «grossen Tieren», angeführt vom <placeName key="Zürich">Zürcher</placeName>
 					Alfred Escher. «Diese Leute treten nicht in den Bundesrat ein, beherrschen ihn aber – ohne
-					Verantwortung.»<com id="Untergang_der_liberalen_Herrschaft_c12">Brief Ruchonnets vom 7. Dezember 1866, in: Bonjour Félix, Louis Ruchonnet. Sa vie – son oeuvre, Lausanne
-						1936, <abbr norm="Seite(n)">S.</abbr> 204, <abbr norm="zitiert">zit.</abbr> <ref type="lit">Wehrli, Bundesbarone</ref>, <abbr norm="Seite(n)">S.</abbr> 27 (Original auf französisch).</com> <idx type="person" norm="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von Segesser</idx>, katholisch-konservativer Gegenspieler
+					Verantwortung.»<com xml:id="Untergang_der_liberalen_Herrschaft_c12">Brief Ruchonnets vom 7. Dezember 1866, in: Bonjour Félix, Louis Ruchonnet. Sa vie – son oeuvre, Lausanne
+						1936, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 204, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice> <ref type="lit">Wehrli, Bundesbarone</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 27 (Original auf französisch).</com> <persName key="Segesser (von Brunegg) Philipp Anton von">Philipp Anton von Segesser</persName>, katholisch-konservativer Gegenspieler
 					Eschers, beschrieb die Machtverhältnisse nach 1848 in einem ähnlich bissigen Ton. «Sehr bald
 					bildete sich dann ein engerer Kreis von Männern, die alle Initiative in den öffentlichen Ange<pb n="14"/>legenheiten
 					in ihren Händen vereinigten; man nannte sie, da sie meistens gut situiert oder auf
@@ -130,36 +229,90 @@
 					Schmarozer, von denen es aber nur wenigen gelang, mit der Zeit in jene höhere, sich gegentheils
 					immer verengende Categorie aufzusteigen. Jener repräsentative und industrielle Liberalismus
 					steht der Aristokratie in dem Punkt am nächsten, dass er Stabilität der Parteiführung,
-					Bildung untergeordneter Coterien, gegliederte Association der Interessen begünstigt.»<com id="Untergang_der_liberalen_Herrschaft_c13">Segesser Philipp Anton von, Sammlung kleiner Schriften, <abbr norm="Band">Bd.</abbr> 3, Bern 1879, <abbr norm="Seite(n)">S.</abbr> VIII, <abbr norm="zitiert">zit.</abbr> <ref type="lit">Wehrli, Bundesbarone</ref>,
-						<abbr norm="Seite(n)">S.</abbr> 47.</com>
+					Bildung untergeordneter Coterien, gegliederte Association der Interessen begünstigt.»<com xml:id="Untergang_der_liberalen_Herrschaft_c13">Segesser Philipp Anton von, Sammlung kleiner Schriften, <choice>
+                                <abbr>Bd.</abbr>
+                                <expan>Band</expan>
+                            </choice> 3, Bern 1879, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> VIII, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice> <ref type="lit">Wehrli, Bundesbarone</ref>,
+						<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 47.</com>
 				</p>
-				<p id="Untergang_der_liberalen_Herrschaft_p6">Eschers eigene privilegierte wirtschaftliche Lage, die vollständige Unabhängigkeit
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p6">Eschers eigene privilegierte wirtschaftliche Lage, die vollständige Unabhängigkeit
 					gegenüber
 					allen Launen des Schicksals garantierte, und sein prächtiger Wohnsitz an erhöhter
-					Lage an den Gestaden des <idx type="place" norm="Zürichsee">Zürichsees</idx> setzten weitere unmissverständliche Zeichen: Alfred
+					Lage an den Gestaden des <placeName key="Zürichsee">Zürichsees</placeName> setzten weitere unmissverständliche Zeichen: Alfred
 					Escher herrschte wie ein Monarch – glanzvoll unbeschränkt. Man titulierte ihn König Alfred I.,
 					man verglich ihn mit einem Cäsaren, während er selbst von sich als dem «letzten Bürgermeister
-					von <idx type="place" norm="Zürich">Zürich</idx>» sprach.<com id="Untergang_der_liberalen_Herrschaft_c14">Escher in seinen autobiographischen Aufzeichnungen: «Ich bin der letzte Bürgermeister von <idx type="place" norm="Zürich">Zürich</idx>, da im
+					von <placeName key="Zürich">Zürich</placeName>» sprach.<com xml:id="Untergang_der_liberalen_Herrschaft_c14">Escher in seinen autobiographischen Aufzeichnungen: «Ich bin der letzte Bürgermeister von <placeName key="Zürich">Zürich</placeName>, da im
 						Jahre 1850 der Bürgermeistertitel durch denjenigen eines Regierungspräsidenten ersetzt wurde.» Autobiographische
-						Aufzeichnungen Alfred Escher, <abbr norm="zitiert">zit.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 1017.</com> Wer nicht zu seinem Lager gehörte, fand spöttische oder gehässige
-					Worte über ihn. <idx type="person" norm="Gotthelf Jeremias">Jeremias Gotthelf</idx>, dem der liberale Aufbruch des jungen Bundesstaates ein
-					Greuel war, bezeichnete Escher als Diktator.<com id="Untergang_der_liberalen_Herrschaft_c15"><ref type="lit">Gotthelf, Zeitgeist</ref>, <abbr norm="Seite(n)">S.</abbr> 391, 396.</com> <idx type="person" norm="Engels Friedrich">Friedrich Engels</idx> hatte da weniger Probleme; er
-					nannte ihn einen «schweizerischen <idx type="place" norm="Athen (GRE)">Athenienser</idx>».<com id="Untergang_der_liberalen_Herrschaft_c16">Neue Rheinische Zeitung, 10. Dezember 1848, <abbr norm="zitiert">zit.</abbr> Marx/Engels, Werke, <abbr norm="Seite(n)">S.</abbr> 90–91. – Zu <idx type="person" norm="Engels Friedrich">Friedrich Engels</idx>
-						Ausführungen über Escher <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 226.</com> Escher Apostrophierungen aus der <idx type="place" norm="Griechenland">griechischen</idx>
-					und <idx type="place" norm="Römisches Reich">römischen</idx> Geschichte waren beliebt: <idx type="person" norm="Perikles">Perikles</idx>, <idx type="person" norm="Alkibiades">Alkibiades</idx> – oder dann Prinzeps,
-					worauf zurückzukommen sein wird. Treffend fasste <idx type="person" norm="Mommsen Theodor">Theodor Mommsen</idx> das Phänomen
+						Aufzeichnungen Alfred Escher, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 1017.</com> Wer nicht zu seinem Lager gehörte, fand spöttische oder gehässige
+					Worte über ihn. <persName key="Gotthelf Jeremias">Jeremias Gotthelf</persName>, dem der liberale Aufbruch des jungen Bundesstaates ein
+					Greuel war, bezeichnete Escher als Diktator.<com xml:id="Untergang_der_liberalen_Herrschaft_c15">
+                            <ref type="lit">Gotthelf, Zeitgeist</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 391, 396.</com> <persName key="Engels Friedrich">Friedrich Engels</persName> hatte da weniger Probleme; er
+					nannte ihn einen «schweizerischen <placeName key="Athen (GRE)">Athenienser</placeName>».<com xml:id="Untergang_der_liberalen_Herrschaft_c16">Neue Rheinische Zeitung, 10. Dezember 1848, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice> Marx/Engels, Werke, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 90–91. – Zu <persName key="Engels Friedrich">Friedrich Engels</persName>
+						Ausführungen über Escher <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 226.</com> Escher Apostrophierungen aus der <placeName key="Griechenland">griechischen</placeName>
+					und <placeName key="Römisches Reich">römischen</placeName> Geschichte waren beliebt: <persName key="Perikles">Perikles</persName>, <persName key="Alkibiades">Alkibiades</persName> – oder dann Prinzeps,
+					worauf zurückzukommen sein wird. Treffend fasste <persName key="Mommsen Theodor">Theodor Mommsen</persName> das Phänomen
 					Escher in Worte: «[...] er steht ganz wie ein Souverain und um so mehr, weil er den Titel nicht
-					hat.»<com id="Untergang_der_liberalen_Herrschaft_c17"><ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>, <abbr norm="Seite(n)">S.</abbr> 464.</com>
+					hat.»<com xml:id="Untergang_der_liberalen_Herrschaft_c17">
+                            <ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 464.</com>
 				</p>
-				<p id="Untergang_der_liberalen_Herrschaft_p7">Eschers politisches Netzwerk war breit angelegt und engmaschig geknüpft; es schien
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p7">Eschers politisches Netzwerk war breit angelegt und engmaschig geknüpft; es schien
 					alles und jedes zu erfassen: Ämter und Würden, Kritik und Strafe. Escher kontrollierte den
 					Grossen Rat, und dieser wählte die Regierung. Das Volk hatte dazu nichts zu sagen. Alles lief
 					wie am Schnürchen: Missliebige Vorstösse wurden auch bei mehrmaliger Vorlage abgeschmettert,
-					so etwa die Errichtung einer Kantonalbank oder die Ermässigung des Salzpreises.<com id="Untergang_der_liberalen_Herrschaft_c18"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Schaffner, Demokratische Bewegung</ref>, <abbr norm="Seite(n)">S.</abbr> 149.</com>
+					so etwa die Errichtung einer Kantonalbank oder die Ermässigung des Salzpreises.<com xml:id="Untergang_der_liberalen_Herrschaft_c18">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Schaffner, Demokratische Bewegung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 149.</com>
 					An direktdemokratischer Mitwirkung des Volkes war man nicht interessiert. Diese
 					entsprach nicht Eschers politischer Philosophie: «In Kantonal- und vollends in eidgenössischen
 					Verhältnissen gab ich dem Representativsystem, wenn auch mit weitgehendem Abberufungsrechte
-					der Wähler, den Vorzug vor der <abbr norm="sogenannt">sogen.</abbr> unmittelbaren Demokratie (Volksgesetzgebung).»<com id="Untergang_der_liberalen_Herrschaft_c19">Autobiographische Aufzeichnungen Alfred Escher, <abbr norm="zitiert">zit.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 1017.</com> 
+					der Wähler, den Vorzug vor der <choice>
+                            <abbr>sogen.</abbr>
+                            <expan>sogenannt</expan>
+                        </choice> unmittelbaren Demokratie (Volksgesetzgebung).»<com xml:id="Untergang_der_liberalen_Herrschaft_c19">Autobiographische Aufzeichnungen Alfred Escher, <choice>
+                                <abbr>zit.</abbr>
+                                <expan>zitiert</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 1017.</com> 
 					Escher konnte sich auf einen Verwaltungs- und Gerichtsapparat verlassen,
 					dessen auf Lebenszeit gewählte Beamten auf ihn eingeschworen waren. Und überall waren
 					weiterhin seine politischen Freunde, Zudiener und Informanten in Zirkeln, Gesellschaften und
@@ -168,169 +321,340 @@
 					Gesetzestexte und Konzessionen wurden zwar auf den entsprechenden formalen und verfassungsmässigen
 					Wegen gefällt. Eingefädelt wurden sie jedoch von Escher und seinen Leuten.
 					So konnte es geschehen, dass im Grossen Rat selbst schwergewichtige Geschäfte in Minutenschnelle
-					abgewickelt wurden, da sie in «Kabinettssitzungen» vorbesprochen worden waren.<com id="Untergang_der_liberalen_Herrschaft_c20">Solche «Kabinettssitzungen» oder «Ministerialsitzungen» fanden im «Café littéraire» im Roten Turm
-						statt (heute: Neubau des Hotels Storchen am Weinplatz). <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 231. – Zu Eschers informellen
-						Treffen <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Koch, Netzwerke</ref>, <abbr norm="Seite(n)">S.</abbr> 98, 118–125.</com>
+					abgewickelt wurden, da sie in «Kabinettssitzungen» vorbesprochen worden waren.<com xml:id="Untergang_der_liberalen_Herrschaft_c20">Solche «Kabinettssitzungen» oder «Ministerialsitzungen» fanden im «Café littéraire» im Roten Turm
+						statt (heute: Neubau des Hotels Storchen am Weinplatz). <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 231. – Zu Eschers informellen
+						Treffen <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Koch, Netzwerke</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 98, 118–125.</com>
 				</p>
 			</div>
-			<div id="Untergang_der_liberalen_Herrschaft_d1.3">
+			<div xml:id="Untergang_der_liberalen_Herrschaft_d1.3">
 				<head>Die Opposition formiert sich in Winterthur</head>
-				<p id="Untergang_der_liberalen_Herrschaft_p8">Wirtschaftlicher Aufschwung, Gründung von Unternehmen, Schaffung von Arbeitsplätzen,
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p8">Wirtschaftlicher Aufschwung, Gründung von Unternehmen, Schaffung von Arbeitsplätzen,
 					steigende Börsenkurse, fette Dividenden und Lust am Spekulieren, auch beim sogenannten
 					«kleinen Mann»: Die euphorischen 1850er Jahre stehen im scharfen Kontrast zu den
 					drögen 1840ern, als die unseligen Auseinandersetzungen um Klöster und Jesuiten sowie die<pb n="15"/>
 					Kämpfe zwischen Konservativen und Fortschrittlichen die Entwicklung der Schweiz immobilisierten.
-					Nun aber waren die Kräfte entfesselt.<com id="Untergang_der_liberalen_Herrschaft_c21">Zu den 1840er Jahren <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 173–190.</com>
+					Nun aber waren die Kräfte entfesselt.<com xml:id="Untergang_der_liberalen_Herrschaft_c21">Zu den 1840er Jahren <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 173–190.</com>
 				</p>
-				<p id="Untergang_der_liberalen_Herrschaft_p9">In <idx type="place" norm="Zürich">Zürich</idx> zeigten sich erste Risse in den Mauern des Systems bereits in den frühen 1860er
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p9">In <placeName key="Zürich">Zürich</placeName> zeigten sich erste Risse in den Mauern des Systems bereits in den frühen 1860er
 					Jahren. Sie taten der Illumination vorerst keinen Abbruch. Doch der Druck von aussen auf die
 					liberale Herrschaft wuchs mit der Unzufriedenheit der Bevölkerung. Diese litt unter Arbeitslosigkeit
-					(1863/64) und Teuerung (1867).<com id="Untergang_der_liberalen_Herrschaft_c22">Zur Krise der <idx type="place" norm="Zürich">Zürcher</idx> Wirtschaft in den 1860er Jahren <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Schaffner, Demokratische Bewegung</ref>, <abbr norm="Seite(n)">S.</abbr> 85–
-						133.</com> Dann brach in der Stadt <idx type="place" norm="Zürich (Stadt)">Zürich</idx> eine Choleraepidemie
-					aus und grassierte fürchterlich. Von Juli bis Oktober 1867 starben im Bezirk <idx type="place" norm="Zürich (Stadt)">Zürich</idx> 481
-					Personen.<com id="Untergang_der_liberalen_Herrschaft_c23">Zum öffentlichen Gesundheitswesen in <idx type="place" norm="Zürich">Zürich</idx> und damit zur Choleraepidemie von 1867 im Kontext der
-						demokratischen Bewegung <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Condrau, Demokratische Bewegung</ref>. – Nach Condrau war die Choleraepidemie
+					(1863/64) und Teuerung (1867).<com xml:id="Untergang_der_liberalen_Herrschaft_c22">Zur Krise der <placeName key="Zürich">Zürcher</placeName> Wirtschaft in den 1860er Jahren <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Schaffner, Demokratische Bewegung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 85–
+						133.</com> Dann brach in der Stadt <placeName key="Zürich (Stadt)">Zürich</placeName> eine Choleraepidemie
+					aus und grassierte fürchterlich. Von Juli bis Oktober 1867 starben im Bezirk <placeName key="Zürich (Stadt)">Zürich</placeName> 481
+					Personen.<com xml:id="Untergang_der_liberalen_Herrschaft_c23">Zum öffentlichen Gesundheitswesen in <placeName key="Zürich">Zürich</placeName> und damit zur Choleraepidemie von 1867 im Kontext der
+						demokratischen Bewegung <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Condrau, Demokratische Bewegung</ref>. – Nach Condrau war die Choleraepidemie
 						von 1867 «die stärkste je in der Schweiz aufgetretene». <ref type="lit">Condrau, Demokratische Bewegung</ref>,
-						<abbr norm="Seite(n)">S.</abbr> 9.</com> Bald herrschte eine Hysterie; man misstraute jeder Massnahme, denn wissenschaftlich
+						<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 9.</com> Bald herrschte eine Hysterie; man misstraute jeder Massnahme, denn wissenschaftlich
 					fundierte Erklärungen über die Ursachen der Cholera und deren Übertragung fehlten.
 					Die soziale Frage rückte in den Fokus, damit die Wohn- und Hygieneverhältnisse der
 					Arbeiter. Letztlich war die Krankheit nicht wirksam zu bekämpfen. So war denn auch die
-					<idx type="place" norm="Zürich">Zürcher</idx> Regierung hilflos. Wenigstens verfügte sie, dass die Kranken von den Gesunden isoliert
-					werden sollten und dass eine amtliche Meldepflicht für Leidgeplagte einzuführen sei.<com id="Untergang_der_liberalen_Herrschaft_c24"><abbr norm="Vergleiche">Vgl.</abbr> Bekanntmachungen von Administrativ-Behörden [...] An die Bezirks- und Gemeindebehörden und
-						die Aerzte des Kantons Zürich, in: <ref type="lit">Amtsblatt ZH</ref>, 6. September 1867, <abbr norm="Seite(n)">S.</abbr> 1799–1803.</com> Auf
-					der <idx type="place" norm="Zürich">Zürcher</idx> Landschaft wiederum spürten die Bauern die Turbulenzen auf den Finanzmärkten
-					und litten unter steigenden Zinsen für Darlehen und Hypotheken.<com id="Untergang_der_liberalen_Herrschaft_c25"><abbr norm="Vergleiche">Vgl.</abbr> die entsprechenden Ausführungen in <ref type="lit">Schaffner, Demokratische Bewegung</ref>. – Zum Zeitgeschehen in
-						«Martin Salander» – <idx type="person" norm="Keller Gottfried">Gottfried Kellers</idx> Roman spielt zur Zeit des Liberalismus – <abbr norm="vergleiche">vgl.</abbr> die entsprechenden
+					<placeName key="Zürich">Zürcher</placeName> Regierung hilflos. Wenigstens verfügte sie, dass die Kranken von den Gesunden isoliert
+					werden sollten und dass eine amtliche Meldepflicht für Leidgeplagte einzuführen sei.<com xml:id="Untergang_der_liberalen_Herrschaft_c24">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> Bekanntmachungen von Administrativ-Behörden [...] An die Bezirks- und Gemeindebehörden und
+						die Aerzte des Kantons Zürich, in: <ref type="lit">Amtsblatt ZH</ref>, 6. September 1867, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 1799–1803.</com> Auf
+					der <placeName key="Zürich">Zürcher</placeName> Landschaft wiederum spürten die Bauern die Turbulenzen auf den Finanzmärkten
+					und litten unter steigenden Zinsen für Darlehen und Hypotheken.<com xml:id="Untergang_der_liberalen_Herrschaft_c25">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> die entsprechenden Ausführungen in <ref type="lit">Schaffner, Demokratische Bewegung</ref>. – Zum Zeitgeschehen in
+						«Martin Salander» – <persName key="Keller Gottfried">Gottfried Kellers</persName> Roman spielt zur Zeit des Liberalismus – <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> die entsprechenden
 						Ausführungen in: <ref type="lit">Keller, HKKA</ref> XXIV.</com> Die Rufe nach Schaffung
-					einer Kantonalbank wurden lauter, doch die liberalen Kreditanstaltmänner hatten kein Gehör.<com id="Untergang_der_liberalen_Herrschaft_c26"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Schaffner, Demokratische Bewegung</ref>, <abbr norm="Seite(n)">S.</abbr> 91–102. – Zu Vorwürfen und Kritik an die Adresse der Kreditanstalt
-						<abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 774–783. – Zur Gründungsgeschichte der <idx type="place" norm="Zürich">Zürcher</idx> Kantonalbank <abbr norm="vergleiche">vgl.</abbr>
-						<ref type="lit">Wetter, Zürcher Kantonalbank</ref>, <abbr norm="Seite(n)">S.</abbr> 1–38.</com>
+					einer Kantonalbank wurden lauter, doch die liberalen Kreditanstaltmänner hatten kein Gehör.<com xml:id="Untergang_der_liberalen_Herrschaft_c26">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Schaffner, Demokratische Bewegung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 91–102. – Zu Vorwürfen und Kritik an die Adresse der Kreditanstalt
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 774–783. – Zur Gründungsgeschichte der <placeName key="Zürich">Zürcher</placeName> Kantonalbank <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice>
+						<ref type="lit">Wetter, Zürcher Kantonalbank</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 1–38.</com>
 					Auch die Exportwirtschaft konnte sich den internationalen Kräften nicht entziehen und
-					litt unter Absatzschwierigkeiten, was etwa in der Seiden- und Baumwollindustrie des <idx type="place" norm="Zürich">Zürcher</idx>
-					Oberlands zu Krisen führte.<com id="Untergang_der_liberalen_Herrschaft_c27"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Schaffner, Demokratische Bewegung</ref>, <abbr norm="Seite(n)">S.</abbr> 109–121.</com> Und so geschah das Unvermeidliche, was in den 1850er Jahren
-					unvorstellbar schien: Die Dämme, die in <idx type="place" norm="Zürich">Zürich</idx> das System geschützt hatten, brachen ein,
-					und die Fluten schwemmten bis Ende der 1860er Jahre die liberale Herrschaft weg.<com id="Untergang_der_liberalen_Herrschaft_c28">Zur demokratischen Bewegung im Kanton <idx type="place" norm="Zürich">Zürich</idx> <abbr norm="vergleiche">vgl.</abbr> die entsprechenden Ausführungen in <ref type="lit">Schaffner, Demokratische Bewegung</ref>. <abbr norm="Vergleiche">Vgl.</abbr> dazu die ältere Arbeit von Peter Gilg mit deutschschweizerischer Perspektive:
+					litt unter Absatzschwierigkeiten, was etwa in der Seiden- und Baumwollindustrie des <placeName key="Zürich">Zürcher</placeName>
+					Oberlands zu Krisen führte.<com xml:id="Untergang_der_liberalen_Herrschaft_c27">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Schaffner, Demokratische Bewegung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 109–121.</com> Und so geschah das Unvermeidliche, was in den 1850er Jahren
+					unvorstellbar schien: Die Dämme, die in <placeName key="Zürich">Zürich</placeName> das System geschützt hatten, brachen ein,
+					und die Fluten schwemmten bis Ende der 1860er Jahre die liberale Herrschaft weg.<com xml:id="Untergang_der_liberalen_Herrschaft_c28">Zur demokratischen Bewegung im Kanton <placeName key="Zürich">Zürich</placeName> <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> die entsprechenden Ausführungen in <ref type="lit">Schaffner, Demokratische Bewegung</ref>. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> dazu die ältere Arbeit von Peter Gilg mit deutschschweizerischer Perspektive:
 						<ref type="lit">Gilg, Entstehung</ref>. – Zu grundlegenden politisch-theoretischen Aspekten und zur direkten Demokratie
-						<abbr norm="vergleiche">vgl.</abbr> die Arbeiten von Andreas Gross <ref type="sum" target="Untergang_der_liberalen_Herrschaft_c29"><!-- → Anm. 29 --></ref>.</com>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> die Arbeiten von Andreas Gross <ref type="sum" target="Untergang_der_liberalen_Herrschaft_c29"><!-- → Anm. 29 --></ref>.</com>
 				</p>
-				<p id="Untergang_der_liberalen_Herrschaft_p10">Die politische Opposition hatte sich in <idx type="place" norm="Winterthur">Winterthur</idx> formiert. Dort wirkten die geistigen
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p10">Die politische Opposition hatte sich in <placeName key="Winterthur">Winterthur</placeName> formiert. Dort wirkten die geistigen
 					Führer einer direktdemokratischen Bewegung, die seit den frühen 1860er Jahren zusehends
-					stärker wurde: Stadtpräsident <idx type="person" norm="Sulzer Johann Jakob">Johann Jakob Sulzer</idx>, <idx type="person" norm="Ziegler Gottlieb">Gottlieb Ziegler</idx>, <idx type="person" norm="Ziegler Theodor">Theodor Ziegler</idx>, <idx type="person" norm="Bleuler-Hausheer Salomon">Salomon
-					Bleuler</idx> und <idx type="person" norm="Lange Friedrich Albert">Friedrich Albert Lange</idx>.<com id="Untergang_der_liberalen_Herrschaft_c29"><idx type="person" norm="Sulzer Johann Jakob">Johann Jakob Sulzer</idx> (1821–1897), langjähriger Regierungsrat, Grossrat, Kantonsrat, Stadtpräsident von
-						<idx type="place" norm="Winterthur">Winterthur</idx>, Nationalrat und Ständerat, mit Escher in den 1840er Jahren zunächst politisch und persönlich
+					stärker wurde: Stadtpräsident <persName key="Sulzer Johann Jakob">Johann Jakob Sulzer</persName>, <persName key="Ziegler Gottlieb">Gottlieb Ziegler</persName>, <persName key="Ziegler Theodor">Theodor Ziegler</persName>, <persName key="Bleuler-Hausheer Salomon">Salomon
+					Bleuler</persName> und <persName key="Lange Friedrich Albert">Friedrich Albert Lange</persName>.<com xml:id="Untergang_der_liberalen_Herrschaft_c29">
+                            <persName key="Sulzer Johann Jakob">Johann Jakob Sulzer</persName> (1821–1897), langjähriger Regierungsrat, Grossrat, Kantonsrat, Stadtpräsident von
+						<placeName key="Winterthur">Winterthur</placeName>, Nationalrat und Ständerat, mit Escher in den 1840er Jahren zunächst politisch und persönlich
 						verbunden, bis es aufgrund sachpolitischer und mentalitätsmässiger Differenzen zum offenen Bruch
-						kommt, ist einer der Hauptverantwortlichen für das Debakel der Nationalbahn. – <idx type="person" norm="Ziegler Gottlieb">Gottlieb Ziegler</idx> (1828–
+						kommt, ist einer der Hauptverantwortlichen für das Debakel der Nationalbahn. – <persName key="Ziegler Gottlieb">Gottlieb Ziegler</persName> (1828–
 						1898), Lehrer und Pfarrer, wird 1869 mit dem Sturz der Liberalen in den Regierungsrat gewählt, später
-						auch in den Nationalrat, ist Mitgründer der Neuzofingia (Helvetia) in <idx type="place" norm="Winterthur">Winterthur</idx> und <idx type="place" norm="Zürich (Stadt)">Zürich</idx>. – <idx type="person" norm="Ziegler Gottlieb">Gottlieb Ziegler</idx> ist
-						Schwager von <idx type="person" norm="Bleuler-Hausheer Salomon">Salomon Bleuler</idx> (1829–1886), Pfarrer, später Redaktor für kurze Zeit <abbr norm="unter anderem">u. a.</abbr> bei der «Neuen
-						<idx type="place" norm="Zürich">Zürcher</idx> Zeitung», dann während Jahren beim «Landboten», dessen Eigentümer (Verlag und Druckerei) er
-						wird. Daneben wirkt er in den 1870er Jahren als Stadtschreiber und Stadtpräsident von <idx type="place" norm="Winterthur">Winterthur</idx>. Nach
-						dem Sturz der Liberalen 1869 wird er Nationalrat. – <idx type="person" norm="Ziegler Theodor">Theodor Ziegler</idx> (1832–1917), Stadtschreiber und als
-						Nachfolger von <idx type="person" norm="Sulzer Johann Jakob">Sulzer</idx> Stadtpräsident von <idx type="place" norm="Winterthur">Winterthur</idx>, propagiert mit <idx type="person" norm="Sulzer Johann Jakob">Sulzer</idx>, als dessen rechte Hand er
-						galt, die fatalen Expansionspläne der Nationalbahn-Gesellschaft. – <idx type="person" norm="Lange Friedrich Albert">Friedrich Albert Lange</idx> (1828–1875),
-						<idx type="place" norm="Deutschland">deutscher</idx> Philosoph, neben <idx type="person" norm="Bleuler-Hausheer Salomon">Bleuler</idx> zweiter Redaktor des «Landboten», schrieb grundlegende Artikel zur
+						auch in den Nationalrat, ist Mitgründer der Neuzofingia (Helvetia) in <placeName key="Winterthur">Winterthur</placeName> und <placeName key="Zürich (Stadt)">Zürich</placeName>. – <persName key="Ziegler Gottlieb">Gottlieb Ziegler</persName> ist
+						Schwager von <persName key="Bleuler-Hausheer Salomon">Salomon Bleuler</persName> (1829–1886), Pfarrer, später Redaktor für kurze Zeit <choice>
+                                <abbr>u. a.</abbr>
+                                <expan>unter anderem</expan>
+                            </choice> bei der «Neuen
+						<placeName key="Zürich">Zürcher</placeName> Zeitung», dann während Jahren beim «Landboten», dessen Eigentümer (Verlag und Druckerei) er
+						wird. Daneben wirkt er in den 1870er Jahren als Stadtschreiber und Stadtpräsident von <placeName key="Winterthur">Winterthur</placeName>. Nach
+						dem Sturz der Liberalen 1869 wird er Nationalrat. – <persName key="Ziegler Theodor">Theodor Ziegler</persName> (1832–1917), Stadtschreiber und als
+						Nachfolger von <persName key="Sulzer Johann Jakob">Sulzer</persName> Stadtpräsident von <placeName key="Winterthur">Winterthur</placeName>, propagiert mit <persName key="Sulzer Johann Jakob">Sulzer</persName>, als dessen rechte Hand er
+						galt, die fatalen Expansionspläne der Nationalbahn-Gesellschaft. – <persName key="Lange Friedrich Albert">Friedrich Albert Lange</persName> (1828–1875),
+						<placeName key="Deutschland">deutscher</placeName> Philosoph, neben <persName key="Bleuler-Hausheer Salomon">Bleuler</persName> zweiter Redaktor des «Landboten», schrieb grundlegende Artikel zur
 						Verfassungsfrage und entwickelte «eine eigentliche Theorie der Direkten Demokratie, deren Bedeutung
-						wie auch jene <idx type="person" norm="Lange Friedrich Albert">Langes</idx> für die Entwicklung der Volksrechte in der Schweiz bis heute den wenigsten bewußt
-						ist»; <ref type="lit">Gross, Zeitung und Volksrechte</ref>. Gemäss Gross ist <idx type="person" norm="Lange Friedrich Albert">Lange</idx> wohl der wichtigste Theoretiker der direkten
-						Demokratie. – Zu <idx type="person" norm="Bleuler-Hausheer Salomon">Bleuler</idx> und <idx type="person" norm="Lange Friedrich Albert">Lange</idx>, die «in den 1860er Jahren aus dem ‹Landboten› den Leuchtturm
-						der Direkten Demokratie» und «ein eigentliches intellektuelles Labor» machten, <abbr norm="vergleiche">vgl.</abbr> in prägnanter Kurzform
-						<ref type="lit">Gross, Zeitung und Volksrechte</ref>. – Ausführlich, auch zum grösseren Kontext, <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Gross, Direkte
+						wie auch jene <persName key="Lange Friedrich Albert">Langes</persName> für die Entwicklung der Volksrechte in der Schweiz bis heute den wenigsten bewußt
+						ist»; <ref type="lit">Gross, Zeitung und Volksrechte</ref>. Gemäss Gross ist <persName key="Lange Friedrich Albert">Lange</persName> wohl der wichtigste Theoretiker der direkten
+						Demokratie. – Zu <persName key="Bleuler-Hausheer Salomon">Bleuler</persName> und <persName key="Lange Friedrich Albert">Lange</persName>, die «in den 1860er Jahren aus dem ‹Landboten› den Leuchtturm
+						der Direkten Demokratie» und «ein eigentliches intellektuelles Labor» machten, <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> in prägnanter Kurzform
+						<ref type="lit">Gross, Zeitung und Volksrechte</ref>. – Ausführlich, auch zum grösseren Kontext, <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Gross, Direkte
 						Demokratie</ref>. Andreas Gross plant für 2016 die Herausgabe eines grossen Werks zur direkten Demokratie.
-						Zu seinen Aufsätzen und Beiträgen <abbr norm="vergleiche">vgl.</abbr> <ref type="www" target="http://www.andigross.ch"><ref type="lit">Direkte Demokratie online</ref></ref>.</com> Von <idx type="place" norm="Winterthur">Winterthur</idx> aus und mit dem «Landboten» als
-					Propagandaorgan wurde die <idx type="place" norm="Zürich">Zürcher</idx> Bevölkerung mobilisiert, und es kam zu oppositionellen
-					Aufmärschen, die für damalige Verhältnisse eindrücklich waren.<com id="Untergang_der_liberalen_Herrschaft_c30"><abbr norm="Vergleiche">Vgl.</abbr> beispielhaft <ref type="lit">Schaffner, Demokratische Bewegung</ref>, <abbr norm="Seite(n)">S.</abbr> 42.</com> So am Sonntag, dem
-					<d norm="15.12.1867">15. Dezember 1867</d>, in <idx type="place" norm="Zürich (Stadt)">Zürich</idx>, <idx type="place" norm="Uster">Uster</idx>, <idx type="place" norm="Winterthur">Winterthur</idx> und <idx type="place" norm="Bülach">Bülach</idx>. Da mochten die Liberalen verharmlosen
+						Zu seinen Aufsätzen und Beiträgen <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref target="http://www.andigross.ch">
+                                <ref type="lit">Direkte Demokratie online</ref>
+                            </ref>.</com> Von <placeName key="Winterthur">Winterthur</placeName> aus und mit dem «Landboten» als
+					Propagandaorgan wurde die <placeName key="Zürich">Zürcher</placeName> Bevölkerung mobilisiert, und es kam zu oppositionellen
+					Aufmärschen, die für damalige Verhältnisse eindrücklich waren.<com xml:id="Untergang_der_liberalen_Herrschaft_c30">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> beispielhaft <ref type="lit">Schaffner, Demokratische Bewegung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 42.</com> So am Sonntag, dem
+					<date when="1867-12-15">15. Dezember 1867</date>, in <placeName key="Zürich (Stadt)">Zürich</placeName>, <placeName key="Uster">Uster</placeName>, <placeName key="Winterthur">Winterthur</placeName> und <placeName key="Bülach">Bülach</placeName>. Da mochten die Liberalen verharmlosen
 					oder sich gar hämisch der göttlichen Hilfe brüsten: «Der Himmel hängt voll Sympathie,
 					es schneit und regnet wie noch nie!», so die realitätsverkennende Interpretation dieser
-					Versammlungen in Berichterstattungen an Alfred Escher.<com id="Untergang_der_liberalen_Herrschaft_c31"><ref type="lit">Largiadèr, Zürich</ref> II, <abbr norm="Seite(n)">S.</abbr> 206. – Das von Largiadèr genannte Telegramm an Escher
+					Versammlungen in Berichterstattungen an Alfred Escher.<com xml:id="Untergang_der_liberalen_Herrschaft_c31">
+                            <ref type="lit">Largiadèr, Zürich</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 206. – Das von Largiadèr genannte Telegramm an Escher
 						konnte nicht identifiziert werden. – Ursprünglich ist unbestrittenermassen auch die folgende Aussage, die
-						<idx type="person" norm="Heer Oswald">Oswald Heer</idx> gegenüber Escher macht: «Von den heutigen sogenannten Volksversammlungen wirst Du
+						<persName key="Heer Oswald">Oswald Heer</persName> gegenüber Escher macht: «Von den heutigen sogenannten Volksversammlungen wirst Du
 						ohne Zweifel von ander Seite Bericht erhalten. Ich habe zur Stunde noch gar nichts davon erfahren. Der
 						Himmel hat jedenfalls dafür gesorgt, dass diesen Leuten etwelche Abkühlung zu Theil geworden ist.»
-						<ref type="letter" target="K_0029"><!-- → Nr. 3 --></ref>.</com> Denn ganz im Gegenteil: Es war
+						<!-- → Nr. 3 -->.</com> Denn ganz im Gegenteil: Es war
 					der Umsturz, der in der Luft hing. Doch Escher, der sich in die Eisenbahnsache gestürzt hatte
 					und dabei mit dem Nord-Süd-Projekt in einer entscheidenden Phase stand, hatte nicht die
 					Zeit, um sich in der erforderlichen Weise mit der politischen Opposition zu beschäftigen.
 					Anderen liberalen Repräsentanten fehlte vielfach das Sensorium für den Ernst der Lage. Und
 					so vermochten die Demokraten die Bevölkerung zusehends hinter ihre Ideen zu scharen, während
 					das System die Vorstellung für die anstehenden fundamentalen Veränderungen nicht
-					aufbringen konnte. Auch <ref type="kbp"/><idx type="person" norm="Heer Oswald">Oswald Heer</idx> nicht, wie aus seinem symbolkräftigen Schreiben an
-					Escher am Tag der grossen Volksdemonstrationen vom <d norm="15.12.1867">15. Dezember 1867</d> geschlossen werden
-					muss. Denn während das System am Untergehen ist, wird am Hof des Prinzeps getanzt.<com id="Untergang_der_liberalen_Herrschaft_c32">«Der Prinzeps und sein Hof» ist der Titel des sechsten Pamphlets der «Freiherren von <idx type="place" norm="Regensberg">Regensberg</idx>» von
-						<idx type="person" norm="Locher Friedrich">Friedrich Locher</idx>. Zu <idx type="person" norm="Locher Friedrich">Locher</idx> und den einzelnen Pamphleten <ref type="sum" target="Lochers_Pamphlete_und_das_System_d1"><!-- → S. 190–213 --></ref>.</com>
+					aufbringen konnte. Auch <persName key="Heer Oswald">Oswald Heer</persName> nicht, wie aus seinem symbolkräftigen Schreiben an
+					Escher am Tag der grossen Volksdemonstrationen vom <date when="1867-12-15">15. Dezember 1867</date> geschlossen werden
+					muss. Denn während das System am Untergehen ist, wird am Hof des Prinzeps getanzt.<com xml:id="Untergang_der_liberalen_Herrschaft_c32">«Der Prinzeps und sein Hof» ist der Titel des sechsten Pamphlets der «Freiherren von <placeName key="Regensberg">Regensberg</placeName>» von
+						<persName key="Locher Friedrich">Friedrich Locher</persName>. Zu <persName key="Locher Friedrich">Locher</persName> und den einzelnen Pamphleten <ref type="sum" target="Lochers_Pamphlete_und_das_System_d1"><!-- → S. 190–213 --></ref>.</com>
 				</p>
-				<p id="Untergang_der_liberalen_Herrschaft_p11">«Mein lieber Freund! [...] Noch vor wenigen Monaten hätte ich es nicht für möglich gehalten,
-					daß so was im <abbr norm="Canton">Cant.</abbr> <idx type="place" norm="Zürich">Zurich</idx> vor sich gehen würde <abbr norm="und">u.</abbr> ich gestehe aufrichtig, daß ich an
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p11">«Mein lieber Freund! [...] Noch vor wenigen Monaten hätte ich es nicht für möglich gehalten,
+					daß so was im <choice>
+                            <abbr>Cant.</abbr>
+                            <expan>Canton</expan>
+                        </choice> <placeName key="Zürich">Zurich</placeName> vor sich gehen würde <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> ich gestehe aufrichtig, daß ich an
 					der Wirkung der so hoch gesteigerten Bildungsmittel unsers Kantons irre geworden bin. Doch
 					muß man bei alledem den Muth nicht verlieren, bleibt nur das Bewustsein mit redlichem Wil<pb n="16"/>len 
-					das Wahre <abbr norm="und">u.</abbr> Gute angestrebt zu haben, kann man ruhig den Stürmen entgegen sehen <abbr norm="und">u.</abbr>
-					das System hat so viel Schönes <abbr norm="und">u.</abbr> Großes geschaffen, dass auch diese es nicht mehr zu zerstören
-					vermögen werden. Ich war <d norm="15.12.1867">heute</d> Nachmittag in <idx type="place" norm="Belvoir (Enge, Zürich)">Belvoir</idx>. <idx type="person" norm="Escher-Zollikofer (von Altenklingen) Lydia">Frau Escher</idx> ist immer noch leidend; <idx type="person" norm="Stockar-Escher (vom Glas) Clementine">Frau Stockar</idx> wohl auf; die <idx type="person" norm="Escher (vom Glas) Lydia">Fräulein Tochter</idx>
-					sehr munter <abbr norm="und">u.</abbr> hat mit <idx type="person" norm="Stockar Egbert">Egbert</idx> auf der Laube einen Schottisch getanzt. Unter den herzlichsten
-					Grüßen ganz Dein <idx type="person" norm="Heer Oswald">Oswald Heer</idx>. <idx type="place" norm="Zürich (Stadt)">Zurich</idx> <d norm="15.12.1867">Sonntag</d> Abend.»<com id="Untergang_der_liberalen_Herrschaft_c33"><ref type="letter" target="K_0029"><!-- Nr. 3 --></ref></com>
+					das Wahre <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> Gute angestrebt zu haben, kann man ruhig den Stürmen entgegen sehen <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice>
+					das System hat so viel Schönes <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> Großes geschaffen, dass auch diese es nicht mehr zu zerstören
+					vermögen werden. Ich war <date when="1867-12-15">heute</date> Nachmittag in <placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName>. <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Frau Escher</persName> ist immer noch leidend; <persName key="Stockar-Escher (vom Glas) Clementine">Frau Stockar</persName> wohl auf; die <persName key="Escher (vom Glas) Lydia">Fräulein Tochter</persName>
+					sehr munter <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> hat mit <persName key="Stockar Egbert">Egbert</persName> auf der Laube einen Schottisch getanzt. Unter den herzlichsten
+					Grüßen ganz Dein <persName key="Heer Oswald">Oswald Heer</persName>. <placeName key="Zürich (Stadt)">Zurich</placeName> <date when="1867-12-15">Sonntag</date> Abend.»<com xml:id="Untergang_der_liberalen_Herrschaft_c33"><!-- Nr. 3 --></com>
 				</p>
-				<p id="Untergang_der_liberalen_Herrschaft_p12">Dann folgten die Ereignisse Schlag auf Schlag: In kurzer Zeit konnten 27 000 Unterschriften
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p12">Dann folgten die Ereignisse Schlag auf Schlag: In kurzer Zeit konnten 27 000 Unterschriften
 					für eine Totalrevision der Verfassung gesammelt werden, notwendig waren lediglich
-					10 000.<com id="Untergang_der_liberalen_Herrschaft_c34"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Largiadèr, Zürich</ref> II, <abbr norm="Seite(n)">S.</abbr> 205–206.</com><ref type="sum" target="Verfassungskaempfe_p3">Verfassungskämpfe<!-- S. 22 --></ref> Am <d norm="26.01.1868">26. Januar 1868</d> sprach sich das <idx type="place" norm="Zürich">Zürcher</idx>volk mit rund 50 786 gegen 7374 Stimmen
-					für eine Verfassungsänderung aus. Am <d norm="08.03.1868">8. März 1868</d> wurde ein Verfassungsrat gewählt,
-					in dem die Demokraten die Mehrheit stellten. Dieser trat am <d norm="04.05.1868">4. Mai 1868</d> zu seiner konstituierenden
+					10 000.<com xml:id="Untergang_der_liberalen_Herrschaft_c34">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Largiadèr, Zürich</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 205–206.</com>
+                        <ref type="sum" target="Verfassungskaempfe_p3">Verfassungskämpfe<!-- S. 22 --></ref> Am <date when="1868-01-26">26. Januar 1868</date> sprach sich das <placeName key="Zürich">Zürcher</placeName>volk mit rund 50 786 gegen 7374 Stimmen
+					für eine Verfassungsänderung aus. Am <date when="1868-03-08">8. März 1868</date> wurde ein Verfassungsrat gewählt,
+					in dem die Demokraten die Mehrheit stellten. Dieser trat am <date when="1868-05-04">4. Mai 1868</date> zu seiner konstituierenden
 					Sitzung zusammen. Obwohl auch Escher in den Rat gewählt wurde, lehnte er die
-					Wahl ab.<ref type="sum" target="Verfassungskaempfe_p7"><!-- S. 23 --></ref> Die Verfassung, die am <d norm="18.04.1869">18. April 1869</d> zur Abstimmung kam, wurde mit 35 458 Ja gegen
-					22 366 Nein-Stimmen angenommen.<com id="Untergang_der_liberalen_Herrschaft_c35"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <abbr norm="Seite(n)">S.</abbr> 54, 83.</com> Sie blieb während 136 Jahren bis 2005 gültig.
+					Wahl ab.<ref type="sum" target="Verfassungskaempfe_p7"><!-- S. 23 --></ref> Die Verfassung, die am <date when="1869-04-18">18. April 1869</date> zur Abstimmung kam, wurde mit 35 458 Ja gegen
+					22 366 Nein-Stimmen angenommen.<com xml:id="Untergang_der_liberalen_Herrschaft_c35">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Kölz, Verfassungsgeschichte</ref> II, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 54, 83.</com> Sie blieb während 136 Jahren bis 2005 gültig.
 					Die demokratische Verfassung von 1869 brachte einen tiefgreifenden Machtwechsel und eine
 					neue politische Kultur. Aus dem Regierungsrat, der zuvor vollständig in liberaler Hand war,
 					wurden im selben Jahr alle Liberalen abgewählt und durch Demokraten ersetzt. Im Kantonsrat,
 					dem früheren Grossrat – die politische Umwälzung wurde auch sprachlich zum Ausdruck
 					gebracht –, besetzten 1869 die Demokraten mit neu 85 Sitzen rund drei Fünftel, den Liberalen
-					blieben 56 Sitze übrig.<com id="Untergang_der_liberalen_Herrschaft_c36"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Statistisches Amt Kt. ZH, Handbuch</ref>, <abbr norm="Seite(n)">S.</abbr> 250–251.</com>
+					blieben 56 Sitze übrig.<com xml:id="Untergang_der_liberalen_Herrschaft_c36">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Statistisches Amt Kt. ZH, Handbuch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 250–251.</com>
 				</p>
-				<p id="Untergang_der_liberalen_Herrschaft_p13">Angesichts des drohenden politischen Umsturzes in <idx type="place" norm="Zürich">Zürich</idx>, den er Anfang 1868 als unabwendbar
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p13">Angesichts des drohenden politischen Umsturzes in <placeName key="Zürich">Zürich</placeName>, den er Anfang 1868 als unabwendbar
 					betrachtete, befürchtete Escher, dass auch er vom Volk nicht mehr in den Grossen
-					Rat und ins eidgenössische Parlament gewählt werden würde.<com id="Untergang_der_liberalen_Herrschaft_c37">Diese Furcht war nicht unbegründet, verloren doch 1868 verschiedene Stützen des Systems ihre bis dahin
-						eingenommenen politischen Ämter. Zu den Beispielen <idx type="person" norm="Ryffel Johann Jakob">Johann Jakob Ryffel</idx>, <idx type="person" norm="Bucher Johann Jakob">Johann Jakob Bucher</idx> und
-						<idx type="person" norm="Bader Jakob">Jakob Bader</idx> <abbr norm="vergleiche">vgl.</abbr> <ref type="sum" target="Lochers_Pamphlete_und_das_System_p10"><!-- S. 193 --></ref>; <ref type="sum" target="Lochers_Pamphlete_und_das_System_c38"><!-- Anm. 36, S. 209 --></ref>.</com> Vor diesem Hintergrund erklärte
-					er am <d norm="27.02.1869">27. Februar 1868</d> seinen Rücktritt aus dem Nationalrat. Kaum wurde dieser Entscheid
+					Rat und ins eidgenössische Parlament gewählt werden würde.<com xml:id="Untergang_der_liberalen_Herrschaft_c37">Diese Furcht war nicht unbegründet, verloren doch 1868 verschiedene Stützen des Systems ihre bis dahin
+						eingenommenen politischen Ämter. Zu den Beispielen <persName key="Ryffel Johann Jakob">Johann Jakob Ryffel</persName>, <persName key="Bucher Johann Jakob">Johann Jakob Bucher</persName> und
+						<persName key="Bader Jakob">Jakob Bader</persName> <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="sum" target="Lochers_Pamphlete_und_das_System_p10"><!-- S. 193 --></ref>; <ref type="sum" target="Lochers_Pamphlete_und_das_System_c38"><!-- Anm. 36, S. 209 --></ref>.</com> Vor diesem Hintergrund erklärte
+					er am <date when="1869-02-27">27. Februar 1868</date> seinen Rücktritt aus dem Nationalrat. Kaum wurde dieser Entscheid
 					publik, gab es Stimmen, die es «geradezu als Unmöglichkeit» bezeichneten, «dass der
-					Kanton <idx type="place" norm="Zürich">Zürich</idx> [...] eine Persönlichkeit von solcher Einsicht, von solcher Erfahrung, von so
+					Kanton <placeName key="Zürich">Zürich</placeName> [...] eine Persönlichkeit von solcher Einsicht, von solcher Erfahrung, von so
 					ganz ausserordentlicher Arbeitskraft, welcher über dies kein sittlicher Makel anhaftet, aus
 					einer Wirksamkeit, in welcher er dem Kanton zweifelsohne reichen Segen gestiftet hat, entlasse». 
-					Die «Neue <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» meinte, «dass ihrer Hundert, die heute über den Rücktritt
+					Die «Neue <placeName key="Zürich">Zürcher</placeName> Zeitung» meinte, «dass ihrer Hundert, die heute über den Rücktritt
 					Eschers jubiliren, morgen den Wanderstab ergreifen oder gar zu ihren Vätern heimkehren
-					könnten, ohne daß ein Hahn darnach krähen würde».<com id="Untergang_der_liberalen_Herrschaft_c38"><ref type="lit">NZZ</ref>, 29. Februar 1868, 5. März 1868, 7. März 1868.</com> Doch es kam ganz anders: Verloren
+					könnten, ohne daß ein Hahn darnach krähen würde».<com xml:id="Untergang_der_liberalen_Herrschaft_c38">
+                            <ref type="lit">NZZ</ref>, 29. Februar 1868, 5. März 1868, 7. März 1868.</com> Doch es kam ganz anders: Verloren
 					viele Liberale ihre bis dahin eingenommenen politischen Ämter, so wurde Alfred Escher am
-					<d norm="29.03.1868">29. März 1868</d> mit 10 263 Stimmen glanzvoll wiedergewählt. Auf <idx type="person" norm="Locher Friedrich">Friedrich Locher</idx>, seinen
-					Gegenkandidaten, entfielen magere 4238 Stimmen.<com id="Untergang_der_liberalen_Herrschaft_c39">Von 1848 bis 1882 wurde Alfred Escher im Kanton <idx type="place" norm="Zürich">Zürich</idx> im Wahlkreis 1 jeweils auf einem Spitzenplatz
+					<date when="1868-03-29">29. März 1868</date> mit 10 263 Stimmen glanzvoll wiedergewählt. Auf <persName key="Locher Friedrich">Friedrich Locher</persName>, seinen
+					Gegenkandidaten, entfielen magere 4238 Stimmen.<com xml:id="Untergang_der_liberalen_Herrschaft_c39">Von 1848 bis 1882 wurde Alfred Escher im Kanton <placeName key="Zürich">Zürich</placeName> im Wahlkreis 1 jeweils auf einem Spitzenplatz
 						in den Nationalrat gewählt: auf dem ersten oder zweiten Platz (1848 bis 1875), auf dem dritten Platz
-						(1878 und 1881). Zur Statistik <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 136.</com><ref type="sum" target="Lochers_Pamphlete_und_das_System_d1">Zu Locher<!-- 190-213 --></ref>
+						(1878 und 1881). Zur Statistik <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 136.</com>
+                        <ref type="sum" target="Lochers_Pamphlete_und_das_System_d1">Zu Locher<!-- 190-213 --></ref>
 				</p>
-				<p id="Untergang_der_liberalen_Herrschaft_p14">Das System, mit dem Escher während rund zwanzig Jahren den Kanton <idx type="place" norm="Zürich">Zürich</idx> beherrscht
-					hatte,<ref type="sum" target="Untergang_der_liberalen_Herrschaft_d1.2">Zu Eschers System und Netzwerk<!-- → S. 12–14--></ref><ref type="sum" target="Gotthardbahnprojekt_in_der_Escher-Korrespondenz_d1.3">Zu Eschers System und Netzwerk<!-- → S. 73–75--></ref> war 1868/69 erledigt. Es wäre jedoch falsch zu folgern, dass damit auch Escher von
-					seinen Machtpositionen gedrängt worden wäre. Wohl sassen im Kanton <idx type="place" norm="Zürich">Zürich</idx> fortan nicht
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p14">Das System, mit dem Escher während rund zwanzig Jahren den Kanton <placeName key="Zürich">Zürich</placeName> beherrscht
+					hatte,<ref type="sum" target="Untergang_der_liberalen_Herrschaft_d1.2">Zu Eschers System und Netzwerk<!-- → S. 12–14--></ref>
+                        <ref type="sum" target="Gotthardbahnprojekt_in_der_Escher-Korrespondenz_d1.3">Zu Eschers System und Netzwerk<!-- → S. 73–75--></ref> war 1868/69 erledigt. Es wäre jedoch falsch zu folgern, dass damit auch Escher von
+					seinen Machtpositionen gedrängt worden wäre. Wohl sassen im Kanton <placeName key="Zürich">Zürich</placeName> fortan nicht
 					mehr die Liberalen in den politischen Ämtern, und es schien, als sei die politische Schaltzentrale
-					von der <idx type="place" norm="Limmat">Limmat</idx> an die <idx type="place" norm="Eulach">Eulach</idx> verlegt worden. Eschers Wirkungskreis als einer der einflussreichsten
+					von der <placeName key="Limmat">Limmat</placeName> an die <placeName key="Eulach">Eulach</placeName> verlegt worden. Eschers Wirkungskreis als einer der einflussreichsten
 					eidgenössischen Parlamentarier blieb ihm auch nach 1869 unbenommen. Die
-					Niederlage seines politischen Systems in <idx type="place" norm="Zürich">Zürich</idx> eröffnete ihm neue Möglichkeiten, und er
+					Niederlage seines politischen Systems in <placeName key="Zürich">Zürich</placeName> eröffnete ihm neue Möglichkeiten, und er
 					verstärkte seine wirtschaftspolitische Tätigkeit. Und schliesslich kompensierte Alfred Escher
 					diese Niederlage mit einem Jahrhundertprojekt, das seinem ohnehin schon imposanten Lebenswerk
-					unvergleichlichen Glanz verlieh: dem Bau der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn.<ref type="sum" target="Gotthardbahnprojekt_in_der_Escher-Korrespondenz_d1"><!--S. 72–81--></ref><ref type="sum" target="Finanzierung_Gotthardbahn_d1"><!--S. 214–225--></ref><ref type="sum" target="Chronologie_Gotthardbahn_d1"><!--S. 245–265--></ref>	<pb n="17"/></p>
-				<p id="Untergang_der_liberalen_Herrschaft_p15">Bald nahmen auch seine liberalen Parteifreunde auf vorübergehend verlorenen Regierungssesseln
-					und Parlamentsbänken wieder ihre Plätze ein. Bereits bei den kantonal<idx type="place" norm="Zürich">zürcherischen</idx>
+					unvergleichlichen Glanz verlieh: dem Bau der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn.<ref type="sum" target="Gotthardbahnprojekt_in_der_Escher-Korrespondenz_d1"><!--S. 72–81--></ref>
+                        <ref type="sum" target="Finanzierung_Gotthardbahn_d1"><!--S. 214–225--></ref>
+                        <ref type="sum" target="Chronologie_Gotthardbahn_d1"><!--S. 245–265--></ref>	<pb n="17"/>
+                    </p>
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p15">Bald nahmen auch seine liberalen Parteifreunde auf vorübergehend verlorenen Regierungssesseln
+					und Parlamentsbänken wieder ihre Plätze ein. Bereits bei den kantonal<placeName key="Zürich">zürcherischen</placeName>
 					Wahlen von 1872 wurde wieder ein liberaler Regierungsrat gewählt. Auch im Kantonsrat
 					holte die liberale Partei mächtig auf und war bereits wieder etwa gleich stark vertreten wie
 					das demokratische Lager. Dieses Kräfteverhältnis blieb über 1875 hinaus bestehen. Nach den
 					Wahlen von 1878 verfügten die Liberalen im Kantonsrat wieder über eine satte Mehrheit (111
 					von 185 Stimmen). Im Regierungsrat überflügelten die Liberalen ihre demokratischen Gegner
-					im Jahr 1879.<com id="Untergang_der_liberalen_Herrschaft_c40"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 12. Juni 1872, 4. Mai 1875, 24. Mai 1878.</com> Trotz dieser liberalen Renaissance in den 1870er Jahren markiert die Niederlage
-					des Systems Escher 1869 in <idx type="place" norm="Zürich">Zürich</idx> schweizweit eine politische Zäsur: Demokratische
+					im Jahr 1879.<com xml:id="Untergang_der_liberalen_Herrschaft_c40">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 12. Juni 1872, 4. Mai 1875, 24. Mai 1878.</com> Trotz dieser liberalen Renaissance in den 1870er Jahren markiert die Niederlage
+					des Systems Escher 1869 in <placeName key="Zürich">Zürich</placeName> schweizweit eine politische Zäsur: Demokratische
 					Umwälzungen fanden auch in anderen Kantonen statt, in denen Kernelemente der demokratischen
 					Forderungen übernommen wurden: die direkte Volkswahl der Regierung, die Einführung
-					von Initiative und Referendum.<com id="Untergang_der_liberalen_Herrschaft_c41"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 228, 233.</com> Diese Entwicklung auf kantonaler Ebene stärkte jene
+					von Initiative und Referendum.<com xml:id="Untergang_der_liberalen_Herrschaft_c41">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 228, 233.</com> Diese Entwicklung auf kantonaler Ebene stärkte jene
 					Kräfte, die auch die Bundesverfassung von 1848 den veränderten Verhältnissen anpassen
 					wollten. Über Zwischenschritte und Umwege kam es schliesslich 1874 zur Revision der Verfassung.<ref type="sum" target="Verfassungskaempfe_d1.2"><!--→ S. 26–30--></ref>
 					Neu eingeführt wurde das fakultative Referendum für Bundesgesetze. Das Volksrecht
 					der Verfassungsinitiative folgte mit der Revision von 1891.
 				</p>
-				<p id="Untergang_der_liberalen_Herrschaft_p16">Mit dem Sturz der liberalen Herrschaft in <idx type="place" norm="Zürich">Zürich</idx> 1868/69, den politischen Veränderungen
+				<p xml:id="Untergang_der_liberalen_Herrschaft_p16">Mit dem Sturz der liberalen Herrschaft in <placeName key="Zürich">Zürich</placeName> 1868/69, den politischen Veränderungen
 					in verschiedenen anderen Kantonen und mit der Bundesverfassung von 1874 hatte sich
 					die politische Kultur in der Schweiz grundlegend gewandelt. Die Zeit des jungen Bundesstaates
 					war zu Ende. Gereift durch verschiedene innen- und aussenpolitische Stürme trat die junge
@@ -340,4 +664,5 @@
 			</div>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>

@@ -1,291 +1,643 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Rekonstruktion_Nordostbahn" name="Rekonstruktion Nordostbahn">
-	<metadata>
-		<title>Alfred Escher, Georg Stoll und die Rekonstruktion der Nordostbahn</title>
-		<author>
-			<name>Bruno Fischer, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Rekonstruktion_Nordostbahn">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alfred Escher, Georg Stoll und die Rekonstruktion der Nordostbahn</title>
+                <author>
+			Bruno Fischer, unter der Leitung von Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1866–1882).
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1866–1882).
 				Private Eisenbahngesellschaften in der Krise, Gotthardbahn, politische Opposition, mit Beiträgen von
 				Claudia Aufdermauer, Basil Böhni, Lisa Bollinger, Bruno Fischer, Josef Inauen, Joseph Jung, Björn Koch und Vincent Pick (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-				Escher-Stiftung, Band 6), Zürich 2015</volume_title>
-			<short_title>Jung, Escher Briefe, Band 6</short_title>
-			<volume>6</volume>
-			<page>44–53</page>
-		</source>
-		<description>Situation der Nordostbahn 1876 – Moratorium für Bauverpflichtungen – Finanzielle Reorganisation – Reorganisation durch Jules Coutin – Reorganisation der Gesellschaftsbehörden </description>
-		<revision>
-			<change>XML-Grundstruktur erstellt, MB/LW, 07.08.2014</change>
-			<change>Migrationsverifizierung umgesetzt, MB, 07.08.2014</change>
-			<change>Auszeichnung 1 umgesetzt, XR/LW, 11.08.2014</change>
-			<change>Verifizierung 1 umgesetzt, MA, 12.08.2014</change>
-			<change>Inhaltliche Verifizierung umgesetzt, BF, 07.10.2014 / 10.10.2014</change>
-			<change>Korrektorat EH umgesetzt, BF, 13.10.2014</change>
-			<change>Auszeichnung Personen/Orte/Eisenbahnen umgesetzt, BF, 28.10.2014</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Rekonstruktion_Nordostbahn_d1">
-			<head><pb n="44"/>Alfred Escher, Georg Stoll und die Rekonstruktion der Nordostbahn</head>
-			<div id="Rekonstruktion_Nordostbahn_d1.1">
+				Escher-Stiftung, Band 6), Zürich 2015</title>
+                    <title type="short">Jung, Escher Briefe, Band 6</title>
+                    <ref type="volume" target="V6">44–53</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Situation der Nordostbahn 1876 – Moratorium für Bauverpflichtungen – Finanzielle Reorganisation – Reorganisation durch Jules Coutin – Reorganisation der Gesellschaftsbehörden </term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, MB/LW, 07.08.2014</change>
+                <change>Migrationsverifizierung umgesetzt, MB, 07.08.2014</change>
+                <change>Auszeichnung 1 umgesetzt, XR/LW, 11.08.2014</change>
+                <change>Verifizierung 1 umgesetzt, MA, 12.08.2014</change>
+                <change>Inhaltliche Verifizierung umgesetzt, BF, 07.10.2014 / 10.10.2014</change>
+                <change>Korrektorat EH umgesetzt, BF, 13.10.2014</change>
+                <change>Auszeichnung Personen/Orte/Eisenbahnen umgesetzt, BF, 28.10.2014</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Rekonstruktion_Nordostbahn_d1">
+			<head>
+                    <pb n="44"/>Alfred Escher, Georg Stoll und die Rekonstruktion der Nordostbahn</head>
+			<div xml:id="Rekonstruktion_Nordostbahn_d1.1">
 				<head>Die Situation der Nordostbahn 1876</head>
-				<p id="Rekonstruktion_Nordostbahn_p1">Als im Dezember 1876 der provisorische Abschluss für dieses Geschäftsjahr eine
+				<p xml:id="Rekonstruktion_Nordostbahn_p1">Als im Dezember 1876 der provisorische Abschluss für dieses Geschäftsjahr eine
 					Dividende von lediglich 3% ergab, war dies
 					für weite Kreise ein Zeichen, dass die Lage der Nordostbahn mittlerweile
-					kritisch war.<com id="Rekonstruktion_Nordostbahn_c1"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Escher, Lebenslauf</ref>, <abbr norm="Seite(n)">S.</abbr> 150–151; <ref type="lit">Speiser, Bahnen und Banken</ref>, <abbr norm="Seite(n)">S.</abbr> 164.
+					kritisch war.<com xml:id="Rekonstruktion_Nordostbahn_c1">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Escher, Lebenslauf</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 150–151; <ref type="lit">Speiser, Bahnen und Banken</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 164.
 						– Quellen zur Krise der Nordostbahn in den 1870er Jahren bilden
 						Publikationen der Gesellschaft selbst wie die Geschäftsberichte der
 						Direktion [<ref type="lit">Geschäftsbericht NOB</ref>], die ab Geschäftsjahr
 						1877 verfassten Berichte des Verwaltungsrats [<ref type="lit">Geschäftsbericht VR NOB</ref>] sowie weitere Berichte der Bahn,
-						insbesondere die Berichte der Direktion <abbr norm="beziehungsweise">bzw.</abbr> des Verwaltungsrats an die
+						insbesondere die Berichte der Direktion <choice>
+                                <abbr>bzw.</abbr>
+                                <expan>beziehungsweise</expan>
+                            </choice> des Verwaltungsrats an die
 						Generalversammlung von Juni 1877 [<ref type="lit">Bericht Dir. NOB an GV
 							[30. Juni 1877]</ref>], [<ref type="lit">Bericht VR NOB an GV [30. Juni
 							1877]</ref>]; weitere, zum Teil Nordostbahn-kritische zeitgenössische
-						Publikationen stammen beispielhaft von <idx type="person" norm="Coutin Jules">Jules Coutin</idx> [<ref type="lit">Coutin,
-							Etude</ref>], <idx type="person" norm="Memminger Anton">Anton Memminger</idx> [<ref type="lit">Memminger, NOB</ref>]
-						oder <idx type="person" norm="Escher (vom Glas) Eugen">Eugen Escher</idx> [<ref type="lit">Escher, Lebenslauf</ref>, <abbr norm="Seite(n)">S.</abbr> 128–160].
+						Publikationen stammen beispielhaft von <persName key="Coutin Jules">Jules Coutin</persName> [<ref type="lit">Coutin,
+							Etude</ref>], <persName key="Memminger Anton">Anton Memminger</persName> [<ref type="lit">Memminger, NOB</ref>]
+						oder <persName key="Escher (vom Glas) Eugen">Eugen Escher</persName> [<ref type="lit">Escher, Lebenslauf</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 128–160].
 						Als Literatur zu nennen sind zuvorderst das entsprechende Kapitel der
-						Escher-Biographie von Joseph Jung [<ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr>
+						Escher-Biographie von Joseph Jung [<ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 							520–545] sowie die Untersuchungen zur Nordostbahn von Adolf
 						Kessler [<ref type="lit">Kessler, Nordostbahn</ref>] und Jan-Henning Baumann
-							[<ref type="lit">Baumann, Krisenbewältigung</ref>]. – Zu <idx type="person" norm="Stoll Georg">Georg Stoll</idx>
-						<abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Stoll, Stoll</ref>.</com> Schon zuvor waren allerdings
+							[<ref type="lit">Baumann, Krisenbewältigung</ref>]. – Zu <persName key="Stoll Georg">Georg Stoll</persName>
+						<choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Stoll, Stoll</ref>.</com> Schon zuvor waren allerdings
 					erhebliche Finanzierungsschwierigkeiten der Gesellschaft ersichtlich geworden.
 					Bei der Nordostbahn bestand Mitte der 1870er Jahre ein beträchtlicher
 					Kapitalbedarf, einerseits für die Finanzierung neuer Bauvorhaben, andererseits
 					für fällige Rückzahlungen bestehender Obligationen. Alleine im Geschäftsjahr
-					1875 fielen Baukosten von nahezu 30 <abbr norm="Million(en)">Mio.</abbr> Franken an. Mit den für dieses Jahr
-					verfügbaren Mitteln von rund 19 <abbr norm="Million(en)">Mio.</abbr> Franken (Aktivsaldo von 1874 sowie
+					1875 fielen Baukosten von nahezu 30 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken an. Mit den für dieses Jahr
+					verfügbaren Mitteln von rund 19 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken (Aktivsaldo von 1874 sowie
 					Einzahlungen auf Aktien, Obligationen und Darlehen) konnte die Gesellschaft
 					diese Kosten nicht decken. Zudem berechnete die Direktion den Geldbedarf für die
-					Folgejahre 1876 bis 1881 auf insgesamt weitere 55 <abbr norm="Million(en)">Mio.</abbr> Franken. Entsprechend
+					Folgejahre 1876 bis 1881 auf insgesamt weitere 55 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken. Entsprechend
 					unternahm sie Schritte zur Beschaffung der nötigen Gelder über Anleihen und
 					kurzfristige Kreditaufnahmen, verzichtete aber auf die in den Statuten
 					vorgesehene Emission neuer Aktien, da deren Kurs in der zweiten Jahreshälfte
-					1875 unter pari sank.<com id="Rekonstruktion_Nordostbahn_c2"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Geschäftsbericht NOB</ref> 1875,
-						<abbr norm="Seite(n)">S.</abbr> 12–16; <ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr>
-						42. – Auf dem Platz <idx type="place" norm="Zürich (Stadt)">Zürich</idx> sanken die Kurse für Nordostbahnaktien <abbr norm="circa">ca.</abbr> Mitte
-						Oktober 1875 unter die Marke von 500 Franken. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>, 5. Oktober 1875, 10. Oktober 1875, 16. Oktober 1875.</com> </p>
-				<p id="Rekonstruktion_Nordostbahn_p2">Zu den Anleihensgeschäften gehörte ein am <d norm="12.04.1876">12. April 1876</d> geschlossener Vertrag
-					mit dem <idx type="place" norm="Paris (F)">Pariser</idx> Comptoir d'Escompte, wonach dieses 57 338 Obligationen im
-					Nennwert von 500 Franken zu <abbr norm="Franken">Fr.</abbr> 366.25 pro Stück übernahm, womit die
-					Bahngesellschaft bei einem Nominalwert der Papiere von rund 28,5 <abbr norm="Million(en)">Mio.</abbr> Franken rund 21 <abbr norm="Million(en)">Mio.</abbr> Franken erhielt. Ein analoger Vertrag der Centralbahn wurde umgesetzt, doch
-					im Fall der Nordostbahn verweigerte das <idx type="place" norm="Frankreich">französische</idx> Ministerium für öffentliche
+					1875 unter pari sank.<com xml:id="Rekonstruktion_Nordostbahn_c2">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Geschäftsbericht NOB</ref> 1875,
+						<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 12–16; <ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						42. – Auf dem Platz <placeName key="Zürich (Stadt)">Zürich</placeName> sanken die Kurse für Nordostbahnaktien <choice>
+                                <abbr>ca.</abbr>
+                                <expan>circa</expan>
+                            </choice> Mitte
+						Oktober 1875 unter die Marke von 500 Franken. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>, 5. Oktober 1875, 10. Oktober 1875, 16. Oktober 1875.</com> </p>
+				<p xml:id="Rekonstruktion_Nordostbahn_p2">Zu den Anleihensgeschäften gehörte ein am <date when="1876-04-12">12. April 1876</date> geschlossener Vertrag
+					mit dem <placeName key="Paris (F)">Pariser</placeName> Comptoir d'Escompte, wonach dieses 57 338 Obligationen im
+					Nennwert von 500 Franken zu <choice>
+                            <abbr>Fr.</abbr>
+                            <expan>Franken</expan>
+                        </choice> 366.25 pro Stück übernahm, womit die
+					Bahngesellschaft bei einem Nominalwert der Papiere von rund 28,5 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken rund 21 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken erhielt. Ein analoger Vertrag der Centralbahn wurde umgesetzt, doch
+					im Fall der Nordostbahn verweigerte das <placeName key="Frankreich">französische</placeName> Ministerium für öffentliche
 					Arbeiten die erforderliche Genehmigung für die Kotierung der Obligationen an der
-					<idx type="place" norm="Paris (F)">Pariser</idx> Börse, da das statutengemässe Aktienkapital der Gesellschaft nicht
+					<placeName key="Paris (F)">Pariser</placeName> Börse, da das statutengemässe Aktienkapital der Gesellschaft nicht
 					vollständig einbezahlt war. In der Folge musste sich die Nordostbahn mit der
 					Aufnahme kurzfristiger Kredite behelfen. Vor allem aber war es unumgänglich
-					geworden, das Aktienkapital von 39 <abbr norm="Million(en)">Mio.</abbr> Franken auf die festgeschriebenen 50
-					<abbr norm="Million(en)">Mio.</abbr> Franken anzuheben.<com id="Rekonstruktion_Nordostbahn_c3"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 42–47; <ref type="lit">Ziegler, Stellung</ref>, <abbr norm="Seite(n)">S.</abbr>
-						18; <ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 79–83; <ref type="lit">Speiser, Bahnen und Banken</ref>, <abbr norm="Seite(n)">S.</abbr> 160–163; <ref type="lit">Bouvier,
-							Crise</ref>, <abbr norm="Seite(n)">S.</abbr> 467; <ref type="lit">Schmid, Kapitalverluste</ref>, <abbr norm="Seite(n)">S.</abbr> 16–17; <ref type="lit">Baumann, Krisenbewältigung</ref>, <abbr norm="Seite(n)">S.</abbr> 26–27.</com>
+					geworden, das Aktienkapital von 39 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken auf die festgeschriebenen 50
+					<choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken anzuheben.<com xml:id="Rekonstruktion_Nordostbahn_c3">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 42–47; <ref type="lit">Ziegler, Stellung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						18; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 79–83; <ref type="lit">Speiser, Bahnen und Banken</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 160–163; <ref type="lit">Bouvier,
+							Crise</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 467; <ref type="lit">Schmid, Kapitalverluste</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 16–17; <ref type="lit">Baumann, Krisenbewältigung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 26–27.</com>
 					Nachdem das Comptoir d'Escompte das Gelingen der Aktienausgabe nicht garantieren
-					wollte, hatte sich – wie <idx type="person" norm="Stoll Georg">Georg Stoll</idx>, der Direktor der Kreditanstalt und
+					wollte, hatte sich – wie <persName key="Stoll Georg">Georg Stoll</persName>, der Direktor der Kreditanstalt und
 					zugleich Verwaltungsratsvizepräsident der Nordostbahn, dem
-					Nordostbahn- und Kreditanstalt-Verwaltungsratspräsidenten Escher schrieb – <ref type="letter" target="K_2814"><!---> Nr. x [K_2814, Georg Stoll an Escher, 20.06.1876]--></ref>
+					Nordostbahn- und Kreditanstalt-Verwaltungsratspräsidenten Escher schrieb – <!---> Nr. x [K_2814, Georg Stoll an Escher, 20.06.1876]-->
 					«den Herren [der Nordostbahn-Direktion] endlich die Ueberzeugung aufgedrungen,
 					daß nun ohne längern Verzug in andrer Weise vorgegangen werden müsse», und sie
 					baten die Kreditanstalt um ihre Mitwirkung bei der Emission von Aktien über 11
-					<abbr norm="Million(en)">Mio.</abbr> Franken. Bemerkenswerterweise setzte der Verwaltungsrat der Nordostbahn am
-					<d norm="11.07.1876">11. Juli 1876</d> eine fünfköpfige Kommission ein, um gemeinsam mit der Direktion
+					<choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken. Bemerkenswerterweise setzte der Verwaltungsrat der Nordostbahn am
+					<date when="1876-07-11">11. Juli 1876</date> eine fünfköpfige Kommission ein, um gemeinsam mit der Direktion
 					die Bedingungen der Aktienemission festzulegen, obwohl solche Entscheidungen
 					gemäss Statuten dem Gesamtverwaltungsrat zugestanden hätten. Auf dieselbe Weise
 					wurde verfahren, als es im November 1876 darum ging, einen Vertrag mit dem
 					Comptoir d'Escompte auszuhandeln, wonach dieses gegen eine Sicherheit von
-					Obligationen im Wert von 50 <abbr norm="Million(en)">Mio.</abbr> Franken einen Kredit von bis zu 25 <abbr norm="Million(en)">Mio.</abbr>
-					Franken gewährte.<com id="Rekonstruktion_Nordostbahn_c4"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Prot. VR NOB</ref>, 11. Juli 1876, 9.
-						November 1876; <ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 47–48; <ref type="lit">Ziegler, Stellung</ref>, <abbr norm="Seite(n)">S.</abbr> 19–21; <ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 84–86.</com> </p>
-				<p id="Rekonstruktion_Nordostbahn_p3">Die Schwierigkeiten der Nordostbahn bei der Kapitalbeschaffung, namentlich das
+					Obligationen im Wert von 50 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken einen Kredit von bis zu 25 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice>
+					Franken gewährte.<com xml:id="Rekonstruktion_Nordostbahn_c4">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. VR NOB</ref>, 11. Juli 1876, 9.
+						November 1876; <ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 47–48; <ref type="lit">Ziegler, Stellung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 19–21; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 84–86.</com> </p>
+				<p xml:id="Rekonstruktion_Nordostbahn_p3">Die Schwierigkeiten der Nordostbahn bei der Kapitalbeschaffung, namentlich das
 					Scheitern des Geschäfts mit dem Comptoir d'Escompte wegen des Einspruchs des
-					<idx type="place" norm="Frankreich">französischen</idx> Ministeriums<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p11">Aktienkurse<!--35--></ref>, gaben Grund zur Beunruhigung. Die Aktienkurse der
+					<placeName key="Frankreich">französischen</placeName> Ministeriums<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p11">Aktienkurse<!--35--></ref>, gaben Grund zur Beunruhigung. Die Aktienkurse der
 					Gesellschaft gingen ebenso zurück wie die Preise, die man für Obligationen zu
 					zahlen bereit war; auch wurden die <pb n="45"/>Schwierigkeiten im Verwaltungsrat
-					thematisiert, wie <idx type="person" norm="Ziegler Gottlieb">Gottlieb Ziegler</idx> betonte, der Vertreter der <idx type="place" norm="Zürich">Zürcher</idx>
+					thematisiert, wie <persName key="Ziegler Gottlieb">Gottlieb Ziegler</persName> betonte, der Vertreter der <placeName key="Zürich">Zürcher</placeName>
 					Kantonsregierung in diesem Gremium. Wirklich evident wurde die schwierige
 					finanzielle Situation der Gesellschaft indes, wie eingangs erwähnt, Ende
-						1876.<com id="Rekonstruktion_Nordostbahn_c5"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Memminger, NOB</ref>, <abbr norm="Seite(n)">S.</abbr> 25; <ref type="lit">Ziegler, Stellung</ref>; <ref type="lit">Escher, Lebenslauf</ref>, <abbr norm="Seite(n)">S.</abbr> 138–150.</com> </p>
+						1876.<com xml:id="Rekonstruktion_Nordostbahn_c5">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Memminger, NOB</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 25; <ref type="lit">Ziegler, Stellung</ref>; <ref type="lit">Escher, Lebenslauf</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 138–150.</com> </p>
 			</div>
-			<div id="Rekonstruktion_Nordostbahn_d1.2">
+			<div xml:id="Rekonstruktion_Nordostbahn_d1.2">
 				<head>Die Reorganisationskommission des Verwaltungsrates</head>
-				<p id="Rekonstruktion_Nordostbahn_p4">Am <d norm="12.01.1877">12. Januar 1877</d> erstattete <idx type="person" norm="Escher (vom Glas) Eugen">Eugen Escher</idx>, der Vizepräsident der Direktion, dem
+				<p xml:id="Rekonstruktion_Nordostbahn_p4">Am <date when="1877-01-12">12. Januar 1877</date> erstattete <persName key="Escher (vom Glas) Eugen">Eugen Escher</persName>, der Vizepräsident der Direktion, dem
 					Verwaltungsrat einen mündlichen Bericht über die finanzielle Lage der Gesellschaft.
 					Der Verwaltungsrat setzte noch am selben Tag eine neunköpfige Reorganisationskommission
-					mit Alfred Escher und <idx type="person" norm="Stoll Georg">Stoll</idx> an der Spitze ein, um die Situation der Gesellschaft und
-					Vorschläge zu ihrer Verbesserung zu prüfen.<com id="Rekonstruktion_Nordostbahn_c6"> <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 4; <ref type="lit">Ziegler,
-						Stellung</ref>, <abbr norm="Seite(n)">S.</abbr> 21; <ref type="lit">Escher, Lebenslauf</ref>, <abbr norm="Seite(n)">S.</abbr> 154. – Die weiteren Mitglieder der Kommission waren
-						<idx type="person" norm="Jenny-Dinner Caspar">Caspar Jenny-Dinner</idx>, <idx type="person" norm="Stoffel Severin">Severin Stoffel</idx>, <idx type="person" norm="Cramer-von Wyss Heinrich">Heinrich Cramer-von Wyss</idx>, <idx type="person" norm="Haberstich Johann">Johann
-						Haberstich</idx>, <idx type="person" norm="Römer Melchior">Melchior Römer</idx>, <idx type="person" norm="Rieter Heinrich Peter">Heinrich Peter Rieter</idx> und <idx type="person" norm="Blank-Arbenz Jakob">Jakob
-							Blank-Arbenz</idx>. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 4; <ref type="lit">Die Eisenbahn</ref> VI, <abbr norm="Nummer">Nr.</abbr> 3, 19. Januar 1877, <abbr norm="Seite(n)">S.</abbr> 23.</com>
+					mit Alfred Escher und <persName key="Stoll Georg">Stoll</persName> an der Spitze ein, um die Situation der Gesellschaft und
+					Vorschläge zu ihrer Verbesserung zu prüfen.<com xml:id="Rekonstruktion_Nordostbahn_c6"> <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 4; <ref type="lit">Ziegler,
+						Stellung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 21; <ref type="lit">Escher, Lebenslauf</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 154. – Die weiteren Mitglieder der Kommission waren
+						<persName key="Jenny-Dinner Caspar">Caspar Jenny-Dinner</persName>, <persName key="Stoffel Severin">Severin Stoffel</persName>, <persName key="Cramer-von Wyss Heinrich">Heinrich Cramer-von Wyss</persName>, <persName key="Haberstich Johann">Johann
+						Haberstich</persName>, <persName key="Römer Melchior">Melchior Römer</persName>, <persName key="Rieter Heinrich Peter">Heinrich Peter Rieter</persName> und <persName key="Blank-Arbenz Jakob">Jakob
+							Blank-Arbenz</persName>. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 4; <ref type="lit">Die Eisenbahn</ref> VI, <choice>
+                                <abbr>Nr.</abbr>
+                                <expan>Nummer</expan>
+                            </choice> 3, 19. Januar 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 23.</com>
 					Offenbar waren nun besondere Massnahmen erforderlich, um die Gesellschaft wieder
 					zu stabilisieren und Vertrauen zurückzugewinnen. Eine zentrale Rolle bei der
 					Bewältigung dieser Herausforderung spielten der Verwaltungsratspräsident Escher
-					und <idx type="person" norm="Stoll Georg">Stoll</idx>, der
+					und <persName key="Stoll Georg">Stoll</persName>, der
 					Vizepräsident dieses Gremiums. Dieser war ein langjähriger, bewährter und auch
 					persönlich eng vertrauter Mitarbeiter Eschers.<ref type="sum" target="Korrespondenz_Escher-Stoll_p1"><!--S. 103--></ref> Bis 1873 war er als Vizepräsident
 					der Nordostbahn-Direktion für den kommerziellen Dienst der Gesellschaft zuständig; danach
 					machte ihn Escher zum Direktor der Schweizerischen Kreditanstalt. Gleichzeitig
-					wechselte <idx type="person" norm="Stoll Georg">Stoll</idx> in den Verwaltungsrat der Nordostbahn, wo er 1875 nach dem Tod
-					<idx type="person" norm="Rüttimann Johann Jakob">Johann Jakob Rüttimanns</idx> zum Vizepräsidenten gewählt wurde.<com id="Rekonstruktion_Nordostbahn_c7"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Geschäftsbericht NOB</ref> 1875, <abbr norm="Seite(n)">S.</abbr> 104; <ref type="lit">Stoll, Stoll</ref>, <abbr norm="Seite(n)">S.</abbr> 16–20, 44–45, 52–55. – Escher selbst
-						nannte <idx type="person" norm="Stoll Georg">Stolls</idx> Freundschaft «ein unschätzbares Gut» und schrieb diesem bei
+					wechselte <persName key="Stoll Georg">Stoll</persName> in den Verwaltungsrat der Nordostbahn, wo er 1875 nach dem Tod
+					<persName key="Rüttimann Johann Jakob">Johann Jakob Rüttimanns</persName> zum Vizepräsidenten gewählt wurde.<com xml:id="Rekonstruktion_Nordostbahn_c7">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Geschäftsbericht NOB</ref> 1875, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 104; <ref type="lit">Stoll, Stoll</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 16–20, 44–45, 52–55. – Escher selbst
+						nannte <persName key="Stoll Georg">Stolls</persName> Freundschaft «ein unschätzbares Gut» und schrieb diesem bei
 						Annahme seiner Wiederwahl in den Verwaltungsrat der Kreditanstalt 1880: «Die
 						Aussicht, dadurch mit Ihnen wieder in öftere Berührung zu kommen, hat nicht
 						am wenigsten, sondern am meisten zu meinem Entschlusse beigetragen. Es kam
 						mir oft unnatürlich vor, daß, innerlich nahe, wie ich Ihnen stehe, wir so
-						selten zusammenkommen.» <ref type="letter" target="K_3284"><!--Brief Escher an Georg Stoll, 9. Juni 1881 (ZB Ms
-						Briefe)--></ref>; <ref type="letter" target="K_3269"><!--Nr. x--></ref>.</com> </p>
-				<p id="Rekonstruktion_Nordostbahn_p5">Die Reorganisationskommission erstellte ihren Bericht im Februar 1877, worüber
-					Escher den <idx type="place" norm="Deutsches Reich">deutschen</idx> Gesandten in <idx type="place" norm="Bern (Stadt)">Bern</idx>, <idx type="person" norm="Roeder Maximilian Heinrich von">Maximilian Heinrich von Roeder</idx>, in
+						selten zusammenkommen.» <!--Brief Escher an Georg Stoll, 9. Juni 1881 (ZB Ms
+						Briefe)-->; <!--Nr. x-->.</com> </p>
+				<p xml:id="Rekonstruktion_Nordostbahn_p5">Die Reorganisationskommission erstellte ihren Bericht im Februar 1877, worüber
+					Escher den <placeName key="Deutsches Reich">deutschen</placeName> Gesandten in <placeName key="Bern (Stadt)">Bern</placeName>, <persName key="Roeder Maximilian Heinrich von">Maximilian Heinrich von Roeder</persName>, in
 					Kenntnis setzte: «Ich habe heute ein Reorganisationsproject vollendet, welches
 					dazu geeignet sein dürfte, die Nordostbahn wieder auf einen gesunden Boden zu
 					bringen. Die Durchführung dieses Projectes erheischt aber die Überwindung einer
 					Legion von Schwierigkeiten. Ich werde vor denselben im Hinblicke auf die großen
 					Interessen, welche sich an die Erreichung des vorgesteckten Zieles knüpfen,
-					nicht zurückschrecken.»<com id="Rekonstruktion_Nordostbahn_c8"><ref type="letter" target="K_2920"><!--Brief Escher an
-							Maximilian Heinrich von Roeder, 21. Februar 1877</ref>, in: <ref type="lit">Jung, Escher Briefe, Bd. 1</ref>, Nr. 272--></ref>.</com> Den Entwurf
+					nicht zurückschrecken.»<com xml:id="Rekonstruktion_Nordostbahn_c8"><!--Brief Escher an
+							Maximilian Heinrich von Roeder, 21. Februar 1877</ref>, in: <ref type="lit">Jung, Escher Briefe, Bd. 1</ref>, Nr. 272-->.</com> Den Entwurf
 					dieses Projekts hatte Escher, noch bevor er ihn der Kommission vorgelegt hatte,
-					Bundesrat <idx type="person" norm="Heer Joachim">Joachim Heer</idx> geschickt, um dessen Urteil zu vernehmen. Mit Blick auf
-					den ebenfalls übermittelten Bericht <idx type="person" norm="Stoll Georg">Stolls</idx> über die Betriebsverhältnisse befand
-					<idx type="person" norm="Heer Joachim">Heer</idx>, es sei «kein schönes Bild, das uns hier aufgerollt wird», doch sei der
+					Bundesrat <persName key="Heer Joachim">Joachim Heer</persName> geschickt, um dessen Urteil zu vernehmen. Mit Blick auf
+					den ebenfalls übermittelten Bericht <persName key="Stoll Georg">Stolls</persName> über die Betriebsverhältnisse befand
+					<persName key="Heer Joachim">Heer</persName>, es sei «kein schönes Bild, das uns hier aufgerollt wird», doch sei der
 					Bericht insofern «tröstlich, als er den Beweis dafür erbringt, daß, bei
 					Wiederaufnahme gesunder Geschäfts-Maximen, das Unternehmen wohl im Stande sein
-					wird, wieder zu gesunden».<com id="Rekonstruktion_Nordostbahn_c9"><ref type="letter" target="K_2913"><!--Brief Joachim
-							Heer an Escher, 14. Februar 1877 (BAR J I.67-8)--></ref>. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_8476"><!--Nr. 270--></ref>; <ref type="letter" target="K_8477"><!--Bd. 1, Nr. 271--></ref>.</com> Auch von seiten einer Gruppe von Aktionären wurde eine
+					wird, wieder zu gesunden».<com xml:id="Rekonstruktion_Nordostbahn_c9"><!--Brief Joachim
+							Heer an Escher, 14. Februar 1877 (BAR J I.67-8)-->. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <!--Nr. 270-->; <!--Bd. 1, Nr. 271-->.</com> Auch von seiten einer Gruppe von Aktionären wurde eine
 					Kommission eingesetzt, welche die finanzielle Lage der Gesellschaft prüfte, was
-					Escher, «zum Unterschiede von manchen Mitgliedern der Gesellschaftsorgane der <abbr norm="NordOstBahn">N.O.B.</abbr>, eine sehr erwünschte Nachricht» war.<com id="Rekonstruktion_Nordostbahn_c10"><ref type="letter" target="K_8476"><!--Bd. 1, Nr. 270--></ref> </com> Er erteilte dem Präsidenten dieser Kommission, dem
-					Anwalt <idx type="person" norm="Ryf Johannes">Johannes Ryf</idx>, auch bereitwillig Auskunft und stellte diesem die
-					Direktionsberichte zur Verfügung.<com id="Rekonstruktion_Nordostbahn_c11"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="letter" target="K_2927"><!--Brief Johannes Ryf an Escher, 25. Februar 1877 (BAR J I.67-8)--></ref>;
-							<ref type="lit">Situation und Rekonstruktion NOB</ref>, <abbr norm="ohne Seite">o. S.</abbr> </com></p>
+					Escher, «zum Unterschiede von manchen Mitgliedern der Gesellschaftsorgane der <choice>
+                            <abbr>N.O.B.</abbr>
+                            <expan>NordOstBahn</expan>
+                        </choice>, eine sehr erwünschte Nachricht» war.<com xml:id="Rekonstruktion_Nordostbahn_c10"><!--Bd. 1, Nr. 270--> </com> Er erteilte dem Präsidenten dieser Kommission, dem
+					Anwalt <persName key="Ryf Johannes">Johannes Ryf</persName>, auch bereitwillig Auskunft und stellte diesem die
+					Direktionsberichte zur Verfügung.<com xml:id="Rekonstruktion_Nordostbahn_c11">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <!--Brief Johannes Ryf an Escher, 25. Februar 1877 (BAR J I.67-8)-->;
+							<ref type="lit">Situation und Rekonstruktion NOB</ref>, <choice>
+                                <abbr>o. S.</abbr>
+                                <expan>ohne Seite</expan>
+                            </choice> </com>
+                    </p>
 			</div>
-			<div id="Rekonstruktion_Nordostbahn_d1.3">
+			<div xml:id="Rekonstruktion_Nordostbahn_d1.3">
 				<head>Das Moratorium: Aufschub der Bauverpflichtungen</head>
-				<p id="Rekonstruktion_Nordostbahn_p6">Das in der «Neuen <idx type="place" norm="Zürich">Zürcher</idx> Zeitung» veröffentlichte Programm der Kommission hielt
+				<p xml:id="Rekonstruktion_Nordostbahn_p6">Das in der «Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung» veröffentlichte Programm der Kommission hielt
 					zunächst fest: «Die Nordostbahngesellschaft ist nicht im Besitze der
 					finanziellen Mittel, welche erforderlich sind, um ihr den Bau der weitern
 					Eisenbahnlinien, deren Ausführung sie übernommen hat, zu ermöglichen, und sie
 					befindet sich auch nicht in der Lage, sich in den Besitz dieser Mittel zu
-					setzen.»<com id="Rekonstruktion_Nordostbahn_c12"><ref type="lit">NZZ</ref>, 27. Februar 1877. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Die Eisenbahn</ref> VI, <abbr norm="Nummer">Nr.</abbr> 9, 2. März 1877, <abbr norm="Seite(n)">S.</abbr> 71.</com> </p>
-				<p id="Rekonstruktion_Nordostbahn_p7">Zwischen 1870 und 1873 hatte die Gesellschaft Bauverpflichtungen für eigene
-					Linien oder als Beteiligungen im Umfang von 331 <abbr norm="Kilometer">km</abbr> übernommen. Die erwarteten
+					setzen.»<com xml:id="Rekonstruktion_Nordostbahn_c12">
+                            <ref type="lit">NZZ</ref>, 27. Februar 1877. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Die Eisenbahn</ref> VI, <choice>
+                                <abbr>Nr.</abbr>
+                                <expan>Nummer</expan>
+                            </choice> 9, 2. März 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 71.</com> </p>
+				<p xml:id="Rekonstruktion_Nordostbahn_p7">Zwischen 1870 und 1873 hatte die Gesellschaft Bauverpflichtungen für eigene
+					Linien oder als Beteiligungen im Umfang von 331 <choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice> übernommen. Die erwarteten
 					Kosten für diese <pb n="46"/>neuen Linien beliefen sich zum Zeitpunkt der
-					Verpflichtungsübernahmen auf rund 83 <abbr norm="Million(en)">Mio.</abbr> Franken, wovon die Nordostbahn selbst
-					rund 63 <abbr norm="Million(en)">Mio.</abbr> Franken aufzubringen hatte.<com id="Rekonstruktion_Nordostbahn_c13"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bericht Dir.
-							NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 25–28; <ref type="lit">Jung,
-							Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 536–537; <ref type="lit">Kessler, Nordostbahn</ref>,
-						<abbr norm="Seite(n)">S.</abbr> 37–61, 116–120; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <abbr norm="Seite(n)">S.</abbr> 56;
-							<ref type="lit">Bauer, Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 110.</com> Vom <d norm="01.01.1877">1. Januar
-					1877</d> an gerechnet, stellten sich die ausstehenden Verpflichtungen (Bedarf für
-					Neubauten sowie bis 1881 fällige Schuldrückzahlungen) auf rund 71 <abbr norm="Million(en)">Mio.</abbr> Franken.
+					Verpflichtungsübernahmen auf rund 83 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken, wovon die Nordostbahn selbst
+					rund 63 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken aufzubringen hatte.<com xml:id="Rekonstruktion_Nordostbahn_c13">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bericht Dir.
+							NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 25–28; <ref type="lit">Jung,
+							Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 536–537; <ref type="lit">Kessler, Nordostbahn</ref>,
+						<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 37–61, 116–120; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 56;
+							<ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 110.</com> Vom <date when="1877-01-01">1. Januar
+					1877</date> an gerechnet, stellten sich die ausstehenden Verpflichtungen (Bedarf für
+					Neubauten sowie bis 1881 fällige Schuldrückzahlungen) auf rund 71 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken.
 					Die geplante Sistierung verschiedener Linien würde diesen Kapitalbedarf, so die
 					Direktion in ihrem umfassenden Bericht an die Generalversammlung «über die
-					gegenwärtige Finanzlage der Unternehmung» von Juni 1877, auf 44,5 <abbr norm="Million(en)">Mio.</abbr> Franken
-						reduzieren.<com id="Rekonstruktion_Nordostbahn_c14"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bericht Dir. NOB an GV [30. Juni
-							1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 53–57. – Gemäss dem Bericht der Reorganisationskommission des
+					gegenwärtige Finanzlage der Unternehmung» von Juni 1877, auf 44,5 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken
+						reduzieren.<com xml:id="Rekonstruktion_Nordostbahn_c14">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bericht Dir. NOB an GV [30. Juni
+							1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 53–57. – Gemäss dem Bericht der Reorganisationskommission des
 						Verwaltungsrats war bei Umsetzung ihres im Februar 1877
-						veröffentlichten Programms mit zu beschaffenden Mitteln von rund 42 <abbr norm="Million(en)">Mio.</abbr>
-						Franken für die Jahre 1877 bis und mit 1883 zu rechnen. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">NZZ</ref>,
+						veröffentlichten Programms mit zu beschaffenden Mitteln von rund 42 <choice>
+                                <abbr>Mio.</abbr>
+                                <expan>Million(en)</expan>
+                            </choice>
+						Franken für die Jahre 1877 bis und mit 1883 zu rechnen. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">NZZ</ref>,
 						27. Februar 1877.</com> In Hinsicht auf die finanzielle Rekonstruktion war es
 					somit vorrangiges Ziel, sich mindestens für den Moment von diesen
 					Verpflichtungen zu befreien. Dabei hatte die Nordostbahn auf etlichen der neuen
 					Linien den Bau noch gar nicht in Angriff genommen oder erst kleinere Arbeiten
-					ausgeführt. Nun bemühte sie sich, unter der Vermittlung von Bundesrat <idx type="person" norm="Anderwert Fridolin">Fridolin
-					Anderwert</idx> eine Verständigung zu erreichen, um diese Verpflichtungen abzuwälzen
-					oder zumindest aufzuschieben. Unter <idx type="person" norm="Anderwert Fridolin">Anderwerts
-</idx>
-					Vorsitz fanden zwischen Mai und August 1877 in <idx type="place" norm="Bern (Stadt)">Bern</idx> sowie in <idx type="place" norm="Zürich (Stadt)">Zürich</idx> Verhandlungen statt zwischen
+					ausgeführt. Nun bemühte sie sich, unter der Vermittlung von Bundesrat <persName key="Anderwert Fridolin">Fridolin
+					Anderwert</persName> eine Verständigung zu erreichen, um diese Verpflichtungen abzuwälzen
+					oder zumindest aufzuschieben. Unter <persName key="Anderwert Fridolin">Anderwerts
+</persName>
+					Vorsitz fanden zwischen Mai und August 1877 in <placeName key="Bern (Stadt)">Bern</placeName> sowie in <placeName key="Zürich (Stadt)">Zürich</placeName> Verhandlungen statt zwischen
 					Vertretern der Nordostbahn – meist war Escher beteiligt – und solchen der
-					Komitees der Linien, zu deren Bau sich die Gesellschaft bereit erklärt hatte.<com id="Rekonstruktion_Nordostbahn_c15">Zu den Verhandlungen mit den verschiedenen
-						Komitees über den Aufschub der Bauverpflichtungen <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 35–45, Beilagen IV a, IV b, IV c; <ref type="lit">Bericht VR NOB Bauverpflichtungen</ref>; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 8–27.</com>
+					Komitees der Linien, zu deren Bau sich die Gesellschaft bereit erklärt hatte.<com xml:id="Rekonstruktion_Nordostbahn_c15">Zu den Verhandlungen mit den verschiedenen
+						Komitees über den Aufschub der Bauverpflichtungen <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 35–45, Beilagen IV a, IV b, IV c; <ref type="lit">Bericht VR NOB Bauverpflichtungen</ref>; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 8–27.</com>
 					Ziel der Gesellschaft war es, entweder die Verpflichtung zum Bau der Linien
 					vollständig abzutreten oder zumindest die für die Fertigstellung festgesetzte
 					Frist so weit hinausschieben zu können, dass sie erst nach ihrer finanziellen
 					Gesundung mit den Bauarbeiten fortfahren müsste. Im Rahmen der Bemühungen um
 					eine Rekonstruktion der Nordostbahn erschien dieser Schritt als «der lezte
 					Nothanker», dem «eine geradezu entscheidende Bedeutung» zufiel, wie Ständerat
-					<idx type="person" norm="Nagel Paul">Paul Nagel</idx>, ein Vertreter der Nordostbahn-Aktionäre, Escher schrieb.<com id="Rekonstruktion_Nordostbahn_c16"><ref type="letter" target="K_2954"><!--Brief Paul Nagel an Escher, 12. April 1877
-							(BAR J I.67-8)--></ref>.</com> </p>
-				<p id="Rekonstruktion_Nordostbahn_p8">Dabei konnten nicht alle Verpflichtungen gleich behandelt werden. Für einen
-					erheblichen Teil des für die Linie <idx type="place" norm="Glarus (Gemeinde)">Glarus</idx>–<idx type="place" norm="Linthal (Glarus Süd)">Linthal</idx> erforderlichen Baukapitals
-					nämlich war der Gesellschaft durch den Kanton <idx type="place" norm="Glarus">Glarus</idx> ein Subventionsdarlehen
+					<persName key="Nagel Paul">Paul Nagel</persName>, ein Vertreter der Nordostbahn-Aktionäre, Escher schrieb.<com xml:id="Rekonstruktion_Nordostbahn_c16"><!--Brief Paul Nagel an Escher, 12. April 1877
+							(BAR J I.67-8)-->.</com> </p>
+				<p xml:id="Rekonstruktion_Nordostbahn_p8">Dabei konnten nicht alle Verpflichtungen gleich behandelt werden. Für einen
+					erheblichen Teil des für die Linie <placeName key="Glarus (Gemeinde)">Glarus</placeName>–<placeName key="Linthal (Glarus Süd)">Linthal</placeName> erforderlichen Baukapitals
+					nämlich war der Gesellschaft durch den Kanton <placeName key="Glarus">Glarus</placeName> ein Subventionsdarlehen
 					zugesichert und dieses teilweise bereits als Obligationenschuld einbezahlt
-					worden; die Bauarbeiten waren in Gang. Entsprechend fanden zwischen der <idx type="place" norm="Glarus">Glarner
-</idx>
-					Standeskommission unter Landammann <idx type="person" norm="Zweifel Esajas">Esajas Zweifel</idx> und der
+					worden; die Bauarbeiten waren in Gang. Entsprechend fanden zwischen der <placeName key="Glarus">Glarner
+</placeName>
+					Standeskommission unter Landammann <persName key="Zweifel Esajas">Esajas Zweifel</persName> und der
 					Reorganisationskommission der Nordostbahn separate Verhandlungen statt. Diese
-					waren nicht frei von Schwierigkeiten: <idx type="place" norm="Glarus">Glarus</idx> beharrte auf Garantien für die
-					Fertigstellung und auf die fällige Rückzahlung einer Obligation von 1 <abbr norm="Million(en)">Mio.</abbr>
+					waren nicht frei von Schwierigkeiten: <placeName key="Glarus">Glarus</placeName> beharrte auf Garantien für die
+					Fertigstellung und auf die fällige Rückzahlung einer Obligation von 1 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice>
 					Franken, die Nordostbahn sistierte die Bauarbeiten. Schliesslich waren die
-					Verhandlungen so festgefahren, dass der <idx type="place" norm="Glarus">Glarner</idx> Bundesrat <idx type="person" norm="Heer Joachim">Joachim Heer</idx> und
-					Escher einig waren,<ref type="letter" target="K_8478"><!---> Nr. x [K_2971, Escher
-						an Joachim Heer, 30.04.1877]--></ref> dass «eine Conferenz unter <idx type="person" norm="Anderwert Fridolin">Anderwert's
-</idx>
-					Leitung der geeignetste &amp; zugleich der einzig mögliche Weg» sei.<com id="Rekonstruktion_Nordostbahn_c17"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="letter" target="K_2969"><!--Brief Joachim Heer an Escher, 29. April 1877 (BAR J I.67-8)--></ref>.</com> Tatsächlich konnten die Verhandlungen am <d norm="02.06.1877">2. Juni 1877</d> anlässlich einer von <idx type="person" norm="Anderwert Fridolin">Anderwert</idx> geleiteten Konferenz zu einem
-					Abschluss gebracht werden, indem <idx type="place" norm="Glarus">Glarus</idx> der Nordostbahn für die gesamte
+					Verhandlungen so festgefahren, dass der <placeName key="Glarus">Glarner</placeName> Bundesrat <persName key="Heer Joachim">Joachim Heer</persName> und
+					Escher einig waren,<!---> Nr. x [K_2971, Escher
+						an Joachim Heer, 30.04.1877]--> dass «eine Conferenz unter <persName key="Anderwert Fridolin">Anderwert's
+</persName>
+					Leitung der geeignetste &amp; zugleich der einzig mögliche Weg» sei.<com xml:id="Rekonstruktion_Nordostbahn_c17">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<!--Brief Joachim Heer an Escher, 29. April 1877 (BAR J I.67-8)-->.</com> Tatsächlich konnten die Verhandlungen am <date when="1877-06-02">2. Juni 1877</date> anlässlich einer von <persName key="Anderwert Fridolin">Anderwert</persName> geleiteten Konferenz zu einem
+					Abschluss gebracht werden, indem <placeName key="Glarus">Glarus</placeName> der Nordostbahn für die gesamte
 					Finanzierung Subventionsdarlehen zu günstigen Bedingungen zusicherte und eine
 					Fristerstreckung gewährte, während letztere sich zur Wiederaufnahme der
-					Bauarbeiten verpflichtete.<com id="Rekonstruktion_Nordostbahn_c18"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr>
-						38–39, Beilage III; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 19–23.</com> Am <d norm="01.06.1879">1. Juni 1879</d>,<ref type="letter" target="K_3240"><!---> Nr. x [K_3240, Escher an Esajas
-						Zweifel, 25.05.1879]--></ref> einen Monat später als 1877 vereinbart,
-					konnte die Linie dem Betrieb übergeben werden.<com id="Rekonstruktion_Nordostbahn_c19"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Pfyffer, Glarus–Linthal</ref>, <abbr norm="Seite(n)">S.</abbr> 12–13, 16–18, 20–30. – Escher selbst nahm an den
-						Einweihungsfeierlichkeiten vom <d norm="29.05.1879">29. Mai 1879</d> nicht teil, da er «zur Zeit durchaus nicht in
-						der Stimmung [sei], ein – Eisenbahnfest mitzumachen». <ref type="letter" target="K_3240"><!---> Nr. 24--></ref>.</com> </p>
-				<p id="Rekonstruktion_Nordostbahn_p9">Mit den Vertretern der meisten Linien vermochte sich die Nordostbahn in den
-					Verhandlungen unter <idx type="person" norm="Anderwert Fridolin">Anderwerts</idx> Vorsitz auf Fristerstreckungen bis 1885 zu
+					Bauarbeiten verpflichtete.<com xml:id="Rekonstruktion_Nordostbahn_c18">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						38–39, Beilage III; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 19–23.</com> Am <date when="1879-06-01">1. Juni 1879</date>,<!---> Nr. x [K_3240, Escher an Esajas
+						Zweifel, 25.05.1879]--> einen Monat später als 1877 vereinbart,
+					konnte die Linie dem Betrieb übergeben werden.<com xml:id="Rekonstruktion_Nordostbahn_c19">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Pfyffer, Glarus–Linthal</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 12–13, 16–18, 20–30. – Escher selbst nahm an den
+						Einweihungsfeierlichkeiten vom <date when="1879-05-29">29. Mai 1879</date> nicht teil, da er «zur Zeit durchaus nicht in
+						der Stimmung [sei], ein – Eisenbahnfest mitzumachen». <!---> Nr. 24-->.</com> </p>
+				<p xml:id="Rekonstruktion_Nordostbahn_p9">Mit den Vertretern der meisten Linien vermochte sich die Nordostbahn in den
+					Verhandlungen unter <persName key="Anderwert Fridolin">Anderwerts</persName> Vorsitz auf Fristerstreckungen bis 1885 zu
 					einigen. Zweifelhaft war indes insbesondere eine Einigung mit dem Komitee der
-					rechtsufrigen <idx type="place" norm="Zürichsee">Zürichsee</idx>bahn. Gleichwohl war Escher zuversichtlich, dass aufgrund
+					rechtsufrigen <placeName key="Zürichsee">Zürichsee</placeName>bahn. Gleichwohl war Escher zuversichtlich, dass aufgrund
 					des offenkundigen Entgegenkommens der Nordostbahn selbst im für die Nordostbahn
 					ungünstigsten Fall eine Fristerstreckung bis 1885 auch für diese Linie erwartet
-					werden durfte. So konnte er gegen Ende August 1877 konstatieren,<ref type="letter" target="K_3020"><!---> Nr. x [K_3020]--></ref> dass «die Moratiumsfrage [sic!] überhaupt als zu Gunsten
-					der <abbr norm="NordOstBahn">N.O.B.</abbr> erledigt anzuse<pb n="48"/>hen» sei. Ausstehend war die Behandlung der
+					werden durfte. So konnte er gegen Ende August 1877 konstatieren,<!---> Nr. x [K_3020]--> dass «die Moratiumsfrage [sic!] überhaupt als zu Gunsten
+					der <choice>
+                            <abbr>N.O.B.</abbr>
+                            <expan>NordOstBahn</expan>
+                        </choice> erledigt anzuse<pb n="48"/>hen» sei. Ausstehend war die Behandlung der
 					Moratoriumsanträge durch die Bundesversammlung, die als Konzessionierungsbehörde
 					über die Änderungen in den Konzessionen, welche die Fristerstreckungen
 					darstellten, zu entscheiden hatte. Noch vor dieser Behandlung fanden sich im
-					Januar 1878 schliesslich auch die Vertreter der rechtsufrigen <idx type="place" norm="Zürichsee">Zürichsee</idx>bahn
+					Januar 1878 schliesslich auch die Vertreter der rechtsufrigen <placeName key="Zürichsee">Zürichsee</placeName>bahn
 					bereit, mittels Abschluss eines Zusatzvertrags der Fristerstreckung
-					zuzustimmen.<com id="Rekonstruktion_Nordostbahn_c20"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 42–44, Beilage IV a (<abbr norm="Seite(n)">S.</abbr> 9–18); <ref type="lit">Bericht VR NOB Bauverpflichtungen</ref>, <abbr norm="Seite(n)">S.</abbr> 4–8, 29–59; <ref type="lit">Prot. GV NOB</ref>, 4. April 1878 (<abbr norm="Seite(n)">S.</abbr> 287); <ref type="lit">Geschäftsbericht
-						VR NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 12–18.</com> Durch Beschluss der Bundesversammlung von
+					zuzustimmen.<com xml:id="Rekonstruktion_Nordostbahn_c20">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 42–44, Beilage IV a (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 9–18); <ref type="lit">Bericht VR NOB Bauverpflichtungen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 4–8, 29–59; <ref type="lit">Prot. GV NOB</ref>, 4. April 1878 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 287); <ref type="lit">Geschäftsbericht
+						VR NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 12–18.</com> Durch Beschluss der Bundesversammlung von
 					Februar 1878 wurde über die fraglichen Linien ein Moratorium verhängt und die
-					Frist für ihre Erstellung um acht Jahre bis 1885 verlängert.<com id="Rekonstruktion_Nordostbahn_c21">Zu den
-						Moratoriumslinien <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Meyrat, Repertorium II</ref>, <abbr norm="Seite(n)">S.</abbr> 81, 84; <ref type="lit">Kessler,
-						Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 155–164; <ref type="lit">Brugger, Eisenbahnpolitik</ref>, <abbr norm="Seite(n)">S.</abbr> 131–158; <ref type="lit">Bauer,
-						Eisenbahnen</ref>, <abbr norm="Seite(n)">S.</abbr> 114; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <abbr norm="Seite(n)">S.</abbr> 58–60.</com>Nach einer
+					Frist für ihre Erstellung um acht Jahre bis 1885 verlängert.<com xml:id="Rekonstruktion_Nordostbahn_c21">Zu den
+						Moratoriumslinien <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Meyrat, Repertorium II</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 81, 84; <ref type="lit">Kessler,
+						Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 155–164; <ref type="lit">Brugger, Eisenbahnpolitik</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 131–158; <ref type="lit">Bauer,
+						Eisenbahnen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 114; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 58–60.</com>Nach einer
 					erneuten Verlängerung des Moratoriums eröffnete die Nordostbahn diese Linien,
-					deren Betriebslänge sich insgesamt auf rund 121 <abbr norm="Kilometer">km</abbr> belief, zwischen 1891 und
-					1897.<com id="Rekonstruktion_Nordostbahn_c22"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10013584">Bundesrathsbeschluß betreffend die Verpflichtungen der
+					deren Betriebslänge sich insgesamt auf rund 121 <choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice> belief, zwischen 1891 und
+					1897.<com xml:id="Rekonstruktion_Nordostbahn_c22">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10013584">Bundesrathsbeschluß betreffend die Verpflichtungen der
 						Nordostbahngesellschaft gegenüber den sogenannten Moratoriumslinien (vom 23.
-						Juni 1887), in: <ref type="lit">BBl</ref> 1887 III, S. 483–492</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10013968">Botschaft des Bundesrathes an die
+						Juni 1887), in: <ref type="lit">BBl</ref> 1887 III, S. 483–492</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10013968">Botschaft des Bundesrathes an die
 						Bundesversammlung, betreffend Fristverlängerung für die rechtsufrige
-						Zürichseebahn (vom 25. Mai 1888), in: <ref type="lit">BBl</ref> 1888 III, S. 199–220</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10014189">Botschaft
+						Zürichseebahn (vom 25. Mai 1888), in: <ref type="lit">BBl</ref> 1888 III, S. 199–220</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10014189">Botschaft
 						des Bundesrathes an die Bundesversammlung, betreffend Fristverlängerung für
 						die Eisenbahnen von Koblenz über Laufenburg nach Stein, von Etzweilen nach
 						Feuerthalen, bezw. Schaffhausen und von Bülach, bezw. Eglisau nach
 						Schaffhausen (sog. Moratoriumslinien der Nordostbahn) (vom 7. Dezember
-						1888), in: <ref type="lit">BBl</ref> 1888 IV, S. 1080–1085</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10014190">Botschaft des Bundesrathes an die
+						1888), in: <ref type="lit">BBl</ref> 1888 IV, S. 1080–1085</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10014190">Botschaft des Bundesrathes an die
 						Bundesversammlung betreffend Fristansetzung für die Eisenbahn
 						Dielsdorf–Niederweningen (vom 7. Dezember 1888), in: <ref type="lit">BBl</ref> 1888 IV, S.
-						1086–1088</ref>; <ref type="lit">Meyrat, Repertorium II</ref>, <abbr norm="Seite(n)">S.</abbr> 242, 246–247; <ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr>
-						186–197, 271–272; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <abbr norm="Seite(n)">S.</abbr> 58–60.</com> </p>
+						1086–1088</ref>; <ref type="lit">Meyrat, Repertorium II</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 242, 246–247; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
+						186–197, 271–272; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 58–60.</com> </p>
 			</div>
-			<div id="Rekonstruktion_Nordostbahn_d1.4">
+			<div xml:id="Rekonstruktion_Nordostbahn_d1.4">
 				<head>Finanzielle Reorganisationsprojekte</head>
-				<p id="Rekonstruktion_Nordostbahn_p10">Ausgehend von der im Februar 1877 aufgestellten Prämisse, dass die Nordostbahn zu
+				<p xml:id="Rekonstruktion_Nordostbahn_p10">Ausgehend von der im Februar 1877 aufgestellten Prämisse, dass die Nordostbahn zu
 					diesem Zeitpunkt nicht in der Lage sei, die für den Bau aller geplanten Linien
 					benötigten Geldmittel zu beschaffen, erarbeiteten der Verwaltungsrat
 					beziehungsweise die Reorganisationskommission im Lauf des Frühlings verschiedene
 					Finanzierungsprojekte, wie die nach dem Bauaufschub noch benötigten Gelder zu
 					beschaffen seien. Kern dieser Projekte war es, zugunsten der bereits emittierten Anleihen sowie einer noch zu
 					emittierenden Anleihe ein Pfandrecht auf das gesamte bestehende oder im Bau
-					befindliche Schienennetz der Gesellschaft zu errichten.<com id="Rekonstruktion_Nordostbahn_c23"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 49–57; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 32–38.</com> Um Bedenken bezüglich des Pfandrechts Rechnung zu tragen, schlug <idx type="person" norm="Stoll Georg">Stoll</idx>, Vizepräsident des Verwaltungsrates und führendes Mitglied der Reorganisationskommission, Ende Mai
+					befindliche Schienennetz der Gesellschaft zu errichten.<com xml:id="Rekonstruktion_Nordostbahn_c23">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 49–57; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 32–38.</com> Um Bedenken bezüglich des Pfandrechts Rechnung zu tragen, schlug <persName key="Stoll Georg">Stoll</persName>, Vizepräsident des Verwaltungsrates und führendes Mitglied der Reorganisationskommission, Ende Mai
 					ein angepasstes Finanzprogramm vor, welches – so Verwaltungsrats- und
-					Kommissionspräsident Escher – «die größte Aufmerksamkeit» verdiente.<com id="Rekonstruktion_Nordostbahn_c24"><ref type="letter" target="K_2992"><!--Brief
-						Escher an Esajas Zweifel, 30. Mai 1877 (LBGL N224)--></ref>. – Dabei handelte es sich wohl um das Finanzierungsprojekt, das der Generalversammlung der Nordostbahn vom <d norm="30.06.1877">30. Juni 1877</d> vorgestellt wurde. Dieses sah vor, ein Pfandrecht ersten und eines zweiten Ranges zu errichten. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 51–57; <ref type="lit">Prot. GV NOB</ref>, 30. Juni 1877 (<abbr norm="Seite(n)">S.</abbr> 235).</com> <idx type="person" norm="Stoll Georg">Stoll</idx> und Escher erwogen, den Finanzplatz <idx type="place" norm="Frankfurt am Main (D)">Frankfurt</idx> für die Rekonstruktion der Nordostbahn
-					einzubinden, setzten ihre Hoffnung aber zunächst auf <idx type="place" norm="Paris (F)">Paris</idx>, und Escher nahm
-					gegen Ende Juni 1877 mit Befriedigung zur Kenntnis, dass die Stimmung der <idx type="place" norm="Paris (F)">Pariser</idx>
-					Finanzkreise «eine für die <abbr norm="NordOstBahn">N.O.B.</abbr> günstige» war, was «unter den gegenwärtig in
-					<idx type="place" norm="Frankreich">Frankreich</idx> obwaltenden schwierigen Verhältnissen doppelt bemerkenswerth»
-						schien.<com id="Rekonstruktion_Nordostbahn_c25"><ref type="letter" target="K_3004"><!--Brief Escher an Georg Stoll, 25. Juni 1877 (ZB Ms Briefe)--></ref>.</com>
+					Kommissionspräsident Escher – «die größte Aufmerksamkeit» verdiente.<com xml:id="Rekonstruktion_Nordostbahn_c24"><!--Brief
+						Escher an Esajas Zweifel, 30. Mai 1877 (LBGL N224)-->. – Dabei handelte es sich wohl um das Finanzierungsprojekt, das der Generalversammlung der Nordostbahn vom <date when="1877-06-30">30. Juni 1877</date> vorgestellt wurde. Dieses sah vor, ein Pfandrecht ersten und eines zweiten Ranges zu errichten. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 51–57; <ref type="lit">Prot. GV NOB</ref>, 30. Juni 1877 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 235).</com> <persName key="Stoll Georg">Stoll</persName> und Escher erwogen, den Finanzplatz <placeName key="Frankfurt am Main (D)">Frankfurt</placeName> für die Rekonstruktion der Nordostbahn
+					einzubinden, setzten ihre Hoffnung aber zunächst auf <placeName key="Paris (F)">Paris</placeName>, und Escher nahm
+					gegen Ende Juni 1877 mit Befriedigung zur Kenntnis, dass die Stimmung der <placeName key="Paris (F)">Pariser</placeName>
+					Finanzkreise «eine für die <choice>
+                            <abbr>N.O.B.</abbr>
+                            <expan>NordOstBahn</expan>
+                        </choice> günstige» war, was «unter den gegenwärtig in
+					<placeName key="Frankreich">Frankreich</placeName> obwaltenden schwierigen Verhältnissen doppelt bemerkenswerth»
+						schien.<com xml:id="Rekonstruktion_Nordostbahn_c25"><!--Brief Escher an Georg Stoll, 25. Juni 1877 (ZB Ms Briefe)-->.</com>
 					Die noch nicht geklärte Moratoriumsfrage liess jedoch weder an der
 					Generalversammlung Ende Juni 1877 noch in den folgenden Monaten einen Entscheid
 					über das finanzielle Reorganisationsprogramm zu, und verschiedene Finanzkreise,
@@ -294,112 +646,294 @@
 					Verhältnisse waren noch nicht gegeben. Escher befand zwar Ende August, es
 					scheine ihm «ungemein wünschbar &amp; hoch an der Zeit zu sein», dass
 					Reorganisations- und Aktionärskommission sich auf ein Programm einigten und «zur
-					Verwirklichung desselben alle Hebel in Bewegung setzen».<com id="Rekonstruktion_Nordostbahn_c26"><ref type="letter" target="K_3024"><!--Brief Escher an
-						Georg Stoll, 27. August 1877 (ZB Ms Briefe)--></ref>.</com> Auch <idx type="person" norm="Stoll Georg">Stoll</idx> hielt es für dringend angezeigt, die Regelung der Nordostbahn-Finanzen voranzubringen, befand aber angesichts des schleppenden und komplizierten Geschäftsgangs:<ref type="letter" target="K_3032"><!---> Nr. x [K_3032; Stoll an Escher,
-						05.09.1877]--></ref> «Es ist manchmal geradezu zum Verzweifeln.»</p>
-				<p id="Rekonstruktion_Nordostbahn_p11">Angesichts der schleppenden Entwicklung kam die Nordostbahn nicht darum herum,
+					Verwirklichung desselben alle Hebel in Bewegung setzen».<com xml:id="Rekonstruktion_Nordostbahn_c26"><!--Brief Escher an
+						Georg Stoll, 27. August 1877 (ZB Ms Briefe)-->.</com> Auch <persName key="Stoll Georg">Stoll</persName> hielt es für dringend angezeigt, die Regelung der Nordostbahn-Finanzen voranzubringen, befand aber angesichts des schleppenden und komplizierten Geschäftsgangs:<!---> Nr. x [K_3032; Stoll an Escher,
+						05.09.1877]--> «Es ist manchmal geradezu zum Verzweifeln.»</p>
+				<p xml:id="Rekonstruktion_Nordostbahn_p11">Angesichts der schleppenden Entwicklung kam die Nordostbahn nicht darum herum,
 					dringend benötigte Gelder für offene Verpflichtungen (schwebende Schulden und
 					laufende Bauprojekte) auf dem Weg einer Übergangslösung zu beschaffen. Zu diesem
-					Zweck wurde am <d norm="08.09.1877">8. September 1877</d> mit einem aus der Schweizerischen
-					Kreditanstalt, der Bank in <idx type="place" norm="Winterthur">Winterthur</idx> und der <idx type="place" norm="Aargau">Aargauischen</idx> Bank bestehenden
-					Konsortium ein Vertrag abgeschlossen<ref type="letter" target="K_3032"><!---> Nr. x
-						[K_3032; Stoll an Escher, 05.09.1877]--></ref>, wonach dieses Obligationen der
-					Nordostbahn im Nominalwert von 19 <abbr norm="Million(en)">Mio.</abbr> Franken erwarb und ihr dafür rund
-					13 <abbr norm="Million(en)">Mio.</abbr> Franken bezahlte.<com id="Rekonstruktion_Nordostbahn_c27"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 38–40; <ref type="lit">Geschäftsbericht NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 8–9;
-						<ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 86–87; <ref type="lit">Jöhr, SKA</ref>, <abbr norm="Seite(n)">S.</abbr> 104–105.</com> Noch immer aber
+					Zweck wurde am <date when="1877-09-08">8. September 1877</date> mit einem aus der Schweizerischen
+					Kreditanstalt, der Bank in <placeName key="Winterthur">Winterthur</placeName> und der <placeName key="Aargau">Aargauischen</placeName> Bank bestehenden
+					Konsortium ein Vertrag abgeschlossen<!---> Nr. x
+						[K_3032; Stoll an Escher, 05.09.1877]-->, wonach dieses Obligationen der
+					Nordostbahn im Nominalwert von 19 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken erwarb und ihr dafür rund
+					13 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken bezahlte.<com xml:id="Rekonstruktion_Nordostbahn_c27">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 38–40; <ref type="lit">Geschäftsbericht NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 8–9;
+						<ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 86–87; <ref type="lit">Jöhr, SKA</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 104–105.</com> Noch immer aber
 					herrschte in manchen <pb n="49"/>Kreisen beträchtliche Skepsis gegenüber dem Gelingen der finanziellen
-					Rekonstruktion; so schrieb <idx type="person" norm="Feer-Herzog Carl">Carl Feer-Herzog</idx>, Verwaltungsratspräsident der
+					Rekonstruktion; so schrieb <persName key="Feer-Herzog Carl">Carl Feer-Herzog</persName>, Verwaltungsratspräsident der
 					Gotthardbahn, Ende September 1877 an Escher: «Ich habe den lebhaften Wunsch daß
-					das interimistische Rekonstruktionsprojekt der <abbr norm="NordOstBahn">N.O.B.</abbr> gelingen möchte; leider
-					mehr Wunsch als Hoffnung. Die <idx type="place" norm="Frankreich">französischen</idx> Zustände verschlimmern sich der Art
-					daß eine durchgreifende Operation im Sinne von <idx type="person" norm="Hentsch Edouard">Hentsch</idx> gegenwärtig unmöglich
-						würde.»<com id="Rekonstruktion_Nordostbahn_c28"><ref type="letter" target="K_3055"><!--Brief Carl Feer-Herzog an Escher, 23. September 1877 (BAR J
-						I.67-8)--></ref>.</com> </p>
-				<p id="Rekonstruktion_Nordostbahn_p12">Mit der Vereinbarung vom <d norm="08.09.1877">8. September 1877</d> war der Geldbedarf bis Mitte 1878
+					das interimistische Rekonstruktionsprojekt der <choice>
+                            <abbr>N.O.B.</abbr>
+                            <expan>NordOstBahn</expan>
+                        </choice> gelingen möchte; leider
+					mehr Wunsch als Hoffnung. Die <placeName key="Frankreich">französischen</placeName> Zustände verschlimmern sich der Art
+					daß eine durchgreifende Operation im Sinne von <persName key="Hentsch Edouard">Hentsch</persName> gegenwärtig unmöglich
+						würde.»<com xml:id="Rekonstruktion_Nordostbahn_c28"><!--Brief Carl Feer-Herzog an Escher, 23. September 1877 (BAR J
+						I.67-8)-->.</com> </p>
+				<p xml:id="Rekonstruktion_Nordostbahn_p12">Mit der Vereinbarung vom <date when="1877-09-08">8. September 1877</date> war der Geldbedarf bis Mitte 1878
 					gedeckt, und dank dem Moratoriumsentscheid waren die für die nächsten Jahre zu
 					erwartenden Ausgaben beträchtlich reduziert. Damit konnte die Nordostbahn nun
 					die definitive finanzielle Rekonstruktion an die Hand nehmen. Die
 					Kreditwürdigkeit der Gesellschaft und das Vertrauen in ihre Wirtschaftlichkeit
 					boten indes wenig Hoffnung, die erforderlichen Gelder durch Ausgabe eigener
-					Wertpapiere auf dem Kapitalmarkt zu erhalten. Auf Anregung der <idx type="place" norm="Paris (F)">Pariser</idx>
-					Finanzgruppe um das Comptoir d'Escompte unter <idx type="person" norm="Hentsch Edouard">Edouard Hentsch</idx> errichtete sie in
+					Wertpapiere auf dem Kapitalmarkt zu erhalten. Auf Anregung der <placeName key="Paris (F)">Pariser</placeName>
+					Finanzgruppe um das Comptoir d'Escompte unter <persName key="Hentsch Edouard">Edouard Hentsch</persName> errichtete sie in
 					Zusammenarbeit mit einem Bankenkonsortium, bestehend unter anderem aus der
-					Schweizerischen Kreditanstalt, <idx type="place" norm="Basel-Stadt">Basler</idx> Bankhäusern und den <idx type="place" norm="Paris (F)">Pariser</idx> Banken, die
+					Schweizerischen Kreditanstalt, <placeName key="Basel-Stadt">Basler</placeName> Bankhäusern und den <placeName key="Paris (F)">Pariser</placeName> Banken, die
 					Schweizerische Eisenbahnbank, deren Sitz als Zeichen ihrer Unabhängigkeit in
-					<idx type="place" norm="Basel-Stadt">Basel</idx> war und an deren Spitze der bisherige Centralbahn-Direktor <idx type="person" norm="Speiser William">William Speiser</idx>
-					installiert wurde.<com id="Rekonstruktion_Nordostbahn_c29"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Baumann, Krisenbewältigung</ref>, <abbr norm="Seite(n)">S.</abbr> 34.</com> Die
-					Eisenbahnbank übernahm von der Nordostbahn Wertschriften im Wert von 68 <abbr norm="Million(en)">Mio.</abbr>
-					Franken, wofür die Nordostbahn 54 <abbr norm="Million(en)">Mio.</abbr> Franken erhielt. Die Übereinkunft zur
-					Gründung der Eisenbahnbank wurde am <d norm="11.03.1878">11. März 1878</d> abgeschlossen und von der
-					Generalversammlung der Nordostbahn am <d norm="04.04.1878">4. April</d> ratifiziert. Als Garantieleistung
+					<placeName key="Basel-Stadt">Basel</placeName> war und an deren Spitze der bisherige Centralbahn-Direktor <persName key="Speiser William">William Speiser</persName>
+					installiert wurde.<com xml:id="Rekonstruktion_Nordostbahn_c29">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Baumann, Krisenbewältigung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 34.</com> Die
+					Eisenbahnbank übernahm von der Nordostbahn Wertschriften im Wert von 68 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice>
+					Franken, wofür die Nordostbahn 54 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken erhielt. Die Übereinkunft zur
+					Gründung der Eisenbahnbank wurde am <date when="1878-03-11">11. März 1878</date> abgeschlossen und von der
+					Generalversammlung der Nordostbahn am <date when="1878-04-04">4. April</date> ratifiziert. Als Garantieleistung
 					errichtete die Nordostbahn auf ihr gesamtes Schienennetz eine Hypothek im Wert
-					von 160 <abbr norm="Million(en)">Mio.</abbr> Franken. Da diese Verpfändung vor Bundesgericht angefochten wurde,
-					verzögerte sich der definitive Abschluss des Abkommens, bis am <d norm="10.12.1878">10. Dezember 1878</d>
+					von 160 <choice>
+                            <abbr>Mio.</abbr>
+                            <expan>Million(en)</expan>
+                        </choice> Franken. Da diese Verpfändung vor Bundesgericht angefochten wurde,
+					verzögerte sich der definitive Abschluss des Abkommens, bis am <date when="1878-12-10">10. Dezember 1878</date>
 					ein leicht modifizierter Vertrag vereinbart und von der Generalversammlung der
-					Nordostbahn am <d norm="21.12.1878">21. Dezember</d> angenommen werden konnte. Nach dem erfolgreichen
+					Nordostbahn am <date when="1878-12-21">21. Dezember</date> angenommen werden konnte. Nach dem erfolgreichen
 					Abschluss des Vertrags mit der Eisenbahnbank hielt der Verwaltungsrat in seinem
 					Geschäftsbericht fest: «Das Ziel darf nun als erreicht bezeichnet werden,
 					welches unsere Gesellschaft während voller zwei Jahre im Kampfe mit
-					Schwierigkeiten aller Art anzustreben bemüht war.»<com id="Rekonstruktion_Nordostbahn_c30"><ref type="lit">Geschäftsbericht VR NOB</ref>
-						1878, <abbr norm="Seite(n)">S.</abbr> 11.</com> <idx type="person" norm="Stoll Georg">Stoll</idx> als Direktor der Kreditanstalt wurde einer von zwei
-					Vizepräsidenten des Verwaltungsrats der Eisenbahnbank.<com id="Rekonstruktion_Nordostbahn_c31"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Baumann,
-						Krisenbewältigung</ref>, <abbr norm="Seite(n)">S.</abbr> 34.</com> Die Kreditanstalt, mit Direktor <idx type="person" norm="Stoll Georg">Stoll</idx> und
+					Schwierigkeiten aller Art anzustreben bemüht war.»<com xml:id="Rekonstruktion_Nordostbahn_c30">
+                            <ref type="lit">Geschäftsbericht VR NOB</ref>
+						1878, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 11.</com> <persName key="Stoll Georg">Stoll</persName> als Direktor der Kreditanstalt wurde einer von zwei
+					Vizepräsidenten des Verwaltungsrats der Eisenbahnbank.<com xml:id="Rekonstruktion_Nordostbahn_c31">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Baumann,
+						Krisenbewältigung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 34.</com> Die Kreditanstalt, mit Direktor <persName key="Stoll Georg">Stoll</persName> und
 					Verwaltungsratspräsident Escher an der Spitze, war bei der Gründung der
 					Eisenbahnbank sogleich an einer Beteiligung interessiert gewesen, während andere
-					Banken eher zögerten.<com id="Rekonstruktion_Nordostbahn_c32"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Baumann, Krisenbewältigung</ref>, <abbr norm="Seite(n)">S.</abbr> 33; <ref type="lit">Jöhr, SKA</ref>, <abbr norm="Seite(n)">S.</abbr>
+					Banken eher zögerten.<com xml:id="Rekonstruktion_Nordostbahn_c32">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Baumann, Krisenbewältigung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 33; <ref type="lit">Jöhr, SKA</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice>
 						105.</com> Die Errichtung der Eisenbahnbank erwies sich als Erfolg. Nach der
-					finanziellen Konsolidierung der Nordostbahn wurde die Bank per <d norm="31.12.1885">31. Dezember 1885</d> aufgelöst und trat anschliessend in Liquidation.<com id="Rekonstruktion_Nordostbahn_c33">Zur Schweizerischen Eisenbahnbank <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Prot. GV NOB</ref>, 4. April 1878 (<abbr norm="Seite(n)">S.</abbr> 278–282); <ref type="lit">VR NOB, Antrag an GV 4. April 1878 finanzielle Rekonstruktion</ref>; <ref type="lit">VR NOB, Antrag an GV 4. April 1878 Hypothek</ref>; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 40–50; <ref type="lit">Geschäftsbericht VR NOB</ref> 1878, <abbr norm="Seite(n)">S.</abbr> 9–11; <ref type="lit">Geschäftsbericht NOB</ref> 1878, <abbr norm="Seite(n)">S.</abbr> 11–19; <ref type="lit">Banque des chemins de fer Suisse, Rapport</ref> 1879–1885/86; <ref type="lit">Speiser, Bahnen und
-						Banken</ref>, <abbr norm="Seite(n)">S.</abbr> 174–188; <ref type="lit">Bouvier, Crise</ref>, <abbr norm="Seite(n)">S.</abbr> 467–470; <ref type="lit">Benz, Financement</ref>, <abbr norm="Seite(n)">S.</abbr> 180–184; <ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 87–90;
-						<ref type="lit">Baumann, Krisenbewältigung</ref>, <abbr norm="Seite(n)">S.</abbr> 33–36; <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 543.</com> </p>
+					finanziellen Konsolidierung der Nordostbahn wurde die Bank per <date when="1885-12-31">31. Dezember 1885</date> aufgelöst und trat anschliessend in Liquidation.<com xml:id="Rekonstruktion_Nordostbahn_c33">Zur Schweizerischen Eisenbahnbank <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Prot. GV NOB</ref>, 4. April 1878 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 278–282); <ref type="lit">VR NOB, Antrag an GV 4. April 1878 finanzielle Rekonstruktion</ref>; <ref type="lit">VR NOB, Antrag an GV 4. April 1878 Hypothek</ref>; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 40–50; <ref type="lit">Geschäftsbericht VR NOB</ref> 1878, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 9–11; <ref type="lit">Geschäftsbericht NOB</ref> 1878, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 11–19; <ref type="lit">Banque des chemins de fer Suisse, Rapport</ref> 1879–1885/86; <ref type="lit">Speiser, Bahnen und
+						Banken</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 174–188; <ref type="lit">Bouvier, Crise</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 467–470; <ref type="lit">Benz, Financement</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 180–184; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 87–90;
+						<ref type="lit">Baumann, Krisenbewältigung</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 33–36; <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 543.</com> </p>
 			</div>
-			<div id="Rekonstruktion_Nordostbahn_d1.5">
+			<div xml:id="Rekonstruktion_Nordostbahn_d1.5">
 				<head>Die Reorganisation des Betriebs durch Jules Coutin</head>
-				<p id="Rekonstruktion_Nordostbahn_p13">Bereits im Spätherbst 1875 hatte das Comptoir d'Escompte in <idx type="place" norm="Paris (F)">Paris</idx> vor dem Abschluss
+				<p xml:id="Rekonstruktion_Nordostbahn_p13">Bereits im Spätherbst 1875 hatte das Comptoir d'Escompte in <placeName key="Paris (F)">Paris</placeName> vor dem Abschluss
 					eines Finanzvertrags die Bedingung aufgestellt, eine Untersuchung der
 					Verhältnisse der Nordostbahn durch einen eigenen Experten anstellen zu lassen –
 					ein Vorgang, dem sich gleichzeitig auch die Centralbahn unterziehen
-					musste.<com id="Rekonstruktion_Nordostbahn_c34"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 42; <ref type="lit">Speiser, Bahnen und Banken</ref>, <abbr norm="Seite(n)">S.</abbr> 158–161; <ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 80.</com> <idx type="person" norm="Coutin Jules">Jules Coutin</idx>,
+					musste.<com xml:id="Rekonstruktion_Nordostbahn_c34">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 42; <ref type="lit">Speiser, Bahnen und Banken</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 158–161; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 80.</com> <persName key="Coutin Jules">Jules Coutin</persName>,
 					General-Betriebsinspektor der französischen Westbahnen, bereiste zu diesem
 					Zweck die Linien der Bahn und sprach sich in seinem Gutachten vom März 1876 aufgrund seiner
 					grundsätzlich positiven Eindrücke empfehlend aus, machte aber auch einige
 					Vorbehalte: Die Gesellschaft sollte das Baukonto des Stammnetzes schliessen, auf
 					einige der geplanten Bauten verzichten und bedeutende Einspa<pb n="50"/>rungen bei ihren
-					Betriebsausgaben erzielen.<com id="Rekonstruktion_Nordostbahn_c35"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Coutin, Etude</ref>, <abbr norm="Seite(n)">S.</abbr> 47–53. – <idx type="person" norm="Coutin Jules">Coutin</idx> empfahl
-						namentlich den Verzicht auf die Linien <idx type="place" norm="Thalwil">Thalwil</idx>–<idx type="place" norm="Zug (Stadt)">Zug</idx> und
-						<idx type="place" norm="Etzwilen (Wagenhausen)">Etzwilen</idx>–<idx type="place" norm="Schaffhausen (Stadt)">Schaffhausen</idx>. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Coutin, Etude</ref>, <abbr norm="Seite(n)">S.</abbr> 46, 52.</com> Bereits im
+					Betriebsausgaben erzielen.<com xml:id="Rekonstruktion_Nordostbahn_c35">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Coutin, Etude</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 47–53. – <persName key="Coutin Jules">Coutin</persName> empfahl
+						namentlich den Verzicht auf die Linien <placeName key="Thalwil">Thalwil</placeName>–<placeName key="Zug (Stadt)">Zug</placeName> und
+						<placeName key="Etzwilen (Wagenhausen)">Etzwilen</placeName>–<placeName key="Schaffhausen (Stadt)">Schaffhausen</placeName>. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Coutin, Etude</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 46, 52.</com> Bereits im
 					Betriebsjahr 1876 hatte die Direktion erfolgreich Massnahmen zur Reduktion der
-					Betriebsausgaben ergriffen, wie ihr der Verwaltungsrat zugute hielt.<com id="Rekonstruktion_Nordostbahn_c36"><abbr norm="Vergleiche">Vgl.</abbr>
-						<ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 45; <ref type="lit">Bericht Dir. NOB an GV [30.
-						Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 58, Beilage IV.</com> <idx type="person" norm="Stoll Georg">Stoll</idx>, der Vizepräsident des
+					Betriebsausgaben ergriffen, wie ihr der Verwaltungsrat zugute hielt.<com xml:id="Rekonstruktion_Nordostbahn_c36">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice>
+						<ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 45; <ref type="lit">Bericht Dir. NOB an GV [30.
+						Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 58, Beilage IV.</com> <persName key="Stoll Georg">Stoll</persName>, der Vizepräsident des
 					Verwaltungsrates, hielt in seinem Bericht über die Betriebsverhältnisse der
 					Bahn, den er im Februar 1877 als Teil des Berichts der Reorganisationskommission
 					verfasste, eine Reihe von Einsparungsmöglichkeiten im Betrieb fest. In der
-					Sitzung des Verwaltungsrates vom <d norm="26.02.1877">26. Februar 1877</d> ermächtigte dieser seine
+					Sitzung des Verwaltungsrates vom <date when="1877-02-26">26. Februar 1877</date> ermächtigte dieser seine
 					Reorganisationskommission bei Vorlegung ihres Berichtes, «einen Fachmann zur
 					Untersuchung der Betriebsverhältnisse der Unternehmung beizuziehen und denselben
 					mit der Aufgabe zu betrauen, Vorschläge zur Erzielung von Ersparnissen und
 					Verbesserungen im Betriebsdienste zu machen und sich bei der Durchführung
-					derselben, so lange das erforderlich scheint, zu bethätigen».<com id="Rekonstruktion_Nordostbahn_c37"><ref type="lit">NZZ</ref>, 27.
-						Februar 1877.</com> <idx type="person" norm="Stoll Georg">Stoll</idx> wurde offenbar aufgefordert – mit ‹plein pouvoir›
+					derselben, so lange das erforderlich scheint, zu bethätigen».<com xml:id="Rekonstruktion_Nordostbahn_c37">
+                            <ref type="lit">NZZ</ref>, 27.
+						Februar 1877.</com> <persName key="Stoll Georg">Stoll</persName> wurde offenbar aufgefordert – mit ‹plein pouvoir›
 					ausgestattet –, die finanzielle Rekonstruktion der Nordostbahn zu unternehmen,
 					lehnte aber ab, da aus seiner Sicht eine aussenstehende Person diese Aufgabe
-					übernehmen sollte.<com id="Rekonstruktion_Nordostbahn_c38"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Stoll, Stoll</ref>, <abbr norm="Seite(n)">S.</abbr> 44.</com> Die Reorganisationskommission
-					benötigte dann nicht lange, um <idx type="person" norm="Coutin Jules">Coutin</idx> als den geeignetsten Kandidaten zu
+					übernehmen sollte.<com xml:id="Rekonstruktion_Nordostbahn_c38">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Stoll, Stoll</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 44.</com> Die Reorganisationskommission
+					benötigte dann nicht lange, um <persName key="Coutin Jules">Coutin</persName> als den geeignetsten Kandidaten zu
 					bezeichnen. Verwaltungsratspräsident Escher unterbreitete diesem namens der
 					Kommission den Vorschlag zur Übernahme der Aufgabe, den Betrieb der Nordostbahn
-					zu reorganisieren. Bereits am <d norm="04.03.1877">4. März</d> sprach <idx type="person" norm="Coutin Jules">Coutin</idx> in <idx type="place" norm="Paris (F)">Paris</idx> beim Schweizer
-					Gesandten <idx type="person" norm="Kern Johann Konrad">Johann Konrad Kern</idx> vor<ref type="letter" target="K_2934"><!---> Nr. x
-						[K_2934, Johann Konrad Kern an Escher, 5.03.1877]--></ref>, um ihn um nähere
+					zu reorganisieren. Bereits am <date when="1877-03-04">4. März</date> sprach <persName key="Coutin Jules">Coutin</persName> in <placeName key="Paris (F)">Paris</placeName> beim Schweizer
+					Gesandten <persName key="Kern Johann Konrad">Johann Konrad Kern</persName> vor<!---> Nr. x
+						[K_2934, Johann Konrad Kern an Escher, 5.03.1877]-->, um ihn um nähere
 					Auskünfte zu bitten und damit dieser ihn bei Escher «mit einigen Worten
-					empfehlend» einführen möge. Am <d norm="24.03.1877">24. März</d> schloss der Verwaltungsrat mit <idx type="person" norm="Coutin Jules">Coutin</idx> eine Übereinkunft ab, die am <d norm="01.04.1877">1. April 1877</d> in Kraft trat.<com id="Rekonstruktion_Nordostbahn_c39"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 45–49, Beilage VI.</com> Bis 1879 wirkte <idx type="person" norm="Coutin Jules">Coutin</idx> als Delegierter der Direktion für den Betrieb und erzielte durch verschiedene Massnahmen eine erhebliche Senkung der Betriebsausgaben. So ermöglichte ein reduziertes und besser organisiertes Fahrplanangebot sowohl einen Stellenabbau beim Fahr- und Werkstättenpersonal und entsprechende Einsparungen bei den Lohnkosten als auch eine Verminderung der Ausgaben für den Rollmaterialunterhalt.<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p9"><!--34--></ref> Zugleich versuchten Direktion und Verwaltungsrat, auf dem Weg einer Anhebung der Tarife, etwa jener für Abonnemente und Rückfahrkarten, Einnahmenerhöhungen zu erzielen.<com id="Rekonstruktion_Nordostbahn_c40">Zur Rekonstruktion des Betriebs der Nordostbahn <abbr norm="vergleiche">vgl.</abbr> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 45–49, Beilage II; <ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 58–59, Beilage IV; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 6–9; <ref type="lit">Geschäftsbericht VR NOB</ref> 1878, <abbr norm="Seite(n)">S.</abbr> 12–13; <ref type="lit">Geschäftsbericht VR NOB</ref> 1879, <abbr norm="Seite(n)">S.</abbr> 17–19; <ref type="lit">Geschäftsbericht NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 27–34; <ref type="lit">Geschäftsbericht NOB</ref> 1878, <abbr norm="Seite(n)">S.</abbr> 35–43; <ref type="lit">Geschäftsbericht NOB</ref> 1879, <abbr norm="Seite(n)">S.</abbr> 57–63; <ref type="lit">Coutin, Etude</ref>; <ref type="lit">Geiser, Krisis</ref>, <abbr norm="Seite(n)">S.</abbr> 25–33; <ref type="lit">Kessler, Nordostbahn</ref>, <abbr norm="Seite(n)">S.</abbr> 132–151; <ref type="lit">Jung,
-						Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 543–545.</com> Mit diesen Einsparungen war eine weitere
+					empfehlend» einführen möge. Am <date when="1877-03-24">24. März</date> schloss der Verwaltungsrat mit <persName key="Coutin Jules">Coutin</persName> eine Übereinkunft ab, die am <date when="1877-04-01">1. April 1877</date> in Kraft trat.<com xml:id="Rekonstruktion_Nordostbahn_c39">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 45–49, Beilage VI.</com> Bis 1879 wirkte <persName key="Coutin Jules">Coutin</persName> als Delegierter der Direktion für den Betrieb und erzielte durch verschiedene Massnahmen eine erhebliche Senkung der Betriebsausgaben. So ermöglichte ein reduziertes und besser organisiertes Fahrplanangebot sowohl einen Stellenabbau beim Fahr- und Werkstättenpersonal und entsprechende Einsparungen bei den Lohnkosten als auch eine Verminderung der Ausgaben für den Rollmaterialunterhalt.<ref type="sum" target="Eisenbahngesellschaften_in_der_Krise_p9"><!--34--></ref> Zugleich versuchten Direktion und Verwaltungsrat, auf dem Weg einer Anhebung der Tarife, etwa jener für Abonnemente und Rückfahrkarten, Einnahmenerhöhungen zu erzielen.<com xml:id="Rekonstruktion_Nordostbahn_c40">Zur Rekonstruktion des Betriebs der Nordostbahn <choice>
+                                <abbr>vgl.</abbr>
+                                <expan>vergleiche</expan>
+                            </choice> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 45–49, Beilage II; <ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 58–59, Beilage IV; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 6–9; <ref type="lit">Geschäftsbericht VR NOB</ref> 1878, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 12–13; <ref type="lit">Geschäftsbericht VR NOB</ref> 1879, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 17–19; <ref type="lit">Geschäftsbericht NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 27–34; <ref type="lit">Geschäftsbericht NOB</ref> 1878, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 35–43; <ref type="lit">Geschäftsbericht NOB</ref> 1879, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 57–63; <ref type="lit">Coutin, Etude</ref>; <ref type="lit">Geiser, Krisis</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 25–33; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 132–151; <ref type="lit">Jung,
+						Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 543–545.</com> Mit diesen Einsparungen war eine weitere
 					Forderung der Reorganisationskommission – neben der Bautensistierung und der
 					definitiven finanziellen Rekonstruktion – erfüllt.</p>
 			</div>
-			<div id="Rekonstruktion_Nordostbahn_d1.6">
+			<div xml:id="Rekonstruktion_Nordostbahn_d1.6">
 				<head>Die personelle und organisatorische Reorganisation der
 					Gesellschaftsbehörden</head>
-				<p id="Rekonstruktion_Nordostbahn_p14">Zu den Arbeiten der Reorganisationskommission des Verwaltungsrats gehörte
+				<p xml:id="Rekonstruktion_Nordostbahn_p14">Zu den Arbeiten der Reorganisationskommission des Verwaltungsrats gehörte
 					schliesslich die Ausarbeitung neuer Gesellschaftsstatuten. Der Entwurf wurde der
 					Generalversammlung von Juni 1877 präsentiert, überarbeitet und von der
 					Generalversammlung im Oktober 1877 abgesegnet. Kernpunkte waren Anpassungen
@@ -411,37 +945,89 @@
 					Grundgedanke, der Direktion das Hauptgewicht der Leitung des Unternehmens zu
 					überlassen, sei zwar überzeugend, «wenn die Personen, die zu seiner
 					Verwirklichung berufen sind, in vollem Umfange auf der Höhe ihrer Aufgabe
-					stehen», schien nun aber nicht mehr zweckmässig.<com id="Rekonstruktion_Nordostbahn_c41"><ref type="lit">Bericht VR NOB an GV [30.
-						Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 58. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <abbr norm="Seite(n)">S.</abbr> 4–6, 35, 57–62,
-						Beilage 4; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <abbr norm="Seite(n)">S.</abbr> 27–32; <ref type="lit">Prot. GV NOB</ref>, 10. Oktober 1877 (<abbr norm="Seite(n)">S.</abbr> 245–264).</com> </p>
-				<p id="Rekonstruktion_Nordostbahn_p15">Auch auf personeller Ebene ergaben sich Änderungen in den Gesellschaftsbehörden.
-					Bis 1877 bestand die Direktion der Nordostbahn aus dem Präsidenten <idx type="person" norm="Peyer im Hof Johann Friedrich">Johann Friedrich Peyer im
-						Hof</idx>, Vizepräsident <idx type="person" norm="Escher (vom Glas) Eugen">Eugen Escher</idx>, <idx type="person" norm="Häberlin Eduard">Eduard Häberlin</idx>, <idx type="person" norm="Weiss Emil">Emil Weiss</idx> und <idx type="person" norm="Peter-Hüni Rudolf">Rudolf
-					Peter-Hüni</idx>. Der <pb n="51"/>Verwaltungsrat wurde geleitet von Alfred Escher als Präsident
-					und <idx type="person" norm="Stoll Georg">Stoll</idx> als Vizepräsident. Die nicht mehr tragbaren Direktoren <idx type="person" norm="Peyer im Hof Johann Friedrich">Peyer im Hof</idx> und <idx type="person" norm="Häberlin Eduard">Häberlin</idx> traten 1877 von ihren Positionen
-					zurück.<com id="Rekonstruktion_Nordostbahn_c42"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Jung, Aufbruch</ref>, <abbr norm="Seite(n)">S.</abbr> 542–543.</com> Auch <idx type="person" norm="Escher (vom Glas) Eugen">Eugen Escher</idx> sowie
-					der gesamte Verwaltungsrat stellten an der Generalversammlung vom <d norm="30.06.1877">30. Juni 1877</d>
+					stehen», schien nun aber nicht mehr zweckmässig.<com xml:id="Rekonstruktion_Nordostbahn_c41">
+                            <ref type="lit">Bericht VR NOB an GV [30.
+						Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 58. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 4–6, 35, 57–62,
+						Beilage 4; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 27–32; <ref type="lit">Prot. GV NOB</ref>, 10. Oktober 1877 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 245–264).</com> </p>
+				<p xml:id="Rekonstruktion_Nordostbahn_p15">Auch auf personeller Ebene ergaben sich Änderungen in den Gesellschaftsbehörden.
+					Bis 1877 bestand die Direktion der Nordostbahn aus dem Präsidenten <persName key="Peyer im Hof Johann Friedrich">Johann Friedrich Peyer im
+						Hof</persName>, Vizepräsident <persName key="Escher (vom Glas) Eugen">Eugen Escher</persName>, <persName key="Häberlin Eduard">Eduard Häberlin</persName>, <persName key="Weiss Emil">Emil Weiss</persName> und <persName key="Peter-Hüni Rudolf">Rudolf
+					Peter-Hüni</persName>. Der <pb n="51"/>Verwaltungsrat wurde geleitet von Alfred Escher als Präsident
+					und <persName key="Stoll Georg">Stoll</persName> als Vizepräsident. Die nicht mehr tragbaren Direktoren <persName key="Peyer im Hof Johann Friedrich">Peyer im Hof</persName> und <persName key="Häberlin Eduard">Häberlin</persName> traten 1877 von ihren Positionen
+					zurück.<com xml:id="Rekonstruktion_Nordostbahn_c42">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 542–543.</com> Auch <persName key="Escher (vom Glas) Eugen">Eugen Escher</persName> sowie
+					der gesamte Verwaltungsrat stellten an der Generalversammlung vom <date when="1877-06-30">30. Juni 1877</date>
 					ihre Mandate zur Verfügung, was von der Versammlung indes bis zur Verabschiedung
 					neuer Statuten verschoben wurde. Die Neuwahl der Gesellschaftsgremien fand an
-					der Generalversammlung vom <d norm="04.04.1878">4. April 1878</d> statt. Die Mehrheit des Verwaltungsrats
-					mit Alfred Escher und <idx type="person" norm="Stoll Georg">Stoll</idx> wurde bestätigt, während von den alten Direktoren
-					einzig <idx type="person" norm="Escher (vom Glas) Eugen">Eugen Escher</idx> wiedergewählt wurde. Alfred Escher wurde erneut zum
-					Präsidenten des Verwaltungsrats gewählt.<com id="Rekonstruktion_Nordostbahn_c43"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Prot. GV NOB</ref>, 30. Juni 1877
-						(<abbr norm="Seite(n)">S.</abbr> 236–238), 4. April 1878 (<abbr norm="Seite(n)">S.</abbr> 282–284, 288–292).</com> Während der Krise
-					hatten manche Kritiker versucht, Escher und <idx type="person" norm="Stoll Georg">Stoll</idx>, als leitende Personen des
+					der Generalversammlung vom <date when="1878-04-04">4. April 1878</date> statt. Die Mehrheit des Verwaltungsrats
+					mit Alfred Escher und <persName key="Stoll Georg">Stoll</persName> wurde bestätigt, während von den alten Direktoren
+					einzig <persName key="Escher (vom Glas) Eugen">Eugen Escher</persName> wiedergewählt wurde. Alfred Escher wurde erneut zum
+					Präsidenten des Verwaltungsrats gewählt.<com xml:id="Rekonstruktion_Nordostbahn_c43">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. GV NOB</ref>, 30. Juni 1877
+						(<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 236–238), 4. April 1878 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 282–284, 288–292).</com> Während der Krise
+					hatten manche Kritiker versucht, Escher und <persName key="Stoll Georg">Stoll</persName>, als leitende Personen des
 					Verwaltungsrats und ehemalige Direktoren des Unternehmens, einen wesentlichen
-					Teil der Schuld zuzuweisen.<com id="Rekonstruktion_Nordostbahn_c44"><abbr norm="Vergleiche">Vgl.</abbr> beispielhaft <ref type="lit">Memminger, NOB</ref>; <ref type="lit">Memminger,
+					Teil der Schuld zuzuweisen.<com xml:id="Rekonstruktion_Nordostbahn_c44">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> beispielhaft <ref type="lit">Memminger, NOB</ref>; <ref type="lit">Memminger,
 						Züri-Herrgott</ref>; <ref type="lit">Vögeli, Situation NOB</ref>.</com> Die verbleibenden leitenden
 					Personen, welche das Unternehmen erfolgreich durch die schwierige Phase der
 					Rekonstruktion geführt hatten, genossen aber das Vertrauen der Aktionäre. Sowohl
-					Escher wie <idx type="person" norm="Stoll Georg">Stoll</idx> erklärten indes Annahme der Wahl nur unter dem ausdrücklichen
+					Escher wie <persName key="Stoll Georg">Stoll</persName> erklärten indes Annahme der Wahl nur unter dem ausdrücklichen
 					Vorbehalt, dass es ihnen erlaubt sei, jederzeit innerhalb der statutarischen
-					Amtsdauer zurücktreten zu dürfen.<com id="Rekonstruktion_Nordostbahn_c45"><abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Prot. GV NOB</ref>, 28. Juni 1878 (<abbr norm="Seite(n)">S.</abbr> 305).
-						– <idx type="person" norm="Stoll Georg">Stoll</idx> präzisierte dabei, zurücktreten zu wollen, wenn es aus Rücksicht auf
+					Amtsdauer zurücktreten zu dürfen.<com xml:id="Rekonstruktion_Nordostbahn_c45">
+                            <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. GV NOB</ref>, 28. Juni 1878 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 305).
+						– <persName key="Stoll Georg">Stoll</persName> präzisierte dabei, zurücktreten zu wollen, wenn es aus Rücksicht auf
 						seine Tätigkeit bei der Schweizerischen Kreditanstalt erforderlich sein
-						sollte. <abbr norm="Vergleiche">Vgl.</abbr> <ref type="lit">Prot. GV NOB</ref>, 28. Juni 1878 (<abbr norm="Seite(n)">S.</abbr> 305).</com> </p>
+						sollte. <choice>
+                                <abbr>Vgl.</abbr>
+                                <expan>Vergleiche</expan>
+                            </choice> <ref type="lit">Prot. GV NOB</ref>, 28. Juni 1878 (<choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite(n)</expan>
+                            </choice> 305).</com> </p>
 			</div>
-			<p id="Rekonstruktion_Nordostbahn_p16"><hi rend="italics">Bruno Fischer</hi> </p>
+			<p xml:id="Rekonstruktion_Nordostbahn_p16">
+                    <hi rend="italics">Bruno Fischer</hi> </p>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>

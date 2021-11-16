@@ -1,320 +1,385 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Neuenburgerkonflikt" name="Neuenburgerkonflikt">
-	<metadata>
-		<title>Chronologie des Neuenburger Konflikts 1856/57</title>
-		<author>
-			<name>Claudia Aufdermauer, unter der Leitung von Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Neuenburgerkonflikt">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chronologie des Neuenburger Konflikts 1856/57</title>
+                <author>
+			Claudia Aufdermauer, unter der Leitung von Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1852–1866).
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Eschers Briefwechsel (1852–1866).
 				Wirtschaftsliberales Zeitfenster, Gründungen, Aussenpolitik, mit Beiträgen von
 				Claudia Aufdermauer, Bruno Fischer, Joseph Jung, Björn Koch, Katrin Rigort und Sandra
 				Wiederkehr (Alfred Escher. Briefe. Ein Editions- und Forschungsprojekt der Alfred
-				Escher-Stiftung, Band 5), Zürich 2013</volume_title>
-			<short_title>Jung, Escher Briefe, Band 5</short_title>
-			<volume>5</volume>
-			<page>383–384</page>
-		</source>
-		<description/>
-		<revision>
-			<change>XML-Grundstruktur erstellt, RO, 30.07.2013 </change>
-			<change>Auszeichnung 1 umgesetzt, CH, 31.07.2013</change>
-			<change>Verifizierung 1 umgesetzt, MB, 02.08.2013</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Neuenburgerkonflikt_d1">
-			<head><pb n="383"/>Chronologie des Neuenburger Konflikts 1856/57</head>
-			<div id="Neuenburgerkonflikt_d1.1"><head/>
-			<p id="Neuenburgerkonflikt_p1"><table>
-					<tr id="Neuenburgerkonflikt_r1">
-						<tab><d norm="02.09.1856">2.</d>–<d norm="03.09.1856">3. September 1856</d> </tab>
-						<tab> <idx type="place" norm="Neuenburg">Neuenburger</idx> Royalisten unter der Führung von <idx type="person" norm="Pourtalès-Steiger Frédéric de">Frédéric de
-							Pourtalès-Steiger</idx> und <idx type="person" norm="Meuron-Terrisse Henri-Frédéric de">Henri-Frédéric de Meuron-Terrisse</idx> bemächtigen
-							sich des Schlosses <idx type="place" norm="Neuenburg (Stadt)">Neuenburg</idx> und verhaften die Mehrheit der
-							Regierungsmitglieder. Da <idx type="place" norm="Neuenburg">Neuenburg</idx> seit 1815 zugleich Kanton der
-							Eidgenossenschaft und Fürstentum des <idx type="person" norm="Friedrich Wilhelm IV. (Preussen)"><idx type="place" norm="Preussen (Königreich)">preussischen</idx> Königs</idx> ist, wird der
+				Escher-Stiftung, Band 5), Zürich 2013</title>
+                    <title type="short">Jung, Escher Briefe, Band 5</title>
+                    <ref type="volume" target="V5">383–384</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, RO, 30.07.2013 </change>
+                <change>Auszeichnung 1 umgesetzt, CH, 31.07.2013</change>
+                <change>Verifizierung 1 umgesetzt, MB, 02.08.2013</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Neuenburgerkonflikt_d1">
+			<head>
+                    <pb n="383"/>Chronologie des Neuenburger Konflikts 1856/57</head>
+			<div xml:id="Neuenburgerkonflikt_d1.1">
+                    <head/>
+			<p xml:id="Neuenburgerkonflikt_p1">
+                        <table>
+					<tr xml:id="Neuenburgerkonflikt_r1">
+						<tab>
+                                    <date when="1856-09-02">2.</date>–<date when="1856-09-03">3. September 1856</date> </tab>
+						<tab> <placeName key="Neuenburg">Neuenburger</placeName> Royalisten unter der Führung von <persName key="Pourtalès-Steiger Frédéric de">Frédéric de
+							Pourtalès-Steiger</persName> und <persName key="Meuron-Terrisse Henri-Frédéric de">Henri-Frédéric de Meuron-Terrisse</persName> bemächtigen
+							sich des Schlosses <placeName key="Neuenburg (Stadt)">Neuenburg</placeName> und verhaften die Mehrheit der
+							Regierungsmitglieder. Da <placeName key="Neuenburg">Neuenburg</placeName> seit 1815 zugleich Kanton der
+							Eidgenossenschaft und Fürstentum des <persName key="Friedrich Wilhelm IV. (Preussen)">
+                                        <placeName key="Preussen (Königreich)">preussischen</placeName> Königs</persName> ist, wird der
 							Vorfall in beiden Ländern registriert.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r2">
-						<tab><d norm="03.09.1856">3. September 1856</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r2">
+						<tab>
+                                    <date when="1856-09-03">3. September 1856</date> </tab>
 						<tab> Der Bundesrat beschliesst in einer ausserordentlichen Sitzung, seine
-							Mitglieder <idx type="person" norm="Fornerod Constant">Constant Fornerod</idx> und <idx type="person" norm="Frey-Herosé Friedrich">Friedrich Frey-Herosé</idx> als Kommissäre
-							nach <idx type="place" norm="Neuenburg">Neuenburg</idx> abzuordnen. Zudem lädt er die Regierungen von <idx type="place" norm="Bern">Bern</idx> und
-							<idx type="place" norm="Waadt">Waadt</idx> dazu ein, ihre Bataillone unverzüglich einzuberufen, und
-							beauftragt Oberst <idx type="person" norm="Bourgeois-Doxat Emmanuel">Emmanuel Bourgeois-Doxat</idx> <!--LB, verifiziert--> mit dem Oberkommando dieser
+							Mitglieder <persName key="Fornerod Constant">Constant Fornerod</persName> und <persName key="Frey-Herosé Friedrich">Friedrich Frey-Herosé</persName> als Kommissäre
+							nach <placeName key="Neuenburg">Neuenburg</placeName> abzuordnen. Zudem lädt er die Regierungen von <placeName key="Bern">Bern</placeName> und
+							<placeName key="Waadt">Waadt</placeName> dazu ein, ihre Bataillone unverzüglich einzuberufen, und
+							beauftragt Oberst <persName key="Bourgeois-Doxat Emmanuel">Emmanuel Bourgeois-Doxat</persName> <!--LB, verifiziert--> mit dem Oberkommando dieser
 							eidgenössischen Truppen.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r3">
-						<tab><d norm="04.09.1856">4. September 1856</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r3">
+						<tab>
+                                    <date when="1856-09-04">4. September 1856</date> </tab>
 						<tab> Noch bevor die eidgenössischen Truppen vor Ort sind, erobern
-							<idx type="place" norm="Neuenburg">Neuenburger</idx> Republikaner unter der Führung von Oberst <idx type="person" norm="Denzler Louis">Louis Denzler</idx> den
+							<placeName key="Neuenburg">Neuenburger</placeName> Republikaner unter der Führung von Oberst <persName key="Denzler Louis">Louis Denzler</persName> den
 							Regierungssitz zurück. Der Aufstand fordert 8 Tote, 667 Personen werden
 							verhaftet.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r4">
-						<tab><d norm="04.09.1856">4. September 1856</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r4">
+						<tab>
+                                    <date when="1856-09-04">4. September 1856</date> </tab>
 						<tab>Der Bundesrat beschliesst, gegen die royalistischen Anführer des
 							Aufstands gerichtlich zu ermitteln, und betraut den eidgenössischen
-							Untersuchungsrichter <idx type="person" norm="Duplan-Veillon Charles">Charles Duplan-Veillon</idx> <!--LB, verifiziert--> mit dieser Aufgabe.</tab>
+							Untersuchungsrichter <persName key="Duplan-Veillon Charles">Charles Duplan-Veillon</persName> <!--LB, verifiziert--> mit dieser Aufgabe.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r5">
-						<tab><d norm="30.09.1856">30. September 1856</d> </tab>
-						<tab> Im Namen <idx type="place" norm="Preussen (Königreich)">Preussens</idx> spricht <idx type="person" norm="Salignac-Fénelon Jean Raymond Sigismond Alfred de">Jean Raymond Sigismond Alfred de 
-							Salignac-Fénelon</idx>, der <idx type="place" norm="Frankreich">französische</idx> Gesandte in <idx type="place" norm="Bern (Stadt)">Bern</idx>, gegenüber dem
-							Bundespräsidenten <idx type="person" norm="Stämpfli Jakob">Jakob Stämpfli</idx> den Wunsch auf baldige Freilassung der
+					<tr xml:id="Neuenburgerkonflikt_r5">
+						<tab>
+                                    <date when="1856-09-30">30. September 1856</date> </tab>
+						<tab> Im Namen <placeName key="Preussen (Königreich)">Preussens</placeName> spricht <persName key="Salignac-Fénelon Jean Raymond Sigismond Alfred de">Jean Raymond Sigismond Alfred de 
+							Salignac-Fénelon</persName>, der <placeName key="Frankreich">französische</placeName> Gesandte in <placeName key="Bern (Stadt)">Bern</placeName>, gegenüber dem
+							Bundespräsidenten <persName key="Stämpfli Jakob">Jakob Stämpfli</persName> den Wunsch auf baldige Freilassung der
 							royalistischen Gefangenen aus. Ansonsten müsse die Schweiz damit
-							rechnen, dass <idx type="place" norm="Preussen (Königreich)">Preussen</idx> binnen kurzem 100 000 Mann mobilisiert haben
-							werde. <idx type="person" norm="Stämpfli Jakob">Stämpfli</idx> antwortet <idx type="person" norm="Salignac-Fénelon Jean Raymond Sigismond Alfred de">Salignac-Fénelon</idx>, dass die Schweiz dem Wunsch
-							des <idx type="person" norm="Bonaparte Charles Louis Napoléon"><idx type="place" norm="Frankreich">französischen</idx> Kaisers</idx> nicht entsprechen könne. Erst am <d norm="01.10.1856">folgenden Tag
-</d>
-							informiert <idx type="person" norm="Stämpfli Jakob">Stämpfli</idx> den Gesamtbundesrat über den <idx type="place" norm="Frankreich">französischen</idx>
+							rechnen, dass <placeName key="Preussen (Königreich)">Preussen</placeName> binnen kurzem 100 000 Mann mobilisiert haben
+							werde. <persName key="Stämpfli Jakob">Stämpfli</persName> antwortet <persName key="Salignac-Fénelon Jean Raymond Sigismond Alfred de">Salignac-Fénelon</persName>, dass die Schweiz dem Wunsch
+							des <persName key="Bonaparte Charles Louis Napoléon">
+                                        <placeName key="Frankreich">französischen</placeName> Kaisers</persName> nicht entsprechen könne. Erst am <date when="1856-10-01">folgenden Tag
+</date>
+							informiert <persName key="Stämpfli Jakob">Stämpfli</persName> den Gesamtbundesrat über den <placeName key="Frankreich">französischen</placeName>
 							Vermittlungsvorschlag.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r6">
-						<tab><d norm="03.10.1856">3. Oktober 1856</d> </tab>
-						<tab>Der Bundesrat lässt der <idx type="place" norm="Frankreich">französischen</idx> und der <idx type="place" norm="England">englischen</idx> Gesandtschaft
+					<tr xml:id="Neuenburgerkonflikt_r6">
+						<tab>
+                                    <date when="1856-10-03">3. Oktober 1856</date> </tab>
+						<tab>Der Bundesrat lässt der <placeName key="Frankreich">französischen</placeName> und der <placeName key="England">englischen</placeName> Gesandtschaft
 							mitteilen, dass die royalistischen Gefangenen nur gegen vorgängigen
-							Verzicht <idx type="place" norm="Preussen (Königreich)">Preussens</idx> auf <idx type="place" norm="Neuenburg">Neuenburg</idx> Amnestie erhalten würden.</tab>
+							Verzicht <placeName key="Preussen (Königreich)">Preussens</placeName> auf <placeName key="Neuenburg">Neuenburg</placeName> Amnestie erhalten würden.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r7">
-						<tab><d norm="24.10.1856">24. Oktober 1856</d> </tab>
-						<tab><idx type="person" norm="Bonaparte Charles Louis Napoléon">Napoleon III.</idx> schreibt <idx type="person" norm="Dufour Guillaume-Henri">Guillaume-Henri Dufour</idx> einen Brief, in welchem
-							er der Schweiz seine Vermittlung anbietet: Er sei bereit, <idx type="place" norm="Preussen (Königreich)">Preussens
-</idx>
+					<tr xml:id="Neuenburgerkonflikt_r7">
+						<tab>
+                                    <date when="1856-10-24">24. Oktober 1856</date> </tab>
+						<tab>
+                                    <persName key="Bonaparte Charles Louis Napoléon">Napoleon III.</persName> schreibt <persName key="Dufour Guillaume-Henri">Guillaume-Henri Dufour</persName> einen Brief, in welchem
+							er der Schweiz seine Vermittlung anbietet: Er sei bereit, <placeName key="Preussen (Königreich)">Preussens
+</placeName>
 							Truppensendung Einhalt zu gebieten, wenn der Bundesrat das Schicksal
-							<idx type="place" norm="Neuenburg">Neuenburgs</idx> in seine Hände lege. <idx type="person" norm="Dufour Guillaume-Henri">Dufour</idx> informiert den Bundesrat über den
+							<placeName key="Neuenburg">Neuenburgs</placeName> in seine Hände lege. <persName key="Dufour Guillaume-Henri">Dufour</persName> informiert den Bundesrat über den
 							Brief.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r8">
-						<tab><d norm="25.10.1856">25. Oktober 1856</d> </tab>
-						<tab><idx type="person" norm="Gordon George John Robert">George John Robert Gordon</idx> <!--LB, verifiziert-->, der <idx type="place" norm="England">englische</idx> Gesandte in <idx type="place" norm="Bern (Stadt)">Bern</idx>, erkundigt
+					<tr xml:id="Neuenburgerkonflikt_r8">
+						<tab>
+                                    <date when="1856-10-25">25. Oktober 1856</date> </tab>
+						<tab>
+                                    <persName key="Gordon George John Robert">George John Robert Gordon</persName> <!--LB, verifiziert-->, der <placeName key="England">englische</placeName> Gesandte in <placeName key="Bern (Stadt)">Bern</placeName>, erkundigt
 							sich beim Bundesrat, ob dieser in die sofortige Freilassung der
-							royalistischen Gefangenen einwillige, falls der <idx type="person" norm="Friedrich Wilhelm IV. (Preussen)"><idx type="place" norm="Preussen (Königreich)">preussische</idx> König</idx> unter
-							der Bedingung, dass er den Titel eines Fürsten von <idx type="place" norm="Neuenburg">Neuenburg</idx> und seinen
-							<idx type="place" norm="Neuenburg">Neuenburger</idx> Privatbesitz behalten dürfe, auf <idx type="place" norm="Neuenburg">Neuenburg</idx> verzichten
+							royalistischen Gefangenen einwillige, falls der <persName key="Friedrich Wilhelm IV. (Preussen)">
+                                        <placeName key="Preussen (Königreich)">preussische</placeName> König</persName> unter
+							der Bedingung, dass er den Titel eines Fürsten von <placeName key="Neuenburg">Neuenburg</placeName> und seinen
+							<placeName key="Neuenburg">Neuenburger</placeName> Privatbesitz behalten dürfe, auf <placeName key="Neuenburg">Neuenburg</placeName> verzichten
 							würde.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r9">
-						<tab><d norm="29.10.1856">29. Oktober 1856</d> </tab>
-						<tab>Der Bundesrat erklärt sich mit dem <idx type="place" norm="England">englischen</idx> Vermittlungsvorschlag
+					<tr xml:id="Neuenburgerkonflikt_r9">
+						<tab>
+                                    <date when="1856-10-29">29. Oktober 1856</date> </tab>
+						<tab>Der Bundesrat erklärt sich mit dem <placeName key="England">englischen</placeName> Vermittlungsvorschlag
 							grundsätzlich einverstanden. Gleichzeitig beauftragt er das
 							Militärdepartement, die eidgenössische Armee in Bereitschaft zu
 							stellen.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r10">
-						<tab><d norm="01.11.1856">1. November 1856</d> </tab>
-						<tab>Der Bundesrat beschliesst, <idx type="person" norm="Dufour Guillaume-Henri">Dufour</idx> nach <idx type="place" norm="Paris (F)">Paris</idx> zu senden, um <idx type="person" norm="Bonaparte Charles Louis Napoléon">Napoleon
-							III.</idx> zu verdeutlichen, wieso die Schweiz in eine sofortige Freilassung
+					<tr xml:id="Neuenburgerkonflikt_r10">
+						<tab>
+                                    <date when="1856-11-01">1. November 1856</date> </tab>
+						<tab>Der Bundesrat beschliesst, <persName key="Dufour Guillaume-Henri">Dufour</persName> nach <placeName key="Paris (F)">Paris</placeName> zu senden, um <persName key="Bonaparte Charles Louis Napoléon">Napoleon
+							III.</persName> zu verdeutlichen, wieso die Schweiz in eine sofortige Freilassung
 							der royalistischen Gefangenen nicht einwilligen könne.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r11">
-						<tab><d norm="11.11.1856">11.</d>/<d norm="15.11.1856">15. November 1856</d> </tab>
-						<tab>Zwei Audienzen, die <idx type="person" norm="Bonaparte Charles Louis Napoléon">Napoleon III.</idx> <idx type="person" norm="Dufour Guillaume-Henri">Dufour</idx> gewährt, führen zu keiner
-							Annäherung der <idx type="place" norm="Frankreich">französischen</idx> und der schweizerischen Position.</tab>
+					<tr xml:id="Neuenburgerkonflikt_r11">
+						<tab>
+                                    <date when="1856-11-11">11.</date>/<date when="1856-11-15">15. November 1856</date> </tab>
+						<tab>Zwei Audienzen, die <persName key="Bonaparte Charles Louis Napoléon">Napoleon III.</persName> <persName key="Dufour Guillaume-Henri">Dufour</persName> gewährt, führen zu keiner
+							Annäherung der <placeName key="Frankreich">französischen</placeName> und der schweizerischen Position.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r12">
-						<tab><d norm="19.11.1856">19. November 1856</d> </tab>
-						<tab>Der <idx type="place" norm="Frankreich">französische</idx> Aussenminister <idx type="person" norm="Walewski Alexandre">Alexandre Walewski</idx> teilt <idx type="person" norm="Dufour Guillaume-Henri">Dufour</idx> und
-							<idx type="person" norm="Barman Joseph-Hyacinthe">Joseph-Hyacinthe Barman</idx>, dem Schweizer Gesandten in <idx type="place" norm="Paris (F)">Paris</idx>, mit, dass die
+					<tr xml:id="Neuenburgerkonflikt_r12">
+						<tab>
+                                    <date when="1856-11-19">19. November 1856</date> </tab>
+						<tab>Der <placeName key="Frankreich">französische</placeName> Aussenminister <persName key="Walewski Alexandre">Alexandre Walewski</persName> teilt <persName key="Dufour Guillaume-Henri">Dufour</persName> und
+							<persName key="Barman Joseph-Hyacinthe">Joseph-Hyacinthe Barman</persName>, dem Schweizer Gesandten in <placeName key="Paris (F)">Paris</placeName>, mit, dass die
 							Schweiz auf sich allein gestellt sei, da sie die Freilassung der
-							Gefangenen verweigere. <idx type="place" norm="Frankreich">Frankreich</idx> werde sich einem militärischen
-							Einschreiten <idx type="place" norm="Preussen (Königreich)">Preussens</idx> nicht mehr widersetzen.</tab>
+							Gefangenen verweigere. <placeName key="Frankreich">Frankreich</placeName> werde sich einem militärischen
+							Einschreiten <placeName key="Preussen (Königreich)">Preussens</placeName> nicht mehr widersetzen.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r13">
-						<tab><d norm="19.11.1856">19. November 1856</d> </tab>
-						<tab><idx type="person" norm="Sydow Rudolf von">Rudolf von Sydow</idx>, der <idx type="place" norm="Preussen (Königreich)">preussische</idx>
-							Gesandte in <idx type="place" norm="Bern (Stadt)">Bern</idx>, eröffnet dem Bundespräsidenten <idx type="person" norm="Stämpfli Jakob">Stämpfli</idx>, dass der
-							<idx type="person" norm="Friedrich Wilhelm IV. (Preussen)">preussische König</idx> unter der Bedingung, dass der Bundesrat in eine
+					<tr xml:id="Neuenburgerkonflikt_r13">
+						<tab>
+                                    <date when="1856-11-19">19. November 1856</date> </tab>
+						<tab>
+                                    <persName key="Sydow Rudolf von">Rudolf von Sydow</persName>, der <placeName key="Preussen (Königreich)">preussische</placeName>
+							Gesandte in <placeName key="Bern (Stadt)">Bern</placeName>, eröffnet dem Bundespräsidenten <persName key="Stämpfli Jakob">Stämpfli</persName>, dass der
+							<persName key="Friedrich Wilhelm IV. (Preussen)">preussische König</persName> unter der Bedingung, dass der Bundesrat in eine
 							vorgängige und bedingungslose Freilassung der royalistischen Gefangenen
 							einwillige, geneigt sei, mit der Schweiz in Verhandlungen zu
 							treten.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r14">
-						<tab><d norm="21.11.1856">21. November 1856</d> </tab>
-						<tab>Der Bundesrat beschliesst, auf das vom <idx type="person" norm="Friedrich Wilhelm IV. (Preussen)">preussischen König</idx> <d norm="19.11.1856">zwei Tage
-							zuvor</d> gestellte Begehren nicht einzugehen.</tab>
+					<tr xml:id="Neuenburgerkonflikt_r14">
+						<tab>
+                                    <date when="1856-11-21">21. November 1856</date> </tab>
+						<tab>Der Bundesrat beschliesst, auf das vom <persName key="Friedrich Wilhelm IV. (Preussen)">preussischen König</persName> <date when="1856-11-19">zwei Tage
+							zuvor</date> gestellte Begehren nicht einzugehen.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r15">
-						<tab><d norm="10.12.1856">10. Dezember 1856</d> </tab>
-						<tab>Der Bundesrat erteilt <idx type="person" norm="Barman Joseph-Hyacinthe">Barman</idx> den Auftrag, <idx type="person" norm="Hatzfeldt Maximilian Friedrich Karl Franz von">Maximilian Friedrich Karl
-							Franz von Hatzfeldt</idx>, den <idx type="place" norm="Preussen (Königreich)">preussischen</idx> Gesandten in <idx type="place" norm="Paris (F)">Paris</idx>, anzufragen, ob
-							direkte Verhandlungen zwischen der Schweiz und <idx type="place" norm="Preussen (Königreich)">Preussen</idx> eine friedliche
-							Lösung des <idx type="place" norm="Neuenburg">Neuenburger</idx> Konflikts herbeiführen könnten.</tab>
+					<tr xml:id="Neuenburgerkonflikt_r15">
+						<tab>
+                                    <date when="1856-12-10">10. Dezember 1856</date> </tab>
+						<tab>Der Bundesrat erteilt <persName key="Barman Joseph-Hyacinthe">Barman</persName> den Auftrag, <persName key="Hatzfeldt Maximilian Friedrich Karl Franz von">Maximilian Friedrich Karl
+							Franz von Hatzfeldt</persName>, den <placeName key="Preussen (Königreich)">preussischen</placeName> Gesandten in <placeName key="Paris (F)">Paris</placeName>, anzufragen, ob
+							direkte Verhandlungen zwischen der Schweiz und <placeName key="Preussen (Königreich)">Preussen</placeName> eine friedliche
+							Lösung des <placeName key="Neuenburg">Neuenburger</placeName> Konflikts herbeiführen könnten.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r16">
-						<tab><d norm="14.12.1856">14. Dezember 1856</d> </tab>
-						<tab> <idx type="person" norm="Barman Joseph-Hyacinthe">Barman</idx> teilt dem Bundesrat mit, dass <idx type="person" norm="Hatzfeldt Maximilian Friedrich Karl Franz von">Hatzfeld</idx> ihm auf seine Anfrage
-							betreffend direkte <idx type="place" norm="Preussen (Königreich)">preussisch</idx>-schweizerische Verhandlungen entgegnet
+					<tr xml:id="Neuenburgerkonflikt_r16">
+						<tab>
+                                    <date when="1856-12-14">14. Dezember 1856</date> </tab>
+						<tab> <persName key="Barman Joseph-Hyacinthe">Barman</persName> teilt dem Bundesrat mit, dass <persName key="Hatzfeldt Maximilian Friedrich Karl Franz von">Hatzfeld</persName> ihm auf seine Anfrage
+							betreffend direkte <placeName key="Preussen (Königreich)">preussisch</placeName>-schweizerische Verhandlungen entgegnet
 							habe, dass er keine diesbezüglichen Eröffnungen entgegenzunehmen befugt
-							sei. <idx type="person" norm="Barman Joseph-Hyacinthe">Barman</idx> schliesst daraus, dass die diplomatischen Beziehungen
-							<idx type="place" norm="Preussen (Königreich)">Preussens</idx> mit der Schweiz entweder schon abgebrochen seien oder
+							sei. <persName key="Barman Joseph-Hyacinthe">Barman</persName> schliesst daraus, dass die diplomatischen Beziehungen
+							<placeName key="Preussen (Königreich)">Preussens</placeName> mit der Schweiz entweder schon abgebrochen seien oder
 							nächstens abgebrochen werden.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r17">
-						<tab><d norm="18.12.1856">18. Dezember 1856</d> </tab>
-						<tab><idx type="person" norm="Sydow Rudolf von">Sydow</idx> teilt dem Bundesrat mit, dass er angewiesen worden sei, die
+					<tr xml:id="Neuenburgerkonflikt_r17">
+						<tab>
+                                    <date when="1856-12-18">18. Dezember 1856</date> </tab>
+						<tab>
+                                    <persName key="Sydow Rudolf von">Sydow</persName> teilt dem Bundesrat mit, dass er angewiesen worden sei, die
 							amtlichen Beziehungen zu den eidgenössischen Behörden abzubrechen und
-							die <idx type="place" norm="Preussen (Königreich)">preussische</idx> Gesandtschaft in <idx type="place" norm="Bern (Stadt)">Bern</idx> einzustellen. Der Bundesrat
-							beschliesst, die Bundesversammlung auf den <d norm="27.12.1856">27. Dezember 1856</d> zu einer
-							ausserordentlichen Sitzung einzuberufen.<pb n="384"/></tab>
+							die <placeName key="Preussen (Königreich)">preussische</placeName> Gesandtschaft in <placeName key="Bern (Stadt)">Bern</placeName> einzustellen. Der Bundesrat
+							beschliesst, die Bundesversammlung auf den <date when="1856-12-27">27. Dezember 1856</date> zu einer
+							ausserordentlichen Sitzung einzuberufen.<pb n="384"/>
+                                </tab>
 					</tr>
-					<tr id="Neuenburgerkonflikt_r18">
-						<tab><d norm="20.12.1856">20. Dezember 1856</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r18">
+						<tab>
+                                    <date when="1856-12-20">20. Dezember 1856</date> </tab>
 						<tab>Der Bundesrat beschliesst, die 3. und die 5. Armeedivision in den
 							aktiven Dienst einzuberufen.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r19">
-						<tab><d norm="27.12.1856">27.</d>–<d norm="30.12.1856">30. Dezember 1856</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r19">
+						<tab>
+                                    <date when="1856-12-27">27.</date>–<date when="1856-12-30">30. Dezember 1856</date> </tab>
 						<tab> Alfred Escher leitet als Nationalratspräsident die ausserordentliche
-							Session des Nationalrats in <idx type="place" norm="Bern (Stadt)">Bern</idx>.</tab>
+							Session des Nationalrats in <placeName key="Bern (Stadt)">Bern</placeName>.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r20">
-						<tab><d norm="27.12.1856">27. Dezember 1856</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r20">
+						<tab>
+                                    <date when="1856-12-27">27. Dezember 1856</date> </tab>
 						<tab>Der Nationalrat wählt Escher zum Nationalratspräsidenten und zum
-							Präsidenten der Kommission betreffend <idx type="place" norm="Neuenburg">Neuenburger</idx> Konflikt.</tab>
+							Präsidenten der Kommission betreffend <placeName key="Neuenburg">Neuenburger</placeName> Konflikt.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r21">
-						<tab><d norm="27.12.1856">27. Dezember 1856</d> </tab>
-						<tab>Der Bundesrat beschliesst, Bundesrat <idx type="person" norm="Furrer Jonas">Jonas Furrer</idx> nach <idx type="place" norm="Süddeutschland">Süddeutschland
-</idx>
+					<tr xml:id="Neuenburgerkonflikt_r21">
+						<tab>
+                                    <date when="1856-12-27">27. Dezember 1856</date> </tab>
+						<tab>Der Bundesrat beschliesst, Bundesrat <persName key="Furrer Jonas">Jonas Furrer</persName> nach <placeName key="Süddeutschland">Süddeutschland
+</placeName>
 							zu Verhandlungen abzuordnen.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r22">
-						<tab><d norm="30.12.1856">30. Dezember 1856</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r22">
+						<tab>
+                                    <date when="1856-12-30">30. Dezember 1856</date> </tab>
 						<tab>Als Berichterstatter der nationalrätlichen Kommission betreffend
-							<idx type="place" norm="Neuenburg">Neuenburger</idx> Konflikt empfiehlt Escher dem Nationalrat, dem Bundesrat den
+							<placeName key="Neuenburg">Neuenburger</placeName> Konflikt empfiehlt Escher dem Nationalrat, dem Bundesrat den
 							beantragten unbeschränkten finanziellen Kredit zu erteilen.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r23">
-						<tab><d norm="30.12.1856">30. Dezember 1856</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r23">
+						<tab>
+                                    <date when="1856-12-30">30. Dezember 1856</date> </tab>
 						<tab> Die Bundesversammlung nimmt die bundesrätlichen Anträge einstimmig an.
-							<idx type="person" norm="Dufour Guillaume-Henri">Dufour</idx> wird zum Oberbefehlshaber der schweizerischen Armee und Bundesrat
-							<idx type="person" norm="Frey-Herosé Friedrich">Frey-Herosé</idx> zum Generalstabschef gewählt.</tab>
+							<persName key="Dufour Guillaume-Henri">Dufour</persName> wird zum Oberbefehlshaber der schweizerischen Armee und Bundesrat
+							<persName key="Frey-Herosé Friedrich">Frey-Herosé</persName> zum Generalstabschef gewählt.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r24">
-						<tab><d norm="31.12.1856">31. Dezember 1856</d> </tab>
-						<tab>Der Bundesrat beschliesst, den <idx type="place" norm="Thurgau">Thurgauer</idx> Ständerat <idx type="person" norm="Kern Johann Konrad">Johann Konrad Kern</idx>
-							als ausserordentlichen Gesandten nach <idx type="place" norm="Paris (F)">Paris</idx> abzuordnen. <d norm="06.01.1857">Sechs Tage
-							später</d> teilt <idx type="person" norm="Kern Johann Konrad">Kern</idx> dem Bundesrat mit, dass die <idx type="place" norm="Frankreich">französische</idx> Regierung die
+					<tr xml:id="Neuenburgerkonflikt_r24">
+						<tab>
+                                    <date when="1856-12-31">31. Dezember 1856</date> </tab>
+						<tab>Der Bundesrat beschliesst, den <placeName key="Thurgau">Thurgauer</placeName> Ständerat <persName key="Kern Johann Konrad">Johann Konrad Kern</persName>
+							als ausserordentlichen Gesandten nach <placeName key="Paris (F)">Paris</placeName> abzuordnen. <date when="1857-01-06">Sechs Tage
+							später</date> teilt <persName key="Kern Johann Konrad">Kern</persName> dem Bundesrat mit, dass die <placeName key="Frankreich">französische</placeName> Regierung die
 							wesentlichen Punkte seiner Instruktion angenommen habe. Infolgedessen
 							beschliesst der Bundesrat, die nationalrätliche und die ständerätliche
-							Kommission betreffend <idx type="place" norm="Neuenburg">Neuenburger</idx> Konflikt auf den <d norm="13.01.1857">13. Januar 1857</d> und
-							die Bundesversammlung auf den <d norm="14.01.1857">14. Januar 1857</d> zu einer
+							Kommission betreffend <placeName key="Neuenburg">Neuenburger</placeName> Konflikt auf den <date when="1857-01-13">13. Januar 1857</date> und
+							die Bundesversammlung auf den <date when="1857-01-14">14. Januar 1857</date> zu einer
 							ausserordentlichen Sitzung einzuberufen.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r25">
-						<tab><d norm="03.01.1857">3. Januar 1857</d> </tab>
-						<tab>Der Bundesrat erfährt, dass die Mobilisierung der <idx type="place" norm="Preussen (Königreich)">preussischen</idx> Armee
-							vom <d norm="02.01.1857">2. Januar</d> auf den <d norm="15.01.1857">15. Januar 1857</d> verschoben wurde.</tab>
+					<tr xml:id="Neuenburgerkonflikt_r25">
+						<tab>
+                                    <date when="1857-01-03">3. Januar 1857</date> </tab>
+						<tab>Der Bundesrat erfährt, dass die Mobilisierung der <placeName key="Preussen (Königreich)">preussischen</placeName> Armee
+							vom <date when="1857-01-02">2. Januar</date> auf den <date when="1857-01-15">15. Januar 1857</date> verschoben wurde.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r26">
-						<tab><d norm="06.01.1857">6. Januar 1857</d> </tab>
-						<tab> Bundesrat <idx type="person" norm="Furrer Jonas">Furrer</idx> erstattet dem Bundesrat mündlichen Bericht über seine
-							diplomatische Mission in <idx type="place" norm="Frankfurt am Main (D)">Frankfurt</idx>, <idx type="place" norm="Karlsruhe (D)">Karlsruhe</idx>, <idx type="place" norm="Stuttgart (D)">Stuttgart</idx> und
-							<idx type="place" norm="München (D)">München</idx>.</tab>
+					<tr xml:id="Neuenburgerkonflikt_r26">
+						<tab>
+                                    <date when="1857-01-06">6. Januar 1857</date> </tab>
+						<tab> Bundesrat <persName key="Furrer Jonas">Furrer</persName> erstattet dem Bundesrat mündlichen Bericht über seine
+							diplomatische Mission in <placeName key="Frankfurt am Main (D)">Frankfurt</placeName>, <placeName key="Karlsruhe (D)">Karlsruhe</placeName>, <placeName key="Stuttgart (D)">Stuttgart</placeName> und
+							<placeName key="München (D)">München</placeName>.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r27">
-						<tab><d norm="12.01.1857">12. Januar 1857</d> </tab>
-						<tab><idx type="person" norm="Kern Johann Konrad">Kern</idx> erstattet dem Bundesrat mündlichen Bericht über <idx type="person" norm="Bonaparte Charles Louis Napoléon">Napoleons III.
-</idx>
+					<tr xml:id="Neuenburgerkonflikt_r27">
+						<tab>
+                                    <date when="1857-01-12">12. Januar 1857</date> </tab>
+						<tab>
+                                    <persName key="Kern Johann Konrad">Kern</persName> erstattet dem Bundesrat mündlichen Bericht über <persName key="Bonaparte Charles Louis Napoléon">Napoleons III.
+</persName>
 							vertrauliche Mitteilungen.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r28">
-						<tab><d norm="14.01.1857">14.</d>–<d norm="16.01.1857">16. Januar 1857</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r28">
+						<tab>
+                                    <date when="1857-01-14">14.</date>–<date when="1857-01-16">16. Januar 1857</date> </tab>
 						<tab> Escher leitet als Nationalratspräsident die ausserordentliche Session
-							des Nationalrats in <idx type="place" norm="Bern (Stadt)">Bern</idx>.</tab>
+							des Nationalrats in <placeName key="Bern (Stadt)">Bern</placeName>.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r29">
-						<tab><d norm="14.01.1857">14. Januar 1857</d> </tab>
-						<tab> <idx type="person" norm="Kern Johann Konrad">Kern</idx> informiert im Restaurant «Storchen» in <idx type="place" norm="Bern (Stadt)">Bern</idx> rund siebzig
-							Parlamentarier über <idx type="person" norm="Bonaparte Charles Louis Napoléon">Napoleons III.</idx> vertrauliche Mitteilungen.</tab>
+					<tr xml:id="Neuenburgerkonflikt_r29">
+						<tab>
+                                    <date when="1857-01-14">14. Januar 1857</date> </tab>
+						<tab> <persName key="Kern Johann Konrad">Kern</persName> informiert im Restaurant «Storchen» in <placeName key="Bern (Stadt)">Bern</placeName> rund siebzig
+							Parlamentarier über <persName key="Bonaparte Charles Louis Napoléon">Napoleons III.</persName> vertrauliche Mitteilungen.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r30">
-						<tab><d norm="15.01.1857">15. Januar 1857</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r30">
+						<tab>
+                                    <date when="1857-01-15">15. Januar 1857</date> </tab>
 						<tab> Als Berichterstatter der nationalrätlichen Kommission betreffend
-							<idx type="place" norm="Neuenburg">Neuenburger</idx> Konflikt empfiehlt Escher, den bundesrätlichen Anträgen
+							<placeName key="Neuenburg">Neuenburger</placeName> Konflikt empfiehlt Escher, den bundesrätlichen Anträgen
 							zuzustimmen. Diese sehen vor, den Prozess gegen die aufständischen
-							<idx type="place" norm="Neuenburg">Neuenburger</idx> Royalisten aufzuheben.</tab>
+							<placeName key="Neuenburg">Neuenburger</placeName> Royalisten aufzuheben.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r31">
-						<tab><d norm="15.01.1857">15.</d>/<d norm="16.01.1857">16. Januar 1857</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r31">
+						<tab>
+                                    <date when="1857-01-15">15.</date>/<date when="1857-01-16">16. Januar 1857</date> </tab>
 						<tab>Die Bundesversammlung nimmt die bundesrätlichen Anträge an.
-							Infolgedessen werden die royalistischen Gefangenen in der Nacht vom <d norm="17.01.1857">17.</d>
-							auf den <d norm="18.01.1857">18. Januar 1857</d> bei <idx type="place" norm="Les Verrières">Les Verrières</idx> über die Grenze gebracht. Vor
-							Erledigung des <idx type="place" norm="Neuenburg">Neuenburger</idx> Konflikts ist ihnen eine Rückkehr in die
+							Infolgedessen werden die royalistischen Gefangenen in der Nacht vom <date when="1857-01-17">17.</date>
+							auf den <date when="1857-01-18">18. Januar 1857</date> bei <placeName key="Les Verrières">Les Verrières</placeName> über die Grenze gebracht. Vor
+							Erledigung des <placeName key="Neuenburg">Neuenburger</placeName> Konflikts ist ihnen eine Rückkehr in die
 							Schweiz nicht gestattet.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r32">
-						<tab><d norm="17.01.1857">17. Januar 1857</d> </tab>
-						<tab>Der Bundesrat teilt General <idx type="person" norm="Dufour Guillaume-Henri">Dufour</idx> den Bundesbeschluss mit und ordnet
+					<tr xml:id="Neuenburgerkonflikt_r32">
+						<tab>
+                                    <date when="1857-01-17">17. Januar 1857</date> </tab>
+						<tab>Der Bundesrat teilt General <persName key="Dufour Guillaume-Henri">Dufour</persName> den Bundesbeschluss mit und ordnet
 							die Entlassung der bereits in aktivem Dienste stehenden Truppen und die
-							Einstellung der Befestigungsarbeiten an. <d norm="22.01.1857">Fünf Tage später</d> entlässt der
-							<idx type="person" norm="Dufour Guillaume-Henri">General</idx> die Armee.</tab>
+							Einstellung der Befestigungsarbeiten an. <date when="1857-01-22">Fünf Tage später</date> entlässt der
+							<persName key="Dufour Guillaume-Henri">General</persName> die Armee.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r33">
-						<tab><d norm="19.01.1857">19. Januar 1857</d> </tab>
-						<tab>Der Bundesrat ernennt <idx type="person" norm="Kern Johann Konrad">Kern</idx> zum ausserordentlichen Gesandten und
+					<tr xml:id="Neuenburgerkonflikt_r33">
+						<tab>
+                                    <date when="1857-01-19">19. Januar 1857</date> </tab>
+						<tab>Der Bundesrat ernennt <persName key="Kern Johann Konrad">Kern</persName> zum ausserordentlichen Gesandten und
 							beauftragt ihn mit der Vertretung der Schweizer Interessen bei den
-							Verhandlungen betreffend <idx type="place" norm="Neuenburg">Neuenburger</idx> Konflikt.</tab>
+							Verhandlungen betreffend <placeName key="Neuenburg">Neuenburger</placeName> Konflikt.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r34">
-						<tab><d norm="05.03.1857">5. März 1857</d> – <d norm="26.05.1857">26. Mai 1857</d> </tab>
-						<tab>Eine internationale Konferenz in <idx type="place" norm="Paris (F)">Paris</idx> befasst sich mit dem <idx type="place" norm="Neuenburg">Neuenburger</idx>
+					<tr xml:id="Neuenburgerkonflikt_r34">
+						<tab>
+                                    <date when="1857-03-05">5. März 1857</date> – <date when="1857-05-26">26. Mai 1857</date> </tab>
+						<tab>Eine internationale Konferenz in <placeName key="Paris (F)">Paris</placeName> befasst sich mit dem <placeName key="Neuenburg">Neuenburger</placeName>
 							Konflikt.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r35">
-						<tab><d norm="09.06.1857">9.</d>–<d norm="12.06.1857">12. Juni 1857</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r35">
+						<tab>
+                                    <date when="1857-06-09">9.</date>–<date when="1857-06-12">12. Juni 1857</date> </tab>
 						<tab> Escher leitet als Nationalratspräsident die ausserordentliche Session
-							des Nationalrats in <idx type="place" norm="Bern (Stadt)">Bern</idx>.</tab>
+							des Nationalrats in <placeName key="Bern (Stadt)">Bern</placeName>.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r36">
-						<tab><d norm="11.06.1857">11. Juni 1857</d> </tab>
+					<tr xml:id="Neuenburgerkonflikt_r36">
+						<tab>
+                                    <date when="1857-06-11">11. Juni 1857</date> </tab>
 						<tab>Escher spricht im Nationalrat als Kommissionsberichterstatter zum
-							<idx type="place" norm="Neuenburg">Neuenburger</idx> Konflikt.</tab>
+							<placeName key="Neuenburg">Neuenburger</placeName> Konflikt.</tab>
 					</tr>
 
-					<tr id="Neuenburgerkonflikt_r37">
-						<tab><d norm="11.06.1857">11.</d>/<d norm="12.06.1857">12. Juni 1857</d> </tab>
-						<tab>Die Bundesversammlung ratifiziert den <idx type="place" norm="Paris (F)">Pariser</idx> Vertrag vom <d norm="26.05.1857">26. Mai 1857</d>
-							betreffend <idx type="place" norm="Neuenburg">Neuenburger</idx> Konflikt. Darin verzichtet der <idx type="person" norm="Friedrich Wilhelm IV. (Preussen)">preussische König
-</idx>
-							für sich und seine Nachfolger auf die <idx type="place" norm="Neuenburg">Neuenburger</idx> Souveränitätsrechte.
+					<tr xml:id="Neuenburgerkonflikt_r37">
+						<tab>
+                                    <date when="1857-06-11">11.</date>/<date when="1857-06-12">12. Juni 1857</date> </tab>
+						<tab>Die Bundesversammlung ratifiziert den <placeName key="Paris (F)">Pariser</placeName> Vertrag vom <date when="1857-05-26">26. Mai 1857</date>
+							betreffend <placeName key="Neuenburg">Neuenburger</placeName> Konflikt. Darin verzichtet der <persName key="Friedrich Wilhelm IV. (Preussen)">preussische König
+</persName>
+							für sich und seine Nachfolger auf die <placeName key="Neuenburg">Neuenburger</placeName> Souveränitätsrechte.
 							Die Schweiz muss die angefallenen Kosten übernehmen und zusätzlich allen
 							an den September-Ereignissen von 1856 beteiligten Personen Amnestie
 							erteilen.</tab>
@@ -323,4 +388,5 @@
 </div>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>

@@ -1,56 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE commentary SYSTEM "commentary.dtd">
-<?xml-stylesheet type="text/xsl" href="commentary.xsl"?><commentary id="Letztes_Werk" name="Letztes Werk">
-	<metadata>
-		<title>Alfred Eschers grösstes und letztes Werk</title>
-		<author>
-			<name>Prof. Dr. Joseph Jung</name>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Letztes_Werk">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alfred Eschers grösstes und letztes Werk</title>
+                <author>
+			Prof. Dr. Joseph Jung
 		</author>
-		<source>
-			<volume_title>Jung Joseph (Hrsg.), Alfred Escher zwischen Lukmanier und Gotthard.
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jung Joseph (Hrsg.), Alfred Escher zwischen Lukmanier und Gotthard.
 				Briefe zur schweizerischen Alpenbahnfrage 1850–1882 (Alfred Escher. Briefe. 
-				Ein Editions- und Forschungsprojekt der Alfred Escher-Stiftung, Band 1), Zürich 2008</volume_title>
-			<short_title>Jung, Escher Briefe, Band 1</short_title>
-			<volume>1</volume>
-			<page>9–16</page>
-		</source>
-		<description>Alfred Escher – Gotthardbahn – Alfred Escher-Stiftung und Briefedition</description>
-		<revision>
-			<change>XML-Grundstruktur erstellt, RO, 06.08.2013 </change>
-			<change>Auszeichnung 1 umgesetzt, RO, 06.08.2013</change>
-			<change>Verifizierung 1 umgesetzt, NB, 29.08.2013</change>
-			<change>Auszeichnung 2 umgesetzt, MB, 15.01.2014</change>
-			<change>Verifiziert, BF, 17.06.2015</change>
-		</revision>
-	</metadata>
-	<body>
-		<div id="Letztes_Werk_d1">			
+				Ein Editions- und Forschungsprojekt der Alfred Escher-Stiftung, Band 1), Zürich 2008</title>
+                    <title type="short">Jung, Escher Briefe, Band 1</title>
+                    <ref type="volume" target="V1">9–16</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Alfred Escher – Gotthardbahn – Alfred Escher-Stiftung und Briefedition</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>XML-Grundstruktur erstellt, RO, 06.08.2013 </change>
+                <change>Auszeichnung 1 umgesetzt, RO, 06.08.2013</change>
+                <change>Verifizierung 1 umgesetzt, NB, 29.08.2013</change>
+                <change>Auszeichnung 2 umgesetzt, MB, 15.01.2014</change>
+                <change>Verifiziert, BF, 17.06.2015</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		<div xml:id="Letztes_Werk_d1">			
 			<head>Alfred Eschers grösstes und letztes Werk</head>			
-			<div id="Letztes_Werk_d1.1">
+			<div xml:id="Letztes_Werk_d1.1">
 				<head>Alfred Escher</head>
-			<p id="Letztes_Werk_p1">Der <idx type="place" norm="Zürich">Zürcher</idx> Alfred Escher war die herausragende wirtschaftspolitische Persönlichkeit
+			<p xml:id="Letztes_Werk_p1">Der <placeName key="Zürich">Zürcher</placeName> Alfred Escher war die herausragende wirtschaftspolitische Persönlichkeit
 			in der Schweiz des 19. Jahrhunderts. Er zählte zu jenen Pionieren der Gründerzeit, die das
 			dynamische Umfeld des jungen Bundesstaates zu nutzen wussten. Eschers Aufstieg in der
 			kantonalen und eidgenössischen Politik war geradezu kometenhaft: Mit 26 Jahren war er
-			<idx type="place" norm="Zürich">zürcherischer</idx> Grossrat und Tagsatzungsgesandter, mit 29 <idx type="place" norm="Zürich">Zürcher</idx> Regierungsrat, erstmals
-			Präsident des <idx type="place" norm="Zürich">Zürcher</idx> Grossen Rates und eines der jüngsten Mitglieder des 1848 gewählten
+			<placeName key="Zürich">zürcherischer</placeName> Grossrat und Tagsatzungsgesandter, mit 29 <placeName key="Zürich">Zürcher</placeName> Regierungsrat, erstmals
+			Präsident des <placeName key="Zürich">Zürcher</placeName> Grossen Rates und eines der jüngsten Mitglieder des 1848 gewählten
 			ersten Nationalrates,
 			mit 30 erstmals Regierungsrats- und Nationalratspräsident. Noch war
 			das neugeschaffene Parlament 1848 nicht zu seiner ersten Sitzung zusammengetreten, als
-			der 29jährige <idx type="place" norm="Zürich">Zürcher</idx> schon als eidgenössischer Kommissär in den Kanton <idx type="place" norm="Tessin">Tessin</idx> geschickt
+			der 29jährige <placeName key="Zürich">Zürcher</placeName> schon als eidgenössischer Kommissär in den Kanton <placeName key="Tessin">Tessin</placeName> geschickt
 			wurde. Über die ganze Zeit seiner politischen Tätigkeit sass Escher in mehr als 200 eidgenössischen
-			und <idx type="place" norm="Zürich">zürcherischen</idx> Kommissionen, von denen er einen grossen Teil präsidierte. Auf
+			und <placeName key="Zürich">zürcherischen</placeName> Kommissionen, von denen er einen grossen Teil präsidierte. Auf
 			Escher gehen die bis heute massgeblichen Maximen der schweizerischen Neutralitätspolitik
-			zurück. Sowohl im <idx type="place" norm="Neuenburg">Neuenburger</idx> Konflikt und im <idx type="place" norm="Savoyen">Savoyer</idx> Handel als auch in der Flüchtlingsproblematik
+			zurück. Sowohl im <placeName key="Neuenburg">Neuenburger</placeName> Konflikt und im <placeName key="Savoyen">Savoyer</placeName> Handel als auch in der Flüchtlingsproblematik
 			profilierte er sich als pragmatischer Aussenpolitiker, der nicht in erster Linie für
 			militärische, sondern für wirtschaftliche Stärke plädierte. Eschers «Erfolgsjahrzehnt» dauerte
 			von 1848/49 bis in die frühen 1860er Jahre. In diesem Zeitraum realisierte Escher seine grossen
 			wirtschafts- und kulturpolitischen Projekte: die Nordostbahn (1852/53), das Eidgenössische
-			Polytechnikum (1855, heute <abbr norm="Eidgenössische Technische Hochschule (Zürich)">ETH</abbr> <idx type="place" norm="Zürich (Stadt)">Zürich</idx>), die Schweizerische Kreditanstalt (1856, heute
+			Polytechnikum (1855, heute <choice>
+                            <abbr>ETH</abbr>
+                            <expan>Eidgenössische Technische Hochschule (Zürich)</expan>
+                        </choice> <placeName key="Zürich (Stadt)">Zürich</placeName>), die Schweizerische Kreditanstalt (1856, heute
 			Credit Suisse) und die Schweizerische Lebensversicherungs- und Rentenanstalt (1857, heute
 			Swiss Life). Die Synergien, die er zwischen Politik, Bank-, Eisenbahn- und Bildungswesen schuf,
 			verhalfen der Schweiz zu einem ungeahnten Aufschwung.</p>
-			<p id="Letztes_Werk_p2">Den eigentlichen Motor der wirtschaftlichen Entwicklung stellten der von Alfred Escher
+			<p xml:id="Letztes_Werk_p2">Den eigentlichen Motor der wirtschaftlichen Entwicklung stellten der von Alfred Escher
 			1852 massgeblich erwirkte Entscheid für den privaten Eisenbahnbau und der dadurch entfesselte
 			Konkurrenzkampf zwischen den verschiedenen Bahngesellschaften dar. Die Situation
 			erforderte Politiker und Wirtschaftsvertreter, die dank einer starken Hausmacht in Regierung
@@ -71,224 +90,254 @@
 			stehend, gilt als Personifikation des fulminanten Aufbruchs zur modernen
 			Schweiz ab Mitte
 			des 19. Jahrhunderts.</p>
-			<p id="Letztes_Werk_p3"><pb n="10"/>Sein grösster Erfolg fiel in die 1870er Jahre. Escher erkannte die eminente Bedeutung
+			<p xml:id="Letztes_Werk_p3">
+                        <pb n="10"/>Sein grösster Erfolg fiel in die 1870er Jahre. Escher erkannte die eminente Bedeutung
 			einer
-			Nord-Süd-Verbindung für die Schweiz und verhalf dem <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>unternehmen unter Einsatz
+			Nord-Süd-Verbindung für die Schweiz und verhalf dem <placeName key="St. Gotthard (Pass)">Gotthard</placeName>unternehmen unter Einsatz
 			seiner ganzen Kraft und seines einzigartigen Beziehungsnetzes zum Sieg über die anderen
-			<idx type="place" norm="Alpen">Alpen</idx>bahnvorhaben. Mit der erfolgreichen Realisierung des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>projekts setzte Escher
+			<placeName key="Alpen">Alpen</placeName>bahnvorhaben. Mit der erfolgreichen Realisierung des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>projekts setzte Escher
 			seinem Lebenswerk die Krone auf – und dies paradoxerweise in einer Zeit, die nicht mehr die
 			seine war. Die einzigartige Epoche des ungehemmten Schweizer Wirtschaftsliberalismus
 			gehörte
-			längst der Vergangenheit an. In Eschers Stammland, dem Kanton <idx type="place" norm="Zürich">Zürich</idx>, wurde seinem
+			längst der Vergangenheit an. In Eschers Stammland, dem Kanton <placeName key="Zürich">Zürich</placeName>, wurde seinem
 			liberalen System durch die demokratische Bewegung mehr und mehr der Boden entzogen, und
 			auch auf Bundesebene büssten die Liberalen ihre absoluten Mehrheiten ein. Eschers Beziehungsnetz
 			und Machtapparat schrumpften unaufhaltsam, nicht zuletzt auch durch den Tod
 			etlicher wichtiger Weggefährten. Escher selbst war zu einem Anachronismus
 			geworden. Ausgerechnet
-			das <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>projekt geriet ihm persönlich zur grössten Niederlage und zur wohl
+			das <placeName key="St. Gotthard (Pass)">Gotthard</placeName>projekt geriet ihm persönlich zur grössten Niederlage und zur wohl
 			schmerzlichsten Enttäuschung seines Lebens. Trotzdem gelang es ihm, mit dem Jahrhundertbau
-			der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn den Grundstein für das moderne Transitland Schweiz zu legen.</p>
+			der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn den Grundstein für das moderne Transitland Schweiz zu legen.</p>
 			</div>		
-			<div id="Letztes_Werk_d1.2">
+			<div xml:id="Letztes_Werk_d1.2">
 				<head>Die Gotthardbahn</head>
-			<p id="Letztes_Werk_p4">1882 feierte die Schweiz mit der Eröffnung der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>linie ein modernes Weltwunder,
+			<p xml:id="Letztes_Werk_p4">1882 feierte die Schweiz mit der Eröffnung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>linie ein modernes Weltwunder,
 			einen grandiosen Triumph von Wissenschaft und Technik: die Bezwingung des helvetischen
-			<idx type="place" norm="Alpen">Alpen</idx>riegels. Die <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn war damals das weltweit kühnste eisenbahntechnische
+			<placeName key="Alpen">Alpen</placeName>riegels. Die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn war damals das weltweit kühnste eisenbahntechnische
 			Unternehmen
 			und ist das grösste Projekt geblieben, das in der Schweiz bis Ende des 20. Jahrhunderts
-			realisiert worden ist. Die <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn war die erste wintersichere Verbindung
-			durch die Schweizer <idx type="place" norm="Alpen">Alpen</idx>, der schnellste und einfachste Weg durchs Zentralgebirge des
+			realisiert worden ist. Die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn war die erste wintersichere Verbindung
+			durch die Schweizer <placeName key="Alpen">Alpen</placeName>, der schnellste und einfachste Weg durchs Zentralgebirge des
 			Kontinents.
 			Der Tunnel wurde denn auch als Triumph der Technik und als Sieg des Menschen
-			über die Natur gefeiert. Die Eisenbahnlinie durch den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> eröffnete den wirtschaftlichen
-			und kulturellen Beziehungen zwischen <idx type="place" norm="Italien (Königreich)">Italien</idx>, der Schweiz und <idx type="place" norm="Deutsches Reich">Deutschland</idx> neue Möglichkeiten,
+			über die Natur gefeiert. Die Eisenbahnlinie durch den <placeName key="St. Gotthard (Pass)">Gotthard</placeName> eröffnete den wirtschaftlichen
+			und kulturellen Beziehungen zwischen <placeName key="Italien (Königreich)">Italien</placeName>, der Schweiz und <placeName key="Deutsches Reich">Deutschland</placeName> neue Möglichkeiten,
 			und der Schweiz gelang es, sich als modernes Transitland zu etablieren. Das Thema
-			<idx type="place" norm="Alpen">Alpen</idx>transversale hat auch nach über 125 Jahren nichts an Brisanz eingebüsst. Die Überwindung
-			der <idx type="place" norm="Alpen">Alpen</idx> stellt nach wie vor eine Herausforderung dar, die ausserordentliche
+			<placeName key="Alpen">Alpen</placeName>transversale hat auch nach über 125 Jahren nichts an Brisanz eingebüsst. Die Überwindung
+			der <placeName key="Alpen">Alpen</placeName> stellt nach wie vor eine Herausforderung dar, die ausserordentliche
 			Leistungen
 			verlangt.</p>				
-			<p id="Letztes_Werk_p5">Mit dem 34,6 <abbr norm="Kilometer">km</abbr> langen neuen <idx type="place" norm="Lötschberg">Lötschberg</idx>tunnel, der im Juni 2007 eröffnet wurde,
-			bekommt das Jahrhundertwerk <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn Gesellschaft: Die Linie durch den <idx type="place" norm="Lötschberg">Lötschberg</idx>
+			<p xml:id="Letztes_Werk_p5">Mit dem 34,6 <choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice> langen neuen <placeName key="Lötschberg">Lötschberg</placeName>tunnel, der im Juni 2007 eröffnet wurde,
+			bekommt das Jahrhundertwerk <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn Gesellschaft: Die Linie durch den <placeName key="Lötschberg">Lötschberg</placeName>
 			ist der erste fertiggestellte Basistunnel
-			durch die <idx type="place" norm="Alpen">Alpen</idx> und wie einst der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnel der
-				längste <idx type="place" norm="Alpen">Alpen</idx>tunnel. Nach dem <idx type="place" norm="Seikan-Tunnel (Japan)">Seikan</idx>- und dem <idx type="place" norm="Eurotunnel (F-UK)">Eurotunnel</idx> ist er der drittlängste Tunnel der
-			Welt. Allerdings wird der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>basistunnel mit seinen 57 <abbr norm="Kilometer">km</abbr> Länge, der voraussichtlich
-			2016/17 beendet wird, dem <idx type="place" norm="Lötschberg">Lötschberg</idx> den Rang wieder ablaufen. Die damalige Planungs-und
-			Baugeschichte der <idx type="place" norm="Alpen">Alpen</idx>transversale und die aktuelle Verwirklichung
-			der Neuen Eisenbahn-<idx type="place" norm="Alpen">Alpen</idx>transversale (<abbr norm="Neue Eisenbahn-Alpentransversale">Neat</abbr>) weisen erstaunlich viele Ähnlichkeiten auf. Sowohl die Debatten,
+			durch die <placeName key="Alpen">Alpen</placeName> und wie einst der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnel der
+				längste <placeName key="Alpen">Alpen</placeName>tunnel. Nach dem <placeName key="Seikan-Tunnel (Japan)">Seikan</placeName>- und dem <placeName key="Eurotunnel (F-UK)">Eurotunnel</placeName> ist er der drittlängste Tunnel der
+			Welt. Allerdings wird der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>basistunnel mit seinen 57 <choice>
+                            <abbr>km</abbr>
+                            <expan>Kilometer</expan>
+                        </choice> Länge, der voraussichtlich
+			2016/17 beendet wird, dem <placeName key="Lötschberg">Lötschberg</placeName> den Rang wieder ablaufen. Die damalige Planungs-und
+			Baugeschichte der <placeName key="Alpen">Alpen</placeName>transversale und die aktuelle Verwirklichung
+			der Neuen Eisenbahn-<placeName key="Alpen">Alpen</placeName>transversale (<choice>
+                            <abbr>Neat</abbr>
+                            <expan>Neue Eisenbahn-Alpentransversale</expan>
+                        </choice>) weisen erstaunlich viele Ähnlichkeiten auf. Sowohl die Debatten,
 			Konfliktlinien und Zielsetzungen auf politischer Ebene als auch die finanziellen,
 			technischen
 			und rechtlichen Probleme gleichen sich in mehrfacher Hinsicht. Mit der historischen
-			<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn wie mit der <abbr norm="Neue Eisenbahn-Alpentransversale">Neat</abbr> sollten die Gefahr einer Umfahrung der Schweiz abgewendet
-			und der Anschluss ans <idx type="place" norm="Europa">europäische</idx> Schienen- <abbr norm="beziehungsweise">bzw.</abbr> Hochgeschwindigkeitsnetz gesichert
+			<placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn wie mit der <choice>
+                            <abbr>Neat</abbr>
+                            <expan>Neue Eisenbahn-Alpentransversale</expan>
+                        </choice> sollten die Gefahr einer Umfahrung der Schweiz abgewendet
+			und der Anschluss ans <placeName key="Europa">europäische</placeName> Schienen- <choice>
+                            <abbr>bzw.</abbr>
+                            <expan>beziehungsweise</expan>
+                        </choice> Hochgeschwindigkeitsnetz gesichert
 			werden.
-			Neben der Belebung der Wirtschaft wird der <idx type="place" norm="Alpen">Alpen</idx>transversale heute wie im 19. Jahrhundert
+			Neben der Belebung der Wirtschaft wird der <placeName key="Alpen">Alpen</placeName>transversale heute wie im 19. Jahrhundert
 			ein gesellschaftspolitischer Nutzen zugeschrieben: Man verspricht sich einen
 			wichtigen
-			Beitrag zum Zusammenhalt der Regionen diesseits und jenseits der Schweizer <idx type="place" norm="Alpen">Alpen</idx>.</p>
-			<p id="Letztes_Werk_p6"><pb n="11"/>Wie bereits 1869 und 1877 gelang auch im ausgehenden 20. Jahrhundert das verhandlungstaktische
+			Beitrag zum Zusammenhalt der Regionen diesseits und jenseits der Schweizer <placeName key="Alpen">Alpen</placeName>.</p>
+			<p xml:id="Letztes_Werk_p6">
+                        <pb n="11"/>Wie bereits 1869 und 1877 gelang auch im ausgehenden 20. Jahrhundert das verhandlungstaktische
 			Meisterstück, das Ausland für ein schweizerisches Grossprojekt zu gewinnen,
-			wenn auch in etwas anderer Form und in geringerem Umfang. Subventionierten <idx type="place" norm="Italien (Königreich)">Italien</idx> und
-			<idx type="place" norm="Deutsches Reich">Deutschland</idx> zu einem grossen Teil die Realisierung der historischen <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>linie, so verpflichtet
-			sich heute die <idx type="place" norm="Europa">Europäische</idx> Union, den Bau der <abbr norm="Neue Eisenbahn-Alpentransversale">Neat</abbr> auf indirektem Weg zu unterstützen.
+			wenn auch in etwas anderer Form und in geringerem Umfang. Subventionierten <placeName key="Italien (Königreich)">Italien</placeName> und
+			<placeName key="Deutsches Reich">Deutschland</placeName> zu einem grossen Teil die Realisierung der historischen <placeName key="St. Gotthard (Pass)">Gotthard</placeName>linie, so verpflichtet
+			sich heute die <placeName key="Europa">Europäische</placeName> Union, den Bau der <choice>
+                            <abbr>Neat</abbr>
+                            <expan>Neue Eisenbahn-Alpentransversale</expan>
+                        </choice> auf indirektem Weg zu unterstützen.
 			Wesentlich verändert haben sich bei den Verhandlungen mit den Nachbarstaaten die Rahmenbedingungen,
 			wenn diese auch nichts an Komplexität eingebüsst haben. Im 19. Jahrhundert
 			war die Situation durch die häufigen und schnell aufeinanderfolgenden Regierungswechsel in
-			<idx type="place" norm="Italien (Königreich)">Italien</idx> sowie die grosse Zahl der <idx type="place" norm="Deutschland">deutschen</idx> Ansprechpartner erschwert worden. Bei den Verhandlungen
+			<placeName key="Italien (Königreich)">Italien</placeName> sowie die grosse Zahl der <placeName key="Deutschland">deutschen</placeName> Ansprechpartner erschwert worden. Bei den Verhandlungen
 			über die bilateralen Verträge I, in denen über die leistungsabhängige
 			Schwerverkehrsabgabe
-			auch die Beteiligung des Auslands an der <abbr norm="Neue Eisenbahn-Alpentransversale">Neat</abbr> festgelegt wurde, stand der
-			Schweiz mit der <idx type="place" norm="Europa">Europäischen</idx> Union zwar nur noch ein einziger, dafür übermächtiger Verhandlungspartner
+			auch die Beteiligung des Auslands an der <choice>
+                            <abbr>Neat</abbr>
+                            <expan>Neue Eisenbahn-Alpentransversale</expan>
+                        </choice> festgelegt wurde, stand der
+			Schweiz mit der <placeName key="Europa">Europäischen</placeName> Union zwar nur noch ein einziger, dafür übermächtiger Verhandlungspartner
 			gegenüber.</p>
-			<p id="Letztes_Werk_p7">Untrennbar ist mit dem ersten <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnel das Leben und Wirken Alfred Eschers
+			<p xml:id="Letztes_Werk_p7">Untrennbar ist mit dem ersten <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnel das Leben und Wirken Alfred Eschers
 			verknüpft. Welche Dichte diese Verknüpfung aber aufwies und wie weitgehend der prominente
-			<idx type="place" norm="Zürich">Zürcher</idx> die Fäden bei der Realisierung der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn in der Hand hatte, wird dem
+			<placeName key="Zürich">Zürcher</placeName> die Fäden bei der Realisierung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn in der Hand hatte, wird dem
 			Leser der vorliegenden Bände erstmals detailliert und greifbar vor Augen geführt. Escher war
-			die Seele des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>projekts; ohne ihn wäre die erste Schweizer <idx type="place" norm="Alpen">Alpen</idx>transversale Jahre,
+			die Seele des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>projekts; ohne ihn wäre die erste Schweizer <placeName key="Alpen">Alpen</placeName>transversale Jahre,
 			wenn nicht Jahrzehnte später verwirklicht worden.</p>
 				
-			<p id="Letztes_Werk_p8">Eschers Korrespondenz verdeutlicht, wie sein in diesem Umfang einzigartiger Einfluss auf
+			<p xml:id="Letztes_Werk_p8">Eschers Korrespondenz verdeutlicht, wie sein in diesem Umfang einzigartiger Einfluss auf
 			politischer und wirtschaftlicher Ebene, sein breit angelegtes Beziehungsnetz, aber auch sein
 			unermüdlicher Schaffensdrang, seine Hartnäckigkeit und sein professionelles, zielgerichtetes
-			Vorgehen dem <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>projekt schliesslich zum Durchbruch verhalfen. Geradezu unerbittlich,
+			Vorgehen dem <placeName key="St. Gotthard (Pass)">Gotthard</placeName>projekt schliesslich zum Durchbruch verhalfen. Geradezu unerbittlich,
 			rücksichts- und gnadenlos und trotz aller Widrigkeiten und Hindernisse hielt er an seiner
 			Vision fest.</p>
-			<p id="Letztes_Werk_p9">Escher war im Unterschied zu anderen am <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>vorhaben beteiligten Persönlichkeiten
+			<p xml:id="Letztes_Werk_p9">Escher war im Unterschied zu anderen am <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vorhaben beteiligten Persönlichkeiten
 			ein Macher und hinterliess entsprechende Spuren. Er schreckte nicht davor zurück, grosse
 			Projekte zielstrebig und energisch anzugehen. In der Öffnung der Schweiz und im Bereitstellen
 			von Infrastrukturen sah er eine für den jungen Bundesstaat existentielle Notwendigkeit.
 			Gleichzeitig musste die Schweiz aber ihren eigenständigen und neutralen Charakter bewahren
 			können.</p>
-			<p id="Letztes_Werk_p10">Massgeblich prägte Alfred Escher die Strukturen des jungen Bundesstaates. So trug er
+			<p xml:id="Letztes_Werk_p10">Massgeblich prägte Alfred Escher die Strukturen des jungen Bundesstaates. So trug er
 			entscheidend zum Eisenbahngesetz von 1852 bei, das den Bau von Eisenbahnen Privaten
-			<abbr norm="beziehungsweise">bzw.</abbr> den Kantonen überliess. Als «Eisenbahnbaron», Bankier und Politiker gab er die Impulse
+			<choice>
+                            <abbr>bzw.</abbr>
+                            <expan>beziehungsweise</expan>
+                        </choice> den Kantonen überliess. Als «Eisenbahnbaron», Bankier und Politiker gab er die Impulse
 			auf wirtschafts-, innen- und aussenpolitischer Ebene und stiess so den Aufbruch zur modernen
 			Schweiz an.</p>
-			<p id="Letztes_Werk_p11">Alfred Escher erkannte schon früh die Gefahr, dass die Schweiz ohne Eisenbahnverbindungen
+			<p xml:id="Letztes_Werk_p11">Alfred Escher erkannte schon früh die Gefahr, dass die Schweiz ohne Eisenbahnverbindungen
 			ins nahe Ausland zu einem «von dem grossen Weltverkehr umgangenen und verlassenen
 			Eilande herabsinken» könnte. Seit 1850 korrespondierte er mit den Promotoren einer
-			Ost<idx type="place" norm="Alpen">alpen</idx>bahn über eine <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx>transversale. Ab 1863 setzte er sich mit Aufbietung aller
-			Kräfte für die <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>bahn ein. Dabei war er Visionär, Politiker und Unternehmer in einem.
+			Ost<placeName key="Alpen">alpen</placeName>bahn über eine <placeName key="Lukmanier (Pass)">Lukmanier</placeName>transversale. Ab 1863 setzte er sich mit Aufbietung aller
+			Kräfte für die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn ein. Dabei war er Visionär, Politiker und Unternehmer in einem.
 			Versiert führte er Verhandlungen mit eidgenössischen und kantonalen Behörden sowie den
-			Regierungen <idx type="place" norm="Deutschland">Deutschlands</idx> und <idx type="place" norm="Italien (Königreich)">Italiens</idx>, zog Fachleute aus Finanz- und Eisenbahnkreisen zu
+			Regierungen <placeName key="Deutschland">Deutschlands</placeName> und <placeName key="Italien (Königreich)">Italiens</placeName>, zog Fachleute aus Finanz- und Eisenbahnkreisen zu
 			Rat und unternahm zu diesem Zweck zahlreiche Reisen. Dabei liess Escher geschickt und ganz <pb n="12"/>unbefangen
 			das Netzwerk seiner Beziehungen spielen und nutzte seine bis heute einzigartige
 			Kumulation und Verflechtung von Machtpositionen und Ämtern. Im Ausland gestaltete sich
-			das Lobbying allerdings schwieriger als in der Schweiz: <idx type="place" norm="Italien (Königreich)">Italien</idx> und <idx type="place" norm="Deutschland">Deutschland</idx> mussten für
-			das Wagnis «<idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>» gewonnen und davon überzeugt werden, dass die kleine, unbedeutende
+			das Lobbying allerdings schwieriger als in der Schweiz: <placeName key="Italien (Königreich)">Italien</placeName> und <placeName key="Deutschland">Deutschland</placeName> mussten für
+			das Wagnis «<placeName key="St. Gotthard (Pass)">Gotthard</placeName>» gewonnen und davon überzeugt werden, dass die kleine, unbedeutende
 			Schweiz fähig war, ein Bauwerk dieses Umfangs zu realisieren. Escher begnügte sich
 			aber nicht mit der Suche nach politischen Mehrheiten und finanzieller Unterstützung, sondern
 			übernahm bis 1878 als Direktionspräsident auch das Management der Gotthardbahn-Gesellschaft.</p>
-			<p id="Letztes_Werk_p12">Wie die vorliegenden Teilbände an zahlreichen Beispielen aufzeigen, zeugt Eschers Wirken
-			für die <idx type="place" norm="Alpen">Alpen</idx>transversale von einer Professionalität, die ihresgleichen sucht. In schwierigen
+			<p xml:id="Letztes_Werk_p12">Wie die vorliegenden Teilbände an zahlreichen Beispielen aufzeigen, zeugt Eschers Wirken
+			für die <placeName key="Alpen">Alpen</placeName>transversale von einer Professionalität, die ihresgleichen sucht. In schwierigen
 			Entscheidungs- und Problemlösungsprozessen zeichnete er sich durch ein sachgerechtes
 			und wohlüberlegtes Vorgehen aus. Escher verfolgte seine Ziele zwar konsequent, aber nicht
-			blindlings – neue Entwicklungen zog er in seine Entscheidungen mit ein. Auch in der <idx type="place" norm="Alpen">Alpen</idx>bahnfrage
+			blindlings – neue Entwicklungen zog er in seine Entscheidungen mit ein. Auch in der <placeName key="Alpen">Alpen</placeName>bahnfrage
 			blieb er pragmatisch und unterstützte das jeweils aussichtsreichere Projekt. Diese
 			offene Haltung war es, die den liberalen Escher vom Lager der ihm mental näherstehenden
-			<idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx>vertreter in dasjenige der katholisch-konservativ geprägten <idx type="place" norm="Zentralschweiz">Zentralschweizer</idx> wechseln
+			<placeName key="Lukmanier (Pass)">Lukmanier</placeName>vertreter in dasjenige der katholisch-konservativ geprägten <placeName key="Zentralschweiz">Zentralschweizer</placeName> wechseln
 			liess.</p>
-			<p id="Letztes_Werk_p13">Anfang der 1850er Jahre galt Eschers Aufmerksamkeit noch der <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx>linie, von
+			<p xml:id="Letztes_Werk_p13">Anfang der 1850er Jahre galt Eschers Aufmerksamkeit noch der <placeName key="Lukmanier (Pass)">Lukmanier</placeName>linie, von
 			deren Vertretern er als tatkräftige Persönlichkeit, als Kopf der Schweizerischen Nordostbahn
-			und des Kantons <idx type="place" norm="Zürich">Zürich</idx> umworben wurde. Die <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx>bahn, die von <idx type="place" norm="Chur">Chur</idx> nach <idx type="place" norm="Biasca">Biasca</idx>
+			und des Kantons <placeName key="Zürich">Zürich</placeName> umworben wurde. Die <placeName key="Lukmanier (Pass)">Lukmanier</placeName>bahn, die von <placeName key="Chur">Chur</placeName> nach <placeName key="Biasca">Biasca</placeName>
 			führen sollte, war zu diesem Zeitpunkt das einzige in den Grundzügen konzipierte Projekt, das
 			als technisch machbar galt und einige wichtige politische Entscheidungsträger hinter sich zu
-			scharen vermochte. Vertreter der <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx>variante wie <idx type="person" norm="Blumer Johann Jakob">Johann Jakob Blumer</idx>, <idx type="person" norm="Brosi Johann Rudolf">Johann Rudolf
-			Brosi</idx> und <idx type="person" norm="Aepli Arnold Otto">Arnold Otto Aepli</idx> gehörten zu Eschers Freundeskreis. Allerdings traten immer neue
-			Hindernisse auf. Bald erwiesen sich die Verantwortlichen wie auch die <idx type="place" norm="England">englischen</idx> Geldgeber
+			scharen vermochte. Vertreter der <placeName key="Lukmanier (Pass)">Lukmanier</placeName>variante wie <persName key="Blumer Johann Jakob">Johann Jakob Blumer</persName>, <persName key="Brosi Johann Rudolf">Johann Rudolf
+			Brosi</persName> und <persName key="Aepli Arnold Otto">Arnold Otto Aepli</persName> gehörten zu Eschers Freundeskreis. Allerdings traten immer neue
+			Hindernisse auf. Bald erwiesen sich die Verantwortlichen wie auch die <placeName key="England">englischen</placeName> Geldgeber
 			als unzuverlässig und unprofessionell. Mit der Verdichtung des Schweizer Eisenbahnnetzes,
-			der technischen Weiterentwicklung und der Lancierung der ersten <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>studien veränderte
+			der technischen Weiterentwicklung und der Lancierung der ersten <placeName key="St. Gotthard (Pass)">Gotthard</placeName>studien veränderte
 			sich die Sachlage. In der ersten Hälfte der 1860er Jahre neigte sich die Waagschale
-			zugunsten des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>unternehmens. Wirtschaftsstrategische Überlegungen gewannen für
+			zugunsten des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>unternehmens. Wirtschaftsstrategische Überlegungen gewannen für
 			Escher die Oberhand über seine parteipolitischen Präferenzen als Führer der liberalen Kräfte.
-			Schliesslich verband die <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>achse «die Schweiz auf dem kürzesten Wege mit <idx type="place" norm="Italien (Königreich)">Italien</idx> und
-			dem <idx type="place" norm="Orient">Oriente</idx>». Im übrigen konnte nur der <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> den innenpolitischen Anforderungen einer
-			<idx type="place" norm="Alpen">Alpen</idx>transversale gerecht werden: Er verband den Norden der Schweiz auf direktem Weg
-			mit dem <idx type="place" norm="Tessin">Tessin</idx>, war dank seiner zentralen Lage volkswirtschaftlich für eine Mehrheit der
+			Schliesslich verband die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>achse «die Schweiz auf dem kürzesten Wege mit <placeName key="Italien (Königreich)">Italien</placeName> und
+			dem <placeName key="Orient">Oriente</placeName>». Im übrigen konnte nur der <placeName key="St. Gotthard (Pass)">Gotthard</placeName> den innenpolitischen Anforderungen einer
+			<placeName key="Alpen">Alpen</placeName>transversale gerecht werden: Er verband den Norden der Schweiz auf direktem Weg
+			mit dem <placeName key="Tessin">Tessin</placeName>, war dank seiner zentralen Lage volkswirtschaftlich für eine Mehrheit der
 			Kantone interessant und fand daher den nötigen politischen Rückhalt. Zudem barg er in militärischer
 			und versorgungstechnischer Hinsicht weniger Risiken und Gefahren als andere Projekte.
-			Die politischen Entwicklungen – mit der Einigung <idx type="place" norm="Italien">Italiens</idx> und <idx type="place" norm="Deutschland">Deutschlands</idx> auch auf
-			<idx type="place" norm="Europa">europäischer</idx> Ebene – begünstigten den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> gegenüber dem <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx>. Hinzu kam,
-			dass <idx type="place" norm="Preussen (Königreich)">Preussens</idx> Wirtschaftsmacht jene der politischen Grossmacht <idx type="place" norm="Österreich (Kaisertum)">Österreich</idx> bei weitem
-			überwog und die <idx type="place" norm="Zürich">Zürcher</idx> Liberalen ideologisch auf <idx type="place" norm="Deutschland">Deutschland</idx> ausgerichtet waren. Das
-			<idx type="place" norm="Splügen (Pass)">Splügen</idx>projekt hatte nie eine Chance – das <idx type="place" norm="Lukmanier (Pass)">Lukmanier</idx>projekt nur während kurzer Zeit. Eine
-			West<idx type="place" norm="Alpen">alpen</idx>bahn kam angesichts der infolge des <idx type="place" norm="Savoyen">Savoyer</idx> Handels (1860) getrübten Beziehungen
-			zu <idx type="place" norm="Frankreich">Frankreich</idx> und in Anbetracht der <idx type="place" norm="Zürich">Zürcher</idx> Sympathien für <idx type="place" norm="Deutschland">Deutschland</idx> ebenfalls nicht
+			Die politischen Entwicklungen – mit der Einigung <placeName key="Italien">Italiens</placeName> und <placeName key="Deutschland">Deutschlands</placeName> auch auf
+			<placeName key="Europa">europäischer</placeName> Ebene – begünstigten den <placeName key="St. Gotthard (Pass)">Gotthard</placeName> gegenüber dem <placeName key="Lukmanier (Pass)">Lukmanier</placeName>. Hinzu kam,
+			dass <placeName key="Preussen (Königreich)">Preussens</placeName> Wirtschaftsmacht jene der politischen Grossmacht <placeName key="Österreich (Kaisertum)">Österreich</placeName> bei weitem
+			überwog und die <placeName key="Zürich">Zürcher</placeName> Liberalen ideologisch auf <placeName key="Deutschland">Deutschland</placeName> ausgerichtet waren. Das
+			<placeName key="Splügen (Pass)">Splügen</placeName>projekt hatte nie eine Chance – das <placeName key="Lukmanier (Pass)">Lukmanier</placeName>projekt nur während kurzer Zeit. Eine
+			West<placeName key="Alpen">alpen</placeName>bahn kam angesichts der infolge des <placeName key="Savoyen">Savoyer</placeName> Handels (1860) getrübten Beziehungen
+			zu <placeName key="Frankreich">Frankreich</placeName> und in Anbetracht der <placeName key="Zürich">Zürcher</placeName> Sympathien für <placeName key="Deutschland">Deutschland</placeName> ebenfalls nicht
 			in Frage.</p>
-			<p id="Letztes_Werk_p14"><pb n="13"/>Eschers Professionalität zeigte sich auch in seiner Fähigkeit, Fachwissen gezielt einzusetzen,
-			indem er die besten Köpfe wie etwa Bauunternehmer <idx type="person" norm="Favre Louis">Louis Favre</idx>, die Oberingenieure
-			<idx type="person" norm="Gerwig Robert">Robert Gerwig</idx> sowie <idx type="person" norm="Hellwag Konrad Wilhelm">Konrad Wilhelm Hellwag</idx> oder den Finanzfachmann <idx type="person" norm="Stoll Georg">Georg Stoll</idx> – um
+			<p xml:id="Letztes_Werk_p14">
+                        <pb n="13"/>Eschers Professionalität zeigte sich auch in seiner Fähigkeit, Fachwissen gezielt einzusetzen,
+			indem er die besten Köpfe wie etwa Bauunternehmer <persName key="Favre Louis">Louis Favre</persName>, die Oberingenieure
+			<persName key="Gerwig Robert">Robert Gerwig</persName> sowie <persName key="Hellwag Konrad Wilhelm">Konrad Wilhelm Hellwag</persName> oder den Finanzfachmann <persName key="Stoll Georg">Georg Stoll</persName> – um
 			nur einige zu nennen – um sich scharte. Diese Fähigkeit Eschers trug schliesslich auch wesentlich
-			zur Präzision in Planung und Umsetzung des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>projekts bei. Aus heutiger Sicht ist
-			beeindruckend, wie exakt <idx type="person" norm="Favre Louis">Favre</idx> angesichts der zahlreichen
-			Unbekannten – das <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>massiv
+			zur Präzision in Planung und Umsetzung des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>projekts bei. Aus heutiger Sicht ist
+			beeindruckend, wie exakt <persName key="Favre Louis">Favre</persName> angesichts der zahlreichen
+			Unbekannten – das <placeName key="St. Gotthard (Pass)">Gotthard</placeName>massiv
 			glich einer geologischen Blackbox – seine Arbeiten hatte planen können. Der Tunnel wurde
-			zwar «erst» am <d norm="01.01.1882">1. Januar 1882</d> – 15 Monate nach Ablauf
+			zwar «erst» am <date when="1882-01-01">1. Januar 1882</date> – 15 Monate nach Ablauf
 			der vereinbarten achtjährigen
 			Baufrist – für den Verkehr geöffnet. Aus technischer Sicht hätte der Tunnel jedoch problemlos
 			fristgerecht auf Oktober 1880 fertiggestellt werden können. Finanzielle, politische, diplomatische
 			und juristische Komplikationen und insbesondere personelle Veränderungen in der
 			Führungsstruktur führten die Verzögerung herbei. Alfred Escher trat 1878 als Direktionspräsident
-			zurück. <idx type="person" norm="Favre Louis">Favre</idx> selbst verstarb ein Jahr später unerwartet während einer Tunnelinspektion
+			zurück. <persName key="Favre Louis">Favre</persName> selbst verstarb ein Jahr später unerwartet während einer Tunnelinspektion
 			an einem Herzversagen. Dennoch: Der Durchstich war nach knapp siebeneinhalbjähriger
 			Bauzeit Ende Februar 1880, noch einen Monat früher als 1872 projektiert, geschafft worden.
-			Berücksichtigt man zudem, dass mit dem <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>projekt technisches Neuland beschritten
-			wurde, dass <idx type="person" norm="Favre Louis">Favre</idx> mit unvorhersehbaren geologischen
+			Berücksichtigt man zudem, dass mit dem <placeName key="St. Gotthard (Pass)">Gotthard</placeName>projekt technisches Neuland beschritten
+			wurde, dass <persName key="Favre Louis">Favre</persName> mit unvorhersehbaren geologischen
 			Schwierigkeiten zu kämpfen hatte und
 			dass Arbeitsniederlegungen, Streiks und Unfälle immer wieder zu Baustopps führten, so ist
-			<idx type="person" norm="Favre Louis">Favres</idx> Termintreue grösster Respekt zu zollen. Bewunderung verdient auch das Finanzmanagement.
+			<persName key="Favre Louis">Favres</persName> Termintreue grösster Respekt zu zollen. Bewunderung verdient auch das Finanzmanagement.
 			Angesichts des damaligen technischen Wissensstandes fiel die Kostenüberschreitung
-			für den <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnel und die Zufahrtslinien mit insgesamt
+			für den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnel und die Zufahrtslinien mit insgesamt
 			21 Millionen Franken
 			oder 11% des Budgets gering aus. Auch dass das Projekt im Laufe der Bauzeit redimensioniert
 			werden musste, schmälert die Leistung der Pioniere
 			nicht. Den Abstrichen stehen immer auch
 			Qualitätsverbesserungen gegenüber. Eine genaue Kostenrechnung ist übrigens
 			bei einem
-			Bauvorhaben dieser Grössenordnung (wie die <abbr norm="Neue Eisenbahn-Alpentransversale">Neat</abbr> eindrücklich vor Augen führt) bis heute
+			Bauvorhaben dieser Grössenordnung (wie die <choice>
+                            <abbr>Neat</abbr>
+                            <expan>Neue Eisenbahn-Alpentransversale</expan>
+                        </choice> eindrücklich vor Augen führt) bis heute
 			ein Ding der Unmöglichkeit geblieben.</p>
-			<p id="Letztes_Werk_p15">Die Wahl <idx type="person" norm="Favre Louis">Favres</idx> war nicht nur qualitativ ein genialer Schachzug. Mit dem <idx type="place" norm="Genf">Genfer</idx> Sympathieträger
-			gelang es Escher, auch die <idx type="place" norm="Westschweiz">Westschweiz</idx> in das nunmehr helvetische Projekt einzubeziehen.
-			Auch <idx type="person" norm="Hellwag Konrad Wilhelm">Hellwag</idx> war fachlich gesehen die beste Wahl. Allerdings fehlte es diesem
+			<p xml:id="Letztes_Werk_p15">Die Wahl <persName key="Favre Louis">Favres</persName> war nicht nur qualitativ ein genialer Schachzug. Mit dem <placeName key="Genf">Genfer</placeName> Sympathieträger
+			gelang es Escher, auch die <placeName key="Westschweiz">Westschweiz</placeName> in das nunmehr helvetische Projekt einzubeziehen.
+			Auch <persName key="Hellwag Konrad Wilhelm">Hellwag</persName> war fachlich gesehen die beste Wahl. Allerdings fehlte es diesem
 			an der im «inner circle» um Escher praktizierten Loyalität. Für Escher eröffnete sich damit in
 			der schwierigen Phase, als es um die Redimensionierung und Sanierung der Gotthardbahn
 			ging und er den steten Angriffen der Demokraten ausgesetzt war, eine dritte Front innerhalb
 			des Unternehmens.</p>
-			<p id="Letztes_Werk_p16">Eschers ungeheures Schaffen und sein weitsichtiges politisches und wirtschaftliches Wirken
+			<p xml:id="Letztes_Werk_p16">Eschers ungeheures Schaffen und sein weitsichtiges politisches und wirtschaftliches Wirken
 			waren nicht auf eigene finanzielle Vorteile, sondern auf das Gemeinwohl gerichtet. Sein
 			unermüdlicher Einsatz galt einerseits der Entwicklung des jungen Bundesstaates, andererseits
-			dem Wohl des Kantons <idx type="place" norm="Zürich">Zürich</idx>. Eschers Engagement und seine Motive gleichen darin durchaus
+			dem Wohl des Kantons <placeName key="Zürich">Zürich</placeName>. Eschers Engagement und seine Motive gleichen darin durchaus
 			denjenigen anderer Schweizer Pioniere. In der dynamischen Gründerzeit wurde das Vorankommen
 			des Eisenbahnbaus oft mehr gewichtet als betriebswirtschaftliche Überlegungen.
 			Vor dem Hintergrund der harten Konkurrenzkämpfe um Eisenbahnkilometer war Risikobereitschaft
 			erfolgsentscheidend, auch wenn als Konsequenz die finanziellen Probleme nicht lange
 			auf sich warten liessen.</p>
-			<p id="Letztes_Werk_p17">Das im jungen Bundesstaat noch wenig ausgereifte rechtliche Regelwerk und das Fehlen
+			<p xml:id="Letztes_Werk_p17">Das im jungen Bundesstaat noch wenig ausgereifte rechtliche Regelwerk und das Fehlen
 			direktdemokratischer Instrumente schufen für die nach Fortschritt strebenden Kräfte geradezu
 			<pb n="14"/>ideale Bedingungen. Es mangelte an Erfahrungen und klar definierten Prozessen; grössere
 			Unternehmungen wurden nach dem «Trial and error»-Prinzip an die Hand genommen. In der
 			Phase des Wirtschaftsliberalismus waren «Erfindergeist» und «Experimentierfreudigkeit» auf
 			allen Ebenen gefragt. Für gut ein Jahrzehnt wurde die Schweiz – jedenfalls für Escher – zum
-			Land der beinahe unbegrenzten Möglichkeiten. Die Verwirklichung des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>tunnels
+			Land der beinahe unbegrenzten Möglichkeiten. Die Verwirklichung des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels
 			markierte
 			den Höhepunkt des liberalen Bundesstaates und beendete zugleich diese unvergleichlich
 			dynamische
 			Phase der Schweizer Wirtschaftsgeschichte.</p>
-			<p id="Letztes_Werk_p18">Escher bewältigte bereits eine Fülle von Aufgaben und Mandaten, als Ende 1871 noch das
-			gesamte operative Management des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>unternehmens hinzukam. Bei ihm liefen alle
+			<p xml:id="Letztes_Werk_p18">Escher bewältigte bereits eine Fülle von Aufgaben und Mandaten, als Ende 1871 noch das
+			gesamte operative Management des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>unternehmens hinzukam. Bei ihm liefen alle
 			Fäden
 			zusammen. Autokratisch und rücksichtslos befand er über die täglich sich türmenden
 			Probleme und Anfragen und setzte seine Entscheide kompromisslos durch. Diese Machtfülle
 			Eschers, basierend auf der Verflechtung von Politik und Wirtschaft, wurde oft kritisiert und
-			wäre heute in diesem Umfang nicht mehr möglich. Für das Gelingen des <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx>projekts
+			wäre heute in diesem Umfang nicht mehr möglich. Für das Gelingen des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>projekts
 			aber
 			war sie ausschlaggebend. Nahezu alle wichtigen Informationen liefen über Eschers Schreibtisch.
 			Er korrespondierte mit Ingenieuren, Bankiers und Unternehmern, mit Bundesräten,
 			Gesandten
-			und <idx type="place" norm="Europa">europäischen</idx> Spitzenpolitikern. Escher genoss aber nicht nur in diesen Kreisen
+			und <placeName key="Europa">europäischen</placeName> Spitzenpolitikern. Escher genoss aber nicht nur in diesen Kreisen
 			hohes Ansehen, sondern auch beim kleinen Mann auf der Strasse, wie der Run auf die Aktien
 			der Gotthardbahn-Gesellschaft, die späteren Briefe enttäuschter Aktionäre, die Escher blind
-			vertraut hatten, und die tröstenden Worte des Männerchors <idx type="place" norm="Enge (Zürich)">Enge</idx> an Escher illustrieren.</p>
+			vertraut hatten, und die tröstenden Worte des Männerchors <placeName key="Enge (Zürich)">Enge</placeName> an Escher illustrieren.</p>
 			</div>
 			<!--<div id="Letztes_Werk_d1.3">
 				<head>Die Alfred Escher-Stiftung und die Briefedition</head>
@@ -399,7 +448,9 @@
 			Stauffer</idx>: «Ich bin der Ansicht, dass das eigentliche Escher-Denkmal das Loch am <idx type="place" norm="St. Gotthard (Pass)">Gotthard</idx> ist.
 			Punktum.»</p>
 			</div>-->
-			<p id="Letztes_Werk_p31"><hi rend="italics">Joseph Jung</hi> </p>
+			<p xml:id="Letztes_Werk_p31">
+                    <hi rend="italics">Joseph Jung</hi> </p>
 		</div>
 	</body>
-</commentary>
+    </text>
+</TEI>
