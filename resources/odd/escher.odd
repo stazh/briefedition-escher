@@ -134,6 +134,9 @@
                     <model behaviour="listItem"/>
                 </elementSpec>
                 <elementSpec ident="teiHeader" mode="change">
+                    <model predicate="$parameters?header=&#34;commentary&#34;" behaviour="block">
+            <param name="content" value="(./fileDesc/sourceDesc, ./fileDesc/titleStmt)"/>
+        </model>
                     <model predicate="$parameters?header='context'" behaviour="inline">
             <param name="correspondents" value=".//correspDesc//persName"/>
             <param name="date" value=".//correspDesc//date"/>
@@ -177,6 +180,9 @@
                     <model output="web" behaviour="metadata"/>
                 </elementSpec>
             <elementSpec ident="title" mode="change">
+                    <model predicate="$parameters?header=&#34;commentary&#34; and parent::titleStmt" behaviour="heading">
+            <param name="level" value="2"/>
+        </model>
                     <model predicate="$parameters?header='context'" behaviour="inline"/>
                     <model predicate="$parameters?header='short'" behaviour="heading">
             <param name="level" value="2"/>
@@ -249,6 +255,9 @@
         </model>
                 </elementSpec>
             <elementSpec ident="ref" mode="change">
+                    <model predicate="$parameters?header=&#34;commentary&#34; and @type=&#34;volume&#34;" behaviour="inline">
+            <param name="content" value="(&#34;, S. &#34;, .)"/>
+        </model>
                     <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
             <param name="ref" value="@target"/>
             <param name="label" value="@target"/>
@@ -307,6 +316,51 @@
             <param name="content" value="root($parameters?root)//titleStmt"/>
         </model>
                     <model behaviour="body"/>
+                    
+            <elementSpec ident="author" mode="change">
+                    <model predicate="ancestor::teiHeader" behaviour="block"/>
+                    <model behaviour="inline"/>
+                </elementSpec>
+                <elementSpec ident="bibl" mode="change">
+                    <model predicate="$parameters?header=&#34;commentary&#34;" behaviour="heading">
+            <param name="content" value="(title[@type=&#34;short&#34;], ref[@type=&#34;volume&#34;])"/>
+            <param name="level" value="3"/>
+        </model>
+                    <model predicate="parent::listBibl" behaviour="listItem"/>
+                    <model behaviour="inline"/>
+                </elementSpec>
+                <elementSpec ident="head" mode="change">
+                    
+                    <model predicate="$parameters?header=&#34;commentary&#34; and count(ancestor::div) = 1" behaviour="omit">
+            <desc>Omit first heading in the commentary document, since it is the same as the document title</desc>
+        </model>
+                    <model predicate="$parameters?header='short'" behaviour="inline">
+            <param name="content" value="replace(string-join(.//text()[not(parent::ref)]), '^(.*?)[^\w]*$', '$1')"/>
+        </model>
+                    <model predicate="parent::figure" behaviour="block">
+            <outputRendition xml:space="preserve">
+            font-style: italic;
+            </outputRendition>
+        </model>
+                    <model predicate="parent::table" behaviour="block">
+            <outputRendition xml:space="preserve">
+            font-style: italic;
+            </outputRendition>
+        </model>
+                    <model predicate="parent::lg" behaviour="block">
+            <outputRendition xml:space="preserve">
+            font-style: italic;
+            </outputRendition>
+        </model>
+                    <model predicate="parent::list" behaviour="block">
+            <outputRendition xml:space="preserve">
+            font-weight: bold;
+            </outputRendition>
+        </model>
+                    <model predicate="parent::div" behaviour="heading">
+            <param name="level" value="count(ancestor::div)"/>
+        </model>
+                    <model behaviour="block"/>
                 </elementSpec>
             </schemaSpec>
         </body>

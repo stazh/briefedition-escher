@@ -40,6 +40,9 @@
                             <pb-view id="title-view1" src="document1" xpath="//teiHeader" view="single">
                                 <pb-param name="header" value="commentary"/>
                             </pb-view>
+                            <pb-view id="title-view1" src="document1" xpath="//text" view="single" emit="transcription" load-css="resources/css/escher.css">
+                                <pb-param name="header" value="subsections"/>
+                            </pb-view>
                             
                             <pb-view id="view1" src="document1" xpath="//text" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription">
                                 <pb-param name="header" value="commentary"/>
