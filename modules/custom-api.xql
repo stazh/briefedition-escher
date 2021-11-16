@@ -12,8 +12,29 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 
 (: Add your own module imports here :)
 import module namespace rutil="http://exist-db.org/xquery/router/util";
+import module namespace templates="http://exist-db.org/xquery/html-templating";
 import module namespace app="teipublisher.com/app" at "app.xql";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "config.xqm";
+import module namespace vapi="http://teipublisher.com/api/view" at "lib/api/view.xql";
+import module namespace errors = "http://exist-db.org/xquery/router/errors";
+import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
+
+declare function api:view-person($request as map(*)) {
+    let $name := xmldb:decode($request?parameters?name)
+    let $person := doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[@n = $name]
+    return
+        if ($person) then
+            let $template := doc($config:app-root || "/templates/pages/person.html")
+            let $model := map { 
+                "doc": $config:data-root || "/people.xml",
+                "xpath": '//tei:listPerson/tei:person[@n = "' || $name || '"]',
+                "template": "person.html"
+            }
+            return
+                templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
+        else
+            error($errors:NOT_FOUND, "Document " || $request?parameters?id || " not found")
+};
 
 declare function api:people($request as map(*)) {
     let $search := $request?parameters?search
@@ -27,7 +48,7 @@ declare function api:people($request as map(*)) {
         else
             doc($config:data-root || "/people.xml")//tei:listPerson/tei:person
     let $sorted := api:sort($people, $sortDir)
-    let $subset := subsequence($people, $start, $limit)
+    let $subset := subsequence($sorted, $start, $limit)
     return (
         session:set-attribute($config:session-prefix || ".hits", $people),
         session:set-attribute($config:session-prefix || ".hitCount", count($people)),
@@ -37,14 +58,16 @@ declare function api:people($request as map(*)) {
                 array {
                     for $person in $subset
                     let $name := $person/tei:persName
+                    let $label :=
+                        if ($name/tei:surname) then
+                            string-join(($name/tei:surname, $name/tei:forename), ", ")
+                        else
+                            $name/string()
+                    let $link := $person/@n
                     return
                         map {
                             "id": $person/@xml:id/string(),
-                            "name": 
-                                if ($name/tei:surname) then
-                                    string-join(($name/tei:surname, $name/tei:forename), ", ")
-                                else
-                                    $name/string(),
+                            "name": <a href="{$link}">{$label}</a>,
                             "dates": string-join(($person/tei:birth, $person/tei:death), "–")
                         }
                 }

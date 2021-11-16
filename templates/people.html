@@ -19,6 +19,7 @@
         <style>
             main {
                 margin: 0 20px 0 20px;
+                --pb-table-grid-height: calc(100vh - 430px);
             }
             
             @media (max-width: 1023px) {
@@ -85,7 +86,7 @@
                     <h1>Personen</h1>
 
                     <pb-table-grid source="api/people/" resizable="" search="" per-page="30" emit="grid" subscribe="grid">
-                        <pb-table-column label="Name" property="name" sort=""></pb-table-column>
+                        <pb-table-column label="Name" property="name" sort="sort"></pb-table-column>
                         <pb-table-column label="Lebensdaten" property="dates"></pb-table-column>
                     </pb-table-grid>
                 </main>
