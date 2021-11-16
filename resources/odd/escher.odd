@@ -111,8 +111,8 @@
                     <model behaviour="line-break" cssClass="line" useSourceRendition="true"/>
                 </elementSpec>
             <elementSpec ident="p" mode="change">
-                    <model predicate="$parameters?display='person-meta'" behaviour="paragraph"/>
-                    <model predicate="@rend=&#34;right&#34;" behaviour="paragraph">
+                <model predicate="$parameters?display='person-meta'" behaviour="paragraph"/>
+                <model predicate="@rend=&#34;right&#34;" behaviour="paragraph">
             <outputRendition xml:space="preserve">
             text-align: right;
             </outputRendition>
@@ -231,8 +231,8 @@
         </model>
                 </elementSpec>
             <elementSpec ident="persName" mode="add">
-                <model predicate="$parameters?display='person-meta'" behaviour="inline"/>
-                <model predicate="$parameters?header='context' and @key and ancestor::correspDesc" behaviour="block">
+                    <model predicate="$parameters?display='person-meta'" behaviour="inline"/>
+                    <model predicate="$parameters?header='context' and @key and ancestor::correspDesc" behaviour="block">
             <param name="label" value="."/>
             <param name="uri" value="let $initial := substring(@key, 1, 1) return 'https://www.briefedition.alfred-escher.ch/kontexte/personen/korrespondenten-und-erwahnte-personen/' || $initial || '/' || @key/string() || '/'"/>
             <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
@@ -255,6 +255,7 @@
         </model>
                 </elementSpec>
             <elementSpec ident="ref" mode="change">
+                    <model predicate="@type=&#34;kbp&#34;" behaviour="omit"/>
                     <model predicate="$parameters?header=&#34;commentary&#34; and @type=&#34;volume&#34;" behaviour="inline">
             <param name="content" value="(&#34;, S. &#34;, .)"/>
         </model>
