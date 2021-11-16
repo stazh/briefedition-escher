@@ -317,7 +317,7 @@
             <param name="content" value="root($parameters?root)//titleStmt"/>
         </model>
                     <model behaviour="body"/>
-                    
+                </elementSpec>     
             <elementSpec ident="author" mode="change">
                     <model predicate="ancestor::teiHeader" behaviour="block"/>
                     <model behaviour="inline"/>
