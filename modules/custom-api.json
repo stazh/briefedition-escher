@@ -25,6 +25,60 @@
         }
     },
     "paths": {
+        "/briefe/B{id}": {
+            "get": {
+				"summary": "Retrieve the HTML template used for displaying a letter",
+				"description": "Get the HTML template associated with the given document. This is called whenever the users tries to view a document. The actual content of the document will then be loaded by the template.",
+				"tags": ["view"],
+				"operationId": "custom:view-letter",
+				"x-error-handler": "vapi:handle-error",
+				"parameters": [
+					{
+						"name": "id",
+						"in": "path",
+						"description": "Relative path to the document",
+						"required": true,
+						"schema": {
+							"type": "string",
+							"example": "test/orlik_to_serafin.xml"
+						},
+						"allowReserved": true
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "HTML view for the document",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "The document was not found",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"500": {
+						"description": "An error occurred",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+        },
         "/kontexte/personen": {
             "get": {
 				"summary": "Landing page for people",

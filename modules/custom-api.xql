@@ -60,6 +60,18 @@ declare function api:view-person($request as map(*)) {
             error($errors:NOT_FOUND, "Document " || $request?parameters?id || " not found")
 };
 
+declare function api:view-letter($request as map(*)) {
+    let $id := "K_" || xmldb:decode($request?parameters?id)
+    let $doc := collection($config:data-root)/id($id)
+    let $template := doc($config:app-root || "/templates/pages/escher.html")
+    let $model := map { 
+        "doc": "letters/" || util:document-name($doc),
+        "template": "escher"
+    }
+    return
+        templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
+};
+
 declare function api:people($request as map(*)) {
     let $search := $request?parameters?search
     let $sortDir := $request?parameters?dir
@@ -139,7 +151,7 @@ declare function api:person-letters($node as node(), $model as map(*)) {
             <div>
                 <h3><a href="../../index.html?facet-sender={$model?key}">Briefe von und an {$model?name}</a></h3>
             </div>
-        else
+        else if (count($mentions) > 0) then
             <div>
                 <h3>Briefe von und an {$model?name}</h3>
                 <ol>
@@ -150,6 +162,8 @@ declare function api:person-letters($node as node(), $model as map(*)) {
                 }
                 </ol>
             </div>
+        else
+            ()
 };
 
 (:~
