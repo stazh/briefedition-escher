@@ -37,13 +37,7 @@
                     <main class="content-body">
                         <section class="transcript">
                             <pb-view id="reference-view1" src="document1" xpath="//teiHeader" view="single">
-                                <pb-param name="header" value="reference"/>
-                            </pb-view>
-                            <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt/title" view="single">
-                                <pb-param name="header" value="short"/>
-                            </pb-view>
-                            <pb-view id="keywords-view1" src="document1" xpath="//teiHeader//keywords" view="single">
-                                <pb-param name="header" value="short"/>
+                                <pb-param name="display" value="letter-header"/>
                             </pb-view>
                             <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"/>
                         </section>
