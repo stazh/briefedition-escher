@@ -41,7 +41,7 @@
             <schemaSpec start="TEI teiCorpus" ident="escher" source="teipublisher.odd"> <elementSpec ident="note" mode="change">
                     <model predicate="@type=&#34;annotation&#34;" behaviour="inline" cssClass="annotation">
             <outputRendition xml:space="preserve">
-            
+
             </outputRendition>
         </model>
                     <model behaviour="note">
@@ -138,40 +138,42 @@
             <param name="content" value="(./fileDesc/sourceDesc, ./fileDesc/titleStmt)"/>
         </model>
                     <model predicate="$parameters?header='context'" behaviour="inline">
-            <param name="correspondents" value=".//correspDesc//persName"/>
-            <param name="date" value=".//correspDesc//date"/>
-            <param name="persons" value="for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1]"/>
-            <param name="places" value="for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1]"/>
-            <param name="letters" value="for $p in root(.)//text//ref[@type='letter']     let $k := $p/@target       group by $k       order by $k        return $p[1]"/>
-            <param name="sum" value="for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1]"/>
-            <pb:template xmlns="" xml:space="preserve"><div>  
-  <h4>Korrespondenten</h4>
-  	[[correspondents]]
+                        <param name="correspondents" value=".//correspDesc//persName"/>
+                        <!--param name="date" value=".//correspDesc//date"/-->
+                        <param name="dates" value=".//correspDesc//date/@when"/>
+                        <param name="persons" value="for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1]"/>
+                        <param name="places" value="for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1]"/>
+                        <param name="letters" value="for $p in root(.)//text//ref[@type='letter']     let $k := $p/@target       group by $k       order by $k        return $p[1]"/>
+                        <param name="sum" value="for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1]"/>
+                        <pb:template xmlns="" xml:space="preserve">
+                            <div>
+                                <h4>Korrespondenten</h4>
+                                [[correspondents]]
 
-  <h4>Briefdatum</h4>
-  	[[date]]
-  
-  <h4>Personen</h4>
-  	[[persons]]
-  
-  <h4>Orte</h4>
-  	[[places]]
-  
-  <h4>Briefe</h4>
-  	[[letters]]
-  
-  <h4>Überblickskommentare</h4>
-  	[[sum]]
+                                <h4>Briefdatum</h4>
+                                [[dates]]
 
-</div></pb:template>
-        </model>
+                                <h4>Personen</h4>
+                                [[persons]]
+
+                                <h4>Orte</h4>
+                                [[places]]
+
+                                <h4>Briefe</h4>
+                                [[letters]]
+
+                                <h4>Überblickskommentare</h4>
+                                [[sum]]
+                            </div>
+                        </pb:template>
+                    </model>
                     <model predicate="$parameters?header='reference'" behaviour="inline" cssClass="subheading">
             <param name="id" value="substring-after(ancestor::TEI/@xml:id, 'K_')"/>
             <param name="ref" value="(.//msIdentifier/institution, ' ', .//msIdentifier/idno[@type='original'])"/>
             <param name="type" value="let $type:= .//msIdentifier/@type return if ($type != '') then ' (' || $type || ')' else ()"/>
             <pb:template xmlns="" xml:space="preserve">AES B[[id]] | [[ref]][[type]]</pb:template>
             <outputRendition xml:space="preserve">
-            
+
             </outputRendition>
         </model>
                     <model output="latex" behaviour="metadata"/>
@@ -230,6 +232,15 @@
             </outputRendition>
         </model>
                 </elementSpec>
+            <elementSpec ident="date" mode="add">
+                <model predicate="$parameters?header='context' and @when and ancestor::correspDesc" behaviour="block">
+                    <param name="label" value="ec:format-date(@when)"/>
+                    <param name="uri" value="let $date := replace(@when/string(), '-', '/') return 'https://www.briefedition.alfred-escher.ch/kontexte/chronologie/ansicht-tage/' || $date || '/'"/>
+                    <pb:template xmlns="" xml:space="preserve">
+                        <a href="[[uri]]" target="_blank">[[label]]</a>
+                    </pb:template>
+                </model>
+            </elementSpec>
             <elementSpec ident="persName" mode="add">
                     <model predicate="$parameters?display='person-meta'" behaviour="inline"/>
                     <model predicate="$parameters?header='context' and @key and ancestor::correspDesc" behaviour="block">
