@@ -113,6 +113,8 @@ declare function conv:body($nodes as node()*) {
                     <persName key="{$node/@norm}">{conv:body($node/node())}</persName>
                 else
                     <placeName key="{$node/@norm}">{conv:body($node/node())}</placeName>
+            case element(com) return
+                    <note type="com" xml:id="{$node/@id}">{conv:body($node/node())}</note>
             case element(abbr) return
                 <choice>
                     <abbr>{conv:body($node/node())}</abbr>
@@ -143,7 +145,11 @@ declare function conv:body($nodes as node()*) {
                     case "kbp" return
                         ()
                     default return
-                        conv:body($node/node())
+                        <ref>
+                        {$node/@*,
+                         conv:body($node/node())}
+                        </ref>
+                        
             case element() return
                 element { node-name($node) } {
                     $node/@* except $node/@id,
