@@ -44,7 +44,8 @@
             
             </outputRendition>
         </model>
-                    <model behaviour="note">
+                <model predicate="@type='transcript'" behaviour="omit"/>
+                <model behaviour="note">
             <param name="place" value="@place"/>
             <param name="label" value="@n"/>
         </model>
