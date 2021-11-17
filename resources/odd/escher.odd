@@ -228,37 +228,38 @@
                 </elementSpec>
             <elementSpec ident="date" mode="add">
                     <model predicate="$parameters?header='context' and @when and ancestor::correspDesc" behaviour="block">
-            <param name="label" value="ec:format-date(@when)"/>
-            <param name="uri" value="let $date := replace(@when/string(), '-', '/') return 'https://www.briefedition.alfred-escher.ch/kontexte/chronologie/ansicht-tage/' || $date || '/'"/>
-            <pb:template xmlns="" xml:space="preserve">
-                        <a href="[[uri]]" target="_blank">[[label]]</a>
-                    </pb:template>
-        </model>
+                        <param name="label" value="ec:format-date(@when)"/>
+                        <param name="uri" value="let $date := replace(@when/string(), '-', '/') return 'https://www.briefedition.alfred-escher.ch/kontexte/chronologie/ansicht-tage/' || $date || '/'"/>
+                        <pb:template xmlns="" xml:space="preserve">
+                                    <a href="[[uri]]" target="_blank">[[label]]</a>
+                        </pb:template>
+                    </model>
                 </elementSpec>
             <elementSpec ident="persName" mode="add">
-                    <model predicate="$parameters?display='person-meta'" behaviour="inline"/>
-                    <model predicate="$parameters?header='context' and @key and ancestor::correspDesc" behaviour="block">
-            <param name="label" value="."/>
-            <param name="uri" value="'../kontexte/personen/' || @key"/>
-            <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
-        </model>
-                    <model predicate="$parameters?header='context' and ancestor::correspDesc" behaviour="block"/>
-                    <model predicate="$parameters?header='context'" behaviour="block">
-            <param name="uri" value="let $initial := substring(@key, 1, 1) return 'https://www.briefedition.alfred-escher.ch/kontexte/personen/korrespondenten-und-erwahnte-personen/' || $initial || '/' || @key/string() || '/'"/>
-            <param name="label" value="@key"/>
-            <param name="ref" value="@key"/>
-            <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
-        </model>
-                    <model behaviour="inline" cssClass="popover">
-            <param name="content" value="."/>
-            <param name="label" value="@key"/>
-            <param name="ref" value="@key"/>
-            <pb:template xmlns="" xml:space="preserve"><pb-popover data-ref="[[ref]]">
-  <span slot="default">[[content]]</span>
-  <span slot="alternate">[[label]]</span>
-</pb-popover></pb:template>
-        </model>
-                </elementSpec>
+                <model predicate="$parameters?display='person-meta'" behaviour="inline"/>
+                <model predicate="$parameters?header='context' and @key and ancestor::correspDesc" behaviour="block">
+                    <param name="label" value="."/>
+                    <param name="uri" value="'../kontexte/personen/' || @key"/>
+                    <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
+                </model>
+                <model predicate="$parameters?header='context' and @key" behaviour="block">
+                    <desc>Checkboxes and links for the side panel</desc>
+                    <param name="uri" value="'../kontexte/personen/' || @key"/>
+                    <param name="label" value="@key"/>
+                    <param name="ref" value="@key"/>
+                    <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
+                </model>
+                <model behaviour="inline" cssClass="popover">
+                    <param name="content" value="."/>
+                    <param name="label" value="@key"/>
+                    <param name="ref" value="@key"/>
+                    <pb:template xmlns="" xml:space="preserve"><pb-popover data-ref="[[ref]]">
+                        <span slot="default">[[content]]</span>
+                        <span slot="alternate">[[label]]</span>
+                        </pb-popover>
+                    </pb:template>
+                </model>
+            </elementSpec>
             <elementSpec ident="ref" mode="change">
                     <model predicate="@type=&#34;kbp&#34;" behaviour="omit"/>
                     <model predicate="$parameters?header=&#34;commentary&#34; and @type=&#34;volume&#34;" behaviour="inline">
@@ -386,7 +387,7 @@
                     <model predicate="$parameters?display='person-meta'" behaviour="listItem">
             <param name="content" value="root($parameters?root)//titleStmt"/>
         </model>
-                    <model behaviour="body"/>
+                    <model behaviour="body">
                         <pb:set-param name="regions" value="let $id := root(.)/TEI/@xml:id return collection('/db/apps/escher/data/regions')/mappingtable/doc[@id=$id]"/>
                     </model>
                 </elementSpec>
