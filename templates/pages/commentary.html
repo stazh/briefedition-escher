@@ -55,8 +55,10 @@
                             
                         </section>
                         <aside>
-                            <pb-view id="register" src="document1" subscribe="transcription" emit="register" xpath="//teiHeader" view="single">
+                            <pb-view id="register" src="document1" subscribe="transcription" emit="register" xpath="//teiHeader" view="single" 
+                                load-css="resources/css/escher.css">
                                 <pb-param name="header" value="context"/>
+                                <pb-param name="url" value="commentary"/>
                             </pb-view>
                         </aside>
                         <pb-facsimile base-uri="https://apps.existsolutions.com/cantaloupe/iiif/2/" default-zoom-level="0"
