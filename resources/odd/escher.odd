@@ -226,7 +226,7 @@
             </outputRendition>
         </model>
                 </elementSpec>
-            <elementSpec ident="date" mode="add">
+            <elementSpec ident="date" mode="change">
                     <model predicate="$parameters?header='context' and @when and ancestor::correspDesc" behaviour="block">
             <param name="label" value="ec:format-date(@when)"/>
             <param name="uri" value="let $date := replace(@when/string(), '-', '/') return 'https://www.briefedition.alfred-escher.ch/kontexte/chronologie/ansicht-tage/' || $date || '/'"/>
