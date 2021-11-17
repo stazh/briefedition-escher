@@ -26,13 +26,14 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
  : If a version is given, the components will be loaded from a public CDN.
  : This is recommended unless you develop your own components.
  :)
-declare variable $config:webcomponents :="1.24.1";
+declare variable $config:webcomponents :="1.28.0";
 
 (:~
  : CDN URL to use for loading webcomponents. Could be changed if you created your
  : own library extending pb-components and published it to a CDN.
  :)
 declare variable $config:webcomponents-cdn := "https://unpkg.com/@teipublisher/pb-components";
+(: declare variable $config:webcomponents-cdn := "http://localhost:8000"; :)
 
 (:~~
  : A list of regular expressions to check which external hosts are
