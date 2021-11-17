@@ -137,34 +137,22 @@
                     <model predicate="$parameters?header=&#34;commentary&#34;" behaviour="block">
             <param name="content" value="(./fileDesc/sourceDesc, ./fileDesc/titleStmt)"/>
         </model>
-                    <model predicate="$parameters?header='context'" behaviour="inline">
-                        <param name="correspondents" value=".//correspDesc//persName"/>
-                        <param name="dates" value=".//correspDesc//date/@when"/>
-                        <param name="persons" value="for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1]"/>
-                        <param name="places" value="for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1]"/>
-                        <param name="letters" value="for $p in root(.)//text//ref[@type='letter']     let $k := $p/@target       group by $k       order by $k        return $p[1]"/>
-                        <param name="sum" value="for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1]"/>
-                        <pb:template xmlns="" xml:space="preserve">
-                            <div>
-                                <h4>Korrespondenten</h4>
+        <model predicate="$parameters?header='context'" behaviour="inline" cssClass="context">
+            <param name="correspondents" value=".//correspDesc//persName"/>
+            <param name="dates" value=".//correspDesc//date/@when"/>
+            <param name="persons" value="let $label := &lt;head type=&#34;context&#34;&gt;Personen&lt;/head&gt; let $entries:= for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+            <param name="places" value="let $label := &lt;head type=&#34;context&#34;&gt;Orte&lt;/head&gt; let $entries:= for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+            <param name="letters" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefe&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='letter']     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+            <param name="sum" value="let $label := &lt;head type=&#34;context&#34;&gt;Überblickskommentare&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+            <pb:template xmlns="" xml:space="preserve">                            <div>
                                 [[correspondents]]
-
-                                <h4>Briefdatum</h4>
                                 [[dates]]
-
-                                <h4>Personen</h4>
                                 [[persons]]
-
-                                <h4>Orte</h4>
                                 [[places]]
-
-                                <h4>Briefe</h4>
                                 [[letters]]
-
-                                <h4>Überblickskommentare</h4>
                                 [[sum]]
                             </div>
-                        </pb:template>
+                         </pb:template>
                     </model>
                     <modelSequence predicate="$parameters?display='letter-header'">
                         <model behaviour="inline" cssClass="subheading">
@@ -351,6 +339,9 @@
             <param name="content" value="."/>
             <pb:template xmlns="" xml:space="preserve"><a href="#[[uri]]">[[content]]</a></pb:template>
         </model>
+        <model predicate="@type=&#34;context&#34;" behaviour="heading" cssClass="context">
+            <param name="level" value="3"/>
+        </model>
                     <model predicate="$parameters?header='short'" behaviour="inline">
             <param name="content" value="replace(string-join(.//text()[not(parent::ref)]), '^(.*?)[^\w]*$', '$1')"/>
         </model>
@@ -390,12 +381,12 @@
                 </elementSpec>
                 <elementSpec ident="text" mode="change">
                     <model predicate="$parameters?header=&#34;subsections&#34;" behaviour="block">
-                        <param name="content" value=".//head"/>
-                    </model>
+            <param name="content" value=".//head"/>
+        </model>
                     <model predicate="$parameters?display='person-meta'" behaviour="listItem">
-                        <param name="content" value="root($parameters?root)//titleStmt"/>
-                    </model>
-                    <model behaviour="body">
+            <param name="content" value="root($parameters?root)//titleStmt"/>
+        </model>
+                    <model behaviour="body"/>
                         <pb:set-param name="regions" value="let $id := root(.)/TEI/@xml:id return collection('/db/apps/escher/data/regions')/mappingtable/doc[@id=$id]"/>
                     </model>
                 </elementSpec>
