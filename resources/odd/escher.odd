@@ -272,10 +272,12 @@
                     <model predicate="$parameters?header=&#34;commentary&#34; and @type=&#34;volume&#34;" behaviour="inline">
             <param name="content" value="(&#34;, S. &#34;, .)"/>
         </model>
-                    <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
+        <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
             <param name="ref" value="@target"/>
-            <param name="label" value="@target"/>
-            <param name="uri" value="@target"/>
+            <param name="label" value="let $target := @target return collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI//titleStmt/title"/>
+            <param name="uri" value="let $target := @target 
+            let $id := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI/@xml:id
+            return if ($id != $target) then $id || '#' || $target else $id"/>
             <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]">[[label]]</a></pb:template>
         </model>
         <model predicate="$parameters?header='context' and @type='letter'" behaviour="block">
