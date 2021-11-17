@@ -137,39 +137,39 @@
                     <model predicate="$parameters?header=&#34;commentary&#34;" behaviour="block">
             <param name="content" value="(./fileDesc/sourceDesc, ./fileDesc/titleStmt)"/>
         </model>
-        <model predicate="$parameters?header='context'" behaviour="inline" cssClass="context">
-            <param name="correspondents" value=".//correspDesc//persName"/>
-            <param name="dates" value=".//correspDesc//date/@when"/>
+                    <model predicate="$parameters?header='context'" behaviour="pass-through" cssClass="context">
+            <param name="correspondents" value="let $label := &lt;head type=&#34;context&#34;&gt;Korrespondenten&lt;/head&gt;  let $entries:= .//correspDesc//persName return   (if ($entries) then $label else (), $entries) "/>
+            <param name="dates" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefdatum&lt;/head&gt; let $date := .//correspDesc//date/@when return  ($label, if ($date) then $date else 's.d.')"/>
             <param name="persons" value="let $label := &lt;head type=&#34;context&#34;&gt;Personen&lt;/head&gt; let $entries:= for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
             <param name="places" value="let $label := &lt;head type=&#34;context&#34;&gt;Orte&lt;/head&gt; let $entries:= for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
             <param name="letters" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefe&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='letter'][not(./ancestor::note)]     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
             <param name="sum" value="let $label := &lt;head type=&#34;context&#34;&gt;Überblickskommentare&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
-            <pb:template xmlns="" xml:space="preserve">                            <div>
-                                [[correspondents]]
-                                [[dates]]
-                                [[persons]]
-                                [[places]]
-                                [[letters]]
-                                [[sum]]
-                            </div>
-                         </pb:template>
-                    </model>
+            <pb:template xmlns="" xml:space="preserve"><div>
+  <h1>Kontexte</h1>
+  [[correspondents]]
+  [[dates]]
+  [[persons]]
+  [[places]]
+  [[letters]]
+  [[sum]]
+</div></pb:template>
+        </model>
                     <modelSequence predicate="$parameters?display='letter-header'">
-                        <model behaviour="inline" cssClass="subheading">
-                            <param name="id" value="substring-after(ancestor::TEI/@xml:id, 'K_')"/>
-                            <param name="ref" value="(.//msIdentifier/institution, ' ', .//msIdentifier/idno[@type='original'])"/>
-                            <param name="type" value="let $type:= .//msIdentifier/@type return if ($type != '') then ' (' || $type || ')' else ()"/>
-                            <pb:template xmlns="" xml:space="preserve">AES B[[id]] | [[ref]][[type]]</pb:template>
-                        </model>
-                        <model behaviour="block">
-                            <pb:set-param name="header" value="'short'"/>
-                            <param name="content" value="fileDesc/titleStmt/title"/>
-                        </model>
-                        <model behaviour="block">
-                            <pb:set-param name="header" value="'short'"/>
-                            <param name="content" value=".//keywords"/>
-                        </model>
-                    </modelSequence>
+            <model behaviour="inline" cssClass="subheading">
+                <param name="id" value="substring-after(ancestor::TEI/@xml:id, 'K_')"/>
+                <param name="ref" value="(.//msIdentifier/institution, ' ', .//msIdentifier/idno[@type='original'])"/>
+                <param name="type" value="let $type:= .//msIdentifier/@type return if ($type != '') then ' (' || $type || ')' else ()"/>
+                <pb:template xmlns="" xml:space="preserve">AES B[[id]] | [[ref]][[type]]</pb:template>
+            </model>
+            <model behaviour="block">
+                <param name="content" value="fileDesc/titleStmt/title"/>
+                <pb:set-param name="header" value="'short'"/>
+            </model>
+            <model behaviour="block">
+                <param name="content" value=".//keywords"/>
+                <pb:set-param name="header" value="'short'"/>
+            </model>
+        </modelSequence>
                     <model output="latex" behaviour="metadata"/>
                     <model output="fo" behaviour="omit"/>
                     <model output="web" predicate="$parameters?header='short'" behaviour="block"/>
@@ -228,45 +228,45 @@
                 </elementSpec>
             <elementSpec ident="date" mode="add">
                     <model predicate="$parameters?header='context' and @when and ancestor::correspDesc" behaviour="block">
-                        <param name="label" value="ec:format-date(@when)"/>
-                        <param name="uri" value="let $date := replace(@when/string(), '-', '/') return 'https://www.briefedition.alfred-escher.ch/kontexte/chronologie/ansicht-tage/' || $date || '/'"/>
-                        <pb:template xmlns="" xml:space="preserve">
+            <param name="label" value="ec:format-date(@when)"/>
+            <param name="uri" value="let $date := replace(@when/string(), '-', '/') return 'https://www.briefedition.alfred-escher.ch/kontexte/chronologie/ansicht-tage/' || $date || '/'"/>
+            <pb:template xmlns="" xml:space="preserve">
                                     <a href="[[uri]]" target="_blank">[[label]]</a>
                         </pb:template>
-                    </model>
+        </model>
                 </elementSpec>
             <elementSpec ident="persName" mode="add">
-                <model predicate="$parameters?display='person-meta'" behaviour="inline"/>
-                <model predicate="$parameters?header='context' and @key and ancestor::correspDesc" behaviour="block">
-                    <param name="label" value="."/>
-                    <param name="uri" value="'../kontexte/personen/' || @key"/>
-                    <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
-                </model>
-                <model predicate="$parameters?header='context' and $parameters?url='commentary' and @key" behaviour="block">
-                    <desc>Checkboxes and links for the side panel: for the 2nd level, e.g. commentaries</desc>
-                    <param name="uri" value="'../personen/' || @key"/>
-                    <param name="label" value="@key"/>
-                    <param name="ref" value="@key"/>
-                    <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
-                </model>
-                <model predicate="$parameters?header='context' and @key" behaviour="block">
-                    <desc>Checkboxes and links for the side panel</desc>
-                    <param name="uri" value="'../kontexte/personen/' || @key"/>
-                    <param name="label" value="@key"/>
-                    <param name="ref" value="@key"/>
-                    <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
-                </model>
-                <model behaviour="inline" cssClass="popover">
-                    <param name="content" value="."/>
-                    <param name="label" value="@key"/>
-                    <param name="ref" value="@key"/>
-                    <pb:template xmlns="" xml:space="preserve"><pb-popover data-ref="[[ref]]">
+                    <model predicate="$parameters?display='person-meta'" behaviour="inline"/>
+                    <model predicate="$parameters?header='context' and @key and ancestor::correspDesc" behaviour="block">
+            <param name="label" value="."/>
+            <param name="uri" value="'../kontexte/personen/' || @key"/>
+            <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
+        </model>
+                    <model predicate="$parameters?header='context' and $parameters?url='commentary' and @key" behaviour="block">
+            <desc>Checkboxes and links for the side panel: for the 2nd level, e.g. commentaries</desc>
+            <param name="uri" value="'../personen/' || @key"/>
+            <param name="label" value="@key"/>
+            <param name="ref" value="@key"/>
+            <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
+        </model>
+                    <model predicate="$parameters?header='context' and @key" behaviour="block">
+            <desc>Checkboxes and links for the side panel</desc>
+            <param name="uri" value="'../kontexte/personen/' || @key"/>
+            <param name="label" value="@key"/>
+            <param name="ref" value="@key"/>
+            <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
+        </model>
+                    <model behaviour="inline" cssClass="popover">
+            <param name="content" value="."/>
+            <param name="label" value="@key"/>
+            <param name="ref" value="@key"/>
+            <pb:template xmlns="" xml:space="preserve"><pb-popover data-ref="[[ref]]">
                         <span slot="default">[[content]]</span>
                         <span slot="alternate">[[label]]</span>
                         </pb-popover>
                     </pb:template>
-                </model>
-            </elementSpec>
+        </model>
+                </elementSpec>
             <elementSpec ident="ref" mode="change">
                     <model predicate="@type=&#34;kbp&#34;" behaviour="omit"/>
                     <model predicate="$parameters?header=&#34;commentary&#34; and @type=&#34;volume&#34;" behaviour="inline">
@@ -278,15 +278,10 @@
             <param name="uri" value="@target"/>
             <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]">[[label]]</a></pb:template>
         </model>
-        <model predicate="$parameters?header='context' and @type='letter'" behaviour="block">
+                    <model predicate="$parameters?header='context' and @type='letter'" behaviour="block">
             <param name="letter" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI//titleStmt/title"/>
-            <param name="uri" value="let $target := @target
-                    let $letter := collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI
-                    let $letter-id := 'B' || substring-after($letter/@xml:id, 'K_')
-                    let $url-prefix := if ($parameters?url='commentary') then '../../briefe/' else '../briefe/'
-                    let $url-target := if (@target != $letter/@xml:id) then '#' || @target else ()
-                        return if ($letter) then $url-prefix || $letter-id || $url-target else () "/>
-            <param name="label" value="if (./string()) then (., ': ') else ()" />
+            <param name="uri" value="let $target := @target                     let $letter := collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI                     let $letter-id := 'B' || substring-after($letter/@xml:id, 'K_')                     let $url-prefix := if ($parameters?url='commentary') then '../../briefe/' else '../briefe/'                     let $url-target := if (@target != $letter/@xml:id) then '#' || @target else ()                         return if ($letter) then $url-prefix || $letter-id || $url-target else () "/>
+            <param name="label" value="if (./string()) then (., ': ') else ()"/>
             <param name="ref" value="@target"/>
             <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]">[[label]] [[letter]]</a></pb:template>
         </model>
@@ -352,7 +347,7 @@
             <param name="content" value="."/>
             <pb:template xmlns="" xml:space="preserve"><a href="#[[uri]]">[[content]]</a></pb:template>
         </model>
-        <model predicate="@type=&#34;context&#34;" behaviour="heading" cssClass="context">
+                    <model predicate="@type=&#34;context&#34;" behaviour="heading" cssClass="context">
             <param name="level" value="3"/>
         </model>
                     <model predicate="$parameters?header='short'" behaviour="inline">
@@ -400,8 +395,8 @@
             <param name="content" value="root($parameters?root)//titleStmt"/>
         </model>
                     <model behaviour="body">
-                        <pb:set-param name="regions" value="let $id := root(.)/TEI/@xml:id return collection('/db/apps/escher/data/regions')/mappingtable/doc[@id=$id]"/>
-                    </model>
+            <pb:set-param name="regions" value="let $id := root(.)/TEI/@xml:id return collection('/db/apps/escher/data/regions')/mappingtable/doc[@id=$id]"/>
+        </model>
                 </elementSpec>
             <elementSpec ident="titleStmt" mode="change">
                     <model output="latex" behaviour="meta">
@@ -428,20 +423,19 @@
                 </elementSpec>
                 <elementSpec ident="pb" mode="change">
                     <model predicate="$parameters?header='subsections' or $parameters?header='commentary'" behaviour="omit"/>
-                        
                     <model behaviour="break" useSourceRendition="true">
-                        <param name="type" value="'page'"/>
-                        <param name="label" value="(concat(if(@n) then concat(@n,' ') else '',if(@facs) then                   concat('@',@facs) else ''))"/>
-                        <outputRendition xml:space="preserve">
-                        display: block; margin-left: 4pt; color: grey; float: right;
-                        </outputRendition>
-                        <outputRendition xml:space="preserve" scope="before">
-                        content: '[Page ';
-                        </outputRendition>
-                        <outputRendition xml:space="preserve" scope="after">
-                        content: ']';
-                        </outputRendition>
-                    </model>
+            <param name="type" value="'page'"/>
+            <param name="label" value="(concat(if(@n) then concat(@n,' ') else '',if(@facs) then                   concat('@',@facs) else ''))"/>
+            <outputRendition xml:space="preserve">
+            display: block; margin-left: 4pt; color: grey; float: right;
+            </outputRendition>
+            <outputRendition xml:space="preserve" scope="before">
+            content: '[Page ';
+            </outputRendition>
+            <outputRendition xml:space="preserve" scope="after">
+            content: ']';
+            </outputRendition>
+        </model>
                 </elementSpec>
             </schemaSpec>
         </body>
