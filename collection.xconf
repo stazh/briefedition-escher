@@ -24,7 +24,7 @@
                 <field name="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
                 <field name="corpus" expression="'escher'"/>
 
-                <field name="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')"/>
+                <field name="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')" type="xs:date"/>
                 <field name="file" expression="util:document-name(.)"/>
                 <facet dimension="genre" expression="nav:get-metadata(ancestor::tei:TEI, 'genre')" hierarchical="yes"/>
                 <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
@@ -59,6 +59,10 @@
             <text match="//tei:msDesc/tei:head"/>
         </lucene>
         <range>
+            <create qname="tei:persName">
+                <field name="persName-type" match="@type" type="xs:string"/>
+                <field name="persName-key" match="@key" type="xs:string"/>
+            </create>
             <create qname="doc">
                 <field name="doc-id" match="@id" type="xs:string"/>
                 <field name="doc-n" match="@n" type="xs:string"/>
