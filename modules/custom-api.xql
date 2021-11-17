@@ -66,7 +66,8 @@ declare function api:view-letter($request as map(*)) {
     let $template := doc($config:app-root || "/templates/pages/escher.html")
     let $model := map { 
         "doc": "letters/" || util:document-name($doc),
-        "template": "escher"
+        "template": "escher",
+        "title": "Brief " || $doc//tei:titleStmt/tei:title/text()
     }
     return
         templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
