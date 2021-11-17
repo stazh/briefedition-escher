@@ -19,6 +19,28 @@ import module namespace vapi="http://teipublisher.com/api/view" at "lib/api/view
 import module namespace errors = "http://exist-db.org/xquery/router/errors";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
 
+declare function api:landing-commentary($request as map(*)) {
+    for $entry in collection($config:data-root || "/commentary")//tei:TEI
+        let $volume := $entry//tei:teiHeader//tei:ref[@type="volume"]/@target
+        group by $volume
+        order by $volume
+    return 
+
+    <div class="volume">
+        <h3>
+        {
+            let $vol := $entry[1]
+            return $vol//tei:teiHeader//tei:sourceDesc//tei:title[not(@type)]/string()
+        }
+        </h3>
+
+        {for $e in $entry 
+        let $p := ($e//tei:text//tei:pb/@n)[1]
+        order by number($p)
+        return <p><a href="{$e/@xml:id}">{$e//tei:titleStmt/tei:title[not(@type)]/string()}</a></p>}
+    </div>
+};
+
 declare function api:view-commentary($request as map(*)) {
     let $name := xmldb:decode($request?parameters?name)
     let $entry := collection($config:data-root || "/commentary")/id($name)
