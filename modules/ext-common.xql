@@ -9,7 +9,7 @@ module namespace pmf="http://www.tei-c.org/tei-simple/xquery/functions/escher-co
  : Output different date formats as human readable and German date strings
  : Reads the value of attribute "when", e.g.: 'when="04-05"'
  :)
-declare function pmf:format-date($date as xs:string*) {
+declare function pmf:format-date($date as element(*)) {
     let $when := $date/@when/string()
     return
         (: '2009-10' :)
