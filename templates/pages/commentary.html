@@ -58,8 +58,8 @@
                             
                             <pb-view id="transcription" src="document1" xpath="//text" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription">
                                 <pb-param name="header" value="commentary"/>
-                            </pb-view>
-                            
+                                <pb-param name="url" value="commentary"/>
+                            </pb-view> 
                         </section>
                         <aside class="context">
                             <pb-view id="register" src="document1" subscribe="transcription" emit="register" xpath="//teiHeader" view="single" 
