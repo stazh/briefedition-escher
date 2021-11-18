@@ -151,39 +151,21 @@ declare function api:sort($people as element()*, $dir as xs:string) {
 };
 
 declare function api:person-mentions($node as node(), $model as map(*)) {
-    let $mentions := collection($config:data-root || "/letters")//tei:text[.//tei:persName/@key=$model?key]
+    let $mentions := collection($config:data-root || "/letters")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
     where count($mentions) > 0
     return
         <div>
             <h3>Erwähnungen von {$model?name}</h3>
-            <h4>In Briefen: {count($mentions)}</h4>
-            <ul>
-            {
-                for $mention in $mentions
-                return
-                    <li><a href="../../letters/{util:document-name($mention)}">{root($mention)//tei:titleStmt/tei:title/text()}</a></li>
-            }
-            </ul>
+            <h4><a href="../../index.html?facet-mentioned={$model?key}">In Briefen</a>: {count($mentions)}</h4>
         </div>
 };
 
 declare function api:person-letters($node as node(), $model as map(*)) {
-    let $mentions := collection($config:data-root || "/letters")//tei:correspDesc/tei:correspAction[tei:persName/@key=$model?key]
+    let $mentions := collection($config:data-root || "/letters")//tei:text[ft:query(., 'correspondent:"'||$model?key||'"')]
     return
-        if (count($mentions) > 15) then
+        if (count($mentions) ) then
             <div>
-                <h3><a href="../../index.html?facet-sender={$model?key}">Briefe von und an {$model?name}</a></h3>
-            </div>
-        else if (count($mentions) > 0) then
-            <div>
-                <h3>Briefe von und an {$model?name}</h3>
-                <ol>
-                {
-                    for $mention in $mentions
-                    return
-                        <li><a href="../../letters/{util:document-name($mention)}">{root($mention)//tei:titleStmt/tei:title/text()}</a></li>
-                }
-                </ol>
+                <h3><a href="../../index.html?facet-correspondent={$model?key}">Briefe von und an {$model?name}</a>: {count($mentions)}</h3>
             </div>
         else
             ()

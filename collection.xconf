@@ -20,6 +20,8 @@
                 <field name="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
                 <field name="number" expression="nav:get-metadata(ancestor::tei:TEI, 'number')"/>
                 <field name="provenience" expression="nav:get-metadata(ancestor::tei:TEI, 'provenience')"/>
+                <field name="correspondent" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondent')"/>
+                <field name="mentioned" expression="nav:get-metadata(ancestor::tei:TEI, 'mentioned')"/>
 
                 <field name="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
                 <field name="corpus" expression="'escher'"/>

@@ -25,6 +25,26 @@
             div {
                 margin: 0 16px;
             }
+
+            section {
+                max-width: 1014px;
+            }
+
+            main {
+                position: relative;
+                display: grid;
+                height: var(--pb-view-height);
+            }
+
+            .transcript a {
+                color: #2474C2;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .transcript h3 {
+                font-weight: bold;
+            }
         </style>
     </head>
 
@@ -36,15 +56,17 @@
                 <app-header-layout>
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
-                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
+                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar-static.html"/>
                     </app-header>
                     <main>
-                        <pb-view id="view1" src="document1" xpath="${xpath}" subscribe="transcription" emit="transcription"
-                            data-template="pages:parse-params">
-                            <pb-param name="display" value="person-meta"/>
-                        </pb-view>
-                        <div data-template="custom:person-mentions"></div>
-                        <div data-template="custom:person-letters"></div>
+                        <section class="transcript">
+                            <pb-view id="view1" src="document1" xpath="${xpath}" subscribe="transcription" emit="transcription"
+                                data-template="pages:parse-params">
+                                <pb-param name="display" value="person-meta"/>
+                            </pb-view>
+                            <div data-template="custom:person-letters"></div>
+                            <div data-template="custom:person-mentions"></div>
+                        </section>
                     </main>
                 </app-header-layout>
             </app-drawer-layout>
