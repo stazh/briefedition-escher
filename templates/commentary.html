@@ -23,13 +23,24 @@
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <script src="resources/scripts/app/escher.js"></script>
         <style>
-            .toolbar pb-select-feature {
-                display: none;
-            }
-
             section {
                 max-width: 1014px;
-                margin: 20px;
+            }
+
+            main {
+                position: relative;
+                display: grid;
+                height: var(--pb-view-height);
+            }
+
+            .transcript a {
+                color: #2474C2;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .transcript h3 {
+                font-weight: bold;
             }
         </style>
     </head>
@@ -37,22 +48,21 @@
     <body>
         <pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription">
             <app-drawer-layout force-narrow="force-narrow">
-                <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
                 <app-header-layout>
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
-                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
+                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar-static.html"/>
                     </app-header>
-                    <main class="content-body">
-                        <section>
+                    <main>
+                        <section class="transcript">
                             <div>
-                            <h1>Überblickskommentare</h1>
-                            <p>Die Überblickskommentare kontextualisieren die Briefe von und an Alfred Escher. Sie sind der 
-                                sechsbändigen Reihe <a href="https://www.alfred-escher.ch/publikationen/" target="_blank">Alfred Escher. Briefe</a> 
-                                entnommen, die unter der wissenschaftlichen Leitung von 
-                                Prof. Dr. Joseph Jung zwischen 2008 und 2015 im Verlag NZZ Libro erschienen ist.</p>
+                                <h1>Überblickskommentare</h1>
+                                <p>Die Überblickskommentare kontextualisieren die Briefe von und an Alfred Escher. Sie sind der 
+                                    sechsbändigen Reihe <a href="https://www.alfred-escher.ch/publikationen/" target="_blank">Alfred Escher. Briefe</a> 
+                                    entnommen, die unter der wissenschaftlichen Leitung von 
+                                    Prof. Dr. Joseph Jung zwischen 2008 und 2015 im Verlag NZZ Libro erschienen ist.</p>
                             </div>
-                            <pb-load id="results" url="api/kontexte/landing/uberblickskommentare/" auto="auto"/>
+                            <pb-load id="results" url="api/kontexte/landing/uberblickskommentare/" auto="auto" subscribe="transcription"/>
                         </section>
                     </main>
                 </app-header-layout>
