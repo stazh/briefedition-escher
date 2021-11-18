@@ -132,7 +132,7 @@
 
                 <elementSpec ident="keywords" mode="add">
                     <model behaviour="inline" cssClass="subheading">
-            <param name="keywords" value="string-join(for $k in .//item order by $k return $k, ', ')"/>
+            <param name="keywords" value="string-join(for $k in .//term order by $k return $k, ', ')"/>
             <pb:template xmlns="" xml:space="preserve"><div>Schlagwörter: [[keywords]]</div></pb:template>
         </model>
                 </elementSpec>
@@ -173,7 +173,7 @@
                 <pb:set-param name="header" value="'short'"/>
             </model>
             <model behaviour="block">
-                <param name="content" value=".//keywords"/>
+                <param name="content" value=".//keywords[@scheme=&#34;http://briefedition.alfred-escher.ch/keywords&#34;]"/>
                 <pb:set-param name="header" value="'short'"/>
             </model>
         </modelSequence>

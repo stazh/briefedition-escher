@@ -57,7 +57,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 $header//tei:correspDesc/tei:correspAction/tei:placeName
             )
             case "keyword" return
-                $header//tei:profileDesc//tei:keywords//tei:item
+                $header//tei:profileDesc//tei:keywords//tei:term
             case "notAfter" return
                 idx:get-notAfter($header//tei:correspDesc//tei:date)
             case "notAfter" return
