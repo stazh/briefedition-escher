@@ -8,7 +8,7 @@ let $sorted :=
     order by ft:field($t, "date", "xs:date") empty least
     return
         $t
-for $doc in subsequence($docs, 1, 1000)
+for $doc in $docs
 let $root := root($doc)
 let $sender := $root//tei:correspAction/tei:persName[@type="sender"]/@key
 let $receiver := $root//tei:correspAction/tei:persName[@type="addressee"]/@key
@@ -62,5 +62,9 @@ let $context :=
             ()
     }
     </correspContext>
-return
-    update insert $context into $root//tei:correspDesc
+return (
+    update insert $context into $root//tei:correspDesc,
+    let $doc := doc(document-uri(root($doc)))
+    return
+        file:serialize($doc, xs:anyURI("/workspaces/data/" || util:document-name($doc)), ("omit-xml-declaration=no", "indent=no"))
+)
