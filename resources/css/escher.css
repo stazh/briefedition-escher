@@ -56,12 +56,13 @@ body {
 .content-body {
     position: relative;
     display: grid;
-    height: var(--pb-view-height);
+    height: calc(100vh - 233px);
     grid-template-columns: 1fr minmax(360px, 45vw);
 }
 
 .content-body.toggle {
     grid-template-columns: 1fr auto;
+    height: auto;
 }
 
 .transcript {
