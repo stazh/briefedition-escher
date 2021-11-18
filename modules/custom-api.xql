@@ -86,7 +86,8 @@ declare function api:view-letter($request as map(*)) {
     let $id := "K_" || xmldb:decode($request?parameters?id)
     let $doc := collection($config:data-root)/id($id)
     let $template := doc($config:app-root || "/templates/pages/escher.html")
-    let $model := map { 
+    let $model := map {
+        "data": $doc,
         "doc": "letters/" || util:document-name($doc),
         "template": "escher",
         "title": "Brief " || $doc//tei:titleStmt/tei:title/text()
