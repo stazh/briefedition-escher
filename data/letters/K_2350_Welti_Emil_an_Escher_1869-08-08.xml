@@ -1,252 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2350" n="109" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Emil Welti an Alfred Escher, Bern, Sonntag, August 8, 1869</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.2#1000/1310#35*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                        <item>Regierungsrat BE</item>
-                        <item>Gotthardbahnkonferenzen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1869-08-08">Sonntag, August 8, 1869</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-06-01" who="BF/SD"> transkribiert
-                
-            </change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
-                
-            </change>
-            <change when="06-08-30" who="BF"> provisorisch
-                
-            </change>
-            <change when="2006-12-07" who="SM">Konvertierung provisorisch nachbearbeitet
-                
-            </change>
-            <change when="2007-01-03" who="WB">Konvertierung nachbearbeitet (Indexierung fehlt!)
-                
-            </change>
-            <change when="2007-01-26" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-03-2007; 28-02-20" who="BF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-04-13" who="WB">indexiert
-                
-            </change>
-            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-17" who="BF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-11" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-25" who="BF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-08-29" who="BF">Korrekturen 3 Haberthür übertragen
-                
-            </change>
-            <change when="2008-07-29" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-15" who="HA">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-04" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-09-01" who="BP">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-28" who="IB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-11-18" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-18" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2350" type="Brief"><teiHeader><fileDesc><titleStmt><title>Emil Welti an Alfred Escher, Bern, Sonntag, 08. August 1869</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.2#1000/1310#35*</idno><idno>J I.2</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Öffentliche Beteiligungen (Infrastruktur)</term><term>Regierungsrat BE</term><term>Gotthardbahnkonferenzen</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term> Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Welti Emil" type="addressee">Emil Welti</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1869-08-08">08. August 1869</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_2350_p1">
-                    <lb xml:id="p1-l1"/>Hochgeehrter Herr</p>
+        <p rend="indent" xml:id="K_2350_p1"><lb xml:id="p1-l1"/>Hochgeehrter Herr</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_2350_p2">
-                <lb xml:id="p1-l2"/>Ich hatte <date when="1869-08-07">gestern</date> eine lange Besprechung mit <seg type="ref">Herrn<lb xml:id="p1-l3"/>
-                    <persName type="person" key="Weber Johann">Weber</persName>
-                    <ref type="kbp">→ Johann Weber</ref>
-                </seg>, wesentlich folgenden Inhaltes: </p>
-      <p rend="indent" xml:id="K_2350_p3">
-                <lb xml:id="p1-l4"/>Bei der absoluten Nothwendigkeit die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName> <lb break="no" xml:id="p1-l5"/>frage 
-im Innern zum Abschluss zu bringen müsse sich<lb xml:id="p1-l6"/>
-der Canton <placeName type="place" key="Bern">Bern</placeName> endlich zu einer bestimmten Politik<lb xml:id="p1-l7"/>
-entscheiden. <seg type="com">Nachdem sein Antrag auf Staatsbau<lb xml:id="p1-l8"/>
-keinen Anklang gefunden habe<note xml:id="K_2350_c1">Die Orientierung über die Noten <placeName type="place" key="Italien (Königreich)">Italiens</placeName>, des <placeName type="place" key="Norddeutscher Bund">Norddeutschen Bundes</placeName> und <placeName type="place" key="Baden (Grossherzogtum)">Badens</placeName> durch den Bundesrat beantwortete der Kanton <placeName type="place" key="Bern">Bern</placeName> mit Schreiben vom <date when="1869-04-15">15. April 1869</date>. Zentrale Forderung der <placeName type="place" key="Bern">Berner</placeName> Regierung war die Übernahme der Leitung und Ausführung des Unternehmens durch den Bund. Diese Position wurde jedoch von keinem anderen Kanton mitgetragen. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Botschaft BR Konzessionen 1869</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 585–586, 589; <ref type="lit">Volmar, Alpenbahnpolitik</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 114–120; <ref type="letter" target="K_2314"><!-- → Nr. 99--></ref>; <ref type="sum" target="Gotthardvereinigung_d1.4"><!-- → Band 1, S. 201--></ref>.</note>
-                </seg>, sei nun der von der<lb xml:id="p1-l9"/>
-Regierung selbst vorausgesehene Fall eingetreten einen<lb xml:id="p1-l10"/>
-«andern Standpunct» einzunehmen. In der <seg type="com">Einladung<lb xml:id="p1-l11"/>
-  zur <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung<note xml:id="K_2350_c2">Am <date when="1869-08-11">11. August 1869</date> fand eine Sitzung der ständigen Kommission der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung statt, die zur Besprechung der drei Beteiligungsvorschläge von der <ref type="kbe"/>Schweizerischen Nordostbahn und der <ref type="kbe"/>Schweizerischen Centralbahn einberufen worden war. Zugleich sollte auch der engere Ausschuss der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung durch Neuwahl zweier Mitglieder ergänzt werden. <placeName type="place" key="Bern">Bern</placeName> blieb dieser Sitzung fern. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. ständige Kommission Gotthardvereinigung</ref>, 11. August 1869 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 1, 4–10); <ref type="letter" target="K_2337"><!-- → Nr. 105--></ref>; <ref type="letter" target="K_2348"><!-- → 108--></ref>.</note>
-                </seg> liege ein willkommener Anlass<lb xml:id="p1-l12"/>
-dieses zu thun. Wenn auch <placeName type="place" key="Bern">Bern</placeName> eine Subvention<lb xml:id="p1-l13"/>
-nicht beschlossen habe, so <seg type="com">müsse es ihm gleichwol da<lb break="no" xml:id="p1-l14"/>ran 
-  gelegen sein in die Vereinigung wieder einzutreten<note xml:id="K_2350_c3">Der Kanton <placeName type="place" key="Bern">Bern</placeName> war nicht offiziell aus der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung ausgetreten, hatte aber 1866, als <ref type="kbp"/>
-                        <persName type="person" key="Stämpfli Jakob">Jakob Stämpfli</persName> aus dem engeren Ausschuss austrat, keinen neuen Vertreter für dieses Gremium ernannt. Im April und August 1869 weigerte sich die <placeName type="place" key="Bern">Berner</placeName> Regierung zudem, an den Sitzungen der ständigen Kommission der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung teilzunehmen, und erklärte sich lediglich zur Teilnahme an Konferenzen bereit, zu welchen die Regierungen sämtlicher Kantone eingeladen würden. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. ständige Kommission Gotthardvereinigung</ref>, 22. April 1869,<!--o. S.; --> 11. August 1869 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 2); <ref type="lit">Volmar, Alpenbahnpolitik</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 120–121; <ref type="sum" target="Gotthardvereinigung_p11"><!-- → Band 1 S. 197–198--></ref>.</note>
-                </seg>
-                    <lb xml:id="p1-l15"/>um dort die Bedingungen und Modalitäten mit be<pb n="2"/>
-                    <lb xml:id="p2-l1"/>rathen  
-zu helfen unter denen es sich betheiligen<lb xml:id="p2-l2"/>
-wolle; zumal seine Theilnahme an den Berathungen<lb xml:id="p2-l3"/>
-geradezu gewünscht werde. Das Ausbleiben <placeName type="place" key="Bern">Berns</placeName>
-                    <lb xml:id="p2-l4"/>
-am <date when="1869-08-11">nächsten Mittwoch</date> mache es auch unmöglich<lb xml:id="p2-l5"/>
-bei den Wahlen in<!--Transkriptionsbereinigung: [] entfernt--> den engern Ausschuss mit<lb xml:id="p2-l6"/>
-der wünschbaren Freiheit sich zu bewegen <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> was<lb xml:id="p2-l7"/>
-noch schlimmer sei, ein nochmaliger Abschlag würde<lb xml:id="p2-l8"/>
-von der öffentlichen Meinung zum Mindesten als<lb xml:id="p2-l9"/>
+    </front><body>
+      <p rend="left" xml:id="K_2350_p2"><lb xml:id="p1-l2"/>Ich hatte <date when="1869-08-07">gestern</date> eine lange Besprechung mit <rs>Herrn<lb xml:id="p1-l3"/><persName key="Weber Johann">Weber</persName></rs>, wesentlich folgenden Inhaltes: </p>
+      <p rend="indent" xml:id="K_2350_p3"><lb xml:id="p1-l4"/>Bei der absoluten Nothwendigkeit die <placeName key="St. Gotthard (Pass)">Gotthard</placeName> <lb xml:id="p1-l5" break="no"/>frage 
+im Innern zum Abschluss zu bringen müsse sich<lb xml:id="p1-l6" break="no"/>
+der Canton <placeName key="Bern">Bern</placeName> endlich zu einer bestimmten Politik<lb xml:id="p1-l7" break="no"/>
+entscheiden. Nachdem sein Antrag auf Staatsbau<lb xml:id="p1-l8"/>
+keinen Anklang gefunden habe<note type="com" xml:id="K_2350_c1">Die Orientierung über die Noten <placeName key="Italien (Königreich)">Italiens</placeName>, des <placeName key="Norddeutscher Bund">Norddeutschen Bundes</placeName> und <placeName key="Baden (Grossherzogtum)">Badens</placeName> durch den Bundesrat beantwortete der Kanton <placeName key="Bern">Bern</placeName> mit Schreiben vom <date when="1869-04-15">15. April 1869</date>. Zentrale Forderung der <placeName key="Bern">Berner</placeName> Regierung war die Übernahme der Leitung und Ausführung des Unternehmens durch den Bund. Diese Position wurde jedoch von keinem anderen Kanton mitgetragen. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Botschaft BR Konzessionen 1869</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 585–586, 589; <ref type="lit">Volmar, Alpenbahnpolitik</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 114–120; <ref type="letter" target="K_2314"><!-- → Nr. 99--></ref>; <ref type="sum" target="Gotthardvereinigung_d1.4"><!-- → Band 1, S. 201--></ref>.</note>, sei nun der von der<lb xml:id="p1-l9" break="no"/>
+Regierung selbst vorausgesehene Fall eingetreten einen<lb xml:id="p1-l10" break="no"/>
+«andern Standpunct» einzunehmen. In der Einladung<lb xml:id="p1-l11"/>
+  zur <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung<note type="com" xml:id="K_2350_c2">Am <date when="1869-08-11">11. August 1869</date> fand eine Sitzung der ständigen Kommission der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung statt, die zur Besprechung der drei Beteiligungsvorschläge von der Schweizerischen Nordostbahn und der Schweizerischen Centralbahn einberufen worden war. Zugleich sollte auch der engere Ausschuss der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung durch Neuwahl zweier Mitglieder ergänzt werden. <placeName key="Bern">Bern</placeName> blieb dieser Sitzung fern. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. ständige Kommission Gotthardvereinigung</ref>, 11. August 1869 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 1, 4–10); <ref type="letter" target="K_2337"><!-- → Nr. 105--></ref>; <ref type="letter" target="K_2348"><!-- → 108--></ref>.</note> liege ein willkommener Anlass<lb xml:id="p1-l12" break="no"/>
+dieses zu thun. Wenn auch <placeName key="Bern">Bern</placeName> eine Subvention<lb xml:id="p1-l13" break="no"/>
+nicht beschlossen habe, so müsse es ihm gleichwol da<lb xml:id="p1-l14" break="no"/>ran 
+  gelegen sein in die Vereinigung wieder einzutreten<note type="com" xml:id="K_2350_c3">Der Kanton <placeName key="Bern">Bern</placeName> war nicht offiziell aus der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung ausgetreten, hatte aber 1866, als <persName key="Stämpfli Jakob">Jakob Stämpfli</persName> aus dem engeren Ausschuss austrat, keinen neuen Vertreter für dieses Gremium ernannt. Im April und August 1869 weigerte sich die <placeName key="Bern">Berner</placeName> Regierung zudem, an den Sitzungen der ständigen Kommission der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung teilzunehmen, und erklärte sich lediglich zur Teilnahme an Konferenzen bereit, zu welchen die Regierungen sämtlicher Kantone eingeladen würden. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. ständige Kommission Gotthardvereinigung</ref>, 22. April 1869,<!--o. S.; --> 11. August 1869 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 2); <ref type="lit">Volmar, Alpenbahnpolitik</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 120–121; <ref type="sum" target="Gotthardvereinigung_p11"><!-- → Band 1 S. 197–198--></ref>.</note> <lb xml:id="p1-l15" break="no"/>um dort die Bedingungen und Modalitäten mit be<pb n="2"/><lb xml:id="p2-l1" break="no"/>rathen  
+zu helfen unter denen es sich betheiligen<lb xml:id="p2-l2" break="no"/>
+wolle; zumal seine Theilnahme an den Berathungen<lb xml:id="p2-l3" break="no"/>
+geradezu gewünscht werde. Das Ausbleiben <placeName key="Bern">Berns</placeName> <lb xml:id="p2-l4" break="no"/>
+am <date when="1869-08-11">nächsten Mittwoch</date> mache es auch unmöglich<lb xml:id="p2-l5" break="no"/>
+bei den Wahlen in<!--Transkriptionsbereinigung: [] entfernt--> den engern Ausschuss mit<lb xml:id="p2-l6" break="no"/>
+der wünschbaren Freiheit sich zu bewegen <choice><abbr>u</abbr><expan>und</expan></choice> was<lb xml:id="p2-l7" break="no"/>
+noch schlimmer sei, ein nochmaliger Abschlag würde<lb xml:id="p2-l8" break="no"/>
+von der öffentlichen Meinung zum Mindesten als<lb xml:id="p2-l9" break="no"/>
 eine feindliche Neutralität ausgelegt werden. </p>
-      <p rend="indent" xml:id="K_2350_p4">
-                <lb xml:id="p2-l10"/>Leider kamen meine eindringlichen Vorstellungen<lb xml:id="p2-l11"/>
+      <p rend="indent" xml:id="K_2350_p4"><lb xml:id="p2-l10"/>Leider kamen meine eindringlichen Vorstellungen<lb xml:id="p2-l11"/>
 zu spät; der Regierungsrath hatte schon Vormittags<lb xml:id="p2-l12"/>
 beschlossen die Einladung nicht anzunehmen weil<lb xml:id="p2-l13"/>
 1) es «unschicklich» scheine wegen der Ergänzung des<lb xml:id="p2-l14"/>
-Ausschusses an den Verhandlungen Theil zu nehmen<lb xml:id="p2-l15"/>
-                <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> 2) weil es «demüthigend» wäre an Verhandlungen<lb xml:id="p2-l16"/>
-über die Subventionen anderer Cantone sich zu be<pb n="3"/>
-                    <lb xml:id="p3-l1"/>theiligen. 
-Ich fragte hierauf Herrn <persName type="person" key="Weber Johann">Weber</persName>: «Welches<lb xml:id="p3-l2"/>
-denn die Bedingungen seien unter denen <placeName type="place" key="Bern">Bern</placeName> be<lb break="no" xml:id="p3-l3"/>reit 
-sei sich bei dem <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>unternehmen wieder<lb xml:id="p3-l4"/>
-activ zu betheiligen». Antwort: «darüber habe ich<lb xml:id="p3-l5"/>
-selbst noch keine klare Vorstellung». Das scheint<lb xml:id="p3-l6"/>
-mir auch die volle Wahrheit zu sein; man ist nur<lb xml:id="p3-l7"/>
-zu oft geneigt jemandem plausible Motive und Ideen<lb xml:id="p3-l8"/>
-zu unterschieben, wo in Wirklichkeit weder Plan noch<lb xml:id="p3-l9"/>
-Gedanke sich findet. Schliesslich erfuhr ich noch dass<lb xml:id="p3-l10"/>
-                    <seg type="com">Herr <persName type="person" key="Weber Jost">Weber</persName> in <placeName type="place" key="Luzern (Stadt)">Luzern</placeName>
-                    <note xml:id="K_2350_c4">
-                        <persName type="person" key="Weber Jost">Jost Weber</persName> (1823–1889), Schultheiss und Ständerat (<placeName type="place" key="Luzern">LU</placeName>), Bundesrichter.</note>
-                </seg> den <placeName type="place" key="Bern">Berner</placeName> Herrn <persName type="person" key="Weber Johann">Weber</persName> ange<lb break="no" xml:id="p3-l11"/>fragt 
-habe ob die <placeName type="place" key="Bern">Bern.</placeName> Regierung geneigt wäre einer<lb xml:id="p3-l12"/>
-Einladung zu einer <hi rend="underline">Cantonal</hi> Conferenz auf <date when="1869-08-10">nächsten Dien<lb break="no" xml:id="p3-l13"/>stag</date> 
-Folge zu geben. Hierüber ist noch nichts ent<lb break="no" xml:id="p3-l14"/>schieden; 
-es soll am <date when="1869-08-09">Montag</date> geschehen. Ich machte<lb xml:id="p3-l15"/>
-Herrn <persName type="person" key="Weber Johann">Weber</persName> darauf aufmerksam, dass diese Ein<lb break="no" xml:id="p3-l16"/>ladung 
-wohl nur auf den Fall berechnet sei dass<lb xml:id="p3-l17"/>
-                    <placeName type="place" key="Bern">Bern</placeName> sich auch an der <choice>
-                        <abbr>Gotth.Conferenz</abbr>
-                        <expan>GotthardConferenz</expan>
-                    </choice> behteiligen <pb n="4"/>
-                    <lb xml:id="p4-l1"/>
-        werde. <date when="1869-08-09">Morgen</date> schreibe ich Ihnen was beschlossen<lb xml:id="p4-l2"/>
-                    <seg type="com">wurde;<note xml:id="K_2350_c5">Brief nicht ermittelt.</note>
-                </seg> vielleicht kommt der <choice>
-                        <abbr>Regrath</abbr>
-                        <expan>Regierungsrath</expan>
-                    </choice> wieder auf<lb xml:id="p4-l3"/>
+Ausschusses an den Verhandlungen Theil zu nehmen<lb xml:id="p2-l15"/><choice><abbr>u</abbr><expan>und</expan></choice> 2) weil es «demüthigend» wäre an Verhandlungen<lb xml:id="p2-l16"/>
+über die Subventionen anderer Cantone sich zu be<pb n="3"/><lb xml:id="p3-l1" break="no"/>theiligen. 
+Ich fragte hierauf Herrn <persName key="Weber Johann">Weber</persName>: «Welches<lb xml:id="p3-l2" break="no"/>
+denn die Bedingungen seien unter denen <placeName key="Bern">Bern</placeName> be<lb xml:id="p3-l3" break="no"/>reit 
+sei sich bei dem <placeName key="St. Gotthard (Pass)">Gotthard</placeName>unternehmen wieder<lb xml:id="p3-l4" break="no"/>
+activ zu betheiligen». Antwort: «darüber habe ich<lb xml:id="p3-l5" break="no"/>
+selbst noch keine klare Vorstellung». Das scheint<lb xml:id="p3-l6" break="no"/>
+mir auch die volle Wahrheit zu sein; man ist nur<lb xml:id="p3-l7" break="no"/>
+zu oft geneigt jemandem plausible Motive und Ideen<lb xml:id="p3-l8" break="no"/>
+zu unterschieben, wo in Wirklichkeit weder Plan noch<lb xml:id="p3-l9" break="no"/>
+Gedanke sich findet. Schliesslich erfuhr ich noch dass<lb xml:id="p3-l10" break="no"/> Herr <persName key="Weber Jost">Weber</persName> in <placeName key="Luzern (Stadt)">Luzern</placeName><note type="com" xml:id="K_2350_c4"><persName key="Weber Jost">Jost Weber</persName> (1823–1889), Schultheiss und Ständerat (<placeName key="Luzern">LU</placeName>), Bundesrichter.</note> den <placeName key="Bern">Berner</placeName> Herrn <persName key="Weber Johann">Weber</persName> ange<lb xml:id="p3-l11" break="no"/>fragt 
+habe ob die <placeName key="Bern">Bern.</placeName> Regierung geneigt wäre einer<lb xml:id="p3-l12" break="no"/>
+Einladung zu einer <hi rend="underline">Cantonal</hi> Conferenz auf <date when="1869-08-10">nächsten Dien<lb xml:id="p3-l13" break="no"/>stag</date> 
+Folge zu geben. Hierüber ist noch nichts ent<lb xml:id="p3-l14" break="no"/>schieden; 
+es soll am <date when="1869-08-09">Montag</date> geschehen. Ich machte<lb xml:id="p3-l15" break="no"/>
+Herrn <persName key="Weber Johann">Weber</persName> darauf aufmerksam, dass diese Ein<lb xml:id="p3-l16" break="no"/>ladung 
+wohl nur auf den Fall berechnet sei dass<lb xml:id="p3-l17" break="no"/><placeName key="Bern">Bern</placeName> sich auch an der <choice><abbr>Gotth.Conferenz</abbr><expan>GotthardConferenz</expan></choice> behteiligen <pb n="4"/><lb xml:id="p4-l1" break="no"/>
+        werde. <date when="1869-08-09">Morgen</date> schreibe ich Ihnen was beschlossen<lb xml:id="p4-l2" break="no"/> wurde;<note type="com" xml:id="K_2350_c5">Brief nicht ermittelt.</note> vielleicht kommt der <choice><abbr>Regrath</abbr><expan>Regierungsrath</expan></choice> wieder auf<lb xml:id="p4-l3" break="no"/>
 seinen Beschluss zurück.</p>
-      <p rend="indent" xml:id="K_2350_p5">
-                <lb xml:id="p4-l4"/> <seg type="com">In <placeName type="place" key="Aarau">Aarau</placeName> ist alles in Ordnung;<note xml:id="K_2350_c6">Diese Äusserung steht wohl in Zusammenhang mit der vom <placeName type="place" key="Aargau">Kanton Aargau</placeName> initiierten Konferenz einzelner Kantone vom <date when="1869-06-01">1. Juni 1869</date>. <ref type="letter" target="K_2337"><!-- → Nr. 105--></ref>; <ref type="letter" target="K_2341"><!-- → Nr. 106--></ref>.</note>
-                </seg> <seg type="com">Herrn <persName type="person" key="Vigier (von Steinbrugg) Josef Wilhelm">Vigier</persName>
-                    <note xml:id="K_2350_c7">
-                        <persName type="person" key="Vigier (von Steinbrugg) Josef Wilhelm">Josef Wilhelm Vigier</persName> (1823–1886), Landammann und Ständerat (<placeName type="place" key="Solothurn">SO</placeName>), Bundesrichter, Ersatzmann des engeren Ausschusses der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung, Verwaltungsratspräsident der <placeName type="place" key="Solothurn">Solothurner</placeName> Bank.</note>
-                </seg> <lb xml:id="p4-l5"/> <seg type="com">habe ich <date when="1869-08-07">gestern</date> telegraphirt; bin aber noch ohne<lb xml:id="p4-l6"/>
-  Antwort.<note xml:id="K_2350_c8">In seinem zweiten Brief vom <date when="1869-08-08">8. August</date> wiederholt <persName type="person" key="Weber Jost">Weber</persName>, dass er noch keine Antwort erhalten habe, und schliesst daraus, dass <persName type="person" key="Vigier (von Steinbrugg) Josef Wilhelm">Vigier</persName> anscheinend noch nicht in <placeName type="place" key="Solothurn (Stadt)">Solothurn</placeName> sei. Er will aber dort hinreisen, sobald <persName type="person" key="Vigier (von Steinbrugg) Josef Wilhelm">Vigier</persName> angekommen ist. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="letter" target="K_2349"><!--Brief Emil Welti an Escher, 8. August 1869 (2) (BAR J I.2)--></ref>. – Escher nannte <persName type="person" key="Vigier (von Steinbrugg) Josef Wilhelm">Vigiers</persName> Verhalten hinsichtlich der Beteiligungsvorschläge von Schweizerischer Nordostbahn und Schweizerischer Centralbahn einen <bibl>wahren Scandal</bibl>. <ref type="letter" target="K_2348"><!-- → Nr. 108--></ref>.</note>
-                </seg> </p>
-    </div>
-        </body>
-    <back>
+      <p rend="indent" xml:id="K_2350_p5"><lb xml:id="p4-l4"/> In <placeName key="Aarau">Aarau</placeName> ist alles in Ordnung;<note type="com" xml:id="K_2350_c6">Diese Äusserung steht wohl in Zusammenhang mit der vom <placeName key="Aargau">Kanton Aargau</placeName> initiierten Konferenz einzelner Kantone vom <date when="1869-06-01">1. Juni 1869</date>. <ref type="letter" target="K_2337"><!-- → Nr. 105--></ref>; <ref type="letter" target="K_2341"><!-- → Nr. 106--></ref>.</note> Herrn <persName key="Vigier (von Steinbrugg) Josef Wilhelm">Vigier</persName><note type="com" xml:id="K_2350_c7"><persName key="Vigier (von Steinbrugg) Josef Wilhelm">Josef Wilhelm Vigier</persName> (1823–1886), Landammann und Ständerat (<placeName key="Solothurn">SO</placeName>), Bundesrichter, Ersatzmann des engeren Ausschusses der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung, Verwaltungsratspräsident der <placeName key="Solothurn">Solothurner</placeName> Bank.</note> <lb xml:id="p4-l5"/> habe ich <date when="1869-08-07">gestern</date> telegraphirt; bin aber noch ohne<lb xml:id="p4-l6"/>
+  Antwort.<note type="com" xml:id="K_2350_c8">In seinem zweiten Brief vom <date when="1869-08-08">8. August</date> wiederholt <persName key="Weber Jost">Weber</persName>, dass er noch keine Antwort erhalten habe, und schliesst daraus, dass <persName key="Vigier (von Steinbrugg) Josef Wilhelm">Vigier</persName> anscheinend noch nicht in <placeName key="Solothurn (Stadt)">Solothurn</placeName> sei. Er will aber dort hinreisen, sobald <persName key="Vigier (von Steinbrugg) Josef Wilhelm">Vigier</persName> angekommen ist. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="letter" target="K_2349"><!--Brief Emil Welti an Escher, 8. August 1869 (2) (BAR J I.2)--></ref>. – Escher nannte <persName key="Vigier (von Steinbrugg) Josef Wilhelm">Vigiers</persName> Verhalten hinsichtlich der Beteiligungsvorschläge von Schweizerischer Nordostbahn und Schweizerischer Centralbahn einen <orig>wahren Scandal</orig>. <ref type="letter" target="K_2348"><!-- → Nr. 108--></ref>.</note> </p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2350_p6">
-                    <lb xml:id="p4-l7"/>Mit Hochschätzung </p>
-        <p rend="right" xml:id="K_2350_p7">
-                    <lb xml:id="p4-l8"/>Ihr ganz ergbster<!--Transkriptionsbereinigung: zweimal [e] entfernt-->
-                </p>
+        <p rend="indent" xml:id="K_2350_p6"><lb xml:id="p4-l7"/>Mit Hochschätzung </p>
+        <p rend="right" xml:id="K_2350_p7"><lb xml:id="p4-l8"/>Ihr ganz ergbster<!--Transkriptionsbereinigung: zweimal [e] entfernt--></p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2350_p8">
-                    <lb xml:id="p4-l9"/>E Welti</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2350_p8"><lb xml:id="p4-l9"/>E Welti</p>
       </div>
       <div type="dateline">
-        <p rend="indent" xml:id="K_2350_p9">
-                    <lb xml:id="p4-l10"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName>
+        <p rend="indent" xml:id="K_2350_p9"><lb xml:id="p4-l10"/>
+          <placeName key="Bern (Stadt)">Bern</placeName>
           <lb xml:id="p4-l11"/>
-          <date when="1869-08-08">8. <choice>
-                            <abbr>Aug</abbr>
-                            <expan>August</expan>
-                        </choice> 1869</date>.</p>
+          <date when="1869-08-08">8. <choice><abbr>Aug</abbr><expan>August</expan></choice> 1869</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

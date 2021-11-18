@@ -1,340 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3330" n="427" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Verein für Eisenbahnkunde an Alfred Escher, Berlin, Dienstag, November 14, 1882</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.81#1000/1377#6*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardtunnel</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName type="sender">Verein für Eisenbahnkunde</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Berlin</placeName>
-                    <date when="1882-11-14">Dienstag, November 14, 1882</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-01-05" who="MW">transkribiert
-                
-            </change>
-            <change when="06-01-24" who="BF">Ganzer Brief verifiziert und zum Einfügen in Kapitel Biografie formatiert
-                
-            </change>
-            <change when="November 2006" who="swissedit, MS/UR">von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-10-24" who="SK">kommentiert prov. 1
-                
-            </change>
-            <change when="2007-02-12" who="WB">Kommentare eingefügt
-                
-            </change>
-            <change when="2007-02-26" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-04-24" who="SK">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-26" who="WB">indexiert
-                
-            </change>
-            <change when="2007-05-28" who="SK">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-05-30" who="SK">Publikationsort kontrolliert
-                
-            </change>
-            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-20" who="SK">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-26" who="SK">Umsetzung Lektorat MK 2
-                
-            </change>
-            <change when="2008-08-14" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-29" who="AH">e-Edition: Auszeichnung 1umgesetzt
-                
-            </change>
-            <change when="2011-08-09" who="TM">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-19" who="BP">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="IB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-12-01" who="CA">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-12-01" who="CA">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="center" xml:id="K_3330_p1">
-                    <lb xml:id="p1-l1"/>An<lb xml:id="p1-l2"/>
-				Herrn <hi>
-                        <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> Alfred Escher<lb xml:id="p1-l3"/>
-                    </hi>
-				Hochwohlgeboren<lb xml:id="p1-l4"/>
-                    <hi>in<lb xml:id="p1-l5"/>
-                        <hi rend="underline">
-                            <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-                        </hi>
-                    </hi>.</p>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3330" type="Brief"><teiHeader><fileDesc><titleStmt><title>Verein für Eisenbahnkunde an Alfred Escher, Berlin, Dienstag, 14. November 1882</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Jung, Aufbruch, S. 306–307</bibl><bibl>Gagliardi, Escher, S. 677 (auszugsweise)</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.81#1000/1377#6*</idno><idno>J I.81</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardtunnel</term><term>Gotthardbahnprojekt</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term>Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><orgName type="addressee">Verein für Eisenbahnkunde</orgName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Berlin</placeName><date when="1882-11-14">14. November 1882</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
+        <p rend="center" xml:id="K_3330_p1"><lb xml:id="p1-l1"/>An<lb xml:id="p1-l2"/>
+				Herrn <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> Alfred Escher<lb xml:id="p1-l3"/></hi>
+				Hochwohlgeboren<lb xml:id="p1-l4"/><hi>in<lb xml:id="p1-l5"/><hi rend="underline"><placeName key="Zürich (Stadt)">Zürich</placeName></hi></hi>.</p>
       </div>
       <div type="dateline">
-        <p rend="right" xml:id="K_3330_p2">
-                    <lb xml:id="p1-l6"/>
-          <placeName type="place" key="Berlin (D)">Berlin</placeName>, den <date when="1882-11-14">14. November 1882</date>.</p>
+        <p rend="right" xml:id="K_3330_p2"><lb xml:id="p1-l6"/>
+          <placeName key="Berlin (D)">Berlin</placeName>, den <date when="1882-11-14">14. November 1882</date>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_3330_p3">
-                    <lb xml:id="p1-l7"/>
+        <p rend="indent" xml:id="K_3330_p3"><lb xml:id="p1-l7"/>
 Hochgeehrter Herr!
 </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_3330_p4">
-                <lb xml:id="p1-l8"/>Die <seg type="ref">Eröffnung der Gotthardbahn für den<lb xml:id="p1-l9"/>
-        Verkehr am <date when="1882-06-01">1. Juni <choice>
-                                <abbr>d. J.</abbr>
-                                <expan>dieses Jahr</expan>
-                            </choice> </date>
-                    <ref type="sum" target="Vollendung_d1.3"><!--S. 667–668--></ref>
-                </seg> war ein hervorra<lb break="no" xml:id="p1-l10"/>gendes 
-Ereigniß dieses an Erfindungen und<lb xml:id="p1-l11"/>
-bedeutenden Ausführungen reichen Jahrhunderts;<lb xml:id="p1-l12"/>
-seit dieser Zeit gedenken tagtäglich Tausende,<lb xml:id="p1-l13"/>
-welche den neuen, sicheren und verkehrswichti<lb break="no" xml:id="p1-l14"/>gen 
-Weg zwischen <placeName type="place" key="Deutsches Reich">Deutschland</placeName> und <placeName type="place" key="Italien (Königreich)">Italien</placeName>
-                    <lb xml:id="p1-l15"/>
-zurückgelegt haben oder denselben im Aus<note type="transcript">Kustode: tausch</note><!-- Die in diesem Brief übliche Vorwegnahme des ersten Wortes der folgenden Seite (mit Unterstreichung) unten auf jeder Seite habe ich entfernt, MS-->
-                    <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-tausch der Produkte und Güter aller Art<lb xml:id="p2-l2"/>
-im großen Weltverkehr benutzen, in dank<lb break="no" xml:id="p2-l3"/>barer 
-Anerkennung der Männer, welche die<lb break="no" xml:id="p2-l4"/>ses 
-Riesenwerk erdacht und die Hindernisse<lb xml:id="p2-l5"/>
-zu beseitigen wußten, welche der Verwirk<lb break="no" xml:id="p2-l6"/>lichung 
-und Vollendung desselben entgegen<lb break="no" xml:id="p2-l7"/>standen.</p>
-      <p rend="indent" xml:id="K_3330_p5">
-                <lb xml:id="p2-l8"/>Der <seg type="com">Verein für Eisenbahnkunde in <placeName type="place" key="Berlin (D)">
-                        <hi>Berlin</hi>
-                    </placeName>
-                    <note xml:id="K_3330_c1">Der seit 1842 bestehende Verein für Eisenbahnkunde in <placeName type="place" key="Berlin (D)">Berlin</placeName> bildete <bibl>eine Art Akademie der Eisenbahnwissenschaften, dem die angesehensten Autoritäten in Eisenbahnsachen</bibl> angehörten. Dazu zählten Ingenieure und Fabrikanten ebenso wie im Bahnbereich tätige Militärs und Verwaltungsbeamte. Der Verein konstituierte sich, <bibl>um gemeinschaftlich an der Fortbildung des praktischen Eisenbahnwesens durch Correspondenz, schriftliche und mündliche Vorträge, und durch Mittheilung, Besprechung und Sammlung von Erfahrungen, Ansichten, Versuchen und Erfindungen, welche den Bau, den Betrieb und die Verwaltung der Eisenbahnen betreffen, mitzuarbeiten</bibl>. <ref type="lit">Zürcherische Freitagszeitung</ref>, 24. November 1882; <ref type="lit">Verein für Eisenbahnkunde, Festschrift</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 3, 6, 47. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 305–307.</note>
-                </seg>, <lb xml:id="p2-l9"/>
-        welcher durch <seg type="com">zwei seiner Vorstandsmitglieder<note xml:id="K_3330_c2">
-                        <persName type="person" key="Streckert Wilhelm">Wilhelm Streckert</persName> und <persName type="person" key="Jungnickel Friedrich">Friedrich Jungnickel</persName> (Vorsitzender <choice>
-                                <abbr>bzw.</abbr>
-                                <expan>beziehungsweise</expan>
-                            </choice> Schriftführer des Vereins für Eisenbahnkunde) waren Gäste bei der Gotthardbahn-Eröffnungsfeier in <placeName type="place" key="Luzern (Stadt)">Luzern</placeName>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> Eröffnungsfeier der Gotthardbahn, Verzeichnis der Festteilnehmer (<ref type="lit">SBB Historic VGB_GB_SBBGB03_103</ref><!--_01--> )<!--ohne Seitenangabe >-->. </note>
-                </seg> <lb xml:id="p2-l10"/>
-        Theilnehmer an der großartigen <seg type="ref">Eröffnungs<lb break="no" xml:id="p2-l11"/>fahrt<ref type="sum" target="Vollendung_d1.3"><!-- → Band 1, S. 667--></ref>
-                </seg> auf dieser den Norden und Süden <placeName type="place" key="Europa">Euro<lb break="no" xml:id="p2-l12"/>pas</placeName> 
+    </front><body>
+      <p rend="indent" xml:id="K_3330_p4"><lb xml:id="p1-l8"/>Die <rs>Eröffnung der Gotthardbahn für den<lb xml:id="p1-l9"/>
+        Verkehr am <date when="1882-06-01">1. Juni <choice><abbr>d. J.</abbr><expan>dieses Jahr</expan></choice> </date><ref type="sum" target="Vollendung_d1.3"><!--S. 667–668--></ref></rs> war ein hervorra<lb xml:id="p1-l10" break="no"/>gendes 
+Ereigniß dieses an Erfindungen und<lb xml:id="p1-l11" break="no"/>
+bedeutenden Ausführungen reichen Jahrhunderts;<lb xml:id="p1-l12" break="no"/>
+seit dieser Zeit gedenken tagtäglich Tausende,<lb xml:id="p1-l13" break="no"/>
+welche den neuen, sicheren und verkehrswichti<lb xml:id="p1-l14" break="no"/>gen 
+Weg zwischen <placeName key="Deutsches Reich">Deutschland</placeName> und <placeName key="Italien (Königreich)">Italien</placeName> <lb xml:id="p1-l15" break="no"/>
+zurückgelegt haben oder denselben im Aus<note type="transcript">Kustode: tausch</note><!-- Die in diesem Brief übliche Vorwegnahme des ersten Wortes der folgenden Seite (mit Unterstreichung) unten auf jeder Seite habe ich entfernt, MS--><pb n="2"/><lb xml:id="p2-l1" break="no"/>
+tausch der Produkte und Güter aller Art<lb xml:id="p2-l2" break="no"/>
+im großen Weltverkehr benutzen, in dank<lb xml:id="p2-l3" break="no"/>barer 
+Anerkennung der Männer, welche die<lb xml:id="p2-l4" break="no"/>ses 
+Riesenwerk erdacht und die Hindernisse<lb xml:id="p2-l5" break="no"/>
+zu beseitigen wußten, welche der Verwirk<lb xml:id="p2-l6" break="no"/>lichung 
+und Vollendung desselben entgegen<lb xml:id="p2-l7" break="no"/>standen.</p>
+      <p rend="indent" xml:id="K_3330_p5"><lb xml:id="p2-l8"/>Der Verein für Eisenbahnkunde in <placeName key="Berlin (D)"><hi>Berlin</hi></placeName><note type="com" xml:id="K_3330_c1">Der seit 1842 bestehende Verein für Eisenbahnkunde in <placeName key="Berlin (D)">Berlin</placeName> bildete <orig>eine Art Akademie der Eisenbahnwissenschaften, dem die angesehensten Autoritäten in Eisenbahnsachen</orig> angehörten. Dazu zählten Ingenieure und Fabrikanten ebenso wie im Bahnbereich tätige Militärs und Verwaltungsbeamte. Der Verein konstituierte sich, <orig>um gemeinschaftlich an der Fortbildung des praktischen Eisenbahnwesens durch Correspondenz, schriftliche und mündliche Vorträge, und durch Mittheilung, Besprechung und Sammlung von Erfahrungen, Ansichten, Versuchen und Erfindungen, welche den Bau, den Betrieb und die Verwaltung der Eisenbahnen betreffen, mitzuarbeiten</orig>. <ref type="lit">Zürcherische Freitagszeitung</ref>, 24. November 1882; <ref type="lit">Verein für Eisenbahnkunde, Festschrift</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 3, 6, 47. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Jung, Aufbruch</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 305–307.</note>, <lb xml:id="p2-l9"/>
+        welcher durch zwei seiner Vorstandsmitglieder<note type="com" xml:id="K_3330_c2"><persName key="Streckert Wilhelm">Wilhelm Streckert</persName> und <persName key="Jungnickel Friedrich">Friedrich Jungnickel</persName> (Vorsitzender <choice><abbr>bzw.</abbr><expan>beziehungsweise</expan></choice> Schriftführer des Vereins für Eisenbahnkunde) waren Gäste bei der Gotthardbahn-Eröffnungsfeier in <placeName key="Luzern (Stadt)">Luzern</placeName>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> Eröffnungsfeier der Gotthardbahn, Verzeichnis der Festteilnehmer (<ref type="lit">SBB Historic VGB_GB_SBBGB03_103</ref><!--_01--> )<!--ohne Seitenangabe >-->. </note> <lb xml:id="p2-l10"/>
+        Theilnehmer an der großartigen <rs>Eröffnungs<lb xml:id="p2-l11" break="no"/>fahrt<ref type="sum" target="Vollendung_d1.3"><!-- → Band 1, S. 667--></ref></rs> auf dieser den Norden und Süden <placeName key="Europa">Euro<lb xml:id="p2-l12" break="no"/>pas</placeName> 
 verbindenden Bahn sein durfte, theilt<lb xml:id="p2-l13"/>
-nicht nur die vorgedachten Empfindungen, son<lb break="no" xml:id="p2-l14"/>dern 
-sieht auch in der Herstellung dieser Welt<lb break="no" xml:id="p2-l15"/>bahn 
-Bestrebungen erfüllt, deren Anbahnung<lb xml:id="p2-l16"/>
-und Verwirklichung er zu seinen Aufgaben<lb xml:id="p2-l17"/>
-zählt. In dem vollendeten Baue, welcher durch<lb xml:id="p2-l18"/>
-seine großartigen Anlagen alle Werke glei<lb break="no" xml:id="p2-l19"/>cher 
-Art in Schatten stellt und in den hierzu<lb xml:id="p2-l20"/>
-erforderlichen Leistungen menschlichen Wollens<pb n="3"/>
-                    <lb xml:id="p3-l1"/>
-                    <note type="transcript">Kustode: und</note>
-und menschlichen Könnens erblicken wir<lb xml:id="p3-l2"/>
-einen neuen Triumph der Wissenschaft und<lb xml:id="p3-l3"/>
-die Verkörperung des <persName type="person" key="Sophokles">Sophokleischen</persName> Wortes:</p>
-      <p rend="center" xml:id="K_3330_p6">
-                <lb xml:id="p3-l4"/> <seg type="com">«Vieles Gewaltige lebt, und Nichts<lb xml:id="p3-l5"/>
-          Ist gewaltiger als der Mensch.»<note xml:id="K_3330_c3">
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Sophokles, Antigone</ref>, 2. Akt. – Nach anderer Übersetzung: <bibl>Ungeheuer ist viel. Doch nichts ungeheurer als der Mensch.</bibl> </note>
-                </seg> <!-- Gesamtes Zitat eingerückt -->
+nicht nur die vorgedachten Empfindungen, son<lb xml:id="p2-l14" break="no"/>dern 
+sieht auch in der Herstellung dieser Welt<lb xml:id="p2-l15" break="no"/>bahn 
+Bestrebungen erfüllt, deren Anbahnung<lb xml:id="p2-l16" break="no"/>
+und Verwirklichung er zu seinen Aufgaben<lb xml:id="p2-l17" break="no"/>
+zählt. In dem vollendeten Baue, welcher durch<lb xml:id="p2-l18" break="no"/>
+seine großartigen Anlagen alle Werke glei<lb xml:id="p2-l19" break="no"/>cher 
+Art in Schatten stellt und in den hierzu<lb xml:id="p2-l20" break="no"/>
+erforderlichen Leistungen menschlichen Wollens<pb n="3"/><lb xml:id="p3-l1" break="no"/><note type="transcript">Kustode: und</note>
+und menschlichen Könnens erblicken wir<lb xml:id="p3-l2" break="no"/>
+einen neuen Triumph der Wissenschaft und<lb xml:id="p3-l3" break="no"/>
+die Verkörperung des <persName key="Sophokles">Sophokleischen</persName> Wortes:</p>
+      <p rend="center" xml:id="K_3330_p6"><lb xml:id="p3-l4"/> «Vieles Gewaltige lebt, und Nichts<lb xml:id="p3-l5"/>
+          Ist gewaltiger als der Mensch.»<note type="com" xml:id="K_3330_c3"><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Sophokles, Antigone</ref>, 2. Akt. – Nach anderer Übersetzung: <orig>Ungeheuer ist viel. Doch nichts ungeheurer als der Mensch.</orig> </note> <!-- Gesamtes Zitat eingerückt -->
       </p>
-      <p rend="left" xml:id="K_3330_p7">
-                <lb xml:id="p3-l6"/>Bei dieser Empfindung kann und will der<lb xml:id="p3-l7"/>
+      <p rend="left" xml:id="K_3330_p7"><lb xml:id="p3-l6"/>Bei dieser Empfindung kann und will der<lb xml:id="p3-l7"/>
 Verein nicht verbleiben, er sucht auch nach<lb xml:id="p3-l8"/>
 einem sichtbaren Zeichen seiner Freude über<lb xml:id="p3-l9"/>
 das Entstehen des großartigen Entwurfes,<lb xml:id="p3-l10"/>
 seines Dankes für die geniale Vollendung<lb xml:id="p3-l11"/>
-des gewaltigen Werkes und seiner Werth<lb break="no" xml:id="p3-l12"/>schätzung 
-des dadurch für das allgemeine<lb xml:id="p3-l13"/>
+des gewaltigen Werkes und seiner Werth<lb xml:id="p3-l12" break="no"/>schätzung 
+des dadurch für das allgemeine<lb xml:id="p3-l13" break="no"/>
 Wohl und für die Wissenschaft erreichten Zieles.</p>
-      <p rend="indent" xml:id="K_3330_p8">
-                <lb xml:id="p3-l14"/>An wen sollte unser Verein den Aus<lb break="no" xml:id="p3-l15"/>druck 
-dieser Empfindungen anders richten,<lb xml:id="p3-l16"/>
-als an den Mann, dessen schöpferischer Thatkraft,<lb xml:id="p3-l17"/>
-dessen aufopfernder voller Hingabe und dessen<lb xml:id="p3-l18"/>
-rastloser Energie das Werk die Großartig<lb break="no" xml:id="p3-l19"/>keit 
-seiner Anlage, die schnelle Förderung<lb xml:id="p3-l20"/>
-und glückliche Vollendung seiner Ausführung<pb n="4"/>
-                    <lb xml:id="p4-l1"/>
-                    <note type="transcript">Kustode: weitaus</note>
-weitaus in erster Reihe verdankt! an wen<lb xml:id="p4-l2"/>
-anders, als an Sie, hochgeehrter Herr, dessen<lb xml:id="p4-l3"/>
-klangvoller Name auf ewige Zeiten mit der<lb xml:id="p4-l4"/>
+      <p rend="indent" xml:id="K_3330_p8"><lb xml:id="p3-l14"/>An wen sollte unser Verein den Aus<lb xml:id="p3-l15" break="no"/>druck 
+dieser Empfindungen anders richten,<lb xml:id="p3-l16" break="no"/>
+als an den Mann, dessen schöpferischer Thatkraft,<lb xml:id="p3-l17" break="no"/>
+dessen aufopfernder voller Hingabe und dessen<lb xml:id="p3-l18" break="no"/>
+rastloser Energie das Werk die Großartig<lb xml:id="p3-l19" break="no"/>keit 
+seiner Anlage, die schnelle Förderung<lb xml:id="p3-l20" break="no"/>
+und glückliche Vollendung seiner Ausführung<pb n="4"/><lb xml:id="p4-l1" break="no"/><note type="transcript">Kustode: weitaus</note>
+weitaus in erster Reihe verdankt! an wen<lb xml:id="p4-l2" break="no"/>
+anders, als an Sie, hochgeehrter Herr, dessen<lb xml:id="p4-l3" break="no"/>
+klangvoller Name auf ewige Zeiten mit der<lb xml:id="p4-l4" break="no"/>
 Gotthardbahn verknüpft ist.</p>
-      <p rend="indent" xml:id="K_3330_p9">
-                <lb xml:id="p4-l5"/> <seg type="com">Darum gestattet sich der Verein für<lb xml:id="p4-l6"/>
+      <p rend="indent" xml:id="K_3330_p9"><lb xml:id="p4-l5"/> Darum gestattet sich der Verein für<lb xml:id="p4-l6"/>
 Eisenbahnkunde die höchste ihm zur Verfügung<lb xml:id="p4-l7"/>
 stehende Ehrenbezeigung, die Verleihung der<lb xml:id="p4-l8"/>
-Ehren-Mitgliedschaft des Vereins, Ihnen, hoch<lb break="no" xml:id="p4-l9"/>geehrter 
-Herr, als ein schwaches Zeichen seiner<lb xml:id="p4-l10"/>
-Hochschätzung entgegenzubringen und an Sie<lb xml:id="p4-l11"/>
-die Bitte zu richten, Sie möchten durch freund<lb break="no" xml:id="p4-l12"/>liche 
-Annahme desselben dem Verein die<lb xml:id="p4-l13"/>
-Ehre und die Freude bereiten, Sie fortan zu<lb xml:id="p4-l14"/>
-          den Seinigen zählen zu dürfen.<note xml:id="K_3330_c4">In § 4 der Vereinsstatuten von 1881 heisst es zur Ehrenmitgliedschaft:<!--""Ausserordentliche Mitglieder. Die ausserordentlichen Mitglieder sind entweder correspondirende oder Ehren-Mitglieder. Diesselben werden nicht durch Abstimmung gewählt, sondern dem Verein durch den Vorstand zur Aufnahme bezeichnet und vom Vereine im Vertrauen auf die Bürgschaft des Vorstandes durch die Anzeige selbst als aufgenommen anerkannt.""-->
-                        <bibl>Zu Ehren-Mitgliedern werden nur Männer des Auslandes ernannt, welche sich um den Verein oder dessen Zwecke besondere Verdienste erworben haben.</bibl> Die Ernennung erfolgte durch den Vorstand. Escher war der Dritte in der ganzen Vereinsgeschichte, dem diese Ehre angetragen wurde. Er wird im Mitgliederverzeichnis als 772. Mitglied aufgeführt, mit Aufnahmedatum <date when="1882-11-14">14. November 1882</date>. Statut des Vereins für Eisenbahnkunde, 1881, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 4 (<ref type="lit">SBB Historic VGB_GB_SBBGB03_103</ref><!--_01--> ). <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Verein für Eisenbahnkunde, Verzeichniss</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 14; <ref type="lit">Verein für Eisenbahnkunde, Festschrift</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 7, 135. – Die Verleihung der Ehrenmitgliedschaft an Escher wurde in verschiedenen Schweizer Zeitungen thematisiert. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 20. November 1882, 28. November 1882; <ref type="lit">Zürcherische Freitagszeitung</ref>, 24. November 1882. </note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_3330_p10">
-                <lb xml:id="p4-l15"/>Indem wir Ihnen beikommendes <seg type="com">Ehren<lb break="no" xml:id="p4-l16"/>diplom<note xml:id="K_3330_c5">Das Diplom befindet sich in Eschers nachgelassenen Papieren (<ref type="lit">BAR J I.67-9e</ref>). <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 459.</note>
-                </seg> übersenden, <seg type="com">geben wir uns der frohen<lb xml:id="p4-l17"/>
+Ehren-Mitgliedschaft des Vereins, Ihnen, hoch<lb xml:id="p4-l9" break="no"/>geehrter 
+Herr, als ein schwaches Zeichen seiner<lb xml:id="p4-l10" break="no"/>
+Hochschätzung entgegenzubringen und an Sie<lb xml:id="p4-l11" break="no"/>
+die Bitte zu richten, Sie möchten durch freund<lb xml:id="p4-l12" break="no"/>liche 
+Annahme desselben dem Verein die<lb xml:id="p4-l13" break="no"/>
+Ehre und die Freude bereiten, Sie fortan zu<lb xml:id="p4-l14" break="no"/>
+          den Seinigen zählen zu dürfen.<note type="com" xml:id="K_3330_c4">In § 4 der Vereinsstatuten von 1881 heisst es zur Ehrenmitgliedschaft:<!--""Ausserordentliche Mitglieder. Die ausserordentlichen Mitglieder sind entweder correspondirende oder Ehren-Mitglieder. Diesselben werden nicht durch Abstimmung gewählt, sondern dem Verein durch den Vorstand zur Aufnahme bezeichnet und vom Vereine im Vertrauen auf die Bürgschaft des Vorstandes durch die Anzeige selbst als aufgenommen anerkannt.""--><orig>Zu Ehren-Mitgliedern werden nur Männer des Auslandes ernannt, welche sich um den Verein oder dessen Zwecke besondere Verdienste erworben haben.</orig> Die Ernennung erfolgte durch den Vorstand. Escher war der Dritte in der ganzen Vereinsgeschichte, dem diese Ehre angetragen wurde. Er wird im Mitgliederverzeichnis als 772. Mitglied aufgeführt, mit Aufnahmedatum <date when="1882-11-14">14. November 1882</date>. Statut des Vereins für Eisenbahnkunde, 1881, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 4 (<ref type="lit">SBB Historic VGB_GB_SBBGB03_103</ref><!--_01--> ). <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Verein für Eisenbahnkunde, Verzeichniss</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 14; <ref type="lit">Verein für Eisenbahnkunde, Festschrift</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 7, 135. – Die Verleihung der Ehrenmitgliedschaft an Escher wurde in verschiedenen Schweizer Zeitungen thematisiert. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 20. November 1882, 28. November 1882; <ref type="lit">Zürcherische Freitagszeitung</ref>, 24. November 1882. </note> </p>
+      <p rend="indent" xml:id="K_3330_p10"><lb xml:id="p4-l15"/>Indem wir Ihnen beikommendes Ehren<lb xml:id="p4-l16" break="no"/>diplom<note type="com" xml:id="K_3330_c5">Das Diplom befindet sich in Eschers nachgelassenen Papieren (<ref type="lit">BAR J I.67-9e</ref>). <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Jung, Aufbruch</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 459.</note> übersenden, geben wir uns der frohen<lb xml:id="p4-l17"/>
 Zuversicht hin, daß Sie unserer ergebensten<lb xml:id="p4-l18"/>
-Bitte die Gewährung nicht versagen werden.<note xml:id="K_3330_c6">Eschers Antwortbrief konnte nicht ermittelt werden. Die «<placeName type="place" key="Zürich">Züricherische</placeName> Freitagszeitung» publizierte daraus folgendes Zitat: <bibl>Das beifällige Urtheil eines Vereins, der, aus den gediegensten Fachmännern bestehend und in der Metropole <placeName type="place" key="Deutsches Reich">deutscher</placeName> Wissenschaft wirkend, die Schöpfungen zur Hebung des Weltverkehrs von hoher Warte aus zu überblicken und zu würdigen in der Lage ist, hat für mich den größten Werth und gewährt mir reichen Ersatz für die Mißkennung, welche auch mir, wie allen andern, die mit Aufbietung der ganzen ihnen zu Gebote stehenden Kraft unentwegt nach hohem Ziele rangen, zeitweilig nicht erspart blieb.</bibl> <ref type="lit">Zürcherische Freitagszeitung</ref>, 24. November 1882.</note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_3330_p11">
-                <lb xml:id="p4-l19"/>Gleichzeitig beehren wir uns in je einem<lb xml:id="p4-l20"/>
-        Exemplare die <seg type="com">Statuten<note xml:id="K_3330_c7">Beilage nicht überliefert. – Es handelt sich um folgende Publikation: Statut des Vereins für Eisenbahnkunde, 1881 (<ref type="lit">SBB Historic VGB_GB_SBBGB03_103</ref><!--_01--> ).</note>
-                </seg>, das <seg type="com">Mitglieder-Ver
-                    <note type="transcript">Kustode: zeichniß</note>
-                    <note xml:id="K_3330_c8">Beilage nicht überliefert. – Es handelt sich um folgende Publikation: <ref type="lit">Verein für Eisenbahnkunde, Verzeichniss</ref>.</note>
-                </seg> <pb n="5"/>
-                <lb xml:id="p5-l1"/> <seg type="com">zeichniß die Stammrolle und die in diesem<lb xml:id="p5-l2"/>
+Bitte die Gewährung nicht versagen werden.<note type="com" xml:id="K_3330_c6">Eschers Antwortbrief konnte nicht ermittelt werden. Die «<placeName key="Zürich">Züricherische</placeName> Freitagszeitung» publizierte daraus folgendes Zitat: <orig>Das beifällige Urtheil eines Vereins, der, aus den gediegensten Fachmännern bestehend und in der Metropole <placeName key="Deutsches Reich">deutscher</placeName> Wissenschaft wirkend, die Schöpfungen zur Hebung des Weltverkehrs von hoher Warte aus zu überblicken und zu würdigen in der Lage ist, hat für mich den größten Werth und gewährt mir reichen Ersatz für die Mißkennung, welche auch mir, wie allen andern, die mit Aufbietung der ganzen ihnen zu Gebote stehenden Kraft unentwegt nach hohem Ziele rangen, zeitweilig nicht erspart blieb.</orig> <ref type="lit">Zürcherische Freitagszeitung</ref>, 24. November 1882.</note> </p>
+      <p rend="indent" xml:id="K_3330_p11"><lb xml:id="p4-l19"/>Gleichzeitig beehren wir uns in je einem<lb xml:id="p4-l20"/>
+        Exemplare die Statuten<note type="com" xml:id="K_3330_c7">Beilage nicht überliefert. – Es handelt sich um folgende Publikation: Statut des Vereins für Eisenbahnkunde, 1881 (<ref type="lit">SBB Historic VGB_GB_SBBGB03_103</ref><!--_01--> ).</note>, das Mitglieder-Ver<note type="transcript">Kustode: zeichniß</note><note type="com" xml:id="K_3330_c8">Beilage nicht überliefert. – Es handelt sich um folgende Publikation: <ref type="lit">Verein für Eisenbahnkunde, Verzeichniss</ref>.</note> <pb n="5"/><lb xml:id="p5-l1"/> zeichniß die Stammrolle und die in diesem<lb xml:id="p5-l2"/>
 Jahre erfolgten Publikationen des Vereins
 				<lb xml:id="p5-l3"/>
-ganz ergebenst beizufügen.<note xml:id="K_3330_c9">Restliche Beilagen nicht ermittelt.</note>
-                </seg> </p>
-    </div>
-        </body>
-    <back>
-       <div type="address">
-                <p rend="left" xml:id="K_3330_p12">
-                    <lb xml:id="p5-l4"/>
-Der Vorstand des Vereins für Eisenbahnkunde in <placeName type="place" key="Berlin (D)">Berlin</placeName>.
+ganz ergebenst beizufügen.<note type="com" xml:id="K_3330_c9">Restliche Beilagen nicht ermittelt.</note> </p>
+    </body><back>
+       <div type="signature"><p rend="left" xml:id="K_3330_p12"><lb xml:id="p5-l4"/>
+Der Vorstand des Vereins für Eisenbahnkunde in <placeName key="Berlin (D)">Berlin</placeName>.
         </p>
-        <p rend="left" xml:id="K_3330_p13">
-                    <lb xml:id="p5-l5"/> <seg type="com">
-                        <persName type="person" key="Streckert Wilhelm">
-                            <hi>Streckert</hi>
-                        </persName>
-                        <note xml:id="K_3330_c10">
-                            <persName type="person" key="Streckert Wilhelm">Wilhelm Streckert</persName> (1830–1902), Eisenbahningenieur, Geheimer Oberregierungsrat des <placeName type="place" key="Deutsches Reich">deutschen</placeName> Reichseisenbahnamtes, Vorsitzender des Vereins für Eisenbahnkunde.</note>
-                    </seg> <lb xml:id="p5-l6"/>Geheimer Ober-Regierungs-Rath.</p>
-        <p rend="left" xml:id="K_3330_p14">
-                    <lb xml:id="p5-l7"/> <seg type="com">
-                        <persName type="person" key="Golz Gustav Adolf von">
-                            <hi>Golz</hi>
-                        </persName>
-                        <note xml:id="K_3330_c11">
-                            <persName type="person" key="Golz Gustav Adolf von">Gustav Adolf von Golz</persName> (1833–1908), Kommandeur des <placeName type="place" key="Deutsches Reich">deutschen</placeName> Eisenbahnregiments, stellvertretender Vorsitzender des Vereins für Eisenbahnkunde.</note>
-                    </seg> <lb xml:id="p5-l8"/>Oberst und Kommandeur <lb xml:id="p5-l9"/>des Eisenbahn-Regiments.</p>
-        <p rend="left" xml:id="K_3330_p15">
-                    <lb xml:id="p5-l10"/> <seg type="com">
-                        <persName type="person" key="Jungnickel Friedrich">
-                            <hi>Jungnickel</hi>
-                        </persName>
-                        <note xml:id="K_3330_c12">
-                            <persName type="person" key="Jungnickel Friedrich">Friedrich Jungnickel</persName> (1839–1911), Eisenbahn-Bauinspektor im Ministerium der öffentlichen Arbeiten des Königreiches <placeName type="place" key="Preussen (Königreich)">Preussen</placeName>, Schriftführer des Vereins für Eisenbahnkunde. </note>
-                    </seg> <lb xml:id="p5-l11"/>Regierungs- und Baurath.</p>
-        <p rend="left" xml:id="K_3330_p16">
-                    <lb xml:id="p5-l12"/> <seg type="com">
-                        <persName type="person" key="Lantzendörffer F.">
-                            <hi>Lantzendörffer</hi>
-                        </persName>.<note xml:id="K_3330_c13">
-                            <persName type="person" key="Lantzendörffer F.">F. Lantzendörffer</persName> (Vorname und Geburtsjahr nicht ermittelt; <choice>
-                                <abbr>gest.</abbr>
-                                <expan>gestorben</expan>
-                            </choice> 1889), <placeName type="place" key="Deutsches Reich">deutscher</placeName> Baumeister, stellvertretender Schriftführer im Verein für Eisenbahnkunde.</note>
-                    </seg> <lb xml:id="p5-l13"/>Regierungs-Baumeister.</p>
-        <p rend="left" xml:id="K_3330_p17">
-                    <lb xml:id="p5-l14"/> <seg type="com">
-                        <persName type="person" key="Ernst Wilhelm">
-                            <hi>Wilhelm Ernst</hi>
-                        </persName>
-                        <note xml:id="K_3330_c14">
-                            <persName type="person" key="Ernst Wilhelm">Wilhelm Ernst</persName> (1814–1894), Buchhandelsunternehmer und Verleger, Kassenführer des Vereins für Eisenbahnkunde; verlegte mit der «Zeitschrift für Bauwesen» die massgebende Fachzeitschrift im technisch-architektonischen Bereich.</note>
-                    </seg> <lb xml:id="p5-l15"/>Verlags-Buchhändler.</p>
-        <p rend="left" xml:id="K_3330_p18">
-                    <lb xml:id="p5-l16"/> <seg type="com">
-                        <persName type="person" key="Mellin R.">
-                            <hi>Mellin</hi>
-                        </persName>.<note xml:id="K_3330_c15">
-                            <persName type="person" key="Mellin R.">R. Mellin</persName> (Vorname und Lebensdaten nicht ermittelt), <placeName type="place" key="Deutsches Reich">deutscher</placeName> Eisenbahn-Bauinspektor, stellvertretender Kassenführer im Verein für Eisenbahnkunde.</note>
-                    </seg> <lb xml:id="p5-l17"/>Regierungs- und Baurath.</p>
+        <p rend="left" xml:id="K_3330_p13"><lb xml:id="p5-l5"/> <persName key="Streckert Wilhelm"><hi>Streckert</hi></persName><note type="com" xml:id="K_3330_c10"><persName key="Streckert Wilhelm">Wilhelm Streckert</persName> (1830–1902), Eisenbahningenieur, Geheimer Oberregierungsrat des <placeName key="Deutsches Reich">deutschen</placeName> Reichseisenbahnamtes, Vorsitzender des Vereins für Eisenbahnkunde.</note> <lb xml:id="p5-l6"/>Geheimer Ober-Regierungs-Rath.</p>
+        <p rend="left" xml:id="K_3330_p14"><lb xml:id="p5-l7"/> <persName key="Golz Gustav Adolf von"><hi>Golz</hi></persName><note type="com" xml:id="K_3330_c11"><persName key="Golz Gustav Adolf von">Gustav Adolf von Golz</persName> (1833–1908), Kommandeur des <placeName key="Deutsches Reich">deutschen</placeName> Eisenbahnregiments, stellvertretender Vorsitzender des Vereins für Eisenbahnkunde.</note> <lb xml:id="p5-l8"/>Oberst und Kommandeur <lb xml:id="p5-l9"/>des Eisenbahn-Regiments.</p>
+        <p rend="left" xml:id="K_3330_p15"><lb xml:id="p5-l10"/> <persName key="Jungnickel Friedrich"><hi>Jungnickel</hi></persName><note type="com" xml:id="K_3330_c12"><persName key="Jungnickel Friedrich">Friedrich Jungnickel</persName> (1839–1911), Eisenbahn-Bauinspektor im Ministerium der öffentlichen Arbeiten des Königreiches <placeName key="Preussen (Königreich)">Preussen</placeName>, Schriftführer des Vereins für Eisenbahnkunde. </note> <lb xml:id="p5-l11"/>Regierungs- und Baurath.</p>
+        <p rend="left" xml:id="K_3330_p16"><lb xml:id="p5-l12"/> <persName key="Lantzendörffer F."><hi>Lantzendörffer</hi></persName>.<note type="com" xml:id="K_3330_c13"><persName key="Lantzendörffer F.">F. Lantzendörffer</persName> (Vorname und Geburtsjahr nicht ermittelt; <choice><abbr>gest.</abbr><expan>gestorben</expan></choice> 1889), <placeName key="Deutsches Reich">deutscher</placeName> Baumeister, stellvertretender Schriftführer im Verein für Eisenbahnkunde.</note> <lb xml:id="p5-l13"/>Regierungs-Baumeister.</p>
+        <p rend="left" xml:id="K_3330_p17"><lb xml:id="p5-l14"/> <persName key="Ernst Wilhelm"><hi>Wilhelm Ernst</hi></persName><note type="com" xml:id="K_3330_c14"><persName key="Ernst Wilhelm">Wilhelm Ernst</persName> (1814–1894), Buchhandelsunternehmer und Verleger, Kassenführer des Vereins für Eisenbahnkunde; verlegte mit der «Zeitschrift für Bauwesen» die massgebende Fachzeitschrift im technisch-architektonischen Bereich.</note> <lb xml:id="p5-l15"/>Verlags-Buchhändler.</p>
+        <p rend="left" xml:id="K_3330_p18"><lb xml:id="p5-l16"/> <persName key="Mellin R."><hi>Mellin</hi></persName>.<note type="com" xml:id="K_3330_c15"><persName key="Mellin R.">R. Mellin</persName> (Vorname und Lebensdaten nicht ermittelt), <placeName key="Deutsches Reich">deutscher</placeName> Eisenbahn-Bauinspektor, stellvertretender Kassenführer im Verein für Eisenbahnkunde.</note> <lb xml:id="p5-l17"/>Regierungs- und Baurath.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

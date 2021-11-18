@@ -1,112 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1860" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Blumer an Alfred Escher, s.l., [1861?]</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>FA Tschudi</institution>
-                        <idno type="original"/>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Familiäres und Persönliches</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Blumer Johann Jakob" type="sender">Johann Jakob Blumer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>s.l.</placeName>
-                    <date when="1861">[1861?]</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2007-01-25" who="MW">Transkription
-                
-            </change>
-            <change when="2013-06-25" who="NB">Migration nach XML
-                
-            </change>
-            <change when="2013-07-02" who="DG">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-17" who="SB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-23" who="MB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-07-25" who="CB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-31" who="KR">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-08-22" who="AO">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2013-08-23" who="JS">Übertragung Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2013-10-07" who="KR">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-23" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1860" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Blumer an Alfred Escher, s.l., [1861?]</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>FA Tschudi</institution></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Familiäres und Persönliches</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Blumer Johann Jakob" type="addressee">Johann Jakob Blumer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><date when="1861-01-01">[1861?]</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="left" xml:id="K_1860_p1">
-                    <seg type="com">
-                        <note type="addendum" xml:id="K_1860_c0">Datierung gemäss Briefkontext.</note>
-                    </seg>
-                    <lb xml:id="p1-l1"/>Lieber Freund!
+        <p rend="left" xml:id="K_1860_p1"><note type="com" xml:id="K_1860_c0">Datierung gemäss Briefkontext.</note><lb xml:id="p1-l1"/>Lieber Freund!
                 </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1860_p2">
-                <lb xml:id="p1-l2"/>So eben mit <persName type="person" key="Blumer-Heer Susanna">meiner <choice>
-                            <abbr>l.</abbr>
-                            <expan>lieb</expan>
-                        </choice> Frau</persName> hier 
+    </front><body>
+      <p rend="indent" xml:id="K_1860_p2"><lb xml:id="p1-l2"/>So eben mit <persName key="Blumer-Heer Susanna">meiner <choice><abbr>l.</abbr><expan>lieb</expan></choice> Frau</persName> hier 
                 <lb xml:id="p1-l3"/>angekommen, möchte ich Dich anfragen, ob wir 
                 <lb xml:id="p1-l4"/>heute Abends Euch besuchen dürften. Sollte 
                 <lb xml:id="p1-l5"/>es aus irgend einem Grunde nicht gelegen 
-                <lb xml:id="p1-l6"/>seyn, so hoffe ich, Du werdest es ohne Um<lb break="no" xml:id="p1-l7"/>schweife sagen.
+                <lb xml:id="p1-l6"/>seyn, so hoffe ich, Du werdest es ohne Um<lb xml:id="p1-l7" break="no"/>schweife sagen.
             </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="right" xml:id="K_1860_p3">
-                    <lb xml:id="p1-l8"/>Herzlich grüßt 
+        <p rend="right" xml:id="K_1860_p3"><lb xml:id="p1-l8"/>Herzlich grüßt 
                     <lb xml:id="p1-l9"/>Dein
                 </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1860_p4">
-                    <lb xml:id="p1-l10"/>Blumer.
+      <div type="signature">
+        <p rend="right" xml:id="K_1860_p4"><lb xml:id="p1-l10"/>Blumer.
                 </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

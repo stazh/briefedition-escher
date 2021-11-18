@@ -1,368 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3208" n="375" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Josef Zingg an Alfred Escher, Luzern, Montag, September 16, 1878</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#569*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Tunnelbau</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Luzern</placeName>
-                    <date when="1878-09-16">Montag, September 16, 1878</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-07-07" who="MW">
-        
-        
-      </change>
-            <change when="05-10-21" who="SD">Auszüge verifiziert
-                
-            </change>
-            <change when="05-11-08" who="SD">Auszug verifiziert und in Kapitel Gotthard eingefügt
-                
-            </change>
-            <change when="November 2006" who="swissedit, MS/UR">von Word nach XML konvertiert
-                
-            </change>
-            <change when="2007-01-26" who="SK">provisorisch - teilweise - kommentiert 1
-                
-            </change>
-            <change when="2007-02-28" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-03-21" who="MF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-04-13" who="MF">kommentiert 3
-                
-            </change>
-            <change when="2007-04-24" who="MF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-07" who="WB">indexiert
-                
-            </change>
-            <change when="2007-05-25" who="MF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-15" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-26" who="MF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-18" who="MF">Umsetzung Lektorat MK 2
-                
-            </change>
-            <change when="2007-07-22" who="MF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2008-08-11" who="WB">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-21" who="TM">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-09" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-19" who="BP">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="DG">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-12-04" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-12-04" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_3208_p1">
-                    <lb xml:id="p1-l1"/>
-          <fw>Gotthardbahn.<lb xml:id="p1-l2"/> DIRECTION.</fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3208" type="Brief"><teiHeader><fileDesc><titleStmt><title>Josef Zingg an Alfred Escher, Luzern, Montag, 16. September 1878</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#569*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Tunnelbau</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term>Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Zingg Josef" type="addressee">Josef Zingg</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Luzern</placeName><date when="1878-09-16">16. September 1878</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_3208_p1"><lb xml:id="p1-l1"/>
+          <hi rend="printed">Gotthardbahn.<lb xml:id="p1-l2"/> DIRECTION.</hi>
         </p>
-      </div>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_3208_p2">
-                    <lb xml:id="p1-l3"/>
-          <placeName type="place" key="Luzern (Stadt)">
-                        <hi>Luzern</hi>
-                    </placeName>
+        <p rend="right" xml:id="K_3208_p2"><lb xml:id="p1-l3"/>
+          <placeName key="Luzern (Stadt)"><hi>Luzern</hi></placeName>
           d.
-          <date when="1878-09-16">16. <hi>
-                            <choice>
-                                <abbr>Sept.</abbr>
-                                <expan>September</expan>
-                            </choice> </hi> 1878</date>.</p>
+          <date when="1878-09-16">16. <hi><choice><abbr>Sept.</abbr><expan>September</expan></choice> </hi> 1878</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_3208_p3">
-                    <lb xml:id="p1-l4"/>
+        <p rend="left" xml:id="K_3208_p3"><lb xml:id="p1-l4"/>
 Hochverehrter Herr Präsident!
 </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_3208_p4">
-                <lb xml:id="p1-l5"/>Ich danke Ihnen bestens für Ihre<lb xml:id="p1-l6"/>
-                <date when="1878-09-15">gestrige</date> <seg type="com">telegraphische <hi>Avisirung</hi>
-                    <note xml:id="K_3208_c1">
-                        <ref type="telegram">Telegramm Escher an Josef Zingg, 15. September 1878 (<ref type="lit">SBB Historic VGB_GB_SBBGB02_062</ref>).</ref> </note>
-                </seg> des<lb xml:id="p1-l7"/>
-        Besuches des <seg type="com">
-                    <choice>
-                            <abbr>Hrn.</abbr>
-                            <expan>Herrn</expan>
-                        </choice> <persName type="person" key="Vitali Philippe">
-                        <hi>Vitali</hi>
-                    </persName>
-                    <note xml:id="K_3208_c2">
-                        <persName type="person" key="Vitali Philippe">Philippe Vitali</persName> (1830–1909), <placeName type="place" key="Frankreich">französischer</placeName> Ingenieur und Eisenbahnunternehmer, Gründer der Entreprise de chemins de fer Vitali, Picard et Compagnie, der Ph. Vitali und Compagnie sowie der Société de Régie générale des chemins de fer.</note>
-                </seg>, der uns<lb xml:id="p1-l8"/>
-vor einigen Tagen auch durch das<lb xml:id="p1-l9"/>
-                <choice>
-                        <abbr>schweiz.</abbr>
-                        <expan>schweizerisch</expan>
-                    </choice> Eisenbahndepartement speciell<lb xml:id="p1-l10"/>
-empfohlen worden ist. Derselbe hat sich<lb xml:id="p1-l11"/>
-                <date when="1878-09-16">heute</date> in Begleit eines <seg type="com">
-                    <choice>
-                            <abbr>Hrn.</abbr>
-                            <expan>Herrn</expan>
-                        </choice> <persName type="person" key="Méric">
-                        <hi>Méric</hi>
-                    </persName>
-                    <note xml:id="K_3208_c3">Person nicht ermittelt.</note>
-                </seg>, <lb xml:id="p1-l12"/>
-welcher mit einem <seg type="com">
-                    <placeName type="place" key="Deutsches Reich">deutschen</placeName> Ingenieur<note xml:id="K_3208_c4">Person nicht ermittelt.</note>
-                </seg> <lb xml:id="p1-l13"/>
+    </front><body>
+      <p rend="left" xml:id="K_3208_p4"><lb xml:id="p1-l5"/>Ich danke Ihnen bestens für Ihre<lb xml:id="p1-l6"/><date when="1878-09-15">gestrige</date> telegraphische <hi>Avisirung</hi><note type="com" xml:id="K_3208_c1"><ref type="telegram">Telegramm Escher an Josef Zingg, 15. September 1878 (<ref type="lit">SBB Historic VGB_GB_SBBGB02_062</ref>).</ref> </note> des<lb xml:id="p1-l7"/>
+        Besuches des <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <persName key="Vitali Philippe"><hi>Vitali</hi></persName><note type="com" xml:id="K_3208_c2"><persName key="Vitali Philippe">Philippe Vitali</persName> (1830–1909), <placeName key="Frankreich">französischer</placeName> Ingenieur und Eisenbahnunternehmer, Gründer der Entreprise de chemins de fer Vitali, Picard et Compagnie, der Ph. Vitali und Compagnie sowie der Société de Régie générale des chemins de fer.</note>, der uns<lb xml:id="p1-l8"/>
+vor einigen Tagen auch durch das<lb xml:id="p1-l9"/><choice><abbr>schweiz.</abbr><expan>schweizerisch</expan></choice> Eisenbahndepartement speciell<lb xml:id="p1-l10"/>
+empfohlen worden ist. Derselbe hat sich<lb xml:id="p1-l11"/><date when="1878-09-16">heute</date> in Begleit eines <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <persName key="Méric"><hi>Méric</hi></persName><note type="com" xml:id="K_3208_c3">Person nicht ermittelt.</note>, <lb xml:id="p1-l12"/>
+welcher mit einem <placeName key="Deutsches Reich">deutschen</placeName> Ingenieur<note type="com" xml:id="K_3208_c4">Person nicht ermittelt.</note> <lb xml:id="p1-l13"/>
 schon seit mehrern Tagen mit der<lb xml:id="p1-l14"/>
-Prüfung der <seg type="ref">Pläne &amp; Kostenvoranschläge<ref type="letter" target="K_3138"><!-- → Nr. 342--></ref><!-- <com>Die Direktion der GB übermachte dem Bundesrat im Verlaufe des Monats April 1878 die definitiven Pläne mit ausführlichen Kostenvoranschlägen für das reduzierte Netz der Gotthardbahn. <abbr>Vgl.</abbr><ref type="lit">Geschäftsbericht GB</ref> 1878, S. 19.<ref type="letter">&rarr; Brief Joachim Heer an Escher, 15. April 1878</ref>.[<b>PENDENT MF?.</b> Hierzu die Materialien aus SBB Historic Definitives Bauprojekt und Kostenvoranschlag für das reduzierte Netz; Vorschläge Escher, Begleitschreiben Escher an GB-Direktion und den Bundesrat. (SBB Historic VGB_GB_SBBGB02_017_01)]
-					</com>-->
-                </seg> <lb xml:id="p1-l15"/>
-beschäftigt ist, bei mir präsentirt &amp; <lb xml:id="p1-l16"/> <seg type="com">eine Offerte, sei es zur Uebernahme<lb xml:id="p1-l17"/>
-der Arbeiten à forfait oder auf Ein<lb break="no" xml:id="p1-l18"/>heitspreise 
-  in Aussicht gestellt.<note xml:id="K_3208_c5">Die Gotthardbahn-Gesellschaft erarbeitete in der ersten Jahreshälfte 1878 die Grundlagen für die Vergebung der Bauarbeiten im Generalakkord (à forfait) und trat diesbezüglich in Verhandlungen mit verschiedenen Bauunternehmen. Der Bundesrat äusserte in der Antwort auf eine Anfrage der Gesellschaft den Wunsch, dass auch Submissionen <bibl>für Uebernahme der Arbeiten zu Einheitspreisen und auf Ausmaß erhältlich gemacht würden</bibl>. <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006154" type="www">
-                            <ref type="lit">Prot. BR</ref>, 24. August 1878</ref>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Geschäftsbericht GB</ref> 1878, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 22. – <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> Entwurf des I. Departements der Direction der Gotthardbahn zu einem Vertrage betreffend Ausführung des Baues der noch nicht in Angriff genommenen Linien des reduzirten Netzes der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn im Generalakkorde (à forfait) (vom 25. Mai 1878) (<ref type="lit">SBB Historic VGB_GB_SBBGB02_048</ref><!--_04--> ).</note>
-                </seg> Er be<pb n="2"/>
-                    <lb xml:id="p2-l1"/>merkte,  
-daß er bei seinen bisherigen<lb xml:id="p2-l2"/>
-größern Unternehmungen gewöhnlich<lb xml:id="p2-l3"/>
-auch für die Finanzirung mitgewirkt<lb xml:id="p2-l4"/>
-habe, worauf ich ihm bemerkte, daß es<lb xml:id="p2-l5"/>
-der Gesellschaft sehr willkommen sein<lb xml:id="p2-l6"/>
-werde, wenn er auch in dieser Richtung<lb xml:id="p2-l7"/>
-derselben einen Vorschlag <del>zu</del> unterbreiten<lb xml:id="p2-l8"/>
-werde. Da seine Leute, wie sie er<lb break="no" xml:id="p2-l9"/>klären, 
-zur Prüfung des Materials<lb xml:id="p2-l10"/>
-noch 8 Tage Zeit bedürfen, so gehe er<lb xml:id="p2-l11"/>
-        einsweilen zu <seg type="com">
-                    <choice>
-                            <abbr>Hrn.</abbr>
-                            <expan>Herrn</expan>
-                        </choice> <persName type="person" key="Hentsch Charles-Emile">Hentsch</persName>
-                    <note xml:id="K_3208_c6">Vermutlich <persName type="person" key="Hentsch Charles-Emile">Charles-Emile Hentsch</persName> (1826–1902), teilhabender Geschäftsführer des Bankhauses Hentsch und Compagnie in <placeName type="place" key="Genf (Stadt)">Genf</placeName>, Verwaltungsratspräsident der Compagnie <placeName type="place" key="Genf">Genevoise</placeName> pour l'Industrie du Gaz.</note>
-                </seg> nach <placeName type="place" key="Genf (Stadt)">
-                    <hi>Genf</hi>
-                </placeName>
-                    <lb xml:id="p2-l12"/>
-&amp; gedenke auf Ende der Woche sich<lb xml:id="p2-l13"/>
-wieder einzufinden, um sodann das <hi>Traçe</hi>
-                    <lb xml:id="p2-l14"/>
-zu begehen. Auf die Anfrage des<lb xml:id="p2-l15"/>
-                    <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-                    <persName type="person" key="Vitali Philippe">
-                    <hi>Vitali</hi>
-                </persName>, wann die Gesellschaft in<lb xml:id="p2-l16"/>
-der Lage sein werde, einen Vertrag ab<lb break="no" xml:id="p2-l17"/>zuschließen, 
-erwiderte ich, daß dieß <pb n="3"/>
-                    <lb xml:id="p3-l1"/>
-etwa in den Monaten <choice>
-                        <abbr>
-                    <hi>Nov.</hi> </abbr>
-                        <expan>November</expan>
-                    </choice> oder <choice>
-                        <abbr>
-                    <hi>Dec.</hi> </abbr>
-                        <expan>December</expan>
-                    </choice>
-                    <lb xml:id="p3-l2"/>
-der Fall sein dürfte, wenn auch nur<lb xml:id="p3-l3"/>
+Prüfung der <rs>Pläne &amp; Kostenvoranschläge<ref type="letter" target="K_3138"><!-- → Nr. 342--></ref><!-- <com>Die Direktion der GB übermachte dem Bundesrat im Verlaufe des Monats April 1878 die definitiven Pläne mit ausführlichen Kostenvoranschlägen für das reduzierte Netz der Gotthardbahn. <abbr>Vgl.</abbr><ref type="lit">Geschäftsbericht GB</ref> 1878, S. 19.<ref type="letter">&rarr; Brief Joachim Heer an Escher, 15. April 1878</ref>.[<b>PENDENT MF?.</b> Hierzu die Materialien aus SBB Historic Definitives Bauprojekt und Kostenvoranschlag für das reduzierte Netz; Vorschläge Escher, Begleitschreiben Escher an GB-Direktion und den Bundesrat. (SBB Historic VGB_GB_SBBGB02_017_01)]
+					</com>--></rs> <lb xml:id="p1-l15"/>
+beschäftigt ist, bei mir präsentirt &amp; <lb xml:id="p1-l16"/> eine Offerte, sei es zur Uebernahme<lb xml:id="p1-l17"/>
+der Arbeiten à forfait oder auf Ein<lb xml:id="p1-l18" break="no"/>heitspreise 
+  in Aussicht gestellt.<note type="com" xml:id="K_3208_c5">Die Gotthardbahn-Gesellschaft erarbeitete in der ersten Jahreshälfte 1878 die Grundlagen für die Vergebung der Bauarbeiten im Generalakkord (à forfait) und trat diesbezüglich in Verhandlungen mit verschiedenen Bauunternehmen. Der Bundesrat äusserte in der Antwort auf eine Anfrage der Gesellschaft den Wunsch, dass auch Submissionen <orig>für Uebernahme der Arbeiten zu Einheitspreisen und auf Ausmaß erhältlich gemacht würden</orig>. <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006154"><ref type="lit">Prot. BR</ref>, 24. August 1878</ref>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Geschäftsbericht GB</ref> 1878, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 22. – <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> Entwurf des I. Departements der Direction der Gotthardbahn zu einem Vertrage betreffend Ausführung des Baues der noch nicht in Angriff genommenen Linien des reduzirten Netzes der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn im Generalakkorde (à forfait) (vom 25. Mai 1878) (<ref type="lit">SBB Historic VGB_GB_SBBGB02_048</ref><!--_04--> ).</note> Er be<pb n="2"/><lb xml:id="p2-l1" break="no"/>merkte,  
+daß er bei seinen bisherigen<lb xml:id="p2-l2" break="no"/>
+größern Unternehmungen gewöhnlich<lb xml:id="p2-l3" break="no"/>
+auch für die Finanzirung mitgewirkt<lb xml:id="p2-l4" break="no"/>
+habe, worauf ich ihm bemerkte, daß es<lb xml:id="p2-l5" break="no"/>
+der Gesellschaft sehr willkommen sein<lb xml:id="p2-l6" break="no"/>
+werde, wenn er auch in dieser Richtung<lb xml:id="p2-l7" break="no"/>
+derselben einen Vorschlag <del>zu</del> unterbreiten<lb xml:id="p2-l8" break="no"/>
+werde. Da seine Leute, wie sie er<lb xml:id="p2-l9" break="no"/>klären, 
+zur Prüfung des Materials<lb xml:id="p2-l10" break="no"/>
+noch 8 Tage Zeit bedürfen, so gehe er<lb xml:id="p2-l11" break="no"/>
+        einsweilen zu <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <persName key="Hentsch Charles-Emile">Hentsch</persName><note type="com" xml:id="K_3208_c6">Vermutlich <persName key="Hentsch Charles-Emile">Charles-Emile Hentsch</persName> (1826–1902), teilhabender Geschäftsführer des Bankhauses Hentsch und Compagnie in <placeName key="Genf (Stadt)">Genf</placeName>, Verwaltungsratspräsident der Compagnie <placeName key="Genf">Genevoise</placeName> pour l'Industrie du Gaz.</note> nach <placeName key="Genf (Stadt)"><hi>Genf</hi></placeName> <lb xml:id="p2-l12" break="no"/>
+&amp; gedenke auf Ende der Woche sich<lb xml:id="p2-l13" break="no"/>
+wieder einzufinden, um sodann das <hi>Traçe</hi> <lb xml:id="p2-l14" break="no"/>
+zu begehen. Auf die Anfrage des<lb xml:id="p2-l15" break="no"/><choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <persName key="Vitali Philippe"><hi>Vitali</hi></persName>, wann die Gesellschaft in<lb xml:id="p2-l16" break="no"/>
+der Lage sein werde, einen Vertrag ab<lb xml:id="p2-l17" break="no"/>zuschließen, 
+erwiderte ich, daß dieß <pb n="3"/><lb xml:id="p3-l1" break="no"/>
+etwa in den Monaten <choice><abbr><hi>Nov.</hi> </abbr><expan>November</expan></choice> oder <choice><abbr><hi>Dec.</hi> </abbr><expan>December</expan></choice> <lb xml:id="p3-l2" break="no"/>
+der Fall sein dürfte, wenn auch nur<lb xml:id="p3-l3" break="no"/>
 noch conditionell. – </p>
-      <p rend="indent" xml:id="K_3208_p5">
-                <lb xml:id="p3-l4"/> <seg type="com">Die <choice>
-                            <abbr>Hrn.</abbr>
-                            <expan>Herrn</expan>
-                        </choice> <hi>
-                        <persName type="person" key="Dubos">Dubos</persName>, <persName type="person" key="Capy">Capy</persName> &amp; <choice>
-                                <abbr>C<hi rend="sup">ie</hi> </abbr>
-                                <expan>Compagnie (Gesellschaft)</expan>
-                            </choice>
-                    </hi> haben die Er<lb break="no" xml:id="p3-l5"/>klärung 
-        abgegeben, daß sie die <choice>
-                            <abbr>Haftbarkt.</abbr>
-                            <expan>Haftbarkeit</expan>
-                        </choice>
-                        <lb xml:id="p3-l6"/>
-        für ihr Offert bis <date when="1879-01-01">1. <hi>
-                            <choice>
-                                    <abbr>Jan.</abbr>
-                                    <expan>Januar</expan>
-                                </choice> </hi> 79</date> verlängern.<note xml:id="K_3208_c7">
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="third-party-letter">Schreiben Dubos, Capy und Compagnie an Josef Zingg, 9./14. September 1878 (<ref type="lit">SBB Historic VGB_GB_SBBGB02_062</ref><!--_01--> )</ref>.<!-- Quellennachweis korrigiert: Adressat des Schreibens ist Zingg, denn Escher war zu diesem Zeitpunkt nicht mehr Direktor der GB! [BF, 08.12.2014] -->
-                    </note>
-                </seg> <lb xml:id="p3-l7"/> <seg type="ref">Eine ähnliche Erklärung hoffe ich in den<lb xml:id="p3-l8"/>nächsten Tagen auch von der <choice>
-                            <abbr>schweiz.</abbr>
-                            <expan>schweizerisch</expan>
-                        </choice> Bau<lb break="no" xml:id="p3-l9"/>gesellschaft<ref type="letter" target="K_3211"><!-- → Nr. 378--></ref>
-                </seg> <seg type="com">
-                    <note xml:id="K_3208_c8">Die Schweizerische Baugesellschaft, ein Konsortium von drei Baugruppen, reichte ihre Offerte am <date when="1878-07-14">14. Juli 1878</date> ein. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="third-party-letter">Schreiben Fritz Müller, Giovanni Marsaglia, Gottlieb Ott an Dir. GB, 14. Juli 1878 (<ref type="lit">SBB Historic VGB_GB_SBBGB02_062</ref><!--_01--> )</ref>.<!--[<b>PENDENT MF?</b>. Zu diesen am Submissionsverfahren beteiligten Gesellschaften finden sich vermutlich im folgenden Dossier  aus dem SBB Historic geeigente Materialien: VGB_GB_SBBGB02_062_01. Auch: Geschäftsbericht GBG 1879, S. 23-25.]-->
-                    </note>
-                </seg> zu erhalten, so daß man<lb xml:id="p3-l10"/>
-        gutfindenden Falls vor <seg type="com">Abschluß der<lb xml:id="p3-l11"/>
-        Referendumsfrist<note xml:id="K_3208_c9">Die Referendumsfrist gegen das Bundesgesetz betreffend Gewährung von Subsidien für <placeName type="place" key="Alpen">Alpen</placeName>bahnen vom <date when="1878-08-22">22. August 1878</date> war auf den <date when="1878-11-24">24. November 1878</date> angesetzt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006153">
-                            <ref type="lit">Prot. BR</ref>, 23. August 1878</ref>.</note>
-                </seg> sich nicht zu entscheiden<lb xml:id="p3-l12"/>
+      <p rend="indent" xml:id="K_3208_p5"><lb xml:id="p3-l4"/> Die <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <hi><persName key="Dubos">Dubos</persName>, <persName key="Capy">Capy</persName> &amp; <choice><abbr>C<hi rend="sup">ie</hi> </abbr><expan>Compagnie (Gesellschaft)</expan></choice></hi> haben die Er<lb xml:id="p3-l5" break="no"/>klärung 
+        abgegeben, daß sie die <choice><abbr>Haftbarkt.</abbr><expan>Haftbarkeit</expan></choice> <lb xml:id="p3-l6" break="no"/>
+        für ihr Offert bis <date when="1879-01-01">1. <hi><choice><abbr>Jan.</abbr><expan>Januar</expan></choice> </hi> 79</date> verlängern.<note type="com" xml:id="K_3208_c7"><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="third-party-letter">Schreiben Dubos, Capy und Compagnie an Josef Zingg, 9./14. September 1878 (<ref type="lit">SBB Historic VGB_GB_SBBGB02_062</ref><!--_01--> )</ref>.<!-- Quellennachweis korrigiert: Adressat des Schreibens ist Zingg, denn Escher war zu diesem Zeitpunkt nicht mehr Direktor der GB! [BF, 08.12.2014] --></note> <lb xml:id="p3-l7"/> <rs>Eine ähnliche Erklärung hoffe ich in den<lb xml:id="p3-l8"/>nächsten Tagen auch von der <choice><abbr>schweiz.</abbr><expan>schweizerisch</expan></choice> Bau<lb xml:id="p3-l9" break="no"/>gesellschaft<ref type="letter" target="K_3211"><!-- → Nr. 378--></ref></rs> <note type="com" xml:id="K_3208_c8">Die Schweizerische Baugesellschaft, ein Konsortium von drei Baugruppen, reichte ihre Offerte am <date when="1878-07-14">14. Juli 1878</date> ein. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="third-party-letter">Schreiben Fritz Müller, Giovanni Marsaglia, Gottlieb Ott an Dir. GB, 14. Juli 1878 (<ref type="lit">SBB Historic VGB_GB_SBBGB02_062</ref><!--_01--> )</ref>.<!--[<b>PENDENT MF?</b>. Zu diesen am Submissionsverfahren beteiligten Gesellschaften finden sich vermutlich im folgenden Dossier  aus dem SBB Historic geeigente Materialien: VGB_GB_SBBGB02_062_01. Auch: Geschäftsbericht GBG 1879, S. 23-25.]--></note> zu erhalten, so daß man<lb xml:id="p3-l10"/>
+        gutfindenden Falls vor Abschluß der<lb xml:id="p3-l11"/>
+        Referendumsfrist<note type="com" xml:id="K_3208_c9">Die Referendumsfrist gegen das Bundesgesetz betreffend Gewährung von Subsidien für <placeName key="Alpen">Alpen</placeName>bahnen vom <date when="1878-08-22">22. August 1878</date> war auf den <date when="1878-11-24">24. November 1878</date> angesetzt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70006153"><ref type="lit">Prot. BR</ref>, 23. August 1878</ref>.</note> sich nicht zu entscheiden<lb xml:id="p3-l12"/>
         braucht. – </p>
-      <p rend="indent" xml:id="K_3208_p6">
-                <lb xml:id="p3-l13"/>In <seg type="ref">Sachen <persName type="person" key="Hellwag Konrad Wilhelm">Hellwags</persName>
-                    <ref type="sum" target="Rekonstruktion_Gotthardbahn_p42">Causa Hellwag<!-- → Band 1, S. 409--></ref>
-                    <ref type="kbp">→ Konrad Wilhelm Hellwag</ref>
-                </seg> ist nichts weiter<lb xml:id="p3-l14"/>
-gegangen. Er wird jetzt an seiner<lb xml:id="p3-l15"/> <seg type="com">Verantwortung<note xml:id="K_3208_c10">
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Hellwag, Gotthardbahn</ref>; <ref type="letter" target="K_3210"><!-- → Nr. 377--></ref>.</note>
-                </seg> arbeiten. Hinwieder ist<lb xml:id="p3-l16"/>
-                <date when="1878-09-15">gestern</date> wieder eine bezeichnende Thatsache<lb xml:id="p3-l17"/>
-zu meiner Kenntniß gelangt. <persName type="person" key="Hellwag Konrad Wilhelm">H.</persName> hat kürzlich<lb xml:id="p3-l18"/>
-wieder einen seiner tendenziösen Berichte über <pb n="4"/>
-                <lb xml:id="p4-l1"/>
+      <p rend="indent" xml:id="K_3208_p6"><lb xml:id="p3-l13"/>In <rs>Sachen <persName key="Hellwag Konrad Wilhelm">Hellwags</persName><ref type="sum" target="Rekonstruktion_Gotthardbahn_p42">Causa Hellwag<!-- → Band 1, S. 409--></ref></rs> ist nichts weiter<lb xml:id="p3-l14"/>
+gegangen. Er wird jetzt an seiner<lb xml:id="p3-l15"/> Verantwortung<note type="com" xml:id="K_3208_c10"><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Hellwag, Gotthardbahn</ref>; <ref type="letter" target="K_3210"><!-- → Nr. 377--></ref>.</note> arbeiten. Hinwieder ist<lb xml:id="p3-l16"/><date when="1878-09-15">gestern</date> wieder eine bezeichnende Thatsache<lb xml:id="p3-l17"/>
+zu meiner Kenntniß gelangt. <persName key="Hellwag Konrad Wilhelm">H.</persName> hat kürzlich<lb xml:id="p3-l18"/>
+wieder einen seiner tendenziösen Berichte über <pb n="4"/><lb xml:id="p4-l1"/>
 Mangel an Ordnung, Disciplin &amp; Energie<lb xml:id="p4-l2"/>
-der Unternehmung <persName type="person" key="Favre Louis">
-                    <hi>Favre's</hi>
-                </persName> in <placeName type="place" key="Göschenen">Göschenen</placeName> <lb xml:id="p4-l3"/>
-erstattet. <seg type="ref">
-                    <persName type="person" key="Favre Louis">
-                        <hi>Favre</hi>
-                    </persName>
-                    <ref type="kbp">→ Louis Favre</ref>
-                </seg> hat darauf eine Verant<lb break="no" xml:id="p4-l4"/>wortung <seg type="com">
-                    <persName type="person" key="Stockalper Ernest von">Stokalpers</persName>
-                    <note xml:id="K_3208_c11">
-                        <persName type="person" key="Stockalper Ernest von">Ernest von Stockalper</persName> (1838–1919), <placeName type="place" key="Wallis">Walliser</placeName> Ingenieur, Angestellter der Unternehmung <persName type="person" key="Favre Louis">Favre</persName>, technischer Leiter der Nordseite des <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>tunnels.</note>
-                </seg> mitgetheilt, in welcher<lb xml:id="p4-l5"/>
-                    <choice>
-                        <abbr>u. a.</abbr>
-                        <expan>unter anderem</expan>
-                    </choice> die Stelle vorkommt: er müße <persName type="person" key="Hellwag Konrad Wilhelm">H.</persName>
-                    <lb xml:id="p4-l6"/>
-ein eigenes Urtheil in der Sache absprechen,<lb xml:id="p4-l7"/>
-da derselbe seines Wißens <hi rend="underline">seit 2 Jahren</hi>
-                    <lb xml:id="p4-l8"/>
-                    <hi rend="underline">den Tunnel in <placeName type="place" key="Göschenen">Göschenen</placeName> nicht mehr besucht</hi>
-                    <lb xml:id="p4-l9"/>
-                <hi rend="underline">habe</hi>.! </p>
-      <p rend="indent" xml:id="K_3208_p7">
-                <lb xml:id="p4-l10"/>
-        <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-        <choice>
-                        <abbr>Dr.</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> <seg type="ref">
-                    <persName type="person" key="Vogt Gustav">Vogt</persName>
-                    <ref type="kbp">→ Gustav Vogt</ref>
-                </seg> halte ich über die<lb xml:id="p4-l11"/>
+der Unternehmung <persName key="Favre Louis"><hi>Favre's</hi></persName> in <placeName key="Göschenen">Göschenen</placeName> <lb xml:id="p4-l3"/>
+erstattet. <rs><persName key="Favre Louis"><hi>Favre</hi></persName></rs> hat darauf eine Verant<lb xml:id="p4-l4" break="no"/>wortung <persName key="Stockalper Ernest von">Stokalpers</persName><note type="com" xml:id="K_3208_c11"><persName key="Stockalper Ernest von">Ernest von Stockalper</persName> (1838–1919), <placeName key="Wallis">Walliser</placeName> Ingenieur, Angestellter der Unternehmung <persName key="Favre Louis">Favre</persName>, technischer Leiter der Nordseite des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels.</note> mitgetheilt, in welcher<lb xml:id="p4-l5" break="no"/><choice><abbr>u. a.</abbr><expan>unter anderem</expan></choice> die Stelle vorkommt: er müße <persName key="Hellwag Konrad Wilhelm">H.</persName> <lb xml:id="p4-l6" break="no"/>
+ein eigenes Urtheil in der Sache absprechen,<lb xml:id="p4-l7" break="no"/>
+da derselbe seines Wißens <hi rend="underline">seit 2 Jahren</hi> <lb xml:id="p4-l8" break="no"/><hi rend="underline">den Tunnel in <placeName key="Göschenen">Göschenen</placeName> nicht mehr besucht</hi> <lb xml:id="p4-l9" break="no"/><hi rend="underline">habe</hi>.! </p>
+      <p rend="indent" xml:id="K_3208_p7"><lb xml:id="p4-l10"/>
+        <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice>
+        <choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> <rs><persName key="Vogt Gustav">Vogt</persName></rs> halte ich über die<lb xml:id="p4-l11"/>
 Vorgänge auf dem Laufenden, damit<lb xml:id="p4-l12"/>
 er zur gegebenen Zeit in der Lage<lb xml:id="p4-l13"/>
-ist, <persName type="person" key="Hellwag Konrad Wilhelm">H.</persName> gehörig zu antworten. – </p>
-      <p rend="indent" xml:id="K_3208_p8">
-                <lb xml:id="p4-l14"/>Indem ich Ihnen noch Ihre gefällige<lb xml:id="p4-l15"/>
-Verwendung bei <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> Oberst <seg type="com">
-                    <persName type="person" key="Hertenstein Wilhelm Friedrich">Herten<lb break="no" xml:id="p4-l16"/>stein</persName>
-                    <note xml:id="K_3208_c12">
-                        <persName type="person" key="Hertenstein Wilhelm Friedrich">Wilhelm Friedrich Hertenstein</persName> (1825–1888), Regierungsrat und Nationalrat (<placeName type="place" key="Zürich">ZH</placeName>), Verwaltungsrat der Gotthardbahn-Gesellschaft.</note>
-                </seg> <seg type="ref">verdanke &amp; einer entsprechenden<lb xml:id="p4-l17"/>
-Entschließung desselben entgegensehe<ref type="letter" target="K_3207"><!-- → Nr. 374--></ref>
-                </seg> <lb xml:id="p4-l18"/>
-verbleibe in <choice>
-                        <abbr>freundschaftl.</abbr>
-                        <expan>freundschaftlich</expan>
-                    </choice> Hochachtung</p>
-    </div>
-        </body>
-    <back>
+ist, <persName key="Hellwag Konrad Wilhelm">H.</persName> gehörig zu antworten. – </p>
+      <p rend="indent" xml:id="K_3208_p8"><lb xml:id="p4-l14"/>Indem ich Ihnen noch Ihre gefällige<lb xml:id="p4-l15"/>
+Verwendung bei <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> Oberst <persName key="Hertenstein Wilhelm Friedrich">Herten<lb xml:id="p4-l16" break="no"/>stein</persName><note type="com" xml:id="K_3208_c12"><persName key="Hertenstein Wilhelm Friedrich">Wilhelm Friedrich Hertenstein</persName> (1825–1888), Regierungsrat und Nationalrat (<placeName key="Zürich">ZH</placeName>), Verwaltungsrat der Gotthardbahn-Gesellschaft.</note> <rs>verdanke &amp; einer entsprechenden<lb xml:id="p4-l17"/>
+Entschließung desselben entgegensehe<ref type="letter" target="K_3207"><!-- → Nr. 374--></ref></rs> <lb xml:id="p4-l18"/>
+verbleibe in <choice><abbr>freundschaftl.</abbr><expan>freundschaftlich</expan></choice> Hochachtung</p>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_3208_p9">
-                    <lb xml:id="p4-l19"/>
+        <p rend="center" xml:id="K_3208_p9"><lb xml:id="p4-l19"/>
 Ihr ergebener 
 </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_3208_p10">
-                    <lb xml:id="p4-l20"/>J. Zingg.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_3208_p10"><lb xml:id="p4-l20"/>J. Zingg.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

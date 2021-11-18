@@ -1,162 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1520" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Trog an Alfred Escher, Basel, Freitag, Oktober 24, 1856</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#50*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Centralbahn (SCB)</item>
-                        <item>Presse (allgemein)</item>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Eisenbahnen Fusionen</item>
-                        <item>Personelle Angelegenheiten</item>
-                        <item>St. Gallisch-Appenzellische Eisenbahn (SGAE)</item>
-                        <item>Glattalbahn (Gl-TB)</item>
-                        <item>Schweizerische Südostbahn (SOB)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Trog Johann Jakob" type="sender">Johann Jakob Trog</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Basel</placeName>
-                    <date when="1856-10-24">Freitag, Oktober 24, 1856</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-06-12" who="LH">Migration nach XML</change>
-            <change when="2013-06-12" who="KB">Auszeichnung 1 umgesetzt</change>
-            <change when="2013-07-17" who="JS">Verifizierung 1 umgesetzt</change>
-            <change when="2013-07-19" who="NB">Auszeichnung 2 umgesetzt</change>
-            <change when="2013-07-23" who="CB">Migrationsverifizierung umgesetzt</change>
-            <change when="2013-08-14" who="JS">Transkriptionsverifizierung Seiterle umgesetzt</change>
-            <change when="2013-08-28" who="AO">Übertragung der Transkriptionsverifizierung überprüft</change>
-            <change when="2013-11-28" who="VP">Inhaltliche Qualitätsprüfung umgesetzt</change>
-            <change when="2013-12-18" who="VP">Verifizierung 2 umgesetzt</change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1520" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Trog an Alfred Escher, Basel, Freitag, 24. Oktober 1856</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#50*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Centralbahn (SCB)</term><term>Presse (allgemein)</term><term>Schweizerische Nordostbahn (NOB)</term><term>Eisenbahnen Fusionen</term><term>Personelle Angelegenheiten</term><term>St. Gallisch-Appenzellische Eisenbahn (SGAE)</term><term>Glattalbahn (Gl-TB)</term><term>Schweizerische Südostbahn (SOB)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Trog Johann Jakob" type="addressee">Johann Jakob Trog</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Basel</placeName><date when="1856-10-24">24. Oktober 1856</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_1520_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Basel-Stadt">Basel</placeName>, <date when="1856-10-24">24. <choice>
-                            <abbr>8<hi rend="sup">r</hi> </abbr>
-                            <expan>October</expan>
-                        </choice> 1856</date>.</p>
+        <p rend="right" xml:id="K_1520_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Basel-Stadt">Basel</placeName>, <date when="1856-10-24">24. <choice><abbr>8<hi rend="sup">r</hi> </abbr><expan>October</expan></choice> 1856</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_1520_p2">
-                    <lb xml:id="p1-l2"/>Hochgeachteter Herr,</p>
+        <p rend="left" xml:id="K_1520_p2"><lb xml:id="p1-l2"/>Hochgeachteter Herr,</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1520_p3">
-                    <lb xml:id="p1-l3"/>Gleichzeitig mit diesem Brief wer<lb break="no" xml:id="p1-l4"/>den Sie den Bericht des Direktoriums 
-        <lb xml:id="p1-l5"/>der <choice>
-                        <abbr>C.B.</abbr>
-                        <expan>CentralBahn</expan>
-                    </choice> an den Verwaltungsrath 
-        <lb xml:id="p1-l6"/>erhalten. Er war bereits der Post 
-        <lb xml:id="p1-l7"/>übergeben, als Ihre <choice>
-                        <abbr>verehrl.</abbr>
-                        <expan>verehrlich</expan>
-                    </choice> Zuschrift 
-        <lb xml:id="p1-l8"/>
-                    <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice>
-                    <date when="1856-10-23">Gestern</date> in meine Hand kam.
-        <lb xml:id="p1-l9"/>Durch diesen Bericht erhalten Sie 
-        <lb xml:id="p1-l10"/>die gewünschten Aufschlüße. </p>
-      <p rend="indent" xml:id="K_1520_p4">
-                    <lb xml:id="p1-l11"/>Indeßen laße ich durch <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Koller Gottlieb">Koller</persName> <lb xml:id="p1-l12"/>noch eine Arbeit machen, welche 
-        <lb xml:id="p1-l13"/>das unsinnige Zeug, das die Zei<lb break="no" xml:id="p1-l14"/>tungen dem Publikum hinwerfen, 
-        <lb xml:id="p1-l15"/>gehörig beleuchten soll. Ich werde 
-        <lb xml:id="p1-l16"/>Ihnen davon Kenntniß geben. </p>
-      <p rend="indent" xml:id="K_1520_p5">
-                    <lb xml:id="p1-l17"/>Ihre Gründe, warum Sie den 
-        <lb xml:id="p1-l18"/>Verwaltungsrath der <choice>
-                        <abbr>N.O.B.</abbr>
-                        <expan>NordOstBahn</expan>
-                    </choice> noch 
+    </front><body>
+      <p rend="indent" xml:id="K_1520_p3"><lb xml:id="p1-l3"/>Gleichzeitig mit diesem Brief wer<lb xml:id="p1-l4" break="no"/>den Sie den Bericht des Direktoriums 
+        <lb xml:id="p1-l5" break="no"/>der <choice><abbr>C.B.</abbr><expan>CentralBahn</expan></choice> an den Verwaltungsrath 
+        <lb xml:id="p1-l6" break="no"/>erhalten. Er war bereits der Post 
+        <lb xml:id="p1-l7" break="no"/>übergeben, als Ihre <choice><abbr>verehrl.</abbr><expan>verehrlich</expan></choice> Zuschrift 
+        <lb xml:id="p1-l8" break="no"/><choice><abbr>v.</abbr><expan>von</expan></choice> <date when="1856-10-23">Gestern</date> in meine Hand kam.
+        <lb xml:id="p1-l9" break="no"/>Durch diesen Bericht erhalten Sie 
+        <lb xml:id="p1-l10" break="no"/>die gewünschten Aufschlüße. </p>
+      <p rend="indent" xml:id="K_1520_p4"><lb xml:id="p1-l11"/>Indeßen laße ich durch <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="Koller Gottlieb">Koller</persName> <lb xml:id="p1-l12"/>noch eine Arbeit machen, welche 
+        <lb xml:id="p1-l13"/>das unsinnige Zeug, das die Zei<lb xml:id="p1-l14" break="no"/>tungen dem Publikum hinwerfen, 
+        <lb xml:id="p1-l15" break="no"/>gehörig beleuchten soll. Ich werde 
+        <lb xml:id="p1-l16" break="no"/>Ihnen davon Kenntniß geben. </p>
+      <p rend="indent" xml:id="K_1520_p5"><lb xml:id="p1-l17"/>Ihre Gründe, warum Sie den 
+        <lb xml:id="p1-l18"/>Verwaltungsrath der <choice><abbr>N.O.B.</abbr><expan>NordOstBahn</expan></choice> noch 
         <lb xml:id="p1-l19"/>nicht zusammen beriefen, halte ich 
         <lb xml:id="p1-l20"/>für durchaus stichhaltig, so sehr 
         <lb xml:id="p1-l21"/>übrigens ein baldiges Vorgehen 
         <lb xml:id="p1-l22"/>zu wünschen ist. </p>
-      <p rend="indent" xml:id="K_1520_p6">
-                    <lb xml:id="p1-l23"/>Es munkelt noch immer, mit der 
+      <p rend="indent" xml:id="K_1520_p6"><lb xml:id="p1-l23"/>Es munkelt noch immer, mit der 
         <lb xml:id="p1-l24"/>östlichen Fusion sei noch lange 
         <lb xml:id="p1-l25"/>nicht Alles im Reinen. Ein baldiges 
-        <lb xml:id="p1-l26"/>Hervortreten der Fusionsbestre<lb break="no" xml:id="p1-l27"/>bungen der <choice>
-                        <abbr>N.O.B.</abbr>
-                        <expan>NordOstBahn</expan>
-                    </choice> &amp; <choice>
-                        <abbr>C.B.</abbr>
-                        <expan>CentralBahn</expan>
-                    </choice> könnte der 
-        <lb xml:id="p1-l28"/>ganzen Sache noch eine kuriose
-        <lb xml:id="p1-l29"/>Wendung geben. Wenn nicht Alles trügt, 
-        <lb xml:id="p1-l30"/>so haben die <placeName type="place" key="St. Gallen">St. Galler</placeName> Herren 
-        <lb xml:id="p1-l31"/>noch immer ein Auge auf uns ge<lb break="no" xml:id="p1-l32"/>richtet. </p>
-      <p rend="indent" xml:id="K_1520_p7">
-                    <lb xml:id="p1-l33"/>Wahrscheinlich wird künftigen 
-            <lb xml:id="p1-l34"/>  <date when="1856-10-27">Montag</date> <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Geigy Carl">Geigy</persName> an <persName type="person" key="Speiser Johann Jakob">Speisers</persName> <lb xml:id="p1-l35"/>Stelle berufen; weitaus das Zwek<note type="transcript">sic!</note> <lb break="no" xml:id="p1-l36"/>mäßigste, was sich im Angesichte 
-        <lb xml:id="p1-l37"/>unsrer Bestrebungen thun <add>läßt</add>. Diese 
-        <pb n="2"/>
-                    <lb xml:id="p2-l1"/>Sache einzufädeln, war wahrlich keine 
-        <lb xml:id="p2-l2"/>leichte Aufgabe. Es begannen Leute 
-        <lb xml:id="p2-l3"/>hervorzutretten<note type="transcript">sic!</note>, die der Fusion  
-        <lb xml:id="p2-l4"/>sehr gefährlich hätten werden dürfen. </p>
-      <p rend="indent" xml:id="K_1520_p8">
-                    <lb xml:id="p2-l5"/>
-        <persName type="person" key="Speiser Johann Jakob">Speisers</persName> Familie wird ein bedeu<lb break="no" xml:id="p2-l6"/>tendes Geschenk dekretirt werden. </p>
-      <p rend="indent" xml:id="K_1520_p9">
-                    <lb xml:id="p2-l7"/>Wenn wir mit dem Fusionspro<lb break="no" xml:id="p2-l8"/>jekt auch noch nicht offiziell auftreten 
-        <lb xml:id="p2-l9"/>können, so hoffe ich doch, bei der 
-        <lb xml:id="p2-l10"/>Versammlung des Verwaltungsraths 
-        <lb xml:id="p2-l11"/>einen Schritt vorwärts zu kommen.</p>
-    </div>
-        </body>
-    <back>
+        <lb xml:id="p1-l26"/>Hervortreten der Fusionsbestre<lb xml:id="p1-l27" break="no"/>bungen der <choice><abbr>N.O.B.</abbr><expan>NordOstBahn</expan></choice> &amp; <choice><abbr>C.B.</abbr><expan>CentralBahn</expan></choice> könnte der 
+        <lb xml:id="p1-l28" break="no"/>ganzen Sache noch eine kuriose
+        <lb xml:id="p1-l29" break="no"/>Wendung geben. Wenn nicht Alles trügt, 
+        <lb xml:id="p1-l30" break="no"/>so haben die <placeName key="St. Gallen">St. Galler</placeName> Herren 
+        <lb xml:id="p1-l31" break="no"/>noch immer ein Auge auf uns ge<lb xml:id="p1-l32" break="no"/>richtet. </p>
+      <p rend="indent" xml:id="K_1520_p7"><lb xml:id="p1-l33"/>Wahrscheinlich wird künftigen 
+            <lb xml:id="p1-l34"/>  <date when="1856-10-27">Montag</date> <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="Geigy Carl">Geigy</persName> an <persName key="Speiser Johann Jakob">Speisers</persName> <lb xml:id="p1-l35"/>Stelle berufen; weitaus das Zwek<note type="transcript">sic!</note> <lb xml:id="p1-l36" break="no"/>mäßigste, was sich im Angesichte 
+        <lb xml:id="p1-l37" break="no"/>unsrer Bestrebungen thun <add>läßt</add>. Diese 
+        <pb n="2"/><lb xml:id="p2-l1" break="no"/>Sache einzufädeln, war wahrlich keine 
+        <lb xml:id="p2-l2" break="no"/>leichte Aufgabe. Es begannen Leute 
+        <lb xml:id="p2-l3" break="no"/>hervorzutretten<note type="transcript">sic!</note>, die der Fusion  
+        <lb xml:id="p2-l4" break="no"/>sehr gefährlich hätten werden dürfen. </p>
+      <p rend="indent" xml:id="K_1520_p8"><lb xml:id="p2-l5"/>
+        <persName key="Speiser Johann Jakob">Speisers</persName> Familie wird ein bedeu<lb xml:id="p2-l6" break="no"/>tendes Geschenk dekretirt werden. </p>
+      <p rend="indent" xml:id="K_1520_p9"><lb xml:id="p2-l7"/>Wenn wir mit dem Fusionspro<lb xml:id="p2-l8" break="no"/>jekt auch noch nicht offiziell auftreten 
+        <lb xml:id="p2-l9" break="no"/>können, so hoffe ich doch, bei der 
+        <lb xml:id="p2-l10" break="no"/>Versammlung des Verwaltungsraths 
+        <lb xml:id="p2-l11" break="no"/>einen Schritt vorwärts zu kommen.</p>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_1520_p10">
-                    <lb xml:id="p2-l12"/>Leben Sie recht wohl.</p>
-        <p rend="center" xml:id="K_1520_p11">
-                    <lb xml:id="p2-l13"/>Ihr hochachtungsvoll &amp; freundschaftlichst </p>
-        <p rend="right" xml:id="K_1520_p12">
-                    <lb xml:id="p2-l14"/>ergebener:</p>
+        <p rend="center" xml:id="K_1520_p10"><lb xml:id="p2-l12"/>Leben Sie recht wohl.</p>
+        <p rend="center" xml:id="K_1520_p11"><lb xml:id="p2-l13"/>Ihr hochachtungsvoll &amp; freundschaftlichst </p>
+        <p rend="right" xml:id="K_1520_p12"><lb xml:id="p2-l14"/>ergebener:</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1520_p13">
-                    <lb xml:id="p2-l15"/>Trog</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_1520_p13"><lb xml:id="p2-l15"/>Trog</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

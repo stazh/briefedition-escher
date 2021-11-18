@@ -1,144 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8282" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Luigi Amedeo Melegari an Alfred Escher, Bern, Dienstag, August 20, 1872</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB03_066</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Società per le strade ferrate alta Italia (Oberitalienische Eisenbahngesellschaft) (SFAI)</item>
-                        <item>Eisenbahnanschluss an ausländische Netze</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Melegari Luigi Amedeo" type="sender">Luigi Amedeo Melegari</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1872-08-20">Dienstag, August 20, 1872</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-08-08" who="NP">transkribiert
-                
-            </change>
-            <change when="2014-01-10" who="MB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="CF">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-02-06" who="MB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-06-05" who="IB">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2014-07-04" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-11-04" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-04" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8282" type="Brief"><teiHeader><fileDesc><titleStmt><title>Luigi Amedeo Melegari an Alfred Escher, Bern, Dienstag, 20. August 1872</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB03_066</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Società per le strade ferrate alta Italia (Oberitalienische Eisenbahngesellschaft) (SFAI)</term><term>Eisenbahnanschluss an ausländische Netze</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Melegari Luigi Amedeo" type="addressee">Luigi Amedeo Melegari</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1872-08-20">20. August 1872</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_8282_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_8282_c0">Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <bibl>Gotthardbahn | <date when="1872-08-22">22 <choice>
-                                        <abbr>AUG.</abbr>
-                                        <expan>AUGUST</expan>
-                                    </choice> 1872.</date> | <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 2472.</bibl> – 
-          Nachträgliche Inhaltsangabe oben links von dritter Hand: <bibl>Untersuchung der projectirten <placeName type="place" key="Italien (Königreich)">ital.</placeName> Bahnstrecke <placeName type="place" key="Camerlata (Como, I)">
-                                    <hi>Camerlata</hi>
-                                </placeName>–<placeName type="place" key="Chiasso">
-                                    <hi>Chiasso</hi>
-                                </placeName> durch Ritter <persName type="person" key="Biglia Felice">
-                                    <hi>Biglia</hi>
-                                </persName> behufs Feststellung des Anschlußes an die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn. | I <choice>
-                                    <abbr>Depart.</abbr>
-                                    <expan>Departement</expan>
-                                </choice> </bibl>
-                        </note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Bern (Stadt)">Berne</placeName> le <date when="1872-08-20">20 Août 1872</date>. 
+        <p rend="right" xml:id="K_8282_p1"> <note type="com" xml:id="K_8282_c0">Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <orig>Gotthardbahn | <date when="1872-08-22">22 <choice><abbr>AUG.</abbr><expan>AUGUST</expan></choice> 1872.</date> | <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 2472.</orig> – 
+          Nachträgliche Inhaltsangabe oben links von dritter Hand: <orig>Untersuchung der projectirten <placeName key="Italien (Königreich)">ital.</placeName> Bahnstrecke <placeName key="Camerlata (Como, I)"><hi>Camerlata</hi></placeName>–<placeName key="Chiasso"><hi>Chiasso</hi></placeName> durch Ritter <persName key="Biglia Felice"><hi>Biglia</hi></persName> behufs Feststellung des Anschlußes an die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn. | I <choice><abbr>Depart.</abbr><expan>Departement</expan></choice> </orig></note> <lb xml:id="p1-l1"/>
+          <placeName key="Bern (Stadt)">Berne</placeName> le <date when="1872-08-20">20 Août 1872</date>. 
                 </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_8282_p2">
-                    <lb xml:id="p1-l2"/>Monsieur</p>
+        <p rend="indent" xml:id="K_8282_p2"><lb xml:id="p1-l2"/>Monsieur</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_8282_p3">
-                <lb xml:id="p1-l3"/>J'ai l'honneur de Vous prevenir que
-        <lb xml:id="p1-l4"/>il me revient de <placeName type="place" key="Rom (I)">Rome</placeName> que le <persName type="person" key="Devincenzi Giuseppe">Ministère
-        <lb xml:id="p1-l5"/>Royal des Travaux Publics</persName> a chargé <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> le
-        <lb xml:id="p1-l6"/>
-                <choice>
-                        <abbr>Chev<hi rend="sup">r</hi> </abbr>
-                        <expan>Chevalier (Ritter)</expan>
-                    </choice> <persName type="person" key="Biglia Felice">Biglia</persName>, que Vous connaissez personnel<lb break="no" xml:id="p1-l7"/>lement, d'examiner le projet présenté par
-        <lb xml:id="p1-l8"/>la Société de la <placeName type="place" key="Oberitalien">Haute Italie</placeName> pour le
-        <lb xml:id="p1-l9"/>tronçon <placeName type="place" key="Italien (Königreich)">italien</placeName> de <placeName type="place" key="Camerlata (Como, I)">Camerlata</placeName> a <placeName type="place" key="Chiasso">Chiasso</placeName>,
-        <lb xml:id="p1-l10"/>et de s'entendre avec la société Suisse
-        <lb xml:id="p1-l11"/>pour fixer le point de jonction entre
-        <lb xml:id="p1-l12"/>les deux lignes.
+    </front><body>
+      <p rend="indent" xml:id="K_8282_p3"><lb xml:id="p1-l3"/>J'ai l'honneur de Vous prevenir que
+        <lb xml:id="p1-l4"/>il me revient de <placeName key="Rom (I)">Rome</placeName> que le <persName key="Devincenzi Giuseppe">Ministère
+        <lb xml:id="p1-l5"/>Royal des Travaux Publics</persName> a chargé <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> le
+        <lb xml:id="p1-l6"/><choice><abbr>Chev<hi rend="sup">r</hi> </abbr><expan>Chevalier (Ritter)</expan></choice> <persName key="Biglia Felice">Biglia</persName>, que Vous connaissez personnel<lb xml:id="p1-l7" break="no"/>lement, d'examiner le projet présenté par
+        <lb xml:id="p1-l8" break="no"/>la Société de la <placeName key="Oberitalien">Haute Italie</placeName> pour le
+        <lb xml:id="p1-l9" break="no"/>tronçon <placeName key="Italien (Königreich)">italien</placeName> de <placeName key="Camerlata (Como, I)">Camerlata</placeName> a <placeName key="Chiasso">Chiasso</placeName>,
+        <lb xml:id="p1-l10" break="no"/>et de s'entendre avec la société Suisse
+        <lb xml:id="p1-l11" break="no"/>pour fixer le point de jonction entre
+        <lb xml:id="p1-l12" break="no"/>les deux lignes.
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_8282_p4">
-                    <lb xml:id="p1-l13"/>Veuillez agréer, Monsieur,
+        <p rend="indent" xml:id="K_8282_p4"><lb xml:id="p1-l13"/>Veuillez agréer, Monsieur,
         <lb xml:id="p1-l14"/>l'assurance de ma considération très
         <lb xml:id="p1-l15"/>distinguée et de mes sentiments
         <lb xml:id="p1-l16"/>affectueux.</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_8282_p5">
-                    <lb xml:id="p1-l17"/>Melegari</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_8282_p5"><lb xml:id="p1-l17"/>Melegari</p>
       </div>
-      <div type="address">
-        <p rend="left" xml:id="K_8282_p6">
-                    <lb xml:id="p1-l18"/>
-          <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> Alfred Escher
+      <div type="opener">
+        <p rend="left" xml:id="K_8282_p6"><lb xml:id="p1-l18"/>
+          <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> Alfred Escher
         <lb xml:id="p1-l19"/>Président de la Direction
         <lb xml:id="p1-l20"/>du Chemin de fer du Gothard
-        <lb xml:id="p1-l21"/>
-                    <placeName type="place" key="Zürich (Stadt)">Zurich</placeName> </p>
+        <lb xml:id="p1-l21"/><placeName key="Zürich (Stadt)">Zurich</placeName> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,193 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0503" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jonas Furrer und Johann Jakob Rüttimann an Alfred Escher, Bern, Montag, November 1, 1847</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#220*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Sonderbund</item>
-                        <item>Tagsatzung</item>
-                        <item>Jesuiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Furrer Jonas" type="sender">Jonas Furrer</persName>
-                    <persName key="Rüttimann Johann Jakob" type="sender">Johann Jakob Rüttimann</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1847-11-01">Montag, November 1, 1847</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-05-06" who="BF">Transkribiert
-
-                
-            </change>
-            <change when="06-01-12" who="BF">Auszüge verifiziert
-
-                
-            </change>
-            <change when="Juni 2009" who="swissedit, UR">von Word nach XML konvertiert
-
-                
-            </change>
-            <change when="2011-07-06" who="DD">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-07" who="HA">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2010-07-19" who="NH">Transkriptionsverifizierung T. Binder umgesetzt
-
-                
-            </change>
-            <change when="2011-07-20" who="NH">e-Edition: Auszeichnung Themen umgesetzt
-
-                
-            </change>
-            <change when="2011-07-27" who="HA">e-Edition: Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2011-07-29" who="AH">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2015-01-06" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2017-12-11" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0503" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jonas Furrer und Johann Jakob Rüttimann an Alfred Escher, Bern, Montag, 01. November 1847</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Jung, Aufbruch, S. 184 (auszugsweise)</bibl><bibl>Isler, Furrer, S. 87–88</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#220*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Sonderbund</term><term>Tagsatzung</term><term>Jesuiten</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Furrer Jonas" type="addressee">Jonas Furrer</persName><persName key="Rüttimann Johann Jakob" type="addressee">Johann Jakob Rüttimann</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1847-11-01">01. November 1847</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="right" xml:id="K_0503_p1">
                     <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName> den <date when="1847-11-01">1 <choice>
-                            <abbr>
-                            <hi>Nov</hi>.</abbr>
-                            <expan>November</expan>
-                        </choice> 1847</date>. Vormittag 9 Uhr</p>
+          <placeName key="Bern (Stadt)">Bern</placeName> den <date when="1847-11-01">1 <choice><abbr><hi>Nov</hi>.</abbr><expan>November</expan></choice> 1847</date>. Vormittag 9 Uhr</p>
       </div><!--Leerer Absatz-->
       <div type="opener">
         <p rend="indent" xml:id="K_0503_p2">
                     <lb xml:id="p1-l2"/>Lieber Freund!</p>
       </div><!--Leerer Absatz-->
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_0503_p3">
                 <lb xml:id="p1-l3"/>Deine Extra-Estaffette hat uns diesen Morgen um 5 Uhr so aus dem<lb xml:id="p1-l4"/>
-Schlaf gedonnert, als ob die <placeName type="place" key="Freiburg">Freyburger</placeName> vor <placeName type="place" key="Bern (Stadt)">Berns</placeName> Thoren stünden; gleich<lb break="no" xml:id="p1-l5"/>wohl 
-ist eure Vorsicht <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Wachsamkeit lobenswerth. –</p>
+Schlaf gedonnert, als ob die <placeName key="Freiburg">Freyburger</placeName> vor <placeName key="Bern (Stadt)">Berns</placeName> Thoren stünden; gleich
+                <lb xml:id="p1-l5" break="no"/>wohl 
+ist eure Vorsicht <choice><abbr>u</abbr><expan>und</expan></choice> Wachsamkeit lobenswerth. –</p>
       <p rend="indent" xml:id="K_0503_p4">
                 <lb xml:id="p1-l6"/>Was den <hi>Executions</hi>-Beschluß betrifft, so war eure Besorgniß überflüssig.<lb xml:id="p1-l7"/>
 Wir werden einen solchen erst fassen, wenn die nothwendigen militärischen Vorbereitungen<lb xml:id="p1-l8"/>
-getroffen <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> die gehörigen Positionen der Truppen eingenommen sind; es dürfte etwa<lb xml:id="p1-l9"/>
+getroffen <choice><abbr>u</abbr><expan>und</expan></choice> die gehörigen Positionen der Truppen eingenommen sind; es dürfte etwa<lb xml:id="p1-l9"/>
 am <date when="1847-11-04">Donnerstag</date> geschehn. Insofern also wäre euerm Wunsche entsprochen; gleichwohl<lb xml:id="p1-l10"/>
 muß man die Sache soviel möglich beschleunigen wegen der Jahrszeit, der Finanzen<lb xml:id="p1-l11"/>
-                <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> der Stimmung der Truppen. Es freut uns übrigens, daß man in <placeName type="place" key="Zürich">Zürich</placeName> einsieht,<lb xml:id="p1-l12"/>
-man könne nicht augenbliklich 50<choice>
-                        <abbr>/m</abbr>
-                        <expan>mille (tausend)</expan>
-                    </choice> Mann schlag- <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> marschfertig hervorzaubern,<lb xml:id="p1-l13"/>
+                <choice><abbr>u</abbr><expan>und</expan></choice> der Stimmung der Truppen. Es freut uns übrigens, daß man in <placeName key="Zürich">Zürich</placeName> einsieht,<lb xml:id="p1-l12"/>
+man könne nicht augenbliklich 50<choice><abbr>/m</abbr><expan>mille (tausend)</expan></choice> Mann schlag- <choice><abbr>u</abbr><expan>und</expan></choice> marschfertig hervorzaubern,<lb xml:id="p1-l13"/>
 wie es viele Eiferer in die Welt hinaus schreien. – Das beantwortet die Frage,<lb xml:id="p1-l14"/>
 warum die Tagsatzung nichts mache. Sie läßt jetzt fortwährend machen<lb xml:id="p1-l15"/>
-                <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> wenn das nöthige gemacht ist, so wird sie auch machen. – Sie hat nun also<lb xml:id="p1-l16"/>
+                <choice><abbr>u</abbr><expan>und</expan></choice> wenn das nöthige gemacht ist, so wird sie auch machen. – Sie hat nun also<lb xml:id="p1-l16"/>
 auch die disponibeln Reserven aufgeboten, in der Meynung, daß sie nicht zum<lb xml:id="p1-l17"/>
 eigentlichen Bundesheere eingetheilt wird, sondern eigne kantonale Brigaden<lb xml:id="p1-l18"/>
-bilden <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> zur Verfügung des Generals oder nächst gelegnen <hi>Divisionairs</hi> <lb xml:id="p1-l19"/>
-bereit sind. – Man wird sie in <placeName type="place" key="Zürich">Zürich</placeName> nach Maaßgabe der Entfernung<lb xml:id="p1-l20"/>
+bilden <choice><abbr>u</abbr><expan>und</expan></choice> zur Verfügung des Generals oder nächst gelegnen <hi>Divisionairs</hi> <lb xml:id="p1-l19"/>
+bereit sind. – Man wird sie in <placeName key="Zürich">Zürich</placeName> nach Maaßgabe der Entfernung<lb xml:id="p1-l20"/>
 des <hi>Contingents</hi> einberufen; ich denke, es ist gut, hierüber das Gutachten<lb xml:id="p1-l21"/>
-des <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> Oberst <persName type="person" key="Gmür Dominik">
+des <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> Oberst <persName key="Gmür Dominik">
                     <hi>Gmür</hi>
                 </persName> zu vernehmen. – Wem wollt ihr das <hi>Commando</hi> <lb xml:id="p1-l22"/>
-übergeben? – <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> Oberst <persName type="person" key="Orelli Johann Konrad von">
+übergeben? – <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> Oberst <persName key="Orelli Johann Konrad von">
                     <hi>Orell</hi>
                 </persName> meint, man habe wohl niemanden, als <pb n="2"/>
                 <lb xml:id="p2-l1"/>
-                <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Muralt Hans Heinrich von">
+                <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Muralt Hans Heinrich von">
                     <hi>Muralt</hi>
-                </persName>, der sich übrigens letzthin gut gehalten habe.<lb break="no" xml:id="p2-l2"/>Dem <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> Oberst <persName type="person" key="Gmür Dominik">
+                </persName>, der sich übrigens letzthin gut gehalten habe.
+                <lb xml:id="p2-l2" break="no"/>Dem <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> Oberst <persName key="Gmür Dominik">
                     <hi>Gmür</hi>
-                </persName> kannst du mittheilen, daß in <placeName type="place" key="Zürich">Zürich</placeName> noch zwey<lb xml:id="p2-l3"/>
-                    <hi>Reserve</hi> Batterien unter <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-                    <hi>Major</hi>
-                    <persName type="person" key="Wehrli Hans Jakob">Wehrli</persName> stehn, deren er sich im Nothfall<lb xml:id="p2-l4"/>
-bedienen kann, wie soeben <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> Oberst <persName type="person" key="Orelli Johann Konrad von">
+                </persName> kannst du mittheilen, daß in <placeName key="Zürich">Zürich</placeName> noch zwey<lb xml:id="p2-l3" break="no"/>
+                <hi>Reserve</hi> Batterien unter <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <hi>Major</hi> <persName key="Wehrli Hans Jakob">Wehrli</persName> stehn, deren er sich im Nothfall<lb xml:id="p2-l4" break="no"/>
+bedienen kann, wie soeben <choice><abbr>Hr</abbr><expan>Herr</expan></choice> Oberst <persName key="Orelli Johann Konrad von">
                     <hi>Orell</hi>
                 </persName> mir mittheilte. –</p>
       <p rend="indent" xml:id="K_0503_p5">
-                <lb xml:id="p2-l5"/>Was deine Bemerkungen wegen <persName type="person" key="Bürkli">Bürkli</persName> <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> <persName type="person" key="Kündig">Kündig</persName> betrifft, so fanden<lb xml:id="p2-l6"/>
-wir nebst <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> Oberst <persName type="person" key="Orelli Johann Konrad von">
+                <lb xml:id="p2-l5"/>Was deine Bemerkungen wegen <persName key="Bürkli">Bürkli</persName> <choice><abbr>u</abbr><expan>und</expan></choice> <persName key="Kündig">Kündig</persName> betrifft, so fanden<lb xml:id="p2-l6"/>
+wir nebst <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> Oberst <persName key="Orelli Johann Konrad von">
                     <hi>Orell</hi>
                 </persName>, wir können uns mit dieser Sache nicht befassen.<lb xml:id="p2-l7"/>
-Wenn <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Gmür Dominik">
+Wenn <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <persName key="Gmür Dominik">
                     <hi>Gmür</hi>
                 </persName> hinreichende Gründe zur Versetzung hat, so wende er sich<lb xml:id="p2-l8"/>
 selbst an die competente Stelle oder an seine Gesandschaft. Du hast<lb xml:id="p2-l9"/>
@@ -197,58 +63,39 @@ nicht zu vermeiden, wenn man nicht den halben Stab oder noch mehr<lb xml:id="p2-
 entlassen will. Sind die betreffenden keine Ehrenmänner, so können<lb xml:id="p2-l13"/>
 auch bey andern <hi>Divisionen</hi> schlechte Streiche begehn, ja noch viel<lb xml:id="p2-l14"/>
 eher da, wo ein politisch gleichgesinnter <hi>Chef</hi> ihnen durch die Finger<lb xml:id="p2-l15"/>
-sehn würde. <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Gmür Dominik">
+sehn würde. <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <persName key="Gmür Dominik">
                     <hi>Gmür</hi>
-                </persName> soll ihnen gehörig aufpassen <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> soll ihnen<lb xml:id="p2-l16"/>
-die einschlägigen Artikel des <choice>
-                        <abbr>Eidg.</abbr>
-                        <expan>Eidgenössisch / Eidgenößisch</expan>
-                    </choice> Militärstrafgesetzbuches vorlesen. –</p>
+                </persName> soll ihnen gehörig aufpassen <choice><abbr>u</abbr><expan>und</expan></choice> soll ihnen<lb xml:id="p2-l16"/>
+die einschlägigen Artikel des <choice><abbr>Eidg.</abbr><expan>Eidgenössisch / Eidgenößisch</expan></choice> Militärstrafgesetzbuches vorlesen. –</p>
       <p rend="indent" xml:id="K_0503_p6">
-                <lb xml:id="p2-l17"/>Heute wird wohl in der <choice>
-                        <abbr>N. <placeName type="place" key="Zürich">Z.</placeName> Ztg</abbr>
-                        <expan>Neue Zürcher Zeitung</expan>
-                    </choice> ein ausführlicher Bericht erscheinen<lb xml:id="p2-l18"/>
-über die <hi>Conferenz<supplied>en</supplied>
+                <lb xml:id="p2-l17"/>Heute wird wohl in der <choice><abbr>N. <placeName key="Zürich">Z.</placeName> Ztg</abbr><expan>Neue Zürcher Zeitung</expan></choice> ein ausführlicher Bericht erscheinen<lb xml:id="p2-l18"/>
+über die <hi>Conferenz<add>en</add>
                 </hi>. Was sagt ihr zu den schönen <hi>Propositionen</hi>, die<lb xml:id="p2-l19"/>
 Jesuitenfrage in dieser oder jener Form dem Pabst zu überlassen? –<lb xml:id="p2-l20"/>
-Es lief mir siedend heiß über den Rüken, als <persName type="person" key="Naeff Wilhelm Matthias">Näf</persName> <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> <persName type="person" key="Munzinger Josef">Munzinger<lb xml:id="p2-l21"/>
+Es lief mir siedend heiß über den Rüken, als <persName key="Naeff Wilhelm Matthias">Näf</persName> <choice><abbr>u</abbr><expan>und</expan></choice> <persName key="Munzinger Josef">Munzinger<lb xml:id="p2-l21"/>
                 </persName>
 solle<note type="transcript">sic</note> Vorschläge anbrachten. Hätten die Sonderbündler eingeschlagen,<lb xml:id="p2-l22"/>
 so wäre die Sache abgethan gewesen, wenigstens auf dem legalen<lb xml:id="p2-l23"/>
 Wege. –</p>
       <p rend="indent" xml:id="K_0503_p7">
-                <lb xml:id="p2-l24"/>Am <date when="1847-11-06">Samstag</date> Abend hatten wir eine lebhafte Sitzung wegen <placeName type="place" key="Neuenburg">Neuen<pb n="3"/>
-                        <lb xml:id="p3-l1"/>burgs</placeName> 
+                <lb xml:id="p2-l24"/>Am <date when="1847-11-06">Samstag</date> Abend hatten wir eine lebhafte Sitzung wegen <placeName key="Neuenburg">Neuen
+                    <pb n="3"/>
+                    <lb xml:id="p3-l1" break="no"/>burgs</placeName> 
  Weigerung, die Truppen zu stellen. Die 12²/₂ hieben <hi>unisono</hi>
         <lb xml:id="p3-l2"/>
-                <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> furchtbar auf den kleinen <persName type="person" key="Calame Henri-Florian">
+                <choice><abbr>u</abbr><expan>und</expan></choice> furchtbar auf den kleinen <persName key="Calame Henri-Florian">
                     <hi>Calame</hi>
                 </persName>
                 <note type="transcript">Henri-Florian Calame, Neuenburger Tagsatzungs-Gesandter</note> ein, es geschah hauptsächlich auch<lb xml:id="p3-l3"/>
-zu Handen von <placeName type="place" key="Basel-Stadt">Baselstadt</placeName>. Es verlautet nun diesen Morgen, daß die Herrn<lb xml:id="p3-l4"/>
+zu Handen von <placeName key="Basel-Stadt">Baselstadt</placeName>. Es verlautet nun diesen Morgen, daß die Herrn<lb xml:id="p3-l4"/>
 allerseits die Truppen stellen wollen; indeß officiell weiß ich noch nichts. –</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="right" xml:id="K_0503_p8">
                     <lb xml:id="p3-l5"/>Unsern herzlichen Gruß an dich und unsre andern Freunde<lb xml:id="p3-l6"/>
 Dein </p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_0503_p9">
                     <lb xml:id="p3-l7"/>F J</p>
       </div>
@@ -256,70 +103,46 @@ Dein </p>
         <p rend="indent" xml:id="K_0503_p10">
                     <lb xml:id="p3-l8"/>
                     <note type="transcript">Direkt an Furrers Text angehängt folgt eine Nachschrift von anderer Hand (J. Rüttimann)</note>
-          <choice>
-                        <abbr>
-                        <hi>P</hi>. <hi>S</hi>.</abbr>
-                        <expan>Post Scriptum (nach dem Geschriebenen)</expan>
-                    </choice>
-          <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-          <persName type="person" key="Orelli Johann Konrad von">v. Orelli</persName> sagt mir, es <del>stehen zwei</del> befinden sich<lb xml:id="p3-l9"/>
-zwei Batterien Artillerie in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>, welche <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Wehrli Hans Jakob">Wehrli</persName> als Briga<lb break="no" xml:id="p3-l10"/>dier
- befehligt &amp; die <del>unter de</del> unmittelbar unter dem<lb xml:id="p3-l11"/>
-Commandanten der Artillerie stehen, über welche aber<lb xml:id="p3-l12"/>
-                    <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Gmür Dominik">Gmür</persName>
-                    <hi rend="underline">im Falle der Noth</hi> verfügen könne. Dieß<lb xml:id="p3-l13"/>
-als Antwort auf den durch <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Bollier Rudolf">Bollier</persName> mir mitgetheil<lb break="no" xml:id="p3-l14"/>ten 
-Wunsch des <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Gmür Dominik">Gmür</persName>, daß man seiner Division<lb xml:id="p3-l15"/>
-noch eine Batterie zutheile. Übrigens muß <del>sich</del> auch<lb xml:id="p3-l16"/>
-ich die Ansicht des <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-					Furrer unterstützen, daß<lb xml:id="p3-l17"/>
-militairische Verfügungen nicht durch die Gesandt<lb break="no" xml:id="p3-l18"/>schaften 
-angeregt werden können, sondern bei den<lb xml:id="p3-l19"/>
-betreffenden militairischen Chefs zu betreiben sind.<lb xml:id="p3-l20"/>
-Wir verstehen nichts davon &amp; deßhalb nimmt man<lb xml:id="p3-l21"/>
+          <choice><abbr><hi>P</hi>. <hi>S</hi>.</abbr><expan>Post Scriptum (nach dem Geschriebenen)</expan></choice>
+          <choice><abbr>H.</abbr><expan>Herr</expan></choice>
+          <persName key="Orelli Johann Konrad von">v. Orelli</persName> sagt mir, es <del>stehen zwei</del> befinden sich<lb xml:id="p3-l9"/>
+zwei Batterien Artillerie in <placeName key="Zürich (Stadt)">Zürich</placeName>, welche <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Wehrli Hans Jakob">Wehrli</persName> als Briga
+                    <lb xml:id="p3-l10" break="no"/>dier
+ befehligt &amp; die <del>unter de</del> unmittelbar unter dem<lb xml:id="p3-l11" break="no"/>
+Commandanten der Artillerie stehen, über welche aber<lb xml:id="p3-l12" break="no"/>
+                    <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Gmür Dominik">Gmür</persName> <hi rend="underline">im Falle der Noth</hi> verfügen könne. Dieß<lb xml:id="p3-l13" break="no"/>
+als Antwort auf den durch <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Bollier Rudolf">Bollier</persName> mir mitgetheil
+                    <lb xml:id="p3-l14" break="no"/>ten 
+Wunsch des <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Gmür Dominik">Gmür</persName>, daß man seiner Division<lb xml:id="p3-l15" break="no"/>
+noch eine Batterie zutheile. Übrigens muß <del>sich</del> auch<lb xml:id="p3-l16" break="no"/>
+ich die Ansicht des <choice><abbr>H.</abbr><expan>Herr</expan></choice>
+					Furrer unterstützen, daß<lb xml:id="p3-l17" break="no"/>
+militairische Verfügungen nicht durch die Gesandt
+                    <lb xml:id="p3-l18" break="no"/>schaften 
+angeregt werden können, sondern bei den<lb xml:id="p3-l19" break="no"/>
+betreffenden militairischen Chefs zu betreiben sind.<lb xml:id="p3-l20" break="no"/>
+Wir verstehen nichts davon &amp; deßhalb nimmt man<lb xml:id="p3-l21" break="no"/>
 keine Notiz von unsern Vorstellungen. –</p>
         <p rend="indent" xml:id="K_0503_p11">
-                    <lb xml:id="p3-l22"/>Was die Aufstellung der Reserve be<lb break="no" xml:id="p3-l23"/>trifft,
- so wird die Regierung am Besten bei <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Gmür Dominik">Gmür<lb xml:id="p3-l24"/>
+                    <lb xml:id="p3-l22"/>Was die Aufstellung der Reserve be
+                    <lb xml:id="p3-l23" break="no"/>trifft,
+ so wird die Regierung am Besten bei <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Gmür Dominik">Gmür<lb xml:id="p3-l24"/>
                     </persName>
-Rath &amp; Direction finden. <persName type="person" key="Munzinger Josef">Munzinger</persName> meinte,<lb xml:id="p3-l25"/>
-man könnte das Commando unserer Reserve dem<lb xml:id="p3-l26"/>
-eidsgenössischen Obersten <persName type="person" key="Bundi Balthasar">Bundi</persName> übergeben. <persName type="person" key="Bundi Balthasar">Bundi<lb xml:id="p3-l27"/>
+Rath &amp; Direction finden. <persName key="Munzinger Josef">Munzinger</persName> meinte,<lb xml:id="p3-l25" break="no"/>
+man könnte das Commando unserer Reserve dem<lb xml:id="p3-l26" break="no"/>
+eidsgenössischen Obersten <persName key="Bundi Balthasar">Bundi</persName> übergeben. <persName key="Bundi Balthasar">Bundi<lb xml:id="p3-l27"/>
                     </persName>
-(ein tüchtiger Haudegen) war zum Commandanten<lb xml:id="p3-l28"/>
-einer Brigade unter <persName type="person" key="Donatz Peter Ludwig von">Donatz</persName> ernannt, wollte aber<lb xml:id="p3-l29"/>
-aus Widerwillen gegen den Divisionair nicht anneh<lb break="no" xml:id="p3-l30"/>men. 
-Nun höre ich aber so eben, daß er bereits<lb xml:id="p3-l31"/>
-ein anderes Commando erhalten habe, somit in<lb xml:id="p3-l32"/>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> nicht verwandt werden kann. – Die Reserve tritt natürlich<metamark>#</metamark> <add xml:id="p3-l32-i1">
+(ein tüchtiger Haudegen) war zum Commandanten<lb xml:id="p3-l28" break="no"/>
+einer Brigade unter <persName key="Donatz Peter Ludwig von">Donatz</persName> ernannt, wollte aber<lb xml:id="p3-l29" break="no"/>
+aus Widerwillen gegen den Divisionair nicht anneh
+                    <lb xml:id="p3-l30" break="no"/>men. 
+Nun höre ich aber so eben, daß er bereits<lb xml:id="p3-l31" break="no"/>
+ein anderes Commando erhalten habe, somit in<lb xml:id="p3-l32" break="no"/>
+                    <placeName key="Zürich (Stadt)">Zürich</placeName> nicht verwandt werden kann. – Die Reserve tritt natürlich<metamark>#</metamark> <add>
                         <metamark>#</metamark>sofort in eidsgenössischen Sold.</add> </p>
         <p rend="indent" xml:id="K_0503_p12">
-                    <lb xml:id="p3-l33"/>Das Gefecht zwischen den <placeName type="place" key="Wallis">Wallisern</placeName> &amp; <placeName type="place" key="Waadt">Waatlän<lb break="no" xml:id="p3-l34"/>dern,</placeName> welches ich gestern gerüchtweise gemeldet hatte,<lb xml:id="p3-l35"/>
+                    <lb xml:id="p3-l33"/>Das Gefecht zwischen den <placeName key="Wallis">Wallisern</placeName> &amp; <placeName key="Waadt">Waatlän
+                        <lb xml:id="p3-l34" break="no"/>dern,</placeName> welches ich gestern gerüchtweise gemeldet hatte,<lb xml:id="p3-l35"/>
 bestätigt sich nicht. Überhaupt haben wir diesen Morgen<lb xml:id="p3-l36"/>
 keinerlei erhebliche politische Neuigkeiten.</p>
       </postscript>
@@ -327,11 +150,9 @@ keinerlei erhebliche politische Neuigkeiten.</p>
         <p rend="right" xml:id="K_0503_p13">
                     <lb xml:id="p3-l37"/>Ganz Dein</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_0503_p14">
                     <lb xml:id="p3-l38"/>
 J. Rüttimann</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

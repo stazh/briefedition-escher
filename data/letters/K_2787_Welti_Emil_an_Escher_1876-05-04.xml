@@ -1,127 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2787" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Emil Welti an Alfred Escher, Bern, Donnerstag, Mai 4, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#547*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Diplomatische Aktivitäten</item>
-                        <item>Gotthardbahnkonferenzen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1876-05-04">Donnerstag, Mai 4, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-04-28" who="BF">Transkription
-                
-            </change>
-            <change when="2013-08-20" who="JS">Migration nach XML umgesetzt
-                
-            </change>
-            <change when="2013-09-02" who="LH">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="IB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="CR">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="SWK">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-05-16" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="LW">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-21" who="MA">Übertragung der Transkriptionsverifizierung gerprüft
-                
-            </change>
-            <change when="2014-04-09" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2787" type="Brief"><teiHeader><fileDesc><titleStmt><title>Emil Welti an Alfred Escher, Bern, Donnerstag, 04. Mai 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Jung, Aufbruch, S. 665 (auszugsweise)</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#547*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Diplomatische Aktivitäten</term><term>Gotthardbahnkonferenzen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Welti Emil" type="addressee">Emil Welti</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1876-05-04">04. Mai 1876</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_2787_p1">
-                    <lb xml:id="p1-l1"/>Hochgeehrter Herr und Freund</p>
+        <p rend="indent" xml:id="K_2787_p1"><lb xml:id="p1-l1"/>Hochgeehrter Herr und Freund</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2787_p2">
-                <lb xml:id="p1-l2"/>
-        <persName type="person" key="Hammer Bernhard">Hammer</persName> hatte <date when="1876-05-03">gestern</date> eine (die erste)
-            <lb xml:id="p1-l3"/>Unterredung mit <persName type="person" key="Bismarck Otto von">Bismark</persName>
-                <note type="transcript">sic!</note>, über die
+    </front><body>
+      <p rend="indent" xml:id="K_2787_p2"><lb xml:id="p1-l2"/>
+        <persName key="Hammer Bernhard">Hammer</persName> hatte <date when="1876-05-03">gestern</date> eine (die erste)
+            <lb xml:id="p1-l3"/>Unterredung mit <persName key="Bismarck Otto von">Bismark</persName><note type="transcript">sic!</note>, über die
             <lb xml:id="p1-l4"/>er so eben telegraphisch berichtet:</p>
-      <p rend="indent" xml:id="K_2787_p3">
-                <lb xml:id="p1-l5"/>«Fürst <persName type="person" key="Bismarck Otto von">Bismark</persName> machte wesentlich die
+      <p rend="indent" xml:id="K_2787_p3"><lb xml:id="p1-l5"/>«Fürst <persName key="Bismarck Otto von">Bismark</persName> machte wesentlich die
                 <lb xml:id="p1-l6"/>nämlichen Gründe gegen Beschickung
-                <lb xml:id="p1-l7"/>der Conferenz geltend wie <persName type="person" key="Delbrück Rudolph von">Delbrück</persName> <lb xml:id="p1-l8"/>und erklärte: <placeName type="place" key="Deutsches Reich">Deutschland</placeName> gedenke
-                <lb xml:id="p1-l9"/>sich nicht eher zu Verhandlungen <pb n="2"/>
-                <lb xml:id="p2-l1"/>herbeizulassen als bis die Schweiz
+                <lb xml:id="p1-l7"/>der Conferenz geltend wie <persName key="Delbrück Rudolph von">Delbrück</persName> <lb xml:id="p1-l8"/>und erklärte: <placeName key="Deutsches Reich">Deutschland</placeName> gedenke
+                <lb xml:id="p1-l9"/>sich nicht eher zu Verhandlungen <pb n="2"/><lb xml:id="p2-l1"/>herbeizulassen als bis die Schweiz
                 <lb xml:id="p2-l2"/>durch ihre eigenen Anträge ihr
                 <lb xml:id="p2-l3"/>nächstes Interesse an der Sache
                 <lb xml:id="p2-l4"/>bekundet habe; einlässlichen
-                <lb xml:id="p2-l5"/> <seg type="ref">Bericht<ref type="letter" target="K_2788"/>
-                </seg> erstatte ich erst <date when="1876-05-05">mor<lb break="no" xml:id="p2-l6"/>gen</date> nach Rücksprache mit
-                 <lb xml:id="p2-l7"/>
-                <persName type="person" key="Bülow Bernhard Ernst von">Bülow</persName>.»</p>
-      <p rend="left" xml:id="K_2787_p4">
-                <lb xml:id="p2-l8"/>Ich muss mich auf diese Mit<lb break="no" xml:id="p2-l9"/>theilung beschränken, um die <pb n="3"/>
-                    <lb xml:id="p3-l1"/>Post nicht zu versäumen,
-                <lb xml:id="p3-l2"/>schreibe aber <date when="1876-05-04">heute</date> oder <date when="1876-05-05">morgen</date>
-                    <lb xml:id="p3-l3"/> <seg type="ref">wieder.<ref type="letter" target="K_2788"/>
-                </seg> </p>
-    </div>
-        </body>
-    <back>
+                <lb xml:id="p2-l5"/> <rs>Bericht<ref type="letter" target="K_2788"/></rs> erstatte ich erst <date when="1876-05-05">mor<lb xml:id="p2-l6" break="no"/>gen</date> nach Rücksprache mit
+                 <lb xml:id="p2-l7"/><persName key="Bülow Bernhard Ernst von">Bülow</persName>.»</p>
+      <p rend="left" xml:id="K_2787_p4"><lb xml:id="p2-l8"/>Ich muss mich auf diese Mit<lb xml:id="p2-l9" break="no"/>theilung beschränken, um die <pb n="3"/><lb xml:id="p3-l1" break="no"/>Post nicht zu versäumen,
+                <lb xml:id="p3-l2" break="no"/>schreibe aber <date when="1876-05-04">heute</date> oder <date when="1876-05-05">morgen</date> <lb xml:id="p3-l3" break="no"/> <rs>wieder.<ref type="letter" target="K_2788"/></rs> </p>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_2787_p5">
-                    <lb xml:id="p3-l4"/>Ihr</p>
+        <p rend="center" xml:id="K_2787_p5"><lb xml:id="p3-l4"/>Ihr</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2787_p6">
-                    <lb xml:id="p3-l5"/>E Welti</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2787_p6"><lb xml:id="p3-l5"/>E Welti</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_2787_p7">
-                    <lb xml:id="p3-l6"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName>
+        <p rend="left" xml:id="K_2787_p7"><lb xml:id="p3-l6"/>
+          <placeName key="Bern (Stadt)">Bern</placeName>
           <lb xml:id="p3-l7"/>
           <date when="1876-05-04">4. Mai 1876</date>.
             </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

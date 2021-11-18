@@ -1,167 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5623" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Ernest Stamm an Alfred Escher, Mailand, Dienstag, Juli 23, 1872</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_006</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Personelle Angelegenheiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Stamm Ernest" type="sender">Ernest Stamm</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Mailand</placeName>
-                    <date when="1872-07-23">Dienstag, Juli 23, 1872</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-08-12" who="LW">Migration nach XML
-                
-            </change>
-            <change when="2014-08-27" who="SG">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-10-06" who="TM">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-10-06" who="TM">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-10-21" who="TM">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-11-11" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-11" who="LB">Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5623" type="Brief"><teiHeader><fileDesc><titleStmt><title>Ernest Stamm an Alfred Escher, Mailand, Dienstag, 23. Juli 1872</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_006</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Personelle Angelegenheiten</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Stamm Ernest" type="addressee">Ernest Stamm</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Mailand</placeName><date when="1872-07-23">23. Juli 1872</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="center" xml:id="K_5623_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_5623_c0">Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <bibl>Gotthardbahn | <date when="1872-08-02">2 <choice>
-                                        <abbr>AUG.</abbr>
-                                        <expan>AUGUST</expan>
-                                    </choice> 1872</date>. | <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 2276.</bibl> – Nachträgliche Inhaltsangabe oben links von dritter Hand: <bibl>Ziehung von drei Wechseln, auf Herrn Präsident <choice>
-                                    <abbr>Dr.</abbr>
-                                    <expan>Doktor / Doctor</expan>
-                                </choice> A. Escher in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>. | Präsidium.</bibl> – Nachträgliche Notiz in der Mitte links von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1879-07-27">27. VII. 72</date>. <choice>
-                                    <abbr>N.</abbr>
-                                    <expan>Nummer</expan>
-                                </choice> 601.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Mailand (I)">Milan</placeName>, le <date when="1872-07-23">23 Juillet 1872</date> <lb xml:id="p1-l2"/>Corso Porta Romana. 42</p>
+        <p rend="center" xml:id="K_5623_p1"> <note type="com" xml:id="K_5623_c0">Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <orig>Gotthardbahn | <date when="1872-08-02">2 <choice><abbr>AUG.</abbr><expan>AUGUST</expan></choice> 1872</date>. | <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 2276.</orig> – Nachträgliche Inhaltsangabe oben links von dritter Hand: <orig>Ziehung von drei Wechseln, auf Herrn Präsident <choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> A. Escher in <placeName key="Zürich (Stadt)">Zürich</placeName>. | Präsidium.</orig> – Nachträgliche Notiz in der Mitte links von dritter Hand: <orig><choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1879-07-27">27. VII. 72</date>. <choice><abbr>N.</abbr><expan>Nummer</expan></choice> 601.</orig> </note> <lb xml:id="p1-l1"/>
+          <placeName key="Mailand (I)">Milan</placeName>, le <date when="1872-07-23">23 Juillet 1872</date> <lb xml:id="p1-l2"/>Corso Porta Romana. 42</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_5623_p2">
-                    <lb xml:id="p1-l3"/>Monsieur</p>
+        <p rend="center" xml:id="K_5623_p2"><lb xml:id="p1-l3"/>Monsieur</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_5623_p3">
-                <lb xml:id="p1-l4"/>Je crois devoir rappeler à votre souvenir
+    </front><body>
+      <p rend="indent" xml:id="K_5623_p3"><lb xml:id="p1-l4"/>Je crois devoir rappeler à votre souvenir
         <lb xml:id="p1-l5"/>que, conformément à l'avis contenu dans
-            <lb xml:id="p1-l6"/>ma <seg type="ref">lettre<ref type="letter" target="K_5622"/>
-                </seg> chargée du <date when="1872-07-07">7 de ce mois</date>, restée
+            <lb xml:id="p1-l6"/>ma <rs>lettre<ref type="letter" target="K_5622"/></rs> chargée du <date when="1872-07-07">7 de ce mois</date>, restée
             <lb xml:id="p1-l7"/>sans réponse, par laquelle je rappelais
             <lb xml:id="p1-l8"/>ma lettre<!--TM: an Direktion gerichtetes Schreiben--> du <date when="1872-06-28">28 Juin</date> restée également
             <lb xml:id="p1-l9"/>sans réponse, j'ai fait traite sur vous,
             <lb xml:id="p1-l10"/>en votre qualité de Président de la Direction
-            <lb xml:id="p1-l11"/>du chemin du fer du <choice>
-                        <abbr>St.</abbr>
-                        <expan>Sankt / Sanct / Saint (heilig)</expan>
-                    </choice> Gothard, pour
+            <lb xml:id="p1-l11"/>du chemin du fer du <choice><abbr>St.</abbr><expan>Sankt / Sanct / Saint (heilig)</expan></choice> Gothard, pour
             <lb xml:id="p1-l12"/>une somme totale de 30.000 francs, or,
             <lb xml:id="p1-l13"/>à valoir sur mon compte.</p>
-      <p rend="indent" xml:id="K_5623_p4">
-                <lb xml:id="p1-l14"/>Ces traites sont en circulation et
+      <p rend="indent" xml:id="K_5623_p4"><lb xml:id="p1-l14"/>Ces traites sont en circulation et
                 <lb xml:id="p1-l15"/>au nombre de trois, savoir</p>
       <table>
-        <row xml:id="p1-l16">
-          <cell rend="left">10.000 <choice>
-                                <abbr>fr.</abbr>
-                                <expan>franken / francs / franchi</expan>
-                            </choice> </cell>
-          <cell rend="right">au <date when="1872-07-30">30 Juillet</date> </cell>
+        <row>
+          <cell>10.000 <choice><abbr>fr.</abbr><expan>franken / francs / franchi</expan></choice> </cell>
+          <cell>au <date when="1872-07-30">30 Juillet</date> </cell>
         </row>
-        <row xml:id="p1-l17">
-          <cell rend="left">10.000 <choice>
-                                <abbr>fr.</abbr>
-                                <expan>franken / francs / franchi</expan>
-                            </choice> </cell>
-          <cell rend="right">au <date when="1872-08-25">25 Août</date> </cell>
+        <row>
+          <cell>10.000 <choice><abbr>fr.</abbr><expan>franken / francs / franchi</expan></choice> </cell>
+          <cell>au <date when="1872-08-25">25 Août</date> </cell>
         </row>
-        <row xml:id="p1-l18">
-          <cell rend="left">
+        <row>
+          <cell>
             <hi rend="underline">10.000</hi>
-            <choice>
-                                <abbr>fr.</abbr>
-                                <expan>franken / francs / franchi</expan>
-                            </choice>
+            <choice><abbr>fr.</abbr><expan>franken / francs / franchi</expan></choice>
           </cell>
-          <cell rend="right">au <date when="1872-08-25">25 Août</date> </cell>
+          <cell>au <date when="1872-08-25">25 Août</date> </cell>
         </row>
-        <row xml:id="p1-l19">
-          <cell rend="left">30.000 <choice>
-                                <abbr>fr.</abbr>
-                                <expan>franken / francs / franchi</expan>
-                            </choice> </cell>
+        <row>
+          <cell>30.000 <choice><abbr>fr.</abbr><expan>franken / francs / franchi</expan></choice> </cell>
           <cell>
           </cell>
         </row>
       </table>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_5623_p5">
-                    <lb xml:id="p1-l20"/>Recevez, Monsieur,
+        <p rend="indent" xml:id="K_5623_p5"><lb xml:id="p1-l20"/>Recevez, Monsieur,
             <lb xml:id="p1-l21"/>l'assurance de mes sentiments distingués</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_5623_p6">
-                    <lb xml:id="p1-l22"/>Ernest Stamm</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_5623_p6"><lb xml:id="p1-l22"/>Ernest Stamm</p>
       </div>
-      <div type="address">
-        <p rend="left" xml:id="K_5623_p7">
-                    <lb xml:id="p1-l23"/>À Monsieur le Docteur A. Escher,
+      <div type="opener">
+        <p rend="left" xml:id="K_5623_p7"><lb xml:id="p1-l23"/>À Monsieur le Docteur A. Escher,
             <lb xml:id="p1-l24"/>Président de la Direction du chemin de
-            <lb xml:id="p1-l25"/>fer du <choice>
-                        <abbr>St</abbr>
-                        <expan>Sankt / Sanct / Saint (heilig)</expan>
-                    </choice> Gothard, à <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>.</p>
+            <lb xml:id="p1-l25"/>fer du <choice><abbr>St</abbr><expan>Sankt / Sanct / Saint (heilig)</expan></choice> Gothard, à <placeName key="Zürich (Stadt)">Zurich</placeName>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

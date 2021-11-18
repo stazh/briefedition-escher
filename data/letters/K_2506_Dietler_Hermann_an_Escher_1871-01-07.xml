@@ -1,207 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2506" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Hermann Dietler an Alfred Escher, Solothurn, Samstag, Januar 7, 1871</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#168*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Vereinigte Bundesversammlung</item>
-                        <item>Eidgenössisches Polytechnikum</item>
-                        <item>Bewerbungen/Empfehlungen/Referenzen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Dietler Hermann" type="sender">Hermann Dietler</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Solothurn</placeName>
-                    <date when="1871-01-07">Samstag, Januar 7, 1871</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-09-03" who="SB">Transkription
-                
-            </change>
-            <change when="2014-01-08" who="XR">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-09" who="LH">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-14" who="NS">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-14" who="LH">Transkriptionsverifizierung T. Binder
-                
-            </change>
-            <change when="2014-10-27" who="SWK">Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-03-20" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-05-14" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2018-12-05" who="DB">Transkriptionsverifizierung Seiterle umgesetzt
-      
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2506" type="Brief"><teiHeader><fileDesc><titleStmt><title>Hermann Dietler an Alfred Escher, Solothurn, Samstag, 07. Januar 1871</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#168*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Vereinigte Bundesversammlung</term><term>Eidgenössisches Polytechnikum</term><term>Bewerbungen/Empfehlungen/Referenzen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Dietler Hermann" type="addressee">Hermann Dietler</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Solothurn</placeName><date when="1871-01-07">07. Januar 1871</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2506_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Solothurn (Stadt)">
-                        <hi>Solothurn</hi>
-                    </placeName> den <date when="1871-01-07">7 Jänner 1871</date>.</p>
-      </div>
-      <div type="address">
-        <p rend="left" xml:id="K_2506_p2">
-                    <lb xml:id="p1-l2"/>Herrn <hi>
-                        <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> A. Escher</hi>, Präsident der Direktion der <choice>
-                        <abbr>Schw. Nordost.B.</abbr>
-                        <expan>Schweizerische NordostBahn</expan>
-                    </choice> </p>
-        <p rend="right" xml:id="K_2506_p3">
-                    <lb xml:id="p1-l3"/>in <hi>
-                        <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.</hi> </p>
+        <p rend="right" xml:id="K_2506_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Solothurn (Stadt)"><hi>Solothurn</hi></placeName> den <date when="1871-01-07">7 Jänner 1871</date>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_2506_p4">
-                    <lb xml:id="p1-l4"/>Hochgeachteter Herr!</p>
+        <p rend="left" xml:id="K_2506_p2"><lb xml:id="p1-l2"/>Herrn <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> A. Escher</hi>, Präsident der Direktion der <choice><abbr>Schw. Nordost.B.</abbr><expan>Schweizerische NordostBahn</expan></choice> </p>
+        <p rend="right" xml:id="K_2506_p3"><lb xml:id="p1-l3"/>in <hi><placeName key="Zürich (Stadt)">Zürich</placeName>.</hi> </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2506_p5">
-                <lb xml:id="p1-l5"/>Während der letzten Bundesversammlung suchte der Unter<lb break="no" xml:id="p1-l6"/>zeichnete durch Vermittelung des Herrn Landammann <persName type="person" key="Vigier (von Steinbrugg) Josef Wilhelm">
-                    <hi>Vigier</hi>
-                </persName>
-                    <lb xml:id="p1-l7"/>sich eine Vorstellung bei Ihnen zu erwirken, indem Ihre &amp;
-        		<lb xml:id="p1-l8"/>des <persName type="person" key="Vigier (von Steinbrugg) Josef Wilhelm">Letzteren</persName> gleichzeitige Anwesenheit in <placeName type="place" key="Bern (Stadt)">Bern</placeName> dazu geeignet
-        		<lb xml:id="p1-l9"/>erschien. Allein es hat sich gezeigt, daß ein solches Vorhaben,
-        		<lb xml:id="p1-l10"/>wenn nicht zufälliges Zusammentreffen derselbe begünstiget, eine
-        		<lb xml:id="p1-l11"/>vorangehende Anfrage verlangt, mit welcher zugleich die dem
-        		<lb xml:id="p1-l12"/>Verlangen zu Grunde liegende Absicht darzulegen sein dürfte.
-        		<lb xml:id="p1-l13"/>So möge es mir denn erlaubt sein, über solche Hinderniße mir
-        		<lb xml:id="p1-l14"/>dadurch zu behelfen, daß ich mich durch nachfolgende Zeilen, direkte
-        		<lb xml:id="p1-l15"/>an Sie wende.</p>
-      <p rend="indent" xml:id="K_2506_p6">
-                <lb xml:id="p1-l16"/>Ich habe mich durch Studien &amp; Praxis zu dem Berufe eines
-        		<lb xml:id="p1-l17"/>Ingenieurs gebildet. Im  Jahre 1860 absolvirte ich das <choice>
-                        <abbr>eidg.</abbr>
-                        <expan>eidgenössisch / eidgenößisch</expan>
-                    </choice> <seg type="com">
-                    <note xml:id="K_2506_c1">Nachträgliche Notiz von Eschers Hand mit Bleistift: <bibl>
-                            <choice>
-                                    <abbr>m.</abbr>
-                                    <expan>mit</expan>
-                                </choice> Diplom</bibl>.</note>
-                </seg> Polytechnikum
-        		<lb xml:id="p1-l18"/>&amp; bekleidete dann succeßive technische Stellen bei der <placeName type="place" key="Oron-la-Ville">Oron</placeName>bahn <seg type="com">
-                    <note xml:id="K_2506_c2">Nachträgliche Notiz von Eschers Hand mit Bleistift: <bibl>Bauführer unter Jundzill</bibl>.</note>
-                </seg> <lb xml:id="p1-l19"/>(1860–62), bei der <placeName type="place" key="Bern (Stadt)">Bern</placeName>–<placeName type="place" key="Langnau (BE)">Langnau</placeName>–Bahn <seg type="com">
-                    <note xml:id="K_2506_c3">Nachträgliche Notiz von Eschers Hand mit Bleistift: <bibl>Bauführer unter Rath</bibl>.</note>
-                </seg> (1862–64) später
-        		<lb xml:id="p1-l20"/>die Stelle eines Kantonsingenieurs in <placeName type="place" key="Solothurn (Stadt)">Solothurn</placeName> (1864–66) &amp;
+      <div type="opener">
+        <p rend="indent" xml:id="K_2506_p4"><lb xml:id="p1-l4"/>Hochgeachteter Herr!</p>
+      </div>
+    </front><body>
+      <p rend="indent" xml:id="K_2506_p5"><lb xml:id="p1-l5"/>Während der letzten Bundesversammlung suchte der Unter<lb xml:id="p1-l6" break="no"/>zeichnete durch Vermittelung des Herrn Landammann <persName key="Vigier (von Steinbrugg) Josef Wilhelm"><hi>Vigier</hi></persName> <lb xml:id="p1-l7" break="no"/>sich eine Vorstellung bei Ihnen zu erwirken, indem Ihre &amp;
+        		<lb xml:id="p1-l8" break="no"/>des <persName key="Vigier (von Steinbrugg) Josef Wilhelm">Letzteren</persName> gleichzeitige Anwesenheit in <placeName key="Bern (Stadt)">Bern</placeName> dazu geeignet
+        		<lb xml:id="p1-l9" break="no"/>erschien. Allein es hat sich gezeigt, daß ein solches Vorhaben,
+        		<lb xml:id="p1-l10" break="no"/>wenn nicht zufälliges Zusammentreffen derselbe begünstiget, eine
+        		<lb xml:id="p1-l11" break="no"/>vorangehende Anfrage verlangt, mit welcher zugleich die dem
+        		<lb xml:id="p1-l12" break="no"/>Verlangen zu Grunde liegende Absicht darzulegen sein dürfte.
+        		<lb xml:id="p1-l13" break="no"/>So möge es mir denn erlaubt sein, über solche Hinderniße mir
+        		<lb xml:id="p1-l14" break="no"/>dadurch zu behelfen, daß ich mich durch nachfolgende Zeilen, direkte
+        		<lb xml:id="p1-l15" break="no"/>an Sie wende.</p>
+      <p rend="indent" xml:id="K_2506_p6"><lb xml:id="p1-l16"/>Ich habe mich durch Studien &amp; Praxis zu dem Berufe eines
+        		<lb xml:id="p1-l17"/>Ingenieurs gebildet. Im  Jahre 1860 absolvirte ich das <choice><abbr>eidg.</abbr><expan>eidgenössisch / eidgenößisch</expan></choice> <note type="com" xml:id="K_2506_c1">Nachträgliche Notiz von Eschers Hand mit Bleistift: <orig><choice><abbr>m.</abbr><expan>mit</expan></choice> Diplom</orig>.</note> Polytechnikum
+        		<lb xml:id="p1-l18"/>&amp; bekleidete dann succeßive technische Stellen bei der <placeName key="Oron-la-Ville">Oron</placeName>bahn <note type="com" xml:id="K_2506_c2">Nachträgliche Notiz von Eschers Hand mit Bleistift: <orig>Bauführer unter Jundzill</orig>.</note> <lb xml:id="p1-l19"/>(1860–62), bei der <placeName key="Bern (Stadt)">Bern</placeName>–<placeName key="Langnau (BE)">Langnau</placeName>–Bahn <note type="com" xml:id="K_2506_c3">Nachträgliche Notiz von Eschers Hand mit Bleistift: <orig>Bauführer unter Rath</orig>.</note> (1862–64) später
+        		<lb xml:id="p1-l20"/>die Stelle eines Kantonsingenieurs in <placeName key="Solothurn (Stadt)">Solothurn</placeName> (1864–66) &amp;
         		<lb xml:id="p1-l21"/>gegenwärtig die eines Regierungsrathes (1866–71) daselbst.
-        		<pb n="2"/>
-            </p>
-      <p rend="indent" xml:id="K_2506_p7">
-                <lb xml:id="p2-l1"/>Ich bin so frei, einige Drucksachen beizulegen, aus
+        		<pb n="2"/></p>
+      <p rend="indent" xml:id="K_2506_p7"><lb xml:id="p2-l1"/>Ich bin so frei, einige Drucksachen beizulegen, aus
         		<lb xml:id="p2-l2"/>denen ein Theil meiner amtlichen &amp; außeramtlichen
         		<lb xml:id="p2-l3"/>Thätigkeit ersichtlich ist.</p>
-      <p rend="indent" xml:id="K_2506_p8">
-                <lb xml:id="p2-l4"/>Nachdem ich in dieser meiner angedeuteten Stellung
+      <p rend="indent" xml:id="K_2506_p8"><lb xml:id="p2-l4"/>Nachdem ich in dieser meiner angedeuteten Stellung
         		<lb xml:id="p2-l5"/>eine Amtsperiode zurückgelegt, habe ich die Absicht, ferner
         		<lb xml:id="p2-l6"/>wieder ganz meinem Berufe anzugehören &amp; es erscheint
-        		<lb xml:id="p2-l7"/>mir der Moment dazu um so mehr angedeutet, als gegen<lb break="no" xml:id="p2-l8"/>wärtig in der Schweiz größere Eisenbahnunternehmungen
-        		<lb xml:id="p2-l9"/>sich vorbereiten, welche mit Wiedereintrit des Friedens
-        		<lb xml:id="p2-l10"/>einer raschen Verwirklichung entgegengehen dürften.</p>
-      <p rend="indent" xml:id="K_2506_p9">
-                <lb xml:id="p2-l11"/>Dieses ist, in kurzen Worten, was mich wünschen ließ,
+        		<lb xml:id="p2-l7"/>mir der Moment dazu um so mehr angedeutet, als gegen<lb xml:id="p2-l8" break="no"/>wärtig in der Schweiz größere Eisenbahnunternehmungen
+        		<lb xml:id="p2-l9" break="no"/>sich vorbereiten, welche mit Wiedereintrit des Friedens
+        		<lb xml:id="p2-l10" break="no"/>einer raschen Verwirklichung entgegengehen dürften.</p>
+      <p rend="indent" xml:id="K_2506_p9"><lb xml:id="p2-l11"/>Dieses ist, in kurzen Worten, was mich wünschen ließ,
         		<lb xml:id="p2-l12"/>durch eine persönliche Besprechung bei Ihnen bekannt zu
         		<lb xml:id="p2-l13"/>werden, der Sie an der Spitze von solchen Unternehmungen
         		<lb xml:id="p2-l14"/>stehen, von denen das Eine zur Ausführung bereit <add>ist</add> &amp; das
         		<lb xml:id="p2-l15"/>Andere, eines der größten seiner Art, derselben mit
         		<lb xml:id="p2-l16"/>vollster Wahrscheinlichkeit entgegengeht.</p>
-      <p rend="indent" xml:id="K_2506_p10">
-                <lb xml:id="p2-l17"/>Meine Pflicht bei einer solchen Besprechung wird
-        		<lb xml:id="p2-l18"/>es sein, mich über bisherige Leistungen genauer auszu<lb break="no" xml:id="p2-l19"/>weisen &amp; Ihnen weitere persönliche Aufschlüße zu geben,
-        		<lb xml:id="p2-l20"/>als es in diesem vorläufigen Briefe angemeßen
-        		<lb xml:id="p2-l21"/>sein dürfte.</p>
-      <p rend="indent" xml:id="K_2506_p11">
-                <lb xml:id="p2-l22"/>Für den Fall, daß Sie mir ein eingehenderes Interesse
+      <p rend="indent" xml:id="K_2506_p10"><lb xml:id="p2-l17"/>Meine Pflicht bei einer solchen Besprechung wird
+        		<lb xml:id="p2-l18"/>es sein, mich über bisherige Leistungen genauer auszu<lb xml:id="p2-l19" break="no"/>weisen &amp; Ihnen weitere persönliche Aufschlüße zu geben,
+        		<lb xml:id="p2-l20" break="no"/>als es in diesem vorläufigen Briefe angemeßen
+        		<lb xml:id="p2-l21" break="no"/>sein dürfte.</p>
+      <p rend="indent" xml:id="K_2506_p11"><lb xml:id="p2-l22"/>Für den Fall, daß Sie mir ein eingehenderes Interesse
         		<lb xml:id="p2-l23"/>schenken wollten, erlaube ich mir, Ihnen einige Personen
-        		<lb xml:id="p2-l24"/>in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> zu nennen, die über mich Aufschluß geben können.</p>
-      <p rend="indent" xml:id="K_2506_p12">
-                <lb xml:id="p2-l25"/>Da ich die Kantonsschule in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> besuchte, so
-        		<pb n="3"/>
-                <lb xml:id="p3-l1"/>ist es zunächst möglich, daß Herr <persName type="person" key="Zschetzsche Gustav">Zschetsche</persName>, trotz der
+        		<lb xml:id="p2-l24"/>in <placeName key="Zürich (Stadt)">Zürich</placeName> zu nennen, die über mich Aufschluß geben können.</p>
+      <p rend="indent" xml:id="K_2506_p12"><lb xml:id="p2-l25"/>Da ich die Kantonsschule in <placeName key="Zürich (Stadt)">Zürich</placeName> besuchte, so
+        		<pb n="3"/><lb xml:id="p3-l1"/>ist es zunächst möglich, daß Herr <persName key="Zschetzsche Gustav">Zschetsche</persName>, trotz der
         		<lb xml:id="p3-l2"/>zwar etwas langen Zeit seit 1857, mir noch ein
         		<lb xml:id="p3-l3"/>freundliches Andenken bewahrt hat. Sodann bin ich mit den
-        		<lb xml:id="p3-l4"/>Herren Profeßoren <persName type="person" key="Culmann Carl">
-                    <hi>Culmann</hi>
-                </persName>, <persName type="person" key="Pestalozzi Karl">
-                    <hi>Pestalozzi</hi>
-                </persName>, <persName type="person" key="Zeuner Gustav">
-                    <hi>Zeuner</hi>
-                </persName>, <persName type="person" key="Wild Johannes">
-                    <hi>Wild</hi>
-                </persName> <lb xml:id="p3-l5"/>auch nach meinem Austrit aus der Schule in mehr oder
+        		<lb xml:id="p3-l4"/>Herren Profeßoren <persName key="Culmann Carl"><hi>Culmann</hi></persName>, <persName key="Pestalozzi Karl"><hi>Pestalozzi</hi></persName>, <persName key="Zeuner Gustav"><hi>Zeuner</hi></persName>, <persName key="Wild Johannes"><hi>Wild</hi></persName> <lb xml:id="p3-l5"/>auch nach meinem Austrit aus der Schule in mehr oder
         		<lb xml:id="p3-l6"/>weniger fortgesetztem Verkehr gestanden. Bei Herrn
-        		<lb xml:id="p3-l7"/>
-                <hi>
-                    <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> <persName type="person" key="Felber Peter Jakob">Felber</persName> </hi> war ich zu Hause.</p>
-      <p rend="indent" xml:id="K_2506_p13">
-                <lb xml:id="p3-l8"/>Ich erlaube mir daher die schließliche Anfrage,
+        		<lb xml:id="p3-l7"/><hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> <persName key="Felber Peter Jakob">Felber</persName> </hi> war ich zu Hause.</p>
+      <p rend="indent" xml:id="K_2506_p13"><lb xml:id="p3-l8"/>Ich erlaube mir daher die schließliche Anfrage,
         	<lb xml:id="p3-l9"/>ob Sie mir nach dieser brieflichen Selbstvorstellung
         	<lb xml:id="p3-l10"/>auch die Ehre einer persönlichen Vorstellung gestatten &amp;
         	<lb xml:id="p3-l11"/>die Ihnen dazu geeignete Zeit gefälligst bezeichnen
         	<lb xml:id="p3-l12"/>wollen.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2506_p14">
-                    <lb xml:id="p3-l13"/>Genehmigen Sie die Versicherung meiner
+        <p rend="indent" xml:id="K_2506_p14"><lb xml:id="p3-l13"/>Genehmigen Sie die Versicherung meiner
         	<lb xml:id="p3-l14"/>Hochachtung!</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2506_p15">
-                    <lb xml:id="p3-l15"/>
-          H. Dietler, <choice>
-                        <abbr>R.R.</abbr>
-                        <expan>RegierungsRath</expan>
-                    </choice> 
+      <div type="signature">
+        <p rend="right" xml:id="K_2506_p15"><lb xml:id="p3-l15"/>
+          H. Dietler, <choice><abbr>R.R.</abbr><expan>RegierungsRath</expan></choice> 
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

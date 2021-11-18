@@ -1,159 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2076" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Blumer an Alfred Escher, Glarus, Montag, Mai 16, 1864</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>FA Tschudi</institution>
-                        <idno type="original"/>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Familiäres und Persönliches</item>
-                        <item>Krankheiten</item>
-                        <item>Landsgemeinde GL</item>
-                        <item>Verfassung GL</item>
-                        <item>Ständerat</item>
-                        <item>Kommissionen (eidgenössische)</item>
-                        <item>Reisen und Ausflüge</item>
-                        <item>Freundschaften</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Blumer Johann Jakob" type="sender">Johann Jakob Blumer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Glarus</placeName>
-                    <date when="1864-05-16">Montag, Mai 16, 1864</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-06-21" who="AO">Migration nach XML
-                
-            </change>
-            <change when="2013-07-02" who="FG">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-18" who="CB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-22" who="MB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-07-26" who="JS">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-08-22" who="AO">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2013-08-23" who="JS">Übertragung Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2013-12-02" who="KR">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-12-02" who="KR">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-23" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2076" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Blumer an Alfred Escher, Glarus, Montag, 16. Mai 1864</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>FA Tschudi</institution></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Familiäres und Persönliches</term><term>Krankheiten</term><term>Landsgemeinde GL</term><term>Verfassung GL</term><term>Ständerat</term><term>Kommissionen (eidgenössische)</term><term>Reisen und Ausflüge</term><term>Freundschaften</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Blumer Johann Jakob" type="addressee">Johann Jakob Blumer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Glarus</placeName><date when="1864-05-16">16. Mai 1864</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2076_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1864-05-16">16. Mai 1864</date>.</p>
+        <p rend="right" xml:id="K_2076_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1864-05-16">16. Mai 1864</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_2076_p2">
-                    <lb xml:id="p1-l2"/>Mein theurer Freund!</p>
+        <p rend="left" xml:id="K_2076_p2"><lb xml:id="p1-l2"/>Mein theurer Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2076_p3">
-                <lb xml:id="p1-l3"/>Mit Vergnügen habe ich durch meinen 
-            <lb xml:id="p1-l4"/>
-                <persName type="person" key="Neffe Johann Jakob Blumers">Neffen</persName> vernommen, daß es <persName type="person" key="Escher-Uebel Augusta">Deiner <choice>
-                            <abbr>l.</abbr>
-                            <expan>lieb</expan>
-                        </choice> Frau</persName> gegenwärtig 
+    </front><body>
+      <p rend="indent" xml:id="K_2076_p3"><lb xml:id="p1-l3"/>Mit Vergnügen habe ich durch meinen 
+            <lb xml:id="p1-l4"/><persName key="Neffe Johann Jakob Blumers">Neffen</persName> vernommen, daß es <persName key="Escher-Uebel Augusta">Deiner <choice><abbr>l.</abbr><expan>lieb</expan></choice> Frau</persName> gegenwärtig 
             <lb xml:id="p1-l5"/>recht ordentlich geht. Ich wünsche von ganzem Herzen, 
             <lb xml:id="p1-l6"/>daß die Genesung nun in stetiger Weise fortschreiten 
             <lb xml:id="p1-l7"/>möge! 
         </p>
-      <p rend="indent" xml:id="K_2076_p4">
-                <lb xml:id="p1-l8"/>
+      <p rend="indent" xml:id="K_2076_p4"><lb xml:id="p1-l8"/>
        <date when="1864-05-16">Am heutigen Tage</date> erinnere ich mich dankbar 
-            <lb xml:id="p1-l9"/>des Besuches, den Ihr mir am <date when="1863-05-25">letztjährigen Pfingst<lb break="no" xml:id="p1-l10"/>montage</date> an meinem Krankenlager abgestattet habt. 
+            <lb xml:id="p1-l9"/>des Besuches, den Ihr mir am <date when="1863-05-25">letztjährigen Pfingst<lb xml:id="p1-l10" break="no"/>montage</date> an meinem Krankenlager abgestattet habt. 
              <lb xml:id="p1-l11"/>Es würde mich sehr freuen, wenn Du Dich entschließen 
-            <lb xml:id="p1-l12"/>könntest, dieses Jahr nun einmal mein wiederherge<lb break="no" xml:id="p1-l13"/>stelltes Heimwesen zu besichtigen, wozu ich Dir 
-            <lb xml:id="p1-l14"/>gerade den <date when="1864-05-22">nächsten Sonntag</date> vorschlagen möchte; wir 
-            <lb xml:id="p1-l15"/>haben nämlich an diesem Tage unsre Landsgemeinde, 
-            <lb xml:id="p1-l16"/>die wegen Verfassungsrevision <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Fabrikpolizeigesetz 
-            <pb n="2"/>
-                    <lb xml:id="p2-l1"/>nicht uninteressant seyn wird. Sollte Dich die Landsge<lb break="no" xml:id="p2-l2"/>meinde nicht besonders anziehen, so hoffe ich, Du werdest 
-            <lb xml:id="p2-l3"/>später einmal zu mir kommen; nur muß ich Dir bemerken,<note type="transcript">rechter Rand abgeschnitten</note>
-                    <lb xml:id="p2-l4"/>daß ich die folgende Woche in <placeName type="place" key="Bern (Stadt)">Bern</placeName> seyn werde, in der 
-            <lb xml:id="p2-l5"/>ständeräthlichen Kommission betreffend den Geschäftsbericht.
+            <lb xml:id="p1-l12"/>könntest, dieses Jahr nun einmal mein wiederherge<lb xml:id="p1-l13" break="no"/>stelltes Heimwesen zu besichtigen, wozu ich Dir 
+            <lb xml:id="p1-l14" break="no"/>gerade den <date when="1864-05-22">nächsten Sonntag</date> vorschlagen möchte; wir 
+            <lb xml:id="p1-l15" break="no"/>haben nämlich an diesem Tage unsre Landsgemeinde, 
+            <lb xml:id="p1-l16" break="no"/>die wegen Verfassungsrevision <choice><abbr>u.</abbr><expan>und</expan></choice> Fabrikpolizeigesetz 
+            <pb n="2"/><lb xml:id="p2-l1" break="no"/>nicht uninteressant seyn wird. Sollte Dich die Landsge<lb xml:id="p2-l2" break="no"/>meinde nicht besonders anziehen, so hoffe ich, Du werdest 
+            <lb xml:id="p2-l3" break="no"/>später einmal zu mir kommen; nur muß ich Dir bemerken,<note type="transcript">rechter Rand abgeschnitten</note> <lb xml:id="p2-l4" break="no"/>daß ich die folgende Woche in <placeName key="Bern (Stadt)">Bern</placeName> seyn werde, in der 
+            <lb xml:id="p2-l5" break="no"/>ständeräthlichen Kommission betreffend den Geschäftsbericht.
         </p>
-      <p rend="indent" xml:id="K_2076_p5">
-                <lb xml:id="p2-l6"/>Es würde <persName type="person" key="Blumer-Heer Susanna">meine <choice>
-                            <abbr>l.</abbr>
-                            <expan>lieb</expan>
-                        </choice> Frau</persName> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> mich natürlich am
-            <lb xml:id="p2-l7"/>meisten freuen, wenn die Gesundheitsumstände <persName type="person" key="Escher-Uebel Augusta">Deiner <choice>
-                            <abbr>l.</abbr>
-                            <expan>lieb</expan>
-                        </choice> <lb xml:id="p2-l8"/>Frau</persName> sich bereits in der Weise gebessert hätten, daß sie 
+      <p rend="indent" xml:id="K_2076_p5"><lb xml:id="p2-l6"/>Es würde <persName key="Blumer-Heer Susanna">meine <choice><abbr>l.</abbr><expan>lieb</expan></choice> Frau</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> mich natürlich am
+            <lb xml:id="p2-l7"/>meisten freuen, wenn die Gesundheitsumstände <persName key="Escher-Uebel Augusta">Deiner <choice><abbr>l.</abbr><expan>lieb</expan></choice> <lb xml:id="p2-l8"/>Frau</persName> sich bereits in der Weise gebessert hätten, daß sie 
             <lb xml:id="p2-l9"/>Dich zu dem verhofften Besuche bei uns begleiten könnte. 
             <lb xml:id="p2-l10"/>Sollte dieß nicht möglich seyn, so wäre es uns ein 
-        <lb xml:id="p2-l11"/>etwelcher lieber Ersatz dafür, wenn Du die <choice>
-                        <abbr>l.</abbr>
-                        <expan>lieb</expan>
-                    </choice> <persName type="person" key="Escher (vom Glas) Lydia">
-                    <hi>Lydie</hi>
-                </persName> <lb xml:id="p2-l12"/>mitbrächtest. 
+        <lb xml:id="p2-l11"/>etwelcher lieber Ersatz dafür, wenn Du die <choice><abbr>l.</abbr><expan>lieb</expan></choice> <persName key="Escher (vom Glas) Lydia"><hi>Lydie</hi></persName> <lb xml:id="p2-l12"/>mitbrächtest. 
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2076_p6">
-                    <lb xml:id="p2-l13"/>Deiner gefälligen Antwort entgegensehend, 
+        <p rend="indent" xml:id="K_2076_p6"><lb xml:id="p2-l13"/>Deiner gefälligen Antwort entgegensehend, 
             <lb xml:id="p2-l14"/>grüßt Dich, mit vielen Empfehlungen an die verehrten 
             <lb xml:id="p2-l15"/>Deinigen, herzlich 
         </p>
-        <p rend="right" xml:id="K_2076_p7">
-                    <lb xml:id="p2-l16"/>Dein treuer</p>
+        <p rend="right" xml:id="K_2076_p7"><lb xml:id="p2-l16"/>Dein treuer</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2076_p8">
-                    <lb xml:id="p2-l17"/>J J Blumer.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2076_p8"><lb xml:id="p2-l17"/>J J Blumer.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

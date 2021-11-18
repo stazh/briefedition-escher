@@ -1,127 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2159" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Gustav Stocker an Alfred Escher, Zürich, Freitag, April 6, 1866</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#476*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eidgenössischer Schulrat</item>
-                        <item>Krankheiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Stocker Johann Gustav" type="sender">Johann Gustav Stocker</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1866-04-06">Freitag, April 6, 1866</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2010-07-07" who="CA">transkribiert</change>
-            <change when="2013-06-18" who="MB">Auszeichnung 1 umgesetzt</change>
-            <change when="2013-07-18" who="CB">Verifizierung 1 umgesetzt</change>
-            <change when="2013-07-26" who="AO">Auszeichnung 2 umgesetzt</change>
-            <change when="2013-08-20" who="JS">Transkriptionsverifizierung T. Binder umgesetzt</change>
-            <change when="2013-08-28" who="AO">Übertragung der Transkriptionsverifizierung überprüft</change>
-            <change when="2013-12-06" who="KR">Inhaltliche Qualitätsprüfung umgesetzt</change>
-            <change when="2013-12-06" who="KR">Verifizierung 2 umgesetzt</change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2159" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Gustav Stocker an Alfred Escher, Zürich, Freitag, 06. April 1866</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#476*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eidgenössischer Schulrat</term><term>Krankheiten</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Stocker Johann Gustav" type="addressee">Johann Gustav Stocker</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1866-04-06">06. April 1866</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2159_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>, <date when="1866-04-06">6 April 1866</date>.</p>
-      </div>
-      <div type="address">
-        <p rend="indent" xml:id="K_2159_p2">
-                    <lb xml:id="p1-l2"/>
-          <choice>
-                        <abbr>Hherrn</abbr>
-                        <expan>Hohen herrn</expan>
-                    </choice> Vize-Präsident <choice>
-                        <abbr>
-                            <hi>Dr</hi>.</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> Alf. Escher in Hier</p>
+        <p rend="right" xml:id="K_2159_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>, <date when="1866-04-06">6 April 1866</date>.</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_2159_p3">
-                    <lb xml:id="p1-l3"/>Hochgeachteter Herr!</p>
+        <p rend="indent" xml:id="K_2159_p2"><lb xml:id="p1-l2"/>
+          <choice><abbr>Hherrn</abbr><expan>Hohen herrn</expan></choice> Vize-Präsident <choice><abbr><hi>Dr</hi>.</abbr><expan>Doktor / Doctor</expan></choice> Alf. Escher in Hier</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_2159_p4">
-                    <lb xml:id="p1-l4"/>In Folge der <date when="1866-04-06">diesen Morgen</date> eingegangenen<lb xml:id="p1-l5"/>
+      <div type="opener">
+        <p rend="center" xml:id="K_2159_p3"><lb xml:id="p1-l3"/>Hochgeachteter Herr!</p>
+      </div>
+    </front><body>
+      <p rend="left" xml:id="K_2159_p4"><lb xml:id="p1-l4"/>In Folge der <date when="1866-04-06">diesen Morgen</date> eingegangenen<lb xml:id="p1-l5"/>
 		bedauerlichen Nachricht von ihrer Erkrankung<lb xml:id="p1-l6"/>
-        hat der <persName type="person" key="Kappeler Johann Karl">Präsident</persName> Verschiebung der Schulraths<lb break="no" xml:id="p1-l7"/>sitzung 
-		auf <date when="1866-04-12">nächsten Donnerstag</date> beschlossen<lb xml:id="p1-l8"/>
-		&amp; es ist die nöthige Anzeige sogleich tele<lb break="no" xml:id="p1-l9"/>graphisch 
-		nach allen Seiten abgegangen.<lb xml:id="p1-l10"/>
-                    <date when="1866-04-05">Gestern</date> Abend um 7 Uhr war das <choice>
-                        <abbr>
-                            <hi>Tit</hi>.</abbr>
-                        <expan>Titulo (mit Titel)</expan>
-                    </choice>
-                    <lb xml:id="p1-l11"/>
-		Statthalteramt zwar mit den Verhören<lb xml:id="p1-l12"/>
-		(soweit die <choice>
-                        <abbr>betreff.</abbr>
-                        <expan>betreffend</expan>
-                    </choice> Personen zu finden waren)<lb xml:id="p1-l13"/>
-		fertig, aber mit den bezüglichen<lb xml:id="p1-l14"/>
-		Verfügungen noch nicht zu Ende ge<lb break="no" xml:id="p1-l15"/>kommen. 
-		Bei der gegenwärtigen<lb xml:id="p1-l16"/>
-		Sachlage dürfte es möglich sein,<lb xml:id="p1-l17"/>
-		nunmehr auch die Verfügungen von<pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-		Statthalter, Kantonal- &amp; Stadtpolizei bis zur<lb xml:id="p2-l2"/>
+        hat der <persName key="Kappeler Johann Karl">Präsident</persName> Verschiebung der Schulraths<lb xml:id="p1-l7" break="no"/>sitzung 
+		auf <date when="1866-04-12">nächsten Donnerstag</date> beschlossen<lb xml:id="p1-l8" break="no"/>
+		&amp; es ist die nöthige Anzeige sogleich tele<lb xml:id="p1-l9" break="no"/>graphisch 
+		nach allen Seiten abgegangen.<lb xml:id="p1-l10" break="no"/>  <date when="1866-04-05">Gestern</date> Abend um 7 Uhr war das <choice><abbr><hi>Tit</hi>.</abbr><expan>Titulo (mit Titel)</expan></choice> <lb xml:id="p1-l11" break="no"/>
+		Statthalteramt zwar mit den Verhören<lb xml:id="p1-l12" break="no"/>
+		(soweit die <choice><abbr>betreff.</abbr><expan>betreffend</expan></choice> Personen zu finden waren)<lb xml:id="p1-l13" break="no"/>
+		fertig, aber mit den bezüglichen<lb xml:id="p1-l14" break="no"/>
+		Verfügungen noch nicht zu Ende ge<lb xml:id="p1-l15" break="no"/>kommen. 
+		Bei der gegenwärtigen<lb xml:id="p1-l16" break="no"/>
+		Sachlage dürfte es möglich sein,<lb xml:id="p1-l17" break="no"/>
+		nunmehr auch die Verfügungen von<pb n="2"/><lb xml:id="p2-l1" break="no"/>
+		Statthalter, Kantonal- &amp; Stadtpolizei bis zur<lb xml:id="p2-l2" break="no"/>
 		Sitzung kennen zu lernen.</p>
-      <p rend="left" xml:id="K_2159_p5">
-                    <lb xml:id="p2-l3"/>Dießfälligen Weisungen von Ihrer Seite<lb xml:id="p2-l4"/>
+      <p rend="left" xml:id="K_2159_p5"><lb xml:id="p2-l3"/>Dießfälligen Weisungen von Ihrer Seite<lb xml:id="p2-l4"/>
 		wird der Unterzeichnete gerne zur<lb xml:id="p2-l5"/>
 		Verfügung stehen.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2159_p6">
-                    <lb xml:id="p2-l6"/>Mit vollkommenster Hochachtung</p>
+        <p rend="indent" xml:id="K_2159_p6"><lb xml:id="p2-l6"/>Mit vollkommenster Hochachtung</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2159_p7">
-                    <lb xml:id="p2-l7"/>der Sekretär des <choice>
-                        <abbr>schweiz.</abbr>
-                        <expan>schweizerisch</expan>
-                    </choice> Schulrathes
-          <lb xml:id="p2-l8"/>
-                    <choice>
-                        <abbr>
-                            <hi>Prof</hi>.</abbr>
-                        <expan>Professor</expan>
-                    </choice> <hi>Stocker</hi> </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2159_p7"><lb xml:id="p2-l7"/>der Sekretär des <choice><abbr>schweiz.</abbr><expan>schweizerisch</expan></choice> Schulrathes
+          <lb xml:id="p2-l8"/><choice><abbr><hi>Prof</hi>.</abbr><expan>Professor</expan></choice> <hi>Stocker</hi> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

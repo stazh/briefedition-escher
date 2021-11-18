@@ -1,118 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2824" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Heinrich Eduard Meyer an Alfred Escher, Zürich, Dienstag, August 1, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#351*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Gotthardtunnel</item>
-                        <item>Tunnelbau</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Meyer Heinrich Eduard" type="sender">Heinrich Eduard Meyer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1876-08-01">Dienstag, August 1, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-08-21" who="LH">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="LW">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="XR">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="IB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="SWK">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-05-19" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-22" who="LH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-28" who="SWK">Übertragung Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-04-09" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="left" xml:id="K_2824_p1">
-                    <lb xml:id="p1-l1"/>Herrn Präsident <hi>
-                        <choice>
-                            <abbr>Dr.</abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> Alfred Escher dahier<!-- 19.05.2014, VP: Transkription angepasst -->
-                    </hi>.</p>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2824" type="Brief"><teiHeader><fileDesc><titleStmt><title>Heinrich Eduard Meyer an Alfred Escher, Zürich, Dienstag, 01. August 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#351*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Gotthardtunnel</term><term>Tunnelbau</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Meyer Heinrich Eduard" type="addressee">Heinrich Eduard Meyer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1876-08-01">01. August 1876</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
+        <p rend="left" xml:id="K_2824_p1"><lb xml:id="p1-l1"/>Herrn Präsident <hi><choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> Alfred Escher dahier<!-- 19.05.2014, VP: Transkription angepasst --></hi>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_2824_p2">
-                    <lb xml:id="p1-l2"/>Hochgeachteter Herr!</p>
+        <p rend="indent" xml:id="K_2824_p2"><lb xml:id="p1-l2"/>Hochgeachteter Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2824_p3">
-                <lb xml:id="p1-l3"/>Für die mir mit Ihren Geehrten<note type="transcript">sic!</note> Zeilen
-            <lb xml:id="p1-l4"/>vom <date when="1876-07-31">31. <choice>
-                            <abbr>v. M.</abbr>
-                            <expan>vorigen / vergangenen Monats</expan>
-                        </choice> </date> übersandte Empfehlung des Herrn
-            <lb xml:id="p1-l5"/>
-                <persName type="person" key="Hellwag Konrad Wilhelm">Ober-Ingenieurs</persName> der <hi>Gotthard</hi>bahn Behufs Besichtigung
+    </front><body>
+      <p rend="indent" xml:id="K_2824_p3"><lb xml:id="p1-l3"/>Für die mir mit Ihren Geehrten<note type="transcript">sic!</note> Zeilen
+            <lb xml:id="p1-l4"/>vom <date when="1876-07-31">31. <choice><abbr>v. M.</abbr><expan>vorigen / vergangenen Monats</expan></choice> </date> übersandte Empfehlung des Herrn
+            <lb xml:id="p1-l5"/><persName key="Hellwag Konrad Wilhelm">Ober-Ingenieurs</persName> der <hi>Gotthard</hi>bahn Behufs Besichtigung
             <lb xml:id="p1-l6"/>der äußern Vorrichtungen des Tunnels auf der
             <lb xml:id="p1-l7"/>Nord &amp; Südseite bin ich Ihnen zu großem
             <lb xml:id="p1-l8"/>Danke verpflichtet &amp; verhare<note type="transcript">sic!</note> hochachtungsvoll</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="right" xml:id="K_2824_p4">
-                    <lb xml:id="p1-l9"/>Ihr ergeb<supplied>en</supplied>ster</p>
+        <p rend="right" xml:id="K_2824_p4"><lb xml:id="p1-l9"/>Ihr ergeb<add>en</add>ster</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2824_p5">
-                    <lb xml:id="p1-l10"/>E. Meyer</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2824_p5"><lb xml:id="p1-l10"/>E. Meyer</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_2824_p6">
-                    <lb xml:id="p1-l11"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> d<supplied>en</supplied> <date when="1876-08-01">1. August
+        <p rend="left" xml:id="K_2824_p6"><lb xml:id="p1-l11"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName> d<add>en</add> <date when="1876-08-01">1. August
                 <lb xml:id="p1-l12"/>1876</date>.
             </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

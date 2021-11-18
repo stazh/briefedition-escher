@@ -1,218 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2906" n="264" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Joachim Heer an Alfred Escher, Bern, Donnerstag, Februar 1, 1877</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#252*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Heer Joachim" type="sender">Joachim Heer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1877-02-01">Donnerstag, Februar 1, 1877</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-08-18" who="IM"> transkribiert
-                
-            </change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-10-25" who="MF">kommentiert provisorisch
-                
-            </change>
-            <change when="2006-12-07" who="SM">Konvertierung provisorisch nachbearbeitet
-                
-            </change>
-            <change when="2007-01-12" who="WB">Konvertierung nachbearbeitet
-                
-            </change>
-            <change when="2007-01-30" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-03-13" who="MF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-04-10" who="MF">kommentiert 3
-                
-            </change>
-            <change when="2007-04-24" who="MF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-04" who="WB">indexiert
-                
-            </change>
-            <change when="2007-05-21" who="MF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-12" who="TN">Zitat verifiziert
-                
-            </change>
-            <change when="2007-06-26" who="MF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-17" who="MF">Umsetzung Lektorat MK 2
-                
-            </change>
-            <change when="2007-07-21" who="MF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2008-08-05" who="WB">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-20" who="AH">e-Ediiton: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-08" who="TM">e-Ediiton: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-29" who="DG">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-12-03" who="VP">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-12-03" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-12-03" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2906" type="Brief"><teiHeader><fileDesc><titleStmt><title>Joachim Heer an Alfred Escher, Bern, Donnerstag, 01. Februar 1877</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#252*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Öffentliche Beteiligungen (Infrastruktur)</term><term>Gotthardbahn-Gesellschaft (GB)</term><term>Gotthardbahnprojekt</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term> Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Heer Joachim" type="addressee">Joachim Heer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1877-02-01">01. Februar 1877</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2906_p1">
-                    <lb xml:id="p1-l1"/>
+        <p rend="right" xml:id="K_2906_p1"><lb xml:id="p1-l1"/>
           <hi>
-            <placeName type="place" key="Bern (Stadt)">Bern</placeName>, d<supplied>en</supplied> <date when="1877-02-01">1. <choice>
-                                <abbr>Febr.</abbr>
-                                <expan>Februar</expan>
-                            </choice> 1877</date>. </hi>
+            <placeName key="Bern (Stadt)">Bern</placeName>, d<add>en</add> <date when="1877-02-01">1. <choice><abbr>Febr.</abbr><expan>Februar</expan></choice> 1877</date>. </hi>
         </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_2906_p2">
-                    <lb xml:id="p1-l2"/>Verehrter Herr <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Freund!</p>
+        <p rend="indent" xml:id="K_2906_p2"><lb xml:id="p1-l2"/>Verehrter Herr <choice><abbr>u.</abbr><expan>und</expan></choice> Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_2906_p3">
-                <lb xml:id="p1-l3"/>Ich bin Ihnen sehr zu Danke verpflichtet für die <seg type="com">Mittheilung des Telegramms<note xml:id="K_2906_c1">Beilage nicht ermittelt. – In einem Brief vom <date when="1877-01-31">31. Januar 1877</date> sandte Escher Heer die Abschrift eines Telegramms von <persName type="person" key="Maraini Clemente">Maraini</persName>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="letter" target="K_2905"><!--Brief Escher an Joachim Heer, 31. Januar 1877 (<ref type="lit">BAR J I.67-8</ref>)--></ref>.</note>
-                </seg> <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <lb xml:id="p1-l4"/> <seg type="ref">
-                    <persName type="person" key="Maraini Clemente">
-                        <hi>Maraini</hi>
-                    </persName>
-                    <ref type="kbp">→ Clemente Maraini</ref>
-                </seg>: es ist <seg type="com">seit langer Zeit die erste Nachricht, die einen ganz erfreuli<lb break="no" xml:id="p1-l5"/>chen 
-Eindrukk macht. Die Stellung <persName type="person" key="Maraini Clemente">M.'s</persName> zu dem jezigen Ministerium ist auch<lb xml:id="p1-l6"/>
-der Art, daß man wohl annehmen darf, er würde <hi rend="underline">so</hi> sich nicht ausdrükken,<lb xml:id="p1-l7"/>
-      würde er nicht seiner Sache so gut als sicher sein.<note xml:id="K_2906_c2">Auch Escher hatte gegenüber Heer festgehalten, dass <bibl>der Inhalt des Telegrammes als ein recht erfreulicher bezeichnet werden</bibl>dürfe. <persName type="person" key="Maraini Clemente">Marainis</persName> Beziehung zum Ministerpräsidenten des Königreichs <placeName type="place" key="Italien (Königreich)">Italien</placeName>, <persName type="person" key="Depretis Agostino">Agostino Depretis</persName> (1813–1887), schätzte er als <bibl>
-                            <hi rend="underline">sehr</hi> <hi rend="underline">nahe</hi> </bibl> ein. <ref type="letter" target="K_2905"><!--Brief Escher an Joachim Heer, 31. Januar 1877 (<ref type="lit">BAR J I.67-8</ref>)--></ref>.<!-- &ndash; Im Vergleich zu dem <obj>ganz erfreulichen</obj> Bericht Marainis ist einem Schreiben des schweizerischen Gesandten in <idx type="place" norm="Berlin (D)">Berlin</idx> vom 31. Januar 1877 eine wesentlich ungünstigere Einschätzung der Lage zu entnehmen. Arnold Roth berichtet über eine Unterredung mit dem italienischen Gesandten Edoardo de Launay, welcher ihm gegenüber bemerkt habe, dass man im gegenwärtigen italienischen Ministerium am <obj>Gotthard nicht direkt interessirt sei</obj> und dass die Stimmung in Italien zu weiteren materiellen Opfern <obj>nicht günstig</obj> sei, da das Königreich schon jetzt <obj>das doppelte der von Deutschland und der Schweiz gelieferten Subventionen geleistet</obj> habe. Der schweizerische Gesandte in Berlin, A. Roth, an den Bundespräsidenten und Vorsteher des Politischen Departements, J. Heer, 31. Januar 1877, in: DDS III, Nr. 108, S. 226&ndash;227.-->
-                    </note>
-                </seg> Mich hat diese Mittheilung 
+    </front><body>
+      <p rend="left" xml:id="K_2906_p3"><lb xml:id="p1-l3"/>Ich bin Ihnen sehr zu Danke verpflichtet für die Mittheilung des Telegramms<note type="com" xml:id="K_2906_c1">Beilage nicht ermittelt. – In einem Brief vom <date when="1877-01-31">31. Januar 1877</date> sandte Escher Heer die Abschrift eines Telegramms von <persName key="Maraini Clemente">Maraini</persName>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="letter" target="K_2905"><!--Brief Escher an Joachim Heer, 31. Januar 1877 (<ref type="lit">BAR J I.67-8</ref>)--></ref>.</note> <choice><abbr>v.</abbr><expan>von</expan></choice> <lb xml:id="p1-l4"/> <rs><persName key="Maraini Clemente"><hi>Maraini</hi></persName></rs>: es ist seit langer Zeit die erste Nachricht, die einen ganz erfreuli<lb xml:id="p1-l5" break="no"/>chen 
+Eindrukk macht. Die Stellung <persName key="Maraini Clemente">M.'s</persName> zu dem jezigen Ministerium ist auch<lb xml:id="p1-l6" break="no"/>
+der Art, daß man wohl annehmen darf, er würde <hi rend="underline">so</hi> sich nicht ausdrükken,<lb xml:id="p1-l7" break="no"/>
+      würde er nicht seiner Sache so gut als sicher sein.<note type="com" xml:id="K_2906_c2">Auch Escher hatte gegenüber Heer festgehalten, dass <orig>der Inhalt des Telegrammes als ein recht erfreulicher bezeichnet werden</orig>dürfe. <persName key="Maraini Clemente">Marainis</persName> Beziehung zum Ministerpräsidenten des Königreichs <placeName key="Italien (Königreich)">Italien</placeName>, <persName key="Depretis Agostino">Agostino Depretis</persName> (1813–1887), schätzte er als <orig><hi rend="underline">sehr</hi> <hi rend="underline">nahe</hi> </orig> ein. <ref type="letter" target="K_2905"><!--Brief Escher an Joachim Heer, 31. Januar 1877 (<ref type="lit">BAR J I.67-8</ref>)--></ref>.<!-- &ndash; Im Vergleich zu dem <obj>ganz erfreulichen</obj> Bericht Marainis ist einem Schreiben des schweizerischen Gesandten in <idx type="place" norm="Berlin (D)">Berlin</idx> vom 31. Januar 1877 eine wesentlich ungünstigere Einschätzung der Lage zu entnehmen. Arnold Roth berichtet über eine Unterredung mit dem italienischen Gesandten Edoardo de Launay, welcher ihm gegenüber bemerkt habe, dass man im gegenwärtigen italienischen Ministerium am <obj>Gotthard nicht direkt interessirt sei</obj> und dass die Stimmung in Italien zu weiteren materiellen Opfern <obj>nicht günstig</obj> sei, da das Königreich schon jetzt <obj>das doppelte der von Deutschland und der Schweiz gelieferten Subventionen geleistet</obj> habe. Der schweizerische Gesandte in Berlin, A. Roth, an den Bundespräsidenten und Vorsteher des Politischen Departements, J. Heer, 31. Januar 1877, in: DDS III, Nr. 108, S. 226&ndash;227.--></note> Mich hat diese Mittheilung 
 <lb xml:id="p1-l8"/>um so mehr gefreut, als ich <date when="1877-01-31">gestern</date> Nachmittag noch einen vertraulichen<lb xml:id="p1-l9"/>
-Brief von <seg type="ref">
-                    <persName type="person" key="Pioda Giovanni Battista">
-                        <hi>Pioda</hi>
-                    </persName>
-                    <ref type="kbp">→ Giovanni Battista Pioda</ref>
-                </seg> hatte, <seg type="com">der ganz anders lautete <choice>
-                            <abbr>u.</abbr>
-                            <expan>und</expan>
-                        </choice> zum Mindesten noch eine<lb xml:id="p1-l10"/>
-lange Verzögerung besorgen ließ.<note xml:id="K_2906_c3">
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="third-party-letter">Brief Giovanni Battista Pioda an Joachim Heer, 28. Januar 1877 
-    (<ref type="lit">BAR J I.67-8</ref>)</ref>.</note>
-                </seg> Ich lege Ihnen das Billet hier bei <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> bitte<lb xml:id="p1-l11"/>
+Brief von <rs><persName key="Pioda Giovanni Battista"><hi>Pioda</hi></persName></rs> hatte, der ganz anders lautete <choice><abbr>u.</abbr><expan>und</expan></choice> zum Mindesten noch eine<lb xml:id="p1-l10"/>
+lange Verzögerung besorgen ließ.<note type="com" xml:id="K_2906_c3"><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="third-party-letter">Brief Giovanni Battista Pioda an Joachim Heer, 28. Januar 1877 
+    (<ref type="lit">BAR J I.67-8</ref>)</ref>.</note> Ich lege Ihnen das Billet hier bei <choice><abbr>u.</abbr><expan>und</expan></choice> bitte<lb xml:id="p1-l11"/>
 Sie, mir dasselbe nur <hi rend="underline">ganz</hi> <hi rend="underline">gelegentlich</hi> zurükkzugeben. Die angestrichene<lb xml:id="p1-l12"/>
-Stelle scheint darauf zu deuten, daß <hi rend="underline">von</hi> <hi rend="underline">
-                    <placeName type="place" key="Italien (Königreich)">Italien</placeName>
-                </hi>
-                <hi rend="underline">aus</hi> die Anregung nach <placeName type="place" key="Berlin (D)">
-                    <hi>Berlin</hi>
-                </placeName> <lb xml:id="p1-l13"/>
+Stelle scheint darauf zu deuten, daß <hi rend="underline">von</hi> <hi rend="underline"><placeName key="Italien (Königreich)">Italien</placeName></hi><hi rend="underline">aus</hi> die Anregung nach <placeName key="Berlin (D)"><hi>Berlin</hi></placeName> <lb xml:id="p1-l13"/>
 erging, die Subsidienzahlungen theilweise zu sistiren, so lange die Zufahrtslinien<lb xml:id="p1-l14"/>
 nicht in Angriff genommen seien. Nur unter dieser Voraussetzung kann ich<lb xml:id="p1-l15"/>
-dem <choice>
-                        <abbr>fragl.</abbr>
-                        <expan>fraglich</expan>
-                    </choice> Passus überhaupt einen Sinn abgewinnen. –</p>
-      <p rend="left" xml:id="K_2906_p4">
-                <lb xml:id="p1-l16"/>Die Conferenz mit <seg type="ref">
-                    <persName type="person" key="Favre Louis">
-                        <hi>Favre</hi>
-                    </persName>
-                    <ref type="kbp">→ Louis Favre</ref>
-                </seg> <seg type="ref">ist also auf <date when="1877-02-05">Montag</date> vertagt worden, weil man be<lb break="no" xml:id="p1-l17"/>sorgte, 
-an Einem Tage nicht fertig zu werden <choice>
-                            <abbr>u.</abbr>
-                            <expan>und</expan>
-                        </choice> deshalb den <date when="1877-02-03">Samstag</date> nicht<lb xml:id="p1-l18"/>
+dem <choice><abbr>fragl.</abbr><expan>fraglich</expan></choice> Passus überhaupt einen Sinn abgewinnen. –</p>
+      <p rend="left" xml:id="K_2906_p4"><lb xml:id="p1-l16"/>Die Conferenz mit <rs><persName key="Favre Louis"><hi>Favre</hi></persName></rs> <rs>ist also auf <date when="1877-02-05">Montag</date> vertagt worden, weil man be<lb xml:id="p1-l17" break="no"/>sorgte, 
+an Einem Tage nicht fertig zu werden <choice><abbr>u.</abbr><expan>und</expan></choice> deshalb den <date when="1877-02-03">Samstag</date> nicht<lb xml:id="p1-l18" break="no"/>
 passend fand.<!--<com>Nachdem<ref type="kbp">&rarr; Louis Favre</ref> am 18. Januar 1877 beim Bundesrat Vorschläge zu einer Verständigung zwischen der Gotthardbahn-Gesellschaft und der Unternehmung Favre eingereicht hatte, konferierten die Parteien am 5./6. Februar 1877 in Bern unter der Leitung der Bundesräte<ref type="kbp">&rarr; &nbsp; <idx type="person" norm="Schenk Karl">Karl Schenk</idx>
-						</ref> und<ref type="kbp">&rarr; &nbsp; <idx type="person" norm="Welti Emil">Emil Welti</idx></ref>.<ref type="sum">&rarr; Überblickskommentar MF II</ref>; -->
-                    <ref type="letter" target="K_2900"><!--Nr. 263--></ref><!--;<ref type="letter">&rarr; Brief Escher an Josef Zingg, 2. Februar 1877</ref>;<ref type="letter">&rarr; Brief Louis Favre an Escher, 7. Februar 1877</ref>.</com>-->
-                </seg> Möge eine Einigung erzielt werden: ich nähme eine solche als<lb xml:id="p1-l19"/>
+						</ref> und<ref type="kbp">&rarr; &nbsp; <idx type="person" norm="Welti Emil">Emil Welti</idx></ref>.<ref type="sum">&rarr; Überblickskommentar MF II</ref>; --><ref type="letter" target="K_2900"><!--Nr. 263--></ref><!--;<ref type="letter">&rarr; Brief Escher an Josef Zingg, 2. Februar 1877</ref>;<ref type="letter">&rarr; Brief Louis Favre an Escher, 7. Februar 1877</ref>.</com>--></rs> Möge eine Einigung erzielt werden: ich nähme eine solche als<lb xml:id="p1-l19"/>
 gutes Zeichen für das nachfolgende, noch schwierigere Geschäft!</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_2906_p5">
-                    <lb xml:id="p1-l20"/>Mit vorzüglicher Hochschätzung Ihr ergebenster </p>
+        <p rend="center" xml:id="K_2906_p5"><lb xml:id="p1-l20"/>Mit vorzüglicher Hochschätzung Ihr ergebenster </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2906_p6">
-                    <lb xml:id="p1-l21"/>
+      <div type="signature">
+        <p rend="right" xml:id="K_2906_p6"><lb xml:id="p1-l21"/>
           <hi>
-            <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> J. Heer</hi>
+            <choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> J. Heer</hi>
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

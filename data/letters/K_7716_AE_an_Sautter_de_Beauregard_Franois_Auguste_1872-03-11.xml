@@ -1,157 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_7716" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an François Auguste Sautter de Beauregard, Zürich, Montag, März 11, 1872</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Entwurf">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB03_001</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Tunnelbau</item>
-                        <item>Personelle Angelegenheiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Sautter de Beauregard François Auguste" type="addressee">François Auguste Sautter de Beauregard</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1872-03-11">Montag, März 11, 1872</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-08-08" who="LH">transkribiert
-                
-            </change>
-            <change when="2014-05-14" who="IB">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2014-07-07" who="JS">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-09" who="OD">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-10" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-07-11" who="SG">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-22" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-            <change when="2014-10-24" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-10-24" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2015-03-25" who="VP">Transkriptionsverifizierung Seiterle 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_7716" type="Brief" subtype="Entwurf"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an François Auguste Sautter de Beauregard, Zürich, Montag, 11. März 1872</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB03_001</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Tunnelbau</term><term>Personelle Angelegenheiten</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Sautter de Beauregard François Auguste" type="sender">François Auguste Sautter de Beauregard</persName><placeName>Zürich</placeName><date when="1872-03-11">11. März 1872</date></correspAction><correspAction type="received"><placeName>Genf</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_7716_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_7716_c0">Nachträgliche Notiz oben links von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>exp</abbr>
-                                    <expan>expedirt</expan>
-                                </choice> <persName type="person" key="Lochmann">L</persName> <date when="1872-03-11">11</date> </bibl>
-          – Nachträgliche Notiz unten rechts von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1872-03-07">7. III. 72</date>. <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 212.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>, le <date when="1872-03-11">11 Mars 1872</date> </p>
+        <p rend="right" xml:id="K_7716_p1"> <note type="com" xml:id="K_7716_c0">Nachträgliche Notiz oben links von dritter Hand: <orig><choice><abbr>exp</abbr><expan>expedirt</expan></choice> <persName key="Lochmann">L</persName> <date when="1872-03-11">11</date> </orig>
+          – Nachträgliche Notiz unten rechts von dritter Hand: <orig><choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1872-03-07">7. III. 72</date>. <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 212.</orig> </note> <lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zurich</placeName>, le <date when="1872-03-11">11 Mars 1872</date> </p>
       </div>
       <div type="opener">
         <p rend="indent" xml:id="K_7716_p2">
           <lb xml:id="p1-l2"/>Monsieur</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_7716_p3">
-                <lb xml:id="p1-l3"/> <del>J'ai l'honneur de vous informer, en répon</del>
-                <lb break="no" xml:id="p1-l4"/>
-                    <del>se</del>
-                    <add xml:id="p1-l4-i1">En réponse</add> à la <seg type="ref">lettre<ref type="letter" target="K_7715"/>
-                </seg> que vous m'avez adressée sous date du <date when="1872-03-04">4 <choice>
-                            <abbr>C<hi rend="sup">t</hi> </abbr>
-                            <expan>Courant (laufenden [Monats])</expan>
-                        </choice>
-                </date>,
-        <lb xml:id="p1-l5"/>
-                    <add>je dois d'emblée vous faire observer</add> que l'Ingénieur en Chef de la Compagnie du <choice>
-                        <abbr>S.</abbr>
-                        <expan>Sankt / Sanct / Saint / San (heilig)</expan>
-                    </choice> Gothard
-        <lb xml:id="p1-l6"/>n'étant pas encore nommé, la Direction ne saurait <del>encore</del>
-                    <lb xml:id="p1-l7"/>avoir  <del>des opinions</del>
-                    <add>déjà maintenant des</add> idées tout-à-fait arrêtées sur les deux
-        <lb xml:id="p1-l8"/>questions que vous me posez.</p>
+    </front><body>
+      <p rend="indent" xml:id="K_7716_p3"><lb xml:id="p1-l3"/> <del>J'ai l'honneur de vous informer, en répon</del><lb xml:id="p1-l4" break="no"/><del>se</del> <add>En réponse</add> à la <rs>lettre<ref type="letter" target="K_7715"/></rs> que vous m'avez adressée sous date du <date when="1872-03-04">4 <choice><abbr>C<hi rend="sup">t</hi> </abbr><expan>Courant (laufenden [Monats])</expan></choice></date>,
+        <lb xml:id="p1-l5" break="no"/><add>je dois d'emblée vous faire observer</add> que l'Ingénieur en Chef de la Compagnie du <choice><abbr>S.</abbr><expan>Sankt / Sanct / Saint / San (heilig)</expan></choice> Gothard
+        <lb xml:id="p1-l6" break="no"/>n'étant pas encore nommé, la Direction ne saurait <del>encore</del> 
+        <lb xml:id="p1-l7" break="no"/>avoir  <del>des opinions</del> <add>déjà maintenant des</add> idées tout-à-fait arrêtées sur les deux
+        <lb xml:id="p1-l8" break="no"/>questions que vous me posez.</p>
       <p rend="indent" xml:id="K_7716_p4">
         <lb xml:id="p1-l9"/>En ce qui concerne la première, ce n'est que lorsqu'on
-        <lb xml:id="p1-l10"/>aura décidé <del>le</del> <add>quel</add> système <del>
-                    <supplied type="unclear">...</supplied>
-                </del> <add>sera</add> adopté pour les travaux (construc<lb break="no" xml:id="p1-l11"/>tion en régie, en entreprise ou d'après un système mixte),
-        <lb xml:id="p1-l12"/>
-                    <add xml:id="p1-l12-i1">qu'on pourra savoir s'il y a lieu d'exiger un cautionnement et</add> qu'il sera possible d'en fixer le montant. <del>du cautionnement.</del>
-                    <lb xml:id="p1-l13"/>Ce cautionnement, en tous cas considérable, sera demandé
-        <lb xml:id="p1-l14"/>je pense, <del>en espèces ou papiers-valeurs,</del> selon les usages de
-        <lb xml:id="p1-l15"/>
-                    <del>dans</del> nos contrées, en espèces ou papiers-valeurs, avec
-        <lb xml:id="p1-l16"/>bonification d'un intérêt modique sur les sommes déposées
-        <lb xml:id="p1-l17"/>en numéraire.</p>
-      <p rend="indent" xml:id="K_7716_p5">
-                <lb xml:id="p1-l18"/>Quant aux paiements, <del>je pense qu'ils auront</del> sans
+        <lb xml:id="p1-l10"/>aura décidé <del>le</del> <add>quel</add> système <del><add type="?">...</add></del> <add>sera</add> adopté pour les travaux (construc<lb xml:id="p1-l11" break="no"/>tion en régie, en entreprise ou d'après un système mixte),
+        <lb xml:id="p1-l12" break="no"/><add>qu'on pourra savoir s'il y a lieu d'exiger un cautionnement et</add> qu'il sera possible d'en fixer le montant. <del>du cautionnement.</del> 
+        <lb xml:id="p1-l13" break="no"/>Ce cautionnement, en tous cas considérable, sera demandé
+        <lb xml:id="p1-l14" break="no"/>je pense, <del>en espèces ou papiers-valeurs,</del> selon les usages de
+        <lb xml:id="p1-l15" break="no"/><del>dans</del> nos contrées, en espèces ou papiers-valeurs, avec
+        <lb xml:id="p1-l16" break="no"/>bonification d'un intérêt modique sur les sommes déposées
+        <lb xml:id="p1-l17" break="no"/>en numéraire.</p>
+      <p rend="indent" xml:id="K_7716_p5"><lb xml:id="p1-l18"/>Quant aux paiements, <del>je pense qu'ils auront</del> sans
         <lb xml:id="p1-l19"/>avoir encore d'opinion <add>tout-à-fait</add> arrêtée, je pense <del>que c'est moi</del> 
-        <lb xml:id="p1-l20"/>
-                <del>qui les ferai effectuer, d'après leur <add xml:id="p1-l20-i1">en me conformement aux</add>
-                </del> <add xml:id="p1-l20-i2">qu'ils auront lieu
+        <lb xml:id="p1-l20"/><del>qui les ferai effectuer, d'après leur <add>en me conformement aux</add></del> <add>qu'ils auront lieu
         <lb xml:id="p1-l21"/>par mois et confomèment aux</add> habitudes de notre partie
         <lb xml:id="p1-l22"/>de la Suisse. Il est probable que la retenue sera du
         <lb xml:id="p1-l23"/>dixième.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_7716_p6">
-                    <lb xml:id="p1-l24"/>Agréez, Monsieur, l'assurance de ma considération <seg type="com">distinguée.<note xml:id="K_7716_c1">Brieftext von dritter Hand ohne Unterschrift.</note>
-                    </seg> </p>
+        <p rend="indent" xml:id="K_7716_p6"><lb xml:id="p1-l24"/>Agréez, Monsieur, l'assurance de ma considération distinguée.<note type="com" xml:id="K_7716_c1">Brieftext von dritter Hand ohne Unterschrift.</note> </p>
       </div>
-      <div type="address">
-        <p rend="left" xml:id="K_7716_p7">
-                    <lb xml:id="p1-l25"/>Monsieur Sautter de Beauregard</p>
-        <p rend="right" xml:id="K_7716_p8">
-                    <lb xml:id="p1-l26"/> à <placeName type="place" key="Genf (Stadt)">Genève</placeName>
+      <div type="opener">
+        <p rend="left" xml:id="K_7716_p7"><lb xml:id="p1-l25"/>Monsieur Sautter de Beauregard</p>
+        <p rend="right" xml:id="K_7716_p8"><lb xml:id="p1-l26"/> à <placeName key="Genf (Stadt)">Genève</placeName>
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

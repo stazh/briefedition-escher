@@ -1,130 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8060" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Hugo Forbes, Zürich, Montag, April 3, 1871</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Entwurf">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_015</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Forbes Hugo" type="addressee">Hugo Forbes</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1871-04-03">Montag, April 3, 1871</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-07-18" who="NP">transkribiert
-                
-            </change>
-            <change when="2014-04-16" who="NS">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-06-18" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-06-19" who="SG">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-01" who="AW">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-10" who="CH">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-10-14" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-10-14" who="LB">Inhaltliche Qualitätsprüfung
-        umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8060" type="Brief" subtype="Entwurf"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Hugo Forbes, Zürich, Montag, 03. April 1871</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_015</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Forbes Hugo" type="sender">Hugo Forbes</persName><placeName>Zürich</placeName><date when="1871-04-03">03. April 1871</date></correspAction><correspAction type="received"><placeName>Paris</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_8060_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_8060_c0">Nachträgliche Notiz in der Mitte links von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>exp</abbr>
-                                    <expan>expedirt</expan>
-                                </choice> <persName type="person" key="Lochmann">L</persName>/3.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>, le <date when="1871-04-03">3 Avril 1871</date>.
+        <p rend="right" xml:id="K_8060_p1"> <note type="com" xml:id="K_8060_c0">Nachträgliche Notiz in der Mitte links von dritter Hand: <orig><choice><abbr>exp</abbr><expan>expedirt</expan></choice> <persName key="Lochmann">L</persName>/3.</orig> </note> <lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zurich</placeName>, le <date when="1871-04-03">3 Avril 1871</date>.
                 </p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_8060_p2">
-                    <lb xml:id="p1-l2"/>Monsieur</p>
+        <p rend="left" xml:id="K_8060_p2"><lb xml:id="p1-l2"/>Monsieur</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_8060_p3">
-                <lb xml:id="p1-l3"/>J'ai reçu votre honorée <seg type="ref">lettre<ref type="letter" target="K_8059"/>
-                </seg> du <date when="1871-03-27">27 Mars</date> <lb xml:id="p1-l4"/>dernier et je l'ai lue avec beaucoup d'intérêt. Toutefois
+    </front><body>
+      <p rend="indent" xml:id="K_8060_p3"><lb xml:id="p1-l3"/>J'ai reçu votre honorée <rs>lettre<ref type="letter" target="K_8059"/></rs> du <date when="1871-03-27">27 Mars</date> <lb xml:id="p1-l4"/>dernier et je l'ai lue avec beaucoup d'intérêt. Toutefois
         <lb xml:id="p1-l5"/>je dois vous faire observer que vos propositions partent
-        <lb xml:id="p1-l6"/>de l'idée que la Compagnie pour l'exécution et l'exploi<lb break="no" xml:id="p1-l7"/>tation du Chemin de fer par le <placeName type="place" key="St. Gotthard (Pass)">S. Gothard</placeName> est déjà
-        <lb xml:id="p1-l8"/>constituée, car ce ne serait que cette Compagnie qui
-        <lb xml:id="p1-l9"/>pourrait répondre à la question que vous voulez
-        <lb xml:id="p1-l10"/>bien m'adresser. Or, bien que cette Compagnie
-        <lb xml:id="p1-l11"/>soit en pleine formation, elle a – vu les circons<lb break="no" xml:id="p1-l12"/>tances extraordinaires dans lesquelles nous vivons, –
-        <lb xml:id="p1-l13"/>cru devoir retarder sa constitution définitive. Aussi<lb break="no" xml:id="p1-l14"/>tôt que cette dernière aura eu lieu, je ne manque<lb break="no" xml:id="p1-l15"/>rai pas de vous en informer et de vous fournir
-        <lb xml:id="p1-l16"/>ainsi l'occasion de soumettre, à cette époque, à qui
-        <lb xml:id="p1-l17"/>de droit vos propositions.
+        <lb xml:id="p1-l6"/>de l'idée que la Compagnie pour l'exécution et l'exploi<lb xml:id="p1-l7" break="no"/>tation du Chemin de fer par le <placeName key="St. Gotthard (Pass)">S. Gothard</placeName> est déjà
+        <lb xml:id="p1-l8" break="no"/>constituée, car ce ne serait que cette Compagnie qui
+        <lb xml:id="p1-l9" break="no"/>pourrait répondre à la question que vous voulez
+        <lb xml:id="p1-l10" break="no"/>bien m'adresser. Or, bien que cette Compagnie
+        <lb xml:id="p1-l11" break="no"/>soit en pleine formation, elle a – vu les circons<lb xml:id="p1-l12" break="no"/>tances extraordinaires dans lesquelles nous vivons, –
+        <lb xml:id="p1-l13" break="no"/>cru devoir retarder sa constitution définitive. Aussi<lb xml:id="p1-l14" break="no"/>tôt que cette dernière aura eu lieu, je ne manque<lb xml:id="p1-l15" break="no"/>rai pas de vous en informer et de vous fournir
+        <lb xml:id="p1-l16" break="no"/>ainsi l'occasion de soumettre, à cette époque, à qui
+        <lb xml:id="p1-l17" break="no"/>de droit vos propositions.
         </p>
-      <p rend="indent" xml:id="K_8060_p4">
-                <lb xml:id="p1-l18"/>En attendant, je prends bonne note de vos
+      <p rend="indent" xml:id="K_8060_p4"><lb xml:id="p1-l18"/>En attendant, je prends bonne note de vos
         <lb xml:id="p1-l19"/>dispositions et je n'omettrai pas d'en parler en
         <lb xml:id="p1-l20"/>temps utile aux principaux promoteurs de
         <lb xml:id="p1-l21"/>l'entreprise.
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_8060_p5">
-                    <lb xml:id="p1-l22"/>Agréez, Monsieur, l'assurance de ma considération
-        <lb xml:id="p1-l23"/>la plus distinguée. <seg type="com">
-                        <note xml:id="K_8060_c1">Brieftext von dritter Hand ohne Unterschrift.</note>
-                    </seg> </p>
+        <p rend="indent" xml:id="K_8060_p5"><lb xml:id="p1-l22"/>Agréez, Monsieur, l'assurance de ma considération
+        <lb xml:id="p1-l23"/>la plus distinguée. <note type="com" xml:id="K_8060_c1">Brieftext von dritter Hand ohne Unterschrift.</note> </p>
       </div>
-      <div type="address">
-        <p rend="left" xml:id="K_8060_p6">
-                    <lb xml:id="p1-l24"/>Monsieur le <choice>
-                        <abbr>Cap<hi rend="sup">t</hi> </abbr>
-                        <expan>Capitaine (Hauptmann)</expan>
-                    </choice> Hugo Forbes
+      <div type="opener">
+        <p rend="left" xml:id="K_8060_p6"><lb xml:id="p1-l24"/>Monsieur le <choice><abbr>Cap<hi rend="sup">t</hi> </abbr><expan>Capitaine (Hauptmann)</expan></choice> Hugo Forbes
         <lb xml:id="p1-l25"/>Messieurs Bowles, Banquiers
-        <lb xml:id="p1-l26"/>12. <choice>
-                        <abbr>r.</abbr>
-                        <expan>rue (Strasse)</expan>
-                    </choice> de la Paix. <hi rend="underline">à <placeName type="place" key="Paris (F)">Paris</placeName>
-                    </hi>
-                </p>
+        <lb xml:id="p1-l26"/>12. <choice><abbr>r.</abbr><expan>rue (Strasse)</expan></choice> de la Paix. <hi rend="underline">à <placeName key="Paris (F)">Paris</placeName></hi></p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,140 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1961" n="95" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Jakob Stämpfli, s.l., Samstag, Dezember 13, 1862</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Entwurf">
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#54*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnrückkauf</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Stämpfli Jakob" type="addressee">Jakob Stämpfli</persName>
-                    <placeName>s.l.</placeName>
-                    <date when="1862-12-13">Samstag, Dezember 13, 1862</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-06-27" who="WB">transkribiert</change>
-            <change when="2005-11-15" who="SD">ganzer Brief verifiziert</change>
-            <change when="2011-03-11" who="CF">Von Word nach XML
-        konvertiert</change>
-            <change when="2012-11-09" who="KR">Transkriptionsverifizierung
-          übertragen</change>
-            <change when="2013-07-17" who="JS">Auf Stand Edition gebracht</change>
-            <change when="2013-07-18" who="SWK">Fahnen Korrektur 1 geprüft</change>
-            <change when="2013-07-18" who="JS">Auf Stand Edition gebracht
-        2</change>
-            <change when="2013-07-19" who="SWK">Fahnen Korrektur 2 geprüft</change>
-            <change when="2013-07-19" who="SWK">Fahnen Korrektur 3 geprüft</change>
-            <change when="2013-08-08" who="OD">Auszeichnung 1 umgesetzt</change>
-            <change when="2013-08-08" who="TM">Verifizierung 1 umgesetzt</change>
-            <change when="2013-08-14" who="MB">Auszeichnung 2 umgesetzt</change>
-            <change when="2013-12-03" who="LB">Inhaltliche Qualitätsprüfung
-          umgesetzt</change>
-            <change when="2014-06-04" who="TM">Verifizierung 2 umgesetzt</change>
-            <change when="2015-03-10" who="VP">Transkriptionsverifizierung Seiterle 2 umgesetzt</change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1961" type="Brief" subtype="Entwurf"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Jakob Stämpfli, s.l., Samstag, [13. Dezember 1862]</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Gagliardi, Escher, S. 420</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#54*</idno><idno>J I.67-5.54</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnrückkauf</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Stämpfli Jakob" type="sender">Jakob Stämpfli</persName><date when="1862-12-13">[13. Dezember 1862]</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_1961_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_1961_c0">Datierung gemäss Briefkontext.</note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <choice>
-                        <abbr>M.</abbr>
-                        <expan>Mein</expan>
-                    </choice> <choice>
-                        <abbr>l.</abbr>
-                        <expan>lieb</expan>
-                    </choice> <choice>
-                        <abbr>F.</abbr>
-                        <expan>Freund(e)</expan>
-                    </choice>
+        <p rend="indent" xml:id="K_1961_p1"> <note type="com" xml:id="K_1961_c0">Datierung gemäss Briefkontext.</note> <lb xml:id="p1-l1"/>
+          <choice><abbr>M.</abbr><expan>Mein</expan></choice> <choice><abbr>l.</abbr><expan>lieb</expan></choice> <choice><abbr>F.</abbr><expan>Freund(e)</expan></choice>
         </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1961_p2">
-                    <lb xml:id="p1-l2"/>Es wird Dir nicht auffallen, wenn<lb xml:id="p1-l3"/> ich Dir<!--korr., zuvor "dir", BF, 24.06.2015 --> sage, daß die <seg type="ref">
-                        <ref type="sum" target="Wirtschaftsliberales_Zeitfenster_p30">Rückkauf der
-            Eisenbahnen durch den Bund<!--→ S. 17,-->
-                        </ref>
-                        <ref type="sum" target="Eisenbahngeschichte_d1.8"><!-- 60–62--></ref>
-                    </seg> Publication Deiner<lb xml:id="p1-l4"/> <seg type="com">Brochüre <choice>
-                            <abbr>betr.</abbr>
-                            <expan>betreffend</expan>
-                        </choice> d<supplied>en</supplied> <choice>
-                            <abbr>Rückkf</abbr>
-                            <expan>Rückkauf</expan>
-                        </choice> d. Eisenbahn<supplied>en</supplied>
-                        <note xml:id="K_1961_c1">
-                            <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Stämpfli, Rückkauf</ref>.</note>
-                    </seg> <lb xml:id="p1-l5"/> mich nach d<supplied>en</supplied> Äußer<supplied>un</supplied>g<supplied>en</supplied>,
-        die Du letzt<lb break="no" xml:id="p1-l6"/>hin geg<supplied>en</supplied> mich gethan, in Erstaun<supplied>en</supplied>
-          ge<lb break="no" xml:id="p1-l7"/>setzt hat. Ich wäre Dir zu Dank<lb xml:id="p1-l8"/> verpflichtet, wenn
-        Du mir <seg type="ref">
-                        <add>durch weitere Aufschlüsse</add>
-                        <ref type="letter" target="K_1966"><!--→ Nr. 98--></ref>
-                    </seg> die Mit<lb break="no" xml:id="p1-l9"/>tel an die Hand<lb xml:id="p1-l10"/>
-        geb<supplied>en</supplied> würdest, um d<supplied>en</supplied>
-                    <add>Widerspruch, der mir</add> zur Zeit<lb xml:id="p1-l11"/> noch
-          zwischen<lb xml:id="p1-l12"/> dies<supplied>en</supplied> Äußer<supplied>un</supplied>g<supplied>en</supplied>  &amp;
-        jener Publication<lb xml:id="p1-l13"/> zu besteh<supplied>en</supplied> scheint, <del>zu</del>
-          lös<supplied>en</supplied>
-                    <add>zu könn<supplied>en</supplied>
-                    </add>. Dies<supplied>en</supplied>
-                    <lb xml:id="p1-l14"/>
-        Widerspruch wünschte ich aber ver<lb break="no" xml:id="p1-l15"/>schwind<supplied>en</supplied> zu seh<supplied>en</supplied>, um
-          d<supplied>en</supplied> Vorschlag,<lb xml:id="p1-l16"/> den Du mir
-            b<supplied>ei</supplied>
-                    <seg type="ref">
-                        <choice>
-                            <abbr>Übersendg.</abbr>
-                            <expan>Übersendung</expan>
-                        </choice> Deiner<lb xml:id="p1-l17"/> Brochüre<ref type="letter" target="K_1959"><!--→ Nr. 94--></ref>
-                    </seg> machst &amp; der sonst ganz<lb xml:id="p1-l18"/> den Gefühlen, welche ich Dir gegenüber<lb xml:id="p1-l19"/> hege, entspricht,
-        rückhaltlos annehm<supplied>en</supplied>
-                    <pb n="2"/>
-                    <lb xml:id="p2-l1"/> zu können.</p>
-      <p rend="indent" xml:id="K_1961_p3">
-                    <lb xml:id="p2-l2"/>Daß Deine <choice>
-                        <abbr>Anregg.</abbr>
-                        <expan>Anregung</expan>
-                    </choice> an mir<lb xml:id="p2-l3"/> einen
+    </front><body>
+      <p rend="indent" xml:id="K_1961_p2"><lb xml:id="p1-l2"/>Es wird Dir nicht auffallen, wenn<lb xml:id="p1-l3"/> ich Dir<!--korr., zuvor "dir", BF, 24.06.2015 --> sage, daß die <rs><ref type="sum" target="Wirtschaftsliberales_Zeitfenster_p30">Rückkauf der
+            Eisenbahnen durch den Bund<!--→ S. 17,--></ref><ref type="sum" target="Eisenbahngeschichte_d1.8"><!-- 60–62--></ref></rs> Publication Deiner<lb xml:id="p1-l4"/> Brochüre <choice><abbr>betr.</abbr><expan>betreffend</expan></choice> d<add>en</add> <choice><abbr>Rückkf</abbr><expan>Rückkauf</expan></choice> d. Eisenbahn<add>en</add><note type="com" xml:id="K_1961_c1"><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Stämpfli, Rückkauf</ref>.</note> <lb xml:id="p1-l5"/> mich nach d<add>en</add> Äußer<add>un</add>g<add>en</add>,
+        die Du letzt<lb xml:id="p1-l6" break="no"/>hin geg<add>en</add> mich gethan, in Erstaun<add>en</add>
+          ge<lb xml:id="p1-l7" break="no"/>setzt hat. Ich wäre Dir zu Dank<lb xml:id="p1-l8" break="no"/> verpflichtet, wenn
+        Du mir <rs><add>durch weitere Aufschlüsse</add><ref type="letter" target="K_1966"><!--→ Nr. 98--></ref></rs> die Mit<lb xml:id="p1-l9" break="no"/>tel an die Hand<lb xml:id="p1-l10" break="no"/>
+        geb<add>en</add> würdest, um d<add>en</add> <add>Widerspruch, der mir</add> zur Zeit<lb xml:id="p1-l11" break="no"/> noch
+          zwischen<lb xml:id="p1-l12" break="no"/> dies<add>en</add> Äußer<add>un</add>g<add>en</add>  &amp;
+        jener Publication<lb xml:id="p1-l13" break="no"/> zu besteh<add>en</add> scheint, <del>zu</del>
+          lös<add>en</add> <add>zu könn<add>en</add></add>. Dies<add>en</add> <lb xml:id="p1-l14" break="no"/>
+        Widerspruch wünschte ich aber ver<lb xml:id="p1-l15" break="no"/>schwind<add>en</add> zu seh<add>en</add>, um
+          d<add>en</add> Vorschlag,<lb xml:id="p1-l16" break="no"/> den Du mir
+            b<add>ei</add> <rs><choice><abbr>Übersendg.</abbr><expan>Übersendung</expan></choice> Deiner<lb xml:id="p1-l17"/> Brochüre<ref type="letter" target="K_1959"><!--→ Nr. 94--></ref></rs> machst &amp; der sonst ganz<lb xml:id="p1-l18" break="no"/> den Gefühlen, welche ich Dir gegenüber<lb xml:id="p1-l19" break="no"/> hege, entspricht,
+        rückhaltlos annehm<add>en</add> <pb n="2"/><lb xml:id="p2-l1" break="no"/> zu können.</p>
+      <p rend="indent" xml:id="K_1961_p3"><lb xml:id="p2-l2"/>Daß Deine <choice><abbr>Anregg.</abbr><expan>Anregung</expan></choice> an mir<lb xml:id="p2-l3"/> einen
         entschiedenen Gegner finden<lb xml:id="p2-l4"/> wird, siehst Du voraus &amp; kann<lb xml:id="p2-l5"/> ich <add>Dir</add> nur bestätigen.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_1961_p4">
-                    <lb xml:id="p2-l6"/>Dein</p>
+        <p rend="center" xml:id="K_1961_p4"><lb xml:id="p2-l6"/>Dein</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

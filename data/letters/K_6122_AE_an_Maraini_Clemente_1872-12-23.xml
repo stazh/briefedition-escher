@@ -1,212 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6122" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Clemente Maraini, Zürich, Montag, Dezember 23, 1872</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Entwurf">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_006</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Presse (allgemein)</item>
-                        <item>Demissionen</item>
-                        <item>Bundesrat</item>
-                        <item>Personelle Angelegenheiten</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Maraini Clemente" type="addressee">Clemente Maraini</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1872-12-23">Montag, Dezember 23, 1872</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-01-13" who="NP">transkribiert
-                
-            </change>
-            <change when="2014-06-25" who="XR">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-01" who="MB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-10" who="MB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-18" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-            <change when="2014-07-25" who="SWK">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-07-28" who="IB">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-11-07" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-07" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="left" xml:id="K_6122_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_6122_c0">Nachträgliche Notiz in der Mitte links auf Seite 1 von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>exp.</abbr>
-                                    <expan>expedirt</expan>
-                                </choice> <persName type="person" key="Lochmann">L</persName>/<date when="1872-12-23">23</date>
-                            </bibl>. 
-          – Nachträgliche Notiz unten rechts auf Seite 1 von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1872-07-19">19. XII. 72</date>. <choice>
-                                    <abbr>N</abbr>
-                                    <expan>Nummer</expan>
-                                </choice> 943</bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>Monsieur C. Maraini, Ingénieur
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6122" type="Brief" subtype="Entwurf"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Clemente Maraini, Zürich, Montag, 23. Dezember 1872</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_006</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Presse (allgemein)</term><term>Demissionen</term><term>Bundesrat</term><term>Personelle Angelegenheiten</term><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Maraini Clemente" type="sender">Clemente Maraini</persName><placeName>Zürich</placeName><date when="1872-12-23">23. Dezember 1872</date></correspAction><correspAction type="received"><placeName>Rom</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
+        <p rend="left" xml:id="K_6122_p1"> <note type="com" xml:id="K_6122_c0">Nachträgliche Notiz in der Mitte links auf Seite 1 von dritter Hand: <orig><choice><abbr>exp.</abbr><expan>expedirt</expan></choice> <persName key="Lochmann">L</persName>/<date when="1872-12-23">23</date></orig>. 
+          – Nachträgliche Notiz unten rechts auf Seite 1 von dritter Hand: <orig><choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1872-07-19">19. XII. 72</date>. <choice><abbr>N</abbr><expan>Nummer</expan></choice> 943</orig>.</note> <lb xml:id="p1-l1"/>Monsieur C. Maraini, Ingénieur
           <lb xml:id="p1-l2"/>37 Piazza Trajana
-<lb xml:id="p1-l3"/>
-                    <placeName type="place" key="Rom (I)">Rome</placeName> <seg type="com">
-                        <note xml:id="K_6122_c1">Adresse unten links auf Seite 1.</note>
-                    </seg> </p>
+<lb xml:id="p1-l3"/><placeName key="Rom (I)">Rome</placeName> <note type="com" xml:id="K_6122_c1">Adresse unten links auf Seite 1.</note> </p>
       </div>
       <div type="dateline">
-        <p rend="right" xml:id="K_6122_p2">
-                    <lb xml:id="p1-l4"/>
-          <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>, le <date when="1872-12-23">23 <choice>
-                            <abbr>Déc.</abbr>
-                            <expan>Décembre (Dezember)</expan>
-                        </choice> 1872</date> </p>
+        <p rend="right" xml:id="K_6122_p2"><lb xml:id="p1-l4"/>
+          <placeName key="Zürich (Stadt)">Zurich</placeName>, le <date when="1872-12-23">23 <choice><abbr>Déc.</abbr><expan>Décembre (Dezember)</expan></choice> 1872</date> </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_6122_p3">
-                    <lb xml:id="p1-l5"/>Cher Monsieur</p>
+        <p rend="indent" xml:id="K_6122_p3"><lb xml:id="p1-l5"/>Cher Monsieur</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_6122_p4">
-                <lb xml:id="p1-l6"/>
+    </front><body>
+      <p rend="indent" xml:id="K_6122_p4"><lb xml:id="p1-l6"/>
 J'ai bien reçu 
  les diverses communications
 	<lb xml:id="p1-l7"/>que vous m'avez faites par lettres et par télégraphe et
 	<lb xml:id="p1-l8"/>je les ai lues avec <add>grand</add> intérêt. La Direction y a vu avec
 	<lb xml:id="p1-l9"/>satisfaction tout ce que vous avez fait pour la cause du
-	<lb xml:id="p1-l10"/>
-                <placeName type="place" key="St. Gotthard (Pass)">Gothard</placeName> et, approuvant pleinement la ligne de conduite
-	<lb xml:id="p1-l11"/>que vous avez suivie, elle vous remercie d'avoir <del>défen<lb break="no" xml:id="p1-l12"/>du</del> soutenu cette cause avec autant d'assiduité que
+	<lb xml:id="p1-l10"/><placeName key="St. Gotthard (Pass)">Gothard</placeName> et, approuvant pleinement la ligne de conduite
+	<lb xml:id="p1-l11"/>que vous avez suivie, elle vous remercie d'avoir <del>défen<lb xml:id="p1-l12" break="no"/>du</del> soutenu cette cause avec autant d'assiduité que
 	<lb xml:id="p1-l13"/>d'intelligence. Quant à vos articles sur la question du
-	<lb xml:id="p1-l14"/>
-                <placeName type="place" key="St. Gotthard (Pass)">Gothard</placeName>, ils dépeignent d'une manière frappante l'intri<lb break="no" xml:id="p1-l15"/>gue qui s'est tramée en <placeName type="place" key="Italien (Königreich)">Italie</placeName>, et ont mérité l'at<lb break="no" xml:id="p1-l16"/>tention toute spéciale de la Direction. Selon votre désir,
-	<lb xml:id="p1-l17"/>nous avons pourvu à leur insertion dans l'un de nos
-	<lb xml:id="p1-l18"/>principaux journaux de langue française, afin d'éclairer
-	<lb xml:id="p1-l19"/>l'opinion sur cette question que nos adversaires s'efforcent
-	<lb xml:id="p1-l20"/>d'embrouiller.
+	<lb xml:id="p1-l14"/><placeName key="St. Gotthard (Pass)">Gothard</placeName>, ils dépeignent d'une manière frappante l'intri<lb xml:id="p1-l15" break="no"/>gue qui s'est tramée en <placeName key="Italien (Königreich)">Italie</placeName>, et ont mérité l'at<lb xml:id="p1-l16" break="no"/>tention toute spéciale de la Direction. Selon votre désir,
+	<lb xml:id="p1-l17" break="no"/>nous avons pourvu à leur insertion dans l'un de nos
+	<lb xml:id="p1-l18" break="no"/>principaux journaux de langue française, afin d'éclairer
+	<lb xml:id="p1-l19" break="no"/>l'opinion sur cette question que nos adversaires s'efforcent
+	<lb xml:id="p1-l20" break="no"/>d'embrouiller.
 	</p>
-      <p rend="indent" xml:id="K_6122_p5">
-                <lb xml:id="p1-l21"/>La Direction comprend parfaitement que dans
-	<lb xml:id="p1-l22"/>les circonstances actuelles vous ayez cru devoir de<lb break="no" xml:id="p1-l23"/>mander votre démission; mais d'un autre côté elle
-	<lb xml:id="p1-l24"/>regretterait infiniment d'être privée de vos services
-	<lb xml:id="p1-l25"/>qu'elle apprécie au plus haut degré. <del>On outre, elle
-	    <lb xml:id="p1-l26"/>a</del>
-                    <add>Elle a d'ailleurs</add> la conviction que l'état de choses actuel ne saurait
-	<lb xml:id="p1-l27"/>guère se prolonger et que le Gouvernement <placeName type="place" key="Italien (Königreich)">Italien</placeName>,
-	    <lb xml:id="p1-l28"/>poussé par l'opinion publique, finira par reconnaître<note type="transcript">Kustode: que</note>
-                    <pb n="2"/>
-                    <lb xml:id="p2-l1"/>que la conduite du Conseil fédéral et de la Direction
-	<lb xml:id="p2-l2"/>du Gothard, défendue par vous, cher Monsieur, en
-	<lb xml:id="p2-l3"/>votre qualité de Représentant de la Compagnie, ne
-	<lb xml:id="p2-l4"/>pouvait être différente de ce qu'elle a été, et que
-	<lb xml:id="p2-l5"/>par suite de cela votre position vis-à-vis du
-	<lb xml:id="p2-l6"/>monde officiel ne tardera pas à s'améliorer
-	<lb xml:id="p2-l7"/>sensiblement.
+      <p rend="indent" xml:id="K_6122_p5"><lb xml:id="p1-l21"/>La Direction comprend parfaitement que dans
+	<lb xml:id="p1-l22"/>les circonstances actuelles vous ayez cru devoir de<lb xml:id="p1-l23" break="no"/>mander votre démission; mais d'un autre côté elle
+	<lb xml:id="p1-l24" break="no"/>regretterait infiniment d'être privée de vos services
+	<lb xml:id="p1-l25" break="no"/>qu'elle apprécie au plus haut degré. <del>On outre, elle
+	    <lb xml:id="p1-l26"/>a</del> <add>Elle a d'ailleurs</add> la conviction que l'état de choses actuel ne saurait
+	<lb xml:id="p1-l27" break="no"/>guère se prolonger et que le Gouvernement <placeName key="Italien (Königreich)">Italien</placeName>,
+	    <lb xml:id="p1-l28" break="no"/>poussé par l'opinion publique, finira par reconnaître<note type="transcript">Kustode: que</note> <pb n="2"/><lb xml:id="p2-l1" break="no"/>que la conduite du Conseil fédéral et de la Direction
+	<lb xml:id="p2-l2" break="no"/>du Gothard, défendue par vous, cher Monsieur, en
+	<lb xml:id="p2-l3" break="no"/>votre qualité de Représentant de la Compagnie, ne
+	<lb xml:id="p2-l4" break="no"/>pouvait être différente de ce qu'elle a été, et que
+	<lb xml:id="p2-l5" break="no"/>par suite de cela votre position vis-à-vis du
+	<lb xml:id="p2-l6" break="no"/>monde officiel ne tardera pas à s'améliorer
+	<lb xml:id="p2-l7" break="no"/>sensiblement.
 	</p>
-      <p rend="indent" xml:id="K_6122_p6">
-                <lb xml:id="p2-l8"/>Dans ces circonstances, la Direction croit devoir
+      <p rend="indent" xml:id="K_6122_p6"><lb xml:id="p2-l8"/>Dans ces circonstances, la Direction croit devoir
 	<lb xml:id="p2-l9"/>se borner pour le moment à prendre acte de votre
 	<lb xml:id="p2-l10"/>demande de démission, prête à attester, si les circonstances
 	<lb xml:id="p2-l11"/>l'exigent, que vous lui avez adressé cette demande;
 	<lb xml:id="p2-l12"/>mais elle désire attendre, avant de prendre une
 	<lb xml:id="p2-l13"/>décision à cet égard, une époque où la situation
-        <lb xml:id="p2-l14"/>en <placeName type="place" key="Italien (Königreich)">Italie</placeName> aura pris la tournure que nous espérons. <seg type="com">
-                    <note xml:id="K_6122_c2">Nachträgliche Notiz von dritter Hand mit Bleistift: <bibl>Kein <supplied type="unclear">Alinea</supplied>
-                        </bibl>.</note>
-                </seg> <lb xml:id="p2-l15"/>
-                <del>Nous sommes</del> <add>La Direction est</add> persuadée que dans l'intervalle vous
+        <lb xml:id="p2-l14"/>en <placeName key="Italien (Königreich)">Italie</placeName> aura pris la tournure que nous espérons. <note type="com" xml:id="K_6122_c2">Nachträgliche Notiz von dritter Hand mit Bleistift: <orig>Kein <add type="?">Alinea</add></orig>.</note> <lb xml:id="p2-l15"/><del>Nous sommes</del> <add>La Direction est</add> persuadée que dans l'intervalle vous
 	<lb xml:id="p2-l16"/>voudrez bien continuer à agir en faveur de notre
 	<lb xml:id="p2-l17"/>Compagnie, comme si votre démarche n'était pas
 	<lb xml:id="p2-l18"/>avenue.
 	</p>
-      <p rend="indent" xml:id="K_6122_p7">
-                <lb xml:id="p2-l19"/>
+      <p rend="indent" xml:id="K_6122_p7"><lb xml:id="p2-l19"/>
         <del>La Direction espère</del>
         <add>Nous espérions</add> que vous ne verrez pas
 	<lb xml:id="p2-l20"/>d'empêchement à vous déclarer d'accord avec <del>notre</del> <add>cette</add> <lb xml:id="p2-l21"/>manière d'envisager la question.
 	</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_6122_p8">
-                    <lb xml:id="p2-l22"/>Je saisis avec plaisir cette occasion, <del>p</del> cher Monsieur,
+        <p rend="indent" xml:id="K_6122_p8"><lb xml:id="p2-l22"/>Je saisis avec plaisir cette occasion, <del>p</del> cher Monsieur,
 	<lb xml:id="p2-l23"/>pour vous renouveler l'expression de mes sentiments
-	<lb xml:id="p2-l24"/>amicaux <seg type="com">
-                        <note xml:id="K_6122_c3">Brieftext von dritter Hand ohne Unterschrift.</note>
-                    </seg> </p>
+	<lb xml:id="p2-l24"/>amicaux <note type="com" xml:id="K_6122_c3">Brieftext von dritter Hand ohne Unterschrift.</note> </p>
       </div>
       <postscript>
-        <p rend="left" xml:id="K_6122_p9">
-                    <lb xml:id="p2-l25"/>
-          <choice>
-                        <abbr>P. S.</abbr>
-                        <expan>Post Scriptum (nach dem Geschriebenen)</expan>
-                    </choice> En ce qui concerne <choice>
-                        <abbr>M.</abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> l'Ingénieur <persName type="person" key="Bruder Luigi Luzzattis">Luzzatti</persName>,
-    <lb xml:id="p2-l26"/>nous regrettons qu'il ne se soit pas présenté encore<note type="transcript">Kustode: de</note> <pb n="3"/>
-                    <lb xml:id="p3-l1"/>de place que nous puissions convenablement lui
+        <p rend="left" xml:id="K_6122_p9"><lb xml:id="p2-l25"/>
+          <choice><abbr>P. S.</abbr><expan>Post Scriptum (nach dem Geschriebenen)</expan></choice> En ce qui concerne <choice><abbr>M.</abbr><expan>Monsieur (Herr)</expan></choice> l'Ingénieur <persName key="Bruder Luigi Luzzattis">Luzzatti</persName>,
+    <lb xml:id="p2-l26"/>nous regrettons qu'il ne se soit pas présenté encore<note type="transcript">Kustode: de</note> <pb n="3"/><lb xml:id="p3-l1"/>de place que nous puissions convenablement lui
 <lb xml:id="p3-l2"/>offrir et, tout en vous retournant les certificats
 <lb xml:id="p3-l3"/>qu'il réclame, nous vous prions de lui faire savoir
 <lb xml:id="p3-l4"/>que nous <del>ne</del> <add>n'en</add> conservons pas moins son nom dans
 <lb xml:id="p3-l5"/>nos registres pour le cas où il se présenterait
 <lb xml:id="p3-l6"/>quelque chose à l'avenir.</p>
       </postscript>
-      <div type="attachment">
-                <p rend="left" xml:id="K_6122_p10">
-                    <lb xml:id="p3-l7"/>
+      <div type="attachment"><p rend="left" xml:id="K_6122_p10"><lb xml:id="p3-l7"/>
         <hi rend="underline">Annexes</hi>
-        <lb xml:id="p3-l8"/>Certificats de <choice>
-                        <abbr>M.</abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> l'<choice>
-                        <abbr>Ing.</abbr>
-                        <expan>Ingenieur</expan>
-                    </choice> <persName type="person" key="Bruder Luigi Luzzattis">Luzzatti</persName>.</p> </div>
-    </back>
-  </text>
-</TEI>
+        <lb xml:id="p3-l8"/>Certificats de <choice><abbr>M.</abbr><expan>Monsieur (Herr)</expan></choice> l'<choice><abbr>Ing.</abbr><expan>Ingenieur</expan></choice> <persName key="Bruder Luigi Luzzattis">Luzzatti</persName>.</p> </div>
+    </back></text></TEI>

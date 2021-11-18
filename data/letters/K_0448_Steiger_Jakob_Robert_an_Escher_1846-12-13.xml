@@ -1,315 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0448" n="45" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jakob Robert Steiger an Alfred Escher, Winterthur, Sonntag, Dezember 13, 1846</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#470*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Freischaren</item>
-                        <item>Berufsleben</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Steiger Jakob Robert" type="sender">Jakob Robert Steiger</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Winterthur</placeName>
-                    <date when="1846-12-13">Sonntag, Dezember 13, 1846</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2009-06-15" who="BK">Transkribiert</change>
-            <change when="2009-07-24" who="BK">provisorisch kommentiert</change>
-            <change when="2010-05-21" who="BK">Transkriptionsverifizierung T. Binder umgesetzt</change>
-            <change when="2010-07-29" who="BK">Korrekturen 1 Haberthür übertragen</change>
-            <change when="2010-11-16" who="BK">Korrekturen 2 Haberthür übertragen</change>
-            <change when="2011-06-23" who="AH">e-Edition: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-06-23" who="TM">e-Edition: Verifizierung 1 umgesetzt</change>
-            <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen umgesetzt
-</change>
-            <change when="2011-07-26" who="HA">e-Edition: Auszeichnung 2 umgesetzt</change>
-            <change when="2011-07-28" who="HA">e-Edition: Verifizierung 2 umgesetzt</change>
-            <change when="2015-03-09" who="CA">e-Edition: Transkriptionsverifizierung Seiterle 2 umgesetzt</change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front><!--<printedheader><p id="K_0448_p1" rend="left"><lb id="p1-l1"/><idx type="place" norm="Winterthur">WINTERTHUR</idx> </p></printedheader>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0448" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jakob Robert Steiger an Alfred Escher, Winterthur, Sonntag, 13. Dezember 1846</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#470*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Freischaren</term><term>Berufsleben</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Steiger Jakob Robert" type="addressee">Jakob Robert Steiger</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Winterthur</placeName><date when="1846-12-13">13. Dezember 1846</date></correspAction></correspDesc></profileDesc></teiHeader><text><front><!--<printedheader><p id="K_0448_p1" rend="left"><lb id="p1-l1"/><idx type="place" norm="Winterthur">WINTERTHUR</idx> </p></printedheader>-->
       <div type="dateline">
-        <p rend="center" xml:id="K_0448_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Winterthur">Winterthur</placeName> den <date when="1846-12-13">13 <choice>
-                            <abbr>
-                                <hi>Dec</hi>.</abbr>
-                            <expan>December</expan>
-                        </choice> 1846</date>.</p>
+        <p rend="center" xml:id="K_0448_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Winterthur">Winterthur</placeName> den <date when="1846-12-13">13 <choice><abbr><hi>Dec</hi>.</abbr><expan>December</expan></choice> 1846</date>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_0448_p2">
-                    <lb xml:id="p1-l2"/>Verehrtester Herr <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Freund!</p>
+        <p rend="indent" xml:id="K_0448_p2"><lb xml:id="p1-l2"/>Verehrtester Herr <choice><abbr>u</abbr><expan>und</expan></choice> Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_0448_p3">
-                    <lb xml:id="p1-l3"/>
-Ich war sonst entschloßen, nie mehr öffentlich in die Politik einzu<lb break="no" xml:id="p1-l4"/>greifen. 
-Da ereignete es sich, daß <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> Oberst <seg type="ref">
-                        <persName type="person" key="Weiss Heinrich">Weiß</persName>
-                        <ref type="kbp">→ Heinrich Weiss</ref>
-                    </seg> sich von der Redaction<lb xml:id="p1-l5"/>
-des Landboten zurükzog <note type="transcript">sic!</note>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ein neues Blatt gründen <seg type="com">will.<note xml:id="K_0448_c1">
-                            <persName type="person" key="Weiss Heinrich">Weiss</persName> gründete die «<placeName type="place" key="Winterthur">Winterthurer</placeName> Zeitung», die vom <date when="1847-01-04">4. Januar 1847</date> bis zum <date when="1848-06-22">22. Juni 1848</date> zweimal wöchentlich erschien. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Blaser, Bibliographie</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 1137.</note>
-                    </seg> Die Landboten<lb break="no" xml:id="p1-l6"/>gesellschaft
- war nun in einiger Verlegenheit. Es drohte dem einzigen liberalen<lb xml:id="p1-l7"/>
-Volksblatt des Kantons <placeName type="place" key="Zürich">Zürich</placeName> Gefahr, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> da entschloß ich mich – wie früher<lb xml:id="p1-l8"/>
-den <seg type="com">Eidgenoßen<note xml:id="K_0448_c2">Steiger war 1834–1844 Redaktor des «Eidgenossen».</note>
-                    </seg> von <placeName type="place" key="Luzern">Luzern</placeName>, jetzt wieder, wenigstens bis ein geeigneter<lb xml:id="p1-l9"/>
-Redactor wird gefunden sein – neben einer großen ärztlichen Praxis<lb xml:id="p1-l10"/>
-        die Redaction des Innlandes <note type="transcript">sic!</note>
-                    <del>zu</del> – das heißt, des schweizerischen Theils – zu<lb xml:id="p1-l11"/>
-        übernehmen. Hierinn <note type="transcript">sic!</note> fühle ich aber eine große Schwäche hinsichtlich<lb xml:id="p1-l12"/>
-des Kantons <placeName type="place" key="Zürich">Zürich</placeName>, der mir weit unbekannter hinsichtlich der Personen<lb xml:id="p1-l13"/>
-                    <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> speziellen Verhältniße ist, als <choice>
-                        <abbr>z. B.</abbr>
-                        <expan>zum Beispiel</expan>
-                    </choice> der Kanton <placeName type="place" key="Bern">Bern</placeName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <placeName type="place" key="Aargau">Aargau</placeName>.<lb xml:id="p1-l14"/>
-Dieses hätte mich wirklich von der Uebernahme abgehalten, wenn ich nicht<lb xml:id="p1-l15"/>
-        voraussetzen konnte, daß gerade Sie, <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> Bürgermeister <seg type="ref">
-                        <persName type="person" key="Furrer Jonas">Furrer</persName>
-                        <ref type="kbp">→ Jonas Furrer</ref>
-                    </seg>, <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <seg type="ref">
-                        <persName type="person" key="Rüttimann Johann Jakob">Rüttimann</persName>
-                        <ref type="kbp">→ Johann Jakob Rüttimann</ref>
-                    </seg>, <lb xml:id="p1-l16"/>
-                    <seg type="ref">
-                        <persName type="person" key="Bollier Rudolf">Bollier</persName>
-                        <ref type="kbp">→ Rudolf Bollier</ref>
-                    </seg>, <seg type="com">
-                        <persName type="person" key="Zehnder Ulrich">Zehnder</persName>
-                        <note xml:id="K_0448_c3">
-                            <persName type="person" key="Zehnder Ulrich">Ulrich Zehnder</persName> (1798–1877), Amtsbürgermeister und Grossrat (<placeName type="place" key="Zürich">ZH</placeName>).</note>
-                    </seg>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> andere, einsehend die große Wichtigkeit, wochentlich <note type="transcript">sic!</note>
-                    <lb xml:id="p1-l17"/>
-Einmal zu vielen tausenden im Volke zu sprechen – mir in<lb xml:id="p1-l18"/>
-den <placeName type="place" key="Zürich">zürcherischen</placeName> Angelegenheiten beispringen würden, um ein System<lb xml:id="p1-l19"/>
-        zu vertheidigen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> aufrecht zu halten, dem ich persöhnlich <note type="transcript">sic!</note> so Vieles zu<lb xml:id="p1-l20"/>
-verdanken habe, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> das in dieser verhängnißvollen Zukunft<lb xml:id="p1-l21"/>
-der einzige Anker sein wird <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> muß, an dem sich das Schiff der<lb xml:id="p1-l22"/>
-liberalen Schweiz festhalten kann <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> darf. – In dieser vertrauens<pb n="2"/>
-                    <lb xml:id="p2-l1"/>vollen 
-Voraussetzung schreibe ich an Sie, um Sie zu bitten, erstens statt<lb xml:id="p2-l2"/>
-meiner bei den oben genannten <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> andern Herren, die schreiben können<lb xml:id="p2-l3"/>
-                    <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> schreiben wollen, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> die dazu einen Beruf haben oder fühlen, das Ansuchen<lb xml:id="p2-l4"/>
-zu stellen, mir wöchentlich über irgend einen Gegenstand, der das Volk<lb xml:id="p2-l5"/>
-intereßirt, oder worüber man dasselbe aufzuklären <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> zu belehren<lb xml:id="p2-l6"/>
-wünschte, mitzutheilen, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> zwar vorzüglich im Anfange mich in meinem<lb xml:id="p2-l7"/>
-gewiß nicht so ganz leichten Unternehmen zu unterstützen. Es versteht<lb xml:id="p2-l8"/>
-sich wohl von selbst, daß ich nicht wünschen darf, daß Jeder wochentlich<lb xml:id="p2-l9"/>
-Einmal schreibe<del>n</del>; sondern ich bin zufrieden, wenn ich wochentlich nur<lb xml:id="p2-l10"/>
-Einen Aufsatz von Allen zusammengerechnet erhalten würde, so daß auch<lb xml:id="p2-l11"/>
-der Einzelne mit Mühe nicht überhäuft würde, wenn er sich vornehmen,<lb xml:id="p2-l12"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> den Vorsatz auch ausführen wollte, <hi rend="underline">monatlich</hi> (das ist doch nicht viel)<lb xml:id="p2-l13"/>
-nur Einmal zu schreiben. Der bisherige Landbote hatte nach meiner<lb xml:id="p2-l14"/>
-        Ansicht darinn <note type="transcript">sic!</note> gefehlt, daß er zu wenige Mitarbeiter über den Kanton<lb xml:id="p2-l15"/>
-                    <placeName type="place" key="Zürich">Zürich</placeName> hatte, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> so mußte er etwas monoton werden. Denn wenn immer<lb xml:id="p2-l16"/>
-        nur derselbe Vogel im Walde durch dik <note type="transcript">sic!</note>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> dünn singt, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> wär' es eine Nachtigall –<lb xml:id="p2-l17"/>
-so muß am Ende das Ding langweilen; <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> so war's, nach meinem Urtheil,<lb xml:id="p2-l18"/>
-        beim Landboten. Sodann fehlte ihm eine jugentliche <note type="transcript">sic!</note> Frische; er sprach zu<lb xml:id="p2-l19"/>
-prosaisch zum Volke. Einige Bilder, poetische sogar, die das Gemüth ergreifen, wirken<lb xml:id="p2-l20"/>
-        oft beßer, als bloße verständige, kahle Reden; daß <note type="transcript">sic!</note> Volk muß oft ebenso sehr<lb xml:id="p2-l21"/>
-überredet, als überzeugt werden, wohlverstanden die Ueberredung muß die Ueber<lb break="no" xml:id="p2-l22"/>zeugung 
-unterstützen; Endlich sollte ein Volksblatt möglichst kurze, aber vollständige<lb xml:id="p2-l23"/>
-        bündige Artikel bringen. <seg type="com">
-                        <persName type="person" key="Bürkli Wilhelm">Bürkli</persName>
-                        <note xml:id="K_0448_c4">
-                            <persName type="person" key="Bürkli Wilhelm">Wilhelm Bürkli</persName> (1787–1852), Redaktor der «<placeName type="place" key="Zürich">Züricher</placeName> Freitagszeitung».</note>
-                    </seg>
-                    <del>ha</del> ist darinn <note type="transcript">sic!</note> nicht ganz ohne Takt; <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> darum<lb xml:id="p2-l24"/>
-zählt er immer noch so viele Abonnenten, während der Landbote in der<lb xml:id="p2-l25"/>
+    </front><body>
+      <p rend="left" xml:id="K_0448_p3"><lb xml:id="p1-l3"/>
+Ich war sonst entschloßen, nie mehr öffentlich in die Politik einzu<lb xml:id="p1-l4" break="no"/>greifen. 
+Da ereignete es sich, daß <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> Oberst <rs><persName key="Weiss Heinrich">Weiß</persName></rs> sich von der Redaction<lb xml:id="p1-l5" break="no"/>
+des Landboten zurükzog <note type="transcript">sic!</note> <choice><abbr>u.</abbr><expan>und</expan></choice> ein neues Blatt gründen will.<note type="com" xml:id="K_0448_c1"><persName key="Weiss Heinrich">Weiss</persName> gründete die «<placeName key="Winterthur">Winterthurer</placeName> Zeitung», die vom <date when="1847-01-04">4. Januar 1847</date> bis zum <date when="1848-06-22">22. Juni 1848</date> zweimal wöchentlich erschien. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Blaser, Bibliographie</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 1137.</note> Die Landboten<lb xml:id="p1-l6" break="no"/>gesellschaft
+ war nun in einiger Verlegenheit. Es drohte dem einzigen liberalen<lb xml:id="p1-l7" break="no"/>
+Volksblatt des Kantons <placeName key="Zürich">Zürich</placeName> Gefahr, <choice><abbr>u.</abbr><expan>und</expan></choice> da entschloß ich mich – wie früher<lb xml:id="p1-l8" break="no"/>
+den Eidgenoßen<note type="com" xml:id="K_0448_c2">Steiger war 1834–1844 Redaktor des «Eidgenossen».</note> von <placeName key="Luzern">Luzern</placeName>, jetzt wieder, wenigstens bis ein geeigneter<lb xml:id="p1-l9" break="no"/>
+Redactor wird gefunden sein – neben einer großen ärztlichen Praxis<lb xml:id="p1-l10" break="no"/>
+        die Redaction des Innlandes <note type="transcript">sic!</note> <del>zu</del> – das heißt, des schweizerischen Theils – zu<lb xml:id="p1-l11" break="no"/>
+        übernehmen. Hierinn <note type="transcript">sic!</note> fühle ich aber eine große Schwäche hinsichtlich<lb xml:id="p1-l12" break="no"/>
+des Kantons <placeName key="Zürich">Zürich</placeName>, der mir weit unbekannter hinsichtlich der Personen<lb xml:id="p1-l13" break="no"/><choice><abbr>u</abbr><expan>und</expan></choice> speziellen Verhältniße ist, als <choice><abbr>z. B.</abbr><expan>zum Beispiel</expan></choice> der Kanton <placeName key="Bern">Bern</placeName> <choice><abbr>u.</abbr><expan>und</expan></choice> <placeName key="Aargau">Aargau</placeName>.<lb xml:id="p1-l14" break="no"/>
+Dieses hätte mich wirklich von der Uebernahme abgehalten, wenn ich nicht<lb xml:id="p1-l15" break="no"/>
+        voraussetzen konnte, daß gerade Sie, <choice><abbr>Hr</abbr><expan>Herr</expan></choice> Bürgermeister <rs><persName key="Furrer Jonas">Furrer</persName></rs>, <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <rs><persName key="Rüttimann Johann Jakob">Rüttimann</persName></rs>, <lb xml:id="p1-l16" break="no"/> <rs><persName key="Bollier Rudolf">Bollier</persName></rs>, <persName key="Zehnder Ulrich">Zehnder</persName><note type="com" xml:id="K_0448_c3"><persName key="Zehnder Ulrich">Ulrich Zehnder</persName> (1798–1877), Amtsbürgermeister und Grossrat (<placeName key="Zürich">ZH</placeName>).</note> <choice><abbr>u.</abbr><expan>und</expan></choice> andere, einsehend die große Wichtigkeit, wochentlich <note type="transcript">sic!</note><lb xml:id="p1-l17" break="no"/>
+Einmal zu vielen tausenden im Volke zu sprechen – mir in<lb xml:id="p1-l18" break="no"/>
+den <placeName key="Zürich">zürcherischen</placeName> Angelegenheiten beispringen würden, um ein System<lb xml:id="p1-l19" break="no"/>
+        zu vertheidigen <choice><abbr>u.</abbr><expan>und</expan></choice> aufrecht zu halten, dem ich persöhnlich <note type="transcript">sic!</note> so Vieles zu<lb xml:id="p1-l20" break="no"/>
+verdanken habe, <choice><abbr>u.</abbr><expan>und</expan></choice> das in dieser verhängnißvollen Zukunft<lb xml:id="p1-l21" break="no"/>
+der einzige Anker sein wird <choice><abbr>u.</abbr><expan>und</expan></choice> muß, an dem sich das Schiff der<lb xml:id="p1-l22" break="no"/>
+liberalen Schweiz festhalten kann <choice><abbr>u.</abbr><expan>und</expan></choice> darf. – In dieser vertrauens<pb n="2"/><lb xml:id="p2-l1" break="no"/>vollen 
+Voraussetzung schreibe ich an Sie, um Sie zu bitten, erstens statt<lb xml:id="p2-l2" break="no"/>
+meiner bei den oben genannten <choice><abbr>u.</abbr><expan>und</expan></choice> andern Herren, die schreiben können<lb xml:id="p2-l3" break="no"/><choice><abbr>u</abbr><expan>und</expan></choice> schreiben wollen, <choice><abbr>u.</abbr><expan>und</expan></choice> die dazu einen Beruf haben oder fühlen, das Ansuchen<lb xml:id="p2-l4" break="no"/>
+zu stellen, mir wöchentlich über irgend einen Gegenstand, der das Volk<lb xml:id="p2-l5" break="no"/>
+intereßirt, oder worüber man dasselbe aufzuklären <choice><abbr>u.</abbr><expan>und</expan></choice> zu belehren<lb xml:id="p2-l6" break="no"/>
+wünschte, mitzutheilen, <choice><abbr>u.</abbr><expan>und</expan></choice> zwar vorzüglich im Anfange mich in meinem<lb xml:id="p2-l7" break="no"/>
+gewiß nicht so ganz leichten Unternehmen zu unterstützen. Es versteht<lb xml:id="p2-l8" break="no"/>
+sich wohl von selbst, daß ich nicht wünschen darf, daß Jeder wochentlich<lb xml:id="p2-l9" break="no"/>
+Einmal schreibe<del>n</del>; sondern ich bin zufrieden, wenn ich wochentlich nur<lb xml:id="p2-l10" break="no"/>
+Einen Aufsatz von Allen zusammengerechnet erhalten würde, so daß auch<lb xml:id="p2-l11" break="no"/>
+der Einzelne mit Mühe nicht überhäuft würde, wenn er sich vornehmen,<lb xml:id="p2-l12" break="no"/><choice><abbr>u.</abbr><expan>und</expan></choice> den Vorsatz auch ausführen wollte, <hi rend="underline">monatlich</hi> (das ist doch nicht viel)<lb xml:id="p2-l13" break="no"/>
+nur Einmal zu schreiben. Der bisherige Landbote hatte nach meiner<lb xml:id="p2-l14" break="no"/>
+        Ansicht darinn <note type="transcript">sic!</note> gefehlt, daß er zu wenige Mitarbeiter über den Kanton<lb xml:id="p2-l15" break="no"/><placeName key="Zürich">Zürich</placeName> hatte, <choice><abbr>u.</abbr><expan>und</expan></choice> so mußte er etwas monoton werden. Denn wenn immer<lb xml:id="p2-l16" break="no"/>
+        nur derselbe Vogel im Walde durch dik <note type="transcript">sic!</note> <choice><abbr>u.</abbr><expan>und</expan></choice> dünn singt, <choice><abbr>u.</abbr><expan>und</expan></choice> wär' es eine Nachtigall –<lb xml:id="p2-l17" break="no"/>
+so muß am Ende das Ding langweilen; <choice><abbr>u</abbr><expan>und</expan></choice> so war's, nach meinem Urtheil,<lb xml:id="p2-l18" break="no"/>
+        beim Landboten. Sodann fehlte ihm eine jugentliche <note type="transcript">sic!</note> Frische; er sprach zu<lb xml:id="p2-l19" break="no"/>
+prosaisch zum Volke. Einige Bilder, poetische sogar, die das Gemüth ergreifen, wirken<lb xml:id="p2-l20" break="no"/>
+        oft beßer, als bloße verständige, kahle Reden; daß <note type="transcript">sic!</note> Volk muß oft ebenso sehr<lb xml:id="p2-l21" break="no"/>
+überredet, als überzeugt werden, wohlverstanden die Ueberredung muß die Ueber<lb xml:id="p2-l22" break="no"/>zeugung 
+unterstützen; Endlich sollte ein Volksblatt möglichst kurze, aber vollständige<lb xml:id="p2-l23" break="no"/>
+        bündige Artikel bringen. <persName key="Bürkli Wilhelm">Bürkli</persName><note type="com" xml:id="K_0448_c4"><persName key="Bürkli Wilhelm">Wilhelm Bürkli</persName> (1787–1852), Redaktor der «<placeName key="Zürich">Züricher</placeName> Freitagszeitung».</note> <del>ha</del> ist darinn <note type="transcript">sic!</note> nicht ganz ohne Takt; <choice><abbr>u.</abbr><expan>und</expan></choice> darum<lb xml:id="p2-l24" break="no"/>
+zählt er immer noch so viele Abonnenten, während der Landbote in der<lb xml:id="p2-l25" break="no"/>
 letzten Zeit verlor! –</p>
-      <p rend="indent" xml:id="K_0448_p4">
-                    <lb xml:id="p2-l26"/>
-Sie selbst, verehrtester Herr <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Freund, hoffe ich <add>zweitens</add> werden mir schon in der ersten<lb xml:id="p2-l27"/>
-Woche des neuen Jahrs – da ich anfangs mit zu vielen Schwierigkeiten kämpfen<pb n="3"/>
-                    <lb xml:id="p3-l1"/>
+      <p rend="indent" xml:id="K_0448_p4"><lb xml:id="p2-l26"/>
+Sie selbst, verehrtester Herr <choice><abbr>u</abbr><expan>und</expan></choice> Freund, hoffe ich <add>zweitens</add> werden mir schon in der ersten<lb xml:id="p2-l27"/>
+Woche des neuen Jahrs – da ich anfangs mit zu vielen Schwierigkeiten kämpfen<pb n="3"/><lb xml:id="p3-l1"/>
 muß, etwas liefern. Sie schreiben ja so leicht, so außerordentlich klar, gemeinfaßlich,<lb xml:id="p3-l2"/>
 daß <add>es</add> jeder, auch der Ungebildetste versteht. Sie kennen auch in allen Beziehungen den<lb xml:id="p3-l3"/>
-Kanton <placeName type="place" key="Zürich">Zürich</placeName>, daß Ihnen eine Menge, ja Alles, darüber zu sprechen, zu Gebote steht.<lb xml:id="p3-l4"/>
-Sie sind Verwalter, Jurist, kennen den Staat <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> die Kirche, sind ein Meister in<lb xml:id="p3-l5"/>
-der Schule; Oekonomie <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Landwirtschaft sind Ihnen geläufig. So ausgerüstet,<lb xml:id="p3-l6"/>
-vorzüglich den Kanton <placeName type="place" key="Zürich">Zürich</placeName> mit Liebe umfaßend, könnten Sie dem Landboten<lb xml:id="p3-l7"/>
+Kanton <placeName key="Zürich">Zürich</placeName>, daß Ihnen eine Menge, ja Alles, darüber zu sprechen, zu Gebote steht.<lb xml:id="p3-l4"/>
+Sie sind Verwalter, Jurist, kennen den Staat <choice><abbr>u.</abbr><expan>und</expan></choice> die Kirche, sind ein Meister in<lb xml:id="p3-l5"/>
+der Schule; Oekonomie <choice><abbr>u</abbr><expan>und</expan></choice> Landwirtschaft sind Ihnen geläufig. So ausgerüstet,<lb xml:id="p3-l6"/>
+vorzüglich den Kanton <placeName key="Zürich">Zürich</placeName> mit Liebe umfaßend, könnten Sie dem Landboten<lb xml:id="p3-l7"/>
         von unendlichem Nutzen sein. Ich bitte Sie, nehmen Sie sich, deßelben<lb xml:id="p3-l8"/>
-ein wenig nur ein wenig an, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Sie werden mich zu neuem<lb xml:id="p3-l9"/>
+ein wenig nur ein wenig an, <choice><abbr>u.</abbr><expan>und</expan></choice> Sie werden mich zu neuem<lb xml:id="p3-l9"/>
 Danke verpflichten.</p>
-      <p rend="indent" xml:id="K_0448_p5">
-                    <lb xml:id="p3-l10"/>
+      <p rend="indent" xml:id="K_0448_p5"><lb xml:id="p3-l10"/>
 Verzeihen Sie mir meiner langen, eilfertig niedergeschriebenen<lb xml:id="p3-l11"/>
 Zudringlichkeit. Ich hätte mich kürzer gefaßt, aber ich hatte nicht<lb xml:id="p3-l12"/>
 Zeit dazu.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_0448_p6">
-                    <lb xml:id="p3-l13"/>Stets Ihr ergebenster</p>
+        <p rend="center" xml:id="K_0448_p6"><lb xml:id="p3-l13"/>Stets Ihr ergebenster</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0448_p7">
-                    <lb xml:id="p3-l14"/>Steiger</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_0448_p7"><lb xml:id="p3-l14"/>Steiger</p>
       </div>
       <postscript>
-        <p rend="left" xml:id="K_0448_p8">
-                    <lb xml:id="p3-l15"/>
-          <choice>
-                        <abbr>
-                            <hi>P</hi>. <hi>S</hi>.</abbr>
-                        <expan>Post Scriptum (nach dem Geschriebenen)</expan>
-                    </choice> Ein weiterer Grund, warum ich mich zur Uebernahme des Landboten verstand, ist<lb xml:id="p3-l16"/>
-          der, den Herrn <persName type="person" key="Weiss Heinrich">Weiß</persName> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> seinen allfälligen neuen Anfang nicht zu feindseligem Auftretten <note type="transcript">sic!</note>
-                    <lb xml:id="p3-l17"/>
-zu veranlaßen, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> diejenige Animosität, die sich wegen <persName type="person" key="Weiss Heinrich">Weißens</persName> Schritt kund<lb xml:id="p3-l18"/>
-thun wollte, im Keime zu ersticken <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> folgenlos zu machen. Mir wird dieses<lb xml:id="p3-l19"/>
-hoffentlich gelingen, <del>de</del> <add>um</add> <note type="transcript">nachträgliche Korrektur</note> dem Kanton <placeName type="place" key="Zürich">Zürich</placeName> die Schmach zu ersparen, worüber die<lb xml:id="p3-l20"/>
-                    <choice>
-                        <abbr>sog.</abbr>
-                        <expan>sogenannt</expan>
-                    </choice> Conservativen der ganzen Schweiz, die jetzigen <seg type="com">
-                        <placeName type="place" key="Bern">Berner</placeName>animositäten<note xml:id="K_0448_c5">Gemeint ist vermutlich der Konflikt zwischen radikalen und liberalen Kräften im Kanton <placeName type="place" key="Bern">Bern</placeName>, der sich auch in den Zeitungen niederschlug. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Holenstein, Ochsenbein</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 195–198.</note>
-                    </seg> verhöhnen<lb xml:id="p3-l21"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> zu ihren eigenen Zwecken ausbeuten.</p>
+        <p rend="left" xml:id="K_0448_p8"><lb xml:id="p3-l15"/>
+          <choice><abbr><hi>P</hi>. <hi>S</hi>.</abbr><expan>Post Scriptum (nach dem Geschriebenen)</expan></choice> Ein weiterer Grund, warum ich mich zur Uebernahme des Landboten verstand, ist<lb xml:id="p3-l16"/>
+          der, den Herrn <persName key="Weiss Heinrich">Weiß</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> seinen allfälligen neuen Anfang nicht zu feindseligem Auftretten <note type="transcript">sic!</note><lb xml:id="p3-l17"/>
+zu veranlaßen, <choice><abbr>u.</abbr><expan>und</expan></choice> diejenige Animosität, die sich wegen <persName key="Weiss Heinrich">Weißens</persName> Schritt kund<lb xml:id="p3-l18"/>
+thun wollte, im Keime zu ersticken <choice><abbr>u.</abbr><expan>und</expan></choice> folgenlos zu machen. Mir wird dieses<lb xml:id="p3-l19"/>
+hoffentlich gelingen, <del>de</del> <add>um</add> <note type="transcript">nachträgliche Korrektur</note> dem Kanton <placeName key="Zürich">Zürich</placeName> die Schmach zu ersparen, worüber die<lb xml:id="p3-l20"/><choice><abbr>sog.</abbr><expan>sogenannt</expan></choice> Conservativen der ganzen Schweiz, die jetzigen <placeName key="Bern">Berner</placeName>animositäten<note type="com" xml:id="K_0448_c5">Gemeint ist vermutlich der Konflikt zwischen radikalen und liberalen Kräften im Kanton <placeName key="Bern">Bern</placeName>, der sich auch in den Zeitungen niederschlug. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Holenstein, Ochsenbein</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 195–198.</note> verhöhnen<lb xml:id="p3-l21"/><choice><abbr>u.</abbr><expan>und</expan></choice> zu ihren eigenen Zwecken ausbeuten.</p>
       </postscript>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

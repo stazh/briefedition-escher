@@ -1,436 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0281" n="65" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jakob Escher an Alfred Escher, London, 10 04 1843 11 04 1843 12 04 1843</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#191*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Reisen und Ausflüge</item>
-                        <item>Kunst und Kultur</item>
-                        <item>Rechtliches</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Jakob" type="sender">Jakob Escher</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>London</placeName>
-                    <date when="1843-04-10"/>
-                    <date when="1843-04-11"/>
-                    <date when="1843-04-12"/>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-05-11" who="SD">transkribiert
-
-                
-                
-            </change>
-            <change when="2005-05-12" who="SD">transkribiert
-
-                
-                
-            </change>
-            <change when="November 2008" who="swissedit, UR">von Word nach XML konvertiert
-
-                
-            </change>
-            <change when="2009-06-01" who="BF">provisorisch kommentiert
-                
-            </change>
-            <change when="2009-07-10" who="BF">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2009-07-22" who="BF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2009-08-28" who="BF">Index für Ortsregister gesetzt
-                
-            </change>
-            <change when="2009-11-18" who="BF">Umsetzung Lektorat JJ / Überarbeitung Kommentare
-                
-            </change>
-            <change when="2009-11-26" who="BF">Korrekturen 2 Haberthür übertragen
-                
-            </change>
-            <change when="2011-04-08" who="CF">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-06-21" who="TM">e-Edition: Auszeichung 1 umgesetzt
-                
-            </change>
-            <change when="2011-06-28" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-19" who="NH">e-Edition: Auszeichnung Themen umgesetzt
-                
-            </change>
-            <change when="2011-07-25" who="HA">e-Edition: Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2011-07-28" who="AH">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2015-02-09" who="CA">e-Edition: Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0281" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jakob Escher an Alfred Escher, London, Montag / Dienstag / Mittwoch, 10. / 11. / 12. April 1843</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#191*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Reisen und Ausflüge</term><term>Kunst und Kultur</term><term>Rechtliches</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term>Jugend- und Studentenzeit</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Jakob" type="addressee">Jakob Escher</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>London</placeName><date when="1843-04-10">10. April 1843</date><date when="1843-04-11">11. April 1843</date><date when="1843-04-12">12. April 1843</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_0281_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="London (UK)">London</placeName> den <date when="1843-04-10">10. April 1843</date>.</p>
+        <p rend="right" xml:id="K_0281_p1"><lb xml:id="p1-l1"/>
+          <placeName key="London (UK)">London</placeName> den <date when="1843-04-10">10. April 1843</date>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_0281_p2">
-                    <lb xml:id="p1-l2"/>Lieber Alfred!</p>
+        <p rend="indent" xml:id="K_0281_p2"><lb xml:id="p1-l2"/>Lieber Alfred!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_0281_p3">
-                <lb xml:id="p1-l3"/>«Besser spät als gar nicht» ist eine so schlechte, oder vielmehr gar keine Entschuldigung<lb xml:id="p1-l4"/>
-für lange versäumte Erfüllung eines Versprechens, daß ich damit gar nicht zum Vorscheine kom<lb break="no" xml:id="p1-l5"/>men möchte, wenn ich nur viel bessere Gründe für mein so langes Stillschweigen anzugeben wüßte.<lb xml:id="p1-l6"/>
-In der That kommt, wenn ich selbst mir Rechenschaft davon geben will, am Ende fast Alles auf eine ge<lb break="no" xml:id="p1-l7"/>wisse 
-Trägheit heraus, welche die Mühe scheut, schon ein Mal (an <seg type="com">
-                    <persName type="person" key="Escher (vom Glas) Regula Louise">
-                        <persName type="person" key="Escher (vom Glas) Hans Heinrich">meine <choice>
-                                    <abbr>l.</abbr>
-                                    <expan>lieb</expan>
-                                </choice> Eltern</persName>
-                    </persName>
-                    <note xml:id="K_0281_c1">
-                        <persName type="person" key="Escher (vom Glas) Regula Louise">Regula Louise Escher</persName> (1793–1875), Tochter der <persName type="person" key="Escher-Meyer Susanna">Susanna Escher-Meyer</persName> und des <persName type="person" key="Escher (vom Glas)-Meyer Hans Caspar">Hans Caspar Escher-Meyer</persName>, und <persName type="person" key="Escher (vom Glas) Hans Heinrich">Hans Heinrich Escher</persName> (1790–1867), Kaufmann im «Wollenhof».</note>
-                </seg> ) Berichtetes noch ein<lb xml:id="p1-l8"/>
-Mal an einen Freund zu schreiben. Doch darf ich auch, um gerecht zu sein, einen mildernden<lb xml:id="p1-l9"/>
-Umstand nicht unerwähnt lassen, dir die Entscheidung anheim stellend, ob derselbe erheblich sei oder<lb xml:id="p1-l10"/>
-nicht. Ich dachte mir nämlich, am meisten werde dich ohne Zweifel das Gerichtswesen und was ich<lb xml:id="p1-l11"/>
-von demselben zu sehen Gelegenheit hatte, interessiren. Nun habe ich aber während der ersten 14 Tage<lb xml:id="p1-l12"/>
-meines Aufenthaltes in hier blutwenig davon gesehen, <add>vielmehr</add> die meiste Zeit auf äußere Merkwürdig<lb break="no" xml:id="p1-l13"/>keiten, 
-Kirchen, Werfte <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Docks, Brauereien, Gasfabriken; Themsetunnel, Kunstsammlungen, na<lb break="no" xml:id="p1-l14"/>turhistorische 
-        Museen, Parks <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <choice>
-                        <abbr>dgl</abbr>
-                        <expan>dergleichen</expan>
-                    </choice> verwendet, und erst letzte Woche mich vornehmlich den Ge<lb break="no" xml:id="p1-l15"/>richten,
-        Polizeibureaux <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <choice>
-                        <abbr>dgl.</abbr>
-                        <expan>dergleichen</expan>
-                    </choice> zugewandt. An Sachen zu sehen <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> zu bewundern fehlt es wahrlich<lb xml:id="p1-l16"/>
-nicht, auch ganz abgesehen von besondern Studien oder Zwecken der Reise nach <placeName type="place" key="England">England</placeName>. Es ist wahr,<lb xml:id="p1-l17"/>
-daß man in 14 Tagen alles das sehen kann, was man so gewöhnlich in Handbüchern als Merk<lb break="no" xml:id="p1-l18"/>würdigkeiten <placeName type="place" key="London (UK)">London</placeName>'s aufgezeichnet findet, aber wie wenig Befriedigung ein schnelles Durchlau<lb break="no" xml:id="p1-l19"/>fen
- namentlich von Kunstsammlungen gewährt, weißt du zur Genüge aus Erfahrung, und auch in<lb xml:id="p1-l20"/>
-andern Beziehungen findet man jeden Tag etwas Neues da, wo man längst Alles gesehen zu haben<lb xml:id="p1-l21"/>
-meinte. So glaube ich, keine Zeit unnütz verloren zu haben, wenn ich auch zuerst den Hauptzweck<lb xml:id="p1-l22"/>
-meiner Reise <del>für</del> etwas in den Hintergrund treten ließ, und in <placeName type="place" key="London (UK)">London</placeName> die große Hauptstadt, den<lb xml:id="p1-l23"/>
+    </front><body>
+      <p rend="indent" xml:id="K_0281_p3"><lb xml:id="p1-l3"/>«Besser spät als gar nicht» ist eine so schlechte, oder vielmehr gar keine Entschuldigung<lb xml:id="p1-l4"/>
+für lange versäumte Erfüllung eines Versprechens, daß ich damit gar nicht zum Vorscheine kom<lb xml:id="p1-l5" break="no"/>men möchte, wenn ich nur viel bessere Gründe für mein so langes Stillschweigen anzugeben wüßte.<lb xml:id="p1-l6" break="no"/>
+In der That kommt, wenn ich selbst mir Rechenschaft davon geben will, am Ende fast Alles auf eine ge<lb xml:id="p1-l7" break="no"/>wisse 
+Trägheit heraus, welche die Mühe scheut, schon ein Mal (an <persName key="Escher (vom Glas) Regula Louise"><persName key="Escher (vom Glas) Hans Heinrich">meine <choice><abbr>l.</abbr><expan>lieb</expan></choice> Eltern</persName></persName><note type="com" xml:id="K_0281_c1"><persName key="Escher (vom Glas) Regula Louise">Regula Louise Escher</persName> (1793–1875), Tochter der <persName key="Escher-Meyer Susanna">Susanna Escher-Meyer</persName> und des <persName key="Escher (vom Glas)-Meyer Hans Caspar">Hans Caspar Escher-Meyer</persName>, und <persName key="Escher (vom Glas) Hans Heinrich">Hans Heinrich Escher</persName> (1790–1867), Kaufmann im «Wollenhof».</note> ) Berichtetes noch ein<lb xml:id="p1-l8" break="no"/>
+Mal an einen Freund zu schreiben. Doch darf ich auch, um gerecht zu sein, einen mildernden<lb xml:id="p1-l9" break="no"/>
+Umstand nicht unerwähnt lassen, dir die Entscheidung anheim stellend, ob derselbe erheblich sei oder<lb xml:id="p1-l10" break="no"/>
+nicht. Ich dachte mir nämlich, am meisten werde dich ohne Zweifel das Gerichtswesen und was ich<lb xml:id="p1-l11" break="no"/>
+von demselben zu sehen Gelegenheit hatte, interessiren. Nun habe ich aber während der ersten 14 Tage<lb xml:id="p1-l12" break="no"/>
+meines Aufenthaltes in hier blutwenig davon gesehen, <add>vielmehr</add> die meiste Zeit auf äußere Merkwürdig<lb xml:id="p1-l13" break="no"/>keiten, 
+Kirchen, Werfte <choice><abbr>u</abbr><expan>und</expan></choice> Docks, Brauereien, Gasfabriken; Themsetunnel, Kunstsammlungen, na<lb xml:id="p1-l14" break="no"/>turhistorische 
+        Museen, Parks <choice><abbr>u.</abbr><expan>und</expan></choice>
+				<choice><abbr>dgl</abbr><expan>dergleichen</expan></choice> verwendet, und erst letzte Woche mich vornehmlich den Ge<lb xml:id="p1-l15" break="no"/>richten,
+        Polizeibureaux <choice><abbr>u.</abbr><expan>und</expan></choice>
+        <choice><abbr>dgl.</abbr><expan>dergleichen</expan></choice> zugewandt. An Sachen zu sehen <choice><abbr>u</abbr><expan>und</expan></choice> zu bewundern fehlt es wahrlich<lb xml:id="p1-l16" break="no"/>
+nicht, auch ganz abgesehen von besondern Studien oder Zwecken der Reise nach <placeName key="England">England</placeName>. Es ist wahr,<lb xml:id="p1-l17" break="no"/>
+daß man in 14 Tagen alles das sehen kann, was man so gewöhnlich in Handbüchern als Merk<lb xml:id="p1-l18" break="no"/>würdigkeiten <placeName key="London (UK)">London</placeName>'s aufgezeichnet findet, aber wie wenig Befriedigung ein schnelles Durchlau<lb xml:id="p1-l19" break="no"/>fen
+ namentlich von Kunstsammlungen gewährt, weißt du zur Genüge aus Erfahrung, und auch in<lb xml:id="p1-l20" break="no"/>
+andern Beziehungen findet man jeden Tag etwas Neues da, wo man längst Alles gesehen zu haben<lb xml:id="p1-l21" break="no"/>
+meinte. So glaube ich, keine Zeit unnütz verloren zu haben, wenn ich auch zuerst den Hauptzweck<lb xml:id="p1-l22" break="no"/>
+meiner Reise <del>für</del> etwas in den Hintergrund treten ließ, und in <placeName key="London (UK)">London</placeName> die große Hauptstadt, den<lb xml:id="p1-l23" break="no"/>
 Mittelpunkt des Welthandels zu sehen suchte. Doch nun von der langen Vorrede zur Sache!</p>
-      <p rend="indent" xml:id="K_0281_p4">
-                <lb xml:id="p1-l24"/>Am Morgen des <date when="1843-03-17">17. <del>April</del> <seg type="com">März<note xml:id="K_0281_c2">Sofortige Korrektur, zuvor: <bibl>April</bibl>.</note>
-                    </seg> </date> langte ich wohlbehalten in <placeName type="place" key="Amiens (F)">Amiens</placeName> an, und da ich erst Abends<lb xml:id="p1-l25"/>
+      <p rend="indent" xml:id="K_0281_p4"><lb xml:id="p1-l24"/>Am Morgen des <date when="1843-03-17">17. <del>April</del> März<note type="com" xml:id="K_0281_c2">Sofortige Korrektur, zuvor: <orig>April</orig>.</note> </date> langte ich wohlbehalten in <placeName key="Amiens (F)">Amiens</placeName> an, und da ich erst Abends<lb xml:id="p1-l25"/>
 5 Uhr wieder weiter reisen konnte, so hatte ich mehr als genug Muße, mich in der <add>dem Umfange nach</add> ziemlich bedeutenden,<lb xml:id="p1-l26"/>
-aber wie alle Provinzialstädte in <placeName type="place" key="Frankreich">Frankreich</placeName> wenig interessanten Stadt umzusehen. Da der Catalog der<lb xml:id="p1-l27"/>
+aber wie alle Provinzialstädte in <placeName key="Frankreich">Frankreich</placeName> wenig interessanten Stadt umzusehen. Da der Catalog der<lb xml:id="p1-l27"/>
 Bibliothek zum Drucke bereit ist, so ging ich gar nicht hin, um die Handschriften anzusehen, da ich doch<lb xml:id="p1-l28"/>
 nichts ersprießliches hätte leisten können. Das Einzige also, was meine Aufmerksamkeit anzog, war<lb xml:id="p1-l29"/>
 die Kathedrale, die freilich wohl werth ist, daß man ihr zulieb einen kleinen Umweg mache.<lb xml:id="p1-l30"/>
-Ich will nicht versuchen, dir eine Beschreibung derselben zu geben; theils ist es unmöglich, durch sol<lb break="no" xml:id="p1-l31"/>che 
-trockne Aufzählung der einzelnen Theile eines Bauwerks einen Begriff von dessen Schönheit zu<lb xml:id="p1-l32"/>
-        geben, theils sieht man gerade von dieser Kathedrale Abbildungen in allen Kunstläden <add>in <placeName type="place" key="Paris (F)">Paris</placeName>
-                </add>. Das Innere<lb xml:id="p1-l33"/>
-würde dir durch die außerordentlich<del>en</del> hohen Seitenschiffe, mehrere gut erhaltne Glasmalereien und<lb xml:id="p1-l34"/>
-die Holzschnitzereien an den Chorstühlen ohne Zweifel gefallen. Die Sculpturen an der äußern Seite<lb xml:id="p1-l35"/>
-der Einfassung (<hi>clôture</hi>) des Chores dagegen sind sehr roh, und überdies bunt bemalt. Sie bleiben <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-weit hinter denjenigen der Kathedrale von <placeName type="place" key="Chartres (F)">Chartres</placeName> zurück, die in Beziehung auf Vollendung der<lb xml:id="p2-l2"/>
-        Ausführung und Ausdruck in Stellungen <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Geberden<note type="transcript">sic!</note> das Vollkommenste sind, was ich von<lb xml:id="p2-l3"/>
-dieser Art aus dem Mittelalter gesehen habe. Überhaupt empfehle ich dir im Vorbeigehn, bei deinen<lb xml:id="p2-l4"/>
-        projektirten Ausflügen in <placeName type="place" key="Frankreich">Frankreich</placeName>
-                    <placeName type="place" key="Chartres (F)">Chartres</placeName> ja nicht zu vergessen. – Im <hi>Coupé</hi> des Postwagens von<lb xml:id="p2-l5"/>
-                    <placeName type="place" key="Amiens (F)">Amiens</placeName> nach <placeName type="place" key="Abbeville (F)">Abbeville</placeName>, wo wir gegen 10 Uhr Abends anlangten, um zwischen 3 <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> 4 Morgens wieder abzu<lb break="no" xml:id="p2-l6"/>reisen, 
-machte ich die Bekanntschaft eines <seg type="com">jungen <placeName type="place" key="England">Engländers</placeName>
-                    <note xml:id="K_0281_c3">
-                        <persName type="person" key="Willcox">Willcox</persName> (Vorname und Lebensdaten nicht ermittelt), englischer Bildhauer.</note>
-                </seg> aus <placeName type="place" key="Bath (UK)">Bath</placeName>, der in <placeName type="place" key="Paris (F)">Paris</placeName> ein Jahr lang als<lb xml:id="p2-l7"/>
-Bildhauer studirt hatte. Ich machte mit ihm zusammen die Reise bis <placeName type="place" key="London (UK)">London</placeName>, und da er noch 5 Tage in der<lb xml:id="p2-l8"/>
-Hauptstadt blieb, so kam mir seine Gefälligkeit für den Anfang meines <placeName type="place" key="England">englischen</placeName> Lebens sehr zu Statt<supplied>en</supplied>.<lb xml:id="p2-l9"/>
-– Ungeschickter Weise ging von <placeName type="place" key="Boulogne-sur-Mer (F)">Boulogne</placeName>, wo wir um Mittag ankamen, kein Schiff mehr an demselben<lb xml:id="p2-l10"/>
-Tage nach <placeName type="place" key="Dover (UK)">Dover</placeName> ab, so daß mir nur die Wahl blieb, entweder bis den <add>zweit</add> folgenden Vormittag 10 zu war<lb break="no" xml:id="p2-l11"/>ten
- oder aber am Sonntage in <placeName type="place" key="England">England</placeName> anzukommen, was bekanntlich deswegen unangenehm ist,<lb xml:id="p2-l12"/>
-weil auch die Douane am Sonntage geschlossen ist und man also seine Effekten erst am Mon<lb break="no" xml:id="p2-l13"/>tag
- erhalten kann. Ich konnte mich nicht entschließen, so lange in <placeName type="place" key="Boulogne-sur-Mer (F)">Boulogne</placeName> zu bleiben; um aber<lb xml:id="p2-l14"/>
-nicht in <placeName type="place" key="Dover (UK)">Dover</placeName> warten zu müssen, zog ich es vor, direkt nach <placeName type="place" key="London (UK)">London</placeName> überzufahren, um so mehr, als<lb xml:id="p2-l15"/>
-das Wetter ganz ruhig und schön war. Um Mitternacht (die Stunde der Abfahrt richtet sich nach der<lb xml:id="p2-l16"/>
-        jedesmaligen Stunde von Ebbe <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Fluth) verließen wir die <placeName type="place" key="Frankreich">französische</placeName> Küste, und langten nach <lb xml:id="p2-l17"/>
-        12½stündiger Fahrt, bei Tausenden von Schiffen, bei den Arsenalen und Werften von <placeName type="place" key="Woolwich (London, UK)">Woolwich</placeName>, sowie<lb xml:id="p2-l18"/>
-dem Palast der Marine-Invaliden in <placeName type="place" key="Greenwich (London, UK)">Greenwich</placeName> vorbei, an der <placeName type="place" key="London (UK)">London</placeName>-Brücke an. – Der Länge<lb xml:id="p2-l19"/>
-nach zu erzählen, was ich seitdem gesehen, wäre mir unmöglich, und ist auch unnöthig, indem ich<lb xml:id="p2-l20"/>
-hoffe, sowohl dir als <seg type="com">
-                    <persName type="person" key="Honegger Johannes">Honeggern</persName>
-                    <note xml:id="K_0281_c4">
-                        <persName type="person" key="Honegger Johannes">Johannes Honegger</persName> (1811–1855), von <placeName type="place" key="Rüti (ZH)">Rüti</placeName>, Philologe. <ref type="letter" target="K_0273_c2"><!-- →Nr. 62 (Kommentar)--></ref>.</note>
-                </seg>
-                    <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <seg type="com">
-                    <persName type="person" key="Stocker Johann Gustav">Stockern</persName>
-                    <note xml:id="K_0281_c5">
-                        <persName type="person" key="Stocker Johann Gustav">Johann Gustav Stocker</persName> (1820–1889), von <placeName type="place" key="Schönenberg (ZH)">Schönenberg</placeName>, Mathematiklehrer. <ref type="letter" target="K_0273_c4"><!-- → Nr. 62 (Kommentar)--></ref>.</note>
-                </seg> mündlich in wenigen Monaten über das, was Jeden<lb xml:id="p2-l21"/>
-etwa interessirt, Auskunft geben zu können. Also beschränke ich mich für jetzt auf einige Notizen<lb xml:id="p2-l22"/>
-über Gerichte <choice>
-                        <abbr>etc.</abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice>, will aber noch vorher, um es nicht etwa zu vergessen, meine Adresse bei<lb break="no" xml:id="p2-l23"/>fügen, und bemerken, daß ich jedenfalls vor 14 Tagen nicht aus <placeName type="place" key="London (UK)">London</placeName> abreisen werde. Willst du mir<lb xml:id="p2-l24"/>
-        einige Zeilen über dein eignes Treiben, deine Gesundheit, dann auch über andre Freunde <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Lands<lb break="no" xml:id="p2-l25"/>leute, 
-        (neben der <hi>Rotonde</hi>-Gesellschaft besonders auch <seg type="com">
-                    <persName type="person" key="Bürkli Leopold">Leo</persName>
-                    <note xml:id="K_0281_c6">
-                        <persName type="person" key="Bürkli Leopold">Leopold Bürkli</persName> (1818–1895), Maler von Porträts und Genreszenen. – <persName type="person" key="Bürkli Leopold">Bürkli</persName> war als Jugendlicher Mitglied in der Sonntagskameradschaft von Alfred und Jakob Escher. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Escher, Autobiographie Jakob Escher</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 183; <ref type="sum" target="Freunde_und_Bekannte_d1"><!--→ S. 13--></ref>.</note>
-                </seg> ) zukommen lassen, so wird es mich sehr freu<supplied>en</supplied>.<lb xml:id="p2-l26"/>
-        Ich bin besonders auch begierig zu erfahren, <seg type="com">wie es mit <persName type="person" key="Honegger Johannes">Honneggers</persName> Stelle in <placeName type="place" key="Chur">Chur</placeName> steht.<note xml:id="K_0281_c7">
-                        <persName type="person" key="Honegger Johannes">Honegger</persName> wurde im Mai 1843 zum Lehrer für Latein, italienisch und Geschichte an der evangelischen Kantonsschule in <placeName type="place" key="Chur">Chur</placeName> ernannt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="letter" target="K_0287"/>; <ref type="third-party-letter">Schreiben Johannes Honegger an Erziehungsrat GR, 5. Januar 1846 (<ref type="lit">StAGR XII 20a 3b</ref>)</ref>; <ref type="lit">Herr Professor Honegger</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 6.</note>
-                </seg> Meine<lb xml:id="p2-l27"/>
-        Adresse ist: <hi>St. James's Street, nr</hi>. 2. <hi>
-                    <placeName type="place" key="London (UK)">London</placeName>.</hi> </p>
-      <p rend="left" xml:id="K_0281_p5">
-                <lb xml:id="p2-l28"/>
-        <hi rend="underline">Den <date when="1843-04-11">11ten</date>.</hi> Da gerade in den Wochen vor<!--Korrektur gemäss T. Binder: "von[?]"; erscheint aber weniger plausibel als "vor", deshalb belassen; BF, 10.07.2009-->
-                <date when="1843-04-16">Ostern</date> die vierteljährlichen Rundreisen <add>(<hi>circuits</hi>)</add> der Oberrichter<lb xml:id="p2-l29"/>
+Ich will nicht versuchen, dir eine Beschreibung derselben zu geben; theils ist es unmöglich, durch sol<lb xml:id="p1-l31" break="no"/>che 
+trockne Aufzählung der einzelnen Theile eines Bauwerks einen Begriff von dessen Schönheit zu<lb xml:id="p1-l32" break="no"/>
+        geben, theils sieht man gerade von dieser Kathedrale Abbildungen in allen Kunstläden <add>in <placeName key="Paris (F)">Paris</placeName></add>. Das Innere<lb xml:id="p1-l33" break="no"/>
+würde dir durch die außerordentlich<del>en</del> hohen Seitenschiffe, mehrere gut erhaltne Glasmalereien und<lb xml:id="p1-l34" break="no"/>
+die Holzschnitzereien an den Chorstühlen ohne Zweifel gefallen. Die Sculpturen an der äußern Seite<lb xml:id="p1-l35" break="no"/>
+der Einfassung (<hi>clôture</hi>) des Chores dagegen sind sehr roh, und überdies bunt bemalt. Sie bleiben <pb n="2"/><lb xml:id="p2-l1" break="no"/>
+weit hinter denjenigen der Kathedrale von <placeName key="Chartres (F)">Chartres</placeName> zurück, die in Beziehung auf Vollendung der<lb xml:id="p2-l2" break="no"/>
+        Ausführung und Ausdruck in Stellungen <choice><abbr>u</abbr><expan>und</expan></choice> Geberden<note type="transcript">sic!</note> das Vollkommenste sind, was ich von<lb xml:id="p2-l3" break="no"/>
+dieser Art aus dem Mittelalter gesehen habe. Überhaupt empfehle ich dir im Vorbeigehn, bei deinen<lb xml:id="p2-l4" break="no"/>
+        projektirten Ausflügen in <placeName key="Frankreich">Frankreich</placeName> <placeName key="Chartres (F)">Chartres</placeName> ja nicht zu vergessen. – Im <hi>Coupé</hi> des Postwagens von<lb xml:id="p2-l5" break="no"/><placeName key="Amiens (F)">Amiens</placeName> nach <placeName key="Abbeville (F)">Abbeville</placeName>, wo wir gegen 10 Uhr Abends anlangten, um zwischen 3 <choice><abbr>u</abbr><expan>und</expan></choice> 4 Morgens wieder abzu<lb xml:id="p2-l6" break="no"/>reisen, 
+machte ich die Bekanntschaft eines jungen <placeName key="England">Engländers</placeName><note type="com" xml:id="K_0281_c3"><persName key="Willcox">Willcox</persName> (Vorname und Lebensdaten nicht ermittelt), englischer Bildhauer.</note> aus <placeName key="Bath (UK)">Bath</placeName>, der in <placeName key="Paris (F)">Paris</placeName> ein Jahr lang als<lb xml:id="p2-l7" break="no"/>
+Bildhauer studirt hatte. Ich machte mit ihm zusammen die Reise bis <placeName key="London (UK)">London</placeName>, und da er noch 5 Tage in der<lb xml:id="p2-l8" break="no"/>
+Hauptstadt blieb, so kam mir seine Gefälligkeit für den Anfang meines <placeName key="England">englischen</placeName> Lebens sehr zu Statt<add>en</add>.<lb xml:id="p2-l9" break="no"/>
+– Ungeschickter Weise ging von <placeName key="Boulogne-sur-Mer (F)">Boulogne</placeName>, wo wir um Mittag ankamen, kein Schiff mehr an demselben<lb xml:id="p2-l10" break="no"/>
+Tage nach <placeName key="Dover (UK)">Dover</placeName> ab, so daß mir nur die Wahl blieb, entweder bis den <add>zweit</add> folgenden Vormittag 10 zu war<lb xml:id="p2-l11" break="no"/>ten
+ oder aber am Sonntage in <placeName key="England">England</placeName> anzukommen, was bekanntlich deswegen unangenehm ist,<lb xml:id="p2-l12" break="no"/>
+weil auch die Douane am Sonntage geschlossen ist und man also seine Effekten erst am Mon<lb xml:id="p2-l13" break="no"/>tag
+ erhalten kann. Ich konnte mich nicht entschließen, so lange in <placeName key="Boulogne-sur-Mer (F)">Boulogne</placeName> zu bleiben; um aber<lb xml:id="p2-l14" break="no"/>
+nicht in <placeName key="Dover (UK)">Dover</placeName> warten zu müssen, zog ich es vor, direkt nach <placeName key="London (UK)">London</placeName> überzufahren, um so mehr, als<lb xml:id="p2-l15" break="no"/>
+das Wetter ganz ruhig und schön war. Um Mitternacht (die Stunde der Abfahrt richtet sich nach der<lb xml:id="p2-l16" break="no"/>
+        jedesmaligen Stunde von Ebbe <choice><abbr>u</abbr><expan>und</expan></choice> Fluth) verließen wir die <placeName key="Frankreich">französische</placeName> Küste, und langten nach <lb xml:id="p2-l17" break="no"/>
+        12½stündiger Fahrt, bei Tausenden von Schiffen, bei den Arsenalen und Werften von <placeName key="Woolwich (London, UK)">Woolwich</placeName>, sowie<lb xml:id="p2-l18" break="no"/>
+dem Palast der Marine-Invaliden in <placeName key="Greenwich (London, UK)">Greenwich</placeName> vorbei, an der <placeName key="London (UK)">London</placeName>-Brücke an. – Der Länge<lb xml:id="p2-l19" break="no"/>
+nach zu erzählen, was ich seitdem gesehen, wäre mir unmöglich, und ist auch unnöthig, indem ich<lb xml:id="p2-l20" break="no"/>
+hoffe, sowohl dir als <persName key="Honegger Johannes">Honeggern</persName><note type="com" xml:id="K_0281_c4"><persName key="Honegger Johannes">Johannes Honegger</persName> (1811–1855), von <placeName key="Rüti (ZH)">Rüti</placeName>, Philologe. <ref type="letter" target="K_0273_c2"><!-- →Nr. 62 (Kommentar)--></ref>.</note> <choice><abbr>u</abbr><expan>und</expan></choice> <persName key="Stocker Johann Gustav">Stockern</persName><note type="com" xml:id="K_0281_c5"><persName key="Stocker Johann Gustav">Johann Gustav Stocker</persName> (1820–1889), von <placeName key="Schönenberg (ZH)">Schönenberg</placeName>, Mathematiklehrer. <ref type="letter" target="K_0273_c4"><!-- → Nr. 62 (Kommentar)--></ref>.</note> mündlich in wenigen Monaten über das, was Jeden<lb xml:id="p2-l21" break="no"/>
+etwa interessirt, Auskunft geben zu können. Also beschränke ich mich für jetzt auf einige Notizen<lb xml:id="p2-l22" break="no"/>
+über Gerichte <choice><abbr>etc.</abbr><expan>et cetera (und anderes)</expan></choice>, will aber noch vorher, um es nicht etwa zu vergessen, meine Adresse bei<lb xml:id="p2-l23" break="no"/>fügen, und bemerken, daß ich jedenfalls vor 14 Tagen nicht aus <placeName key="London (UK)">London</placeName> abreisen werde. Willst du mir<lb xml:id="p2-l24" break="no"/>
+        einige Zeilen über dein eignes Treiben, deine Gesundheit, dann auch über andre Freunde <choice><abbr>u</abbr><expan>und</expan></choice> Lands<lb xml:id="p2-l25" break="no"/>leute, 
+        (neben der <hi>Rotonde</hi>-Gesellschaft besonders auch <persName key="Bürkli Leopold">Leo</persName><note type="com" xml:id="K_0281_c6"><persName key="Bürkli Leopold">Leopold Bürkli</persName> (1818–1895), Maler von Porträts und Genreszenen. – <persName key="Bürkli Leopold">Bürkli</persName> war als Jugendlicher Mitglied in der Sonntagskameradschaft von Alfred und Jakob Escher. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Escher, Autobiographie Jakob Escher</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 183; <ref type="sum" target="Freunde_und_Bekannte_d1"><!--→ S. 13--></ref>.</note> ) zukommen lassen, so wird es mich sehr freu<add>en</add>.<lb xml:id="p2-l26" break="no"/>
+        Ich bin besonders auch begierig zu erfahren, wie es mit <persName key="Honegger Johannes">Honneggers</persName> Stelle in <placeName key="Chur">Chur</placeName> steht.<note type="com" xml:id="K_0281_c7"><persName key="Honegger Johannes">Honegger</persName> wurde im Mai 1843 zum Lehrer für Latein, italienisch und Geschichte an der evangelischen Kantonsschule in <placeName key="Chur">Chur</placeName> ernannt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="letter" target="K_0287"/>; <ref type="third-party-letter">Schreiben Johannes Honegger an Erziehungsrat GR, 5. Januar 1846 (<ref type="lit">StAGR XII 20a 3b</ref>)</ref>; <ref type="lit">Herr Professor Honegger</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 6.</note> Meine<lb xml:id="p2-l27" break="no"/>
+        Adresse ist: <hi>St. James's Street, nr</hi>. 2. <hi><placeName key="London (UK)">London</placeName>.</hi> </p>
+      <p rend="left" xml:id="K_0281_p5"><lb xml:id="p2-l28"/>
+        <hi rend="underline">Den <date when="1843-04-11">11ten</date>.</hi> Da gerade in den Wochen vor<!--Korrektur gemäss T. Binder: "von[?]"; erscheint aber weniger plausibel als "vor", deshalb belassen; BF, 10.07.2009--><date when="1843-04-16">Ostern</date> die vierteljährlichen Rundreisen <add>(<hi>circuits</hi>)</add> der Oberrichter<lb xml:id="p2-l29"/>
 Statt finden, so werden gerade jetzt keine Sitzungen der obersten Gerichte, <hi>queen's bench <del>und</del> court<lb xml:id="p2-l30"/>
 of common pleas</hi>, und <hi>court of exchequer</hi> gehalten. Ich habe also nur Gelegenheit gehabt bis jetzt, theils<lb xml:id="p2-l31"/>
-niedrigere richterliche Behörden, theils <seg type="com">Assisen<note xml:id="K_0281_c8">Assisen: Schwurgericht, Geschworenengericht.</note>
-                </seg> zu sehen. In der Pairskammer, welche in letzter In<lb break="no" xml:id="p2-l32"/>stanz 
-über Appellationen entscheidet, bin ich noch nicht gewesen, da ich erst neulich erfuhr, daß<lb xml:id="p2-l33"/>
-bei solchen richterlichen Sitzungen der Zutritt Jedermann offen ist. Übrigens sind in solchen Fällen<lb xml:id="p2-l34"/>
-in der Regel nur 3 Pairs gegenwärtig. – In den Assisen (<hi>Old Bailey Sessions</hi>) bin ich zwei Mal ge<lb break="no" xml:id="p2-l35"/>wesen 
-und habe mit großem Interesse die Verhandlungen verfolgt. Was mich am meisten interessirte, wa<pb n="3"/>
-                    <lb xml:id="p3-l1"/>ren 
-natürlich die Kreuzverhöre, da ich sie hier zum ersten Mal mit eignen Ohren hörte, und mich<lb xml:id="p3-l2"/>
-von ihrer Zweckmäßigkeit überzeugen konnte. Indessen muß ich auch gestehen, daß ich zugleich mehr als<lb xml:id="p3-l3"/>
-ein Beispiel sah, wie gefährlich der Mißbrauch dieser Waffe der Wahrheit und Gerechtigkeit werden kann.<lb xml:id="p3-l4"/>
-Wenn, wie es gegenwärtig ganz gebräuchlich ist, der Vertheidiger nicht bloß verfängliche Fragen stellt,<lb xml:id="p3-l5"/>
-um die Zeugen des Gegners in Widerspruch zu verwickeln, oder es wahrscheinlich zu machen, daß sie<lb xml:id="p3-l6"/>
-sich irren oder daß ihr Gedächtniß nicht zuverlässig sei; sondern auch wissentlich ganz ungegründete<note type="transcript">sic</note>
-                    <lb xml:id="p3-l7"/>
-Verdächtigungen des Characters ehrenwerter Zeugen vorbringt, so kann wahrhaftig das Ziel des <choice>
-                        <abbr>Crim.<lb xml:id="p3-l8"/>Prozesses</abbr>
-                        <expan>CriminalProzesses</expan>
-                    </choice>, die Erforschung der Schuld oder Unschuld, nicht leicht erreicht werden. Jedermann sucht so viel<lb xml:id="p3-l9"/>
-als möglich jede Gelegenheit zu vermeiden, wodurch er in die Nothwendigkeit versetzt werden könnte,<lb xml:id="p3-l10"/>
-Zeugniß abzulegen, und so bleiben viele Verbrechen aus Mangel an Beweis unbestraft. Dieses<lb xml:id="p3-l11"/>
-        wird auch von manchen der tüchtigsten englischen Juristen (freilich nicht von den Advocaten)<lb xml:id="p3-l12"/>
-                    <supplied type="unclear">...</supplied>
-                    <note type="transcript">Fehlstelle</note> und daher Abänderung gewünscht. Ebenso erheben sich Stimen<note type="transcript">sic!</note> gegen das in der That mehr<lb xml:id="p3-l13"/> dem Schuldigen als dem angeklagten Nichtschuldigen nützliche Princip, nach welchem der Angeklagte<lb xml:id="p3-l14"/> selbst über nichts Auskunft zu geben hat, sondern nur erklärt, er sei schuldig oder unschuldig.<lb xml:id="p3-l15"/> Ein recht schlagendes Beispiel von der Mangelhaftigkeit dieses Verfahrens kam unter andern in<lb xml:id="p3-l16"/> einer der Sitzungen vor, denen ich beiwohnte: Ein Mann war angeklagt, <add>vor 9 Jahren</add> auf Lebenszeit zur Depor<lb break="no" xml:id="p3-l17"/>tation
- verurtheilt worden, und jetzt ohne gesetzliche Berechtigung zurück gekehrt zu sein. Mehrere Poli<lb break="no" xml:id="p3-l18"/>zeidiener, 
-die ihn jenes erste Mal verhaftet hatten und die bei seinem Prozesse zugegen gewesen<lb xml:id="p3-l19"/>
-waren, schworen, es sei derselbe Mann, mußten aber zugeben, er habe sich bedeutend verändert.<lb xml:id="p3-l20"/>
-Das frühere Urtheil wurde vom Gerichtsschreiber, nachdem er besonders als Zeuge beeidigt worden, verlesen.<lb xml:id="p3-l21"/>
-Über die Zeit, wann, und die Art, wie der Angeklagte zurück gekehrt sei, so wie über seine Entwei<lb break="no" xml:id="p3-l22"/>chung 
-aus dem Deportationsort wurde von der Anklage aus Mangel an Zeugniß nichts vorge<lb break="no" xml:id="p3-l23"/>bracht,
- und von amtlichen Erkundigungen ist eben nicht die Rede. So kam Alles in der Vertheidi<lb break="no" xml:id="p3-l24"/>gung
- darauf an, die Aussage der Zeugen als unglaubwürdig darzustellen und dieses geschah dann<lb xml:id="p3-l25"/>
-auch nach Kräften. Mehrere Zeugen sagten aus, sie haben den Angeklagten in den letzten 5 Jahren<lb xml:id="p3-l26"/>
-wiederholt in <placeName type="place" key="London (UK)">London</placeName> gesehen; einer erklärte, derselbe habe zwischen <placeName type="place" key="London (UK)">London</placeName>
-                    <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <placeName type="place" key="Vereinigte Staaten von Amerika">Amerika</placeName> Schmuggel<lb break="no" xml:id="p3-l27"/>handel
- getrieben, und sei dabei oft Monate lang in <placeName type="place" key="London (UK)">London</placeName> gewesen. Daraus folgerte der Vertheidiger:<lb xml:id="p3-l28"/>
-In dieser Zeit haben die Zeugen (Polizeidiener in den Straßen) ihn zuweilen sehen müssen, und wäre<lb xml:id="p3-l29"/>
-ihr Gedächtniß so gut, wie sie behaupten, so hätten sie ihn früher verhaften müssen. Ferner gestanden<lb xml:id="p3-l30"/>
-diese Zeugen im Kreuzverhör, sie haben von einer Belohnung reden hören, welche für Einbringung heim<lb break="no" xml:id="p3-l31"/>gekehrter
- Deportirter versprochen sei. Endlich wurde eine Frau vorgeführt, welche die nämlichen Zeugen<lb xml:id="p3-l32"/>
-für eine Person angesehen hatten, die mit dem Angeklagten zur Zeit seiner frühern Verurtheilung zusammen<lb xml:id="p3-l33"/>
-gelebt habe, und von der sich ergab, daß sie die Frau eines rechtlichen Postbeamten sei. Wie es sich mit<lb xml:id="p3-l34"/>
-diesem Beispiel eines Irrthums der Zeugen verhielt, war indeß nicht recht klar, indem diese behaupteten, <pb n="4"/>
-                    <lb xml:id="p4-l1"/>
-sie haben sich über die Identität der Frau nie so bestimmt ausgesprochen, als über die des Mannes; zu<lb break="no" xml:id="p4-l2"/>dem
- erklärte zwar diese Zeuginn<note type="transcript">sic</note>, sie habe nie mit dem Angeklagten, überhaupt auch nie in der bezeichneten<lb xml:id="p4-l3"/>
-Straße gewohnt, gab aber zu, denselben vor etwa 20 Jahren, und nachher in den letzten 5 Jahren bei ihrem<lb xml:id="p4-l4"/>
-Bruder gesehen zu haben, und brachte nichts Positives über ihren Aufenthalt vor 9 Jahren bei. – Die Jury sprach<lb xml:id="p4-l5"/>
-den Angeklagten frei, und derselbe kann nie mehr für seine Rückkehr belangt werden, ist also von<lb xml:id="p4-l6"/>
-der früher ihm auferlegten Strafe freigesprochen. Denn daß der Angeklagte wirklich der Deportirte<lb xml:id="p4-l7"/>
-sei, daran zweifle ich keinen Augenblick. Sonst hätte er doch gewiß wenigstens den Versuch gemacht,<lb xml:id="p4-l8"/>
-sich über sein Treiben vor 9 Jahren auszuweisen, was gar nicht geschah. Wäre es nun erlaubt, einen<lb xml:id="p4-l9"/>
-Angeklagten zu verhören, so hätte die Wahrheit an den Tag kommen müssen; wohl auch ohne dieses,<lb xml:id="p4-l10"/>
-wenn nur statt der beschränkten Mittel eines Privatanklägers eine Untersuchung <seg type="com">
-                    <hi>ex officio</hi>
-                    <note xml:id="K_0281_c9">Ex officio (<choice>
-                                <abbr>lat.</abbr>
-                                <expan>lateinisch</expan>
-                            </choice>): von Amtes wegen.</note>
-                </seg> zur Aufklä<lb break="no" xml:id="p4-l11"/>rung 
-des Sachverhaltes gewirkt hätte. – Einige Male war ich auch in Polizeigerichten und im <hi>Mansion<lb break="no" xml:id="p4-l12"/>house</hi>,
- dem Sitzungssaale des <hi>Lord Mayor</hi>, um Verhören beizuwohnen. Natürlich wird auch hier der Angeklagte<lb xml:id="p4-l13"/>
-nie über Detail gefragt, sondern nur im Allgemeinen, ob <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> was er über die Aussagen der Zeugen zu<lb xml:id="p4-l14"/>
-bemerken habe. Bloße Polizeisachen werden sofort entschieden, Verbrechen aber an die <del>Hr</del> Assisen gewiesen<lb xml:id="p4-l15"/>
-und bis dahin der Angeklagte in Verwahr genommen, falls er nicht annehmbare Bürgschaft stellt. Die<lb xml:id="p4-l16"/>
-        Humanität <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Höflichkeit des Magistrats gegen Angeklagte ist sehr nachahmungswerth. Auch in Zu<lb break="no" xml:id="p4-l17"/>messung 
-der Strafe für kleine Vergehen sind diese Polizeirichter sehr nachsichtig. Meist lassen sie d. Ange<lb break="no" xml:id="p4-l18"/>klagten 
-das erste Mal ungestraft laufen. Letzten Montag <choice>
-                        <abbr>z. B.</abbr>
-                        <expan>zum Beispiel</expan>
-                    </choice> war ich in <hi>Bow-Street</hi>, und es<lb xml:id="p4-l19"/>
-kamen unter andern Angeklagten auch 8–10 <hi>Prostitutes</hi> vor, welche theils Lärm in den Straßen<lb xml:id="p4-l20"/>
-gemacht, theils Vorübergehende angehalten hatten. Selbst diese, obschon anerkannt <hi>
-                    <choice>
-                            <abbr>prost.</abbr>
-                            <expan>prostituirt</expan>
-                        </choice>
-                </hi>, ließ man<lb xml:id="p4-l21"/>
-gehen, wenn es ihr erstes Erscheinen vor Gericht war, und sie nicht den <seg type="com">verhafte<del>t</del> <add>nd</add>en<note xml:id="K_0281_c10">Nachträgliche Korrektur, ursprünglich: <bibl>verhafteten</bibl>.</note>
-                </seg> Polizeidiener<lb xml:id="p4-l22"/>
-geschmäht oder geschlagen hatten. – Zu bemerken ist auch, daß vor den Assisen der erschwerende<lb xml:id="p4-l23"/>
-        Umstand eines Rückfalls gar nicht erwähnt wird, bis die <hi>Jury</hi>, nicht influencirt durch solche Antece<lb break="no" xml:id="p4-l24"/>dentien<note type="transcript">=Vorleben, frühere Lebensumstände</note>, ihr Schuldig gesprochen hat. Erst dann werden frühere Urtheile gegen den vor Gericht Ste<lb break="no" xml:id="p4-l25"/>henden, 
-nicht etwa durch Protocollauszüge, sondern durch beeidigte Zeugen, meist Polizeidiener, welche<lb xml:id="p4-l26"/>
-beim frühern Prozesse zugegen waren, bewiesen, und das Urtheil des Richters danach abgemessen. In<lb xml:id="p4-l27"/>
-solchen Fällen von Rückfall ist die Strafe sehr streng; so hörte ich Einen zu 7 Jahren Deportation ver<lb break="no" xml:id="p4-l28"/>urtheilen, 
-der, obschon früher verurtheilt, eine Portion Steinkohlen des Nachts aus einem ummauerten<lb xml:id="p4-l29"/>
-Hofe gestohlen hatte. Dieselbe Strafe traf einen andern, der nur einen Zaum, Gebiß <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Zügel aus einem<lb xml:id="p4-l30"/>
+niedrigere richterliche Behörden, theils Assisen<note type="com" xml:id="K_0281_c8">Assisen: Schwurgericht, Geschworenengericht.</note> zu sehen. In der Pairskammer, welche in letzter In<lb xml:id="p2-l32" break="no"/>stanz 
+über Appellationen entscheidet, bin ich noch nicht gewesen, da ich erst neulich erfuhr, daß<lb xml:id="p2-l33" break="no"/>
+bei solchen richterlichen Sitzungen der Zutritt Jedermann offen ist. Übrigens sind in solchen Fällen<lb xml:id="p2-l34" break="no"/>
+in der Regel nur 3 Pairs gegenwärtig. – In den Assisen (<hi>Old Bailey Sessions</hi>) bin ich zwei Mal ge<lb xml:id="p2-l35" break="no"/>wesen 
+und habe mit großem Interesse die Verhandlungen verfolgt. Was mich am meisten interessirte, wa<pb n="3"/><lb xml:id="p3-l1" break="no"/>ren 
+natürlich die Kreuzverhöre, da ich sie hier zum ersten Mal mit eignen Ohren hörte, und mich<lb xml:id="p3-l2" break="no"/>
+von ihrer Zweckmäßigkeit überzeugen konnte. Indessen muß ich auch gestehen, daß ich zugleich mehr als<lb xml:id="p3-l3" break="no"/>
+ein Beispiel sah, wie gefährlich der Mißbrauch dieser Waffe der Wahrheit und Gerechtigkeit werden kann.<lb xml:id="p3-l4" break="no"/>
+Wenn, wie es gegenwärtig ganz gebräuchlich ist, der Vertheidiger nicht bloß verfängliche Fragen stellt,<lb xml:id="p3-l5" break="no"/>
+um die Zeugen des Gegners in Widerspruch zu verwickeln, oder es wahrscheinlich zu machen, daß sie<lb xml:id="p3-l6" break="no"/>
+sich irren oder daß ihr Gedächtniß nicht zuverlässig sei; sondern auch wissentlich ganz ungegründete<note type="transcript">sic</note> <lb xml:id="p3-l7" break="no"/>
+Verdächtigungen des Characters ehrenwerter Zeugen vorbringt, so kann wahrhaftig das Ziel des <choice><abbr>Crim.<lb xml:id="p3-l8"/>Prozesses</abbr><expan>CriminalProzesses</expan></choice>, die Erforschung der Schuld oder Unschuld, nicht leicht erreicht werden. Jedermann sucht so viel<lb xml:id="p3-l9" break="no"/>
+als möglich jede Gelegenheit zu vermeiden, wodurch er in die Nothwendigkeit versetzt werden könnte,<lb xml:id="p3-l10" break="no"/>
+Zeugniß abzulegen, und so bleiben viele Verbrechen aus Mangel an Beweis unbestraft. Dieses<lb xml:id="p3-l11" break="no"/>
+        wird auch von manchen der tüchtigsten englischen Juristen (freilich nicht von den Advocaten)<lb xml:id="p3-l12" break="no"/><add type="?">...</add><note type="transcript">Fehlstelle</note> und daher Abänderung gewünscht. Ebenso erheben sich Stimen<note type="transcript">sic!</note> gegen das in der That mehr<lb xml:id="p3-l13" break="no"/> dem Schuldigen als dem angeklagten Nichtschuldigen nützliche Princip, nach welchem der Angeklagte<lb xml:id="p3-l14" break="no"/> selbst über nichts Auskunft zu geben hat, sondern nur erklärt, er sei schuldig oder unschuldig.<lb xml:id="p3-l15" break="no"/> Ein recht schlagendes Beispiel von der Mangelhaftigkeit dieses Verfahrens kam unter andern in<lb xml:id="p3-l16" break="no"/> einer der Sitzungen vor, denen ich beiwohnte: Ein Mann war angeklagt, <add>vor 9 Jahren</add> auf Lebenszeit zur Depor<lb xml:id="p3-l17" break="no"/>tation
+ verurtheilt worden, und jetzt ohne gesetzliche Berechtigung zurück gekehrt zu sein. Mehrere Poli<lb xml:id="p3-l18" break="no"/>zeidiener, 
+die ihn jenes erste Mal verhaftet hatten und die bei seinem Prozesse zugegen gewesen<lb xml:id="p3-l19" break="no"/>
+waren, schworen, es sei derselbe Mann, mußten aber zugeben, er habe sich bedeutend verändert.<lb xml:id="p3-l20" break="no"/>
+Das frühere Urtheil wurde vom Gerichtsschreiber, nachdem er besonders als Zeuge beeidigt worden, verlesen.<lb xml:id="p3-l21" break="no"/>
+Über die Zeit, wann, und die Art, wie der Angeklagte zurück gekehrt sei, so wie über seine Entwei<lb xml:id="p3-l22" break="no"/>chung 
+aus dem Deportationsort wurde von der Anklage aus Mangel an Zeugniß nichts vorge<lb xml:id="p3-l23" break="no"/>bracht,
+ und von amtlichen Erkundigungen ist eben nicht die Rede. So kam Alles in der Vertheidi<lb xml:id="p3-l24" break="no"/>gung
+ darauf an, die Aussage der Zeugen als unglaubwürdig darzustellen und dieses geschah dann<lb xml:id="p3-l25" break="no"/>
+auch nach Kräften. Mehrere Zeugen sagten aus, sie haben den Angeklagten in den letzten 5 Jahren<lb xml:id="p3-l26" break="no"/>
+wiederholt in <placeName key="London (UK)">London</placeName> gesehen; einer erklärte, derselbe habe zwischen <placeName key="London (UK)">London</placeName>
+				<choice><abbr>u</abbr><expan>und</expan></choice>
+				<placeName key="Vereinigte Staaten von Amerika">Amerika</placeName> Schmuggel<lb xml:id="p3-l27" break="no"/>handel
+ getrieben, und sei dabei oft Monate lang in <placeName key="London (UK)">London</placeName> gewesen. Daraus folgerte der Vertheidiger:<lb xml:id="p3-l28" break="no"/>
+In dieser Zeit haben die Zeugen (Polizeidiener in den Straßen) ihn zuweilen sehen müssen, und wäre<lb xml:id="p3-l29" break="no"/>
+ihr Gedächtniß so gut, wie sie behaupten, so hätten sie ihn früher verhaften müssen. Ferner gestanden<lb xml:id="p3-l30" break="no"/>
+diese Zeugen im Kreuzverhör, sie haben von einer Belohnung reden hören, welche für Einbringung heim<lb xml:id="p3-l31" break="no"/>gekehrter
+ Deportirter versprochen sei. Endlich wurde eine Frau vorgeführt, welche die nämlichen Zeugen<lb xml:id="p3-l32" break="no"/>
+für eine Person angesehen hatten, die mit dem Angeklagten zur Zeit seiner frühern Verurtheilung zusammen<lb xml:id="p3-l33" break="no"/>
+gelebt habe, und von der sich ergab, daß sie die Frau eines rechtlichen Postbeamten sei. Wie es sich mit<lb xml:id="p3-l34" break="no"/>
+diesem Beispiel eines Irrthums der Zeugen verhielt, war indeß nicht recht klar, indem diese behaupteten, <pb n="4"/><lb xml:id="p4-l1" break="no"/>
+sie haben sich über die Identität der Frau nie so bestimmt ausgesprochen, als über die des Mannes; zu<lb xml:id="p4-l2" break="no"/>dem
+ erklärte zwar diese Zeuginn<note type="transcript">sic</note>, sie habe nie mit dem Angeklagten, überhaupt auch nie in der bezeichneten<lb xml:id="p4-l3" break="no"/>
+Straße gewohnt, gab aber zu, denselben vor etwa 20 Jahren, und nachher in den letzten 5 Jahren bei ihrem<lb xml:id="p4-l4" break="no"/>
+Bruder gesehen zu haben, und brachte nichts Positives über ihren Aufenthalt vor 9 Jahren bei. – Die Jury sprach<lb xml:id="p4-l5" break="no"/>
+den Angeklagten frei, und derselbe kann nie mehr für seine Rückkehr belangt werden, ist also von<lb xml:id="p4-l6" break="no"/>
+der früher ihm auferlegten Strafe freigesprochen. Denn daß der Angeklagte wirklich der Deportirte<lb xml:id="p4-l7" break="no"/>
+sei, daran zweifle ich keinen Augenblick. Sonst hätte er doch gewiß wenigstens den Versuch gemacht,<lb xml:id="p4-l8" break="no"/>
+sich über sein Treiben vor 9 Jahren auszuweisen, was gar nicht geschah. Wäre es nun erlaubt, einen<lb xml:id="p4-l9" break="no"/>
+Angeklagten zu verhören, so hätte die Wahrheit an den Tag kommen müssen; wohl auch ohne dieses,<lb xml:id="p4-l10" break="no"/>
+wenn nur statt der beschränkten Mittel eines Privatanklägers eine Untersuchung <hi>ex officio</hi><note type="com" xml:id="K_0281_c9">Ex officio (<choice><abbr>lat.</abbr><expan>lateinisch</expan></choice>): von Amtes wegen.</note> zur Aufklä<lb xml:id="p4-l11" break="no"/>rung 
+des Sachverhaltes gewirkt hätte. – Einige Male war ich auch in Polizeigerichten und im <hi>Mansion<lb xml:id="p4-l12" break="no"/>house</hi>,
+ dem Sitzungssaale des <hi>Lord Mayor</hi>, um Verhören beizuwohnen. Natürlich wird auch hier der Angeklagte<lb xml:id="p4-l13" break="no"/>
+nie über Detail gefragt, sondern nur im Allgemeinen, ob <choice><abbr>u</abbr><expan>und</expan></choice> was er über die Aussagen der Zeugen zu<lb xml:id="p4-l14" break="no"/>
+bemerken habe. Bloße Polizeisachen werden sofort entschieden, Verbrechen aber an die <del>Hr</del> Assisen gewiesen<lb xml:id="p4-l15" break="no"/>
+und bis dahin der Angeklagte in Verwahr genommen, falls er nicht annehmbare Bürgschaft stellt. Die<lb xml:id="p4-l16" break="no"/>
+        Humanität <choice><abbr>u</abbr><expan>und</expan></choice> Höflichkeit des Magistrats gegen Angeklagte ist sehr nachahmungswerth. Auch in Zu<lb xml:id="p4-l17" break="no"/>messung 
+der Strafe für kleine Vergehen sind diese Polizeirichter sehr nachsichtig. Meist lassen sie d. Ange<lb xml:id="p4-l18" break="no"/>klagten 
+das erste Mal ungestraft laufen. Letzten Montag <choice><abbr>z. B.</abbr><expan>zum Beispiel</expan></choice> war ich in <hi>Bow-Street</hi>, und es<lb xml:id="p4-l19" break="no"/>
+kamen unter andern Angeklagten auch 8–10 <hi>Prostitutes</hi> vor, welche theils Lärm in den Straßen<lb xml:id="p4-l20" break="no"/>
+gemacht, theils Vorübergehende angehalten hatten. Selbst diese, obschon anerkannt <hi><choice><abbr>prost.</abbr><expan>prostituirt</expan></choice></hi>, ließ man<lb xml:id="p4-l21" break="no"/>
+gehen, wenn es ihr erstes Erscheinen vor Gericht war, und sie nicht den verhafte<del>t</del> <add>nd</add>en<note type="com" xml:id="K_0281_c10">Nachträgliche Korrektur, ursprünglich: <orig>verhafteten</orig>.</note> Polizeidiener<lb xml:id="p4-l22" break="no"/>
+geschmäht oder geschlagen hatten. – Zu bemerken ist auch, daß vor den Assisen der erschwerende<lb xml:id="p4-l23" break="no"/>
+        Umstand eines Rückfalls gar nicht erwähnt wird, bis die <hi>Jury</hi>, nicht influencirt durch solche Antece<lb xml:id="p4-l24" break="no"/>dentien<note type="transcript">=Vorleben, frühere Lebensumstände</note>, ihr Schuldig gesprochen hat. Erst dann werden frühere Urtheile gegen den vor Gericht Ste<lb xml:id="p4-l25" break="no"/>henden, 
+nicht etwa durch Protocollauszüge, sondern durch beeidigte Zeugen, meist Polizeidiener, welche<lb xml:id="p4-l26" break="no"/>
+beim frühern Prozesse zugegen waren, bewiesen, und das Urtheil des Richters danach abgemessen. In<lb xml:id="p4-l27" break="no"/>
+solchen Fällen von Rückfall ist die Strafe sehr streng; so hörte ich Einen zu 7 Jahren Deportation ver<lb xml:id="p4-l28" break="no"/>urtheilen, 
+der, obschon früher verurtheilt, eine Portion Steinkohlen des Nachts aus einem ummauerten<lb xml:id="p4-l29" break="no"/>
+Hofe gestohlen hatte. Dieselbe Strafe traf einen andern, der nur einen Zaum, Gebiß <choice><abbr>u</abbr><expan>und</expan></choice> Zügel aus einem<lb xml:id="p4-l30" break="no"/>
 Laden gestohlen hatte, freilich bloß etwa 3 Tage nach seiner Entlassung aus dem Zuchthause.</p>
-      <p rend="left" xml:id="K_0281_p6">
-                <lb xml:id="p4-l31"/>
-        <hi rend="underline">Den <date when="1843-04-12">12ten</date>.</hi> Um nicht den Abgang dieser Zeilen noch länger zu verzögern, nur noch einige Notizen für <persName type="person" key="Honegger Johannes">Honegger</persName>.<lb xml:id="p4-l32"/>Einen Catalog der Antiken, wie er ihn wünscht, habe ich bis jetzt nicht gefunden. Der Museumskatalog à 1 <choice>
-                        <abbr>
-                    <hi>Sh</hi>.</abbr>
-                        <expan>Schilling</expan>
-                    </choice> ist<lb xml:id="p4-l33"/>zwar 308 Octavseiten stark; allein 186 Seiten sind der naturhistorischen Sammlung gewidmet, 70 andre dem <placeName type="place" key="Ägypten">ägypt.</placeName> <choice>
-                        <abbr>Mus.</abbr>
-                        <expan>Museum</expan>
-                    </choice> <lb xml:id="p4-l34"/>und so bleiben nur 50 <choice>
-                        <abbr>S.</abbr>
-                        <expan>Seite</expan>
-                    </choice> für die <placeName type="place" key="Griechenland">
-                    <choice>
-                            <abbr>griech.</abbr>
-                            <expan>griechisch</expan>
-                        </choice>
-                </placeName>
-				<choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-        <placeName type="place" key="Römisches Reich">röm.</placeName> Antiquitäten, wovon 4 auf die Parthenonsbildwerke<note type="transcript">sic!</note> kommen. Eine aus<lb break="no" xml:id="p4-l35"/>führlichere Beschreibg existirt zwar, aber in 8 Abtheilungen mit Abbildg<supplied>en</supplied>, die zusammen 14 <choice>
-                        <abbr>£.</abbr>
-                        <expan>Livre suisse / alter Franken</expan>
-                    </choice> 17½ <choice>
-                        <abbr>
-                    <hi>Sh</hi> </abbr>
-                        <expan>Schilling</expan>
-                    </choice>
-                    <hi>Sterling</hi> kosten. – Wenn<lb xml:id="p4-l36"/>Honegger den <seg type="com">
-                    <persName type="person" key="Weber Friedrich">F. Weber</persName>
-                    <note xml:id="K_0281_c11">
-                        <persName type="person" key="Weber Friedrich">Friedrich Weber</persName> (1813–1882), <placeName type="place" key="Basel-Stadt">Basler</placeName> Kupferstecher.</note>
-                </seg> sieht, so bitte ich, ihn zu grüßen und zu fragen, ob er den Ätzgrund, von dem er mir gesproch<supplied>en</supplied>,<pb n="5"/>
-                    <lb xml:id="p5-l1"/> zu erhalten wünsche. Im Bejahungsfalle ersuche ich ihn um<lb xml:id="p5-l2"/>Angabe des <placeName type="place" key="England">englischen</placeName> Namens der Sache, ferner die Adresse,<lb xml:id="p5-l3"/>wo ich den Einkauf zu machen, und die Adresse in <placeName type="place" key="Mannheim (D)">Mann<lb break="no" xml:id="p5-l4"/>heim</placeName>, wo ich das Gekaufte abzugeben habe. – Viele Grüße<lb xml:id="p5-l5"/>an <persName type="person" key="Honegger Johannes">Honegger</persName>, <persName type="person" key="Stocker Johann Gustav">Stocker</persName>, <persName type="person" key="Bürkli Leopold">Leo</persName> und andre Landsleute von<lb xml:id="p5-l6"/>deinem dich oft hier vermissenden</p>
-    </div>
-        </body>
-    <back>
-      <div type="address">
-        <p rend="right" xml:id="K_0281_p7">
-                    <lb xml:id="p5-l7"/><!--Folge von Spatien-->
-          <hi>J. Es<add>c</add>her</hi>.<seg type="com">
-                        <note xml:id="K_0281_c12">Ergänzung auf kleinem, eingeklebtem Blatt (Vorderseite).</note>
-                    </seg> <pb n="6"/>
-                </p>
+      <p rend="left" xml:id="K_0281_p6"><lb xml:id="p4-l31"/>
+        <hi rend="underline">Den <date when="1843-04-12">12ten</date>.</hi> Um nicht den Abgang dieser Zeilen noch länger zu verzögern, nur noch einige Notizen für <persName key="Honegger Johannes">Honegger</persName>.<lb xml:id="p4-l32"/>Einen Catalog der Antiken, wie er ihn wünscht, habe ich bis jetzt nicht gefunden. Der Museumskatalog à 1 <choice><abbr><hi>Sh</hi>.</abbr><expan>Schilling</expan></choice> ist<lb xml:id="p4-l33"/>zwar 308 Octavseiten stark; allein 186 Seiten sind der naturhistorischen Sammlung gewidmet, 70 andre dem <placeName key="Ägypten">ägypt.</placeName> <choice><abbr>Mus.</abbr><expan>Museum</expan></choice> <lb xml:id="p4-l34"/>und so bleiben nur 50 <choice><abbr>S.</abbr><expan>Seite</expan></choice> für die <placeName key="Griechenland"><choice><abbr>griech.</abbr><expan>griechisch</expan></choice></placeName>
+				<choice><abbr>u.</abbr><expan>und</expan></choice>
+        <placeName key="Römisches Reich">röm.</placeName> Antiquitäten, wovon 4 auf die Parthenonsbildwerke<note type="transcript">sic!</note> kommen. Eine aus<lb xml:id="p4-l35" break="no"/>führlichere Beschreibg existirt zwar, aber in 8 Abtheilungen mit Abbildg<add>en</add>, die zusammen 14 <choice><abbr>£.</abbr><expan>Livre suisse / alter Franken</expan></choice> 17½ <choice><abbr><hi>Sh</hi> </abbr><expan>Schilling</expan></choice> <hi>Sterling</hi> kosten. – Wenn<lb xml:id="p4-l36" break="no"/>Honegger den <persName key="Weber Friedrich">F. Weber</persName><note type="com" xml:id="K_0281_c11"><persName key="Weber Friedrich">Friedrich Weber</persName> (1813–1882), <placeName key="Basel-Stadt">Basler</placeName> Kupferstecher.</note> sieht, so bitte ich, ihn zu grüßen und zu fragen, ob er den Ätzgrund, von dem er mir gesproch<add>en</add>,<pb n="5"/><lb xml:id="p5-l1" break="no"/> zu erhalten wünsche. Im Bejahungsfalle ersuche ich ihn um<lb xml:id="p5-l2" break="no"/>Angabe des <placeName key="England">englischen</placeName> Namens der Sache, ferner die Adresse,<lb xml:id="p5-l3" break="no"/>wo ich den Einkauf zu machen, und die Adresse in <placeName key="Mannheim (D)">Mann<lb xml:id="p5-l4" break="no"/>heim</placeName>, wo ich das Gekaufte abzugeben habe. – Viele Grüße<lb xml:id="p5-l5" break="no"/>an <persName key="Honegger Johannes">Honegger</persName>, <persName key="Stocker Johann Gustav">Stocker</persName>, <persName key="Bürkli Leopold">Leo</persName> und andre Landsleute von<lb xml:id="p5-l6" break="no"/>deinem dich oft hier vermissenden</p>
+    </body><back>
+      <div type="signature">
+        <p rend="right" xml:id="K_0281_p7"><lb xml:id="p5-l7"/><!--Folge von Spatien-->
+          <hi>J. Es<add>c</add>her</hi>.<note type="com" xml:id="K_0281_c12">Ergänzung auf kleinem, eingeklebtem Blatt (Vorderseite).</note> <pb n="6"/></p>
       </div>
       <postscript>
-        <p rend="indent" xml:id="K_0281_p8">
-                    <lb xml:id="p6-l1"/>
-          Wie mir mein <choice>
-                        <abbr>l.</abbr>
-                        <expan>lieb</expan>
-                    </choice> Vater schreibt, wird <seg type="ref">
-                        <choice>
-                            <abbr>
-                            <hi>Dr</hi>.</abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> <persName type="person" key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName>
-                        <ref type="kbp">→ Friedrich Ludwig Keller</ref>
-                    </seg> <lb xml:id="p6-l2"/>
-auf <date when="1843-06-04">Pfingsten</date> nach <placeName type="place" key="Paris (F)">Paris</placeName> gehen. Schade, daß ich ihn nicht <lb xml:id="p6-l3"/>
-vor meiner Abreise nach <placeName type="place" key="England">England</placeName> sehen konnte. Es freut <supplied type="unclear">mich,</supplied>
-                    <note type="transcript">Fehlstelle</note> <lb xml:id="p6-l4"/>
-daß er <seg type="com">meine Dissertation<note xml:id="K_0281_c13">
-                            <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Escher, De conditionibus</ref>.</note>
-                    </seg> nicht ganz ungünstig zu beur<lb break="no" xml:id="p6-l5"/>theilen 
-scheint, wenn ich nämlich annehmen darf, er habe <lb xml:id="p6-l6"/>
-meinem Vater nicht bloß Complimente gemacht. –<seg type="com">
-                        <note xml:id="K_0281_c14">Ergänzung auf kleinem, eingeklebtem Blatt (Rückseite).</note>
-                    </seg> </p>
+        <p rend="indent" xml:id="K_0281_p8"><lb xml:id="p6-l1"/>
+          Wie mir mein <choice><abbr>l.</abbr><expan>lieb</expan></choice> Vater schreibt, wird <rs><choice><abbr><hi>Dr</hi>.</abbr><expan>Doktor / Doctor</expan></choice> <persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName></rs> <lb xml:id="p6-l2"/>
+auf <date when="1843-06-04">Pfingsten</date> nach <placeName key="Paris (F)">Paris</placeName> gehen. Schade, daß ich ihn nicht <lb xml:id="p6-l3"/>
+vor meiner Abreise nach <placeName key="England">England</placeName> sehen konnte. Es freut <add type="?">mich,</add><note type="transcript">Fehlstelle</note> <lb xml:id="p6-l4"/>
+daß er meine Dissertation<note type="com" xml:id="K_0281_c13"><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Escher, De conditionibus</ref>.</note> nicht ganz ungünstig zu beur<lb xml:id="p6-l5" break="no"/>theilen 
+scheint, wenn ich nämlich annehmen darf, er habe <lb xml:id="p6-l6" break="no"/>
+meinem Vater nicht bloß Complimente gemacht. –<note type="com" xml:id="K_0281_c14">Ergänzung auf kleinem, eingeklebtem Blatt (Rückseite).</note> </p>
       </postscript>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

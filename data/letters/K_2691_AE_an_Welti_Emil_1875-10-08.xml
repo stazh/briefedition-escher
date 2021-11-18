@@ -1,296 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2691" n="198" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Emil Welti, Zürich, Freitag, Oktober 8, 1875</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.2#1000/1310#35*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Personelle Angelegenheiten</item>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                        <item>Tunnelbau</item>
-                        <item>Gotthardtunnel</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Welti Emil" type="addressee">Emil Welti</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1875-10-08">Freitag, Oktober 8, 1875</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-06-01" who="BF/SD">transkribiert
-                
-            </change>
-            <change when="2006 -11-/03-02" who="BF">kommentiert 1 prov.
-                
-            </change>
-            <change when="Oktober 2006" who="swissedit, UR">von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-12-04" who="SM">xml kontrolliert
-                
-            </change>
-            <change when="2007-02-07" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-04-2007; 13-03-15" who="BF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-03-30" who="WB">indexiert
-                
-            </change>
-            <change when="2007-04-24" who="BF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-19" who="SK">Original überprüft und Unterschrift angepasst
-                
-            </change>
-            <change when="2007-05-21" who="BF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-11" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-26" who="BF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-30" who="BF">Umsetzung Lektorat MK 2
-                
-            </change>
-            <change when="2007-08-10" who="BF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2008-08-04" who="WB">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-19" who="BP">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-05" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-29" who="RH">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-11-20" who="LB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-20" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-20" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2691" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Emil Welti, Zürich, Freitag, 08. Oktober 1875</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.2#1000/1310#35*</idno><idno>J I.2</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Personelle Angelegenheiten</term><term>Öffentliche Beteiligungen (Infrastruktur)</term><term>Tunnelbau</term><term>Gotthardtunnel</term><term>Eisenbahnen Finanzierung</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term>Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Welti Emil" type="sender">Emil Welti</persName><placeName>Zürich</placeName><date when="1875-10-08">08. Oktober 1875</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2691_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+        <p rend="right" xml:id="K_2691_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
           <date when="1875-10-08">8 October 1875</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_2691_p2">
-                    <lb xml:id="p1-l2"/>Hochverehrter Herr &amp; Freund!</p>
+        <p rend="left" xml:id="K_2691_p2"><lb xml:id="p1-l2"/>Hochverehrter Herr &amp; Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2691_p3">
-                <lb xml:id="p1-l3"/> <seg type="com">Ihr geschätztes Schreiben<note xml:id="K_2691_c1">Brief nicht ermittelt.</note>
-                </seg> von <date when="1875-10-07">gestern</date> <lb xml:id="p1-l4"/> <seg type="com">sammt den Beilagen zu demselben, welche ich <lb xml:id="p1-l5"/>
-    diesen Zeilen anfüge<note xml:id="K_2691_c2">Beilagen nicht ermittelt.</note>
-                </seg>, wüßte ich nicht besser <lb xml:id="p1-l6"/>
+    </front><body>
+      <p rend="indent" xml:id="K_2691_p3"><lb xml:id="p1-l3"/> Ihr geschätztes Schreiben<note type="com" xml:id="K_2691_c1">Brief nicht ermittelt.</note> von <date when="1875-10-07">gestern</date> <lb xml:id="p1-l4"/> sammt den Beilagen zu demselben, welche ich <lb xml:id="p1-l5"/>
+    diesen Zeilen anfüge<note type="com" xml:id="K_2691_c2">Beilagen nicht ermittelt.</note>, wüßte ich nicht besser <lb xml:id="p1-l6"/>
 zu beantworten, als dadurch, daß ich Ihnen <lb xml:id="p1-l7"/>
-den Beschluß mittheile, welchen die Directi<lb break="no" xml:id="p1-l8"/>on <date when="1875-10-07">gestern</date> in der fraglichen Angelegen<lb break="no" xml:id="p1-l9"/>heit 
-gefaßt hat. <seg type="com">Der Beschluß ist dazu ge<lb break="no" xml:id="p1-l10"/>eignet, 
-Sie über den Stand der Frage voll<lb break="no" xml:id="p1-l11"/>kommen 
-  aufzuklären.<note xml:id="K_2691_c3">Die Direktion der Gotthardbahn-Gesellschaft traf am <date when="1875-10-07">7. Oktober</date> unter anderem Beschlüsse betreffend das Verfahren bei der Leistung der Abschlagszahlungen an das Unternehmen <persName type="person" key="Favre Louis">Favre</persName> und dessen Beanstandung der Monatsrechnungen für August und September. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. Dir. GB</ref>, 7. Oktober 1875 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 30–33, 46).</note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_2691_p4">
-                <lb xml:id="p1-l12"/>Wenn <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <seg type="ref">
-                    <persName type="person" key="Favre Louis">Favre</persName>
-                    <ref type="kbp">→ Louis Favre</ref>
-                </seg> <seg type="com">sich gegenüber Ihnen, <lb xml:id="p1-l13"/>
-dem Präsidenten der <placeName type="place" key="Bern (Stadt)">Berner</placeName> Conferenz, <lb xml:id="p1-l14"/>
+den Beschluß mittheile, welchen die Directi<lb xml:id="p1-l8" break="no"/>on <date when="1875-10-07">gestern</date> in der fraglichen Angelegen<lb xml:id="p1-l9" break="no"/>heit 
+gefaßt hat. Der Beschluß ist dazu ge<lb xml:id="p1-l10" break="no"/>eignet, 
+Sie über den Stand der Frage voll<lb xml:id="p1-l11" break="no"/>kommen 
+  aufzuklären.<note type="com" xml:id="K_2691_c3">Die Direktion der Gotthardbahn-Gesellschaft traf am <date when="1875-10-07">7. Oktober</date> unter anderem Beschlüsse betreffend das Verfahren bei der Leistung der Abschlagszahlungen an das Unternehmen <persName key="Favre Louis">Favre</persName> und dessen Beanstandung der Monatsrechnungen für August und September. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. Dir. GB</ref>, 7. Oktober 1875 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 30–33, 46).</note> </p>
+      <p rend="indent" xml:id="K_2691_p4"><lb xml:id="p1-l12"/>Wenn <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <rs><persName key="Favre Louis">Favre</persName></rs> sich gegenüber Ihnen, <lb xml:id="p1-l13"/>
+dem Präsidenten der <placeName key="Bern (Stadt)">Berner</placeName> Conferenz, <lb xml:id="p1-l14"/>
 darüber beschweren darf, daß ihm seit <lb xml:id="p1-l15"/>
-dem <date when="1875-08-01">1. August</date> keine Abschlagszalung für die <lb xml:id="p1-l16"/>
-                    <hi>Galerie d'avancement</hi> geleistet worden <lb xml:id="p1-l17"/>
+dem <date when="1875-08-01">1. August</date> keine Abschlagszalung für die <lb xml:id="p1-l16"/><hi>Galerie d'avancement</hi> geleistet worden <lb xml:id="p1-l17"/>
 sei, so bildet dieß den sprechendsten Beweis <lb xml:id="p1-l18"/>
-dafür, was überhaupt von seinen Klagen <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-zu halten ist.<note xml:id="K_2691_c4">In einer Konferenz, die am <date when="1874-06-19">19. Juni 1874</date> in <placeName type="place" key="Bern (Stadt)">Bern</placeName>
-  zwischen Vertretern der Gotthardbahn-Gesellschaft, des Unternehmens <persName type="person" key="Favre Louis">Favre</persName> und des Bundesrates
+dafür, was überhaupt von seinen Klagen <pb n="2"/><lb xml:id="p2-l1"/>
+zu halten ist.<note type="com" xml:id="K_2691_c4">In einer Konferenz, die am <date when="1874-06-19">19. Juni 1874</date> in <placeName key="Bern (Stadt)">Bern</placeName>
+  zwischen Vertretern der Gotthardbahn-Gesellschaft, des Unternehmens <persName key="Favre Louis">Favre</persName> und des Bundesrates
 stattfand, wurde unter anderem festgelegt, dass die Erweiterung des Tunnels auf den vollen
-Durchmesser höchstens 600 <choice>
-                                <abbr>m</abbr>
-                                <expan>Meter</expan>
-                            </choice> hinter dem Vortrieb des Richtstollens liegen dürfe. Der hierbei
+Durchmesser höchstens 600 <choice><abbr>m</abbr><expan>Meter</expan></choice> hinter dem Vortrieb des Richtstollens liegen dürfe. Der hierbei
 noch bestehende Rückstand sollte bis zum <date when="1875-08-01">1. August 1875</date> wettgemacht werden. Da dieses Ziel nicht
-  erreicht wurde, stellte die Gotthardbahn-Gesellschaft die Zahlungen für den Richtstollen ein. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Geschäftsbericht GB</ref> 1874, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 39–41; <ref type="lit">Geschäftsbericht GB</ref> 1875, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 31; <ref type="sum" target="Rekonstruktion_Gotthardbahn_d1.6"><!-- → Band 1, S. 401--></ref>.</note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_2691_p5">
-                <lb xml:id="p2-l2"/>Ich denke übrigens, <seg type="com">nachdem die inter<lb break="no" xml:id="p2-l3"/>nationale 
+  erreicht wurde, stellte die Gotthardbahn-Gesellschaft die Zahlungen für den Richtstollen ein. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Geschäftsbericht GB</ref> 1874, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 39–41; <ref type="lit">Geschäftsbericht GB</ref> 1875, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 31; <ref type="sum" target="Rekonstruktion_Gotthardbahn_d1.6"><!-- → Band 1, S. 401--></ref>.</note> </p>
+      <p rend="indent" xml:id="K_2691_p5"><lb xml:id="p2-l2"/>Ich denke übrigens, nachdem die inter<lb xml:id="p2-l3" break="no"/>nationale 
 Commission <hi rend="underline">unter Beistimmung der<lb xml:id="p2-l4"/>
-Schweizerischen Abordnung</hi> beschlossen hat, der <lb xml:id="p2-l5"/>
-Gesellschaft erheblich weniger an Subvention <lb xml:id="p2-l6"/>
-auszufolgen, als sie an <choice>
-                            <abbr>Hrn.</abbr>
-                            <expan>Herrn</expan>
-                        </choice>
-                        <persName type="person" key="Favre Louis">Favre</persName> bezalt <lb xml:id="p2-l7"/>
-hat, werde uns von der <hi rend="underline">Bundesbehörde</hi> nicht <lb xml:id="p2-l8"/>
-zum Vorwurfe gemacht werden können, daß <lb xml:id="p2-l9"/>
-wir <choice>
-                            <abbr>Hrn.</abbr>
-                            <expan>Herrn</expan>
-                        </choice>
-                        <persName type="person" key="Favre Louis">Favre</persName> zu wenig Geld gegeben ha<lb break="no" xml:id="p2-l10"/>ben!<note xml:id="K_2691_c5">Alljährlich zu Ende eines Baujahrs nahm eine aus
+Schweizerischen Abordnung</hi> beschlossen hat, der <lb xml:id="p2-l5" break="no"/>
+Gesellschaft erheblich weniger an Subvention <lb xml:id="p2-l6" break="no"/>
+auszufolgen, als sie an <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <persName key="Favre Louis">Favre</persName> bezalt <lb xml:id="p2-l7" break="no"/>
+hat, werde uns von der <hi rend="underline">Bundesbehörde</hi> nicht <lb xml:id="p2-l8" break="no"/>
+zum Vorwurfe gemacht werden können, daß <lb xml:id="p2-l9" break="no"/>
+wir <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <persName key="Favre Louis">Favre</persName> zu wenig Geld gegeben ha<lb xml:id="p2-l10" break="no"/>ben!<note type="com" xml:id="K_2691_c5">Alljährlich zu Ende eines Baujahrs nahm eine aus
 Delegierten der drei Subventionsstaaten bestehende Kommission eine Verifikation der
 Tunnelbaustelle vor, um anhand des Baufortschrittes den Subventionsbetrag zu bestimmen. Die
 internationale Kommission stellte am <date when="1875-10-01">1.</date> und <date when="1875-10-02">2. Oktober 1875</date> fest, dass der Fortschritt der Arbeiten, ausgenommen jene am
 Richtstollen, ungenügend ausfiel, wodurch die Subventionsrate für dieses Baujahr verringert
-wurde. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Geschäftsbericht GB</ref> 1875, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 5, 33; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10006532" type="www">
-                            <ref type="lit">Staatsvertrag Gotthardbahn 1869</ref>, Art. 12</ref>; <ref type="letter" target="K_3396_c6"><!-- → Nr. 196 (Kommentar)--></ref>.</note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_2691_p6">
-                <lb xml:id="p2-l11"/>Auf das System von Vorschüssen an <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <lb xml:id="p2-l12"/>
-                <persName type="person" key="Favre Louis">Favre</persName> über die vertragsmäßigen Ab<lb break="no" xml:id="p2-l13"/>schlagszalungen 
-hinaus dürfen wir uns <lb xml:id="p2-l14"/>
-nach meiner Ansicht um keinen Preis einlas<lb break="no" xml:id="p2-l15"/>sen. <seg type="com">Sonst verlieren wir die ohnehin schon <lb xml:id="p2-l16"/>
-  theilweise comprommittirte Caution gänz<lb break="no" xml:id="p2-l17"/>lich.<note xml:id="K_2691_c6">
-                        <persName type="person" key="Favre Louis">Favre</persName> war gemäss Vertrag verpflichtet, der Gotthardbahn-Gesellschaft eine Kaution von 8 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice>
-Franken in bar oder in Wertschriften zu leisten. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Vertrag Gotthardtunnel</ref>, <choice>
-                                <abbr>Art.</abbr>
-                                <expan>Artikel</expan>
-                            </choice> 8.</note>
-                </seg> Wir sind nicht die Banquiers von <persName type="person" key="Favre Louis">Fa<lb break="no" xml:id="p2-l18"/>vre</persName>  &amp; müssen uns wohl hüten, uns zu den<lb break="no" xml:id="p2-l19"/>selben 
-machen zu lassen. Wenn in dem Ver<lb break="no" xml:id="p2-l20"/>trage, 
-der zwischen <persName type="person" key="Favre Louis">Favre</persName> &amp; seinen Comman<lb break="no" xml:id="p2-l21"/>ditären 
-abgeschlossen worden ist, ein Be<lb break="no" xml:id="p2-l22"/>triebscapital 
-nicht vorgesehen ist, so ver<pb n="3"/>
-                    <lb xml:id="p3-l1"/>mag  
-sich unsere Gesellschaft dessen nichts. Es <lb xml:id="p3-l2"/>
-wird in diesem Falle ein Nachtragsvertrag <lb xml:id="p3-l3"/>
-zwischen <persName type="person" key="Favre Louis">Favre</persName> &amp; seinen Commanditären <lb xml:id="p3-l4"/>
-abzuschließen sein, wie <seg type="ref">
-                    <choice>
-                            <abbr>Hr.</abbr>
-                            <expan>Herr</expan>
-                        </choice> <persName type="person" key="Rambert Henri Louis">Rambert</persName>
-                    <ref type="kbp">→ Henri Louis Rambert</ref>
-                </seg> bei <lb xml:id="p3-l5"/>
-der Unterredung, die ich <date when="1875-10-05">letzten Dienstag</date>
-                    <lb xml:id="p3-l6"/>
-mit ihm hielt, ohne Anstand anerkannt hat. <lb xml:id="p3-l7"/>
-Die Commanditäre von <persName type="person" key="Favre Louis">Favre</persName> haben das größ<lb break="no" xml:id="p3-l8"/>te 
-Interesse, zu einem solchen Nachtragsver<lb break="no" xml:id="p3-l9"/>trage 
-Hand zu bieten: denn sonst laufen sie <lb xml:id="p3-l10"/>
-Gefahr, ihre Caution von 8 Millionen Fran<lb break="no" xml:id="p3-l11"/>ken 
-zu verlieren, welche glücklicher Weise <lb xml:id="p3-l12"/>
-in unsern Händen liegt. Ich halte dafür, <lb xml:id="p3-l13"/>
-daß wir bei der gegenwärtigen Situati<lb break="no" xml:id="p3-l14"/>on 
-vor allem auch darauf Bedacht zu neh<lb break="no" xml:id="p3-l15"/>men 
-haben, daß wir die uns zukommende <lb xml:id="p3-l16"/>
-Rechtsstellung in correctester Weise wahren. <lb xml:id="p3-l17"/>
-                    <persName type="person" key="Favre Louis">Favre</persName> außer Accord setzen zu müssen &amp; factisch <lb xml:id="p3-l18"/>
-die von ihm hinterlegte Caution aushingege<lb break="no" xml:id="p3-l19"/>ben 
-zu haben, wäre die allerschlimmste Situa<lb break="no" xml:id="p3-l20"/>tion, 
+wurde. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Geschäftsbericht GB</ref> 1875, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 5, 33; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10006532"><ref type="lit">Staatsvertrag Gotthardbahn 1869</ref>, Art. 12</ref>; <ref type="letter" target="K_3396_c6"><!-- → Nr. 196 (Kommentar)--></ref>.</note> </p>
+      <p rend="indent" xml:id="K_2691_p6"><lb xml:id="p2-l11"/>Auf das System von Vorschüssen an <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <lb xml:id="p2-l12"/><persName key="Favre Louis">Favre</persName> über die vertragsmäßigen Ab<lb xml:id="p2-l13" break="no"/>schlagszalungen 
+hinaus dürfen wir uns <lb xml:id="p2-l14" break="no"/>
+nach meiner Ansicht um keinen Preis einlas<lb xml:id="p2-l15" break="no"/>sen. Sonst verlieren wir die ohnehin schon <lb xml:id="p2-l16"/>
+  theilweise comprommittirte Caution gänz<lb xml:id="p2-l17" break="no"/>lich.<note type="com" xml:id="K_2691_c6"><persName key="Favre Louis">Favre</persName> war gemäss Vertrag verpflichtet, der Gotthardbahn-Gesellschaft eine Kaution von 8 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice>
+Franken in bar oder in Wertschriften zu leisten. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Vertrag Gotthardtunnel</ref>, <choice><abbr>Art.</abbr><expan>Artikel</expan></choice> 8.</note> Wir sind nicht die Banquiers von <persName key="Favre Louis">Fa<lb xml:id="p2-l18" break="no"/>vre</persName>  &amp; müssen uns wohl hüten, uns zu den<lb xml:id="p2-l19" break="no"/>selben 
+machen zu lassen. Wenn in dem Ver<lb xml:id="p2-l20" break="no"/>trage, 
+der zwischen <persName key="Favre Louis">Favre</persName> &amp; seinen Comman<lb xml:id="p2-l21" break="no"/>ditären 
+abgeschlossen worden ist, ein Be<lb xml:id="p2-l22" break="no"/>triebscapital 
+nicht vorgesehen ist, so ver<pb n="3"/><lb xml:id="p3-l1" break="no"/>mag  
+sich unsere Gesellschaft dessen nichts. Es <lb xml:id="p3-l2" break="no"/>
+wird in diesem Falle ein Nachtragsvertrag <lb xml:id="p3-l3" break="no"/>
+zwischen <persName key="Favre Louis">Favre</persName> &amp; seinen Commanditären <lb xml:id="p3-l4" break="no"/>
+abzuschließen sein, wie <rs><choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="Rambert Henri Louis">Rambert</persName></rs> bei <lb xml:id="p3-l5" break="no"/>
+der Unterredung, die ich <date when="1875-10-05">letzten Dienstag</date> <lb xml:id="p3-l6" break="no"/>
+mit ihm hielt, ohne Anstand anerkannt hat. <lb xml:id="p3-l7" break="no"/>
+Die Commanditäre von <persName key="Favre Louis">Favre</persName> haben das größ<lb xml:id="p3-l8" break="no"/>te 
+Interesse, zu einem solchen Nachtragsver<lb xml:id="p3-l9" break="no"/>trage 
+Hand zu bieten: denn sonst laufen sie <lb xml:id="p3-l10" break="no"/>
+Gefahr, ihre Caution von 8 Millionen Fran<lb xml:id="p3-l11" break="no"/>ken 
+zu verlieren, welche glücklicher Weise <lb xml:id="p3-l12" break="no"/>
+in unsern Händen liegt. Ich halte dafür, <lb xml:id="p3-l13" break="no"/>
+daß wir bei der gegenwärtigen Situati<lb xml:id="p3-l14" break="no"/>on 
+vor allem auch darauf Bedacht zu neh<lb xml:id="p3-l15" break="no"/>men 
+haben, daß wir die uns zukommende <lb xml:id="p3-l16" break="no"/>
+Rechtsstellung in correctester Weise wahren. <lb xml:id="p3-l17" break="no"/><persName key="Favre Louis">Favre</persName> außer Accord setzen zu müssen &amp; factisch <lb xml:id="p3-l18" break="no"/>
+die von ihm hinterlegte Caution aushingege<lb xml:id="p3-l19" break="no"/>ben 
+zu haben, wäre die allerschlimmste Situa<lb xml:id="p3-l20" break="no"/>tion, 
 in welche wir gerathen könnten!</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2691_p7">
-                    <lb xml:id="p3-l21"/>Herzlich</p>
-      <p rend="center" xml:id="K_2691_p8">
-                    <lb xml:id="p3-l22"/>Ihr</p>
+        <p rend="indent" xml:id="K_2691_p7"><lb xml:id="p3-l21"/>Herzlich</p>
+      <p rend="center" xml:id="K_2691_p8"><lb xml:id="p3-l22"/>Ihr</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2691_p9">
-                    <lb xml:id="p3-l23"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher<pb n="4"/>
-                </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2691_p9"><lb xml:id="p3-l23"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher<pb n="4"/></p>
       </div>
       <postscript>
         <p rend="indent" xml:id="K_2691_p10">
-          <lb xml:id="p4-l1"/>Ich hoffe, es sei Ihnen gelungen, <seg type="com">
-                        <persName type="person" key="Cérésole Paul">Cere<lb break="no" xml:id="p4-l2"/>sole</persName>
-                        <note xml:id="K_2691_c7">
-                            <persName type="person" key="Cérésole Paul">Paul Cérésole</persName> (1832–1905), Bundesrat (<placeName type="place" key="Waadt">VD</placeName>).</note>
-                    </seg> zu vermögen, nicht <seg type="com">im Augenblicke der <lb xml:id="p4-l3"/>
-Entscheidung<note xml:id="K_2691_c8">
-                            <persName type="person" key="Cérésole Paul">Cérésole</persName> befand sich seit <choice>
-                                <abbr>ca.</abbr>
-                                <expan>circa</expan>
-                            </choice> <date when="1875-09-22">22. September</date> im Urlaub und nahm ab Mitte Oktober wieder an den Bundesratssitzungen teil. Die fragliche Entscheidung konnte nicht ermittelt werden. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. BR</ref>, September/Oktober 1875.</note>
-                    </seg> – fahnenflüchtig <seg type="com">zu werden!<note xml:id="K_2691_c9">Ergänzung auf der Rückseite.</note>
-                    </seg> <!--Transkriptionsbereinigung-->
-                </p>
+          <lb xml:id="p4-l1"/>Ich hoffe, es sei Ihnen gelungen, <persName key="Cérésole Paul">Cere<lb xml:id="p4-l2" break="no"/>sole</persName><note type="com" xml:id="K_2691_c7"><persName key="Cérésole Paul">Paul Cérésole</persName> (1832–1905), Bundesrat (<placeName key="Waadt">VD</placeName>).</note> zu vermögen, nicht im Augenblicke der <lb xml:id="p4-l3"/>
+Entscheidung<note type="com" xml:id="K_2691_c8"><persName key="Cérésole Paul">Cérésole</persName> befand sich seit <choice><abbr>ca.</abbr><expan>circa</expan></choice> <date when="1875-09-22">22. September</date> im Urlaub und nahm ab Mitte Oktober wieder an den Bundesratssitzungen teil. Die fragliche Entscheidung konnte nicht ermittelt werden. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. BR</ref>, September/Oktober 1875.</note> – fahnenflüchtig zu werden!<note type="com" xml:id="K_2691_c9">Ergänzung auf der Rückseite.</note> <!--Transkriptionsbereinigung--></p>
       </postscript>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

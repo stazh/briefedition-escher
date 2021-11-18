@@ -1,147 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2818" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Franz Dülberg, Zürich, Samstag, Juli 22, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Abzug">
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#186*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Einladungsbriefe (diverse)</item>
-                        <item>Eisenbahngesellschaften Krise/Rekonstruktion</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Dülberg Franz" type="addressee">Franz Dülberg</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1876-07-22">Samstag, Juli 22, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-01-27" who="MW">Transkription
-                
-            </change>
-            <change when="2013-08-20" who="LH">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="LW">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="RH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="NS">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="XR">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-05-19" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="LH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="SWK">Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-04-09" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2818" type="Brief" subtype="Abzug"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Franz Dülberg, Zürich, Samstag, 22. Juli 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#186*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Einladungsbriefe (diverse)</term><term>Eisenbahngesellschaften Krise/Rekonstruktion</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Dülberg Franz" type="sender">Franz Dülberg</persName><placeName>Zürich</placeName><date when="1876-07-22">22. Juli 1876</date></correspAction><correspAction type="received"><placeName>Berlin</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2818_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_2818_c0">Nachträgliche Notiz oben links auf Seite 1 von dritter Hand mit Bleistift: <bibl>Dülberg</bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>, den <date when="1876-07-22">22. Juli 1876</date>. </p>
+        <p rend="right" xml:id="K_2818_p1"> <note type="com" xml:id="K_2818_c0">Nachträgliche Notiz oben links auf Seite 1 von dritter Hand mit Bleistift: <orig>Dülberg</orig>.</note> <lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>, den <date when="1876-07-22">22. Juli 1876</date>. </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_2818_p2">
-                    <lb xml:id="p1-l2"/>Hochverehrter Herr Geheimrath!</p>
+        <p rend="indent" xml:id="K_2818_p2"><lb xml:id="p1-l2"/>Hochverehrter Herr Geheimrath!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2818_p3">
-                <lb xml:id="p1-l3"/>Es war schon lange mein Wunsch, Ihre Ansicht über das 
+    </front><body>
+      <p rend="indent" xml:id="K_2818_p3"><lb xml:id="p1-l3"/>Es war schon lange mein Wunsch, Ihre Ansicht über das 
             <lb xml:id="p1-l4"/>Programm für die Reorganisation der Gotthardbahnunternehmung, von 
             <lb xml:id="p1-l5"/>welchem ich in der letzten Sitzung des Verwaltungsrathes mündliche 
             <lb xml:id="p1-l6"/>Mittheilung gemacht und das ich Ihnen dann unmittelbar nach der 
-            <lb xml:id="p1-l7"/>eben erwähnten Sitzung nach <placeName type="place" key="Berlin (D)">Berlin</placeName> gesandt habe, zu kennen. Mitt<lb break="no" xml:id="p1-l8"/>lerweile habe ich nun noch ein anderes Programm auf Grundlage 
-            <lb xml:id="p1-l9"/>einer wenn auch thunlichst beschränkten Staatsgarantie ausgearbeitet,
-            <lb xml:id="p1-l10"/>das ich zwar bis zur Stunde nur ganz wenigen Personen vorgelegt 
-            <lb xml:id="p1-l11"/>habe, das ich aber vor Allem auch mit Ihnen zu besprechen wünschen
-            <lb xml:id="p1-l12"/>würde.</p>
-      <p rend="indent" xml:id="K_2818_p4">
-                <lb xml:id="p1-l13"/>Unsere Verhandlungen über das eine und das andere Programm 
+            <lb xml:id="p1-l7"/>eben erwähnten Sitzung nach <placeName key="Berlin (D)">Berlin</placeName> gesandt habe, zu kennen. Mitt<lb xml:id="p1-l8" break="no"/>lerweile habe ich nun noch ein anderes Programm auf Grundlage 
+            <lb xml:id="p1-l9" break="no"/>einer wenn auch thunlichst beschränkten Staatsgarantie ausgearbeitet,
+            <lb xml:id="p1-l10" break="no"/>das ich zwar bis zur Stunde nur ganz wenigen Personen vorgelegt 
+            <lb xml:id="p1-l11" break="no"/>habe, das ich aber vor Allem auch mit Ihnen zu besprechen wünschen
+            <lb xml:id="p1-l12" break="no"/>würde.</p>
+      <p rend="indent" xml:id="K_2818_p4"><lb xml:id="p1-l13"/>Unsere Verhandlungen über das eine und das andere Programm 
             <lb xml:id="p1-l14"/>würden wohl am förderlichsten mündlich gepflogen und da Sie mir 
-            <lb xml:id="p1-l15"/>in <placeName type="place" key="Luzern (Stadt)">Luzern</placeName> in Aussicht stellten, daß Sie in diesen Wochen für einige 
+            <lb xml:id="p1-l15"/>in <placeName key="Luzern (Stadt)">Luzern</placeName> in Aussicht stellten, daß Sie in diesen Wochen für einige 
             <lb xml:id="p1-l16"/>Zeit nach der Schweiz kommen werden, so würde uns sich wohl bei 
-            <lb xml:id="p1-l17"/>diesem Anlaße die beste Gelegenheit zu einem Rendez-vous dar<lb break="no" xml:id="p1-l18"/>bieten.</p>
-      <p rend="indent" xml:id="K_2818_p5">
-                <lb xml:id="p1-l19"/>Im Hinblicke auf diese Eventualität beschränke ich mich 
-           <pb n="2"/>
-                <lb xml:id="p2-l1"/>für den Augenblick darauf, die ergebene Anfrage an Sie zu 
+            <lb xml:id="p1-l17"/>diesem Anlaße die beste Gelegenheit zu einem Rendez-vous dar<lb xml:id="p1-l18" break="no"/>bieten.</p>
+      <p rend="indent" xml:id="K_2818_p5"><lb xml:id="p1-l19"/>Im Hinblicke auf diese Eventualität beschränke ich mich 
+           <pb n="2"/><lb xml:id="p2-l1"/>für den Augenblick darauf, die ergebene Anfrage an Sie zu 
             <lb xml:id="p2-l2"/>richten, auf wann Sie in die Schweiz zu kommen beabsichtigen,
             <lb xml:id="p2-l3"/>wo Sie Ihre Villegiatur abzuhalten gedenken und ob Sie zu 
             <lb xml:id="p2-l4"/>einem Rendez-vous zu dem von mir angegebenen Zwecke 
             <lb xml:id="p2-l5"/>geneigt wären.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2818_p6">
-                    <lb xml:id="p2-l6"/>Ihrer gefälligen <seg type="ref">Rückäußerung<ref type="letter" target="K_2819"/>
-                    </seg> entgegensehend, benutze 
+        <p rend="indent" xml:id="K_2818_p6"><lb xml:id="p2-l6"/>Ihrer gefälligen <rs>Rückäußerung<ref type="letter" target="K_2819"/></rs> entgegensehend, benutze 
             <lb xml:id="p2-l7"/>ich mit Vergnügen diesen Anlaß, Sie, Hochverehrter Herr
             <lb xml:id="p2-l8"/>Geheimrath! meiner ausgezeichneten Hochachtung zu versichern.</p>
-        <p rend="right" xml:id="K_2818_p7">
-                    <lb xml:id="p2-l9"/>Ihr ergebene<note type="transcript">sic!</note> </p>
+        <p rend="right" xml:id="K_2818_p7"><lb xml:id="p2-l9"/>Ihr ergebene<note type="transcript">sic!</note> </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2818_p8">
-                    <lb xml:id="p2-l10"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher <seg type="com">
-                        <note xml:id="K_2818_c1">Brieftext von dritter Hand mit Unterschrift von Eschers Hand.</note>
-                    </seg> </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2818_p8"><lb xml:id="p2-l10"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher <note type="com" xml:id="K_2818_c1">Brieftext von dritter Hand mit Unterschrift von Eschers Hand.</note> </p>
       </div>
-      <div type="address">
-        <p rend="left" xml:id="K_2818_p9">
-                    <lb xml:id="p2-l11"/>Herr Geheimrath <hi>Dülberg</hi> </p>
-        <p rend="indent" xml:id="K_2818_p10">
-                    <lb xml:id="p2-l12"/>Hochwohlgeboren
+      <div type="opener">
+        <p rend="left" xml:id="K_2818_p9"><lb xml:id="p2-l11"/>Herr Geheimrath <hi>Dülberg</hi> </p>
+        <p rend="indent" xml:id="K_2818_p10"><lb xml:id="p2-l12"/>Hochwohlgeboren
  <lb xml:id="p2-l13"/>Bank für Handel &amp; Industrie
-        <lb xml:id="p2-l14"/>
-                    <hi rend="underline">
-                        <placeName type="place" key="Berlin (D)">
-                            <hi>Berlin</hi>
-                        </placeName>.</hi> </p>
+        <lb xml:id="p2-l14"/><hi rend="underline"><placeName key="Berlin (D)"><hi>Berlin</hi></placeName>.</hi> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

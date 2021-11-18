@@ -1,263 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3497" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Josef Zingg, Zürich, Sonntag, September 20, 1863</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_053</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Regierungsrat TI</item>
-                        <item>Alpenbahn (allgemein)</item>
-                        <item>Regierungsrat TG</item>
-                        <item>Gotthardbahnkonferenzen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Zingg Josef" type="addressee">Josef Zingg</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1863-09-20">Sonntag, September 20, 1863</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2012-07-23" who="FM">Brief von Word nach XML
-					migriert
-                
-            </change>
-            <change when="2012-08-08" who="AH">Auszeichnung 1
-				umgesetzt
-                
-            </change>
-            <change when="2012-08-08" who="FW">Verifizierung 1
-				umgesetzt
-                
-            </change>
-            <change when="2014-01-14" who="LW">Transkriptionsverifizierung T. Binder
-					umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="AW">Migrationsverifizierung
-                
-            </change>
-            <change when="2014-02-05" who="LW">Auszeichnung 2
-				umgesetzt
-                
-            </change>
-            <change when="2014-06-04" who="CF">Verifizierung 2
-				umgesetzt
-                
-            </change>
-            <change when="2014-06-19" who="LH">Übertragung der Transkriptionsverifizierung
-					geprüft
-                
-            </change>
-            <change when="2014-06-25" who="LB">Inhaltliche Qualitätsprüfung
-					umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3497" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Josef Zingg, Zürich, Sonntag, 20. September 1863</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_053</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Regierungsrat TI</term><term>Alpenbahn (allgemein)</term><term>Regierungsrat TG</term><term>Gotthardbahnkonferenzen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Zingg Josef" type="sender">Josef Zingg</persName><placeName>Zürich</placeName><date when="1863-09-20">20. September 1863</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="center" xml:id="K_3497_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_3497_c0">Nachträgliche Notiz oben rechts auf Seite 1 von dritter Hand mit Bleistift:
-          <bibl>
-                                <date when="1863-09-20">20 <choice>
-                                        <abbr>7ber</abbr>
-                                        <expan>September</expan>
-                                    </choice>
-            63</date>.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>Hochgeachteter Herr
+        <p rend="center" xml:id="K_3497_p1"> <note type="com" xml:id="K_3497_c0">Nachträgliche Notiz oben rechts auf Seite 1 von dritter Hand mit Bleistift:
+          <orig><date when="1863-09-20">20 <choice><abbr>7ber</abbr><expan>September</expan></choice>
+            63</date>.</orig> </note> <lb xml:id="p1-l1"/>Hochgeachteter Herr
 							Regierungsrath!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_3497_p2">
-                <lb xml:id="p1-l2"/>Ich wollte eben die Feder ergreifen, um Ihnen <lb xml:id="p1-l3"/>zu schreiben,
-				als ich Ihre <choice>
-                        <abbr>verehrl.</abbr>
-                        <expan>verehrlich</expan>
-                    </choice> <seg type="ref">Zuschrift<ref type="letter" target="K_3565"/>
-                </seg> <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <date when="1863-09-19">19t<supplied>en</supplied> <choice>
-                            <abbr>dieß.</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date> erhielt. <lb xml:id="p1-l4"/>Mit Ihrer Absicht,
-				die Einberufung der ständigen Commissi<lb break="no" xml:id="p1-l5"/>on für die Anstrebung des <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName> auf den <date when="1863-09-28">28
-						<choice>
-                            <abbr>dß.</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date> zu <lb xml:id="p1-l6"/>veranlassen, bin ich
-				ganz einverstanden. Ebensosehr, als <lb xml:id="p1-l7"/>die Einberufung der Commißion, bevor <placeName type="place" key="Thurgau">Thurgau</placeName>, <placeName type="place" key="Nidwalden">Nidwal<lb break="no" xml:id="p1-l8"/>den</placeName>
-                    <choice>
-                        <abbr>u. s. f.</abbr>
-                        <expan>und so fort</expan>
-                    </choice> ihre Schlussnahmen betreffend die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>
-                    <lb break="no" xml:id="p1-l9"/>übereinkunft gefaßt &amp;
-				ihre Abgeordneten gewählt, <lb xml:id="p1-l10"/>nicht am Platze gewesen wäre, ebenso sehr würde eine
-				Hin<lb break="no" xml:id="p1-l11"/>ausschiebung des Zusammentrittes der Conferenz über den <lb xml:id="p1-l12"/>
-                    <date when="1863-09-28">28 <choice>
-                            <abbr>dß.</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date> hinaus als
-				ungerechtfertigt erscheinen. Es wird nur <lb xml:id="p1-l13"/>darauf hinzuwirken sein, daß die
-				Cantone, welche die <lb xml:id="p1-l14"/>Ratification des Großen Rathes vorbehalten haben <lb xml:id="p1-l15"/>(wie
-					<choice>
-                        <abbr>z. B.</abbr>
-                        <expan>zum Beispiel</expan>
-                    </choice>
-                    <placeName type="place" key="Bern">Bern</placeName>, <placeName type="place" key="Solothurn">
-                    <hi rend="underline">Solothurn</hi>
-                </placeName>, <placeName type="place" key="Schaffhausen">Schaffhausen</placeName>
-                    <choice>
-                        <abbr>u. s. f.</abbr>
-                        <expan>und so fort</expan>
-                    </choice>) gleichwol <lb xml:id="p1-l16"/>die Mitglieder der
-				ständigen Commission, die sie zu ernen<lb break="no" xml:id="p1-l17"/>nen haben, wählen. Es dürfte dieß
-				am besten, wo nöthig, <lb xml:id="p1-l18"/>auf dem Wege der Privatcorrespondenz angestrebt <pb n="2"/>
-                    <lb xml:id="p2-l1"/>werden. <hi rend="underline">Ich erlaube mir, Ihre Aufmerksamkeit mit besonderm <lb xml:id="p2-l2"/>Nachdrucke
+    </front><body>
+      <p rend="indent" xml:id="K_3497_p2"><lb xml:id="p1-l2"/>Ich wollte eben die Feder ergreifen, um Ihnen <lb xml:id="p1-l3"/>zu schreiben,
+				als ich Ihre <choice><abbr>verehrl.</abbr><expan>verehrlich</expan></choice> <rs>Zuschrift<ref type="letter" target="K_3565"/></rs> <choice><abbr>v.</abbr><expan>von</expan></choice> <date when="1863-09-19">19t<add>en</add> <choice><abbr>dieß.</abbr><expan>dieses [Monats]</expan></choice> </date> erhielt. <lb xml:id="p1-l4"/>Mit Ihrer Absicht,
+				die Einberufung der ständigen Commissi<lb xml:id="p1-l5" break="no"/>on für die Anstrebung des <placeName key="St. Gotthard (Pass)">Gotthard</placeName> auf den <date when="1863-09-28">28
+						<choice><abbr>dß.</abbr><expan>dieses [Monats]</expan></choice> </date> zu <lb xml:id="p1-l6" break="no"/>veranlassen, bin ich
+				ganz einverstanden. Ebensosehr, als <lb xml:id="p1-l7" break="no"/>die Einberufung der Commißion, bevor <placeName key="Thurgau">Thurgau</placeName>, <placeName key="Nidwalden">Nidwal<lb xml:id="p1-l8" break="no"/>den</placeName> <choice><abbr>u. s. f.</abbr><expan>und so fort</expan></choice> ihre Schlussnahmen betreffend die <placeName key="St. Gotthard (Pass)">Gotthard</placeName> <lb xml:id="p1-l9" break="no"/>übereinkunft gefaßt &amp;
+				ihre Abgeordneten gewählt, <lb xml:id="p1-l10" break="no"/>nicht am Platze gewesen wäre, ebenso sehr würde eine
+				Hin<lb xml:id="p1-l11" break="no"/>ausschiebung des Zusammentrittes der Conferenz über den <lb xml:id="p1-l12" break="no"/><date when="1863-09-28">28 <choice><abbr>dß.</abbr><expan>dieses [Monats]</expan></choice> </date> hinaus als
+				ungerechtfertigt erscheinen. Es wird nur <lb xml:id="p1-l13" break="no"/>darauf hinzuwirken sein, daß die
+				Cantone, welche die <lb xml:id="p1-l14" break="no"/>Ratification des Großen Rathes vorbehalten haben <lb xml:id="p1-l15" break="no"/>(wie
+					<choice><abbr>z. B.</abbr><expan>zum Beispiel</expan></choice> <placeName key="Bern">Bern</placeName>, <placeName key="Solothurn"><hi rend="underline">Solothurn</hi></placeName>, <placeName key="Schaffhausen">Schaffhausen</placeName> <choice><abbr>u. s. f.</abbr><expan>und so fort</expan></choice>) gleichwol <lb xml:id="p1-l16" break="no"/>die Mitglieder der
+				ständigen Commission, die sie zu ernen<lb xml:id="p1-l17" break="no"/>nen haben, wählen. Es dürfte dieß
+				am besten, wo nöthig, <lb xml:id="p1-l18" break="no"/>auf dem Wege der Privatcorrespondenz angestrebt <pb n="2"/><lb xml:id="p2-l1" break="no"/>werden. <hi rend="underline">Ich erlaube mir, Ihre Aufmerksamkeit mit besonderm <lb xml:id="p2-l2"/>Nachdrucke
 					auf diesen Punct zu lenken.</hi> </p>
-      <p rend="indent" xml:id="K_3497_p3">
-                <lb xml:id="p2-l3"/>So eben meldet mir Herr <persName type="person" key="Cecovi Carlo">Cecovi</persName>, es seien im Staatsrathe <lb xml:id="p2-l4"/> von <placeName type="place" key="Tessin">Tessin</placeName> zwei Anträge einander gegenüber gestan<lb break="no" xml:id="p2-l5"/>den: 1.) Die
-				Übereinkunft einfach zu genehmigen &amp; zwei <lb xml:id="p2-l6"/> Mitglieder der ständigen
-				Commission zu wählen. 2.) zu beschlie<lb break="no" xml:id="p2-l7"/>ßen, die Übereinkunft in
-				empfehlendem Sinne dem <lb xml:id="p2-l8"/>Großen Rathe vorzulegen, mittlerweile aber bloß einen
-				<lb xml:id="p2-l9"/>Abgeordeneten zu den Sitzungen der ständigen Commission <lb xml:id="p2-l10"/>zu entsenden &amp;
-				zwar ohne ihm Vollmachten zu ertheilen. <lb xml:id="p2-l11"/>Der Antrag 2) wurde mit 4 gegen 3
-				Stimmen, die sich <lb xml:id="p2-l12"/>auf den Antrag 1.) vereinigten, angenommen. Diese <lb xml:id="p2-l13"/>4
-				Stimmen waren <persName type="person" key="Vicari Natale">Vicari</persName>, <persName type="person" key="Morosini Carlo">Morosini</persName>, <persName type="person" key="Pfiffer-Gagliardi Bernardo">Gagliardi</persName> &amp; <persName type="person" key="Lavizzari Luigi">Lavizzari</persName>.
-				<lb xml:id="p2-l14"/>Es läßt sich nicht läugnen, daß der Staatsrath von <placeName type="place" key="Tessin">Tes<lb break="no" xml:id="p2-l15"/>sin</placeName> eine etwas zweideutige Rolle in dieser
-				Angelegen<lb break="no" xml:id="p2-l16"/>heit spielt. Ich möchte Ihnen rathen, <hi rend="underline">sofort</hi> noch an
-					<choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-                    <persName type="person" key="Knüsel Josef Martin">Knüsel</persName> zu <lb xml:id="p2-l17"/>telegraphiren, er
-				möchte noch vor der Wahl des Gesand<lb break="no" xml:id="p2-l18"/>ten nach <placeName type="place" key="Turin (I)">Turin</placeName> Herrn <persName type="person" key="P.">P.</persName>
-				neuerdings zu einer bestimmten <lb xml:id="p2-l19"/>Erklärung über seine Ansichten betreffend die
-					<placeName type="place" key="Alpen">Alpen</placeName>bahn <lb xml:id="p2-l20"/>veranlassen. Die Depesche
-				kann ja leicht so gefaßt werden, daß <lb xml:id="p2-l21"/>sie von <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-                    <persName type="person" key="Knüsel Josef Martin">Knüsel</persName>, nicht aber von den
-				Telegraphisten verstan<lb break="no" xml:id="p2-l22"/>den wird.</p>
-      <p rend="indent" xml:id="K_3497_p4">
-                <lb xml:id="p2-l23"/>Im <placeName type="place" key="Thurgau">Thurgau</placeName> wird
-				außerordentlich gegen die Genehmi<lb break="no" xml:id="p2-l24"/>gung der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>übereinkunft gearbeitet. <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Hungerbühler Johann Matthias">Hungerbühler</persName>
-                    <lb xml:id="p2-l25"/>hat seinen Freund, <supplied type="unclear">
-                    <choice>
-                            <abbr>Hrn</abbr>
-                            <expan>Herrn</expan>
-                        </choice> </supplied>
-                    <choice>
-                        <abbr>RR.</abbr>
-                        <expan>RegierungsRath</expan>
-                    </choice>
-                    <persName type="person" key="Labhardt Philipp Gottlieb">Labhardt</persName> dazu vermocht, im
-					Regie<pb n="3"/>
-                    <lb xml:id="p3-l1"/>rungsrathe zu beantragen, der <choice>
-                        <abbr>Ct.</abbr>
-                        <expan>Canton</expan>
-                    </choice>
-                    <placeName type="place" key="Thurgau">Thurgau</placeName> solle sich weder für <lb xml:id="p3-l2"/>den <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>, noch für den <placeName type="place" key="Lukmanier (Pass)">Lucmanier</placeName> erklären, sondern <lb xml:id="p3-l3"/>sich neutral
-				verhalten. Dieser Antrag ist <date when="1863-09-19">gestern</date> mit 2 <lb xml:id="p3-l4"/>Stimmen in
-				der Minderheit geblieben: 4 Stimmen erklär<lb break="no" xml:id="p3-l5"/>ten sich für Genehmigung der
-					<placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>übereinkunft. Der <lb xml:id="p3-l6"/>Große
+      <p rend="indent" xml:id="K_3497_p3"><lb xml:id="p2-l3"/>So eben meldet mir Herr <persName key="Cecovi Carlo">Cecovi</persName>, es seien im Staatsrathe <lb xml:id="p2-l4"/> von <placeName key="Tessin">Tessin</placeName> zwei Anträge einander gegenüber gestan<lb xml:id="p2-l5" break="no"/>den: 1.) Die
+				Übereinkunft einfach zu genehmigen &amp; zwei <lb xml:id="p2-l6" break="no"/> Mitglieder der ständigen
+				Commission zu wählen. 2.) zu beschlie<lb xml:id="p2-l7" break="no"/>ßen, die Übereinkunft in
+				empfehlendem Sinne dem <lb xml:id="p2-l8" break="no"/>Großen Rathe vorzulegen, mittlerweile aber bloß einen
+				<lb xml:id="p2-l9" break="no"/>Abgeordeneten zu den Sitzungen der ständigen Commission <lb xml:id="p2-l10" break="no"/>zu entsenden &amp;
+				zwar ohne ihm Vollmachten zu ertheilen. <lb xml:id="p2-l11" break="no"/>Der Antrag 2) wurde mit 4 gegen 3
+				Stimmen, die sich <lb xml:id="p2-l12" break="no"/>auf den Antrag 1.) vereinigten, angenommen. Diese <lb xml:id="p2-l13" break="no"/>4
+				Stimmen waren <persName key="Vicari Natale">Vicari</persName>, <persName key="Morosini Carlo">Morosini</persName>, <persName key="Pfiffer-Gagliardi Bernardo">Gagliardi</persName> &amp; <persName key="Lavizzari Luigi">Lavizzari</persName>.
+				<lb xml:id="p2-l14" break="no"/>Es läßt sich nicht läugnen, daß der Staatsrath von <placeName key="Tessin">Tes<lb xml:id="p2-l15" break="no"/>sin</placeName> eine etwas zweideutige Rolle in dieser
+				Angelegen<lb xml:id="p2-l16" break="no"/>heit spielt. Ich möchte Ihnen rathen, <hi rend="underline">sofort</hi> noch an
+					<choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Knüsel Josef Martin">Knüsel</persName> zu <lb xml:id="p2-l17" break="no"/>telegraphiren, er
+				möchte noch vor der Wahl des Gesand<lb xml:id="p2-l18" break="no"/>ten nach <placeName key="Turin (I)">Turin</placeName> Herrn <persName key="P.">P.</persName>
+				neuerdings zu einer bestimmten <lb xml:id="p2-l19" break="no"/>Erklärung über seine Ansichten betreffend die
+					<placeName key="Alpen">Alpen</placeName>bahn <lb xml:id="p2-l20" break="no"/>veranlassen. Die Depesche
+				kann ja leicht so gefaßt werden, daß <lb xml:id="p2-l21" break="no"/>sie von <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Knüsel Josef Martin">Knüsel</persName>, nicht aber von den
+				Telegraphisten verstan<lb xml:id="p2-l22" break="no"/>den wird.</p>
+      <p rend="indent" xml:id="K_3497_p4"><lb xml:id="p2-l23"/>Im <placeName key="Thurgau">Thurgau</placeName> wird
+				außerordentlich gegen die Genehmi<lb xml:id="p2-l24" break="no"/>gung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>übereinkunft gearbeitet. <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="Hungerbühler Johann Matthias">Hungerbühler</persName> <lb xml:id="p2-l25" break="no"/>hat seinen Freund, <add type="?"><choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> </add> <choice><abbr>RR.</abbr><expan>RegierungsRath</expan></choice> <persName key="Labhardt Philipp Gottlieb">Labhardt</persName> dazu vermocht, im
+					Regie<pb n="3"/><lb xml:id="p3-l1" break="no"/>rungsrathe zu beantragen, der <choice><abbr>Ct.</abbr><expan>Canton</expan></choice> <placeName key="Thurgau">Thurgau</placeName> solle sich weder für <lb xml:id="p3-l2" break="no"/>den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>, noch für den <placeName key="Lukmanier (Pass)">Lucmanier</placeName> erklären, sondern <lb xml:id="p3-l3" break="no"/>sich neutral
+				verhalten. Dieser Antrag ist <date when="1863-09-19">gestern</date> mit 2 <lb xml:id="p3-l4" break="no"/>Stimmen in
+				der Minderheit geblieben: 4 Stimmen erklär<lb xml:id="p3-l5" break="no"/>ten sich für Genehmigung der
+					<placeName key="St. Gotthard (Pass)">Gotthard</placeName>übereinkunft. Der <lb xml:id="p3-l6" break="no"/>Große
 				Rath soll nun am <date when="1863-09-22">Dienstage</date> endgültig entscheiden.
-				<lb xml:id="p3-l7"/>Freund <persName type="person" key="Häberlin Eduard">Häberlin</persName>
-				sagt mir, es werde einen sehr lebhaf<lb break="no" xml:id="p3-l8"/>ten Kampf absetzen &amp; der Ausgang
-				sei zweifelhaft. Wir <lb xml:id="p3-l9"/> werden es an nichts fehlen lassen, um einen Beschluß zu
-				<lb xml:id="p3-l10"/>Gunsten der Übereinkunft herbeizuführen.</p>
-      <p rend="indent" xml:id="K_3497_p5">
-                <lb xml:id="p3-l11"/>Wie steht es in <placeName type="place" key="Neuenburg">Neuenburg</placeName>?</p>
-      <p rend="indent" xml:id="K_3497_p6">
-                <lb xml:id="p3-l12"/>Hat die Gesellschaft Sillar
-				<choice>
-                        <abbr>u. s. f.</abbr>
-                        <expan>und so fort</expan>
-                    </choice> der Regierung von <placeName type="place" key="Luzern">Lu<lb break="no" xml:id="p3-l13"/>zern</placeName> eine offizielle Eingabe zu
-					<del>Gunsten</del> Handen der <placeName type="place" key="St. Gotthard (Pass)">Gott<lb break="no" xml:id="p3-l14"/>hard</placeName>conferenz gemacht?</p>
-      <p rend="indent" xml:id="K_3497_p7">
-                <lb xml:id="p3-l15"/>Es wäre mir erwünscht, eine Abschrift des Schreibens des
-				<lb xml:id="p3-l16"/>Staatsrathes von <placeName type="place" key="Tessin">Tessin</placeName> an die Regierung
-				von <placeName type="place" key="Luzern">Luzern</placeName> <choice>
-                        <abbr>betr.</abbr>
-                        <expan>betreffend</expan>
-                    </choice> <lb xml:id="p3-l17"/>die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>übereinkunft zu
+				<lb xml:id="p3-l7" break="no"/>Freund <persName key="Häberlin Eduard">Häberlin</persName>
+				sagt mir, es werde einen sehr lebhaf<lb xml:id="p3-l8" break="no"/>ten Kampf absetzen &amp; der Ausgang
+				sei zweifelhaft. Wir <lb xml:id="p3-l9" break="no"/> werden es an nichts fehlen lassen, um einen Beschluß zu
+				<lb xml:id="p3-l10" break="no"/>Gunsten der Übereinkunft herbeizuführen.</p>
+      <p rend="indent" xml:id="K_3497_p5"><lb xml:id="p3-l11"/>Wie steht es in <placeName key="Neuenburg">Neuenburg</placeName>?</p>
+      <p rend="indent" xml:id="K_3497_p6"><lb xml:id="p3-l12"/>Hat die Gesellschaft Sillar
+				<choice><abbr>u. s. f.</abbr><expan>und so fort</expan></choice> der Regierung von <placeName key="Luzern">Lu<lb xml:id="p3-l13" break="no"/>zern</placeName> eine offizielle Eingabe zu
+					<del>Gunsten</del> Handen der <placeName key="St. Gotthard (Pass)">Gott<lb xml:id="p3-l14" break="no"/>hard</placeName>conferenz gemacht?</p>
+      <p rend="indent" xml:id="K_3497_p7"><lb xml:id="p3-l15"/>Es wäre mir erwünscht, eine Abschrift des Schreibens des
+				<lb xml:id="p3-l16"/>Staatsrathes von <placeName key="Tessin">Tessin</placeName> an die Regierung
+				von <placeName key="Luzern">Luzern</placeName> <choice><abbr>betr.</abbr><expan>betreffend</expan></choice> <lb xml:id="p3-l17"/>die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>übereinkunft zu
 				erhalten.</p>
-      <p rend="indent" xml:id="K_3497_p8">
-                <lb xml:id="p3-l18"/>
-        <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-        <persName type="person" key="Allet Alexis">
-                    <hi>Allet</hi>
-                </persName> sei nach der <placeName type="place" key="St. Gallen (Stadt)">St. Galler</placeName>conferenz in <placeName type="place" key="Luzern (Stadt)">Luzern</placeName> gewesen. <lb xml:id="p3-l19"/>Er wird wohl <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Segesser (von Brunegg) Philipp Anton von">Segesser</persName> besucht haben?
+      <p rend="indent" xml:id="K_3497_p8"><lb xml:id="p3-l18"/>
+        <choice><abbr>Hr.</abbr><expan>Herr</expan></choice>
+        <persName key="Allet Alexis"><hi>Allet</hi></persName> sei nach der <placeName key="St. Gallen (Stadt)">St. Galler</placeName>conferenz in <placeName key="Luzern (Stadt)">Luzern</placeName> gewesen. <lb xml:id="p3-l19"/>Er wird wohl <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <persName key="Segesser (von Brunegg) Philipp Anton von">Segesser</persName> besucht haben?
 				In welcher Weise hat <lb xml:id="p3-l20"/>er sich wohl ausgesprochen?</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_3497_p9">
-                    <lb xml:id="p3-l21"/>Entschuldigen Sie die vielen Fragen,
+        <p rend="indent" xml:id="K_3497_p9"><lb xml:id="p3-l21"/>Entschuldigen Sie die vielen Fragen,
 					die ich Ihnen vorlege,<lb xml:id="p3-l22"/> &amp; genehmigen Sie die erneuerte Versicherung
-					ausgezeich<lb break="no" xml:id="p3-l23"/>neter Hochachtung von</p>
-        <p rend="right" xml:id="K_3497_p10">
-                    <lb xml:id="p3-l24"/>Ihrem freundschaftlich ergebenen</p>
+					ausgezeich<lb xml:id="p3-l23" break="no"/>neter Hochachtung von</p>
+        <p rend="right" xml:id="K_3497_p10"><lb xml:id="p3-l24"/>Ihrem freundschaftlich ergebenen</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_3497_p11">
-                    <lb xml:id="p3-l25"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A
+      <div type="signature">
+        <p rend="right" xml:id="K_3497_p11"><lb xml:id="p3-l25"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A
 				Escher</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_3497_p12">
-                    <lb xml:id="p3-l26"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+        <p rend="left" xml:id="K_3497_p12"><lb xml:id="p3-l26"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
           <lb xml:id="p3-l27"/>
-          <date when="1863-09-20">20 <choice>
-                            <abbr>Sept<hi rend="sup">r</hi> </abbr>
-                            <expan>September</expan>
-                        </choice>
+          <date when="1863-09-20">20 <choice><abbr>Sept<hi rend="sup">r</hi> </abbr><expan>September</expan></choice>
 						1863.</date>
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

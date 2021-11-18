@@ -1,162 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5999" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Clemente Maraini, Zürich, Sonntag, Oktober 14, 1877</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Entwurf">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_006</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Bundesrat</item>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                        <item>Gotthardbahnkonferenzen</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Maraini Clemente" type="addressee">Clemente Maraini</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1877-10-14">Sonntag, Oktober 14, 1877</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-01-10" who="NP">transkribiert
-                
-            </change>
-            <change when="2014-06-24" who="MB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-02" who="AW">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-10" who="MB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-18" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-            <change when="2014-07-28" who="SWK">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-07-29" who="IB">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-11-14" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-14" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="left" xml:id="K_5999_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_5999_c0">Nachträgliche Notiz oben links auf Seite 1 von dritter Hand: <bibl>
-                                <persName type="person" key="Lochmann">L</persName> / <date when="1877-10-14">14</date>.</bibl> – 
-        		Nachträgliche Notiz in der Mitte links auf Seite 1 von dritter Hand: <bibl>
-                                <supplied type="unclear">
-                                    <del>L</del> <persName type="person" key="Schweizer Friedrich">
-                                        <add>S</add>
-                                        <hi rend="sup">w</hi>
-                                    </persName>
-                                </supplied> / <choice>
-                                    <abbr>NB.</abbr>
-                                    <expan>Nota Bene (beachte)</expan>
-                                </choice> Abklatsch</bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>Monsieur C. Maraini, Ingénieur
-        	<lb xml:id="p1-l2"/>
-                    <placeName type="place" key="Rom (I)">Rome</placeName> <lb xml:id="p1-l3"/>102. Via Tre Cannelle <seg type="com">
-                        <note xml:id="K_5999_c1">Adresse unten links auf Seite 1. – 
-        		Nachträgliche Notiz von dritter Hand mit Bleistift: <bibl>Via <placeName type="place" key="Mont-Cenis (Pass, F-I)">Mont Cenis</placeName>
-                            </bibl>.</note>
-                    </seg> </p>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5999" type="Brief" subtype="Entwurf"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Clemente Maraini, Zürich, Sonntag, 14. Oktober 1877</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_006</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Bundesrat</term><term>Öffentliche Beteiligungen (Infrastruktur)</term><term>Gotthardbahnkonferenzen</term><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Maraini Clemente" type="sender">Clemente Maraini</persName><placeName>Zürich</placeName><date when="1877-10-14">14. Oktober 1877</date></correspAction><correspAction type="received"><placeName>Rom</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
+        <p rend="left" xml:id="K_5999_p1"> <note type="com" xml:id="K_5999_c0">Nachträgliche Notiz oben links auf Seite 1 von dritter Hand: <orig><persName key="Lochmann">L</persName> / <date when="1877-10-14">14</date>.</orig> – 
+        		Nachträgliche Notiz in der Mitte links auf Seite 1 von dritter Hand: <orig><add type="?"><del>L</del> <persName key="Schweizer Friedrich"><add>S</add><hi rend="sup">w</hi></persName></add> / <choice><abbr>NB.</abbr><expan>Nota Bene (beachte)</expan></choice> Abklatsch</orig>.</note> <lb xml:id="p1-l1"/>Monsieur C. Maraini, Ingénieur
+        	<lb xml:id="p1-l2"/><placeName key="Rom (I)">Rome</placeName> <lb xml:id="p1-l3"/>102. Via Tre Cannelle <note type="com" xml:id="K_5999_c1">Adresse unten links auf Seite 1. – 
+        		Nachträgliche Notiz von dritter Hand mit Bleistift: <orig>Via <placeName key="Mont-Cenis (Pass, F-I)">Mont Cenis</placeName></orig>.</note> </p>
       </div>
       <div type="dateline">
-        <p rend="right" xml:id="K_5999_p2">
-                    <lb xml:id="p1-l4"/>
-          <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>, le <date when="1877-10-14">14 Octobre 1877</date> </p>
+        <p rend="right" xml:id="K_5999_p2"><lb xml:id="p1-l4"/>
+          <placeName key="Zürich (Stadt)">Zurich</placeName>, le <date when="1877-10-14">14 Octobre 1877</date> </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_5999_p3">
-                    <lb xml:id="p1-l5"/>Cher Monsieur</p>
+        <p rend="indent" xml:id="K_5999_p3"><lb xml:id="p1-l5"/>Cher Monsieur</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_5999_p4">
-                <lb xml:id="p1-l6"/>J'ai bien reçu votre estimée <seg type="ref">lettre<ref type="letter" target="K_5999"/>
-                </seg> du
-	<lb xml:id="p1-l7"/>
-                <date when="1877-10-07">7 <choice>
-                            <abbr>C<hi rend="sup">t</hi> </abbr>
-                            <expan>Courant (laufenden [Monats])</expan>
-                        </choice>
-                </date>. Elle m'impose le devoir de rectifier le plan de
+    </front><body>
+      <p rend="indent" xml:id="K_5999_p4"><lb xml:id="p1-l6"/>J'ai bien reçu votre estimée <rs>lettre<ref type="letter" target="K_5999"/></rs> du
+	<lb xml:id="p1-l7"/><date when="1877-10-07">7 <choice><abbr>C<hi rend="sup">t</hi> </abbr><expan>Courant (laufenden [Monats])</expan></choice></date>. Elle m'impose le devoir de rectifier le plan de
 	<lb xml:id="p1-l8"/>campagne que vous y développez en faveur du
-	<lb xml:id="p1-l9"/>
-                <placeName type="place" key="St. Gotthard (Pass)">Gothard</placeName>.
+	<lb xml:id="p1-l9"/><placeName key="St. Gotthard (Pass)">Gothard</placeName>.
 	</p>
-      <p rend="indent" xml:id="K_5999_p5">
-                <lb xml:id="p1-l10"/>Vous estimez que, par suite du résultat de la
-	<lb xml:id="p1-l11"/>Conférence qui a eu lieu à <placeName type="place" key="Frankfurt am Main (D)">Francfort</placeName> entre les délégués
+      <p rend="indent" xml:id="K_5999_p5"><lb xml:id="p1-l10"/>Vous estimez que, par suite du résultat de la
+	<lb xml:id="p1-l11"/>Conférence qui a eu lieu à <placeName key="Frankfurt am Main (D)">Francfort</placeName> entre les délégués
 	<lb xml:id="p1-l12"/>du Consortium et ceux de la Compagnie du Gothard,
 	<lb xml:id="p1-l13"/>il faudrait pour ainsi dire abandonner le Protocole
-	<lb xml:id="p1-l14"/>final de la Conférence internationale de <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName> du
+	<lb xml:id="p1-l14"/>final de la Conférence internationale de <placeName key="Luzern (Stadt)">Lucerne</placeName> du
 	<lb xml:id="p1-l15"/>Juin dernier, et que le Conseil fédéral suisse devrait
 	<lb xml:id="p1-l16"/>convoquer une nouvelle Conférence internationale
 	<lb xml:id="p1-l17"/>pour fin Octobre, afin d'arrêter dans le courant
 	<lb xml:id="p1-l18"/>de Novembre un autre Protocole se basant sur
 	<lb xml:id="p1-l19"/>la subvention ultérieure de 28 millions de francs
-	<lb xml:id="p1-l20"/>et sur une garantie à accorder par les Etats inté<lb break="no" xml:id="p1-l21"/>ressés aux capitaux privés dont on aurait encore
-	<lb xml:id="p1-l22"/>besoin.
+	<lb xml:id="p1-l20"/>et sur une garantie à accorder par les Etats inté<lb xml:id="p1-l21" break="no"/>ressés aux capitaux privés dont on aurait encore
+	<lb xml:id="p1-l22" break="no"/>besoin.
 	</p>
-      <p rend="indent" xml:id="K_5999_p6">
-                <lb xml:id="p1-l23"/>Cette manière de procéder serait, à mon avis,
+      <p rend="indent" xml:id="K_5999_p6"><lb xml:id="p1-l23"/>Cette manière de procéder serait, à mon avis,
 	<lb xml:id="p1-l24"/>tout à fait inadmissible.
 	</p>
-      <p rend="indent" xml:id="K_5999_p7">
-                <lb xml:id="p1-l25"/>Les Etats intéressés ont pris, dans le Protocole
+      <p rend="indent" xml:id="K_5999_p7"><lb xml:id="p1-l25"/>Les Etats intéressés ont pris, dans le Protocole
 	<lb xml:id="p1-l26"/>final de la Conférence internationale de Juin dernier,
 	<lb xml:id="p1-l27"/>l'engagement de se prononcer vis-à-vis du Conseil
-	<lb xml:id="p1-l28"/>fédéral Suisse, jusqu'à la fin de Juillet, sur l'accep<lb break="no" xml:id="p1-l29"/>tation du dit Protocole. Ce délai a été ensuite pro<lb break="no" xml:id="p1-l30"/>longé jusqu'à fin Septembre. Le Gouvernement <placeName type="place" key="Deutsches Reich">Alle<pb n="2"/>
-                        <lb xml:id="p2-l1"/>mand</placeName> a fait connaître que son adhésion au Protocole<note type="transcript">Paginierung durch den Autor am oberen linken Seitenrand: 2</note>
-                    <lb xml:id="p2-l2"/>final parviendrait à <placeName type="place" key="Bern (Stadt)">Berne</placeName> sous peu de jours. Le
-	<lb xml:id="p2-l3"/>Conseil fédéral suisse <del>croit pouvoir atttendre</del>
-                    <add>pense recevoir</add>, très
-	<lb xml:id="p2-l4"/>prochainement aussi, la déclaration d'adhésion du
-	<lb xml:id="p2-l5"/>Gouvernement <placeName type="place" key="Italien (Königreich)">Italien</placeName>. Dans ces circonstances, il
-	<lb xml:id="p2-l6"/>est absolument impossible que le Conseil fédéral
-	<lb xml:id="p2-l7"/>Suisse, par le seul motif de la conférence de
-	<lb xml:id="p2-l8"/>
-                    <placeName type="place" key="Frankfurt am Main (D)">Francfort</placeName>, fasse tout d'un coup abstraction de tout
-	<lb xml:id="p2-l9"/>ce qui a été fait et convenu jusqu'à présent et
-	<lb xml:id="p2-l10"/>convoque une nouvelle Conférence internationale
-	<lb xml:id="p2-l11"/>pour lui soumettre un programme de réorgani<lb break="no" xml:id="p2-l12"/>sation de l'entreprise du Gothard reposant sur
-	<lb xml:id="p2-l13"/>des bases nouvelles.
+	<lb xml:id="p1-l28"/>fédéral Suisse, jusqu'à la fin de Juillet, sur l'accep<lb xml:id="p1-l29" break="no"/>tation du dit Protocole. Ce délai a été ensuite pro<lb xml:id="p1-l30" break="no"/>longé jusqu'à fin Septembre. Le Gouvernement <placeName key="Deutsches Reich">Alle<pb n="2"/><lb xml:id="p2-l1" break="no"/>mand</placeName> a fait connaître que son adhésion au Protocole<note type="transcript">Paginierung durch den Autor am oberen linken Seitenrand: 2</note> <lb xml:id="p2-l2" break="no"/>final parviendrait à <placeName key="Bern (Stadt)">Berne</placeName> sous peu de jours. Le
+	<lb xml:id="p2-l3" break="no"/>Conseil fédéral suisse <del>croit pouvoir atttendre</del> <add>pense recevoir</add>, très
+	<lb xml:id="p2-l4" break="no"/>prochainement aussi, la déclaration d'adhésion du
+	<lb xml:id="p2-l5" break="no"/>Gouvernement <placeName key="Italien (Königreich)">Italien</placeName>. Dans ces circonstances, il
+	<lb xml:id="p2-l6" break="no"/>est absolument impossible que le Conseil fédéral
+	<lb xml:id="p2-l7" break="no"/>Suisse, par le seul motif de la conférence de
+	<lb xml:id="p2-l8" break="no"/><placeName key="Frankfurt am Main (D)">Francfort</placeName>, fasse tout d'un coup abstraction de tout
+	<lb xml:id="p2-l9" break="no"/>ce qui a été fait et convenu jusqu'à présent et
+	<lb xml:id="p2-l10" break="no"/>convoque une nouvelle Conférence internationale
+	<lb xml:id="p2-l11" break="no"/>pour lui soumettre un programme de réorgani<lb xml:id="p2-l12" break="no"/>sation de l'entreprise du Gothard reposant sur
+	<lb xml:id="p2-l13" break="no"/>des bases nouvelles.
 	</p>
-      <p rend="indent" xml:id="K_5999_p8">
-                <lb xml:id="p2-l14"/>
+      <p rend="indent" xml:id="K_5999_p8"><lb xml:id="p2-l14"/>
         <del>D'abord</del> Je dois vous faire remarquer <add>d'abord</add> que le
 	<lb xml:id="p2-l15"/>refus du Consortium ne regarde en première ligne
 	<lb xml:id="p2-l16"/>que la Compagnie du Gothard et non les Etats
@@ -165,25 +59,20 @@
 	<lb xml:id="p2-l19"/>simple refus ne tranche pas la question, car si
 	<lb xml:id="p2-l20"/>l'on ne peut pas s'entendre à bref délai, les
 	<lb xml:id="p2-l21"/>Tribunaux seront appelés à décider si le Consortium
-	<lb xml:id="p2-l22"/>n'est pas tenu de prendre la <choice>
-                        <abbr>IV<hi rend="sup">e</hi> </abbr>
-                        <expan>quatrième (viertens)</expan>
-                    </choice> série d'obligations. Avant
+	<lb xml:id="p2-l22"/>n'est pas tenu de prendre la <choice><abbr>IV<hi rend="sup">e</hi> </abbr><expan>quatrième (viertens)</expan></choice> série d'obligations. Avant
 	<lb xml:id="p2-l23"/>que ce procès soit terminé, on ne peut pas se
 	<lb xml:id="p2-l24"/>placer sur le terrain que le refus du Consortium
 	<lb xml:id="p2-l25"/>est fondé.
 	</p>
-      <p rend="indent" xml:id="K_5999_p9">
-                <lb xml:id="p2-l26"/>Si le Conseil fédéral agissait comme
+      <p rend="indent" xml:id="K_5999_p9"><lb xml:id="p2-l26"/>Si le Conseil fédéral agissait comme
 	<lb xml:id="p2-l27"/>vous pensez qu'il devrait le faire, tout ce qui
 	<lb xml:id="p2-l28"/>a été obtenu jusqu'ici, et notamment les subventions
 	<lb xml:id="p2-l29"/>ultérieures de 28 millions, serait de nouveau remis
-	<pb n="3"/>
-                <lb xml:id="p3-l1"/>en question; tandis que si on laisse les choses<note type="transcript">Paginierung durch den Autor am oberen linken Seitenrand: 3</note> <lb xml:id="p3-l2"/>suivre leur cours naturel, il y a lieu d'espérer,
+	<pb n="3"/><lb xml:id="p3-l1"/>en question; tandis que si on laisse les choses<note type="transcript">Paginierung durch den Autor am oberen linken Seitenrand: 3</note> <lb xml:id="p3-l2"/>suivre leur cours naturel, il y a lieu d'espérer,
 	<lb xml:id="p3-l3"/>d'après tout ce que nous savons et, en ce qui
-	<lb xml:id="p3-l4"/>concerne plus spécialement l'<placeName type="place" key="Italien (Königreich)">Italie</placeName>, d'après ce
+	<lb xml:id="p3-l4"/>concerne plus spécialement l'<placeName key="Italien (Königreich)">Italie</placeName>, d'après ce
 	<lb xml:id="p3-l5"/>que nous apprenons de vous, que les dispositions
-	<lb xml:id="p3-l6"/>du Protocole final de <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName> seront adoptées
+	<lb xml:id="p3-l6"/>du Protocole final de <placeName key="Luzern (Stadt)">Lucerne</placeName> seront adoptées
 	<lb xml:id="p3-l7"/>par les trois Etats intéressés. Si tout était de
 	<lb xml:id="p3-l8"/>nouveau remis en question, personne ne pourrait
 	<lb xml:id="p3-l9"/>prévoir quels incidents fâcheux viendraient peut-être
@@ -191,21 +80,15 @@
 	<lb xml:id="p3-l11"/>nouvelle campagne. Vous faites ressortir vous-même
 	<lb xml:id="p3-l12"/>qu'il est urgent d'agir promptement et vous
 	<lb xml:id="p3-l13"/>vous fondez en cela justement sur l'état des choses
-	<lb xml:id="p3-l14"/>en <placeName type="place" key="Italien (Königreich)">Italie</placeName>, qui dites-vous, pourrait amener en
+	<lb xml:id="p3-l14"/>en <placeName key="Italien (Königreich)">Italie</placeName>, qui dites-vous, pourrait amener en
 	<lb xml:id="p3-l15"/>Janvier prochain une crise ministérielle, laquelle
 	<lb xml:id="p3-l16"/>changerait peut-être les dispositions du Gouvernement
-	<lb xml:id="p3-l17"/>
-                <placeName type="place" key="Italien (Königreich)">Italien</placeName>.
+	<lb xml:id="p3-l17"/><placeName key="Italien (Königreich)">Italien</placeName>.
 	</p>
-      <p rend="indent" xml:id="K_5999_p10">
-                <lb xml:id="p3-l18"/>Il est vrai que le Protocole final de la
-	<lb xml:id="p3-l19"/>Conférence internationale de <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName> part du
+      <p rend="indent" xml:id="K_5999_p10"><lb xml:id="p3-l18"/>Il est vrai que le Protocole final de la
+	<lb xml:id="p3-l19"/>Conférence internationale de <placeName key="Luzern (Stadt)">Lucerne</placeName> part du
 	<lb xml:id="p3-l20"/>point de vue que les 20 millions de francs de la
-	<lb xml:id="p3-l21"/>
-                <choice>
-                        <abbr>IV<hi rend="sup">e</hi> </abbr>
-                        <expan>quatrième (viertens)</expan>
-                    </choice> série d'obligations seront pris par le Consortium
+	<lb xml:id="p3-l21"/><choice><abbr>IV<hi rend="sup">e</hi> </abbr><expan>quatrième (viertens)</expan></choice> série d'obligations seront pris par le Consortium
 	<lb xml:id="p3-l22"/>et que la Compagnie obtiendra les 12 millions de
 	<lb xml:id="p3-l23"/>capital privé dont elle a encore outre cela besoin,
 	<lb xml:id="p3-l24"/>et il faut convenir que si ces suppositions ne se
@@ -213,118 +96,80 @@
 	<lb xml:id="p3-l26"/>complètement atteint son but. Mais je suppose
 	<lb xml:id="p3-l27"/>que dans ce cas les Etats s'entendraient pour
 	<lb xml:id="p3-l28"/>lever le dernier obstacle qui s'opposerait à la
-	<lb xml:id="p3-l29"/>réorganisation définitive de l'entreprise du<pb n="4"/>
-                <lb xml:id="p4-l1"/>Gothard. Je crois savoir que des membres prépon<note type="transcript">Paginierung durch den Autor am oberen linken Seitenrand: 4</note>
-                    <lb xml:id="p4-l2"/>dérants des Gouvernements intéressés pensent
-	<lb xml:id="p4-l3"/>que les choses pourraient se passer un peu
-	<lb xml:id="p4-l4"/>ainsi.
+	<lb xml:id="p3-l29"/>réorganisation définitive de l'entreprise du<pb n="4"/><lb xml:id="p4-l1"/>Gothard. Je crois savoir que des membres prépon<note type="transcript">Paginierung durch den Autor am oberen linken Seitenrand: 4</note> <lb xml:id="p4-l2" break="no"/>dérants des Gouvernements intéressés pensent
+	<lb xml:id="p4-l3" break="no"/>que les choses pourraient se passer un peu
+	<lb xml:id="p4-l4" break="no"/>ainsi.
 	</p>
-      <p rend="indent" xml:id="K_5999_p11">
-                <lb xml:id="p4-l5"/>Je vous ai déjà, dans ma précédente lettre,
+      <p rend="indent" xml:id="K_5999_p11"><lb xml:id="p4-l5"/>Je vous ai déjà, dans ma précédente lettre,
 	<lb xml:id="p4-l6"/>rendu attentif à la possibilité que les 20 et 12
 	<lb xml:id="p4-l7"/>millions susmentionnés fassent défaut à la
 	<lb xml:id="p4-l8"/>Compagnie et que, si l'on ne pouvait pas se
 	<lb xml:id="p4-l9"/>les procurer, un nouveau Traité international
-	<lb xml:id="p4-l10"/>basé sur la dernière Conférence de <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName> deviendrait
+	<lb xml:id="p4-l10"/>basé sur la dernière Conférence de <placeName key="Luzern (Stadt)">Lucerne</placeName> deviendrait
 	<lb xml:id="p4-l11"/>presque illusoire. Mais je ne vous disais pas
 	<lb xml:id="p4-l12"/>cela dans le but de vous engager à faire vos
-	<lb xml:id="p4-l13"/>efforts pour que le Protocole final de <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName> <lb xml:id="p4-l14"/>fût remplacé par un autre Protocole d'une
+	<lb xml:id="p4-l13"/>efforts pour que le Protocole final de <placeName key="Luzern (Stadt)">Lucerne</placeName> <lb xml:id="p4-l14"/>fût remplacé par un autre Protocole d'une
 	<lb xml:id="p4-l15"/>nouvelle Conférence internationale. Bien loin de
 	<lb xml:id="p4-l16"/>là, je disais au contraire, – et cela en tête de
 	<lb xml:id="p4-l17"/>ma lettre, – que j'avais lu avec plaisir dans
 	<lb xml:id="p4-l18"/>votre missive du <date when="1877-09-10">10 Septembre</date> que le Gouvernement
-	<lb xml:id="p4-l19"/>
-                <placeName type="place" key="Italien (Königreich)">Italien</placeName> était toujours dans l'idée d'accepter
-	<lb xml:id="p4-l20"/>entièrement le Protocole de <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName>. Mon idée
+	<lb xml:id="p4-l19"/><placeName key="Italien (Königreich)">Italien</placeName> était toujours dans l'idée d'accepter
+	<lb xml:id="p4-l20"/>entièrement le Protocole de <placeName key="Luzern (Stadt)">Lucerne</placeName>. Mon idée
 	<lb xml:id="p4-l21"/>était que, sans toucher au dit Protocole, vous
 	<lb xml:id="p4-l22"/>devriez sonder le terrain pour savoir si, dans
 	<lb xml:id="p4-l23"/>le cas où les 20 + 12 millions ne pourraient
 	<lb xml:id="p4-l24"/>pas être obtenus avant ou après l'approbation
-	<lb xml:id="p4-l25"/>définitive du Protocole de <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName>, on serait
-	<lb xml:id="p4-l26"/>disposé en <placeName type="place" key="Italien (Königreich)">Italie</placeName> à accorder une garantie
+	<lb xml:id="p4-l25"/>définitive du Protocole de <placeName key="Luzern (Stadt)">Lucerne</placeName>, on serait
+	<lb xml:id="p4-l26"/>disposé en <placeName key="Italien (Königreich)">Italie</placeName> à accorder une garantie
 	<lb xml:id="p4-l27"/>d'intérêts.
 	</p>
-      <p rend="indent" xml:id="K_5999_p12">
-                <lb xml:id="p4-l28"/>Je vous engage donc à agir en première
-	<lb xml:id="p4-l29"/>ligne et de toutes vos forces pour l'acceptation<pb n="5"/>
-                <lb xml:id="p5-l1"/>pure et simple du Protocole final de <placeName type="place" key="Luzern (Stadt)">Lucer<lb break="no" xml:id="p5-l2"/>
-                    <note type="transcript">Paginierung durch den Autor am oberen linken Seitenrand: 5</note>
+      <p rend="indent" xml:id="K_5999_p12"><lb xml:id="p4-l28"/>Je vous engage donc à agir en première
+	<lb xml:id="p4-l29"/>ligne et de toutes vos forces pour l'acceptation<pb n="5"/><lb xml:id="p5-l1"/>pure et simple du Protocole final de <placeName key="Luzern (Stadt)">Lucer<lb xml:id="p5-l2" break="no"/><note type="transcript">Paginierung durch den Autor am oberen linken Seitenrand: 5</note>
 	 ne</placeName>. L'occasion se présentant tôt ou tard de
 	<lb xml:id="p5-l3"/>sonder si, dans les régions gouvernementales
-	<lb xml:id="p5-l4"/>de l'<placeName type="place" key="Italien (Königreich)">Italie</placeName>, on serait disposé à prêter la main
+	<lb xml:id="p5-l4"/>de l'<placeName key="Italien (Königreich)">Italie</placeName>, on serait disposé à prêter la main
 	<lb xml:id="p5-l5"/>à une garantie d'intérêts dans le cas où le
 	<lb xml:id="p5-l6"/>capital privé encore nécessaire nous ferait
 	<lb xml:id="p5-l7"/>défaut, veuillez en profiter pourvu toutefois
 	<lb xml:id="p5-l8"/>que ce ne soit jamais aux dépens du but
 	<lb xml:id="p5-l9"/>qui est le principal pour le moment actuel,
-	<lb xml:id="p5-l10"/>
-                <choice>
-                        <abbr>c. à d.</abbr>
-                        <expan>c'est à dire (das heisst)</expan>
-                    </choice>
-                <note type="transcript">c'est à dire</note> de l'acceptation pure et simple du Pro<lb break="no" xml:id="p5-l11"/>tocole de <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName>.
+	<lb xml:id="p5-l10"/><choice><abbr>c. à d.</abbr><expan>c'est à dire (das heisst)</expan></choice><note type="transcript">c'est à dire</note> de l'acceptation pure et simple du Pro<lb xml:id="p5-l11" break="no"/>tocole de <placeName key="Luzern (Stadt)">Lucerne</placeName>.
 	</p>
-      <p rend="indent" xml:id="K_5999_p13">
-                <lb xml:id="p5-l12"/>Avant de quitter ce sujet, j'ai encore une
+      <p rend="indent" xml:id="K_5999_p13"><lb xml:id="p5-l12"/>Avant de quitter ce sujet, j'ai encore une
 	<lb xml:id="p5-l13"/>rectification à faire relativement aux longueurs
-	<lb xml:id="p5-l14"/>et lenteurs qu'on paraît reprocher en <placeName type="place" key="Italien (Königreich)">Italie</placeName> <lb xml:id="p5-l15"/>au Conseil fédéral Suisse. Les Délégués de
-	<lb xml:id="p5-l16"/>l'<placeName type="place" key="Italien (Königreich)">Italie</placeName> et de l'<placeName type="place" key="Deutsches Reich">Allemagne</placeName> se sont engagés dans
-	<lb xml:id="p5-l17"/>le Protocole de <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName> à faire connaître au
+	<lb xml:id="p5-l14"/>et lenteurs qu'on paraît reprocher en <placeName key="Italien (Königreich)">Italie</placeName> <lb xml:id="p5-l15"/>au Conseil fédéral Suisse. Les Délégués de
+	<lb xml:id="p5-l16"/>l'<placeName key="Italien (Königreich)">Italie</placeName> et de l'<placeName key="Deutsches Reich">Allemagne</placeName> se sont engagés dans
+	<lb xml:id="p5-l17"/>le Protocole de <placeName key="Luzern (Stadt)">Lucerne</placeName> à faire connaître au
 	<lb xml:id="p5-l18"/>Conseil fédéral Suisse jusqu'au <date when="1877-07-31">31 Juillet</date> les
-	<lb xml:id="p5-l19"/>décisions de leurs Gouvernements respectifs concer<lb break="no" xml:id="p5-l20"/>nant ce Protocole. Ce délai n'a été observé ni
-	<lb xml:id="p5-l21"/>par l'un ni par l'autre de ces deux Etats, tou<lb break="no" xml:id="p5-l22"/>tefois l'<placeName type="place" key="Deutsches Reich">Allemagne</placeName> a demandé une prolongation
-	<lb xml:id="p5-l23"/>jusqu'à la fin du mois de Septembre et <del>ces
-	<lb xml:id="p5-l24"/>derniers jours</del>
-                    <add>tout récemment</add> le Gouvernement <placeName type="place" key="Deutsches Reich">Allemand</placeName> a
-	<lb xml:id="p5-l25"/>fait savoir au Conseil fédéral Suisse qu'il no<lb break="no" xml:id="p5-l26"/>tifiera sous peu de jours son adhésion au
-	<lb xml:id="p5-l27"/>Protocole final de <placeName type="place" key="Luzern (Stadt)">Lucerne</placeName>. De la part de
-	<lb xml:id="p5-l28"/>l'<placeName type="place" key="Italien (Königreich)">Italie</placeName>, aucune communication de ce genre
-	<lb xml:id="p5-l29"/>n'a été faite depuis que la Conférence interna<pb n="6"/>
-                    <lb xml:id="p6-l1"/>tionale s'est séparée. Le Conseil fédéral, de<note type="transcript">Paginierung durch den Autor am oberen linken Seitenrand: 6</note>
-                    <lb xml:id="p6-l2"/>son côté, ne tardera sans doute pas, aussitôt
-	<lb xml:id="p6-l3"/>qu'il aura reçu les déclarations des deux autres
-	<lb xml:id="p6-l4"/>Etats contractants, à donner pareillement son
-	<lb xml:id="p6-l5"/>adhésion sous réserve de ratification des Chambres,
-	<lb xml:id="p6-l6"/>réserve qui d'ailleurs sera fait aussi par les
-	<lb xml:id="p6-l7"/>Gouvernements des deux autres Etats. Je ne
-	<lb xml:id="p6-l8"/>vois donc pas qu'il y ait de motif pour
-	<lb xml:id="p6-l9"/>reprocher au Conseil fédéral des longueurs et des
-	<lb xml:id="p6-l10"/>lenteurs dans la tractation de cette affaire. <seg type="com">
-                    <note xml:id="K_5999_c2">Nachträgliche Notiz von dritter Hand mit Bleistift: <bibl>
-                            <choice>
-                                    <abbr>NB</abbr>
-                                    <expan>Nota Bene (beachte)</expan>
-                                </choice> 2 Zeilen Zwischenraum</bibl>.</note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_5999_p14">
-                <lb xml:id="p6-l11"/>En ce qui concerne votre idée d'intéresser
-	<lb xml:id="p6-l12"/>la finance <placeName type="place" key="Italien (Königreich)">italienne</placeName> dans la construction des lignes
+	<lb xml:id="p5-l19"/>décisions de leurs Gouvernements respectifs concer<lb xml:id="p5-l20" break="no"/>nant ce Protocole. Ce délai n'a été observé ni
+	<lb xml:id="p5-l21" break="no"/>par l'un ni par l'autre de ces deux Etats, tou<lb xml:id="p5-l22" break="no"/>tefois l'<placeName key="Deutsches Reich">Allemagne</placeName> a demandé une prolongation
+	<lb xml:id="p5-l23" break="no"/>jusqu'à la fin du mois de Septembre et <del>ces
+	<lb xml:id="p5-l24"/>derniers jours</del> <add>tout récemment</add> le Gouvernement <placeName key="Deutsches Reich">Allemand</placeName> a
+	<lb xml:id="p5-l25" break="no"/>fait savoir au Conseil fédéral Suisse qu'il no<lb xml:id="p5-l26" break="no"/>tifiera sous peu de jours son adhésion au
+	<lb xml:id="p5-l27" break="no"/>Protocole final de <placeName key="Luzern (Stadt)">Lucerne</placeName>. De la part de
+	<lb xml:id="p5-l28" break="no"/>l'<placeName key="Italien (Königreich)">Italie</placeName>, aucune communication de ce genre
+	<lb xml:id="p5-l29" break="no"/>n'a été faite depuis que la Conférence interna<pb n="6"/><lb xml:id="p6-l1" break="no"/>tionale s'est séparée. Le Conseil fédéral, de<note type="transcript">Paginierung durch den Autor am oberen linken Seitenrand: 6</note> <lb xml:id="p6-l2" break="no"/>son côté, ne tardera sans doute pas, aussitôt
+	<lb xml:id="p6-l3" break="no"/>qu'il aura reçu les déclarations des deux autres
+	<lb xml:id="p6-l4" break="no"/>Etats contractants, à donner pareillement son
+	<lb xml:id="p6-l5" break="no"/>adhésion sous réserve de ratification des Chambres,
+	<lb xml:id="p6-l6" break="no"/>réserve qui d'ailleurs sera fait aussi par les
+	<lb xml:id="p6-l7" break="no"/>Gouvernements des deux autres Etats. Je ne
+	<lb xml:id="p6-l8" break="no"/>vois donc pas qu'il y ait de motif pour
+	<lb xml:id="p6-l9" break="no"/>reprocher au Conseil fédéral des longueurs et des
+	<lb xml:id="p6-l10" break="no"/>lenteurs dans la tractation de cette affaire. <note type="com" xml:id="K_5999_c2">Nachträgliche Notiz von dritter Hand mit Bleistift: <orig><choice><abbr>NB</abbr><expan>Nota Bene (beachte)</expan></choice> 2 Zeilen Zwischenraum</orig>.</note> </p>
+      <p rend="indent" xml:id="K_5999_p14"><lb xml:id="p6-l11"/>En ce qui concerne votre idée d'intéresser
+	<lb xml:id="p6-l12"/>la finance <placeName key="Italien (Königreich)">italienne</placeName> dans la construction des lignes
 	<lb xml:id="p6-l13"/>d'accès, vous me dites que les instituts financiers
-	<lb xml:id="p6-l14"/>
-                <placeName type="place" key="Italien (Königreich)">italiens</placeName> participeraient certainement pour une
+	<lb xml:id="p6-l14"/><placeName key="Italien (Königreich)">italiens</placeName> participeraient certainement pour une
 	<lb xml:id="p6-l15"/>somme assez forte à la formation du capital
 	<lb xml:id="p6-l16"/>privé encore nécessaire. Je vous prie de m'indiquer
 	<lb xml:id="p6-l17"/>à grands traits sous quelle forme et dans
 	<lb xml:id="p6-l18"/>quelle mesure, à votre avis, cette participation
 	<lb xml:id="p6-l19"/>pourrait avoir lieu.
 	</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_5999_p15">
-                    <lb xml:id="p6-l20"/>Dans l'attente de vos nouvelles ultérieures,
-        	<lb xml:id="p6-l21"/>
-                    <choice>
-                        <abbr>&amp;c</abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice> <choice>
-                        <abbr>&amp;c</abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice> <seg type="com">
-                        <note xml:id="K_5999_c3">Brieftext von dritter Hand ohne Unterschrift.</note>
-                    </seg> </p>
+        <p rend="indent" xml:id="K_5999_p15"><lb xml:id="p6-l20"/>Dans l'attente de vos nouvelles ultérieures,
+        	<lb xml:id="p6-l21"/><choice><abbr>&amp;c</abbr><expan>et cetera (und anderes)</expan></choice> <choice><abbr>&amp;c</abbr><expan>et cetera (und anderes)</expan></choice> <note type="com" xml:id="K_5999_c3">Brieftext von dritter Hand ohne Unterschrift.</note> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

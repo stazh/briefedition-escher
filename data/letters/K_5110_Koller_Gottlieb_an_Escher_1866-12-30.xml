@@ -1,141 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5110" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Gottlieb Koller an Alfred Escher, Basel, Sonntag, Dezember 30, 1866</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_054</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Koller Gottlieb" type="sender">Gottlieb Koller</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Basel</placeName>
-                    <date when="1866-12-30">Sonntag, Dezember 30, 1866</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-01-24" who="NS">Transkription
-                
-            </change>
-            <change when="2014-02-12" who="MB">Auszeichnung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-04-02" who="DG">Verifizierung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-07-21" who="MH">Transkriptionsverifizierung Seiterle
-                    umgesetzt
-                
-            </change>
-            <change when="2014-07-21" who="IB">Übertragung der Transkriptionsverifizierung
-                    geprüft
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_5110_p1">
-                    <lb xml:id="p1-l1"/>
-          <fw>G.
-                            KOLLER-BURCKHARDT<lb xml:id="p1-l2"/>INGENIEUR</fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5110" type="Brief"><teiHeader><fileDesc><titleStmt><title>Gottlieb Koller an Alfred Escher, Basel, Sonntag, 30. Dezember 1866</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_054</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Nordostbahn (NOB)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Koller Gottlieb" type="addressee">Gottlieb Koller</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Basel</placeName><date when="1866-12-30">30. Dezember 1866</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_5110_p1"><lb xml:id="p1-l1"/>
+          <hi rend="printed">G.
+                            KOLLER-BURCKHARDT<lb xml:id="p1-l2"/>INGENIEUR</hi>
         </p>
-      </div>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_5110_p2">
-                    <lb xml:id="p1-l3"/>
+        <p rend="right" xml:id="K_5110_p2"><lb xml:id="p1-l3"/>
           <hi>
-            <placeName type="place" key="Basel-Stadt">Basel</placeName>
-          </hi> den <date when="1866-12-30">30 <choice>
-                            <abbr>
-                            <hi>Dec</hi>.</abbr>
-                            <expan>December</expan>
-                        </choice> 1866</date>.</p>
-      </div>
-      <div type="address">
-        <p rend="center" xml:id="K_5110_p3">
-                    <lb xml:id="p1-l4"/> <choice>
-                        <abbr>
-                        <hi>Tit</hi>.</abbr>
-                        <expan>Titulo (mit Titel)</expan>
-                    </choice>
-          <choice>
-                        <abbr>HHerrn</abbr>
-                        <expan>Hohen Herrn</expan>
-                    </choice> Präsident <hi>
-                        <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> Alfr</hi>. <hi>Escher</hi>, <hi>
-                        <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> </hi>
-                </p>
+            <placeName key="Basel-Stadt">Basel</placeName>
+          </hi> den <date when="1866-12-30">30 <choice><abbr><hi>Dec</hi>.</abbr><expan>December</expan></choice> 1866</date>.</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_5110_p4">
-                    <lb xml:id="p1-l5"/>Hochgeachteter
+        <p rend="center" xml:id="K_5110_p3"><lb xml:id="p1-l4"/> <choice><abbr><hi>Tit</hi>.</abbr><expan>Titulo (mit Titel)</expan></choice>
+          <choice><abbr>HHerrn</abbr><expan>Hohen Herrn</expan></choice> Präsident <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> Alfr</hi>. <hi>Escher</hi>, <hi><placeName key="Zürich (Stadt)">Zürich</placeName> </hi></p>
+      </div>
+      <div type="opener">
+        <p rend="center" xml:id="K_5110_p4"><lb xml:id="p1-l5"/>Hochgeachteter
                     Herr,</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_5110_p5">
-                <lb xml:id="p1-l6"/>Beehre mich Ihnen im Anschlusse ein <date when="1866-12-29">gestern</date> erhaltenes Schreiben <lb xml:id="p1-l7"/>von <hi>
-                    <persName type="person" key="Ducoster Charles">Ducoster</persName> </hi>
-                <note type="transcript">sic!</note> mitzutheilen, worin derselbe
-                des Ausführlichen auf <lb xml:id="p1-l8"/>meine durch Ihre Depesche veranlaßte <choice>
-                        <abbr>telegr.</abbr>
-                        <expan>telegraphisch</expan>
-                    </choice> Anfrage antwortet. <lb xml:id="p1-l9"/>Obschon
+    </front><body>
+      <p rend="indent" xml:id="K_5110_p5"><lb xml:id="p1-l6"/>Beehre mich Ihnen im Anschlusse ein <date when="1866-12-29">gestern</date> erhaltenes Schreiben <lb xml:id="p1-l7"/>von <hi><persName key="Ducoster Charles">Ducoster</persName> </hi><note type="transcript">sic!</note> mitzutheilen, worin derselbe
+                des Ausführlichen auf <lb xml:id="p1-l8"/>meine durch Ihre Depesche veranlaßte <choice><abbr>telegr.</abbr><expan>telegraphisch</expan></choice> Anfrage antwortet. <lb xml:id="p1-l9"/>Obschon
                 ich Sie gerne mit dem Lesen von Briefen verschone, so <lb xml:id="p1-l10"/>halte ich
                 doch diese Mittheilung für wichtig genug, um Ihnen davon <lb xml:id="p1-l11"/>Kenntnis
-                zu geben, mit der Bitte Sie nachher auch Herrn <hi>
-                    <persName type="person" key="Zingg Josef">Zingg</persName> </hi> <lb xml:id="p1-l12"/>zukommen zu lassen.</p>
-      <p rend="indent" xml:id="K_5110_p6">
-                <lb xml:id="p1-l13"/>Indem ich mir erlaube diesen Anlaß zu
-                benützen, Ihnen zu Handen <lb xml:id="p1-l14"/>der <choice>
-                        <abbr>
-                    <hi>Tit</hi>.</abbr>
-                        <expan>Titulo (mit Titel)</expan>
-                    </choice> <hi>Direktion</hi> der <hi>Nordostbahn</hi> für die gütige Zusendung <lb xml:id="p1-l15"/>der Freikarte auf das Jahr 1867 meinen verbindlichsten Dank <lb xml:id="p1-l16"/>abzustatten <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> mich Ihrem fernern Wohlwollen bestens zu
+                zu geben, mit der Bitte Sie nachher auch Herrn <hi><persName key="Zingg Josef">Zingg</persName> </hi> <lb xml:id="p1-l12"/>zukommen zu lassen.</p>
+      <p rend="indent" xml:id="K_5110_p6"><lb xml:id="p1-l13"/>Indem ich mir erlaube diesen Anlaß zu
+                benützen, Ihnen zu Handen <lb xml:id="p1-l14"/>der <choice><abbr><hi>Tit</hi>.</abbr><expan>Titulo (mit Titel)</expan></choice> <hi>Direktion</hi> der <hi>Nordostbahn</hi> für die gütige Zusendung <lb xml:id="p1-l15"/>der Freikarte auf das Jahr 1867 meinen verbindlichsten Dank <lb xml:id="p1-l16"/>abzustatten <choice><abbr>u</abbr><expan>und</expan></choice> mich Ihrem fernern Wohlwollen bestens zu
                 empfehlen,</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="left" xml:id="K_5110_p7">
-                    <lb xml:id="p1-l17"/>zeichne mit hochachtungsvoller Ergebenheit</p>
+        <p rend="left" xml:id="K_5110_p7"><lb xml:id="p1-l17"/>zeichne mit hochachtungsvoller Ergebenheit</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_5110_p8">
-                    <lb xml:id="p1-l18"/>G. Koller</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_5110_p8"><lb xml:id="p1-l18"/>G. Koller</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

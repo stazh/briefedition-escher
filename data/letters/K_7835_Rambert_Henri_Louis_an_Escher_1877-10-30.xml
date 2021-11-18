@@ -1,154 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_7835" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Henri Louis Rambert an Alfred Escher, Lausanne, Dienstag, Oktober 30, 1877</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB03_003</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Rechtliches</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Rambert Henri Louis" type="sender">Henri Louis Rambert</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Lausanne</placeName>
-                    <date when="1877-10-30">Dienstag, Oktober 30, 1877</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-08-08" who="NP">transkribiert
-                
-            </change>
-            <change when="2014-06-11" who="IB">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-07-01" who="CB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-03" who="CH">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-04" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-07-10" who="CB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-14" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-14" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_7835_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_7835_c0">Nachträgliche Notiz unten in der Mitte von Eschers Hand mit Bleistift: <bibl>am <date when="1877-10-31">31. <choice>
-                                        <abbr>Oktb.</abbr>
-                                        <expan>Oktober</expan>
-                                    </choice> </date> Abends spät eingelangt.</bibl> –
-              Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <bibl>Gotthardbahn | <date when="1877-11-05">5 <choice>
-                                        <abbr>NOV.</abbr>
-                                        <expan>NOVEMBER</expan>
-                                    </choice> 1877</date>. | <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 4685.</bibl> – 
-              Nachträgliche Inhaltsangabe oben links von dritter Hand: <bibl>Ablehnung der diesseitigen Vorschläge durch Herrn <persName type="person" key="Favre Louis">Favre</persName>, <choice>
-                                    <abbr>betr.</abbr>
-                                    <expan>betreffend</expan>
-                                </choice> die Installationen. | I <choice>
-                                    <abbr>Depart.</abbr>
-                                    <expan>Departement</expan>
-                                </choice> </bibl> – 
-              Nachträgliche Notiz unten in der Mitte von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1877-11-01">1. XI. 77</date>. <choice>
-                                    <abbr>N.</abbr>
-                                    <expan>Nummer</expan>
-                                </choice> 2355.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <fw>L. RAMBERT ET <persName type="person" key="Dubrit Frédéric">F. DUBRIT</persName> </fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_7835" type="Brief"><teiHeader><fileDesc><titleStmt><title>Henri Louis Rambert an Alfred Escher, Lausanne, Dienstag, 30. Oktober 1877</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB03_003</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Rechtliches</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Rambert Henri Louis" type="addressee">Henri Louis Rambert</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Lausanne</placeName><date when="1877-10-30">30. Oktober 1877</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_7835_p1"> <note type="com" xml:id="K_7835_c0">Nachträgliche Notiz unten in der Mitte von Eschers Hand mit Bleistift: <orig>am <date when="1877-10-31">31. <choice><abbr>Oktb.</abbr><expan>Oktober</expan></choice> </date> Abends spät eingelangt.</orig> –
+              Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <orig>Gotthardbahn | <date when="1877-11-05">5 <choice><abbr>NOV.</abbr><expan>NOVEMBER</expan></choice> 1877</date>. | <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 4685.</orig> – 
+              Nachträgliche Inhaltsangabe oben links von dritter Hand: <orig>Ablehnung der diesseitigen Vorschläge durch Herrn <persName key="Favre Louis">Favre</persName>, <choice><abbr>betr.</abbr><expan>betreffend</expan></choice> die Installationen. | I <choice><abbr>Depart.</abbr><expan>Departement</expan></choice> </orig> – 
+              Nachträgliche Notiz unten in der Mitte von dritter Hand: <orig><choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1877-11-01">1. XI. 77</date>. <choice><abbr>N.</abbr><expan>Nummer</expan></choice> 2355.</orig> </note> <lb xml:id="p1-l1"/>
+          <hi rend="printed">L. RAMBERT ET <persName key="Dubrit Frédéric">F. DUBRIT</persName> </hi>
           <lb xml:id="p1-l2"/>
-          <fw>AVOCATS</fw>
+          <hi rend="printed">AVOCATS</hi>
           <lb xml:id="p1-l3"/>
-          <fw>
-            <placeName type="place" key="Lausanne">LAUSANNE</placeName>
-          </fw>
+          <hi rend="printed">
+            <placeName key="Lausanne">LAUSANNE</placeName>
+          </hi>
         </p>
-      </div>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_7835_p2">
-                    <lb xml:id="p1-l4"/>
-          <placeName type="place" key="Lausanne">Lausanne</placeName> le <date when="1877-10-30">30 <choice>
-                            <abbr>Oct.</abbr>
-                            <expan>October</expan>
-                        </choice> 1877</date> </p>
-      </div>
-      <div type="address">
-        <p rend="center" xml:id="K_7835_p3">
-                    <lb xml:id="p1-l5"/>Monsieur le Président de la Direction du
-        <lb xml:id="p1-l6"/>Chemin de fer du St Gothard à <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>.</p>
+        <p rend="right" xml:id="K_7835_p2"><lb xml:id="p1-l4"/>
+          <placeName key="Lausanne">Lausanne</placeName> le <date when="1877-10-30">30 <choice><abbr>Oct.</abbr><expan>October</expan></choice> 1877</date> </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_7835_p4">
-                    <lb xml:id="p1-l7"/>Monsieur</p>
+        <p rend="center" xml:id="K_7835_p3"><lb xml:id="p1-l5"/>Monsieur le Président de la Direction du
+        <lb xml:id="p1-l6"/>Chemin de fer du St Gothard à <placeName key="Zürich (Stadt)">Zurich</placeName>.</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_7835_p5">
-                <lb xml:id="p1-l8"/>A la suite de la réunion que nous avons eue
-        <lb xml:id="p1-l9"/>
-                <date when="1877-10-29">hier</date> à <placeName type="place" key="Genf (Stadt)">Genève</placeName>, j'ai le regret de vous dire que
-        <lb xml:id="p1-l10"/>
-                <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Favre Louis">Favre</persName> n'accepte pas les propositions que vous
+      <div type="opener">
+        <p rend="indent" xml:id="K_7835_p4"><lb xml:id="p1-l7"/>Monsieur</p>
+      </div>
+    </front><body>
+      <p rend="indent" xml:id="K_7835_p5"><lb xml:id="p1-l8"/>A la suite de la réunion que nous avons eue
+        <lb xml:id="p1-l9"/><date when="1877-10-29">hier</date> à <placeName key="Genf (Stadt)">Genève</placeName>, j'ai le regret de vous dire que
+        <lb xml:id="p1-l10"/><choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Favre Louis">Favre</persName> n'accepte pas les propositions que vous
         <lb xml:id="p1-l11"/>lui avez faites au nom de la Direction du Gothard.
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_7835_p6">
-                    <lb xml:id="p1-l12"/>Veuillez agréer, Monsieur le Président,
+        <p rend="indent" xml:id="K_7835_p6"><lb xml:id="p1-l12"/>Veuillez agréer, Monsieur le Président,
         <lb xml:id="p1-l13"/>l'assurance de ma considération distinguée.</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_7835_p7">
-                    <lb xml:id="p1-l14"/>L<hi rend="sup">s</hi> Rambert <choice>
-                        <abbr>av<hi rend="sup">t</hi> </abbr>
-                        <expan>avocat (Anwalt)</expan>
-                    </choice>
-                </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_7835_p7"><lb xml:id="p1-l14"/>L<hi rend="sup">s</hi> Rambert <choice><abbr>av<hi rend="sup">t</hi> </abbr><expan>avocat (Anwalt)</expan></choice></p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

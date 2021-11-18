@@ -1,180 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1023" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jakob Dubs an Alfred Escher, Zürich, Dienstag, April 20, 1852</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#171*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Wahlen</item>
-                        <item>Liberale Presse</item>
-                        <item>Presse (allgemein)</item>
-                        <item>Parteienstreitigkeiten</item>
-                        <item>Grosser Rat TG</item>
-                        <item>Währungssystem</item>
-                        <item>Rechtliches</item>
-                        <item>Regierungsrat TG</item>
-                        <item>Regierungsrat BE</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Dubs Jakob" type="sender">Jakob Dubs</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1852-04-20">Dienstag, April 20, 1852</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-03-08" who="WB">Provisorisch transkribiert
-                
-            </change>
-            <change when="2005-03-17" who="BF">Transkription
-        vervollständigt
-                
-            </change>
-            <change when="2010-05-05" who="SW">Von Word nach XML
-        konvertiert
-                
-            </change>
-            <change when="2012-06-20" who="SCK">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2010-05-05" who="SW">Metadaten vervollständigt
-                
-            </change>
-            <change when="2012&#xA;        -06-25" who="LM ">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2012 -06-26" who="AH ">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2012-07-10" who="FM">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="112012-20" who="CF">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2012-11-28" who="CA">Inhaltliche Qualitätsprüfung
-        umgesetzt
-                
-            </change>
-            <change when="2013-01-18" who="JM">Transkriptverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2018-11-26" who="DB">Transkriptionsverifizierung Seiterle umgesetzt
-      
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1023" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jakob Dubs an Alfred Escher, Zürich, Dienstag, 20. April 1852</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#171*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Wahlen</term><term>Liberale Presse</term><term>Presse (allgemein)</term><term>Parteienstreitigkeiten</term><term>Grosser Rat TG</term><term>Währungssystem</term><term>Rechtliches</term><term>Regierungsrat TG</term><term>Regierungsrat BE</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Dubs Jakob" type="addressee">Jakob Dubs</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1852-04-20">20. April 1852</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_1023_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> d. <date when="1852-04-20">20. April
+        <p rend="right" xml:id="K_1023_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName> d. <date when="1852-04-20">20. April
             1852</date>.</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_1023_p2">
-                    <lb xml:id="p1-l2"/>Lieber Freund!</p>
+        <p rend="center" xml:id="K_1023_p2"><lb xml:id="p1-l2"/>Lieber Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1023_p3">
-                <lb xml:id="p1-l3"/>Dein werthes<!-- <r>--> Schreiben<!--<ref type="letter" target="?" /></r> --> hat mir<lb xml:id="p1-l4"/> zuerst die Hiobspost vom Mißlingen der Abberu<lb break="no" xml:id="p1-l5"/>fung überbracht. Ich fühlte mich gedrungen, sofort<lb xml:id="p1-l6"/> an <persName type="person" key="Stämpfli Jakob">Stämpfli</persName> einige aufmunternde Worte zu richten;<lb xml:id="p1-l7"/>
-        denn es scheint mir, es dürften bittere Stunden<lb xml:id="p1-l8"/> über ihn kommen, wo er
-        Freundestrost bedarf.<lb xml:id="p1-l9"/> Ich freue mich sehr darüber, daß Du ihm gegen<lb break="no" xml:id="p1-l10"/>wärtig zur Seite stehst; es ersetzt dieß voll<lb break="no" xml:id="p1-l11"/>ständig
+    </front><body>
+      <p rend="indent" xml:id="K_1023_p3"><lb xml:id="p1-l3"/>Dein werthes<!-- <r>--> Schreiben<!--<ref type="letter" target="?" /></r> --> hat mir<lb xml:id="p1-l4"/> zuerst die Hiobspost vom Mißlingen der Abberu<lb xml:id="p1-l5" break="no"/>fung überbracht. Ich fühlte mich gedrungen, sofort<lb xml:id="p1-l6" break="no"/> an <persName key="Stämpfli Jakob">Stämpfli</persName> einige aufmunternde Worte zu richten;<lb xml:id="p1-l7" break="no"/>
+        denn es scheint mir, es dürften bittere Stunden<lb xml:id="p1-l8" break="no"/> über ihn kommen, wo er
+        Freundestrost bedarf.<lb xml:id="p1-l9" break="no"/> Ich freue mich sehr darüber, daß Du ihm gegen<lb xml:id="p1-l10" break="no"/>wärtig zur Seite stehst; es ersetzt dieß voll<lb xml:id="p1-l11" break="no"/>ständig
         die fehlenden 6000. Stimmen.</p>
-      <p rend="indent" xml:id="K_1023_p4">
-                <lb xml:id="p1-l12"/>Zweimal innert 2. Jahren aufs<lb xml:id="p1-l13"/> Haupt geschlagen zu werden
+      <p rend="indent" xml:id="K_1023_p4"><lb xml:id="p1-l12"/>Zweimal innert 2. Jahren aufs<lb xml:id="p1-l13"/> Haupt geschlagen zu werden
         in so großen Schlachten,<lb xml:id="p1-l14"/> ist keine Kleinigkeit &amp;.
-        wird auf die eigne<lb xml:id="p1-l15"/> Armee erschütternde Rückwirkungen üben. Wäre<lb xml:id="p1-l16"/>
-                <persName type="person" key="Stämpfli Jakob">Stämpfli</persName> nicht eine Natur von
-        Stahl, so würde <pb n="2"/>
-                <lb xml:id="p2-l1"/> er selbst dadurch ruinirt. Seine Festigkeit
+        wird auf die eigne<lb xml:id="p1-l15"/> Armee erschütternde Rückwirkungen üben. Wäre<lb xml:id="p1-l16"/><persName key="Stämpfli Jakob">Stämpfli</persName> nicht eine Natur von
+        Stahl, so würde <pb n="2"/><lb xml:id="p2-l1"/> er selbst dadurch ruinirt. Seine Festigkeit
           verbürgt<lb xml:id="p2-l2"/> aber dennoch den endlichen Sieg, sofern er wenigstens<lb xml:id="p2-l3"/> die eigne Partei vor Unbesonnenheiten zu bewahren<lb xml:id="p2-l4"/> vermag.</p>
-      <p rend="indent" xml:id="K_1023_p5">
-                <lb xml:id="p2-l5"/>
-        <persName type="person" key="Ehrhardt Friedrich Gustav">Ehrhard</persName> hat mir bis jetzt gar
+      <p rend="indent" xml:id="K_1023_p5"><lb xml:id="p2-l5"/>
+        <persName key="Ehrhardt Friedrich Gustav">Ehrhard</persName> hat mir bis jetzt gar
           keine<lb xml:id="p2-l6"/> Mittheilungen gemacht; ich werde ihn jetzt aufsuchen,<lb xml:id="p2-l7"/> damit er mich instruire, indem ich natürlich auf<lb xml:id="p2-l8"/> die Ergebnisse Eurer
         Arbeiten äußerst gespannt<lb xml:id="p2-l9"/> bin.</p>
-      <p rend="indent" xml:id="K_1023_p6">
-                <lb xml:id="p2-l10"/>Die <persName type="person" key="Treichler Johann Jakob">Treichlerei</persName>
-        anbelangend, habe ich<lb xml:id="p2-l11"/> mit letzter <choice>
-                        <abbr>
-                    <hi>N<hi rend="sup">o</hi>
-                    </hi> </abbr>
-                        <expan>Numero (Nummer)</expan>
-                    </choice> des
+      <p rend="indent" xml:id="K_1023_p6"><lb xml:id="p2-l10"/>Die <persName key="Treichler Johann Jakob">Treichlerei</persName>
+        anbelangend, habe ich<lb xml:id="p2-l11"/> mit letzter <choice><abbr><hi>N<hi rend="sup">o</hi></hi> </abbr><expan>Numero (Nummer)</expan></choice> des
         LandBoten die Kritik des<lb xml:id="p2-l12"/> Programms abgeschlossen &amp;.
-        wäre der Ansicht, man<lb xml:id="p2-l13"/> sollte ihm nun für die nächste Zukunft nicht<lb xml:id="p2-l14"/> allzuviel Ehre erweisen, Angriffe kurz pa<lb break="no" xml:id="p2-l15"/>riren,
-        daneben aber das Publikum, das wie<lb xml:id="p2-l16"/> mir vielfach verdeutet wird, einstweilen
-          genug<lb xml:id="p2-l17"/> hat, mit andern Dingen beschäftigen. <persName type="person" key="Treichler Johann Jakob">Treichlers</persName>
-                    <lb xml:id="p2-l18"/> Politik ist jetzt, bis
-        1854. beständig das Feuer <pb n="3"/>
-                    <lb xml:id="p3-l1"/> insoweit zu unterhalten, daß es nicht
-        ganz ausgeht. In<lb xml:id="p3-l2"/> unserer Politik dürfte es deshalb liegen, so wenig Holz<lb xml:id="p3-l3"/> als möglich zuzutragen.</p>
-      <p rend="indent" xml:id="K_1023_p7">
-                <lb xml:id="p3-l4"/>
-        <persName type="person" key="Snell Ludwig">Snells</persName> Artikel in der <placeName type="place" key="Bern">Berner</placeName> Zeitung ist zwar<lb xml:id="p3-l5"/> für uns Beide sehr
+        wäre der Ansicht, man<lb xml:id="p2-l13"/> sollte ihm nun für die nächste Zukunft nicht<lb xml:id="p2-l14"/> allzuviel Ehre erweisen, Angriffe kurz pa<lb xml:id="p2-l15" break="no"/>riren,
+        daneben aber das Publikum, das wie<lb xml:id="p2-l16" break="no"/> mir vielfach verdeutet wird, einstweilen
+          genug<lb xml:id="p2-l17" break="no"/> hat, mit andern Dingen beschäftigen. <persName key="Treichler Johann Jakob">Treichlers</persName> <lb xml:id="p2-l18" break="no"/> Politik ist jetzt, bis
+        1854. beständig das Feuer <pb n="3"/><lb xml:id="p3-l1" break="no"/> insoweit zu unterhalten, daß es nicht
+        ganz ausgeht. In<lb xml:id="p3-l2" break="no"/> unserer Politik dürfte es deshalb liegen, so wenig Holz<lb xml:id="p3-l3" break="no"/> als möglich zuzutragen.</p>
+      <p rend="indent" xml:id="K_1023_p7"><lb xml:id="p3-l4"/>
+        <persName key="Snell Ludwig">Snells</persName> Artikel in der <placeName key="Bern">Berner</placeName> Zeitung ist zwar<lb xml:id="p3-l5"/> für uns Beide sehr
         freundschaftlich gehalten, mit Bezug<lb xml:id="p3-l6"/> auf die Sache selbst aber mit solchen
-        Klauseln verbarri<lb break="no" xml:id="p3-l7"/>kadirt, daß man wohl sieht, daß er nicht mit<!-- "mir" zu "mit" geändert, CF, 20.11.2012 --> ganzem<lb xml:id="p3-l8"/> Herzen in dem Ding
-        ist. <persName type="person" key="Snell Ludwig">S.</persName> wünscht die Pr <supplied type="unclear">...</supplied>
-                    <note type="transcript">Rest der
-          Zeile nicht auf der Kopie!</note>
-                    <lb xml:id="p3-l9"/>
-                    <choice>
-                        <abbr>&amp;. and.</abbr>
-                        <expan>und andere</expan>
-                    </choice> derartigen Kram. Es ist mir immer <supplied type="unclear">...</supplied>
-                    <note type="transcript">Rest der Zeile nicht auf der Kopie!</note>
-                    <lb xml:id="p3-l10"/> daß er sich
-        mit andern, als rein politischen <supplied type="unclear">...</supplied>
-                    <note type="transcript">Rest der Zeile nicht auf der
-          Kopie!</note>
-                    <lb xml:id="p3-l11"/> Fragen niemals <hi>ex fundamento</hi> beschäftigt habe &amp;. des<lb break="no" xml:id="p3-l12"/>halb durch gute Zwecke zu unrichtigen
-        Mitteln verführt<lb xml:id="p3-l13"/> werde.</p>
-      <p rend="indent" xml:id="K_1023_p8">
-                <lb xml:id="p3-l14"/>Ueber die hiesige <choice>
-                        <abbr>polit.</abbr>
-                        <expan>politisch</expan>
-                    </choice> Stimmung kann ich
+        Klauseln verbarri<lb xml:id="p3-l7" break="no"/>kadirt, daß man wohl sieht, daß er nicht mit<!-- "mir" zu "mit" geändert, CF, 20.11.2012 --> ganzem<lb xml:id="p3-l8" break="no"/> Herzen in dem Ding
+        ist. <persName key="Snell Ludwig">S.</persName> wünscht die Pr <add type="?">...</add><note type="transcript">Rest der
+          Zeile nicht auf der Kopie!</note> <lb xml:id="p3-l9" break="no"/><choice><abbr>&amp;. and.</abbr><expan>und andere</expan></choice> derartigen Kram. Es ist mir immer <add type="?">...</add><note type="transcript">Rest der Zeile nicht auf der Kopie!</note> <lb xml:id="p3-l10" break="no"/> daß er sich
+        mit andern, als rein politischen <add type="?">...</add><note type="transcript">Rest der Zeile nicht auf der
+          Kopie!</note> <lb xml:id="p3-l11" break="no"/> Fragen niemals <hi>ex fundamento</hi> beschäftigt habe &amp;. des<lb xml:id="p3-l12" break="no"/>halb durch gute Zwecke zu unrichtigen
+        Mitteln verführt<lb xml:id="p3-l13" break="no"/> werde.</p>
+      <p rend="indent" xml:id="K_1023_p8"><lb xml:id="p3-l14"/>Ueber die hiesige <choice><abbr>polit.</abbr><expan>politisch</expan></choice> Stimmung kann ich
           Dir<lb xml:id="p3-l15"/> nur gute Mittheilungen machen; der letzte Große Rath<lb xml:id="p3-l16"/>
         hat das Volk befriedigt &amp;. die Münzeinlösung hat ganz<lb xml:id="p3-l17"/> die gehoffte, auf praktische Fragen ablenkende, Wirkung<lb xml:id="p3-l18"/> hervorgebracht.
  –
-        Dagegen steht es nach Privatmittheilungen<lb xml:id="p3-l19"/> aus dem <placeName type="place" key="Thurgau">Thurgau</placeName> dort für <persName type="person" key="Kern Johann Konrad">Kern</persName> schlimm.</p>
-    </div>
-        </body>
-    <back>
+        Dagegen steht es nach Privatmittheilungen<lb xml:id="p3-l19"/> aus dem <placeName key="Thurgau">Thurgau</placeName> dort für <persName key="Kern Johann Konrad">Kern</persName> schlimm.</p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_1023_p9">
-                    <lb xml:id="p3-l20"/>Dir viele Freuden wünschend, grüßt Dich von<lb xml:id="p3-l21"/> Herzen</p>
-        <p rend="center" xml:id="K_1023_p10">
-                    <lb xml:id="p3-l22"/>Dein</p>
+        <p rend="indent" xml:id="K_1023_p9"><lb xml:id="p3-l20"/>Dir viele Freuden wünschend, grüßt Dich von<lb xml:id="p3-l21"/> Herzen</p>
+        <p rend="center" xml:id="K_1023_p10"><lb xml:id="p3-l22"/>Dein</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1023_p11">
-                    <lb xml:id="p3-l23"/>J. Dubs. </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_1023_p11"><lb xml:id="p3-l23"/>J. Dubs. </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

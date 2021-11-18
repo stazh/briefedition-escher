@@ -1,138 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1513" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Christian Kohler an Alfred Escher, Genf, Donnerstag, September 11, 1856</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Abschrift">
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#51*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Schweizerische Südostbahn (SOB)</item>
-                        <item>Eisenbahnen Verträge</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Kohler Christian" type="sender">Christian Kohler</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Genf</placeName>
-                    <date when="1856-09-11">Donnerstag, September 11, 1856</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-06-11" who="LH">Migration nach XML
-                
-            </change>
-            <change when="2013-06-12" who="CH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-17" who="JS">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-19" who="NB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-07-23" who="CB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-08-15" who="CB">Transkriptionsverfizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2013-08-22" who="JS">Übertragung Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2013-11-04" who="CA">Inhaltliche Qualitätsprüfung
-        umgesetzt
-                
-            </change>
-            <change when="2013-11-04" who="CA">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_1513_p1">
-                    <lb xml:id="p1-l1"/>
-          <fw>SCHWEIZERISCHE 
-            <lb xml:id="p1-l2"/>BUNDESCANZLEI</fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1513" type="Brief" subtype="Abschrift"><teiHeader><fileDesc><titleStmt><title>Christian Kohler an Alfred Escher, Genf, Donnerstag, 11. September 1856</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#51*</idno><idno>J I.67-5.51</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Finanzierung</term><term>Schweizerische Südostbahn (SOB)</term><term>Eisenbahnen Verträge</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Kohler Christian" type="addressee">Christian Kohler</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Genf</placeName><date when="1856-09-11">11. September 1856</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_1513_p1"><lb xml:id="p1-l1"/>
+          <hi rend="printed">SCHWEIZERISCHE 
+            <lb xml:id="p1-l2"/>BUNDESCANZLEI</hi>
         </p>
-      </div>
-      <note type="annotation">
-                <p rend="left" xml:id="K_1513_p2">
-                    <lb xml:id="p1-l3"/>
+      
+      <div type="annotation"><p rend="left" xml:id="K_1513_p2"><lb xml:id="p1-l3"/>
         <hi rend="underline">Copie</hi>
-      </p> </note>
+      </p> </div>
       <div type="dateline">
-        <p rend="right" xml:id="K_1513_p3">
-                    <lb xml:id="p1-l4"/>
-          <placeName type="place" key="Genf (Stadt)">Genève</placeName>, <date when="1856-09-11">11 Septembre 1856</date> </p>
+        <p rend="right" xml:id="K_1513_p3"><lb xml:id="p1-l4"/>
+          <placeName key="Genf (Stadt)">Genève</placeName>, <date when="1856-09-11">11 Septembre 1856</date> </p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_1513_p4">
-                    <lb xml:id="p1-l5"/>Mon cher Monsieur Escher.</p>
+        <p rend="center" xml:id="K_1513_p4"><lb xml:id="p1-l5"/>Mon cher Monsieur Escher.</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1513_p5">
-                <lb xml:id="p1-l6"/>Privé de vos lettres depuis la mienne du <date when="1856-09-08">8 courant</date>,
+    </front><body>
+      <p rend="indent" xml:id="K_1513_p5"><lb xml:id="p1-l6"/>Privé de vos lettres depuis la mienne du <date when="1856-09-08">8 courant</date>,
         <lb xml:id="p1-l7"/>je m'empresse de vous envoyer ci-joint la copie du traité
-            <lb xml:id="p1-l8"/>en question; <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Bartholony François">Bartholony</persName> vient de le recevoir à l'instant
+            <lb xml:id="p1-l8"/>en question; <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Bartholony François">Bartholony</persName> vient de le recevoir à l'instant
         <lb xml:id="p1-l9"/>accompagné de l'incluse: veuillez me retourner l'un et
         <lb xml:id="p1-l10"/>l'autre après en avoir pris connaissance.</p>
-      <p rend="indent" xml:id="K_1513_p6">
-                <lb xml:id="p1-l11"/>Je m'abstiens de commenter ce traité ayant à
+      <p rend="indent" xml:id="K_1513_p6"><lb xml:id="p1-l11"/>Je m'abstiens de commenter ce traité ayant à
         <lb xml:id="p1-l12"/>peine eu le temps de le lire, mais si vous voulez que
         <lb xml:id="p1-l13"/>nous en causions et que nous en discutions l'application
         <lb xml:id="p1-l14"/>à nos vues générales, veuillez me le dire soit par lettre
-        <lb xml:id="p1-l15"/>soit par télégraphe et j'irai alors vous trouver à <placeName type="place" key="Bern (Stadt)">Berne</placeName> <lb xml:id="p1-l16"/>la semaine prochaine.</p>
-      <p rend="indent" xml:id="K_1513_p7">
-                <lb xml:id="p1-l17"/>
-        <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-        <persName type="person" key="Bartholony François">Bartholony</persName> me charge de vour dire que dans
-        <lb xml:id="p1-l18"/>le cas où vous désirez obtenir pour le Crédit de <placeName type="place" key="Zürich">Zurich</placeName>,
+        <lb xml:id="p1-l15"/>soit par télégraphe et j'irai alors vous trouver à <placeName key="Bern (Stadt)">Berne</placeName> <lb xml:id="p1-l16"/>la semaine prochaine.</p>
+      <p rend="indent" xml:id="K_1513_p7"><lb xml:id="p1-l17"/>
+        <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice>
+        <persName key="Bartholony François">Bartholony</persName> me charge de vour dire que dans
+        <lb xml:id="p1-l18"/>le cas où vous désirez obtenir pour le Crédit de <placeName key="Zürich">Zurich</placeName>,
         <lb xml:id="p1-l19"/>une part d'Actions du Sud-Est, vous n'aurez qu'à m'en
         <lb xml:id="p1-l20"/>avertir et qu'il fera le nécessaire pour vous satisfaire.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_1513_p8">
-                    <lb xml:id="p1-l21"/>Recevez, Monsieur, mes sincères salutations.</p>
+        <p rend="indent" xml:id="K_1513_p8"><lb xml:id="p1-l21"/>Recevez, Monsieur, mes sincères salutations.</p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_1513_p9">
-                    <lb xml:id="p1-l22"/>
-          <choice>
-                        <abbr>Sig.</abbr>
-                        <expan>Signirt</expan>
-                    </choice> C. Kohler.</p>
+      <div type="signature">
+        <p rend="center" xml:id="K_1513_p9"><lb xml:id="p1-l22"/>
+          <choice><abbr>Sig.</abbr><expan>Signirt</expan></choice> C. Kohler.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

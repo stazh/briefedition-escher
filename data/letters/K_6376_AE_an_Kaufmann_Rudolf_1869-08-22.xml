@@ -1,118 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6376" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Rudolf Kaufmann, Zürich, Sonntag, August 22, 1869</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Abzug">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_014</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Bankinstitute</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Kaufmann Rudolf" type="addressee">Rudolf Kaufmann</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1869-08-22">Sonntag, August 22, 1869</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-09-12" who="FM">transkribiert
-                
-            </change>
-            <change when="2014-04-16" who="MB">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-06-18" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-06-18" who="SG">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-08" who="CH">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-18" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-            <change when="2014-10-01" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-10-01" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6376" type="Brief" subtype="Abzug"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Rudolf Kaufmann, Zürich, Sonntag, 22. August 1869</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_014</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Eisenbahnen Finanzierung</term><term>Bankinstitute</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Kaufmann Rudolf" type="sender">Rudolf Kaufmann</persName><placeName>Zürich</placeName><date when="1869-08-22">22. August 1869</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="left" xml:id="K_6376_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_6376_c0">Nachträgliche Adresse oben links von Eschers Hand mit Bleistift: <bibl>H<supplied>errn</supplied> Rudolf Kaufmann, | <placeName type="place" key="Basel-Stadt">Basel</placeName>
-                            </bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>Hochgeehrter Herr!
+        <p rend="left" xml:id="K_6376_p1"> <note type="com" xml:id="K_6376_c0">Nachträgliche Adresse oben links von Eschers Hand mit Bleistift: <orig>H<add>errn</add> Rudolf Kaufmann, | <placeName key="Basel-Stadt">Basel</placeName></orig>.</note> <lb xml:id="p1-l1"/>Hochgeehrter Herr!
                </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_6376_p2">
-                <lb xml:id="p1-l2"/>Beiliegend beehre ich mich, Ihnen
-                <lb xml:id="p1-l3"/>gemäß Ihrem Wunsche 3 weitere Exempla<lb break="no" xml:id="p1-l4"/>re des Statutenentwurfes zu übermitteln.
-                <lb xml:id="p1-l5"/>Der Beschluß des Consortiums vom <date when="1869-08-19">letzten
+    </front><body>
+      <p rend="indent" xml:id="K_6376_p2"><lb xml:id="p1-l2"/>Beiliegend beehre ich mich, Ihnen
+                <lb xml:id="p1-l3"/>gemäß Ihrem Wunsche 3 weitere Exempla<lb xml:id="p1-l4" break="no"/>re des Statutenentwurfes zu übermitteln.
+                <lb xml:id="p1-l5" break="no"/>Der Beschluß des Consortiums vom <date when="1869-08-19">letzten
                 <lb xml:id="p1-l6"/>Donnerstage</date> ging eben lediglich dahin, daß
-                <lb xml:id="p1-l7"/>jedem Mitgliede desselben, also jedem
-                <lb xml:id="p1-l8"/>ihm angehörenden Bankinstitute, Bank<lb break="no" xml:id="p1-l9"/>vereine <choice>
-                        <abbr>u. s. f.</abbr>
-                        <expan>und so fort</expan>
-                    </choice> Statutenexemplare zu<lb break="no" xml:id="p1-l10"/>gestellt werden sollen.
+                <lb xml:id="p1-l7" break="no"/>jedem Mitgliede desselben, also jedem
+                <lb xml:id="p1-l8" break="no"/>ihm angehörenden Bankinstitute, Bank<lb xml:id="p1-l9" break="no"/>vereine <choice><abbr>u. s. f.</abbr><expan>und so fort</expan></choice> Statutenexemplare zu<lb xml:id="p1-l10" break="no"/>gestellt werden sollen.
             </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_6376_p3">
-                    <lb xml:id="p1-l11"/>Stets zu Ihren Diensten zeichne
+        <p rend="indent" xml:id="K_6376_p3"><lb xml:id="p1-l11"/>Stets zu Ihren Diensten zeichne
             <lb xml:id="p1-l12"/>ich in vorzüglicher Hochachtung</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_6376_p4">
-                    <lb xml:id="p1-l13"/>
-                    <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_6376_p4"><lb xml:id="p1-l13"/><choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_6376_p5">
-                    <lb xml:id="p1-l14"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+        <p rend="left" xml:id="K_6376_p5"><lb xml:id="p1-l14"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
           <lb xml:id="p1-l15"/>
-          <date when="1869-08-22">22 <choice>
-                            <abbr>Aug.</abbr>
-                            <expan>August</expan>
-                        </choice> 1869</date>
+          <date when="1869-08-22">22 <choice><abbr>Aug.</abbr><expan>August</expan></choice> 1869</date>
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

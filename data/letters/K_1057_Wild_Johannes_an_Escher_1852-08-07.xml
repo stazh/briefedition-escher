@@ -1,220 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1057" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johannes Wild an Alfred Escher, Bern, Samstag, August 7, 1852</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Entwurf">
-                        <institution>ETH-Bibliothek</institution>
-                        <idno type="original">Hs 371</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Erziehungsrat ZH</item>
-                        <item>Industrieschule (ZH)</item>
-                        <item>Demissionen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Wild Johannes" type="sender">Johannes Wild</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1852-08-07">Samstag, August 7, 1852</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-02-13" who="SCK">Migration nach XML
-                
-            </change>
-            <change when="2013-06-04" who="MS">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-08" who="DG">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-12" who="RO">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-07-24" who="NB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-08-23" who="AO">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2013-10-17" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-11-01" who="BF">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-30" who="NS">Transkriptionsverifizierung T.Binder umgesetzt
-                
-            </change>
-            <change when="2014-08-12" who="SWK">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="right" xml:id="K_1057_p1">
-                    <lb xml:id="p1-l1"/>An die <choice>
-                        <abbr>Hochl.</abbr>
-                        <expan>Hochlöblich</expan>
-                    </choice> <hi>Direction</hi> des <choice>
-                        <abbr>Erziehungswss</abbr>
-                        <expan>Erziehungswesens</expan>
-                    </choice> <lb xml:id="p1-l2"/>im <choice>
-                        <abbr>K.</abbr>
-                        <expan>Kanton</expan>
-                    </choice> <placeName type="place" key="Zürich">
-                        <hi>Zürich</hi>
-                    </placeName>
-                </p>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1057" type="Brief" subtype="Entwurf"><teiHeader><fileDesc><titleStmt><title>Johannes Wild an Alfred Escher, Bern, Samstag, 07. August 1852</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>ETH-Bibliothek</institution><idno>Hs 371</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Erziehungsrat ZH</term><term>Industrieschule (ZH)</term><term>Demissionen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Wild Johannes" type="addressee">Johannes Wild</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1852-08-07">07. August 1852</date></correspAction><correspAction type="received"><placeName>Bern</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
+        <p rend="right" xml:id="K_1057_p1"><lb xml:id="p1-l1"/>An die <choice><abbr>Hochl.</abbr><expan>Hochlöblich</expan></choice> <hi>Direction</hi> des <choice><abbr>Erziehungswss</abbr><expan>Erziehungswesens</expan></choice> <lb xml:id="p1-l2"/>im <choice><abbr>K.</abbr><expan>Kanton</expan></choice> <placeName key="Zürich"><hi>Zürich</hi></placeName></p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_1057_p2">
-                    <lb xml:id="p1-l3"/>Hochgeachter<note type="transcript">sic!</note> Herr!</p>
+        <p rend="center" xml:id="K_1057_p2"><lb xml:id="p1-l3"/>Hochgeachter<note type="transcript">sic!</note> Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1057_p3">
-                <lb xml:id="p1-l4"/>In Folge meiner Berufung nach
-				<lb xml:id="p1-l5"/>
-                <placeName type="place" key="Bern (Stadt)">Bern</placeName> sehe ich mich <del>genöt</del> veranlaßt <del>bei</del> <lb xml:id="p1-l6"/>Ihnen <del>um</del> meine Entlassung aus der
-				<lb xml:id="p1-l7"/>Aufsichts- <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Aufnahmskommission<note type="transcript">sic!</note> der
+    </front><body>
+      <p rend="indent" xml:id="K_1057_p3"><lb xml:id="p1-l4"/>In Folge meiner Berufung nach
+				<lb xml:id="p1-l5"/><placeName key="Bern (Stadt)">Bern</placeName> sehe ich mich <del>genöt</del> veranlaßt <del>bei</del> <lb xml:id="p1-l6"/>Ihnen <del>um</del> meine Entlassung aus der
+				<lb xml:id="p1-l7"/>Aufsichts- <choice><abbr>u.</abbr><expan>und</expan></choice> Aufnahmskommission<note type="transcript">sic!</note> der
 				<lb xml:id="p1-l8"/>Industrieschule einzureichen.<note type="transcript">durchgestrichener Abschnitt, ersetzt mit Text von Seite 2</note> <del>Nicht <lb xml:id="p1-l9"/>ohne Beda einiges Bedauern scheide ich 
 				<lb xml:id="p1-l10"/>von der mir lieb gewordenen Anstalt
 				<lb xml:id="p1-l11"/>aus dieser Behörde nach dem ich in der ich 
-					<lb xml:id="p1-l12"/>bis dahin <add>
-                        <supplied type="unclear">...</supplied>
-                    </add> noch sehr wenig zum Nutz<supplied>en</supplied> <lb xml:id="p1-l13"/>zum Frommen der Anstalt <add>wirken konnte</add> <supplied type="unclear">deren Organisa</supplied> <lb break="no" xml:id="p1-l14"/>tion mir von Tag zu Tag weil mir für
-				<lb xml:id="p1-l15"/>dergleiche Geschäfte die so nothwendige Er<lb break="no" xml:id="p1-l16"/>fahrung abg mangelte &amp; weil ich <add>ob</add> Gleichwohl
-				  <lb xml:id="p1-l17"/>
-                        <add>
-                        <supplied type="unclear">...</supplied> </add> die Uebrzeugug in mir trage, daß in denj.
-					<lb xml:id="p1-l18"/>Fächern, deren <add>Be</add>Aufsichtigung vorzugsweise
-					<lb xml:id="p1-l19"/>mir zugewiesen wurde, <add>mit d. Zeit</add> noch manche <supplied type="unclear">ersprießliches</supplied>
-                        <lb xml:id="p1-l20"/>hätte Verbessung möglich ist.</del> <pb n="2"/>
-                <lb xml:id="p2-l1"/>Nicht ohne Bedauern scheide ich aus dieser Behörde
-				<lb xml:id="p2-l2"/>
-                <del>einer</del>eines<del>seits</del> <add>theils</add> weil ich a<del>us Mangel bisdahin der hiefür nöthigen
+					<lb xml:id="p1-l12"/>bis dahin <add><add type="?">...</add></add> noch sehr wenig zum Nutz<add>en</add> <lb xml:id="p1-l13"/>zum Frommen der Anstalt <add>wirken konnte</add> <add type="?">deren Organisa</add> <lb xml:id="p1-l14" break="no"/>tion mir von Tag zu Tag weil mir für
+				<lb xml:id="p1-l15" break="no"/>dergleiche Geschäfte die so nothwendige Er<lb xml:id="p1-l16" break="no"/>fahrung abg mangelte &amp; weil ich <add>ob</add> Gleichwohl
+				  <lb xml:id="p1-l17" break="no"/><add><add type="?">...</add> </add> die Uebrzeugug in mir trage, daß in denj.
+					<lb xml:id="p1-l18" break="no"/>Fächern, deren <add>Be</add>Aufsichtigung vorzugsweise
+					<lb xml:id="p1-l19" break="no"/>mir zugewiesen wurde, <add>mit d. Zeit</add> noch manche <add type="?">ersprießliches</add> 
+				  <lb xml:id="p1-l20" break="no"/>hätte Verbessung möglich ist.</del> <pb n="2"/><lb xml:id="p2-l1"/>Nicht ohne Bedauern scheide ich aus dieser Behörde
+				<lb xml:id="p2-l2"/><del>einer</del>eines<del>seits</del> <add>theils</add> weil ich a<del>us Mangel bisdahin der hiefür nöthigen
 				<lb xml:id="p2-l3"/>Erfahrung entbehrend</del> bisdahin noch sehr wenig zum 
-				<lb xml:id="p2-l4"/>Nutzen <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Frommen der Anstalt wirken konnte, <del>andrer</del>andern<lb break="no" xml:id="p2-l5"/>
-                    <del>seits</del>
-                    <add>theils</add> weil ich die <choice>
-                        <abbr>Ueberzeugg</abbr>
-                        <expan>Ueberzeugung</expan>
-                    </choice> gewonnen habe, daß
-				<lb xml:id="p2-l6"/>in denjenig<supplied>en</supplied> Fächern, deren <choice>
-                        <abbr>Beaufsichtigg</abbr>
-                        <expan>Beaufsichtigung</expan>
-                    </choice> vorzugsweise
-				<lb xml:id="p2-l7"/>mir zugewiesen wurde, mit der Zeit noch 
-				<lb xml:id="p2-l8"/>manche <choice>
-                        <abbr>Verbesserg</abbr>
-                        <expan>Verbesserung</expan>
-                    </choice> möglich ist und <del>weil</del> es mich 
-				<lb xml:id="p2-l9"/>
-                    <del>sehr</del> gefreut hätte, dazu etwas beitrag<supplied>en</supplied> zu könn<supplied>en</supplied>.<note type="transcript">Ende des am Schluss des Manuskripts neu formulierten Abschnitts.</note>
-                    <pb n="1"/> Meine gegen<lb break="no" xml:id="p1-l21"/>wärtige Stell<supplied>un</supplied>g gestattet mir aber nicht mehr
-				<lb xml:id="p1-l22"/>weder Ihren Sitz<supplied>un</supplied>g<supplied>en</supplied> beizuwohnen <add>noch der Schule meine <choice>
-                            <abbr>Aufmerksamkt</abbr>
-                            <expan>Aufmerksamkeit</expan>
-                        </choice> zu schenken</add>
-                    <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> darum ersuche
-				<pb n="2"/>
-                    <lb xml:id="p2-l10"/>ich Sie, mir meine Entlass<supplied>un</supplied>g zu gewähr<supplied>en</supplied>.				
+				<lb xml:id="p2-l4"/>Nutzen <choice><abbr>u</abbr><expan>und</expan></choice> Frommen der Anstalt wirken konnte, <del>andrer</del>andern<lb xml:id="p2-l5" break="no"/><del>seits</del> <add>theils</add> weil ich die <choice><abbr>Ueberzeugg</abbr><expan>Ueberzeugung</expan></choice> gewonnen habe, daß
+				<lb xml:id="p2-l6" break="no"/>in denjenig<add>en</add> Fächern, deren <choice><abbr>Beaufsichtigg</abbr><expan>Beaufsichtigung</expan></choice> vorzugsweise
+				<lb xml:id="p2-l7" break="no"/>mir zugewiesen wurde, mit der Zeit noch 
+				<lb xml:id="p2-l8" break="no"/>manche <choice><abbr>Verbesserg</abbr><expan>Verbesserung</expan></choice> möglich ist und <del>weil</del> es mich 
+				<lb xml:id="p2-l9" break="no"/><del>sehr</del> gefreut hätte, dazu etwas beitrag<add>en</add> zu könn<add>en</add>.<note type="transcript">Ende des am Schluss des Manuskripts neu formulierten Abschnitts.</note><pb n="1"/> Meine gegen<lb xml:id="p1-l21" break="no"/>wärtige Stell<add>un</add>g gestattet mir aber nicht mehr
+				<lb xml:id="p1-l22" break="no"/>weder Ihren Sitz<add>un</add>g<add>en</add> beizuwohnen <add>noch der Schule meine <choice><abbr>Aufmerksamkt</abbr><expan>Aufmerksamkeit</expan></choice> zu schenken</add> <choice><abbr>u</abbr><expan>und</expan></choice> darum ersuche
+				<pb n="2"/><lb xml:id="p2-l10" break="no"/>ich Sie, mir meine Entlass<add>un</add>g zu gewähr<add>en</add>.				
 			</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_1057_p4">
-                    <lb xml:id="p2-l11"/>Genehmig<supplied>en</supplied> Sie bey <choice>
-                        <abbr>dsm</abbr>
-                        <expan>diesem</expan>
-                    </choice> Anlaß die Ver<lb break="no" xml:id="p2-l12"/>sicher<supplied>un</supplied>g <choice>
-                        <abbr>mr</abbr>
-                        <expan>meiner</expan>
-                    </choice> ausgezeichnet<supplied>en</supplied> <choice>
-                        <abbr>Hochachtg</abbr>
-                        <expan>Hochachtung</expan>
-                    </choice> <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> <choice>
-                        <abbr>Ergebht</abbr>
-                        <expan>Ergebenheit</expan>
-                    </choice> </p>
+        <p rend="indent" xml:id="K_1057_p4"><lb xml:id="p2-l11"/>Genehmig<add>en</add> Sie bey <choice><abbr>dsm</abbr><expan>diesem</expan></choice> Anlaß die Ver<lb xml:id="p2-l12" break="no"/>sicher<add>un</add>g <choice><abbr>mr</abbr><expan>meiner</expan></choice> ausgezeichnet<add>en</add> <choice><abbr>Hochachtg</abbr><expan>Hochachtung</expan></choice> <choice><abbr>u</abbr><expan>und</expan></choice> <choice><abbr>Ergebht</abbr><expan>Ergebenheit</expan></choice> </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1057_p5">
-                    <lb xml:id="p2-l13"/>
+      <div type="signature">
+        <p rend="right" xml:id="K_1057_p5"><lb xml:id="p2-l13"/>
           <hi>J. Wild.</hi>
           <hi>
-            <choice>
-                            <abbr>T.D.</abbr>
-                            <expan>TelegraphenDirektor / TelegraphenDirector</expan>
-                        </choice> </hi>
+            <choice><abbr>T.D.</abbr><expan>TelegraphenDirektor / TelegraphenDirector</expan></choice> </hi>
         </p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_1057_p6">
-                    <lb xml:id="p2-l14"/>
+        <p rend="left" xml:id="K_1057_p6"><lb xml:id="p2-l14"/>
           <hi>
-            <placeName type="place" key="Bern (Stadt)">Bern</placeName> </hi>
+            <placeName key="Bern (Stadt)">Bern</placeName> </hi>
          <date when="1852-08-07">7 <hi>Augst</hi> 1852</date>.</p>
       </div>
-      <div type="address">
-        <p rend="indent" xml:id="K_1057_p7">
-                    <lb xml:id="p2-l15"/>
-          <choice>
-                        <abbr>MHHerr</abbr>
-                        <expan>Mein Hoher Herr</expan>
-                    </choice> Nationalrath <hi>
-                        <choice>
-                            <abbr>Dr</abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> A Escher</hi> <lb xml:id="p2-l16"/>
-                    <choice>
-                        <abbr>zu Hd</abbr>
-                        <expan>zu Handen</expan>
-                    </choice> <add>der</add> <hi>Direction</hi> des Erziehungswesens im <choice>
-                        <abbr>K.</abbr>
-                        <expan>Kanton</expan>
-                    </choice> <placeName type="place" key="Zürich">Zürich</placeName> </p>
-        <p rend="right" xml:id="K_1057_p8">
-                    <lb xml:id="p2-l17"/>
+      <div type="opener">
+        <p rend="indent" xml:id="K_1057_p7"><lb xml:id="p2-l15"/>
+          <choice><abbr>MHHerr</abbr><expan>Mein Hoher Herr</expan></choice> Nationalrath <hi><choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher</hi> <lb xml:id="p2-l16"/><choice><abbr>zu Hd</abbr><expan>zu Handen</expan></choice> <add>der</add> <hi>Direction</hi> des Erziehungswesens im <choice><abbr>K.</abbr><expan>Kanton</expan></choice> <placeName key="Zürich">Zürich</placeName> </p>
+        <p rend="right" xml:id="K_1057_p8"><lb xml:id="p2-l17"/>
           <hi>
-            <placeName type="place" key="Bern (Stadt)">Bern</placeName> </hi>
+            <placeName key="Bern (Stadt)">Bern</placeName> </hi>
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,265 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6186" n="111" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Johann Heinrich Fierz, Zürich, Samstag, August 14, 1869</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Abzug">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_014</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Schweizerische Kreditanstalt (SKA)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Fierz Johann Heinrich" type="addressee">Johann Heinrich Fierz</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1869-08-14">Samstag, August 14, 1869</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-05-12" who="NP">Transkription
-                
-            </change>
-            <change when="2014-06-25" who="LW">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-06-30" who="AW">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-08" who="SG">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-09" who="SWK">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2014-07-11" who="IB">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-07-18" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-            <change when="2014-11-19" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-19" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6186" type="Brief" subtype="Abzug"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Johann Heinrich Fierz, Zürich, Samstag, 14. August 1869</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_014</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Eisenbahnen Finanzierung</term><term>Schweizerische Kreditanstalt (SKA)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Fierz Johann Heinrich" type="sender">Johann Heinrich Fierz</persName><placeName>Zürich</placeName><date when="1869-08-14">14. August 1869</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_6186_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_6186_c0">Nachträgliche Notiz oben links auf Seite 1 von Eschers Hand mit Bleistift: <bibl>H<supplied>errn</supplied> Nationalrath | H. Fierz.</bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+        <p rend="right" xml:id="K_6186_p1"> <note type="com" xml:id="K_6186_c0">Nachträgliche Notiz oben links auf Seite 1 von Eschers Hand mit Bleistift: <orig>H<add>errn</add> Nationalrath | H. Fierz.</orig>.</note> <lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
           <date when="1869-08-14">14 August 1869</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_6186_p2">
-                    <lb xml:id="p1-l2"/>Hochverehrter Herr &amp; Freund!</p>
+        <p rend="left" xml:id="K_6186_p2"><lb xml:id="p1-l2"/>Hochverehrter Herr &amp; Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_6186_p3">
-                <lb xml:id="p1-l3"/>Sie werden, wahrscheinlich gleichzeitig
+    </front><body>
+      <p rend="indent" xml:id="K_6186_p3"><lb xml:id="p1-l3"/>Sie werden, wahrscheinlich gleichzeitig
         <lb xml:id="p1-l4"/>mit diesen Zeilen, die Einladung zu einer
-        <lb xml:id="p1-l5"/>Sitzung des <seg type="ref">Consortiums<ref type="letter" target="K_2309_c13">Konsortium<!-- → Nr. 98 (Kommentar)--></ref>
-                    <ref type="sum" target="Gotthardvereinigung_p44"><!--→ Band 1, S. 207–208--></ref>
-                </seg> für die <placeName type="place" key="St. Gotthard (Pass)">Gotthard<lb break="no" xml:id="p1-l6"/>bahn</placeName> <seg type="com">erhalten.<note xml:id="K_6186_c1">Am <date when="1869-08-19">19. August 1869</date> fand in <placeName type="place" key="Olten">Olten</placeName> eine Sitzung des Konsortiums für Ausführung der Gotthardbahn statt. An dieser Sitzung gab Escher bekannt, dass an schweizerischen Beteiligungen an dem Konsortium Verpflichtungsscheine über insgesamt 31 144 000 Franken vorlägen. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. Consortium Gründung Gotthardbahn</ref>, 19. August 1869 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 6).</note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_6186_p4">
-                <lb xml:id="p1-l7"/>Es wäre nun sehr wünschbar, daß
+        <lb xml:id="p1-l5"/>Sitzung des <rs>Consortiums<ref type="letter" target="K_2309_c13">Konsortium<!-- → Nr. 98 (Kommentar)--></ref><ref type="sum" target="Gotthardvereinigung_p44"><!--→ Band 1, S. 207–208--></ref></rs> für die <placeName key="St. Gotthard (Pass)">Gotthard<lb xml:id="p1-l6" break="no"/>bahn</placeName> erhalten.<note type="com" xml:id="K_6186_c1">Am <date when="1869-08-19">19. August 1869</date> fand in <placeName key="Olten">Olten</placeName> eine Sitzung des Konsortiums für Ausführung der Gotthardbahn statt. An dieser Sitzung gab Escher bekannt, dass an schweizerischen Beteiligungen an dem Konsortium Verpflichtungsscheine über insgesamt 31 144 000 Franken vorlägen. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. Consortium Gründung Gotthardbahn</ref>, 19. August 1869 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 6).</note> </p>
+      <p rend="indent" xml:id="K_6186_p4"><lb xml:id="p1-l7"/>Es wäre nun sehr wünschbar, daß
         <lb xml:id="p1-l8"/>die Betheiligung des Handelsstandes von
-        <lb xml:id="p1-l9"/>
-                <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> &amp; Umgebung, welche Sie seiner Zeit
-        <lb xml:id="p1-l10"/>mit so verdankenswerthem Eifer her<lb break="no" xml:id="p1-l11"/>beigeführt haben, bestimmt festgestellt
-        <lb xml:id="p1-l12"/>&amp; in einem Verpflichtungsscheine in ähn<lb break="no" xml:id="p1-l13"/>licher Weise, wie es der <placeName type="place" key="Winterthur">Winterthurer</placeName>
-                    <lb xml:id="p1-l14"/> Handelsstand gemäß der beiliegenden
-        <lb xml:id="p1-l15"/>
-                    <seg type="com">Abschrift<note xml:id="K_6186_c2">Beilage nicht ermittelt.</note>
-                </seg> gethan hat, zugesichert würde.
-        <lb xml:id="p1-l16"/>Und im Fernern sollte der <placeName type="place" key="Zürich">Zürcher</placeName> Han<lb break="no" xml:id="p1-l17"/>delsstand einen Repräsentanten in das
-        <pb n="2"/>
-                    <lb xml:id="p2-l1"/>Consortium &amp; für den Fall der Verhinderung
-        <lb xml:id="p2-l2"/>desselben einen Suppleanten wählen. Ich hof<lb break="no" xml:id="p2-l3"/>fe &amp; erwarte, daß Sie zum Repräsentanten
-        <lb xml:id="p2-l4"/>des <placeName type="place" key="Zürich">Zürcher'schen</placeName> Handelsstandes im Consor<lb break="no" xml:id="p2-l5"/>tium werden bezeichnet werden &amp; es
-        <lb xml:id="p2-l6"/>wird mir eine wahre Freude sein, mit
-        <lb xml:id="p2-l7"/>Ihnen bei der Begründung einer neu<lb break="no" xml:id="p2-l8"/>en unserm Lande nützlichen Unterneh<lb break="no" xml:id="p2-l9"/>mung zusammen zu wirken.
+        <lb xml:id="p1-l9"/><placeName key="Zürich (Stadt)">Zürich</placeName> &amp; Umgebung, welche Sie seiner Zeit
+        <lb xml:id="p1-l10"/>mit so verdankenswerthem Eifer her<lb xml:id="p1-l11" break="no"/>beigeführt haben, bestimmt festgestellt
+        <lb xml:id="p1-l12" break="no"/>&amp; in einem Verpflichtungsscheine in ähn<lb xml:id="p1-l13" break="no"/>licher Weise, wie es der <placeName key="Winterthur">Winterthurer</placeName> <lb xml:id="p1-l14" break="no"/> Handelsstand gemäß der beiliegenden
+        <lb xml:id="p1-l15" break="no"/> Abschrift<note type="com" xml:id="K_6186_c2">Beilage nicht ermittelt.</note> gethan hat, zugesichert würde.
+        <lb xml:id="p1-l16" break="no"/>Und im Fernern sollte der <placeName key="Zürich">Zürcher</placeName> Han<lb xml:id="p1-l17" break="no"/>delsstand einen Repräsentanten in das
+        <pb n="2"/><lb xml:id="p2-l1" break="no"/>Consortium &amp; für den Fall der Verhinderung
+        <lb xml:id="p2-l2" break="no"/>desselben einen Suppleanten wählen. Ich hof<lb xml:id="p2-l3" break="no"/>fe &amp; erwarte, daß Sie zum Repräsentanten
+        <lb xml:id="p2-l4" break="no"/>des <placeName key="Zürich">Zürcher'schen</placeName> Handelsstandes im Consor<lb xml:id="p2-l5" break="no"/>tium werden bezeichnet werden &amp; es
+        <lb xml:id="p2-l6" break="no"/>wird mir eine wahre Freude sein, mit
+        <lb xml:id="p2-l7" break="no"/>Ihnen bei der Begründung einer neu<lb xml:id="p2-l8" break="no"/>en unserm Lande nützlichen Unterneh<lb xml:id="p2-l9" break="no"/>mung zusammen zu wirken.
         </p>
-      <p rend="indent" xml:id="K_6186_p5">
-                <lb xml:id="p2-l10"/>Wenn diesen beiden Wünschen noch vor der
-        <lb xml:id="p2-l11"/>Sitzung vom <date when="1869-08-19">künftigen Donnerstage</date> entspro<lb break="no" xml:id="p2-l12"/>chen werden könnte, so wäre mir dieß
-        <lb xml:id="p2-l13"/>sehr erwünscht. Sollte es unmöglich sein,
-        <lb xml:id="p2-l14"/>so will ich Ihnen keine Unmuße verur<lb break="no" xml:id="p2-l15"/>sachen &amp; mir so gut als möglich zu hel<lb break="no" xml:id="p2-l16"/>fen suchen. Unter allen Umständen
-        <lb xml:id="p2-l17"/>sollte aber ein Vertreter des Handels<lb break="no" xml:id="p2-l18"/>standes von <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> &amp;  Umgebung der
-        <lb xml:id="p2-l19"/>Sitzung des Consortium's vom <date when="1869-08-19">nächsten
-        <lb xml:id="p2-l20"/>Donnerstage</date> <seg type="com">beiwohnen.<note xml:id="K_6186_c3">Fierz nahm an der Sitzung des Konsortiums am <date when="1869-08-19">19. August</date> <bibl>als Vertreter des Handelsstandes der Stadt <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> <choice>
-                                    <abbr>u.</abbr>
-                                    <expan>und</expan>
-                                </choice> ihrer Umgebung</bibl> teil. <ref type="lit">Prot. Consortium Gründung Gotthardbahn</ref>, 19. August 1869 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 6).</note>
-                </seg> <pb n="3"/>
-            </p>
-      <p rend="indent" xml:id="K_6186_p6">
-                <lb xml:id="p3-l1"/>Nachdem die <placeName type="place" key="Basel-Stadt">Basler</placeName> Handelsbank ihre Be<lb break="no" xml:id="p3-l2"/>theiligung nicht über 1½ Millionen erhöhen
-        <lb xml:id="p3-l3"/>wollte &amp; in Folge dessen <placeName type="place" key="Basel-Stadt">Basel</placeName> mit 4 Millio<lb break="no" xml:id="p3-l4"/>nen erscheint, gedenke ich dem Ausschusse
-        <lb xml:id="p3-l5"/>der Creditanstalt vorzuschlagen, die Parti<lb break="no" xml:id="p3-l6"/>cipation der letztern definitiv auf den
-        <lb xml:id="p3-l7"/>Betrag von 2¼ Millionen festzusetzen.
-        <lb xml:id="p3-l8"/>Der Canton <placeName type="place" key="Zürich">Zürich</placeName> wird dann mit einer
-        <lb xml:id="p3-l9"/>Summe von <choice>
-                        <abbr>c<hi rend="sup">a</hi> </abbr>
-                        <expan>circa</expan>
-                    </choice> 5 Millionen compariren.
-        <lb xml:id="p3-l10"/>Ich denke, hiegegen lasse sich von keinem
-        <lb xml:id="p3-l11"/>Standpuncte aus eine begründete Ein<lb break="no" xml:id="p3-l12"/>wendung machen.
+      <p rend="indent" xml:id="K_6186_p5"><lb xml:id="p2-l10"/>Wenn diesen beiden Wünschen noch vor der
+        <lb xml:id="p2-l11"/>Sitzung vom <date when="1869-08-19">künftigen Donnerstage</date> entspro<lb xml:id="p2-l12" break="no"/>chen werden könnte, so wäre mir dieß
+        <lb xml:id="p2-l13" break="no"/>sehr erwünscht. Sollte es unmöglich sein,
+        <lb xml:id="p2-l14" break="no"/>so will ich Ihnen keine Unmuße verur<lb xml:id="p2-l15" break="no"/>sachen &amp; mir so gut als möglich zu hel<lb xml:id="p2-l16" break="no"/>fen suchen. Unter allen Umständen
+        <lb xml:id="p2-l17" break="no"/>sollte aber ein Vertreter des Handels<lb xml:id="p2-l18" break="no"/>standes von <placeName key="Zürich (Stadt)">Zürich</placeName> &amp;  Umgebung der
+        <lb xml:id="p2-l19" break="no"/>Sitzung des Consortium's vom <date when="1869-08-19">nächsten
+        <lb xml:id="p2-l20"/>Donnerstage</date> beiwohnen.<note type="com" xml:id="K_6186_c3">Fierz nahm an der Sitzung des Konsortiums am <date when="1869-08-19">19. August</date> <orig>als Vertreter des Handelsstandes der Stadt <placeName key="Zürich (Stadt)">Zürich</placeName> <choice><abbr>u.</abbr><expan>und</expan></choice> ihrer Umgebung</orig> teil. <ref type="lit">Prot. Consortium Gründung Gotthardbahn</ref>, 19. August 1869 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 6).</note> <pb n="3"/></p>
+      <p rend="indent" xml:id="K_6186_p6"><lb xml:id="p3-l1"/>Nachdem die <placeName key="Basel-Stadt">Basler</placeName> Handelsbank ihre Be<lb xml:id="p3-l2" break="no"/>theiligung nicht über 1½ Millionen erhöhen
+        <lb xml:id="p3-l3" break="no"/>wollte &amp; in Folge dessen <placeName key="Basel-Stadt">Basel</placeName> mit 4 Millio<lb xml:id="p3-l4" break="no"/>nen erscheint, gedenke ich dem Ausschusse
+        <lb xml:id="p3-l5" break="no"/>der Creditanstalt vorzuschlagen, die Parti<lb xml:id="p3-l6" break="no"/>cipation der letztern definitiv auf den
+        <lb xml:id="p3-l7" break="no"/>Betrag von 2¼ Millionen festzusetzen.
+        <lb xml:id="p3-l8" break="no"/>Der Canton <placeName key="Zürich">Zürich</placeName> wird dann mit einer
+        <lb xml:id="p3-l9" break="no"/>Summe von <choice><abbr>c<hi rend="sup">a</hi> </abbr><expan>circa</expan></choice> 5 Millionen compariren.
+        <lb xml:id="p3-l10" break="no"/>Ich denke, hiegegen lasse sich von keinem
+        <lb xml:id="p3-l11" break="no"/>Standpuncte aus eine begründete Ein<lb xml:id="p3-l12" break="no"/>wendung machen.
         </p>
-      <p rend="indent" xml:id="K_6186_p7">
-                <lb xml:id="p3-l13"/>Vielleicht ist es Ihnen noch erwünscht,
+      <p rend="indent" xml:id="K_6186_p7"><lb xml:id="p3-l13"/>Vielleicht ist es Ihnen noch erwünscht,
         <lb xml:id="p3-l14"/>wenn Sie die Notiz von mir erhalten,
-        <lb xml:id="p3-l15"/>daß Sie mir mit <choice>
-                        <abbr>verehrl.</abbr>
-                        <expan>verehrlich</expan>
-                    </choice> <seg type="com">Schreiben<note xml:id="K_6186_c4">Brief nicht ermittelt.</note>
-                </seg> vom
-        <lb xml:id="p3-l16"/>
-                <date when="1869-04-26">26 April</date> abhin anzeigten, «es belaufe sich
+        <lb xml:id="p3-l15"/>daß Sie mir mit <choice><abbr>verehrl.</abbr><expan>verehrlich</expan></choice> Schreiben<note type="com" xml:id="K_6186_c4">Brief nicht ermittelt.</note> vom
+        <lb xml:id="p3-l16"/><date when="1869-04-26">26 April</date> abhin anzeigten, «es belaufe sich
         <lb xml:id="p3-l17"/>die Subscription des Handelsstandes von</p>
         <table>
-          <row xml:id="p3-l18">
-            <cell>
-                        <placeName type="place" key="Zürich">Zürich</placeName> &amp; Umgebung auf</cell>
-            <cell rend="right">
-                        <choice>
-                                <abbr>Fr.</abbr>
-                                <expan>Franken / Francs / Franchi</expan>
-                            </choice> 1,345,000.–</cell>
+          <row>
+            <cell><placeName key="Zürich">Zürich</placeName> &amp; Umgebung auf</cell>
+            <cell><choice><abbr>Fr.</abbr><expan>Franken / Francs / Franchi</expan></choice> 1,345,000.–</cell>
           </row>
-          <row xml:id="p3-l19">
-                    <cell>wozu noch kommen von den <choice>
-                                <abbr>Hrn</abbr>
-                                <expan>Herrn</expan>
-                            </choice>
-            <lb xml:id="p3-l20"/> <seg type="com">
-                            <persName type="person" key="Bodmer Martin">M. Bodmer</persName>
-                            <note xml:id="K_6186_c5">Vermutlich <persName type="person" key="Bodmer Martin">Martin Bodmer</persName> (1802–1880), <placeName type="place" key="Zürich (Stadt)">Zürcher</placeName> Kaufmann.</note>
-                        </seg> &amp; <seg type="com">
-                            <persName type="person" key="Bodmer Heinrich">Bodmer Stocker</persName>
-                            <note xml:id="K_6186_c6">
-                                <persName type="person" key="Bodmer Heinrich">Heinrich Bodmer</persName> (1796–1875), <placeName type="place" key="Zürich (Stadt)">Zürcher</placeName> Kaufmann.</note>
-                        </seg> <lb xml:id="p3-l21"/>wenn sie nicht weitergehen,</cell>
-            <cell rend="right"> <seg type="com">
-                            <hi rend="underline">80,000.–</hi>
-                            <note xml:id="K_6186_c7">Die Subscriptions-Liste des <placeName type="place" key="Zürich">Zürcher</placeName> Handelsstandes von August 1869 führt mehrere <persName type="person" key="Bodmer Martin">Bodmer</persName>. <persName type="person" key="Bodmer Martin">Martin Bodmer</persName> beteiligte sich mit 40 000 Franken, <persName type="person" key="Bodmer zur Arch Heinrich">Heinrich Bodmer zur Arch</persName> (1786–1873) mit 30 000 Franken. Die <bibl>Gebrüder <persName type="person" key="Bodmer Heinrich">
-                                        <persName type="person" key="Bodmer Martin">Bodmer</persName>
-                                    </persName>
-                                </bibl>, womit vermutlich <persName type="person" key="Bodmer Martin">Martin Bodmer</persName> und <persName type="person" key="Bodmer Heinrich">Heinrich Bodmer</persName> gemeint sind, trugen 50 000 Franken bei. Subscriptions-Liste [des Zürcher Handelsstandes im Rahmen des Consortiums für Ausführung der Gotthardbahn, August 1869] (<ref type="lit">SBB Historic VGB_GB_SBBGB01_014</ref><!--_03--> ).</note>
-                        </seg> </cell>
+          <row><cell>wozu noch kommen von den <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice>
+            <lb xml:id="p3-l20"/> <persName key="Bodmer Martin">M. Bodmer</persName><note type="com" xml:id="K_6186_c5">Vermutlich <persName key="Bodmer Martin">Martin Bodmer</persName> (1802–1880), <placeName key="Zürich (Stadt)">Zürcher</placeName> Kaufmann.</note> &amp; <persName key="Bodmer Heinrich">Bodmer Stocker</persName><note type="com" xml:id="K_6186_c6"><persName key="Bodmer Heinrich">Heinrich Bodmer</persName> (1796–1875), <placeName key="Zürich (Stadt)">Zürcher</placeName> Kaufmann.</note> <lb xml:id="p3-l21"/>wenn sie nicht weitergehen,</cell>
+            <cell> <hi rend="underline">80,000.–</hi><note type="com" xml:id="K_6186_c7">Die Subscriptions-Liste des <placeName key="Zürich">Zürcher</placeName> Handelsstandes von August 1869 führt mehrere <persName key="Bodmer Martin">Bodmer</persName>. <persName key="Bodmer Martin">Martin Bodmer</persName> beteiligte sich mit 40 000 Franken, <persName key="Bodmer zur Arch Heinrich">Heinrich Bodmer zur Arch</persName> (1786–1873) mit 30 000 Franken. Die <orig>Gebrüder <persName key="Bodmer Heinrich"><persName key="Bodmer Martin">Bodmer</persName></persName></orig>, womit vermutlich <persName key="Bodmer Martin">Martin Bodmer</persName> und <persName key="Bodmer Heinrich">Heinrich Bodmer</persName> gemeint sind, trugen 50 000 Franken bei. Subscriptions-Liste [des Zürcher Handelsstandes im Rahmen des Consortiums für Ausführung der Gotthardbahn, August 1869] (<ref type="lit">SBB Historic VGB_GB_SBBGB01_014</ref><!--_03--> ).</note> </cell>
           </row>
-          <row xml:id="p3-l22">
+          <row>
             <cell/>
-            <cell rend="right"> <seg type="com">1,425,000.–»<note xml:id="K_6186_c8">Mit am <date when="1869-08-19">19. August</date> vorliegendem Verpflichtungsschein sagte der Handelsstand der Stadt <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> und Umgebung eine Beteiligung von 2 055 000 Franken zu. <choice>
-                                        <abbr>Vgl.</abbr>
-                                        <expan>Vergleiche</expan>
-                                    </choice> <ref type="lit">Prot. Consortium Gründung Gotthardbahn</ref>, 19. August 1869 (<choice>
-                                        <abbr>S.</abbr>
-                                        <expan>Seite(n)</expan>
-                                    </choice> 7).</note>
-                        </seg> <pb n="4"/>
-                    </cell>
+            <cell> 1,425,000.–»<note type="com" xml:id="K_6186_c8">Mit am <date when="1869-08-19">19. August</date> vorliegendem Verpflichtungsschein sagte der Handelsstand der Stadt <placeName key="Zürich (Stadt)">Zürich</placeName> und Umgebung eine Beteiligung von 2 055 000 Franken zu. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. Consortium Gründung Gotthardbahn</ref>, 19. August 1869 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 7).</note> <pb n="4"/></cell>
           </row>
         </table>
-      <p rend="indent" xml:id="K_6186_p8">
-                <lb xml:id="p4-l1"/>Wir haben <date when="1869-08-14">heute</date> die <placeName type="place" key="Paris (F)">Pariser</placeName> <hi rend="underline">terrains</hi> <lb xml:id="p4-l2"/>sammt &amp; sonders verkauft. Es geschah Werth
-        <lb xml:id="p4-l3"/>
-                <date when="1869-01-01">1 Januar 1869</date> mit einem Verlurste von <choice>
-                        <abbr>c<hi rend="sup">a</hi> </abbr>
-                        <expan>circa</expan>
-                    </choice> <lb xml:id="p4-l4"/>
-                <choice>
-                        <abbr>Fr.</abbr>
-                        <expan>Franken / Francs / Franchi</expan>
-                    </choice> 100<choice>
-                        <abbr>/m</abbr>
-                        <expan>mille (tausend)</expan>
-                    </choice> gegenüber den Scripturen in un<lb break="no" xml:id="p4-l5"/>sern Büchern in <placeName type="place" key="Zürich">Zürich</placeName>. Ich freue mich
-        <lb xml:id="p4-l6"/>in hohem Grade über dieses für unsere
-        <lb xml:id="p4-l7"/>Anstalt <seg type="com">glückliche <hi rend="underline">Ereigniß</hi>.<note xml:id="K_6186_c9">Die Schweizerische Kreditanstalt verkaufte 1869 im Rahmen ihrer Bemühungen zur Liquidation ihres Immobilienkontos ihre Grundstücke in <placeName type="place" key="Paris (F)">Paris</placeName>. Diese warfen keinen oder lediglich einen geringen Zinsertrag ab. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Geschäftsbericht SKA</ref> 1869, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 9.</note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_6186_p9">
-                <lb xml:id="p4-l8"/> <seg type="com">
-                    <persName type="person" key="Fierz-Locher Anna Katharina">Ihrer verehrten Frau Gemalinn</persName>
-                    <note xml:id="K_6186_c10">
-                        <persName type="person" key="Fierz-Locher Anna Katharina">Anna Katharina (Nina) Fierz-Locher</persName> (1827–1903), Tochter der <persName type="person" key="Locher-Waldburger Katharina">Katharina Locher-Waldburger</persName> und des Stickereiindustriellen <persName type="person" key="Locher Bartholomäus">Bartholomäus Locher</persName>; ab 1845 Ehefrau von Fierz.</note>
-                </seg> gegen<lb break="no" xml:id="p4-l9"/>über habe ich seit dem Turnfeste in <seg type="com">
-                    <placeName type="place" key="Biel (BE)">Biel</placeName>
-                    <note xml:id="K_6186_c11">Vom <date when="1869-07-24">24.</date> bis <date when="1869-07-27">27.</date>/<date when="1869-07-28">28. Juli</date> fand in <placeName type="place" key="Biel (BE)">Biel</placeName> das <choice>
-                                <abbr>Eidg.</abbr>
-                                <expan>Eidgenössisch</expan>
-                            </choice> Turnfest statt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 27. Juli 1869, 29. Juli 1869, 30. Juli 1869, 4. August 1869.</note>
-                </seg>
-                    <lb xml:id="p4-l10"/>ein schlechtes Gewissen. Ich werde nächstens
-        <lb xml:id="p4-l11"/>vor ihrem Richterstuhle erscheinen. Vor<lb break="no" xml:id="p4-l12"/>läufig bitte ich um Ihre freundliche Für<lb break="no" xml:id="p4-l13"/>sprache.
+      <p rend="indent" xml:id="K_6186_p8"><lb xml:id="p4-l1"/>Wir haben <date when="1869-08-14">heute</date> die <placeName key="Paris (F)">Pariser</placeName> <hi rend="underline">terrains</hi> <lb xml:id="p4-l2"/>sammt &amp; sonders verkauft. Es geschah Werth
+        <lb xml:id="p4-l3"/><date when="1869-01-01">1 Januar 1869</date> mit einem Verlurste von <choice><abbr>c<hi rend="sup">a</hi> </abbr><expan>circa</expan></choice> <lb xml:id="p4-l4"/><choice><abbr>Fr.</abbr><expan>Franken / Francs / Franchi</expan></choice> 100<choice><abbr>/m</abbr><expan>mille (tausend)</expan></choice> gegenüber den Scripturen in un<lb xml:id="p4-l5" break="no"/>sern Büchern in <placeName key="Zürich">Zürich</placeName>. Ich freue mich
+        <lb xml:id="p4-l6" break="no"/>in hohem Grade über dieses für unsere
+        <lb xml:id="p4-l7" break="no"/>Anstalt glückliche <hi rend="underline">Ereigniß</hi>.<note type="com" xml:id="K_6186_c9">Die Schweizerische Kreditanstalt verkaufte 1869 im Rahmen ihrer Bemühungen zur Liquidation ihres Immobilienkontos ihre Grundstücke in <placeName key="Paris (F)">Paris</placeName>. Diese warfen keinen oder lediglich einen geringen Zinsertrag ab. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Geschäftsbericht SKA</ref> 1869, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 9.</note> </p>
+      <p rend="indent" xml:id="K_6186_p9"><lb xml:id="p4-l8"/> <persName key="Fierz-Locher Anna Katharina">Ihrer verehrten Frau Gemalinn</persName><note type="com" xml:id="K_6186_c10"><persName key="Fierz-Locher Anna Katharina">Anna Katharina (Nina) Fierz-Locher</persName> (1827–1903), Tochter der <persName key="Locher-Waldburger Katharina">Katharina Locher-Waldburger</persName> und des Stickereiindustriellen <persName key="Locher Bartholomäus">Bartholomäus Locher</persName>; ab 1845 Ehefrau von Fierz.</note> gegen<lb xml:id="p4-l9" break="no"/>über habe ich seit dem Turnfeste in <placeName key="Biel (BE)">Biel</placeName><note type="com" xml:id="K_6186_c11">Vom <date when="1869-07-24">24.</date> bis <date when="1869-07-27">27.</date>/<date when="1869-07-28">28. Juli</date> fand in <placeName key="Biel (BE)">Biel</placeName> das <choice><abbr>Eidg.</abbr><expan>Eidgenössisch</expan></choice> Turnfest statt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 27. Juli 1869, 29. Juli 1869, 30. Juli 1869, 4. August 1869.</note> <lb xml:id="p4-l10" break="no"/>ein schlechtes Gewissen. Ich werde nächstens
+        <lb xml:id="p4-l11" break="no"/>vor ihrem Richterstuhle erscheinen. Vor<lb xml:id="p4-l12" break="no"/>läufig bitte ich um Ihre freundliche Für<lb xml:id="p4-l13" break="no"/>sprache.
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_6186_p10">
-                    <lb xml:id="p4-l14"/>Ich muß schließen, weiß ich doch fast
+        <p rend="indent" xml:id="K_6186_p10"><lb xml:id="p4-l14"/>Ich muß schließen, weiß ich doch fast
         <lb xml:id="p4-l15"/>nicht, wo mir der Kopf steht, wofür auch
-        <lb xml:id="p4-l16"/>dieser Brief ein deutliches Zeugniß able<lb break="no" xml:id="p4-l17"/>gen dürfte. Empfehlen Sie mich angelegent<lb break="no" xml:id="p4-l18"/>lich <persName type="person" key="Fierz-Locher Anna Katharina">Ihrer hochverehrten Frau Gemalinn</persName> &amp;
-        <lb xml:id="p4-l19"/>seien Sie herzlich gegrüßt von
+        <lb xml:id="p4-l16"/>dieser Brief ein deutliches Zeugniß able<lb xml:id="p4-l17" break="no"/>gen dürfte. Empfehlen Sie mich angelegent<lb xml:id="p4-l18" break="no"/>lich <persName key="Fierz-Locher Anna Katharina">Ihrer hochverehrten Frau Gemalinn</persName> &amp;
+        <lb xml:id="p4-l19" break="no"/>seien Sie herzlich gegrüßt von
         </p>
-        <p rend="center" xml:id="K_6186_p11">
-                    <lb xml:id="p4-l20"/>Ihrem ergebenen</p>
+        <p rend="center" xml:id="K_6186_p11"><lb xml:id="p4-l20"/>Ihrem ergebenen</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_6186_p12">
-                    <lb xml:id="p4-l21"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_6186_p12"><lb xml:id="p4-l21"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

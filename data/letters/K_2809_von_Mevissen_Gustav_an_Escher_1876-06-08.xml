@@ -1,218 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2809" n="242" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Gustav von Mevissen an Alfred Escher, Köln, Donnerstag, Juni 8, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#349*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Bundesrat</item>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Schweizerische Centralbahn (SCB)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Mevissen Gustav von" type="sender">Gustav von Mevissen</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Köln</placeName>
-                    <date when="1876-06-08">Donnerstag, Juni 8, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-08-30" who="CK"> transkribiert
-                
-            </change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
-                
-            </change>
-            <change when="2007-01-12" who="WB">Konvertierung nachbearbeitet
-                
-            </change>
-            <change when="2007-02-01" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-02-28" who="MF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-04-09" who="MF">kommentiert 3
-                
-            </change>
-            <change when="2007-04-23" who="MF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-07" who="WB">indexiert
-                
-            </change>
-            <change when="2007-05-20" who="MF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-15" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-25" who="MF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-17" who="MF">Umsetzung Lektorat MK 2
-                
-            </change>
-            <change when="2007-07-21" who="MF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2008-08-06" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-20" who="AH">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-08" who="HA">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-30" who="DG">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-11-27" who="LB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-27" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-27" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2017-07-07" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-            
-        </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2809" type="Brief"><teiHeader><fileDesc><titleStmt><title>Gustav von Mevissen an Alfred Escher, Köln, Donnerstag, 08. Juni 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#349*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Öffentliche Beteiligungen (Infrastruktur)</term><term>Gotthardbahn-Gesellschaft (GB)</term><term>Bundesrat</term><term>Schweizerische Nordostbahn (NOB)</term><term>Schweizerische Centralbahn (SCB)</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term> Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Mevissen Gustav von" type="addressee">Gustav von Mevissen</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Köln</placeName><date when="1876-06-08">08. Juni 1876</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="right" xml:id="K_2809_p1">
-                    <lb xml:id="p1-l1"/> <seg type="com">
-                        <placeName type="place" key="Köln (D)">
+                    <lb xml:id="p1-l1"/> 
+                        <placeName key="Köln (D)">
                             <hi>Coeln</hi>
                         </placeName>, den <date when="1876-06-08">8. <hi>Juni</hi> 1876</date>.
-                        <note xml:id="K_2809_c1">Nachträgliche Notiz von Eschers Hand: <bibl>
-                                <choice>
-                                    <abbr>empf.</abbr>
-                                    <expan>empfangen</expan>
-                                </choice> <date when="1876-06-10">10. " "</date> </bibl>
+                        <note type="com" xml:id="K_2809_c1">Nachträgliche Notiz von Eschers Hand: <orig>
+                                <choice><abbr>empf.</abbr><expan>empfangen</expan></choice> <date when="1876-06-10">10. " "</date> </orig>
                         </note>
-                    </seg> <!--Transkriptionsbereinigung-->
+                     <!--Transkriptionsbereinigung-->
         </p>
       </div>
       <div type="opener">
         <p rend="center" xml:id="K_2809_p2">
                     <lb xml:id="p1-l2"/>Hochgeehrter Herr Präsident! </p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_2809_p3">
-                <lb xml:id="p1-l3"/>Im Besitze des mir gefälligst eingesandten confidentiellen Pro<lb break="no" xml:id="p1-l4"/>gramms, 
-sowie <seg type="ref">Ihrer sehr geehrten Zeilen vom <date when="1876-06-01">1. <choice>
-                                <abbr>d. Mts.</abbr>
-                                <expan>dieses Monats</expan>
-                            </choice> </date>
+                <lb xml:id="p1-l3"/>Im Besitze des mir gefälligst eingesandten confidentiellen Pro
+                <lb xml:id="p1-l4" break="no"/>gramms, 
+sowie <rs>Ihrer sehr geehrten Zeilen vom <date when="1876-06-01">1. <choice><abbr>d. Mts.</abbr><expan>dieses Monats</expan></choice> </date>
                     <ref type="letter" target="K_2804"><!--→ Nr. 241--></ref>
-                </seg>, beehre ich mich, darauf<lb xml:id="p1-l5"/>
+                </rs>, beehre ich mich, darauf<lb xml:id="p1-l5" break="no"/>
 folgendes zu erwiedern. </p>
       <p rend="indent" xml:id="K_2809_p4">
-                <lb xml:id="p1-l6"/>Meines Dafürhaltens erschöpfen die drei im <seg type="com">Programm<note xml:id="K_2809_c2">
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> Programm für die Reorganisation der Gotthardbahnunternehmung (vom Juni 1876) (<ref type="lit">SBB Historic VGB_GB_SBBGB01_017</ref><!--_08--> ).<!-- <ref type="sum">&rarr; Brief Escher an Gustav von Mevissen, 1. Juni 1876</ref>.
+                <lb xml:id="p1-l6"/>Meines Dafürhaltens erschöpfen die drei im Programm<note type="com" xml:id="K_2809_c2">
+                        <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> Programm für die Reorganisation der Gotthardbahnunternehmung (vom Juni 1876) (<ref type="lit">SBB Historic VGB_GB_SBBGB01_017</ref><!--_08--> ).<!-- <ref type="sum">&rarr; Brief Escher an Gustav von Mevissen, 1. Juni 1876</ref>.
 						Das genannte Programm beabsichtigte die Realisierung der Gotthardbahn mittels eines Drei-Punkte-Plans: Erstens sollte grundsätzlich das gesamte in Art. 1 des Staatsvertrages von 1869 vorgesehene Gotthardbahn-Netz gebaut werden. Zweitens sollte zuerst der Bau einer durchgehenden Schienenverbindung von Immensee nach Pino sichergestellt und die Ausführung der Zufahrtslinien auf einen späteren Zeitpunkt verschoben werden, falls die erforderlichen Geldmittel nicht von Anfang an für das gesamte Netz ausreichen würden. Eine dritte Möglichkeit wurde darin gesehen, vorerst ausschliesslich die Strecke Flüelen&ndash;Biasca zu erstellen und den übrigen Zufahrstverkehr mittels sogenannter Trajektschiffe auf dem Vierwaldstätter- und Langensee sicher zu stellen. Das Programm schloss zudem provisorische oder bleibende Modifikationen in den bisherigen Bauprojekten ebenso ein, wie Vorschläge hinsichtlich der Finanzierungsmodalitäten. <abbr>Vgl.</abbr> <ref type="lit">Wanner, Gotthardbahn</ref>, S. 385&ndash;386; <ref type="lit">Staatsvertrag Gotthardbahn 1869</ref>, Art. 1. [<b>PENDENT</b>. 1. Wording 2. Programm ev. im SBB Historic? Programme für die Reorganisation der GB; Originale, Belege, Vorlage an den Bundesrat, VGB_GB_SBBGB02_015_06.]
 					-->
                     </note>
-                </seg> entwickelten<lb xml:id="p1-l7"/>
-Alternativen so ziemlich alle irgend möglichen finanziellen Combinationen.<lb xml:id="p1-l8"/> <seg type="com">Die Höhe der auf Grund der gegenwärtigen Sachlage von den Regierungen<lb xml:id="p1-l9"/>
+                 entwickelten<lb xml:id="p1-l7"/>
+Alternativen so ziemlich alle irgend möglichen finanziellen Combinationen.<lb xml:id="p1-l8"/> Die Höhe der auf Grund der gegenwärtigen Sachlage von den Regierungen<lb xml:id="p1-l9"/>
 zu erwirkenden weiteren Subvention des Gotthardbahn-Unternehmens muß<lb xml:id="p1-l10"/>
-für die Wahl unter den drei Alternativen entscheidend sein.<note xml:id="K_2809_c3">Das Programm forderte für die Realisierung der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn zusätzliche Subventionen, nämlich 51,7 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken für die erste, 28,7 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken für die zweite und 7,6 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken für die dritte Variante. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> Programm für die Reorganisation der Gotthardbahnunternehmung (vom Juni 1876) (<ref type="lit">SBB Historic VGB_GB_SBBGB01_017</ref><!--_08--> ); <ref type="lit">Wanner, Gotthardbahn</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 386.</note>
-                </seg> </p>
+für die Wahl unter den drei Alternativen entscheidend sein.<note type="com" xml:id="K_2809_c3">Das Programm forderte für die Realisierung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn zusätzliche Subventionen, nämlich 51,7 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken für die erste, 28,7 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken für die zweite und 7,6 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken für die dritte Variante. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> Programm für die Reorganisation der Gotthardbahnunternehmung (vom Juni 1876) (<ref type="lit">SBB Historic VGB_GB_SBBGB01_017</ref><!--_08--> ); <ref type="lit">Wanner, Gotthardbahn</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 386.</note>
+                 </p>
       <p rend="indent" xml:id="K_2809_p5">
                 <lb xml:id="p1-l11"/>Ich weiß diesen Combinationen, soweit sie zunächst zur Vorlage im<lb xml:id="p1-l12"/>
-                <choice>
-                        <abbr>
-                    <hi>resp</hi>.</abbr>
-                        <expan>respektive / respective</expan>
-                    </choice> zur Verhandlung mit dem schweizerischen Bundesrathe und durch dessen<lb xml:id="p1-l13"/>
+                <choice><abbr><hi>resp</hi>.</abbr><expan>respektive / respective</expan></choice> zur Verhandlung mit dem schweizerischen Bundesrathe und durch dessen<lb xml:id="p1-l13"/>
 Vermittelung zur Verhandlung mit den subventionirenden Regierungen<lb xml:id="p1-l14"/>
 bestimmt sind, Nichts zuzufügen. Je nachdem die Entscheidung über die<lb xml:id="p1-l15"/>
-eventuelle Erweiterung der Subvention durch <placeName type="place" key="Italien (Königreich)">Italien</placeName>, <placeName type="place" key="Deutsches Reich">deutsches Reich</placeName> und,<lb xml:id="p1-l16"/>
+eventuelle Erweiterung der Subvention durch <placeName key="Italien (Königreich)">Italien</placeName>, <placeName key="Deutsches Reich">deutsches Reich</placeName> und,<lb xml:id="p1-l16"/>
 wie diesseits auf das Bestimmteste erwartet wird, vor allem der Schweiz
 <lb xml:id="p1-l17"/>
 selbst, fällt, können meines Erachtens noch folgende weitere Combinationen<lb xml:id="p1-l18"/>
 in den Bereich der Erwägungen gezogen werden:<lb xml:id="p1-l19"/>
 1.) Uebertrag des Baues und Betriebes der Strecke <hi>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>–<placeName type="place" key="Flüelen">Fluelen</placeName> </hi> an<lb xml:id="p1-l20"/>
-    die <seg type="ref">Nordostbahn<ref type="kbe">→ NOB</ref>
-                </seg>; –<lb xml:id="p1-l21"/>
+                    <placeName key="Zürich (Stadt)">Zürich</placeName>–<placeName key="Flüelen">Fluelen</placeName> </hi> an<lb xml:id="p1-l20"/>
+    die <rs>Nordostbahn
+                </rs>; –<lb xml:id="p1-l21"/>
  2.) Uebertrag der Beschaffung und des Betriebes der Traject-Anstalt <hi>
-                    <placeName type="place" key="Luzern (Stadt)">Luzern</placeName>
-                    <lb break="no" xml:id="p1-l22"/>
-                    <placeName type="place" key="Flüelen">Fluelen</placeName> </hi><!--<com>Das Reorganisationsprogramm schlug die Ersetzung der Bahnlinien Zug&ndash;Flüelen und Luzern&ndash;Flüelen sowie Cadenazzo&ndash;Pino durch günstigere Trajektschiffe vor. <abbr>Vgl.</abbr> <ref type="lit">Wanner, Gotthardbahn</ref>, S. 386.</com></c> -->
-					an die <seg type="ref">Centralbahn<ref type="kbe">→ SCB</ref>
-                </seg>; – <pb n="2"/>
+                    <placeName key="Luzern (Stadt)">Luzern</placeName>
+                    <lb xml:id="p1-l22" break="no"/>
+                    <placeName key="Flüelen">Fluelen</placeName> </hi><!--<com>Das Reorganisationsprogramm schlug die Ersetzung der Bahnlinien Zug&ndash;Flüelen und Luzern&ndash;Flüelen sowie Cadenazzo&ndash;Pino durch günstigere Trajektschiffe vor. <abbr>Vgl.</abbr> <ref type="lit">Wanner, Gotthardbahn</ref>, S. 386.</com></c> -->
+					an die <rs>Centralbahn
+                </rs>; – <pb n="2"/>
                 <lb xml:id="p2-l1"/>
 3.) Abtretung und Ausbau der Strecke <hi>
-                    <placeName type="place" key="Bellinzona">Bellinzona</placeName> </hi> bis zur <placeName type="place" key="Italien (Königreich)">italienischen</placeName> <lb xml:id="p2-l2"/>
-Gränze an die <placeName type="place" key="Italien (Königreich)">italienische</placeName> Regierung gegen Ersatz der von der Gotthardbahn<lb break="no" xml:id="p2-l3"/>Gesellschaft
-auf diese Strecke verwandten Baukosten.<lb xml:id="p2-l4"/>
-Das Gotthard-Unternehmen würde in dieser Weise auf die Strecke<lb xml:id="p2-l5"/>
+                    <placeName key="Bellinzona">Bellinzona</placeName> </hi> bis zur <placeName key="Italien (Königreich)">italienischen</placeName> <lb xml:id="p2-l2"/>
+Gränze an die <placeName key="Italien (Königreich)">italienische</placeName> Regierung gegen Ersatz der von der Gotthardbahn
+                <lb xml:id="p2-l3" break="no"/>Gesellschaft
+auf diese Strecke verwandten Baukosten.<lb xml:id="p2-l4" break="no"/>
+Das Gotthard-Unternehmen würde in dieser Weise auf die Strecke<lb xml:id="p2-l5" break="no"/>
                 <hi>
-                    <placeName type="place" key="Flüelen">Fluelen</placeName>–<placeName type="place" key="Bellinzona">Bellinzona</placeName> </hi> beschränkt.</p>
+                    <placeName key="Flüelen">Fluelen</placeName>–<placeName key="Bellinzona">Bellinzona</placeName> </hi> beschränkt.</p>
       <p rend="left" xml:id="K_2809_p6">
                 <lb xml:id="p2-l6"/>
 				Die Nordostbahn sowohl wie die Centralbahn sind, wie ich glaube, ihrer<lb xml:id="p2-l7"/>
 finanziellen Lage nach vollkommen im Stande und auch durch ihr<lb xml:id="p2-l8"/>
 Interesse an dem Gotthardbahn-Unternehmen, genügend veranlaßt, den<lb xml:id="p2-l9"/>
-Bau und den Betrieb der Zufuhrstrecken zur <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn so lange in die<lb xml:id="p2-l10"/>
+Bau und den Betrieb der Zufuhrstrecken zur <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn so lange in die<lb xml:id="p2-l10"/>
 Hand zu nehmen, bis das vollendete Gotthardbahn-Unternehmen seine<lb xml:id="p2-l11"/>
 Rentabilität nachgewiesen und dadurch die eventuelle Rückerwerbung<lb xml:id="p2-l12"/>
 der Strecke <hi>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>–<placeName type="place" key="Flüelen">Fluelen</placeName> </hi> <choice>
-                        <abbr>
-                    <hi>resp</hi>.</abbr>
-                        <expan>respektive / respective</expan>
-                    </choice> den Ausbau des Anschlusses von<lb xml:id="p2-l13"/>
-                <placeName type="place" key="Luzern (Stadt)">
+                    <placeName key="Zürich (Stadt)">Zürich</placeName>–<placeName key="Flüelen">Fluelen</placeName> </hi> <choice><abbr><hi>resp</hi>.</abbr><expan>respektive / respective</expan></choice> den Ausbau des Anschlusses von<lb xml:id="p2-l13"/>
+                <placeName key="Luzern (Stadt)">
                     <hi>Luzern</hi>
                 </placeName> aus mittelst von der Gotthardbahn beschaffter Mittel ermöglicht<lb xml:id="p2-l14"/>
 haben wird.<!--<com>
@@ -223,114 +85,82 @@ haben wird.<!--<com>
 					</com></c> -->
             </p>
       <p rend="left" xml:id="K_2809_p7">
-                <lb xml:id="p2-l15"/>Die <placeName type="place" key="Italien (Königreich)">italienische</placeName> Regierung wird sich, wie ich glauben möchte, leichter dazu<lb xml:id="p2-l16"/>
-entschließen, die Strecken im Kanton <placeName type="place" key="Tessin">
-                    <hi>Tessin</hi>
-                </placeName> von <placeName type="place" key="Bellinzona">
+                <lb xml:id="p2-l15"/>Die <placeName key="Italien (Königreich)">italienische</placeName> Regierung wird sich, wie ich glauben möchte, leichter dazu<lb xml:id="p2-l16"/>
+entschließen, die Strecken im Kanton <placeName key="Tessin"><hi>Tessin</hi></placeName> von <placeName key="Bellinzona">
                     <hi>Bellinzona</hi>
                 </placeName> bis zur<lb xml:id="p2-l17"/>
-                <placeName type="place" key="Italien (Königreich)">italienischen</placeName> Gränze zu übernehmen <choice>
-                        <abbr>
-                    <hi>resp</hi>.</abbr>
-                        <expan>respektive / respective</expan>
-                    </choice> auszubauen, als weitere<lb xml:id="p2-l18"/>
-Subvention <hi>à fonds perdu</hi> zu gewähren. Die Station <placeName type="place" key="Bellinzona">
+                <placeName key="Italien (Königreich)">italienischen</placeName> Gränze zu übernehmen <choice><abbr><hi>resp</hi>.</abbr><expan>respektive / respective</expan></choice> auszubauen, als weitere<lb xml:id="p2-l18"/>
+Subvention <hi>à fonds perdu</hi> zu gewähren. Die Station <placeName key="Bellinzona">
                     <hi>Bellinzona</hi>
                 </placeName> <lb xml:id="p2-l19"/>
-        dürfte ohne Schwierigkeit so einzurichten sein, daß dieselbe als Ueber<lb break="no" xml:id="p2-l20"/>nahme- <choice>
-                        <abbr>
-                    <hi>resp</hi>.</abbr>
-                        <expan>respektive / respective</expan>
-                    </choice> Uebergangs-Station für Güter und Personen genügen würde. </p>
+        dürfte ohne Schwierigkeit so einzurichten sein, daß dieselbe als Ueber
+                <lb xml:id="p2-l20" break="no"/>nahme- <choice><abbr><hi>resp</hi>.</abbr><expan>respektive / respective</expan></choice> Uebergangs-Station für Güter und Personen genügen würde. </p>
       <p rend="indent" xml:id="K_2809_p8">
-                <lb xml:id="p2-l21"/>Mir scheint es vor Allem nöthig, Sicherheit und zwar größt<lb break="no" xml:id="p2-l22"/>mögliche 
-Sicherheit dafür zu beschaffen, daß die Hauptlinie der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>
-                    <lb break="no" xml:id="p2-l23"/>bahn 
-wirklich zur Ausführung gelange. Nur unter dieser unum<pb n="3"/>
-                    <lb xml:id="p3-l1"/>gänglichen Voraussetzung halte ich es für möglich, <seg type="com">die Actionäre zur<lb xml:id="p3-l2"/>
-Einzahlung der restirenden 40% zu bestimmen, sowie weitere Obliga<lb break="no" xml:id="p3-l3"/>tionen 
-zu begeben.<note xml:id="K_2809_c4">Bis Anfang 1876 waren Aktien im Betrag von rund 13,6 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken (40% des Aktienkapitals von insgesamt 34 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken) sowie Obligationen im Umfang von 20 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken (<choice>
-                                <abbr>ca.</abbr>
-                                <expan>circa</expan>
-                            </choice> 30% des Obligationenkapitals von insgesamt 68 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken) noch nicht einbezahlt worden. <ref type="sum" target="Rekonstruktion_Gotthardbahn_p19"><!--→ Band 1, S. 399–400--></ref>.<!--Vgl. <ref type="lit">Statuten GB</ref>, Art. 7; <ref type="lit">Geschäftsbericht GB</ref> 1872, S. 7&ndash;9, 25&ndash;26, 
+                <lb xml:id="p2-l21"/>Mir scheint es vor Allem nöthig, Sicherheit und zwar größt
+                <lb xml:id="p2-l22" break="no"/>mögliche 
+Sicherheit dafür zu beschaffen, daß die Hauptlinie der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>
+                <lb xml:id="p2-l23" break="no"/>bahn 
+wirklich zur Ausführung gelange. Nur unter dieser unum
+                <pb n="3"/>
+                <lb xml:id="p3-l1" break="no"/>gänglichen Voraussetzung halte ich es für möglich, die Actionäre zur<lb xml:id="p3-l2"/>
+Einzahlung der restirenden 40% zu bestimmen, sowie weitere Obliga
+                    <lb xml:id="p3-l3" break="no"/>tionen 
+zu begeben.<note type="com" xml:id="K_2809_c4">Bis Anfang 1876 waren Aktien im Betrag von rund 13,6 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken (40% des Aktienkapitals von insgesamt 34 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken) sowie Obligationen im Umfang von 20 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken (<choice><abbr>ca.</abbr><expan>circa</expan></choice> 30% des Obligationenkapitals von insgesamt 68 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken) noch nicht einbezahlt worden. <ref type="sum" target="Rekonstruktion_Gotthardbahn_p19"><!--→ Band 1, S. 399–400--></ref>.<!--Vgl. <ref type="lit">Statuten GB</ref>, Art. 7; <ref type="lit">Geschäftsbericht GB</ref> 1872, S. 7&ndash;9, 25&ndash;26, 
     <ref type="lit">Geschäftsbericht GB</ref> 1873, S. 12; <ref type="lit">Geschäftsbericht GB</ref> 1874, S. 6; <ref type="lit">Geschäftsbericht GB</ref> 1875, S. 6; Botschaft BR GB 1878, S. 59. [<b>PENDENT.</b> Quellen überprüfen.]-->
                     </note>
-                </seg> Daß während des Laufes der schwebenden Verhand<lb break="no" xml:id="p3-l4"/>lungen <seg type="com">alle Bauten sistirt bleiben müssen<note xml:id="K_2809_c5">Die Direktion der Gotthardbahn-Gesellschaft ordnete schon kurz nach Bekanntwerden der Expertise <ref type="kbp"/>
-                        <persName type="person" key="Hellwag Konrad Wilhelm">Konrad Wilhelm Hellwags</persName> eine weitgehende Beschränkung der Bauarbeiten an. <ref type="sum" target="Rekonstruktion_Gotthardbahn_p6"><!--→ Band 1, S. 392--></ref>.<!--Vgl. Wanner, Gotthardbahn, S. 368; Prot. BR, 22. März 1876, 5. April 1876, 24. Mai 1876.-->
+                 Daß während des Laufes der schwebenden Verhand
+                <lb xml:id="p3-l4" break="no"/>lungen alle Bauten sistirt bleiben müssen<note type="com" xml:id="K_2809_c5">Die Direktion der Gotthardbahn-Gesellschaft ordnete schon kurz nach Bekanntwerden der Expertise 
+                        <persName key="Hellwag Konrad Wilhelm">Konrad Wilhelm Hellwags</persName> eine weitgehende Beschränkung der Bauarbeiten an. <ref type="sum" target="Rekonstruktion_Gotthardbahn_p6"><!--→ Band 1, S. 392--></ref>.<!--Vgl. Wanner, Gotthardbahn, S. 368; Prot. BR, 22. März 1876, 5. April 1876, 24. Mai 1876.-->
                     </note>
-                </seg>, mit einziger Ausnahme des<lb xml:id="p3-l5"/>
-Tunnelbaues, sowie daß auf möglichste Oekonomie und Vermeidung<lb xml:id="p3-l6"/>
-zu vielen Schreibwerks energisch hingewirkt werde, halte ich für<lb xml:id="p3-l7"/>
-selbstverständlich. Zinsen an die Actionäre werden, dem Vorgange fast<lb xml:id="p3-l8"/>
-aller anderen Gesellschaften entsprechend, nur in Anrechnung auf die noch<lb xml:id="p3-l9"/>
-zu leistenden Einzahlungen vergütet werden können. Die mit weiteren<lb xml:id="p3-l10"/>
-Einzahlungen im Rückstande bleibenden Actionäre werden <seg type="com">auf Grund<lb xml:id="p3-l11"/>
+                , mit einziger Ausnahme des<lb xml:id="p3-l5" break="no"/>
+Tunnelbaues, sowie daß auf möglichste Oekonomie und Vermeidung<lb xml:id="p3-l6" break="no"/>
+zu vielen Schreibwerks energisch hingewirkt werde, halte ich für<lb xml:id="p3-l7" break="no"/>
+selbstverständlich. Zinsen an die Actionäre werden, dem Vorgange fast<lb xml:id="p3-l8" break="no"/>
+aller anderen Gesellschaften entsprechend, nur in Anrechnung auf die noch<lb xml:id="p3-l9" break="no"/>
+zu leistenden Einzahlungen vergütet werden können. Die mit weiteren<lb xml:id="p3-l10" break="no"/>
+Einzahlungen im Rückstande bleibenden Actionäre werden auf Grund<lb xml:id="p3-l11"/>
 der Statuten zu
-präcludiren sein.<note xml:id="K_2809_c6"><!--Art. 9 der Statuten der Gotthardbahn legt das Vorgehen der Gesellschaft für den Fall fest, dass ein Aktieninhaber seine Einzahlung nicht auf 
+präcludiren sein.<note type="com" xml:id="K_2809_c6"><!--Art. 9 der Statuten der Gotthardbahn legt das Vorgehen der Gesellschaft für den Fall fest, dass ein Aktieninhaber seine Einzahlung nicht auf 
     den festgesetzten Termin vornimmt. -->
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Statuten GB</ref>, <choice>
-                                <abbr>Art.</abbr>
-                                <expan>Artikel</expan>
-                            </choice> 9.</note>
-                </seg> </p>
+                        <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Statuten GB</ref>, <choice><abbr>Art.</abbr><expan>Artikel</expan></choice> 9.</note>
+                 </p>
       <p rend="indent" xml:id="K_2809_p9">
                 <lb xml:id="p3-l12"/>In Bezug auf das in Aussicht genommene durch neu zu emittirende<lb xml:id="p3-l13"/>
-hypothekarisch sichergestellte Obligationen zu beschaffende Kapital gilt das<lb break="no" xml:id="p3-l14"/>selbe, 
-was ich mir in Bezug auf die Rest-Einzahlung der Actienbeträge<lb xml:id="p3-l15"/>
+hypothekarisch sichergestellte Obligationen zu beschaffende Kapital gilt das
+                <lb xml:id="p3-l14" break="no"/>selbe, 
+was ich mir in Bezug auf die Rest-Einzahlung der Actienbeträge<lb xml:id="p3-l15" break="no"/>
 zu sagen erlaubte. </p>
       <p rend="indent" xml:id="K_2809_p10">
-                <lb xml:id="p3-l16"/>Nur dann, wenn die Vollendung der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn so sichergestellt<lb xml:id="p3-l17"/>
-wird, daß selbst die scharfe, <seg type="ref">durch die enorme Ueberschreitung des Voran<lb break="no" xml:id="p3-l18"/>schlages 
-für die Bahnen im Kanton <placeName type="place" key="Tessin">
-                        <hi>Tessin</hi>
-                    </placeName>
+                <lb xml:id="p3-l16"/>Nur dann, wenn die Vollendung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn so sichergestellt<lb xml:id="p3-l17"/>
+wird, daß selbst die scharfe, <rs>durch die enorme Ueberschreitung des Voran
+                    <lb xml:id="p3-l18" break="no"/>schlages 
+für die Bahnen im Kanton <placeName key="Tessin"><hi>Tessin</hi></placeName>
                     <ref type="letter" target="K_2732"><!--Tessiner Talbahnen → Nr. 210--></ref><!--Während die internationale Gotthardkonferenz von 1869 für die Erstellung der Tessiner Talbahnen Biasca&ndash;Bellinzona, Bellinzona&ndash;Locarno und Lugano&ndash;Chiasso mit Kosten von 18,6 Mio. Franken rechnete, bezifferte Hellwag die zu erwartenden Kosten auf 51,6 Mio. Franken. <abbr>Vgl.</abbr><ref type="lit">Direktion GB, Schreiben Finanzlage</ref>, S. 21;<ref type="lit">Bericht GV GB 1876</ref>, S. 9&ndash;10;<ref type="sum">&rarr;&nbsp;IV:4</ref>.--><!--Die internationale Gotthardkonferenz von 1869 hatte für den Bau der Tessiner Talbahnen (die Linien <idx type="place" norm="Biasca">Biasca</idx>–<idx type="place" norm="Bellinzona">Bellinzona</idx>–<idx type="place" norm="Locarno">Locarno</idx> sowie <idx type="place" norm="Lugano">Lugano</idx>–<idx type="place" norm="Chiasso">Chiasso</idx>) Kosten im Umfange von rund 14.6 Mio. Franken veranschlagt. Die effektiven Ausgaben für die genannten Linien, welche Ende 1874 dem Betrieb übergeben werden konnten, beliefen sich auf 32.2 Mio. Franken. Der Kostenvoranschlag wurde also um rund 17.6 Mio. Franken oder um 120% überschritten. <abbr>Vgl.</abbr><ref type="lit">Wanner, Gotthardbahn</ref>, S. 335–345;<ref type="lit">Staatsvertrag Gotthardbahn 1869</ref>, Art. 3. [<b>PENDENT</b>. Gem. Geschäftsbericht GBG 1875, S. 37, sind die Baukosten(überschreitungen) der Tessiner Thalbahnen ausgewiesen im <u>Bericht an die GV 1876 über die Finanzlage der GBG</u>. Check SBB Historic Bericht GV GB betreffend die Finanzlage der Unternehmung (SBB Historic VGB_GB_SBBGB09_001_03).]
 </com>-->
-                </seg> und durch <seg type="ref">den generell so sehr<lb xml:id="p3-l19"/>
+                </rs> und durch <rs>den generell so sehr<lb xml:id="p3-l19"/>
 erhöhten Voranschlag für die noch herzustellenden Strecken<ref type="sum" target="Rekonstruktion_Gotthardbahn_p4">Bericht Hellwag Februar 1876<!-- → Band 1, S. 391–392--></ref>
                     <ref type="letter" target="K_2712"><!--→ Nr. 202--></ref><!--<com><ref type="kbp">&rarr; Konrad Wilhelm Hellwag
 						</ref> rechnete in seiner im Februar 1876 fertiggestellten Expertise für die Erstellung der Gotthardbahn mit Mehrkosten von 102 Mio. Franken im Vergleich zu den von der Gotthardkonferenz im Jahre 1869  budgetierten 187 Mio. Franken. <abbr>Vgl.</abbr><ref type="lit">Hellwag, Bericht, III. Theil: Kostenberechnung</ref>, o. S.;<ref type="sum">&rarr; Überblickskommentar MF II</ref>.
 					</com>-->
-                </seg> gewissermaßen<lb xml:id="p3-l20"/>
+                </rs> gewissermaßen<lb xml:id="p3-l20"/>
 berechtigte, Kritik diese Vollendung nicht mehr bezweifelt, wird es möglich<lb xml:id="p3-l21"/>
 sein, neue Obligationen zu begeben.</p>
       <p rend="indent" xml:id="K_2809_p11">
                 <lb xml:id="p3-l22"/>Sicher und leicht wäre die Emission neuer Obligationen, wenn die<lb xml:id="p3-l23"/>
-schweizerische Regierung eine Verzinsung derselben mit 4½% <choice>
-                        <abbr>
-                    <hi>resp</hi>.</abbr>
-                        <expan>respektive / respective</expan>
-                    </choice> 4%<lb xml:id="p3-l24"/>
+schweizerische Regierung eine Verzinsung derselben mit 4½% <choice><abbr><hi>resp</hi>.</abbr><expan>respektive / respective</expan></choice> 4%<lb xml:id="p3-l24"/>
 garantiren wollte.<pb n="4"/>
             </p>
       <p rend="left" xml:id="K_2809_p12">
-                <lb xml:id="p4-l1"/>Ohne eine solche Garantie halte ich die Emission neuer selbst hypothe<lb break="no" xml:id="p4-l2"/>karisch 
-sichergestellter Obligationen unter den <date when="1876-06-08">heute</date> gegebenen Ver<lb break="no" xml:id="p4-l3"/>hältnissen 
-für sehr schwierig und namentlich eine Betheiligung des<lb xml:id="p4-l4"/>
-                    <placeName type="place" key="Deutsches Reich">deutschen</placeName> Kapitals bei dieser Emission nicht für wahrscheinlich. Kann<lb xml:id="p4-l5"/>
-die Schweiz zu einer Garantie der Obligationen bewogen werden, so<lb xml:id="p4-l6"/>
-stände meines Erachtens dem kein Bedenken entgegen, daß den Inhabern<lb xml:id="p4-l7"/>
-der bereits emittirten 48 Millionen <choice>
-                        <abbr>
-                    <hi>frs</hi>.</abbr>
-                        <expan>francs (Franken)</expan>
-                    </choice> Obligationen angesonnen würde,<lb xml:id="p4-l8"/>
-in die Conversion dieser Titel, <hi rend="underline">zur Hälfte</hi> in Prioritäts-Actien und zur<lb xml:id="p4-l9"/>
+                <lb xml:id="p4-l1"/>Ohne eine solche Garantie halte ich die Emission neuer selbst hypothe
+                <lb xml:id="p4-l2" break="no"/>karisch 
+sichergestellter Obligationen unter den <date when="1876-06-08">heute</date> gegebenen Ver
+                <lb xml:id="p4-l3" break="no"/>hältnissen 
+für sehr schwierig und namentlich eine Betheiligung des<lb xml:id="p4-l4" break="no"/>
+                <placeName key="Deutsches Reich">deutschen</placeName> Kapitals bei dieser Emission nicht für wahrscheinlich. Kann<lb xml:id="p4-l5" break="no"/>
+die Schweiz zu einer Garantie der Obligationen bewogen werden, so<lb xml:id="p4-l6" break="no"/>
+stände meines Erachtens dem kein Bedenken entgegen, daß den Inhabern<lb xml:id="p4-l7" break="no"/>
+der bereits emittirten 48 Millionen <choice><abbr><hi>frs</hi>.</abbr><expan>francs (Franken)</expan></choice> Obligationen angesonnen würde,<lb xml:id="p4-l8" break="no"/>
+in die Conversion dieser Titel, <hi rend="underline">zur Hälfte</hi> in Prioritäts-Actien und zur<lb xml:id="p4-l9" break="no"/>
 Hälfte in garantirte Obligationen, einzuwilligen.</p>
       <p rend="indent" xml:id="K_2809_p13">
                 <lb xml:id="p4-l10"/>Bei der gegenwärtigen Lage der Gesellschaft werden die Inhaber<lb xml:id="p4-l11"/>
@@ -342,19 +172,21 @@ des Unternehmens zu laufen. </p>
                 <lb xml:id="p4-l15"/>Auch die Schweiz dürfte sich vielleicht leichter zu einer Garantie<lb xml:id="p4-l16"/>
 der Obligationen als zu einer starken Betheiligung an einer<lb xml:id="p4-l17"/>
 weiteren Subvention (und ohne eine solche starke Betheiligung<lb xml:id="p4-l18"/>
-der Schweiz ist von <placeName type="place" key="Italien (Königreich)">Italien</placeName> und <placeName type="place" key="Deutsches Reich">Deutschland</placeName> schwerlich etwas<lb xml:id="p4-l19"/>
+der Schweiz ist von <placeName key="Italien (Königreich)">Italien</placeName> und <placeName key="Deutsches Reich">Deutschland</placeName> schwerlich etwas<lb xml:id="p4-l19"/>
 zu erwarten) entschließen. In der Uebernahme der Garantie<lb xml:id="p4-l20"/>
 läge zugleich der Ausdruck der Ueberzeugung der Organe der<lb xml:id="p4-l21"/>
 Regierung der Schweiz, daß das Gotthard-Unternehmen mit den der<lb xml:id="p4-l22"/>
-Gesellschaft neu zu eröffnenden Finanzquellen unter allen Um<lb break="no" xml:id="p4-l23"/>ständen 
+Gesellschaft neu zu eröffnenden Finanzquellen unter allen Um
+                <lb xml:id="p4-l23" break="no"/>ständen 
     vollendet werden kann und vollendet werden soll.<pb n="5"/>
             </p>
       <p rend="left" xml:id="K_2809_p15">
                 <lb xml:id="p5-l1"/>Durch eine Garantie der Schweiz wird das Vertrauen der Inhaber<lb xml:id="p5-l2"/>
-der Actien und der emittirten Obligationen neu gestärkt und die übel<lb break="no" xml:id="p5-l3"/>wollende 
-Kritik entwaffnet. Die Schweiz würde aller menschlichen<lb xml:id="p5-l4"/>
-Voraussicht nach kein wirkliches Risico bei dieser Garantie laufen, höchstens<lb xml:id="p5-l5"/>
-in den ersten paar Jahren des Betriebes einen Zuschuß zur Verzinsung der<lb xml:id="p5-l6"/>
+der Actien und der emittirten Obligationen neu gestärkt und die übel
+                <lb xml:id="p5-l3" break="no"/>wollende 
+Kritik entwaffnet. Die Schweiz würde aller menschlichen<lb xml:id="p5-l4" break="no"/>
+Voraussicht nach kein wirkliches Risico bei dieser Garantie laufen, höchstens<lb xml:id="p5-l5" break="no"/>
+in den ersten paar Jahren des Betriebes einen Zuschuß zur Verzinsung der<lb xml:id="p5-l6" break="no"/>
 Obligationen zu leisten haben. </p>
       <p rend="indent" xml:id="K_2809_p16">
                 <lb xml:id="p5-l7"/>Ob der eine oder andere der vorstehend zusätzlich zu dem mir mitgetheilten<lb xml:id="p5-l8"/>
@@ -375,17 +207,13 @@ Gesellschaft zur Verzinsung der emittirten Obligationen und mit Rücksicht<lb xm
 auf die knappen der Gesellschaft noch zur Verfügung stehenden Mittel, halte<lb xml:id="p5-l21"/>
 ich vor Allem die möglichste Beschleunigung der Verhandlungen und <hi rend="underline">eine<lb xml:id="p5-l22"/>
 rasche Entscheidung</hi> für geboten. </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="right" xml:id="K_2809_p19">
                     <lb xml:id="p5-l23"/>Mit ausgezeichneter Hochachtung! </p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_2809_p20">
                     <lb xml:id="p5-l24"/>G. Mevissen</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

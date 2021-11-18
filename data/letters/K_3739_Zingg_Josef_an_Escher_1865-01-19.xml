@@ -1,134 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3739" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Josef Zingg an Alfred Escher, Luzern, Donnerstag, Januar 19, 1865</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_054</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Splügenbahnprojekt</item>
-                        <item>Eisenbahnen Gutachten und Expertisen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Luzern</placeName>
-                    <date when="1865-01-19">Donnerstag, Januar 19, 1865</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2012-07-11" who="FK">Brief transkribiert
-                
-            </change>
-            <change when="2012-08-03" who="FW">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-08-09" who="LB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-08-30" who="NB">Transkriptionsverifizierung T.Binder umgesetzt
-                
-            </change>
-            <change when="2014-01-20" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-02-06" who="AW">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-05-22" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-06-10" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2017-07-10" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3739" type="Brief"><teiHeader><fileDesc><titleStmt><title>Josef Zingg an Alfred Escher, Luzern, Donnerstag, 19. Januar 1865</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_054</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Splügenbahnprojekt</term><term>Eisenbahnen Gutachten und Expertisen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Zingg Josef" type="addressee">Josef Zingg</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Luzern</placeName><date when="1865-01-19">19. Januar 1865</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
         <p rend="indent" xml:id="K_3739_p1">
                     <lb xml:id="p1-l1"/>Hochgeachteter Herr Präsident!
 			</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="left" xml:id="K_3739_p2">
                 <lb xml:id="p1-l2"/>Indem ich Ihnen in Anlage die Zusammenstellung über<lb xml:id="p1-l3"/>
-			die climatischen Verhältniße am <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName> über<lb break="no" xml:id="p1-l4"/>mache,  beehre ich mich noch Folgendes zur Erläuterung<lb xml:id="p1-l5"/>
+			die climatischen Verhältniße am <placeName key="St. Gotthard (Pass)">Gotthardt</placeName> über
+                <lb xml:id="p1-l4" break="no"/>mache,  beehre ich mich noch Folgendes zur Erläuterung<lb xml:id="p1-l5" break="no"/>
 			beizufügen:
 			</p>
       <p rend="left" xml:id="K_3739_p3">
                 <lb xml:id="p1-l6"/>
         <hi rend="underline">1.</hi> Auf Seite 1. sind die Zahlen über die Temperatur zu<lb xml:id="p1-l7"/>
-                <placeName type="place" key="Altdorf (UR)">Altorf</placeName> nach den Ergebnißen der Beobachtungen von<lb xml:id="p1-l8"/>
-                <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <choice>
-                        <abbr>
-                    <hi>Dr</hi>.</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> <persName type="person" key="Müller Karl Emanuel">Müller</persName> nöthigenfalls zu rektificiren.
+                <placeName key="Altdorf (UR)">Altorf</placeName> nach den Ergebnißen der Beobachtungen von<lb xml:id="p1-l8"/>
+                <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <choice><abbr><hi>Dr</hi>.</abbr><expan>Doktor / Doctor</expan></choice> <persName key="Müller Karl Emanuel">Müller</persName> nöthigenfalls zu rektificiren.
 			</p>
       <p rend="left" xml:id="K_3739_p4">
                 <lb xml:id="p1-l9"/>
         <hi rend="underline">2.</hi> Auf Seite 2 &amp; 7 fehlen einige Höhenangaben, welche<lb xml:id="p1-l10"/>
-			ich durch <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Beckh August von">
-                    <hi>Bekh</hi>
-                </persName> ergänzen zu laßen bitte.
+			ich durch <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <persName key="Beckh August von"><hi>Bekh</hi></persName> ergänzen zu laßen bitte.
 			</p>
       <p rend="left" xml:id="K_3739_p5">
                 <lb xml:id="p1-l11"/>
-        <hi rend="underline">3.</hi> Auf Seite 7 ist die mittlere Monatstemperatur <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <lb xml:id="p1-l12"/>
-                <placeName type="place" key="Andermatt">Andermatt</placeName> &amp; <placeName type="place" key="Splügen">Splügen</placeName> beizufügen.
+        <hi rend="underline">3.</hi> Auf Seite 7 ist die mittlere Monatstemperatur <choice><abbr>v.</abbr><expan>von</expan></choice> <lb xml:id="p1-l12"/>
+                <placeName key="Andermatt">Andermatt</placeName> &amp; <placeName key="Splügen">Splügen</placeName> beizufügen.
 			</p>
       <p rend="left" xml:id="K_3739_p6">
                 <lb xml:id="p1-l13"/>
-        <hi rend="underline">4.</hi> Ich konnte die Rechnungen <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <placeName type="place" key="Uri">
-                    <hi>Uri</hi>
-                </placeName> &amp; diejenigen der Eidge<lb break="no" xml:id="p1-l14"/>noßenschaft nicht gemeinsam behandeln, weil die<lb xml:id="p1-l15"/>
-				Längen verschieden sind. Die Schneebruchkosten <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice>
-                    <placeName type="place" key="Uri">
-                    <hi>Uri</hi>
-                </placeName>
-                    <lb xml:id="p1-l16"/>
-			erstreken sich nur bis auf die Kantonsgrenze, welche<lb xml:id="p1-l17"/>
+        <hi rend="underline">4.</hi> Ich konnte die Rechnungen <choice><abbr>v.</abbr><expan>von</expan></choice> <placeName key="Uri"><hi>Uri</hi></placeName> &amp; diejenigen der Eidge
+                <lb xml:id="p1-l14" break="no"/>noßenschaft nicht gemeinsam behandeln, weil die<lb xml:id="p1-l15" break="no"/>
+				Längen verschieden sind. Die Schneebruchkosten <choice><abbr>v.</abbr><expan>von</expan></choice> <placeName key="Uri"><hi>Uri</hi></placeName> <lb xml:id="p1-l16" break="no"/>
+			erstreken sich nur bis auf die Kantonsgrenze, welche<lb xml:id="p1-l17" break="no"/>
 			eine Streke unterhalb dem Hospitz sind befindet; die in <pb n="2"/>
             </p>
       <p rend="left" xml:id="K_3739_p7">
@@ -138,45 +43,24 @@
 			</p>
       <p rend="left" xml:id="K_3739_p8">
                 <lb xml:id="p2-l4"/>
-        <hi rend="underline">5.</hi> Ich habe die Streken <placeName type="place" key="Göschenen">Göschenen</placeName>–<placeName type="place" key="Andermatt">
-                    <hi>Andermatt</hi>
-                </placeName> &amp; <placeName type="place" key="Andermatt">
-                    <hi>Ander<lb break="no" xml:id="p2-l5"/>matt</hi>
-                </placeName>–Hospiz nicht getrennt behandelt, indem sie<lb xml:id="p2-l6"/>
-				entsprechend der Wegstreke <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> Dorf <placeName type="place" key="Splügen">Splügen</placeName> aufwärts<lb xml:id="p2-l7"/>
+        <hi rend="underline">5.</hi> Ich habe die Streken <placeName key="Göschenen">Göschenen</placeName>–<placeName key="Andermatt"><hi>Andermatt</hi></placeName> &amp; <placeName key="Andermatt"><hi>Ander
+                    <lb xml:id="p2-l5" break="no"/>matt</hi></placeName>–Hospiz nicht getrennt behandelt, indem sie<lb xml:id="p2-l6"/>
+				entsprechend der Wegstreke <choice><abbr>v.</abbr><expan>von</expan></choice> Dorf <placeName key="Splügen">Splügen</placeName> aufwärts<lb xml:id="p2-l7"/>
 			auch die eigentliche Bergparthie betreffen.
 			</p>
       <p rend="left" xml:id="K_3739_p9">
                 <lb xml:id="p2-l8"/>
-        <hi rend="underline">6.</hi> Die Berechnung der Schneebruchkosten am <placeName type="place" key="Splügen (Pass)">Splügen</placeName> <lb xml:id="p2-l9"/>
-				(<choice>
-                        <abbr>
-                    <hi>frs</hi>
-                </abbr>
-                        <expan>francs (Franken)</expan>
-                    </choice> 6000) stützt sich auf einen Bericht der Regierung <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <lb xml:id="p2-l10"/>
-                <placeName type="place" key="Graubünden">Graubündten</placeName> selbst &amp; ein Gutachten von <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> Ingenieur<lb xml:id="p2-l11"/>
-                <persName type="person" key="Merian André">
-                    <hi>Merian</hi>
-                </persName> vom Jahre 1857.
+        <hi rend="underline">6.</hi> Die Berechnung der Schneebruchkosten am <placeName key="Splügen (Pass)">Splügen</placeName> <lb xml:id="p2-l9"/>
+				(<choice><abbr><hi>frs</hi></abbr><expan>francs (Franken)</expan></choice> 6000) stützt sich auf einen Bericht der Regierung <choice><abbr>v.</abbr><expan>von</expan></choice> <lb xml:id="p2-l10"/>
+                <placeName key="Graubünden">Graubündten</placeName> selbst &amp; ein Gutachten von <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> Ingenieur<lb xml:id="p2-l11"/>
+                <persName key="Merian André"><hi>Merian</hi></persName> vom Jahre 1857.
 			</p>
       <p rend="left" xml:id="K_3739_p10">
                 <lb xml:id="p2-l12"/>Sollten Sie im einten oder andern Punkt irgendwelche<lb xml:id="p2-l13"/>
 			Abänderungen für wünschbar erachten, so ermächtige<lb xml:id="p2-l14"/>
 			ich Sie, dieselben ganz nach Ihrem Ermeßen vorzunehmen.
 			</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="left" xml:id="K_3739_p11">
                     <lb xml:id="p2-l15"/>Inzwischen verbleibe in freundschaftlicher Hochachtung
@@ -185,7 +69,7 @@
                     <lb xml:id="p2-l16"/>Ihr ganz ergebener
 			</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_3739_p13">
                     <lb xml:id="p2-l17"/>J. Zingg.
 			</p>
@@ -193,15 +77,10 @@
       <div type="dateline">
         <p rend="left" xml:id="K_3739_p14">
                     <lb xml:id="p2-l18"/>
-          <placeName type="place" key="Luzern (Stadt)">
+          <placeName key="Luzern (Stadt)">
                         <hi>Luzern</hi>
-                    </placeName> den <date when="1865-01-19">19. <choice>
-                            <abbr>
-                            <hi>Jan</hi>.</abbr>
-                            <expan>Januar</expan>
-                        </choice> 1865</date>.
+                    </placeName> den <date when="1865-01-19">19. <choice><abbr>
+                            <hi>Jan</hi>.</abbr><expan>Januar</expan></choice> 1865</date>.
 			</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

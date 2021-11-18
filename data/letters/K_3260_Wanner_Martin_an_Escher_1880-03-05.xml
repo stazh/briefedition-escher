@@ -1,180 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3260" n="399" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Martin Wanner an Alfred Escher, Luzern, Freitag, März 5, 1880</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#527*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Gotthardtunnel</item>
-                        <item>Gotthard-Durchstich</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Wanner Martin" type="sender">Martin Wanner</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Luzern</placeName>
-                    <date when="1880-03-05">Freitag, März 5, 1880</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="06-8-07" who="UV"> transkribiert
-                
-            </change>
-            <change when="Oktober 2006" who="swissedit, UR">von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-10-18" who="SK">kommentiert 1 prov.
-                
-            </change>
-            <change when="2006-11-30" who="SM">xml kontrolliert
-                
-            </change>
-            <change when="2007-02-22" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-04-24" who="SK">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-26" who="WB">indexiert
-                
-            </change>
-            <change when="2007-05-26" who="SK">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-20" who="SK">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2008-08-12" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-29" who="BP">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-09" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-19" who="TM">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-28" who="NS">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-12-01" who="CA">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-12-01" who="CA">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2018-12-17" who="DB">Transkriptionsverifizierung Seiterle umgesetzt
-      
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="left" xml:id="K_3260_p1">
-                    <lb xml:id="p1-l1"/>
-          <choice>
-                        <abbr>MHHerrn</abbr>
-                        <expan>Meinem Hohen Herrn</expan>
-                    </choice> Nationalrat <choice>
-                        <abbr>
-                        <hi>Dr</hi>.</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A. Escher, <lb xml:id="p1-l2"/>
-                    <placeName type="place" key="Paris (F)">
-                        <hi>Paris</hi>
-                    </placeName>, <lb xml:id="p1-l3"/>
-                    <hi>Hôtel Meurice</hi>. <seg type="com">
-                        <note xml:id="K_3260_c1">Adresse unten in der Mitte auf Seite 1.</note>
-                    </seg> </p>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3260" type="Brief"><teiHeader><fileDesc><titleStmt><title>Martin Wanner an Alfred Escher, Luzern, Freitag, 05. März 1880</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#527*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Gotthardtunnel</term><term>Gotthard-Durchstich</term><term>Gotthardbahnprojekt</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term> Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Wanner Martin" type="addressee">Martin Wanner</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Luzern</placeName><date when="1880-03-05">05. März 1880</date></correspAction><correspAction type="received"><placeName>Paris</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
+        <p rend="left" xml:id="K_3260_p1"><lb xml:id="p1-l1"/>
+          <choice><abbr>MHHerrn</abbr><expan>Meinem Hohen Herrn</expan></choice> Nationalrat <choice><abbr><hi>Dr</hi>.</abbr><expan>Doktor / Doctor</expan></choice> A. Escher, <lb xml:id="p1-l2"/><placeName key="Paris (F)"><hi>Paris</hi></placeName>, <lb xml:id="p1-l3"/><hi>Hôtel Meurice</hi>. <note type="com" xml:id="K_3260_c1">Adresse unten in der Mitte auf Seite 1.</note> </p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_3260_p2">
-                    <lb xml:id="p1-l4"/>Verehrtester Herr Präsident!</p>
+        <p rend="center" xml:id="K_3260_p2"><lb xml:id="p1-l4"/>Verehrtester Herr Präsident!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_3260_p3">
-                <lb xml:id="p1-l5"/> Erst <date when="1880-03-05">heute</date> Mittag gelang es mir, <seg type="ref">Ihre Adresse<ref type="letter" target="K_3259_c2"><!-- → Nr. 391 (Kommentar)--></ref>
-                </seg> zu erfahren,<lb xml:id="p1-l6"/>
-sonst hätte ich Ihnen längst meine aufrichtige Theilnahme aus<lb break="no" xml:id="p1-l7"/>gesprochen. 
-Ich empfinde wohl, wie tiefen Antheil auch Sie<lb xml:id="p1-l8"/>
-an der Vollendung des Durchschlags des großen Gotthardtun<lb break="no" xml:id="p1-l9"/>nels 
-genommen haben; ist es doch Ihr Werk in erster Linie,<lb xml:id="p1-l10"/>
-das seinen Triumph dieser Tage feierte, wenn Sie auch wei<lb break="no" xml:id="p1-l11"/>ter 
-demselben jetzt ferne stehen. Wie sehr dies in aller <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p1-l12"/>
-jeder Beziehung zu bedauern ist, das empfinde wohl ich am<lb xml:id="p1-l13"/>
-meisten. Darüber zu reden, liegt jedoch nicht in meiner Absicht.<lb xml:id="p1-l14"/>
-Oeffentlich zu schreiben, habe ich absichtlich unterlassen, dagegen habe<lb xml:id="p1-l15"/>
-ich am <date when="1880-03-01">1. März</date> in einem Kreise von 90 Angestellten <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> höheren<lb xml:id="p1-l16"/>
-        Beamten <seg type="com">unserer Verwaltung<note xml:id="K_3260_c2">Gemeint ist die Verwaltung der Gotthardbahn-Gesellschaft.</note>
-                </seg> Ihrer mit aufrichtiger Aner<pb n="2"/>
-                    <lb xml:id="p2-l1"/>kennung  
-gedacht <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> erfüllte eine Pflicht der Dankbar<lb break="no" xml:id="p2-l2"/>keit.</p>
-      <p rend="indent" xml:id="K_3260_p4">
-                <lb xml:id="p2-l3"/>Erlauben Sie mir noch, Herr Präsident, die Hoffnung<lb xml:id="p2-l4"/>
-auszusprechen, daß Ihr Aufenthalt in der großen Welt<lb break="no" xml:id="p2-l5"/>stadt 
+    </front><body>
+      <p rend="indent" xml:id="K_3260_p3"><lb xml:id="p1-l5"/> Erst <date when="1880-03-05">heute</date> Mittag gelang es mir, <rs>Ihre Adresse<ref type="letter" target="K_3259_c2"><!-- → Nr. 391 (Kommentar)--></ref></rs> zu erfahren,<lb xml:id="p1-l6"/>
+sonst hätte ich Ihnen längst meine aufrichtige Theilnahme aus<lb xml:id="p1-l7" break="no"/>gesprochen. 
+Ich empfinde wohl, wie tiefen Antheil auch Sie<lb xml:id="p1-l8" break="no"/>
+an der Vollendung des Durchschlags des großen Gotthardtun<lb xml:id="p1-l9" break="no"/>nels 
+genommen haben; ist es doch Ihr Werk in erster Linie,<lb xml:id="p1-l10" break="no"/>
+das seinen Triumph dieser Tage feierte, wenn Sie auch wei<lb xml:id="p1-l11" break="no"/>ter 
+demselben jetzt ferne stehen. Wie sehr dies in aller <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p1-l12" break="no"/>
+jeder Beziehung zu bedauern ist, das empfinde wohl ich am<lb xml:id="p1-l13" break="no"/>
+meisten. Darüber zu reden, liegt jedoch nicht in meiner Absicht.<lb xml:id="p1-l14" break="no"/>
+Oeffentlich zu schreiben, habe ich absichtlich unterlassen, dagegen habe<lb xml:id="p1-l15" break="no"/>
+ich am <date when="1880-03-01">1. März</date> in einem Kreise von 90 Angestellten <choice><abbr>u.</abbr><expan>und</expan></choice> höheren<lb xml:id="p1-l16" break="no"/>
+        Beamten unserer Verwaltung<note type="com" xml:id="K_3260_c2">Gemeint ist die Verwaltung der Gotthardbahn-Gesellschaft.</note> Ihrer mit aufrichtiger Aner<pb n="2"/><lb xml:id="p2-l1" break="no"/>kennung  
+gedacht <choice><abbr>u.</abbr><expan>und</expan></choice> erfüllte eine Pflicht der Dankbar<lb xml:id="p2-l2" break="no"/>keit.</p>
+      <p rend="indent" xml:id="K_3260_p4"><lb xml:id="p2-l3"/>Erlauben Sie mir noch, Herr Präsident, die Hoffnung<lb xml:id="p2-l4"/>
+auszusprechen, daß Ihr Aufenthalt in der großen Welt<lb xml:id="p2-l5" break="no"/>stadt 
 Ihrer Gesundheit zuträglich sein möge.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_3260_p5">
-                    <lb xml:id="p2-l6"/>In Verehrung <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Ergebenheit</p>
+        <p rend="center" xml:id="K_3260_p5"><lb xml:id="p2-l6"/>In Verehrung <choice><abbr>u.</abbr><expan>und</expan></choice> Ergebenheit</p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_3260_p6">
-                    <lb xml:id="p2-l7"/>
-          <choice>
-                        <abbr>Dr.</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> Wanner.</p>
+      <div type="signature">
+        <p rend="center" xml:id="K_3260_p6"><lb xml:id="p2-l7"/>
+          <choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> Wanner.</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_3260_p7">
-                    <lb xml:id="p2-l8"/>
-          <placeName type="place" key="Luzern (Stadt)">Luzern</placeName>, den <date when="1880-03-05">5. März 1880</date>.</p>
+        <p rend="left" xml:id="K_3260_p7"><lb xml:id="p2-l8"/>
+          <placeName key="Luzern (Stadt)">Luzern</placeName>, den <date when="1880-03-05">5. März 1880</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

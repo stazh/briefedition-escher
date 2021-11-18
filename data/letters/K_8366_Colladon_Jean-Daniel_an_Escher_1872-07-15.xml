@@ -1,125 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8366" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jean-Daniel Colladon an Alfred Escher, Genf, Montag, Juli 15, 1872</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Abschrift">
-                        <institution>UBGE</institution>
-                        <idno type="original">Ms fr. 3231</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Bewerbungen/Empfehlungen/Referenzen</item>
-                        <item>Tunnelbau</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Colladon Jean-Daniel" type="sender">Jean-Daniel Colladon</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Genf</placeName>
-                    <date when="1872-07-15">Montag, Juli 15, 1872</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-03-31" who="NP">Transkription
-                
-            </change>
-            <change when="2014-06-20" who="TM">Auszeichung 1 umgesetzt
-                
-            </change>
-            <change when="2014-08-13" who="SWK">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-08-14" who="CD">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-12-12" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-12-12" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-12-12" who="LB">Auszeichnung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8366" type="Brief" subtype="Abschrift"><teiHeader><fileDesc><titleStmt><title>Jean-Daniel Colladon an Alfred Escher, Genf, Montag, 15. Juli 1872</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>UBGE</institution><idno>Ms fr. 3231</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Bewerbungen/Empfehlungen/Referenzen</term><term>Tunnelbau</term><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Colladon Jean-Daniel" type="addressee">Jean-Daniel Colladon</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Genf</placeName><date when="1872-07-15">15. Juli 1872</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_8366_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_8366_c0">Nachträgliche Notiz oben in der Mitte von dritter Hand mit roter Farbe: <bibl>72. Juillet Colladon à Escher (Alfred) cautionnement <persName type="person" key="Favre Louis">Favre</persName>.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Genf (Stadt)">Genève</placeName>
+        <p rend="right" xml:id="K_8366_p1"> <note type="com" xml:id="K_8366_c0">Nachträgliche Notiz oben in der Mitte von dritter Hand mit roter Farbe: <orig>72. Juillet Colladon à Escher (Alfred) cautionnement <persName key="Favre Louis">Favre</persName>.</orig> </note> <lb xml:id="p1-l1"/>
+          <placeName key="Genf (Stadt)">Genève</placeName>
           <date when="1872-07-15">15 Juillet 1872</date>
         </p>
       </div>
-      <div type="address">
-        <p rend="left" xml:id="K_8366_p2">
-                    <lb xml:id="p1-l2"/>Monsieur A. Escher</p>
-        <p rend="center" xml:id="K_8366_p3">
-                    <lb xml:id="p1-l3"/>Conseiller National, <choice>
-                        <abbr>etc</abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice>, <choice>
-                        <abbr>etc</abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice>,
-        <lb xml:id="p1-l4"/>
-                    <placeName type="place" key="Zürich (Stadt)">Zurich</placeName> </p>
+      <div type="opener">
+        <p rend="left" xml:id="K_8366_p2"><lb xml:id="p1-l2"/>Monsieur A. Escher</p>
+        <p rend="center" xml:id="K_8366_p3"><lb xml:id="p1-l3"/>Conseiller National, <choice><abbr>etc</abbr><expan>et cetera (und anderes)</expan></choice>, <choice><abbr>etc</abbr><expan>et cetera (und anderes)</expan></choice>,
+        <lb xml:id="p1-l4"/><placeName key="Zürich (Stadt)">Zurich</placeName> </p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_8366_p4">
-                    <lb xml:id="p1-l5"/>Très honoré Monsieur</p>
+        <p rend="left" xml:id="K_8366_p4"><lb xml:id="p1-l5"/>Très honoré Monsieur</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_8366_p5">
-                <lb xml:id="p1-l6"/>Vous aurez su que Monsieur l'entrepreneur
-        <lb xml:id="p1-l7"/>
-                <persName type="person" key="Favre Louis">Louis Favre</persName> a trouvé la somme nécessaire pour
+    </front><body>
+      <p rend="indent" xml:id="K_8366_p5"><lb xml:id="p1-l6"/>Vous aurez su que Monsieur l'entrepreneur
+        <lb xml:id="p1-l7"/><persName key="Favre Louis">Louis Favre</persName> a trouvé la somme nécessaire pour
         <lb xml:id="p1-l8"/>son cautionnement. Je crois utile de vous faire savoir
-        <lb xml:id="p1-l9"/>que la confiance qu'inspire à <placeName type="place" key="Genf (Stadt)">Genève</placeName> Monsieur <persName type="person" key="Favre Louis">Favre</persName> <lb xml:id="p1-l10"/>par son caractère et ses antécédents est telle, que la
-        <lb xml:id="p1-l11"/>partie du cautionnement réservée à <placeName type="place" key="Genf (Stadt)">Genève</placeName> a été
+        <lb xml:id="p1-l9"/>que la confiance qu'inspire à <placeName key="Genf (Stadt)">Genève</placeName> Monsieur <persName key="Favre Louis">Favre</persName> <lb xml:id="p1-l10"/>par son caractère et ses antécédents est telle, que la
+        <lb xml:id="p1-l11"/>partie du cautionnement réservée à <placeName key="Genf (Stadt)">Genève</placeName> a été
         <lb xml:id="p1-l12"/>immédiatement remplie et dépassée: ma famille
         <lb xml:id="p1-l13"/>et moi en particulier nous y sommes intéressés pour
-        <lb xml:id="p1-l14"/>plus de <choice>
-                        <abbr>f.</abbr>
-                        <expan>franken / francs / franchi / Gulden</expan>
-                    </choice> 200.000.
+        <lb xml:id="p1-l14"/>plus de <choice><abbr>f.</abbr><expan>franken / francs / franchi / Gulden</expan></choice> 200.000.
         </p>
-      <p rend="indent" xml:id="K_8366_p6">
-                <lb xml:id="p1-l15"/>J'ai le ferme espoir que si Monsieur <persName type="person" key="Favre Louis">Favre</persName> <lb xml:id="p1-l16"/>a tout ou patrie des travaux du grand tunnel, ils
+      <p rend="indent" xml:id="K_8366_p6"><lb xml:id="p1-l15"/>J'ai le ferme espoir que si Monsieur <persName key="Favre Louis">Favre</persName> <lb xml:id="p1-l16"/>a tout ou patrie des travaux du grand tunnel, ils
         <lb xml:id="p1-l17"/>seront entrepris et poursuivis de manière à faire honneur
         <lb xml:id="p1-l18"/>à notre patrie Suisse et à justifier la confiance que
-        <lb xml:id="p1-l19"/>l'administration du Chemin du <placeName type="place" key="St. Gotthard (Pass)">Gothard</placeName> lui aura
+        <lb xml:id="p1-l19"/>l'administration du Chemin du <placeName key="St. Gotthard (Pass)">Gothard</placeName> lui aura
         <lb xml:id="p1-l20"/>accordée.
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_8366_p7">
-                    <lb xml:id="p1-l21"/>Veuillez agréer, aves mes bien respectueuses
+        <p rend="center" xml:id="K_8366_p7"><lb xml:id="p1-l21"/>Veuillez agréer, aves mes bien respectueuses
         <lb xml:id="p1-l22"/>salutations, l'expression de mes sentimens dévoués</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

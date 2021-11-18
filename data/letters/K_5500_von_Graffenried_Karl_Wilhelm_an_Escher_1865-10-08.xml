@@ -1,208 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5500" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Karl Wilhelm von Graffenried an Alfred Escher, Bern, Sonntag, Oktober 8, 1865</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_008</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Graffenried Karl Wilhelm von" type="sender">Karl Wilhelm von Graffenried</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1865-10-08">Sonntag, Oktober 8, 1865</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-02-24" who="NP">Transkription
-                
-            </change>
-            <change when="2014-03-03" who="MLB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-03-03" who="BF">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-07" who="MB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-07" who="SWK">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2014-07-10" who="IB">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-08-15" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-08-15" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="left" xml:id="K_5500_p1">
-                    <lb xml:id="p1-l1"/>Monsieur le Président <choice>
-                        <abbr>D<hi rend="sup">r</hi> </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A. Escher,
-        <lb xml:id="p1-l2"/>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>. <seg type="com">
-                        <note xml:id="K_5500_c1">Adresse unten links auf Seite 1.</note>
-                    </seg> </p>
-      </div>
-      <note type="annotation">
-                <p rend="left" xml:id="K_5500_p2">
-                    <lb xml:id="p1-l3"/>3 pièces;
-        <lb xml:id="p1-l4"/>
-                    <choice>
-                        <abbr>f<hi rend="sup">co</hi> </abbr>
-                        <expan>franco (frankiert)</expan>
-                    </choice>
-                </p> </note>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5500" type="Brief"><teiHeader><fileDesc><titleStmt><title>Karl Wilhelm von Graffenried an Alfred Escher, Bern, Sonntag, 08. Oktober 1865</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_008</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Öffentliche Beteiligungen (Infrastruktur)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Graffenried Karl Wilhelm von" type="addressee">Karl Wilhelm von Graffenried</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1865-10-08">08. Oktober 1865</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="left" xml:id="K_5500_p3">
-                    <lb xml:id="p1-l5"/>Bien cher Monsieur,</p>
+        <p rend="left" xml:id="K_5500_p1"><lb xml:id="p1-l1"/>Monsieur le Président <choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> A. Escher,
+        <lb xml:id="p1-l2"/><placeName key="Zürich (Stadt)">Zürich</placeName>. <note type="com" xml:id="K_5500_c1">Adresse unten links auf Seite 1.</note> </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_5500_p4">
-                <lb xml:id="p1-l6"/>J'ai l'honneur de vous remettre sous ce pli les
-        	    <lb xml:id="p1-l7"/>projets de lettres du Comité du <placeName type="place" key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName> aux
-        	    <lb xml:id="p1-l8"/>Ministres de <placeName type="place" key="Belgien">Belgique</placeName> et des <placeName type="place" key="Niederlande">Pays-Bas</placeName>.
+      <div type="annotation"><p rend="left" xml:id="K_5500_p2"><lb xml:id="p1-l3"/>3 pièces;
+        <lb xml:id="p1-l4"/><choice><abbr>f<hi rend="sup">co</hi> </abbr><expan>franco (frankiert)</expan></choice></p> </div>
+      <div type="opener">
+        <p rend="left" xml:id="K_5500_p3"><lb xml:id="p1-l5"/>Bien cher Monsieur,</p>
+      </div>
+    </front><body>
+      <p rend="indent" xml:id="K_5500_p4"><lb xml:id="p1-l6"/>J'ai l'honneur de vous remettre sous ce pli les
+        	    <lb xml:id="p1-l7"/>projets de lettres du Comité du <placeName key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName> aux
+        	    <lb xml:id="p1-l8"/>Ministres de <placeName key="Belgien">Belgique</placeName> et des <placeName key="Niederlande">Pays-Bas</placeName>.
         	</p>
-      <p rend="indent" xml:id="K_5500_p5">
-                <lb xml:id="p1-l9"/>Si vous y désirez des modifications, je vous
+      <p rend="indent" xml:id="K_5500_p5"><lb xml:id="p1-l9"/>Si vous y désirez des modifications, je vous
         	<lb xml:id="p1-l10"/>prie d'avoir la bonté de me les retourner avec
         	<lb xml:id="p1-l11"/>vos instructions, auxquelles je me conformerai.
         	</p>
-      <p rend="indent" xml:id="K_5500_p6">
-                <lb xml:id="p1-l12"/>Si vous les approuvez, je vous prie d'avoir
+      <p rend="indent" xml:id="K_5500_p6"><lb xml:id="p1-l12"/>Si vous les approuvez, je vous prie d'avoir
         	<lb xml:id="p1-l13"/>l'obligeance de les transmettre à qui de droit
         	<lb xml:id="p1-l14"/>pour les faire expédier: et, si vous ne le
         	<lb xml:id="p1-l15"/>trouvez pas indiscret ou inutile, j'ajoute la
         	<lb xml:id="p1-l16"/>prière de bien vouloir m'en faire envoyer
         	<lb xml:id="p1-l17"/>2 copies de chaque lettre, dont je puisse
         	<lb xml:id="p1-l18"/>remettre un exemplaire aux représentants
-        	<lb xml:id="p1-l19"/>respectifs de la <placeName type="place" key="Belgien">Belgique</placeName> et des <placeName type="place" key="Niederlande">Pays-Bas</placeName> à
-        	    <lb xml:id="p1-l20"/>
-                <placeName type="place" key="Bern (Stadt)">Berne</placeName>, et conserver l'autre.
+        	<lb xml:id="p1-l19"/>respectifs de la <placeName key="Belgien">Belgique</placeName> et des <placeName key="Niederlande">Pays-Bas</placeName> à
+        	    <lb xml:id="p1-l20"/><placeName key="Bern (Stadt)">Berne</placeName>, et conserver l'autre.
         	</p>
-      <p rend="indent" xml:id="K_5500_p7">
-                <lb xml:id="p1-l21"/>Je pense, que les représentants de la <placeName type="place" key="Belgien">Belgique</placeName> <lb xml:id="p1-l22"/>et des <placeName type="place" key="Niederlande">Pays-Bas</placeName> voudraient bien appuyer
+      <p rend="indent" xml:id="K_5500_p7"><lb xml:id="p1-l21"/>Je pense, que les représentants de la <placeName key="Belgien">Belgique</placeName> <lb xml:id="p1-l22"/>et des <placeName key="Niederlande">Pays-Bas</placeName> voudraient bien appuyer
         	<lb xml:id="p1-l23"/>alors la demande du Comité auprès de leurs
         	<lb xml:id="p1-l24"/>Gouvernements.
         	</p>
-      <p rend="indent" xml:id="K_5500_p8">
-                <lb xml:id="p1-l25"/>Je joins à ces deux projets une lettre, que
-        	    <lb xml:id="p1-l26"/>j'ai reçue de <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Winspeare">Winspeare</persName>, l'agent dont<pb n="2"/>
-                <lb xml:id="p2-l1"/>je vous ai parlé de la Banque Générale des
-        <lb xml:id="p2-l2"/>travaux publics à <placeName type="place" key="Brüssel (B)">Bruxelles</placeName>, dont <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Coumont Rodolphe">Coumont</persName> <lb xml:id="p2-l3"/>est directeur, et <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="de Mellora">de Merolla</persName> administrateur
+      <p rend="indent" xml:id="K_5500_p8"><lb xml:id="p1-l25"/>Je joins à ces deux projets une lettre, que
+        	    <lb xml:id="p1-l26"/>j'ai reçue de <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Winspeare">Winspeare</persName>, l'agent dont<pb n="2"/><lb xml:id="p2-l1"/>je vous ai parlé de la Banque Générale des
+        <lb xml:id="p2-l2"/>travaux publics à <placeName key="Brüssel (B)">Bruxelles</placeName>, dont <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Coumont Rodolphe">Coumont</persName> <lb xml:id="p2-l3"/>est directeur, et <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="de Mellora">de Merolla</persName> administrateur
         	<lb xml:id="p2-l4"/>et sécrétaire général.
         	</p>
-      <p rend="indent" xml:id="K_5500_p9">
-                <lb xml:id="p2-l5"/>Je vous prie de me retourner cette lettre par
+      <p rend="indent" xml:id="K_5500_p9"><lb xml:id="p2-l5"/>Je vous prie de me retourner cette lettre par
         	<lb xml:id="p2-l6"/>le premier courrier, et d'avoir la bonté de me
         	<lb xml:id="p2-l7"/>donner en même temps vos instructions
         	<lb xml:id="p2-l8"/>quant à la conduite que j'aurai à suivre dans
         	<lb xml:id="p2-l9"/>cette affaire.
         	</p>
-      <p rend="indent" xml:id="K_5500_p10">
-                <lb xml:id="p2-l10"/>En effet je reçois <date when="1865-10-08">aujourd'hui</date> un télégramme
-        	<lb xml:id="p2-l11"/>de <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Winspeare">Winspeare</persName> m'annonçant son arrivé
-        	    <lb xml:id="p2-l12"/>à <placeName type="place" key="Bern (Stadt)">Berne</placeName> pour <date when="1865-10-10">mardi</date> matin: et je pense,
-        	    <lb xml:id="p2-l13"/>qu'il me parlera de l'affaire du <placeName type="place" key="St. Gotthard (Pass)">Gothard</placeName>:
+      <p rend="indent" xml:id="K_5500_p10"><lb xml:id="p2-l10"/>En effet je reçois <date when="1865-10-08">aujourd'hui</date> un télégramme
+        	<lb xml:id="p2-l11"/>de <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Winspeare">Winspeare</persName> m'annonçant son arrivé
+        	    <lb xml:id="p2-l12"/>à <placeName key="Bern (Stadt)">Berne</placeName> pour <date when="1865-10-10">mardi</date> matin: et je pense,
+        	    <lb xml:id="p2-l13"/>qu'il me parlera de l'affaire du <placeName key="St. Gotthard (Pass)">Gothard</placeName>:
         	<lb xml:id="p2-l14"/>de sorte que je vous serais reconnaissant de
         	<lb xml:id="p2-l15"/>me donner vos avis avant sa visite.
         	</p>
-      <p rend="indent" xml:id="K_5500_p11">
-                <lb xml:id="p2-l16"/>Dans mes projets de lettres j'ai introduit
+      <p rend="indent" xml:id="K_5500_p11"><lb xml:id="p2-l16"/>Dans mes projets de lettres j'ai introduit
         	<lb xml:id="p2-l17"/>et marqué au crayon rouge une rédaction
         	<lb xml:id="p2-l18"/>répondant aux déclarations précédentes et aux
-        	    <lb xml:id="p2-l19"/>déclarations nouvelles de l'<placeName type="place" key="Italien (Königreich)">Italie</placeName> au sujet
+        	    <lb xml:id="p2-l19"/>déclarations nouvelles de l'<placeName key="Italien (Königreich)">Italie</placeName> au sujet
         	<lb xml:id="p2-l20"/>de l'entreprise du tunnel. Je la signale à
         	<lb xml:id="p2-l21"/>votre critique, ne sachant pas, si elle aura
         	<lb xml:id="p2-l22"/>votre approbation.
         	</p>
-      <p rend="indent" xml:id="K_5500_p12">
-                <lb xml:id="p2-l23"/>J'ai marqué également dans les 2 projets
-        	<lb xml:id="p2-l24"/>le passage introduisant le principe de la<pb n="3"/>
-                <lb xml:id="p3-l1"/>demande de subvention. J'ai modifié ce
-        	<lb xml:id="p3-l2"/>passage pour les <placeName type="place" key="Niederlande">Pays-Bas</placeName> d'après les opinions
-        	    <lb xml:id="p3-l3"/>de <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Thorbecke Johan Rudolf">Thorbecke</persName>, partisan de la construction
+      <p rend="indent" xml:id="K_5500_p12"><lb xml:id="p2-l23"/>J'ai marqué également dans les 2 projets
+        	<lb xml:id="p2-l24"/>le passage introduisant le principe de la<pb n="3"/><lb xml:id="p3-l1"/>demande de subvention. J'ai modifié ce
+        	<lb xml:id="p3-l2"/>passage pour les <placeName key="Niederlande">Pays-Bas</placeName> d'après les opinions
+        	    <lb xml:id="p3-l3"/>de <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Thorbecke Johan Rudolf">Thorbecke</persName>, partisan de la construction
         	<lb xml:id="p3-l4"/>des chemins de fer par l'industrie privée: pour
-        	<lb xml:id="p3-l5"/>la <placeName type="place" key="Belgien">Belgique</placeName> d'après les idées de <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Rogier Charles">Rogier</persName>,
+        	<lb xml:id="p3-l5"/>la <placeName key="Belgien">Belgique</placeName> d'après les idées de <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Rogier Charles">Rogier</persName>,
         	<lb xml:id="p3-l6"/>partisan de la construction par l'Etat.
         	</p>
-      <p rend="indent" xml:id="K_5500_p13">
-                <lb xml:id="p3-l7"/>Je signale également ces passages à votre
+      <p rend="indent" xml:id="K_5500_p13"><lb xml:id="p3-l7"/>Je signale également ces passages à votre
         	<lb xml:id="p3-l8"/>critique.
         	</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_5500_p14">
-                    <lb xml:id="p3-l9"/>Dans l'attente de vos instructions je
+        <p rend="indent" xml:id="K_5500_p14"><lb xml:id="p3-l9"/>Dans l'attente de vos instructions je
             <lb xml:id="p3-l10"/>vous prie, bien cher Monsieur, d'accepter
         <lb xml:id="p3-l11"/>l'assurance de mon reconnaissant et
         <lb xml:id="p3-l12"/>respectueux attachement.
         </p>
-        <p rend="center" xml:id="K_5500_p15">
-                    <lb xml:id="p3-l13"/>Votre dévoué</p>
+        <p rend="center" xml:id="K_5500_p15"><lb xml:id="p3-l13"/>Votre dévoué</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_5500_p16">
-                    <lb xml:id="p3-l14"/>Guillaume de Graffenried</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_5500_p16"><lb xml:id="p3-l14"/>Guillaume de Graffenried</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_5500_p17">
-                    <lb xml:id="p3-l15"/>
-          <placeName type="place" key="Bern (Stadt)">Berne</placeName>, <date when="1865-10-08">8 Octobre 1865</date>.</p>
+        <p rend="left" xml:id="K_5500_p17"><lb xml:id="p3-l15"/>
+          <placeName key="Bern (Stadt)">Berne</placeName>, <date when="1865-10-08">8 Octobre 1865</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

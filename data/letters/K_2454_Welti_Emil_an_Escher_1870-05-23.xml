@@ -1,130 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2454" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Emil Welti an Alfred Escher, Bern, Montag, Mai 23, 1870</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.2#1000/1310#35*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Deutscher Reichstag</item>
-                        <item>Deutscher Bundesrat</item>
-                        <item>Rechtliches</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1870-05-23">Montag, Mai 23, 1870</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-08-08" who="MB">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="SB">Migrationsverifizierung
-                    umgesetzt
-                
-            </change>
-            <change when="2014-01-07" who="XR">Auszeichnung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-09" who="LW">Verifizierung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-13" who="XR">Auszeichnung 2
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="LH">Transkriptionsverifizierung Seiterle
-                    umgesetzt
-                
-            </change>
-            <change when="2014-01-20" who="MA">Übertragung der Transkriptionsverifizierung
-                    gerprüft
-                
-            </change>
-            <change when="2014-03-19" who="MLB">Inhaltliche Qualitätsprüfung
-                    umgesetzt
-                
-            </change>
-            <change when="2014-05-14" who="LB">Verifizierung 2
-                umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2454" type="Brief"><teiHeader><fileDesc><titleStmt><title>Emil Welti an Alfred Escher, Bern, Montag, 23. Mai 1870</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.2#1000/1310#35*</idno><idno>J I.2</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Deutscher Reichstag</term><term>Deutscher Bundesrat</term><term>Rechtliches</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Welti Emil" type="addressee">Emil Welti</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1870-05-23">23. Mai 1870</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_2454_p1">
-                    <lb xml:id="p1-l1"/>Hochgeehrter
+        <p rend="indent" xml:id="K_2454_p1"><lb xml:id="p1-l1"/>Hochgeehrter
                     Herr 
                 </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_2454_p2">
-                <lb xml:id="p1-l2"/>Ich habe <date when="1870-05-22">gestern
-                    </date>Abend schon die Nachricht über <lb xml:id="p1-l3"/>den <placeName type="place" key="Mailand (I)">Mailänder</placeName> Beschluss erhalten und bin sofort <lb xml:id="p1-l4"/>in meinen Gedanken auf die nämliche Erklä<lb break="no" xml:id="p1-l5"/>rung
+    </front><body>
+      <p rend="left" xml:id="K_2454_p2"><lb xml:id="p1-l2"/>Ich habe <date when="1870-05-22">gestern
+                    </date>Abend schon die Nachricht über <lb xml:id="p1-l3"/>den <placeName key="Mailand (I)">Mailänder</placeName> Beschluss erhalten und bin sofort <lb xml:id="p1-l4"/>in meinen Gedanken auf die nämliche Erklä<lb xml:id="p1-l5" break="no"/>rung
                 verfallen.</p>
-      <p rend="indent" xml:id="K_2454_p3">
-                <lb xml:id="p1-l6"/>Aus <placeName type="place" key="Berlin (D)">Berlin</placeName> bekommen wir den Antrag <lb xml:id="p1-l7"/>den der Bundesrath am <date when="1870-05-22">22.</date> dem Reichstag vor<lb break="no" xml:id="p1-l8"/>gelegt hat; ich
-                lege eine Abschrift davon <lb xml:id="p1-l9"/>bei und bemerke weiter dass Herr <persName type="person" key="Hammer Bernhard">Hammer</persName>
-                    <lb xml:id="p1-l10"/>schreibt es sei möglich dass die Angelegen<lb break="no" xml:id="p1-l11"/>heit im Reichstag gar nicht mehr zur <lb xml:id="p1-l12"/>Verhandlung komme weil nach <date when="1870-05-26">Auffahrt</date>
-                    <lb xml:id="p1-l13"/>die Mitglieder nicht mehr zu halten seien <lb xml:id="p1-l14"/>und bis
-                dorthin das Strafgesetz die gan<pb n="2"/>
-                    <lb xml:id="p2-l1"/>ze Zeit in Anspruch nehme; er könne da<lb break="no" xml:id="p2-l2"/>gegen
-                sowenig etwas thun als die Re<lb break="no" xml:id="p2-l3"/>gierung. Finde eine Verständigung
-                wegen <lb xml:id="p2-l4"/>der Todesstrafe statt, so sei einige <lb xml:id="p2-l5"/>Hoffnung
+      <p rend="indent" xml:id="K_2454_p3"><lb xml:id="p1-l6"/>Aus <placeName key="Berlin (D)">Berlin</placeName> bekommen wir den Antrag <lb xml:id="p1-l7"/>den der Bundesrath am <date when="1870-05-22">22.</date> dem Reichstag vor<lb xml:id="p1-l8" break="no"/>gelegt hat; ich
+                lege eine Abschrift davon <lb xml:id="p1-l9" break="no"/>bei und bemerke weiter dass Herr <persName key="Hammer Bernhard">Hammer</persName> <lb xml:id="p1-l10" break="no"/>schreibt es sei möglich dass die Angelegen<lb xml:id="p1-l11" break="no"/>heit im Reichstag gar nicht mehr zur <lb xml:id="p1-l12" break="no"/>Verhandlung komme weil nach <date when="1870-05-26">Auffahrt</date> <lb xml:id="p1-l13" break="no"/>die Mitglieder nicht mehr zu halten seien <lb xml:id="p1-l14" break="no"/>und bis
+                dorthin das Strafgesetz die gan<pb n="2"/><lb xml:id="p2-l1" break="no"/>ze Zeit in Anspruch nehme; er könne da<lb xml:id="p2-l2" break="no"/>gegen
+                sowenig etwas thun als die Re<lb xml:id="p2-l3" break="no"/>gierung. Finde eine Verständigung
+                wegen <lb xml:id="p2-l4" break="no"/>der Todesstrafe statt, so sei einige <lb xml:id="p2-l5" break="no"/>Hoffnung
                 aber keine Sicherheit vorhanden.</p>
-      <p rend="indent" xml:id="K_2454_p4">
-                <lb xml:id="p2-l6"/>Ich unterdrücke meine Gefühle und <lb xml:id="p2-l7"/>bin auch resignirt den Beschlüsse<del>n</del>
-                <note type="transcript">sic!</note> gegen<lb break="no" xml:id="p2-l8"/>über den wir mit Ungeduld
-                aus <lb xml:id="p2-l9"/>
-                <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+      <p rend="indent" xml:id="K_2454_p4"><lb xml:id="p2-l6"/>Ich unterdrücke meine Gefühle und <lb xml:id="p2-l7"/>bin auch resignirt den Beschlüsse<del>n</del><note type="transcript">sic!</note> gegen<lb xml:id="p2-l8" break="no"/>über den wir mit Ungeduld
+                aus <lb xml:id="p2-l9" break="no"/><placeName key="Zürich (Stadt)">Zürich</placeName>
                 erwarten.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_2454_p5">
-                    <lb xml:id="p2-l10"/>Mit
+        <p rend="center" xml:id="K_2454_p5"><lb xml:id="p2-l10"/>Mit
                     freundschaftlicher Hochschätzung <lb xml:id="p2-l11"/>Ihr
                 ergebenster</p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_2454_p6">
-                    <lb xml:id="p2-l12"/>E Welti</p>
+      <div type="signature">
+        <p rend="center" xml:id="K_2454_p6"><lb xml:id="p2-l12"/>E Welti</p>
       </div>
       <div type="dateline">
-        <p rend="indent" xml:id="K_2454_p7">
-                    <lb xml:id="p2-l13"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName>
+        <p rend="indent" xml:id="K_2454_p7"><lb xml:id="p2-l13"/>
+          <placeName key="Bern (Stadt)">Bern</placeName>
           <lb xml:id="p2-l14"/>
           <date when="1870-05-23">23. Mai 1870</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

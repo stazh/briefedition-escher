@@ -1,87 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1793" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jonas Furrer an Alfred Escher, Bern, Montag, März 26, 1860</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#220*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Krankheiten</item>
-                        <item>Bundesrat</item>
-                        <item>Vereinigte Bundesversammlung</item>
-                        <item>Landesverteidigung und Militär</item>
-                        <item>Helvetia (Studentenverbindung)</item>
-                        <item>Diplomatische Aktivitäten</item>
-                        <item>Savoyer Frage (1859–1864)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Furrer Jonas" type="sender">Jonas Furrer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1860-03-26">Montag, März 26, 1860</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-05-12" who="BF">Transkription
-                
-            </change>
-            <change when="2013-06-25" who="MB">Migration nach XML
-                
-            </change>
-            <change when="2013-07-01" who="DG">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-10" who="MA">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-26" who="RO">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-09-04" who="STW">Transkriptionsverifizierung
-          umgesetzt
-                
-            </change>
-            <change when="2013-09-05" who="CD">Transkriptionsverifizierung
-          überprüfen
-                
-            </change>
-            <change when="2013-11-04" who="CA">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-            <change when="2013-11-04" who="CA">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2017-12-12" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1793" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jonas Furrer an Alfred Escher, Bern, Montag, 26. März 1860</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Jung, Aufbruch, S. 942–943</bibl><bibl>Isler, Furrer, S. 181–183 (auszugsweise)</bibl><bibl>DDS I, S. 742–743</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#220*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Krankheiten</term><term>Bundesrat</term><term>Vereinigte Bundesversammlung</term><term>Landesverteidigung und Militär</term><term>Helvetia (Studentenverbindung)</term><term>Diplomatische Aktivitäten</term><term>Savoyer Frage (1859–1864)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Furrer Jonas" type="addressee">Jonas Furrer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1860-03-26">26. März 1860</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="right" xml:id="K_1793_p1">
                     <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Bern (Stadt)">
+          <placeName key="Bern (Stadt)">
                         <hi>Bern</hi>
                     </placeName>
          <date when="1860-03-26">26 März 1860</date>.</p>
@@ -90,175 +12,86 @@
         <p rend="indent" xml:id="K_1793_p2">
                     <lb xml:id="p1-l2"/>Mein lieber Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="left" xml:id="K_1793_p3">
-                <lb xml:id="p1-l3"/>Ich kann nicht umhin, dir einiges zu schreiben, namentlich über <lb xml:id="p1-l4"/>Ereignisse <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <date when="1860-03-25">gestern</date>.
-        Leider bin ich seit <choice>
-                        <abbr>
-                    <hi>c<hi rend="sup">a</hi>
-                    </hi> </abbr>
-                        <expan>circa</expan>
-                    </choice> 14 Tagen wegen Catarrh, <lb xml:id="p1-l5"/>dann Augenleiden <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Rheumatismen bey Hause <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> es war mir peinlich, <lb xml:id="p1-l6"/>gerade in dieser Zeit den
-        Sitzungen nicht beiwohnen zu können <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> ich <lb xml:id="p1-l7"/>besorge
+                <lb xml:id="p1-l3"/>Ich kann nicht umhin, dir einiges zu schreiben, namentlich über <lb xml:id="p1-l4"/>Ereignisse <choice><abbr>v.</abbr><expan>von</expan></choice> <date when="1860-03-25">gestern</date>.
+        Leider bin ich seit <choice><abbr><hi>c<hi rend="sup">a</hi></hi> </abbr><expan>circa</expan></choice> 14 Tagen wegen Catarrh, <lb xml:id="p1-l5"/>dann Augenleiden <choice><abbr>u</abbr><expan>und</expan></choice> Rheumatismen bey Hause <choice><abbr>u</abbr><expan>und</expan></choice> es war mir peinlich, <lb xml:id="p1-l6"/>gerade in dieser Zeit den
+        Sitzungen nicht beiwohnen zu können <choice><abbr>u</abbr><expan>und</expan></choice> ich <lb xml:id="p1-l7"/>besorge
         sehr, daß es noch einige Zeit so dauern werde, weil wir wieder <lb xml:id="p1-l8"/>völligen
         Winter haben.</p>
       <p rend="indent" xml:id="K_1793_p4">
                 <lb xml:id="p1-l9"/>
        <date when="1860-03-23">Letzten Freitag</date> beschloß der Bundesrath die Einberufung der <lb xml:id="p1-l10"/>Bundesversammlung, wozu ich <hi rend="underline">gegenwärtig</hi> schwerlich gestimmt hätte. <lb xml:id="p1-l11"/>Nun hätte man aber glauben sollen, daß man der Bundesversammlung <lb xml:id="p1-l12"/>die Situation wenigstens <hi>in integro</hi> zustelle. Diese ist folgende:
-          <lb xml:id="p1-l13"/>1. Über die <hi>Annexion</hi> <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> ganz <placeName type="place" key="Savoyen">
+          <lb xml:id="p1-l13"/>1. Über die <hi>Annexion</hi> <choice><abbr>v.</abbr><expan>von</expan></choice> ganz <placeName key="Savoyen">
                     <hi>Savoien</hi>
                 </placeName> sind beyde Regierungen <lb xml:id="p1-l14"/>bekantlich<note type="transcript">sic!</note> einverstanden; allein es ist vorbehalten, daß
-          <placeName type="place" key="Frankreich">Frankreich</placeName> <lb xml:id="p1-l15"/>sich mit den
-        Großmächten <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> der Schweiz über die neutralisirt<supplied>en</supplied> <lb xml:id="p1-l16"/>Theile verständigen soll, was bekanntlich noch zu gewärtigen <lb xml:id="p1-l17"/>ist. <lb xml:id="p1-l18"/>2. Die Schweiz reclamirte bei allen Großmächten <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> die Resultate <lb xml:id="p1-l19"/>stehen natürlich noch aus. <lb xml:id="p1-l20"/>3.
-        Der <persName type="person" key="Bonaparte Charles Louis Napoléon">Kaiser</persName> <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> <persName type="person" key="Thouvenel Edouard">
+          <placeName key="Frankreich">Frankreich</placeName> <lb xml:id="p1-l15"/>sich mit den
+        Großmächten <choice><abbr>u</abbr><expan>und</expan></choice> der Schweiz über die neutralisirt<add>en</add> <lb xml:id="p1-l16"/>Theile verständigen soll, was bekanntlich noch zu gewärtigen <lb xml:id="p1-l17"/>ist. <lb xml:id="p1-l18"/>2. Die Schweiz reclamirte bei allen Großmächten <choice><abbr>u</abbr><expan>und</expan></choice> die Resultate <lb xml:id="p1-l19"/>stehen natürlich noch aus. <lb xml:id="p1-l20"/>3.
+        Der <persName key="Bonaparte Charles Louis Napoléon">Kaiser</persName> <choice><abbr>u</abbr><expan>und</expan></choice> <persName key="Thouvenel Edouard">
                     <hi>Thouvenel</hi>
                 </persName> versicherten
-        die <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Kern Johann Konrad">
+        die <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Kern Johann Konrad">
                     <hi>Kern</hi>
-                </persName> <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> <persName type="person" key="Dufour Guillaume-Henri">
-                    <hi>Dufour</hi>
-                </persName> <lb xml:id="p1-l21"/>wiederholt aufs
-        allerbestimmteste, daß Nord<placeName type="place" key="Savoyen">Savoyen</placeName> inzwischen <lb xml:id="p1-l22"/>nicht militärisch besetzt werde. <persName type="person" key="Thouvenel Edouard">
+                </persName> <choice><abbr>u</abbr><expan>und</expan></choice> <persName key="Dufour Guillaume-Henri"><hi>Dufour</hi></persName> <lb xml:id="p1-l21"/>wiederholt aufs
+        allerbestimmteste, daß Nord<placeName key="Savoyen">Savoyen</placeName> inzwischen <lb xml:id="p1-l22"/>nicht militärisch besetzt werde. <persName key="Thouvenel Edouard">
                     <hi>Thouvenel</hi>
                 </persName> fügte aber bey, <pb n="2"/>
                 <lb xml:id="p2-l1"/>daß, wenn die
-        Schweiz militärische Maaßregeln treffe, <placeName type="place" key="Frankreich">Frankreich</placeName> <lb xml:id="p2-l2"/>es sich auch vorbehalte. – <lb xml:id="p2-l3"/>Bei dieser
-        Sachlage schrieb <persName type="person" key="Dufour Guillaume-Henri">
-                    <hi>Dufour</hi>
-                </persName> unter anderm:
-          <hi>Dans ces circon<lb break="no" xml:id="p2-l4"/>stances il faut proceder avec beaucoup de
-          prudence et de moderation; <lb xml:id="p2-l5"/>chaque provocation nous pourrait être
+        Schweiz militärische Maaßregeln treffe, <placeName key="Frankreich">Frankreich</placeName> <lb xml:id="p2-l2"/>es sich auch vorbehalte. – <lb xml:id="p2-l3"/>Bei dieser
+        Sachlage schrieb <persName key="Dufour Guillaume-Henri"><hi>Dufour</hi></persName> unter anderm:
+          <hi>Dans ces circon
+                    <lb xml:id="p2-l4" break="no"/>stances il faut proceder avec beaucoup de
+          prudence et de moderation; <lb xml:id="p2-l5" break="no"/>chaque provocation nous pourrait être
           fatale.</hi> </p>
       <p rend="indent" xml:id="K_1793_p5">
-                <lb xml:id="p2-l6"/>In <placeName type="place" key="Genf">Genf</placeName> hat man aber den Kopf verloren
-          <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> will von einem Tag <lb xml:id="p2-l7"/>auf den andern in <placeName type="place" key="Saint-Julien-en-Genevois (F)">
+                <lb xml:id="p2-l6"/>In <placeName key="Genf">Genf</placeName> hat man aber den Kopf verloren
+          <choice><abbr>u</abbr><expan>und</expan></choice> will von einem Tag <lb xml:id="p2-l7"/>auf den andern in <placeName key="Saint-Julien-en-Genevois (F)">
                     <hi>St. Julien</hi>
                 </placeName> rothe Hosen
-        erwarten, obwohl es wieder<lb break="no" xml:id="p2-l8"/>holt <choice>
-                        <abbr>v</abbr>
-                        <expan>von</expan>
-                    </choice>
-                    <placeName type="place" key="Paris (F)">
-                    <hi>Paris</hi>
-                </placeName> aus dementirt wurde. Die Vereine heizen ein
-          <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p2-l9"/>treiben darauf los, daß man sofort Nord<placeName type="place" key="Savoyen">Savoyen</placeName> besetze. – <lb xml:id="p2-l10"/>
-                    <date when="1860-03-25">Gestern</date> waren sämmtliche Ausschüße der <hi>Helvetia</hi> hier nebst viel <lb xml:id="p2-l11"/>andrer Mannschaft <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> verlangten daßelbe. Abends kamen
-        (natürlich <lb xml:id="p2-l12"/>verabredeter Maaßen) Depeschen aus <placeName type="place" key="Genf">Genf</placeName>, die wieder das nämliche <lb xml:id="p2-l13"/>sagten, nämlich daß ganz gewiß in
-        einigen Tagen, am <date when="1860-03-28">28<hi rend="sup">ten</hi> </date> ( <lb xml:id="p2-l14"/>früher
-        behaupteten sie am <date when="1860-03-26">26<hi rend="sup">ten</hi> </date>) <placeName type="place" key="Annecy (F)">
+        erwarten, obwohl es wieder
+                <lb xml:id="p2-l8" break="no"/>holt <choice><abbr>v</abbr><expan>von</expan></choice> <placeName key="Paris (F)"><hi>Paris</hi></placeName> aus dementirt wurde. Die Vereine heizen ein
+          <choice><abbr>u</abbr><expan>und</expan></choice> <lb xml:id="p2-l9" break="no"/>treiben darauf los, daß man sofort Nord<placeName key="Savoyen">Savoyen</placeName> besetze. – <lb xml:id="p2-l10" break="no"/>  <date when="1860-03-25">Gestern</date> waren sämmtliche Ausschüße der <hi>Helvetia</hi> hier nebst viel <lb xml:id="p2-l11" break="no"/>andrer Mannschaft <choice><abbr>u</abbr><expan>und</expan></choice> verlangten daßelbe. Abends kamen
+        (natürlich <lb xml:id="p2-l12" break="no"/>verabredeter Maaßen) Depeschen aus <placeName key="Genf">Genf</placeName>, die wieder das nämliche <lb xml:id="p2-l13" break="no"/>sagten, nämlich daß ganz gewiß in
+        einigen Tagen, am <date when="1860-03-28">28<hi rend="sup">ten</hi> </date> ( <lb xml:id="p2-l14" break="no"/>früher
+        behaupteten sie am <date when="1860-03-26">26<hi rend="sup">ten</hi> </date>) <placeName key="Annecy (F)">
                     <hi>Annecy</hi>
-                </placeName>
-                    <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <placeName type="place" key="Saint-Julien-en-Genevois (F)">
+                </placeName> <choice><abbr>u</abbr><expan>und</expan></choice> <placeName key="Saint-Julien-en-Genevois (F)">
                     <hi>St. Julien</hi>
-                </placeName> besetzt werden. <lb xml:id="p2-l15"/>Nun verlangte <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Stämpfli Jakob">
+                </placeName> besetzt werden. <lb xml:id="p2-l15" break="no"/>Nun verlangte <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <persName key="Stämpfli Jakob">
                     <hi>St.</hi>
-                </persName> eine sofortige Sitzung mit der Androhung, <lb xml:id="p2-l16"/>daß er sich sonst jeder Verantwortlichkeit entschlage. <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Frey-Herosé Friedrich">Frey</persName>
-        ließ <lb xml:id="p2-l17"/>sich dadurch bewegen, auf 8 Uhr Abends eine Sitzung anzusagen, <lb xml:id="p2-l18"/>die bis halb eilf<note type="transcript">sic!</note> dauerte. Offenbar war der
-        Bundesrath dadurch <lb xml:id="p2-l19"/>unter einen moralischen Zwang gebracht, weil er nicht
-        zur Nacht<lb break="no" xml:id="p2-l20"/>zeit unter Anwesenheit eines Theils der <hi>Helvetia</hi> in
-          <placeName type="place" key="Bern">
+                </persName> eine sofortige Sitzung mit der Androhung, <lb xml:id="p2-l16" break="no"/>daß er sich sonst jeder Verantwortlichkeit entschlage. <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <persName key="Frey-Herosé Friedrich">Frey</persName>
+        ließ <lb xml:id="p2-l17" break="no"/>sich dadurch bewegen, auf 8 Uhr Abends eine Sitzung anzusagen, <lb xml:id="p2-l18" break="no"/>die bis halb eilf<note type="transcript">sic!</note> dauerte. Offenbar war der
+        Bundesrath dadurch <lb xml:id="p2-l19" break="no"/>unter einen moralischen Zwang gebracht, weil er nicht
+        zur Nacht
+                <lb xml:id="p2-l20" break="no"/>zeit unter Anwesenheit eines Theils der <hi>Helvetia</hi> in
+          <placeName key="Bern">
                     <hi>Bern</hi>
-                </placeName>, unter <lb xml:id="p2-l21"/>Gruppen <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> Neugierigen auf d. Straße sitzen konnte, ohne etwas <lb xml:id="p2-l22"/>in gewünschter Richtung zu beschließen. Das wollte man na<lb break="no" xml:id="p2-l23"/>türlich, <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> man wollte ferner, daß der Bundesrath d.
-          Bundes<lb break="no" xml:id="p2-l24"/>versammlung durch Aufstellung <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice>
-        Truppen <del>
-                    <supplied type="unclear">be...</supplied>
-                </del> binde; denn <pb n="3"/>
-                    <lb xml:id="p3-l1"/>die letztre hat nun die Frage nicht
-        mehr frey, ob jetzt schon <lb xml:id="p3-l2"/>Truppen aufgestellt werden sollen; sind sie einmal
-        da, so <lb xml:id="p3-l3"/>können sie unter obwaltenden Umständen nicht leicht entlassen <lb xml:id="p3-l4"/>werden. Nun was geschah? – Beantragt wurden 18 <choice>
-                        <abbr>Bataill.</abbr>
-                        <expan>Bataillon</expan>
-                    </choice>
-                    <lb xml:id="p3-l5"/>nebst Zubehörde an die Grenze zu schicken, um im
-        geeigneten <lb xml:id="p3-l6"/>Moment <placeName type="place" key="Savoyen">
+                </placeName>, unter <lb xml:id="p2-l21" break="no"/>Gruppen <choice><abbr>v.</abbr><expan>von</expan></choice> Neugierigen auf d. Straße sitzen konnte, ohne etwas <lb xml:id="p2-l22" break="no"/>in gewünschter Richtung zu beschließen. Das wollte man na
+                <lb xml:id="p2-l23" break="no"/>türlich, <choice><abbr>u</abbr><expan>und</expan></choice> man wollte ferner, daß der Bundesrath d.
+          Bundes
+                <lb xml:id="p2-l24" break="no"/>versammlung durch Aufstellung <choice><abbr>v.</abbr><expan>von</expan></choice>
+        Truppen <del><add type="?">be...</add></del> binde; denn <pb n="3"/>
+                <lb xml:id="p3-l1" break="no"/>die letztre hat nun die Frage nicht
+        mehr frey, ob jetzt schon <lb xml:id="p3-l2" break="no"/>Truppen aufgestellt werden sollen; sind sie einmal
+        da, so <lb xml:id="p3-l3" break="no"/>können sie unter obwaltenden Umständen nicht leicht entlassen <lb xml:id="p3-l4" break="no"/>werden. Nun was geschah? – Beantragt wurden 18 <choice><abbr>Bataill.</abbr><expan>Bataillon</expan></choice> <lb xml:id="p3-l5" break="no"/>nebst Zubehörde an die Grenze zu schicken, um im
+        geeigneten <lb xml:id="p3-l6" break="no"/>Moment <placeName key="Savoyen">
                     <hi>Savoien</hi>
                 </placeName>
-        besetzen zu können. Das fand Widerstand <lb xml:id="p3-l7"/>
-                    <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> am Ende
-        wurde beschlossen, 6 <choice>
-                        <abbr>Bat.</abbr>
-                        <expan>Bataillon</expan>
-                    </choice> nebst Zubehörde <hi rend="underline">zu Wieder<lb break="no" xml:id="p3-l8"/>holungskursen</hi> (!) sofort einberufen zu lassen. – Auch das<lb xml:id="p3-l9"/> geschah nicht einstimmig; weiteres darüber mündlich. Ich über<lb break="no" xml:id="p3-l10"/>lasse
+        besetzen zu können. Das fand Widerstand <lb xml:id="p3-l7" break="no"/>
+                <choice><abbr>u</abbr><expan>und</expan></choice> am Ende
+        wurde beschlossen, 6 <choice><abbr>Bat.</abbr><expan>Bataillon</expan></choice> nebst Zubehörde <hi rend="underline">zu Wieder
+                    <lb xml:id="p3-l8" break="no"/>holungskursen</hi> (!) sofort einberufen zu lassen. – Auch das<lb xml:id="p3-l9" break="no"/> geschah nicht einstimmig; weiteres darüber mündlich. Ich über
+                <lb xml:id="p3-l10" break="no"/>lasse
         dir ganz die <hi>Critik</hi> dieser Maaßregel. –</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="indent" xml:id="K_1793_p6">
                     <lb xml:id="p3-l11"/>In der Hoffnung, dich bald hier zu sehen, grüßt dich <lb xml:id="p3-l12"/>freundschaftlich</p>
         <p rend="center" xml:id="K_1793_p7">
                     <lb xml:id="p3-l13"/>Dein</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="center" xml:id="K_1793_p8">
                     <lb xml:id="p3-l14"/>F</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

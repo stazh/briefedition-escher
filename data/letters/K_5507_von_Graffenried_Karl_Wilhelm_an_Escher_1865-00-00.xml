@@ -1,180 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5507" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Karl Wilhelm von Graffenried an Alfred Escher, s.l., [1865?]</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_008</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Kreditanstalt (SKA)</item>
-                        <item>Bewerbungen/Empfehlungen/Referenzen</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Graffenried Karl Wilhelm von" type="sender">Karl Wilhelm von Graffenried</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>s.l.</placeName>
-                    <date when="1865">[1865?]</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-02-17" who="NP">Transkription
-                
-            </change>
-            <change when="2014-02-18" who="IB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-04-02" who="MB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-07" who="SWK">Transkriptionsverifizierung T. Binder
-          umgesetzt
-                
-            </change>
-            <change when="2014-07-07" who="CH">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-10" who="IB">Übertragung der Transkriptionsverifizierung
-          geprüft
-                
-            </change>
-            <change when="2014-07-22" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-22" who="VP">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="left" xml:id="K_5507_p1">
-                    <seg type="com">
-                        <note type="addendum" xml:id="K_5507_c0">Datierung gemäss Briefkontext.</note>
-                    </seg>
-                    <lb xml:id="p1-l1"/>Monsieur le Président <choice>
-                        <abbr>D<hi rend="sup">r</hi> </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A. Escher,
-        <lb xml:id="p1-l2"/>
-                    <hi rend="underline">
-                        <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.</hi> </p>
-        <p rend="left" xml:id="K_5507_p2">
-                    <lb xml:id="p1-l3"/> <seg type="com">
-                        <choice>
-                            <abbr>fr.</abbr>
-                            <expan>franco (frankiert)</expan>
-                        </choice>
-                        <note xml:id="K_5507_c1">Adresse unten links auf Seite 1.</note>
-                    </seg> </p>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5507" type="Brief"><teiHeader><fileDesc><titleStmt><title>Karl Wilhelm von Graffenried an Alfred Escher, s.l., [1865?]</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_008</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Kreditanstalt (SKA)</term><term>Bewerbungen/Empfehlungen/Referenzen</term><term>Eisenbahnen Finanzierung</term><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Graffenried Karl Wilhelm von" type="addressee">Karl Wilhelm von Graffenried</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><date when="1865-01-01">[1865?]</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
+        <p rend="left" xml:id="K_5507_p1"><note type="com" xml:id="K_5507_c0">Datierung gemäss Briefkontext.</note><lb xml:id="p1-l1"/>Monsieur le Président <choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> A. Escher,
+        <lb xml:id="p1-l2"/><hi rend="underline"><placeName key="Zürich (Stadt)">Zürich</placeName>.</hi> </p>
+        <p rend="left" xml:id="K_5507_p2"><lb xml:id="p1-l3"/> <choice><abbr>fr.</abbr><expan>franco (frankiert)</expan></choice><note type="com" xml:id="K_5507_c1">Adresse unten links auf Seite 1.</note> </p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_5507_p3">
-                    <lb xml:id="p1-l4"/>Bien cher Monsieur,</p>
+        <p rend="left" xml:id="K_5507_p3"><lb xml:id="p1-l4"/>Bien cher Monsieur,</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_5507_p4">
-                <lb xml:id="p1-l5"/>Je reçois de <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Winspeare">Winspeare</persName> une lettre m'infor<lb break="no" xml:id="p1-l6"/>mant, qu'il attend encore la réponse définitive de <lb xml:id="p1-l7"/>
-                    <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-                    <persName type="person" key="Langrand-Dumonceau André">Langrand</persName>, mais qu'à cause des nombreuses <lb xml:id="p1-l8"/>affaires nouvelles que <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-                    <persName type="person" key="Langrand-Dumonceau André">Langrand</persName> a en mains il <lb xml:id="p1-l9"/>ne croit plus probable que <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-                    <persName type="person" key="Langrand-Dumonceau André">Langrand</persName> veuille <lb xml:id="p1-l10"/>en
+    </front><body>
+      <p rend="indent" xml:id="K_5507_p4"><lb xml:id="p1-l5"/>Je reçois de <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Winspeare">Winspeare</persName> une lettre m'infor<lb xml:id="p1-l6" break="no"/>mant, qu'il attend encore la réponse définitive de <lb xml:id="p1-l7" break="no"/><choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Langrand-Dumonceau André">Langrand</persName>, mais qu'à cause des nombreuses <lb xml:id="p1-l8" break="no"/>affaires nouvelles que <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Langrand-Dumonceau André">Langrand</persName> a en mains il <lb xml:id="p1-l9" break="no"/>ne croit plus probable que <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Langrand-Dumonceau André">Langrand</persName> veuille <lb xml:id="p1-l10" break="no"/>en
         commencer d'autres pour le moment. </p>
-      <p rend="indent" xml:id="K_5507_p5">
-                <lb xml:id="p1-l11"/>Ces affaires nouvelles sont non seulement <lb xml:id="p1-l12"/>l'emprunt
-        domainial<note type="transcript">gemeint: domanial</note> <placeName type="place" key="Österreich (Kaisertum)">autrichien</placeName>, mais encore un <lb xml:id="p1-l13"/>grand
-        établissement de crédit foncier <placeName type="place" key="Deutschland">allemand</placeName> à <lb xml:id="p1-l14"/>la tête duquel doit se placer le <persName type="person" key="Thurn und Taxis Maximilian Anton Lamoral von">Prince de Tour et <lb xml:id="p1-l15"/>Taxis</persName><!--Tour et Taxis (en néerlandais: Thurn en Taxis) est un ancien et vaste site industriel bruxellois-->
+      <p rend="indent" xml:id="K_5507_p5"><lb xml:id="p1-l11"/>Ces affaires nouvelles sont non seulement <lb xml:id="p1-l12"/>l'emprunt
+        domainial<note type="transcript">gemeint: domanial</note> <placeName key="Österreich (Kaisertum)">autrichien</placeName>, mais encore un <lb xml:id="p1-l13"/>grand
+        établissement de crédit foncier <placeName key="Deutschland">allemand</placeName> à <lb xml:id="p1-l14"/>la tête duquel doit se placer le <persName key="Thurn und Taxis Maximilian Anton Lamoral von">Prince de Tour et <lb xml:id="p1-l15"/>Taxis</persName><!--Tour et Taxis (en néerlandais: Thurn en Taxis) est un ancien et vaste site industriel bruxellois-->
         avec une participation personnelle de plusieurs <lb xml:id="p1-l16"/>millions. </p>
-      <p rend="indent" xml:id="K_5507_p6">
-                <lb xml:id="p1-l17"/>Par l'entremise du Crédit Suisse j'ai reçu <lb xml:id="p1-l18"/>sur <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Langrand-Dumonceau André">Langrand</persName> des renseignements confirmant <lb xml:id="p1-l19"/>entièrement mon appréciation. <persName type="person" key="Langrand-Dumonceau André">Ce financier</persName> est <lb xml:id="p1-l20"/>très-entreprenant,
+      <p rend="indent" xml:id="K_5507_p6"><lb xml:id="p1-l17"/>Par l'entremise du Crédit Suisse j'ai reçu <lb xml:id="p1-l18"/>sur <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Langrand-Dumonceau André">Langrand</persName> des renseignements confirmant <lb xml:id="p1-l19"/>entièrement mon appréciation. <persName key="Langrand-Dumonceau André">Ce financier</persName> est <lb xml:id="p1-l20"/>très-entreprenant,
         soutenu avec enthousiasme par <lb xml:id="p1-l21"/>ses amis, discuté avec aigreur par ses
-        adversaires. <lb xml:id="p1-l22"/>Les amis appartiennent à la plus haute aristo<lb break="no" xml:id="p1-l23"/>cratie <placeName type="place" key="Belgien">belge</placeName>, et sont parfaitement
-        honorables et <lb xml:id="p1-l24"/>très-réclus. Le champ de travail de <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-                    <persName type="person" key="Langrand-Dumonceau André">Langrand</persName>
-                    <lb xml:id="p1-l25"/>est spécialement l'<placeName type="place" key="Österreich (Kaisertum)">Autriche</placeName>, mais son siège est <lb xml:id="p1-l26"/>à <placeName type="place" key="Brüssel (B)">Bruxelles</placeName>. Il me semble, que
-        malgré l'in<note type="transcript">t. s. v. p.</note>
-                    <pb n="2"/>
-                    <lb xml:id="p2-l1"/>succès
-        probable des démarches de <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-                    <persName type="person" key="Winspeare">Winspeare</persName> il y <lb xml:id="p2-l2"/>aurait lieu de ne pas
-        perdre entièrement de vue <lb xml:id="p2-l3"/>
-                    <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-                    <persName type="person" key="Langrand-Dumonceau André">Langrand</persName>. De
-        nouvelles tentations ne pourraient-<lb xml:id="p2-l4"/>elles pas avoir lieu directement par
-        l'entremise <lb xml:id="p2-l5"/>des missions du Comité soit à <placeName type="place" key="Brüssel (B)">Bruxelles</placeName>, soit à <lb xml:id="p2-l6"/>
-                    <placeName type="place" key="Wien (A)">Vienne</placeName>, auprès de <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-                    <persName type="person" key="Langrand-Dumonceau André">Langrand</persName>
-        lui-même? J'ai la <lb xml:id="p2-l7"/>conviction, que <persName type="person" key="Langrand-Dumonceau André">ce financier</persName> dispose de capitaux <lb xml:id="p2-l8"/>suffisants pour assurer une combinaison finan<lb break="no" xml:id="p2-l9"/>cière du <placeName type="place" key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gotthard</placeName>; et si le Comité se
-        trouvait en <lb xml:id="p2-l10"/>mesure de laisser à <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-                    <persName type="person" key="Langrand-Dumonceau André">L.</persName> une belle
-        commission <lb xml:id="p2-l11"/>sur l'affaire, il pense que cette considération le <lb xml:id="p2-l12"/>déciderait promptement. </p>
-    </div>
-        </body>
-    <back>
+        adversaires. <lb xml:id="p1-l22"/>Les amis appartiennent à la plus haute aristo<lb xml:id="p1-l23" break="no"/>cratie <placeName key="Belgien">belge</placeName>, et sont parfaitement
+        honorables et <lb xml:id="p1-l24" break="no"/>très-réclus. Le champ de travail de <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Langrand-Dumonceau André">Langrand</persName> <lb xml:id="p1-l25" break="no"/>est spécialement l'<placeName key="Österreich (Kaisertum)">Autriche</placeName>, mais son siège est <lb xml:id="p1-l26" break="no"/>à <placeName key="Brüssel (B)">Bruxelles</placeName>. Il me semble, que
+        malgré l'in<note type="transcript">t. s. v. p.</note> <pb n="2"/><lb xml:id="p2-l1" break="no"/>succès
+        probable des démarches de <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Winspeare">Winspeare</persName> il y <lb xml:id="p2-l2" break="no"/>aurait lieu de ne pas
+        perdre entièrement de vue <lb xml:id="p2-l3" break="no"/><choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Langrand-Dumonceau André">Langrand</persName>. De
+        nouvelles tentations ne pourraient-<lb xml:id="p2-l4" break="no"/>elles pas avoir lieu directement par
+        l'entremise <lb xml:id="p2-l5" break="no"/>des missions du Comité soit à <placeName key="Brüssel (B)">Bruxelles</placeName>, soit à <lb xml:id="p2-l6" break="no"/><placeName key="Wien (A)">Vienne</placeName>, auprès de <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Langrand-Dumonceau André">Langrand</persName>
+        lui-même? J'ai la <lb xml:id="p2-l7" break="no"/>conviction, que <persName key="Langrand-Dumonceau André">ce financier</persName> dispose de capitaux <lb xml:id="p2-l8" break="no"/>suffisants pour assurer une combinaison finan<lb xml:id="p2-l9" break="no"/>cière du <placeName key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gotthard</placeName>; et si le Comité se
+        trouvait en <lb xml:id="p2-l10" break="no"/>mesure de laisser à <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Langrand-Dumonceau André">L.</persName> une belle
+        commission <lb xml:id="p2-l11" break="no"/>sur l'affaire, il pense que cette considération le <lb xml:id="p2-l12" break="no"/>déciderait promptement. </p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_5507_p7">
-                    <lb xml:id="p2-l13"/>Je vous prie, bien cher Monsieur, de me <lb xml:id="p2-l14"/>rappeler au
+        <p rend="indent" xml:id="K_5507_p7"><lb xml:id="p2-l13"/>Je vous prie, bien cher Monsieur, de me <lb xml:id="p2-l14"/>rappeler au
           souvenir de vos dames, et d'agréer <lb xml:id="p2-l15"/>l'expression sincère de mon
           reconnaissant et <lb xml:id="p2-l16"/>respectueux dévouement.</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_5507_p8">
-                    <lb xml:id="p2-l17"/>Guillaume de Graffenried</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_5507_p8"><lb xml:id="p2-l17"/>Guillaume de Graffenried</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

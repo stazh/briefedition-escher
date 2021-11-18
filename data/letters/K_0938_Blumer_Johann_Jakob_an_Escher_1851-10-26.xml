@@ -1,249 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0938" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Blumer an Alfred Escher, Glarus, Sonntag, Oktober 26, 1851</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>FA Tschudi</institution>
-                        <idno type="original"/>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Nationalrat</item>
-                        <item>Wahlen</item>
-                        <item>Parteienstreitigkeiten</item>
-                        <item>Landsgemeinde GL</item>
-                        <item>Presse (allgemein)</item>
-                        <item>Liberale Presse</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Blumer Johann Jakob" type="sender">Johann Jakob Blumer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Glarus</placeName>
-                    <date when="1851-10-26">Sonntag, Oktober 26, 1851</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2007-01-18" who="MW">transkribiert 
-                
-            </change>
-            <change when="April 2009" who="swissedit, UR">automatisch von Word nach XML konvertiert 
-                
-            </change>
-            <change when="2010-04-23" who="SW">XML bereinigt
-                
-            </change>
-            <change when="2010-04-23" who="SW">Metadaten vervollständigt
-                
-            </change>
-            <change when="2012-06-19" who="LM">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-20" who="SCK">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-26" who="LM">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2012-07-10" who="SCK">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2012-08-23" who="CHF">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2012-09-20" who="TM">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2013-02-08" who="KR">Inhaltliche Qualitätsprüfung
-				umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0938" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Blumer an Alfred Escher, Glarus, Sonntag, 26. Oktober 1851</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>FA Tschudi</institution></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Nationalrat</term><term>Wahlen</term><term>Parteienstreitigkeiten</term><term>Landsgemeinde GL</term><term>Presse (allgemein)</term><term>Liberale Presse</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Blumer Johann Jakob" type="addressee">Johann Jakob Blumer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Glarus</placeName><date when="1851-10-26">26. Oktober 1851</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_0938_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1851-10-26">26. Oktober 1851</date>.</p>
+        <p rend="right" xml:id="K_0938_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1851-10-26">26. Oktober 1851</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_0938_p2">
-                    <lb xml:id="p1-l2"/>Mein theurer Freund! </p>
+        <p rend="left" xml:id="K_0938_p2"><lb xml:id="p1-l2"/>Mein theurer Freund! </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_0938_p3">
-                <lb xml:id="p1-l3"/>Du hast Dich für unsre hiesige Nationalrathswahlen schon zu<lb xml:id="p1-l4"/> einer Zeit, wo <del>sich</del> hier noch kaum Jemand an dieselben dachte,
+    </front><body>
+      <p rend="indent" xml:id="K_0938_p3"><lb xml:id="p1-l3"/>Du hast Dich für unsre hiesige Nationalrathswahlen schon zu<lb xml:id="p1-l4"/> einer Zeit, wo <del>sich</del> hier noch kaum Jemand an dieselben dachte,
 					intressirt;<lb xml:id="p1-l5"/> ich will daher nicht ermangeln, Dir noch <date when="1851-10-26">heute</date> von dem Ergebnisse derselben<lb xml:id="p1-l6"/>
 				Kenntniß zu geben. </p>
-      <p rend="indent" xml:id="K_0938_p4">
-                <lb xml:id="p1-l7"/>Die Liberalen haben ihren Zweck insofern erreicht, als <persName type="person" key="Heer Joachim">mein Schwager</persName> <lb xml:id="p1-l8"/> nicht gewählt wurde, aber auch unser Kandidat, <persName type="person" key="Kubli">Kubli</persName>, ist nicht gewählt. Beide lehn<lb break="no" xml:id="p1-l9"/>ten ab: der <persName type="person" key="Heer Joachim">erstere</persName>
-				war schon lange dazu entschlossen aus Gründen, die ich voll<lb break="no" xml:id="p1-l10"/>kommen billige; der <persName type="person" key="Kubli">letztere</persName>, der uns sonst versprochen hatte unter allen Umständen<lb xml:id="p1-l11"/>auszuharren, mag dazu veranlaßt worden seyn theils durch die
-					Nachrechnung,<lb xml:id="p1-l12"/> daß die Mehrheit des Volkes, nach unzweifelhaften
-				Aeußerungen seiner Willens<lb break="no" xml:id="p1-l13"/>meinung, für die Gegner war, theils durch eine taktlose Rede <choice>
-                        <abbr>Dr.</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice>
-                    <persName type="person" key="Jenny Johann Jakob">Jenni's</persName>, der<lb xml:id="p1-l14"/>
-                    <hi rend="underline">für</hi>
-                    <persName type="person" key="Kubli">Kubli</persName> sprach. Gewählt ist nun Präsident
-					<choice>
-                        <abbr>Dr.</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice>
-                    <persName type="person" key="Trümpy Johannes">Trümpi</persName>, ein älterer Mann,<lb xml:id="p1-l15"/> der früher immer zu den Liberalen hielt <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-				auch jetzt ohne Zweifel gut, zwar<lb xml:id="p1-l16"/> immerhin im Sinne eines mäßigen
-				Liberalismus, stimmen wird. Mir ist die Wahl<lb xml:id="p1-l17"/>
-                    <persName type="person" key="Trümpy Johannes">Trümpi's</persName> ganz recht; in der
-				politischen Farbe <add>wird</add> zwischen ihm <choice>
-                        <abbr>
-                    <add>u.</add> </abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <persName type="person" key="Kubli">Kubli</persName> kein großer<lb xml:id="p1-l18"/>
-				Unterschied seyn, – letzterer mag zwar etwas entschiedner seyn, aber zu Extremen<lb xml:id="p1-l19"/> hätte er auch nicht gestimmt; was Talente, Kenntnisse,
-				Beredsamkeit <choice>
-                        <abbr>u. s. w.</abbr>
-                        <expan>und so weiter</expan>
-                    </choice> betrifft,<lb xml:id="p1-l20"/> so
-				hätte <persName type="person" key="Kubli">Kubli</persName> keine hervorragende Stellung im
-				Nationalrathe eingenommen, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p1-l21"/>
-                    <persName type="person" key="Trümpy Johannes">Trümpi</persName> wird sie auch nicht
-				einnehmen. Wenn ich also mit der Wahl als solcher<lb xml:id="p1-l22"/> zufrieden bin, so
-				kann ich mich dagegen des Eindruckes nicht erwehren, daß die <pb n="2"/>
-                    <lb xml:id="p2-l1"/> Liberalen an der <date when="1851-10-26">heutigen</date> Landsgemeinde
-				eine moralische Niederlage erlitten haben.<lb xml:id="p2-l2"/> Hätte <persName type="person" key="Heer Joachim">mein Schwager</persName> angenommen, so wäre er mit glänzendem
-				Mehr gewählt worden. Es<lb xml:id="p2-l3"/> ist eben, wie ich Dir schon in <placeName type="place" key="Bern (Stadt)">Bern</placeName> sagte, etwas ganz eignes um ein
-				altdemokratisches Volk;<lb xml:id="p2-l4"/> es ist nicht gewohnt, bei Wahlen nach der
-				politischen Farbe zu fragen, sondern es nimmt<lb xml:id="p2-l5"/> bloß darauf Rücksicht,
-				ob ihm die Personen als solche gefallen, ob es zu ihnen Zutrauen<lb xml:id="p2-l6"/> hat
-				<add>oder nicht.</add>
-                    <persName type="person" key="Heer Joachim">Mein Schwager</persName> ist nun
-				allerdings eine hervorragende Persönlichkeit, die ganz<lb xml:id="p2-l7"/> dazu
-				geschaffen ist, unser Volk zu gewinnen, wozu noch das Andenken an <persName type="person" key="Heer Cosmus">seinen, so be<lb break="no" xml:id="p2-l8"/>liebt gewesnen Vater</persName> ungemein viel beiträgt. Daß er
-				konservativ sey, wollen einem <lb xml:id="p2-l9"/>die Leute gar nicht glauben, oder sie sagten auch
-				etwa, ein wenig Müßiggang schade <lb xml:id="p2-l10"/>nichts, man wolle es mit ihm ein paar Jahre
-				probiren <choice>
-                        <abbr>u. s. f.</abbr>
-                        <expan>und so fort</expan>
-                    </choice> Ob seine Stimmgebung<lb xml:id="p2-l11"/> im Nationalrathe den <placeName type="place" key="Glarus">Glarnern</placeName> dann auch
-				immer würde gefallen haben, das ist freilich<lb xml:id="p2-l12"/> eine andere Frage. –
-					<persName type="person" key="Heer Joachim">Mein Schwager</persName> war jedenfalls zum
-				voraus vom Volke als Kan<lb break="no" xml:id="p2-l13"/>didat bezeichnet, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> daß er in Zeitungen
-				angegriffen wurde, hat bei der Mehrheit wohl<lb xml:id="p2-l14"/> gerade <hi rend="underline">den</hi>
-				Eindruck gemacht, daß es hieß: man soll uns nicht vorschreiben, wen wir<lb xml:id="p2-l15"/> zu wählen haben, wir werden unsern Mann schon finden! Nichtsdesto
-				weniger bereue<lb xml:id="p2-l16"/> ich in keiner Weise die Stellung, welche ich in der
-					<choice>
-                        <abbr>
-                    <placeName type="place" key="Glarus">Gl.</placeName>
-					Ztg.</abbr>
-                        <expan>Glarner Zeitung</expan>
-                    </choice> eingenommen habe, weil ich<lb xml:id="p2-l17"/> mir bewußt bin nur meine
-				Pflicht gethan zu haben. Mein erster Artikel brachte un<lb break="no" xml:id="p2-l18"/>ser Volk gleichsam aus einem tiefen Schlafe; wäre es gar nicht
-				geweckt worden, so wäre,<lb xml:id="p2-l19"/>
-                    <del>allerdings</del> – statt daß wir nun einen rechten Wahlkampf hatten –, ganz
-				ruhig <persName type="person" key="Heer Joachim">mein<lb xml:id="p2-l20"/> Schwager</persName>
-				gewählt worden, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <hi rend="underline">vielleicht</hi> hätte er dann angenommen. Jener Artikel, <del>war</del>der die<lb xml:id="p2-l21"/>
-				Konservativen so unsanft berührte, war gleichwohl ganz allgemein gehalten, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Niemand<lb xml:id="p2-l22"/> konnte mir denselben verübeln; daß
-				dann die «<choice>
-                        <abbr>Eidg. Ztg.</abbr>
-                        <expan>Eidgenössische / Eidgenößische Zeitung</expan>
-                    </choice>»
-				einen persönlichen Vorschlag brachte,<lb xml:id="p2-l23"/> über den ich mich, wenn auch
-				in sehr schonender Weise, aussprechen zu müßen glaubte, war<lb xml:id="p2-l24"/> nicht
-				meine Schuld. Daß <del>
-                    <supplied type="unclear">ich</supplied>
-                </del> die ganze Geschichte für mich persönlich höchst unangenehm<lb xml:id="p2-l25"/> war <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> daß ich während derselben oft die
-				Zeitungsredaktion in's Pfefferland wünschte, <pb n="3"/>
-                    <lb xml:id="p3-l1"/> wirst Du leicht begreifen. Ueber <persName type="person" key="Heer Joachim">meinen Schwager</persName> selbst habe ich am wenigsten
-					Ursache<lb xml:id="p3-l2"/> mich zu beklagen, er war so loyal anzuerkennen, daß ich
-				in meiner Stellung nicht<lb xml:id="p3-l3"/> anders handeln <hi rend="underline">konnte</hi>. Andern
-				Familienverdruß gab es dagegen wohl, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> daneben weiß<lb xml:id="p3-l4"/> ich, daß meine Haltung nicht bloß von den Konservativen, sondern
-				auch von vielen<lb xml:id="p3-l5"/> gemäßigten Liberalen, denen dieselben auffallend
-				vorkam, mißbilligt worden ist, daß mir<lb xml:id="p3-l6"/> vielleicht mannigfach
-				unlautere Motive, wie Eifersucht, persönlicher Haß <choice>
-                        <abbr>u. s. w.</abbr>
-                        <expan>und so weiter</expan>
-                    </choice> unterge<lb break="no" xml:id="p3-l7"/>schoben worden sind. Dabei tröstet mich indessen einerseits der
-				Gedanke, daß solche Leute<lb xml:id="p3-l8"/> die Sache eben nicht recht verstehen,
-				anderseits, wie schon gesagt, das Bewußtseyn, meine<lb xml:id="p3-l9"/> Schuldigkeit
-				gethan zu haben. Ich glaube auch nicht, daß das Volk gerade gegen mich ein<lb break="no" xml:id="p3-l10"/>genommen ist; <date when="1851-10-26">heute</date> wenigstens wurde ich
-				auch als Nationalrath vorgeschlagen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>, da ich<lb xml:id="p3-l11"/> unter Berufung auf meine Stelle im Ständerathe ablehnte, mit
+      <p rend="indent" xml:id="K_0938_p4"><lb xml:id="p1-l7"/>Die Liberalen haben ihren Zweck insofern erreicht, als <persName key="Heer Joachim">mein Schwager</persName> <lb xml:id="p1-l8"/> nicht gewählt wurde, aber auch unser Kandidat, <persName key="Kubli">Kubli</persName>, ist nicht gewählt. Beide lehn<lb xml:id="p1-l9" break="no"/>ten ab: der <persName key="Heer Joachim">erstere</persName>
+				war schon lange dazu entschlossen aus Gründen, die ich voll<lb xml:id="p1-l10" break="no"/>kommen billige; der <persName key="Kubli">letztere</persName>, der uns sonst versprochen hatte unter allen Umständen<lb xml:id="p1-l11" break="no"/>auszuharren, mag dazu veranlaßt worden seyn theils durch die
+					Nachrechnung,<lb xml:id="p1-l12" break="no"/> daß die Mehrheit des Volkes, nach unzweifelhaften
+				Aeußerungen seiner Willens<lb xml:id="p1-l13" break="no"/>meinung, für die Gegner war, theils durch eine taktlose Rede <choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> <persName key="Jenny Johann Jakob">Jenni's</persName>, der<lb xml:id="p1-l14" break="no"/><hi rend="underline">für</hi> <persName key="Kubli">Kubli</persName> sprach. Gewählt ist nun Präsident
+					<choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> <persName key="Trümpy Johannes">Trümpi</persName>, ein älterer Mann,<lb xml:id="p1-l15" break="no"/> der früher immer zu den Liberalen hielt <choice><abbr>u.</abbr><expan>und</expan></choice>
+				auch jetzt ohne Zweifel gut, zwar<lb xml:id="p1-l16" break="no"/> immerhin im Sinne eines mäßigen
+				Liberalismus, stimmen wird. Mir ist die Wahl<lb xml:id="p1-l17" break="no"/><persName key="Trümpy Johannes">Trümpi's</persName> ganz recht; in der
+				politischen Farbe <add>wird</add> zwischen ihm <choice><abbr><add>u.</add> </abbr><expan>und</expan></choice> <persName key="Kubli">Kubli</persName> kein großer<lb xml:id="p1-l18" break="no"/>
+				Unterschied seyn, – letzterer mag zwar etwas entschiedner seyn, aber zu Extremen<lb xml:id="p1-l19" break="no"/> hätte er auch nicht gestimmt; was Talente, Kenntnisse,
+				Beredsamkeit <choice><abbr>u. s. w.</abbr><expan>und so weiter</expan></choice> betrifft,<lb xml:id="p1-l20" break="no"/> so
+				hätte <persName key="Kubli">Kubli</persName> keine hervorragende Stellung im
+				Nationalrathe eingenommen, <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p1-l21" break="no"/><persName key="Trümpy Johannes">Trümpi</persName> wird sie auch nicht
+				einnehmen. Wenn ich also mit der Wahl als solcher<lb xml:id="p1-l22" break="no"/> zufrieden bin, so
+				kann ich mich dagegen des Eindruckes nicht erwehren, daß die <pb n="2"/><lb xml:id="p2-l1" break="no"/> Liberalen an der <date when="1851-10-26">heutigen</date> Landsgemeinde
+				eine moralische Niederlage erlitten haben.<lb xml:id="p2-l2" break="no"/> Hätte <persName key="Heer Joachim">mein Schwager</persName> angenommen, so wäre er mit glänzendem
+				Mehr gewählt worden. Es<lb xml:id="p2-l3" break="no"/> ist eben, wie ich Dir schon in <placeName key="Bern (Stadt)">Bern</placeName> sagte, etwas ganz eignes um ein
+				altdemokratisches Volk;<lb xml:id="p2-l4" break="no"/> es ist nicht gewohnt, bei Wahlen nach der
+				politischen Farbe zu fragen, sondern es nimmt<lb xml:id="p2-l5" break="no"/> bloß darauf Rücksicht,
+				ob ihm die Personen als solche gefallen, ob es zu ihnen Zutrauen<lb xml:id="p2-l6" break="no"/> hat
+				<add>oder nicht.</add> <persName key="Heer Joachim">Mein Schwager</persName> ist nun
+				allerdings eine hervorragende Persönlichkeit, die ganz<lb xml:id="p2-l7" break="no"/> dazu
+				geschaffen ist, unser Volk zu gewinnen, wozu noch das Andenken an <persName key="Heer Cosmus">seinen, so be<lb xml:id="p2-l8" break="no"/>liebt gewesnen Vater</persName> ungemein viel beiträgt. Daß er
+				konservativ sey, wollen einem <lb xml:id="p2-l9" break="no"/>die Leute gar nicht glauben, oder sie sagten auch
+				etwa, ein wenig Müßiggang schade <lb xml:id="p2-l10" break="no"/>nichts, man wolle es mit ihm ein paar Jahre
+				probiren <choice><abbr>u. s. f.</abbr><expan>und so fort</expan></choice> Ob seine Stimmgebung<lb xml:id="p2-l11" break="no"/> im Nationalrathe den <placeName key="Glarus">Glarnern</placeName> dann auch
+				immer würde gefallen haben, das ist freilich<lb xml:id="p2-l12" break="no"/> eine andere Frage. –
+					<persName key="Heer Joachim">Mein Schwager</persName> war jedenfalls zum
+				voraus vom Volke als Kan<lb xml:id="p2-l13" break="no"/>didat bezeichnet, <choice><abbr>u.</abbr><expan>und</expan></choice> daß er in Zeitungen
+				angegriffen wurde, hat bei der Mehrheit wohl<lb xml:id="p2-l14" break="no"/> gerade <hi rend="underline">den</hi>
+				Eindruck gemacht, daß es hieß: man soll uns nicht vorschreiben, wen wir<lb xml:id="p2-l15" break="no"/> zu wählen haben, wir werden unsern Mann schon finden! Nichtsdesto
+				weniger bereue<lb xml:id="p2-l16" break="no"/> ich in keiner Weise die Stellung, welche ich in der
+					<choice><abbr><placeName key="Glarus">Gl.</placeName>
+					Ztg.</abbr><expan>Glarner Zeitung</expan></choice> eingenommen habe, weil ich<lb xml:id="p2-l17" break="no"/> mir bewußt bin nur meine
+				Pflicht gethan zu haben. Mein erster Artikel brachte un<lb xml:id="p2-l18" break="no"/>ser Volk gleichsam aus einem tiefen Schlafe; wäre es gar nicht
+				geweckt worden, so wäre,<lb xml:id="p2-l19" break="no"/><del>allerdings</del> – statt daß wir nun einen rechten Wahlkampf hatten –, ganz
+				ruhig <persName key="Heer Joachim">mein<lb xml:id="p2-l20"/> Schwager</persName>
+				gewählt worden, <choice><abbr>u.</abbr><expan>und</expan></choice> <hi rend="underline">vielleicht</hi> hätte er dann angenommen. Jener Artikel, <del>war</del>der die<lb xml:id="p2-l21" break="no"/>
+				Konservativen so unsanft berührte, war gleichwohl ganz allgemein gehalten, <choice><abbr>u.</abbr><expan>und</expan></choice> Niemand<lb xml:id="p2-l22" break="no"/> konnte mir denselben verübeln; daß
+				dann die «<choice><abbr>Eidg. Ztg.</abbr><expan>Eidgenössische / Eidgenößische Zeitung</expan></choice>»
+				einen persönlichen Vorschlag brachte,<lb xml:id="p2-l23" break="no"/> über den ich mich, wenn auch
+				in sehr schonender Weise, aussprechen zu müßen glaubte, war<lb xml:id="p2-l24" break="no"/> nicht
+				meine Schuld. Daß <del><add type="?">ich</add></del> die ganze Geschichte für mich persönlich höchst unangenehm<lb xml:id="p2-l25" break="no"/> war <choice><abbr>u.</abbr><expan>und</expan></choice> daß ich während derselben oft die
+				Zeitungsredaktion in's Pfefferland wünschte, <pb n="3"/><lb xml:id="p3-l1" break="no"/> wirst Du leicht begreifen. Ueber <persName key="Heer Joachim">meinen Schwager</persName> selbst habe ich am wenigsten
+					Ursache<lb xml:id="p3-l2" break="no"/> mich zu beklagen, er war so loyal anzuerkennen, daß ich
+				in meiner Stellung nicht<lb xml:id="p3-l3" break="no"/> anders handeln <hi rend="underline">konnte</hi>. Andern
+				Familienverdruß gab es dagegen wohl, <choice><abbr>u.</abbr><expan>und</expan></choice> daneben weiß<lb xml:id="p3-l4" break="no"/> ich, daß meine Haltung nicht bloß von den Konservativen, sondern
+				auch von vielen<lb xml:id="p3-l5" break="no"/> gemäßigten Liberalen, denen dieselben auffallend
+				vorkam, mißbilligt worden ist, daß mir<lb xml:id="p3-l6" break="no"/> vielleicht mannigfach
+				unlautere Motive, wie Eifersucht, persönlicher Haß <choice><abbr>u. s. w.</abbr><expan>und so weiter</expan></choice> unterge<lb xml:id="p3-l7" break="no"/>schoben worden sind. Dabei tröstet mich indessen einerseits der
+				Gedanke, daß solche Leute<lb xml:id="p3-l8" break="no"/> die Sache eben nicht recht verstehen,
+				anderseits, wie schon gesagt, das Bewußtseyn, meine<lb xml:id="p3-l9" break="no"/> Schuldigkeit
+				gethan zu haben. Ich glaube auch nicht, daß das Volk gerade gegen mich ein<lb xml:id="p3-l10" break="no"/>genommen ist; <date when="1851-10-26">heute</date> wenigstens wurde ich
+				auch als Nationalrath vorgeschlagen <choice><abbr>u.</abbr><expan>und</expan></choice>, da ich<lb xml:id="p3-l11" break="no"/> unter Berufung auf meine Stelle im Ständerathe ablehnte, mit
 				größter Ruhe angehört. </p>
-      <p rend="indent" xml:id="K_0938_p5">
-                <lb xml:id="p3-l12"/>Nun habe ich Dir umständlich über diese Wahlgeschichte referirt
-					<choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <lb xml:id="p3-l13"/> habe nur noch beizufügen, daß, wie sich von selbst versteht, <persName type="person" key="Jenny-Becker Caspar">Jenni</persName> als erster Nationalrath<lb xml:id="p3-l14"/> einmüthig bestätigt wurde. Es wird mich freuen, auch von Dir
-				wieder Berichte zu erhalten.<lb xml:id="p3-l15"/> Im Kanton <placeName type="place" key="Zürich">Zürich</placeName> geht es wohl diesmal mit den Wahlen weit stiller als
+      <p rend="indent" xml:id="K_0938_p5"><lb xml:id="p3-l12"/>Nun habe ich Dir umständlich über diese Wahlgeschichte referirt
+					<choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p3-l13"/> habe nur noch beizufügen, daß, wie sich von selbst versteht, <persName key="Jenny-Becker Caspar">Jenni</persName> als erster Nationalrath<lb xml:id="p3-l14"/> einmüthig bestätigt wurde. Es wird mich freuen, auch von Dir
+				wieder Berichte zu erhalten.<lb xml:id="p3-l15"/> Im Kanton <placeName key="Zürich">Zürich</placeName> geht es wohl diesmal mit den Wahlen weit stiller als
 				bei uns;<lb xml:id="p3-l16"/> nur werden wahrscheinlich, in einigen Wahlkreisen
 				<add>wenigstens</add>, die Stimmen im ersten Skrutinium<lb xml:id="p3-l17"/> sich etwas
 				zersplittern, da man über die Personen nicht überall einig zu seyn scheint.<lb xml:id="p3-l18"/> Immer besser, man dringe den Wählern keine Listen auf, sondern
-				lasse sie selbst han<lb break="no" xml:id="p3-l19"/>deln; müssen sie dann mehrmals zusammenkommen, so sind sie selbst
-				daran schuld. – Bei<lb xml:id="p3-l20"/> Dir persönlich wird es nicht fraglich seyn, daß
-				Du <date when="1851-10-26">heute</date> schon wirst gewählt werden. Em<lb break="no" xml:id="p3-l21"/>pfehle mich bestens <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">
-                    <persName type="person" key="Escher (vom Glas) Heinrich">Deinen verehrten
-						Eltern</persName>
-                </persName> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> sey bestens gegrüßt</p>
-    </div>
-        </body>
-    <back>
+				lasse sie selbst han<lb xml:id="p3-l19" break="no"/>deln; müssen sie dann mehrmals zusammenkommen, so sind sie selbst
+				daran schuld. – Bei<lb xml:id="p3-l20" break="no"/> Dir persönlich wird es nicht fraglich seyn, daß
+				Du <date when="1851-10-26">heute</date> schon wirst gewählt werden. Em<lb xml:id="p3-l21" break="no"/>pfehle mich bestens <persName key="Escher-Zollikofer (von Altenklingen) Lydia"><persName key="Escher (vom Glas) Heinrich">Deinen verehrten
+						Eltern</persName></persName> <choice><abbr>u.</abbr><expan>und</expan></choice> sey bestens gegrüßt</p>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_0938_p6">
-                    <lb xml:id="p3-l22"/>von Deinem</p>
+        <p rend="center" xml:id="K_0938_p6"><lb xml:id="p3-l22"/>von Deinem</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0938_p7">
-                    <lb xml:id="p3-l23"/>J J Blumer.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_0938_p7"><lb xml:id="p3-l23"/>J J Blumer.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

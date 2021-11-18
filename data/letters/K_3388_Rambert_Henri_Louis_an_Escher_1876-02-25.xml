@@ -1,209 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3388" n="207" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Henri Louis Rambert an Alfred Escher, Lausanne, Freitag, Februar 25, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB03_003</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Personelle Angelegenheiten</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Rambert Henri Louis" type="sender">Henri Louis Rambert</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Lausanne</placeName>
-                    <date when="1876-02-25">Freitag, Februar 25, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2007-01-16" who="MW"> transkribiert
-                
-            </change>
-            <change when="2007-01-19" who="MF">provisorisch kommentiert 1
-                
-            </change>
-            <change when="2007-01-24" who="WB">nach XML konvertiert
-                
-            </change>
-            <change when="2007-02-20" who="MF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-04-08" who="MF">kommentiert 3
-                
-            </change>
-            <change when="2007-04-23" who="MF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-04" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-05-14" who="WB">indexiert
-                
-            </change>
-            <change when="2007-05-16" who="MF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-15" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-25" who="MF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-20" who="MF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2008-08-04" who="WB">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-29" who="HA">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-09" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-19" who="BP">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="NS">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-11-20" who="LB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-20" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-20" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <note type="annotation">
-                <p rend="left" xml:id="K_3388_p1">
-                    <lb xml:id="p1-l1"/> <seg type="com">
-                        <note xml:id="K_3388_c1">Stempel oben rechts mit von dritter Hand eingetragener Nummer: <bibl>Gotthardbahn | <date when="1876-03-25">25 <choice>
-                                        <abbr>MAR</abbr>
-                                        <expan>MÄRZ</expan>
-                                    </choice> 1876</date>. | <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 1451</bibl> – Inhaltsangabe oben links von dritter Hand: <bibl>Forderung <persName type="person" key="Favre Louis">Favres</persName> <choice>
-                                    <abbr>betr.</abbr>
-                                    <expan>betreffend</expan>
-                                </choice> Sicherstellung für vollständige Bezahlung der <choice>
-                                    <abbr>v.</abbr>
-                                    <expan>von</expan>
-                                </choice> ihm übernommenen Arbeiten. | I. <choice>
-                                    <abbr>Depart.</abbr>
-                                    <expan>Departement</expan>
-                                </choice> </bibl>
-                        </note>
-                    </seg> <hi rend="underline">Confidentiel</hi><!--Transkriptionsbereinigung-->
-      </p> </note>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3388" type="Brief"><teiHeader><fileDesc><titleStmt><title>Henri Louis Rambert an Alfred Escher, Lausanne, Freitag, 25. Februar 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB03_003</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Personelle Angelegenheiten</term><term>Eisenbahnen Finanzierung</term><term>Gotthardbahnprojekt</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term>Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Rambert Henri Louis" type="addressee">Henri Louis Rambert</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Lausanne</placeName><date when="1876-02-25">25. Februar 1876</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="annotation"><p rend="left" xml:id="K_3388_p1"><lb xml:id="p1-l1"/> <note type="com" xml:id="K_3388_c1">Stempel oben rechts mit von dritter Hand eingetragener Nummer: <orig>Gotthardbahn | <date when="1876-03-25">25 <choice><abbr>MAR</abbr><expan>MÄRZ</expan></choice> 1876</date>. | <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 1451</orig> – Inhaltsangabe oben links von dritter Hand: <orig>Forderung <persName key="Favre Louis">Favres</persName> <choice><abbr>betr.</abbr><expan>betreffend</expan></choice> Sicherstellung für vollständige Bezahlung der <choice><abbr>v.</abbr><expan>von</expan></choice> ihm übernommenen Arbeiten. | I. <choice><abbr>Depart.</abbr><expan>Departement</expan></choice> </orig></note> <hi rend="underline">Confidentiel</hi><!--Transkriptionsbereinigung-->
+      </p> </div>
       <div type="dateline">
-        <p rend="right" xml:id="K_3388_p2">
-                    <lb xml:id="p1-l2"/>
-          <placeName type="place" key="Lausanne">Lausanne</placeName> le <date when="1876-02-25">25 Février<lb xml:id="p1-l3"/>
+        <p rend="right" xml:id="K_3388_p2"><lb xml:id="p1-l2"/>
+          <placeName key="Lausanne">Lausanne</placeName> le <date when="1876-02-25">25 Février<lb xml:id="p1-l3"/>
             1876</date> </p>
       </div>
-      <div type="address">
-        <p rend="indent" xml:id="K_3388_p3">
-                    <lb xml:id="p1-l4"/>Monsieur A. Escher Président de<lb xml:id="p1-l5"/>
-la Direction du St Gothard à <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>.</p>
+      <div type="opener">
+        <p rend="indent" xml:id="K_3388_p3"><lb xml:id="p1-l4"/>Monsieur A. Escher Président de<lb xml:id="p1-l5"/>
+la Direction du St Gothard à <placeName key="Zürich (Stadt)">Zurich</placeName>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_3388_p4">
-                    <lb xml:id="p1-l6"/>Monsieur.</p>
+        <p rend="indent" xml:id="K_3388_p4"><lb xml:id="p1-l6"/>Monsieur.</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_3388_p5">
-                <lb xml:id="p1-l7"/> <seg type="ref">Le rapport de votre Direction <seg type="com">
-                        <note xml:id="K_3388_c2">
-                            <choice>
-                                    <abbr>Vgl.</abbr>
-                                    <expan>Vergleiche</expan>
-                                </choice>
-                            <ref type="lit">Hellwag, 
-            Bericht</ref>.</note>
-                    </seg>
-                    <ref type="sum" target="Rekonstruktion_Gotthardbahn_d1.2">Bericht Hellwag Februar 1876<!--→ Band 1, S. 391–392--></ref>
-                    <ref type="letter" target="K_2712"><!-- → Nr. 202--></ref>
-                </seg> <lb xml:id="p1-l8"/>
-        préoccupe bien vivement <seg type="ref">
-                    <choice>
-                            <abbr>Mr</abbr>
-                            <expan>Monsieur (Herr)</expan>
-                        </choice> <persName type="person" key="Favre Louis">Favre</persName>
-                    <ref type="kbp">→ Louis Favre</ref>
-                </seg> et les<lb xml:id="p1-l9"/>
-        personnes qui s'intéressent à son affaire.<lb xml:id="p1-l10"/>
-                <choice>
-                        <abbr>Mr</abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Favre Louis">Favre</persName> va vous adresser <seg type="com">une lettre<lb xml:id="p1-l11"/>
-officielle<note xml:id="K_3388_c3">
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="third-party-letter">Schreiben Louis Favre an Dir. GB, 26. Februar 1876 (<ref type="lit">SBB Historic VGB_GB_SBBGB03_003</ref><!--_01--> )</ref>.
-					</note>
-                </seg> pour vous <seg type="ref">demander d'être<lb xml:id="p1-l12"/>
+    </front><body>
+      <p rend="indent" xml:id="K_3388_p5"><lb xml:id="p1-l7"/> <rs>Le rapport de votre Direction <note type="com" xml:id="K_3388_c2"><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice><ref type="lit">Hellwag, 
+            Bericht</ref>.</note><ref type="sum" target="Rekonstruktion_Gotthardbahn_d1.2">Bericht Hellwag Februar 1876<!--→ Band 1, S. 391–392--></ref><ref type="letter" target="K_2712"><!-- → Nr. 202--></ref></rs> <lb xml:id="p1-l8"/>
+        préoccupe bien vivement <rs><choice><abbr>Mr</abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Favre Louis">Favre</persName></rs> et les<lb xml:id="p1-l9"/>
+        personnes qui s'intéressent à son affaire.<lb xml:id="p1-l10"/><choice><abbr>Mr</abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Favre Louis">Favre</persName> va vous adresser une lettre<lb xml:id="p1-l11"/>
+officielle<note type="com" xml:id="K_3388_c3"><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="third-party-letter">Schreiben Louis Favre an Dir. GB, 26. Februar 1876 (<ref type="lit">SBB Historic VGB_GB_SBBGB03_003</ref><!--_01--> )</ref>.
+					</note> pour vous <rs>demander d'être<lb xml:id="p1-l12"/>
 garanti contre les chances de l'avenir, ce<lb xml:id="p1-l13"/>
 qui me paraît naturel, et de n'avoir<lb xml:id="p1-l14"/>
-pas à faire des avances dans ce moment-ci.<ref type="sum" target="Rekonstruktion_Gotthardbahn_p24"><!-- → Band 1, S. 402--></ref>
-                </seg> <lb xml:id="p1-l15"/>
+pas à faire des avances dans ce moment-ci.<ref type="sum" target="Rekonstruktion_Gotthardbahn_p24"><!-- → Band 1, S. 402--></ref></rs> <lb xml:id="p1-l15"/>
 Cette demande me paraît devoir entraîner<lb xml:id="p1-l16"/>
 à des négociations difficiles et délicates.<lb xml:id="p1-l17"/>
-Si vous aviez l'occasion de venir à <placeName type="place" key="Bern (Stadt)">Berne</placeName> <lb xml:id="p1-l18"/>
+Si vous aviez l'occasion de venir à <placeName key="Bern (Stadt)">Berne</placeName> <lb xml:id="p1-l18"/>
 prochainement, vous m'obligeriez en<lb xml:id="p1-l19"/>
 me prévenant par lettre ou par dépêche.<lb xml:id="p1-l20"/>
 Je serais heureux de pouvoir m'entretenir<lb xml:id="p1-l21"/>
 un instant avec vous. Au besoin<lb xml:id="p1-l22"/>
-j'irai à <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>, mais je ne serais disponible<lb xml:id="p1-l23"/>
-pour cela qu'à partir de Mercredi matin<lb xml:id="p1-l24"/>
-                <date when="1876-03-01">1<hi rend="sup">er</hi> Mars</date>.</p>
-    </div>
-        </body>
-    <back>
+j'irai à <placeName key="Zürich (Stadt)">Zurich</placeName>, mais je ne serais disponible<lb xml:id="p1-l23"/>
+pour cela qu'à partir de Mercredi matin<lb xml:id="p1-l24"/><date when="1876-03-01">1<hi rend="sup">er</hi> Mars</date>.</p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_3388_p6">
-                    <lb xml:id="p1-l25"/>Recevez, Monsieur, l'expression de ma<lb xml:id="p1-l26"/>
+        <p rend="indent" xml:id="K_3388_p6"><lb xml:id="p1-l25"/>Recevez, Monsieur, l'expression de ma<lb xml:id="p1-l26"/>
 considération respectueuse.</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_3388_p7">
-                    <lb xml:id="p1-l27"/>L. Rambert <choice>
-                        <abbr>av<hi rend="sup">t</hi> </abbr>
-                        <expan>avocat (Anwalt)</expan>
-                    </choice>
-                </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_3388_p7"><lb xml:id="p1-l27"/>L. Rambert <choice><abbr>av<hi rend="sup">t</hi> </abbr><expan>avocat (Anwalt)</expan></choice></p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

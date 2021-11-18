@@ -1,238 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0586" n="85" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Rudolf Bollier an Alfred Escher, Zürich, Montag, Oktober 23, 1848</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#124*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Wahlen</item>
-                        <item>Nationalrat</item>
-                        <item>Krankheiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Bollier Rudolf" type="sender">Rudolf Bollier</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1848-10-23">Montag, Oktober 23, 1848</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-08-03" who="CK">Transkribiert</change>
-            <change when="2009-05-26" who="BK">von Word nach XML konvertiert</change>
-            <change when="2009-08-04" who="BK">provisorisch kommentiert</change>
-            <change when="2010-05-19" who="BK">Transkriptionsverifizierung T. Binder umgesetzt
-</change>
-            <change when="2010-07-29" who="BK">Korrekturen 1 Haberthür übertragen</change>
-            <change when="2010-11-16" who="BK">Korrekturen 2 Haberthür übertragen</change>
-            <change when="2011-06-23" who="DD">e-Edition: Auszeichnung 1 umgesetzt</change>
-            <change when="2011-06-24" who="AH">e-Edition: Verifizierung 1 umgesetzt</change>
-            <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen umgesetzt
-</change>
-            <change when="2011-07-27" who="HA">e-Edition: Auszeichnung 2 umgesetzt
-				</change>
-            <change when="2011-07-29" who="TM">e-Edition: Verifizierung 2 umgesetzt
-				</change>
-            <change when="2015-04-02" who="VP">Transkriptionsverifizierung Seiterle 2 umgesetzt</change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0586" type="Brief"><teiHeader><fileDesc><titleStmt><title>Rudolf Bollier an Alfred Escher, Zürich, Montag, 23. Oktober 1848</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#124*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Wahlen</term><term>Nationalrat</term><term>Krankheiten</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Bollier Rudolf" type="addressee">Rudolf Bollier</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1848-10-23">23. Oktober 1848</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_0586_p1">
-                    <lb xml:id="p1-l1"/>Mein Lieber!</p>
+        <p rend="indent" xml:id="K_0586_p1"><lb xml:id="p1-l1"/>Mein Lieber!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_0586_p2">
-                    <lb xml:id="p1-l2"/>Troz aller Intriguen &amp; schlechter Mittel,<lb xml:id="p1-l3"/>
-die gegen mich &amp; für <seg type="com">
-                        <persName type="person" key="Ziegler Paul Karl Eduard">Ziegler</persName>
-                        <note xml:id="K_0586_c1">
-                            <persName type="person" key="Ziegler Paul Karl Eduard">Paul Karl Eduard Ziegler</persName> (1800–1882), <choice>
-                                <abbr>eidg.</abbr>
-                                <expan>eidgenössisch</expan>
-                            </choice> Oberst, Regierungs- und Grossrat (<placeName type="place" key="Zürich">ZH</placeName>).</note>
-                    </seg> von Conserva<lb break="no" xml:id="p1-l4"/>tiven &amp; <choice>
-                        <abbr>s.g.</abbr>
-                        <expan>sogenannt</expan>
-                    </choice> Liberalen angewendet wurden,<lb xml:id="p1-l5"/>
-bin ich nun doch aus der Wahlurne <seg type="com">her<lb break="no" xml:id="p1-l6"/>vorgegang<supplied>en</supplied>.<note xml:id="K_0586_c2">Im zweiten Wahlgang vom <date when="1848-10-22">22. Oktober 1848</date> kandidierten Bollier und <persName type="person" key="Ziegler Paul Karl Eduard">Ziegler</persName> im selben Wahlkreis für einen Sitz im Nationalrat. Bollier wurde an diesem Tag zusammen mit <persName type="person" key="Hürlimann-Zürcher Hans Heinrich">Hans Heinrich Hürlimann</persName> (1806–1875) gewählt, während <persName type="person" key="Ziegler Paul Karl Eduard">Ziegler</persName> erst im vierten Wahlgang vom <date when="1848-11-04">4. November 1848</date> in einem anderen Wahlkreis den Einzug in den Nationalrat schaffte. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 9–10.</note>
-                    </seg> Für <seg type="ref">
-                        <persName type="person" key="Ziegler Paul Karl Eduard">Ziegler</persName>
-                        <ref type="sum" target="Bundesrevision_p29"><!--→ S. 53-54--></ref>
-                    </seg> wurde das Möglichste<lb xml:id="p1-l7"/>
-gethan &amp; er brachte es doch ungeachtet seiner<lb xml:id="p1-l8"/>
-Popularität &amp; meiner Unpopularität nicht<lb xml:id="p1-l9"/>
-viel über 800 <seg type="com">Stimmen.<note xml:id="K_0586_c3">
-                            <persName type="person" key="Ziegler Paul Karl Eduard">Ziegler</persName> erhielt 884 Stimmen (32,7%), während Bollier mit 1513 Stimmen (56%) gewählt wurde. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 9.</note>
-                    </seg> In <placeName type="place" key="Stäfa">Stäfa</placeName> eiferte<lb xml:id="p1-l10"/>
-Präsident <seg type="com">
-                        <persName type="person" key="Mohr Jakob">Mohr</persName>
-                        <note xml:id="K_0586_c4">
-                            <persName type="person" key="Mohr Jakob">Jakob Mohr</persName> (Lebensdaten nicht ermittelt), alt Gemeinderatspräsident von <placeName type="place" key="Stäfa">Stäfa</placeName>.</note>
-                    </seg> in <choice>
-                        <abbr>s<hi rend="sup">er</hi> </abbr>
-                        <expan>seiner</expan>
-                    </choice> Eröffn<supplied>un</supplied>gsrede für<lb xml:id="p1-l11"/>
-                    <persName type="person" key="Ziegler Paul Karl Eduard">Ziegler</persName> &amp; empfahl ihn aufs Eindringlichste.<lb xml:id="p1-l12"/>
-Dort &amp; in mehreren andern Gemeinden <lb xml:id="p1-l13"/>
-wurd<supplied>en</supplied>
-                    <del>«E</del> am <date when="1848-10-21">Samstag</date> Abend &amp; <date when="1848-10-22">Sontag</date>
-                    <lb xml:id="p1-l14"/>
-Vormittag «<hi rend="underline">Ersatz</hi>-Wahllisten» von Haus<lb xml:id="p1-l15"/>
-zu Haus getrag<supplied>en</supplied> &amp; dabei den Leuten<lb xml:id="p1-l16"/>
-gesagt: ich habe erklärt, d<supplied>a</supplied>ß ich eine<lb xml:id="p1-l17"/>
-Wahl nicht annehmen werde &amp; darum<lb xml:id="p1-l18"/>
-werde <hi rend="underline">
-                        <persName type="person" key="Ziegler Paul Karl Eduard">Ziegler</persName>
-                    </hi> an meiner Stelle vor<lb break="no" xml:id="p1-l19"/>
-        geschlag<supplied>en</supplied>: es sei dieß in einer zweiten <lb xml:id="p1-l20"/>
-Vorversammlung von Liberalen so<lb xml:id="p1-l21"/>
-festgesetzt word<supplied>en</supplied>. In <placeName type="place" key="Wetzikon (ZH)">Wetz.</placeName> kam<lb xml:id="p1-l22"/>
-ganz das selbe Spiel. Solche Wahl<lb break="no" xml:id="p1-l23"/>listen
- wurd<supplied>en</supplied> dort an die Kirchthüren<lb xml:id="p1-l24"/>
-geheftet. – Daß ich nun doch gewählt<lb xml:id="p1-l25"/>
-word<supplied>en</supplied> bin, freut mich, wenn ich auch<lb xml:id="p1-l26"/>
-gewiß keinen besondern Werth auf<lb xml:id="p1-l27"/>
-die Wahl setze. Es hätte allerdings<lb xml:id="p1-l28"/>
-an meine Stelle ein Tüchtigerer ge<lb break="no" xml:id="p1-l29"/>wählt 
-werd<supplied>en</supplied> können. – Deine &amp; <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-meine Wahl sind <del>allerdings</del> für gewisse Leute,<lb xml:id="p2-l2"/>&amp; auch für die «<choice>
-                        <abbr>Eidg-Ztg</abbr>
-                        <expan>Eidgenössische- / Eidgenößische-Zeitung</expan>
-                    </choice>» harte Nussen,<lb xml:id="p2-l3"/>
-an denen sie sich die Zähne ausbeißen<lb xml:id="p2-l4"/>
-mögen. Das dirigirende <hi>Comité</hi>, das<lb xml:id="p2-l5"/>
-				Escher-Bolliersche Regiment (wie sie sich<lb xml:id="p2-l6"/>
-jetzt ausdrück<supplied>en</supplied>) hat scheints doch noch<lb xml:id="p2-l7"/>
-Wurzeln im <seg type="com">Volk!<note xml:id="K_0586_c5">Sachverhalt nicht ermittelt.</note>
-                    </seg> Andere «Umsichtige»<lb xml:id="p2-l8"/>
-dürfen sich dieses auch merken. –<lb xml:id="p2-l9"/>
-Dageg<supplied>en</supplied> zeigt sich schlagend, daß <seg type="com">
-                        <persName type="person" key="Homberger Heinrich">Homberger</persName>
-                        <note xml:id="K_0586_c6">
-                            <persName type="person" key="Homberger Heinrich">Heinrich Homberger</persName> (1806–1851), Kantonsprokurator (<placeName type="place" key="Zürich">ZH</placeName>). – <persName type="person" key="Homberger Heinrich">Homberger</persName> wurde im dritten Wahlgang von <date when="1848-10-29">29. Oktober 1848</date> in den Nationalrat gewählt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 9.</note>
-                    </seg>
-                    <lb xml:id="p2-l10"/>
-nicht beliebt ist &amp; die Hartnäckigkeit ge<lb break="no" xml:id="p2-l11"/>wisser 
-Leute, mit der sie auf dem Vorschlage<lb xml:id="p2-l12"/>
-beharrten, dürfte schlechte Früchte tragen.<lb xml:id="p2-l13"/>
-So schwer es fallen mag, muß nun doch<lb xml:id="p2-l14"/>
-das Möglichste für seine Erwählung ge<lb break="no" xml:id="p2-l15"/>than 
-werd<supplied>en</supplied>, um die Schmach vom<lb xml:id="p2-l16"/>
-                    <choice>
-                        <abbr>K</abbr>
-                        <expan>Kanton</expan>
-                    </choice>
-                    <placeName type="place" key="Zürich">Zürich</placeName> abzuwend<supplied>en</supplied>, daß er nicht<lb xml:id="p2-l17"/>
-den groß<supplied>en</supplied> Apostaten <seg type="com">
-                        <persName type="person" key="Gujer Heinrich">Gujer</persName>
-                        <note xml:id="K_0586_c7">
-                            <persName type="person" key="Gujer Heinrich">Heinrich Gujer</persName> (1801–1868), Grossrat (<placeName type="place" key="Zürich">ZH</placeName>) und Statthalter des Bezirks <placeName type="place" key="Pfäffikon (ZH)">Pfäffikon (ZH)</placeName>. – Gujer trat bei den Nationalratswahlen in <placeName type="place" key="Zürich">Zürich</placeName> an, wurde jedoch nicht gewählt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 9.</note>
-                    </seg> liefert. –</p>
-      <p rend="indent" xml:id="K_0586_p3">
-                    <lb xml:id="p2-l18"/>In hier heißt es, <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> <seg type="com">
-                        <persName type="person" key="Benz Rudolf">Benz</persName>
-                        <note xml:id="K_0586_c8">
-                            <persName type="person" key="Benz Rudolf">Rudolf Benz</persName> (1810–1872), Regierungsrat und Oberrichter (<placeName type="place" key="Zürich">ZH</placeName>). – <persName type="person" key="Benz Rudolf">Benz</persName> hielt sich seit Anfang Oktober mit seinem Bataillon zur Unterstützung der eidgenössischen Kommissäre im Kanton <placeName type="place" key="Tessin">Tessin</placeName> auf. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Weinmann, Risorgimento II</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 177; <ref type="letter" target="K_0574"><!--→ Nr. 83--></ref>.</note>
-                    </seg> sei an einem<lb xml:id="p2-l19"/> <seg type="com">Schlagfluße<note xml:id="K_0586_c9">Schlagfluss: Schlaganfall.</note>
-                    </seg> vom Pferde gestürzt &amp; <lb xml:id="p2-l20"/>
-liege nun gefährlich <seg type="com">krank.<note xml:id="K_0586_c10">Sachverhalt nicht ermittelt.</note>
-                    </seg> Ist dem so?<lb xml:id="p2-l21"/>
+    </front><body>
+      <p rend="indent" xml:id="K_0586_p2"><lb xml:id="p1-l2"/>Troz aller Intriguen &amp; schlechter Mittel,<lb xml:id="p1-l3"/>
+die gegen mich &amp; für <persName key="Ziegler Paul Karl Eduard">Ziegler</persName><note type="com" xml:id="K_0586_c1"><persName key="Ziegler Paul Karl Eduard">Paul Karl Eduard Ziegler</persName> (1800–1882), <choice><abbr>eidg.</abbr><expan>eidgenössisch</expan></choice> Oberst, Regierungs- und Grossrat (<placeName key="Zürich">ZH</placeName>).</note> von Conserva<lb xml:id="p1-l4" break="no"/>tiven &amp; <choice><abbr>s.g.</abbr><expan>sogenannt</expan></choice> Liberalen angewendet wurden,<lb xml:id="p1-l5" break="no"/>
+bin ich nun doch aus der Wahlurne her<lb xml:id="p1-l6" break="no"/>vorgegang<add>en</add>.<note type="com" xml:id="K_0586_c2">Im zweiten Wahlgang vom <date when="1848-10-22">22. Oktober 1848</date> kandidierten Bollier und <persName key="Ziegler Paul Karl Eduard">Ziegler</persName> im selben Wahlkreis für einen Sitz im Nationalrat. Bollier wurde an diesem Tag zusammen mit <persName key="Hürlimann-Zürcher Hans Heinrich">Hans Heinrich Hürlimann</persName> (1806–1875) gewählt, während <persName key="Ziegler Paul Karl Eduard">Ziegler</persName> erst im vierten Wahlgang vom <date when="1848-11-04">4. November 1848</date> in einem anderen Wahlkreis den Einzug in den Nationalrat schaffte. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 9–10.</note> Für <rs><persName key="Ziegler Paul Karl Eduard">Ziegler</persName><ref type="sum" target="Bundesrevision_p29"><!--→ S. 53-54--></ref></rs> wurde das Möglichste<lb xml:id="p1-l7" break="no"/>
+gethan &amp; er brachte es doch ungeachtet seiner<lb xml:id="p1-l8" break="no"/>
+Popularität &amp; meiner Unpopularität nicht<lb xml:id="p1-l9" break="no"/>
+viel über 800 Stimmen.<note type="com" xml:id="K_0586_c3"><persName key="Ziegler Paul Karl Eduard">Ziegler</persName> erhielt 884 Stimmen (32,7%), während Bollier mit 1513 Stimmen (56%) gewählt wurde. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 9.</note> In <placeName key="Stäfa">Stäfa</placeName> eiferte<lb xml:id="p1-l10" break="no"/>
+Präsident <persName key="Mohr Jakob">Mohr</persName><note type="com" xml:id="K_0586_c4"><persName key="Mohr Jakob">Jakob Mohr</persName> (Lebensdaten nicht ermittelt), alt Gemeinderatspräsident von <placeName key="Stäfa">Stäfa</placeName>.</note> in <choice><abbr>s<hi rend="sup">er</hi> </abbr><expan>seiner</expan></choice> Eröffn<add>un</add>gsrede für<lb xml:id="p1-l11" break="no"/><persName key="Ziegler Paul Karl Eduard">Ziegler</persName> &amp; empfahl ihn aufs Eindringlichste.<lb xml:id="p1-l12" break="no"/>
+Dort &amp; in mehreren andern Gemeinden <lb xml:id="p1-l13" break="no"/>
+wurd<add>en</add> <del>«E</del> am <date when="1848-10-21">Samstag</date> Abend &amp; <date when="1848-10-22">Sontag</date> <lb xml:id="p1-l14" break="no"/>
+Vormittag «<hi rend="underline">Ersatz</hi>-Wahllisten» von Haus<lb xml:id="p1-l15" break="no"/>
+zu Haus getrag<add>en</add> &amp; dabei den Leuten<lb xml:id="p1-l16" break="no"/>
+gesagt: ich habe erklärt, d<add>a</add>ß ich eine<lb xml:id="p1-l17" break="no"/>
+Wahl nicht annehmen werde &amp; darum<lb xml:id="p1-l18" break="no"/>
+werde <hi rend="underline"><persName key="Ziegler Paul Karl Eduard">Ziegler</persName></hi> an meiner Stelle vor<lb xml:id="p1-l19" break="no"/>
+        geschlag<add>en</add>: es sei dieß in einer zweiten <lb xml:id="p1-l20" break="no"/>
+Vorversammlung von Liberalen so<lb xml:id="p1-l21" break="no"/>
+festgesetzt word<add>en</add>. In <placeName key="Wetzikon (ZH)">Wetz.</placeName> kam<lb xml:id="p1-l22" break="no"/>
+ganz das selbe Spiel. Solche Wahl<lb xml:id="p1-l23" break="no"/>listen
+ wurd<add>en</add> dort an die Kirchthüren<lb xml:id="p1-l24" break="no"/>
+geheftet. – Daß ich nun doch gewählt<lb xml:id="p1-l25" break="no"/>
+word<add>en</add> bin, freut mich, wenn ich auch<lb xml:id="p1-l26" break="no"/>
+gewiß keinen besondern Werth auf<lb xml:id="p1-l27" break="no"/>
+die Wahl setze. Es hätte allerdings<lb xml:id="p1-l28" break="no"/>
+an meine Stelle ein Tüchtigerer ge<lb xml:id="p1-l29" break="no"/>wählt 
+werd<add>en</add> können. – Deine &amp; <pb n="2"/><lb xml:id="p2-l1" break="no"/>
+meine Wahl sind <del>allerdings</del> für gewisse Leute,<lb xml:id="p2-l2" break="no"/>&amp; auch für die «<choice><abbr>Eidg-Ztg</abbr><expan>Eidgenössische- / Eidgenößische-Zeitung</expan></choice>» harte Nussen,<lb xml:id="p2-l3" break="no"/>
+an denen sie sich die Zähne ausbeißen<lb xml:id="p2-l4" break="no"/>
+mögen. Das dirigirende <hi>Comité</hi>, das<lb xml:id="p2-l5" break="no"/>
+				Escher-Bolliersche Regiment (wie sie sich<lb xml:id="p2-l6" break="no"/>
+jetzt ausdrück<add>en</add>) hat scheints doch noch<lb xml:id="p2-l7" break="no"/>
+Wurzeln im Volk!<note type="com" xml:id="K_0586_c5">Sachverhalt nicht ermittelt.</note> Andere «Umsichtige»<lb xml:id="p2-l8" break="no"/>
+dürfen sich dieses auch merken. –<lb xml:id="p2-l9" break="no"/>
+Dageg<add>en</add> zeigt sich schlagend, daß <persName key="Homberger Heinrich">Homberger</persName><note type="com" xml:id="K_0586_c6"><persName key="Homberger Heinrich">Heinrich Homberger</persName> (1806–1851), Kantonsprokurator (<placeName key="Zürich">ZH</placeName>). – <persName key="Homberger Heinrich">Homberger</persName> wurde im dritten Wahlgang von <date when="1848-10-29">29. Oktober 1848</date> in den Nationalrat gewählt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 9.</note> <lb xml:id="p2-l10" break="no"/>
+nicht beliebt ist &amp; die Hartnäckigkeit ge<lb xml:id="p2-l11" break="no"/>wisser 
+Leute, mit der sie auf dem Vorschlage<lb xml:id="p2-l12" break="no"/>
+beharrten, dürfte schlechte Früchte tragen.<lb xml:id="p2-l13" break="no"/>
+So schwer es fallen mag, muß nun doch<lb xml:id="p2-l14" break="no"/>
+das Möglichste für seine Erwählung ge<lb xml:id="p2-l15" break="no"/>than 
+werd<add>en</add>, um die Schmach vom<lb xml:id="p2-l16" break="no"/><choice><abbr>K</abbr><expan>Kanton</expan></choice> <placeName key="Zürich">Zürich</placeName> abzuwend<add>en</add>, daß er nicht<lb xml:id="p2-l17" break="no"/>
+den groß<add>en</add> Apostaten <persName key="Gujer Heinrich">Gujer</persName><note type="com" xml:id="K_0586_c7"><persName key="Gujer Heinrich">Heinrich Gujer</persName> (1801–1868), Grossrat (<placeName key="Zürich">ZH</placeName>) und Statthalter des Bezirks <placeName key="Pfäffikon (ZH)">Pfäffikon (ZH)</placeName>. – Gujer trat bei den Nationalratswahlen in <placeName key="Zürich">Zürich</placeName> an, wurde jedoch nicht gewählt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Gruner, Nationalratswahlen</ref> III, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 9.</note> liefert. –</p>
+      <p rend="indent" xml:id="K_0586_p3"><lb xml:id="p2-l18"/>In hier heißt es, <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <persName key="Benz Rudolf">Benz</persName><note type="com" xml:id="K_0586_c8"><persName key="Benz Rudolf">Rudolf Benz</persName> (1810–1872), Regierungsrat und Oberrichter (<placeName key="Zürich">ZH</placeName>). – <persName key="Benz Rudolf">Benz</persName> hielt sich seit Anfang Oktober mit seinem Bataillon zur Unterstützung der eidgenössischen Kommissäre im Kanton <placeName key="Tessin">Tessin</placeName> auf. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Weinmann, Risorgimento II</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 177; <ref type="letter" target="K_0574"><!--→ Nr. 83--></ref>.</note> sei an einem<lb xml:id="p2-l19"/> Schlagfluße<note type="com" xml:id="K_0586_c9">Schlagfluss: Schlaganfall.</note> vom Pferde gestürzt &amp; <lb xml:id="p2-l20"/>
+liege nun gefährlich krank.<note type="com" xml:id="K_0586_c10">Sachverhalt nicht ermittelt.</note> Ist dem so?<lb xml:id="p2-l21"/>
 Ich ersuche Dich dringend mir hierüber<lb xml:id="p2-l22"/>
-umgehend zu schreiben, da seine <seg type="com">Mutter<note xml:id="K_0586_c11">
-                            <persName type="person" key="Benz Dorothea">Dorothea Benz</persName> (<choice>
-                                <abbr>geb.</abbr>
-                                <expan>geboren</expan>
-                            </choice> 1783), Näherin.</note>
-                    </seg> <lb xml:id="p2-l23"/>
+umgehend zu schreiben, da seine Mutter<note type="com" xml:id="K_0586_c11"><persName key="Benz Dorothea">Dorothea Benz</persName> (<choice><abbr>geb.</abbr><expan>geboren</expan></choice> 1783), Näherin.</note> <lb xml:id="p2-l23"/>
 fast verzweifelt &amp; mich bat, Dich doch<lb xml:id="p2-l24"/>
-um Nachricht zu bitten! Wäre es wirkl<supplied>ich</supplied> <lb xml:id="p2-l25"/>
-gefährlich, so würde sie nach dem <placeName type="place" key="Tessin">Tessin</placeName> <lb xml:id="p2-l26"/>
+um Nachricht zu bitten! Wäre es wirkl<add>ich</add> <lb xml:id="p2-l25"/>
+gefährlich, so würde sie nach dem <placeName key="Tessin">Tessin</placeName> <lb xml:id="p2-l26"/>
 kommen. Sie wollte jetzt schon abreisen,<lb xml:id="p2-l27"/>
-allein ich suchte sie davon abzuhalten!<pb n="3"/>
-                    <lb xml:id="p3-l1"/>
+allein ich suchte sie davon abzuhalten!<pb n="3"/><lb xml:id="p3-l1"/>
 Wie geht es Dir? Geht Euere Mission noch<lb xml:id="p3-l2"/>
-nicht bald zu Ende? Hoffentl<supplied>ich</supplied> doch vor<lb xml:id="p3-l3"/>
-Eröffn<supplied>un</supplied>g des Nat- &amp; Ständerathes.</p>
-    </div>
-        </body>
-    <back>
+nicht bald zu Ende? Hoffentl<add>ich</add> doch vor<lb xml:id="p3-l3"/>
+Eröffn<add>un</add>g des Nat- &amp; Ständerathes.</p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_0586_p4">
-                    <lb xml:id="p3-l4"/>Empfange die herzlichsten Grüße
+        <p rend="indent" xml:id="K_0586_p4"><lb xml:id="p3-l4"/>Empfange die herzlichsten Grüße
 <lb xml:id="p3-l5"/>
 von Deinem treuen Freunde</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0586_p5">
-                    <lb xml:id="p3-l6"/>B</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_0586_p5"><lb xml:id="p3-l6"/>B</p>
       </div>
       <div type="dateline">
-        <p rend="indent" xml:id="K_0586_p6">
-                    <lb xml:id="p3-l7"/>
-          <placeName type="place" key="Zürich (Stadt)">Z<supplied>üri</supplied>ch</placeName> d<supplied>en</supplied> <date when="1848-10-23">23 <choice>
-                            <abbr>
-                                <hi>Oct</hi>
-                            </abbr>
-                            <expan>October</expan>
-                        </choice> 48</date>.</p>
+        <p rend="indent" xml:id="K_0586_p6"><lb xml:id="p3-l7"/>
+          <placeName key="Zürich (Stadt)">Z<add>üri</add>ch</placeName> d<add>en</add> <date when="1848-10-23">23 <choice><abbr><hi>Oct</hi></abbr><expan>October</expan></choice> 48</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

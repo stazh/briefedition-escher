@@ -1,120 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3181" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Carl Feer-Herzog, Zürich, Dienstag, Juli 9, 1878</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Abzug">
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#186*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Demissionen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Feer-Herzog Carl" type="addressee">Carl Feer-Herzog</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1878-07-09">Dienstag, Juli 9, 1878</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-01-28" who="MW">Transkription
-                
-            </change>
-            <change when="2013-08-27" who="LH">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="OD">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="NS">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="XR">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="CR">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-21" who="LH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="SWK">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-04-23" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-05-20" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3181" type="Brief" subtype="Abzug"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Carl Feer-Herzog, Zürich, Dienstag, 09. Juli 1878</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#186*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Demissionen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Feer-Herzog Carl" type="sender">Carl Feer-Herzog</persName><placeName>Zürich</placeName><date when="1878-07-09">09. Juli 1878</date></correspAction><correspAction type="received"><placeName>Aarau</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
       </div>
       <div type="dateline">
-        <p rend="right" xml:id="K_3181_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">
-                        <hi>Zürich</hi>
-                    </placeName>, den <date when="1878-07-09">9. <hi>Juli</hi> 1878</date>.</p>
+        <p rend="right" xml:id="K_3181_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)"><hi>Zürich</hi></placeName>, den <date when="1878-07-09">9. <hi>Juli</hi> 1878</date>.</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_3181_p2">
-                    <lb xml:id="p1-l2"/>Hochgeachteter Herr Präsident!</p>
+        <p rend="center" xml:id="K_3181_p2"><lb xml:id="p1-l2"/>Hochgeachteter Herr Präsident!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_3181_p3">
-                <lb xml:id="p1-l3"/>Es wurde mir mitgetheilt, daß mein <seg type="ref">Entlassungsgesuch<ref type="letter" target="K_3147"/>
-                </seg> <lb xml:id="p1-l4"/>dahin verstanden worden sei, als involvire es nicht auch die Bitte um
+    </front><body>
+      <p rend="indent" xml:id="K_3181_p3"><lb xml:id="p1-l3"/>Es wurde mir mitgetheilt, daß mein <rs>Entlassungsgesuch<ref type="letter" target="K_3147"/></rs> <lb xml:id="p1-l4"/>dahin verstanden worden sei, als involvire es nicht auch die Bitte um
             <lb xml:id="p1-l5"/>Enthebung von der Stelle eines Mitgliedes des Verwaltungsrathes. Ich beeile
-            <lb xml:id="p1-l6"/>mich deshalb, Ihnen zur Kenntniß zu bringen, daß ich auch aus dem Ver<lb break="no" xml:id="p1-l7"/>waltungsrathe auszutreten wünsche.
+            <lb xml:id="p1-l6"/>mich deshalb, Ihnen zur Kenntniß zu bringen, daß ich auch aus dem Ver<lb xml:id="p1-l7" break="no"/>waltungsrathe auszutreten wünsche.
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_3181_p4">
-                    <lb xml:id="p1-l8"/>In ausgezeichneter Hochachtung</p>
-        <p rend="right" xml:id="K_3181_p5">
-                    <lb xml:id="p1-l9"/>Ihr ergebene <seg type="com">
-                        <note xml:id="K_3181_c1">Brieftext von dritter Hand ohne Unterschrift.</note>
-                    </seg> <note type="transcript">sic!</note> </p>
+        <p rend="center" xml:id="K_3181_p4"><lb xml:id="p1-l8"/>In ausgezeichneter Hochachtung</p>
+        <p rend="right" xml:id="K_3181_p5"><lb xml:id="p1-l9"/>Ihr ergebene <note type="com" xml:id="K_3181_c1">Brieftext von dritter Hand ohne Unterschrift.</note> <note type="transcript">sic!</note> </p>
       </div>
-      <div type="address">
-                <p rend="left" xml:id="K_3181_p6">
-                    <lb xml:id="p1-l10"/>Herrn Nationalrath <hi>Feer-Herzog</hi> <lb xml:id="p1-l11"/>Präsidenten des Verwaltungsrathes der
+      <div type="opener"><p rend="left" xml:id="K_3181_p6"><lb xml:id="p1-l10"/>Herrn Nationalrath <hi>Feer-Herzog</hi> <lb xml:id="p1-l11"/>Präsidenten des Verwaltungsrathes der
         <lb xml:id="p1-l12"/>Gotthardbahn
       </p>
-      <p rend="indent" xml:id="K_3181_p7">
-                    <lb xml:id="p1-l13"/>
+      <p rend="indent" xml:id="K_3181_p7"><lb xml:id="p1-l13"/>
         <hi>
           <hi rend="underline">
-            <placeName type="place" key="Aarau">Aarau</placeName>.</hi>
-        </hi>  </p>
-            </div>
-    </back>
-  </text>
-</TEI>
+            <placeName key="Aarau">Aarau</placeName>.</hi>
+        </hi>  </p></div>
+    </back></text></TEI>

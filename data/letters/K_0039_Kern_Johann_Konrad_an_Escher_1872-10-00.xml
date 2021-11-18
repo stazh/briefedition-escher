@@ -1,302 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0039" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Konrad Kern an Alfred Escher, s.l., [10] [1872]</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#310*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Absagebriefe (diverse)</item>
-                        <item>Krankheiten</item>
-                        <item>Freundschaften</item>
-                        <item>Schweizerische Nationalbahn (SNB)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Kern Johann Konrad" type="sender">Johann Konrad Kern</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>s.l.</placeName>
-                    <date when="1872-10">[10] [1872]</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-06-07" who="NP">Migration nach XML
-                
-            </change>
-            <change when="2013-06-10" who="CH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-08" who="RO">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-12" who="DG">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-07-16" who="CF">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2013-07-24" who="MB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-08-14" who="DG">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2013-08-22" who="KB">Übertragung Transkriptionsverfizierung Seiterle überprüft
-                
-            </change>
-            <change when="2013-09-25" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0039" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Konrad Kern an Alfred Escher, s.l., [Oktober 1872]</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#310*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Absagebriefe (diverse)</term><term>Krankheiten</term><term>Freundschaften</term><term>Schweizerische Nationalbahn (SNB)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Kern Johann Konrad" type="addressee">Johann Konrad Kern</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><date when="1872-10-01">[Oktober 1872]</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_0039_p1">
-                    <seg type="com">
-                        <note type="addendum" xml:id="K_0039_c0">Datierung gemäss Briefkontext.</note>
-                    </seg>
-                    <lb xml:id="p1-l1"/>Mein lieber Freund.</p>
+        <p rend="indent" xml:id="K_0039_p1"><note type="com" xml:id="K_0039_c0">Datierung gemäss Briefkontext.</note><lb xml:id="p1-l1"/>Mein lieber Freund.</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_0039_p2">
-                <lb xml:id="p1-l2"/>Herzlicher<note type="transcript">sic!</note> Dank für deine
+    </front><body>
+      <p rend="left" xml:id="K_0039_p2"><lb xml:id="p1-l2"/>Herzlicher<note type="transcript">sic!</note> Dank für deine
         <lb xml:id="p1-l3"/>so freundliche Einladung
         <lb xml:id="p1-l4"/>die ich so eben erhalte
         <lb xml:id="p1-l5"/>für nächsten Freitag. –</p>
-      <p rend="left" xml:id="K_0039_p3">
-                <lb xml:id="p1-l6"/>Wäre ich ganz wohl geblieben
-        <lb xml:id="p1-l7"/>seit <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>, so wäre ich 
+      <p rend="left" xml:id="K_0039_p3"><lb xml:id="p1-l6"/>Wäre ich ganz wohl geblieben
+        <lb xml:id="p1-l7"/>seit <placeName key="Zürich (Stadt)">Zürich</placeName>, so wäre ich 
         <lb xml:id="p1-l8"/>allerdings in der zweiten
-        <lb xml:id="p1-l9"/>
-                <add>Hälfte dieser</add> Woche in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> eingetroffen
-        <lb xml:id="p1-l10"/>
-                <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> hätte mit großer
+        <lb xml:id="p1-l9"/><add>Hälfte dieser</add> Woche in <placeName key="Zürich (Stadt)">Zürich</placeName> eingetroffen
+        <lb xml:id="p1-l10"/><choice><abbr>u.</abbr><expan>und</expan></choice> hätte mit großer
         <lb xml:id="p1-l11"/>Freude diese Einladung
         <lb xml:id="p1-l12"/>angenommen ein Paar Stunden
         <lb xml:id="p1-l13"/>mit Dir, einigen gemeinsamen
         <lb xml:id="p1-l14"/>Freunden darunter unser.
-        <lb xml:id="p1-l15"/>wakere<note type="transcript">sic!</note> <persName type="person" key="Welti Emil">Bundespresidenten<note type="transcript">sic!</note>
-                </persName> <lb xml:id="p1-l16"/>zuzubringen. – 
-        <pb n="2"/>
-                <lb xml:id="p2-l1"/>Leider machen es mir aber 
-        <lb xml:id="p2-l2"/>Gesundheitsrüksichten<note type="transcript">sic!</note> <lb xml:id="p2-l3"/>
-                <hi rend="underline">durchaus unmöglich</hi>. Ich 
+        <lb xml:id="p1-l15"/>wakere<note type="transcript">sic!</note> <persName key="Welti Emil">Bundespresidenten<note type="transcript">sic!</note></persName> <lb xml:id="p1-l16"/>zuzubringen. – 
+        <pb n="2"/><lb xml:id="p2-l1"/>Leider machen es mir aber 
+        <lb xml:id="p2-l2"/>Gesundheitsrüksichten<note type="transcript">sic!</note> <lb xml:id="p2-l3"/><hi rend="underline">durchaus unmöglich</hi>. Ich 
         <lb xml:id="p2-l4"/>habe mir nämlich auf dem 
-            <lb xml:id="p2-l5"/>Dampfschiff zwischen <placeName type="place" key="Konstanz (D)">Constanz</placeName> <lb xml:id="p2-l6"/>&amp; <placeName type="place" key="Berlingen">
-                    <hi>Berlingen</hi>
-                </placeName> bei starkem
-        <lb xml:id="p2-l7"/>
-                <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> rauhem Wind einen 
+            <lb xml:id="p2-l5"/>Dampfschiff zwischen <placeName key="Konstanz (D)">Constanz</placeName> <lb xml:id="p2-l6"/>&amp; <placeName key="Berlingen"><hi>Berlingen</hi></placeName> bei starkem
+        <lb xml:id="p2-l7"/><choice><abbr>u.</abbr><expan>und</expan></choice> rauhem Wind einen 
         <lb xml:id="p2-l8"/>Katarrh (hartnäkiger<note type="transcript">sic!</note> <lb xml:id="p2-l9"/>Husten mit etwas Fieber)
         <lb xml:id="p2-l10"/>zugezogen, der mich nöthigte 
         <lb xml:id="p2-l11"/>hier statt 5 bereits 12 Tage
         <lb xml:id="p2-l12"/>zu verbleiben. Vor zwei 
-        <lb xml:id="p2-l13"/>
-                <choice>
-                        <abbr>od.</abbr>
-                        <expan>oder</expan>
-                    </choice> 3 Tagen wird mir der
+        <lb xml:id="p2-l13"/><choice><abbr>od.</abbr><expan>oder</expan></choice> 3 Tagen wird mir der
         <lb xml:id="p2-l14"/>Arzt nicht gestatten nach 
-        <pb n="3"/>
-                <lb xml:id="p3-l1"/>
-                <placeName type="place" key="Bachtobel (Märstetten)">
-                    <hi>Bachtobel</hi>
-                </placeName> zu fahren wo ich
-            <lb xml:id="p3-l2"/>wie in <placeName type="place" key="Frauenfeld">Frauenfeld</placeName> nothwendig
+        <pb n="3"/><lb xml:id="p3-l1"/><placeName key="Bachtobel (Märstetten)"><hi>Bachtobel</hi></placeName> zu fahren wo ich
+            <lb xml:id="p3-l2"/>wie in <placeName key="Frauenfeld">Frauenfeld</placeName> nothwendig
         <lb xml:id="p3-l3"/>wieder einige Tage verbleiben 
         <lb xml:id="p3-l4"/>muß. Schone ich mir<note type="transcript">sic!</note> nicht
-        <lb xml:id="p3-l5"/>so giebt<note type="transcript">sic!</note> es einen ver<lb break="no" xml:id="p3-l6"/>schleppten Husten mit 
-        <lb xml:id="p3-l7"/>dem ich dann vielleicht lange
-        <lb xml:id="p3-l8"/>zu thun hätte. Ich muß 
-        <lb xml:id="p3-l9"/>also nothwendig meine
-        <lb xml:id="p3-l10"/>Abreise hinaus schieben
-        <lb xml:id="p3-l11"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> werde kaum vor dem
-            <lb xml:id="p3-l12"/>
-                    <date when="1869-10-18">18ten</date>
-                    <add>
-                    <choice>
-                            <abbr>od.</abbr>
-                            <expan>oder</expan>
-                        </choice> <date when="1872-10-19">19 <choice>
-                                <abbr>Octob</abbr>
-                                <expan>October</expan>
-                            </choice>
-                    </date> </add>
-                    <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> nach <placeName type="place" key="Paris (F)">
-                    <hi>Paris</hi>
-                </placeName>
-                    <lb xml:id="p3-l13"/>reisen können – So lange ich 
-        <lb xml:id="p3-l14"/>nicht wohl bin <hi rend="underline">kann</hi>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> will
-        <lb xml:id="p3-l15"/>ich durchaus nichts ver<lb break="no" xml:id="p3-l16"/>sprechen. Geht es mir 
-        <lb xml:id="p3-l17"/>gut so hoffe ich in der
-        <lb xml:id="p3-l18"/>zweiten <add>Hälfte der</add> Woche welche
-        <pb n="4"/>
-                    <lb xml:id="p4-l1"/>mit dem <date when="1872-10-14">14 <choice>
-                            <abbr>
-                        <hi>Octob</hi>
-                    </abbr>
-                            <expan>October</expan>
-                        </choice>
-                </date> beginnt in 
-        <lb xml:id="p4-l2"/>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-                    <add>zu</add> seyn. Da ich aber 
-        <lb xml:id="p4-l3"/>weiß wie sehr deine Zeit
-        <lb xml:id="p4-l4"/>immer zum Voraus in Anspruch 
-        <lb xml:id="p4-l5"/>genommen <del>b</del>ist &amp; ja nicht
-        <lb xml:id="p4-l6"/>sicher bin, ob ich alsdann
-        <lb xml:id="p4-l7"/>ganz wohl seyn werde, so
-        <lb xml:id="p4-l8"/>möchte ich Dich bitten meinetwegen 
-        <lb xml:id="p4-l9"/>ja Dich nicht zu geniren.</p>
-      <p rend="indent" xml:id="K_0039_p4">
-                <lb xml:id="p4-l10"/>
+        <lb xml:id="p3-l5"/>so giebt<note type="transcript">sic!</note> es einen ver<lb xml:id="p3-l6" break="no"/>schleppten Husten mit 
+        <lb xml:id="p3-l7" break="no"/>dem ich dann vielleicht lange
+        <lb xml:id="p3-l8" break="no"/>zu thun hätte. Ich muß 
+        <lb xml:id="p3-l9" break="no"/>also nothwendig meine
+        <lb xml:id="p3-l10" break="no"/>Abreise hinaus schieben
+        <lb xml:id="p3-l11" break="no"/><choice><abbr>u.</abbr><expan>und</expan></choice> werde kaum vor dem
+            <lb xml:id="p3-l12" break="no"/><date when="1869-10-18">18ten</date> <add><choice><abbr>od.</abbr><expan>oder</expan></choice> <date when="1872-10-19">19 <choice><abbr>Octob</abbr><expan>October</expan></choice></date> </add> <choice><abbr>v.</abbr><expan>von</expan></choice> <placeName key="Zürich (Stadt)">Zürich</placeName> nach <placeName key="Paris (F)"><hi>Paris</hi></placeName> <lb xml:id="p3-l13" break="no"/>reisen können – So lange ich 
+        <lb xml:id="p3-l14" break="no"/>nicht wohl bin <hi rend="underline">kann</hi> <choice><abbr>u.</abbr><expan>und</expan></choice> will
+        <lb xml:id="p3-l15" break="no"/>ich durchaus nichts ver<lb xml:id="p3-l16" break="no"/>sprechen. Geht es mir 
+        <lb xml:id="p3-l17" break="no"/>gut so hoffe ich in der
+        <lb xml:id="p3-l18" break="no"/>zweiten <add>Hälfte der</add> Woche welche
+        <pb n="4"/><lb xml:id="p4-l1" break="no"/>mit dem <date when="1872-10-14">14 <choice><abbr><hi>Octob</hi></abbr><expan>October</expan></choice></date> beginnt in 
+        <lb xml:id="p4-l2" break="no"/><placeName key="Zürich (Stadt)">Zürich</placeName> <add>zu</add> seyn. Da ich aber 
+        <lb xml:id="p4-l3" break="no"/>weiß wie sehr deine Zeit
+        <lb xml:id="p4-l4" break="no"/>immer zum Voraus in Anspruch 
+        <lb xml:id="p4-l5" break="no"/>genommen <del>b</del>ist &amp; ja nicht
+        <lb xml:id="p4-l6" break="no"/>sicher bin, ob ich alsdann
+        <lb xml:id="p4-l7" break="no"/>ganz wohl seyn werde, so
+        <lb xml:id="p4-l8" break="no"/>möchte ich Dich bitten meinetwegen 
+        <lb xml:id="p4-l9" break="no"/>ja Dich nicht zu geniren.</p>
+      <p rend="indent" xml:id="K_0039_p4"><lb xml:id="p4-l10"/>
         <hi rend="underline">
-          <hi>A Propos</hi>
-                </hi>. <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Peyer im Hof Johann Friedrich">
-                    <hi>Peyer</hi>
-                </persName> schrieb mir,
-        <lb xml:id="p4-l11"/>er treffe heute mit <persName type="person" key="Anderwert Fridolin">Anderwerth</persName> <lb xml:id="p4-l12"/>zusammen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ich möchte ihm daher über
+          <hi>A Propos</hi></hi>. <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <persName key="Peyer im Hof Johann Friedrich"><hi>Peyer</hi></persName> schrieb mir,
+        <lb xml:id="p4-l11"/>er treffe heute mit <persName key="Anderwert Fridolin">Anderwerth</persName> <lb xml:id="p4-l12"/>zusammen <choice><abbr>u.</abbr><expan>und</expan></choice> ich möchte ihm daher über
         <lb xml:id="p4-l13"/>die Stimmung <hi>puncto</hi> Eisenbahn
-                <lb xml:id="p4-l14"/>
-                <placeName type="place" key="Winterthur">Winterthur</placeName> <hi>
-                    <placeName type="place" key="Kreuzlingen">Kreuzlingen</placeName> </hi> Einiges
-        <lb xml:id="p4-l15"/>melden. Es geschah Sonntags <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <lb xml:id="p4-l16"/>merkwürdiger Weise telegraphirt
-                <lb xml:id="p4-l17"/>diesen Abend 6 Uhr <hi>
-                    <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice>
-                </hi> <persName type="person" key="Sulzer Johann Jakob">
-                    <hi>Sulzer</hi>
-                </persName> von <placeName type="place" key="Winterthur">Winterthur</placeName> <lb xml:id="p4-l18"/>an <persName type="person" key="Bruder Johann Konrad Kerns">meinen Bruder</persName> ob ich morgen noch
-                <lb xml:id="p4-l19"/>hier sey? Sag doch Freund <persName type="person" key="Peyer im Hof Johann Friedrich">
-                    <hi>Peyer</hi>
-                </persName> er
+                <lb xml:id="p4-l14"/><placeName key="Winterthur">Winterthur</placeName> <hi><placeName key="Kreuzlingen">Kreuzlingen</placeName> </hi> Einiges
+        <lb xml:id="p4-l15"/>melden. Es geschah Sonntags <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p4-l16"/>merkwürdiger Weise telegraphirt
+                <lb xml:id="p4-l17"/>diesen Abend 6 Uhr <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice></hi> <persName key="Sulzer Johann Jakob"><hi>Sulzer</hi></persName> von <placeName key="Winterthur">Winterthur</placeName> <lb xml:id="p4-l18"/>an <persName key="Bruder Johann Konrad Kerns">meinen Bruder</persName> ob ich morgen noch
+                <lb xml:id="p4-l19"/>hier sey? Sag doch Freund <persName key="Peyer im Hof Johann Friedrich"><hi>Peyer</hi></persName> er
         <lb xml:id="p4-l20"/>möchte mich <hi>au courant</hi>  halten
-        <pb n="5"/>
-                <lb xml:id="p5-l1"/>ob etwas mit <persName type="person" key="Anderwert Fridolin">
-                    <hi>Anderwerth</hi>
-                </persName> <lb xml:id="p5-l2"/>verhandelt worden <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ob 
+        <pb n="5"/><lb xml:id="p5-l1"/>ob etwas mit <persName key="Anderwert Fridolin"><hi>Anderwerth</hi></persName> <lb xml:id="p5-l2"/>verhandelt worden <choice><abbr>u.</abbr><expan>und</expan></choice> ob 
         <lb xml:id="p5-l3"/>etwa die verheißenen
-        <lb xml:id="p5-l4"/>Mittheilungen <choice>
-                        <abbr>od.</abbr>
-                        <expan>oder</expan>
-                    </choice> vielleicht 
-                <lb xml:id="p5-l5"/>ein Besuch <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <hi>
-                    <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice>
-                </hi> <persName type="person" key="Sulzer Johann Jakob">
-                    <hi>Sulzer</hi>
-                </persName> <lb xml:id="p5-l6"/>durch die Unterredung
-        <lb xml:id="p5-l7"/>mit <persName type="person" key="Anderwert Fridolin">
-                    <hi>Anderwerth</hi>
-                </persName> <hi>provocirt</hi> <lb xml:id="p5-l8"/>sey. – Natürlich Alles dieß
+        <lb xml:id="p5-l4"/>Mittheilungen <choice><abbr>od.</abbr><expan>oder</expan></choice> vielleicht 
+                <lb xml:id="p5-l5"/>ein Besuch <choice><abbr>v.</abbr><expan>von</expan></choice> <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice></hi> <persName key="Sulzer Johann Jakob"><hi>Sulzer</hi></persName> <lb xml:id="p5-l6"/>durch die Unterredung
+        <lb xml:id="p5-l7"/>mit <persName key="Anderwert Fridolin"><hi>Anderwerth</hi></persName> <hi>provocirt</hi> <lb xml:id="p5-l8"/>sey. – Natürlich Alles dieß
         <lb xml:id="p5-l9"/>ganz vertraulich unter uns. –</p>
-      <p rend="left" xml:id="K_0039_p5">
-                <lb xml:id="p5-l10"/>Natürlich werde ich eine 
+      <p rend="left" xml:id="K_0039_p5"><lb xml:id="p5-l10"/>Natürlich werde ich eine 
         <lb xml:id="p5-l11"/>sehr reservirte Stellung
         <lb xml:id="p5-l12"/>beobachten. Ich weiß
         <lb xml:id="p5-l13"/>mir aber diese Anfrage
-                <lb xml:id="p5-l14"/>
-                <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <hi>
-                    <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice>
-                </hi> <persName type="person" key="Sulzer Johann Jakob">
-                    <hi>Sulzer</hi>
-                </persName>! gar nicht
+                <lb xml:id="p5-l14"/><choice><abbr>v.</abbr><expan>von</expan></choice> <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice></hi> <persName key="Sulzer Johann Jakob"><hi>Sulzer</hi></persName>! gar nicht
                 <lb xml:id="p5-l15"/>zu erklären. – Vielleicht 
-                <lb xml:id="p5-l16"/>kann <del>er</del> <persName type="person" key="Peyer im Hof Johann Friedrich">
-                    <add>
-                        <hi>Peyer</hi> </add>
-                </persName>
-                <note type="transcript">nachträgliche Korrektur</note> mir telegraphisch
+                <lb xml:id="p5-l16"/>kann <del>er</del> <persName key="Peyer im Hof Johann Friedrich"><add><hi>Peyer</hi> </add></persName><note type="transcript">nachträgliche Korrektur</note> mir telegraphisch
         <lb xml:id="p5-l17"/>das Räthsel lösen. Doch ist dem
-        <lb xml:id="p5-l18"/>
-                <supplied type="unclear">Drath</supplied>rath nicht immer zu trauen!!</p>
-    </div>
-        </body>
-    <back>
+        <lb xml:id="p5-l18"/><add type="?">Drath</add>rath nicht immer zu trauen!!</p>
+    </body><back>
       <div type="closer">
-        <p rend="left" xml:id="K_0039_p6">
-                    <lb xml:id="p5-l19"/>Mit aufrichtiger Freundschaft
+        <p rend="left" xml:id="K_0039_p6"><lb xml:id="p5-l19"/>Mit aufrichtiger Freundschaft
             <lb xml:id="p5-l20"/>stets der deinige</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0039_p7">
-                    <lb xml:id="p5-l21"/>
+      <div type="signature">
+        <p rend="right" xml:id="K_0039_p7"><lb xml:id="p5-l21"/>
           <hi>
-            <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> Kern</hi>.</p>
+            <choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> Kern</hi>.</p>
       </div>
       <postscript>
-        <p rend="center" xml:id="K_0039_p8">
-                    <note type="transcript">Am Seitenrand:</note>
+        <p rend="center" xml:id="K_0039_p8"><note type="transcript">Am Seitenrand:</note>
           <lb xml:id="p5-l22"/>Entschuldige die Eile. Ich wollte die erste Post 
       <lb xml:id="p5-l23"/>nicht versäumen.</p>
       </postscript>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

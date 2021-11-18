@@ -1,120 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2985" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Emil Welti an Alfred Escher, Bern, Dienstag, Mai 15, 1877</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#547*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Gotthardbahnkonferenzen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1877-05-15">Dienstag, Mai 15, 1877</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-04-27" who="SK">Transkription
-                
-            </change>
-            <change when="2013-08-26" who="LH">Migration nach XML
-                
-            </change>
-            <change when="2013-08-30" who="CD">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="NS">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="XR">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="DG">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-23" who="LH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="SWK">Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-04-22" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-05-21" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2985" type="Brief"><teiHeader><fileDesc><titleStmt><title>Emil Welti an Alfred Escher, Bern, Dienstag, 15. Mai 1877</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Jung, Aufbruch, S. 669</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#547*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Gotthardbahnkonferenzen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Welti Emil" type="addressee">Emil Welti</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1877-05-15">15. Mai 1877</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2985_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName>
+        <p rend="right" xml:id="K_2985_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Bern (Stadt)">Bern</placeName>
           <date when="1877-05-15">15 Mai 1877</date>.
                 </p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_2985_p2">
-                    <lb xml:id="p1-l2"/>Hochgeehrter Herr und Freund
+        <p rend="left" xml:id="K_2985_p2"><lb xml:id="p1-l2"/>Hochgeehrter Herr und Freund
                 </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_2985_p3">
-                <lb xml:id="p1-l3"/>Ich melde noch rasch vor Post
-                <lb xml:id="p1-l4"/>Abgang dass <placeName type="place" key="Italien (Königreich)">Italien</placeName> durch <persName type="person" key="Pioda Giovanni Battista">Pioda</persName> <lb xml:id="p1-l5"/>so eben <choice>
-                        <abbr>telegr.</abbr>
-                        <expan>telegraphisch</expan>
-                    </choice> anzeigen lässt, dass
-                <lb xml:id="p1-l6"/>es vom <date when="1877-05-25">25 <choice>
-                            <abbr>d. M.</abbr>
-                            <expan>dieses Monats</expan>
-                        </choice> </date> an zur Con<lb break="no" xml:id="p1-l7"/>ferenz bereit sei. <persName type="person" key="Roth Arnold">Roth</persName> wird 
-                <lb xml:id="p1-l8"/>auf gleichem Wege beauftragt in
-                <lb xml:id="p1-l9"/>
-                    <placeName type="place" key="Berlin (D)">Berlin</placeName> anzufragen, ob die dortige
-                <lb xml:id="p1-l10"/>Regierung die Einladung auf den
-                <lb xml:id="p1-l11"/>
-                <date when="1877-05-28">28. Mai</date> annehmen wolle.
+    </front><body>
+      <p rend="left" xml:id="K_2985_p3"><lb xml:id="p1-l3"/>Ich melde noch rasch vor Post
+                <lb xml:id="p1-l4"/>Abgang dass <placeName key="Italien (Königreich)">Italien</placeName> durch <persName key="Pioda Giovanni Battista">Pioda</persName> <lb xml:id="p1-l5"/>so eben <choice><abbr>telegr.</abbr><expan>telegraphisch</expan></choice> anzeigen lässt, dass
+                <lb xml:id="p1-l6"/>es vom <date when="1877-05-25">25 <choice><abbr>d. M.</abbr><expan>dieses Monats</expan></choice> </date> an zur Con<lb xml:id="p1-l7" break="no"/>ferenz bereit sei. <persName key="Roth Arnold">Roth</persName> wird 
+                <lb xml:id="p1-l8" break="no"/>auf gleichem Wege beauftragt in
+                <lb xml:id="p1-l9" break="no"/><placeName key="Berlin (D)">Berlin</placeName> anzufragen, ob die dortige
+                <lb xml:id="p1-l10" break="no"/>Regierung die Einladung auf den
+                <lb xml:id="p1-l11" break="no"/><date when="1877-05-28">28. Mai</date> annehmen wolle.
             </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_2985_p4">
-                    <lb xml:id="p1-l12"/>Ihr Ergebenster
+        <p rend="center" xml:id="K_2985_p4"><lb xml:id="p1-l12"/>Ihr Ergebenster
                 </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2985_p5">
-                    <lb xml:id="p1-l13"/>E Welti
+      <div type="signature">
+        <p rend="right" xml:id="K_2985_p5"><lb xml:id="p1-l13"/>E Welti
                 </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

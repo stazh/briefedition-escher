@@ -1,286 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0326" n="14" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johannes Honegger an Alfred Escher, Uetikon am See, Samstag, Juli 27, 1844</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#274*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Grosser Rat / Kantonsrat ZH</item>
-                        <item>Wahlen</item>
-                        <item>Berufsleben</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Honegger Johannes" type="sender">Johannes Honegger</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Uetikon am See</placeName>
-                    <date when="1844-07-27">Samstag, Juli 27, 1844</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-05-05 / 23-05-19" who="IM">Transkribiert
-
-                
-            </change>
-            <change when="Juni 2009" who="swissedit, UR">von Word nach XML konvertiert
-
-                
-            </change>
-            <change when="2009-07-27" who="BK">provisorisch kommentiert
-                
-            </change>
-            <change when="2010-05-20" who="BK">Transkriptionsverifizierung T. Binder umgesetzt
-
-                
-            </change>
-            <change when="2010-07-29" who="BK">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2010-11-16" who="BK">Korrekturen 2 Haberthür übertragen
-                
-            </change>
-            <change when="2011-06-22" who="TM">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-06-23" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen umgesetzt
-
-                
-            </change>
-            <change when="2011-07-26" who="BP">e-Edition: Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2011-07-28" who="AH">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2015-02-16" who="CA">e-Edition: Transkriptionsverifizierung Seiterle 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0326" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johannes Honegger an Alfred Escher, Uetikon am See, Samstag, 27. Juli 1844</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#274*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Grosser Rat / Kantonsrat ZH</term><term>Wahlen</term><term>Berufsleben</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Honegger Johannes" type="addressee">Johannes Honegger</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Uetikon am See</placeName><date when="1844-07-27">27. Juli 1844</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_0326_p1">
-                    <lb xml:id="p1-l1"/>
+        <p rend="right" xml:id="K_0326_p1"><lb xml:id="p1-l1"/>
           
-          <placeName type="place" key="Uetikon am See">
-                        <hi>Uetikon</hi>
-                    </placeName> am <date when="1844-07-27">27<hi rend="sup">ten</hi> Juli. 1844</date>.
+          <placeName key="Uetikon am See"><hi>Uetikon</hi></placeName> am <date when="1844-07-27">27<hi rend="sup">ten</hi> Juli. 1844</date>.
         </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_0326_p2">
-                    <lb xml:id="p1-l2"/>Mein Lieber!</p>
+        <p rend="indent" xml:id="K_0326_p2"><lb xml:id="p1-l2"/>Mein Lieber!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_0326_p3">
-                <lb xml:id="p1-l3"/>Letzten <date when="1844-07-21">Montag</date> erhielt ich deinen lieben <seg type="com">Brief<note xml:id="K_0326_c1">Brief nicht ermittelt.</note>
-                </seg> vom <date when="1844-07-20">20<hi rend="sup">ten</hi>
-                </date>. Ein<lb xml:id="p1-l4"/>
+    </front><body>
+      <p rend="indent" xml:id="K_0326_p3"><lb xml:id="p1-l3"/>Letzten <date when="1844-07-21">Montag</date> erhielt ich deinen lieben Brief<note type="com" xml:id="K_0326_c1">Brief nicht ermittelt.</note> vom <date when="1844-07-20">20<hi rend="sup">ten</hi></date>. Ein<lb xml:id="p1-l4"/>
 angestrengtes Maturitätsexamen, das mich den ganzen Tag in<lb xml:id="p1-l5"/>
 Anspruch nahm, machte mir die sofortige Beantwortung desselben völlig<lb xml:id="p1-l6"/>
-unmöglich. Den <date when="1844-07-23">Dienstag</date> zehrten Schulgeschäfte, alte <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> neue Reisepläne,<lb xml:id="p1-l7"/>
-die am Ende alle – aufgegeben wurden, gänzlich auf. Meine Rei<lb break="no" xml:id="p1-l8"/>se
-        nach Hause entwickelte ein Unwohlsein, das schon seit mehren<note type="transcript">sic!</note> Tagen<lb xml:id="p1-l9"/>
-in mir gespuckt<note type="transcript">sic!</note> hatte <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ich kam ziemlich krank nach Hause. Häus<lb break="no" xml:id="p1-l10"/>liche
-Pflege <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Medicinen haben seither das ihrige gethan, um mich<lb xml:id="p1-l11"/>
+unmöglich. Den <date when="1844-07-23">Dienstag</date> zehrten Schulgeschäfte, alte <choice><abbr>u.</abbr><expan>und</expan></choice> neue Reisepläne,<lb xml:id="p1-l7"/>
+die am Ende alle – aufgegeben wurden, gänzlich auf. Meine Rei<lb xml:id="p1-l8" break="no"/>se
+        nach Hause entwickelte ein Unwohlsein, das schon seit mehren<note type="transcript">sic!</note> Tagen<lb xml:id="p1-l9" break="no"/>
+in mir gespuckt<note type="transcript">sic!</note> hatte <choice><abbr>u.</abbr><expan>und</expan></choice> ich kam ziemlich krank nach Hause. Häus<lb xml:id="p1-l10" break="no"/>liche
+Pflege <choice><abbr>u.</abbr><expan>und</expan></choice> Medicinen haben seither das ihrige gethan, um mich<lb xml:id="p1-l11" break="no"/>
 wieder auf bessern Fuß zu stellen.</p>
-      <p rend="indent" xml:id="K_0326_p4">
-                <lb xml:id="p1-l12"/>Zum Rathen komme ich nun freilich zu spät; denn du wirst schon<lb xml:id="p1-l13"/>
-unwiederruflich <seg type="ref">gewählt haben<ref type="sum" target="Aufstieg_p22"><!-- → S. 21 --></ref>
-                </seg>, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> zwar, ich hege die feste Ueber<lb break="no" xml:id="p1-l14"/>zeugung
+      <p rend="indent" xml:id="K_0326_p4"><lb xml:id="p1-l12"/>Zum Rathen komme ich nun freilich zu spät; denn du wirst schon<lb xml:id="p1-l13"/>
+unwiederruflich <rs>gewählt haben<ref type="sum" target="Aufstieg_p22"><!-- → S. 21 --></ref></rs>, <choice><abbr>u.</abbr><expan>und</expan></choice> zwar, ich hege die feste Ueber<lb xml:id="p1-l14" break="no"/>zeugung
 davon, in einer Weise, die allein deiner würdig ist.</p>
-      <p rend="left" xml:id="K_0326_p5">
-                <lb xml:id="p1-l15"/>Zur Gratulation, zur Stärkung und Ermunterung, einen einmal<lb xml:id="p1-l16"/>
-gefaßten Entschluß mit immer größerer Wärme und Innigkeit zu um<lb break="no" xml:id="p1-l17"/>fassen,
+      <p rend="left" xml:id="K_0326_p5"><lb xml:id="p1-l15"/>Zur Gratulation, zur Stärkung und Ermunterung, einen einmal<lb xml:id="p1-l16"/>
+gefaßten Entschluß mit immer größerer Wärme und Innigkeit zu um<lb xml:id="p1-l17" break="no"/>fassen,
 kommt man immer zu rechter Zeit.</p>
-      <p rend="indent" xml:id="K_0326_p6">
-                <lb xml:id="p1-l18"/>Meine Gratulation gilt dem Vaterlande; sie gilt dem Ideale<lb xml:id="p1-l19"/>
-einer lebenskräftigen politischen Entwicklung, nach dessen Verwirk<lb break="no" xml:id="p1-l20"/>lichung
-du <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ich <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> unsre Glaubensbrüder, wenn auch auf verschie<lb break="no" xml:id="p1-l21"/>denen
-Wegen, mit ganzer Seele <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ganzem Gemüte hinstreben!<lb xml:id="p1-l22"/>
-Dir gratulire ich nicht: das Bewußtsein, mit reiner <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> edler Ge<lb break="no" xml:id="p1-l23"/>sinnung
-für das Wohl des Vaterlandes zu wirken, wird dir<lb xml:id="p1-l24"/>
-Kraft genug verleihen, dich mit unüberwindlicher Selbstbeherr<lb break="no" xml:id="p1-l25"/>schung
-über die Unbilden, die auf dieser Bahn deiner warten<lb xml:id="p1-l26"/>
-werden, hinwegzusetzen.<pb n="2"/>
-            </p>
-      <p rend="indent" xml:id="K_0326_p7">
-                <lb xml:id="p2-l1"/>Ich hätte allerdings der Göttin Fortuna nicht sehr gegrollt, wenn<lb xml:id="p2-l2"/>
+      <p rend="indent" xml:id="K_0326_p6"><lb xml:id="p1-l18"/>Meine Gratulation gilt dem Vaterlande; sie gilt dem Ideale<lb xml:id="p1-l19"/>
+einer lebenskräftigen politischen Entwicklung, nach dessen Verwirk<lb xml:id="p1-l20" break="no"/>lichung
+du <choice><abbr>u.</abbr><expan>und</expan></choice> ich <choice><abbr>u.</abbr><expan>und</expan></choice> unsre Glaubensbrüder, wenn auch auf verschie<lb xml:id="p1-l21" break="no"/>denen
+Wegen, mit ganzer Seele <choice><abbr>u.</abbr><expan>und</expan></choice> ganzem Gemüte hinstreben!<lb xml:id="p1-l22" break="no"/>
+Dir gratulire ich nicht: das Bewußtsein, mit reiner <choice><abbr>u.</abbr><expan>und</expan></choice> edler Ge<lb xml:id="p1-l23" break="no"/>sinnung
+für das Wohl des Vaterlandes zu wirken, wird dir<lb xml:id="p1-l24" break="no"/>
+Kraft genug verleihen, dich mit unüberwindlicher Selbstbeherr<lb xml:id="p1-l25" break="no"/>schung
+über die Unbilden, die auf dieser Bahn deiner warten<lb xml:id="p1-l26" break="no"/>
+werden, hinwegzusetzen.<pb n="2"/></p>
+      <p rend="indent" xml:id="K_0326_p7"><lb xml:id="p2-l1"/>Ich hätte allerdings der Göttin Fortuna nicht sehr gegrollt, wenn<lb xml:id="p2-l2"/>
 sie dich die anderthalb Jahre noch ganz ruhig in deiner Studierstube<lb xml:id="p2-l3"/>
-gelassen hätte, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> insofern möchte ich den von dir aufgestellten Be<lb break="no" xml:id="p2-l4"/>denken
-nicht geradezu allen Grund absprechen. Aber, beim Lichte<lb xml:id="p2-l5"/>
-        besehen, reduciren sie sich gleichwol<note type="transcript">sic!</note> auf ein Minimum von Ge<lb break="no" xml:id="p2-l6"/>wichtigkeit,
-wenn ich sie mit den möglichen Folgen für deine politi<lb break="no" xml:id="p2-l7"/>sche
-Zukunft <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> für die gegenwärtige Stellung unsrer Partei zusam<lb break="no" xml:id="p2-l8"/>menhalte.</p>
-      <p rend="indent" xml:id="K_0326_p8">
-                <lb xml:id="p2-l9"/>Ist es denn gerade nothwendig oder wäre es auch nur politisch<lb xml:id="p2-l10"/>
-klug, wenn du dich gleich bei deinem Eintritte in den <choice>
-                        <abbr>Gr. Rath</abbr>
-                        <expan>Grosser / Großer Rath</expan>
-                    </choice> <lb xml:id="p2-l11"/>
+gelassen hätte, <choice><abbr>u.</abbr><expan>und</expan></choice> insofern möchte ich den von dir aufgestellten Be<lb xml:id="p2-l4" break="no"/>denken
+nicht geradezu allen Grund absprechen. Aber, beim Lichte<lb xml:id="p2-l5" break="no"/>
+        besehen, reduciren sie sich gleichwol<note type="transcript">sic!</note> auf ein Minimum von Ge<lb xml:id="p2-l6" break="no"/>wichtigkeit,
+wenn ich sie mit den möglichen Folgen für deine politi<lb xml:id="p2-l7" break="no"/>sche
+Zukunft <choice><abbr>u.</abbr><expan>und</expan></choice> für die gegenwärtige Stellung unsrer Partei zusam<lb xml:id="p2-l8" break="no"/>menhalte.</p>
+      <p rend="indent" xml:id="K_0326_p8"><lb xml:id="p2-l9"/>Ist es denn gerade nothwendig oder wäre es auch nur politisch<lb xml:id="p2-l10"/>
+klug, wenn du dich gleich bei deinem Eintritte in den <choice><abbr>Gr. Rath</abbr><expan>Grosser / Großer Rath</expan></choice> <lb xml:id="p2-l11"/>
 schon als Parteihaupt geriren wolltest oder dir auch nur auf<lb xml:id="p2-l12"/>
 eine entschiedene Weise den Schein gäbest, darnach zu streben? Es<lb xml:id="p2-l13"/>
 kommt mir vor, als ob du, wenn du auch erst viel später in die Behörde<lb xml:id="p2-l14"/>
 einträtest, doch vorerst eine wirkliche praktische Lernzeit, oder<lb xml:id="p2-l15"/>
 mindestens eine scheinbare, durchmachen müßtest. Es wird der<lb xml:id="p2-l16"/>
-Jahre noch manches bedürfen, bis du dich, von deinem wissen<lb break="no" xml:id="p2-l17"/>schaftlichen
-Standpunkte aus, für alle Zweige der Gesetzgebung<lb xml:id="p2-l18"/>
-        in gleichem Maaße<note type="transcript">sic!</note> gewachsen halten wirst. Für die rein politi<lb break="no" xml:id="p2-l19"/>schen
-Fragen wird jede neue Phase das Maaß der Einsicht meh<lb break="no" xml:id="p2-l20"/>ren,
-früher schon bewährte Grundsätze consolidiren oder auch<lb xml:id="p2-l21"/>
-modificiren: im Feuer des Kampfes wird sich die Ueberzeu<lb break="no" xml:id="p2-l22"/>gung
-am sichersten stählen. Beim Schimmer der Studierlampe wird<lb xml:id="p2-l23"/>
-sich hierin am wenigsten zum Voraus bestimmen lassen. Als einen<lb xml:id="p2-l24"/>
-gar wichtigen Bestandtheil der parlamentarischen Wirksamkeit be<lb break="no" xml:id="p2-l25"/>trachte
-ich endlich eine genaue Personalkenntniß im freundlichen<lb xml:id="p2-l26"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> feindlichen Lager: nach ihr wird sich der Modus der Offensive<lb xml:id="p2-l27"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Defensive nothwendig gestalten müssen. Auf welchem Wege<lb xml:id="p2-l28"/>
-        kann diese erlangt werden als im Schooße<note type="transcript">sic!</note> der Behörde selbst, in<lb xml:id="p2-l29"/>
-den Discussionen, bei den Vorberathungen, im traulichen Zusammenle<pb n="3"/>
-                    <lb xml:id="p3-l1"/>ben
-mit den glaubensverwandten Collegen? Diese unerläßlich<lb break="no" xml:id="p3-l2"/>ste
-Bedingung des parlamentarischen Wirkens ist außer dem Schoo<lb break="no" xml:id="p3-l3"/>ße
-des <choice>
-                        <abbr>Gr. Rathes</abbr>
-                        <expan>Grossen / Großen Rathes</expan>
-                    </choice> schlechterdings gar nicht zu erringen.</p>
-      <p rend="indent" xml:id="K_0326_p9">
-                <lb xml:id="p3-l4"/>Ich bin nun zwar überzeugt, daß alle unsre Freunde ihr Möglich<lb break="no" xml:id="p3-l5"/>stes
-gethan haben werden, um dich zur sofortigen Annahme des ehren<lb break="no" xml:id="p3-l6"/>vollen
-Rufes zu bewegen. Sollte aber auch meine Stimme noch nöthig<lb xml:id="p3-l7"/>
-sein, so rufe ich dir aus vollem Herzen, im Namen der guten<lb xml:id="p3-l8"/>
-Sache zu: Zaudere nicht <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> folge dem Rufe des Vaterlandes! Ein<lb xml:id="p3-l9"/>
-Abschlag von deiner Seite müßte nothwendig den Eindruck einer<lb xml:id="p3-l10"/>
-Kränkung hinterlassen, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> gewiß auf die Edelsten unsrer Par<lb break="no" xml:id="p3-l11"/>tei
-entmutigend einwirken: eine Scharte, die nicht leicht wieder<lb xml:id="p3-l12"/>
-auszuwetzen wäre! Das Uebrige darf wohl getrost deiner eigenen<lb xml:id="p3-l13"/>
-Klugheit <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Selbstbeherrschung anheim gestellt werden. Du wirst es<lb xml:id="p3-l14"/>
-verstehen, auch unter dem Mantel eines bescheidenen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> anspruchs<lb break="no" xml:id="p3-l15"/>losen
-        Auftretens alle Fäden anzuspinnen, die dir allmälig<note type="transcript">sic!</note> eine<lb xml:id="p3-l16"/>
-nachdrückliche <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> andauernde Wirksamkeit sichern werden. Dein<lb xml:id="p3-l17"/>
+Jahre noch manches bedürfen, bis du dich, von deinem wissen<lb xml:id="p2-l17" break="no"/>schaftlichen
+Standpunkte aus, für alle Zweige der Gesetzgebung<lb xml:id="p2-l18" break="no"/>
+        in gleichem Maaße<note type="transcript">sic!</note> gewachsen halten wirst. Für die rein politi<lb xml:id="p2-l19" break="no"/>schen
+Fragen wird jede neue Phase das Maaß der Einsicht meh<lb xml:id="p2-l20" break="no"/>ren,
+früher schon bewährte Grundsätze consolidiren oder auch<lb xml:id="p2-l21" break="no"/>
+modificiren: im Feuer des Kampfes wird sich die Ueberzeu<lb xml:id="p2-l22" break="no"/>gung
+am sichersten stählen. Beim Schimmer der Studierlampe wird<lb xml:id="p2-l23" break="no"/>
+sich hierin am wenigsten zum Voraus bestimmen lassen. Als einen<lb xml:id="p2-l24" break="no"/>
+gar wichtigen Bestandtheil der parlamentarischen Wirksamkeit be<lb xml:id="p2-l25" break="no"/>trachte
+ich endlich eine genaue Personalkenntniß im freundlichen<lb xml:id="p2-l26" break="no"/><choice><abbr>u.</abbr><expan>und</expan></choice> feindlichen Lager: nach ihr wird sich der Modus der Offensive<lb xml:id="p2-l27" break="no"/><choice><abbr>u.</abbr><expan>und</expan></choice> Defensive nothwendig gestalten müssen. Auf welchem Wege<lb xml:id="p2-l28" break="no"/>
+        kann diese erlangt werden als im Schooße<note type="transcript">sic!</note> der Behörde selbst, in<lb xml:id="p2-l29" break="no"/>
+den Discussionen, bei den Vorberathungen, im traulichen Zusammenle<pb n="3"/><lb xml:id="p3-l1" break="no"/>ben
+mit den glaubensverwandten Collegen? Diese unerläßlich<lb xml:id="p3-l2" break="no"/>ste
+Bedingung des parlamentarischen Wirkens ist außer dem Schoo<lb xml:id="p3-l3" break="no"/>ße
+des <choice><abbr>Gr. Rathes</abbr><expan>Grossen / Großen Rathes</expan></choice> schlechterdings gar nicht zu erringen.</p>
+      <p rend="indent" xml:id="K_0326_p9"><lb xml:id="p3-l4"/>Ich bin nun zwar überzeugt, daß alle unsre Freunde ihr Möglich<lb xml:id="p3-l5" break="no"/>stes
+gethan haben werden, um dich zur sofortigen Annahme des ehren<lb xml:id="p3-l6" break="no"/>vollen
+Rufes zu bewegen. Sollte aber auch meine Stimme noch nöthig<lb xml:id="p3-l7" break="no"/>
+sein, so rufe ich dir aus vollem Herzen, im Namen der guten<lb xml:id="p3-l8" break="no"/>
+Sache zu: Zaudere nicht <choice><abbr>u.</abbr><expan>und</expan></choice> folge dem Rufe des Vaterlandes! Ein<lb xml:id="p3-l9" break="no"/>
+Abschlag von deiner Seite müßte nothwendig den Eindruck einer<lb xml:id="p3-l10" break="no"/>
+Kränkung hinterlassen, <choice><abbr>u.</abbr><expan>und</expan></choice> gewiß auf die Edelsten unsrer Par<lb xml:id="p3-l11" break="no"/>tei
+entmutigend einwirken: eine Scharte, die nicht leicht wieder<lb xml:id="p3-l12" break="no"/>
+auszuwetzen wäre! Das Uebrige darf wohl getrost deiner eigenen<lb xml:id="p3-l13" break="no"/>
+Klugheit <choice><abbr>u.</abbr><expan>und</expan></choice> Selbstbeherrschung anheim gestellt werden. Du wirst es<lb xml:id="p3-l14" break="no"/>
+verstehen, auch unter dem Mantel eines bescheidenen <choice><abbr>u.</abbr><expan>und</expan></choice> anspruchs<lb xml:id="p3-l15" break="no"/>losen
+        Auftretens alle Fäden anzuspinnen, die dir allmälig<note type="transcript">sic!</note> eine<lb xml:id="p3-l16" break="no"/>
+nachdrückliche <choice><abbr>u.</abbr><expan>und</expan></choice> andauernde Wirksamkeit sichern werden. Dein<lb xml:id="p3-l17" break="no"/>
 guter Genius wird dich sicherlich nicht irre leiten.</p>
-      <p rend="indent" xml:id="K_0326_p10">
-                <lb xml:id="p3-l18"/>Der erste, der mir die Nachricht von deiner Wahl mit sichtbarer<lb xml:id="p3-l19"/>
-Freude <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> mit dem Ausdrucke vieler <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> großer Hoffnungen mit<lb break="no" xml:id="p3-l20"/>theilte,
-war <choice>
-                        <abbr>Prof.</abbr>
-                        <expan>Professor</expan>
-                    </choice>
-                    <seg type="com">
-                    <persName type="person" key="Löwig Carl Jacob">
-                        <hi>Loewig</hi>
-                    </persName>
-                    <note xml:id="K_0326_c2">
-                        <persName type="person" key="Löwig Carl Jacob">Carl Jacob Löwig</persName> (1803–1890), ausserordentlicher Professor für organische Chemie an der Universität <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> und Lehrer an der Oberen Industrieschule <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.</note>
-                </seg>, bei seinem Eintritte ins Dampfschiff in<lb xml:id="p3-l21"/>
-                <placeName type="place" key="Schmerikon">Schmerikon</placeName>.</p>
-      <p rend="indent" xml:id="K_0326_p11">
-                <lb xml:id="p3-l22"/>Alles Uebrige mündlich bei meinem Besuche, den ich dir im Laufe<lb xml:id="p3-l23"/>
+      <p rend="indent" xml:id="K_0326_p10"><lb xml:id="p3-l18"/>Der erste, der mir die Nachricht von deiner Wahl mit sichtbarer<lb xml:id="p3-l19"/>
+Freude <choice><abbr>u.</abbr><expan>und</expan></choice> mit dem Ausdrucke vieler <choice><abbr>u.</abbr><expan>und</expan></choice> großer Hoffnungen mit<lb xml:id="p3-l20" break="no"/>theilte,
+war <choice><abbr>Prof.</abbr><expan>Professor</expan></choice> <persName key="Löwig Carl Jacob"><hi>Loewig</hi></persName><note type="com" xml:id="K_0326_c2"><persName key="Löwig Carl Jacob">Carl Jacob Löwig</persName> (1803–1890), ausserordentlicher Professor für organische Chemie an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName> und Lehrer an der Oberen Industrieschule <placeName key="Zürich (Stadt)">Zürich</placeName>.</note>, bei seinem Eintritte ins Dampfschiff in<lb xml:id="p3-l21" break="no"/><placeName key="Schmerikon">Schmerikon</placeName>.</p>
+      <p rend="indent" xml:id="K_0326_p11"><lb xml:id="p3-l22"/>Alles Uebrige mündlich bei meinem Besuche, den ich dir im Laufe<lb xml:id="p3-l23"/>
 künftiger Woche abstatten werde.</p>
-      <p rend="indent" xml:id="K_0326_p12">
-                <lb xml:id="p3-l24"/>Mache nicht meine Hoffnungen, die gewiß die Biedersten <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> E<lb break="no" xml:id="p3-l25"/>delsten
+      <p rend="indent" xml:id="K_0326_p12"><lb xml:id="p3-l24"/>Mache nicht meine Hoffnungen, die gewiß die Biedersten <choice><abbr>u.</abbr><expan>und</expan></choice> E<lb xml:id="p3-l25" break="no"/>delsten
 unsrer Partei theilen, zu Schanden!</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_0326_p13">
-                    <lb xml:id="p3-l26"/>Immer <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ewig</p>
-        <p rend="center" xml:id="K_0326_p14">
-                    <lb xml:id="p3-l27"/>Dein</p>
+        <p rend="indent" xml:id="K_0326_p13"><lb xml:id="p3-l26"/>Immer <choice><abbr>u.</abbr><expan>und</expan></choice> ewig</p>
+        <p rend="center" xml:id="K_0326_p14"><lb xml:id="p3-l27"/>Dein</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0326_p15">
-                    <lb xml:id="p3-l28"/>J Honegger.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_0326_p15"><lb xml:id="p3-l28"/>J Honegger.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

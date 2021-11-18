@@ -1,281 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2132" n="68" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Guido von Usedom, Bern, Mittwoch, September 13, 1865</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Entwurf">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_007</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Usedom Guido von" type="addressee">Guido von Usedom</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1865-09-13">Mittwoch, September 13, 1865</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-06-20" who="WB/SD"> transkribiert
-                
-            </change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-09-15" who="MF">kommentiert provisorisch
-                
-            </change>
-            <change when="2006-12-07" who="SM">Konvertierung provisorisch nachbearbeitet
-                
-            </change>
-            <change when="2007-01-10" who="WB">Konvertierung nachbearbeitet (Indexierung fehlt)
-                
-            </change>
-            <change when="2007-02-13" who="MF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-02-27" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-04-05" who="MF">kommentiert 3
-                
-            </change>
-            <change when="2007-04-23" who="MF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-04-27" who="WB">indexiert
-                
-            </change>
-            <change when="2007-05-15" who="MF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-05-19" who="SK">Original überprüft und Keywords angepasst
-                
-            </change>
-            <change when="2007-06-15" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-24" who="MF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-17" who="MF">Umsetzung Lektorat MK 2
-                
-            </change>
-            <change when="2007-07-19" who="MF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2008-07-28" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-15" who="HA">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-04" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-22" who="HA">e-Edition: Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-29" who="NS">Migrationsverifizierung
-					umgesetzt
-                
-            </change>
-            <change when="2014-07-17" who="LB">Verifizierng 2
-				umgesetzt
-                
-            </change>
-            <change when="2014-07-17" who="LB">Inhaltliche Qualitätsprüfung
-					umgesetzt
-                
-            </change>
-            <change when="2015-03-10" who="VP">Transkriptionsverifizierung Seiterle 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="left" xml:id="K_2132_p1">
-                    <lb xml:id="p1-l1"/>
-          <choice>
-                        <abbr>S<hi rend="sup">r</hi> Exc.</abbr>
-                        <expan>Seiner Excellenz</expan>
-                    </choice> <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice> v. Usedom, <choice>
-                        <abbr>bevollm.</abbr>
-                        <expan>bevollmächtigt</expan>
-                    </choice> Minister <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <placeName type="place" key="Preussen (Königreich)">Preußen</placeName> </p>
-        <p rend="right" xml:id="K_2132_p2">
-                    <lb xml:id="p1-l2"/>
-          in <placeName type="place" key="Florenz (I)">
-                        <hi rend="underline">Florenz</hi>
-                    </placeName>. </p>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2132" type="Brief" subtype="Entwurf"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Guido von Usedom, Bern, Mittwoch, 13. September 1865</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_007</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term> Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Usedom Guido von" type="sender">Guido von Usedom</persName><placeName>Bern</placeName><date when="1865-09-13">13. September 1865</date></correspAction><correspAction type="received"><placeName>Florenz</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
+        <p rend="left" xml:id="K_2132_p1"><lb xml:id="p1-l1"/>
+          <choice><abbr>S<hi rend="sup">r</hi> Exc.</abbr><expan>Seiner Excellenz</expan></choice> <choice><abbr>H.</abbr><expan>Herr</expan></choice> v. Usedom, <choice><abbr>bevollm.</abbr><expan>bevollmächtigt</expan></choice> Minister <choice><abbr>v.</abbr><expan>von</expan></choice> <placeName key="Preussen (Königreich)">Preußen</placeName> </p>
+        <p rend="right" xml:id="K_2132_p2"><lb xml:id="p1-l2"/>
+          in <placeName key="Florenz (I)"><hi rend="underline">Florenz</hi></placeName>. </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_2132_p3">
-                    <lb xml:id="p1-l3"/>
-                    <choice>
-                        <abbr>Eure Exc.</abbr>
-                        <expan>Eure Excellenz</expan>
-                    </choice> </p>
+        <p rend="indent" xml:id="K_2132_p3"><lb xml:id="p1-l3"/><choice><abbr>Eure Exc.</abbr><expan>Eure Excellenz</expan></choice> </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2132_p4">
-                <lb xml:id="p1-l4"/>Habe ich die <choice>
-                        <abbr>verehrl.</abbr>
-                        <expan>verehrlich</expan>
-                    </choice> <seg type="com">
-                    <choice>
-                            <abbr>Mittheilg.</abbr>
-                            <expan>Mittheilung</expan>
-                        </choice> <choice>
-                            <abbr>v.</abbr>
-                            <expan>von</expan>
-                        </choice> <date when="1865-08-23">23. <choice>
-                                <abbr>verfl.<lb xml:id="p1-l5"/>
-							Mon.</abbr>
-                                <expan>verflossener / verfloßener Monat</expan>
-                            </choice> </date>
-                    <note xml:id="K_2132_c1">Dokument nicht ermittelt.</note>
-                </seg> betreffend den Aufenthalt des <seg type="com">
-                    <choice>
-                            <abbr>H.</abbr>
-                            <expan>Herr</expan>
-                        </choice> <persName type="person" key="Bismarck Otto von">v. Bismark</persName>
-                    <note xml:id="K_2132_c2">
-                        <persName type="person" key="Bismarck Otto von">Otto von Bismarck</persName>
-						(1815–1898), Ministerpräsident und Aussenminister des Königreichs <placeName type="place" key="Preussen (Königreich)">Preussen</placeName>.</note>
-                </seg> <lb xml:id="p1-l6"/> in <placeName type="place" key="Baden-Baden (D)">Baden-Baden</placeName> <del>
-                    <supplied type="unclear">bestens</supplied>
-                </del> <add>ergebenst</add> zu verdanken. <seg type="ref">
-                    <choice>
-                            <abbr>Hr.</abbr>
-                            <expan>Herr</expan>
-                        </choice> <persName type="person" key="Roggenbach Franz von">v.<lb xml:id="p1-l7"/> Rogg.</persName>
-                    <ref type="kbp">→ Franz von Roggenbach </ref>
-                </seg> hat die Güte gehabt <del>
-                    <add>im Einverständnisse mit H<supplied>errn</supplied> v. Bis</add>
-                </del>, eine <seg type="ref">
-                    <choice>
-                            <abbr>Zus.kunft</abbr>
-                            <expan>Zusammenkunft</expan>
-                        </choice> <choice>
-                            <abbr>zw.</abbr>
-                            <expan>zwischen</expan>
-                        </choice> 
-						  <lb xml:id="p1-l8"/> H<supplied>errn</supplied> <persName type="person" key="Bismarck Otto von">v. Bismark</persName> &amp; einer
-					Delegation des <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName> <lb break="no" xml:id="p1-l9"/>ausschusses in <placeName type="place" key="Baden-Baden (D)">Baden-Baden</placeName>
-                    <ref type="sum" target="Gotthardvereinigung_d1.1"><!-- → Band 1, S. 196--></ref>
-                </seg> zu vermitteln.<seg type="com">
-                    <note xml:id="K_2132_c3"><!--Die Gotthardgespräche vom 3./4. September 1865 in Baden-Baden werden im <ref type="sum">&rarr; Überblickskommentar BF</ref> thematisiert. -->
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 7. September
-						1865.<!--Am 3./4. September 1865 konferierten Escher, <ref type="kbp"/>&rarr; Georg Stoll und <ref type="kbp"/>&rarr; Johann Jakob Stehlin in Baden-Baden mit Roggenbach in der Gotthardbahnfrage. Letzterer ermöglichte den Gotthardvertretern, ihre Anliegen auch von Bismarck sowie dem württembergischen Aussenminister Karl von Varnbüler zu erläutern. Escher nutzte die     Gelegenheit zu einem Vortrag über das Gotthardprojekt, worauf Bismarck die Wichtigkeit des Gotthards insbesondere für den industriereichen Westen Deutschlands würdigte. Er zeigte sich bereit, das Projekt in angemessener Form mitzutragen, verlangte dafür aber, von den Gotthardkreisen unterstützt zu werden. Eine Staatssubvention, so Bismarck, verlange in     Preussen die Zustimmung des Abgeordnetenhauses; es sei also Sache der Gotthardvertreter, die Öffentlichkeit der interessierten deutschen Länder für das Gotthardprojekt zu gewinnen. <abbr>Vgl.</abbr> <ref type="lit">Prot. Ausschuss Gotthardvereinigung, 7. September 1865</ref>, Traktandum 3; <ref type="lit">Jung, Aufbruch</ref>, S. 572; <ref type="lit">Gagliardi, Escher</ref>, S. 482&ndash;483; <ref type="lit">Stoll, Stoll</ref>, S. 24&ndash;26 (mit Datierungsfehler).-->
-                    </note>
-                </seg> <del>Das<lb xml:id="p1-l10"/> Ergebniß dsr Conferenz hat uns ist dazu ange<lb break="no" xml:id="p1-l11"/>than, uns zu großer Ermunterg. in der</del> <seg type="com">Ich habe<lb xml:id="p1-l12"/> b<supplied>ei</supplied> <choice>
-                            <abbr>dsm</abbr>
-                            <expan>diesem</expan>
-                        </choice> Anlasse die <choice>
-                            <abbr>Überzeugg.</abbr>
-                            <expan>Überzeugung</expan>
-                        </choice> gewonnen<note xml:id="K_2132_c4">Sofortige Korrektur, zuvor: <bibl>Das Ergebniß <choice>
-                                    <abbr>ds</abbr>
-                                    <expan>dies</expan>
-                                </choice> Conferenz hat uns</bibl> <choice>
-                                <abbr>bzw.</abbr>
-                                <expan>beziehungsweise</expan>
-                            </choice> <bibl>ist dazu angethan uns zu großer Ermunterung in der</bibl>.</note>
-                </seg>, <!--Transkriptionsbereinigung--> daß H<supplied>err</supplied> <persName type="person" key="Bismarck Otto von">v. Bis<lb break="no" xml:id="p1-l13"/>mark</persName>
-				sehr günstig für das <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>projekt ge<lb break="no" xml:id="p1-l14"/>stimmt ist, ein
-				Umstand, der <del>meinem</del>
-                    <add>mich in dem</add> Glaub<supplied>en</supplied><!--Transkriptionsbereinigung--> an das<lb xml:id="p1-l15"/> Geling<supplied>en</supplied> des groß<supplied>en</supplied> Werkes <choice>
-                        <abbr>n.</abbr>
-                        <expan>nicht</expan>
-                    </choice>
-				wenig <del>ge</del>
-                <add>be</add>stärkt hat.</p>
-      <p rend="indent" xml:id="K_2132_p5">
-                <lb xml:id="p1-l16"/>
+    </front><body>
+      <p rend="indent" xml:id="K_2132_p4"><lb xml:id="p1-l4"/>Habe ich die <choice><abbr>verehrl.</abbr><expan>verehrlich</expan></choice> <choice><abbr>Mittheilg.</abbr><expan>Mittheilung</expan></choice> <choice><abbr>v.</abbr><expan>von</expan></choice> <date when="1865-08-23">23. <choice><abbr>verfl.<lb xml:id="p1-l5"/>
+							Mon.</abbr><expan>verflossener / verfloßener Monat</expan></choice> </date><note type="com" xml:id="K_2132_c1">Dokument nicht ermittelt.</note> betreffend den Aufenthalt des <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Bismarck Otto von">v. Bismark</persName><note type="com" xml:id="K_2132_c2"><persName key="Bismarck Otto von">Otto von Bismarck</persName>
+						(1815–1898), Ministerpräsident und Aussenminister des Königreichs <placeName key="Preussen (Königreich)">Preussen</placeName>.</note> <lb xml:id="p1-l6"/> in <placeName key="Baden-Baden (D)">Baden-Baden</placeName> <del><add type="?">bestens</add></del> <add>ergebenst</add> zu verdanken. <rs><choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="Roggenbach Franz von">v.<lb xml:id="p1-l7"/> Rogg.</persName></rs> hat die Güte gehabt <del><add>im Einverständnisse mit H<add>errn</add> v. Bis</add></del>, eine <rs><choice><abbr>Zus.kunft</abbr><expan>Zusammenkunft</expan></choice> <choice><abbr>zw.</abbr><expan>zwischen</expan></choice> 
+						  <lb xml:id="p1-l8"/> H<add>errn</add> <persName key="Bismarck Otto von">v. Bismark</persName> &amp; einer
+					Delegation des <placeName key="St. Gotthard (Pass)">Gotthard</placeName> <lb xml:id="p1-l9" break="no"/>ausschusses in <placeName key="Baden-Baden (D)">Baden-Baden</placeName><ref type="sum" target="Gotthardvereinigung_d1.1"><!-- → Band 1, S. 196--></ref></rs> zu vermitteln.<note type="com" xml:id="K_2132_c3"><!--Die Gotthardgespräche vom 3./4. September 1865 in Baden-Baden werden im <ref type="sum">&rarr; Überblickskommentar BF</ref> thematisiert. --><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 7. September
+						1865.<!--Am 3./4. September 1865 konferierten Escher, <ref type="kbp"/>&rarr; Georg Stoll und <ref type="kbp"/>&rarr; Johann Jakob Stehlin in Baden-Baden mit Roggenbach in der Gotthardbahnfrage. Letzterer ermöglichte den Gotthardvertretern, ihre Anliegen auch von Bismarck sowie dem württembergischen Aussenminister Karl von Varnbüler zu erläutern. Escher nutzte die     Gelegenheit zu einem Vortrag über das Gotthardprojekt, worauf Bismarck die Wichtigkeit des Gotthards insbesondere für den industriereichen Westen Deutschlands würdigte. Er zeigte sich bereit, das Projekt in angemessener Form mitzutragen, verlangte dafür aber, von den Gotthardkreisen unterstützt zu werden. Eine Staatssubvention, so Bismarck, verlange in     Preussen die Zustimmung des Abgeordnetenhauses; es sei also Sache der Gotthardvertreter, die Öffentlichkeit der interessierten deutschen Länder für das Gotthardprojekt zu gewinnen. <abbr>Vgl.</abbr> <ref type="lit">Prot. Ausschuss Gotthardvereinigung, 7. September 1865</ref>, Traktandum 3; <ref type="lit">Jung, Aufbruch</ref>, S. 572; <ref type="lit">Gagliardi, Escher</ref>, S. 482&ndash;483; <ref type="lit">Stoll, Stoll</ref>, S. 24&ndash;26 (mit Datierungsfehler).--></note> <del>Das<lb xml:id="p1-l10"/> Ergebniß dsr Conferenz hat uns ist dazu ange<lb xml:id="p1-l11" break="no"/>than, uns zu großer Ermunterg. in der</del> Ich habe<lb xml:id="p1-l12"/> b<add>ei</add> <choice><abbr>dsm</abbr><expan>diesem</expan></choice> Anlasse die <choice><abbr>Überzeugg.</abbr><expan>Überzeugung</expan></choice> gewonnen<note type="com" xml:id="K_2132_c4">Sofortige Korrektur, zuvor: <orig>Das Ergebniß <choice><abbr>ds</abbr><expan>dies</expan></choice> Conferenz hat uns</orig> <choice><abbr>bzw.</abbr><expan>beziehungsweise</expan></choice> <orig>ist dazu angethan uns zu großer Ermunterung in der</orig>.</note>, <!--Transkriptionsbereinigung--> daß H<add>err</add> <persName key="Bismarck Otto von">v. Bis<lb xml:id="p1-l13" break="no"/>mark</persName>
+				sehr günstig für das <placeName key="St. Gotthard (Pass)">Gotthard</placeName>projekt ge<lb xml:id="p1-l14" break="no"/>stimmt ist, ein
+				Umstand, der <del>meinem</del> <add>mich in dem</add> Glaub<add>en</add><!--Transkriptionsbereinigung--> an das<lb xml:id="p1-l15" break="no"/> Geling<add>en</add> des groß<add>en</add> Werkes <choice><abbr>n.</abbr><expan>nicht</expan></choice>
+				wenig <del>ge</del><add>be</add>stärkt hat.</p>
+      <p rend="indent" xml:id="K_2132_p5"><lb xml:id="p1-l16"/>
         <del>Gestatten</del>
       </p>
-      <p rend="indent" xml:id="K_2132_p6">
-                <lb xml:id="p1-l17"/>Mit der Bitte, es wollen <choice>
-                        <abbr>Ewr Exc.</abbr>
-                        <expan>Eure Excellenz</expan>
-                    </choice> unsern Be<lb break="no" xml:id="p1-l18"/>streb<supplied>un</supplied>g<supplied>en</supplied> wie bisher so auch fürhin wohlwollende
-					<choice>
-                        <abbr>Un<lb break="no" xml:id="p1-l19"/>terstützg.</abbr>
-                        <expan>Unterstützung</expan>
-                    </choice> zu Theil werd<supplied>en</supplied>
-					lass<supplied>en</supplied><!--Transkriptionsbereinigung--><!--<com>[<b>PENDENT</b>. Unterstützung durch Usedom?]</com></c> -->
-				&amp; unter wiederhol<lb break="no" xml:id="p1-l20"/>ter <choice>
-                        <abbr>Dankesbezeugg.</abbr>
-                        <expan>Dankesbezeugung</expan>
-                    </choice> für die
-				mir bewiesene freund<lb break="no" xml:id="p1-l21"/>liche <choice>
-                        <abbr>Aufmerksamkt</abbr>
-                        <expan>Aufmerksamkeit</expan>
-                    </choice> verbleibe
-				ich in <choice>
-                        <abbr>
-                    <supplied>au</supplied>sgez<hi rend="sup">ter</hi>
-                </abbr>
-                        <expan>ausgezeichneter</expan>
-                    </choice> <choice>
-                        <abbr>Hochachtg.</abbr>
-                        <expan>Hochachtung</expan>
-                    </choice> </p>
-    </div>
-        </body>
-    <back>
+      <p rend="indent" xml:id="K_2132_p6"><lb xml:id="p1-l17"/>Mit der Bitte, es wollen <choice><abbr>Ewr Exc.</abbr><expan>Eure Excellenz</expan></choice> unsern Be<lb xml:id="p1-l18" break="no"/>streb<add>un</add>g<add>en</add> wie bisher so auch fürhin wohlwollende
+					<choice><abbr>Un<lb xml:id="p1-l19" break="no"/>terstützg.</abbr><expan>Unterstützung</expan></choice> zu Theil werd<add>en</add>
+					lass<add>en</add><!--Transkriptionsbereinigung--><!--<com>[<b>PENDENT</b>. Unterstützung durch Usedom?]</com></c> -->
+				&amp; unter wiederhol<lb xml:id="p1-l20" break="no"/>ter <choice><abbr>Dankesbezeugg.</abbr><expan>Dankesbezeugung</expan></choice> für die
+				mir bewiesene freund<lb xml:id="p1-l21" break="no"/>liche <choice><abbr>Aufmerksamkt</abbr><expan>Aufmerksamkeit</expan></choice> verbleibe
+				ich in <choice><abbr><add>au</add>sgez<hi rend="sup">ter</hi></abbr><expan>ausgezeichneter</expan></choice> <choice><abbr>Hochachtg.</abbr><expan>Hochachtung</expan></choice> </p>
+    </body><back>
       <div type="closer">
-        <p rend="right" xml:id="K_2132_p7">
-                    <lb xml:id="p1-l22"/>
-                    <choice>
-                        <abbr>Eurer Exc.</abbr>
-                        <expan>Eurer Excellenz</expan>
-                    </choice> </p>
-        <p rend="right" xml:id="K_2132_p8">
-                    <lb xml:id="p1-l23"/> <seg type="com">ganz ergebene<note xml:id="K_2132_c5">Entwurf ohne Unterschrift.</note>
-                    </seg> </p>
+        <p rend="right" xml:id="K_2132_p7"><lb xml:id="p1-l22"/><choice><abbr>Eurer Exc.</abbr><expan>Eurer Excellenz</expan></choice> </p>
+        <p rend="right" xml:id="K_2132_p8"><lb xml:id="p1-l23"/> ganz ergebene<note type="com" xml:id="K_2132_c5">Entwurf ohne Unterschrift.</note> </p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_2132_p9">
-                    <lb xml:id="p1-l24"/>
-          <del>Zürich</del> <placeName type="place" key="Bern (Stadt)">Bern</placeName> <date when="1865-09-13">13. <choice>
-                            <abbr>Sept.</abbr>
-                            <expan>September</expan>
-                        </choice> 65</date>.</p>
+        <p rend="left" xml:id="K_2132_p9"><lb xml:id="p1-l24"/>
+          <del>Zürich</del> <placeName key="Bern (Stadt)">Bern</placeName> <date when="1865-09-13">13. <choice><abbr>Sept.</abbr><expan>September</expan></choice> 65</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

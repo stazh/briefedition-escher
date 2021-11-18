@@ -1,219 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1300" n="20" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Rudolf Bollier an Alfred Escher, Zürich, Dienstag, Januar 24, 1854</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#124*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Lagebeurteilungen (diverse)</item>
-                        <item>Wahlen</item>
-                        <item>Grosser Rat / Kantonsrat ZH</item>
-                        <item>Regierungsrat ZH</item>
-                        <item>Freundschaften</item>
-                        <item>Universität Zürich</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Bollier Rudolf" type="sender">Rudolf Bollier</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1854-01-24">Dienstag, Januar 24, 1854</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-08-09" who="CK">transkribiert
-                
-            </change>
-            <change when="2011-02-17" who="CF">Von Word nach XML konvertiert
-                
-            </change>
-            <change when="2011-03-22" who="BF">Personen und Orte indexiert
-                
-            </change>
-            <change when="2012-03" who="BF">provisorisch kommentiert
-                
-            </change>
-            <change when="2012-11-15" who="BF">externe Transkriptionsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-01-24" who="BF">Korrekturen EH umgesetzt
-                
-            </change>
-            <change when="2013-02-27" who="BF">Korrekturen 2 EH umgesetzt
-                
-            </change>
-            <change when="2013-03-04" who="BF">Kommentierung abgeschlossen
-                
-            </change>
-            <change when="2013-07-15" who="JS">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2013-07-17" who="SWK">Fahnen Korrektur 1 geprüft
-                
-            </change>
-            <change when="2013-07-18" who="JS">Auf Stand Edition gebracht 2
-                
-            </change>
-            <change when="2013-07-19" who="SWK">Fahnen Korrektur 2 geprüft
-                
-            </change>
-            <change when="2013-07-19" who="SWK">Fahnen Korrektur 3 geprüft
-                
-            </change>
-            <change when="2013-07-24" who="STW">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-29" who="CH">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-08-12" who="LH">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-11-04" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-02-06" who="TM">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2016-12-21" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1300" type="Brief"><teiHeader><fileDesc><titleStmt><title>Rudolf Bollier an Alfred Escher, Zürich, Dienstag, 24. Januar 1854</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#124*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Lagebeurteilungen (diverse)</term><term>Wahlen</term><term>Grosser Rat / Kantonsrat ZH</term><term>Regierungsrat ZH</term><term>Freundschaften</term><term>Universität Zürich</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Bollier Rudolf" type="addressee">Rudolf Bollier</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1854-01-24">24. Januar 1854</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="right" xml:id="K_1300_p1">
                     <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> den <date when="1854-01-24">24 Jenner 54</date>.</p>
+          <placeName key="Zürich (Stadt)">Zürich</placeName> den <date when="1854-01-24">24 Jenner 54</date>.</p>
       </div>
       <div type="opener">
         <p rend="indent" xml:id="K_1300_p2">
                     <lb xml:id="p1-l2"/>Mein lieber Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_1300_p3">
                 <lb xml:id="p1-l3"/>Du wünschest über die Volksstimmung Nachrichten zu erhalten. Ein Vorfall,<lb xml:id="p1-l4"/>
 der sich <date when="1854-01-24">heute</date> auf mein Zimmer zutrug kann etwelcher Maßen als Barometer<lb xml:id="p1-l5"/>
-dienen. Unlängst bewilligte ich der Familie Stauber <choice>
-                        <abbr>z.</abbr>
-                        <expan>zu</expan>
-                    </choice> Hirschen in <placeName type="place" key="Hinwil">Hinweil</placeName> <lb xml:id="p1-l6"/> <seg type="com">Tanzbelustigung für eine <hi rend="underline">geschlossene</hi> Gesellschaft. Dieselbe begnügte sich<lb xml:id="p1-l7"/>
-jedoch hiemit nicht, sondern publizirte in <choice>
-                            <abbr>öfft<supplied>lichen</supplied> </abbr>
-                            <expan>öffentlichen</expan>
-                        </choice> Blättern <hi rend="underline">öffentliche</hi> Tanzbe<lb break="no" xml:id="p1-l8"/>lustigung.  
-	Hiefür um Buße.<note xml:id="K_1300_c1">
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="third-party-letter">Schreiben Eduard Stauber an Johann Rudolf Bollier, 10. Januar 1854 (<ref type="lit">StAZH P 275.2</ref>)</ref>; Mitteilung Johann Rudolf Bollier betreffend Ordnungsbusse, 17. Januar 1854 (<ref type="lit">StAZH P 275.2</ref>).</note>
-                </seg> <date when="1854-01-24">Heute</date> erscheint <seg type="com">Sohn <persName type="person" key="Stauber Eduard">St.</persName>
-                    <note xml:id="K_1300_c2">Vermutlich <persName type="person" key="Stauber Eduard">Eduard Stauber</persName> (1829–1871), Wirt des Gasthofs «Hirschen» in <placeName type="place" key="Hinwil">Hinwil</placeName>.</note>
-                </seg> &amp; führte deshalb eine<lb xml:id="p1-l9"/>
-Sprache die alle Begriffe übersteigt. Ich verwies ihm anfäng<supplied>lich</supplied> ruhig seinen ungeziemend<supplied>en</supplied> <lb xml:id="p1-l10"/>
-				Tanz, allein es wurde immer ärger, so daß <add>
-                    <seg type="com">ihm<note xml:id="K_1300_c3">Verschrieb, wohl gemeint: «ich».</note>
-                    </seg>
-                </add>
+dienen. Unlängst bewilligte ich der Familie Stauber <choice><abbr>z.</abbr><expan>zu</expan></choice> Hirschen in <placeName key="Hinwil">Hinweil</placeName> <lb xml:id="p1-l6"/> Tanzbelustigung für eine <hi rend="underline">geschlossene</hi> Gesellschaft. Dieselbe begnügte sich<lb xml:id="p1-l7"/>
+jedoch hiemit nicht, sondern publizirte in <choice><abbr>öfft<add>lichen</add> </abbr><expan>öffentlichen</expan></choice> Blättern <hi rend="underline">öffentliche</hi> Tanzbe
+                    <lb xml:id="p1-l8" break="no"/>lustigung.  
+	Hiefür um Buße.<note type="com" xml:id="K_1300_c1">
+                        <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="third-party-letter">Schreiben Eduard Stauber an Johann Rudolf Bollier, 10. Januar 1854 (<ref type="lit">StAZH P 275.2</ref>)</ref>; Mitteilung Johann Rudolf Bollier betreffend Ordnungsbusse, 17. Januar 1854 (<ref type="lit">StAZH P 275.2</ref>).</note>
+                 <date when="1854-01-24">Heute</date> erscheint Sohn <persName key="Stauber Eduard">St.</persName>
+                    <note type="com" xml:id="K_1300_c2">Vermutlich <persName key="Stauber Eduard">Eduard Stauber</persName> (1829–1871), Wirt des Gasthofs «Hirschen» in <placeName key="Hinwil">Hinwil</placeName>.</note>
+                 &amp; führte deshalb eine<lb xml:id="p1-l9"/>
+Sprache die alle Begriffe übersteigt. Ich verwies ihm anfäng<add>lich</add> ruhig seinen ungeziemend<add>en</add> <lb xml:id="p1-l10"/>
+				Tanz, allein es wurde immer ärger, so daß <add>ihm<note type="com" xml:id="K_1300_c3">Verschrieb, wohl gemeint: «ich».</note></add>
                 <note type="transcript">sic!</note> ihm die Türe wies. Die Quintessenz seiner<lb xml:id="p1-l11"/>
 Rede ging dahin, daß das Volk sich ein solches Regiment nicht mehr lange werde gefallen<lb xml:id="p1-l12"/>
-lassen, bald schlage die Stunde der Erlösung. Ungeachtet Gesetz &amp; <choice>
-                        <abbr>Reg<supplied>un</supplied>g</abbr>
-                        <expan>Regierung</expan>
-                    </choice><!-- BF: <add>un entgegen Transkriptionsverifizierung gesetzt, da "Kringel" vorhanden... --> werde er nun<lb xml:id="p1-l13"/>
+lassen, bald schlage die Stunde der Erlösung. Ungeachtet Gesetz &amp; <choice><abbr>Reg<add>un</add>g</abbr><expan>Regierung</expan></choice><!-- BF: <add>un entgegen Transkriptionsverifizierung gesetzt, da "Kringel" vorhanden... --> werde er nun<lb xml:id="p1-l13"/>
 doch tanzen lassen wann &amp; wie es ihm gefalle, man möge ihn büßen nach Belieben,<lb xml:id="p1-l14"/>
-bald werd<supplied>en</supplied> Leute am Ruder sein, die das Geschehene aufheben &amp; dann anders<lb xml:id="p1-l15"/>
-regieren werd<supplied>en</supplied> <choice>
-                        <abbr>usf.</abbr>
-                        <expan>und so fort</expan>
-                    </choice> Wenn ich auch diesen Aeußerung<supplied>en</supplied> &amp; diesem Benehmen keine<lb xml:id="p1-l16"/>
-zu große Bedeutung beilege, so beweis<supplied>en</supplied> sie doch welche Ansichten ein Theil des<lb xml:id="p1-l17"/>
-hohen Souverains von der Regierungsgewalt &amp; von den jeweilig<supplied>en</supplied> Vertretern<lb xml:id="p1-l18"/>
-				derselben hat. Es ist dieß um so weniger zu übersehen, da<del>ß</del> <persName type="person" key="Stauber Eduard">St.</persName> einige Bildung<lb xml:id="p1-l19"/>
-besitzt &amp; ein Product der neuen Schule ist. Solche Erscheinungen, die unzweifel<lb break="no" xml:id="p1-l20"/>haft  
-eine Folge der demokratischen Dogmen sind, versprechen eine schöne Zu<lb break="no" xml:id="p1-l21"/>kunft.  
-Es wäre gewiß übel gethan, wollte man sich über diese Erscheinungen, weil<lb xml:id="p1-l22"/>
-sie vereinzelt dastehen, ganz hinwegsetzen. In meinen Augen haben dieselben eine<lb xml:id="p1-l23"/>
-tiefe Bedeutung: sie beurkunden den Geist der in der politischen Anschauungs<lb break="no" xml:id="p1-l24"/>weise  
-				des Publikums zu wühlen beginnt. <seg type="com">
+bald werd<add>en</add> Leute am Ruder sein, die das Geschehene aufheben &amp; dann anders<lb xml:id="p1-l15"/>
+regieren werd<add>en</add> <choice><abbr>usf.</abbr><expan>und so fort</expan></choice> Wenn ich auch diesen Aeußerung<add>en</add> &amp; diesem Benehmen keine<lb xml:id="p1-l16"/>
+zu große Bedeutung beilege, so beweis<add>en</add> sie doch welche Ansichten ein Theil des<lb xml:id="p1-l17"/>
+hohen Souverains von der Regierungsgewalt &amp; von den jeweilig<add>en</add> Vertretern<lb xml:id="p1-l18"/>
+				derselben hat. Es ist dieß um so weniger zu übersehen, da<del>ß</del> <persName key="Stauber Eduard">St.</persName> einige Bildung<lb xml:id="p1-l19"/>
+besitzt &amp; ein Product der neuen Schule ist. Solche Erscheinungen, die unzweifel
+                <lb xml:id="p1-l20" break="no"/>haft  
+eine Folge der demokratischen Dogmen sind, versprechen eine schöne Zu
+                <lb xml:id="p1-l21" break="no"/>kunft.  
+Es wäre gewiß übel gethan, wollte man sich über diese Erscheinungen, weil<lb xml:id="p1-l22" break="no"/>
+sie vereinzelt dastehen, ganz hinwegsetzen. In meinen Augen haben dieselben eine<lb xml:id="p1-l23" break="no"/>
+tiefe Bedeutung: sie beurkunden den Geist der in der politischen Anschauungs
+                <lb xml:id="p1-l24" break="no"/>weise  
+				des Publikums zu wühlen beginnt. 
                     <hi>Vide</hi>
-                    <note xml:id="K_1300_c4">Vide (<choice>
-                                <abbr>lat.</abbr>
-                                <expan>lateinisch</expan>
-                            </choice>): siehe.</note>
-                </seg>
-                    <placeName type="place" key="Limmattal">Limatthal</placeName>, <placeName type="place" key="Knonaueramt">Knonaueramt</placeName>
-                    <choice>
-                        <abbr>usw.</abbr>
-                        <expan>und so weiter</expan>
-                    </choice>
-                    <lb xml:id="p1-l25"/>
-Es ist eine unläugbare Thatsache, vor der man die Augen nicht verschließen darf,<lb xml:id="p1-l26"/>
-daß die Achtung vor den Behörden &amp; damit auch die Achtung vor dem Gesetze,<lb xml:id="p1-l27"/>
-bedeutend im Verfall ist &amp; sucht man <add>nach</add> der Ursache, so ist diese nicht etwa<lb xml:id="p1-l28"/>
-                    <hi rend="underline">wesentlich</hi> in der Regierungsweise, sondern hauptsächlich in der, übel ver<lb break="no" xml:id="p1-l29"/>standenen,  
+                    <note type="com" xml:id="K_1300_c4">Vide (<choice><abbr>lat.</abbr><expan>lateinisch</expan></choice>): siehe.</note>
+                 <placeName key="Limmattal">Limatthal</placeName>, <placeName key="Knonaueramt">Knonaueramt</placeName> <choice><abbr>usw.</abbr><expan>und so weiter</expan></choice> <lb xml:id="p1-l25" break="no"/>
+Es ist eine unläugbare Thatsache, vor der man die Augen nicht verschließen darf,<lb xml:id="p1-l26" break="no"/>
+daß die Achtung vor den Behörden &amp; damit auch die Achtung vor dem Gesetze,<lb xml:id="p1-l27" break="no"/>
+bedeutend im Verfall ist &amp; sucht man <add>nach</add> der Ursache, so ist diese nicht etwa<lb xml:id="p1-l28" break="no"/>
+                <hi rend="underline">wesentlich</hi> in der Regierungsweise, sondern hauptsächlich in der, übel ver
+                <lb xml:id="p1-l29" break="no"/>standenen,  
 Idee der Volkssouverainität zu finden, die da glaubt
 <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-die Behörden seien nichts Anderes als die bloßen Handlanger des <choice>
-                        <abbr>s.g.</abbr>
-                        <expan>sogenannt</expan>
-                    </choice> Volkswillens,<lb xml:id="p2-l2"/>
+                <lb xml:id="p2-l1" break="no"/>
+die Behörden seien nichts Anderes als die bloßen Handlanger des <choice><abbr>s.g.</abbr><expan>sogenannt</expan></choice> Volkswillens,<lb xml:id="p2-l2" break="no"/>
 wobei überdieß der Einzelne noch glaubt, in ihm sei dieser Wille verkörpert.</p>
       <p rend="indent" xml:id="K_1300_p4">
-                <lb xml:id="p2-l3"/>Ich will zwar keineswegs behaupten, <choice>
-                        <abbr>dß</abbr>
-                        <expan>daß</expan>
-                    </choice> diese Anschauung jetzt schon diejenige der<lb xml:id="p2-l4"/>
+                <lb xml:id="p2-l3"/>Ich will zwar keineswegs behaupten, <choice><abbr>dß</abbr><expan>daß</expan></choice> diese Anschauung jetzt schon diejenige der<lb xml:id="p2-l4"/>
 Mehrheit unsers Volkes sei, <hi rend="underline">sicher aber ist</hi>, daß dieselbe schon weitumher verbreitet<lb xml:id="p2-l5"/>
 ist. Die democratische Propaganda wird das Mangelnde noch nachholen. – Gewiß<lb xml:id="p2-l6"/>
 bin ich der Letzte der sich einer <hi rend="underline">vernünftigen</hi> Entwickelung unserer Institutionen im Sinne<lb xml:id="p2-l7"/>
 einer Erweiterung der Volksrechte widersetzt. Allein will man nicht der Anarchie<lb xml:id="p2-l8"/>
-zusteuern so muß man hierin mit der <hi rend="underline">größten</hi> Sorgfalt zu Werke gehen. Ver<lb break="no" xml:id="p2-l9"/>gesse  
-man nicht, daß das Volk, sind einmal die Begehrlichkeiten in ihm geweckt, Alles<lb xml:id="p2-l10"/>
-was man ihm gibt, zwar als Abschlagszahlung annimmt, aber in seinen Forderung<supplied>en</supplied> immer<lb xml:id="p2-l11"/>
-weiter geht. Wird nach den Begriffen des Volkes, oder nach den Lehren eines neuen<lb xml:id="p2-l12"/>
-				Apostels nicht genug gegeben, so wirft es die <choice>
-                        <abbr>Reg<supplied>un</supplied>g</abbr>
-                        <expan>Regierung</expan>
-                    </choice><!-- BF: <add>un entgegen Transkriptionsverifizierung gesetzt, da "Kringel" vorhanden... -->, ungeachtet, oder gerade vielleicht<lb xml:id="p2-l13"/>
+zusteuern so muß man hierin mit der <hi rend="underline">größten</hi> Sorgfalt zu Werke gehen. Ver
+                <lb xml:id="p2-l9" break="no"/>gesse  
+man nicht, daß das Volk, sind einmal die Begehrlichkeiten in ihm geweckt, Alles<lb xml:id="p2-l10" break="no"/>
+was man ihm gibt, zwar als Abschlagszahlung annimmt, aber in seinen Forderung<add>en</add> immer<lb xml:id="p2-l11" break="no"/>
+weiter geht. Wird nach den Begriffen des Volkes, oder nach den Lehren eines neuen<lb xml:id="p2-l12" break="no"/>
+				Apostels nicht genug gegeben, so wirft es die <choice><abbr>Reg<add>un</add>g</abbr><expan>Regierung</expan></choice><!-- BF: <add>un entgegen Transkriptionsverifizierung gesetzt, da "Kringel" vorhanden... -->, ungeachtet, oder gerade vielleicht<lb xml:id="p2-l13" break="no"/>
 weil sie um die Volksgunst gebuhlt hat, weg &amp; <hi rend="underline">probirt</hi> es mit einer Andern. Wer <hi rend="underline">am<lb xml:id="p2-l14"/>
-Ende</hi> dabei gewinnt, ist wohl auch dem Uneingeweihten klar. Eine echt uninteressante<lb xml:id="p2-l15"/>
-				Erscheinung in dieser Richtung <seg type="com">zeigt uns die neueste Zeit mit Bezug auf unser Salzgesetz.<note xml:id="K_1300_c5">Der <placeName type="place" key="Zürich">Zürcher</placeName> Grosse Rat verabschiedete am <date when="1853-12-29">29. Dezember 1853</date> ein Gesetz über das Salzregal. Anlass zur Diskussion gab dabei hauptsächlich § 11, mit dem der Salzpreis auf 8 Rappen pro Pfund reduziert wurde. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> Gesetz betreffend das Salzregale, in: <ref type="lit">Offizielle Sammlung Gesetze Zürich</ref> IX, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 400–404; <ref type="lit">NZZ</ref>, 28. Dezember 1853, 30. Dezember 1853.</note>
-                </seg> So<lb xml:id="p2-l16"/>
-wenig es wahr ist, so herrscht doch, wohl unstreitig im größten Theil des Publikums<lb xml:id="p2-l17"/>
-				die Ansicht, dieses Gesetz sei nur weg<supplied>en</supplied> der <seg type="com">bevorstehen<supplied>en</supplied> Wahlen<note xml:id="K_1300_c6">Am <date when="1854-05-07">7. Mai 1854</date> fanden im Kanton <placeName type="place" key="Zürich">Zürich</placeName> Grossratswahlen statt. <ref type="letter" target="K_1319"><!--→ Nr. 21--></ref>.</note>
-                </seg> erlassen worden &amp; <lb xml:id="p2-l18"/>
-selbst über die trifftigsten staatswirthschaftlichen Gründe mit welchen man<lb xml:id="p2-l19"/>
-diese Maßregel rechtfertigt, wirt<note type="transcript">sic!</note> ungläubig der Kopf geschüttelt. <hi rend="underline">Von An<lb break="no" xml:id="p2-l20"/>erkennung  
+Ende</hi> dabei gewinnt, ist wohl auch dem Uneingeweihten klar. Eine echt uninteressante<lb xml:id="p2-l15" break="no"/>
+				Erscheinung in dieser Richtung zeigt uns die neueste Zeit mit Bezug auf unser Salzgesetz.<note type="com" xml:id="K_1300_c5">Der <placeName key="Zürich">Zürcher</placeName> Grosse Rat verabschiedete am <date when="1853-12-29">29. Dezember 1853</date> ein Gesetz über das Salzregal. Anlass zur Diskussion gab dabei hauptsächlich § 11, mit dem der Salzpreis auf 8 Rappen pro Pfund reduziert wurde. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> Gesetz betreffend das Salzregale, in: <ref type="lit">Offizielle Sammlung Gesetze Zürich</ref> IX, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 400–404; <ref type="lit">NZZ</ref>, 28. Dezember 1853, 30. Dezember 1853.</note>
+                 So<lb xml:id="p2-l16" break="no"/>
+wenig es wahr ist, so herrscht doch, wohl unstreitig im größten Theil des Publikums<lb xml:id="p2-l17" break="no"/>
+				die Ansicht, dieses Gesetz sei nur weg<add>en</add> der bevorstehen<add>en</add> Wahlen<note type="com" xml:id="K_1300_c6">Am <date when="1854-05-07">7. Mai 1854</date> fanden im Kanton <placeName key="Zürich">Zürich</placeName> Grossratswahlen statt. <ref type="letter" target="K_1319"><!--→ Nr. 21--></ref>.</note>
+                 erlassen worden &amp; <lb xml:id="p2-l18" break="no"/>
+selbst über die trifftigsten staatswirthschaftlichen Gründe mit welchen man<lb xml:id="p2-l19" break="no"/>
+diese Maßregel rechtfertigt, wirt<note type="transcript">sic!</note> ungläubig der Kopf geschüttelt. <hi rend="underline">Von An
+                    <lb xml:id="p2-l20" break="no"/>erkennung  
 ist jedenfalls keine Rede.</hi> </p>
       <p rend="indent" xml:id="K_1300_p5">
                 <lb xml:id="p2-l21"/>Doch ich bin schon viel weiter gekommen, als es in meiner Absicht gelegen hat, was ich umso mehr<lb xml:id="p2-l22"/>
@@ -223,105 +85,69 @@ ein Programm verständigen &amp; dann mit demselben stehen oder fallen. <hi rend
 wird sie <hi rend="underline">mit Ehre</hi> siegen oder unterliegen. Sich drängen lassen &amp; hie &amp; da eine<lb xml:id="p2-l26"/>
 Concession machen, ist eben so verwerflich, als es ein Sichselbstaufgeben ist.<lb xml:id="p2-l27"/>
 Jede Concession ist, oder erscheint doch als eine Schwäche, lähmt die Autorität &amp; <lb xml:id="p2-l28"/>
-				reizt die Begehrlichkeit. Hat dageg<supplied>en</supplied> eine <choice>
-                        <abbr>Rg<supplied>un</supplied>g</abbr>
-                        <expan>Regierung</expan>
-                    </choice><!-- BF: <add>un entgegen Transkriptionsverifizierung gesetzt, da "Kringel" vorhanden... --> für ihr Programm die<lb xml:id="p2-l29"/>
+				reizt die Begehrlichkeit. Hat dageg<add>en</add> eine <choice><abbr>Rg<add>un</add>g</abbr><expan>Regierung</expan></choice><!-- BF: <add>un entgegen Transkriptionsverifizierung gesetzt, da "Kringel" vorhanden... --> für ihr Programm die<lb xml:id="p2-l29"/>
 Mehrheit des Volkes, so ist <add>sie</add> auch im Stande ihre Autoritaet nach<lb xml:id="p2-l30"/>
-allen Richtung<supplied>en</supplied> hin zu wahren –  &amp; dieß thut wahrlich Noth – denn die<lb xml:id="p2-l31"/>
+allen Richtung<add>en</add> hin zu wahren –  &amp; dieß thut wahrlich Noth – denn die<lb xml:id="p2-l31"/>
 Geschichte lehrt uns, daß jeder Staat dem Zerfall entgegen ging,<lb xml:id="p2-l32"/>
 in welchem die Autoritaet der Staatsgewalt schwach &amp; die Achtung vor<lb xml:id="p2-l33"/>
 dem Gesetze locker war. <pb n="3"/>
             </p>
       <p rend="indent" xml:id="K_1300_p6">
-                <lb xml:id="p3-l1"/>Ich zweifle nicht, daß meine ausgesprochenen Ansichten, entweder weg<supplied>en</supplied> übertriebener<lb xml:id="p3-l2"/>
+                <lb xml:id="p3-l1"/>Ich zweifle nicht, daß meine ausgesprochenen Ansichten, entweder weg<add>en</add> übertriebener<lb xml:id="p3-l2"/>
 Furcht vor der Ausdehnung der Demokratie, oder vielleicht weil sie allzusehr<lb xml:id="p3-l3"/>
 nach <hi>Bureau</hi>kratie riechen, belächelt werden könnten. Ich wäre für diesen Fall<lb xml:id="p3-l4"/>
 schon zum Voraus getröstet, weil ich weiß, daß ich weder das erste fürchte, noch<lb xml:id="p3-l5"/>
-das zweite liebe – sondern nur die besonnene, vernünftige Entwickelung des Staats<lb break="no" xml:id="p3-l6"/>lebens  
-im Geiste größter Freisinnigkeit anstrebe, darum aber jedes<lb xml:id="p3-l7"/>
-Beginnen verwerfe, das – geschehe es in welcher Form immer – die Fundamente<lb xml:id="p3-l8"/>
+das zweite liebe – sondern nur die besonnene, vernünftige Entwickelung des Staats
+                <lb xml:id="p3-l6" break="no"/>lebens  
+im Geiste größter Freisinnigkeit anstrebe, darum aber jedes<lb xml:id="p3-l7" break="no"/>
+Beginnen verwerfe, das – geschehe es in welcher Form immer – die Fundamente<lb xml:id="p3-l8" break="no"/>
 des Staates lockert!</p>
       <p rend="indent" xml:id="K_1300_p7">
-                <lb xml:id="p3-l9"/> <seg type="com">Euerm Wunsche gemäß wurde auf die Verordn<supplied>un</supplied>g <!-- BF: <add>un nachträglich (gem. Hinweis mb/gs) gesetzt, da "Kringel" vorhanden -->
-                    <choice>
-                            <abbr>bet.</abbr>
-                            <expan>betreffend</expan>
-                        </choice> die <choice>
-                            <abbr>Gemdspolizei</abbr>
-                            <expan>Gemeindspolizei</expan>
-                        </choice> nicht<lb xml:id="p3-l10"/>
-eingetreten.<note xml:id="K_1300_c7">Sachverhalt nicht ermittelt.</note>
-                </seg> Ich habe hiefür den Antrag zwar selbst gestellt, stimme aber<lb xml:id="p3-l11"/>
+                <lb xml:id="p3-l9"/> Euerm Wunsche gemäß wurde auf die Verordn<add>un</add>g <!-- BF: <add>un nachträglich (gem. Hinweis mb/gs) gesetzt, da "Kringel" vorhanden -->
+                    <choice><abbr>bet.</abbr><expan>betreffend</expan></choice> die <choice><abbr>Gemdspolizei</abbr><expan>Gemeindspolizei</expan></choice> nicht<lb xml:id="p3-l10"/>
+eingetreten.<note type="com" xml:id="K_1300_c7">Sachverhalt nicht ermittelt.</note>
+                 Ich habe hiefür den Antrag zwar selbst gestellt, stimme aber<lb xml:id="p3-l11"/>
 dennoch mit Euerer Anschauung durchaus nicht überein. Einmal liegt für die<lb xml:id="p3-l12"/>
-				Erlassung derselben ein Auftrag des <choice>
-                        <abbr>GR.</abbr>
-                        <expan>Grosser / Großer Rath</expan>
-                    </choice> vor; sodann habe ich die Überzeugung<lb xml:id="p3-l13"/>
-daß die Gemeinden sich bald mit derselben befreunden werd<supplied>en</supplied>, ja ich weiß<lb xml:id="p3-l14"/>
-sogar, daß viele Gemeind<supplied>en</supplied> darauf warten, um dem lästigen Bettel, der<lb xml:id="p3-l15"/>
-				die <choice>
-                        <abbr>Rg<supplied>un</supplied>g</abbr>
-                        <expan>Regierung</expan>
-                    </choice><!-- BF: <add>un entgegen Transkriptionsverifizierung gesetzt, da "Kringel" vorhanden... --> auch nicht verherrlicht, wirksam entgegen treten zu können. Wie dem<lb xml:id="p3-l16"/>
-				aber auch sei, so widerstreitet es meiner oben entwickelten Ansicht, daß eine Reg<supplied>ierun</supplied>g<!-- BF: <add>un entgegen Transkriptionsverifizierung gesetzt, da "Kringel" vorhanden... -->
+				Erlassung derselben ein Auftrag des <choice><abbr>GR.</abbr><expan>Grosser / Großer Rath</expan></choice> vor; sodann habe ich die Überzeugung<lb xml:id="p3-l13"/>
+daß die Gemeinden sich bald mit derselben befreunden werd<add>en</add>, ja ich weiß<lb xml:id="p3-l14"/>
+sogar, daß viele Gemeind<add>en</add> darauf warten, um dem lästigen Bettel, der<lb xml:id="p3-l15"/>
+				die <choice><abbr>Rg<add>un</add>g</abbr><expan>Regierung</expan></choice><!-- BF: <add>un entgegen Transkriptionsverifizierung gesetzt, da "Kringel" vorhanden... --> auch nicht verherrlicht, wirksam entgegen treten zu können. Wie dem<lb xml:id="p3-l16"/>
+				aber auch sei, so widerstreitet es meiner oben entwickelten Ansicht, daß eine Reg<add>ierun</add>g<!-- BF: <add>un entgegen Transkriptionsverifizierung gesetzt, da "Kringel" vorhanden... -->
                 <lb xml:id="p3-l17"/>
 in solchen Dingen ängstlich Politick treiben soll. Es verräth dieß offenbar<lb xml:id="p3-l18"/>
-eine durch Aengstlichkeit oder Furcht hervorgerufene Schwäche, die <choice>
-                        <abbr>sicherl.</abbr>
-                        <expan>sicherlich</expan>
-                    </choice> <lb xml:id="p3-l19"/>
+eine durch Aengstlichkeit oder Furcht hervorgerufene Schwäche, die <choice><abbr>sicherl.</abbr><expan>sicherlich</expan></choice> <lb xml:id="p3-l19"/>
 nie gut ist. Gerade in einem Augenblicke wie der gegenwärtige, soll die<lb xml:id="p3-l20"/>
-                <choice>
-                        <abbr>Rg<supplied>un</supplied>g</abbr>
-                        <expan>Regierung</expan>
-                    </choice><!-- BF: <add>un entgegen Transkriptionsverifizierung gesetzt, da "Kringel" vorhanden... --> unbeirrt in der Festhaltung ihres Principes vorschreiten &amp; dem Volke<lb xml:id="p3-l21"/>
-sagen: das ist unsere Fahne, wollt ihr zu ihr halten oder sie verlassen? <seg type="com">
+                <choice><abbr>Rg<add>un</add>g</abbr><expan>Regierung</expan></choice><!-- BF: <add>un entgegen Transkriptionsverifizierung gesetzt, da "Kringel" vorhanden... --> unbeirrt in der Festhaltung ihres Principes vorschreiten &amp; dem Volke<lb xml:id="p3-l21"/>
+sagen: das ist unsere Fahne, wollt ihr zu ihr halten oder sie verlassen? 
                     <hi>aut</hi>  –  <hi>aut</hi>
-                    <note xml:id="K_1300_c8">Aut – aut (<choice>
-                                <abbr>lat.</abbr>
-                                <expan>lateinisch</expan>
-                            </choice>): entweder – oder.</note>
-                </seg>. <lb xml:id="p3-l22"/>
+                    <note type="com" xml:id="K_1300_c8">Aut – aut (<choice><abbr>lat.</abbr><expan>lateinisch</expan></choice>): entweder – oder.</note>
+                . <lb xml:id="p3-l22"/>
 Ich würde diese Fahne um so mehr aufpflanzen, als ich der Ansicht bin, daß Viele<lb xml:id="p3-l23"/>
 Schwankende, wenn sie den Fähndrich feststehen sähen, der Fahne treu<lb xml:id="p3-l24"/>
 bleiben würden. –</p>
       <p rend="indent" xml:id="K_1300_p8">
                 <lb xml:id="p3-l25"/>Übrigens – wenn auch allerdings ein heißer Kampf stattfinden wird, glaube ich<lb xml:id="p3-l26"/>
-gleichwohl <choice>
-                        <abbr>z. Zt.</abbr>
-                        <expan>zur Zeit</expan>
-                    </choice> noch nicht, daß die socialedemokratische<note type="transcript">sic!</note> Richtung – oder wie man<lb xml:id="p3-l27"/>
+gleichwohl <choice><abbr>z. Zt.</abbr><expan>zur Zeit</expan></choice> noch nicht, daß die socialedemokratische<note type="transcript">sic!</note> Richtung – oder wie man<lb xml:id="p3-l27"/>
 sie nennen will – siegen werde, obschon dieselben<note type="transcript">sic!</note> bereits eine rührige Thätigkeit<lb xml:id="p3-l28"/>
 entwickelt. Ein andermal mehr hierüber. </p>
       <p rend="indent" xml:id="K_1300_p9">
-                <lb xml:id="p3-l29"/>Mit meiner Gesundheit geht es sehr abwechselnd, heute etwas besser, morg<supplied>en</supplied> wieder<lb xml:id="p3-l30"/>
+                <lb xml:id="p3-l29"/>Mit meiner Gesundheit geht es sehr abwechselnd, heute etwas besser, morg<add>en</add> wieder<lb xml:id="p3-l30"/>
 schlechter; heiser jedoch alle Tage. Solltest Du (was jedoch, wie ich von Herzen<lb xml:id="p3-l31"/>
 wünsche nicht der Fall sein wird) bei Deiner Rückkehr auch noch heiser sein, so
 <pb n="4"/>
                 <lb xml:id="p4-l1"/><!--Datumsangabe auf S. 4 oben rechts von fremder Hand: Zurich den 24t[en] Jan. 1854.
 				D. B.-->
-				wollen wir uns im Duettsingen üben. <seg type="com">Inzwischen vertiefe Dich nicht allzusehr<lb xml:id="p4-l2"/>
-in die katholische Theologie.<note xml:id="K_1300_c9">Bei Beratung des Universitätsgesetzes im Nationalrat im Januar 1854 herrschte Uneinigkeit, ob die katholisch-theologische Fakultät von der Universität getrennt werden solle. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 24. Januar 1854, 25. Januar 1854; <ref type="lit">Jung, Aufbruch</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 872–880.</note>
-                </seg> </p>
-    </div>
-        </body>
-    <back>
+				wollen wir uns im Duettsingen üben. Inzwischen vertiefe Dich nicht allzusehr<lb xml:id="p4-l2"/>
+in die katholische Theologie.<note type="com" xml:id="K_1300_c9">Bei Beratung des Universitätsgesetzes im Nationalrat im Januar 1854 herrschte Uneinigkeit, ob die katholisch-theologische Fakultät von der Universität getrennt werden solle. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 24. Januar 1854, 25. Januar 1854; <ref type="lit">Jung, Aufbruch</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 872–880.</note>
+                 </p>
+    </body><back>
       <div type="closer">
         <p rend="center" xml:id="K_1300_p10">
                     <lb xml:id="p4-l3"/>Sei herzlich gegrüßt von <lb xml:id="p4-l4"/>
 						Deinem</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="center" xml:id="K_1300_p11">
                     <lb xml:id="p4-l5"/>B</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

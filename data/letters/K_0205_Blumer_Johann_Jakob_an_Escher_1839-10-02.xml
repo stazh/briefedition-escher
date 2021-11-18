@@ -1,442 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0205" n="39" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Blumer an Alfred Escher, Glarus, Mittwoch, Oktober 2, 1839</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#119*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Reisen und Ausflüge</item>
-                        <item>Zürichputsch (1839)</item>
-                        <item>Universitäre Studien</item>
-                        <item>Regierungsrat ZH</item>
-                        <item>Zofingerverein (Studentenverbindung)</item>
-                        <item>Aufstände und Umsturzversuche VS</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Blumer Johann Jakob" type="sender">Johann Jakob Blumer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Glarus</placeName>
-                    <date when="1839-10-02">Mittwoch, Oktober 2, 1839</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-04-27" who="SD">Transkribiert 
-                
-            </change>
-            <change when="2005-12-19" who="BF">Auszüge verifiziert 
-                
-            </change>
-            <change when="November 2008" who="swissedit, UR">von Word nach XML konvertiert 
-                
-            </change>
-            <change when="2009-05-20" who="BF">provisorisch kommentiert
-                
-            </change>
-            <change when="2009-07-06" who="BF">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2009-07-21" who="BF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2009-08-25" who="BF">Index für Ortsregister gesetzt
-                
-            </change>
-            <change when="2009-11-17" who="BF">Umsetzung Lektorat JJ / Überarbeitung Kommentare
-                
-            </change>
-            <change when="2009-11-26" who="BF">Korrekturen 2 Haberthür übertragen
-                
-            </change>
-            <change when="2011-04-05" who="CF">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-06-20" who="TM">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-06-27" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-19" who="NH"> e-Edition: Auszeichnung Themen umgesetzt 
-                
-            </change>
-            <change when="2011-07-25" who="TM">e-Edition: Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2015-03-30" who="CA">e-Edition: Transkriptionsverifizierung Seiterle 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0205" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Blumer an Alfred Escher, Glarus, Mittwoch, 02. Oktober 1839</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Jung, Aufbruch, S. 156 (auszugsweise)</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#119*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Reisen und Ausflüge</term><term>Zürichputsch (1839)</term><term>Universitäre Studien</term><term>Regierungsrat ZH</term><term>Zofingerverein (Studentenverbindung)</term><term>Aufstände und Umsturzversuche VS</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term>Jugend- und Studentenzeit</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Blumer Johann Jakob" type="addressee">Johann Jakob Blumer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Glarus</placeName><date when="1839-10-02">02. Oktober 1839</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_0205_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1839-10-02">2. <choice>
-                            <abbr>
-                            <hi>Oct</hi>.</abbr>
-                            <expan>October</expan>
-                        </choice> 1839</date>.</p>
+        <p rend="right" xml:id="K_0205_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1839-10-02">2. <choice><abbr><hi>Oct</hi>.</abbr><expan>October</expan></choice> 1839</date>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_0205_p2">
-                    <lb xml:id="p1-l2"/>Theurer Escher!</p>
+        <p rend="indent" xml:id="K_0205_p2"><lb xml:id="p1-l2"/>Theurer Escher!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_0205_p3">
-                <lb xml:id="p1-l3"/>Du könntest mir mit vollem Rechte zürnen darüber daß<lb xml:id="p1-l4"/>
-				ich <seg type="com">Deinen letzten Brief<note xml:id="K_0205_c1">Brief nicht ermittelt.</note>
-                </seg>, den Du mir <seg type="com">aus dem Bade<note xml:id="K_0205_c2">Escher hielt sich im Sommer zur
-						Kur in <placeName type="place" key="Weissbad (Rüte-Schwende)">Weissbad</placeName> bei
-							<placeName type="place" key="Appenzell (Bezirk)">Appenzell</placeName> auf. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="letter" target="K_0199"/>; <ref type="letter" target="K_0200"><!--→ Nr. 37--></ref>.</note>
-                </seg> schriebst, nicht eher beant<lb break="no" xml:id="p1-l5"/>wortet habe, um so mehr da ich Dir noch für die gütige Bestellung
-				eines <hi>Logis</hi>,<lb xml:id="p1-l6"/> wofür ich Dich durch <seg type="ref">
-                    <persName type="person" key="Sinz Carl Rudolf">Sinz</persName>
-                    <ref type="kbp">→ Carl Rudolf Sinz</ref>
-                </seg>
-                    <seg type="com">ersuchen ließ<note xml:id="K_0205_c3">
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="letter" target="K_0199"/>.</note>
-                </seg>, zu danken hatte. Indessen wirst Du mir<lb xml:id="p1-l7"/> hoffentlich verzeihen,
-				wenn Du bedenkst, wie sehr meine Zeit in den letzten Wochen<lb xml:id="p1-l8"/> meines
-				Aufenthalts in <placeName type="place" key="Berlin (D)">Berlin</placeName> noch in Anspruch
-				genommen war <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> wie wenig Muße<lb xml:id="p1-l9"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Lust zum Briefschreiben man gewöhnlich auf Reisen hat.
-				Mit neuer Freude<lb xml:id="p1-l10"/> aber schicke ich mich jetzt dazu an, die alte
-				Pflicht zu erfüllen. Zwischen unserm<lb xml:id="p1-l11"/> letzten brieflichen Verkehr
-					<choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> dem <date when="1839-10-02">heutigen</date> Tage liegt nun
-				freilich ein bedeu<lb break="no" xml:id="p1-l12"/>tender Zwischenraum, der zuvörderst
-				einigermaßen ausgefüllt werden muß; denn<lb xml:id="p1-l13"/> es ist nicht sowohl die
-				lange Zeit, die inzwischen verflossen ist, an sich, sondern<lb xml:id="p1-l14"/> noch
-				weit mehr das Große <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Wichtige, was wir beide unterdessen
-				erlebt haben,<lb xml:id="p1-l15"/> was ihn bedeutend macht.<!--Folge von Spatien--> Seit
-				dem ich <placeName type="place" key="Berlin (D)">Berlin</placeName> den <date when="1839-08-16">16. August</date> verlassen, hat<lb xml:id="p1-l16"/>
-                    <seg type="com">eine lange <choice>
-                            <abbr>u.</abbr>
-                            <expan>und</expan>
-                        </choice> sehr intressante Reise<note xml:id="K_0205_c4">Blumers Heimreise von <placeName type="place" key="Berlin (D)">Berlin</placeName>
-						führte ihn über <placeName type="place" key="Leipzig (D)">Leipzig</placeName>, <placeName type="place" key="Dresden (D)">Dresden</placeName>, <placeName type="place" key="Prag (CZ)">Prag</placeName>, <placeName type="place" key="Linz (A)">Linz</placeName>, <placeName type="place" key="Wien (A)">Wien</placeName>, <placeName type="place" key="Salzburg (A)">Salzburg</placeName>, <placeName type="place" key="Berchtesgaden (D)">Berchtesgaden</placeName>, <placeName type="place" key="München (D)">München</placeName> und <placeName type="place" key="St. Gallen (Stadt)">St. Gallen</placeName> zurück nach <placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Blumer, Erinnerungen</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice>
-						7(b)–8(a).</note>
-                </seg>, von der ich erst <date when="1839-10-01">gestern</date> früh hier im <persName type="person" key="Blumer Adam">
-                    <persName type="person" key="Blumer-Heer Anna Katharina">elter<lb break="no" xml:id="p1-l17"/>lichen</persName>
-                </persName> Hause eingetroffen bin, mich ziemlich bedeutend verändert. Eine Beschrei<lb break="no" xml:id="p1-l18"/>bung derselben erwartest Du wohl nicht von mir: was wir zusammen
-				gesehen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> durch<lb break="no" xml:id="p1-l19"/>gemacht haben, davon kann Dir <seg type="com">
-                    <persName type="person" key="Meyer Heinrich">Heinr. Meier</persName>
-                    <note xml:id="K_0205_c5">
-                        <persName type="person" key="Meyer Heinrich">Heinrich Meyer</persName> (1817–1896),
-						von <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>, Philosophie- und
-						Rechtsstudent.</note>
-                </seg> erzählen, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> was mehr den subjekti<lb break="no" xml:id="p1-l20"/>ven Eindruck desselben auf mich betrifft, hoffe ich selbst bald
-				mündlich nachtra<lb break="no" xml:id="p1-l21"/>gen zu können. Ich sage Dir für einmal nur, daß mich die Reise an
-				Geist <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Herz<lb xml:id="p1-l22"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Körper ungemein erfrischt <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> neu
-				belebt hat, da <placeName type="place" key="Berlin (D)">Berlin</placeName>, so sehr es mich
-					in<lb xml:id="p1-l23"/> wissenschaftlicher Beziehung befriedigte, mich daneben doch
-				auch etwas steif, starr<lb xml:id="p1-l24"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <seg type="com">philisteriös<note xml:id="K_0205_c6">Philister (studentisch): jemand, der kein Student
-						ist; Bürger, Spiessbürger, Hauswirt.</note>
-                </seg> machte. Dagegen sind wohl die mannigfache Abwechslung der ver<lb break="no" xml:id="p1-l25"/>schiedenartigsten Eindrücke, die sich mir diesmal mehr als je sonst
-				darboten, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> eine<lb xml:id="p1-l26"/> beständig rege,
-				gemüthliche Geselligkeit, die sich auf Reisen beinahe immer von<lb xml:id="p1-l27"/>
+    </front><body>
+      <p rend="indent" xml:id="K_0205_p3"><lb xml:id="p1-l3"/>Du könntest mir mit vollem Rechte zürnen darüber daß<lb xml:id="p1-l4"/>
+				ich Deinen letzten Brief<note type="com" xml:id="K_0205_c1">Brief nicht ermittelt.</note>, den Du mir aus dem Bade<note type="com" xml:id="K_0205_c2">Escher hielt sich im Sommer zur
+						Kur in <placeName key="Weissbad (Rüte-Schwende)">Weissbad</placeName> bei
+							<placeName key="Appenzell (Bezirk)">Appenzell</placeName> auf. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="letter" target="K_0199"/>; <ref type="letter" target="K_0200"><!--→ Nr. 37--></ref>.</note> schriebst, nicht eher beant<lb xml:id="p1-l5" break="no"/>wortet habe, um so mehr da ich Dir noch für die gütige Bestellung
+				eines <hi>Logis</hi>,<lb xml:id="p1-l6" break="no"/> wofür ich Dich durch <rs><persName key="Sinz Carl Rudolf">Sinz</persName></rs> ersuchen ließ<note type="com" xml:id="K_0205_c3"><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="letter" target="K_0199"/>.</note>, zu danken hatte. Indessen wirst Du mir<lb xml:id="p1-l7" break="no"/> hoffentlich verzeihen,
+				wenn Du bedenkst, wie sehr meine Zeit in den letzten Wochen<lb xml:id="p1-l8" break="no"/> meines
+				Aufenthalts in <placeName key="Berlin (D)">Berlin</placeName> noch in Anspruch
+				genommen war <choice><abbr>u.</abbr><expan>und</expan></choice> wie wenig Muße<lb xml:id="p1-l9" break="no"/><choice><abbr>u.</abbr><expan>und</expan></choice> Lust zum Briefschreiben man gewöhnlich auf Reisen hat.
+				Mit neuer Freude<lb xml:id="p1-l10" break="no"/> aber schicke ich mich jetzt dazu an, die alte
+				Pflicht zu erfüllen. Zwischen unserm<lb xml:id="p1-l11" break="no"/> letzten brieflichen Verkehr
+					<choice><abbr>u.</abbr><expan>und</expan></choice> dem <date when="1839-10-02">heutigen</date> Tage liegt nun
+				freilich ein bedeu<lb xml:id="p1-l12" break="no"/>tender Zwischenraum, der zuvörderst
+				einigermaßen ausgefüllt werden muß; denn<lb xml:id="p1-l13" break="no"/> es ist nicht sowohl die
+				lange Zeit, die inzwischen verflossen ist, an sich, sondern<lb xml:id="p1-l14" break="no"/> noch
+				weit mehr das Große <choice><abbr>u.</abbr><expan>und</expan></choice> Wichtige, was wir beide unterdessen
+				erlebt haben,<lb xml:id="p1-l15" break="no"/> was ihn bedeutend macht.<!--Folge von Spatien--> Seit
+				dem ich <placeName key="Berlin (D)">Berlin</placeName> den <date when="1839-08-16">16. August</date> verlassen, hat<lb xml:id="p1-l16" break="no"/> eine lange <choice><abbr>u.</abbr><expan>und</expan></choice> sehr intressante Reise<note type="com" xml:id="K_0205_c4">Blumers Heimreise von <placeName key="Berlin (D)">Berlin</placeName>
+						führte ihn über <placeName key="Leipzig (D)">Leipzig</placeName>, <placeName key="Dresden (D)">Dresden</placeName>, <placeName key="Prag (CZ)">Prag</placeName>, <placeName key="Linz (A)">Linz</placeName>, <placeName key="Wien (A)">Wien</placeName>, <placeName key="Salzburg (A)">Salzburg</placeName>, <placeName key="Berchtesgaden (D)">Berchtesgaden</placeName>, <placeName key="München (D)">München</placeName> und <placeName key="St. Gallen (Stadt)">St. Gallen</placeName> zurück nach <placeName key="Glarus (Gemeinde)">Glarus</placeName>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Blumer, Erinnerungen</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice>
+						7(b)–8(a).</note>, von der ich erst <date when="1839-10-01">gestern</date> früh hier im <persName key="Blumer Adam"><persName key="Blumer-Heer Anna Katharina">elter<lb xml:id="p1-l17" break="no"/>lichen</persName></persName> Hause eingetroffen bin, mich ziemlich bedeutend verändert. Eine Beschrei<lb xml:id="p1-l18" break="no"/>bung derselben erwartest Du wohl nicht von mir: was wir zusammen
+				gesehen <choice><abbr>u.</abbr><expan>und</expan></choice> durch<lb xml:id="p1-l19" break="no"/>gemacht haben, davon kann Dir <persName key="Meyer Heinrich">Heinr. Meier</persName><note type="com" xml:id="K_0205_c5"><persName key="Meyer Heinrich">Heinrich Meyer</persName> (1817–1896),
+						von <placeName key="Zürich (Stadt)">Zürich</placeName>, Philosophie- und
+						Rechtsstudent.</note> erzählen, <choice><abbr>u.</abbr><expan>und</expan></choice> was mehr den subjekti<lb xml:id="p1-l20" break="no"/>ven Eindruck desselben auf mich betrifft, hoffe ich selbst bald
+				mündlich nachtra<lb xml:id="p1-l21" break="no"/>gen zu können. Ich sage Dir für einmal nur, daß mich die Reise an
+				Geist <choice><abbr>u.</abbr><expan>und</expan></choice> Herz<lb xml:id="p1-l22" break="no"/><choice><abbr>u.</abbr><expan>und</expan></choice> Körper ungemein erfrischt <choice><abbr>u.</abbr><expan>und</expan></choice> neu
+				belebt hat, da <placeName key="Berlin (D)">Berlin</placeName>, so sehr es mich
+					in<lb xml:id="p1-l23" break="no"/> wissenschaftlicher Beziehung befriedigte, mich daneben doch
+				auch etwas steif, starr<lb xml:id="p1-l24" break="no"/><choice><abbr>u.</abbr><expan>und</expan></choice> philisteriös<note type="com" xml:id="K_0205_c6">Philister (studentisch): jemand, der kein Student
+						ist; Bürger, Spiessbürger, Hauswirt.</note> machte. Dagegen sind wohl die mannigfache Abwechslung der ver<lb xml:id="p1-l25" break="no"/>schiedenartigsten Eindrücke, die sich mir diesmal mehr als je sonst
+				darboten, <choice><abbr>u.</abbr><expan>und</expan></choice> eine<lb xml:id="p1-l26" break="no"/> beständig rege,
+				gemüthliche Geselligkeit, die sich auf Reisen beinahe immer von<lb xml:id="p1-l27" break="no"/>
 				selbst giebt<note type="transcript">sic!</note>, die vortrefflichsten Gegenmittel.
-				Merkwürdige Städte, schöne Gegen<lb break="no" xml:id="p1-l28"/>den <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> meistens gute Gesellschaft trafen
-				hier zusammen, um mir diese Reise äußerst<lb xml:id="p1-l29"/> angenehm zu machen. Mein
-				Plan war anfänglich, auch das <placeName type="place" key="Tirol">Tyrol</placeName> wenigstens
-					<pb n="2"/>
-                    <lb xml:id="p2-l1"/> zum Theil noch mitzunehmen; allein in <placeName type="place" key="München (D)">München</placeName> empfand ich theils wirkliche Sättigung<lb xml:id="p2-l2"/> am Reisen, theils erwachte durch das Wiedersehen einiger lieben
-				Freunde in mir eine gewal<lb break="no" xml:id="p2-l3"/>tige Sehnsucht nach der Heimath, theils nahmen die <seg type="ref">Ereignisse in
-						<placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-                    <ref type="sum" target="Hochschulmotion_d1.2"><!--Zürichputsch → S. 40–42--></ref>
-                </seg> meine volle Aufmerk<lb break="no" xml:id="p2-l4"/>samkeit in Anspruch <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> beunruhigten mich in
-				Bezug auf meine Erwartungen vom nächsten<lb xml:id="p2-l5"/> Winter. Ich wünschte mich
-				darüber mit <seg type="ref">
-                    <persName type="person" key="Aepli Arnold Otto">Aepli</persName>
-                    <ref type="kbp">→ Arnold Otto Aepli</ref>
-                </seg> in <placeName type="place" key="St. Gallen (Stadt)">St. Gallen</placeName> zu besprechen,
-				traf ihn aber lei<lb break="no" xml:id="p2-l6"/>der dort nicht an. Du wirst mir gerne glauben, daß mich Manches zu
-				Euch nach <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> zog,<lb xml:id="p2-l7"/>
+				Merkwürdige Städte, schöne Gegen<lb xml:id="p1-l28" break="no"/>den <choice><abbr>u.</abbr><expan>und</expan></choice> meistens gute Gesellschaft trafen
+				hier zusammen, um mir diese Reise äußerst<lb xml:id="p1-l29" break="no"/> angenehm zu machen. Mein
+				Plan war anfänglich, auch das <placeName key="Tirol">Tyrol</placeName> wenigstens
+					<pb n="2"/><lb xml:id="p2-l1" break="no"/> zum Theil noch mitzunehmen; allein in <placeName key="München (D)">München</placeName> empfand ich theils wirkliche Sättigung<lb xml:id="p2-l2" break="no"/> am Reisen, theils erwachte durch das Wiedersehen einiger lieben
+				Freunde in mir eine gewal<lb xml:id="p2-l3" break="no"/>tige Sehnsucht nach der Heimath, theils nahmen die <rs>Ereignisse in
+						<placeName key="Zürich (Stadt)">Zürich</placeName><ref type="sum" target="Hochschulmotion_d1.2"><!--Zürichputsch → S. 40–42--></ref></rs> meine volle Aufmerk<lb xml:id="p2-l4" break="no"/>samkeit in Anspruch <choice><abbr>u.</abbr><expan>und</expan></choice> beunruhigten mich in
+				Bezug auf meine Erwartungen vom nächsten<lb xml:id="p2-l5" break="no"/> Winter. Ich wünschte mich
+				darüber mit <rs><persName key="Aepli Arnold Otto">Aepli</persName></rs> in <placeName key="St. Gallen (Stadt)">St. Gallen</placeName> zu besprechen,
+				traf ihn aber lei<lb xml:id="p2-l6" break="no"/>der dort nicht an. Du wirst mir gerne glauben, daß mich Manches zu
+				Euch nach <placeName key="Zürich (Stadt)">Zürich</placeName> zog,<lb xml:id="p2-l7" break="no"/>
 				aber wäre ich noch hingekommen, so hätte ich doch mehrere Tage verweilen müssen,
-					<choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> das konnte<lb xml:id="p2-l8"/> ich nicht, weil <seg type="com">
-                    <persName type="person" key="Blumer-Heer Anna Katharina">
-                        <persName type="person" key="Blumer Adam">meine Eltern</persName>
-                    </persName>
-                    <note xml:id="K_0205_c7">
-                        <persName type="person" key="Blumer-Heer Anna Katharina">Anna Katharina
-							Blumer-Heer</persName> (1791–1873), Tochter der <persName type="person" key="Heer-Zwicky Susanna">Susanna Heer-Zwicky</persName> und des Ratsherrn
-							<persName type="person" key="Heer-Zwicky Joachim">Joachim Heer-Zwicky</persName>,
-						und <persName type="person" key="Blumer Adam">Adam Blumer</persName> (1785–1859),
-						Kaufmann, <placeName type="place" key="Glarus">Glarner</placeName> Gemeindepräsident
-						und Appellationsrichter (<placeName type="place" key="Glarus">GL</placeName>).</note>
-                </seg> mit Sehnsucht auf mich harrten <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> mich selber doch vor
-					Allem<lb xml:id="p2-l9"/> die Heimath anzog. Die Freuden des Wiedersehens brauche
-				ich Dir nicht zu schildern, da<lb xml:id="p2-l10"/> Du sie selbst erlebt hast; in diesen
-				Augenblicken habe ich erfahren, was mir sonst gar<lb xml:id="p2-l11"/> nicht immer so
-				klar war, daß auch ich mit ganzer Seele an der Scholle hänge, auf der ich<lb xml:id="p2-l12"/> geboren bin, an dem rauhen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> doch
-				wunderlieblichen Gebirgsthale, dessen Vorzüge<lb xml:id="p2-l13"/> ich jetzt erst zu
-				schätzen weiß. Auch Du, mein Freund! hast unterdessen manche<lb xml:id="p2-l14"/>
+					<choice><abbr>u.</abbr><expan>und</expan></choice> das konnte<lb xml:id="p2-l8" break="no"/> ich nicht, weil <persName key="Blumer-Heer Anna Katharina"><persName key="Blumer Adam">meine Eltern</persName></persName><note type="com" xml:id="K_0205_c7"><persName key="Blumer-Heer Anna Katharina">Anna Katharina
+							Blumer-Heer</persName> (1791–1873), Tochter der <persName key="Heer-Zwicky Susanna">Susanna Heer-Zwicky</persName> und des Ratsherrn
+							<persName key="Heer-Zwicky Joachim">Joachim Heer-Zwicky</persName>,
+						und <persName key="Blumer Adam">Adam Blumer</persName> (1785–1859),
+						Kaufmann, <placeName key="Glarus">Glarner</placeName> Gemeindepräsident
+						und Appellationsrichter (<placeName key="Glarus">GL</placeName>).</note> mit Sehnsucht auf mich harrten <choice><abbr>u.</abbr><expan>und</expan></choice> mich selber doch vor
+					Allem<lb xml:id="p2-l9" break="no"/> die Heimath anzog. Die Freuden des Wiedersehens brauche
+				ich Dir nicht zu schildern, da<lb xml:id="p2-l10" break="no"/> Du sie selbst erlebt hast; in diesen
+				Augenblicken habe ich erfahren, was mir sonst gar<lb xml:id="p2-l11" break="no"/> nicht immer so
+				klar war, daß auch ich mit ganzer Seele an der Scholle hänge, auf der ich<lb xml:id="p2-l12" break="no"/> geboren bin, an dem rauhen <choice><abbr>u.</abbr><expan>und</expan></choice> doch
+				wunderlieblichen Gebirgsthale, dessen Vorzüge<lb xml:id="p2-l13" break="no"/> ich jetzt erst zu
+				schätzen weiß. Auch Du, mein Freund! hast unterdessen manche<lb xml:id="p2-l14" break="no"/>
 				bedeutende Erfahrungen gemacht; Du kannst versichert seyn, daß ich oft an Dich
-				dachte <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p2-l15"/> mich gern an Deine Stelle versetzte bei den Berichten, die ich aus
-				Deiner Vaterstadt ver<lb break="no" xml:id="p2-l16"/>nahm. Die erste Kunde von Eurer Revolution – so darf man ja wohl
-				die Bewegung nennen –<lb xml:id="p2-l17"/> die mir in <placeName type="place" key="Linz (A)">Linz</placeName> in einem ganz kurzen Artikel der <choice>
-                        <abbr>Allg.</abbr>
-                        <expan>Allgemein</expan>
-                    </choice>
-				Zeitung zukam, machte mich im<lb xml:id="p2-l18"/> höchsten Grade betroffen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> gespannt auf nähere Aufschlüsse; denn ich konnte gar nicht
-					begreifen,<lb xml:id="p2-l19"/> wie nach dem ganz ruhigen Sommer ein solcher Sturm
-				ausgebrochen seyn konnte, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> daß<lb xml:id="p2-l20"/> die
+				dachte <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p2-l15" break="no"/> mich gern an Deine Stelle versetzte bei den Berichten, die ich aus
+				Deiner Vaterstadt ver<lb xml:id="p2-l16" break="no"/>nahm. Die erste Kunde von Eurer Revolution – so darf man ja wohl
+				die Bewegung nennen –<lb xml:id="p2-l17" break="no"/> die mir in <placeName key="Linz (A)">Linz</placeName> in einem ganz kurzen Artikel der <choice><abbr>Allg.</abbr><expan>Allgemein</expan></choice>
+				Zeitung zukam, machte mich im<lb xml:id="p2-l18" break="no"/> höchsten Grade betroffen <choice><abbr>u.</abbr><expan>und</expan></choice> gespannt auf nähere Aufschlüsse; denn ich konnte gar nicht
+					begreifen,<lb xml:id="p2-l19" break="no"/> wie nach dem ganz ruhigen Sommer ein solcher Sturm
+				ausgebrochen seyn konnte, <choice><abbr>u.</abbr><expan>und</expan></choice> daß<lb xml:id="p2-l20" break="no"/> die
 				Regierung etwas fester sitzen würde, hatte ich natürlich auch geglaubt. Seither
-					habe<lb xml:id="p2-l21"/> ich darüber soviel gelesen, gehört <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> nachgedacht, daß mir nun das Ereigniß in seinen<lb xml:id="p2-l22"/>
-				innern, nothwendigen Gründen ziemlich klar geworden ist, wenn ich auch die nächste äuß<lb break="no" xml:id="p2-l23"/>re Veranlassung, wodurch das Volk zu jenem hohen Grade der
-				Erbitterung gebracht<lb xml:id="p2-l24"/> wurde, noch nicht ganz
-					begreif<del>lich</del>
-                    <add>en</add>
-                    <del>ist</del>
-                    <add>kann</add>
-                    <note type="transcript">nachträgliche Korrekturen</note>. Daß die gestürzte Regierung in jeder Beziehung zu<lb xml:id="p2-l25"/>
-				schwach war, daß die Parthei, auf welche sie sich stützte, neben vielem Großen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Treffli<lb break="no" xml:id="p2-l26"/>chen, was sie für den Canton herbeiführte, doch auch zu gerechter
-				Unzufriedenheit An<lb break="no" xml:id="p2-l27"/>laß gab, muß ich annehmen; aber daß die Heilung der Mängel am
-					Staatsorganismus<lb xml:id="p2-l28"/> auf diese heillos stürmische, ungesetzliche
-				Weise, die gewiß von den traurigsten Fol<lb break="no" xml:id="p2-l29"/>gen seyn wird, versucht <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> unternommen
-				wurde, muß ich sehr bedauern, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> die Mittel,<lb xml:id="p2-l30"/> die zur Aufregung des Volkes angewandt worden sind, werde ich nie billigen
-					können.<lb xml:id="p2-l31"/> Dies in kurzem meine Meinung, so weit ich sie mir bis
-				dahin habe bilden können, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p2-l32"/> nun zu meiner persönlichen Angelegenheit! Ich muß nämlich
-				befürchten, daß die <pb n="3"/>
-                    <lb xml:id="p3-l1"/> Veränderung auch für mich nicht <supplied type="unclear">...n</supplied>
-                    <note type="transcript">Fehlstelle</note> seyn könnte, indem Eure juristische
-      	Fakultät<lb xml:id="p3-l2"/> darunter bedeutend leiden dürfte. <supplied type="unclear">...</supplied>
-                    <note type="transcript">Fehlstelle</note>
-					Gerücht habe ich gehört, daß <seg type="ref">
-                    <persName type="person" key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName>
-                    <ref type="kbp">→ Friedrich Ludwig Keller</ref>
-                </seg>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> für immer<lb xml:id="p3-l3"/>
-				verlassen wolle, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ich muß <supplied type="unclear">demselben</supplied>
-                    <note type="transcript">Fehlstelle</note> immerhin einige Wahrscheinlichkeit
-				beilegen; ebenso<lb xml:id="p3-l4"/> kann ich mir kaum denken, daß unser jetzt in den
-				Regierungsrath erhobne <seg type="com">
-                    <persName type="person" key="Bluntschli Johann Caspar">Bluntschli</persName>
-                    <note xml:id="K_0205_c8">
-                        <persName type="person" key="Bluntschli Johann Caspar">Johann Caspar
-							Bluntschli</persName> (1808–1881), Grossrat und Regierungsrat (<placeName type="place" key="Zürich">ZH</placeName>), ordentlicher Professor für <placeName type="place" key="Römisches Reich">römisches</placeName>, <placeName type="place" key="Deutschland">deutsches</placeName>
-						und schweizerisches Recht an der Universität <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.</note>
-                </seg> seine<lb xml:id="p3-l5"/> Professur behalten werde, jedenfalls werden seine
-				Leistungen dann nicht mehr bedeutend seyn.<lb xml:id="p3-l6"/> Ich möchte daher jetzt
-				Deine Gefälligkeit noch einmal in Anspruch nehmen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Dich
-				bitten, mir<lb xml:id="p3-l7"/> sobald als möglich zu schreiben, was von beiden Leuten
-					<choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> dann auch was überhaupt vom näch<lb break="no" xml:id="p3-l8"/>sten Semester für uns zu erwarten ist, da man doch jetzt wohl Alles
-				bestimmt wissen<lb xml:id="p3-l9"/> muß.<!--Folge von Spatien--> Sollte <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> meinen Erwartungen nicht
-				entsprechen, so könnte ich mich vielleicht<lb xml:id="p3-l10"/> noch entschließen, nach
-					<placeName type="place" key="Heidelberg (D)">Heidelberg</placeName> zu gehen, wo ich mich
-				vorzüglich auf's Kriminalrecht<lb xml:id="p3-l11"/> legen würde, wozu ich in der letzten
-				Zeit auch bedeutende Lust bekommen habe. Ich hatte mich<lb xml:id="p3-l12"/> indessen
-				mit dem Gedanken, nach <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> zu
-				gehen, schon so völlig befreundet<del>e</del>, daß mir ge<lb break="no" xml:id="p3-l13"/>wiß schon der Gedanke an die bloße Möglichkeit der Nichtausführung
-				dieses Plans sehr<lb xml:id="p3-l14"/> wehe that; kannst Du mich also in demselben
-				bestärken, so wird es mir um so lieber<lb xml:id="p3-l15"/> seyn.</p>
-      <p rend="indent" xml:id="K_0205_p4">
-                <lb xml:id="p3-l16"/>Mit Bedauern vernahm ich gleich nach meinem Eintritte in die
+					habe<lb xml:id="p2-l21" break="no"/> ich darüber soviel gelesen, gehört <choice><abbr>u.</abbr><expan>und</expan></choice> nachgedacht, daß mir nun das Ereigniß in seinen<lb xml:id="p2-l22" break="no"/>
+				innern, nothwendigen Gründen ziemlich klar geworden ist, wenn ich auch die nächste äuß<lb xml:id="p2-l23" break="no"/>re Veranlassung, wodurch das Volk zu jenem hohen Grade der
+				Erbitterung gebracht<lb xml:id="p2-l24" break="no"/> wurde, noch nicht ganz
+					begreif<del>lich</del><add>en</add> <del>ist</del> <add>kann</add><note type="transcript">nachträgliche Korrekturen</note>. Daß die gestürzte Regierung in jeder Beziehung zu<lb xml:id="p2-l25" break="no"/>
+				schwach war, daß die Parthei, auf welche sie sich stützte, neben vielem Großen <choice><abbr>u.</abbr><expan>und</expan></choice> Treffli<lb xml:id="p2-l26" break="no"/>chen, was sie für den Canton herbeiführte, doch auch zu gerechter
+				Unzufriedenheit An<lb xml:id="p2-l27" break="no"/>laß gab, muß ich annehmen; aber daß die Heilung der Mängel am
+					Staatsorganismus<lb xml:id="p2-l28" break="no"/> auf diese heillos stürmische, ungesetzliche
+				Weise, die gewiß von den traurigsten Fol<lb xml:id="p2-l29" break="no"/>gen seyn wird, versucht <choice><abbr>u.</abbr><expan>und</expan></choice> unternommen
+				wurde, muß ich sehr bedauern, <choice><abbr>u.</abbr><expan>und</expan></choice> die Mittel,<lb xml:id="p2-l30" break="no"/> die zur Aufregung des Volkes angewandt worden sind, werde ich nie billigen
+					können.<lb xml:id="p2-l31" break="no"/> Dies in kurzem meine Meinung, so weit ich sie mir bis
+				dahin habe bilden können, <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p2-l32" break="no"/> nun zu meiner persönlichen Angelegenheit! Ich muß nämlich
+				befürchten, daß die <pb n="3"/><lb xml:id="p3-l1" break="no"/> Veränderung auch für mich nicht <add type="?">...n</add> <note type="transcript">Fehlstelle</note> seyn könnte, indem Eure juristische
+      	Fakultät<lb xml:id="p3-l2" break="no"/> darunter bedeutend leiden dürfte. <add type="?">...</add> <note type="transcript">Fehlstelle</note>
+					Gerücht habe ich gehört, daß <rs><persName key="Keller (vom Steinbock) Friedrich Ludwig">Keller</persName></rs> <placeName key="Zürich (Stadt)">Zürich</placeName> für immer<lb xml:id="p3-l3" break="no"/>
+				verlassen wolle, <choice><abbr>u.</abbr><expan>und</expan></choice> ich muß <add type="?">demselben</add> <note type="transcript">Fehlstelle</note> immerhin einige Wahrscheinlichkeit
+				beilegen; ebenso<lb xml:id="p3-l4" break="no"/> kann ich mir kaum denken, daß unser jetzt in den
+				Regierungsrath erhobne <persName key="Bluntschli Johann Caspar">Bluntschli</persName><note type="com" xml:id="K_0205_c8"><persName key="Bluntschli Johann Caspar">Johann Caspar
+							Bluntschli</persName> (1808–1881), Grossrat und Regierungsrat (<placeName key="Zürich">ZH</placeName>), ordentlicher Professor für <placeName key="Römisches Reich">römisches</placeName>, <placeName key="Deutschland">deutsches</placeName>
+						und schweizerisches Recht an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName>.</note> seine<lb xml:id="p3-l5" break="no"/> Professur behalten werde, jedenfalls werden seine
+				Leistungen dann nicht mehr bedeutend seyn.<lb xml:id="p3-l6" break="no"/> Ich möchte daher jetzt
+				Deine Gefälligkeit noch einmal in Anspruch nehmen <choice><abbr>u.</abbr><expan>und</expan></choice> Dich
+				bitten, mir<lb xml:id="p3-l7" break="no"/> sobald als möglich zu schreiben, was von beiden Leuten
+					<choice><abbr>u.</abbr><expan>und</expan></choice> dann auch was überhaupt vom näch<lb xml:id="p3-l8" break="no"/>sten Semester für uns zu erwarten ist, da man doch jetzt wohl Alles
+				bestimmt wissen<lb xml:id="p3-l9" break="no"/> muß.<!--Folge von Spatien--> Sollte <placeName key="Zürich (Stadt)">Zürich</placeName> meinen Erwartungen nicht
+				entsprechen, so könnte ich mich vielleicht<lb xml:id="p3-l10" break="no"/> noch entschließen, nach
+					<placeName key="Heidelberg (D)">Heidelberg</placeName> zu gehen, wo ich mich
+				vorzüglich auf's Kriminalrecht<lb xml:id="p3-l11" break="no"/> legen würde, wozu ich in der letzten
+				Zeit auch bedeutende Lust bekommen habe. Ich hatte mich<lb xml:id="p3-l12" break="no"/> indessen
+				mit dem Gedanken, nach <placeName key="Zürich (Stadt)">Zürich</placeName> zu
+				gehen, schon so völlig befreundet<del>e</del>, daß mir ge<lb xml:id="p3-l13" break="no"/>wiß schon der Gedanke an die bloße Möglichkeit der Nichtausführung
+				dieses Plans sehr<lb xml:id="p3-l14" break="no"/> wehe that; kannst Du mich also in demselben
+				bestärken, so wird es mir um so lieber<lb xml:id="p3-l15" break="no"/> seyn.</p>
+      <p rend="indent" xml:id="K_0205_p4"><lb xml:id="p3-l16"/>Mit Bedauern vernahm ich gleich nach meinem Eintritte in die
 					Schweiz,<lb xml:id="p3-l17"/> daß das Zofingerfest wenige Tage vorher gehalten
 				worden sey; hätte ich dies früher<lb xml:id="p3-l18"/> gewußt, so würde ich wohl, wenn
 				es angegangen wäre, meine Reise deßhalb ein wenig<lb xml:id="p3-l19"/> abgekürzt haben.
-				Indessen muß man sich nach längrer Abwesenheit auch in alles Heimische<lb xml:id="p3-l20"/> allmählig <note type="transcript">sic!</note> wieder hinein finden, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> so ist
-				wohl auch zwischen mich <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> den <seg type="ref">
-                    <choice>
-                            <abbr>Zof.</abbr>
-                            <expan>Zofinger</expan>
-                        </choice> Verein<ref type="sum" target="Zofingerverein_d1"><!--S. 22–36--></ref>
-                </seg> <lb xml:id="p3-l21"/> eine Kluft gekommen, die nur durch längern Aufenthalt im
-				Vaterlande wieder ausge<lb break="no" xml:id="p3-l22"/>füllt werden kann. Daß ich mich aber für den Verein immer sehr
-      	intressire, weißst <note type="transcript">sic!</note> Du, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ich<lb xml:id="p3-l23"/> ersuche Dich
-				mir um so mehr von Euerm Feste zu berichten, als dasselbe ja auch für<lb xml:id="p3-l24"/> die ältern, ausgetretnen Mitglieder bestimmt war. Ich muß aber beinahe
-					befürchten,<lb xml:id="p3-l25"/> daß <del>d</del>es nicht der günstige Moment zu einer solchen
-				Vereinigung war. – Ich habe<lb xml:id="p3-l26"/> so eben die <add>letzten</add>
-                    <seg type="com">Verhandlungen
-					der Tagsatzung über <placeName type="place" key="Wallis">Wallis</placeName>
-                    <note xml:id="K_0205_c9">Das deutschsprachige <placeName type="place" key="Oberwallis">Oberwallis</placeName> und das französischsprachige <placeName type="place" key="Unterwallis">Unterwallis</placeName> stritten um Rechtsgleichheit und
+				Indessen muß man sich nach längrer Abwesenheit auch in alles Heimische<lb xml:id="p3-l20"/> allmählig <note type="transcript">sic!</note> wieder hinein finden, <choice><abbr>u.</abbr><expan>und</expan></choice> so ist
+				wohl auch zwischen mich <choice><abbr>u.</abbr><expan>und</expan></choice> den <rs><choice><abbr>Zof.</abbr><expan>Zofinger</expan></choice> Verein<ref type="sum" target="Zofingerverein_d1"><!--S. 22–36--></ref></rs> <lb xml:id="p3-l21"/> eine Kluft gekommen, die nur durch längern Aufenthalt im
+				Vaterlande wieder ausge<lb xml:id="p3-l22" break="no"/>füllt werden kann. Daß ich mich aber für den Verein immer sehr
+      	intressire, weißst <note type="transcript">sic!</note> Du, <choice><abbr>u.</abbr><expan>und</expan></choice> ich<lb xml:id="p3-l23" break="no"/> ersuche Dich
+				mir um so mehr von Euerm Feste zu berichten, als dasselbe ja auch für<lb xml:id="p3-l24" break="no"/> die ältern, ausgetretnen Mitglieder bestimmt war. Ich muß aber beinahe
+					befürchten,<lb xml:id="p3-l25" break="no"/> daß <del>d</del>es nicht der günstige Moment zu einer solchen
+				Vereinigung war. – Ich habe<lb xml:id="p3-l26" break="no"/> so eben die <add>letzten</add> Verhandlungen
+					der Tagsatzung über <placeName key="Wallis">Wallis</placeName><note type="com" xml:id="K_0205_c9">Das deutschsprachige <placeName key="Oberwallis">Oberwallis</placeName> und das französischsprachige <placeName key="Unterwallis">Unterwallis</placeName> stritten um Rechtsgleichheit und
 						eine Beschränkung kirchlicher Privilegien. Einer neuen Verfassung, die unter
-							<choice>
-                                <abbr>eidg.</abbr>
-                                <expan>eidgenössisch</expan>
-                            </choice> Vermittlung ausgearbeitet und im
-						August 1839 verabschiedet wurde, verweigerte das <placeName type="place" key="Oberwallis">Oberwallis</placeName> die Anerkennung. Als deshalb im
-						Herbst 1839 militärische Auseinandersetzungen und eine Spaltung des <placeName type="place" key="Wallis">Kantons</placeName> drohten, beschränkte sich die
+							<choice><abbr>eidg.</abbr><expan>eidgenössisch</expan></choice> Vermittlung ausgearbeitet und im
+						August 1839 verabschiedet wurde, verweigerte das <placeName key="Oberwallis">Oberwallis</placeName> die Anerkennung. Als deshalb im
+						Herbst 1839 militärische Auseinandersetzungen und eine Spaltung des <placeName key="Wallis">Kantons</placeName> drohten, beschränkte sich die
 						Tagsatzung auf weitere Vermittlungsversuche. Im Frühjahr 1840 brach der
-						Bürgerkrieg offen aus. Nach dem militärischen Sieg der <placeName type="place" key="Unterwallis">Unterwalliser</placeName> wurde der Kanton <placeName type="place" key="Wallis">Wallis</placeName> unter der Verfassung vom August
-						1839 vereinigt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Fetscherin, Repertorium</ref> I, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 719–750; <ref type="lit">Seiler, Wallis</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 3–51; <ref type="lit">Fibicher, Walliser
-							Geschichte</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 117–124.</note>
-                </seg> gelesen, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> bejammre, be<lb break="no" xml:id="p3-l27"/>daure ihre Inkonsequenz, die ihr vollends alles moralische Ansehen
-					rauben<lb xml:id="p3-l28"/> muß. – Grüße mir meinen Reisegefährten <persName type="person" key="Meyer Heinrich">Meier</persName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> sage ihm, daß ich noch in der<lb xml:id="p3-l29"/> letzten
-				Nacht meiner Reise zwischen <placeName type="place" key="Flawil">Flawyl</placeName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <placeName type="place" key="Lichtensteig">Lichtensteg</placeName>
-                    <note type="transcript">sic!</note> mit dem Postwagen<lb xml:id="p3-l30"/> umgeschmissen worden bin <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> von daher
-      	einige Wunden am Kopfe habe, die mich<lb xml:id="p3-l31"/> Ausgehen <note type="transcript">sic!</note> hindern. Lebwohl,
-				mein Lieber! <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> schreibe mir bald.</p>
-    </div>
-        </body>
-    <back>
+						Bürgerkrieg offen aus. Nach dem militärischen Sieg der <placeName key="Unterwallis">Unterwalliser</placeName> wurde der Kanton <placeName key="Wallis">Wallis</placeName> unter der Verfassung vom August
+						1839 vereinigt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Fetscherin, Repertorium</ref> I, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 719–750; <ref type="lit">Seiler, Wallis</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 3–51; <ref type="lit">Fibicher, Walliser
+							Geschichte</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 117–124.</note> gelesen, <choice><abbr>u.</abbr><expan>und</expan></choice> bejammre, be<lb xml:id="p3-l27" break="no"/>daure ihre Inkonsequenz, die ihr vollends alles moralische Ansehen
+					rauben<lb xml:id="p3-l28" break="no"/> muß. – Grüße mir meinen Reisegefährten <persName key="Meyer Heinrich">Meier</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> sage ihm, daß ich noch in der<lb xml:id="p3-l29" break="no"/> letzten
+				Nacht meiner Reise zwischen <placeName key="Flawil">Flawyl</placeName> <choice><abbr>u.</abbr><expan>und</expan></choice> <placeName key="Lichtensteig">Lichtensteg</placeName> <note type="transcript">sic!</note> mit dem Postwagen<lb xml:id="p3-l30" break="no"/> umgeschmissen worden bin <choice><abbr>u.</abbr><expan>und</expan></choice> von daher
+      	einige Wunden am Kopfe habe, die mich<lb xml:id="p3-l31" break="no"/> Ausgehen <note type="transcript">sic!</note> hindern. Lebwohl,
+				mein Lieber! <choice><abbr>u.</abbr><expan>und</expan></choice> schreibe mir bald.</p>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_0205_p5">
-                    <lb xml:id="p3-l32"/>Dein treuer</p>
+        <p rend="center" xml:id="K_0205_p5"><lb xml:id="p3-l32"/>Dein treuer</p>
       </div><!--Folge von Spatien-->
-      <div type="address">
-        <p rend="right" xml:id="K_0205_p6">
-                    <lb xml:id="p3-l33"/>J. J. Blumer.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_0205_p6"><lb xml:id="p3-l33"/>J. J. Blumer.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

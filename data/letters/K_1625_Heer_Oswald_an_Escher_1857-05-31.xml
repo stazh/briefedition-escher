@@ -1,154 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1625" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Oswald Heer an Alfred Escher, Zürich, Sonntag, Mai 31, 1857</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>ZBZ</institution>
-                        <idno type="original">Nachl. O. Heer 184.2</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Reisen und Ausflüge</item>
-                        <item>Haus und Garten (Bewirtschaftung)</item>
-                        <item>Personelle Angelegenheiten</item>
-                        <item>Tunnelbau</item>
-                        <item>Unglücksfälle</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Heer Oswald" type="sender">Oswald Heer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1857-05-31">Sonntag, Mai 31, 1857</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-04-12" who="SD">Transkribiert
-                
-            </change>
-            <change when="2013-06-20" who="AO">Migration nach XML
-                
-            </change>
-            <change when="2013-06-24" who="NB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-12" who="MA">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-22" who="CB">Migrationsverifizierung
-                
-            </change>
-            <change when="2013-07-25" who="JS">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-08-21" who="LH">Transkriptionsverifizierung T. Binder
-          umgesetzt
-                
-            </change>
-            <change when="2013-08-21" who="KB">Übertragung Transkriptionsverifizierung T. Binder
-          geprüft
-                
-            </change>
-            <change when="2013-10-28" who="LB">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-            <change when="2013-12-10" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1625" type="Brief"><teiHeader><fileDesc><titleStmt><title>Oswald Heer an Alfred Escher, Zürich, Sonntag, 31. Mai 1857</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>ZBZ</institution><idno>Nachl. O. Heer 184.2</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Reisen und Ausflüge</term><term>Haus und Garten (Bewirtschaftung)</term><term>Personelle Angelegenheiten</term><term>Tunnelbau</term><term>Unglücksfälle</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Heer Oswald" type="addressee">Oswald Heer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1857-05-31">31. Mai 1857</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
         <p rend="left" xml:id="K_1625_p1">
                     <lb xml:id="p1-l1"/>Mein theurer Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="left" xml:id="K_1625_p2">
                 <lb xml:id="p1-l2"/>Das Regenwetter, das leider eingetreten, hat uns <date when="1857-05-31">heute</date> Mittag wieder von <lb xml:id="p1-l3"/>
-                <placeName type="place" key="Zug (Stadt)">Zug</placeName> heimgetrieben und unseren botanischen Ausflug nach <placeName type="place" key="Engelberg">
-                    <hi>Engelberg</hi>
-                </placeName> <lb xml:id="p1-l4"/>vereitelt. Ich traf zu Hause beiliegenden
+                <placeName key="Zug (Stadt)">Zug</placeName> heimgetrieben und unseren botanischen Ausflug nach <placeName key="Engelberg"><hi>Engelberg</hi></placeName> <lb xml:id="p1-l4"/>vereitelt. Ich traf zu Hause beiliegenden
         Brief von <hi>
-                    <persName type="person" key="Hämmerli">Hämmerli</persName>
-                </hi>, <lb xml:id="p1-l5"/>botanisch.<!--TM, keine Abkürzung--> Gärtner in <placeName type="place" key="Basel-Stadt">Basel</placeName>, dem ich in
+                    <persName key="Hämmerli">Hämmerli</persName>
+                </hi>, <lb xml:id="p1-l5"/>botanisch.<!--TM, keine Abkürzung--> Gärtner in <placeName key="Basel-Stadt">Basel</placeName>, dem ich in
         Angelegenheit Deiner <lb xml:id="p1-l6"/>Gärtnerstelle geschrieben habe. Wie Du siehst empfiehlt
         er einen <lb xml:id="p1-l7"/>Gärtner <hi>
-                    <persName type="person" key="End Max">Max End</persName> </hi>
+                    <persName key="End Max">Max End</persName> </hi>
         und legt mir die Zeugnisse desselben bei. <lb xml:id="p1-l8"/>Aus denselben geht hervor, daß er
-        als Gehilfe seit dem <choice>
-                        <abbr>J.</abbr>
-                        <expan>Jahr</expan>
-                    </choice> 1849 <lb xml:id="p1-l9"/>an verschiedenen Orten
+        als Gehilfe seit dem <choice><abbr>J.</abbr><expan>Jahr</expan></choice> 1849 <lb xml:id="p1-l9"/>an verschiedenen Orten
         (bei Handelsgärtnern, in Privatgärten und <lb xml:id="p1-l10"/>im Park und Gemüsegarten des
         Rittergutes <hi>
-                    <placeName type="place" key="Stechau (Fichtwald, D)">Stechau</placeName> </hi>) gedient
+                    <placeName key="Stechau (Fichtwald, D)">Stechau</placeName> </hi>) gedient
         hat. Alle <lb xml:id="p1-l11"/>diese Zeugnisse lauten in Betreff des Fleißes und Betragens, wie
           <lb xml:id="p1-l12"/>seiner Kenntniße im Gärtnerfach sehr günstig und scheint dieser Mann <lb xml:id="p1-l13"/>daher der Berücksichtigung sehr werth zu sein. Ich habe <hi>
-                    <persName type="person" key="Hämmerli">Hämmerli</persName> </hi> nur <lb xml:id="p1-l14"/>geschrieben, daß
+                    <persName key="Hämmerli">Hämmerli</persName> </hi> nur <lb xml:id="p1-l14"/>geschrieben, daß
         ich für einen Freund nach einem Gärtner mich <lb xml:id="p1-l15"/>umsehe ohne Deinen Namen zu
         nennen; ferner habe ihm gesagt, <lb xml:id="p1-l16"/>daß dieser Gärtner nebst freier Wohnung und
-        Kost, ein <hi>Salarium</hi> <lb xml:id="p1-l17"/>von <choice>
-                        <abbr>Fr.</abbr>
-                        <expan>Franken / Francs / Franchi</expan>
-                    </choice> 500
+        Kost, ein <hi>Salarium</hi> <lb xml:id="p1-l17"/>von <choice><abbr>Fr.</abbr><expan>Franken / Francs / Franchi</expan></choice> 500
         erhalten würde. </p>
       <p rend="indent" xml:id="K_1625_p3">
                 <lb xml:id="p1-l18"/>
-        <del>
-                    <supplied type="unclear">...</supplied>
-                </del>
-                <hi> <persName type="person" key="Theiler">Theiler</persName>
+        <del><add type="?">...</add></del><hi> <persName key="Theiler">Theiler</persName>
                 </hi>, von dem ich Dir <pb n="2"/>
-                <lb xml:id="p2-l1"/>in meinem <date when="1857-05-29"> <seg type="ref">vorgestrigen<ref type="letter" target="K_1623"/>
-                    </seg> </date> geschrieben habe, ist wie
+                <lb xml:id="p2-l1"/>in meinem <date when="1857-05-29"> <rs>vorgestrigen<ref type="letter" target="K_1623"/>
+                    </rs> </date> geschrieben habe, ist wie
         es scheint, nicht <lb xml:id="p2-l2"/>hierher gekommen; wenigstens hat er sich bis jetzt noch
         nicht bei mir <lb xml:id="p2-l3"/>gemeldet.</p>
       <p rend="indent" xml:id="K_1625_p4">
                 <lb xml:id="p2-l4"/>Das Unglück am <hi>
-                    <placeName type="place" key="Hauenstein (Pass)">Hauenstein</placeName> </hi>
+                    <placeName key="Hauenstein (Pass)">Hauenstein</placeName> </hi>
                 <note type="transcript">Brandunglück vom 28. Mai 1857 beim Bau des
           Hauensteintunnels; 63 Arbeiter kamen dabei ums Leben</note> ist entsetzlich. Nach
         Berichten von <lb xml:id="p2-l5"/>Augenzeugen, die <date when="1857-05-30">gestern</date> Abend von
-          <placeName type="place" key="Olten">Olten</placeName> hierher zurückkamen, ist der <lb xml:id="p2-l6"/>Jammer der armen Leute, <del>welche</del> deren Verwandte dabei betheiligt, <lb xml:id="p2-l7"/>herzzerreißend.
+          <placeName key="Olten">Olten</placeName> hierher zurückkamen, ist der <lb xml:id="p2-l6"/>Jammer der armen Leute, <del>welche</del> deren Verwandte dabei betheiligt, <lb xml:id="p2-l7"/>herzzerreißend.
         Noch immer ist es unmöglich zu den Verschütteten <lb xml:id="p2-l8"/>zu gelangen<note type="transcript">die
           Rettungsarbeiten dauerten 8 Tage lang</note> über deren Schicksaal man in gräßlicher
         Ungewißheit <lb xml:id="p2-l9"/>schwebt.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="indent" xml:id="K_1625_p5">
-                    <lb xml:id="p2-l10"/>Unter den herzlichsten Grüßen an Dich und <lb xml:id="p2-l11"/>die <choice>
-                        <abbr>l.</abbr>
-                        <expan>lieb</expan>
-                    </choice> Deinigen </p>
+                    <lb xml:id="p2-l10"/>Unter den herzlichsten Grüßen an Dich und <lb xml:id="p2-l11"/>die <choice><abbr>l.</abbr><expan>lieb</expan></choice> Deinigen </p>
         <p rend="right" xml:id="K_1625_p6">
                     <lb xml:id="p2-l12"/>Dein treu Ergebener</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_1625_p7">
                     <lb xml:id="p2-l13"/>
           Osw. Heer
@@ -157,10 +60,8 @@
       <div type="dateline">
         <p rend="left" xml:id="K_1625_p8">
                     <lb xml:id="p2-l14"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
          <date when="1857-05-31">Pfingstsonntag.
            <lb xml:id="p2-l15"/>57</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

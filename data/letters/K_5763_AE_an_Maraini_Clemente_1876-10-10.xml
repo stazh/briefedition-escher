@@ -1,137 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5763" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Clemente Maraini, Zürich, Dienstag, Oktober 10, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Entwurf">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_006</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Presse (allgemein)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Maraini Clemente" type="addressee">Clemente Maraini</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1876-10-10">Dienstag, Oktober 10, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-01-10" who="NP">transkribiert
-                
-            </change>
-            <change when="2014-06-24" who="MB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-06-26" who="JM">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-09" who="JM">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-17" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-            <change when="2014-07-28" who="SWK">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-07-29" who="IB">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-11-11" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-11" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5763" type="Brief" subtype="Entwurf"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Clemente Maraini, Zürich, Dienstag, 10. Oktober 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_006</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Presse (allgemein)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Maraini Clemente" type="sender">Clemente Maraini</persName><placeName>Zürich</placeName><date when="1876-10-10">10. Oktober 1876</date></correspAction><correspAction type="received"><placeName>Lugano</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_5763_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_5763_c0">Nachträgliche Notiz oben links von dritter Hand: <bibl>
-                                <persName type="person" key="Lochmann">L</persName>/<supplied type="unclear">
-                                    <date when="1876-10-10">10</date> </supplied>
-                            </bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>, le <date when="1876-10-10">10 Octobre 1876</date> </p>
+        <p rend="right" xml:id="K_5763_p1"> <note type="com" xml:id="K_5763_c0">Nachträgliche Notiz oben links von dritter Hand: <orig><persName key="Lochmann">L</persName>/<add type="?"><date when="1876-10-10">10</date> </add></orig>.</note> <lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zurich</placeName>, le <date when="1876-10-10">10 Octobre 1876</date> </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_5763_p2">
-                    <lb xml:id="p1-l2"/>Cher Monsieur</p>
+        <p rend="indent" xml:id="K_5763_p2"><lb xml:id="p1-l2"/>Cher Monsieur</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_5763_p3">
-                <lb xml:id="p1-l3"/>Je vous confirme ma <seg type="ref">lettre<ref type="letter" target="K_5759"/>
-                </seg> du <date when="1876-09-26">26</date>/<date when="1876-09-27">27
-            <lb xml:id="p1-l4"/>Septembre <choice>
-                            <abbr>d<hi rend="sup">r</hi>
-                    </abbr>
-                            <expan>dernier (letzter)</expan>
-                        </choice> </date>
+    </front><body>
+      <p rend="indent" xml:id="K_5763_p3"><lb xml:id="p1-l3"/>Je vous confirme ma <rs>lettre<ref type="letter" target="K_5759"/></rs> du <date when="1876-09-26">26</date>/<date when="1876-09-27">27
+            <lb xml:id="p1-l4"/>Septembre <choice><abbr>d<hi rend="sup">r</hi></abbr><expan>dernier (letzter)</expan></choice> </date>
 	</p>
-      <p rend="indent" xml:id="K_5763_p4">
-                <lb xml:id="p1-l5"/>J'ai bien reçu vos télégrammes de <placeName type="place" key="Lesa (I)">Lesa</placeName> <date when="1876-10-04">4
-	<lb xml:id="p1-l6"/>Octobre</date> et <del>de</del> d'<placeName type="place" key="Arona (I)">Arona</placeName> <date when="1876-10-06">6 Octobre</date>, répondant au mien
+      <p rend="indent" xml:id="K_5763_p4"><lb xml:id="p1-l5"/>J'ai bien reçu vos télégrammes de <placeName key="Lesa (I)">Lesa</placeName> <date when="1876-10-04">4
+	<lb xml:id="p1-l6"/>Octobre</date> et <del>de</del> d'<placeName key="Arona (I)">Arona</placeName> <date when="1876-10-06">6 Octobre</date>, répondant au mien
 	<lb xml:id="p1-l7"/>du <date when="1876-10-03">3</date> même mois concernant des soumissions
-	<lb xml:id="p1-l8"/>
-                <placeName type="place" key="Italien (Königreich)">italiennes</placeName> pour les travaux du <placeName type="place" key="St. Gotthard (Pass)">Gothard</placeName>.
+	<lb xml:id="p1-l8"/><placeName key="Italien (Königreich)">italiennes</placeName> pour les travaux du <placeName key="St. Gotthard (Pass)">Gothard</placeName>.
 	</p>
-      <p rend="indent" xml:id="K_5763_p5">
-                <lb xml:id="p1-l9"/>Le but de la présente est de vous donner
+      <p rend="indent" xml:id="K_5763_p5"><lb xml:id="p1-l9"/>Le but de la présente est de vous donner
 	<lb xml:id="p1-l10"/>copie d'une lettre qui nous a été adressée par
-	<lb xml:id="p1-l11"/>
-                <choice>
-                        <abbr>M.</abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Raimondi Giacomo">Giacomo Rajmondi</persName> de <placeName type="place" key="Mailand (I)">Milan</placeName> et de la réponse
+	<lb xml:id="p1-l11"/><choice><abbr>M.</abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Raimondi Giacomo">Giacomo Rajmondi</persName> de <placeName key="Mailand (I)">Milan</placeName> et de la réponse
 	<lb xml:id="p1-l12"/>qui lui a été faite par notre Direction. Comme
 	<lb xml:id="p1-l13"/>je pars du point de vue que c'est entre vos
 	<lb xml:id="p1-l14"/>mains que doit se concentrer notre action vis-à-vis
-	<lb xml:id="p1-l15"/>de la presse <placeName type="place" key="Italien (Königreich)">italienne</placeName> <del>dans</del> <add>touchant</add> la question du <placeName type="place" key="St. Gotthard (Pass)">Gothard</placeName>,
+	<lb xml:id="p1-l15"/>de la presse <placeName key="Italien (Königreich)">italienne</placeName> <del>dans</del> <add>touchant</add> la question du <placeName key="St. Gotthard (Pass)">Gothard</placeName>,
 	<lb xml:id="p1-l16"/>j'ai cru devoir vous communiquer ces deux
 	<lb xml:id="p1-l17"/>pièces.
 	</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_5763_p6">
-                    <lb xml:id="p1-l18"/>Agréez, cher Monsieur, mes salutations affectueuses
-	<lb xml:id="p1-l19"/>Votre dévoué <seg type="com">
-                        <note xml:id="K_5763_c1">Brieftext von dritter Hand ohne Unterschrift.</note>
-                    </seg> </p>
+        <p rend="indent" xml:id="K_5763_p6"><lb xml:id="p1-l18"/>Agréez, cher Monsieur, mes salutations affectueuses
+	<lb xml:id="p1-l19"/>Votre dévoué <note type="com" xml:id="K_5763_c1">Brieftext von dritter Hand ohne Unterschrift.</note> </p>
       </div>
-      <div type="attachment">
-                <p rend="indent" xml:id="K_5763_p7">
-                    <lb xml:id="p1-l20"/>2 Annexes mentionnées.</p> </div>
-      <div type="address">
-        <p rend="left" xml:id="K_5763_p8">
-                    <lb xml:id="p1-l21"/>Monsieur Clément Maraini, Ingénieur
-	<lb xml:id="p1-l22"/>à <placeName type="place" key="Lugano">Lugano</placeName> <lb xml:id="p1-l23"/>à faire suivre au besoin.</p>
+      <div type="attachment"><p rend="indent" xml:id="K_5763_p7"><lb xml:id="p1-l20"/>2 Annexes mentionnées.</p> </div>
+      <div type="opener">
+        <p rend="left" xml:id="K_5763_p8"><lb xml:id="p1-l21"/>Monsieur Clément Maraini, Ingénieur
+	<lb xml:id="p1-l22"/>à <placeName key="Lugano">Lugano</placeName> <lb xml:id="p1-l23"/>à faire suivre au besoin.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

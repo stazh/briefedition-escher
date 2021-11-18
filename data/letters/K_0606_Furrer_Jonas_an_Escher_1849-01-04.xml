@@ -1,105 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0606" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jonas Furrer an Alfred Escher, s.l., Donnerstag, Januar 4, 1849</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#220*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Krankheiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Furrer Jonas" type="sender">Jonas Furrer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>s.l.</placeName>
-                    <date when="1849-01-04">Donnerstag, Januar 4, 1849</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-05-09" who="BF">Transkribiert</change>
-            <change when="2010-02-26" who="SW">Von Word nach XML konvertiert</change>
-            <change when="2012-06-04" who="GW">Auszeichnung 1 gesetzt</change>
-            <change when="2012-06-11" who="TM">Verifizierung 1 gesetzt</change>
-            <change when="2012-07-06" who="SCK">Auszeichnung 2 umgesetzt</change>
-            <change when="2012-06-20" who="LM">Migrationsverifizierung umgesetzt</change>
-            <change when="2012-06-27" who="LM">Migrationsverifizierung umgesetzt</change>
-            <change when="2012-07-16" who="TM">Verifizierung 2 umgesetzt</change>
-            <change when="2012-08-22" who="CA">Inhaltliche Qualitätskontrolle
-        umgesetzt</change>
-            <change when="2013-01-18" who="JM">Transkriptverifizierung T. Binder umgesetzt</change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0606" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jonas Furrer an Alfred Escher, s.l., Donnerstag, 04. Januar 1849</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#220*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Krankheiten</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Furrer Jonas" type="addressee">Jonas Furrer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><date when="1849-01-04">04. Januar 1849</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="left" xml:id="K_0606_p1">
-                    <lb xml:id="p1-l1"/>Lieber Freund!</p>
+        <p rend="left" xml:id="K_0606_p1"><lb xml:id="p1-l1"/>Lieber Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_0606_p2">
-                    <lb xml:id="p1-l2"/>Es thut mir außerordentlich leid, daß ich<lb xml:id="p1-l3"/>
-nicht mitkomm<supplied>en</supplied> kann. Allein ich bin heiser<lb xml:id="p1-l4"/>
-                    <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> würde natürlich für Wochen lang krank,<lb xml:id="p1-l5"/>
+    </front><body>
+      <p rend="left" xml:id="K_0606_p2"><lb xml:id="p1-l2"/>Es thut mir außerordentlich leid, daß ich<lb xml:id="p1-l3"/>
+nicht mitkomm<add>en</add> kann. Allein ich bin heiser<lb xml:id="p1-l4"/><choice><abbr>u</abbr><expan>und</expan></choice> würde natürlich für Wochen lang krank,<lb xml:id="p1-l5"/>
 wenn ich ausgehen, oder gar unbedekt auf die<lb xml:id="p1-l6"/>
-Straße stehn würde, wie es bey Beerdigung<supplied>en</supplied> <lb xml:id="p1-l7"/>
-üblich ist. Sey so gut, mich bey <persName type="person" key="Wieland Johann Jakob">
-                        <hi>Weilands</hi>
-                    </persName> Ver<lb break="no" xml:id="p1-l8"/>wandten
+Straße stehn würde, wie es bey Beerdigung<add>en</add> <lb xml:id="p1-l7"/>
+üblich ist. Sey so gut, mich bey <persName key="Wieland Johann Jakob"><hi>Weilands</hi></persName> Ver<lb xml:id="p1-l8" break="no"/>wandten
 zu entschuldigen. –</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_0606_p3">
-                    <lb xml:id="p1-l9"/>
-          Freundschaftl<supplied>ich
-          </supplied> grüßend<lb xml:id="p1-l10"/>
+        <p rend="center" xml:id="K_0606_p3"><lb xml:id="p1-l9"/>
+          Freundschaftl<add>ich
+          </add> grüßend<lb xml:id="p1-l10"/>
 Dein
 </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0606_p4">
-                    <lb xml:id="p1-l11"/>
+      <div type="signature">
+        <p rend="right" xml:id="K_0606_p4"><lb xml:id="p1-l11"/>
 					F J
 				</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_0606_p5">
-                    <lb xml:id="p1-l12"/>
+        <p rend="left" xml:id="K_0606_p5"><lb xml:id="p1-l12"/>
           <hi>Datum</hi>
-         <date when="1849-01-04">4 <choice>
-                            <abbr>
-                                <hi>Jan</hi> </abbr>
-                            <expan>Januar</expan>
-                        </choice> 49</date>
+         <date when="1849-01-04">4 <choice><abbr><hi>Jan</hi> </abbr><expan>Januar</expan></choice> 49</date>
           <lb xml:id="p1-l13"/>
 im Bett Morgens früh
 </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

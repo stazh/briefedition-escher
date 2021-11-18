@@ -1,142 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0647" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Heinrich Arter an Alfred Escher, s.l., Montag, Juni 11, 1849</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#98*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Wahlen</item>
-                        <item>Bezirksrat Zürich</item>
-                        <item>Gemeinderat Enge</item>
-                        <item>Regierungsrat ZH</item>
-                        <item>Rechtliches</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Arter Heinrich" type="sender">Heinrich Arter</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>s.l.</placeName>
-                    <date when="1849-06-11">Montag, Juni 11, 1849</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-10-04" who="MW">Transkribiert
-
-                
-            </change>
-            <change when="April 2009" who="swissedit, UR">von Word nach XML konvertiert
-
-                
-            </change>
-            <change when="2009-09-17" who="SW">XML validiert
-                
-            </change>
-            <change when="2010-03-05" who="SW">Metadaten vervollständigt
-                
-            </change>
-            <change when="2012-06-06" who="AH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-12" who="GW">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-20" who="LM">Migrationsverifizierung umgesetzt
-                
-                
-            </change>
-            <change when="2012-06-27" who="LM">Migrationsverifizierung umgesetzt
-                
-                
-            </change>
-            <change when="2012-07-06" who="SCK">Auszeichnung 2 umgesetzt
-                
-                
-            </change>
-            <change when="2012-06-28" who="SCK">Auszeichnung 2 umgesetzt
-                
-                
-            </change>
-            <change when="2012&#xA;&#x9;&#x9;&#x9;-07-19" who="LM&#xA;&#x9;&#x9;&#x9;">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2012&#xA;&#x9;&#x9;&#x9;-07-23" who="TM&#xA;&#x9;&#x9;&#x9;">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2017-07-06" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-            <change when="2012&#xA;&#x9;&#x9;&#x9;-08-15" who="ML&#xA;&#x9;&#x9;&#x9;">Überprüfung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2013-01-09" who="SW">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0647" type="Brief"><teiHeader><fileDesc><titleStmt><title>Heinrich Arter an Alfred Escher, s.l., Montag, 11. Juni 1849</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#98*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Wahlen</term><term>Bezirksrat Zürich</term><term>Gemeinderat Enge</term><term>Regierungsrat ZH</term><term>Rechtliches</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Arter Heinrich" type="addressee">Heinrich Arter</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><date when="1849-06-11">11. Juni 1849</date></correspAction><correspAction type="received"><placeName>Bern</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
         <p rend="center" xml:id="K_0647_p1">
                     <lb xml:id="p1-l1"/>Herrn Bürgermeister Doktor Alfred Escher, Präsident<lb xml:id="p1-l2"/>
-        des Hohen Nationalrathes in <placeName type="place" key="Bern (Stadt)">Bern</placeName> </p>
+        des Hohen Nationalrathes in <placeName key="Bern (Stadt)">Bern</placeName> </p>
       </div><!--Leerer Absatz-->
       <div type="opener">
         <p rend="indent" xml:id="K_0647_p2">
                     <lb xml:id="p1-l3"/>Hochgeachteter Herr!</p>
       </div><!--Leerer Absatz-->
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="left" xml:id="K_0647_p3">
-                <lb xml:id="p1-l4"/>Auf dero verehrliche <!-- <r>-->Mittheilung<!--<ref type="letter" target="?" /></r> --> vom <date when="1849-06-05">5<hi rend="sup">t</hi><!-- . entfernt, statt dessen Leerschlag, BF, 14.04.2015 --> <choice>
-                            <abbr>diß</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date> über Ihre dem<lb xml:id="p1-l5"/>
-				Herrn <persName type="person" key="Zangger Rudolf">Zangger</persName><!-- ermittelt SW --> auf dem Riedtli empfohlenen Einleitungen für die<lb xml:id="p1-l6"/>
-Wahlen der Bezirkswahlmänner des Bezirkes <placeName type="place" key="Zürich">Zürich</placeName> &amp;: der gegen<lb xml:id="p1-l7"/>
+                <lb xml:id="p1-l4"/>Auf dero verehrliche <!-- <r>-->Mittheilung<!--<ref type="letter" target="?" /></r> --> vom <date when="1849-06-05">5<hi rend="sup">t</hi><!-- . entfernt, statt dessen Leerschlag, BF, 14.04.2015 --> <choice><abbr>diß</abbr><expan>dieses [Monats]</expan></choice> </date> über Ihre dem<lb xml:id="p1-l5"/>
+				Herrn <persName key="Zangger Rudolf">Zangger</persName><!-- ermittelt SW --> auf dem Riedtli empfohlenen Einleitungen für die<lb xml:id="p1-l6"/>
+Wahlen der Bezirkswahlmänner des Bezirkes <placeName key="Zürich">Zürich</placeName> &amp;: der gegen<lb xml:id="p1-l7"/>
 mich darin ausgesprochenen Wünsche &amp;: Empfehlung für möglichste<lb xml:id="p1-l8"/>
-Einwirkung auf die <add>Liberalen</add> Wähler in der Gemeinde <placeName type="place" key="Enge (Zürich)">Enge</placeName>, um bey den zu<lb xml:id="p1-l9"/>
+Einwirkung auf die <add>Liberalen</add> Wähler in der Gemeinde <placeName key="Enge (Zürich)">Enge</placeName>, um bey den zu<lb xml:id="p1-l9"/>
 treffenden Wahlen ein ehrenhaftes Wahlergebniß zu erlangen,<lb xml:id="p1-l10"/>
 finde mich in den Stand gesetzt, Sie nunmehr von dem Ihnen<lb xml:id="p1-l11"/>
 zwar wohl schon zum Theil bekannten Ergebniß in der Gemeinde<lb xml:id="p1-l12"/>
-                <placeName type="place" key="Enge (Zürich)">Enge</placeName>, sowie auch über einiche anderweitige Angelegenheiten<lb xml:id="p1-l13"/>
+                <placeName key="Enge (Zürich)">Enge</placeName>, sowie auch über einiche anderweitige Angelegenheiten<lb xml:id="p1-l13"/>
 in Kürze genaue Mittheilung zu machen.</p>
       <p rend="left" xml:id="K_0647_p4">
-                <lb xml:id="p1-l14"/>Schon vor dem Empfang Ihrer schätzbaren Zuschrift vom <date when="1849-06-06">6<hi rend="sup">t</hi> <choice>
-                            <abbr>diß</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date> <lb xml:id="p1-l15"/>
-haben mehrere Liberale in <placeName type="place" key="Enge (Zürich)">Enge</placeName>, sich über die bevorstehenden<lb xml:id="p1-l16"/>
+                <lb xml:id="p1-l14"/>Schon vor dem Empfang Ihrer schätzbaren Zuschrift vom <date when="1849-06-06">6<hi rend="sup">t</hi> <choice><abbr>diß</abbr><expan>dieses [Monats]</expan></choice> </date> <lb xml:id="p1-l15"/>
+haben mehrere Liberale in <placeName key="Enge (Zürich)">Enge</placeName>, sich über die bevorstehenden<lb xml:id="p1-l16"/>
 Wahlen besprochen, &amp;: umso mehr noch besprechen müßen, da<lb xml:id="p1-l17"/>
-von dem Gemeindrath <placeName type="place" key="Enge (Zürich)">Enge</placeName> die Fortsetzung der Ihnen bekannten<lb xml:id="p1-l18"/>
-von dem Bezirksrath <placeName type="place" key="Zürich">Zürich</placeName> gebilligten, deßwegen an den Hohen<lb xml:id="p1-l19"/>
-Regierungsrath rekurierten, <hi rend="underline">ordentlichen Bürgergemeinds
-                </hi> 
+von dem Gemeindrath <placeName key="Enge (Zürich)">Enge</placeName> die Fortsetzung der Ihnen bekannten<lb xml:id="p1-l18"/>
+von dem Bezirksrath <placeName key="Zürich">Zürich</placeName> gebilligten, deßwegen an den Hohen<lb xml:id="p1-l19"/>
+Regierungsrath rekurierten, <hi rend="underline">ordentlichen Bürgergemeinds</hi> 
                 <lb xml:id="p1-l20"/>Versamlung &amp;: der Behandlung der hierauf vertagten Geschäfte<lb xml:id="p1-l21"/>
 so wie dann die Wahlen zweyer, eventuel dreyer Stillstandsmitglieder <pb n="2"/>
-                <lb xml:id="p2-l1"/>&amp;: von 6 Bezirkswahlmännern auf Sonntag den <date when="1849-06-10">10<hi rend="sup">t</hi> <choice>
-                            <abbr>diß</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date> <lb xml:id="p2-l2"/>
+                <lb xml:id="p2-l1"/>&amp;: von 6 Bezirkswahlmännern auf Sonntag den <date when="1849-06-10">10<hi rend="sup">t</hi> <choice><abbr>diß</abbr><expan>dieses [Monats]</expan></choice> </date> <lb xml:id="p2-l2"/>
 Nachmittags <del>2 Uhr</del> in den Adler angekündigt worden,<lb xml:id="p2-l3"/>
 gegen welche Anordnung, theils wegen der noch unerledigten<lb xml:id="p2-l4"/>
 Rekurse, theils wegen nicht Beachtung der so klaren &amp;:<lb xml:id="p2-l5"/>
@@ -144,130 +38,100 @@ deutlichen Vorschriften des Gesetzes über die Bezirks &amp;: auch<lb xml:id="p2
 Stillstandswahlen, wider an den Bezirksrath zu rekurieren<lb xml:id="p2-l7"/>
 für nothwendig gefunden worden, welch Letzterer dann auch<lb xml:id="p2-l8"/>
 in allen Theilen dem Gesuch entsprochen hat, der Präsident<lb xml:id="p2-l9"/>
-des Gemeindrathes <placeName type="place" key="Enge (Zürich)">Enge</placeName> aber dann wie gewohnt die Vorschriften<lb xml:id="p2-l10"/>&amp;. Hinweisungen auf das Gesetz durch den Bezirksrath, hinsicht<lb break="no" xml:id="p2-l11"/>lich
-der Zeit &amp;: dem Ort für Abhaltung der Versamlung, nicht<lb xml:id="p2-l12"/>
-beobachte, noch die Gemeinde in diesem Sinne neu einladen ließ.<lb xml:id="p2-l13"/>
-				Herr <persName type="person" key="Zangger Rudolf">Zangger</persName><!-- ermittelt SW --> hat Herrn Bezirksrath <persName type="person" key="Wydler Hans Konrad">Wydler</persName> in <placeName type="place" key="Wiedikon (Zürich)">Wiedikon</placeName> von<lb xml:id="p2-l14"/>
-Ihrer Mahnung in Kenntniß gesetzt, demzufolge eine Versamlung<lb xml:id="p2-l15"/>
-von Bezirkswahlmännern bey Herrn <persName type="person" key="Guggenbühl Johannes">Guggenbühl</persName> in <placeName type="place" key="Unterstrass (Zürich)">Unterstraß</placeName>
-                    <lb xml:id="p2-l16"/>
-				Freytags den <date when="1849-06-08">8<hi rend="sup">t</hi> <choice>
-                            <abbr>diß</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date> Abends angeordnet worden.</p>
+des Gemeindrathes <placeName key="Enge (Zürich)">Enge</placeName> aber dann wie gewohnt die Vorschriften<lb xml:id="p2-l10"/>&amp;. Hinweisungen auf das Gesetz durch den Bezirksrath, hinsicht
+                <lb xml:id="p2-l11" break="no"/>lich
+der Zeit &amp;: dem Ort für Abhaltung der Versamlung, nicht<lb xml:id="p2-l12" break="no"/>
+beobachte, noch die Gemeinde in diesem Sinne neu einladen ließ.<lb xml:id="p2-l13" break="no"/>
+				Herr <persName key="Zangger Rudolf">Zangger</persName><!-- ermittelt SW --> hat Herrn Bezirksrath <persName key="Wydler Hans Konrad">Wydler</persName> in <placeName key="Wiedikon (Zürich)">Wiedikon</placeName> von<lb xml:id="p2-l14" break="no"/>
+Ihrer Mahnung in Kenntniß gesetzt, demzufolge eine Versamlung<lb xml:id="p2-l15" break="no"/>
+von Bezirkswahlmännern bey Herrn <persName key="Guggenbühl Johannes">Guggenbühl</persName> in <placeName key="Unterstrass (Zürich)">Unterstraß</placeName> <lb xml:id="p2-l16" break="no"/>
+				Freytags den <date when="1849-06-08">8<hi rend="sup">t</hi> <choice><abbr>diß</abbr><expan>dieses [Monats]</expan></choice> </date> Abends angeordnet worden.</p>
       <p rend="left" xml:id="K_0647_p5">
-                <lb xml:id="p2-l17"/>Für die Gemeinde <placeName type="place" key="Enge (Zürich)">Enge</placeName> beriet &amp;. verabredete man <date when="1849-06-08">Freytags</date> &amp;: definitiv<lb xml:id="p2-l18"/>  <date when="1849-06-09">Samstags</date> &amp;. so ernstlicher, da mann einem ganz ungünstigen Ergebniß<lb xml:id="p2-l19"/>
+                <lb xml:id="p2-l17"/>Für die Gemeinde <placeName key="Enge (Zürich)">Enge</placeName> beriet &amp;. verabredete man <date when="1849-06-08">Freytags</date> &amp;: definitiv<lb xml:id="p2-l18"/>  <date when="1849-06-09">Samstags</date> &amp;. so ernstlicher, da mann einem ganz ungünstigen Ergebniß<lb xml:id="p2-l19"/>
 entgegen zu sehen fürchtete.</p>
       <p rend="left" xml:id="K_0647_p6">
-                <lb xml:id="p2-l20"/>Die Wahlen der Gemeinde <placeName type="place" key="Enge (Zürich)">Enge</placeName> sind nun aber ganz den Vorarbeiten der<lb xml:id="p2-l21"/>
+                <lb xml:id="p2-l20"/>Die Wahlen der Gemeinde <placeName key="Enge (Zürich)">Enge</placeName> sind nun aber ganz den Vorarbeiten der<lb xml:id="p2-l21"/>
 Liberalen entsprechend ausgefallen</p>
-      <table width="150%">
-        <row xml:id="p2-l22">
+      <table>
+        <row>
           <cell>Gewählt wurden im</cell>
-          <cell>1<hi rend="sup">t</hi>
-                    </cell>
+          <cell>1<hi rend="sup">t</hi></cell>
           <cell>Wahlgang mit</cell>
           <cell>48</cell>
           <cell>von</cell>
           <cell>60</cell>
           <cell>Stimmen</cell>
-          <cell>Herr Bürgermstr. <choice>
-                                <abbr>
-                            <hi>D<hi rend="sup">r</hi>
-                            </hi>
-                        </abbr>
-                                <expan>Doktor / Doctor</expan>
-                            </choice> Alf<hi rend="sup">d</hi> Escher.</cell> </row>
-        <row xml:id="p2-l23">
-          <cell rend="center">"</cell>
+          <cell>Herr Bürgermstr. <choice><abbr><hi>D<hi rend="sup">r</hi></hi></abbr><expan>Doktor / Doctor</expan></choice> Alf<hi rend="sup">d</hi> Escher.</cell> </row>
+        <row>
+          <cell>"</cell>
           <cell>1</cell>
-          <cell rend="center">"</cell>
+          <cell>"</cell>
           <cell>47</cell>
-          <cell rend="center">"</cell>
+          <cell>"</cell>
           <cell>60</cell>
           <cell>--------</cell>
-          <cell>Bezirkgerichtspräsident  <persName type="person" key="Ullmer Rudolf Eduard">Ullmer</persName>.</cell> </row>
-        <row xml:id="p2-l24">
-          <cell rend="center">"</cell>
+          <cell>Bezirkgerichtspräsident  <persName key="Ullmer Rudolf Eduard">Ullmer</persName>.</cell> </row>
+        <row>
+          <cell>"</cell>
           <cell>1</cell>
-          <cell rend="center">"</cell>
+          <cell>"</cell>
           <cell>46</cell>
-          <cell rend="center">"</cell>
+          <cell>"</cell>
           <cell>60</cell>
           <cell>--------</cell>
           <cell>
-            <choice>
-                                <abbr>Sekelmstr</abbr>
-                                <expan>Seckelmeister</expan>
-                            </choice>
-            <persName type="person" key="Vater Bryners">Briner</persName>
+            <choice><abbr>Sekelmstr</abbr><expan>Seckelmeister</expan></choice>
+            <persName key="Vater Bryners">Briner</persName>
 							Vater.</cell> </row>
-        <row xml:id="p2-l25">
-          <cell rend="center">"</cell>
+        <row>
+          <cell>"</cell>
           <cell>1</cell>
-          <cell rend="center">"</cell>
+          <cell>"</cell>
           <cell>37.</cell>
-          <cell rend="center">"</cell>
+          <cell>"</cell>
           <cell>62</cell>
           <cell>--------</cell>
           <cell>
-            <persName type="person" key="Welti-Hauser">Welti Hauser</persName> im Kraz.</cell> </row>
-        <row xml:id="p2-l26">
-          <cell rend="center">"</cell>
+            <persName key="Welti-Hauser">Welti Hauser</persName> im Kraz.</cell> </row>
+        <row>
+          <cell>"</cell>
           <cell>2</cell>
-          <cell rend="center">"</cell>
+          <cell>"</cell>
           <cell>33</cell>
-          <cell rend="center">"</cell>
+          <cell>"</cell>
           <cell>57</cell>
           <cell>--------</cell>
-          <cell>Landschreiber <persName type="person" key="Keller Kaspar">Keller</persName>.</cell> </row>
-        <row xml:id="p2-l27">
-          <cell rend="center">"</cell>
+          <cell>Landschreiber <persName key="Keller Kaspar">Keller</persName>.</cell> </row>
+        <row>
+          <cell>"</cell>
           <cell>1</cell>
-          <cell rend="center">"</cell>
+          <cell>"</cell>
           <cell>39</cell>
-          <cell rend="center">"</cell>
+          <cell>"</cell>
           <cell>58</cell>
           <cell>--------</cell>
           <cell>
-            <choice>
-                                <abbr>Hauptm.</abbr>
-                                <expan>Hauptmann</expan>
-                            </choice>
-            <persName type="person" key="Rellstab">Rellstab</persName> in <placeName type="place" key="Leimbach (Zürich)">Leimbach</placeName>.<pb n="3"/>
+            <choice><abbr>Hauptm.</abbr><expan>Hauptmann</expan></choice>
+            <persName key="Rellstab">Rellstab</persName> in <placeName key="Leimbach (Zürich)">Leimbach</placeName>.<pb n="3"/>
                     </cell> </row>
       </table>
       <p rend="left" xml:id="K_0647_p7">
                 <lb xml:id="p3-l1"/>In den Stillstand wider die am Austritt befindlichen<lb xml:id="p3-l2"/>
-        Herrn Gemeindammann <persName type="person" key="Brändli Kaspar">Brändli</persName> &amp;: alt Schullehrer <persName type="person" key="Knüsli"><!-- LB, evt. Knüsli Heinrich, Schweizerische Monatschronik, XIII, 1828, Beilage. SW: Eher nein --> Knüsli</persName> in <placeName type="place" key="Leimbach (Zürich)">Leimbach</placeName>.<lb xml:id="p3-l3"/>
-An Herrn Stillständer <persName type="person" key="Weber">Weber</persName>, der seine Entlaßung verlangt, da Er nur<lb xml:id="p3-l4"/>
+        Herrn Gemeindammann <persName key="Brändli Kaspar">Brändli</persName> &amp;: alt Schullehrer <persName key="Knüsli"><!-- LB, evt. Knüsli Heinrich, Schweizerische Monatschronik, XIII, 1828, Beilage. SW: Eher nein --> Knüsli</persName> in <placeName key="Leimbach (Zürich)">Leimbach</placeName>.<lb xml:id="p3-l3"/>
+An Herrn Stillständer <persName key="Weber">Weber</persName>, der seine Entlaßung verlangt, da Er nur<lb xml:id="p3-l4"/>
 für eine halbe Amtsdauer anzunehmen sich zu Protokoll erklärt<lb xml:id="p3-l5"/>
-habe <choice>
-                        <abbr>
-                    <hi>ect</hi>
-                </abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice> wurden 2 Stillstandsmitglieder beauftragt, die<lb xml:id="p3-l6"/>
+habe <choice><abbr><hi>ect</hi></abbr><expan>et cetera (und anderes)</expan></choice> wurden 2 Stillstandsmitglieder beauftragt, die<lb xml:id="p3-l6"/>
 denselben zur Beybehaltung der Stelle für weitere 2 Jahre<lb xml:id="p3-l7"/>
 zu ersuchen &amp;. zu bewegen trachten sollen.</p>
       <p rend="left" xml:id="K_0647_p8">
                 <lb xml:id="p3-l8"/>Dieses ist das Ergebniß der <date when="1849-06-10">gestrigen</date> Gemeindsversamlung,<lb xml:id="p3-l9"/>
-                <hi rend="underline">gegen welches ich nicht rekuriere</hi> &amp;: auch Herr <choice>
-                        <abbr>Gemeindspräsid.</abbr>
-                        <expan>Gemeindspräsident</expan>
-                    </choice> <lb xml:id="p3-l10"/>
-                <persName type="person" key="Bruder Rudolf Eduard Ullmers">Ullmer</persName><!--Wohl nicht der gleiche wie Bez.Gr.Präs. Ullmer, der pol. Freund Eschers war. Ich meine, der Rudolf Eduard beklage sich auch in einem Brief über seinen konservativen Bruder. SCK-->, wenn schon solches ganz gegen seine Absicht <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> seinen<lb xml:id="p3-l11"/>
+                <hi rend="underline">gegen welches ich nicht rekuriere</hi> &amp;: auch Herr <choice><abbr>Gemeindspräsid.</abbr><expan>Gemeindspräsident</expan></choice> <lb xml:id="p3-l10"/>
+                <persName key="Bruder Rudolf Eduard Ullmers">Ullmer</persName><!--Wohl nicht der gleiche wie Bez.Gr.Präs. Ullmer, der pol. Freund Eschers war. Ich meine, der Rudolf Eduard beklage sich auch in einem Brief über seinen konservativen Bruder. SCK-->, wenn schon solches ganz gegen seine Absicht <choice><abbr>u</abbr><expan>und</expan></choice> seinen<lb xml:id="p3-l11"/>
 Willen ging, wird sich wohl hüten Schritte dagegen zu thun.
 </p>
       <p rend="indent" xml:id="K_0647_p9">
-                <lb xml:id="p3-l12"/>Wie Ihnen <persName type="person" key="Escher (vom Glas) Heinrich">Ihr hochachtbarer Herr Vater</persName> gemeldet &amp;: schon<lb xml:id="p3-l13"/>
-oben zum theil bemerkt, ist wirklich gegen den Beschluß des <choice>
-                        <abbr>Löb.</abbr>
-                        <expan>Löblich</expan>
-                    </choice> <lb xml:id="p3-l14"/>
+                <lb xml:id="p3-l12"/>Wie Ihnen <persName key="Escher (vom Glas) Heinrich">Ihr hochachtbarer Herr Vater</persName> gemeldet &amp;: schon<lb xml:id="p3-l13"/>
+oben zum theil bemerkt, ist wirklich gegen den Beschluß des <choice><abbr>Löb.</abbr><expan>Löblich</expan></choice> <lb xml:id="p3-l14"/>
 Bezirksrathes vom <date when="1849-05-03">3<hi rend="sup">t</hi> May</date> an den hohen Regierungsrath  &amp;: gegen<lb xml:id="p3-l15"/>
 die hierauf gestützt abgehaltene <hi rend="underline">ordentliche</hi> Gemeindsversammlung<lb xml:id="p3-l16"/>
 vom <date when="1849-05-06">6<hi rend="sup">t</hi> May</date>, &amp;: die Vertagung derselben, nebst den unerledigten<lb xml:id="p3-l17"/>
@@ -276,23 +140,14 @@ Bezirksrath rekuriert worden, ein Beschluß hierüber ist<lb xml:id="p3-l19"/>
 mir aber noch nicht bekannt.</p>
       <p rend="left" xml:id="K_0647_p10">
                 <lb xml:id="p3-l20"/>
-				Sonntags den <date when="1849-06-17">17<hi rend="sup">t</hi>. <choice>
-                            <abbr>diß</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date> Vormittags 10 Uhr ist Schulgemeindsver<lb break="no" xml:id="p3-l21"/>samlung,
+				Sonntags den <date when="1849-06-17">17<hi rend="sup">t</hi>. <choice><abbr>diß</abbr><expan>dieses [Monats]</expan></choice> </date> Vormittags 10 Uhr ist Schulgemeindsver
+                <lb xml:id="p3-l21" break="no"/>samlung,
 die auch schon auf Samstags den <date when="1849-06-16">16<hi rend="sup">t
-</hi>
-                </date> Abends 5 Uhr angesagt<lb xml:id="p3-l22"/>
-worden, &amp;: nun in Folge des Rekurses abgeändert worden.<lb xml:id="p3-l23"/>
-Zur Behandlung kommen, Abnahme der Schulgutsrechnung &amp;: Wahl<lb xml:id="p3-l24"/>
-        zweyer Mitglieder der Schulpflege für die in Austritt fallenden<lb xml:id="p3-l25"/>
-                    <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> Gemeindspräsident <persName type="person" key="Bruder Rudolf Eduard Ullmers">Ullmer</persName> &amp;: <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> Gemeindrath <persName type="person" key="Landolt auf dem Bürgli">Landolt auf dem Bürgli</persName>,<lb xml:id="p3-l26"/>
+</hi></date> Abends 5 Uhr angesagt<lb xml:id="p3-l22" break="no"/>
+worden, &amp;: nun in Folge des Rekurses abgeändert worden.<lb xml:id="p3-l23" break="no"/>
+Zur Behandlung kommen, Abnahme der Schulgutsrechnung &amp;: Wahl<lb xml:id="p3-l24" break="no"/>
+        zweyer Mitglieder der Schulpflege für die in Austritt fallenden<lb xml:id="p3-l25" break="no"/>
+                <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> Gemeindspräsident <persName key="Bruder Rudolf Eduard Ullmers">Ullmer</persName> &amp;: <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> Gemeindrath <persName key="Landolt auf dem Bürgli">Landolt auf dem Bürgli</persName>,<lb xml:id="p3-l26" break="no"/>
 				möglicherweise auch des Schulgutsverwalters.<pb n="4"/>
             </p>
       <p rend="left" xml:id="K_0647_p11">
@@ -308,30 +163,22 @@ gebracht werden könnten.</p>
 von Ihren vielen Geschäften abhalten will benutze schließlich<lb xml:id="p4-l11"/>
 noch den Anlas Sie meiner wahren Hochachtung &amp;:<lb xml:id="p4-l12"/><!--Folge von Spatien--> Ergebenheit zu versichern.
 </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="center" xml:id="K_0647_p13">
                     <lb xml:id="p4-l13"/>Dero<!-- Korrigiert von "Der" zu "Dero"; BF, 18.07.2013 --> ergebenste</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="center" xml:id="K_0647_p14">
                     <lb xml:id="p4-l14"/><!--Folge von Spatien--> Heinrich Arter
           <lb xml:id="p4-l15"/><!--Folge von Spatien-->
-                    <choice>
-                        <abbr>Zimermstr</abbr>
-                        <expan>Zimmermeister</expan>
-                    </choice> </p>
+                    <choice><abbr>Zimermstr</abbr><expan>Zimmermeister</expan></choice> </p>
       </div>
       <div type="dateline">
         <p rend="left" xml:id="K_0647_p15">
                     <lb xml:id="p4-l16"/>
 Bleicherweg den <date when="1849-06-11">11<hi rend="sup">t
-					</hi> <hi>Juny</hi>
-                        <lb xml:id="p4-l17"/><!--Folge von Spatien--> 1849</date>.  
+					</hi> <hi>Juny</hi><lb xml:id="p4-l17"/><!--Folge von Spatien--> 1849</date>.  
 </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

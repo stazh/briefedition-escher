@@ -1,611 +1,338 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1484" n="32" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Blumer an Alfred Escher, Glarus, Donnerstag, April 17, 1856</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>FA Tschudi</institution>
-                        <idno type="original"/>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Bau und Technik</item>
-                        <item>Schweizerische Südostbahn (SOB)</item>
-                        <item>Eisenbahnen Verträge</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Personelle Angelegenheiten</item>
-                        <item>Eisenbahnen Fusionen</item>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                        <item>Eisenbahnstrecken Konzessionen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Blumer Johann Jakob" type="sender">Johann Jakob Blumer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Glarus</placeName>
-                    <date when="1856-04-17">Donnerstag, April 17, 1856</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-07-25" who="WB"> transkribiert
-                
-            </change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-10-03" who="SK">kommentiert 1 prov.
-                
-            </change>
-            <change when="2006-12-05" who="SM">Konvertierung provisorisch nachbearbeitet
-                
-            </change>
-            <change when="2007-01-05" who="SM">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-01-15" who="SK">Normalisierung D/d nachbearbeitet
-                
-            </change>
-            <change when="2007-01-17" who="WB">Konvertierung nachbearbeitet
-                
-            </change>
-            <change when="2007-04-23" who="SK">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-18" who="WB">indexiert
-                
-            </change>
-            <change when="2007-05-22" who="SK">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-20" who="SK">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-23" who="SK">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2007-07-26" who="SK">Umsetzung Lektorat MK 2
-                
-            </change>
-            <change when="2008-07-24" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-12" who="AH">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-03" who="HA">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-18" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-21" who="LB">Verifizierung 2
-				umgesetzt
-                
-            </change>
-            <change when="2014-07-21" who="LB">Inhaltliche Qualitätsprüfung
-					umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1484" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Blumer an Alfred Escher, Glarus, Donnerstag, 17. April 1856</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>FA Tschudi</institution></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Bau und Technik</term><term>Schweizerische Südostbahn (SOB)</term><term>Eisenbahnen Verträge</term><term>Eisenbahnen Finanzierung</term><term>Personelle Angelegenheiten</term><term>Eisenbahnen Fusionen</term><term>Schweizerische Nordostbahn (NOB)</term><term>Öffentliche Beteiligungen (Infrastruktur)</term><term>Eisenbahnstrecken Konzessionen</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term> Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Blumer Johann Jakob" type="addressee">Johann Jakob Blumer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Glarus</placeName><date when="1856-04-17">17. April 1856</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="right" xml:id="K_1484_p1">
                     <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1856-04-17">17. April 1856</date>.</p>
+          <placeName key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1856-04-17">17. April 1856</date>.</p>
       </div>
       <div type="opener">
         <p rend="left" xml:id="K_1484_p2">
                     <lb xml:id="p1-l2"/>Mein lieber Freund! </p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_1484_p3">
-                <lb xml:id="p1-l3"/>Während <seg type="com">meines letzten Aufenthaltes in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-                    <note xml:id="K_1484_c1">Blumer war bei der auf den <date when="1856-03-26">26. März
-							1856</date> einberufenen Bundesgerichtssitzung in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 30. März 1856; <ref type="letter" target="K_1479"><!--→ Nr. 31--></ref>.</note>
-                </seg>, welcher beson<lb break="no" xml:id="p1-l4"/>ders durch den gastfreundlichen Empfang in
-				Deinem Hause so angenehm für mich<lb xml:id="p1-l5"/> wurde, haben wir in unsern
-				Gesprächen die <seg type="ref">Südostbahn<ref type="kbe">→ SOB</ref>
-                </seg> hin <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> wieder berührt <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ich<lb xml:id="p1-l6"/> habe dabei mit Vergnügen wahrgenommen, daß Du Dich für unser
-				Unternehmen, na<lb break="no" xml:id="p1-l7"/>mentlich der <placeName type="place" key="Linth">Linth</placeName>linie wegen, fortwährend sehr intereßirst. Zu einer gründlichen<lb xml:id="p1-l8"/>
-                    <seg type="com">Besprechung der gegenwärtigen kritischen Lage deßelben<note xml:id="K_1484_c2">Zur
+                <lb xml:id="p1-l3"/>Während meines letzten Aufenthaltes in <placeName key="Zürich (Stadt)">Zürich</placeName>
+                    <note type="com" xml:id="K_1484_c1">Blumer war bei der auf den <date when="1856-03-26">26. März
+							1856</date> einberufenen Bundesgerichtssitzung in <placeName key="Zürich (Stadt)">Zürich</placeName>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 30. März 1856; <ref type="letter" target="K_1479"><!--→ Nr. 31--></ref>.</note>
+                , welcher beson
+                <lb xml:id="p1-l4" break="no"/>ders durch den gastfreundlichen Empfang in
+				Deinem Hause so angenehm für mich<lb xml:id="p1-l5" break="no"/> wurde, haben wir in unsern
+				Gesprächen die <rs>Südostbahn
+                </rs> hin <choice><abbr>u.</abbr><expan>und</expan></choice> wieder berührt <choice><abbr>u.</abbr><expan>und</expan></choice> ich<lb xml:id="p1-l6" break="no"/> habe dabei mit Vergnügen wahrgenommen, daß Du Dich für unser
+				Unternehmen, na
+                <lb xml:id="p1-l7" break="no"/>mentlich der <placeName key="Linth">Linth</placeName>linie wegen, fortwährend sehr intereßirst. Zu einer gründlichen<lb xml:id="p1-l8" break="no"/> Besprechung der gegenwärtigen kritischen Lage deßelben<note type="com" xml:id="K_1484_c2">Zur
 						Auseinandersetzung zwischen der schweizerischen Sektion des Generalkomitees
-						der Schweizerischen Südostbahn und dem <placeName type="place" key="England">englischen</placeName> Konsortium <ref type="letter" target="K_1477"><!--→ Nr. 30--></ref>; <ref type="sum" target="Ostalpenbahnfrage_p22"><!--→ Band 1, S. 48--></ref>.</note>
-                </seg> ist es indeßen zwischen uns<lb xml:id="p1-l9"/> nicht gekommen, theils weil der
-				Gegenstand überhaupt zu ernst ist, um in Stunden,<lb xml:id="p1-l10"/> die mehr dem
-				Vergnügen gewidmet waren, besprochen werden zu können, theils weil<lb xml:id="p1-l11"/>
-				die Zustände der Südostbahn seit langem ein gar veränderliches Bild darbieten,<lb xml:id="p1-l12"/> so daß man nicht wohl im Allgemeinen von Dingen reden kann, die
-				von heute<lb xml:id="p1-l13"/> auf morgen eine ganz andere Gestalt annehmen können. Seit
-				der <seg type="com">letzten Sitz<lb break="no" xml:id="p1-l14"/>ung in <placeName type="place" key="Bad Ragaz">Ragaz</placeName>
-                    <note xml:id="K_1484_c3">Am <date when="1856-04-12">12. April 1856</date> fand in <placeName type="place" key="Bad Ragaz">Bad Ragaz</placeName> eine Sitzung der
-						schweizerischen Sektion des Generalkomitees statt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Originalprot. VR/GK/WK SOB</ref>, 12./13. April 1856 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 16–21).</note>
-                </seg> wißen wir indeßen schon etwas bestimmter wie wir stehen, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p1-l15"/> es bieten sich nach allen Seiten hin eben keine
-				erfreuliche<!--Transkriptionsbereinigung: [n] entfernt--> Aussichten für die<lb xml:id="p1-l16"/> Zukunft dar. Unter diesen Umständen wage ich es, Dir meine
-				Gedanken über<lb xml:id="p1-l17"/> den Stand der Südostbahn-Angelegenheit offen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> einläßlich vorzutragen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p1-l18"/> Dich zu ersuchen, mir namentlich über <hi rend="underline">eine</hi> Frage, bei
-				welcher auch <placeName type="place" key="Zürich">Zürich</placeName>
-                    <lb xml:id="p1-l19"/> betheiligt ist, Deine Ansichten mitzutheilen. Ich schreibe Dir
-				darüber absichtlich<lb xml:id="p1-l20"/> schon <date when="1856-04-17">heute</date>, damit Du
-				Dich mit Deiner Antwort nicht beeilen müßest, sondern<lb xml:id="p1-l21"/> ganz nach
-				Deiner Konvenienz ein freies Stündchen, welches Dir neben Deinen<lb xml:id="p1-l22"/> <seg type="ref">immer noch zahlreichen Geschäften<ref type="letter" target="K_1468"><!--→ Nr. 29--></ref>
-                </seg> übrig bleibt, dazu benutzen könnest. </p>
+						der Schweizerischen Südostbahn und dem <placeName key="England">englischen</placeName> Konsortium <ref type="letter" target="K_1477"><!--→ Nr. 30--></ref>; <ref type="sum" target="Ostalpenbahnfrage_p22"><!--→ Band 1, S. 48--></ref>.</note>
+                 ist es indeßen zwischen uns<lb xml:id="p1-l9" break="no"/> nicht gekommen, theils weil der
+				Gegenstand überhaupt zu ernst ist, um in Stunden,<lb xml:id="p1-l10" break="no"/> die mehr dem
+				Vergnügen gewidmet waren, besprochen werden zu können, theils weil<lb xml:id="p1-l11" break="no"/>
+				die Zustände der Südostbahn seit langem ein gar veränderliches Bild darbieten,<lb xml:id="p1-l12" break="no"/> so daß man nicht wohl im Allgemeinen von Dingen reden kann, die
+				von heute<lb xml:id="p1-l13" break="no"/> auf morgen eine ganz andere Gestalt annehmen können. Seit
+				der letzten Sitz
+                    <lb xml:id="p1-l14" break="no"/>ung in <placeName key="Bad Ragaz">Ragaz</placeName>
+                    <note type="com" xml:id="K_1484_c3">Am <date when="1856-04-12">12. April 1856</date> fand in <placeName key="Bad Ragaz">Bad Ragaz</placeName> eine Sitzung der
+						schweizerischen Sektion des Generalkomitees statt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Originalprot. VR/GK/WK SOB</ref>, 12./13. April 1856 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 16–21).</note>
+                 wißen wir indeßen schon etwas bestimmter wie wir stehen, <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p1-l15" break="no"/> es bieten sich nach allen Seiten hin eben keine
+				erfreuliche<!--Transkriptionsbereinigung: [n] entfernt--> Aussichten für die<lb xml:id="p1-l16" break="no"/> Zukunft dar. Unter diesen Umständen wage ich es, Dir meine
+				Gedanken über<lb xml:id="p1-l17" break="no"/> den Stand der Südostbahn-Angelegenheit offen <choice><abbr>u.</abbr><expan>und</expan></choice> einläßlich vorzutragen <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p1-l18" break="no"/> Dich zu ersuchen, mir namentlich über <hi rend="underline">eine</hi> Frage, bei
+				welcher auch <placeName key="Zürich">Zürich</placeName> <lb xml:id="p1-l19" break="no"/> betheiligt ist, Deine Ansichten mitzutheilen. Ich schreibe Dir
+				darüber absichtlich<lb xml:id="p1-l20" break="no"/> schon <date when="1856-04-17">heute</date>, damit Du
+				Dich mit Deiner Antwort nicht beeilen müßest, sondern<lb xml:id="p1-l21" break="no"/> ganz nach
+				Deiner Konvenienz ein freies Stündchen, welches Dir neben Deinen<lb xml:id="p1-l22" break="no"/> <rs>immer noch zahlreichen Geschäften<ref type="letter" target="K_1468"><!--→ Nr. 29--></ref>
+                </rs> übrig bleibt, dazu benutzen könnest. </p>
       <p rend="indent" xml:id="K_1484_p4">
                 <lb xml:id="p1-l23"/>Was nun zunächst die augenblickliche Sachlage betrifft, wie sie <pb n="2"/>
                 <lb xml:id="p2-l1"/> sich durch die letzte Sitzung abgeklärt hat, so läßt sich dieselbe
 				in folgende kurze Sätze<lb xml:id="p2-l2"/> zusammenfassen: Es ist nun ausgemacht, daß
-				ein <seg type="com">neuer General-Bauakkord direkt zwischen<lb xml:id="p2-l3"/>
-                    <persName type="person" key="Pickering Edward">Pickering</persName>
-                    <note xml:id="K_1484_c4">
-                        <persName type="person" key="Pickering Edward">Edward Pickering</persName>
-						(Lebensdaten nicht ermittelt), international tätiger <placeName type="place" key="England">englischer</placeName> Eisenbahnunternehmer; Generalakkordant
+				ein neuer General-Bauakkord direkt zwischen<lb xml:id="p2-l3"/>
+                    <persName key="Pickering Edward">Pickering</persName>
+                    <note type="com" xml:id="K_1484_c4">
+                        <persName key="Pickering Edward">Edward Pickering</persName>
+						(Lebensdaten nicht ermittelt), international tätiger <placeName key="England">englischer</placeName> Eisenbahnunternehmer; Generalakkordant
 						der Schweizerischen Südostbahn.</note>
-                </seg> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> uns <seg type="ref">
+                 <choice><abbr>u.</abbr><expan>und</expan></choice> uns <rs>
                     <hi rend="underline">nicht</hi> abgeschloßen werden kann;<ref type="letter" target="K_1479_c10"><!--→ Nr. 31 (Kommentar)--></ref>
-                </seg> auch ist es sehr unwahrscheinlich, daß wir auf<lb xml:id="p2-l4"/> gütlichem Wege
-				ihn <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> die übrigen <placeName type="place" key="England">englischen</placeName> Betheiligten werden abfinden können. Es stehen<lb xml:id="p2-l5"/>
+                </rs> auch ist es sehr unwahrscheinlich, daß wir auf<lb xml:id="p2-l4"/> gütlichem Wege
+				ihn <choice><abbr>u.</abbr><expan>und</expan></choice> die übrigen <placeName key="England">englischen</placeName> Betheiligten werden abfinden können. Es stehen<lb xml:id="p2-l5"/>
 				uns demnach vermuthlich lange Prozeße bevor, bei denen die Gegner alle möglichen
-					Tröle<lb break="no" xml:id="p2-l6"/>reien anwenden werden, um den endlichen Entscheid, von
-				dem sie nichts Günstiges für sich er<lb break="no" xml:id="p2-l7"/>warten, zu verzögern <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> uns dadurch mürbe zu machen, damit wir auf ihre
-					überspannten<lb xml:id="p2-l8"/> Forderungen eingehen. So lange unsre Streitigkeiten
-				mit den <placeName type="place" key="England">Engländern</placeName> nicht ausgetragen<lb xml:id="p2-l9"/> sind, können wir auch an eine definitive Reorganisation unsrer
-				Gesellschaft, welche so<lb xml:id="p2-l10"/> dringend nöthig wäre, nicht denken, sondern
-				müßen uns mit einer Art von Provisorium<lb xml:id="p2-l11"/> behelfen. Gleichwohl kann
-				der Fortbau der Südostbahn, wenn das Unternehmen nicht völlig sich<lb xml:id="p2-l12"/>
+					Tröle
+                <lb xml:id="p2-l6" break="no"/>reien anwenden werden, um den endlichen Entscheid, von
+				dem sie nichts Günstiges für sich er
+                <lb xml:id="p2-l7" break="no"/>warten, zu verzögern <choice><abbr>u.</abbr><expan>und</expan></choice> uns dadurch mürbe zu machen, damit wir auf ihre
+					überspannten<lb xml:id="p2-l8" break="no"/> Forderungen eingehen. So lange unsre Streitigkeiten
+				mit den <placeName key="England">Engländern</placeName> nicht ausgetragen<lb xml:id="p2-l9" break="no"/> sind, können wir auch an eine definitive Reorganisation unsrer
+				Gesellschaft, welche so<lb xml:id="p2-l10" break="no"/> dringend nöthig wäre, nicht denken, sondern
+				müßen uns mit einer Art von Provisorium<lb xml:id="p2-l11" break="no"/> behelfen. Gleichwohl kann
+				der Fortbau der Südostbahn, wenn das Unternehmen nicht völlig sich<lb xml:id="p2-l12" break="no"/>
 				auflösen soll, nicht länger eingestellt bleiben, sondern muß vorläufig mit dem
-					schweize<lb break="no" xml:id="p2-l13"/>rischen Aktienkapitale, auf welches wir uns nach
-				vollzogner <seg type="ref">Forfaitirung sämmtlicher <placeName type="place" key="England">englischer</placeName> <lb xml:id="p2-l14"/> Aktionnäre wahrscheinlich wieder beschränkt sehen werden,
+					schweize
+                <lb xml:id="p2-l13" break="no"/>rischen Aktienkapitale, auf welches wir uns nach
+				vollzogner <rs>Forfaitirung sämmtlicher <placeName key="England">englischer</placeName> <lb xml:id="p2-l14"/> Aktionnäre wahrscheinlich wieder beschränkt sehen werden,
 					fortgesetzt werden;<ref type="letter" target="K_1477_c3"><!--→ Nr. 30 (Kommentar)--></ref>
-                </seg>
-                    <seg type="com">dabei wird man<lb xml:id="p2-l15"/> am besten thun, irgend eine Strecke der Bahn so
-					schnell als möglich auszubauen <choice>
-                            <abbr>u.</abbr>
-                            <expan>und</expan>
-                        </choice> dem<lb xml:id="p2-l16"/>
+                </rs> dabei wird man<lb xml:id="p2-l15"/> am besten thun, irgend eine Strecke der Bahn so
+					schnell als möglich auszubauen <choice><abbr>u.</abbr><expan>und</expan></choice> dem<lb xml:id="p2-l16"/>
 					Betriebe zu übergeben, wozu sich, des vorgerückten Standes der Arbeiten wegen,
-						<placeName type="place" key="Chur">Chur</placeName>-<lb break="no" xml:id="p2-l17"/>
-                    <placeName type="place" key="Walenstadt">Wallenstadt</placeName>
-					am besten eignen würde.<note xml:id="K_1484_c5">Als erste der
-						ehemaligen Schweizerische Südostbahn-Linien wurde von den <ref type="kbe"/>Vereinigten Schweizerbahnen am <date when="1857-08-25">25. August 1857</date>
-						die Strecke <placeName type="place" key="Rorschach">Rorschach</placeName>–<placeName type="place" key="Rheineck">Rheineck</placeName> in Betrieb genommen. <placeName type="place" key="Rheineck">Rheineck</placeName>–<placeName type="place" key="Chur">Chur</placeName> folgte am <date when="1858-07-01">1. Juli 1858</date>,
-							<placeName type="place" key="Sargans">Sargans</placeName>–<placeName type="place" key="Walenstadt">Walenstadt</placeName>–<placeName type="place" key="Murg (Quarten)">Murg</placeName> am <date when="1859-02-15">15. Februar
-							1859</date>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Bauer, Eisenbahnen</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice>
+						<placeName key="Chur">Chur</placeName>-
+                    <lb xml:id="p2-l17" break="no"/>
+                    <placeName key="Walenstadt">Wallenstadt</placeName>
+					am besten eignen würde.<note type="com" xml:id="K_1484_c5">Als erste der
+						ehemaligen Schweizerische Südostbahn-Linien wurde von den Vereinigten Schweizerbahnen am <date when="1857-08-25">25. August 1857</date>
+						die Strecke <placeName key="Rorschach">Rorschach</placeName>–<placeName key="Rheineck">Rheineck</placeName> in Betrieb genommen. <placeName key="Rheineck">Rheineck</placeName>–<placeName key="Chur">Chur</placeName> folgte am <date when="1858-07-01">1. Juli 1858</date>,
+							<placeName key="Sargans">Sargans</placeName>–<placeName key="Walenstadt">Walenstadt</placeName>–<placeName key="Murg (Quarten)">Murg</placeName> am <date when="1859-02-15">15. Februar
+							1859</date>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Bauer, Eisenbahnen</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice>
 						79.</note>
-                </seg> Die <seg type="ref">auf den <date when="1856-05-23">23. Mai</date> einberufne
-						Generalversamm<lb break="no" xml:id="p2-l18"/>lung<ref type="letter" target="K_1487"><!--→ Nr. 33--></ref>
+                 Die <rs>auf den <date when="1856-05-23">23. Mai</date> einberufne
+						Generalversamm
+                    <lb xml:id="p2-l18" break="no"/>lung<ref type="letter" target="K_1487"><!--→ Nr. 33--></ref>
                     <ref type="letter" target="K_1488"><!--→ Nr. 34--></ref>
-                </seg> ist nothwendig geworden, weil in Folge des Bruchs mit den <placeName type="place" key="England">Engländern</placeName> die kompetente<lb xml:id="p2-l19"/>
-				Stellung der <seg type="ref">Direktion <choice>
-                            <abbr>u.</abbr>
-                            <expan>und</expan>
-                        </choice> des schweizerischen
+                </rs> ist nothwendig geworden, weil in Folge des Bruchs mit den <placeName key="England">Engländern</placeName> die kompetente<lb xml:id="p2-l19" break="no"/>
+				Stellung der <rs>Direktion <choice><abbr>u.</abbr><expan>und</expan></choice> des schweizerischen
 						Comite's<ref type="sum" target="Ostalpenbahnfrage_p14">SOB-Verwaltung<!-- → Band 1, S. 45–47--></ref>
-                </seg> vielfach angegriffen wird <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> wir insbe<lb break="no" xml:id="p2-l20"/>sondere nicht wagen, von uns aus neue Einzahlungen auszuschreiben;
-				da indeßen ein berei<lb break="no" xml:id="p2-l21"/>nigter Stand der Dinge derselben auch
-				nicht wird vorgelegt werden können, so sind die<lb xml:id="p2-l22"/>
+                </rs> vielfach angegriffen wird <choice><abbr>u.</abbr><expan>und</expan></choice> wir insbe
+                <lb xml:id="p2-l20" break="no"/>sondere nicht wagen, von uns aus neue Einzahlungen auszuschreiben;
+				da indeßen ein berei
+                <lb xml:id="p2-l21" break="no"/>nigter Stand der Dinge derselben auch
+				nicht wird vorgelegt werden können, so sind die<lb xml:id="p2-l22" break="no"/>
 				verschiedenartigsten Anträge in der Diskussion zu gewärtigen. Was endlich den
-					Rück<lb break="no" xml:id="p2-l23"/>tritt <seg type="ref">
-                    <persName type="person" key="La Nicca Richard">
+					Rück
+                <lb xml:id="p2-l23" break="no"/>tritt <rs>
+                    <persName key="La Nicca Richard">
                         <hi>La Nicca's</hi>
                     </persName>
-                    <ref type="kbp">→ Richard La Nicca</ref>
-                </seg> aus der <seg type="com">Direktion betrifft<note xml:id="K_1484_c6">
-                        <persName type="person" key="La Nicca Richard">La Nicca</persName> war offenbar mit
+                    
+                </rs> aus der Direktion betrifft<note type="com" xml:id="K_1484_c6">
+                        <persName key="La Nicca Richard">La Nicca</persName> war offenbar mit
 						der restlichen Führung der Schweizerischen Südostbahn in
 						Meinungsverschiedenheiten verstrickt. Als er von der
-						Vorbereitungsgesellschaft der <placeName type="place" key="Jura">Jura</placeName>gewässerkorrektion mit der Projektierung betraut wurde, benützte
+						Vorbereitungsgesellschaft der <placeName key="Jura">Jura</placeName>gewässerkorrektion mit der Projektierung betraut wurde, benützte
 						er die Gelegenheit und demissionierte am <date when="1856-04-13">13. April
 							1856</date> aus der Direktion der Schweizerischen Südostbahn. Die
 						technische Oberleitung wurde provisorisch an die Schweizerische
-						Südostbahn-Ingenieure <persName type="person" key="Gugelberg Ulysses Rudolf">Ulysses Rudolf Gugelberg</persName> und <persName type="person" key="Fischer August Friedrich">August Friedrich Fischer</persName>
-						übertragen. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Originalprot. VR/GK/WK SOB</ref>, 12./13. April 1856 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 21); <ref type="lit">Bänziger-La Nicca,
-							Richard La Nicca</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 184.</note>
-                </seg>, so kann ich denselben nur als ein<lb xml:id="p2-l24"/> glückliches Ereigniß für
-				das Unternehmen betrachten; freilich wird man bei der<lb xml:id="p2-l25"/> <seg type="com">Wahl des zukünftigen Oberingenieurs mit großer Vorsicht verfahren müßen.<note xml:id="K_1484_c7">Der bisherige Oberingenieur der Schweizerischen Südostbahn,
-						der <placeName type="place" key="Irland">irische</placeName> Eisenbahningenieur <persName type="person" key="Hemans George Willoughby">George Willoughby
+						Südostbahn-Ingenieure <persName key="Gugelberg Ulysses Rudolf">Ulysses Rudolf Gugelberg</persName> und <persName key="Fischer August Friedrich">August Friedrich Fischer</persName>
+						übertragen. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Originalprot. VR/GK/WK SOB</ref>, 12./13. April 1856 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 21); <ref type="lit">Bänziger-La Nicca,
+							Richard La Nicca</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 184.</note>
+                , so kann ich denselben nur als ein<lb xml:id="p2-l24" break="no"/> glückliches Ereigniß für
+				das Unternehmen betrachten; freilich wird man bei der<lb xml:id="p2-l25" break="no"/> Wahl des zukünftigen Oberingenieurs mit großer Vorsicht verfahren müßen.<note type="com" xml:id="K_1484_c7">Der bisherige Oberingenieur der Schweizerischen Südostbahn,
+						der <placeName key="Irland">irische</placeName> Eisenbahningenieur <persName key="Hemans George Willoughby">George Willoughby
 							Hemans</persName>, war im Januar 1856 von der schweizerischen Sektion des
-						Generalkomitees entlassen worden. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Originalprot. VR/GK/WK SOB</ref>, 16. Januar 1856 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 2); <ref type="lit">Bericht SOB 1855</ref>,
-							<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 79. – Am <date when="1856-05-24">24. Mai
-							1856</date> wurde der Ingenieur <persName type="person" key="Pestalozzi Ludwig">Ludwig Pestalozzi</persName> (1825–1867) aus <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> zum Vorstand des technischen
-						Zentralbüros gewählt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 19. August 1856.</note>
-                </seg> <pb n="3"/>
+						Generalkomitees entlassen worden. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Originalprot. VR/GK/WK SOB</ref>, 16. Januar 1856 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 2); <ref type="lit">Bericht SOB 1855</ref>,
+							<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 79. – Am <date when="1856-05-24">24. Mai
+							1856</date> wurde der Ingenieur <persName key="Pestalozzi Ludwig">Ludwig Pestalozzi</persName> (1825–1867) aus <placeName key="Zürich (Stadt)">Zürich</placeName> zum Vorstand des technischen
+						Zentralbüros gewählt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 19. August 1856.</note>
+                 <pb n="3"/>
             </p>
       <p rend="indent" xml:id="K_1484_p5">
                 <lb xml:id="p3-l1"/>So die gegenwärtige Lage der Südostbahn. Und nun die Aussichten in
-					die<lb xml:id="p3-l2"/> Zukunft? Da stellt sich freilich eine <seg type="ref">Fusion<ref type="letter" target="K_1487"><!--→ Nr. 33--></ref>
+					die<lb xml:id="p3-l2"/> Zukunft? Da stellt sich freilich eine <rs>Fusion<ref type="letter" target="K_1487"><!--→ Nr. 33--></ref>
                     <ref type="letter" target="K_1488"><!--→ Nr. 34--></ref>
                     <ref type="sum" target="Ostalpenbahnfrage_p22"><!--→ Band 1, S. 49–50--></ref>
-                </seg> <seg type="com">sämmtlicher <placeName type="place" key="Ostschweiz">ostschweizerischen</placeName> Bahnen
-					als das für uns<lb xml:id="p3-l3"/> wünschenswertheste Ereigniß dar.<note xml:id="K_1484_c8">Die an der geplanten Fusion zu den Vereinigten
-						Schweizerbahnen beteiligten Bahnen (<ref type="kbe"/>Schweizerische
-						Nordostbahn, Schweizerische Südostbahn, <ref type="kbe"/>St.
-						Gallisch-Appenzellische Eisenbahn, <ref type="kbe"/>Glattalbahn und <ref type="kbe"/>Rheinfallbahn) hatten bereits am <date when="1856-04-03">3.
-							April 1856</date> in <placeName type="place" key="Winterthur">Winterthur</placeName>
-						einen Vorvertrag zur Förderung einer Fusion unterzeichnet. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Wegmann, Vereinigte Schweizerbahnen</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 48.</note>
-                </seg> Wenn ich bis dahin mit keinem Worte in Dich gedrungen bin, daß<lb xml:id="p3-l4"/>
+                </rs> sämmtlicher <placeName key="Ostschweiz">ostschweizerischen</placeName> Bahnen
+					als das für uns<lb xml:id="p3-l3"/> wünschenswertheste Ereigniß dar.<note type="com" xml:id="K_1484_c8">Die an der geplanten Fusion zu den Vereinigten
+						Schweizerbahnen beteiligten Bahnen (Schweizerische
+						Nordostbahn, Schweizerische Südostbahn, St.
+						Gallisch-Appenzellische Eisenbahn, Glattalbahn und Rheinfallbahn) hatten bereits am <date when="1856-04-03">3.
+							April 1856</date> in <placeName key="Winterthur">Winterthur</placeName>
+						einen Vorvertrag zur Förderung einer Fusion unterzeichnet. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Wegmann, Vereinigte Schweizerbahnen</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 48.</note>
+                 Wenn ich bis dahin mit keinem Worte in Dich gedrungen bin, daß<lb xml:id="p3-l4"/>
 				Du diese Fusion befördern möchtest, so habe ich dabei keineswegs übersehen, daß für
-				das Zustande<lb break="no" xml:id="p3-l5"/>kommen derselben es gerade auf Deine Person
-				hauptsächlich ankommen wird, sondern es hat mich<lb xml:id="p3-l6"/> einzig eine gewiße
-				Delikateße, zu welcher ein Mitglied der Südostbahnverwaltung alle Veranla<lb break="no" xml:id="p3-l7"/>ßung hat, davon abgehalten. Ich bemerke hier nur, daß ich es auch in
-				politischer Hinsicht als<lb xml:id="p3-l8"/> einen großen Gewinn betrachten müßte, wenn
+				das Zustande
+                <lb xml:id="p3-l5" break="no"/>kommen derselben es gerade auf Deine Person
+				hauptsächlich ankommen wird, sondern es hat mich<lb xml:id="p3-l6" break="no"/> einzig eine gewiße
+				Delikateße, zu welcher ein Mitglied der Südostbahnverwaltung alle Veranla
+                <lb xml:id="p3-l7" break="no"/>ßung hat, davon abgehalten. Ich bemerke hier nur, daß ich es auch in
+				politischer Hinsicht als<lb xml:id="p3-l8" break="no"/> einen großen Gewinn betrachten müßte, wenn
 				die<!--<idx type="place" norm="Ostschweiz"/>-->
-                    <placeName type="place" key="Ostschweiz">Ostschweiz</placeName> unter <placeName type="place" key="Zürich">Zürich's</placeName> Leitung
-				sich einigen<lb xml:id="p3-l9"/> würde gegenüber der, unter den Fittigen der <seg type="ref">Centralbahn<ref type="kbe">→ SCB</ref>
-                </seg>
-                    <seg type="com">immer mehr sich zusammenschließenden<lb xml:id="p3-l10"/> mittlern <choice>
-                            <abbr>u.</abbr>
-                            <expan>und</expan>
-                        </choice><!--<idx type="place" norm="Westschweiz/">-->
-                    <placeName type="place" key="Westschweiz">westlichen Schweiz</placeName>.<note xml:id="K_1484_c9">Wie bereits 1853 versuchten die Schweizerische Centralbahn
-						und die <ref type="kbe"/>Compagnie de l'Ouest-Suisse zu fusionieren. Diesmal
-						war der Crédit Mobilier die treibende Kraft. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 13. Januar 1856, 8. Juli 1856; <ref type="letter" target="K_1205"><!--→ Nr. 9--></ref>. – Zum Crédit Mobilier <ref type="letter" target="K_1488_c5"><!--→ Nr. 34 (Kommentar)--></ref>. – Zum Einbezug der Schweizerischen
+                <placeName key="Ostschweiz">Ostschweiz</placeName> unter <placeName key="Zürich">Zürich's</placeName> Leitung
+				sich einigen<lb xml:id="p3-l9" break="no"/> würde gegenüber der, unter den Fittigen der <rs>Centralbahn
+                </rs> immer mehr sich zusammenschließenden<lb xml:id="p3-l10"/> mittlern <choice><abbr>u.</abbr><expan>und</expan></choice><!--<idx type="place" norm="Westschweiz/">-->
+                    <placeName key="Westschweiz">westlichen Schweiz</placeName>.<note type="com" xml:id="K_1484_c9">Wie bereits 1853 versuchten die Schweizerische Centralbahn
+						und die Compagnie de l'Ouest-Suisse zu fusionieren. Diesmal
+						war der Crédit Mobilier die treibende Kraft. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 13. Januar 1856, 8. Juli 1856; <ref type="letter" target="K_1205"><!--→ Nr. 9--></ref>. – Zum Crédit Mobilier <ref type="letter" target="K_1488_c5"><!--→ Nr. 34 (Kommentar)--></ref>. – Zum Einbezug der Schweizerischen
 						Nordostbahn <ref type="letter" target="K_1487"><!--→ Nr. 33--></ref> <ref type="letter" target="K_1488"><!--→ Nr. 34--></ref>; <ref type="sum" target="Ostalpenbahnfrage_p25"><!--→ Band 1, S. 49–50--></ref>.</note>
-                </seg> Ich begreife indeßen, daß die <seg type="ref">Nordostbahn<ref type="kbe">→ NOB</ref>
-                </seg> für ihre Aktien eine<lb xml:id="p3-l11"/> gewiße Präferenz in Anspruch nimmt, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> habe mich auch zu den <choice>
-                        <abbr>HH.</abbr>
-                        <expan>Herren</expan>
-                    </choice>
-                    <seg type="ref">
-                    <persName type="person" key="Planta (Samedan) Andreas Rudolf von">Planta</persName>
-                    <ref type="kbp">→ Andreas Rudolf von Planta</ref>
-                </seg>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <seg type="com">
-                    <persName type="person" key="Schulthess-Rechberg Gustav Anton von">Schultheß</persName>
-                    <note xml:id="K_1484_c10">
-                        <persName type="person" key="Schulthess-Rechberg Gustav Anton von">Gustav Anton
-							von Schulthess-Rechberg</persName> (1815–1891), <placeName type="place" key="Zürich">Zürcher</placeName> Bankier und Unternehmer, Mitglied der
+                 Ich begreife indeßen, daß die <rs>Nordostbahn
+                </rs> für ihre Aktien eine<lb xml:id="p3-l11" break="no"/> gewiße Präferenz in Anspruch nimmt, <choice><abbr>u.</abbr><expan>und</expan></choice> habe mich auch zu den <choice><abbr>HH.</abbr><expan>Herren</expan></choice> <rs>
+                    <persName key="Planta (Samedan) Andreas Rudolf von">Planta</persName>
+                    
+                </rs> <choice><abbr>u.</abbr><expan>und</expan></choice> 
+                    <persName key="Schulthess-Rechberg Gustav Anton von">Schultheß</persName>
+                    <note type="com" xml:id="K_1484_c10">
+                        <persName key="Schulthess-Rechberg Gustav Anton von">Gustav Anton
+							von Schulthess-Rechberg</persName> (1815–1891), <placeName key="Zürich">Zürcher</placeName> Bankier und Unternehmer, Mitglied der
 						schweizerischen Sektion des Generalkomitees der Schweizerischen
 						Südostbahn.</note>
-                </seg> in<lb xml:id="p3-l12"/> diesem Sinne ausgesprochen. Es muß nun freilich als sehr
-				zweifelhaft erscheinen, ob eine allgemein<lb break="no" xml:id="p3-l13"/>
-                    <placeName type="place" key="Ostschweiz">ostschweizerische</placeName>
+                 in<lb xml:id="p3-l12" break="no"/> diesem Sinne ausgesprochen. Es muß nun freilich als sehr
+				zweifelhaft erscheinen, ob eine allgemein
+                <lb xml:id="p3-l13" break="no"/>
+                <placeName key="Ostschweiz">ostschweizerische</placeName>
 				Fusion im gegenwärtigen Augenblick (die Zukunft wird sie schon
-				einmal bringen!)<lb xml:id="p3-l14"/> zu Stande kommen werde, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-				zu einer Fusion der Südostbahn bloß mit der <seg type="ref">
-                    <placeName type="place" key="St. Gallen">St. Galler</placeName>-<ref type="kbe">→ St.
-						Gallisch-Appenzellische Eisenbahn</ref>
-                </seg>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p3-l15"/>
-                    <seg type="ref">Glatthalbahn<ref type="kbe">→ Glattalbahn</ref>
-                </seg>, welche leichter zu verwirklichen wäre, hätte ich keine Lust Hand zu bieten,
-					theils<lb xml:id="p3-l16"/> weil ich in finanzieller Beziehung darin keinen
-				außerordentlichen Vortheil für uns erblicken<lb xml:id="p3-l17"/> könnte, theils weil
-				ich dabei <seg type="ref">die Intereßen der <placeName type="place" key="Linth">Linth</placeName>linie<ref type="sum" target="Ostalpenbahnfrage_p17">Rhein- vs. Linthlinie<!--→ Band 1, S. 46--></ref>
-                </seg> nicht hinlänglich gewahrt finden würde.<lb xml:id="p3-l18"/> – Kömmt eine Fusion
-				nicht zu Stande, so sieht sich unser Unternehmen, wie gesagt, auf<lb xml:id="p3-l19"/>
-				das ursprüngliche schweizerische Aktienkapital beschränkt. Noch steht zwar <persName type="person" key="Pickering Edward">
+				einmal bringen!)<lb xml:id="p3-l14" break="no"/> zu Stande kommen werde, <choice><abbr>u.</abbr><expan>und</expan></choice>
+				zu einer Fusion der Südostbahn bloß mit der <rs>
+                    <placeName key="St. Gallen">St. Galler</placeName>-
+                </rs> <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p3-l15" break="no"/> <rs>Glatthalbahn
+                </rs>, welche leichter zu verwirklichen wäre, hätte ich keine Lust Hand zu bieten,
+					theils<lb xml:id="p3-l16" break="no"/> weil ich in finanzieller Beziehung darin keinen
+				außerordentlichen Vortheil für uns erblicken<lb xml:id="p3-l17" break="no"/> könnte, theils weil
+				ich dabei <rs>die Intereßen der <placeName key="Linth">Linth</placeName>linie<ref type="sum" target="Ostalpenbahnfrage_p17">Rhein- vs. Linthlinie<!--→ Band 1, S. 46--></ref>
+                </rs> nicht hinlänglich gewahrt finden würde.<lb xml:id="p3-l18" break="no"/> – Kömmt eine Fusion
+				nicht zu Stande, so sieht sich unser Unternehmen, wie gesagt, auf<lb xml:id="p3-l19" break="no"/>
+				das ursprüngliche schweizerische Aktienkapital beschränkt. Noch steht zwar <persName key="Pickering Edward">
                     <hi>Pickering</hi>
-                </persName> mit 11,250 Aktien<lb xml:id="p3-l20"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> der Schienenlieferant <seg type="com">
-                    <persName type="person" key="Robinson Joseph">
+                </persName> mit 11,250 Aktien<lb xml:id="p3-l20" break="no"/>
+                <choice><abbr>u.</abbr><expan>und</expan></choice> der Schienenlieferant 
+                    <persName key="Robinson Joseph">
                         <hi>Robinson</hi>
                     </persName>
-                    <note xml:id="K_1484_c11">
-                        <persName type="person" key="Robinson Joseph">Joseph Robinson</persName> (1818–1883),
-							<placeName type="place" key="Grossbritannien">britischer</placeName> Unternehmer,
+                    <note type="com" xml:id="K_1484_c11">
+                        <persName key="Robinson Joseph">Joseph Robinson</persName> (1818–1883),
+							<placeName key="Grossbritannien">britischer</placeName> Unternehmer,
 					Mitbesitzer der Ebbw Vale Steel Iron and Coal Company Limited, Schienenlieferant der Schweizerischen Südostbahn.</note>
-                </seg> mit 3000 Aktien da; aber die Forfaitirung beider ist, da<lb xml:id="p3-l21"/> sie
+                 mit 3000 Aktien da; aber die Forfaitirung beider ist, da<lb xml:id="p3-l21" break="no"/> sie
 				ihren Verpflichtungen nicht nachgekommen sind, bereits eingeleitet; mit dem Letztern
-					ist<lb xml:id="p3-l22"/> zwar eine Verständigung, <seg type="com">in Folge deren man ihn
-						<add>als</add> Aktionnär behielte, noch möglich, aber nicht wahr<lb break="no" xml:id="p3-l23"/>scheinlich.<note xml:id="K_1484_c12">Das Verhältnis zu <persName type="person" key="Pickering Edward">Pickering</persName> und <persName type="person" key="Robinson Joseph">Robinson</persName> wurde im Vergleich
-						vom <date when="1856-09-02">2. September 1856</date> geregelt. Danach schied <persName type="person" key="Robinson Joseph">Robinson</persName> als Aktionär aus;
+					ist<lb xml:id="p3-l22" break="no"/> zwar eine Verständigung, in Folge deren man ihn
+						<add>als</add> Aktionnär behielte, noch möglich, aber nicht wahr
+                    <lb xml:id="p3-l23" break="no"/>scheinlich.<note type="com" xml:id="K_1484_c12">Das Verhältnis zu <persName key="Pickering Edward">Pickering</persName> und <persName key="Robinson Joseph">Robinson</persName> wurde im Vergleich
+						vom <date when="1856-09-02">2. September 1856</date> geregelt. Danach schied <persName key="Robinson Joseph">Robinson</persName> als Aktionär aus;
 						die bereits gemachten Einzahlungen auf seine 3000 Aktien wurden ihm
 						zurückerstattet. Gleichzeitig verpflichtete sich die Schweizerische
-						Südostbahn, ihm 10 000 <choice>
-                                <abbr>t</abbr>
-                                <expan>Tonne(n)</expan>
-                            </choice> Schienen abzunehmen. <persName type="person" key="Pickering Edward">Pickering</persName> behielt alle seine
+						Südostbahn, ihm 10 000 <choice><abbr>t</abbr><expan>Tonne(n)</expan></choice> Schienen abzunehmen. <persName key="Pickering Edward">Pickering</persName> behielt alle seine
 						11 250 Aktien; die ausstehenden Einzahlungen auf seine Aktien wurden mit
-						Baumaterial sowie seiner Abfindungssumme gegengerechnet. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Rechenschaftsbericht SOB 1856</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 12–14.</note>
-                </seg> Im Auslande neue Aktien für die Südostbahn in ihrem bisherigen
-				Bestande anzubrin<lb break="no" xml:id="p3-l24"/>gen, erscheint beinahe als unmöglich, denn
-				unser Unternehmen ist durch die Publizität, welche die Advo<lb break="no" xml:id="p3-l25"/>katen der <placeName type="place" key="England">Engländer</placeName> unglücklicher Weise
-				unsern Streitigkeiten gegeben haben, sehr diskreditirt worden;<lb xml:id="p3-l26"/> auch
-				von andrer Seite ist aus der Schweiz im Auslande gegen uns gearbeitet worden <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> die Aus<pb n="4"/>
-                    <lb xml:id="p4-l1"/>sichten, welche man
+						Baumaterial sowie seiner Abfindungssumme gegengerechnet. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Rechenschaftsbericht SOB 1856</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 12–14.</note>
+                 Im Auslande neue Aktien für die Südostbahn in ihrem bisherigen
+				Bestande anzubrin
+                <lb xml:id="p3-l24" break="no"/>gen, erscheint beinahe als unmöglich, denn
+				unser Unternehmen ist durch die Publizität, welche die Advo
+                <lb xml:id="p3-l25" break="no"/>katen der <placeName key="England">Engländer</placeName> unglücklicher Weise
+				unsern Streitigkeiten gegeben haben, sehr diskreditirt worden;<lb xml:id="p3-l26" break="no"/> auch
+				von andrer Seite ist aus der Schweiz im Auslande gegen uns gearbeitet worden <choice><abbr>u.</abbr><expan>und</expan></choice> die Aus
+                <pb n="4"/>
+                <lb xml:id="p4-l1" break="no"/>sichten, welche man
 				uns früher eröffnete, haben sich als <add>rein</add> illusorisch erwiesen. Daß man
-				aber mit<lb xml:id="p4-l2"/> dem schweizerischen Aktienkapital, auch wenn <seg type="ref">
-                    <placeName type="place" key="Zürich">Zürich</placeName> mit seiner verheißnen Million noch
+				aber mit<lb xml:id="p4-l2" break="no"/> dem schweizerischen Aktienkapital, auch wenn <rs>
+                    <placeName key="Zürich">Zürich</placeName> mit seiner verheißnen Million noch
 						beitritt<ref type="letter" target="K_1468"><!--→ Nr. 29--></ref>
                     <ref type="sum" target="Ostalpenbahnfrage_d1.5"><!--→Band 1, S. 47–49--></ref>
-                </seg>
-                    <lb xml:id="p4-l3"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> wenn <add>selbst</add> eine etwelche weitere Vermehrung
-				deßelben bei einem nochmaligen Aufrufe an den<lb xml:id="p4-l4"/> Patriotismus in den
-				betheiligten Kantonen erhältlich seyn sollte, die Südostbahn nicht fertig<lb xml:id="p4-l5"/> bauen kann, liegt auf der Hand. Die Verwaltung kann daher nicht
-				wohl einen andern Operati<lb break="no" xml:id="p4-l6"/>onsplan faßen, als, indem sie –
-				gegenüber dem bisherigen vitiösen System des Generalakkords<lb xml:id="p4-l7"/> den
-				Selbstbau übernimmt, gewiße Strecken zu vollenden <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> für das
-				Uebrige beßere Zeiten, sey<lb xml:id="p4-l8"/> es für die Placirung von Aktien, sey es
-				für die Aufnahme von Anleihen, abzuwarten. Ob aber<lb xml:id="p4-l9"/> die Aktionnäre
-				aus denjenigen Gegenden, welche sich dabei hintangesetzt sehen würden, damit<lb xml:id="p4-l10"/> einverstanden seyn werden oder ob nicht der am Tage liegende
-				Kapitalmangel das Ganze<lb xml:id="p4-l11"/> aus den Fugen treiben wird, ist eine andere
-				Frage. Da stellt sich mir nun zunächst die<lb xml:id="p4-l12"/> Meinung <seg type="ref">
-                    <persName type="person" key="Rüttimann Johann Jakob">Rüttimann's</persName>
-                    <ref type="kbp">→ Johann Jakob Rüttimann</ref>
-                </seg> vor die Augen, welcher sich in den letzten Wochen wiederholt dahin zu<lb xml:id="p4-l13"/> mir geäußert hat, <seg type="com">wir sollten die <placeName type="place" key="Rhein">Rhein-</placeName> <choice>
-                            <abbr>u.</abbr>
-                            <expan>und</expan>
-                        </choice> <placeName type="place" key="Linth">Linth</placeName>linie wieder von einander trennen;<note xml:id="K_1484_c13">Die <placeName type="place" key="Linth">Linth</placeName>linie war
+                </rs> <lb xml:id="p4-l3" break="no"/>
+                <choice><abbr>u.</abbr><expan>und</expan></choice> wenn <add>selbst</add> eine etwelche weitere Vermehrung
+				deßelben bei einem nochmaligen Aufrufe an den<lb xml:id="p4-l4" break="no"/> Patriotismus in den
+				betheiligten Kantonen erhältlich seyn sollte, die Südostbahn nicht fertig<lb xml:id="p4-l5" break="no"/> bauen kann, liegt auf der Hand. Die Verwaltung kann daher nicht
+				wohl einen andern Operati
+                <lb xml:id="p4-l6" break="no"/>onsplan faßen, als, indem sie –
+				gegenüber dem bisherigen vitiösen System des Generalakkords<lb xml:id="p4-l7" break="no"/> den
+				Selbstbau übernimmt, gewiße Strecken zu vollenden <choice><abbr>u.</abbr><expan>und</expan></choice> für das
+				Uebrige beßere Zeiten, sey<lb xml:id="p4-l8" break="no"/> es für die Placirung von Aktien, sey es
+				für die Aufnahme von Anleihen, abzuwarten. Ob aber<lb xml:id="p4-l9" break="no"/> die Aktionnäre
+				aus denjenigen Gegenden, welche sich dabei hintangesetzt sehen würden, damit<lb xml:id="p4-l10" break="no"/> einverstanden seyn werden oder ob nicht der am Tage liegende
+				Kapitalmangel das Ganze<lb xml:id="p4-l11" break="no"/> aus den Fugen treiben wird, ist eine andere
+				Frage. Da stellt sich mir nun zunächst die<lb xml:id="p4-l12" break="no"/> Meinung <rs>
+                    <persName key="Rüttimann Johann Jakob">Rüttimann's</persName>
+                    
+                </rs> vor die Augen, welcher sich in den letzten Wochen wiederholt dahin zu<lb xml:id="p4-l13" break="no"/> mir geäußert hat, wir sollten die <placeName key="Rhein">Rhein-</placeName> <choice><abbr>u.</abbr><expan>und</expan></choice> <placeName key="Linth">Linth</placeName>linie wieder von einander trennen;<note type="com" xml:id="K_1484_c13">Die <placeName key="Linth">Linth</placeName>linie war
 						ursprünglich nicht Bestandteil des projektierten Schweizerischen
-						Südostbahn-Netzes. <ref type="sum" target="Ostalpenbahnfrage_p7"><!--→ Band 1, S. 43--></ref> <ref type="sum" target="Ostalpenbahnfrage_p17"><!--→ Band 1, S. 46--></ref>. – Die Abtrennung der <placeName type="place" key="Linth">Linth</placeName>linie
+						Südostbahn-Netzes. <ref type="sum" target="Ostalpenbahnfrage_p7"><!--→ Band 1, S. 43--></ref> <ref type="sum" target="Ostalpenbahnfrage_p17"><!--→ Band 1, S. 46--></ref>. – Die Abtrennung der <placeName key="Linth">Linth</placeName>linie
 						war bereits Anfang Februar 1856 von Exponenten der St.
 						Gallisch-Appenzellischen Eisenbahn gefordert worden als Bedingung für eine
-						Fusion. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="letter" target="K_1475"><!--Brief Jakob Dubs an Escher, 31. Januar 1856 (BAR J I.67-8)--></ref>;
+						Fusion. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="letter" target="K_1475"><!--Brief Jakob Dubs an Escher, 31. Januar 1856 (BAR J I.67-8)--></ref>;
 							<ref type="letter" target="K_1476"><!--Brief Jakob Dubs an Escher, 6. Februar 1856 (BAR J I.67-8)--></ref>.<!--sie wurde von den Eisenbahnkomitees von <idx type="place" norm="Glarus">Glarus</idx> und <idx type="place" norm="Rapperswil-Jona">Rapperswil</idx> eingebracht, als diese zur Gründungsgesellschaft der SOB stiessen. <ref type="sum">&rarr;&nbsp;I:26,36</ref>. &ndash; Eine Verhandlung der Frage zu Trennung von Rhein- und Linthlinie konnte weder in der bezüglichen Sekundärliteratur noch in den Quellen der SOB ermittelt werden.-->
                     </note>
-                </seg> letz<lb break="no" xml:id="p4-l14"/>tere würde jetzt im Kanton <placeName type="place" key="Zürich">Zürich</placeName>, insbesondere auch am linken Seeufer namhafte
-					Unter<lb break="no" xml:id="p4-l15"/>stützung finden <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> dürfte
-				beinahe als gesichert betrachtet werden, während <placeName type="place" key="Zürich">Zürich</placeName> sich nie<lb xml:id="p4-l16"/> lebhaft für die Südostbahn interessiren
-				werde, so lange die <placeName type="place" key="Rhein">Rhein</placeName>linie, welche nur den
-					<placeName type="place" key="St. Gallen">St. Gal<lb break="no" xml:id="p4-l17"/>lern</placeName>
-				nütze, einen Bestandtheil derselben ausmache. So sehr mir nun diese Idee an <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> für <lb xml:id="p4-l18"/>sich gefiele, so kann ich doch nicht
-				verkennen, daß sich der Ausführung derselben namhafte Schwie<lb break="no" xml:id="p4-l19"/>rigkeiten entgegenstellen. Vorerst glaube ich, daß eine Trennung der jetzigen
-					Aktiengesellschaft<lb xml:id="p4-l20"/> in zwei neue Bahngesellschaften
-				statutengemäß nicht anders als auf dem Wege der Liqui<lb break="no" xml:id="p4-l21"/>dation
-				vor sich gehen könnte, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> gegen dieses Verfahren muß man
-				billig Bedenken hegen, wenn<lb xml:id="p4-l22"/> man erwägt, wie wenig für unsre halb
-				vollendeten Dämme, zum Theil selbst für Schwellen<lb xml:id="p4-l23"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Schienen beim Verkaufe erlöst werden könnte, wie sehr
-				daher namentlich die Kantone,<lb xml:id="p4-l24"/> welche schon ansehnliche Summen an
-				die Südostbahn bezahlt haben, zu Verlust kämen. Freilich<lb xml:id="p4-l25"/> könnte
-				dagegen gehalten werden, wenn die beiden neuen Gesellschaften bereits konstituirt<lb xml:id="p4-l26"/> wären <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> sich bereit erklären würden, die
+                 letz
+                <lb xml:id="p4-l14" break="no"/>tere würde jetzt im Kanton <placeName key="Zürich">Zürich</placeName>, insbesondere auch am linken Seeufer namhafte
+					Unter
+                <lb xml:id="p4-l15" break="no"/>stützung finden <choice><abbr>u.</abbr><expan>und</expan></choice> dürfte
+				beinahe als gesichert betrachtet werden, während <placeName key="Zürich">Zürich</placeName> sich nie<lb xml:id="p4-l16" break="no"/> lebhaft für die Südostbahn interessiren
+				werde, so lange die <placeName key="Rhein">Rhein</placeName>linie, welche nur den
+					<placeName key="St. Gallen">St. Gal
+                    <lb xml:id="p4-l17" break="no"/>lern</placeName>
+				nütze, einen Bestandtheil derselben ausmache. So sehr mir nun diese Idee an <choice><abbr>u.</abbr><expan>und</expan></choice> für <lb xml:id="p4-l18" break="no"/>sich gefiele, so kann ich doch nicht
+				verkennen, daß sich der Ausführung derselben namhafte Schwie
+                <lb xml:id="p4-l19" break="no"/>rigkeiten entgegenstellen. Vorerst glaube ich, daß eine Trennung der jetzigen
+					Aktiengesellschaft<lb xml:id="p4-l20" break="no"/> in zwei neue Bahngesellschaften
+				statutengemäß nicht anders als auf dem Wege der Liqui
+                <lb xml:id="p4-l21" break="no"/>dation
+				vor sich gehen könnte, <choice><abbr>u.</abbr><expan>und</expan></choice> gegen dieses Verfahren muß man
+				billig Bedenken hegen, wenn<lb xml:id="p4-l22" break="no"/> man erwägt, wie wenig für unsre halb
+				vollendeten Dämme, zum Theil selbst für Schwellen<lb xml:id="p4-l23" break="no"/>
+                <choice><abbr>u.</abbr><expan>und</expan></choice> Schienen beim Verkaufe erlöst werden könnte, wie sehr
+				daher namentlich die Kantone,<lb xml:id="p4-l24" break="no"/> welche schon ansehnliche Summen an
+				die Südostbahn bezahlt haben, zu Verlust kämen. Freilich<lb xml:id="p4-l25" break="no"/> könnte
+				dagegen gehalten werden, wenn die beiden neuen Gesellschaften bereits konstituirt<lb xml:id="p4-l26" break="no"/> wären <choice><abbr>u.</abbr><expan>und</expan></choice> sich bereit erklären würden, die
 				Aktiven der bisherigen Gesellschaft im Kostenpreise <pb n="5"/>
-                    <lb xml:id="p5-l1"/> zu übernehmen; da es dann aber uns mehr Geld <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> den <placeName type="place" key="Rheintal">Rheinthalern</placeName> mehr Dämme
-					treffen<lb xml:id="p5-l2"/> würde, so weiß ich nicht, ob letztere darauf eingehen
-				würden. Auch ist zu berücksichtigen, daß<lb xml:id="p5-l3"/> in der <seg type="ref">ersten <placeName type="place" key="St. Gallen">St. Gallischen</placeName> Konzeßion<ref type="letter" target="K_1195"><!--→ Nr. 6--></ref>
+                <lb xml:id="p5-l1" break="no"/> zu übernehmen; da es dann aber uns mehr Geld <choice><abbr>u.</abbr><expan>und</expan></choice> den <placeName key="Rheintal">Rheinthalern</placeName> mehr Dämme
+					treffen<lb xml:id="p5-l2" break="no"/> würde, so weiß ich nicht, ob letztere darauf eingehen
+				würden. Auch ist zu berücksichtigen, daß<lb xml:id="p5-l3" break="no"/> in der <rs>ersten <placeName key="St. Gallen">St. Gallischen</placeName> Konzeßion<ref type="letter" target="K_1195"><!--→ Nr. 6--></ref>
                     <ref type="sum" target="Ostalpenbahnfrage_p9"><!---→ Band 1, S. 43--></ref>
-                </seg>, <seg type="com">welche mit Ende dieses Jahres abläuft<note xml:id="K_1484_c14">
-                        <bibl>Zur gänzlichen Vollendung und in Betriebsezung der Eisenbahn auf
+                </rs>, welche mit Ende dieses Jahres abläuft<note type="com" xml:id="K_1484_c14">
+                        <orig>Zur gänzlichen Vollendung und in Betriebsezung der Eisenbahn auf
 							dießseitigem Kantonsgebiet wird der Gesellschaft eine Frist bis Ende
 							1856 eingeräumt, und sollte nach Ablauf dieser Frist noch viel oder
-							wenig an der Vollendung fehlen, so hat der Große Rath des Kantons <placeName type="place" key="St. Gallen">St. Gallen</placeName> das Recht, hiefür
-							einen lezten Präklusivtermin von sich aus festzusezen.</bibl>
+							wenig an der Vollendung fehlen, so hat der Große Rath des Kantons <placeName key="St. Gallen">St. Gallen</placeName> das Recht, hiefür
+							einen lezten Präklusivtermin von sich aus festzusezen.</orig>
 						Konzessionsakt des Kleinen Rathes des Kantons St. Gallen,
 							betreffend Erstellung einer Eisenbahn von Rorschach nach Ragaz und von
-							Sargans nach Wallenstadt (vom 15. Januar/6. Mai 1853), <choice>
-                                <abbr>Art.</abbr>
-                                <expan>Artikel</expan>
-                            </choice> 18 (<ref type="lit">SBB Historic VGB_GEM_SBBZH104_001</ref>).</note>
-                </seg>, nicht bloß die Linie<lb xml:id="p5-l4"/>
-                    <placeName type="place" key="Rorschach">Rorschach</placeName>–<placeName type="place" key="Bad Ragaz">Ragaz</placeName>, sondern auch noch das gute Stück <placeName type="place" key="Sargans">Sargans</placeName>–<placeName type="place" key="Walenstadt">Wallenstadt</placeName> enthalten ist <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> die<lb xml:id="p5-l5"/>
-                    <placeName type="place" key="Rheintal">Rheinthaler</placeName> letzteres wohl wieder verlangen
-					<choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> erhalten würden, so daß uns neben dem<lb xml:id="p5-l6"/>
-				kostspieligen <placeName type="place" key="Walensee">Wallensee</placeName> nichts übrig bliebe
-				als <placeName type="place" key="Rapperswil (Rapperswil-Jona)">Rapperschwyl</placeName>–<placeName type="place" key="Weesen">Wesen</placeName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <placeName type="place" key="Weesen">Wesen</placeName>–<placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName>,<lb xml:id="p5-l7"/> zwei nach meiner
-				Ueberzeugung zwar sehr rentable, aber dabei kurze Strecken. Du siehst,<lb xml:id="p5-l8"/> daß ich mich mit dem Vorschlage <persName type="person" key="Rüttimann Johann Jakob">Rüttimann's</persName> in meinen Gedanken schon lebhaft beschäftigt<lb xml:id="p5-l9"/>
+							Sargans nach Wallenstadt (vom 15. Januar/6. Mai 1853), <choice><abbr>Art.</abbr><expan>Artikel</expan></choice> 18 (<ref type="lit">SBB Historic VGB_GEM_SBBZH104_001</ref>).</note>
+                , nicht bloß die Linie<lb xml:id="p5-l4" break="no"/>
+                <placeName key="Rorschach">Rorschach</placeName>–<placeName key="Bad Ragaz">Ragaz</placeName>, sondern auch noch das gute Stück <placeName key="Sargans">Sargans</placeName>–<placeName key="Walenstadt">Wallenstadt</placeName> enthalten ist <choice><abbr>u.</abbr><expan>und</expan></choice> die<lb xml:id="p5-l5" break="no"/>
+                <placeName key="Rheintal">Rheinthaler</placeName> letzteres wohl wieder verlangen
+					<choice><abbr>u.</abbr><expan>und</expan></choice> erhalten würden, so daß uns neben dem<lb xml:id="p5-l6" break="no"/>
+				kostspieligen <placeName key="Walensee">Wallensee</placeName> nichts übrig bliebe
+				als <placeName key="Rapperswil (Rapperswil-Jona)">Rapperschwyl</placeName>–<placeName key="Weesen">Wesen</placeName> <choice><abbr>u.</abbr><expan>und</expan></choice> <placeName key="Weesen">Wesen</placeName>–<placeName key="Glarus (Gemeinde)">Glarus</placeName>,<lb xml:id="p5-l7" break="no"/> zwei nach meiner
+				Ueberzeugung zwar sehr rentable, aber dabei kurze Strecken. Du siehst,<lb xml:id="p5-l8" break="no"/> daß ich mich mit dem Vorschlage <persName key="Rüttimann Johann Jakob">Rüttimann's</persName> in meinen Gedanken schon lebhaft beschäftigt<lb xml:id="p5-l9" break="no"/>
 				habe; es fehlte dazu keineswegs an praktischer Veranlaßung, denn mit Sicherheit läßt
-					sich<lb xml:id="p5-l10"/> voraussehen, daß von dieser oder jener <add>(vielleicht
-					selbst von <placeName type="place" key="England">englischer</placeName>)</add> Seite her
-				der Antrag auf Liquidation, <choice>
-                        <abbr>resp.</abbr>
-                        <expan>respektive / respective</expan>
-                    </choice>
-                    <lb xml:id="p5-l11"/> Trennung in der nächsten Generalversammlung gestellt werden wird.
-				Sehr lieb wäre es mir<lb xml:id="p5-l12"/> nun über diese Frage auch Deine Ansicht zu
-				vernehmen. Findest Du nach allem Gesagten,<lb xml:id="p5-l13"/> daß die Trennung
-				wirklich im Intereße der <placeName type="place" key="Linth">Linth</placeName>linie läge? Und
-				glaubst Du mir eben<lb break="no" xml:id="p5-l14"/>falls in bestimmte Aussicht stellen zu
-				können, daß <placeName type="place" key="Zürich">Zürich</placeName>, falls dieselbe erfolgen
-				sollte, sich<lb xml:id="p5-l15"/> kräftiger der <placeName type="place" key="Linth">Linth</placeName>linie annehmen würde, als es bis dahin der gesammten Südostbahn
-					gegen<lb break="no" xml:id="p5-l16"/>über der Fall war? <seg type="com">Wie gesagt, laße ich Dir alle
-					Zeit, um über die Sache nachzudenken<note xml:id="K_1484_c15">Escher kam offenbar
+					sich<lb xml:id="p5-l10" break="no"/> voraussehen, daß von dieser oder jener <add>(vielleicht
+					selbst von <placeName key="England">englischer</placeName>)</add> Seite her
+				der Antrag auf Liquidation, <choice><abbr>resp.</abbr><expan>respektive / respective</expan></choice> <lb xml:id="p5-l11" break="no"/> Trennung in der nächsten Generalversammlung gestellt werden wird.
+				Sehr lieb wäre es mir<lb xml:id="p5-l12" break="no"/> nun über diese Frage auch Deine Ansicht zu
+				vernehmen. Findest Du nach allem Gesagten,<lb xml:id="p5-l13" break="no"/> daß die Trennung
+				wirklich im Intereße der <placeName key="Linth">Linth</placeName>linie läge? Und
+				glaubst Du mir eben
+                <lb xml:id="p5-l14" break="no"/>falls in bestimmte Aussicht stellen zu
+				können, daß <placeName key="Zürich">Zürich</placeName>, falls dieselbe erfolgen
+				sollte, sich<lb xml:id="p5-l15" break="no"/> kräftiger der <placeName key="Linth">Linth</placeName>linie annehmen würde, als es bis dahin der gesammten Südostbahn
+					gegen
+                <lb xml:id="p5-l16" break="no"/>über der Fall war? Wie gesagt, laße ich Dir alle
+					Zeit, um über die Sache nachzudenken<note type="com" xml:id="K_1484_c15">Escher kam offenbar
 						nicht dazu, Blumers Fragen zu beantworten. <ref type="letter" target="K_1488"><!--→ Nr. 34--></ref>.</note>
-                </seg>, <lb xml:id="p5-l17"/> so weit Du für nöthig findest, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-				würde Dich überhaupt mit der unangenehmen Geschichte<lb xml:id="p5-l18"/> nicht
+                , <lb xml:id="p5-l17" break="no"/> so weit Du für nöthig findest, <choice><abbr>u.</abbr><expan>und</expan></choice>
+				würde Dich überhaupt mit der unangenehmen Geschichte<lb xml:id="p5-l18" break="no"/> nicht
 				belästigt haben, hättest Du nicht bei jedem Anlaße gegen mich das lebhafteste
-					In<lb break="no" xml:id="p5-l19"/>tereße an unsrer <placeName type="place" key="Linth">Linth</placeName>linie ausgedrückt, in welchem ich nur eine Folge umfaßender <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p5-l20"/> wahrhaft <seg type="ref">staatsmännischer Einsicht in die wahren Intereßen des
-					Kantons <placeName type="place" key="Zürich">Zürich</placeName> erblickte.<ref type="sum" target="Ostalpenbahnfrage_p17"><!--→ Band 1, S. 46--></ref>
-                </seg>
-                    <lb xml:id="p5-l21"/> Im Uebrigen brauche ich Dich nicht erst zu bitten, von dem
-				unerfreulichen aber durchaus<lb xml:id="p5-l22"/> wahren Bilde, das ich Dir von dem
-				Stande der Südostbahn entworfen keinen weitern Gebrauch<lb xml:id="p5-l23"/> zu machen. </p>
+					In
+                <lb xml:id="p5-l19" break="no"/>tereße an unsrer <placeName key="Linth">Linth</placeName>linie ausgedrückt, in welchem ich nur eine Folge umfaßender <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p5-l20" break="no"/> wahrhaft <rs>staatsmännischer Einsicht in die wahren Intereßen des
+					Kantons <placeName key="Zürich">Zürich</placeName> erblickte.<ref type="sum" target="Ostalpenbahnfrage_p17"><!--→ Band 1, S. 46--></ref>
+                </rs> <lb xml:id="p5-l21" break="no"/> Im Uebrigen brauche ich Dich nicht erst zu bitten, von dem
+				unerfreulichen aber durchaus<lb xml:id="p5-l22" break="no"/> wahren Bilde, das ich Dir von dem
+				Stande der Südostbahn entworfen keinen weitern Gebrauch<lb xml:id="p5-l23" break="no"/> zu machen. </p>
       <p rend="indent" xml:id="K_1484_p6">
-                <lb xml:id="p5-l24"/> <seg type="com">
-                    <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Deiner Frau
+                <lb xml:id="p5-l24"/> 
+                    <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Deiner Frau
 						Mutter</persName>
-                    <note xml:id="K_1484_c16">
-                        <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Lydia
-							Escher-Zollikofer</persName> (1797–1868), Tochter der <persName type="person" key="Zollikofer-Kunkler Elisabetha">Elisabetha
-							Zollikofer-Kunkler</persName> und des <persName type="person" key="Zollikofer (von Altenklingen) Daniel Hermann">Daniel Hermann
+                    <note type="com" xml:id="K_1484_c16">
+                        <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Lydia
+							Escher-Zollikofer</persName> (1797–1868), Tochter der <persName key="Zollikofer-Kunkler Elisabetha">Elisabetha
+							Zollikofer-Kunkler</persName> und des <persName key="Zollikofer (von Altenklingen) Daniel Hermann">Daniel Hermann
 							Zollikofer</persName>, alt Gerichtsherr im Hard; ab 1815
-						Ehefrau <persName type="person" key="Escher (vom Glas) Heinrich">Heinrich
+						Ehefrau <persName key="Escher (vom Glas) Heinrich">Heinrich
 							Eschers</persName>. <ref type="letter" target="K_1479_c17"><!--→ Nr. 31 (Kommentar)--></ref>.</note>
-                </seg> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <seg type="com">
-                    <persName type="person" key="Stockar-Escher (vom Glas) Clementine">Schwester</persName>
-                    <note xml:id="K_1484_c17">
-                        <persName type="person" key="Stockar-Escher (vom Glas) Clementine">Clementine
-							Stockar-Escher</persName> (1816–1886), Tochter von <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Lydia</persName> und <persName type="person" key="Escher (vom Glas) Heinrich">Heinrich Escher</persName>;
-						ab 1837 verheiratet mit <persName type="person" key="Stockar Kaspar">Kaspar
+                 <choice><abbr>u.</abbr><expan>und</expan></choice> 
+                    <persName key="Stockar-Escher (vom Glas) Clementine">Schwester</persName>
+                    <note type="com" xml:id="K_1484_c17">
+                        <persName key="Stockar-Escher (vom Glas) Clementine">Clementine
+							Stockar-Escher</persName> (1816–1886), Tochter von <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Lydia</persName> und <persName key="Escher (vom Glas) Heinrich">Heinrich Escher</persName>;
+						ab 1837 verheiratet mit <persName key="Stockar Kaspar">Kaspar
 							Stockar</persName>.</note>
-                </seg> bitte ich mich nebst <seg type="ref">
-                    <persName type="person" key="Blumer-Heer Susanna">meiner
+                 bitte ich mich nebst <rs>
+                    <persName key="Blumer-Heer Susanna">meiner
 						Frau</persName>
-                    <ref type="kbp">→ Susanna Blumer-Heer </ref>
-                </seg> bestens zu<lb xml:id="p5-l25"/> empfehlen; ich wünsche von Herzen, daß die
+                    
+                </rs> bestens zu<lb xml:id="p5-l25"/> empfehlen; ich wünsche von Herzen, daß die
 				Gesundheitsumstände der Erstern so befriedigend<lb xml:id="p5-l26"/> seyen als nur immer
 				möglich ist. </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_1484_p7">
-                    <lb xml:id="p5-l27"/>Mit herzlichem Gruße</p>
+        <p rend="indent" xml:id="K_1484_p7"><lb xml:id="p5-l27"/>Mit herzlichem Gruße</p>
         <p rend="center" xml:id="K_1484_p8">
                     <lb xml:id="p5-l28"/>Dein treuer </p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_1484_p9">
                     <lb xml:id="p5-l29"/>J J Blumer.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

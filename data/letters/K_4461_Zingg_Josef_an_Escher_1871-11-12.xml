@@ -1,102 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_4461" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Josef Zingg an Alfred Escher, Luzern, Sonntag, November 12, 1871</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_054</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Centralbahn (SCB)</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Luzern</placeName>
-                    <date when="1871-11-12">Sonntag, November 12, 1871</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2012-07-31" who="ML">Brief transkribiert
-                
-            </change>
-            <change when="2013-01-16" who="SWK">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-02-01" who="PR">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-31" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-02-10" who="IB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-06-17" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-06-17" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_4461" type="Brief"><teiHeader><fileDesc><titleStmt><title>Josef Zingg an Alfred Escher, Luzern, Sonntag, 12. November 1871</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_054</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Centralbahn (SCB)</term><term>Eisenbahnen Finanzierung</term><term>Gotthardbahn-Gesellschaft (GB)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Zingg Josef" type="addressee">Josef Zingg</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Luzern</placeName><date when="1871-11-12">12. November 1871</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_4461_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_4461_c0">Nachträgliche Notiz oben in der Mitte auf Seite 1 von dritter Hand mit roter Farbe: <bibl>1315 (sammt 1 <choice>
-                                    <abbr>Beil.</abbr>
-                                    <expan>Beilage</expan>
-                                </choice>)</bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>Hochgeachteter Herr Präsident!
+        <p rend="indent" xml:id="K_4461_p1"> <note type="com" xml:id="K_4461_c0">Nachträgliche Notiz oben in der Mitte auf Seite 1 von dritter Hand mit roter Farbe: <orig>1315 (sammt 1 <choice><abbr>Beil.</abbr><expan>Beilage</expan></choice>)</orig>.</note> <lb xml:id="p1-l1"/>Hochgeachteter Herr Präsident!
 		</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_4461_p2">
-                <lb xml:id="p1-l2"/>Ich gebe mir die Ehre, Ihnen hiemit zu den übrigen
+    </front><body>
+      <p rend="left" xml:id="K_4461_p2"><lb xml:id="p1-l2"/>Ich gebe mir die Ehre, Ihnen hiemit zu den übrigen
 		<lb xml:id="p1-l3"/>sachbezüglichen Akten die <date when="1871-11-11">gestern</date> eingelangte
-		<lb xml:id="p1-l4"/>Anzeige des Direktoriums der <choice>
-                        <abbr>schweiz. Centralbahn</abbr>
-                        <expan>schweizerische Centralbahn</expan>
-                    </choice> <lb xml:id="p1-l5"/>über die erfolgte Leistung der derselben als Glied
+		<lb xml:id="p1-l4"/>Anzeige des Direktoriums der <choice><abbr>schweiz. Centralbahn</abbr><expan>schweizerische Centralbahn</expan></choice> <lb xml:id="p1-l5"/>über die erfolgte Leistung der derselben als Glied
 		<lb xml:id="p1-l6"/>des Consortiums für Beschaffung des Baukapitals
-		<lb xml:id="p1-l7"/>für die <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>bahn zufallenden Cautionsquote
+		<lb xml:id="p1-l7"/>für die <placeName key="St. Gotthard (Pass)">Gotthardt</placeName>bahn zufallenden Cautionsquote
 		<lb xml:id="p1-l8"/>zu übermachen. –
 		</p>
-      <p rend="indent" xml:id="K_4461_p3">
-                <lb xml:id="p1-l9"/>Nach der so freundlichen &amp; herzlichen Verhandlung,
-		<lb xml:id="p1-l10"/>welche wir <date when="1871-11-09">letzten Donnerstag</date> in<placeName type="place" key="Zürich (Stadt)">Zürich</placeName> gepflogen
+      <p rend="indent" xml:id="K_4461_p3"><lb xml:id="p1-l9"/>Nach der so freundlichen &amp; herzlichen Verhandlung,
+		<lb xml:id="p1-l10"/>welche wir <date when="1871-11-09">letzten Donnerstag</date> in<placeName key="Zürich (Stadt)">Zürich</placeName> gepflogen
 		<lb xml:id="p1-l11"/>haben, ist mir die Art &amp; Weise, wie seither die
 		<lb xml:id="p1-l12"/>Angelegenheit Ihres Eintrittes in die Direktion der
-		<lb xml:id="p1-l13"/>
-                <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>bahn, beziehungsweise der dabei in Frage
+		<lb xml:id="p1-l13"/><placeName key="St. Gotthard (Pass)">Gotthardt</placeName>bahn, beziehungsweise der dabei in Frage
 		<lb xml:id="p1-l14"/>kommenden Verhältniße in der öffentlichen Preße
 		<lb xml:id="p1-l15"/>zur Sprache gebracht worden ist, doppelt widerwärtig
 		<lb xml:id="p1-l16"/>gewesen. Durch derartige Auslaßungen verbittert
-		<pb n="2"/>
-                <lb xml:id="p2-l1"/>man gegenseitig Gemüther, ohne etwas zu
+		<pb n="2"/><lb xml:id="p2-l1"/>man gegenseitig Gemüther, ohne etwas zu
 		<lb xml:id="p2-l2"/>nützen. Ich denke indeßen, daß wir beiderseits
 		<lb xml:id="p2-l3"/>uns dadurch jedenfalls nicht abhalten laßen
 		<lb xml:id="p2-l4"/>werden, unter möglichster Würdigung aller
@@ -104,35 +28,22 @@
 		<lb xml:id="p2-l6"/>wie sie vor Allem das Intereße der großen
 		<lb xml:id="p2-l7"/>Sache erheischt, die uns anvertraut ist. –
 		</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_4461_p4">
-                    <lb xml:id="p2-l8"/>Genehmigen Sie, hochverehrter Herr Präsident,
-		<lb xml:id="p2-l9"/>bei diesem Anlaße die erneute Versicherung vor<lb break="no" xml:id="p2-l10"/>züglichster Hochachtung
+        <p rend="indent" xml:id="K_4461_p4"><lb xml:id="p2-l8"/>Genehmigen Sie, hochverehrter Herr Präsident,
+		<lb xml:id="p2-l9"/>bei diesem Anlaße die erneute Versicherung vor<lb xml:id="p2-l10" break="no"/>züglichster Hochachtung
 		</p>
-        <p rend="right" xml:id="K_4461_p5">
-                    <lb xml:id="p2-l11"/>
-          <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> Ihrem freundschaftlich ergebenen
+        <p rend="right" xml:id="K_4461_p5"><lb xml:id="p2-l11"/>
+          <choice><abbr>v.</abbr><expan>von</expan></choice> Ihrem freundschaftlich ergebenen
 		</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_4461_p6">
-                    <lb xml:id="p2-l12"/>J. Zingg.
+      <div type="signature">
+        <p rend="right" xml:id="K_4461_p6"><lb xml:id="p2-l12"/>J. Zingg.
 		</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_4461_p7">
-                    <lb xml:id="p2-l13"/>
-          <placeName type="place" key="Luzern (Stadt)">
-                        <hi>Luzern</hi>
-                    </placeName> d. <date when="1871-11-12">12. <hi>November</hi> 1871</date>.
+        <p rend="left" xml:id="K_4461_p7"><lb xml:id="p2-l13"/>
+          <placeName key="Luzern (Stadt)"><hi>Luzern</hi></placeName> d. <date when="1871-11-12">12. <hi>November</hi> 1871</date>.
 		</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

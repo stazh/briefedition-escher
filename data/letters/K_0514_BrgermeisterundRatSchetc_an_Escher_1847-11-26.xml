@@ -1,155 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0514" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Bürgermeister und Rat Schaffhausen an Alfred Escher, Schaffhausen, Freitag, November 26, 1847</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#2*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Sonderbund</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName type="sender">Bürgermeister und Rat Schaffhausen</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Schaffhausen</placeName>
-                    <date when="1847-11-26">Freitag, November 26, 1847</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-07-05" who="IM">Transkribiert
-                
-            </change>
-            <change when="2010-12-03" who="BK">von Word nach XML konvertiert
-                
-            </change>
-            <change when="2011-07-06" who="TM">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-07" who="HA">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-20" who="NH">e-Edition: Auszeichnung Themen umgesetzt
-                
-            </change>
-            <change when="2011-07-27" who="AH">e-Edition: Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2011-07-29" who="HA">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2012-01-09" who="GM">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2015-01-07" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0514" type="Brief"><teiHeader><fileDesc><titleStmt><title>Bürgermeister und Rat Schaffhausen an Alfred Escher, Schaffhausen, Freitag, 26. November 1847</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#2*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Sonderbund</term></keywords></textClass><correspDesc><correspAction type="sent"><orgName type="addressee">Bürgermeister und Rat Schaffhausen</orgName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Schaffhausen</placeName><date when="1847-11-26">26. November 1847</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_0514_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_0514_c0">Auf der ersten Briefseite oben ist das Wappen des Kantons <placeName type="place" key="Schaffhausen">Schaffhausen</placeName> abgebildet.</note>
-                    </seg> <lb xml:id="p1-l1"/>
+        <p rend="right" xml:id="K_0514_p1"> 
+                        <note type="com" xml:id="K_0514_c0">Auf der ersten Briefseite oben ist das Wappen des Kantons <placeName key="Schaffhausen">Schaffhausen</placeName> abgebildet.</note>
+                     <lb xml:id="p1-l1"/>
           <hi>
-            <fw>
-                            <placeName type="place" key="Schaffhausen (Stadt)">Schaffhausen</placeName>,</fw> den</hi>
+            <hi rend="printed"><placeName key="Schaffhausen (Stadt)">Schaffhausen</placeName>,</hi> den</hi>
          <date when="1847-11-26">26<hi rend="sup">sten</hi> <hi>Novb<hi rend="sup">r</hi> </hi> <lb xml:id="p1-l2"/>
 1847</date>.</p>
       </div>
-      <div type="printedheader">
+      
         <p rend="center" xml:id="K_0514_p2">
                     <lb xml:id="p1-l3"/>
-          <fw>Burgermeister und Rath<lb xml:id="p1-l4"/>
+          <hi rend="printed">Burgermeister und Rath<lb xml:id="p1-l4"/>
 des <lb xml:id="p1-l5"/>
-eidgenößischen Kantons <placeName type="place" key="Schaffhausen">Schaffhausen</placeName> </fw>
+eidgenößischen Kantons <placeName key="Schaffhausen">Schaffhausen</placeName> </hi>
           
         </p>
-      </div>
-      <div type="address">
+      
+      <div type="opener">
         <p rend="center" xml:id="K_0514_p3">
                     <lb xml:id="p1-l6"/>an Seiner Hochwohlgeboren Herrn <hi>
-                        <choice>
-                            <abbr>Dr.</abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> A. Escher.</hi> <lb xml:id="p1-l7"/>
+                        <choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> A. Escher.</hi> <lb xml:id="p1-l7"/>
 Ersten Staatsschreiber des eidgenössischen Standes<lb xml:id="p1-l8"/>
-                    <placeName type="place" key="Zürich">Zürich</placeName>.</p>
+                    <placeName key="Zürich">Zürich</placeName>.</p>
       </div>
       <div type="opener">
         <p rend="indent" xml:id="K_0514_p4">
                     <lb xml:id="p1-l9"/>Hochwohlgeborener,<lb xml:id="p1-l10"/>
 Hochgeachteter Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_0514_p5">
                 <lb xml:id="p1-l11"/>Euer Hochwohlgeboren haben Ihrer verehrlichen<lb xml:id="p1-l12"/>
-Zuschrift vom <date when="1847-11-23">23<hi rend="sup">t</hi> <choice>
-                            <abbr>d.</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date> Abends 3 Uhr diejenige vom <date when="1847-11-23">23.<choice>
-                            <abbr>d<hi rend="sup">s</hi> </abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice>
+Zuschrift vom <date when="1847-11-23">23<hi rend="sup">t</hi> <choice><abbr>d.</abbr><expan>dieses [Monats]</expan></choice> </date> Abends 3 Uhr diejenige vom <date when="1847-11-23">23.<choice><abbr>d<hi rend="sup">s</hi> </abbr><expan>dieses [Monats]</expan></choice>
                 </date> <lb xml:id="p1-l13"/>
 Abends ½ 5 Uhr durch Estafette<note type="transcript">reitender Eilbote</note> an uns nachfolgen<lb xml:id="p1-l14"/>
 lassen &amp;. uns auf diesem Wege die Nachrichten<lb xml:id="p1-l15"/>
 von den Ereignissen, welche die Uebergabe der<lb xml:id="p1-l16"/>
-Stadt <placeName type="place" key="Luzern (Stadt)">Luzern</placeName> an die eidgenössischen Truppen<lb xml:id="p1-l17"/>u. die Unterwerfung des Kantons <placeName type="place" key="Luzern">Luzern</placeName> zufolge<lb xml:id="p1-l18"/>
+Stadt <placeName key="Luzern (Stadt)">Luzern</placeName> an die eidgenössischen Truppen<lb xml:id="p1-l17"/>u. die Unterwerfung des Kantons <placeName key="Luzern">Luzern</placeName> zufolge<lb xml:id="p1-l18"/>
 hatten – mitgetheilt.</p>
       <p rend="indent" xml:id="K_0514_p6">
-                <lb xml:id="p1-l19"/>Wir sind Euer Hochwohlgeboren für die so schleun<lb break="no" xml:id="p1-l20"/>ige
- Mittheilung dieser erfreulichen Nachricht<lb xml:id="p1-l21"/>
+                <lb xml:id="p1-l19"/>Wir sind Euer Hochwohlgeboren für die so schleun
+                <lb xml:id="p1-l20" break="no"/>ige
+ Mittheilung dieser erfreulichen Nachricht<lb xml:id="p1-l21" break="no"/>
 recht sehr verbunden.</p>
       <p rend="indent" xml:id="K_0514_p7">
                 <lb xml:id="p1-l22"/>Da wir nach dem glücklichen Ausgange der<pb n="2"/>
                 <lb xml:id="p2-l1"/>
-Ereigniße im Kanton <placeName type="place" key="Luzern">Luzern</placeName> die gefällige Corres<lb break="no" xml:id="p2-l2"/>pondenz,
- welche Euer Hochwohlgeboren übernomm<lb break="no" xml:id="p2-l3"/>en 
-haben, für einmal als geschlossen betrachten,<lb xml:id="p2-l4"/>
-so benutzen wir gegenwärtige letzte Gelegenheit,<lb xml:id="p2-l5"/>
-um mit unserm wiederholten Danke für die<lb xml:id="p2-l6"/>
-äusserst gefällige Bemühung Euer Hochwohlge<lb break="no" xml:id="p2-l7"/>boren, 
-die erneuerte Versicherung wahrer Hoch<lb break="no" xml:id="p2-l8"/>achtung 
+Ereigniße im Kanton <placeName key="Luzern">Luzern</placeName> die gefällige Corres
+                <lb xml:id="p2-l2" break="no"/>pondenz,
+ welche Euer Hochwohlgeboren übernomm
+                <lb xml:id="p2-l3" break="no"/>en 
+haben, für einmal als geschlossen betrachten,<lb xml:id="p2-l4" break="no"/>
+so benutzen wir gegenwärtige letzte Gelegenheit,<lb xml:id="p2-l5" break="no"/>
+um mit unserm wiederholten Danke für die<lb xml:id="p2-l6" break="no"/>
+äusserst gefällige Bemühung Euer Hochwohlge
+                <lb xml:id="p2-l7" break="no"/>boren, 
+die erneuerte Versicherung wahrer Hoch
+                <lb xml:id="p2-l8" break="no"/>achtung 
 zu verbinden.</p>
-    </div>
-        </body>
-    <back>
-      <div type="address">
+    </body><back>
+      <div type="signature">
         <p rend="right" xml:id="K_0514_p8">
                     <lb xml:id="p2-l9"/>Der Amtsburgermeister:<lb xml:id="p2-l10"/>
-                    <persName type="person" key="Waldkirch Ferdinand von">
+                    <persName key="Waldkirch Ferdinand von">
                         Ferd. v. Waldkirch
                     </persName>
                 </p>
         <p rend="right" xml:id="K_0514_p9">
                     <lb xml:id="p2-l11"/>Der Staatsschreiber:<lb xml:id="p2-l12"/>
-                    <persName type="person" key="Peyer im Hof Johann Friedrich">J. Peyer im Hof</persName>.</p>
+                    <persName key="Peyer im Hof Johann Friedrich">J. Peyer im Hof</persName>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,169 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2402" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Franz Müller an Alfred Escher, Zug, Montag, Februar 21, 1870</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#361*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Regierungsrat ZG</item>
-                        <item>Grosser Rat ZG</item>
-                        <item>Eisenbahnstrecken Konzessionen</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Müller Franz" type="sender">Franz Müller</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zug</placeName>
-                    <date when="1870-02-21">Montag, Februar 21, 1870</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-08-03" who="WB">Transkription
-                
-            </change>
-            <change when="2013-08-08" who="MB">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="LW">Migrationsverifizierung
-                    umgesetzt
-                
-            </change>
-            <change when="2014-01-07" who="CR">Auszeichnung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-08" who="LH">Verfizierung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-13" who="XR">Auszeichnung 2
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-22" who="LH">Transkriptionsverifizierung Seiterle
-                    umgesetzt
-                
-            </change>
-            <change when="2014-01-28" who="SWK">Übertragung Transkriptionsverifizierung
-                    geprüft
-                
-            </change>
-            <change when="2014-03-17" who="MLB">Inhaltliche Qualitätsprüfung
-                    umgesetzt
-                
-            </change>
-            <change when="2014-05-13" who="LB">Verifizierung 2
-                umgesetzt
-                
-            </change>
-            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2402" type="Brief"><teiHeader><fileDesc><titleStmt><title>Franz Müller an Alfred Escher, Zug, Montag, 21. Februar 1870</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#361*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Regierungsrat ZG</term><term>Grosser Rat ZG</term><term>Eisenbahnstrecken Konzessionen</term><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Müller Franz" type="addressee">Franz Müller</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zug</placeName><date when="1870-02-21">21. Februar 1870</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="right" xml:id="K_2402_p1">
                     <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zug (Stadt)">Zug</placeName> den <date when="1870-02-21">21<hi rend="sup">ten</hi>
+          <placeName key="Zug (Stadt)">Zug</placeName> den <date when="1870-02-21">21<hi rend="sup">ten</hi>
                         Februar 1870.</date> </p>
       </div>
-      <div type="address">
+      <div type="opener">
         <p rend="indent" xml:id="K_2402_p2">
-                    <lb xml:id="p1-l2"/>Herrn Nationalrath <hi>Doctor Alfred Escher</hi> in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.</p>
+                    <lb xml:id="p1-l2"/>Herrn Nationalrath <hi>Doctor Alfred Escher</hi> in <placeName key="Zürich (Stadt)">Zürich</placeName>.</p>
       </div>
       <div type="opener">
         <p rend="center" xml:id="K_2402_p3">
                     <lb xml:id="p1-l3"/>
-          <choice>
-                        <abbr>Tit<supplied>u</supplied>l!</abbr>
-                        <expan>Titulo (mit Titel)</expan>
-                    </choice>
+          <choice><abbr>Tit<add>u</add>l!</abbr><expan>Titulo (mit Titel)</expan></choice>
         </p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_2402_p4">
-                <lb xml:id="p1-l4"/>Das Eisenbahnkomite der <placeName type="place" key="Aargau">aargauischen</placeName> Südbahn hat bei unserm <lb xml:id="p1-l5"/>
-                <choice>
-                        <abbr>RgRathe</abbr>
-                        <expan>RegierungsRathe</expan>
-                    </choice> das Gesuch gestellt,
-                derselbe wolle dem <choice>
-                        <abbr>Gr. Rathe</abbr>
-                        <expan>Grossen / Großen Rathe</expan>
-                    </choice> beantragen:
+                <lb xml:id="p1-l4"/>Das Eisenbahnkomite der <placeName key="Aargau">aargauischen</placeName> Südbahn hat bei unserm <lb xml:id="p1-l5"/>
+                <choice><abbr>RgRathe</abbr><expan>RegierungsRathe</expan></choice> das Gesuch gestellt,
+                derselbe wolle dem <choice><abbr>Gr. Rathe</abbr><expan>Grossen / Großen Rathe</expan></choice> beantragen:
                     <lb xml:id="p1-l6"/>«Es sei dem unterzeichneten <hi>Comité</hi> für sich und zu
                 Handen einer zu bildenden <lb xml:id="p1-l7"/>Acktiengesellschaft<note type="transcript">sic!</note> die Konzession für den Bau
-                und Betrieb einer Eisenbahn <lb xml:id="p1-l8"/>in der Richtung <placeName type="place" key="Aarau">Aarau</placeName>–<placeName type="place" key="Brugg (AG)">Brugg</placeName>–<placeName type="place" key="Hendschiken">Hendschikon</placeName>–<placeName type="place" key="Rotkreuz (Risch)">Rothkreuz</placeName>–<placeName type="place" key="Immensee (Küssnacht, SZ)">Immensee</placeName> <lb xml:id="p1-l9"/>für das Gebiet Ihres Kantons unter möglichst günstigen
-                    Konzessions<lb break="no" xml:id="p1-l10"/>Bedingungen zu ertheilen.» </p>
+                und Betrieb einer Eisenbahn <lb xml:id="p1-l8"/>in der Richtung <placeName key="Aarau">Aarau</placeName>–<placeName key="Brugg (AG)">Brugg</placeName>–<placeName key="Hendschiken">Hendschikon</placeName>–<placeName key="Rotkreuz (Risch)">Rothkreuz</placeName>–<placeName key="Immensee (Küssnacht, SZ)">Immensee</placeName> <lb xml:id="p1-l9"/>für das Gebiet Ihres Kantons unter möglichst günstigen
+                    Konzessions
+                <lb xml:id="p1-l10" break="no"/>Bedingungen zu ertheilen.» </p>
       <p rend="right" xml:id="K_2402_p5">
                 <lb xml:id="p1-l11"/>Unterzeichnet: </p>
       <p rend="right" xml:id="K_2402_p6">
                 <lb xml:id="p1-l12"/>
-        <choice>
-                        <abbr>Pdt.</abbr>
-                        <expan>Präsident</expan>
-                    </choice>
-        <persName type="person" key="Tanner">
+        <choice><abbr>Pdt.</abbr><expan>Präsident</expan></choice>
+        <persName key="Tanner">
                     <hi>Tanner</hi>
                 </persName> &amp; Aktuar
-                    <persName type="person" key="Leutwyler">Leutwyler</persName>. </p>
+                    <persName key="Leutwyler">Leutwyler</persName>. </p>
       <p rend="left" xml:id="K_2402_p7">
                 <lb xml:id="p1-l13"/>Wie Ihnen genügend bekannt, sind die
-                Einwohner unsers Kantons vorzugs<lb break="no" xml:id="p1-l14"/>weise für die Richtung <placeName type="place" key="Zug (Stadt)">Zug</placeName>–<placeName type="place" key="St. Adrian (Walchwil)">St. Adrian</placeName>–<placeName type="place" key="Goldau (Arth)">Goldau</placeName> eingenommen und <lb xml:id="p1-l15"/>halten jede
+                Einwohner unsers Kantons vorzugs
+                <lb xml:id="p1-l14" break="no"/>weise für die Richtung <placeName key="Zug (Stadt)">Zug</placeName>–<placeName key="St. Adrian (Walchwil)">St. Adrian</placeName>–<placeName key="Goldau (Arth)">Goldau</placeName> eingenommen und <lb xml:id="p1-l15" break="no"/>halten jede
                 andere Richtung für eine Umgehung. </p>
       <p rend="left" xml:id="K_2402_p8">
                 <lb xml:id="p1-l16"/>Schön, daß die internationale technische
-                Kommission die Richtung <placeName type="place" key="Goldau (Arth)">Goldau</placeName>–<lb xml:id="p1-l17"/>
-                <placeName type="place" key="St. Adrian (Walchwil)">St. Adrian</placeName> zu beseitigen
+                Kommission die Richtung <placeName key="Goldau (Arth)">Goldau</placeName>–<lb xml:id="p1-l17"/>
+                <placeName key="St. Adrian (Walchwil)">St. Adrian</placeName> zu beseitigen
                 beantragte, hat den Zweifelern neue Nachrung<note type="transcript">sic!</note> <lb xml:id="p1-l18"/>verschafft, dank der schweizerischen Abordnung für Ihre kräftige
                     <lb xml:id="p1-l19"/>Verwendung für Beibehaltung. </p>
       <p rend="left" xml:id="K_2402_p9">
-                <lb xml:id="p1-l20"/>Für eine Einmündung der <placeName type="place" key="Aargau">aargauischen</placeName> Südbahn bei der Station <placeName type="place" key="Cham">Cham</placeName>, <lb xml:id="p1-l21"/>wie anfänglich projektirt, wäre man
+                <lb xml:id="p1-l20"/>Für eine Einmündung der <placeName key="Aargau">aargauischen</placeName> Südbahn bei der Station <placeName key="Cham">Cham</placeName>, <lb xml:id="p1-l21"/>wie anfänglich projektirt, wäre man
                 hier allgemein gestimmt. <lb xml:id="p1-l22"/>In dieser Angelegenheit muß der
                 Unterzeichnete sich Ihren gefälligen <lb xml:id="p1-l23"/>Rath erbitten, ob eine
                 Verweigerung zuläßig und rathsam, oder ob die <lb xml:id="p1-l24"/>Gewährung unsern
                 Interessen nicht nachtheilig werden könnte? </p>
       <p rend="indent" xml:id="K_2402_p10">
-                <lb xml:id="p1-l25"/>Die hiesige Abordnung bei der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>konferenz wird in dieser <pb n="2"/>
+                <lb xml:id="p1-l25"/>Die hiesige Abordnung bei der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>konferenz wird in dieser <pb n="2"/>
                 <lb xml:id="p2-l1"/>Angelegenheit das erste Votum abgeben
                 müssen, umso <lb xml:id="p2-l2"/>erwünschter ein erfahrner Rath, für <hi>Discretion</hi>
                 gesichert. </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="left" xml:id="K_2402_p11">
                     <lb xml:id="p2-l3"/>Genehmigen
                     Sie Titul die Versicherung meiner ausgezeichnete<note type="transcript">sic!</note> <lb xml:id="p2-l4"/>Hochachtung und Ergebenheit </p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_2402_p12">
                     <lb xml:id="p2-l5"/>Frz. Müller</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

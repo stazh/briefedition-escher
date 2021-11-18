@@ -1,404 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3032" n="23" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Georg Stoll an Alfred Escher, Zürich, Mittwoch, September 5, 1877</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#477*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Schweizerische Centralbahn (SCB)</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Eisenbahngesellschaften Krise/Rekonstruktion</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Stoll Georg" type="sender">Georg Stoll</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1877-09-05">Mittwoch, September 5, 1877</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-11-16" who="SD">Transkription
-                
-            </change>
-            <change when="2013-08-26" who="LH">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="CD">Migrationsverifizierung
-        umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="XR">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="NS">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="DG">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-22" who="SWK">Transkriptionsverifizierung Seiterle
-          umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="LH">Übertragung der Transkriptionsverifizierung
-          geprüft
-                
-            </change>
-            <change when="2014-04-22" who="MLB">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-            <change when="2014-05-21" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-08-12" who="BF">provisorisch kommentiert
-                
-            </change>
-            <change when="2014-09-02" who="BF">Kommentierung überarbeitet
-                
-            </change>
-            <change when="2014-09-18" who="MB">Auszeichnung 1 und 2
-        umgesetzt
-                
-            </change>
-            <change when="2014-10-13" who="BF">Korrektorat EH 1 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_3032_p1">
-                    <fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3032" type="Brief"><teiHeader><fileDesc><titleStmt><title>Georg Stoll an Alfred Escher, Zürich, Mittwoch, 05. September 1877</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#477*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Nordostbahn (NOB)</term><term>Schweizerische Centralbahn (SCB)</term><term>Eisenbahnen Finanzierung</term><term>Eisenbahngesellschaften Krise/Rekonstruktion</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Stoll Georg" type="addressee">Georg Stoll</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1877-09-05">05. September 1877</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_3032_p1"><hi rend="printed">
             <lb xml:id="p1-l1"/>Schweizerische Kreditanstalt. <lb xml:id="p1-l2"/>Société de Crédit Suisse.
-              <lb xml:id="p1-l3"/>
-                        <placeName type="place" key="Zürich (Stadt)">ZÜRICH</placeName>. <lb xml:id="p1-l4"/>Direction.</fw>
+              <lb xml:id="p1-l3"/><placeName key="Zürich (Stadt)">ZÜRICH</placeName>. <lb xml:id="p1-l4"/>Direction.</hi>
         </p>
-      </div>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_3032_p2">
-                    <lb xml:id="p1-l5"/>
-          <placeName type="place" key="Zürich (Stadt)">
-                        <hi>Zürich</hi>
-                    </placeName>, <date when="1877-09-05">5. <choice>
-                            <abbr>
-                            <hi>Septbre</hi> </abbr>
-                            <expan>Septembre (September)</expan>
-                        </choice>
+        <p rend="right" xml:id="K_3032_p2"><lb xml:id="p1-l5"/>
+          <placeName key="Zürich (Stadt)"><hi>Zürich</hi></placeName>, <date when="1877-09-05">5. <choice><abbr><hi>Septbre</hi> </abbr><expan>Septembre (September)</expan></choice>
             1877</date>. </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_3032_p3">
-                    <lb xml:id="p1-l6"/>Hochgeachteter Herr Präsident! </p>
+        <p rend="indent" xml:id="K_3032_p3"><lb xml:id="p1-l6"/>Hochgeachteter Herr Präsident! </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_3032_p4">
-                <lb xml:id="p1-l7"/>Wie Sie habe ich schon längere Zeit das Gefühl, daß <lb xml:id="p1-l8"/>es hoch
-        an der Zeit sei, mit der <seg type="ref">Finanzfrage der <choice>
-                            <abbr>
-                        <hi>NOB</hi>.</abbr>
-                            <expan>NordOstBahn</expan>
-                        </choice>
-                    <ref type="sum" target="Rekonstruktion_Nordostbahn_d1.4"><!--→ S. 48--></ref>
-                </seg> <lb xml:id="p1-l9"/>vorwärts zu kommen &amp; die
-        Sache, wenigstens in provi<lb break="no" xml:id="p1-l10"/>sorischer Weise, so gut wie möglich zu
-        ordnen. Ich meinerseits <lb xml:id="p1-l11"/>habe auch fortwährend in diesem Sinne gewirkt. Wir
-        haben es <lb xml:id="p1-l12"/>aber hier mit einem Geschäftsgang zu thun, der komplicir<lb break="no" xml:id="p1-l13"/>ter &amp; schleppender gar nicht gedacht werden kann, von <lb xml:id="p1-l14"/>persönlichen Verhältnissen gar nicht zu reden! Es ist <lb xml:id="p1-l15"/>manchmal geradezu
+    </front><body>
+      <p rend="indent" xml:id="K_3032_p4"><lb xml:id="p1-l7"/>Wie Sie habe ich schon längere Zeit das Gefühl, daß <lb xml:id="p1-l8"/>es hoch
+        an der Zeit sei, mit der <rs>Finanzfrage der <choice><abbr><hi>NOB</hi>.</abbr><expan>NordOstBahn</expan></choice><ref type="sum" target="Rekonstruktion_Nordostbahn_d1.4"><!--→ S. 48--></ref></rs> <lb xml:id="p1-l9"/>vorwärts zu kommen &amp; die
+        Sache, wenigstens in provi<lb xml:id="p1-l10" break="no"/>sorischer Weise, so gut wie möglich zu
+        ordnen. Ich meinerseits <lb xml:id="p1-l11" break="no"/>habe auch fortwährend in diesem Sinne gewirkt. Wir
+        haben es <lb xml:id="p1-l12" break="no"/>aber hier mit einem Geschäftsgang zu thun, der komplicir<lb xml:id="p1-l13" break="no"/>ter &amp; schleppender gar nicht gedacht werden kann, von <lb xml:id="p1-l14" break="no"/>persönlichen Verhältnissen gar nicht zu reden! Es ist <lb xml:id="p1-l15" break="no"/>manchmal geradezu
         zum Verzweifeln. </p>
-      <p rend="indent" xml:id="K_3032_p5">
-                <lb xml:id="p1-l16"/>Die Verhandlungen mit der Nordostbahn konnten <lb xml:id="p1-l17"/>erst am <date when="1877-08-26">26. <choice>
-                            <abbr>v. M.</abbr>
-                            <expan>vorigen / vergangenen Monats</expan>
-                        </choice> </date> an Hand
-        genommen werden, da <lb xml:id="p1-l18"/> <seg type="com">Herr <choice>
-                            <abbr>
-                        <hi>D<hi rend="sup">r</hi> </hi>
-                    </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> <persName type="person" key="Escher (vom Glas) Eugen">
-                        <hi>E.
-              Escher</hi>
-                    </persName>
-                    <note xml:id="K_3032_c1">
-                        <persName type="person" key="Escher (vom Glas) Eugen">Eugen
-              Escher</persName> (1831–1900), Grosser Stadtrat von <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>, Vizepräsident der Direktion der Nordostbahn.</note>
-                </seg> erst auf diesen Tag aus den Ferien <lb xml:id="p1-l19"/>heimgekehrt ist. Seither ist nun Manches
-        gegangen, <lb xml:id="p1-l20"/>ohne dass man indessen des endlichen Erfolges ge<lb break="no" xml:id="p1-l21"/>wiß ist. </p>
-      <p rend="indent" xml:id="K_3032_p6">
-                <lb xml:id="p1-l22"/>In einer Konferenz der <placeName type="place" key="Ostschweiz">ostschweiz.</placeName> Banken haben <lb xml:id="p1-l23"/>sich, außer der Kreditanstalt, die Bank
-        in <placeName type="place" key="Winterthur">
-                    <hi>Winterthur</hi>
-                </placeName>, <lb xml:id="p1-l24"/>die <placeName type="place" key="Aargau">Aargauische</placeName> Bank, die Banken in <placeName type="place" key="Glarus (Gemeinde)">
-                    <hi>Glarus</hi>
-                </placeName> &amp; <placeName type="place" key="Schaffhausen (Stadt)">
-                    <hi>Schaff<lb break="no" xml:id="p1-l25"/>hausen</hi>
-                </placeName> bereit erklärt, für die <seg type="ref">Bildung
-          eines Kon<lb break="no" xml:id="p1-l26"/>sortium's<ref type="sum" target="Rekonstruktion_Nordostbahn_p11"><!--→ S. 48-49--></ref>
-                </seg> die Initiative zu ergreifen. Die beiden <pb n="2"/>
-                <lb xml:id="p2-l1"/>
-                <placeName type="place" key="Thurgau">thurgauischen</placeName> Banken haben
+      <p rend="indent" xml:id="K_3032_p5"><lb xml:id="p1-l16"/>Die Verhandlungen mit der Nordostbahn konnten <lb xml:id="p1-l17"/>erst am <date when="1877-08-26">26. <choice><abbr>v. M.</abbr><expan>vorigen / vergangenen Monats</expan></choice> </date> an Hand
+        genommen werden, da <lb xml:id="p1-l18"/> Herr <choice><abbr><hi>D<hi rend="sup">r</hi> </hi></abbr><expan>Doktor / Doctor</expan></choice> <persName key="Escher (vom Glas) Eugen"><hi>E.
+              Escher</hi></persName><note type="com" xml:id="K_3032_c1"><persName key="Escher (vom Glas) Eugen">Eugen
+              Escher</persName> (1831–1900), Grosser Stadtrat von <placeName key="Zürich (Stadt)">Zürich</placeName>, Vizepräsident der Direktion der Nordostbahn.</note> erst auf diesen Tag aus den Ferien <lb xml:id="p1-l19"/>heimgekehrt ist. Seither ist nun Manches
+        gegangen, <lb xml:id="p1-l20"/>ohne dass man indessen des endlichen Erfolges ge<lb xml:id="p1-l21" break="no"/>wiß ist. </p>
+      <p rend="indent" xml:id="K_3032_p6"><lb xml:id="p1-l22"/>In einer Konferenz der <placeName key="Ostschweiz">ostschweiz.</placeName> Banken haben <lb xml:id="p1-l23"/>sich, außer der Kreditanstalt, die Bank
+        in <placeName key="Winterthur"><hi>Winterthur</hi></placeName>, <lb xml:id="p1-l24"/>die <placeName key="Aargau">Aargauische</placeName> Bank, die Banken in <placeName key="Glarus (Gemeinde)"><hi>Glarus</hi></placeName> &amp; <placeName key="Schaffhausen (Stadt)"><hi>Schaff<lb xml:id="p1-l25" break="no"/>hausen</hi></placeName> bereit erklärt, für die <rs>Bildung
+          eines Kon<lb xml:id="p1-l26" break="no"/>sortium's<ref type="sum" target="Rekonstruktion_Nordostbahn_p11"><!--→ S. 48-49--></ref></rs> die Initiative zu ergreifen. Die beiden <pb n="2"/><lb xml:id="p2-l1"/><placeName key="Thurgau">thurgauischen</placeName> Banken haben
         eine Betheiligung abgelehnt. <lb xml:id="p2-l2"/>An andere Banken ist man vorläufig noch nicht
-          ge<lb break="no" xml:id="p2-l3"/>langt, da man es für zweckmäßiger fand, die Sache erst <lb xml:id="p2-l4"/>in einer etwas gereifteren Gestalt in weitere Kreise <lb xml:id="p2-l5"/>zu
+          ge<lb xml:id="p2-l3" break="no"/>langt, da man es für zweckmäßiger fand, die Sache erst <lb xml:id="p2-l4" break="no"/>in einer etwas gereifteren Gestalt in weitere Kreise <lb xml:id="p2-l5" break="no"/>zu
         bringen. </p>
-      <p rend="indent" xml:id="K_3032_p7">
-                <lb xml:id="p2-l6"/>Seither habe ich nun, im Auftrage obiger Bankkon<lb break="no" xml:id="p2-l7"/>ferenz
-            <del>
-                    <supplied type="unclear">...</supplied>
-                </del> in Verbindung mit Herrn <seg type="com">Bankdirektor <persName type="person" key="Keller Konrad">
-                        <hi>Keller</hi>
-                    </persName>
-                    <note xml:id="K_3032_c2">
-                        <persName type="person" key="Keller Konrad">Konrad Keller</persName> (1836–1892), Direktor der Bank in <placeName type="place" key="Winterthur">Winterthur</placeName>.</note>
-                </seg>, <lb xml:id="p2-l8"/>mit der
-        Delegation der <choice>
-                        <abbr>
-                    <hi>NOB</hi>.</abbr>
-                        <expan>NordOstBahn</expan>
-                    </choice> (<hi>
-                    <persName type="person" key="Escher (vom Glas) Eugen">Escher</persName>
-                </hi>, <seg type="com">
-                    <persName type="person" key="Römer Melchior">
-                        <hi>Römer</hi>
-                    </persName>
-                    <note xml:id="K_3032_c3">
-                        <persName type="person" key="Römer Melchior">Melchior Römer</persName> (1831–1895), Stadtpräsident von <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>, Kantonsrat und Nationalrat (<placeName type="place" key="Zürich">ZH</placeName>), Verwaltungsrat der Nordostbahn.</note>
-                </seg> &amp; <seg type="com">
-                    <persName type="person" key="Cramer-von Wyss Heinrich">
-                        <hi>Cramer</hi>
-                    </persName>
-                    <note xml:id="K_3032_c4">
-                        <persName type="person" key="Cramer-von Wyss Heinrich">Heinrich Cramer-von Wyss</persName>
-            (1829–1906), Kantonsrat (<placeName type="place" key="Zürich">ZH</placeName>), Verwaltungsrat der
-            Nordostbahn.</note>
-                </seg> ) <lb xml:id="p2-l9"/>die Redaktion eines
-        Vertragsentwurfes vereinbart <lb xml:id="p2-l10"/>&amp; <date when="1877-09-05">heute</date> auch den
-        Konsortial-Vertrag entworfen. Ich <lb xml:id="p2-l11"/>werde mir <date when="1877-09-06">morgen</date>
-        erlauben, Ihnen diese <lb xml:id="p2-l12"/>beiden Entwürfe <hi>sous bande</hi> zugehen zu lassen
-          <lb xml:id="p2-l13"/>&amp; wäre Ihnen sehr dankbar, wenn Sie die Gefälligkeit <lb xml:id="p2-l14"/>hätten, dieselben mit kritischen Augen zu prüfen <lb xml:id="p2-l15"/>&amp; mir <hi rend="underline">bald
-          möglichst</hi> Ihre Bemerkungen darüber <lb xml:id="p2-l16"/>zu machen. </p>
-      <p rend="left" xml:id="K_3032_p8">
-                <lb xml:id="p2-l17"/>
+      <p rend="indent" xml:id="K_3032_p7"><lb xml:id="p2-l6"/>Seither habe ich nun, im Auftrage obiger Bankkon<lb xml:id="p2-l7" break="no"/>ferenz
+            <del><add type="?">...</add></del> in Verbindung mit Herrn Bankdirektor <persName key="Keller Konrad"><hi>Keller</hi></persName><note type="com" xml:id="K_3032_c2"><persName key="Keller Konrad">Konrad Keller</persName> (1836–1892), Direktor der Bank in <placeName key="Winterthur">Winterthur</placeName>.</note>, <lb xml:id="p2-l8" break="no"/>mit der
+        Delegation der <choice><abbr><hi>NOB</hi>.</abbr><expan>NordOstBahn</expan></choice> (<hi><persName key="Escher (vom Glas) Eugen">Escher</persName></hi>, <persName key="Römer Melchior"><hi>Römer</hi></persName><note type="com" xml:id="K_3032_c3"><persName key="Römer Melchior">Melchior Römer</persName> (1831–1895), Stadtpräsident von <placeName key="Zürich (Stadt)">Zürich</placeName>, Kantonsrat und Nationalrat (<placeName key="Zürich">ZH</placeName>), Verwaltungsrat der Nordostbahn.</note> &amp; <persName key="Cramer-von Wyss Heinrich"><hi>Cramer</hi></persName><note type="com" xml:id="K_3032_c4"><persName key="Cramer-von Wyss Heinrich">Heinrich Cramer-von Wyss</persName>
+            (1829–1906), Kantonsrat (<placeName key="Zürich">ZH</placeName>), Verwaltungsrat der
+            Nordostbahn.</note> ) <lb xml:id="p2-l9" break="no"/>die Redaktion eines
+        Vertragsentwurfes vereinbart <lb xml:id="p2-l10" break="no"/>&amp; <date when="1877-09-05">heute</date> auch den
+        Konsortial-Vertrag entworfen. Ich <lb xml:id="p2-l11" break="no"/>werde mir <date when="1877-09-06">morgen</date>
+        erlauben, Ihnen diese <lb xml:id="p2-l12" break="no"/>beiden Entwürfe <hi>sous bande</hi> zugehen zu lassen
+          <lb xml:id="p2-l13" break="no"/>&amp; wäre Ihnen sehr dankbar, wenn Sie die Gefälligkeit <lb xml:id="p2-l14" break="no"/>hätten, dieselben mit kritischen Augen zu prüfen <lb xml:id="p2-l15" break="no"/>&amp; mir <hi rend="underline">bald
+          möglichst</hi> Ihre Bemerkungen darüber <lb xml:id="p2-l16" break="no"/>zu machen. </p>
+      <p rend="left" xml:id="K_3032_p8"><lb xml:id="p2-l17"/>
         <date when="1877-09-08">Nächsten Samstag</date> tritt die Bankenkonferenz <lb xml:id="p2-l18"/>zu
         Behandlung der beiden Vertragsentwürfe <lb xml:id="p2-l19"/>nochmals zusammen. Alsdann werden
-        unverweilt <lb xml:id="p2-l20"/>auch andere Banken &amp; Bankfirmen zum Zu<lb break="no" xml:id="p2-l21"/>tritt eingeladen werden.</p>
-      <p rend="indent" xml:id="K_3032_p9">
-                <lb xml:id="p2-l22"/> <seg type="com">Mit dem <hi>Comptoir d'Escompte</hi> in <hi>
-                        <placeName type="place" key="Paris (F)">Paris</placeName> </hi> sind <lb xml:id="p2-l23"/>die Unterhandlungen wegen der Aushingabe <pb n="3"/>
-                    <lb xml:id="p3-l1"/>von 28,000 Obligationen gegen Abzahlung <lb xml:id="p3-l2"/>von <choice>
-                            <abbr>
-                        <hi>fr</hi>.</abbr>
-                            <expan>franken / francs / franchi</expan>
-                        </choice> 5,000,000 &amp; der Prolongation der
-            re<lb break="no" xml:id="p3-l3"/>stirenden <choice>
-                            <abbr>
-                        <hi>fr</hi>.</abbr>
-                            <expan>franken / francs / franchi</expan>
-                        </choice>
-          20,000,000 im Gange &amp; zwar mit <lb xml:id="p3-l4"/>Aussicht auf einen günstigen
-            Erfolg.<note xml:id="K_3032_c5">Die Unterhandlungen mit dem Comptoir d'Escompte führten zum gewünschten
-            Erfolg; die genannten 28 000 Obligationen im Nominalwert von 14 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken bildeten in
+        unverweilt <lb xml:id="p2-l20"/>auch andere Banken &amp; Bankfirmen zum Zu<lb xml:id="p2-l21" break="no"/>tritt eingeladen werden.</p>
+      <p rend="indent" xml:id="K_3032_p9"><lb xml:id="p2-l22"/> Mit dem <hi>Comptoir d'Escompte</hi> in <hi><placeName key="Paris (F)">Paris</placeName> </hi> sind <lb xml:id="p2-l23"/>die Unterhandlungen wegen der Aushingabe <pb n="3"/><lb xml:id="p3-l1"/>von 28,000 Obligationen gegen Abzahlung <lb xml:id="p3-l2"/>von <choice><abbr><hi>fr</hi>.</abbr><expan>franken / francs / franchi</expan></choice> 5,000,000 &amp; der Prolongation der
+            re<lb xml:id="p3-l3" break="no"/>stirenden <choice><abbr><hi>fr</hi>.</abbr><expan>franken / francs / franchi</expan></choice>
+          20,000,000 im Gange &amp; zwar mit <lb xml:id="p3-l4" break="no"/>Aussicht auf einen günstigen
+            Erfolg.<note type="com" xml:id="K_3032_c5">Die Unterhandlungen mit dem Comptoir d'Escompte führten zum gewünschten
+            Erfolg; die genannten 28 000 Obligationen im Nominalwert von 14 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken bildeten in
             der Folge einen Teil des Obligationengeschäfts der Nordostbahn mit dem schweizerischen
             Bankenkonsortium, das mittels Vertrag vom <date when="1877-09-08">8. September</date>
-            abgeschlossen werden konnte. Der Fälligkeitstermin für die übrigen 20 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken wurde
-            auf den <date when="1878-12-31">31. Dezember 1878</date> erstreckt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 38; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 86–87.</note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_3032_p10">
-                <lb xml:id="p3-l5"/> <seg type="com">Ebenso ist die Centralbahn um ihre Zustim<lb break="no" xml:id="p3-l6"/>mung zu dem Verkaufe der 5
-            <choice>
-                            <abbr>Mill.</abbr>
-                            <expan>Million</expan>
-                        </choice> Gemeinschafts<lb break="no" xml:id="p3-l7"/>obligationen im
-          Sinne des projektirten Arrange<lb break="no" xml:id="p3-l8"/>ment's angegangen worden.<note xml:id="K_3032_c6">Diese
+            abgeschlossen werden konnte. Der Fälligkeitstermin für die übrigen 20 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken wurde
+            auf den <date when="1878-12-31">31. Dezember 1878</date> erstreckt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 38; <ref type="lit">Kessler, Nordostbahn</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 86–87.</note> </p>
+      <p rend="indent" xml:id="K_3032_p10"><lb xml:id="p3-l5"/> Ebenso ist die Centralbahn um ihre Zustim<lb xml:id="p3-l6" break="no"/>mung zu dem Verkaufe der 5
+            <choice><abbr>Mill.</abbr><expan>Million</expan></choice> Gemeinschafts<lb xml:id="p3-l7" break="no"/>obligationen im
+          Sinne des projektirten Arrange<lb xml:id="p3-l8" break="no"/>ment's angegangen worden.<note type="com" xml:id="K_3032_c6">Diese
             noch im Besitz der Nordostbahn befindlichen Anleihen, die aus einem gemeinsamen
-            Obligationengeschäft der Nordostbahn und der Centralbahn mit einer Anzahl <placeName type="place" key="Deutsches Reich">deutscher</placeName> und
+            Obligationengeschäft der Nordostbahn und der Centralbahn mit einer Anzahl <placeName key="Deutsches Reich">deutscher</placeName> und
             schweizerischer Banken von März 1874 stammten, bildeten in der Folge den anderen Teil
-            des Obligationengeschäfts der Nordostbahn mit dem schweizerischen Bankenkonsortium. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice>
-              <ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 41; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 38; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 86–87.</note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_3032_p11">
-                <lb xml:id="p3-l9"/>Ferner sind gegenüber den maßgebenden <lb xml:id="p3-l10"/>
-                <add>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> </add>städtischen Personen Schritte
+            des Obligationengeschäfts der Nordostbahn mit dem schweizerischen Bankenkonsortium. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice>
+              <ref type="lit">Bericht Dir. NOB an GV [30. Juni 1877]</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 41; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 38; <ref type="lit">Kessler, Nordostbahn</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 86–87.</note> </p>
+      <p rend="indent" xml:id="K_3032_p11"><lb xml:id="p3-l9"/>Ferner sind gegenüber den maßgebenden <lb xml:id="p3-l10"/><add><placeName key="Zürich (Stadt)">Zürich</placeName> </add>städtischen Personen Schritte
         gethan worden, um <lb xml:id="p3-l11"/>eine Mitwirkung der Stadt in einer <add>ihr</add>
         passenden <lb xml:id="p3-l12"/>Form zu erlangen. </p>
-      <p rend="indent" xml:id="K_3032_p12">
-                <lb xml:id="p3-l13"/>Von der <seg type="com">Kommission der Generalversammlung<note xml:id="K_3032_c7">Die Generalversammlung der
+      <p rend="indent" xml:id="K_3032_p12"><lb xml:id="p3-l13"/>Von der Kommission der Generalversammlung<note type="com" xml:id="K_3032_c7">Die Generalversammlung der
             Aktionäre der Nordostbahn hatte am <date when="1877-06-30">30. Juni 1877</date> auf Antrag des
             Verwaltungsrates eine Kommission gewählt, die mit der Prüfung der Berichte von Direktion
             und Verwaltungsrat beauftragt wurde und der Generalversammlung über das Resultat dieser
             Prüfung Bericht erstatten sollte. Zudem sollte die Kommission den Statutenentwurf und
-            das Programm zur finanziellen Rekonstruktion der Gesellschaft begutachten. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. GV NOB</ref>, 30. Juni 1877 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 227–229, 238–240); <ref type="lit">Bericht Aktionärskommission NOB 1877</ref>.</note>
-                </seg> <lb xml:id="p3-l14"/>wissen wir nur
-        durch mündliche Mittheilungen <lb xml:id="p3-l15"/>von <seg type="com">Herr<note type="transcript">sic!</note> <persName type="person" key="Studer Heinrich">
-                        <hi>Studer</hi>
-                    </persName>
-                    <note xml:id="K_3032_c8">
-                        <persName type="person" key="Studer Heinrich">Heinrich Studer</persName> (1815–1890), Kantonsrat und Nationalrat (<placeName type="place" key="Zürich">ZH</placeName>), Verwaltungsrat der Nordostbahn, Präsident des Bankrats der <placeName type="place" key="Zürich">Zürcher</placeName> Kantonalbank.</note>
-                </seg>, daß sie dem Projekt günstig <lb xml:id="p3-l16"/>ist. Ich habe nun
-        dafür gesorgt, daß die <seg type="com">Reor<lb break="no" xml:id="p3-l17"/>ganisationskommission<note xml:id="K_3032_c9">Gemeint ist
+            das Programm zur finanziellen Rekonstruktion der Gesellschaft begutachten. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. GV NOB</ref>, 30. Juni 1877 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 227–229, 238–240); <ref type="lit">Bericht Aktionärskommission NOB 1877</ref>.</note> <lb xml:id="p3-l14"/>wissen wir nur
+        durch mündliche Mittheilungen <lb xml:id="p3-l15"/>von Herr<note type="transcript">sic!</note> <persName key="Studer Heinrich"><hi>Studer</hi></persName><note type="com" xml:id="K_3032_c8"><persName key="Studer Heinrich">Heinrich Studer</persName> (1815–1890), Kantonsrat und Nationalrat (<placeName key="Zürich">ZH</placeName>), Verwaltungsrat der Nordostbahn, Präsident des Bankrats der <placeName key="Zürich">Zürcher</placeName> Kantonalbank.</note>, daß sie dem Projekt günstig <lb xml:id="p3-l16"/>ist. Ich habe nun
+        dafür gesorgt, daß die Reor<lb xml:id="p3-l17" break="no"/>ganisationskommission<note type="com" xml:id="K_3032_c9">Gemeint ist
             die von Escher präsidierte Reorganisationskommission des Verwaltungsrats der
-            Nordostbahn, zu deren weiteren Mitgliedern Stoll gehörte. <ref type="sum" target="Rekonstruktion_Nordostbahn_d1.2"><!--→ S. 45--></ref> </note>
-                </seg> von derselben eine
-        schriftliche <lb xml:id="p3-l18"/>Erklärung verlangt, daß sie bereit sei, das<lb break="no" xml:id="p3-l19"/>selbe der Generalversammlung zur Annahme <lb xml:id="p3-l20"/>zu empfehlen. </p>
-      <p rend="indent" xml:id="K_3032_p13">
-                <lb xml:id="p3-l21"/>Die Mehrheit der Delegation der <choice>
-                        <abbr>
-                    <hi>NOB</hi>.</abbr>
-                        <expan>NordOstBahn</expan>
-                    </choice> ver<lb break="no" xml:id="p3-l22"/>langte beharrlich, daß den Aktionären
-        &amp; Obligationären <lb xml:id="p3-l23"/>möglich gemacht werden solle, sich beim Konsortium <pb n="4"/>
-                    <lb xml:id="p4-l1"/>mit Beträgen bis auf <choice>
-                        <abbr>
-                    <hi>fr</hi>.</abbr>
-                        <expan>franken / francs / franchi</expan>
-                    </choice> 1,000 herunter zu betheiligen. Ob<lb break="no" xml:id="p4-l2"/>schon dieses
-        die Sache außer ordentlich komplicirt, indem <lb xml:id="p4-l3"/>das Geschäft auf diese Weise
-        nicht mehr den Charak<lb break="no" xml:id="p4-l4"/>ter eines gewöhnlichen Konsortialgeschäftes
-        erhält, <lb xml:id="p4-l5"/>so haben wir, wenn auch mit Widerstreben, <lb xml:id="p4-l6"/>dennoch
-        nachzugeben geglaubt, zumal auch die Gene<lb break="no" xml:id="p4-l7"/>ralversammlungs-Kommission
+            Nordostbahn, zu deren weiteren Mitgliedern Stoll gehörte. <ref type="sum" target="Rekonstruktion_Nordostbahn_d1.2"><!--→ S. 45--></ref> </note> von derselben eine
+        schriftliche <lb xml:id="p3-l18"/>Erklärung verlangt, daß sie bereit sei, das<lb xml:id="p3-l19" break="no"/>selbe der Generalversammlung zur Annahme <lb xml:id="p3-l20" break="no"/>zu empfehlen. </p>
+      <p rend="indent" xml:id="K_3032_p13"><lb xml:id="p3-l21"/>Die Mehrheit der Delegation der <choice><abbr><hi>NOB</hi>.</abbr><expan>NordOstBahn</expan></choice> ver<lb xml:id="p3-l22" break="no"/>langte beharrlich, daß den Aktionären
+        &amp; Obligationären <lb xml:id="p3-l23" break="no"/>möglich gemacht werden solle, sich beim Konsortium <pb n="4"/><lb xml:id="p4-l1" break="no"/>mit Beträgen bis auf <choice><abbr><hi>fr</hi>.</abbr><expan>franken / francs / franchi</expan></choice> 1,000 herunter zu betheiligen. Ob<lb xml:id="p4-l2" break="no"/>schon dieses
+        die Sache außer ordentlich komplicirt, indem <lb xml:id="p4-l3" break="no"/>das Geschäft auf diese Weise
+        nicht mehr den Charak<lb xml:id="p4-l4" break="no"/>ter eines gewöhnlichen Konsortialgeschäftes
+        erhält, <lb xml:id="p4-l5" break="no"/>so haben wir, wenn auch mit Widerstreben, <lb xml:id="p4-l6" break="no"/>dennoch
+        nachzugeben geglaubt, zumal auch die Gene<lb xml:id="p4-l7" break="no"/>ralversammlungs-Kommission
         solches zu wünschen scheint. </p>
-      <p rend="indent" xml:id="K_3032_p14">
-                <lb xml:id="p4-l8"/> <seg type="com">Wir haben die Abhaltung der Generalver<lb break="no" xml:id="p4-l9"/>sammlung vorläufig auf Ende
-          des Monates in <lb xml:id="p4-l10"/>Aussicht genommen. Ein früherer Termin wird schon <lb xml:id="p4-l11"/>deßhalb ausgeschlossen sein, weil die Kommission der <lb xml:id="p4-l12"/>
-                        <choice>
-                            <abbr>Gen.Versammlung</abbr>
-                            <expan>GeneralVersammlung</expan>
-                        </choice> mit ihren Arbeiten noch <lb xml:id="p4-l13"/>im Rückstande zu sein scheint.<note xml:id="K_3032_c10">Die ausserordentliche Generalversammlung der
+      <p rend="indent" xml:id="K_3032_p14"><lb xml:id="p4-l8"/> Wir haben die Abhaltung der Generalver<lb xml:id="p4-l9" break="no"/>sammlung vorläufig auf Ende
+          des Monates in <lb xml:id="p4-l10" break="no"/>Aussicht genommen. Ein früherer Termin wird schon <lb xml:id="p4-l11" break="no"/>deßhalb ausgeschlossen sein, weil die Kommission der <lb xml:id="p4-l12" break="no"/><choice><abbr>Gen.Versammlung</abbr><expan>GeneralVersammlung</expan></choice> mit ihren Arbeiten noch <lb xml:id="p4-l13" break="no"/>im Rückstande zu sein scheint.<note type="com" xml:id="K_3032_c10">Die ausserordentliche Generalversammlung der
             Aktionäre der Nordostbahn fand am <date when="1877-10-10">10. Oktober 1877</date> statt. Die
             Aktionärskommission unterstützte dabei wie von Stoll gewünscht die Anträge des
-            Verwaltungsrats; ihren Bericht schloss sie indes erst im Februar 1878 ab. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. GV NOB</ref>, 10. Oktober 1877; <ref type="lit">Bericht
-              Aktionärskommission NOB 1877</ref>.</note>
-                </seg> </p>
-      <p rend="left" xml:id="K_3032_p15">
-                <lb xml:id="p4-l14"/>Ich habe dieser Tage <seg type="ref">Herrn Minister <choice>
-                            <abbr>
-                        <hi>D<hi rend="sup">r</hi> </hi>
-                    </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> <hi>
-                        <persName type="person" key="Kern Johann Konrad">Kern</persName> </hi>
-                    <ref type="kbp">→ Johann Konrad Kern</ref>
-                </seg> <lb xml:id="p4-l15"/>gesehen
-        &amp; von demselben vernommen, daß <seg type="com">Herr <lb xml:id="p4-l16"/>
-                    <hi>
-                        <persName type="person" key="Hentsch Edouard">Hentsch</persName> </hi>
-                    <note xml:id="K_3032_c11">
-                        <persName type="person" key="Hentsch Edouard">Edouard Hentsch</persName> (1829–1892), in <placeName type="place" key="Paris (F)">Paris</placeName> niedergelassener <placeName type="place" key="Genf">Genfer</placeName> Bankier, Teilhaber und Leiter der Privatbank Hentsch, Lutscher und Compagnie in
-            <placeName type="place" key="Paris (F)">Paris</placeName>, Verwaltungsratspräsident des Comptoir d'Escompte de <placeName type="place" key="Paris (F)">Paris</placeName>.</note>
-                </seg> sich sehr wünschen würde, während seines <lb xml:id="p4-l17"/>Aufenthaltes in der Schweiz mit Ihnen<!-- Lesung korrigiert, zuvor "ihnen"; BF, 09.12.2014 [aufgrund Korrekturhinweis EH im Band 6] --> an einem <lb xml:id="p4-l18"/>dritten Orte
-        eine mündliche Besprechung zu haben. <lb xml:id="p4-l19"/>Herr <persName type="person" key="Kern Johann Konrad">
-                    <hi>Kern</hi>
-                </persName> ist der Ansicht, daß eine solche Be<lb break="no" xml:id="p4-l20"/>sprechung den Interessen der Nordostbahn <lb xml:id="p4-l21"/>außerordentlich
+            Verwaltungsrats; ihren Bericht schloss sie indes erst im Februar 1878 ab. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. GV NOB</ref>, 10. Oktober 1877; <ref type="lit">Bericht
+              Aktionärskommission NOB 1877</ref>.</note> </p>
+      <p rend="left" xml:id="K_3032_p15"><lb xml:id="p4-l14"/>Ich habe dieser Tage <rs>Herrn Minister <choice><abbr><hi>D<hi rend="sup">r</hi> </hi></abbr><expan>Doktor / Doctor</expan></choice> <hi><persName key="Kern Johann Konrad">Kern</persName> </hi></rs> <lb xml:id="p4-l15"/>gesehen
+        &amp; von demselben vernommen, daß Herr <lb xml:id="p4-l16"/><hi><persName key="Hentsch Edouard">Hentsch</persName> </hi><note type="com" xml:id="K_3032_c11"><persName key="Hentsch Edouard">Edouard Hentsch</persName> (1829–1892), in <placeName key="Paris (F)">Paris</placeName> niedergelassener <placeName key="Genf">Genfer</placeName> Bankier, Teilhaber und Leiter der Privatbank Hentsch, Lutscher und Compagnie in
+            <placeName key="Paris (F)">Paris</placeName>, Verwaltungsratspräsident des Comptoir d'Escompte de <placeName key="Paris (F)">Paris</placeName>.</note> sich sehr wünschen würde, während seines <lb xml:id="p4-l17"/>Aufenthaltes in der Schweiz mit Ihnen<!-- Lesung korrigiert, zuvor "ihnen"; BF, 09.12.2014 [aufgrund Korrekturhinweis EH im Band 6] --> an einem <lb xml:id="p4-l18"/>dritten Orte
+        eine mündliche Besprechung zu haben. <lb xml:id="p4-l19"/>Herr <persName key="Kern Johann Konrad"><hi>Kern</hi></persName> ist der Ansicht, daß eine solche Be<lb xml:id="p4-l20" break="no"/>sprechung den Interessen der Nordostbahn <lb xml:id="p4-l21" break="no"/>außerordentlich
         förderlich sein würde. </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="left" xml:id="K_3032_p16">
-                    <lb xml:id="p4-l22"/>Hochachtungsvollst </p>
-        <p rend="indent" xml:id="K_3032_p17">
-                    <lb xml:id="p4-l23"/>Ihr </p>
+        <p rend="left" xml:id="K_3032_p16"><lb xml:id="p4-l22"/>Hochachtungsvollst </p>
+        <p rend="indent" xml:id="K_3032_p17"><lb xml:id="p4-l23"/>Ihr </p>
       </div>
-      <div type="address">
-        <p rend="indent" xml:id="K_3032_p18">
-                    <lb xml:id="p4-l24"/>Stoll. </p>
+      <div type="signature">
+        <p rend="indent" xml:id="K_3032_p18"><lb xml:id="p4-l24"/>Stoll. </p>
       </div>
       <postscript>
-        <p rend="left" xml:id="K_3032_p19">
-                    <lb xml:id="p4-l25"/> <choice>
-                        <abbr>
-                        <hi>P. S.</hi>
-          </abbr>
-                        <expan>Post Scriptum (nach dem Geschriebenen)</expan>
-                    </choice> Das von Ihnen erwähnte <seg type="com">Pamphlet<note xml:id="K_3032_c12">Die unter dem Pseudonym «Belial Sauerteig,
+        <p rend="left" xml:id="K_3032_p19"><lb xml:id="p4-l25"/> <choice><abbr><hi>P. S.</hi>
+          </abbr><expan>Post Scriptum (nach dem Geschriebenen)</expan></choice> Das von Ihnen erwähnte Pamphlet<note type="com" xml:id="K_3032_c12">Die unter dem Pseudonym «Belial Sauerteig,
               kosmopolitischer Nachtwächter» veröffentlichte Schrift trug den Titel «De
               Züri-Herrgott oder die Kunst, ein reicher, hochangesehener und mächtiger Mann zu
               werden. Colloquia über Leben und Thaten des berühmten Schwarzkünstlers und Doktors der
-              höhern Magie, Alfredi Magni Turicensis». <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="letter" target="K_3024"><!--Brief Escher an Georg
+              höhern Magie, Alfredi Magni Turicensis». <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="letter" target="K_3024"><!--Brief Escher an Georg
                 Stoll, 27. August 1877 (ZB Ms Briefe, Escher)--></ref>; <ref type="lit">Memminger,
-              Züri-Herrgott</ref>; <ref type="lit">Jung, Aufbruch</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 293, 295; <ref type="sum" target="Rekonstruktion_Nordostbahn_p15"><!--S. 51--></ref>.<!--[Es dürfte dieses Pamphlet gemeint sein, da es sich offenbar um eine anonyme, gegen Escher persönlich gerichtete Schrift handelt. Memmingers Schrift zur Nordostbahn erschien auch 1877, hat er aber unter seinem Namen veröffentlicht.]-->
-                        </note>
-                    </seg> habe ich nicht selbst lesen mögen. Ich vernehme aber zu<lb xml:id="p4-l26"/> meiner
+              Züri-Herrgott</ref>; <ref type="lit">Jung, Aufbruch</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 293, 295; <ref type="sum" target="Rekonstruktion_Nordostbahn_p15"><!--S. 51--></ref>.<!--[Es dürfte dieses Pamphlet gemeint sein, da es sich offenbar um eine anonyme, gegen Escher persönlich gerichtete Schrift handelt. Memmingers Schrift zur Nordostbahn erschien auch 1877, hat er aber unter seinem Namen veröffentlicht.]--></note> habe ich nicht selbst lesen mögen. Ich vernehme aber zu<lb xml:id="p4-l26"/> meiner
           Befriedigung, daß es nicht viel zu bedeuten habe &amp; sich auch keines günstigen Erfolges
-          zu erfreuen habe. <choice>
-                        <abbr>Muthmaßl.</abbr>
-                        <expan>Muthmaßlich</expan>
-                    </choice>
-		  <lb xml:id="p4-l27"/>Verfasser: <seg type="com">
-                        <persName type="person" key="Memminger Anton">
-                            <hi>Memminger</hi>
-                        </persName>
-                        <note xml:id="K_3032_c13">
-                            <persName type="person" key="Memminger Anton">Anton
-                Memminger</persName> (1846–1923), <placeName type="place" key="Bayern (Königreich)">bayrischer</placeName> Pamphletist und Publizist, ehemaliger Bürochef der Nordostbahn.</note>
-                    </seg>. </p>
+          zu erfreuen habe. <choice><abbr>Muthmaßl.</abbr><expan>Muthmaßlich</expan></choice>
+		  <lb xml:id="p4-l27"/>Verfasser: <persName key="Memminger Anton"><hi>Memminger</hi></persName><note type="com" xml:id="K_3032_c13"><persName key="Memminger Anton">Anton
+                Memminger</persName> (1846–1923), <placeName key="Bayern (Königreich)">bayrischer</placeName> Pamphletist und Publizist, ehemaliger Bürochef der Nordostbahn.</note>. </p>
       </postscript>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,150 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0414" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johannes Rüegg an Alfred Escher, Winterthur, Sonntag, Februar 8, 1846</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#417*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Wahlen</item>
-                        <item>Freischaren</item>
-                        <item>Erziehungsrat ZH</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Rüegg Johannes" type="sender">Johannes Rüegg</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Winterthur</placeName>
-                    <date when="1846-02-08">Sonntag, Februar 8, 1846</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-08-29" who="MW">Transkribiert
-                
-            </change>
-            <change when="2010-12-02" who="BK">von Word nach XML konvertiert
-                
-            </change>
-            <change when="2011-07-05" who="BP">e-Edition: Auszeichnung 1 umgesetzt 
-                
-            </change>
-            <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen umgesetzt
-                
-            </change>
-            <change when="2011-07-26" who="TM">e-Edition: Auszeichnung 2 umgesetzt 
-                
-            </change>
-            <change when="2011-07-28" who="HA">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2011-08-10" who="TM">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2014-12-15" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0414" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johannes Rüegg an Alfred Escher, Winterthur, Sonntag, 08. Februar 1846</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#417*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Wahlen</term><term>Freischaren</term><term>Erziehungsrat ZH</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Rüegg Johannes" type="addressee">Johannes Rüegg</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Winterthur</placeName><date when="1846-02-08">08. Februar 1846</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="center" xml:id="K_0414_p1">
                     <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Winterthur">Winterthur</placeName>
-         <date when="1846-02-08">den 8. <choice>
-                            <abbr>
-                            <hi>Febr.</hi> </abbr>
-                            <expan>Februar</expan>
-                        </choice> 1846</date>.</p>
+          <placeName key="Winterthur">Winterthur</placeName>
+         <date when="1846-02-08">den 8. <choice><abbr>
+                            <hi>Febr.</hi> </abbr><expan>Februar</expan></choice> 1846</date>.</p>
       </div>
       <div type="opener">
         <p rend="left" xml:id="K_0414_p2">
                     <lb xml:id="p1-l2"/>Mein verehrtester Herr Doktor!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="left" xml:id="K_0414_p3">
-                <lb xml:id="p1-l3"/>Durch Unwohlsein gehindert mit den Herren <choice>
-                        <abbr>
-                    <hi>Dr</hi>
-                </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> <persName type="person" key="Pestalozzi Hans Jakob">Pestalutz</persName> und Oberst <persName type="person" key="Weiss Heinrich">Weiß</persName> <lb xml:id="p1-l4"/>
+                <lb xml:id="p1-l3"/>Durch Unwohlsein gehindert mit den Herren <choice><abbr><hi>Dr</hi></abbr><expan>Doktor / Doctor</expan></choice> <persName key="Pestalozzi Hans Jakob">Pestalutz</persName> und Oberst <persName key="Weiss Heinrich">Weiß</persName> <lb xml:id="p1-l4"/>
 mündliche Rücksprache zu nehmen, habe ich dieselben schriftlich angefragt,<lb xml:id="p1-l5"/>
-ob es ihnen recht wäre, wenn auf Sonntag, den <date when="1846-02-15">15. <choice>
-                            <abbr>d. M.</abbr>
-                            <expan>dieses Monats</expan>
-                        </choice>
-                </date>, die Bezirksabge<lb break="no" xml:id="p1-l6"/>ordneten 
-nach <placeName type="place" key="Baltenswil (Bassersdorf)">Baltenschweil</placeName> eingeladen würden in der Meinung, daß<lb xml:id="p1-l7"/>
-man sich daselbst vorläufig über das Verhalten mit Bezug auf die Mai<lb break="no" xml:id="p1-l8"/>wahlen 
-bespreche und von Seite der Vorsteherschaft die <persName type="person" key="Steiger Jakob Robert">Steigerische</persName><!--Transkription korrigiert: Bindestrich entfernt; BF, 15.12.2014--> An<lb break="no" xml:id="p1-l9"/>gelegenheit 
+ob es ihnen recht wäre, wenn auf Sonntag, den <date when="1846-02-15">15. <choice><abbr>d. M.</abbr><expan>dieses Monats</expan></choice>
+                </date>, die Bezirksabge
+                <lb xml:id="p1-l6" break="no"/>ordneten 
+nach <placeName key="Baltenswil (Bassersdorf)">Baltenschweil</placeName> eingeladen würden in der Meinung, daß<lb xml:id="p1-l7" break="no"/>
+man sich daselbst vorläufig über das Verhalten mit Bezug auf die Mai
+                <lb xml:id="p1-l8" break="no"/>wahlen 
+bespreche und von Seite der Vorsteherschaft die <persName key="Steiger Jakob Robert">Steigerische</persName><!--Transkription korrigiert: Bindestrich entfernt; BF, 15.12.2014--> An
+                <lb xml:id="p1-l9" break="no"/>gelegenheit 
 in Ordnung bringe, worauf mir bemerkt wurde:</p>
       <p rend="left" xml:id="K_0414_p4">
-                <lb xml:id="p1-l10"/>«<persName type="person" key="Weiss Heinrich">Weiß</persName> erklärt hiemit daß er der Ansicht sei, der Kantonalausschuß sollte<lb xml:id="p1-l11"/>
-vorerst zusammen kommen, um sich zu berathen, was mit den Bezirksabge<lb break="no" xml:id="p1-l12"/>ordneten
- anzufangen sei, wenn man sie beisammen hat. Ich wenigstens<lb xml:id="p1-l13"/>
-weiß noch nichts ihnen vorzulegen und müßte daher jedenfalls sicher sein,<lb xml:id="p1-l14"/>
-daß entweder der reelle <persName type="person" key="Präsident der Bezirksabgeordneten">Präsident</persName> beiwohne und die Berathung leite, oder<lb xml:id="p1-l15"/>
-        daß Herr <choice>
-                        <abbr>
+                <lb xml:id="p1-l10"/>«<persName key="Weiss Heinrich">Weiß</persName> erklärt hiemit daß er der Ansicht sei, der Kantonalausschuß sollte<lb xml:id="p1-l11"/>
+vorerst zusammen kommen, um sich zu berathen, was mit den Bezirksabge
+                <lb xml:id="p1-l12" break="no"/>ordneten
+ anzufangen sei, wenn man sie beisammen hat. Ich wenigstens<lb xml:id="p1-l13" break="no"/>
+weiß noch nichts ihnen vorzulegen und müßte daher jedenfalls sicher sein,<lb xml:id="p1-l14" break="no"/>
+daß entweder der reelle <persName key="Präsident der Bezirksabgeordneten">Präsident</persName> beiwohne und die Berathung leite, oder<lb xml:id="p1-l15" break="no"/>
+        daß Herr <choice><abbr>
                     <hi>D<hi rend="sup">r</hi> </hi>
-                </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> <hi>A. Escher</hi> dieses Geschäft übernehme».</p>
+                </abbr><expan>Doktor / Doctor</expan></choice> <hi>A. Escher</hi> dieses Geschäft übernehme».</p>
       <p rend="left" xml:id="K_0414_p5">
                 <lb xml:id="p1-l16"/>
-        <persName type="person" key="Pestalozzi Hans Jakob">Pestalutz</persName>. «ich halte eine Versammlung <hi rend="underline">jetzt</hi> für überflüssig und
+        <persName key="Pestalozzi Hans Jakob">Pestalutz</persName>. «ich halte eine Versammlung <hi rend="underline">jetzt</hi> für überflüssig und
         <lb xml:id="p1-l17"/>
                 <hi rend="underline">unzeitig</hi>. Gegen Ende März wird es zweckmäßig sein, daß <hi>Komité</hi> (?)<note type="transcript">unklar, ob Fragezeichen von Rüegg oder von anderer Hand angebracht wurde, da es sich bei der Vorlage um eine Kopie handelt</note> <lb xml:id="p1-l18"/>
 neu zu bestellen und die Einleitungen zu den Wahlen zu treffen. Man<lb xml:id="p1-l19"/>
 muß gewiß die Leute nicht zu früh in Anspruch nehmen, sonst haben sie<lb xml:id="p1-l20"/>
         keinen Eifer mehr wenn sie energisch handeln sollten».</p>
       <p rend="left" xml:id="K_0414_p6">
-                <lb xml:id="p1-l21"/>Einstweilen wird es also am besten sein zuzuwarten. Vielleicht wird's auch unter<lb break="no" xml:id="p1-l22"/>dessen 
+                <lb xml:id="p1-l21"/>Einstweilen wird es also am besten sein zuzuwarten. Vielleicht wird's auch unter
+                <lb xml:id="p1-l22" break="no"/>dessen 
 ruhiger, milder und freundlicher in einigen Regionen.</p>
       <p rend="left" xml:id="K_0414_p7">
                 <lb xml:id="p1-l23"/>Auf Wiedersehen und mündliche Ergänzung am Mittwochen!</p>
       <p rend="left" xml:id="K_0414_p8">
-                <lb xml:id="p1-l24"/>Mit <placeName type="place" key="Weisslingen">Weißlingen</placeName> sollten wir <hi>piano</hi> verfahren wegen dem Schulhausbau.<lb xml:id="p1-l25"/>
-Darüber auch mündlich ein paar Worte, eh im <choice>
-                        <abbr>Erzrth</abbr>
-                        <expan>Erziehungsrath</expan>
-                    </choice> ein Beschluß gefaßt wird.</p>
-    </div>
-        </body>
-    <back>
+                <lb xml:id="p1-l24"/>Mit <placeName key="Weisslingen">Weißlingen</placeName> sollten wir <hi>piano</hi> verfahren wegen dem Schulhausbau.<lb xml:id="p1-l25"/>
+Darüber auch mündlich ein paar Worte, eh im <choice><abbr>Erzrth</abbr><expan>Erziehungsrath</expan></choice> ein Beschluß gefaßt wird.</p>
+    </body><back>
       <div type="closer">
         <p rend="indent" xml:id="K_0414_p9">
                     <lb xml:id="p1-l26"/>
           <hi rend="underline">Herzliche</hi> Grüße von Ihrem:</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_0414_p10">
                     <lb xml:id="p1-l27"/>Joh. Rüegg.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

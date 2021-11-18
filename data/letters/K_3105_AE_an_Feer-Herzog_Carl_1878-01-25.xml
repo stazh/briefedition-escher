@@ -1,175 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3105" n="335" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Carl Feer-Herzog, Zürich, Freitag, Januar 25, 1878</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_059</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Bundesrat</item>
-                        <item>Demissionen</item>
-                        <item>Stadträte (allgemein)</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Feer-Herzog Carl" type="addressee">Carl Feer-Herzog</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1878-01-25">Freitag, Januar 25, 1878</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-06-23" who="SK">transkribiert
-                
-            </change>
-            <change when="Oktober 2006" who="swissedit, UR">von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-11-03" who="SK">provisorisch kommentiert 1
-                
-            </change>
-            <change when="2007-01-19" who="WB">Kommentare eingefügt
-                
-            </change>
-            <change when="2007-02-26" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-04-24" who="SK">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-11" who="WB">indexiert
-                
-            </change>
-            <change when="2007-05-19" who="SK">Original überprüft, Unterschrift und Keywords angepasst
-                
-            </change>
-            <change when="2007-05-26" who="SK">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-20" who="SK">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2008-08-07" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-21" who="BP">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-08" who="HA">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-08" who="HA">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="MB">Migrationsverifizierung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3105" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Carl Feer-Herzog, Zürich, Freitag, 25. Januar 1878</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_059</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Bundesrat</term><term>Demissionen</term><term>Stadträte (allgemein)</term><term>Gotthardbahnprojekt</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term>Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Feer-Herzog Carl" type="sender">Carl Feer-Herzog</persName><placeName>Zürich</placeName><date when="1878-01-25">25. Januar 1878</date></correspAction><correspAction type="received"><placeName>Aarau</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_3105_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_3105_c0">Nachträgliche Inhaltsangabe oben links auf Seite 1 von dritter Hand: <bibl>Einstweilige Fortsetzung seiner Verrichtungen in der Direction der Gotthardbahn. <choice>
-                                    <abbr>V.R.</abbr>
-                                    <expan>VerwaltungsRath</expan>
-                                </choice> </bibl> – Nachträglicher Stempel oben rechts auf Seite 1: <bibl>Gotthardbahn<date when="1878-06-04">4. JUNI 1878</date>. <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 2137.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
+        <p rend="right" xml:id="K_3105_p1"> <note type="com" xml:id="K_3105_c0">Nachträgliche Inhaltsangabe oben links auf Seite 1 von dritter Hand: <orig>Einstweilige Fortsetzung seiner Verrichtungen in der Direction der Gotthardbahn. <choice><abbr>V.R.</abbr><expan>VerwaltungsRath</expan></choice> </orig> – Nachträglicher Stempel oben rechts auf Seite 1: <orig>Gotthardbahn<date when="1878-06-04">4. JUNI 1878</date>. <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 2137.</orig> </note> <lb xml:id="p1-l1"/>
           <hi>
-            <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-                    </hi>, den <date when="1878-01-25">25. Januar 1878</date>.<!--Transkriptionsbereinigung-->
-                </p>
-      </div>
-      <div type="address">
-        <p rend="center" xml:id="K_3105_p2">
-                    <lb xml:id="p1-l2"/>Herrn Nationalrath <hi>Feer-Herzog </hi> <lb xml:id="p1-l3"/>
-Präsidenten des Verwaltungsrathes der <lb xml:id="p1-l4"/>
-Gotthardbahngesellschaft<lb xml:id="p1-l5"/>
-                    <hi rend="underline">
-                        <hi>
-                            <placeName type="place" key="Aarau">Aarau</placeName>
-                        </hi>.</hi> </p>
+            <placeName key="Zürich (Stadt)">Zürich</placeName></hi>, den <date when="1878-01-25">25. Januar 1878</date>.<!--Transkriptionsbereinigung--></p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_3105_p3">
-                    <lb xml:id="p1-l6"/>Hochgeachteter Herr Präsident! </p>
+        <p rend="center" xml:id="K_3105_p2"><lb xml:id="p1-l2"/>Herrn Nationalrath <hi>Feer-Herzog </hi> <lb xml:id="p1-l3"/>
+Präsidenten des Verwaltungsrathes der <lb xml:id="p1-l4"/>
+Gotthardbahngesellschaft<lb xml:id="p1-l5"/><hi rend="underline"><hi><placeName key="Aarau">Aarau</placeName></hi>.</hi> </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_3105_p4">
-                <lb xml:id="p1-l7"/>Mit verehrlicher <seg type="ref">Zuschrift vom <date when="1878-01-22">22.</date>/<date when="1878-01-23">23. <choice>
-                                <abbr>dss. Mts.</abbr>
-                                <expan>dieses Monats</expan>
-                            </choice> </date>
-                    <ref type="letter" target="K_3102"><!--→ Nr. 333--></ref>
-                </seg> machen<lb xml:id="p1-l8"/>
-Sie mir in Beantwortung <seg type="ref">meines an den Verwaltungsrath der Gotthard<lb break="no" xml:id="p1-l9"/>bahn 
-unter dem <date when="1878-01-12">12.</date> abhin gerichteten Schreibens von den Schlußnahmen<ref type="letter" target="K_3096"><!--→ Nr. 330--></ref>
-                </seg> <lb xml:id="p1-l10"/>
-Mittheilung, welche dieses Kollegium mit Bezug auf die Eingabe des Stadt<lb break="no" xml:id="p1-l11"/>rathes 
-von <placeName type="place" key="Luzern (Stadt)">Luzern</placeName> an den Schweizerischen Bundesrath betreffend Auf<lb break="no" xml:id="p1-l12"/>hebung 
-des <seg type="ref">transitorischen Beschlusses vom <date when="1872-03-17">17. März 1872</date>
-                    <ref type="sum" target="Rekonstruktion_Gotthardbahn_p44"><!--→ Band 1, S. 410--></ref>
-                </seg> sowie mit Bezug<lb xml:id="p1-l13"/>
+      <div type="opener">
+        <p rend="indent" xml:id="K_3105_p3"><lb xml:id="p1-l6"/>Hochgeachteter Herr Präsident! </p>
+      </div>
+    </front><body>
+      <p rend="indent" xml:id="K_3105_p4"><lb xml:id="p1-l7"/>Mit verehrlicher <rs>Zuschrift vom <date when="1878-01-22">22.</date>/<date when="1878-01-23">23. <choice><abbr>dss. Mts.</abbr><expan>dieses Monats</expan></choice> </date><ref type="letter" target="K_3102"><!--→ Nr. 333--></ref></rs> machen<lb xml:id="p1-l8"/>
+Sie mir in Beantwortung <rs>meines an den Verwaltungsrath der Gotthard<lb xml:id="p1-l9" break="no"/>bahn 
+unter dem <date when="1878-01-12">12.</date> abhin gerichteten Schreibens von den Schlußnahmen<ref type="letter" target="K_3096"><!--→ Nr. 330--></ref></rs> <lb xml:id="p1-l10"/>
+Mittheilung, welche dieses Kollegium mit Bezug auf die Eingabe des Stadt<lb xml:id="p1-l11" break="no"/>rathes 
+von <placeName key="Luzern (Stadt)">Luzern</placeName> an den Schweizerischen Bundesrath betreffend Auf<lb xml:id="p1-l12" break="no"/>hebung 
+des <rs>transitorischen Beschlusses vom <date when="1872-03-17">17. März 1872</date><ref type="sum" target="Rekonstruktion_Gotthardbahn_p44"><!--→ Band 1, S. 410--></ref></rs> sowie mit Bezug<lb xml:id="p1-l13" break="no"/>
 auf mein oben erwähntes Schreiben gefaßt hat.</p>
-      <p rend="indent" xml:id="K_3105_p5">
-                <lb xml:id="p1-l14"/> <seg type="ref">Indem ich Ihnen diese Mittheilung verdanke, beehre ich mich, Ihnen<lb xml:id="p1-l15"/>
-die Erklärung abzugeben, daß ich zwar meine Verrichtungen in der Direk<lb break="no" xml:id="p1-l16"/>tion 
-der Gotthardbahn einstweilen fortsetzen werde, daß ich mir aber vorbe<lb break="no" xml:id="p1-l17"/>halten 
-muß, eine definitive Entschließung erst nach erfolgtem Entscheide<lb xml:id="p1-l18"/>
-des Bundesrathes über die Eingabe des Stadtrathes von <placeName type="place" key="Luzern (Stadt)">Luzern</placeName> zu fassen.<ref type="letter" target="K_3129"><!--→ Nr. 340--></ref>
-                    <ref type="letter" target="K_3132"><!--→ Nr. 341--></ref>
-                </seg> </p>
-      <p rend="indent" xml:id="K_3105_p6">
-                <lb xml:id="p1-l19"/>Wenn mir diese Erklärung durch die Pflichten, die mir gegenüber<lb xml:id="p1-l20"/>
+      <p rend="indent" xml:id="K_3105_p5"><lb xml:id="p1-l14"/> <rs>Indem ich Ihnen diese Mittheilung verdanke, beehre ich mich, Ihnen<lb xml:id="p1-l15"/>
+die Erklärung abzugeben, daß ich zwar meine Verrichtungen in der Direk<lb xml:id="p1-l16" break="no"/>tion 
+der Gotthardbahn einstweilen fortsetzen werde, daß ich mir aber vorbe<lb xml:id="p1-l17" break="no"/>halten 
+muß, eine definitive Entschließung erst nach erfolgtem Entscheide<lb xml:id="p1-l18" break="no"/>
+des Bundesrathes über die Eingabe des Stadtrathes von <placeName key="Luzern (Stadt)">Luzern</placeName> zu fassen.<ref type="letter" target="K_3129"><!--→ Nr. 340--></ref><ref type="letter" target="K_3132"><!--→ Nr. 341--></ref></rs> </p>
+      <p rend="indent" xml:id="K_3105_p6"><lb xml:id="p1-l19"/>Wenn mir diese Erklärung durch die Pflichten, die mir gegenüber<lb xml:id="p1-l20"/>
 der Gotthardbahnunternehmung und gegenüber mir selbst obliegen, geboten<lb xml:id="p1-l21"/>
-erscheint, so befreue ich mich hinwieder, durch dieselbe den Wunsch in Er<note type="transcript">Kustode: füllung</note>
-                    <pb n="2"/>
-                    <lb xml:id="p2-l1"/>füllung<!-- Wiederholung für "füllung" am Seitenende aufgehoben, UR --> 
-bringen zu können, den Sie persönlich in ebenso ehrender als<lb xml:id="p2-l2"/>
+erscheint, so befreue ich mich hinwieder, durch dieselbe den Wunsch in Er<note type="transcript">Kustode: füllung</note> <pb n="2"/><lb xml:id="p2-l1" break="no"/>füllung<!-- Wiederholung für "füllung" am Seitenende aufgehoben, UR --> 
+bringen zu können, den Sie persönlich in ebenso ehrender als<lb xml:id="p2-l2" break="no"/>
 liebenswürdiger Weise gegen mich ausgesprochen haben. </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_3105_p7">
-                    <lb xml:id="p2-l3"/>Empfangen Sie, Hochverehrter Herr Präsident, auch bei<lb xml:id="p2-l4"/>
+        <p rend="indent" xml:id="K_3105_p7"><lb xml:id="p2-l3"/>Empfangen Sie, Hochverehrter Herr Präsident, auch bei<lb xml:id="p2-l4"/>
 diesem Anlaße die Versicherung meiner ausgezeichneten Hochachtung<lb xml:id="p2-l5"/>
 und meiner vollen Ergebenheit. </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_3105_p8">
-                    <lb xml:id="p2-l6"/>Dr A Escher <seg type="com">
-                        <note xml:id="K_3105_c1">Brieftext von dritter Hand mit Unterschrift von Eschers Hand.</note>
-                    </seg> </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_3105_p8"><lb xml:id="p2-l6"/>Dr A Escher <note type="com" xml:id="K_3105_c1">Brieftext von dritter Hand mit Unterschrift von Eschers Hand.</note> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

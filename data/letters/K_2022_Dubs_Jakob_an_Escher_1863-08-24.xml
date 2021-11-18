@@ -1,121 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2022" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jakob Dubs an Alfred Escher, Bern, Montag, August 24, 1863</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#171*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Regierungsrat GE</item>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Alpenbahn (allgemein)</item>
-                        <item>Compagnie de l'Ouest-Suisse (Westbahn) (OS)</item>
-                        <item>Regierungsrat VD</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Dubs Jakob" type="sender">Jakob Dubs</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1863-08-24">Montag, August 24, 1863</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-03-22" who="WB">Transkription
-                
-            </change>
-            <change when="2013-06-26" who="LW">Migration nach XML
-                
-            </change>
-            <change when="2013-07-03" who="DG">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-03" who="TM">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-11" who="CD">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2013-07-24" who="KR">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-07-25" who="JS">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-07-26" who="AO">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-08-12" who="KB">Transkriptionsverifizierung Seiterle überprüft
-                
-            </change>
-            <change when="2013-10-23" who="KR">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2022" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jakob Dubs an Alfred Escher, Bern, Montag, 24. August 1863</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#171*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Regierungsrat GE</term><term>Gotthardbahnprojekt</term><term>Alpenbahn (allgemein)</term><term>Compagnie de l'Ouest-Suisse (Westbahn) (OS)</term><term>Regierungsrat VD</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Dubs Jakob" type="addressee">Jakob Dubs</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1863-08-24">24. August 1863</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2022_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName> d. <date when="1863-08-24">24. <hi>
-                            <choice>
-                                <abbr>Aug.</abbr>
-                                <expan>August</expan>
-                            </choice> </hi> 1863.</date> </p>
+        <p rend="right" xml:id="K_2022_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Bern (Stadt)">Bern</placeName> d. <date when="1863-08-24">24. <hi><choice><abbr>Aug.</abbr><expan>August</expan></choice> </hi> 1863.</date> </p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_2022_p2">
-                    <lb xml:id="p1-l2"/>Mein lieber Freund!</p>
+        <p rend="center" xml:id="K_2022_p2"><lb xml:id="p1-l2"/>Mein lieber Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2022_p3">
-                <lb xml:id="p1-l3"/>So eben von einer kurzen
-            <lb xml:id="p1-l4"/>Reise in die <placeName type="place" key="Westschweiz">Westschweiz</placeName> zurückgekehrt, will ich
+    </front><body>
+      <p rend="indent" xml:id="K_2022_p3"><lb xml:id="p1-l3"/>So eben von einer kurzen
+            <lb xml:id="p1-l4"/>Reise in die <placeName key="Westschweiz">Westschweiz</placeName> zurückgekehrt, will ich
             <lb xml:id="p1-l5"/>Dir doch mittheilen, daß mir ein Mitglied 
-            <lb xml:id="p1-l6"/>der <placeName type="place" key="Genf">Genfer</placeName> Regierung sagte, es werde am
-            <lb xml:id="p1-l7"/>  <date when="1863-08-26">nächsten Mitwoch</date> eine Konferenz in <placeName type="place" key="Genf (Stadt)">Genf</placeName> <lb xml:id="p1-l8"/>stattfinden in der <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage, in welcher 
-            <lb xml:id="p1-l9"/>auch <placeName type="place" key="St. Gallen">St. Gallen</placeName> vertreten sein werde.</p>
-      <p rend="indent" xml:id="K_2022_p4">
-                <lb xml:id="p1-l10"/>
-        <persName type="person" key="Philippin Jules">Philippin</persName><!--LB, verifiziert--> &amp;. <persName type="person" key="Schaller Julien de">Schaller</persName><!--LB, verifiziert--> waren
-                <lb xml:id="p1-l11"/>fast die ganze letzte Woche in <placeName type="place" key="Genf (Stadt)">Genf</placeName>. Ersterer
-                <lb xml:id="p1-l12"/>wühlt vornämlich<note type="transcript">sic!</note> gegen den <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>.</p>
-      <p rend="indent" xml:id="K_2022_p5">
-                <lb xml:id="p1-l13"/>In der Westbahnfrage wer<lb break="no" xml:id="p1-l14"/>den in <placeName type="place" key="Lausanne">Lausanne</placeName> voraussichtlich die Anträge
-                <lb xml:id="p1-l15"/>des Staatsrathes angenommen werden.</p>
-    </div>
-        </body>
-    <back>
+            <lb xml:id="p1-l6"/>der <placeName key="Genf">Genfer</placeName> Regierung sagte, es werde am
+            <lb xml:id="p1-l7"/>  <date when="1863-08-26">nächsten Mitwoch</date> eine Konferenz in <placeName key="Genf (Stadt)">Genf</placeName> <lb xml:id="p1-l8"/>stattfinden in der <placeName key="Alpen">Alpen</placeName>bahnfrage, in welcher 
+            <lb xml:id="p1-l9"/>auch <placeName key="St. Gallen">St. Gallen</placeName> vertreten sein werde.</p>
+      <p rend="indent" xml:id="K_2022_p4"><lb xml:id="p1-l10"/>
+        <persName key="Philippin Jules">Philippin</persName><!--LB, verifiziert--> &amp;. <persName key="Schaller Julien de">Schaller</persName><!--LB, verifiziert--> waren
+                <lb xml:id="p1-l11"/>fast die ganze letzte Woche in <placeName key="Genf (Stadt)">Genf</placeName>. Ersterer
+                <lb xml:id="p1-l12"/>wühlt vornämlich<note type="transcript">sic!</note> gegen den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>.</p>
+      <p rend="indent" xml:id="K_2022_p5"><lb xml:id="p1-l13"/>In der Westbahnfrage wer<lb xml:id="p1-l14" break="no"/>den in <placeName key="Lausanne">Lausanne</placeName> voraussichtlich die Anträge
+                <lb xml:id="p1-l15" break="no"/>des Staatsrathes angenommen werden.</p>
+    </body><back>
       <div type="closer">
-        <p rend="right" xml:id="K_2022_p6">
-                    <lb xml:id="p1-l16"/>Freundschaftlichen Gruß
+        <p rend="right" xml:id="K_2022_p6"><lb xml:id="p1-l16"/>Freundschaftlichen Gruß
             <lb xml:id="p1-l17"/>von Deinem</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2022_p7">
-                    <lb xml:id="p1-l18"/>Jb. Dubs.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2022_p7"><lb xml:id="p1-l18"/>Jb. Dubs.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

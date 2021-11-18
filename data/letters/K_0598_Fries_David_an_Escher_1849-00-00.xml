@@ -1,106 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0598" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>David Fries an Alfred Escher, s.l., [1849?]</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#219*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Presse (allgemein)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Fries David" type="sender">David Fries</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>s.l.</placeName>
-                    <date when="1849">[1849?]</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-05-03" who="BF">Transkribiert
-                
-            </change>
-            <change when="2010-02-25" who="SW">Von Word nach XML konvertiert
-                
-            </change>
-            <change when="2012-06-04" who="GW">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-08" who="CF">Verifizierung 1
-				umgesetzt
-                
-            </change>
-            <change when="2012-07-06" who="FK">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2012-07-16" who="TM">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2012-07-18" who="LM">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2012-08-15" who="FW">Übertragung der Transkritptionsverifikation geprüft
-                
-            </change>
-            <change when="2012-08-21" who="SW">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front><!--Brief ohne Anrede-->
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_0598_p1"> <seg type="com">
-                    <note type="addendum" xml:id="K_0598_c0">Datierung gemäss Briefkontext.</note>
-                </seg> <lb xml:id="p1-l1"/>Der <choice>
-                        <abbr>Schweiz. Beobachter</abbr>
-                        <expan>Schweizerischer Beobachter</expan>
-                    </choice> ist nicht bei Schultheß
-				erschienen, <choice>
-                        <abbr>sond.</abbr>
-                        <expan>sondern</expan>
-                    </choice> bei Geßner <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> später im Elsasser.<lb xml:id="p1-l2"/> Dieß Exemplar ist auch nicht aus der Buchhandlung. Dagegen konnte ich es von <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <choice>
-                        <abbr>Prof.</abbr>
-                        <expan>Professor</expan>
-                    </choice> <persName type="person" key="Spöndli Hans Conrad">Spöndli</persName><!--ermittelt SW-->, Schwa<lb break="no" xml:id="p1-l3"/>ger des <persName type="person" key="Nüscheler Heinrich">Redactors</persName><!--ermittelt SW-->, erhalten, der es dir gerne für einige Wochen überläßt.</p>
-    </div>
-        </body>
-    <back>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0598" type="Brief"><teiHeader><fileDesc><titleStmt><title>David Fries an Alfred Escher, s.l., [1849?]</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#219*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Presse (allgemein)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Fries David" type="addressee">David Fries</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><date when="1849-01-01">[1849?]</date></correspAction></correspDesc></profileDesc></teiHeader><text><front><!--Brief ohne Anrede-->
+    </front><body>
+      <p rend="indent" xml:id="K_0598_p1"> <note type="com" xml:id="K_0598_c0">Datierung gemäss Briefkontext.</note> <lb xml:id="p1-l1"/>Der <choice><abbr>Schweiz. Beobachter</abbr><expan>Schweizerischer Beobachter</expan></choice> ist nicht bei Schultheß
+				erschienen, <choice><abbr>sond.</abbr><expan>sondern</expan></choice> bei Geßner <choice><abbr>u.</abbr><expan>und</expan></choice> später im Elsasser.<lb xml:id="p1-l2"/> Dieß Exemplar ist auch nicht aus der Buchhandlung. Dagegen konnte ich es von <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <choice><abbr>Prof.</abbr><expan>Professor</expan></choice> <persName key="Spöndli Hans Conrad">Spöndli</persName><!--ermittelt SW-->, Schwa<lb xml:id="p1-l3" break="no"/>ger des <persName key="Nüscheler Heinrich">Redactors</persName><!--ermittelt SW-->, erhalten, der es dir gerne für einige Wochen überläßt.</p>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_0598_p2">
-                    <lb xml:id="p1-l4"/>Es grüßt dich herzlich<lb xml:id="p1-l5"/> dein </p>
+        <p rend="center" xml:id="K_0598_p2"><lb xml:id="p1-l4"/>Es grüßt dich herzlich<lb xml:id="p1-l5"/> dein </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0598_p3">
-                    <lb xml:id="p1-l6"/>
+      <div type="signature">
+        <p rend="right" xml:id="K_0598_p3"><lb xml:id="p1-l6"/>
           <hi>Dav. Fries</hi>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

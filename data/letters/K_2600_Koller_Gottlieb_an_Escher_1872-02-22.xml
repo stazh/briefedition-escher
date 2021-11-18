@@ -1,137 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2600" n="171" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Gottlieb Koller an Alfred Escher, Winterthur, Donnerstag, Februar 22, 1872</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#317*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Tunnelbau</item>
-                        <item>Gotthardtunnel</item>
-                        <item>Bundesrat</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Koller Gottlieb" type="sender">Gottlieb Koller</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Winterthur</placeName>
-                    <date when="1872-02-22">Donnerstag, Februar 22, 1872</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-08-02" who="WB"> transkribiert
-                
-            </change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-10-24" who="BF">kommentiert 1 prov.
-                
-            </change>
-            <change when="2006-12-05" who="SM">Konvertierung provisorisch nachbearbeitet
-                
-            </change>
-            <change when="2006-12-22" who="WB">Konvertierung nachbearbeitet (Indexierung fehlt!)
-                
-            </change>
-            <change when="2007-01-25" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-03-12" who="BF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-03-30" who="WB">indexiert
-                
-            </change>
-            <change when="2007-04-24" who="BF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-21" who="BF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-11" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-26" who="BF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-12" who="BF">Umsetzung Lektorat MK 2
-                
-            </change>
-            <change when="2007-08-08" who="BF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2008-08-04" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-19" who="AH">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-05" who="TM">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-29" who="IB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-11-17" who="LB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-17" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-17" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2600" type="Brief"><teiHeader><fileDesc><titleStmt><title>Gottlieb Koller an Alfred Escher, Winterthur, Donnerstag, 22. Februar 1872</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#317*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Tunnelbau</term><term>Gotthardtunnel</term><term>Bundesrat</term><term>Gotthardbahnprojekt</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term> Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Koller Gottlieb" type="addressee">Gottlieb Koller</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Winterthur</placeName><date when="1872-02-22">22. Februar 1872</date></correspAction><correspAction type="received"><placeName>Bern</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="right" xml:id="K_2600_p1">
                     <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Winterthur">
+          <placeName key="Winterthur">
                         <hi>Winterthur</hi>
                     </placeName> den <date when="1872-02-22">22. <hi>
-                            <choice>
-                                <abbr>Febr.</abbr>
-                                <expan>Februar</expan>
-                            </choice> </hi> 1872</date>.</p>
+                            <choice><abbr>Febr.</abbr><expan>Februar</expan></choice> </hi> 1872</date>.</p>
       </div>
-      <div type="address">
+      <div type="opener">
         <p rend="left" xml:id="K_2600_p2">
                     <lb xml:id="p1-l2"/>
-          <choice>
-                        <abbr>Tit.</abbr>
-                        <expan>Titulo (mit Titel)</expan>
-                    </choice> HHerrn <hi rend="underline">Präsident <hi>
-                            <choice>
-                                <abbr>D<hi rend="sup">r</hi>
-                            </abbr>
-                                <expan>Doktor / Doctor</expan>
-                            </choice> Alfr. Escher</hi>
-                    </hi>, <placeName type="place" key="Bern (Stadt)">
+          <choice><abbr>Tit.</abbr><expan>Titulo (mit Titel)</expan></choice> HHerrn <hi rend="underline">Präsident <hi>
+                            <choice><abbr>D<hi rend="sup">r</hi></abbr><expan>Doktor / Doctor</expan></choice> Alfr. Escher</hi>
+                    </hi>, <placeName key="Bern (Stadt)">
                         <hi>Bern</hi>
                     </placeName>
                 </p>
@@ -140,156 +22,112 @@
         <p rend="indent" xml:id="K_2600_p3">
                     <lb xml:id="p1-l3"/>Hochgeachteter Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_2600_p4">
                 <lb xml:id="p1-l4"/>
-                <seg type="com">Mein Ergebenes vom <date when="1872-02-18">18. <choice>
-                                <abbr>d.</abbr>
-                                <expan>dieses [Monats]</expan>
-                            </choice>
-                    </date> <note xml:id="K_2600_c1">Brief nicht ermittelt.</note>
-                </seg> bestätigend beehre mich Ihnen mit<lb xml:id="p1-l5"/>
-        Bezugnahme auf die Anfrage von Herrn <seg type="com">
-                    <persName type="person" key="Gelpke Otto">
+                Mein Ergebenes vom <date when="1872-02-18">18. <choice><abbr>d.</abbr><expan>dieses [Monats]</expan></choice>
+                    </date> <note type="com" xml:id="K_2600_c1">Brief nicht ermittelt.</note>
+                 bestätigend beehre mich Ihnen mit<lb xml:id="p1-l5"/>
+        Bezugnahme auf die Anfrage von Herrn 
+                    <persName key="Gelpke Otto">
                         <hi>Gelpke</hi>
                     </persName>
-                    <note xml:id="K_2600_c2">
-                        <persName type="person" key="Gelpke Otto">Otto Gelpke</persName> (1840–1895), aus <placeName type="place" key="Sachsen (Königreich)">Sachsen</placeName> stammender, in <placeName type="place" key="Bern (Stadt)">Bern</placeName> niedergelassener Ingenieur; ab <date when="1872-05-01">1. Mai 1872</date> Vorstand der topographischen
-Abteilung der Gotthardbahn-Gesellschaft. – <persName type="person" key="Gelpke Otto">Gelpke</persName> hatte im Sommer 1869 bereits die Vermessung und <bibl>Aussteckung der Achse</bibl> des <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>tunnels übernommen. <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 21. Juni 1869<!--, Traktandum 2-->. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 2. Juli 1869<!--, Traktandum 2-->; <ref type="lit">Geschäftsbericht GB</ref> 1872, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 33.</note>
-                </seg> mitzutheilen,<lb xml:id="p1-l6"/> <seg type="com">daß für den Beginn des <seg type="com">Tunnelbaues<note xml:id="K_2600_c3">Wort nachträglich von Eschers Hand mit Bleistift unterstrichen.</note>
-                    </seg> streng genommen keine weiteren<lb xml:id="p1-l7"/>
+                    <note type="com" xml:id="K_2600_c2">
+                        <persName key="Gelpke Otto">Otto Gelpke</persName> (1840–1895), aus <placeName key="Sachsen (Königreich)">Sachsen</placeName> stammender, in <placeName key="Bern (Stadt)">Bern</placeName> niedergelassener Ingenieur; ab <date when="1872-05-01">1. Mai 1872</date> Vorstand der topographischen
+Abteilung der Gotthardbahn-Gesellschaft. – <persName key="Gelpke Otto">Gelpke</persName> hatte im Sommer 1869 bereits die Vermessung und <orig>Aussteckung der Achse</orig> des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels übernommen. <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 21. Juni 1869<!--, Traktandum 2-->. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 2. Juli 1869<!--, Traktandum 2-->; <ref type="lit">Geschäftsbericht GB</ref> 1872, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 33.</note>
+                 mitzutheilen,<lb xml:id="p1-l6"/> daß für den Beginn des Tunnelbaues<note type="com" xml:id="K_2600_c3">Wort nachträglich von Eschers Hand mit Bleistift unterstrichen.</note>
+                     streng genommen keine weiteren<lb xml:id="p1-l7"/>
 geometrischen Aufnahmen mehr nöthig sind, sofern es bei der jetzt<lb xml:id="p1-l8"/>
 festgesetzten Tunnelachse sein Verbleiben hat. Nur ist es nöthig, daß<lb xml:id="p1-l9"/>
-die bisherigen Aufnahmen in <placeName type="place" key="Göschenen">
+die bisherigen Aufnahmen in <placeName key="Göschenen">
                         <hi>Goeschenen</hi>
-                    </placeName> &amp; <placeName type="place" key="Airolo">
+                    </placeName> &amp; <placeName key="Airolo">
                         <hi>Airolo</hi>
                     </placeName> bald zusammengestellt<lb xml:id="p1-l10"/>&amp; namentlich <hi rend="underline">auf den gleichen Horizont</hi> bezogen werden, wofür die<lb xml:id="p1-l11"/>
-erforderlichen Notizen sich auf den Planen befinden.<note xml:id="K_2600_c4">
-                        <bibl><!--Die technischen Vorarbeiten anlangend sind zunächst, um die erforderliche Gleichförmigkeit und Genauigkeit in den geometrischen Aufnahmen, sowie in der Anfertigung der Pläne zu erzielen, die geeigneten Vorschriften über Triangulation, Nivellirung, Aufnahme der Katastralpläne <abbr>u.</abbr> s. w. erlassen worden. Dabei wurde als Ma&sz;einheit der Meter angenommen. -->Die topographischen und Katasteraufnahmen werden durch Triangulation in das Koordinatensystem, welches die Sternwarte in <placeName type="place" key="Bern (Stadt)">Bern</placeName> zum Nullpunkte hat, eingefügt. Alle Höhenbestimmungen gehen von Punkten des Präzisionsnivellementes aus und alle Höhen werden in Meter über Meeresspiegel ausgedrückt.</bibl> <ref type="lit">Geschäftsbericht GB</ref> 1872, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 31.</note>
-                </seg> – <seg type="com">
+erforderlichen Notizen sich auf den Planen befinden.<note type="com" xml:id="K_2600_c4">
+                        <orig><!--Die technischen Vorarbeiten anlangend sind zunächst, um die erforderliche Gleichförmigkeit und Genauigkeit in den geometrischen Aufnahmen, sowie in der Anfertigung der Pläne zu erzielen, die geeigneten Vorschriften über Triangulation, Nivellirung, Aufnahme der Katastralpläne <abbr>u.</abbr> s. w. erlassen worden. Dabei wurde als Ma&sz;einheit der Meter angenommen. -->Die topographischen und Katasteraufnahmen werden durch Triangulation in das Koordinatensystem, welches die Sternwarte in <placeName key="Bern (Stadt)">Bern</placeName> zum Nullpunkte hat, eingefügt. Alle Höhenbestimmungen gehen von Punkten des Präzisionsnivellementes aus und alle Höhen werden in Meter über Meeresspiegel ausgedrückt.</orig> <ref type="lit">Geschäftsbericht GB</ref> 1872, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 31.</note>
+                 – 
                     <hi rend="underline">Auch müßte</hi> <lb xml:id="p1-l12"/>
-                    <hi rend="underline">von Herrn <persName type="person" key="Gelpke Otto">
+                    <hi rend="underline">von Herrn <persName key="Gelpke Otto">
                             <hi>Gelpke</hi>
                         </persName> die jetzige Tunnelachse genau eingetragen</hi> <lb xml:id="p1-l13"/>
                     <hi rend="underline">werden. –</hi>
-                    <note xml:id="K_2600_c5">Ganzer Absatz nachträglich von Eschers Hand mit Bleistift markiert mit Notiz: <bibl>besorgt, bald fertig.</bibl>
+                    <note type="com" xml:id="K_2600_c5">Ganzer Absatz nachträglich von Eschers Hand mit Bleistift markiert mit Notiz: <orig>besorgt, bald fertig.</orig>
                     </note>
-                </seg> <!--Transkriptionsbereinigung-->
+                 <!--Transkriptionsbereinigung-->
             </p>
       <p rend="indent" xml:id="K_2600_p5">
                 <lb xml:id="p1-l14"/>Wenn auch nicht absolut nöthig, so wäre doch für die Beschleunigung<lb xml:id="p1-l15"/>
 der unmittelbar vorzunehmenden Plannahmen <hi rend="underline">sehr wünschenswerth</hi>, daß<lb xml:id="p1-l16"/>
-        von <placeName type="place" key="Göschenen">
+        von <placeName key="Göschenen">
                     <hi>Goeschenen</hi>
-                </placeName> abwärts sofort die Triangulation an Hand genommen<lb xml:id="p1-l17"/>&amp; gleich hinterher die Planaufnahme <hi rend="underline">im gleichen Maßstab wie die von</hi> <lb xml:id="p1-l18"/> <seg type="com">
+                </placeName> abwärts sofort die Triangulation an Hand genommen<lb xml:id="p1-l17"/>&amp; gleich hinterher die Planaufnahme <hi rend="underline">im gleichen Maßstab wie die von</hi> <lb xml:id="p1-l18"/> 
                     <hi rend="underline">
-                        <placeName type="place" key="Airolo">
+                        <placeName key="Airolo">
                             <hi>Airolo</hi>
-                        </placeName> bis <placeName type="place" key="Dazio Grande (Prato Leventina)">
+                        </placeName> bis <placeName key="Dazio Grande (Prato Leventina)">
                             <hi>Dazio grande</hi>
                         </placeName>
                     </hi>
-                    <note xml:id="K_2600_c6">
-                        <placeName type="place" key="Dazio Grande (Prato Leventina)">Dazio Grande</placeName> (<placeName type="place" key="Italien (Königreich)">ital.</placeName>, grosser Zoll), 1561 fertiggestelltes Zollhaus am Eingang der <placeName type="place" key="Piottino-Schlucht">Piottino-Schlucht</placeName> bei <placeName type="place" key="Rodi-Fiesso (Prato Leventina)">Rodi-Fiesso</placeName>, heute Gemeinde <placeName type="place" key="Prato Leventina">Prato</placeName>, Bezirk <placeName type="place" key="Leventina (Bezirk)">Leventina</placeName>, Kanton <placeName type="place" key="Tessin">Tessin</placeName>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="www" target="http://www.daziogrande.ch/de/storia.html">
+                    <note type="com" xml:id="K_2600_c6">
+                        <placeName key="Dazio Grande (Prato Leventina)">Dazio Grande</placeName> (<placeName key="Italien (Königreich)">ital.</placeName>, grosser Zoll), 1561 fertiggestelltes Zollhaus am Eingang der <placeName key="Piottino-Schlucht">Piottino-Schlucht</placeName> bei <placeName key="Rodi-Fiesso (Prato Leventina)">Rodi-Fiesso</placeName>, heute Gemeinde <placeName key="Prato Leventina">Prato</placeName>, Bezirk <placeName key="Leventina (Bezirk)">Leventina</placeName>, Kanton <placeName key="Tessin">Tessin</placeName>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref target="http://www.daziogrande.ch/de/storia.html">
                             <ref type="lit">Dazio Grande online</ref>, Der Dazio Grande. Seine Geschichte</ref>.</note>
-                </seg> folgen würde. – <seg type="com">Es muß dem zukünftigen<lb xml:id="p1-l19"/>
-Oberingenieur nämlich erwünscht sein vom Tunnel ausgehend so viel Auf<lb break="no" xml:id="p1-l20"/>nahmen 
+                 folgen würde. – Es muß dem zukünftigen<lb xml:id="p1-l19"/>
+Oberingenieur nämlich erwünscht sein vom Tunnel ausgehend so viel Auf
+                    <lb xml:id="p1-l20" break="no"/>nahmen 
 als möglich vorzufinden, indem sich daraus die Höhenlage des<pb n="2"/>
-                        <lb xml:id="p2-l1"/>
-          Tunnels auf der <placeName type="place" key="Göschenen">
+                    <lb xml:id="p2-l1" break="no"/>
+          Tunnels auf der <placeName key="Göschenen">
                         <hi>Goeschener</hi>
-                    </placeName>seite besser bestimmen läßt. –<note xml:id="K_2600_c7">Ganzer Absatz nachträglich von Eschers Hand mit Bleistift markiert mit Notiz: <bibl>
-                            <choice>
-                                    <abbr>v.</abbr>
-                                    <expan>von</expan>
-                                </choice> <placeName type="place" key="Göschenen">Göschenen</placeName> bis <placeName type="place" key="Wassen (UR)">Wasen</placeName>. <choice>
-                                    <abbr>H.</abbr>
-                                    <expan>Herr</expan>
-                                </choice> <persName type="person" key="Gelpke Otto">
+                    </placeName>seite besser bestimmen läßt. –<note type="com" xml:id="K_2600_c7">Ganzer Absatz nachträglich von Eschers Hand mit Bleistift markiert mit Notiz: <orig>
+                            <choice><abbr>v.</abbr><expan>von</expan></choice> <placeName key="Göschenen">Göschenen</placeName> bis <placeName key="Wassen (UR)">Wasen</placeName>. <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Gelpke Otto">
                                 <hi>Gelpke</hi>
-                            </persName> wird dieß anordnen.</bibl> </note>
-                </seg> <!--Transkriptionsbereinigung-->
+                            </persName> wird dieß anordnen.</orig> </note>
+                 <!--Transkriptionsbereinigung-->
             </p>
       <p rend="left" xml:id="K_2600_p6">
-                <lb xml:id="p2-l2"/> <seg type="ref">Besagte Triangulation muß unter allen Umständen &amp; vor allen Dingen<lb xml:id="p2-l3"/>
+                <lb xml:id="p2-l2"/> <rs>Besagte Triangulation muß unter allen Umständen &amp; vor allen Dingen<lb xml:id="p2-l3"/>
 angeordnet werden &amp; je eher dies geschieht, desto angenehmer<lb xml:id="p2-l4"/>
 kann es nur dem zukünftigen Oberingenieur sein.<ref type="letter" target="K_2607"><!--Nr. 172--></ref>
-                </seg> – Vielleicht ist<lb xml:id="p2-l5"/>
-aber auch die Wahl schon getroffen bis <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Gelpke Otto">
+                </rs> – Vielleicht ist<lb xml:id="p2-l5"/>
+aber auch die Wahl schon getroffen bis <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="Gelpke Otto">
                     <hi>Gelpke</hi>
                 </persName> an Ort &amp; <lb xml:id="p2-l6"/>
-Stelle sich verfügen kann. - <seg type="com">
-                    <note xml:id="K_2600_c8">
-                        <persName type="person" key="Gelpke Otto">
+Stelle sich verfügen kann. - 
+                    <note type="com" xml:id="K_2600_c8">
+                        <persName key="Gelpke Otto">
                             <hi>Gelpke</hi>
                         </persName> schildert die Geschichte der Triangulation der Achse des
-<placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>tunnels in einem Aufsatz in der «Zeitschrift für Vermessungswesen» des <placeName type="place" key="Deutsches Reich">Deutschen</placeName> Geometervereins von 1880. Darin erwähnt wird auch eine im Frühjahr 1872 erfolgte leichte Verschiebung der Tunnelachse. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="www" target="http://www.alpentunnel.de/images/Gotthard/Verifikation.pdf">
+<placeName key="St. Gotthard (Pass)">Gotthard</placeName>tunnels in einem Aufsatz in der «Zeitschrift für Vermessungswesen» des <placeName key="Deutsches Reich">Deutschen</placeName> Geometervereins von 1880. Darin erwähnt wird auch eine im Frühjahr 1872 erfolgte leichte Verschiebung der Tunnelachse. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref target="http://www.alpentunnel.de/images/Gotthard/Verifikation.pdf">
                             <ref type="lit">Gelpke, Richtungsverificationen</ref>
                         </ref>.</note>
-                </seg> </p>
+                 </p>
       <p rend="indent" xml:id="K_2600_p7">
-                <lb xml:id="p2-l7"/> <seg type="com">Bezüglich der Stelle beim Bundesrath<note xml:id="K_2600_c9">Gemeint ist die Stelle eines vom Bund angestellten Inspektors der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahnbauten. <ref type="letter" target="K_2609"><!--Nr. 173--></ref>; <ref type="letter" target="K_2619"><!--Nr. 177--></ref>.</note>
-                </seg> wäre es mir jedenfalls lieb bald<lb xml:id="p2-l8"/>
-die <choice>
-                        <abbr>bezügl.</abbr>
-                        <expan>bezüglich</expan>
-                    </choice> Bedingungen zu kennen, namentlich zu wissen, ob dieselbe<lb xml:id="p2-l9"/>
-den Wegzug von <placeName type="place" key="Basel-Stadt">Basel</placeName> verlangen würde, in welchem Fall ich wahr<lb break="no" xml:id="p2-l10"/>scheinlich 
+                <lb xml:id="p2-l7"/> Bezüglich der Stelle beim Bundesrath<note type="com" xml:id="K_2600_c9">Gemeint ist die Stelle eines vom Bund angestellten Inspektors der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahnbauten. <ref type="letter" target="K_2609"><!--Nr. 173--></ref>; <ref type="letter" target="K_2619"><!--Nr. 177--></ref>.</note>
+                 wäre es mir jedenfalls lieb bald<lb xml:id="p2-l8"/>
+die <choice><abbr>bezügl.</abbr><expan>bezüglich</expan></choice> Bedingungen zu kennen, namentlich zu wissen, ob dieselbe<lb xml:id="p2-l9"/>
+den Wegzug von <placeName key="Basel-Stadt">Basel</placeName> verlangen würde, in welchem Fall ich wahr
+                <lb xml:id="p2-l10" break="no"/>scheinlich 
 nicht darauf reflektiren würde.  – Doch 
-muß ich mir natürlich<lb xml:id="p2-l11"/>
+muß ich mir natürlich<lb xml:id="p2-l11" break="no"/>
 die ganze Position vorerst klar machen können. </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="indent" xml:id="K_2600_p8">
                     <lb xml:id="p2-l12"/>Mit vollkommener Hochachtung &amp; Ergebenheit</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_2600_p9">
                     <lb xml:id="p2-l13"/>
           G. Koller
-          <choice>
-                        <abbr>Ing</abbr>
-                        <expan>Ingenieur</expan>
-                    </choice>
+          <choice><abbr>Ing</abbr><expan>Ingenieur</expan></choice>
         </p>
       </div>
       <postscript>
         <p rend="left" xml:id="K_2600_p10">
                     <lb xml:id="p2-l14"/>
-          <choice>
-                        <abbr>
-                        <hi>P</hi>. <hi>S</hi>.</abbr>
-                        <expan>Post Scriptum (nach dem Geschriebenen)</expan>
-                    </choice> Darin werden <choice>
-                        <abbr>Tit</abbr>
-                        <expan>Titulo (mit Titel)</expan>
-                    </choice> wohl mit mir ganz einverstanden sein,<lb xml:id="p2-l15"/>
+          <choice><abbr><hi>P</hi>. <hi>S</hi>.</abbr><expan>Post Scriptum (nach dem Geschriebenen)</expan></choice> Darin werden <choice><abbr>Tit</abbr><expan>Titulo (mit Titel)</expan></choice> wohl mit mir ganz einverstanden sein,<lb xml:id="p2-l15"/>
                 daß ich mich nur dann melden könnte, wenn ich der Wahl<lb xml:id="p2-l16"/>
                 ganz sicher bin.</p>
       </postscript>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

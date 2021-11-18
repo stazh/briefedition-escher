@@ -1,185 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3395" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Henri Louis Rambert an Alfred Escher, Lausanne, Donnerstag, November 8, 1877</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB03_003</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Gotthardtunnel</item>
-                        <item>Rechtliches</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Rambert Henri Louis" type="sender">Henri Louis Rambert</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Lausanne</placeName>
-                    <date when="1877-11-08">Donnerstag, November 8, 1877</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2007-01-17" who="MW">transkribiert
-                
-            </change>
-            <change when="2012-08-10" who="FW">von Word nach XML konvertiert
-                
-            </change>
-            <change when="2012-09-03" who="FK">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-01-16" who="PR">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="MA">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="MB">Migrationsverifizierung
-					umgesetzt
-                
-            </change>
-            <change when="2014-02-03" who="LW">Übertragung der Transkriptionsverifizierung
-					geprüft
-                
-            </change>
-            <change when="2014-02-05" who="XR">Auszeichnung 2
-				umgesetzt
-                
-            </change>
-            <change when="2014-05-22" who="LB">Verifizierung 2
-				umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_3395_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_3395_c0">Nachträgliche Inhaltsangabe oben links von dritter Hand: <bibl>Rückäußerung
-          auf d. herwärtige Anfrage <choice>
-                                    <abbr>betr.</abbr>
-                                    <expan>betreffend</expan>
-                                </choice> den Abbruch der Verhandlungen über
-          weitere Verschiebung des Processes auf Sicherstellung <choice>
-                                    <abbr>p. p.</abbr>
-                                    <expan>perge, perge (fahre fort, fahre fort)</expan>
-                                </choice> |
-          I <choice>
-                                    <abbr>Depart.</abbr>
-                                    <expan>Departement</expan>
-                                </choice> </bibl> – Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener
-          Nummer: <bibl>Gotthardbahn | <date when="1877-11-24">24 <choice>
-                                        <abbr>NOV.</abbr>
-                                        <expan>NOVEMBER</expan>
-                                    </choice> 1877</date>. |
-            <choice>
-                                    <abbr>No</abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 4995.</bibl> – Nachträgliche Notiz unten in der Mitte von dritter Hand: 
-          <bibl>
-                                <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1877-11-12">12.XI.77</date>. <choice>
-                                    <abbr>N.</abbr>
-                                    <expan>Nummer</expan>
-                                </choice> 2418. | <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1877-11-19">19.XI.77</date>. <choice>
-                                    <abbr>N.</abbr>
-                                    <expan>Nummer</expan>
-                                </choice> 2489.</bibl> </note>
-                    </seg> <fw>
-            <lb xml:id="p1-l1"/>L. RAMBERT ET <persName type="person" key="Dubrit Frédéric">F.
-							DUBRIT</persName> <lb xml:id="p1-l2"/> AVOCATS<lb xml:id="p1-l3"/>
-                        <placeName type="place" key="Lausanne">LAUSANNE</placeName> </fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3395" type="Brief"><teiHeader><fileDesc><titleStmt><title>Henri Louis Rambert an Alfred Escher, Lausanne, Donnerstag, 08. November 1877</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB03_003</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Gotthardtunnel</term><term>Rechtliches</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Rambert Henri Louis" type="addressee">Henri Louis Rambert</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Lausanne</placeName><date when="1877-11-08">08. November 1877</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_3395_p1"> <note type="com" xml:id="K_3395_c0">Nachträgliche Inhaltsangabe oben links von dritter Hand: <orig>Rückäußerung
+          auf d. herwärtige Anfrage <choice><abbr>betr.</abbr><expan>betreffend</expan></choice> den Abbruch der Verhandlungen über
+          weitere Verschiebung des Processes auf Sicherstellung <choice><abbr>p. p.</abbr><expan>perge, perge (fahre fort, fahre fort)</expan></choice> |
+          I <choice><abbr>Depart.</abbr><expan>Departement</expan></choice> </orig> – Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener
+          Nummer: <orig>Gotthardbahn | <date when="1877-11-24">24 <choice><abbr>NOV.</abbr><expan>NOVEMBER</expan></choice> 1877</date>. |
+            <choice><abbr>No</abbr><expan>Numero (Nummer)</expan></choice> 4995.</orig> – Nachträgliche Notiz unten in der Mitte von dritter Hand: 
+          <orig><choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1877-11-12">12.XI.77</date>. <choice><abbr>N.</abbr><expan>Nummer</expan></choice> 2418. | <choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1877-11-19">19.XI.77</date>. <choice><abbr>N.</abbr><expan>Nummer</expan></choice> 2489.</orig> </note> <hi rend="printed">
+            <lb xml:id="p1-l1"/>L. RAMBERT ET <persName key="Dubrit Frédéric">F.
+							DUBRIT</persName> <lb xml:id="p1-l2"/> AVOCATS<lb xml:id="p1-l3"/><placeName key="Lausanne">LAUSANNE</placeName> </hi>
         </p>
-      </div>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_3395_p2">
-                    <lb xml:id="p1-l4"/>
-          <seg type="com">
-                        <placeName type="place" key="Lausanne">Lausanne</placeName> le <date when="1877-11-08">
-                            <hi rend="underline">8</hi> <choice>
-                                <abbr>Nov.</abbr>
-                                <expan>Novembre (November)</expan>
-                            </choice> 1877 </date>
-                        <note xml:id="K_3395_c1">Nachträgliche Notiz von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>eingeg.</abbr>
-                                    <expan>eingegangen</expan>
-                                </choice> <date when="1877-11-09">9</date>
-                            </bibl>.</note>
-                    </seg>
-                </p>
+        <p rend="right" xml:id="K_3395_p2"><lb xml:id="p1-l4"/>
+          <placeName key="Lausanne">Lausanne</placeName> le <date when="1877-11-08"><hi rend="underline">8</hi> <choice><abbr>Nov.</abbr><expan>Novembre (November)</expan></choice> 1877 </date><note type="com" xml:id="K_3395_c1">Nachträgliche Notiz von dritter Hand: <orig><choice><abbr>eingeg.</abbr><expan>eingegangen</expan></choice> <date when="1877-11-09">9</date></orig>.</note></p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_3395_p3">
-                    <lb xml:id="p1-l5"/>Monsieur A. Escher Président de la Direction 
+      <div type="opener">
+        <p rend="center" xml:id="K_3395_p3"><lb xml:id="p1-l5"/>Monsieur A. Escher Président de la Direction 
 <lb xml:id="p1-l6"/>du Chemin de fer du Gothard. </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_3395_p4">
-                    <lb xml:id="p1-l7"/>Monsieur le Président</p>
+        <p rend="indent" xml:id="K_3395_p4"><lb xml:id="p1-l7"/>Monsieur le Président</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_3395_p5">
-                <lb xml:id="p1-l8"/>Une absence m'a empêché de répondre plus <lb xml:id="p1-l9"/>tôt à votre honorée lettre du <date when="1877-11-01">1<hi rend="sup">er</hi> </date> Courant. Vous <lb xml:id="p1-l10"/>me demandez si dans l'état actuel des choses, vous
+    </front><body>
+      <p rend="indent" xml:id="K_3395_p5"><lb xml:id="p1-l8"/>Une absence m'a empêché de répondre plus <lb xml:id="p1-l9"/>tôt à votre honorée lettre du <date when="1877-11-01">1<hi rend="sup">er</hi> </date> Courant. Vous <lb xml:id="p1-l10"/>me demandez si dans l'état actuel des choses, vous
 				<lb xml:id="p1-l11"/>devez considérer comme rompues les négociations relatives <lb xml:id="p1-l12"/>à la suspension
-				du procès pendant entre <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Favre Louis">Favre</persName> <lb xml:id="p1-l13"/>et la Compagnie du
+				du procès pendant entre <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Favre Louis">Favre</persName> <lb xml:id="p1-l13"/>et la Compagnie du
 					Gothard (affaires des garanties et <lb xml:id="p1-l14"/>de résiliation des contrats).</p>
-      <p rend="indent" xml:id="K_3395_p6">
-                <lb xml:id="p1-l15"/>J'ignore si vous entrevoyez une autre base <lb xml:id="p1-l16"/>sur laquelle nous pourrions
+      <p rend="indent" xml:id="K_3395_p6"><lb xml:id="p1-l15"/>J'ignore si vous entrevoyez une autre base <lb xml:id="p1-l16"/>sur laquelle nous pourrions
 				renouer utilement <lb xml:id="p1-l17"/>nos négociations. De mon côté, je ne suis pas autorisé <lb xml:id="p1-l18"/>à
 				vous faire des propositions.</p>
-      <p rend="indent" xml:id="K_3395_p7">
-                <lb xml:id="p1-l19"/>Je profite de cette circonstance pour vous <lb xml:id="p1-l20"/>demander si vous considérez
+      <p rend="indent" xml:id="K_3395_p7"><lb xml:id="p1-l19"/>Je profite de cette circonstance pour vous <lb xml:id="p1-l20"/>demander si vous considérez
 				comme retirée par <lb xml:id="p1-l21"/>vous l'offre de soumettre à un tribunal <lb xml:id="p1-l22"/>d'experts
 				arbitres les difficultés courantes qui <lb xml:id="p1-l23"/>naissent pendant la construction du
 				Grand <lb xml:id="p1-l24"/>Tunnel. La nouvelle et importante retenue <lb xml:id="p1-l25"/>effectuée par la section
-					d'<placeName type="place" key="Airolo">Airolo</placeName> sur la situation <lb xml:id="p1-l26"/>d'Octobre
+					d'<placeName key="Airolo">Airolo</placeName> sur la situation <lb xml:id="p1-l26"/>d'Octobre
 				rend nécessaire que je sois fixé sur <lb xml:id="p1-l27"/>ce point le plus tôt possible.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_3395_p8">
-                    <lb xml:id="p1-l28"/>Veuillez agréer, Monsieur le Président, <lb xml:id="p1-l29"/>l'expression de ma haute
+        <p rend="indent" xml:id="K_3395_p8"><lb xml:id="p1-l28"/>Veuillez agréer, Monsieur le Président, <lb xml:id="p1-l29"/>l'expression de ma haute
 					considération.</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_3395_p9">
-                    <lb xml:id="p1-l30"/>L. Rambert <choice>
-                        <abbr>av<hi rend="sup">t</hi> </abbr>
-                        <expan>avocat (Anwalt)</expan>
-                    </choice>
-                </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_3395_p9"><lb xml:id="p1-l30"/>L. Rambert <choice><abbr>av<hi rend="sup">t</hi> </abbr><expan>avocat (Anwalt)</expan></choice></p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

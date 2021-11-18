@@ -1,121 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1988" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Andreas Rudolf von Planta an Alfred Escher, Chur, Dienstag, März 24, 1863</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#395*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Vereinigte Schweizerbahnen (VSB)</item>
-                        <item>Presse (allgemein)</item>
-                        <item>Ausländische Einmischungen (Schweiz)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Planta (Samedan) Andreas Rudolf von" type="sender">Andreas Rudolf von Planta</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Chur</placeName>
-                    <date when="1863-03-24">Dienstag, März 24, 1863</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-05-11/12" who="BF">transkribiert
-                
-            </change>
-            <change when="2013-07-03" who="NB">Migration nach XML
-                
-            </change>
-            <change when="2013-07-03" who="RO">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-08" who="MA">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-25" who="LW">Migrationsverifizierung
-        umgesetzt
-                
-            </change>
-            <change when="2013-07-26" who="AO">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-08-20" who="SB">Transkriptionsverifizierung T. Binder
-          umgesetzt
-                
-            </change>
-            <change when="2013-08-22" who="JS">Übertragung Transkriptionsverifizierung
-          geprüft
-                
-            </change>
-            <change when="2013-10-31" who="BF">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2013-10-31" who="BF">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-            <change when="2017-07-07" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1988" type="Brief"><teiHeader><fileDesc><titleStmt><title>Andreas Rudolf von Planta an Alfred Escher, Chur, Dienstag, 24. März 1863</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#395*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Finanzierung</term><term>Vereinigte Schweizerbahnen (VSB)</term><term>Presse (allgemein)</term><term>Ausländische Einmischungen (Schweiz)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Planta (Samedan) Andreas Rudolf von" type="addressee">Andreas Rudolf von Planta</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Chur</placeName><date when="1863-03-24">24. März 1863</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
         <p rend="indent" xml:id="K_1988_p1">
                     <lb xml:id="p1-l1"/>Hochverehrtester Herr und Freund! </p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="left" xml:id="K_1988_p2">
-                <lb xml:id="p1-l2"/>Sie werden bereits wißen, daß durch <persName type="person" key="Curti Basil Ferdinand">Curtis</persName> überschwänglichen <lb xml:id="p1-l3"/>Enthousiasmus,
+                <lb xml:id="p1-l2"/>Sie werden bereits wißen, daß durch <persName key="Curti Basil Ferdinand">Curtis</persName> überschwänglichen <lb xml:id="p1-l3"/>Enthousiasmus,
         dermalen <hi>contra</hi> Eisenbahn (früher loderte <lb xml:id="p1-l4"/>er <hi>pro</hi>
-        Eisenbahn) in <placeName type="place" key="St. Gallen">St Gallen</placeName> für den Moment <lb xml:id="p1-l5"/>die Verständigung mit den Obligationairs zu nichts <lb xml:id="p1-l6"/>geführt
-        hat. – Der gute <persName type="person" key="Curti Basil Ferdinand">Curti</persName> soll förmlich
-        für die <lb xml:id="p1-l7"/>Prioritaetsrechte der <placeName type="place" key="Süddeutschland">süddeutschen</placeName> Obligationen geschwizt haben, <lb xml:id="p1-l8"/>während die Abgeordneten
-        von <placeName type="place" key="Glarus">
+        Eisenbahn) in <placeName key="St. Gallen">St Gallen</placeName> für den Moment <lb xml:id="p1-l5"/>die Verständigung mit den Obligationairs zu nichts <lb xml:id="p1-l6"/>geführt
+        hat. – Der gute <persName key="Curti Basil Ferdinand">Curti</persName> soll förmlich
+        für die <lb xml:id="p1-l7"/>Prioritaetsrechte der <placeName key="Süddeutschland">süddeutschen</placeName> Obligationen geschwizt haben, <lb xml:id="p1-l8"/>während die Abgeordneten
+        von <placeName key="Glarus">
                     <hi>Glarus</hi>
-                </placeName> und <placeName type="place" key="Graubünden">Bünden</placeName> zu <lb xml:id="p1-l9"/>einer Consolidirung des ObligationenVerhältnißes gerne <lb xml:id="p1-l10"/>
-        Hand boten. – Die Stadt <placeName type="place" key="St. Gallen (Stadt)">St Gallen</placeName> war auch dabei und dafür. <lb xml:id="p1-l11"/>Auf
-          <persName type="person" key="Hungerbühler Johann Matthias">Hungerbühlers</persName> Treiben hin
-        hatte die <placeName type="place" key="St. Gallen">St Galler</placeName>
+                </placeName> und <placeName key="Graubünden">Bünden</placeName> zu <lb xml:id="p1-l9"/>einer Consolidirung des ObligationenVerhältnißes gerne <lb xml:id="p1-l10"/>
+        Hand boten. – Die Stadt <placeName key="St. Gallen (Stadt)">St Gallen</placeName> war auch dabei und dafür. <lb xml:id="p1-l11"/>Auf
+          <persName key="Hungerbühler Johann Matthias">Hungerbühlers</persName> Treiben hin
+        hatte die <placeName key="St. Gallen">St Galler</placeName>
         <lb xml:id="p1-l12"/>Regierung dagegen beschloßen, dermalen noch neutral <lb xml:id="p1-l13"/>zu
         bleiben. – Ich selbst war nicht bei der Obligationairs <lb xml:id="p1-l14"/>Versammlung mehr
         anwesend; – alldiweilen<note type="transcript">sic!</note> meine <lb xml:id="p1-l15"/>Quadrupeden in
-          <placeName type="place" key="Tänikon (Aadorf)">Taenikon</placeName> plötzlich ausgebrochener
-          Kranck<lb break="no" xml:id="p1-l16"/>heit wegen mich vor <persName type="person" key="Curti Basil Ferdinand">Curtis</persName> Rede abberufen und gerettet hatten.</p>
+          <placeName key="Tänikon (Aadorf)">Taenikon</placeName> plötzlich ausgebrochener
+          Kranck
+                <lb xml:id="p1-l16" break="no"/>heit wegen mich vor <persName key="Curti Basil Ferdinand">Curtis</persName> Rede abberufen und gerettet hatten.</p>
       <p rend="indent" xml:id="K_1988_p3">
-                <lb xml:id="p1-l17"/>Hier in <placeName type="place" key="Chur">
+                <lb xml:id="p1-l17"/>Hier in <placeName key="Chur">
                     <hi>Chur</hi>
                 </placeName> angekommen traf
         ich mit den leidenschaftlichen <lb xml:id="p1-l18"/>Auslaßungen der <add>
-                    <choice>
-                            <abbr>sog.</abbr>
-                            <expan>sogenannt</expan>
-                        </choice> </add> «Schweizerischen Eisenbahn- und Handelszeitung» <lb xml:id="p1-l19"/>gegen
+                    <choice><abbr>sog.</abbr><expan>sogenannt</expan></choice> </add> «Schweizerischen Eisenbahn- und Handelszeitung» <lb xml:id="p1-l19"/>gegen
         die <hi>Union Suisse</hi> gleichzeitig zusammen. <pb n="2"/>
                 <lb xml:id="p2-l1"/>Ich weiß nicht,
-        welche Motive die <placeName type="place" key="Deutschland">deutschen</placeName> Herrn <lb xml:id="p2-l2"/>Barone <persName type="person" key="Taur Friedrich von">von Taur oder von Rothkirch</persName> und
-          <persName type="person" key="Marschall Hermann von">von <lb xml:id="p2-l3"/>Marschall</persName><!-- Gemeint sind die Herausgeber der Eisenbahn- und Handelszeitung; Rothkirch nannte sich nach seiner Übersiedlung in die Schweiz "von Taur" -->
+        welche Motive die <placeName key="Deutschland">deutschen</placeName> Herrn <lb xml:id="p2-l2"/>Barone <persName key="Taur Friedrich von">von Taur oder von Rothkirch</persName> und
+          <persName key="Marschall Hermann von">von <lb xml:id="p2-l3"/>Marschall</persName><!-- Gemeint sind die Herausgeber der Eisenbahn- und Handelszeitung; Rothkirch nannte sich nach seiner Übersiedlung in die Schweiz "von Taur" -->
         bewegen, mit solcher Wuth gegen jeden <lb xml:id="p2-l4"/>Vereinbarungsversuch zu Felde zu
         ziehen. <lb xml:id="p2-l5"/>Ich nehme aber an, diese Herren haben von irgend
                 <lb xml:id="p2-l6"/>einer Seite her den <hi rend="underline">Auftrag</hi> erhalten, die <lb xml:id="p2-l7"/>
@@ -124,98 +41,76 @@
       <p rend="indent" xml:id="K_1988_p4">
                 <lb xml:id="p2-l8"/>Der Eindruck, den dieses Streben hier machte, <lb xml:id="p2-l9"/>war aber,
         soweit ich ihn zu beurtheilen <del>Ursache</del> Anlaß <lb xml:id="p2-l10"/>hatte, ein penibler. Es genügt zu
-        bemercken, <lb xml:id="p2-l11"/>daß <choice>
-                        <abbr>z. B</abbr>
-                        <expan>zum Beispiel</expan>
-                    </choice> die Stadt <placeName type="place" key="Chur">
+        bemercken, <lb xml:id="p2-l11"/>daß <choice><abbr>z. B</abbr><expan>zum Beispiel</expan></choice> die Stadt <placeName key="Chur">
                     <hi>Chur</hi>
-                </placeName> Inhaberin von einer Million <lb xml:id="p2-l12"/>Stammactien ist. – Außer etwa einzelnen vergrämten <lb xml:id="p2-l13"/>Individuen, wie <persName type="person" key="Killias Wolfgang">Killias</persName>
-        <choice>
-                        <abbr>usw.</abbr>
-                        <expan>und so weiter</expan>
-                    </choice> wird daher Niemand <lb xml:id="p2-l14"/>hier zu Land jene
+                </placeName> Inhaberin von einer Million <lb xml:id="p2-l12"/>Stammactien ist. – Außer etwa einzelnen vergrämten <lb xml:id="p2-l13"/>Individuen, wie <persName key="Killias Wolfgang">Killias</persName>
+        <choice><abbr>usw.</abbr><expan>und so weiter</expan></choice> wird daher Niemand <lb xml:id="p2-l14"/>hier zu Land jene
         Artikel anders beurtheilen, als <lb xml:id="p2-l15"/>einen höchst feindseligen Angriff gegen die
         östlichen <lb xml:id="p2-l16"/>Kantone. – Manche wenig orientirte Inhaber von <lb xml:id="p2-l17"/>Actien und Obligationen werden dadurch ängstlich und es ist <lb xml:id="p2-l18"/>psychologisch
         begreiflich, wenn hie und da ein Kurzsichtiger aus <lb xml:id="p2-l19"/>Verzweiflung meint «der
-          <persName type="person" key="Stämpfli Jakob">
+          <persName key="Stämpfli Jakob">
                     <hi>Staempfli</hi>
                 </persName> habe am Ende mit <lb xml:id="p2-l20"/>dem Rückkauf nicht so Unrecht, es <pb n="3"/>
                 <lb xml:id="p3-l1"/>sei der
-        einfachste Weg, mit den Eisenbahn<lb break="no" xml:id="p3-l2"/>geschichten aufzuräumen»! <choice>
-                        <abbr>usw.</abbr>
-                        <expan>und so weiter</expan>
-                    </choice>
-                    <lb xml:id="p3-l3"/>Andrer Seits wird man das feindselige Verhalten <lb xml:id="p3-l4"/>und
-        Auftreten der «Eisenbahn- und Handelszeitung» hie und da <lb xml:id="p3-l5"/>als den Abdruck der
-        öffentlichen Meinung <lb xml:id="p3-l6"/>
-                    <hi rend="underline">
-                    <placeName type="place" key="Zürich">Zürichs</placeName>
+        einfachste Weg, mit den Eisenbahn
+                <lb xml:id="p3-l2" break="no"/>geschichten aufzuräumen»! <choice><abbr>usw.</abbr><expan>und so weiter</expan></choice>
+        <lb xml:id="p3-l3" break="no"/>Andrer Seits wird man das feindselige Verhalten <lb xml:id="p3-l4" break="no"/>und
+        Auftreten der «Eisenbahn- und Handelszeitung» hie und da <lb xml:id="p3-l5" break="no"/>als den Abdruck der
+        öffentlichen Meinung <lb xml:id="p3-l6" break="no"/>
+                <hi rend="underline">
+                    <placeName key="Zürich">Zürichs</placeName>
                 </hi>
-        ansehen und insbesondere der dortigen <lb xml:id="p3-l7"/>tonangebenden Factoren <add xml:id="p3-l7-i1">und nicht
-          ermangeln, dies wieder als ein Bestreben auszugeben, sich von <placeName type="place" key="Zürich">Zürich</placeName> aus aller östlichen Bahnen zu bemächtigen. –</add>– Wenn nun
-        auch bei <lb xml:id="p3-l8"/>der Verwaltung der <hi>Union Suisse</hi> keine einzige <lb xml:id="p3-l9"/>Seele dies glaubt noch glauben kann, so muß <lb xml:id="p3-l10"/>aufs Publikum der
+        ansehen und insbesondere der dortigen <lb xml:id="p3-l7" break="no"/>tonangebenden Factoren <add>und nicht
+          ermangeln, dies wieder als ein Bestreben auszugeben, sich von <placeName key="Zürich">Zürich</placeName> aus aller östlichen Bahnen zu bemächtigen. –</add>– Wenn nun
+        auch bei <lb xml:id="p3-l8" break="no"/>der Verwaltung der <hi>Union Suisse</hi> keine einzige <lb xml:id="p3-l9" break="no"/>Seele dies glaubt noch glauben kann, so muß <lb xml:id="p3-l10" break="no"/>aufs Publikum der
         Eindruck doch ein anderer sein. </p>
       <p rend="indent" xml:id="K_1988_p5">
                 <lb xml:id="p3-l11"/>Aus diesem Grunde bin ich so frei, Sie auf diese <lb xml:id="p3-l12"/>Verhältniße aufmercksam zu machen, da es gewiß <lb xml:id="p3-l13"/>dermalen sehr darauf
         ankommt, daß man sich in <lb xml:id="p3-l14"/>diesen Fragen nicht auf Irrwege verleiten
         laße.</p>
       <p rend="indent" xml:id="K_1988_p6">
-                <lb xml:id="p3-l15"/>Wenn daher in irgend einer Weise den <placeName type="place" key="Deutschland">deutschen</placeName>
+                <lb xml:id="p3-l15"/>Wenn daher in irgend einer Weise den <placeName key="Deutschland">deutschen</placeName>
         <lb xml:id="p3-l16"/>
-                <persName type="person" key="Taur Friedrich von">
-                    <persName type="person" key="Marschall Hermann von">Proletarier Baronen</persName>
+                <persName key="Taur Friedrich von">
+                    <persName key="Marschall Hermann von">Proletarier Baronen</persName>
                 </persName> ein <hi rend="underline">
-                    <placeName type="place" key="Zürich">zürcherisches</placeName>
+                    <placeName key="Zürich">zürcherisches</placeName>
                 </hi> Dementi zu <lb xml:id="p3-l17"/>Theil würde, so würde
         es gewiß nicht nur in der <lb xml:id="p3-l18"/>dortigen, sondern insbesondere in der hiesigen
         öffentlichen <lb xml:id="p3-l19"/>Meinung von guter Wirkung sein. –</p>
       <p rend="left" xml:id="K_1988_p7">
-                <lb xml:id="p3-l20"/>Ich lese so eben ein «Eingesand» in der <choice>
-                        <abbr>N. <placeName type="place" key="Zürich">Z.</placeName> Zeitung</abbr>
-                        <expan>Neue Zürcher Zeitung</expan>
-                    </choice>
+                <lb xml:id="p3-l20"/>Ich lese so eben ein «Eingesand» in der <choice><abbr>N. <placeName key="Zürich">Z.</placeName> Zeitung</abbr><expan>Neue Zürcher Zeitung</expan></choice>
         <pb n="4"/>
-                <lb xml:id="p4-l1"/>worin im Einklang mit dem <placeName type="place" key="Deutschland">deutschen</placeName>
-        Cour<supplied>s</supplied>zettel<lb break="no" xml:id="p4-l2"/>Rittern eine förmliche Hetze gegen die <hi>Union <lb xml:id="p4-l3"/>Suisse</hi> geprediget wird. – Daß nun unsere Regierungen <lb xml:id="p4-l4"/>gerade von
-          «<placeName type="place" key="Zürich">Zürich</placeName>» aus zur Intervention <choice>
-                        <abbr>
-                    <hi>resp</hi> </abbr>
-                        <expan>respektive / respective</expan>
-                    </choice> zur <lb xml:id="p4-l5"/>Bevogtigung
-        aufgefordert werden, dürfte gewiß <lb xml:id="p4-l6"/>eher die umgekehrte Wirckung haben. – <persName type="person" key="Bavier Simeon">
+                <lb xml:id="p4-l1"/>worin im Einklang mit dem <placeName key="Deutschland">deutschen</placeName>
+        Cour<add>s</add>zettel
+                <lb xml:id="p4-l2" break="no"/>Rittern eine förmliche Hetze gegen die <hi>Union <lb xml:id="p4-l3"/>Suisse</hi> geprediget wird. – Daß nun unsere Regierungen <lb xml:id="p4-l4" break="no"/>gerade von
+          «<placeName key="Zürich">Zürich</placeName>» aus zur Intervention <choice><abbr>
+                    <hi>resp</hi> </abbr><expan>respektive / respective</expan></choice> zur <lb xml:id="p4-l5" break="no"/>Bevogtigung
+        aufgefordert werden, dürfte gewiß <lb xml:id="p4-l6" break="no"/>eher die umgekehrte Wirckung haben. – <persName key="Bavier Simeon">
                     <hi>Bawier</hi>
-                </persName>, mit <lb xml:id="p4-l7"/>dem ich eben
-        sprach, ersuchte mich daher, Ihnen doch <lb xml:id="p4-l8"/>vorstehende Bemerckungen mit zu
-        theilen. <lb xml:id="p4-l9"/>Ich bin leider! dermalen als Vorsitzender einer <lb xml:id="p4-l10"/>Commission zur Auffindung «Neuer Steuern» und <lb xml:id="p4-l11"/>zur Reorganisation unserer
-          <choice>
-                        <abbr>landwirth.</abbr>
-                        <expan>landwirthschaftlich</expan>
-                    </choice> Gesetzgebung <lb xml:id="p4-l12"/>dermaßen
-        mit der Zeit in der Klemme, daß <lb xml:id="p4-l13"/>Sie mir diese flüchtigen Zeilen gütigst
-        nachsehen <lb xml:id="p4-l14"/>wollen. – Ich glaube aber, Ihnen nicht unangenehm <lb xml:id="p4-l15"/>zu sein, wenn ich Sie auf die Folgen des Gebahrens <lb xml:id="p4-l16"/>des <placeName type="place" key="Deutschland">deutschen</placeName> Proletarier-Baronenthums aufmercksam <lb xml:id="p4-l17"/>mache, damit durch dasselbe nicht unnöthiges Mis<lb break="no" xml:id="p4-l18"/>trauen unter die
-          <placeName type="place" key="Ostschweiz">östlichen Schweizer</placeName> und unter die <lb xml:id="p4-l19"/>Gegner des Rückkaufs geworfen werde. –</p>
-    </div>
-        </body>
-    <back>
+                </persName>, mit <lb xml:id="p4-l7" break="no"/>dem ich eben
+        sprach, ersuchte mich daher, Ihnen doch <lb xml:id="p4-l8" break="no"/>vorstehende Bemerckungen mit zu
+        theilen. <lb xml:id="p4-l9" break="no"/>Ich bin leider! dermalen als Vorsitzender einer <lb xml:id="p4-l10" break="no"/>Commission zur Auffindung «Neuer Steuern» und <lb xml:id="p4-l11" break="no"/>zur Reorganisation unserer
+          <choice><abbr>landwirth.</abbr><expan>landwirthschaftlich</expan></choice> Gesetzgebung <lb xml:id="p4-l12" break="no"/>dermaßen
+        mit der Zeit in der Klemme, daß <lb xml:id="p4-l13" break="no"/>Sie mir diese flüchtigen Zeilen gütigst
+        nachsehen <lb xml:id="p4-l14" break="no"/>wollen. – Ich glaube aber, Ihnen nicht unangenehm <lb xml:id="p4-l15" break="no"/>zu sein, wenn ich Sie auf die Folgen des Gebahrens <lb xml:id="p4-l16" break="no"/>des <placeName key="Deutschland">deutschen</placeName> Proletarier-Baronenthums aufmercksam <lb xml:id="p4-l17" break="no"/>mache, damit durch dasselbe nicht unnöthiges Mis
+                <lb xml:id="p4-l18" break="no"/>trauen unter die
+          <placeName key="Ostschweiz">östlichen Schweizer</placeName> und unter die <lb xml:id="p4-l19" break="no"/>Gegner des Rückkaufs geworfen werde. –</p>
+    </body><back>
       <div type="closer">
         <p rend="left" xml:id="K_1988_p8">
                     <lb xml:id="p4-l20"/> Mit der vorzüglichsten Hochachtung geharrend</p>
         <p rend="right" xml:id="K_1988_p9">
-                    <lb xml:id="p4-l21"/>Ihr <choice>
-                        <abbr>ergebster</abbr>
-                        <expan>ergebenster</expan>
-                    </choice> und beeilter</p>
+                    <lb xml:id="p4-l21"/>Ihr <choice><abbr>ergebster</abbr><expan>ergebenster</expan></choice> und beeilter</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_1988_p10">
                     <lb xml:id="p4-l22"/>A R v Planta</p>
       </div>
       <div type="dateline">
         <p rend="left" xml:id="K_1988_p11">
                     <lb xml:id="p4-l23"/>
-          <placeName type="place" key="Chur">Chur</placeName> den <date when="1863-03-24">24s<hi rend="sup">ten</hi><!-- Lesung von 21 zu 24 korrigiert (siehe comment) [31.10.2013, BF] --> März
+          <placeName key="Chur">Chur</placeName> den <date when="1863-03-24">24s<hi rend="sup">ten</hi><!-- Lesung von 21 zu 24 korrigiert (siehe comment) [31.10.2013, BF] --> März
           1863</date> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,165 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8087" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Karl Schenk an Alfred Escher, Bern, Donnerstag, Juli 6, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_017</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Rechtliches</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Schenk Karl" type="sender">Karl Schenk</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1876-07-06">Donnerstag, Juli 6, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-07-24" who="DG">transkribiert
-                
-            </change>
-            <change when="2013-07-29" who="SW">intern verifiziert
-                
-            </change>
-            <change when="2014-06-06" who="LH">Transkriptionsverifizirung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-06-26" who="IB">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-06-30" who="DG">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-02" who="SG">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-10" who="MA">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-11" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-11" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_8087_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_8087_c0">Nachträgliche Inhaltsangabe oben links von dritter Hand: <bibl>Gesuch um Zusendung <choice>
-                                    <abbr>v.</abbr>
-                                    <expan>von</expan>
-                                </choice> weiteren Exemplaren des dem Bundesrath eingereichten Programms für d. Reorganisation der <choice>
-                                    <abbr>Gotthardb.</abbr>
-                                    <expan>Gotthardbahn</expan>
-                                </choice> Unter<!--sh lb--> nehmung. | Präsidium.</bibl>
-          – Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <bibl>Gotthardbahn | <date when="1876-07-19">19 JULI 1876</date>. | <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 3459</bibl>. – Nachträgliche Notiz unten rechts von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1876-07-08">8. VII. 76</date>. <choice>
-                                    <abbr>N.</abbr>
-                                    <expan>Nummer</expan>
-                                </choice> 1658.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <fw>Schweizerisches<lb xml:id="p1-l2"/>Eisenbahn- &amp; Handelsdepartement.
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8087" type="Brief"><teiHeader><fileDesc><titleStmt><title>Karl Schenk an Alfred Escher, Bern, Donnerstag, 06. Juli 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_017</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Rechtliches</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Schenk Karl" type="addressee">Karl Schenk</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1876-07-06">06. Juli 1876</date></correspAction><correspAction type="received"><placeName>Luzern</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_8087_p1"> <note type="com" xml:id="K_8087_c0">Nachträgliche Inhaltsangabe oben links von dritter Hand: <orig>Gesuch um Zusendung <choice><abbr>v.</abbr><expan>von</expan></choice> weiteren Exemplaren des dem Bundesrath eingereichten Programms für d. Reorganisation der <choice><abbr>Gotthardb.</abbr><expan>Gotthardbahn</expan></choice> Unter<!--sh lb--> nehmung. | Präsidium.</orig>
+          – Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <orig>Gotthardbahn | <date when="1876-07-19">19 JULI 1876</date>. | <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 3459</orig>. – Nachträgliche Notiz unten rechts von dritter Hand: <orig><choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1876-07-08">8. VII. 76</date>. <choice><abbr>N.</abbr><expan>Nummer</expan></choice> 1658.</orig> </note> <lb xml:id="p1-l1"/>
+          <hi rend="printed">Schweizerisches<lb xml:id="p1-l2"/>Eisenbahn- &amp; Handelsdepartement.
         		<lb xml:id="p1-l3"/>(Eisenbahnwesen.)
-			<lb xml:id="p1-l4"/>
-                        <choice>
-                            <abbr>N<hi rend="sup">o</hi> </abbr>
-                            <expan>Numero (Nummer)</expan>
-                        </choice>
-                    </fw> –
+			<lb xml:id="p1-l4"/><choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice></hi> –
 			</p>
-      </div>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_8087_p2">
-                    <lb xml:id="p1-l5"/>
-          <fw>
-            <placeName type="place" key="Bern (Stadt)">Bern</placeName>, den</fw>
+        <p rend="right" xml:id="K_8087_p2"><lb xml:id="p1-l5"/>
+          <hi rend="printed">
+            <placeName key="Bern (Stadt)">Bern</placeName>, den</hi>
           <date when="1876-07-06">6. <hi>Juli</hi> 1876</date>.</p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_8087_p3">
-                    <lb xml:id="p1-l6"/>Herrn <hi>
-                        <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> A. Escher</hi>,
+      <div type="opener">
+        <p rend="center" xml:id="K_8087_p3"><lb xml:id="p1-l6"/>Herrn <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> A. Escher</hi>,
         				<lb xml:id="p1-l7"/>Direktionspräsident der <hi>Gotthardbahn, 
-      				<lb xml:id="p1-l8"/>
-                        <placeName type="place" key="Luzern (Stadt)">Luzern</placeName>
-                    </hi>.</p>
+      				<lb xml:id="p1-l8"/><placeName key="Luzern (Stadt)">Luzern</placeName></hi>.</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_8087_p4">
-                    <lb xml:id="p1-l9"/>Hochgeehrter Herr!</p>
+        <p rend="center" xml:id="K_8087_p4"><lb xml:id="p1-l9"/>Hochgeehrter Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_8087_p5">
-                <lb xml:id="p1-l10"/>Unter bester Verdankung und wegen des langen Zurückbehal<lb break="no" xml:id="p1-l11"/>tens um Entschuldigung bittend, sende ich Ihnen in Anlage das Gutachten
-				<lb xml:id="p1-l12"/>des Herrn <hi>
-                    <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> <persName type="person" key="Ullmer Rudolf Eduard">Ullmer</persName> </hi> und die Beantwortung des Herrn <hi>
-                    <persName type="person" key="Vogt Gustav">G. Vogt</persName>
-                </hi>, be<lb break="no" xml:id="p1-l13"/>treffend die Klage des Herrn <hi>
-                    <persName type="person" key="Favre Louis">L. Favre</persName>
-                </hi>, zurück; ich habe die Aktenstücke
-       	 			<lb xml:id="p1-l14"/>mit großem Interesse gelesen.
+    </front><body>
+      <p rend="indent" xml:id="K_8087_p5"><lb xml:id="p1-l10"/>Unter bester Verdankung und wegen des langen Zurückbehal<lb xml:id="p1-l11" break="no"/>tens um Entschuldigung bittend, sende ich Ihnen in Anlage das Gutachten
+				<lb xml:id="p1-l12" break="no"/>des Herrn <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> <persName key="Ullmer Rudolf Eduard">Ullmer</persName> </hi> und die Beantwortung des Herrn <hi><persName key="Vogt Gustav">G. Vogt</persName></hi>, be<lb xml:id="p1-l13" break="no"/>treffend die Klage des Herrn <hi><persName key="Favre Louis">L. Favre</persName></hi>, zurück; ich habe die Aktenstücke
+       	 			<lb xml:id="p1-l14" break="no"/>mit großem Interesse gelesen.
         			</p>
-      <p rend="indent" xml:id="K_8087_p6">
-                <lb xml:id="p1-l15"/>Bei diesem Anlasse ersuche ich Sie, anordnen zu wollen, daß
-        			<lb xml:id="p1-l16"/>dem <hi>Departement</hi> noch einige Exemplare Ihres <choice>
-                        <abbr>lithograph.</abbr>
-                        <expan>lithographisch</expan>
-                    </choice> Programms für
-				<lb xml:id="p1-l17"/>die Reorganisation der <hi>Gotthardbahn</hi>unternehmung vom <hi>Juni</hi> 1876 zuge<lb break="no" xml:id="p1-l18"/>sendet werden.
+      <p rend="indent" xml:id="K_8087_p6"><lb xml:id="p1-l15"/>Bei diesem Anlasse ersuche ich Sie, anordnen zu wollen, daß
+        			<lb xml:id="p1-l16"/>dem <hi>Departement</hi> noch einige Exemplare Ihres <choice><abbr>lithograph.</abbr><expan>lithographisch</expan></choice> Programms für
+				<lb xml:id="p1-l17"/>die Reorganisation der <hi>Gotthardbahn</hi>unternehmung vom <hi>Juni</hi> 1876 zuge<lb xml:id="p1-l18" break="no"/>sendet werden.
         			</p>
-      <p rend="indent" xml:id="K_8087_p7">
-                <lb xml:id="p1-l19"/>Genehmigen Sie, Herr Präsident, die Versicherung meiner
+      <p rend="indent" xml:id="K_8087_p7"><lb xml:id="p1-l19"/>Genehmigen Sie, Herr Präsident, die Versicherung meiner
        			<lb xml:id="p1-l20"/>vollkommenen Hochachtung. 
         			</p>
-    </div>
-        </body>
-    <back>
-      <div type="address">
-        <p rend="right" xml:id="K_8087_p8">
-                    <lb xml:id="p1-l21"/>Schenk</p>
+    </body><back>
+      <div type="signature">
+        <p rend="right" xml:id="K_8087_p8"><lb xml:id="p1-l21"/>Schenk</p>
       </div>
       <div type="attachment">
-        <p rend="left" xml:id="K_8087_p9">
-                    <lb xml:id="p1-l22"/>2 Beilagen</p>
+        <p rend="left" xml:id="K_8087_p9"><lb xml:id="p1-l22"/>2 Beilagen</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

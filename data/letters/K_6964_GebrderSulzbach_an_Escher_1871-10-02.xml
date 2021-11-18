@@ -1,140 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6964" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Gebrüder Sulzbach an Alfred Escher, Frankfurt am Main, Montag, Oktober 2, 1871</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_014</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName type="sender">Gebrüder Sulzbach</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Frankfurt am Main</placeName>
-                    <date when="1871-10-02">Montag, Oktober 2, 1871</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-05-20" who="FM">transkribiert
-                
-            </change>
-            <change when="2014-06-30" who="CH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-06-30" who="CF">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-08" who="SG">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-08-13" who="CD">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-08-13" who="SWK">Übertragung der Trankskriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-10-21" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-10-21" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_6964_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_6964_c0">Nachträgliche Notiz oben rechts von Eschers Hand mit roter Farbe: <bibl>1084 (sammt <choice>
-                                    <abbr>Beil.</abbr>
-                                    <expan>Beilage</expan>
-                                </choice>)</bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <fw>Gebrüder Sulzbach.</fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6964" type="Brief"><teiHeader><fileDesc><titleStmt><title>Gebrüder Sulzbach an Alfred Escher, Frankfurt am Main, Montag, 02. Oktober 1871</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_014</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Eisenbahnen Finanzierung</term></keywords></textClass><correspDesc><correspAction type="sent"><orgName type="addressee">Gebrüder Sulzbach</orgName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Frankfurt am Main</placeName><date when="1871-10-02">02. Oktober 1871</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_6964_p1"> <note type="com" xml:id="K_6964_c0">Nachträgliche Notiz oben rechts von Eschers Hand mit roter Farbe: <orig>1084 (sammt <choice><abbr>Beil.</abbr><expan>Beilage</expan></choice>)</orig>.</note> <lb xml:id="p1-l1"/>
+          <hi rend="printed">Gebrüder Sulzbach.</hi>
         </p>
-      </div>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_6964_p2">
-                    <lb xml:id="p1-l2"/>
-          <fw>
-            <placeName type="place" key="Frankfurt am Main (D)">FRANKFURT a. M.</placeName>,</fw>
+        <p rend="right" xml:id="K_6964_p2"><lb xml:id="p1-l2"/>
+          <hi rend="printed">
+            <placeName key="Frankfurt am Main (D)">FRANKFURT a. M.</placeName>,</hi>
           <date when="1810-10-02">2 <hi>October</hi> 1871</date>
         </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_6964_p3">
-                    <lb xml:id="p1-l3"/>Euer Wohlgeboren</p>
+        <p rend="indent" xml:id="K_6964_p3"><lb xml:id="p1-l3"/>Euer Wohlgeboren</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_6964_p4">
-                <lb xml:id="p1-l4"/>beehren wir uns, da unser Herr <hi>
-                    <persName type="person" key="Sulzbach Sigismund">Sigismund
-				<lb xml:id="p1-l5"/>Sulzbach</persName> </hi> in <hi>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> </hi> nicht das Vergnügen hatte
+    </front><body>
+      <p rend="indent" xml:id="K_6964_p4"><lb xml:id="p1-l4"/>beehren wir uns, da unser Herr <hi><persName key="Sulzbach Sigismund">Sigismund
+				<lb xml:id="p1-l5"/>Sulzbach</persName> </hi> in <hi><placeName key="Zürich (Stadt)">Zürich</placeName> </hi> nicht das Vergnügen hatte
 				<lb xml:id="p1-l6"/>Sie zu sehen, in der Einlage die Aufzeichnung
 				<lb xml:id="p1-l7"/>sämmtlicher<note type="transcript">sic!</note> in unsrer Gruppe zur Erwerbung des
-				<lb xml:id="p1-l8"/>
-                <placeName type="place" key="St. Gotthard (Pass)">
-                    <hi>Gotthard</hi>
-                </placeName> Geschäftes vertretenen Kräfte, zu unter<lb break="no" xml:id="p1-l9"/>breiten, wovon wir freundlichst bitten Kennt<lb break="no" xml:id="p1-l10"/>niss nehmen zu wollen.
+				<lb xml:id="p1-l8"/><placeName key="St. Gotthard (Pass)"><hi>Gotthard</hi></placeName> Geschäftes vertretenen Kräfte, zu unter<lb xml:id="p1-l9" break="no"/>breiten, wovon wir freundlichst bitten Kennt<lb xml:id="p1-l10" break="no"/>niss nehmen zu wollen.
 			</p>
-      <p rend="indent" xml:id="K_6964_p5">
-                <lb xml:id="p1-l11"/>Herr <persName type="person" key="Servadio Giacomo">
-                    <hi>Servadio</hi>
-                </persName> wird von seiner Seite
+      <p rend="indent" xml:id="K_6964_p5"><lb xml:id="p1-l11"/>Herr <persName key="Servadio Giacomo"><hi>Servadio</hi></persName> wird von seiner Seite
 			<lb xml:id="p1-l12"/>ein Gleiches betreffs seiner Gruppe thuen.
 			</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_6964_p6">
-                    <lb xml:id="p1-l13"/>Mit vorzüglicher Hochachtung</p>
+        <p rend="center" xml:id="K_6964_p6"><lb xml:id="p1-l13"/>Mit vorzüglicher Hochachtung</p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_6964_p7">
-                    <lb xml:id="p1-l14"/>
-          <choice>
-                        <abbr>Gebr</abbr>
-                        <expan>Gebrüder</expan>
-                    </choice> Sulzbach
+      <div type="signature">
+        <p rend="center" xml:id="K_6964_p7"><lb xml:id="p1-l14"/>
+          <choice><abbr>Gebr</abbr><expan>Gebrüder</expan></choice> Sulzbach
 				</p>
       </div>
-      <div type="address">
-        <p rend="left" xml:id="K_6964_p8">
-                    <lb xml:id="p1-l15"/>
-          <choice>
-                        <abbr>S<hi rend="sup">r</hi> </abbr>
-                        <expan>Seiner</expan>
-                    </choice> Wohlgeboren
+      <div type="opener">
+        <p rend="left" xml:id="K_6964_p8"><lb xml:id="p1-l15"/>
+          <choice><abbr>S<hi rend="sup">r</hi> </abbr><expan>Seiner</expan></choice> Wohlgeboren
 					<lb xml:id="p1-l16"/>Herrn <hi>Präsidenten Escher
-					<lb xml:id="p1-l17"/>
-                        <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> </hi>
-                </p>
+					<lb xml:id="p1-l17"/><placeName key="Zürich (Stadt)">Zürich</placeName> </hi></p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

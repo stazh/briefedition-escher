@@ -1,139 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_7356" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Giovanni Battista Pioda an Alfred Escher, Bern, Mittwoch, Dezember 30, 1863</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB02_003</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Simplonbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Pioda Giovanni Battista" type="sender">Giovanni Battista Pioda</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1863-12-30">Mittwoch, Dezember 30, 1863</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-07-25" who="FM">transkribiert
-                
-            </change>
-            <change when="2014-03-31" who="NS">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-04-02" who="MB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-06-11" who="IB">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-07-04" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-07-07" who="CB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-23" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-23" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-                <p rend="left" xml:id="K_7356_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_7356_c0">Nachträgliche Notiz unten links von dritter Hand: <bibl>Obigen Band <choice>
-                                    <abbr>Hrn.</abbr>
-                                    <expan>Herrn</expan>
-                                </choice> Baurath <persName type="person" key="Beckh August von">Beckh</persName> in <placeName type="place" key="Stuttgart (D)">Stuttgart</placeName> am <date when="1864-01-04">4. Januar 64.</date> übersandt.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
-        <fw>Schweizerische<lb xml:id="p1-l2"/>EIDGENOSSENSCHAFT
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_7356" type="Brief"><teiHeader><fileDesc><titleStmt><title>Giovanni Battista Pioda an Alfred Escher, Bern, Mittwoch, 30. Dezember 1863</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB02_003</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Simplonbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Pioda Giovanni Battista" type="addressee">Giovanni Battista Pioda</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1863-12-30">30. Dezember 1863</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <p rend="left" xml:id="K_7356_p1"> <note type="com" xml:id="K_7356_c0">Nachträgliche Notiz unten links von dritter Hand: <orig>Obigen Band <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> Baurath <persName key="Beckh August von">Beckh</persName> in <placeName key="Stuttgart (D)">Stuttgart</placeName> am <date when="1864-01-04">4. Januar 64.</date> übersandt.</orig> </note> <lb xml:id="p1-l1"/>
+        <hi rend="printed">Schweizerische<lb xml:id="p1-l2"/>EIDGENOSSENSCHAFT
             <lb xml:id="p1-l3"/>DEPARTEMENT DES INNERN
-            <lb xml:id="p1-l4"/>Bureau des Bauwesens.</fw>
-      </p> </div>
+            <lb xml:id="p1-l4"/>Bureau des Bauwesens.</hi>
+      </p> 
       <div type="dateline">
-        <p rend="right" xml:id="K_7356_p2">
-                    <lb xml:id="p1-l5"/>
-          <fw>
-            <placeName type="place" key="Bern (Stadt)">Bern</placeName>, den</fw>
-          <date when="1863-12-30">30 Dezember <fw>186</fw>3.</date>
+        <p rend="right" xml:id="K_7356_p2"><lb xml:id="p1-l5"/>
+          <hi rend="printed">
+            <placeName key="Bern (Stadt)">Bern</placeName>, den</hi>
+          <date when="1863-12-30">30 Dezember <hi rend="printed">186</hi>3.</date>
         </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_7356_p3">
-                    <lb xml:id="p1-l6"/>Herrn Nationalrath <hi>
-                        <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice>
-                    </hi> <hi>A. Escher</hi> <lb xml:id="p1-l7"/>in
-            <lb xml:id="p1-l8"/>
-                    <hi>
-                        <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-                    </hi>.</p>
+      <div type="opener">
+        <p rend="right" xml:id="K_7356_p3"><lb xml:id="p1-l6"/>Herrn Nationalrath <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice></hi> <hi>A. Escher</hi> <lb xml:id="p1-l7"/>in
+            <lb xml:id="p1-l8"/><hi><placeName key="Zürich (Stadt)">Zürich</placeName></hi>.</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_7356_p4">
-                    <lb xml:id="p1-l9"/>Hochgeachteter Herr,</p>
+        <p rend="center" xml:id="K_7356_p4"><lb xml:id="p1-l9"/>Hochgeachteter Herr,</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_7356_p5">
-                <lb xml:id="p1-l10"/>In Ergänzung unserer Sendung
+    </front><body>
+      <p rend="indent" xml:id="K_7356_p5"><lb xml:id="p1-l10"/>In Ergänzung unserer Sendung
                 <lb xml:id="p1-l11"/>vom <date when="1863-11-25">25<hi rend="sup">ten</hi> vorigen Monats</date> (Pläne
-                <lb xml:id="p1-l12"/>der <placeName type="place" key="Simplon (Pass)">Simplon</placeName>bahn) beehren wir
-                <lb xml:id="p1-l13"/>uns Ihnen mitfolgend noch zu über<lb break="no" xml:id="p1-l14"/>mitteln:
-                <lb xml:id="p1-l15"/>1 <choice>
-                        <abbr>Bd.</abbr>
-                        <expan>Band</expan>
-                    </choice> <hi> «Etudes de la traversée du <placeName type="place" key="Simplon (Pass)">Simplon</placeName> <lb xml:id="p1-l16"/>entre <placeName type="place" key="Brig-Glis">Gliss–Brigg</placeName> &amp; <placeName type="place" key="Domodossola (I)">Domo-d'Ossola</placeName> </hi>»
+                <lb xml:id="p1-l12"/>der <placeName key="Simplon (Pass)">Simplon</placeName>bahn) beehren wir
+                <lb xml:id="p1-l13"/>uns Ihnen mitfolgend noch zu über<lb xml:id="p1-l14" break="no"/>mitteln:
+                <lb xml:id="p1-l15" break="no"/>1 <choice><abbr>Bd.</abbr><expan>Band</expan></choice> <hi> «Etudes de la traversée du <placeName key="Simplon (Pass)">Simplon</placeName> <lb xml:id="p1-l16"/>entre <placeName key="Brig-Glis">Gliss–Brigg</placeName> &amp; <placeName key="Domodossola (I)">Domo-d'Ossola</placeName> </hi>»
             </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_7356_p6">
-                    <lb xml:id="p1-l17"/>Genehmigen Sie, Hochgeachteter Herr,
+        <p rend="indent" xml:id="K_7356_p6"><lb xml:id="p1-l17"/>Genehmigen Sie, Hochgeachteter Herr,
                     <lb xml:id="p1-l18"/>die erneuerte Versicherung unserer
                     <lb xml:id="p1-l19"/>vollkommenen Hochachtung!
                 </p>
-        <p rend="right" xml:id="K_7356_p7">
-                    <lb xml:id="p1-l20"/>
+        <p rend="right" xml:id="K_7356_p7"><lb xml:id="p1-l20"/>
           <hi>Der Vorsteher</hi>
-          <lb xml:id="p1-l21"/>des <choice>
-                        <abbr>eidg.</abbr>
-                        <expan>eidgenössisch / eidgenößisch</expan>
-                    </choice> Departements des Innern</p>
+          <lb xml:id="p1-l21"/>des <choice><abbr>eidg.</abbr><expan>eidgenössisch / eidgenößisch</expan></choice> Departements des Innern</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_7356_p8">
-                    <lb xml:id="p1-l22"/>J. B. Pioda
+      <div type="signature">
+        <p rend="right" xml:id="K_7356_p8"><lb xml:id="p1-l22"/>J. B. Pioda
   </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

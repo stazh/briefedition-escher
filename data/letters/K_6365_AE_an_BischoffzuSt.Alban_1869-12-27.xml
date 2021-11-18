@@ -1,187 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6365" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Bischoff zu St. Alban, Zürich, Montag, Dezember 27, 1869</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Entwurf">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_014</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Bankinstitute</item>
-                        <item>Gotthardbahnkonferenzen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName type="sender">Bischoff zu St. Alban</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1869-12-27">Montag, Dezember 27, 1869</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-12-27" who="NP">Transkription
-                
-            </change>
-            <change when="2014-06-25" who="CR">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-06-26" who="SG">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-08" who="SWK">Transkriptionsverifizierung T. Binder
-          umgesetzt
-                
-            </change>
-            <change when="2014-07-09" who="CH">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-11" who="LH">Übertragung der Transkriptionsverifizierung
-          geprüft
-                
-            </change>
-            <change when="2014-07-18" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-            <change when="2014-10-03" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-10-03" who="LB">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-            <change when="2015-03-20" who="BF">Transkriptionsverifizierung Seiterle 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="left" xml:id="K_6365_p1">
-                    <seg type="com">
-                        <note type="addendum" xml:id="K_6365_c0">Nachträgliche Notiz oben rechts von dritter Hand: <bibl>
-                                <hi>
-                                    <choice>
-                                        <abbr>Exp.</abbr>
-                                        <expan>Expedirt</expan>
-                                    </choice> <persName type="person" key="Weiss">Weiss</persName>
-                                </hi> | 
-          <date when="1869-12-27">
-                                    <choice>
-                                        <abbr>gl. Tags</abbr>
-                                        <expan>gleichen Tags</expan>
-                                    </choice> </date>
-                            </bibl>. – Nachträgliche Notiz unten links von dritter Hand: <bibl>Beilagen: | 4 Schlußprotokolle | 
-            4 Verträge mit <placeName type="place" key="Italien (Königreich)">Italien</placeName> | 2 Comissionalberichte</bibl>.</note>
-                    </seg>
-          <lb xml:id="p1-l1"/>Herrn Bischoff zu St. Alban, <placeName type="place" key="Basel-Stadt">Basel</placeName>.
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6365" type="Brief" subtype="Entwurf"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Bischoff zu St. Alban, Zürich, Montag, 27. Dezember 1869</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_014</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Bankinstitute</term><term>Gotthardbahnkonferenzen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><orgName type="sender">Bischoff zu St. Alban</orgName><placeName>Zürich</placeName><date when="1869-12-27">27. Dezember 1869</date></correspAction><correspAction type="received"><placeName>Basel</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
+        <p rend="left" xml:id="K_6365_p1"><note type="com" xml:id="K_6365_c0">Nachträgliche Notiz oben rechts von dritter Hand: <orig><hi><choice><abbr>Exp.</abbr><expan>Expedirt</expan></choice> <persName key="Weiss">Weiss</persName></hi> | 
+          <date when="1869-12-27"><choice><abbr>gl. Tags</abbr><expan>gleichen Tags</expan></choice> </date></orig>. – Nachträgliche Notiz unten links von dritter Hand: <orig>Beilagen: | 4 Schlußprotokolle | 
+            4 Verträge mit <placeName key="Italien (Königreich)">Italien</placeName> | 2 Comissionalberichte</orig>.</note>
+          <lb xml:id="p1-l1"/>Herrn Bischoff zu St. Alban, <placeName key="Basel-Stadt">Basel</placeName>.
             </p>
       </div>
       <div type="dateline">
-        <p rend="right" xml:id="K_6365_p2">
-                    <lb xml:id="p1-l2"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-          <date when="1869-12-27">27 <choice>
-                            <abbr>Dez.</abbr>
-                            <expan>Dezember</expan>
-                        </choice> 69</date>
+        <p rend="right" xml:id="K_6365_p2"><lb xml:id="p1-l2"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
+          <date when="1869-12-27">27 <choice><abbr>Dez.</abbr><expan>Dezember</expan></choice> 69</date>
         </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_6365_p3">
-                    <lb xml:id="p1-l3"/>Hochgeachtete Herren!</p>
+        <p rend="indent" xml:id="K_6365_p3"><lb xml:id="p1-l3"/>Hochgeachtete Herren!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_6365_p4">
-                <lb xml:id="p1-l4"/>
+    </front><body>
+      <p rend="indent" xml:id="K_6365_p4"><lb xml:id="p1-l4"/>
         <del>Obgleich</del> <add>Soweit</add> der Vorrath der Exemplare des <lb xml:id="p1-l5"/>Schlußprotokolles der
-        internationalen <choice>
-                        <abbr>Conf<hi rend="sup">z</hi>
-                </abbr>
-                        <expan>Conferenz</expan>
-                    </choice> <choice>
-                        <abbr>betr.</abbr>
-                        <expan>betreffend</expan>
-                    </choice> die <placeName type="place" key="St. Gotthard (Pass)">Gott<lb break="no" xml:id="p1-l6"/>hard</placeName>bahn, des Vertrages <choice>
-                        <abbr>zw.</abbr>
-                        <expan>zwischen</expan>
-                    </choice> d. <choice>
-                        <abbr>Schwz.</abbr>
-                        <expan>Schweiz</expan>
-                    </choice> &amp; <placeName type="place" key="Italien (Königreich)">Italien</placeName> <choice>
-                        <abbr>u. s. f.</abbr>
-                        <expan>und so fort</expan>
-                    </choice>, welche <lb xml:id="p1-l7"/>mir d. <choice>
-                        <abbr>polit.</abbr>
-                        <expan>politisch</expan>
-                    </choice> <choice>
-                        <abbr>Dep.</abbr>
-                        <expan>Departement</expan>
-                    </choice> der <choice>
-                        <abbr>Eidgft.</abbr>
-                        <expan>Eidgenossenschaft / Eidgenoßenschaft</expan>
-                    </choice> überlassen konnte, <del>kaum mehr</del> <lb xml:id="p1-l8"/>
-                <del>
-                    <supplied type="unclear">...</supplied>
-                </del> noch reicht, beehre ich mich <add xml:id="p1-l8-i1">den <choice>
-                            <abbr>v.</abbr>
-                            <expan>von</expan>
-                        </choice> Ihnen m<supplied>it</supplied> Telegramm <choice>
-                            <abbr>v.</abbr>
-                            <expan>von</expan>
-                        </choice> <date when="1869-12-26">gestern</date> geäußert<supplied>en</supplied> Wunsche</add> durch <choice>
-                        <abbr>Übermittlg.</abbr>
-                        <expan>Übermittlung</expan>
-                    </choice>
-        der <lb xml:id="p1-l9"/>Beilag<supplied>en</supplied> <lb xml:id="p1-l10"/>zu erfüll<supplied>en</supplied>.</p>
-    </div>
-        </body>
-    <back>
+        internationalen <choice><abbr>Conf<hi rend="sup">z</hi></abbr><expan>Conferenz</expan></choice> <choice><abbr>betr.</abbr><expan>betreffend</expan></choice> die <placeName key="St. Gotthard (Pass)">Gott<lb xml:id="p1-l6" break="no"/>hard</placeName>bahn, des Vertrages <choice><abbr>zw.</abbr><expan>zwischen</expan></choice> d. <choice><abbr>Schwz.</abbr><expan>Schweiz</expan></choice> &amp; <placeName key="Italien (Königreich)">Italien</placeName> <choice><abbr>u. s. f.</abbr><expan>und so fort</expan></choice>, welche <lb xml:id="p1-l7"/>mir d. <choice><abbr>polit.</abbr><expan>politisch</expan></choice> <choice><abbr>Dep.</abbr><expan>Departement</expan></choice> der <choice><abbr>Eidgft.</abbr><expan>Eidgenossenschaft / Eidgenoßenschaft</expan></choice> überlassen konnte, <del>kaum mehr</del> <lb xml:id="p1-l8"/><del><add type="?">...</add></del> noch reicht, beehre ich mich <add>den <choice><abbr>v.</abbr><expan>von</expan></choice> Ihnen m<add>it</add> Telegramm <choice><abbr>v.</abbr><expan>von</expan></choice> <date when="1869-12-26">gestern</date> geäußert<add>en</add> Wunsche</add> durch <choice><abbr>Übermittlg.</abbr><expan>Übermittlung</expan></choice>
+        der <lb xml:id="p1-l9"/>Beilag<add>en</add> <lb xml:id="p1-l10"/>zu erfüll<add>en</add>.</p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_6365_p5">
-                    <lb xml:id="p1-l11"/>Genehmig<supplied>en</supplied> Sie d. <choice>
-                        <abbr>Vers.</abbr>
-                        <expan>Versicherung</expan>
-                    </choice> <choice>
-                        <abbr>mr</abbr>
-                        <expan>meiner</expan>
-                    </choice> <choice>
-                        <abbr>
-                        <supplied>au</supplied>sgez.</abbr>
-                        <expan>ausgezeichnet</expan>
-                    </choice> <choice>
-                        <abbr>Hocha.</abbr>
-                        <expan>Hochachtung</expan>
-                    </choice>
-                </p>
-        <p rend="center" xml:id="K_6365_p6">
-                    <lb xml:id="p1-l12"/>D. Präsident ds Ausschusses des Consor<lb break="no" xml:id="p1-l13"/>tium's für
-            <choice>
-                        <abbr>Ausführg.</abbr>
-                        <expan>Ausführung</expan>
-                    </choice> d. <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn:</p>
+        <p rend="indent" xml:id="K_6365_p5"><lb xml:id="p1-l11"/>Genehmig<add>en</add> Sie d. <choice><abbr>Vers.</abbr><expan>Versicherung</expan></choice> <choice><abbr>mr</abbr><expan>meiner</expan></choice> <choice><abbr><add>au</add>sgez.</abbr><expan>ausgezeichnet</expan></choice> <choice><abbr>Hocha.</abbr><expan>Hochachtung</expan></choice></p>
+        <p rend="center" xml:id="K_6365_p6"><lb xml:id="p1-l12"/>D. Präsident ds Ausschusses des Consor<lb xml:id="p1-l13" break="no"/>tium's für
+            <choice><abbr>Ausführg.</abbr><expan>Ausführung</expan></choice> d. <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn:</p>
       </div>
       
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,174 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1065" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Rudolf Wäffler-Egli an Alfred Escher, Winterthur, Donnerstag, September 2, 1852</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#522*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Bau und Technik</item>
-                        <item>Feiern und Anlässe</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Wäffler-Egli Rudolf" type="sender">Rudolf Wäffler-Egli</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Winterthur</placeName>
-                    <date when="1852-09-02">Donnerstag, September 2, 1852</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-06-19" who="CH">Migration nach XML
-                
-            </change>
-            <change when="2013-06-24" who="NB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-08" who="DG">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-12" who="RO">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-07-22" who="LW">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-08-20" who="JS">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2013-08-20" who="CF">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2013-10-17" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-11-01" who="BF">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2017-07-07" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-            <change when="2018-11-28" who="DB">Transkriptionsverifizierung Seiterle umgesetzt
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1065" type="Brief"><teiHeader><fileDesc><titleStmt><title>Rudolf Wäffler-Egli an Alfred Escher, Winterthur, Donnerstag, 02. September 1852</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Jung, Aufbruch, S. 372 (auszugsweise), 449 (auszugsweise)</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#522*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Bau und Technik</term><term>Feiern und Anlässe</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Wäffler-Egli Rudolf" type="addressee">Rudolf Wäffler-Egli</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Winterthur</placeName><date when="1852-09-02">02. September 1852</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
         <p rend="left" xml:id="K_1065_p1">
                     <lb xml:id="p1-l1"/>
-          <fw>
-            WAEFFLER-EGLI &amp; <supplied type="unclear">
-                            <choice>
-                                <abbr>COMP</abbr>
-                                <expan>COMPAGNIA / COMPAGNIE / COMPANY (Gesellschaft)</expan>
-                            </choice> </supplied>
+          <hi rend="printed">
+            WAEFFLER-EGLI &amp; <add type="?"><choice><abbr>COMP</abbr><expan>COMPAGNIA / COMPAGNIE / COMPANY (Gesellschaft)</expan></choice> </add>
             <lb xml:id="p1-l2"/>IN<lb xml:id="p1-l3"/>
-                        <placeName type="place" key="Winterthur">WINTERTHUR</placeName> </fw>
+                        <placeName key="Winterthur">WINTERTHUR</placeName> </hi>
         </p>
-      </div>
+      
       <div type="opener">
         <p rend="indent" xml:id="K_1065_p2">
                     <lb xml:id="p1-l4"/>Verehrter Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="left" xml:id="K_1065_p3">
-                <lb xml:id="p1-l5"/>Herzlichen Dank für Ihre<!-- Lesung korrigiert von "ihren" [BF, 01.11.2013] --> gütigen <choice>
-                        <abbr>Eisenb.Berichte</abbr>
-                        <expan>EisenbahnBerichte</expan>
-                    </choice> <lb xml:id="p1-l6"/>unter Rücksendung des <choice>
-                        <abbr>
-                    <hi>int</hi>.</abbr>
-                        <expan>interessant / inereßant</expan>
-                    </choice> Briefes des Herrn <hi>
-                    <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Direktor / Director</expan>
-                        </choice>
+                <lb xml:id="p1-l5"/>Herzlichen Dank für Ihre<!-- Lesung korrigiert von "ihren" [BF, 01.11.2013] --> gütigen <choice><abbr>Eisenb.Berichte</abbr><expan>EisenbahnBerichte</expan></choice> <lb xml:id="p1-l6"/>unter Rücksendung des <choice><abbr>
+                    <hi>int</hi>.</abbr><expan>interessant / inereßant</expan></choice> Briefes des Herrn <hi>
+                    <choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Direktor / Director</expan></choice>
                 </hi> <lb xml:id="p1-l7"/>
-                <persName type="person" key="Escher-Hess Martin">
+                <persName key="Escher-Hess Martin">
                     <hi>Escher</hi> 
                 </persName> - von dem ich bescheidenen Gebrauch machte 
-            <lb xml:id="p1-l8"/>&amp; es mich äusserst freuen wird - wenn sich <placeName type="place" key="Zürich">
+            <lb xml:id="p1-l8"/>&amp; es mich äusserst freuen wird - wenn sich <placeName key="Zürich">
                     <hi>Zürich</hi>
                 </placeName> <lb xml:id="p1-l9"/>ermannt &amp; nicht blos nach Westen<!-- idx "Westschweiz" entfernt, BF, 21.11.2014 --> sondern auch 
             <lb xml:id="p1-l10"/>nach Osten<!-- idx "Ostschweiz" entfernt, BF, 21.11.2014 --> die Hände bietet - damit einmal 
             <lb xml:id="p1-l11"/>Hand an das wichtige Werk gelegt werde. 
-        <lb xml:id="p1-l12"/>Mit Herrn <persName type="person" key="Ziegler Jakob Melchior">
+        <lb xml:id="p1-l12"/>Mit Herrn <persName key="Ziegler Jakob Melchior">
                     <hi>Ziegler</hi>
-                </persName> kommen wir blos in endlose Erörterung<supplied>en,</supplied> <lb xml:id="p1-l13"/>aber nur mühsam zu einem <choice>
-                        <abbr>bald.</abbr>
-                        <expan>baldig</expan>
-                    </choice> Ziele - daher 
+                </persName> kommen wir blos in endlose Erörterung<add>en,</add> <lb xml:id="p1-l13"/>aber nur mühsam zu einem <choice><abbr>bald.</abbr><expan>baldig</expan></choice> Ziele - daher 
         <lb xml:id="p1-l14"/>ich hoffe Sie werden die Sache des Ostens<!-- idx "Ostschweiz" entfernt, BF, 21.11.2014 -->, die ja auch 
             <lb xml:id="p1-l15"/>im <hi>Interesse</hi> des ganzen Kantons liegt &amp; sicherlich 
             <lb xml:id="p1-l16"/>
                 <hi>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> </hi> wie <hi>
-                    <placeName type="place" key="Winterthur">Wthur</placeName> </hi> zum Nutzen gereichen wird, 
+                    <placeName key="Zürich (Stadt)">Zürich</placeName> </hi> wie <hi>
+                    <placeName key="Winterthur">Wthur</placeName> </hi> zum Nutzen gereichen wird, 
             <lb xml:id="p1-l17"/>kräftig im Auge behalten – </p>
       <p rend="left" xml:id="K_1065_p4">
                 <lb xml:id="p1-l18"/>Gut ist es wenn endlich dahingestrebt wird 
                 <lb xml:id="p1-l19"/>uns von <hi>
-                    <placeName type="place" key="Basel-Stadt">Basel</placeName> </hi> einigermasen zu <hi>emanzipieren</hi> <lb xml:id="p1-l20"/>da sie immer glaubten den Schlüssel für die 
+                    <placeName key="Basel-Stadt">Basel</placeName> </hi> einigermasen zu <hi>emanzipieren</hi> <lb xml:id="p1-l20"/>da sie immer glaubten den Schlüssel für die 
             <pb n="2"/>
                 <lb xml:id="p2-l1"/>ganze Schweitz in<!-- Transkription korrigiert, zuvor "im", BF, 21.11.2014 --> den Händen behalten zu müssen. 
                 <lb xml:id="p2-l2"/>Kurz die Entwicklung der Eisenbahn Bauten 
                 <lb xml:id="p2-l3"/>wird noch Manches Schöne zu Tage fördern.
-                <lb xml:id="p2-l4"/>Das <choice>
-                        <abbr>geflig</abbr>
-                        <expan>gefällig</expan>
-                    </choice> gesendte Büchlein der <choice>
-                        <abbr>Verhandl.</abbr>
-                        <expan>Verhandlung</expan>
-                    </choice> der 
+                <lb xml:id="p2-l4"/>Das <choice><abbr>geflig</abbr><expan>gefällig</expan></choice> gesendte Büchlein der <choice><abbr>Verhandl.</abbr><expan>Verhandlung</expan></choice> der 
                 <lb xml:id="p2-l5"/>
-                <choice>
-                        <abbr>dort.</abbr>
-                        <expan>dortig</expan>
-                    </choice> <choice>
-                        <abbr>
-                    <hi>techn</hi>.</abbr>
-                        <expan>technisch</expan>
-                    </choice> Gesellschaft werde ich Ihnen später <hi>retournieren</hi>.</p>
+                <choice><abbr>dort.</abbr><expan>dortig</expan></choice> <choice><abbr>
+                    <hi>techn</hi>.</abbr><expan>technisch</expan></choice> Gesellschaft werde ich Ihnen später <hi>retournieren</hi>.</p>
       <p rend="left" xml:id="K_1065_p5">
                 <lb xml:id="p2-l6"/>Unser Jugend Fest wurde am <date when="1852-08-31">Dienstag</date> durch den 
                 <lb xml:id="p2-l7"/>Regen gestört - entfaltete sich aber <date when="1852-09-01">gestern</date> nur 
         <lb xml:id="p2-l8"/>desto <hi>brillanter</hi>, schöner &amp; lebhafter - Freund <hi>
-                    <persName type="person" key="Rüegg Johannes">Ruegg</persName> </hi> <lb xml:id="p2-l9"/>wurde <date when="1852-09-01">gestern</date> Nacht gegen 1 Uhr sehr beredt....<note type="transcript">sic!</note> <lb xml:id="p2-l10"/>so wie viele Lehrer begeistert durch den rothen 
+                    <persName key="Rüegg Johannes">Ruegg</persName> </hi> <lb xml:id="p2-l9"/>wurde <date when="1852-09-01">gestern</date> Nacht gegen 1 Uhr sehr beredt....<note type="transcript">sic!</note> <lb xml:id="p2-l10"/>so wie viele Lehrer begeistert durch den rothen 
                 <lb xml:id="p2-l11"/>
-                <placeName type="place" key="Winterthur">Winterthurer</placeName> edlen Rebensaft -</p>
-    </div>
-        </body>
-    <back>
+                <placeName key="Winterthur">Winterthurer</placeName> edlen Rebensaft -</p>
+    </body><back>
       <div type="closer">
         <p rend="left" xml:id="K_1065_p6">
                     <lb xml:id="p2-l12"/>Herzlich freute es mich Sie jüngsthin hier zu sehen 
             <lb xml:id="p2-l13"/>&amp; hoffend bald wieder das Vergnügen &amp; die Ehre zu 
             <lb xml:id="p2-l14"/>haben - Sie zu sehen - bleibe hochachtend &amp; freundlichergeben</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="center" xml:id="K_1065_p7">
                     <lb xml:id="p2-l15"/>
           Waeffler-Egli
@@ -177,12 +72,7 @@
       <div type="dateline">
         <p rend="left" xml:id="K_1065_p8">
                     <lb xml:id="p2-l16"/>
-          <placeName type="place" key="Winterthur">Winterthur</placeName> den <date when="1852-09-02">2 <choice>
-                            <abbr>
-                            <hi>Sept</hi> </abbr>
-                            <expan>September</expan>
-                        </choice> 1852</date> </p>
+          <placeName key="Winterthur">Winterthur</placeName> den <date when="1852-09-02">2 <choice><abbr>
+                            <hi>Sept</hi> </abbr><expan>September</expan></choice> 1852</date> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

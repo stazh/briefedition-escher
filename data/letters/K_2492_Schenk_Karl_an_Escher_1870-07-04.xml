@@ -1,145 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2492" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Karl Schenk an Alfred Escher, Bern, Montag, Juli 4, 1870</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#429*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnanschluss an ausländische Netze</item>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Schenk Karl" type="sender">Karl Schenk</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1870-07-04">Montag, Juli 4, 1870</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-08-18" who="SD">Transkription
-                
-            </change>
-            <change when="2013-08-09" who="JS">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="LH">Migrationsverifizierung
-                    umgesetzt
-                
-            </change>
-            <change when="2014-01-08" who="IB">Auszeichnung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-09" who="LH">Verfizierung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-14" who="XR">Auszeichnung 2
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-22" who="LW">Transkriptionsverifizierung Seiterle
-                    umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="LH">Übertragung der Transkriptionsverifizierung
-                    geprüft
-                
-            </change>
-            <change when="2014-03-19" who="MLB">Inhaltliche Qualitätsprüfung
-                    umgesetzt
-                
-            </change>
-            <change when="2014-05-14" who="LB">Verifizierung 2
-                umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_2492_p1">
-                    <lb xml:id="p1-l1"/>
-          <fw>SCHWEIZERISCHE
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2492" type="Brief"><teiHeader><fileDesc><titleStmt><title>Karl Schenk an Alfred Escher, Bern, Montag, 04. Juli 1870</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#429*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnanschluss an ausländische Netze</term><term>Schweizerische Nordostbahn (NOB)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Schenk Karl" type="addressee">Karl Schenk</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1870-07-04">04. Juli 1870</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_2492_p1"><lb xml:id="p1-l1"/>
+          <hi rend="printed">SCHWEIZERISCHE
                             <lb xml:id="p1-l2"/>EIDGENOSSENSCHAFT <lb xml:id="p1-l3"/>DEPARTEMENT DES
-                        INNERN</fw>
+                        INNERN</hi>
         </p>
-      </div>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_2492_p2">
-                    <lb xml:id="p1-l4"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName>, d. <date when="1870-07-04">4<hi rend="sup">t</hi> Juli
+        <p rend="right" xml:id="K_2492_p2"><lb xml:id="p1-l4"/>
+          <placeName key="Bern (Stadt)">Bern</placeName>, d. <date when="1870-07-04">4<hi rend="sup">t</hi> Juli
                         1870</date>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_2492_p3">
-                    <lb xml:id="p1-l5"/>Hochgeachteter
+        <p rend="indent" xml:id="K_2492_p3"><lb xml:id="p1-l5"/>Hochgeachteter
                     Herr.</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_2492_p4">
-                <lb xml:id="p1-l6"/>Dürfte ich Sie bitten, sich einen
+    </front><body>
+      <p rend="left" xml:id="K_2492_p4"><lb xml:id="p1-l6"/>Dürfte ich Sie bitten, sich einen
                 Augenblick auf mein Departement <lb xml:id="p1-l7"/>zu bemühen, um mir einige Fragen zu
                 beantworten, welche ich bezüglich <lb xml:id="p1-l8"/>der Vereinbarung zwischen der
-                    <choice>
-                        <abbr>NOBahn</abbr>
-                        <expan>NordOstBahn</expan>
-                    </choice> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> d. <placeName type="place" key="Baden (Grossherzogtum)">bad.</placeName> Bahn in Betreff der <lb xml:id="p1-l9"/>
-                <placeName type="place" key="Konstanz (D)">Costanz</placeName>–<placeName type="place" key="Kreuzlingen">Kreuzlinger</placeName>
-                <note type="transcript">sic!</note> Verbindung zu stellen hätte?</p>
-      <p rend="indent" xml:id="K_2492_p5">
-                <lb xml:id="p1-l10"/>Wenn Ihnen ein Abkommen
+                    <choice><abbr>NOBahn</abbr><expan>NordOstBahn</expan></choice> <choice><abbr>u.</abbr><expan>und</expan></choice> d. <placeName key="Baden (Grossherzogtum)">bad.</placeName> Bahn in Betreff der <lb xml:id="p1-l9"/><placeName key="Konstanz (D)">Costanz</placeName>–<placeName key="Kreuzlingen">Kreuzlinger</placeName><note type="transcript">sic!</note> Verbindung zu stellen hätte?</p>
+      <p rend="indent" xml:id="K_2492_p5"><lb xml:id="p1-l10"/>Wenn Ihnen ein Abkommen
                     jezt<note type="transcript">sic!</note> nicht möglich wäre, so möchte ich <lb xml:id="p1-l11"/>Sie ersuchen, mir sagen zu lassen, wann ich Sie erwarten darf.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2492_p6">
-                    <lb xml:id="p1-l12"/>In
-                    Erwartung Ihrer <choice>
-                        <abbr>gef.</abbr>
-                        <expan>gefällig</expan>
-                    </choice> Antwort verbleibe</p>
-        <p rend="center" xml:id="K_2492_p7">
-                    <lb xml:id="p1-l13"/>Mit vorzüglicher Hochachtung</p>
-        <p rend="right" xml:id="K_2492_p8">
-                    <lb xml:id="p1-l14"/>Ihr <choice>
-                        <abbr>Ergb<supplied>er</supplied> </abbr>
-                        <expan>Ergebener</expan>
-                    </choice>
-                </p>
+        <p rend="indent" xml:id="K_2492_p6"><lb xml:id="p1-l12"/>In
+                    Erwartung Ihrer <choice><abbr>gef.</abbr><expan>gefällig</expan></choice> Antwort verbleibe</p>
+        <p rend="center" xml:id="K_2492_p7"><lb xml:id="p1-l13"/>Mit vorzüglicher Hochachtung</p>
+        <p rend="right" xml:id="K_2492_p8"><lb xml:id="p1-l14"/>Ihr <choice><abbr>Ergb<add>er</add> </abbr><expan>Ergebener</expan></choice></p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2492_p9">
-                    <lb xml:id="p1-l15"/>
+      <div type="signature">
+        <p rend="right" xml:id="K_2492_p9"><lb xml:id="p1-l15"/>
           <hi>Schenk</hi>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

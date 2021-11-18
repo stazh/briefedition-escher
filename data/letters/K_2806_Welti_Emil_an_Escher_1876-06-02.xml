@@ -1,184 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2806" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Emil Welti an Alfred Escher, Bern, Freitag, Juni 2, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#547*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Presse (allgemein)</item>
-                        <item>Bundesrat</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1876-06-02">Freitag, Juni 2, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-04-28" who="BF">Transkription
-                
-            </change>
-            <change when="2013-08-20" who="SB">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="LW">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="NS">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="IB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="CR">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-05-19" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="LW">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-21" who="MA">Übertragung der Transkriptionsverifizierung gerprüft
-                
-            </change>
-            <change when="2014-04-09" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2806" type="Brief"><teiHeader><fileDesc><titleStmt><title>Emil Welti an Alfred Escher, Bern, Freitag, 02. Juni 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#547*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Presse (allgemein)</term><term>Bundesrat</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Welti Emil" type="addressee">Emil Welti</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1876-06-02">02. Juni 1876</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_2806_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_2806_c0">Nachträglicher Stempel oben rechts auf Seite 1 mit von dritter Hand eingetragener Nummer:
-          <bibl>Gotthardbahn | <date when="1876-06-10">10 JUNI 1876<!-- 19.05.2014, VP: Transkription angepasst --></date>. | <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 2789.</bibl>
+        <p rend="indent" xml:id="K_2806_p1"> <note type="com" xml:id="K_2806_c0">Nachträglicher Stempel oben rechts auf Seite 1 mit von dritter Hand eingetragener Nummer:
+          <orig>Gotthardbahn | <date when="1876-06-10">10 JUNI 1876<!-- 19.05.2014, VP: Transkription angepasst --></date>. | <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 2789.</orig>
           – Nachträgliche Inhaltsangabe oben links auf Seite 1 von dritter Hand:
-          <bibl>Rücksendung <choice>
-                                    <abbr>v.</abbr>
-                                    <expan>von</expan>
-                                </choice> 2 Briefen von <hi>
-                                    <persName type="person" key="Maraini Clemente">Maraini</persName> </hi> 
-            eine Interpellation <choice>
-                                    <abbr>v.</abbr>
-                                    <expan>von</expan>
-                                </choice> <placeName type="place" key="Italien">ital.</placeName> Deputirten <choice>
-                                    <abbr>u.</abbr>
-                                    <expan>und</expan>
-                                </choice> ein 
-            Gutachten <choice>
-                                    <abbr>v.</abbr>
-                                    <expan>von</expan>
-                                </choice> <hi>
-                                    <persName type="person" key="Biglia Felice">Biglia</persName>
-                                </hi>, 
-            <hi>
-                                    <persName type="person" key="Ferrucci Antonio">Ferucci</persName> </hi> <choice>
-                                    <abbr>u</abbr>
-                                    <expan>und</expan>
-                                </choice> <hi>
-                                    <persName type="person" key="Massa Mattia">Massa</persName> </hi> an d. 
-            <placeName type="place" key="Italien">ital.</placeName> Bauministerium über die Lage
-            der <choice>
-                                    <abbr>G.B.</abbr>
-                                    <expan>GotthardBahn</expan>
-                                </choice> enthaltend. | Präsidium.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>Verehrtester Herr und Freund
+          <orig>Rücksendung <choice><abbr>v.</abbr><expan>von</expan></choice> 2 Briefen von <hi><persName key="Maraini Clemente">Maraini</persName> </hi> 
+            eine Interpellation <choice><abbr>v.</abbr><expan>von</expan></choice> <placeName key="Italien">ital.</placeName> Deputirten <choice><abbr>u.</abbr><expan>und</expan></choice> ein 
+            Gutachten <choice><abbr>v.</abbr><expan>von</expan></choice> <hi><persName key="Biglia Felice">Biglia</persName></hi>, 
+            <hi><persName key="Ferrucci Antonio">Ferucci</persName> </hi> <choice><abbr>u</abbr><expan>und</expan></choice> <hi><persName key="Massa Mattia">Massa</persName> </hi> an d. 
+            <placeName key="Italien">ital.</placeName> Bauministerium über die Lage
+            der <choice><abbr>G.B.</abbr><expan>GotthardBahn</expan></choice> enthaltend. | Präsidium.</orig> </note> <lb xml:id="p1-l1"/>Verehrtester Herr und Freund
                 </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2806_p2">
-                <lb xml:id="p1-l2"/>Ich sende Ihnen mit vielem Dank
+    </front><body>
+      <p rend="indent" xml:id="K_2806_p2"><lb xml:id="p1-l2"/>Ich sende Ihnen mit vielem Dank
                 <lb xml:id="p1-l3"/>die sehr interessanten Actenstücke wieder
-                <lb xml:id="p1-l4"/>zurück: nämlich zwei Briefe von <persName type="person" key="Maraini Clemente">Maraini</persName>,
+                <lb xml:id="p1-l4"/>zurück: nämlich zwei Briefe von <persName key="Maraini Clemente">Maraini</persName>,
                 <lb xml:id="p1-l5"/>die Interpellation und das Gutachten an
                 <lb xml:id="p1-l6"/>das Ministerium. Über dieses letztere sonderbare
-                <lb xml:id="p1-l7"/>Machwerk, will ich mich mündlich am <date when="1876-06-05">Mon<lb break="no" xml:id="p1-l8"/>tag</date> aussprechen.
+                <lb xml:id="p1-l7"/>Machwerk, will ich mich mündlich am <date when="1876-06-05">Mon<lb xml:id="p1-l8" break="no"/>tag</date> aussprechen.
             </p>
-      <p rend="indent" xml:id="K_2806_p3">
-                <lb xml:id="p1-l9"/>Diesen Schriftstücken füge ich eine
-                <lb xml:id="p1-l10"/>Abschrift der Note bei, die <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Roeder Maximilian Heinrich von">v. Röder</persName> vor<lb break="no" xml:id="p1-l11"/>
-                    <date when="1876-04-31">gestern</date> übergeben hat und welcher er die
-                <lb xml:id="p1-l12"/>mündliche Eröffnung folgen liess, über die
-                <lb xml:id="p1-l13"/>ich ein Protocoll aufgenommen habe, das aber
-                <lb xml:id="p1-l14"/>nichts anderes als eine Abschrift aus dem
-                <lb xml:id="p1-l15"/>Schreiben von <persName type="person" key="Bülow Bernhard Ernst von">Bülow</persName> an <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Roeder Maximilian Heinrich von">v. Röder</persName> ist.
-                <pb n="2"/>
-                    <lb xml:id="p2-l1"/>Diese eigenthümliche Cumulation von
-                <lb xml:id="p2-l2"/>schriftlicher und Verbalnote wurde <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <lb xml:id="p2-l3"/>
-                    <persName type="person" key="Roeder Maximilian Heinrich von">v. R.</persName> nicht etwa direct aufgetragen,
-                <lb xml:id="p2-l4"/>sondern er glaubte sich durch den
-                <lb xml:id="p2-l5"/>Wortlaut des betreffenden Satzes:
-                <lb xml:id="p2-l6"/>«zugleich wollen Sie vertraulich zu er<lb break="no" xml:id="p2-l7"/>kennen geben» dazu verpflichtet. Ich
-                <lb xml:id="p2-l8"/>füge das bei, damit Sie nicht etwa
-                <lb xml:id="p2-l9"/>aus dieser Form zu weit gehende 
-                <lb xml:id="p2-l10"/>Schlüsse ziehen.
-                <pb n="3"/>
-            </p>
-      <p rend="indent" xml:id="K_2806_p4">
-                <lb xml:id="p3-l1"/>Eine Rectification der Zeitungsnachrichten
+      <p rend="indent" xml:id="K_2806_p3"><lb xml:id="p1-l9"/>Diesen Schriftstücken füge ich eine
+                <lb xml:id="p1-l10"/>Abschrift der Note bei, die <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Roeder Maximilian Heinrich von">v. Röder</persName> vor<lb xml:id="p1-l11" break="no"/><date when="1876-04-31">gestern</date> übergeben hat und welcher er die
+                <lb xml:id="p1-l12" break="no"/>mündliche Eröffnung folgen liess, über die
+                <lb xml:id="p1-l13" break="no"/>ich ein Protocoll aufgenommen habe, das aber
+                <lb xml:id="p1-l14" break="no"/>nichts anderes als eine Abschrift aus dem
+                <lb xml:id="p1-l15" break="no"/>Schreiben von <persName key="Bülow Bernhard Ernst von">Bülow</persName> an <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Roeder Maximilian Heinrich von">v. Röder</persName> ist.
+                <pb n="2"/><lb xml:id="p2-l1" break="no"/>Diese eigenthümliche Cumulation von
+                <lb xml:id="p2-l2" break="no"/>schriftlicher und Verbalnote wurde <choice><abbr>H.</abbr><expan>Herr</expan></choice> <lb xml:id="p2-l3" break="no"/><persName key="Roeder Maximilian Heinrich von">v. R.</persName> nicht etwa direct aufgetragen,
+                <lb xml:id="p2-l4" break="no"/>sondern er glaubte sich durch den
+                <lb xml:id="p2-l5" break="no"/>Wortlaut des betreffenden Satzes:
+                <lb xml:id="p2-l6" break="no"/>«zugleich wollen Sie vertraulich zu er<lb xml:id="p2-l7" break="no"/>kennen geben» dazu verpflichtet. Ich
+                <lb xml:id="p2-l8" break="no"/>füge das bei, damit Sie nicht etwa
+                <lb xml:id="p2-l9" break="no"/>aus dieser Form zu weit gehende 
+                <lb xml:id="p2-l10" break="no"/>Schlüsse ziehen.
+                <pb n="3"/></p>
+      <p rend="indent" xml:id="K_2806_p4"><lb xml:id="p3-l1"/>Eine Rectification der Zeitungsnachrichten
                 <lb xml:id="p3-l2"/>oder überhaupt eine Publication über
                 <lb xml:id="p3-l3"/>die Antwort, wollte der Bundesrath
-                <lb xml:id="p3-l4"/>nicht beschliessen, bis auch die <placeName type="place" key="Italien (Königreich)">italien.</placeName> <lb xml:id="p3-l5"/>Antwort eingelangt sei.
+                <lb xml:id="p3-l4"/>nicht beschliessen, bis auch die <placeName key="Italien (Königreich)">italien.</placeName> <lb xml:id="p3-l5"/>Antwort eingelangt sei.
             </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2806_p5">
-                    <lb xml:id="p3-l6"/>Mit herzlichem Grusse</p>
-        <p rend="right" xml:id="K_2806_p6">
-                    <lb xml:id="p3-l7"/>Ihr</p>
+        <p rend="indent" xml:id="K_2806_p5"><lb xml:id="p3-l6"/>Mit herzlichem Grusse</p>
+        <p rend="right" xml:id="K_2806_p6"><lb xml:id="p3-l7"/>Ihr</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2806_p7">
-                    <lb xml:id="p3-l8"/>E Welti</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2806_p7"><lb xml:id="p3-l8"/>E Welti</p>
       </div>
       <div type="dateline">
-        <p rend="indent" xml:id="K_2806_p8">
-                    <lb xml:id="p3-l9"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName>
+        <p rend="indent" xml:id="K_2806_p8"><lb xml:id="p3-l9"/>
+          <placeName key="Bern (Stadt)">Bern</placeName>
           <lb xml:id="p3-l10"/>
           <date when="1876-06-02">2. Juni 1876</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

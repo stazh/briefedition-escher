@@ -1,121 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2808" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Tommaso Agudio an Alfred Escher, Turin, Donnerstag, Juni 8, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#88*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Bankinstitute</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Agudio Tommaso" type="sender">Tommaso Agudio</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Turin</placeName>
-                    <date when="1876-06-08">Donnerstag, Juni 8, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-08-09" who="MW">Transkription
-                
-            </change>
-            <change when="2013-08-21" who="SB">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="LW">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="CR">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="IB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="CR">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-05-19" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-22" who="LW">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="SWK">Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-04-09" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2808" type="Brief"><teiHeader><fileDesc><titleStmt><title>Tommaso Agudio an Alfred Escher, Turin, Donnerstag, 08. Juni 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#88*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Bankinstitute</term><term>Eisenbahnen Finanzierung</term><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Agudio Tommaso" type="addressee">Tommaso Agudio</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Turin</placeName><date when="1876-06-08">08. Juni 1876</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="center" xml:id="K_2808_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Turin (I)">Turin</placeName>, le <date when="1876-06-08">8 Juin 1876</date> </p>
+        <p rend="center" xml:id="K_2808_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Turin (I)">Turin</placeName>, le <date when="1876-06-08">8 Juin 1876</date> </p>
       </div>
-      <div type="address">
-        <p rend="left" xml:id="K_2808_p2">
-                    <lb xml:id="p1-l2"/>Monsieur Escher President
-            <lb xml:id="p1-l3"/>à <placeName type="place" key="Zürich (Stadt)">Zurich</placeName> </p>
+      <div type="opener">
+        <p rend="left" xml:id="K_2808_p2"><lb xml:id="p1-l2"/>Monsieur Escher President
+            <lb xml:id="p1-l3"/>à <placeName key="Zürich (Stadt)">Zurich</placeName> </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2808_p3">
-                <lb xml:id="p1-l4"/>Sur les 1<hi rend="sup">ers</hi> jours de la semaine 
+    </front><body>
+      <p rend="indent" xml:id="K_2808_p3"><lb xml:id="p1-l4"/>Sur les 1<hi rend="sup">ers</hi> jours de la semaine 
                 <lb xml:id="p1-l5"/>prochaine j'aurai l'honneur de vous 
                 <lb xml:id="p1-l6"/>presenter un Délégué de différentes 
                 <lb xml:id="p1-l7"/>Maisons de banque qui désire 	
                 <lb xml:id="p1-l8"/>vous soumettre une proposition 
                 <lb xml:id="p1-l9"/>avantageuse pour l'exécution 
-                <lb xml:id="p1-l10"/>de votre ligne du <placeName type="place" key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName>. 
+                <lb xml:id="p1-l10"/>de votre ligne du <placeName key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName>. 
             </p>
-      <p rend="indent" xml:id="K_2808_p4">
-                <lb xml:id="p1-l11"/>Veuillez, je vous prie, Monsieur 
+      <p rend="indent" xml:id="K_2808_p4"><lb xml:id="p1-l11"/>Veuillez, je vous prie, Monsieur 
                 <lb xml:id="p1-l12"/>le Président, me faire tenir 
                 <lb xml:id="p1-l13"/>un rendez-vous près de Monsieur 
-                <lb xml:id="p1-l14"/>
-                <persName type="person" key="Koller Gottlieb">Koller</persName> Inspecteur Fédéral à <placeName type="place" key="Bern (Stadt)">Berne</placeName>, 
+                <lb xml:id="p1-l14"/><persName key="Koller Gottlieb">Koller</persName> Inspecteur Fédéral à <placeName key="Bern (Stadt)">Berne</placeName>, 
                 <lb xml:id="p1-l15"/>pour le jour que vous voudrez 
-                <lb xml:id="p1-l16"/>bien me recevoir soit à <placeName type="place" key="Zürich (Stadt)">Zurich</placeName> <lb xml:id="p1-l17"/>ou à <placeName type="place" key="Luzern (Stadt)">Luzerne</placeName>
-                <note type="transcript">sic!</note> ou à <placeName type="place" key="Bern (Stadt)">Berne</placeName>. 
+                <lb xml:id="p1-l16"/>bien me recevoir soit à <placeName key="Zürich (Stadt)">Zurich</placeName> <lb xml:id="p1-l17"/>ou à <placeName key="Luzern (Stadt)">Luzerne</placeName><note type="transcript">sic!</note> ou à <placeName key="Bern (Stadt)">Berne</placeName>. 
             </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2808_p5">
-                    <lb xml:id="p1-l18"/>Au plaisir de vous serrer bientôt la main</p>
-        <p rend="center" xml:id="K_2808_p6">
-                    <lb xml:id="p1-l19"/>Votre bien dévoué</p>
+        <p rend="indent" xml:id="K_2808_p5"><lb xml:id="p1-l18"/>Au plaisir de vous serrer bientôt la main</p>
+        <p rend="center" xml:id="K_2808_p6"><lb xml:id="p1-l19"/>Votre bien dévoué</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2808_p7">
-                    <lb xml:id="p1-l20"/>Agudio</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2808_p7"><lb xml:id="p1-l20"/>Agudio</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

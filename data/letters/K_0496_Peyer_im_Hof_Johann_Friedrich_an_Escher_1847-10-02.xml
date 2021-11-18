@@ -1,90 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0496" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Friedrich Peyer im Hof an Alfred Escher, s.l., Samstag, Oktober 2, 1847</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#391*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Sonderbund</item>
-                        <item>Grosser Rat SH</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Peyer im Hof Johann Friedrich" type="sender">Johann Friedrich Peyer im Hof</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>s.l.</placeName>
-                    <date when="1847-10-02">Samstag, Oktober 2, 1847</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-05-02" who="BF">Transkribiert
-
-                
-            </change>
-            <change when="Juli 2009" who="swissedit, UR">von Word nach XML konvertiert
-
-                
-            </change>
-            <change when="2011-07-06" who="DD">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-07" who="HA">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen umgesetzt
-
-                
-            </change>
-            <change when="2011-07-27" who="HA"> e-Edition: Auszeichnung 2 umgesetzt
-				
-                
-            </change>
-            <change when="2011-07-29" who="TM"> e-Edition: Verifizierung 2 umgesetzt
-				
-                
-            </change>
-            <change when="2011-08-10" who="AH">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2015-01-06" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2017-12-06" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front><!--<printedheader><p rend="left" id="K_0496_p1"><lb id="p1-l1"/>BATH</p> </printedheader>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0496" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Friedrich Peyer im Hof an Alfred Escher, s.l., Samstag, 02. Oktober 1847</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#391*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Sonderbund</term><term>Grosser Rat SH</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Peyer im Hof Johann Friedrich" type="addressee">Johann Friedrich Peyer im Hof</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><date when="1847-10-02">02. Oktober 1847</date></correspAction></correspDesc></profileDesc></teiHeader><text><front><!--<printedheader><p rend="left" id="K_0496_p1"><lb id="p1-l1"/>BATH</p> </printedheader>-->
       <div type="opener">
         <p rend="indent" xml:id="K_0496_p1">
                     <lb xml:id="p1-l1"/>Verehrtester Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_0496_p2">
                 <lb xml:id="p1-l2"/>Für die mir vor einiger Zeit gütigst mitgetheilte Abschrift<lb xml:id="p1-l3"/>
-des <placeName type="place" key="Zürich">zürcherischen</placeName> Gesetzes über die Schulsynode sage ich Ihnen meinen<lb xml:id="p1-l4"/>
+des <placeName key="Zürich">zürcherischen</placeName> Gesetzes über die Schulsynode sage ich Ihnen meinen<lb xml:id="p1-l4"/>
 verbindlichen Dank. Leider ist es mir nicht gelungen, in der unser<lb xml:id="p1-l5"/>
 Schulgesetz vorberathenden Behörde eine Gesammt-Vereinigung der<lb xml:id="p1-l6"/>
 Lehrerschaft durchzusetzen, dagegen ist aber ein wesentlicher Theil<lb xml:id="p1-l7"/>
@@ -93,10 +16,7 @@ zugetheilt worden.</p>
       <p rend="indent" xml:id="K_0496_p3">
                 <lb xml:id="p1-l9"/>
        <date when="1847-10-01">Gestern</date> hat unser Großer Rath nach zehnstündiger Berathung<lb xml:id="p1-l10"/>
-sich mit 46 gegen 28 Stimmen für Exukution<note type="transcript">sic!</note> ausgesprochen, <choice>
-                        <abbr>d. h</abbr>
-                        <expan>das heisst / das heißt</expan>
-                    </choice>.<lb xml:id="p1-l11"/>
+sich mit 46 gegen 28 Stimmen für Exukution<note type="transcript">sic!</note> ausgesprochen, <choice><abbr>d. h</abbr><expan>das heisst / das heißt</expan></choice>.<lb xml:id="p1-l11"/>
 er ist dem Antrag der Mehrheit der Regierung, welcher mit Ihrem<lb xml:id="p1-l12"/>
 Instruktions-Antrag übereinstimmen, beigetreten. Die<lb xml:id="p1-l13"/>
 Diskussion war im Ganzen ruhig und mäßig; – Zuhörer waren<lb xml:id="p1-l14"/>
@@ -110,7 +30,7 @@ dem ersten Ruf folgen werden, so bin ich doch auch überzeugt, <pb n="2"/>
 daß ein<!-- Majuskel in Worddatei--> Ausmarsch und eine Campagne bei schlechter Witterung mit<lb xml:id="p2-l2"/>
 Schnee und Regen, und schlechte Verpflegung sehr deprimirend wirken<lb xml:id="p2-l3"/>
 würde. Aehnlich ist die Stimmung in den benachbarten Theilen Ihres<lb xml:id="p2-l4"/>
-Kantons und des <placeName type="place" key="Thurgau">Thurgau's</placeName>, und Vorsicht ist für die Liberalen<lb xml:id="p2-l5"/>
+Kantons und des <placeName key="Thurgau">Thurgau's</placeName>, und Vorsicht ist für die Liberalen<lb xml:id="p2-l5"/>
 gewiß sehr nothwendig; – ein Winterfeldzug könnte die liberale Sache<lb xml:id="p2-l6"/>
 sehr gefährden, und es ist dieß gewiß <del>sehr</del> <add>umsomehr</add> zu berücksichtigen als<lb xml:id="p2-l7"/>
 alle Anzeichen zu einem frühen und strengen Winter vorhanden<lb xml:id="p2-l8"/>
@@ -123,57 +43,54 @@ wären für unsere Truppen eine halbe Niederlage. – </p>
       <p rend="indent" xml:id="K_0496_p4">
                 <lb xml:id="p2-l14"/>Hierauf scheinen auch die Sonderbunds-Häupter zu rechnen und<lb xml:id="p2-l15"/>
 ich kann nicht unterlassen, Ihnen schließlich noch einige Aeußerungen<lb xml:id="p2-l16"/>
-des H<supplied>errn</supplied> <persName type="person" key="Salis (Soglio) Johann Ulrich von">
+des H<add>errn</add> <persName key="Salis (Soglio) Johann Ulrich von">
                     <hi>Salis-Soglio</hi>
-                </persName><!--<com id="K_0496_c1"><idx norm="Salis (Soglio) Johann Ulrich von" type="person">Johann Ulrich Salis (Soglio)</idx>, reformierter <idx type="place" norm="Graubünden">Graubündner</idx> und General der Sonderbundstruppen.</com>--> gegen den <placeName type="place" key="Preussen (Königreich)">preußischen</placeName> Gesandten, der ja kürzlich<lb xml:id="p2-l17"/>
-in <placeName type="place" key="Luzern (Stadt)">Luzern</placeName> war, mitzutheilen. Ich bin ganz zufällig zu der Kenntniß<lb xml:id="p2-l18"/>
-dieser Aeußerungen gelangt, aber die Quelle ist eine <hi rend="underline">ganz sichere<!-- Doppelte Unterstreichung --></hi>.<lb xml:id="p2-l19"/>H<supplied>err</supplied> <persName type="person" key="Salis (Soglio) Johann Ulrich von">
+                </persName><!--<com id="K_0496_c1"><idx norm="Salis (Soglio) Johann Ulrich von" type="person">Johann Ulrich Salis (Soglio)</idx>, reformierter <idx type="place" norm="Graubünden">Graubündner</idx> und General der Sonderbundstruppen.</com>--> gegen den <placeName key="Preussen (Königreich)">preußischen</placeName> Gesandten, der ja kürzlich<lb xml:id="p2-l17"/>
+in <placeName key="Luzern (Stadt)">Luzern</placeName> war, mitzutheilen. Ich bin ganz zufällig zu der Kenntniß<lb xml:id="p2-l18"/>
+dieser Aeußerungen gelangt, aber die Quelle ist eine <hi rend="underline">ganz sichere<!-- Doppelte Unterstreichung --></hi>.<lb xml:id="p2-l19"/>H<add>err</add> <persName key="Salis (Soglio) Johann Ulrich von">
                     <hi>Salis-Soglio</hi>
                 </persName> hat sich ungefähr dahin ausgesprochen, daß die<lb xml:id="p2-l20"/>
 Sonderbundshäupter einen Angriff in diesem Spätjahr sehnlich<lb xml:id="p2-l21"/>
 wünschen, einerseits weil sie jetzt vollkommen gerüstet und organisirt<lb xml:id="p2-l22"/>
 sind, die Stimmung gehörig gesteigert ist und weil endlich die<lb xml:id="p2-l23"/>
 Witterung und Verpflegung den eidgenößischen Truppen mancherlei<lb xml:id="p2-l24"/>
-Schwierigkeiten bereiten dürften; – andererseits, weil sie be<lb break="no" xml:id="p2-l25"/>fürchten,<pb n="3"/>
-                    <lb xml:id="p3-l1"/> 
-daß je gesteigerter die Stimmung jetzt ist, diese um so gedrückter werden<lb xml:id="p3-l2"/>
-müßte, wenn die Exekution bis zur bessern Jahrszeit verschoben würde.<lb xml:id="p3-l3"/>
-Dieses letztere Bedenken, sowie überhaupt die Schwierigkeit für die Sonder<lb break="no" xml:id="p3-l4"/>bundskantone 
+Schwierigkeiten bereiten dürften; – andererseits, weil sie be
+                <lb xml:id="p2-l25" break="no"/>fürchten,<pb n="3"/>
+                <lb xml:id="p3-l1" break="no"/> 
+daß je gesteigerter die Stimmung jetzt ist, diese um so gedrückter werden<lb xml:id="p3-l2" break="no"/>
+müßte, wenn die Exekution bis zur bessern Jahrszeit verschoben würde.<lb xml:id="p3-l3" break="no"/>
+Dieses letztere Bedenken, sowie überhaupt die Schwierigkeit für die Sonder
+                <lb xml:id="p3-l4" break="no"/>bundskantone 
 lange in dieser geschraubten, gespannten Stellung bleiben
-<lb xml:id="p3-l5"/>zu können und die Furcht vor eintretender Erschlaffung &amp; Erschöpfung<lb xml:id="p3-l6"/>
-soll die Sonderbündler ganz besonders einen baldigen Angriff<lb xml:id="p3-l7"/>
-wünschen lassen. – In diesem Fall soll ein Versuch gemacht werden,<lb xml:id="p3-l8"/>
-die <placeName type="place" key="Tessin">Tessiner</placeName>-Regierung zu stürzen, um sich womöglich für den Fall<lb xml:id="p3-l9"/>
-einer Absperrung von Norden eine freie Verbindung nach der Lombardei<lb xml:id="p3-l10"/>
+<lb xml:id="p3-l5" break="no"/>zu können und die Furcht vor eintretender Erschlaffung &amp; Erschöpfung<lb xml:id="p3-l6" break="no"/>
+soll die Sonderbündler ganz besonders einen baldigen Angriff<lb xml:id="p3-l7" break="no"/>
+wünschen lassen. – In diesem Fall soll ein Versuch gemacht werden,<lb xml:id="p3-l8" break="no"/>
+die <placeName key="Tessin">Tessiner</placeName>-Regierung zu stürzen, um sich womöglich für den Fall<lb xml:id="p3-l9" break="no"/>
+einer Absperrung von Norden eine freie Verbindung nach der Lombardei<lb xml:id="p3-l10" break="no"/>
 für den Bezug von Lebensmitteln und Munition zu öffnen. –</p>
       <p rend="indent" xml:id="K_0496_p5">
                 <lb xml:id="p3-l11"/>Dieß ist ungefähr und im allgemeinen, was ich habe erfahren<lb xml:id="p3-l12"/>
 können; – ich bin weit entfernt diesen Aeußerungen allzugroßen<lb xml:id="p3-l13"/>
-Werth beizulegen, allein der Umstand, daß sie an eine Person ge<lb break="no" xml:id="p3-l14"/>richtet
- sind, von der man jedenfalls nicht weitere Mittheilung, wenigstens<lb xml:id="p3-l15"/>
-nicht nach der liberalen Seite erwarten könnte, läßt sie mir doch<lb xml:id="p3-l16"/>
-der Mittheilung werth erscheinen und ich stelle es Ihnen natürlich<lb xml:id="p3-l17"/>
-ganz anheim, davon – mit Ausschluß der Presse – weitern<lb xml:id="p3-l18"/>
-Gebrauch zu machen. Daß ich nicht ermangelt habe, auch<lb xml:id="p3-l19"/>H<supplied>errn</supplied>
-                    <choice>
-                        <abbr>RRth</abbr>
-                        <expan>RegierungsRath</expan>
-                    </choice>
-                    <persName type="person" key="Böschenstein Johann Georg">
+Werth beizulegen, allein der Umstand, daß sie an eine Person ge
+                <lb xml:id="p3-l14" break="no"/>richtet
+ sind, von der man jedenfalls nicht weitere Mittheilung, wenigstens<lb xml:id="p3-l15" break="no"/>
+nicht nach der liberalen Seite erwarten könnte, läßt sie mir doch<lb xml:id="p3-l16" break="no"/>
+der Mittheilung werth erscheinen und ich stelle es Ihnen natürlich<lb xml:id="p3-l17" break="no"/>
+ganz anheim, davon – mit Ausschluß der Presse – weitern<lb xml:id="p3-l18" break="no"/>
+Gebrauch zu machen. Daß ich nicht ermangelt habe, auch<lb xml:id="p3-l19" break="no"/>H<add>errn</add> <choice><abbr>RRth</abbr><expan>RegierungsRath</expan></choice>
+				<persName key="Böschenstein Johann Georg">
                     <hi>Böschenstein</hi>
-                </persName><!--<com id="K_0496_c2"><idx norm="Böschenstein Johann Georg" type="person">Johann Georg Böschenstein</idx>, Regierungsrat von <idx type="place" norm="Schaffhausen">Schaffhausen</idx> und strikter Gegner des Sonderbunds.</com>--> von Obigem Kenntniß zu geben, brauche ich Ihnen<lb xml:id="p3-l20"/>
+                </persName><!--<com id="K_0496_c2"><idx norm="Böschenstein Johann Georg" type="person">Johann Georg Böschenstein</idx>, Regierungsrat von <idx type="place" norm="Schaffhausen">Schaffhausen</idx> und strikter Gegner des Sonderbunds.</com>--> von Obigem Kenntniß zu geben, brauche ich Ihnen<lb xml:id="p3-l20" break="no"/>
 wohl kaum zu bemerken und verbleibe indessen mit vorzüglicher</p>
 
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="right" xml:id="K_0496_p6">
                     <lb xml:id="p3-l21"/>Hochschätzung
           <lb xml:id="p3-l22"/>
        Ihr ergebenster</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_0496_p7">
                     <lb xml:id="p3-l23"/>
           Peyer im Hof
@@ -182,22 +99,14 @@ wohl kaum zu bemerken und verbleibe indessen mit vorzüglicher</p>
       <div type="dateline">
         <p rend="left" xml:id="K_0496_p8">
                     <lb xml:id="p3-l24"/><!-- Datum neben "Hochschätzung" in Worddatei -->
-         <date when="1847-10-02">1847/ 2 <choice>
-                            <abbr>8<hi rend="sup">ber</hi> </abbr>
-                            <expan>October</expan>
-                        </choice>
+         <date when="1847-10-02">1847/ 2 <choice><abbr>8<hi rend="sup">ber</hi> </abbr><expan>October</expan></choice>
                     </date>
         </p>
       </div>
       <postscript>
         <p rend="left" xml:id="K_0496_p9">
-                    <lb xml:id="p3-l25"/>So eben hat unsere Regierung vom <choice>
-                        <abbr>Gr Rth</abbr>
-                        <expan>Grosser / Großer Rath</expan>
-                    </choice> noch<lb xml:id="p3-l26"/>
+                    <lb xml:id="p3-l25"/>So eben hat unsere Regierung vom <choice><abbr>Gr Rth</abbr><expan>Grosser / Großer Rath</expan></choice> noch<lb xml:id="p3-l26"/>
 Vollmacht erhalten, das Bundes-Kontingent<lb xml:id="p3-l27"/>
 zur Instruktion einzuberufen. </p>
       </postscript>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

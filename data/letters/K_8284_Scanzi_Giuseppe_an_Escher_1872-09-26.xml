@@ -1,134 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8284" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Giuseppe Scanzi an Alfred Escher, Mailand, Donnerstag, September 26, 1872</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB03_066</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnanschluss an ausländische Netze</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Scanzi Giuseppe" type="sender">Giuseppe Scanzi</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Mailand</placeName>
-                    <date when="1872-09-26">Donnerstag, September 26, 1872</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-07-19" who="NP">transkribiert</change>
-            <change when="2014-01-10" who="MB">Auszeichnung 1 umgesetzt</change>
-            <change when="2014-01-23" who="DG">Verifizierung 1 umgesetzt</change>
-            <change when="2014-02-06" who="MB">Auszeichnung 2 umgesetzt</change>
-            <change when="2014-06-10" who="IB">Transkriptionsverifizierung Seiterle umgesetzt</change>
-            <change when="2014-11-05" who="VP">Verifizierung 2 umgesetzt</change>
-            <change when="2014-11-05" who="VP">Inhaltliche Qualitätsprüfung umgesetzt</change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_8284_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_8284_c0">Nachträgliche Inhaltsangabe oben links von dritter Hand: <bibl>Studien des Herrn <persName type="person" key="Tatti Luigi">Tatti</persName> über den Anschluß der <placeName type="place" key="Oberitalien">oberitalienischen</placeName> Linien an die <choice>
-                                    <abbr>G.B.</abbr>
-                                    <expan>GotthardBahn</expan>
-                                </choice> | I. <choice>
-                                    <abbr>Dep.</abbr>
-                                    <expan>Departement</expan>
-                                </choice> </bibl>
-          – Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <bibl>Gotthardbahn | <date when="1872-10-15">15 <choice>
-                                        <abbr>OCT.</abbr>
-                                        <expan>OCTOBER</expan>
-                                    </choice> 1872</date>. | <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 2889.</bibl>
-          – Nachträgliche Notiz unten in der Mitte von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1872-10-03">3. X. 72.</date> <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 751.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <fw>
-            <choice>
-                            <abbr>AVV<hi rend="sup">O</hi> </abbr>
-                            <expan>AVVOCATO (Anwalt)</expan>
-                        </choice> GIUSEPPE SCANZI
-         <lb xml:id="p1-l2"/>
-                        <placeName type="place" key="Mailand (I)">MILANO</placeName> <lb xml:id="p1-l3"/>CORSO VENEZIA 16</fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8284" type="Brief"><teiHeader><fileDesc><titleStmt><title>Giuseppe Scanzi an Alfred Escher, Mailand, Donnerstag, 26. September 1872</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB03_066</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnanschluss an ausländische Netze</term><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Scanzi Giuseppe" type="addressee">Giuseppe Scanzi</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Mailand</placeName><date when="1872-09-26">26. September 1872</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_8284_p1"> <note type="com" xml:id="K_8284_c0">Nachträgliche Inhaltsangabe oben links von dritter Hand: <orig>Studien des Herrn <persName key="Tatti Luigi">Tatti</persName> über den Anschluß der <placeName key="Oberitalien">oberitalienischen</placeName> Linien an die <choice><abbr>G.B.</abbr><expan>GotthardBahn</expan></choice> | I. <choice><abbr>Dep.</abbr><expan>Departement</expan></choice> </orig>
+          – Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <orig>Gotthardbahn | <date when="1872-10-15">15 <choice><abbr>OCT.</abbr><expan>OCTOBER</expan></choice> 1872</date>. | <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 2889.</orig>
+          – Nachträgliche Notiz unten in der Mitte von dritter Hand: <orig><choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1872-10-03">3. X. 72.</date> <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 751.</orig> </note> <lb xml:id="p1-l1"/>
+          <hi rend="printed">
+            <choice><abbr>AVV<hi rend="sup">O</hi> </abbr><expan>AVVOCATO (Anwalt)</expan></choice> GIUSEPPE SCANZI
+         <lb xml:id="p1-l2"/><placeName key="Mailand (I)">MILANO</placeName> <lb xml:id="p1-l3"/>CORSO VENEZIA 16</hi>
         </p>
-      </div>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_8284_p2">
-                    <lb xml:id="p1-l4"/>
-          <placeName type="place" key="Mailand (I)">Milan</placeName>, le <date when="1872-09-26">26. <choice>
-                            <abbr>7bre</abbr>
-                            <expan>septembre (September)</expan>
-                        </choice> 1872</date>.
+        <p rend="right" xml:id="K_8284_p2"><lb xml:id="p1-l4"/>
+          <placeName key="Mailand (I)">Milan</placeName>, le <date when="1872-09-26">26. <choice><abbr>7bre</abbr><expan>septembre (September)</expan></choice> 1872</date>.
         </p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_8284_p3">
-                    <lb xml:id="p1-l5"/>Monsieur</p>
+        <p rend="center" xml:id="K_8284_p3"><lb xml:id="p1-l5"/>Monsieur</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_8284_p4">
-                    <lb xml:id="p1-l6"/>J'ai l'honneur de vous en<lb break="no" xml:id="p1-l7"/>voyer deux exemplaires du moniteur
-        <lb xml:id="p1-l8"/>des chemins de fer contenant le
-        <lb xml:id="p1-l9"/>rapport que <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-                    <persName type="person" key="Tatti Luigi">Tatti</persName> a fait à la
-        <lb xml:id="p1-l10"/>Chambre de Commerce de <placeName type="place" key="Como (I)">Como</placeName> au
-        <lb xml:id="p1-l11"/>sujet des lignes de raccordement avec
-        <lb xml:id="p1-l12"/>le chemin de fer du <placeName type="place" key="St. Gotthard (Pass)">Gothard</placeName> et d'une
-        <lb xml:id="p1-l13"/>brochure publiée aussi par <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-                    <persName type="person" key="Tatti Luigi">Tatti</persName>
-                    <lb xml:id="p1-l14"/>sur le même sujet
+    </front><body>
+      <p rend="indent" xml:id="K_8284_p4"><lb xml:id="p1-l6"/>J'ai l'honneur de vous en<lb xml:id="p1-l7" break="no"/>voyer deux exemplaires du moniteur
+        <lb xml:id="p1-l8" break="no"/>des chemins de fer contenant le
+        <lb xml:id="p1-l9" break="no"/>rapport que <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Tatti Luigi">Tatti</persName> a fait à la
+        <lb xml:id="p1-l10" break="no"/>Chambre de Commerce de <placeName key="Como (I)">Como</placeName> au
+        <lb xml:id="p1-l11" break="no"/>sujet des lignes de raccordement avec
+        <lb xml:id="p1-l12" break="no"/>le chemin de fer du <placeName key="St. Gotthard (Pass)">Gothard</placeName> et d'une
+        <lb xml:id="p1-l13" break="no"/>brochure publiée aussi par <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Tatti Luigi">Tatti</persName> <lb xml:id="p1-l14" break="no"/>sur le même sujet
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_8284_p5">
-                    <lb xml:id="p1-l15"/>Je profite de l'occasion pour
+        <p rend="indent" xml:id="K_8284_p5"><lb xml:id="p1-l15"/>Je profite de l'occasion pour
         <lb xml:id="p1-l16"/>vous renouveler les sentiments de<lb xml:id="p1-l17"/>consideration la plus distinguée</p>
-        <p rend="right" xml:id="K_8284_p6">
-                    <lb xml:id="p1-l18"/>Votre devoué</p>
+        <p rend="right" xml:id="K_8284_p6"><lb xml:id="p1-l18"/>Votre devoué</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_8284_p7">
-                    <lb xml:id="p1-l19"/>Avocat Joseph Scanzi</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_8284_p7"><lb xml:id="p1-l19"/>Avocat Joseph Scanzi</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

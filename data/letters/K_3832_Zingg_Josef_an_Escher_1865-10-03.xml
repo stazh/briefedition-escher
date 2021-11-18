@@ -1,132 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3832" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Josef Zingg an Alfred Escher, Luzern, Dienstag, Oktober 3, 1865</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_054</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Luzern</placeName>
-                    <date when="1865-10-03">Dienstag, Oktober 3, 1865</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2012-08-20" who="FK">transkribiert
-                
-            </change>
-            <change when="2013-01-03" who="SCK">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-01-29" who="PR">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-08-30" who="AO">Transkriptionsverifizierung T.Binder umgesetzt
-                
-            </change>
-            <change when="2014-01-21" who="SWK">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-02-03" who="LW">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-02-07" who="AW">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-06-11" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-06-13" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3832" type="Brief"><teiHeader><fileDesc><titleStmt><title>Josef Zingg an Alfred Escher, Luzern, Dienstag, 03. Oktober 1865</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_054</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Zingg Josef" type="addressee">Josef Zingg</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Luzern</placeName><date when="1865-10-03">03. Oktober 1865</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="left" xml:id="K_3832_p1">
-                    <lb xml:id="p1-l1"/>Hochgeachteter Herr Präsident!</p>
+        <p rend="left" xml:id="K_3832_p1"><lb xml:id="p1-l1"/>Hochgeachteter Herr Präsident!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_3832_p2">
-                <lb xml:id="p1-l2"/>Ich beehre mich Ihnen hiemit  in
+    </front><body>
+      <p rend="indent" xml:id="K_3832_p2"><lb xml:id="p1-l2"/>Ich beehre mich Ihnen hiemit  in
 			<lb xml:id="p1-l3"/>Anlage die Telegraphisch avisirten
-				<lb xml:id="p1-l4"/> <seg type="ref">Briefe<ref type="letter" target="K_2133"/>
-                </seg> <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <persName type="person" key="Landerer Rodolfo">Landerer</persName> &amp; <persName type="person" key="Styger Karl">Styger</persName> zu
+				<lb xml:id="p1-l4"/> <rs>Briefe<ref type="letter" target="K_2133"/></rs> <choice><abbr>v.</abbr><expan>von</expan></choice> <persName key="Landerer Rodolfo">Landerer</persName> &amp; <persName key="Styger Karl">Styger</persName> zu
 			<lb xml:id="p1-l5"/>übermachen. Aus einer soeben
-			<lb xml:id="p1-l6"/>eingetroffenen Telegraphischen<note type="transcript">sic!</note> <lb xml:id="p1-l7"/>Antwort auf die Einladung <persName type="person" key="Pioda Luigi">
-                    <hi>Pioda's</hi>
-                </persName> <lb xml:id="p1-l8"/>zur Ausschußsitzung ist zu entnehmen,
-				<lb xml:id="p1-l9"/>daß derselbe nach <placeName type="place" key="Florenz (I)">Florenz</placeName> verreist
+			<lb xml:id="p1-l6"/>eingetroffenen Telegraphischen<note type="transcript">sic!</note> <lb xml:id="p1-l7"/>Antwort auf die Einladung <persName key="Pioda Luigi"><hi>Pioda's</hi></persName> <lb xml:id="p1-l8"/>zur Ausschußsitzung ist zu entnehmen,
+				<lb xml:id="p1-l9"/>daß derselbe nach <placeName key="Florenz (I)">Florenz</placeName> verreist
 			<lb xml:id="p1-l10"/>ist. –
 			</p>
-      <p rend="indent" xml:id="K_3832_p3">
-                <lb xml:id="p1-l11"/>In der Hoffnung, Sie <date when="1865-10-04">Morgen</date> Nach<lb break="no" xml:id="p1-l12"/>mittag hier zu sehen, erlaube ich
-			 <lb xml:id="p1-l13"/>mir Ales Weitere auf die mündliche <lb xml:id="p1-l14"/>Besprechung zu verschieben. Es scheint
-			<pb n="2"/>
-                    <lb xml:id="p2-l1"/>mir sehr wünschenswerth, daß
-				<lb xml:id="p2-l2"/>Sie auch mit <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-                    <persName type="person" key="Dula Niklaus">
-                    <hi>Dula</hi>
-                </persName> in Rük<lb break="no" xml:id="p2-l3"/>sprache<note type="transcript">sic!</note> treten.
+      <p rend="indent" xml:id="K_3832_p3"><lb xml:id="p1-l11"/>In der Hoffnung, Sie <date when="1865-10-04">Morgen</date> Nach<lb xml:id="p1-l12" break="no"/>mittag hier zu sehen, erlaube ich
+			 <lb xml:id="p1-l13" break="no"/>mir Ales Weitere auf die mündliche <lb xml:id="p1-l14" break="no"/>Besprechung zu verschieben. Es scheint
+			<pb n="2"/><lb xml:id="p2-l1" break="no"/>mir sehr wünschenswerth, daß
+				<lb xml:id="p2-l2" break="no"/>Sie auch mit <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <persName key="Dula Niklaus"><hi>Dula</hi></persName> in Rük<lb xml:id="p2-l3" break="no"/>sprache<note type="transcript">sic!</note> treten.
 			</p>
-      <p rend="left" xml:id="K_3832_p4">
-                <lb xml:id="p2-l4"/>In ausgezeichneter Hochachtung
+      <p rend="left" xml:id="K_3832_p4"><lb xml:id="p2-l4"/>In ausgezeichneter Hochachtung
 			</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="left" xml:id="K_3832_p5">
-                    <lb xml:id="p2-l5"/>Ihr freundschaftlich ergebener</p>
+        <p rend="left" xml:id="K_3832_p5"><lb xml:id="p2-l5"/>Ihr freundschaftlich ergebener</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_3832_p6">
-                    <lb xml:id="p2-l6"/>J. Zingg.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_3832_p6"><lb xml:id="p2-l6"/>J. Zingg.</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_3832_p7">
-                    <lb xml:id="p2-l7"/>
-          <placeName type="place" key="Luzern (Stadt)">
-                        <hi>Luzern</hi>
-                    </placeName>
-          <date when="1865-10-03">3  <choice>
-                            <abbr>8<hi rend="sup">br</hi> </abbr>
-                            <expan>October</expan>
-                        </choice>1865.</date>
+        <p rend="left" xml:id="K_3832_p7"><lb xml:id="p2-l7"/>
+          <placeName key="Luzern (Stadt)"><hi>Luzern</hi></placeName>
+          <date when="1865-10-03">3  <choice><abbr>8<hi rend="sup">br</hi> </abbr><expan>October</expan></choice>1865.</date>
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,178 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5621" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Luigi Majer an Alfred Escher, Brescia, Sonntag, November 19, 1871</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_006</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Bewerbungen/Empfehlungen/Referenzen</item>
-                        <item>Gotthardtunnel</item>
-                        <item>Tunnelbau</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Majer Luigi" type="sender">Luigi Majer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Brescia</placeName>
-                    <date when="1871-11-19">Sonntag, November 19, 1871</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-08-27" who="MB">transkribiert
-                
-            </change>
-            <change when="2013-08-30" who="KR">intern verifiziert
-                
-            </change>
-            <change when="2014-03-05" who="MLB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-06-10" who="LH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-06-17" who="IB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-06-25" who="IB">Überprüfung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-07-07" who="CH">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-06" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-06" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5621" type="Brief"><teiHeader><fileDesc><titleStmt><title>Luigi Majer an Alfred Escher, Brescia, Sonntag, 19. November 1871</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_006</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Bewerbungen/Empfehlungen/Referenzen</term><term>Gotthardtunnel</term><term>Tunnelbau</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Majer Luigi" type="addressee">Luigi Majer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Brescia</placeName><date when="1871-11-19">19. November 1871</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_5621_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Brescia (I)">Brescia</placeName>
+        <p rend="right" xml:id="K_5621_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Brescia (I)">Brescia</placeName>
           <date when="1871-11-19">19<hi rend="sup">ten</hi> november<note type="transcript">sic!</note> 1871</date>
         </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_5621_p2">
-                    <lb xml:id="p1-l2"/>
+        <p rend="indent" xml:id="K_5621_p2"><lb xml:id="p1-l2"/>
 Hochgeehrter Herr Alfred Escher<lb xml:id="p1-l3"/>
         
-in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> </p>
+in <placeName key="Zürich (Stadt)">Zürich</placeName> </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_5621_p3">
-                <lb xml:id="p1-l4"/>In der Hoffnung dass Euer <choice>
-                        <abbr>Hochgeb.</abbr>
-                        <expan>Hochgeboren</expan>
-                    </choice> mich als Über<lb break="no" xml:id="p1-l5"/>nehmer oder Leiter der Ausführung des <placeName type="place" key="St. Gotthard (Pass)">Gothard</placeName>-Tunnels<note type="transcript">sic!</note> ge<lb break="no" xml:id="p1-l6"/>eignet erachten sollten, habe die Ehre mich Ihnen, beziehungsweise
-        <lb xml:id="p1-l7"/>den damit Betrauten, anzutragen.</p>
-      <p rend="indent" xml:id="K_5621_p4">
-                <lb xml:id="p1-l8"/>Das die wirkliche Arbeit des <placeName type="place" key="Col du Fréjus">Freyus</placeName><!--IB: Mont-Cenis-Tunnel oder auch Fréjus-Tunnel (französisch Tunnel du Mont Cenis bzw. Tunnel du Fréjus)-->
+    </front><body>
+      <p rend="indent" xml:id="K_5621_p3"><lb xml:id="p1-l4"/>In der Hoffnung dass Euer <choice><abbr>Hochgeb.</abbr><expan>Hochgeboren</expan></choice> mich als Über<lb xml:id="p1-l5" break="no"/>nehmer oder Leiter der Ausführung des <placeName key="St. Gotthard (Pass)">Gothard</placeName>-Tunnels<note type="transcript">sic!</note> ge<lb xml:id="p1-l6" break="no"/>eignet erachten sollten, habe die Ehre mich Ihnen, beziehungsweise
+        <lb xml:id="p1-l7" break="no"/>den damit Betrauten, anzutragen.</p>
+      <p rend="indent" xml:id="K_5621_p4"><lb xml:id="p1-l8"/>Das die wirkliche Arbeit des <placeName key="Col du Fréjus">Freyus</placeName><!--IB: Mont-Cenis-Tunnel oder auch Fréjus-Tunnel (französisch Tunnel du Mont Cenis bzw. Tunnel du Fréjus)-->
                 -Tunels<note type="transcript">sic!</note> dirigirende
         
 <lb xml:id="p1-l9"/>Personale, ist mir zugethan und gewiss mehr ergeben als dem
         
-                <lb xml:id="p1-l10"/>Bauunternehmer <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Grattoni Severino">Grattoni</persName> und den dirigirenden Ingenieuren
+                <lb xml:id="p1-l10"/>Bauunternehmer <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Grattoni Severino">Grattoni</persName> und den dirigirenden Ingenieuren
         
-                <lb xml:id="p1-l11"/>
-                <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Borelli Bartolomeo">Borelli</persName> und <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Copello Enrico">Copello</persName>, und ich kann darauf rechnen, dass mir
+                <lb xml:id="p1-l11"/><choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Borelli Bartolomeo">Borelli</persName> und <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Copello Enrico">Copello</persName>, und ich kann darauf rechnen, dass mir
         
-<lb xml:id="p1-l12"/>Dasselbe folgen wird – In diesen Tagen habe die, mit einigen einzu<lb break="no" xml:id="p1-l13"/>führenden Modificazionen<note type="transcript">sic!</note>, sehr praktische Bohrmaschiene<note type="transcript">sic!</note> des
+<lb xml:id="p1-l12"/>Dasselbe folgen wird – In diesen Tagen habe die, mit einigen einzu<lb xml:id="p1-l13" break="no"/>führenden Modificazionen<note type="transcript">sic!</note>, sehr praktische Bohrmaschiene<note type="transcript">sic!</note> des
         
-                <lb xml:id="p1-l14"/>Burleigh untersucht und stehe mit <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Brown Th.">Th. Brown</persName> in bezüglicher
+                <lb xml:id="p1-l14" break="no"/>Burleigh untersucht und stehe mit <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Brown Th.">Th. Brown</persName> in bezüglicher
         
-<lb xml:id="p1-l15"/>Korrespondenz.</p>
-      <p rend="indent" xml:id="K_5621_p5">
-                <lb xml:id="p1-l16"/>
-    Ich kann persöhnlich<note type="transcript">sic!</note> den zusammengebrachten 45 <choice>
-                        <abbr>Mil.</abbr>
-                        <expan>Million</expan>
-                    </choice> <lb xml:id="p1-l17"/>des <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Grattoni Severino">Grattoni</persName>, kaum den hundertsten Theil entgegenstellen, da<lb break="no" xml:id="p1-l18"/>für aber einen ungelobten und ungetadelten Ruf als alter Ingenieur
+<lb xml:id="p1-l15" break="no"/>Korrespondenz.</p>
+      <p rend="indent" xml:id="K_5621_p5"><lb xml:id="p1-l16"/>
+    Ich kann persöhnlich<note type="transcript">sic!</note> den zusammengebrachten 45 <choice><abbr>Mil.</abbr><expan>Million</expan></choice> <lb xml:id="p1-l17"/>des <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Grattoni Severino">Grattoni</persName>, kaum den hundertsten Theil entgegenstellen, da<lb xml:id="p1-l18" break="no"/>für aber einen ungelobten und ungetadelten Ruf als alter Ingenieur
         
-<lb xml:id="p1-l19"/>und Bauunternehmer und geniesse die hochbeehrende Achtung des 
+<lb xml:id="p1-l19" break="no"/>und Bauunternehmer und geniesse die hochbeehrende Achtung des 
         
-<lb xml:id="p1-l20"/>
-                <choice>
-                        <abbr>H<hi rend="sup">rn</hi> </abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Brot Charles-François">C. F. Brot</persName> in <placeName type="place" key="Mailand (I)">Mailand</placeName>.</p>
-      <p rend="indent" xml:id="K_5621_p6">
-                <lb xml:id="p1-l21"/>Sollten daher, hochgeehrter Herr, mich Ihrer bezüglichen
+<lb xml:id="p1-l20" break="no"/><choice><abbr>H<hi rend="sup">rn</hi> </abbr><expan>Herrn</expan></choice> <persName key="Brot Charles-François">C. F. Brot</persName> in <placeName key="Mailand (I)">Mailand</placeName>.</p>
+      <p rend="indent" xml:id="K_5621_p6"><lb xml:id="p1-l21"/>Sollten daher, hochgeehrter Herr, mich Ihrer bezüglichen
         
-<lb xml:id="p1-l22"/>Fürsprache bei den <placeName type="place" key="Deutsches Reich">deutschen</placeName> Bauübernehmenden nicht unwerth
+<lb xml:id="p1-l22"/>Fürsprache bei den <placeName key="Deutsches Reich">deutschen</placeName> Bauübernehmenden nicht unwerth
         
 <lb xml:id="p1-l23"/>halten, so bitte mir gefälligst hierüber schreiben zu lassen.</p>
-      <p rend="indent" xml:id="K_5621_p7">
-                <lb xml:id="p1-l24"/>Vom <date when="1871-11-23">23<hi rend="sup">ten</hi> <choice>
-                            <abbr>d. M.</abbr>
-                            <expan>dieses Monats</expan>
-                        </choice> </date> bis <date when="1871-12-20">20<hi rend="sup">ten</hi> <choice>
-                            <abbr>10<hi rend="sup">br</hi> </abbr>
-                            <expan>Dezember / December</expan>
-                        </choice>
-                </date> werde in <placeName type="place" key="Wien (A)">Wien</placeName>, Hotel König von
+      <p rend="indent" xml:id="K_5621_p7"><lb xml:id="p1-l24"/>Vom <date when="1871-11-23">23<hi rend="sup">ten</hi> <choice><abbr>d. M.</abbr><expan>dieses Monats</expan></choice> </date> bis <date when="1871-12-20">20<hi rend="sup">ten</hi> <choice><abbr>10<hi rend="sup">br</hi> </abbr><expan>Dezember / December</expan></choice></date> werde in <placeName key="Wien (A)">Wien</placeName>, Hotel König von
         
-                <lb xml:id="p1-l25"/>Ungarn sein, und werde mich auch alldort bei <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Tschudi Johann Jakob">v. Tschudi</persName> anmelden.</p>
-    </div>
-        </body>
-    <back>
+                <lb xml:id="p1-l25"/>Ungarn sein, und werde mich auch alldort bei <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Tschudi Johann Jakob">v. Tschudi</persName> anmelden.</p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_5621_p8">
-                    <lb xml:id="p1-l26"/>Mit ergebenster Hochachtung</p>
+        <p rend="indent" xml:id="K_5621_p8"><lb xml:id="p1-l26"/>Mit ergebenster Hochachtung</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_5621_p9">
-                    <lb xml:id="p1-l27"/>
-          <choice>
-                        <abbr>Ing<hi rend="sup">re</hi> </abbr>
-                        <expan>Ingegnere (Ingenieur)</expan>
-                    </choice> Luigi Majer</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_5621_p9"><lb xml:id="p1-l27"/>
+          <choice><abbr>Ing<hi rend="sup">re</hi> </abbr><expan>Ingegnere (Ingenieur)</expan></choice> Luigi Majer</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,354 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0268" n="60" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Blumer an Alfred Escher, Glarus, Sonntag, Juli 17, 1842</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>FA Tschudi</institution>
-                        <idno type="original"/>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Universitäre Studien</item>
-                        <item>Familiäres und Persönliches</item>
-                        <item>Feiern und Anlässe</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Blumer Johann Jakob" type="sender">Johann Jakob Blumer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Glarus</placeName>
-                    <date when="1842-07-17">Sonntag, Juli 17, 1842</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-12-21" who="MW"> transkribiert
-                
-            </change>
-            <change when="November 2008" who="swissedit, UR">automatisch von Word nach XML konvertiert
-                
-            </change>
-            <change when="2009-05-28" who="BF">provisorisch kommentiert
-                
-            </change>
-            <change when="2009-07-07" who="BF">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2009-07-22" who="BF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2009-08-27" who="BF">Index für Ortsregister gesetzt
-                
-            </change>
-            <change when="2009-11-18" who="BF">Umsetzung Lektorat JJ / Überarbeitung Kommentare
-                
-            </change>
-            <change when="2009-11-26" who="BF">Korrekturen 2 Haberthür übertragen
-                
-            </change>
-            <change when="2011-04-08" who="CF">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-06-21" who="AH">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-06-27" who="DD">e-Edition: Auszeichnung 1 verifiziert
-                
-            </change>
-            <change when="2011-07-19" who="NH"> e-Edition: Auszeichnung Themen umgesetzt
-
-                
-            </change>
-            <change when="2011-07-25" who="BP">e-Edition: Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2011-07-28" who="AH">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2015-04-01" who="CA">e-Edition: Transkriptionsverifizierung Seiterle 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0268" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Blumer an Alfred Escher, Glarus, Sonntag, 17. Juli 1842</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>FA Tschudi</institution></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Universitäre Studien</term><term>Familiäres und Persönliches</term><term>Feiern und Anlässe</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term>Jugend- und Studentenzeit</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Blumer Johann Jakob" type="addressee">Johann Jakob Blumer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Glarus</placeName><date when="1842-07-17">17. Juli 1842</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_0268_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1842-07-17">17. Juli 1842</date>.</p>
+        <p rend="right" xml:id="K_0268_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1842-07-17">17. Juli 1842</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_0268_p2">
-                    <lb xml:id="p1-l2"/>Mein theurer Escher!</p>
+        <p rend="left" xml:id="K_0268_p2"><lb xml:id="p1-l2"/>Mein theurer Escher!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_0268_p3">
-                <lb xml:id="p1-l3"/>Meinen herzlichsten Dank für <seg type="com">Deinen lieben Brief<note xml:id="K_0268_c1">Brief nicht ermittelt.</note>
-                </seg>, durch welchen Du mir<lb xml:id="p1-l4"/>
-die mir so erfreuliche, wenn auch nicht unerwartete Nachricht von dem glücklichsten Er<lb break="no" xml:id="p1-l5"/>folge 
-Deiner <seg type="com">Prüfung<note xml:id="K_0268_c2">Escher hatte das schriftliche und das mündliche Doktorexamen abgelegt, letzteres am <date when="1842-07-12">12. Juli</date>, und mit summa cum laude bestanden. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Gagliardi, Escher</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 51–52.</note>
-                </seg> so bald mitgetheilt hast. Ich würde denselben unmittelbar nach<lb xml:id="p1-l6"/>
-dem Empfange beantwortet haben, wenn ich nicht gerade noch dringende Geschäfte vor mir<lb xml:id="p1-l7"/>
-gehabt hätte, da ich den folgenden Tag nach <placeName type="place" key="Chur">Chur</placeName> abreisen wollte; jetzt, da ich von da<lb xml:id="p1-l8"/>
-wieder hier angelangt bin, denke ich, Du werdest von Deiner kleinen Exkursion auch<lb xml:id="p1-l9"/>
-wieder zurückgekehrt seyn oder doch nächstens zurückkehren. Ich säume daher nicht länger,<lb xml:id="p1-l10"/>
-Dir zu Deiner Erhöhung meinen innigsten Glückwunsch darzubringen, wobei ich nament<lb break="no" xml:id="p1-l11"/>lich
- auch <seg type="ref">
-                    <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">
-                        <persName type="person" key="Escher (vom Glas) Heinrich">Deiner Eltern</persName>
-                    </persName>
-                    <ref type="kbp">→ Lydia Escher-Zollikofer (von Altenklingen)</ref>
-                    <ref type="kbp">→ Heinrich Escher (vom Glas)</ref>
-                </seg> gedenke, für welche dieses Ereigniß besonders erfreulich <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p1-l12"/>
-beruhigend seyn mußte. Es ist immer schön, wenn man einen solchen Grad durch eigne<lb xml:id="p1-l13"/>
-Anstrengung <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Hingebung für die Wissenschaft nach dem einstimmigen Urtheile der<lb xml:id="p1-l14"/>
-kompetentesten Richter erworben hat; eine Wahrheit, die ich früher nicht immer<lb xml:id="p1-l15"/>
-hinlänglich erkannte. Für Dich war freilich, <seg type="com">da Du Dozent zu werden beabsichtigst<note xml:id="K_0268_c3">Escher habilitierte sich auf das Sommersemester 1844 hin als Privatdozent an der juristischen Fakultät der Universität <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>. Er bot bis 1847 Vorlesungen an. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Schmid, Escher</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 176–179; <ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 452–453, 964.</note>
-                </seg>, die<lb xml:id="p1-l16"/>
-Erreichung der Doktorwürde beinahe unerläßlich; ich bin aber jetzt der Ansicht, daß<lb xml:id="p1-l17"/>
-überhaupt Jeder, der auf das Prädikat eines wissenschaftlichen Juristen Anspruch machen<lb xml:id="p1-l18"/>
-will, sich um dieselbe bemühen sollte. Ich bereue daher auch, daß ich dies unterlassen<lb xml:id="p1-l19"/>
-habe, nicht erst etwa seit dem Du nun Deine Prüfung bestanden hast, sondern schon<lb xml:id="p1-l20"/>
-seit längrer Zeit, besonders wenn ich bedenke, wie sehr, wenn ich mit meiner littera<lb break="no" xml:id="p1-l21"/>rischen <note type="transcript">sic!</note>
-Arbeit hervortreten werde, der Doktortitel, der zuletzt doch mehr als ein blo<lb break="no" xml:id="p1-l22"/>ßer 
-Titel ist, meinem unbekannten Namen zur Empfehlung gereichen würde, wie<lb xml:id="p1-l23"/>
-nützlich er mir schon jetzt oft seyn könnte, da ich mit demselben die Beihülfe andrer Ge<lb break="no" xml:id="p1-l24"/>lehrter 
-für meine Arbeit <del>um so</del>
-                    <add>viel</add>
-                    <note type="transcript">nachträgliche Korrektur</note> eher in Anspruch nehmen dürfte. Es ist dies ein<lb xml:id="p1-l25"/>
-sehr wichtiger Gesichtspunkt, den ich früher, wo ich nur die praktische, für mich minder<lb xml:id="p1-l26"/>
-bedeutende Seite der Sache in's Auge faßte, ganz übersehen habe. – Das <placeName type="place" key="Deutschland">deutsch</placeName>recht<lb break="no" xml:id="p1-l27"/>liche 
-Thema, das Dir <seg type="com">
-                    <persName type="person" key="Bluntschli Johann Caspar">Bluntschli</persName>
-                    <note xml:id="K_0268_c4">
-                        <persName type="person" key="Bluntschli Johann Caspar">Johann Caspar Bluntschli</persName> (1808–1881), Grossrat und Regierungsrat (<placeName type="place" key="Zürich">ZH</placeName>), ordentlicher Professor für <placeName type="place" key="Römisches Reich">römisches</placeName>, <placeName type="place" key="Deutschland">deutsches</placeName> und schweizerisches Recht an der Universität <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.</note>
-                </seg> gegeben hat, war sehr intressant <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>, wie ich glaube, <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-nicht schwer. Dagegen war für das staatsrechtliche Deine Anmerkung wirklich nicht überflüssig; wenig<lb break="no" xml:id="p2-l2"/>stens
-        würde eine auch nur einigermaßen gute Beantwortung dieser Frage ein so gründliches <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p2-l3"/>
-umfassendes Studium der Geschichte <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Politik erfordern, wie es von Dir wohl nicht vorausgesetzt<lb xml:id="p2-l4"/>
-werden konnte. Auch die <seg type="com">
-                    <persName type="person" key="Geib Gustav">Geibischen</persName>
-                    <note xml:id="K_0268_c5">
-                        <persName type="person" key="Geib Gustav">Gustav Geib</persName> (1808–1864), ordentlicher Professor für Strafrecht an der Universität <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.</note>
-                </seg> Fragen im mündlichen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> schriftlichen Examen setzten wenigstens<lb xml:id="p2-l5"/>
-eine sehr solide Beschäftigung mit dem Criminalrechte <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Prozesse voraus.</p>
-      <p rend="indent" xml:id="K_0268_p4">
-                <lb xml:id="p2-l6"/>Ich war, als ich von <placeName type="place" key="Baden (AG)">Baden</placeName> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> nach Hause zurückkam, gar nicht Willens das<lb xml:id="p2-l7"/>
-Schützenfest in <placeName type="place" key="Chur">Chur</placeName> zu besuchen, theils weil ich eben schon eine, wenn auch nur kurze Erholung ge<lb break="no" xml:id="p2-l8"/>nossen
- hatte, theils weil überhaupt meine gerade vorherrschende geistige Stimmung mich solchen<lb xml:id="p2-l9"/>
-Volksfesten <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> besonders den dabei immer wiederkehrenden Phrasen eher abgeneigt machte.<lb xml:id="p2-l10"/>
-Indessen ließ ich mich doch theils durch die Einladungen meiner hiesigen Bekannten, theils durch<lb xml:id="p2-l11"/>
-die Betrachtung, daß ein kurzes Verweilen an diesem eidgenössischen Feste immerhin intressant<lb xml:id="p2-l12"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> bei der geringen Entfernung wohl der Mühe werth seyn müsse, ziemlich leicht dazu bewegen,<lb xml:id="p2-l13"/>
-meinen Entschluß abzuändern. So bin ich nun wirklich 1½ Tage in <placeName type="place" key="Chur">Chur</placeName> gewesen, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> bereue dies<lb xml:id="p2-l14"/>
-jetzt durchaus nicht. Vorerst freute es mich besonders, meinen lieben Freund <seg type="ref">
-                    <persName type="person" key="Aepli Arnold Otto">Aepli</persName>
-                    <ref type="kbp">→ Arnold Otto Aepli</ref>
-                </seg>, den ich nach<lb xml:id="p2-l15"/>
-einigen Tagen auch noch hier erwarte, ganz unerwartet dort anzutreffen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> nebenbei andre<lb xml:id="p2-l16"/>
-alte Bekanntschaften mit Altersgenossen (von <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> waren nur <seg type="com">
-                    <persName type="person" key="Honegger Caspar">Honegger</persName>
-                    <note xml:id="K_0268_c6">
-                        <persName type="person" key="Honegger Caspar">Caspar Honegger</persName> (1816–1880), von <placeName type="place" key="Dürnten">Dürnten</placeName>, Jurist.</note>
-                </seg> – <seg type="com">
-                    <hi>semper idem</hi>
-                    <note xml:id="K_0268_c7">Semper idem (<choice>
-                                <abbr>lat.</abbr>
-                                <expan>lateinisch</expan>
-                            </choice>): immer derselbe.</note>
-                </seg> – <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p2-l17"/>
-                    <seg type="com">
-                    <persName type="person" key="Schweizer Eduard">Eduard Schweizer</persName>
-                    <note xml:id="K_0268_c8">
-                        <persName type="person" key="Schweizer Eduard">Eduard Schweizer</persName> (1818–1860), Privatdozent für Chemie an der Universität und Chemielehrer an der Industrieschule <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.</note>
-                </seg> da) zu erneuern, auch einige neue anzuknüpfen. Dann hat mich aber auch das<lb xml:id="p2-l18"/>
-Fest, so wenig mich auch die meisten einzelnen Reden gerade erbauten, als Ganzes genommen<lb xml:id="p2-l19"/>
-doch recht sehr erfreut. In <placeName type="place" key="Chur">Chur</placeName> war nun gerade die Schießübung als solche weit mehr Hauptsache,<lb xml:id="p2-l20"/>
-als an andern Orten, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> gerade das Wesentliche <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Charakteristische eines <hi rend="underline">Schützen</hi>festes trägt<lb xml:id="p2-l21"/>
-meines Erachtens am meisten dazu bei, dem Feste eine ächt <note type="transcript">sic!</note> nationale Farbe zu geben,<lb xml:id="p2-l22"/>
-wie es sie unter einem andern Volke, auch abgesehen von politischen Verschiedenheiten, nim<lb break="no" xml:id="p2-l23"/>mermehr
- erhalten könnte. Zugleich entwickelt sich in dem guten Schützen, der sein Schwarz zu<lb xml:id="p2-l24"/>
-treffen weiß, doch immer ein thatkräftiges Selbstgefühl, welches ihn heiter <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> froh <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> besonders<lb xml:id="p2-l25"/>
-empfänglich dafür macht, sich mit Freunden aus andern Kantonen innig zu verbinden <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p2-l26"/>
-sich als Glied einer größern Gemeinschaft, als ihm sein enger «Staat» zu gewähren vermag,<lb xml:id="p2-l27"/>
-betrachten zu lernen. Dieses ist dann auch der das Fest durchziehende Grundzug, wenn er<lb xml:id="p2-l28"/>
-schon nicht von allen Rednern, die demselben Worte leihen sollten, erkannt wird, vielmehr<lb xml:id="p2-l29"/>
-diese oft von einem ganz andern Geiste beseelt sind, wenn sie die Bühne besteigen. Auffal<lb break="no" xml:id="p2-l30"/>lend war mir auch der Indifferentismus, der von dem Volke gegen die meisten Reden da<pb n="3"/>
-                    <lb xml:id="p3-l1"/>durch 
-an den Tag gelegt wurde, daß es in seiner Mehrzahl denselben gar kein Gehör schenkte,<lb xml:id="p3-l2"/>
-vielmehr während derselben aß <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> trank, schwatzte <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> sich umhertrieb. Indessen ist diese Erschei<lb break="no" xml:id="p3-l3"/>nung
- nicht unbegreiflich, wenn man bedenkt, daß <choice>
-                        <abbr>z. B.</abbr>
-                        <expan>zum Beispiel</expan>
-                    </choice> schon seit <add>10</add> Jahren einem bessern Bunde<lb xml:id="p3-l4"/>
-(<choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> gewöhnlich, ohne zu sagen, wie derselbe erreicht werden soll) Toaste gebracht werden, ohne daß<lb xml:id="p3-l5"/>
+    </front><body>
+      <p rend="indent" xml:id="K_0268_p3"><lb xml:id="p1-l3"/>Meinen herzlichsten Dank für Deinen lieben Brief<note type="com" xml:id="K_0268_c1">Brief nicht ermittelt.</note>, durch welchen Du mir<lb xml:id="p1-l4"/>
+die mir so erfreuliche, wenn auch nicht unerwartete Nachricht von dem glücklichsten Er<lb xml:id="p1-l5" break="no"/>folge 
+Deiner Prüfung<note type="com" xml:id="K_0268_c2">Escher hatte das schriftliche und das mündliche Doktorexamen abgelegt, letzteres am <date when="1842-07-12">12. Juli</date>, und mit summa cum laude bestanden. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Gagliardi, Escher</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 51–52.</note> so bald mitgetheilt hast. Ich würde denselben unmittelbar nach<lb xml:id="p1-l6" break="no"/>
+dem Empfange beantwortet haben, wenn ich nicht gerade noch dringende Geschäfte vor mir<lb xml:id="p1-l7" break="no"/>
+gehabt hätte, da ich den folgenden Tag nach <placeName key="Chur">Chur</placeName> abreisen wollte; jetzt, da ich von da<lb xml:id="p1-l8" break="no"/>
+wieder hier angelangt bin, denke ich, Du werdest von Deiner kleinen Exkursion auch<lb xml:id="p1-l9" break="no"/>
+wieder zurückgekehrt seyn oder doch nächstens zurückkehren. Ich säume daher nicht länger,<lb xml:id="p1-l10" break="no"/>
+Dir zu Deiner Erhöhung meinen innigsten Glückwunsch darzubringen, wobei ich nament<lb xml:id="p1-l11" break="no"/>lich
+ auch <rs><persName key="Escher-Zollikofer (von Altenklingen) Lydia"><persName key="Escher (vom Glas) Heinrich">Deiner Eltern</persName></persName></rs> gedenke, für welche dieses Ereigniß besonders erfreulich <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p1-l12" break="no"/>
+beruhigend seyn mußte. Es ist immer schön, wenn man einen solchen Grad durch eigne<lb xml:id="p1-l13" break="no"/>
+Anstrengung <choice><abbr>u.</abbr><expan>und</expan></choice> Hingebung für die Wissenschaft nach dem einstimmigen Urtheile der<lb xml:id="p1-l14" break="no"/>
+kompetentesten Richter erworben hat; eine Wahrheit, die ich früher nicht immer<lb xml:id="p1-l15" break="no"/>
+hinlänglich erkannte. Für Dich war freilich, da Du Dozent zu werden beabsichtigst<note type="com" xml:id="K_0268_c3">Escher habilitierte sich auf das Sommersemester 1844 hin als Privatdozent an der juristischen Fakultät der Universität <placeName key="Zürich (Stadt)">Zürich</placeName>. Er bot bis 1847 Vorlesungen an. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Schmid, Escher</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 176–179; <ref type="lit">Gagliardi/Nabholz/Strohl, Universität Zürich</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 452–453, 964.</note>, die<lb xml:id="p1-l16" break="no"/>
+Erreichung der Doktorwürde beinahe unerläßlich; ich bin aber jetzt der Ansicht, daß<lb xml:id="p1-l17" break="no"/>
+überhaupt Jeder, der auf das Prädikat eines wissenschaftlichen Juristen Anspruch machen<lb xml:id="p1-l18" break="no"/>
+will, sich um dieselbe bemühen sollte. Ich bereue daher auch, daß ich dies unterlassen<lb xml:id="p1-l19" break="no"/>
+habe, nicht erst etwa seit dem Du nun Deine Prüfung bestanden hast, sondern schon<lb xml:id="p1-l20" break="no"/>
+seit längrer Zeit, besonders wenn ich bedenke, wie sehr, wenn ich mit meiner littera<lb xml:id="p1-l21" break="no"/>rischen <note type="transcript">sic!</note>
+Arbeit hervortreten werde, der Doktortitel, der zuletzt doch mehr als ein blo<lb xml:id="p1-l22" break="no"/>ßer 
+Titel ist, meinem unbekannten Namen zur Empfehlung gereichen würde, wie<lb xml:id="p1-l23" break="no"/>
+nützlich er mir schon jetzt oft seyn könnte, da ich mit demselben die Beihülfe andrer Ge<lb xml:id="p1-l24" break="no"/>lehrter 
+für meine Arbeit <del>um so</del> <add>viel</add> <note type="transcript">nachträgliche Korrektur</note> eher in Anspruch nehmen dürfte. Es ist dies ein<lb xml:id="p1-l25" break="no"/>
+sehr wichtiger Gesichtspunkt, den ich früher, wo ich nur die praktische, für mich minder<lb xml:id="p1-l26" break="no"/>
+bedeutende Seite der Sache in's Auge faßte, ganz übersehen habe. – Das <placeName key="Deutschland">deutsch</placeName>recht<lb xml:id="p1-l27" break="no"/>liche 
+Thema, das Dir <persName key="Bluntschli Johann Caspar">Bluntschli</persName><note type="com" xml:id="K_0268_c4"><persName key="Bluntschli Johann Caspar">Johann Caspar Bluntschli</persName> (1808–1881), Grossrat und Regierungsrat (<placeName key="Zürich">ZH</placeName>), ordentlicher Professor für <placeName key="Römisches Reich">römisches</placeName>, <placeName key="Deutschland">deutsches</placeName> und schweizerisches Recht an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName>.</note> gegeben hat, war sehr intressant <choice><abbr>u.</abbr><expan>und</expan></choice>, wie ich glaube, <pb n="2"/><lb xml:id="p2-l1" break="no"/>
+nicht schwer. Dagegen war für das staatsrechtliche Deine Anmerkung wirklich nicht überflüssig; wenig<lb xml:id="p2-l2" break="no"/>stens
+        würde eine auch nur einigermaßen gute Beantwortung dieser Frage ein so gründliches <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p2-l3" break="no"/>
+umfassendes Studium der Geschichte <choice><abbr>u.</abbr><expan>und</expan></choice> Politik erfordern, wie es von Dir wohl nicht vorausgesetzt<lb xml:id="p2-l4" break="no"/>
+werden konnte. Auch die <persName key="Geib Gustav">Geibischen</persName><note type="com" xml:id="K_0268_c5"><persName key="Geib Gustav">Gustav Geib</persName> (1808–1864), ordentlicher Professor für Strafrecht an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName>.</note> Fragen im mündlichen <choice><abbr>u.</abbr><expan>und</expan></choice> schriftlichen Examen setzten wenigstens<lb xml:id="p2-l5" break="no"/>
+eine sehr solide Beschäftigung mit dem Criminalrechte <choice><abbr>u.</abbr><expan>und</expan></choice> Prozesse voraus.</p>
+      <p rend="indent" xml:id="K_0268_p4"><lb xml:id="p2-l6"/>Ich war, als ich von <placeName key="Baden (AG)">Baden</placeName> <choice><abbr>u.</abbr><expan>und</expan></choice> <placeName key="Zürich (Stadt)">Zürich</placeName> nach Hause zurückkam, gar nicht Willens das<lb xml:id="p2-l7"/>
+Schützenfest in <placeName key="Chur">Chur</placeName> zu besuchen, theils weil ich eben schon eine, wenn auch nur kurze Erholung ge<lb xml:id="p2-l8" break="no"/>nossen
+ hatte, theils weil überhaupt meine gerade vorherrschende geistige Stimmung mich solchen<lb xml:id="p2-l9" break="no"/>
+Volksfesten <choice><abbr>u.</abbr><expan>und</expan></choice> besonders den dabei immer wiederkehrenden Phrasen eher abgeneigt machte.<lb xml:id="p2-l10" break="no"/>
+Indessen ließ ich mich doch theils durch die Einladungen meiner hiesigen Bekannten, theils durch<lb xml:id="p2-l11" break="no"/>
+die Betrachtung, daß ein kurzes Verweilen an diesem eidgenössischen Feste immerhin intressant<lb xml:id="p2-l12" break="no"/><choice><abbr>u.</abbr><expan>und</expan></choice> bei der geringen Entfernung wohl der Mühe werth seyn müsse, ziemlich leicht dazu bewegen,<lb xml:id="p2-l13" break="no"/>
+meinen Entschluß abzuändern. So bin ich nun wirklich 1½ Tage in <placeName key="Chur">Chur</placeName> gewesen, <choice><abbr>u.</abbr><expan>und</expan></choice> bereue dies<lb xml:id="p2-l14" break="no"/>
+jetzt durchaus nicht. Vorerst freute es mich besonders, meinen lieben Freund <rs><persName key="Aepli Arnold Otto">Aepli</persName></rs>, den ich nach<lb xml:id="p2-l15" break="no"/>
+einigen Tagen auch noch hier erwarte, ganz unerwartet dort anzutreffen <choice><abbr>u.</abbr><expan>und</expan></choice> nebenbei andre<lb xml:id="p2-l16" break="no"/>
+alte Bekanntschaften mit Altersgenossen (von <placeName key="Zürich (Stadt)">Zürich</placeName> waren nur <persName key="Honegger Caspar">Honegger</persName><note type="com" xml:id="K_0268_c6"><persName key="Honegger Caspar">Caspar Honegger</persName> (1816–1880), von <placeName key="Dürnten">Dürnten</placeName>, Jurist.</note> – <hi>semper idem</hi><note type="com" xml:id="K_0268_c7">Semper idem (<choice><abbr>lat.</abbr><expan>lateinisch</expan></choice>): immer derselbe.</note> – <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p2-l17" break="no"/> <persName key="Schweizer Eduard">Eduard Schweizer</persName><note type="com" xml:id="K_0268_c8"><persName key="Schweizer Eduard">Eduard Schweizer</persName> (1818–1860), Privatdozent für Chemie an der Universität und Chemielehrer an der Industrieschule <placeName key="Zürich (Stadt)">Zürich</placeName>.</note> da) zu erneuern, auch einige neue anzuknüpfen. Dann hat mich aber auch das<lb xml:id="p2-l18" break="no"/>
+Fest, so wenig mich auch die meisten einzelnen Reden gerade erbauten, als Ganzes genommen<lb xml:id="p2-l19" break="no"/>
+doch recht sehr erfreut. In <placeName key="Chur">Chur</placeName> war nun gerade die Schießübung als solche weit mehr Hauptsache,<lb xml:id="p2-l20" break="no"/>
+als an andern Orten, <choice><abbr>u.</abbr><expan>und</expan></choice> gerade das Wesentliche <choice><abbr>u.</abbr><expan>und</expan></choice> Charakteristische eines <hi rend="underline">Schützen</hi>festes trägt<lb xml:id="p2-l21" break="no"/>
+meines Erachtens am meisten dazu bei, dem Feste eine ächt <note type="transcript">sic!</note> nationale Farbe zu geben,<lb xml:id="p2-l22" break="no"/>
+wie es sie unter einem andern Volke, auch abgesehen von politischen Verschiedenheiten, nim<lb xml:id="p2-l23" break="no"/>mermehr
+ erhalten könnte. Zugleich entwickelt sich in dem guten Schützen, der sein Schwarz zu<lb xml:id="p2-l24" break="no"/>
+treffen weiß, doch immer ein thatkräftiges Selbstgefühl, welches ihn heiter <choice><abbr>u.</abbr><expan>und</expan></choice> froh <choice><abbr>u.</abbr><expan>und</expan></choice> besonders<lb xml:id="p2-l25" break="no"/>
+empfänglich dafür macht, sich mit Freunden aus andern Kantonen innig zu verbinden <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p2-l26" break="no"/>
+sich als Glied einer größern Gemeinschaft, als ihm sein enger «Staat» zu gewähren vermag,<lb xml:id="p2-l27" break="no"/>
+betrachten zu lernen. Dieses ist dann auch der das Fest durchziehende Grundzug, wenn er<lb xml:id="p2-l28" break="no"/>
+schon nicht von allen Rednern, die demselben Worte leihen sollten, erkannt wird, vielmehr<lb xml:id="p2-l29" break="no"/>
+diese oft von einem ganz andern Geiste beseelt sind, wenn sie die Bühne besteigen. Auffal<lb xml:id="p2-l30" break="no"/>lend war mir auch der Indifferentismus, der von dem Volke gegen die meisten Reden da<pb n="3"/><lb xml:id="p3-l1" break="no"/>durch 
+an den Tag gelegt wurde, daß es in seiner Mehrzahl denselben gar kein Gehör schenkte,<lb xml:id="p3-l2" break="no"/>
+vielmehr während derselben aß <choice><abbr>u.</abbr><expan>und</expan></choice> trank, schwatzte <choice><abbr>u.</abbr><expan>und</expan></choice> sich umhertrieb. Indessen ist diese Erschei<lb xml:id="p3-l3" break="no"/>nung
+ nicht unbegreiflich, wenn man bedenkt, daß <choice><abbr>z. B.</abbr><expan>zum Beispiel</expan></choice> schon seit <add>10</add> Jahren einem bessern Bunde<lb xml:id="p3-l4" break="no"/>
+(<choice><abbr>u.</abbr><expan>und</expan></choice> gewöhnlich, ohne zu sagen, wie derselbe erreicht werden soll) Toaste gebracht werden, ohne daß<lb xml:id="p3-l5" break="no"/>
 auch nur die Aussichten, einen solchen bekommen<note type="transcript">sic!</note>, sich gebessert hätten.</p>
-      <p rend="indent" xml:id="K_0268_p5">
-                <lb xml:id="p3-l6"/>
-        <persName type="person" key="Aepli Arnold Otto">Aepli</persName> macht gegenwärtig eine Fußreise durch die Thäler <placeName type="place" key="Graubünden">Graubündtens</placeName>
-                <note type="transcript">sic!</note>; ich würde<lb xml:id="p3-l7"/>
-ihm auf diesem intressanten <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> mir noch ganz unbekannten Wege gerne gefolgt seyn, wenn ich nicht<lb xml:id="p3-l8"/>
-einerseits schon früher von Hause abwesend gewesen wäre, anderseits Dir versprochen hätte, <seg type="ref">Dich
-  noch <lb xml:id="p3-l9"/> in <placeName type="place" key="Appenzell (Bezirk)">Appenzell</placeName> zu besuchen.<ref type="letter" target="K_0271"><!--→ Nr. 61--></ref>
-                </seg> Dieses Versprechen will ich dann aber auch, so Gott will, mit möglichster<lb xml:id="p3-l10"/>
-Muße erfüllen, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ich freue mich unendlich auf die Tage, die wir dort beisammen verleben werden,<lb xml:id="p3-l11"/>
-da der ungünstige Zufall es gewollt hat, daß ich bei meiner letzten Durchreise durch <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> <lb xml:id="p3-l12"/>
+      <p rend="indent" xml:id="K_0268_p5"><lb xml:id="p3-l6"/>
+        <persName key="Aepli Arnold Otto">Aepli</persName> macht gegenwärtig eine Fußreise durch die Thäler <placeName key="Graubünden">Graubündtens</placeName><note type="transcript">sic!</note>; ich würde<lb xml:id="p3-l7"/>
+ihm auf diesem intressanten <choice><abbr>u.</abbr><expan>und</expan></choice> mir noch ganz unbekannten Wege gerne gefolgt seyn, wenn ich nicht<lb xml:id="p3-l8"/>
+einerseits schon früher von Hause abwesend gewesen wäre, anderseits Dir versprochen hätte, <rs>Dich
+  noch <lb xml:id="p3-l9"/> in <placeName key="Appenzell (Bezirk)">Appenzell</placeName> zu besuchen.<ref type="letter" target="K_0271"><!--→ Nr. 61--></ref></rs> Dieses Versprechen will ich dann aber auch, so Gott will, mit möglichster<lb xml:id="p3-l10"/>
+Muße erfüllen, <choice><abbr>u.</abbr><expan>und</expan></choice> ich freue mich unendlich auf die Tage, die wir dort beisammen verleben werden,<lb xml:id="p3-l11"/>
+da der ungünstige Zufall es gewollt hat, daß ich bei meiner letzten Durchreise durch <placeName key="Zürich (Stadt)">Zürich</placeName> <lb xml:id="p3-l12"/>
 Deinen Umgang fast gar nicht genießen konnte.</p>
-      <p rend="indent" xml:id="K_0268_p6">
-                <lb xml:id="p3-l13"/>Empfehle mich bestens Deinen <persName type="person" key="Escher (vom Glas) Heinrich">
-                    <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Eltern</persName>
-                </persName> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> grüße mir meine <placeName type="place" key="Zürich (Stadt)">Zürcher</placeName> Freunde, be<lb break="no" xml:id="p3-l14"/>sonders
- auch <seg type="com">
-                    <persName type="person" key="Brändli Benjamin">Brändli</persName>
-                    <note xml:id="K_0268_c9">
-                        <persName type="person" key="Brändli Benjamin">Benjamin Brändli</persName> (1817–1855), von <placeName type="place" key="Wädenswil">Wädenswil</placeName>, Rechtsstudent. <ref type="letter" target="K_0153_c10"><!-- → Nr. 19  (Kommentar)--></ref>.</note>
-                </seg>, der, wie ich gehört habe, jetzt zurückgekehrt seyn wird. In der Hoffnung,<lb xml:id="p3-l15"/>
+      <p rend="indent" xml:id="K_0268_p6"><lb xml:id="p3-l13"/>Empfehle mich bestens Deinen <persName key="Escher (vom Glas) Heinrich"><persName key="Escher-Zollikofer (von Altenklingen) Lydia">Eltern</persName></persName> <choice><abbr>u.</abbr><expan>und</expan></choice> grüße mir meine <placeName key="Zürich (Stadt)">Zürcher</placeName> Freunde, be<lb xml:id="p3-l14" break="no"/>sonders
+ auch <persName key="Brändli Benjamin">Brändli</persName><note type="com" xml:id="K_0268_c9"><persName key="Brändli Benjamin">Benjamin Brändli</persName> (1817–1855), von <placeName key="Wädenswil">Wädenswil</placeName>, Rechtsstudent. <ref type="letter" target="K_0153_c10"><!-- → Nr. 19  (Kommentar)--></ref>.</note>, der, wie ich gehört habe, jetzt zurückgekehrt seyn wird. In der Hoffnung,<lb xml:id="p3-l15" break="no"/>
 bald wieder von Dir zu hören, umarmt Dich herzlich</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_0268_p7">
-                    <lb xml:id="p3-l16"/>Dein
+        <p rend="center" xml:id="K_0268_p7"><lb xml:id="p3-l16"/>Dein
         </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0268_p8">
-                    <lb xml:id="p3-l17"/>J J Blumer.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_0268_p8"><lb xml:id="p3-l17"/>J J Blumer.</p>
       </div>
       <postscript>
-        <p rend="indent" xml:id="K_0268_p9">
-                    <lb xml:id="p3-l18"/>Viele Grüße auch von <seg type="com">
-                        <persName type="person" key="Blumer-Heer Susanna">meiner Braut</persName>
-                        <note xml:id="K_0268_c10">
-                            <persName type="person" key="Blumer-Heer Susanna">Susanna Heer</persName> (1820–1902), Tochter der <persName type="person" key="Heer-Schindler Dorothea">Dorothea Heer-Schindler</persName> und des <persName type="person" key="Heer Cosmus">Cosmus Heer</persName>, Cousine Blumers und ältere Schwester des späteren Bundesrats <persName type="person" key="Heer Joachim">Joachim Heer</persName>.</note>
-                    </seg>, die sich in<lb xml:id="p3-l19"/>
-Deinem elterlichen Hause sehr wohl gefühlt hat <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> den<lb xml:id="p3-l20"/>
-herzlichen Empfang, der ihr zu Theil wurde, nie verges<lb break="no" xml:id="p3-l21"/>sen 
-wird. Sie läßt sich gleichfalls Deinen <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">
-                        <persName type="person" key="Escher (vom Glas) Heinrich">Eltern</persName>
-                    </persName> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <seg type="ref">
-                        <persName type="person" key="Stockar-Escher (vom Glas) Clementine">Deiner<lb xml:id="p3-l22"/>
-Schwester</persName>
-                        <ref type="kbp">→ Clementine Stockar-Escher
-						</ref>
-                    </seg> bestens empfehlen. </p>
+        <p rend="indent" xml:id="K_0268_p9"><lb xml:id="p3-l18"/>Viele Grüße auch von <persName key="Blumer-Heer Susanna">meiner Braut</persName><note type="com" xml:id="K_0268_c10"><persName key="Blumer-Heer Susanna">Susanna Heer</persName> (1820–1902), Tochter der <persName key="Heer-Schindler Dorothea">Dorothea Heer-Schindler</persName> und des <persName key="Heer Cosmus">Cosmus Heer</persName>, Cousine Blumers und ältere Schwester des späteren Bundesrats <persName key="Heer Joachim">Joachim Heer</persName>.</note>, die sich in<lb xml:id="p3-l19"/>
+Deinem elterlichen Hause sehr wohl gefühlt hat <choice><abbr>u.</abbr><expan>und</expan></choice> den<lb xml:id="p3-l20"/>
+herzlichen Empfang, der ihr zu Theil wurde, nie verges<lb xml:id="p3-l21" break="no"/>sen 
+wird. Sie läßt sich gleichfalls Deinen <persName key="Escher-Zollikofer (von Altenklingen) Lydia"><persName key="Escher (vom Glas) Heinrich">Eltern</persName></persName> <choice><abbr>u.</abbr><expan>und</expan></choice> <rs><persName key="Stockar-Escher (vom Glas) Clementine">Deiner<lb xml:id="p3-l22"/>
+Schwester</persName></rs> bestens empfehlen. </p>
       </postscript>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

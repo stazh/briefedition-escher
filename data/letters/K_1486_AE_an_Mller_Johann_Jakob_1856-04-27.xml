@@ -1,221 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1486" n="38" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Johann Jakob Müller, Belvoir (Enge, Zürich), Sonntag, April 27, 1856</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>StadtA Zürich</institution>
-                        <idno type="original">VII. 343. 2.3.2.</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Personelle Angelegenheiten</item>
-                        <item>Eisenbahnen Fusionen</item>
-                        <item>Schweizerische Südostbahn (SOB)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Müller Johann Jakob" type="addressee">Johann Jakob Müller</persName>
-                    <placeName>Belvoir (Enge, Zürich)</placeName>
-                    <date when="1856-04-27">Sonntag, April 27, 1856</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="09-03-24" who="MT">Transkription nochmals überprüft und auf XML eingegeben</change>
-            <change when="2011-04-06" who="BF">Personen und Orte indexiert</change>
-            <change when="2012-03" who="BF">provisorisch kommentiert</change>
-            <change when="2012-04" who="BF">provisorisch kommentiert</change>
-            <change when="2012-11-29" who="BF">externe Transkriptionsverifizierung umgesetzt</change>
-            <change when="2013-01-31" who="BF">Korrekturen EH umgesetzt</change>
-            <change when="2013-02-27" who="BF">Korrekturen 2 EH umgesetzt</change>
-            <change when="2013-02-27" who="BF">Kommentierung abgeschlossen</change>
-            <change when="2013-07-16" who="JS">Auf Stand Edition gebracht</change>
-            <change when="2013-07-17" who="SWK">Fahnen Korrektur 1 geprüft</change>
-            <change when="2013-07-18" who="JS">Auf Stand Edition gebracht 2</change>
-            <change when="2013-07-19" who="SWK">Fahnen Korrektur 2 geprüft</change>
-            <change when="2013-07-19" who="SWK">Fahnen Korrektur 3 geprüft</change>
-            <change when="2013-07-26" who="STW">Auszeichnung 1 umgesetzt</change>
-            <change when="2013-07-29" who="AO">Verifizierung 1 umgesetzt</change>
-            <change when="2013-08-13" who="LH">Auszeichnung 2 umgesetzt</change>
-            <change when="2013-11-14" who="VP">Inhaltliche Qualitätsprüfung umgesetzt</change>
-            <change when="2014-04-14" who="TM">Verifizierung 2 umgesetzt</change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1486" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Johann Jakob Müller, Belvoir (Enge, Zürich), Sonntag, 27. April 1856</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>StadtA Zürich</institution><idno>VII. 343. 2.3.2.</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Nordostbahn (NOB)</term><term>Personelle Angelegenheiten</term><term>Eisenbahnen Fusionen</term><term>Schweizerische Südostbahn (SOB)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Müller Johann Jakob" type="sender">Johann Jakob Müller</persName><placeName>Belvoir (Enge, Zürich)</placeName><date when="1856-04-27">27. April 1856</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="left" xml:id="K_1486_p1">
-                    <lb xml:id="p1-l1"/>Hochgeachteter Herr &amp; Freund!</p>
+        <p rend="left" xml:id="K_1486_p1"><lb xml:id="p1-l1"/>Hochgeachteter Herr &amp; Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1486_p2">
-                    <lb xml:id="p1-l2"/>Eben von <placeName type="place" key="Baden (AG)">Baden</placeName> zurückgekommen &amp; im Begriffe,<lb xml:id="p1-l3"/>  <date when="1856-04-28">morgen</date> früh nach <placeName type="place" key="Aarau">Aarau</placeName> zu reisen – alles, um die <seg type="ref">
-                        <choice>
-                            <abbr>N.O.bahn<lb break="no" xml:id="p1-l4"/>gesellschaft</abbr>
-                            <expan>NordOstbahngesellschaft</expan>
-                        </choice>
-                        <ref type="kbe">→ NOB</ref>
-                    </seg> wo möglich <seg type="com">von dem Baue über <placeName type="place" key="Lenzburg">Lenzburg</placeName> zu<lb xml:id="p1-l5"/>
-			befreien<note xml:id="K_1486_c1">Die Konzession des Kantons <placeName type="place" key="Aargau">Aargau</placeName> zuhanden der <ref type="kbe"/>Nordostbahn sah vor, dass deren Linie von <placeName type="place" key="Baden (AG)">Baden</placeName> nach <placeName type="place" key="Aarau">Aarau</placeName> «bei <placeName type="place" key="Brugg (AG)">Brugg</placeName> und <placeName type="place" key="Lenzburg">Lenzburg</placeName> vorbei» führen sollte. <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10001198">Konzession des Kantons Aargau für die schweizerische Nordostbahngesellschaft (vom 27. Juni 1853), in: <ref type="lit">BBl</ref> 1853 III, S. 170</ref>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Geschäftsbericht NOB</ref> 1856, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 4; <ref type="lit">Luz, Nordostbahn</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 123–146<!--; <ref type="lit">Kessler, Nordostbahn</ref>, S. 20–21-->. </note>
-                    </seg> – erlaube ich mir, Sie gemäß dem gefälligen<lb xml:id="p1-l6"/>
-		Anerbieten, das Sie mir seiner Zeit gemacht, zu ersu<lb break="no" xml:id="p1-l7"/>chen, 
-		dahin wirken zu wollen, daß Sie &amp; gleich Gesinnte,<lb xml:id="p1-l8"/>
-                    <hi rend="underline">mit recht viel Stimmen versehen</hi>, an die bevorstehen<lb break="no" xml:id="p1-l9"/>de <seg type="com">Generalversammlung<note xml:id="K_1486_c2">Die Generalversammlung der Aktionäre der Nordostbahn fand am <date when="1856-04-30">30. April</date> in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> statt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Geschäftsbericht NOB</ref> 1855.</note>
-                    </seg> kommen. Es werden Candida<lb break="no" xml:id="p1-l10"/>ten  
-		genannt, gegen die vielfache Bedenken obwalten<lb xml:id="p1-l11"/>
-				müssen. <seg type="com">
-                        <persName type="person" key="Wyss Georg von">Georg Wyß</persName>
-                        <note xml:id="K_1486_c3">
-                            <persName type="person" key="Wyss Georg von">Georg von Wyss</persName> (1816–1893), Grossrat (<placeName type="place" key="Zürich">ZH</placeName>), Privatdozent für Schweizer Geschichte an der Universität <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>. – <persName type="person" key="Wyss Georg von">Von Wyss</persName> war 1852/53 Mitglied der Direktion der <ref type="kbe"/>Nordbahn; bereits bei der Fusion dieser Gesellschaft mit der <ref type="kbe"/>Zürich-Bodensee-Bahn zur Nordostbahn war aufgrund seiner Gegnerschaft zu Escher ein Einsitz in den Gremien der neugegründeten Bahn nicht denkbar. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 212, 446.</note>
-                    </seg> – ich halte weitere Bemerkungen<lb xml:id="p1-l12"/>
-		über ihn Ihnen gegenüber für unnöthig. <seg type="ref">
-                        <persName type="person" key="Schulthess-Rechberg Gustav Anton von">Schultheß-<lb xml:id="p1-l13"/>Rechberg</persName>
-                        <ref type="kbp">→ Gustav Anton von Schulthess-Rechberg</ref>
-                    </seg>: wenn ich auch gegen ihn als Persönlichkeit<lb xml:id="p1-l14"/>
-		nichts einzuwenden hätte, so ist nicht zu vergessen,<lb xml:id="p1-l15"/>
-		daß er gemäß seiner Stellung zu der <seg type="ref">Südostbahn<ref type="kbe">→ SOB</ref>
-                    </seg>
-                    <lb xml:id="p1-l16"/>
-                    <hi rend="underline">vor allem Südostbahnmann</hi> ist &amp; in Folge dessen<lb xml:id="p1-l17"/>
-		die Ansicht vertritt, daß Südost- &amp; Nordostbahn sich<lb xml:id="p1-l18"/>
-                    <hi rend="underline">mit gleicher Werthung</hi> der beidseitigen Actien <seg type="ref">fu<lb break="no" xml:id="p1-l19"/>sionieren<ref type="letter" target="K_1483"><!--→ Nr. 37--></ref>
-                    </seg> sollten. Ob es in diesem Augenblicke, wo die <lb xml:id="p1-l20"/>
-		Fusion immer noch &amp; mehr als je betrieben wird, geeig<lb break="no" xml:id="p1-l21"/>net 
-				wäre, H<supplied>errn</supplied>
-                    <persName type="person" key="Schulthess-Rechberg Gustav Anton von">Schultheß</persName> in die Direction der <choice>
-                        <abbr>N.O.bahn</abbr>
-                        <expan>NordOstbahn</expan>
-                    </choice>
-                    <lb xml:id="p1-l22"/>
-				zu wählen, in die jedenfalls H<supplied>err</supplied>
-                    <seg type="com">
-                        <persName type="person" key="Escher-Bodmer Johann Conrad">Escher-Bodmer</persName>
-                        <note xml:id="K_1486_c4">
-                            <persName type="person" key="Escher-Bodmer Johann Conrad">Johann Conrad Escher-Bodmer</persName> (1812–1871), <placeName type="place" key="Zürich">Zürcher</placeName> Unternehmer und Jurist.</note>
-                    </seg>, der ähn<pb n="2"/>
-                    <lb xml:id="p2-l1"/>liche  
-		Tendenzen hat, gewählt werden wird, dürfte<lb xml:id="p2-l2"/>
-		nicht schwer zu entscheiden sein. – Es ist also eine<lb xml:id="p2-l3"/>
-				Wahl an die Stelle des <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <seg type="ref">
-                        <persName type="person" key="Ott-Imhof Hans Conrad">Ott-Imhof</persName>
-                        <ref type="kbp">→ Hans Conrad Ott-Imhof</ref>
-                    </seg> zu treffen; sodann<lb xml:id="p2-l4"/>
-				fallen in Erneuerung H<supplied>err</supplied>
-                    <seg type="com">Oberst <persName type="person" key="Pestalozzi Heinrich">Pestalozzi</persName>
-                        <note xml:id="K_1486_c5">
-                            <persName type="person" key="Pestalozzi Heinrich">Heinrich Pestalozzi</persName> (1790–1857), Grossrat (<placeName type="place" key="Zürich">ZH</placeName>), Strassen- und Wasserbauinspektor des Kantons <placeName type="place" key="Zürich">Zürich</placeName>, Direktionsmitglied der Nordostbahn.</note>
-                    </seg> &amp; <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <seg type="ref">
-                        <persName type="person" key="Hildebrand Bruno">Hil<lb break="no" xml:id="p2-l5"/>debrand</persName>
-                        <ref type="kbp">→ Bruno Hildebrand</ref>
-                    </seg>, der nun nach <placeName type="place" key="Bern (Stadt)">Bern</placeName> übergesiedelt ist. <lb xml:id="p2-l6"/>
-				H<supplied>err</supplied>
-                    <persName type="person" key="Pestalozzi Heinrich">Pestalozzi</persName> wird wieder zu wählen sein &amp; auch wohl<lb xml:id="p2-l7"/>
-				die Wahl annehmen. H<supplied>err</supplied>
-                    <persName type="person" key="Escher-Bodmer Johann Conrad">Escher-Bodmer</persName> dürfte nach<lb xml:id="p2-l8"/>
-		der Stellung, die er seit längerer Zeit unserer<lb xml:id="p2-l9"/>
-		Unternehmung gegenüber eingenommen hat, eben<lb break="no" xml:id="p2-l10"/>falls 
-		begründete Ansprüche auf die Wahl haben.<lb xml:id="p2-l11"/>
-				In dritter Linie wird H<supplied>err</supplied>
-                    <seg type="com">
-                        <persName type="person" key="Hüni-Stettler Heinrich">Hüni-Stettler</persName>
-                        <note xml:id="K_1486_c6">
-                            <persName type="person" key="Hüni-Stettler Heinrich">Heinrich Hüni-Stettler</persName> (1813–1876), Grossrat, Regierungsrat und Nationalrat (<placeName type="place" key="Zürich">ZH</placeName>).</note>
-                    </seg> genannt, der<lb xml:id="p2-l12"/>
-		sich nach meiner Ansicht in jeder Beziehung zur<lb xml:id="p2-l13"/>
-				Wahl emphehlen<note type="transcript">sic!</note> würde. In Betreff H<supplied>errn</supplied>
-                    <seg type="com">
-                        <choice>
-                            <abbr>R.R.</abbr>
-                            <expan>RegierungsRath</expan>
-                        </choice> <persName type="person" key="Sulzer Johann Jakob">Sul<lb break="no" xml:id="p2-l14"/>zer's</persName>
-                        <note xml:id="K_1486_c7">
-                            <persName type="person" key="Sulzer Johann Jakob">Johann Jakob Sulzer</persName> (1821–1897), Grossrat und Regierungsrat (<placeName type="place" key="Zürich">ZH</placeName>).</note>
-                    </seg>, von dem auch mitunter geredet wird, kann<lb xml:id="p2-l15"/>
-		ich Ihnen gegenüber schweigen, da Sie ihn mit seinen<lb xml:id="p2-l16"/>
-		Licht- &amp; Schattenseiten kennen. – Wie die Sachen liegen<lb xml:id="p2-l17"/>
-		&amp; da wir die Annahme einer Wahl von Seite des<lb xml:id="p2-l18"/>
-				lieben Adressaten dieses Briefes oder <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <seg type="com">
-                        <persName type="person" key="Wäffler-Egli Rudolf">Wäffler-Egli's</persName>
-                        <note xml:id="K_1486_c8">
-                            <persName type="person" key="Wäffler-Egli Rudolf">Rudolf Wäffler-Egli</persName> (1804–1867), Grossrat und Nationalrat (<placeName type="place" key="Zürich">ZH</placeName>), Verwaltungsrat der Nordostbahn.</note>
-                    </seg>
-                    <lb xml:id="p2-l19"/>
-		nicht werden hoffen dürfen, wäre meine Liste et<lb break="no" xml:id="p2-l20"/>wa: 
-				H<supplied>err</supplied> Oberst <persName type="person" key="Pestalozzi Heinrich">Pestalozzi</persName>, <persName type="person" key="Escher-Bodmer Johann Conrad">Escher-Bodmer</persName> &amp; <persName type="person" key="Hüni-Stettler Heinrich">Hüni-Stettler</persName>.</p>
-    </div>
-        </body>
-    <back>
+    </front><body>
+      <p rend="indent" xml:id="K_1486_p2"><lb xml:id="p1-l2"/>Eben von <placeName key="Baden (AG)">Baden</placeName> zurückgekommen &amp; im Begriffe,<lb xml:id="p1-l3"/>  <date when="1856-04-28">morgen</date> früh nach <placeName key="Aarau">Aarau</placeName> zu reisen – alles, um die <rs><choice><abbr>N.O.bahn<lb xml:id="p1-l4" break="no"/>gesellschaft</abbr><expan>NordOstbahngesellschaft</expan></choice></rs> wo möglich von dem Baue über <placeName key="Lenzburg">Lenzburg</placeName> zu<lb xml:id="p1-l5"/>
+			befreien<note type="com" xml:id="K_1486_c1">Die Konzession des Kantons <placeName key="Aargau">Aargau</placeName> zuhanden der Nordostbahn sah vor, dass deren Linie von <placeName key="Baden (AG)">Baden</placeName> nach <placeName key="Aarau">Aarau</placeName> «bei <placeName key="Brugg (AG)">Brugg</placeName> und <placeName key="Lenzburg">Lenzburg</placeName> vorbei» führen sollte. <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10001198">Konzession des Kantons Aargau für die schweizerische Nordostbahngesellschaft (vom 27. Juni 1853), in: <ref type="lit">BBl</ref> 1853 III, S. 170</ref>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Geschäftsbericht NOB</ref> 1856, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 4; <ref type="lit">Luz, Nordostbahn</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 123–146<!--; <ref type="lit">Kessler, Nordostbahn</ref>, S. 20–21-->. </note> – erlaube ich mir, Sie gemäß dem gefälligen<lb xml:id="p1-l6"/>
+		Anerbieten, das Sie mir seiner Zeit gemacht, zu ersu<lb xml:id="p1-l7" break="no"/>chen, 
+		dahin wirken zu wollen, daß Sie &amp; gleich Gesinnte,<lb xml:id="p1-l8" break="no"/><hi rend="underline">mit recht viel Stimmen versehen</hi>, an die bevorstehen<lb xml:id="p1-l9" break="no"/>de Generalversammlung<note type="com" xml:id="K_1486_c2">Die Generalversammlung der Aktionäre der Nordostbahn fand am <date when="1856-04-30">30. April</date> in <placeName key="Zürich (Stadt)">Zürich</placeName> statt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Geschäftsbericht NOB</ref> 1855.</note> kommen. Es werden Candida<lb xml:id="p1-l10" break="no"/>ten  
+		genannt, gegen die vielfache Bedenken obwalten<lb xml:id="p1-l11" break="no"/>
+				müssen. <persName key="Wyss Georg von">Georg Wyß</persName><note type="com" xml:id="K_1486_c3"><persName key="Wyss Georg von">Georg von Wyss</persName> (1816–1893), Grossrat (<placeName key="Zürich">ZH</placeName>), Privatdozent für Schweizer Geschichte an der Universität <placeName key="Zürich (Stadt)">Zürich</placeName>. – <persName key="Wyss Georg von">Von Wyss</persName> war 1852/53 Mitglied der Direktion der Nordbahn; bereits bei der Fusion dieser Gesellschaft mit der Zürich-Bodensee-Bahn zur Nordostbahn war aufgrund seiner Gegnerschaft zu Escher ein Einsitz in den Gremien der neugegründeten Bahn nicht denkbar. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Jung, Aufbruch</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 212, 446.</note> – ich halte weitere Bemerkungen<lb xml:id="p1-l12" break="no"/>
+		über ihn Ihnen gegenüber für unnöthig. <rs><persName key="Schulthess-Rechberg Gustav Anton von">Schultheß-<lb xml:id="p1-l13"/>Rechberg</persName></rs>: wenn ich auch gegen ihn als Persönlichkeit<lb xml:id="p1-l14" break="no"/>
+		nichts einzuwenden hätte, so ist nicht zu vergessen,<lb xml:id="p1-l15" break="no"/>
+		daß er gemäß seiner Stellung zu der <rs>Südostbahn</rs> <lb xml:id="p1-l16" break="no"/><hi rend="underline">vor allem Südostbahnmann</hi> ist &amp; in Folge dessen<lb xml:id="p1-l17" break="no"/>
+		die Ansicht vertritt, daß Südost- &amp; Nordostbahn sich<lb xml:id="p1-l18" break="no"/><hi rend="underline">mit gleicher Werthung</hi> der beidseitigen Actien <rs>fu<lb xml:id="p1-l19" break="no"/>sionieren<ref type="letter" target="K_1483"><!--→ Nr. 37--></ref></rs> sollten. Ob es in diesem Augenblicke, wo die <lb xml:id="p1-l20" break="no"/>
+		Fusion immer noch &amp; mehr als je betrieben wird, geeig<lb xml:id="p1-l21" break="no"/>net 
+				wäre, H<add>errn</add> <persName key="Schulthess-Rechberg Gustav Anton von">Schultheß</persName> in die Direction der <choice><abbr>N.O.bahn</abbr><expan>NordOstbahn</expan></choice> <lb xml:id="p1-l22" break="no"/>
+				zu wählen, in die jedenfalls H<add>err</add> <persName key="Escher-Bodmer Johann Conrad">Escher-Bodmer</persName><note type="com" xml:id="K_1486_c4"><persName key="Escher-Bodmer Johann Conrad">Johann Conrad Escher-Bodmer</persName> (1812–1871), <placeName key="Zürich">Zürcher</placeName> Unternehmer und Jurist.</note>, der ähn<pb n="2"/><lb xml:id="p2-l1" break="no"/>liche  
+		Tendenzen hat, gewählt werden wird, dürfte<lb xml:id="p2-l2" break="no"/>
+		nicht schwer zu entscheiden sein. – Es ist also eine<lb xml:id="p2-l3" break="no"/>
+				Wahl an die Stelle des <choice><abbr>H.</abbr><expan>Herr</expan></choice> <rs><persName key="Ott-Imhof Hans Conrad">Ott-Imhof</persName></rs> zu treffen; sodann<lb xml:id="p2-l4" break="no"/>
+				fallen in Erneuerung H<add>err</add> Oberst <persName key="Pestalozzi Heinrich">Pestalozzi</persName><note type="com" xml:id="K_1486_c5"><persName key="Pestalozzi Heinrich">Heinrich Pestalozzi</persName> (1790–1857), Grossrat (<placeName key="Zürich">ZH</placeName>), Strassen- und Wasserbauinspektor des Kantons <placeName key="Zürich">Zürich</placeName>, Direktionsmitglied der Nordostbahn.</note> &amp; <choice><abbr>H.</abbr><expan>Herr</expan></choice> <rs><persName key="Hildebrand Bruno">Hil<lb xml:id="p2-l5" break="no"/>debrand</persName></rs>, der nun nach <placeName key="Bern (Stadt)">Bern</placeName> übergesiedelt ist. <lb xml:id="p2-l6" break="no"/>
+				H<add>err</add> <persName key="Pestalozzi Heinrich">Pestalozzi</persName> wird wieder zu wählen sein &amp; auch wohl<lb xml:id="p2-l7" break="no"/>
+				die Wahl annehmen. H<add>err</add> <persName key="Escher-Bodmer Johann Conrad">Escher-Bodmer</persName> dürfte nach<lb xml:id="p2-l8" break="no"/>
+		der Stellung, die er seit längerer Zeit unserer<lb xml:id="p2-l9" break="no"/>
+		Unternehmung gegenüber eingenommen hat, eben<lb xml:id="p2-l10" break="no"/>falls 
+		begründete Ansprüche auf die Wahl haben.<lb xml:id="p2-l11" break="no"/>
+				In dritter Linie wird H<add>err</add> <persName key="Hüni-Stettler Heinrich">Hüni-Stettler</persName><note type="com" xml:id="K_1486_c6"><persName key="Hüni-Stettler Heinrich">Heinrich Hüni-Stettler</persName> (1813–1876), Grossrat, Regierungsrat und Nationalrat (<placeName key="Zürich">ZH</placeName>).</note> genannt, der<lb xml:id="p2-l12" break="no"/>
+		sich nach meiner Ansicht in jeder Beziehung zur<lb xml:id="p2-l13" break="no"/>
+				Wahl emphehlen<note type="transcript">sic!</note> würde. In Betreff H<add>errn</add> <choice><abbr>R.R.</abbr><expan>RegierungsRath</expan></choice> <persName key="Sulzer Johann Jakob">Sul<lb xml:id="p2-l14" break="no"/>zer's</persName><note type="com" xml:id="K_1486_c7"><persName key="Sulzer Johann Jakob">Johann Jakob Sulzer</persName> (1821–1897), Grossrat und Regierungsrat (<placeName key="Zürich">ZH</placeName>).</note>, von dem auch mitunter geredet wird, kann<lb xml:id="p2-l15" break="no"/>
+		ich Ihnen gegenüber schweigen, da Sie ihn mit seinen<lb xml:id="p2-l16" break="no"/>
+		Licht- &amp; Schattenseiten kennen. – Wie die Sachen liegen<lb xml:id="p2-l17" break="no"/>
+		&amp; da wir die Annahme einer Wahl von Seite des<lb xml:id="p2-l18" break="no"/>
+				lieben Adressaten dieses Briefes oder <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Wäffler-Egli Rudolf">Wäffler-Egli's</persName><note type="com" xml:id="K_1486_c8"><persName key="Wäffler-Egli Rudolf">Rudolf Wäffler-Egli</persName> (1804–1867), Grossrat und Nationalrat (<placeName key="Zürich">ZH</placeName>), Verwaltungsrat der Nordostbahn.</note> <lb xml:id="p2-l19" break="no"/>
+		nicht werden hoffen dürfen, wäre meine Liste et<lb xml:id="p2-l20" break="no"/>wa: 
+				H<add>err</add> Oberst <persName key="Pestalozzi Heinrich">Pestalozzi</persName>, <persName key="Escher-Bodmer Johann Conrad">Escher-Bodmer</persName> &amp; <persName key="Hüni-Stettler Heinrich">Hüni-Stettler</persName>.</p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_1486_p3">
-                    <lb xml:id="p2-l21"/>In der Hoffnung Sie in gutem Wohlsein in der<lb xml:id="p2-l22"/>
+        <p rend="indent" xml:id="K_1486_p3"><lb xml:id="p2-l21"/>In der Hoffnung Sie in gutem Wohlsein in der<lb xml:id="p2-l22"/>
 		Generalversammlung zu sehen grüßt Sie in alter <lb xml:id="p2-l23"/>
-		Freundschaft Ihr Ihnen hochachtungsvollst ergeben<supplied>er</supplied> </p>
+		Freundschaft Ihr Ihnen hochachtungsvollst ergeben<add>er</add> </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1486_p4">
-                    <lb xml:id="p2-l24"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_1486_p4"><lb xml:id="p2-l24"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_1486_p5">
-                    <lb xml:id="p2-l25"/>
+        <p rend="left" xml:id="K_1486_p5"><lb xml:id="p2-l25"/>
           <hi>
-            <placeName type="place" key="Belvoir (Enge, Zürich)">Belvoir</placeName> </hi>
+            <placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName> </hi>
           <lb xml:id="p2-l26"/>
          <date when="1856-04-27">27. April. 1856</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

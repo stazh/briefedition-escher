@@ -1,151 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6941" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Giacomo Servadio an Alfred Escher, Zürich, Mittwoch, August 16, 1871</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_014</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Servadio Giacomo" type="sender">Giacomo Servadio</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1871-08-16">Mittwoch, August 16, 1871</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-09-06" who="MB">transkribiert
-                
-            </change>
-            <change when="2014-06-10" who="LH">Transkriptionsverifizierung Seiterle umegesetzt
-                
-            </change>
-            <change when="2014-06-27" who="IB">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-07-01" who="CH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-03" who="MB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-08" who="CH">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-10-17" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-10-17" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6941" type="Brief"><teiHeader><fileDesc><titleStmt><title>Giacomo Servadio an Alfred Escher, Zürich, Mittwoch, 16. August 1871</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_014</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Servadio Giacomo" type="addressee">Giacomo Servadio</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1871-08-16">16. August 1871</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_6941_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_6941_c0">Nachträgliche Notiz oben rechts auf Seite 1 von Eschers Hand mit roter Farbe: <bibl>900 (sammt 2 Beilag<supplied>en</supplied>)</bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>
+        <p rend="right" xml:id="K_6941_p1"> <note type="com" xml:id="K_6941_c0">Nachträgliche Notiz oben rechts auf Seite 1 von Eschers Hand mit roter Farbe: <orig>900 (sammt 2 Beilag<add>en</add>)</orig>.</note> <lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zurich</placeName>
           <date when="1871-08-16">16. Aout</date>
         </p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_6941_p2">
-                    <lb xml:id="p1-l2"/>Monsieur</p>
+        <p rend="left" xml:id="K_6941_p2"><lb xml:id="p1-l2"/>Monsieur</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_6941_p3">
-                <lb xml:id="p1-l3"/>J'ai l'honneur de vous
+    </front><body>
+      <p rend="indent" xml:id="K_6941_p3"><lb xml:id="p1-l3"/>J'ai l'honneur de vous
         
 <lb xml:id="p1-l4"/>remettre la note que vous
         
 <lb xml:id="p1-l5"/>m'avez demandée que j'ai
         
-<lb xml:id="p1-l6"/>fait avec <choice>
-                        <abbr>Mons</abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Sulzbach">Sulzbach</persName> <lb xml:id="p1-l7"/>et dans laquelle peut
-        <lb xml:id="p1-l8"/>être aurons oublié quel<lb break="no" xml:id="p1-l9"/>ques noms. De nous
+<lb xml:id="p1-l6"/>fait avec <choice><abbr>Mons</abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Sulzbach">Sulzbach</persName> <lb xml:id="p1-l7"/>et dans laquelle peut
+        <lb xml:id="p1-l8"/>être aurons oublié quel<lb xml:id="p1-l9" break="no"/>ques noms. De nous
         
-<lb xml:id="p1-l10"/>vous pouvez juger si le
+<lb xml:id="p1-l10" break="no"/>vous pouvez juger si le
         
-<lb xml:id="p1-l11"/>group est <hi rend="underline">very strong</hi>
-                    <lb xml:id="p1-l12"/>comme j'ai eu l'honneur
+<lb xml:id="p1-l11" break="no"/>group est <hi rend="underline">very strong</hi> <lb xml:id="p1-l12" break="no"/>comme j'ai eu l'honneur
         
-<lb xml:id="p1-l13"/>de vous dir!<note type="transcript">sic!</note> Je vous inclus
+<lb xml:id="p1-l13" break="no"/>de vous dir!<note type="transcript">sic!</note> Je vous inclus
         
-<lb xml:id="p1-l14"/>une carte de <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-                    <persName type="person" key="Sulzbach">Sulzbach</persName>
-                    <lb xml:id="p1-l15"/>car ils<note type="transcript">sic!</note> m'a semblé que
-       <pb n="2"/>
-                    <lb xml:id="p2-l1"/>vous desiréz connaitre
+<lb xml:id="p1-l14" break="no"/>une carte de <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Sulzbach">Sulzbach</persName> <lb xml:id="p1-l15" break="no"/>car ils<note type="transcript">sic!</note> m'a semblé que
+       <pb n="2"/><lb xml:id="p2-l1" break="no"/>vous desiréz connaitre
         
-<lb xml:id="p2-l2"/>un petit nom: je
+<lb xml:id="p2-l2" break="no"/>un petit nom: je
         
-<lb xml:id="p2-l3"/>compte de partir <date when="1871-08-17">de<lb break="no" xml:id="p2-l4"/>main</date> si vous voudriez
+<lb xml:id="p2-l3" break="no"/>compte de partir <date when="1871-08-17">de<lb xml:id="p2-l4" break="no"/>main</date> si vous voudriez
         
-<lb xml:id="p2-l5"/>pourtant quelque chose
+<lb xml:id="p2-l5" break="no"/>pourtant quelque chose
         
-<lb xml:id="p2-l6"/>ayez la bonté de me
+<lb xml:id="p2-l6" break="no"/>ayez la bonté de me
         
-<lb xml:id="p2-l7"/>fair appeller<note type="transcript">sic!</note>
-                    <supplied type="unclear">...</supplied> Baur
+<lb xml:id="p2-l7" break="no"/>fair appeller<note type="transcript">sic!</note> <add type="?">...</add> Baur
         
-<lb xml:id="p2-l8"/>au Lac.  –</p>
-    </div>
-        </body>
-    <back>
+<lb xml:id="p2-l8" break="no"/>au Lac.  –</p>
+    </body><back>
       <div type="closer">
-        <p rend="left" xml:id="K_6941_p4">
-                    <lb xml:id="p2-l9"/>Agreez, Monsieur le Presi<lb break="no" xml:id="p2-l10"/>dent mes salutations
+        <p rend="left" xml:id="K_6941_p4"><lb xml:id="p2-l9"/>Agreez, Monsieur le Presi<lb xml:id="p2-l10" break="no"/>dent mes salutations
         
-<lb xml:id="p2-l11"/>empressees et croyez</p>
-        <p rend="right" xml:id="K_6941_p5">
-                    <lb xml:id="p2-l12"/>Tout devoué</p>
+<lb xml:id="p2-l11" break="no"/>empressees et croyez</p>
+        <p rend="right" xml:id="K_6941_p5"><lb xml:id="p2-l12"/>Tout devoué</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_6941_p6">
-                    <lb xml:id="p2-l13"/>G Servadio</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_6941_p6"><lb xml:id="p2-l13"/>G Servadio</p>
       </div>
-      <div type="address">
-        <p rend="left" xml:id="K_6941_p7">
-                    <lb xml:id="p2-l14"/>
-          <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> A. Escher
+      <div type="opener">
+        <p rend="left" xml:id="K_6941_p7"><lb xml:id="p2-l14"/>
+          <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> A. Escher
         
 <lb xml:id="p2-l15"/>en
-        <lb xml:id="p2-l16"/>
-                    <placeName type="place" key="Zürich (Stadt)">Zurich</placeName> </p>
+        <lb xml:id="p2-l16"/><placeName key="Zürich (Stadt)">Zurich</placeName> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

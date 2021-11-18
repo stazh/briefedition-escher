@@ -1,232 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5915" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Regierungsrat Uri, Zürich, Samstag, Mai 12, 1866</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Entwurf">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_008</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Regierungsrat UR</item>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Eisenbahnstrecken Konzessionen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName type="sender">Regierungsrat Uri</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1866-05-12">Samstag, Mai 12, 1866</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-01-20" who="FM">Transkription
-                
-            </change>
-            <change when="2014-04-02" who="IB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-06-17" who="LH">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-08" who="MB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-18" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-            <change when="2014-07-28" who="SWK">Transkriptionsverifizierung Seiterle
-          umgesetzt
-                
-            </change>
-            <change when="2014-07-29" who="IB">Übertragung der Transkriptionsverifizierung
-          geprüft
-                
-            </change>
-            <change when="2014-08-13" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-08-13" who="LB">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="left" xml:id="K_5915_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_5915_c0">Nachträgliche Notiz oben links von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>Exp.</abbr>
-                                    <expan>Expedirt</expan>
-                                </choice> <persName type="person" key="Weiss">W.</persName> | <date when="1866-05-13">13 V. 66</date>.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>An die <choice>
-                        <abbr>Tit.</abbr>
-                        <expan>Titulo (mit Titel)</expan>
-                    </choice> Abordnung des <choice>
-                        <abbr>h.</abbr>
-                        <expan>hoch</expan>
-                    </choice> Regierungsrathes des
-            <lb xml:id="p1-l2"/>
-                    <choice>
-                        <abbr>h.</abbr>
-                        <expan>hoch</expan>
-                    </choice> Standes <placeName type="place" key="Uri">Uri</placeName> zu der Conferenz <del>in Sach<supplied>en</supplied> <add>
-                            <choice>
-                                <abbr>betr.</abbr>
-                                <expan>betreffend</expan>
-                            </choice> </add>
-                    </del> d. Er
-                    <lb break="no" xml:id="p1-l3"/>theil<supplied>un</supplied>g e. <choice>
-                        <abbr>Conzess.</abbr>
-                        <expan>Conzession</expan>
-                    </choice> für e. <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn</p>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5915" type="Brief" subtype="Entwurf"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Regierungsrat Uri, Zürich, Samstag, 12. Mai 1866</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_008</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Regierungsrat UR</term><term>Gotthardbahnprojekt</term><term>Eisenbahnstrecken Konzessionen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><orgName type="sender">Regierungsrat Uri</orgName><placeName>Zürich</placeName><date when="1866-05-12">12. Mai 1866</date></correspAction><correspAction type="received"><placeName>Altdorf (UR)</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
+        <p rend="left" xml:id="K_5915_p1"> <note type="com" xml:id="K_5915_c0">Nachträgliche Notiz oben links von dritter Hand: <orig><choice><abbr>Exp.</abbr><expan>Expedirt</expan></choice> <persName key="Weiss">W.</persName> | <date when="1866-05-13">13 V. 66</date>.</orig> </note> <lb xml:id="p1-l1"/>An die <choice><abbr>Tit.</abbr><expan>Titulo (mit Titel)</expan></choice> Abordnung des <choice><abbr>h.</abbr><expan>hoch</expan></choice> Regierungsrathes des
+            <lb xml:id="p1-l2"/><choice><abbr>h.</abbr><expan>hoch</expan></choice> Standes <placeName key="Uri">Uri</placeName> zu der Conferenz <del>in Sach<add>en</add> <add><choice><abbr>betr.</abbr><expan>betreffend</expan></choice> </add></del> d. Er<lb xml:id="p1-l3" break="no"/>theil<add>un</add>g e. <choice><abbr>Conzess.</abbr><expan>Conzession</expan></choice> für e. <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn</p>
       </div>
       <div type="dateline">
-        <p rend="right" xml:id="K_5915_p2">
-                    <lb xml:id="p1-l4"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+        <p rend="right" xml:id="K_5915_p2"><lb xml:id="p1-l4"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
           <date when="1866-05-12">12 <hi>Mai</hi> 1866</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_5915_p3">
-                    <lb xml:id="p1-l5"/>
-          <choice>
-                        <abbr>Hochgeacht.</abbr>
-                        <expan>Hochgeachtet</expan>
-                    </choice> H<supplied>erren</supplied>!</p>
+        <p rend="left" xml:id="K_5915_p3"><lb xml:id="p1-l5"/>
+          <choice><abbr>Hochgeacht.</abbr><expan>Hochgeachtet</expan></choice> H<add>erren</add>!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_5915_p4">
-                <lb xml:id="p1-l6"/>In Beilage beehr<supplied>en</supplied> wir uns, Ihn<supplied>en</supplied> <add>Abrede gemäß</add> die <lb xml:id="p1-l7"/>Abänder<supplied>un</supplied>g<supplied>en</supplied> <del>zu dem</del> Entwurfes <add>des <choice>
-                            <abbr>v.</abbr>
-                            <expan>von</expan>
-                        </choice> d. <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>ausschusse (vorgelegt<supplied>en</supplied>)</add> zu e.
-          <choice>
-                        <abbr>Conzess.</abbr>
-                        <expan>Conzession</expan>
-                    </choice> des <choice>
-                        <abbr>Cts.</abbr>
-                        <expan>Cantons</expan>
-                    </choice> <placeName type="place" key="Uri">Uri</placeName>, <lb xml:id="p1-l8"/>
-                <del>welche</del> <add>wie sie</add> in
-        der am <date when="1866-05-09">9 <choice>
-                            <abbr>dss. Mon.</abbr>
-                            <expan>dieses Monats</expan>
-                        </choice> </date> in <placeName type="place" key="Flüelen">Flüel<supplied>en</supplied>
-                </placeName> abgehalten<supplied>en</supplied> <lb xml:id="p1-l9"/>Conferenz <choice>
-                        <abbr>zw.</abbr>
-                        <expan>zwischen</expan>
-                    </choice> d<supplied>en</supplied> beiderseitig<supplied>en</supplied>
-          Abordnung<supplied>en</supplied> verein<lb break="no" xml:id="p1-l10"/>bart word<supplied>en</supplied> ist,
+    </front><body>
+      <p rend="indent" xml:id="K_5915_p4"><lb xml:id="p1-l6"/>In Beilage beehr<add>en</add> wir uns, Ihn<add>en</add> <add>Abrede gemäß</add> die <lb xml:id="p1-l7"/>Abänder<add>un</add>g<add>en</add> <del>zu dem</del> Entwurfes <add>des <choice><abbr>v.</abbr><expan>von</expan></choice> d. <placeName key="St. Gotthard (Pass)">Gotthard</placeName>ausschusse (vorgelegt<add>en</add>)</add> zu e.
+          <choice><abbr>Conzess.</abbr><expan>Conzession</expan></choice> des <choice><abbr>Cts.</abbr><expan>Cantons</expan></choice> <placeName key="Uri">Uri</placeName>, <lb xml:id="p1-l8"/><del>welche</del> <add>wie sie</add> in
+        der am <date when="1866-05-09">9 <choice><abbr>dss. Mon.</abbr><expan>dieses Monats</expan></choice> </date> in <placeName key="Flüelen">Flüel<add>en</add></placeName> abgehalten<add>en</add> <lb xml:id="p1-l9"/>Conferenz <choice><abbr>zw.</abbr><expan>zwischen</expan></choice> d<add>en</add> beiderseitig<add>en</add>
+          Abordnung<add>en</add> verein<lb xml:id="p1-l10" break="no"/>bart word<add>en</add> ist,
         zuzustellen. </p>
-      <p rend="indent" xml:id="K_5915_p5">
-                <lb xml:id="p1-l11"/>Dabei ersuchen wir Sie <add>dringend</add>, bei dem <choice>
-                        <abbr>H.</abbr>
-                        <expan>Hoch</expan>
-                    </choice> Re<lb break="no" xml:id="p1-l12"/>gier<supplied>un</supplied>gsrathe dar<supplied>au</supplied>f hinwirken zu
-          woll<supplied>en</supplied>, daß diese <lb xml:id="p1-l13"/>Conzessionsangelegenheit einer möglichst
-        beför<lb break="no" xml:id="p1-l14"/>derlich<supplied>en</supplied> Erledig<supplied>un</supplied>g entgegengeführt werde. <del>Diese</del>
-                    <add>Es erscheint dieß Angesichts der</add>
-                    <lb xml:id="p1-l15"/>Situation im <choice>
-                        <abbr>Ctn.</abbr>
-                        <expan>Canton</expan>
-                    </choice>
-                    <placeName type="place" key="Tessin">Tessin</placeName> &amp; <del>die Maaßgabe</del>
-                    <add>im Hinblicke <supplied>au</supplied>f die</add> Schritte, <lb xml:id="p1-l16"/>welche der
-          <del>Gott</del> Ausschuß in <choice>
-                        <abbr>dsm.</abbr>
-                        <expan>diesem</expan>
-                    </choice> Cantone <del>im
-          Intere</del>
-                    <lb xml:id="p1-l17"/>Behufs <choice>
-                        <abbr>Erwirkg.</abbr>
-                        <expan>Erwirkung</expan>
-                    </choice> e. <choice>
-                        <abbr>Conzess.</abbr>
-                        <expan>Conzession</expan>
-                    </choice> für d. <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn <lb xml:id="p1-l18"/>zu thun <del>berufen</del> veranlaßt <choice>
-                        <abbr>s.</abbr>
-                        <expan>sein</expan>
-                    </choice> wird, als in hoh<supplied>em</supplied>
-                    <lb xml:id="p1-l19"/>Grade wünschbar. </p>
-      <p rend="indent" xml:id="K_5915_p6">
-                <lb xml:id="p1-l20"/>
-        <del>Wir seh<supplied>en</supplied>
-                </del>
-        <add>In Gewärtig<supplied>un</supplied>g</add> der <add>
-                    <choice>
-                            <abbr>gef.</abbr>
-                            <expan>gefällig</expan>
-                        </choice> </add> weitern <del>gef</del> <add>dortseitig<supplied>en</supplied> </add> Eröffnung<supplied>en</supplied> <lb xml:id="p1-l21"/>
-                <del>der Tit. Abordng</del> benutzt<supplied>en</supplied> wir auch <choice>
-                        <abbr>dsn</abbr>
-                        <expan>diesen</expan>
-                    </choice> Anlaß <lb xml:id="p1-l22"/>Sie <choice>
-                        <abbr>uns.</abbr>
-                        <expan>unser</expan>
-                    </choice> <choice>
-                        <abbr>
-                    <supplied>au</supplied>sgez.</abbr>
-                        <expan>ausgezeichnet</expan>
-                    </choice> <choice>
-                        <abbr>Hochachtg.</abbr>
-                        <expan>Hochachtung</expan>
-                    </choice> <choice>
-                        <abbr>z.</abbr>
-                        <expan>zu</expan>
-                    </choice> <choice>
-                        <abbr>vers.</abbr>
-                        <expan>versichern</expan>
-                    </choice> </p>
-      <p rend="right" xml:id="K_5915_p7">
-                <lb xml:id="p1-l23"/>
-        <choice>
-                        <abbr>N<hi rend="sup">s</hi> </abbr>
-                        <expan>Namens</expan>
-                    </choice> d. <choice>
-                        <abbr>Abordng.</abbr>
-                        <expan>Abordnung</expan>
-                    </choice> ds <placeName type="place" key="St. Gotthard (Pass)">Gotthrd</placeName> <supplied>au</supplied>sschusses:</p>
-    </div>
-        </body>
-    <back>
-      <div type="address">
-        <p rend="left" xml:id="K_5915_p8">
-                    <lb xml:id="p1-l24"/>
-          <choice>
-                        <abbr>Mhochgeacht. Herrn</abbr>
-                        <expan>Meinem hochgeachteten Herrn</expan>
-                    </choice> Landammann <lb xml:id="p1-l25"/>Emmanuel Müller <lb xml:id="p1-l26"/>
-                    <placeName type="place" key="Altdorf (UR)">Altdorf</placeName>.</p>
-        <p rend="left" xml:id="K_5915_p9">
-                    <lb xml:id="p1-l27"/>
-          <choice>
-                        <abbr>fr.</abbr>
-                        <expan>franco (frankiert)</expan>
-                    </choice>
+      <p rend="indent" xml:id="K_5915_p5"><lb xml:id="p1-l11"/>Dabei ersuchen wir Sie <add>dringend</add>, bei dem <choice><abbr>H.</abbr><expan>Hoch</expan></choice> Re<lb xml:id="p1-l12" break="no"/>gier<add>un</add>gsrathe dar<add>au</add>f hinwirken zu
+          woll<add>en</add>, daß diese <lb xml:id="p1-l13" break="no"/>Conzessionsangelegenheit einer möglichst
+        beför<lb xml:id="p1-l14" break="no"/>derlich<add>en</add> Erledig<add>un</add>g entgegengeführt werde. <del>Diese</del>
+          <add>Es erscheint dieß Angesichts der</add>  <lb xml:id="p1-l15" break="no"/>Situation im <choice><abbr>Ctn.</abbr><expan>Canton</expan></choice> <placeName key="Tessin">Tessin</placeName> &amp; <del>die Maaßgabe</del> <add>im Hinblicke <add>au</add>f die</add> Schritte, <lb xml:id="p1-l16" break="no"/>welche der
+          <del>Gott</del> Ausschuß in <choice><abbr>dsm.</abbr><expan>diesem</expan></choice> Cantone <del>im
+          Intere</del> <lb xml:id="p1-l17" break="no"/>Behufs <choice><abbr>Erwirkg.</abbr><expan>Erwirkung</expan></choice> e. <choice><abbr>Conzess.</abbr><expan>Conzession</expan></choice> für d. <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn <lb xml:id="p1-l18" break="no"/>zu thun <del>berufen</del> veranlaßt <choice><abbr>s.</abbr><expan>sein</expan></choice> wird, als in hoh<add>em</add> <lb xml:id="p1-l19" break="no"/>Grade wünschbar. </p>
+      <p rend="indent" xml:id="K_5915_p6"><lb xml:id="p1-l20"/>
+        <del>Wir seh<add>en</add></del>
+        <add>In Gewärtig<add>un</add>g</add> der <add><choice><abbr>gef.</abbr><expan>gefällig</expan></choice> </add> weitern <del>gef</del> <add>dortseitig<add>en</add> </add> Eröffnung<add>en</add> <lb xml:id="p1-l21"/><del>der Tit. Abordng</del> benutzt<add>en</add> wir auch <choice><abbr>dsn</abbr><expan>diesen</expan></choice> Anlaß <lb xml:id="p1-l22"/>Sie <choice><abbr>uns.</abbr><expan>unser</expan></choice> <choice><abbr><add>au</add>sgez.</abbr><expan>ausgezeichnet</expan></choice> <choice><abbr>Hochachtg.</abbr><expan>Hochachtung</expan></choice> <choice><abbr>z.</abbr><expan>zu</expan></choice> <choice><abbr>vers.</abbr><expan>versichern</expan></choice> </p>
+      <p rend="right" xml:id="K_5915_p7"><lb xml:id="p1-l23"/>
+        <choice><abbr>N<hi rend="sup">s</hi> </abbr><expan>Namens</expan></choice> d. <choice><abbr>Abordng.</abbr><expan>Abordnung</expan></choice> ds <placeName key="St. Gotthard (Pass)">Gotthrd</placeName> <add>au</add>sschusses:</p>
+    </body><back>
+      <div type="opener">
+        <p rend="left" xml:id="K_5915_p8"><lb xml:id="p1-l24"/>
+          <choice><abbr>Mhochgeacht. Herrn</abbr><expan>Meinem hochgeachteten Herrn</expan></choice> Landammann <lb xml:id="p1-l25"/>Emmanuel Müller <lb xml:id="p1-l26"/><placeName key="Altdorf (UR)">Altdorf</placeName>.</p>
+        <p rend="left" xml:id="K_5915_p9"><lb xml:id="p1-l27"/>
+          <choice><abbr>fr.</abbr><expan>franco (frankiert)</expan></choice>
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

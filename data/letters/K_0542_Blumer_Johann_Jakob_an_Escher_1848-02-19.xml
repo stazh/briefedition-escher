@@ -1,344 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0542" n="71" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Blumer an Alfred Escher, Glarus, Samstag, Februar 19, 1848</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>FA Tschudi</institution>
-                        <idno type="original"/>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Tagsatzung</item>
-                        <item>Kommissionen (eidgenössische)</item>
-                        <item>Schweizerische Bundesverfassung</item>
-                        <item>Sonderbund</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Blumer Johann Jakob" type="sender">Johann Jakob Blumer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Glarus</placeName>
-                    <date when="1848-02-19">Samstag, Februar 19, 1848</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="Juni 2009" who="swissedit, UR">automatisch von Word nach XML konvertiert
-                
-            </change>
-            <change when="2009-07-31" who="BK">provisorisch kommentiert
-                
-            </change>
-            <change when="2010-05-18" who="BK">Transkriptionsverifizierung T. Binder umgesetzt
-
-                
-            </change>
-            <change when="2010-07-29" who="BK">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2010-11-16" who="BK">Korrekturen 2 Haberthür übertragen
-                
-            </change>
-            <change when="2011-06-23" who="AH">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-06-24" who="TM">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen umgesetzt
-
-                
-            </change>
-            <change when="2011-07-27" who="HA">e-Edition: Auszeichnung 2 umgesetzt
-				
-                
-            </change>
-            <change when="2011-07-29" who="TM">e-Edition: Verifizierung 2 umgesetzt
-				
-                
-            </change>
-            <change when="2015-04-01" who="VP">Transkriptionsverifizierung Seiterle 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front><!--<printedheader><p id="K_0542_p1" rend="left"><lb id="p1-l1"/>BATH</p> </printedheader>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0542" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Blumer an Alfred Escher, Glarus, Samstag, 19. Februar 1848</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>FA Tschudi</institution></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Tagsatzung</term><term>Kommissionen (eidgenössische)</term><term>Schweizerische Bundesverfassung</term><term>Sonderbund</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Blumer Johann Jakob" type="addressee">Johann Jakob Blumer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Glarus</placeName><date when="1848-02-19">19. Februar 1848</date></correspAction></correspDesc></profileDesc></teiHeader><text><front><!--<printedheader><p id="K_0542_p1" rend="left"><lb id="p1-l1"/>BATH</p> </printedheader>-->
       <div type="dateline">
-        <p rend="right" xml:id="K_0542_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1848-02-19">19. <choice>
-                            <abbr>Febr.</abbr>
-                            <expan>Februar</expan>
-                        </choice> 1848</date>.</p>
+        <p rend="right" xml:id="K_0542_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1848-02-19">19. <choice><abbr>Febr.</abbr><expan>Februar</expan></choice> 1848</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_0542_p2">
-                    <lb xml:id="p1-l2"/>Mein theurer Freund! </p>
+        <p rend="left" xml:id="K_0542_p2"><lb xml:id="p1-l2"/>Mein theurer Freund! </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_0542_p3">
-                <lb xml:id="p1-l3"/>Ich habe mich noch bei Dir darüber zu entschuldigen,<lb xml:id="p1-l4"/>
-daß ich vor acht Tagen in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> durchreiste, ohne Dich zu besu<lb break="no" xml:id="p1-l5"/>chen.
- Ich reiste mit meinem Freunde <seg type="com">
-                    <persName type="person" key="Caflisch Johann Bartholome">Caflisch</persName>
-                    <note xml:id="K_0542_c1">
-                        <persName type="person" key="Caflisch Johann Bartholome">Johann Bartholome Caflisch</persName> (1817–1899), stellvertretender Tagsatzungsgesandter und Grossrat (<placeName type="place" key="Graubünden">GR</placeName>).</note>
-                </seg>; wir langten mit<lb xml:id="p1-l6"/>
-der Post, wegen des schlechten Weges, erst beinahe um 9 Uhr Abends<lb xml:id="p1-l7"/>
-in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> an <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> waren, nachdem wir seit Morgens 6 Uhr gefahren<lb xml:id="p1-l8"/>
-waren <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> unterwegs uns gut unterhalten hatten, ziemlich ermüdet,<lb xml:id="p1-l9"/>
-so daß ich zu fortgesetzter Geselligkeit nicht mehr aufgelegt gewesen<lb xml:id="p1-l10"/>
-wäre; am folgenden Morgen verreisten wir wieder früh um ½ 8<lb xml:id="p1-l11"/>
-Uhr mit der <placeName type="place" key="Chur">Churer</placeName> Post. Was mich vor dem Schlusse der <seg type="com">Tagsatzung<note xml:id="K_0542_c2">Die zweite Session der ordentlichen Tagsatzung fand vom <date when="1847-10-18">18. Oktober 1847</date> bis zum <date when="1848-02-16">16. Februar 1848</date> in <placeName type="place" key="Bern (Stadt)">Bern</placeName> statt.</note>
-                </seg>
-                    <lb xml:id="p1-l12"/>
-nach Hause trieb, war eine, nach so langer Abwesenheit begreifliche,<lb xml:id="p1-l13"/>
-Sehnsucht nach <seg type="com">
-                    <persName type="person" key="Blumer-Heer Susanna">meiner Frau</persName>
-                    <note xml:id="K_0542_c3">
-                        <persName type="person" key="Blumer-Heer Susanna">Susanna Blumer-Heer</persName> (1820–1902), Tochter der <persName type="person" key="Heer-Schindler Dorothea">Dorothea Heer-Schindler</persName> und des <persName type="person" key="Heer Cosmus">Cosmus Heer</persName>, Cousine Johann Jakob Blumers und ältere Schwester des späteren Bundesrats <persName type="person" key="Heer Joachim">Joachim Heer</persName>.</note>
-                </seg>, meiner Familie <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> meinen gewohnten<lb xml:id="p1-l14"/>
-Geschäften, sowie eine ebenso gerechtfertigte Ungeduld, veranlaßt<lb xml:id="p1-l15"/>
-durch den langweiligen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> unerbaulichen Gang, den die Geschäfte an<lb xml:id="p1-l16"/>
-der Tagsatzung nahmen. Wenn ich um's <date when="1848-01-01">Neujahr</date> Deinen Vorwürfen<lb xml:id="p1-l17"/>
-gegen dieselbe noch nicht unbedingt beistimmen konnte, so kann ich leider<pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-jetzt, nach den seitherigen Erfahrungen, dieselben weniger bestreiten. Das Präsidium<lb xml:id="p2-l2"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> die Kommission entwickelten auch gar zu wenig Thätigkeit; wir andern mußten<lb xml:id="p2-l3"/>
-zuwarten, bis es der letztern gefiel, die wichtigern Anträge, <choice>
-                        <abbr>z. B.</abbr>
-                        <expan>zum Beispiel</expan>
-                    </choice> über Landesver<lb break="no" xml:id="p2-l4"/>rath <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Amnestie, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> über Beantwortung der Kollektivnote, auszuarbeiten, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> uns<lb xml:id="p2-l5"/>
-indessen mit Geldangelegenheiten befassen, die man, wenn die Tagsatzung aus einan<lb break="no" xml:id="p2-l6"/>der gegangen wäre, unbedenklich dem Vororte überlassen hätte, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> deren öffentli<lb break="no" xml:id="p2-l7"/>che 
-Besprechung vielleicht nicht den besten Eindruck gemacht hat. Die <seg type="ref">Bundesre<lb break="no" xml:id="p2-l8"/>visionskommission<ref type="sum" target="Bundesrevision_d1">Bundesrevision<!--→ S. 45--></ref>
-                </seg> hätte man spätestens nach dem Wiedereintritte <placeName type="place" key="Zug">Zug's</placeName> in die<lb xml:id="p2-l9"/>
-Tagsatzung versammeln sollen; vorher hätte wenigstens in Privatkonferenzen<lb xml:id="p2-l10"/>
-der Gesandten etwas vorgearbeitet werden können, wovon auch gar nichts gesche<lb break="no" xml:id="p2-l11"/>hen
- ist. Viel kostbare Zeit wurde eigentlich verschleudert, wie überhaupt<lb xml:id="p2-l12"/>
+    </front><body>
+      <p rend="indent" xml:id="K_0542_p3"><lb xml:id="p1-l3"/>Ich habe mich noch bei Dir darüber zu entschuldigen,<lb xml:id="p1-l4"/>
+daß ich vor acht Tagen in <placeName key="Zürich (Stadt)">Zürich</placeName> durchreiste, ohne Dich zu besu<lb xml:id="p1-l5" break="no"/>chen.
+ Ich reiste mit meinem Freunde <persName key="Caflisch Johann Bartholome">Caflisch</persName><note type="com" xml:id="K_0542_c1"><persName key="Caflisch Johann Bartholome">Johann Bartholome Caflisch</persName> (1817–1899), stellvertretender Tagsatzungsgesandter und Grossrat (<placeName key="Graubünden">GR</placeName>).</note>; wir langten mit<lb xml:id="p1-l6" break="no"/>
+der Post, wegen des schlechten Weges, erst beinahe um 9 Uhr Abends<lb xml:id="p1-l7" break="no"/>
+in <placeName key="Zürich (Stadt)">Zürich</placeName> an <choice><abbr>u.</abbr><expan>und</expan></choice> waren, nachdem wir seit Morgens 6 Uhr gefahren<lb xml:id="p1-l8" break="no"/>
+waren <choice><abbr>u.</abbr><expan>und</expan></choice> unterwegs uns gut unterhalten hatten, ziemlich ermüdet,<lb xml:id="p1-l9" break="no"/>
+so daß ich zu fortgesetzter Geselligkeit nicht mehr aufgelegt gewesen<lb xml:id="p1-l10" break="no"/>
+wäre; am folgenden Morgen verreisten wir wieder früh um ½ 8<lb xml:id="p1-l11" break="no"/>
+Uhr mit der <placeName key="Chur">Churer</placeName> Post. Was mich vor dem Schlusse der Tagsatzung<note type="com" xml:id="K_0542_c2">Die zweite Session der ordentlichen Tagsatzung fand vom <date when="1847-10-18">18. Oktober 1847</date> bis zum <date when="1848-02-16">16. Februar 1848</date> in <placeName key="Bern (Stadt)">Bern</placeName> statt.</note> <lb xml:id="p1-l12" break="no"/>
+nach Hause trieb, war eine, nach so langer Abwesenheit begreifliche,<lb xml:id="p1-l13" break="no"/>
+Sehnsucht nach <persName key="Blumer-Heer Susanna">meiner Frau</persName><note type="com" xml:id="K_0542_c3"><persName key="Blumer-Heer Susanna">Susanna Blumer-Heer</persName> (1820–1902), Tochter der <persName key="Heer-Schindler Dorothea">Dorothea Heer-Schindler</persName> und des <persName key="Heer Cosmus">Cosmus Heer</persName>, Cousine Johann Jakob Blumers und ältere Schwester des späteren Bundesrats <persName key="Heer Joachim">Joachim Heer</persName>.</note>, meiner Familie <choice><abbr>u.</abbr><expan>und</expan></choice> meinen gewohnten<lb xml:id="p1-l14" break="no"/>
+Geschäften, sowie eine ebenso gerechtfertigte Ungeduld, veranlaßt<lb xml:id="p1-l15" break="no"/>
+durch den langweiligen <choice><abbr>u.</abbr><expan>und</expan></choice> unerbaulichen Gang, den die Geschäfte an<lb xml:id="p1-l16" break="no"/>
+der Tagsatzung nahmen. Wenn ich um's <date when="1848-01-01">Neujahr</date> Deinen Vorwürfen<lb xml:id="p1-l17" break="no"/>
+gegen dieselbe noch nicht unbedingt beistimmen konnte, so kann ich leider<pb n="2"/><lb xml:id="p2-l1" break="no"/>
+jetzt, nach den seitherigen Erfahrungen, dieselben weniger bestreiten. Das Präsidium<lb xml:id="p2-l2" break="no"/><choice><abbr>u.</abbr><expan>und</expan></choice> die Kommission entwickelten auch gar zu wenig Thätigkeit; wir andern mußten<lb xml:id="p2-l3" break="no"/>
+zuwarten, bis es der letztern gefiel, die wichtigern Anträge, <choice><abbr>z. B.</abbr><expan>zum Beispiel</expan></choice> über Landesver<lb xml:id="p2-l4" break="no"/>rath <choice><abbr>u.</abbr><expan>und</expan></choice> Amnestie, <choice><abbr>u.</abbr><expan>und</expan></choice> über Beantwortung der Kollektivnote, auszuarbeiten, <choice><abbr>u.</abbr><expan>und</expan></choice> uns<lb xml:id="p2-l5" break="no"/>
+indessen mit Geldangelegenheiten befassen, die man, wenn die Tagsatzung aus einan<lb xml:id="p2-l6" break="no"/>der gegangen wäre, unbedenklich dem Vororte überlassen hätte, <choice><abbr>u.</abbr><expan>und</expan></choice> deren öffentli<lb xml:id="p2-l7" break="no"/>che 
+Besprechung vielleicht nicht den besten Eindruck gemacht hat. Die <rs>Bundesre<lb xml:id="p2-l8" break="no"/>visionskommission<ref type="sum" target="Bundesrevision_d1">Bundesrevision<!--→ S. 45--></ref></rs> hätte man spätestens nach dem Wiedereintritte <placeName key="Zug">Zug's</placeName> in die<lb xml:id="p2-l9" break="no"/>
+Tagsatzung versammeln sollen; vorher hätte wenigstens in Privatkonferenzen<lb xml:id="p2-l10" break="no"/>
+der Gesandten etwas vorgearbeitet werden können, wovon auch gar nichts gesche<lb xml:id="p2-l11" break="no"/>hen
+ ist. Viel kostbare Zeit wurde eigentlich verschleudert, wie überhaupt<lb xml:id="p2-l12" break="no"/>
 das Tagsatzungsleben eine rechte Schule des Müßigganges ist.</p>
-      <p rend="indent" xml:id="K_0542_p4">
-                <lb xml:id="p2-l13"/>An geistiger Anregung fehlte es mir freilich in <placeName type="place" key="Bern (Stadt)">Bern</placeName> nicht; auch<lb xml:id="p2-l14"/>
-über die Frage der Bundesrevision habe ich an manchen sehr intressanten Ge<lb break="no" xml:id="p2-l15"/>sprächen
- Theil genommen, welche, in Verbindung mit dem Nachlesen ältrer Ver<lb break="no" xml:id="p2-l16"/>handlungen, meine Ideen wesentlich zur Reife gebracht haben. Eine Folge davon<lb xml:id="p2-l17"/>
-war, daß ich endlich hier – in <placeName type="place" key="Bern (Stadt)">Bern</placeName> war es mir wegen äußrer Verhältnisse<lb xml:id="p2-l18"/>
-beinahe unmöglich, etwas Vernünftiges zu arbeiten – einen Aufsatz über die<lb xml:id="p2-l19"/>
-Bundesreform geschrieben habe, der heute an die Redaktion der <choice>
-                        <abbr>N.<placeName type="place" key="Zürich">Z.</placeName>Z.</abbr>
-                        <expan>Neue Zürcher Zeitung</expan>
-                    </choice>
-                    <pb n="3"/>
-                    <lb xml:id="p3-l1"/>
-abgegangen <seg type="com">ist.<note xml:id="K_0542_c4">Der Aufsatz erschien in zwei Teilen unter dem Titel «Die Bundesreform». <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 21. Februar 1848, 22. Februar 1848.</note>
-                </seg> Es enthält zwar derselbe wohl wenige eigenthümliche, neue Ideen,<lb xml:id="p3-l2"/>
-immerhin aber dürfte er zur Belehrung des größern Publikums über dasje<lb break="no" xml:id="p3-l3"/>nige,
- was im besten Falle zu erwarten ist, beitragen, zumal in jenem vielge<lb break="no" xml:id="p3-l4"/>lesnen
- Blatte noch nichts recht Gründliches <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> zugleich Populäres erschienen ist.<lb xml:id="p3-l5"/>
-Der Entwurf des <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-                    <seg type="ref">
-                    <persName type="person" key="Rüttimann Johann Jakob">Rüttimann</persName>
-                    <ref type="kbp">→ Johann Jakob Rüttimann</ref>
-                </seg>
-                    <seg type="com">
-                    <note xml:id="K_0542_c5">
-                        <persName type="person" key="Rüttimann Johann Jakob">Rüttimann</persName> legte in der «Neuen <placeName type="place" key="Zürich">Zürcher</placeName> Zeitung» seine Ideen zu einer neuen Bundesverfassung dar. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 8. Februar 1848; <ref type="lit">Largiadèr, Rüttimann</ref>.</note>
-                </seg> zeichnet sich zwar wirklich durch manche neue <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p3-l6"/>
-zum Theil sehr brauchbare Gedanken aus; er ist aber doch etwas flüchtig hinge<lb break="no" xml:id="p3-l7"/>worfen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> nur für die Wenigen, welche gerade das <seg type="com">1832er oder 33er Projekt<note xml:id="K_0542_c6">Gemeint sind die Entwürfe zu einer Bundesurkunde von 1832 und 1833. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Kölz, Verfassungsgeschichte</ref> I, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 374–386.</note>
-                </seg>
-                    <lb xml:id="p3-l8"/>
-bei der Hand haben, genießbar; zugleich verdiente auch sein Zweikammersystem,<lb xml:id="p3-l9"/>
-mit dem ich nicht einverstanden bin, eine einläßlichere Bekämpfung. Lieber wäre<lb xml:id="p3-l10"/>
-es mir freilich gewesen, wenn Du, dem ein viel reicheres Material bundesstaats<lb break="no" xml:id="p3-l11"/>rechtlicher 
-Kenntnisse zu Gebote stünde, darüber etwas geschrieben hättest, auch<lb xml:id="p3-l12"/>
-wenn Du ganz andre Ansichten als ich aufgestellt haben würdest. Was übrigens<lb xml:id="p3-l13"/>
-die Aussichten für die Bundesrevision betrifft, so kann ich Dir wenigstens die<lb xml:id="p3-l14"/>
-Versicherung geben, daß die Dispositionen der meisten Gesandten gut sind.<lb xml:id="p3-l15"/>
-Freilich fehlt es auch wieder nicht an sehr liberalen Gesandten, welche der<lb xml:id="p3-l16"/>
-ganzen Sache von Herzen abhold sind, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> diese könnten allerdings das Spiel<lb xml:id="p3-l17"/>
+      <p rend="indent" xml:id="K_0542_p4"><lb xml:id="p2-l13"/>An geistiger Anregung fehlte es mir freilich in <placeName key="Bern (Stadt)">Bern</placeName> nicht; auch<lb xml:id="p2-l14"/>
+über die Frage der Bundesrevision habe ich an manchen sehr intressanten Ge<lb xml:id="p2-l15" break="no"/>sprächen
+ Theil genommen, welche, in Verbindung mit dem Nachlesen ältrer Ver<lb xml:id="p2-l16" break="no"/>handlungen, meine Ideen wesentlich zur Reife gebracht haben. Eine Folge davon<lb xml:id="p2-l17" break="no"/>
+war, daß ich endlich hier – in <placeName key="Bern (Stadt)">Bern</placeName> war es mir wegen äußrer Verhältnisse<lb xml:id="p2-l18" break="no"/>
+beinahe unmöglich, etwas Vernünftiges zu arbeiten – einen Aufsatz über die<lb xml:id="p2-l19" break="no"/>
+Bundesreform geschrieben habe, der heute an die Redaktion der <choice><abbr>N.<placeName key="Zürich">Z.</placeName>Z.</abbr><expan>Neue Zürcher Zeitung</expan></choice> <pb n="3"/><lb xml:id="p3-l1" break="no"/>
+abgegangen ist.<note type="com" xml:id="K_0542_c4">Der Aufsatz erschien in zwei Teilen unter dem Titel «Die Bundesreform». <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 21. Februar 1848, 22. Februar 1848.</note> Es enthält zwar derselbe wohl wenige eigenthümliche, neue Ideen,<lb xml:id="p3-l2" break="no"/>
+immerhin aber dürfte er zur Belehrung des größern Publikums über dasje<lb xml:id="p3-l3" break="no"/>nige,
+ was im besten Falle zu erwarten ist, beitragen, zumal in jenem vielge<lb xml:id="p3-l4" break="no"/>lesnen
+ Blatte noch nichts recht Gründliches <choice><abbr>u.</abbr><expan>und</expan></choice> zugleich Populäres erschienen ist.<lb xml:id="p3-l5" break="no"/>
+Der Entwurf des <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <rs><persName key="Rüttimann Johann Jakob">Rüttimann</persName></rs> <note type="com" xml:id="K_0542_c5"><persName key="Rüttimann Johann Jakob">Rüttimann</persName> legte in der «Neuen <placeName key="Zürich">Zürcher</placeName> Zeitung» seine Ideen zu einer neuen Bundesverfassung dar. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 8. Februar 1848; <ref type="lit">Largiadèr, Rüttimann</ref>.</note> zeichnet sich zwar wirklich durch manche neue <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p3-l6" break="no"/>
+zum Theil sehr brauchbare Gedanken aus; er ist aber doch etwas flüchtig hinge<lb xml:id="p3-l7" break="no"/>worfen <choice><abbr>u.</abbr><expan>und</expan></choice> nur für die Wenigen, welche gerade das 1832er oder 33er Projekt<note type="com" xml:id="K_0542_c6">Gemeint sind die Entwürfe zu einer Bundesurkunde von 1832 und 1833. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Kölz, Verfassungsgeschichte</ref> I, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 374–386.</note> <lb xml:id="p3-l8" break="no"/>
+bei der Hand haben, genießbar; zugleich verdiente auch sein Zweikammersystem,<lb xml:id="p3-l9" break="no"/>
+mit dem ich nicht einverstanden bin, eine einläßlichere Bekämpfung. Lieber wäre<lb xml:id="p3-l10" break="no"/>
+es mir freilich gewesen, wenn Du, dem ein viel reicheres Material bundesstaats<lb xml:id="p3-l11" break="no"/>rechtlicher 
+Kenntnisse zu Gebote stünde, darüber etwas geschrieben hättest, auch<lb xml:id="p3-l12" break="no"/>
+wenn Du ganz andre Ansichten als ich aufgestellt haben würdest. Was übrigens<lb xml:id="p3-l13" break="no"/>
+die Aussichten für die Bundesrevision betrifft, so kann ich Dir wenigstens die<lb xml:id="p3-l14" break="no"/>
+Versicherung geben, daß die Dispositionen der meisten Gesandten gut sind.<lb xml:id="p3-l15" break="no"/>
+Freilich fehlt es auch wieder nicht an sehr liberalen Gesandten, welche der<lb xml:id="p3-l16" break="no"/>
+ganzen Sache von Herzen abhold sind, <choice><abbr>u.</abbr><expan>und</expan></choice> diese könnten allerdings das Spiel<lb xml:id="p3-l17" break="no"/>
 vollständig verderben. </p>
-      <p rend="indent" xml:id="K_0542_p5">
-                <lb xml:id="p3-l18"/>Die Frage der <seg type="ref">Kriegskosten<ref type="sum" target="Umwaelzung_p40"><!--→ S. 41--></ref>
-                </seg> wird wohl in Zukunft noch der Tagsat<lb break="no" xml:id="p3-l19"/>zung 
-viel zu <del>sprech</del>
-                    <add>schaff</add>en <seg type="com">geben.<note xml:id="K_0542_c7">Die Sonderbundskantone hatten eine Kriegsschuld von etwa 5,5 Millionen Franken zu begleichen. Die Betroffenen verlangten in der Folge immer wieder eine Ermässigung der Forderungen, bis 1852 National- und Ständerat entschieden, die Restschuld zu erlassen. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Bossard-Borner, Spannungsfeld</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 432–436.</note>
-                </seg> Die Gesandschaften von <placeName type="place" key="Zürich">Zürich</placeName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <placeName type="place" key="Glarus">Glarus</placeName>, wie<pb n="4"/>
-                    <lb xml:id="p4-l1"/>
-überhaupt der östlichen Stände haben sich bis dahin, entsprechend der öffentlichen<lb xml:id="p4-l2"/>
-Meinung in ihren Kantonen, immer entschieden gegen jeden Nachlaß ausgesprochen.<lb xml:id="p4-l3"/>
-Indessen sind bei mir persönlich schon allerlei Bedenken darüber aufgestiegen, ob<lb xml:id="p4-l4"/>
-es gut sey, auf diesem Grundsatze unter allen Umständen zu beharren. Du<lb xml:id="p4-l5"/>
-mißbilligst gewiß ebenso sehr <add>wie ich</add> die Dekrete von <placeName type="place" key="Luzern">Luzern</placeName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <placeName type="place" key="Freiburg">Freiburg</placeName>, welche ein<lb xml:id="p4-l6"/>
-wahres Verfolgungssystem begründen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> gewiß nicht dazu beitragen können, die<lb xml:id="p4-l7"/>
-Stellung der neuen Regierungen haltbar zu <seg type="com">machen.<note xml:id="K_0542_c8">Der Grosse Rat des Kantons <placeName type="place" key="Freiburg">Freiburg</placeName> erliess am <date when="1848-01-20">20. Januar 1848</date> ein Dekret, das einerseits eine weitgehende Amnestie für politische Vergehen erteilte, andererseit aber von einem Teil der «Sonderbündler» im Kanton die Begleichung der sich auf etwa 1,6 Millionen Franken belaufenden Kriegsschuld forderte. In <placeName type="place" key="Luzern">Luzern</placeName> wurde am <date when="1848-02-03">3. Februar 1848</date> ein ähnliches Dekret erlassen, durch das unter anderem die <placeName type="place" key="Luzern">Luzerner</placeName> Sonderbundsverantwortlichen finanziell belangt werden konnten; <placeName type="place" key="Luzern">Luzerns</placeName> Anteil an der Gesamtschuld wurde mit knapp 2,5 Millionen Franken beziffert. Zudem sah das Dekret diverse Zwangsmassnahmen gegen die ehemaligen Sonderbundsfunktionäre vor. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Bucher, Sonderbund</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 464; <ref type="lit">Bossard-Borner, Spannungsfeld</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 405–406.</note>
-                </seg> Die Empfehlung einer mög<lb break="no" xml:id="p4-l8"/>lichst
- umfassenden Amnestie war nach meiner Ansicht der Stellung der Tagsatzung<lb xml:id="p4-l9"/>
-ganz angemessen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> nothwendig; allein sie wird, wie die Sachen jetzt stehen,<lb xml:id="p4-l10"/>
-erfolglos <seg type="com">bleiben.<note xml:id="K_0542_c9">Die Tagsatzung hatte am <date when="1848-02-14">14. Februar 1848</date> beschlossen, dass gegen die Hauptverantwortlichen des Sonderbunds ein Landesverratsprozess geführt werden müsse. Alle weiteren Beteiligten, <bibl>welche vermöge ihrer politischen Tendenz zu der Errichtung oder Vertheidigung des Bündnisses der sieben Kantone mitwirkten</bibl>, sollten jedoch nicht weiter verfolgt und amnestiert werden. <ref type="lit">Fetscherin, Repertorium</ref> I, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 502.</note>
-                </seg> Wenn ich auch keineswegs zugeben möchte, daß das Verhält<lb break="no" xml:id="p4-l11"/>niß 
-der Tagsatzung zu den ehemaligen Sonderbundskantonen ganz das nämliche<lb xml:id="p4-l12"/>
-sey, wie dasjenige der letztern zu den <choice>
-                        <abbr>sogen.</abbr>
-                        <expan>sogenannt</expan>
-                    </choice> Schuldigen, so ist es doch auf der<lb xml:id="p4-l13"/>
-andern Seite begreiflich, daß die neuen Regierungen sagen: Amnestirt Ihr<lb xml:id="p4-l14"/>
-zuerst selbst, ehe Ihr von uns Amnestie verlangt! Wenn es daher möglich<lb xml:id="p4-l15"/>
-wäre, durch einen theilweisen Kostennachlaß die Zurücknahme jener bedauer<lb break="no" xml:id="p4-l16"/>lichen 
-Dekrete zu erlangen, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ebenso die kleinern Kantone dadurch für<lb xml:id="p4-l17"/>
-die Bundesrevision oder für wichtige Fortschritte in ihrem Innern, für welche<lb xml:id="p4-l18"/>
-sie die nöthige Garantie zu leisten hätten, zu gewinnen; so ließe sich aller<lb break="no" xml:id="p4-l19"/>dings 
-die Frage aufwerfen, ob man nicht etwas mildere Saiten anstimmen<pb n="5"/>
-                    <lb xml:id="p5-l1"/>
-dürfte. Der Kriegsfond muß allerdings vollständig wiederhergestellt <seg type="com">werden<note xml:id="K_0542_c10">Im eidgenössischen Kriegsfonds, der 1847 unter <placeName type="place" key="Luzern">Luzerns</placeName> Aufsicht stand, fehlten nach dem Sonderbundskrieg über 220 000 Franken. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Bucher, Sonderbund</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 469.</note>
-                </seg>, <lb xml:id="p5-l2"/>
-aber es gäbe auch noch Hülfsquellen, aus denen die nachzulassenden Sum<lb break="no" xml:id="p5-l3"/>men 
-ersetzt werden könnten. Ich weiß wohl, daß sich für das System der<lb xml:id="p5-l4"/>
-Strenge auch wieder vieles sagen läßt, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> spreche noch keineswegs eine<lb xml:id="p5-l5"/>
-bestimmte Meinung aus; es frägt sich nach meiner Ansicht bloß, welches<lb xml:id="p5-l6"/>
-Verfahren der Sache des Fortschritts im Vaterlande günstiger wäre. Es<lb xml:id="p5-l7"/>
+      <p rend="indent" xml:id="K_0542_p5"><lb xml:id="p3-l18"/>Die Frage der <rs>Kriegskosten<ref type="sum" target="Umwaelzung_p40"><!--→ S. 41--></ref></rs> wird wohl in Zukunft noch der Tagsat<lb xml:id="p3-l19" break="no"/>zung 
+viel zu <del>sprech</del><add>schaff</add>en geben.<note type="com" xml:id="K_0542_c7">Die Sonderbundskantone hatten eine Kriegsschuld von etwa 5,5 Millionen Franken zu begleichen. Die Betroffenen verlangten in der Folge immer wieder eine Ermässigung der Forderungen, bis 1852 National- und Ständerat entschieden, die Restschuld zu erlassen. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Bossard-Borner, Spannungsfeld</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 432–436.</note> Die Gesandschaften von <placeName key="Zürich">Zürich</placeName> <choice><abbr>u.</abbr><expan>und</expan></choice> <placeName key="Glarus">Glarus</placeName>, wie<pb n="4"/><lb xml:id="p4-l1" break="no"/>
+überhaupt der östlichen Stände haben sich bis dahin, entsprechend der öffentlichen<lb xml:id="p4-l2" break="no"/>
+Meinung in ihren Kantonen, immer entschieden gegen jeden Nachlaß ausgesprochen.<lb xml:id="p4-l3" break="no"/>
+Indessen sind bei mir persönlich schon allerlei Bedenken darüber aufgestiegen, ob<lb xml:id="p4-l4" break="no"/>
+es gut sey, auf diesem Grundsatze unter allen Umständen zu beharren. Du<lb xml:id="p4-l5" break="no"/>
+mißbilligst gewiß ebenso sehr <add>wie ich</add> die Dekrete von <placeName key="Luzern">Luzern</placeName> <choice><abbr>u.</abbr><expan>und</expan></choice> <placeName key="Freiburg">Freiburg</placeName>, welche ein<lb xml:id="p4-l6" break="no"/>
+wahres Verfolgungssystem begründen <choice><abbr>u.</abbr><expan>und</expan></choice> gewiß nicht dazu beitragen können, die<lb xml:id="p4-l7" break="no"/>
+Stellung der neuen Regierungen haltbar zu machen.<note type="com" xml:id="K_0542_c8">Der Grosse Rat des Kantons <placeName key="Freiburg">Freiburg</placeName> erliess am <date when="1848-01-20">20. Januar 1848</date> ein Dekret, das einerseits eine weitgehende Amnestie für politische Vergehen erteilte, andererseit aber von einem Teil der «Sonderbündler» im Kanton die Begleichung der sich auf etwa 1,6 Millionen Franken belaufenden Kriegsschuld forderte. In <placeName key="Luzern">Luzern</placeName> wurde am <date when="1848-02-03">3. Februar 1848</date> ein ähnliches Dekret erlassen, durch das unter anderem die <placeName key="Luzern">Luzerner</placeName> Sonderbundsverantwortlichen finanziell belangt werden konnten; <placeName key="Luzern">Luzerns</placeName> Anteil an der Gesamtschuld wurde mit knapp 2,5 Millionen Franken beziffert. Zudem sah das Dekret diverse Zwangsmassnahmen gegen die ehemaligen Sonderbundsfunktionäre vor. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Bucher, Sonderbund</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 464; <ref type="lit">Bossard-Borner, Spannungsfeld</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 405–406.</note> Die Empfehlung einer mög<lb xml:id="p4-l8" break="no"/>lichst
+ umfassenden Amnestie war nach meiner Ansicht der Stellung der Tagsatzung<lb xml:id="p4-l9" break="no"/>
+ganz angemessen <choice><abbr>u.</abbr><expan>und</expan></choice> nothwendig; allein sie wird, wie die Sachen jetzt stehen,<lb xml:id="p4-l10" break="no"/>
+erfolglos bleiben.<note type="com" xml:id="K_0542_c9">Die Tagsatzung hatte am <date when="1848-02-14">14. Februar 1848</date> beschlossen, dass gegen die Hauptverantwortlichen des Sonderbunds ein Landesverratsprozess geführt werden müsse. Alle weiteren Beteiligten, <orig>welche vermöge ihrer politischen Tendenz zu der Errichtung oder Vertheidigung des Bündnisses der sieben Kantone mitwirkten</orig>, sollten jedoch nicht weiter verfolgt und amnestiert werden. <ref type="lit">Fetscherin, Repertorium</ref> I, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 502.</note> Wenn ich auch keineswegs zugeben möchte, daß das Verhält<lb xml:id="p4-l11" break="no"/>niß 
+der Tagsatzung zu den ehemaligen Sonderbundskantonen ganz das nämliche<lb xml:id="p4-l12" break="no"/>
+sey, wie dasjenige der letztern zu den <choice><abbr>sogen.</abbr><expan>sogenannt</expan></choice> Schuldigen, so ist es doch auf der<lb xml:id="p4-l13" break="no"/>
+andern Seite begreiflich, daß die neuen Regierungen sagen: Amnestirt Ihr<lb xml:id="p4-l14" break="no"/>
+zuerst selbst, ehe Ihr von uns Amnestie verlangt! Wenn es daher möglich<lb xml:id="p4-l15" break="no"/>
+wäre, durch einen theilweisen Kostennachlaß die Zurücknahme jener bedauer<lb xml:id="p4-l16" break="no"/>lichen 
+Dekrete zu erlangen, <choice><abbr>u.</abbr><expan>und</expan></choice> ebenso die kleinern Kantone dadurch für<lb xml:id="p4-l17" break="no"/>
+die Bundesrevision oder für wichtige Fortschritte in ihrem Innern, für welche<lb xml:id="p4-l18" break="no"/>
+sie die nöthige Garantie zu leisten hätten, zu gewinnen; so ließe sich aller<lb xml:id="p4-l19" break="no"/>dings 
+die Frage aufwerfen, ob man nicht etwas mildere Saiten anstimmen<pb n="5"/><lb xml:id="p5-l1" break="no"/>
+dürfte. Der Kriegsfond muß allerdings vollständig wiederhergestellt werden<note type="com" xml:id="K_0542_c10">Im eidgenössischen Kriegsfonds, der 1847 unter <placeName key="Luzern">Luzerns</placeName> Aufsicht stand, fehlten nach dem Sonderbundskrieg über 220 000 Franken. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Bucher, Sonderbund</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 469.</note>, <lb xml:id="p5-l2" break="no"/>
+aber es gäbe auch noch Hülfsquellen, aus denen die nachzulassenden Sum<lb xml:id="p5-l3" break="no"/>men 
+ersetzt werden könnten. Ich weiß wohl, daß sich für das System der<lb xml:id="p5-l4" break="no"/>
+Strenge auch wieder vieles sagen läßt, <choice><abbr>u.</abbr><expan>und</expan></choice> spreche noch keineswegs eine<lb xml:id="p5-l5" break="no"/>
+bestimmte Meinung aus; es frägt sich nach meiner Ansicht bloß, welches<lb xml:id="p5-l6" break="no"/>
+Verfahren der Sache des Fortschritts im Vaterlande günstiger wäre. Es<lb xml:id="p5-l7" break="no"/>
 würde mich sehr freuen, darüber einmal Deine Meinung zu erfahren.</p>
-      <p rend="indent" xml:id="K_0542_p6">
-                <lb xml:id="p5-l8"/>Empfehle mich bestens <seg type="ref">
-                    <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">
-                        <persName type="person" key="Escher (vom Glas) Heinrich">Deinen Eltern</persName>
-                    </persName>
-                    <ref type="kbp">→ Lydia Escher-Zollikofer (von Altenklingen)
-					</ref>
-                    <ref type="kbp">→ Heinrich Escher (vom Glas)
-					</ref>
-                </seg>, grüße mir meine<lb xml:id="p5-l9"/>
-Freunde <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> sey herzlich gegrüßt von</p>
-    </div>
-        </body>
-    <back>
+      <p rend="indent" xml:id="K_0542_p6"><lb xml:id="p5-l8"/>Empfehle mich bestens <rs><persName key="Escher-Zollikofer (von Altenklingen) Lydia"><persName key="Escher (vom Glas) Heinrich">Deinen Eltern</persName></persName></rs>, grüße mir meine<lb xml:id="p5-l9"/>
+Freunde <choice><abbr>u.</abbr><expan>und</expan></choice> sey herzlich gegrüßt von</p>
+    </body><back>
       <div type="closer">
-        <p rend="right" xml:id="K_0542_p7">
-                    <lb xml:id="p5-l10"/>Deinem</p>
+        <p rend="right" xml:id="K_0542_p7"><lb xml:id="p5-l10"/>Deinem</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0542_p8">
-                    <lb xml:id="p5-l11"/>J J Blumer-Heer.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_0542_p8"><lb xml:id="p5-l11"/>J J Blumer-Heer.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

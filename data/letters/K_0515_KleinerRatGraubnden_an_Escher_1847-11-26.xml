@@ -1,151 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0515" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Kleiner Rat Graubünden an Alfred Escher, Chur, Freitag, November 26, 1847</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#2*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Sonderbund</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName type="sender">Kleiner Rat Graubünden</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Chur</placeName>
-                    <date when="1847-11-26">Freitag, November 26, 1847</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-07-05" who="IM">Transkribiert
-                
-            </change>
-            <change when="2010-12-03" who="BK">von Word nach XML konvertiert
-                
-            </change>
-            <change when="2011-07-06" who="AH">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-07" who="TM">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen umgesetzt
-
-                
-            </change>
-            <change when="2011-07-27" who="HA">e-Edition: Auszeichnung 2 umgesetzt
-				
-                
-            </change>
-            <change when="2011-07-29" who="TM">e-Edition: Verifizierung 2 umgesetzt
-				
-                
-            </change>
-            <change when="2012-01-09" who="GM">Transkriptionsverifizierung T. Binder umgesetzt
-
-                
-            </change>
-            <change when="2015-01-07" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0515" type="Brief"><teiHeader><fileDesc><titleStmt><title>Kleiner Rat Graubünden an Alfred Escher, Chur, Freitag, 26. November 1847</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#2*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Sonderbund</term></keywords></textClass><correspDesc><correspAction type="sent"><orgName type="addressee">Kleiner Rat Graubünden</orgName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Chur</placeName><date when="1847-11-26">26. November 1847</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_0515_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_0515_c0">Auf der ersten Briefseite oben ist das Wappen des Kantons <placeName type="place" key="Graubünden">Graubünden</placeName> abgebildet.</note>
-                    </seg> <lb xml:id="p1-l1"/>
+        <p rend="right" xml:id="K_0515_p1"> <note type="com" xml:id="K_0515_c0">Auf der ersten Briefseite oben ist das Wappen des Kantons <placeName key="Graubünden">Graubünden</placeName> abgebildet.</note> <lb xml:id="p1-l1"/>
           <hi>
-            <placeName type="place" key="Chur">Chur</placeName>
-                    </hi>, den <date when="1847-11-26">26<hi rend="sup">ten</hi> <hi>
-                            <choice>
-                                <abbr>Novb<hi rend="sup">r</hi> </abbr>
-                                <expan>November</expan>
-                            </choice>
-                        </hi> 1847</date>.</p>
+            <placeName key="Chur">Chur</placeName></hi>, den <date when="1847-11-26">26<hi rend="sup">ten</hi> <hi><choice><abbr>Novb<hi rend="sup">r</hi> </abbr><expan>November</expan></choice></hi> 1847</date>.</p>
       </div>
-      <div type="printedheader">
-        <p rend="center" xml:id="K_0515_p2">
-                    <lb xml:id="p1-l2"/>
-          <fw>Der Kleine Rath<lb xml:id="p1-l3"/>
-des Kantons <placeName type="place" key="Graubünden">Graubünden</placeName> <lb xml:id="p1-l4"/>
-an</fw>
+      
+        <p rend="center" xml:id="K_0515_p2"><lb xml:id="p1-l2"/>
+          <hi rend="printed">Der Kleine Rath<lb xml:id="p1-l3"/>
+des Kantons <placeName key="Graubünden">Graubünden</placeName> <lb xml:id="p1-l4"/>
+an</hi>
           
         </p>
-      </div>
-      <div type="address">
-        <p rend="indent" xml:id="K_0515_p3">
-                    <lb xml:id="p1-l5"/>Herrn <hi>Doctor Alfred Escher</hi>, Staatsschreiber<lb xml:id="p1-l6"/>
-in <placeName type="place" key="Zürich">
-                        <hi>Zürich</hi>
-                    </placeName>.</p>
+      
+      <div type="opener">
+        <p rend="indent" xml:id="K_0515_p3"><lb xml:id="p1-l5"/>Herrn <hi>Doctor Alfred Escher</hi>, Staatsschreiber<lb xml:id="p1-l6"/>
+in <placeName key="Zürich"><hi>Zürich</hi></placeName>.</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_0515_p4">
-                    <lb xml:id="p1-l7"/>Hochgeachteter Herr!</p>
+        <p rend="center" xml:id="K_0515_p4"><lb xml:id="p1-l7"/>Hochgeachteter Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_0515_p5">
-                <lb xml:id="p1-l8"/>Unter Bezugnahme auf unser <date when="1847-11-25">gestriges</date> Schreiben bescheinigen<lb xml:id="p1-l9"/>
+    </front><body>
+      <p rend="indent" xml:id="K_0515_p5"><lb xml:id="p1-l8"/>Unter Bezugnahme auf unser <date when="1847-11-25">gestriges</date> Schreiben bescheinigen<lb xml:id="p1-l9"/>
 wir Euch anmit den richtigen Eingang Eurer gefälligen Mittheilung<lb xml:id="p1-l10"/>
-vom <date when="1847-11-24">24<hi rend="sup">ten</hi> <choice>
-                            <abbr>l. M<hi rend="sup">s</hi> </abbr>
-                            <expan>laufenden / letzten Monats</expan>
-                        </choice>
-                </date> über die jüngsten Ereignisse auf dem Kriegsschau<lb break="no" xml:id="p1-l11"/>plaze 
+vom <date when="1847-11-24">24<hi rend="sup">ten</hi> <choice><abbr>l. M<hi rend="sup">s</hi> </abbr><expan>laufenden / letzten Monats</expan></choice></date> über die jüngsten Ereignisse auf dem Kriegsschau<lb xml:id="p1-l11" break="no"/>plaze 
 und statten Euch dafür zugleich den verbindlichsten Dank ab.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_0515_p6">
-                    <lb xml:id="p1-l12"/>Anbei erneuern wir die Versicherung unserer vollkommenen<lb xml:id="p1-l13"/>
+        <p rend="indent" xml:id="K_0515_p6"><lb xml:id="p1-l12"/>Anbei erneuern wir die Versicherung unserer vollkommenen<lb xml:id="p1-l13"/>
 Hochachtung</p>
-        <p rend="right" xml:id="K_0515_p7">
-                    <lb xml:id="p1-l14"/>Der Präsident:</p>
+        <p rend="right" xml:id="K_0515_p7"><lb xml:id="p1-l14"/>Der Präsident:</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0515_p8">
-                    <lb xml:id="p1-l15"/>
-          <persName type="person" key="Latour Alois de">
-                        <hi>Al Latour</hi>
-                    </persName>
+      <div type="signature">
+        <p rend="right" xml:id="K_0515_p8"><lb xml:id="p1-l15"/>
+          <persName key="Latour Alois de"><hi>Al Latour</hi></persName>
         </p>
       </div>
       <div type="closer">
-        <p rend="right" xml:id="K_0515_p9">
-                    <lb xml:id="p1-l16"/>Namens des kleinen Rathes,<lb xml:id="p1-l17"/>
+        <p rend="right" xml:id="K_0515_p9"><lb xml:id="p1-l16"/>Namens des kleinen Rathes,<lb xml:id="p1-l17"/>
 für den Kanzleidirektor:</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0515_p10">
-                    <lb xml:id="p1-l18"/>
-          <persName type="person" key="Schreiber J.">
-                        <hi>J Schreiber</hi>
-                    </persName>
+      <div type="signature">
+        <p rend="right" xml:id="K_0515_p10"><lb xml:id="p1-l18"/>
+          <persName key="Schreiber J."><hi>J Schreiber</hi></persName>
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,142 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_7094" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Giacomo Servadio an Alfred Escher, Rom, Sonntag, November 19, 1871</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_014</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Personelle Angelegenheiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Servadio Giacomo" type="sender">Giacomo Servadio</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Rom</placeName>
-                    <date when="1871-11-19">Sonntag, November 19, 1871</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-09-09" who="MB">transkribiert
-                
-            </change>
-            <change when="2014-06-10" who="IB">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-07-01" who="CH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-03" who="MB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-07" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-07-09" who="CH">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-06" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-06" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_7094" type="Brief"><teiHeader><fileDesc><titleStmt><title>Giacomo Servadio an Alfred Escher, Rom, Sonntag, 19. November 1871</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_014</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Personelle Angelegenheiten</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Servadio Giacomo" type="addressee">Giacomo Servadio</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Rom</placeName><date when="1871-11-19">19. November 1871</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_7094_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Rom (I)">Rome</placeName> le <date when="1871-11-19">19 <choice>
-                            <abbr>9<hi rend="sup">bre</hi> </abbr>
-                            <expan>novembre (November)</expan>
-                        </choice> 1871</date> </p>
+        <p rend="right" xml:id="K_7094_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Rom (I)">Rome</placeName> le <date when="1871-11-19">19 <choice><abbr>9<hi rend="sup">bre</hi> </abbr><expan>novembre (November)</expan></choice> 1871</date> </p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_7094_p2">
-                    <lb xml:id="p1-l2"/>
+      <div type="opener">
+        <p rend="center" xml:id="K_7094_p2"><lb xml:id="p1-l2"/>
 Monsieur Alfred Escher
        <lb xml:id="p1-l3"/>
-          <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>
-                </p>
+          <placeName key="Zürich (Stadt)">Zurich</placeName></p>
         
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_7094_p3">
-                <lb xml:id="p1-l4"/>Je viens de recevoir v<supplied>otre</supplied> <seg type="ref">lettre<ref type="letter" target="K_7082"/>
-                </seg> du <date when="1871-11-15">15 <choice>
-                            <abbr>C<hi rend="sup">t</hi> </abbr>
-                            <expan>Courant (laufenden [Monats])</expan>
-                        </choice>
-                </date> et je
+    </front><body>
+      <p rend="indent" xml:id="K_7094_p3"><lb xml:id="p1-l4"/>Je viens de recevoir v<add>otre</add> <rs>lettre<ref type="letter" target="K_7082"/></rs> du <date when="1871-11-15">15 <choice><abbr>C<hi rend="sup">t</hi> </abbr><expan>Courant (laufenden [Monats])</expan></choice></date> et je
         
-<lb xml:id="p1-l5"/>prends bonne note de tout ce que v<supplied>ous</supplied> me dites au
+<lb xml:id="p1-l5"/>prends bonne note de tout ce que v<add>ous</add> me dites au
         
-                <lb xml:id="p1-l6"/>Sujet de la formation du Conseil du <choice>
-                        <abbr>S<hi rend="sup">t</hi> </abbr>
-                        <expan>Sankt / Sanct / Saint (heilig)</expan>
-                    </choice> Gothard
+                <lb xml:id="p1-l6"/>Sujet de la formation du Conseil du <choice><abbr>S<hi rend="sup">t</hi> </abbr><expan>Sankt / Sanct / Saint (heilig)</expan></choice> Gothard
         
-<lb xml:id="p1-l7"/>toujours prêt à me conformer à v<supplied>os</supplied> desirs.</p>
-      <p rend="indent" xml:id="K_7094_p4">
-                <lb xml:id="p1-l8"/>Je vous remercie infiniment des communi<lb break="no" xml:id="p1-l9"/>cations très interessantes que vous m'y faites et 
+<lb xml:id="p1-l7"/>toujours prêt à me conformer à v<add>os</add> desirs.</p>
+      <p rend="indent" xml:id="K_7094_p4"><lb xml:id="p1-l8"/>Je vous remercie infiniment des communi<lb xml:id="p1-l9" break="no"/>cations très interessantes que vous m'y faites et 
         
-<lb xml:id="p1-l10"/>que j'ai lues avec un vif intérêt.</p>
-      <p rend="indent" xml:id="K_7094_p5">
-                <lb xml:id="p1-l11"/>
-        <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-        <persName type="person" key="Menabrea Luigi Federico">Menabrea</persName> me demande par qui lui sera
+<lb xml:id="p1-l10" break="no"/>que j'ai lues avec un vif intérêt.</p>
+      <p rend="indent" xml:id="K_7094_p5"><lb xml:id="p1-l11"/>
+        <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice>
+        <persName key="Menabrea Luigi Federico">Menabrea</persName> me demande par qui lui sera
         <lb xml:id="p1-l12"/>
 faite la communication officielle de son election comme
         <lb xml:id="p1-l13"/>
 membre du Conseil, quand il devra faire le dépôt de
         
-<lb xml:id="p1-l14"/>ses 20 Obligations dans sa qualité de conseiller d'ad<lb break="no" xml:id="p1-l15"/>ministration, et à quelle époque pourra avoir lieu
+<lb xml:id="p1-l14"/>ses 20 Obligations dans sa qualité de conseiller d'ad<lb xml:id="p1-l15" break="no"/>ministration, et à quelle époque pourra avoir lieu
         
-<lb xml:id="p1-l16"/>la première réunion du Conseil.</p>
-      <p rend="indent" xml:id="K_7094_p6">
-                <lb xml:id="p1-l17"/>Je v<supplied>ous</supplied> serai bien obligé si vous vouliez me
-        <lb xml:id="p1-l18"/> <seg type="ref">répondre<ref type="letter" target="K_7105"/>
-                </seg> quelque chose à ce dernier sujet.</p>
-    </div>
-        </body>
-    <back>
+<lb xml:id="p1-l16" break="no"/>la première réunion du Conseil.</p>
+      <p rend="indent" xml:id="K_7094_p6"><lb xml:id="p1-l17"/>Je v<add>ous</add> serai bien obligé si vous vouliez me
+        <lb xml:id="p1-l18"/> <rs>répondre<ref type="letter" target="K_7105"/></rs> quelque chose à ce dernier sujet.</p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_7094_p7">
-                    <lb xml:id="p1-l19"/>Veuillez agréer Monsieur mes salutations
+        <p rend="indent" xml:id="K_7094_p7"><lb xml:id="p1-l19"/>Veuillez agréer Monsieur mes salutations
         
 <lb xml:id="p1-l20"/>les plus distinguées</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_7094_p8">
-                    <lb xml:id="p1-l21"/>G Servadio
+      <div type="signature">
+        <p rend="right" xml:id="K_7094_p8"><lb xml:id="p1-l21"/>G Servadio
 </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

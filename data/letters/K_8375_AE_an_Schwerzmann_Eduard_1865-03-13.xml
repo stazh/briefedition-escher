@@ -1,99 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8375" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Eduard Schwerzmann, Zürich, Montag, März 13, 1865</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>StadtA Zug</institution>
-                        <idno type="original">A 5-6/2</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Stadträte (allgemein)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Schwerzmann Eduard" type="addressee">Eduard Schwerzmann</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1865-03-13">Montag, März 13, 1865</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-07-30" who="FM">Transkription
-                
-            </change>
-            <change when="2014-08-04" who="CD">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-08-07" who="MA">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-08-07" who="MA">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-25" who="TM">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2015-03-04" who="VP">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-     <div type="printedheader">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8375" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Eduard Schwerzmann, Zürich, Montag, 13. März 1865</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>StadtA Zug</institution><idno>A 5-6/2</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Nordostbahn (NOB)</term><term>Stadträte (allgemein)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Schwerzmann Eduard" type="sender">Eduard Schwerzmann</persName><placeName>Zürich</placeName><date when="1865-03-13">13. März 1865</date></correspAction><correspAction type="received"><placeName>Zug</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+     
         <p rend="left" xml:id="K_8375_p1">
                     <lb xml:id="p1-l1"/>
-          <fw> <seg type="com">BÜLACH–REGENSBERGER-BAHN.<note xml:id="K_8375_c1">
-                                <bibl>BÜLACH–REGENSBERGER-</bibl> nachträglich ersetzt durch <bibl>Nord-Ost-</bibl>.</note>
-                        </seg> <lb xml:id="p1-l2"/>DIRECTION
-      <lb xml:id="p1-l3"/>der <choice>
-                            <abbr>Schweiz. Nordostbahn</abbr>
-                            <expan>Schweizerische Nordostbahn</expan>
-                        </choice>.
-    </fw>
-          <lb xml:id="p1-l4"/>ad <fw>
-                        <choice>
-                            <abbr>N<hi rend="sup">o</hi> </abbr>
-                            <expan>Numero (Nummer)</expan>
-                        </choice>
-                    </fw> 27/531.
+          <hi rend="printed"> BÜLACH–REGENSBERGER-BAHN.<note type="com" xml:id="K_8375_c1">
+                                <orig>BÜLACH–REGENSBERGER-</orig> nachträglich ersetzt durch <orig>Nord-Ost-</orig>.</note>
+                         <lb xml:id="p1-l2"/>DIRECTION
+      <lb xml:id="p1-l3"/>der <choice><abbr>Schweiz. Nordostbahn</abbr><expan>Schweizerische Nordostbahn</expan></choice>.
+    </hi>
+          <lb xml:id="p1-l4"/>ad <hi rend="printed">
+                        <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice>
+                    </hi> 27/531.
     </p>
-      </div>
+      
       <div type="dateline">
         <p rend="right" xml:id="K_8375_p2">
                     <lb xml:id="p1-l5"/>
-          <placeName type="place" key="Zürich (Stadt)">
+          <placeName key="Zürich (Stadt)">
                         <hi>Zürich</hi>
                     </placeName>, den <date when="1865-03-04">4</date>/<date when="1865-03-13">13. <hi>März</hi> 1865.</date>
-                    <seg type="com">
-                        <note xml:id="K_8375_c2">Nachträgliche Notiz von dritter Hand: <bibl>Stadtrath, <date when="1865-04-22">22. <hi>April</hi> 1865</date>.</bibl> </note>
-                    </seg> </p>
+                    
+                        <note type="com" xml:id="K_8375_c2">Nachträgliche Notiz von dritter Hand: <orig>Stadtrath, <date when="1865-04-22">22. <hi>April</hi> 1865</date>.</orig> </note>
+                     </p>
       </div>
-      <div type="address">
+      <div type="opener">
         <p rend="center" xml:id="K_8375_p3">
                     <lb xml:id="p1-l6"/>Herrn Stadtpräsident <hi>Schwerzmann</hi> <lb xml:id="p1-l7"/>in
         <lb xml:id="p1-l8"/>
                     <hi>
                         <hi rend="underline">
-                            <placeName type="place" key="Zug (Stadt)">Zug</placeName>.</hi>
+                            <placeName key="Zug (Stadt)">Zug</placeName>.</hi>
                     </hi> </p>
       </div>
       <div type="opener">
@@ -101,54 +37,47 @@
                     <lb xml:id="p1-l9"/>Hochgeachteter Herr!
         </p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_8375_p5">
                 <lb xml:id="p1-l10"/>Unter Bezugnahme auf die Verhandlungen, welche im
     <lb xml:id="p1-l11"/>letzten Herbste zwischen Ihnen und unserm Präsidenten in der Absicht
     <lb xml:id="p1-l12"/>gepflogen worden sind, einer Verumstaltung des Bahnhofgebäudes
     <lb xml:id="p1-l13"/>durch Bauten, die auf der Südseite desselben etwa zur Ausführung
-    <lb xml:id="p1-l14"/>gebracht werden möchten, vorzubeugen, beehren wir uns, Ihnen mit<lb break="no" xml:id="p1-l15"/>folgend, wie Sie es gewünscht haben, einen Plan für die zukünftige
-    <lb xml:id="p1-l16"/>bauliche Gestaltung der Umgebung des Bahnhofes, sowie den Ent<lb break="no" xml:id="p1-l17"/>wurf zu einem daherigen Baureglemente zu Handen des <choice>
-                        <abbr>Tit.</abbr>
-                        <expan>Titulo (mit Titel)</expan>
-                    </choice> Stadt<lb break="no" xml:id="p1-l18"/>rathes <placeName type="place" key="Zug (Stadt)">Zug</placeName> darzulegen.
+    <lb xml:id="p1-l14"/>gebracht werden möchten, vorzubeugen, beehren wir uns, Ihnen mit
+                <lb xml:id="p1-l15" break="no"/>folgend, wie Sie es gewünscht haben, einen Plan für die zukünftige
+    <lb xml:id="p1-l16" break="no"/>bauliche Gestaltung der Umgebung des Bahnhofes, sowie den Ent
+                <lb xml:id="p1-l17" break="no"/>wurf zu einem daherigen Baureglemente zu Handen des <choice><abbr>Tit.</abbr><expan>Titulo (mit Titel)</expan></choice> Stadt
+                <lb xml:id="p1-l18" break="no"/>rathes <placeName key="Zug (Stadt)">Zug</placeName> darzulegen.
     </p>
       <p rend="indent" xml:id="K_8375_p6">
                 <lb xml:id="p1-l19"/>Für den Fall, daß dieser Plan ausgeführt und das
     <lb xml:id="p1-l20"/>dazu gehörende Baureglement zur Geltung gebracht wird, erklären
-    <lb xml:id="p1-l21"/>wir uns bereit, das im Eigenthum der Nordostbahngesellschaft be<lb break="no" xml:id="p1-l22"/>findliche Land, welches gemäß dem Plane für die Durchführung
+    <lb xml:id="p1-l21"/>wir uns bereit, das im Eigenthum der Nordostbahngesellschaft be
+                <lb xml:id="p1-l22" break="no"/>findliche Land, welches gemäß dem Plane für die Durchführung
     <pb n="2"/>
-                    <lb xml:id="p2-l1"/>desselben in Anspruch genommen wird, unentgeltlich abzutreten.
-    <lb xml:id="p2-l2"/>Dabei hat es jedoch die bestimmte Meinung, daß die Nord<lb break="no" xml:id="p2-l3"/>ostbahngesellschaft auf etwaige Ansinnen zu weitern daherigen
-    <lb xml:id="p2-l4"/>Leistungen nicht eintreten könnte und zwar umso weniger, als sie
-    <lb xml:id="p2-l5"/>ohnehin schon sehr belangreiche Opfer für den Bahnhof <placeName type="place" key="Zug (Stadt)">Zug</placeName> gebracht
-    <lb xml:id="p2-l6"/>hat.
+                <lb xml:id="p2-l1" break="no"/>desselben in Anspruch genommen wird, unentgeltlich abzutreten.
+    <lb xml:id="p2-l2" break="no"/>Dabei hat es jedoch die bestimmte Meinung, daß die Nord
+                <lb xml:id="p2-l3" break="no"/>ostbahngesellschaft auf etwaige Ansinnen zu weitern daherigen
+    <lb xml:id="p2-l4" break="no"/>Leistungen nicht eintreten könnte und zwar umso weniger, als sie
+    <lb xml:id="p2-l5" break="no"/>ohnehin schon sehr belangreiche Opfer für den Bahnhof <placeName key="Zug (Stadt)">Zug</placeName> gebracht
+    <lb xml:id="p2-l6" break="no"/>hat.
     </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="indent" xml:id="K_8375_p7">
-                    <lb xml:id="p2-l7"/>Einer gefälligen Mittheilung über die dortseitige Erledig<lb break="no" xml:id="p2-l8"/>ung dieser Angelegenheit entgegensehend, benutzen wir auch diesen
-    <lb xml:id="p2-l9"/>Anlaß, Sie unserer vorzüglichen Hochachtung zu versichern.
+                    <lb xml:id="p2-l7"/>Einer gefälligen Mittheilung über die dortseitige Erledig
+                    <lb xml:id="p2-l8" break="no"/>ung dieser Angelegenheit entgegensehend, benutzen wir auch diesen
+    <lb xml:id="p2-l9" break="no"/>Anlaß, Sie unserer vorzüglichen Hochachtung zu versichern.
     </p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_8375_p8">
                     <lb xml:id="p2-l10"/>
           <hi>Für die Direction
-            <lb xml:id="p2-l11"/>der <choice>
-                            <abbr>schweiz. Nordostbahngesellschaft</abbr>
-                            <expan>schweizerische Nordostbahngesellschaft</expan>
-                        </choice>,
+            <lb xml:id="p2-l11"/>der <choice><abbr>schweiz. Nordostbahngesellschaft</abbr><expan>schweizerische Nordostbahngesellschaft</expan></choice>,
             <lb xml:id="p2-l12"/>Der Präsident:</hi>
           <lb xml:id="p2-l13"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher
     </p>
       </div>
       <div type="attachment">
@@ -156,16 +85,11 @@
                     <lb xml:id="p2-l14"/>
         <hi rend="underline">Beilagen:</hi>
         <lb xml:id="p2-l15"/>1 Plan &amp;
-        <lb xml:id="p2-l16"/>1 Entwurf zu einem Baureglement.<seg type="com">
-                        <note xml:id="K_8375_c3">Nachträgliche Notiz von dritter Hand: <bibl>Mit beigelegtem Plane &amp; dem Baureglemente erklären sich | einverstanden: | <placeName type="place" key="Zug (Stadt)">Zug</placeName>, den <date when="1865-04-03">3ten <hi>April</hi> 1865</date>. | 
-         E. Schwerzmann, <choice>
-                                    <abbr>Psdt.</abbr>
-                                    <expan>Präsident</expan>
-                                </choice> | <persName type="person" key="Luthiger Caspar Anton">C. A. Luthiger</persName> | 
-         <persName type="person" key="Landtwing Karl Anton">C. A. Landtwing</persName> | <persName type="person" key="Keiser Wilhelm Adolf">W. A. Keiser</persName> | 
-         <persName type="person" key="Stadlin J.">J. Stadlin</persName>
-                            </bibl>.</note>
-                    </seg> </p> </div>
-    </back>
-  </text>
-</TEI>
+        <lb xml:id="p2-l16"/>1 Entwurf zu einem Baureglement.
+                        <note type="com" xml:id="K_8375_c3">Nachträgliche Notiz von dritter Hand: <orig>Mit beigelegtem Plane &amp; dem Baureglemente erklären sich | einverstanden: | <placeName key="Zug (Stadt)">Zug</placeName>, den <date when="1865-04-03">3ten <hi>April</hi> 1865</date>. | 
+         E. Schwerzmann, <choice><abbr>Psdt.</abbr><expan>Präsident</expan></choice> | <persName key="Luthiger Caspar Anton">C. A. Luthiger</persName> | 
+         <persName key="Landtwing Karl Anton">C. A. Landtwing</persName> | <persName key="Keiser Wilhelm Adolf">W. A. Keiser</persName> | 
+         <persName key="Stadlin J.">J. Stadlin</persName>
+                            </orig>.</note>
+                     </p> </div>
+    </back></text></TEI>

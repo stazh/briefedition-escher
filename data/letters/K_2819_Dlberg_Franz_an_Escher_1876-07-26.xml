@@ -1,147 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2819" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Franz Dülberg an Alfred Escher, Berlin, Mittwoch, Juli 26, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#175*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Dülberg Franz" type="sender">Franz Dülberg</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Berlin</placeName>
-                    <date when="1876-07-26">Mittwoch, Juli 26, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-08-21" who="LH">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="LW">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="IB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="CR">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="NS">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-05-19" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-21" who="SWK">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-04-09" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2819" type="Brief"><teiHeader><fileDesc><titleStmt><title>Franz Dülberg an Alfred Escher, Berlin, Mittwoch, 26. Juli 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#175*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Dülberg Franz" type="addressee">Franz Dülberg</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Berlin</placeName><date when="1876-07-26">26. Juli 1876</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2819_p1">
-                    <lb xml:id="p1-l1"/>
+        <p rend="right" xml:id="K_2819_p1"><lb xml:id="p1-l1"/>
           <hi>
-            <placeName type="place" key="Berlin (D)">Berlin</placeName>
-          </hi>-<choice>
-                        <abbr>
-                        <hi>W</hi> </abbr>
-                        <expan>West</expan>
-                    </choice>-, <date when="1876-07-26">26. <hi>Juli</hi> 1876</date> </p>
+            <placeName key="Berlin (D)">Berlin</placeName>
+          </hi>-<choice><abbr><hi>W</hi> </abbr><expan>West</expan></choice>-, <date when="1876-07-26">26. <hi>Juli</hi> 1876</date> </p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_2819_p2">
-                    <lb xml:id="p1-l2"/>Hochverehrter Herr Präsident!</p>
+        <p rend="left" xml:id="K_2819_p2"><lb xml:id="p1-l2"/>Hochverehrter Herr Präsident!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2819_p3">
-                <lb xml:id="p1-l3"/>Auf Ihre freundlichen <seg type="ref">Zeilen<ref type="letter" target="K_2818"/>
-                </seg> vom <date when="1876-07-22">22. c</date> <lb xml:id="p1-l4"/>beehre ich mich Ihnen ergebenst mitzutheilen, 
+    </front><body>
+      <p rend="indent" xml:id="K_2819_p3"><lb xml:id="p1-l3"/>Auf Ihre freundlichen <rs>Zeilen<ref type="letter" target="K_2818"/></rs> vom <date when="1876-07-22">22. c</date> <lb xml:id="p1-l4"/>beehre ich mich Ihnen ergebenst mitzutheilen, 
             <lb xml:id="p1-l5"/>daß ich <date when="1876-07-27">morgen</date> von hier nach der <hi>Schweiz</hi> <lb xml:id="p1-l6"/>abzureisen und nach einigen Unterbrechungen 
-            <lb xml:id="p1-l7"/>am <date when="1876-08-01">1. <hi>August</hi> </date> in <hi>
-                    <placeName type="place" key="Luzern (Stadt)">Luzern</placeName> </hi> Hôtel <hi>Schweizer 
+            <lb xml:id="p1-l7"/>am <date when="1876-08-01">1. <hi>August</hi> </date> in <hi><placeName key="Luzern (Stadt)">Luzern</placeName> </hi> Hôtel <hi>Schweizer 
             <lb xml:id="p1-l8"/>Hof</hi> einzutreffen gedenke, von da werde 
-            <lb xml:id="p1-l9"/>ich am <date when="1876-08-03">3. <hi>August</hi> </date> nach <hi>
-                    <placeName type="place" key="Bürgenstock">Bürgenstock</placeName> </hi> bei 
-            <lb xml:id="p1-l10"/>
-                <hi>
-                    <placeName type="place" key="Stansstad">Stansstad</placeName> </hi> reisen und daselbst im Hôtel glei<lb break="no" xml:id="p1-l11"/>chen Namens bis mindestens <date when="1876-08-15">15.</date>
-                    <choice>
-                        <abbr>
-                    <hi>resp</hi>.</abbr>
-                        <expan>respektive / respective</expan>
-                    </choice>
-                    <date when="1876-08-20">20.
-            <lb xml:id="p1-l12"/>
-                    <hi>August</hi> </date> verbleiben. Meine Rückreise, welche 
-            <lb xml:id="p1-l13"/>gegen Ende <hi>August</hi> stattfinden würde, wollte 
-            <lb xml:id="p1-l14"/>ich über <hi>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> </hi> nehmen und würde mir 
-            <lb xml:id="p1-l15"/>dann das Vergnügen nicht versagen, Ihnen 
-            <lb xml:id="p1-l16"/>meine Aufwartung zu machen. Selbstredend 
-            <lb xml:id="p1-l17"/>stehe ich aber, sowohl während meines Aufent<lb break="no" xml:id="p1-l18"/>halts in <hi>
-                    <placeName type="place" key="Luzern (Stadt)">Luzern</placeName>
-                </hi>, als auch während meines 
-            <lb xml:id="p1-l19"/>Aufenthalts in <hi>
-                    <placeName type="place" key="Bürgenstock">Bürgenstock</placeName> </hi> sehr gern zu 
-            <lb xml:id="p1-l20"/>Ihrer Verfügung und bitte ich mir <choice>
-                        <abbr>
-                    <hi>event</hi>.</abbr>
-                        <expan>eventuell</expan>
-                    </choice>
-                    <pb n="2"/>
-                    <lb xml:id="p2-l1"/>nach dem einen oder andern Orte gefälligst 
-            <lb xml:id="p2-l2"/>Nachricht zukommen zu lassen, wo <choice>
-                        <abbr>
-                    <hi>resp</hi>.</abbr>
-                        <expan>respektive / respective</expan>
-                    </choice> wann 
-            <lb xml:id="p2-l3"/>Ihnen eine Conferenz mit mir genehm 
-            <lb xml:id="p2-l4"/>sein würde.</p>
-    </div>
-        </body>
-    <back>
+            <lb xml:id="p1-l9"/>ich am <date when="1876-08-03">3. <hi>August</hi> </date> nach <hi><placeName key="Bürgenstock">Bürgenstock</placeName> </hi> bei 
+            <lb xml:id="p1-l10"/><hi><placeName key="Stansstad">Stansstad</placeName> </hi> reisen und daselbst im Hôtel glei<lb xml:id="p1-l11" break="no"/>chen Namens bis mindestens <date when="1876-08-15">15.</date> <choice><abbr><hi>resp</hi>.</abbr><expan>respektive / respective</expan></choice> <date when="1876-08-20">20.
+            <lb xml:id="p1-l12"/><hi>August</hi> </date> verbleiben. Meine Rückreise, welche 
+            <lb xml:id="p1-l13" break="no"/>gegen Ende <hi>August</hi> stattfinden würde, wollte 
+            <lb xml:id="p1-l14" break="no"/>ich über <hi><placeName key="Zürich (Stadt)">Zürich</placeName> </hi> nehmen und würde mir 
+            <lb xml:id="p1-l15" break="no"/>dann das Vergnügen nicht versagen, Ihnen 
+            <lb xml:id="p1-l16" break="no"/>meine Aufwartung zu machen. Selbstredend 
+            <lb xml:id="p1-l17" break="no"/>stehe ich aber, sowohl während meines Aufent<lb xml:id="p1-l18" break="no"/>halts in <hi><placeName key="Luzern (Stadt)">Luzern</placeName></hi>, als auch während meines 
+            <lb xml:id="p1-l19" break="no"/>Aufenthalts in <hi><placeName key="Bürgenstock">Bürgenstock</placeName> </hi> sehr gern zu 
+            <lb xml:id="p1-l20" break="no"/>Ihrer Verfügung und bitte ich mir <choice><abbr><hi>event</hi>.</abbr><expan>eventuell</expan></choice> <pb n="2"/><lb xml:id="p2-l1" break="no"/>nach dem einen oder andern Orte gefälligst 
+            <lb xml:id="p2-l2" break="no"/>Nachricht zukommen zu lassen, wo <choice><abbr><hi>resp</hi>.</abbr><expan>respektive / respective</expan></choice> wann 
+            <lb xml:id="p2-l3" break="no"/>Ihnen eine Conferenz mit mir genehm 
+            <lb xml:id="p2-l4" break="no"/>sein würde.</p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2819_p4">
-                    <lb xml:id="p2-l5"/>Ich verbleibe, hochgeehrter Herr Präsident </p>
-        <p rend="right" xml:id="K_2819_p5">
-                    <lb xml:id="p2-l6"/>mit besonderer Hochachtung
+        <p rend="indent" xml:id="K_2819_p4"><lb xml:id="p2-l5"/>Ich verbleibe, hochgeehrter Herr Präsident </p>
+        <p rend="right" xml:id="K_2819_p5"><lb xml:id="p2-l6"/>mit besonderer Hochachtung
                 <lb xml:id="p2-l7"/>Ihr ergebenster </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2819_p6">
-                    <lb xml:id="p2-l8"/>Dülberg</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2819_p6"><lb xml:id="p2-l8"/>Dülberg</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

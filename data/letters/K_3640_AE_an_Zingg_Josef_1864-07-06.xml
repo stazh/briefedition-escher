@@ -1,135 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3640" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Josef Zingg, Bern, Mittwoch, Juli 6, 1864</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_053</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Zingg Josef" type="addressee">Josef Zingg</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1864-07-06">Mittwoch, Juli 6, 1864</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2012-08-21" who="ML">Brief transkribiert
-                
-            </change>
-            <change when="2012-09-05" who="FK">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-01-18" who="PR">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-13" who="LH">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2014-01-14" who="CF">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-02-06" who="LW">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-05-20" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-05-26" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3640" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Josef Zingg, Bern, Mittwoch, 06. Juli 1864</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_053</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Zingg Josef" type="sender">Josef Zingg</persName><placeName>Bern</placeName><date when="1864-07-06">06. Juli 1864</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_3640_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_3640_c0">Nachträgliche Notiz oben rechts von dritter Hand mit Bleistift: <bibl>
-                                <date when="1864-07-06">6. Juli 64</date>
-                            </bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>Hochgeachteter Herr Regierungsrath!</p>
+        <p rend="indent" xml:id="K_3640_p1"> <note type="com" xml:id="K_3640_c0">Nachträgliche Notiz oben rechts von dritter Hand mit Bleistift: <orig><date when="1864-07-06">6. Juli 64</date></orig>.</note> <lb xml:id="p1-l1"/>Hochgeachteter Herr Regierungsrath!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_3640_p2">
-                <lb xml:id="p1-l2"/>Beiliegendes Blättchen enthält eine Abschrift
-		<lb xml:id="p1-l3"/>eines Theiles eines Briefes, den <choice>
-                        <abbr>H</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Peyer im Hof Johann Friedrich">Peyer im Hof</persName> von
-		<lb xml:id="p1-l4"/>
-                <persName type="person" key="Korrespondent Johann Friedrich Peyer im Hofs">seinem Correspondenten</persName> in <placeName type="place" key="Turin (I)">Turin</placeName>
- erhalten hat. Ich über<lb break="no" xml:id="p1-l5"/>mittle Ihnen dasselbe, annehmend, es sei Ihnen viel<lb break="no" xml:id="p1-l6"/>leicht erwünscht, seinen Inhalt zu kennen.
+    </front><body>
+      <p rend="indent" xml:id="K_3640_p2"><lb xml:id="p1-l2"/>Beiliegendes Blättchen enthält eine Abschrift
+		<lb xml:id="p1-l3"/>eines Theiles eines Briefes, den <choice><abbr>H</abbr><expan>Herr</expan></choice> <persName key="Peyer im Hof Johann Friedrich">Peyer im Hof</persName> von
+		<lb xml:id="p1-l4"/><persName key="Korrespondent Johann Friedrich Peyer im Hofs">seinem Correspondenten</persName> in <placeName key="Turin (I)">Turin</placeName>
+ erhalten hat. Ich über<lb xml:id="p1-l5" break="no"/>mittle Ihnen dasselbe, annehmend, es sei Ihnen viel<lb xml:id="p1-l6" break="no"/>leicht erwünscht, seinen Inhalt zu kennen.
 		</p>
-      <p rend="indent" xml:id="K_3640_p3">
-                <lb xml:id="p1-l7"/>Den mir <choice>
-                        <abbr>gef.</abbr>
-                        <expan>gefällig</expan>
-                    </choice> übermittelten Brief des <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <lb xml:id="p1-l8"/>
-                <persName type="person" key="Koller Gottlieb">Koller</persName> <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <date when="1864-05-21">21 <choice>
-                            <abbr>v. M.</abbr>
-                            <expan>vorigen / vergangenen Monats</expan>
-                        </choice> </date> sende ich Ihnen anmit mit bestem
+      <p rend="indent" xml:id="K_3640_p3"><lb xml:id="p1-l7"/>Den mir <choice><abbr>gef.</abbr><expan>gefällig</expan></choice> übermittelten Brief des <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <lb xml:id="p1-l8"/><persName key="Koller Gottlieb">Koller</persName> <choice><abbr>v.</abbr><expan>von</expan></choice> <date when="1864-05-21">21 <choice><abbr>v. M.</abbr><expan>vorigen / vergangenen Monats</expan></choice> </date> sende ich Ihnen anmit mit bestem
 		<lb xml:id="p1-l9"/>Danke zurück.
 		</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_3640_p4">
-                    <lb xml:id="p1-l10"/>Da ich in einer Viertelstunde abreisen
+        <p rend="indent" xml:id="K_3640_p4"><lb xml:id="p1-l10"/>Da ich in einer Viertelstunde abreisen
 		<lb xml:id="p1-l11"/>muß, so kann ich Ihnen nur noch die Versicherung
 		<lb xml:id="p1-l12"/>meiner freundschaftlichen Hochachtung erneuern.
 		</p>
-        <p rend="center" xml:id="K_3640_p5">
-                    <lb xml:id="p1-l13"/>Ihr ergebener
+        <p rend="center" xml:id="K_3640_p5"><lb xml:id="p1-l13"/>Ihr ergebener
 		</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_3640_p6">
-                    <lb xml:id="p1-l14"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher
+      <div type="signature">
+        <p rend="right" xml:id="K_3640_p6"><lb xml:id="p1-l14"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher
 		</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_3640_p7">
-                    <lb xml:id="p1-l15"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName>
+        <p rend="left" xml:id="K_3640_p7"><lb xml:id="p1-l15"/>
+          <placeName key="Bern (Stadt)">Bern</placeName>
           <lb xml:id="p1-l16"/>
           <date when="1864-07-06">6 Juli 1864</date>.
 		</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

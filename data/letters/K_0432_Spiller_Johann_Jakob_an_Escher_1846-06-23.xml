@@ -1,238 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0432" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Spiller an Alfred Escher, Elgg, Dienstag, Juni 23, 1846</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#459*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Wahlen</item>
-                        <item>Berufsleben</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Spiller Johann Jakob" type="sender">Johann Jakob Spiller</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Elgg</placeName>
-                    <date when="1846-06-23">Dienstag, Juni 23, 1846</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-10-20" who="MW">Transkribiert
-                
-            </change>
-            <change when="2010-12-02" who="BK">von Word nach XML
-        konvertiert
-                
-            </change>
-            <change when="2011-07-05" who="AH">e-Edition: Auszeichnung 1
-          umgesetzt
-                
-            </change>
-            <change when="2011-07-07" who="TM">e-Edition: Verifizierung 1
-          umgesetzt
-                
-            </change>
-            <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen
-          umgesetzt
-                
-            </change>
-            <change when="2011-07-26" who="BP">e-Edition: Auszeichnung 2
-          umgesetzt
-                
-            </change>
-            <change when="2011-07-28" who="AH">e-Edition: Verifizierung 2
-          umgesetzt
-                
-            </change>
-            <change when="2011-08-30" who="CF">Transkriptionsverifizierung T. Binder
-          umgesetzt
-                
-            </change>
-            <change when="2014-12-18" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2016-12-20" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0432" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Spiller an Alfred Escher, Elgg, Dienstag, 23. Juni 1846</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#459*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Wahlen</term><term>Berufsleben</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Spiller Johann Jakob" type="addressee">Johann Jakob Spiller</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Elgg</placeName><date when="1846-06-23">23. Juni 1846</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="right" xml:id="K_0432_p1">
                     <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Elgg">
+          <placeName key="Elgg">
                         <hi>Elgg</hi>
                     </placeName> den <date when="1846-06-23">23 <hi>Juni</hi> 46</date>.</p>
       </div>
       <div type="opener">
         <p rend="indent" xml:id="K_0432_p2">
-                    <lb xml:id="p1-l2"/>Hochgeachteter Herr <choice>
-                        <abbr>
-                        <hi>D<hi rend="sup">r</hi>
-                        </hi> </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice>!</p>
+                    <lb xml:id="p1-l2"/>Hochgeachteter Herr <choice><abbr><hi>D<hi rend="sup">r</hi></hi> </abbr><expan>Doktor / Doctor</expan></choice>!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_0432_p3">
                 <lb xml:id="p1-l3"/>Verübeln Sie mir nicht, wenn ich Sie in einer Sache in Anspruch<lb xml:id="p1-l4"/> nehme, die noch nicht einmal zur Reife gediehen ist, vielmehr erst von<lb xml:id="p1-l5"/> dem Zutreffen anderer Umstände abhängt.</p>
       <p rend="indent" xml:id="K_0432_p4">
-                <lb xml:id="p1-l6"/>Ich war letzter Tage auf Besuch bei <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <choice>
-                        <abbr>Landschrbr</abbr>
-                        <expan>Landschreiber</expan>
-                    </choice> <persName type="person" key="Kunz Heinrich (Landschreiber)">Kunz</persName>
-        in <placeName type="place" key="Andelfingen">Andel<lb break="no" xml:id="p1-l7"/>fingen</placeName> &amp; hörte
-        daselbst, daß wahrscheinlich der <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> Gerichtsschreiber <persName type="person" key="Stadler Albert">Stadler</persName> <lb xml:id="p1-l8"/>in <placeName type="place" key="Zürich">Zürich</placeName> zum <choice>
-                        <abbr>Bez.</abbr>
-                        <expan>Bezirk</expan>
-                    </choice> Richter gewählt werde. Wie
-        weit dies seine Richtig<lb break="no" xml:id="p1-l9"/>keit haben mag, wissen Sie nun wohl. Man muß dies
-        für <choice>
-                        <abbr>zieml</abbr>
-                        <expan>ziemlich</expan>
-                    </choice>
-                    <lb xml:id="p1-l10"/>sicher halten, weil bereits
-        verschiedene junge Leute <choice>
-                        <abbr>rücksichtl</abbr>
-                        <expan>rücksichtlich</expan>
-                    </choice> der<lb xml:id="p1-l11"/>dannzumal neu zu besetzenden Stelle eines Gerichtsschreibers zu agiren<lb xml:id="p1-l12"/>anfangen oder wenigstens vorläufig lüsterne Blicke hinwerfen. – Ich<lb xml:id="p1-l13"/>glaube
-        schon jetzt sämmtliche Aspiranten zu kennen, &amp; sofern wirklich<lb xml:id="p1-l14"/>nicht
-          eine unerwartete Meldung eingeht, möchte unter denselben<lb xml:id="p1-l15"/>der
-        Sohn des dortigen <persName type="person" key="Schenk Johann Jakob">Statthalters</persName>, der
-        Zunftgerichtsschrbr <persName type="person" key="Schenk Johann Jakob (Zunftgerichtsschreiber)">Schenk</persName> von<lb xml:id="p1-l16"/>
-                    <placeName type="place" key="Uhwiesen (Laufen-Uhwiesen)">Uhwiesen</placeName>, aus Familienrücksichten
-        zunächst am meisten <hi>Chance</hi> haben.<lb xml:id="p1-l17"/>Es ist dies ein junger Mann von meinen
-        Jahren, der ein Jahr lang<lb xml:id="p1-l18"/>in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> studirt <choice>
-                        <abbr>d. h.</abbr>
-                        <expan>das heisst / das heißt</expan>
-                    </choice> eine hellgrüne Müze getragen
-        &amp; ein Heft<lb xml:id="p1-l19"/>über <placeName type="place" key="Zürich">zürcherisches</placeName>
+                <lb xml:id="p1-l6"/>Ich war letzter Tage auf Besuch bei <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <choice><abbr>Landschrbr</abbr><expan>Landschreiber</expan></choice> <persName key="Kunz Heinrich (Landschreiber)">Kunz</persName>
+        in <placeName key="Andelfingen">Andel
+                    <lb xml:id="p1-l7" break="no"/>fingen</placeName> &amp; hörte
+        daselbst, daß wahrscheinlich der <choice><abbr>Hr</abbr><expan>Herr</expan></choice> Gerichtsschreiber <persName key="Stadler Albert">Stadler</persName> <lb xml:id="p1-l8"/>in <placeName key="Zürich">Zürich</placeName> zum <choice><abbr>Bez.</abbr><expan>Bezirk</expan></choice> Richter gewählt werde. Wie
+        weit dies seine Richtig
+                <lb xml:id="p1-l9" break="no"/>keit haben mag, wissen Sie nun wohl. Man muß dies
+        für <choice><abbr>zieml</abbr><expan>ziemlich</expan></choice> <lb xml:id="p1-l10" break="no"/>sicher halten, weil bereits
+        verschiedene junge Leute <choice><abbr>rücksichtl</abbr><expan>rücksichtlich</expan></choice> der<lb xml:id="p1-l11" break="no"/>dannzumal neu zu besetzenden Stelle eines Gerichtsschreibers zu agiren<lb xml:id="p1-l12" break="no"/>anfangen oder wenigstens vorläufig lüsterne Blicke hinwerfen. – Ich<lb xml:id="p1-l13" break="no"/>glaube
+        schon jetzt sämmtliche Aspiranten zu kennen, &amp; sofern wirklich<lb xml:id="p1-l14" break="no"/>nicht
+          eine unerwartete Meldung eingeht, möchte unter denselben<lb xml:id="p1-l15" break="no"/>der
+        Sohn des dortigen <persName key="Schenk Johann Jakob">Statthalters</persName>, der
+        Zunftgerichtsschrbr <persName key="Schenk Johann Jakob (Zunftgerichtsschreiber)">Schenk</persName> von<lb xml:id="p1-l16" break="no"/>
+                <placeName key="Uhwiesen (Laufen-Uhwiesen)">Uhwiesen</placeName>, aus Familienrücksichten
+        zunächst am meisten <hi>Chance</hi> haben.<lb xml:id="p1-l17" break="no"/>Es ist dies ein junger Mann von meinen
+        Jahren, der ein Jahr lang<lb xml:id="p1-l18" break="no"/>in <placeName key="Zürich (Stadt)">Zürich</placeName> studirt <choice><abbr>d. h.</abbr><expan>das heisst / das heißt</expan></choice> eine hellgrüne Müze getragen
+        &amp; ein Heft<lb xml:id="p1-l19" break="no"/>über <placeName key="Zürich">zürcherisches</placeName>
         Privatrecht zusammengeschrieben hat.</p>
       <p rend="indent" xml:id="K_0432_p5">
-                <lb xml:id="p1-l20"/>Wie Sie wissen hat mein Streben, das Procurator-Examen zu<lb xml:id="p1-l21"/>absolviren nur den Zweck mich auszubilden, eine dieser Absicht<lb xml:id="p1-l22"/>entsprechende Anstellung wäre mir aber um so mehr willkommen,<lb xml:id="p1-l23"/>als <persName type="person" key="Spiller Heinrich">mein Vater</persName> immer mehr an mir verzweifeln will.
-        Indeß<lb xml:id="p1-l24"/>äußerte ich mich in <placeName type="place" key="Andelfingen">Andelfingen</placeName> weder zu <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Kunz Heinrich (Landschreiber)">
-                    <choice>
-                            <abbr>Ldschrbr</abbr>
-                            <expan>Landschreiber</expan>
-                        </choice>
-                </persName> noch zu <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <lb xml:id="p1-l25"/>
-                <persName type="person" key="Stadler Albert">Gerichtsschreiber</persName>, einmal weil ich einen solchen Schritt nicht thun mag<lb xml:id="p1-l26"/>ohne mir vorher <add>mit Hinsicht auf die <choice>
-                            <abbr>erforderl</abbr>
-                            <expan>erforderlich</expan>
-                        </choice>
+                <lb xml:id="p1-l20"/>Wie Sie wissen hat mein Streben, das Procurator-Examen zu<lb xml:id="p1-l21"/>absolviren nur den Zweck mich auszubilden, eine dieser Absicht<lb xml:id="p1-l22"/>entsprechende Anstellung wäre mir aber um so mehr willkommen,<lb xml:id="p1-l23"/>als <persName key="Spiller Heinrich">mein Vater</persName> immer mehr an mir verzweifeln will.
+        Indeß<lb xml:id="p1-l24"/>äußerte ich mich in <placeName key="Andelfingen">Andelfingen</placeName> weder zu <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Kunz Heinrich (Landschreiber)">
+                    <choice><abbr>Ldschrbr</abbr><expan>Landschreiber</expan></choice>
+                </persName> noch zu <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <lb xml:id="p1-l25"/>
+                <persName key="Stadler Albert">Gerichtsschreiber</persName>, einmal weil ich einen solchen Schritt nicht thun mag<lb xml:id="p1-l26"/>ohne mir vorher <add>mit Hinsicht auf die <choice><abbr>erforderl</abbr><expan>erforderlich</expan></choice>
         Kenntnisse</add> am geeigneten Orte Rath erholt zu haben &amp; sodann<pb n="2"/>
                 <lb xml:id="p2-l1"/>weil ich mit einer Meldung nicht ganz elend zum Vorschein<lb xml:id="p2-l2"/>kommen möchte.
         Gerade rücksichtlich dieser Puncte erlaube ich mir<lb xml:id="p2-l3"/>Ihre Güte in Anspruch zu
         nehmen. Könnten Sie mir rathen &amp; <lb xml:id="p2-l4"/>mich ermuthigen auf diese Stelle zu
-        aspiriren, so würde <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> <choice>
-                        <abbr>Ldschrbr</abbr>
-                        <expan>Landschreiber</expan>
-                    </choice> <lb xml:id="p2-l5"/>&amp; Kantonsrath <persName type="person" key="Kunz Heinrich (Landschreiber)">Kunz</persName> ganz besonders der Mann sein, der mich dann<lb xml:id="p2-l6"/>
-                <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Schenk Johann Jakob">Schenk</persName>
+        aspiriren, so würde <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <choice><abbr>Ldschrbr</abbr><expan>Landschreiber</expan></choice> <lb xml:id="p2-l5"/>&amp; Kantonsrath <persName key="Kunz Heinrich (Landschreiber)">Kunz</persName> ganz besonders der Mann sein, der mich dann<lb xml:id="p2-l6"/>
+                <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Schenk Johann Jakob">Schenk</persName>
         gegenüber mit Erfolg empfehlen könnte. Ich<lb xml:id="p2-l7"/>kenne seinen großen Einfluß auf
         die einzelnen Richter. Und<lb xml:id="p2-l8"/>hinwieder wären Sie ganz besonders im Stande, den
-        <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Kunz Heinrich (Landschreiber)">
-                    <choice>
-                            <abbr>Ldschrbr</abbr>
-                            <expan>Landschreiber</expan>
-                        </choice>
-                </persName> <lb xml:id="p2-l9"/>ernstlich zu meinen Gunsten zu stimmen. indem Sie beiläufig<lb xml:id="p2-l10"/>&amp; für den Fall ihre Meinung abgäben &amp; einige Worte zu meinen<lb xml:id="p2-l11"/>Gunsten fallen ließen. Ohne dies würde <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> <choice>
-                        <abbr>Ldschrbr</abbr>
-                        <expan>Landschreiber</expan>
-                    </choice> <persName type="person" key="Kunz Heinrich (Landschreiber)">Kunz</persName>
+        <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Kunz Heinrich (Landschreiber)">
+                    <choice><abbr>Ldschrbr</abbr><expan>Landschreiber</expan></choice>
+                </persName> <lb xml:id="p2-l9"/>ernstlich zu meinen Gunsten zu stimmen. indem Sie beiläufig<lb xml:id="p2-l10"/>&amp; für den Fall ihre Meinung abgäben &amp; einige Worte zu meinen<lb xml:id="p2-l11"/>Gunsten fallen ließen. Ohne dies würde <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <choice><abbr>Ldschrbr</abbr><expan>Landschreiber</expan></choice> <persName key="Kunz Heinrich (Landschreiber)">Kunz</persName>
         nie<lb xml:id="p2-l12"/>Impuls genug haben sich meiner mit der nöthigen <hi>Energie</hi> <lb xml:id="p2-l13"/>anzunehmen &amp; vielleicht lebe ich bei dem Gerichte als ehemaliger<lb xml:id="p2-l14"/>Auditor noch in besserer Erinnerung als aus den Notariatsgeschäften<lb xml:id="p2-l15"/>bei
-        <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Kunz Heinrich (Landschreiber)">
-                    <choice>
-                            <abbr>Ldschrbr</abbr>
-                            <expan>Landschreiber</expan>
-                        </choice>
+        <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Kunz Heinrich (Landschreiber)">
+                    <choice><abbr>Ldschrbr</abbr><expan>Landschreiber</expan></choice>
                 </persName> selbst. Das
         Gerichtswesen zog mich immer am<lb xml:id="p2-l16"/>meisten an.</p>
       <p rend="indent" xml:id="K_0432_p6">
                 <lb xml:id="p2-l17"/>Verzeihen Sie mir nun die Offenherzigkeit mit der<lb xml:id="p2-l18"/>ich Ihnen
         – vielleicht allzu voreilig – mein Anliegen vorgetragen<lb xml:id="p2-l19"/>habe, der Umstand,
-        daß eine <choice>
-                        <abbr>mündl</abbr>
-                        <expan>mündlich</expan>
-                    </choice> Besprechung zwischen Ihnen<lb xml:id="p2-l20"/>&amp; <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Kunz Heinrich (Landschreiber)">Kunz</persName> nur während der Großrathssitzung möglich <del>ist</del>, &amp; davon<lb xml:id="p2-l21"/>eben
-        Alles zu hoffen ist, – sowie, aus <persName type="person" key="Zwingli">Zwinglis</persName>
+        daß eine <choice><abbr>mündl</abbr><expan>mündlich</expan></choice> Besprechung zwischen Ihnen<lb xml:id="p2-l20"/>&amp; <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Kunz Heinrich (Landschreiber)">Kunz</persName> nur während der Großrathssitzung möglich <del>ist</del>, &amp; davon<lb xml:id="p2-l21"/>eben
+        Alles zu hoffen ist, – sowie, aus <persName key="Zwingli">Zwinglis</persName>
           Angelegenheit,<lb xml:id="p2-l22"/>die Erfahrung, daß Sie gerne Ihre Hülfe bieten, –
           mußte<lb xml:id="p2-l23"/>mich besonders kühn machen.</p>
       <p rend="indent" xml:id="K_0432_p7">
                 <lb xml:id="p2-l24"/>
-       <date when="1846-06-29">Nächsten Montag</date> gedenke ich der Landschreiberversammlg<lb xml:id="p2-l25"/>in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> beizuwohnen &amp;
-        dann <choice>
-                        <abbr>mündl</abbr>
-                        <expan>mündlich</expan>
-                    </choice> mit Ihnen Rücksprache<lb xml:id="p2-l26"/>zu
+       <date when="1846-06-29">Nächsten Montag</date> gedenke ich der Landschreiberversammlg<lb xml:id="p2-l25"/>in <placeName key="Zürich (Stadt)">Zürich</placeName> beizuwohnen &amp;
+        dann <choice><abbr>mündl</abbr><expan>mündlich</expan></choice> mit Ihnen Rücksprache<lb xml:id="p2-l26"/>zu
         nehmen.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="indent" xml:id="K_0432_p8">
                     <lb xml:id="p2-l27"/>Mit geziemender Hochachtung bleibe</p>
         <p rend="center" xml:id="K_0432_p9">
                     <lb xml:id="p2-l28"/>Ihr</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_0432_p10">
                     <lb xml:id="p2-l29"/>
           J Spiller
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

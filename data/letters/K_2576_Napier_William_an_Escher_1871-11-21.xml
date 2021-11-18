@@ -1,141 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2576" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>William Napier an Alfred Escher, Bern, Dienstag, November 21, 1871</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#81*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Gutachten und Expertisen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Napier William" type="sender">William Napier</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1871-11-21">Dienstag, November 21, 1871</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-07-18" who="MW">Transkription
-                
-            </change>
-            <change when="2013-08-09" who="LW">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="AO">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-08" who="NS">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-09" who="IB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-14" who="CR">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-22" who="LH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-28" who="SWK">Übertragung Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-03-28" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-05-15" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2576" type="Brief"><teiHeader><fileDesc><titleStmt><title>William Napier an Alfred Escher, Bern, Dienstag, 21. November 1871</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#81*</idno><idno>J I.67-7.81</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Gutachten und Expertisen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Napier William" type="addressee">William Napier</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1871-11-21">21. November 1871</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="center" xml:id="K_2576_p1">
-                    <lb xml:id="p1-l1"/>Hôtel du Boulevard <placeName type="place" key="Bern (Stadt)">Berne</placeName> </p>
-        <p rend="center" xml:id="K_2576_p2">
-                    <lb xml:id="p1-l2"/>le <date when="1871-11-21">21 <choice>
-                            <abbr>Nov.</abbr>
-                            <expan>November</expan>
-                        </choice> 1871</date>. </p>
+        <p rend="center" xml:id="K_2576_p1"><lb xml:id="p1-l1"/>Hôtel du Boulevard <placeName key="Bern (Stadt)">Berne</placeName> </p>
+        <p rend="center" xml:id="K_2576_p2"><lb xml:id="p1-l2"/>le <date when="1871-11-21">21 <choice><abbr>Nov.</abbr><expan>November</expan></choice> 1871</date>. </p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_2576_p3">
-                    <lb xml:id="p1-l3"/>Monsieur le Conseiller National.</p>
+        <p rend="left" xml:id="K_2576_p3"><lb xml:id="p1-l3"/>Monsieur le Conseiller National.</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2576_p4">
-                <lb xml:id="p1-l4"/>J'ai apporté <date when="1871-11-21">aujourd'hui</date> de 
-<lb xml:id="p1-l5"/>
-                <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> un plan avec les deux tracés 
-<lb xml:id="p1-l6"/>de <persName type="person" key="Wetli Kaspar">Wetli</persName> et de <persName type="person" key="Bürkli Arnold">Burckli</persName> pour le 
+    </front><body>
+      <p rend="indent" xml:id="K_2576_p4"><lb xml:id="p1-l4"/>J'ai apporté <date when="1871-11-21">aujourd'hui</date> de 
+<lb xml:id="p1-l5"/><placeName key="Zürich (Stadt)">Zürich</placeName> un plan avec les deux tracés 
+<lb xml:id="p1-l6"/>de <persName key="Wetli Kaspar">Wetli</persName> et de <persName key="Bürkli Arnold">Burckli</persName> pour le 
 <lb xml:id="p1-l7"/>raccordement des deux rues – aussi le 
 <lb xml:id="p1-l8"/>profile de chaque tracé.</p>
-      <p rend="left" xml:id="K_2576_p5">
-                <lb xml:id="p1-l9"/>Je désirerais bien aussi le plaisir 
+      <p rend="left" xml:id="K_2576_p5"><lb xml:id="p1-l9"/>Je désirerais bien aussi le plaisir 
 <lb xml:id="p1-l10"/>de discuter ces deux propositions avec 
 <lb xml:id="p1-l11"/>vous dans l'intérêt général de 
-    <lb xml:id="p1-l12"/>
-                <placeName type="place" key="Zürich">Zürich</placeName> et de la Gare du <choice>
-                        <abbr>N.Est.</abbr>
-                        <expan>Nord Est (Nord Osten)</expan>
-                    </choice> </p>
-      <p rend="left" xml:id="K_2576_p6">
-                <lb xml:id="p1-l13"/>Veuillez me dire si je pourrais 
+    <lb xml:id="p1-l12"/><placeName key="Zürich">Zürich</placeName> et de la Gare du <choice><abbr>N.Est.</abbr><expan>Nord Est (Nord Osten)</expan></choice> </p>
+      <p rend="left" xml:id="K_2576_p6"><lb xml:id="p1-l13"/>Veuillez me dire si je pourrais 
 <lb xml:id="p1-l14"/>avoir l'honneur de vous trouver 
-<lb xml:id="p1-l15"/>chez vous où <date when="1871-11-21">ce soir</date>, ou <date when="1871-11-22">demain</date> <pb n="2"/>
-                <lb xml:id="p2-l1"/>matin avant 9 heures – 
+<lb xml:id="p1-l15"/>chez vous où <date when="1871-11-21">ce soir</date>, ou <date when="1871-11-22">demain</date> <pb n="2"/><lb xml:id="p2-l1"/>matin avant 9 heures – 
 <lb xml:id="p2-l2"/>où <date when="1871-11-23">Jeudi</date> soir après 5 heures. </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_2576_p7">
-                    <lb xml:id="p2-l3"/>Avec mes salutations </p>
-        <p rend="center" xml:id="K_2576_p8">
-                    <lb xml:id="p2-l4"/>empressées</p>
+        <p rend="center" xml:id="K_2576_p7"><lb xml:id="p2-l3"/>Avec mes salutations </p>
+        <p rend="center" xml:id="K_2576_p8"><lb xml:id="p2-l4"/>empressées</p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_2576_p9">
-                    <lb xml:id="p2-l5"/>William Napier</p>
+      <div type="signature">
+        <p rend="center" xml:id="K_2576_p9"><lb xml:id="p2-l5"/>William Napier</p>
       </div>
-      <div type="address">
-        <p rend="left" xml:id="K_2576_p10">
-                    <note type="transcript">Anschrift des Adressaten:</note>
+      <div type="opener">
+        <p rend="left" xml:id="K_2576_p10"><note type="transcript">Anschrift des Adressaten:</note>
           <lb xml:id="p2-l6"/>
-          <choice>
-                        <abbr>Cons National</abbr>
-                        <expan>Conseil National (Nationalrat)</expan>
-                    </choice>
+          <choice><abbr>Cons National</abbr><expan>Conseil National (Nationalrat)</expan></choice>
         </p>
-        <p rend="center" xml:id="K_2576_p11">
-                    <lb xml:id="p2-l7"/>
-          <choice>
-                        <abbr>D<hi rend="sup">r</hi> </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> Alfred Escher</p>
+        <p rend="center" xml:id="K_2576_p11"><lb xml:id="p2-l7"/>
+          <choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> Alfred Escher</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

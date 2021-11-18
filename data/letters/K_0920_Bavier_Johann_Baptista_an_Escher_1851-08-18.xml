@@ -1,181 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0920" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Baptista Bavier an Alfred Escher, St. Moritz, Montag, August 18, 1851</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#107*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Postwesen</item>
-                        <item>Kuraufenthalte</item>
-                        <item>Reisen und Ausflüge</item>
-                        <item>Parteienstreitigkeiten</item>
-                        <item>Regierungsrat BE</item>
-                        <item>Grosser Rat BE</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Bavier Johann Baptista" type="sender">Johann Baptista Bavier</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>St. Moritz</placeName>
-                    <date when="1851-08-18">Montag, August 18, 1851</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-07-27" who="SK">Transkribiert 
-                
-            </change>
-            <change when="April&#xA;          2009" who="swissedit, UR">von Word nach XML konvertiert 
-                
-            </change>
-            <change when="2010-04-23" who="SW">XML bereinigt
-                
-            </change>
-            <change when="2010-04-23" who="SW">Metadaten vervollständigt
-                
-            </change>
-            <change when="2012-06-18" who="SCK">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-21" who="TM">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2012&#xA;        -06-25" who="LM ">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2012-07-06" who="FM">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2012-09-13" who="CF">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2012-12-17" who="SW">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-01-10" who="JM">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2017-07-06" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0920" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Baptista Bavier an Alfred Escher, St. Moritz, Montag, 18. August 1851</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#107*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Postwesen</term><term>Kuraufenthalte</term><term>Reisen und Ausflüge</term><term>Parteienstreitigkeiten</term><term>Regierungsrat BE</term><term>Grosser Rat BE</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Bavier Johann Baptista" type="addressee">Johann Baptista Bavier</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>St. Moritz</placeName><date when="1851-08-18">18. August 1851</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="right" xml:id="K_0920_p1">
                     <lb xml:id="p1-l1"/>
-          <placeName type="place" key="St. Moritz">St Moritz</placeName> den <date when="1851-08-18">18 <choice>
-                            <abbr>
-                            <hi>Aug</hi>.</abbr>
-                            <expan>August</expan>
-                        </choice> 1851 </date>
+          <placeName key="St. Moritz">St Moritz</placeName> den <date when="1851-08-18">18 <choice><abbr><hi>Aug</hi>.</abbr><expan>August</expan></choice> 1851 </date>
                 </p>
       </div><!--Leerer Absatz-->
       <div type="opener">
         <p rend="center" xml:id="K_0920_p2">
                     <lb xml:id="p1-l2"/>Mein verehrtester Herr und Freund!</p>
       </div><!--Leerer Absatz-->
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_0920_p3">
-                <lb xml:id="p1-l3"/>Gerne hätte ich vor meiner Abreise von <placeName type="place" key="Bern (Stadt)">
-                    <hi>Bern</hi>
-                </placeName> noch über<lb xml:id="p1-l4"/> verschiedene Gegenstände, namentlich die <placeName type="place" key="Walensee">Wallensee</placeName>-Straße, mit<lb xml:id="p1-l5"/> Ihnen gesprochen,
+                <lb xml:id="p1-l3"/>Gerne hätte ich vor meiner Abreise von <placeName key="Bern (Stadt)"><hi>Bern</hi></placeName> noch über<lb xml:id="p1-l4"/> verschiedene Gegenstände, namentlich die <placeName key="Walensee">Wallensee</placeName>-Straße, mit<lb xml:id="p1-l5"/> Ihnen gesprochen,
         es wollte sich aber nie recht schiken<note type="transcript">sic!</note>, und ich benutze<lb xml:id="p1-l6"/> daher diese frühe Morgenstunde, um das Versäumte wenigstens<lb xml:id="p1-l7"/>
-        theilweise nachzuholen, nicht zweifelnd, daß Gegenwärtiges Sie<lb xml:id="p1-l8"/> noch in <placeName type="place" key="Bern (Stadt)">
-                    <hi>Bern</hi>
-                </placeName> treffen werde, und daß Sie einen Augenblik
-          Zeit<lb xml:id="p1-l9"/> finden werden, um mit den <placeName type="place" key="St. Gallen">St.
-          Galler</placeName>- und <placeName type="place" key="Glarus">Glarner</placeName> Herrn über<lb xml:id="p1-l10"/> die Sache zu sprechen, damit dieselbe wenigstens soweit gefördert<lb xml:id="p1-l11"/> werde,
-        um es denjenigen <choice>
-                        <abbr>Nat. &amp; Ständeräthen</abbr>
-                        <expan>National- und Ständeräthen</expan>
-                    </choice>,
-        welche im künftigen<lb xml:id="p1-l12"/> Monat <hi>December</hi> wieder nach <placeName type="place" key="Bern (Stadt)">
-                    <hi>Bern</hi>
-                </placeName> kommen, möglich zu machen<lb xml:id="p1-l13"/> darüber
+        theilweise nachzuholen, nicht zweifelnd, daß Gegenwärtiges Sie<lb xml:id="p1-l8"/> noch in <placeName key="Bern (Stadt)"><hi>Bern</hi></placeName> treffen werde, und daß Sie einen Augenblik
+          Zeit<lb xml:id="p1-l9"/> finden werden, um mit den <placeName key="St. Gallen">St.
+          Galler</placeName>- und <placeName key="Glarus">Glarner</placeName> Herrn über<lb xml:id="p1-l10"/> die Sache zu sprechen, damit dieselbe wenigstens soweit gefördert<lb xml:id="p1-l11"/> werde,
+        um es denjenigen <choice><abbr>Nat. &amp; Ständeräthen</abbr><expan>National- und Ständeräthen</expan></choice>,
+        welche im künftigen<lb xml:id="p1-l12"/> Monat <hi>December</hi> wieder nach <placeName key="Bern (Stadt)"><hi>Bern</hi></placeName> kommen, möglich zu machen<lb xml:id="p1-l13"/> darüber
         einzutreten; die nöthigen Vorarbeiten können bis dahin ganz<lb xml:id="p1-l14"/> füglich zu
-        Stande gebracht werden. Aus welchen Gründen dieses<lb xml:id="p1-l15"/> bis jezt<note type="transcript">sic!</note> nicht geschehen ist, entnehmen Sie aus inliegendem<lb xml:id="p1-l16"/>Schreiben von <persName type="person" key="La Nicca Richard">
-                    <hi>Lanicca</hi>
-                </persName>
+        Stande gebracht werden. Aus welchen Gründen dieses<lb xml:id="p1-l15"/> bis jezt<note type="transcript">sic!</note> nicht geschehen ist, entnehmen Sie aus inliegendem<lb xml:id="p1-l16"/>Schreiben von <persName key="La Nicca Richard"><hi>Lanicca</hi></persName>
                 <note type="transcript">sic!</note>, das ich erst <date when="1851-08-17">gestern</date>
         erhalten habe – Da ich<lb xml:id="p1-l17"/> keine Zeit habe, es zu <hi>copiren</hi> &amp; nichts anderes
         darin enthalten<lb xml:id="p1-l18"/> ist, das ich Ihnen nicht mittheilen dürfte, so bin ich so
         frey, es <pb n="2"/>
-                <lb xml:id="p2-l1"/>originaliter beyzulegen. Das <placeName type="place" key="St. Gallen">St. Gallische</placeName> <choice>
-                        <abbr>Bau-Departem<hi rend="sup">t</hi> </abbr>
-                        <expan>Bau-Departement</expan>
-                    </choice> <lb xml:id="p2-l2"/> (gegenwärtig unter
-        der Leitung des <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Hungerbühler Johann Matthias">Hungerbühler</persName>) wird wohl<lb xml:id="p2-l3"/> keinen
+                <lb xml:id="p2-l1"/>originaliter beyzulegen. Das <placeName key="St. Gallen">St. Gallische</placeName> <choice><abbr>Bau-Departem<hi rend="sup">t</hi> </abbr><expan>Bau-Departement</expan></choice> <lb xml:id="p2-l2"/> (gegenwärtig unter
+        der Leitung des <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="Hungerbühler Johann Matthias">Hungerbühler</persName>) wird wohl<lb xml:id="p2-l3"/> keinen
         Anstand nehmen, die nöthige Ermächtigung zur Vornahme<lb xml:id="p2-l4"/> der Meßungen auf
-        dortigem Gebiet zu ertheilen, aber wo der frühere<lb xml:id="p2-l5"/> KostenAnschlag des <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="La Nicca Richard">
-                    <hi>Lanicca</hi>
-                </persName> zu
-        finden seyn wird, das weiß Gott –<lb xml:id="p2-l6"/> soviel ich mich erinnere, hat <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Weder Johann Baptist">
-                    <hi>Weder</hi>
-                </persName>
+        dortigem Gebiet zu ertheilen, aber wo der frühere<lb xml:id="p2-l5"/> KostenAnschlag des <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="La Nicca Richard"><hi>Lanicca</hi></persName> zu
+        finden seyn wird, das weiß Gott –<lb xml:id="p2-l6"/> soviel ich mich erinnere, hat <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="Weder Johann Baptist"><hi>Weder</hi></persName>
         ihn mit den andern Schriften<lb xml:id="p2-l7"/> mitgenommen, er wollte aber, als ich ihn
         darüber zur Rede stellte,<lb xml:id="p2-l8"/> nichts mehr davon wißen..... </p>
       <p rend="indent" xml:id="K_0920_p4">
                 <lb xml:id="p2-l9"/>Ihr freundlicher Wunsch, daß ich auf meiner Heimreise<lb xml:id="p2-l10"/> alles
         in Ordnung finden möge (versteht sich im Postwesen) ist nicht<lb xml:id="p2-l11"/> in Erfüllung
-        gegangen, da wir schon außer <placeName type="place" key="Kirchberg (BE)">
-                    <hi>Kirchberg</hi>
-                </placeName><!-- korr. Kuchberg zu Kirchberg; BF, 22.08.2012 --> ein kleines<lb xml:id="p2-l12"/> Spektakel hatten, worüber Ihnen vielleicht <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Koller Gottlieb">
+        gegangen, da wir schon außer <placeName key="Kirchberg (BE)"><hi>Kirchberg</hi></placeName><!-- korr. Kuchberg zu Kirchberg; BF, 22.08.2012 --> ein kleines<lb xml:id="p2-l12"/> Spektakel hatten, worüber Ihnen vielleicht <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="Koller Gottlieb">
                     Ing.
-          <hi>Koller</hi>
-                </persName>, der auch<lb xml:id="p2-l13"/> von der Parthie war, relatirt
+          <hi>Koller</hi></persName>, der auch<lb xml:id="p2-l13"/> von der Parthie war, relatirt
         haben wird – ich überzeuge mich je länger<lb xml:id="p2-l14"/> je mehr, daß das Kurswesen in den meisten Kantonen – nicht in<lb xml:id="p2-l15"/> Allen – sehr im Argen
-        liegt – sobald ich einmal <placeName type="place" key="Walenstadt">
-                    <hi>Wallenstatt</hi>
-                </placeName> <lb xml:id="p2-l16"/> <hi>pasirt</hi> habe, &amp; namentlich auf unserer schmalen Bergstraße, denke<lb xml:id="p2-l17"/> ich an gar keine Gefahr, aber auf den schönen breiten <hi>Routen</hi>, der<lb xml:id="p2-l18"/>
-                <placeName type="place" key="Westschweiz">westlichen Schweiz</placeName> ist es mir
+        liegt – sobald ich einmal <placeName key="Walenstadt"><hi>Wallenstatt</hi></placeName> <lb xml:id="p2-l16"/> <hi>pasirt</hi> habe, &amp; namentlich auf unserer schmalen Bergstraße, denke<lb xml:id="p2-l17"/> ich an gar keine Gefahr, aber auf den schönen breiten <hi>Routen</hi>, der<lb xml:id="p2-l18"/>
+                <placeName key="Westschweiz">westlichen Schweiz</placeName> ist es mir
         nicht mehr ganz geheuer.... </p>
       <p rend="indent" xml:id="K_0920_p5">
                 <lb xml:id="p2-l19"/>Seit <date when="1851-08-14">Donnerstag</date> Abend bin ich hier, und wäre
-          ganz<lb xml:id="p2-l20"/> vergnügt, wenn wir nur beßere Witterung hätten – die Gesellschaft<lb xml:id="p2-l21"/> ist klein, aber sehr angenehm; es sind etwa 8 Schweizer hier, die<lb xml:id="p2-l22"/> in <placeName type="place" key="Brasilien">
-                    <hi>Brasilien</hi>
-                </placeName>, <placeName type="place" key="Mexiko">
-                    <hi>Mexico</hi>
-                </placeName>, <supplied type="unclear">oder</supplied> <supplied type="unclear"/>
-        <placeName type="place" key="Havanna (CU)">Havanna (<hi>&amp;cà</hi>)</placeName> <hi>établirt</hi> sind, und<lb xml:id="p2-l23"/> dieses schöne <placeName type="place" key="Alpen">Alpen</placeName>thal ganz herrlich
+          ganz<lb xml:id="p2-l20"/> vergnügt, wenn wir nur beßere Witterung hätten – die Gesellschaft<lb xml:id="p2-l21"/> ist klein, aber sehr angenehm; es sind etwa 8 Schweizer hier, die<lb xml:id="p2-l22"/> in <placeName key="Brasilien"><hi>Brasilien</hi></placeName>, <placeName key="Mexiko"><hi>Mexico</hi></placeName>, <add type="?">oder</add> <add type="?"/>
+        <placeName key="Havanna (CU)">Havanna (<hi>&amp;cà</hi>)</placeName> <hi>établirt</hi> sind, und<lb xml:id="p2-l23"/> dieses schöne <placeName key="Alpen">Alpen</placeName>thal ganz herrlich
         finden; Ende dieser Woche geht<lb xml:id="p2-l24"/> aber fast alles weg, und ich sehe mit
         Schreken dem Tage entgegen,<lb xml:id="p2-l25"/> an dem ich allein seyn werde – dann halte ich
         es aber nicht mehr lange <pb n="3"/>
                 <lb xml:id="p3-l1"/> aus! Mit Verlangen sehen wir alle
-        Abende der Ankunft der <placeName type="place" key="Chur">Churer</placeName>-Post<lb xml:id="p3-l2"/>
+        Abende der Ankunft der <placeName key="Chur">Churer</placeName>-Post<lb xml:id="p3-l2"/>
         entgegen, die um 6 Uhr erfolgt, dann geht man in das wohl geheizte<lb xml:id="p3-l3"/> Stübchen,
         in dem sich die Postablage befindet, – der Briefsak wird auf den<lb xml:id="p3-l4"/> Tisch
         ausgeleert, und dann sucht sich jeder Kurgast seine Zeitungen und<lb xml:id="p3-l5"/> Briefe
@@ -183,58 +58,38 @@
         man hat mich versichert, daß noch Niemand bey dieser gemüthlichen<lb xml:id="p3-l7"/>
         Einrichtung auch nur die mindeste <hi>Inconvenienz</hi> verspürt habe!</p>
       <p rend="indent" xml:id="K_0920_p6">
-                <lb xml:id="p3-l8"/>Mehrere Kurgäste, welche hierin ein <hi>competentes</hi> Urtheil haben, und<lb xml:id="p3-l9"/> viel gereist sind, finden die <hi>Passagier</hi>-<hi>Taxen</hi> äußerst billig, ja und zu<lb xml:id="p3-l10"/> billig im Vergleich zu den großen Kosten – sagen Sie aber Freund <persName type="person" key="Planta (Samedan) Andreas Rudolf von">
-                    <hi>Planta</hi>
-                </persName> <lb xml:id="p3-l11"/> ja nichts davon, er würde sich
+                <lb xml:id="p3-l8"/>Mehrere Kurgäste, welche hierin ein <hi>competentes</hi> Urtheil haben, und<lb xml:id="p3-l9"/> viel gereist sind, finden die <hi>Passagier</hi>-<hi>Taxen</hi> äußerst billig, ja und zu<lb xml:id="p3-l10"/> billig im Vergleich zu den großen Kosten – sagen Sie aber Freund <persName key="Planta (Samedan) Andreas Rudolf von"><hi>Planta</hi></persName> <lb xml:id="p3-l11"/> ja nichts davon, er würde sich
         zu sehr darüber ärgern!</p>
       <p rend="indent" xml:id="K_0920_p7">
-                <lb xml:id="p3-l12"/>Noch fällt mir bey, daß ich auch über die unselige Lage des<lb xml:id="p3-l13"/> Kantons <placeName type="place" key="Bern">
-                    <hi>Bern</hi>
-                </placeName> mit Ihnen sprechen wollte, da wir über
+                <lb xml:id="p3-l12"/>Noch fällt mir bey, daß ich auch über die unselige Lage des<lb xml:id="p3-l13"/> Kantons <placeName key="Bern"><hi>Bern</hi></placeName> mit Ihnen sprechen wollte, da wir über
           <hi rend="underline">diesen</hi> Punkt<lb xml:id="p3-l14"/> so ungleiche Meinungen haben, dazu braucht es aber
         ziemlich viele Zeit –<lb xml:id="p3-l15"/> Sie sagten mir am <date when="1851-08-11">Montag</date>,
         als wir aus der Sitzung kamen: «es gefalle Ihnen<lb xml:id="p3-l16"/> auch nicht alles, was die
         <hi>Opposition</hi> thue» – das gleiche kann ich Ihnen<lb xml:id="p3-l17"/> auch von der andern Seite
         sagen, namentlich finde ich es traurig, daß man<lb xml:id="p3-l18"/> sich solcher Werkzeuge, wie
-          <choice>
-                        <abbr>Pfr.</abbr>
-                        <expan>Pfarrer</expan>
-                    </choice> <persName type="person" key="Schädelin Johann Jakob">
-                    <hi>Schädeli</hi>
-                </persName> &amp;
-          <choice>
-                        <abbr>dergl.</abbr>
-                        <expan>dergleichen</expan>
-                    </choice> bedienen muß... <lb xml:id="p3-l19"/> Dagegen habe
-        ich die feste Ueberzeugung, daß an dem Dotations&gt;<lb break="no" xml:id="p3-l20"/>Spektakel wenig oder
-        nichts ist &amp; <add>in</add> diesem Falle wäre es denn doch eine<lb xml:id="p3-l21"/> große
-        Immoralität, solchen als Agitations-Mittel zu benutzen, um<lb xml:id="p3-l22"/> die Regierung
-        zu sprengen &amp; sich wieder der Gewalt zu bemächtigen –<lb xml:id="p3-l23"/> Wenn <hi rend="underline">so</hi> hanthiert wird &amp; man es, wie lezthin die <placeName type="place" key="Bern">Berner</placeName>-Zeitung,<lb xml:id="p3-l24"/> sehr erbaulich findet, daß «das Volk über seine
-        Regierung zu Gericht<lb xml:id="p3-l25"/> sizt»<!-- stillschweigend ergänzt -->, so wird zulezt <hi rend="underline">jede</hi> Regierung unmöglich,
-        und das Volk ganz<lb xml:id="p3-l26"/> demoralisirt, worüber die <hi>Reactionäre</hi> in <placeName type="place" key="Deutschland">Deutschland</placeName> &amp; anderswo sich<lb xml:id="p3-l27"/>
+          <choice><abbr>Pfr.</abbr><expan>Pfarrer</expan></choice> <persName key="Schädelin Johann Jakob"><hi>Schädeli</hi></persName> &amp;
+          <choice><abbr>dergl.</abbr><expan>dergleichen</expan></choice> bedienen muß... <lb xml:id="p3-l19"/> Dagegen habe
+        ich die feste Ueberzeugung, daß an dem Dotations&gt;<lb xml:id="p3-l20" break="no"/>Spektakel wenig oder
+        nichts ist &amp; <add>in</add> diesem Falle wäre es denn doch eine<lb xml:id="p3-l21" break="no"/> große
+        Immoralität, solchen als Agitations-Mittel zu benutzen, um<lb xml:id="p3-l22" break="no"/> die Regierung
+        zu sprengen &amp; sich wieder der Gewalt zu bemächtigen –<lb xml:id="p3-l23" break="no"/> Wenn <hi rend="underline">so</hi> hanthiert wird &amp; man es, wie lezthin die <placeName key="Bern">Berner</placeName>-Zeitung,<lb xml:id="p3-l24" break="no"/> sehr erbaulich findet, daß «das Volk über seine
+        Regierung zu Gericht<lb xml:id="p3-l25" break="no"/> sizt»<!-- stillschweigend ergänzt -->, so wird zulezt <hi rend="underline">jede</hi> Regierung unmöglich,
+        und das Volk ganz<lb xml:id="p3-l26" break="no"/> demoralisirt, worüber die <hi>Reactionäre</hi> in <placeName key="Deutschland">Deutschland</placeName> &amp; anderswo sich<lb xml:id="p3-l27" break="no"/>
         königlich freuen werden! Ich hatte in den lezten Tagen meines Aufenthaltes <pb n="4"/>
-                    <lb xml:id="p4-l1"/> in <placeName type="place" key="Bern (Stadt)">
-                    <hi>Bern</hi>
-                </placeName> neuerdings Anlaß,
-        wahrzunehmen, daß die <persName type="person" key="Stämpfli Jakob">Stämpflische</persName>
-                    <lb xml:id="p4-l2"/> Parthei <hi rend="underline">keine</hi>
-                    <hi rend="underline">Untersuchung</hi> der Dotationsgeschichte <hi rend="underline">will</hi> &amp;
-        daß es<lb xml:id="p4-l3"/> dagegen der Regierung damit Ernst ist, da man sehr achtbare
-          Mit<lb break="no" xml:id="p4-l4"/>glieder der Bundesversammlung, worunter entschieden <hi>radicale</hi> in
-          die<lb xml:id="p4-l5"/> Untersuchende Comission wählen wollte, aber einen Korb nach dem<lb xml:id="p4-l6"/> andern bekam! Wie die <hi>Opposition</hi> verlangen kann, daß die<lb xml:id="p4-l7"/>
-        Comission vom Großen Rathe gewählt werde, mit Ausschluß<lb xml:id="p4-l8"/> der Patricier, nicht
-        aber der Mitglieder vom Lande, welche die<lb xml:id="p4-l9"/> Millionen verlangen, vermag ich
-        nicht einzusehen &amp; eben so wenig,<lb xml:id="p4-l10"/> daß man, falls wirklich
-          <hi rend="underline">einzelne</hi>
-                    <hi>Individuen</hi> etwas entfremdet<lb xml:id="p4-l11"/> hätten, alle Patrizier oder
-        gar alle Bürger in <placeName type="place" key="Bern (Stadt)">
-                    <hi>Bern</hi>
-                </placeName> dafür<lb xml:id="p4-l12"/>
-        verantwortlich machen kann!? Doch – ich will abbrechen, ich werde<lb xml:id="p4-l13"/> sonst zu
+                <lb xml:id="p4-l1" break="no"/> in <placeName key="Bern (Stadt)"><hi>Bern</hi></placeName> neuerdings Anlaß,
+        wahrzunehmen, daß die <persName key="Stämpfli Jakob">Stämpflische</persName> <lb xml:id="p4-l2" break="no"/> Parthei <hi rend="underline">keine</hi> <hi rend="underline">Untersuchung</hi> der Dotationsgeschichte <hi rend="underline">will</hi> &amp;
+        daß es<lb xml:id="p4-l3" break="no"/> dagegen der Regierung damit Ernst ist, da man sehr achtbare
+          Mit
+                <lb xml:id="p4-l4" break="no"/>glieder der Bundesversammlung, worunter entschieden <hi>radicale</hi> in
+          die<lb xml:id="p4-l5" break="no"/> Untersuchende Comission wählen wollte, aber einen Korb nach dem<lb xml:id="p4-l6" break="no"/> andern bekam! Wie die <hi>Opposition</hi> verlangen kann, daß die<lb xml:id="p4-l7" break="no"/>
+        Comission vom Großen Rathe gewählt werde, mit Ausschluß<lb xml:id="p4-l8" break="no"/> der Patricier, nicht
+        aber der Mitglieder vom Lande, welche die<lb xml:id="p4-l9" break="no"/> Millionen verlangen, vermag ich
+        nicht einzusehen &amp; eben so wenig,<lb xml:id="p4-l10" break="no"/> daß man, falls wirklich
+          <hi rend="underline">einzelne</hi> <hi>Individuen</hi> etwas entfremdet<lb xml:id="p4-l11" break="no"/> hätten, alle Patrizier oder
+        gar alle Bürger in <placeName key="Bern (Stadt)"><hi>Bern</hi></placeName> dafür<lb xml:id="p4-l12" break="no"/>
+        verantwortlich machen kann!? Doch – ich will abbrechen, ich werde<lb xml:id="p4-l13" break="no"/> sonst zu
         weitläufig &amp; mißbrauche Ihre Nachsicht –</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="indent" xml:id="K_0920_p8">
                     <lb xml:id="p4-l14"/>Indem ich Ihnen gute Geduld zu Ihren vielen Arbeiten<lb xml:id="p4-l15"/>&amp; baldige Nachhausekunft wünsche, empfehle ich mich in Ihr<lb xml:id="p4-l16"/>ferneres Wohlwollen &amp; geharre
@@ -242,10 +97,8 @@
         <p rend="right" xml:id="K_0920_p9">
                     <lb xml:id="p4-l17"/><!-- Folge von Spatien--> Ihr ergebenster</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_0920_p10">
                     <lb xml:id="p4-l18"/><!-- Folge von Spatien--> Bavier </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

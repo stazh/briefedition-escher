@@ -1,138 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8213" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Peter Olivier Zschokke an Alfred Escher, Aarau, Freitag, März 5, 1875</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB02_007</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Eisenbahnen Bau und Technik</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Zschokke Peter Olivier" type="sender">Peter Olivier Zschokke</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Aarau</placeName>
-                    <date when="1875-03-05">Freitag, März 5, 1875</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-08-02" who="SWK">transkribiert</change>
-            <change when="2014-01-07" who="LH">Auszeichnung 1 umgesetzt</change>
-            <change when="2014-01-20" who="DG">Verifizierung 1 umgesetzt</change>
-            <change when="2014-02-05" who="MB">Auszeichnung 2 umgesetzt</change>
-            <change when="2014-06-06" who="IB">Transkriptionsverifizierung T. Binder umgesetzt</change>
-            <change when="2014-06-25" who="LH">Übertragung der Transkriptionsverifizierung geprüft</change>
-            <change when="2014-11-13" who="VP">Verifizierung 2 umgesetzt</change>
-            <change when="2014-11-13" who="VP">Inhaltliche Qualitätsprüfung umgesetzt</change>
-            <change when="2016-12-02" who="FH">Transkriptionsverifizierung Seiterle umgesetzt</change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <note type="annotation">
-                <p rend="center" xml:id="K_8213_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_8213_c0">Nachträglicher Stempel oben rechts auf Seite 1 mit von dritter Hand eingetragener Nummer: <bibl>Gotthardbahn | <date when="1875-05-15">15 MAI 1875.</date> | <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 3156.</bibl> – 
-        Nachträgliche Inhaltsangabe oben links von dritter Hand: <bibl>Einsendung des Vorschlags der internationalen
-          Gesellschaft für Bergbahnen in <placeName type="place" key="Aarau">Aarau</placeName> für Ausführung der directen Zufahrtslinien zum <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>
-          nach dem Zahnschienensystem. | 1<choice>
-                                    <abbr>B.</abbr>
-                                    <expan>Beilage</expan>
-                                </choice> | Präsidium.</bibl> – Nachträgliche Notiz unten rechts von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1875-05-04">4. V. 75</date>. <choice>
-                                    <abbr>N.</abbr>
-                                    <expan>Nummer</expan>
-                                </choice> 1255.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8213" type="Brief"><teiHeader><fileDesc><titleStmt><title>Peter Olivier Zschokke an Alfred Escher, Aarau, Freitag, 05. März 1875</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB02_007</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Eisenbahnen Bau und Technik</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Zschokke Peter Olivier" type="addressee">Peter Olivier Zschokke</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Aarau</placeName><date when="1875-03-05">05. März 1875</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="annotation"><p rend="center" xml:id="K_8213_p1"> <note type="com" xml:id="K_8213_c0">Nachträglicher Stempel oben rechts auf Seite 1 mit von dritter Hand eingetragener Nummer: <orig>Gotthardbahn | <date when="1875-05-15">15 MAI 1875.</date> | <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 3156.</orig> – 
+        Nachträgliche Inhaltsangabe oben links von dritter Hand: <orig>Einsendung des Vorschlags der internationalen
+          Gesellschaft für Bergbahnen in <placeName key="Aarau">Aarau</placeName> für Ausführung der directen Zufahrtslinien zum <placeName key="St. Gotthard (Pass)">Gotthard</placeName>
+          nach dem Zahnschienensystem. | 1<choice><abbr>B.</abbr><expan>Beilage</expan></choice> | Präsidium.</orig> – Nachträgliche Notiz unten rechts von dritter Hand: <orig><choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1875-05-04">4. V. 75</date>. <choice><abbr>N.</abbr><expan>Nummer</expan></choice> 1255.</orig> </note> <lb xml:id="p1-l1"/>
         <hi>Privatim</hi>.
-      </p> </note>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_8213_p2">
-                    <lb xml:id="p1-l2"/>
-          <fw>INTERNATIONALE GESELLSCHAFT</fw>
+      </p> </div>
+      
+        <p rend="left" xml:id="K_8213_p2"><lb xml:id="p1-l2"/>
+          <hi rend="printed">INTERNATIONALE GESELLSCHAFT</hi>
           <lb xml:id="p1-l3"/>
-          <fw>FÜR</fw>
+          <hi rend="printed">FÜR</hi>
           <lb xml:id="p1-l4"/>
-          <fw>BERGBAHNEN.</fw>
+          <hi rend="printed">BERGBAHNEN.</hi>
           <lb xml:id="p1-l5"/>
-          <fw>BUREAUX IN <placeName type="place" key="Aarau">AARAU</placeName>.
-        <lb xml:id="p1-l6"/>
-                        <choice>
-                            <abbr>N<hi rend="sup">o</hi> </abbr>
-                            <expan>Numero (Nummer)</expan>
-                        </choice>
-                    </fw>
+          <hi rend="printed">BUREAUX IN <placeName key="Aarau">AARAU</placeName>.
+        <lb xml:id="p1-l6"/><choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice></hi>
         </p>
-      </div>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_8213_p3">
-                    <lb xml:id="p1-l7"/>
-          <fw>
-            <placeName type="place" key="Aarau">AARAU</placeName>, den</fw>
-          <date when="1875-03-05">5 <hi>März</hi> <fw>18</fw>75</date>.</p>
-      </div>
-      <div type="address">
-        <p rend="center" xml:id="K_8213_p4">
-                    <lb xml:id="p1-l8"/>Herrn <hi>
-                        <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> A. Escher,</hi> Präsident der <hi>Gotthardbahndirection</hi> <lb xml:id="p1-l9"/>in <hi>
-                        <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.</hi> </p>
+        <p rend="right" xml:id="K_8213_p3"><lb xml:id="p1-l7"/>
+          <hi rend="printed">
+            <placeName key="Aarau">AARAU</placeName>, den</hi>
+          <date when="1875-03-05">5 <hi>März</hi> <hi rend="printed">18</hi>75</date>.</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_8213_p5">
-                    <lb xml:id="p1-l10"/>Hochgeehrter Herr!</p>
+        <p rend="center" xml:id="K_8213_p4"><lb xml:id="p1-l8"/>Herrn <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> A. Escher,</hi> Präsident der <hi>Gotthardbahndirection</hi> <lb xml:id="p1-l9"/>in <hi><placeName key="Zürich (Stadt)">Zürich</placeName>.</hi> </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_8213_p6">
-                    <lb xml:id="p1-l11"/>Es wird mir die Ehre zu Theil, Ihnen beigeschlossen, Ihrem Wunsche
-				<lb xml:id="p1-l12"/>gemäß, die Vorschläge für Ausführung der directen Zufahrtslinien zum <placeName type="place" key="St. Gotthard (Pass)">Gott<lb break="no" xml:id="p1-l13"/>hard</placeName>tunnel zu unterbreiten. Durch vielfache Geschäfte war ich leider so sehr
-				<lb xml:id="p1-l14"/>in  Anspruch genommen, daß sich die Absendung der Ihnen am <date when="1875-02-27">27</date> <choice>
-                        <abbr>
-                            <hi>pt</hi>.</abbr>
-                        <expan>passato (vergangenen [Monats])</expan>
-                    </choice> zuge<lb break="no" xml:id="p1-l15"/>sagten Vorlage etwas verspätet hat. Ich ersuche Sie, mich deshalb gütigst
-				<lb xml:id="p1-l16"/>entschuldigen zu wollen &amp; ergreife den Anlaß, Sie meiner vorzüglichen Hoch<lb break="no" xml:id="p1-l17"/>achtung zu versichern.
+      <div type="opener">
+        <p rend="center" xml:id="K_8213_p5"><lb xml:id="p1-l10"/>Hochgeehrter Herr!</p>
+      </div>
+    </front><body>
+      <p rend="indent" xml:id="K_8213_p6"><lb xml:id="p1-l11"/>Es wird mir die Ehre zu Theil, Ihnen beigeschlossen, Ihrem Wunsche
+				<lb xml:id="p1-l12"/>gemäß, die Vorschläge für Ausführung der directen Zufahrtslinien zum <placeName key="St. Gotthard (Pass)">Gott<lb xml:id="p1-l13" break="no"/>hard</placeName>tunnel zu unterbreiten. Durch vielfache Geschäfte war ich leider so sehr
+				<lb xml:id="p1-l14"/>in  Anspruch genommen, daß sich die Absendung der Ihnen am <date when="1875-02-27">27</date> <choice><abbr><hi>pt</hi>.</abbr><expan>passato (vergangenen [Monats])</expan></choice> zuge<lb xml:id="p1-l15" break="no"/>sagten Vorlage etwas verspätet hat. Ich ersuche Sie, mich deshalb gütigst
+				<lb xml:id="p1-l16" break="no"/>entschuldigen zu wollen &amp; ergreife den Anlaß, Sie meiner vorzüglichen Hoch<lb xml:id="p1-l17" break="no"/>achtung zu versichern.
 </p>
-    </div>
-        </body>
-    <back>
-      <div type="address">
-        <p rend="right" xml:id="K_8213_p7">
-                    <lb xml:id="p1-l18"/>
+    </body><back>
+      <div type="signature">
+        <p rend="right" xml:id="K_8213_p7"><lb xml:id="p1-l18"/>
           Olivier <hi rend="underline">Zschokke</hi>.</p>
       </div>
-      <p rend="left" xml:id="K_8213_p8">
-                <lb xml:id="p1-l19"/>
+      <p rend="left" xml:id="K_8213_p8"><lb xml:id="p1-l19"/>
         <hi>Beilage</hi>: erwähnt.</p>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

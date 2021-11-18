@@ -1,156 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_4455" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Josef Zingg, Zürich, Freitag, November 3, 1871</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Abzug">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_054</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Eisenbahnen Verträge</item>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Schweizerische Kreditanstalt (SKA)</item>
-                        <item>Bundesrat</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Zingg Josef" type="addressee">Josef Zingg</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1871-11-03">Freitag, November 3, 1871</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-05-26" who="NP">Transkription
-                
-            </change>
-            <change when="2014-06-23" who="CR">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-06-23" who="TM">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-11" who="MA">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2015-05-15" who="LB">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_4455" type="Brief" subtype="Abzug"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Josef Zingg, Zürich, Freitag, 03. November 1871</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_054</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Eisenbahnen Verträge</term><term>Schweizerische Nordostbahn (NOB)</term><term>Schweizerische Kreditanstalt (SKA)</term><term>Bundesrat</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Zingg Josef" type="sender">Josef Zingg</persName><placeName>Zürich</placeName><date when="1871-11-03">03. November 1871</date></correspAction><correspAction type="received"><placeName>Luzern</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_4455_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">
-                        <hi>Zürich</hi>
-                    </placeName>, den <date when="1871-11-03">3. November 1871</date> </p>
-      </div>
-      <div type="address">
-        <p rend="center" xml:id="K_4455_p2">
-                    <lb xml:id="p1-l2"/>Herrn Schultheiß <hi>Zingg</hi>,
-        <lb xml:id="p1-l3"/>Präsidenten des Ausschusses der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung
-        <lb xml:id="p1-l4"/>zu Handen der letztern
-        <lb xml:id="p1-l5"/>
-                    <placeName type="place" key="Luzern (Stadt)">
-                        <hi>Luzern</hi>
-                    </placeName>
-                </p>
+        <p rend="right" xml:id="K_4455_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)"><hi>Zürich</hi></placeName>, den <date when="1871-11-03">3. November 1871</date> </p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_4455_p3">
-                    <lb xml:id="p1-l6"/>Hochgeachteter Herr Präsident!
+        <p rend="center" xml:id="K_4455_p2"><lb xml:id="p1-l2"/>Herrn Schultheiß <hi>Zingg</hi>,
+        <lb xml:id="p1-l3"/>Präsidenten des Ausschusses der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung
+        <lb xml:id="p1-l4"/>zu Handen der letztern
+        <lb xml:id="p1-l5"/><placeName key="Luzern (Stadt)"><hi>Luzern</hi></placeName></p>
+      </div>
+      <div type="opener">
+        <p rend="center" xml:id="K_4455_p3"><lb xml:id="p1-l6"/>Hochgeachteter Herr Präsident!
         <lb xml:id="p1-l7"/>Hochgeachtete Herren!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_4455_p4">
-                <lb xml:id="p1-l8"/>
-        <supplied type="unclear">...</supplied> <seg type="com">
-                    <note xml:id="K_4455_c1">Die erste Zeile ist nicht lesbar.</note>
-                </seg> <lb xml:id="p1-l9"/>die nachstehenden Mitglieder der <choice>
-                        <abbr>Schweiz.</abbr>
-                        <expan>Schweizerisch</expan>
-                    </choice> Gruppe des internationalen
-        <lb xml:id="p1-l10"/>
-                <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>consortiums:
+    </front><body>
+      <p rend="indent" xml:id="K_4455_p4"><lb xml:id="p1-l8"/>
+        <add type="?">...</add> <note type="com" xml:id="K_4455_c1">Die erste Zeile ist nicht lesbar.</note> <lb xml:id="p1-l9"/>die nachstehenden Mitglieder der <choice><abbr>Schweiz.</abbr><expan>Schweizerisch</expan></choice> Gruppe des internationalen
+        <lb xml:id="p1-l10"/><placeName key="St. Gotthard (Pass)">Gotthard</placeName>consortiums:
         </p>
-      <p rend="left" xml:id="K_4455_p5">
-                <lb xml:id="p1-l11"/>Die <choice>
-                        <abbr>Schweiz. Nordostbahngesellschaft</abbr>
-                        <expan>Schweizerische Nordostbahngesellschaft</expan>
-                    </choice>,
-        <lb xml:id="p1-l12"/>die <choice>
-                        <abbr>Schweiz. Creditanstalt</abbr>
-                        <expan>Schweizerische Creditanstalt</expan>
-                    </choice>,
-        <lb xml:id="p1-l13"/>die <placeName type="place" key="Bern">Berner</placeName> Handelsbank,
-        <lb xml:id="p1-l14"/>die Bank in <placeName type="place" key="Luzern (Stadt)">Luzern</placeName>,
-        <lb xml:id="p1-l15"/>die Bank in <placeName type="place" key="Schaffhausen (Stadt)">Schaffhausen</placeName> &amp;
-        <lb xml:id="p1-l16"/>die <placeName type="place" key="Thurgau">Thurgauische</placeName> Hypothekenbank
+      <p rend="left" xml:id="K_4455_p5"><lb xml:id="p1-l11"/>Die <choice><abbr>Schweiz. Nordostbahngesellschaft</abbr><expan>Schweizerische Nordostbahngesellschaft</expan></choice>,
+        <lb xml:id="p1-l12"/>die <choice><abbr>Schweiz. Creditanstalt</abbr><expan>Schweizerische Creditanstalt</expan></choice>,
+        <lb xml:id="p1-l13"/>die <placeName key="Bern">Berner</placeName> Handelsbank,
+        <lb xml:id="p1-l14"/>die Bank in <placeName key="Luzern (Stadt)">Luzern</placeName>,
+        <lb xml:id="p1-l15"/>die Bank in <placeName key="Schaffhausen (Stadt)">Schaffhausen</placeName> &amp;
+        <lb xml:id="p1-l16"/>die <placeName key="Thurgau">Thurgauische</placeName> Hypothekenbank
         </p>
-      <p rend="left" xml:id="K_4455_p6">
-                <lb xml:id="p1-l17"/>sowie folgende Mitglieder der <placeName type="place" key="Deutschland">Deutschen</placeName> Gruppe des Consortium's</p>
-      <p rend="left" xml:id="K_4455_p7">
-                <lb xml:id="p1-l18"/>Die Direction der Discontogesellschaft in <placeName type="place" key="Berlin (D)">Berlin</placeName> &amp;
-        <lb xml:id="p1-l19"/>die Bank für Handel &amp; Industrie in <placeName type="place" key="Darmstadt (D)">Darmstadt</placeName> </p>
-      <p rend="left" xml:id="K_4455_p8">
-                <lb xml:id="p1-l20"/>mir die Anzeige haben zukommen laßen, daß sie die auf ihren An<lb break="no" xml:id="p1-l21"/>theil bei dem Consortium entfallende Quote der gemäß § 18 des Vertra<lb break="no" xml:id="p1-l22"/>ges betreffend Beschaffung des Baukapitales für die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice>
-                    <lb xml:id="p1-l23"/>
-                    <date when="1871-10-10">10. October 1871</date> der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung bei dem <choice>
-                        <abbr>Schweiz.</abbr>
-                        <expan>Schweizerisch</expan>
-                    </choice> Bundesrathe
-        <pb n="2"/>
-                    <lb xml:id="p2-l1"/>zu hinterlegenden Realkaution dieser hohen Behörde übermittelt
-        <lb xml:id="p2-l2"/>haben.
+      <p rend="left" xml:id="K_4455_p6"><lb xml:id="p1-l17"/>sowie folgende Mitglieder der <placeName key="Deutschland">Deutschen</placeName> Gruppe des Consortium's</p>
+      <p rend="left" xml:id="K_4455_p7"><lb xml:id="p1-l18"/>Die Direction der Discontogesellschaft in <placeName key="Berlin (D)">Berlin</placeName> &amp;
+        <lb xml:id="p1-l19"/>die Bank für Handel &amp; Industrie in <placeName key="Darmstadt (D)">Darmstadt</placeName> </p>
+      <p rend="left" xml:id="K_4455_p8"><lb xml:id="p1-l20"/>mir die Anzeige haben zukommen laßen, daß sie die auf ihren An<lb xml:id="p1-l21" break="no"/>theil bei dem Consortium entfallende Quote der gemäß § 18 des Vertra<lb xml:id="p1-l22" break="no"/>ges betreffend Beschaffung des Baukapitales für die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn <choice><abbr>v.</abbr><expan>von</expan></choice> <lb xml:id="p1-l23" break="no"/><date when="1871-10-10">10. October 1871</date> der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung bei dem <choice><abbr>Schweiz.</abbr><expan>Schweizerisch</expan></choice> Bundesrathe
+        <pb n="2"/><lb xml:id="p2-l1" break="no"/>zu hinterlegenden Realkaution dieser hohen Behörde übermittelt
+        <lb xml:id="p2-l2" break="no"/>haben.
         </p>
-      <p rend="indent" xml:id="K_4455_p9">
-                <lb xml:id="p2-l3"/>Ich zweifle nicht daran, daß die übrigen Mitglieder der <choice>
-                        <abbr>Schweiz.</abbr>
-                        <expan>Schweizerisch</expan>
-                    </choice> <lb xml:id="p2-l4"/>&amp; der <placeName type="place" key="Deutschland">Deutschen</placeName> Gruppe des <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>consortium's ihre Cautionen eben<lb break="no" xml:id="p2-l5"/>falls geleistet &amp; dem Präsidium der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung davon, daß
-        <lb xml:id="p2-l6"/>dieses geschehen sei, Anzeige gemacht haben werden.
+      <p rend="indent" xml:id="K_4455_p9"><lb xml:id="p2-l3"/>Ich zweifle nicht daran, daß die übrigen Mitglieder der <choice><abbr>Schweiz.</abbr><expan>Schweizerisch</expan></choice> <lb xml:id="p2-l4"/>&amp; der <placeName key="Deutschland">Deutschen</placeName> Gruppe des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>consortium's ihre Cautionen eben<lb xml:id="p2-l5" break="no"/>falls geleistet &amp; dem Präsidium der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung davon, daß
+        <lb xml:id="p2-l6" break="no"/>dieses geschehen sei, Anzeige gemacht haben werden.
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_4455_p10">
-                    <lb xml:id="p2-l7"/>Genehmigen Sie die Versicherung meiner ausgezeichneten
+        <p rend="indent" xml:id="K_4455_p10"><lb xml:id="p2-l7"/>Genehmigen Sie die Versicherung meiner ausgezeichneten
           <lb xml:id="p2-l8"/>Hochachtung.
         </p>
-        <p rend="right" xml:id="K_4455_p11">
-                    <lb xml:id="p2-l9"/>
-                    <seg type="com">Der Delegirte
-        <lb xml:id="p2-l10"/>des Ausschusses der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung
-          <lb xml:id="p2-l11"/>für die Beschaffung des Baukapitales:<note xml:id="K_4455_c2">Brieftext von dritter Hand ohne Unterschrift.</note>
-                    </seg>
-                </p>
+        <p rend="right" xml:id="K_4455_p11"><lb xml:id="p2-l9"/>Der Delegirte
+        <lb xml:id="p2-l10"/>des Ausschusses der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung
+          <lb xml:id="p2-l11"/>für die Beschaffung des Baukapitales:<note type="com" xml:id="K_4455_c2">Brieftext von dritter Hand ohne Unterschrift.</note></p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

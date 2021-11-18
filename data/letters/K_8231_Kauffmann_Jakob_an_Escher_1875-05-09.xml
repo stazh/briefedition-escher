@@ -1,143 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8231" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jakob Kauffmann an Alfred Escher, Brugg (AG), Sonntag, Mai 9, 1875</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB03_012</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Bözbergbahn (BöB)</item>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Mont-Cenis-Bahn</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Brugg (AG)</placeName>
-                    <date when="1875-05-09">Sonntag, Mai 9, 1875</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-07-26" who="FG">transkribiert
-                
-            </change>
-            <change when="2013-07-29" who="SW">intern verifiziert
-                
-            </change>
-            <change when="2014-01-10" who="MB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-23" who="DG">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-02-07" who="MB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-06-03" who="IB">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2014-06-26" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-11-14" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-14" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_8231_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_8231_c0">Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <bibl>Gotthardbahn | <date when="1875-05-20">20 MAI 1875</date>. | <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 3266.</bibl> – 
-          Nachträgliche Inhaltsangabe oben links von dritter Hand: <bibl>Verzögerung in der Abgabe des Gutachtens gegenüber <persName type="person" key="Ržiha Franz">Rziha's</persName> Vortrag. | I <choice>
-                                    <abbr>Depart.</abbr>
-                                    <expan>Departement</expan>
-                                </choice> </bibl>
-          – Nachträgliche Notiz unten in der Mitte von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1875-05-14">14. V. 75</date>. <choice>
-                                    <abbr>N.</abbr>
-                                    <expan>Nummer</expan>
-                                </choice> 1328.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <fw>Bötzbergbahn
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8231" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jakob Kauffmann an Alfred Escher, Brugg (AG), Sonntag, 09. Mai 1875</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB03_012</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Bözbergbahn (BöB)</term><term>Gotthardbahn-Gesellschaft (GB)</term><term>Mont-Cenis-Bahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Kauffmann Jakob" type="addressee">Jakob Kauffmann</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Brugg (AG)</placeName><date when="1875-05-09">09. Mai 1875</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_8231_p1"> 
+                        <note type="com" xml:id="K_8231_c0">Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <orig>Gotthardbahn | <date when="1875-05-20">20 MAI 1875</date>. | <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 3266.</orig> – 
+          Nachträgliche Inhaltsangabe oben links von dritter Hand: <orig>Verzögerung in der Abgabe des Gutachtens gegenüber <persName key="Ržiha Franz">Rziha's</persName> Vortrag. | I <choice><abbr>Depart.</abbr><expan>Departement</expan></choice> </orig>
+          – Nachträgliche Notiz unten in der Mitte von dritter Hand: <orig>
+                                <choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1875-05-14">14. V. 75</date>. <choice><abbr>N.</abbr><expan>Nummer</expan></choice> 1328.</orig> </note>
+                     <lb xml:id="p1-l1"/>
+          <hi rend="printed">Bötzbergbahn
 	<lb xml:id="p1-l2"/>II. Section (<del>Hochbau</del>).
 <lb xml:id="p1-l3"/>
-                        <choice>
-                            <abbr>No.</abbr>
-                            <expan>Numero (Nummer)</expan>
-                        </choice> </fw>
+                        <choice><abbr>No.</abbr><expan>Numero (Nummer)</expan></choice> </hi>
         </p>
-      </div>
+      
       <div type="dateline">
         <p rend="right" xml:id="K_8231_p2">
                     <lb xml:id="p1-l4"/>
-          <fw>
-            <placeName type="place" key="Brugg (AG)">Brugg</placeName>, den</fw>
-          <date when="1875-05-09">9<hi rend="sup">t</hi> <hi>Mai</hi> <fw>187</fw>5</date>.</p>
+          <hi rend="printed">
+            <placeName key="Brugg (AG)">Brugg</placeName>, den</hi>
+          <date when="1875-05-09">9<hi rend="sup">t</hi> <hi>Mai</hi> <hi rend="printed">187</hi>5</date>.</p>
       </div>
       <div type="opener">
         <p rend="indent" xml:id="K_8231_p3">
                     <lb xml:id="p1-l5"/>Hochgeehrter Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_8231_p4">
                 <lb xml:id="p1-l6"/>Mein Bericht gegenüber <hi>
-                    <persName type="person" key="Ržiha Franz">Rzihas</persName> </hi> Vortrag kann nicht schon
+                    <persName key="Ržiha Franz">Rzihas</persName> </hi> Vortrag kann nicht schon
 				<lb xml:id="p1-l7"/>in den ersten Tagen, wie ich telegraphisch in Aussicht stellte, übergeben
 				<lb xml:id="p1-l8"/>werden, da mir Herr <hi>
-                    <persName type="person" key="Koller Gottlieb">Koller</persName> </hi> den ich <date when="1875-05-08">gestern</date> zufällig traf
+                    <persName key="Koller Gottlieb">Koller</persName> </hi> den ich <date when="1875-05-08">gestern</date> zufällig traf
 				<lb xml:id="p1-l9"/>abweichende Angaben gegenüber <hi>
-                    <persName type="person" key="Ferroux Camille">Feroux<!-- 14.11.2014, VP: Transkription angepasst --></persName> </hi> machte über einige
-				<lb xml:id="p1-l10"/>Vorgänge am <placeName type="place" key="Mont-Cenis (Pass, F-I)">
+                    <persName key="Ferroux Camille">Feroux<!-- 14.11.2014, VP: Transkription angepasst --></persName> </hi> machte über einige
+				<lb xml:id="p1-l10"/>Vorgänge am <placeName key="Mont-Cenis (Pass, F-I)">
                     <hi>Mont Cenis</hi>
                 </placeName>. Ich erhalte nun erst <date when="1875-05-17">nächsten
 				<lb xml:id="p1-l11"/>Dienstag</date> definitive Auskunft und bin daher vor <date when="1875-05-19">Donnerstag</date> <lb xml:id="p1-l12"/>nicht im Stand, meinen Aufsaz zu übergeben.
 				</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="indent" xml:id="K_8231_p5">
                     <lb xml:id="p1-l13"/>Indem ich Sie bitte, diese Verspätung zu entschuldigen,
 				<lb xml:id="p1-l14"/>zeichne
 		</p>
-        <p rend="center" xml:id="K_8231_p6">
-                    <lb xml:id="p1-l15"/>Hochachtungsvoll</p>
+        <p rend="center" xml:id="K_8231_p6"><lb xml:id="p1-l15"/>Hochachtungsvoll</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_8231_p7">
                     <lb xml:id="p1-l16"/>J. Kauffmann.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

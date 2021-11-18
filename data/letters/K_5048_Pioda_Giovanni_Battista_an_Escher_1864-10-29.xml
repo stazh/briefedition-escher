@@ -1,202 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5048" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Giovanni Battista Pioda an Alfred Escher, Turin, Samstag, Oktober 29, 1864</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_005</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Eisenbahnen Gutachten und Expertisen</item>
-                        <item>Vereinigte Bundesversammlung</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Pioda Giovanni Battista" type="sender">Giovanni Battista Pioda</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Turin</placeName>
-                    <date when="1864-10-29">Samstag, Oktober 29, 1864</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-06-17" who="MS">transkribiert
-                
-            </change>
-            <change when="2013-07-10" who="CB">Auszeichnung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-17" who="LW">Transkriptionsverifizierung T. Binder
-                    umgesetzt
-                
-            </change>
-            <change when="2014-01-31" who="NS">Verifizierung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-02-11" who="XR">Auszeichnung 2
-                umgesetzt
-                
-            </change>
-            <change when="2014-06-20" who="LH">Übertragung der Transkriptionsverifizierung
-                    geprüft
-                
-            </change>
-            <change when="2014-06-23" who="LB">Verifizierung 2
-                umgesetzt
-                
-            </change>
-            <change when="2014-06-23" who="LB">Inhaltliche Qualitätsprüfung
-                    umgesetzt
-                
-            </change>
-            <change when="2017-07-11" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <note type="annotation">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5048" type="Brief"><teiHeader><fileDesc><titleStmt><title>Giovanni Battista Pioda an Alfred Escher, Turin, Samstag, 29. Oktober 1864</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_005</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Eisenbahnen Gutachten und Expertisen</term><term>Vereinigte Bundesversammlung</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Pioda Giovanni Battista" type="addressee">Giovanni Battista Pioda</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Turin</placeName><date when="1864-10-29">29. Oktober 1864</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="annotation">
                 <p rend="left" xml:id="K_5048_p1">
-                    <lb xml:id="p1-l1"/>Particulière</p> </note>
+                    <lb xml:id="p1-l1"/>Particulière</p> </div>
       <div type="dateline">
         <p rend="right" xml:id="K_5048_p2">
                     <lb xml:id="p1-l2"/>
-          <placeName type="place" key="Turin (I)">Turin</placeName> ce <date when="1864-10-29">29 <choice>
-                            <abbr>oct.</abbr>
-                            <expan>octobre (Oktober)</expan>
-                        </choice> 1864</date> </p>
+          <placeName key="Turin (I)">Turin</placeName> ce <date when="1864-10-29">29 <choice><abbr>oct.</abbr><expan>octobre (Oktober)</expan></choice> 1864</date> </p>
       </div>
       <div type="opener">
         <p rend="indent" xml:id="K_5048_p3">
                     <lb xml:id="p1-l3"/>Monsieur et cher Ami,</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="left" xml:id="K_5048_p4">
-                <lb xml:id="p1-l4"/>J'ai conféré <date when="1864-10-27">avant-hier</date> avec le <persName type="person" key="Jacini Stefano">ministre des travaux
+                <lb xml:id="p1-l4"/>J'ai conféré <date when="1864-10-27">avant-hier</date> avec le <persName key="Jacini Stefano">ministre des travaux
                 publics</persName> <lb xml:id="p1-l5"/>et voici ce qu'il m'a dit: </p>
       <p rend="left" xml:id="K_5048_p5">
                 <lb xml:id="p1-l6"/>«Je ne pourrais préciser le moment opportun pour <lb xml:id="p1-l7"/>traiter avec les
-                <persName type="person" key="Delegierte der Gotthardvereinigung">délégués du <placeName type="place" key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName>
+                <persName key="Delegierte der Gotthardvereinigung">délégués du <placeName key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName>
                 </persName>, mais je
                 pense <lb xml:id="p1-l8"/>que cela pourra avoir bien en décembre. </p>
       <p rend="left" xml:id="K_5048_p6">
                 <lb xml:id="p1-l9"/>
-        <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>
-        <persName type="person" key="Rambaut">Rambaut</persName> l'âme de la commission <placeName type="place" key="Italien (Königreich)">italienne</placeName> <lb xml:id="p1-l10"/>qui a visité les différens passages suisses est en congé <lb xml:id="p1-l11"/>en <placeName type="place" key="Belgien">Belgique</placeName> sa patrie où il n'avait plus été
-                depuis <lb xml:id="p1-l12"/>16 ans qu'il est en <placeName type="place" key="Italien (Königreich)">Italie</placeName>. Quoiqu'il n'ait démandé <lb xml:id="p1-l13"/>qu'un mois qui à l'heure qu'il est
+        <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice>
+        <persName key="Rambaut">Rambaut</persName> l'âme de la commission <placeName key="Italien (Königreich)">italienne</placeName> <lb xml:id="p1-l10"/>qui a visité les différens passages suisses est en congé <lb xml:id="p1-l11"/>en <placeName key="Belgien">Belgique</placeName> sa patrie où il n'avait plus été
+                depuis <lb xml:id="p1-l12"/>16 ans qu'il est en <placeName key="Italien (Königreich)">Italie</placeName>. Quoiqu'il n'ait démandé <lb xml:id="p1-l13"/>qu'un mois qui à l'heure qu'il est
                 serait échu, je <lb xml:id="p1-l14"/>prévois qu'il demandera un prolongement qu'on <lb xml:id="p1-l15"/>ne pourra
                 guères lui refuser. </p>
       <p rend="left" xml:id="K_5048_p7">
                 <lb xml:id="p1-l16"/>Je regrette que le rapport tecnique du passage du <lb xml:id="p1-l17"/>
-                <placeName type="place" key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName> ne soit pas encore publié et
+                <placeName key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName> ne soit pas encore publié et
                 j'engage <pb n="2"/>
                 <lb xml:id="p2-l1"/>le Comité à vouloir bien l'accélérer, car je voudrais <lb xml:id="p2-l2"/>que la commission
-                    <placeName type="place" key="Italien (Königreich)">italienne</placeName> l'eût sous les
+                    <placeName key="Italien (Königreich)">italienne</placeName> l'eût sous les
                 yeux <lb xml:id="p2-l3"/>pour l'utiliser dans son rapport. </p>
       <p rend="left" xml:id="K_5048_p8">
                 <lb xml:id="p2-l4"/>Je vous assûre que j'examinerai la question d'une <lb xml:id="p2-l5"/>manière tout-à-fait
                 impartiale: cependant dès-à-présent <lb xml:id="p2-l6"/>je puis dire que d'après mon opinion l'on a
-                eu tort <lb xml:id="p2-l7"/>en <placeName type="place" key="Italien (Königreich)">Italie</placeName> jusqu'ici
+                eu tort <lb xml:id="p2-l7"/>en <placeName key="Italien (Königreich)">Italie</placeName> jusqu'ici
                 de prendre la <hi rend="underline">
-                    <placeName type="place" key="Bayern (Königreich)">Bavière</placeName>
+                    <placeName key="Bayern (Königreich)">Bavière</placeName>
                 </hi>
-                comme objectif <lb xml:id="p2-l8"/>du passage des <placeName type="place" key="Alpen">Alpes</placeName>
+                comme objectif <lb xml:id="p2-l8"/>du passage des <placeName key="Alpen">Alpes</placeName>
                 suisses. </p>
       <p rend="left" xml:id="K_5048_p9">
-                <lb xml:id="p2-l9"/>L'on me dit que le <placeName type="place" key="St. Gotthard (Pass)">S<hi rend="sup">t</hi>
+                <lb xml:id="p2-l9"/>L'on me dit que le <placeName key="St. Gotthard (Pass)">S<hi rend="sup">t</hi>
                     Gothard</placeName> coutera plus cher: <lb xml:id="p2-l10"/>ce ne serait pas là un obstacle, si les
                 cantons suisses <lb xml:id="p2-l11"/>offriront pour cette ligne un concours proportionnellement
                 <lb xml:id="p2-l12"/>supérieur. </p>
       <p rend="left" xml:id="K_5048_p10">
-                <lb xml:id="p2-l13"/>La vente des chemins de fer de l'Etat à la société <lb xml:id="p2-l14"/>des chemins <placeName type="place" key="Lombardei">lombards</placeName> sera maintenue. De même le
+                <lb xml:id="p2-l13"/>La vente des chemins de fer de l'Etat à la société <lb xml:id="p2-l14"/>des chemins <placeName key="Lombardei">lombards</placeName> sera maintenue. De même le
                 <lb xml:id="p2-l15"/>projet concernant une nouvelle répartition des compagnies <lb xml:id="p2-l16"/>comissionnaires
-                du réseau <placeName type="place" key="Italien (Königreich)">italien</placeName>. </p>
+                du réseau <placeName key="Italien (Königreich)">italien</placeName>. </p>
       <p rend="left" xml:id="K_5048_p11">
                 <lb xml:id="p2-l17"/>Bien entendu que tout cela reste confidentiel pour le moment.» <pb n="3"/>
             </p>
       <p rend="left" xml:id="K_5048_p12">
                 <lb xml:id="p3-l1"/>Je ne crois qu'il ne me reste rien à ajouter, sinon que le <lb xml:id="p3-l2"/>
-                <persName type="person" key="Jacini Stefano">Ministre</persName> en toute occasion s'interesse
-                vivement à toutes <lb xml:id="p3-l3"/>les démarches du Comité du <placeName type="place" key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName>. </p>
+                <persName key="Jacini Stefano">Ministre</persName> en toute occasion s'interesse
+                vivement à toutes <lb xml:id="p3-l3"/>les démarches du Comité du <placeName key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName>. </p>
       <p rend="left" xml:id="K_5048_p13">
                 <lb xml:id="p3-l4"/>Les 9 commissaires nommés par les 9 bureux sont tous
-                <lb xml:id="p3-l5"/>favorables à la <choice>
-                        <abbr>conv.</abbr>
-                        <expan>convention (Vereinbarung)</expan>
-                    </choice> du <date when="1864-09-15">15 <choice>
-                            <abbr>sept.</abbr>
-                            <expan>septembre (September)</expan>
-                        </choice> </date> On croit que le
-                Président <lb xml:id="p3-l6"/>de la commission <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> <persName type="person" key="Boncompagni (di Mombello) Carlo">Boncompagni</persName>, <placeName type="place" key="Piemont">piémontais</placeName>, ancien <lb xml:id="p3-l7"/>Ministre en sera le rapporteur. Les
+                <lb xml:id="p3-l5"/>favorables à la <choice><abbr>conv.</abbr><expan>convention (Vereinbarung)</expan></choice> du <date when="1864-09-15">15 <choice><abbr>sept.</abbr><expan>septembre (September)</expan></choice> </date> On croit que le
+                Président <lb xml:id="p3-l6"/>de la commission <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> <persName key="Boncompagni (di Mombello) Carlo">Boncompagni</persName>, <placeName key="Piemont">piémontais</placeName>, ancien <lb xml:id="p3-l7"/>Ministre en sera le rapporteur. Les
                 débats en séance publique <lb xml:id="p3-l8"/>commenceront au milieu de la semaine prochaine et
-                <lb xml:id="p3-l9"/>l'on compte sur une majorité sûre et compacte pour <lb xml:id="p3-l10"/>l'acceptation pure et simple. Les <placeName type="place" key="Neapel (I)">Napolitanis</placeName> ont refusé <lb xml:id="p3-l11"/>la proposition de l'opposition de déclarer
-                    <placeName type="place" key="Neapel (I)">Naples</placeName> la capitale. <lb xml:id="p3-l12"/>La
+                <lb xml:id="p3-l9"/>l'on compte sur une majorité sûre et compacte pour <lb xml:id="p3-l10"/>l'acceptation pure et simple. Les <placeName key="Neapel (I)">Napolitanis</placeName> ont refusé <lb xml:id="p3-l11"/>la proposition de l'opposition de déclarer
+                    <placeName key="Neapel (I)">Naples</placeName> la capitale. <lb xml:id="p3-l12"/>La
                 translation sera accélérée autant qu'on pourra pour <lb xml:id="p3-l13"/>abreger la crise de la
                 transition. La ville est tranquille <lb xml:id="p3-l14"/>et la garde nationale fait parfaitement son
                 devoir. Mais <lb xml:id="p3-l15"/>il n'y en a pas moins une irritation profonde surtout <lb xml:id="p3-l16"/>dans
-                les hautes classes. Ce qui fait que pour le moment <lb xml:id="p3-l17"/>le <persName type="person" key="Vittorio Emanuele II. (Italien)">Roi</persName> et le <choice>
-                        <abbr>Gouv<hi rend="sup">t</hi> </abbr>
-                        <expan>Gouvernement</expan>
-                    </choice> s'y sentent mal à l'aise. <pb n="4"/>
+                les hautes classes. Ce qui fait que pour le moment <lb xml:id="p3-l17"/>le <persName key="Vittorio Emanuele II. (Italien)">Roi</persName> et le <choice><abbr>Gouv<hi rend="sup">t</hi> </abbr><expan>Gouvernement</expan></choice> s'y sentent mal à l'aise. <pb n="4"/>
             </p>
       <p rend="left" xml:id="K_5048_p14">
                 <lb xml:id="p4-l1"/>Quant à ma famille ce déplacement est un dérangement <lb xml:id="p4-l2"/>profond: j'étais
                 arrivé à me caser admirablement et <lb xml:id="p4-l3"/>à des conditions relativement supportables.
                 J'avais une <lb xml:id="p4-l4"/>colonie suisse des plus sympathiques. Maintenant <lb xml:id="p4-l5"/>quoiqu'on me
-                dédommage des frais causés par le change<lb break="no" xml:id="p4-l6"/>ment de residence il y aura
-                encore une grande différence <lb xml:id="p4-l7"/>puisqu'à <placeName type="place" key="Florenz (I)">Florence</placeName> qui n'est que la moitié de <placeName type="place" key="Turin (I)">Turin</placeName> et <lb xml:id="p4-l8"/>qui ne se croira la capitale que pour deux ans on
-                <lb xml:id="p4-l9"/>demande à ce que j'entends dire, des prix fous et <lb xml:id="p4-l10"/>on nous exploitera de
+                dédommage des frais causés par le change
+                <lb xml:id="p4-l6" break="no"/>ment de residence il y aura
+                encore une grande différence <lb xml:id="p4-l7" break="no"/>puisqu'à <placeName key="Florenz (I)">Florence</placeName> qui n'est que la moitié de <placeName key="Turin (I)">Turin</placeName> et <lb xml:id="p4-l8" break="no"/>qui ne se croira la capitale que pour deux ans on
+                <lb xml:id="p4-l9" break="no"/>demande à ce que j'entends dire, des prix fous et <lb xml:id="p4-l10" break="no"/>on nous exploitera de
                 toutes les manières. </p>
       <p rend="left" xml:id="K_5048_p15">
-                <lb xml:id="p4-l11"/>Le <persName type="person" key="Vittorio Emanuele II. (Italien)">Roi</persName> voudrait, dit-on, faire sa
-                réception du jour <lb xml:id="p4-l12"/>de l'an à <placeName type="place" key="Florenz (I)">Florence</placeName>. </p>
+                <lb xml:id="p4-l11"/>Le <persName key="Vittorio Emanuele II. (Italien)">Roi</persName> voudrait, dit-on, faire sa
+                réception du jour <lb xml:id="p4-l12"/>de l'an à <placeName key="Florenz (I)">Florence</placeName>. </p>
       <p rend="left" xml:id="K_5048_p16">
                 <lb xml:id="p4-l13"/>J'ai vu avec un véritable plaisir les décisions de l'assemblée <lb xml:id="p4-l14"/>fédérale
                 dans sa dernière session d'une importance capitale. <lb xml:id="p4-l15"/>Si Vous pouviez dans celle
-                de décembre sanctionner un <lb xml:id="p4-l16"/>traité <placeName type="place" key="Italien (Königreich)">italo</placeName>-suisse pareil au <placeName type="place" key="Frankreich">Franco</placeName>-suisse ce serait, ma foi, une <lb xml:id="p4-l17"/>année mémorable dans le
+                de décembre sanctionner un <lb xml:id="p4-l16"/>traité <placeName key="Italien (Königreich)">italo</placeName>-suisse pareil au <placeName key="Frankreich">Franco</placeName>-suisse ce serait, ma foi, une <lb xml:id="p4-l17"/>année mémorable dans le
                 développement de la prospérité de notre pays. </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="left" xml:id="K_5048_p17">
-                    <lb xml:id="p4-l18"/>Recevez mes amitiés bien empressées ainsique les complimens de <choice>
-                        <abbr>Mad<hi rend="sup">e</hi> </abbr>
-                        <expan>Madame (Frau)</expan>
-                    </choice> <persName type="person" key="Pioda-Sozzi Agata">Pioda</persName> </p>
+                    <lb xml:id="p4-l18"/>Recevez mes amitiés bien empressées ainsique les complimens de <choice><abbr>Mad<hi rend="sup">e</hi> </abbr><expan>Madame (Frau)</expan></choice> <persName key="Pioda-Sozzi Agata">Pioda</persName> </p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_5048_p18">
                     <lb xml:id="p4-l19"/>Votre dévoué J. B. Pioda </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

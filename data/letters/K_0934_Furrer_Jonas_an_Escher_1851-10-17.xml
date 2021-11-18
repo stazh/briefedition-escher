@@ -1,189 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0934" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jonas Furrer an Alfred Escher, Bern, Freitag, Oktober 17, 1851</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#220*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Wahlen</item>
-                        <item>Zollwesen</item>
-                        <item>Personelle Angelegenheiten</item>
-                        <item>Universität Zürich</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Furrer Jonas" type="sender">Jonas Furrer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1851-10-17">Freitag, Oktober 17, 1851</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-05-06" who="WB">Transkribiert
-                
-            </change>
-            <change when="2010-04-19" who="SW">Von Word nach XML
-        konvertiert
-                
-            </change>
-            <change when="2010-04-19" who="SW">Metadaten vervollständigt
-                
-            </change>
-            <change when="2012-06-18" who="LM">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-20" who="SCK">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2012&#xA;        -06-25" who="LM ">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2012-07-10" who="SCK">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2012-07-17" who="ML">Transkriptionsverifikation T. Binder
-          umgesetzt
-                
-            </change>
-            <change when="2012-08-15" who="CF">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2012-08-15" who="CA">Inhaltliche Qualitätskontrolle umgesetzt
-                
-            </change>
-            <change when="2012-08-15" who="AH">Übertragung der Transkriptionsverifizierung überprüft
-                
-            </change>
-            <change when="2017-12-11" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0934" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jonas Furrer an Alfred Escher, Bern, Freitag, 17. Oktober 1851</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#220*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Wahlen</term><term>Zollwesen</term><term>Personelle Angelegenheiten</term><term>Universität Zürich</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Furrer Jonas" type="addressee">Jonas Furrer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1851-10-17">17. Oktober 1851</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="right" xml:id="K_0934_p1">
                     <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Bern (Stadt)">
+          <placeName key="Bern (Stadt)">
                         <hi>Bern</hi>
-                    </placeName> d<supplied>en</supplied> <date when="1851-10-17">17 <choice>
-                            <abbr>
-                            <hi>Oktob</hi>.</abbr>
-                            <expan>Oktober</expan>
-                        </choice> 1851</date>. </p>
+                    </placeName> d<add>en</add> <date when="1851-10-17">17 <choice><abbr><hi>Oktob</hi>.</abbr><expan>Oktober</expan></choice> 1851</date>. </p>
       </div>
       <div type="opener">
         <p rend="indent" xml:id="K_0934_p2">
                     <lb xml:id="p1-l2"/>Mein lieber Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="left" xml:id="K_0934_p3">
-                <lb xml:id="p1-l3"/>Es ist mir leid, daß du wegen einiger an <persName type="person" key="Ehrhardt Friedrich Gustav">
+                <lb xml:id="p1-l3"/>Es ist mir leid, daß du wegen einiger an <persName key="Ehrhardt Friedrich Gustav">
                     <hi>Ehrhardt</hi>
                 </persName> geschriebener<lb xml:id="p1-l4"/> Bemerkungen,
         die schlimmer aussehen mochten, als sie gemeint<lb xml:id="p1-l5"/> waren, Dir die Mühe nahmest,
         eine ganze gründliche Abhandlung<lb xml:id="p1-l6"/> über dieses <hi>Capitel</hi> zu schreiben. Ihr
-        scheint mir die Sache in<lb xml:id="p1-l7"/> wohlgemuther Stimmung <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> in
-        rosigem Lichte zu betrachten, <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> <lb xml:id="p1-l8"/> ich glaube eben,
+        scheint mir die Sache in<lb xml:id="p1-l7"/> wohlgemuther Stimmung <choice><abbr>u</abbr><expan>und</expan></choice> in
+        rosigem Lichte zu betrachten, <choice><abbr>u</abbr><expan>und</expan></choice> <lb xml:id="p1-l8"/> ich glaube eben,
         einige Jahre reichen nicht hin, um ein Volk oder<lb xml:id="p1-l9"/> einen gewißen Theil
-        deßelben in seiner Richtung des öffentlich<supplied>en</supplied> Cha<lb break="no" xml:id="p1-l10"/>rakters zu ändern. Nun
-        war es am <placeName type="place" key="Zürichsee">See</placeName> von jeher <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> wird noch<lb xml:id="p1-l11"/> lange so seyn,
-        daß, wenn sie <hi>Candidaten</hi> unter ihnen haben oder<lb xml:id="p1-l12"/> zu haben vermeinen, sie
-        keine, wenn auch bekanntere Namen in der<lb xml:id="p1-l13"/> Ferne suchen. Wohl mögen
-        intelligentere Männer, wie <persName type="person" key="Sulzberger Emil">Sulzberger</persName>,<lb xml:id="p1-l14"/>
-                    <persName type="person" key="Hürlimann-Zürcher Hans Heinrich">Hürlimann</persName>
-                    <choice>
-                        <abbr>usw.</abbr>
-                        <expan>und so weiter</expan>
-                    </choice> andrer Meynung seyn. Allein frage Sie einmal,<lb xml:id="p1-l15"/> über wie viel Stimmen sie <supplied>in</supplied> ihren Kirchgemeind<supplied>en</supplied> zu verfügen
-        haben!!-<lb xml:id="p1-l16"/> Doch wir wollen ganz einfach den Erfolg gewärtigen.</p>
+        deßelben in seiner Richtung des öffentlich<add>en</add> Cha
+                <lb xml:id="p1-l10" break="no"/>rakters zu ändern. Nun
+        war es am <placeName key="Zürichsee">See</placeName> von jeher <choice><abbr>u</abbr><expan>und</expan></choice> wird noch<lb xml:id="p1-l11" break="no"/> lange so seyn,
+        daß, wenn sie <hi>Candidaten</hi> unter ihnen haben oder<lb xml:id="p1-l12" break="no"/> zu haben vermeinen, sie
+        keine, wenn auch bekanntere Namen in der<lb xml:id="p1-l13" break="no"/> Ferne suchen. Wohl mögen
+        intelligentere Männer, wie <persName key="Sulzberger Emil">Sulzberger</persName>,<lb xml:id="p1-l14" break="no"/>
+                <persName key="Hürlimann-Zürcher Hans Heinrich">Hürlimann</persName> <choice><abbr>usw.</abbr><expan>und so weiter</expan></choice> andrer Meynung seyn. Allein frage Sie einmal,<lb xml:id="p1-l15" break="no"/> über wie viel Stimmen sie <add>in</add> ihren Kirchgemeind<add>en</add> zu verfügen
+        haben!!-<lb xml:id="p1-l16" break="no"/> Doch wir wollen ganz einfach den Erfolg gewärtigen.</p>
       <p rend="indent" xml:id="K_0934_p4">
                 <lb xml:id="p1-l17"/>Deinem Wunsche gemäß habe ich im Zolldepartement<lb xml:id="p1-l18"/> heute
         dafür gesorgt, daß sofort <hi>Ordre</hi> ertheilt wurde, die Effekten <pb n="2"/>
                 <lb xml:id="p2-l1"/>des
-        <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Osenbrüggen Eduard">
+        <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Osenbrüggen Eduard">
                     <hi>Osenbrüggen</hi>
                 </persName>
                 <note type="transcript">wohl Eduard,
           liberaler deutscher Flüchtling, Professor für Strafrecht an der Universität
           Zürich</note> frey zu geben. Ich habe freilich zu diesem<lb xml:id="p2-l2"/> Behuf den
-        Auftrag überschritten <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> mich als Bürgen für den Zoll<lb break="no" xml:id="p2-l3"/>betrag erklärt, welchen die competente Behörde aussprech<supplied>en</supplied> werde.<lb xml:id="p2-l4"/> Ich bin also als <hi>negotiorum gestor</hi> intervenirt <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> ich
-        denke, <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Osenbrüggen Eduard">
-                    <hi>O</hi>.</persName>
-                    <lb xml:id="p2-l5"/> werde mich nicht im Stiche lassen.</p>
+        Auftrag überschritten <choice><abbr>u</abbr><expan>und</expan></choice> mich als Bürgen für den Zoll
+                <lb xml:id="p2-l3" break="no"/>betrag erklärt, welchen die competente Behörde aussprech<add>en</add> werde.<lb xml:id="p2-l4" break="no"/> Ich bin also als <hi>negotiorum gestor</hi> intervenirt <choice><abbr>u</abbr><expan>und</expan></choice> ich
+        denke, <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <persName key="Osenbrüggen Eduard"><hi>O</hi>.</persName> <lb xml:id="p2-l5" break="no"/> werde mich nicht im Stiche lassen.</p>
       <p rend="indent" xml:id="K_0934_p5">
                 <lb xml:id="p2-l6"/>Ich freue mich Euch bald wieder zu sehn, aber ich besorge<lb xml:id="p2-l7"/>
         wieder schlechtes Wetter. <date when="1851-10-17">Heute</date> fiel hier der erste Schnee!-</p>
       <p rend="indent" xml:id="K_0934_p6">
-                <lb xml:id="p2-l8"/>Inzwischen gehab dich wohl! Meine<note type="transcript">sic!</note> herzl<supplied>ichen</supplied> Gruß an Dich<lb xml:id="p2-l9"/>
-                <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice>
+                <lb xml:id="p2-l8"/>Inzwischen gehab dich wohl! Meine<note type="transcript">sic!</note> herzl<add>ichen</add> Gruß an Dich<lb xml:id="p2-l9"/>
+                <choice><abbr>u</abbr><expan>und</expan></choice>
         übrige Freunde</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="center" xml:id="K_0934_p7">
                     <lb xml:id="p2-l10"/>Dein</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_0934_p8">
                     <lb xml:id="p2-l11"/> F J </p>
       </div>
       <postscript>
         <p rend="left" xml:id="K_0934_p9">
-                    <lb xml:id="p2-l12"/>Es sollte mir sehr leid thun, wenn<lb xml:id="p2-l13"/> der <choice>
-                        <abbr>Gger.</abbr>
-                        <expan>(Abkürzung nicht aufgelöst)</expan>
-                    </choice> <persName type="person" key="Schiess Johann Ulrich">
+                    <lb xml:id="p2-l12"/>Es sollte mir sehr leid thun, wenn<lb xml:id="p2-l13"/> der <choice><abbr>Gger.</abbr><expan>(Abkürzung nicht aufgelöst)</expan></choice> <persName key="Schiess Johann Ulrich">
                         <hi>Schiess</hi>
                     </persName> nicht gewählt würde.-</p>
       </postscript>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

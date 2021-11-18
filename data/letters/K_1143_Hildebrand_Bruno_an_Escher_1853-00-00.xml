@@ -1,144 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1143" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Bruno Hildebrand an Alfred Escher, s.l., [1853?]</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#266*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Nordbahn (NB)</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Zürich-Bodensee-Bahn (ZBB)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Hildebrand Bruno" type="sender">Bruno Hildebrand</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>s.l.</placeName>
-                    <date when="1853">[1853?]</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-06-07" who="NP">Migration nach XML
-                
-            </change>
-            <change when="2013-06-10" who="CH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-08" who="RO">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-12" who="RO">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-07-15" who="TM">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2013-07-24" who="NB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-08-07" who="SW">interne Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-08-14" who="DG">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2013-08-16" who="BB">Übertragung der Transkriptionsverifizierung geprüf
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1143" type="Brief"><teiHeader><fileDesc><titleStmt><title>Bruno Hildebrand an Alfred Escher, s.l., [1853?]</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#266*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Nordbahn (NB)</term><term>Eisenbahnen Finanzierung</term><term>Zürich-Bodensee-Bahn (ZBB)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Hildebrand Bruno" type="addressee">Bruno Hildebrand</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><date when="1853-01-01">[1853?]</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_1143_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_1143_c0">Datierung gemäss Archivnotiz.</note>
-                    </seg> <lb xml:id="p1-l1"/>Verehrtester Herr Präsident!</p>
+        <p rend="indent" xml:id="K_1143_p1"> <note type="com" xml:id="K_1143_c0">Datierung gemäss Archivnotiz.</note> <lb xml:id="p1-l1"/>Verehrtester Herr Präsident!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_1143_p2">
-                <lb xml:id="p1-l2"/>Heute hat <persName type="person" key="Rüttimann Johann Jakob">Rütt.</persName> die Worte telegraphirt:
-            <lb xml:id="p1-l3"/>
-                <hi rend="underline">«<persName type="person" key="Rüttimann Johann Jakob">R</persName> geht zu <hi>Oppenheimer</hi> nach <placeName type="place" key="Köln (D)">Cöln</placeName>, Sonntag
-        <lb xml:id="p1-l4"/>dessen mündlicher Bericht</hi>.» Demnach ist <persName type="person" key="Rüttimann Johann Jakob">R.</persName> in 
-        <lb xml:id="p1-l5"/>das durch <persName type="person" key="Guttentag Immanuel">meinen Schwager</persName> eingeleitete und Ihnen 
+    </front><body>
+      <p rend="left" xml:id="K_1143_p2"><lb xml:id="p1-l2"/>Heute hat <persName key="Rüttimann Johann Jakob">Rütt.</persName> die Worte telegraphirt:
+            <lb xml:id="p1-l3"/><hi rend="underline">«<persName key="Rüttimann Johann Jakob">R</persName> geht zu <hi>Oppenheimer</hi> nach <placeName key="Köln (D)">Cöln</placeName>, Sonntag
+        <lb xml:id="p1-l4"/>dessen mündlicher Bericht</hi>.» Demnach ist <persName key="Rüttimann Johann Jakob">R.</persName> in 
+        <lb xml:id="p1-l5"/>das durch <persName key="Guttentag Immanuel">meinen Schwager</persName> eingeleitete und Ihnen 
         <lb xml:id="p1-l6"/>gestern gemeldete Anerbieten ohne Zweifel 
-        <lb xml:id="p1-l7"/>eingetreten und verhandelt um Zeit zu ge<lb break="no" xml:id="p1-l8"/>winnen, zugleich direct mit dem <placeName type="place" key="Köln (D)">Cölnischen</placeName>
-                    <lb xml:id="p1-l9"/>Mitunternehmer. Die verlangte Provision 
-        <lb xml:id="p1-l10"/>ist allerdings enorm und geht mir seit gestern 
-        <lb xml:id="p1-l11"/>sehr im Kopfe herum, indessen wird ja wohl 
-        <lb xml:id="p1-l12"/>noch etwas abgehandelt sein.
-        <lb xml:id="p1-l13"/>Weniger günstig sind die Nachrichten aus 
-            <lb xml:id="p1-l14"/>
-                    <placeName type="place" key="Mailand (I)">Mailand</placeName>. <persName type="person" key="Fierz Johann Heinrich">F.</persName> schreibt, ohne Anstoß von 
-        <lb xml:id="p1-l15"/>
-                    <placeName type="place" key="Berlin (D)">Berlin</placeName> oder <placeName type="place" key="Paris (F)">Paris</placeName> werde nicht viel zu 
-        <pb n="2"/>
-                    <lb xml:id="p2-l1"/>machen sein. Ich habe heute deshalb eine 
-        <lb xml:id="p2-l2"/>Schwindeldepesche durch <persName type="person" key="Schulthess-von Meiss Heinrich">Schultheß</persName> ihm 
-        <lb xml:id="p2-l3"/>geschickt. <persName type="person" key="Arnaud">Arnaud</persName> von <placeName type="place" key="Paris (F)">Paris</placeName> ist glücklich 
-        <lb xml:id="p2-l4"/>ausgeblieben und hat die Nordbahn-Direction 
-        <lb xml:id="p2-l5"/>in solche Verzweifelung<note type="transcript">sic!</note> gebracht, daß sie 
-        <lb xml:id="p2-l6"/>sich ermannt hat, heute Abend, wie mir im 
-            <lb xml:id="p2-l7"/>Vertrauen verrathen ist, <persName type="person" key="Escher-Bodmer Johann Conrad">Escher Bodmer</persName> nach 
-        <lb xml:id="p2-l8"/>
-                    <placeName type="place" key="Paris (F)">Paris</placeName> zu schicken. Ich habe den <persName type="person" key="Sensal 2">
-                    <persName type="person" key="Sensal 1">2 thätigsten 
-        <lb xml:id="p2-l9"/>Sensalen</persName>
-                </persName> hier im tiefsten Geheimniß jedem 
-        <lb xml:id="p2-l10"/>100 <choice>
-                        <abbr>Fr.</abbr>
-                        <expan>Franken / Francs / Franchi</expan>
-                    </choice> Prämie für jede Million versprochen, 
-        <lb xml:id="p2-l11"/>welche über die nothwendigen 6 <choice>
-                        <abbr>Mill.</abbr>
-                        <expan>Million</expan>
-                    </choice> nächste 
-        <lb xml:id="p2-l12"/>Woche gezeichnet wird. Sie können doch als 
-            <lb xml:id="p2-l13"/>Platztrompeter viel wirken. <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <choice>
-                        <abbr>R.R.</abbr>
-                        <expan>RegierungsRath</expan>
-                    </choice>
-                    <persName type="person" key="Egloff Johann Konrad">Eg<lb break="no" xml:id="p2-l14"/>loff</persName> wünscht Zeichnungsformulare, die man 
-          <lb xml:id="p2-l15"/>jedem Einzelnen zur Zeichnung ins Haus 
-        <lb xml:id="p2-l16"/>schickt. Das ist doch zu viel verlangt. Sonst 
-        <lb xml:id="p2-l17"/>nichts Neues.</p>
-    </div>
-        </body>
-    <back>
+        <lb xml:id="p1-l7"/>eingetreten und verhandelt um Zeit zu ge<lb xml:id="p1-l8" break="no"/>winnen, zugleich direct mit dem <placeName key="Köln (D)">Cölnischen</placeName> <lb xml:id="p1-l9" break="no"/>Mitunternehmer. Die verlangte Provision 
+        <lb xml:id="p1-l10" break="no"/>ist allerdings enorm und geht mir seit gestern 
+        <lb xml:id="p1-l11" break="no"/>sehr im Kopfe herum, indessen wird ja wohl 
+        <lb xml:id="p1-l12" break="no"/>noch etwas abgehandelt sein.
+        <lb xml:id="p1-l13" break="no"/>Weniger günstig sind die Nachrichten aus 
+            <lb xml:id="p1-l14" break="no"/><placeName key="Mailand (I)">Mailand</placeName>. <persName key="Fierz Johann Heinrich">F.</persName> schreibt, ohne Anstoß von 
+        <lb xml:id="p1-l15" break="no"/><placeName key="Berlin (D)">Berlin</placeName> oder <placeName key="Paris (F)">Paris</placeName> werde nicht viel zu 
+        <pb n="2"/><lb xml:id="p2-l1" break="no"/>machen sein. Ich habe heute deshalb eine 
+        <lb xml:id="p2-l2" break="no"/>Schwindeldepesche durch <persName key="Schulthess-von Meiss Heinrich">Schultheß</persName> ihm 
+        <lb xml:id="p2-l3" break="no"/>geschickt. <persName key="Arnaud">Arnaud</persName> von <placeName key="Paris (F)">Paris</placeName> ist glücklich 
+        <lb xml:id="p2-l4" break="no"/>ausgeblieben und hat die Nordbahn-Direction 
+        <lb xml:id="p2-l5" break="no"/>in solche Verzweifelung<note type="transcript">sic!</note> gebracht, daß sie 
+        <lb xml:id="p2-l6" break="no"/>sich ermannt hat, heute Abend, wie mir im 
+            <lb xml:id="p2-l7" break="no"/>Vertrauen verrathen ist, <persName key="Escher-Bodmer Johann Conrad">Escher Bodmer</persName> nach 
+        <lb xml:id="p2-l8" break="no"/><placeName key="Paris (F)">Paris</placeName> zu schicken. Ich habe den <persName key="Sensal 2"><persName key="Sensal 1">2 thätigsten 
+        <lb xml:id="p2-l9"/>Sensalen</persName></persName> hier im tiefsten Geheimniß jedem 
+        <lb xml:id="p2-l10" break="no"/>100 <choice><abbr>Fr.</abbr><expan>Franken / Francs / Franchi</expan></choice> Prämie für jede Million versprochen, 
+        <lb xml:id="p2-l11" break="no"/>welche über die nothwendigen 6 <choice><abbr>Mill.</abbr><expan>Million</expan></choice> nächste 
+        <lb xml:id="p2-l12" break="no"/>Woche gezeichnet wird. Sie können doch als 
+            <lb xml:id="p2-l13" break="no"/>Platztrompeter viel wirken. <choice><abbr>H.</abbr><expan>Herr</expan></choice> <choice><abbr>R.R.</abbr><expan>RegierungsRath</expan></choice> <persName key="Egloff Johann Konrad">Eg<lb xml:id="p2-l14" break="no"/>loff</persName> wünscht Zeichnungsformulare, die man 
+          <lb xml:id="p2-l15" break="no"/>jedem Einzelnen zur Zeichnung ins Haus 
+        <lb xml:id="p2-l16" break="no"/>schickt. Das ist doch zu viel verlangt. Sonst 
+        <lb xml:id="p2-l17" break="no"/>nichts Neues.</p>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_1143_p3">
-                    <lb xml:id="p2-l18"/>treulichst
+        <p rend="center" xml:id="K_1143_p3"><lb xml:id="p2-l18"/>treulichst
         <lb xml:id="p2-l19"/>ganz Ihr</p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_1143_p4">
-                    <lb xml:id="p2-l20"/>Hildebrand</p>
+      <div type="signature">
+        <p rend="center" xml:id="K_1143_p4"><lb xml:id="p2-l20"/>Hildebrand</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

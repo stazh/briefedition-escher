@@ -1,89 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3159" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jakob Kauffmann an Alfred Escher, Zürich, Sonntag, Mai 26, 1878</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#70*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1878-05-26">Sonntag, Mai 26, 1878</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-06-29" who="BF">Transkription
-                
-            </change>
-            <change when="2013-08-27" who="AO">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="CD">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="IB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="XR">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="DG">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-22" who="MA">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-28" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-04-23" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-05-20" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2017-01-16" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3159" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jakob Kauffmann an Alfred Escher, Zürich, Sonntag, 26. Mai 1878</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#70*</idno><idno>J I.67-6.70</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Öffentliche Beteiligungen (Infrastruktur)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Kauffmann Jakob" type="addressee">Jakob Kauffmann</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1878-05-26">26. Mai 1878</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
         <p rend="left" xml:id="K_3159_p1">
                     <lb xml:id="p1-l1"/>
-          <fw>Gotthardbahn.</fw>
+          <hi rend="printed">Gotthardbahn.</hi>
         </p>
-      </div>
+      
       <div type="dateline">
         <p rend="right" xml:id="K_3159_p2">
                     <lb xml:id="p1-l2"/>
           <hi>
-            <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+            <placeName key="Zürich (Stadt)">Zürich</placeName>
           </hi> den <date when="1878-05-26">26<hi rend="sup">t</hi> <hi>Mai</hi> 1878</date>.
                 </p>
       </div>
@@ -92,36 +19,28 @@
                     <lb xml:id="p1-l3"/>Hochgeehrter Herr Präsident!
                 </p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_3159_p4">
                 <lb xml:id="p1-l4"/>Indem ich mir erlaube, Ihnen einen <date when="1878-05-25">gestern</date> von Herrn
                 <lb xml:id="p1-l5"/>
-                <persName type="person" key="Trögle">
+                <persName key="Trögle">
                     <hi>Trögle</hi>
                 </persName> erhaltenen Brief vorzulegen, beehre ich mich Ihnen
                 <lb xml:id="p1-l6"/>mitzutheilen, daß die gestrige Unterredung mit den
-                <lb xml:id="p1-l7"/>Herren <persName type="person" key="Bridel Gustave">
+                <lb xml:id="p1-l7"/>Herren <persName key="Bridel Gustave">
                     <hi>Bridel</hi>
                 </persName>, <hi>
-                    <persName type="person" key="Dapples Ernest">Dapples</persName>
-                </hi> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <hi>
-                    <persName type="person" key="Koller Gottlieb">Koller</persName>
+                    <persName key="Dapples Ernest">Dapples</persName>
+                </hi> <choice><abbr>u.</abbr><expan>und</expan></choice> <hi>
+                    <persName key="Koller Gottlieb">Koller</persName>
                 </hi> bei mir die Überzeugung 
                 <lb xml:id="p1-l8"/>befestigt hat, daß alle Subventionen von Kantonen und
                 <lb xml:id="p1-l9"/>vom Bund nur erhältlich seyn werden, wenn Sie mit einem
                 <lb xml:id="p1-l10"/>
-                <hi>Offert à forfait</hi> auftreten können. Die Herren in <placeName type="place" key="Bern (Stadt)">
+                <hi>Offert à forfait</hi> auftreten können. Die Herren in <placeName key="Bern (Stadt)">
                     <hi>Bern</hi>
                 </placeName> <lb xml:id="p1-l11"/>salviren sich der Art, daß sie sagen im ungünstigsten
-                <lb xml:id="p1-l12"/>Fall werden alle <hi>Reserve</hi>summen absorbirt <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> dazu noch
+                <lb xml:id="p1-l12"/>Fall werden alle <hi>Reserve</hi>summen absorbirt <choice><abbr>u.</abbr><expan>und</expan></choice> dazu noch
                 <lb xml:id="p1-l13"/>ein <hi>Manco</hi> von <hi>circa</hi> 6 Millionen erzeugt werden, da
                 <lb xml:id="p1-l14"/>der Vollendungstermin auf <date when="1882-07-01">1<hi rend="sup">t</hi> Juli 1882</date> anzusezen<note type="transcript">sic!</note> sey.
                 <lb xml:id="p1-l15"/>Sie glauben zwar selbst nicht an diesen ungünstigsten 
@@ -129,10 +48,7 @@
                 <lb xml:id="p1-l17"/>müssen –, berechnen aber die Kosten für alle Eventualitäten.
             </p>
       <p rend="indent" xml:id="K_3159_p5">
-                <lb xml:id="p1-l18"/>Unter diesen Umständen kann nur ein <hi>Offert à forfait</hi> <lb xml:id="p1-l19"/>helfen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> zwar worinn<note type="transcript">sic!</note> der Baubeginn alsbald verlangt
+                <lb xml:id="p1-l18"/>Unter diesen Umständen kann nur ein <hi>Offert à forfait</hi> <lb xml:id="p1-l19"/>helfen <choice><abbr>u.</abbr><expan>und</expan></choice> zwar worinn<note type="transcript">sic!</note> der Baubeginn alsbald verlangt
                 <lb xml:id="p1-l20"/>wird. Eine Bundesabstimmung wird nur ein verwerfendes
                 <pb n="2"/>
                 <lb xml:id="p2-l1"/>Resultat ergeben, darüber dürfte kein Zweifel mehr
@@ -140,32 +56,28 @@
             </p>
       <p rend="indent" xml:id="K_3159_p6">
                 <lb xml:id="p2-l3"/>Wie ich Ihnen schon vor einem Jahre schrieb, wird
-                <lb xml:id="p2-l4"/>die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>frage nach meinem Urtheil nur in Ver<lb break="no" xml:id="p2-l5"/>bindung mit der <hi>
-                    <placeName type="place" key="Monte Ceneri (Pass)">Monte Ceneri</placeName>
-                </hi>linie in der Schweiz 
-                <lb xml:id="p2-l6"/>und <placeName type="place" key="Italien (Königreich)">Italien</placeName> gelöst werden. Anders geht es
-                <lb xml:id="p2-l7"/>nicht.
+                <lb xml:id="p2-l4"/>die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>frage nach meinem Urtheil nur in Ver
+                <lb xml:id="p2-l5" break="no"/>bindung mit der <hi>
+                    <placeName key="Monte Ceneri (Pass)">Monte Ceneri</placeName></hi>linie in der Schweiz 
+                <lb xml:id="p2-l6" break="no"/>und <placeName key="Italien (Königreich)">Italien</placeName> gelöst werden. Anders geht es
+                <lb xml:id="p2-l7" break="no"/>nicht.
             </p>
       <p rend="indent" xml:id="K_3159_p7">
-                <lb xml:id="p2-l8"/>Ich reise <date when="1878-05-27">morgen</date> an den <placeName type="place" key="Walensee">Wallenstadter See</placeName> und
+                <lb xml:id="p2-l8"/>Ich reise <date when="1878-05-27">morgen</date> an den <placeName key="Walensee">Wallenstadter See</placeName> und
                 <lb xml:id="p2-l9"/>werde hierauf über die dortigen Tunnels an die Herren
                 <lb xml:id="p2-l10"/>Experten nach <hi>
-                    <placeName type="place" key="Bern (Stadt)">Bern</placeName> </hi> berichten, <date when="1878-05-27">morgen</date> Abend bin
+                    <placeName key="Bern (Stadt)">Bern</placeName> </hi> berichten, <date when="1878-05-27">morgen</date> Abend bin
                 <lb xml:id="p2-l11"/>ich wieder hier.
             </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="center" xml:id="K_3159_p8">
                     <lb xml:id="p2-l12"/>Hochachtungsvoll
             </p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_3159_p9">
                     <lb xml:id="p2-l13"/>J. Kauffmann
             </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

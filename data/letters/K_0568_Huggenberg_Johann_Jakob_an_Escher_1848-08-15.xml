@@ -1,334 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0568" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Huggenberg an Alfred Escher, Winterthur, Dienstag, August 15, 1848</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#280*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Finanzielle Unterstützungen</item>
-                        <item>Wahlen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Huggenberg Johann Jakob" type="sender">Johann Jakob Huggenberg</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Winterthur</placeName>
-                    <date when="1848-08-15">Dienstag, August 15, 1848</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-09-/13-12" who="BF">Transkribiert
-                
-            </change>
-            <change when="2010-12-06" who="BK">von Word nach XML konvertiert
-                
-            </change>
-            <change when="2011-07-06" who="AH">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-07" who="TM">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen umgesetzt
-
-                
-            </change>
-            <change when="2011-07-27" who="HA">e-Edition: Auszeichnung 2 umgesetzt
-				
-                
-            </change>
-            <change when="2011-07-29" who="TM">e-Edition: Verfizierung 2 umgesetzt
-				
-                
-            </change>
-            <change when="2011-08-10" who="TM">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2013-07-16" who="SW">Personen-Index angepasst
-                
-            </change>
-            <change when="2015-01-05" who="CA">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front><!--<printedheader><p id="K_0568_p1" rend="left"><lb id="p1-l1"/><idx type="place" norm="Winterthur">WINTERTHUR</idx> </p></printedheader>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0568" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Huggenberg an Alfred Escher, Winterthur, Dienstag, 15. August 1848</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#280*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Finanzielle Unterstützungen</term><term>Wahlen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Huggenberg Johann Jakob" type="addressee">Johann Jakob Huggenberg</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Winterthur</placeName><date when="1848-08-15">15. August 1848</date></correspAction></correspDesc></profileDesc></teiHeader><text><front><!--<printedheader><p id="K_0568_p1" rend="left"><lb id="p1-l1"/><idx type="place" norm="Winterthur">WINTERTHUR</idx> </p></printedheader>-->
       <div type="opener">
         <p rend="indent" xml:id="K_0568_p1">
-                    <lb xml:id="p1-l1"/>Mein Hochgeachteter Herr <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Freund!</p>
+                    <lb xml:id="p1-l1"/>Mein Hochgeachteter Herr <choice><abbr>u.</abbr><expan>und</expan></choice> Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_0568_p2">
-                <lb xml:id="p1-l2"/>In Angelegenheiten <persName type="person" key="Weiss Heinrich">unsers <choice>
-                            <abbr>sel.</abbr>
-                            <expan>selig</expan>
-                        </choice> Freundes</persName> hab ich Ihnen<lb xml:id="p1-l3"/>
-zu berichten, daß <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> <choice>
-                        <abbr>Statth</abbr>
-                        <expan>Statthalter</expan>
-                    </choice>. <persName type="person" key="Müller Johann Jakob">Müller</persName> heute bey<lb xml:id="p1-l4"/>
-                <hi>Creditor</hi> <persName type="person" key="Bühler">Bühler</persName> war, daß er zwar einige Hoffnung<lb xml:id="p1-l5"/>
+                <lb xml:id="p1-l2"/>In Angelegenheiten <persName key="Weiss Heinrich">unsers <choice><abbr>sel.</abbr><expan>selig</expan></choice> Freundes</persName> hab ich Ihnen<lb xml:id="p1-l3"/>
+zu berichten, daß <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <choice><abbr>Statth</abbr><expan>Statthalter</expan></choice>. <persName key="Müller Johann Jakob">Müller</persName> heute bey<lb xml:id="p1-l4"/>
+                <hi>Creditor</hi> <persName key="Bühler">Bühler</persName> war, daß er zwar einige Hoffnung<lb xml:id="p1-l5"/>
 zurükbrachte, es werde derselbe vielleicht mit<lb xml:id="p1-l6"/>
-diesen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> jenen Anhäng<supplied>en</supplied> die <hi>Proposition</hi> annehm<supplied>en</supplied>,<lb xml:id="p1-l7"/>
+diesen <choice><abbr>u.</abbr><expan>und</expan></choice> jenen Anhäng<add>en</add> die <hi>Proposition</hi> annehm<add>en</add>,<lb xml:id="p1-l7"/>
 doch gewiß sey es keineswegs. Das Gleiche<lb xml:id="p1-l8"/>
-				hab ich von H<supplied>errn</supplied> <persName type="person" key="Bader">Bader</persName> zu sagen, bey dem nun<lb xml:id="p1-l9"/>
-freylich <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Gujer Johann Kaspar">Gujer</persName> vielleicht etwas ausrichtet. –<lb xml:id="p1-l10"/>
-Fest <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> immer fester bin ich der Meynung, daß<lb xml:id="p1-l11"/>
-        die <persName type="person" key="Weiss-Zwicky Margaretha">Wittwe</persName>
+				hab ich von H<add>errn</add> <persName key="Bader">Bader</persName> zu sagen, bey dem nun<lb xml:id="p1-l9"/>
+freylich <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <persName key="Gujer Johann Kaspar">Gujer</persName> vielleicht etwas ausrichtet. –<lb xml:id="p1-l10"/>
+Fest <choice><abbr>u.</abbr><expan>und</expan></choice> immer fester bin ich der Meynung, daß<lb xml:id="p1-l11"/>
+        die <persName key="Weiss-Zwicky Margaretha">Wittwe</persName>
                 <note type="transcript">sic!</note> durchaus nicht weiter gehen kann. –<lb xml:id="p1-l12"/>
 Es hat also wirklich <del>daß</del> den Anschein, daß die<lb xml:id="p1-l13"/>
-Sache auf die Spize getrieben werd<supplied>en</supplied> soll <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> auf<lb xml:id="p1-l14"/>
-diesen Fall hin werden wir uns vorsehen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> uns<lb xml:id="p1-l15"/>
+Sache auf die Spize getrieben werd<add>en</add> soll <choice><abbr>u.</abbr><expan>und</expan></choice> auf<lb xml:id="p1-l14"/>
+diesen Fall hin werden wir uns vorsehen <choice><abbr>u.</abbr><expan>und</expan></choice> uns<lb xml:id="p1-l15"/>
 namentlich auch auf den Punkt stellen sollen, daß<lb xml:id="p1-l16"/>
-wir nicht gefährden, in allen Bezirk<supplied>en</supplied>, kurz im<lb xml:id="p1-l17"/>
-Land herum angegriffen zu werd<supplied>en</supplied>, zumal <persName type="person" key="Bühler">Bühler</persName> <lb xml:id="p1-l18"/>
+wir nicht gefährden, in allen Bezirk<add>en</add>, kurz im<lb xml:id="p1-l17"/>
+Land herum angegriffen zu werd<add>en</add>, zumal <persName key="Bühler">Bühler</persName> <lb xml:id="p1-l18"/>
 schon ziemlich herum gereist ist. Es wird daher<lb xml:id="p1-l19"/>
-wohl zwekmäßig seyn, wenn wir eine Zusammen<lb break="no" xml:id="p1-l20"/>kunft 
-von Freunden auf nächsten Sonntag den <date when="1848-08-20">20. dieß</date>
-                    <lb xml:id="p1-l21"/>
-veranstalten, ihnen den Sachverhalt mittheilen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p1-l22"/>
-von ihnen vernehmen: ob der eine oder andere<lb xml:id="p1-l23"/>
+wohl zwekmäßig seyn, wenn wir eine Zusammen
+                <lb xml:id="p1-l20" break="no"/>kunft 
+von Freunden auf nächsten Sonntag den <date when="1848-08-20">20. dieß</date> <lb xml:id="p1-l21" break="no"/>
+veranstalten, ihnen den Sachverhalt mittheilen <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p1-l22" break="no"/>
+von ihnen vernehmen: ob der eine oder andere<lb xml:id="p1-l23" break="no"/>
 gewillt sey, <hi rend="underline">an die Schulden</hi>, oder aber <add>
-                    <hi rend="underline">nicht vielmehr</hi>
-                </add> an den<lb xml:id="p1-l24"/>
-				hinterlaßenen <persName type="person" key="Weiss Emil">Sohn</persName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> die <persName type="person" key="Weiss-Zwicky Margaretha">Wittwe</persName> etwas bey<lb break="no" xml:id="p1-l25"/>zutragen; 
-hat dann jemand Lust, den <hi>Creditoren</hi>
-                    <lb xml:id="p1-l26"/>
-unter die Arme zu greifen, so mag ichs diesen<lb xml:id="p1-l27"/>
-am Ende wohl gönnen, obschon ich finde, sie<lb xml:id="p1-l28"/>
-dürften sich sämtlich füglich mit dem<lb xml:id="p1-l29"/>
-Anerbotenen begnügen. – Da muß ich Sie aber,<lb xml:id="p1-l30"/>
-auch <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <choice>
-                        <abbr>Statth</abbr>
-                        <expan>Statthalter</expan>
-                    </choice>. <persName type="person" key="Müller Johann Jakob">Müller</persName> stimmt vollkommen bey, schon<lb xml:id="p1-l31"/>
-in Ihrer Stellung als Vormund des <persName type="person" key="Weiss Emil">Sohnes</persName>
-                    <add>dringendst</add> er<lb break="no" xml:id="p1-l32"/>suchen, 
-Ort <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Zeit zu bestimmen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> die Ein<lb break="no" xml:id="p1-l33"/>ladung <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Leitung zu übernehmen; die Freunde<lb xml:id="p1-l34"/>
-in hier <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> der Umgegend würd<supplied>en</supplied> wir gerne<lb xml:id="p1-l35"/>
-in Ihrem Namen einladen. – Unmaßgeblich<lb xml:id="p1-l36"/>
-glaubten wir, folgende Männer wären zu beruf<supplied>en</supplied>:<lb xml:id="p1-l37"/>
-				die H<supplied>erren</supplied>
-                    <choice>
-                        <abbr>R.R.</abbr>
-                        <expan>RegierungsRath</expan>
-                    </choice>
-                    <persName type="person" key="Wieland Johann Jakob">Wieland</persName>, Oberst <persName type="person" key="Fierz Hans Jakob">Fierz</persName>, <choice>
-                        <abbr>
-                    <hi>D<hi rend="sup">r</hi>
-                    </hi> </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice>
-                    <persName type="person" key="Rüegg Heinrich">Rüegg</persName> in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>,<lb xml:id="p1-l38"/>
-        alt <choice>
-                        <abbr>R.R.</abbr>
-                        <expan>RegierungsRath</expan>
-                    </choice>
-                    <persName type="person" key="Krauer Hartmann">Krauer</persName>, <choice>
-                        <abbr>
-                    <hi>D<hi rend="sup">r</hi>
-                    </hi> </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice>
-                    <persName type="person" key="Weidmann Felix">Weidmann</persName>, <persName type="person" key="Gujer Johann Kaspar">Gujer</persName> in <placeName type="place" key="Fehraltorf">Fehraltorf</placeName>,<pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-                    <persName type="person" key="Wolfensberger">Wolfensperger</persName> in <placeName type="place" key="Russikon">Rußikon</placeName>, alt <choice>
-                        <abbr>Statth</abbr>
-                        <expan>Statthalter</expan>
-                    </choice>. <persName type="person" key="Zangger Hans Heinrich">Zangger</persName> in<lb xml:id="p2-l2"/>
-                    <placeName type="place" key="Uster">Uster</placeName>, <choice>
-                        <abbr>CantR.</abbr>
-                        <expan>CantonsRath</expan>
-                    </choice>
-                    <persName type="person" key="Arbenz Johann Ulrich">Arbenz</persName> in <placeName type="place" key="Andelfingen">Andelfing<supplied>en</supplied>
-                </placeName>, <supplied type="unclear">
-                    <persName type="person" key="Brunner-Aberli Johann Jakob">Brunner<lb break="no" xml:id="p2-l3"/>Aberli</persName> </supplied> in <placeName type="place" key="Winterthur">Winterthur</placeName>, alt <choice>
-                        <abbr>Erz.Rath</abbr>
-                        <expan>ErziehungsRath</expan>
-                    </choice>
-                    <persName type="person" key="Rüegg Johannes">Rüegg</persName>, <choice>
-                        <abbr>Fürspr</abbr>
-                        <expan>Fürsprecher (Rechtsanwalt)</expan>
-                    </choice>
-                    <lb xml:id="p2-l4"/>
-                    <persName type="person" key="Surber Heinrich">Surber</persName>
-                , <choice>
-                        <abbr>
-                    <hi>D<hi rend="sup">r</hi>
-                    </hi> </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice>
-                    <persName type="person" key="Pestalozzi Hans Jakob">Pestaluz</persName>, <persName type="person" key="Geilinger Heinrich">Geilinger</persName> zur Arche, <choice>
-                        <abbr>Statth</abbr>
-                        <expan>Statthalter</expan>
-                    </choice>. <persName type="person" key="Müller Johann Jakob">Müller</persName>,<lb xml:id="p2-l5"/>
-                    <choice>
-                        <abbr>Bez.</abbr>
-                        <expan>Bezirk</expan>
-                    </choice>Richter <persName type="person" key="Furrer Johann">Furrer</persName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <choice>
-                        <abbr>CantRath</abbr>
-                        <expan>CantonsRath</expan>
-                    </choice>
-                    <persName type="person" key="Stahel Johann Jakob">Stahel</persName> in<lb xml:id="p2-l6"/>
-der <placeName type="place" key="Rämismühle (Zell, ZH)">Rämismühle</placeName>. Natürlich aber überlaß<supplied>en</supplied> wir<lb xml:id="p2-l7"/>
-Ihnen gänzlich zu handeln <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> einzulad<supplied>en</supplied>, wie <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> wen<lb xml:id="p2-l8"/>
-Sie gut finden. Kommen entferntere Freunde,<lb xml:id="p2-l9"/>
-so müßte man sich, denk ich wohl, in <del>beste</del>
-                    <placeName type="place" key="Baltenswil (Bassersdorf)">Balten<lb break="no" xml:id="p2-l10"/>schweil</placeName>
-besammeln; sonst wäre es allerdings am<lb xml:id="p2-l11"/>
-besten hier <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ich würde Sie dann zum Voraus<lb xml:id="p2-l12"/>
-aufs Freundlichste zu uns einladen. –<lb xml:id="p2-l13"/>
-Für Entferntere wird es <del>
-                    <supplied type="unclear">...</supplied>
-                </del> immerhin ungeleg<supplied>en</supplied> seyn zu<lb xml:id="p2-l14"/>
-erschein<supplied>en</supplied>, wenn man es mit diesen nur schriftlich<lb xml:id="p2-l15"/>
-behandeln könnte; nur fürchte ich, man erreicht den<lb xml:id="p2-l16"/>
-Zwek nicht vollständig. – Ich will nun gerne<lb xml:id="p2-l17"/>
-von Ihnen vernehmen: wen von hier <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> wohin wir<lb xml:id="p2-l18"/>
-einladen sollen. Länger als <date when="1848-08-20">nächsten Sonntag</date>
-                    <lb xml:id="p2-l19"/>
-kann die Sache nicht verschoben werden, weil <persName type="person" key="Weiss-Zwicky Margaretha">Frau<lb xml:id="p2-l20"/>
-Weiß</persName> die nächste Woche eine <hi>definitive</hi> Er<lb break="no" xml:id="p2-l21"/>klärung
-        den <choice>
-                        <abbr>Waisenbeh.</abbr>
-                        <expan>Waisenbehörde</expan>
-                    </choice>
-                    <choice>
-                        <abbr>
-                    <hi>resp</hi>.</abbr>
-                        <expan>respektive / respective</expan>
-                    </choice> dem Gerichte<lb xml:id="p2-l22"/>
+                    <hi rend="underline">nicht vielmehr</hi></add> an den<lb xml:id="p1-l24" break="no"/>
+				hinterlaßenen <persName key="Weiss Emil">Sohn</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> die <persName key="Weiss-Zwicky Margaretha">Wittwe</persName> etwas bey
+                <lb xml:id="p1-l25" break="no"/>zutragen; 
+hat dann jemand Lust, den <hi>Creditoren</hi> <lb xml:id="p1-l26" break="no"/>
+unter die Arme zu greifen, so mag ichs diesen<lb xml:id="p1-l27" break="no"/>
+am Ende wohl gönnen, obschon ich finde, sie<lb xml:id="p1-l28" break="no"/>
+dürften sich sämtlich füglich mit dem<lb xml:id="p1-l29" break="no"/>
+Anerbotenen begnügen. – Da muß ich Sie aber,<lb xml:id="p1-l30" break="no"/>
+auch <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <choice><abbr>Statth</abbr><expan>Statthalter</expan></choice>. <persName key="Müller Johann Jakob">Müller</persName> stimmt vollkommen bey, schon<lb xml:id="p1-l31" break="no"/>
+in Ihrer Stellung als Vormund des <persName key="Weiss Emil">Sohnes</persName> <add>dringendst</add> er
+                <lb xml:id="p1-l32" break="no"/>suchen, 
+Ort <choice><abbr>u.</abbr><expan>und</expan></choice> Zeit zu bestimmen <choice><abbr>u.</abbr><expan>und</expan></choice> die Ein
+                <lb xml:id="p1-l33" break="no"/>ladung <choice><abbr>u.</abbr><expan>und</expan></choice> Leitung zu übernehmen; die Freunde<lb xml:id="p1-l34" break="no"/>
+in hier <choice><abbr>u.</abbr><expan>und</expan></choice> der Umgegend würd<add>en</add> wir gerne<lb xml:id="p1-l35" break="no"/>
+in Ihrem Namen einladen. – Unmaßgeblich<lb xml:id="p1-l36" break="no"/>
+glaubten wir, folgende Männer wären zu beruf<add>en</add>:<lb xml:id="p1-l37" break="no"/>
+				die H<add>erren</add> <choice><abbr>R.R.</abbr><expan>RegierungsRath</expan></choice> <persName key="Wieland Johann Jakob">Wieland</persName>, Oberst <persName key="Fierz Hans Jakob">Fierz</persName>, <choice><abbr><hi>D<hi rend="sup">r</hi></hi> </abbr><expan>Doktor / Doctor</expan></choice> <persName key="Rüegg Heinrich">Rüegg</persName> in <placeName key="Zürich (Stadt)">Zürich</placeName>,<lb xml:id="p1-l38" break="no"/>
+        alt <choice><abbr>R.R.</abbr><expan>RegierungsRath</expan></choice> <persName key="Krauer Hartmann">Krauer</persName>, <choice><abbr><hi>D<hi rend="sup">r</hi></hi> </abbr><expan>Doktor / Doctor</expan></choice> <persName key="Weidmann Felix">Weidmann</persName>, <persName key="Gujer Johann Kaspar">Gujer</persName> in <placeName key="Fehraltorf">Fehraltorf</placeName>,<pb n="2"/>
+                <lb xml:id="p2-l1" break="no"/>
+                <persName key="Wolfensberger">Wolfensperger</persName> in <placeName key="Russikon">Rußikon</placeName>, alt <choice><abbr>Statth</abbr><expan>Statthalter</expan></choice>. <persName key="Zangger Hans Heinrich">Zangger</persName> in<lb xml:id="p2-l2" break="no"/>
+                <placeName key="Uster">Uster</placeName>, <choice><abbr>CantR.</abbr><expan>CantonsRath</expan></choice> <persName key="Arbenz Johann Ulrich">Arbenz</persName> in <placeName key="Andelfingen">Andelfing<add>en</add>
+                </placeName>, <add type="?">
+                    <persName key="Brunner-Aberli Johann Jakob">Brunner<lb xml:id="p2-l3" break="no"/>Aberli</persName> </add> in <placeName key="Winterthur">Winterthur</placeName>, alt <choice><abbr>Erz.Rath</abbr><expan>ErziehungsRath</expan></choice> <persName key="Rüegg Johannes">Rüegg</persName>, <choice><abbr>Fürspr</abbr><expan>Fürsprecher (Rechtsanwalt)</expan></choice> <lb xml:id="p2-l4" break="no"/>
+                    <persName key="Surber Heinrich">Surber</persName>
+                , <choice><abbr><hi>D<hi rend="sup">r</hi></hi> </abbr><expan>Doktor / Doctor</expan></choice> <persName key="Pestalozzi Hans Jakob">Pestaluz</persName>, <persName key="Geilinger Heinrich">Geilinger</persName> zur Arche, <choice><abbr>Statth</abbr><expan>Statthalter</expan></choice>. <persName key="Müller Johann Jakob">Müller</persName>,<lb xml:id="p2-l5" break="no"/>
+                <choice><abbr>Bez.</abbr><expan>Bezirk</expan></choice>Richter <persName key="Furrer Johann">Furrer</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> <choice><abbr>CantRath</abbr><expan>CantonsRath</expan></choice> <persName key="Stahel Johann Jakob">Stahel</persName> in<lb xml:id="p2-l6" break="no"/>
+der <placeName key="Rämismühle (Zell, ZH)">Rämismühle</placeName>. Natürlich aber überlaß<add>en</add> wir<lb xml:id="p2-l7" break="no"/>
+Ihnen gänzlich zu handeln <choice><abbr>u.</abbr><expan>und</expan></choice> einzulad<add>en</add>, wie <choice><abbr>u.</abbr><expan>und</expan></choice> wen<lb xml:id="p2-l8" break="no"/>
+Sie gut finden. Kommen entferntere Freunde,<lb xml:id="p2-l9" break="no"/>
+so müßte man sich, denk ich wohl, in <del>beste</del> <placeName key="Baltenswil (Bassersdorf)">Balten
+                    <lb xml:id="p2-l10" break="no"/>schweil</placeName>
+besammeln; sonst wäre es allerdings am<lb xml:id="p2-l11" break="no"/>
+besten hier <choice><abbr>u.</abbr><expan>und</expan></choice> ich würde Sie dann zum Voraus<lb xml:id="p2-l12" break="no"/>
+aufs Freundlichste zu uns einladen. –<lb xml:id="p2-l13" break="no"/>
+Für Entferntere wird es <del><add type="?">...</add></del> immerhin ungeleg<add>en</add> seyn zu<lb xml:id="p2-l14" break="no"/>
+erschein<add>en</add>, wenn man es mit diesen nur schriftlich<lb xml:id="p2-l15" break="no"/>
+behandeln könnte; nur fürchte ich, man erreicht den<lb xml:id="p2-l16" break="no"/>
+Zwek nicht vollständig. – Ich will nun gerne<lb xml:id="p2-l17" break="no"/>
+von Ihnen vernehmen: wen von hier <choice><abbr>u.</abbr><expan>und</expan></choice> wohin wir<lb xml:id="p2-l18" break="no"/>
+einladen sollen. Länger als <date when="1848-08-20">nächsten Sonntag</date> <lb xml:id="p2-l19" break="no"/>
+kann die Sache nicht verschoben werden, weil <persName key="Weiss-Zwicky Margaretha">Frau<lb xml:id="p2-l20"/>
+Weiß</persName> die nächste Woche eine <hi>definitive</hi> Er
+                <lb xml:id="p2-l21" break="no"/>klärung
+        den <choice><abbr>Waisenbeh.</abbr><expan>Waisenbehörde</expan></choice> <choice><abbr><hi>resp</hi>.</abbr><expan>respektive / respective</expan></choice> dem Gerichte<lb xml:id="p2-l22" break="no"/>
 abgeben <hi rend="underline">muß</hi>.</p>
       <p rend="indent" xml:id="K_0568_p3">
                 <lb xml:id="p2-l23"/>
-       <date when="1848-08-15">Heute</date> war unser Bezirkswahl<hi>collegium</hi> be<lb break="no" xml:id="p2-l24"/>sammelt <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> wählte zum Bezirksrichter, für Herrn<lb xml:id="p2-l25"/>
-                    <persName type="person" key="Weiss Heinrich">Weiß</persName>, H<supplied>errn</supplied>
-                    <choice>
-                        <abbr>
-                    <hi>Proc</hi>.</abbr>
-                        <expan>Procurator</expan>
-                    </choice>
-                    <persName type="person" key="Spiller Johann Jakob">Spiller</persName>; die <placeName type="place" key="Elgg">Elgger</placeName> Wahlmänner<lb xml:id="p2-l26"/>
-bezeugten darüber große Freude; ich hoffe<lb xml:id="p2-l27"/>
+       <date when="1848-08-15">Heute</date> war unser Bezirkswahl<hi>collegium</hi> be
+                <lb xml:id="p2-l24" break="no"/>sammelt <choice><abbr>u.</abbr><expan>und</expan></choice> wählte zum Bezirksrichter, für Herrn<lb xml:id="p2-l25" break="no"/>
+                <persName key="Weiss Heinrich">Weiß</persName>, H<add>errn</add> <choice><abbr><hi>Proc</hi>.</abbr><expan>Procurator</expan></choice> <persName key="Spiller Johann Jakob">Spiller</persName>; die <placeName key="Elgg">Elgger</placeName> Wahlmänner<lb xml:id="p2-l26" break="no"/>
+bezeugten darüber große Freude; ich hoffe<lb xml:id="p2-l27" break="no"/>
 auch, die Wahl sey eine gute.</p>
       <p rend="indent" xml:id="K_0568_p4">
-                <lb xml:id="p2-l28"/>Noch muß ich bemerken, daß <persName type="person" key="Bühler">Bühler</persName> eigentlich<lb xml:id="p2-l29"/>
-gar nichts erhalt<supplied>en</supplied> sollte, denn sein Dräng<supplied>en</supplied> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <lb xml:id="p2-l30"/>
-Treiben ist, auch dem <persName type="person" key="Weiss Emil">Emil</persName> gegenüber,<lb xml:id="p2-l31"/>
+                <lb xml:id="p2-l28"/>Noch muß ich bemerken, daß <persName key="Bühler">Bühler</persName> eigentlich<lb xml:id="p2-l29"/>
+gar nichts erhalt<add>en</add> sollte, denn sein Dräng<add>en</add> <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p2-l30"/>
+Treiben ist, auch dem <persName key="Weiss Emil">Emil</persName> gegenüber,<lb xml:id="p2-l31"/>
 ein Absurdes.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="indent" xml:id="K_0568_p5">
-                    <lb xml:id="p2-l32"/>Unveränderlich mit gleicher Hochachtung <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <lb xml:id="p2-l33"/>Freundschaft.</p>
+                    <lb xml:id="p2-l32"/>Unveränderlich mit gleicher Hochachtung <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p2-l33"/>Freundschaft.</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_0568_p6">
-                    <lb xml:id="p2-l34"/>Huggenberg<supplied>er</supplied>.</p>
+                    <lb xml:id="p2-l34"/>Huggenberg<add>er</add>.</p>
       </div>
       <div type="dateline">
         <p rend="left" xml:id="K_0568_p7">
                     <lb xml:id="p2-l35"/>
-          <placeName type="place" key="Winterthur">W.</placeName>
+          <placeName key="Winterthur">W.</placeName>
          <date when="1848-08-15">15. August 48</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

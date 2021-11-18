@@ -1,253 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5259" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Karl Wilhelm von Graffenried an Alfred Escher, Bern, Mittwoch, März 21, 1866</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_005</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Eisenbahnen Bau und Technik</item>
-                        <item>Lukmanierbahnprojekt</item>
-                        <item>Presse (allgemein)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Graffenried Karl Wilhelm von" type="sender">Karl Wilhelm von Graffenried</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1866-03-21">Mittwoch, März 21, 1866</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-06-18" who="FM">transkribiert
-                
-            </change>
-            <change when="2013-07-09" who="CB">Auszeichnung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-17" who="LW">Transkriptionsverifizierung T. Binder
-                    umgesetzt
-                
-            </change>
-            <change when="2014-01-30" who="NS">Verifizierung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-02-11" who="MB">Auszeichnung 2
-                umgesetzt
-                
-            </change>
-            <change when="2014-06-23" who="LH">Übertragung der Transkriptionsverifizierung
-                    geprüft
-                
-            </change>
-            <change when="2014-06-25" who="LB">Verifizierung 2
-                umgesetzt
-                
-            </change>
-            <change when="2014-06-25" who="LB">Inhaltliche Qualitätsprüfung
-                    umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="left" xml:id="K_5259_p1">
-                    <lb xml:id="p1-l1"/>
-          <choice>
-                        <abbr>MHHerrn</abbr>
-                        <expan>Meinem Hohen Herrn</expan>
-                    </choice> Präsidenten <hi>
-                        <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> A. Escher</hi>,
-        <lb xml:id="p1-l2"/>
-                    <placeName type="place" key="Zürich (Stadt)">
-                        <hi>Zürich</hi>
-                    </placeName>. <seg type="com">
-                        <note xml:id="K_5259_c1">Adresse unten links auf Seite 1.</note>
-                    </seg> </p>
-      </div>
-      <note type="annotation">
-                <p rend="left" xml:id="K_5259_p2">
-                    <lb xml:id="p1-l3"/> <choice>
-                        <abbr>
-                        <hi>fr.</hi>
-        </abbr>
-                        <expan>franco (frankiert)</expan>
-                    </choice>
-      </p> </note>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5259" type="Brief"><teiHeader><fileDesc><titleStmt><title>Karl Wilhelm von Graffenried an Alfred Escher, Bern, Mittwoch, 21. März 1866</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_005</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Eisenbahnen Bau und Technik</term><term>Lukmanierbahnprojekt</term><term>Presse (allgemein)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Graffenried Karl Wilhelm von" type="addressee">Karl Wilhelm von Graffenried</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1866-03-21">21. März 1866</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="left" xml:id="K_5259_p3">
-                    <lb xml:id="p1-l4"/>Hochgeachteter Herr
+        <p rend="left" xml:id="K_5259_p1"><lb xml:id="p1-l1"/>
+          <choice><abbr>MHHerrn</abbr><expan>Meinem Hohen Herrn</expan></choice> Präsidenten <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> A. Escher</hi>,
+        <lb xml:id="p1-l2"/><placeName key="Zürich (Stadt)"><hi>Zürich</hi></placeName>. <note type="com" xml:id="K_5259_c1">Adresse unten links auf Seite 1.</note> </p>
+      </div>
+      <div type="annotation"><p rend="left" xml:id="K_5259_p2"><lb xml:id="p1-l3"/> <choice><abbr><hi>fr.</hi>
+        </abbr><expan>franco (frankiert)</expan></choice>
+      </p> </div>
+      <div type="opener">
+        <p rend="left" xml:id="K_5259_p3"><lb xml:id="p1-l4"/>Hochgeachteter Herr
                 Präsident,</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_5259_p4">
-                <lb xml:id="p1-l5"/>Unter Bestätigung meines <seg type="ref">Briefs<ref type="letter" target="K_5258"/>
-                </seg> vom <date when="1866-03-19">19. <choice>
-                            <abbr>dß.</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date> mit <lb xml:id="p1-l6"/>meinem Artikelentwurfe,
-                meines Telegramms vom <lb xml:id="p1-l7"/>
-                <date when="1866-03-20">20. <choice>
-                            <abbr>dß.</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date> &amp; meiner beiden Telegramme von <date when="1866-03-21">heute</date>, <lb xml:id="p1-l8"/>theile ich Ihnen mit, daß <hi>
-                    <persName type="person" key="Schenk Karl">H.</persName> </hi> <date when="1866-03-21">heute</date> den Antrag vor<lb break="no" xml:id="p1-l9"/>legte, die Antwort des
-                Ausschußes auf die <placeName type="place" key="Italien (Königreich)">italienische</placeName>
-                    <lb xml:id="p1-l10"/>Note durch Vermittlung <persName type="person" key="P.">
-                    <hi>P.</hi>
-                </persName>
-                abschriftlich an die ultra<lb break="no" xml:id="p1-l11"/>montane Behörde gelangen zu laßen &amp; durch
-                        <lb xml:id="p1-l12"/>
-                    <hi>
-                    <persName type="person" key="P.">P.</persName> </hi> die Erklärung beifügen
-                zu laßen, die hierseitige <lb xml:id="p1-l13"/>Behörde gewärtige die Einleitungen der dortigen
-                <lb xml:id="p1-l14"/>zur internationalen Conferenz an welcher <lb xml:id="p1-l15"/>«<hi rend="underline">Schweizerischerseits</hi>»
-                gerne werde Theil genommen <lb xml:id="p1-l16"/>werden. </p>
-      <p rend="indent" xml:id="K_5259_p5">
-                <lb xml:id="p1-l17"/>
-        <persName type="person" key="Knüsel Josef Martin">
-                    <hi>Rudolf</hi>
-                </persName> sagte mir,
+    </front><body>
+      <p rend="indent" xml:id="K_5259_p4"><lb xml:id="p1-l5"/>Unter Bestätigung meines <rs>Briefs<ref type="letter" target="K_5258"/></rs> vom <date when="1866-03-19">19. <choice><abbr>dß.</abbr><expan>dieses [Monats]</expan></choice> </date> mit <lb xml:id="p1-l6"/>meinem Artikelentwurfe,
+                meines Telegramms vom <lb xml:id="p1-l7"/><date when="1866-03-20">20. <choice><abbr>dß.</abbr><expan>dieses [Monats]</expan></choice> </date> &amp; meiner beiden Telegramme von <date when="1866-03-21">heute</date>, <lb xml:id="p1-l8"/>theile ich Ihnen mit, daß <hi><persName key="Schenk Karl">H.</persName> </hi> <date when="1866-03-21">heute</date> den Antrag vor<lb xml:id="p1-l9" break="no"/>legte, die Antwort des
+                Ausschußes auf die <placeName key="Italien (Königreich)">italienische</placeName> <lb xml:id="p1-l10" break="no"/>Note durch Vermittlung <persName key="P."><hi>P.</hi></persName>
+                abschriftlich an die ultra<lb xml:id="p1-l11" break="no"/>montane Behörde gelangen zu laßen &amp; durch
+                        <lb xml:id="p1-l12" break="no"/><hi><persName key="P.">P.</persName> </hi> die Erklärung beifügen
+                zu laßen, die hierseitige <lb xml:id="p1-l13" break="no"/>Behörde gewärtige die Einleitungen der dortigen
+                <lb xml:id="p1-l14" break="no"/>zur internationalen Conferenz an welcher <lb xml:id="p1-l15" break="no"/>«<hi rend="underline">Schweizerischerseits</hi>»
+                gerne werde Theil genommen <lb xml:id="p1-l16" break="no"/>werden. </p>
+      <p rend="indent" xml:id="K_5259_p5"><lb xml:id="p1-l17"/>
+        <persName key="Knüsel Josef Martin"><hi>Rudolf</hi></persName> sagte mir,
                 daß dieser Antrag <date when="1866-03-21">heute</date> auf <lb xml:id="p1-l18"/>die Tagesordnung zur
                 Behandlung in der <date when="1866-03-23">nächsten <lb xml:id="p1-l19"/>Freitag</date> stattfindenden
-                Sitzung angesetzt worden <lb xml:id="p1-l20"/>sei, und daß der Antrag <date when="1866-03-23">Freitag</date> genehmi<supplied>g</supplied>t werde <lb xml:id="p1-l21"/>wenn die Behörde alsdann vollzählig
-                sei. <lb xml:id="p1-l22"/>Dagegen fügte er hinzu, daß fataler weise <lb xml:id="p1-l23"/>
-                <persName type="person" key="Frey-Herosé Friedrich">Friedrich</persName> <date when="1866-03-21">heute</date> in seine Heimath verreist sei <lb xml:id="p1-l24"/>&amp; erst <date when="1866-03-23">Freitag</date> Nachmittag zurückzukommen <lb xml:id="p1-l25"/>beabsichtige: ich
-                solle bei Herrn <persName type="person" key="Feer-Herzog Carl">
-                    <hi>Feer–Herzog</hi>
-                </persName> <lb xml:id="p1-l26"/>Schritte thun um ihn zu veranlaßen <hi>
-                    <persName type="person" key="Frey-Herosé Friedrich">Friedrich</persName> </hi> <lb xml:id="p1-l27"/>zur Heimkehr am <date when="1866-03-23">Freitag</date> früh, sodaß er um <lb xml:id="p1-l28"/>10 Uhr
+                Sitzung angesetzt worden <lb xml:id="p1-l20"/>sei, und daß der Antrag <date when="1866-03-23">Freitag</date> genehmi<add>g</add>t werde <lb xml:id="p1-l21"/>wenn die Behörde alsdann vollzählig
+                sei. <lb xml:id="p1-l22"/>Dagegen fügte er hinzu, daß fataler weise <lb xml:id="p1-l23"/><persName key="Frey-Herosé Friedrich">Friedrich</persName> <date when="1866-03-21">heute</date> in seine Heimath verreist sei <lb xml:id="p1-l24"/>&amp; erst <date when="1866-03-23">Freitag</date> Nachmittag zurückzukommen <lb xml:id="p1-l25"/>beabsichtige: ich
+                solle bei Herrn <persName key="Feer-Herzog Carl"><hi>Feer–Herzog</hi></persName> <lb xml:id="p1-l26"/>Schritte thun um ihn zu veranlaßen <hi><persName key="Frey-Herosé Friedrich">Friedrich</persName> </hi> <lb xml:id="p1-l27"/>zur Heimkehr am <date when="1866-03-23">Freitag</date> früh, sodaß er um <lb xml:id="p1-l28"/>10 Uhr
                 der Sitzung beiwohnen könne, zu <lb xml:id="p1-l29"/>bewegen. </p>
-      <p rend="indent" xml:id="K_5259_p6">
-                <lb xml:id="p1-l30"/>Ich schrieb soeben &amp; telegraphirte an <hi>
-                    <persName type="person" key="Feer-Herzog Carl">F.-H.</persName> </hi> <lb xml:id="p1-l31"/>in der bezeichneten Richtung, fürchte aber <pb n="2"/>
-                <lb xml:id="p2-l1"/>seine Einwirkung möchte vielleicht nicht <lb xml:id="p2-l2"/>genügen um <hi>
-                    <persName type="person" key="Frey-Herosé Friedrich">Friedrich</persName> </hi> zur Rückkehr am <lb xml:id="p2-l3"/>
-                <date when="1866-03-23">Freitag</date> früh zu bewegen. </p>
-      <p rend="indent" xml:id="K_5259_p7">
-                <lb xml:id="p2-l4"/>Darum setzte ich Sie durch meine zweite <lb xml:id="p2-l5"/>
-                <date when="1866-03-21">heutige</date> Depesche von dem Umstand in <lb xml:id="p2-l6"/>Kenntniß, damit Sie
-                gutfindendenfalls <lb xml:id="p2-l7"/>Herrn <hi>
-                    <persName type="person" key="Frey-Herosé Friedrich">Fierz</persName> </hi>
-                zur Steigerung der Einwirkung auf <lb xml:id="p2-l8"/>
-                <hi>
-                    <persName type="person" key="Frey-Herosé Friedrich">Friedrich</persName> </hi> in die Heimath des Letzteren <lb xml:id="p2-l9"/>abordnen können. </p>
-      <p rend="indent" xml:id="K_5259_p8">
-                <lb xml:id="p2-l10"/>Im Falle <persName type="person" key="Frey-Herosé Friedrich">
-                    <hi>Friedrich</hi>
-                </persName> nicht beizeiten zurück<lb break="no" xml:id="p2-l11"/>käme, &amp; der
-                Sitzung nicht beiwohnen <lb xml:id="p2-l12"/>würde, so würde <persName type="person" key="Knüsel Josef Martin">
-                    <hi>R.</hi>
-                </persName> versuchen die Behandlung <lb xml:id="p2-l13"/>des Gegenstandes zu
-                verschieben. Er glaubt <lb xml:id="p2-l14"/>aber es dürfte vielleicht nicht gelingen, &amp;
-                <lb xml:id="p2-l15"/>dann die Vorlage <persName type="person" key="Schenk Karl">
-                    <hi>H.</hi>
-                </persName> denaturirt
-                werden. <lb xml:id="p2-l16"/>
-                    <persName type="person" key="Carl">
-                    <hi>Carl</hi>
-                </persName> &amp;
-                        <persName type="person" key="Nicklaus">
-                    <hi>Nicklaus</hi>
-                </persName> geniren sich nicht, auf <lb xml:id="p2-l17"/>
-                    <persName type="person" key="Mamiani (della Rovere) Terenzio">
-                    <hi>Arthur</hi>
-                </persName> nach Kräften gegen unser Project
-                <lb xml:id="p2-l18"/>einzuwirken zu suchen: Ersterer behauptete, <lb xml:id="p2-l19"/>dem <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName> werde nach dem übereinstimmenden <lb xml:id="p2-l20"/>Urtheile
-                der <choice>
-                        <abbr>schweiz.</abbr>
-                        <expan>schweizerisch</expan>
-                    </choice> Ingenieure jeder <lb xml:id="p2-l21"/>Schacht
-                unthunlich sein; Letzterer legte <lb xml:id="p2-l22"/>dem <hi>
-                    <persName type="person" key="Mamiani (della Rovere) Terenzio">Arthur</persName> </hi> einen vollständigen Plan <lb xml:id="p2-l23"/>zur Herstellung einer
-                        <hi>
-                    <persName type="person" key="Fell John Barraclough">Fell</persName> </hi>–Eisenbahn über <lb xml:id="p2-l24"/>den <hi>
-                    <placeName type="place" key="Lukmanier (Pass)">Lucmanier</placeName> </hi> vor. <hi>
-                    <persName type="person" key="Mamiani (della Rovere) Terenzio">Arthur</persName> </hi> erzählte <lb xml:id="p2-l25"/>mir Beides mit sichtbarer
-                Besorgniß, es <lb xml:id="p2-l26"/>möchte dieses <hi>
-                    <persName type="person" key="Fell John Barraclough">Fell</persName> </hi>-Project dem <hi>
-                    <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName> </hi>-Unter<pb n="3"/>
-                    <lb xml:id="p3-l1"/>nehmen schaden, da dieses jedenfalls vor <lb xml:id="p3-l2"/>längerer Zeit nicht werde
-                vollendet sein. <lb xml:id="p3-l3"/>Er bat mich, den <choice>
-                        <abbr>h.</abbr>
-                        <expan>hoch</expan>
-                    </choice> Ausschuß zu
-                veranlaßen, <lb xml:id="p3-l4"/>dieser Frage seine Aufmerksamkeit zu <lb xml:id="p3-l5"/>schenken. </p>
-      <p rend="indent" xml:id="K_5259_p9">
-                <lb xml:id="p3-l6"/>In Betreff der letzten <placeName type="place" key="Italien (Königreich)">ital.</placeName> Note soll <persName type="person" key="Dubs Jakob">
-                    <hi>David</hi>
-                </persName> <lb xml:id="p3-l7"/>eine gereizte Antwort von <placeName type="place" key="Italien (Königreich)">Italien</placeName> beantragen <lb xml:id="p3-l8"/>wollen. <hi>
-                    <persName type="person" key="Schenk Karl">H</persName>
-                </hi>. würde vorziehen, einfach den <lb xml:id="p3-l9"/>Empfang zu bescheinigen.
-                        <hi>
-                    <persName type="person" key="Knüsel Josef Martin">R.</persName> </hi> sagte mir, seine
-                <lb xml:id="p3-l10"/>Meinung darüber stehe noch nicht fest. <lb xml:id="p3-l11"/>
-                <hi>
-                    <persName type="person" key="Schenk Karl">H.</persName> </hi> wünscht meinen Artikelsentwurf vor <lb xml:id="p3-l12"/>deßen Erscheinen in
-                d. <placeName type="place" key="Bern (Stadt)">Berner</placeName>–Zeitung <lb xml:id="p3-l13"/>einzusehen, da er
-                fürchtet, daß darin eine <lb xml:id="p3-l14"/>Einwirkung auf den <hi>
-                    <choice>
-                            <abbr>B.R.</abbr>
-                            <expan>BundesRath</expan>
-                        </choice> </hi> im Sinne zu <lb xml:id="p3-l15"/>scharfer Antwort liegen möge. </p>
-      <p rend="indent" xml:id="K_5259_p10">
-                <lb xml:id="p3-l16"/>
+      <p rend="indent" xml:id="K_5259_p6"><lb xml:id="p1-l30"/>Ich schrieb soeben &amp; telegraphirte an <hi><persName key="Feer-Herzog Carl">F.-H.</persName> </hi> <lb xml:id="p1-l31"/>in der bezeichneten Richtung, fürchte aber <pb n="2"/><lb xml:id="p2-l1"/>seine Einwirkung möchte vielleicht nicht <lb xml:id="p2-l2"/>genügen um <hi><persName key="Frey-Herosé Friedrich">Friedrich</persName> </hi> zur Rückkehr am <lb xml:id="p2-l3"/><date when="1866-03-23">Freitag</date> früh zu bewegen. </p>
+      <p rend="indent" xml:id="K_5259_p7"><lb xml:id="p2-l4"/>Darum setzte ich Sie durch meine zweite <lb xml:id="p2-l5"/><date when="1866-03-21">heutige</date> Depesche von dem Umstand in <lb xml:id="p2-l6"/>Kenntniß, damit Sie
+                gutfindendenfalls <lb xml:id="p2-l7"/>Herrn <hi><persName key="Frey-Herosé Friedrich">Fierz</persName> </hi>
+                zur Steigerung der Einwirkung auf <lb xml:id="p2-l8"/><hi><persName key="Frey-Herosé Friedrich">Friedrich</persName> </hi> in die Heimath des Letzteren <lb xml:id="p2-l9"/>abordnen können. </p>
+      <p rend="indent" xml:id="K_5259_p8"><lb xml:id="p2-l10"/>Im Falle <persName key="Frey-Herosé Friedrich"><hi>Friedrich</hi></persName> nicht beizeiten zurück<lb xml:id="p2-l11" break="no"/>käme, &amp; der
+                Sitzung nicht beiwohnen <lb xml:id="p2-l12" break="no"/>würde, so würde <persName key="Knüsel Josef Martin"><hi>R.</hi></persName> versuchen die Behandlung <lb xml:id="p2-l13" break="no"/>des Gegenstandes zu
+                verschieben. Er glaubt <lb xml:id="p2-l14" break="no"/>aber es dürfte vielleicht nicht gelingen, &amp;
+                <lb xml:id="p2-l15" break="no"/>dann die Vorlage <persName key="Schenk Karl"><hi>H.</hi></persName> denaturirt
+                werden. <lb xml:id="p2-l16" break="no"/><persName key="Carl"><hi>Carl</hi></persName> &amp;
+                        <persName key="Nicklaus"><hi>Nicklaus</hi></persName> geniren sich nicht, auf <lb xml:id="p2-l17" break="no"/><persName key="Mamiani (della Rovere) Terenzio"><hi>Arthur</hi></persName> nach Kräften gegen unser Project
+                <lb xml:id="p2-l18" break="no"/>einzuwirken zu suchen: Ersterer behauptete, <lb xml:id="p2-l19" break="no"/>dem <placeName key="St. Gotthard (Pass)">Gotthard</placeName> werde nach dem übereinstimmenden <lb xml:id="p2-l20" break="no"/>Urtheile
+                der <choice><abbr>schweiz.</abbr><expan>schweizerisch</expan></choice> Ingenieure jeder <lb xml:id="p2-l21" break="no"/>Schacht
+                unthunlich sein; Letzterer legte <lb xml:id="p2-l22" break="no"/>dem <hi><persName key="Mamiani (della Rovere) Terenzio">Arthur</persName> </hi> einen vollständigen Plan <lb xml:id="p2-l23" break="no"/>zur Herstellung einer
+                        <hi><persName key="Fell John Barraclough">Fell</persName> </hi>–Eisenbahn über <lb xml:id="p2-l24" break="no"/>den <hi><placeName key="Lukmanier (Pass)">Lucmanier</placeName> </hi> vor. <hi><persName key="Mamiani (della Rovere) Terenzio">Arthur</persName> </hi> erzählte <lb xml:id="p2-l25" break="no"/>mir Beides mit sichtbarer
+                Besorgniß, es <lb xml:id="p2-l26" break="no"/>möchte dieses <hi><persName key="Fell John Barraclough">Fell</persName> </hi>-Project dem <hi><placeName key="St. Gotthard (Pass)">Gotthard</placeName> </hi>-Unter<pb n="3"/><lb xml:id="p3-l1" break="no"/>nehmen schaden, da dieses jedenfalls vor <lb xml:id="p3-l2" break="no"/>längerer Zeit nicht werde
+                vollendet sein. <lb xml:id="p3-l3" break="no"/>Er bat mich, den <choice><abbr>h.</abbr><expan>hoch</expan></choice> Ausschuß zu
+                veranlaßen, <lb xml:id="p3-l4" break="no"/>dieser Frage seine Aufmerksamkeit zu <lb xml:id="p3-l5" break="no"/>schenken. </p>
+      <p rend="indent" xml:id="K_5259_p9"><lb xml:id="p3-l6"/>In Betreff der letzten <placeName key="Italien (Königreich)">ital.</placeName> Note soll <persName key="Dubs Jakob"><hi>David</hi></persName> <lb xml:id="p3-l7"/>eine gereizte Antwort von <placeName key="Italien (Königreich)">Italien</placeName> beantragen <lb xml:id="p3-l8"/>wollen. <hi><persName key="Schenk Karl">H</persName></hi>. würde vorziehen, einfach den <lb xml:id="p3-l9"/>Empfang zu bescheinigen.
+                        <hi><persName key="Knüsel Josef Martin">R.</persName> </hi> sagte mir, seine
+                <lb xml:id="p3-l10"/>Meinung darüber stehe noch nicht fest. <lb xml:id="p3-l11"/><hi><persName key="Schenk Karl">H.</persName> </hi> wünscht meinen Artikelsentwurf vor <lb xml:id="p3-l12"/>deßen Erscheinen in
+                d. <placeName key="Bern (Stadt)">Berner</placeName>–Zeitung <lb xml:id="p3-l13"/>einzusehen, da er
+                fürchtet, daß darin eine <lb xml:id="p3-l14"/>Einwirkung auf den <hi><choice><abbr>B.R.</abbr><expan>BundesRath</expan></choice> </hi> im Sinne zu <lb xml:id="p3-l15"/>scharfer Antwort liegen möge. </p>
+      <p rend="indent" xml:id="K_5259_p10"><lb xml:id="p3-l16"/>
         <hi>
-          <persName type="person" key="Mamiani (della Rovere) Terenzio">Arthur</persName>
+          <persName key="Mamiani (della Rovere) Terenzio">Arthur</persName>
         </hi> dagegen
                 erklärt sich mit meinem <lb xml:id="p3-l17"/>Artikel, deßen Sinn ich ihm mittheilte, <lb xml:id="p3-l18"/>des
                 vollständigsten einverstanden. </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_5259_p11">
-                    <lb xml:id="p3-l19"/>In großer Eile (wegen des Postabganges)
+        <p rend="indent" xml:id="K_5259_p11"><lb xml:id="p3-l19"/>In großer Eile (wegen des Postabganges)
                     <lb xml:id="p3-l20"/>verharre ich mit herzlicher &amp; hochachtungsvoller <lb xml:id="p3-l21"/>Anhänglichkeit
                 </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_5259_p12">
-                    <lb xml:id="p3-l22"/>
+      <div type="signature">
+        <p rend="right" xml:id="K_5259_p12"><lb xml:id="p3-l22"/>
           <hi>C Wilhelm von Graffenried</hi>
         </p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_5259_p13">
-                    <lb xml:id="p3-l23"/>
-          <placeName type="place" key="Bern (Stadt)">
-                        <hi>Bern</hi>
-                    </placeName>,
+        <p rend="left" xml:id="K_5259_p13"><lb xml:id="p3-l23"/>
+          <placeName key="Bern (Stadt)"><hi>Bern</hi></placeName>,
                         <date when="1866-03-21">21 <hi>März</hi> 1866</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

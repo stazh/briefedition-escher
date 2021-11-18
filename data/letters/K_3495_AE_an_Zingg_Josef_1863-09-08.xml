@@ -1,177 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3495" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Josef Zingg, Lugano, Dienstag, September 8, 1863</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_053</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Regierungsrat TI</item>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Regierungsrat LU</item>
-                        <item>Gotthardbahnkonferenzen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Zingg Josef" type="addressee">Josef Zingg</persName>
-                    <placeName>Lugano</placeName>
-                    <date when="1863-09-08">Dienstag, September 8, 1863</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2007-07-05" who="MW">Brief transkribiert
-                
-            </change>
-            <change when="2012-07-23" who="FM">Brief von Word nach XML migriert
-                
-            </change>
-            <change when="2012-08-08" who="AH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-08-08" who="FW">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="MA">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="MB">Migrationsverifizierung
-					umgesetzt
-                
-            </change>
-            <change when="2014-02-03" who="LW">Übertragung der Transkriptionsverifizierung
-					geprüft
-                
-            </change>
-            <change when="2014-02-05" who="AW">Auszeichnung 2
-				umgesetzt
-                
-            </change>
-            <change when="2014-05-13" who="MLB">Inhaltliche Qualitätsprüfung
-					umgesetzt
-                
-            </change>
-            <change when="2014-05-22" who="LB">Verifizierung 2
-				umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3495" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Josef Zingg, Lugano, Dienstag, 08. September 1863</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_053</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Regierungsrat TI</term><term>Gotthardbahnprojekt</term><term>Regierungsrat LU</term><term>Gotthardbahnkonferenzen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Zingg Josef" type="sender">Josef Zingg</persName><placeName>Lugano</placeName><date when="1863-09-08">08. September 1863</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_3495_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Lugano">Lugano</placeName>, <date when="1863-09-08">8 <choice>
-                            <abbr>Sept<hi rend="sup">r</hi> </abbr>
-                            <expan>September</expan>
-                        </choice> 1863</date>.<lb xml:id="p1-l2"/> Nachmittags.</p>
+        <p rend="right" xml:id="K_3495_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Lugano">Lugano</placeName>, <date when="1863-09-08">8 <choice><abbr>Sept<hi rend="sup">r</hi> </abbr><expan>September</expan></choice> 1863</date>.<lb xml:id="p1-l2"/> Nachmittags.</p>
       </div>
-      <div type="opener">
-                <p rend="left" xml:id="K_3495_p2">
-                    <lb xml:id="p1-l3"/>Hochgeachteter Herr Regierungsrath!</p> </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_3495_p3">
-                <lb xml:id="p1-l4"/>
+      <div type="opener"><p rend="left" xml:id="K_3495_p2"><lb xml:id="p1-l3"/>Hochgeachteter Herr Regierungsrath!</p> </div>
+    </front><body>
+      <p rend="indent" xml:id="K_3495_p3"><lb xml:id="p1-l4"/>
         <date when="1863-09-08">Diesen Morgen</date> habe ich eine Conferenz<lb xml:id="p1-l5"/> mit den hier
-				anwesenden Mitgliedern des<lb xml:id="p1-l6"/> Staatsrathes (4 von 7) gehabt, an deren Schlus<lb break="no" xml:id="p1-l7"/>se mir dieselben erklärten, es werde die Fra<lb break="no" xml:id="p1-l8"/>ge der Genehmigung der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>über<lb break="no" xml:id="p1-l9"/>einkunft vom Staatsrathe, sobald er voll<lb break="no" xml:id="p1-l10"/>zälig<note type="transcript">sic!</note> sei, (in den nächsten Tagen) erledigt wer<lb break="no" xml:id="p1-l11"/>den &amp; <hi rend="underline">zwar, wie sie mir bestimmt versichern<lb xml:id="p1-l12"/> zu können glauben,
-					einmüthig im zustimmen<lb break="no" xml:id="p1-l13"/>den Sinne</hi>. – Ich befreue mich, Ihnen nach den<lb xml:id="p1-l14"/>
-                    <date when="1863-09-07">gestrigen</date> unerfreulichen Mittheilungen <date when="1863-09-08">heute</date>
-                    <lb xml:id="p1-l15"/> diese gute Nachricht geben zu können. Eine<lb xml:id="p1-l16"/> Erholungsreise gereicht
-				mitunter auch den<lb xml:id="p1-l17"/> Geschäften zum Frommen!</p>
-      <p rend="indent" xml:id="K_3495_p4">
-                <lb xml:id="p1-l18"/>H<supplied>err</supplied> <persName type="person" key="Cecovi Carlo">
-                    <hi>Cecovi</hi>
-                </persName>, der Agent der Conzessio<lb break="no" xml:id="p1-l19"/>näre der <placeName type="place" key="Tessin">Tessiner</placeName>bahn, wird vielleicht gleichzei<lb break="no" xml:id="p1-l20"/>tig mit diesem Briefe nach <placeName type="place" key="Luzern (Stadt)">Luzern</placeName> reisen<lb xml:id="p1-l21"/>&amp; Ihnen dort seine Aufwartung machen. <pb n="2"/>
-                    <lb xml:id="p2-l1"/> Es scheint mir wünschbar, daß die Conzessio<lb break="no" xml:id="p2-l2"/>näre der <placeName type="place" key="Tessin">Tessiner</placeName>bahn in offiziellen Ver<lb break="no" xml:id="p2-l3"/>kehr mit der <choice>
-                        <abbr>h.</abbr>
-                        <expan>hoch</expan>
-                    </choice> Regierung von <placeName type="place" key="Luzern">Luzern</placeName>
-                    <lb xml:id="p2-l4"/> zu Handen der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>conferenz
-				treten.<lb xml:id="p2-l5"/> Dieß hätte natürlich nicht bloß durch einen<lb xml:id="p2-l6"/> Besuch des Agenten
-					<persName type="person" key="Cecovi Carlo">
-                    <hi>Cecovi</hi>
-                </persName> bei Ihnen,
-				sondern<lb xml:id="p2-l7"/> durch eine förmliche Zuschrift der Conzessio<lb break="no" xml:id="p2-l8"/>näre der <placeName type="place" key="Tessin">Tessiner</placeName>bahn, <choice>
-                        <abbr>bez.weise</abbr>
-                        <expan>beziehungsweise</expan>
-                    </choice> den von<lb xml:id="p2-l9"/> ihnen gegründeten
-				Gesellschaft an die <choice>
-                        <abbr>h.</abbr>
-                        <expan>hoch</expan>
-                    </choice>
-                    <lb xml:id="p2-l10"/> Regierung von <placeName type="place" key="Luzern">Luzern</placeName> zu Handen der<lb xml:id="p2-l11"/>
-                <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>conferenz zu geschehen.</p>
-      <p rend="indent" xml:id="K_3495_p5">
-                <lb xml:id="p2-l12"/>
-        <persName type="person" key="Cecovi Carlo">
-                    <hi>Cecovi</hi>
-                </persName> wird allerdings zum
-				großen<lb xml:id="p2-l13"/> Theile von Concurrenten <choice>
-                        <abbr>u. s. w.</abbr>
-                        <expan>und so weiter</expan>
-                    </choice> sehr
-				viel<lb xml:id="p2-l14"/> Schlimmes nachgesagt. Sie wissen, daß der<lb break="no" xml:id="p2-l15"/>artigen Agenten in der Regel schiffbrü<lb break="no" xml:id="p2-l16"/>chige Personen sind, die nicht das aller<lb break="no" xml:id="p2-l17"/>größte Zutrauen verdienen. Indessen<lb xml:id="p2-l18"/> erheischt die Gerechtigkeit, daß ich her<lb break="no" xml:id="p2-l19"/>vorhebe, daß <persName type="person" key="Cecovi Carlo">
-                    <hi>Cecovi</hi>
-                </persName> ein
-				in den in Rede<lb xml:id="p2-l20"/> stehenden Materien sehr gewandter,<lb xml:id="p2-l21"/> ein durchaus
-				intelligenter &amp; auch ein<lb xml:id="p2-l22"/> in seinen Formen unbedingt angeneh<lb break="no" xml:id="p2-l23"/>mer Mann ist. Ich würde Ihnen daher <pb n="3"/>
-                    <lb xml:id="p3-l1"/> rathen, ihn freundlich zu empfangen.<lb xml:id="p3-l2"/> Ich hoffe, Sie werden mir diese
-				Winke nicht<lb xml:id="p3-l3"/> verübeln.</p>
-      <p rend="indent" xml:id="K_3495_p6">
-                <lb xml:id="p3-l4"/>Eben gehen die Herren <persName type="person" key="Battaglini Carlo">Battaglini</persName> &amp; <persName type="person" key="Beroldingen Joseph Ignaz von">Berol<lb break="no" xml:id="p3-l5"/>dingen</persName> von mir, welche mich mit einem<lb xml:id="p3-l6"/> Besuche beehrt haben. Der
-					<persName type="person" key="Battaglini Carlo">erstere</persName> ist nach<lb xml:id="p3-l7"/> einer
-				Abwesenheit von mehrern Tagen<lb xml:id="p3-l8"/> vor wenigen Stunden nach <placeName type="place" key="Lugano">Lugano</placeName> zurück<lb break="no" xml:id="p3-l9"/>gekehrt &amp; sagte mir, er habe seit seinem<lb xml:id="p3-l10"/> Eintreffen noch niemanden gesprochen.<lb xml:id="p3-l11"/>
-                    <persName type="person" key="Battaglini Carlo">
-                    <persName type="person" key="Beroldingen Joseph Ignaz von">Die beiden Herren</persName>
-                </persName>,
-				namentlich aber <persName type="person" key="Beroldingen Joseph Ignaz von">Berol<lb break="no" xml:id="p3-l12"/>dingen</persName>, äußerten sich zurückhaltend mit<lb xml:id="p3-l13"/> Beziehung auf den <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>: sie sprachen<lb xml:id="p3-l14"/> ungefähr wie <date when="1863-09-07">gestern</date> Abend die etlichen<lb xml:id="p3-l15"/> Notabilitäten, von deren
-				Äußerungen<lb xml:id="p3-l16"/> ich Ihnen in meinem <date when="1863-09-07">gestrigen</date> Briefe be<lb break="no" xml:id="p3-l17"/>richtet habe. Namentlich glaubten sie auch,<lb xml:id="p3-l18"/> der Staatsrath werde es kaum
-				auf sich neh<lb break="no" xml:id="p3-l19"/>men, von sich aus &amp; ohne an den großen<lb xml:id="p3-l20"/> Rath zu gelangen die
-				Übereinkunft zu ge<lb break="no" xml:id="p3-l21"/>nehmigen. </p>
-      <p rend="indent" xml:id="K_3495_p7">
-                <lb xml:id="p3-l22"/>Diesen Augenblick erhalte ich Ihre Depesche<lb xml:id="p3-l23"/> von <date when="1863-09-08">heute</date> Nachmittag, für die ich Ihnen <pb n="4"/>
-                <lb xml:id="p4-l1"/> bestens danke. Die Zögerung <placeName type="place" key="Solothurn">Solothurn's</placeName> ist<lb xml:id="p4-l2"/> im höchsten Grade auffallend.</p>
-      <p rend="indent" xml:id="K_3495_p8">
-                <lb xml:id="p4-l3"/>Wir werden wahrscheinlich oder ich kann<lb xml:id="p4-l4"/> sagen gewiß bis <date when="1863-09-12">Samstag</date> (einschließlich)<lb xml:id="p4-l5"/> in <placeName type="place" key="Mailand (I)">Mailand</placeName> (<hi>Hotel de la ville</hi>), wo wir <date when="1863-09-09">Mor<lb break="no" xml:id="p4-l6"/>gen</date> Abends einzutreffen hoffen, bleiben.<lb xml:id="p4-l7"/> Für Mittheilungen, die
-				Sie mir vielleicht<lb xml:id="p4-l8"/> dorthin zu machen die Güte haben dürf<lb break="no" xml:id="p4-l9"/>ten, werde ich Ihnen sehr dankbar sein.</p>
-      <p rend="indent" xml:id="K_3495_p9">
-                <lb xml:id="p4-l10"/> Genehmigen Sie die erneuerte Ver<lb break="no" xml:id="p4-l11"/>sicherung ausgezeichneter Hochachtung <lb xml:id="p4-l12"/> von</p>
-    </div>
-        </body>
-    <back>
+				anwesenden Mitgliedern des<lb xml:id="p1-l6"/> Staatsrathes (4 von 7) gehabt, an deren Schlus<lb xml:id="p1-l7" break="no"/>se mir dieselben erklärten, es werde die Fra<lb xml:id="p1-l8" break="no"/>ge der Genehmigung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>über<lb xml:id="p1-l9" break="no"/>einkunft vom Staatsrathe, sobald er voll<lb xml:id="p1-l10" break="no"/>zälig<note type="transcript">sic!</note> sei, (in den nächsten Tagen) erledigt wer<lb xml:id="p1-l11" break="no"/>den &amp; <hi rend="underline">zwar, wie sie mir bestimmt versichern<lb xml:id="p1-l12"/> zu können glauben,
+					einmüthig im zustimmen<lb xml:id="p1-l13" break="no"/>den Sinne</hi>. – Ich befreue mich, Ihnen nach den<lb xml:id="p1-l14" break="no"/><date when="1863-09-07">gestrigen</date> unerfreulichen Mittheilungen <date when="1863-09-08">heute</date> <lb xml:id="p1-l15" break="no"/> diese gute Nachricht geben zu können. Eine<lb xml:id="p1-l16" break="no"/> Erholungsreise gereicht
+				mitunter auch den<lb xml:id="p1-l17" break="no"/> Geschäften zum Frommen!</p>
+      <p rend="indent" xml:id="K_3495_p4"><lb xml:id="p1-l18"/>H<add>err</add> <persName key="Cecovi Carlo"><hi>Cecovi</hi></persName>, der Agent der Conzessio<lb xml:id="p1-l19" break="no"/>näre der <placeName key="Tessin">Tessiner</placeName>bahn, wird vielleicht gleichzei<lb xml:id="p1-l20" break="no"/>tig mit diesem Briefe nach <placeName key="Luzern (Stadt)">Luzern</placeName> reisen<lb xml:id="p1-l21" break="no"/>&amp; Ihnen dort seine Aufwartung machen. <pb n="2"/><lb xml:id="p2-l1" break="no"/> Es scheint mir wünschbar, daß die Conzessio<lb xml:id="p2-l2" break="no"/>näre der <placeName key="Tessin">Tessiner</placeName>bahn in offiziellen Ver<lb xml:id="p2-l3" break="no"/>kehr mit der <choice><abbr>h.</abbr><expan>hoch</expan></choice> Regierung von <placeName key="Luzern">Luzern</placeName> <lb xml:id="p2-l4" break="no"/> zu Handen der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>conferenz
+				treten.<lb xml:id="p2-l5" break="no"/> Dieß hätte natürlich nicht bloß durch einen<lb xml:id="p2-l6" break="no"/> Besuch des Agenten
+					<persName key="Cecovi Carlo"><hi>Cecovi</hi></persName> bei Ihnen,
+				sondern<lb xml:id="p2-l7" break="no"/> durch eine förmliche Zuschrift der Conzessio<lb xml:id="p2-l8" break="no"/>näre der <placeName key="Tessin">Tessiner</placeName>bahn, <choice><abbr>bez.weise</abbr><expan>beziehungsweise</expan></choice> den von<lb xml:id="p2-l9" break="no"/> ihnen gegründeten
+				Gesellschaft an die <choice><abbr>h.</abbr><expan>hoch</expan></choice> <lb xml:id="p2-l10" break="no"/> Regierung von <placeName key="Luzern">Luzern</placeName> zu Handen der<lb xml:id="p2-l11" break="no"/><placeName key="St. Gotthard (Pass)">Gotthard</placeName>conferenz zu geschehen.</p>
+      <p rend="indent" xml:id="K_3495_p5"><lb xml:id="p2-l12"/>
+        <persName key="Cecovi Carlo"><hi>Cecovi</hi></persName> wird allerdings zum
+				großen<lb xml:id="p2-l13"/> Theile von Concurrenten <choice><abbr>u. s. w.</abbr><expan>und so weiter</expan></choice> sehr
+				viel<lb xml:id="p2-l14"/> Schlimmes nachgesagt. Sie wissen, daß der<lb xml:id="p2-l15" break="no"/>artigen Agenten in der Regel schiffbrü<lb xml:id="p2-l16" break="no"/>chige Personen sind, die nicht das aller<lb xml:id="p2-l17" break="no"/>größte Zutrauen verdienen. Indessen<lb xml:id="p2-l18" break="no"/> erheischt die Gerechtigkeit, daß ich her<lb xml:id="p2-l19" break="no"/>vorhebe, daß <persName key="Cecovi Carlo"><hi>Cecovi</hi></persName> ein
+				in den in Rede<lb xml:id="p2-l20" break="no"/> stehenden Materien sehr gewandter,<lb xml:id="p2-l21" break="no"/> ein durchaus
+				intelligenter &amp; auch ein<lb xml:id="p2-l22" break="no"/> in seinen Formen unbedingt angeneh<lb xml:id="p2-l23" break="no"/>mer Mann ist. Ich würde Ihnen daher <pb n="3"/><lb xml:id="p3-l1" break="no"/> rathen, ihn freundlich zu empfangen.<lb xml:id="p3-l2" break="no"/> Ich hoffe, Sie werden mir diese
+				Winke nicht<lb xml:id="p3-l3" break="no"/> verübeln.</p>
+      <p rend="indent" xml:id="K_3495_p6"><lb xml:id="p3-l4"/>Eben gehen die Herren <persName key="Battaglini Carlo">Battaglini</persName> &amp; <persName key="Beroldingen Joseph Ignaz von">Berol<lb xml:id="p3-l5" break="no"/>dingen</persName> von mir, welche mich mit einem<lb xml:id="p3-l6"/> Besuche beehrt haben. Der
+					<persName key="Battaglini Carlo">erstere</persName> ist nach<lb xml:id="p3-l7"/> einer
+				Abwesenheit von mehrern Tagen<lb xml:id="p3-l8"/> vor wenigen Stunden nach <placeName key="Lugano">Lugano</placeName> zurück<lb xml:id="p3-l9" break="no"/>gekehrt &amp; sagte mir, er habe seit seinem<lb xml:id="p3-l10" break="no"/> Eintreffen noch niemanden gesprochen.<lb xml:id="p3-l11" break="no"/><persName key="Battaglini Carlo"><persName key="Beroldingen Joseph Ignaz von">Die beiden Herren</persName></persName>,
+				namentlich aber <persName key="Beroldingen Joseph Ignaz von">Berol<lb xml:id="p3-l12" break="no"/>dingen</persName>, äußerten sich zurückhaltend mit<lb xml:id="p3-l13" break="no"/> Beziehung auf den <placeName key="St. Gotthard (Pass)">Gotthard</placeName>: sie sprachen<lb xml:id="p3-l14" break="no"/> ungefähr wie <date when="1863-09-07">gestern</date> Abend die etlichen<lb xml:id="p3-l15" break="no"/> Notabilitäten, von deren
+				Äußerungen<lb xml:id="p3-l16" break="no"/> ich Ihnen in meinem <date when="1863-09-07">gestrigen</date> Briefe be<lb xml:id="p3-l17" break="no"/>richtet habe. Namentlich glaubten sie auch,<lb xml:id="p3-l18" break="no"/> der Staatsrath werde es kaum
+				auf sich neh<lb xml:id="p3-l19" break="no"/>men, von sich aus &amp; ohne an den großen<lb xml:id="p3-l20" break="no"/> Rath zu gelangen die
+				Übereinkunft zu ge<lb xml:id="p3-l21" break="no"/>nehmigen. </p>
+      <p rend="indent" xml:id="K_3495_p7"><lb xml:id="p3-l22"/>Diesen Augenblick erhalte ich Ihre Depesche<lb xml:id="p3-l23"/> von <date when="1863-09-08">heute</date> Nachmittag, für die ich Ihnen <pb n="4"/><lb xml:id="p4-l1"/> bestens danke. Die Zögerung <placeName key="Solothurn">Solothurn's</placeName> ist<lb xml:id="p4-l2"/> im höchsten Grade auffallend.</p>
+      <p rend="indent" xml:id="K_3495_p8"><lb xml:id="p4-l3"/>Wir werden wahrscheinlich oder ich kann<lb xml:id="p4-l4"/> sagen gewiß bis <date when="1863-09-12">Samstag</date> (einschließlich)<lb xml:id="p4-l5"/> in <placeName key="Mailand (I)">Mailand</placeName> (<hi>Hotel de la ville</hi>), wo wir <date when="1863-09-09">Mor<lb xml:id="p4-l6" break="no"/>gen</date> Abends einzutreffen hoffen, bleiben.<lb xml:id="p4-l7"/> Für Mittheilungen, die
+				Sie mir vielleicht<lb xml:id="p4-l8"/> dorthin zu machen die Güte haben dürf<lb xml:id="p4-l9" break="no"/>ten, werde ich Ihnen sehr dankbar sein.</p>
+      <p rend="indent" xml:id="K_3495_p9"><lb xml:id="p4-l10"/> Genehmigen Sie die erneuerte Ver<lb xml:id="p4-l11" break="no"/>sicherung ausgezeichneter Hochachtung <lb xml:id="p4-l12" break="no"/> von</p>
+    </body><back>
       <div type="closer">
-        <p rend="right" xml:id="K_3495_p10">
-                    <lb xml:id="p4-l13"/>Ihrem freundschaftlich ergebenen</p>
+        <p rend="right" xml:id="K_3495_p10"><lb xml:id="p4-l13"/>Ihrem freundschaftlich ergebenen</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_3495_p11">
-                    <lb xml:id="p4-l14"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_3495_p11"><lb xml:id="p4-l14"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,125 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1771" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Blumer an Alfred Escher, Glarus, Samstag, Juni 11, 1859</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>FA Tschudi</institution>
-                        <idno type="original"/>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Familiäres und Persönliches</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Blumer Johann Jakob" type="sender">Johann Jakob Blumer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Glarus</placeName>
-                    <date when="1859-06-11">Samstag, Juni 11, 1859</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-06-19" who="AO">Migration nach XML
-                
-            </change>
-            <change when="2013-07-01" who="RO">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-12" who="MA">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-17" who="SB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-07-22" who="MB">Migrationsverifizierung
-        umgesetzt
-                
-            </change>
-            <change when="2013-08-22" who="AO">Transkriptionsverifizierung Seiterle
-          umgesetzt
-                
-            </change>
-            <change when="2013-08-22" who="JS">Übertragung Transkriptionsverifizierung
-          geprüft
-                
-            </change>
-            <change when="2013-11-29" who="VP">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-            <change when="2013-12-18" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-23" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1771" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Blumer an Alfred Escher, Glarus, Samstag, 11. Juni 1859</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>FA Tschudi</institution></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Familiäres und Persönliches</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Blumer Johann Jakob" type="addressee">Johann Jakob Blumer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Glarus</placeName><date when="1859-06-11">11. Juni 1859</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_1771_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1859-06-11">11. Juni
+        <p rend="right" xml:id="K_1771_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1859-06-11">11. Juni
             1859</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_1771_p2">
-                    <lb xml:id="p1-l2"/>Mein theurer Freund!</p>
+        <p rend="left" xml:id="K_1771_p2"><lb xml:id="p1-l2"/>Mein theurer Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1771_p3">
-                <lb xml:id="p1-l3"/>Es gereicht mir zum Vergnügen, <lb xml:id="p1-l4"/>Dir anmit den letzten Band
-        meiner Rechtsgeschichte <lb xml:id="p1-l5"/>übersenden zu können, welcher im Manuskript <lb xml:id="p1-l6"/>schon seit längerer Zeit beendigt war <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> nur durch <lb xml:id="p1-l7"/>Schuld des Verlegers erst jetzt erscheint. </p>
-      <p rend="indent" xml:id="K_1771_p4">
-                <lb xml:id="p1-l8"/>Was meinen <seg type="ref">Brief<ref type="letter" target="K_1770"/>
-                </seg> vom <date when="1859-06-08">8.</date> betrifft, so <lb xml:id="p1-l9"/>hätte derselbe vielleicht
-        unterbleiben können, da, <lb xml:id="p1-l10"/>wie ich <date when="1859-06-10">gestern</date> von <choice>
-                        <abbr>Dr.</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> <persName type="person" key="Zwicky Heinrich Lukas">Zwicki</persName> vernommen, es noch kein<lb break="no" xml:id="p1-l11"/>eswegs gewiß ist, ob <persName type="person" key="Escher-Uebel Augusta">Deine Frau</persName> wirklich nach <placeName type="place" key="Bad Stachelberg (Braunwald, Glarus Süd)">Stachel<lb break="no" xml:id="p1-l12"/>berg</placeName>
-        kömmt. Ich bitte also meine Intervention in dieser <lb xml:id="p1-l13"/>Sache mit der lebhaften Freude zu
-        entschuldigen, <lb xml:id="p1-l14"/>welche die Aussicht, Euch beide einmal bei uns begrüßen <lb xml:id="p1-l15"/>zu können <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <persName type="person" key="Escher-Uebel Augusta">Deine Frau</persName> während längerer Zeit in <lb xml:id="p1-l16"/>unsrer Nähe zu wißen, in uns erregte. <pb n="2"/>
-            </p>
-    </div>
-        </body>
-    <back>
+    </front><body>
+      <p rend="indent" xml:id="K_1771_p3"><lb xml:id="p1-l3"/>Es gereicht mir zum Vergnügen, <lb xml:id="p1-l4"/>Dir anmit den letzten Band
+        meiner Rechtsgeschichte <lb xml:id="p1-l5"/>übersenden zu können, welcher im Manuskript <lb xml:id="p1-l6"/>schon seit längerer Zeit beendigt war <choice><abbr>u.</abbr><expan>und</expan></choice> nur durch <lb xml:id="p1-l7"/>Schuld des Verlegers erst jetzt erscheint. </p>
+      <p rend="indent" xml:id="K_1771_p4"><lb xml:id="p1-l8"/>Was meinen <rs>Brief<ref type="letter" target="K_1770"/></rs> vom <date when="1859-06-08">8.</date> betrifft, so <lb xml:id="p1-l9"/>hätte derselbe vielleicht
+        unterbleiben können, da, <lb xml:id="p1-l10"/>wie ich <date when="1859-06-10">gestern</date> von <choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> <persName key="Zwicky Heinrich Lukas">Zwicki</persName> vernommen, es noch kein<lb xml:id="p1-l11" break="no"/>eswegs gewiß ist, ob <persName key="Escher-Uebel Augusta">Deine Frau</persName> wirklich nach <placeName key="Bad Stachelberg (Braunwald, Glarus Süd)">Stachel<lb xml:id="p1-l12" break="no"/>berg</placeName>
+        kömmt. Ich bitte also meine Intervention in dieser <lb xml:id="p1-l13" break="no"/>Sache mit der lebhaften Freude zu
+        entschuldigen, <lb xml:id="p1-l14" break="no"/>welche die Aussicht, Euch beide einmal bei uns begrüßen <lb xml:id="p1-l15" break="no"/>zu können <choice><abbr>u.</abbr><expan>und</expan></choice> <persName key="Escher-Uebel Augusta">Deine Frau</persName> während längerer Zeit in <lb xml:id="p1-l16" break="no"/>unsrer Nähe zu wißen, in uns erregte. <pb n="2"/></p>
+    </body><back>
       <div type="closer">
-        <p rend="left" xml:id="K_1771_p5">
-                    <lb xml:id="p2-l1"/>Mit den herzlichsten Wünschen für die fortschrei<lb break="no" xml:id="p2-l2"/>tende Genesung <persName type="person" key="Escher-Uebel Augusta">Deiner Frau</persName> von uns
+        <p rend="left" xml:id="K_1771_p5"><lb xml:id="p2-l1"/>Mit den herzlichsten Wünschen für die fortschrei<lb xml:id="p2-l2" break="no"/>tende Genesung <persName key="Escher-Uebel Augusta">Deiner Frau</persName> von uns
           beiden verbleibe </p>
-        <p rend="center" xml:id="K_1771_p6">
-                    <lb xml:id="p2-l3"/>Dein treuer </p>
+        <p rend="center" xml:id="K_1771_p6"><lb xml:id="p2-l3"/>Dein treuer </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1771_p7">
-                    <lb xml:id="p2-l4"/>J J Blumer.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_1771_p7"><lb xml:id="p2-l4"/>J J Blumer.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

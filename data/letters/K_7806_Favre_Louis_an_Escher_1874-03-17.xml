@@ -1,163 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_7806" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Louis Favre an Alfred Escher, Altdorf (UR), Dienstag, März 17, 1874</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB03_003</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Personelle Angelegenheiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Favre Louis" type="sender">Louis Favre</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Altdorf (UR)</placeName>
-                    <date when="1874-03-17">Dienstag, März 17, 1874</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-08-05" who="NP">transkribiert
-                
-            </change>
-            <change when="2014-05-22" who="IB">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2014-06-25" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-07-01" who="CB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-03" who="DG">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-10" who="CH">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-12" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-12" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_7806_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_7806_c0">Nachträgliche Inhaltsangabe oben links von dritter Hand: <bibl>Anzeige <choice>
-                                    <abbr>betr.</abbr>
-                                    <expan>betreffend</expan>
-                                </choice> Zurückziehung der Generalvollmacht für <choice>
-                                    <abbr>Hrn.</abbr>
-                                    <expan>Herrn</expan>
-                                </choice> <persName type="person" key="Brandner Henri">H. Brandner</persName> als Repräsentant des Herrn Favre. – | I. <choice>
-                                    <abbr>Depart.</abbr>
-                                    <expan>Departement</expan>
-                                </choice> </bibl> – 
-            Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <bibl>Gotthardbahn | <date when="1874-03-18">18 <choice>
-                                        <abbr>MAR.</abbr>
-                                        <expan>MÄRZ</expan>
-                                    </choice> 1874</date>. | <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 1295.</bibl>
-              – Nachträgliche Notiz unten rechts von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1874-03-20">20. III. 74</date>. <choice>
-                                    <abbr>N.</abbr>
-                                    <expan>Nummer</expan>
-                                </choice> 498. <supplied type="unclear">(Favre)</supplied>
-                            </bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <fw>ENTREPRISE</fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_7806" type="Brief"><teiHeader><fileDesc><titleStmt><title>Louis Favre an Alfred Escher, Altdorf (UR), Dienstag, 17. März 1874</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB03_003</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Personelle Angelegenheiten</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Favre Louis" type="addressee">Louis Favre</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Altdorf (UR)</placeName><date when="1874-03-17">17. März 1874</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_7806_p1"> <note type="com" xml:id="K_7806_c0">Nachträgliche Inhaltsangabe oben links von dritter Hand: <orig>Anzeige <choice><abbr>betr.</abbr><expan>betreffend</expan></choice> Zurückziehung der Generalvollmacht für <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <persName key="Brandner Henri">H. Brandner</persName> als Repräsentant des Herrn Favre. – | I. <choice><abbr>Depart.</abbr><expan>Departement</expan></choice> </orig> – 
+            Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <orig>Gotthardbahn | <date when="1874-03-18">18 <choice><abbr>MAR.</abbr><expan>MÄRZ</expan></choice> 1874</date>. | <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 1295.</orig>
+              – Nachträgliche Notiz unten rechts von dritter Hand: <orig><choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1874-03-20">20. III. 74</date>. <choice><abbr>N.</abbr><expan>Nummer</expan></choice> 498. <add type="?">(Favre)</add></orig>.</note> <lb xml:id="p1-l1"/>
+          <hi rend="printed">ENTREPRISE</hi>
           <lb xml:id="p1-l2"/>
-          <fw>DU</fw>
+          <hi rend="printed">DU</hi>
           <lb xml:id="p1-l3"/>
-          <fw>TUNNEL DU <placeName type="place" key="St. Gotthard (Pass)">GOTHARD</placeName> </fw>
+          <hi rend="printed">TUNNEL DU <placeName key="St. Gotthard (Pass)">GOTHARD</placeName> </hi>
           <lb xml:id="p1-l4"/>
-          <fw>L. FAVRE &amp; <choice>
-                            <abbr>C<hi rend="sup">IE</hi> </abbr>
-                            <expan>COMPAGNIE (Gesellschaft)</expan>
-                        </choice>
-                    </fw>
+          <hi rend="printed">L. FAVRE &amp; <choice><abbr>C<hi rend="sup">IE</hi> </abbr><expan>COMPAGNIE (Gesellschaft)</expan></choice></hi>
           <lb xml:id="p1-l5"/>
-          <fw>
-            <choice>
-                            <abbr>N<hi rend="sup">o</hi> </abbr>
-                            <expan>Numero (Nummer)</expan>
-                        </choice>
-          </fw> 87</p>
-      </div>
+          <hi rend="printed">
+            <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice>
+          </hi> 87</p>
+      
       <div type="dateline">
-        <p rend="center" xml:id="K_7806_p2">
-                    <lb xml:id="p1-l6"/>
-          <fw>
-            <placeName type="place" key="Altdorf (UR)">Altorf</placeName> (Canton d'<placeName type="place" key="Uri">Uri</placeName>–Suisse), le</fw>
-          <date when="1874-03-17">17 Mars <fw>187</fw>4</date>
+        <p rend="center" xml:id="K_7806_p2"><lb xml:id="p1-l6"/>
+          <hi rend="printed">
+            <placeName key="Altdorf (UR)">Altorf</placeName> (Canton d'<placeName key="Uri">Uri</placeName>–Suisse), le</hi>
+          <date when="1874-03-17">17 Mars <hi rend="printed">187</hi>4</date>
         </p>
-      </div>
-      <div type="address">
-        <p rend="center" xml:id="K_7806_p3">
-                    <lb xml:id="p1-l7"/>Monsieur Escher, Président du Comité de
-        <lb xml:id="p1-l8"/>Direction du Chemin de fer du Gothard,
-</p>
-        <p rend="right" xml:id="K_7806_p4">
-                    <lb xml:id="p1-l9"/>à <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>.</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_7806_p5">
-                    <lb xml:id="p1-l10"/>Monsieur le Président,</p>
+        <p rend="center" xml:id="K_7806_p3"><lb xml:id="p1-l7"/>Monsieur Escher, Président du Comité de
+        <lb xml:id="p1-l8"/>Direction du Chemin de fer du Gothard,
+</p>
+        <p rend="right" xml:id="K_7806_p4"><lb xml:id="p1-l9"/>à <placeName key="Zürich (Stadt)">Zurich</placeName>.</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_7806_p6">
-                <lb xml:id="p1-l11"/>J'ai l'honneur de vous informer que mon
-        <lb xml:id="p1-l12"/>chargé de procuration, <persName type="person" key="Brandner Henri">H. Brandner</persName>, ne fait plus
+      <div type="opener">
+        <p rend="center" xml:id="K_7806_p5"><lb xml:id="p1-l10"/>Monsieur le Président,</p>
+      </div>
+    </front><body>
+      <p rend="indent" xml:id="K_7806_p6"><lb xml:id="p1-l11"/>J'ai l'honneur de vous informer que mon
+        <lb xml:id="p1-l12"/>chargé de procuration, <persName key="Brandner Henri">H. Brandner</persName>, ne fait plus
         <lb xml:id="p1-l13"/>dès à présent, partie de mon administration.
         </p>
-      <p rend="indent" xml:id="K_7806_p7">
-                <lb xml:id="p1-l14"/>En conséquence, je vous prie de considérer sa
+      <p rend="indent" xml:id="K_7806_p7"><lb xml:id="p1-l14"/>En conséquence, je vous prie de considérer sa
         <lb xml:id="p1-l15"/>procuration comme nulle.
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_7806_p8">
-                    <lb xml:id="p1-l16"/>Agréez, Monsieur le Président, l'assurance
+        <p rend="indent" xml:id="K_7806_p8"><lb xml:id="p1-l16"/>Agréez, Monsieur le Président, l'assurance
         <lb xml:id="p1-l17"/>de  mes sentiments très-distingués &amp; dévoués,</p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_7806_p9">
-                    <lb xml:id="p1-l18"/>
+      <div type="signature">
+        <p rend="center" xml:id="K_7806_p9"><lb xml:id="p1-l18"/>
           L. Favre
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

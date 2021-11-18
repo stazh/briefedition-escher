@@ -1,226 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_4116" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Josef Zingg an Alfred Escher, Luzern, Sonntag, Mai 23, 1869</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_054</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Zürich-Zug-Luzern-Bahn (ZZL)</item>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Luzern</placeName>
-                    <date when="1869-05-23">Sonntag, Mai 23, 1869</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2012-07-09" who="AH">Brief transkribiert
-                
-            </change>
-            <change when="2012-08-08" who="CHF">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-08-09" who="LB">Verifizierung 1
-				umgesetzt
-                
-            </change>
-            <change when="2013-02-01" who="PR">Transkriptionsverifizierung T. Binder umgesetzt
-					
-                
-            </change>
-            <change when="2014-01-31" who="LH">Übertragung der Transkriptionsverifizierung
-					geprüft
-                
-            </change>
-            <change when="2014-02-06" who="SWK">Auszeichnung 2
-				umgesetzt
-                
-            </change>
-            <change when="2014-06-16" who="LB">Verifizierung 2
-				umgesetzt
-                
-            </change>
-            <change when="2014-06-16" who="LB">Inhaltliche Qualitätsprüfung
-					umgesetzt
-                
-            </change>
-            <change when="2017-07-10" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_4116" type="Brief"><teiHeader><fileDesc><titleStmt><title>Josef Zingg an Alfred Escher, Luzern, Sonntag, 23. Mai 1869</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_054</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Öffentliche Beteiligungen (Infrastruktur)</term><term>Eisenbahnen Finanzierung</term><term>Zürich-Zug-Luzern-Bahn (ZZL)</term><term>Schweizerische Nordostbahn (NOB)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Zingg Josef" type="addressee">Josef Zingg</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Luzern</placeName><date when="1869-05-23">23. Mai 1869</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
         <p rend="indent" xml:id="K_4116_p1">
                     <lb xml:id="p1-l1"/>Hochgeachteter Herr Präsident!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="left" xml:id="K_4116_p2">
                 <lb xml:id="p1-l2"/>Auf der <date when="1869-05-22">gestrigen</date> Heimfahrt hat mich der
 				Gedanke<lb xml:id="p1-l3"/> lebhaft beschäftigt, ob es nicht gerathen wäre, daß<lb xml:id="p1-l4"/> die zwei
 				Bahngesellschaften bei der <hi rend="underline">dritten Proposition</hi>,<lb xml:id="p1-l5"/> welche sie dem Ausschuße
-				zu Handen der <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>
-                <lb break="no" xml:id="p1-l6"/>vereinigung
-				zu machen die Gefälligkeit hatten, die<lb xml:id="p1-l7"/> Reduktion ihrer <hi>Subvention</hi> für
+				zu Handen der <placeName key="St. Gotthard (Pass)">Gotthardt</placeName>
+                <lb xml:id="p1-l6" break="no"/>vereinigung
+				zu machen die Gefälligkeit hatten, die<lb xml:id="p1-l7" break="no"/> Reduktion ihrer <hi>Subvention</hi> für
 				die <hi>
-                    <choice>
-                            <abbr>
-                        <placeName type="place" key="St. Gotthard (Pass)">G.</placeName>B.</abbr>
-                            <expan>GotthardBahn</expan>
-                        </choice> </hi> statt auf<lb xml:id="p1-l8"/> 4 <choice>
-                        <abbr>Mill.</abbr>
-                        <expan>Million</expan>
-                    </choice> auf 5
-					<choice>
-                        <abbr>Mill.</abbr>
-                        <expan>Million</expan>
-                    </choice>
-                    <choice>
-                        <abbr>
-                    <hi>fs.</hi> </abbr>
-                        <expan>francs (Franken)</expan>
-                    </choice> abrunden würden. Ich<lb xml:id="p1-l9"/> brauche
-				Ihnen wohl nicht zu wiederholen, daß mich<lb xml:id="p1-l10"/> hiebei nicht etwa die Ansicht leitet,
-				es sei für unsere<lb xml:id="p1-l11"/> Aufgabe oder eine große That, etwas mehr von den<lb xml:id="p1-l12"/>
-				Eisenbahngesellschaften herauszupreßen; ich weiß ja<lb xml:id="p1-l13"/> die große materielle &amp; namentlich auch geistige<lb xml:id="p1-l14"/> Unterstützung, welche die
-				beiden Gesellschaften &amp; Sie<lb xml:id="p1-l15"/> vorab dem Unternehmen
+                    <choice><abbr>
+                        <placeName key="St. Gotthard (Pass)">G.</placeName>B.</abbr><expan>GotthardBahn</expan></choice> </hi> statt auf<lb xml:id="p1-l8" break="no"/> 4 <choice><abbr>Mill.</abbr><expan>Million</expan></choice> auf 5
+					<choice><abbr>Mill.</abbr><expan>Million</expan></choice> <choice><abbr>
+                    <hi>fs.</hi> </abbr><expan>francs (Franken)</expan></choice> abrunden würden. Ich<lb xml:id="p1-l9" break="no"/> brauche
+				Ihnen wohl nicht zu wiederholen, daß mich<lb xml:id="p1-l10" break="no"/> hiebei nicht etwa die Ansicht leitet,
+				es sei für unsere<lb xml:id="p1-l11" break="no"/> Aufgabe oder eine große That, etwas mehr von den<lb xml:id="p1-l12" break="no"/>
+				Eisenbahngesellschaften herauszupreßen; ich weiß ja<lb xml:id="p1-l13" break="no"/> die große materielle &amp; namentlich auch geistige<lb xml:id="p1-l14" break="no"/> Unterstützung, welche die
+				beiden Gesellschaften &amp; Sie<lb xml:id="p1-l15" break="no"/> vorab dem Unternehmen
 				gebracht haben &amp; bringen, im<pb n="2"/>
-                    <lb xml:id="p2-l1"/> Vollen Maße zu
-				schätzen. Ich mache die Anregung<lb xml:id="p2-l2"/> nur im Intereße der Sache. Es will mir
-				nämlich<lb xml:id="p2-l3"/> scheinen, daß mit dieser Modifikation die<lb xml:id="p2-l4"/> dritte Proposition, von
-				der bei der gegenwärtigen<lb xml:id="p2-l5"/> Sachlage wohl allein ernstlich die Rede sein kann,
-				<lb xml:id="p2-l6"/>eine durchschlagende &amp; fast unanfechtbare würde.<lb xml:id="p2-l7"/>
-					5 <choice>
-                        <abbr>Mill.</abbr>
-                        <expan>Million</expan>
-                    </choice>
-                    <hi>Su<supplied>b</supplied>vention</hi>
-				&amp; 15-18 <choice>
-                        <abbr>Mill.</abbr>
-                        <expan>Million</expan>
-                    </choice>
-				Aktienübernahme<lb xml:id="p2-l8"/> wäre eine Leistung, die schließlich doch jedermann wird<lb xml:id="p2-l9"/>
-				anerkennen müßen. In der Erhöhung der <hi>Subvention</hi>
-                    <lb xml:id="p2-l10"/> läge ein materielles
-				Entgegenkommen, deßen<lb xml:id="p2-l11"/> Bedeutung nicht zu unterschätzen ist. Die
-				Bahnge<lb break="no" xml:id="p2-l12"/>sellschaften dürften sich nach meinem Dafürhalten<lb xml:id="p2-l13"/> auch um so
-				eher hiezu herbeilaßen, da sie früher<lb xml:id="p2-l14"/> bei Annahme einer Verzinsung der
-				Aktienkapitals<lb xml:id="p2-l15"/> mit 5% 4 <choice>
-                        <abbr>Mill.</abbr>
-                        <expan>Million</expan>
-                    </choice>
-                    <hi>Subvention</hi> anerboten haben &amp; in<lb xml:id="p2-l16"/> der
-				inzwischen erfolgten Erhöhung der Verzinsung<lb xml:id="p2-l17"/> der Aktien während der Bauzeit
-				eine etwelche Ver<lb break="no" xml:id="p2-l18"/>größerung der <hi>Subventions</hi>summe compensirt
+                <lb xml:id="p2-l1" break="no"/> Vollen Maße zu
+				schätzen. Ich mache die Anregung<lb xml:id="p2-l2" break="no"/> nur im Intereße der Sache. Es will mir
+				nämlich<lb xml:id="p2-l3" break="no"/> scheinen, daß mit dieser Modifikation die<lb xml:id="p2-l4" break="no"/> dritte Proposition, von
+				der bei der gegenwärtigen<lb xml:id="p2-l5" break="no"/> Sachlage wohl allein ernstlich die Rede sein kann,
+				<lb xml:id="p2-l6" break="no"/>eine durchschlagende &amp; fast unanfechtbare würde.<lb xml:id="p2-l7" break="no"/>
+					5 <choice><abbr>Mill.</abbr><expan>Million</expan></choice> <hi>Su<add>b</add>vention</hi>
+				&amp; 15-18 <choice><abbr>Mill.</abbr><expan>Million</expan></choice>
+				Aktienübernahme<lb xml:id="p2-l8" break="no"/> wäre eine Leistung, die schließlich doch jedermann wird<lb xml:id="p2-l9" break="no"/>
+				anerkennen müßen. In der Erhöhung der <hi>Subvention</hi> <lb xml:id="p2-l10" break="no"/> läge ein materielles
+				Entgegenkommen, deßen<lb xml:id="p2-l11" break="no"/> Bedeutung nicht zu unterschätzen ist. Die
+				Bahnge
+                <lb xml:id="p2-l12" break="no"/>sellschaften dürften sich nach meinem Dafürhalten<lb xml:id="p2-l13" break="no"/> auch um so
+				eher hiezu herbeilaßen, da sie früher<lb xml:id="p2-l14" break="no"/> bei Annahme einer Verzinsung der
+				Aktienkapitals<lb xml:id="p2-l15" break="no"/> mit 5% 4 <choice><abbr>Mill.</abbr><expan>Million</expan></choice> <hi>Subvention</hi> anerboten haben &amp; in<lb xml:id="p2-l16" break="no"/> der
+				inzwischen erfolgten Erhöhung der Verzinsung<lb xml:id="p2-l17" break="no"/> der Aktien während der Bauzeit
+				eine etwelche Ver
+                <lb xml:id="p2-l18" break="no"/>größerung der <hi>Subventions</hi>summe compensirt
 				würde. –<pb n="3"/>
-                    <lb xml:id="p3-l1"/> Wenn die Bahnen ihre <hi>Subvention</hi> auf 5 <choice>
-                        <abbr>Mill.</abbr>
-                        <expan>Million</expan>
-                    </choice> stellen,<lb xml:id="p3-l2"/> können wir auch die 15. <choice>
-                        <abbr>Mill.</abbr>
-                        <expan>Million</expan>
-                    </choice>
-                    <choice>
-                        <abbr>schweiz.</abbr>
-                        <expan>schweizerisch</expan>
-                    </choice>
-                    <hi>Subsidien</hi> soviel<lb xml:id="p3-l3"/> als gesichert betrachten, während uns im andern
-				Falle<lb xml:id="p3-l4"/> nahezu eine Million fehlt &amp; ich auf den Zuwachs im<lb xml:id="p3-l5"/>
-                    <placeName type="place" key="Tessin">Teßin</placeName>, namentlich wenn die <placeName type="place" key="Cittiglio (I)">
+                <lb xml:id="p3-l1" break="no"/> Wenn die Bahnen ihre <hi>Subvention</hi> auf 5 <choice><abbr>Mill.</abbr><expan>Million</expan></choice> stellen,<lb xml:id="p3-l2" break="no"/> können wir auch die 15. <choice><abbr>Mill.</abbr><expan>Million</expan></choice> <choice><abbr>schweiz.</abbr><expan>schweizerisch</expan></choice> <hi>Subsidien</hi> soviel<lb xml:id="p3-l3" break="no"/> als gesichert betrachten, während uns im andern
+				Falle<lb xml:id="p3-l4" break="no"/> nahezu eine Million fehlt &amp; ich auf den Zuwachs im<lb xml:id="p3-l5" break="no"/>
+                <placeName key="Tessin">Teßin</placeName>, namentlich wenn die <placeName key="Cittiglio (I)">
                     <hi>Citiglio</hi>
-                </placeName>linie auf die Tages<lb break="no" xml:id="p3-l6"/>ordnung
-				kommt, wenig Vertrauen habe. Der Aus<lb break="no" xml:id="p3-l7"/>fall ließe sich allerdings auch durch
-				die Ueberlaßung<lb xml:id="p3-l8"/> der noch verfügbaren 800,000 <choice>
-                        <abbr>
-                    <hi>fs</hi>.</abbr>
-                        <expan>francs (Franken)</expan>
-                    </choice> der Eisenbahnunternehmung<lb xml:id="p3-l9"/>
-                    <hi>
-                    <choice>
-                            <abbr>Z.Z.L.</abbr>
-                            <expan>Zürich–Zug–Luzern-Bahn</expan>
-                        </choice> </hi> deken, wogegen ich
-				persönlich nicht viel einzu<lb break="no" xml:id="p3-l10"/>wenden hätte. Allein es wird die Frage
-				entstehen,<lb xml:id="p3-l11"/> ob eine solche Verwendung nicht an die Großen Räthe<lb xml:id="p3-l12"/> der Kantone
-				gebracht werden müßte <hi rend="underline">&amp;</hi> wie hier die<lb xml:id="p3-l13"/>
-				Entscheidung ausfallen würde, weiß man nicht. Jedenfalls<lb xml:id="p3-l14"/> erachte ich eine
-				bezügliche Zustimmung der hiesigen<lb xml:id="p3-l15"/> Stadtgemeinde sehr zweifelhaft. Für die 
-                    <choice>
-                        <abbr>Tit<hi rend="sup">o</hi>
-                </abbr>
-                        <expan>Titulo (mit Titel)</expan>
-                    </choice>
-                    <hi>
-                    <choice>
-                            <abbr>NOB.</abbr>
-                            <expan>NordOstBahn</expan>
-                        </choice> </hi>
-                    <lb xml:id="p3-l16"/> würde es dagegen fast auf
-				dasselbe herauskommen,<lb xml:id="p3-l17"/> ob sie über die ihr zufallende Hälfte der fraglichen<pb n="4"/>
-                    <lb xml:id="p4-l1"/> 800,000 <choice>
-                        <abbr>
-                    <hi>fs</hi>.</abbr>
-                        <expan>francs (Franken)</expan>
-                    </choice> zu Gunsten der
-					<placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>bahn verfügt,<lb xml:id="p4-l2"/> oder ihre
-				eigene <hi>Subvention</hi> um 4 bis 500,000 <choice>
-                        <abbr>
-                    <hi>fs</hi>.</abbr>
-                        <expan>francs (Franken)</expan>
-                    </choice>
+                </placeName>linie auf die Tages
+                <lb xml:id="p3-l6" break="no"/>ordnung
+				kommt, wenig Vertrauen habe. Der Aus
+                <lb xml:id="p3-l7" break="no"/>fall ließe sich allerdings auch durch
+				die Ueberlaßung<lb xml:id="p3-l8" break="no"/> der noch verfügbaren 800,000 <choice><abbr><hi>fs</hi>.</abbr><expan>francs (Franken)</expan></choice> der Eisenbahnunternehmung<lb xml:id="p3-l9" break="no"/>
+                <hi>
+                    <choice><abbr>Z.Z.L.</abbr><expan>Zürich–Zug–Luzern-Bahn</expan></choice> </hi> deken, wogegen ich
+				persönlich nicht viel einzu
+                <lb xml:id="p3-l10" break="no"/>wenden hätte. Allein es wird die Frage
+				entstehen,<lb xml:id="p3-l11" break="no"/> ob eine solche Verwendung nicht an die Großen Räthe<lb xml:id="p3-l12" break="no"/> der Kantone
+				gebracht werden müßte <hi rend="underline">&amp;</hi> wie hier die<lb xml:id="p3-l13" break="no"/>
+				Entscheidung ausfallen würde, weiß man nicht. Jedenfalls<lb xml:id="p3-l14" break="no"/> erachte ich eine
+				bezügliche Zustimmung der hiesigen<lb xml:id="p3-l15" break="no"/> Stadtgemeinde sehr zweifelhaft. Für die 
+                    <choice><abbr>Tit<hi rend="sup">o</hi></abbr><expan>Titulo (mit Titel)</expan></choice>  <hi>
+                    <choice><abbr>NOB.</abbr><expan>NordOstBahn</expan></choice> </hi> <lb xml:id="p3-l16" break="no"/> würde es dagegen fast auf
+				dasselbe herauskommen,<lb xml:id="p3-l17" break="no"/> ob sie über die ihr zufallende Hälfte der fraglichen<pb n="4"/>
+                <lb xml:id="p4-l1" break="no"/> 800,000 <choice><abbr><hi>fs</hi>.</abbr><expan>francs (Franken)</expan></choice> zu Gunsten der
+					<placeName key="St. Gotthard (Pass)">Gotthardt</placeName>bahn verfügt,<lb xml:id="p4-l2" break="no"/> oder ihre
+				eigene <hi>Subvention</hi> um 4 bis 500,000 <choice><abbr><hi>fs</hi>.</abbr><expan>francs (Franken)</expan></choice>
 				erhöhte. –</p>
       <p rend="indent" xml:id="K_4116_p3">
                 <lb xml:id="p4-l3"/>Indem ich Sie bitte, diese Bemerkungen nur dem<lb xml:id="p4-l4"/> Bestreben
-				zuzuschreiben, so viel an mir liegt zur Be<lb break="no" xml:id="p4-l5"/>seitigung der uns so vielfach
-				entgegentretenden<lb xml:id="p4-l6"/> Schwierigkeiten beizutragen, die Anregung übrigens ganz<lb xml:id="p4-l7"/>
-				Ihrer reifern Würdigung unterstelle, verbleibe<lb xml:id="p4-l8"/> ich mit dem erneuten Ausdruke
-				ausgezeichnetster<lb xml:id="p4-l9"/> Hochachtung</p>
-    </div>
-        </body>
-    <back>
+				zuzuschreiben, so viel an mir liegt zur Be
+                <lb xml:id="p4-l5" break="no"/>seitigung der uns so vielfach
+				entgegentretenden<lb xml:id="p4-l6" break="no"/> Schwierigkeiten beizutragen, die Anregung übrigens ganz<lb xml:id="p4-l7" break="no"/>
+				Ihrer reifern Würdigung unterstelle, verbleibe<lb xml:id="p4-l8" break="no"/> ich mit dem erneuten Ausdruke
+				ausgezeichnetster<lb xml:id="p4-l9" break="no"/> Hochachtung</p>
+    </body><back>
       <div type="closer">
         <p rend="right" xml:id="K_4116_p4">
                     <lb xml:id="p4-l10"/>Ihr freundschaftlich ergebener</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_4116_p5">
                     <lb xml:id="p4-l11"/>J. Zingg</p>
       </div>
       <div type="dateline">
         <p rend="left" xml:id="K_4116_p6">
                     <lb xml:id="p4-l12"/>
-          <placeName type="place" key="Luzern (Stadt)">
+          <placeName key="Luzern (Stadt)">
                         <hi>Luzern</hi>
                     </placeName> d. <date when="1869-05-23">23. <hi>Mai</hi> 1869</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

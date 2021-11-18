@@ -1,131 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2843" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Peter Olivier Zschokke an Alfred Escher, Aarau, Freitag, September 1, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#574*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Eisenbahnen Gutachten und Expertisen</item>
-                        <item>Schifffahrt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Zschokke Peter Olivier" type="sender">Peter Olivier Zschokke</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Aarau</placeName>
-                    <date when="1876-09-01">Freitag, September 1, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-08-08" who="WB">Transkription
-                
-            </change>
-            <change when="2013-08-21" who="SB">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="LH">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="CR">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="DG">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="DG">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-05-20" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-23" who="LW">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-04-09" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2843" type="Brief"><teiHeader><fileDesc><titleStmt><title>Peter Olivier Zschokke an Alfred Escher, Aarau, Freitag, 01. September 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#574*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Eisenbahnen Gutachten und Expertisen</term><term>Schifffahrt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Zschokke Peter Olivier" type="addressee">Peter Olivier Zschokke</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Aarau</placeName><date when="1876-09-01">01. September 1876</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2843_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Aarau">Aarau</placeName>
-          <date when="1876-09-01">1. <choice>
-                            <abbr>
-                            <hi>Sep</hi>.</abbr>
-                            <expan>September</expan>
-                        </choice> 1876</date>
+        <p rend="right" xml:id="K_2843_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Aarau">Aarau</placeName>
+          <date when="1876-09-01">1. <choice><abbr><hi>Sep</hi>.</abbr><expan>September</expan></choice> 1876</date>
         </p>
       </div>
-      <div type="address">
-        <p rend="left" xml:id="K_2843_p2">
-                    <lb xml:id="p1-l2"/>Herren<note type="transcript">sic!</note> <choice>
-                        <abbr>Dr.</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> <hi>A. Escher</hi> Präsident der
-                <lb xml:id="p1-l3"/> Gottharddirektion in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.</p>
+      <div type="opener">
+        <p rend="left" xml:id="K_2843_p2"><lb xml:id="p1-l2"/>Herren<note type="transcript">sic!</note> <choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> <hi>A. Escher</hi> Präsident der
+                <lb xml:id="p1-l3"/> Gottharddirektion in <placeName key="Zürich (Stadt)">Zürich</placeName>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_2843_p3">
-                    <lb xml:id="p1-l4"/>Verehrter Herr.</p>
+        <p rend="left" xml:id="K_2843_p3"><lb xml:id="p1-l4"/>Verehrter Herr.</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_2843_p4">
-                <lb xml:id="p1-l5"/>Hier beigeschloßen beehre mich Ihnen eine Ausarbeitung
-                <lb xml:id="p1-l6"/>über Trajekteinrichtungen auf d. <placeName type="place" key="Luzern (Stadt)">Luzerner</placeName> &amp; <placeName type="place" key="Lago Maggiore">Langensee</placeName> <lb xml:id="p1-l7"/>zu übermitteln, welche meine bezüglichen im <hi>Juli</hi> veröffent<lb break="no" xml:id="p1-l8"/>lichten Vorschläge näher beleuchten sollen &amp; zugleich auch den
-                <lb xml:id="p1-l9"/>Ansichten d<supplied>es</supplied>
-                    <choice>
-                        <abbr>Hh</abbr>
-                        <expan>Herrn</expan>
-                    </choice> Direktor <persName type="person" key="Möller">
-                    <hi>Möller</hi>
-                </persName>, welcher derselbe in seinem
-                <lb xml:id="p1-l10"/>Gutachten veröffentlichte, entgegensteht. Ich bitte Sie
-                <lb xml:id="p1-l11"/>um gefällige Würdigung meiner Auseinandersetzungen
-                <lb xml:id="p1-l12"/>&amp; ergreife den Anlaß Sie meiner wahren Hochschätzung
-                <lb xml:id="p1-l13"/>zu versichern:
+    </front><body>
+      <p rend="left" xml:id="K_2843_p4"><lb xml:id="p1-l5"/>Hier beigeschloßen beehre mich Ihnen eine Ausarbeitung
+                <lb xml:id="p1-l6"/>über Trajekteinrichtungen auf d. <placeName key="Luzern (Stadt)">Luzerner</placeName> &amp; <placeName key="Lago Maggiore">Langensee</placeName> <lb xml:id="p1-l7"/>zu übermitteln, welche meine bezüglichen im <hi>Juli</hi> veröffent<lb xml:id="p1-l8" break="no"/>lichten Vorschläge näher beleuchten sollen &amp; zugleich auch den
+                <lb xml:id="p1-l9" break="no"/>Ansichten d<add>es</add> <choice><abbr>Hh</abbr><expan>Herrn</expan></choice> Direktor <persName key="Möller"><hi>Möller</hi></persName>, welcher derselbe in seinem
+                <lb xml:id="p1-l10" break="no"/>Gutachten veröffentlichte, entgegensteht. Ich bitte Sie
+                <lb xml:id="p1-l11" break="no"/>um gefällige Würdigung meiner Auseinandersetzungen
+                <lb xml:id="p1-l12" break="no"/>&amp; ergreife den Anlaß Sie meiner wahren Hochschätzung
+                <lb xml:id="p1-l13" break="no"/>zu versichern:
             </p>
-    </div>
-        </body>
-    <back>
-      <div type="address">
-        <p rend="right" xml:id="K_2843_p5">
-                    <lb xml:id="p1-l14"/>Olivier Zschokke.</p>
+    </body><back>
+      <div type="signature">
+        <p rend="right" xml:id="K_2843_p5"><lb xml:id="p1-l14"/>Olivier Zschokke.</p>
       </div>
       <div type="attachment">
-        <p rend="left" xml:id="K_2843_p6">
-                    <lb xml:id="p1-l15"/>1. <choice>
-                        <abbr>Exempl.</abbr>
-                        <expan>Exemplar</expan>
-                    </choice> </p>
+        <p rend="left" xml:id="K_2843_p6"><lb xml:id="p1-l15"/>1. <choice><abbr>Exempl.</abbr><expan>Exemplar</expan></choice> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

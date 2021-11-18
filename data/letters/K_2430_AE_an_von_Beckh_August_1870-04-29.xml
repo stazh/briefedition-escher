@@ -1,175 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2430" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an August von Beckh, Zürich, Freitag, April 29, 1870</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Abzug">
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#186*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Bözbergbahnprojekt</item>
-                        <item>Personelle Angelegenheiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Beckh August von" type="addressee">August von Beckh</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1870-04-29">Freitag, April 29, 1870</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-01-10" who="MW">transkribiert
-                
-            </change>
-            <change when="2013-08-08" who="CH">Migration nach XML
-                
-            </change>
-            <change when="2013-08-30" who="SB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-07" who="XR">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-08" who="LH">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-13" who="CR">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="LW">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="LH">Übertragung der Transkriptionsverifzierung geprüft
-                
-            </change>
-            <change when="2014-03-19" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-05-14" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2430" type="Brief" subtype="Abzug"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an August von Beckh, Zürich, Freitag, 29. April 1870</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#186*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Bözbergbahnprojekt</term><term>Personelle Angelegenheiten</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Beckh August von" type="sender">August von Beckh</persName><placeName>Zürich</placeName><date when="1870-04-29">29. April 1870</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2430_p1">
-                    <seg type="com">
-                        <note type="addendum" xml:id="K_2430_c0">Nachträgliche Notiz unten rechts auf Seite 4 von dritter Hand mit Bleistift:<bibl>
-                                <choice>
-                                    <abbr>Obering.</abbr>
-                                    <expan>Oberingenieur</expan>
-                                </choice> <persName type="person" key="Pressel Wilhelm">Pressel</persName>
-                            </bibl>.</note>
-                    </seg>
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+        <p rend="right" xml:id="K_2430_p1"><note type="com" xml:id="K_2430_c0">Nachträgliche Notiz unten rechts auf Seite 4 von dritter Hand mit Bleistift:<orig><choice><abbr>Obering.</abbr><expan>Oberingenieur</expan></choice> <persName key="Pressel Wilhelm">Pressel</persName></orig>.</note><lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
           <date when="1870-04-29">29 April 1870</date>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_2430_p2">
-                    <lb xml:id="p1-l2"/>Hochgeachteter Herr!</p>
+        <p rend="indent" xml:id="K_2430_p2"><lb xml:id="p1-l2"/>Hochgeachteter Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2430_p3">
-                <lb xml:id="p1-l3"/>Der Inhalt Ihrer <choice>
-                        <abbr>verehrl.</abbr>
-                        <expan>verehrlich</expan>
-                    </choice> <seg type="ref">Zuschrift<ref type="letter" target="K_2427"/>
-                </seg> <lb xml:id="p1-l4"/>vom <date when="1870-04-24">24. <choice>
-                            <abbr>dss. Mon.</abbr>
-                            <expan>dieses Monats</expan>
-                        </choice> </date> hat mich mit mit tiefem Be<lb break="no" xml:id="p1-l5"/>dauern erfüllt &amp; Sie wollen es dem war<lb break="no" xml:id="p1-l6"/>men Wunsche, den ich hege, die so wichtige
-<lb xml:id="p1-l7"/>
-                    <placeName type="place" key="Bözberg">Bötzberg</placeName>bahn durch Sie ausgeführt zu
-<lb xml:id="p1-l8"/>sehen, zuschreiben, wenn ich die Hoffnung noch
-<lb xml:id="p1-l9"/>nicht aufzugeben vermag, daß dieser Wunsch
-<lb xml:id="p1-l10"/>vielleicht doch in Erfüllung gehe. Was wenig<lb break="no" xml:id="p1-l11"/>stens Ihr vorgerückteres Alter anbetrifft,
-<lb xml:id="p1-l12"/>von welchem Sie befürchten, daß es Sie ver<lb break="no" xml:id="p1-l13"/>hindern möchte, den Erwartungen ganz
-<lb xml:id="p1-l14"/>zu entsprechen, die in Sie gesetzt werden, so
-<lb xml:id="p1-l15"/>vermag ich diese Befürchtung durchaus
-<lb xml:id="p1-l16"/>nicht zu theilen, da ich Ihre geistige Rüstig<pb n="2"/>
-                    <lb xml:id="p2-l1"/>keit &amp; zähe Arbeitskraft viel zu oft &amp; viel 
-<lb xml:id="p2-l2"/>zu lange kennen zu lernen die Gelegenheit hat<lb break="no" xml:id="p2-l3"/>te, als daß ich einer solchen Besorgniß Raum
-<lb xml:id="p2-l4"/>geben könnte. Anders würde es sich aller<lb break="no" xml:id="p2-l5"/>dings verhalten, wenn Rücksichten auf Ihre
-<lb xml:id="p2-l6"/>verehrte Familie es Ihnen unmöglich ma<lb break="no" xml:id="p2-l7"/>chen würden, Ihren gegenwärtigen Wohn<lb break="no" xml:id="p2-l8"/>sitz mit demjenigen in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> zu vertau<lb break="no" xml:id="p2-l9"/>schen. Hiegegen Einwendung zu erheben,
-<lb xml:id="p2-l10"/>würde mir nicht zustehen, da es sich um
-<lb xml:id="p2-l11"/>Verhältnisse handelt, welche zu discutiren
-<lb xml:id="p2-l12"/>ich mich nicht in der Stellung befinde. Da
-<lb xml:id="p2-l13"/>Sie indessen, hochverehrter Herr! sich nicht
-<lb xml:id="p2-l14"/>dahin aussprechen, daß die Nothwendigkeit
-<lb xml:id="p2-l15"/>der Veränderung Ihres Wohnsitzes Ihnen
-<lb xml:id="p2-l16"/>die Annahme meines Vorschlages un<lb break="no" xml:id="p2-l17"/>möglich machen, sondern nur, daß sie Ihnen
-<lb xml:id="p2-l18"/>auf meinen Antrag einzugehen <hi rend="underline">erschwere</hi>,
-<pb n="3"/>
-                    <lb xml:id="p3-l1"/>so kann ich mich nicht enthalten, auch diesem
-<lb xml:id="p3-l2"/>Ablehnungsgrunde gegenüber einen Schim<lb break="no" xml:id="p3-l3"/>mer von Hoffnung, daß Sie sich vielleicht
-<lb xml:id="p3-l4"/>doch entschließen dürften, wieder mein
-<lb xml:id="p3-l5"/>Mitarbeiter zu werden, aufrecht zu er<lb break="no" xml:id="p3-l6"/>halten. Ich bemerke übrigens, daß nach der
-<lb xml:id="p3-l7"/>Natur der Baute, um die es sich handelt, &amp; 
-<lb xml:id="p3-l8"/>namentlich, wenn etwa als Sectionsingenieur
-<lb xml:id="p3-l9"/>für den <placeName type="place" key="Bözberg">Bötzberg</placeName>tunnel <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Kauffmann Jakob">Kaufmann</persName>, der 
-<lb xml:id="p3-l10"/>Ihnen von der <placeName type="place" key="Hauenstein (Pass)">Hauenstein</placeName>tunnelbaute her
-<lb xml:id="p3-l11"/>bekannt sein dürfte, gewonnen werden
-<lb xml:id="p3-l12"/>könnte, Ihr beständiger Aufenthalt in <placeName type="place" key="Zürich (Stadt)">Zü<lb break="no" xml:id="p3-l13"/>rich</placeName> kaum als ein Resultat unabweisba<lb break="no" xml:id="p3-l14"/>rer Nothwendigkeit anzusehen sein dürfte,
-<lb xml:id="p3-l15"/>sondern daß sich vielmehr Einrichtungen
-<lb xml:id="p3-l16"/>der einen oder der andern Art denken
-<lb xml:id="p3-l17"/>ließen, welche es Ihnen vielleicht möglich
-<lb xml:id="p3-l18"/>machen würden, unsern Wünschen ganz
-<pb n="4"/>
-                    <lb xml:id="p4-l1"/>oder der Hauptsache nach zu entsprechen, ohne
-<lb xml:id="p4-l2"/>deshalb Ihren bleibenden Wohnsitz für volle
-<lb xml:id="p4-l3"/>5 Jahre (die in Aussicht genommene Bauzeit
-<lb xml:id="p4-l4"/>der <placeName type="place" key="Bözberg">Bötzberg</placeName>bahn) nach <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> verlegen zu
-<lb xml:id="p4-l5"/>müssen. Ich brauche Ihnen wohl nicht zu sa<lb break="no" xml:id="p4-l6"/>gen, daß ich zudringlich sein oder der Frei<lb break="no" xml:id="p4-l7"/>heit Ihrer Entschließung Gewalt anthun
-<lb xml:id="p4-l8"/>zu wollen, weit entfernt bin. Vielleicht
-<lb xml:id="p4-l9"/>veranlaßt Sie aber der Inhalt dieses Schrei<lb break="no" xml:id="p4-l10"/>bens, meinen Antrag neuerdings in Er<lb break="no" xml:id="p4-l11"/>wägung zu ziehen &amp; mich mit einer neuen
-<lb xml:id="p4-l12"/>sachbezüglichen <seg type="ref">Mittheilung<ref type="letter" target="K_2432"/>
-                </seg> zu beehren. In
-<lb xml:id="p4-l13"/>Gewärtigung derselben &amp; die leise Hoffnung
-<lb xml:id="p4-l14"/>nährend, daß Sie sich vielleicht doch noch ent<lb break="no" xml:id="p4-l15"/>schließen können, die Leitung des Baues
-<lb xml:id="p4-l16"/>der <placeName type="place" key="Bözberg">Bötzberg</placeName>bahn zu übernehmen, unter<lb break="no" xml:id="p4-l17"/>lasse ich es geflissentlich, den jüngern Män<lb break="no" xml:id="p4-l18"/>nern nachzufragen, welche sie für geeig<lb break="no" xml:id="p4-l19"/>net &amp; geneigt halten, die fragliche Aufgabe
-<lb xml:id="p4-l20"/>zu übernehmen.
+    </front><body>
+      <p rend="indent" xml:id="K_2430_p3"><lb xml:id="p1-l3"/>Der Inhalt Ihrer <choice><abbr>verehrl.</abbr><expan>verehrlich</expan></choice> <rs>Zuschrift<ref type="letter" target="K_2427"/></rs> <lb xml:id="p1-l4"/>vom <date when="1870-04-24">24. <choice><abbr>dss. Mon.</abbr><expan>dieses Monats</expan></choice> </date> hat mich mit mit tiefem Be<lb xml:id="p1-l5" break="no"/>dauern erfüllt &amp; Sie wollen es dem war<lb xml:id="p1-l6" break="no"/>men Wunsche, den ich hege, die so wichtige
+<lb xml:id="p1-l7" break="no"/><placeName key="Bözberg">Bötzberg</placeName>bahn durch Sie ausgeführt zu
+<lb xml:id="p1-l8" break="no"/>sehen, zuschreiben, wenn ich die Hoffnung noch
+<lb xml:id="p1-l9" break="no"/>nicht aufzugeben vermag, daß dieser Wunsch
+<lb xml:id="p1-l10" break="no"/>vielleicht doch in Erfüllung gehe. Was wenig<lb xml:id="p1-l11" break="no"/>stens Ihr vorgerückteres Alter anbetrifft,
+<lb xml:id="p1-l12" break="no"/>von welchem Sie befürchten, daß es Sie ver<lb xml:id="p1-l13" break="no"/>hindern möchte, den Erwartungen ganz
+<lb xml:id="p1-l14" break="no"/>zu entsprechen, die in Sie gesetzt werden, so
+<lb xml:id="p1-l15" break="no"/>vermag ich diese Befürchtung durchaus
+<lb xml:id="p1-l16" break="no"/>nicht zu theilen, da ich Ihre geistige Rüstig<pb n="2"/><lb xml:id="p2-l1" break="no"/>keit &amp; zähe Arbeitskraft viel zu oft &amp; viel 
+<lb xml:id="p2-l2" break="no"/>zu lange kennen zu lernen die Gelegenheit hat<lb xml:id="p2-l3" break="no"/>te, als daß ich einer solchen Besorgniß Raum
+<lb xml:id="p2-l4" break="no"/>geben könnte. Anders würde es sich aller<lb xml:id="p2-l5" break="no"/>dings verhalten, wenn Rücksichten auf Ihre
+<lb xml:id="p2-l6" break="no"/>verehrte Familie es Ihnen unmöglich ma<lb xml:id="p2-l7" break="no"/>chen würden, Ihren gegenwärtigen Wohn<lb xml:id="p2-l8" break="no"/>sitz mit demjenigen in <placeName key="Zürich (Stadt)">Zürich</placeName> zu vertau<lb xml:id="p2-l9" break="no"/>schen. Hiegegen Einwendung zu erheben,
+<lb xml:id="p2-l10" break="no"/>würde mir nicht zustehen, da es sich um
+<lb xml:id="p2-l11" break="no"/>Verhältnisse handelt, welche zu discutiren
+<lb xml:id="p2-l12" break="no"/>ich mich nicht in der Stellung befinde. Da
+<lb xml:id="p2-l13" break="no"/>Sie indessen, hochverehrter Herr! sich nicht
+<lb xml:id="p2-l14" break="no"/>dahin aussprechen, daß die Nothwendigkeit
+<lb xml:id="p2-l15" break="no"/>der Veränderung Ihres Wohnsitzes Ihnen
+<lb xml:id="p2-l16" break="no"/>die Annahme meines Vorschlages un<lb xml:id="p2-l17" break="no"/>möglich machen, sondern nur, daß sie Ihnen
+<lb xml:id="p2-l18" break="no"/>auf meinen Antrag einzugehen <hi rend="underline">erschwere</hi>,
+<pb n="3"/><lb xml:id="p3-l1" break="no"/>so kann ich mich nicht enthalten, auch diesem
+<lb xml:id="p3-l2" break="no"/>Ablehnungsgrunde gegenüber einen Schim<lb xml:id="p3-l3" break="no"/>mer von Hoffnung, daß Sie sich vielleicht
+<lb xml:id="p3-l4" break="no"/>doch entschließen dürften, wieder mein
+<lb xml:id="p3-l5" break="no"/>Mitarbeiter zu werden, aufrecht zu er<lb xml:id="p3-l6" break="no"/>halten. Ich bemerke übrigens, daß nach der
+<lb xml:id="p3-l7" break="no"/>Natur der Baute, um die es sich handelt, &amp; 
+<lb xml:id="p3-l8" break="no"/>namentlich, wenn etwa als Sectionsingenieur
+<lb xml:id="p3-l9" break="no"/>für den <placeName key="Bözberg">Bötzberg</placeName>tunnel <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="Kauffmann Jakob">Kaufmann</persName>, der 
+<lb xml:id="p3-l10" break="no"/>Ihnen von der <placeName key="Hauenstein (Pass)">Hauenstein</placeName>tunnelbaute her
+<lb xml:id="p3-l11" break="no"/>bekannt sein dürfte, gewonnen werden
+<lb xml:id="p3-l12" break="no"/>könnte, Ihr beständiger Aufenthalt in <placeName key="Zürich (Stadt)">Zü<lb xml:id="p3-l13" break="no"/>rich</placeName> kaum als ein Resultat unabweisba<lb xml:id="p3-l14" break="no"/>rer Nothwendigkeit anzusehen sein dürfte,
+<lb xml:id="p3-l15" break="no"/>sondern daß sich vielmehr Einrichtungen
+<lb xml:id="p3-l16" break="no"/>der einen oder der andern Art denken
+<lb xml:id="p3-l17" break="no"/>ließen, welche es Ihnen vielleicht möglich
+<lb xml:id="p3-l18" break="no"/>machen würden, unsern Wünschen ganz
+<pb n="4"/><lb xml:id="p4-l1" break="no"/>oder der Hauptsache nach zu entsprechen, ohne
+<lb xml:id="p4-l2" break="no"/>deshalb Ihren bleibenden Wohnsitz für volle
+<lb xml:id="p4-l3" break="no"/>5 Jahre (die in Aussicht genommene Bauzeit
+<lb xml:id="p4-l4" break="no"/>der <placeName key="Bözberg">Bötzberg</placeName>bahn) nach <placeName key="Zürich (Stadt)">Zürich</placeName> verlegen zu
+<lb xml:id="p4-l5" break="no"/>müssen. Ich brauche Ihnen wohl nicht zu sa<lb xml:id="p4-l6" break="no"/>gen, daß ich zudringlich sein oder der Frei<lb xml:id="p4-l7" break="no"/>heit Ihrer Entschließung Gewalt anthun
+<lb xml:id="p4-l8" break="no"/>zu wollen, weit entfernt bin. Vielleicht
+<lb xml:id="p4-l9" break="no"/>veranlaßt Sie aber der Inhalt dieses Schrei<lb xml:id="p4-l10" break="no"/>bens, meinen Antrag neuerdings in Er<lb xml:id="p4-l11" break="no"/>wägung zu ziehen &amp; mich mit einer neuen
+<lb xml:id="p4-l12" break="no"/>sachbezüglichen <rs>Mittheilung<ref type="letter" target="K_2432"/></rs> zu beehren. In
+<lb xml:id="p4-l13" break="no"/>Gewärtigung derselben &amp; die leise Hoffnung
+<lb xml:id="p4-l14" break="no"/>nährend, daß Sie sich vielleicht doch noch ent<lb xml:id="p4-l15" break="no"/>schließen können, die Leitung des Baues
+<lb xml:id="p4-l16" break="no"/>der <placeName key="Bözberg">Bötzberg</placeName>bahn zu übernehmen, unter<lb xml:id="p4-l17" break="no"/>lasse ich es geflissentlich, den jüngern Män<lb xml:id="p4-l18" break="no"/>nern nachzufragen, welche sie für geeig<lb xml:id="p4-l19" break="no"/>net &amp; geneigt halten, die fragliche Aufgabe
+<lb xml:id="p4-l20" break="no"/>zu übernehmen.
 </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2430_p4">
-                    <lb xml:id="p4-l21"/>In ausgezeichneter Hochachtung Ihr </p>
+        <p rend="indent" xml:id="K_2430_p4"><lb xml:id="p4-l21"/>In ausgezeichneter Hochachtung Ihr </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2430_p5">
-                    <lb xml:id="p4-l22"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2430_p5"><lb xml:id="p4-l22"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

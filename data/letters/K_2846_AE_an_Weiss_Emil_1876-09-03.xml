@@ -1,147 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2846" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Emil Weiss, Zürich, Sonntag, September 3, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Abschrift">
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#67*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Bundesrat</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Weiss Emil" type="addressee">Emil Weiss</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1876-09-03">Sonntag, September 3, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-06-30" who="BF">Transkription
-                
-            </change>
-            <change when="2013-08-21" who="SB">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="LH">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="1876-01-10" who="RH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="NS">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="CR">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-05-20" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="LH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-21" who="MA">Übertragung der Transkriptionsverifizierung gerprüft
-                
-            </change>
-            <change when="2014-04-09" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <note type="annotation">
-                <p rend="left" xml:id="K_2846_p1">
-                    <lb xml:id="p1-l1"/>Copie</p> </note>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2846" type="Brief" subtype="Abschrift"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Emil Weiss, Zürich, Sonntag, 03. September 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#67*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Bundesrat</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Weiss Emil" type="sender">Emil Weiss</persName><placeName>Zürich</placeName><date when="1876-09-03">03. September 1876</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="annotation"><p rend="left" xml:id="K_2846_p1"><lb xml:id="p1-l1"/>Copie</p> </div>
       <div type="dateline">
-        <p rend="right" xml:id="K_2846_p2">
-                    <lb xml:id="p1-l2"/>
+        <p rend="right" xml:id="K_2846_p2"><lb xml:id="p1-l2"/>
           <hi>
-            <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-                    </hi>, den <date when="1876-09-03">3. <hi>September</hi> 1876</date>.
+            <placeName key="Zürich (Stadt)">Zürich</placeName></hi>, den <date when="1876-09-03">3. <hi>September</hi> 1876</date>.
             </p>
-      </div>
-      <div type="address">
-        <p rend="center" xml:id="K_2846_p3">
-                    <lb xml:id="p1-l3"/>Herrn Direktor <hi>E. Weiss</hi> </p>
-        <p rend="right" xml:id="K_2846_p4">
-                    <lb xml:id="p1-l4"/>
-          <placeName type="place" key="Zürich (Stadt)">
-                        <hi>Zürich</hi>
-                    </placeName>.</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_2846_p5">
-                    <lb xml:id="p1-l5"/>Mein lieber Freund!</p>
+        <p rend="center" xml:id="K_2846_p3"><lb xml:id="p1-l3"/>Herrn Direktor <hi>E. Weiss</hi> </p>
+        <p rend="right" xml:id="K_2846_p4"><lb xml:id="p1-l4"/>
+          <placeName key="Zürich (Stadt)"><hi>Zürich</hi></placeName>.</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2846_p6">
-                <lb xml:id="p1-l6"/>Herr <persName type="person" key="Zschokke Peter Olivier">Zschokke</persName> hat mir die beiliegende Kritik des <persName type="person" key="Möller">Möller'schen</persName> <lb xml:id="p1-l7"/>und <persName type="person" key="Strupler J. A.">Strupler'schen</persName> Gutachtens übersandt. Ich stelle sie Ihnen mit der Bitte
-                <lb xml:id="p1-l8"/>zu, sie baldmöglichst Herrn Inspektor <persName type="person" key="Möller">Möller</persName> zu übermachen. Es scheint
-                <lb xml:id="p1-l9"/>mir angezeigt, daß Herr <persName type="person" key="Möller">Möller</persName>, ohne eine förmliche Aufforderung Seitens
-                <lb xml:id="p1-l10"/>der Direktion der Gotthardbahn abzuwarten, also von sich aus, eine Be<lb break="no" xml:id="p1-l11"/>leuchtung dieser <persName type="person" key="Zschokke Peter Olivier">Zschokke's</persName> Kritik der Direktion vorlege. Ich habe mir
-                <lb xml:id="p1-l12"/>gedacht, es dürfte noch eine solche zweite Arbeit des Herrn <persName type="person" key="Möller">Möller</persName> noth<lb break="no" xml:id="p1-l13"/>wendig werden, und es sind nur deshalb bis zur Stunde keine Schritte von 
-                <lb xml:id="p1-l14"/>mir gethan worden, um die Honorirung der ersten hier zu bewirken.
+      <div type="opener">
+        <p rend="center" xml:id="K_2846_p5"><lb xml:id="p1-l5"/>Mein lieber Freund!</p>
+      </div>
+    </front><body>
+      <p rend="indent" xml:id="K_2846_p6"><lb xml:id="p1-l6"/>Herr <persName key="Zschokke Peter Olivier">Zschokke</persName> hat mir die beiliegende Kritik des <persName key="Möller">Möller'schen</persName> <lb xml:id="p1-l7"/>und <persName key="Strupler J. A.">Strupler'schen</persName> Gutachtens übersandt. Ich stelle sie Ihnen mit der Bitte
+                <lb xml:id="p1-l8"/>zu, sie baldmöglichst Herrn Inspektor <persName key="Möller">Möller</persName> zu übermachen. Es scheint
+                <lb xml:id="p1-l9"/>mir angezeigt, daß Herr <persName key="Möller">Möller</persName>, ohne eine förmliche Aufforderung Seitens
+                <lb xml:id="p1-l10"/>der Direktion der Gotthardbahn abzuwarten, also von sich aus, eine Be<lb xml:id="p1-l11" break="no"/>leuchtung dieser <persName key="Zschokke Peter Olivier">Zschokke's</persName> Kritik der Direktion vorlege. Ich habe mir
+                <lb xml:id="p1-l12" break="no"/>gedacht, es dürfte noch eine solche zweite Arbeit des Herrn <persName key="Möller">Möller</persName> noth<lb xml:id="p1-l13" break="no"/>wendig werden, und es sind nur deshalb bis zur Stunde keine Schritte von 
+                <lb xml:id="p1-l14" break="no"/>mir gethan worden, um die Honorirung der ersten hier zu bewirken.
             </p>
-      <p rend="indent" xml:id="K_2846_p7">
-                <lb xml:id="p1-l15"/>Sie hatten bisanhin die Güte, Mittheilungen, die ich nicht wohl
-                <lb xml:id="p1-l16"/>direkte von mir aus an Herrn <persName type="person" key="Möller">Möller</persName> gelange lassen konnte, von Ihnen aus
+      <p rend="indent" xml:id="K_2846_p7"><lb xml:id="p1-l15"/>Sie hatten bisanhin die Güte, Mittheilungen, die ich nicht wohl
+                <lb xml:id="p1-l16"/>direkte von mir aus an Herrn <persName key="Möller">Möller</persName> gelange lassen konnte, von Ihnen aus
                 <lb xml:id="p1-l17"/>demselben zugehen zu lassen. Ich möchte Sie um die gleiche Gefälligkeit in
-                <lb xml:id="p1-l18"/>dem vorliegenden Falle bitten. Wenn Sie Herrn <persName type="person" key="Möller">Möller</persName> bei diesem
-                <lb xml:id="p1-l19"/>Anlaße zur Kenntniß bringen wollen, daß sein Gutachten in den maß<lb break="no" xml:id="p1-l20"/>gebenden Kreisen und speziell auch bei den Mitgliedern des Schweizerischen
-                <pb n="2"/>
-                    <lb xml:id="p2-l1"/>Bundesrathes großen Anklang gefunden habe, so geben Sie damit
-                <lb xml:id="p2-l2"/>lediglich der Wahrheit Zeugniß.
+                <lb xml:id="p1-l18"/>dem vorliegenden Falle bitten. Wenn Sie Herrn <persName key="Möller">Möller</persName> bei diesem
+                <lb xml:id="p1-l19"/>Anlaße zur Kenntniß bringen wollen, daß sein Gutachten in den maß<lb xml:id="p1-l20" break="no"/>gebenden Kreisen und speziell auch bei den Mitgliedern des Schweizerischen
+                <pb n="2"/><lb xml:id="p2-l1" break="no"/>Bundesrathes großen Anklang gefunden habe, so geben Sie damit
+                <lb xml:id="p2-l2" break="no"/>lediglich der Wahrheit Zeugniß.
             </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_2846_p8">
-                    <lb xml:id="p2-l3"/>Mit <choice>
-                        <abbr>
-                        <hi>etc.</hi> </abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice> <choice>
-                        <abbr>
-                        <hi>etc.</hi> </abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice>
-                </p>
+        <p rend="center" xml:id="K_2846_p8"><lb xml:id="p2-l3"/>Mit <choice><abbr><hi>etc.</hi> </abbr><expan>et cetera (und anderes)</expan></choice> <choice><abbr><hi>etc.</hi> </abbr><expan>et cetera (und anderes)</expan></choice></p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2846_p9">
-                    <lb xml:id="p2-l4"/>
-          <hi>sig. <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> A. Escher.</hi> <seg type="com">
-                        <note xml:id="K_2846_c1">Brieftext inklusive Unterschrift von dritter Hand.
-            </note>
-                    </seg> </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2846_p9"><lb xml:id="p2-l4"/>
+          <hi>sig. <choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> A. Escher.</hi> <note type="com" xml:id="K_2846_c1">Brieftext inklusive Unterschrift von dritter Hand.
+            </note> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

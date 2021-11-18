@@ -1,174 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_7111" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Charles-François Brot, Zürich, Dienstag, November 28, 1871</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Entwurf">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_014</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Bundesrat</item>
-                        <item>Bankinstitute</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Brot Charles-François" type="addressee">Charles-François Brot</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1871-11-28">Dienstag, November 28, 1871</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-02-24" who="NP">Transkription
-                
-            </change>
-            <change when="2014-07-08" who="SWK">Transkriptionsverifizierung T. Binder
-          umgesetzt
-                
-            </change>
-            <change when="2014-07-08" who="JS">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-09" who="OD">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-10" who="SG">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-14" who="LH">Übertragung der Transkriptionsverifizierung
-          geprüft
-                
-            </change>
-            <change when="2014-11-06" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-06" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2015-03-24" who="VP">Transkriptionsverifizierung Seiterle 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="left" xml:id="K_7111_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_7111_c0">Nachträgliche Notiz in der Mitte links auf Seite 1 von dritter Hand: <bibl>
-                                <hi>
-                                    <choice>
-                                        <abbr>Exp.</abbr>
-                                        <expan>Expedirt</expan>
-                                    </choice>
-                                </hi> <date when="1871-11-28">28/<hi>
-                                        <choice>
-                                            <abbr>Nov</abbr>
-                                            <expan>November</expan>
-                                        </choice>
-                                    </hi> 71</date>. | <persName type="person" key="Kaltbrunner David">DK</persName>
-                            </bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>1) Monsieur C. F. Brot
-                <lb xml:id="p1-l2"/>
-                    <hi rend="underline">à <placeName type="place" key="Mailand (I)">Milan</placeName>
-                    </hi> <lb xml:id="p1-l3"/>
-                    <del>2) Monsieur Angelo Uzielli
-        	<lb xml:id="p1-l4"/>à Livourne</del> <lb xml:id="p1-l5"/>2) Messieurs U. Geisser &amp; <choice>
-                        <abbr>C<hi rend="sup">ie</hi>
-                    </abbr>
-                        <expan>Compagnie (Gesellschaft)</expan>
-                    </choice> <lb xml:id="p1-l6"/>
-                    <hi rend="underline">à <placeName type="place" key="Turin (I)">Turin</placeName>
-                    </hi> <lb xml:id="p1-l7"/>3) Banca di <placeName type="place" key="Turin (I)">Torino</placeName> <lb xml:id="p1-l8"/>
-                    <seg type="com">
-                        <hi rend="underline">à <placeName type="place" key="Turin (I)">Turin</placeName>.</hi>
-                        <note xml:id="K_7111_c1">Adresse unten links auf Seite 1.</note>
-                    </seg> </p>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_7111" type="Brief" subtype="Entwurf"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Charles-François Brot, Zürich, Dienstag, 28. November 1871</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_014</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Bundesrat</term><term>Bankinstitute</term><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Brot Charles-François" type="sender">Charles-François Brot</persName><placeName>Zürich</placeName><date when="1871-11-28">28. November 1871</date></correspAction><correspAction type="received"><placeName>TurinMailand</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
+        <p rend="left" xml:id="K_7111_p1"> <note type="com" xml:id="K_7111_c0">Nachträgliche Notiz in der Mitte links auf Seite 1 von dritter Hand: <orig><hi><choice><abbr>Exp.</abbr><expan>Expedirt</expan></choice></hi> <date when="1871-11-28">28/<hi><choice><abbr>Nov</abbr><expan>November</expan></choice></hi> 71</date>. | <persName key="Kaltbrunner David">DK</persName></orig>.</note> <lb xml:id="p1-l1"/>1) Monsieur C. F. Brot
+                <lb xml:id="p1-l2"/><hi rend="underline">à <placeName key="Mailand (I)">Milan</placeName></hi> <lb xml:id="p1-l3"/><del>2) Monsieur Angelo Uzielli
+        	<lb xml:id="p1-l4"/>à Livourne</del> <lb xml:id="p1-l5"/>2) Messieurs U. Geisser &amp; <choice><abbr>C<hi rend="sup">ie</hi></abbr><expan>Compagnie (Gesellschaft)</expan></choice> <lb xml:id="p1-l6"/><hi rend="underline">à <placeName key="Turin (I)">Turin</placeName></hi> <lb xml:id="p1-l7"/>3) Banca di <placeName key="Turin (I)">Torino</placeName> <lb xml:id="p1-l8"/><hi rend="underline">à <placeName key="Turin (I)">Turin</placeName>.</hi><note type="com" xml:id="K_7111_c1">Adresse unten links auf Seite 1.</note> </p>
       </div>
       <div type="dateline">
-        <p rend="right" xml:id="K_7111_p2">
-                    <lb xml:id="p1-l9"/>
-          <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>, le <date when="1871-11-28">28 Novembre
+        <p rend="right" xml:id="K_7111_p2"><lb xml:id="p1-l9"/>
+          <placeName key="Zürich (Stadt)">Zurich</placeName>, le <date when="1871-11-28">28 Novembre
             1871</date>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_7111_p3">
-                    <lb xml:id="p1-l10"/>
-                    <choice>
-                        <abbr>M.</abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> </p>
+        <p rend="indent" xml:id="K_7111_p3"><lb xml:id="p1-l10"/><choice><abbr>M.</abbr><expan>Monsieur (Herr)</expan></choice> </p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_7111_p4">
         <lb xml:id="p1-l11"/>Le Conseil fédéral Suisse m'annonce que 
-        <lb xml:id="p1-l12"/>votre honorable....<metamark>*</metamark> <add xml:id="p1-l12-i1">
-                    <metamark>*</metamark> maison Banque</add> n'a pas encore effectué le 
+        <lb xml:id="p1-l12"/>votre honorable....<metamark>*</metamark> <add><metamark>*</metamark> maison Banque</add> n'a pas encore effectué le 
         <lb xml:id="p1-l13"/>dépôt de sa quote-part du cautionnement prévu par le 
         <lb xml:id="p1-l14"/>§ 18 de la Convention du <date when="1871-10-10">10 Octobre 1871</date> relative à
-        la forma<lb break="no" xml:id="p1-l15"/>tion du capital de construction pour le chemin de fer du 
-  <lb xml:id="p1-l16"/>
-                    <placeName type="place" key="St. Gotthard (Pass)">S. Gothard</placeName>. <del>J'ai d'autant plus bien d'en être surpris</del>
-                    <add>Je ne puis pas bien m'expliquer ce fait,
-          vu</add>
-                    <lb xml:id="p1-l17"/>que, dans la <seg type="ref">lettre<ref type="letter" target="K_7067"/>
-                </seg> que j'ai eu l'honneur de vous adresser 
- <lb xml:id="p1-l18"/>en date du....<metamark>*</metamark>
-                    <add xml:id="p1-l18-i1">
-                    <metamark>*</metamark> <date when="1871-11-09">9</date>
-                    <date when="1871-11-10">10.</date>
-                </add> courant, <del>j'avais</del>
-                    <add>j'attirais</add> expressément <del>attiré</del> votre 
-        <lb xml:id="p1-l19"/>attention sur ce point, avec la certitude que vous vous <lb xml:id="p1-l20"/>empresseriez <del>d'y</del> <add>de</add> satisfaire à cette obligation. </p>
-      <p rend="indent" xml:id="K_7111_p5">
-                <lb xml:id="p1-l21"/>Ne doutant pas que vous ne preniez vos mesures <lb xml:id="p1-l22"/>pour vous
+        la forma<lb xml:id="p1-l15" break="no"/>tion du capital de construction pour le chemin de fer du 
+  <lb xml:id="p1-l16" break="no"/><placeName key="St. Gotthard (Pass)">S. Gothard</placeName>. <del>J'ai d'autant plus bien d'en être surpris</del> <add>Je ne puis pas bien m'expliquer ce fait,
+          vu</add> <lb xml:id="p1-l17" break="no"/>que, dans la <rs>lettre<ref type="letter" target="K_7067"/></rs> que j'ai eu l'honneur de vous adresser 
+ <lb xml:id="p1-l18" break="no"/>en date du....<metamark>*</metamark> <add><metamark>*</metamark> <date when="1871-11-09">9</date><date when="1871-11-10">10.</date></add> courant, <del>j'avais</del> <add>j'attirais</add> expressément <del>attiré</del> votre 
+        <lb xml:id="p1-l19" break="no"/>attention sur ce point, avec la certitude que vous vous <lb xml:id="p1-l20" break="no"/>empresseriez <del>d'y</del> <add>de</add> satisfaire à cette obligation. </p>
+      <p rend="indent" xml:id="K_7111_p5"><lb xml:id="p1-l21"/>Ne doutant pas que vous ne preniez vos mesures <lb xml:id="p1-l22"/>pour vous
         mettre en règle sous ce rapport, j'ai l'avantage <lb xml:id="p1-l23"/>de vous informer que s'il
-        vous convenait d'effectuer le <lb xml:id="p1-l24"/>dépôt en titres de rente <placeName type="place" key="Italien (Königreich)">italienne</placeName> 5%, au cours du jour, <lb xml:id="p1-l25"/>vous
+        vous convenait d'effectuer le <lb xml:id="p1-l24"/>dépôt en titres de rente <placeName key="Italien (Königreich)">italienne</placeName> 5%, au cours du jour, <lb xml:id="p1-l25"/>vous
         pourriez, <del>soit transmettre ces titres à M. le Président <lb xml:id="p1-l26"/>du Conseil fédéral
             Suisse à Berne, soit</del> après en
-        avoir <lb xml:id="p1-l27"/>fait la demande au Conseil fédéral Suisse,– obtenir que <lb xml:id="p1-l28"/>ces titres soient déposés, <del>à un</del> en <placeName type="place" key="Italien (Königreich)">Italie</placeName>, entre les mains <lb xml:id="p1-l29"/>d'un tiers (<choice>
-                        <abbr>par
-        ex:</abbr>
-                        <expan>par exemple (zum Beispiel)</expan>
-                    </choice> à la Banca Nazionale nel Regno d'<placeName type="place" key="Italien (Königreich)">Italia</placeName>), <lb xml:id="p1-l30"/>sous le sceau et à la disposition de la Légation Suisse,
-          <lb xml:id="p1-l31"/>à charge pour vous <del>dans l'un comme dans l'autre cas,</del> <lb xml:id="p1-l32"/>de supporter les frais résultant de ce dépôt. <note type="transcript">Kustode: Dans</note>
-                <pb n="2"/>
-            </p>
-    </div>
-        </body>
-    <back>
+        avoir <lb xml:id="p1-l27"/>fait la demande au Conseil fédéral Suisse,– obtenir que <lb xml:id="p1-l28"/>ces titres soient déposés, <del>à un</del> en <placeName key="Italien (Königreich)">Italie</placeName>, entre les mains <lb xml:id="p1-l29"/>d'un tiers (<choice><abbr>par
+        ex:</abbr><expan>par exemple (zum Beispiel)</expan></choice> à la Banca Nazionale nel Regno d'<placeName key="Italien (Königreich)">Italia</placeName>), <lb xml:id="p1-l30"/>sous le sceau et à la disposition de la Légation Suisse,
+          <lb xml:id="p1-l31"/>à charge pour vous <del>dans l'un comme dans l'autre cas,</del> <lb xml:id="p1-l32"/>de supporter les frais résultant de ce dépôt. <note type="transcript">Kustode: Dans</note><pb n="2"/></p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_7111_p6">
-                    <lb xml:id="p2-l1"/>Dans l'attente de vos obligeantes <seg type="ref">communications<ref type="letter" target="K_7114"/>
-                    </seg> <lb xml:id="p2-l2"/>et avis du règlement de cette affaire, j'ai
-          l'honneur de <lb xml:id="p2-l3"/>vous réitérer, <choice>
-                        <abbr>M.</abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice>..., l'assurance de ma considé<lb break="no" xml:id="p2-l4"/>ration distinguée. </p>
-        <p rend="indent" xml:id="K_7111_p7">
-                    <lb xml:id="p2-l5"/>Le Représentant du Comité de la Réunion <lb xml:id="p2-l6"/>des Cantons et des
+        <p rend="indent" xml:id="K_7111_p6"><lb xml:id="p2-l1"/>Dans l'attente de vos obligeantes <rs>communications<ref type="letter" target="K_7114"/></rs> <lb xml:id="p2-l2"/>et avis du règlement de cette affaire, j'ai
+          l'honneur de <lb xml:id="p2-l3"/>vous réitérer, <choice><abbr>M.</abbr><expan>Monsieur (Herr)</expan></choice>..., l'assurance de ma considé<lb xml:id="p2-l4" break="no"/>ration distinguée. </p>
+        <p rend="indent" xml:id="K_7111_p7"><lb xml:id="p2-l5"/>Le Représentant du Comité de la Réunion <lb xml:id="p2-l6"/>des Cantons et des
           Compagnies Suisses de Chemins de fer, <lb xml:id="p2-l7"/>promotrice d'une voie ferrée par le
-            <placeName type="place" key="St. Gotthard (Pass)">S. Gothard</placeName>: </p>
+            <placeName key="St. Gotthard (Pass)">S. Gothard</placeName>: </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

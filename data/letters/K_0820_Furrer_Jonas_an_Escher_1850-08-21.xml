@@ -1,199 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0820" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jonas Furrer an Alfred Escher, Bern, Mittwoch, August 21, 1850</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#220*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Bewerbungen/Empfehlungen/Referenzen</item>
-                        <item>Eisenbahngesetze</item>
-                        <item>Währungssystem</item>
-                        <item>Rechtliches</item>
-                        <item>Bankwesen (allgemein)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Furrer Jonas" type="sender">Jonas Furrer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1850-08-21">Mittwoch, August 21, 1850</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-05-11" who="BF">Transkribiert 
-                
-            </change>
-            <change when="05-11-04" who="BF">Auszüge verifiziert 
-                
-            </change>
-            <change when="Mai&#xA;          2009" who="swissedit, UR">von Word nach XML konvertiert 
-                
-            </change>
-            <change when="2010-04-08" who="SW">XML bereinigt
-                
-            </change>
-            <change when="2010-04-08" who="SW">Metadaten vervollständigt
-                
-            </change>
-            <change when="2012-06-08" who="FM">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-14" who="TM">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2012&#xA;        -06-22" who="LM "> Migrationsverifikation umgesetzt
-                
-            </change>
-            <change when="2012-07-09" who="LM">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2012-09-04" who="CF">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2013-01-14" who="SW">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-01-18" who="JM">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2017-12-11" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0820" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jonas Furrer an Alfred Escher, Bern, Mittwoch, 21. August 1850</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#220*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Bewerbungen/Empfehlungen/Referenzen</term><term>Eisenbahngesetze</term><term>Währungssystem</term><term>Rechtliches</term><term>Bankwesen (allgemein)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Furrer Jonas" type="addressee">Jonas Furrer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1850-08-21">21. August 1850</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="right" xml:id="K_0820_p1">
                     <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Bern (Stadt)">
+          <placeName key="Bern (Stadt)">
                         <hi>Bern</hi>
-                    </placeName> den <date when="1850-08-21">21 <choice>
-                            <abbr>
-                            <hi>Aug.</hi> </abbr>
-                            <expan>August</expan>
-                        </choice> 1850</date>.</p>
+                    </placeName> den <date when="1850-08-21">21 <choice><abbr>
+                            <hi>Aug.</hi> </abbr><expan>August</expan></choice> 1850</date>.</p>
       </div><!--Leerer Absatz-->
       <div type="opener">
         <p rend="indent" xml:id="K_0820_p2">
                     <lb xml:id="p1-l2"/>Lieber Freund!</p>
       </div><!--Leerer Absatz-->
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_0820_p3">
                 <lb xml:id="p1-l3"/>Dein letztes<!-- <r>--> Schreiben<!--<ref type="letter" target="?"/></r> -->, dessen Inhalt
-        ich nur billigen kann,<lb xml:id="p1-l4"/> theilte ich dem <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Naeff Wilhelm Matthias">Näf</persName> mit. Er erklärte,
-        daß er sich nun noch<lb xml:id="p1-l5"/> einige Tage besinnen wolle <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice>
-        daß er auch an den <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Reinhard-Hess Kaspar">Reinhard-Heß</persName> <lb xml:id="p1-l6"/> in <placeName type="place" key="Winterthur">Winterthur</placeName> denke. Ich weiß nun noch nicht, ob er schon eine
+        ich nur billigen kann,<lb xml:id="p1-l4"/> theilte ich dem <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Naeff Wilhelm Matthias">Näf</persName> mit. Er erklärte,
+        daß er sich nun noch<lb xml:id="p1-l5"/> einige Tage besinnen wolle <choice><abbr>u</abbr><expan>und</expan></choice>
+        daß er auch an den <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Reinhard-Hess Kaspar">Reinhard-Heß</persName> <lb xml:id="p1-l6"/> in <placeName key="Winterthur">Winterthur</placeName> denke. Ich weiß nun noch nicht, ob er schon eine
           Wahl<lb xml:id="p1-l7"/> getroffen hat.-</p>
       <p rend="indent" xml:id="K_0820_p4">
                 <lb xml:id="p1-l8"/>Deine Fragen, betreffend Finanzsachen, kann ich Dir leider<lb xml:id="p1-l9"/>
-        noch nicht beantworten, da mir <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Munzinger Josef">Munzinger</persName> eröffnete, er sey noch<lb xml:id="p1-l10"/> nicht im
+        noch nicht beantworten, da mir <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <persName key="Munzinger Josef">Munzinger</persName> eröffnete, er sey noch<lb xml:id="p1-l10"/> nicht im
         Falle mit einiger Sicherheit Auskunft zu ertheilen. Ich<lb xml:id="p1-l11"/> werde ihn von Zeit
-        zu Zeit daran erinnern <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> es dir mittheilen, sobald<lb xml:id="p1-l12"/>
+        zu Zeit daran erinnern <choice><abbr>u</abbr><expan>und</expan></choice> es dir mittheilen, sobald<lb xml:id="p1-l12"/>
         ich etwas näheres vernehmen kann.</p>
       <p rend="indent" xml:id="K_0820_p5">
                 <lb xml:id="p1-l13"/>
-        <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-        <persName type="person" key="Munzinger Josef">
-                    <hi>Munzinger</hi>
-                </persName> ist der Ansicht, ihr solltet euch
+        <choice><abbr>Hr</abbr><expan>Herr</expan></choice>
+        <persName key="Munzinger Josef"><hi>Munzinger</hi></persName> ist der Ansicht, ihr solltet euch
         so viel möglich hüten<lb xml:id="p1-l14"/> im Münzwesen jetzt Zwischenacte aufzuführen, weil
         dieses die Sachen<lb xml:id="p1-l15"/> sowohl für den Kanton als für den Bund nur compliciren.
           Hinsichtlich<lb xml:id="p1-l16"/> des erstern seyd ihr selbst am besten im Fall, dieses zu
-          beurtheilen;<lb xml:id="p1-l17"/> was aber den Bund betrifft, so will mir des <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <persName type="person" key="Munzinger Josef">
-                    <hi>M</hi>.<hi>s</hi>.</persName> Ansicht
+          beurtheilen;<lb xml:id="p1-l17"/> was aber den Bund betrifft, so will mir des <choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Munzinger Josef"><hi>M</hi>.<hi>s</hi>.</persName> Ansicht
         nicht <pb n="2"/>
                 <lb xml:id="p2-l1"/> einleuchten; denn ist die Sache von einzelnen Kantonen
         schon früher<lb xml:id="p2-l2"/> ins Reine gebracht, so scheint mir darin eine bedeutende
           Vorarbeit<lb xml:id="p2-l3"/> für den allgemeinen Zweck zu liegen. Mit dem Gehenlassen
-          werd<supplied>en</supplied> <lb xml:id="p2-l4"/> die Geschäfte <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> die Schwierigkeiten eben
+          werd<add>en</add> <lb xml:id="p2-l4"/> die Geschäfte <choice><abbr>u</abbr><expan>und</expan></choice> die Schwierigkeiten eben
         nicht beseitigt.</p>
       <p rend="indent" xml:id="K_0820_p6">
-                <lb xml:id="p2-l5"/>Dagegen scheinen mir die Bemerkungen in der <choice>
-                        <abbr>N. <placeName type="place" key="Zürich">Z.</placeName> Ztg</abbr>
-                        <expan>Neue Zürcher Zeitung</expan>
-                    </choice> über<lb xml:id="p2-l6"/> die <hi>Reduction</hi> des <placeName type="place" key="Zürich">Zürcher</placeName> Geldes in das <placeName type="place" key="Frankreich">Französische</placeName> Eure
-          vollste<lb xml:id="p2-l7"/> Aufmerksamkeit zu verdienen. Ich bin zwar kein Eingeweihter<lb xml:id="p2-l8"/> im Münzwesen <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> muß so ziemlich in <hi>verba magistri</hi>
+                <lb xml:id="p2-l5"/>Dagegen scheinen mir die Bemerkungen in der <choice><abbr>N. <placeName key="Zürich">Z.</placeName> Ztg</abbr><expan>Neue Zürcher Zeitung</expan></choice> über<lb xml:id="p2-l6"/> die <hi>Reduction</hi> des <placeName key="Zürich">Zürcher</placeName> Geldes in das <placeName key="Frankreich">Französische</placeName> Eure
+          vollste<lb xml:id="p2-l7"/> Aufmerksamkeit zu verdienen. Ich bin zwar kein Eingeweihter<lb xml:id="p2-l8"/> im Münzwesen <choice><abbr>u</abbr><expan>und</expan></choice> muß so ziemlich in <hi>verba magistri</hi>
           schwören.<lb xml:id="p2-l9"/> Allein ich finde, daß bedeutende Gefahr in dieser Sache liege
-          <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> ich<lb xml:id="p2-l10"/> bin überzeugt, Ihr werdet Euch zwei <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> dreimal besinnen, ehe ihr<lb xml:id="p2-l11"/> eine Werthung annehmt,
+          <choice><abbr>u</abbr><expan>und</expan></choice> ich<lb xml:id="p2-l10"/> bin überzeugt, Ihr werdet Euch zwei <choice><abbr>u</abbr><expan>und</expan></choice> dreimal besinnen, ehe ihr<lb xml:id="p2-l11"/> eine Werthung annehmt,
         welche für sämtliche <hi>Debitoren</hi> so drükend ist.</p>
       <p rend="indent" xml:id="K_0820_p7">
-                <lb xml:id="p2-l12"/>Neues weiß ich nicht. <persName type="person" key="Bollier Rudolf">
-                    <hi>Bollier</hi>
-                </persName> scheint abwesend zu seyn, da die<lb xml:id="p2-l13"/> Briefe <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <persName type="person" key="Benz Rudolf">Benz</persName> unterzeichnet
+                <lb xml:id="p2-l12"/>Neues weiß ich nicht. <persName key="Bollier Rudolf"><hi>Bollier</hi></persName> scheint abwesend zu seyn, da die<lb xml:id="p2-l13"/> Briefe <choice><abbr>v.</abbr><expan>von</expan></choice> <persName key="Benz Rudolf">Benz</persName> unterzeichnet
         sind.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="indent" xml:id="K_0820_p8">
                     <lb xml:id="p2-l14"/>
-          Freundschaftl<supplied>ich
-          </supplied> grüßend</p>
+          Freundschaftl<add>ich
+          </add> grüßend</p>
         <p rend="center" xml:id="K_0820_p9">
                     <lb xml:id="p2-l15"/>Dein</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="center" xml:id="K_0820_p10">
                     <lb xml:id="p2-l16"/>F J </p>
       </div><!-- Grußformel in Worddatei "getreppt" -->
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

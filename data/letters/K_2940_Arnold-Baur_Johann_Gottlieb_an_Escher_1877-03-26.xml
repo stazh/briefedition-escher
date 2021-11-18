@@ -1,201 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2940" n="279" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Gottlieb Arnold-Baur an Alfred Escher, Zürich, Montag, März 26, 1877</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#76*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Eisenbahngesellschaften Aktionärsbriefe</item>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Arnold-Baur Johann Gottlieb" type="sender">Johann Gottlieb Arnold-Baur</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1877-03-26">Montag, März 26, 1877</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-06-29" who="IM"> transkribiert
-                
-            </change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-10-26" who="MF">kommentiert provisorisch
-                
-            </change>
-            <change when="2006-12-07" who="SM">Konvertierung provisorisch nachbearbeitet
-                
-            </change>
-            <change when="2007-01-10" who="WB">Konvertierung nachbearbeitet (Indexierung fehlt)
-                
-            </change>
-            <change when="2007-02-06" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-03-14" who="MF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-04-10" who="MF">kommentiert 3
-                
-            </change>
-            <change when="2007-04-24" who="MF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-04-27" who="WB">indexiert
-                
-            </change>
-            <change when="2007-05-22" who="MF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-05-30" who="SK">Publikationsort angepasst
-                
-            </change>
-            <change when="2007-06-15" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-26" who="MF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-21" who="MF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2008-08-08" who="WB">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-20" who="BP">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-08" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-29" who="DG">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-02-10" who="MA">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-12-03" who="VP">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-12-03" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-12-03" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2940" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Gottlieb Arnold-Baur an Alfred Escher, Zürich, Montag, 26. März 1877</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Jung, Aufbruch, S. 296</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#76*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Eisenbahnen Finanzierung</term><term>Eisenbahngesellschaften Aktionärsbriefe</term><term>Gotthardbahnprojekt</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term> Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Arnold-Baur Johann Gottlieb" type="addressee">Johann Gottlieb Arnold-Baur</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1877-03-26">26. März 1877</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2940_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">
-                        <hi>Zürich</hi>
-                    </placeName>
+        <p rend="right" xml:id="K_2940_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)"><hi>Zürich</hi></placeName>
           <date when="1877-03-26">26. <hi>März</hi> 1877</date>. </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_2940_p2">
-                    <lb xml:id="p1-l2"/>Hochgeehrter Herr! </p>
+        <p rend="indent" xml:id="K_2940_p2"><lb xml:id="p1-l2"/>Hochgeehrter Herr! </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2940_p3">
-                <lb xml:id="p1-l3"/>Entschuldigen Sie <choice>
-                        <abbr>gefl.</abbr>
-                        <expan>gefällig</expan>
-                    </choice>, wenn ich mir<lb xml:id="p1-l4"/>
-erlaube, mit einigen Zeilen Sie zu be<lb break="no" xml:id="p1-l5"/>lästigen.</p>
-      <p rend="indent" xml:id="K_2940_p4">
-                <lb xml:id="p1-l6"/>Ich habe <choice>
-                        <abbr>s. Zt.</abbr>
-                        <expan>seiner Zeit</expan>
-                    </choice> meine unter großen Ent<lb break="no" xml:id="p1-l7"/>behrungen 
-gemachten Ersparnisse in<lb xml:id="p1-l8"/>
-                    <hi>Gotthardbahn</hi>
-                    <hi>Aktien</hi> angelegt, in der<lb xml:id="p1-l9"/>
-Hoffnung, mit denselben eine sichere <hi>Reserve</hi>
-                    <lb xml:id="p1-l10"/>
-für die Erziehung der Kinder zu haben.<lb xml:id="p1-l11"/>
-Leider bin ich nun in Folge der <seg type="com">Entwerthung<lb xml:id="p1-l12"/>
-  dieses Papiers<note xml:id="K_2940_c1">Der Geldkurs der Gotthardbahnaktie notierte am <date when="1877-03-26">26. März 1877</date> in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> bei <choice>
-                                <abbr>Fr.</abbr>
-                                <expan>Franken</expan>
-                            </choice> 227.50. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 27. März 1877. – Eine grafische Darstellung zur Entwicklung des Aktienkurses der Gotthardbahn-Gesellschaft von 1874 bis 1882 findet sich in
-    Jung, Escher. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 294.</note>
-                </seg> in einer peniblen Situation,<lb xml:id="p1-l13"/>
-deßhalb Sie anzufragen mir erlaube, ob<lb xml:id="p1-l14"/>
-ich nach Ihrem Dafürhalten <choice>
-                        <abbr>fragl.</abbr>
-                        <expan>fraglich</expan>
-                    </choice> Aktien<lb xml:id="p1-l15"/>
-noch zurückhalten &amp; wenn möglich auch die<lb xml:id="p1-l16"/>
-fernern Einzahlungen riskiren oder aber<lb xml:id="p1-l17"/>
-zum gegenwärtigen, wenn auch für mich<lb xml:id="p1-l18"/>
+    </front><body>
+      <p rend="indent" xml:id="K_2940_p3"><lb xml:id="p1-l3"/>Entschuldigen Sie <choice><abbr>gefl.</abbr><expan>gefällig</expan></choice>, wenn ich mir<lb xml:id="p1-l4"/>
+erlaube, mit einigen Zeilen Sie zu be<lb xml:id="p1-l5" break="no"/>lästigen.</p>
+      <p rend="indent" xml:id="K_2940_p4"><lb xml:id="p1-l6"/>Ich habe <choice><abbr>s. Zt.</abbr><expan>seiner Zeit</expan></choice> meine unter großen Ent<lb xml:id="p1-l7" break="no"/>behrungen 
+gemachten Ersparnisse in<lb xml:id="p1-l8" break="no"/><hi>Gotthardbahn</hi> <hi>Aktien</hi> angelegt, in der<lb xml:id="p1-l9" break="no"/>
+Hoffnung, mit denselben eine sichere <hi>Reserve</hi> <lb xml:id="p1-l10" break="no"/>
+für die Erziehung der Kinder zu haben.<lb xml:id="p1-l11" break="no"/>
+Leider bin ich nun in Folge der Entwerthung<lb xml:id="p1-l12"/>
+  dieses Papiers<note type="com" xml:id="K_2940_c1">Der Geldkurs der Gotthardbahnaktie notierte am <date when="1877-03-26">26. März 1877</date> in <placeName key="Zürich (Stadt)">Zürich</placeName> bei <choice><abbr>Fr.</abbr><expan>Franken</expan></choice> 227.50. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 27. März 1877. – Eine grafische Darstellung zur Entwicklung des Aktienkurses der Gotthardbahn-Gesellschaft von 1874 bis 1882 findet sich in
+    Jung, Escher. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Jung, Aufbruch</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 294.</note> in einer peniblen Situation,<lb xml:id="p1-l13" break="no"/>
+deßhalb Sie anzufragen mir erlaube, ob<lb xml:id="p1-l14" break="no"/>
+ich nach Ihrem Dafürhalten <choice><abbr>fragl.</abbr><expan>fraglich</expan></choice> Aktien<lb xml:id="p1-l15" break="no"/>
+noch zurückhalten &amp; wenn möglich auch die<lb xml:id="p1-l16" break="no"/>
+fernern Einzahlungen riskiren oder aber<lb xml:id="p1-l17" break="no"/>
+zum gegenwärtigen, wenn auch für mich<lb xml:id="p1-l18" break="no"/>
 sehr empfindlichen Cours absetzen soll. </p>
-      <p rend="indent" xml:id="K_2940_p5">
-                <lb xml:id="p1-l19"/>Durch <seg type="ref">ihren <choice>
-                            <abbr>gefl.</abbr>
-                            <expan>gefällig</expan>
-                        </choice> Rath<ref type="letter" target="K_2943"><!-- → Nr. 280--></ref>
-                </seg>, der mir einzig<lb xml:id="p1-l20"/>
+      <p rend="indent" xml:id="K_2940_p5"><lb xml:id="p1-l19"/>Durch <rs>ihren <choice><abbr>gefl.</abbr><expan>gefällig</expan></choice> Rath<ref type="letter" target="K_2943"><!-- → Nr. 280--></ref></rs>, der mir einzig<lb xml:id="p1-l20"/>
 noch maßgebend sein wird, würden Sie<lb xml:id="p1-l21"/>
 mich &amp; meine Familie zu größtem Danke<lb xml:id="p1-l22"/>
-verpflichten. <seg type="ref">
-                    <ref type="sum" target="Rekonstruktion_Gotthardbahn_p19">Weitere Aktionärsbriefe<!-- → Band 1, S. 400--></ref>
-                </seg> </p>
-    </div>
-        </body>
-    <back>
+verpflichten. <rs><ref type="sum" target="Rekonstruktion_Gotthardbahn_p19">Weitere Aktionärsbriefe<!-- → Band 1, S. 400--></ref></rs> </p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2940_p6">
-                    <lb xml:id="p1-l23"/>Ihr hochachtungsvoll ergebener</p>
+        <p rend="indent" xml:id="K_2940_p6"><lb xml:id="p1-l23"/>Ihr hochachtungsvoll ergebener</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2940_p7">
-                    <lb xml:id="p1-l24"/>
+      <div type="signature">
+        <p rend="right" xml:id="K_2940_p7"><lb xml:id="p1-l24"/>
           <hi>J. G. Arnold</hi>
         </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2940_p8">
-                    <lb xml:id="p1-l25"/>Gerechtigkeitsgasse 17.</p>
+      <div type="opener">
+        <p rend="right" xml:id="K_2940_p8"><lb xml:id="p1-l25"/>Gerechtigkeitsgasse 17.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

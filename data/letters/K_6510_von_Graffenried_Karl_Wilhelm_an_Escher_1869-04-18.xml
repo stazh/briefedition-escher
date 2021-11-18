@@ -1,188 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6510" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Karl Wilhelm von Graffenried an Alfred Escher, Bellmund, Sonntag, April 18, 1869</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_014</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Bankinstitute</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Graffenried Karl Wilhelm von" type="sender">Karl Wilhelm von Graffenried</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bellmund</placeName>
-                    <date when="1869-04-18">Sonntag, April 18, 1869</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-03-27" who="FM">transkribiert
-                
-            </change>
-            <change when="2014-06-26" who="XR">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-01" who="MB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-07" who="SG">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-07" who="SWK">Transkriptionsverifizierung T. Binder
-          umgesetzt
-                
-            </change>
-            <change when="2014-07-11" who="IB">Übertragung der Transkriptionsverifizierung
-          geprüft
-                
-            </change>
-            <change when="2014-09-24" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-09-24" who="LB">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="address">
-        <p rend="left" xml:id="K_6510_p1">
-                    <lb xml:id="p1-l1"/>
-          <choice>
-                        <abbr>MHHerrn</abbr>
-                        <expan>Meinem Hohen Herrn</expan>
-                    </choice>
-                 Präsidenten <hi>
-                        <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> A. Escher</hi>,
-                <lb xml:id="p1-l2"/>
-                    <hi>
-                        <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-                    </hi>. <seg type="com">
-                        <note xml:id="K_6510_c1">Adresse unten links auf Seite 1.</note>
-                    </seg> </p>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6510" type="Brief"><teiHeader><fileDesc><titleStmt><title>Karl Wilhelm von Graffenried an Alfred Escher, Bellmund, Sonntag, 18. April 1869</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_014</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Eisenbahnen Finanzierung</term><term>Bankinstitute</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Graffenried Karl Wilhelm von" type="addressee">Karl Wilhelm von Graffenried</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bellmund</placeName><date when="1869-04-18">18. April 1869</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      <div type="opener">
+        <p rend="left" xml:id="K_6510_p1"><lb xml:id="p1-l1"/>
+          <choice><abbr>MHHerrn</abbr><expan>Meinem Hohen Herrn</expan></choice>
+                 Präsidenten <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> A. Escher</hi>,
+                <lb xml:id="p1-l2"/><hi><placeName key="Zürich (Stadt)">Zürich</placeName></hi>. <note type="com" xml:id="K_6510_c1">Adresse unten links auf Seite 1.</note> </p>
       </div>
       <div type="dateline">
-        <p rend="right" xml:id="K_6510_p2">
-                    <lb xml:id="p1-l3"/>
+        <p rend="right" xml:id="K_6510_p2"><lb xml:id="p1-l3"/>
           <hi>
-            <placeName type="place" key="Bellmund (Bern)">Belmont</placeName>
-            <choice>
-                            <abbr>b.</abbr>
-                            <expan>bei</expan>
-                        </choice>
+            <placeName key="Bellmund (Bern)">Belmont</placeName>
+            <choice><abbr>b.</abbr><expan>bei</expan></choice>
           </hi>
-          <placeName type="place" key="Bern">
-                        <hi>Bern</hi>
-                    </placeName>, <date when="1869-04-18">18 <hi>April</hi>, 1869</date> </p>
+          <placeName key="Bern"><hi>Bern</hi></placeName>, <date when="1869-04-18">18 <hi>April</hi>, 1869</date> </p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_6510_p3">
-                    <lb xml:id="p1-l4"/>Hochgeachteter Herr Präsident,</p>
+        <p rend="left" xml:id="K_6510_p3"><lb xml:id="p1-l4"/>Hochgeachteter Herr Präsident,</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_6510_p4">
-                <lb xml:id="p1-l5"/>Ihrem Auftrage gemäß <lb xml:id="p1-l6"/>habe ich <date when="1869-04-14">letzen
-          Mittwoch</date> den in <hi>
-                    <placeName type="place" key="Bern (Stadt)">Bern</placeName> </hi> <lb xml:id="p1-l7"/>anwesenden Chef des Hauses <hi>Marcuard &amp; <choice>
-                            <abbr>Co</abbr>
-                            <expan>Compagnia / Compagnie / Company (Gesellschaft)</expan>
-                        </choice>
-                </hi>, <lb xml:id="p1-l8"/>Herrn <hi>
-                    <persName type="person" key="Marcuard Eugen">Eugen Marcuard</persName>
-                </hi>, in
-        confidentieller <lb xml:id="p1-l9"/>Weise angefragt, ob sein Haus zu dem <lb xml:id="p1-l10"/>
-                <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>consortium beizutreten geneigt <lb xml:id="p1-l11"/>wäre. </p>
-      <p rend="indent" xml:id="K_6510_p5">
-                <lb xml:id="p1-l12"/>Herr <hi>
-                    <persName type="person" key="Marcuard Eugen">Eugen
-            Marcuard</persName> </hi> erklärte <lb xml:id="p1-l13"/>mir zwar seine persönliche Bereit<lb break="no" xml:id="p1-l14"/>willigkeit, zu einer Betheiligung <lb xml:id="p1-l15"/>seines Hauses Hand zu
-        bieten: wollte <pb n="2"/>
-                    <lb xml:id="p2-l1"/>aber darüber vor der auf Ende <lb xml:id="p2-l2"/>letzter Woche vertagten Rückkehr des <lb xml:id="p2-l3"/>Herrn <persName type="person" key="Jenner Karl von">von <hi>Jenner</hi>
-                </persName> eine bestimmte
-          <lb xml:id="p2-l4"/>Antwort nicht abgeben. Herr <persName type="person" key="Jenner Karl von">von <lb xml:id="p2-l5"/>
-                    <hi>Jenner</hi>
-                </persName> nun, welchen ich sofort <lb xml:id="p2-l6"/>nach seiner Ankunft sprach, theilte <lb xml:id="p2-l7"/>mir mit, daß er die<!-- LB, 24ö.09.2014: geändert von daß es da -->
-        Angelegenheit <lb xml:id="p2-l8"/>mit <persName type="person" key="Marcuard Eugen">seinem Associe</persName> berathen habe, <lb xml:id="p2-l9"/>und den
-        Beitritt seines Hauses <lb xml:id="p2-l10"/>ablehnen zu müßen bedaure, <lb xml:id="p2-l11"/>da Herr
-            <hi>
-                    <persName type="person" key="Marcuard Eugen">Eugen Marcuard</persName> </hi>
-        mit <lb xml:id="p2-l12"/>Rücksicht auf seine Gesundheits<lb break="no" xml:id="p2-l13"/>verhältniße die
-        Theilnahme des <lb xml:id="p2-l14"/>Hauses an jedem Geschäfte von <lb xml:id="p2-l15"/>größerer
-        Tragweite und längerer <pb n="3"/>
-                    <lb xml:id="p3-l1"/>Dauer von der Hand weisen zu sollen <lb xml:id="p3-l2"/>glaube. Wie gewöhnlich schützte auch <lb xml:id="p3-l3"/>in diesem Falle Herr <persName type="person" key="Jenner Karl von">von <hi>Jenner</hi>
-                </persName> als <lb xml:id="p3-l4"/>Vorwand
-        seiner eigenen Abneigung <lb xml:id="p3-l5"/>die Gesundheit des Herrn <hi>
-                    <persName type="person" key="Marcuard Eugen">E. Marcuard</persName> </hi>
-                    <lb xml:id="p3-l6"/>vor. </p>
-      <p rend="indent" xml:id="K_6510_p6">
-                <lb xml:id="p3-l7"/>Herr von <hi>
-                    <persName type="person" key="Gonzenbach August von">Gonzenbach</persName>
-                </hi>, welcher mit <lb xml:id="p3-l8"/>meiner Anfrage beim Hause <hi>Marcuard</hi> <lb xml:id="p3-l9"/>einverstanden gewesen war, hält <lb xml:id="p3-l10"/>nun mit mir weitere Schritte bei <lb xml:id="p3-l11"/>anderen hiesigen Häusern für <lb xml:id="p3-l12"/>durchaus überflüßig, weil
+    </front><body>
+      <p rend="indent" xml:id="K_6510_p4"><lb xml:id="p1-l5"/>Ihrem Auftrage gemäß <lb xml:id="p1-l6"/>habe ich <date when="1869-04-14">letzen
+          Mittwoch</date> den in <hi><placeName key="Bern (Stadt)">Bern</placeName> </hi> <lb xml:id="p1-l7"/>anwesenden Chef des Hauses <hi>Marcuard &amp; <choice><abbr>Co</abbr><expan>Compagnia / Compagnie / Company (Gesellschaft)</expan></choice></hi>, <lb xml:id="p1-l8"/>Herrn <hi><persName key="Marcuard Eugen">Eugen Marcuard</persName></hi>, in
+        confidentieller <lb xml:id="p1-l9"/>Weise angefragt, ob sein Haus zu dem <lb xml:id="p1-l10"/><placeName key="St. Gotthard (Pass)">Gotthard</placeName>consortium beizutreten geneigt <lb xml:id="p1-l11"/>wäre. </p>
+      <p rend="indent" xml:id="K_6510_p5"><lb xml:id="p1-l12"/>Herr <hi><persName key="Marcuard Eugen">Eugen
+            Marcuard</persName> </hi> erklärte <lb xml:id="p1-l13"/>mir zwar seine persönliche Bereit<lb xml:id="p1-l14" break="no"/>willigkeit, zu einer Betheiligung <lb xml:id="p1-l15" break="no"/>seines Hauses Hand zu
+        bieten: wollte <pb n="2"/><lb xml:id="p2-l1" break="no"/>aber darüber vor der auf Ende <lb xml:id="p2-l2" break="no"/>letzter Woche vertagten Rückkehr des <lb xml:id="p2-l3" break="no"/>Herrn <persName key="Jenner Karl von">von <hi>Jenner</hi></persName> eine bestimmte
+          <lb xml:id="p2-l4" break="no"/>Antwort nicht abgeben. Herr <persName key="Jenner Karl von">von <lb xml:id="p2-l5"/><hi>Jenner</hi></persName> nun, welchen ich sofort <lb xml:id="p2-l6" break="no"/>nach seiner Ankunft sprach, theilte <lb xml:id="p2-l7" break="no"/>mir mit, daß er die<!-- LB, 24ö.09.2014: geändert von daß es da -->
+        Angelegenheit <lb xml:id="p2-l8" break="no"/>mit <persName key="Marcuard Eugen">seinem Associe</persName> berathen habe, <lb xml:id="p2-l9" break="no"/>und den
+        Beitritt seines Hauses <lb xml:id="p2-l10" break="no"/>ablehnen zu müßen bedaure, <lb xml:id="p2-l11" break="no"/>da Herr
+            <hi><persName key="Marcuard Eugen">Eugen Marcuard</persName> </hi>
+        mit <lb xml:id="p2-l12" break="no"/>Rücksicht auf seine Gesundheits<lb xml:id="p2-l13" break="no"/>verhältniße die
+        Theilnahme des <lb xml:id="p2-l14" break="no"/>Hauses an jedem Geschäfte von <lb xml:id="p2-l15" break="no"/>größerer
+        Tragweite und längerer <pb n="3"/><lb xml:id="p3-l1" break="no"/>Dauer von der Hand weisen zu sollen <lb xml:id="p3-l2" break="no"/>glaube. Wie gewöhnlich schützte auch <lb xml:id="p3-l3" break="no"/>in diesem Falle Herr <persName key="Jenner Karl von">von <hi>Jenner</hi></persName> als <lb xml:id="p3-l4" break="no"/>Vorwand
+        seiner eigenen Abneigung <lb xml:id="p3-l5" break="no"/>die Gesundheit des Herrn <hi><persName key="Marcuard Eugen">E. Marcuard</persName> </hi> <lb xml:id="p3-l6" break="no"/>vor. </p>
+      <p rend="indent" xml:id="K_6510_p6"><lb xml:id="p3-l7"/>Herr von <hi><persName key="Gonzenbach August von">Gonzenbach</persName></hi>, welcher mit <lb xml:id="p3-l8"/>meiner Anfrage beim Hause <hi>Marcuard</hi> <lb xml:id="p3-l9"/>einverstanden gewesen war, hält <lb xml:id="p3-l10"/>nun mit mir weitere Schritte bei <lb xml:id="p3-l11"/>anderen hiesigen Häusern für <lb xml:id="p3-l12"/>durchaus überflüßig, weil
         sicherlich <lb xml:id="p3-l13"/>erfolglos. Sollten Sie indeßen <lb xml:id="p3-l14"/>wünschen, daß
-        ich Solche noch versuche, <pb n="4"/>
-                <lb xml:id="p4-l1"/>so würde ich Ihre darauf bezüglichen
+        ich Solche noch versuche, <pb n="4"/><lb xml:id="p4-l1"/>so würde ich Ihre darauf bezüglichen
           <lb xml:id="p4-l2"/>gefälligen Weisungen gerne befolgen. </p>
-      <p rend="indent" xml:id="K_6510_p7">
-                <lb xml:id="p4-l3"/>Die Rückäußerung des Kantons <lb xml:id="p4-l4"/>
-                <hi>
-                    <placeName type="place" key="Bern">Bern</placeName> </hi> an den <hi>Bund</hi> scheint mir ebenso <lb xml:id="p4-l5"/>gefährlich gemeint als formlos zu <lb xml:id="p4-l6"/>sein. </p>
-      <p rend="indent" xml:id="K_6510_p8">
-                <lb xml:id="p4-l7"/>Ich bin sehr gespannt auf das <lb xml:id="p4-l8"/>Ergebniß der <date when="1869-04-18">heutigen</date> Abstimmung in <lb xml:id="p4-l9"/>
-                <hi>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-                </hi>, und stehe einem all<lb break="no" xml:id="p4-l10"/>fälligen Rufe des Herrn <choice>
-                        <abbr>
-                    <hi>Dir.</hi> </abbr>
-                        <expan>Direktor / Director</expan>
-                    </choice>
-                    <hi>
-                    <persName type="person" key="Stoll Georg">Stoll</persName> </hi>
-                    <lb xml:id="p4-l11"/>nach <hi>
-                    <placeName type="place" key="Berlin (D)">Berlin</placeName>
-                </hi> zur
+      <p rend="indent" xml:id="K_6510_p7"><lb xml:id="p4-l3"/>Die Rückäußerung des Kantons <lb xml:id="p4-l4"/><hi><placeName key="Bern">Bern</placeName> </hi> an den <hi>Bund</hi> scheint mir ebenso <lb xml:id="p4-l5"/>gefährlich gemeint als formlos zu <lb xml:id="p4-l6"/>sein. </p>
+      <p rend="indent" xml:id="K_6510_p8"><lb xml:id="p4-l7"/>Ich bin sehr gespannt auf das <lb xml:id="p4-l8"/>Ergebniß der <date when="1869-04-18">heutigen</date> Abstimmung in <lb xml:id="p4-l9"/><hi><placeName key="Zürich (Stadt)">Zürich</placeName></hi>, und stehe einem all<lb xml:id="p4-l10" break="no"/>fälligen Rufe des Herrn <choice><abbr><hi>Dir.</hi> </abbr><expan>Direktor / Director</expan></choice> <hi><persName key="Stoll Georg">Stoll</persName> </hi> <lb xml:id="p4-l11" break="no"/>nach <hi><placeName key="Berlin (D)">Berlin</placeName></hi> zur
         Verfügung. </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_6510_p9">
-                    <lb xml:id="p4-l12"/>Genehmigen Sie, hochgeachteter <lb xml:id="p4-l13"/>Herr Präsident, den
+        <p rend="indent" xml:id="K_6510_p9"><lb xml:id="p4-l12"/>Genehmigen Sie, hochgeachteter <lb xml:id="p4-l13"/>Herr Präsident, den
           Ausdruck <lb xml:id="p4-l14"/>meiner dankbaren Anhänglichkeit. </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_6510_p10">
-                    <lb xml:id="p4-l15"/>
+      <div type="signature">
+        <p rend="right" xml:id="K_6510_p10"><lb xml:id="p4-l15"/>
           <hi>Wilhelm von Graffenried</hi>
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

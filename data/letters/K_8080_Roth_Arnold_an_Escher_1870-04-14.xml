@@ -1,126 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8080" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Arnold Roth an Alfred Escher, Bern, Donnerstag, April 14, 1870</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_015</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Roth Arnold" type="sender">Arnold Roth</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1870-04-14">Donnerstag, April 14, 1870</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="XXXX-XX-XX" who="XY">transkribiert
-                
-            </change>
-            <change when="2014-06-06" who="IB">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-06-30" who="DG">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-02" who="SG">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-09" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-07-10" who="MA">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-08-28" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-08-28" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8080" type="Brief"><teiHeader><fileDesc><titleStmt><title>Arnold Roth an Alfred Escher, Bern, Donnerstag, 14. April 1870</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_015</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Roth Arnold" type="addressee">Arnold Roth</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1870-04-14">14. April 1870</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_8080_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName>, den <date when="1870-04-14">14. April 1870</date>.</p>
+        <p rend="right" xml:id="K_8080_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Bern (Stadt)">Bern</placeName>, den <date when="1870-04-14">14. April 1870</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_8080_p2">
-                    <lb xml:id="p1-l2"/>Hochgeachteter Herr Präsident.</p>
+        <p rend="left" xml:id="K_8080_p2"><lb xml:id="p1-l2"/>Hochgeachteter Herr Präsident.</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_8080_p3">
-                <lb xml:id="p1-l3"/>
-         Im Auftrage des <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice> Bundepräsident <persName type="person" key="Dubs Jakob">Dubs</persName> <lb xml:id="p1-l4"/>beehre ich mich, Ihnen beigeschlossen das Protokoll über ihre <placeName type="place" key="Berlin (D)">Berliner</placeName> <lb xml:id="p1-l5"/>
-        Unterhandlungen, wovon er, sowie die  <choice>
-                        <abbr>H.H.</abbr>
-                        <expan>Herren</expan>
-                    </choice> Bundesräthe <persName type="person" key="Schenk Karl">Schenk</persName> und
-       <lb xml:id="p1-l6"/>
-                <persName type="person" key="Welti Emil">Welti</persName> Einsicht genommen, zurückzusenden.
+    </front><body>
+      <p rend="indent" xml:id="K_8080_p3"><lb xml:id="p1-l3"/>
+         Im Auftrage des <choice><abbr>H.</abbr><expan>Herr</expan></choice> Bundepräsident <persName key="Dubs Jakob">Dubs</persName> <lb xml:id="p1-l4"/>beehre ich mich, Ihnen beigeschlossen das Protokoll über ihre <placeName key="Berlin (D)">Berliner</placeName> <lb xml:id="p1-l5"/>
+        Unterhandlungen, wovon er, sowie die  <choice><abbr>H.H.</abbr><expan>Herren</expan></choice> Bundesräthe <persName key="Schenk Karl">Schenk</persName> und
+       <lb xml:id="p1-l6"/><persName key="Welti Emil">Welti</persName> Einsicht genommen, zurückzusenden.
        <lb xml:id="p1-l7"/>Indem ich Ihnen gleichzeitig im Namen der Genannten die Mitteilungen dieses
         
 <lb xml:id="p1-l8"/>interessanten Aktenstükes<note type="transcript">sic!</note> verdanke, verbleibe ich mit der Versicherung meiner
         
 <lb xml:id="p1-l9"/>ausgezeichneten Hochachtung</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="right" xml:id="K_8080_p4">
-                    <lb xml:id="p1-l10"/>Ihr ergebener </p>
+        <p rend="right" xml:id="K_8080_p4"><lb xml:id="p1-l10"/>Ihr ergebener </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_8080_p5">
-                    <lb xml:id="p1-l11"/>Roth.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_8080_p5"><lb xml:id="p1-l11"/>Roth.</p>
       </div>
-      <p rend="right" xml:id="K_8080_p6">
-                <lb xml:id="p1-l12"/>Secretär des <choice>
-                    <abbr>pol.</abbr>
-                    <expan>politisch</expan>
-                </choice> <choice>
-                    <abbr>Dept<hi rend="sup">s</hi> </abbr>
-                    <expan>Departements</expan>
-                </choice>
-            </p>
-      <p rend="left" xml:id="K_8080_p7">
-                <lb xml:id="p1-l13"/>Herrn<choice>
-                    <abbr>D<hi rend="sup">r</hi> </abbr>
-                    <expan>Doktor / Doctor</expan>
-                </choice> A. Escher, Präsident der Nordostbahn-Direction</p>
-      <p rend="center" xml:id="K_8080_p8">
-                <lb xml:id="p1-l14"/>
-        <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+      <p rend="right" xml:id="K_8080_p6"><lb xml:id="p1-l12"/>Secretär des <choice><abbr>pol.</abbr><expan>politisch</expan></choice> <choice><abbr>Dept<hi rend="sup">s</hi> </abbr><expan>Departements</expan></choice></p>
+      <p rend="left" xml:id="K_8080_p7"><lb xml:id="p1-l13"/>Herrn<choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> A. Escher, Präsident der Nordostbahn-Direction</p>
+      <p rend="center" xml:id="K_8080_p8"><lb xml:id="p1-l14"/>
+        <placeName key="Zürich (Stadt)">Zürich</placeName>
       </p>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,179 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0823" n="48" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Ludwig Snell an Alfred Escher, Küsnacht (ZH), Montag, September 2, 1850</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#457*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Regierungsrat BE</item>
-                        <item>Liberale Presse</item>
-                        <item>Parteienstreitigkeiten</item>
-                        <item>Personelle Angelegenheiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Snell Ludwig" type="sender">Ludwig Snell</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Küsnacht (ZH)</placeName>
-                    <date when="1850-09-02">Montag, September 2, 1850</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-10-13" who="MW">transkribiert 
-                
-            </change>
-            <change when="2009-10-27" who="SW">von Word nach XML konvertiert
-        
-                
-            </change>
-            <change when="2010-04-07" who="SW">Transkriptionsverifizierung T. Binder
-          umgesetzt
-                
-            </change>
-            <change when="2010-04-08" who="SW">Provisorisch kommentiert
-                
-            </change>
-            <change when="2010-07-08" who="SW">Korrekturen 1 Haberthür
-        umgesetzt
-                
-            </change>
-            <change when="2011-04-13" who="SW">Korrekturen 2 Haberthür
-        umgesetzt
-                
-            </change>
-            <change when="2011-08-30" who="SW">Korrekturen 3 Haberthür
-        übertragen
-                
-            </change>
-            <change when="2011-08-30" who="SW">Wochentag verifiziert
-                
-            </change>
-            <change when="2012-06-05" who="FM">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-15" who="GW">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-22" who="FM">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2012-06-27" who="AH">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2012-08-28" who="CF">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2012-12-11" who="SW">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2015-03-04" who="CA">e-Edition: Transkriptionsverifizierung Seiterle 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front><!--<printedheader><p id="K_0823_p1" rend="left"><lb id="p1-l1"/>BATH</p> </printedheader>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0823" type="Brief"><teiHeader><fileDesc><titleStmt><title>Ludwig Snell an Alfred Escher, Küsnacht (ZH), Montag, 02. September 1850</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#457*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Regierungsrat BE</term><term>Liberale Presse</term><term>Parteienstreitigkeiten</term><term>Personelle Angelegenheiten</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Snell Ludwig" type="addressee">Ludwig Snell</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Küsnacht (ZH)</placeName><date when="1850-09-02">02. September 1850</date></correspAction></correspDesc></profileDesc></teiHeader><text><front><!--<printedheader><p id="K_0823_p1" rend="left"><lb id="p1-l1"/>BATH</p> </printedheader>-->
       <div type="opener">
-        <p rend="center" xml:id="K_0823_p1">
-                    <lb xml:id="p1-l1"/>Verehrter Herr Bürgermeister!</p>
+        <p rend="center" xml:id="K_0823_p1"><lb xml:id="p1-l1"/>Verehrter Herr Bürgermeister!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_0823_p2">
-                <lb xml:id="p1-l2"/> Mit vielem Dank sende ich Ihnen das <seg type="com">Finanzbüchlein<note xml:id="K_0823_c1">Beim erwähnten Finanzbüchlein handelt es sich um eine von alt Regierungsrat und
-              Finanzdirektor <persName type="person" key="Stämpfli Jakob">Jakob Stämpfli</persName> im August
+    </front><body>
+      <p rend="indent" xml:id="K_0823_p2"><lb xml:id="p1-l2"/> Mit vielem Dank sende ich Ihnen das Finanzbüchlein<note type="com" xml:id="K_0823_c1">Beim erwähnten Finanzbüchlein handelt es sich um eine von alt Regierungsrat und
+              Finanzdirektor <persName key="Stämpfli Jakob">Jakob Stämpfli</persName> im August
             1850 publizierte Schrift. Er reagierte damit auf einen von der neuen Regierung
-            ausgearbeiteten und unter dem Volk verteilten Bericht über die <placeName type="place" key="Bern">Berner</placeName> Staatsfinanzen bei ihrem Amtsantritt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Stämpfli, Finanzbüchlein</ref>; <ref type="sum" target="Institutionen_Strukturen_Prozesse_p55"><!-- → S. 35--></ref>.</note>
-                </seg> <lb xml:id="p1-l3"/> zurück.
+            ausgearbeiteten und unter dem Volk verteilten Bericht über die <placeName key="Bern">Berner</placeName> Staatsfinanzen bei ihrem Amtsantritt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Stämpfli, Finanzbüchlein</ref>; <ref type="sum" target="Institutionen_Strukturen_Prozesse_p55"><!-- → S. 35--></ref>.</note> <lb xml:id="p1-l3"/> zurück.
         Ich fürchte indessen, daß alle Schriften der Art<lb xml:id="p1-l4"/> auf das, in ziemliche
-        Apathie versunkene <placeName type="place" key="Bern">Berner</placeName> Volk keinen<lb xml:id="p1-l5"/>
+        Apathie versunkene <placeName key="Bern">Berner</placeName> Volk keinen<lb xml:id="p1-l5"/>
         besondern Eindruck machen werden, bis die neue Regierung<lb xml:id="p1-l6"/> einen eklatanten
         Reaktionsschritt<!--<transcript>T. Binder hatte Raktionsschritt belassen</transcript> -->
         gethan hat. </p>
-      <p rend="indent" xml:id="K_0823_p3">
-                <lb xml:id="p1-l7"/> In Folge der Unterredung des H<supplied>err</supplied>n <seg type="ref">
-                    <persName type="person" key="Zollinger Heinrich">Seminardirektors</persName>
-                    <ref type="letter" target="K_0822">«Schweizerischer Republikaner»<!-- → Nr. 47--></ref>
-                </seg> <seg type="com">
-                    <note xml:id="K_0823_c2">
-                        <persName type="person" key="Zollinger Heinrich">Heinrich Zollinger</persName>
-            (1818–1859), Grossrat (<placeName type="place" key="Zürich">ZH</placeName>), Direktor des Lehrerseminars in <placeName type="place" key="Küsnacht (ZH)">Küsnacht</placeName>.</note>
-                </seg> <lb xml:id="p1-l8"/> mit <choice>
-                        <abbr>Hn</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <seg type="com">
-                    <persName type="person" key="Treichler Johann Jakob">
-                        <hi>Treichler</hi>
-                    </persName>
-                    <note xml:id="K_0823_c3">
-                        <persName type="person" key="Treichler Johann Jakob">Johann Jakob
-              Treichler</persName> (1822–1906), Grossrat und Kantonsprokurator (<placeName type="place" key="Zürich">ZH</placeName>). </note>
-                </seg> kann man,
+      <p rend="indent" xml:id="K_0823_p3"><lb xml:id="p1-l7"/> In Folge der Unterredung des H<add>err</add>n <rs><persName key="Zollinger Heinrich">Seminardirektors</persName><ref type="letter" target="K_0822">«Schweizerischer Republikaner»<!-- → Nr. 47--></ref></rs> <note type="com" xml:id="K_0823_c2"><persName key="Zollinger Heinrich">Heinrich Zollinger</persName>
+            (1818–1859), Grossrat (<placeName key="Zürich">ZH</placeName>), Direktor des Lehrerseminars in <placeName key="Küsnacht (ZH)">Küsnacht</placeName>.</note> <lb xml:id="p1-l8"/> mit <choice><abbr>Hn</abbr><expan>Herrn</expan></choice> <persName key="Treichler Johann Jakob"><hi>Treichler</hi></persName><note type="com" xml:id="K_0823_c3"><persName key="Treichler Johann Jakob">Johann Jakob
+              Treichler</persName> (1822–1906), Grossrat und Kantonsprokurator (<placeName key="Zürich">ZH</placeName>). </note> kann man,
         glaube ich, ziemlich sicher sein,<lb xml:id="p1-l9"/> daß seine Redaktion die alte Bahn
         einhalten und<lb xml:id="p1-l10"/> die Sozialfragen im Hintergrund bleiben werden. Und<lb xml:id="p1-l11"/> so, denke ich, läßt sich diese Fraktion leicht mit der<lb xml:id="p1-l12"/>
         Richtung der Gesammtpartei <note type="transcript">sic!</note> assimiliren. Zur Erreichung<lb xml:id="p1-l13"/> dieses Ziels will
-        ich gerne auch durch Beiträge mit<lb break="no" xml:id="p1-l14"/>wirken. Eine andere Frage ist
-        freilich, ob die<lb xml:id="p1-l15"/>
-                    <persName type="person" key="Treichler Johann Jakob">
-                    <hi>Treichlerische</hi>
-                </persName> Redaktion nicht schon von vornherein des<lb xml:id="p1-l16"/> gehörigen
-        Credits entbehrt oder beraubt wird. Dann<lb xml:id="p1-l17"/> ist freilich nicht viel zu machen.
-        Ich überzeuge mich<lb xml:id="p1-l18"/> mehr und mehr, daß die einschläfernde Publizistik<lb xml:id="p1-l19"/> der <choice>
-                        <abbr>N.<placeName type="place" key="Zürich">Z.</placeName>Z.</abbr>
-                        <expan>Neue Zürcher Zeitung</expan>
-                    </choice> ursächlich geschadet hat und ein tüchtiges<lb xml:id="p1-l20"/> liberales
-          <hi rend="underline">Partei</hi>blatt ein großes Bedürfniß ist.<lb xml:id="p1-l21"/> Wenn mein Besuch aus <placeName type="place" key="Deutschland">Deutschland</placeName> abgereist ist –<lb xml:id="p1-l22"/> was
-        hoffentlich in diesen Tagen geschieht – erlauben<lb xml:id="p1-l23"/> Sie mir, weiter darüber in
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> mit Ihnen<lb xml:id="p1-l24"/> zu
+        ich gerne auch durch Beiträge mit<lb xml:id="p1-l14" break="no"/>wirken. Eine andere Frage ist
+        freilich, ob die<lb xml:id="p1-l15" break="no"/><persName key="Treichler Johann Jakob"><hi>Treichlerische</hi></persName> Redaktion nicht schon von vornherein des<lb xml:id="p1-l16" break="no"/> gehörigen
+        Credits entbehrt oder beraubt wird. Dann<lb xml:id="p1-l17" break="no"/> ist freilich nicht viel zu machen.
+        Ich überzeuge mich<lb xml:id="p1-l18" break="no"/> mehr und mehr, daß die einschläfernde Publizistik<lb xml:id="p1-l19" break="no"/> der <choice><abbr>N.<placeName key="Zürich">Z.</placeName>Z.</abbr><expan>Neue Zürcher Zeitung</expan></choice> ursächlich geschadet hat und ein tüchtiges<lb xml:id="p1-l20" break="no"/> liberales
+          <hi rend="underline">Partei</hi>blatt ein großes Bedürfniß ist.<lb xml:id="p1-l21" break="no"/> Wenn mein Besuch aus <placeName key="Deutschland">Deutschland</placeName> abgereist ist –<lb xml:id="p1-l22" break="no"/> was
+        hoffentlich in diesen Tagen geschieht – erlauben<lb xml:id="p1-l23" break="no"/> Sie mir, weiter darüber in
+          <placeName key="Zürich (Stadt)">Zürich</placeName> mit Ihnen<lb xml:id="p1-l24" break="no"/> zu
         sprechen. </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_0823_p4">
-                    <lb xml:id="p1-l25"/>In der vollkommensten Hochachtung<lb xml:id="p1-l26"/> Ihr<lb xml:id="p1-l27"/>ergebenster</p>
+        <p rend="center" xml:id="K_0823_p4"><lb xml:id="p1-l25"/>In der vollkommensten Hochachtung<lb xml:id="p1-l26"/> Ihr<lb xml:id="p1-l27"/>ergebenster</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0823_p5">
-                    <lb xml:id="p1-l28"/>
-          <choice>
-                        <abbr>Dr.</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> Ludw. Snell.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_0823_p5"><lb xml:id="p1-l28"/>
+          <choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> Ludw. Snell.</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_0823_p6">
-                    <lb xml:id="p1-l29"/>
-          <placeName type="place" key="Küsnacht (ZH)">
-                        <hi>Küssnacht</hi>
-                    </placeName>, <date when="1850-09-02">2. <choice>
-                            <abbr>Sept.</abbr>
-                            <expan>September</expan>
-                        </choice> <lb xml:id="p1-l30"/> 1850</date> </p>
+        <p rend="left" xml:id="K_0823_p6"><lb xml:id="p1-l29"/>
+          <placeName key="Küsnacht (ZH)"><hi>Küssnacht</hi></placeName>, <date when="1850-09-02">2. <choice><abbr>Sept.</abbr><expan>September</expan></choice> <lb xml:id="p1-l30"/> 1850</date> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

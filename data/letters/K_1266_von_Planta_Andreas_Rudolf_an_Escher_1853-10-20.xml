@@ -1,269 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1266" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Andreas Rudolf von Planta an Alfred Escher, Chur, Donnerstag, Oktober 20, 1853</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#395*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Rechtliches</item>
-                        <item>Schweizerische Südostbahn (SOB)</item>
-                        <item>Lukmanierbahnprojekt</item>
-                        <item>Regierungsrat SG</item>
-                        <item>Grosser Rat SG</item>
-                        <item>Regierungsrat ZH</item>
-                        <item>Bözbergbahnprojekt</item>
-                        <item>Eisenbahnanschluss an ausländische Netze</item>
-                        <item>Eisenbahnen Bau und Technik</item>
-                        <item>Eisenbahnlinie Zürich–Basel</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Planta (Samedan) Andreas Rudolf von" type="sender">Andreas Rudolf von Planta</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Chur</placeName>
-                    <date when="1853-10-20">Donnerstag, Oktober 20, 1853</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-06-01" who="BF">transkribiert
-                
-            </change>
-            <change when="2013-00-00" who="BB">Migration nach XML
-                
-            </change>
-            <change when="2013-06-05" who="CD">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-08" who="MA">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-15" who="RO">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-07-23" who="CB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-08-20" who="SB">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2013-08-22" who="JS">Übertragung Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2013-10-28" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-10-30" who="BF">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front><!--<printedheader><p id="K_1266_p1" rend="left"><lb id="p1-l1"/>BATH</p> </printedheader>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1266" type="Brief"><teiHeader><fileDesc><titleStmt><title>Andreas Rudolf von Planta an Alfred Escher, Chur, Donnerstag, 20. Oktober [1853?]</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#395*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Finanzierung</term><term>Rechtliches</term><term>Schweizerische Südostbahn (SOB)</term><term>Lukmanierbahnprojekt</term><term>Regierungsrat SG</term><term>Grosser Rat SG</term><term>Regierungsrat ZH</term><term>Bözbergbahnprojekt</term><term>Eisenbahnanschluss an ausländische Netze</term><term>Eisenbahnen Bau und Technik</term><term>Eisenbahnlinie Zürich–Basel</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Planta (Samedan) Andreas Rudolf von" type="addressee">Andreas Rudolf von Planta</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Chur</placeName><date when="1853-10-20">20. Oktober [1853?]</date></correspAction></correspDesc></profileDesc></teiHeader><text><front><!--<printedheader><p id="K_1266_p1" rend="left"><lb id="p1-l1"/>BATH</p> </printedheader>-->
       <div type="opener">
-        <p rend="indent" xml:id="K_1266_p1">
-                    <lb xml:id="p1-l1"/>Hochgeehrter Herr &amp;
+        <p rend="indent" xml:id="K_1266_p1"><lb xml:id="p1-l1"/>Hochgeehrter Herr &amp;
         Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_1266_p2">
-                <lb xml:id="p1-l2"/>
-       <date when="1853-10-18">Vorgestern</date> haben wir offizielle Berichte von <placeName type="place" key="London (UK)">
-                    <hi>London</hi>
-                </placeName> <lb xml:id="p1-l3"/>erhalten, wonach unsre Capitalisten beschloßen <lb xml:id="p1-l4"/>haben, alle eingegangene
-        Verbindlichkeiten <lb xml:id="p1-l5"/>zu erfüllen sowohl bei der Südost- als <placeName type="place" key="Lukmanier (Pass)">
-                    <hi>Lucmanier</hi>
-                </placeName> <lb xml:id="p1-l6"/>bahn, namentlich auf <date when="1853-11-01">1<hi rend="sup">sten</hi> <choice>
-                            <abbr>Novb<hi rend="sup">r</hi> </abbr>
-                            <expan>November</expan>
-                        </choice>
-                </date> die 20% <lb xml:id="p1-l7"/>einzuzahlen und
-        sofort die Südostbahn in <lb xml:id="p1-l8"/>Angriff zu nehmen. Herr <supplied type="unclear">
-                    <persName type="person" key="Gurney John">
-                        <hi>Gurney</hi>
-                    </persName>
-                </supplied> &amp; <choice>
-                        <abbr>C<hi rend="sup">ie</hi> </abbr>
-                        <expan>Compagnie (Gesellschaft)</expan>
-                    </choice> sind sodann <lb xml:id="p1-l9"/>nach <placeName type="place" key="Turin (I)">
-                    <hi>Turin</hi>
-                </placeName> abgereist, um auch die <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName> <lb xml:id="p1-l10"/>Affaire definitiv zu ordnen. – Dem Prospectus <lb xml:id="p1-l11"/>und die eigentliche Actien<hi>emission</hi> en
+    </front><body>
+      <p rend="left" xml:id="K_1266_p2"><lb xml:id="p1-l2"/>
+       <date when="1853-10-18">Vorgestern</date> haben wir offizielle Berichte von <placeName key="London (UK)"><hi>London</hi></placeName> <lb xml:id="p1-l3"/>erhalten, wonach unsre Capitalisten beschloßen <lb xml:id="p1-l4"/>haben, alle eingegangene
+        Verbindlichkeiten <lb xml:id="p1-l5"/>zu erfüllen sowohl bei der Südost- als <placeName key="Lukmanier (Pass)"><hi>Lucmanier</hi></placeName> <lb xml:id="p1-l6"/>bahn, namentlich auf <date when="1853-11-01">1<hi rend="sup">sten</hi> <choice><abbr>Novb<hi rend="sup">r</hi> </abbr><expan>November</expan></choice></date> die 20% <lb xml:id="p1-l7"/>einzuzahlen und
+        sofort die Südostbahn in <lb xml:id="p1-l8"/>Angriff zu nehmen. Herr <add type="?"><persName key="Gurney John"><hi>Gurney</hi></persName></add> &amp; <choice><abbr>C<hi rend="sup">ie</hi> </abbr><expan>Compagnie (Gesellschaft)</expan></choice> sind sodann <lb xml:id="p1-l9"/>nach <placeName key="Turin (I)"><hi>Turin</hi></placeName> abgereist, um auch die <placeName key="Lukmanier (Pass)">Lukmanier</placeName> <lb xml:id="p1-l10"/>Affaire definitiv zu ordnen. – Dem Prospectus <lb xml:id="p1-l11"/>und die eigentliche Actien<hi>emission</hi> en
         Detail <lb xml:id="p1-l12"/>behalten sie sich auf später vor, dagegen werden <lb xml:id="p1-l13"/>die Haupthäuser ihr
         Actienquantum <hi>en gros</hi> <lb xml:id="p1-l14"/>anbringen und die statutarischen Verbindlichkeiten
-        <lb xml:id="p1-l15"/>übernehmen (Haftbarkeit bis auf 50% <choice>
-                        <abbr>usw.</abbr>
-                        <expan>und so weiter</expan>
-                    </choice>). <lb xml:id="p1-l16"/>Somit waren wir auf festem
+        <lb xml:id="p1-l15"/>übernehmen (Haftbarkeit bis auf 50% <choice><abbr>usw.</abbr><expan>und so weiter</expan></choice>). <lb xml:id="p1-l16"/>Somit waren wir auf festem
         Boden. – Denn da <lb xml:id="p1-l17"/>alle Actionairs noch jüngst sich zurückziehen konnten <lb xml:id="p1-l18"/>ohne es zu
         thun, so dürfen wir auf die
-        <lb xml:id="p1-l19"/>Einzahlung rechnen. –<pb n="2"/>
-            </p>
-      <p rend="indent" xml:id="K_1266_p3">
-                <lb xml:id="p2-l1"/>Seitens der Regierung von <placeName type="place" key="St. Gallen">St.
-          Gallen</placeName> ist <lb xml:id="p2-l2"/>uns dagegen vor <choice>
-                        <abbr>c<hi rend="sup">a</hi> </abbr>
-                        <expan>circa</expan>
-                    </choice> 5 bis 6 Tagen, ehe man <lb xml:id="p2-l3"/>dort
-        wußte, wie es in <placeName type="place" key="London (UK)">London</placeName> <supplied type="unclear">tönt</supplied> <lb xml:id="p2-l4"/>die Aufforderung zugekommen, allen groß <lb xml:id="p2-l5"/>räthlichen Bedingungen ein Genüge zu
-        leisten <lb xml:id="p2-l6"/>ansonsten man nicht einzahlen werde, <lb xml:id="p2-l7"/>namentlich aber nicht auf die <placeName type="place" key="Zürich">Zürcher</placeName> Bedin <lb xml:id="p2-l8"/>gungen einzutreten und den <placeName type="place" key="St. Gallen">st. gallischen</placeName> <lb xml:id="p2-l9"/>Interessen zuwider Verpflichtungen einzugehen <lb xml:id="p2-l10"/>
-                <choice>
-                        <abbr>usw.</abbr>
-                        <expan>und so weiter</expan>
-                    </choice> Wir haben
+        <lb xml:id="p1-l19"/>Einzahlung rechnen. –<pb n="2"/></p>
+      <p rend="indent" xml:id="K_1266_p3"><lb xml:id="p2-l1"/>Seitens der Regierung von <placeName key="St. Gallen">St.
+          Gallen</placeName> ist <lb xml:id="p2-l2"/>uns dagegen vor <choice><abbr>c<hi rend="sup">a</hi> </abbr><expan>circa</expan></choice> 5 bis 6 Tagen, ehe man <lb xml:id="p2-l3"/>dort
+        wußte, wie es in <placeName key="London (UK)">London</placeName> <add type="?">tönt</add> <lb xml:id="p2-l4"/>die Aufforderung zugekommen, allen groß <lb xml:id="p2-l5"/>räthlichen Bedingungen ein Genüge zu
+        leisten <lb xml:id="p2-l6"/>ansonsten man nicht einzahlen werde, <lb xml:id="p2-l7"/>namentlich aber nicht auf die <placeName key="Zürich">Zürcher</placeName> Bedin <lb xml:id="p2-l8"/>gungen einzutreten und den <placeName key="St. Gallen">st. gallischen</placeName> <lb xml:id="p2-l9"/>Interessen zuwider Verpflichtungen einzugehen <lb xml:id="p2-l10"/><choice><abbr>usw.</abbr><expan>und so weiter</expan></choice> Wir haben
         geantwortet, man habe <lb xml:id="p2-l11"/>uns zwei Bedingungen gestellt, die am <lb xml:id="p2-l12"/>Ende auch keine seien.
         Auf diese hatten <lb xml:id="p2-l13"/>wir mit Hinweisung auf die Statuten <lb xml:id="p2-l14"/>auf <del>baldige</del> sofortige Einzahlung
         gedrungen <lb xml:id="p2-l15"/>und im Übrigen den ausführenden Organen <lb xml:id="p2-l16"/>die definitive Antwort
         überlaßen. –</p>
-      <p rend="left" xml:id="K_1266_p4">
-                <lb xml:id="p2-l17"/>Weiteres habe man von uns nichts begehrt und <lb xml:id="p2-l18"/>wir
-        daher nichts concedirt, wie wir denn <lb xml:id="p2-l19"/>überhaupt <del>
-                    <supplied type="unclear">wieder</supplied>
-                </del> in Rechtsstreitigkeiten zwischen
+      <p rend="left" xml:id="K_1266_p4"><lb xml:id="p2-l17"/>Weiteres habe man von uns nichts begehrt und <lb xml:id="p2-l18"/>wir
+        daher nichts concedirt, wie wir denn <lb xml:id="p2-l19"/>überhaupt <del><add type="?">wieder</add></del> in Rechtsstreitigkeiten zwischen
         <lb xml:id="p2-l20"/>den beiden Kantonen dato nicht einzutreten
         <lb xml:id="p2-l21"/>aufgefordert seien, noch <del>diesfalls</del> nur
-        <lb xml:id="p2-l22"/>dazu <hi>engagirt</hi> hatten.<pb n="3"/>
-            </p>
-      <p rend="left" xml:id="K_1266_p5">
-                <lb xml:id="p3-l1"/>Wir rechneten daher auf die pünctliche Ein <lb xml:id="p3-l2"/>zahlung von allen Seiten
+        <lb xml:id="p2-l22"/>dazu <hi>engagirt</hi> hatten.<pb n="3"/></p>
+      <p rend="left" xml:id="K_1266_p5"><lb xml:id="p3-l1"/>Wir rechneten daher auf die pünctliche Ein <lb xml:id="p3-l2"/>zahlung von allen Seiten
         und <lb xml:id="p3-l3"/>damit <hi>punctum</hi>. – Seither ist nichts <lb xml:id="p3-l4"/>mehr angelangt. Es war offenbar ein
-        <lb xml:id="p3-l5"/>Schreckschuß. – <placeName type="place" key="Zürich">
-                    <hi rend="underline">Zürich</hi>
-                </placeName> kann sicherlich
+        <lb xml:id="p3-l5"/>Schreckschuß. – <placeName key="Zürich"><hi rend="underline">Zürich</hi></placeName> kann sicherlich
         <lb xml:id="p3-l6"/>diesen Machinationen gegenüber nicht <lb xml:id="p3-l7"/>besser operiren, als jezt sofort als
-        wircklicher <lb xml:id="p3-l8"/>
-                <hi>Actionair</hi> beizutreten. Mitt<supplied>le</supplied>lst <hi rend="underline">Constitui</hi> <lb xml:id="p3-l9"/>rung der Gesellschaft wird <placeName type="place" key="St. Gallen">St. Gallen</placeName> weitaus
-        <lb xml:id="p3-l10"/>am meisten paralysirt! Ihre Bedingungen, <lb xml:id="p3-l11"/>Ihr Hinhalten <choice>
-                        <abbr>usw</abbr>
-                        <expan>und so weiter</expan>
-                    </choice> führt
-        dagegen gewiß <lb xml:id="p3-l12"/>nur zu <hi rend="underline">vollkommenen</hi> Complicationen! <lb xml:id="p3-l13"/>Sie können <persName type="person" key="Hungerbühler Johann Matthias">Hungerbühler</persName> gar keinen größern
-        <lb xml:id="p3-l14"/>Dienst erweisen, als Angriffspuncte für <lb xml:id="p3-l15"/>
-                <supplied type="unclear">Häcken</supplied> aufzuwerfen. –
-        Wie die Sachen <hi rend="underline">jezt</hi> <lb xml:id="p3-l16"/>stehen ist ein definitives Beitreten und <lb xml:id="p3-l17"/>
-                <hi rend="underline">Einzahlen</hi> <hi>ergo</hi> Mitstimmen beim
+        wircklicher <lb xml:id="p3-l8"/><hi>Actionair</hi> beizutreten. Mitt<add>le</add>lst <hi rend="underline">Constitui</hi> <lb xml:id="p3-l9"/>rung der Gesellschaft wird <placeName key="St. Gallen">St. Gallen</placeName> weitaus
+        <lb xml:id="p3-l10"/>am meisten paralysirt! Ihre Bedingungen, <lb xml:id="p3-l11"/>Ihr Hinhalten <choice><abbr>usw</abbr><expan>und so weiter</expan></choice> führt
+        dagegen gewiß <lb xml:id="p3-l12"/>nur zu <hi rend="underline">vollkommenen</hi> Complicationen! <lb xml:id="p3-l13"/>Sie können <persName key="Hungerbühler Johann Matthias">Hungerbühler</persName> gar keinen größern
+        <lb xml:id="p3-l14"/>Dienst erweisen, als Angriffspuncte für <lb xml:id="p3-l15"/><add type="?">Häcken</add> aufzuwerfen. –
+        Wie die Sachen <hi rend="underline">jezt</hi> <lb xml:id="p3-l16"/>stehen ist ein definitives Beitreten und <lb xml:id="p3-l17"/><hi rend="underline">Einzahlen</hi> <hi>ergo</hi> Mitstimmen beim
         Unternehmen <lb xml:id="p3-l18"/>sicherlich das Allerpractischste das Sie thun können <lb xml:id="p3-l19"/>Damit schlagen
-        sie die <placeName type="place" key="Rhein">Rhein</placeName>linie und <persName type="person" key="Hungerbühler Johann Matthias">Hunger<lb break="no" xml:id="p3-l20"/>bühlers</persName> stratageme total nieder. –
-        Es wäre daher <lb xml:id="p3-l21"/>Jammerschade, wenn Sie vom <date when="1853-11-01">
-                    <hi rend="underline">1<hi rend="sup">sten</hi> Novb<hi rend="sup">r</hi>
-                    </hi>
-                </date> an nicht
-        <lb xml:id="p3-l22"/>zu uns gehörten! – <hi>Dixi et salvavi</hi> <lb xml:id="p3-l23"/>
-                <hi>animam meam</hi>!<note type="transcript">«Ich habe gesprochen und meine Seele gerettet.»
-          (Nach Ezechiel (Hesekiel) 3,19)</note> <pb n="4"/>
-            </p>
-      <p rend="left" xml:id="K_1266_p6">
-                <lb xml:id="p4-l1"/>Also das <placeName type="place" key="Olten">
-                    <hi>Oltener</hi>
-                </placeName>loch wäre veraccordirt! Da ist <lb xml:id="p4-l2"/>es bös mehr stopfen.<note type="transcript">?</note> –
-        Wenn der <placeName type="place" key="Bözberg">
-                    <hi>Bötzberg</hi>
-                </placeName> <lb xml:id="p4-l3"/>nicht zu Stande kommt gewinnt die <placeName type="place" key="Rhein">Rhein</placeName>linie
-        <lb xml:id="p4-l4"/>
-                <hi>via</hi> <placeName type="place" key="Friedrichshafen (D)">Friedrichshafen</placeName> und namentlich
-        <hi>via</hi> <lb xml:id="p4-l5"/>
-                <placeName type="place" key="Schaffhausen (Stadt)">Schaffhausen</placeName> etwas, denn über
-          <placeName type="place" key="Basel-Stadt">
-                    <hi>Basel</hi>
-                </placeName> und <lb xml:id="p4-l6"/>
-                <placeName type="place" key="Olten">
-                    <hi rend="underline">
-                        <hi>Olten</hi>
-                    </hi>
-                </placeName> nach <placeName type="place" key="Chur">
-                    <hi>Chur</hi>
-                </placeName> ist der Umweg zu groß;
-        die <lb xml:id="p4-l7"/>
-                <placeName type="place" key="Baden (Grossherzogtum)">Badenser</placeName> werden dagegen
-        möglichst weit <lb xml:id="p4-l8"/>auf ihrer Bahn die Güter führen <hi>ergo</hi> über <lb xml:id="p4-l9"/>
-                <placeName type="place" key="Waldshut (Waldshut-Tiengen, D)">Waldshut</placeName> hinaus gehen. – Deßhalb lebe ich des
-        Glaubens <lb xml:id="p4-l10"/>daß früher oder später doch <hi rend="underline">directe</hi> von <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> nach <lb xml:id="p4-l11"/>
-                <placeName type="place" key="Basel-Stadt">Basel</placeName> gedampft werden wird. Jedenfalls hoffe ich <lb xml:id="p4-l12"/>noch die erste Dividende der
-        Südostbahn auszu <lb xml:id="p4-l13"/>zahlen, ehe die <placeName type="place" key="Olten">
-                    <hi>Oltener</hi>
-                </placeName> eine
+        sie die <placeName key="Rhein">Rhein</placeName>linie und <persName key="Hungerbühler Johann Matthias">Hunger<lb xml:id="p3-l20" break="no"/>bühlers</persName> stratageme total nieder. –
+        Es wäre daher <lb xml:id="p3-l21"/>Jammerschade, wenn Sie vom <date when="1853-11-01"><hi rend="underline">1<hi rend="sup">sten</hi> Novb<hi rend="sup">r</hi></hi></date> an nicht
+        <lb xml:id="p3-l22"/>zu uns gehörten! – <hi>Dixi et salvavi</hi> <lb xml:id="p3-l23"/><hi>animam meam</hi>!<note type="transcript">«Ich habe gesprochen und meine Seele gerettet.»
+          (Nach Ezechiel (Hesekiel) 3,19)</note> <pb n="4"/></p>
+      <p rend="left" xml:id="K_1266_p6"><lb xml:id="p4-l1"/>Also das <placeName key="Olten"><hi>Oltener</hi></placeName>loch wäre veraccordirt! Da ist <lb xml:id="p4-l2"/>es bös mehr stopfen.<note type="transcript">?</note> –
+        Wenn der <placeName key="Bözberg"><hi>Bötzberg</hi></placeName> <lb xml:id="p4-l3"/>nicht zu Stande kommt gewinnt die <placeName key="Rhein">Rhein</placeName>linie
+        <lb xml:id="p4-l4"/><hi>via</hi> <placeName key="Friedrichshafen (D)">Friedrichshafen</placeName> und namentlich
+        <hi>via</hi> <lb xml:id="p4-l5"/><placeName key="Schaffhausen (Stadt)">Schaffhausen</placeName> etwas, denn über
+          <placeName key="Basel-Stadt"><hi>Basel</hi></placeName> und <lb xml:id="p4-l6"/><placeName key="Olten"><hi rend="underline"><hi>Olten</hi></hi></placeName> nach <placeName key="Chur"><hi>Chur</hi></placeName> ist der Umweg zu groß;
+        die <lb xml:id="p4-l7"/><placeName key="Baden (Grossherzogtum)">Badenser</placeName> werden dagegen
+        möglichst weit <lb xml:id="p4-l8"/>auf ihrer Bahn die Güter führen <hi>ergo</hi> über <lb xml:id="p4-l9"/><placeName key="Waldshut (Waldshut-Tiengen, D)">Waldshut</placeName> hinaus gehen. – Deßhalb lebe ich des
+        Glaubens <lb xml:id="p4-l10"/>daß früher oder später doch <hi rend="underline">directe</hi> von <placeName key="Zürich (Stadt)">Zürich</placeName> nach <lb xml:id="p4-l11"/><placeName key="Basel-Stadt">Basel</placeName> gedampft werden wird. Jedenfalls hoffe ich <lb xml:id="p4-l12"/>noch die erste Dividende der
+        Südostbahn auszu <lb xml:id="p4-l13"/>zahlen, ehe die <placeName key="Olten"><hi>Oltener</hi></placeName> eine
         Locomotive gesehen. <lb xml:id="p4-l14"/>Dieser Wunsch hat mich belebt seit der Zeit, wo die
-          <lb xml:id="p4-l15"/>
-                <choice>
-                        <abbr>eidgen.</abbr>
-                        <expan>eidgenössisch / eidgenößisch</expan>
-                    </choice> Commission uns <add>
-                    <placeName type="place" key="Graubünden">Bündner</placeName> </add>
+          <lb xml:id="p4-l15"/><choice><abbr>eidgen.</abbr><expan>eidgenössisch / eidgenößisch</expan></choice> Commission uns <add><placeName key="Graubünden">Bündner</placeName> </add>
         in 1<hi rend="sup">ster</hi> Linie mit 15jährigem <lb xml:id="p4-l16"/>Zusehen gestellt!! – Ob mein fernerer
-        Wunsch, im <lb xml:id="p4-l17"/>
-                <placeName type="place" key="Olten">
-                    <hi>Oltener</hi>
-                </placeName>loch mein Pferd einmal
+        Wunsch, im <lb xml:id="p4-l17"/><placeName key="Olten"><hi>Oltener</hi></placeName>loch mein Pferd einmal
           <hi rend="underline">weiden</hi> zu sehen sich <lb xml:id="p4-l18"/>ebenfalls erfüllen wird, weiß ich freilich nicht. <hi>Item
-        <lb xml:id="p4-l19"/>«suum cuique»</hi>, den <placeName type="place" key="Basel-Stadt">Baslern</placeName> ihre Sache, aber
-        dem <lb xml:id="p4-l20"/>
-                <placeName type="place" key="Ostschweiz">Osten</placeName> auch seine Zukunft. – In einem
+        <lb xml:id="p4-l19"/>«suum cuique»</hi>, den <placeName key="Basel-Stadt">Baslern</placeName> ihre Sache, aber
+        dem <lb xml:id="p4-l20"/><placeName key="Ostschweiz">Osten</placeName> auch seine Zukunft. – In einem
         Jahre wird <lb xml:id="p4-l21"/>sichs ungefahr herausstellen, wie weit es Jeder gebracht. <lb xml:id="p4-l22"/>Eines ist
-        sicher – der <hi rend="underline">sofortige</hi> Einsatz der <placeName type="place" key="Zürich">Zürcher</placeName>
+        sicher – der <hi rend="underline">sofortige</hi> Einsatz der <placeName key="Zürich">Zürcher</placeName>
         Million <lb xml:id="p4-l23"/>auf <date when="1853-11-01">1<hi rend="sup">sten</hi> <hi>November</hi> </date> wird sich lohnen!
    
-      Nun muß ich <lb xml:id="p4-l24"/>aber verreisen nach <placeName type="place" key="Reichenau (Tamins)">Reichenau</placeName> Sie eiligst noch
+      Nun muß ich <lb xml:id="p4-l24"/>aber verreisen nach <placeName key="Reichenau (Tamins)">Reichenau</placeName> Sie eiligst noch
           <lb xml:id="p4-l25"/>hochachtungsvoll grüßend von Ihrem</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="right" xml:id="K_1266_p7">
-                    <lb xml:id="p4-l26"/>
-          <supplied type="unclear">...</supplied>
+        <p rend="right" xml:id="K_1266_p7"><lb xml:id="p4-l26"/>
+          <add type="?">...</add>
         </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1266_p8">
-                    <lb xml:id="p4-l27"/>
+      <div type="signature">
+        <p rend="right" xml:id="K_1266_p8"><lb xml:id="p4-l27"/>
           <hi>A R v Planta</hi>
         </p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_1266_p9">
-                    <lb xml:id="p4-l28"/>
-          <placeName type="place" key="Chur">Chur</placeName> den <date when="1853-10-20">20sten <choice>
-                            <abbr>Octbr</abbr>
-                            <expan>October</expan>
-                        </choice> </date> <seg type="com">
-                        <note xml:id="K_1266_c1">Datierung gemäss Briefkontext.</note>
-                    </seg> </p>
+        <p rend="left" xml:id="K_1266_p9"><lb xml:id="p4-l28"/>
+          <placeName key="Chur">Chur</placeName> den <date when="1853-10-20">20sten <choice><abbr>Octbr</abbr><expan>October</expan></choice> </date> <note type="com" xml:id="K_1266_c1">Datierung gemäss Briefkontext.</note> </p>
       </div>
       <postscript>
-        <p rend="left" xml:id="K_1266_p10">
-                    <note type="transcript">Seite 4, Seitenrand links</note>
-          <lb xml:id="p4-l29"/>Zum Schluß der <choice>
-                        <abbr>schweiz.</abbr>
-                        <expan>schweizerisch</expan>
-                    </choice> Eisenbahn<hi>comödie</hi> reichen sich am<note type="transcript">sic</note> noch <placeName type="place" key="Basel-Stadt">
-                        <hi>Basel</hi>
-                    </placeName> und
-            <lb xml:id="p4-l30"/>
-                    <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> via <placeName type="place" key="Bözberg">
-                        <hi>Bötzberg</hi>
-                    </placeName> die Hand. – Ob in einem oder 10 Jahren? müßen wir
+        <p rend="left" xml:id="K_1266_p10"><note type="transcript">Seite 4, Seitenrand links</note>
+          <lb xml:id="p4-l29"/>Zum Schluß der <choice><abbr>schweiz.</abbr><expan>schweizerisch</expan></choice> Eisenbahn<hi>comödie</hi> reichen sich am<note type="transcript">sic</note> noch <placeName key="Basel-Stadt"><hi>Basel</hi></placeName> und
+            <lb xml:id="p4-l30"/><placeName key="Zürich (Stadt)">Zürich</placeName> via <placeName key="Bözberg"><hi>Bötzberg</hi></placeName> die Hand. – Ob in einem oder 10 Jahren? müßen wir
           gewärtigen.</p>
       </postscript>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,145 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8234" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jakob Kauffmann an Alfred Escher, Brugg (AG), Mittwoch, September 15, 1875</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB03_012</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Gutachten und Expertisen</item>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Gotthardtunnel</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Kauffmann Jakob" type="sender">Jakob Kauffmann</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Brugg (AG)</placeName>
-                    <date when="1875-09-15">Mittwoch, September 15, 1875</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-07-26" who="FG">transkribiert
-                
-            </change>
-            <change when="2013-07-29" who="SW">intern verifiziert
-                
-            </change>
-            <change when="2014-01-10" who="MB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-31" who="NS">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-02-11" who="MB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-06-04" who="IB">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2014-06-26" who="LH">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-11-17" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-17" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8234" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jakob Kauffmann an Alfred Escher, Brugg (AG), Mittwoch, 15. September 1875</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB03_012</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Gutachten und Expertisen</term><term>Gotthardbahn-Gesellschaft (GB)</term><term>Gotthardtunnel</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Kauffmann Jakob" type="addressee">Jakob Kauffmann</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Brugg (AG)</placeName><date when="1875-09-15">15. September 1875</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_8234_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_8234_c0">Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <bibl>Gotthardbahn | <date when="1875-09-21">21 <choice>
-                                        <abbr>SEP.</abbr>
-                                        <expan>SEPTEMBER</expan>
-                                    </choice> 1875</date>. | <choice>
-                                    <abbr>N<hi rend="sup">o</hi> </abbr>
-                                    <expan>Numero (Nummer)</expan>
-                                </choice> 5676.</bibl> – 
-          Nachträgliche Inhaltsangabe oben links von dritter Hand: <bibl>Einsendung der verlangten Rechnung für gelieferte Gutachten, | I <choice>
-                                    <abbr>Depart.</abbr>
-                                    <expan>Departement</expan>
-                                </choice> </bibl>
-          – Nachträgliche Notiz unten rechts von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1875-09-17">17. IX. 75</date>. <choice>
-                                    <abbr>N.</abbr>
-                                    <expan>Nummer</expan>
-                                </choice> 2453.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Brugg (AG)">
-                        <hi>Brugg</hi>
-                    </placeName> den <date when="1875-09-15">15<hi rend="sup">ten</hi> <hi>
-                            <choice>
-                                <abbr>Septbr</abbr>
-                                <expan>September</expan>
-                            </choice> </hi> 1875</date>.
+        <p rend="right" xml:id="K_8234_p1"> <note type="com" xml:id="K_8234_c0">Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <orig>Gotthardbahn | <date when="1875-09-21">21 <choice><abbr>SEP.</abbr><expan>SEPTEMBER</expan></choice> 1875</date>. | <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 5676.</orig> – 
+          Nachträgliche Inhaltsangabe oben links von dritter Hand: <orig>Einsendung der verlangten Rechnung für gelieferte Gutachten, | I <choice><abbr>Depart.</abbr><expan>Departement</expan></choice> </orig>
+          – Nachträgliche Notiz unten rechts von dritter Hand: <orig><choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1875-09-17">17. IX. 75</date>. <choice><abbr>N.</abbr><expan>Nummer</expan></choice> 2453.</orig> </note> <lb xml:id="p1-l1"/>
+          <placeName key="Brugg (AG)"><hi>Brugg</hi></placeName> den <date when="1875-09-15">15<hi rend="sup">ten</hi> <hi><choice><abbr>Septbr</abbr><expan>September</expan></choice> </hi> 1875</date>.
 					</p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_8234_p2">
-                    <lb xml:id="p1-l2"/>Herrn Präsidenten <hi>
-                        <choice>
-                            <abbr>Dr.</abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> A. Escher</hi> </p>
-        <p rend="right" xml:id="K_8234_p3">
-                    <lb xml:id="p1-l3"/>
+      <div type="opener">
+        <p rend="center" xml:id="K_8234_p2"><lb xml:id="p1-l2"/>Herrn Präsidenten <hi><choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> A. Escher</hi> </p>
+        <p rend="right" xml:id="K_8234_p3"><lb xml:id="p1-l3"/>
           <hi>
-            <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-                    </hi>.</p>
+            <placeName key="Zürich (Stadt)">Zürich</placeName></hi>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_8234_p4">
-                    <lb xml:id="p1-l4"/>Hochgeehrter Herr!</p>
+        <p rend="indent" xml:id="K_8234_p4"><lb xml:id="p1-l4"/>Hochgeehrter Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_8234_p5">
-                <lb xml:id="p1-l5"/>Aus Anlaß Ihrer verehrlichen Zuschrift vom
-				<lb xml:id="p1-l6"/>
-                <date when="1875-09-11">11</date>/<date when="1875-09-12">12 <choice>
-                            <abbr>d. M.</abbr>
-                            <expan>dieses Monats</expan>
-                        </choice> </date> erlaube ich mir Ihnen beiliegende Rechnung
+    </front><body>
+      <p rend="indent" xml:id="K_8234_p5"><lb xml:id="p1-l5"/>Aus Anlaß Ihrer verehrlichen Zuschrift vom
+				<lb xml:id="p1-l6"/><date when="1875-09-11">11</date>/<date when="1875-09-12">12 <choice><abbr>d. M.</abbr><expan>dieses Monats</expan></choice> </date> erlaube ich mir Ihnen beiliegende Rechnung
 				<lb xml:id="p1-l7"/>einzureichen.
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_8234_p6">
-                    <lb xml:id="p1-l8"/>Mit vollkommener Hochachtung
+        <p rend="indent" xml:id="K_8234_p6"><lb xml:id="p1-l8"/>Mit vollkommener Hochachtung
 		</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_8234_p7">
-                    <lb xml:id="p1-l9"/>J. Kauffmann.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_8234_p7"><lb xml:id="p1-l9"/>J. Kauffmann.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

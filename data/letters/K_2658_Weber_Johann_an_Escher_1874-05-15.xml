@@ -1,116 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2658" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Weber an Alfred Escher, Luzern, Freitag, Mai 15, 1874</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#61*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Personelle Angelegenheiten</item>
-                        <item>Rechtliches</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Weber Johann" type="sender">Johann Weber</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Luzern</placeName>
-                    <date when="1874-05-15">Freitag, Mai 15, 1874</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-06-28" who="SK">Transkription
-                
-            </change>
-            <change when="2013-08-19" who="JS">Migration nach XML umgesetzt
-                
-            </change>
-            <change when="2013-09-02" who="LH">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-08" who="RH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-09" who="IB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-14" who="NS">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-23" who="LH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-01-28" who="SWK">Übertragung Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-04-01" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-05-19" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_2658_p1">
-                    <lb xml:id="p1-l1"/>
-          <fw>Gotthardbahn.
-            <lb xml:id="p1-l2"/>DIRECTION.</fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2658" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Weber an Alfred Escher, Luzern, Freitag, 15. Mai 1874</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#61*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Personelle Angelegenheiten</term><term>Rechtliches</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Weber Johann" type="addressee">Johann Weber</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Luzern</placeName><date when="1874-05-15">15. Mai 1874</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_2658_p1"><lb xml:id="p1-l1"/>
+          <hi rend="printed">Gotthardbahn.
+            <lb xml:id="p1-l2"/>DIRECTION.</hi>
         </p>
-      </div>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_2658_p2">
-                    <lb xml:id="p1-l3"/>
-          <placeName type="place" key="Luzern (Stadt)">
-                        <hi>Luzern</hi>
-                    </placeName>
+        <p rend="right" xml:id="K_2658_p2"><lb xml:id="p1-l3"/>
+          <placeName key="Luzern (Stadt)"><hi>Luzern</hi></placeName>
           <date when="1874-05-15">15 <hi>Mai</hi> 1874</date>.</p>
       </div>
-      <div type="address">
-        <p rend="left" xml:id="K_2658_p3">
-                    <lb xml:id="p1-l4"/>	Herrn Präsident <choice>
-                        <abbr>
-                        <hi>Dr</hi>.</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> Alfred Escher in</p>
-        <p rend="right" xml:id="K_2658_p4">
-                    <hi rend="underline">
+      <div type="opener">
+        <p rend="left" xml:id="K_2658_p3"><lb xml:id="p1-l4"/>	Herrn Präsident <choice><abbr><hi>Dr</hi>.</abbr><expan>Doktor / Doctor</expan></choice> Alfred Escher in</p>
+        <p rend="right" xml:id="K_2658_p4"><hi rend="underline">
             <lb xml:id="p1-l5"/>
-            <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.</hi>
+            <placeName key="Zürich (Stadt)">Zürich</placeName>.</hi>
         </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2658_p5">
-                <lb xml:id="p1-l6"/>Beehre mich Ihnen mitfolgend eine Abschrift
-            <lb xml:id="p1-l7"/>des Vertrages mit Herrn <persName type="person" key="Neumann">
-                    <hi>Neumann</hi>
-                </persName> zu übersenden mit
-            <lb xml:id="p1-l8"/>dem dringenden Wunsch die redaktionellen Abaenderungs<lb break="no" xml:id="p1-l9"/>anträge auf ein Minimum beschränken zu wollen &amp;
-            <lb xml:id="p1-l10"/>zwar aus folgenden Gründen.</p>
-      <p rend="indent" xml:id="K_2658_p6">
-                <lb xml:id="p1-l11"/>Als Herr <persName type="person" key="Neumann">Neumann</persName> am <date when="1874-05-13">lezten<note type="transcript">sic!</note> Mitwoch<note type="transcript">sic!</note> </date> in hier
+    </front><body>
+      <p rend="indent" xml:id="K_2658_p5"><lb xml:id="p1-l6"/>Beehre mich Ihnen mitfolgend eine Abschrift
+            <lb xml:id="p1-l7"/>des Vertrages mit Herrn <persName key="Neumann"><hi>Neumann</hi></persName> zu übersenden mit
+            <lb xml:id="p1-l8"/>dem dringenden Wunsch die redaktionellen Abaenderungs<lb xml:id="p1-l9" break="no"/>anträge auf ein Minimum beschränken zu wollen &amp;
+            <lb xml:id="p1-l10" break="no"/>zwar aus folgenden Gründen.</p>
+      <p rend="indent" xml:id="K_2658_p6"><lb xml:id="p1-l11"/>Als Herr <persName key="Neumann">Neumann</persName> am <date when="1874-05-13">lezten<note type="transcript">sic!</note> Mitwoch<note type="transcript">sic!</note> </date> in hier
                 <lb xml:id="p1-l12"/>anlangte war er sehr verschüchtert, ich habe mich im
                 <lb xml:id="p1-l13"/>Verlauf des Gespräches überzeugen müssen, daß <add>seit</add> seinem
                 <lb xml:id="p1-l14"/>ersten Hiersein Unkraut gesaet wurde – von woher
@@ -118,34 +31,24 @@
                 <lb xml:id="p1-l16"/>fatale Meinung beizubringen über die Behandlung,
                 <lb xml:id="p1-l17"/>welche die Gotthardbahnverwaltung ihren Beamten und
                 <lb xml:id="p1-l18"/>Angestellten zu theil werden lasse. – Im Laufe der
-                <lb xml:id="p1-l19"/>Verhandlungen hat er dann wieder Vertrauen ge<lb break="no" xml:id="p1-l20"/>wonnen &amp; sich über alle vorgelegenen Geschäfte mit einer
-                <lb xml:id="p1-l21"/>solchen Klarheit und Sicherheit ausgesprochen, daß ich mehr als
-                <lb xml:id="p1-l22"/>je den Glauben habe, daß wir für die gestellte Aufgabe den
-                <lb xml:id="p1-l23"/>richtigen Mann <add>gefunden</add> haben. –</p>
-      <p rend="indent" xml:id="K_2658_p7">
-                <lb xml:id="p1-l24"/>Nachdem ich ihm gestüzt<note type="transcript">sic!</note> auf die frühern Schlußnahmen
+                <lb xml:id="p1-l19"/>Verhandlungen hat er dann wieder Vertrauen ge<lb xml:id="p1-l20" break="no"/>wonnen &amp; sich über alle vorgelegenen Geschäfte mit einer
+                <lb xml:id="p1-l21" break="no"/>solchen Klarheit und Sicherheit ausgesprochen, daß ich mehr als
+                <lb xml:id="p1-l22" break="no"/>je den Glauben habe, daß wir für die gestellte Aufgabe den
+                <lb xml:id="p1-l23" break="no"/>richtigen Mann <add>gefunden</add> haben. –</p>
+      <p rend="indent" xml:id="K_2658_p7"><lb xml:id="p1-l24"/>Nachdem ich ihm gestüzt<note type="transcript">sic!</note> auf die frühern Schlußnahmen
                 <lb xml:id="p1-l25"/>der Direktion erklärt habe, daß ich ermächtigt sei abschließend
                 <lb xml:id="p1-l26"/>mit ihm zu verhandeln (Kautionsfrage &amp; Dienstantritt
                 <lb xml:id="p1-l27"/>vorbehalten) müßte es sein Mißtrauen neuerdings
                 <lb xml:id="p1-l28"/>wecken, wollte man unsrerseits an dem Vertrag
-                <lb xml:id="p1-l29"/>Aenderungen vornehmen, bei <choice>
-                        <abbr>Art<hi rend="sup">l</hi> </abbr>
-                        <expan>Artikel</expan>
-                    </choice> 4, 5 &amp; 6, welche seine
+                <lb xml:id="p1-l29"/>Aenderungen vornehmen, bei <choice><abbr>Art<hi rend="sup">l</hi> </abbr><expan>Artikel</expan></choice> 4, 5 &amp; 6, welche seine
                 <lb xml:id="p1-l30"/>oekonomische Stellung bestimmen müßte ich mit Entschiedenheit
                 <lb xml:id="p1-l31"/>mich gegen jede, auch nur redaktionelle Aenderung
                 <lb xml:id="p1-l32"/>aussprechen. –</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2658_p8">
-                    <lb xml:id="p1-l33"/>Hochachtungsvollst</p>
+        <p rend="indent" xml:id="K_2658_p8"><lb xml:id="p1-l33"/>Hochachtungsvollst</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2658_p9">
-                    <lb xml:id="p1-l34"/>Weber</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2658_p9"><lb xml:id="p1-l34"/>Weber</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

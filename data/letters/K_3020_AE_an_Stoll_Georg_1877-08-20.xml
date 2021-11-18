@@ -1,293 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3020" n="22" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Georg Stoll, Bad Homburg vor der Höhe, Montag, August 20, 1877</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>ZBZ</institution>
-                        <idno type="original">Ms Briefe, Escher</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Kuraufenthalte</item>
-                        <item>Vereinigte Bundesversammlung</item>
-                        <item>Eisenbahngesellschaften Krise/Rekonstruktion</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Stoll Georg" type="addressee">Georg Stoll</persName>
-                    <placeName>Bad Homburg vor der Höhe</placeName>
-                    <date when="1877-08-20">Montag, August 20, 1877</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-03-29" who="BF">Transkription
-                
-            </change>
-            <change when="2013-08-26" who="LH">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="CD">Migrationsverifizierung
-        umgesetzt
-                
-            </change>
-            <change when="2014-01-10" who="RH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-15" who="SWK">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="CR">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-22" who="SWK">Transkriptionsverifizierung Seiterle
-          umgesetzt
-                
-            </change>
-            <change when="2014-01-27" who="LH">Übertragung der Transkriptionsverifizierung
-          geprüft
-                
-            </change>
-            <change when="2014-04-22" who="MLB">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-            <change when="2014-05-21" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-08-12" who="BF">provisorisch kommentiert
-                
-            </change>
-            <change when="2014-09-02" who="BF">Kommentierung überarbeitet
-                
-            </change>
-            <change when="2014-09-17" who="MB">Auszeichnung 1 und 2
-        umgesetzt
-                
-            </change>
-            <change when="2014-10-13" who="BF">Korrektorat EH 1 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3020" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Georg Stoll, Bad Homburg vor der Höhe, Montag, 20. August 1877</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>ZBZ</institution><idno>Ms Briefe, Escher</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Nordostbahn (NOB)</term><term>Kuraufenthalte</term><term>Vereinigte Bundesversammlung</term><term>Eisenbahngesellschaften Krise/Rekonstruktion</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Stoll Georg" type="sender">Georg Stoll</persName><placeName>Bad Homburg vor der Höhe</placeName><date when="1877-08-20">20. August 1877</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_3020_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Bad Homburg vor der Höhe (D)">Homburg</placeName> <date when="1877-08-20">20 August 1877</date>.</p>
+        <p rend="right" xml:id="K_3020_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Bad Homburg vor der Höhe (D)">Homburg</placeName> <date when="1877-08-20">20 August 1877</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_3020_p2">
-                    <lb xml:id="p1-l2"/>Hochverehrter Herr &amp; Freund! </p>
+        <p rend="left" xml:id="K_3020_p2"><lb xml:id="p1-l2"/>Hochverehrter Herr &amp; Freund! </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_3020_p3">
-                <lb xml:id="p1-l3"/>Erst vor ein Paar Stunden – die <lb xml:id="p1-l4"/>verspätete Übersendung ist
-        wohl nur der <lb xml:id="p1-l5"/>Ungunst des Zufalles zuzuschreiben – erhielt <lb xml:id="p1-l6"/>ich die <seg type="com">Beilage<note xml:id="K_3020_c1">Beilage nicht überliefert. – Es handelt sich vermutlich um das
-            Schreiben des Komitees der rechtsufrigen <placeName type="place" key="Zürichsee">Zürichseebahn</placeName> an die Nordostbahn vom <date when="1877-08-17">17. August 1877</date>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice>
-            <ref type="lit">Bericht VR NOB Bauverpflichtungen</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice>
-            5.</note>
-                </seg>. Ich beeile mich, Ihnen dieselbe <lb xml:id="p1-l7"/>zuzustellen. Ich denke, es
-        wird dem Wunsche <lb xml:id="p1-l8"/>des Comités der <seg type="com">Rechtsufrigen<note xml:id="K_3020_c2">Gemeint ist die
-            rechtsufrige <placeName type="place" key="Zürichsee">Zürichseebahn</placeName> von <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-              (<placeName type="place" key="Stadelhofen (Zürich)">Stadelhofen</placeName>) nach <placeName type="place" key="Rapperswil (Rapperswil-Jona)">Rapperswil</placeName>.</note>
-                </seg> zu
-        entsprechen, <lb xml:id="p1-l9"/>damit aber unter Hinweisung auf die <seg type="ref">fi<lb break="no" xml:id="p1-l10"/>nanzielle Lage der <choice>
-                            <abbr>N.O.B.</abbr>
-                            <expan>NordOstBahn</expan>
-                        </choice>
-                    <ref type="sum" target="Rekonstruktion_Nordostbahn_d1.4"><!--→ S. 48-49--></ref>
-                </seg>, welche eine bal<lb break="no" xml:id="p1-l11"/>dige Entscheidung als eine unabweisliche <lb xml:id="p1-l12"/>Nothwendigkeit erscheinen lasse, <seg type="com">das Ansuchen <lb xml:id="p1-l13"/>um thunlichst beförderliche Durchführung <lb xml:id="p1-l14"/>der Unterhandlungen mit den Rechtsufri<lb break="no" xml:id="p1-l15"/>gen, welche sich ohnehin
-          schon so sehr in die Länge <lb xml:id="p1-l16"/>gezogen, zu verbinden sein.<note xml:id="K_3020_c3">Im Rahmen der
+    </front><body>
+      <p rend="indent" xml:id="K_3020_p3"><lb xml:id="p1-l3"/>Erst vor ein Paar Stunden – die <lb xml:id="p1-l4"/>verspätete Übersendung ist
+        wohl nur der <lb xml:id="p1-l5"/>Ungunst des Zufalles zuzuschreiben – erhielt <lb xml:id="p1-l6"/>ich die Beilage<note type="com" xml:id="K_3020_c1">Beilage nicht überliefert. – Es handelt sich vermutlich um das
+            Schreiben des Komitees der rechtsufrigen <placeName key="Zürichsee">Zürichseebahn</placeName> an die Nordostbahn vom <date when="1877-08-17">17. August 1877</date>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice>
+            <ref type="lit">Bericht VR NOB Bauverpflichtungen</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice>
+            5.</note>. Ich beeile mich, Ihnen dieselbe <lb xml:id="p1-l7"/>zuzustellen. Ich denke, es
+        wird dem Wunsche <lb xml:id="p1-l8"/>des Comités der Rechtsufrigen<note type="com" xml:id="K_3020_c2">Gemeint ist die
+            rechtsufrige <placeName key="Zürichsee">Zürichseebahn</placeName> von <placeName key="Zürich (Stadt)">Zürich</placeName>
+              (<placeName key="Stadelhofen (Zürich)">Stadelhofen</placeName>) nach <placeName key="Rapperswil (Rapperswil-Jona)">Rapperswil</placeName>.</note> zu
+        entsprechen, <lb xml:id="p1-l9"/>damit aber unter Hinweisung auf die <rs>fi<lb xml:id="p1-l10" break="no"/>nanzielle Lage der <choice><abbr>N.O.B.</abbr><expan>NordOstBahn</expan></choice><ref type="sum" target="Rekonstruktion_Nordostbahn_d1.4"><!--→ S. 48-49--></ref></rs>, welche eine bal<lb xml:id="p1-l11" break="no"/>dige Entscheidung als eine unabweisliche <lb xml:id="p1-l12" break="no"/>Nothwendigkeit erscheinen lasse, das Ansuchen <lb xml:id="p1-l13"/>um thunlichst beförderliche Durchführung <lb xml:id="p1-l14"/>der Unterhandlungen mit den Rechtsufri<lb xml:id="p1-l15" break="no"/>gen, welche sich ohnehin
+          schon so sehr in die Länge <lb xml:id="p1-l16" break="no"/>gezogen, zu verbinden sein.<note type="com" xml:id="K_3020_c3">Im Rahmen der
             Verhandlungen der Nordostbahn mit den Komitees verschiedener Bahnlinien, zu deren Bau
             sie sich verpflichtet hatte, erwies sich insbesondere eine Einigung mit dem Komitee der
-            rechtsufrigen <placeName type="place" key="Zürichsee">Zürichseebahn</placeName> als schwierig, da
-            dessen Vertreter eine Fortführung des Baus forderten <choice>
-                                <abbr>bzw.</abbr>
-                                <expan>beziehungsweise</expan>
-                            </choice> einem Moratorium nur in Verbindung mit weitreichenden Bedingungen
+            rechtsufrigen <placeName key="Zürichsee">Zürichseebahn</placeName> als schwierig, da
+            dessen Vertreter eine Fortführung des Baus forderten <choice><abbr>bzw.</abbr><expan>beziehungsweise</expan></choice> einem Moratorium nur in Verbindung mit weitreichenden Bedingungen
             zustimmen wollten. Als Resultat langwieriger Verhandlungen konnte aber am <date when="1878-01-16">16. Januar
             1878</date> doch ein Vertrag unterzeichnet werden, mit dem sich das Komitee der rechtsufrigen
-            Bahn mit dem Beitritt zu den Moratoriumsbeschlüssen einverstanden erklärte. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 42–44, Beilage IV a (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice>
-            9–14), Beilage IV b (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 17–18); <ref type="lit">Bericht VR NOB Bauverpflichtungen</ref>,
-            <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 4–8, 29–59; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 12–18; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 58–60, 160–163; <ref type="sum" target="Rekonstruktion_Nordostbahn_d1.3"><!--→ S. 46-48--></ref>.</note>
-                </seg> Ich weiß wohl, <lb xml:id="p1-l17"/>daß sich diese Durchführung der Unterhandlun<lb break="no" xml:id="p1-l18"/>gen kaum
-        vor dem Zeitpuncte erreichen <pb n="2"/>
-                    <lb xml:id="p2-l1"/>lassen wird, in welchem wenigstens <seg type="com">das inte<lb break="no" xml:id="p2-l2"/>rimistische Finanzarrangement zur Auf<lb break="no" xml:id="p2-l3"/>rechthaltung<note type="transcript">sic!</note> der <choice>
-                            <abbr>N.O.B.gesellschaft</abbr>
-                            <expan>NordOstBahngesellschaft</expan>
-                        </choice> wird abge<lb break="no" xml:id="p2-l4"/>schlossen werden
-            müssen.<note xml:id="K_3020_c4">Am <date when="1877-09-08">8. September 1877</date> schloss ein Bankenkonsortium unter Leitung der
+            Bahn mit dem Beitritt zu den Moratoriumsbeschlüssen einverstanden erklärte. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Bericht VR NOB an GV [30. Juni 1877]</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 42–44, Beilage IV a (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice>
+            9–14), Beilage IV b (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 17–18); <ref type="lit">Bericht VR NOB Bauverpflichtungen</ref>,
+            <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 4–8, 29–59; <ref type="lit">Geschäftsbericht VR NOB</ref> 1877, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 12–18; <ref type="lit">Kessler, Nordostbahn</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 58–60, 160–163; <ref type="sum" target="Rekonstruktion_Nordostbahn_d1.3"><!--→ S. 46-48--></ref>.</note> Ich weiß wohl, <lb xml:id="p1-l17" break="no"/>daß sich diese Durchführung der Unterhandlun<lb xml:id="p1-l18" break="no"/>gen kaum
+        vor dem Zeitpuncte erreichen <pb n="2"/><lb xml:id="p2-l1" break="no"/>lassen wird, in welchem wenigstens das inte<lb xml:id="p2-l2" break="no"/>rimistische Finanzarrangement zur Auf<lb xml:id="p2-l3" break="no"/>rechthaltung<note type="transcript">sic!</note> der <choice><abbr>N.O.B.gesellschaft</abbr><expan>NordOstBahngesellschaft</expan></choice> wird abge<lb xml:id="p2-l4" break="no"/>schlossen werden
+            müssen.<note type="com" xml:id="K_3020_c4">Am <date when="1877-09-08">8. September 1877</date> schloss ein Bankenkonsortium unter Leitung der
             Schweizerischen Kreditanstalt mit der Nordostbahn einen Vertrag zum Ankauf von
-            Obligationen gegen Bezahlung von 12 990 000 Franken. <ref type="letter" target="K_3032"><!--→ Nr. 23 K_3032 --></ref>; <ref type="sum" target="Rekonstruktion_Nordostbahn_d1.4"><!--→ S. 48-49--></ref>.</note>
-                </seg> Ich glaube aber, daß <lb xml:id="p2-l5"/>dem letztern kein Hinderniß daraus erwach<lb break="no" xml:id="p2-l6"/>sen kann, daß
-        es noch nicht möglich war, mit <lb xml:id="p2-l7"/>der Rechtsufrigen ein abschließliches
-        Abkommen <lb xml:id="p2-l8"/>zu erzielen. Nachdem nämlich Seitens der <lb xml:id="p2-l9"/>
-                    <choice>
-                        <abbr>N.O.B.</abbr>
-                        <expan>NordOstBahn</expan>
-                    </choice> die <seg type="com">bekannten zwei Vorschläge<note xml:id="K_3020_c5">Anlässlich einer
-            Konferenz zwischen Vertretern der Nordostbahn und des Komitees der rechtsufrigen <placeName type="place" key="Zürichsee">Zürichseebahn</placeName> unter Leitung von Bundesrat <persName type="person" key="Anderwert Fridolin">Fridolin Anderwert</persName> am <date when="1877-08-06">6. August</date> hatte
+            Obligationen gegen Bezahlung von 12 990 000 Franken. <ref type="letter" target="K_3032"><!--→ Nr. 23 K_3032 --></ref>; <ref type="sum" target="Rekonstruktion_Nordostbahn_d1.4"><!--→ S. 48-49--></ref>.</note> Ich glaube aber, daß <lb xml:id="p2-l5" break="no"/>dem letztern kein Hinderniß daraus erwach<lb xml:id="p2-l6" break="no"/>sen kann, daß
+        es noch nicht möglich war, mit <lb xml:id="p2-l7" break="no"/>der Rechtsufrigen ein abschließliches
+        Abkommen <lb xml:id="p2-l8" break="no"/>zu erzielen. Nachdem nämlich Seitens der <lb xml:id="p2-l9" break="no"/><choice><abbr>N.O.B.</abbr><expan>NordOstBahn</expan></choice> die bekannten zwei Vorschläge<note type="com" xml:id="K_3020_c5">Anlässlich einer
+            Konferenz zwischen Vertretern der Nordostbahn und des Komitees der rechtsufrigen <placeName key="Zürichsee">Zürichseebahn</placeName> unter Leitung von Bundesrat <persName key="Anderwert Fridolin">Fridolin Anderwert</persName> am <date when="1877-08-06">6. August</date> hatte
             die Nordostbahn-Delegation einen Doppelvorschlag eingebracht. Demnach sollte entweder
             die Bahn sofort als eigenständiges Unternehmen errichtet weden, oder die Linie sollte
             wie die anderen Bauverpflichtungen unter das Moratorium gestellt werden, wobei dann die
             Nordostbahn entweder die bereits geleisteten Subventionen mit Zinsleistung zurückzahlen
              oder diese als Nordostbahn-Anleihen zu günstigen Konditionen behandeln würde.
-            <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Bericht VR NOB Bauverpflichtungen</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 29–53.</note>
-                </seg> gemacht <lb xml:id="p2-l10"/>worden sind, welche auf die öffentliche Mei<lb break="no" xml:id="p2-l11"/>nung den Eindruck gemacht haben müssen, <lb xml:id="p2-l12"/>daß die <choice>
-                        <abbr>N.O.B.</abbr>
-                        <expan>NordOstBahn</expan>
-                    </choice> an die äußerste Grenze dessen, <lb xml:id="p2-l13"/>was billiger Weise von ihr
-        verlangt werden <lb xml:id="p2-l14"/>kann, gegangen ist, &amp; nachdem <seg type="com">das Comité <lb xml:id="p2-l15"/>der Rechtsufrigen nicht etwa beide Vorschläge <lb xml:id="p2-l16"/>abgelehnt
-          hat, sondern auf den einen der<lb break="no" xml:id="p2-l17"/>selben eingetreten ist<note xml:id="K_3020_c6">In seinem
+            <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Bericht VR NOB Bauverpflichtungen</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 29–53.</note> gemacht <lb xml:id="p2-l10" break="no"/>worden sind, welche auf die öffentliche Mei<lb xml:id="p2-l11" break="no"/>nung den Eindruck gemacht haben müssen, <lb xml:id="p2-l12" break="no"/>daß die <choice><abbr>N.O.B.</abbr><expan>NordOstBahn</expan></choice> an die äußerste Grenze dessen, <lb xml:id="p2-l13" break="no"/>was billiger Weise von ihr
+        verlangt werden <lb xml:id="p2-l14" break="no"/>kann, gegangen ist, &amp; nachdem das Comité <lb xml:id="p2-l15"/>der Rechtsufrigen nicht etwa beide Vorschläge <lb xml:id="p2-l16"/>abgelehnt
+          hat, sondern auf den einen der<lb xml:id="p2-l17" break="no"/>selben eingetreten ist<note type="com" xml:id="K_3020_c6">In seinem
             Schreiben vom <date when="1877-08-17">17. August</date> erklärte das Komitee der rechtsufrigen Bahn, die
             Unterhandlungen mit der Nordostbahn auf Basis des Vorschlags der Errichtung eines
             selbständigen Unternehmens fortführen zu wollen. Der Stadtrat der bei den
-            Subventionsleistungen für die Linie stark beteiligten Stadt <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> hingegen erklärte am
+            Subventionsleistungen für die Linie stark beteiligten Stadt <placeName key="Zürich (Stadt)">Zürich</placeName> hingegen erklärte am
             <date when="1877-08-28">28. August</date>, an keinen weiteren Verhandlungen teilnehmen zu wollen, welche die Ablehnung des
-            Moratoriums bezweckten. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Bericht VR NOB Bauverpflichtungen</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice>
-            5–8.</note>
-                </seg>, die Schuld an dem <lb xml:id="p2-l18"/>wohl in Aussicht zu nehmenden
-        schließlichen <lb xml:id="p2-l19"/>Scheitern der letztern also nicht dem Mangel an <lb xml:id="p2-l20"/>Entgegenkommen der <choice>
-                        <abbr>N.O.B.</abbr>
-                        <expan>NordOstBahn</expan>
-                    </choice> zugeschrieben
-          wer<lb break="no" xml:id="p2-l21"/>den kann, darf nun wohl mit voller Bestimmt<pb n="3"/>
-                    <lb xml:id="p3-l1"/>heit angenommen werden, daß im <hi rend="underline">ungünstigsten</hi>
-                    <lb xml:id="p3-l2"/>
-                    <hi rend="underline">Falle</hi>
-                    <hi rend="underline">für</hi>
-                    <hi rend="underline">die</hi>
-                    <hi rend="underline">
-                    <choice>
-                            <abbr>N.O.B.</abbr>
-                            <expan>NordOstBahn</expan>
-                        </choice>
-                </hi> die
-        Bundesversammlung <lb xml:id="p3-l3"/>für den Bau der Rechtsufrigen eine <seg type="ref">Frister<lb break="no" xml:id="p3-l4"/>streckung bis Ende 1885<ref type="sum" target="Rekonstruktion_Nordostbahn_d1.3">Baumoratorium<!--→ S. 45-48--></ref>
-                </seg> gewähren wird. In Folge <lb xml:id="p3-l5"/>der Wendung, welche die Unterhandlungen mit der <lb xml:id="p3-l6"/>Rechtsufrigen in der
-        neusten Zeit genommen haben, <lb xml:id="p3-l7"/>dürfte die
-          Moratiumsfrage<note type="transcript">sic!</note> überhaupt <lb xml:id="p3-l8"/>als zu Gunsten der
-          <choice>
-                        <abbr>N.O.B.</abbr>
-                        <expan>NordOstBahn</expan>
-                    </choice> erledigt anzusehen <lb xml:id="p3-l9"/>sein. </p>
-      <p rend="indent" xml:id="K_3020_p4">
-                <lb xml:id="p3-l10"/>Seit <date when="1877-08-18">vorgestern</date> bin ich nun hier als Tage<lb break="no" xml:id="p3-l11"/>dieb &amp; «Spitaler», wie wir in <placeName type="place" key="Zürich">Zürich</placeName> sagen, in<lb break="no" xml:id="p3-l12"/>stallirt. Es dürfte nur als Beweis mehr hiefür <lb xml:id="p3-l13"/>dienen, daß ich nichtsdestoweniger in dieser kur<lb break="no" xml:id="p3-l14"/>zen Spanne Zeit schon eine ganze Fluth geschäft<lb break="no" xml:id="p3-l15"/>licher Briefe
+            Moratoriums bezweckten. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Bericht VR NOB Bauverpflichtungen</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice>
+            5–8.</note>, die Schuld an dem <lb xml:id="p2-l18" break="no"/>wohl in Aussicht zu nehmenden
+        schließlichen <lb xml:id="p2-l19" break="no"/>Scheitern der letztern also nicht dem Mangel an <lb xml:id="p2-l20" break="no"/>Entgegenkommen der <choice><abbr>N.O.B.</abbr><expan>NordOstBahn</expan></choice> zugeschrieben
+          wer<lb xml:id="p2-l21" break="no"/>den kann, darf nun wohl mit voller Bestimmt<pb n="3"/><lb xml:id="p3-l1" break="no"/>heit angenommen werden, daß im <hi rend="underline">ungünstigsten</hi> <lb xml:id="p3-l2" break="no"/><hi rend="underline">Falle</hi> <hi rend="underline">für</hi> <hi rend="underline">die</hi> <hi rend="underline"><choice><abbr>N.O.B.</abbr><expan>NordOstBahn</expan></choice></hi> die
+        Bundesversammlung <lb xml:id="p3-l3" break="no"/>für den Bau der Rechtsufrigen eine <rs>Frister<lb xml:id="p3-l4" break="no"/>streckung bis Ende 1885<ref type="sum" target="Rekonstruktion_Nordostbahn_d1.3">Baumoratorium<!--→ S. 45-48--></ref></rs> gewähren wird. In Folge <lb xml:id="p3-l5" break="no"/>der Wendung, welche die Unterhandlungen mit der <lb xml:id="p3-l6" break="no"/>Rechtsufrigen in der
+        neusten Zeit genommen haben, <lb xml:id="p3-l7" break="no"/>dürfte die
+          Moratiumsfrage<note type="transcript">sic!</note> überhaupt <lb xml:id="p3-l8" break="no"/>als zu Gunsten der
+          <choice><abbr>N.O.B.</abbr><expan>NordOstBahn</expan></choice> erledigt anzusehen <lb xml:id="p3-l9" break="no"/>sein. </p>
+      <p rend="indent" xml:id="K_3020_p4"><lb xml:id="p3-l10"/>Seit <date when="1877-08-18">vorgestern</date> bin ich nun hier als Tage<lb xml:id="p3-l11" break="no"/>dieb &amp; «Spitaler», wie wir in <placeName key="Zürich">Zürich</placeName> sagen, in<lb xml:id="p3-l12" break="no"/>stallirt. Es dürfte nur als Beweis mehr hiefür <lb xml:id="p3-l13" break="no"/>dienen, daß ich nichtsdestoweniger in dieser kur<lb xml:id="p3-l14" break="no"/>zen Spanne Zeit schon eine ganze Fluth geschäft<lb xml:id="p3-l15" break="no"/>licher Briefe
           von<note type="transcript">sic!</note> Stapel gelassen habe! </p>
-      <p rend="indent" xml:id="K_3020_p5">
-                <lb xml:id="p3-l16"/>Es würde mich sehr freuen zu vernehmen, <lb xml:id="p3-l17"/>daß Sie sich ganz
-        wohl befinden &amp; daß die unan<lb break="no" xml:id="p3-l18"/>genehmen Erscheinungen, welche
-        allerdings <lb xml:id="p3-l19"/>unter dem Drucke eines wahren Sirocco neu<lb break="no" xml:id="p3-l20"/>erdings bei Ihnen zu Tage getreten waren, <lb xml:id="p3-l21"/>sich gänzlich verloren haben. Es
-        thut mir <lb xml:id="p3-l22"/>so leid, daß ich Ihnen in Folge meiner Abwe<pb n="4"/>
-                    <lb xml:id="p4-l1"/>senheit Ihre ohnehin schon enorme Arbeitslast <lb xml:id="p4-l2"/>noch vermehre!
+      <p rend="indent" xml:id="K_3020_p5"><lb xml:id="p3-l16"/>Es würde mich sehr freuen zu vernehmen, <lb xml:id="p3-l17"/>daß Sie sich ganz
+        wohl befinden &amp; daß die unan<lb xml:id="p3-l18" break="no"/>genehmen Erscheinungen, welche
+        allerdings <lb xml:id="p3-l19" break="no"/>unter dem Drucke eines wahren Sirocco neu<lb xml:id="p3-l20" break="no"/>erdings bei Ihnen zu Tage getreten waren, <lb xml:id="p3-l21" break="no"/>sich gänzlich verloren haben. Es
+        thut mir <lb xml:id="p3-l22" break="no"/>so leid, daß ich Ihnen in Folge meiner Abwe<pb n="4"/><lb xml:id="p4-l1" break="no"/>senheit Ihre ohnehin schon enorme Arbeitslast <lb xml:id="p4-l2" break="no"/>noch vermehre!
       </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_3020_p6">
-                    <lb xml:id="p4-l3"/> <seg type="ref">
-                        <persName type="person" key="Escher (vom Glas) Lydia">Lydie</persName>
-                        <ref type="kbp">→ Lydia Escher</ref>
-                    </seg>, die neben mir sitzt &amp; der ich sagen <lb xml:id="p4-l4"/>mußte, wem ich schreibe,
+        <p rend="indent" xml:id="K_3020_p6"><lb xml:id="p4-l3"/> <rs><persName key="Escher (vom Glas) Lydia">Lydie</persName></rs>, die neben mir sitzt &amp; der ich sagen <lb xml:id="p4-l4"/>mußte, wem ich schreibe,
           schickt Ihnen einen «tief <lb xml:id="p4-l5"/>respectvollen Gruß». </p>
-        <p rend="indent" xml:id="K_3020_p7">
-                    <lb xml:id="p4-l6"/>Ich bitte Sie, diese Zeilen, die einer Erwiede<lb break="no" xml:id="p4-l7"/>rung
-          nicht bedürfen, unbeantwortet zu las<lb break="no" xml:id="p4-l8"/>sen &amp; verbleibe in
-          freundschaftlicher Hochacht<lb break="no" xml:id="p4-l9"/>ung </p>
-        <p rend="center" xml:id="K_3020_p8">
-                    <lb xml:id="p4-l10"/>Ihr </p>
+        <p rend="indent" xml:id="K_3020_p7"><lb xml:id="p4-l6"/>Ich bitte Sie, diese Zeilen, die einer Erwiede<lb xml:id="p4-l7" break="no"/>rung
+          nicht bedürfen, unbeantwortet zu las<lb xml:id="p4-l8" break="no"/>sen &amp; verbleibe in
+          freundschaftlicher Hochacht<lb xml:id="p4-l9" break="no"/>ung </p>
+        <p rend="center" xml:id="K_3020_p8"><lb xml:id="p4-l10"/>Ihr </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_3020_p9">
-                    <lb xml:id="p4-l11"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_3020_p9"><lb xml:id="p4-l11"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher </p>
       </div>
       <postscript>
-        <p rend="indent" xml:id="K_3020_p10">
-                    <lb xml:id="p4-l12"/>Den <seg type="com">beiliegenden Brief<note xml:id="K_3020_c7">Brief nicht ermittelt.</note>
-                    </seg> des <seg type="com">
-                        <choice>
-                            <abbr>H.</abbr>
-                            <expan>Herr</expan>
-                        </choice> <persName type="person" key="Hürlimann-Müller Heinrich">Hürlimann-<lb xml:id="p4-l13"/>Müller</persName>
-                        <note xml:id="K_3020_c8">
-                            <persName type="person" key="Hürlimann-Müller Heinrich">Heinrich Hürlimann-Müller</persName> (Lebensdaten nicht
+        <p rend="indent" xml:id="K_3020_p10"><lb xml:id="p4-l12"/>Den beiliegenden Brief<note type="com" xml:id="K_3020_c7">Brief nicht ermittelt.</note> des <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Hürlimann-Müller Heinrich">Hürlimann-<lb xml:id="p4-l13"/>Müller</persName><note type="com" xml:id="K_3020_c8"><persName key="Hürlimann-Müller Heinrich">Heinrich Hürlimann-Müller</persName> (Lebensdaten nicht
               ermittelt), ehemaliger, Mitte August 1877 ausgetretener zweiter Kassier bei der
-              Schweizerischen Kreditanstalt.</note>
-                    </seg> gedenke ich einfach <seg type="com">
-                        <hi>ad
-              acta</hi>
-                        <note xml:id="K_3020_c9">Ad acta (<choice>
-                                <abbr>lat.</abbr>
-                                <expan>lateinisch</expan>
-                            </choice>): zu den Akten.</note>
-                    </seg> zu legen. <lb xml:id="p4-l14"/>Ich
+              Schweizerischen Kreditanstalt.</note> gedenke ich einfach <hi>ad
+              acta</hi><note type="com" xml:id="K_3020_c9">Ad acta (<choice><abbr>lat.</abbr><expan>lateinisch</expan></choice>): zu den Akten.</note> zu legen. <lb xml:id="p4-l14"/>Ich
           glaube ihn Ihnen aber doch zur Einsicht <lb xml:id="p4-l15"/>übermitteln zu sollen. </p>
       </postscript>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

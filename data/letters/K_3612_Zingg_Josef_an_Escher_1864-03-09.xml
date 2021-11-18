@@ -1,168 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3612" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Josef Zingg an Alfred Escher, Luzern, Mittwoch, März 9, 1864</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_053</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Bundesrat</item>
-                        <item>Eisenbahnen Gutachten und Expertisen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Zingg Josef" type="sender">Josef Zingg</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Luzern</placeName>
-                    <date when="1864-03-09">Mittwoch, März 9, 1864</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2012-08-21" who="ML">Brief transkribiert
-                
-            </change>
-            <change when="2012-09-04" who="FK">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-01-17" who="PR">Verifizierung 1 umgesetzt
-
-                
-            </change>
-            <change when="2013-08-30" who="STW">Transkriptionsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-01-30" who="LH">Übertragung der Transkriptionsverifizierng geprüft
-                
-            </change>
-            <change when="2014-02-06" who="CR">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-05-20" who="MLB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2014-05-23" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2017-07-10" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_3612" type="Brief"><teiHeader><fileDesc><titleStmt><title>Josef Zingg an Alfred Escher, Luzern, Mittwoch, 09. März 1864</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_053</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Bundesrat</term><term>Eisenbahnen Gutachten und Expertisen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Zingg Josef" type="addressee">Josef Zingg</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Luzern</placeName><date when="1864-03-09">09. März 1864</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
         <p rend="indent" xml:id="K_3612_p1">
                     <lb xml:id="p1-l1"/>Hochgeachteter Herr Präsident!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_3612_p2">
-                <lb xml:id="p1-l2"/>Von <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <hi>
-                    <persName type="person" key="Cecovi Carlo">Cecovi</persName>
+                <lb xml:id="p1-l2"/>Von <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <hi>
+                    <persName key="Cecovi Carlo">Cecovi</persName>
                 </hi>, welcher von einer
 				<lb xml:id="p1-l3"/>Zusammenkunft mit <hi>Sillar</hi> &amp;
-				<choice>
-                        <abbr>C<hi rend="sup">ie</hi> </abbr>
-                        <expan>Compagnie (Gesellschaft)</expan>
-                    </choice> in <placeName type="place" key="Paris (F)">
-                    <hi>Paris</hi>
-                </placeName> <lb xml:id="p1-l4"/>zurükkehrend <date when="1864-03-08">gestern</date> hier durchge<lb break="no" xml:id="p1-l5"/>reist ist, wird mir mitgetheilt, daß
-		<lb xml:id="p1-l6"/>die <placeName type="place" key="Grossbritannien">englische</placeName> Gesellschaft nun beschloßen
-		<lb xml:id="p1-l7"/>habe, den <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>
+				<choice><abbr>C<hi rend="sup">ie</hi> </abbr><expan>Compagnie (Gesellschaft)</expan></choice> in <placeName key="Paris (F)"><hi>Paris</hi></placeName> <lb xml:id="p1-l4"/>zurükkehrend <date when="1864-03-08">gestern</date> hier durchge
+                <lb xml:id="p1-l5" break="no"/>reist ist, wird mir mitgetheilt, daß
+		<lb xml:id="p1-l6" break="no"/>die <placeName key="Grossbritannien">englische</placeName> Gesellschaft nun beschloßen
+		<lb xml:id="p1-l7" break="no"/>habe, den <placeName key="St. Gotthard (Pass)">Gotthardt</placeName>
  an die Spitze ihres
-		<lb xml:id="p1-l8"/>Programms zu stellen, oder – wie er
-		<lb xml:id="p1-l9"/>mir schon von <hi>
-                    <placeName type="place" key="Basel-Stadt">Basel</placeName> </hi> aus telegraphirte –
-		<lb xml:id="p1-l10"/>«<hi>
-                    <placeName type="place" key="London (UK)">Londres</placeName> a decidé publier definitivement
-		<lb xml:id="p1-l11"/>passage <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName> </hi>». Wenn die Sache
-		<lb xml:id="p1-l12"/>ihre Richtigkeit hat, so dürfte eine
-		<lb xml:id="p1-l13"/>solche Publikation, mit einem für
-		<lb xml:id="p1-l14"/>den <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>
+		<lb xml:id="p1-l8" break="no"/>Programms zu stellen, oder – wie er
+		<lb xml:id="p1-l9" break="no"/>mir schon von <hi>
+                    <placeName key="Basel-Stadt">Basel</placeName> </hi> aus telegraphirte –
+		<lb xml:id="p1-l10" break="no"/>«<hi>
+                    <placeName key="London (UK)">Londres</placeName> a decidé publier definitivement
+		<lb xml:id="p1-l11"/>passage <placeName key="St. Gotthard (Pass)">Gotthardt</placeName> </hi>». Wenn die Sache
+		<lb xml:id="p1-l12" break="no"/>ihre Richtigkeit hat, so dürfte eine
+		<lb xml:id="p1-l13" break="no"/>solche Publikation, mit einem für
+		<lb xml:id="p1-l14" break="no"/>den <placeName key="St. Gotthard (Pass)">Gotthardt</placeName>
  günstigen Beschluß
-		<lb xml:id="p1-l15"/>des Bundesrathes zusammenfallend,
-		<lb xml:id="p1-l16"/>nicht ohne Bedeutung sein. Herr
+		<lb xml:id="p1-l15" break="no"/>des Bundesrathes zusammenfallend,
+		<lb xml:id="p1-l16" break="no"/>nicht ohne Bedeutung sein. Herr
 		<pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-                    <hi>
-                    <persName type="person" key="Cecovi Carlo">Cecovi</persName> </hi> meinte, es wäre von Nutzen,
-		<lb xml:id="p2-l2"/>wenn an <hi>
-                    <persName type="person" key="Sillar Robert George">Sillar</persName> </hi> noch einige auf<lb break="no" xml:id="p2-l3"/>munternde Zeilen gerichtet &amp; dem<lb break="no" xml:id="p2-l4"/>selben bemerkt würde, daß mit der
-		<lb xml:id="p2-l5"/>Entscheidung des <hi>Bundesrathes</hi> auch
-		<lb xml:id="p2-l6"/>der Moment vorhanden sei, das
-		<lb xml:id="p2-l7"/>
-                    <placeName type="place" key="St. Gotthard (Pass)">Gotthardts</placeName>projekt <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> Seite 
-                    <placeName type="place" key="England">Englands</placeName>
-                    <lb xml:id="p2-l8"/>öffentlich zu proklamiren.
+                <lb xml:id="p2-l1" break="no"/>
+                <hi>
+                    <persName key="Cecovi Carlo">Cecovi</persName> </hi> meinte, es wäre von Nutzen,
+		<lb xml:id="p2-l2" break="no"/>wenn an <hi>
+                    <persName key="Sillar Robert George">Sillar</persName> </hi> noch einige auf
+                <lb xml:id="p2-l3" break="no"/>munternde Zeilen gerichtet &amp; dem
+                <lb xml:id="p2-l4" break="no"/>selben bemerkt würde, daß mit der
+		<lb xml:id="p2-l5" break="no"/>Entscheidung des <hi>Bundesrathes</hi> auch
+		<lb xml:id="p2-l6" break="no"/>der Moment vorhanden sei, das
+		<lb xml:id="p2-l7" break="no"/>
+                <placeName key="St. Gotthard (Pass)">Gotthardts</placeName>projekt <choice><abbr>v.</abbr><expan>von</expan></choice> Seite 
+                    <placeName key="England">Englands</placeName>  <lb xml:id="p2-l8" break="no"/>öffentlich zu proklamiren.
 		</p>
       <p rend="indent" xml:id="K_3612_p3">
-                <lb xml:id="p2-l9"/>Ich bin bereit, einige Zeilen im an<lb break="no" xml:id="p2-l10"/>gedeuteten Sinne an <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-                    <hi>
-                    <persName type="person" key="Sillar Robert George">Sillar</persName> </hi> zu
-		<lb xml:id="p2-l11"/>richten, wenn Sie es für angemeßen &amp;
-		<lb xml:id="p2-l12"/>zwekentsprechend erachten &amp; nicht
-		<lb xml:id="p2-l13"/>vielleicht vorziehen, selbst an <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-                    <lb xml:id="p2-l14"/>
-                    <hi>
-                    <persName type="person" key="Sillar Robert George">Sillar</persName> </hi> zu schreiben. Ihre Zuschrift <seg type="ref">
+                <lb xml:id="p2-l9"/>Ich bin bereit, einige Zeilen im an
+                <lb xml:id="p2-l10" break="no"/>gedeuteten Sinne an <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <hi>
+                    <persName key="Sillar Robert George">Sillar</persName> </hi> zu
+		<lb xml:id="p2-l11" break="no"/>richten, wenn Sie es für angemeßen &amp;
+		<lb xml:id="p2-l12" break="no"/>zwekentsprechend erachten &amp; nicht
+		<lb xml:id="p2-l13" break="no"/>vielleicht vorziehen, selbst an <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <lb xml:id="p2-l14" break="no"/>
+                <hi>
+                    <persName key="Sillar Robert George">Sillar</persName> </hi> zu schreiben. Ihre Zuschrift <rs>
                     <ref type="letter" target="K_4689"/>
-                </seg>
-                    <lb xml:id="p2-l15"/>würde immerhin mehr Gewicht haben.
+                </rs> <lb xml:id="p2-l15" break="no"/>würde immerhin mehr Gewicht haben.
 		</p>
       <p rend="indent" xml:id="K_3612_p4">
                 <lb xml:id="p2-l16"/>
-        <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
+        <choice><abbr>Hr.</abbr><expan>Herr</expan></choice>
         <hi>
-          <persName type="person" key="Cecovi Carlo">Cecovi</persName>
+          <persName key="Cecovi Carlo">Cecovi</persName>
         </hi> äußerte sodann auch
 		<lb xml:id="p2-l17"/>wiederholt den Wunsch, eine Copie
-		<lb xml:id="p2-l18"/>des Gutachtens <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <hi>
-                    <persName type="person" key="Beckh August von">Bekh</persName> </hi> zu
+		<lb xml:id="p2-l18"/>des Gutachtens <choice><abbr>v.</abbr><expan>von</expan></choice> <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <hi>
+                    <persName key="Beckh August von">Bekh</persName> </hi> zu
 		<pb n="3"/>
                 <lb xml:id="p3-l1"/>erhalten, um dasselbe beförderlich nach
 		<lb xml:id="p3-l2"/>
-                <placeName type="place" key="London (UK)">London</placeName> zu senden, worauf ich ihm
+                <placeName key="London (UK)">London</placeName> zu senden, worauf ich ihm
 		<lb xml:id="p3-l3"/>bemerkte, daß das Gutachten, weil
 		<lb xml:id="p3-l4"/>wir noch einige Vervollständigungen
 		<lb xml:id="p3-l5"/>desselben desselben<note type="transcript">sic!</note> wünschten, noch nicht
@@ -172,29 +75,21 @@
 		<lb xml:id="p3-l9"/>Erachtens kann dermalen von der
 		<lb xml:id="p3-l10"/>Mittheilung einer Copie nicht die Rede
 		<lb xml:id="p3-l11"/>sein. Ob dagegen Herr <hi>
-                    <persName type="person" key="Cecovi Carlo">Cecovi</persName> </hi> einige
-		<lb xml:id="p3-l12"/>Auszüge – betreffend die Ausführ<lb break="no" xml:id="p3-l13"/>barkeit einer Gotthardtbahn, Ver<lb break="no" xml:id="p3-l14"/>gleichung mit andern <placeName type="place" key="Alpen">Alpen</placeName>päßen <choice>
-                        <abbr>
-                    <hi>etc</hi>
-                </abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice>-<lb xml:id="p3-l15"/>mitgetheilt werden sollten, möchte ich
-		<lb xml:id="p3-l16"/>gerne Ihrem beßern Ermeßen
-		<lb xml:id="p3-l17"/>anheimstellen. –
+                    <persName key="Cecovi Carlo">Cecovi</persName> </hi> einige
+		<lb xml:id="p3-l12"/>Auszüge – betreffend die Ausführ
+                <lb xml:id="p3-l13" break="no"/>barkeit einer Gotthardtbahn, Ver
+                <lb xml:id="p3-l14" break="no"/>gleichung mit andern <placeName key="Alpen">Alpen</placeName>päßen <choice><abbr><hi>etc</hi></abbr><expan>et cetera (und anderes)</expan></choice>-<lb xml:id="p3-l15" break="no"/>mitgetheilt werden sollten, möchte ich
+		<lb xml:id="p3-l16" break="no"/>gerne Ihrem beßern Ermeßen
+		<lb xml:id="p3-l17" break="no"/>anheimstellen. –
 		</p>
       <p rend="indent" xml:id="K_3612_p5">
                 <lb xml:id="p3-l18"/>Von <hi>
-                    <placeName type="place" key="Bern (Stadt)">Bern</placeName> </hi> habe ich keine nähern Nachricht<supplied>en</supplied> <pb n="4"/>
-                <lb xml:id="p4-l1"/>erhalten. Es scheint, daß die <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice> <lb xml:id="p4-l2"/>Bundesräthe die Beschlußfaßung
+                    <placeName key="Bern (Stadt)">Bern</placeName> </hi> habe ich keine nähern Nachricht<add>en</add> <pb n="4"/>
+                <lb xml:id="p4-l1"/>erhalten. Es scheint, daß die <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <lb xml:id="p4-l2"/>Bundesräthe die Beschlußfaßung
 		<lb xml:id="p4-l3"/>des Bundesrathes abwarten
 		<lb xml:id="p4-l4"/>wollen.
 		</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
      <div type="closer"> <p rend="indent" xml:id="K_3612_p6">
                     <lb xml:id="p4-l5"/>In freundschaftlicher Hochachtung
 		<lb xml:id="p4-l6"/>verbleibe
@@ -203,20 +98,18 @@
                     <lb xml:id="p4-l7"/>Ihr ergebener
 		</p>
             </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_3612_p8">
                     <lb xml:id="p4-l8"/>J. Zingg.</p>
       </div>
       <div type="dateline">
         <p rend="left" xml:id="K_3612_p9">
                     <lb xml:id="p4-l9"/>
-          <placeName type="place" key="Luzern (Stadt)">
+          <placeName key="Luzern (Stadt)">
                         <hi>Luzern</hi>
                     </placeName>
 					d.
 					<date when="1864-03-09">9. März 64</date>.
 		</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

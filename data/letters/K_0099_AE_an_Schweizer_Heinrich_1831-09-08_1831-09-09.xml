@@ -1,292 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0099" n="1" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Heinrich Schweizer, Zürich, 08 09 1831 09 09 1831</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>ZBZ</institution>
-                        <idno type="original">FA Escher vG 207.104</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Haus und Garten (Bewirtschaftung)</item>
-                        <item>Krankheiten</item>
-                        <item>Privatunterricht</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Schweizer Heinrich" type="addressee">Heinrich Schweizer</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1831-09-08"/>
-                    <date when="1831-09-09"/>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-04-13" who="Simone Desiderato">Transkribiert
-
-                
-            </change>
-            <change when="2005-12-2005, 19-12-16" who="BF">Auszüge verifiziert
-
-                
-            </change>
-            <change when="November 2008" who="swissedit, UR">von Word nach XML konvertiert
-
-                
-            </change>
-            <change when="2009-04-2009, 15-04-09" who="BF">provisorisch kommentiert
-                
-            </change>
-            <change when="2009-07-09" who="BF">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2009-07-20" who="BF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2009-08-18" who="BF">Index für Ortsregister gesetzt
-                
-            </change>
-            <change when="2009-11-12" who="BF">Umsetzung Lektorat JJ / Überarbeitung Kommentare
-                
-            </change>
-            <change when="2009-11-26" who="BF">Korrekturen 2 Haberthür übertragen
-                
-            </change>
-            <change when="2011-03-16" who="CF">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-06-09" who="CF">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-06-24" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-19" who="NH"> e-Edition: Auszeichnung Themen umgesetzt
-
-                
-            </change>
-            <change when="2011-07-22" who="TM">e-Edition: Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2011-07-22" who="AH">e-Edition: Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2011-07-27" who="HA">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2015-03-30" who="CA">e-Edition: Transkriptionsverifizierung Seiterle 2 umgesetzt
-                
-            </change>
-            <change when="2017-12-06" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-            
-        </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0099" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Heinrich Schweizer, Zürich, Donnerstag / Freitag, 08. / 09. September 1831</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Jung, Aufbruch, S. 50–51 (auszugsweise)</bibl><msDesc><msIdentifier><institution>ZBZ</institution><idno>FA Escher vG 207.104</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Haus und Garten (Bewirtschaftung)</term><term>Krankheiten</term><term>Privatunterricht</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term>Jugend- und Studentenzeit</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Schweizer Heinrich" type="sender">Heinrich Schweizer</persName><placeName>Zürich</placeName><date when="1831-09-08">08. September 1831</date><date when="1831-09-09">09. September 1831</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="center" xml:id="K_0099_p1">
                     <lb xml:id="p1-l1"/>
                     <date when="1831-09-08">8, IX, 31.</date>   </p> </div>
-      <div type="dateline"> <p rend="center" xml:id="K_0099_p2"> <lb xml:id="p1-l2"/>am <date when="1831-09-08">8<hi rend="sup">ten</hi> <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> September.</date>
-          <lb xml:id="p1-l3"/> <seg type="com">Neuberg<note xml:id="K_0099_c1">Alfred Eschers Vater <persName type="person" key="Escher (vom Glas) Heinrich">Heinrich</persName> war 1814, nach langjährigem Aufenthalt in den <placeName type="place" key="Vereinigte Staaten von Amerika">Vereinigten Staaten</placeName>, in seine Heimatstadt <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> zurückgekehrt. Nach <persName type="person" key="Escher (vom Glas) Heinrich">Heinrichs</persName> Heirat mit <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Lydia Zollikofer von Altenklingen</persName> und der Geburt der Tochter <persName type="person" key="Stockar-Escher (vom Glas) Clementine">Clementine</persName> wohnte die Familie 1816–1818 auf <placeName type="place" key="Hard (Ermatingen)">Schloss Hard</placeName> im <placeName type="place" key="Thurgau">Thurgau</placeName>, dem Sitz der Familie Zollikofer. 1818 zog die Familie Escher in das Haus «Neuberg» am Hirschengraben in der Stadt <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>. Hier wurde am <date when="1819-02-20">20. Februar 1819</date> Alfred Escher geboren. 1825 erwarb <persName type="person" key="Escher (vom Glas) Heinrich">Heinrich Escher</persName> in <placeName type="place" key="Enge (Zürich)">Enge</placeName>, ausserhalb der Stadt <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>, ein Gut am <placeName type="place" key="Zürichsee">Zürichsee</placeName>. In den folgenden Jahren wurde das Landgut, das den Namen <placeName type="place" key="Belvoir (Enge, Zürich)">Belvoir</placeName> erhielt, baulich grundlegend verändert. Anfang September 1831 erfolgte der Umzug vom «Neuberg» ins <placeName type="place" key="Belvoir (Enge, Zürich)">Belvoir</placeName>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Jung, Aufbruch</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 42–59.</note>
-                    </seg> 
+      <div type="dateline"> <p rend="center" xml:id="K_0099_p2"> <lb xml:id="p1-l2"/>am <date when="1831-09-08">8<hi rend="sup">ten</hi> <placeName key="Zürich (Stadt)">Zürich</placeName> September.</date>
+          <lb xml:id="p1-l3"/> Neuberg<note type="com" xml:id="K_0099_c1">Alfred Eschers Vater <persName key="Escher (vom Glas) Heinrich">Heinrich</persName> war 1814, nach langjährigem Aufenthalt in den <placeName key="Vereinigte Staaten von Amerika">Vereinigten Staaten</placeName>, in seine Heimatstadt <placeName key="Zürich (Stadt)">Zürich</placeName> zurückgekehrt. Nach <persName key="Escher (vom Glas) Heinrich">Heinrichs</persName> Heirat mit <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Lydia Zollikofer von Altenklingen</persName> und der Geburt der Tochter <persName key="Stockar-Escher (vom Glas) Clementine">Clementine</persName> wohnte die Familie 1816–1818 auf <placeName key="Hard (Ermatingen)">Schloss Hard</placeName> im <placeName key="Thurgau">Thurgau</placeName>, dem Sitz der Familie Zollikofer. 1818 zog die Familie Escher in das Haus «Neuberg» am Hirschengraben in der Stadt <placeName key="Zürich (Stadt)">Zürich</placeName>. Hier wurde am <date when="1819-02-20">20. Februar 1819</date> Alfred Escher geboren. 1825 erwarb <persName key="Escher (vom Glas) Heinrich">Heinrich Escher</persName> in <placeName key="Enge (Zürich)">Enge</placeName>, ausserhalb der Stadt <placeName key="Zürich (Stadt)">Zürich</placeName>, ein Gut am <placeName key="Zürichsee">Zürichsee</placeName>. In den folgenden Jahren wurde das Landgut, das den Namen <placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName> erhielt, baulich grundlegend verändert. Anfang September 1831 erfolgte der Umzug vom «Neuberg» ins <placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Jung, Aufbruch</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 42–59.</note>
+                     
           <lb xml:id="p1-l4"/>1831.<note type="transcript">Datumszeile in Zierschrift, mit Vignetten als Briefkopf gestaltet:</note> </p>
       </div>
-      <div type="address"/>
+      <div type="opener"/>
       <div type="opener">
         <p rend="indent" xml:id="K_0099_p3">
                     <lb xml:id="p1-l5"/>
           <hi>Theuerster, bester Lehrer!</hi>
         </p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_0099_p4">
         <lb xml:id="p1-l6"/>
        <date when="1831-09-07">Gestern</date> trugen vom Morgen um 6 Uhr bis Nachmittag um
         <lb xml:id="p1-l7"/>
-        ½ 4 Uhr 6 Gesellen <del>v.</del> Meublen ins Schiff. <choice>
-                        <abbr>z. B.</abbr>
-                        <expan>zum Beispiel</expan>
-                    </choice> <seg type="ref">
-                    <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma's</persName>
-                    <ref type="kbp">→ Lydia Escher-Zollikofer (von Altenklingen)</ref>
-                </seg> Bett, <hi>Chiffonier</hi>,
+        ½ 4 Uhr 6 Gesellen <del>v.</del> Meublen ins Schiff. <choice><abbr>z. B.</abbr><expan>zum Beispiel</expan></choice> <rs>
+                    <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma's</persName>
+                    
+                </rs> Bett, <hi>Chiffonier</hi>,
         <lb xml:id="p1-l8"/>
-das Silber-<hi>Buffet</hi> im großen Speisezimmer, Ihr Bett<del>,</del> und Waschtisch, <seg type="ref">
-                    <persName type="person" key="Escher (vom Glas) Heinrich">Pap<del>p</del>a's</persName>
-                    <ref type="kbp">→ Heinrich Escher (vom Glas)</ref>
-                </seg> 
+das Silber-<hi>Buffet</hi> im großen Speisezimmer, Ihr Bett<del>,</del> und Waschtisch, <rs>
+                    <persName key="Escher (vom Glas) Heinrich">Pap<del>p</del>a's</persName>
+                    
+                </rs> 
         <lb xml:id="p1-l9"/>
-Bett und sein Insecten-Kasten im Ofenzimmer, <seg type="ref">
-                    <persName type="person" key="Stockar-Escher (vom Glas) Clementine">Clementinens</persName>
-                    <ref type="kbp">→ Clementine Stockar-Escher</ref>
-                </seg> Commode,<lb xml:id="p1-l10"/>
-2 <del>Wiegen,</del> <seg type="com">kleine Bettchen<note xml:id="K_0099_c2">Sofortige Korrektur, zuvor: <bibl>Wiegen</bibl>.</note>
-                </seg>, Commode und Schreibtisch im kleinen Cabinete<note type="transcript">sic!</note>,<lb xml:id="p1-l11"/>
+Bett und sein Insecten-Kasten im Ofenzimmer, <rs>
+                    <persName key="Stockar-Escher (vom Glas) Clementine">Clementinens</persName>
+                    
+                </rs> Commode,<lb xml:id="p1-l10"/>
+2 <del>Wiegen,</del> kleine Bettchen<note type="com" xml:id="K_0099_c2">Sofortige Korrektur, zuvor: <orig>Wiegen</orig>.</note>
+                , Commode und Schreibtisch im kleinen Cabinete<note type="transcript">sic!</note>,<lb xml:id="p1-l11"/>
 viele Stühle, den Tisch auf der Laube, das Clavier, das <del>
                     gesch
                 </del> gestickte <hi>Canape</hi> <lb xml:id="p1-l12"/>
 und die dazu gehörenden Stühle, die ehemahls im Zimmerchen, neben Ihrem<lb xml:id="p1-l13"/>
-standen und mehrere Nachttischchen, <persName type="person" key="Escher (vom Glas) Heinrich">Papa's</persName> Waschtisch in der Kastenkammer,<lb xml:id="p1-l14"/>
-                <persName type="person" key="Escher (vom Glas) Heinrich">Papa's</persName> Schreibtisch, <add>früher</add> im grünen Cabinete im großen Hause, <del>die</del> 2 Spieltischchen,<lb xml:id="p1-l15"/>
-                <choice>
-                        <abbr>
+standen und mehrere Nachttischchen, <persName key="Escher (vom Glas) Heinrich">Papa's</persName> Waschtisch in der Kastenkammer,<lb xml:id="p1-l14"/>
+                <persName key="Escher (vom Glas) Heinrich">Papa's</persName> Schreibtisch, <add>früher</add> im grünen Cabinete im großen Hause, <del>die</del> 2 Spieltischchen,<lb xml:id="p1-l15"/>
+                <choice><abbr>
                     <hi>et. c.</hi>
-                </abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice> <choice>
-                        <abbr>
+                </abbr><expan>et cetera (und anderes)</expan></choice> <choice><abbr>
                     <hi>e. t. c.</hi>
-                </abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice> <del>Pap</del> <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName> trug <del>M</del>
-                <persName type="person" key="Escher (vom Glas) Heinrich">
-                    <add>P</add>apa</persName> an, vor dem Abfahren zu Mittag<lb xml:id="p1-l16"/>
+                </abbr><expan>et cetera (und anderes)</expan></choice> <del>Pap</del> <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName> trug <del>M</del><persName key="Escher (vom Glas) Heinrich"><add>P</add>apa</persName> an, vor dem Abfahren zu Mittag<lb xml:id="p1-l16"/>
 zu essen und das Schiff abwechselnd zu bewachen. Ein an dem Himmel<lb xml:id="p1-l17"/>
-stehendes Gewitter befahl, abzufahren. Man fuhr ab. Bis das Schiff abge<lb break="no" xml:id="p1-l18"/>laden 
-und die Meublen an Ort und Stelle getragen worden waren, bis<lb xml:id="p1-l19"/>
-                    <persName type="person" key="Escher (vom Glas) Heinrich">Papa</persName>, dem man die Kutsche<del>n</del> nach <placeName type="place" key="Belvoir (Enge, Zürich)">
+stehendes Gewitter befahl, abzufahren. Man fuhr ab. Bis das Schiff abge
+                <lb xml:id="p1-l18" break="no"/>laden 
+und die Meublen an Ort und Stelle getragen worden waren, bis<lb xml:id="p1-l19" break="no"/>
+                <persName key="Escher (vom Glas) Heinrich">Papa</persName>, dem man die Kutsche<del>n</del> nach <placeName key="Belvoir (Enge, Zürich)">
                     <hi>Belvoir</hi>
-                </placeName> geschickt hatte, da war, wurde es<lb xml:id="p1-l20"/>
-½ 7 Uhr! <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName> hatte <persName type="person" key="Escher (vom Glas) Heinrich">Papa</persName> mit dem Mittagessen gewartet, denn sie <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-hatte gar keinen Ap<add>p</add>etit. Sie ließ auch wegen Halsbeschwerden, die<lb xml:id="p2-l2"/>
-sie ja so sehr fürchtet, den <seg type="com">
-                    <persName type="person" key="Rahn-Escher Hans Konrad">Arzt</persName>
-                    <note xml:id="K_0099_c3">Vermutlich <persName type="person" key="Rahn-Escher Hans Konrad">Hans Konrad Rahn-Escher</persName> (1802–1881), Arzt in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>.</note>
-                </seg> rufen, der, nachdem er den Hals<lb xml:id="p2-l3"/>
-untersucht hatte, fand, daß sich einige kleine Geschwüre darin befin<lb break="no" xml:id="p2-l4"/>den, 
-und uns sagte, es sey ein Anfall von Scorbut, der mit Wallungen<lb xml:id="p2-l5"/>
+                </placeName> geschickt hatte, da war, wurde es<lb xml:id="p1-l20" break="no"/>
+½ 7 Uhr! <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName> hatte <persName key="Escher (vom Glas) Heinrich">Papa</persName> mit dem Mittagessen gewartet, denn sie <pb n="2"/>
+                <lb xml:id="p2-l1" break="no"/>
+hatte gar keinen Ap<add>p</add>etit. Sie ließ auch wegen Halsbeschwerden, die<lb xml:id="p2-l2" break="no"/>
+sie ja so sehr fürchtet, den 
+                    <persName key="Rahn-Escher Hans Konrad">Arzt</persName>
+                    <note type="com" xml:id="K_0099_c3">Vermutlich <persName key="Rahn-Escher Hans Konrad">Hans Konrad Rahn-Escher</persName> (1802–1881), Arzt in <placeName key="Zürich (Stadt)">Zürich</placeName>.</note>
+                 rufen, der, nachdem er den Hals<lb xml:id="p2-l3" break="no"/>
+untersucht hatte, fand, daß sich einige kleine Geschwüre darin befin
+                <lb xml:id="p2-l4" break="no"/>den, 
+und uns sagte, es sey ein Anfall von Scorbut, der mit Wallungen<lb xml:id="p2-l5" break="no"/>
 und Hitzen, welche er aus ihrem Pulse schloß, sehr zusammenhange<del>n</del>. <metamark>x</metamark> <note type="transcript">Zeichen für Einschub entlang des linken Seitenrandes:</note>
-                <add xml:id="p2-l5-i1">
-                    <metamark>x</metamark>Nach einer unruhigen Nacht ist <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName> <date when="1831-09-08">heute</date> ganz besonders angegriffen.<lb xml:id="p2-l6"/>
+                <add>
+                    <metamark>x</metamark>Nach einer unruhigen Nacht ist <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName> <date when="1831-09-08">heute</date> ganz besonders angegriffen.<lb xml:id="p2-l6"/>
 Ihre Halsbeschwerden dauern fort, und eine große Mattigkeit erlaubt<lb xml:id="p2-l7"/>
 ihr kaum, sich im Hause herum zu schleppen; dennoch sollte sie, Geschäfte halber<lb xml:id="p2-l8"/>
-diesen Nachmittag nach <placeName type="place" key="Belvoir (Enge, Zürich)">
+diesen Nachmittag nach <placeName key="Belvoir (Enge, Zürich)">
                         <hi>Belvoir</hi>
                     </placeName> fahren; ob es ihr die Kräfte erlauben werden,<lb xml:id="p2-l9"/>
 scheint ihr und mir zweifelhaft. Wie leid, daß sie sich unter diesen Umständen so unwohl fühlt!</add> </p>
       <p rend="indent" xml:id="K_0099_p5">
                 <lb xml:id="p2-l10"/>Ich muß Ihnen eine neue Widerwärtigkeit erzählen.<lb xml:id="p2-l11"/>  <date when="1831-09-06">
-                    <del>Mittwochs erhie</del> Dienstags</date> Nachmittag erhielt <seg type="com">
-                    <persName type="person" key="Frick Johannes Heinrich">Frick</persName>
-                    <note xml:id="K_0099_c4">
-                        <persName type="person" key="Frick Johannes Heinrich">Johannes Heinrich Frick</persName> (1800–1855), Kutscher der Familie Escher.</note>
-                </seg> den Befehl,<lb xml:id="p2-l12"/>  <date when="1831-09-07">Mittwoch</date> Nachmittags um 1 Uhr unfehlbar in die Caserne zu gehen, um<lb xml:id="p2-l13"/>
-mit jedem Augenblicke zum Zuge nach <placeName type="place" key="Basel-Stadt">Basel</placeName> bereit zu seyn. Alle<lb xml:id="p2-l14"/>
-Leute glaubten, ein Fall, wie dieser würde eine Ausnahme ma<lb break="no" xml:id="p2-l15"/>chen; <persName type="person" key="Escher (vom Glas) Heinrich">Papa</persName> ging zu <seg type="com">Herrn Oberst <persName type="person" key="Bürkli Johann Georg">Bürkli</persName>
-                    <note xml:id="K_0099_c5">
-                        <persName type="person" key="Bürkli Johann Georg">Johann Georg Bürkli</persName> (1793–1851), Grossrat (<placeName type="place" key="Zürich">ZH</placeName>), Oberstleutnant. – In den bürgerkriegsähnlichen Wirren, die der Abspaltung von <placeName type="place" key="Basel-Landschaft">Basel-Landschaft</placeName> von <placeName type="place" key="Basel-Stadt">Basel-Stadt</placeName> vorangingen, besetzten <choice>
-                                <abbr>eidg.</abbr>
-                                <expan>eidgenössisch</expan>
-                            </choice> Interventionstruppen im September 1831 den Kanton <placeName type="place" key="Basel">Basel</placeName>. <persName type="person" key="Bürkli Johann Georg">Bürkli</persName> war Kommandant der in <placeName type="place" key="Liestal">Liestal</placeName> stationierten Truppen. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="www" target="http://www.hls-dhs-dss.ch/textes/d/D32392.php">
+                    <del>Mittwochs erhie</del> Dienstags</date> Nachmittag erhielt 
+                    <persName key="Frick Johannes Heinrich">Frick</persName>
+                    <note type="com" xml:id="K_0099_c4">
+                        <persName key="Frick Johannes Heinrich">Johannes Heinrich Frick</persName> (1800–1855), Kutscher der Familie Escher.</note>
+                 den Befehl,<lb xml:id="p2-l12"/>  <date when="1831-09-07">Mittwoch</date> Nachmittags um 1 Uhr unfehlbar in die Caserne zu gehen, um<lb xml:id="p2-l13"/>
+mit jedem Augenblicke zum Zuge nach <placeName key="Basel-Stadt">Basel</placeName> bereit zu seyn. Alle<lb xml:id="p2-l14"/>
+Leute glaubten, ein Fall, wie dieser würde eine Ausnahme ma
+                <lb xml:id="p2-l15" break="no"/>chen; <persName key="Escher (vom Glas) Heinrich">Papa</persName> ging zu Herrn Oberst <persName key="Bürkli Johann Georg">Bürkli</persName>
+                    <note type="com" xml:id="K_0099_c5">
+                        <persName key="Bürkli Johann Georg">Johann Georg Bürkli</persName> (1793–1851), Grossrat (<placeName key="Zürich">ZH</placeName>), Oberstleutnant. – In den bürgerkriegsähnlichen Wirren, die der Abspaltung von <placeName key="Basel-Landschaft">Basel-Landschaft</placeName> von <placeName key="Basel-Stadt">Basel-Stadt</placeName> vorangingen, besetzten <choice><abbr>eidg.</abbr><expan>eidgenössisch</expan></choice> Interventionstruppen im September 1831 den Kanton <placeName key="Basel">Basel</placeName>. <persName key="Bürkli Johann Georg">Bürkli</persName> war Kommandant der in <placeName key="Liestal">Liestal</placeName> stationierten Truppen. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref target="http://www.hls-dhs-dss.ch/textes/d/D32392.php">
                             <ref type="lit">HLS online</ref>, Bürkli Johann Georg</ref>; <ref type="letter" target="K_0167_c7"><!--→ Nr. 26 (Kommentar)--></ref>.</note>
-                </seg>, um ihn um <persName type="person" key="Frick Johannes Heinrich">Frick's</persName> Ent<lb break="no" xml:id="p2-l16"/>lassung 
-zu bitten. Er konnte es aber nicht erlauben. <persName type="person" key="Frick Johannes Heinrich">Frick</persName> ist also<lb xml:id="p2-l17"/>
-in der Caserne und ist seit <date when="1831-09-07">gestern</date> um 1 Uhr bis jetzt um 11 Uhr<lb xml:id="p2-l18"/>
-nur <date when="1831-09-07">gestern</date> Abend für einen Augenblick gekommen. Denken<lb xml:id="p2-l19"/>
+                , um ihn um <persName key="Frick Johannes Heinrich">Frick's</persName> Ent
+                <lb xml:id="p2-l16" break="no"/>lassung 
+zu bitten. Er konnte es aber nicht erlauben. <persName key="Frick Johannes Heinrich">Frick</persName> ist also<lb xml:id="p2-l17" break="no"/>
+in der Caserne und ist seit <date when="1831-09-07">gestern</date> um 1 Uhr bis jetzt um 11 Uhr<lb xml:id="p2-l18" break="no"/>
+nur <date when="1831-09-07">gestern</date> Abend für einen Augenblick gekommen. Denken<lb xml:id="p2-l19" break="no"/>
 Sie sich unsre Verlegenheit!</p>
       <p rend="right" xml:id="K_0099_p6">
                 <lb xml:id="p2-l20"/>
 				d. <date when="1831-09-09">9<hi rend="sup">ten</hi> September.</date> <note type="transcript">Datumsangabe in Zierschrift</note> </p>
       <p rend="indent" xml:id="K_0099_p7">
-                <lb xml:id="p2-l21"/>Ich erhielt <seg type="com">Ihren lieben Brief<note xml:id="K_0099_c6">Brief nicht ermittelt.</note>
-                </seg> diesen Morgen, theuerster Lehrer! und<lb xml:id="p2-l22"/>
+                <lb xml:id="p2-l21"/>Ich erhielt Ihren lieben Brief<note type="com" xml:id="K_0099_c6">Brief nicht ermittelt.</note>
+                 diesen Morgen, theuerster Lehrer! und<lb xml:id="p2-l22"/>
 danke Ihnen herzlichst dafür. Wegen des <del>O</del> freundlichen Besuches <del>zu</del> <del>uns</del> <lb xml:id="p2-l23"/>
-von Ihnen, tragen mir meine <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">
-                    <persName type="person" key="Escher (vom Glas) Heinrich">Eltern</persName>
+von Ihnen, tragen mir meine <persName key="Escher-Zollikofer (von Altenklingen) Lydia">
+                    <persName key="Escher (vom Glas) Heinrich">Eltern</persName>
                 </persName>
 				 auf, Ihnen zu schreiben: <hi rend="underline">So bald</hi> <lb xml:id="p2-l24"/>
                 <hi rend="underline">als möglich</hi>; denn, sagten Sie, Sie nehmen ja mit allem vorlieb; und seyen<lb xml:id="p2-l25"/>
 ja kein Gast, sondern ein theurer Hausgenosse. Ach! wann wird dieß sich<lb xml:id="p2-l26"/>
-in der wahren Bedeutung des Wortes erwahren? Es thut <persName type="person" key="Escher (vom Glas) Heinrich">Papa</persName> <lb xml:id="p2-l27"/>
+in der wahren Bedeutung des Wortes erwahren? Es thut <persName key="Escher (vom Glas) Heinrich">Papa</persName> <lb xml:id="p2-l27"/>
 sehr leid, Ihnen das Gefährt nicht schicken zu können; aber sobald der<lb xml:id="p2-l28"/>
-        Zug vom Neuberg nach <placeName type="place" key="Belvoir (Enge, Zürich)">
+        Zug vom Neuberg nach <placeName key="Belvoir (Enge, Zürich)">
                     <hi>Belvoir</hi>
                 </placeName> fertig ist, beginnt der <hi>Meubles</hi>-Zug<lb xml:id="p2-l29"/>
 vom Magazinhof in den Neuberg, und dazu sind unsere Braunen <pb n="3"/>
                 <lb xml:id="p3-l1"/>
-unumgänglich nothwendig. <persName type="person" key="Escher (vom Glas) Heinrich">Papa</persName> hofft, es werde keinen solchen<lb xml:id="p3-l2"/>
-Fall mehr geben und sie werden später nur mit <hi rend="underline">unsern</hi> Pfer<lb break="no" xml:id="p3-l3"/>den 
-nach <placeName type="place" key="Belvoir (Enge, Zürich)">
+unumgänglich nothwendig. <persName key="Escher (vom Glas) Heinrich">Papa</persName> hofft, es werde keinen solchen<lb xml:id="p3-l2"/>
+Fall mehr geben und sie werden später nur mit <hi rend="underline">unsern</hi> Pfer
+                <lb xml:id="p3-l3" break="no"/>den 
+nach <placeName key="Belvoir (Enge, Zürich)">
                     <hi>Belvoir</hi>
                 </placeName> kommen.</p>
       <p rend="indent" xml:id="K_0099_p8">
                 <lb xml:id="p3-l4"/>Von Neuem ein trüber Himmel! Diesen Morgen<lb xml:id="p3-l5"/>
         regnete es unaufhörlich. Jetzt schon<add>et</add> es zwar. Ob dieses fortdauern<lb xml:id="p3-l6"/>
-werde, ist zweife<del>h</del>lhaft. Und doch sollten diesen Nachmittag die Bett<lb break="no" xml:id="p3-l7"/>stücke 
-zu den, sich schon dort befindenden Bettstellen nach <placeName type="place" key="Belvoir (Enge, Zürich)">
+werde, ist zweife<del>h</del>lhaft. Und doch sollten diesen Nachmittag die Bett
+                <lb xml:id="p3-l7" break="no"/>stücke 
+zu den, sich schon dort befindenden Bettstellen nach <placeName key="Belvoir (Enge, Zürich)">
                     <hi>Belvoir</hi>
-                </placeName>
-                    <lb xml:id="p3-l8"/>
-transportirt werden, und dazu ist schönes Wetter durchaus<lb xml:id="p3-l9"/>
-nothwendig! Wir haben im Plan in der Nacht vom <date when="1831-09-09">Samstag</date> auf<lb xml:id="p3-l10"/>
-den <date when="1831-09-10">Sontag</date>
-                    <note type="transcript">sic!</note> im Gut zu schlafen. Also müssen Morgens die <del>D</del> 4<lb xml:id="p3-l11"/>
-Dienstenbetten und Alles sonst <add>noch</add> im Hause befindliche dorthin<lb xml:id="p3-l12"/>
+                </placeName> <lb xml:id="p3-l8" break="no"/>
+transportirt werden, und dazu ist schönes Wetter durchaus<lb xml:id="p3-l9" break="no"/>
+nothwendig! Wir haben im Plan in der Nacht vom <date when="1831-09-09">Samstag</date> auf<lb xml:id="p3-l10" break="no"/>
+den <date when="1831-09-10">Sontag</date> <note type="transcript">sic!</note> im Gut zu schlafen. Also müssen Morgens die <del>D</del> 4<lb xml:id="p3-l11" break="no"/>
+Dienstenbetten und Alles sonst <add>noch</add> im Hause befindliche dorthin<lb xml:id="p3-l12" break="no"/>
 im Schiffe gebracht werden. Möge der Himmel sich aufheitern!!</p>
       <p rend="indent" xml:id="K_0099_p9">
                 <lb xml:id="p3-l13"/>
-        <persName type="person" key="Frick Johannes Heinrich">Frick</persName> ist zwar noch nicht nach <placeName type="place" key="Basel-Stadt">Basel</placeName> gezogen; aber er<lb xml:id="p3-l14"/>
+        <persName key="Frick Johannes Heinrich">Frick</persName> ist zwar noch nicht nach <placeName key="Basel-Stadt">Basel</placeName> gezogen; aber er<lb xml:id="p3-l14"/>
 muß den ganzen Tag in der Caserne seyn. Ob er dort oder in<lb xml:id="p3-l15"/>
-                <placeName type="place" key="Basel-Stadt">Basel</placeName> sey, ist uns Geschäfte halber ganz gleichgültig. Als ich<lb xml:id="p3-l16"/>
+                <placeName key="Basel-Stadt">Basel</placeName> sey, ist uns Geschäfte halber ganz gleichgültig. Als ich<lb xml:id="p3-l16"/>
         ihm ankündigt<note type="transcript">sic!</note>, daß er in die Caserne gehen <del>müsse</del> und des<lb xml:id="p3-l17"/>
-Befehles, nach <placeName type="place" key="Basel-Stadt">Basel</placeName> zu ziehen, gewärtig seyn müsse, kamen<lb xml:id="p3-l18"/>
-ihm im Gedanken <del>kamen ihm im Gedanken</del> an die <add>bey uns</add> zu verrichten<lb break="no" xml:id="p3-l19"/>den 
-Geschäften Thränen in die Augen. <seg type="com">
-                    <persName type="person" key="Jacob">Jacob</persName>
-                    <note xml:id="K_0099_c7">Person nicht ermittelt.</note>
-                </seg> kann uns nun zum Glü<lb break="no" xml:id="p3-l20"/>cke 
+Befehles, nach <placeName key="Basel-Stadt">Basel</placeName> zu ziehen, gewärtig seyn müsse, kamen<lb xml:id="p3-l18"/>
+ihm im Gedanken <del>kamen ihm im Gedanken</del> an die <add>bey uns</add> zu verrichten
+                <lb xml:id="p3-l19" break="no"/>den 
+Geschäften Thränen in die Augen. 
+                    <persName key="Jacob">Jacob</persName>
+                    <note type="com" xml:id="K_0099_c7">Person nicht ermittelt.</note>
+                 kann uns nun zum Glü
+                <lb xml:id="p3-l20" break="no"/>cke 
 seine Stelle vertreten!</p>
       <p rend="indent" xml:id="K_0099_p10">
                 <lb xml:id="p3-l21"/>
-        <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName> hatte <add>an</add> dieser Nacht eine noch unruhigere als die letzte. Sie<lb xml:id="p3-l22"/>
+        <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName> hatte <add>an</add> dieser Nacht eine noch unruhigere als die letzte. Sie<lb xml:id="p3-l22"/>
 wurde von einer solchen Schlaflosigkeit geplagt, daß sie um 2 Uhr schwankte,<lb xml:id="p3-l23"/>
-ob sie aufstehen wolle oder nicht. Viel mag<del>en</del> <del>die vielen</del> hiezu das Nach<lb break="no" xml:id="p3-l24"/>sinnen
- nach den Einrichtungen in <placeName type="place" key="Belvoir (Enge, Zürich)">
+ob sie aufstehen wolle oder nicht. Viel mag<del>en</del> <del>die vielen</del> hiezu das Nach
+                <lb xml:id="p3-l24" break="no"/>sinnen
+ nach den Einrichtungen in <placeName key="Belvoir (Enge, Zürich)">
                     <hi>Belvoir</hi>
-                </placeName> beygetragen haben.<lb xml:id="p3-l25"/>
-Wir werden die erste Zeit eigentlich nur campirt seyn, denn <add>so Vieles ist unbeendiget</add>, <hi rend="underline">nicht Ein</hi>
-                    <lb xml:id="p3-l26"/>
+                </placeName> beygetragen haben.<lb xml:id="p3-l25" break="no"/>
+Wir werden die erste Zeit eigentlich nur campirt seyn, denn <add>so Vieles ist unbeendiget</add>, <hi rend="underline">nicht Ein</hi> <lb xml:id="p3-l26" break="no"/>
 Vorhang <add>
-                    <choice>
-                            <abbr>z. B.</abbr>
-                            <expan>zum Beispiel</expan>
-                        </choice> </add> ist aufgemacht! Ihr Kopfweh <del>ist</del> hat sich wieder eingestellt, aber <pb n="4"/>
-                    <lb xml:id="p4-l1"/>
-die Halsbeschwerden weichen den angewandten Mitteln! Ihre Mattigkeit<lb xml:id="p4-l2"/>
+                    <choice><abbr>z. B.</abbr><expan>zum Beispiel</expan></choice> </add> ist aufgemacht! Ihr Kopfweh <del>ist</del> hat sich wieder eingestellt, aber <pb n="4"/>
+                <lb xml:id="p4-l1" break="no"/>
+die Halsbeschwerden weichen den angewandten Mitteln! Ihre Mattigkeit<lb xml:id="p4-l2" break="no"/>
 ist sehr groß!</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="center" xml:id="K_0099_p11">
                     <lb xml:id="p4-l3"/>Mit den herzlichsten Grüßen beauftragt<lb xml:id="p4-l4"/>
@@ -296,11 +172,9 @@ sich sehr nach Ihrer Ankunft<lb xml:id="p4-l7"/>
 sehnenden und dieselbe bald<lb xml:id="p4-l8"/>
 geschehen zu sehen hoffender</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="center" xml:id="K_0099_p12">
                     <lb xml:id="p4-l9"/>
       Alfred. <note type="transcript">Vorname als Unterschrift in lateinischer Schrift mit verschnörkelter Initiale</note> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

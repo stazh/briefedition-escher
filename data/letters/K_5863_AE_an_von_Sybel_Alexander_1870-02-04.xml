@@ -1,268 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5863" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Alexander von Sybel, Zürich, Freitag, Februar 4, 1870</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Abzug">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_007</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Bankinstitute</item>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Schweizerische Centralbahn (SCB)</item>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Sybel Alexander von" type="addressee">Alexander von Sybel</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1870-02-04">Freitag, Februar 4, 1870</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-09-12" who="FM">transkribiert
-                
-            </change>
-            <change when="2014-05-21" who="IB">Transkriptionsverifizierung T. Binder
-          umgesetzt
-                
-            </change>
-            <change when="2014-06-24" who="MB">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-06-24" who="IB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-07" who="CH">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-10" who="LH">Übertragung der Transkriptionsverifizierung
-          geprüft
-                
-            </change>
-            <change when="2014-07-17" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-            <change when="2014-10-03" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-10-03" who="LB">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_5863" type="Brief" subtype="Abzug"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Alexander von Sybel, Zürich, Freitag, 04. Februar 1870</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_007</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Finanzierung</term><term>Gotthardbahnprojekt</term><term>Bankinstitute</term><term>Schweizerische Nordostbahn (NOB)</term><term>Schweizerische Centralbahn (SCB)</term><term>Öffentliche Beteiligungen (Infrastruktur)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Sybel Alexander von" type="sender">Alexander von Sybel</persName><placeName>Zürich</placeName><date when="1870-02-04">04. Februar 1870</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_5863_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_5863_c0">Nachträgliche Adresse oben links auf Seite 1 von
-              Eschers Hand mit Bleistift: <bibl>
-                                <choice>
-                                    <abbr>H.</abbr>
-                                    <expan>Herr</expan>
-                                </choice> v.
-                Sybel | Abgeordneten <choice>
-                                    <abbr>&amp;<hi rend="sup">ca</hi> </abbr>
-                                    <expan>et cetera (und anderes)</expan>
-                                </choice> | <placeName type="place" key="Berlin (D)">Berlin</placeName>
-                            </bibl>.</note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-          <date when="1870-02-04">4 <choice>
-                            <abbr>Febr<hi rend="sup">r</hi> </abbr>
-                            <expan>Februar</expan>
-                        </choice> 1870</date>. </p>
+        <p rend="right" xml:id="K_5863_p1"> <note type="com" xml:id="K_5863_c0">Nachträgliche Adresse oben links auf Seite 1 von
+              Eschers Hand mit Bleistift: <orig><choice><abbr>H.</abbr><expan>Herr</expan></choice> v.
+                Sybel | Abgeordneten <choice><abbr>&amp;<hi rend="sup">ca</hi> </abbr><expan>et cetera (und anderes)</expan></choice> | <placeName key="Berlin (D)">Berlin</placeName></orig>.</note> <lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
+          <date when="1870-02-04">4 <choice><abbr>Febr<hi rend="sup">r</hi> </abbr><expan>Februar</expan></choice> 1870</date>. </p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_5863_p2">
-                    <lb xml:id="p1-l2"/>Mein verehrtester Herr!</p>
+        <p rend="left" xml:id="K_5863_p2"><lb xml:id="p1-l2"/>Mein verehrtester Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_5863_p3">
-                <lb xml:id="p1-l3"/>Im Besitze Ihres geschätzten <seg type="ref">Schrei<lb break="no" xml:id="p1-l4"/>bens<ref type="letter" target="K_5861"/>
-                </seg> vom <date when="1870-01-30">30. <choice>
-                            <abbr>vor. Mon.</abbr>
-                            <expan>voriger Monat</expan>
-                        </choice> </date> &amp; Ihres von <placeName type="place" key="Köln (D)">Cöln</placeName> 
-        datir<lb break="no" xml:id="p1-l5"/>ten Telegrammes vom <date when="1870-02-01">1 <choice>
-                            <abbr>dss. Mon.</abbr>
-                            <expan>dieses Monats</expan>
-                        </choice> </date> hätte ich Ihnen 
-        <lb xml:id="p1-l6"/>umgehend auf die in denselben enthaltenen 
-        <lb xml:id="p1-l7"/>wichtigen Mittheilungen geantwortet, wenn 
-        <lb xml:id="p1-l8"/>Sie mir nicht in Ihrerm Telegramme <seg type="ref">briefliche 
-          <lb xml:id="p1-l9"/>Nachrichten<ref type="letter" target="K_5864"/>
-                </seg> in
-        Aussicht gestellt &amp; ich es für an<lb break="no" xml:id="p1-l10"/>gezeigt gehalten hätte,
-        dieselben abzuwarten, <lb xml:id="p1-l11"/>bevor ich Ihnen schreibe. Da nun aber der er<lb break="no" xml:id="p1-l12"/>wartete Brief mir bis zur Stunde nicht zu<lb break="no" xml:id="p1-l13"/>gekommen
-        ist, so darf ich es doch nicht länger <lb xml:id="p1-l14"/>verschieben, mein Antwortschreiben an
-        Sie ab<lb break="no" xml:id="p1-l15"/>gehen zu lassen &amp; zwar umso weniger, da es zum <lb xml:id="p1-l16"/>Theile dringlicher Natur ist. </p>
-      <p rend="indent" xml:id="K_5863_p4">
-                <lb xml:id="p1-l17"/>Ihren <choice>
-                        <abbr>gef.</abbr>
-                        <expan>gefällig</expan>
-                    </choice> Mittheilungen habe ich mit <lb xml:id="p1-l18"/>großer Befreidigung
-        entnommen. <lb xml:id="p1-l19"/>1, daß die Herren <persName type="person" key="Bleichröder Gerson von">Bleichröder</persName>, <persName type="person" key="Hansemann Adolph von">Hansemann</persName> <pb n="2"/>
-                <lb xml:id="p2-l1"/>&amp; <persName type="person" key="Oppenheim Abraham von">Oppenheim</persName> sich bereit erklärt haben,
-          ge<lb break="no" xml:id="p2-l2"/>meinschaftlich mit unserm Schweizerischen <lb xml:id="p2-l3"/>Consortium das Capital für die Ausfüh<lb break="no" xml:id="p2-l4"/>rung der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn zu beschaffen; <lb xml:id="p2-l5"/>2., daß <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Bleichröder Gerson von">Bleichröder</persName>
-        in Folge der Beden<lb break="no" xml:id="p2-l6"/>ken, die ich gegen den ersten von ihm <lb xml:id="p2-l7"/>entworfenen Finanzplan zu erheben <lb xml:id="p2-l8"/>genöthigt war, die Geneigtheit
-          ausge<lb break="no" xml:id="p2-l9"/>sprochen hat, denselben einer Modifica<lb break="no" xml:id="p2-l10"/>tion zu unterwerfen; <lb xml:id="p2-l11"/>3., daß in <placeName type="place" key="Berlin (D)">Berlin</placeName> eine demnächst abzuhal<lb break="no" xml:id="p2-l12"/>tende Conferenz zwischen den
-          <placeName type="place" key="Preussen (Königreich)">Preußischen</placeName>
-                    <lb xml:id="p2-l13"/>Bankhäusern, <choice>
-                        <abbr>bez.weise</abbr>
-                        <expan>beziehungsweise</expan>
-                    </choice> Bankinstituten &amp; <lb xml:id="p2-l14"/>uns zu abschließlichen Verhandlungen über <lb xml:id="p2-l15"/>die Bildung der
-        Gesellschaft zur Ausführung <lb xml:id="p2-l16"/>der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn in Vorschlag gebracht wird. <lb xml:id="p2-l17"/>Ich wiederhole, daß ich mich dieser wichti<lb break="no" xml:id="p2-l18"/>gen Ergebnisse Ihrer
-        unermüdlichen Thätig<lb break="no" xml:id="p2-l19"/>keit, welche durch die günstige Stimmung für <lb xml:id="p2-l20"/>den <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName> in den
-        offiziellen Kreisen <placeName type="place" key="Berlin (D)">Ber<pb n="3"/>
-                        <lb xml:id="p3-l1"/>lin's</placeName> auf's glücklichste secundirt worden ist, <lb xml:id="p3-l2"/>sehr freue, &amp;
-        ich zweifle nicht daran, daß der <lb xml:id="p3-l3"/>Ausschuß unsers Consortium's, dem ich –
-        nach <lb xml:id="p3-l4"/>der Haltung Ihres letzten Briefes zu schlie<lb break="no" xml:id="p3-l5"/>ßen –
-        nunmehr von allem bisher Geschehenen <lb xml:id="p3-l6"/>rückhaltlose Mittheilung glaube machen
-        zu <lb xml:id="p3-l7"/>dürfen, den gleichen Eindruck empfangen <lb xml:id="p3-l8"/>wird. Bevor ich
-        den Ausschuß berathen habe, <lb xml:id="p3-l9"/>was <date when="1870-02-08">künftigen Dienstag</date>
-        geschehen wird, kann <lb xml:id="p3-l10"/>ich Ihnen unbedenklich erklären, daß wir <lb xml:id="p3-l11"/>an einer Conferenz, wie die uns vorgeschla<lb break="no" xml:id="p3-l12"/>gene, mit
-        Vergnügen Theil nehmen wer<lb break="no" xml:id="p3-l13"/>den &amp; daß sie auch hierseits als das
-          geeigne<lb break="no" xml:id="p3-l14"/>teste Mittel angesehen wird, um die Bildung <lb xml:id="p3-l15"/>der Gesellschaft für Ausführung der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>
-                    <lb break="no" xml:id="p3-l16"/>bahn nach Thunlichkeit zu beschleunigen. </p>
-      <p rend="indent" xml:id="K_5863_p5">
-                <lb xml:id="p3-l17"/>Als sehr fördernd für den Zweck, den wir <lb xml:id="p3-l18"/>im Auge haben,
-        würde ich es übrigens be<lb break="no" xml:id="p3-l19"/>trachten, wenn <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Bleichröder Gerson von">Bleichröder</persName> &amp; seine
-        Freunde <lb xml:id="p3-l20"/>uns den von ihnen in Folge unserer Corre<lb break="no" xml:id="p3-l21"/>spondenz modifizirten Entwurf des Finanz<pb n="4"/>
-                    <lb xml:id="p4-l1"/>planes <hi rend="underline">vor</hi>
-        der Conferenz zu übermitteln <lb xml:id="p4-l2"/>die Güte hätten. Wir würden dadurch in <lb xml:id="p4-l3"/>die Lage gesetzt, den Entwurf mit unsern <lb xml:id="p4-l4"/>Freunden aus der
-        Finanz- &amp; aus der poli<lb break="no" xml:id="p4-l5"/>tischen Welt besprechen zu können – es
-          wür<lb break="no" xml:id="p4-l6"/>de dieß in <hi rend="underline">ganz confidentieller</hi> Weise gesche<lb break="no" xml:id="p4-l7"/>hen – &amp; es wäre in Folge dessen die hierseitige <lb xml:id="p4-l8"/>Abordnung
-        zu der Conferenz eher im Stande, <lb xml:id="p4-l9"/>zu raschen &amp; abschließlichen
-        Vereinbarungen <lb xml:id="p4-l10"/>Hand zu bieten. Ich kann <hi rend="underline">nicht genug</hi> Nachdruck <lb xml:id="p4-l11"/>darauf legen, wie zweckmäßig dieses Ver<lb break="no" xml:id="p4-l12"/>fahren wäre,
-        &amp; ich ersuche Sie <hi rend="underline">sehr</hi>, darauf zu <lb xml:id="p4-l13"/>dringen, daß es in Anwendung
-        gebracht <lb xml:id="p4-l14"/>
-                <supplied type="unclear">werde</supplied>
-                <note type="transcript">schlecht erkennbar auf
+    </front><body>
+      <p rend="indent" xml:id="K_5863_p3"><lb xml:id="p1-l3"/>Im Besitze Ihres geschätzten <rs>Schrei<lb xml:id="p1-l4" break="no"/>bens<ref type="letter" target="K_5861"/></rs> vom <date when="1870-01-30">30. <choice><abbr>vor. Mon.</abbr><expan>voriger Monat</expan></choice> </date> &amp; Ihres von <placeName key="Köln (D)">Cöln</placeName> 
+        datir<lb xml:id="p1-l5" break="no"/>ten Telegrammes vom <date when="1870-02-01">1 <choice><abbr>dss. Mon.</abbr><expan>dieses Monats</expan></choice> </date> hätte ich Ihnen 
+        <lb xml:id="p1-l6" break="no"/>umgehend auf die in denselben enthaltenen 
+        <lb xml:id="p1-l7" break="no"/>wichtigen Mittheilungen geantwortet, wenn 
+        <lb xml:id="p1-l8" break="no"/>Sie mir nicht in Ihrerm Telegramme <rs>briefliche 
+          <lb xml:id="p1-l9"/>Nachrichten<ref type="letter" target="K_5864"/></rs> in
+        Aussicht gestellt &amp; ich es für an<lb xml:id="p1-l10" break="no"/>gezeigt gehalten hätte,
+        dieselben abzuwarten, <lb xml:id="p1-l11" break="no"/>bevor ich Ihnen schreibe. Da nun aber der er<lb xml:id="p1-l12" break="no"/>wartete Brief mir bis zur Stunde nicht zu<lb xml:id="p1-l13" break="no"/>gekommen
+        ist, so darf ich es doch nicht länger <lb xml:id="p1-l14" break="no"/>verschieben, mein Antwortschreiben an
+        Sie ab<lb xml:id="p1-l15" break="no"/>gehen zu lassen &amp; zwar umso weniger, da es zum <lb xml:id="p1-l16" break="no"/>Theile dringlicher Natur ist. </p>
+      <p rend="indent" xml:id="K_5863_p4"><lb xml:id="p1-l17"/>Ihren <choice><abbr>gef.</abbr><expan>gefällig</expan></choice> Mittheilungen habe ich mit <lb xml:id="p1-l18"/>großer Befreidigung
+        entnommen. <lb xml:id="p1-l19"/>1, daß die Herren <persName key="Bleichröder Gerson von">Bleichröder</persName>, <persName key="Hansemann Adolph von">Hansemann</persName> <pb n="2"/><lb xml:id="p2-l1"/>&amp; <persName key="Oppenheim Abraham von">Oppenheim</persName> sich bereit erklärt haben,
+          ge<lb xml:id="p2-l2" break="no"/>meinschaftlich mit unserm Schweizerischen <lb xml:id="p2-l3" break="no"/>Consortium das Capital für die Ausfüh<lb xml:id="p2-l4" break="no"/>rung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn zu beschaffen; <lb xml:id="p2-l5" break="no"/>2., daß <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="Bleichröder Gerson von">Bleichröder</persName>
+        in Folge der Beden<lb xml:id="p2-l6" break="no"/>ken, die ich gegen den ersten von ihm <lb xml:id="p2-l7" break="no"/>entworfenen Finanzplan zu erheben <lb xml:id="p2-l8" break="no"/>genöthigt war, die Geneigtheit
+          ausge<lb xml:id="p2-l9" break="no"/>sprochen hat, denselben einer Modifica<lb xml:id="p2-l10" break="no"/>tion zu unterwerfen; <lb xml:id="p2-l11" break="no"/>3., daß in <placeName key="Berlin (D)">Berlin</placeName> eine demnächst abzuhal<lb xml:id="p2-l12" break="no"/>tende Conferenz zwischen den
+          <placeName key="Preussen (Königreich)">Preußischen</placeName> <lb xml:id="p2-l13" break="no"/>Bankhäusern, <choice><abbr>bez.weise</abbr><expan>beziehungsweise</expan></choice> Bankinstituten &amp; <lb xml:id="p2-l14" break="no"/>uns zu abschließlichen Verhandlungen über <lb xml:id="p2-l15" break="no"/>die Bildung der
+        Gesellschaft zur Ausführung <lb xml:id="p2-l16" break="no"/>der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn in Vorschlag gebracht wird. <lb xml:id="p2-l17" break="no"/>Ich wiederhole, daß ich mich dieser wichti<lb xml:id="p2-l18" break="no"/>gen Ergebnisse Ihrer
+        unermüdlichen Thätig<lb xml:id="p2-l19" break="no"/>keit, welche durch die günstige Stimmung für <lb xml:id="p2-l20" break="no"/>den <placeName key="St. Gotthard (Pass)">Gotthard</placeName> in den
+        offiziellen Kreisen <placeName key="Berlin (D)">Ber<pb n="3"/><lb xml:id="p3-l1" break="no"/>lin's</placeName> auf's glücklichste secundirt worden ist, <lb xml:id="p3-l2" break="no"/>sehr freue, &amp;
+        ich zweifle nicht daran, daß der <lb xml:id="p3-l3" break="no"/>Ausschuß unsers Consortium's, dem ich –
+        nach <lb xml:id="p3-l4" break="no"/>der Haltung Ihres letzten Briefes zu schlie<lb xml:id="p3-l5" break="no"/>ßen –
+        nunmehr von allem bisher Geschehenen <lb xml:id="p3-l6" break="no"/>rückhaltlose Mittheilung glaube machen
+        zu <lb xml:id="p3-l7" break="no"/>dürfen, den gleichen Eindruck empfangen <lb xml:id="p3-l8" break="no"/>wird. Bevor ich
+        den Ausschuß berathen habe, <lb xml:id="p3-l9" break="no"/>was <date when="1870-02-08">künftigen Dienstag</date>
+        geschehen wird, kann <lb xml:id="p3-l10" break="no"/>ich Ihnen unbedenklich erklären, daß wir <lb xml:id="p3-l11" break="no"/>an einer Conferenz, wie die uns vorgeschla<lb xml:id="p3-l12" break="no"/>gene, mit
+        Vergnügen Theil nehmen wer<lb xml:id="p3-l13" break="no"/>den &amp; daß sie auch hierseits als das
+          geeigne<lb xml:id="p3-l14" break="no"/>teste Mittel angesehen wird, um die Bildung <lb xml:id="p3-l15" break="no"/>der Gesellschaft für Ausführung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName> <lb xml:id="p3-l16" break="no"/>bahn nach Thunlichkeit zu beschleunigen. </p>
+      <p rend="indent" xml:id="K_5863_p5"><lb xml:id="p3-l17"/>Als sehr fördernd für den Zweck, den wir <lb xml:id="p3-l18"/>im Auge haben,
+        würde ich es übrigens be<lb xml:id="p3-l19" break="no"/>trachten, wenn <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <persName key="Bleichröder Gerson von">Bleichröder</persName> &amp; seine
+        Freunde <lb xml:id="p3-l20" break="no"/>uns den von ihnen in Folge unserer Corre<lb xml:id="p3-l21" break="no"/>spondenz modifizirten Entwurf des Finanz<pb n="4"/><lb xml:id="p4-l1" break="no"/>planes <hi rend="underline">vor</hi>
+        der Conferenz zu übermitteln <lb xml:id="p4-l2" break="no"/>die Güte hätten. Wir würden dadurch in <lb xml:id="p4-l3" break="no"/>die Lage gesetzt, den Entwurf mit unsern <lb xml:id="p4-l4" break="no"/>Freunden aus der
+        Finanz- &amp; aus der poli<lb xml:id="p4-l5" break="no"/>tischen Welt besprechen zu können – es
+          wür<lb xml:id="p4-l6" break="no"/>de dieß in <hi rend="underline">ganz confidentieller</hi> Weise gesche<lb xml:id="p4-l7" break="no"/>hen – &amp; es wäre in Folge dessen die hierseitige <lb xml:id="p4-l8" break="no"/>Abordnung
+        zu der Conferenz eher im Stande, <lb xml:id="p4-l9" break="no"/>zu raschen &amp; abschließlichen
+        Vereinbarungen <lb xml:id="p4-l10" break="no"/>Hand zu bieten. Ich kann <hi rend="underline">nicht genug</hi> Nachdruck <lb xml:id="p4-l11" break="no"/>darauf legen, wie zweckmäßig dieses Ver<lb xml:id="p4-l12" break="no"/>fahren wäre,
+        &amp; ich ersuche Sie <hi rend="underline">sehr</hi>, darauf zu <lb xml:id="p4-l13" break="no"/>dringen, daß es in Anwendung
+        gebracht <lb xml:id="p4-l14" break="no"/><add type="?">werde</add><note type="transcript">schlecht erkennbar auf
           Abzug</note>. </p>
-      <p rend="indent" xml:id="K_5863_p6">
-                <lb xml:id="p4-l15"/>Eine drohende Wolke an dem Horizonte <lb xml:id="p4-l16"/>
-                <supplied type="unclear">unserer</supplied> Bestrebungen scheint mir die <placeName type="place" key="Italien (Königreich)">Ita<lb break="no" xml:id="p4-l17"/>lienische</placeName> Finanzwelt zu sein! Bisher hielt <lb xml:id="p4-l18"/>
-                <supplied type="unclear">sich das</supplied> Programm fest, daß die <placeName type="place" key="Deutschland">Deutsche</placeName> &amp; die <lb xml:id="p4-l19"/>Schweizerische Finanz
-        zunächst einen Plan <lb xml:id="p4-l20"/>für die Bildung der Gesellschaft zu der Aus<lb break="no" xml:id="p4-l21"/>führung der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn
-        entwerfe &amp; daß <pb n="5"/>
-                    <lb xml:id="p5-l1"/>dann dieser Plan der <placeName type="place" key="Italien (Königreich)">Italienischen</placeName> Finanz <lb xml:id="p5-l2"/>theils zur
-        Geltendmachung von Ausstellun<lb break="no" xml:id="p5-l3"/>gen, die sie zu machen haben möchte,
-        theils mit <lb xml:id="p5-l4"/>der Einladung mitgetheilt werde, der Com<lb break="no" xml:id="p5-l5"/>bination, &amp; zwar in erheblichem Maaße, beizu<lb break="no" xml:id="p5-l6"/>treten. In meiner
-        Correspondenz mit dem <lb xml:id="p5-l7"/>
-                    <hi>quasi</hi> Vertreter der <placeName type="place" key="Italien (Königreich)">Italienischen</placeName> Finanz, <lb xml:id="p5-l8"/>dem Baron <persName type="person" key="Podestà Andrea">Podesta</persName>, Syndic von <placeName type="place" key="Genua (I)">Genua</placeName>, ist <lb xml:id="p5-l9"/>es mir bis zu diesem Augenblicke
-        gelungen, <lb xml:id="p5-l10"/>jenes Programm aufrecht zu erhalten. Ich <lb xml:id="p5-l11"/>sehe
-        aber wohl &amp; in jedem Briefe, den ich <lb xml:id="p5-l12"/>von <persName type="person" key="Podestà Andrea">Podesta</persName> erhalte, mehr, daß diesen <placeName type="place" key="Italien (Königreich)">Italie<lb break="no" xml:id="p5-l13"/>nischen</placeName> Herren, &amp; zwar
-        namentlich den <placeName type="place" key="Genua (I)">Ge<lb break="no" xml:id="p5-l14"/>nuesen</placeName>, die
-        Geduld zu reißen beginnt &amp; daß <lb xml:id="p5-l15"/>sie nähere Mittheilungen über die
-          Verhand<lb break="no" xml:id="p5-l16"/>lungen zu erhalten wünschen, welche in Be<lb break="no" xml:id="p5-l17"/>treff der Bildung der Gesellschaft zwischen <lb xml:id="p5-l18"/>
-                    <placeName type="place" key="Deutschland">Deutschland</placeName> &amp; der Schweiz gepflogen werden. <lb xml:id="p5-l19"/>Ich fürchte sehr, daß, wenn nun eine Conferenz, <lb xml:id="p5-l20"/>wie die von
-          <placeName type="place" key="Berlin (D)">Berlin</placeName> vorgeschlagene &amp; von <lb xml:id="p5-l21"/>uns angenommene abgehalten wird, ohne <pb n="6"/>
-                    <lb xml:id="p6-l1"/>daß die <placeName type="place" key="Italien (Königreich)">Italienische</placeName> Finanz dabei vertreten <lb xml:id="p6-l2"/>ist,
-        hieraus Veranlassung zu Mißstimmun<lb break="no" xml:id="p6-l3"/>gen geschöpft werden möchte, welche
-        uns in <lb xml:id="p6-l4"/>
-                    <placeName type="place" key="Italien (Königreich)">Italien</placeName> sehr
-        nachtheilig werden könnten. Es <lb xml:id="p6-l5"/>dürfte also sehr der Erwägung werth sein, <lb xml:id="p6-l6"/>ob nicht <choice>
-                        <abbr>z. B.</abbr>
-                        <expan>zum Beispiel</expan>
-                    </choice> der Baron <persName type="person" key="Podestà Andrea">Podesta</persName> zu der Con<lb break="no" xml:id="p6-l7"/>ferenz eingeladen
-        &amp; ob nicht hinsichtlich der <lb xml:id="p6-l8"/>Bestimmung des Conferenzortes etwelche <lb xml:id="p6-l9"/>Rücksicht auf ihn genommen werden sollte. <lb xml:id="p6-l10"/>Ich füge bei, daß
-          <placeName type="place" key="Italien (Königreich)">Italienischer</placeName> Seits immer von <lb xml:id="p6-l11"/>einer «<hi>vingtaine de millions</hi>» die Rede ist, <lb xml:id="p6-l12"/>die von
-        dorther zu erwarten sei, &amp; daß ver<lb break="no" xml:id="p6-l13"/>sichert wird, es werden Städte,
-        Provinzen <lb xml:id="p6-l14"/>
-                    <choice>
-                        <abbr>u. s. f.</abbr>
-                        <expan>und so fort</expan>
-                    </choice> Actien übernehmen mit
-        der Verpflich<lb break="no" xml:id="p6-l15"/>tung, sie bis zur Eröffnung des großen Tun<lb break="no" xml:id="p6-l16"/>nels nicht zu verkaufen. </p>
-      <p rend="indent" xml:id="K_5863_p7">
-                <lb xml:id="p6-l17"/>Der <date when="1870-03-04">4 März</date> als Conferenztag dürfte bei <lb xml:id="p6-l18"/>uns darum auf Schwierigkeiten stoßen, weil <lb xml:id="p6-l19"/>gerade an diesem
-        tage die Generalversamm<lb break="no" xml:id="p6-l20"/>lungen der Nordostbahn &amp; der Centralbahn
-          <lb xml:id="p6-l21"/>Statt finden werden, in welchen die Beschlüsse <pb n="7"/>
-                    <lb xml:id="p7-l1"/>betreffend Subventionirung der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>
-                    <lb break="no" xml:id="p7-l2"/>bahn gefaßt werden sollen. Der <date when="1870-03-07">7
-          März</date> &amp; die <lb xml:id="p7-l3"/>darauf folgenden Tage dürften dagegen hier<lb break="no" xml:id="p7-l4"/>seits conveniren. </p>
-      <p rend="indent" xml:id="K_5863_p8">
-                <lb xml:id="p7-l5"/>Aus den offiziellen Kreisen <placeName type="place" key="Italien (Königreich)">Italiens</placeName> ha<lb break="no" xml:id="p7-l6"/>be ich in den letzten Tagen durchaus
-          günsti<lb break="no" xml:id="p7-l7"/>ge Berichte erhalten. Das gegenwärtige Mi<lb break="no" xml:id="p7-l8"/>nisterium ist dem <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>projecte
-          ent<lb break="no" xml:id="p7-l9"/>schieden gewogen &amp; wird den Vertrag zwi<lb break="no" xml:id="p7-l10"/>schen <placeName type="place" key="Italien (Königreich)">Italien</placeName> &amp; der Schweiz <choice>
-                        <abbr>betr.</abbr>
-                        <expan>betreffend</expan>
-                    </choice> dieses Project <lb xml:id="p7-l11"/>den im März
-        zusammentretenden Kammern <lb xml:id="p7-l12"/>zur Genehmigung vorlegen. Das Circular <lb xml:id="p7-l13"/>des Bauminister <persName type="person" key="Gadda Giuseppe">
-                    <hi>Gadda</hi>
-                </persName>, vermittelst des<lb break="no" xml:id="p7-l14"/>sen er die Provinz &amp; Städte
-        zur Betheili<lb break="no" xml:id="p7-l15"/>gung bei der von <placeName type="place" key="Italien (Königreich)">Italien</placeName> zu beschaffenden <lb xml:id="p7-l16"/>Subventionen
-        einladet, werden Sie gesehen <lb xml:id="p7-l17"/>haben. Es wurde in Folge einer Berathung <lb xml:id="p7-l18"/>des Gesammtministerium's erlassen. Man <lb xml:id="p7-l19"/>schreibt mir <date when="1870-02-04">heute</date> aus <placeName type="place" key="Italien (Königreich)">Italien</placeName>, <placeName type="place" key="Florenz (I)">Florenz</placeName> wer<lb break="no" xml:id="p7-l20"/>de mit dem guten Beispiele vorangehen <lb xml:id="p7-l21"/>&amp; eine Subvention für die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn <pb n="8"/>
-                    <lb xml:id="p8-l1"/>votiren. </p>
-      <p rend="indent" xml:id="K_5863_p9">
-                <lb xml:id="p8-l2"/>In der Schweiz machen wir täglich, wenn auch <lb xml:id="p8-l3"/>in langsamer
+      <p rend="indent" xml:id="K_5863_p6"><lb xml:id="p4-l15"/>Eine drohende Wolke an dem Horizonte <lb xml:id="p4-l16"/><add type="?">unserer</add> Bestrebungen scheint mir die <placeName key="Italien (Königreich)">Ita<lb xml:id="p4-l17" break="no"/>lienische</placeName> Finanzwelt zu sein! Bisher hielt <lb xml:id="p4-l18"/><add type="?">sich das</add> Programm fest, daß die <placeName key="Deutschland">Deutsche</placeName> &amp; die <lb xml:id="p4-l19"/>Schweizerische Finanz
+        zunächst einen Plan <lb xml:id="p4-l20"/>für die Bildung der Gesellschaft zu der Aus<lb xml:id="p4-l21" break="no"/>führung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn
+        entwerfe &amp; daß <pb n="5"/><lb xml:id="p5-l1" break="no"/>dann dieser Plan der <placeName key="Italien (Königreich)">Italienischen</placeName> Finanz <lb xml:id="p5-l2" break="no"/>theils zur
+        Geltendmachung von Ausstellun<lb xml:id="p5-l3" break="no"/>gen, die sie zu machen haben möchte,
+        theils mit <lb xml:id="p5-l4" break="no"/>der Einladung mitgetheilt werde, der Com<lb xml:id="p5-l5" break="no"/>bination, &amp; zwar in erheblichem Maaße, beizu<lb xml:id="p5-l6" break="no"/>treten. In meiner
+        Correspondenz mit dem <lb xml:id="p5-l7" break="no"/><hi>quasi</hi> Vertreter der <placeName key="Italien (Königreich)">Italienischen</placeName> Finanz, <lb xml:id="p5-l8" break="no"/>dem Baron <persName key="Podestà Andrea">Podesta</persName>, Syndic von <placeName key="Genua (I)">Genua</placeName>, ist <lb xml:id="p5-l9" break="no"/>es mir bis zu diesem Augenblicke
+        gelungen, <lb xml:id="p5-l10" break="no"/>jenes Programm aufrecht zu erhalten. Ich <lb xml:id="p5-l11" break="no"/>sehe
+        aber wohl &amp; in jedem Briefe, den ich <lb xml:id="p5-l12" break="no"/>von <persName key="Podestà Andrea">Podesta</persName> erhalte, mehr, daß diesen <placeName key="Italien (Königreich)">Italie<lb xml:id="p5-l13" break="no"/>nischen</placeName> Herren, &amp; zwar
+        namentlich den <placeName key="Genua (I)">Ge<lb xml:id="p5-l14" break="no"/>nuesen</placeName>, die
+        Geduld zu reißen beginnt &amp; daß <lb xml:id="p5-l15" break="no"/>sie nähere Mittheilungen über die
+          Verhand<lb xml:id="p5-l16" break="no"/>lungen zu erhalten wünschen, welche in Be<lb xml:id="p5-l17" break="no"/>treff der Bildung der Gesellschaft zwischen <lb xml:id="p5-l18" break="no"/><placeName key="Deutschland">Deutschland</placeName> &amp; der Schweiz gepflogen werden. <lb xml:id="p5-l19" break="no"/>Ich fürchte sehr, daß, wenn nun eine Conferenz, <lb xml:id="p5-l20" break="no"/>wie die von
+          <placeName key="Berlin (D)">Berlin</placeName> vorgeschlagene &amp; von <lb xml:id="p5-l21" break="no"/>uns angenommene abgehalten wird, ohne <pb n="6"/><lb xml:id="p6-l1" break="no"/>daß die <placeName key="Italien (Königreich)">Italienische</placeName> Finanz dabei vertreten <lb xml:id="p6-l2" break="no"/>ist,
+        hieraus Veranlassung zu Mißstimmun<lb xml:id="p6-l3" break="no"/>gen geschöpft werden möchte, welche
+        uns in <lb xml:id="p6-l4" break="no"/><placeName key="Italien (Königreich)">Italien</placeName> sehr
+        nachtheilig werden könnten. Es <lb xml:id="p6-l5" break="no"/>dürfte also sehr der Erwägung werth sein, <lb xml:id="p6-l6" break="no"/>ob nicht <choice><abbr>z. B.</abbr><expan>zum Beispiel</expan></choice> der Baron <persName key="Podestà Andrea">Podesta</persName> zu der Con<lb xml:id="p6-l7" break="no"/>ferenz eingeladen
+        &amp; ob nicht hinsichtlich der <lb xml:id="p6-l8" break="no"/>Bestimmung des Conferenzortes etwelche <lb xml:id="p6-l9" break="no"/>Rücksicht auf ihn genommen werden sollte. <lb xml:id="p6-l10" break="no"/>Ich füge bei, daß
+          <placeName key="Italien (Königreich)">Italienischer</placeName> Seits immer von <lb xml:id="p6-l11" break="no"/>einer «<hi>vingtaine de millions</hi>» die Rede ist, <lb xml:id="p6-l12" break="no"/>die von
+        dorther zu erwarten sei, &amp; daß ver<lb xml:id="p6-l13" break="no"/>sichert wird, es werden Städte,
+        Provinzen <lb xml:id="p6-l14" break="no"/><choice><abbr>u. s. f.</abbr><expan>und so fort</expan></choice> Actien übernehmen mit
+        der Verpflich<lb xml:id="p6-l15" break="no"/>tung, sie bis zur Eröffnung des großen Tun<lb xml:id="p6-l16" break="no"/>nels nicht zu verkaufen. </p>
+      <p rend="indent" xml:id="K_5863_p7"><lb xml:id="p6-l17"/>Der <date when="1870-03-04">4 März</date> als Conferenztag dürfte bei <lb xml:id="p6-l18"/>uns darum auf Schwierigkeiten stoßen, weil <lb xml:id="p6-l19"/>gerade an diesem
+        tage die Generalversamm<lb xml:id="p6-l20" break="no"/>lungen der Nordostbahn &amp; der Centralbahn
+          <lb xml:id="p6-l21" break="no"/>Statt finden werden, in welchen die Beschlüsse <pb n="7"/><lb xml:id="p7-l1" break="no"/>betreffend Subventionirung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName> <lb xml:id="p7-l2" break="no"/>bahn gefaßt werden sollen. Der <date when="1870-03-07">7
+          März</date> &amp; die <lb xml:id="p7-l3" break="no"/>darauf folgenden Tage dürften dagegen hier<lb xml:id="p7-l4" break="no"/>seits conveniren. </p>
+      <p rend="indent" xml:id="K_5863_p8"><lb xml:id="p7-l5"/>Aus den offiziellen Kreisen <placeName key="Italien (Königreich)">Italiens</placeName> ha<lb xml:id="p7-l6" break="no"/>be ich in den letzten Tagen durchaus
+          günsti<lb xml:id="p7-l7" break="no"/>ge Berichte erhalten. Das gegenwärtige Mi<lb xml:id="p7-l8" break="no"/>nisterium ist dem <placeName key="St. Gotthard (Pass)">Gotthard</placeName>projecte
+          ent<lb xml:id="p7-l9" break="no"/>schieden gewogen &amp; wird den Vertrag zwi<lb xml:id="p7-l10" break="no"/>schen <placeName key="Italien (Königreich)">Italien</placeName> &amp; der Schweiz <choice><abbr>betr.</abbr><expan>betreffend</expan></choice> dieses Project <lb xml:id="p7-l11" break="no"/>den im März
+        zusammentretenden Kammern <lb xml:id="p7-l12" break="no"/>zur Genehmigung vorlegen. Das Circular <lb xml:id="p7-l13" break="no"/>des Bauminister <persName key="Gadda Giuseppe"><hi>Gadda</hi></persName>, vermittelst des<lb xml:id="p7-l14" break="no"/>sen er die Provinz &amp; Städte
+        zur Betheili<lb xml:id="p7-l15" break="no"/>gung bei der von <placeName key="Italien (Königreich)">Italien</placeName> zu beschaffenden <lb xml:id="p7-l16" break="no"/>Subventionen
+        einladet, werden Sie gesehen <lb xml:id="p7-l17" break="no"/>haben. Es wurde in Folge einer Berathung <lb xml:id="p7-l18" break="no"/>des Gesammtministerium's erlassen. Man <lb xml:id="p7-l19" break="no"/>schreibt mir <date when="1870-02-04">heute</date> aus <placeName key="Italien (Königreich)">Italien</placeName>, <placeName key="Florenz (I)">Florenz</placeName> wer<lb xml:id="p7-l20" break="no"/>de mit dem guten Beispiele vorangehen <lb xml:id="p7-l21" break="no"/>&amp; eine Subvention für die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn <pb n="8"/><lb xml:id="p8-l1" break="no"/>votiren. </p>
+      <p rend="indent" xml:id="K_5863_p9"><lb xml:id="p8-l2"/>In der Schweiz machen wir täglich, wenn auch <lb xml:id="p8-l3"/>in langsamer
         &amp; mühsamer Weise, Fortschritte. <lb xml:id="p8-l4"/>Die unmittelbare Demokratie ist nicht
         dazu <lb xml:id="p8-l5"/>angethan, die Leistungsfähigkeit des Staates <lb xml:id="p8-l6"/>für die
-        Lösung großer Fragen zu bewähren. <lb xml:id="p8-l7"/>Auf der von dem Bundesrathe auf den <date when="1870-01-24">24 <lb xml:id="p8-l8"/>
-                    <choice>
-                            <abbr>vor. Mon.</abbr>
-                            <expan>voriger Monat</expan>
-                        </choice> </date>
+        Lösung großer Fragen zu bewähren. <lb xml:id="p8-l7"/>Auf der von dem Bundesrathe auf den <date when="1870-01-24">24 <lb xml:id="p8-l8"/><choice><abbr>vor. Mon.</abbr><expan>voriger Monat</expan></choice> </date>
         veranstalteten Conferenz hat die <lb xml:id="p8-l9"/>Beschaffung der Schweizerischer Seits
-          beizubrin<lb break="no" xml:id="p8-l10"/>genden Subventionen freilich namentlich <lb xml:id="p8-l11"/>in Folge der Handbietung der Eisenbahngesell<lb break="no" xml:id="p8-l12"/>schaften einen großen
-        Schritt vorwärts ge<lb break="no" xml:id="p8-l13"/>than. In der öffentlichen Meinung der Schweiz <lb xml:id="p8-l14"/>gewinnt die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>sache
-        unläugbar von <lb xml:id="p8-l15"/>Tag zu Tage. </p>
-      <p rend="indent" xml:id="K_5863_p10">
-                <lb xml:id="p8-l16"/>Die in diesen Tagen erfolgte Erklärung <persName type="person" key="Bismarck Otto von">Bis<lb break="no" xml:id="p8-l17"/>mark's</persName>, daß er das internationale
-          Schlußpro<lb break="no" xml:id="p8-l18"/>tokoll demnächst dem Reichsrathe, <choice>
-                        <abbr>bez.weise</abbr>
-                        <expan>beziehungsweise</expan>
-                    </choice> Bun<lb break="no" xml:id="p8-l19"/>desrathe vorlegen werde,
-        ist sehr erfreulich. Dem<lb break="no" xml:id="p8-l20"/>gegenüber sagte der <placeName type="place" key="Paris (F)">Pariser</placeName>
-                    <persName type="person" key="de Rothschild">Rothschild</persName> Anfangs <lb xml:id="p8-l21"/>gegenwärtiger Woche <persName type="person" key="Bekannter Alfred Eschers">einem meiner Bekannten</persName>
-                    <lb xml:id="p8-l22"/>«er wolle nicht mehr <persName type="person" key="de Rothschild">Rothschild</persName> sein, wenn der <placeName type="place" key="St. Gotthard (Pass)">Gott<lb break="no" xml:id="p8-l23"/>hard</placeName> gebaut werde!» </p>
-    </div>
-        </body>
-    <back>
+          beizubrin<lb xml:id="p8-l10" break="no"/>genden Subventionen freilich namentlich <lb xml:id="p8-l11" break="no"/>in Folge der Handbietung der Eisenbahngesell<lb xml:id="p8-l12" break="no"/>schaften einen großen
+        Schritt vorwärts ge<lb xml:id="p8-l13" break="no"/>than. In der öffentlichen Meinung der Schweiz <lb xml:id="p8-l14" break="no"/>gewinnt die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>sache
+        unläugbar von <lb xml:id="p8-l15" break="no"/>Tag zu Tage. </p>
+      <p rend="indent" xml:id="K_5863_p10"><lb xml:id="p8-l16"/>Die in diesen Tagen erfolgte Erklärung <persName key="Bismarck Otto von">Bis<lb xml:id="p8-l17" break="no"/>mark's</persName>, daß er das internationale
+          Schlußpro<lb xml:id="p8-l18" break="no"/>tokoll demnächst dem Reichsrathe, <choice><abbr>bez.weise</abbr><expan>beziehungsweise</expan></choice> Bun<lb xml:id="p8-l19" break="no"/>desrathe vorlegen werde,
+        ist sehr erfreulich. Dem<lb xml:id="p8-l20" break="no"/>gegenüber sagte der <placeName key="Paris (F)">Pariser</placeName> <persName key="de Rothschild">Rothschild</persName> Anfangs <lb xml:id="p8-l21" break="no"/>gegenwärtiger Woche <persName key="Bekannter Alfred Eschers">einem meiner Bekannten</persName> <lb xml:id="p8-l22" break="no"/>«er wolle nicht mehr <persName key="de Rothschild">Rothschild</persName> sein, wenn der <placeName key="St. Gotthard (Pass)">Gott<lb xml:id="p8-l23" break="no"/>hard</placeName> gebaut werde!» </p>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_5863_p11">
-                    <lb xml:id="p8-l24"/>Von Herzen Ihr</p>
+        <p rend="center" xml:id="K_5863_p11"><lb xml:id="p8-l24"/>Von Herzen Ihr</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_5863_p12">
-                    <lb xml:id="p8-l25"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_5863_p12"><lb xml:id="p8-l25"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

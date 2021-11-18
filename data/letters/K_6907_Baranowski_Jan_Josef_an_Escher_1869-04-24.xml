@@ -1,149 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6907" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jan Josef Baranowski an Alfred Escher, Paris, Samstag, April 24, 1869</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_014</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                        <item>Eisenbahnen Gutachten und Expertisen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Baranowski Jan Josef" type="sender">Jan Josef Baranowski</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Paris</placeName>
-                    <date when="1869-04-24">Samstag, April 24, 1869</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-01-22" who="NP">Transkription
-                
-            </change>
-            <change when="2014-02-12" who="MA">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-06-16" who="IB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-07" who="SG">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-14" who="JS">Nachbearbeitungen umgesetzt
-                
-            </change>
-            <change when="2014-07-30" who="MH">Transkriptionsverifizierung Seiterle  umgesetzt
-                
-            </change>
-            <change when="2014-08-07" who="SWK">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6907" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jan Josef Baranowski an Alfred Escher, Paris, Samstag, 24. April 1869</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_014</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Öffentliche Beteiligungen (Infrastruktur)</term><term>Eisenbahnen Gutachten und Expertisen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Baranowski Jan Josef" type="addressee">Jan Josef Baranowski</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Paris</placeName><date when="1869-04-24">24. April 1869</date></correspAction><correspAction type="received"><placeName>Bern</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_6907_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Paris (F)">Paris</placeName> le <date when="1869-04-24">24 Avril 1869</date> </p>
-      </div>
-      <div type="address">
-        <p rend="right" xml:id="K_6907_p2">
-                    <lb xml:id="p1-l2"/>
-          <choice>
-                        <abbr>N<hi rend="sup">o</hi> </abbr>
-                        <expan>Numero (Nummer)</expan>
-                    </choice> 1, rue Lafayette.</p>
-      </div>
-      <div type="address">
-        <p rend="center" xml:id="K_6907_p3">
-                    <lb xml:id="p1-l3"/>Monsieur Escher, membre du
-        	<lb xml:id="p1-l4"/>Conseil Fédéral à <hi rend="underline">
-                        <placeName type="place" key="Bern (Stadt)">Berne</placeName>
-                    </hi>.</p>
+        <p rend="right" xml:id="K_6907_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Paris (F)">Paris</placeName> le <date when="1869-04-24">24 Avril 1869</date> </p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_6907_p4">
-                    <lb xml:id="p1-l5"/>Monsieur,</p>
+        <p rend="right" xml:id="K_6907_p2"><lb xml:id="p1-l2"/>
+          <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice> 1, rue Lafayette.</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_6907_p5">
-                <lb xml:id="p1-l6"/>Depuis que j'ai eû l'honneur de vous
+      <div type="opener">
+        <p rend="center" xml:id="K_6907_p3"><lb xml:id="p1-l3"/>Monsieur Escher, membre du
+        	<lb xml:id="p1-l4"/>Conseil Fédéral à <hi rend="underline"><placeName key="Bern (Stadt)">Berne</placeName></hi>.</p>
+      </div>
+      <div type="opener">
+        <p rend="left" xml:id="K_6907_p4"><lb xml:id="p1-l5"/>Monsieur,</p>
+      </div>
+    </front><body>
+      <p rend="indent" xml:id="K_6907_p5"><lb xml:id="p1-l6"/>Depuis que j'ai eû l'honneur de vous
         	<lb xml:id="p1-l7"/>voir en 1866 j'ai passé quelque tems<note type="transcript">sic!</note> en
-        	<lb xml:id="p1-l8"/>
-                <placeName type="place" key="England">Angleterre</placeName>, et maintenant je suis fixé
-        	<lb xml:id="p1-l9"/>à <placeName type="place" key="Paris (F)">Paris</placeName>, où je m'occupe de diverses affaires
+        	<lb xml:id="p1-l8"/><placeName key="England">Angleterre</placeName>, et maintenant je suis fixé
+        	<lb xml:id="p1-l9"/>à <placeName key="Paris (F)">Paris</placeName>, où je m'occupe de diverses affaires
         	<lb xml:id="p1-l10"/>financières et industrielles. Mais comme
         	<lb xml:id="p1-l11"/> j'avais beaucoup étudié dans le tems
-        	<lb xml:id="p1-l12"/>la question des Chemins de fer de <placeName type="place" key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName>,
+        	<lb xml:id="p1-l12"/>la question des Chemins de fer de <placeName key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName>,
         	<lb xml:id="p1-l13"/>sous divers points de vue, et surtout
-        	<lb xml:id="p1-l14"/>par rapport à la formation d'une Compa<lb break="no" xml:id="p1-l15"/>gnie internationale au Capital nécéssaire
-        	<lb xml:id="p1-l16"/>pour cette importante entreprise, ce serait,
-        	<lb xml:id="p1-l17"/>ce me semble, le moment propice de vous
-        	<lb xml:id="p1-l18"/>reiterer mes offres de service, puisque,
-        	<lb xml:id="p1-l19"/>d'après les articles que je lis souvent
-        	<lb xml:id="p1-l20"/>depuis quelque tems dans les journaux, cette
-        		<lb xml:id="p1-l21"/>ligne paraît être préférée si bien en <placeName type="place" key="Deutschland">Alle<lb break="no" xml:id="p1-l22"/>magne</placeName> et en <placeName type="place" key="Italien (Königreich)">Italie</placeName>, qu'elle doit recevoir des
-        	<lb xml:id="p1-l23"/>subventions assez considérables.<note type="transcript">Kustode: Vous</note>
-                    <pb n="2"/>
-                    <lb xml:id="p2-l1"/>Vous vous rappelez sans doute sur quelles
-        	<lb xml:id="p2-l2"/>bases j'ai établi mes calculs, pour un
-        	<lb xml:id="p2-l3"/>Capital de 200,000,000 <choice>
-                        <abbr>fr</abbr>
-                        <expan>franken / francs / franchi</expan>
-                    </choice> que je crois suffiront
-        	<lb xml:id="p2-l4"/>pour la construction et l'exploitation de cette
-        	<lb xml:id="p2-l5"/>ligne, dont les études techniques ont été
-        	<lb xml:id="p2-l6"/>probablement vérifiées de mieux en mieux
-        	<lb xml:id="p2-l7"/>par nos Ingénieurs. Dans ces calculs je
-        	<lb xml:id="p2-l8"/>supposais une subvention de 60 millions;
-        	<lb xml:id="p2-l9"/>mais, quand même ce chiffre devrait, être
-        	<lb xml:id="p2-l10"/>modifié plus ou moins, il faut à mon
-        	<lb xml:id="p2-l11"/>avis préparer d'avance  un plan financier
-        	<lb xml:id="p2-l12"/>
-                    <add>complet,</add> avant d'attaquer ferme la souscription
-        	<lb xml:id="p2-l13"/>d'actions ou d'obligations, soit en Suisse,
-        	<lb xml:id="p2-l14"/>soit en <placeName type="place" key="Deutschland">Allemagne</placeName>, en <placeName type="place" key="Italien (Königreich)">Italie</placeName>, en <placeName type="place" key="Belgien">Belgique</placeName>,
-        	<lb xml:id="p2-l15"/>et jusqu'en <placeName type="place" key="England">Angleterre</placeName>, puisque cette ligne
-        	<lb xml:id="p2-l16"/>internationale ne peut que profiter à
-        	<lb xml:id="p2-l17"/>tous ces pays, surtout pour leurs transports
-        	<lb xml:id="p2-l18"/>de marchandises.
+        	<lb xml:id="p1-l14"/>par rapport à la formation d'une Compa<lb xml:id="p1-l15" break="no"/>gnie internationale au Capital nécéssaire
+        	<lb xml:id="p1-l16" break="no"/>pour cette importante entreprise, ce serait,
+        	<lb xml:id="p1-l17" break="no"/>ce me semble, le moment propice de vous
+        	<lb xml:id="p1-l18" break="no"/>reiterer mes offres de service, puisque,
+        	<lb xml:id="p1-l19" break="no"/>d'après les articles que je lis souvent
+        	<lb xml:id="p1-l20" break="no"/>depuis quelque tems dans les journaux, cette
+        		<lb xml:id="p1-l21" break="no"/>ligne paraît être préférée si bien en <placeName key="Deutschland">Alle<lb xml:id="p1-l22" break="no"/>magne</placeName> et en <placeName key="Italien (Königreich)">Italie</placeName>, qu'elle doit recevoir des
+        	<lb xml:id="p1-l23" break="no"/>subventions assez considérables.<note type="transcript">Kustode: Vous</note> <pb n="2"/><lb xml:id="p2-l1" break="no"/>Vous vous rappelez sans doute sur quelles
+        	<lb xml:id="p2-l2" break="no"/>bases j'ai établi mes calculs, pour un
+        	<lb xml:id="p2-l3" break="no"/>Capital de 200,000,000 <choice><abbr>fr</abbr><expan>franken / francs / franchi</expan></choice> que je crois suffiront
+        	<lb xml:id="p2-l4" break="no"/>pour la construction et l'exploitation de cette
+        	<lb xml:id="p2-l5" break="no"/>ligne, dont les études techniques ont été
+        	<lb xml:id="p2-l6" break="no"/>probablement vérifiées de mieux en mieux
+        	<lb xml:id="p2-l7" break="no"/>par nos Ingénieurs. Dans ces calculs je
+        	<lb xml:id="p2-l8" break="no"/>supposais une subvention de 60 millions;
+        	<lb xml:id="p2-l9" break="no"/>mais, quand même ce chiffre devrait, être
+        	<lb xml:id="p2-l10" break="no"/>modifié plus ou moins, il faut à mon
+        	<lb xml:id="p2-l11" break="no"/>avis préparer d'avance  un plan financier
+        	<lb xml:id="p2-l12" break="no"/><add>complet,</add> avant d'attaquer ferme la souscription
+        	<lb xml:id="p2-l13" break="no"/>d'actions ou d'obligations, soit en Suisse,
+        	<lb xml:id="p2-l14" break="no"/>soit en <placeName key="Deutschland">Allemagne</placeName>, en <placeName key="Italien (Königreich)">Italie</placeName>, en <placeName key="Belgien">Belgique</placeName>,
+        	<lb xml:id="p2-l15" break="no"/>et jusqu'en <placeName key="England">Angleterre</placeName>, puisque cette ligne
+        	<lb xml:id="p2-l16" break="no"/>internationale ne peut que profiter à
+        	<lb xml:id="p2-l17" break="no"/>tous ces pays, surtout pour leurs transports
+        	<lb xml:id="p2-l18" break="no"/>de marchandises.
          	</p>
-      <p rend="left" xml:id="K_6907_p6">
-                <lb xml:id="p2-l19"/>En un mot, il faut faire travailler
-         	<lb xml:id="p2-l20"/>cette question comme celle du <placeName type="place" key="Suezkanal">Canal  de Suez</placeName>,
+      <p rend="left" xml:id="K_6907_p6"><lb xml:id="p2-l19"/>En un mot, il faut faire travailler
+         	<lb xml:id="p2-l20"/>cette question comme celle du <placeName key="Suezkanal">Canal  de Suez</placeName>,
          	<lb xml:id="p2-l21"/>qui a si bien réussi déjà, malgré toute
          	<lb xml:id="p2-l22"/>sorte d'objections &amp; d'entraves que son
-         	<lb xml:id="p2-l23"/>promoteur, <choice>
-                        <abbr>M<hi rend="sup">r</hi> </abbr>
-                        <expan>Monsieur (Herr)</expan>
-                    </choice> de <persName type="person" key="Lesseps Ferdinand">Lesseps</persName>, a rencontrés dès
-         	<lb xml:id="p2-l24"/>l'origine –<note type="transcript">Kustode: C'est</note> <pb n="3"/>
-            </p>
-      <p rend="left" xml:id="K_6907_p7">
-                <lb xml:id="p3-l1"/>C'est surtout à <placeName type="place" key="Paris (F)">Paris</placeName>, qui est et sera toujours
+         	<lb xml:id="p2-l23"/>promoteur, <choice><abbr>M<hi rend="sup">r</hi> </abbr><expan>Monsieur (Herr)</expan></choice> de <persName key="Lesseps Ferdinand">Lesseps</persName>, a rencontrés dès
+         	<lb xml:id="p2-l24"/>l'origine –<note type="transcript">Kustode: C'est</note> <pb n="3"/></p>
+      <p rend="left" xml:id="K_6907_p7"><lb xml:id="p3-l1"/>C'est surtout à <placeName key="Paris (F)">Paris</placeName>, qui est et sera toujours
          	<lb xml:id="p3-l2"/>le marché principal pour ces sortes d'entreprises
          	<lb xml:id="p3-l3"/>internationales, qu'il faut planter le premier
          	<lb xml:id="p3-l4"/>drapeau de négociation, quand on veut obtenir
@@ -154,25 +67,19 @@
          	<lb xml:id="p3-l9"/>moyennant une retribution dont je laisse
          	<lb xml:id="p3-l10"/>à votre appréciation de fixer le montant.
          	<lb xml:id="p3-l11"/>Peut-être serait-il même à propos d'ouvrir
-         	<lb xml:id="p3-l12"/>à <placeName type="place" key="Paris (F)">Paris</placeName> une agence spéciale pour cette ligne
-         	<lb xml:id="p3-l13"/>de <placeName type="place" key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName>, comme il y en a pourtant
+         	<lb xml:id="p3-l12"/>à <placeName key="Paris (F)">Paris</placeName> une agence spéciale pour cette ligne
+         	<lb xml:id="p3-l13"/>de <placeName key="St. Gotthard (Pass)">S<hi rend="sup">t</hi> Gothard</placeName>, comme il y en a pourtant
          	<lb xml:id="p3-l14"/>d'autres pareilles entreprises? 
          	</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_6907_p8">
-                    <lb xml:id="p3-l15"/>C'est à vous,
+        <p rend="indent" xml:id="K_6907_p8"><lb xml:id="p3-l15"/>C'est à vous,
          	<lb xml:id="p3-l16"/>et à votre Comité promoteur, à décider
          	<lb xml:id="p3-l17"/>ces choses; quant à moi, je ne saurais
          	<lb xml:id="p3-l18"/>que vous réiterer, Monsieur, l'assurance
          	<lb xml:id="p3-l19"/>de mes sentiments les plus dévoués.</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_6907_p9">
-                    <lb xml:id="p3-l20"/>Baranowski</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_6907_p9"><lb xml:id="p3-l20"/>Baranowski</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

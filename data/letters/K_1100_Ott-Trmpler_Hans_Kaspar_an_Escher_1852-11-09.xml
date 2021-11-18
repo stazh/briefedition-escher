@@ -1,135 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1100" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Hans Kaspar Ott-Trümpler an Alfred Escher, s.l., Dienstag, November 9, 1852</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#45*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Bankinstitute</item>
-                        <item>Zürich-Bodensee-Bahn (ZBB)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Ott-Trümpler Hans Kaspar" type="sender">Hans Kaspar Ott-Trümpler</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>s.l.</placeName>
-                    <date when="1852-11-09">Dienstag, November 9, 1852</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-02-14" who="">Migration nach XML
-                
-            </change>
-            <change when="2013-06-04" who="MS">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-08" who="RO">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-12" who="SB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-07-23" who="LW">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-09-04" who="LH">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2013-09-05" who="CD">Transkriptionsverifizierung überprüfen
-                
-            </change>
-            <change when="2013-10-16" who="KR">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-10-16" who="KR">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2018-11-28" who="DB">Transkriptionsverifizierung Seiterle umgesetzt
-      
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1100" type="Brief"><teiHeader><fileDesc><titleStmt><title>Hans Kaspar Ott-Trümpler an Alfred Escher, s.l., Dienstag, 09. November 1852</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Jung, Aufbruch, S. 424 (auszugsweise)</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#45*</idno><idno>J I.67-5.42</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Finanzierung</term><term>Bankinstitute</term><term>Zürich-Bodensee-Bahn (ZBB)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Ott-Trümpler Hans Kaspar" type="addressee">Hans Kaspar Ott-Trümpler</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><date when="1852-11-09">09. November 1852</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="left" xml:id="K_1100_p1">
-                    <lb xml:id="p1-l1"/>Hochgeehrter Herr Präsident</p>
+        <p rend="left" xml:id="K_1100_p1"><lb xml:id="p1-l1"/>Hochgeehrter Herr Präsident</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1100_p2">
-                <lb xml:id="p1-l2"/>Die von meinem <placeName type="place" key="London (UK)">
-                    <hi>Londoner</hi>
-                </placeName> Freunde erhaltene
+    </front><body>
+      <p rend="indent" xml:id="K_1100_p2"><lb xml:id="p1-l2"/>Die von meinem <placeName key="London (UK)"><hi>Londoner</hi></placeName> Freunde erhaltene
 			<lb xml:id="p1-l3"/>Auskunft lautet wie folgt:</p>
-      <p rend="center" xml:id="K_1100_p3">
-                <lb xml:id="p1-l4"/>
-        <hi>Heywood Kennard + <choice>
-                            <abbr>Co</abbr>
-                            <expan>Compagnia / Compagnie / Company (Gesellschaft)</expan>
-                        </choice> </hi><!--Bank heisst so--> (an der Spitze der <hi>
-                    <placeName type="place" key="Morges">Morges</placeName> <placeName type="place" key="Yverdon-les-Bains">Yverdon</placeName> </hi> Bahn)
+      <p rend="center" xml:id="K_1100_p3"><lb xml:id="p1-l4"/>
+        <hi>Heywood Kennard + <choice><abbr>Co</abbr><expan>Compagnia / Compagnie / Company (Gesellschaft)</expan></choice> </hi><!--Bank heisst so--> (an der Spitze der <hi><placeName key="Morges">Morges</placeName> <placeName key="Yverdon-les-Bains">Yverdon</placeName> </hi> Bahn)
 			<lb xml:id="p1-l5"/>sind sehr geachtete reiche <hi>Bankers</hi> ersten Rangs.</p>
-      <p rend="center" xml:id="K_1100_p4">
-                <lb xml:id="p1-l6"/>
-        <hi>
-                    <persName type="person" key="Mills">Mills</persName> + <persName type="person" key="Brassey Thomas">Brassey</persName> </hi><!--unklar ob Firma oder zwei Personen gemeint sind--> sind reich und jeder Unternehmung auf die sie
+      <p rend="center" xml:id="K_1100_p4"><lb xml:id="p1-l6"/>
+        <hi><persName key="Mills">Mills</persName> + <persName key="Brassey Thomas">Brassey</persName> </hi><!--unklar ob Firma oder zwei Personen gemeint sind--> sind reich und jeder Unternehmung auf die sie
 			<lb xml:id="p1-l7"/>eingehen vollkommen gewachsen.</p>
-      <p rend="center" xml:id="K_1100_p5">
-                <lb xml:id="p1-l8"/>
-        <hi>
-                    <persName type="person" key="Hennet George">Hennets</persName> + <persName type="person" key="Yorke">Yorke</persName> </hi><!--unklar ob Firma oder zwei Personen gemeint sind--> von zweifelhaftem <hi>Credit</hi>; hier ist große
-			<lb xml:id="p1-l9"/>Vorsicht nöthig; <persName type="person" key="Hennet George">
-                    <hi>Hennets</hi>
-                </persName> ist Ingenieur «<hi>but an
+      <p rend="center" xml:id="K_1100_p5"><lb xml:id="p1-l8"/>
+        <hi><persName key="Hennet George">Hennets</persName> + <persName key="Yorke">Yorke</persName> </hi><!--unklar ob Firma oder zwei Personen gemeint sind--> von zweifelhaftem <hi>Credit</hi>; hier ist große
+			<lb xml:id="p1-l9"/>Vorsicht nöthig; <persName key="Hennet George"><hi>Hennets</hi></persName> ist Ingenieur «<hi>but an
 				<lb xml:id="p1-l10"/>irregular man</hi>».</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="left" xml:id="K_1100_p6">
-                    <lb xml:id="p1-l11"/>Für zurückgesandten Entwurf von Fundam &amp; Statuten danke ich
+        <p rend="left" xml:id="K_1100_p6"><lb xml:id="p1-l11"/>Für zurückgesandten Entwurf von Fundam &amp; Statuten danke ich
 			<lb xml:id="p1-l12"/>Ihnen bestens und empfehle mich Ihnen mit ausgezeichneter
 			<lb xml:id="p1-l13"/>Hochschätzung
 		</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1100_p7">
-                    <lb xml:id="p1-l14"/>
+      <div type="signature">
+        <p rend="right" xml:id="K_1100_p7"><lb xml:id="p1-l14"/>
           Ott-Trümpler
         </p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_1100_p8">
-                    <lb xml:id="p1-l15"/>
-         <date when="1852-11-09">9 <hi>
-                            <choice>
-                                <abbr>Nov</abbr>
-                                <expan>November</expan>
-                            </choice>
-                        </hi> 1852</date>.</p>
+        <p rend="left" xml:id="K_1100_p8"><lb xml:id="p1-l15"/>
+         <date when="1852-11-09">9 <hi><choice><abbr>Nov</abbr><expan>November</expan></choice></hi> 1852</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

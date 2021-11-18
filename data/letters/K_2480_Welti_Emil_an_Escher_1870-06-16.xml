@@ -1,136 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2480" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Emil Welti an Alfred Escher, Bern, Donnerstag, Juni 16, 1870</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.2#1000/1310#35*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Bundesrat</item>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1870-06-16">Donnerstag, Juni 16, 1870</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-06-16" who="Sk">Transkription
-                
-            </change>
-            <change when="2013-08-09" who="JS">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="LH">Migrationsverifizierung
-                    umgesetzt
-                
-            </change>
-            <change when="2014-01-08" who="NS">Auszeichnung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-09" who="RH">Verifizierung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-13" who="NS">Auszeichnung 2
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="LW">Transkriptionsverifizierung Seiterle
-                    umgesetzt
-                
-            </change>
-            <change when="2014-01-20" who="MA">Übertragung der Transkriptionsverifizierung
-                    gerprüft
-                
-            </change>
-            <change when="2014-03-19" who="MLB">Inhaltliche Qualitätsprüfung
-                    umgesetzt
-                
-            </change>
-            <change when="2014-05-14" who="LB">Verifizierung 2
-                umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2480" type="Brief"><teiHeader><fileDesc><titleStmt><title>Emil Welti an Alfred Escher, Bern, Donnerstag, 16. Juni 1870</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.2#1000/1310#35*</idno><idno>J I.2</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term><term>Bundesrat</term><term>Öffentliche Beteiligungen (Infrastruktur)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Welti Emil" type="addressee">Emil Welti</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1870-06-16">16. Juni 1870</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_2480_p1">
-                    <lb xml:id="p1-l1"/>Hochgeehrter
+        <p rend="indent" xml:id="K_2480_p1"><lb xml:id="p1-l1"/>Hochgeehrter
                     Herr 
                 </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_2480_p2">
-                <lb xml:id="p1-l2"/>Ich habe dem <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>ausschuss <date when="1870-06-16">heute</date> meinen
-                Be<lb break="no" xml:id="p1-l3"/>richt und den Entwurf eines Bundesbeschlusses <lb xml:id="p1-l4"/>zur Erledigung der <date when="1870-06-15">gestern</date> von uns behandelten <lb xml:id="p1-l5"/>Frage vorgelegt und es haben sich meine Colle<lb break="no" xml:id="p1-l6"/>gen mit meinen Anträgen einverstanden erklärt. <lb xml:id="p1-l7"/>Unserer Abrede gemäss
-                übersende ich Ihnen den Be<lb break="no" xml:id="p1-l8"/>schluss-Entwurf zu gefälliger
-                    Einsicht<note type="transcript">fehlt</note>; findet er <lb xml:id="p1-l9"/>Ihre Billigung
-                so soll sofortige Vorlage an den <lb xml:id="p1-l10"/>Bundesrath erfolgen.</p>
-      <p rend="indent" xml:id="K_2480_p3">
-                <lb xml:id="p1-l11"/>In <placeName type="place" key="Paris (F)">Paris</placeName> scheint die Interpellationsfrage <lb xml:id="p1-l12"/>etwas grössere
+    </front><body>
+      <p rend="left" xml:id="K_2480_p2"><lb xml:id="p1-l2"/>Ich habe dem <placeName key="St. Gotthard (Pass)">Gotthard</placeName>ausschuss <date when="1870-06-16">heute</date> meinen
+                Be<lb xml:id="p1-l3" break="no"/>richt und den Entwurf eines Bundesbeschlusses <lb xml:id="p1-l4" break="no"/>zur Erledigung der <date when="1870-06-15">gestern</date> von uns behandelten <lb xml:id="p1-l5" break="no"/>Frage vorgelegt und es haben sich meine Colle<lb xml:id="p1-l6" break="no"/>gen mit meinen Anträgen einverstanden erklärt. <lb xml:id="p1-l7" break="no"/>Unserer Abrede gemäss
+                übersende ich Ihnen den Be<lb xml:id="p1-l8" break="no"/>schluss-Entwurf zu gefälliger
+                    Einsicht<note type="transcript">fehlt</note>; findet er <lb xml:id="p1-l9" break="no"/>Ihre Billigung
+                so soll sofortige Vorlage an den <lb xml:id="p1-l10" break="no"/>Bundesrath erfolgen.</p>
+      <p rend="indent" xml:id="K_2480_p3"><lb xml:id="p1-l11"/>In <placeName key="Paris (F)">Paris</placeName> scheint die Interpellationsfrage <lb xml:id="p1-l12"/>etwas grössere
                 Dimensionen anzunehmen, was ich <lb xml:id="p1-l13"/>namentlich aus der Notiz der Debats
-                über <pb n="2"/>
-                <lb xml:id="p2-l1"/>die Versammlung des centre gauche schliesse. <lb xml:id="p2-l2"/>Herr <persName type="person" key="Kern Johann Konrad">Kern</persName> dagegen
-                telegraphirt <date when="1870-06-16">heute</date>, er habe <lb xml:id="p2-l3"/>mit <persName type="person" key="Gramont Antoine de">Grammont</persName> eine Unterredung gehabt, welcher <lb xml:id="p2-l4"/>glaube die Interpellation werde ruhig verlaufen <lb xml:id="p2-l5"/>
-                <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> keine weitern Folgen haben. Ich halte immer <lb xml:id="p2-l6"/>noch dafür sie könne uns in <placeName type="place" key="Deutschland">Deutschland</placeName> <lb xml:id="p2-l7"/>und <placeName type="place" key="Italien (Königreich)">Italien</placeName> nur
-                nützen. Die Nachricht über <lb xml:id="p2-l8"/>die Zustimmung zu dem Beitritt <placeName type="place" key="Norddeutscher Bund">NDeutsch<lb break="no" xml:id="p2-l9"/>lands</placeName>
-                die ich Ihnen <date when="1870-06-16">heute</date> telegraphisch mit <lb xml:id="p2-l10"/>theilte hatte ich von <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Roeder Maximilian Heinrich von">v. Röder</persName> welchem <lb xml:id="p2-l11"/>
-                <persName type="person" key="Delbrück Rudolph von">Delbrück</persName> in
+                über <pb n="2"/><lb xml:id="p2-l1"/>die Versammlung des centre gauche schliesse. <lb xml:id="p2-l2"/>Herr <persName key="Kern Johann Konrad">Kern</persName> dagegen
+                telegraphirt <date when="1870-06-16">heute</date>, er habe <lb xml:id="p2-l3"/>mit <persName key="Gramont Antoine de">Grammont</persName> eine Unterredung gehabt, welcher <lb xml:id="p2-l4"/>glaube die Interpellation werde ruhig verlaufen <lb xml:id="p2-l5"/><choice><abbr>u</abbr><expan>und</expan></choice> keine weitern Folgen haben. Ich halte immer <lb xml:id="p2-l6"/>noch dafür sie könne uns in <placeName key="Deutschland">Deutschland</placeName> <lb xml:id="p2-l7"/>und <placeName key="Italien (Königreich)">Italien</placeName> nur
+                nützen. Die Nachricht über <lb xml:id="p2-l8"/>die Zustimmung zu dem Beitritt <placeName key="Norddeutscher Bund">NDeutsch<lb xml:id="p2-l9" break="no"/>lands</placeName>
+                die ich Ihnen <date when="1870-06-16">heute</date> telegraphisch mit <lb xml:id="p2-l10"/>theilte hatte ich von <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Roeder Maximilian Heinrich von">v. Röder</persName> welchem <lb xml:id="p2-l11"/><persName key="Delbrück Rudolph von">Delbrück</persName> in
                 besonderer Note davon Kenntniss <lb xml:id="p2-l12"/>gab.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="right" xml:id="K_2480_p4">
-                    <lb xml:id="p2-l13"/>Ihr
+        <p rend="right" xml:id="K_2480_p4"><lb xml:id="p2-l13"/>Ihr
                     freundschaftlich ergebener</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2480_p5">
-                    <lb xml:id="p2-l14"/>E Welti</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2480_p5"><lb xml:id="p2-l14"/>E Welti</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_2480_p6">
-                    <lb xml:id="p2-l15"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName>
+        <p rend="left" xml:id="K_2480_p6"><lb xml:id="p2-l15"/>
+          <placeName key="Bern (Stadt)">Bern</placeName>
           <lb xml:id="p2-l16"/>
           <date when="1870-06-16">16 Juni 1870.</date>
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

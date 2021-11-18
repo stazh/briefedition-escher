@@ -1,232 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0422" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Blumer an Alfred Escher, Glarus, Donnerstag, April 16, 1846</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>FA Tschudi</institution>
-                        <idno type="original"/>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Berufsleben</item>
-                        <item>Reisen und Ausflüge</item>
-                        <item>Rechtliches</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Blumer Johann Jakob" type="sender">Johann Jakob Blumer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Glarus</placeName>
-                    <date when="1846-04-16">Donnerstag, April 16, 1846</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-08-15" who="WB">Transkribiert
-                
-            </change>
-            <change when="2010-12-02" who="BK">von Word nach XML
-        konvertiert
-                
-            </change>
-            <change when="2011-07-05" who="TM">e-Edition: Auszeichnung 1
-          umgesetzt
-                
-            </change>
-            <change when="2011-07-07" who="HA">e-Edition: Verifizierung 1
-          umgesetzt
-                
-            </change>
-            <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen
-          umgesetzt
-                
-            </change>
-            <change when="2011-07-26" who="BP">e-Edition: Auszeichnung 2
-          umgesetzt
-                
-            </change>
-            <change when="2011-07-28" who="HA">e-Edition: Verifizierung 2
-          umgesetzt
-                
-            </change>
-            <change when="2012-01-10" who="GM">Transkriptionsverifizierung T. Binder umgesetzt
-          
-                
-            </change>
-            <change when="2014-12-16" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0422" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Blumer an Alfred Escher, Glarus, Donnerstag, 16. April 1846</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>FA Tschudi</institution></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Berufsleben</term><term>Reisen und Ausflüge</term><term>Rechtliches</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Blumer Johann Jakob" type="addressee">Johann Jakob Blumer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Glarus</placeName><date when="1846-04-16">16. April 1846</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_0422_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1846-04-16">16. April
+        <p rend="right" xml:id="K_0422_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1846-04-16">16. April
             1846</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_0422_p2">
-                    <lb xml:id="p1-l2"/>Mein theurer Freund!</p>
+        <p rend="left" xml:id="K_0422_p2"><lb xml:id="p1-l2"/>Mein theurer Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_0422_p3">
-                <lb xml:id="p1-l3"/>Ich würde deinen sehr intressanten Brief vom <date when="1846-03-27">27. <choice>
-                            <abbr>v. M.</abbr>
-                            <expan>vorigen / vergangenen Monats</expan>
-                        </choice>
-                </date>, welcher, lange ersehnt,<lb xml:id="p1-l4"/> eine um so wohlthuendere Erscheinung für mich war, früher beantwortet haben,
-        wenn ich im Stande gewe<lb break="no" xml:id="p1-l5"/>sen wäre, dir über den Hauptpunkt, über welchen
-        du Antwort erwartetest, <add>bestimmte</add> Auskunft zu geben.<lb xml:id="p1-l6"/> Deiner
+    </front><body>
+      <p rend="indent" xml:id="K_0422_p3"><lb xml:id="p1-l3"/>Ich würde deinen sehr intressanten Brief vom <date when="1846-03-27">27. <choice><abbr>v. M.</abbr><expan>vorigen / vergangenen Monats</expan></choice></date>, welcher, lange ersehnt,<lb xml:id="p1-l4"/> eine um so wohlthuendere Erscheinung für mich war, früher beantwortet haben,
+        wenn ich im Stande gewe<lb xml:id="p1-l5" break="no"/>sen wäre, dir über den Hauptpunkt, über welchen
+        du Antwort erwartetest, <add>bestimmte</add> Auskunft zu geben.<lb xml:id="p1-l6" break="no"/> Deiner
         gütigen Einladung, dich wieder einmal zu besuchen, hätte ich nämlich sogleich mit
-          Vergnü<lb break="no" xml:id="p1-l7"/>gen Folge gegeben, wenn nicht ein Umstand, in dem du eine
-        hinreichende Entschuldigung finden<lb xml:id="p1-l8"/> wirst, mich davon abgehalten hätte; ich
-        meine die Anwesenheit meines Schwagers <persName type="person" key="Heer Joachim">Heer</persName>,
-        welcher unge<lb break="no" xml:id="p1-l9"/>fähr gleichzeitig mit deinem Briefe von <placeName type="place" key="Berlin (D)">Berlin</placeName> aus hier eintraf <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> im Laufe der
-        nächsten Woche<lb xml:id="p1-l10"/> wieder nach <placeName type="place" key="Heidelberg (D)">Heidelberg</placeName> verreisen wird. Nach einer Trennung von beinahe zwei Jahren, während<lb xml:id="p1-l11"/> deren er sich in jeder Hinsicht sehr entwickelt hat, gewährt mir seine
-        Gesellschaft wahren Genuß<lb xml:id="p1-l12"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Erfrischung, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ich könnte es daher nicht über mich bringen, während seines
-        Aufenthaltes bei uns<lb xml:id="p1-l13"/> den heimathlichen Heerd zu verlassen. Schon lange
-        frägt es sich nun bei mir, ob ich in der<lb xml:id="p1-l14"/> nächsten Woche <persName type="person" key="Heer Joachim">meinen Schwager</persName> bis nach <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> begleiten werde, allein auch jetzt noch ist es<lb xml:id="p1-l15"/> mir leider
-        nicht möglich, dir hierüber etwas Bestimmtes zu sagen. Mannigfache Geschäfte, die<lb xml:id="p1-l16"/> meiner gerade auf jene Zeit warten, lassen es ziemlich bezweifeln. Komme ich
-        indessen auch die<lb xml:id="p1-l17"/> nächste Woche noch nicht, so werde ich doch nicht mehr
-        lange auf mich warten lassen, da ich dann<pb n="2"/>
-                    <lb xml:id="p2-l1"/> jedenfalls die <date when="1846-05-31">Pfingst</date>wochen, während deren wir wieder Gerichtsferien haben, zu
-        einem längern Ausfluge<lb xml:id="p2-l2"/> benutzen würde.</p>
-      <p rend="indent" xml:id="K_0422_p4">
-                <lb xml:id="p2-l3"/>Dieser ungenügenden Antwort auf deine Einladung, welche ich dir einstweilen
-        ertheilen muß, un<lb break="no" xml:id="p2-l4"/>geachtet glaubte ich nun doch nicht länger schweigen
-        zu dürfen, nach dem ich <date when="1846-04-14">vorgestern</date> einen zweiten Brief<lb xml:id="p2-l5"/>von dir erhalten, welcher «Geschäfte» beschlägt, die ich nach meiner
-        Gewohnheit gerne schnell beseitige. Ich be<lb break="no" xml:id="p2-l6"/>daure dir in der <persName type="person" key="Kubli Kaspar">Kubli'schen</persName> Angelegenheit keine weitern
-        Mittheilungen machen zu können, als die bereits<lb xml:id="p2-l7"/>in <seg type="ref">meinem Brief<ref type="letter" target="K_0407"/>
-                </seg> vom letzten November<!--<com id="K_0422_c1">Johann Jakob Blumer an Alfred Escher, Montag/Dienstag, 3./4. November 1845</com>-->
-        enthalten sind. Dort habe ich mich ausführlich über <persName type="person" key="Kubli Kaspar">Kubli's</persName>Leum<lb break="no" xml:id="p2-l8"/>den <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Lebensverhältnisse
-        ausgeprochen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ebenso, wenn ich nicht irre, erwähnt, daß er mit
-          seinen<lb xml:id="p2-l9"/>Gläubigern ein <hi>Accommodement</hi> geschlossen habe, weßhalb also diese
-        keine Forderungsrechte mehr gegen<lb xml:id="p2-l10"/>ihn haben. Es würde mich sehr gefreut
-        haben, wenn ich auf schickliche Art in den Besitz des Inventariums,<lb xml:id="p2-l11"/>welches
-        seiner Zeit über <persName type="person" key="Kubli Kaspar">Kubli's</persName> Aktiven <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Passiven aufgenommen wurde, hätte gelangen können; allein<lb xml:id="p2-l12"/>in den von dir citirten Rathsprotokollen fand ich es, wie ich auch erwartet
-        hatte, nicht vor, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Erkun<lb break="no" xml:id="p2-l13"/>digungen, die ich
-        darüber bei Bekannten einzog, überzeugten mich, daß, wenn es sich hier noch irgendwo<lb xml:id="p2-l14"/>vorfinden sollte, dies nur bei <persName type="person" key="Kubli Kaspar">Kubli's</persName> Schwiegersohn, <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-                    <choice>
-                        <abbr>Hauptm.</abbr>
-                        <expan>Hauptmann</expan>
-                    </choice>
-                    <persName type="person" key="Zwicky-Kubli Heinrich">Heinr. Zwicki</persName>, seyn
-        könnte, welcher<lb xml:id="p2-l15"/>seine Masse bereinigt haben soll. Daß ich nun diesen nicht
-        wohl darum angehen konnte, mir die Waf<lb break="no" xml:id="p2-l16"/>fen gegen <persName type="person" key="Kubli Kaspar">seinen Schwiegervater</persName> selbst auszuliefern, zumal derselbe
-        ohnehin schon wegen <persName type="person" key="Kubli Kaspar">Kubli</persName>
-                    <lb xml:id="p2-l17"/>viel
-        Verdruß gehabt <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> große ökonomische Opfer gebracht hat, daher sehr
-        ungerne an solche Angele<lb break="no" xml:id="p2-l18"/>geheiten erinnert wird, – wirst du leicht
+          Vergnü<lb xml:id="p1-l7" break="no"/>gen Folge gegeben, wenn nicht ein Umstand, in dem du eine
+        hinreichende Entschuldigung finden<lb xml:id="p1-l8" break="no"/> wirst, mich davon abgehalten hätte; ich
+        meine die Anwesenheit meines Schwagers <persName key="Heer Joachim">Heer</persName>,
+        welcher unge<lb xml:id="p1-l9" break="no"/>fähr gleichzeitig mit deinem Briefe von <placeName key="Berlin (D)">Berlin</placeName> aus hier eintraf <choice><abbr>u.</abbr><expan>und</expan></choice> im Laufe der
+        nächsten Woche<lb xml:id="p1-l10" break="no"/> wieder nach <placeName key="Heidelberg (D)">Heidelberg</placeName> verreisen wird. Nach einer Trennung von beinahe zwei Jahren, während<lb xml:id="p1-l11" break="no"/> deren er sich in jeder Hinsicht sehr entwickelt hat, gewährt mir seine
+        Gesellschaft wahren Genuß<lb xml:id="p1-l12" break="no"/><choice><abbr>u.</abbr><expan>und</expan></choice> Erfrischung, <choice><abbr>u.</abbr><expan>und</expan></choice> ich könnte es daher nicht über mich bringen, während seines
+        Aufenthaltes bei uns<lb xml:id="p1-l13" break="no"/> den heimathlichen Heerd zu verlassen. Schon lange
+        frägt es sich nun bei mir, ob ich in der<lb xml:id="p1-l14" break="no"/> nächsten Woche <persName key="Heer Joachim">meinen Schwager</persName> bis nach <placeName key="Zürich (Stadt)">Zürich</placeName> begleiten werde, allein auch jetzt noch ist es<lb xml:id="p1-l15" break="no"/> mir leider
+        nicht möglich, dir hierüber etwas Bestimmtes zu sagen. Mannigfache Geschäfte, die<lb xml:id="p1-l16" break="no"/> meiner gerade auf jene Zeit warten, lassen es ziemlich bezweifeln. Komme ich
+        indessen auch die<lb xml:id="p1-l17" break="no"/> nächste Woche noch nicht, so werde ich doch nicht mehr
+        lange auf mich warten lassen, da ich dann<pb n="2"/><lb xml:id="p2-l1" break="no"/> jedenfalls die <date when="1846-05-31">Pfingst</date>wochen, während deren wir wieder Gerichtsferien haben, zu
+        einem längern Ausfluge<lb xml:id="p2-l2" break="no"/> benutzen würde.</p>
+      <p rend="indent" xml:id="K_0422_p4"><lb xml:id="p2-l3"/>Dieser ungenügenden Antwort auf deine Einladung, welche ich dir einstweilen
+        ertheilen muß, un<lb xml:id="p2-l4" break="no"/>geachtet glaubte ich nun doch nicht länger schweigen
+        zu dürfen, nach dem ich <date when="1846-04-14">vorgestern</date> einen zweiten Brief<lb xml:id="p2-l5" break="no"/>von dir erhalten, welcher «Geschäfte» beschlägt, die ich nach meiner
+        Gewohnheit gerne schnell beseitige. Ich be<lb xml:id="p2-l6" break="no"/>daure dir in der <persName key="Kubli Kaspar">Kubli'schen</persName> Angelegenheit keine weitern
+        Mittheilungen machen zu können, als die bereits<lb xml:id="p2-l7" break="no"/>in <rs>meinem Brief<ref type="letter" target="K_0407"/></rs> vom letzten November<!--<com id="K_0422_c1">Johann Jakob Blumer an Alfred Escher, Montag/Dienstag, 3./4. November 1845</com>-->
+        enthalten sind. Dort habe ich mich ausführlich über <persName key="Kubli Kaspar">Kubli's</persName>Leum<lb xml:id="p2-l8" break="no"/>den <choice><abbr>u.</abbr><expan>und</expan></choice> Lebensverhältnisse
+        ausgeprochen <choice><abbr>u.</abbr><expan>und</expan></choice> ebenso, wenn ich nicht irre, erwähnt, daß er mit
+          seinen<lb xml:id="p2-l9" break="no"/>Gläubigern ein <hi>Accommodement</hi> geschlossen habe, weßhalb also diese
+        keine Forderungsrechte mehr gegen<lb xml:id="p2-l10" break="no"/>ihn haben. Es würde mich sehr gefreut
+        haben, wenn ich auf schickliche Art in den Besitz des Inventariums,<lb xml:id="p2-l11" break="no"/>welches
+        seiner Zeit über <persName key="Kubli Kaspar">Kubli's</persName> Aktiven <choice><abbr>u.</abbr><expan>und</expan></choice> Passiven aufgenommen wurde, hätte gelangen können; allein<lb xml:id="p2-l12" break="no"/>in den von dir citirten Rathsprotokollen fand ich es, wie ich auch erwartet
+        hatte, nicht vor, <choice><abbr>u.</abbr><expan>und</expan></choice> Erkun<lb xml:id="p2-l13" break="no"/>digungen, die ich
+        darüber bei Bekannten einzog, überzeugten mich, daß, wenn es sich hier noch irgendwo<lb xml:id="p2-l14" break="no"/>vorfinden sollte, dies nur bei <persName key="Kubli Kaspar">Kubli's</persName> Schwiegersohn, <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <choice><abbr>Hauptm.</abbr><expan>Hauptmann</expan></choice> <persName key="Zwicky-Kubli Heinrich">Heinr. Zwicki</persName>, seyn
+        könnte, welcher<lb xml:id="p2-l15" break="no"/>seine Masse bereinigt haben soll. Daß ich nun diesen nicht
+        wohl darum angehen konnte, mir die Waf<lb xml:id="p2-l16" break="no"/>fen gegen <persName key="Kubli Kaspar">seinen Schwiegervater</persName> selbst auszuliefern, zumal derselbe
+        ohnehin schon wegen <persName key="Kubli Kaspar">Kubli</persName> <lb xml:id="p2-l17" break="no"/>viel
+        Verdruß gehabt <choice><abbr>u.</abbr><expan>und</expan></choice> große ökonomische Opfer gebracht hat, daher sehr
+        ungerne an solche Angele<lb xml:id="p2-l18" break="no"/>geheiten erinnert wird, – wirst du leicht
         begreifen.</p>
-      <p rend="indent" xml:id="K_0422_p5">
-                <lb xml:id="p2-l19"/>Eine einläßliche Beantwortung deines ersten Briefes unterlasse ich mit
-          Rücksicht<pb n="3"/>
-                <lb xml:id="p3-l1"/>auf unser bevorstehenes, jedenfalls nicht mehr
-        entferntes Wiedersehen. Was mich in demselben am mei<lb break="no" xml:id="p3-l2"/>sten gefreut hat,
-        ist, daß du die Geschichte des <choice>
-                        <abbr>schweizer.</abbr>
-                        <expan>schweizerisch</expan>
-                    </choice> Staatsrechts,
-        als gewiß unerläßliche Bedingung für<lb xml:id="p3-l3"/>eine gründliche Kenntniß der
-        gegenwärtigen Zustände, so gründlich betrieben hast, wodurch wir uns in unsern<lb xml:id="p3-l4"/>Studien sehr genähert haben. Ich habe diesen Winter über für meine Rechtsgeschichte
-        ordentlich gearbeitet<lb xml:id="p3-l5"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> bin doch nicht sehr weit
-        vorwärts gekommen; du weißst ja aus eigner Erfahrung, wie viel Zeit ein gründli<lb break="no" xml:id="p3-l6"/>ches Quellenstudium in einer so umfassenden Materie wegnimmt. Sonst weiß ich
-        dir von mir nicht viel<lb xml:id="p3-l7"/>zu berichten; es ist bei mir seit einem
-          <add>halben</add> Jahre Alles außerordentlich ruhig zugegangen. Das nächstjäh<lb break="no" xml:id="p3-l8"/>rige <choice>
-                        <abbr>eidg.</abbr>
-                        <expan>eidgenössisch / eidgenößisch</expan>
-                    </choice> Schützenfest wird
-        uns nun hier viel zu schaffen geben <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> auch mich einigermaßen
-          beschäftigen,<lb xml:id="p3-l9"/>da ich Mitglied des Organisationscomité's geworden bin.</p>
-    </div>
-        </body>
-    <back>
+      <p rend="indent" xml:id="K_0422_p5"><lb xml:id="p2-l19"/>Eine einläßliche Beantwortung deines ersten Briefes unterlasse ich mit
+          Rücksicht<pb n="3"/><lb xml:id="p3-l1"/>auf unser bevorstehenes, jedenfalls nicht mehr
+        entferntes Wiedersehen. Was mich in demselben am mei<lb xml:id="p3-l2" break="no"/>sten gefreut hat,
+        ist, daß du die Geschichte des <choice><abbr>schweizer.</abbr><expan>schweizerisch</expan></choice> Staatsrechts,
+        als gewiß unerläßliche Bedingung für<lb xml:id="p3-l3" break="no"/>eine gründliche Kenntniß der
+        gegenwärtigen Zustände, so gründlich betrieben hast, wodurch wir uns in unsern<lb xml:id="p3-l4" break="no"/>Studien sehr genähert haben. Ich habe diesen Winter über für meine Rechtsgeschichte
+        ordentlich gearbeitet<lb xml:id="p3-l5" break="no"/><choice><abbr>u.</abbr><expan>und</expan></choice> bin doch nicht sehr weit
+        vorwärts gekommen; du weißst ja aus eigner Erfahrung, wie viel Zeit ein gründli<lb xml:id="p3-l6" break="no"/>ches Quellenstudium in einer so umfassenden Materie wegnimmt. Sonst weiß ich
+        dir von mir nicht viel<lb xml:id="p3-l7" break="no"/>zu berichten; es ist bei mir seit einem
+          <add>halben</add> Jahre Alles außerordentlich ruhig zugegangen. Das nächstjäh<lb xml:id="p3-l8" break="no"/>rige <choice><abbr>eidg.</abbr><expan>eidgenössisch / eidgenößisch</expan></choice> Schützenfest wird
+        uns nun hier viel zu schaffen geben <choice><abbr>u.</abbr><expan>und</expan></choice> auch mich einigermaßen
+          beschäftigen,<lb xml:id="p3-l9" break="no"/>da ich Mitglied des Organisationscomité's geworden bin.</p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_0422_p6">
-                    <lb xml:id="p3-l10"/>Empfehle mich bestens <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">
-                        <persName type="person" key="Escher (vom Glas) Heinrich">deinen verehrten Eltern</persName>
-                    </persName> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <persName type="person" key="Stockar-Escher (vom Glas) Clementine">Schwester</persName>, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> empfange die<lb xml:id="p3-l11"/> herzlichsten
-          Grüße von <persName type="person" key="Blumer-Heer Susanna">meiner <choice>
-                            <abbr>l.</abbr>
-                            <expan>lieb</expan>
-                        </choice>
-            Frau</persName> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> allen <choice>
-                        <abbr>l.</abbr>
-                        <expan>lieb</expan>
-                    </choice> Meinigen, die
-          sich ohne Ausnahme recht wohl be<lb break="no" xml:id="p3-l12"/>finden, sowie von</p>
-        <p rend="right" xml:id="K_0422_p7">
-                    <lb xml:id="p3-l13"/>deinem</p>
-        <p rend="right" xml:id="K_0422_p8">
-                    <lb xml:id="p3-l14"/>treuen Freunde</p>
+        <p rend="indent" xml:id="K_0422_p6"><lb xml:id="p3-l10"/>Empfehle mich bestens <persName key="Escher-Zollikofer (von Altenklingen) Lydia"><persName key="Escher (vom Glas) Heinrich">deinen verehrten Eltern</persName></persName> <choice><abbr>u.</abbr><expan>und</expan></choice> <persName key="Stockar-Escher (vom Glas) Clementine">Schwester</persName>, <choice><abbr>u.</abbr><expan>und</expan></choice> empfange die<lb xml:id="p3-l11"/> herzlichsten
+          Grüße von <persName key="Blumer-Heer Susanna">meiner <choice><abbr>l.</abbr><expan>lieb</expan></choice>
+            Frau</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> allen <choice><abbr>l.</abbr><expan>lieb</expan></choice> Meinigen, die
+          sich ohne Ausnahme recht wohl be<lb xml:id="p3-l12" break="no"/>finden, sowie von</p>
+        <p rend="right" xml:id="K_0422_p7"><lb xml:id="p3-l13"/>deinem</p>
+        <p rend="right" xml:id="K_0422_p8"><lb xml:id="p3-l14"/>treuen Freunde</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0422_p9">
-                    <lb xml:id="p3-l15"/>J J Blumer-Heer.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_0422_p9"><lb xml:id="p3-l15"/>J J Blumer-Heer.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

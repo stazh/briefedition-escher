@@ -1,156 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8242" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Louis Favre an Alfred Escher, Altdorf (UR), Samstag, April 17, 1875</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB03_017</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahnprojekt</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Favre Louis" type="sender">Louis Favre</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Altdorf (UR)</placeName>
-                    <date when="1875-04-17">Samstag, April 17, 1875</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-06-17" who="FM">transkribiert
-                
-            </change>
-            <change when="2014-07-08" who="JS">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-09" who="OD">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-11" who="MB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2015-03-09" who="VP">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_8242_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_8242_c0">Nachträgliche Inhaltsangabe oben links von dritter Hand: <bibl>Beschwerde des Herrn Favre wegen Unterzeichnung einer Petition <choice>
-                                    <abbr>betr.</abbr>
-                                    <expan>betreffend</expan>
-                                </choice> Verlegung des Dynamitmagazins in <placeName type="place" key="Göschenen">Göschenen</placeName>. | I. <choice>
-                                    <abbr>Depart.</abbr>
-                                    <expan>Departement</expan>
-                                </choice> </bibl> – 
-              Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <bibl>
-                                <fw>Gotthardbahn</fw> | <fw>
-                                    <date when="1875-04-28">28 <choice>
-                                            <abbr>APR.</abbr>
-                                            <expan>APRIL</expan>
-                                        </choice> 1875</date>. </fw>| <fw>
-                                    <choice>
-                                        <abbr>N<hi rend="sup">o</hi> </abbr>
-                                        <expan>Numero (Nummer)</expan>
-                                    </choice>
-                                </fw> 2767.</bibl>
-              – Nachträgliche Notiz unten rechts von dritter Hand: <bibl>
-                                <choice>
-                                    <abbr>Prot.</abbr>
-                                    <expan>Protokoll</expan>
-                                </choice> <date when="1875-04-24">24. IV. 75</date>. <choice>
-                                    <abbr>N</abbr>
-                                    <expan>Nummer</expan>
-                                </choice> 1186.</bibl> </note>
-                    </seg> <lb xml:id="p1-l1"/>
-          <fw>ENTREPRISE</fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_8242" type="Brief"><teiHeader><fileDesc><titleStmt><title>Louis Favre an Alfred Escher, Altdorf (UR), Samstag, 17. April 1875</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB03_017</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahnprojekt</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Favre Louis" type="addressee">Louis Favre</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Altdorf (UR)</placeName><date when="1875-04-17">17. April 1875</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_8242_p1"> <note type="com" xml:id="K_8242_c0">Nachträgliche Inhaltsangabe oben links von dritter Hand: <orig>Beschwerde des Herrn Favre wegen Unterzeichnung einer Petition <choice><abbr>betr.</abbr><expan>betreffend</expan></choice> Verlegung des Dynamitmagazins in <placeName key="Göschenen">Göschenen</placeName>. | I. <choice><abbr>Depart.</abbr><expan>Departement</expan></choice> </orig> – 
+              Nachträglicher Stempel oben rechts mit von dritter Hand eingetragener Nummer: <orig><hi rend="printed">Gotthardbahn</hi> | <hi rend="printed"><date when="1875-04-28">28 <choice><abbr>APR.</abbr><expan>APRIL</expan></choice> 1875</date>. </hi>| <hi rend="printed"><choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice></hi> 2767.</orig>
+              – Nachträgliche Notiz unten rechts von dritter Hand: <orig><choice><abbr>Prot.</abbr><expan>Protokoll</expan></choice> <date when="1875-04-24">24. IV. 75</date>. <choice><abbr>N</abbr><expan>Nummer</expan></choice> 1186.</orig> </note> <lb xml:id="p1-l1"/>
+          <hi rend="printed">ENTREPRISE</hi>
           <lb xml:id="p1-l2"/>
-          <fw>DU</fw>
+          <hi rend="printed">DU</hi>
           <lb xml:id="p1-l3"/>
-          <fw>TUNNEL DU GOTHARD</fw>
+          <hi rend="printed">TUNNEL DU GOTHARD</hi>
           <lb xml:id="p1-l4"/>
-          <fw>L. FAVRE &amp; <choice>
-                            <abbr>C<hi rend="sup">IE</hi> </abbr>
-                            <expan>COMPAGNIE (Gesellschaft)</expan>
-                        </choice>
-                    </fw>
+          <hi rend="printed">L. FAVRE &amp; <choice><abbr>C<hi rend="sup">IE</hi> </abbr><expan>COMPAGNIE (Gesellschaft)</expan></choice></hi>
           <lb xml:id="p1-l5"/>
-          <fw>
-            <choice>
-                            <abbr>N<hi rend="sup">o</hi> </abbr>
-                            <expan>Numero (Nummer)</expan>
-                        </choice>
-          </fw> 612</p>
-      </div>
+          <hi rend="printed">
+            <choice><abbr>N<hi rend="sup">o</hi> </abbr><expan>Numero (Nummer)</expan></choice>
+          </hi> 612</p>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_8242_p2">
-                    <lb xml:id="p1-l6"/>
-          <fw>
-            <placeName type="place" key="Altdorf (UR)">Altorf</placeName> (Canton d'<placeName type="place" key="Uri">Uri</placeName>-Suisse), le</fw>
-          <date when="1875-04-17">17 Avril <fw>187</fw>5</date>
+        <p rend="right" xml:id="K_8242_p2"><lb xml:id="p1-l6"/>
+          <hi rend="printed">
+            <placeName key="Altdorf (UR)">Altorf</placeName> (Canton d'<placeName key="Uri">Uri</placeName>-Suisse), le</hi>
+          <date when="1875-04-17">17 Avril <hi rend="printed">187</hi>5</date>
         </p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_8242_p3">
-                    <lb xml:id="p1-l7"/>Monsieur A. Escher Président
+      <div type="opener">
+        <p rend="center" xml:id="K_8242_p3"><lb xml:id="p1-l7"/>Monsieur A. Escher Président
             <lb xml:id="p1-l8"/>du Comité de Direction du chemin de
             <lb xml:id="p1-l9"/>Fer du Gothard.</p>
-        <p rend="right" xml:id="K_8242_p4">
-                    <lb xml:id="p1-l10"/>
+        <p rend="right" xml:id="K_8242_p4"><lb xml:id="p1-l10"/>
           
-            <placeName type="place" key="Zürich (Stadt)">Zurich</placeName>.
+            <placeName key="Zürich (Stadt)">Zurich</placeName>.
           
         </p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_8242_p5">
-                    <lb xml:id="p1-l11"/>Monsieur le Président,</p>
+        <p rend="center" xml:id="K_8242_p5"><lb xml:id="p1-l11"/>Monsieur le Président,</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_8242_p6">
-                <lb xml:id="p1-l12"/>J'ai l'honneur de vous accuser réception
-            <lb xml:id="p1-l13"/>de votre honorée lettre du <date when="1875-04-07">7</date>/<date when="1875-04-09">9</date> <choice>
-                        <abbr>C<hi rend="sup">t</hi> </abbr>
-                        <expan>Courant (laufenden [Monats])</expan>
-                    </choice> que j'ai
+    </front><body>
+      <p rend="indent" xml:id="K_8242_p6"><lb xml:id="p1-l12"/>J'ai l'honneur de vous accuser réception
+            <lb xml:id="p1-l13"/>de votre honorée lettre du <date when="1875-04-07">7</date>/<date when="1875-04-09">9</date> <choice><abbr>C<hi rend="sup">t</hi> </abbr><expan>Courant (laufenden [Monats])</expan></choice> que j'ai
             <lb xml:id="p1-l14"/>trouvée à mon retour d'une courte absence.
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_8242_p7">
-                    <lb xml:id="p1-l15"/>Je vous prie d'agréer, Monsieur le Président,
+        <p rend="indent" xml:id="K_8242_p7"><lb xml:id="p1-l15"/>Je vous prie d'agréer, Monsieur le Président,
             <lb xml:id="p1-l16"/>l'assurance de ma haute considération.
         </p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_8242_p8">
-                    <lb xml:id="p1-l17"/>L. Favre
+      <div type="signature">
+        <p rend="center" xml:id="K_8242_p8"><lb xml:id="p1-l17"/>L. Favre
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

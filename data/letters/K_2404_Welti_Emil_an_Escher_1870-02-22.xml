@@ -1,264 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2404" n="127" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Emil Welti an Alfred Escher, Bern, Dienstag, Februar 22, 1870</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.2#1000/1310#35*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnstrecken Konzessionen</item>
-                        <item>Bözbergbahnprojekt</item>
-                        <item>Regierungsrat BE</item>
-                        <item>Grosser Rat BE</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1870-02-22">Dienstag, Februar 22, 1870</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-06-01" who="BF/SD">Transkription: transkribiert
-                
-            </change>
-            <change when="2006-09-18" who="BF">provisorisch kommentiert 1
-                
-            </change>
-            <change when="2007-01-23" who="BF">XML angepasst [Indexierung unvollständig!]
-                
-            </change>
-            <change when="2007-02-14" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-04-2007; 10-02-26" who="BF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-04-13" who="WB">indexiert
-                
-            </change>
-            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-17" who="BF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-11" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-25" who="BF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-08-07" who="BF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2008-07-30" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-18" who="BP">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-04" who="HA">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-09-02" who="LW">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-11-24" who="VP">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-24" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-24" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2404" type="Brief"><teiHeader><fileDesc><titleStmt><title>Emil Welti an Alfred Escher, Bern, Dienstag, 22. Februar 1870</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.2#1000/1310#35*</idno><idno>J I.2</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnstrecken Konzessionen</term><term>Bözbergbahnprojekt</term><term>Regierungsrat BE</term><term>Grosser Rat BE</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term>Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Welti Emil" type="addressee">Emil Welti</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1870-02-22">22. Februar 1870</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_2404_p1">
-                    <lb xml:id="p1-l1"/>Hochgeehrter Herr</p>
+        <p rend="indent" xml:id="K_2404_p1"><lb xml:id="p1-l1"/>Hochgeehrter Herr</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_2404_p2">
-                <lb xml:id="p1-l2"/>Ich habe Ihnen zunächst zu berichten, dass,<lb xml:id="p1-l3"/>
-wie ich <date when="1870-02-21">gestern</date> vernommen habe im <placeName type="place" key="Aargau">Aargau</placeName> <lb xml:id="p1-l4"/>
-        sehr sonderbare Dinge vorgehen. Im Gebiete der<lb xml:id="p1-l5"/> <seg type="com">Südbahn<note xml:id="K_2404_c1">Die von der <ref type="kbe"/>Schweizerischen Nordostbahn und der <ref type="kbe"/>Schweizerischen Centralbahn als Gemeinschaftsbahn erstellte und von der Schweizerischen Centralbahn betriebene <placeName type="place" key="Aargau">aargauische</placeName> Südbahn führte von <placeName type="place" key="Rupperswil">Rupperswil</placeName> über <placeName type="place" key="Wohlen (AG)">Wohlen</placeName>, <placeName type="place" key="Muri (AG)">Muri</placeName> und <placeName type="place" key="Rotkreuz (Risch)">Rotkreuz</placeName> nach <placeName type="place" key="Immensee (Küssnacht, SZ)">Immensee</placeName>, mit einer Zweigbahn nach <placeName type="place" key="Brugg (AG)">Brugg</placeName>. Die Schweizerische Nordostbahn und die Schweizerische Centralbahn übernahmen die Konzession im Februar 1872. Zwischen 1874 und 1882 wurden die verschiedenen Teilstrecken dieser Linie eröffnet. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 43–48; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 55.</note>
-                </seg> (nicht in <placeName type="place" key="Aarau">Aarau</placeName>) trage man sich<lb xml:id="p1-l6"/>
-mit dem Gedanken <seg type="ref">die neue Concession an<lb xml:id="p1-l7"/>
-die beiden Gesellschaften für den <placeName type="place" key="Bözberg">Bözberg</placeName>
-                    <ref type="letter" target="K_2395">Bözbergbahn<!-- → Nr. 124--></ref>
-                </seg> <lb xml:id="p1-l8"/>
+    </front><body>
+      <p rend="left" xml:id="K_2404_p2"><lb xml:id="p1-l2"/>Ich habe Ihnen zunächst zu berichten, dass,<lb xml:id="p1-l3"/>
+wie ich <date when="1870-02-21">gestern</date> vernommen habe im <placeName key="Aargau">Aargau</placeName> <lb xml:id="p1-l4"/>
+        sehr sonderbare Dinge vorgehen. Im Gebiete der<lb xml:id="p1-l5"/> Südbahn<note type="com" xml:id="K_2404_c1">Die von der Schweizerischen Nordostbahn und der Schweizerischen Centralbahn als Gemeinschaftsbahn erstellte und von der Schweizerischen Centralbahn betriebene <placeName key="Aargau">aargauische</placeName> Südbahn führte von <placeName key="Rupperswil">Rupperswil</placeName> über <placeName key="Wohlen (AG)">Wohlen</placeName>, <placeName key="Muri (AG)">Muri</placeName> und <placeName key="Rotkreuz (Risch)">Rotkreuz</placeName> nach <placeName key="Immensee (Küssnacht, SZ)">Immensee</placeName>, mit einer Zweigbahn nach <placeName key="Brugg (AG)">Brugg</placeName>. Die Schweizerische Nordostbahn und die Schweizerische Centralbahn übernahmen die Konzession im Februar 1872. Zwischen 1874 und 1882 wurden die verschiedenen Teilstrecken dieser Linie eröffnet. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Kessler, Nordostbahn</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 43–48; <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 55.</note> (nicht in <placeName key="Aarau">Aarau</placeName>) trage man sich<lb xml:id="p1-l6"/>
+mit dem Gedanken <rs>die neue Concession an<lb xml:id="p1-l7"/>
+die beiden Gesellschaften für den <placeName key="Bözberg">Bözberg</placeName><ref type="letter" target="K_2395">Bözbergbahn<!-- → Nr. 124--></ref></rs> <lb xml:id="p1-l8"/>
 nur unter der Bedingung zu ertheilen, dass<lb xml:id="p1-l9"/>
 auch die Südbahn gesichert sei. Ich habe <lb xml:id="p1-l10"/>
-sofort die eindringlichsten Vorstellungen da<lb break="no" xml:id="p1-l11"/>gegen 
-erhoben und <seg type="com">werde Ihnen über den<pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-Erfolg Mittheilung machen.<note xml:id="K_2404_c2">Noch am <date when="1870-02-22">selben Tag</date> schrieb Welti an Escher, er habe Nachricht von <placeName type="place" key="Aarau">Aarau</placeName> erhalten. Seine Befürchtungen hätten sich nicht realisiert, da an einer Konferenz der Südbahnkomitees, die am <date when="1870-02-19">19. Februar</date> in <placeName type="place" key="Wohlen (AG)">Wohlen</placeName> stattfand, die Angelegenheit der <placeName type="place" key="Bözberg">Bözberg</placeName>bahn gar nicht erst besprochen wurde. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="letter" target="K_2403"><!-- Brief Emil Welti an Escher, 22. Februar 1870 (2) (BAR J I.2)--></ref>; <ref type="lit">NZZ</ref>, 22. Februar 1870, 25. Februar 1870.</note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_2404_p3">
-                <lb xml:id="p2-l2"/>Das Verhalten <placeName type="place" key="Italien (Königreich)">Italiens</placeName> und die Lauheit<lb xml:id="p2-l3"/>
+sofort die eindringlichsten Vorstellungen da<lb xml:id="p1-l11" break="no"/>gegen 
+erhoben und werde Ihnen über den<pb n="2"/><lb xml:id="p2-l1"/>
+Erfolg Mittheilung machen.<note type="com" xml:id="K_2404_c2">Noch am <date when="1870-02-22">selben Tag</date> schrieb Welti an Escher, er habe Nachricht von <placeName key="Aarau">Aarau</placeName> erhalten. Seine Befürchtungen hätten sich nicht realisiert, da an einer Konferenz der Südbahnkomitees, die am <date when="1870-02-19">19. Februar</date> in <placeName key="Wohlen (AG)">Wohlen</placeName> stattfand, die Angelegenheit der <placeName key="Bözberg">Bözberg</placeName>bahn gar nicht erst besprochen wurde. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="letter" target="K_2403"><!-- Brief Emil Welti an Escher, 22. Februar 1870 (2) (BAR J I.2)--></ref>; <ref type="lit">NZZ</ref>, 22. Februar 1870, 25. Februar 1870.</note> </p>
+      <p rend="indent" xml:id="K_2404_p3"><lb xml:id="p2-l2"/>Das Verhalten <placeName key="Italien (Königreich)">Italiens</placeName> und die Lauheit<lb xml:id="p2-l3"/>
 der dortigen Regierung ist allerdings Bedenken<lb xml:id="p2-l4"/>
 erregend und es kommt mir immer wieder<lb xml:id="p2-l5"/>
-von Neuem die Frage, ob es nicht ange<lb break="no" xml:id="p2-l6"/>messen 
-wäre jemanden an Ort <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Stelle<lb xml:id="p2-l7"/>
-zu haben, wenn es auch zu nichts weiterem<lb xml:id="p2-l8"/>
-wäre als über die Stimmung <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Sachlage<lb xml:id="p2-l9"/>
-gehörig unterrichtet zu werden. Von <seg type="com">Herrn<lb xml:id="p2-l10"/>
-                    <persName type="person" key="Melegari Luigi Amedeo">Melegari</persName>
-                    <note xml:id="K_2404_c3">
-                        <persName type="person" key="Melegari Luigi Amedeo">Luigi Amedeo Melegari</persName> (1805–1881), ausserordentlicher Gesandter und bevollmächtigter Minister des Königreichs <placeName type="place" key="Italien (Königreich)">Italien</placeName> in <placeName type="place" key="Bern (Stadt)">Bern</placeName>.</note>
-                </seg> ist gar nichts Positives <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Neues<lb xml:id="p2-l11"/>
-zu erfahren; <seg type="com">er hat immer die beste Hoff<lb break="no" xml:id="p2-l12"/>nung 
-ohne sagen zu können worauf er<lb xml:id="p2-l13"/>  
-sie gründe.<note xml:id="K_2404_c4">Am <date when="1870-02-22">selben Tag</date> schrieb Welti an Escher von einer neuen Besprechung mit <persName type="person" key="Melegari Luigi Amedeo">Melegari</persName>, wo dieser erneut erklärte, dass ihm nichts bekannt sei, was Anlass zu Befürchtungen geben könnte. <persName type="person" key="Melegari Luigi Amedeo">Melegari</persName> hielt es aber auch für wünschenswert, dass die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>befürworter in <placeName type="place" key="Italien (Königreich)">Italien</placeName> ebenso tätig wären wie die Vertreter des <placeName type="place" key="Splügen (Pass)">Splügens</placeName>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="letter" target="K_2403"><!-- Brief Emil Welti an Escher, 22. Februar 1870 (2) (BAR J I.2)--></ref>.</note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_2404_p4">
-                <lb xml:id="p2-l14"/>Auch hier in <placeName type="place" key="Bern (Stadt)">Bern</placeName> bereiten sich wieder<pb n="3"/>
-                <lb xml:id="p3-l1"/>
-neue Schwierigkeiten. <seg type="com">
-                    <persName type="person" key="Jolissaint Pierre">Jolissaint</persName>
-                    <note xml:id="K_2404_c5">
-                        <persName type="person" key="Jolissaint Pierre">Pierre Jolissaint</persName> (1830–1896), Regierungsrat und Nationalrat (<placeName type="place" key="Bern">BE</placeName>).</note>
-                </seg> will an die Subven<lb break="no" xml:id="p3-l2"/>tion 
-die bestimmte Bedingung knüpfen, dass der<lb xml:id="p3-l3"/>
-                    <seg type="ref">Jurabahn<ref type="kbe">→ JB</ref>
-                </seg> der <seg type="com">Anschluss an den <placeName type="place" key="Baden (Grossherzogtum)">badischen</placeName> Bahn<lb break="no" xml:id="p3-l4"/>hof 
-  in <placeName type="place" key="Basel-Stadt">Basel</placeName> gesichert werde.<note xml:id="K_2404_c6">Im Staatsvertrag von 1869 verpflichtete sich die Schweiz, durch einen <placeName type="place" key="Rhein">Rhein</placeName>übergang bei <placeName type="place" key="Basel-Stadt">Basel</placeName> eine Verbindung der Schweizerischen Centralbahn mit dem Bahnnetz des Grossherzogtums <placeName type="place" key="Baden (Grossherzogtum)">Baden</placeName> herzustellen.<!--  Die bezügliche Konzession genehmigte die Bundesversammlung am 23. Juli 1870,  am 1. November 1870 schlossen SCB und badische Staatsbahn einen Vertrag. Eröffnet wurde die Verbindungslinie zwischen dem Bahnhof der SCB in Gross-Basel und dem badischen Bahnhof in Klein-Basel am 3. November 1873.Die Verbindung der Bernischen Jurabahn mit Basel und somit die Verbindung zum süddeutschen Bahnnetz durch den Anschluss an den badischen Bahnhof kam 1875 mit der Eröffnung der Linie <idx type="place" norm="Delsberg">Delsberg</idx> &ndash;Basel zustande.--> Vgl.<!-- <ref type="lit">Botschaft des Bundesrathes an die h. Bundesversammlung, betreffend die Konzession für den Bau und Betrieb einer Verbindungsbahn zwischen den Bahnhöfen der schweizerischen Zentralbahn und der großherzoglich badischen Bahn in Basel (vom 1. Juli 1870), in: BBl 1870 II</ref>, S. 1001&ndash;1012; <ref type="lit">Bericht des schweizerischen Bundesrathes an die h. Bundesversammlung über seine Geschäftsführung im Jahr 1870, in: BBl 1871 II</ref>, S. 315&ndash;316;-->
-                        <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10006532" type="www">
-                            <ref type="lit">Staatsvertrag Gotthardbahn 1869</ref>, Art. 4</ref><!--; <ref type="lit">Prot. BR</ref>, 20. Mai 1870; 9. November 1870; 18. November 1870; <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 5. November 1870 (Präsidialverfügung); <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, S. 55, 64-->. </note>
-                </seg> Ich hatte dess<lb break="no" xml:id="p3-l5"/>halb 
-mit ihm <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <seg type="ref">
-                    <persName type="person" key="Weber Johann">Weber</persName>
-                    <ref type="kbp">→ Johann Weber</ref>
-                </seg>
-                    <date when="1870-02-21">gestern</date> eine lange<lb xml:id="p3-l6"/>
-Unterredung, deren Resultat das war, dass<lb xml:id="p3-l7"/>
-                    <persName type="person" key="Jolissaint Pierre">Jolissaint</persName> auf seiner Ansicht beharrte wäh<lb break="no" xml:id="p3-l8"/>rend <persName type="person" key="Weber Johann">Weber</persName> «die Sache noch weiter beden<lb break="no" xml:id="p3-l9"/>ken 
-wollte». <date when="1870-02-23">Morgen (Mittwoch)</date> wird die<lb xml:id="p3-l10"/>
-Regierung das Decret an den Grossen Rath<lb xml:id="p3-l11"/>
-behandeln. Auch <seg type="ref">Herr <persName type="person" key="Schenk Karl">Schenk</persName>
-                    <ref type="kbp">→ Karl Schenk</ref>
-                </seg> gab sich alle<lb xml:id="p3-l12"/>
-Mühe diese sehr fatale Angelegenheit ins<lb xml:id="p3-l13"/>
-Reine zu bringen. <seg type="com">Ich hoffe die Regierung wer<lb break="no" xml:id="p3-l14"/>de 
-  unsern Wünschen <choice>
-                            <abbr>u</abbr>
-                            <expan>und</expan>
-                        </choice> Vorstellungen nachgeben.<lb xml:id="p3-l15"/>
-                    <note xml:id="K_2404_c7">In dem vom <placeName type="place" key="Bern">Berner</placeName> Regierungsrat dem Grossen Rat vorgelegten Antrag wurde darauf verzichtet, die Subvention mit den von <persName type="person" key="Jolissaint Pierre">Jolissaint</persName> gewünschten Bedingungen zu verbinden. Der Grosse Rat nahm diesen Antrag am <date when="1870-03-10">10. März</date> unter Vorbehalt der Genehmigung durch eine Volksabstimmung an. Das <placeName type="place" key="Bern">Berner</placeName>volk bewilligte die Subvention von 1 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken am <date when="1870-04-03">3. April 1870</date> mit klarem Mehr (rund 31 500 Ja gegen rund 10 500 Nein). <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004687" type="www">
-                            <ref type="lit">Prot. BR</ref>, 14. März 1870</ref>; <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004704">
-                            <ref type="lit">Prot. BR</ref>, 20. April 1870</ref>; <ref type="lit">NZZ</ref>, 10. April 1870; <ref type="lit">Volmar, Alpenbahnpolitik</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 132–140, 151–156; <ref type="letter" target="K_2384"><!--→ Nr. 119--></ref>.</note>
-                </seg> Die Conferenz mit den <placeName type="place" key="Aargau">aarg.</placeName> Bahnen soll<pb n="4"/>
-                    <lb xml:id="p4-l1"/>
-nächste Woche statt haben; der Tag ist noch<lb xml:id="p4-l2"/>
+von Neuem die Frage, ob es nicht ange<lb xml:id="p2-l6" break="no"/>messen 
+wäre jemanden an Ort <choice><abbr>u</abbr><expan>und</expan></choice> Stelle<lb xml:id="p2-l7" break="no"/>
+zu haben, wenn es auch zu nichts weiterem<lb xml:id="p2-l8" break="no"/>
+wäre als über die Stimmung <choice><abbr>u</abbr><expan>und</expan></choice> Sachlage<lb xml:id="p2-l9" break="no"/>
+gehörig unterrichtet zu werden. Von Herrn<lb xml:id="p2-l10"/><persName key="Melegari Luigi Amedeo">Melegari</persName><note type="com" xml:id="K_2404_c3"><persName key="Melegari Luigi Amedeo">Luigi Amedeo Melegari</persName> (1805–1881), ausserordentlicher Gesandter und bevollmächtigter Minister des Königreichs <placeName key="Italien (Königreich)">Italien</placeName> in <placeName key="Bern (Stadt)">Bern</placeName>.</note> ist gar nichts Positives <choice><abbr>u</abbr><expan>und</expan></choice> Neues<lb xml:id="p2-l11" break="no"/>
+zu erfahren; er hat immer die beste Hoff<lb xml:id="p2-l12" break="no"/>nung 
+ohne sagen zu können worauf er<lb xml:id="p2-l13" break="no"/>  
+sie gründe.<note type="com" xml:id="K_2404_c4">Am <date when="1870-02-22">selben Tag</date> schrieb Welti an Escher von einer neuen Besprechung mit <persName key="Melegari Luigi Amedeo">Melegari</persName>, wo dieser erneut erklärte, dass ihm nichts bekannt sei, was Anlass zu Befürchtungen geben könnte. <persName key="Melegari Luigi Amedeo">Melegari</persName> hielt es aber auch für wünschenswert, dass die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>befürworter in <placeName key="Italien (Königreich)">Italien</placeName> ebenso tätig wären wie die Vertreter des <placeName key="Splügen (Pass)">Splügens</placeName>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="letter" target="K_2403"><!-- Brief Emil Welti an Escher, 22. Februar 1870 (2) (BAR J I.2)--></ref>.</note> </p>
+      <p rend="indent" xml:id="K_2404_p4"><lb xml:id="p2-l14"/>Auch hier in <placeName key="Bern (Stadt)">Bern</placeName> bereiten sich wieder<pb n="3"/><lb xml:id="p3-l1"/>
+neue Schwierigkeiten. <persName key="Jolissaint Pierre">Jolissaint</persName><note type="com" xml:id="K_2404_c5"><persName key="Jolissaint Pierre">Pierre Jolissaint</persName> (1830–1896), Regierungsrat und Nationalrat (<placeName key="Bern">BE</placeName>).</note> will an die Subven<lb xml:id="p3-l2" break="no"/>tion 
+die bestimmte Bedingung knüpfen, dass der<lb xml:id="p3-l3" break="no"/> <rs>Jurabahn</rs> der Anschluss an den <placeName key="Baden (Grossherzogtum)">badischen</placeName> Bahn<lb xml:id="p3-l4" break="no"/>hof 
+  in <placeName key="Basel-Stadt">Basel</placeName> gesichert werde.<note type="com" xml:id="K_2404_c6">Im Staatsvertrag von 1869 verpflichtete sich die Schweiz, durch einen <placeName key="Rhein">Rhein</placeName>übergang bei <placeName key="Basel-Stadt">Basel</placeName> eine Verbindung der Schweizerischen Centralbahn mit dem Bahnnetz des Grossherzogtums <placeName key="Baden (Grossherzogtum)">Baden</placeName> herzustellen.<!--  Die bezügliche Konzession genehmigte die Bundesversammlung am 23. Juli 1870,  am 1. November 1870 schlossen SCB und badische Staatsbahn einen Vertrag. Eröffnet wurde die Verbindungslinie zwischen dem Bahnhof der SCB in Gross-Basel und dem badischen Bahnhof in Klein-Basel am 3. November 1873.Die Verbindung der Bernischen Jurabahn mit Basel und somit die Verbindung zum süddeutschen Bahnnetz durch den Anschluss an den badischen Bahnhof kam 1875 mit der Eröffnung der Linie <idx type="place" norm="Delsberg">Delsberg</idx> &ndash;Basel zustande.--> Vgl.<!-- <ref type="lit">Botschaft des Bundesrathes an die h. Bundesversammlung, betreffend die Konzession für den Bau und Betrieb einer Verbindungsbahn zwischen den Bahnhöfen der schweizerischen Zentralbahn und der großherzoglich badischen Bahn in Basel (vom 1. Juli 1870), in: BBl 1870 II</ref>, S. 1001&ndash;1012; <ref type="lit">Bericht des schweizerischen Bundesrathes an die h. Bundesversammlung über seine Geschäftsführung im Jahr 1870, in: BBl 1871 II</ref>, S. 315&ndash;316;--><ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=10006532"><ref type="lit">Staatsvertrag Gotthardbahn 1869</ref>, Art. 4</ref><!--; <ref type="lit">Prot. BR</ref>, 20. Mai 1870; 9. November 1870; 18. November 1870; <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 5. November 1870 (Präsidialverfügung); <ref type="lit">Weissenbach, Eisenbahnwesen</ref>, S. 55, 64-->. </note> Ich hatte dess<lb xml:id="p3-l5" break="no"/>halb 
+mit ihm <choice><abbr>u</abbr><expan>und</expan></choice> <rs><persName key="Weber Johann">Weber</persName></rs> <date when="1870-02-21">gestern</date> eine lange<lb xml:id="p3-l6" break="no"/>
+Unterredung, deren Resultat das war, dass<lb xml:id="p3-l7" break="no"/><persName key="Jolissaint Pierre">Jolissaint</persName> auf seiner Ansicht beharrte wäh<lb xml:id="p3-l8" break="no"/>rend <persName key="Weber Johann">Weber</persName> «die Sache noch weiter beden<lb xml:id="p3-l9" break="no"/>ken 
+wollte». <date when="1870-02-23">Morgen (Mittwoch)</date> wird die<lb xml:id="p3-l10" break="no"/>
+Regierung das Decret an den Grossen Rath<lb xml:id="p3-l11" break="no"/>
+behandeln. Auch <rs>Herr <persName key="Schenk Karl">Schenk</persName></rs> gab sich alle<lb xml:id="p3-l12" break="no"/>
+Mühe diese sehr fatale Angelegenheit ins<lb xml:id="p3-l13" break="no"/>
+Reine zu bringen. Ich hoffe die Regierung wer<lb xml:id="p3-l14" break="no"/>de 
+  unsern Wünschen <choice><abbr>u</abbr><expan>und</expan></choice> Vorstellungen nachgeben.<lb xml:id="p3-l15" break="no"/><note type="com" xml:id="K_2404_c7">In dem vom <placeName key="Bern">Berner</placeName> Regierungsrat dem Grossen Rat vorgelegten Antrag wurde darauf verzichtet, die Subvention mit den von <persName key="Jolissaint Pierre">Jolissaint</persName> gewünschten Bedingungen zu verbinden. Der Grosse Rat nahm diesen Antrag am <date when="1870-03-10">10. März</date> unter Vorbehalt der Genehmigung durch eine Volksabstimmung an. Das <placeName key="Bern">Berner</placeName>volk bewilligte die Subvention von 1 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken am <date when="1870-04-03">3. April 1870</date> mit klarem Mehr (rund 31 500 Ja gegen rund 10 500 Nein). <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004687"><ref type="lit">Prot. BR</ref>, 14. März 1870</ref>; <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?id=70004704"><ref type="lit">Prot. BR</ref>, 20. April 1870</ref>; <ref type="lit">NZZ</ref>, 10. April 1870; <ref type="lit">Volmar, Alpenbahnpolitik</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 132–140, 151–156; <ref type="letter" target="K_2384"><!--→ Nr. 119--></ref>.</note> Die Conferenz mit den <placeName key="Aargau">aarg.</placeName> Bahnen soll<pb n="4"/><lb xml:id="p4-l1" break="no"/>
+nächste Woche statt haben; der Tag ist noch<lb xml:id="p4-l2" break="no"/>
 nicht bestimmt.</p>
-      <p rend="indent" xml:id="K_2404_p5">
-                <lb xml:id="p4-l3"/>Aus <placeName type="place" key="Berlin (D)">Berlin</placeName> haben wir keine neueren Nach<lb break="no" xml:id="p4-l4"/>richten; 
-als bemerkenswerth <seg type="com">lege ich die letzte<lb xml:id="p4-l5"/>
-Nummer der im Ministerium redigirten Cor<lb break="no" xml:id="p4-l6"/>respondance 
-de <placeName type="place" key="Berlin (D)">Berlin</placeName> bei<note xml:id="K_2404_c8">Beilage nicht ermittelt.</note>
-                </seg>, die einen Ar<lb break="no" xml:id="p4-l7"/>tikel 
-über die <seg type="ref">Betheiligung der <placeName type="place" key="Preussen (Königreich)">preussischen</placeName> <lb xml:id="p4-l8"/>
-Bahnen<ref type="letter" target="K_2369"><!--→ Nr. 117--></ref>
-                </seg> enthält aus dem ich <seg type="com">schliesse, dass die <lb xml:id="p4-l9"/>
-daherigen Verhandlungen keinen günstigen Fort<lb break="no" xml:id="p4-l10"/>gang 
-nehmen.<note xml:id="K_2404_c9">Die <choice>
-                                <abbr>N<placeName type="place" key="Zürich">Z</placeName>Z</abbr>
-                                <expan>Neue Zürcher Zeitung</expan>
-                            </choice> vom <date when="1870-02-23">23. Februar</date> hingegen berichtete gestützt auf die «<placeName type="place" key="Köln (D)">Kölner</placeName> Zeitung», dass namhafte Privatbahnen nicht gewillt seien, gegen den Plan der Subventionsbeteiligung vorzugehen. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 23. Februar 1870.</note>
-                </seg> Es ist mehr als je nöthig,<lb xml:id="p4-l11"/>
-dass uns mit den Schwierigkeiten Muth <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p4-l12"/>
+      <p rend="indent" xml:id="K_2404_p5"><lb xml:id="p4-l3"/>Aus <placeName key="Berlin (D)">Berlin</placeName> haben wir keine neueren Nach<lb xml:id="p4-l4" break="no"/>richten; 
+als bemerkenswerth lege ich die letzte<lb xml:id="p4-l5"/>
+Nummer der im Ministerium redigirten Cor<lb xml:id="p4-l6" break="no"/>respondance 
+de <placeName key="Berlin (D)">Berlin</placeName> bei<note type="com" xml:id="K_2404_c8">Beilage nicht ermittelt.</note>, die einen Ar<lb xml:id="p4-l7" break="no"/>tikel 
+über die <rs>Betheiligung der <placeName key="Preussen (Königreich)">preussischen</placeName> <lb xml:id="p4-l8"/>
+Bahnen<ref type="letter" target="K_2369"><!--→ Nr. 117--></ref></rs> enthält aus dem ich schliesse, dass die <lb xml:id="p4-l9"/>
+daherigen Verhandlungen keinen günstigen Fort<lb xml:id="p4-l10" break="no"/>gang 
+nehmen.<note type="com" xml:id="K_2404_c9">Die <choice><abbr>N<placeName key="Zürich">Z</placeName>Z</abbr><expan>Neue Zürcher Zeitung</expan></choice> vom <date when="1870-02-23">23. Februar</date> hingegen berichtete gestützt auf die «<placeName key="Köln (D)">Kölner</placeName> Zeitung», dass namhafte Privatbahnen nicht gewillt seien, gegen den Plan der Subventionsbeteiligung vorzugehen. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 23. Februar 1870.</note> Es ist mehr als je nöthig,<lb xml:id="p4-l11" break="no"/>
+dass uns mit den Schwierigkeiten Muth <choice><abbr>u</abbr><expan>und</expan></choice> <lb xml:id="p4-l12" break="no"/>
 Eifer wachse.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2404_p6">
-                    <lb xml:id="p4-l13"/>Mit freundschaftlicher Hochschätzung</p>
-        <p rend="right" xml:id="K_2404_p7">
-                    <lb xml:id="p4-l14"/>Ihr ergebenster</p>
+        <p rend="indent" xml:id="K_2404_p6"><lb xml:id="p4-l13"/>Mit freundschaftlicher Hochschätzung</p>
+        <p rend="right" xml:id="K_2404_p7"><lb xml:id="p4-l14"/>Ihr ergebenster</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2404_p8">
-                    <lb xml:id="p4-l15"/>E Welti<!--nachträglich von IB geändert, 22.07.2014-->
-                </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2404_p8"><lb xml:id="p4-l15"/>E Welti<!--nachträglich von IB geändert, 22.07.2014--></p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_2404_p9">
-                    <lb xml:id="p4-l16"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName> den <date when="1870-02-22">22. <choice>
-                            <abbr>Febr.</abbr>
-                            <expan>Februar</expan>
-                        </choice> 1870</date>.</p>
+        <p rend="left" xml:id="K_2404_p9"><lb xml:id="p4-l16"/>
+          <placeName key="Bern (Stadt)">Bern</placeName> den <date when="1870-02-22">22. <choice><abbr>Febr.</abbr><expan>Februar</expan></choice> 1870</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

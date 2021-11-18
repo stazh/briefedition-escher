@@ -1,191 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0687" n="21" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jakob Stämpfli an Alfred Escher, Bern, Donnerstag, September 13, 1849</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#466*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Bankwesen (allgemein)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Stämpfli Jakob" type="sender">Jakob Stämpfli</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1849-09-13">Donnerstag, September 13, 1849</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-06-/15-13" who="SD">Transkribiert 
-                
-            </change>
-            <change when="Mai&#xA;          2009" who="swissedit, UR">von Word nach XML konvertiert 
-                
-            </change>
-            <change when="2010-03-12" who="SW">Transkriptionsverifizierung T. Binder
-          umgesetzt
-                
-            </change>
-            <change when="2010-03-12" who="SW">Provisorisch kommentiert
-                
-            </change>
-            <change when="2011-04-12" who="SW">Korrekturen 2 Haberthür
-        umgesetzt
-                
-            </change>
-            <change when="2011-04-12" who="SW">Anführungs- und Schlusszeichen
-          ersetzt
-                
-            </change>
-            <change when="2011-08-30" who="SW">Korrekturen 3 Haberthür
-        übertragen
-                
-            </change>
-            <change when="2011-08-30" who="SW">Wochentag verifiziert
-                
-            </change>
-            <change when="2012-06-05" who="AH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-11" who="FM">Verifikation 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-25" who="FM">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2012-06-27" who="FK">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2012-06-28" who="LM">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2012-08-22" who="TM">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2012-08-28" who="SW">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2015-02-25" who="BF">Transkriptionsverifizierung Seiterle 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0687" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jakob Stämpfli an Alfred Escher, Bern, Donnerstag, 13. September 1849</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Gauss, Briefe, S. 102–104 (auszugsweise)</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#466*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Bankwesen (allgemein)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Stämpfli Jakob" type="addressee">Jakob Stämpfli</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1849-09-13">13. September 1849</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_0687_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName> den <date when="1849-09-13">13 <choice>
-                            <abbr>Sept.</abbr>
-                            <expan>September</expan>
-                        </choice> 1849</date>.</p>
+        <p rend="right" xml:id="K_0687_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Bern (Stadt)">Bern</placeName> den <date when="1849-09-13">13 <choice><abbr>Sept.</abbr><expan>September</expan></choice> 1849</date>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_0687_p2">
-                    <lb xml:id="p1-l2"/>Mein hochverehrtester Freund!</p>
+        <p rend="indent" xml:id="K_0687_p2"><lb xml:id="p1-l2"/>Mein hochverehrtester Freund!</p>
       </div><!--Leerer Absatz-->
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_0687_p3">
-                <lb xml:id="p1-l3"/>Wegen des <seg type="com">Artikels im Unabhängigen<note xml:id="K_0687_c1">Gemeint ist wohl ein Artikel unter dem Titel
-            «Rothe Briefe von <placeName type="place" key="Zürich">Zürich</placeName>. II.». Weitere Artikel
-            sollten folgen. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Der
+    </front><body>
+      <p rend="indent" xml:id="K_0687_p3"><lb xml:id="p1-l3"/>Wegen des Artikels im Unabhängigen<note type="com" xml:id="K_0687_c1">Gemeint ist wohl ein Artikel unter dem Titel
+            «Rothe Briefe von <placeName key="Zürich">Zürich</placeName>. II.». Weitere Artikel
+            sollten folgen. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Der
             Unabhängige</ref>, 1. September 1849. – In einem früheren Brief setzte sich Stämpfli
-            eingehend mit dem Thema Presseangriffe auseinander. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="letter" target="K_0683"><!--Brief Jakob Stämpfli an Escher, 6. September 1849 (BAR J I.67-8)--></ref>.</note>
-                </seg> bleibt es bei meiner letzten Meinung. Hier spricht<lb xml:id="p1-l4"/>
-        Niemand von dem Artikel oder wenn es geschieht im Sinne der Entrüstung <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Mißbilligung.<lb xml:id="p1-l5"/> Daß man Ihnen deshalb etwas anhält, davon keine Spur.</p>
-      <p rend="indent" xml:id="K_0687_p4">
-                <lb xml:id="p1-l6"/>Ueber <seg type="com">unsere Kantonalbank<note xml:id="K_0687_c2">Die <placeName type="place" key="Bern">Berner</placeName> Kantonalbank wurde im Jahr 1834 errichtet. Sie war die erste ihrer Art
+            eingehend mit dem Thema Presseangriffe auseinander. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="letter" target="K_0683"><!--Brief Jakob Stämpfli an Escher, 6. September 1849 (BAR J I.67-8)--></ref>.</note> bleibt es bei meiner letzten Meinung. Hier spricht<lb xml:id="p1-l4"/>
+        Niemand von dem Artikel oder wenn es geschieht im Sinne der Entrüstung <choice><abbr>u.</abbr><expan>und</expan></choice> Mißbilligung.<lb xml:id="p1-l5"/> Daß man Ihnen deshalb etwas anhält, davon keine Spur.</p>
+      <p rend="indent" xml:id="K_0687_p4"><lb xml:id="p1-l6"/>Ueber unsere Kantonalbank<note type="com" xml:id="K_0687_c2">Die <placeName key="Bern">Berner</placeName> Kantonalbank wurde im Jahr 1834 errichtet. Sie war die erste ihrer Art
             auf dem Gebiet der Schweizerischen Eidgenossenschaft. Als Folge der Monetarisierung der
             Wirtschaft und des Aufschwungs in der ersten Hälfte des 19. Jahrhunderts war die
             Nachfrage nach Krediten und Zahlungsmitteln stark gestiegen und konnte von den
             bestehenden Institutionen nicht mehr befriedigt werden. Um auch der Mittelschicht und
             den Bauern den Zugang zum Kreditmarkt zu erleichtern, wurde eine staatliche Bank
             gegründet. Die radikal-liberalen Machthaber beabsichtigten mit diesem Schritt nicht
-            zuletzt, den Einfluss der Finanzaristokratie des Ancien Régime einzudämmen. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref target="http://www.hls-dhs-dss.ch/textes/d/D14065.php" type="www">
-                            <ref type="lit">HLS online</ref>,
-          Kantonalbanken</ref>.</note>
-                </seg> folgendes. Dieselbe ist eine reine Staatsanstalt und<lb xml:id="p1-l7"/>
-        arbeitet rein mit einem Staatskapitalfond von 3 <choice>
-                        <abbr>Mill.</abbr>
-                        <expan>Million</expan>
-                    </choice>
-        Franken (Schweizer-), welcher<!--T. Binder nicht 100% sicher-->
-                <lb xml:id="p1-l8"/> ihr natürlich
+            zuletzt, den Einfluss der Finanzaristokratie des Ancien Régime einzudämmen. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref target="http://www.hls-dhs-dss.ch/textes/d/D14065.php"><ref type="lit">HLS online</ref>,
+          Kantonalbanken</ref>.</note> folgendes. Dieselbe ist eine reine Staatsanstalt und<lb xml:id="p1-l7"/>
+        arbeitet rein mit einem Staatskapitalfond von 3 <choice><abbr>Mill.</abbr><expan>Million</expan></choice>
+        Franken (Schweizer-), welcher<!--T. Binder nicht 100% sicher--><lb xml:id="p1-l8"/> ihr natürlich
         unabhängig von dem übrigen Staatsvermögen &amp; ganz getrennt davon
-        zu<lb break="no" xml:id="p1-l9"/>geschieden ist. Die Bank ist wesentlich eine Kredit- &amp;
-        Depositobank; auch macht sie<lb xml:id="p1-l10"/> Scontogeschäfte. Das Nähere über ihre Geschäftszweige
-        ersehen sie aus dem <seg type="com">Reglement<lb xml:id="p1-l11"/> welches ich Ihnen beilege<note xml:id="K_0687_c3">Beilage nicht
-          überliefert. – Es handelt sich vermutlich um folgendes Dokument: <ref type="lit">Revidirtes Reglement Kantonalbank</ref>.</note>
-                </seg>. Die Wirksamkeit
-        der Anstalt betreffend, so kann diese<lb xml:id="p1-l12"/> der <hi rend="underline">größern</hi> Industrie &amp; dem <hi rend="underline">größern</hi> Handel in unserm Kantone trefflich zu<lb xml:id="p1-l13"/> statten. Sie
-        machte nämlich <del>eine</del> den Privatbankiers eine höchst wohlthätige<lb xml:id="p1-l14"/> Koncurrenz, vermehrte eben
-        für diesen Handel &amp; diese Industrie das Kredit<lb break="no" xml:id="p1-l15"/>kapital um
-        etwa 6 <choice>
-                        <abbr>Mill.</abbr>
-                        <expan>Million</expan>
-                    </choice> – denn soviel betragen die von der Bank
-        eröffneten<lb xml:id="p1-l16"/> Kredite – und brachte eine gewisse Stätigkeit in den Zinsfuß und den
-        Sconto<lb xml:id="p1-l17"/> des hiesigen Platzes, indem <add>sie</add> durch augenblickliche Fluktuationen auf den
-        auswärtigen<lb xml:id="p1-l18"/> Geldmärkten sich weniger schnell influiren ließ als dies bei
-        Privatbanken<lb xml:id="p1-l19"/> zu geschehen pflegt. So setzte <add>sie</add> in der <seg type="com">großen Krise von 1847 und
-            1848<note xml:id="K_0687_c4">Die angesprochene Krise hatte ihren Ursprung in der europäischen Agrarkrise der
+        zu<lb xml:id="p1-l9" break="no"/>geschieden ist. Die Bank ist wesentlich eine Kredit- &amp;
+        Depositobank; auch macht sie<lb xml:id="p1-l10" break="no"/> Scontogeschäfte. Das Nähere über ihre Geschäftszweige
+        ersehen sie aus dem Reglement<lb xml:id="p1-l11"/> welches ich Ihnen beilege<note type="com" xml:id="K_0687_c3">Beilage nicht
+          überliefert. – Es handelt sich vermutlich um folgendes Dokument: <ref type="lit">Revidirtes Reglement Kantonalbank</ref>.</note>. Die Wirksamkeit
+        der Anstalt betreffend, so kann diese<lb xml:id="p1-l12" break="no"/> der <hi rend="underline">größern</hi> Industrie &amp; dem <hi rend="underline">größern</hi> Handel in unserm Kantone trefflich zu<lb xml:id="p1-l13" break="no"/> statten. Sie
+        machte nämlich <del>eine</del> den Privatbankiers eine höchst wohlthätige<lb xml:id="p1-l14" break="no"/> Koncurrenz, vermehrte eben
+        für diesen Handel &amp; diese Industrie das Kredit<lb xml:id="p1-l15" break="no"/>kapital um
+        etwa 6 <choice><abbr>Mill.</abbr><expan>Million</expan></choice> – denn soviel betragen die von der Bank
+        eröffneten<lb xml:id="p1-l16" break="no"/> Kredite – und brachte eine gewisse Stätigkeit in den Zinsfuß und den
+        Sconto<lb xml:id="p1-l17" break="no"/> des hiesigen Platzes, indem <add>sie</add> durch augenblickliche Fluktuationen auf den
+        auswärtigen<lb xml:id="p1-l18" break="no"/> Geldmärkten sich weniger schnell influiren ließ als dies bei
+        Privatbanken<lb xml:id="p1-l19" break="no"/> zu geschehen pflegt. So setzte <add>sie</add> in der großen Krise von 1847 und
+            1848<note type="com" xml:id="K_0687_c4">Die angesprochene Krise hatte ihren Ursprung in der europäischen Agrarkrise der
             Jahre 1845–1847 (Missernten beim Getreide, Auftreten der Kartoffelkrankheit) und wurde
-            durch die Wirren des Sonderbundskrieges zusätzlich verstärkt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref target="http://www.hls-dhs-dss.ch/textes/d/D13918.php" type="www">
-                            <ref type="lit">HLS online</ref>, Konjunktur</ref>.</note>
-                </seg> ihre<lb xml:id="p1-l20"/>
-        Geschäfte ununterbrochen fort, während die hiesigen Privatbanken alle ihre Verbindungen<lb xml:id="p1-l21"/>
-        auf längere oder kürzere Zeit einstellen mußten. Der Nutzen und die Wohlthat <lb xml:id="p1-l22"/> des
-        Institutes <del>ist</del>
-                    <add>wird</add> daher hier von dem <hi rend="underline">höhern</hi> Handels- und Gewerbsstande allgemein<lb xml:id="p1-l23"/>
+            durch die Wirren des Sonderbundskrieges zusätzlich verstärkt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref target="http://www.hls-dhs-dss.ch/textes/d/D13918.php"><ref type="lit">HLS online</ref>, Konjunktur</ref>.</note> ihre<lb xml:id="p1-l20" break="no"/>
+        Geschäfte ununterbrochen fort, während die hiesigen Privatbanken alle ihre Verbindungen<lb xml:id="p1-l21" break="no"/>
+        auf längere oder kürzere Zeit einstellen mußten. Der Nutzen und die Wohlthat <lb xml:id="p1-l22" break="no"/> des
+        Institutes <del>ist</del> <add>wird</add> daher hier von dem <hi rend="underline">höhern</hi> Handels- und Gewerbsstande allgemein<lb xml:id="p1-l23" break="no"/>
         anerkannt.</p>
-      <p rend="indent" xml:id="K_0687_p5">
-                <lb xml:id="p1-l24"/>Nicht so wohlthätig wirkte sie in einer andern Beziehung: sie gab
+      <p rend="indent" xml:id="K_0687_p5"><lb xml:id="p1-l24"/>Nicht so wohlthätig wirkte sie in einer andern Beziehung: sie gab
         nämlich auch<lb xml:id="p1-l25"/> Anleihen auf Obligationen auf 6 Monate. Durch üble Anwendung dieses
         Geschäftszweiges<lb xml:id="p1-l26"/> erhielten auch sehr viele <hi rend="underline">Landwirthe</hi> Zutritt &amp; bekommen Geld bei der Bank. Nach und<lb xml:id="p1-l27"/> nach häuften sich aber die
         Obligationen auf; diese Landwirthe konnten nach 6 Monaten<lb xml:id="p1-l28"/> das Geld in der Regel nicht
-        wieder erlegen und mußten, nachdem Jahre lang <pb n="2"/>
-                <lb xml:id="p2-l1"/> vergeblich gewartet worden,
+        wieder erlegen und mußten, nachdem Jahre lang <pb n="2"/><lb xml:id="p2-l1"/> vergeblich gewartet worden,
         endlich betrieben werden. Im Jahre 1846 betrug die Summe<lb xml:id="p2-l2"/> der auf solche Art
-        rückständigen Obligationen bei <choice>
-                        <abbr>£</abbr>
-                        <expan>Livre suisse / alter Franken</expan>
-                    </choice> 500,000. Die Bank, wenn sie<lb xml:id="p2-l3"/> ihrem
+        rückständigen Obligationen bei <choice><abbr>£</abbr><expan>Livre suisse / alter Franken</expan></choice> 500,000. Die Bank, wenn sie<lb xml:id="p2-l3"/> ihrem
         Zweck entsprechen soll, kann aber solche Kapitalsummen nicht im Ausstande haben,<lb xml:id="p2-l4"/> das
         Geld muß sich periodisch kehren. Eine Million, die sich in einem Jahre zweimal<lb xml:id="p2-l5"/> kehrt,
         richtet im Verkehr das Doppelte aus was eine andere Million die nur<lb xml:id="p2-l6"/> einmal thut. Genug,
@@ -194,105 +60,55 @@
         noch die Bank eine Anstalt zum<lb xml:id="p2-l9"/> «leichtsinnigen Schuldenmachen», und dies <del>ist allerdings</del> drückt den
         Mißstand<lb xml:id="p2-l10"/> allerdings am besten aus, der in dieser Beziehung eingetreten war. Den<lb xml:id="p2-l11"/>
         Bedürfnissen der Landwirthschaft entspricht nun eine andere, im Jahre 1846<lb xml:id="p2-l12"/> ins Leben
-        gerufene Anstalt, nämlich die <hi rend="underline">Hypothekenkasse</hi>, die mit einem<lb xml:id="p2-l13"/> Fond von 5 <choice>
-                        <abbr>Mill.</abbr>
-                        <expan>Million</expan>
-                    </choice> ausgestattet worden und zu Darlehn auf
-          <hi rend="underline">Liegenschaften</hi> <add>nach</add>
-                <lb xml:id="p2-l14"/>
-                <add>dem Ammortisirungssystem</add> bestimmt ist. Von dieser Anstalt <seg type="com">lege ich Ihnen ebenfalls ein Reglement bei<note xml:id="K_0687_c5">Beilage nicht überliefert. – Gemeint ist
+        gerufene Anstalt, nämlich die <hi rend="underline">Hypothekenkasse</hi>, die mit einem<lb xml:id="p2-l13"/> Fond von 5 <choice><abbr>Mill.</abbr><expan>Million</expan></choice> ausgestattet worden und zu Darlehn auf
+          <hi rend="underline">Liegenschaften</hi> <add>nach</add><lb xml:id="p2-l14"/><add>dem Ammortisirungssystem</add> bestimmt ist. Von dieser Anstalt lege ich Ihnen ebenfalls ein Reglement bei<note type="com" xml:id="K_0687_c5">Beilage nicht überliefert. – Gemeint ist
             das Gesetz über die Errichtung einer Hypothekarkasse vom <date when="1846-11-12">12.
-              November 1846</date>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="www" target="http://retro.seals.ch/digbib/view?pid=gdv-001:1846:1::191">
-                            <ref type="lit">Gesetz Hypothekarkasse Bern 1846</ref>
-                        </ref>.</note>
-                </seg>, <lb xml:id="p2-l15"/> so wie
-        auch ein von mir verfaßter <seg type="com">Aufsatz: «Hauptgedanken für eine<lb xml:id="p2-l16"/> allgemeine
-            Hypothekenschuldentilgungskasse»<note xml:id="K_0687_c6">Beilage nicht überliefert. – Es handelt sich wohl um
-            einen in der «<placeName type="place" key="Bern">Berner</placeName> Zeitung» erschienenen Aufsatz.
-              <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Stämpfli Jakob, Hauptgedanken für eine allgemeine Hypothekarschuldentilgungsanstalt (Aus der Berner Zeitung abgedruckt), o. O. o. J.</ref> </note>
-                </seg> aus welch<del>em</del> Letztern Sie<lb xml:id="p2-l17"/> entnehmen
+              November 1846</date>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref target="http://retro.seals.ch/digbib/view?pid=gdv-001:1846:1::191"><ref type="lit">Gesetz Hypothekarkasse Bern 1846</ref></ref>.</note>, <lb xml:id="p2-l15"/> so wie
+        auch ein von mir verfaßter Aufsatz: «Hauptgedanken für eine<lb xml:id="p2-l16"/> allgemeine
+            Hypothekenschuldentilgungskasse»<note type="com" xml:id="K_0687_c6">Beilage nicht überliefert. – Es handelt sich wohl um
+            einen in der «<placeName key="Bern">Berner</placeName> Zeitung» erschienenen Aufsatz.
+              <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Stämpfli Jakob, Hauptgedanken für eine allgemeine Hypothekarschuldentilgungsanstalt (Aus der Berner Zeitung abgedruckt), o. O. o. J.</ref> </note> aus welch<del>em</del> Letztern Sie<lb xml:id="p2-l17"/> entnehmen
         werden, wie ich diese Anstalt weiter zu entwickeln gedenke. Die<lb xml:id="p2-l18"/> Idee ist der
         Ausarbeitung begriffen und wird nächstens zur Ausführung kommen.</p>
-      <p rend="indent" xml:id="K_0687_p6">
-                <lb xml:id="p2-l19"/>Für unsere höhere Industrie &amp; Handel wäre
+      <p rend="indent" xml:id="K_0687_p6"><lb xml:id="p2-l19"/>Für unsere höhere Industrie &amp; Handel wäre
         demnach durch die <hi rend="underline">Bank</hi> <lb xml:id="p2-l20"/> und für die Landwirthschaft durch
           <hi rend="underline">Hypothekenanstalt</hi> gesorgt und es fehlt nur<lb xml:id="p2-l21"/> noch die Sorge für die <hi rend="underline">kleine
             Industrie</hi> &amp; den <hi rend="underline">kleinen Handel</hi>, der in unserm<lb xml:id="p2-l22"/>
         Kantone verhältnißmäßig von <del>bed</del> größerer Bedeutung als die Großindustrie<lb xml:id="p2-l23"/> ist. In dieser
         Beziehung war unsere Bank bisher mangelhaft, es klebte<lb xml:id="p2-l24"/> ihr die gewöhnliche
-        Einseitigkeit <del>der ganzen</del> aller heutigen Geld- und Kredit<lb break="no" xml:id="p2-l25"/>institute an,
-        die nur den Reichen helfen, den Mittelstand und die ärmere<lb xml:id="p2-l26"/> Klasse aber ignoriren oder
-        vernachläßigen. Darüber klagt man hier gegen<lb xml:id="p2-l27"/> die Bank. Deshalb bin ich gegenwärtig auch
-        mit einem Gedanken beschäftigt,<lb xml:id="p2-l28"/> der dem Uebelstande wenigstens so weit als möglich
-        abhelfen sollte. Dies <pb n="3"/>
-                    <lb xml:id="p3-l1"/> geschähe durch Herstellung von <hi rend="underline">Filial-</hi> oder
-          <hi rend="underline">Lokalbanken</hi> in der Weise, daß die <del>Kreditanstalten</del>
-                    <add>
-                    <del>
-                        <supplied type="unclear">...</supplied>
-                    </del>
-                </add>
-                    <lb xml:id="p3-l2"/> Gewerbsgenossen eines bestimmten Ortes zu
-        einem Kreditvereine sich vereinigen, welcher <del>über</del>
-                    <lb xml:id="p3-l3"/> im Falle des Kreditbedürfnisses eines
-        Einzelnen über die Sicherheit <choice>
-                        <abbr>u. s. w.</abbr>
-                        <expan>und so weiter</expan>
-                    </choice> entscheidet. Die
-        Bank<lb xml:id="p3-l4"/> würde nicht dem Einzelnen, sondern dem ganzen Vereine den Kredit eröffnen und dies
-        wiederum<lb xml:id="p3-l5"/> auch nicht für jeden einzelnen Fall, sondern im Ganzen und zum Voraus für
-        eine<lb xml:id="p3-l6"/> den Verhältnissen des Orts entsprechende Summe: Dem Kreditvereine von <placeName type="place" key="Bern (Stadt)">Bern</placeName>
-                    <choice>
-                        <abbr>z. B.</abbr>
-                        <expan>zum Beispiel</expan>
-                    </choice>
-          für<lb xml:id="p3-l7"/>
-                    <choice>
-                        <abbr>£</abbr>
-                        <expan>Livre suisse / alter Franken</expan>
-                    </choice> 100,000, demjenigen von <placeName type="place" key="Biel (BE)">Biel</placeName> für <choice>
-                        <abbr>£</abbr>
-                        <expan>Livre suisse / alter Franken</expan>
-                    </choice> 50,000 <choice>
-                        <abbr>&amp;</abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice>. So kann nach meiner Ansicht<lb xml:id="p3-l8"/> den kleinen Gewerben wenigstens
-        in etwas geholfen werden; was ihnen fehlt, ist<lb xml:id="p3-l9"/> daß sie ihren Kredit nicht geltend
-        machen können; der Staat soll daher <del>eine</del> Anstalten<lb xml:id="p3-l10"/> errichten, die ihnen dies ermöglicht.
-        Doch ist dies vorläufig nur die Idee; die Ausführung<lb xml:id="p3-l11"/> muß ich natürlich noch näher
+        Einseitigkeit <del>der ganzen</del> aller heutigen Geld- und Kredit<lb xml:id="p2-l25" break="no"/>institute an,
+        die nur den Reichen helfen, den Mittelstand und die ärmere<lb xml:id="p2-l26" break="no"/> Klasse aber ignoriren oder
+        vernachläßigen. Darüber klagt man hier gegen<lb xml:id="p2-l27" break="no"/> die Bank. Deshalb bin ich gegenwärtig auch
+        mit einem Gedanken beschäftigt,<lb xml:id="p2-l28" break="no"/> der dem Uebelstande wenigstens so weit als möglich
+        abhelfen sollte. Dies <pb n="3"/><lb xml:id="p3-l1" break="no"/> geschähe durch Herstellung von <hi rend="underline">Filial-</hi> oder
+          <hi rend="underline">Lokalbanken</hi> in der Weise, daß die <del>Kreditanstalten</del> <add><del><add type="?">...</add></del></add> <lb xml:id="p3-l2" break="no"/> Gewerbsgenossen eines bestimmten Ortes zu
+        einem Kreditvereine sich vereinigen, welcher <del>über</del> <lb xml:id="p3-l3" break="no"/> im Falle des Kreditbedürfnisses eines
+        Einzelnen über die Sicherheit <choice><abbr>u. s. w.</abbr><expan>und so weiter</expan></choice> entscheidet. Die
+        Bank<lb xml:id="p3-l4" break="no"/> würde nicht dem Einzelnen, sondern dem ganzen Vereine den Kredit eröffnen und dies
+        wiederum<lb xml:id="p3-l5" break="no"/> auch nicht für jeden einzelnen Fall, sondern im Ganzen und zum Voraus für
+        eine<lb xml:id="p3-l6" break="no"/> den Verhältnissen des Orts entsprechende Summe: Dem Kreditvereine von <placeName key="Bern (Stadt)">Bern</placeName> <choice><abbr>z. B.</abbr><expan>zum Beispiel</expan></choice>
+          für<lb xml:id="p3-l7" break="no"/><choice><abbr>£</abbr><expan>Livre suisse / alter Franken</expan></choice> 100,000, demjenigen von <placeName key="Biel (BE)">Biel</placeName> für <choice><abbr>£</abbr><expan>Livre suisse / alter Franken</expan></choice> 50,000 <choice><abbr>&amp;</abbr><expan>et cetera (und anderes)</expan></choice>. So kann nach meiner Ansicht<lb xml:id="p3-l8" break="no"/> den kleinen Gewerben wenigstens
+        in etwas geholfen werden; was ihnen fehlt, ist<lb xml:id="p3-l9" break="no"/> daß sie ihren Kredit nicht geltend
+        machen können; der Staat soll daher <del>eine</del> Anstalten<lb xml:id="p3-l10" break="no"/> errichten, die ihnen dies ermöglicht.
+        Doch ist dies vorläufig nur die Idee; die Ausführung<lb xml:id="p3-l11" break="no"/> muß ich natürlich noch näher
         überlegen.</p>
-      <p rend="indent" xml:id="K_0687_p7">
-                <lb xml:id="p3-l12"/>Ob Ihnen diese Notizen über unsere Bankverhältnisse genügen werden, weiß
+      <p rend="indent" xml:id="K_0687_p7"><lb xml:id="p3-l12"/>Ob Ihnen diese Notizen über unsere Bankverhältnisse genügen werden, weiß
         ich nicht.<lb xml:id="p3-l13"/> Verlangen Sie ungescheut weitere Auskunft &amp; nähere
         Mittheilungen; ich stehe jeden<lb xml:id="p3-l14"/> Augenblick zu Diensten. Was uns hier die Sache
         erleichterte, war die Dotirung der<lb xml:id="p3-l15"/> Bank durch Staatskapital; wenn Sie dort nicht das
         gleiche können, so werden Sie<lb xml:id="p3-l16"/> weit mehr gehemmt sein; denn alsdann fällt die Anstalt
         wiederum in die Hände<lb xml:id="p3-l17"/> der gewöhnlichen Geldmänner.</p>
-      <p rend="indent" xml:id="K_0687_p8">
-                <lb xml:id="p3-l18"/>Für <date when="1849-09-13">heute</date> schließe ich mit diesem Stoffe ab.
+      <p rend="indent" xml:id="K_0687_p8"><lb xml:id="p3-l18"/>Für <date when="1849-09-13">heute</date> schließe ich mit diesem Stoffe ab.
         Ergreifen Sie die Initiative<lb xml:id="p3-l19"/> zur weiteren Fortsetzung unserer Korrespondenz; mir thut
-        so eine Abschweifung<lb xml:id="p3-l20"/> nach <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> – wenn auch nur
+        so eine Abschweifung<lb xml:id="p3-l20"/> nach <placeName key="Zürich (Stadt)">Zürich</placeName> – wenn auch nur
         in Gedanken – jedesmal wohl. Theilen Sie das<lb xml:id="p3-l21"/> nämliche Gefühl, so versetzen Sie sich hin
         und wieder auch nach unserer
-        westlich<supplied>en</supplied><!--T. Binder hatte vorgeschlagen: bescheid[enen]-->
-                <lb xml:id="p3-l22"/> Welt.</p>
-    </div>
-        </body>
-    <back>
+        westlich<add>en</add><!--T. Binder hatte vorgeschlagen: bescheid[enen]--><lb xml:id="p3-l22"/> Welt.</p>
+    </body><back>
       <div type="closer">
-        <p rend="center" xml:id="K_0687_p9">
-                    <lb xml:id="p3-l23"/>Meine herzlichsten Grüße</p>
+        <p rend="center" xml:id="K_0687_p9"><lb xml:id="p3-l23"/>Meine herzlichsten Grüße</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_0687_p10">
-                    <lb xml:id="p3-l24"/>Stämpfli.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_0687_p10"><lb xml:id="p3-l24"/>Stämpfli.</p>
       </div><!-- Grußformel als "Treppe" in Worddatei -->
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

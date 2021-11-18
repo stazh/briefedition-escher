@@ -1,105 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2342" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Johann Jakob Stehlin, Zürich, Dienstag, Juni 8, 1869</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>StABS</institution>
-                        <idno type="original">PA 513a I B 5,1</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Bundesverfassung</item>
-                        <item>Vereinigte Bundesversammlung</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Stehlin Johann Jakob" type="addressee">Johann Jakob Stehlin</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1869-06-08">Dienstag, Juni 8, 1869</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-10-03" who="MW">Transkription</change>
-            <change when="2013-08-28" who="CD">Migration nach XML</change>
-            <change when="2014-01-07" who="NS">Auszeichnung 1
-                umgesetzt</change>
-            <change when="2014-01-08" who="LW">Verifizierung 1
-                umgesetzt</change>
-            <change when="2014-01-10" who="LW">Migrationsverifizierung
-                    umgesetzt</change>
-            <change when="2014-01-13" who="CR">Auszeichnung 2
-                umgesetzt</change>
-            <change when="2014-05-13" who="LB">Verifizierung 2
-                umgesetzt</change>
-            <change when="LB" who="">Inhaltliche Qualitätsprüfung
-                    umgesetzt</change>
-            <change when="2014-05-13" who="">Inhaltliche Qualitätsprüfung
-                    umgesetzt</change>
-            <change when="2015-03-06" who="VP">Transkriptionsverifizierung Seiterle umgesetzt</change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2342" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Johann Jakob Stehlin, Zürich, Dienstag, 08. Juni 1869</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>StABS</institution><idno>PA 513a I B 5,1</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Bundesverfassung</term><term>Vereinigte Bundesversammlung</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Stehlin Johann Jakob" type="sender">Johann Jakob Stehlin</persName><placeName>Zürich</placeName><date when="1869-06-08">08. Juni 1869</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2342_p1"> <seg type="com">
-                        <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> <date when="1869-06-08">8 Juni 1869</date>.<note type="addendum" xml:id="K_2342_c0">Nachträgliche Notiz oben rechts auf Seite 1 von dritter Hand mit Bleistift: <bibl>8 Juny 1869</bibl>.</note>
-                    </seg> </p>
+        <p rend="right" xml:id="K_2342_p1"> <lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName> <date when="1869-06-08">8 Juni 1869</date>.<note type="com" xml:id="K_2342_c0">Nachträgliche Notiz oben rechts auf Seite 1 von dritter Hand mit Bleistift: <orig>8 Juny 1869</orig>.</note> </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_2342_p2">
-                    <lb xml:id="p1-l2"/>Mein lieber Freund!</p>
+        <p rend="indent" xml:id="K_2342_p2"><lb xml:id="p1-l2"/>Mein lieber Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2342_p3">
-                    <lb xml:id="p1-l3"/>Herr Landammann <persName type="person" key="Heer Joachim">Heer</persName> <seg type="ref">ersucht mich<ref type="letter" target="K_2340"/>
-                    </seg>, Sie <lb xml:id="p1-l4"/>auf <date when="1869-06-13">künftigen Sontag</date> Mittags 12 Uhr <lb xml:id="p1-l5"/>nach <placeName type="place" key="Olten">Olten</placeName> zu einer Sitzung des Comité's <lb xml:id="p1-l6"/>einzuladen, welches in Sachen der Revision <lb xml:id="p1-l7"/>der
+    </front><body>
+      <p rend="indent" xml:id="K_2342_p3"><lb xml:id="p1-l3"/>Herr Landammann <persName key="Heer Joachim">Heer</persName> <rs>ersucht mich<ref type="letter" target="K_2340"/></rs>, Sie <lb xml:id="p1-l4"/>auf <date when="1869-06-13">künftigen Sontag</date> Mittags 12 Uhr <lb xml:id="p1-l5"/>nach <placeName key="Olten">Olten</placeName> zu einer Sitzung des Comité's <lb xml:id="p1-l6"/>einzuladen, welches in Sachen der Revision <lb xml:id="p1-l7"/>der
                 Bundesverfassung &amp; zum Zwecke der <lb xml:id="p1-l8"/>Organisation unserer Partei in
-                der <lb xml:id="p1-l9"/>Bundesversammlung niedergesetzt wor<lb break="no" xml:id="p1-l10"/>den
+                der <lb xml:id="p1-l9"/>Bundesversammlung niedergesetzt wor<lb xml:id="p1-l10" break="no"/>den
                 ist. </p>
-      <p rend="indent" xml:id="K_2342_p4">
-                    <lb xml:id="p1-l11"/>Ein <seg type="ref">Brief<ref type="letter" target="K_2341"/>
-                    </seg> von <persName type="person" key="Welti Emil">Welti</persName>,
+      <p rend="indent" xml:id="K_2342_p4"><lb xml:id="p1-l11"/>Ein <rs>Brief<ref type="letter" target="K_2341"/></rs> von <persName key="Welti Emil">Welti</persName>,
                 den ich <date when="1869-06-07">gestern</date> <lb xml:id="p1-l12"/>Abend bei meiner Rückkehr
-                vorfand, <lb xml:id="p1-l13"/>macht übrigens nothwendig, daß der <lb xml:id="p1-l14"/>
-                    <date when="1869-06-07">gestern</date> versammelt gewesene Kreis <date when="1869-06-11">künf<lb break="no" xml:id="p1-l15"/>tigen Freitag</date> Abend wieder zusammen<lb break="no" xml:id="p1-l16"/>trete. Ich hoffe also dannzumal schon <pb n="2"/>
-                    <lb xml:id="p2-l1"/>Gelegenheit zu erhalten, Sie wieder zu <lb xml:id="p2-l2"/>sehen. </p>
-    </div>
-        </body>
-    <back>
+                vorfand, <lb xml:id="p1-l13"/>macht übrigens nothwendig, daß der <lb xml:id="p1-l14"/><date when="1869-06-07">gestern</date> versammelt gewesene Kreis <date when="1869-06-11">künf<lb xml:id="p1-l15" break="no"/>tigen Freitag</date> Abend wieder zusammen<lb xml:id="p1-l16" break="no"/>trete. Ich hoffe also dannzumal schon <pb n="2"/><lb xml:id="p2-l1" break="no"/>Gelegenheit zu erhalten, Sie wieder zu <lb xml:id="p2-l2" break="no"/>sehen. </p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2342_p5">
-                    <lb xml:id="p2-l3"/>In herzlicher Freundschaft </p>
-        <p rend="center" xml:id="K_2342_p6">
-                    <lb xml:id="p2-l4"/>Ihr </p>
+        <p rend="indent" xml:id="K_2342_p5"><lb xml:id="p2-l3"/>In herzlicher Freundschaft </p>
+        <p rend="center" xml:id="K_2342_p6"><lb xml:id="p2-l4"/>Ihr </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2342_p7">
-                    <lb xml:id="p2-l5"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2342_p7"><lb xml:id="p2-l5"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

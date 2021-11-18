@@ -1,157 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0022" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Heinrich Schweizer, s.l., </title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>ZBZ</institution>
-                        <idno type="original">FA Escher vG 207.104</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Freundschaften</item>
-                        <item>Privatunterricht</item>
-                        <item>Berufsleben</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Schweizer Heinrich" type="addressee">Heinrich Schweizer</persName>
-                    <placeName>s.l.</placeName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-04-13" who="SD">transkribiert
-                
-            </change>
-            <change when="2010-03-25" who="BF">von Word nach XML konvertiert
-                
-            </change>
-            <change when="2010-08-16" who="BF">Personen und Orte indexiert
-                
-            </change>
-            <change when="2010-12-15" who="BF">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2011-06-28" who="AH">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-06-30" who="TM">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-19" who="NH"> e-Edition: Auszeichnung Themen umgesetzt 
-                
-            </change>
-            <change when="2011-07-21" who="HA">e-Edition: Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2011-07-27" who="AH">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2017-12-06" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0022" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Heinrich Schweizer, s.l., Samstag / Sonntag / Montag, s.d.</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>ZBZ</institution><idno>FA Escher vG 207.104</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Freundschaften</term><term>Privatunterricht</term><term>Berufsleben</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term>Jugend- und Studentenzeit</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Schweizer Heinrich" type="sender">Heinrich Schweizer</persName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
         <p rend="right" xml:id="K_0022_p1">
                     <lb xml:id="p1-l1"/>
           <hi>Samstag Abend</hi>. 8 Uhr.</p>
         <p rend="right" xml:id="K_0022_p2">
-                    <lb xml:id="p1-l2"/>In meinem Ar<lb break="no" xml:id="p1-l3"/>beitszimmer<lb xml:id="p1-l4"/> ganz einsam!</p>
+                    <lb xml:id="p1-l2"/>In meinem Ar
+                    <lb xml:id="p1-l3" break="no"/>beitszimmer<lb xml:id="p1-l4" break="no"/> ganz einsam!</p>
       </div>
       <div type="opener">
         <p rend="indent" xml:id="K_0022_p3">
                     <lb xml:id="p1-l5"/>Mein theuerster Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_0022_p4">
                 <lb xml:id="p1-l6"/>Von Neuem haben Sie uns verlassen! Wie <lb xml:id="p1-l7"/> weh thut es
 				doch, sich von einem so lieben, guten Freunde trennen <lb xml:id="p1-l8"/> zu müssen!
 				Nicht wahr, Sie <del>lassen</del> erfreuen uns bald wieder <lb xml:id="p1-l9"/> durch
-				Ihre Ankunft, die uns immer die größte Freude verur<lb break="no" xml:id="p1-l10"/>sachen wird!-</p>
+				Ihre Ankunft, die uns immer die größte Freude verur
+                <lb xml:id="p1-l10" break="no"/>sachen wird!-</p>
       <p rend="indent" xml:id="K_0022_p5">
-                <lb xml:id="p1-l11"/>Sie werden jetzt wahrscheinlich in Ihrem Studierzimmer<lb xml:id="p1-l12"/> Ihre morgende Predigt memorisiren; und dazwischen denken Sie ge<lb break="no" xml:id="p1-l13"/>wiß auch etwa an ferne liebe Leute. Auch diese denken oft an Sie
-					<lb xml:id="p1-l14"/> und haben diesen Abend schon mehrere Mahle recht<add>s</add> über den
-					<placeName type="place" key="Zollikon">Zolli<lb break="no" xml:id="p1-l15"/>koner</placeName> Kirchthu<add>r</add>m hinüber geschaut!</p>
+                <lb xml:id="p1-l11"/>Sie werden jetzt wahrscheinlich in Ihrem Studierzimmer<lb xml:id="p1-l12"/> Ihre morgende Predigt memorisiren; und dazwischen denken Sie ge
+                <lb xml:id="p1-l13" break="no"/>wiß auch etwa an ferne liebe Leute. Auch diese denken oft an Sie
+					<lb xml:id="p1-l14" break="no"/> und haben diesen Abend schon mehrere Mahle recht<add>s</add> über den
+					<placeName key="Zollikon">Zolli
+                    <lb xml:id="p1-l15" break="no"/>koner</placeName> Kirchthu<add>r</add>m hinüber geschaut!</p>
       <p rend="right" xml:id="K_0022_p6">
                 <lb xml:id="p1-l16"/>Sontag Morgens. ½ 10 Uhr.</p>
       <p rend="indent" xml:id="K_0022_p7">
                 <lb xml:id="p1-l17"/>Ich habe eben wieder den Brief vom 17<hi rend="sup">ten</hi> <hi>
-                    <choice>
-                            <abbr>huj.</abbr>
-                            <expan>hujus (dieses [Monats])</expan>
-                        </choice> </hi> gelesen, <lb xml:id="p1-l18"/> den ich an dem Montage erhielt, an welchem Sie zum
-					ersten<lb xml:id="p1-l19"/> Mahle in <placeName type="place" key="Belvoir (Enge, Zürich)">
+                    <choice><abbr>huj.</abbr><expan>hujus (dieses [Monats])</expan></choice> </hi> gelesen, <lb xml:id="p1-l18"/> den ich an dem Montage erhielt, an welchem Sie zum
+					ersten<lb xml:id="p1-l19"/> Mahle in <placeName key="Belvoir (Enge, Zürich)">
                     <hi>Belvoir</hi>
                 </placeName> schliefen. Ich kann nicht Anders, als mich noch <lb xml:id="p1-l20"/>
 				ein wenig mit Ihnen <add>darüber</add> unterhalten:</p>
       <p rend="indent" xml:id="K_0022_p8">
-                <lb xml:id="p1-l21"/>Sie sagen, theurer Lehrer, daß es Ihnen so wehe thue, <lb xml:id="p1-l22"/>von mir deßwegen Vorwürfe zu hören, weil Sie vorletzte <lb xml:id="p1-l23"/>Woche nicht nach <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> kommen konnten. Der Ausdruck «<hi rend="underline">Vor<lb break="no" xml:id="p1-l24"/>würfe</hi>» schmerzte mich innig, denn erstens <hi rend="underline">wollte</hi> ich
+                <lb xml:id="p1-l21"/>Sie sagen, theurer Lehrer, daß es Ihnen so wehe thue, <lb xml:id="p1-l22"/>von mir deßwegen Vorwürfe zu hören, weil Sie vorletzte <lb xml:id="p1-l23"/>Woche nicht nach <placeName key="Zürich (Stadt)">Zürich</placeName> kommen konnten. Der Ausdruck «<hi rend="underline">Vor
+                    <lb xml:id="p1-l24" break="no"/>würfe</hi>» schmerzte mich innig, denn erstens <hi rend="underline">wollte</hi> ich
 				Ihnen <lb xml:id="p1-l25"/>
                 <hi rend="underline">keineswegs</hi> Vorwürfe machen; ich suchte nur, Ihnen mein <lb xml:id="p1-l26"/>und
 				meiner Familie Leidwesen auszudrücke<add>n</add>, Sie so lange<lb xml:id="p1-l27"/>nicht mehr
 				gesehen zu haben und 2) <hi rend="underline">geziemt</hi> es sich <hi rend="underline">gar nicht</hi>, <lb xml:id="p1-l28"/>daß ein Schüler einem Lehrer<del>r</del> Vorwürfe mache. Sie sagen<lb xml:id="p1-l29"/>ferner, ich
 				hätte doch, weil ich die Gründe wüßte warum Sie <lb xml:id="p1-l30"/>uns nicht
-				besuchten, «<hi rend="underline">nachsichtiger</hi>» und «<hi rend="underline">billiger</hi>» in meinem Ur<lb break="no" xml:id="p1-l31"/>theile seyn sollen. O! ich wußte gar zu wohl, wie
-					<del>gar zu wohl, wie</del>
-                    <add>erne</add>
-                    <del> zu wohl, wie</del>
-                    <pb n="2"/>
-                    <lb xml:id="p2-l1"/>Sie uns besucht hätten, auch gar zu wohl, <hi rend="underline">warum</hi> Sie uns
-					<add>nicht</add> besucht<lb xml:id="p2-l2"/>hatten, der Grund war<del>en</del>
-				nähmlich: Ihre Geschäfte; aber auf der <lb xml:id="p2-l3"/>einen Seite dachte ich, ein
-				kleiner Unterbruch würde Ihrer Ge<lb break="no" xml:id="p2-l4"/>sundheit<del>,</del> von <hi rend="underline">großem</hi> Nutzen seyn; auf der andern
-				Seite trieb<lb xml:id="p2-l5"/>die Sehnsucht, Sie bald wieder zu sehen, mich zu der
-				Bitte an, Ih<lb break="no" xml:id="p2-l6"/>ren Besuch zu beschleunigen, und endlich hatte ich gehofft, Sie wür<lb break="no" xml:id="p2-l7"/>den vielleicht diese oder jene weniger wichtigen Geschäfte für ei<lb break="no" xml:id="p2-l8"/>nige Tage <del>zu</del> verschieben, um durch Ihren Besuch <del>I</del>
-                    <add>i</add>h<del>n</del>
-                    <add>r</add>en <add>Freunden</add> eine Freude<lb xml:id="p2-l9"/>zu verursachen. –
-				Ferner schreiben Sie, ich soll mich Ihrer gegenwär<lb break="no" xml:id="p2-l10"/>tigen Pflichten und Verhältnisse erinnern, um fortan mehr Bil<lb break="no" xml:id="p2-l11"/>ligkeit, in meinem Urtheile walten zu lassen. Und auf den er<lb break="no" xml:id="p2-l12"/>sten Punct muß ich Ihnen mit Wehmuth antworten, daß ich es nur<lb xml:id="p2-l13"/>gar zu wohl wisse, daß Ihnen Ihre gegenwärtige Pflicht
-					<add>gebeut</add>, Ihre <lb xml:id="p2-l14"/>Zeit und Ihre Kräfte Andern zu widmen;
-				aber ich darf <hi rend="underline">mit Zu<lb break="no" xml:id="p2-l15"/>versicht</hi> hoffen, daß Sie auch mir einen Theil Ihrer Kräfte
-				und <lb xml:id="p2-l16"/>Ihrer Zeit widmen werden. Ein <hi rend="underline">Urtheil</hi> wollte ich mir gar
-				nicht <lb xml:id="p2-l17"/>erlauben! Wenn Sie auch diese paar Zeilen betrüben, so ver<lb break="no" xml:id="p2-l18"/>zeihen Sie, ein nachsichtiger Lehrer, einem Schüler, der Sie
-					damit<lb xml:id="p2-l19"/>nicht betrüben wollte. </p>
+				besuchten, «<hi rend="underline">nachsichtiger</hi>» und «<hi rend="underline">billiger</hi>» in meinem Ur
+                <lb xml:id="p1-l31" break="no"/>theile seyn sollen. O! ich wußte gar zu wohl, wie
+					<del>gar zu wohl, wie</del><add>erne</add> <del> zu wohl, wie</del> <pb n="2"/>
+                <lb xml:id="p2-l1" break="no"/>Sie uns besucht hätten, auch gar zu wohl, <hi rend="underline">warum</hi> Sie uns
+					<add>nicht</add> besucht<lb xml:id="p2-l2" break="no"/>hatten, der Grund war<del>en</del>
+				nähmlich: Ihre Geschäfte; aber auf der <lb xml:id="p2-l3" break="no"/>einen Seite dachte ich, ein
+				kleiner Unterbruch würde Ihrer Ge
+                <lb xml:id="p2-l4" break="no"/>sundheit<del>,</del> von <hi rend="underline">großem</hi> Nutzen seyn; auf der andern
+				Seite trieb<lb xml:id="p2-l5" break="no"/>die Sehnsucht, Sie bald wieder zu sehen, mich zu der
+				Bitte an, Ih
+                <lb xml:id="p2-l6" break="no"/>ren Besuch zu beschleunigen, und endlich hatte ich gehofft, Sie wür
+                <lb xml:id="p2-l7" break="no"/>den vielleicht diese oder jene weniger wichtigen Geschäfte für ei
+                <lb xml:id="p2-l8" break="no"/>nige Tage <del>zu</del> verschieben, um durch Ihren Besuch <del>I</del> <add>i</add>h<del>n</del> <add>r</add>en <add>Freunden</add> eine Freude<lb xml:id="p2-l9" break="no"/>zu verursachen. –
+				Ferner schreiben Sie, ich soll mich Ihrer gegenwär
+                <lb xml:id="p2-l10" break="no"/>tigen Pflichten und Verhältnisse erinnern, um fortan mehr Bil
+                <lb xml:id="p2-l11" break="no"/>ligkeit, in meinem Urtheile walten zu lassen. Und auf den er
+                <lb xml:id="p2-l12" break="no"/>sten Punct muß ich Ihnen mit Wehmuth antworten, daß ich es nur<lb xml:id="p2-l13" break="no"/>gar zu wohl wisse, daß Ihnen Ihre gegenwärtige Pflicht
+					<add>gebeut</add>, Ihre <lb xml:id="p2-l14" break="no"/>Zeit und Ihre Kräfte Andern zu widmen;
+				aber ich darf <hi rend="underline">mit Zu
+                    <lb xml:id="p2-l15" break="no"/>versicht</hi> hoffen, daß Sie auch mir einen Theil Ihrer Kräfte
+				und <lb xml:id="p2-l16" break="no"/>Ihrer Zeit widmen werden. Ein <hi rend="underline">Urtheil</hi> wollte ich mir gar
+				nicht <lb xml:id="p2-l17" break="no"/>erlauben! Wenn Sie auch diese paar Zeilen betrüben, so ver
+                <lb xml:id="p2-l18" break="no"/>zeihen Sie, ein nachsichtiger Lehrer, einem Schüler, der Sie
+					damit<lb xml:id="p2-l19" break="no"/>nicht betrüben wollte. </p>
       <p rend="indent" xml:id="K_0022_p9">
                 <lb xml:id="p2-l20"/>
-        <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName>
+        <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName>
 				konnte sich die beyden letzten Abende nicht <lb xml:id="p2-l21"/> entschließen,
-					<del>Abends</del> das Haus zu verlassen, um den Mond<lb break="no" xml:id="p2-l22"/>schein zu betrachten, indem Ihr der Verglich<note type="transcript">sic!</note> mit dem <del>
-                    Sontag</del>
-                    <lb xml:id="p2-l23"/> Donnerstag Abend so wehe gethan hätte; auch war heute, als Ihr<lb xml:id="p2-l24"/> die Sonne <add>beym Erwachen</add> ganz rein und von allen Dünsten
-				frey ins Zimmer<lb xml:id="p2-l25"/> schien, wie wir es <del>seit langem nicht mehr</del>
-                    <add>hier noch nie</add>gesehen haben, ihr erster<lb xml:id="p2-l26"/>
+					<del>Abends</del> das Haus zu verlassen, um den Mond
+                <lb xml:id="p2-l22" break="no"/>schein zu betrachten, indem Ihr der Verglich<note type="transcript">sic!</note> mit dem <del>
+                    Sontag</del> <lb xml:id="p2-l23" break="no"/> Donnerstag Abend so wehe gethan hätte; auch war heute, als Ihr<lb xml:id="p2-l24" break="no"/> die Sonne <add>beym Erwachen</add> ganz rein und von allen Dünsten
+				frey ins Zimmer<lb xml:id="p2-l25" break="no"/> schien, wie wir es <del>seit langem nicht mehr</del><add>hier noch nie</add>gesehen haben, ihr erster<lb xml:id="p2-l26" break="no"/>
 				Gedanke: «Wenn der gute Herr Schweizer es nur sehen würde!»  <pb n="3"/>
-                    <lb xml:id="p3-l1"/> Sie kann sich über diesen prächtigen Tag nicht freuen, weil Ihr
-					der<lb xml:id="p3-l2"/> Gedanke, daß Sie keinen <hi rend="underline">so schönen</hi> Tag in 
-					<placeName type="place" key="Belvoir (Enge, Zürich)">
+                <lb xml:id="p3-l1" break="no"/> Sie kann sich über diesen prächtigen Tag nicht freuen, weil Ihr
+					der<lb xml:id="p3-l2" break="no"/> Gedanke, daß Sie keinen <hi rend="underline">so schönen</hi> Tag in 
+					<placeName key="Belvoir (Enge, Zürich)">
                     <hi>Belvoir</hi>
-                </placeName> verlebten, Bedau<lb break="no" xml:id="p3-l3"/>ren<note type="transcript">sic!</note> erregt; denn Sie <del>wäre</del>
-                    <add>ist</add> überzeugt, dieser Aufenthalt würde Ihnen<lb xml:id="p3-l4"/> heute ganz
-				besonders lieblich vorkommen; auch Gesundheits halber kann <lb xml:id="p3-l5"/>
-                    <del>sich</del>
-                    <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName>
-                    <del>über</del> dieses schöne Wetter nicht recht genießen; denn seit die<lb break="no" xml:id="p3-l6"/>sem Morgen fühlt sich <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName> so unwohl, daß
-				sie Ihre Zuflucht zu ei<lb break="no" xml:id="p3-l7"/>nem Camomillen-Thee nehmen mußte!</p>
+                </placeName> verlebten, Bedau
+                <lb xml:id="p3-l3" break="no"/>ren<note type="transcript">sic!</note> erregt; denn Sie <del>wäre</del> <add>ist</add> überzeugt, dieser Aufenthalt würde Ihnen<lb xml:id="p3-l4" break="no"/> heute ganz
+				besonders lieblich vorkommen; auch Gesundheits halber kann <lb xml:id="p3-l5" break="no"/>
+                <del>sich</del> <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName> <del>über</del> dieses schöne Wetter nicht recht genießen; denn seit die
+                <lb xml:id="p3-l6" break="no"/>sem Morgen fühlt sich <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma</persName> so unwohl, daß
+				sie Ihre Zuflucht zu ei
+                <lb xml:id="p3-l7" break="no"/>nem Camomillen-Thee nehmen mußte!</p>
       <p rend="right" xml:id="K_0022_p10">
                 <lb xml:id="p3-l8"/>
         <hi rend="underline">Montag Morgen ¼ vor 8 Uhr.</hi>
@@ -160,17 +94,18 @@
                 <lb xml:id="p3-l9"/>Nun noch einen guten Tag will ich Ihnen wünschen,<lb xml:id="p3-l10"/>
 				theuerster, liebster Lehrer; auch alle Lieben &amp; Theuern<lb xml:id="p3-l11"/>
                 <del>grü</del> <del>d</del> in <hi>
-                    <placeName type="place" key="Belvoir (Enge, Zürich)">Belvoir</placeName>
-                </hi>, drücken Ihnen zum freundlichen Mor<lb break="no" xml:id="p3-l12"/>gengruße die Hand. Da<del>s</del> es schon so spät ist, ich von 9–12 Stun<lb break="no" xml:id="p3-l13"/>den habe, und da der Brief um 1 Uhr an der Schifflände seyn soll,
-					daß<lb xml:id="p3-l14"/> ich also um 12 Uhr keine Zeit mehr hätte, Ihnen zu
-				schreiben, so <lb xml:id="p3-l15"/> muß ich schließen mit den herzlichsten Grüßen <lb xml:id="p3-l16"/>
-                    <persName type="person" key="Escher (vom Glas) Heinrich">Papa's</persName>, <persName type="person" key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma's</persName>
-				und <persName type="person" key="Stockar-Escher (vom Glas) Clementine">Clementinen's</persName>, die <lb xml:id="p3-l17"/> bey Ihrem Abschiede am Freytage so theil<lb break="no" xml:id="p3-l18"/>nehmend weinte<lb xml:id="p3-l19"/> und Ihres Sie <lb xml:id="p3-l20"/>
+                    <placeName key="Belvoir (Enge, Zürich)">Belvoir</placeName>
+                </hi>, drücken Ihnen zum freundlichen Mor
+                <lb xml:id="p3-l12" break="no"/>gengruße die Hand. Da<del>s</del> es schon so spät ist, ich von 9–12 Stun
+                <lb xml:id="p3-l13" break="no"/>den habe, und da der Brief um 1 Uhr an der Schifflände seyn soll,
+					daß<lb xml:id="p3-l14" break="no"/> ich also um 12 Uhr keine Zeit mehr hätte, Ihnen zu
+				schreiben, so <lb xml:id="p3-l15" break="no"/> muß ich schließen mit den herzlichsten Grüßen <lb xml:id="p3-l16" break="no"/>
+                <persName key="Escher (vom Glas) Heinrich">Papa's</persName>, <persName key="Escher-Zollikofer (von Altenklingen) Lydia">Mamma's</persName>
+				und <persName key="Stockar-Escher (vom Glas) Clementine">Clementinen's</persName>, die <lb xml:id="p3-l17" break="no"/> bey Ihrem Abschiede am Freytage so theil
+                <lb xml:id="p3-l18" break="no"/>nehmend weinte<lb xml:id="p3-l19" break="no"/> und Ihres Sie <lb xml:id="p3-l20" break="no"/>
 				umarmenden </p>
-    </div>
-        </body>
-    <back>
-      <div type="address">
+    </body><back>
+      <div type="signature">
         <p rend="right" xml:id="K_0022_p12">
                     <lb xml:id="p3-l21"/>
           Alfreds.</p>
@@ -182,7 +117,8 @@
                     <note type="transcript">doppelt unterstrichen</note>
           <lb xml:id="p3-l23"/>
           <hi rend="underline">mit einer</hi>
-          <hi rend="underline">abscheu<lb break="no" xml:id="p3-l24"/>lichen</hi>
+          <hi rend="underline">abscheu
+                        <lb xml:id="p3-l24" break="no"/>lichen</hi>
                     <note type="transcript">doppelt unterstrichen</note>
           <hi rend="underline">Feder, wie <hi>Figura</hi>
                     </hi>
@@ -190,6 +126,4 @@
           <hi rend="underline">zeigt.</hi>
         </p>
       </postscript>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

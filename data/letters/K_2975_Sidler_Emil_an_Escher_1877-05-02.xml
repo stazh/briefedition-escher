@@ -1,169 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2975" n="292" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Emil Sidler an Alfred Escher, Luzern, Mittwoch, Mai 2, 1877</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.81#1000/1377#7*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Gotthardbahn-Gesellschaft (GB)</item>
-                        <item>Personelle Angelegenheiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Sidler Emil" type="sender">Emil Sidler</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Luzern</placeName>
-                    <date when="1877-05-02">Mittwoch, Mai 2, 1877</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-01-05" who="MW"> transkribiert
-                
-            </change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-10-30" who="MF">kommentiert provisorisch
-                
-            </change>
-            <change when="2006-12-05" who="SM">Konvertierung provisorisch nachbearbeitet
-                
-            </change>
-            <change when="2007-01-12" who="WB">Konvertierung nachbearbeitet (Indexierung fehlt)
-                
-            </change>
-            <change when="2007-02-26" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-03-15" who="MF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-04-10" who="MF">kommentiert 3
-                
-            </change>
-            <change when="2007-04-24" who="MF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-07" who="WB">indexiert
-                
-            </change>
-            <change when="2007-05-22" who="MF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-15" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-26" who="MF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-21" who="MF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2008-08-06" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-20" who="BP">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-08" who="TM">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-29" who="DG">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-12-04" who="VP">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-12-04" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-12-04" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_2975_p1">
-                    <lb xml:id="p1-l1"/>
-          <fw>Gotthardbahn.<lb xml:id="p1-l2"/> Hauptcasse.</fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2975" type="Brief"><teiHeader><fileDesc><titleStmt><title>Emil Sidler an Alfred Escher, Luzern, Mittwoch, 02. Mai 1877</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.81#1000/1377#7*</idno><idno>J I.81</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Gotthardbahn-Gesellschaft (GB)</term><term>Personelle Angelegenheiten</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term> Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Sidler Emil" type="addressee">Emil Sidler</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Luzern</placeName><date when="1877-05-02">02. Mai 1877</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_2975_p1"><lb xml:id="p1-l1"/>
+          <hi rend="printed">Gotthardbahn.<lb xml:id="p1-l2"/> Hauptcasse.</hi>
         </p>
-      </div>
+      
       <div type="dateline">
-        <p rend="right" xml:id="K_2975_p2">
-                    <lb xml:id="p1-l3"/>
-          <placeName type="place" key="Luzern (Stadt)">
-                        <hi>Luzern</hi>
-                    </placeName>, <date when="1877-05-02">2. <hi>Mai</hi> 1877</date> </p>
-      </div>
-      <div type="address">
-        <p rend="center" xml:id="K_2975_p3">
-                    <lb xml:id="p1-l4"/>Herrn Präsident <hi>
-                        <choice>
-                            <abbr>D<hi rend="sup">r</hi> </abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> Alf. Escher</hi> <lb xml:id="p1-l5"/>
-                    <hi rend="underline">
-                        <placeName type="place" key="Zürich (Stadt)">
-                            <hi>Zürich</hi>
-                        </placeName>
-                    </hi>.</p>
+        <p rend="right" xml:id="K_2975_p2"><lb xml:id="p1-l3"/>
+          <placeName key="Luzern (Stadt)"><hi>Luzern</hi></placeName>, <date when="1877-05-02">2. <hi>Mai</hi> 1877</date> </p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_2975_p4">
-                    <lb xml:id="p1-l6"/>Hochgeachteter Herr!</p>
+        <p rend="center" xml:id="K_2975_p3"><lb xml:id="p1-l4"/>Herrn Präsident <hi><choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice> Alf. Escher</hi> <lb xml:id="p1-l5"/><hi rend="underline"><placeName key="Zürich (Stadt)"><hi>Zürich</hi></placeName></hi>.</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2975_p5">
-                <lb xml:id="p1-l7"/>Im Besitze Ihrer <seg type="com">verehrlichen Anzeige von <date when="1877-05-01">gestern</date>
-                    <note xml:id="K_2975_c1">Dokument nicht ermittelt.</note>
-                </seg>, <lb xml:id="p1-l8"/>
+      <div type="opener">
+        <p rend="indent" xml:id="K_2975_p4"><lb xml:id="p1-l6"/>Hochgeachteter Herr!</p>
+      </div>
+    </front><body>
+      <p rend="indent" xml:id="K_2975_p5"><lb xml:id="p1-l7"/>Im Besitze Ihrer verehrlichen Anzeige von <date when="1877-05-01">gestern</date><note type="com" xml:id="K_2975_c1">Dokument nicht ermittelt.</note>, <lb xml:id="p1-l8"/>
 daß Sie sich veranlaßt sehen, im Hinblick auf die<lb xml:id="p1-l9"/>
 gegenwärtige Finanzlage der Gotthardbahngesellschaft<lb xml:id="p1-l10"/>
-bis auf weiteres <seg type="com">auf Ihren ganzen Gehalt zu ver<lb break="no" xml:id="p1-l11"/>zichten<note xml:id="K_2975_c2">Bereits im Februar 1877 verzichtete Escher auf die Gehaltszulage für das Präsidium 
-  der Direktion der Gotthardbahn-Gesellschaft. <ref type="letter" target="K_2908"><!--Nr. 265--></ref>.</note>
-                </seg>, habe ich Ihren Entschluß dem <seg type="com">Herrn <persName type="person" key="Furrer Albert">Haupt<lb break="no" xml:id="p1-l12"/>buchhalter</persName>
-                    <note xml:id="K_2975_c3">
-                        <persName type="person" key="Furrer Albert">Albert Furrer</persName> (<choice>
-                                <abbr>geb.</abbr>
-                                <expan>geboren</expan>
-                            </choice> 1842), Hauptbuchhalter der Gotthardbahn-Gesellschaft.</note>
-                </seg> als Rechnungssteller mitgetheilt, so daß<lb xml:id="p1-l13"/>
+bis auf weiteres auf Ihren ganzen Gehalt zu ver<lb xml:id="p1-l11" break="no"/>zichten<note type="com" xml:id="K_2975_c2">Bereits im Februar 1877 verzichtete Escher auf die Gehaltszulage für das Präsidium 
+  der Direktion der Gotthardbahn-Gesellschaft. <ref type="letter" target="K_2908"><!--Nr. 265--></ref>.</note>, habe ich Ihren Entschluß dem Herrn <persName key="Furrer Albert">Haupt<lb xml:id="p1-l12" break="no"/>buchhalter</persName><note type="com" xml:id="K_2975_c3"><persName key="Furrer Albert">Albert Furrer</persName> (<choice><abbr>geb.</abbr><expan>geboren</expan></choice> 1842), Hauptbuchhalter der Gotthardbahn-Gesellschaft.</note> als Rechnungssteller mitgetheilt, so daß<lb xml:id="p1-l13"/>
 die Ausstellung der monatlichen Gehaltsanweisung<lb xml:id="p1-l14"/>
 bis auf Ihre weitern Verfügungen unterbleiben wird.</p>
-      <p rend="indent" xml:id="K_2975_p6">
-                <lb xml:id="p1-l15"/>Genehmigen Sie, hochgeachteter Herr Präsident,<lb xml:id="p1-l16"/>
+      <p rend="indent" xml:id="K_2975_p6"><lb xml:id="p1-l15"/>Genehmigen Sie, hochgeachteter Herr Präsident,<lb xml:id="p1-l16"/>
 die erneuerte Versicherung meiner ausgezeichneten<lb xml:id="p1-l17"/>
 Hochachtung.
 </p>
-    </div>
-        </body>
-    <back>
-      <div type="address">
-        <p rend="right" xml:id="K_2975_p7">
-                    <lb xml:id="p1-l18"/>E Sidler Kassier</p> </div>
-    </back>
-  </text>
-</TEI>
+    </body><back>
+      <div type="signature">
+        <p rend="right" xml:id="K_2975_p7"><lb xml:id="p1-l18"/>E Sidler Kassier</p> </div>
+    </back></text></TEI>

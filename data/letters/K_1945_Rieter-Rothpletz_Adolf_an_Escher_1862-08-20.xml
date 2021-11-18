@@ -1,143 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1945" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Adolf Rieter-Rothpletz an Alfred Escher, Winterthur, Mittwoch, August 20, 1862</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#410*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Kreditanstalt (SKA)</item>
-                        <item>Absagebriefe (diverse)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Rieter-Rothpletz Adolf" type="sender">Adolf Rieter-Rothpletz</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Winterthur</placeName>
-                    <date when="1862-08-20">Mittwoch, August 20, 1862</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-08-28" who="BF">Transkribiert
-                
-            </change>
-            <change when="2013-06-25" who="NB">Migration nach XML
-                
-            </change>
-            <change when="2013-06-28" who="AO">Transkriptionsverifizierung Seiterle
-          umgesetzt
-                
-            </change>
-            <change when="2013-07-02" who="RO">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-18" who="DG">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-25" who="JS">Migrationsverifizierung
-        umgesetzt
-                
-            </change>
-            <change when="2013-07-26" who="NB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-08-14" who="KB">Transkriptionsverifizierung Seiterle
-          überprüft
-                
-            </change>
-            <change when="2013-12-02" who="LB">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-            <change when="2013-12-16" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_1945_p1">
-                    <fw>
-            <lb xml:id="p1-l1"/>RIETER ZIEGLER &amp; <choice>
-                            <abbr>C<hi rend="sup">o</hi> </abbr>
-                            <expan>Compagnia / Compagnie / Company (Gesellschaft)</expan>
-                        </choice> <lb xml:id="p1-l2"/>
-                        <placeName type="place" key="Winterthur">WINTERTHUR</placeName> </fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1945" type="Brief"><teiHeader><fileDesc><titleStmt><title>Adolf Rieter-Rothpletz an Alfred Escher, Winterthur, Mittwoch, 20. August 1862</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#410*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Kreditanstalt (SKA)</term><term>Absagebriefe (diverse)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Rieter-Rothpletz Adolf" type="addressee">Adolf Rieter-Rothpletz</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Winterthur</placeName><date when="1862-08-20">20. August 1862</date></correspAction><correspAction type="received"><placeName>Zürich</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_1945_p1"><hi rend="printed">
+            <lb xml:id="p1-l1"/>RIETER ZIEGLER &amp; <choice><abbr>C<hi rend="sup">o</hi> </abbr><expan>Compagnia / Compagnie / Company (Gesellschaft)</expan></choice> <lb xml:id="p1-l2"/><placeName key="Winterthur">WINTERTHUR</placeName> </hi>
         </p>
-      </div>
+      
       <div type="opener">
-        <p rend="center" xml:id="K_1945_p2">
-                    <lb xml:id="p1-l3"/>Geehrter Herr Präsident,</p>
+        <p rend="center" xml:id="K_1945_p2"><lb xml:id="p1-l3"/>Geehrter Herr Präsident,</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1945_p3">
-                <lb xml:id="p1-l4"/>Ich wohnte <date when="1862-08-19">gestern</date>, Dienstags, der Hochzeit <lb xml:id="p1-l5"/>eines <persName type="person" key="Schwager Adolf Rieter-Rothpletz'">Schwagers</persName> bei,
+    </front><body>
+      <p rend="indent" xml:id="K_1945_p3"><lb xml:id="p1-l4"/>Ich wohnte <date when="1862-08-19">gestern</date>, Dienstags, der Hochzeit <lb xml:id="p1-l5"/>eines <persName key="Schwager Adolf Rieter-Rothpletz'">Schwagers</persName> bei,
         daher kam mir die Einladung <lb xml:id="p1-l6"/>zu der <date when="1862-08-19">gestrigen</date>
         Sitzung für die Kreditanstalt erst <lb xml:id="p1-l7"/>  <date when="1862-08-20">heute</date> zu
         Gesicht, &amp; da persönliches Erscheinen sehr <lb xml:id="p1-l8"/>gewünscht wurde, bedaure ich
         um so mehr, daß ich auf <lb xml:id="p1-l9"/>diese Weise verhindert war derselben
         beizuwohnen.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="left" xml:id="K_1945_p4">
-                    <lb xml:id="p1-l10"/>Ich bitte Sie also mich wenn auch nachträglich zu <lb xml:id="p1-l11"/>entschuldigen &amp; die Versicherung meiner Hochachtung <lb xml:id="p1-l12"/>zu
+        <p rend="left" xml:id="K_1945_p4"><lb xml:id="p1-l10"/>Ich bitte Sie also mich wenn auch nachträglich zu <lb xml:id="p1-l11"/>entschuldigen &amp; die Versicherung meiner Hochachtung <lb xml:id="p1-l12"/>zu
           genehmigen</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1945_p5">
-                    <lb xml:id="p1-l13"/>A. Rieter-Rothpletz</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_1945_p5"><lb xml:id="p1-l13"/>A. Rieter-Rothpletz</p>
       </div>
       <div type="dateline">
-        <p rend="indent" xml:id="K_1945_p6">
-                    <lb xml:id="p1-l14"/>
+        <p rend="indent" xml:id="K_1945_p6"><lb xml:id="p1-l14"/>
           <hi>
-            <placeName type="place" key="Winterthur">Winterthur</placeName>
-                    </hi>, <date when="1862-08-20">20 <hi>
-                            <choice>
-                                <abbr>Aug</abbr>
-                                <expan>August</expan>
-                            </choice>
-                        </hi>. 1862</date> </p>
+            <placeName key="Winterthur">Winterthur</placeName></hi>, <date when="1862-08-20">20 <hi><choice><abbr>Aug</abbr><expan>August</expan></choice></hi>. 1862</date> </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1945_p7">
-                    <lb xml:id="p1-l15"/>
-          <choice>
-                        <abbr>HHerrn</abbr>
-                        <expan>Hohen Herrn</expan>
-                    </choice>
-          <choice>
-                        <abbr>D<hi rend="sup">r</hi> </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice>
-          <hi>Escher</hi> Präsident des <choice>
-                        <abbr>Verwalt.srathes</abbr>
-                        <expan>Verwaltungsrathes</expan>
-                    </choice> <lb xml:id="p1-l16"/>der Kreditanstalt <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> </p>
+      <div type="opener">
+        <p rend="right" xml:id="K_1945_p7"><lb xml:id="p1-l15"/>
+          <choice><abbr>HHerrn</abbr><expan>Hohen Herrn</expan></choice>
+          <choice><abbr>D<hi rend="sup">r</hi> </abbr><expan>Doktor / Doctor</expan></choice>
+          <hi>Escher</hi> Präsident des <choice><abbr>Verwalt.srathes</abbr><expan>Verwaltungsrathes</expan></choice> <lb xml:id="p1-l16"/>der Kreditanstalt <placeName key="Zürich (Stadt)">Zürich</placeName> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

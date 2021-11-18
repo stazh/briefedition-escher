@@ -1,147 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1602" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Carl Geigy an Alfred Escher, Basel, Freitag, April 17, 1857</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#222*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Presse (allgemein)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Geigy Carl" type="sender">Carl Geigy</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Basel</placeName>
-                    <date when="1857-04-17">Freitag, April 17, 1857</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2010-08-30" who="kr">transkribiert 
-                
-            </change>
-            <change when="2013-02-06" who="BB">Auszeichnung 1
-				umgesetzt
-                
-            </change>
-            <change when="2013-06-17" who="KB">Transkriptionsverifizierung T. Binder
-					umgesetzt
-                
-            </change>
-            <change when="2013-06-24" who="CF">Übertragung der Transkriptionsverifizierung
-					geprüft
-                
-            </change>
-            <change when="2013-07-11" who="DG">Verifizierung 1
-				umgesetzt
-                
-            </change>
-            <change when="2013-07-17" who="FG">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-12-20" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2016-12-22" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1602" type="Brief"><teiHeader><fileDesc><titleStmt><title>Carl Geigy an Alfred Escher, Basel, Freitag, 17. April 1857</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#222*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Finanzierung</term><term>Schweizerische Nordostbahn (NOB)</term><term>Presse (allgemein)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Geigy Carl" type="addressee">Carl Geigy</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Basel</placeName><date when="1857-04-17">17. April 1857</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="indent" xml:id="K_1602_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_1602_c0">Auf der ersten Briefseite oben ist das Familienwappen abgebildet.</note>
-                    </seg> <lb xml:id="p1-l1"/>Hochgeachter Herr <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Freund!</p>
+        <p rend="indent" xml:id="K_1602_p1"> 
+                        <note type="com" xml:id="K_1602_c0">Auf der ersten Briefseite oben ist das Familienwappen abgebildet.</note>
+                     <lb xml:id="p1-l1"/>Hochgeachter Herr <choice><abbr>u.</abbr><expan>und</expan></choice> Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_1602_p2">
-                <lb xml:id="p1-l2"/>Ich hatte die Ehre Ihnen <date when="1857-04-15">vorgestern</date> <seg type="ref">einige Worte<ref type="letter" target="K_1601"/>
-                </seg> zu schreiben.<lb xml:id="p1-l3"/>  <date when="1857-04-17">Heute</date> sehe ich aus der <placeName type="place" key="Zürich (Stadt)">
+                <lb xml:id="p1-l2"/>Ich hatte die Ehre Ihnen <date when="1857-04-15">vorgestern</date> <rs>einige Worte<ref type="letter" target="K_1601"/>
+                </rs> zu schreiben.<lb xml:id="p1-l3"/>  <date when="1857-04-17">Heute</date> sehe ich aus der <placeName key="Zürich (Stadt)">
                     <hi>Zürcher</hi>
                 </placeName> Zeitung daß die Eintrittskarten<lb xml:id="p1-l4"/> zur
-				Generalversammlung <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <date when="1857-04-20">20. <choice>
-                            <abbr>ds.</abbr>
-                            <expan>dieses [Monats]</expan>
-                        </choice> </date> bis zum Tage selbst<lb xml:id="p1-l5"/> bei der Haupt<hi>Cassa</hi> bezogen
+				Generalversammlung <choice><abbr>v.</abbr><expan>von</expan></choice> <date when="1857-04-20">20. <choice><abbr>ds.</abbr><expan>dieses [Monats]</expan></choice> </date> bis zum Tage selbst<lb xml:id="p1-l5"/> bei der Haupt<hi>Cassa</hi> bezogen
 				werden können.</p>
       <p rend="indent" xml:id="K_1602_p3">
                 <lb xml:id="p1-l6"/>Es ist mir dieses unbegreiflich, denn nach unseren<lb xml:id="p1-l7"/> <hi>Statuten</hi> können
 				nach dem <date when="1857-04-20">20<hi rend="sup">ten</hi> </date> keine Karten mehr bezogen<lb xml:id="p1-l8"/> werden
-				<choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> es ist dieses bei allen <choice>
-                        <abbr>franz.</abbr>
-                        <expan>französisch</expan>
-                    </choice> Gesellschaften<lb xml:id="p1-l9"/> der
+				<choice><abbr>u.</abbr><expan>und</expan></choice> es ist dieses bei allen <choice><abbr>franz.</abbr><expan>französisch</expan></choice> Gesellschaften<lb xml:id="p1-l9"/> der
 				Fall. Der Hauptzweck scheint mir zu sein daß<lb xml:id="p1-l10"/> in den letzten Tagen die <hi>Actien</hi> nicht
 				mehr die Hand<lb xml:id="p1-l11"/> wechseln sollen um <hi>Maneuvre</hi> zur Stimm Abgabe<lb xml:id="p1-l12"/> zu vermeiden, überdieß
-				da die <hi>Actien</hi> <hi>déponirt</hi>
-                <lb xml:id="p1-l13"/> werden müßen gegen <hi>Certificate</hi> so kann diese, immer<lb xml:id="p1-l14"/> etwas
+				da die <hi>Actien</hi> <hi>déponirt</hi><lb xml:id="p1-l13"/> werden müßen gegen <hi>Certificate</hi> so kann diese, immer<lb xml:id="p1-l14"/> etwas
 				zeitraubende Arbeit, nicht bis zu den letzten<lb xml:id="p1-l15"/> Tagen verschoben werden.</p>
       <p rend="indent" xml:id="K_1602_p4">
                 <lb xml:id="p1-l16"/>Es scheint mir nun daß bei Ihnen ein anderes <hi>Procedere</hi> <lb xml:id="p1-l17"/> eingehalten
-				wird <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> daß Sie die Eintrittskarten bloß<lb xml:id="p1-l18"/> gegen Vorzeigung der <hi>Actien</hi>
+				wird <choice><abbr>u.</abbr><expan>und</expan></choice> daß Sie die Eintrittskarten bloß<lb xml:id="p1-l18"/> gegen Vorzeigung der <hi>Actien</hi>
 				zustellen, allein auf diese<lb xml:id="p1-l19"/> Weise können leicht dieselben <hi>Actien</hi> 2–3 mahl
-				vorgewiesen<lb xml:id="p1-l20"/> werden denn wenn man auch die <choice>
-                        <abbr>
-                    <hi>N<hi rend="sup">os</hi>
-                    </hi> </abbr>
-                        <expan>Numeros (Nummern)</expan>
-                    </choice>
+				vorgewiesen<lb xml:id="p1-l20"/> werden denn wenn man auch die <choice><abbr><hi>N<hi rend="sup">os</hi></hi> </abbr><expan>Numeros (Nummern)</expan></choice>
 				 <hi>notirt</hi>, so sind<lb xml:id="p1-l21"/> Versehen sehr leicht möglich.</p>
       <p rend="indent" xml:id="K_1602_p5">
                 <lb xml:id="p1-l22"/>Darf ich Sie um Auskunft über Ihre Verfahrungsweise<lb xml:id="p1-l23"/> ersuchen
-				<choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> mir zu melden ob sich dabei keine Übelstände<lb xml:id="p1-l24"/> kund geben?</p>
-    </div>
-        </body>
-    <back>
+				<choice><abbr>u.</abbr><expan>und</expan></choice> mir zu melden ob sich dabei keine Übelstände<lb xml:id="p1-l24"/> kund geben?</p>
+    </body><back>
       <div type="closer">
         <p rend="right" xml:id="K_1602_p6">
-                    <lb xml:id="p1-l25"/>Ihr hochachtungsvoll <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <choice>
-                        <abbr>freundschaft.</abbr>
-                        <expan>freundschaftlich</expan>
-                    </choice> Ergebener</p>
+                    <lb xml:id="p1-l25"/>Ihr hochachtungsvoll <choice><abbr>u.</abbr><expan>und</expan></choice> <choice><abbr>freundschaft.</abbr><expan>freundschaftlich</expan></choice> Ergebener</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_1602_p7">
                     <lb xml:id="p1-l26"/>
           C. Geigy
@@ -150,10 +44,6 @@
       <div type="dateline">
         <p rend="left" xml:id="K_1602_p8">
                     <lb xml:id="p1-l27"/>
-          <placeName type="place" key="Basel-Stadt">
-                        <hi>Basel</hi>
-                    </placeName> den <date when="1857-04-17">17<hi rend="sup">ten</hi> <hi>April</hi> 1857.</date> </p>
+          <placeName key="Basel-Stadt"><hi>Basel</hi></placeName> den <date when="1857-04-17">17<hi rend="sup">ten</hi> <hi>April</hi> 1857.</date> </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

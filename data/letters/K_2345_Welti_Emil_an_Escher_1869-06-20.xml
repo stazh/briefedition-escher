@@ -1,107 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2345" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Emil Welti an Alfred Escher, Bern, Sonntag, Juni 20, 1869</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.2#1000/1310#35*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list/>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Welti Emil" type="sender">Emil Welti</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1869-06-20">Sonntag, Juni 20, 1869</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-08-08" who="JS">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="STW">Migrationsverifizierung
-                    umgesetzt
-                
-            </change>
-            <change when="2014-01-07" who="CR">Auszeichnung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-08" who="LW">Verifizierung 1
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-13" who="IB">Auszeichnung 2
-                umgesetzt
-                
-            </change>
-            <change when="2014-01-16" who="LH">Transkriptionsverifizierung Seiterle
-                    umgesetzt
-                
-            </change>
-            <change when="2014-01-20" who="MA">Übertragung der Transkriptionsverifizierung
-                    gerprüft
-                
-            </change>
-            <change when="2014-03-17" who="MLB">Inhaltliche Qualitätsprüfung
-                    umgesetzt
-                
-            </change>
-            <change when="052014-13" who="LB">Verifizierung 2
-                umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2345" type="Brief"><teiHeader><fileDesc><titleStmt><title>Emil Welti an Alfred Escher, Bern, Sonntag, 20. Juni 1869</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.2#1000/1310#35*</idno><idno>J I.2</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass/><correspDesc><correspAction type="sent"><persName key="Welti Emil" type="addressee">Emil Welti</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1869-06-20">20. Juni 1869</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="opener">
-        <p rend="left" xml:id="K_2345_p1">
-                    <lb xml:id="p1-l1"/>Hochgeehrter
+        <p rend="left" xml:id="K_2345_p1"><lb xml:id="p1-l1"/>Hochgeehrter
                     Herr</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_2345_p2">
-                <lb xml:id="p1-l2"/>Die beifolgende Zuschrift des <lb xml:id="p1-l3"/>Herrn <persName type="person" key="Arnold-Muheim Josef">Arnold</persName>
+    </front><body>
+      <p rend="left" xml:id="K_2345_p2"><lb xml:id="p1-l2"/>Die beifolgende Zuschrift des <lb xml:id="p1-l3"/>Herrn <persName key="Arnold-Muheim Josef">Arnold</persName>
                 wird Sie <lb xml:id="p1-l4"/>interessiren; hoffen wir <lb xml:id="p1-l5"/>dass er recht
                 behalte.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="right" xml:id="K_2345_p3">
-                    <lb xml:id="p1-l6"/>Ihr ganz
-                        ergebenst<supplied>er</supplied> </p>
+        <p rend="right" xml:id="K_2345_p3"><lb xml:id="p1-l6"/>Ihr ganz
+                        ergebenst<add>er</add> </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2345_p4">
-                    <lb xml:id="p1-l7"/>E Welti</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2345_p4"><lb xml:id="p1-l7"/>E Welti</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_2345_p5">
-                    <lb xml:id="p1-l8"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName>
+        <p rend="left" xml:id="K_2345_p5"><lb xml:id="p1-l8"/>
+          <placeName key="Bern (Stadt)">Bern</placeName>
           <date when="1869-06-20">20. Juni 1869</date>.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

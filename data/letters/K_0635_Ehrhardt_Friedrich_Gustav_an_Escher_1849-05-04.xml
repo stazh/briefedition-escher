@@ -1,282 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0635" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Friedrich Gustav Ehrhardt an Alfred Escher, Zürich, Freitag, Mai 4, 1849</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#183*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Liberale Presse</item>
-                        <item>Polemiken und Anwürfe (Escher)</item>
-                        <item>Wahlen</item>
-                        <item>Universitäten und Hochschulen (diverse)</item>
-                        <item>Universität Zürich</item>
-                        <item>Krankheiten</item>
-                        <item>Personelle Angelegenheiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Ehrhardt Friedrich Gustav" type="sender">Friedrich Gustav Ehrhardt</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1849-05-04">Freitag, Mai 4, 1849</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-08-02" who="BF">Transkribiert
-                
-            </change>
-            <change when="2010-03-01" who="SW">Von Word nach XML konvertiert
-                
-            </change>
-            <change when="2012-06-06" who="AH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-13" who="FM">Verifikation 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-20" who="LM">Migrationsverifikation umgesetzt
-                
-                
-            </change>
-            <change when="2012-06-27" who="LM">Migrationsverifikation umgesetzt
-                
-                
-            </change>
-            <change when="2012-07-06" who="SCK">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2012-07-17" who="LM">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2012-07-23" who="TM">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2012-08-15" who="AH">Übertragung Transkriptionsverifizierung überprüft
-                
-            </change>
-            <change when="2012-08-22" who="CA">Inhaltliche Qualitätskontrolle
-				umgesetzt
-                
-            </change>
-            <change when="2017-07-05" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-        
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0635" type="Brief"><teiHeader><fileDesc><titleStmt><title>Friedrich Gustav Ehrhardt an Alfred Escher, Zürich, Freitag, 04. Mai 1849</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#183*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Liberale Presse</term><term>Polemiken und Anwürfe (Escher)</term><term>Wahlen</term><term>Universitäten und Hochschulen (diverse)</term><term>Universität Zürich</term><term>Krankheiten</term><term>Personelle Angelegenheiten</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Ehrhardt Friedrich Gustav" type="addressee">Friedrich Gustav Ehrhardt</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1849-05-04">04. Mai 1849</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
         <p rend="left" xml:id="K_0635_p1"><!--<lb id="p1-l1"/>BATH-->
           <lb xml:id="p1-l1"/>
-          <fw>F. G. Ehrhardt<lb xml:id="p1-l2"/> Cantons Fürsprech in <placeName type="place" key="Zürich">Zürich</placeName>.</fw>
+          <hi rend="printed">F. G. Ehrhardt<lb xml:id="p1-l2"/> Cantons Fürsprech in <placeName key="Zürich">Zürich</placeName>.</hi>
         </p>
-      </div>
+      
       <div type="opener">
         <p rend="indent" xml:id="K_0635_p2">
                     <lb xml:id="p1-l3"/>Mein lieber Freund!
 			</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_0635_p3">
                 <lb xml:id="p1-l4"/>Zuvörderst meinen Dank für Deinen<!-- <r>--> Brief <!--<ref type="letter" target="?" /></r> -->
-                <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Deine<lb xml:id="p1-l5"/>
-				freundlichen Mittheilungen über nationalräthliche Plagen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <lb xml:id="p1-l6"/>
+                <choice><abbr>u.</abbr><expan>und</expan></choice> Deine<lb xml:id="p1-l5"/>
+				freundlichen Mittheilungen über nationalräthliche Plagen <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p1-l6"/>
 				theoretische Genüsse (höhere oder richtiger tiefere scheinst
 				Du<lb xml:id="p1-l7"/> nicht einmal andeuten zu wollen). Du bleibest ein ewig
 				<lb xml:id="p1-l8"/> unerreichbares Muster für alle Briefschreiber
-					<choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> auch in<lb xml:id="p1-l9"/> dieser Hinsicht kann ich Dich nur bewundern –
+					<choice><abbr>u.</abbr><expan>und</expan></choice> auch in<lb xml:id="p1-l9"/> dieser Hinsicht kann ich Dich nur bewundern –
 				bewundern,<lb xml:id="p1-l10"/> aber nie daran denken, Dich zu erreichen: selbst <hi>si parva<lb xml:id="p1-l11"/>
 					licet componere magnis</hi><!--<com>Vergil, Georgica: Wenn man kleines mit grossem
 						vergleichen darf</com>
 -->. </p>
       <p rend="indent" xml:id="K_0635_p4">
                 <lb xml:id="p1-l12"/>Beifolgend ein Fetzen aus den freien Stimmen vom<lb xml:id="p1-l13"/>  <date when="1849-05-02">vergangenen
-				Mittwoch</date>. In der <date when="1849-05-04">heutigen</date> <choice>
-                        <abbr>N.<placeName type="place" key="Zürich">Z.</placeName>Z.</abbr>
-                        <expan>Neue Zürcher Zeitung</expan>
-                    </choice> wirst Du<lb xml:id="p1-l14"/> die
-				Erklärung von <persName type="person" key="Kubli Kaspar">K.</persName> unter den Inseraten gefunden
-				haben<lb xml:id="p1-l15"/> (dessen Aufnahme beiläufig gesagt: eine Gemeinheit<lb xml:id="p1-l16"/> von <persName type="person" key="Hagenbuch Johannes">H.</persName> ist – wenigstens nach meiner
+				Mittwoch</date>. In der <date when="1849-05-04">heutigen</date> <choice><abbr>N.<placeName key="Zürich">Z.</placeName>Z.</abbr><expan>Neue Zürcher Zeitung</expan></choice> wirst Du<lb xml:id="p1-l14"/> die
+				Erklärung von <persName key="Kubli Kaspar">K.</persName> unter den Inseraten gefunden
+				haben<lb xml:id="p1-l15"/> (dessen Aufnahme beiläufig gesagt: eine Gemeinheit<lb xml:id="p1-l16"/> von <persName key="Hagenbuch Johannes">H.</persName> ist – wenigstens nach meiner
 				individuellen<lb xml:id="p1-l17"/> Auffassung). Bringen wir damit in Verbindung, daß <lb xml:id="p1-l18"/> an
 				Privaten doch wohl <add>eine</add> nicht ganz unbedeutende Anzahl<lb xml:id="p1-l19"/> von Exemplaren hierher geschickt wurde, so dürfte es<lb xml:id="p1-l20"/> vielleicht nicht
 				unzweckmäßig sein, <del>jetzt</del> <add>bald</add> die Erklärung <lb xml:id="p1-l21"/> zu publiciren. <del>Jetzt</del> Früher mochte ich es
 				nicht thun,<lb xml:id="p1-l22"/> damit es nicht den Anschein gewinne, als ob die<lb xml:id="p1-l23"/>
 				Frist ein Motiv dafür gewesen seie. Nun bin<lb xml:id="p1-l24"/> ich aber wieder
 				schwankend geworden durch eine <pb n="2"/>
-                <lb xml:id="p2-l1"/>  <date when="1849-05-04">heute</date> Abend mit <persName type="person" key="Escher (vom Glas) Heinrich">deinem Vater</persName> gehabte Unterredung, der<lb xml:id="p2-l2"/> diese Publication
+                <lb xml:id="p2-l1"/>  <date when="1849-05-04">heute</date> Abend mit <persName key="Escher (vom Glas) Heinrich">deinem Vater</persName> gehabte Unterredung, der<lb xml:id="p2-l2"/> diese Publication
 				nur als letztes Mittel gegen die<lb xml:id="p2-l3"/>
-                <persName type="person" key="Kubli Kaspar">Kublischen</persName>
-				Niederträchtigkeiten benutzen möchte <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> es <supplied type="unclear">...</supplied>
+                <persName key="Kubli Kaspar">Kublischen</persName>
+				Niederträchtigkeiten benutzen möchte <choice><abbr>u.</abbr><expan>und</expan></choice> es <add type="?">...</add>
 				<lb xml:id="p2-l4"/> noch nicht für nöthig zu halten scheint. Er hat darin recht,<lb xml:id="p2-l5"/> daß unsre
-				Erklärung mehr Aufmerksamkeit erregen<lb xml:id="p2-l6"/> wird, als bis jetzt <choice>
-                        <abbr>jedenf</abbr>
-                        <expan>jedenfalls</expan>
-                    </choice> <persName type="person" key="Kubli Kaspar">Ks</persName> Schritte erregen konnten;<lb xml:id="p2-l7"/> denn davon
-				überzeuge ich mich immer mehr <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> mehr, daß <lb xml:id="p2-l8"/>
-                <persName type="person" key="Kubli Kaspar">Ks</persName>
-				schandbares Benehmen durchweg keinerlei Aufmerk<lb break="no" xml:id="p2-l9"/>samkeit <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> noch viel weniger Theilnahme für ihn hervor<lb break="no" xml:id="p2-l10"/>gerufen hat
-					<choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> der Artikel in den <choice>
-                        <abbr>Fr. St.</abbr>
-                        <expan>Freie Stimmen</expan>
-                    </choice> nach gerade<lb xml:id="p2-l11"/> von
-				seinen bekannten Freunden <hi>ad hoc</hi> gemacht worden seie.<lb xml:id="p2-l12"/> Deshalb bin ich wieder
-				unentschieden <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> warte jetzt<lb xml:id="p2-l13"/> jedenfalls noch einige Tage. Ich
-				bedaure, daß ich<lb xml:id="p2-l14"/> Dich <hi rend="underline">wieder</hi> mit dieser odiösen Angelegenheit
-				behelli<lb break="no" xml:id="p2-l15"/>gen mußte <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> rechne auf Deine Nachsicht, da nur<lb xml:id="p2-l16"/>
-				der Wunsch, in dieser Sache meine Ansichten <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Schritte <lb xml:id="p2-l17"/> den
-				Deinigen möglichst conform zu halten, die Ver<lb break="no" xml:id="p2-l18"/>anlassung war.</p>
+				Erklärung mehr Aufmerksamkeit erregen<lb xml:id="p2-l6"/> wird, als bis jetzt <choice><abbr>jedenf</abbr><expan>jedenfalls</expan></choice> <persName key="Kubli Kaspar">Ks</persName> Schritte erregen konnten;<lb xml:id="p2-l7"/> denn davon
+				überzeuge ich mich immer mehr <choice><abbr>u.</abbr><expan>und</expan></choice> mehr, daß <lb xml:id="p2-l8"/>
+                <persName key="Kubli Kaspar">Ks</persName>
+				schandbares Benehmen durchweg keinerlei Aufmerk
+                <lb xml:id="p2-l9" break="no"/>samkeit <choice><abbr>u.</abbr><expan>und</expan></choice> noch viel weniger Theilnahme für ihn hervor
+                <lb xml:id="p2-l10" break="no"/>gerufen hat
+					<choice><abbr>u.</abbr><expan>und</expan></choice> der Artikel in den <choice><abbr>Fr. St.</abbr><expan>Freie Stimmen</expan></choice> nach gerade<lb xml:id="p2-l11" break="no"/> von
+				seinen bekannten Freunden <hi>ad hoc</hi> gemacht worden seie.<lb xml:id="p2-l12" break="no"/> Deshalb bin ich wieder
+				unentschieden <choice><abbr>u.</abbr><expan>und</expan></choice> warte jetzt<lb xml:id="p2-l13" break="no"/> jedenfalls noch einige Tage. Ich
+				bedaure, daß ich<lb xml:id="p2-l14" break="no"/> Dich <hi rend="underline">wieder</hi> mit dieser odiösen Angelegenheit
+				behelli
+                <lb xml:id="p2-l15" break="no"/>gen mußte <choice><abbr>u.</abbr><expan>und</expan></choice> rechne auf Deine Nachsicht, da nur<lb xml:id="p2-l16" break="no"/>
+				der Wunsch, in dieser Sache meine Ansichten <choice><abbr>u.</abbr><expan>und</expan></choice> Schritte <lb xml:id="p2-l17" break="no"/> den
+				Deinigen möglichst conform zu halten, die Ver
+                <lb xml:id="p2-l18" break="no"/>anlassung war.</p>
       <p rend="indent" xml:id="K_0635_p5">
-                <lb xml:id="p2-l19"/>Für die <choice>
-                        <abbr>N.<placeName type="place" key="Zürich">Z.</placeName>Z.</abbr>
-                        <expan>Neue Zürcher Zeitung</expan>
-                    </choice> werde
+                <lb xml:id="p2-l19"/>Für die <choice><abbr>N.<placeName key="Zürich">Z.</placeName>Z.</abbr><expan>Neue Zürcher Zeitung</expan></choice> werde
 				ich jetzt gar nichts thun; ich<lb xml:id="p2-l20"/> bin darüber mit mir ganz im Reinen. Neulich
-				sprach<lb xml:id="p2-l21"/> ich mit <persName type="person" key="Hagenbuch Johannes">H.</persName> darüber, nachdem er mir
+				sprach<lb xml:id="p2-l21"/> ich mit <persName key="Hagenbuch Johannes">H.</persName> darüber, nachdem er mir
 				vorher geschrieben,<lb xml:id="p2-l22"/> daß ein Antheil an der Redaction, selbst in dem Sinne <lb xml:id="p2-l23"/> wie Du ihn mir erweisen wolltest, an eine tägliche<lb xml:id="p2-l24"/>
 				Gegenwart von 7-11 Uhr auf dem Büreau geknüpft <pb n="3"/>
                 <lb xml:id="p3-l1"/> sein müsse, worin ich
-				natürlich nicht eintreten konnte, selbst<lb xml:id="p3-l2"/> wenn <persName type="person" key="Hagenbuch Johannes">H.</persName> mir bestimmte Anträge in dieser Hinsicht gemacht<lb xml:id="p3-l3"/> hätte. Bei der
+				natürlich nicht eintreten konnte, selbst<lb xml:id="p3-l2"/> wenn <persName key="Hagenbuch Johannes">H.</persName> mir bestimmte Anträge in dieser Hinsicht gemacht<lb xml:id="p3-l3"/> hätte. Bei der
 				Unterredung nun, die ich, wie bemerkt, mit <lb xml:id="p3-l4"/>
-                <persName type="person" key="Hagenbuch Johannes">H.</persName> hatte, habe ich mich überzeugt, daß ich mit
+                <persName key="Hagenbuch Johannes">H.</persName> hatte, habe ich mich überzeugt, daß ich mit
 				demselben, <lb xml:id="p3-l5"/> der mancherlei Prätensionen macht, nicht in
-				Verbindung<lb xml:id="p3-l6"/> treten will <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> kann. Er bemerkte mir unter Andern,
-				wie<lb xml:id="p3-l7"/> er mit vielem Vergnügen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> gegen Honorar «Artikel über<lb xml:id="p3-l8"/>
-				gewisse Gegenstände <choice>
-                        <abbr>z. B.</abbr>
-                        <expan>zum Beispiel</expan>
-                    </choice> über die Organisation des Gerichts<lb break="no" xml:id="p3-l9"/>wesens <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> über juristische Materien recht gerne aufnehmen<lb xml:id="p3-l10"/> würde».
-				Vorschreiben kann ich mir aber vom Verleger nicht<lb xml:id="p3-l11"/> lassen: worüber ich schreiben
-				soll. Nicht wahr? <persName type="person" key="Hagenbuch Johannes">H.</persName> theilte<lb xml:id="p3-l12"/> mir dann
-				ferner mit (unter Bitte um tiefste Verschwie<lb break="no" xml:id="p3-l13"/>genheit – was in gewisser
-				Rücksicht besonders für <placeName type="place" key="Bern">Bern</placeName>
-                    <lb xml:id="p3-l14"/> nicht ohne
-				alle Bedeutung sein dürfte), daß er <persName type="person" key="Steiger Georg Peter Friedrich">Steiger</persName>
-                    <lb xml:id="p3-l15"/>
-                    <choice>
-                        <abbr>F.</abbr>
-                        <expan>Franken / Francs / Franchi / Gulden</expan>
-                    </choice> 2000 geboten habe, der die Annahme von dem Ausgan<lb break="no" xml:id="p3-l16"/>ge der
-					<placeName type="place" key="St. Gallen">St Galler</placeName> Wahlen abhängig gemacht
-				hat. Fallen<lb xml:id="p3-l17"/> diese so aus, daß <persName type="person" key="Steiger Georg Peter Friedrich">Steiger</persName> glaubt <placeName type="place" key="St. Gallen">St Gallen</placeName> nicht verlas<lb break="no" xml:id="p3-l18"/>sen zu dürfen, so will <persName type="person" key="Hagenbuch Johannes">H.</persName> sofort <persName type="person" key="Felber Peter Jakob">Felber</persName>
-				engagiren,<lb xml:id="p3-l19"/> der jedenfalls scheint annehmen zu wollen.
-				Außerdem<lb xml:id="p3-l20"/> hat <persName type="person" key="Hagenbuch Johannes">H.</persName> noch allerlei geschwätzt,
-				was mir es recht leb<lb break="no" xml:id="p3-l21"/>haft verdeutlichte, daß ich wenigstens nicht das<lb xml:id="p3-l22"/>
-				geringste Verlangen trage, <hi rend="underline">irgend wie</hi> mit ihm anzuknüpfen.<lb xml:id="p3-l23"/> Somit wäre
-				dieser Punkt zur allseitigen Beruhi<lb break="no" xml:id="p3-l24"/>gung regulirt, wie wir Geschäftsmänner
-				es zu sagen<lb xml:id="p3-l25"/> pflegen. <pb n="4"/>
+				Verbindung<lb xml:id="p3-l6"/> treten will <choice><abbr>u.</abbr><expan>und</expan></choice> kann. Er bemerkte mir unter Andern,
+				wie<lb xml:id="p3-l7"/> er mit vielem Vergnügen <choice><abbr>u.</abbr><expan>und</expan></choice> gegen Honorar «Artikel über<lb xml:id="p3-l8"/>
+				gewisse Gegenstände <choice><abbr>z. B.</abbr><expan>zum Beispiel</expan></choice> über die Organisation des Gerichts
+                <lb xml:id="p3-l9" break="no"/>wesens <choice><abbr>u.</abbr><expan>und</expan></choice> über juristische Materien recht gerne aufnehmen<lb xml:id="p3-l10" break="no"/> würde».
+				Vorschreiben kann ich mir aber vom Verleger nicht<lb xml:id="p3-l11" break="no"/> lassen: worüber ich schreiben
+				soll. Nicht wahr? <persName key="Hagenbuch Johannes">H.</persName> theilte<lb xml:id="p3-l12" break="no"/> mir dann
+				ferner mit (unter Bitte um tiefste Verschwie
+                <lb xml:id="p3-l13" break="no"/>genheit – was in gewisser
+				Rücksicht besonders für <placeName key="Bern">Bern</placeName> <lb xml:id="p3-l14" break="no"/> nicht ohne
+				alle Bedeutung sein dürfte), daß er <persName key="Steiger Georg Peter Friedrich">Steiger</persName> <lb xml:id="p3-l15" break="no"/>
+                <choice><abbr>F.</abbr><expan>Franken / Francs / Franchi / Gulden</expan></choice> 2000 geboten habe, der die Annahme von dem Ausgan
+                <lb xml:id="p3-l16" break="no"/>ge der
+					<placeName key="St. Gallen">St Galler</placeName> Wahlen abhängig gemacht
+				hat. Fallen<lb xml:id="p3-l17" break="no"/> diese so aus, daß <persName key="Steiger Georg Peter Friedrich">Steiger</persName> glaubt <placeName key="St. Gallen">St Gallen</placeName> nicht verlas
+                <lb xml:id="p3-l18" break="no"/>sen zu dürfen, so will <persName key="Hagenbuch Johannes">H.</persName> sofort <persName key="Felber Peter Jakob">Felber</persName>
+				engagiren,<lb xml:id="p3-l19" break="no"/> der jedenfalls scheint annehmen zu wollen.
+				Außerdem<lb xml:id="p3-l20" break="no"/> hat <persName key="Hagenbuch Johannes">H.</persName> noch allerlei geschwätzt,
+				was mir es recht leb
+                <lb xml:id="p3-l21" break="no"/>haft verdeutlichte, daß ich wenigstens nicht das<lb xml:id="p3-l22" break="no"/>
+				geringste Verlangen trage, <hi rend="underline">irgend wie</hi> mit ihm anzuknüpfen.<lb xml:id="p3-l23" break="no"/> Somit wäre
+				dieser Punkt zur allseitigen Beruhi
+                <lb xml:id="p3-l24" break="no"/>gung regulirt, wie wir Geschäftsmänner
+				es zu sagen<lb xml:id="p3-l25" break="no"/> pflegen. <pb n="4"/>
             </p>
       <p rend="indent" xml:id="K_0635_p6">
-                <lb xml:id="p4-l1"/>Ein anders noch <hi rend="underline">tieferes</hi> Geheimniß: <persName type="person" key="Zollinger">
+                <lb xml:id="p4-l1"/>Ein anders noch <hi rend="underline">tieferes</hi> Geheimniß: <persName key="Zollinger">
                     <note type="transcript">?</note> Zollinger</persName> hat von der<lb xml:id="p4-l2"/>
-                    <placeName type="place" key="Niederlande">Niederl. </placeName>
+                    <placeName key="Niederlande">Niederl. </placeName>
 					Gouvernement
-				in <placeName type="place" key="Java (RI)">Java</placeName> einen <hi rend="underline">sehr guten</hi> Ruf dorthin<lb xml:id="p4-l3"/> empfangen
-					<choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> scheint Lust zu haben, ihn nicht auszuschlagen.<lb xml:id="p4-l4"/> Er hat es
-				<hi rend="underline">nur</hi> <persName type="person" key="Bollier Rudolf">Bollier</persName> mitgetheilt, der
+				in <placeName key="Java (RI)">Java</placeName> einen <hi rend="underline">sehr guten</hi> Ruf dorthin<lb xml:id="p4-l3"/> empfangen
+					<choice><abbr>u.</abbr><expan>und</expan></choice> scheint Lust zu haben, ihn nicht auszuschlagen.<lb xml:id="p4-l4"/> Er hat es
+				<hi rend="underline">nur</hi> <persName key="Bollier Rudolf">Bollier</persName> mitgetheilt, der
 				natürlich Allem<lb xml:id="p4-l5"/> aufbietet, ihn zu halten.</p>
       <p rend="indent" xml:id="K_0635_p7">
                 <lb xml:id="p4-l6"/>Geheimnisse wüßte ich jetzt keine mehr, die ich Dir<lb xml:id="p4-l7"/> verrathen
-				könnte oder dürfte; denn selbst die größte<lb xml:id="p4-l8"/> Freundschaft muß das: <hi>sunt certi denique fines</hi> in ge<lb break="no" xml:id="p4-l9"/>wissen Dingen anerkennen.</p>
+				könnte oder dürfte; denn selbst die größte<lb xml:id="p4-l8"/> Freundschaft muß das: <hi>sunt certi denique fines</hi> in ge
+                <lb xml:id="p4-l9" break="no"/>wissen Dingen anerkennen.</p>
       <p rend="indent" xml:id="K_0635_p8">
                 <lb xml:id="p4-l10"/>Ich bin von Geschäften viel geplagt. Deine tragen<lb xml:id="p4-l11"/> Dir doch Blatt
-				an Blatt für den schon so viel- <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <lb xml:id="p4-l12"/> großblättrichen Lorbeerkranz des Ruhmes ein, meine<lb xml:id="p4-l13"/> zum großen Theil nicht einmal Geld, sondern
+				an Blatt für den schon so viel- <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p4-l12"/> großblättrichen Lorbeerkranz des Ruhmes ein, meine<lb xml:id="p4-l13"/> zum großen Theil nicht einmal Geld, sondern
 				nur Mühe.<lb xml:id="p4-l14"/> Du <hi rend="underline">hast</hi> (nach den Blättern könnte man nur sagen<lb xml:id="p4-l15"/>
 				«scheinst»; denn die Referate sind alle unter jeder Critic)<lb xml:id="p4-l16"/> über die Zollfrage
-				gut <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <hi rend="underline">
+				gut <choice><abbr>u.</abbr><expan>und</expan></choice> <hi rend="underline">
 					practisch</hi> gesprochen.</p>
       <p rend="indent" xml:id="K_0635_p9">
                 <lb xml:id="p4-l17"/>
-        <persName type="person" key="Brändli Benjamin">Brändli</persName> im Bett seit
+        <persName key="Brändli Benjamin">Brändli</persName> im Bett seit
 				14 Tagen <hi>denovo</hi>!!</p>
       <p rend="indent" xml:id="K_0635_p10">
                 <lb xml:id="p4-l18"/>
-        <persName type="person" key="Bollier Rudolf">Bollier</persName> befindet sich so
+        <persName key="Bollier Rudolf">Bollier</persName> befindet sich so
 				gut wie möglich.</p>
       <p rend="indent" xml:id="K_0635_p11">
                 <lb xml:id="p4-l19"/>
-        <persName type="person" key="Heiri">
-                    <note type="transcript">?</note> Heiri</persName> kam unwohl von <placeName type="place" key="Glarus">Glarus</placeName> zurück.</p>
-    </div>
-        </body>
-    <back>
+        <persName key="Heiri">
+                    <note type="transcript">?</note> Heiri</persName> kam unwohl von <placeName key="Glarus">Glarus</placeName> zurück.</p>
+    </body><back>
       <div type="closer">
         <p rend="indent" xml:id="K_0635_p12">
                     <lb xml:id="p4-l20"/>Grüsse mir Bekannte bestens. <date when="1849-05-27">Pfingsten</date>
-				werden<lb xml:id="p4-l21"/> wir uns in <placeName type="place" key="Bern (Stadt)">Bern</placeName> sehen, <hi>quod
+				werden<lb xml:id="p4-l21"/> wir uns in <placeName key="Bern (Stadt)">Bern</placeName> sehen, <hi>quod
 				deus bene vertat</hi>.</p>
         <p rend="indent" xml:id="K_0635_p13">
                     <lb xml:id="p4-l22"/>Adieu, mein Lieber. Stets Dein</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_0635_p14">
                     <lb xml:id="p4-l23"/>
 			G.
@@ -285,9 +140,7 @@
       <div type="dateline">
         <p rend="left" xml:id="K_0635_p15">
                     <lb xml:id="p4-l24"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
           <lb xml:id="p4-l25"/> am <date when="1849-05-04">4. Mai</date> (Abends 10 Uhr)</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

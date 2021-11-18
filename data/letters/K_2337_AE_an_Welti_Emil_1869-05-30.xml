@@ -1,318 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2337" n="105" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Emil Welti, Zürich, Sonntag, Mai 30, 1869</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.2#1000/1310#35*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Regierungsrat AG</item>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                        <item>Regierungsrat LU</item>
-                        <item>Eisenbahnstrecken Konzessionen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Welti Emil" type="addressee">Emil Welti</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1869-05-30">Sonntag, Mai 30, 1869</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-06-01" who="BF/SD"> transkribiert
-                
-            </change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-09-/14-08-28" who="BF"> provisorisch kommentiert
-                
-            </change>
-            <change when="2006-12-05" who="SM">Konvertierung provisorisch nachbearbeitet
-                
-            </change>
-            <change when="2006-12-20" who="WB">Konvertierung nachbearbeitet
-                
-            </change>
-            <change when="2007-02-05" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-04-2007; 10-03-2007; 28-02-/19-16" who="BF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-03-23" who="WB">indexiert
-                
-            </change>
-            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-/17-16" who="BF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-05-19" who="SK">Original überprüft und Unterschrift angepasst
-                
-            </change>
-            <change when="2007-06-08" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-25" who="BF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-12" who="BF">Umsetzung Lektorat MK 2
-                
-            </change>
-            <change when="2007-08-07" who="BF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2007-08-29" who="BF">Korrekturen 3 Haberthür übertragen
-                
-            </change>
-            <change when="2008-07-29" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-15" who="HA">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-04" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-09-01" who="BP">e-Edition: Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-28" who="AW">Migrationsverifizierung
-                
-            </change>
-            <change when="2014-11-18" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-18" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2337" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Emil Welti, Zürich, Sonntag, 30. Mai 1869</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.2#1000/1310#35*</idno><idno>J I.2</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Regierungsrat AG</term><term>Gotthardbahnprojekt</term><term>Öffentliche Beteiligungen (Infrastruktur)</term><term>Regierungsrat LU</term><term>Eisenbahnstrecken Konzessionen</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term> Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Welti Emil" type="sender">Emil Welti</persName><placeName>Zürich</placeName><date when="1869-05-30">30. Mai 1869</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2337_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
+        <p rend="right" xml:id="K_2337_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
           <date when="1869-05-30">30. <hi>Mai</hi> 1869</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_2337_p2">
-                    <lb xml:id="p1-l2"/>Hochgeachteter Herr Bundespräsident!</p>
+        <p rend="left" xml:id="K_2337_p2"><lb xml:id="p1-l2"/>Hochgeachteter Herr Bundespräsident!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2337_p3">
-                <lb xml:id="p1-l3"/>Ich beeile mich, Ihnen folgende Mit<lb break="no" xml:id="p1-l4"/>theilung 
-zu machen: <seg type="com">
-                    <choice>
-                            <abbr>Hr.</abbr>
-                            <expan>Herr</expan>
-                        </choice> <choice>
-                            <abbr>RR.</abbr>
-                            <expan>RegierungsRath</expan>
-                        </choice> <persName type="person" key="Künzli Arnold">Künzli</persName>
-                    <note xml:id="K_2337_c1">
-                        <persName type="person" key="Künzli Arnold">Arnold Künzli</persName> (1832–1908), Regierungsrat (<placeName type="place" key="Aargau">AG</placeName>).</note>
-                </seg> hat, «in<lb xml:id="p1-l5"/>
-Folge einer im Schooße des <placeName type="place" key="Aargau">Aargauischen</placeName> Re<lb break="no" xml:id="p1-l6"/>gierungsrathes
+    </front><body>
+      <p rend="indent" xml:id="K_2337_p3"><lb xml:id="p1-l3"/>Ich beeile mich, Ihnen folgende Mit<lb xml:id="p1-l4" break="no"/>theilung 
+zu machen: <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <choice><abbr>RR.</abbr><expan>RegierungsRath</expan></choice> <persName key="Künzli Arnold">Künzli</persName><note type="com" xml:id="K_2337_c1"><persName key="Künzli Arnold">Arnold Künzli</persName> (1832–1908), Regierungsrat (<placeName key="Aargau">AG</placeName>).</note> hat, «in<lb xml:id="p1-l5" break="no"/>
+Folge einer im Schooße des <placeName key="Aargau">Aargauischen</placeName> Re<lb xml:id="p1-l6" break="no"/>gierungsrathes
  
-Statt gehabten Berathung»<lb xml:id="p1-l7"/>
-den <seg type="com">
-                    <choice>
-                            <abbr>Hrn.</abbr>
-                            <expan>Herrn</expan>
-                        </choice> <persName type="person" key="Weber Jost">Jost Weber</persName>
-                    <note xml:id="K_2337_c2">
-                        <persName type="person" key="Weber Jost">Jost Weber</persName> (1823–1889), Schultheiss und Ständerat (<placeName type="place" key="Luzern">LU</placeName>), Bundesrichter.</note>
-                </seg>, «Schultheiß des Cantons<lb xml:id="p1-l8"/>
-                    <placeName type="place" key="Luzern">Luzern</placeName>», auf <date when="1869-06-01">künftigen Dienstag (1. Juni)</date>
-                    <lb xml:id="p1-l9"/>
-zu einer <seg type="com">Versammlung nach <placeName type="place" key="Olten">Olten</placeName> zur Be<lb break="no" xml:id="p1-l10"/>sprechung 
-der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahnfrage eingela<lb break="no" xml:id="p1-l11"/>den<note xml:id="K_2337_c3">
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 1. Juni 1869.</note>
-                </seg> &amp; ihm dabei bemerkt, daß eine gleiche<lb xml:id="p1-l12"/>
-Einladung auch an Magistraten in <placeName type="place" key="Bern">Bern</placeName>
-                    <lb xml:id="p1-l13"/>
-( <seg type="ref">
-                    <persName type="person" key="Weber Johann">Weber</persName>
-                    <ref type="kbp">→ Johann Weber</ref>
-                </seg> ), <placeName type="place" key="Solothurn">Solothurn</placeName>, <placeName type="place" key="Basel-Landschaft">Basellandschaft</placeName>, <placeName type="place" key="Zürich">Zürich</placeName> ( <seg type="com">
-                    <persName type="person" key="Scherer Johann Jakob">Scherer</persName>
-                    <note xml:id="K_2337_c4">
-                        <persName type="person" key="Scherer Johann Jakob">Johann Jakob Scherer</persName> (1825–1878), Regierungsratspräsident (<placeName type="place" key="Zürich">ZH</placeName>).</note>
-                </seg> ),<lb xml:id="p1-l14"/>
-                    <placeName type="place" key="Schaffhausen">Schaffhausen</placeName> &amp; <placeName type="place" key="Thurgau">Thurgau</placeName> gerichtet worden sei.<lb xml:id="p1-l15"/>
-                    <seg type="com">
-                    <placeName type="place" key="Basel-Stadt">Baselstadt</placeName>, <placeName type="place" key="Uri">Uri</placeName> &amp; <placeName type="place" key="Schwyz">Schwyz</placeName>, obgleich sie erheb<lb break="no" xml:id="p1-l16"/>liche 
-  Subventionen beschlossen haben<note xml:id="K_2337_c5">1865 hatte die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung einen Beteiligungsplan aufgestellt, zu welchem verschiedene ihrer Mitglieder Subventionen zusicherten, darunter auch die Kantone <placeName type="place" key="Basel-Stadt">Basel-Stadt</placeName> (1,2 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken), <placeName type="place" key="Uri">Uri</placeName> (1 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken) und <placeName type="place" key="Schwyz">Schwyz</placeName> (1 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken). <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 8. November 1869<!--, Traktandum 6-->; <ref type="sum" target="Gotthardvereinigung_p7"><!-- → Band 1, S. 195--></ref>.</note>
-                </seg>, blieben <pb n="2"/>
-                    <lb xml:id="p2-l1"/>
-uneingeladen. Wohin ein derartiges Gebah<lb break="no" xml:id="p2-l2"/>ren 
-führen muß, liegt auf flacher Hand!<lb xml:id="p2-l3"/>
-                    <persName type="person" key="Weber Jost">Weber</persName> hat der Regierung von <placeName type="place" key="Luzern">Luzern</placeName>
-                    <lb xml:id="p2-l4"/>
-von der Einladung, die an ihn als Schultheiß<lb xml:id="p2-l5"/>
-gerichtet wurde, Mittheilung gemacht. Der<lb xml:id="p2-l6"/>
-Schritt <persName type="person" key="Künzli Arnold">Künzli</persName> habe in dieser Behörde eine<lb xml:id="p2-l7"/>
-eigentliche Entrüstung hervorgerufen.<lb xml:id="p2-l8"/>
-                    <seg type="ref">
-                    <persName type="person" key="Wapf Anton">Wapf</persName>
-                    <ref type="kbp">→ Anton Wapf</ref>
-                </seg> habe den Antrag gestellt, die Er<lb break="no" xml:id="p2-l9"/>wartung 
-gegen <persName type="person" key="Weber Johann">Weber</persName> auszusprechen,<lb xml:id="p2-l10"/>
-daß er der Einladung keine Folge gebe.<lb xml:id="p2-l11"/>
-Was <persName type="person" key="Weber Johann">Weber</persName> thun wird, steht dahin. Ich<lb xml:id="p2-l12"/>
-habe <seg type="ref">Director <persName type="person" key="Widmer Johann Conrad">Widmer</persName>
-                    <ref type="kbp">→ Johann Conrad Widmer</ref>
-                </seg> ersucht, <seg type="ref">
-                    <persName type="person" key="Anderwert Fridolin">Ander<lb break="no" xml:id="p2-l13"/>wert</persName>
-                    <ref type="kbp">→ Fridolin Anderwert</ref>
-                </seg> von der Theilnahme abzumahnen.<lb xml:id="p2-l14"/>
-        Was wird <seg type="com">
-                    <persName type="person" key="Vigier (von Steinbrugg) Josef Wilhelm">Vigier</persName>
-                    <note xml:id="K_2337_c6">
-                        <persName type="person" key="Vigier (von Steinbrugg) Josef Wilhelm">Josef Wilhelm Vigier</persName> (1823–1886), Landammann und Ständerat (<placeName type="place" key="Solothurn">SO</placeName>), Bundesrichter, Ersatzmann des engeren Ausschusses der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung, Verwaltungsratspräsident der <placeName type="place" key="Solothurn">Solothurner</placeName> Bank.</note>
-                </seg> thun, der ja Mitglied<lb xml:id="p2-l15"/>
-des <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>ausschusses ist &amp;, wenn er es<lb xml:id="p2-l16"/>
-für nöthig erachtet, jeden Augenblick<lb xml:id="p2-l17"/>
-Schritte thun kann, um die Einberufung der<lb xml:id="p2-l18"/>
-großen ständigen Commission zu veranlas<lb break="no" xml:id="p2-l19"/>sen? 
-Und <placeName type="place" key="Basel-Landschaft">Baselland</placeName> &amp; <placeName type="place" key="Thurgau">Thurgau</placeName>, welche <pb n="3"/>
-                    <lb xml:id="p3-l1"/>
-nicht einen Rappen Subvention geben! Wahr<lb break="no" xml:id="p3-l2"/>scheinlich 
-ist die Mittheilung, welche Sie mir<lb xml:id="p3-l3"/>
-                    <date when="1869-05-26">letzten Mitwoch</date> von einem bevorstehenden<lb xml:id="p3-l4"/>
-Conventikel in <placeName type="place" key="Olten">Olten</placeName> gemacht haben, auf<lb xml:id="p3-l5"/>
-diesen Sonderbund zu beziehen. <seg type="ref">Vielleicht<lb xml:id="p3-l6"/>
+Statt gehabten Berathung»<lb xml:id="p1-l7" break="no"/>
+den <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <persName key="Weber Jost">Jost Weber</persName><note type="com" xml:id="K_2337_c2"><persName key="Weber Jost">Jost Weber</persName> (1823–1889), Schultheiss und Ständerat (<placeName key="Luzern">LU</placeName>), Bundesrichter.</note>, «Schultheiß des Cantons<lb xml:id="p1-l8" break="no"/><placeName key="Luzern">Luzern</placeName>», auf <date when="1869-06-01">künftigen Dienstag (1. Juni)</date> <lb xml:id="p1-l9" break="no"/>
+zu einer Versammlung nach <placeName key="Olten">Olten</placeName> zur Be<lb xml:id="p1-l10" break="no"/>sprechung 
+der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahnfrage eingela<lb xml:id="p1-l11" break="no"/>den<note type="com" xml:id="K_2337_c3"><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 1. Juni 1869.</note> &amp; ihm dabei bemerkt, daß eine gleiche<lb xml:id="p1-l12" break="no"/>
+Einladung auch an Magistraten in <placeName key="Bern">Bern</placeName> <lb xml:id="p1-l13" break="no"/>
+( <rs><persName key="Weber Johann">Weber</persName></rs> ), <placeName key="Solothurn">Solothurn</placeName>, <placeName key="Basel-Landschaft">Basellandschaft</placeName>, <placeName key="Zürich">Zürich</placeName> ( <persName key="Scherer Johann Jakob">Scherer</persName><note type="com" xml:id="K_2337_c4"><persName key="Scherer Johann Jakob">Johann Jakob Scherer</persName> (1825–1878), Regierungsratspräsident (<placeName key="Zürich">ZH</placeName>).</note> ),<lb xml:id="p1-l14" break="no"/><placeName key="Schaffhausen">Schaffhausen</placeName> &amp; <placeName key="Thurgau">Thurgau</placeName> gerichtet worden sei.<lb xml:id="p1-l15" break="no"/> <placeName key="Basel-Stadt">Baselstadt</placeName>, <placeName key="Uri">Uri</placeName> &amp; <placeName key="Schwyz">Schwyz</placeName>, obgleich sie erheb<lb xml:id="p1-l16" break="no"/>liche 
+  Subventionen beschlossen haben<note type="com" xml:id="K_2337_c5">1865 hatte die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung einen Beteiligungsplan aufgestellt, zu welchem verschiedene ihrer Mitglieder Subventionen zusicherten, darunter auch die Kantone <placeName key="Basel-Stadt">Basel-Stadt</placeName> (1,2 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken), <placeName key="Uri">Uri</placeName> (1 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken) und <placeName key="Schwyz">Schwyz</placeName> (1 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken). <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 8. November 1869<!--, Traktandum 6-->; <ref type="sum" target="Gotthardvereinigung_p7"><!-- → Band 1, S. 195--></ref>.</note>, blieben <pb n="2"/><lb xml:id="p2-l1" break="no"/>
+uneingeladen. Wohin ein derartiges Gebah<lb xml:id="p2-l2" break="no"/>ren 
+führen muß, liegt auf flacher Hand!<lb xml:id="p2-l3" break="no"/>
+<persName key="Weber Jost">Weber</persName> hat der Regierung von <placeName key="Luzern">Luzern</placeName> <lb xml:id="p2-l4" break="no"/>
+von der Einladung, die an ihn als Schultheiß<lb xml:id="p2-l5" break="no"/>
+gerichtet wurde, Mittheilung gemacht. Der<lb xml:id="p2-l6" break="no"/>
+Schritt <persName key="Künzli Arnold">Künzli</persName> habe in dieser Behörde eine<lb xml:id="p2-l7" break="no"/>
+eigentliche Entrüstung hervorgerufen.<lb xml:id="p2-l8" break="no"/> <rs><persName key="Wapf Anton">Wapf</persName></rs> habe den Antrag gestellt, die Er<lb xml:id="p2-l9" break="no"/>wartung 
+gegen <persName key="Weber Johann">Weber</persName> auszusprechen,<lb xml:id="p2-l10" break="no"/>
+daß er der Einladung keine Folge gebe.<lb xml:id="p2-l11" break="no"/>
+Was <persName key="Weber Johann">Weber</persName> thun wird, steht dahin. Ich<lb xml:id="p2-l12" break="no"/>
+habe <rs>Director <persName key="Widmer Johann Conrad">Widmer</persName></rs> ersucht, <rs><persName key="Anderwert Fridolin">Ander<lb xml:id="p2-l13" break="no"/>wert</persName></rs> von der Theilnahme abzumahnen.<lb xml:id="p2-l14" break="no"/>
+        Was wird <persName key="Vigier (von Steinbrugg) Josef Wilhelm">Vigier</persName><note type="com" xml:id="K_2337_c6"><persName key="Vigier (von Steinbrugg) Josef Wilhelm">Josef Wilhelm Vigier</persName> (1823–1886), Landammann und Ständerat (<placeName key="Solothurn">SO</placeName>), Bundesrichter, Ersatzmann des engeren Ausschusses der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung, Verwaltungsratspräsident der <placeName key="Solothurn">Solothurner</placeName> Bank.</note> thun, der ja Mitglied<lb xml:id="p2-l15" break="no"/>
+des <placeName key="St. Gotthard (Pass)">Gotthard</placeName>ausschusses ist &amp;, wenn er es<lb xml:id="p2-l16" break="no"/>
+für nöthig erachtet, jeden Augenblick<lb xml:id="p2-l17" break="no"/>
+Schritte thun kann, um die Einberufung der<lb xml:id="p2-l18" break="no"/>
+großen ständigen Commission zu veranlas<lb xml:id="p2-l19" break="no"/>sen? 
+Und <placeName key="Basel-Landschaft">Baselland</placeName> &amp; <placeName key="Thurgau">Thurgau</placeName>, welche <pb n="3"/><lb xml:id="p3-l1" break="no"/>
+nicht einen Rappen Subvention geben! Wahr<lb xml:id="p3-l2" break="no"/>scheinlich 
+ist die Mittheilung, welche Sie mir<lb xml:id="p3-l3" break="no"/><date when="1869-05-26">letzten Mitwoch</date> von einem bevorstehenden<lb xml:id="p3-l4" break="no"/>
+Conventikel in <placeName key="Olten">Olten</placeName> gemacht haben, auf<lb xml:id="p3-l5" break="no"/>
+diesen Sonderbund zu beziehen. <rs>Vielleicht<lb xml:id="p3-l6"/>
 haben Sie bereits Schritte gegen dieses tolle<lb xml:id="p3-l7"/>
 Gebahren gethan oder gedenken doch noch<lb xml:id="p3-l8"/>
-solche vorzunehmen?<ref type="letter" target="K_2341"><!-- → Nr. 106--></ref>
-                </seg> </p>
-      <p rend="indent" xml:id="K_2337_p4">
-                <lb xml:id="p3-l9"/>Ich lege diesen Zeilen die neuste Correspon<lb break="no" xml:id="p3-l10"/>denz  
-zwischen <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-                    <seg type="ref">
-                    <persName type="person" key="Feer-Herzog Carl">Feer-Herzog</persName>
-                    <ref type="kbp">→ Carl Feer-Herzog</ref>
-                </seg> &amp; mir <seg type="com">(<choice>
-                            <abbr>act.</abbr>
-                            <expan>actum (Akte)</expan>
-                        </choice> 180<lb xml:id="p3-l11"/>
-  bis 185) bei.<note xml:id="K_2337_c7">
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice>Procès Verbal von Unterhandlungen Carl Feer-Herzogs in Genua, 22. Mai 1869 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_005</ref><!--_03--> ); Correspondance Italienne, 20. Mai 1869 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_005</ref><!--_03--> ); <ref type="telegram">Telegramm Carl Feer-Herzog an Escher, 26. Mai 1869 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_005<!--_03--></ref>)</ref>; <ref type="telegram">Telegramm Escher an Carl Feer-Herzog, 27. Mai 1869 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_005<!--_03--></ref>)</ref>; <ref type="telegram">Telegramm Carl Feer-Herzog an Escher, 28. Mai 1869 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_005<!--_03--></ref>)</ref>; <ref type="letter" target="K_3461"><!--Brief Carl Feer-Herzog an Escher, 26. Mai 1869 (SBB Historic VGB_GB_SBBGB01_005<!-\-_03-\->)--></ref>; <ref type="letter" target="K_3462"><!--Brief Carl Feer-Herzog an Escher, 27. Mai 1869 (SBB Historic VGB_GB_SBBGB01_005<!-\-_03-\->)--></ref>.</note>
-                </seg> Die Einsicht derselben wird am<lb xml:id="p3-l12"/>
-        besten zu Ihrer Orientirung über die<lb xml:id="p3-l13"/>
-                    <seg type="com">Kundgebungen von <placeName type="place" key="Genua (I)">Genua</placeName>
-                    <note xml:id="K_2337_c8">Ausgehend von <placeName type="place" key="Italien (Königreich)">italienischen</placeName> Blättern, erschienen in der Schweizer Presse Informationen über Verhandlungen zwischen Delegierten der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung und dem <placeName type="place" key="Genua (I)">Genueser</placeName> Gotthardkomitee, in denen konkrete Aussagen über bestimmte technische und finanzielle Fragen getroffen worden sein sollten. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 30. Mai 1869.</note>
-                </seg> beitragen,<lb xml:id="p3-l14"/>
-welche jetzt die Runde durch die Schweizeri<lb break="no" xml:id="p3-l15"/>sche 
-Presse machen. Ich bedaure, daß sich <choice>
-                        <abbr>Hr.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <lb xml:id="p3-l16"/>
-                    <persName type="person" key="Feer-Herzog Carl">Feer-Herzog</persName> in dem <hi>procès-verbal</hi> (180. a)<lb xml:id="p3-l17"/>
-so tief in die <hi rend="underline">Subventions</hi>frage eingelas<lb break="no" xml:id="p3-l18"/>sen 
-hat, die eigentlich anderswo &amp; zwischen<lb xml:id="p3-l19"/>
-andern Personen zu erörtern wäre! Darf <pb n="4"/>
-                    <lb xml:id="p4-l1"/>
-ich Sie bitten, mir diese Acten <hi rend="underline">mit möglich<lb break="no" xml:id="p4-l2"/>ster 
+solche vorzunehmen?<ref type="letter" target="K_2341"><!-- → Nr. 106--></ref></rs> </p>
+      <p rend="indent" xml:id="K_2337_p4"><lb xml:id="p3-l9"/>Ich lege diesen Zeilen die neuste Correspon<lb xml:id="p3-l10" break="no"/>denz  
+zwischen <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice> <rs><persName key="Feer-Herzog Carl">Feer-Herzog</persName></rs> &amp; mir (<choice><abbr>act.</abbr><expan>actum (Akte)</expan></choice> 180<lb xml:id="p3-l11"/>
+  bis 185) bei.<note type="com" xml:id="K_2337_c7"><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice>Procès Verbal von Unterhandlungen Carl Feer-Herzogs in Genua, 22. Mai 1869 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_005</ref><!--_03--> ); Correspondance Italienne, 20. Mai 1869 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_005</ref><!--_03--> ); <ref type="telegram">Telegramm Carl Feer-Herzog an Escher, 26. Mai 1869 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_005<!--_03--></ref>)</ref>; <ref type="telegram">Telegramm Escher an Carl Feer-Herzog, 27. Mai 1869 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_005<!--_03--></ref>)</ref>; <ref type="telegram">Telegramm Carl Feer-Herzog an Escher, 28. Mai 1869 (<ref type="lit">SBB Historic VGB_GB_SBBGB01_005<!--_03--></ref>)</ref>; <ref type="letter" target="K_3461"><!--Brief Carl Feer-Herzog an Escher, 26. Mai 1869 (SBB Historic VGB_GB_SBBGB01_005<!-\-_03-\->)--></ref>; <ref type="letter" target="K_3462"><!--Brief Carl Feer-Herzog an Escher, 27. Mai 1869 (SBB Historic VGB_GB_SBBGB01_005<!-\-_03-\->)--></ref>.</note> Die Einsicht derselben wird am<lb xml:id="p3-l12" break="no"/>
+        besten zu Ihrer Orientirung über die<lb xml:id="p3-l13" break="no"/> Kundgebungen von <placeName key="Genua (I)">Genua</placeName><note type="com" xml:id="K_2337_c8">Ausgehend von <placeName key="Italien (Königreich)">italienischen</placeName> Blättern, erschienen in der Schweizer Presse Informationen über Verhandlungen zwischen Delegierten der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung und dem <placeName key="Genua (I)">Genueser</placeName> Gotthardkomitee, in denen konkrete Aussagen über bestimmte technische und finanzielle Fragen getroffen worden sein sollten. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 30. Mai 1869.</note> beitragen,<lb xml:id="p3-l14" break="no"/>
+welche jetzt die Runde durch die Schweizeri<lb xml:id="p3-l15" break="no"/>sche 
+Presse machen. Ich bedaure, daß sich <choice><abbr>Hr.</abbr><expan>Herr</expan></choice> <lb xml:id="p3-l16" break="no"/><persName key="Feer-Herzog Carl">Feer-Herzog</persName> in dem <hi>procès-verbal</hi> (180. a)<lb xml:id="p3-l17" break="no"/>
+so tief in die <hi rend="underline">Subventions</hi>frage eingelas<lb xml:id="p3-l18" break="no"/>sen 
+hat, die eigentlich anderswo &amp; zwischen<lb xml:id="p3-l19" break="no"/>
+andern Personen zu erörtern wäre! Darf <pb n="4"/><lb xml:id="p4-l1" break="no"/>
+ich Sie bitten, mir diese Acten <hi rend="underline">mit möglich<lb xml:id="p4-l2" break="no"/>ster 
 Beförderung</hi> zurückzusenden. </p>
-      <p rend="indent" xml:id="K_2337_p5">
-                <lb xml:id="p4-l3"/> <seg type="com">Ich schließe auch die <placeName type="place" key="Tessin">Tessiner</placeName>conzession sammt<lb xml:id="p4-l4"/>
+      <p rend="indent" xml:id="K_2337_p5"><lb xml:id="p4-l3"/> Ich schließe auch die <placeName key="Tessin">Tessiner</placeName>conzession sammt<lb xml:id="p4-l4"/>
 dem Berichte der Großrathscommission diesem<lb xml:id="p4-l5"/>
-          Schreiben bei.<note xml:id="K_2337_c9">Beilagen nicht überliefert. – Am <date when="1869-05-15">15. Mai 1869</date> erlangte der Ausschuss der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung durch Beschluss des Grossen Rates des Kantons <placeName type="place" key="Tessin">Tessin</placeName> die Konzession für den Bau und Betrieb einer Eisenbahn von <placeName type="place" key="Biasca">Biasca</placeName> bis an die Grenze zum Kanton <placeName type="place" key="Uri">Uri</placeName> und von <placeName type="place" key="Lugano">Lugano</placeName> bis <placeName type="place" key="Bellinzona">Bellinzona</placeName>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="www" target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?ID=10006411">Konzession an das Gotthardkomite, des Vorrechtes für den Bau einer Eisenbahn von Biasca bis an die Grenze Tessins gegen Uri, und von Lugano bis Bellinzona (vom 15. Mai 1869), in: <ref type="lit">BBl</ref> 1870 I, S. 109–118</ref>; <ref type="www" target="http://www.sbt.ti.ch/bcbweb/vgc/ricerca/ricerca/visualizza.jsp?r_order=/images/vgc/web/1869/soapr/05.14%2C341.d.362.s1">
-                            <ref type="lit">Processi verbali del Gran Consiglio</ref>, 14. Mai 1869 (S. 349–352)</ref>; <ref type="letter" target="K_3400"><!-- → Nr. 102--></ref>.</note>
-                </seg> Sie werden bemerkt haben,<lb xml:id="p4-l6"/> <seg type="com">in welch' elegische Stimmung der freie Rhätier<lb xml:id="p4-l7"/>
+          Schreiben bei.<note type="com" xml:id="K_2337_c9">Beilagen nicht überliefert. – Am <date when="1869-05-15">15. Mai 1869</date> erlangte der Ausschuss der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung durch Beschluss des Grossen Rates des Kantons <placeName key="Tessin">Tessin</placeName> die Konzession für den Bau und Betrieb einer Eisenbahn von <placeName key="Biasca">Biasca</placeName> bis an die Grenze zum Kanton <placeName key="Uri">Uri</placeName> und von <placeName key="Lugano">Lugano</placeName> bis <placeName key="Bellinzona">Bellinzona</placeName>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref target="http://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc.do?ID=10006411">Konzession an das Gotthardkomite, des Vorrechtes für den Bau einer Eisenbahn von Biasca bis an die Grenze Tessins gegen Uri, und von Lugano bis Bellinzona (vom 15. Mai 1869), in: <ref type="lit">BBl</ref> 1870 I, S. 109–118</ref>; <ref target="http://www.sbt.ti.ch/bcbweb/vgc/ricerca/ricerca/visualizza.jsp?r_order=/images/vgc/web/1869/soapr/05.14%2C341.d.362.s1"><ref type="lit">Processi verbali del Gran Consiglio</ref>, 14. Mai 1869 (S. 349–352)</ref>; <ref type="letter" target="K_3400"><!-- → Nr. 102--></ref>.</note> Sie werden bemerkt haben,<lb xml:id="p4-l6"/> in welch' elegische Stimmung der freie Rhätier<lb xml:id="p4-l7"/>
 um der Stellung willen gerathen ist, die<lb xml:id="p4-l8"/>
-wir im <placeName type="place" key="Tessin">Tessin</placeName> in Folge der Auswirkung der<lb xml:id="p4-l9"/>
-Conzession gewonnen haben.<note xml:id="K_2337_c10">Der «Freie Rhätier» stellte fest, dass die <placeName type="place" key="Ostschweiz">Ostschweiz</placeName> nun den Kanton <placeName type="place" key="Tessin">Tessin</placeName> und somit das <placeName type="place" key="Lukmanier (Pass)">Lukmanier</placeName>projekt aufgeben müsse. <placeName type="place" key="Splügen (Pass)">Splügen</placeName>, <placeName type="place" key="Septimerpass">Septimer</placeName> oder eventuell <placeName type="place" key="Albula (Pass)">Albula</placeName> stünden als neue Wege vor ihnen. Zwar werde es schwer sein, <bibl>die neue Straße anzubauen, zweifelhaft der Erfolg</bibl><!--, allein wir stehen aufrecht und nehmen getrost den Bündneralpstock wieder zur Hand, [...] und indem wir den Stecken über dem Haupte schwingen,-->, doch <bibl>rufen wir frisch und unverzagt neuerdings und werden es fort und fort rufen: Nit luk lan!!</bibl>. <ref type="lit">Der freie Rhätier</ref>, 30. Mai 1869. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Der freie Rhätier</ref>, 29. Mai 1869<!--; <ref type="lit">NZZ</ref>, 1. Juni 1869-->. </note>
-                </seg> </p>
-      <p rend="indent" xml:id="K_2337_p6">
-                <lb xml:id="p4-l10"/>Um allen den Verdrehungen, denen<lb xml:id="p4-l11"/>
+wir im <placeName key="Tessin">Tessin</placeName> in Folge der Auswirkung der<lb xml:id="p4-l9"/>
+Conzession gewonnen haben.<note type="com" xml:id="K_2337_c10">Der «Freie Rhätier» stellte fest, dass die <placeName key="Ostschweiz">Ostschweiz</placeName> nun den Kanton <placeName key="Tessin">Tessin</placeName> und somit das <placeName key="Lukmanier (Pass)">Lukmanier</placeName>projekt aufgeben müsse. <placeName key="Splügen (Pass)">Splügen</placeName>, <placeName key="Septimerpass">Septimer</placeName> oder eventuell <placeName key="Albula (Pass)">Albula</placeName> stünden als neue Wege vor ihnen. Zwar werde es schwer sein, <orig>die neue Straße anzubauen, zweifelhaft der Erfolg</orig><!--, allein wir stehen aufrecht und nehmen getrost den Bündneralpstock wieder zur Hand, [...] und indem wir den Stecken über dem Haupte schwingen,-->, doch <orig>rufen wir frisch und unverzagt neuerdings und werden es fort und fort rufen: Nit luk lan!!</orig>. <ref type="lit">Der freie Rhätier</ref>, 30. Mai 1869. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Der freie Rhätier</ref>, 29. Mai 1869<!--; <ref type="lit">NZZ</ref>, 1. Juni 1869-->. </note> </p>
+      <p rend="indent" xml:id="K_2337_p6"><lb xml:id="p4-l10"/>Um allen den Verdrehungen, denen<lb xml:id="p4-l11"/>
 das Verhältniß der Bahngesellschaften zu<lb xml:id="p4-l12"/>
-der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung gegenwärtig<lb xml:id="p4-l13"/>
-ausgesetzt ist, zu begegnen, <seg type="com">habe ich ein<lb xml:id="p4-l14"/>
-  Schreiben der beiden Bahnen an den <placeName type="place" key="St. Gotthard (Pass)">Gott<lb break="no" xml:id="p4-l15"/>hard</placeName>ausschuß  
-abgefaßt, das demnächst ver<lb break="no" xml:id="p4-l16"/>öffentlicht 
-werden wird &amp; zur Berichti<lb break="no" xml:id="p4-l17"/>gung 
-der Begriffe wenigstens derer, die<lb xml:id="p4-l18"/>
-nicht ganz verrannt sind, beitragen sollte.<note xml:id="K_2337_c11">Das im Finanzplan vom März 1869 vorgesehene veränderte Beteiligungsmodell von der <ref type="kbe"/>schweizerischen Nordostbahn und der <ref type="kbe"/>Schweizerischen Centralbahn stiess auf Kritik, welcher die beiden Bahngesellschaften durch das hier erwähnte, auf den <date when="1869-05-24">24. Mai</date> datierte Schreiben antworteten. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="third-party-letter">Schreiben Dir. NOB / Dir. SCB an Ausschuss Gotthardvereinigung, 24. Mai 1869 (<ref type="lit">StAAG R04.B03c/0079</ref>)</ref>; <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 28. Mai 1869<!--, Traktandum 5-->; <ref type="lit">NZZ</ref>, 2. Juni 1869; <ref type="sum" target="Gotthardvereinigung_p43"><!-- → Band 1, S. 207--></ref>.</note>
-                </seg> </p>
-    </div>
-        </body>
-    <back>
+der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung gegenwärtig<lb xml:id="p4-l13"/>
+ausgesetzt ist, zu begegnen, habe ich ein<lb xml:id="p4-l14"/>
+  Schreiben der beiden Bahnen an den <placeName key="St. Gotthard (Pass)">Gott<lb xml:id="p4-l15" break="no"/>hard</placeName>ausschuß  
+abgefaßt, das demnächst ver<lb xml:id="p4-l16" break="no"/>öffentlicht 
+werden wird &amp; zur Berichti<lb xml:id="p4-l17" break="no"/>gung 
+der Begriffe wenigstens derer, die<lb xml:id="p4-l18" break="no"/>
+nicht ganz verrannt sind, beitragen sollte.<note type="com" xml:id="K_2337_c11">Das im Finanzplan vom März 1869 vorgesehene veränderte Beteiligungsmodell von der schweizerischen Nordostbahn und der Schweizerischen Centralbahn stiess auf Kritik, welcher die beiden Bahngesellschaften durch das hier erwähnte, auf den <date when="1869-05-24">24. Mai</date> datierte Schreiben antworteten. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="third-party-letter">Schreiben Dir. NOB / Dir. SCB an Ausschuss Gotthardvereinigung, 24. Mai 1869 (<ref type="lit">StAAG R04.B03c/0079</ref>)</ref>; <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 28. Mai 1869<!--, Traktandum 5-->; <ref type="lit">NZZ</ref>, 2. Juni 1869; <ref type="sum" target="Gotthardvereinigung_p43"><!-- → Band 1, S. 207--></ref>.</note> </p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2337_p7">
-                    <lb xml:id="p4-l19"/>In ausgezeichneter Hochachtung </p>
-        <p rend="center" xml:id="K_2337_p8">
-                    <lb xml:id="p4-l20"/>Ihr ergebener </p>
+        <p rend="indent" xml:id="K_2337_p7"><lb xml:id="p4-l19"/>In ausgezeichneter Hochachtung </p>
+        <p rend="center" xml:id="K_2337_p8"><lb xml:id="p4-l20"/>Ihr ergebener </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2337_p9">
-                    <lb xml:id="p4-l21"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2337_p9"><lb xml:id="p4-l21"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

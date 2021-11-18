@@ -1,122 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1250" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Bruno Hildebrand an Alfred Escher, Zürich, Sonntag, September 11, 1853</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#266*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Bau und Technik</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Hildebrand Bruno" type="sender">Bruno Hildebrand</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1853-09-11">Sonntag, September 11, 1853</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-02-15" who="AI">Migration nach XML
-                
-            </change>
-            <change when="2013-06-05" who="CD">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-08" who="FG">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-15" who="RO">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-07-22" who="JS">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-08-14" who="DG">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2013-08-16" who="BB">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2013-10-25" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-12-11" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
-        <p rend="left" xml:id="K_1250_p1">
-                    <lb xml:id="p1-l1"/>
-          <fw>
-            <placeName type="place" key="Zürich (Stadt)">ZÜRICH</placeName>
-            <placeName type="place" key="Bodensee">BODENSEE</placeName>
-            <lb xml:id="p1-l2"/>EISENBAHN</fw>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1250" type="Brief"><teiHeader><fileDesc><titleStmt><title>Bruno Hildebrand an Alfred Escher, Zürich, Sonntag, 11. September 1853</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#266*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Bau und Technik</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Hildebrand Bruno" type="addressee">Bruno Hildebrand</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1853-09-11">11. September 1853</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
+        <p rend="left" xml:id="K_1250_p1"><lb xml:id="p1-l1"/>
+          <hi rend="printed">
+            <placeName key="Zürich (Stadt)">ZÜRICH</placeName>
+            <placeName key="Bodensee">BODENSEE</placeName>
+            <lb xml:id="p1-l2"/>EISENBAHN</hi>
         </p>
-      </div>
+      
       <div type="opener">
-        <p rend="indent" xml:id="K_1250_p2">
-                    <lb xml:id="p1-l3"/>Verehrtester Herr Präsident!</p>
+        <p rend="indent" xml:id="K_1250_p2"><lb xml:id="p1-l3"/>Verehrtester Herr Präsident!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_1250_p3">
-                <lb xml:id="p1-l4"/>So eben übergiebt<note type="transcript">sic!</note> mir Herr <persName type="person" key="Wild Johannes">Wild</persName> die von 
-				<lb xml:id="p1-l5"/>
-                <persName type="person" key="Beckh August von">Beckh</persName> <date when="1853-09-11">heute</date> erhaltene Ausschreibung des 
+    </front><body>
+      <p rend="left" xml:id="K_1250_p3"><lb xml:id="p1-l4"/>So eben übergiebt<note type="transcript">sic!</note> mir Herr <persName key="Wild Johannes">Wild</persName> die von 
+				<lb xml:id="p1-l5"/><persName key="Beckh August von">Beckh</persName> <date when="1853-09-11">heute</date> erhaltene Ausschreibung des 
 				<lb xml:id="p1-l6"/>3<hi rend="sup">ten</hi> und 4<hi rend="sup">ten</hi> Arbeitslooses der Section 
-				<lb xml:id="p1-l7"/>
-                <placeName type="place" key="Weinfelden">Weinfelden</placeName>, welche vorläufig ohne die 
+				<lb xml:id="p1-l7"/><placeName key="Weinfelden">Weinfelden</placeName>, welche vorläufig ohne die 
 				<lb xml:id="p1-l8"/>Kostenanschläge eingesendet ist. Ich 
 				<lb xml:id="p1-l9"/>erlaube mir die ergebenste Anfrage, 
 				<lb xml:id="p1-l10"/>ob ich dieselbe <date when="1853-09-11">heute</date> noch den Zeitungen 
-				<lb xml:id="p1-l11"/>überschicken soll, damit sie schon <date when="1853-09-12">morgen</date> <lb xml:id="p1-l12"/>während der Generalversammlung ge<lb break="no" xml:id="p1-l13"/>druckt erscheint.</p>
-    </div>
-        </body>
-    <back>
+				<lb xml:id="p1-l11"/>überschicken soll, damit sie schon <date when="1853-09-12">morgen</date> <lb xml:id="p1-l12"/>während der Generalversammlung ge<lb xml:id="p1-l13" break="no"/>druckt erscheint.</p>
+    </body><back>
       <div type="closer">
-        <p rend="right" xml:id="K_1250_p4">
-                    <lb xml:id="p1-l14"/>mit vorzüglicher Hochachtung
+        <p rend="right" xml:id="K_1250_p4"><lb xml:id="p1-l14"/>mit vorzüglicher Hochachtung
           <lb xml:id="p1-l15"/>Ihr
           <lb xml:id="p1-l16"/>ganz ergebenster
         </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1250_p5">
-                    <lb xml:id="p1-l17"/>Hildebrand.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_1250_p5"><lb xml:id="p1-l17"/>Hildebrand.</p>
       </div>
       <div type="dateline">
-        <p rend="left" xml:id="K_1250_p6">
-                    <lb xml:id="p1-l18"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-         <date when="1853-09-11">den 11<hi rend="sup">ten</hi> <choice>
-                            <abbr>Sept.</abbr>
-                            <expan>September</expan>
-                        </choice> <lb xml:id="p1-l19"/>1853</date>
+        <p rend="left" xml:id="K_1250_p6"><lb xml:id="p1-l18"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
+         <date when="1853-09-11">den 11<hi rend="sup">ten</hi> <choice><abbr>Sept.</abbr><expan>September</expan></choice> <lb xml:id="p1-l19"/>1853</date>
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,378 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6563" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Emil Welti, Zürich, Donnerstag, Oktober 26, 1871</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier type="Abzug">
-                        <institution>SBB Historic</institution>
-                        <idno type="original">VGB_GB_SBBGB01_014</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Verträge</item>
-                        <item>Eisenbahnen Finanzierung</item>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Schweizerische Kreditanstalt (SKA)</item>
-                        <item>Schweizerische Centralbahn (SCB)</item>
-                        <item>Bundesrat</item>
-                        <item>Bankinstitute</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Welti Emil" type="addressee">Emil Welti</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1871-10-26">Donnerstag, Oktober 26, 1871</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2014-05-28" who="FM">Transkribiert
-                
-            </change>
-            <change when="2014-06-25" who="AW">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2014-06-26" who="SG">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-07-09" who="JM">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-21" who="JS">Nachbearbeitung umgesetzt
-                
-            </change>
-            <change when="2014-09-10" who="SWK">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2014-09-17" who="MB">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2014-10-27" who="LB">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-10-27" who="LB">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_6563" type="Brief" subtype="Abzug"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Emil Welti, Zürich, Donnerstag, 26. Oktober 1871</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>SBB Historic</institution><idno>VGB_GB_SBBGB01_014</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Verträge</term><term>Eisenbahnen Finanzierung</term><term>Schweizerische Nordostbahn (NOB)</term><term>Schweizerische Kreditanstalt (SKA)</term><term>Schweizerische Centralbahn (SCB)</term><term>Bundesrat</term><term>Bankinstitute</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Welti Emil" type="sender">Emil Welti</persName><placeName>Zürich</placeName><date when="1871-10-26">26. Oktober 1871</date></correspAction><correspAction type="received"><placeName>Bern</placeName></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_6563_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_6563_c0">Nachträgliche Notiz oben rechts auf Seite 1 von Eschers Hand mit Bleistift: <bibl>
-                                <choice>
-                                    <abbr>Finanz-Konsort.</abbr>
-                                    <expan>Finanz-Konsortium</expan>
-                                </choice> </bibl>
-                        </note>
-                    </seg> <lb xml:id="p1-l1"/>
+        <p rend="right" xml:id="K_6563_p1"> <note type="com" xml:id="K_6563_c0">Nachträgliche Notiz oben rechts auf Seite 1 von Eschers Hand mit Bleistift: <orig><choice><abbr>Finanz-Konsort.</abbr><expan>Finanz-Konsortium</expan></choice> </orig></note> <lb xml:id="p1-l1"/>
           <hi>
-            <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-                    </hi>, den <date when="1871-10-26">26. October 1871</date>.
+            <placeName key="Zürich (Stadt)">Zürich</placeName></hi>, den <date when="1871-10-26">26. October 1871</date>.
           </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_6563_p2">
-                    <lb xml:id="p1-l2"/>Herrn <hi>E. Welti</hi>, Vicepräsident des <choice>
-                        <abbr>Schweiz.</abbr>
-                        <expan>Schweizerisch</expan>
-                    </choice> Bun<lb break="no" xml:id="p1-l3"/>desrathes, zu Handen der bundesräthlichen <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>kommission.
-			<lb xml:id="p1-l4"/>
-                    <hi>
-                        <placeName type="place" key="Bern (Stadt)">Bern</placeName>
-                    </hi>.</p>
+      <div type="opener">
+        <p rend="right" xml:id="K_6563_p2"><lb xml:id="p1-l2"/>Herrn <hi>E. Welti</hi>, Vicepräsident des <choice><abbr>Schweiz.</abbr><expan>Schweizerisch</expan></choice> Bun<lb xml:id="p1-l3" break="no"/>desrathes, zu Handen der bundesräthlichen <placeName key="St. Gotthard (Pass)">Gotthard</placeName>kommission.
+			<lb xml:id="p1-l4" break="no"/><hi><placeName key="Bern (Stadt)">Bern</placeName></hi>.</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_6563_p3">
-                    <lb xml:id="p1-l5"/>Hochgeachteter Herr Bundesrath!</p>
+        <p rend="center" xml:id="K_6563_p3"><lb xml:id="p1-l5"/>Hochgeachteter Herr Bundesrath!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_6563_p4">
-                <lb xml:id="p1-l6"/>Gemäß des Vertrages betreffend Beschaffung des Baukapi<lb break="no" xml:id="p1-l7"/>tales für die <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>bahn vom <date when="1871-10-14">14 October 1871</date> hatten die Gesellschaften, Institute
-				<lb xml:id="p1-l8"/>&amp; Bankhäuser der Schweiz &amp; <placeName type="place" key="Italien (Königreich)">Italiens</placeName>, an welche die Einladung zur Betheiligung
-				<lb xml:id="p1-l9"/>an dem internationalen Consortium gerichtet worden ist, ihre desfallsige
-				<lb xml:id="p1-l10"/>Beitrittserklärung spätestens bis zum <date when="1871-10-24">24. <choice>
-                            <abbr>d. Mts.</abbr>
-                            <expan>dieses Monats</expan>
-                        </choice> </date> einschließlich in die
-				<lb xml:id="p1-l11"/>Hände des Unterzeichneten in seiner Eigenschaft als Vertreter der <choice>
-                        <abbr>Schweiz.</abbr>
-                        <expan>Schweizerisch</expan>
-                    </choice>
-                    <lb xml:id="p1-l12"/>
-                <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung gelangen zu laßen.
+    </front><body>
+      <p rend="indent" xml:id="K_6563_p4"><lb xml:id="p1-l6"/>Gemäß des Vertrages betreffend Beschaffung des Baukapi<lb xml:id="p1-l7" break="no"/>tales für die <placeName key="St. Gotthard (Pass)">Gotthard</placeName>bahn vom <date when="1871-10-14">14 October 1871</date> hatten die Gesellschaften, Institute
+				<lb xml:id="p1-l8" break="no"/>&amp; Bankhäuser der Schweiz &amp; <placeName key="Italien (Königreich)">Italiens</placeName>, an welche die Einladung zur Betheiligung
+				<lb xml:id="p1-l9" break="no"/>an dem internationalen Consortium gerichtet worden ist, ihre desfallsige
+				<lb xml:id="p1-l10" break="no"/>Beitrittserklärung spätestens bis zum <date when="1871-10-24">24. <choice><abbr>d. Mts.</abbr><expan>dieses Monats</expan></choice> </date> einschließlich in die
+				<lb xml:id="p1-l11" break="no"/>Hände des Unterzeichneten in seiner Eigenschaft als Vertreter der <choice><abbr>Schweiz.</abbr><expan>Schweizerisch</expan></choice> <lb xml:id="p1-l12" break="no"/><placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung gelangen zu laßen.
 			</p>
-      <p rend="indent" xml:id="K_6563_p5">
-                <lb xml:id="p1-l13"/>
+      <p rend="indent" xml:id="K_6563_p5"><lb xml:id="p1-l13"/>
         <hi rend="underline">Schweizerischer</hi> Seits ist, wie ich Ihnen bereits telegraphisch zu
 				<lb xml:id="p1-l14"/>melden die Ehre hatte, von dem Anerbieten der Betheiligung bei dem
 				<lb xml:id="p1-l15"/>neuen internationalen Consortium mit einem Dritttheile in vollem
 				<lb xml:id="p1-l16"/>Umfange Gebrauch gemacht worden. Es haben nämlich auf Grundlage
-				<lb xml:id="p1-l17"/>einer in der Generalversammlung des <choice>
-                        <abbr>Schweiz.</abbr>
-                        <expan>Schweizerisch</expan>
-                    </choice> Consortiums <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <date when="1871-10-18">18. <choice>
-                            <abbr>d. Mts.</abbr>
-                            <expan>dieses Monats</expan>
-                        </choice> </date> <lb xml:id="p1-l18"/>stattgehabten Verständigung die nachfolgenden Firmen mit den nach<lb break="no" xml:id="p1-l19"/>stehenden Summen den Beitritt zu dem Consortium erklärt:</p>
+				<lb xml:id="p1-l17"/>einer in der Generalversammlung des <choice><abbr>Schweiz.</abbr><expan>Schweizerisch</expan></choice> Consortiums <choice><abbr>v.</abbr><expan>von</expan></choice> <date when="1871-10-18">18. <choice><abbr>d. Mts.</abbr><expan>dieses Monats</expan></choice> </date> <lb xml:id="p1-l18"/>stattgehabten Verständigung die nachfolgenden Firmen mit den nach<lb xml:id="p1-l19" break="no"/>stehenden Summen den Beitritt zu dem Consortium erklärt:</p>
       <table>
-        <row xml:id="p1-l20">
-          <cell>
-                        <choice>
-                                <abbr>Schweiz Nordostbahngesellschaft</abbr>
-                                <expan>Schweizerische Nordostbahngesellschaft</expan>
-                            </choice> </cell>
+        <row>
+          <cell><choice><abbr>Schweiz Nordostbahngesellschaft</abbr><expan>Schweizerische Nordostbahngesellschaft</expan></choice> </cell>
           <cell>in</cell>
-          <cell>
-                        <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> </cell>
+          <cell><placeName key="Zürich (Stadt)">Zürich</placeName> </cell>
           <cell>für</cell>
-          <cell>
-                        <choice>
-                                <abbr>
-                            <hi>Fr</hi>.</abbr>
-                                <expan>Franken / Francs / Franchi</expan>
-                            </choice> </cell>
-          <cell rend="right">9,000,000</cell>
+          <cell><choice><abbr><hi>Fr</hi>.</abbr><expan>Franken / Francs / Franchi</expan></choice> </cell>
+          <cell>9,000,000</cell>
         </row>
-        <row xml:id="p1-l21">
+        <row>
           <cell>" Creditanstalt</cell>
           <cell>"</cell>
           <cell>"</cell>
           <cell>"</cell>
           <cell>"</cell>
-          <cell rend="right">8,500,000</cell>
+          <cell>8,500,000</cell>
         </row>
-        <row xml:id="p1-l22">
+        <row>
           <cell>" Centralbahngesellschaft</cell>
           <cell>in</cell>
-          <cell>
-                        <placeName type="place" key="Basel-Stadt">Basel</placeName> </cell>
+          <cell><placeName key="Basel-Stadt">Basel</placeName> </cell>
           <cell>"</cell>
           <cell>"</cell>
-          <cell rend="right">9,000,000<pb n="2"/>
-                    </cell>
+          <cell>9,000,000<pb n="2"/></cell>
         </row>
-        <row xml:id="p2-l1">
+        <row>
           <cell/>
           <cell/>
           <cell>Uebertrag</cell>
           <cell/>
-          <cell>
-                        <choice>
-                                <abbr>
-                            <hi>Fr</hi>.</abbr>
-                                <expan>Franken / Francs / Franchi</expan>
-                            </choice> </cell>
-          <cell rend="right">26,500,000</cell>
+          <cell><choice><abbr><hi>Fr</hi>.</abbr><expan>Franken / Francs / Franchi</expan></choice> </cell>
+          <cell>26,500,000</cell>
         </row>
-        <row xml:id="p2-l2">
+        <row>
           <cell>
-            <placeName type="place" key="Basel-Stadt">Basler</placeName> Handelsbank</cell>
+            <placeName key="Basel-Stadt">Basler</placeName> Handelsbank</cell>
           <cell>in</cell>
-          <cell>
-                        <placeName type="place" key="Basel-Stadt">Basel</placeName> </cell>
+          <cell><placeName key="Basel-Stadt">Basel</placeName> </cell>
           <cell>für</cell>
           <cell>"</cell>
-          <cell rend="right">1,500,000</cell>
+          <cell>1,500,000</cell>
         </row>
-        <row xml:id="p2-l3">
+        <row>
           <cell>Bischoff zu St. Alban</cell>
           <cell>"</cell>
           <cell>"</cell>
           <cell>"</cell>
           <cell>"</cell>
-          <cell rend="right">1,500,000</cell>
+          <cell>1,500,000</cell>
         </row>
-        <row xml:id="p2-l4">
+        <row>
           <cell>R. Kaufmann</cell>
           <cell>"</cell>
           <cell>"</cell>
           <cell>"</cell>
           <cell>"</cell>
-          <cell rend="right">1,000,000</cell>
+          <cell>1,000,000</cell>
         </row>
-        <row xml:id="p2-l5">
-          <cell>Bank in <placeName type="place" key="Luzern (Stadt)">Luzern</placeName> </cell>
+        <row>
+          <cell>Bank in <placeName key="Luzern (Stadt)">Luzern</placeName> </cell>
           <cell>"</cell>
-          <cell>
-                        <placeName type="place" key="Luzern (Stadt)">Luzern</placeName> </cell>
+          <cell><placeName key="Luzern (Stadt)">Luzern</placeName> </cell>
           <cell>"</cell>
           <cell>"</cell>
-          <cell rend="right">1,000,000</cell>
+          <cell>1,000,000</cell>
         </row>
-        <row xml:id="p2-l6">
+        <row>
           <cell>
-            <placeName type="place" key="Aargau">Aargauische</placeName> Bank</cell>
+            <placeName key="Aargau">Aargauische</placeName> Bank</cell>
           <cell>"</cell>
-          <cell>
-                        <placeName type="place" key="Aarau">Aarau</placeName> </cell>
+          <cell><placeName key="Aarau">Aarau</placeName> </cell>
           <cell>"</cell>
           <cell>"</cell>
-          <cell rend="right">1,000,000</cell>
+          <cell>1,000,000</cell>
         </row>
-        <row xml:id="p2-l7">
+        <row>
           <cell>
-            <placeName type="place" key="Bern (Stadt)">Berner</placeName> Handelsbank</cell>
+            <placeName key="Bern (Stadt)">Berner</placeName> Handelsbank</cell>
           <cell>"</cell>
-          <cell>
-                        <placeName type="place" key="Bern (Stadt)">Bern</placeName> </cell>
+          <cell><placeName key="Bern (Stadt)">Bern</placeName> </cell>
           <cell>"</cell>
           <cell>"</cell>
-          <cell rend="right">500,000</cell>
+          <cell>500,000</cell>
         </row>
-        <row xml:id="p2-l8">
-          <cell>Bank in <placeName type="place" key="Schaffhausen (Stadt)">Schaffhausen</placeName> </cell>
+        <row>
+          <cell>Bank in <placeName key="Schaffhausen (Stadt)">Schaffhausen</placeName> </cell>
           <cell>"</cell>
-          <cell>
-                        <placeName type="place" key="Schaffhausen (Stadt)">Schaffhausen</placeName> </cell>
+          <cell><placeName key="Schaffhausen (Stadt)">Schaffhausen</placeName> </cell>
           <cell>"</cell>
           <cell>"</cell>
-          <cell rend="right">750,000</cell>
+          <cell>750,000</cell>
         </row>
-        <row xml:id="p2-l9">
+        <row>
           <cell>
-            <placeName type="place" key="Thurgau">Thurgauische</placeName> Hypothekenbank</cell>
+            <placeName key="Thurgau">Thurgauische</placeName> Hypothekenbank</cell>
           <cell>"</cell>
-          <cell>
-                        <placeName type="place" key="Frauenfeld">Frauenfeld</placeName> </cell>
+          <cell><placeName key="Frauenfeld">Frauenfeld</placeName> </cell>
           <cell>"</cell>
           <cell>"</cell>
-          <cell rend="right">
-                        <hi rend="underline">250,000</hi> </cell>
+          <cell><hi rend="underline">250,000</hi> </cell>
         </row>
-        <row xml:id="p2-l10">
+        <row>
           <cell/>
           <cell/>
           <cell/>
           <cell/>
-          <cell> <choice>
-                                <abbr>
-                            <hi>Fr</hi>.</abbr>
-                                <expan>Franken / Francs / Franchi</expan>
-                            </choice>
+          <cell> <choice><abbr><hi>Fr</hi>.</abbr><expan>Franken / Francs / Franchi</expan></choice>
           </cell>
-          <cell rend="right">34,000,000</cell>
+          <cell>34,000,000</cell>
         </row>
       </table>
-      <p rend="left" xml:id="K_6563_p6">
-                <lb xml:id="p2-l11"/>Es befinden sich die nach dem angebogenen Formulare ausgestellten
+      <p rend="left" xml:id="K_6563_p6"><lb xml:id="p2-l11"/>Es befinden sich die nach dem angebogenen Formulare ausgestellten
 				<lb xml:id="p2-l12"/>Verpflichtungsscheine obiger Firmen für die obigen Beträge sammt
-				<lb xml:id="p2-l13"/>&amp; sonders in meinen Händen &amp; es ist somit die <choice>
-                        <abbr>Schweiz.</abbr>
-                        <expan>Schweizerisch</expan>
-                    </choice> Betheiligung
-				<lb xml:id="p2-l14"/>bei dem internationalen Consortium als vollständig &amp; abschließ<lb break="no" xml:id="p2-l15"/>lich geordnet anzusehen.
+				<lb xml:id="p2-l13"/>&amp; sonders in meinen Händen &amp; es ist somit die <choice><abbr>Schweiz.</abbr><expan>Schweizerisch</expan></choice> Betheiligung
+				<lb xml:id="p2-l14"/>bei dem internationalen Consortium als vollständig &amp; abschließ<lb xml:id="p2-l15" break="no"/>lich geordnet anzusehen.
 			</p>
-      <p rend="indent" xml:id="K_6563_p7">
-                <lb xml:id="p2-l16"/>
+      <p rend="indent" xml:id="K_6563_p7"><lb xml:id="p2-l16"/>
         <hi rend="underline">
-          <placeName type="place" key="Italien (Königreich)">Italienischer</placeName>
-                </hi> Seits ist, wie ich Ihnen ebenfalls bereits tele<lb break="no" xml:id="p2-l17"/>graphisch zur Kenntniß gebracht habe, von der dem dortigen
-				<lb xml:id="p2-l18"/>Kapitale angebotenen Betheiligung bei dem Consortium mit
-				<lb xml:id="p2-l19"/>einem Dritttheile auch nichts frei geblieben: es hat vielmehr eine
-				<lb xml:id="p2-l20"/>sehr namhafte Ueberzeichnung Statt gefunden, mit deren Re<lb break="no" xml:id="p2-l21"/>duction im Sinne der früher mit Ihnen, mit der <placeName type="place" key="Deutsches Reich">Deutschen</placeName> Gruppe
-				<lb xml:id="p2-l22"/>des Consortiums &amp; mit dem <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>ausschusse gepflogenen Be<lb break="no" xml:id="p2-l23"/>sprechungen ich nunmehr beschäftigt bin. Die Verhandlungen,
-				<lb xml:id="p2-l24"/>welche ich zu diesem Ende hin zu pflegen habe, bin ich zwar thunlichst
-				<lb xml:id="p2-l25"/>zu befördern bestrebt. Ich werde sie aber kaum vor der Mitte der
-				<lb xml:id="p2-l26"/>nächsten Woche zu Ende führen können. Sobald dieß geschehen sein
-				<lb xml:id="p2-l27"/>wird, werde ich Sie davon benachrichtigen. Mittlerweile wollen
-				<pb n="3"/>
-                    <lb xml:id="p3-l1"/>Sie gegenüber von Befürchtungen, die vielfach laut geworden sind, die Ver<lb break="no" xml:id="p3-l2"/>sicherung entgegennehmen, daß ich zu bewirken wissen werde, daß die
-				<lb xml:id="p3-l3"/>
-                    <placeName type="place" key="Italien (Königreich)">Italienische</placeName> Gruppe des internationalen Consortiums eine wirklich <placeName type="place" key="Italien (Königreich)">Italieni<lb break="no" xml:id="p3-l4"/>sche</placeName> sei &amp; daß ihre Zusammensetzung auch nicht den Stempel der Einseitig<lb break="no" xml:id="p3-l5"/>keit an sich trage.
+          <placeName key="Italien (Königreich)">Italienischer</placeName></hi> Seits ist, wie ich Ihnen ebenfalls bereits tele<lb xml:id="p2-l17" break="no"/>graphisch zur Kenntniß gebracht habe, von der dem dortigen
+				<lb xml:id="p2-l18" break="no"/>Kapitale angebotenen Betheiligung bei dem Consortium mit
+				<lb xml:id="p2-l19" break="no"/>einem Dritttheile auch nichts frei geblieben: es hat vielmehr eine
+				<lb xml:id="p2-l20" break="no"/>sehr namhafte Ueberzeichnung Statt gefunden, mit deren Re<lb xml:id="p2-l21" break="no"/>duction im Sinne der früher mit Ihnen, mit der <placeName key="Deutsches Reich">Deutschen</placeName> Gruppe
+				<lb xml:id="p2-l22" break="no"/>des Consortiums &amp; mit dem <placeName key="St. Gotthard (Pass)">Gotthard</placeName>ausschusse gepflogenen Be<lb xml:id="p2-l23" break="no"/>sprechungen ich nunmehr beschäftigt bin. Die Verhandlungen,
+				<lb xml:id="p2-l24" break="no"/>welche ich zu diesem Ende hin zu pflegen habe, bin ich zwar thunlichst
+				<lb xml:id="p2-l25" break="no"/>zu befördern bestrebt. Ich werde sie aber kaum vor der Mitte der
+				<lb xml:id="p2-l26" break="no"/>nächsten Woche zu Ende führen können. Sobald dieß geschehen sein
+				<lb xml:id="p2-l27" break="no"/>wird, werde ich Sie davon benachrichtigen. Mittlerweile wollen
+				<pb n="3"/><lb xml:id="p3-l1" break="no"/>Sie gegenüber von Befürchtungen, die vielfach laut geworden sind, die Ver<lb xml:id="p3-l2" break="no"/>sicherung entgegennehmen, daß ich zu bewirken wissen werde, daß die
+				<lb xml:id="p3-l3" break="no"/><placeName key="Italien (Königreich)">Italienische</placeName> Gruppe des internationalen Consortiums eine wirklich <placeName key="Italien (Königreich)">Italieni<lb xml:id="p3-l4" break="no"/>sche</placeName> sei &amp; daß ihre Zusammensetzung auch nicht den Stempel der Einseitig<lb xml:id="p3-l5" break="no"/>keit an sich trage.
 			</p>
-      <p rend="indent" xml:id="K_6563_p8">
-                <lb xml:id="p3-l6"/>Gegenüber der <hi rend="underline">
-                    <placeName type="place" key="Deutsches Reich">Deutschen</placeName>
-                </hi> Gruppe des internationalen Consortiums
-				<lb xml:id="p3-l7"/>habe ich mit <seg type="ref">Zuschrift<ref type="letter" target="K_6776"/>
-                </seg> vom <date when="1871-10-26">heutigen Tage</date> die Erwartung ausgesprochen,
-				<lb xml:id="p3-l8"/>daß, da nunmehr die Betheiligung einer Schweizerischen &amp; einer <placeName type="place" key="Italien (Königreich)">Italienischen</placeName> <lb xml:id="p3-l9"/>Gruppe bei dem Consortium mit je einem Dritttheile feststehe, die <placeName type="place" key="St. Gotthard (Pass)">Gott<lb break="no" xml:id="p3-l10"/>hard</placeName>vereinigung der Angabe, aus welchen Betheiligten sich definitiv
-				<lb xml:id="p3-l11"/>die <placeName type="place" key="Deutsches Reich">Deutsche</placeName> Gruppe bilde &amp; welche Quote auf jede Betheiligten dieser
-				<lb xml:id="p3-l12"/>Gruppe entfalle (§ 3 des Vertrages <choice>
-                        <abbr>a. E.</abbr>
-                        <expan>(Abkürzung nicht aufgelöst)</expan>
-                    </choice>) werde entgegensehen dürfen.
+      <p rend="indent" xml:id="K_6563_p8"><lb xml:id="p3-l6"/>Gegenüber der <hi rend="underline"><placeName key="Deutsches Reich">Deutschen</placeName></hi> Gruppe des internationalen Consortiums
+				<lb xml:id="p3-l7"/>habe ich mit <rs>Zuschrift<ref type="letter" target="K_6776"/></rs> vom <date when="1871-10-26">heutigen Tage</date> die Erwartung ausgesprochen,
+				<lb xml:id="p3-l8"/>daß, da nunmehr die Betheiligung einer Schweizerischen &amp; einer <placeName key="Italien (Königreich)">Italienischen</placeName> <lb xml:id="p3-l9"/>Gruppe bei dem Consortium mit je einem Dritttheile feststehe, die <placeName key="St. Gotthard (Pass)">Gott<lb xml:id="p3-l10" break="no"/>hard</placeName>vereinigung der Angabe, aus welchen Betheiligten sich definitiv
+				<lb xml:id="p3-l11"/>die <placeName key="Deutsches Reich">Deutsche</placeName> Gruppe bilde &amp; welche Quote auf jede Betheiligten dieser
+				<lb xml:id="p3-l12"/>Gruppe entfalle (§ 3 des Vertrages <choice><abbr>a. E.</abbr><expan>(Abkürzung nicht aufgelöst)</expan></choice>) werde entgegensehen dürfen.
 			</p>
-      <p rend="indent" xml:id="K_6563_p9">
-                <lb xml:id="p3-l13"/>Die gemäß §. 18 des Vertrages der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung bei dem
-        <lb xml:id="p3-l14"/>
-                <choice>
-                        <abbr>Schweiz.</abbr>
-                        <expan>Schweizerisch</expan>
-                    </choice> Bundesrathe zu leistende <hi rend="underline">Realkaution von 10 Millionen Fran<lb break="no" xml:id="p3-l15"/>ken</hi> anlangend, halte ich dafür, daß dieselbe von der <placeName type="place" key="Deutsches Reich">Deutschen</placeName> &amp; von
+      <p rend="indent" xml:id="K_6563_p9"><lb xml:id="p3-l13"/>Die gemäß §. 18 des Vertrages der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung bei dem
+        <lb xml:id="p3-l14"/><choice><abbr>Schweiz.</abbr><expan>Schweizerisch</expan></choice> Bundesrathe zu leistende <hi rend="underline">Realkaution von 10 Millionen Fran<lb xml:id="p3-l15" break="no"/>ken</hi> anlangend, halte ich dafür, daß dieselbe von der <placeName key="Deutsches Reich">Deutschen</placeName> &amp; von
 				<lb xml:id="p3-l16"/>der Schweizerischen Gruppe, soweit an ihr, sofort geleistet werden
 				<lb xml:id="p3-l17"/>soll, nachdem nunmehr feststeht, daß sowohl das Schweizerische als
-				<lb xml:id="p3-l18"/>das <placeName type="place" key="Italien (Königreich)">Italienische</placeName> Kapital von der jedem derselben anerbotenen Dritt<lb break="no" xml:id="p3-l19"/>theile-Betheiligung bei dem internationalen Consortium in vollem
-				<lb xml:id="p3-l20"/>Umfange Gebrauch machen. Die <placeName type="place" key="Italien (Königreich)">Italienische</placeName> Gruppe wird die von ihr
-				<lb xml:id="p3-l21"/>zu leistende Quote der Caution von 10 Millionen Franken zu hin<lb break="no" xml:id="p3-l22"/>terlegen haben, sobald die Reduction der für die <placeName type="place" key="Italien (Königreich)">Italienische</placeName> Betheiligung
-				<lb xml:id="p3-l23"/>Statt gehabten Ueberzeichnung erfolgt &amp; in Folge dessen abschließlich
-				<lb xml:id="p3-l24"/>festgestellt sein wird, aus welchen Firmen die <placeName type="place" key="Italien (Königreich)">Italienische</placeName> Gruppe
-				<lb xml:id="p3-l25"/>besteht, mit welchem Betrage jede derselben betheiligt ist. – Ich habe
-				<lb xml:id="p3-l26"/>
-                    <date when="1871-10-26">heute</date> im Sinne dieser Anschauungsweise an die <placeName type="place" key="Deutsches Reich">Deutsche</placeName> Gruppe des
-				<lb xml:id="p3-l27"/>Consortiums <seg type="ref">geschrieben<ref type="letter" target="K_6776"/>
-                </seg> &amp; in meiner Eigenschaft als Präsident des
-				<pb n="4"/>
-                    <lb xml:id="p4-l1"/>
-                    <choice>
-                        <abbr>Schweiz.</abbr>
-                        <expan>Schweizerisch</expan>
-                    </choice> Consortiums an die Schweizerische Gruppe ein Circular er<lb break="no" xml:id="p4-l2"/>laßen. Ich zweifle nicht daran, daß diese Schritte den gewünschten
-				<lb xml:id="p4-l3"/>Erfolg haben werden.
+				<lb xml:id="p3-l18"/>das <placeName key="Italien (Königreich)">Italienische</placeName> Kapital von der jedem derselben anerbotenen Dritt<lb xml:id="p3-l19" break="no"/>theile-Betheiligung bei dem internationalen Consortium in vollem
+				<lb xml:id="p3-l20" break="no"/>Umfange Gebrauch machen. Die <placeName key="Italien (Königreich)">Italienische</placeName> Gruppe wird die von ihr
+				<lb xml:id="p3-l21" break="no"/>zu leistende Quote der Caution von 10 Millionen Franken zu hin<lb xml:id="p3-l22" break="no"/>terlegen haben, sobald die Reduction der für die <placeName key="Italien (Königreich)">Italienische</placeName> Betheiligung
+				<lb xml:id="p3-l23" break="no"/>Statt gehabten Ueberzeichnung erfolgt &amp; in Folge dessen abschließlich
+				<lb xml:id="p3-l24" break="no"/>festgestellt sein wird, aus welchen Firmen die <placeName key="Italien (Königreich)">Italienische</placeName> Gruppe
+				<lb xml:id="p3-l25" break="no"/>besteht, mit welchem Betrage jede derselben betheiligt ist. – Ich habe
+				<lb xml:id="p3-l26" break="no"/><date when="1871-10-26">heute</date> im Sinne dieser Anschauungsweise an die <placeName key="Deutsches Reich">Deutsche</placeName> Gruppe des
+				<lb xml:id="p3-l27" break="no"/>Consortiums <rs>geschrieben<ref type="letter" target="K_6776"/></rs> &amp; in meiner Eigenschaft als Präsident des
+				<pb n="4"/><lb xml:id="p4-l1" break="no"/><choice><abbr>Schweiz.</abbr><expan>Schweizerisch</expan></choice> Consortiums an die Schweizerische Gruppe ein Circular er<lb xml:id="p4-l2" break="no"/>laßen. Ich zweifle nicht daran, daß diese Schritte den gewünschten
+				<lb xml:id="p4-l3" break="no"/>Erfolg haben werden.
 			</p>
-      <p rend="indent" xml:id="K_6563_p10">
-                <lb xml:id="p4-l4"/>Noch erübrigt mir, zu Ihrer Kenntniß zu bringen, daß
-				<lb xml:id="p4-l5"/>ich die Schweizerische &amp; die <placeName type="place" key="Deutsches Reich">Deutsche</placeName> Gruppe des Consortiums veran<lb break="no" xml:id="p4-l6"/>laßt habe, die von ihnen zu hinterlegende Caution direct an den
-        <lb xml:id="p4-l7"/>hohen <choice>
-                        <abbr>Schweiz.</abbr>
-                        <expan>Schweizerisch</expan>
-                    </choice> Bundesrath gelangen zu laßen &amp; die Schweizerische
-				<lb xml:id="p4-l8"/>
-                    <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung gleichzeitig von der erfolgten Cautions<lb break="no" xml:id="p4-l9"/>leistung zu unterrichten.
+      <p rend="indent" xml:id="K_6563_p10"><lb xml:id="p4-l4"/>Noch erübrigt mir, zu Ihrer Kenntniß zu bringen, daß
+				<lb xml:id="p4-l5"/>ich die Schweizerische &amp; die <placeName key="Deutsches Reich">Deutsche</placeName> Gruppe des Consortiums veran<lb xml:id="p4-l6" break="no"/>laßt habe, die von ihnen zu hinterlegende Caution direct an den
+        <lb xml:id="p4-l7" break="no"/>hohen <choice><abbr>Schweiz.</abbr><expan>Schweizerisch</expan></choice> Bundesrath gelangen zu laßen &amp; die Schweizerische
+				<lb xml:id="p4-l8" break="no"/><placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung gleichzeitig von der erfolgten Cautions<lb xml:id="p4-l9" break="no"/>leistung zu unterrichten.
 			</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_6563_p11">
-                    <lb xml:id="p4-l10"/>Indem ich nicht verfehlen durfte, Ihnen zu Handen der
-				<lb xml:id="p4-l11"/>
-                    <choice>
-                        <abbr>
-                        <hi>Tit</hi>.</abbr>
-                        <expan>Titulo (mit Titel)</expan>
-                    </choice> bundesräthlichen <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>kommission, beziehungsweise des
-				<lb xml:id="p4-l12"/>hohen Bundesrathes, diese Mittheilungen zu machen ver<lb break="no" xml:id="p4-l13"/>sichere ich Sie, hochverehrter Herr Bundesrath meiner aus<lb break="no" xml:id="p4-l14"/>gezeichneten Hochachtung
+        <p rend="indent" xml:id="K_6563_p11"><lb xml:id="p4-l10"/>Indem ich nicht verfehlen durfte, Ihnen zu Handen der
+				<lb xml:id="p4-l11"/><choice><abbr><hi>Tit</hi>.</abbr><expan>Titulo (mit Titel)</expan></choice> bundesräthlichen <placeName key="St. Gotthard (Pass)">Gotthard</placeName>kommission, beziehungsweise des
+				<lb xml:id="p4-l12"/>hohen Bundesrathes, diese Mittheilungen zu machen ver<lb xml:id="p4-l13" break="no"/>sichere ich Sie, hochverehrter Herr Bundesrath meiner aus<lb xml:id="p4-l14" break="no"/>gezeichneten Hochachtung
 			</p>
       </div>
-      <p rend="right" xml:id="K_6563_p12">
-                <lb xml:id="p4-l15"/>
+      <p rend="right" xml:id="K_6563_p12"><lb xml:id="p4-l15"/>
         <hi>Der Delegirte
-			<lb xml:id="p4-l16"/>des Ausschusses der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung
-			<lb xml:id="p4-l17"/>für die Beschaffung des Baukapitales:</hi> <seg type="com">
-                    <note xml:id="K_6563_c1">Brieftext von dritter Hand ohne Unterschrift.</note>
-                </seg> </p>
-    </back>
-  </text>
-</TEI>
+			<lb xml:id="p4-l16"/>des Ausschusses der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung
+			<lb xml:id="p4-l17"/>für die Beschaffung des Baukapitales:</hi> <note type="com" xml:id="K_6563_c1">Brieftext von dritter Hand ohne Unterschrift.</note> </p>
+    </back></text></TEI>

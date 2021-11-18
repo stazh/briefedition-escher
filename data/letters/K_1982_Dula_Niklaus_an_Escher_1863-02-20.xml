@@ -1,122 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1982" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Niklaus Dula an Alfred Escher, Luzern, Freitag, Februar 20, 1863</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#174*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnen Gutachten und Expertisen</item>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Dula Niklaus" type="sender">Niklaus Dula</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Luzern</placeName>
-                    <date when="1863-02-20">Freitag, Februar 20, 1863</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-05-10" who="MW">Transkription
-                
-            </change>
-            <change when="2013-06-27" who="MB">Migration nach XML
-                
-            </change>
-            <change when="2013-06-28" who="AO">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2013-07-03" who="DG">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-18" who="NB">Verifizierung 1 umgsetzt
-                
-            </change>
-            <change when="2013-07-25" who="NB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-07-26" who="NB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-08-12" who="KB">Transkriptionsverifizierung Seiterle überprüft
-                
-            </change>
-            <change when="2013-12-03" who="LB">Inhaltiche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-12-09" who="KR">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1982" type="Brief"><teiHeader><fileDesc><titleStmt><title>Niklaus Dula an Alfred Escher, Luzern, Freitag, 20. Februar 1863</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#174*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnen Gutachten und Expertisen</term><term>Schweizerische Nordostbahn (NOB)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Dula Niklaus" type="addressee">Niklaus Dula</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Luzern</placeName><date when="1863-02-20">20. Februar 1863</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="center" xml:id="K_1982_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Luzern (Stadt)">Luzern</placeName>, den <date when="1863-02-20">20 Hornung 1863</date>.</p>
+        <p rend="center" xml:id="K_1982_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Luzern (Stadt)">Luzern</placeName>, den <date when="1863-02-20">20 Hornung 1863</date>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_1982_p2">
-                    <lb xml:id="p1-l2"/>Hochgeachteter Herr Präsident!</p>
+        <p rend="indent" xml:id="K_1982_p2"><lb xml:id="p1-l2"/>Hochgeachteter Herr Präsident!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_1982_p3">
-                <lb xml:id="p1-l3"/>Ich habe sofort nach dem Eingange Ihrer 
+    </front><body>
+      <p rend="left" xml:id="K_1982_p3"><lb xml:id="p1-l3"/>Ich habe sofort nach dem Eingange Ihrer 
             <lb xml:id="p1-l4"/>verehrlichen Zuschrift mit den beiden 
-            <lb xml:id="p1-l5"/>
-                <hi>Experten</hi> Rüksprache<note type="transcript">sic!</note> genommen &amp; sie ersucht, 
+            <lb xml:id="p1-l5"/><hi>Experten</hi> Rüksprache<note type="transcript">sic!</note> genommen &amp; sie ersucht, 
             <lb xml:id="p1-l6"/>das daherige Gutachten beförderlichst 
             <lb xml:id="p1-l7"/>abzufassen. <date when="1863-02-20">Heute</date> machte ich eine Nachfrage 
             <lb xml:id="p1-l8"/>&amp; erhalte so eben die Rükantwort, 
-            <lb xml:id="p1-l9"/>daß das Gutachten <date when="1863-02-21">Morgends</date>
-                <note type="transcript">sic!</note> abgegeben 
+            <lb xml:id="p1-l9"/>daß das Gutachten <date when="1863-02-21">Morgends</date><note type="transcript">sic!</note> abgegeben 
             <lb xml:id="p1-l10"/>werde &amp; in der Hauptsache auf Genehmigung 
             <lb xml:id="p1-l11"/>laute, jedoch mit einigen <hi>Modificationen</hi>, 
             <lb xml:id="p1-l12"/>von denen geglaubt werde, sie dürften 
             <lb xml:id="p1-l13"/>von der Nordostbahngesellschaft nicht stark 
             <lb xml:id="p1-l14"/>beanstandet werden. </p>
-      <p rend="left" xml:id="K_1982_p4">
-                <lb xml:id="p1-l15"/>Sobald ich Naeheres berichten kann, werde 
+      <p rend="left" xml:id="K_1982_p4"><lb xml:id="p1-l15"/>Sobald ich Naeheres berichten kann, werde 
             <lb xml:id="p1-l16"/>ich es thun &amp; mir eine beförderliche 
             <lb xml:id="p1-l17"/>Erledigung den<note type="transcript">sic!</note> Pendenz angelegen sein 
             <lb xml:id="p1-l18"/>lassen.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_1982_p5">
-                    <lb xml:id="p1-l19"/>Empfangen Sie die abermalige Versicherung wahrer</p> 
-            <p rend="center" xml:id="K_1982_p6">
-                    <lb xml:id="p1-l20"/>Hochschätzung, Ergebenen,</p>
+        <p rend="indent" xml:id="K_1982_p5"><lb xml:id="p1-l19"/>Empfangen Sie die abermalige Versicherung wahrer</p> 
+            <p rend="center" xml:id="K_1982_p6"><lb xml:id="p1-l20"/>Hochschätzung, Ergebenen,</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1982_p7">
-                    <lb xml:id="p1-l21"/>
+      <div type="signature">
+        <p rend="right" xml:id="K_1982_p7"><lb xml:id="p1-l21"/>
           <hi>N. Dula</hi>
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

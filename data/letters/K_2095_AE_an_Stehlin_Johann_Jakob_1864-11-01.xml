@@ -1,314 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2095" n="64" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Alfred Escher an Johann Jakob Stehlin, Zürich, Dienstag, November 1, 1864</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>StABS</institution>
-                        <idno type="original">PA 513a I B 5,1</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Lukmanierbahnprojekt</item>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Eisenbahnen Gutachten und Expertisen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName>
-                    <persName key="Stehlin Johann Jakob" type="addressee">Johann Jakob Stehlin</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1864-11-01">Dienstag, November 1, 1864</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-10-02" who="MW"> transkribiert
-                
-            </change>
-            <change when="November 2006" who="swissedit">automatisch von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-12-07" who="SM">Konvertierung provisorisch nachbearbeitet
-                
-            </change>
-            <change when="2007-01-10" who="WB">Konvertierung nachbearbeitet (Indexierung fehlt)
-                
-            </change>
-            <change when="2007-01-22" who="MF">provisorisch kommentiert 1
-                
-            </change>
-            <change when="2007-02-02" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-02-13" who="MF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-04-05" who="MF">kommentiert 3
-                
-            </change>
-            <change when="2007-04-23" who="MF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-04-27" who="WB">indexiert
-                
-            </change>
-            <change when="2007-05-15" who="MF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-05-19" who="SK">Original überprüft und Unterschrift angepasst
-                
-            </change>
-            <change when="2007-06-15" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-24" who="MF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-17" who="MF">Umsetzung Lektorat MK 2
-                
-            </change>
-            <change when="2007-07-19" who="MF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2008-07-28" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-14" who="HA">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-04" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-22" who="HA">e-Edition: Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-07-16" who="LB">Verifizierung 2
-				umgesetzt
-                
-            </change>
-            <change when="2014-07-16" who="LB">Inhaltliche Qualitätsprüfung
-					umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2095" type="Brief"><teiHeader><fileDesc><titleStmt><title>Alfred Escher an Johann Jakob Stehlin, Zürich, Dienstag, 01. November 1864</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>StABS</institution><idno>PA 513a I B 5,1</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Lukmanierbahnprojekt</term><term>Gotthardbahnprojekt</term><term>Eisenbahnen Gutachten und Expertisen</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term> Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName><persName key="Stehlin Johann Jakob" type="sender">Johann Jakob Stehlin</persName><placeName>Zürich</placeName><date when="1864-11-01">01. November 1864</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2095_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-          <date when="1864-11-01">1. <choice>
-                            <abbr>Nov<hi rend="sup">br</hi> </abbr>
-                            <expan>November</expan>
-                        </choice> 1864</date>.</p>
+        <p rend="right" xml:id="K_2095_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>
+          <date when="1864-11-01">1. <choice><abbr>Nov<hi rend="sup">br</hi> </abbr><expan>November</expan></choice> 1864</date>.</p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_2095_p2">
-                    <lb xml:id="p1-l2"/>Mein lieber Herr &amp; Freund! </p>
+        <p rend="left" xml:id="K_2095_p2"><lb xml:id="p1-l2"/>Mein lieber Herr &amp; Freund! </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2095_p3">
-                <lb xml:id="p1-l3"/>Indem ich Ihnen den mir <choice>
-                        <abbr>gef.</abbr>
-                        <expan>gefällig</expan>
-                    </choice>
-					über<lb break="no" xml:id="p1-l4"/>sandten Brief des <seg type="com">
-                    <choice>
-                            <abbr>H.</abbr>
-                            <expan>Herr</expan>
-                        </choice> <persName type="person" key="Gönner Adolph">Ad. Gönner</persName>
-                    <note xml:id="K_2095_c1">
-                        <persName type="person" key="Gönner Adolph">Adolph Gönner</persName> (<choice>
-                                <abbr>gest.</abbr>
-                                <expan>gestorben</expan>
-                            </choice> 1869) aus <placeName type="place" key="Basel-Stadt">Basel</placeName>, hauptamtliche Tätigkeit nicht ermittelt,
-						Vorsitzender der protestantischen Gemeinde in <placeName type="place" key="Mailand (I)">Mailand</placeName>.</note>
-                </seg>
-                    <seg type="com">beilie<lb break="no" xml:id="p1-l5"/>gend wieder zurücksende<note xml:id="K_2095_c2">Beilage
-						nicht ermittelt.</note>
-                </seg>, will es mir schei<lb break="no" xml:id="p1-l6"/>nen, daß <seg type="com">
-                    <choice>
-                            <abbr>H.</abbr>
-                            <expan>Herr</expan>
-                        </choice> <persName type="person" key="Tatti Luigi">Tatti</persName>
-                    <note xml:id="K_2095_c3">
-                        <persName type="person" key="Tatti Luigi">Luigi Tatti</persName> (1808–1881),
-						Architekt und Ingenieur aus <placeName type="place" key="Mailand (I)">Mailand</placeName>, Verfasser mehrerer Studien über die <placeName type="place" key="Alpen">Alpen</placeName>bahnfrage, beteiligt an verschiedenen
-						Eisenbahnbauten in <placeName type="place" key="Italien (Königreich)">Italien</placeName>.</note>
-                </seg> bis anhin wohl ein ent<lb break="no" xml:id="p1-l7"/>schiedener <placeName type="place" key="Lukmanier (Pass)">Lucmanier</placeName>mann gewesen sein<lb xml:id="p1-l8"/>
+    </front><body>
+      <p rend="indent" xml:id="K_2095_p3"><lb xml:id="p1-l3"/>Indem ich Ihnen den mir <choice><abbr>gef.</abbr><expan>gefällig</expan></choice>
+					über<lb xml:id="p1-l4" break="no"/>sandten Brief des <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Gönner Adolph">Ad. Gönner</persName><note type="com" xml:id="K_2095_c1"><persName key="Gönner Adolph">Adolph Gönner</persName> (<choice><abbr>gest.</abbr><expan>gestorben</expan></choice> 1869) aus <placeName key="Basel-Stadt">Basel</placeName>, hauptamtliche Tätigkeit nicht ermittelt,
+						Vorsitzender der protestantischen Gemeinde in <placeName key="Mailand (I)">Mailand</placeName>.</note> beilie<lb xml:id="p1-l5" break="no"/>gend wieder zurücksende<note type="com" xml:id="K_2095_c2">Beilage
+						nicht ermittelt.</note>, will es mir schei<lb xml:id="p1-l6" break="no"/>nen, daß <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Tatti Luigi">Tatti</persName><note type="com" xml:id="K_2095_c3"><persName key="Tatti Luigi">Luigi Tatti</persName> (1808–1881),
+						Architekt und Ingenieur aus <placeName key="Mailand (I)">Mailand</placeName>, Verfasser mehrerer Studien über die <placeName key="Alpen">Alpen</placeName>bahnfrage, beteiligt an verschiedenen
+						Eisenbahnbauten in <placeName key="Italien (Königreich)">Italien</placeName>.</note> bis anhin wohl ein ent<lb xml:id="p1-l7" break="no"/>schiedener <placeName key="Lukmanier (Pass)">Lucmanier</placeName>mann gewesen sein<lb xml:id="p1-l8" break="no"/>
 				dürfte.<!--<com>[<b>PENDENT. </b>Div. Publikationen (siehe Belegordner bzw. Datenbank Biographien!) Tattis dürften Auskunft geben über dessen Position in der Alpenbahnfrage.]</com></c> -->
-				Wenn er sich nun auch darauf be<lb break="no" xml:id="p1-l9"/>ruft, daß früher von der Schweiz
-					aus<lb xml:id="p1-l10"/> nichts für den <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName> gethan worden<lb xml:id="p1-l11"/> sei
-				&amp; wenn auch aus dieser Begründung<lb xml:id="p1-l12"/> seiner bisherigen Stellung
-				die Hoffnung<lb xml:id="p1-l13"/> geschöpft werden darf, <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Tatti Luigi">Tatti</persName> werde sich<lb xml:id="p1-l14"/> unter
-				den gegenwärtigen veränderten<lb xml:id="p1-l15"/> Verhältnissen zum Gotthardt bekehren,
-					so<lb xml:id="p1-l16"/> dürfte doch <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Tatti Luigi">Tatti</persName> nicht diejenige Person<lb xml:id="p1-l17"/> sein, auf welche für die <seg type="com">Bestellung des<lb xml:id="p1-l18"/>
-					ständigen Commissariates die Aufmerksam<pb n="2"/>
-                        <lb xml:id="p2-l1"/>keit in
-					erster Linie zu richten wäre.<note xml:id="K_2095_c4">In seiner Sitzung vom <date when="1864-09-19">19. September 1864</date> beschloss der engere Ausschuss
-						der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung die Schaffung eines ständigen Kommissariats in <placeName type="place" key="Italien (Königreich)">Italien</placeName>, welches <bibl>in
-							diesem Lande für die Förderung der Zwecke des <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>sausschußes
-							thätig</bibl> sein sollte. <ref type="lit">Prot. Ausschuss
-							Gotthardvereinigung</ref>, 19. September 1864.</note>
-                </seg> Des<lb break="no" xml:id="p2-l2"/>halb ist es aber gleichwol gewiß angezeigt,<lb xml:id="p2-l3"/> mit <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Tatti Luigi">T.</persName> in geeigneter Weise in Verbindung<lb xml:id="p2-l4"/> zu treten, um ihn für unsere Bestrebungen<lb xml:id="p2-l5"/> zu
-				gewinnen. Meine daherigen Ansichten<lb xml:id="p2-l6"/> stimmen also, wie Sie sehen,
-				ganz mit den<lb xml:id="p2-l7"/> Ihrigen überein. </p>
-      <p rend="indent" xml:id="K_2095_p4">
-                <lb xml:id="p2-l8"/>Die offizielle Zuschrift an <seg type="com">
-                    <choice>
-                            <abbr>H.</abbr>
-                            <expan>Herr</expan>
-                        </choice> <persName type="person" key="Meiss Jean Conrad von">J. C. von<lb xml:id="p2-l9"/>
-						Meiß</persName>
-                    <note xml:id="K_2095_c5">
-                        <persName type="person" key="Meiss Jean Conrad von">Jean Conrad von Meiss</persName>
-							(<choice>
-                                <abbr>geb.</abbr>
-                                <expan>geboren</expan>
-                            </choice> 1819), in niedergelassener <placeName type="place" key="Zürich (Stadt)">Zürcher</placeName> Kaufmann.</note>
-                </seg> <seg type="com">in <placeName type="place" key="Mailand (I)">Mailand</placeName> ist abgegangen.<note xml:id="K_2095_c6">Der engere Ausschuss fasste in seiner Sitzung vom <date when="1864-10-28">28. Oktober 1864</date> den Entschluss, <persName type="person" key="Meiss Jean Conrad von">Meiss</persName> die Übernahme des
-						ständigen Kommissariats der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung in <placeName type="place" key="Italien (Königreich)">Italien</placeName> anzutragen. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 28. Oktober 1864.
-						– <persName type="person" key="Meiss Jean Conrad von">Meiss</persName> lehnte die
+				Wenn er sich nun auch darauf be<lb xml:id="p1-l9" break="no"/>ruft, daß früher von der Schweiz
+					aus<lb xml:id="p1-l10" break="no"/> nichts für den <placeName key="St. Gotthard (Pass)">Gotthardt</placeName> gethan worden<lb xml:id="p1-l11" break="no"/> sei
+				&amp; wenn auch aus dieser Begründung<lb xml:id="p1-l12" break="no"/> seiner bisherigen Stellung
+				die Hoffnung<lb xml:id="p1-l13" break="no"/> geschöpft werden darf, <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Tatti Luigi">Tatti</persName> werde sich<lb xml:id="p1-l14" break="no"/> unter
+				den gegenwärtigen veränderten<lb xml:id="p1-l15" break="no"/> Verhältnissen zum Gotthardt bekehren,
+					so<lb xml:id="p1-l16" break="no"/> dürfte doch <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Tatti Luigi">Tatti</persName> nicht diejenige Person<lb xml:id="p1-l17" break="no"/> sein, auf welche für die Bestellung des<lb xml:id="p1-l18"/>
+					ständigen Commissariates die Aufmerksam<pb n="2"/><lb xml:id="p2-l1" break="no"/>keit in
+					erster Linie zu richten wäre.<note type="com" xml:id="K_2095_c4">In seiner Sitzung vom <date when="1864-09-19">19. September 1864</date> beschloss der engere Ausschuss
+						der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung die Schaffung eines ständigen Kommissariats in <placeName key="Italien (Königreich)">Italien</placeName>, welches <orig>in
+							diesem Lande für die Förderung der Zwecke des <placeName key="St. Gotthard (Pass)">Gotthardt</placeName>sausschußes
+							thätig</orig> sein sollte. <ref type="lit">Prot. Ausschuss
+							Gotthardvereinigung</ref>, 19. September 1864.</note> Des<lb xml:id="p2-l2" break="no"/>halb ist es aber gleichwol gewiß angezeigt,<lb xml:id="p2-l3" break="no"/> mit <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Tatti Luigi">T.</persName> in geeigneter Weise in Verbindung<lb xml:id="p2-l4" break="no"/> zu treten, um ihn für unsere Bestrebungen<lb xml:id="p2-l5" break="no"/> zu
+				gewinnen. Meine daherigen Ansichten<lb xml:id="p2-l6" break="no"/> stimmen also, wie Sie sehen,
+				ganz mit den<lb xml:id="p2-l7" break="no"/> Ihrigen überein. </p>
+      <p rend="indent" xml:id="K_2095_p4"><lb xml:id="p2-l8"/>Die offizielle Zuschrift an <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Meiss Jean Conrad von">J. C. von<lb xml:id="p2-l9"/>
+						Meiß</persName><note type="com" xml:id="K_2095_c5"><persName key="Meiss Jean Conrad von">Jean Conrad von Meiss</persName>
+							(<choice><abbr>geb.</abbr><expan>geboren</expan></choice> 1819), in niedergelassener <placeName key="Zürich (Stadt)">Zürcher</placeName> Kaufmann.</note> in <placeName key="Mailand (I)">Mailand</placeName> ist abgegangen.<note type="com" xml:id="K_2095_c6">Der engere Ausschuss fasste in seiner Sitzung vom <date when="1864-10-28">28. Oktober 1864</date> den Entschluss, <persName key="Meiss Jean Conrad von">Meiss</persName> die Übernahme des
+						ständigen Kommissariats der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung in <placeName key="Italien (Königreich)">Italien</placeName> anzutragen. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 28. Oktober 1864.
+						– <persName key="Meiss Jean Conrad von">Meiss</persName> lehnte die
 						Annahme der Kommissariatsstelle mit Schreiben vom<date when="1864-11-26"> 26.
-							November</date> ab. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 1. Dezember
-						1864.</note>
-                </seg> Dabei<lb xml:id="p2-l10"/> habe ich ihm gemäß meinem Versprechen<lb xml:id="p2-l11"/>
-				noch von befreundeter Seite in confiden<lb break="no" xml:id="p2-l12"/>tieller Weise schreiben
-				lassen. Seit dem<lb xml:id="p2-l13"/>
-                    <date when="1864-10-28">Freitage</date> habe ich Gelegenheit gehabt, noch<lb xml:id="p2-l14"/>
-				mit verschiedenen weitern Personen,<lb xml:id="p2-l15"/> welche mit <persName type="person" key="Meiss Jean Conrad von">v. Meiß</persName> &amp; in <placeName type="place" key="Italien (Königreich)">Italien</placeName> gut be<lb break="no" xml:id="p2-l16"/>kannt
-				sind, über die Person unsers neu<lb break="no" xml:id="p2-l17"/>ernannten ständigen<!--hier habe ich ein zweites Mal geschriebenes "ständigen" gelöscht<resp>MF</resp> <revisiondate>23.01.2007--> Kommissärs
-					Rückspra<lb break="no" xml:id="p2-l18"/>che zu nehmen, &amp; es hat mir zu großer<lb xml:id="p2-l19"/> Befriedigung gereicht, wiederholt wahr<lb break="no" xml:id="p2-l20"/>zunehmen, daß ihm von allen Seiten<lb xml:id="p2-l21"/> entschiedenes Lob zu Theil
-				wird. <pb n="3"/>
-            </p>
-      <p rend="indent" xml:id="K_2095_p5">
-                <lb xml:id="p3-l1"/>Das <seg type="com">offizielle Schreiben<note xml:id="K_2095_c7">In der Sitzung vom <date when="1864-10-28">28. Oktober 1864</date> entschied der engere Ausschuss,
-						ein Schreiben an <persName type="person" key="Jacini Stefano">Stefano
-							Jacini</persName> zu richten, worin <bibl>ihm der Wunsch zu erkennen gegeben
+							November</date> ab. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 1. Dezember
+						1864.</note> Dabei<lb xml:id="p2-l10"/> habe ich ihm gemäß meinem Versprechen<lb xml:id="p2-l11"/>
+				noch von befreundeter Seite in confiden<lb xml:id="p2-l12" break="no"/>tieller Weise schreiben
+				lassen. Seit dem<lb xml:id="p2-l13" break="no"/><date when="1864-10-28">Freitage</date> habe ich Gelegenheit gehabt, noch<lb xml:id="p2-l14" break="no"/>
+				mit verschiedenen weitern Personen,<lb xml:id="p2-l15" break="no"/> welche mit <persName key="Meiss Jean Conrad von">v. Meiß</persName> &amp; in <placeName key="Italien (Königreich)">Italien</placeName> gut be<lb xml:id="p2-l16" break="no"/>kannt
+				sind, über die Person unsers neu<lb xml:id="p2-l17" break="no"/>ernannten ständigen<!--hier habe ich ein zweites Mal geschriebenes "ständigen" gelöscht<resp>MF</resp> <revisiondate>23.01.2007--> Kommissärs
+					Rückspra<lb xml:id="p2-l18" break="no"/>che zu nehmen, &amp; es hat mir zu großer<lb xml:id="p2-l19" break="no"/> Befriedigung gereicht, wiederholt wahr<lb xml:id="p2-l20" break="no"/>zunehmen, daß ihm von allen Seiten<lb xml:id="p2-l21" break="no"/> entschiedenes Lob zu Theil
+				wird. <pb n="3"/></p>
+      <p rend="indent" xml:id="K_2095_p5"><lb xml:id="p3-l1"/>Das offizielle Schreiben<note type="com" xml:id="K_2095_c7">In der Sitzung vom <date when="1864-10-28">28. Oktober 1864</date> entschied der engere Ausschuss,
+						ein Schreiben an <persName key="Jacini Stefano">Stefano
+							Jacini</persName> zu richten, worin <orig>ihm der Wunsch zu erkennen gegeben
 							werden soll, durch eine Abordnung in persönlichen Verkehr mit ihm zu
-							treten</bibl>. <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>,
+							treten</orig>. <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>,
 						28. Oktober 1864. – In seiner Antwort vom <date when="1864-11-28">28. November
-							1864</date> hielt <persName type="person" key="Jacini Stefano">Jacini</persName>
-						fest, dass er die Abordnung der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung erst nach der Einsicht
-						des auf Ende Dezember 1864 zu erwartenden Berichts der <placeName type="place" key="Italien (Königreich)">italienischen</placeName> technischen <placeName type="place" key="Alpen">Alpen</placeName>bahnkommission empfangen könne.
-							<choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 1. Dezember
-						1864.</note>
-                </seg> an <seg type="com">
-                    <persName type="person" key="Jacini Stefano">Jacini</persName>
-                    <note xml:id="K_2095_c8">
-                        <persName type="person" key="Jacini Stefano">Stefano Jacini</persName> (1826–1891),
-						Minister für öffentliche Arbeiten des Königreichs <placeName type="place" key="Italien (Königreich)">Italien</placeName>.</note>
-                </seg> ist eben<lb break="no" xml:id="p3-l2"/>falls expedirt. Wie ich es zugesagt, habe ich<lb xml:id="p3-l3"/> gleichzeitig an <seg type="ref">
-                    <choice>
-                            <abbr>H.</abbr>
-                            <expan>Herr</expan>
-                        </choice> <persName type="person" key="Pioda Giovanni Battista">Pioda</persName>
-                    <ref type="kbp">→ Giovanni Battista Pioda</ref>
-                </seg> geschrieben, ihm<lb xml:id="p3-l4"/> Nachricht von der gegenwärtig nördlich<lb xml:id="p3-l5"/> von den <placeName type="place" key="Alpen">Alpen</placeName> obwaltenden
-					Situation<lb xml:id="p3-l6"/> gegeben &amp; ihn sodann unter Beilegung ei<lb break="no" xml:id="p3-l7"/>ner Abschrift des Briefes an <persName type="person" key="Jacini Stefano">Jacini</persName>, er<lb break="no" xml:id="p3-l8"/>sucht, mit letzterm
-				im Sinne der Anberau<lb break="no" xml:id="p3-l9"/>mung eines uns convenirenden
-					Zeitpunc<lb break="no" xml:id="p3-l10"/>tes für die Conferenz Rücksprache zu nehmen.<lb xml:id="p3-l11"/> Nachdem ich meinen Brief an <persName type="person" key="Pioda Giovanni Battista">Pioda</persName>
-                    <date when="1864-10-31">gestern</date>
-                    <lb xml:id="p3-l12"/> auf die Post gegeben, kam mir <date when="1864-11-01">heute</date>
-                    <lb xml:id="p3-l13"/> früh <seg type="com">ein Schreiben <persName type="person" key="Pioda Giovanni Battista">Pioda's</persName> zu, welches ich<lb xml:id="p3-l14"/> diesen Zeilen beilege<note xml:id="K_2095_c9">Beilage nicht ermittelt.</note>
-                </seg> &amp; das ich Sie nach<lb xml:id="p3-l15"/> genommener Einsicht wieder <supplied>an
-					m</supplied>ich<lb xml:id="p3-l16"/> zurücksenden zu wollen bitte. Sie<lb xml:id="p3-l17"/>
-				werden den Inhalt des Schreibens ohne Zwei<lb break="no" xml:id="p3-l18"/>fel mit mir
-				befriedigend finden. <persName type="person" key="Jacini Stefano">Jaci<lb break="no" xml:id="p3-l19"/>ni</persName> wünscht neuerdings möglichste Beför<lb break="no" xml:id="p3-l20"/>derung des technischen Gutachtens betref<lb break="no" xml:id="p3-l21"/>fend
-				den <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>. Ich verkehre täglich <pb n="4"/>
-                    <lb xml:id="p4-l1"/> mit <seg type="ref">
-                    <choice>
-                            <abbr>H.</abbr>
-                            <expan>Herr</expan>
-                        </choice> <persName type="person" key="Beckh August von">Beckh</persName>
-                    <ref type="kbp">→ August von Beckh</ref>
-                </seg> im Sinne der Realisirung dieses<lb xml:id="p4-l2"/> Wunsches. Ich hoffe, daß durch
-				die Übersied<lb break="no" xml:id="p4-l3"/>lung des <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Beckh August von">Beckh</persName> nach <placeName type="place" key="Zürich (Stadt)">Zürich</placeName> viel für<lb xml:id="p4-l4"/> die <seg type="com">beförderlichere Vollendung des<lb xml:id="p4-l5"/> technischen Gutachtens<note xml:id="K_2095_c10">Das technische Gutachten der Ingenieure <persName type="person" key="Beckh August von">Beckh</persName> und <ref type="kbp"/>
-                        <persName type="person" key="Gerwig Robert">Robert Gerwig</persName> wurde im Mai 1865
-						veröffentlicht. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Beckh/Gerwig, Rentabilität</ref>; <ref type="sum" target="Gotthardvereinigung_p4"><!-- → Band 1, S. 194--></ref>.</note>
-                </seg> gewonnen worden<lb xml:id="p4-l6"/> sei. Der Dezember, von welchem <persName type="person" key="Jacini Stefano">Jaci<lb break="no" xml:id="p4-l7"/>ni</persName> als
-				Zeitpunct für die Abhaltung un<lb break="no" xml:id="p4-l8"/>serer Besprechungen geredet hat,
-					kann<lb xml:id="p4-l9"/> uns natürlich nicht conveniren. <persName type="person" key="Pioda Giovanni Battista">Pioda</persName>
-                    <lb xml:id="p4-l10"/> wird nach Empfang meines Briefes mit<lb xml:id="p4-l11"/>
-                    <persName type="person" key="Jacini Stefano">Jacini</persName> im Sinne einer Abänderung
-					des<lb xml:id="p4-l12"/> von ihm vorläufig bezeichneten Zeit<lb break="no" xml:id="p4-l13"/>punctes Rücksprache genommen haben. Ich<lb xml:id="p4-l14"/> habe <persName type="person" key="Pioda Giovanni Battista">P.</persName> ersucht, uns möglichst beförderlich<lb xml:id="p4-l15"/> in Sachen zu orientiren. </p>
-      <p rend="indent" xml:id="K_2095_p6">
-                <lb xml:id="p4-l16"/>
-        <choice>
-                        <abbr>Hrn.</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-        <persName type="person" key="Gönner Adolph">Gönner</persName> will ich <placeName type="place" key="Frankreich">französische</placeName> Exempla<lb break="no" xml:id="p4-l17"/>re der <seg type="com">Denkschrift über die commerzielle<lb xml:id="p4-l18"/> Bedeutung des <placeName type="place" key="St. Gotthard (Pass)">Gotthardt</placeName>
-                    <note xml:id="K_2095_c11">
-                        <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Koller/Schmidlin/Stoll, Gotthardbahn</ref>; <ref type="sum" target="Gotthardvereinigung_p4"><!-- → Band 1, S. 194--></ref>. </note>
-                </seg> zukommen lassen.<lb xml:id="p4-l19"/> Ich ersuche Sie nur, mir die Adresse
-					dessel<lb break="no" xml:id="p4-l20"/>ben noch genau angeben zu wollen. </p>
-    </div>
-        </body>
-    <back>
+							1864</date> hielt <persName key="Jacini Stefano">Jacini</persName>
+						fest, dass er die Abordnung der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>vereinigung erst nach der Einsicht
+						des auf Ende Dezember 1864 zu erwartenden Berichts der <placeName key="Italien (Königreich)">italienischen</placeName> technischen <placeName key="Alpen">Alpen</placeName>bahnkommission empfangen könne.
+							<choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 1. Dezember
+						1864.</note> an <persName key="Jacini Stefano">Jacini</persName><note type="com" xml:id="K_2095_c8"><persName key="Jacini Stefano">Stefano Jacini</persName> (1826–1891),
+						Minister für öffentliche Arbeiten des Königreichs <placeName key="Italien (Königreich)">Italien</placeName>.</note> ist eben<lb xml:id="p3-l2" break="no"/>falls expedirt. Wie ich es zugesagt, habe ich<lb xml:id="p3-l3" break="no"/> gleichzeitig an <rs><choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Pioda Giovanni Battista">Pioda</persName></rs> geschrieben, ihm<lb xml:id="p3-l4" break="no"/> Nachricht von der gegenwärtig nördlich<lb xml:id="p3-l5" break="no"/> von den <placeName key="Alpen">Alpen</placeName> obwaltenden
+					Situation<lb xml:id="p3-l6" break="no"/> gegeben &amp; ihn sodann unter Beilegung ei<lb xml:id="p3-l7" break="no"/>ner Abschrift des Briefes an <persName key="Jacini Stefano">Jacini</persName>, er<lb xml:id="p3-l8" break="no"/>sucht, mit letzterm
+				im Sinne der Anberau<lb xml:id="p3-l9" break="no"/>mung eines uns convenirenden
+					Zeitpunc<lb xml:id="p3-l10" break="no"/>tes für die Conferenz Rücksprache zu nehmen.<lb xml:id="p3-l11" break="no"/> Nachdem ich meinen Brief an <persName key="Pioda Giovanni Battista">Pioda</persName> <date when="1864-10-31">gestern</date> <lb xml:id="p3-l12" break="no"/> auf die Post gegeben, kam mir <date when="1864-11-01">heute</date> <lb xml:id="p3-l13" break="no"/> früh ein Schreiben <persName key="Pioda Giovanni Battista">Pioda's</persName> zu, welches ich<lb xml:id="p3-l14"/> diesen Zeilen beilege<note type="com" xml:id="K_2095_c9">Beilage nicht ermittelt.</note> &amp; das ich Sie nach<lb xml:id="p3-l15" break="no"/> genommener Einsicht wieder <add>an
+					m</add>ich<lb xml:id="p3-l16" break="no"/> zurücksenden zu wollen bitte. Sie<lb xml:id="p3-l17" break="no"/>
+				werden den Inhalt des Schreibens ohne Zwei<lb xml:id="p3-l18" break="no"/>fel mit mir
+				befriedigend finden. <persName key="Jacini Stefano">Jaci<lb xml:id="p3-l19" break="no"/>ni</persName> wünscht neuerdings möglichste Beför<lb xml:id="p3-l20" break="no"/>derung des technischen Gutachtens betref<lb xml:id="p3-l21" break="no"/>fend
+				den <placeName key="St. Gotthard (Pass)">Gotthardt</placeName>. Ich verkehre täglich <pb n="4"/><lb xml:id="p4-l1" break="no"/> mit <rs><choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Beckh August von">Beckh</persName></rs> im Sinne der Realisirung dieses<lb xml:id="p4-l2" break="no"/> Wunsches. Ich hoffe, daß durch
+				die Übersied<lb xml:id="p4-l3" break="no"/>lung des <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Beckh August von">Beckh</persName> nach <placeName key="Zürich (Stadt)">Zürich</placeName> viel für<lb xml:id="p4-l4" break="no"/> die beförderlichere Vollendung des<lb xml:id="p4-l5"/> technischen Gutachtens<note type="com" xml:id="K_2095_c10">Das technische Gutachten der Ingenieure <persName key="Beckh August von">Beckh</persName> und <persName key="Gerwig Robert">Robert Gerwig</persName> wurde im Mai 1865
+						veröffentlicht. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Beckh/Gerwig, Rentabilität</ref>; <ref type="sum" target="Gotthardvereinigung_p4"><!-- → Band 1, S. 194--></ref>.</note> gewonnen worden<lb xml:id="p4-l6" break="no"/> sei. Der Dezember, von welchem <persName key="Jacini Stefano">Jaci<lb xml:id="p4-l7" break="no"/>ni</persName> als
+				Zeitpunct für die Abhaltung un<lb xml:id="p4-l8" break="no"/>serer Besprechungen geredet hat,
+					kann<lb xml:id="p4-l9" break="no"/> uns natürlich nicht conveniren. <persName key="Pioda Giovanni Battista">Pioda</persName> <lb xml:id="p4-l10" break="no"/> wird nach Empfang meines Briefes mit<lb xml:id="p4-l11" break="no"/><persName key="Jacini Stefano">Jacini</persName> im Sinne einer Abänderung
+					des<lb xml:id="p4-l12" break="no"/> von ihm vorläufig bezeichneten Zeit<lb xml:id="p4-l13" break="no"/>punctes Rücksprache genommen haben. Ich<lb xml:id="p4-l14" break="no"/> habe <persName key="Pioda Giovanni Battista">P.</persName> ersucht, uns möglichst beförderlich<lb xml:id="p4-l15" break="no"/> in Sachen zu orientiren. </p>
+      <p rend="indent" xml:id="K_2095_p6"><lb xml:id="p4-l16"/>
+        <choice><abbr>Hrn.</abbr><expan>Herrn</expan></choice>
+        <persName key="Gönner Adolph">Gönner</persName> will ich <placeName key="Frankreich">französische</placeName> Exempla<lb xml:id="p4-l17" break="no"/>re der Denkschrift über die commerzielle<lb xml:id="p4-l18"/> Bedeutung des <placeName key="St. Gotthard (Pass)">Gotthardt</placeName><note type="com" xml:id="K_2095_c11"><choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Koller/Schmidlin/Stoll, Gotthardbahn</ref>; <ref type="sum" target="Gotthardvereinigung_p4"><!-- → Band 1, S. 194--></ref>. </note> zukommen lassen.<lb xml:id="p4-l19" break="no"/> Ich ersuche Sie nur, mir die Adresse
+					dessel<lb xml:id="p4-l20" break="no"/>ben noch genau angeben zu wollen. </p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2095_p7">
-                    <lb xml:id="p4-l21"/>In freundschaftlicher Hochachtung </p>
-        <p rend="center" xml:id="K_2095_p8">
-                    <lb xml:id="p4-l22"/>Ihr</p>
+        <p rend="indent" xml:id="K_2095_p7"><lb xml:id="p4-l21"/>In freundschaftlicher Hochachtung </p>
+        <p rend="center" xml:id="K_2095_p8"><lb xml:id="p4-l22"/>Ihr</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2095_p9">
-                    <lb xml:id="p4-l23"/>
-          <choice>
-                        <abbr>Dr</abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice> A Escher.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2095_p9"><lb xml:id="p4-l23"/>
+          <choice><abbr>Dr</abbr><expan>Doktor / Doctor</expan></choice> A Escher.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

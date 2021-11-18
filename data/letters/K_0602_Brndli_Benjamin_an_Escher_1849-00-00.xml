@@ -1,157 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0602" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Benjamin Brändli an Alfred Escher, s.l., [1849?]</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#581*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Wahlen</item>
-                        <item>Bewerbungen/Empfehlungen/Referenzen</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Brändli Benjamin" type="sender">Benjamin Brändli</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>s.l.</placeName>
-                    <date when="1849">[1849?]</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-08-23" who="MW">Transkribiert
-                
-            </change>
-            <change when="2010-02-26" who="SW">Von Word nach XML konvertiert
-                
-            </change>
-            <change when="2012-06-04" who="GW">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2012-06-11" who="TM">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2012-07-06" who="SCK">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2012-07-16" who="TM">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2012&#xA;&#x9;&#x9;&#x9;-07-18" who="LM&#xA;&#x9;&#x9;&#x9;">Transkriptionsveriifzierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2012&#xA;&#x9;&#x9;&#x9;-08-15" who="FW&#xA;&#x9;&#x9;&#x9;">Übertragung der Transkritionsverifizierung geprüft
-                
-            </change>
-            <change when="2012-08-22" who="CA">Inhaltliche Qualitätskontrolle
-				umgesetzt
-                
-            </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front><!--<printedheader><p rend="left" id="K_0602_p1"><lb id="p1-l1"/>BATH</p> </printedheader>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0602" type="Brief"><teiHeader><fileDesc><titleStmt><title>Benjamin Brändli an Alfred Escher, s.l., [1849?]</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#581*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Wahlen</term><term>Bewerbungen/Empfehlungen/Referenzen</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Brändli Benjamin" type="addressee">Benjamin Brändli</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><date when="1849-01-01">[1849?]</date></correspAction></correspDesc></profileDesc></teiHeader><text><front><!--<printedheader><p rend="left" id="K_0602_p1"><lb id="p1-l1"/>BATH</p> </printedheader>-->
       <div type="opener">
-        <p rend="indent" xml:id="K_0602_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_0602_c0">Datierung gemäss Archivnotiz.</note>
-                    </seg> <lb xml:id="p1-l1"/>Guten Morgen, mein Lieber!</p>
+        <p rend="indent" xml:id="K_0602_p1"> 
+                        <note type="com" xml:id="K_0602_c0">Datierung gemäss Archivnotiz.</note>
+                     <lb xml:id="p1-l1"/>Guten Morgen, mein Lieber!</p>
       </div>
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_0602_p2">
                 <lb xml:id="p1-l2"/>
-        <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-        <choice>
-                        <abbr>BezRathschreiber</abbr>
-                        <expan>BezirksRathsschreiber</expan>
-                    </choice>
-        <persName type="person" key="Homberger Heinrich">Homberger</persName> meldet eben: heute komme die <choice>
-                        <abbr>QuartierCommWahl</abbr>
-                        <expan>QuartierCommandantenWahl</expan>
-                    </choice> <lb xml:id="p1-l3"/>
-                <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <placeName type="place" key="Uster">Uster</placeName> vor &amp; es<!-- Lesung korrigiert (zuvor "er"); BF, 28.01.2014 --> werde von <persName type="person" key="Stiefel Johannes">Stiefel</persName> <choice>
-                        <abbr>FriedRr</abbr>
-                        <expan>FriedensRichter</expan>
-                    </choice>, 2<hi rend="sup">t
+        <choice><abbr>Hr</abbr><expan>Herr</expan></choice>
+        <choice><abbr>BezRathschreiber</abbr><expan>BezirksRathsschreiber</expan></choice>
+        <persName key="Homberger Heinrich">Homberger</persName> meldet eben: heute komme die <choice><abbr>QuartierCommWahl</abbr><expan>QuartierCommandantenWahl</expan></choice> <lb xml:id="p1-l3"/>
+                <choice><abbr>v.</abbr><expan>von</expan></choice> <placeName key="Uster">Uster</placeName> vor &amp; es<!-- Lesung korrigiert (zuvor "er"); BF, 28.01.2014 --> werde von <persName key="Stiefel Johannes">Stiefel</persName> <choice><abbr>FriedRr</abbr><expan>FriedensRichter</expan></choice>, 2<hi rend="sup">t
 				</hi> 
 		Vorgeschlagener, bedeutend<lb xml:id="p1-l4"/>
-getrieben &amp; intriguirt &amp; für ihn &amp; <hi rend="underline">gegen</hi> <persName type="person" key="Homberger Heinrich">Homberger</persName> Procurator, den der<lb xml:id="p1-l5"/> 1stvorgeschlagene ist – Sei dem, wie ihm wolle, - darüber kann kein Zweifel<lb xml:id="p1-l6"/>
-sein, daß unter den 3 vorgschlagenen <persName type="person" key="Homberger Heinrich">
-                    Homb.</persName> in allen <choice>
-                        <abbr>wesentl</abbr>
-                        <expan>wesentlich</expan>
-                    </choice> Beziehungen<lb xml:id="p1-l7"/>
+getrieben &amp; intriguirt &amp; für ihn &amp; <hi rend="underline">gegen</hi> <persName key="Homberger Heinrich">Homberger</persName> Procurator, den der<lb xml:id="p1-l5"/> 1stvorgeschlagene ist – Sei dem, wie ihm wolle, - darüber kann kein Zweifel<lb xml:id="p1-l6"/>
+sein, daß unter den 3 vorgschlagenen <persName key="Homberger Heinrich">
+                    Homb.</persName> in allen <choice><abbr>wesentl</abbr><expan>wesentlich</expan></choice> Beziehungen<lb xml:id="p1-l7"/>
 der tüchtigste ist: &amp; die Stelle gewiß auch mit Allem Recht verdient.<lb xml:id="p1-l8"/>
-Das wünschen auch wie ich weiß unsere zuverläßigsten <choice>
-                        <abbr>polit.</abbr>
-                        <expan>politisch</expan>
-                    </choice> Freunde<lb xml:id="p1-l9"/>
+Das wünschen auch wie ich weiß unsere zuverläßigsten <choice><abbr>polit.</abbr><expan>politisch</expan></choice> Freunde<lb xml:id="p1-l9"/>
 in dorten
-				<persName type="person" key="Zangger Hans Heinrich">Zangger</persName> <choice>
-                        <abbr>
-                    <hi>etc</hi>.</abbr>
-                        <expan>et cetera (und anderes)</expan>
-                    </choice> </p>
+				<persName key="Zangger Hans Heinrich">Zangger</persName> <choice><abbr><hi>etc</hi>.</abbr><expan>et cetera (und anderes)</expan></choice> </p>
       <p rend="indent" xml:id="K_0602_p3">
                 <lb xml:id="p1-l10"/>
-        <persName type="person" key="Stiefel Johannes">Stiefel</persName> – nur diesen elenden «Intriguanten in allen Dingen»<lb xml:id="p1-l11"/>
+        <persName key="Stiefel Johannes">Stiefel</persName> – nur diesen elenden «Intriguanten in allen Dingen»<lb xml:id="p1-l11"/>
 nicht., ich halte ihn für ein gemeines <hi>Subject</hi>.</p>
       <p rend="left" xml:id="K_0602_p4">
-                <lb xml:id="p1-l12"/>Aus dies. Gründen, konnte ich der Bitte <choice>
-                        <abbr>Hr</abbr>
-                        <expan>Herr</expan>
-                    </choice> <persName type="person" key="Homberger Heinrich">Hombergers</persName> <supplied type="unclear">
-                    <choice>
-                            <abbr>BRSch</abbr>
-                            <expan>BezirksRathsSchreiber</expan>
-                        </choice>. </supplied> <lb xml:id="p1-l13"/>
-Dir mit e. Wort <persName type="person" key="Bruder Heinrich Hombergers">
-                    <choice>
-                            <abbr>s.</abbr>
-                            <expan>sein</expan>
-                        </choice>
+                <lb xml:id="p1-l12"/>Aus dies. Gründen, konnte ich der Bitte <choice><abbr>Hr</abbr><expan>Herr</expan></choice> <persName key="Homberger Heinrich">Hombergers</persName> <add type="?">
+                    <choice><abbr>BRSch</abbr><expan>BezirksRathsSchreiber</expan></choice>. </add> <lb xml:id="p1-l13"/>
+Dir mit e. Wort <persName key="Bruder Heinrich Hombergers">
+                    <choice><abbr>s.</abbr><expan>sein</expan></choice>
 Bruder</persName> zu empfehlen, nicht widerstehen, obgleich <hi rend="underline">ich</hi> <lb xml:id="p1-l14"/>
 es für ganz überflüßig halte.</p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
         <p rend="center" xml:id="K_0602_p5">
                     <lb xml:id="p1-l15"/>Ganz Dein</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_0602_p6">
                     <lb xml:id="p1-l16"/>
           Beni
         </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

@@ -1,290 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2399" n="125" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Philipp Gottlieb Labhardt an Alfred Escher, Frauenfeld, Sonntag, Februar 13, 1870</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#325*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Absagebriefe (diverse)</item>
-                        <item>Gotthardbahnprojekt</item>
-                        <item>Öffentliche Beteiligungen (Infrastruktur)</item>
-                        <item>Personelle Angelegenheiten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Labhardt Philipp Gottlieb" type="sender">Philipp Gottlieb Labhardt</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Frauenfeld</placeName>
-                    <date when="1870-02-13">Sonntag, Februar 13, 1870</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2006-08-03" who="WB"> transkribiert
-                
-            </change>
-            <change when="Oktober 2006" who="swissedit, UR">von Word nach XML konvertiert
-                
-            </change>
-            <change when="2006-10-17" who="BF">kommentiert 1 offen
-                
-            </change>
-            <change when="2006-10-29" who="SM">xml kontrolliert
-                
-            </change>
-            <change when="2007-02-19" who="TN">Korrekturen übertragen
-                
-            </change>
-            <change when="2007-02-26" who="BF">provisorisch kommentiert 2
-                
-            </change>
-            <change when="2007-03-30" who="WB">indexiert
-                
-            </change>
-            <change when="2007-04-23" who="BF">Korrekturen 1 Haberthür übertragen
-                
-            </change>
-            <change when="2007-05-17" who="BF">Umsetzung Lektorat und Verifizierung
-                
-            </change>
-            <change when="2007-06-11" who="WB">Umsetzung Lektorat 2
-                
-            </change>
-            <change when="2007-06-25" who="BF">Umsetzung Verifizierung Verweise
-                
-            </change>
-            <change when="2007-07-12" who="BF">Umsetzung Lektorat MK 2
-                
-            </change>
-            <change when="2007-08-07" who="BF">Umsetzung Verifizierung Personenerwähnungen
-                
-            </change>
-            <change when="2008-07-29" who="SW">Auf Stand Edition gebracht
-                
-            </change>
-            <change when="2011-07-18" who="HA">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-08-04" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2014-01-29" who="DG">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2014-11-19" who="VP">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-19" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-11-19" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2018-12-05" who="DB">Transkriptionsverifizierung Seiterle umgesetzt
-      
-      </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2399" type="Brief"><teiHeader><fileDesc><titleStmt><title>Philipp Gottlieb Labhardt an Alfred Escher, Frauenfeld, Sonntag, 13. Februar 1870</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#325*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Nordostbahn (NOB)</term><term>Absagebriefe (diverse)</term><term>Gotthardbahnprojekt</term><term>Öffentliche Beteiligungen (Infrastruktur)</term><term>Personelle Angelegenheiten</term></keywords><keywords scheme="http://briefedition.alfred-escher.ch/theme"><term> Alpenbahn</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Labhardt Philipp Gottlieb" type="addressee">Philipp Gottlieb Labhardt</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Frauenfeld</placeName><date when="1870-02-13">13. Februar 1870</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2399_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Frauenfeld">Frauenfeld</placeName> den <date when="1870-02-13">13<hi rend="sup">t</hi> <hi>Febr</hi>: <hi rend="underline">1870.</hi> </date>
-                </p>
+        <p rend="right" xml:id="K_2399_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Frauenfeld">Frauenfeld</placeName> den <date when="1870-02-13">13<hi rend="sup">t</hi> <hi>Febr</hi>: <hi rend="underline">1870.</hi> </date></p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_2399_p2">
-                    <lb xml:id="p1-l2"/>Hochgeachteter Herr!</p>
+        <p rend="left" xml:id="K_2399_p2"><lb xml:id="p1-l2"/>Hochgeachteter Herr!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="left" xml:id="K_2399_p3">
-                <lb xml:id="p1-l3"/>Sie haben im letzten Spätjahr die Güte gehabt, mir<lb xml:id="p1-l4"/>
-	    die Stelle eines Verwaltungsrathes der <seg type="ref">
-                    <choice>
-                            <abbr>N.O.B.</abbr>
-                            <expan>NordOstBahn</expan>
-                        </choice>
-                    <ref type="kbe">→ NOB</ref>
-                </seg> anzubie<lb break="no" xml:id="p1-l5"/>ten, 
-und ich habe Ihr Anerbieten wenigstens nicht<lb xml:id="p1-l6"/>
-abgelehnt. Nun da die Zeit heranrückt, wo die Wie<lb break="no" xml:id="p1-l7"/>derbesetzung 
-eines <placeName type="place" key="Thurgau">Thurgauischen</placeName> Sitzes in jener Behör<lb break="no" xml:id="p1-l8"/>de 
-statt finden soll, habe ich Ihre Anregung wieder<lb break="no" xml:id="p1-l9"/>holtem 
-Nachdenken unterworfen, und bin zu dem<lb xml:id="p1-l10"/>
-Entschluße gelangt, Sie zu ersuchen, <hi rend="underline">ganz</hi> von meiner<lb xml:id="p1-l11"/>
-Person abzusehen. Die Gründe sind folgende:<lb xml:id="p1-l12"/>
-Einmal wäre mein Eintritt in das <hi>Collegium</hi> weder<lb xml:id="p1-l13"/>
-für mich noch für Andere eine angenehme Sache.<lb xml:id="p1-l14"/>
-                    <seg type="com">Wenn ich es auch persönlich als Ehre betrachten<lb xml:id="p1-l15"/>
-würde, hie und da unter Ihrer Leitung zu wir<lb break="no" xml:id="p1-l16"/>ken, 
-so widert es mich dagegen um so mehr<lb xml:id="p1-l17"/>
-an, mit einer bekannten Persönlichkeit in nähere<lb xml:id="p1-l18"/>
-Beziehung zu treten, deren Charakter und Handlungs<lb break="no" xml:id="p1-l19"/>weise  ich immer mehr verachten lerne.<note xml:id="K_2399_c1">Vermutlich handelt es sich bei dieser «bekannten Persönlichkeit» um <ref type="kbp"/>
-                        <persName type="person" key="Häberlin Eduard">Eduard Häberlin</persName>.</note>
-                </seg> Auch meine<lb xml:id="p1-l20"/>
-Verhältniße gegenüber den Herren <seg type="com">
-                    <persName type="person" key="Egloff Johann Konrad">Egloff</persName>
-                    <note xml:id="K_2399_c2">
-                        <persName type="person" key="Egloff Johann Konrad">Johann Konrad Egloff</persName> (1808–1886), Oberrichter (<placeName type="place" key="Thurgau">TG</placeName>), Verwaltungsrat der Schweizerischen Nordostbahn.</note>
-                </seg> und <seg type="com">
-                    <persName type="person" key="Keller Johannes">Keller</persName>
-                    <note xml:id="K_2399_c3">
-                        <persName type="person" key="Keller Johannes">Johannes Keller</persName> (1802–1877), ehemaliger Regierungsrat (<placeName type="place" key="Thurgau">TG</placeName>) (1833–1869), Verwaltungsrat der Schweizerischen Nordostbahn.</note>
-                </seg>
-                    <lb xml:id="p1-l21"/>
+    </front><body>
+      <p rend="left" xml:id="K_2399_p3"><lb xml:id="p1-l3"/>Sie haben im letzten Spätjahr die Güte gehabt, mir<lb xml:id="p1-l4"/>
+	    die Stelle eines Verwaltungsrathes der <rs><choice><abbr>N.O.B.</abbr><expan>NordOstBahn</expan></choice></rs> anzubie<lb xml:id="p1-l5" break="no"/>ten, 
+und ich habe Ihr Anerbieten wenigstens nicht<lb xml:id="p1-l6" break="no"/>
+abgelehnt. Nun da die Zeit heranrückt, wo die Wie<lb xml:id="p1-l7" break="no"/>derbesetzung 
+eines <placeName key="Thurgau">Thurgauischen</placeName> Sitzes in jener Behör<lb xml:id="p1-l8" break="no"/>de 
+statt finden soll, habe ich Ihre Anregung wieder<lb xml:id="p1-l9" break="no"/>holtem 
+Nachdenken unterworfen, und bin zu dem<lb xml:id="p1-l10" break="no"/>
+Entschluße gelangt, Sie zu ersuchen, <hi rend="underline">ganz</hi> von meiner<lb xml:id="p1-l11" break="no"/>
+Person abzusehen. Die Gründe sind folgende:<lb xml:id="p1-l12" break="no"/>
+Einmal wäre mein Eintritt in das <hi>Collegium</hi> weder<lb xml:id="p1-l13" break="no"/>
+für mich noch für Andere eine angenehme Sache.<lb xml:id="p1-l14" break="no"/> Wenn ich es auch persönlich als Ehre betrachten<lb xml:id="p1-l15"/>
+würde, hie und da unter Ihrer Leitung zu wir<lb xml:id="p1-l16" break="no"/>ken, 
+so widert es mich dagegen um so mehr<lb xml:id="p1-l17" break="no"/>
+an, mit einer bekannten Persönlichkeit in nähere<lb xml:id="p1-l18" break="no"/>
+Beziehung zu treten, deren Charakter und Handlungs<lb xml:id="p1-l19" break="no"/>weise  ich immer mehr verachten lerne.<note type="com" xml:id="K_2399_c1">Vermutlich handelt es sich bei dieser «bekannten Persönlichkeit» um <persName key="Häberlin Eduard">Eduard Häberlin</persName>.</note> Auch meine<lb xml:id="p1-l20" break="no"/>
+Verhältniße gegenüber den Herren <persName key="Egloff Johann Konrad">Egloff</persName><note type="com" xml:id="K_2399_c2"><persName key="Egloff Johann Konrad">Johann Konrad Egloff</persName> (1808–1886), Oberrichter (<placeName key="Thurgau">TG</placeName>), Verwaltungsrat der Schweizerischen Nordostbahn.</note> und <persName key="Keller Johannes">Keller</persName><note type="com" xml:id="K_2399_c3"><persName key="Keller Johannes">Johannes Keller</persName> (1802–1877), ehemaliger Regierungsrat (<placeName key="Thurgau">TG</placeName>) (1833–1869), Verwaltungsrat der Schweizerischen Nordostbahn.</note> <lb xml:id="p1-l21" break="no"/>
 sind nichts weniger als grün.
-<pb n="2"/>
-            </p>
-      <p rend="left" xml:id="K_2399_p4">
-                <lb xml:id="p2-l1"/> <seg type="com">Doch das freimüthig Ausgesprochene ist nicht gerade die<lb xml:id="p2-l2"/>
-Hauptsache, vielmehr der gegenwärtige Stand der<lb xml:id="p2-l3"/>
-                    <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>-Angelegenheit in unserm Kanton.<note xml:id="K_2399_c4">Eine Anfang Februar vom <placeName type="place" key="Thurgau">Thurgauer</placeName> Regierungsrat eingesetzte Expertenkommission sollte untersuchen, welchen Einfluss eine Eisenbahn über den <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName> auf die <placeName type="place" key="Thurgau">Thurgauer</placeName> Wirtschaft ausüben würde und ob demnach eine <placeName type="place" key="Thurgau">thurgauische</placeName> Subvention gerechtfertigt wäre. Das <placeName type="place" key="Thurgau">Thurgauervolk</placeName> lehnte am <date when="1870-07-10">10. Juli 1870</date> eine <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>subvention von 150 000 Franken ab. Der Kanton unterstützte das <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>unternehmen dann aber doch mit einer Subvention von 100 000 Franken, nachdem diese zunächst im September 1871 vom Grossen Rat und am <date when="1871-10-29">29. Oktober 1871</date> vom Volk angenommen wurde. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">NZZ</ref>, 5. Februar 1870, 15. Juli 1870, 14. September 1871, 20. September 1871; <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 4. November 1871; <ref type="lit">Mebold, Häberlin</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 397.</note>
-                </seg> <seg type="com">
-                    <persName type="person" key="Sulzberger Johann Ludwig">Sulzberger</persName>
-                    <note xml:id="K_2399_c5">
-                        <persName type="person" key="Sulzberger Johann Ludwig">Johann Ludwig Sulzberger</persName> (1815–1882), Regierungsrat (<placeName type="place" key="Thurgau">TG</placeName>), Verwaltungsrat der <placeName type="place" key="Thurgau">Thurgauischen</placeName> Hypothekenbank.</note>
-                </seg> <lb xml:id="p2-l4"/>
+<pb n="2"/></p>
+      <p rend="left" xml:id="K_2399_p4"><lb xml:id="p2-l1"/> Doch das freimüthig Ausgesprochene ist nicht gerade die<lb xml:id="p2-l2"/>
+Hauptsache, vielmehr der gegenwärtige Stand der<lb xml:id="p2-l3"/><placeName key="St. Gotthard (Pass)">Gotthard</placeName>-Angelegenheit in unserm Kanton.<note type="com" xml:id="K_2399_c4">Eine Anfang Februar vom <placeName key="Thurgau">Thurgauer</placeName> Regierungsrat eingesetzte Expertenkommission sollte untersuchen, welchen Einfluss eine Eisenbahn über den <placeName key="St. Gotthard (Pass)">Gotthard</placeName> auf die <placeName key="Thurgau">Thurgauer</placeName> Wirtschaft ausüben würde und ob demnach eine <placeName key="Thurgau">thurgauische</placeName> Subvention gerechtfertigt wäre. Das <placeName key="Thurgau">Thurgauervolk</placeName> lehnte am <date when="1870-07-10">10. Juli 1870</date> eine <placeName key="St. Gotthard (Pass)">Gotthard</placeName>subvention von 150 000 Franken ab. Der Kanton unterstützte das <placeName key="St. Gotthard (Pass)">Gotthard</placeName>unternehmen dann aber doch mit einer Subvention von 100 000 Franken, nachdem diese zunächst im September 1871 vom Grossen Rat und am <date when="1871-10-29">29. Oktober 1871</date> vom Volk angenommen wurde. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">NZZ</ref>, 5. Februar 1870, 15. Juli 1870, 14. September 1871, 20. September 1871; <ref type="lit">Prot. Ausschuss Gotthardvereinigung</ref>, 4. November 1871; <ref type="lit">Mebold, Häberlin</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 397.</note> <persName key="Sulzberger Johann Ludwig">Sulzberger</persName><note type="com" xml:id="K_2399_c5"><persName key="Sulzberger Johann Ludwig">Johann Ludwig Sulzberger</persName> (1815–1882), Regierungsrat (<placeName key="Thurgau">TG</placeName>), Verwaltungsrat der <placeName key="Thurgau">Thurgauischen</placeName> Hypothekenbank.</note> <lb xml:id="p2-l4"/>
 ist nun zwar aus seinem Schwanken herausgetreten,<lb xml:id="p2-l5"/>
 allein zu den Gegnern jeder Subvention übergegangen;<lb xml:id="p2-l6"/>
-das beweist, daß er in dieser Stellung am Meisten<lb xml:id="p2-l7"/>
-                <hi rend="underline">populair</hi> sein zu können wittert. Die übrigen Mit<lb break="no" xml:id="p2-l8"/>glieder 
-der Regierung sind zwar nicht Antipoden, aber<lb xml:id="p2-l9"/>
-jedenfalls <hi rend="underline">flau</hi>; man merkt <del>I</del>
-                    <add>I</add>hnen an, daß sie wün<lb break="no" xml:id="p2-l10"/>schen 
-würden, «der <hi rend="underline">Kelch</hi> wäre vorüber». Mit Lauwaßer<lb xml:id="p2-l11"/>
-ist aber da nicht geholfen. Die Herren Verwaltungsräthe<lb xml:id="p2-l12"/>
-                    <seg type="com">
-                    <persName type="person" key="Leumann Hans Georg">Leumann</persName><!-- Geändert von Baumann auf Leumann [BF / 26.02.2007] -->
-                    <note xml:id="K_2399_c6">
-                        <persName type="person" key="Leumann Hans Georg">Hans Georg Leumann</persName> (1814–1885), <placeName type="place" key="Thurgau">Thurgauer</placeName> Fabrikant, Verwaltungsrat der Schweizerischen Nordostbahn.</note>
-                </seg>, <persName type="person" key="Keller Johannes">Keller</persName> &amp; <persName type="person" key="Egloff Johann Konrad">Egloff</persName> können Ihrer Sache nichts<lb xml:id="p2-l13"/><!-- Geändert von Koller auf Keller [BF / 26.02.2007] -->
-nützen; dieselben haben keinen Einfluß im Kanton.<lb xml:id="p2-l14"/>
-In Beziehung auf Herrn <seg type="ref">
-                    <persName type="person" key="Häberlin Eduard">Häberlin</persName>
-                    <ref type="kbp">→ Eduard Häberlin</ref>
-                </seg> mache ich sowohl<lb xml:id="p2-l15"/>
-rücksichtlich des Willens als des Könnens ein  <hi rend="underline">?</hi>.<lb xml:id="p2-l16"/>
-Was mich selbst anbelangt, so dürfen Sie dem gegebenen<lb xml:id="p2-l17"/>
-Worte sicher vertrauen, ja es würde mich schmerzen, sofern<lb xml:id="p2-l18"/>
-der Kanton in dieser großen Frage <hi rend="underline">engherzig</hi> zurück<lb break="no" xml:id="p2-l19"/>bleiben 
-sollte; allein nach meiner Ueberzeugung würde<lb xml:id="p2-l20"/>
-eine Wahl in den Verwaltungsrath <hi rend="underline">unmittelbar vor</hi> dem<lb xml:id="p2-l21"/>
- Entscheide meine Wirksamkeit durchaus paralysieren;<lb xml:id="p2-l22"/>
+das beweist, daß er in dieser Stellung am Meisten<lb xml:id="p2-l7"/><hi rend="underline">populair</hi> sein zu können wittert. Die übrigen Mit<lb xml:id="p2-l8" break="no"/>glieder 
+der Regierung sind zwar nicht Antipoden, aber<lb xml:id="p2-l9" break="no"/>
+jedenfalls <hi rend="underline">flau</hi>; man merkt <del>I</del><add>I</add>hnen an, daß sie wün<lb xml:id="p2-l10" break="no"/>schen 
+würden, «der <hi rend="underline">Kelch</hi> wäre vorüber». Mit Lauwaßer<lb xml:id="p2-l11" break="no"/>
+ist aber da nicht geholfen. Die Herren Verwaltungsräthe<lb xml:id="p2-l12" break="no"/> <persName key="Leumann Hans Georg">Leumann</persName><!-- Geändert von Baumann auf Leumann [BF / 26.02.2007] --><note type="com" xml:id="K_2399_c6"><persName key="Leumann Hans Georg">Hans Georg Leumann</persName> (1814–1885), <placeName key="Thurgau">Thurgauer</placeName> Fabrikant, Verwaltungsrat der Schweizerischen Nordostbahn.</note>, <persName key="Keller Johannes">Keller</persName> &amp; <persName key="Egloff Johann Konrad">Egloff</persName> können Ihrer Sache nichts<lb xml:id="p2-l13" break="no"/><!-- Geändert von Koller auf Keller [BF / 26.02.2007] -->
+nützen; dieselben haben keinen Einfluß im Kanton.<lb xml:id="p2-l14" break="no"/>
+In Beziehung auf Herrn <rs><persName key="Häberlin Eduard">Häberlin</persName></rs> mache ich sowohl<lb xml:id="p2-l15" break="no"/>
+rücksichtlich des Willens als des Könnens ein  <hi rend="underline">?</hi>.<lb xml:id="p2-l16" break="no"/>
+Was mich selbst anbelangt, so dürfen Sie dem gegebenen<lb xml:id="p2-l17" break="no"/>
+Worte sicher vertrauen, ja es würde mich schmerzen, sofern<lb xml:id="p2-l18" break="no"/>
+der Kanton in dieser großen Frage <hi rend="underline">engherzig</hi> zurück<lb xml:id="p2-l19" break="no"/>bleiben 
+sollte; allein nach meiner Ueberzeugung würde<lb xml:id="p2-l20" break="no"/>
+eine Wahl in den Verwaltungsrath <hi rend="underline">unmittelbar vor</hi> dem<lb xml:id="p2-l21" break="no"/>
+ Entscheide meine Wirksamkeit durchaus paralysieren;<lb xml:id="p2-l22" break="no"/>
 da würde es heißen: «Seht, den hat man durch den ihm
-<pb n="3"/>
-                    <lb xml:id="p3-l1"/>
-vorgeworfenen Brocken gefangen, er ist nun auch der Schlepp<lb break="no" xml:id="p3-l2"/>träger 
-der <choice>
-                        <abbr>N.O.B.</abbr>
-                        <expan>NordOstBahn</expan>
-                    </choice> geworden.» Diese Sprache kann man<lb xml:id="p3-l3"/>
-nicht führen, wenn ich bei der Wahl nicht nur umgangen<lb xml:id="p3-l4"/>
+<pb n="3"/><lb xml:id="p3-l1" break="no"/>
+vorgeworfenen Brocken gefangen, er ist nun auch der Schlepp<lb xml:id="p3-l2" break="no"/>träger 
+der <choice><abbr>N.O.B.</abbr><expan>NordOstBahn</expan></choice> geworden.» Diese Sprache kann man<lb xml:id="p3-l3" break="no"/>
+nicht führen, wenn ich bei der Wahl nicht nur umgangen<lb xml:id="p3-l4" break="no"/>
 sondern selbst <hi rend="underline">ignoriert</hi> werde. </p>
-      <p rend="indent" xml:id="K_2399_p5">
-                <lb xml:id="p3-l5"/>Wenn ich Ihnen dagegen allerdings zugestehen muß, daß<lb xml:id="p3-l6"/>
-es für die Direktion von Bedeutung ist, eine gewichtige<lb xml:id="p3-l7"/>
-                <placeName type="place" key="Thurgau">
-                    <add>Thurg:</add>
-                </placeName> Persönlichkeit in die Verwaltung hineinzuziehen, so<lb xml:id="p3-l8"/>
-möchte ich mir erlauben, Ihnen den Herrn Großraths-<lb break="no" xml:id="p3-l9"/>Präsidenten 
-und Ständerath <seg type="com">
-                    <persName type="person" key="Nagel Paul">
-                        <hi rend="underline">Nagel</hi>
-                    </persName>
-                    <note xml:id="K_2399_c7">
-                        <persName type="person" key="Nagel Paul">Paul Nagel</persName> (1831–1880), Grossratspräsident und Ständerat (<placeName type="place" key="Thurgau">TG</placeName>).</note>
-                </seg> als solche vorzu<lb break="no" xml:id="p3-l10"/>schlagen. 
-Derselbe ist zwar Gegner der <placeName type="place" key="St. Gotthard (Pass)">Gotthard</placeName>-Sub<lb break="no" xml:id="p3-l11"/>vention, 
-und ich könnte Ihnen nicht die Zusicherung<lb xml:id="p3-l12"/>
+      <p rend="indent" xml:id="K_2399_p5"><lb xml:id="p3-l5"/>Wenn ich Ihnen dagegen allerdings zugestehen muß, daß<lb xml:id="p3-l6"/>
+es für die Direktion von Bedeutung ist, eine gewichtige<lb xml:id="p3-l7"/><placeName key="Thurgau"><add>Thurg:</add></placeName> Persönlichkeit in die Verwaltung hineinzuziehen, so<lb xml:id="p3-l8"/>
+möchte ich mir erlauben, Ihnen den Herrn Großraths-<lb xml:id="p3-l9" break="no"/>Präsidenten 
+und Ständerath <persName key="Nagel Paul"><hi rend="underline">Nagel</hi></persName><note type="com" xml:id="K_2399_c7"><persName key="Nagel Paul">Paul Nagel</persName> (1831–1880), Grossratspräsident und Ständerat (<placeName key="Thurgau">TG</placeName>).</note> als solche vorzu<lb xml:id="p3-l10" break="no"/>schlagen. 
+Derselbe ist zwar Gegner der <placeName key="St. Gotthard (Pass)">Gotthard</placeName>-Sub<lb xml:id="p3-l11" break="no"/>vention, 
+und ich könnte Ihnen nicht die Zusicherung<lb xml:id="p3-l12" break="no"/>
 geben, daß er aus einem Saulus in einen 
 					<hi rend="underline">Paulus</hi>
-				 werde<lb xml:id="p3-l13"/>
-umgewandelt werden (obwohl er den letztern Namen<lb xml:id="p3-l14"/>
-zufällig trägt). So viel ist jedoch gewiß, daß die<lb xml:id="p3-l15"/>
-Aufmerksamkeit, welche die Direktion ihm schenkt,<lb xml:id="p3-l16"/>
-seinem Ehrgeitze schmeicheln wird, und daß das Min<lb break="no" xml:id="p3-l17"/>deste, 
-was Sie durch die Wahl erringen, darin besteht,<lb xml:id="p3-l18"/>
-daß Sie ihn als sonst gefährlichen Gegner zum <hi rend="underline">Schweigen</hi>
-                    <lb xml:id="p3-l19"/>
-bringen. Während also meine Wahl der Direktion durchaus<lb xml:id="p3-l20"/>
-                    <hi rend="underline">keinen</hi> Vortheil bringt, verspreche ich mir von derjenigen<lb xml:id="p3-l21"/>
-des <choice>
-                        <abbr>H.</abbr>
-                        <expan>Herr</expan>
-                    </choice>
-                    <persName type="person" key="Nagel Paul">Nagel</persName>, daß Sie nicht nur ihn sondern auch den<lb xml:id="p3-l22"/>
-obern <placeName type="place" key="Thurgau">Thurgau</placeName> in Ihr Intereße zu ziehen vermögen.
-<pb n="4"/>
-                    <lb xml:id="p4-l1"/>
-Schließlich versteht es sich von selbst, daß die gegen<lb break="no" xml:id="p4-l2"/>wärtige 
-Eröffnung <hi rend="underline">unter uns</hi> bleibt; es ist solches<lb xml:id="p4-l3"/>
-sogar nothwendig, damit wir den beabsichtigten Erfolg<lb xml:id="p4-l4"/>
-nicht verlieren; ja ich bin der Meinung, daß, um<lb xml:id="p4-l5"/>
-der <hi rend="underline">großen</hi> und <hi rend="underline">guten</hi> Sache zu dienen, ich sogar<lb xml:id="p4-l6"/>
-vermögend wäre, über meine Ignorierung bei<lb xml:id="p4-l7"/>
-der bevorstehenden Wahl Empfindlichkeit zu<lb xml:id="p4-l8"/>
-simulieren, so wenig sonst Verstellung je meine<lb xml:id="p4-l9"/>
-Sache gewesen ist <choice>
-                        <abbr>od.</abbr>
-                        <expan>oder</expan>
-                    </choice> sein wird. -</p>
-      <p rend="indent" xml:id="K_2399_p6">
-                <lb xml:id="p4-l10"/> <seg type="com">Meine Ablehnung in Betreff der bevorstehenden<lb xml:id="p4-l11"/>
+				 werde<lb xml:id="p3-l13" break="no"/>
+umgewandelt werden (obwohl er den letztern Namen<lb xml:id="p3-l14" break="no"/>
+zufällig trägt). So viel ist jedoch gewiß, daß die<lb xml:id="p3-l15" break="no"/>
+Aufmerksamkeit, welche die Direktion ihm schenkt,<lb xml:id="p3-l16" break="no"/>
+seinem Ehrgeitze schmeicheln wird, und daß das Min<lb xml:id="p3-l17" break="no"/>deste, 
+was Sie durch die Wahl erringen, darin besteht,<lb xml:id="p3-l18" break="no"/>
+daß Sie ihn als sonst gefährlichen Gegner zum <hi rend="underline">Schweigen</hi> <lb xml:id="p3-l19" break="no"/>
+bringen. Während also meine Wahl der Direktion durchaus<lb xml:id="p3-l20" break="no"/><hi rend="underline">keinen</hi> Vortheil bringt, verspreche ich mir von derjenigen<lb xml:id="p3-l21" break="no"/>
+des <choice><abbr>H.</abbr><expan>Herr</expan></choice> <persName key="Nagel Paul">Nagel</persName>, daß Sie nicht nur ihn sondern auch den<lb xml:id="p3-l22" break="no"/>
+obern <placeName key="Thurgau">Thurgau</placeName> in Ihr Intereße zu ziehen vermögen.
+<pb n="4"/><lb xml:id="p4-l1" break="no"/>
+Schließlich versteht es sich von selbst, daß die gegen<lb xml:id="p4-l2" break="no"/>wärtige 
+Eröffnung <hi rend="underline">unter uns</hi> bleibt; es ist solches<lb xml:id="p4-l3" break="no"/>
+sogar nothwendig, damit wir den beabsichtigten Erfolg<lb xml:id="p4-l4" break="no"/>
+nicht verlieren; ja ich bin der Meinung, daß, um<lb xml:id="p4-l5" break="no"/>
+der <hi rend="underline">großen</hi> und <hi rend="underline">guten</hi> Sache zu dienen, ich sogar<lb xml:id="p4-l6" break="no"/>
+vermögend wäre, über meine Ignorierung bei<lb xml:id="p4-l7" break="no"/>
+der bevorstehenden Wahl Empfindlichkeit zu<lb xml:id="p4-l8" break="no"/>
+simulieren, so wenig sonst Verstellung je meine<lb xml:id="p4-l9" break="no"/>
+Sache gewesen ist <choice><abbr>od.</abbr><expan>oder</expan></choice> sein wird. -</p>
+      <p rend="indent" xml:id="K_2399_p6"><lb xml:id="p4-l10"/> Meine Ablehnung in Betreff der bevorstehenden<lb xml:id="p4-l11"/>
 Wahl können Sie unmöglich übel deuten, und<lb xml:id="p4-l12"/>
 in Betreff desjenigen, welchen ich Ihnen vorschlage,<lb xml:id="p4-l13"/>
 wollen Sie meine Indiscretion durch einen<lb xml:id="p4-l14"/>
 wenigstens guten Willen entschuldigen, wobei<lb xml:id="p4-l15"/>
 Ihnen die Freiheit des Handelns doch stets gesichert<lb xml:id="p4-l16"/>
-bleibt.-<note xml:id="K_2399_c8">In der ausserordentlichen Generalversammlung der Schweizerischen Nordostbahn vom <date when="1870-03-04">4. März 1870</date> wurde Labhardt zum Mitglied des Verwaltungsrates gewählt. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Geschäftsbericht NOB</ref> 1870, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 47.</note>
-                </seg> </p>
-    </div>
-        </body>
-    <back>
+bleibt.-<note type="com" xml:id="K_2399_c8">In der ausserordentlichen Generalversammlung der Schweizerischen Nordostbahn vom <date when="1870-03-04">4. März 1870</date> wurde Labhardt zum Mitglied des Verwaltungsrates gewählt. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Geschäftsbericht NOB</ref> 1870, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 47.</note> </p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_2399_p7">
-                    <lb xml:id="p4-l17"/>Empfangen Sie die Versicherung meiner<lb xml:id="p4-l18"/>
+        <p rend="indent" xml:id="K_2399_p7"><lb xml:id="p4-l17"/>Empfangen Sie die Versicherung meiner<lb xml:id="p4-l18"/>
 vollkommnen Hochachtung und Ergebenheit.</p>
       </div>
-      <div type="address">
-                <p rend="right" xml:id="K_2399_p8">
-                    <lb xml:id="p4-l19"/>Labhardt <choice>
-                        <abbr>Reg.Rath</abbr>
-                        <expan>RegierungsRath</expan>
-                    </choice>. </p> </div>
-    </back>
-  </text>
-</TEI>
+      <div type="signature"><p rend="right" xml:id="K_2399_p8"><lb xml:id="p4-l19"/>Labhardt <choice><abbr>Reg.Rath</abbr><expan>RegierungsRath</expan></choice>. </p> </div>
+    </back></text></TEI>

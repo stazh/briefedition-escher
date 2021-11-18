@@ -1,226 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1302" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jonas Furrer an Alfred Escher, s.l., [02?] [1854?]</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#220*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Rechtliches</item>
-                        <item>Bundesrat</item>
-                        <item>Regierungsrat ZH</item>
-                        <item>Eidgenössisches Polytechnikum</item>
-                        <item>Kommissionen (eidgenössische)</item>
-                        <item>Eidgenössischer Schulrat</item>
-                        <item>Wahlen</item>
-                        <item>Diplomatische Aktivitäten</item>
-                        <item>Attentate und Anschläge</item>
-                        <item>Konflikte mit Drittstaaten</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Furrer Jonas" type="sender">Jonas Furrer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>s.l.</placeName>
-                    <date when="1854-02">[02?] [1854?]</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2013-06-07" who="NP">Migration nach XML
-                
-            </change>
-            <change when="2013-06-10" who="CH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-06-28" who="CH">Transkriptionverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2013-07-03" who="BB">Übertragung der Transkriptionsverifizierung geprüft
-                
-            </change>
-            <change when="2013-07-09" who="MA">Verifizierung
-                
-            </change>
-            <change when="2013-07-15" who="RO">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-07-24" who="MB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-09-02" who="CF">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2013-09-27" who="VP">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front><!--<printedheader><p id="K_1302_p1" rend="left"><lb id="p1-l1"/>BATH</p> </printedheader>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1302" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jonas Furrer an Alfred Escher, s.l., [Februar? 1854?]</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Jung, Aufbruch, S. 966 (auszugsweise)</bibl><bibl>Isler, Furrer, S. 137 (auszugsweise)</bibl><bibl>DDS I, S. 427 (auszugsweise)</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#220*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Rechtliches</term><term>Bundesrat</term><term>Regierungsrat ZH</term><term>Eidgenössisches Polytechnikum</term><term>Kommissionen (eidgenössische)</term><term>Eidgenössischer Schulrat</term><term>Wahlen</term><term>Diplomatische Aktivitäten</term><term>Attentate und Anschläge</term><term>Konflikte mit Drittstaaten</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Furrer Jonas" type="addressee">Jonas Furrer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><date when="1854-02-01">[Februar? 1854?]</date></correspAction></correspDesc></profileDesc></teiHeader><text><front><!--<printedheader><p id="K_1302_p1" rend="left"><lb id="p1-l1"/>BATH</p> </printedheader>-->
       <div type="opener">
-        <p rend="indent" xml:id="K_1302_p1"> <seg type="com">
-                        <note type="addendum" xml:id="K_1302_c0">Datierung gemäss Archivnotiz.</note>
-                    </seg> <lb xml:id="p1-l1"/>Mein lieber Freund!</p>
+        <p rend="indent" xml:id="K_1302_p1"> <note type="com" xml:id="K_1302_c0">Datierung gemäss Archivnotiz.</note> <lb xml:id="p1-l1"/>Mein lieber Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1302_p2">
-                <lb xml:id="p1-l2"/>Auf dein gestriges Schreiben beeile ich mich, dir folgendes 
-        <lb xml:id="p1-l3"/>mitzutheilen: Nach Empfang des Gesetzes beschloß der Bun<lb break="no" xml:id="p1-l4"/>desrath, der Regierung von <placeName type="place" key="Zürich">Zürich</placeName> die dir bekannte Anzeige zu
-        <lb xml:id="p1-l5"/>machen, das Gesetz auf gewohnte Weise zu publiciren <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> das Depar<lb break="no" xml:id="p1-l6"/>tement zu beauftragen, beförderlich die erforderlich<supplied>en</supplied> Materialien
-        <lb xml:id="p1-l7"/>aus andern Städten des In- <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> Auslandes zu sammeln <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> weitere
-        <lb xml:id="p1-l8"/>Anträge über die <hi>Organisation</hi> der Anstalt vorzulegen. So wenig<lb break="no" xml:id="p1-l9"/>stens habe ich den Beschluß im Gedächtniß, ich kann jetzt nicht nach<lb break="no" xml:id="p1-l10"/>sehen, da niemand in der Kanzlei ist. Schon damals stimulirte ich
-            <lb xml:id="p1-l11"/>
-                    <choice>
-                        <abbr>Hrn</abbr>
-                        <expan>Herrn</expan>
-                    </choice>
-                    <persName type="person" key="Franscini Stefano">
-                    <hi>F</hi>.</persName>; heute ging ich nun wieder zu ihm, um zu sehn, wie die
-        <lb xml:id="p1-l12"/>Sachen stehen. Er sagte mir, daß die Materialien großentheils ein<lb break="no" xml:id="p1-l13"/>gegangen seyen <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> daß er, wenn es gewünscht werde, beförderlichst
-        <lb xml:id="p1-l14"/>einen Antrag zur Bestellung einer <hi>Commission</hi> vorlegen wolle.
-        <lb xml:id="p1-l15"/>Ich ermahnte ihn dazu, indem ich ihm bemerkte, daß es vielleicht 
-        <lb xml:id="p1-l16"/>noch geraume Zeit gehen könne, bis von <placeName type="place" key="Zürich">Zürich</placeName> eine definitive Ant<lb break="no" xml:id="p1-l17"/>wort eingehe. Er schien allerdings die Idee zu haben, daß diese
-        <lb xml:id="p1-l18"/>Antwort bald komme, <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> daß man bis dahin warten könne.
-        <lb xml:id="p1-l19"/>Damit nicht etwa diese Idee auch im Bundesrath prävalire,
-        <lb xml:id="p1-l20"/>wäre es vielleicht nicht übel, wenn ihr <hi rend="underline">dieser Tage</hi> dem Bundes<pb n="2"/>
-                    <lb xml:id="p2-l1"/>rath den Empfang seines Schreibens vorläufig anzeigen
-        <lb xml:id="p2-l2"/>
-                    <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> darauf hinweisen würdet, es könne eine definitive Antwort
-        <lb xml:id="p2-l3"/>wegen Unterhandlungen mit der Stadt noch einige Zeit aus<lb break="no" xml:id="p2-l4"/>bleiben; der Bundesrath möchte dessen ungeachtet die Vollzie<lb break="no" xml:id="p2-l5"/>hung des Gesetzes beförderlich seine Thätigkeit zuwenden.
-            <lb xml:id="p2-l6"/>Ich will dann dafür sorgen, daß <persName type="person" key="Franscini Stefano">
-                    <hi>Fr</hi>.</persName> diese Woche noch den
-        <lb xml:id="p2-l7"/>Gegenstand zur Sprache bringt.</p>
-      <p rend="indent" xml:id="K_1302_p3">
-                <lb xml:id="p2-l8"/>Du wirst einverstand<supplied>en</supplied> seyn, daß man nicht jetzt den
+    </front><body>
+      <p rend="indent" xml:id="K_1302_p2"><lb xml:id="p1-l2"/>Auf dein gestriges Schreiben beeile ich mich, dir folgendes 
+        <lb xml:id="p1-l3"/>mitzutheilen: Nach Empfang des Gesetzes beschloß der Bun<lb xml:id="p1-l4" break="no"/>desrath, der Regierung von <placeName key="Zürich">Zürich</placeName> die dir bekannte Anzeige zu
+        <lb xml:id="p1-l5" break="no"/>machen, das Gesetz auf gewohnte Weise zu publiciren <choice><abbr>u</abbr><expan>und</expan></choice> das Depar<lb xml:id="p1-l6" break="no"/>tement zu beauftragen, beförderlich die erforderlich<add>en</add> Materialien
+        <lb xml:id="p1-l7" break="no"/>aus andern Städten des In- <choice><abbr>u</abbr><expan>und</expan></choice> Auslandes zu sammeln <choice><abbr>u</abbr><expan>und</expan></choice> weitere
+        <lb xml:id="p1-l8" break="no"/>Anträge über die <hi>Organisation</hi> der Anstalt vorzulegen. So wenig<lb xml:id="p1-l9" break="no"/>stens habe ich den Beschluß im Gedächtniß, ich kann jetzt nicht nach<lb xml:id="p1-l10" break="no"/>sehen, da niemand in der Kanzlei ist. Schon damals stimulirte ich
+            <lb xml:id="p1-l11" break="no"/><choice><abbr>Hrn</abbr><expan>Herrn</expan></choice> <persName key="Franscini Stefano"><hi>F</hi>.</persName>; heute ging ich nun wieder zu ihm, um zu sehn, wie die
+        <lb xml:id="p1-l12" break="no"/>Sachen stehen. Er sagte mir, daß die Materialien großentheils ein<lb xml:id="p1-l13" break="no"/>gegangen seyen <choice><abbr>u</abbr><expan>und</expan></choice> daß er, wenn es gewünscht werde, beförderlichst
+        <lb xml:id="p1-l14" break="no"/>einen Antrag zur Bestellung einer <hi>Commission</hi> vorlegen wolle.
+        <lb xml:id="p1-l15" break="no"/>Ich ermahnte ihn dazu, indem ich ihm bemerkte, daß es vielleicht 
+        <lb xml:id="p1-l16" break="no"/>noch geraume Zeit gehen könne, bis von <placeName key="Zürich">Zürich</placeName> eine definitive Ant<lb xml:id="p1-l17" break="no"/>wort eingehe. Er schien allerdings die Idee zu haben, daß diese
+        <lb xml:id="p1-l18" break="no"/>Antwort bald komme, <choice><abbr>u</abbr><expan>und</expan></choice> daß man bis dahin warten könne.
+        <lb xml:id="p1-l19" break="no"/>Damit nicht etwa diese Idee auch im Bundesrath prävalire,
+        <lb xml:id="p1-l20" break="no"/>wäre es vielleicht nicht übel, wenn ihr <hi rend="underline">dieser Tage</hi> dem Bundes<pb n="2"/><lb xml:id="p2-l1" break="no"/>rath den Empfang seines Schreibens vorläufig anzeigen
+        <lb xml:id="p2-l2" break="no"/><choice><abbr>u</abbr><expan>und</expan></choice> darauf hinweisen würdet, es könne eine definitive Antwort
+        <lb xml:id="p2-l3" break="no"/>wegen Unterhandlungen mit der Stadt noch einige Zeit aus<lb xml:id="p2-l4" break="no"/>bleiben; der Bundesrath möchte dessen ungeachtet die Vollzie<lb xml:id="p2-l5" break="no"/>hung des Gesetzes beförderlich seine Thätigkeit zuwenden.
+            <lb xml:id="p2-l6" break="no"/>Ich will dann dafür sorgen, daß <persName key="Franscini Stefano"><hi>Fr</hi>.</persName> diese Woche noch den
+        <lb xml:id="p2-l7" break="no"/>Gegenstand zur Sprache bringt.</p>
+      <p rend="indent" xml:id="K_1302_p3"><lb xml:id="p2-l8"/>Du wirst einverstand<add>en</add> seyn, daß man nicht jetzt den
         <lb xml:id="p2-l9"/>Schulrath wählt, sondern eine <hi>Experten-Commission</hi> bestellt.
-        <lb xml:id="p2-l10"/>Es wäre mir sehr lieb, wenn du eine Liste von Personen einsend<supplied>en</supplied> <lb xml:id="p2-l11"/>könntest, die zur Wahl sich eignen würden. Ich denke, es
-        <lb xml:id="p2-l12"/>müßen theils <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> zwar der Mehrzahl nach Fachleute seyn, theils
+        <lb xml:id="p2-l10"/>Es wäre mir sehr lieb, wenn du eine Liste von Personen einsend<add>en</add> <lb xml:id="p2-l11"/>könntest, die zur Wahl sich eignen würden. Ich denke, es
+        <lb xml:id="p2-l12"/>müßen theils <choice><abbr>u</abbr><expan>und</expan></choice> zwar der Mehrzahl nach Fachleute seyn, theils
         <lb xml:id="p2-l13"/>aber solche, welche den Gegenstand mehr vom gouvernementalen
-        <lb xml:id="p2-l14"/>Standpunkt aus betrachten <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> geeignet sind, die Reglemente
+        <lb xml:id="p2-l14"/>Standpunkt aus betrachten <choice><abbr>u</abbr><expan>und</expan></choice> geeignet sind, die Reglemente
         <lb xml:id="p2-l15"/>zu entwerfen. Ich setze dabei voraus, daß du dich jedenfalls
-            <lb xml:id="p2-l16"/>wählen laßest. Auch muß man die <placeName type="place" key="Westschweiz">Wälschen</placeName> nicht vergessen,
+            <lb xml:id="p2-l16"/>wählen laßest. Auch muß man die <placeName key="Westschweiz">Wälschen</placeName> nicht vergessen,
         <lb xml:id="p2-l17"/>obschon sie's nicht verdient haben. –</p>
-      <p rend="indent" xml:id="K_1302_p4">
-                <lb xml:id="p2-l18"/>Wir correrspondiren immer wacker mit <placeName type="place" key="Österreich (Kaisertum)">Oestreich</placeName> <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> <persName type="person" key="Steiger Ludwig Eduard">Steiger</persName> <lb xml:id="p2-l19"/>hat mehrfache <hi>Conferenzen</hi>. Die Sache scheint allmälig<note type="transcript">sic!</note> die
+      <p rend="indent" xml:id="K_1302_p4"><lb xml:id="p2-l18"/>Wir correrspondiren immer wacker mit <placeName key="Österreich (Kaisertum)">Oestreich</placeName> <choice><abbr>u</abbr><expan>und</expan></choice> <persName key="Steiger Ludwig Eduard">Steiger</persName> <lb xml:id="p2-l19"/>hat mehrfache <hi>Conferenzen</hi>. Die Sache scheint allmälig<note type="transcript">sic!</note> die
         <lb xml:id="p2-l20"/>scharfen Ecken abzuschleifen; sodaß eine baldige Erledigung
-        <pb n="3"/>
-                <lb xml:id="p3-l1"/>wenigstens der <hi>Blocus</hi>
-                <note type="transcript">Wurde als "Bloms" (Person) verifiziert; dürfte sich aber um die Grenzblockade Österreichs im Tessin handeln. (Vgl. etwa Prot. BR erste Hälfte 1854)</note> Frage nicht unmöglich ist. Aber die bekannten
-                <lb xml:id="p3-l2"/>Bedingungen <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> <placeName type="place" key="Österreich (Kaisertum)">Oestreich</placeName> sind eben immer noch da <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> daß wir sie
+        <pb n="3"/><lb xml:id="p3-l1"/>wenigstens der <hi>Blocus</hi><note type="transcript">Wurde als "Bloms" (Person) verifiziert; dürfte sich aber um die Grenzblockade Österreichs im Tessin handeln. (Vgl. etwa Prot. BR erste Hälfte 1854)</note> Frage nicht unmöglich ist. Aber die bekannten
+                <lb xml:id="p3-l2"/>Bedingungen <choice><abbr>v.</abbr><expan>von</expan></choice> <placeName key="Österreich (Kaisertum)">Oestreich</placeName> sind eben immer noch da <choice><abbr>u</abbr><expan>und</expan></choice> daß wir sie
         <lb xml:id="p3-l3"/>in dieser Form wenigstens nicht acceptiren können, weist<note type="transcript">sic!</note> du wohl. –</p>
-      <p rend="indent" xml:id="K_1302_p5">
-                <lb xml:id="p3-l4"/>Auf der andern Seite tritt immer mehr zu Tage, daß die <placeName type="place" key="Tessin">Tessiner</placeName> <lb xml:id="p3-l5"/>eben Luder sind. Wir erhielt<supplied>en</supplied> letzthin eine sehr detaillirte
-                <lb xml:id="p3-l6"/>
-                <hi>deposition</hi>, woraus eben hervorgeht, daß <persName type="person" key="Mazzini Giuseppe">
-                    <hi>Mazzini</hi>
-                </persName> doch mehrere
-            <lb xml:id="p3-l7"/>Wochen vor <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> während <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> nach dem <placeName type="place" key="Mailand (I)">Mailänder</placeName> Attentat in
-                <lb xml:id="p3-l8"/>
-                <placeName type="place" key="Lugano">
-                    <hi>Lugano</hi>
-                </placeName> war. Wenn ich dieselbe mit andern <hi>Indicien</hi> zusammen
+      <p rend="indent" xml:id="K_1302_p5"><lb xml:id="p3-l4"/>Auf der andern Seite tritt immer mehr zu Tage, daß die <placeName key="Tessin">Tessiner</placeName> <lb xml:id="p3-l5"/>eben Luder sind. Wir erhielt<add>en</add> letzthin eine sehr detaillirte
+                <lb xml:id="p3-l6"/><hi>deposition</hi>, woraus eben hervorgeht, daß <persName key="Mazzini Giuseppe"><hi>Mazzini</hi></persName> doch mehrere
+            <lb xml:id="p3-l7"/>Wochen vor <choice><abbr>u</abbr><expan>und</expan></choice> während <choice><abbr>u</abbr><expan>und</expan></choice> nach dem <placeName key="Mailand (I)">Mailänder</placeName> Attentat in
+                <lb xml:id="p3-l8"/><placeName key="Lugano"><hi>Lugano</hi></placeName> war. Wenn ich dieselbe mit andern <hi>Indicien</hi> zusammen
         <lb xml:id="p3-l9"/>halte, so zweifle ich nicht daran. – Noch mehr? Letzte Woche
-                <lb xml:id="p3-l10"/>starb <hi rend="underline">in <placeName type="place" key="Locarno">
-                        <hi>Locarno</hi>
-                    </placeName>
-                </hi> <persName type="person" key="Pistrucci Scipione">
-                    <hi>Pistrucci</hi>
-                </persName>, der Sekretair <persName type="person" key="Mazzini Giuseppe">
-                    <hi>Mazzinis</hi>
-                </persName>, derselbe, 
-        <lb xml:id="p3-l11"/>welcher im <hi>Jan</hi> 1853 mit <persName type="person" key="Saffi Aurelio">
-                    <hi>Saffi</hi>
-                </persName>
-                <hi rend="underline">angeblich</hi> ausgewiesen
-                <lb xml:id="p3-l12"/>wurde. Das alles weiß <placeName type="place" key="Österreich (Kaisertum)">Oestreich</placeName>
-                <note type="transcript">sic!</note> Du wirst begreifen, daß
-        <lb xml:id="p3-l13"/>dieses die Sache nicht fördert, <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> daß wir wegen dieser illoyalen
-        <lb xml:id="p3-l14"/>
-                <placeName type="place" key="Tessin">Tessiner</placeName>-Spitzbuben vor aller Welt als Lügner zum Vor<lb break="no" xml:id="p3-l15"/>schein kommen. – Doch genug für heute <choice>
-                        <abbr>v.</abbr>
-                        <expan>von</expan>
-                    </choice> dieser mißbeliebig<supplied>en</supplied>
-                    <lb xml:id="p3-l16"/>Geschichte. Wir haben in derselben immer nur alle Vorwürfe
-        <lb xml:id="p3-l17"/>aufzunehmen <choice>
-                        <abbr>u</abbr>
-                        <expan>und</expan>
-                    </choice> den <placeName type="place" key="Tessin">Tessinern</placeName> streut man bei jeder Gelegenheit 
-        <lb xml:id="p3-l18"/>Rosen. –</p>
-    </div>
-        </body>
-    <back>
+                <lb xml:id="p3-l10"/>starb <hi rend="underline">in <placeName key="Locarno"><hi>Locarno</hi></placeName></hi> <persName key="Pistrucci Scipione"><hi>Pistrucci</hi></persName>, der Sekretair <persName key="Mazzini Giuseppe"><hi>Mazzinis</hi></persName>, derselbe, 
+        <lb xml:id="p3-l11"/>welcher im <hi>Jan</hi> 1853 mit <persName key="Saffi Aurelio"><hi>Saffi</hi></persName><hi rend="underline">angeblich</hi> ausgewiesen
+                <lb xml:id="p3-l12"/>wurde. Das alles weiß <placeName key="Österreich (Kaisertum)">Oestreich</placeName><note type="transcript">sic!</note> Du wirst begreifen, daß
+        <lb xml:id="p3-l13"/>dieses die Sache nicht fördert, <choice><abbr>u</abbr><expan>und</expan></choice> daß wir wegen dieser illoyalen
+        <lb xml:id="p3-l14"/><placeName key="Tessin">Tessiner</placeName>-Spitzbuben vor aller Welt als Lügner zum Vor<lb xml:id="p3-l15" break="no"/>schein kommen. – Doch genug für heute <choice><abbr>v.</abbr><expan>von</expan></choice> dieser mißbeliebig<add>en</add> <lb xml:id="p3-l16" break="no"/>Geschichte. Wir haben in derselben immer nur alle Vorwürfe
+        <lb xml:id="p3-l17" break="no"/>aufzunehmen <choice><abbr>u</abbr><expan>und</expan></choice> den <placeName key="Tessin">Tessinern</placeName> streut man bei jeder Gelegenheit 
+        <lb xml:id="p3-l18" break="no"/>Rosen. –</p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_1302_p6">
-                    <lb xml:id="p3-l19"/>Herzlich grüßend</p>
-        <p rend="center" xml:id="K_1302_p7">
-                    <lb xml:id="p3-l20"/>Dein</p>
+        <p rend="indent" xml:id="K_1302_p6"><lb xml:id="p3-l19"/>Herzlich grüßend</p>
+        <p rend="center" xml:id="K_1302_p7"><lb xml:id="p3-l20"/>Dein</p>
       </div>
-      <div type="address">
-        <p rend="center" xml:id="K_1302_p8">
-                    <lb xml:id="p3-l21"/>F</p>
+      <div type="signature">
+        <p rend="center" xml:id="K_1302_p8"><lb xml:id="p3-l21"/>F</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

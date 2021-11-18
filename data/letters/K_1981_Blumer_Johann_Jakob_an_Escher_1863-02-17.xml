@@ -1,126 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1981" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johann Jakob Blumer an Alfred Escher, Glarus, Dienstag, Februar 17, 1863</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>FA Tschudi</institution>
-                        <idno type="original"/>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Landrat GL</item>
-                        <item>Absagebriefe (diverse)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Blumer Johann Jakob" type="sender">Johann Jakob Blumer</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Glarus</placeName>
-                    <date when="1863-02-17">Dienstag, Februar 17, 1863</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2007-01-26" who="MW">Transkription
-                
-            </change>
-            <change when="2013-06-26" who="MB">Migration nach XML
-                
-            </change>
-            <change when="2013-07-02" who="DG">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2007-07-17" who="CB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-25" who="NB">Migrationsverifizierung
-        umgesetzt
-                
-            </change>
-            <change when="2013-07-25" who="CB">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-08-22" who="AO">Transkriptionsverifizierung Seiterle
-          umgesetzt
-                
-            </change>
-            <change when="2013-08-23" who="JS">Übertragung Transkriptionsverifizierung
-          geprüft
-                
-            </change>
-            <change when="2013-12-03" who="LB">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-            <change when="2013-12-09" who="KR">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1981" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johann Jakob Blumer an Alfred Escher, Glarus, Dienstag, 17. Februar 1863</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>FA Tschudi</institution></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Landrat GL</term><term>Absagebriefe (diverse)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Blumer Johann Jakob" type="addressee">Johann Jakob Blumer</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Glarus</placeName><date when="1863-02-17">17. Februar 1863</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_1981_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1863-02-17">17. <choice>
-                            <abbr>Febr.</abbr>
-                            <expan>Februar</expan>
-                        </choice> 1863</date>. </p>
+        <p rend="right" xml:id="K_1981_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Glarus (Gemeinde)">Glarus</placeName> den <date when="1863-02-17">17. <choice><abbr>Febr.</abbr><expan>Februar</expan></choice> 1863</date>. </p>
       </div>
       <div type="opener">
-        <p rend="left" xml:id="K_1981_p2">
-                    <lb xml:id="p1-l2"/>Mein theurer Freund! </p>
+        <p rend="left" xml:id="K_1981_p2"><lb xml:id="p1-l2"/>Mein theurer Freund! </p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1981_p3">
-                <lb xml:id="p1-l3"/>Auf die freundliche Einladung, welche <lb xml:id="p1-l4"/>
-                <persName type="person" key="Escher-Uebel Augusta">Deine <choice>
-                            <abbr>l.</abbr>
-                            <expan>lieb</expan>
-                        </choice> Frau</persName> an die <persName type="person" key="Blumer-Heer Susanna">meinige</persName>
+    </front><body>
+      <p rend="indent" xml:id="K_1981_p3"><lb xml:id="p1-l3"/>Auf die freundliche Einladung, welche <lb xml:id="p1-l4"/><persName key="Escher-Uebel Augusta">Deine <choice><abbr>l.</abbr><expan>lieb</expan></choice> Frau</persName> an die <persName key="Blumer-Heer Susanna">meinige</persName>
         erlaßen hat, habe <lb xml:id="p1-l5"/>ich zu erwiedern, daß ich zwar wenn immer möglich <lb xml:id="p1-l6"/>der Sitzung des Aufsichtsrathes <date when="1863-02-19">übermorgen</date>
-          beizuwoh<lb break="no" xml:id="p1-l7"/>nen gedenke, jedoch, da <date when="1863-02-18">morgen</date> hier
-        Landrath ist, <lb xml:id="p1-l8"/>erst entweder mit dem letzten Abendzuge (10 Uhr) <lb xml:id="p1-l9"/>oder <date when="1863-02-19">Donnerstags</date> mit dem Morgenzuge in <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>
-                    <lb xml:id="p1-l10"/>eintreffen werde. Bei dieser Sachlage begreifst Du, <lb xml:id="p1-l11"/>daß
-        für mich nicht die Rede davon seyn kann in <lb xml:id="p1-l12"/>
-                    <placeName type="place" key="Belvoir (Enge, Zürich)">
-                    <hi>Belvoir</hi>
-                </placeName> zu logiren oder <date when="1863-02-18">Mittwoch</date> Abends im Theater <lb xml:id="p1-l13"/>zu erscheinen; es bleibt mir daher nur
-        übrig die <lb xml:id="p1-l14"/>freundliche Einladung bestens zu verdanken. </p>
-    </div>
-        </body>
-    <back>
+          beizuwoh<lb xml:id="p1-l7" break="no"/>nen gedenke, jedoch, da <date when="1863-02-18">morgen</date> hier
+        Landrath ist, <lb xml:id="p1-l8" break="no"/>erst entweder mit dem letzten Abendzuge (10 Uhr) <lb xml:id="p1-l9" break="no"/>oder <date when="1863-02-19">Donnerstags</date> mit dem Morgenzuge in <placeName key="Zürich (Stadt)">Zürich</placeName>
+        <lb xml:id="p1-l10" break="no"/>eintreffen werde. Bei dieser Sachlage begreifst Du, <lb xml:id="p1-l11" break="no"/>daß
+        für mich nicht die Rede davon seyn kann in <lb xml:id="p1-l12" break="no"/><placeName key="Belvoir (Enge, Zürich)"><hi>Belvoir</hi></placeName> zu logiren oder <date when="1863-02-18">Mittwoch</date> Abends im Theater <lb xml:id="p1-l13" break="no"/>zu erscheinen; es bleibt mir daher nur
+        übrig die <lb xml:id="p1-l14" break="no"/>freundliche Einladung bestens zu verdanken. </p>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_1981_p4">
-                    <lb xml:id="p1-l15"/>Es hat uns herzlich gefreut zu verneh- <pb n="2"/>
-                    <lb xml:id="p2-l1"/>men,
+        <p rend="indent" xml:id="K_1981_p4"><lb xml:id="p1-l15"/>Es hat uns herzlich gefreut zu verneh- <pb n="2"/><lb xml:id="p2-l1"/>men,
           daß Ihr Euch Alle wohl befindet, was auch <lb xml:id="p2-l2"/>unserseits der Fall ist.
-          Weiteres will ich gerne münd<lb break="no" xml:id="p2-l3"/>lich mit Dir besprechen. Inzwischen grüßt
+          Weiteres will ich gerne münd<lb xml:id="p2-l3" break="no"/>lich mit Dir besprechen. Inzwischen grüßt
           Dich bestens </p>
-        <p rend="right" xml:id="K_1981_p5">
-                    <lb xml:id="p2-l4"/>Dein treuer </p>
+        <p rend="right" xml:id="K_1981_p5"><lb xml:id="p2-l4"/>Dein treuer </p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1981_p6">
-                    <lb xml:id="p2-l5"/>J J Blumer. </p>
+      <div type="signature">
+        <p rend="right" xml:id="K_1981_p6"><lb xml:id="p2-l5"/>J J Blumer. </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

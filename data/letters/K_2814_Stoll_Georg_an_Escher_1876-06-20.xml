@@ -1,295 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2814" n="18" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Georg Stoll an Alfred Escher, Zürich, Dienstag, Juni 20, 1876</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#477*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Schweizerische Nordostbahn (NOB)</item>
-                        <item>Schweizerische Kreditanstalt (SKA)</item>
-                        <item>Rechtliches</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Stoll Georg" type="sender">Georg Stoll</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1876-06-20">Dienstag, Juni 20, 1876</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-07-01" who="MW">Transkription
-                
-            </change>
-            <change when="2013-08-21" who="NP">Migration nach XML
-                
-            </change>
-            <change when="2013-09-02" who="LW">Migrationsverifizierung
-        umgesetzt
-                
-            </change>
-            <change when="1876-01-10" who="RH">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="1876-01-15" who="IB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="1876-01-16" who="XR">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2014-05-19" who="VP">Verifizierung 2 umgesetzt
-                
-            </change>
-            <change when="2014-01-22" who="SWK">Transkriptionsverifizierung Seiterle
-          umgesetzt
-                
-            </change>
-            <change when="2014-01-28" who="LW">Übertragung der Transkriptionsverifizierung
-          geprüft
-                
-            </change>
-            <change when="2014-04-09" who="MLB">Inhaltliche Qualitätsprüfung
-          umgesetzt
-                
-            </change>
-            <change when="2014-08-12" who="BF">provisorisch kommentiert
-                
-            </change>
-            <change when="2014-09-2014,&#xA;          08-09-02" who="BF">Kommentierung überarbeitet
-                
-            </change>
-            <change when="2014-09-17" who="MB">Auszeichnung 1 und 2 umgesetzt
-                
-            </change>
-            <change when="2014-10-13" who="BF">Korrektorat EH 1 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_2814" type="Brief"><teiHeader><fileDesc><titleStmt><title>Georg Stoll an Alfred Escher, Zürich, Dienstag, 20. Juni 1876</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#477*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Schweizerische Nordostbahn (NOB)</term><term>Schweizerische Kreditanstalt (SKA)</term><term>Rechtliches</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Stoll Georg" type="addressee">Georg Stoll</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1876-06-20">20. Juni 1876</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_2814_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Zürich (Stadt)">
-                        <hi>Zürich</hi>
-                    </placeName>, <date when="1876-06-20">20. <hi>Juni</hi> 1876</date>.</p>
+        <p rend="right" xml:id="K_2814_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Zürich (Stadt)"><hi>Zürich</hi></placeName>, <date when="1876-06-20">20. <hi>Juni</hi> 1876</date>.</p>
       </div>
       <div type="opener">
-        <p rend="indent" xml:id="K_2814_p2">
-                    <lb xml:id="p1-l2"/>Hochgeachteter Herr Präsident!</p>
+        <p rend="indent" xml:id="K_2814_p2"><lb xml:id="p1-l2"/>Hochgeachteter Herr Präsident!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_2814_p3">
-                <lb xml:id="p1-l3"/> <seg type="com">Herr Ingenieur <hi>
-                        <persName type="person" key="Coutin Jules">Coutin</persName> </hi>
-                    <note xml:id="K_2814_c1">
-                        <persName type="person" key="Coutin Jules">Jules Coutin</persName> (<choice>
-                                <abbr>gest.</abbr>
-                                <expan>gestorben</expan>
-                            </choice> 1879),
+    </front><body>
+      <p rend="indent" xml:id="K_2814_p3"><lb xml:id="p1-l3"/> Herr Ingenieur <hi><persName key="Coutin Jules">Coutin</persName> </hi><note type="com" xml:id="K_2814_c1"><persName key="Coutin Jules">Jules Coutin</persName> (<choice><abbr>gest.</abbr><expan>gestorben</expan></choice> 1879),
           General-Betriebsinspektor der Compagnie des chemins de fer de
             l'Ouest<!--(französischen Westbahnen)-->, technischer Berater des Comptoir d'Escompte de
-              <placeName type="place" key="Paris (F)">Paris</placeName>.</note>
-                </seg> aus <placeName type="place" key="Paris (F)">
-                    <hi>Paris</hi>
-                </placeName> war <date when="1876-06-18">Sonntags</date> <lb xml:id="p1-l4"/>&amp; <date when="1876-06-19">Montags</date> hier um Namens des <hi>Comptoir d'Escompte</hi> <lb xml:id="p1-l5"/>mit der Direction der <choice>
-                        <abbr>
-                    <hi>NOB</hi>.</abbr>
-                        <expan>NordOstBahn</expan>
-                    </choice> zu
-        verhandeln. Ich <lb xml:id="p1-l6"/>konnte es daher nicht passend finden, auf <date when="1876-06-19">ge<lb break="no" xml:id="p1-l7"/>stern</date> schon bei letzterer nach dem<!-- korrigiert von "den" zu "dem", BF, 16.10.2014 --> Stand <lb xml:id="p1-l8"/>der Sache zu erkundigen. Dagegen kam <date when="1876-06-20">heute</date> <lb xml:id="p1-l9"/> <seg type="com">Herr <hi>
-                        <choice>
-                                <abbr>Dr.</abbr>
-                                <expan>Doktor / Doctor</expan>
-                            </choice> <persName type="person" key="Escher (vom Glas) Eugen">Escher</persName> </hi>
-                    <note xml:id="K_2814_c2">
-                        <persName type="person" key="Escher (vom Glas) Eugen">Eugen Escher</persName> (1831–1900), Grosser
-            Stadtrat von <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>, Kantonsrat (<placeName type="place" key="Zürich">ZH</placeName>), Vizepräsident der Direktion der Nordostbahn.</note>
-                </seg> zu mir, um darüber zu <lb xml:id="p1-l10"/>berichten. Wie es scheint,
-        so ist es mit <lb xml:id="p1-l11"/>der Hoffnung, daß das <placeName type="place" key="Paris (F)">Pariser</placeName> Syndikat <lb xml:id="p1-l12"/>das Gelingen der <seg type="ref">neuen Aktien-Emission<ref type="sum" target="Rekonstruktion_Nordostbahn_p2"><!--→ S. 44--></ref>
-                </seg> <lb xml:id="p1-l13"/>garantiren werde, nichts. In Folge dessen <lb xml:id="p1-l14"/>hat sich <del>daher</del> den
+              <placeName key="Paris (F)">Paris</placeName>.</note> aus <placeName key="Paris (F)"><hi>Paris</hi></placeName> war <date when="1876-06-18">Sonntags</date> <lb xml:id="p1-l4"/>&amp; <date when="1876-06-19">Montags</date> hier um Namens des <hi>Comptoir d'Escompte</hi> <lb xml:id="p1-l5"/>mit der Direction der <choice><abbr><hi>NOB</hi>.</abbr><expan>NordOstBahn</expan></choice> zu
+        verhandeln. Ich <lb xml:id="p1-l6"/>konnte es daher nicht passend finden, auf <date when="1876-06-19">ge<lb xml:id="p1-l7" break="no"/>stern</date> schon bei letzterer nach dem<!-- korrigiert von "den" zu "dem", BF, 16.10.2014 --> Stand <lb xml:id="p1-l8"/>der Sache zu erkundigen. Dagegen kam <date when="1876-06-20">heute</date> <lb xml:id="p1-l9"/> Herr <hi><choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> <persName key="Escher (vom Glas) Eugen">Escher</persName> </hi><note type="com" xml:id="K_2814_c2"><persName key="Escher (vom Glas) Eugen">Eugen Escher</persName> (1831–1900), Grosser
+            Stadtrat von <placeName key="Zürich (Stadt)">Zürich</placeName>, Kantonsrat (<placeName key="Zürich">ZH</placeName>), Vizepräsident der Direktion der Nordostbahn.</note> zu mir, um darüber zu <lb xml:id="p1-l10"/>berichten. Wie es scheint,
+        so ist es mit <lb xml:id="p1-l11"/>der Hoffnung, daß das <placeName key="Paris (F)">Pariser</placeName> Syndikat <lb xml:id="p1-l12"/>das Gelingen der <rs>neuen Aktien-Emission<ref type="sum" target="Rekonstruktion_Nordostbahn_p2"><!--→ S. 44--></ref></rs> <lb xml:id="p1-l13"/>garantiren werde, nichts. In Folge dessen <lb xml:id="p1-l14"/>hat sich <del>daher</del> den
         Herren endlich die <lb xml:id="p1-l15"/>Ueberzeugung aufgedrungen, daß nun <lb xml:id="p1-l16"/>ohne
-        längern Verzug in andrer Weise <lb xml:id="p1-l17"/>vorgegangen werden müsse. Es werden<pb n="2"/>
-                <lb xml:id="p2-l1"/>demnach für die Emission von neuen Ak<lb break="no" xml:id="p2-l2"/>tien <seg type="com">(Prioritätsaktien)<note xml:id="K_2814_c3">Die Erhöhung des Aktienkapitals fand in Form von
+        längern Verzug in andrer Weise <lb xml:id="p1-l17"/>vorgegangen werden müsse. Es werden<pb n="2"/><lb xml:id="p2-l1"/>demnach für die Emission von neuen Ak<lb xml:id="p2-l2" break="no"/>tien (Prioritätsaktien)<note type="com" xml:id="K_2814_c3">Die Erhöhung des Aktienkapitals fand in Form von
             Prioritätsaktien statt. Auf diese wurde eine Vorzugsdividende von 6% bezahlt; erst wenn
-            dies geleistet werden konnte, erhielten auch die übrigen Aktionäre eine Dividende. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 84.</note>
-                </seg> sofort alle
-          Vorberei<lb break="no" xml:id="p2-l3"/>tungen getroffen werden.</p>
-      <p rend="indent" xml:id="K_2814_p4">
-                <lb xml:id="p2-l4"/> <seg type="com">Man wünscht bei dieser Emission auch <lb xml:id="p2-l5"/>die Mitwirkung der Kreditanstalt in
-            <lb xml:id="p2-l6"/>Anspruch zu nehmen.<note xml:id="K_2814_c4">Ein Syndikat von <placeName type="place" key="Zürich">Zürcher</placeName> und <placeName type="place" key="Basel-Stadt">Basler</placeName> Bankhäusern unter
+            dies geleistet werden konnte, erhielten auch die übrigen Aktionäre eine Dividende. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Kessler, Nordostbahn</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 84.</note> sofort alle
+          Vorberei<lb xml:id="p2-l3" break="no"/>tungen getroffen werden.</p>
+      <p rend="indent" xml:id="K_2814_p4"><lb xml:id="p2-l4"/> Man wünscht bei dieser Emission auch <lb xml:id="p2-l5"/>die Mitwirkung der Kreditanstalt in
+            <lb xml:id="p2-l6"/>Anspruch zu nehmen.<note type="com" xml:id="K_2814_c4">Ein Syndikat von <placeName key="Zürich">Zürcher</placeName> und <placeName key="Basel-Stadt">Basler</placeName> Bankhäusern unter
             Leitung der Schweizerischen Kreditanstalt übernahm die Placierung der Aktien und
             verpflichtete sich, die bei der Emission allfällig nicht gezeichneten Aktien bis auf den
-            Gesamtemissionsbetrag von 11 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken zu übernehmen. Diese Garantie musste nicht
+            Gesamtemissionsbetrag von 11 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken zu übernehmen. Diese Garantie musste nicht
             in Anspruch genommen werden, da sich bei der Emission wider Erwarten eine leichte Überzeichnung
             ergab. Da die Aktienzeichner nur 40% des Nennwerts sofort einzahlen mussten, leistete
             das Syndikat auf den <date when="1876-10-20">20. Oktober 1876</date> die Vorauszahlung der
-            übrigen 60%. Die Kreditanstalt übernahm ausserdem Aktien über 3 <choice>
-                                <abbr>Mio.</abbr>
-                                <expan>Million(en)</expan>
-                            </choice> Franken auf eigene
-            Rechnung. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Geschäftsbericht SKA</ref> 1876, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 13–14; <ref type="lit">Jöhr, SKA</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 104; <ref type="lit">Kessler, Nordostbahn</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice>
-              84.</note>
-                </seg>
-                <seg type="ref">
-                    <ref type="sum" target="Finanzierung_Gotthardbahn_d1"><!-- 214-225 --></ref>
-                </seg> Herr <hi>
-                    <choice>
-                            <abbr>Dr.</abbr>
-                            <expan>Doktor / Doctor</expan>
-                        </choice> <persName type="person" key="Escher (vom Glas) Eugen">Escher</persName>
-                </hi> <lb xml:id="p2-l7"/>hat dießfalls folgende Anregungen <lb xml:id="p2-l8"/>gemacht:</p>
-      <p rend="left" xml:id="K_2814_p5">
-                <lb xml:id="p2-l9"/>1) daß die Kreditanstalt, für sich allein <lb xml:id="p2-l10"/>oder in
+            übrigen 60%. Die Kreditanstalt übernahm ausserdem Aktien über 3 <choice><abbr>Mio.</abbr><expan>Million(en)</expan></choice> Franken auf eigene
+            Rechnung. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Geschäftsbericht SKA</ref> 1876, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 13–14; <ref type="lit">Jöhr, SKA</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 104; <ref type="lit">Kessler, Nordostbahn</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice>
+              84.</note><rs><ref type="sum" target="Finanzierung_Gotthardbahn_d1"><!-- 214-225 --></ref></rs> Herr <hi><choice><abbr>Dr.</abbr><expan>Doktor / Doctor</expan></choice> <persName key="Escher (vom Glas) Eugen">Escher</persName></hi> <lb xml:id="p2-l7"/>hat dießfalls folgende Anregungen <lb xml:id="p2-l8"/>gemacht:</p>
+      <p rend="left" xml:id="K_2814_p5"><lb xml:id="p2-l9"/>1) daß die Kreditanstalt, für sich allein <lb xml:id="p2-l10"/>oder in
         Verbindung mit andern Banken, <lb xml:id="p2-l11"/>die Verpflichtung eingehen solle, denjenigen
           <lb xml:id="p2-l12"/>Aktionären, welche bei der Subscription auf <lb xml:id="p2-l13"/>die neuen
-        Aktien <choice>
-                        <abbr>
-                    <hi>fr</hi> </abbr>
-                        <expan>franken / francs / franchi</expan>
-                    </choice> 100 eingezahlt haben, <lb xml:id="p2-l14"/>den Rest von <choice>
-                        <abbr>
-                    <hi>fr</hi> </abbr>
-                        <expan>franken / francs / franchi</expan>
-                    </choice> 400 bis Ende
+        Aktien <choice><abbr><hi>fr</hi> </abbr><expan>franken / francs / franchi</expan></choice> 100 eingezahlt haben, <lb xml:id="p2-l14"/>den Rest von <choice><abbr><hi>fr</hi> </abbr><expan>franken / francs / franchi</expan></choice> 400 bis Ende
         1877 <lb xml:id="p2-l15"/>vorzuschießen.</p>
-      <p rend="indent" xml:id="K_2814_p6">
-                <lb xml:id="p2-l16"/>Zur Erläuterung dieses Begehrens <lb xml:id="p2-l17"/>füge ich bei, daß mit
-        Rücksicht auf <lb xml:id="p2-l18"/>die Obligationen-Emission in <placeName type="place" key="Frankreich">Frankreich</placeName> <pb n="3"/>
-                <lb xml:id="p3-l1"/>es nothwendig sei, daß die
-        neuen Aktien <lb xml:id="p3-l2"/>bis Ende <hi>September</hi> <choice>
-                        <abbr>l. J.</abbr>
-                        <expan>laufenden / letzten Jahres</expan>
-                    </choice> vollständig ein<lb break="no" xml:id="p3-l3"/>bezahlt werden &amp; daß man daher, indem man <lb xml:id="p3-l4"/>von den Aktionären auf diesen
-        Termin die <lb xml:id="p3-l5"/>Volleinzahlung fordere, ihnen zugleich den <lb xml:id="p3-l6"/>Weg
-        zeigen müßte, wo sie sich dazu die <lb xml:id="p3-l7"/>erforderlichen Fonds holen können.</p>
-      <p rend="left" xml:id="K_2814_p7">
-                <lb xml:id="p3-l8"/>2) daß die Kreditanstalt mit andern <lb xml:id="p3-l9"/>Instituten das Gelingen
+      <p rend="indent" xml:id="K_2814_p6"><lb xml:id="p2-l16"/>Zur Erläuterung dieses Begehrens <lb xml:id="p2-l17"/>füge ich bei, daß mit
+        Rücksicht auf <lb xml:id="p2-l18"/>die Obligationen-Emission in <placeName key="Frankreich">Frankreich</placeName> <pb n="3"/><lb xml:id="p3-l1"/>es nothwendig sei, daß die
+        neuen Aktien <lb xml:id="p3-l2"/>bis Ende <hi>September</hi> <choice><abbr>l. J.</abbr><expan>laufenden / letzten Jahres</expan></choice> vollständig ein<lb xml:id="p3-l3" break="no"/>bezahlt werden &amp; daß man daher, indem man <lb xml:id="p3-l4" break="no"/>von den Aktionären auf diesen
+        Termin die <lb xml:id="p3-l5" break="no"/>Volleinzahlung fordere, ihnen zugleich den <lb xml:id="p3-l6" break="no"/>Weg
+        zeigen müßte, wo sie sich dazu die <lb xml:id="p3-l7" break="no"/>erforderlichen Fonds holen können.</p>
+      <p rend="left" xml:id="K_2814_p7"><lb xml:id="p3-l8"/>2) daß die Kreditanstalt mit andern <lb xml:id="p3-l9"/>Instituten das Gelingen
         der Emission <lb xml:id="p3-l10"/>garantire, oder wenigstens</p>
-      <p rend="left" xml:id="K_2814_p8">
-                <lb xml:id="p3-l11"/>3) sich anheischig mache, eine gewisse <lb xml:id="p3-l12"/>Summe des allfällig
+      <p rend="left" xml:id="K_2814_p8"><lb xml:id="p3-l11"/>3) sich anheischig mache, eine gewisse <lb xml:id="p3-l12"/>Summe des allfällig
         nicht gezeichneten <lb xml:id="p3-l13"/>Aktienbetrages zum Voraus fest <lb xml:id="p3-l14"/>zu
         übernehmen.</p>
-      <p rend="indent" xml:id="K_2814_p9">
-                <lb xml:id="p3-l15"/>Ich habe Herrn <hi>
-                    <persName type="person" key="Escher (vom Glas) Eugen">Escher</persName> </hi> erwiedert, <lb xml:id="p3-l16"/>daß ich die Sache bei mir selbst<pb n="4"/>
-                <lb xml:id="p4-l1"/>näher prüfen &amp; alsdann mit Ihnen <lb xml:id="p4-l2"/>besprechen werde,
-        um sie <add>darauf</add> <date when="1876-06-22">künftigen Don<lb break="no" xml:id="p4-l3"/>nerstag</date>
-        in der <seg type="com">Ausschußsitzung<note xml:id="K_2814_c5">Gemeint ist die ordentliche Sitzung des Ausschusses des
-            Verwaltungsrats der Schweizerischen Kreditanstalt vom <date when="1876-06-22">22. Juni 1876</date>. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot.
-              Ausschuss VR SKA</ref>, 22. Juni 1876.</note>
-                </seg> zu <lb xml:id="p4-l4"/>
+      <p rend="indent" xml:id="K_2814_p9"><lb xml:id="p3-l15"/>Ich habe Herrn <hi><persName key="Escher (vom Glas) Eugen">Escher</persName> </hi> erwiedert, <lb xml:id="p3-l16"/>daß ich die Sache bei mir selbst<pb n="4"/><lb xml:id="p4-l1"/>näher prüfen &amp; alsdann mit Ihnen <lb xml:id="p4-l2"/>besprechen werde,
+        um sie <add>darauf</add> <date when="1876-06-22">künftigen Don<lb xml:id="p4-l3" break="no"/>nerstag</date>
+        in der Ausschußsitzung<note type="com" xml:id="K_2814_c5">Gemeint ist die ordentliche Sitzung des Ausschusses des
+            Verwaltungsrats der Schweizerischen Kreditanstalt vom <date when="1876-06-22">22. Juni 1876</date>. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot.
+              Ausschuss VR SKA</ref>, 22. Juni 1876.</note> zu <lb xml:id="p4-l4"/>
         vertraulicher Verhandlung zu bringen.</p>
-      <p rend="indent" xml:id="K_2814_p10">
-                <lb xml:id="p4-l5"/>Ich wollte nicht verfehlen, Sie <lb xml:id="p4-l6"/>hievon vorläufig zu
+      <p rend="indent" xml:id="K_2814_p10"><lb xml:id="p4-l5"/>Ich wollte nicht verfehlen, Sie <lb xml:id="p4-l6"/>hievon vorläufig zu
         benachrichtigen, <lb xml:id="p4-l7"/>in der Hoffnung, die Frage mit Ihnen <lb xml:id="p4-l8"/>noch
         vor der Ausschußsitzung erörtern <lb xml:id="p4-l9"/>zu können.</p>
-      <p rend="indent" xml:id="K_2814_p11">
-                <lb xml:id="p4-l10"/> Die Nachrichten unserer <seg type="com">
-                    <placeName type="place" key="Paris (F)">Pariser</placeName> Dele<lb break="no" xml:id="p4-l11"/>girten<note xml:id="K_2814_c6">Der Ausschuss des Verwaltungsrats
-            der Schweizerischen Kreditanstalt hatte <persName type="person" key="Fierz-Etzweiler Heinrich">Heinrich
-              Fierz-Etzweiler</persName> und <persName type="person" key="Syz-Landis Johannes">Johannes Syz-Landis</persName> in Begleitung des Juristen <persName type="person" key="Meili Friedrich (Doktor)">Friedrich Meili</persName> nach <placeName type="place" key="Paris (F)">Paris</placeName> abgeordnet. <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. VR SKA</ref>, 7. Juni 1876.</note>
-                </seg>, die nunmehr wieder hier sind, <lb xml:id="p4-l12"/>lauten nicht
-        sehr tröstlich. <seg type="com">Es scheint, <lb xml:id="p4-l13"/>daß die Stadt <hi>
-                        <placeName type="place" key="Paris (F)">Paris</placeName> </hi> die <hi>Clause doma<lb break="no" xml:id="p4-l14"/>niale</hi>
+      <p rend="indent" xml:id="K_2814_p11"><lb xml:id="p4-l10"/> Die Nachrichten unserer <placeName key="Paris (F)">Pariser</placeName> Dele<lb xml:id="p4-l11" break="no"/>girten<note type="com" xml:id="K_2814_c6">Der Ausschuss des Verwaltungsrats
+            der Schweizerischen Kreditanstalt hatte <persName key="Fierz-Etzweiler Heinrich">Heinrich
+              Fierz-Etzweiler</persName> und <persName key="Syz-Landis Johannes">Johannes Syz-Landis</persName> in Begleitung des Juristen <persName key="Meili Friedrich (Doktor)">Friedrich Meili</persName> nach <placeName key="Paris (F)">Paris</placeName> abgeordnet. <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. VR SKA</ref>, 7. Juni 1876.</note>, die nunmehr wieder hier sind, <lb xml:id="p4-l12"/>lauten nicht
+        sehr tröstlich. Es scheint, <lb xml:id="p4-l13"/>daß die Stadt <hi><placeName key="Paris (F)">Paris</placeName> </hi> die <hi>Clause doma<lb xml:id="p4-l14" break="no"/>niale</hi>
           fallen lassen, hinwieder aber <lb xml:id="p4-l15"/>eine Revindikationsklage
-            anholen<note type="transcript">evtl.: anheben?</note> <lb xml:id="p4-l16"/>will.<note xml:id="K_2814_c7">Im Rahmen
+            anholen<note type="transcript">evtl.: anheben?</note> <lb xml:id="p4-l16"/>will.<note type="com" xml:id="K_2814_c7">Im Rahmen
             einer Terrainspekulation hatte die Schweizerische Kreditanstalt 1863 ein 24 000 m² grosses Grundstück an
-            der Place du Trône (heute Place de la Nation) in <placeName type="place" key="Paris (F)">Paris</placeName> übernommen. Die Erträge blieben indes unter den Erwartungen, und die Bank
+            der Place du Trône (heute Place de la Nation) in <placeName key="Paris (F)">Paris</placeName> übernommen. Die Erträge blieben indes unter den Erwartungen, und die Bank
             verkaufte das Grundstück 1869 wieder. In der Folge kam es zu einer Kette von Prozessen
-            zwischen den Grundstückskäufern, der Kreditanstalt und der Stadt <placeName type="place" key="Paris (F)">Paris</placeName>. Im Juli 1879 entschied das Zivilgericht der <placeName type="place" key="Seine (Département, F)">Seine</placeName> zugunsten der
+            zwischen den Grundstückskäufern, der Kreditanstalt und der Stadt <placeName key="Paris (F)">Paris</placeName>. Im Juli 1879 entschied das Zivilgericht der <placeName key="Seine (Département, F)">Seine</placeName> zugunsten der
             Kreditanstalt.<!--Verzicht auf Erläutern der Begriffe 'Clause domaniale' ("Staatsklausel"?) und 'Revindikationsklage' ("Zurückforderung einer Sache als Eigentum"), "nur" Sachverhalt insgesamt.-->
-            <choice>
-                                <abbr>Vgl.</abbr>
-                                <expan>Vergleiche</expan>
-                            </choice> <ref type="lit">Prot. VR SKA</ref>, 29. März 1876, 7. Juni 1876, 8. Januar 1877, 13. Januar 1877; 
-            <ref type="lit">Geschäftsbericht SKA</ref> 1863 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 7),<!--1864 (S. 18), --> 1869 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice>
-            9),<!--1870 (S. 9), 1871 (S. 11), 1872 (S. 10), 1873 (S. 14), --> 1876 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 18–19), 1877
-            (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 17), 1878 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 14), 1879 (<choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 14); <ref type="lit">Jöhr, SKA</ref>, <choice>
-                                <abbr>S.</abbr>
-                                <expan>Seite(n)</expan>
-                            </choice> 94.</note>
-                </seg> </p>
-    </div>
-        </body>
-    <back>
+            <choice><abbr>Vgl.</abbr><expan>Vergleiche</expan></choice> <ref type="lit">Prot. VR SKA</ref>, 29. März 1876, 7. Juni 1876, 8. Januar 1877, 13. Januar 1877; 
+            <ref type="lit">Geschäftsbericht SKA</ref> 1863 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 7),<!--1864 (S. 18), --> 1869 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice>
+            9),<!--1870 (S. 9), 1871 (S. 11), 1872 (S. 10), 1873 (S. 14), --> 1876 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 18–19), 1877
+            (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 17), 1878 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 14), 1879 (<choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 14); <ref type="lit">Jöhr, SKA</ref>, <choice><abbr>S.</abbr><expan>Seite(n)</expan></choice> 94.</note> </p>
+    </body><back>
       <div type="closer">
-        <p rend="right" xml:id="K_2814_p12">
-                    <lb xml:id="p4-l17"/>Mit aufrichtiger Verehrung</p>
-        <p rend="right" xml:id="K_2814_p13">
-                    <lb xml:id="p4-l18"/>Ihr</p>
+        <p rend="right" xml:id="K_2814_p12"><lb xml:id="p4-l17"/>Mit aufrichtiger Verehrung</p>
+        <p rend="right" xml:id="K_2814_p13"><lb xml:id="p4-l18"/>Ihr</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_2814_p14">
-                    <lb xml:id="p4-l19"/>Stoll.</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_2814_p14"><lb xml:id="p4-l19"/>Stoll.</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

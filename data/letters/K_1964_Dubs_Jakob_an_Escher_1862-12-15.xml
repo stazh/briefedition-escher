@@ -1,177 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1964" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Jakob Dubs an Alfred Escher, Bern, Montag, Dezember 15, 1862</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#171*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Eisenbahnrückkauf</item>
-                        <item>Simplonbahnprojekt</item>
-                        <item>Compagnie de la Ligne d'Italie («Walliser Bahn») (LI)</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Dubs Jakob" type="sender">Jakob Dubs</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Bern</placeName>
-                    <date when="1862-12-15">Montag, Dezember 15, 1862</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2005-03-21" who="WB">Transkribiert
-                
-            </change>
-            <change when="2013-06-26" who="AO">Migration nach XML
-                
-            </change>
-            <change when="2013-06-28" who="AO">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-            <change when="2013-07-02" who="MA">Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-11" who="SB">Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2013-07-23" who="CB">Migrationsverifizierung umgesetzt
-                
-            </change>
-            <change when="2013-07-24" who="KR">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2013-07-26" who="JS">Auszeichnung 2 umgesetzt
-                
-            </change>
-            <change when="2013-11-18" who="KR">Verifizierung 2 umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_1964" type="Brief"><teiHeader><fileDesc><titleStmt><title>Jakob Dubs an Alfred Escher, Bern, Montag, 15. Dezember 1862</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><bibl>Jung, Aufbruch, S. 396 (auszugsweise)</bibl><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#171*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Eisenbahnrückkauf</term><term>Simplonbahnprojekt</term><term>Compagnie de la Ligne d'Italie («Walliser Bahn») (LI)</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Dubs Jakob" type="addressee">Jakob Dubs</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Bern</placeName><date when="1862-12-15">15. Dezember 1862</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
       <div type="dateline">
-        <p rend="right" xml:id="K_1964_p1">
-                    <lb xml:id="p1-l1"/>
-          <placeName type="place" key="Bern (Stadt)">Bern</placeName> d. <date when="1862-12-15">15. <hi>
-                            <choice>
-                                <abbr>Decbr</abbr>
-                                <expan>December</expan>
-                            </choice> </hi> 1862</date>.</p>
+        <p rend="right" xml:id="K_1964_p1"><lb xml:id="p1-l1"/>
+          <placeName key="Bern (Stadt)">Bern</placeName> d. <date when="1862-12-15">15. <hi><choice><abbr>Decbr</abbr><expan>December</expan></choice> </hi> 1862</date>.</p>
       </div>
       <div type="opener">
-        <p rend="center" xml:id="K_1964_p2">
-                    <lb xml:id="p1-l2"/>Mein lieber Freund!</p>
+        <p rend="center" xml:id="K_1964_p2"><lb xml:id="p1-l2"/>Mein lieber Freund!</p>
       </div>
-    </front>
-    <body>
-            <div>
-      <p rend="indent" xml:id="K_1964_p3">
-                <lb xml:id="p1-l3"/>So eben in den Besitz Deiner
+    </front><body>
+      <p rend="indent" xml:id="K_1964_p3"><lb xml:id="p1-l3"/>So eben in den Besitz Deiner
             <lb xml:id="p1-l4"/>werthen Zeilen gelangt, beeile ich mich Dir
         <lb xml:id="p1-l5"/>zu erwiedern, daß ich bereit bin, <date when="1862-12-20">nächsten
-            <lb xml:id="p1-l6"/>Samstag</date> <choice>
-                        <abbr>od.</abbr>
-                        <expan>oder</expan>
-                    </choice> <date when="1862-12-21">Sonntag</date> an einem von Dir zu be<lb break="no" xml:id="p1-l7"/>stimmenden Orte zusammen zu treffen. Vielleicht
-            <lb xml:id="p1-l8"/>wäre <placeName type="place" key="Baden (AG)">Baden</placeName>
-                    <choice>
-                        <abbr>od.</abbr>
-                        <expan>oder</expan>
-                    </choice>
-                    <placeName type="place" key="Aarau">Aarau</placeName> zu einer Zusammenkunft
-            <lb xml:id="p1-l9"/>noch geeigneter als <placeName type="place" key="Olten">Olten</placeName>. Vor <date when="1862-12-20">Samstag</date> kann ich
-            <lb xml:id="p1-l10"/>nicht wohl fort.
+            <lb xml:id="p1-l6"/>Samstag</date> <choice><abbr>od.</abbr><expan>oder</expan></choice> <date when="1862-12-21">Sonntag</date> an einem von Dir zu be<lb xml:id="p1-l7" break="no"/>stimmenden Orte zusammen zu treffen. Vielleicht
+            <lb xml:id="p1-l8" break="no"/>wäre <placeName key="Baden (AG)">Baden</placeName> <choice><abbr>od.</abbr><expan>oder</expan></choice> <placeName key="Aarau">Aarau</placeName> zu einer Zusammenkunft
+            <lb xml:id="p1-l9" break="no"/>noch geeigneter als <placeName key="Olten">Olten</placeName>. Vor <date when="1862-12-20">Samstag</date> kann ich
+            <lb xml:id="p1-l10" break="no"/>nicht wohl fort.
         </p>
-      <p rend="indent" xml:id="K_1964_p4">
-                <lb xml:id="p1-l11"/>Ihr werdet wohl den famosen
-            <lb xml:id="p1-l12"/>Rechnungsfehler auf Seite 6. der Broschure <persName type="person" key="Stämpfli Jakob">St.</persName> schon
+      <p rend="indent" xml:id="K_1964_p4"><lb xml:id="p1-l11"/>Ihr werdet wohl den famosen
+            <lb xml:id="p1-l12"/>Rechnungsfehler auf Seite 6. der Broschure <persName key="Stämpfli Jakob">St.</persName> schon
             <lb xml:id="p1-l13"/>entdeckt haben. Die Verzinsung von 250. Millionen
-            <lb xml:id="p1-l14"/>à 4½% macht nicht 11,125,000 <choice>
-                        <abbr>Fr.</abbr>
-                        <expan>Franken / Francs / Franchi</expan>
-                    </choice>, sondern
-            <lb xml:id="p1-l15"/>11,250,000 <choice>
-                        <abbr>Fr.</abbr>
-                        <expan>Franken / Francs / Franchi</expan>
-                    </choice> Dadurch reduzirt sich der angebliche
-            <lb xml:id="p1-l16"/>Vorschuß auf Seite 8. von 134,550 <choice>
-                        <abbr>Fr.</abbr>
-                        <expan>Franken / Francs / Franchi</expan>
-                    </choice> auf
-            <lb xml:id="p1-l17"/>bloße 9,550 <choice>
-                        <abbr>Fr.</abbr>
-                        <expan>Franken / Francs / Franchi</expan>
-                    </choice> Ich glaube, es wäre gut,
+            <lb xml:id="p1-l14"/>à 4½% macht nicht 11,125,000 <choice><abbr>Fr.</abbr><expan>Franken / Francs / Franchi</expan></choice>, sondern
+            <lb xml:id="p1-l15"/>11,250,000 <choice><abbr>Fr.</abbr><expan>Franken / Francs / Franchi</expan></choice> Dadurch reduzirt sich der angebliche
+            <lb xml:id="p1-l16"/>Vorschuß auf Seite 8. von 134,550 <choice><abbr>Fr.</abbr><expan>Franken / Francs / Franchi</expan></choice> auf
+            <lb xml:id="p1-l17"/>bloße 9,550 <choice><abbr>Fr.</abbr><expan>Franken / Francs / Franchi</expan></choice> Ich glaube, es wäre gut,
             <lb xml:id="p1-l18"/>diesen Punkt separat ins Licht zu stellen,
             <lb xml:id="p1-l19"/>da er <hi>a priori</hi> alle andern Berechnungen
             <lb xml:id="p1-l20"/>in ein ungünstiges Licht stellt.
         </p>
-      <p rend="indent" xml:id="K_1964_p5">
-                <lb xml:id="p1-l21"/>Der Widerspruch <persName type="person" key="Knüsel Josef Martin">Knüsels</persName> <lb xml:id="p1-l22"/>ist allerdings, wenigstens theilweise, vorhanden;
-            <pb n="2"/>
-                <lb xml:id="p2-l1"/>doch läßt er eine befriedigende Erklärung zu, wenn
-            <lb xml:id="p2-l2"/>
-                <persName type="person" key="Knüsel Josef Martin">Knüsel</persName>, wie wahrscheinlich, die Broschure erst in letzter
+      <p rend="indent" xml:id="K_1964_p5"><lb xml:id="p1-l21"/>Der Widerspruch <persName key="Knüsel Josef Martin">Knüsels</persName> <lb xml:id="p1-l22"/>ist allerdings, wenigstens theilweise, vorhanden;
+            <pb n="2"/><lb xml:id="p2-l1"/>doch läßt er eine befriedigende Erklärung zu, wenn
+            <lb xml:id="p2-l2"/><persName key="Knüsel Josef Martin">Knüsel</persName>, wie wahrscheinlich, die Broschure erst in letzter
             <lb xml:id="p2-l3"/>Zeit im Manuscript gelesen hat. Ich möchte ihn
-            <lb xml:id="p2-l4"/>zur Zeit nicht besonders urgiren<note type="transcript">drängen</note>, da <persName type="person" key="Knüsel Josef Martin">Knüsel</persName> <lb xml:id="p2-l5"/>sich gegen das Projekt ausspricht. Ueber <persName type="person" key="Fornerod Constant">Fornerod</persName> <lb xml:id="p2-l6"/>bin ich im Unklaren, doch habe ich Zweifel, ob
+            <lb xml:id="p2-l4"/>zur Zeit nicht besonders urgiren<note type="transcript">drängen</note>, da <persName key="Knüsel Josef Martin">Knüsel</persName> <lb xml:id="p2-l5"/>sich gegen das Projekt ausspricht. Ueber <persName key="Fornerod Constant">Fornerod</persName> <lb xml:id="p2-l6"/>bin ich im Unklaren, doch habe ich Zweifel, ob
             <lb xml:id="p2-l7"/>er mitmachen würde.
         </p>
-      <p rend="indent" xml:id="K_1964_p6">
-                <lb xml:id="p2-l8"/>
-       <date when="1862-12-14">Gestern</date> sprach ich hier <hi>
-                    <persName type="person" key="Allet Alexis">Allet</persName>
-                </hi>. Er sagte mir,
+      <p rend="indent" xml:id="K_1964_p6"><lb xml:id="p2-l8"/>
+       <date when="1862-12-14">Gestern</date> sprach ich hier <hi><persName key="Allet Alexis">Allet</persName></hi>. Er sagte mir,
             <lb xml:id="p2-l9"/>es könnte ihnen nur angenehm sein, wenn die
             <lb xml:id="p2-l10"/>Eidgenossenschaft so viel für die Aktien der <hi>Ligne
-            <lb xml:id="p2-l11"/>d'<placeName type="place" key="Italien (Königreich)">Italie</placeName> </hi> bezahlen würde. Trotzdem seien sie aber
-            <lb xml:id="p2-l12"/>doch <hi rend="underline">gegen</hi> das Projekt, da sie den <placeName type="place" key="Simplon (Pass)">Simplon</placeName> <lb xml:id="p2-l13"/>noch offen halten wollen. Es ist dieß von
-            <lb xml:id="p2-l14"/>einiger Wichtigkeit, da <persName type="person" key="Stämpfli Jakob">St.</persName> auf das <placeName type="place" key="Wallis">Wallis</placeName> <lb xml:id="p2-l15"/>als sicher baute &amp;. da auf der andern Seite
-            <lb xml:id="p2-l16"/>das gleiche Motiv auch H<supplied>err</supplied> <persName type="person" key="Eytel Jules">Eytel</persName> &amp; <choice>
-                        <abbr>Cp.</abbr>
-                        <expan>Compagnia / Compagnie / Company (Gesellschaft)</expan>
-                    </choice> be<lb break="no" xml:id="p2-l17"/>stimmen dürfte, sich gegen das Projekt auszu<lb break="no" xml:id="p2-l18"/>sprechen.
+            <lb xml:id="p2-l11"/>d'<placeName key="Italien (Königreich)">Italie</placeName> </hi> bezahlen würde. Trotzdem seien sie aber
+            <lb xml:id="p2-l12"/>doch <hi rend="underline">gegen</hi> das Projekt, da sie den <placeName key="Simplon (Pass)">Simplon</placeName> <lb xml:id="p2-l13"/>noch offen halten wollen. Es ist dieß von
+            <lb xml:id="p2-l14"/>einiger Wichtigkeit, da <persName key="Stämpfli Jakob">St.</persName> auf das <placeName key="Wallis">Wallis</placeName> <lb xml:id="p2-l15"/>als sicher baute &amp;. da auf der andern Seite
+            <lb xml:id="p2-l16"/>das gleiche Motiv auch H<add>err</add> <persName key="Eytel Jules">Eytel</persName> &amp; <choice><abbr>Cp.</abbr><expan>Compagnia / Compagnie / Company (Gesellschaft)</expan></choice> be<lb xml:id="p2-l17" break="no"/>stimmen dürfte, sich gegen das Projekt auszu<lb xml:id="p2-l18" break="no"/>sprechen.
         </p>
-      <p rend="indent" xml:id="K_1964_p7">
-                <lb xml:id="p2-l19"/>Mit Euerm Vorgehen bin ich ganz einver<lb break="no" xml:id="p2-l20"/>standen. Auch die Wahl <persName type="person" key="Honegger Heinrich">Honeggers</persName> zum <choice>
-                        <abbr>Nat.Rath</abbr>
-                        <expan>NationalRath</expan>
-                    </choice>
-                    <lb xml:id="p2-l21"/>würde mir gefallen.
+      <p rend="indent" xml:id="K_1964_p7"><lb xml:id="p2-l19"/>Mit Euerm Vorgehen bin ich ganz einver<lb xml:id="p2-l20" break="no"/>standen. Auch die Wahl <persName key="Honegger Heinrich">Honeggers</persName> zum <choice><abbr>Nat.Rath</abbr><expan>NationalRath</expan></choice> <lb xml:id="p2-l21" break="no"/>würde mir gefallen.
         </p>
-    </div>
-        </body>
-    <back>
+    </body><back>
       <div type="closer">
-        <p rend="indent" xml:id="K_1964_p8">
-                    <lb xml:id="p2-l22"/>Weiteres mündlich. Mit freundschaftlichem
+        <p rend="indent" xml:id="K_1964_p8"><lb xml:id="p2-l22"/>Weiteres mündlich. Mit freundschaftlichem
             <lb xml:id="p2-l23"/>Gruße
         </p>
-        <p rend="right" xml:id="K_1964_p9">
-                    <lb xml:id="p2-l24"/>Dein</p>
+        <p rend="right" xml:id="K_1964_p9"><lb xml:id="p2-l24"/>Dein</p>
       </div>
-      <div type="address">
-        <p rend="right" xml:id="K_1964_p10">
-                    <lb xml:id="p2-l25"/>Jb. Dubs</p>
+      <div type="signature">
+        <p rend="right" xml:id="K_1964_p10"><lb xml:id="p2-l25"/>Jb. Dubs</p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>

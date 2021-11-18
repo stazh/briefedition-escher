@@ -1,395 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0563" n="" type="Brief">
-  <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Johannes Honegger an Alfred Escher, Zürich, Donnerstag, Juli 13, 1848</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>BAR</institution>
-                        <idno type="original">CH-BAR#J1.67#1000/1363#274*</idno>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="escher">
-                    <list>
-                        <item>Erziehungsrat ZH</item>
-                        <item>Wahlen</item>
-                        <item>Regierungsrat ZH</item>
-                        <item>Berufsleben</item>
-                        <item>Bildungswesen</item>
-                        <item>Rechtliches</item>
-                    </list>
-                </keywords>
-            </textClass>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Honegger Johannes" type="sender">Johannes Honegger</persName>
-                    <persName key="Escher (vom Glas) Alfred" type="addressee">Alfred Escher</persName>
-                    <placeName>Zürich</placeName>
-                    <date when="1848-07-13">Donnerstag, Juli 13, 1848</date>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="05-05-05 / 31-05-30" who="IM">Transkribiert
-
-                
-            </change>
-            <change when="Juni 2009" who="swissedit, UR">von Word nach XML konvertiert
-
-                
-            </change>
-            <change when="2011-07-06" who="TM">e-Edition: Auszeichnung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-08" who="AH">e-Edition: Verifizierung 1 umgesetzt
-                
-            </change>
-            <change when="2011-07-20" who="NH"> e-Edition: Auszeichnung Themen umgesetzt
-
-                
-            </change>
-            <change when="2011-07-27" who="HA">e-Edition: Auszeichnung 2 umgesetzt
-				
-                
-            </change>
-            <change when="2011-07-29" who="TM">e-Edition: Verifizierung 2 umgesetzt
-				
-                
-            </change>
-            <change when="2011-08-10" who="TM">Transkriptionsverifizierung T. Binder umgesetzt
-                
-            </change>
-            <change when="2015-01-05" who="CA">Inhaltliche Qualitätsprüfung umgesetzt
-                
-            </change>
-            <change when="2017-07-04" who="FH">Transkriptionsverifizierung Seiterle umgesetzt
-                
-            </change>
-        </revisionDesc>
-    </teiHeader>
-  <text>
-    <front>
-      <div type="printedheader">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="K_0563" type="Brief"><teiHeader><fileDesc><titleStmt><title>Johannes Honegger an Alfred Escher, Zürich, Donnerstag, 13. Juli 1848</title></titleStmt><publicationStmt><p>Digitale Briefedition Alfred Escher, Zürich: Alfred Escher-Stiftung.</p></publicationStmt><sourceDesc><msDesc><msIdentifier><institution>BAR</institution><idno type="original">CH-BAR#J1.67#1000/1363#274*</idno><idno>J I.67</idno></msIdentifier></msDesc></sourceDesc></fileDesc><profileDesc><textClass><keywords scheme="http://briefedition.alfred-escher.ch/keywords"><term>Erziehungsrat ZH</term><term>Wahlen</term><term>Regierungsrat ZH</term><term>Berufsleben</term><term>Bildungswesen</term><term>Rechtliches</term></keywords></textClass><correspDesc><correspAction type="sent"><persName key="Honegger Johannes" type="addressee">Johannes Honegger</persName><persName key="Escher (vom Glas) Alfred" type="sender">Alfred Escher</persName><placeName>Zürich</placeName><date when="1848-07-13">13. Juli 1848</date></correspAction></correspDesc></profileDesc></teiHeader><text><front>
+      
         <p rend="left" xml:id="K_0563_p1">
                     <lb xml:id="p1-l1"/>
-          <fw>J H</fw>
+          <hi rend="printed">J H</hi>
         </p>
-      </div>
+      
       <div type="dateline">
         <p rend="right" xml:id="K_0563_p2">
                     <lb xml:id="p1-l2"/>
-          <placeName type="place" key="Zürich (Stadt)">Zürich</placeName>, am <date when="1848-07-13">13<hi rend="sup">ten</hi> Juli. 1848</date>.</p>
+          <placeName key="Zürich (Stadt)">Zürich</placeName>, am <date when="1848-07-13">13<hi rend="sup">ten</hi> Juli. 1848</date>.</p>
       </div><!--Leerer Absatz-->
       <div type="opener">
         <p rend="indent" xml:id="K_0563_p3">
                     <lb xml:id="p1-l3"/>Mein Lieber!</p>
       </div><!--Leerer Absatz-->
-    </front>
-    <body>
-            <div>
+    </front><body>
       <p rend="indent" xml:id="K_0563_p4">
-                <lb xml:id="p1-l4"/>In der vorigen Woche fand keine Sitzung des <choice>
-                        <abbr>ErzRathes</abbr>
-                        <expan>ErziehungsRathes</expan>
-                    </choice> <lb xml:id="p1-l5"/>statt; wohl aber eine 3½stündige Sitzung der ersten Section.<lb xml:id="p1-l6"/>In der letztern wurden die eingegangenen Meldungen für<lb xml:id="p1-l7"/>Stipendien noch nicht vorgelegt, weil noch einige Belege fehl<lb break="no" xml:id="p1-l8"/>ten; ebensowenig in der gestrigen Plenarsitzung. Ohne Zwei<lb break="no" xml:id="p1-l9"/>fel werden sie in der nächsten Sectionssitzung vorgelegt<lb xml:id="p1-l10"/>werden. Zur eigentlichen Behandlung aber werden sie schwer<lb break="no" xml:id="p1-l11"/>lich kommen, da bei der großen Zahl der sich Meldenden die Ac<lb break="no" xml:id="p1-l12"/>ten nothwendig zu näherer Prüfung auf einige Zeit auf<lb xml:id="p1-l13"/>den Kanzleitisch gelegt werden müssen. Damit ist die Ver<lb break="no" xml:id="p1-l14"/>schiebung bis nach den Ferien, also bis in den August hinein<lb xml:id="p1-l15"/>gewonnen, indem nach der Sitzung des <choice>
-                        <abbr>ErzR.</abbr>
-                        <expan>ErziehungsRath</expan>
-                    </choice> in der folgenden<lb xml:id="p1-l16"/>Woche erziehungsräthliche Ferien für etwa vierzehn Tage<lb xml:id="p1-l17"/>eintreten werden. Diese Verschiebung ist durchaus nothwen<lb break="no" xml:id="p1-l18"/>dig, wenn <persName type="person" key="Weiss Emil">Emil Weiß</persName> berücksichtigt werden soll; denn während<lb xml:id="p1-l19"/>der Ferien wäre es ihm nicht möglich, die betreffenden Schul<lb break="no" xml:id="p1-l20"/>zeugnisse zu erhalten, da viele Lehrer abwesend sind. In<lb break="no" xml:id="p1-l21"/>dessen möchte es nicht unzweckmäßig sein, wenn er sich vor<lb break="no" xml:id="p1-l22"/>läufig melden würde, mit dem Beifügen, daß er die nöthi<lb break="no" xml:id="p1-l23"/>gen Zeugnisse nach den Ferien beibringen werde. Solltest<lb xml:id="p1-l24"/>
-                    <supplied>d</supplied>u diese Ansicht theilen, so gib mir einen Wink, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ich werde so<lb break="no" xml:id="p1-l25"/>gleich in Verbindung mit <persName type="person" key="Weiss-Zwicky Margaretha">Frau Oberst Weiß</persName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Präsident<lb xml:id="p1-l26"/>
-                    <persName type="person" key="Huggenberg Johann Jakob">Huggenberger</persName> die nöthigen Einleitungen treffen. – <persName type="person" key="Weiss Emil">Emil Weiß</persName>
-                    <lb xml:id="p1-l27"/>kommt jetzt alle Tage ein- oder zweimal zu mir <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> arbeitet<lb xml:id="p1-l28"/>recht fleißig, um das Versäumte nachzuholen. <pb n="2"/>
+                <lb xml:id="p1-l4"/>In der vorigen Woche fand keine Sitzung des <choice><abbr>ErzRathes</abbr><expan>ErziehungsRathes</expan></choice> <lb xml:id="p1-l5"/>statt; wohl aber eine 3½stündige Sitzung der ersten Section.<lb xml:id="p1-l6"/>In der letztern wurden die eingegangenen Meldungen für<lb xml:id="p1-l7"/>Stipendien noch nicht vorgelegt, weil noch einige Belege fehl
+                <lb xml:id="p1-l8" break="no"/>ten; ebensowenig in der gestrigen Plenarsitzung. Ohne Zwei
+                <lb xml:id="p1-l9" break="no"/>fel werden sie in der nächsten Sectionssitzung vorgelegt<lb xml:id="p1-l10" break="no"/>werden. Zur eigentlichen Behandlung aber werden sie schwer
+                <lb xml:id="p1-l11" break="no"/>lich kommen, da bei der großen Zahl der sich Meldenden die Ac
+                <lb xml:id="p1-l12" break="no"/>ten nothwendig zu näherer Prüfung auf einige Zeit auf<lb xml:id="p1-l13" break="no"/>den Kanzleitisch gelegt werden müssen. Damit ist die Ver
+                <lb xml:id="p1-l14" break="no"/>schiebung bis nach den Ferien, also bis in den August hinein<lb xml:id="p1-l15" break="no"/>gewonnen, indem nach der Sitzung des <choice><abbr>ErzR.</abbr><expan>ErziehungsRath</expan></choice> in der folgenden<lb xml:id="p1-l16" break="no"/>Woche erziehungsräthliche Ferien für etwa vierzehn Tage<lb xml:id="p1-l17" break="no"/>eintreten werden. Diese Verschiebung ist durchaus nothwen
+                <lb xml:id="p1-l18" break="no"/>dig, wenn <persName key="Weiss Emil">Emil Weiß</persName> berücksichtigt werden soll; denn während<lb xml:id="p1-l19" break="no"/>der Ferien wäre es ihm nicht möglich, die betreffenden Schul
+                <lb xml:id="p1-l20" break="no"/>zeugnisse zu erhalten, da viele Lehrer abwesend sind. In
+                <lb xml:id="p1-l21" break="no"/>dessen möchte es nicht unzweckmäßig sein, wenn er sich vor
+                <lb xml:id="p1-l22" break="no"/>läufig melden würde, mit dem Beifügen, daß er die nöthi
+                <lb xml:id="p1-l23" break="no"/>gen Zeugnisse nach den Ferien beibringen werde. Solltest<lb xml:id="p1-l24" break="no"/>
+                <add>d</add>u diese Ansicht theilen, so gib mir einen Wink, <choice><abbr>u.</abbr><expan>und</expan></choice> ich werde so
+                <lb xml:id="p1-l25" break="no"/>gleich in Verbindung mit <persName key="Weiss-Zwicky Margaretha">Frau Oberst Weiß</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> Präsident<lb xml:id="p1-l26" break="no"/>
+                <persName key="Huggenberg Johann Jakob">Huggenberger</persName> die nöthigen Einleitungen treffen. – <persName key="Weiss Emil">Emil Weiß</persName> <lb xml:id="p1-l27" break="no"/>kommt jetzt alle Tage ein- oder zweimal zu mir <choice><abbr>u.</abbr><expan>und</expan></choice> arbeitet<lb xml:id="p1-l28" break="no"/>recht fleißig, um das Versäumte nachzuholen. <pb n="2"/>
             </p>
       <p rend="indent" xml:id="K_0563_p5">
                 <lb xml:id="p2-l1"/>
        <date when="1845-07-02">Letzten Sonntag</date> vor acht Tagen war ich auf ein Stündchen
-        <lb xml:id="p2-l2"/>bei <choice>
-                        <abbr>Pfr.</abbr>
-                        <expan>Pfarrer</expan>
-                    </choice> <persName type="person" key="Zollinger Johann Caspar">Zollinger</persName> in <placeName type="place" key="Uetikon am See">Uetikon</placeName>, der kurz vorher mit <persName type="person" key="Billeter Eduard">Ed. Billeter</persName> <lb xml:id="p2-l3"/>
-ein einläßliches Gespräch über die neuen Wahlen in den <choice>
-                        <abbr>RR.</abbr>
-                        <expan>RegierungsRath</expan>
-                    </choice> <lb xml:id="p2-l4"/>
-geführt hatte. Nach der Schilderung <persName type="person" key="Zollinger Johann Caspar">Zollingers</persName> ist <persName type="person" key="Billeter Eduard">Ed. Billeter</persName> <lb xml:id="p2-l5"/>
-tief verletzt <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> sehr erbittert darüber, daß er in die letzte<lb xml:id="p2-l6"/>
-Wahlliste der Vorversammlung nicht aufgenommen wurde. Dar<lb break="no" xml:id="p2-l7"/>in 
-scheint er mir vollkommen Recht zu haben. Merkwürdi<lb break="no" xml:id="p2-l8"/>ger 
-Weise aber schreibt er dieses Resultat gerade denen zu,<lb xml:id="p2-l9"/>
-die in dieser Sache ganz unschuldig sind. Während nämlich<lb xml:id="p2-l10"/>
-die <persName type="person" key="Orelli Johann Konrad von">Orellianer</persName> von <persName type="person" key="Benz Rudolf">
-                    <hi>Benz</hi>
-                </persName> nichts wissen wollten <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> somit <persName type="person" key="Billeter Eduard">Ed.<lb xml:id="p2-l11"/>
-Billeter</persName> gewählt hätten, so läßt sich dieser von der Ueberzeu<lb break="no" xml:id="p2-l12"/>gung 
-nicht abbringen, daß seine Zurücksetzung ein Mach<lb break="no" xml:id="p2-l13"/>werk 
-von dir <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> deinen nähern Freunden sei. Auf dich soll<lb xml:id="p2-l14"/>
-er, wie <persName type="person" key="Zollinger Johann Caspar">Zollinger</persName> sagt, einen besondern Zahn haben, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> er habe<lb xml:id="p2-l15"/>
-sich nur darum zur Annahme der Stelle entschlossen, um ähn<lb break="no" xml:id="p2-l16"/>lichen 
-Machwerken in der Behörde entgegenzutreten <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p2-l17"/>
-die freie Stirne zu bieten. Ihr werdet, wie du siehst, in dem<lb xml:id="p2-l18"/>
-wackern Manne eine zweite, vielleicht vermehrte, gewiß<lb xml:id="p2-l19"/>
-aber verschlechterte Ausgabe von <persName type="person" key="Esslinger Melchior">Eßlinger</persName>
-                    <add>bekommen</add>. Sogar meiner<lb xml:id="p2-l20"/>
-Wenigkeit thut er die Ehre an, mich in der Wahlangelegen<lb break="no" xml:id="p2-l21"/>heit 
-zu einem deiner Hauptwerkzeuge zu stempeln, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ist<lb xml:id="p2-l22"/>
-jetzt von Neuem mehr als je überzeugt, daß ich der Verfas<lb break="no" xml:id="p2-l23"/>ser 
-        des ersten <persName type="person" key="Scherr Ignaz Thomas">Scherr</persName>-Artikels in der <choice>
-                        <abbr>Eidg.</abbr>
-                        <expan>Eidgenössisch / Eidgenößisch</expan>
-                    </choice> Zeitung sei.<lb xml:id="p2-l24"/>
-Jedenfalls wird eine etwelche Verständigung mit diesem<lb xml:id="p2-l25"/>
-widerhaarigen Elemente <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> eine gewisse Schonung desselben<lb xml:id="p2-l26"/>
-im Interesse der öffentlichen Wohlfahrt liegen. So glaube <hi rend="underline">ich</hi>
-                    <lb xml:id="p2-l27"/>
+        <lb xml:id="p2-l2"/>bei <choice><abbr>Pfr.</abbr><expan>Pfarrer</expan></choice> <persName key="Zollinger Johann Caspar">Zollinger</persName> in <placeName key="Uetikon am See">Uetikon</placeName>, der kurz vorher mit <persName key="Billeter Eduard">Ed. Billeter</persName> <lb xml:id="p2-l3"/>
+ein einläßliches Gespräch über die neuen Wahlen in den <choice><abbr>RR.</abbr><expan>RegierungsRath</expan></choice> <lb xml:id="p2-l4"/>
+geführt hatte. Nach der Schilderung <persName key="Zollinger Johann Caspar">Zollingers</persName> ist <persName key="Billeter Eduard">Ed. Billeter</persName> <lb xml:id="p2-l5"/>
+tief verletzt <choice><abbr>u.</abbr><expan>und</expan></choice> sehr erbittert darüber, daß er in die letzte<lb xml:id="p2-l6"/>
+Wahlliste der Vorversammlung nicht aufgenommen wurde. Dar
+                <lb xml:id="p2-l7" break="no"/>in 
+scheint er mir vollkommen Recht zu haben. Merkwürdi
+                <lb xml:id="p2-l8" break="no"/>ger 
+Weise aber schreibt er dieses Resultat gerade denen zu,<lb xml:id="p2-l9" break="no"/>
+die in dieser Sache ganz unschuldig sind. Während nämlich<lb xml:id="p2-l10" break="no"/>
+die <persName key="Orelli Johann Konrad von">Orellianer</persName> von <persName key="Benz Rudolf"><hi>Benz</hi></persName> nichts wissen wollten <choice><abbr>u.</abbr><expan>und</expan></choice> somit <persName key="Billeter Eduard">Ed.<lb xml:id="p2-l11"/>
+Billeter</persName> gewählt hätten, so läßt sich dieser von der Ueberzeu
+                <lb xml:id="p2-l12" break="no"/>gung 
+nicht abbringen, daß seine Zurücksetzung ein Mach
+                <lb xml:id="p2-l13" break="no"/>werk 
+von dir <choice><abbr>u.</abbr><expan>und</expan></choice> deinen nähern Freunden sei. Auf dich soll<lb xml:id="p2-l14" break="no"/>
+er, wie <persName key="Zollinger Johann Caspar">Zollinger</persName> sagt, einen besondern Zahn haben, <choice><abbr>u.</abbr><expan>und</expan></choice> er habe<lb xml:id="p2-l15" break="no"/>
+sich nur darum zur Annahme der Stelle entschlossen, um ähn
+                <lb xml:id="p2-l16" break="no"/>lichen 
+Machwerken in der Behörde entgegenzutreten <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p2-l17" break="no"/>
+die freie Stirne zu bieten. Ihr werdet, wie du siehst, in dem<lb xml:id="p2-l18" break="no"/>
+wackern Manne eine zweite, vielleicht vermehrte, gewiß<lb xml:id="p2-l19" break="no"/>
+aber verschlechterte Ausgabe von <persName key="Esslinger Melchior">Eßlinger</persName> <add>bekommen</add>. Sogar meiner<lb xml:id="p2-l20" break="no"/>
+Wenigkeit thut er die Ehre an, mich in der Wahlangelegen
+                <lb xml:id="p2-l21" break="no"/>heit 
+zu einem deiner Hauptwerkzeuge zu stempeln, <choice><abbr>u.</abbr><expan>und</expan></choice> ist<lb xml:id="p2-l22" break="no"/>
+jetzt von Neuem mehr als je überzeugt, daß ich der Verfas
+                <lb xml:id="p2-l23" break="no"/>ser 
+        des ersten <persName key="Scherr Ignaz Thomas">Scherr</persName>-Artikels in der <choice><abbr>Eidg.</abbr><expan>Eidgenössisch / Eidgenößisch</expan></choice> Zeitung sei.<lb xml:id="p2-l24" break="no"/>
+Jedenfalls wird eine etwelche Verständigung mit diesem<lb xml:id="p2-l25" break="no"/>
+widerhaarigen Elemente <choice><abbr>u.</abbr><expan>und</expan></choice> eine gewisse Schonung desselben<lb xml:id="p2-l26" break="no"/>
+im Interesse der öffentlichen Wohlfahrt liegen. So glaube <hi rend="underline">ich</hi> <lb xml:id="p2-l27" break="no"/>
 es wenigstens.</p>
       <p rend="indent" xml:id="K_0563_p6">
-                <lb xml:id="p2-l28"/>Aus unsrer Erziehungsräthlichen Tätigkeit erwähne ich<lb xml:id="p2-l29"/>folgendes: <persName type="person" key="Billeter Eduard">Ed. Billeter</persName> ist zum Mitgliede <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Präsidenten der<lb xml:id="p2-l30"/>Aufsichtsbehörde der Industrieschule gewählt worden: in Bezug <pb n="3"/>
-                <lb xml:id="p3-l1"/>auf die Präsidentschaft hat er sich acht Tage Bedenkzeit ge<lb break="no" xml:id="p3-l2"/>nommen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> erhalten. Alt <choice>
-                        <abbr>RR.</abbr>
-                        <expan>RegierungsRath</expan>
-                    </choice>
-                    <persName type="person" key="Wieland Johann Jakob">Wieland</persName> hat seine Entlassung<lb xml:id="p3-l3"/>aus dieser Behörde auf seinen Wunsch erhalten: die Wieder<lb break="no" xml:id="p3-l4"/>besetzung dieser Stelle wird verschoben, bis <persName type="person" key="Billeter Eduard">Ed. Billeter</persName> sich<lb xml:id="p3-l5"/>über die Annahme des Präsidiums erklärt hat. Eine neue Zu<lb break="no" xml:id="p3-l6"/>schrift der <choice>
-                        <abbr>staatswssschfl.</abbr>
-                        <expan>staatswissenschaftlich</expan>
-                    </choice> Facultät um beförderliche Bese<lb break="no" xml:id="p3-l7"/>tzung der erledigten Professur ist unberücksichtigt geblie<lb break="no" xml:id="p3-l8"/>ben: hingegen hat <persName type="person" key="Rüttimann Johann Jakob">Rüttimann</persName>
-                    <placeName type="place" key="Zürich">Zürcherisches</placeName> Recht auf den fol<lb break="no" xml:id="p3-l9"/>genden Semester<note type="transcript">sic</note> angekündigt. <choice>
-                        <abbr>
-                    <hi>D<hi rend="sup">r</hi> </hi>
-                </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice>
-                    <persName type="person" key="Roth">Roth</persName> ist abgewiesen, <choice>
-                        <abbr>
-                    <hi>D<hi rend="sup">r</hi>
-                    </hi> </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice>
-                    <persName type="person" key="Pipitz Franz">Pi<lb break="no" xml:id="p3-l10"/>pitz</persName> als Privatdocent zugelassen. Die neue Wahl- <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Beru<lb break="no" xml:id="p3-l11"/>fungsformel ist angenommen: ebenso das vorgeschlagene<lb xml:id="p3-l12"/>
-                    <choice>
-                        <abbr>obligat.</abbr>
-                        <expan>obligatorisch</expan>
-                    </choice> Lehrmittel für den Gesang. Die Anmeldungen für<lb xml:id="p3-l13"/>die <choice>
-                        <abbr>Prof.</abbr>
-                        <expan>Professor</expan>
-                    </choice> der Geschichte sind der <choice>
-                        <abbr>phil.</abbr>
-                        <expan>philosophisch</expan>
-                    </choice> Facultät zur Begutach<lb break="no" xml:id="p3-l14"/>tung überwiesen. In Sachen der Benutzung der Kantons<lb break="no" xml:id="p3-l15"/>bibliothek von Seite der Kantonsschüler ist zur Abänderung<lb xml:id="p3-l16"/>des Reglements eine Commission aus <choice>
-                        <abbr>Prof.</abbr>
-                        <expan>Professor</expan>
-                    </choice>
-                    <persName type="person" key="Escher (vom Glas)-Landolt Heinrich">Escher</persName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> mir bestellt.<lb xml:id="p3-l17"/>
-                    <persName type="person" key="Brändli Benjamin">Brändli</persName> ist beauftragt, einen Zusatzartikel zum Gesetze<lb xml:id="p3-l18"/>über die Hochschule zu entwerfen, betreffend die Benutzung<lb xml:id="p3-l19"/>des Spitals von Seite der Studirenden. <choice>
-                        <abbr>
-                    <hi>D<hi rend="sup">r</hi>
-                    </hi> </abbr>
-                        <expan>Doktor / Doctor</expan>
-                    </choice>
-                    <persName type="person" key="Schwarz">Schwarz</persName> wird einge<lb break="no" xml:id="p3-l20"/>laden, sich beförderlich über die Annahme der ihm übertrage<lb break="no" xml:id="p3-l21"/>nen Stelle zu erklären.</p>
+                <lb xml:id="p2-l28"/>Aus unsrer Erziehungsräthlichen Tätigkeit erwähne ich<lb xml:id="p2-l29"/>folgendes: <persName key="Billeter Eduard">Ed. Billeter</persName> ist zum Mitgliede <choice><abbr>u.</abbr><expan>und</expan></choice> Präsidenten der<lb xml:id="p2-l30"/>Aufsichtsbehörde der Industrieschule gewählt worden: in Bezug <pb n="3"/>
+                <lb xml:id="p3-l1"/>auf die Präsidentschaft hat er sich acht Tage Bedenkzeit ge
+                <lb xml:id="p3-l2" break="no"/>nommen <choice><abbr>u.</abbr><expan>und</expan></choice> erhalten. Alt <choice><abbr>RR.</abbr><expan>RegierungsRath</expan></choice> <persName key="Wieland Johann Jakob">Wieland</persName> hat seine Entlassung<lb xml:id="p3-l3" break="no"/>aus dieser Behörde auf seinen Wunsch erhalten: die Wieder
+                <lb xml:id="p3-l4" break="no"/>besetzung dieser Stelle wird verschoben, bis <persName key="Billeter Eduard">Ed. Billeter</persName> sich<lb xml:id="p3-l5" break="no"/>über die Annahme des Präsidiums erklärt hat. Eine neue Zu
+                <lb xml:id="p3-l6" break="no"/>schrift der <choice><abbr>staatswssschfl.</abbr><expan>staatswissenschaftlich</expan></choice> Facultät um beförderliche Bese
+                <lb xml:id="p3-l7" break="no"/>tzung der erledigten Professur ist unberücksichtigt geblie
+                <lb xml:id="p3-l8" break="no"/>ben: hingegen hat <persName key="Rüttimann Johann Jakob">Rüttimann</persName> <placeName key="Zürich">Zürcherisches</placeName> Recht auf den fol
+                <lb xml:id="p3-l9" break="no"/>genden Semester<note type="transcript">sic</note> angekündigt. <choice><abbr><hi>D<hi rend="sup">r</hi> </hi></abbr><expan>Doktor / Doctor</expan></choice> <persName key="Roth">Roth</persName> ist abgewiesen, <choice><abbr><hi>D<hi rend="sup">r</hi></hi> </abbr><expan>Doktor / Doctor</expan></choice> <persName key="Pipitz Franz">Pi
+                    <lb xml:id="p3-l10" break="no"/>pitz</persName> als Privatdocent zugelassen. Die neue Wahl- <choice><abbr>u.</abbr><expan>und</expan></choice> Beru
+                <lb xml:id="p3-l11" break="no"/>fungsformel ist angenommen: ebenso das vorgeschlagene<lb xml:id="p3-l12" break="no"/>
+                <choice><abbr>obligat.</abbr><expan>obligatorisch</expan></choice> Lehrmittel für den Gesang. Die Anmeldungen für<lb xml:id="p3-l13" break="no"/>die <choice><abbr>Prof.</abbr><expan>Professor</expan></choice> der Geschichte sind der <choice><abbr>phil.</abbr><expan>philosophisch</expan></choice> Facultät zur Begutach
+                <lb xml:id="p3-l14" break="no"/>tung überwiesen. In Sachen der Benutzung der Kantons
+                <lb xml:id="p3-l15" break="no"/>bibliothek von Seite der Kantonsschüler ist zur Abänderung<lb xml:id="p3-l16" break="no"/>des Reglements eine Commission aus <choice><abbr>Prof.</abbr><expan>Professor</expan></choice> <persName key="Escher (vom Glas)-Landolt Heinrich">Escher</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> mir bestellt.<lb xml:id="p3-l17" break="no"/>
+                <persName key="Brändli Benjamin">Brändli</persName> ist beauftragt, einen Zusatzartikel zum Gesetze<lb xml:id="p3-l18" break="no"/>über die Hochschule zu entwerfen, betreffend die Benutzung<lb xml:id="p3-l19" break="no"/>des Spitals von Seite der Studirenden. <choice><abbr><hi>D<hi rend="sup">r</hi></hi> </abbr><expan>Doktor / Doctor</expan></choice> <persName key="Schwarz">Schwarz</persName> wird einge
+                <lb xml:id="p3-l20" break="no"/>laden, sich beförderlich über die Annahme der ihm übertrage
+                <lb xml:id="p3-l21" break="no"/>nen Stelle zu erklären.</p>
       <p rend="indent" xml:id="K_0563_p7">
-                <lb xml:id="p3-l22"/>Noch bleiben zwei Hauptpunkte übrig: die Wahl des Präsiden<lb break="no" xml:id="p3-l23"/>ten der <choice>
-                        <abbr>Aufsc.</abbr>
-                        <expan>Aufsichtscommission / Aufsichtscommißion</expan>
-                    </choice> der <choice>
-                        <abbr>Indstrsch.</abbr>
-                        <expan>Industrieschule</expan>
-                    </choice>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ein ziemlich lebhaftes Vorpo<lb break="no" xml:id="p3-l24"/>stengefecht über die Wahl des Seminardirectors.</p>
+                <lb xml:id="p3-l22"/>Noch bleiben zwei Hauptpunkte übrig: die Wahl des Präsiden
+                <lb xml:id="p3-l23" break="no"/>ten der <choice><abbr>Aufsc.</abbr><expan>Aufsichtscommission / Aufsichtscommißion</expan></choice> der <choice><abbr>Indstrsch.</abbr><expan>Industrieschule</expan></choice> <choice><abbr>u.</abbr><expan>und</expan></choice> ein ziemlich lebhaftes Vorpo
+                <lb xml:id="p3-l24" break="no"/>stengefecht über die Wahl des Seminardirectors.</p>
       <p rend="indent" xml:id="K_0563_p8">
-                <lb xml:id="p3-l25"/>In der Sectionssitzung von voriger Woche wurde der Vor<lb break="no" xml:id="p3-l26"/>schlag
- für <persName type="person" key="Billeter Eduard">Ed. Billeter</persName> gebildet. <choice>
-                        <abbr>Prof.</abbr>
-                        <expan>Professor</expan>
-                    </choice>
-                    <persName type="person" key="Escher (vom Glas)-Landolt Heinrich">Escher</persName> wünschte, daß ich ge<lb break="no" xml:id="p3-l27"/>wählt
- werde. <persName type="person" key="Fries David">Fries</persName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <persName type="person" key="Brändli Benjamin">Brändli</persName> hatten ursprünglich denselben<lb xml:id="p3-l28"/>
-Wunsch, mußten ihn aber besonders aus dem Grunde unterdrü<lb break="no" xml:id="p3-l29"/>cken, 
-weil es sich nicht schicke, daß ein Lehrer der einen Abthei<lb break="no" xml:id="p3-l30"/>lung 
-Präsident der Aufsichtsbehörde der andern sei. Von der Rich<lb break="no" xml:id="p3-l31"/>tigkeit
- dieser Ansicht überzeugten sich allmälig Alle: selbst<lb xml:id="p3-l32"/>
-                    <choice>
-                        <abbr>Prof.</abbr>
-                        <expan>Professor</expan>
-                    </choice>
-                    <persName type="person" key="Escher (vom Glas)-Landolt Heinrich">Escher</persName> wußte nichts Erhebliches dagegen einzuwenden. <pb n="4"/>
-                    <lb xml:id="p4-l1"/>
-Nach Beendigung der Sitzung trafen <persName type="person" key="Brändli Benjamin">Brändli</persName>, <persName type="person" key="Fries David">Fries</persName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ich zu<lb break="no" xml:id="p4-l2"/>fälliger
- Weise auf der Messe <persName type="person" key="Billeter Eduard">Ed. Billeter</persName> selbst <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> theilten<lb xml:id="p4-l3"/>
-ihm das Resultat unsrer diesfälligen Verhandlungen mit.<lb xml:id="p4-l4"/>
-Er zeigte sich wahrhaft leidenschaftlich erbost darüber, zu un<lb break="no" xml:id="p4-l5"/>serm größten Erstaunen, <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> erklärte, das Präsidium unter<lb xml:id="p4-l6"/>
-keiner Bedingung annehmen zu wollen: er wolle nicht in<lb xml:id="p4-l7"/>
-eine Stellung eintreten, der er nicht gewachsen: er wolle<lb xml:id="p4-l8"/>
-nicht der Spielball Anderer werden. Im <choice>
-                        <abbr>ErzR.</abbr>
-                        <expan>ErziehungsRath</expan>
-                    </choice> selbst hatte ich<lb xml:id="p4-l9"/>
-über den Vorschlag der 1<hi rend="sup">ten</hi> Section zu referiren. Ich that<lb xml:id="p4-l10"/>
-es mit bescheidener Hervorhebung der Würdigkeit <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> der Ver<lb break="no" xml:id="p4-l11"/>dienste 
-des Vorgeschlagenen. <persName type="person" key="Billeter Eduard">Ed. Billeter</persName> fand für gut, in<lb xml:id="p4-l12"/>
-seiner Erwiederung zu sagen: das von mir gespendete<lb xml:id="p4-l13"/>
-        Lob müsse ihn zwar freuen; aber es klinge beinahe «wie<lb xml:id="p4-l14"/>
-        Hohn». Nach einigem Besinnen entschloß ich mich, nicht mit ei<lb break="no" xml:id="p4-l15"/>ner
-        Erörterung des collegialischen «Hohnes» zu repliciren,<lb xml:id="p4-l16"/>
-um der Behörde eine ärgerliche Scene zu ersparen. Der ganze<lb xml:id="p4-l17"/>
-Eindruck, den das Benehmen <persName type="person" key="Billeter Eduard">Ed. Billeters</persName> in dieser Sache auf<lb xml:id="p4-l18"/>
-mich machte ist ein solcher, daß es mir immer klarer schien, <persName type="person" key="Billeter Eduard">Ed.<lb xml:id="p4-l19"/>
-Billeter</persName> gehe von der Ueberzeugung aus: wir thun alles<lb xml:id="p4-l20"/>
-Mögliche, um ihn in eine Stellung zu versetzen, in der er sich<lb xml:id="p4-l21"/>
-blamiren <hi rend="underline">müsse</hi>. Nachträglich sagte Sekretär <persName type="person" key="Egli Johann Heinrich">Egli</persName> in Ge<lb break="no" xml:id="p4-l22"/>genwart 
-einiger Erziehungsräthe: <persName type="person" key="Billeter Eduard">Billeter</persName> werde sich<lb xml:id="p4-l23"/>
-schwerlich zur Annahme des Präsidiums entschließen, wenn<lb xml:id="p4-l24"/>
-er noch genauere Rücksprache mit <persName type="person" key="Esslinger Melchior">Eßlinger</persName> nehme???</p>
+                <lb xml:id="p3-l25"/>In der Sectionssitzung von voriger Woche wurde der Vor
+                <lb xml:id="p3-l26" break="no"/>schlag
+ für <persName key="Billeter Eduard">Ed. Billeter</persName> gebildet. <choice><abbr>Prof.</abbr><expan>Professor</expan></choice> <persName key="Escher (vom Glas)-Landolt Heinrich">Escher</persName> wünschte, daß ich ge
+                <lb xml:id="p3-l27" break="no"/>wählt
+ werde. <persName key="Fries David">Fries</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> <persName key="Brändli Benjamin">Brändli</persName> hatten ursprünglich denselben<lb xml:id="p3-l28" break="no"/>
+Wunsch, mußten ihn aber besonders aus dem Grunde unterdrü
+                <lb xml:id="p3-l29" break="no"/>cken, 
+weil es sich nicht schicke, daß ein Lehrer der einen Abthei
+                <lb xml:id="p3-l30" break="no"/>lung 
+Präsident der Aufsichtsbehörde der andern sei. Von der Rich
+                <lb xml:id="p3-l31" break="no"/>tigkeit
+ dieser Ansicht überzeugten sich allmälig Alle: selbst<lb xml:id="p3-l32" break="no"/>
+                <choice><abbr>Prof.</abbr><expan>Professor</expan></choice> <persName key="Escher (vom Glas)-Landolt Heinrich">Escher</persName> wußte nichts Erhebliches dagegen einzuwenden. <pb n="4"/>
+                <lb xml:id="p4-l1" break="no"/>
+Nach Beendigung der Sitzung trafen <persName key="Brändli Benjamin">Brändli</persName>, <persName key="Fries David">Fries</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> ich zu
+                <lb xml:id="p4-l2" break="no"/>fälliger
+ Weise auf der Messe <persName key="Billeter Eduard">Ed. Billeter</persName> selbst <choice><abbr>u.</abbr><expan>und</expan></choice> theilten<lb xml:id="p4-l3" break="no"/>
+ihm das Resultat unsrer diesfälligen Verhandlungen mit.<lb xml:id="p4-l4" break="no"/>
+Er zeigte sich wahrhaft leidenschaftlich erbost darüber, zu un
+                <lb xml:id="p4-l5" break="no"/>serm größten Erstaunen, <choice><abbr>u.</abbr><expan>und</expan></choice> erklärte, das Präsidium unter<lb xml:id="p4-l6" break="no"/>
+keiner Bedingung annehmen zu wollen: er wolle nicht in<lb xml:id="p4-l7" break="no"/>
+eine Stellung eintreten, der er nicht gewachsen: er wolle<lb xml:id="p4-l8" break="no"/>
+nicht der Spielball Anderer werden. Im <choice><abbr>ErzR.</abbr><expan>ErziehungsRath</expan></choice> selbst hatte ich<lb xml:id="p4-l9" break="no"/>
+über den Vorschlag der 1<hi rend="sup">ten</hi> Section zu referiren. Ich that<lb xml:id="p4-l10" break="no"/>
+es mit bescheidener Hervorhebung der Würdigkeit <choice><abbr>u.</abbr><expan>und</expan></choice> der Ver
+                <lb xml:id="p4-l11" break="no"/>dienste 
+des Vorgeschlagenen. <persName key="Billeter Eduard">Ed. Billeter</persName> fand für gut, in<lb xml:id="p4-l12" break="no"/>
+seiner Erwiederung zu sagen: das von mir gespendete<lb xml:id="p4-l13" break="no"/>
+        Lob müsse ihn zwar freuen; aber es klinge beinahe «wie<lb xml:id="p4-l14" break="no"/>
+        Hohn». Nach einigem Besinnen entschloß ich mich, nicht mit ei
+                <lb xml:id="p4-l15" break="no"/>ner
+        Erörterung des collegialischen «Hohnes» zu repliciren,<lb xml:id="p4-l16" break="no"/>
+um der Behörde eine ärgerliche Scene zu ersparen. Der ganze<lb xml:id="p4-l17" break="no"/>
+Eindruck, den das Benehmen <persName key="Billeter Eduard">Ed. Billeters</persName> in dieser Sache auf<lb xml:id="p4-l18" break="no"/>
+mich machte ist ein solcher, daß es mir immer klarer schien, <persName key="Billeter Eduard">Ed.<lb xml:id="p4-l19"/>
+Billeter</persName> gehe von der Ueberzeugung aus: wir thun alles<lb xml:id="p4-l20" break="no"/>
+Mögliche, um ihn in eine Stellung zu versetzen, in der er sich<lb xml:id="p4-l21" break="no"/>
+blamiren <hi rend="underline">müsse</hi>. Nachträglich sagte Sekretär <persName key="Egli Johann Heinrich">Egli</persName> in Ge
+                <lb xml:id="p4-l22" break="no"/>genwart 
+einiger Erziehungsräthe: <persName key="Billeter Eduard">Billeter</persName> werde sich<lb xml:id="p4-l23" break="no"/>
+schwerlich zur Annahme des Präsidiums entschließen, wenn<lb xml:id="p4-l24" break="no"/>
+er noch genauere Rücksprache mit <persName key="Esslinger Melchior">Eßlinger</persName> nehme???</p>
       <p rend="indent" xml:id="K_0563_p9">
-                <lb xml:id="p4-l25"/>In der letzten Sitzung des <choice>
-                        <abbr>ErzR.</abbr>
-                        <expan>ErziehungsRath</expan>
-                    </choice>, in der du noch gegenwär<lb break="no" xml:id="p4-l26"/>tig warst, wurde, laut dem Protokolle, zu Behandlung der<lb xml:id="p4-l27"/>
-                    <choice>
-                        <abbr>Sem.dir.</abbr>
-                        <expan>Seminardirektion / Seminardirection</expan>
-                    </choice> Frage auf «eine der nächsten Sitzungen» Tag ange<lb break="no" xml:id="p4-l28"/>setzt. Mehrere Mitglieder schienen der Ansicht zu sein, daß<lb xml:id="p4-l29"/>
-        mit dieser Tagansetzung die <date when="1848-07-12">gestrige</date> Sitzung gemeint sei.<lb xml:id="p4-l30"/>
-        Als elf Petitionen <add>für <persName type="person" key="Scherr Ignaz Thomas">Scherr</persName> </add> von Gemeindsschulpflegen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> Schulcapi<lb break="no" xml:id="p4-l31"/>teln vorgelegt wurden, machte <del>
-                    <supplied type="unclear">...</supplied>
-                </del>
-                    <choice>
-                        <abbr>RR.</abbr>
-                        <expan>RegierungsRath</expan>
-                    </choice>
-                    <persName type="person" key="Nägeli Kaspar">Nägeli</persName> den Vorschlag<lb xml:id="p4-l32"/>
-        zu soforiger Behandlung des Antrags der 2<hi rend="sup">ten</hi> Section. Alle<lb xml:id="p4-l33"/>
-        waren einstimmig darüber, daß das immerwährende Aufschie-<supplied>ben</supplied>
-                    <note type="transcript">fehlt – wahrsch. vergessen</note>
-                    <pb n="5"/>
-                    <lb xml:id="p5-l1"/>
-        höchst mißlich sei <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> selbst das Ansehen der Behörde schmälere.<lb xml:id="p5-l2"/>Nachdrücklich wiesen <persName type="person" key="Nägeli Kaspar">Nägeli</persName>, <persName type="person" key="Hüni Heinrich">Hüni</persName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ganz besonders <persName type="person" key="Tobler Johann Jakob">Tobler</persName>
-                    <lb xml:id="p5-l3"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <persName type="person" key="Büchi Johann Jakob">Büchi</persName> selbst auf die Gefahr hin, die ein längeres Verschieben<lb xml:id="p5-l4"/>nach sich ziehen könnte, indem die beiden letztern darauf hindeu<lb break="no" xml:id="p5-l5"/>teten, daß bereits hie <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> da im Kantone Anstalten zu Peti<lb break="no" xml:id="p5-l6"/>tionen gegen <persName type="person" key="Scherr Ignaz Thomas">Scherr</persName> getroffen werden, die zu einer nicht er<lb break="no" xml:id="p5-l7"/>wünschten Aufregung unter dem Volke führen könnten. <persName type="person" key="Billeter Eduard">Ed.<lb xml:id="p5-l8"/>Billeter</persName> meinte dagegen, da man einmal auf die im<lb xml:id="p5-l9"/>
-                    <choice>
-                        <abbr>Gr. Rathe</abbr>
-                        <expan>Grossen / Großen Rathe</expan>
-                    </choice> repräsentirte Volksstimme abgestellt habe, so solle<lb xml:id="p5-l10"/>man auch vor sich anderwärts kundgebender Volksstimme<lb xml:id="p5-l11"/>nicht zurückschrecken. Wenn er in der Sectionssitzung seiner<lb xml:id="p5-l12"/>Zeit auf Verschiebung des Entscheides bis nach dem <choice>
-                        <abbr>Gr. Ra<lb break="no" xml:id="p5-l13"/>the</abbr>
-                        <expan>Grossen / Großen Rathe</expan>
-                    </choice> angetragen habe, so habe er sich hiemit nur zum Orga<lb break="no" xml:id="p5-l14"/>ne der Ansicht von <persName type="person" key="Zehnder Ulrich">Zehnder</persName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> dir gemacht. Es sei ihm nament<lb break="no" xml:id="p5-l15"/>lich<del>e</del> auch daran gelegen, <hi rend="underline">deine</hi> Ansicht über die Wahl zu ver<lb break="no" xml:id="p5-l16"/>nehmen, da du dich noch in keiner Weise bestimmt geäußert<lb xml:id="p5-l17"/>habest. Auf diese Worte schien er einen besondern Nachdruck<lb xml:id="p5-l18"/>zu legen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> dieses hängt offenbar mit einer Aeußerung<lb xml:id="p5-l19"/>
-                    <persName type="person" key="Zollinger Johann Caspar">Zollingers</persName> zusammen, welcher mir bemerkte, daß <persName type="person" key="Billeter Eduard">Billeter</persName>
-                    <lb xml:id="p5-l20"/>auch persönlich in dich ein Mißtrauen setze, indem du in<lb xml:id="p5-l21"/>wichtigen Angelegenheiten nur ausweichend antwortest,<lb xml:id="p5-l22"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> deine eigene <del>eigne</del> Ansicht zurückhaltest, um im Ge<lb break="no" xml:id="p5-l23"/>heimen die Fäden zu ziehen. Ich machte nun den bestimmten<lb xml:id="p5-l24"/>Antrag zum Aufschube der Wahl bis <date when="1848-07-19">künftigen Mittwoch</date>,<lb xml:id="p5-l25"/>von der Ansicht ausgehend, daß, wenn irgendwann, in ei<lb break="no" xml:id="p5-l26"/>ner so wichtigen Angelegenheit alle reglementarischen<lb xml:id="p5-l27"/>Vorschriften genau festgehalten, bestimmt Tag angesetzt <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice>
-                    <lb xml:id="p5-l28"/>
-                    <hi>ad hoc</hi> eingeladen werden müsse, damit auch kein einzi<lb break="no" xml:id="p5-l29"/>ges Mitglied sich über Formverletzung oder ein allzu ha<lb break="no" xml:id="p5-l30"/>stiges Verfahren sich<note type="transcript">sic</note> zu beklagen habe. Auch <persName type="person" key="Brändli Benjamin">Brändli</persName> sei zur <pb n="6"/>
-                    <lb xml:id="p6-l1"/>
-        Zeit noch abwesend, der gewiß sich eingerichtet haben wür<lb break="no" xml:id="p6-l2"/>de, zu rechter Zeit zu erscheinen, wenn er sich gedacht hätte, die<lb break="no" xml:id="p6-l3"/>ser Gegenstand würde zur Sprache kommen. Außer <persName type="person" key="Tobler Johann Jakob">Tobler</persName>
-                    <lb xml:id="p6-l4"/>pflichteten Alle meiner Ansicht bei: <persName type="person" key="Billeter Eduard">Billeter</persName> ohne Zweifel<lb xml:id="p6-l5"/>nur darum, um noch mehr Petitionen herankommen zu<lb xml:id="p6-l6"/>sehen.</p>
+                <lb xml:id="p4-l25"/>In der letzten Sitzung des <choice><abbr>ErzR.</abbr><expan>ErziehungsRath</expan></choice>, in der du noch gegenwär
+                <lb xml:id="p4-l26" break="no"/>tig warst, wurde, laut dem Protokolle, zu Behandlung der<lb xml:id="p4-l27" break="no"/>
+                <choice><abbr>Sem.dir.</abbr><expan>Seminardirektion / Seminardirection</expan></choice> Frage auf «eine der nächsten Sitzungen» Tag ange
+                <lb xml:id="p4-l28" break="no"/>setzt. Mehrere Mitglieder schienen der Ansicht zu sein, daß<lb xml:id="p4-l29" break="no"/>
+        mit dieser Tagansetzung die <date when="1848-07-12">gestrige</date> Sitzung gemeint sei.<lb xml:id="p4-l30" break="no"/>
+        Als elf Petitionen <add>für <persName key="Scherr Ignaz Thomas">Scherr</persName> </add> von Gemeindsschulpflegen <choice><abbr>u.</abbr><expan>und</expan></choice> Schulcapi
+                <lb xml:id="p4-l31" break="no"/>teln vorgelegt wurden, machte <del><add type="?">...</add></del> <choice><abbr>RR.</abbr><expan>RegierungsRath</expan></choice> <persName key="Nägeli Kaspar">Nägeli</persName> den Vorschlag<lb xml:id="p4-l32" break="no"/>
+        zu soforiger Behandlung des Antrags der 2<hi rend="sup">ten</hi> Section. Alle<lb xml:id="p4-l33" break="no"/>
+        waren einstimmig darüber, daß das immerwährende Aufschie-<add>ben</add>
+                <note type="transcript">fehlt – wahrsch. vergessen</note> <pb n="5"/>
+                <lb xml:id="p5-l1" break="no"/>
+        höchst mißlich sei <choice><abbr>u.</abbr><expan>und</expan></choice> selbst das Ansehen der Behörde schmälere.<lb xml:id="p5-l2" break="no"/>Nachdrücklich wiesen <persName key="Nägeli Kaspar">Nägeli</persName>, <persName key="Hüni Heinrich">Hüni</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> ganz besonders <persName key="Tobler Johann Jakob">Tobler</persName> <lb xml:id="p5-l3" break="no"/>
+                <choice><abbr>u.</abbr><expan>und</expan></choice> <persName key="Büchi Johann Jakob">Büchi</persName> selbst auf die Gefahr hin, die ein längeres Verschieben<lb xml:id="p5-l4" break="no"/>nach sich ziehen könnte, indem die beiden letztern darauf hindeu
+                <lb xml:id="p5-l5" break="no"/>teten, daß bereits hie <choice><abbr>u.</abbr><expan>und</expan></choice> da im Kantone Anstalten zu Peti
+                <lb xml:id="p5-l6" break="no"/>tionen gegen <persName key="Scherr Ignaz Thomas">Scherr</persName> getroffen werden, die zu einer nicht er
+                <lb xml:id="p5-l7" break="no"/>wünschten Aufregung unter dem Volke führen könnten. <persName key="Billeter Eduard">Ed.<lb xml:id="p5-l8"/>Billeter</persName> meinte dagegen, da man einmal auf die im<lb xml:id="p5-l9" break="no"/>
+                <choice><abbr>Gr. Rathe</abbr><expan>Grossen / Großen Rathe</expan></choice> repräsentirte Volksstimme abgestellt habe, so solle<lb xml:id="p5-l10" break="no"/>man auch vor sich anderwärts kundgebender Volksstimme<lb xml:id="p5-l11" break="no"/>nicht zurückschrecken. Wenn er in der Sectionssitzung seiner<lb xml:id="p5-l12" break="no"/>Zeit auf Verschiebung des Entscheides bis nach dem <choice><abbr>Gr. Ra
+                    <lb xml:id="p5-l13" break="no"/>the</abbr><expan>Grossen / Großen Rathe</expan></choice> angetragen habe, so habe er sich hiemit nur zum Orga
+                <lb xml:id="p5-l14" break="no"/>ne der Ansicht von <persName key="Zehnder Ulrich">Zehnder</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> dir gemacht. Es sei ihm nament
+                <lb xml:id="p5-l15" break="no"/>lich<del>e</del> auch daran gelegen, <hi rend="underline">deine</hi> Ansicht über die Wahl zu ver
+                <lb xml:id="p5-l16" break="no"/>nehmen, da du dich noch in keiner Weise bestimmt geäußert<lb xml:id="p5-l17" break="no"/>habest. Auf diese Worte schien er einen besondern Nachdruck<lb xml:id="p5-l18" break="no"/>zu legen <choice><abbr>u.</abbr><expan>und</expan></choice> dieses hängt offenbar mit einer Aeußerung<lb xml:id="p5-l19" break="no"/>
+                <persName key="Zollinger Johann Caspar">Zollingers</persName> zusammen, welcher mir bemerkte, daß <persName key="Billeter Eduard">Billeter</persName> <lb xml:id="p5-l20" break="no"/>auch persönlich in dich ein Mißtrauen setze, indem du in<lb xml:id="p5-l21" break="no"/>wichtigen Angelegenheiten nur ausweichend antwortest,<lb xml:id="p5-l22" break="no"/>
+                <choice><abbr>u.</abbr><expan>und</expan></choice> deine eigene <del>eigne</del> Ansicht zurückhaltest, um im Ge
+                <lb xml:id="p5-l23" break="no"/>heimen die Fäden zu ziehen. Ich machte nun den bestimmten<lb xml:id="p5-l24" break="no"/>Antrag zum Aufschube der Wahl bis <date when="1848-07-19">künftigen Mittwoch</date>,<lb xml:id="p5-l25" break="no"/>von der Ansicht ausgehend, daß, wenn irgendwann, in ei
+                <lb xml:id="p5-l26" break="no"/>ner so wichtigen Angelegenheit alle reglementarischen<lb xml:id="p5-l27" break="no"/>Vorschriften genau festgehalten, bestimmt Tag angesetzt <choice><abbr>u.</abbr><expan>und</expan></choice> <lb xml:id="p5-l28" break="no"/><hi>ad hoc</hi> eingeladen werden müsse, damit auch kein einzi
+                <lb xml:id="p5-l29" break="no"/>ges Mitglied sich über Formverletzung oder ein allzu ha
+                <lb xml:id="p5-l30" break="no"/>stiges Verfahren sich<note type="transcript">sic</note> zu beklagen habe. Auch <persName key="Brändli Benjamin">Brändli</persName> sei zur <pb n="6"/>
+                <lb xml:id="p6-l1" break="no"/>
+        Zeit noch abwesend, der gewiß sich eingerichtet haben wür
+                <lb xml:id="p6-l2" break="no"/>de, zu rechter Zeit zu erscheinen, wenn er sich gedacht hätte, die
+                <lb xml:id="p6-l3" break="no"/>ser Gegenstand würde zur Sprache kommen. Außer <persName key="Tobler Johann Jakob">Tobler</persName> <lb xml:id="p6-l4" break="no"/>pflichteten Alle meiner Ansicht bei: <persName key="Billeter Eduard">Billeter</persName> ohne Zweifel<lb xml:id="p6-l5" break="no"/>nur darum, um noch mehr Petitionen herankommen zu<lb xml:id="p6-l6" break="no"/>sehen.</p>
       <p rend="indent" xml:id="K_0563_p10">
-                <lb xml:id="p6-l7"/>In der Discussion erklärte <choice>
-                        <abbr>RR.</abbr>
-                        <expan>RegierungsRath</expan>
-                    </choice> <persName type="person" key="Nägeli Kaspar">Nägeli</persName>, <persName type="person" key="Zehnder Ulrich">Zehnder</persName> habe sein<lb xml:id="p6-l8"/>
+                <lb xml:id="p6-l7"/>In der Discussion erklärte <choice><abbr>RR.</abbr><expan>RegierungsRath</expan></choice> <persName key="Nägeli Kaspar">Nägeli</persName>, <persName key="Zehnder Ulrich">Zehnder</persName> habe sein<lb xml:id="p6-l8"/>
 Votum schriflich hinterlassen, offenbar um seine <del>
                     Annahme
                 </del> <lb xml:id="p6-l9"/>
@@ -398,74 +174,42 @@ Stimme gelten kann. Was du nun zu thun habest? Nach meiner<lb xml:id="p6-l11"/>
 bestimmten Ansicht mußt du entweder selbst persönlich der<lb xml:id="p6-l12"/>
 Wahlverhandlung beiwohnen oder dein schriftliches Votum<lb xml:id="p6-l13"/>
 einsenden. Du mußt es thun, wenn du dir nicht vielseitig den<lb xml:id="p6-l14"/>
-Vorwurf zuziehen willst, du habest dich absichtlich dem Ent<lb break="no" xml:id="p6-l15"/>scheide
- entzogen, um deine Ansicht nicht äußern zu müssen,<lb xml:id="p6-l16"/>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> du gehörest entschieden zu den Anti-<persName type="person" key="Scherr Ignaz Thomas">Scherrianern</persName>, indem<lb xml:id="p6-l17"/>
-deine Busenfreunde, <persName type="person" key="Brändli Benjamin">Brändli</persName>
-                    <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> ich, in diesem Sinne auftre<lb break="no" xml:id="p6-l18"/>ten
- werden. Ich vermuthe nämlich der letzte Vorwurf<lb xml:id="p6-l19"/>
-treffe dich mit Unrecht, da, wie ich glaube, du entschieden<lb xml:id="p6-l20"/>
-für <persName type="person" key="Scherr Ignaz Thomas">Scherr</persName> bist, obschon du mir nie die Ehre angethan hast,<lb xml:id="p6-l21"/>
-mir deine Ansicht hierüber mitzutheilen. Das ist meine<lb xml:id="p6-l22"/>
-Ansicht; vielleicht ist sie irrig: du wirst nach deinem Ermes<lb break="no" xml:id="p6-l23"/>sen 
-handeln. Aber ich hielt es für Freundespflicht, dich von<lb xml:id="p6-l24"/>
-den Stimmungen im <choice>
-                        <abbr>ErzRathe</abbr>
-                        <expan>ErziehungsRathe</expan>
-                    </choice> näher zu unterrichten.</p>
+Vorwurf zuziehen willst, du habest dich absichtlich dem Ent
+                <lb xml:id="p6-l15" break="no"/>scheide
+ entzogen, um deine Ansicht nicht äußern zu müssen,<lb xml:id="p6-l16" break="no"/>
+                <choice><abbr>u.</abbr><expan>und</expan></choice> du gehörest entschieden zu den Anti-<persName key="Scherr Ignaz Thomas">Scherrianern</persName>, indem<lb xml:id="p6-l17" break="no"/>
+deine Busenfreunde, <persName key="Brändli Benjamin">Brändli</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> ich, in diesem Sinne auftre
+                <lb xml:id="p6-l18" break="no"/>ten
+ werden. Ich vermuthe nämlich der letzte Vorwurf<lb xml:id="p6-l19" break="no"/>
+treffe dich mit Unrecht, da, wie ich glaube, du entschieden<lb xml:id="p6-l20" break="no"/>
+für <persName key="Scherr Ignaz Thomas">Scherr</persName> bist, obschon du mir nie die Ehre angethan hast,<lb xml:id="p6-l21" break="no"/>
+mir deine Ansicht hierüber mitzutheilen. Das ist meine<lb xml:id="p6-l22" break="no"/>
+Ansicht; vielleicht ist sie irrig: du wirst nach deinem Ermes
+                <lb xml:id="p6-l23" break="no"/>sen 
+handeln. Aber ich hielt es für Freundespflicht, dich von<lb xml:id="p6-l24" break="no"/>
+den Stimmungen im <choice><abbr>ErzRathe</abbr><expan>ErziehungsRathe</expan></choice> näher zu unterrichten.</p>
       <p rend="indent" xml:id="K_0563_p11">
-                <lb xml:id="p6-l25"/>Die Nichtberufung <persName type="person" key="Scherr Ignaz Thomas">Scherr's</persName> scheint mir gewiß. Nachher<lb xml:id="p6-l26"/>
+                <lb xml:id="p6-l25"/>Die Nichtberufung <persName key="Scherr Ignaz Thomas">Scherr's</persName> scheint mir gewiß. Nachher<lb xml:id="p6-l26"/>
 kann die Sache eine ganz andere Wendung erhalten, da<lb xml:id="p6-l27"/>
-die Nachricht von <persName type="person" key="Zollinger Heinrich">Zollinger</persName> eingetroffen ist, daß er in sein<lb xml:id="p6-l28"/>
-Vaterland zurückkehre <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> eine allseitige Vereinigung<lb xml:id="p6-l29"/>
+die Nachricht von <persName key="Zollinger Heinrich">Zollinger</persName> eingetroffen ist, daß er in sein<lb xml:id="p6-l28"/>
+Vaterland zurückkehre <choice><abbr>u.</abbr><expan>und</expan></choice> eine allseitige Vereinigung<lb xml:id="p6-l29"/>
 auf diesen nicht ganz unmöglich wäre.</p>
       <p rend="indent" xml:id="K_0563_p12">
-                <lb xml:id="p6-l30"/>Am <date when="1848-07-15">Samstag</date> werde ich wahrscheinlich <persName type="person" key="Mutter Johannes Honeggers">meine Mutter</persName> in <pb n="7"/>
+                <lb xml:id="p6-l30"/>Am <date when="1848-07-15">Samstag</date> werde ich wahrscheinlich <persName key="Mutter Johannes Honeggers">meine Mutter</persName> in <pb n="7"/>
                 <lb xml:id="p7-l1"/>
-                <placeName type="place" key="Winterthur">Winterthur</placeName> abholen <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> bei dieser Gelegenheit vorläufig<lb xml:id="p7-l2"/>über die Anmeldung um ein Stipendium Rücksprache<lb xml:id="p7-l3"/>nehmen mit <persName type="person" key="Weiss-Zwicky Margaretha">
-                    <choice>
-                            <abbr>Fr.</abbr>
-                            <expan>Frau</expan>
-                        </choice> <choice>
-                            <abbr>Ob.</abbr>
-                            <expan>Oberst</expan>
-                        </choice> Weiß</persName> <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> <persName type="person" key="Huggenberg Johann Jakob">Huggenberger</persName>.</p>
-    </div>
-        </body>
-    <back>
+                <placeName key="Winterthur">Winterthur</placeName> abholen <choice><abbr>u.</abbr><expan>und</expan></choice> bei dieser Gelegenheit vorläufig<lb xml:id="p7-l2"/>über die Anmeldung um ein Stipendium Rücksprache<lb xml:id="p7-l3"/>nehmen mit <persName key="Weiss-Zwicky Margaretha">
+                    <choice><abbr>Fr.</abbr><expan>Frau</expan></choice> <choice><abbr>Ob.</abbr><expan>Oberst</expan></choice> Weiß</persName> <choice><abbr>u.</abbr><expan>und</expan></choice> <persName key="Huggenberg Johann Jakob">Huggenberger</persName>.</p>
+    </body><back>
       <div type="closer">
         <p rend="indent" xml:id="K_0563_p13">
-                    <lb xml:id="p7-l4"/>Dich <choice>
-                        <abbr>u.</abbr>
-                        <expan>und</expan>
-                    </choice> meinen <choice>
-                        <abbr>l.</abbr>
-                        <expan>lieb</expan>
-                    </choice> <persName type="person" key="Siegfried Samuel Friedrich">Siegfried</persName> herzlichst grüßend</p>
+                    <lb xml:id="p7-l4"/>Dich <choice><abbr>u.</abbr><expan>und</expan></choice> meinen <choice><abbr>l.</abbr><expan>lieb</expan></choice> <persName key="Siegfried Samuel Friedrich">Siegfried</persName> herzlichst grüßend</p>
         <p rend="right" xml:id="K_0563_p14">
                     <lb xml:id="p7-l5"/>Dein alter</p>
       </div>
-      <div type="address">
+      <div type="signature">
         <p rend="right" xml:id="K_0563_p15">
                     <lb xml:id="p7-l6"/>
 J Honegger.
 </p>
       </div>
-    </back>
-  </text>
-</TEI>
+    </back></text></TEI>
