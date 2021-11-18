@@ -72,7 +72,7 @@ declare function api:view-person($request as map(*)) {
             let $model := map { 
                 "doc": $config:data-root || "/people.xml",
                 "xpath": '//tei:listPerson/tei:person[@n = "' || $name || '"]',
-                "name": $label,
+                "label": $label,
                 "key": $name,
                 "template": "person.html"
             }
@@ -87,6 +87,7 @@ declare function api:view-letter($request as map(*)) {
     let $doc := collection($config:data-root)/id($id)
     let $template := doc($config:app-root || "/templates/pages/escher.html")
     let $model := map {
+        "letter-id" : "B" || xmldb:decode($request?parameters?id),
         "data": $doc,
         "doc": "letters/" || util:document-name($doc),
         "template": "escher",
@@ -156,7 +157,7 @@ declare function api:person-mentions($node as node(), $model as map(*)) {
     where count($mentions) > 0
     return
         <div>
-            <h3>Erwähnungen von {$model?name}</h3>
+            <h3>Erwähnungen von {$model?label}</h3>
             <h4><a href="../../index.html?facet-mentioned={$model?key}">In Briefen</a>: {count($mentions)}</h4>
         </div>
 };
@@ -166,7 +167,7 @@ declare function api:person-letters($node as node(), $model as map(*)) {
     return
         if (count($mentions) ) then
             <div>
-                <h3><a href="../../index.html?facet-correspondent={$model?key}">Briefe von und an {$model?name}</a>: {count($mentions)}</h3>
+                <h3><a href="../../index.html?facet-correspondent={$model?key}">Briefe von und an {$model?label}</a>: {count($mentions)}</h3>
             </div>
         else
             ()

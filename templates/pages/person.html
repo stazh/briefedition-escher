@@ -58,6 +58,10 @@
                         <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
                         <app-toolbar data-template="templates:include" data-template-path="templates/toolbar-static.html"/>
                     </app-header>
+                    <header class="breadcrumbs" data-template="pages:parse-params">
+                        <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; 
+                        <a href="${app}/kontexte/personen/">Personen</a> &gt; <span>${label}</span>
+                    </header>
                     <main>
                         <section class="transcript">
                             <pb-view id="view1" src="document1" xpath="${xpath}" subscribe="transcription" emit="transcription"
