@@ -47,6 +47,12 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "addressee" return (
                 idx:get-person($header//tei:correspDesc/tei:correspAction/tei:persName[@type='addressee'])
             )
+            case "correspondent" return (
+                idx:get-person($header//tei:correspDesc/tei:correspAction/tei:persName)
+            )
+            case "mentioned" return (
+                $root//tei:text//tei:persName/@key
+            )
             case "place" return (
                 $header//tei:correspDesc/tei:correspAction/tei:placeName
             )

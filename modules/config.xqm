@@ -98,6 +98,18 @@ declare variable $config:pagination-fill := 5;
  :)
 declare variable $config:facets := [
     map {
+        "dimension": "correspondent",
+        "heading": "facets.correspondent",
+        "max": 5,
+        "hierarchical": false()
+    },
+    map {
+        "dimension": "mentioned",
+        "heading": "facets.mentioned",
+        "max": 5,
+        "hierarchical": false()
+    },
+    map {
         "dimension": "sender",
         "heading": "facets.sender",
         "max": 5,

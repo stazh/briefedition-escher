@@ -30,6 +30,8 @@
                 <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
                 <facet dimension="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
                 <facet dimension="author" expression="nav:get-metadata(ancestor::tei:TEI, 'author')"/>
+                <facet dimension="correspondent" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondent')"/>
+                <facet dimension="mentioned" expression="nav:get-metadata(ancestor::tei:TEI, 'mentioned')"/>
                 <facet dimension="addressee" expression="nav:get-metadata(ancestor::tei:TEI, 'addressee')"/>
                 <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
                 <facet dimension="notAfter" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'notAfter'), '-')" hierarchical="yes"/>
