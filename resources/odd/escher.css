@@ -60,7 +60,27 @@ br.toggle {
     color: #2474C2;
 }
 
+
+.subsection {
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
 .subsection a {
     text-decoration: none;
     color: #2474C2;
+}
+
+.number {
+    color: gray;
+    position: absolute;
+    display: block;
+    margin-left: -35px;
+    text-align: left;
+}
+
+.paragraph {
+    text-align: justify;
+    padding-left: 30px;
+    margin-block-end: 1em;
 }

@@ -111,19 +111,25 @@
                 <elementSpec ident="lb" mode="change">
                     <model behaviour="line-break" cssClass="line" useSourceRendition="true"/>
                 </elementSpec>
-            <elementSpec ident="p" mode="change">
+                <elementSpec ident="p" mode="change">
+                    <model predicate="$parameters?header='commentary'" behaviour="block" cssClass="paragraph" pb:mode="indent">
+                        <param name="content" value="."/>
+                        <param name="number" value="count(preceding::p)"/>
+                        <pb:template xmlns="" xml:space="preserve"><div><span class="number">[[number]]</span>[[content]]</div></pb:template>
+                    </model>
                     <model predicate="$parameters?display='person-meta'" behaviour="paragraph"/>
                     <model predicate="@rend=&#34;right&#34;" behaviour="paragraph">
-            <outputRendition xml:space="preserve">
-            text-align: right;
-            </outputRendition>
-        </model>
+                        <outputRendition xml:space="preserve">
+                        text-align: right;
+                        </outputRendition>
+                    </model>
                     <model behaviour="paragraph" cssClass="indent" useSourceRendition="true">
-            <outputRendition xml:space="preserve">
-            text-align: justify;
-            </outputRendition>
-        </model>
+                        <outputRendition xml:space="preserve">
+                        text-align: justify;
+                        </outputRendition>
+                    </model>
                 </elementSpec>
+
                 <elementSpec ident="keywords" mode="add">
                     <model behaviour="inline" cssClass="subheading">
             <param name="keywords" value="string-join(for $k in .//item order by $k return $k, ', ')"/>
@@ -138,23 +144,23 @@
                     <model predicate="$parameters?header=&#34;commentary&#34;" behaviour="block">
             <param name="content" value="(./fileDesc/sourceDesc, ./fileDesc/titleStmt)"/>
         </model>
-                    <model predicate="$parameters?header='context'" behaviour="pass-through" cssClass="context">
-            <param name="correspondents" value="let $label := &lt;head type=&#34;context&#34;&gt;Korrespondenten&lt;/head&gt;  let $entries:= .//correspDesc//persName return   (if ($entries) then $label else (), $entries) "/>
-            <param name="dates" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefdatum&lt;/head&gt; let $date := .//correspDesc//date return  ($label, if (count($date)) then $date else 's.d.')"/>
-            <param name="persons" value="let $label := &lt;head type=&#34;context&#34;&gt;Personen&lt;/head&gt; let $entries:= for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
-            <param name="places" value="let $label := &lt;head type=&#34;context&#34;&gt;Orte&lt;/head&gt; let $entries:= for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
-            <param name="letters" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefe&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='letter'][not(./ancestor::note)]     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
-            <param name="sum" value="let $label := &lt;head type=&#34;context&#34;&gt;Überblickskommentare&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
-            <pb:template xmlns="" xml:space="preserve"><div>
-  <h1>Kontexte</h1>
-  [[correspondents]]
-  [[dates]]
-  [[persons]]
-  [[places]]
-  [[letters]]
-  [[sum]]
-</div></pb:template>
-        </model>
+            <model predicate="$parameters?header='context'" behaviour="pass-through">
+                    <param name="correspondents" value="let $label := &lt;head type=&#34;context&#34;&gt;Korrespondenten&lt;/head&gt;  let $entries:= .//correspDesc//persName return   (if ($entries) then $label else (), $entries) "/>
+                    <param name="dates" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefdatum&lt;/head&gt; let $date := .//correspDesc//date return  ($label, if (count($date)) then $date else 's.d.')"/>
+                    <param name="persons" value="let $label := &lt;head type=&#34;context&#34;&gt;Personen&lt;/head&gt; let $entries:= for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+                    <param name="places" value="let $label := &lt;head type=&#34;context&#34;&gt;Orte&lt;/head&gt; let $entries:= for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+                    <param name="letters" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefe&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='letter'][not(./ancestor::note)]     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+                    <param name="sum" value="let $label := &lt;head type=&#34;context&#34;&gt;Überblickskommentare&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+                    <pb:template xmlns="" xml:space="preserve"><div class="context">
+                        <h1>Kontexte</h1>
+                        [[correspondents]]
+                        [[dates]]
+                        [[persons]]
+                        [[places]]
+                        [[letters]]
+                        [[sum]]
+                        </div></pb:template>
+            </model>
                     <modelSequence predicate="$parameters?display='letter-header'">
             <model behaviour="inline" cssClass="subheading">
                 <param name="id" value="substring-after(ancestor::TEI/@xml:id, 'K_')"/>
