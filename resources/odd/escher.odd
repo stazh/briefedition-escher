@@ -44,8 +44,8 @@
             
             </outputRendition>
         </model>
-                <model predicate="@type='transcript'" behaviour="omit"/>
-                <model behaviour="note">
+                    <model predicate="@type='transcript'" behaviour="omit"/>
+                    <model behaviour="note">
             <param name="place" value="@place"/>
             <param name="label" value="@n"/>
         </model>
@@ -113,21 +113,21 @@
                 </elementSpec>
                 <elementSpec ident="p" mode="change">
                     <model predicate="$parameters?header='commentary'" behaviour="block" cssClass="paragraph" pb:mode="indent">
-                        <param name="content" value="."/>
-                        <param name="number" value="count(preceding::p)"/>
-                        <pb:template xmlns="" xml:space="preserve"><div><span class="number">[[number]]</span>[[content]]</div></pb:template>
-                    </model>
+            <param name="content" value="."/>
+            <param name="number" value="count(preceding::p)"/>
+            <pb:template xmlns="" xml:space="preserve"><div><span class="number">[[number]]</span>[[content]]</div></pb:template>
+        </model>
                     <model predicate="$parameters?display='person-meta'" behaviour="paragraph"/>
                     <model predicate="@rend=&#34;right&#34;" behaviour="paragraph">
-                        <outputRendition xml:space="preserve">
-                        text-align: right;
-                        </outputRendition>
-                    </model>
+            <outputRendition xml:space="preserve">
+            text-align: right;
+            </outputRendition>
+        </model>
                     <model behaviour="paragraph" cssClass="indent" useSourceRendition="true">
-                        <outputRendition xml:space="preserve">
-                        text-align: justify;
-                        </outputRendition>
-                    </model>
+            <outputRendition xml:space="preserve">
+            text-align: justify;
+            </outputRendition>
+        </model>
                 </elementSpec>
 
                 <elementSpec ident="keywords" mode="add">
@@ -144,14 +144,14 @@
                     <model predicate="$parameters?header=&#34;commentary&#34;" behaviour="block">
             <param name="content" value="(./fileDesc/sourceDesc, ./fileDesc/titleStmt)"/>
         </model>
-            <model predicate="$parameters?header='context'" behaviour="pass-through">
-                    <param name="correspondents" value="let $label := &lt;head type=&#34;context&#34;&gt;Korrespondenten&lt;/head&gt;  let $entries:= .//correspDesc//persName return   (if ($entries) then $label else (), $entries) "/>
-                    <param name="dates" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefdatum&lt;/head&gt; let $date := .//correspDesc//date return  ($label, if (count($date)) then $date else 's.d.')"/>
-                    <param name="persons" value="let $label := &lt;head type=&#34;context&#34;&gt;Personen&lt;/head&gt; let $entries:= for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
-                    <param name="places" value="let $label := &lt;head type=&#34;context&#34;&gt;Orte&lt;/head&gt; let $entries:= for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
-                    <param name="letters" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefe&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='letter'][not(./ancestor::note)]     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
-                    <param name="sum" value="let $label := &lt;head type=&#34;context&#34;&gt;Überblickskommentare&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
-                    <pb:template xmlns="" xml:space="preserve"><div class="context">
+                    <model predicate="$parameters?header='context'" behaviour="pass-through">
+            <param name="correspondents" value="let $label := &lt;head type=&#34;context&#34;&gt;Korrespondenten&lt;/head&gt;  let $entries:= .//correspDesc//persName return   (if ($entries) then $label else (), $entries) "/>
+            <param name="dates" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefdatum&lt;/head&gt; let $date := .//correspDesc//date return  ($label, if (count($date)) then $date else 's.d.')"/>
+            <param name="persons" value="let $label := &lt;head type=&#34;context&#34;&gt;Personen&lt;/head&gt; let $entries:= for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+            <param name="places" value="let $label := &lt;head type=&#34;context&#34;&gt;Orte&lt;/head&gt; let $entries:= for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+            <param name="letters" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefe&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='letter'][not(./ancestor::note)]     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+            <param name="sum" value="let $label := &lt;head type=&#34;context&#34;&gt;Überblickskommentare&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+            <pb:template xmlns="" xml:space="preserve"><div class="context">
                         <h1>Kontexte</h1>
                         [[correspondents]]
                         [[dates]]
@@ -160,7 +160,7 @@
                         [[letters]]
                         [[sum]]
                         </div></pb:template>
-            </model>
+        </model>
                     <modelSequence predicate="$parameters?display='letter-header'">
             <model behaviour="inline" cssClass="subheading">
                 <param name="id" value="substring-after(ancestor::TEI/@xml:id, 'K_')"/>
@@ -279,35 +279,26 @@
                     <model predicate="$parameters?header=&#34;commentary&#34; and @type=&#34;volume&#34;" behaviour="inline">
             <param name="content" value="(&#34;, S. &#34;, .)"/>
         </model>
-        <modelSequence predicate="parent::note">
+                    <modelSequence predicate="parent::note">
             <model predicate="@type='sum'" behaviour="inline">
                 <param name="ref" value="@target"/>
                 <param name="label" value="let $target := @target return collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI//titleStmt/title"/>
-                <param name="uri" value="let $target := @target
-                        let $document := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI
-                        let $id := $document/@xml:id
-                        let $url-prefix := if ($parameters?url='commentary') then '../../uberblickskommentare/' else '../uberblickskommentare/'
-                    return if ($document) then $url-prefix || $id else () "/>
+                <param name="uri" value="let $target := @target                         let $document := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI                         let $id := $document/@xml:id                         let $url-prefix := if ($parameters?url='commentary') then '../../uberblickskommentare/' else '../uberblickskommentare/'                     return if ($document) then $url-prefix || $id else () "/>
                 <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" class="note-link">[[label]]</a></pb:template>
             </model>
             <model predicate="@type='letter'" behaviour="inline">
                 <param name="letter" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI//titleStmt/title"/>
-                <param name="uri" value="let $target := @target                     
-                let $letter := collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI                     
-                let $letter-id := 'B' || substring-after($letter/@xml:id, 'K_')                     
-                let $url-prefix := if ($parameters?url='commentary') then '../../briefe/' else '../briefe/'                     let $url-target := if (@target != $letter/@xml:id) then '#' || @target else ()                         return if ($letter) then $url-prefix || $letter-id || $url-target else () "/>
+                <param name="uri" value="let $target := @target                                      let $letter := collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI                                      let $letter-id := 'B' || substring-after($letter/@xml:id, 'K_')                                      let $url-prefix := if ($parameters?url='commentary') then '../../briefe/' else '../briefe/'                     let $url-target := if (@target != $letter/@xml:id) then '#' || @target else ()                         return if ($letter) then $url-prefix || $letter-id || $url-target else () "/>
                 <param name="label" value="if (./string()) then (., ': ') else ()"/>
                 <param name="ref" value="@target"/>
                 <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" class="note-link">[[label]] [[letter]]</a></pb:template>
             </model>
             <model predicate="@type='lit'" behaviour="inline"/>
         </modelSequence>
-        <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
+                    <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
             <param name="ref" value="@target"/>
             <param name="label" value="let $target := @target return collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI//titleStmt/title"/>
-            <param name="uri" value="let $target := @target 
-            let $id := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI/@xml:id
-            return if ($id != $target) then $id || '#' || $target else $id"/>
+            <param name="uri" value="let $target := @target              let $id := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI/@xml:id             return if ($id != $target) then $id || '#' || $target else $id"/>
             <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]">[[label]]</a></pb:template>
         </model>
                     <model predicate="$parameters?header='context' and @type='letter'" behaviour="block">
@@ -317,14 +308,10 @@
             <param name="ref" value="@target"/>
             <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]">[[label]] [[letter]]</a></pb:template>
         </model>
-        <model predicate="@type='sum'" behaviour="inline">
+                    <model predicate="@type='sum'" behaviour="inline">
             <param name="ref" value="@target"/>
-            <param name="label" value="let $target := @target
-        return ( collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI//titleStmt/title, ', Absatz ',  substring-after(@target, '_p'))" />
-            <param name="uri" value="let $target := @target
-            let $url := '../kontexte/uberblickskommentare/'
-            let $id := collection('/db/apps/escher/data/commentary/')/id($target)/ancestor-or-self::TEI/@xml:id
-            return ($url, if ($id != $target) then $id || '#' || $target else $id)"/>
+            <param name="label" value="let $target := @target         return ( collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI//titleStmt/title, ', Absatz ',  substring-after(@target, '_p'))"/>
+            <param name="uri" value="let $target := @target             let $url := '../kontexte/uberblickskommentare/'             let $id := collection('/db/apps/escher/data/commentary/')/id($target)/ancestor-or-self::TEI/@xml:id             return ($url, if ($id != $target) then $id || '#' || $target else $id)"/>
             <pb:template xmlns="" xml:space="preserve">
                 <pb-popover data-ref="[[ref]]">
                     <span slot="default">
@@ -336,8 +323,7 @@
                 </pb-popover>
             </pb:template>
         </model>
-
-        <model predicate="@type='letter'" behaviour="inline">
+                    <model predicate="@type='letter'" behaviour="inline">
             <param name="ref" value="@target"/>
             <param name="label" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)//titleStmt/title/string()"/>
             <pb:template xmlns="" xml:space="preserve"><pb-popover data-ref="[[ref]]">
@@ -446,8 +432,8 @@
                     <model predicate="$parameters?display='person-meta'" behaviour="listItem">
             <param name="content" value="root($parameters?root)//titleStmt"/>
         </model>
-                    <model behaviour="body">
-            <pb:set-param name="regions" value="let $id := root(.)/TEI/@xml:id return collection('/db/apps/escher/data/regions')/mappingtable/doc[@id=$id]"/>
+                    <model behaviour="section">
+            <pb:set-param name="regions" value="let $id := root(.)/TEI/@xml:id return collection('/db/apps/escher/data/regions')/Q{}mappingtable/Q{}doc[@id=$id]"/>
         </model>
                 </elementSpec>
             <elementSpec ident="titleStmt" mode="change">
@@ -487,6 +473,11 @@
             <outputRendition xml:space="preserve" scope="after">
             content: ']';
             </outputRendition>
+        </model>
+                </elementSpec>
+            <elementSpec ident="TEI" mode="change">
+                    <model behaviour="document">
+            <param name="content" value="text"/>
         </model>
                 </elementSpec>
             </schemaSpec>
