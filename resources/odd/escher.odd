@@ -345,7 +345,7 @@
                             else 
                                 ()
                         return ($title, $section)"/>
-                    <param name="uri" value="let $target := @target             let $url := '../kontexte/uberblickskommentare/'             let $id := collection('/db/apps/escher/data/commentary/')/id($target)/ancestor-or-self::TEI/@xml:id             return ($url, if ($id != $target) then $id || '#' || $target else $id)"/>
+                    <param name="uri" value="let $target := @target             let $url := '../uberblickskommentare/'             let $id := collection('/db/apps/escher/data/commentary/')/id($target)/ancestor-or-self::TEI/@xml:id             return ($url, if ($id != $target) then $id || '#' || $target else $id)"/>
                     <pb:template xmlns="" xml:space="preserve">
                         <pb-popover data-ref="[[ref]]">
                             <span slot="default">
