@@ -394,7 +394,6 @@
                         </pb:template>
                     </model>
                     <model predicate="@type='lit'" behaviour="inline"/>
-                    </modelSequence>
                     <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
                         <param name="ref" value="@target"/>
                         <param name="label" value="let $target := @target return collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI//titleStmt/title"/>
