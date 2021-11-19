@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-toolbar class="toolbar" sticky="sticky">
+    <paper-button>
+        <a href="${app}/kontexte/abkurzungen/Quellen/A" data-template="pages:parse-params">Abkürzungen aus den Quellen</a>        
+    </paper-button>
+    <paper-button>
+        <a href="${app}/kontexte/abkurzungen/Sekundartexte/A" data-template="pages:parse-params">Abkürzungen aus Sekundärtexten</a>
+    </paper-button>
+    <pb-restricted login="login">
+        <pb-ajax subscribe="transcription" emit="transcription" url="api/odd" method="post" data-template="pages:parse-params" event="pb-refresh" title="Recompile ODD" data-i18n="[title]menu.admin.recompile">
+            <h3 slot="title">
+                <pb-i18n key="menu.admin.recompile"/>
+            </h3>
+            <paper-icon-button icon="icons:refresh"/>
+        </pb-ajax>
+    </pb-restricted>
+    <pb-zoom emit="transcription" direction="in" icon="icons:zoom-in"/>
+    <pb-zoom emit="transcription" direction="out" icon="icons:zoom-out"/>
+    <pb-progress subscribe="transcription" indeterminate="indeterminate" bottom-item="bottom-item"/>
+</app-toolbar>
