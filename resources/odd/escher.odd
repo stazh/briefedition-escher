@@ -333,9 +333,9 @@
                     <param name="label" value="let $target := @target 
                         let $doc := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI
 
-                        let $title := $doc//titleStmt/title
+                        let $title := $doc//titleStmt/title/string()
                         let $section := if ($doc/@xml:id != @target) then 
-                                    let $heading := $doc/id($target)/head
+                                    let $heading := $doc/id($target)/head/text()
                                     return
                                     if (count($heading)) then (', ' , $heading) else
                                         if (matches($target, '._d')) then 
