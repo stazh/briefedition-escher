@@ -321,6 +321,14 @@
                             "default": "id"
                         }
                     },
+					{
+						"name": "view",
+						"in": "query",
+						"schema":{
+							"type": "string",
+							"default": "correspondents"
+						}
+					},
                     {
                         "name": "dir",
                         "in": "query",

@@ -99,15 +99,22 @@ declare function api:view-letter($request as map(*)) {
 
 declare function api:people($request as map(*)) {
     let $search := $request?parameters?search
+    let $view := $request?parameters?view
     let $sortDir := $request?parameters?dir
     let $limit := $request?parameters?limit
     let $start := $request?parameters?start
     let $filter := $request?parameters?filter
-    let $people := 
-        if ($search) then
-            doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:' || $search)]
+    let $people :=
+        if ($view = "correspondents") then
+            if ($search) then
+                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:' || $search)][@type="correspondent"]
+            else
+                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[@type="correspondent"]
         else
-            doc($config:data-root || "/people.xml")//tei:listPerson/tei:person
+            if ($search) then
+                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:' || $search)]
+            else
+                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person
     let $sorted := api:sort($people, $sortDir)
     let $subset := subsequence($sorted, $start, $limit)
     return (

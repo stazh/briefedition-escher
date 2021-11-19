@@ -15,11 +15,12 @@
     <link rel="stylesheet" href="resources/css/escher.css"/>
 
     <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <script src="resources/scripts/app/people.js"></script>
     <custom-style>
         <style>
             main {
                 margin: 0 20px 0 20px;
-                --pb-table-grid-height: calc(100vh - 430px);
+                /*  --pb-table-grid-height: calc(100vh - 430px);  */
             }
             
             @media (max-width: 1023px) {
@@ -52,7 +53,19 @@
                     display: none;
                 }
             }
-            
+
+            form {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                align-items: end;
+            }
+            form input[type=radio] {
+                margin-left: 30px;
+            }
+            form [name=search] {
+                min-width: 30vw;
+            }
         </style>
     </custom-style>
 </head>
@@ -81,11 +94,29 @@
                         </app-toolbar>
                     </pb-media-query>
                 </app-header>
-
+                <header class="breadcrumbs" data-template="pages:parse-params">
+                    <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; Personen
+                </header>
                 <main>
                     <h1>Personen</h1>
 
-                    <pb-table-grid source="api/people/" resizable="" search="" per-page="30" emit="grid" subscribe="grid">
+                    <iron-form id="options">
+                        <form>
+                            <paper-input id="query" name="search" label="Suche">
+                                <paper-icon-button icon="search" slot="suffix"></paper-icon-button>
+                            </paper-input>
+                            <div class="radios">
+                                <label>
+                                    <input type="radio" name="view" value="correspondents" checked="" data-template="templates:form-control"/> Korrespondenten
+                                </label>
+                                <label>
+                                    <input type="radio" name="view" value="mentions" data-template="templates:form-control"/> Korrespondenten und erwähnte Personen
+                                </label>
+                            </div>
+                        </form>
+                    </iron-form>
+                    <pb-table-grid source="api/people/" resizable="" per-page="30" emit="grid" subscribe="grid">
+                        <pb-table-column label="Name" property="id"></pb-table-column>
                         <pb-table-column label="Name" property="name" sort="sort"></pb-table-column>
                         <pb-table-column label="Lebensdaten" property="dates"></pb-table-column>
                     </pb-table-grid>
