@@ -72,8 +72,9 @@ declare function vapi:html($request as map(*)) {
             doc($path)
         else
             error($errors:NOT_FOUND, "HTML file " || $path || " not found")
+    let $model := $request?parameters
     return
-        templates:apply($template, vapi:lookup#2, (), tpu:get-template-config($request))
+        templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
 };
 
 declare function vapi:handle-error($error) {
