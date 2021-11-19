@@ -37,25 +37,9 @@
                     <header class="breadcrumbs" data-template="pages:parse-params">
                         <a href="${app}/">Home</a> &gt; <a href="${app}/">Briefe</a> &gt; <span>${letter-id}</span>
                     </header>
-                    <nav>
-                        <a data-template="app:navigation" data-template-type="previous">
-                            <iron-icon icon="icons:chevron-left"></iron-icon> Vorausgehender Brief der Gesamtkorrespondenz
-                        </a>
-                        <a data-template="app:navigation" data-template-type="next">
-                            Nachfolgender Brief der Gesamtkorrespondenz <iron-icon icon="icons:chevron-right"></iron-icon>
-                        </a>
-                    </nav>
-                    <nav>
-                        <a data-template="app:navigation" data-template-type="previous-in-corresp">
-                            <iron-icon icon="icons:chevron-left"></iron-icon> Vorausgehender Brief
-                        </a>
-                        <a data-template="app:navigation" data-template-type="next-in-corresp">
-                            Nachfolgender Brief <iron-icon icon="icons:chevron-right"></iron-icon>
-                        </a>
-                    </nav>
                     <main class="content-body">
                         <section class="transcript">
-                            <pb-view id="reference-view1" src="document1" xpath="//teiHeader" view="single">
+                            <pb-view id="reference-view1" src="document1" xpath="//teiHeader" view="single" subscribe="transcription" emit="transcription">
                                 <pb-param name="display" value="letter-header"/>
                             </pb-view>
                             <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"/>

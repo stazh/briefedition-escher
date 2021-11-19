@@ -13,12 +13,14 @@ import module namespace config="http://www.tei-c.org/tei-simple/config" at "conf
 
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 
+(: Unused, now generated from ODD :)
 declare function app:navigation($node as node(), $model as map(*), $type as xs:string) {
     let $context := $model?data//tei:correspDesc/tei:correspContext
     let $next := $context/tei:ref[@type=$type]
     return
         if ($next) then
-            <a href="{$next/@target}">{templates:process($node/node(), $model)}</a>
+            <pb-link path="letters/{$next/@target}" emit="transcription">{templates:process($node/node(), $model)}</pb-link>
+            (: <a href="{$next/@target}">{templates:process($node/node(), $model)}</a> :)
         else
             <div/>
 };

@@ -96,3 +96,19 @@ br.toggle {
     font-size: inherit;
     font-style: inherit;
 }
+
+nav {
+    display: block;
+    height: 40px;
+    background-color: var(--pb-toolbar-background-color);
+}
+
+nav a:link, nav a:visited {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: var(--pb-color-primary);
+}
+
+nav .next {
+    float: right;
+}

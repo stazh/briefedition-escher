@@ -139,7 +139,7 @@ declare function api:view-letter($request as map(*)) {
     let $model := map {
         "letter-id" : "B" || xmldb:decode($request?parameters?id),
         "data": $doc,
-        "doc": "letters/" || util:document-name($doc),
+        "doc": "letters/" || "B" || xmldb:decode($request?parameters?id),
         "template": "escher",
         "title": "Brief " || $doc//tei:titleStmt/tei:title/text()
     }

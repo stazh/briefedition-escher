@@ -513,7 +513,11 @@ declare function config:document-type($div as element()) {
 };
 
 declare function config:get-document($idOrName as xs:string) {
-    if ($config:address-by-id) then
+    if (starts-with($idOrName, 'letters/')) then
+        let $id := replace($idOrName, "^letters/B(.*)$", "K_$1")
+        return
+            collection($config:data-root || "/letters")/id($id)
+    else if ($config:address-by-id) then
         root(collection($config:data-root)/id($idOrName))
     else if (starts-with($idOrName, '/')) then
         doc(xmldb:encode-uri($idOrName))
