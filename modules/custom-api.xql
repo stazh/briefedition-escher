@@ -19,6 +19,27 @@ import module namespace vapi="http://teipublisher.com/api/view" at "lib/api/view
 import module namespace errors = "http://exist-db.org/xquery/router/errors";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
 
+declare function api:view-abbreviations($request as map(*)) {
+    let $type := 
+        switch ($request?parameters?name)
+            case "Quellen" return 'source'
+            default return 'secondary'
+
+    let $letter := $request?parameters?letter
+
+    return 
+        <div class="letter">
+            <h3>{$letter}</h3>
+            <table>
+                {
+                for $entry in collection($config:data-root || "/abbreviations")/id($type)/tei:category[starts-with(tei:catDesc, $letter)]
+                return 
+                    <tr><td>{$entry/tei:catDesc[@ana='abbr']}</td><td>{$entry/tei:catDesc[@ana='full']}</td></tr>
+                }
+            </table>
+        </div>
+};
+
 declare function api:landing-commentary($request as map(*)) {
     for $entry in collection($config:data-root || "/commentary")//tei:TEI
         let $volume := $entry//tei:teiHeader//tei:ref[@type="volume"]/@target
