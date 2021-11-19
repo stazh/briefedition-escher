@@ -42,6 +42,7 @@ declare function conv:fix-namespace($nodes as node()*) {
 
 declare function conv:entry($entry as element()) {
     <bibl xml:id="{$entry/@id}" type="{$entry/@type}">
+        {if ($entry/@escheriana = "true") then attribute subtype {'escheriana'} else ()}
         <abbr>{$entry/rs/string()}</abbr>
         <bibl>{$entry/bibl/string()}</bibl>
     </bibl>
