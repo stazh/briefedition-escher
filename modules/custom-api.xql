@@ -49,24 +49,7 @@ declare function api:view-bibliography($request as map(*)) {
 };
 
 declare function api:view-abbreviations($request as map(*)) {
-    let $type := 
-        switch ($request?parameters?name)
-            case "Quellen" return 'source'
-            default return 'secondary'
-
-    let $letter := $request?parameters?letter
-
-    return 
-        <div class="letter">
-            <h3>{$letter}</h3>
-            <table>
-                {
-                for $entry in collection($config:data-root || "/abbreviations")/id($type)/tei:category[starts-with(tei:catDesc, $letter)]
-                return 
-                    <tr><td>{$entry/tei:catDesc[@ana='abbr']}</td><td>{$entry/tei:catDesc[@ana='full']}</td></tr>
-                }
-            </table>
-        </div>
+    app:view-abbreviations(<div/>, $request?parameters)
 };
 
 declare function api:landing-commentary($request as map(*)) {

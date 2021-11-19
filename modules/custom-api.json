@@ -335,10 +335,9 @@
 				}
 			}
         },
-        "/kontexte/abbreviations/{name}/{letter}": {
+        "/api/abbreviations/{name}/{letter}": {
             "get": {
-				"summary": "Retrieve the HTML template used for displaying person metadata",
-				"description": "Get the HTML template associated with the given document. This is called whenever the users tries to view a document. The actual content of the document will then be loaded by the template.",
+				"summary": "Retrieve the list of abbreviations by type name and letter",
 				"tags": ["default"],
 				"operationId": "custom:view-abbreviations",
                 "parameters": [
