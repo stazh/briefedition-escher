@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <app-toolbar class="toolbar" sticky="sticky">
     <pb-select-feature id="select-view1" name="view1" label="Ansicht" items='[
-        {"name": "Edierter Text", "selectors": [{"selector": ".popover,.annotation", "state": false}, {"selector": "br,.underline,.hyphen", "state": true}, {"selector": "pb-popover", "command": "disable", "state": false}, {"selector": ".content-body", "state": true}]},
-        {"name": "Diplomatischer Text", "selectors": [{"selector": ".popover,.annotation", "state": true}, {"selector": "br,.underline,.hyphen", "state": false}, {"selector": "pb-popover", "command": "disable", "state": true}, {"selector": ".content-body", "state": false}]}
+        {"name": "Edierter Text", "selectors": [{"selector": ".popover,.annotation", "state": false}, {"selector": "br,.underline,.hyphen", "state": true}, {"selector": "pb-popover", "command": "disable", "state": false}, {"selector": ".letter", "state": true}]},
+        {"name": "Diplomatischer Text", "selectors": [{"selector": ".popover,.annotation", "state": true}, {"selector": "br,.underline,.hyphen", "state": false}, {"selector": "pb-popover", "command": "disable", "state": true}, {"selector": ".letter", "state": false}]}
         ]' emit="transcription" subscribe="transcription"></pb-select-feature>
     <pb-restricted login="login">
         <pb-ajax subscribe="transcription" emit="transcription" url="api/odd" method="post" data-template="pages:parse-params" event="pb-refresh" title="Recompile ODD" data-i18n="[title]menu.admin.recompile">

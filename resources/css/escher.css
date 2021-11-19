@@ -53,6 +53,66 @@ body {
     }
 }
 
+.letter {
+    --pb-view-max-width: 41.24rem;
+    position: relative;
+    margin: 0 20px;
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 1fr minmax(360px, 45vw);
+    height: calc(100vh - 233px);
+}
+
+.letter.toggle {
+    height: auto;
+    margin: auto;
+    grid-template-columns: 1fr minmax(auto, 320px);
+    grid-template-rows: auto 1fr;
+    max-width: calc(var(--pb-view-max-width) + 360px);
+}
+
+.letter #reference-view1 {
+    grid-row: 1;
+    grid-column: 1 / 2;
+    max-width: inherit;
+    margin: 0;
+}
+
+.letter.toggle #reference-view1 {
+    grid-row: 1;
+    grid-column: 1 / 3;
+}
+
+.letter #view1 {
+    grid-row: 2;
+    grid-column: 1;
+    margin: 0;
+    overflow: auto;
+}
+
+.letter #register {
+    width: 100%;
+}
+
+.letter pb-facsimile {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3
+}
+
+.letter.toggle pb-facsimile {
+    display: none;
+}
+
+.letter #register {
+    display: none;
+}
+
+.letter.toggle #register {
+    display: block;
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
 .content-body {
     position: relative;
     display: grid;
@@ -109,10 +169,10 @@ pb-facsimile {
 }
 
 @media (max-width: 1023px) {
-    pb-facsimile, .content-body aside, .content-body.toggle aside {
+    pb-facsimile, .letter aside, .letter.toggle aside {
         display: none;
     }
-    .content-body, .content-body.toggle {
+    .letter, .letter.toggle {
         grid-template-columns: 1fr;
     }
 }

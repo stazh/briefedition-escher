@@ -100,7 +100,6 @@ br.toggle {
 nav {
     display: block;
     height: 40px;
-    background-color: var(--pb-toolbar-background-color);
 }
 
 nav a:link, nav a:visited {
@@ -111,4 +110,12 @@ nav a:link, nav a:visited {
 
 nav .next {
     float: right;
+}
+
+.context h1 {
+    font-size: 1.2em;
+}
+
+.context h3 {
+    font-size: 1em;
 }
