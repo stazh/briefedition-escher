@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+
+        <title data-template="config:app-title"/>
+        <meta name="description" content="Escher commentary"/>
+        <meta name="pb-template" content="commentary.html"/>
+
+        <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap"/>
+
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="resources/css/escher.css"/>
+
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <script src="resources/scripts/app/escher.js"></script>
+        <style>
+            section {
+                max-width: 1014px;
+            }
+
+            main {
+                position: relative;
+                display: grid;
+                height: var(--pb-view-height);
+            }
+
+            .transcript a {
+                color: #2474C2;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .transcript h3 {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription">
+            <app-drawer-layout force-narrow="force-narrow">
+                <app-header-layout>
+                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                        <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar-static.html"/>
+                    </app-header>
+                    <main>
+                        <section class="transcript">
+                            <div>
+                                <h1>Bibliographie</h1>
+                            </div>
+                            <pb-load id="results" url="api/kontexte/bibliography/Archivbestande" auto="auto" expand="expand" subscribe="transcription"/>
+                        </section>
+                    </main>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div class="splash"/>
+    </body>
+</html>

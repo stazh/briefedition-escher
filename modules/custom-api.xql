@@ -19,6 +19,35 @@ import module namespace vapi="http://teipublisher.com/api/view" at "lib/api/view
 import module namespace errors = "http://exist-db.org/xquery/router/errors";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
 
+declare function api:view-bibliography($request as map(*)) {
+
+    let $type := $request?parameters?name
+
+    let $category := switch($type)
+        case "Escheriana" return "escheriana"
+        case "Ungedruckte Quellen" return "unprinted_source"
+        case "Gedruckte Quellen" return "printed_source"
+        case "Zeitungen und Zeitschriften" return "newspaper"
+        case "Literatur" return "literature"
+        case "Websites" return "online"
+        case "Archivbestande" return "archive"
+        default return "escheriana"
+        
+    for $group in collection($config:data-root || "/bibliography")/id($category)/tei:bibl
+        let $letter := upper-case(substring(normalize-space($group/tei:bibl), 1, 1))
+        group by $letter 
+        order by $letter
+        return 
+            <div class="letter">
+                <h3 id="{$letter}">{$letter}</h3>
+                {
+                    for $entry in $group
+                    return 
+                        <p>{$entry/tei:bibl} [{$entry/tei:abbr}]</p>
+                }
+            </div>
+};
+
 declare function api:view-abbreviations($request as map(*)) {
     let $type := 
         switch ($request?parameters?name)
