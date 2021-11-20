@@ -328,6 +328,7 @@
                                 <a href="[[uri]]" class="note-link">[[label]] [[letter]]</a>
                             </pb:template>
             </model>
+            <model predicate="@type='third-party-letter'" behaviour="inline"/>
             <model predicate="@type='lit'" behaviour="inline"/>
         </modelSequence>
                     <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
@@ -366,6 +367,7 @@
                             <a href="[[uri]]" class="note-link">[[label]] [[letter]]</a>
                         </pb:template>
         </model>
+                    <model predicate="@type='third-party-letter'" behaviour="inline"/>
                     <model predicate="@type='lit'" behaviour="inline"/>
                     <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
             <param name="ref" value="@target"/>
@@ -396,8 +398,8 @@
                         </pb-popover>
                     </pb:template>
         </model>
-                    <model predicate="@type='lit'" behaviour="inline"/>
                     <model predicate="@type='third-party-letter'" behaviour="inline"/>
+                    <model predicate="@type='lit'" behaviour="inline"/>
                     <model predicate="@type='letter'" behaviour="inline">
             <param name="ref" value="@target"/>
             <param name="label" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)//titleStmt/title/string()"/>
