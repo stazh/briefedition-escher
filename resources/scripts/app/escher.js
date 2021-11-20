@@ -46,6 +46,11 @@ window.addEventListener('DOMContentLoaded', () => {
             document.getElementById('letterId').innerHTML = textElem.dataset.letter;
         }
 
+        const letterTitle = root.querySelector('.letter-title');
+        if (letterTitle) {
+            document.title = letterTitle.innerText;
+        }
+
         // reusable image element which will be positioned above the mouse position
         const regionImage = document.createElement('img');
         regionImage.style.display = 'block';

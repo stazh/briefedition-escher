@@ -190,7 +190,7 @@
             <param name="level" value="2"/>
         </model>
                     <model predicate="$parameters?header='context'" behaviour="inline"/>
-                    <model predicate="$parameters?header='short'" behaviour="heading">
+                    <model predicate="$parameters?header='short'" behaviour="heading" cssClass="letter-title">
             <param name="level" value="2"/>
         </model>
                     <modelSequence predicate="parent::titleStmt/parent::fileDesc">
