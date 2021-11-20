@@ -255,10 +255,10 @@
                     </pb-media-query>
                 </app-header>
 
+                <header class="breadcrumbs" data-template="pages:parse-params">
+                    <a href="${app}/">Home</a> &gt; Briefe
+                </header>
                 <main>
-                    <section>
-                        <h1 class="tp-title" data-template="config:app-title"/>
-                    </section>
                     <section class="panels">
                         <pb-custom-form id="facets" url="api/search/facets" event="pb-results-received" subscribe="docs" emit="docs"/>
                         <pb-browse-docs id="document-list" url="api/collection/" 
