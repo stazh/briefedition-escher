@@ -350,7 +350,40 @@
                             <a href="[[uri]]">[[label]] [[letter]]</a>
                         </pb:template>
         </model>
-                    <model predicate="@type='sum'" behaviour="inline">
+        <model predicate="@type='sum'" behaviour="inline">
+            <desc>Description link displaying an icon. If target ends with _d add Kapitel, _p Absatz</desc>
+            <param name="ref" value="@target"/>
+            <param name="label" value="let $target := @target
+                let $doc := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI
+                let $title := $doc//titleStmt/title/string()
+                let $section := if ($doc/@xml:id != @target) then
+                    let $heading := $doc/id($target)/head/text()
+                    return
+                        if (count($heading)) then
+                            (', ' , $heading)
+                            else if
+                                (matches($target, '._d')) then
+                                    ', Kapitel ' || substring-after(@target, '_d')
+                            else
+                                (', Absatz ' || substring-after($target, '_p'))
+                        else ()
+                return ($title, $section)"/>
+            <param name="uri" value="let $target := @target
+                let $url := '../kontexte/uberblickskommentare/'
+                let $id := collection('/db/apps/escher/data/commentary/')/id($target)/ancestor-or-self::TEI/@xml:id
+                    return ($url, if ($id != $target) then $id || '#' || $target else $id)"/>
+            <pb:template xmlns="" xml:space="preserve">
+                <pb-popover data-ref="[[ref]]">
+                    <span slot="default">
+                        <a href="[[uri]]">
+                            <iron-icon icon="icons:description"/>
+                        </a>
+                    </span>
+                    <span slot="alternate">[[label]]</span>
+                </pb-popover>
+            </pb:template>
+        </model>
+        <model predicate="@type='sum'" behaviour="inline">
             <param name="ref" value="@target"/>
             <param name="label" value="let $target := @target                          let $doc := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI                          let $title := $doc//titleStmt/title/string()                         let $section := if ($doc/@xml:id != @target) then                                      let $heading := $doc/id($target)/head/text()                                     return                                     if (count($heading)) then (', ' , $heading) else                                         if (matches($target, '._d')) then                                              ', Kapitel ' || substring-after(@target, '_d')                                         else                                              ', Absatz ' || substring-after($target, '_p')                              else                                  ()                         return ($title, $section)"/>
             <param name="uri" value="let $target := @target                            let $document := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI                                                  let $id := $document/@xml:id                                                  let $url-prefix := if ($parameters?url='commentary') then '../../uberblickskommentare/' else '../uberblickskommentare/'                            let $url-target := if (@target != $id) then '#' || @target else ()                                              return if ($document) then $url-prefix || $id || $url-target else () "/>
@@ -358,18 +391,39 @@
                             <a href="[[uri]]" class="note-link">[[label]]</a>
                         </pb:template>
         </model>
-                    <model predicate="@type='letter'" behaviour="inline">
-            <param name="letter" value="                             let $target := @target                             return collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI//titleStmt/title/string()"/>
-            <param name="uri" value="let $target := @target                             let $letter := collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI                             let $letter-id := 'B' || substring-after($letter/@xml:id, 'K_')                             let $url-prefix := if ($parameters?url='commentary') then '../../briefe/' else '../briefe/'                             let $url-target := if (@target != $letter/@xml:id) then '#' || @target else ()                                 return if ($letter) then $url-prefix || $letter-id || $url-target else () "/>
+        <model predicate="@type='letter'" behaviour="inline">
+            <desc>Letter link displaying an icon</desc>
+            <param name="ref" value="@target"/>
+            <param name="label" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)//titleStmt/title/string()"/>
+            <pb:template xmlns="" xml:space="preserve">
+                <pb-popover data-ref="[[ref]]">
+                    <span slot="default">
+                        <iron-icon icon="icons:mail"/>
+                    </span>
+                    <span slot="alternate">[[label]]</span>
+                </pb-popover>
+            </pb:template>
+        </model>
+        <model predicate="@type='letter'" behaviour="inline">
+            <desc>Letter link within notes</desc>
+            <param name="letter" value="let $target := @target
+                return collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI//titleStmt/title/string()"/>
+            <param name="uri" value="let $target := @target
+                let $letter := collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI
+                let $letter-id := 'B' || substring-after($letter/@xml:id, 'K_')
+                let $url-prefix :=
+                    if ($parameters?url='commentary') then '../../briefe/' else '../briefe/'
+                let $url-target := if (@target != $letter/@xml:id) then '#' || @target else ()
+                return if ($letter) then $url-prefix || $letter-id || $url-target else () "/>
             <param name="label" value="if (./string()) then (., ': ') else ()"/>
             <param name="ref" value="@target"/>
             <pb:template xmlns="" xml:space="preserve">
-                            <a href="[[uri]]" class="note-link">[[label]] [[letter]]</a>
-                        </pb:template>
+                <a href="[[uri]]" class="note-link">[[label]] [[letter]]</a>
+            </pb:template>
         </model>
-                    <model predicate="@type='third-party-letter'" behaviour="inline"/>
-                    <model predicate="@type='lit'" behaviour="inline"/>
-                    <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
+        <model predicate="@type='third-party-letter'" behaviour="inline"/>
+        <model predicate="@type='lit'" behaviour="inline"/>
+        <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
             <param name="ref" value="@target"/>
             <param name="label" value="let $target := @target return collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI//titleStmt/title"/>
             <param name="uri" value="let $target := @target              let $id := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI/@xml:id             return if ($id != $target) then $id || '#' || $target else $id"/>
@@ -382,32 +436,8 @@
             <param name="ref" value="@target"/>
             <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]">[[label]] [[letter]]</a></pb:template>
         </model>
-                    <model predicate="@type='sum'" behaviour="inline">
-            <desc>if target ends with _d add Kapitel, _p Absatz</desc>
-            <param name="ref" value="@target"/>
-            <param name="label" value="let $target := @target                          let $doc := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI                          let $title := $doc//titleStmt/title                         let $section := if ($doc/@xml:id != @target) then                                      let $heading := $doc/id($target)/head                                     return                                     if (count($heading)) then (', ' , $heading) else                                         if (matches($target, '._d')) then                                              ', Kapitel ' || substring-after(@target, '_d')                                         else                                              ', Absatz ' || substring-after($target, '_p')                              else                                  ()                         return ($title, $section)"/>
-            <param name="uri" value="let $target := @target             let $url := '../kontexte/uberblickskommentare/'             let $id := collection('/db/apps/escher/data/commentary/')/id($target)/ancestor-or-self::TEI/@xml:id             return ($url, if ($id != $target) then $id || '#' || $target else $id)"/>
-            <pb:template xmlns="" xml:space="preserve">
-                        <pb-popover data-ref="[[ref]]">
-                            <span slot="default">
-                                <a href="[[uri]]">
-                                    <iron-icon icon="icons:description"/>
-                                </a>
-                            </span>
-                            <span slot="alternate">[[label]]</span>
-                        </pb-popover>
-                    </pb:template>
-        </model>
                     <model predicate="@type='third-party-letter'" behaviour="inline"/>
                     <model predicate="@type='lit'" behaviour="inline"/>
-                    <model predicate="@type='letter'" behaviour="inline">
-            <param name="ref" value="@target"/>
-            <param name="label" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)//titleStmt/title/string()"/>
-            <pb:template xmlns="" xml:space="preserve"><pb-popover data-ref="[[ref]]">
-                        <span slot="default"><iron-icon icon="icons:mail"/></span>
-                        <span slot="alternate">[[label]]</span>
-                        </pb-popover></pb:template>
-        </model>
                     <model predicate="not(node())" behaviour="link">
             <param name="content" value="@target"/>
             <param name="uri" value="@target"/>
