@@ -495,11 +495,17 @@
                     <model predicate="$parameters?display='person-meta'" behaviour="listItem">
             <param name="content" value="root($parameters?root)//titleStmt"/>
         </model>
-                    <model behaviour="pass-through">
-            <pb:set-param name="regions" value="let $id := root(.)/TEI/@xml:id return collection('/db/apps/escher/data/regions')/Q{}mappingtable/Q{}doc[@id=$id]"/>
-            <param name="id" value="&#34;B&#34; || substring(root(.)/TEI/@xml:id, 3)"/>
-            <pb:template xmlns="" xml:space="preserve"><section class="text" data-letter="[[id]]">[[content]]</section></pb:template>
-        </model>
+                    <modelSequence>
+            <model behaviour="pass-through">
+                <desc>Output the letter id</desc>
+                <param name="id" value="&#34;B&#34; || substring(root(.)/TEI/@xml:id, 3)"/>
+                <pb:template xmlns="" xml:space="preserve"><span class="text" data-letter="[[id]]"/></pb:template>
+            </model>
+            <model behaviour="section">
+                <desc>Set regions variable for facsimiles and output section</desc>
+                <pb:set-param name="regions" value="let $id := root(.)/TEI/@xml:id return collection('/db/apps/escher/data/regions')/Q{}mappingtable/Q{}doc[@id=$id]"/>
+            </model>
+        </modelSequence>
                 </elementSpec>
             <elementSpec ident="titleStmt" mode="change">
                     <model output="latex" behaviour="meta">
