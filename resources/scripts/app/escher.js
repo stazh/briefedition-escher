@@ -40,6 +40,12 @@ window.addEventListener('DOMContentLoaded', () => {
     pbEvents.subscribe('pb-update', 'transcription', (ev) => { 
         root = ev.detail.root;
 
+        // extract letter id
+        const textElem = root.querySelector('.text');
+        if (textElem) {
+            document.getElementById('letterId').innerHTML = textElem.dataset.letter;
+        }
+
         // reusable image element which will be positioned above the mouse position
         const regionImage = document.createElement('img');
         regionImage.style.display = 'block';

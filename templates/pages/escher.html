@@ -35,7 +35,7 @@
                         <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
                     </app-header>
                     <header class="breadcrumbs" data-template="pages:parse-params">
-                        <a href="${app}/">Home</a> &gt; <a href="${app}/">Briefe</a> &gt; <span>${letter-id}</span>
+                        <a href="${app}/">Home</a> &gt; <a href="${app}/">Briefe</a> &gt; <span id="letterId"></span>
                     </header>
                     <main class="letter">
                         <pb-view id="reference-view1" src="document1" xpath="//teiHeader" view="single" subscribe="transcription" emit="transcription">
