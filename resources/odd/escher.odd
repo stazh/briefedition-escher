@@ -395,10 +395,19 @@
             <desc>Letter link displaying an icon</desc>
             <param name="ref" value="@target"/>
             <param name="label" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)//titleStmt/title/string()"/>
+            <param name="uri" value="let $target := @target
+                let $letter := collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI
+                let $letter-id := 'B' || substring-after($letter/@xml:id, 'K_')
+                let $url-prefix :=
+                    if ($parameters?url='commentary') then '../../briefe/' else '../briefe/'
+                let $url-target := if (@target != $letter/@xml:id) then '#' || @target else ()
+                return if ($letter) then $url-prefix || $letter-id || $url-target else () "/>
             <pb:template xmlns="" xml:space="preserve">
                 <pb-popover data-ref="[[ref]]">
                     <span slot="default">
-                        <iron-icon icon="icons:mail"/>
+                        <a href="[[uri]]">
+                            <iron-icon icon="icons:mail"/>
+                        </a>
                     </span>
                     <span slot="alternate">[[label]]</span>
                 </pb-popover>
