@@ -116,15 +116,11 @@ declare function api:view-person($request as map(*)) {
 };
 
 declare function api:view-letter($request as map(*)) {
-    let $id := "K_" || xmldb:decode($request?parameters?id)
-    let $doc := collection($config:data-root)/id($id)
+    let $id := "B" || xmldb:decode($request?parameters?id)
     let $template := doc($config:app-root || "/templates/pages/escher.html")
     let $model := map {
-        "letter-id" : "B" || xmldb:decode($request?parameters?id),
-        "data": $doc,
-        "doc": "letters/" || "B" || xmldb:decode($request?parameters?id),
-        "template": "escher",
-        "title": "Brief " || $doc//tei:titleStmt/tei:title/text()
+        "doc": "letters/" || $id,
+        "template": "escher"
     }
     return
         templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
