@@ -148,13 +148,13 @@
                     <model predicate="$parameters?header=&#34;commentary&#34;" behaviour="block">
             <param name="content" value="(./fileDesc/sourceDesc, ./fileDesc/titleStmt)"/>
         </model>
-                    <model predicate="$parameters?header='context'" behaviour="pass-through">
+        <model predicate="$parameters?header='context'" behaviour="pass-through">
             <param name="correspondents" value="let $label := &lt;head type=&#34;context&#34;&gt;Korrespondenten&lt;/head&gt;  let $entries:= .//correspDesc//persName return   (if ($entries) then $label else (), $entries) "/>
             <param name="dates" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefdatum&lt;/head&gt; let $date := .//correspDesc//date return  ($label, if (count($date)) then $date else 's.d.')"/>
             <param name="persons" value="let $label := &lt;head type=&#34;context&#34;&gt;Personen&lt;/head&gt; let $entries:= for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
             <param name="places" value="let $label := &lt;head type=&#34;context&#34;&gt;Orte&lt;/head&gt; let $entries:= for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
             <param name="letters" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefe&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='letter'][not(./ancestor::note)]     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
-            <param name="sum" value="let $label := &lt;head type=&#34;context&#34;&gt;Überblickskommentare&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='sum']     let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
+            <param name="sum" value="let $label := &lt;head type=&#34;context&#34;&gt;Überblickskommentare&lt;/head&gt; let $entries:= for $p in root(.)//text//ref[@type='sum'][not(./ancestor::note)]      let $k := $p/@target       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
             <pb:template xmlns="" xml:space="preserve"><div class="context">
                         <h1>Kontexte</h1>
                         [[correspondents]]
