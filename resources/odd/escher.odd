@@ -131,8 +131,12 @@
                 </elementSpec>
 
                 <elementSpec ident="keywords" mode="add">
-                    <model behaviour="inline" cssClass="subheading">
-            <param name="keywords" value="string-join(for $k in .//term order by $k return $k, ', ')"/>
+                    <model predicate="$parameters?header='short'" behaviour="inline" cssClass="subheading">
+            <param name="keywords" value="sort(./term)"/>
+            <pb:template xmlns="" xml:space="preserve"><div>Schlagwörter: [[keywords]]</div></pb:template>
+        </model>
+                    <model behaviour="pass-through">
+            <param name="keywords" value="string-join(sort(./term), ', ')"/>
             <pb:template xmlns="" xml:space="preserve"><div>Schlagwörter: [[keywords]]</div></pb:template>
         </model>
                 </elementSpec>
@@ -177,12 +181,20 @@
             </model>
             <model behaviour="block">
                 <param name="content" value=".//keywords[@scheme=&#34;http://briefedition.alfred-escher.ch/keywords&#34;]"/>
-                <pb:set-param name="header" value="'short'"/>
             </model>
         </modelSequence>
                     <model output="latex" behaviour="metadata"/>
                     <model output="fo" behaviour="omit"/>
-                    <model output="web" predicate="$parameters?header='short'" behaviour="block"/>
+                    <modelSequence output="web" predicate="$parameters?header='short'">
+            <model behaviour="block"/>
+            <model behaviour="block" cssClass="subheading">
+                <param name="id" value="substring-after(ancestor::TEI/@xml:id, 'K_')"/>
+                <pb:template xmlns="" xml:space="preserve">AES B[[id]]</pb:template>
+            </model>
+            <model behaviour="block">
+                <param name="content" value=".//keywords[@scheme=&#34;http://briefedition.alfred-escher.ch/keywords&#34;]"/>
+            </model>
+        </modelSequence>
                     <model output="web" behaviour="metadata"/>
                 </elementSpec>
             <elementSpec ident="title" mode="change">
@@ -561,6 +573,11 @@
 <nav>
   [[nav-corresp]]
 </nav></pb:template>
+        </model>
+                </elementSpec>
+            <elementSpec ident="term" mode="add">
+                    <model behaviour="pass-through">
+            <pb:template xmlns="" xml:space="preserve"><a href="#" class="term">[[content]]</a></pb:template>
         </model>
                 </elementSpec>
             </schemaSpec>

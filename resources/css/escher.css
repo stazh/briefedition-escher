@@ -186,3 +186,18 @@ pb-facsimile {
     display: inline-block;
     padding-right: 5px;
 }
+
+/* Browsing letters (index.html) */
+
+.document-info h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.document-info .subheading {
+    font-size: 0.8em;
+}
+
+.document-info .term ~ .term::before {
+    content: ", ";
+}
