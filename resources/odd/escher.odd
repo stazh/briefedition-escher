@@ -592,6 +592,16 @@
         </model>
                     <model behaviour="link" cssClass="term"/>
                 </elementSpec>
+            <elementSpec ident="add" mode="change">
+                    <model behaviour="inline" cssClass="addition"/>
+                </elementSpec>
+                <elementSpec ident="del" mode="change">
+                    <model behaviour="inline" cssClass="deletion">
+            <outputRendition xml:space="preserve">
+             text-decoration: line-through;
+            </outputRendition>
+        </model>
+                </elementSpec>
             </schemaSpec>
         </body>
     </text>

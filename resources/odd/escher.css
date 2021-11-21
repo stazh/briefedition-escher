@@ -128,3 +128,21 @@ nav .next {
 .term ~ .term::before {
     content: ", ";
 }
+
+/* Additions are shown in diplomatic view only */
+.addition.toggle::after {
+    content: '⌝';
+}
+
+.addition.toggle::before {
+    content: '⌜';
+}
+
+.deletion {
+    display: none;
+}
+
+.deletion.toggle {
+    display: inline;
+    text-decoration: line-through;
+}
