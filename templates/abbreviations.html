@@ -50,8 +50,15 @@
             <app-drawer-layout force-narrow="force-narrow">
                 <app-header-layout>
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
-                        <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
-                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar-abbreviations.html"/>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
+                            <paper-button data-target="toolbar-start">
+                                <a href="${app}/kontexte/abkurzungen/Quellen/A" data-template="pages:parse-params">Abkürzungen aus den Quellen</a>        
+                            </paper-button>
+                            <paper-button data-target="toolbar-start">
+                                <a href="${app}/kontexte/abkurzungen/Sekundartexte/A" data-template="pages:parse-params">Abkürzungen aus Sekundärtexten</a>
+                            </paper-button>
+                        </app-toolbar>
                     </app-header>
                     <main>
                         <section class="transcript">

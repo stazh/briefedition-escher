@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <app-toolbar class="toolbar" sticky="sticky">
-    <pb-select-feature id="select-view1" name="view1" label="Ansicht" items='[
-        {"name": "Edierter Text", "selectors": [{"selector": ".popover,.annotation", "state": false}, {"selector": "br,.underline,.hyphen", "state": true}, {"selector": "pb-popover", "command": "disable", "state": false}, {"selector": ".letter", "state": true}]},
-        {"name": "Diplomatischer Text", "selectors": [{"selector": ".popover,.annotation", "state": true}, {"selector": "br,.underline,.hyphen", "state": false}, {"selector": "pb-popover", "command": "disable", "state": true}, {"selector": ".letter", "state": false}]}
-        ]' emit="transcription" subscribe="transcription"></pb-select-feature>
+    <div id="toolbar-start" style="display: none"></div>
     <pb-restricted login="login">
         <pb-ajax subscribe="transcription" emit="transcription" url="api/odd" method="post" data-template="pages:parse-params" event="pb-refresh" title="Recompile ODD" data-i18n="[title]menu.admin.recompile">
             <h3 slot="title">
@@ -14,12 +11,6 @@
     </pb-restricted>
     <pb-zoom emit="transcription" direction="in" icon="icons:zoom-in"/>
     <pb-zoom emit="transcription" direction="out" icon="icons:zoom-out"/>
-    <pb-navigation emit="transcription" keyboard="left" subscribe="transcription" direction="backward" unit="page">
-        <paper-icon-button icon="icons:chevron-left"/>
-    </pb-navigation>
-    <pb-navigation emit="transcription" keyboard="right" subscribe="transcription" direction="forward" unit="page">
-        <paper-icon-button icon="icons:chevron-right"/>
-    </pb-navigation>
     <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
     <pb-progress subscribe="transcription" indeterminate="indeterminate" bottom-item="bottom-item"/>
 </app-toolbar>
