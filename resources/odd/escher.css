@@ -57,7 +57,7 @@ br.toggle {
 .context a {
     text-decoration: none;
     font-weight: 600;
-    color: #2474C2;
+    color: var(--pb-link-color);
 }
 
 
@@ -105,7 +105,7 @@ nav {
 nav a:link, nav a:visited {
     font-size: 0.8em;
     text-decoration: none;
-    color: var(--pb-color-primary);
+    color: var(--pb-link-color);
 }
 
 nav .next {
@@ -118,4 +118,13 @@ nav .next {
 
 .context h3 {
     font-size: 1em;
+}
+
+.term:link, .term:visited {
+    text-decoration: none;
+    color: var(--pb-link-color);
+}
+
+.term ~ .term::before {
+    content: ", ";
 }

@@ -136,7 +136,7 @@
             <pb:template xmlns="" xml:space="preserve"><div>Schlagwörter: [[keywords]]</div></pb:template>
         </model>
                     <model behaviour="pass-through">
-            <param name="keywords" value="string-join(sort(./term), ', ')"/>
+            <param name="keywords" value="sort(./term)"/>
             <pb:template xmlns="" xml:space="preserve"><div>Schlagwörter: [[keywords]]</div></pb:template>
         </model>
                 </elementSpec>
@@ -148,7 +148,7 @@
                     <model predicate="$parameters?header=&#34;commentary&#34;" behaviour="block">
             <param name="content" value="(./fileDesc/sourceDesc, ./fileDesc/titleStmt)"/>
         </model>
-        <model predicate="$parameters?header='context'" behaviour="pass-through">
+                    <model predicate="$parameters?header='context'" behaviour="pass-through">
             <param name="correspondents" value="let $label := &lt;head type=&#34;context&#34;&gt;Korrespondenten&lt;/head&gt;  let $entries:= .//correspDesc//persName return   (if ($entries) then $label else (), $entries) "/>
             <param name="dates" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefdatum&lt;/head&gt; let $date := .//correspDesc//date return  ($label, if (count($date)) then $date else 's.d.')"/>
             <param name="persons" value="let $label := &lt;head type=&#34;context&#34;&gt;Personen&lt;/head&gt; let $entries:= for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
@@ -331,28 +331,10 @@
             <model predicate="@type='third-party-letter'" behaviour="inline"/>
             <model predicate="@type='lit'" behaviour="inline"/>
         </modelSequence>
-        <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
+                    <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
             <param name="ref" value="@target"/>
-            <param name="label" value="let $target := @target
-                let $doc := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI
-                let $title := $doc//titleStmt/title/string()
-                let $section := if ($doc/@xml:id != @target) then
-                    let $heading := $doc/id($target)/head/text()
-                    return
-                        if (count($heading)) then
-                            (', ' , $heading)
-                            else if
-                                (matches($target, '._d')) then
-                                    ', Kapitel ' || substring-after(@target, '_d')
-                            else
-                                (', Absatz ' || substring-after($target, '_p'))
-                        else ()
-                return ($title, $section)"/>
-
-            <param name="uri" value="let $target := @target
-                let $id := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI/@xml:id
-                return
-                    if ($id != $target) then $id || '#' || $target else $id"/>
+            <param name="label" value="let $target := @target                 let $doc := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI                 let $title := $doc//titleStmt/title/string()                 let $section := if ($doc/@xml:id != @target) then                     let $heading := $doc/id($target)/head/text()                     return                         if (count($heading)) then                             (', ' , $heading)                             else if                                 (matches($target, '._d')) then                                     ', Kapitel ' || substring-after(@target, '_d')                             else                                 (', Absatz ' || substring-after($target, '_p'))                         else ()                 return ($title, $section)"/>
+            <param name="uri" value="let $target := @target                 let $id := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI/@xml:id                 return                     if ($id != $target) then $id || '#' || $target else $id"/>
             <pb:template xmlns="" xml:space="preserve">
                 <paper-checkbox data-ref="[[ref]]"/>
                 <a href="[[uri]]">[[label]]</a>
@@ -368,28 +350,11 @@
                             <a href="[[uri]]">[[label]] [[letter]]</a>
                         </pb:template>
         </model>
-        <model predicate="@type='sum'" behaviour="inline">
+                    <model predicate="@type='sum'" behaviour="inline">
             <desc>Description link displaying an icon. If target ends with _d add Kapitel, _p Absatz</desc>
             <param name="ref" value="@target"/>
-            <param name="label" value="let $target := @target
-                let $doc := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI
-                let $title := $doc//titleStmt/title/string()
-                let $section := if ($doc/@xml:id != @target) then
-                    let $heading := $doc/id($target)/head/text()
-                    return
-                        if (count($heading)) then
-                            (', ' , $heading)
-                            else if
-                                (matches($target, '._d')) then
-                                    ', Kapitel ' || substring-after(@target, '_d')
-                            else
-                                (', Absatz ' || substring-after($target, '_p'))
-                        else ()
-                return ($title, $section)"/>
-            <param name="uri" value="let $target := @target
-                let $url := '../kontexte/uberblickskommentare/'
-                let $id := collection('/db/apps/escher/data/commentary/')/id($target)/ancestor-or-self::TEI/@xml:id
-                    return ($url, if ($id != $target) then $id || '#' || $target else $id)"/>
+            <param name="label" value="let $target := @target                 let $doc := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI                 let $title := $doc//titleStmt/title/string()                 let $section := if ($doc/@xml:id != @target) then                     let $heading := $doc/id($target)/head/text()                     return                         if (count($heading)) then                             (', ' , $heading)                             else if                                 (matches($target, '._d')) then                                     ', Kapitel ' || substring-after(@target, '_d')                             else                                 (', Absatz ' || substring-after($target, '_p'))                         else ()                 return ($title, $section)"/>
+            <param name="uri" value="let $target := @target                 let $url := '../kontexte/uberblickskommentare/'                 let $id := collection('/db/apps/escher/data/commentary/')/id($target)/ancestor-or-self::TEI/@xml:id                     return ($url, if ($id != $target) then $id || '#' || $target else $id)"/>
             <pb:template xmlns="" xml:space="preserve">
                 <pb-popover data-ref="[[ref]]">
                     <span slot="default">
@@ -401,7 +366,7 @@
                 </pb-popover>
             </pb:template>
         </model>
-        <model predicate="@type='sum'" behaviour="inline">
+                    <model predicate="@type='sum'" behaviour="inline">
             <param name="ref" value="@target"/>
             <param name="label" value="let $target := @target                          let $doc := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI                          let $title := $doc//titleStmt/title/string()                         let $section := if ($doc/@xml:id != @target) then                                      let $heading := $doc/id($target)/head/text()                                     return                                     if (count($heading)) then (', ' , $heading) else                                         if (matches($target, '._d')) then                                              ', Kapitel ' || substring-after(@target, '_d')                                         else                                              ', Absatz ' || substring-after($target, '_p')                              else                                  ()                         return ($title, $section)"/>
             <param name="uri" value="let $target := @target                            let $document := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI                                                  let $id := $document/@xml:id                                                  let $url-prefix := if ($parameters?url='commentary') then '../../uberblickskommentare/' else '../uberblickskommentare/'                            let $url-target := if (@target != $id) then '#' || @target else ()                                              return if ($document) then $url-prefix || $id || $url-target else () "/>
@@ -409,17 +374,11 @@
                             <a href="[[uri]]" class="note-link">[[label]]</a>
                         </pb:template>
         </model>
-        <model predicate="@type='letter'" behaviour="inline">
+                    <model predicate="@type='letter'" behaviour="inline">
             <desc>Letter link displaying an icon</desc>
             <param name="ref" value="@target"/>
             <param name="label" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)//titleStmt/title/string()"/>
-            <param name="uri" value="let $target := @target
-                let $letter := collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI
-                let $letter-id := 'B' || substring-after($letter/@xml:id, 'K_')
-                let $url-prefix :=
-                    if ($parameters?url='commentary') then '../../briefe/' else '../briefe/'
-                let $url-target := if (@target != $letter/@xml:id) then '#' || @target else ()
-                return if ($letter) then $url-prefix || $letter-id || $url-target else () "/>
+            <param name="uri" value="let $target := @target                 let $letter := collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI                 let $letter-id := 'B' || substring-after($letter/@xml:id, 'K_')                 let $url-prefix :=                     if ($parameters?url='commentary') then '../../briefe/' else '../briefe/'                 let $url-target := if (@target != $letter/@xml:id) then '#' || @target else ()                 return if ($letter) then $url-prefix || $letter-id || $url-target else () "/>
             <pb:template xmlns="" xml:space="preserve">
                 <pb-popover data-ref="[[ref]]">
                     <span slot="default">
@@ -431,26 +390,19 @@
                 </pb-popover>
             </pb:template>
         </model>
-        <model predicate="@type='letter'" behaviour="inline">
+                    <model predicate="@type='letter'" behaviour="inline">
             <desc>Letter link within notes</desc>
-            <param name="letter" value="let $target := @target
-                return collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI//titleStmt/title/string()"/>
-            <param name="uri" value="let $target := @target
-                let $letter := collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI
-                let $letter-id := 'B' || substring-after($letter/@xml:id, 'K_')
-                let $url-prefix :=
-                    if ($parameters?url='commentary') then '../../briefe/' else '../briefe/'
-                let $url-target := if (@target != $letter/@xml:id) then '#' || @target else ()
-                return if ($letter) then $url-prefix || $letter-id || $url-target else () "/>
+            <param name="letter" value="let $target := @target                 return collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI//titleStmt/title/string()"/>
+            <param name="uri" value="let $target := @target                 let $letter := collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI                 let $letter-id := 'B' || substring-after($letter/@xml:id, 'K_')                 let $url-prefix :=                     if ($parameters?url='commentary') then '../../briefe/' else '../briefe/'                 let $url-target := if (@target != $letter/@xml:id) then '#' || @target else ()                 return if ($letter) then $url-prefix || $letter-id || $url-target else () "/>
             <param name="label" value="if (./string()) then (., ': ') else ()"/>
             <param name="ref" value="@target"/>
             <pb:template xmlns="" xml:space="preserve">
                 <a href="[[uri]]" class="note-link">[[label]] [[letter]]</a>
             </pb:template>
         </model>
-        <model predicate="@type='third-party-letter'" behaviour="inline"/>
-        <model predicate="@type='lit'" behaviour="inline"/>
-        <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
+                    <model predicate="@type='third-party-letter'" behaviour="inline"/>
+                    <model predicate="@type='lit'" behaviour="inline"/>
+                    <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
             <param name="ref" value="@target"/>
             <param name="label" value="let $target := @target return collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI//titleStmt/title"/>
             <param name="uri" value="let $target := @target              let $id := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI/@xml:id             return if ($id != $target) then $id || '#' || $target else $id"/>
@@ -635,9 +587,10 @@
         </model>
                 </elementSpec>
             <elementSpec ident="term" mode="add">
-                    <model behaviour="pass-through">
-            <pb:template xmlns="" xml:space="preserve"><a href="#" class="term">[[content]]</a></pb:template>
+                    <model predicate="$parameters?display='letter-header'" behaviour="link" cssClass="term">
+            <param name="uri" value="'../index.html?facet-keyword=' || ."/>
         </model>
+                    <model behaviour="link" cssClass="term"/>
                 </elementSpec>
             </schemaSpec>
         </body>
