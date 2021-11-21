@@ -40,6 +40,11 @@ body {
     --pb-link-color: #2474C2;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: var(--pb-link-color);
+}
+
 .menubar {
     height: 109px;
 }

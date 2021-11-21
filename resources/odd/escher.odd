@@ -542,7 +542,7 @@
                     <modelSequence output="web" predicate="$parameters?header='short'">
             <model behaviour="link">
                 <param name="content" value="title[1]"/>
-                <param name="uri" value="&#34;briefe/B&#34; || substring-after(ancestor::TEI/@xml:id, &#34;K_&#34;)"/>
+                <param name="uri" value="&#34;B&#34; || substring-after(ancestor::TEI/@xml:id, &#34;K_&#34;)"/>
             </model>
             <model behaviour="block">
                 <param name="content" value="subsequence(title, 2)"/>

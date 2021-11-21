@@ -25,6 +25,46 @@
         }
     },
     "paths": {
+		"/briefe": {
+			"get": {
+				"summary": "Browse list of letters",
+				"description": "Browse through the letters of the edition",
+				"tags": ["view"],
+				"operationId": "vapi:html",
+				"parameters": [
+					{
+						"name": "file",
+						"in": "query",
+						"schema": {
+							"type": "string",
+							"default": "index"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "HTML of the page",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "The document was not found",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
         "/briefe/B{id}": {
             "get": {
 				"summary": "Retrieve the HTML template used for displaying a letter",
