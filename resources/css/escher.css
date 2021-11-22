@@ -208,3 +208,8 @@ pb-facsimile {
 .document-info .term ~ .term::before {
     content: ", ";
 }
+
+.bibentry {
+    display: grid;
+    grid-template-columns: 3em 1fr;
+}

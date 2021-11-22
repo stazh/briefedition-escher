@@ -38,13 +38,15 @@ declare function api:view-bibliography($request as map(*)) {
         group by $letter 
         order by $letter
         return 
-            <div class="letter">
+            <div class="bibentry">
                 <h3 id="{$letter}">{$letter}</h3>
+                <div>
                 {
                     for $entry in $group
                     return 
                         <p>{$entry/tei:bibl} [{$entry/tei:abbr}]</p>
                 }
+                </div>
             </div>
 };
 
