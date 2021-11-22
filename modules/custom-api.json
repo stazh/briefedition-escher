@@ -213,7 +213,7 @@
 				}
 			}
         },
-        "/kontexte/bibliographie/{name}": {
+        "/kontexte/bibliographie/{name}/{letter}": {
             "get": {
 				"summary": "Landing page for bibliography",
 				"description": "Retrieve an HTML page expanded through eXist templating. This is used to load the top-level HTML pages, e.g. `index.html`.",
@@ -237,6 +237,14 @@
 						"schema": {
 							"type": "string",
 							"default": "Archivbestande"
+						}
+					},
+                    {
+						"name": "letter",
+						"in": "path",
+						"schema": {
+							"type": "string",
+                            "default": "A"
 						}
 					}
 				],
@@ -264,7 +272,7 @@
 				}
 			}
         },
-        "/kontexte/bibliography/{name}": {
+        "/api/bibliography/{name}/{letter}": {
             "get": {
 				"summary": "Retrieve the HTML template used for displaying person metadata",
 				"description": "Get the HTML template associated with the given document. This is called whenever the users tries to view a document. The actual content of the document will then be loaded by the template.",
@@ -277,6 +285,14 @@
 						"schema": {
 							"type": "string",
                             "default": "Archivbestande"
+						}
+					},
+                    {
+						"name": "letter",
+						"in": "path",
+						"schema": {
+							"type": "string",
+                            "default": "A"
 						}
 					}
 				],

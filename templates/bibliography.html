@@ -50,14 +50,34 @@
                 <app-header-layout>
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
-                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"/>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
+                            <paper-button data-target="toolbar-start">
+                                <a href="${app}/kontexte/bibliographie/Escheriana/A" data-template="pages:parse-params">Escheriana</a>        
+                            </paper-button>
+                            <paper-button data-target="toolbar-start">
+                                <a href="${app}/kontexte/bibliographie/Archivbestande/A" data-template="pages:parse-params">Archivbestände</a>
+                            </paper-button>
+                            <paper-button data-target="toolbar-start">
+                                <a href="${app}/kontexte/bibliographie/Ungedruckte-Quellen/A" data-template="pages:parse-params">Ungedruckte Quellen</a>
+                            </paper-button>
+                            <paper-button data-target="toolbar-start">
+                                <a href="${app}/kontexte/bibliographie/Gedruckte-Quellen/A" data-template="pages:parse-params">Gedruckte Quellen</a>
+                            </paper-button>
+                            <paper-button data-target="toolbar-start">
+                                <a href="${app}/kontexte/bibliographie/Zeitungen-und-Zeitschriften/A" data-template="pages:parse-params">Zeitungen und Zeitschriften</a>
+                            </paper-button>
+                            <paper-button data-target="toolbar-start">
+                                <a href="${app}/kontexte/bibliographie/Literatur/A" data-template="pages:parse-params">Literatur</a>
+                            </paper-button>
+                            <paper-button data-target="toolbar-start">
+                                <a href="${app}/kontexte/bibliographie/Websites/A" data-template="pages:parse-params">Websites</a>
+                            </paper-button>
+                        </app-toolbar>                    
                     </app-header>
                     <main>
                         <section class="transcript">
-                            <div>
-                                <h1>Bibliographie</h1>
-                            </div>
-                            <pb-load id="results" url="api/kontexte/bibliography/Archivbestande" auto="auto" expand="expand" subscribe="transcription"/>
+                            <div data-template="app:initial-bibliography"/>
+                            <div data-template="app:view-bibliography"/>
                         </section>
                     </main>
                 </app-header-layout>
