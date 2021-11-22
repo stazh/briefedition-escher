@@ -72,8 +72,8 @@
                         </app-toolbar>
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
                             <pb-select-feature id="select-view1" name="view1" label="Ansicht" items='[
-                            {"name": "Edierter Text", "selectors": [{"selector": ".popover,.annotation", "state": false}, {"selector": "br,.underline,.hyphen", "state": true}, {"selector": "pb-popover", "command": "disable", "state": false}, {"selector": ".letter", "state": true}, {"selector": ".addition", "state": false}, {"selector": ".deletion", "state": false}]},
-                            {"name": "Diplomatischer Text", "selectors": [{"selector": ".popover,.annotation", "state": true}, {"selector": "br,.underline,.hyphen", "state": false}, {"selector": "pb-popover", "command": "disable", "state": true}, {"selector": ".letter", "state": false}, {"selector": ".addition", "state": true}, {"selector": ".deletion", "state": true}]}
+                            {"name": "Edierter Text", "selectors": [{"selector": ".popover,.annotation", "state": false}, {"selector": "br,.underline,.hyphen", "state": true}, {"selector": "pb-popover", "command": "disable", "state": false}, {"selector": ".letter", "state": true}, {"selector": ".addition,.deletion,.pb", "state": false}]},
+                            {"name": "Diplomatischer Text", "selectors": [{"selector": ".popover,.annotation", "state": true}, {"selector": "br,.underline,.hyphen", "state": false}, {"selector": "pb-popover", "command": "disable", "state": true}, {"selector": ".letter", "state": false}, {"selector": ".addition,.deletion,.pb", "state": true}]}
                             ]' emit="transcription" subscribe="transcription" 
                             data-target="toolbar-start"></pb-select-feature>
                         </app-toolbar>

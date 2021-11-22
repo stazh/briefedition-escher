@@ -146,3 +146,12 @@ nav .next {
     display: inline;
     text-decoration: line-through;
 }
+
+.pb {
+    display: none;
+}
+
+.pb.toggle {
+    display: inline;
+    color: var(--pb-color-focus);
+}
