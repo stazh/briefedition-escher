@@ -138,6 +138,14 @@ nav .next {
     content: '⌜';
 }
 
+.unclear-addition::after {
+    content: '?]';
+}
+
+.unclear-addition::before {
+    content: '[';
+}
+
 .deletion {
     display: none;
 }

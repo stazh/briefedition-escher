@@ -584,6 +584,7 @@
                     <model behaviour="link" cssClass="term"/>
                 </elementSpec>
             <elementSpec ident="add" mode="change">
+                    <model predicate="@type='?'" behaviour="inline" cssClass="unclear-addition"/>
                     <model behaviour="inline" cssClass="addition"/>
                 </elementSpec>
                 <elementSpec ident="del" mode="change">
