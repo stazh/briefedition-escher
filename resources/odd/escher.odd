@@ -313,8 +313,8 @@
                     <modelSequence predicate="$parameters?display='person-meta' or parent::note">
             <model predicate="@type='sum'" behaviour="inline">
                 <param name="ref" value="@target"/>
-                <param name="label" value="let $hash := replace(@target, '^[^_]+_?(.*)$', '$1') let $target := replace(@target, '^([^_]+).*$', '$1') let $title := id($target, doc(&#34;/db/apps/escher/data/titles.xml&#34;)) return  if ($hash) then       if (starts-with($hash, 'd')) then           ($title, ', Kapitel ', substring-after($hash, 'd'))       else           ($title, ', Absatz ', substring-after($hash, 'p'))     else      $title"/>
-                <param name="uri" value="let $hash := replace(@target, '^[^_]+_?(.*)$', '$1') let $target := replace(@target, '^([^_]+).*$', '$1') return let $url-prefix := if ($parameters?url='commentary') then '../../uberblickskommentare/' else '../uberblickskommentare/'                             return  $url-prefix || $target || '#' || $hash"/>
+                <param name="label" value="id(@target, doc(&#34;/db/apps/escher/data/titles.xml&#34;))"/>
+                <param name="uri" value="let $hash := replace(@target, '^[^_]+_?(.*)$', '$1') let $target := replace(@target, '^([^_]+).*$', '$1') return let $url-prefix := if ($parameters?url='commentary') then '../uberblickskommentare/' else '../kontexte/uberblickskommentare/'                             return  $url-prefix || $target || '#' || $hash"/>
                 <pb:template xmlns="" xml:space="preserve">
                                 <a href="[[uri]]" class="note-link">[[label]]</a>
                             </pb:template>
@@ -333,7 +333,7 @@
         </modelSequence>
                     <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
             <param name="ref" value="@target"/>
-            <param name="label" value="let $hash := replace(@target, '^[^_]+_?(.*)$', '$1') let $target := replace(@target, '^([^_]+).*$', '$1') let $title := id($target, doc(&#34;/db/apps/escher/data/titles.xml&#34;)) return  if ($hash) then       if (starts-with($hash, 'd')) then           ($title, ', Kapitel ', substring-after($hash, 'd'))       else           ($title, ', Absatz ', substring-after($hash, 'p'))     else      $title"/>
+            <param name="label" value="id(@target, doc(&#34;/db/apps/escher/data/titles.xml&#34;))"/>
             <param name="uri" value="let $hash := replace(@target, '^[^_]+_?(.*)$', '$1') let $target := replace(@target, '^([^_]+).*$', '$1') return let $url-prefix := if ($parameters?url='commentary') then '../uberblickskommentare/' else '../kontexte/uberblickskommentare/' return  $url-prefix || $target || '#' || $hash"/>
             <pb:template xmlns="" xml:space="preserve">
                 <paper-checkbox data-ref="[[ref]]"/>
@@ -353,7 +353,7 @@
                     <model predicate="@type='sum'" behaviour="inline">
             <desc>Description link displaying an icon. If target ends with _d add Kapitel, _p Absatz</desc>
             <param name="ref" value="@target"/>
-            <param name="label" value="let $hash := replace(@target, '^[^_]+_?(.*)$', '$1') let $target := replace(@target, '^([^_]+).*$', '$1') let $title := id($target, doc(&#34;/db/apps/escher/data/titles.xml&#34;)) return  if ($hash) then       if (starts-with($hash, 'd')) then           ($title, ', Kapitel ', substring-after($hash, 'd'))       else           ($title, ', Absatz ', substring-after($hash, 'p'))     else      $title"/>
+            <param name="label" value="id(@target, doc(&#34;/db/apps/escher/data/titles.xml&#34;))"/>
             <param name="uri" value="let $hash := replace(@target, '^[^_]+_?(.*)$', '$1') let $target := replace(@target, '^([^_]+).*$', '$1') return let $url-prefix := if ($parameters?url='commentary') then '../uberblickskommentare/' else '../kontexte/uberblickskommentare/' return  $url-prefix || $target || '#' || $hash"/>
             <pb:template xmlns="" xml:space="preserve">
                 <pb-popover data-ref="[[ref]]">
