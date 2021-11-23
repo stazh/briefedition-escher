@@ -198,7 +198,7 @@
                     <model output="web" behaviour="metadata"/>
                 </elementSpec>
             <elementSpec ident="title" mode="change">
-                    <model predicate="$parameters?header=&#34;commentary&#34; and parent::titleStmt" behaviour="heading">
+                    <model predicate="$parameters?header=&#34;commentary&#34; and parent::titleStmt" behaviour="heading" cssClass="letter-title">
             <param name="level" value="2"/>
         </model>
                     <model predicate="$parameters?header='context'" behaviour="inline"/>
