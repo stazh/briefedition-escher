@@ -313,7 +313,7 @@
                     <modelSequence predicate="$parameters?display='person-meta' or parent::note">
             <model predicate="@type='sum'" behaviour="inline">
                 <param name="ref" value="@target"/>
-                <param name="label" value="id(@target, doc(&#34;/db/apps/escher/data/titles.xml&#34;))"/>
+                <param name="label" value="id(@target, doc(&#34;/db/apps/escher/data/titles.xml&#34;))/string()"/>
                 <param name="uri" value="let $hash := replace(@target, '^[^_]+_?(.*)$', '$1') let $target := replace(@target, '^([^_]+).*$', '$1') return let $url-prefix := if ($parameters?url='commentary') then '../uberblickskommentare/' else '../kontexte/uberblickskommentare/'                             return  $url-prefix || $target || '#' || $hash"/>
                 <pb:template xmlns="" xml:space="preserve">
                                 <a href="[[uri]]" class="note-link">[[label]]</a>
@@ -322,7 +322,7 @@
             <model predicate="@type='letter'" behaviour="inline">
                 <param name="letter" value="let $target := 'B' || replace(@target, '^(K_[^_]+).*$', '$1') return id($target, doc(&#34;/db/apps/escher/data/titles.xml&#34;))"/>
                 <param name="uri" value="let $hash := replace(@target, '^K_[^_]+_?(.*)$', '$1') let $target := 'B' || replace(@target, '^K_([^_]+).*$', '$1') let $url-prefix := if ($parameters?url='commentary') then '../../briefe/' else '../briefe/' return  $url-prefix || $target || '#' || $hash"/>
-                <param name="label" value="if (./string()) then (., ': ') else ()"/>
+                <param name="label" value="if (./string()) then (., ': ') else (id(@target, doc(&#34;/db/apps/escher/data/titles.xml&#34;))/string())"/>
                 <param name="ref" value="@target"/>
                 <pb:template xmlns="" xml:space="preserve">
                                 <a href="[[uri]]" class="note-link">[[label]] [[letter]]</a>
