@@ -310,11 +310,11 @@
                     <model predicate="$parameters?header=&#34;commentary&#34; and @type=&#34;volume&#34;" behaviour="inline">
             <param name="content" value="(&#34;, S. &#34;, .)"/>
         </model>
-        <modelSequence predicate="$parameters?display='person-meta' or parent::note">
+                    <modelSequence predicate="$parameters?display='person-meta' or parent::note">
             <model predicate="@type='sum'" behaviour="inline">
                 <param name="ref" value="@target"/>
                 <param name="label" value="id(@target, doc(&#34;/db/apps/escher/data/titles.xml&#34;))/string()"/>
-                <param name="uri" value="let $hash := replace(@target, '^[^_]+_?(.*)$', '$1') let $target := replace(@target, '^([^_]+).*$', '$1') return let $url-prefix := if ($parameters?url='commentary') then '../uberblickskommentare/' else '../kontexte/uberblickskommentare/'                             return  $url-prefix || $target || '#' || $hash"/>
+                <param name="uri" value="let $hash := replace(@target, '^[^_]+_?(.*)$', '$1') let $target := replace(@target, '^([^_]+).*$', '$1') return let $url-prefix := if ($parameters?url='commentary') then '../uberblickskommentare/' else '../kontexte/uberblickskommentare/'                             return  $url-prefix || $target || '#' || @target"/>
                 <pb:template xmlns="" xml:space="preserve">
                     <a href="[[uri]]" class="note-link">[[label]]</a>
                 </pb:template>
@@ -394,25 +394,25 @@
             <param name="uri" value="let $target := @target              let $id := collection('/db/apps/escher/data')/id($target)/ancestor-or-self::TEI/@xml:id             return if ($id != $target) then $id || '#' || $target else $id"/>
             <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]">[[label]]</a></pb:template>
         </model>
-        <model predicate="$parameters?header='context' and @type='letter'" behaviour="block">
+                    <model predicate="$parameters?header='context' and @type='letter'" behaviour="block">
             <param name="letter" value="let $target := @target return collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI//titleStmt/title"/>
             <param name="uri" value="let $target := @target                     let $letter := collection('/db/apps/escher/data/letters')/id($target)/ancestor-or-self::TEI                     let $letter-id := 'B' || substring-after($letter/@xml:id, 'K_')                     let $url-prefix := if ($parameters?url='commentary') then '../../briefe/' else '../briefe/'                     let $url-target := if (@target != $letter/@xml:id) then '#' || @target else ()                         return if ($letter) then $url-prefix || $letter-id || $url-target else () "/>
             <param name="label" value="if (./string()) then (., ': ') else ()"/>
             <param name="ref" value="@target"/>
             <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]">[[label]] [[letter]]</a></pb:template>
         </model>
-        <model predicate="@type='third-party-letter'" behaviour="inline"/>
-        <model predicate="@type='lit'" behaviour="inline"/>
-        <model predicate="not(node())" behaviour="link">
+                    <model predicate="@type='third-party-letter'" behaviour="inline"/>
+                    <model predicate="@type='lit'" behaviour="inline"/>
+                    <model predicate="not(node())" behaviour="link">
             <param name="content" value="@target"/>
             <param name="uri" value="@target"/>
         </model>
-        <model behaviour="link">
+                    <model behaviour="link">
             <param name="uri" value="@target"/>
         </model>
-    </elementSpec>
+                </elementSpec>
     <elementSpec ident="body" mode="change">
-        <modelSequence>
+                    <modelSequence>
             <model behaviour="index">
                 <param name="type" value="'toc'"/>
             </model>
