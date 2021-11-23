@@ -47,7 +47,10 @@
                         <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"/>
                     </app-header>
-                    <main class="content-body toggle">
+                    <header class="breadcrumbs" data-template="pages:parse-params">
+                        <a href="${app}/index.html">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; <a href="${app}/kontexte/uberblickskommentare/">Überblickskommentare</a> &gt; <span id="letterId"></span>
+                    </header>
+                    <main class="content-body">
                         <section class="transcript">   
                             <pb-view id="heading" src="document1" xpath="//teiHeader" view="single">
                                 <pb-param name="header" value="commentary"/>
@@ -61,13 +64,10 @@
                                 <pb-param name="url" value="commentary"/>
                             </pb-view> 
                         </section>
-                        <aside class="context">
-                            <pb-view id="register" src="document1" subscribe="transcription" emit="register" view="single" 
-                                >
-                                <pb-param name="header" value="context"/>
-                                <pb-param name="url" value="commentary"/>
-                            </pb-view>
-                        </aside>
+                        <pb-view id="register" src="document1" subscribe="transcription" emit="register" view="single">
+                            <pb-param name="header" value="context"/>
+                            <pb-param name="url" value="commentary"/>
+                        </pb-view>
                     </main>
                 </app-header-layout>
             </app-drawer-layout>

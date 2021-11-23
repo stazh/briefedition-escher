@@ -121,15 +121,17 @@ a:link, a:visited {
 }
 
 .content-body {
+    --pb-view-max-width: 41.24rem;
     position: relative;
+    margin: 0 20px;
     display: grid;
-    height: calc(100vh - 233px);
-    grid-template-columns: 1fr minmax(360px, 45vw);
+    column-gap: 40px;
+    grid-template-columns: 1fr minmax(360px, 33vw);
+    /* height: calc(100vh - 233px); */
 }
 
-.content-body.toggle {
-    grid-template-columns: 1fr auto;
-    height: auto;
+.content-body #register {
+    font-size: .9em;
 }
 
 .transcript {
@@ -161,18 +163,6 @@ a:link, a:visited {
 
 pb-facsimile {
     --pb-facsimile-height: var(--pb-view-height);
-}
-
-.content-body.toggle pb-facsimile {
-    display: none;
-}
-
-.content-body aside {
-    display: none;
-}
-
-.content-body.toggle aside {
-    display: block;
 }
 
 @media (max-width: 1023px) {
