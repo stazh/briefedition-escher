@@ -9,7 +9,7 @@
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
 
-        <title data-template="config:app-title"/>
+        <title>Alfred Escher Briefedition</title>
         <meta name="description" content="Escher commentary"/>
         <meta name="pb-template" content="commentary.html"/>
 
@@ -23,24 +23,11 @@
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <script src="resources/scripts/app/escher.js"></script>
         <style>
-            section {
-                max-width: 1014px;
+            .content-body {
+                grid-template-columns: auto;
             }
-
-            main {
-                position: relative;
-                display: grid;
-                height: var(--pb-view-height);
-            }
-
-            .transcript a {
-                color: #2474C2;
-                text-decoration: none;
-                font-weight: bold;
-            }
-
-            .transcript h3 {
-                font-weight: bold;
+            .transcript {
+                max-width: 41.24rem;
             }
         </style>
     </head>
@@ -48,15 +35,16 @@
     <body>
         <pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription">
             <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
                 <app-header-layout>
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
-                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
-                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"/>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"></app-toolbar>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"></app-toolbar>
                     </app-header>
                     <header class="breadcrumbs" data-template="pages:parse-params">
                         <a href="${app}/index.html">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; Überblickskommentare
                     </header>
-                    <main>
+                    <main class="content-body">
                         <section class="transcript">
                             <div>
                                 <h1>Überblickskommentare</h1>

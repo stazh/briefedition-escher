@@ -455,7 +455,7 @@
             <param name="level" value="3"/>
             <param name="uri" value="parent::div/@xml:id"/>
             <param name="content" value="."/>
-            <pb:template xmlns="" xml:space="preserve"><a href="#[[uri]]">[[content]]</a></pb:template>
+            <pb:template xmlns="" xml:space="preserve"><pb-link hash="[[uri]]" emit="transcription">[[content]]</pb-link></pb:template>
         </model>
                     <model predicate="@type=&#34;context&#34;" behaviour="heading" cssClass="context">
             <param name="level" value="3"/>

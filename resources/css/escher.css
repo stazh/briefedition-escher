@@ -122,22 +122,33 @@ a:link, a:visited {
 
 .content-body {
     --pb-view-max-width: 41.24rem;
+    --pb-view-height: 100%;
     position: relative;
     margin: 0 20px;
     display: grid;
     column-gap: 40px;
     grid-template-columns: 1fr minmax(360px, 33vw);
-    /* height: calc(100vh - 233px); */
+    height: calc(100vh - 220px);
 }
 
 .content-body #register {
     font-size: .9em;
+    overflow: auto;
+}
+
+.content-body #subsections {
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 .transcript {
+    height: 100%;
     overflow: auto;
-    margin-left: auto;
-    margin-right: auto;
+    justify-self: center;
+}
+
+.content-body #transcription {
+    overflow: none;
 }
 
 .content-body pb-navigation {

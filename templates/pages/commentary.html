@@ -9,7 +9,7 @@
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
 
-        <title data-template="config:app-title"/>
+        <title>Alfred Escher Briefedition</title>
         <meta name="description" content="Escher commentary"/>
         <meta name="pb-template" content="commentary.html"/>
 
@@ -22,19 +22,6 @@
 
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <script src="resources/scripts/app/escher.js"></script>
-        <style>
-            .toolbar pb-select-feature {
-                display: none;
-            }
-
-            #subsections {
-                margin-top: 50px;
-            }
-
-            #transcription {
-                margin-top: 30px;
-            }
-        </style>
     </head>
 
     <body>
@@ -44,14 +31,14 @@
                 <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
                 <app-header-layout>
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
-                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
-                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"/>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"></app-toolbar>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"></app-toolbar>
                     </app-header>
                     <header class="breadcrumbs" data-template="pages:parse-params">
                         <a href="${app}/index.html">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; <a href="${app}/kontexte/uberblickskommentare/">Überblickskommentare</a> &gt; <span id="letterId"></span>
                     </header>
                     <main class="content-body">
-                        <section class="transcript">   
+                        <section class="transcript">
                             <pb-view id="heading" src="document1" xpath="//teiHeader" view="single" emit="transcription">
                                 <pb-param name="header" value="commentary"/>
                             </pb-view>
