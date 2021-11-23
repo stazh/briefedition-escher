@@ -330,6 +330,10 @@
             </model>
             <model predicate="@type='third-party-letter'" behaviour="inline"/>
             <model predicate="@type='lit'" behaviour="inline"/>
+            <model predicate="ancestor::note and not(@type) and @target" behaviour="link" cssClass="external-link">
+                <desc>A ref in a note, containing a target, but not a type, currently an external link</desc>
+                <param name="uri" value="@target"/>
+            </model>
         </modelSequence>
                     <model predicate="$parameters?header='context' and @type='sum'" behaviour="block">
             <param name="ref" value="@target"/>
