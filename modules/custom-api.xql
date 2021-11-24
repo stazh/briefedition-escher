@@ -57,7 +57,8 @@ declare function api:view-commentary($request as map(*)) {
             let $template := doc($config:app-root || "/templates/pages/commentary.html")
             let $model := map { 
                 "doc": $config:data-root || "/commentary/" || util:document-name($entry),
-                "template": "commentary.html"
+                "template": "commentary.html",
+                "uri": "kontexte/uberblickskommentare/" || $name
             }
             return
                 templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
@@ -82,7 +83,8 @@ declare function api:view-person($request as map(*)) {
                 "xpath": '//tei:listPerson/tei:person[@n = "' || $name || '"]',
                 "label": $label,
                 "key": $name,
-                "template": "person.html"
+                "template": "person.html",
+                "uri": "kontexte/personen/" || $label
             }
             return
                 templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))

@@ -24,12 +24,13 @@
         <script src="resources/scripts/app/people.js"></script>
         <style>
             main {
-                margin: 20px auto;
+                margin: 0 auto;
                 max-width: 1024px;
             }
 
             pb-table-grid {
                 width: 100%;
+                --pb-table-grid-height: calc(100vh - 360px);
             }
             
             form {
@@ -79,6 +80,7 @@
                             <pb-table-column label="Lebensdaten" property="dates"></pb-table-column>
                         </pb-table-grid>
                     </main>
+                    <footer data-template="templates:include" data-template-path="templates/footer.html"/>
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>

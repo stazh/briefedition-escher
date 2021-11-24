@@ -39,6 +39,14 @@
 							"type": "string",
 							"default": "index"
 						}
+					},
+					{
+						"name": "uri",
+						"in": "query",
+						"schema": {
+							"type": "string",
+							"default": "briefe/"
+						}
 					}
 				],
 				"responses": {
@@ -133,6 +141,14 @@
 						"schema": {
 							"type": "string",
                             "default": "people"
+						}
+					},
+					{
+						"name": "uri",
+						"in": "query",
+						"schema": {
+							"type": "string",
+							"default": "kontexte/personen"
 						}
 					}
 				],

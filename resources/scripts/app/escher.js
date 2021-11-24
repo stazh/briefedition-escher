@@ -56,10 +56,10 @@ window.addEventListener('DOMContentLoaded', () => {
         }
 
         const footerLink = document.querySelector('.persistentLink');
-        if (footerLink) {
+        if (textElem && footerLink) {
             const breadcrumbs = document.querySelector('.breadcrumbs');
             const appPath = breadcrumbs.dataset.path;
-            const plink = `https://briefedition.alfred-escher.ch/${appPath}${textElem.dataset.letter}`;
+            const plink = `https://briefedition.alfred-escher.ch/${appPath}/${textElem.dataset.letter}`;
             footerLink.href = plink;
             footerLink.innerHTML = plink;
         }
