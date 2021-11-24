@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+
+        <title>Alfred Escher Briefedition</title>
+        <meta name="description" content="Escher letter"/>
+        <meta name="pb-template" content="escher.html"/>
+
+        <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap"/>
+
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="resources/css/escher.css"/>
+
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <script src="resources/scripts/app/escher.js"></script>
+    </head>
+
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription">
+            <pb-document id="document1" data-template="pages:pb-document"/>
+            <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
+                <app-header-layout>
+                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html">
+                            <!--paper-menu-button data-target="custom">
+                                <a href="#" slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
+                                    <pb-i18n key="menu.download.title">Download</pb-i18n>
+                                </a>
+                                <paper-listbox slot="dropdown-content">
+                                    <paper-item>
+                                        <pb-download type="tex" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)">
+                                            <pb-i18n key="menu.download.pdf-latex">Download</pb-i18n>
+                                        </pb-download>
+                                    </paper-item>
+                                    <paper-item>
+                                        <pb-download type="tex" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source">
+                                            <pb-i18n key="menu.download.latex-source"/>
+                                        </pb-download>
+                                    </paper-item>
+                                    <paper-item>
+                                        <pb-download type="pdf" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)">
+                                            <pb-i18n key="menu.download.pdf-fo"/>
+                                        </pb-download>
+                                    </paper-item>
+                                    <paper-item>
+                                        <pb-download type="pdf" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source">
+                                            <pb-i18n key="menu.download.fo-source"/>
+                                        </pb-download>
+                                    </paper-item>
+                                    <paper-item>
+                                        <pb-download type="epub" src="document1" dialog="downloadDialog">
+                                            ePUB
+                                        </pb-download>
+                                    </paper-item>
+                                    <paper-item>
+                                        <pb-edit-xml src="document1" data-i18n="[title]menu.download.view-tei" title="view-tei">
+                                            XML
+                                        </pb-edit-xml>
+                                    </paper-item>
+                                </paper-listbox>
+                            </paper-menu-button-->
+                        </app-toolbar>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"/>
+                    </app-header>
+                    <header class="breadcrumbs" data-template="pages:parse-params">
+                        <a href="${app}/index.html">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; <span id="articleId">Alfred Escher</span>
+                    </header>
+                    <main class="article">
+                        <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"/>
+                    </main>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div class="splash"/>
+    </body>
+</html>
