@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8"/>
-    <title data-template="config:app-title"/>
+    <title>Briefedition - Alfred Escher Briefedition</title>
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
     <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
     <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
@@ -12,22 +12,28 @@
     <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/solid.min.css" integrity="sha512-tk4nGrLxft4l30r9ETuejLU0a3d7LwMzj0eXjzc16JQj+5U1IeVoCuGLObRDc3+eQMUcEQY1RIDPGvuA7SNQ2w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="resources/css/theme.css"/>
     <link rel="stylesheet" href="resources/css/escher.css"/>
 
     <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <script src="resources/scripts/app/home.js"></script>
     <style>
         main {
             display: grid;
-            grid-template-columns: auto 1fr 1fr 2fr;
-            grid-template-rows: auto;
-            max-width: 1214px;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: auto auto;
+            gap: 10px 10px;
+            justify-content: space-evenly;
+            max-width: 980px;
+            height: 330px;
             margin: 32px auto 0 auto;
             font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
         }
 
         .row {   
-            grid-column: span 4;
+            grid-column: span 6;
             grid-row: 1;
         }       
 
@@ -44,42 +50,69 @@
 
         .orte {
             background-color: #c3ac8e;
+            max-height: 155px;
         }
 
         .personen {
             background-color:rgb(83, 175, 217);
+            max-height: 155px;
         }
        
-        .chronologie {
-            background-color: cadetblue;
-        }
-
         .briefe {
-            background-color: rgb(15, 128, 84);
+            grid-row: span 2;
+            background-color: rgb(182, 138, 145);
         }
 
-        .box iron-icon {
-            --iron-icon-height: 100px;
-            --iron-icon-width: 100px;
+        .quote {
+            background-color: rgb(237, 150, 56);
+            grid-row: span 2;
+            grid-column: span 2;
+        }
+
+        .quote i {
+            position: absolute;
+            top: 10px;
+        }
+
+        .bottom {
+            margin-top: 10px;
+        }
+
+        .quote .bottom {
+            position: absolute;
+            bottom: 10px;
+        }
+
+        .facsimile {
+            grid-row: span 2;
+            grid-column: span 2;
+            background-image: url(https://www.briefedition.alfred-escher.ch/media/upload/homepage/big/K_0086_1r_v1.jpg);
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-attachment: 0 0;
         }
 
         .box {
             display: block;
-            text-align: center;
-            margin: 10px;
+            position: relative;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .box i {
+            display: block;
+            font-size: 48px;
+            opacity: .5;
+            color: white;
         }
 
         .box h1 {
-            font-size: 1.2em;
+            font-size: 2em;
+            margin-bottom: 0;
         }
 
-        .double-tile {   
-            grid-row: span 2;
-        }
-
-        .double-tile img {
-            width: auto;
-            max-height: 400px;
+        .box div {
+            font-size: .9em;
         }
 
         .tp-title {
@@ -92,11 +125,10 @@
             line-height: 27px;
         }
 
-        .box a, .box a:link {
+        .homepage a, .homepage a:link {
+            display: block;
             text-decoration: none;
             color: white;
-            font-size: 22px;
-            font-weight: bold;
         }
     </style>
 </head>
@@ -114,32 +146,40 @@
                     </app-toolbar>
                 </pb-media-query>
             </app-header>
-            <main class="homepage">
+            <main class="homepage" data-template="app:counts">
                 
-                    <div id="wilkommen" class="row">
-                        <h1 class="tp-title">Herzlich willkommen bei der Alfred Escher-Briefedition</h1>
-                        <p class="teaser">Erleben Sie mit Alfred Escher die Schweiz im 19. Jahrhundert. Tauchen Sie ein in die faszinierende Welt der 
-                            Briefe und verfolgen Sie die einzigartige Agenda Alfred Eschers. Gewinnen Sie vielfältige Eindrücke von 
-                            Ereignissen und Phänomenen und lassen Sie sich von bisher unbekannten Zusammenhängen überraschen.</p>
-                    </div>
+                <div id="wilkommen" class="row">
+                    <h1 class="tp-title">Herzlich willkommen bei der Alfred Escher-Briefedition</h1>
+                    <p class="teaser">Erleben Sie mit Alfred Escher die Schweiz im 19. Jahrhundert. Tauchen Sie ein in die faszinierende Welt der 
+                        Briefe und verfolgen Sie die einzigartige Agenda Alfred Eschers. Gewinnen Sie vielfältige Eindrücke von 
+                        Ereignissen und Phänomenen und lassen Sie sich von bisher unbekannten Zusammenhängen überraschen.</p>
+                </div>
 
-                    <div class="double-tile">
-                        <img src="https://www.briefedition.alfred-escher.ch/media/gallery/person/Escher_vom_Glas_Alfred_04.jpg"/>
+                <a href="#" data-app="${app}" data-template="pages:parse-params" class="box quote">
+                    <i class="fas fa-quote-left"></i>
+                    <div class="bottom">
+                        <p></p>
+                        <div class="source"></div>
                     </div>
-                    <div class="box briefe" id="briefe">
-                        <a href="${app}/index.html" data-template="pages:parse-params"><iron-icon icon="mail"/><h1>Briefe</h1></a></div>
-                    <div class="box chronologie" id="chronologie">
-                        <a href="${app}/index.html" data-template="pages:parse-params"><iron-icon icon="schedule"/><h1>Ereignisse</h1></a></div>
-                    <div class="double-tile"> <img src="https://www.briefedition.alfred-escher.ch/media/upload/homepage/big/K_0086_1r_v1.jpg"/></div>
-                    
-                    <div class="box personen" id="personen">
-                        <a href="${app}/index.html" data-template="pages:parse-params"><iron-icon icon="perm-identity"/><h1>Personen</h1></a></div>
-                    <div class="box orte" id="orte">
-                        <a href="${app}/index.html" data-template="pages:parse-params"><iron-icon icon="language"/><h1>Orte</h1></a></div>
-                   
-
-                
-                
+                </a>
+                <a href="${app}/index.html" data-template="pages:parse-params" class="box briefe">
+                    <i class="fas fa-envelope"></i>
+                    <div class="bottom">
+                        <h1 data-template="pages:parse-params">${letters}</h1>
+                        <div>Briefe</div>
+                    </div>
+                </a>
+                <a href="${app}/index.html" data-template="pages:parse-params" class="box personen">
+                    <i class="fas fa-users"></i>
+                    <h1 data-template="pages:parse-params">${people}</h1>
+                    <div>Personen</div>
+                </a>
+                <div class="box facsimile"></div>
+                <a href="${app}/index.html" data-template="pages:parse-params" class="box orte">
+                    <i class="fas fa-globe-europe"></i>
+                    <h1 data-template="pages:parse-params">In Arbeit</h1>
+                    <div>Orte</div>
+                </a>
             </main>
             <footer>
                 <p class="contact-address"><a href="https://www.alfred-escher.ch/" target="_blank">Alfred Escher-Stiftung</a>, c/o Zentralbibliothek Zürich, Zähringerplatz 6, 8001 Zürich, Schweiz</p>
