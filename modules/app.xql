@@ -39,14 +39,20 @@ declare function app:view-bibliography($node as node(), $model as map(*)) {
         case "Websites" return "online"
         case "Archivbestande" return "archive"
         default return "escheriana"
-        
+
+    let $hits := 
+        switch ($category)
+            case "escheriana" return
+                collection($config:data-root || "/bibliography")//tei:bibl[@subtype="escheriana"]
+            default return 
+                collection($config:data-root || "/bibliography")/id($category)/tei:bibl
     
     let $matches := 
         switch($letter)
-            case "all" return 
-                collection($config:data-root || "/bibliography")/id($category)/tei:bibl
+            case "Alle" return 
+                $hits
             default return 
-                collection($config:data-root || "/bibliography")/id($category)/tei:bibl[starts-with(./tei:bibl, $letter)]
+                $hits[starts-with(./tei:bibl, $letter)]
 
 
     for $group in $matches
@@ -68,7 +74,7 @@ declare function app:view-bibliography($node as node(), $model as map(*)) {
 
 declare function app:initial-bibliography($node as node(), $model as map(*)) {
         let $type := if ($model?name) then $model?name else 'Archivbestande'
-        
+
         let $category := switch($type)
                 case "Escheriana" return "escheriana"
                 case "Ungedruckte-Quellen" return "unprinted_source"
@@ -101,7 +107,11 @@ declare function app:initial-bibliography($node as node(), $model as map(*)) {
                         return
                     <a href="{$i}" class="initial">{$i}</a>
                 }
-                <a href="all" class="initial"><pb-i18n key="label.all">All</pb-i18n></a>
+                {
+                    switch ($category) 
+                        case "escheriana" return ()
+                        default return <a href="Alle" class="initial"><pb-i18n key="label.all">All</pb-i18n></a>
+                }
             </div>
             
 };
