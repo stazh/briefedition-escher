@@ -175,13 +175,20 @@ declare function api:sort($people as element()*, $dir as xs:string) {
 };
 
 declare function api:person-mentions($node as node(), $model as map(*)) {
-    let $mentions := collection($config:data-root || "/letters")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
-    where count($mentions) > 0
+    let $letters := collection($config:data-root || "/letters")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
+    let $commentaries := collection($config:data-root || "/commentary")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
+    let $biographies := doc($config:data-root || "/people.xml")//tei:persName[@key=$model?key]/ancestor::tei:person[@xml:id != $model?key]
+
     return
-        <div>
-            <h3>Erwähnungen von {$model?label}</h3>
-            <h4><a href="../../index.html?facet-mentioned={$model?key}">In Briefen</a>: {count($mentions)}</h4>
-        </div>
+        if (count($letters) or count($commentaries) or count($biographies)) then
+            <div>
+                <h3>Erwähnungen von {$model?label}</h3>
+                <h4><a href="../../index.html?facet-mentioned={$model?key}">In Briefen</a>: {count($letters)}</h4>
+                <h4>In Überblickskommentaren: {count($commentaries)}</h4>
+                <h4>In Biographien: {count($biographies)}</h4>
+            </div>
+        else 
+            ()
 };
 
 declare function api:person-letters($node as node(), $model as map(*)) {
