@@ -120,6 +120,21 @@ a:link, a:visited {
     grid-row: 2;
 }
 
+.article {
+    --pb-view-max-width: 41.24rem;
+    position: relative;
+    margin: 0 20px;
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 1fr 41.24rem 1fr;
+    height: calc(100vh - 233px);
+}
+
+.article pb-view {
+    grid-column: 2;
+    font-size: 1.1em;
+}
+
 .content-body {
     --pb-view-max-width: 41.24rem;
     --pb-view-height: 100%;
