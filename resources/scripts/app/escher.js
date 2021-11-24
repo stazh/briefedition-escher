@@ -43,7 +43,11 @@ window.addEventListener('DOMContentLoaded', () => {
         // extract letter id
         const textElem = root.querySelector('.text');
         if (textElem) {
-            document.getElementById('letterId').innerHTML = textElem.dataset.letter;
+            if (textElem.dataset.letter) {
+                document.getElementById('letterId').innerHTML = textElem.dataset.letter;
+            } else {
+                document.getElementById('letterId').innerHTML = textElem.innerHTML;
+            }
         }
 
         const letterTitle = root.querySelector('.letter-title');

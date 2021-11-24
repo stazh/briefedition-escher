@@ -494,7 +494,6 @@
             border: 1px solid black; padding: 5px;
             </outputRendition>
         </model>
-                    <model predicate="parent::body or parent::front or parent::back" behaviour="section"/>
                     <model behaviour="block"/>
                 </elementSpec>
                 <elementSpec ident="text" mode="change">
@@ -512,7 +511,7 @@
             </model>
             <model behaviour="section">
                 <desc>Set regions variable for facsimiles and output section</desc>
-                <pb:set-param name="regions" value="let $id := root(.)/TEI/@xml:id return collection('/db/apps/escher/data/regions')/Q{}mappingtable/Q{}doc[@id=$id]"/>
+                <pb:set-param name="regions" value="for $id in root(.)/TEI/@xml:id return collection('/db/apps/escher/data/regions')/Q{}mappingtable/Q{}doc[@id=$id]"/>
             </model>
         </modelSequence>
                 </elementSpec>
@@ -555,7 +554,7 @@
         </model>
                 </elementSpec>
             <elementSpec ident="correspContext" mode="add">
-                    <model behaviour="block">
+                    <model behaviour="pass-through">
             <param name="nav-overall" value="(ref[@type='next'], ref[@type='previous'])"/>
             <param name="nav-corresp" value="(ref[@type='next-in-corresp'], ref[@type='previous-in-corresp'])"/>
             <pb:template xmlns="" xml:space="preserve"><nav>

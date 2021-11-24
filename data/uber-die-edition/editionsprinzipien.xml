@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="editionsprinzipien">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -18,7 +18,7 @@
    </teiHeader>
    <text>
       <body>
-         <div xml:id="editionsprinzipien">
+         <div>
             <head>Editionsprinzipien</head>
             <p>Die Editionsprinzipien betreffen die Basistranskription der Briefe. Über die
                verschiedenen Arten der Darstellungen der Transkription siehe auch «<ref
