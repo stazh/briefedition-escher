@@ -113,16 +113,16 @@
                 </elementSpec>
                 <elementSpec ident="p" mode="change">
                     <model predicate="$parameters?header='commentary'" behaviour="block" cssClass="paragraph" pb:mode="indent">
-                    <param name="content" value="."/>
-                    <param name="number" value="count(preceding::p)"/>
-                    <pb:template xmlns="" xml:space="preserve"><div><span class="number">[[number]]</span>[[content]]</div></pb:template>
-                </model>
-                <model predicate="$parameters?display='person-meta'" behaviour="paragraph"/>
-                <model predicate="@rend=&#34;right&#34;" behaviour="paragraph" cssClass="p-right"/>
-                <model predicate="@rend=&#34;left&#34;" behaviour="paragraph" cssClass="p-left"/>
-                <model predicate="@rend=&#34;indent&#34;" behaviour="paragraph" cssClass="p-indent"/>
-                <model behaviour="paragraph" useSourceRendition="true" cssClass="p-default"/>
-            </elementSpec>
+            <param name="content" value="."/>
+            <param name="number" value="count(preceding::p)"/>
+            <pb:template xmlns="" xml:space="preserve"><div><span class="number">[[number]]</span>[[content]]</div></pb:template>
+        </model>
+                    <model predicate="$parameters?display='person-meta'" behaviour="paragraph"/>
+                    <model predicate="@rend=&#34;right&#34;" behaviour="paragraph" cssClass="p-right"/>
+                    <model predicate="@rend=&#34;left&#34;" behaviour="paragraph" cssClass="p-left"/>
+                    <model predicate="@rend=&#34;indent&#34;" behaviour="paragraph" cssClass="p-indent"/>
+                    <model behaviour="paragraph" useSourceRendition="true" cssClass="p-default"/>
+                </elementSpec>
 
                 <elementSpec ident="keywords" mode="add">
                     <model predicate="$parameters?header='short'" behaviour="inline" cssClass="subheading">
@@ -549,8 +549,8 @@
                 </elementSpec>
             <elementSpec ident="correspContext" mode="add">
                     <model behaviour="pass-through">
-            <param name="nav-overall" value="(ref[@type='next'], ref[@type='previous'])"/>
-            <param name="nav-corresp" value="(ref[@type='next-in-corresp'], ref[@type='previous-in-corresp'])"/>
+            <param name="nav-overall" value="(ref[@type='previous'], ref[@type='next'])"/>
+            <param name="nav-corresp" value="(ref[@type='previous-in-corresp'], ref[@type='next-in-corresp'])"/>
             <pb:template xmlns="" xml:space="preserve"><nav>
   [[nav-overall]]
 </nav>
