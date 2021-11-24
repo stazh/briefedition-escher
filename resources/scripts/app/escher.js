@@ -55,6 +55,15 @@ window.addEventListener('DOMContentLoaded', () => {
             document.title = letterTitle.innerText;
         }
 
+        const footerLink = document.querySelector('.persistentLink');
+        if (footerLink) {
+            const breadcrumbs = document.querySelector('.breadcrumbs');
+            const appPath = breadcrumbs.dataset.path;
+            const plink = `https://briefedition.alfred-escher.ch/${appPath}/${textElem.dataset.letter}`;
+            footerLink.href = plink;
+            footerLink.innerHTML = plink;
+        }
+
         // reusable image element which will be positioned above the mouse position
         const regionImage = document.createElement('img');
         regionImage.style.display = 'block';

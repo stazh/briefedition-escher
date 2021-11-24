@@ -34,7 +34,7 @@
                         <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"></app-toolbar>
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"></app-toolbar>
                     </app-header>
-                    <header class="breadcrumbs" data-template="pages:parse-params">
+                    <header class="breadcrumbs" data-path="/kontexte/uberblickskommentare/" data-template="pages:parse-params">
                         <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; <a href="${app}/kontexte/uberblickskommentare/">Überblickskommentare</a> &gt; <span id="letterId"></span>
                     </header>
                     <main class="content-body">
@@ -56,6 +56,7 @@
                             <pb-param name="url" value="commentary"/>
                         </pb-view>
                     </main>
+                    <footer data-template="templates:include" data-template-path="templates/footer.html"/>
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>
