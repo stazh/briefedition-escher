@@ -280,6 +280,7 @@ declare function pages:pb-page($node as node(), $model as map(*)) {
     return
         element { node-name($node) } {
             $node/@*,
+            attribute language { "de" },
             attribute app-root { $config:context-path },
             attribute template { $model?template },
             attribute endpoint { $config:context-path },
