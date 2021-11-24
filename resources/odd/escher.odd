@@ -91,7 +91,7 @@
         </model>
                 </elementSpec>
                 <elementSpec ident="hi" mode="change">
-                    <model predicate="@rend=&#34;underline&#34;" behaviour="inline" cssClass="underline"/>
+                    <model predicate="@rend=&#34;underline&#34;" behaviour="inline" cssClass="underline tp-italic"/>
                     <model behaviour="inline"/>
                     <model predicate="@rend=&#34;sup&#34;" behaviour="inline" cssClass="sup"/>
                     <model predicate="@rendition" behaviour="inline" useSourceRendition="true">
@@ -109,26 +109,20 @@
                     <model behaviour="inline"/>
                 </elementSpec>
                 <elementSpec ident="lb" mode="change">
-                    <model behaviour="line-break" cssClass="line" useSourceRendition="true"/>
+                    <model behaviour="line-break" cssClass="tp-linebreak"/>
                 </elementSpec>
                 <elementSpec ident="p" mode="change">
                     <model predicate="$parameters?header='commentary'" behaviour="block" cssClass="paragraph" pb:mode="indent">
-            <param name="content" value="."/>
-            <param name="number" value="count(preceding::p)"/>
-            <pb:template xmlns="" xml:space="preserve"><div><span class="number">[[number]]</span>[[content]]</div></pb:template>
-        </model>
-                    <model predicate="$parameters?display='person-meta'" behaviour="paragraph"/>
-                    <model predicate="@rend=&#34;right&#34;" behaviour="paragraph">
-            <outputRendition xml:space="preserve">
-            text-align: right;
-            </outputRendition>
-        </model>
-                    <model behaviour="paragraph" cssClass="indent" useSourceRendition="true">
-            <outputRendition xml:space="preserve">
-            text-align: justify;
-            </outputRendition>
-        </model>
-                </elementSpec>
+                    <param name="content" value="."/>
+                    <param name="number" value="count(preceding::p)"/>
+                    <pb:template xmlns="" xml:space="preserve"><div><span class="number">[[number]]</span>[[content]]</div></pb:template>
+                </model>
+                <model predicate="$parameters?display='person-meta'" behaviour="paragraph"/>
+                <model predicate="@rend=&#34;right&#34;" behaviour="paragraph" cssClass="p-right"/>
+                <model predicate="@rend=&#34;left&#34;" behaviour="paragraph" cssClass="p-left"/>
+                <model predicate="@rend=&#34;indent&#34;" behaviour="paragraph" cssClass="p-indent"/>
+                <model behaviour="paragraph" useSourceRendition="true" cssClass="p-default"/>
+            </elementSpec>
 
                 <elementSpec ident="keywords" mode="add">
                     <model predicate="$parameters?header='short'" behaviour="inline" cssClass="subheading">
