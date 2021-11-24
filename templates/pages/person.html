@@ -49,7 +49,7 @@
     </head>
 
     <body>
-        <pb-page data-template="pages:pb-page" unresolved="unresolved">
+        <pb-page data-template="pages:pb-page" unresolved="unresolved" locales="resources/i18n/{{ns}}/{{lng}}.json">
             <pb-document id="document1" data-template="pages:pb-document"/>
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
@@ -68,8 +68,8 @@
                                 data-template="pages:parse-params">
                                 <pb-param name="display" value="person-meta"/>
                             </pb-view>
-                            <div data-template="custom:person-letters"></div>
                             <div data-template="custom:person-mentions"></div>
+                            <div data-template="custom:person-letters"></div>
                         </section>
                     </main>
                 </app-header-layout>

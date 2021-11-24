@@ -195,12 +195,39 @@ declare function api:person-letters($node as node(), $model as map(*)) {
     let $mentions := collection($config:data-root || "/letters")//tei:text[ft:query(., 'correspondent:"'||$model?key||'"')]
     return
         if (count($mentions) ) then
+            let $titles := doc($config:data-root || "/titles.xml")
+
+            return
             <div>
                 <h3><a href="../../index.html?facet-correspondent={$model?key}">Briefe von und an {$model?label}</a>: {count($mentions)}</h3>
+
+                {
+                    if (count($mentions) < 15) then 
+                        <ul>
+                            {api:letter-list($mentions, $titles)}
+                        </ul>
+                    else
+                        <ul>
+                            {api:letter-list(subsequence($mentions, 1, 15), $titles)}
+                            <li><a href="../../index.html?facet-correspondent={$model?key}">... &gt; <pb-i18n key="label.all"/></a></li>
+                        </ul>
+                }
             </div>
         else
             ()
 };
+
+declare function api:letter-list($list, $titles) {
+    for $doc in $list
+        let $id := $doc/ancestor::tei:TEI/@xml:id
+    return
+        <li>
+            <a href="../../briefe/B{substring($id, 3)}">
+                {$titles/id($id)/string()}
+            </a>
+        </li>
+};
+
 
 (:~
  : Keep this. This function does the actual lookup in the imported modules.
