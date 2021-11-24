@@ -55,12 +55,6 @@
                 margin-top: 12px;
             }
             
-            pb-results {
-                overflow: scroll;
-                margin: 0 20px;
-                height: calc(100vh - 128px);
-            }
-            
             @media (min-width: 1024px) {
                 .toolbar {
                     display: none;
@@ -76,34 +70,11 @@
             }
             
             .panels {
-                height: calc(100vh - 190px);
+                height: calc(100vh - 198px);
             }
             
             #document-list, #facets {
                 overflow: auto;
-            }
-
-            .panels .doclist {
-                --paper-tabs-selection-bar-color: #607D8B;
-                --paper-tab-content: {
-                    font-family: "Oswald", Verdana, "Helvetica", sans-serif;
-                    font-weight: 400;
-                }
-                ;
-                --paper-card-header: {
-                    background-color: #d1dae0;
-                }
-                ;
-                --paper-card-header-text: {
-                    font-family: "Oswald", Verdana, "Helvetica", sans-serif;
-                    font-size: 16px;
-                    font-weight: 400;
-                }
-                ;
-            }
-            
-            .panels .doclist .card-content {
-                padding: 0;
             }
             
             .panels .doclist .browse {
@@ -276,10 +247,7 @@
                         </pb-browse-docs>
                     </section>
                 </main>
-                <footer class="version">
-                    App: v<span data-template="pages:version"/> /
-                    web components: v<pb-version/>
-                </footer>
+                <footer data-template="templates:include" data-template-path="templates/footer.html"/>
             </app-header-layout>
         </app-drawer-layout>
         <paper-dialog id="downloadDialog">

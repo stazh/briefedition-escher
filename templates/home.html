@@ -35,17 +35,6 @@
         .row {   
             grid-column: span 6;
             grid-row: 1;
-        }       
-
-        footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            color: #424242;
-            background-color: #f1f1f1;
-            padding: 12px 16px;
-            font-size: 16px;
         }
 
         .orte {
@@ -112,7 +101,7 @@
         }
 
         .box div {
-            font-size: .9em;
+            font-size: var(--pb-font-size-small);
         }
 
         .tp-title {
@@ -181,12 +170,7 @@
                     <div>Orte</div>
                 </a>
             </main>
-            <footer>
-                <p class="contact-address"><a href="https://www.alfred-escher.ch/" target="_blank">Alfred Escher-Stiftung</a>, c/o Zentralbibliothek Zürich, Zähringerplatz 6, 8001 Zürich, Schweiz</p>
-                <p>Zitiervorschlag: Jung Joseph (Hrsg.), Digitale Briefedition Alfred Escher, Launch Juli 2015 (laufend aktualisiert), Zürich: Alfred Escher-Stiftung.
-                        <a href="https://briefedition.alfred-escher.ch/" title="Briefedition Alfred Escher">https://briefedition.alfred-escher.ch/</a>
-                </p>
-            </footer>
+            <footer data-template="templates:include" data-template-path="templates/footer.html"/>
         </app-header-layout>
     </pb-page>
     <div class="splash"/>

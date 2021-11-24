@@ -36,6 +36,7 @@ body {
     --pb-heading-font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
     --pb-content-font-family: var(--pb-base-font-family);
     --pb-content-font-size: 16px;
+    --pb-font-size-small: 12px;
     --pb-view-height: auto;
     --pb-link-color: #2474C2;
     --pb-color-focus: #FFA500;
@@ -58,6 +59,25 @@ a:link, a:visited {
     .toolbar pb-navigation {
         display: none;
     }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 8px 12px;
+    color: #424242;
+    background-color: #f1f1f1;
+}
+
+footer p {
+    margin: 0;
+    font-size: var(--pb-font-size-small);
+}
+
+.breadcrumbs {
+    margin-top: 7px;
 }
 
 .letter {
@@ -147,7 +167,7 @@ a:link, a:visited {
 }
 
 .content-body #register {
-    font-size: .9em;
+    font-size: var(--pb-font-size-small);
     overflow: auto;
 }
 
@@ -218,7 +238,7 @@ pb-facsimile {
 }
 
 .document-info .subheading {
-    font-size: 0.8em;
+    font-size: var(--pb-font-size-small);
 }
 
 .document-info .term ~ .term::before {
