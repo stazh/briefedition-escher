@@ -98,6 +98,12 @@ declare variable $config:pagination-fill := 5;
  :)
 declare variable $config:facets := [
     map {
+        "dimension": "keyword",
+        "heading": "facets.keyword",
+        "max": 5,
+        "hierarchical": false()
+    },
+    map {
         "dimension": "correspondent",
         "heading": "facets.correspondent",
         "max": 5,
@@ -110,34 +116,16 @@ declare variable $config:facets := [
         "hierarchical": false()
     },
     map {
-        "dimension": "sender",
-        "heading": "facets.sender",
-        "max": 5,
-        "hierarchical": false()
-    },
-    map {
-        "dimension": "addressee",
-        "heading": "facets.addressee",
-        "max": 5,
-        "hierarchical": false()
-    },
-    map {
         "dimension": "place",
         "heading": "facets.place",
         "max": 5,
         "hierarchical": true()
     },
     map {
-        "dimension": "keyword",
-        "heading": "facets.keyword",
+        "dimension": "place-mentioned",
+        "heading": "facets.place-mentioned",
         "max": 5,
-        "hierarchical": false()
-    },
-    map {
-        "dimension": "type",
-        "heading": "facets.type",
-        "max": 5,
-        "hierarchical": false()
+        "hierarchical": true()
     },
     map {
         "dimension": "provenience",
@@ -146,19 +134,10 @@ declare variable $config:facets := [
         "hierarchical": false()
     },
     map {
-        "dimension": "language",
-        "heading": "facets.language",
+        "dimension": "type",
+        "heading": "facets.type",
         "max": 5,
-        "hierarchical": false(),
-        "output": function($label) {
-            switch($label)
-                case "de" return "German"
-                case "es" return "Spanish"
-                case "la" return "Latin"
-                case "fr" return "French"
-                case "en" return "English"
-                default return $label
-        }
+        "hierarchical": false()
     }
 ];
 
