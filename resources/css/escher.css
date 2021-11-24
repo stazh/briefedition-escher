@@ -84,42 +84,42 @@ footer p {
     --pb-view-max-width: 41.24rem;
     position: relative;
     margin: 0 20px;
-    padding-bottom: 20px;
     display: grid;
     column-gap: 40px;
     grid-template-columns: 1fr minmax(360px, 45vw);
-    height: calc(100vh - 233px);
 }
 
 .letter.toggle {
     height: auto;
     margin: auto;
     grid-template-columns: 1fr minmax(auto, 320px);
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto;
     max-width: calc(var(--pb-view-max-width) + 360px);
 }
 
 .letter #reference-view1 {
-    grid-row: 1;
-    grid-column: 1 / 2;
     max-width: inherit;
     margin: 0;
 }
 
-.letter.toggle #reference-view1 {
-    grid-row: 1;
-    grid-column: 1 / 3;
+.transcript {
+    overflow: auto;
+    justify-self: center;
+    height: calc(100vh - 270px);
+    padding-bottom: 60px;
 }
 
-.letter #view1 {
-    grid-row: 2;
+.letter .transcript {
     grid-column: 1;
     margin: 0;
-    overflow: auto;
 }
 
 .letter #register {
+    grid-column: 2;
     width: 100%;
+    height: calc(100vh - 270px);
+    overflow: auto;
+    padding-bottom: 60px;
 }
 
 .letter pb-facsimile {
@@ -137,8 +137,6 @@ footer p {
 
 .letter.toggle #register {
     display: block;
-    grid-column: 2 / 3;
-    grid-row: 2;
 }
 
 .article {
@@ -170,17 +168,14 @@ footer p {
 .content-body #register {
     font-size: var(--pb-font-size-small);
     overflow: auto;
+    height: calc(100vh - 270px);
+    overflow: auto;
+    padding-bottom: 60px;
 }
 
 .content-body #subsections {
     margin-top: 1em;
     margin-bottom: 2em;
-}
-
-.transcript {
-    height: 100%;
-    overflow: auto;
-    justify-self: center;
 }
 
 .content-body #transcription {
