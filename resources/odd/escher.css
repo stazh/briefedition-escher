@@ -38,10 +38,6 @@ br.toggle {
     display: none;
 }
 
-.indent {
-    text-indent: 20px;
-}
-
 .subheading {
     font-size: 0.8em;
 }
@@ -59,7 +55,6 @@ br.toggle {
     font-weight: 600;
     color: var(--pb-link-color);
 }
-
 
 .subsection {
     margin-block-start: 0.2em;
@@ -162,4 +157,47 @@ nav .next {
 .pb {
     display: inline;
     color: var(--pb-color-focus);
+}
+
+.p-right { text-align: right;  text-indent: -1.6em;}
+.p-right.toggle { text-indent: unset;}
+.p-left { text-align: left; }
+.p-left.toggle { text-indent: 1.6em; }
+.p-indent.toggle { text-indent: 1.6em; }
+.p-default.center { text-align: center; }
+.p-default.left { text-align: left; }
+
+.highlight-line,
+.highlight-line:hover,
+.tp-linebreak {
+    cursor: pointer;
+}
+
+p:not(.toggle) span.line {
+    display: block;
+}
+
+p.toggle .line.toggle {
+    display: inline;
+}
+
+.p-indent span.line:first-child {
+    text-indent: 1.6em;
+}
+
+br {
+    display: none;
+}
+
+.underline:not(.toggle) {
+    text-decoration: underline;
+}
+
+.toggle {
+    font-style: unset;
+    text-decoration: none;
+}
+
+.toggle.tp-italic {
+    font-style: italic;
 }
