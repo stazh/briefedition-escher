@@ -10,6 +10,7 @@
                 <field name="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
                 <field name="addressee" expression="nav:get-metadata(ancestor::tei:TEI, 'addressee')"/>
                 <field name="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
+                <field name="place-mentioned" expression="nav:get-metadata(ancestor::tei:TEI, 'place-mentioned')"/>
 
                 <field name="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
 
@@ -18,29 +19,22 @@
                 <field name="provenience" expression="nav:get-metadata(ancestor::tei:TEI, 'provenience')"/>
                 <field name="correspondent" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondent')"/>
                 <field name="mentioned" expression="nav:get-metadata(ancestor::tei:TEI, 'mentioned')"/>
-
-                <field name="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
                 <field name="corpus" expression="'escher'"/>
-
                 <field name="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')" type="xs:date"/>
                 <field name="file" expression="util:document-name(.)"/>
-                <facet dimension="genre" expression="nav:get-metadata(ancestor::tei:TEI, 'genre')" hierarchical="yes"/>
-                <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
+
                 <facet dimension="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
                 <facet dimension="author" expression="nav:get-metadata(ancestor::tei:TEI, 'author')"/>
                 <facet dimension="correspondent" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondent')"/>
                 <facet dimension="mentioned" expression="nav:get-metadata(ancestor::tei:TEI, 'mentioned')"/>
                 <facet dimension="addressee" expression="nav:get-metadata(ancestor::tei:TEI, 'addressee')"/>
                 <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
-
+                <facet dimension="place-mentioned" expression="nav:get-metadata(ancestor::tei:TEI, 'place-mentioned')"/>
+                <facet dimension="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
                 <facet dimension="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
                 <facet dimension="number" expression="nav:get-metadata(ancestor::tei:TEI, 'number')"/>
                 <facet dimension="provenience" expression="nav:get-metadata(ancestor::tei:TEI, 'provenience')"/>
-
                 <facet dimension="corpus" expression="'escher'"/>
-
-                <facet dimension="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
-
             </text>
             <text qname="tei:div">
                 <ignore qname="tei:div"/>

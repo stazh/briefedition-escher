@@ -56,6 +56,8 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "place" return (
                 $header//tei:correspDesc/tei:correspAction/tei:placeName
             )
+            case "place-mentioned" return 
+                $root//tei:text//tei:placeName/@key
             case "keyword" return
                 $header//tei:profileDesc//tei:keywords//tei:term
             case "notAfter" return
