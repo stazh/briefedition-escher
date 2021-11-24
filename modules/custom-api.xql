@@ -101,6 +101,17 @@ declare function api:view-letter($request as map(*)) {
         templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
 };
 
+declare function api:view-article($request as map(*)) {
+    let $id := xmldb:decode($request?parameters?id)
+    let $template := doc($config:app-root || "/templates/pages/article.html")
+    let $model := map {
+        "doc": $id || '.xml',
+        "template": "article"
+    }
+    return
+        templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
+};
+
 declare function api:people($request as map(*)) {
     let $search := $request?parameters?search
     let $view := $request?parameters?view

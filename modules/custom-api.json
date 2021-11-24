@@ -272,6 +272,59 @@
 				}
 			}
         },
+        "/kontexte/{id}": {
+            "get": {
+				"summary": "Retrieve the HTML template used for displaying an article",
+				"tags": ["view"],
+				"operationId": "custom:view-article",
+				"x-error-handler": "vapi:handle-error",
+				"parameters": [
+					{
+						"name": "id",
+						"in": "path",
+						"description": "Relative path to the document",
+						"required": true,
+						"schema": {
+							"type": "string",
+							"default": "alfred-escher"
+						},
+						"allowReserved": true
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "HTML view for the document",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "The document was not found",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"500": {
+						"description": "An error occurred",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+        },
         "/api/bibliography/{name}/{letter}": {
             "get": {
 				"summary": "Retrieve the HTML template used for displaying person metadata",
