@@ -95,13 +95,13 @@ declare function app:initial-bibliography($node as node(), $model as map(*)) {
         return 
 
             <div>
-                <h1>Bibliographie: {$type}</h1>
+                <h1>Bibliographie: <pb-i18n key="label.{$category}">{$type}</pb-i18n></h1>
                 {
                     for $i in $initials[.=$letters]
                         return
                     <a href="{$i}" class="initial">{$i}</a>
                 }
-                <a href="all" class="initial">all</a>
+                <a href="all" class="initial"><pb-i18n key="label.all">All</pb-i18n></a>
             </div>
             
 };
