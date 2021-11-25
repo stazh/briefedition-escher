@@ -583,6 +583,19 @@
                 <elementSpec ident="metamark" mode="add">
                     <model behaviour="inline" cssClass="metamark"/>
                 </elementSpec>
+                <elementSpec ident="graphic" mode="change">
+                    <model behaviour="graphic">
+                        <param name="url" value="'../resources/images/person/' || @url"/>
+                        <param name="width" value="@width"/>
+                        <param name="height" value="@height"/>
+                        <param name="scale" value="@scale"/>
+                        <param name="title" value="desc"/>
+                        <outputRendition xml:space="preserve">
+                            float: right; 
+                            margin-left: 20px;
+                        </outputRendition>
+                    </model>
+                </elementSpec>
             </schemaSpec>
         </body>
     </text>
