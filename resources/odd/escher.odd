@@ -425,7 +425,7 @@
                 <param name="level" value="2"/>
             </model>
             <model behaviour="block">
-                <param name="content" value="(note[@type='bio']/node(), bibl)"/>
+                <param name="content" value="(figure/graphic[1], note[@type='bio']/node(), bibl)"/>
             </model>
         </modelSequence>
                 </elementSpec>
@@ -575,6 +575,19 @@
             text-decoration: line-through;
             </outputRendition>
         </model>
+                </elementSpec>
+            <elementSpec ident="graphic" mode="change">
+                <model behaviour="graphic">
+                    <param name="url" value="'../resources/images/person/' || @url"/>
+                    <param name="width" value="@width"/>
+                    <param name="height" value="@height"/>
+                    <param name="scale" value="@scale"/>
+                    <param name="title" value="desc"/>
+                    <outputRendition xml:space="preserve">
+                        float: right; 
+                        margin-left: 20px;
+                    </outputRendition>
+                </model>
                 </elementSpec>
             </schemaSpec>
         </body>
