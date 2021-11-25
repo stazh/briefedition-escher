@@ -9,7 +9,7 @@
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
 
-        <title data-template="config:app-title"/>
+        <title>Alfred Escher Briefedition</title>
         <meta name="description" content="Escher commentary"/>
         <meta name="pb-template" content="commentary.html"/>
 
@@ -21,18 +21,14 @@
         <link rel="stylesheet" href="resources/css/escher-theme.css"/>
 
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
-        <script src="resources/scripts/app/escher.js"></script>
         <style>
-            section {
-                max-width: 1014px;
+            .content-body {
+                grid-template-columns: 1fr;
             }
-
-            main {
-                position: relative;
-                display: grid;
-                height: var(--pb-view-height);
+            .transcript {
+                height: auto;
+                overflow: initial;
             }
-
             .transcript a {
                 color: #2474C2;
                 text-decoration: none;
@@ -48,9 +44,10 @@
     <body>
         <pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription">
             <app-drawer-layout force-narrow="force-narrow">
-                <app-header-layout>
+                <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
+                <app-header-layout data-template="app:abbreviations-link">
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
-                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"></app-toolbar>
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
                             <paper-button data-target="toolbar-start">
                                 <a href="${app}/kontexte/abkurzungen/Quellen/A" data-template="pages:parse-params">Abkürzungen aus den Quellen</a>        
@@ -60,15 +57,19 @@
                             </paper-button>
                         </app-toolbar>
                     </app-header>
-                    <main>
+                    <header class="breadcrumbs" data-path="kontexte/uberblickskommentare/" data-template="pages:parse-params">
+                        <a href="${app}/home.html">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; Abkürzungen
+                    </header>
+                    <main class="content-body">
                         <section class="transcript">
                             <div>
-                                <h1>Abkurzungen</h1>
+                                <h1>Abkürzungen</h1>
                             </div>
                             <div data-template="app:initial-abbreviations"/>
                             <div data-template="app:view-abbreviations"/>
                         </section>
                     </main>
+                    <footer data-template="templates:include" data-template-path="templates/footer.html"/>
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>

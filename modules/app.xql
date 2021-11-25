@@ -113,6 +113,17 @@ declare function app:initial-bibliography($node as node(), $model as map(*)) {
             
 };
 
+declare 
+    %templates:wrap
+function app:abbreviations-link($node as node(), $model as map(*)) {
+    let $type := if ($model?name) then $model?name else 'Quellen'
+    let $letter := if ($model?letter) then $model?letter else 'A'
+    return
+        map {
+            "uri": "kontexte/abkurzungen/" || $type || "/" || $letter
+        }
+};
+
 declare function app:initial-abbreviations($node as node(), $model as map(*)) {
         let $type := if ($model?name) then $model?name else 'Quellen'
         let $type := 
