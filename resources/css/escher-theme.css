@@ -34,6 +34,7 @@ body {
     --pb-base-font-weight: 400;
     --pb-base-line-height: 1.8;
     --pb-heading-font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
+    --pb-heading-line-height: 1.8;
     --pb-content-font-family: var(--pb-base-font-family);
     --pb-content-font-size: 16px;
     --pb-font-size-small: 12px;
@@ -166,7 +167,6 @@ footer p {
 }
 
 .content-body #register {
-    font-size: var(--pb-font-size-small);
     overflow: auto;
     height: calc(100vh - 270px);
     overflow: auto;
