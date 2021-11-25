@@ -40,6 +40,28 @@ window.addEventListener('DOMContentLoaded', () => {
     pbEvents.subscribe('pb-update', 'transcription', (ev) => { 
         root = ev.detail.root;
 
+        const corresp = root.querySelector('nav.corresp');
+        if (corresp) {
+            ['prev', 'next', 'prev-in-edition', 'next-in-edition'].forEach((type) => {
+                const pbLink = document.getElementById(type);
+                const span = corresp.querySelector(`.${type}`);
+                if (span && pbLink) {
+                    pbLink.style.display = '';
+                    const path = span.dataset.path;
+                    console.log("setting link: %s: %s", type, path);
+                    if (pbLink) {
+                        pbLink.path = path;
+                    }
+                } else if (pbLink) {
+                    pbLink.style.display = 'none';
+                }
+            });
+        }
+        const correspTitle = root.querySelector('.correspondence');
+        if (correspTitle) {
+            document.getElementById('correspondence').innerHTML = correspTitle.innerHTML;
+        }
+
         // extract letter id
         const textElem = root.querySelector('.text');
         if (textElem) {
