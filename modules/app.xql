@@ -137,6 +137,17 @@ declare function app:initial-bibliography($node as node(), $model as map(*)) {
 
 declare 
     %templates:wrap
+function app:bibliography-link($node as node(), $model as map(*)) {
+    let $type := if ($model?name) then $model?name else 'Escheriana'
+    let $letter := if ($model?letter) then $model?letter else if ($type = 'Escheriana') then 'Alle' else 'A'
+    return
+        map {
+            "uri": "kontexte/bibliographie/" || $type || "/" || $letter
+        }
+};
+
+declare 
+    %templates:wrap
 function app:abbreviations-link($node as node(), $model as map(*)) {
     let $type := if ($model?name) then $model?name else 'Quellen'
     let $letter := if ($model?letter) then $model?letter else 'A'
