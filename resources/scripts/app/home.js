@@ -66,11 +66,64 @@ const data = [
     }
 ];
 
+images = [
+    "K_0026_1r_v1.jpg",
+    "K_0026_1r_v1_Dm3RR2q.jpg",
+    "K_0026_1r_v1_bihFssI.jpg",
+    "K_0026_1r_v1_v97gq8t.jpg",
+    "K_0086_1r_hmff97z.jpg",
+    "K_0086_1r_v1.jpg",
+    "K_0097_1r_v1.jpg",
+    "K_0195_1r.jpg",
+    "K_0261_1r_v1_OHfnEvo.jpg",
+    "K_0261_1r_v1_g05aHMH.jpg",
+    "K_0261_1r_v1_g7dI54a.jpg",
+    "K_0261_1r_v1_scPLCzK.jpg",
+    "K_0265_1r_v1.jpg",
+    "K_0265_1r_v1_ATP91Lh.jpg",
+    "K_0265_1r_v1_zR3AE0v.jpg",
+    "K_0467_1r_v1.jpg",
+    "K_1044_1r_v1.jpg",
+    "K_1057_1_v1.jpg",
+    "K_1230_2r_ZAavaTO.jpg",
+    "K_1230_2r_v1.jpg",
+    "K_1434_1r_v1.jpg",
+    "K_1434_1r_v1_UvHr4PE.jpg",
+    "K_1461_2r_v1.jpg",
+    "K_2012_1r_v1.jpg",
+    "K_2012_1r_v1_s4uKRI5.jpg",
+    "K_2039_1r_v1.jpg",
+    "K_2039_1r_v1_qA5NGpN.jpg",
+    "K_2039_1r_v2.jpg",
+    "K_2088_1r_v1.jpg",
+    "K_2115_2r_v1.jpg",
+    "K_2132_1r_v1.jpg",
+    "K_2240_2v_v1.jpg",
+    "K_2855_1r_v1.jpg",
+    "K_2855_1r_v2.jpg",
+    "K_3328_1r_v1.jpg",
+    "K_4632_7_v1.jpg",
+    "K_4781_1r_v1.jpg",
+    "K_5872_1v_v1.jpg",
+    "K_7355_1r_v1.jpg",
+    "K_7355_1r_v1_55xkByP.jpg",
+    "K_7906_03r_v1.jpg"
+];
+
 window.addEventListener('DOMContentLoaded', () => {
 
+    const facsimile = document.querySelector('.facsimile');
+    const container = document.querySelector('.quote');
+    const appRoot = container.dataset.app;
+
+    function randomImage() {
+        const next = Math.floor(Math.random() * images.length);
+        facsimile.style.backgroundImage = `url(resources/images/home/${images[next]})`;
+        const id = images[next].replace(/^K_(\d+)_.*$/, 'B$1');
+        facsimile.href = `${appRoot}/briefe/${id}?view1=1`;
+    }
+
     function randomQuote() {
-        const container = document.querySelector('.quote');
-        const appRoot = container.dataset.app;
         const bottom = document.querySelector('.bottom');
 
         const text = container.querySelector('p');
@@ -81,6 +134,8 @@ window.addEventListener('DOMContentLoaded', () => {
         container.href = `${appRoot}/briefe/${data[next].letter}`;
     }
 
+    randomImage();
     randomQuote();
     setInterval(randomQuote, 5000);
+    setInterval(randomImage, 4000);
 });
