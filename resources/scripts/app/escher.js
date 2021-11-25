@@ -48,7 +48,6 @@ window.addEventListener('DOMContentLoaded', () => {
                 if (span && pbLink) {
                     pbLink.style.display = '';
                     const path = span.dataset.path;
-                    console.log("setting link: %s: %s", type, path);
                     if (pbLink) {
                         pbLink.path = path;
                     }

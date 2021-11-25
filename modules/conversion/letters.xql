@@ -243,7 +243,10 @@ declare function conv:body($nodes as node()*) {
                 else
                     <placeName key="{$node/@norm}">{conv:body($node/node())}</placeName>
             case element(com) return
-                <note type="com" xml:id="{$node/@id}">{conv:body($node/node())}</note>
+                if ($node/@type = 'addendum') then
+                    <note type="addendum" xml:id="{$node/@id}">{conv:body($node/node())}</note>
+                else
+                    <note xml:id="{$node/@id}">{conv:body($node/node())}</note>
             case element(abbr) return
                 <choice><abbr>{conv:body($node/node())}</abbr><expan>{$node/@norm/string()}</expan></choice>
             case element(d) return
