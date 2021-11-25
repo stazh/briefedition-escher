@@ -60,14 +60,10 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 $root//tei:text//tei:placeName/@key
             case "keyword" return
                 $header//tei:profileDesc//tei:keywords//tei:term
-            case "notAfter" return
-                idx:get-notAfter($header//tei:correspDesc//tei:date)
-            case "notAfter" return
-                idx:get-notBefore($header//tei:correspDesc//tei:date)
             case "language" return
                 head(($root/@xml:lang, 'de'))
             case "date" return
-                idx:normalize-date(($header//tei:correspDesc//tei:date)[1]/@when)
+                ($header//tei:correspDesc//tei:date)[last()]/@when/xs:date(.)
             case "genre" return (
                 idx:get-genre($header),
                 $root/dbk:info/dbk:keywordset[@vocab="#genre"]/dbk:keyword,
@@ -98,27 +94,4 @@ declare function idx:get-genre($header as element()?) {
     let $category := id(substring($target, 2), doc($idx:app-root || "/data/taxonomy.xml"))
     return
         $category/ancestor-or-self::tei:category[parent::tei:category]/tei:catDesc
-};
-
-declare function idx:normalize-date($when as xs:string?) {
-    if ($when) then
-        try {
-            (: '2001-12-03' :)
-            if (matches($when, "^\d{4}-\d{2}-\d{2}$")) then
-                xs:date($when)
-            (: 2001-05 :)
-            else if (matches($when, "^\d{4}-\d{2}$")) then
-                xs:date($when ||"-01")
-            (: 2001 :)
-            else if (matches($when, "^\d{4}$")) then
-                xs:date($when || "-01-01")
-            (: '09-10' :)
-            else if (matches($when, "^\d{2}-\d{2}$")) then
-                xs:date('1000-' || $when)
-            else ()
-        } catch * {
-            ()
-        }
-    else
-        ()
 };
