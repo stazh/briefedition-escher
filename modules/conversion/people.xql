@@ -5,7 +5,7 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 
 declare function conv:main() {
     let $records :=
-        for $person in collection("/db/apps/people")/biography
+        for $person in collection("/db/apps/escher/data/persons/persons")/biography
         return
             conv:person($person)
     let $output :=
@@ -63,6 +63,7 @@ declare function conv:person($person as element(biography)) {
                 }
             </persName>
             { conv:date($meta/age) }
+            { conv:portraits($meta//portraits)}
             { 
                 if ($person/body/*) then
                     <note type="bio">
@@ -96,6 +97,21 @@ declare function conv:date($age) {
         element { xs:QName($elems[$pos]) } {
             $part
         }
+};
+
+declare function conv:portraits($portraits) {
+    if (count($portraits/portrait)) then 
+        <figure>
+            { for $p in $portraits/portrait
+                return
+                    <graphic url="{$p/url/string()}">
+                        <desc>{$p/description/string()}</desc>
+                        <desc type="source">{$p/source/string()}</desc>
+                    </graphic>     
+            }         
+        </figure>
+    else
+        () 
 };
 
 declare function conv:body($nodes as node()*) {
