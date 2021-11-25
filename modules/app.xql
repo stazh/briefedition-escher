@@ -71,6 +71,7 @@ declare function app:view-bibliography($node as node(), $model as map(*)) {
 
 declare function app:initial-bibliography($node as node(), $model as map(*)) {
         let $type := if ($model?name) then $model?name else 'Archivbestande'
+        let $letter := if ($model?letter) then $model?letter else 'A'
 
         let $category := switch($type)
                 case "Escheriana" return "escheriana"
@@ -101,8 +102,9 @@ declare function app:initial-bibliography($node as node(), $model as map(*)) {
                 <h1>Bibliographie: <pb-i18n key="label.{$category}">{$type}</pb-i18n></h1>
                 {
                     for $i in $initials[.=$letters]
+                        let $class := "initial" || (if ($i = $letter) then " active" else "")
                         return
-                    <a href="{$i}" class="initial">{$i}</a>
+                    <a href="{$i}" class="{$class}">{$i}</a>
                 }
                 {
                     switch ($category) 
