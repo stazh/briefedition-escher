@@ -180,14 +180,48 @@ declare function api:person-mentions($node as node(), $model as map(*)) {
     let $letters := collection($config:data-root || "/letters")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
     let $commentaries := collection($config:data-root || "/commentary")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
     let $biographies := doc($config:data-root || "/people.xml")//tei:persName[@key=$model?key]/ancestor::tei:person[@xml:id != $model?key]
+            let $titles := doc($config:data-root || "/titles.xml")
 
     return
         if (count($letters) or count($commentaries) or count($biographies)) then
             <div>
                 <h3>Erwähnungen von {$model?label}</h3>
-                <h4><a href="../../index.html?facet-mentioned={$model?key}">In Briefen</a>: {count($letters)}</h4>
-                <h4>In Überblickskommentaren: {count($commentaries)}</h4>
-                <h4>In Biographien: {count($biographies)}</h4>
+                <pb-collapse>
+                    <div slot="collapse-trigger">
+                        <h4><a href="../../index.html?facet-mentioned={$model?key}">In Briefen</a>: {count($letters)}</h4>
+                    </div>
+                    <div slot="collapse-content">
+                        <ul>
+                           {api:letter-list($letters, $titles)}
+                        </ul>
+                    </div>
+                </pb-collapse>
+
+                <pb-collapse>
+                    <div slot="collapse-trigger">
+                        <h4>In Überblickskommentaren: {count($commentaries)}</h4>
+                    </div>
+                    <div slot="collapse-content">
+                        <ul>
+                            {api:commentary-list($commentaries, $titles)}
+                        </ul>
+                    </div>
+                </pb-collapse>
+                
+                <pb-collapse>
+                    <div slot="collapse-trigger">
+                       <h4>In Biographien: {count($biographies)}</h4>
+                    </div>
+                    <div slot="collapse-content">
+                        <ul>
+                            {
+                                for $p in $biographies
+                                return 
+                                <li><a href="{$p/@n}">{$p/@n/string()}</a> | {$p/tei:birth}—{$p/tei:death}</li>
+                            }
+                        </ul>
+                    </div>
+                </pb-collapse>
             </div>
         else 
             ()
@@ -225,6 +259,17 @@ declare function api:letter-list($list, $titles) {
     return
         <li>
             <a href="../../briefe/B{substring($id, 3)}">
+                {$titles/id($id)/string()}
+            </a>
+        </li>
+};
+
+declare function api:commentary-list($list, $titles) {
+    for $doc in $list
+        let $id := $doc/ancestor::tei:TEI/@xml:id
+    return
+        <li>
+            <a href="../../kontexte/uberblickskommentare/{$id}">
                 {$titles/id($id)/string()}
             </a>
         </li>
