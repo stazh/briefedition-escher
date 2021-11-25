@@ -116,10 +116,14 @@ declare function api:view-article($request as map(*)) {
 
 declare function api:view-about($request as map(*)) {
     let $id := xmldb:decode($request?parameters?docid)
+    let $docid := if (ends-with($id, '.xml')) then $id else $id || '.xml'
     let $template := doc($config:app-root || "/templates/pages/about.html")
+    let $title := (doc($config:data-root || "/uber-die-edition/" || $docid)//tei:text//tei:head)[1]
     let $model := map {
-        "doc": 'uber-die-edition/' || $id || '.xml',
-        "template": "about"
+        "doc": 'uber-die-edition/' || $docid,
+        "template": "about",
+        "title": $title,
+        "docid": $id
     }
     return
         templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
@@ -286,6 +290,9 @@ declare function api:commentary-list($list, $titles) {
         </li>
 };
 
+declare function api:breadcrumb-suffix($node as node(), $model as map(*)) {
+    $model?title
+};
 
 (:~
  : Keep this. This function does the actual lookup in the imported modules.

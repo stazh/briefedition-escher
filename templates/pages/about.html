@@ -66,13 +66,15 @@
                         <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
                     </app-header>
                     <header class="breadcrumbs" data-template="pages:parse-params">
-                        <a href="${app}/">Home</a> &gt; <a href="${app}/uber-die-edition/">Über die Edition</a> &gt; <span id="letterId"></span>
+                        <a href="${app}/">Home</a> &gt; <a href="${app}/uber-die-edition/">Über die Edition</a> &gt;
+                        <div data-template="custom:breadcrumb-suffix"></div>
                     </header>
                     <main class="content-body">
                         <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription">
                             <pb-param name="header" value="about"/>
                         </pb-view>
                     </main>
+                    <footer data-template="templates:include" data-template-path="templates/footer.html"/>
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>
