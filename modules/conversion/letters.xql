@@ -313,9 +313,17 @@ declare function conv:body($nodes as node()*) {
             case element(table) return
                 <table>{conv:body($node/node())}</table>
             case element(tr) return
-                <row>{conv:body($node/node())}</row>
+                <row>
+                {
+                    if ($node/@id) then 
+                        attribute xml:id {$node/@id}
+                    else 
+                        (),
+                    conv:body($node/node())
+                }
+                </row>
             case element(tab) return
-                <cell>{conv:body($node/node())}</cell>
+                <cell>{$node/@rend, conv:body($node/node())}</cell>
             case element(lb) | element(br) return
                 <lb xml:id="{$node/@id}">{if ($node/preceding-sibling::node()[1][self::sh]) then attribute break { "no" } else ()}</lb>
             case element() return

@@ -129,6 +129,15 @@ nav .next {
 }
 
 /* Additions are shown in diplomatic view only */
+
+.addition {
+    display: none;
+}
+
+.addition.toggle {
+    display: inline;
+}
+
 .addition.toggle::after {
     content: '⌝';
 }
@@ -143,6 +152,14 @@ nav .next {
 
 .unclear-addition::before {
     content: '[';
+}
+
+.metamark {
+    vertical-align: super;
+    font-size: var(--pb-font-size-small);
+}
+.metamark.toggle {
+    display: none;
 }
 
 .deletion {
@@ -200,4 +217,8 @@ br {
 
 .toggle.tp-italic {
     font-style: italic;
+}
+
+table {
+    width: 100%;
 }

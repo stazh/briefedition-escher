@@ -121,7 +121,7 @@
                     <model predicate="@rend=&#34;right&#34;" behaviour="paragraph" cssClass="p-right"/>
                     <model predicate="@rend=&#34;left&#34;" behaviour="paragraph" cssClass="p-left"/>
                     <model predicate="@rend=&#34;indent&#34;" behaviour="paragraph" cssClass="p-indent"/>
-                    <model behaviour="paragraph" useSourceRendition="true" cssClass="p-default"/>
+                    <model behaviour="paragraph" cssClass="p-default" useSourceRendition="true"/>
                 </elementSpec>
 
                 <elementSpec ident="keywords" mode="add">
@@ -143,7 +143,7 @@
             <param name="content" value="(./fileDesc/sourceDesc, ./fileDesc/titleStmt)"/>
         </model>
                     <model predicate="$parameters?header='context'" behaviour="pass-through">
-            <param name="correspondents" value="let $label := &lt;head type=&#34;context&#34;&gt;Korrespondenten&lt;/head&gt;  let $entries:= .//correspDesc//persName return   (if ($entries) then $label else (), $entries) "/>
+            <param name="correspondents" value="let $label := &lt;head type=&#34;context&#34;&gt;Korrespondenten&lt;/head&gt;  let $entries:= .//correspDesc//(persName|orgName) return   (if ($entries) then $label else (), $entries)"/>
             <param name="dates" value="let $label := &lt;head type=&#34;context&#34;&gt;Briefdatum&lt;/head&gt; let $date := .//correspDesc//date return  ($label, if (count($date)) then $date else 's.d.')"/>
             <param name="persons" value="let $label := &lt;head type=&#34;context&#34;&gt;Personen&lt;/head&gt; let $entries:= for $p in root(.)//text//persName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
             <param name="places" value="let $label := &lt;head type=&#34;context&#34;&gt;Orte&lt;/head&gt; let $entries:= for $p in root(.)//text//placeName     let $k := $p/@key       group by $k       order by $k        return $p[1] return (if (count($entries)) then $label else (), $entries)"/>
@@ -161,7 +161,7 @@
         </model>
                     <modelSequence predicate="$parameters?display='letter-header'">
             <model behaviour="pass-through">
-                <param name="content" value="root(.)//correspDesc/correspContext"/>
+                <param name="content" value="(root(.)//correspDesc/correspContext, root(.)//correspDesc/correspAction[@type='sent'])"/>
             </model>
             <model behaviour="inline" cssClass="subheading">
                 <param name="id" value="substring-after(ancestor::TEI/@xml:id, 'K_')"/>
@@ -286,19 +286,19 @@
                 <elementSpec ident="ref" mode="change">
                     <model predicate="parent::correspContext and @type=&#34;previous-in-corresp&#34;" behaviour="pass-through">
             <param name="target" value="@target"/>
-            <pb:template xmlns="" xml:space="preserve"><pb-link path="letters/[[target]]" emit="transcription" history="" class="prev"><iron-icon icon="icons:chevron-left"/> Vorausgehender Brief</pb-link></pb:template>
+            <pb:template xmlns="" xml:space="preserve"><span data-path="letters/[[target]]" class="prev"/></pb:template>
         </model>
                     <model predicate="parent::correspContext and @type=&#34;next-in-corresp&#34;" behaviour="pass-through">
             <param name="target" value="@target"/>
-            <pb:template xmlns="" xml:space="preserve"><pb-link path="letters/[[target]]" emit="transcription" history="" class="next">Nachfolgender Brief <iron-icon icon="icons:chevron-right"/></pb-link></pb:template>
+            <pb:template xmlns="" xml:space="preserve"><span data-path="letters/[[target]]" class="next"/></pb:template>
         </model>
                     <model predicate="parent::correspContext and @type=&#34;previous&#34;" behaviour="pass-through">
             <param name="target" value="@target"/>
-            <pb:template xmlns="" xml:space="preserve"><pb-link path="letters/[[target]]" emit="transcription" history="" class="prev"><iron-icon icon="icons:chevron-left"/> Vorausgehender Brief der Gesamtkorrespondenz</pb-link></pb:template>
+            <pb:template xmlns="" xml:space="preserve"><span data-path="letters/[[target]]" class="prev-in-edition"/></pb:template>
         </model>
                     <model predicate="parent::correspContext and @type=&#34;next&#34;" behaviour="pass-through">
             <param name="target" value="@target"/>
-            <pb:template xmlns="" xml:space="preserve"><pb-link path="letters/[[target]]" emit="transcription" history="" class="next">Nachfolgender Brief der Gesamtkorrespondenz <iron-icon icon="icons:chevron-right"/></pb-link></pb:template>
+            <pb:template xmlns="" xml:space="preserve"><span data-path="letters/[[target]]" class="next-in-edition"/></pb:template>
         </model>
                     <model predicate="@type=&#34;kbp&#34;" behaviour="omit"/>
                     <model predicate="$parameters?header=&#34;commentary&#34; and @type=&#34;volume&#34;" behaviour="inline">
@@ -551,10 +551,8 @@
                     <model behaviour="pass-through">
             <param name="nav-overall" value="(ref[@type='previous'], ref[@type='next'])"/>
             <param name="nav-corresp" value="(ref[@type='previous-in-corresp'], ref[@type='next-in-corresp'])"/>
-            <pb:template xmlns="" xml:space="preserve"><nav>
+            <pb:template xmlns="" xml:space="preserve"><nav class="corresp" style="display: none">
   [[nav-overall]]
-</nav>
-<nav>
   [[nav-corresp]]
 </nav></pb:template>
         </model>
@@ -576,18 +574,14 @@
             </outputRendition>
         </model>
                 </elementSpec>
-            <elementSpec ident="graphic" mode="change">
-                <model behaviour="graphic">
-                    <param name="url" value="'../resources/images/person/' || @url"/>
-                    <param name="width" value="@width"/>
-                    <param name="height" value="@height"/>
-                    <param name="scale" value="@scale"/>
-                    <param name="title" value="desc"/>
-                    <outputRendition xml:space="preserve">
-                        float: right; 
-                        margin-left: 20px;
-                    </outputRendition>
-                </model>
+            <elementSpec ident="correspAction" mode="add">
+                    <model predicate="$parameters?display='letter-header'" behaviour="pass-through">
+            <param name="content" value="((persName|orgName)[@type='sender'], ' – ', (persName|orgName)[@type='addressee'])"/>
+            <pb:template xmlns="" xml:space="preserve"><span class="correspondence" style="display: none">[[content]]</span></pb:template>
+        </model>
+                </elementSpec>
+                <elementSpec ident="metamark" mode="add">
+                    <model behaviour="inline" cssClass="metamark"/>
                 </elementSpec>
             </schemaSpec>
         </body>
