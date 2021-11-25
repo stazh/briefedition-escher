@@ -22,6 +22,13 @@ function app:counts($node as node(), $model as map(*)) {
     }
 };
 
+declare function app:alphabet() {
+    let $foo := 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+     
+    for $index in 1 to string-length($foo)
+        return substring($foo, $index, 1)
+};
+
 declare function app:category-bibliography($type) {
     switch($type)
         case "Escheriana" return "escheriana"
@@ -34,7 +41,7 @@ declare function app:category-bibliography($type) {
         default return "escheriana" 
 };
 
-declare function app:active-bibliography($type, $active) {
+declare function app:active-subcategory($type, $active) {
     if ($type = $active) then " active" else ""
 };
 
@@ -42,20 +49,20 @@ declare function app:subcategories-bibliography($node as node(), $model as map(*
     let $type := if ($model?name) then $model?name else 'Escheriana'
 
     return
-     <div>
-        <a class="initial {app:active-bibliography('Escheriana', $type)}" 
+    <div>
+        <a class="initial {app:active-subcategory('Escheriana', $type)}" 
             href="../Escheriana/Alle" data-template="pages:parse-params">Escheriana</a>        
-        <a class="initial {app:active-bibliography('Archivbestande', $type)}" 
+        <a class="initial {app:active-subcategory('Archivbestande', $type)}" 
             href="../Archivbestande/A" data-template="pages:parse-params">Archivbestände</a>
-        <a class="initial {app:active-bibliography('Ungedruckte-Quellen', $type)}" 
+        <a class="initial {app:active-subcategory('Ungedruckte-Quellen', $type)}" 
             href="../Ungedruckte-Quellen/A" data-template="pages:parse-params">Ungedruckte Quellen</a>         
-        <a class="initial {app:active-bibliography('Gedruckte-Quellen', $type)}" 
+        <a class="initial {app:active-subcategory('Gedruckte-Quellen', $type)}" 
             href="../Gedruckte-Quellen/A" data-template="pages:parse-params">Gedruckte Quellen</a>
-        <a class="initial {app:active-bibliography('Zeitungen-und-Zeitschriften', $type)}" 
+        <a class="initial {app:active-subcategory('Zeitungen-und-Zeitschriften', $type)}" 
             href="../Zeitungen-und-Zeitschriften/A" data-template="pages:parse-params">Zeitungen und Zeitschriften</a>
-        <a class="initial {app:active-bibliography('Literatur', $type)}" 
+        <a class="initial {app:active-subcategory('Literatur', $type)}" 
             href="../Literatur/A" data-template="pages:parse-params">Literatur</a>
-        <a class="initial {app:active-bibliography('Websites', $type)}" 
+        <a class="initial {app:active-subcategory('Websites', $type)}" 
             href="../Websites/A" data-template="pages:parse-params">Websites</a> 
     </div>
 };
@@ -104,11 +111,8 @@ declare function app:initial-bibliography($node as node(), $model as map(*)) {
 
         let $category := app:category-bibliography($type)
 
-        let $foo := 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-        let $letters := 
-            for $index in 1 to string-length($foo)
-                return substring($foo, $index, 1)
-
+        let $letters := app:alphabet()
+ 
         let $initials :=
                 for $i in collection($config:data-root || "/bibliography")/id($category)//tei:bibl
                 let $foo := upper-case(substring($i, 1, 1))
@@ -125,7 +129,6 @@ declare function app:initial-bibliography($node as node(), $model as map(*)) {
                             for $i in $letters
                             let $class := "initial" || (if ($i = $letter) then " active" else "")
                             return
-
                                 if ($i=$initials) then 
                                     <a href="{$i}" class="{$class}">{$i}</a>
                                 else
@@ -157,17 +160,27 @@ function app:abbreviations-link($node as node(), $model as map(*)) {
         }
 };
 
+declare function app:subcategories-abbreviations($node as node(), $model as map(*)) {
+    let $type := if ($model?name) then $model?name else 'Quellen'
+
+    return
+     <div>
+        <a class="initial {app:active-subcategory('Quellen', $type)}" 
+            href="../Quellen/A" data-template="pages:parse-params">Abkürzungen aus den Quellen</a>        
+        <a class="initial {app:active-subcategory('Sekundartexte', $type)}" 
+            href="../Sekundartexte/A" data-template="pages:parse-params">Abkürzungen aus Sekundärtexten</a>
+    </div>
+};
 declare function app:initial-abbreviations($node as node(), $model as map(*)) {
         let $type := if ($model?name) then $model?name else 'Quellen'
+        let $letter := if ($model?letter) then $model?letter else 'A'
+
         let $type := 
             switch ($type)
                 case "Quellen" return 'source'
                 default return 'secondary'
 
-        let $foo := 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-        let $letters := 
-            for $index in 1 to string-length($foo)
-                return substring($foo, $index, 1)
+        let $letters := app:alphabet()
 
         let $initials :=
                 for $i in collection($config:data-root || "/abbreviations")/id($type)//tei:catDesc
@@ -177,10 +190,17 @@ declare function app:initial-abbreviations($node as node(), $model as map(*)) {
                 return $foo
 
         return 
-            (for $i in $letters      
-                return
-                    <a href="{$i}" class="initial">{$i}</a>,
-            <a href="other" class="initial">other</a>)
+            (
+                for $i in $letters      
+                    let $class := "initial" || (if ($i = $letter) then " active" else "")
+                    return
+                        if ($i=$initials) then 
+                            <a href="{$i}" class="{$class}">{$i}</a>
+                        else
+                            <span class="disabled {$class}">{$i}</span>
+                    ,
+                <a href="other" class="initial">other</a>
+            )
 };
 
 declare function app:view-abbreviations($node as node(), $model as map(*)) {

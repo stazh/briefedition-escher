@@ -48,23 +48,14 @@
                 <app-header-layout data-template="app:abbreviations-link">
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"></app-toolbar>
-                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
-                            <paper-button data-target="toolbar-start">
-                                <a href="${app}/kontexte/abkurzungen/Quellen/A" data-template="pages:parse-params">Abkürzungen aus den Quellen</a>        
-                            </paper-button>
-                            <paper-button data-target="toolbar-start">
-                                <a href="${app}/kontexte/abkurzungen/Sekundartexte/A" data-template="pages:parse-params">Abkürzungen aus Sekundärtexten</a>
-                            </paper-button>
-                        </app-toolbar>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"/>
                     </app-header>
                     <header class="breadcrumbs" data-path="kontexte/uberblickskommentare/" data-template="pages:parse-params">
                         <a href="${app}/home.html">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; Abkürzungen
                     </header>
                     <main class="content-body">
                         <section class="transcript">
-                            <div>
-                                <h1>Abkürzungen</h1>
-                            </div>
+                            <div data-template="app:subcategories-abbreviations"/>
                             <div data-template="app:initial-abbreviations"/>
                             <div data-template="app:view-abbreviations"/>
                         </section>
