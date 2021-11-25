@@ -22,12 +22,8 @@ function app:counts($node as node(), $model as map(*)) {
     }
 };
 
-declare function app:view-bibliography($node as node(), $model as map(*)) {
-    
-    let $type := if ($model?name) then $model?name else 'Archivbestande'
-    let $letter := if ($model?letter) then $model?letter else 'A'
-
-    let $category := switch($type)
+declare function app:category-bibliography($type) {
+    switch($type)
         case "Escheriana" return "escheriana"
         case "Ungedruckte-Quellen" return "unprinted_source"
         case "Gedruckte-Quellen" return "printed_source"
@@ -35,7 +31,41 @@ declare function app:view-bibliography($node as node(), $model as map(*)) {
         case "Literatur" return "literature"
         case "Websites" return "online"
         case "Archivbestande" return "archive"
-        default return "escheriana"
+        default return "escheriana" 
+};
+
+declare function app:active-bibliography($type, $active) {
+    if ($type = $active) then " active" else ""
+};
+
+declare function app:subcategories-bibliography($node as node(), $model as map(*)) {
+    let $type := if ($model?name) then $model?name else 'Escheriana'
+
+    return
+     <div>
+        <a class="initial {app:active-bibliography('Escheriana', $type)}" 
+            href="../Escheriana/Alle" data-template="pages:parse-params">Escheriana</a>        
+        <a class="initial {app:active-bibliography('Archivbestande', $type)}" 
+            href="../Archivbestande/A" data-template="pages:parse-params">Archivbestände</a>
+        <a class="initial {app:active-bibliography('Ungedruckte-Quellen', $type)}" 
+            href="../Ungedruckte-Quellen/A" data-template="pages:parse-params">Ungedruckte Quellen</a>         
+        <a class="initial {app:active-bibliography('Gedruckte-Quellen', $type)}" 
+            href="../Gedruckte-Quellen/A" data-template="pages:parse-params">Gedruckte Quellen</a>
+        <a class="initial {app:active-bibliography('Zeitungen-und-Zeitschriften', $type)}" 
+            href="../Zeitungen-und-Zeitschriften/A" data-template="pages:parse-params">Zeitungen und Zeitschriften</a>
+        <a class="initial {app:active-bibliography('Literatur', $type)}" 
+            href="../Literatur/A" data-template="pages:parse-params">Literatur</a>
+        <a class="initial {app:active-bibliography('Websites', $type)}" 
+            href="../Websites/A" data-template="pages:parse-params">Websites</a> 
+    </div>
+};
+
+declare function app:view-bibliography($node as node(), $model as map(*)) {
+    
+    let $type := if ($model?name) then $model?name else 'Archivbestande'
+    let $letter := if ($model?letter) then $model?letter else 'A'
+
+    let $category := app:category-bibliography($type)
 
     let $hits := 
         switch ($category)
@@ -50,7 +80,6 @@ declare function app:view-bibliography($node as node(), $model as map(*)) {
                 $hits
             default return 
                 $hits[starts-with(./tei:bibl, $letter)]
-
 
     for $group in $matches
         let $initial := upper-case(substring(normalize-space($group/tei:bibl), 1, 1))
@@ -73,16 +102,7 @@ declare function app:initial-bibliography($node as node(), $model as map(*)) {
         let $type := if ($model?name) then $model?name else 'Archivbestande'
         let $letter := if ($model?letter) then $model?letter else 'A'
 
-        let $category := switch($type)
-                case "Escheriana" return "escheriana"
-                case "Ungedruckte-Quellen" return "unprinted_source"
-                case "Gedruckte-Quellen" return "printed_source"
-                case "Zeitungen-und-Zeitschriften" return "newspaper"
-                case "Literatur" return "literature"
-                case "Websites" return "online"
-                case "Archivbestande" return "archive"
-                default return "escheriana"
-        
+        let $category := app:category-bibliography($type)
 
         let $foo := 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
         let $letters := 
@@ -97,22 +117,22 @@ declare function app:initial-bibliography($node as node(), $model as map(*)) {
                 return $foo[1]
 
         return 
+            switch ($category) 
+                case "escheriana" return ()
+                default return 
+                    <div>
+                        {
+                            for $i in $letters
+                            let $class := "initial" || (if ($i = $letter) then " active" else "")
+                            return
 
-            <div>
-                <h1>Bibliographie: <pb-i18n key="label.{$category}">{$type}</pb-i18n></h1>
-                {
-                    for $i in $initials[.=$letters]
-                        let $class := "initial" || (if ($i = $letter) then " active" else "")
-                        return
-                    <a href="{$i}" class="{$class}">{$i}</a>
-                }
-                {
-                    switch ($category) 
-                        case "escheriana" return ()
-                        default return <a href="Alle" class="initial"><pb-i18n key="label.all">All</pb-i18n></a>
-                }
-            </div>
-            
+                                if ($i=$initials) then 
+                                    <a href="{$i}" class="{$class}">{$i}</a>
+                                else
+                                    <span class="disabled {$class}">{$i}</span>
+                        }
+                        <a href="Alle" class="initial"><pb-i18n key="label.all">All</pb-i18n></a>
+                    </div>
 };
 
 declare 

@@ -54,17 +54,12 @@
                            
                         </app-toolbar>                    
                     </app-header>
+                    <header class="breadcrumbs" data-path="kontexte/abkurzungen/" data-template="pages:parse-params">
+                        <a href="${app}/home.html">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; Bibliographie
+                    </header>
                     <main>
                         <section class="transcript">
-                            <div>
-                                <a class="initial" href="${app}/kontexte/bibliographie/Escheriana/Alle" data-template="pages:parse-params">Escheriana</a>        
-                                <a class="initial" href="${app}/kontexte/bibliographie/Archivbestande/A" data-template="pages:parse-params">Archivbestände</a>
-                                <a class="initial" href="${app}/kontexte/bibliographie/Ungedruckte-Quellen/A" data-template="pages:parse-params">Ungedruckte Quellen</a>         
-                                <a class="initial" href="${app}/kontexte/bibliographie/Gedruckte-Quellen/A" data-template="pages:parse-params">Gedruckte Quellen</a>
-                                <a class="initial" href="${app}/kontexte/bibliographie/Zeitungen-und-Zeitschriften/A" data-template="pages:parse-params">Zeitungen und Zeitschriften</a>
-                                <a class="initial" href="${app}/kontexte/bibliographie/Literatur/A" data-template="pages:parse-params">Literatur</a>
-                                <a class="initial" href="${app}/kontexte/bibliographie/Websites/A" data-template="pages:parse-params">Websites</a>
-                            </div>
+                            <div data-template="app:subcategories-bibliography"/>
                             <div data-template="app:initial-bibliography"/>
                             <div data-template="app:view-bibliography"/>
                         </section>
