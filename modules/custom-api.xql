@@ -114,6 +114,17 @@ declare function api:view-article($request as map(*)) {
         templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
 };
 
+declare function api:view-about($request as map(*)) {
+    let $id := xmldb:decode($request?parameters?docid)
+    let $template := doc($config:app-root || "/templates/pages/about.html")
+    let $model := map {
+        "doc": 'uber-die-edition/' || $id || '.xml',
+        "template": "about"
+    }
+    return
+        templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
+};
+
 declare function api:people($request as map(*)) {
     let $search := $request?parameters?search
     let $view := $request?parameters?view
