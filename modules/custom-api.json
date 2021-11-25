@@ -127,7 +127,7 @@
 				}
 			}
         },
-		"/uber-die-edition/{docid}": {
+		"/uber-die-edition/{uri}": {
 				"get": {
 					"summary": "Retrieve the HTML template used for displaying a document",
 					"description": "Get the HTML template associated with the given document. This is called whenever the users tries to view a document. The actual content of the document will then be loaded by the template.",
@@ -135,7 +135,7 @@
 					"operationId": "custom:view-about",
 					"parameters": [
 						{
-							"name": "docid",
+							"name": "uri",
 							"in": "path",
 							"description": "Relative path to the document",
 							"required": true,
