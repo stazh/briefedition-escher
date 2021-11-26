@@ -57,15 +57,11 @@ a:link, a:visited {
 }
 
 .toolbar {
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .toolbar pb-select-feature {
-    margin-right: 60px;
-}
-
-.toolbar #prev-in-edition {
-    margin-right: 30px;
+    /* margin-right: 60px; */
 }
 
 @media (min-width: 769px) {
@@ -90,7 +86,8 @@ footer p {
 }
 
 .breadcrumbs {
-    margin-top: 7px;
+    margin: 0;
+    /* grid-column: 1; */
 }
 
 .letter {
@@ -105,28 +102,43 @@ footer p {
 .letter.toggle {
     height: auto;
     margin: auto;
-    grid-template-columns: 1fr minmax(auto, 320px);
-    grid-template-rows: auto 1fr;
-    max-width: calc(var(--pb-view-max-width) + 360px);
+    grid-template-columns: 1fr minmax(auto, 320px) auto 1fr;
+    grid-template-rows: auto auto 1fr;
+    /* max-width: calc(var(--pb-view-max-width) + 360px); */
 }
 
-.letter header {
-    grid-column: span 2;
+.letter .edition-nav {
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.letter.toggle .edition-nav {
+    grid-column: 2 / 4;
+}
+
+.letter .corresp-nav {
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 160px 1fr 160px;
+    justify-content: space-between;
     margin-bottom: 20px;
     background-color: #f0f0f0;
 }
 
-.letter header nav {
-    display: grid;
-    grid-template-columns: 160px 1fr 160px;
-    justify-content: space-between;
+.letter.toggle .corresp-nav {
+    grid-column: 2 / 4;
 }
 
-.letter header nav .next {
+.letter .corresp-nav #next {
     grid-column: 3;
+    text-align: right;
 }
 
-.letter header nav div {
+.letter .corresp-nav div {
     grid-column: 2;
     text-align: center;
 }
@@ -145,11 +157,16 @@ footer p {
 
 .letter .transcript {
     grid-column: 1;
+}
+
+.letter.toggle .transcript {
+    grid-column: 3;
     margin: 0;
 }
 
 .letter #register {
     grid-column: 2;
+    grid-row: 3;
     width: 100%;
     height: calc(100vh - 320px);
     overflow: auto;
@@ -157,8 +174,8 @@ footer p {
 }
 
 .letter pb-facsimile {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3
+    grid-column: 2;
+    grid-row: 1 / 4;
 }
 
 .letter.toggle pb-facsimile {

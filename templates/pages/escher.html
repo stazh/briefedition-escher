@@ -78,24 +78,24 @@
                             </paper-menu-button-->
                         </app-toolbar>
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
+                            <header class="breadcrumbs" data-path="briefe/" data-template="pages:parse-params" data-target="toolbar-start">
+                                <a href="${app}/">Home</a> &gt; <a href="${app}/briefe/">Briefe</a> &gt; <span id="letterId"></span>
+                            </header>
                             <pb-select-feature id="select-view1" name="view1" label="Ansicht" items='[
                             {"name": "Edierter Text", "selectors": [{"selector": ".popover,.annotation", "state": false}, {"selector": "br,.underline,.hyphen,.metamark", "state": true}, {"selector": "pb-popover", "command": "disable", "state": false}, {"selector": ".letter", "state": true}, {"selector": ".addition,.deletion", "state": false}, {"selector": "p", "state": true}]},
                             {"name": "Diplomatischer Text", "selectors": [{"selector": ".popover,.annotation", "state": true}, {"selector": "br,.underline,.hyphen,.metamark", "state": false}, {"selector": "pb-popover", "command": "disable", "state": true}, {"selector": ".letter", "state": false}, {"selector": ".addition,.deletion", "state": true}, {"selector": "p", "state": false}]}
-                            ]' emit="transcription" subscribe="transcription" data-target="toolbar-start"></pb-select-feature>
-                            <pb-link id="prev-in-edition" emit="transcription" data-target="toolbar-end"><iron-icon icon="icons:chevron-left"></iron-icon> Vorheriger Brief in Edition</pb-link>
-                            <pb-link id="next-in-edition" emit="transcription" data-target="toolbar-end">Nächster Brief in Edition <iron-icon icon="icons:chevron-right"></iron-icon></pb-link>
+                            ]' emit="transcription" subscribe="transcription" data-target="toolbar-end"></pb-select-feature>
                         </app-toolbar>
                     </app-header>
-                    <header class="breadcrumbs" data-path="briefe/" data-template="pages:parse-params">
-                        <a href="${app}/">Home</a> &gt; <a href="${app}/briefe/">Briefe</a> &gt; <span id="letterId"></span>
-                    </header>
                     <main class="letter">
-                        <header>
-                            <nav>
-                                <pb-link id="prev" emit="transcription"><iron-icon icon="icons:chevron-left"></iron-icon> Vorheriger Brief</pb-link>
-                                <div>Korrespondenz: <span id="correspondence"></span></div>
-                                <pb-link id="next" emit="transcription">Nächster Brief <iron-icon icon="icons:chevron-right"></iron-icon></pb-link>
-                            </nav>
+                        <header class="edition-nav">
+                            <pb-link id="prev-in-edition" emit="transcription"><iron-icon icon="icons:chevron-left"></iron-icon> Vorheriger Brief in Edition</pb-link>
+                            <pb-link id="next-in-edition" emit="transcription">Nächster Brief in Edition <iron-icon icon="icons:chevron-right"></iron-icon></pb-link>
+                        </header>
+                        <header class="corresp-nav">
+                            <pb-link id="prev" emit="transcription"><iron-icon icon="icons:chevron-left"></iron-icon> Vorheriger Brief</pb-link>
+                            <div>Korrespondenz: <span id="correspondence"></span></div>
+                            <pb-link id="next" emit="transcription">Nächster Brief <iron-icon icon="icons:chevron-right"></iron-icon></pb-link>
                         </header>
                         <div class="transcript">
                             <pb-view id="reference-view1" src="document1" xpath="//teiHeader" view="single" subscribe="transcription" emit="transcription">
