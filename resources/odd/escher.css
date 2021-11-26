@@ -10,15 +10,19 @@
 
 h1 {
     font-size: var(--pb-heading-h1-font-size);
+    font-family: var(--pb-heading-font-family);
 }
 h2 {
     font-size: var(--pb-heading-h2-font-size);
+    font-family: var(--pb-heading-font-family);
 }
 h3 {
     font-size: var(--pb-heading-h3-font-size);
+    font-family: var(--pb-heading-font-family);
 }
 h4 {
     font-size: var(--pb-heading-h4-font-size);
+    font-family: var(--pb-heading-font-family);
 }
 
 .sup {
@@ -206,13 +210,6 @@ br.toggle {
     text-indent: 1.6em;
 }
 
-/* .p-right { text-align: right;  text-indent: -1.6em;}
-.p-right.toggle { text-indent: unset; text-align: left; }
-.p-indent { text-indent: 1.6em; }
-.p-indent.toggle { text-indent: unset; }
-.p-default.center { text-align: center; }
-.p-default.left { text-align: left; } */
-
 .highlight-line,
 .highlight-line:hover,
 .tp-linebreak {
@@ -226,15 +223,6 @@ p {
 .underline:not(.toggle) {
     text-decoration: underline;
 }
-
-/* .toggle {
-    font-style: unset;
-    text-decoration: none;
-}
-
-.toggle.tp-italic {
-    font-style: italic;
-} */
 
 table {
     width: 100%;

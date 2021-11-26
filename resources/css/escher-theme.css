@@ -4,16 +4,12 @@
     background-image: url("../images/escher_logo.png");
 }
 
-.logo {
+.logo, .toolbar {
     background-image: none;
 }
 
 .splash {
     background-image: url("../images/tei-publisher-logo-color.svg");
-}
-
-.toolbar {
-    background-image: none;
 }
 
 app-header {
@@ -72,14 +68,6 @@ a:link, a:visited {
 .menubar .menu {
     display: flex;
     flex: 2;
-}
-
-.toolbar {
-    justify-content: space-between;
-}
-
-.toolbar pb-select-feature {
-    /* margin-right: 60px; */
 }
 
 @media (min-width: 769px) {
@@ -186,7 +174,7 @@ footer p {
 
 .letter .transcript {
     grid-column: 1;
-    --pb-content-font-family: var(--pb-letter-font-family);
+    --pb-heading-font-family: var(--pb-letter-font-family);
     --pb-content-font-size: var(--pb-letter-font-size);
 }
 
