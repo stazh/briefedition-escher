@@ -23,21 +23,14 @@
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <script src="resources/scripts/app/escher.js"></script>
         <style>
-            section {
-                max-width: 1014px;
+            .content-body.single-col .transcript {
+                max-width: 70rem;
             }
-
-            main {
-                position: relative;
-                height: var(--pb-view-height);
-            }
-
             .transcript a {
                 color: #2474C2;
                 text-decoration: none;
                 font-weight: bold;
             }
-
         </style>
     </head>
 
@@ -53,7 +46,7 @@
                             </header>
                         </app-toolbar>                    
                     </app-header>
-                    <main class="content-body">
+                    <main class="content-body single-col">
                         <section class="transcript">
                             <div data-template="app:subcategories-bibliography"/>
                             <div data-template="app:initial-bibliography"/>
