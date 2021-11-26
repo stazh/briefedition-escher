@@ -558,7 +558,7 @@
                 </elementSpec>
             <elementSpec ident="term" mode="add">
                     <model predicate="$parameters?display='letter-header'" behaviour="link" cssClass="term">
-            <param name="uri" value="'../index.html?facet-keyword=' || ."/>
+            <param name="uri" value="'.?facet-keyword=' || ."/>
         </model>
                     <model behaviour="link" cssClass="term"/>
                 </elementSpec>
