@@ -317,7 +317,7 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
                     else
                         (: Check if the document has sections, otherwise don't pass root :)
                         if (nav:get-section-for-node($config, $div)) then util:node-id($div) else ()
-                let $config := <config width="60" table="no" link="{$uri}{$parent-id}?{if ($docLink) then 'root=' || $docLink || '&amp;' else ()}action=search&amp;view={$config?view}&amp;odd={$config?odd}#{$matchId}"/>
+                let $config := <config width="60" table="no" link="{$uri}{$parent-id}?action=search&amp;view={$config?view}&amp;odd={$config?odd}#{$matchId}"/>
                 return
                     kwic:get-summary($expanded, $match, $config)
             }
