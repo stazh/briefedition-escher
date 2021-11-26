@@ -31,12 +31,13 @@
                 <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
                 <app-header-layout>
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
-                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"></app-toolbar>
-                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"></app-toolbar>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"></app-toolbar>              
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
+                            <header class="breadcrumbs" data-template="pages:parse-params" data-target="toolbar-start">
+                                <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; <a href="${app}/kontexte/uberblickskommentare/">Überblickskommentare</a> &gt; <span id="letterId"></span>
+                            </header>
+                        </app-toolbar>
                     </app-header>
-                    <header class="breadcrumbs" data-path="/kontexte/uberblickskommentare/" data-template="pages:parse-params">
-                        <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; <a href="${app}/kontexte/uberblickskommentare/">Überblickskommentare</a> &gt; <span id="letterId"></span>
-                    </header>
                     <main class="content-body">
                         <section class="transcript">
                             <pb-view id="heading" src="document1" xpath="//teiHeader" view="single" emit="transcription">
