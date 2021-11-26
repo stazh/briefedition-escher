@@ -8,6 +8,19 @@
     text-underline-offset: 3px;
 }
 
+h1 {
+    font-size: var(--pb-heading-h1-font-size);
+}
+h2 {
+    font-size: var(--pb-heading-h2-font-size);
+}
+h3 {
+    font-size: var(--pb-heading-h3-font-size);
+}
+h4 {
+    font-size: var(--pb-heading-h4-font-size);
+}
+
 .sup {
     vertical-align: super;
     font-size: 0.8em;
@@ -38,8 +51,9 @@ br.toggle {
     display: none;
 }
 
-.subheading {
-    font-size: 0.8em;
+.subheading, .keywords {
+    font-size: var(--pb-font-size-small);
+    font-family: var(--pb-base-font-family);
 }
 
 .highlight-line {
@@ -54,6 +68,10 @@ br.toggle {
     text-decoration: none;
     font-weight: 600;
     color: var(--pb-link-color);
+}
+
+.letter-title {
+    margin: 0;
 }
 
 .subsection {
@@ -92,31 +110,12 @@ br.toggle {
     font-style: inherit;
 }
 
-nav {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-content: space-between;
-    height: 40px;
-}
-
-nav a:link, nav a:visited {
-    display: block;
-    font-size: 0.8em;
-    text-decoration: none;
-    color: var(--pb-link-color);
-}
-
-nav .next {
-    grid-column: 2;
-    text-align: right;
-}
-
 .context h1 {
-    font-size: 1.2em;
+    font-size: var(--pb-heading-h3-font-size);
 }
 
 .context h3 {
-    font-size: 1em;
+    font-size: var(--pb-heading-h4-font-size);
 }
 
 .term:link, .term:visited {
@@ -227,15 +226,6 @@ table {
     width: 100%;
 }
 
-.letter-title {
-    font-family: 'Libre Baskerville';
-    margin-block: 0.3em;
-}
-
 .keywords {
     margin-bottom: 4em;
-}
-
-.footnote {
-    font-family: 'Open Sans';
 }

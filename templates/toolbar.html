@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <app-toolbar class="toolbar" sticky="sticky">
     <div id="toolbar-start" style="display: none"></div>
-    <!--pb-restricted login="login">
+    <pb-restricted login="login">
         <pb-ajax subscribe="transcription" emit="transcription" url="api/odd" method="post" data-template="pages:parse-params" event="pb-refresh" title="Recompile ODD" data-i18n="[title]menu.admin.recompile">
             <h3 slot="title">
                 <pb-i18n key="menu.admin.recompile"/>
             </h3>
             <paper-icon-button icon="icons:refresh"/>
         </pb-ajax>
-    </pb-restricted-->
-    <!--pb-zoom emit="transcription" direction="in" icon="icons:zoom-in"/>
+    </pb-restricted>
+    <pb-zoom emit="transcription" direction="in" icon="icons:zoom-in"/>
     <pb-zoom emit="transcription" direction="out" icon="icons:zoom-out"/>
-    <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/-->
+    <!--paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/-->
     <div id="toolbar-end" style="display: none"></div>
     <pb-progress subscribe="transcription" indeterminate="indeterminate" bottom-item="bottom-item"/>
 </app-toolbar>

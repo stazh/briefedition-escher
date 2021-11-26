@@ -32,15 +32,21 @@ body {
     --pb-base-font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
     --pb-base-font-size: 16px;
     --pb-base-font-weight: 400;
-    --pb-base-line-height: 1.8;
+    --pb-base-line-height: 1.75;
     --pb-heading-font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
-    --pb-heading-line-height: 1.8;
+    --pb-heading-line-height: 1.75;
     --pb-content-font-family: var(--pb-base-font-family);
-    --pb-content-font-size: 16px;
-    --pb-font-size-small: 12px;
+    --pb-content-font-size: 18px;
+    --pb-letter-font-family: "Libre Baskerville";
+    --pb-letter-font-size: var(--pb-base-font-size);
+    --pb-font-size-small: 0.8rem;
     --pb-view-height: auto;
     --pb-link-color: #2474C2;
     --pb-color-focus: #FFA500;
+    --pb-heading-h1-font-size: 2.441rem;
+    --pb-heading-h2-font-size: 1.953rem;
+    --pb-heading-h3-font-size: 1.563rem;
+    --pb-heading-h4-font-size: 1.25rem;
 }
 
 a:link, a:visited {
@@ -91,7 +97,6 @@ footer p {
 }
 
 .letter {
-    --pb-view-max-width: 41.24rem;
     position: relative;
     margin: 0 20px;
     display: grid;
@@ -114,6 +119,7 @@ footer p {
     justify-content: space-between;
     margin-bottom: 8px;
     margin-top: 8px;
+    font-size: var(--pb-font-size-small);
 }
 
 .letter.toggle .edition-nav {
@@ -123,10 +129,11 @@ footer p {
 .letter .corresp-nav {
     grid-column: 1;
     display: grid;
-    grid-template-columns: 160px 1fr 160px;
+    grid-template-columns: auto 1fr auto;
     justify-content: space-between;
     margin-bottom: 20px;
     background-color: #f0f0f0;
+    font-size: var(--pb-font-size-small);
 }
 
 .letter.toggle .corresp-nav {
@@ -144,11 +151,11 @@ footer p {
 }
 
 .letter #reference-view1 {
-    max-width: inherit;
     margin: 0;
 }
 
 .transcript {
+    --pb-view-max-width: 41.24rem;
     overflow: auto;
     justify-self: center;
     height: calc(100vh - 320px);
@@ -157,6 +164,8 @@ footer p {
 
 .letter .transcript {
     grid-column: 1;
+    --pb-content-font-family: var(--pb-letter-font-family);
+    --pb-content-font-size: var(--pb-letter-font-size);
 }
 
 .letter.toggle .transcript {
@@ -202,7 +211,6 @@ footer p {
 
 .article pb-view {
     grid-column: 2;
-    font-size: 1.1em;
 }
 
 .content-body {
