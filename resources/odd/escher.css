@@ -170,18 +170,48 @@ br.toggle {
     text-decoration: line-through;
 }
 
+.closer.toggle {
+    text-align: center;
+}
+.signature.toggle {
+    text-align: right;
+}
+
 .pb {
     display: inline;
     color: var(--pb-color-focus);
 }
 
-.p-right { text-align: right;  text-indent: -1.6em;}
-.p-right.toggle { text-indent: unset;}
-.p-left { text-align: left; }
-.p-left.toggle { text-indent: 1.6em; }
-.p-indent.toggle { text-indent: 1.6em; }
+.para.center.toggle {
+    text-align: center;
+}
+.para.right.toggle {
+    text-align: right;
+}
+
+.para.toggle br {
+    display: none;
+}
+
+.para.toggle .line {
+    display: block;
+}
+
+.para:not(.toggle) .line {
+    display: inline;
+    text-indent: unset;
+}
+
+.para.toggle.indent span.line:first-child {
+    text-indent: 1.6em;
+}
+
+/* .p-right { text-align: right;  text-indent: -1.6em;}
+.p-right.toggle { text-indent: unset; text-align: left; }
+.p-indent { text-indent: 1.6em; }
+.p-indent.toggle { text-indent: unset; }
 .p-default.center { text-align: center; }
-.p-default.left { text-align: left; }
+.p-default.left { text-align: left; } */
 
 .highlight-line,
 .highlight-line:hover,
@@ -189,38 +219,22 @@ br.toggle {
     cursor: pointer;
 }
 
-p:not(.toggle) span.line {
-    display: block;
-}
-
-p.toggle .line.toggle {
-    display: inline;
-}
-
-.p-indent span.line:first-child {
-    text-indent: 1.6em;
-}
-
 p {
     margin-block: 0.3em;
-}
-
-br {
-    display: none;
 }
 
 .underline:not(.toggle) {
     text-decoration: underline;
 }
 
-.toggle {
+/* .toggle {
     font-style: unset;
     text-decoration: none;
 }
 
 .toggle.tp-italic {
     font-style: italic;
-}
+} */
 
 table {
     width: 100%;

@@ -75,8 +75,8 @@
                                 <a href="${app}/">Home</a> &gt; <a href="${app}/briefe/">Briefe</a> &gt; <span id="letterId"></span>
                             </header>
                             <pb-select-feature id="select-view1" name="view1" label="Ansicht" items='[
-                            {"name": "Edierter Text", "selectors": [{"selector": ".popover,.annotation", "state": false}, {"selector": "br,.underline,.hyphen,.metamark", "state": true}, {"selector": "pb-popover", "command": "disable", "state": false}, {"selector": ".letter", "state": true}, {"selector": ".addition,.deletion", "state": false}, {"selector": "p", "state": true}]},
-                            {"name": "Diplomatischer Text", "selectors": [{"selector": ".popover,.annotation", "state": true}, {"selector": "br,.underline,.hyphen,.metamark", "state": false}, {"selector": "pb-popover", "command": "disable", "state": true}, {"selector": ".letter", "state": false}, {"selector": ".addition,.deletion", "state": true}, {"selector": "p", "state": false}]}
+                            {"name": "Edierter Text", "selectors": [{"selector": ".popover,.annotation,.para", "state": false}, {"selector": "br,.underline,.hyphen,.metamark,.signature,.closer", "state": true}, {"selector": "pb-popover", "command": "disable", "state": false}, {"selector": ".letter", "state": true}, {"selector": ".addition,.deletion", "state": false}]},
+                            {"name": "Diplomatischer Text", "selectors": [{"selector": ".popover,.annotation,.para", "state": true}, {"selector": "br,.underline,.hyphen,.metamark,.signature,.closer", "state": false}, {"selector": "pb-popover", "command": "disable", "state": true}, {"selector": ".letter", "state": false}, {"selector": ".addition,.deletion", "state": true}]}
                             ]' emit="transcription" subscribe="transcription" data-target="toolbar-end"></pb-select-feature>
                         </app-toolbar>
                     </app-header>

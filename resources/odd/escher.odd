@@ -118,10 +118,7 @@
             <pb:template xmlns="" xml:space="preserve"><div><span class="number">[[number]]</span>[[content]]</div></pb:template>
         </model>
                     <model predicate="$parameters?display='person-meta'" behaviour="paragraph"/>
-                    <model predicate="@rend=&#34;right&#34;" behaviour="paragraph" cssClass="p-right"/>
-                    <model predicate="@rend=&#34;left&#34;" behaviour="paragraph" cssClass="p-left"/>
-                    <model predicate="@rend=&#34;indent&#34;" behaviour="paragraph" cssClass="p-indent"/>
-                    <model behaviour="paragraph" cssClass="p-default" useSourceRendition="true"/>
+                    <model behaviour="paragraph" cssClass="para" useSourceRendition="true"/>
                 </elementSpec>
 
                 <elementSpec ident="keywords" mode="add">
@@ -483,6 +480,8 @@
                     <model behaviour="block"/>
                 </elementSpec>
             <elementSpec ident="div" mode="change">
+                    <model predicate="@type='signature'" behaviour="block" cssClass="signature"/>
+                    <model predicate="@type='closer'" behaviour="block" cssClass="closer"/>
                     <model predicate="@type='title_page'" behaviour="block">
             <outputRendition xml:space="preserve">
             border: 1px solid black; padding: 5px;
@@ -592,9 +591,11 @@
             <param name="title" value="desc"/>
             <outputRendition xml:space="preserve">
             
+            
                             float: right; 
                             margin-left: 20px;
                         
+            
             </outputRendition>
         </model>
                 </elementSpec>
