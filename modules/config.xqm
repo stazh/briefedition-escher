@@ -306,7 +306,7 @@ declare variable $config:data-root :=$config:app-root || "/data";
  : The root of the collection hierarchy whose files should be displayed
  : on the entry page. Can be different from $config:data-root.
  :)
-declare variable $config:data-default := $config:data-root || "/letters";
+declare variable $config:data-default := $config:data-root || "/briefe";
 
 (:~
  : A sequence of root elements which should be excluded from the list of
@@ -492,10 +492,10 @@ declare function config:document-type($div as element()) {
 };
 
 declare function config:get-document($idOrName as xs:string) {
-    if (starts-with($idOrName, 'letters/')) then
-        let $id := replace($idOrName, "^letters/B(.*)$", "K_$1")
+    if (starts-with($idOrName, 'briefe/')) then
+        let $id := replace($idOrName, "^briefe/B(.*)$", "K_$1")
         return
-            collection($config:data-root || "/letters")/id($id)
+            collection($config:data-root || "/briefe")/id($id)
     else if ($config:address-by-id) then
         root(collection($config:data-root)/id($idOrName))
     else if (starts-with($idOrName, '/')) then

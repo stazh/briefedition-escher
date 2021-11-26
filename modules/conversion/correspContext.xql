@@ -2,7 +2,7 @@ xquery version "3.1";
 
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 
-let $docs := collection("/db/apps/escher/data/letters")//tei:text[ft:query(., (), map { "fields": "date" })]
+let $docs := collection("/db/apps/escher/data/briefe")//tei:text[ft:query(., (), map { "fields": "date" })]
 let $sorted :=
     for $t in $docs
     order by ft:field($t, "date", "xs:date") empty least

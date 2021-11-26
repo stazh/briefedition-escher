@@ -96,7 +96,7 @@ declare function api:view-letter($request as map(*)) {
     let $id := "B" || xmldb:decode($request?parameters?id)
     let $template := doc($config:app-root || "/templates/pages/escher.html")
     let $model := map {
-        "doc": "letters/" || $id,
+        "doc": "briefe/" || $id,
         "template": "escher"
     }
     return
@@ -193,7 +193,7 @@ declare function api:sort($people as element()*, $dir as xs:string) {
 };
 
 declare function api:person-mentions($node as node(), $model as map(*)) {
-    let $letters := collection($config:data-root || "/letters")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
+    let $letters := collection($config:data-root || "/briefe")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
     let $commentaries := collection($config:data-root || "/commentary")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
     let $biographies := doc($config:data-root || "/people.xml")//tei:persName[@key=$model?key]/ancestor::tei:person[@xml:id != $model?key]
             let $titles := doc($config:data-root || "/titles.xml")
@@ -244,7 +244,7 @@ declare function api:person-mentions($node as node(), $model as map(*)) {
 };
 
 declare function api:person-letters($node as node(), $model as map(*)) {
-    let $mentions := collection($config:data-root || "/letters")//tei:text[ft:query(., 'correspondent:"'||$model?key||'"')]
+    let $mentions := collection($config:data-root || "/briefe")//tei:text[ft:query(., 'correspondent:"'||$model?key||'"')]
     return
         if (count($mentions) ) then
             let $titles := doc($config:data-root || "/titles.xml")

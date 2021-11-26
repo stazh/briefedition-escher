@@ -50,7 +50,7 @@ declare function conv:fix-namespace($nodes as node()*) {
 
 declare function conv:person($person as element(biography)) {
     let $meta := $person/metadata
-    let $isCorresp := collection("/db/apps/escher/data/letters")//tei:persName[@key = $person/@id]/ancestor::tei:correspAction
+    let $isCorresp := collection("/db/apps/escher/data/briefe")//tei:persName[@key = $person/@id]/ancestor::tei:correspAction
     return
         <person xml:id="{conv:fix-xmlid($person/@id)}" n="{$person/@id}" type="{if ($isCorresp) then 'correspondent' else 'mentioned'}">
             <persName>

@@ -467,4 +467,4 @@ let $contents := serialize(local:convert($letter),
                       <output:indent>no</output:indent>
                     </output:serialization-parameters>)
 
-return xmldb:store('/db/apps/escher/data/letters', $file, $contents)
+return xmldb:store('/db/apps/escher/data/briefe', $file, $contents)

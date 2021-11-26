@@ -22,7 +22,7 @@ let $output :=
                 <body>
                     <div xmlns="http://www.tei-c.org/ns/1.0">
                     {
-                        for $doc in collection("/db/apps/escher/data/letters")
+                        for $doc in collection("/db/apps/escher/data/briefe")
                         let $title := $doc//titleStmt/title
                         return
                             <title>

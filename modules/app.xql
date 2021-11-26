@@ -22,7 +22,7 @@ declare
     %templates:wrap
 function app:counts($node as node(), $model as map(*)) {
     map {
-        "letters": count(collection($config:data-root || "/letters")/tei:TEI),
+        "letters": count(collection($config:data-root || "/briefe")/tei:TEI),
         "people": count(doc($config:data-root || "/people.xml")//tei:person)
     }
 };
@@ -276,7 +276,7 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
     let $parent := query:get-parent-section($config, $hit)
     let $parent-id := config:get-identifier($parent)
     let $parent-id := if (exists($docs)) then replace($parent-id, "^.*?([^/]*)$", "$1") else $parent-id
-    let $parent-id := if (util:collection-name($parent-id) = 'letters') then $letterId else $parent-id
+    let $parent-id := if (util:collection-name($parent-id) = 'briefe') then $letterId else $parent-id
 
     let $uri := 
         if (starts-with($parent-id, 'B')) then
