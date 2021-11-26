@@ -63,11 +63,11 @@
                         </app-toolbar>
                     </app-header>
                     <main>
-                        <section class="transcript">
-                                <pb-view id="view1" src="document1" xpath="${xpath}" subscribe="transcription" emit="transcription"
-                                    data-template="pages:parse-params">
-                                    <pb-param name="display" value="person-meta"/>
-                                </pb-view>
+                        <section class="transcript noscroll">
+                            <pb-view id="view1" src="document1" xpath="${xpath}" subscribe="transcription" emit="transcription"
+                                data-template="pages:parse-params">
+                                <pb-param name="display" value="person-meta"/>
+                            </pb-view>
                             <div data-template="custom:person-mentions"></div>
                             <div data-template="custom:person-letters"></div>
                         </section>

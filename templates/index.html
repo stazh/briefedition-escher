@@ -231,8 +231,8 @@
                 </header>
                 <main>
                     <section class="panels">
-                        <pb-custom-form id="facets" url="api/search/facets" event="pb-results-received" subscribe="docs" emit="docs"/>
-                        <pb-browse-docs id="document-list" url="api/collection/" 
+                        <pb-custom-form id="facets" class="noscroll" url="api/search/facets" event="pb-results-received" subscribe="docs" emit="docs"/>
+                        <pb-browse-docs id="document-list" class="noscroll" url="api/collection/" 
                         sort-options="[{&#34;label&#34;: &#34;facets.sender&#34;, &#34;value&#34;: &#34;sender&#34;},{&#34;label&#34;: &#34;facets.addressee&#34;, &#34;value&#34;: &#34;addressee&#34;},{&#34;label&#34;: &#34;facets.place&#34;, &#34;value&#34;: &#34;place&#34;},{&#34;label&#34;: &#34;facets.date&#34;, &#34;value&#34;: &#34;date&#34;}]" sort-by="date" 
                         filter-options="[{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;facets.sender&#34;, &#34;value&#34;: &#34;sender&#34;},{&#34;label&#34;: &#34;facets.addressee&#34;, &#34;value&#34;: &#34;addressee&#34;},{&#34;label&#34;: &#34;facets.place&#34;, &#34;value&#34;: &#34;place&#34;},{&#34;label&#34;: &#34;facets.keyword&#34;, &#34;value&#34;: &#34;keyword&#34;}, {&#34;label&#34;: &#34;facets.number&#34;, &#34;value&#34;: &#34;number&#34;}, {&#34;label&#34;: &#34;facets.type&#34;, &#34;value&#34;: &#34;type&#34;}]" filter-by="title" auto="auto" history="history" login="login" emit="docs" subscribe="docs">
                             <pb-paginate slot="toolbar" id="paginate" per-page="10" range="5" emit="docs" subscribe="docs"/>

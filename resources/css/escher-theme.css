@@ -1,15 +1,15 @@
 /* Due to a safari issue, relative paths to background images won't work as variables, so we list them here */
 
-.logo {
+.menubar {
     background-image: url("../images/escher_logo.png");
+}
+
+.logo {
+    background-image: none;
 }
 
 .splash {
     background-image: url("../images/tei-publisher-logo-color.svg");
-}
-
-.menubar {
-    background-image: none;
 }
 
 .toolbar {
@@ -21,7 +21,7 @@ app-header {
 }
 
 body {
-    --pb-logo-image-width: 544px;
+    --pb-logo-image-width: 200px;
     --pb-logo-image-height: 109px;
     --pb-menubar-background-color: #f7f8f8;
     --pb-menubar-color: var(--pb-color-primary);
@@ -56,10 +56,22 @@ a:link, a:visited {
 
 .menubar {
     height: 109px;
+    display: flex;
+}
+
+.menubar {
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 20px center;
 }
 
 .menubar .logo {
     margin: 0 16px 0 0;
+}
+
+.menubar .menu {
+    display: flex;
+    flex: 2;
 }
 
 .toolbar {
@@ -160,6 +172,16 @@ footer p {
     justify-self: center;
     height: calc(100vh - 320px);
     padding-bottom: 60px;
+}
+
+.noscroll {
+    scrollbar-width: none; /* Firefox 64 */
+    -ms-overflow-style: none;
+}
+
+.noscroll::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
 }
 
 .letter .transcript {
