@@ -60,14 +60,15 @@ window.addEventListener('DOMContentLoaded', () => {
             const updatedCoords = adjustCoords(coords);
             // on mouseenter, retrieve the corresponding region of the facsimile from IIIF
             wrapper.addEventListener('mouseenter', (ev) => {
-                if (ev.target.querySelector('br.toggle')) {
+                const target = ev.target;
+                if (target.querySelector('br.toggle')) {
                     return false;
                 }
-                const top  = (ev.target.offsetTop - updatedCoords[3] + 20) + 'px';
+                const top  = (target.offsetTop - updatedCoords[3] + 20) + 'px';
                 regionImage.src = `https://apps.existsolutions.com/cantaloupe/iiif/2/${file}/${updatedCoords.join(',')}/full/0/default.jpg`;
-                regionImage.style.top = top;
+                regionImage.style.bottom = top;
                 regionImage.style.display = '';
-                ev.target.classList.add('highlight-line');
+                target.classList.add('highlight-line');
             });
             wrapper.addEventListener('mouseleave', (ev) => {
                 regionImage.style.display = 'none';
