@@ -193,7 +193,7 @@
                 </elementSpec>
             <elementSpec ident="title" mode="change">
                     <model predicate="$parameters?header=&#34;commentary&#34; and parent::titleStmt" behaviour="heading" cssClass="letter-title">
-            <param name="level" value="2"/>
+            <param name="level" value="1"/>
         </model>
                     <model predicate="$parameters?header='context'" behaviour="inline"/>
                     <model predicate="$parameters?header='short'" behaviour="heading" cssClass="letter-title">
@@ -585,16 +585,18 @@
                 </elementSpec>
                 <elementSpec ident="graphic" mode="change">
                     <model behaviour="graphic">
-                        <param name="url" value="'../resources/images/person/' || @url"/>
-                        <param name="width" value="@width"/>
-                        <param name="height" value="@height"/>
-                        <param name="scale" value="@scale"/>
-                        <param name="title" value="desc"/>
-                        <outputRendition xml:space="preserve">
+            <param name="url" value="'../resources/images/person/' || @url"/>
+            <param name="width" value="@width"/>
+            <param name="height" value="@height"/>
+            <param name="scale" value="@scale"/>
+            <param name="title" value="desc"/>
+            <outputRendition xml:space="preserve">
+            
                             float: right; 
                             margin-left: 20px;
-                        </outputRendition>
-                    </model>
+                        
+            </outputRendition>
+        </model>
                 </elementSpec>
             </schemaSpec>
         </body>

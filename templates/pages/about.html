@@ -18,7 +18,6 @@
         <link rel="stylesheet" href="resources/css/theme.css"/>
         <link rel="stylesheet" href="resources/css/escher-theme.css"/>
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
-        <script src="resources/scripts/app/escher.js"></script>
         <style>
             @media (min-width: 769px) {
                 .toolbar pb-navigation {
@@ -70,9 +69,11 @@
                         <div data-template="custom:breadcrumb-suffix"></div>
                     </header>
                     <main class="content-body">
-                        <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription">
-                            <pb-param name="header" value="about"/>
-                        </pb-view>
+                        <div class="transcript">
+                            <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription">
+                                <pb-param name="header" value="about"/>
+                            </pb-view>
+                        </div>
                     </main>
                     <footer data-template="templates:include" data-template-path="templates/footer.html"/>
                 </app-header-layout>
