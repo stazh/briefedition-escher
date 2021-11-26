@@ -131,7 +131,7 @@
         </model>
                     <model behaviour="pass-through">
             <param name="keywords" value="sort(./term)"/>
-            <pb:template xmlns="" xml:space="preserve"><div>Schlagwörter: [[keywords]]</div></pb:template>
+            <pb:template xmlns="" xml:space="preserve"><div class="keywords">Schlagwörter: [[keywords]]</div></pb:template>
         </model>
                 </elementSpec>
                 <elementSpec ident="item" mode="change">

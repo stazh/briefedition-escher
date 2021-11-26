@@ -202,6 +202,10 @@ p.toggle .line.toggle {
     text-indent: 1.6em;
 }
 
+p {
+    margin-block: 0.3em;
+}
+
 br {
     display: none;
 }
@@ -221,4 +225,17 @@ br {
 
 table {
     width: 100%;
+}
+
+.letter-title {
+    font-family: 'Libre Baskerville';
+    margin-block: 0.3em;
+}
+
+.keywords {
+    margin-bottom: 4em;
+}
+
+.footnote {
+    font-family: 'Open Sans';
 }
