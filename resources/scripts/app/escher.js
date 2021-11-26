@@ -37,6 +37,60 @@ function adjustCoords(coordsString) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
+    pbEvents.subscribe('pb-before-update', 'transcription', (ev) => {
+        root = ev.detail.root;
+        // reusable image element which will be positioned above the mouse position
+        const regionImage = document.createElement('img');
+        regionImage.style.display = 'block';
+        regionImage.style.position = 'absolute';
+        regionImage.style.zIndex = 1001;
+        root.appendChild(regionImage);
+
+        // wrap all lines into ranges
+        root.querySelectorAll('br').forEach((br) => {
+            const next = findEndOfRange(br, 'br');
+            if (!next) {
+                return;
+            }
+            const wrapper = document.createElement('span');
+            wrapper.className = 'line';
+
+            const file = br.getAttribute('data-image');
+            const coords = br.getAttribute('data-coords');
+            const updatedCoords = adjustCoords(coords);
+            // on mouseenter, retrieve the corresponding region of the facsimile from IIIF
+            wrapper.addEventListener('mouseenter', (ev) => {
+                if (ev.target.querySelector('br.toggle')) {
+                    return false;
+                }
+                const top  = (ev.target.offsetTop - updatedCoords[3] + 20) + 'px';
+                regionImage.src = `https://apps.existsolutions.com/cantaloupe/iiif/2/${file}/${updatedCoords.join(',')}/full/0/default.jpg`;
+                regionImage.style.top = top;
+                regionImage.style.display = '';
+                ev.target.classList.add('highlight-line');
+            });
+            wrapper.addEventListener('mouseleave', (ev) => {
+                regionImage.style.display = 'none';
+                ev.target.classList.remove('highlight-line');
+            });
+            const range = document.createRange();
+            range.setStartBefore(br);
+            range.setEndAfter(next);
+            range.surroundContents(wrapper);
+
+            // the line may contain webcomponents like pb-popover which would be detached from the DOM
+            // if we just copied nodes. Therefore we assign a serialized copy to wrapper.innerHTML, which
+            // will cause nested webcomponents to be initialized.
+            // const contents = range.extractContents();
+            // const div = document.createElement('div');
+            // div.appendChild(contents.cloneNode(true));
+            // wrapper.innerHTML = div.innerHTML;
+            // range.insertNode(wrapper);
+        });
+
+        ev.detail.render(root);
+    });
+
     pbEvents.subscribe('pb-update', 'transcription', (ev) => { 
         root = ev.detail.root;
 
@@ -84,53 +138,6 @@ window.addEventListener('DOMContentLoaded', () => {
             footerLink.href = plink;
             footerLink.innerHTML = plink;
         }
-
-        // reusable image element which will be positioned above the mouse position
-        const regionImage = document.createElement('img');
-        regionImage.style.display = 'block';
-        regionImage.style.position = 'absolute';
-        regionImage.style.zIndex = 1001;
-        root.appendChild(regionImage);
-
-        // wrap all lines into ranges
-        root.querySelectorAll('br').forEach((br) => {
-            const next = findEndOfRange(br, 'br');
-            if (!next) {
-                return;
-            }
-            const wrapper = document.createElement('span');
-            wrapper.className = 'line';
-
-            const file = br.getAttribute('data-image');
-            const coords = br.getAttribute('data-coords');
-            const updatedCoords = adjustCoords(coords);
-            // on mouseenter, retrieve the corresponding region of the facsimile from IIIF
-            wrapper.addEventListener('mouseenter', (ev) => {
-                if (ev.target.querySelector('br.toggle')) {
-                    return false;
-                }
-                const top  = (ev.target.offsetTop - updatedCoords[3] + 20) + 'px';
-                regionImage.src = `https://apps.existsolutions.com/cantaloupe/iiif/2/${file}/${updatedCoords.join(',')}/full/0/default.jpg`;
-                regionImage.style.top = top;
-                regionImage.style.display = '';
-                ev.target.classList.add('highlight-line');
-            });
-            wrapper.addEventListener('mouseleave', (ev) => {
-                regionImage.style.display = 'none';
-                ev.target.classList.remove('highlight-line');
-            });
-            const range = document.createRange();
-            range.setStartBefore(br);
-            range.setEndAfter(next);
-            // the line may contain webcomponents like pb-popover which would be detached from the DOM
-            // if we just copied nodes. Therefore we assign a serialized copy to wrapper.innerHTML, which
-            // will cause nested webcomponents to be initialized.
-            const contents = range.extractContents();
-            const div = document.createElement('div');
-            div.appendChild(contents.cloneNode(true));
-            wrapper.innerHTML = div.innerHTML;
-            range.insertNode(wrapper);
-        });
     });
 
     // wait until register content has been loaded
