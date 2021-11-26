@@ -25,16 +25,16 @@
         <pb-page data-template="pages:pb-page" unresolved="unresolved">
             <pb-document id="document1" data-template="pages:pb-document"/>
             <app-drawer-layout force-narrow="force-narrow">
-                <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+                <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
                 <app-header-layout>
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
-                        <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
-                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
-                    </app-header>
-                    <header class="breadcrumbs" data-template="pages:parse-params">
-                        <a href="${app}/">Home</a> &gt; <a href="${app}/uber-die-edition/">Über die Edition</a> &gt;
-                        <div data-template="custom:breadcrumb-suffix"></div>
-                    </header>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
+                            <header class="breadcrumbs" data-path="/uber-die-edition/" data-template="pages:parse-params" data-target="toolbar-start">
+                                <a href="${app}/">Home</a> &gt; <a href="${app}/uber-die-edition/">Über die Edition</a> &gt;
+                                <div data-template="custom:breadcrumb-suffix"></div>
+                            </header>
+                        </app-toolbar>                    </app-header>
                     <main class="content-body single-col">
                         <div class="transcript">
                             <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription">
@@ -42,7 +42,7 @@
                             </pb-view>
                         </div>
                     </main>
-                    <footer data-template="templates:include" data-template-path="templates/footer.html"/>
+                    <footer data-template="lib:include" data-template-path="templates/footer.html"/>
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>
