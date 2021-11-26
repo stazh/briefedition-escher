@@ -51,11 +51,11 @@
         <pb-page data-template="pages:pb-page" unresolved="unresolved" locales="resources/i18n/{{ns}}/{{lng}}.json">
             <pb-document id="document1" data-template="pages:pb-document"/>
             <app-drawer-layout force-narrow="force-narrow">
-                <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+                <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
                 <app-header-layout>
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
-                        <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
-                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html">
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
                             <header class="breadcrumbs" data-template="pages:parse-params" data-path="/kontexte/personen/" data-target="toolbar-start">
                                 <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; 
                                 <a href="${app}/kontexte/personen/">Personen</a> &gt; <span>${label}</span>
@@ -72,7 +72,7 @@
                             <div data-template="custom:person-letters"></div>
                         </section>
                     </main>
-                    <footer data-template="templates:include" data-template-path="templates/footer.html"/>
+                    <footer data-template="lib:include" data-template-path="templates/footer.html"/>
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>
