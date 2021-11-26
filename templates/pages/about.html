@@ -15,43 +15,10 @@
 
         <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap"/>
         <link rel="stylesheet" href="resources/css/theme.css"/>
         <link rel="stylesheet" href="resources/css/escher-theme.css"/>
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
-        <style>
-            @media (min-width: 769px) {
-                .toolbar pb-navigation {
-                    display: none;
-                }
-            }
-
-            .content-body {
-                position: relative;
-                display: flex;
-                justify-content: center;
-            }
-
-            .content-body pb-navigation {
-                position: fixed;
-                bottom: 45%;
-                --paper-fab-background: #35424b;
-                color: white;
-            }
-
-            .content-body pb-navigation[direction=backward] {
-                left: 20px;
-            }
-
-            .content-body pb-navigation[direction=forward] {
-                right: 20px;
-            }
-
-            @media (max-width: 769px) {
-                .content-body pb-navigation {
-                    display: none;
-                }
-            }
-        </style>
     </head>
 
     <body>
@@ -68,7 +35,7 @@
                         <a href="${app}/">Home</a> &gt; <a href="${app}/uber-die-edition/">Über die Edition</a> &gt;
                         <div data-template="custom:breadcrumb-suffix"></div>
                     </header>
-                    <main class="content-body">
+                    <main class="content-body single-col">
                         <div class="transcript">
                             <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription">
                                 <pb-param name="header" value="about"/>

@@ -224,6 +224,16 @@ footer p {
     height: calc(100vh - 280px);
 }
 
+.content-body.single-col {
+    grid-template-columns: auto;
+}
+
+.content-body.single-col .transcript {
+    max-width: 41.24rem;
+    height: auto;
+    overflow: initial;
+}
+
 .content-body #register {
     overflow: auto;
     height: calc(100vh - 270px);
