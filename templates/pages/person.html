@@ -20,9 +20,7 @@
         <link rel="stylesheet" href="resources/css/escher-theme.css"/>
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <style>
-            .toolbar pb-navigation {
-                display: none;
-            }
+           
             div {
                 margin: 0 16px;
             }
@@ -57,12 +55,13 @@
                 <app-header-layout>
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
-                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
+                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html">
+                            <header class="breadcrumbs" data-template="pages:parse-params" data-path="/kontexte/personen/" data-target="toolbar-start">
+                                <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; 
+                                <a href="${app}/kontexte/personen/">Personen</a> &gt; <span>${label}</span>
+                            </header>
+                        </app-toolbar>
                     </app-header>
-                    <header class="breadcrumbs" data-template="pages:parse-params">
-                        <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; 
-                        <a href="${app}/kontexte/personen/">Personen</a> &gt; <span>${label}</span>
-                    </header>
                     <main>
                         <section class="transcript">
                                 <pb-view id="view1" src="document1" xpath="${xpath}" subscribe="transcription" emit="transcription"

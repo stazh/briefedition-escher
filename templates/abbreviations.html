@@ -48,11 +48,12 @@
                 <app-header-layout data-template="app:abbreviations-link">
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"></app-toolbar>
-                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"/>
-                    </app-header>
-                    <header class="breadcrumbs" data-path="kontexte/uberblickskommentare/" data-template="pages:parse-params">
-                        <a href="${app}/home.html">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; Abkürzungen
-                    </header>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
+                            <header class="breadcrumbs" data-path="kontexte/uberblickskommentare/" data-template="pages:parse-params" data-target="toolbar-start">
+                                <a href="${app}/home.html">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; Abkürzungen
+                            </header>
+                        </app-toolbar>
+                    </app-header>               
                     <main class="content-body">
                         <section class="transcript">
                             <div data-template="app:subcategories-abbreviations"/>
