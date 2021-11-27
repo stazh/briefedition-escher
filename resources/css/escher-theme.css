@@ -1,7 +1,7 @@
 /* Due to a safari issue, relative paths to background images won't work as variables, so we list them here */
 
 .menubar {
-    background-image: url("../images/escher_logo.png");
+    background-image: url("../images/escher_logo2.png");
 }
 
 .logo, .toolbar {
@@ -9,7 +9,7 @@
 }
 
 .splash {
-    background-image: url("../images/tei-publisher-logo-color.svg");
+    background-image: url("../images/escher_logo2.png");
 }
 
 app-header {
@@ -19,8 +19,8 @@ app-header {
 body {
     --pb-logo-image-width: 200px;
     --pb-logo-image-height: 109px;
-    --pb-menubar-background-color: #f7f8f8;
-    --pb-menubar-color: var(--pb-color-primary);
+    --pb-menubar-background-color: #211f1f;
+    --pb-menubar-color: var(--pb-color-inverse);
     --pb-toolbar-background-color: #f0f0f0;
     --pb-toolbar-color: var(--pb-color-primary);
     --pb-lang-input-color: var(--pb-color-primary);
@@ -48,6 +48,10 @@ body {
 a:link, a:visited {
     text-decoration: none;
     color: var(--pb-link-color);
+}
+
+.menubar a:link, .menubar a:visited {
+    color: var(--pb-menubar-color);
 }
 
 .menubar {
