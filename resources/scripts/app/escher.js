@@ -116,15 +116,25 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    pbEvents.subscribe('pb-start-update', 'header', (ev) => {
+    pbEvents.subscribe('pb-refresh', 'nav', (ev) => {
         if (letter) {
-            letter.classList.toggle('updating');
+            anime({
+                targets: letter,
+                opacity: 0,
+                duration: 100,
+                easing: 'linear'
+            });
         }
     });
 
     pbEvents.subscribe('pb-end-update', 'transcription', (ev) => {
         if (letter) {
-            letter.classList.toggle('updating');
+            anime({
+                targets: letter,
+                opacity: 1,
+                duration: 800,
+                easing: 'linear'
+            });
         }
     });
 
