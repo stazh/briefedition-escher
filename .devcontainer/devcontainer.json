@@ -8,6 +8,10 @@
         }
     },
     "forwardPorts": [ 8080 ],
+    "runArgs": [
+        "--network host",
+        "--name EscherEdition"
+    ],
     "extensions": [ "exist-db.existdb-vscode", "42crunch.vscode-openapi", "redhat.vscode-xml" ],
     "overrideCommand": false,
     "postCreateCommand": [
