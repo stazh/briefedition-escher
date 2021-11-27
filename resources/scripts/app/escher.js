@@ -94,6 +94,36 @@ window.addEventListener('DOMContentLoaded', () => {
 
     pbEvents.subscribe('pb-update', 'transcription', (ev) => { 
         root = ev.detail.root;
+        // extract letter id
+        const textElem = root.querySelector('.text');
+        if (textElem) {
+            if (textElem.dataset.letter) {
+                document.getElementById('letterId').innerHTML = textElem.dataset.letter;
+            } else {
+                document.getElementById('letterId').innerHTML = textElem.innerHTML;
+            }
+        }
+
+        const footerLink = document.querySelector('.persistentLink');
+        if (textElem && footerLink) {
+            const breadcrumbs = document.querySelector('.breadcrumbs');
+            const appPath = breadcrumbs.dataset.path;
+            const plink = `https://briefedition.alfred-escher.ch${appPath}${textElem.dataset.letter}`;
+            footerLink.href = plink;
+            footerLink.innerHTML = plink;
+        }
+    });
+
+    pbEvents.subscribe('pb-start-update', 'header', (ev) => {
+        document.querySelector('.letter').classList.toggle('updating');
+    });
+
+    pbEvents.subscribe('pb-end-update', 'transcription', (ev) => {
+        document.querySelector('.letter').classList.toggle('updating');
+    });
+
+    pbEvents.subscribe('pb-update', 'header', (ev) => { 
+        root = ev.detail.root;
 
         const corresp = root.querySelector('nav.corresp');
         if (corresp) {
@@ -116,28 +146,9 @@ window.addEventListener('DOMContentLoaded', () => {
             document.getElementById('correspondence').innerHTML = correspTitle.innerHTML;
         }
 
-        // extract letter id
-        const textElem = root.querySelector('.text');
-        if (textElem) {
-            if (textElem.dataset.letter) {
-                document.getElementById('letterId').innerHTML = textElem.dataset.letter;
-            } else {
-                document.getElementById('letterId').innerHTML = textElem.innerHTML;
-            }
-        }
-
         const letterTitle = root.querySelector('.letter-title');
         if (letterTitle) {
             document.title = letterTitle.innerText;
-        }
-
-        const footerLink = document.querySelector('.persistentLink');
-        if (textElem && footerLink) {
-            const breadcrumbs = document.querySelector('.breadcrumbs');
-            const appPath = breadcrumbs.dataset.path;
-            const plink = `https://briefedition.alfred-escher.ch${appPath}${textElem.dataset.letter}`;
-            footerLink.href = plink;
-            footerLink.innerHTML = plink;
         }
     });
 

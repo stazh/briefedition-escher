@@ -23,7 +23,7 @@
     </head>
 
     <body>
-        <pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription">
+        <pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="header">
             <pb-document id="document1" data-template="pages:pb-document"/>
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
@@ -75,27 +75,27 @@
                             <pb-select-feature id="select-view1" name="view1" label="Ansicht" items='[
                             {"name": "Edierter Text", "selectors": [{"selector": ".popover,.annotation,.para", "state": false}, {"selector": "br,.underline,.hyphen,.metamark,.signature,.closer", "state": true}, {"selector": "pb-popover", "command": "disable", "state": false}, {"selector": ".letter", "state": true}, {"selector": ".addition,.deletion", "state": false}]},
                             {"name": "Diplomatischer Text", "selectors": [{"selector": ".popover,.annotation,.para", "state": true}, {"selector": "br,.underline,.hyphen,.metamark,.signature,.closer", "state": false}, {"selector": "pb-popover", "command": "disable", "state": true}, {"selector": ".letter", "state": false}, {"selector": ".addition,.deletion", "state": true}]}
-                            ]' emit="transcription" subscribe="transcription" data-target="toolbar-end"></pb-select-feature>
+                            ]' emit="header" subscribe="transcription" data-target="toolbar-end"></pb-select-feature>
                         </app-toolbar>
                     </app-header>
                     <main class="letter">
                         <header class="edition-nav">
-                            <pb-link id="prev-in-edition" emit="transcription"><iron-icon icon="icons:chevron-left"></iron-icon> Vorheriger Brief in Edition</pb-link>
-                            <pb-link id="next-in-edition" emit="transcription">Nächster Brief in Edition <iron-icon icon="icons:chevron-right"></iron-icon></pb-link>
+                            <pb-link id="prev-in-edition" emit="nav"><iron-icon icon="icons:chevron-left"></iron-icon> Vorheriger Brief in Edition</pb-link>
+                            <pb-link id="next-in-edition" emit="nav">Nächster Brief in Edition <iron-icon icon="icons:chevron-right"></iron-icon></pb-link>
                         </header>
                         <header class="corresp-nav">
-                            <pb-link id="prev" emit="transcription"><iron-icon icon="icons:chevron-left"></iron-icon> Vorheriger Brief</pb-link>
+                            <pb-link id="prev" emit="nav"><iron-icon icon="icons:chevron-left"></iron-icon> Vorheriger Brief</pb-link>
                             <div>Korrespondenz: <span id="correspondence"></span></div>
-                            <pb-link id="next" emit="transcription">Nächster Brief <iron-icon icon="icons:chevron-right"></iron-icon></pb-link>
+                            <pb-link id="next" emit="nav">Nächster Brief <iron-icon icon="icons:chevron-right"></iron-icon></pb-link>
                         </header>
                         <div class="transcript noscroll">
-                            <pb-view id="reference-view1" src="document1" xpath="//teiHeader" view="single" subscribe="transcription" emit="transcription">
+                            <pb-view id="reference-view1" src="document1" xpath="//teiHeader" view="single" subscribe="nav" emit="header">
                                 <pb-param name="display" value="letter-header"/>
                             </pb-view>
                             <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" 
-                                before-update-event="pb-before-update" subscribe="transcription" emit="transcription"/>
+                                on-update="on-update" before-update-event="pb-before-update" subscribe="header" emit="transcription"/>
                         </div>
-                        <pb-view id="register" src="document1" subscribe="transcription" emit="register" view="single">
+                        <pb-view id="register" src="document1" subscribe="transcription" view="single" on-update="on-update">
                             <pb-param name="header" value="context"/>
                         </pb-view>
                         <pb-facsimile base-uri="https://apps.existsolutions.com/cantaloupe/iiif/2/" default-zoom-level="0"
