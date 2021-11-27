@@ -37,6 +37,8 @@ function adjustCoords(coordsString) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
+    const letter = document.querySelector('.letter');
+
     pbEvents.subscribe('pb-before-update', 'transcription', (ev) => {
         root = ev.detail.root;
         // reusable image element which will be positioned above the mouse position
@@ -64,9 +66,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 if (target.querySelector('br.toggle')) {
                     return false;
                 }
-                const top  = (target.offsetTop - updatedCoords[3] + 20) + 'px';
+                const top  = (target.offsetTop - updatedCoords[3] - 10) + 'px';
                 regionImage.src = `https://apps.existsolutions.com/cantaloupe/iiif/2/${file}/${updatedCoords.join(',')}/full/0/default.jpg`;
-                regionImage.style.bottom = top;
+                regionImage.style.top = top;
                 regionImage.style.display = '';
                 target.classList.add('highlight-line');
             });
@@ -115,11 +117,15 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     pbEvents.subscribe('pb-start-update', 'header', (ev) => {
-        document.querySelector('.letter').classList.toggle('updating');
+        if (letter) {
+            letter.classList.toggle('updating');
+        }
     });
 
     pbEvents.subscribe('pb-end-update', 'transcription', (ev) => {
-        document.querySelector('.letter').classList.toggle('updating');
+        if (letter) {
+            letter.classList.toggle('updating');
+        }
     });
 
     pbEvents.subscribe('pb-update', 'header', (ev) => { 
