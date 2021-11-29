@@ -271,18 +271,24 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
     response:set-header("pb-start", xs:string($request?parameters?start)),
     for $hit at $p in subsequence($hits, $request?parameters?start, $request?parameters?per-page)
     let $config := tpu:parse-pi(root($hit), $request?parameters?view)
-    let $letterId := "B" || substring(root($hit)/descendant-or-self::tei:TEI/@xml:id, 3)
+    let $tei-id := root($hit)/descendant-or-self::tei:TEI/@xml:id
+    let $letterId := "B" || substring($tei-id, 3)
   
     let $parent := query:get-parent-section($config, $hit)
     let $parent-id := config:get-identifier($parent)
     let $parent-id := if (exists($docs)) then replace($parent-id, "^.*?([^/]*)$", "$1") else $parent-id
-    let $parent-id := if (util:collection-name($parent-id) = 'briefe') then $letterId else $parent-id
 
     let $uri := 
-        if (starts-with($parent-id, 'B')) then
-            'briefe/'
-        else
-            ()
+        switch (util:collection-name($parent-id))
+                case 'briefe' return 'briefe/'
+                case 'commentary' return 'kontexte/uberblickskommentare/'
+                default return ()
+
+    let $parent-id := 
+        switch (util:collection-name($parent-id))
+            case 'briefe' return $letterId
+            case 'commentary' return $tei-id
+            default return $parent-id
 
     let $div := query:get-current($config, $parent)
     let $expanded := util:expand($hit, "add-exist-id=all")
