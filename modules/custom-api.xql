@@ -204,7 +204,7 @@ declare function api:person-mentions($node as node(), $model as map(*)) {
                 <h3>Erwähnungen von {$model?label}</h3>
                 <pb-collapse>
                     <div slot="collapse-trigger">
-                        <h4><a href="../../index.html?facet-mentioned={$model?key}">In Briefen</a>: {count($letters)}</h4>
+                        <h4><a href="../../briefe/?facet-mentioned={$model?key}">In Briefen</a>: {count($letters)}</h4>
                     </div>
                     <div slot="collapse-content">
                         <ul>
@@ -251,7 +251,7 @@ declare function api:person-letters($node as node(), $model as map(*)) {
 
             return
             <div>
-                <h3><a href="../../index.html?facet-correspondent={$model?key}">Briefe von und an {$model?label}</a>: {count($mentions)}</h3>
+                <h3><a href="../../briefe/?facet-correspondent={$model?key}">Briefe von und an {$model?label}</a>: {count($mentions)}</h3>
 
                 {
                     if (count($mentions) < 15) then 
@@ -261,7 +261,7 @@ declare function api:person-letters($node as node(), $model as map(*)) {
                     else
                         <ul>
                             {api:letter-list(subsequence($mentions, 1, 15), $titles)}
-                            <li><a href="../../index.html?facet-correspondent={$model?key}">... &gt; <pb-i18n key="label.all"/></a></li>
+                            <li><a href="../../briefe/?facet-correspondent={$model?key}">... &gt; <pb-i18n key="label.all"/></a></li>
                         </ul>
                 }
             </div>
