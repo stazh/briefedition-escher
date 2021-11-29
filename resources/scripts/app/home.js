@@ -118,24 +118,57 @@ window.addEventListener('DOMContentLoaded', () => {
 
     function randomImage() {
         const next = Math.floor(Math.random() * images.length);
-        facsimile.style.backgroundImage = `url(resources/images/home/${images[next]})`;
-        const id = images[next].replace(/^K_(\d+)_.*$/, 'B$1');
-        facsimile.href = `${appRoot}/briefe/${id}?view1=1`;
+        const path = `resources/images/home/${images[next]}`;
+        anime({
+            targets: facsimile,
+            opacity: 0,
+            duration: 400,
+            easing: 'linear',
+            complete: () => {
+                const img = new Image();
+                img.addEventListener('load', () => {
+                    facsimile.style.backgroundImage = `url(${path})`;
+                    anime({
+                        targets: facsimile,
+                        opacity: 1,
+                        duration: 800,
+                        easing: 'linear'
+                    });
+                });
+                img.src = path;
+                const id = images[next].replace(/^K_(\d+)_.*$/, 'B$1');
+                facsimile.href = `${appRoot}/briefe/${id}?view1=1`;
+            }
+        });
     }
 
     function randomQuote() {
-        const bottom = document.querySelector('.bottom');
-
         const text = container.querySelector('p');
         const source = container.querySelector('.source');
         const next = Math.floor(Math.random() * data.length);
-        text.innerHTML = data[next].text;
-        source.innerHTML = data[next].source;
-        container.href = `${appRoot}/briefe/${data[next].letter}`;
+        anime({
+            targets: text,
+            opacity: 0,
+            duration: 400,
+            easing: 'linear',
+            complete: () => {
+                text.innerHTML = data[next].text;
+                source.innerHTML = data[next].source;
+                container.href = `${appRoot}/briefe/${data[next].letter}`;
+                anime({
+                    targets: text,
+                    opacity: 1,
+                    duration: 400,
+                    easing: 'linear'
+                });
+            }
+        });
     }
 
     randomImage();
     randomQuote();
     setInterval(randomQuote, 5000);
-    setInterval(randomImage, 4000);
+    setTimeout(() => {
+        setInterval(randomImage, 5000);
+    }, 2000);
 });

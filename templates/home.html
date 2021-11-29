@@ -18,12 +18,13 @@
     <link rel="stylesheet" href="resources/css/escher-theme.css"/>
 
     <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="resources/scripts/app/home.js"></script>
     <style>
         main {
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: auto auto;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: auto auto auto auto auto;
             gap: 10px 10px;
             justify-content: space-evenly;
             max-width: 980px;
@@ -33,7 +34,7 @@
         }
 
         .row {   
-            grid-column: span 6;
+            grid-column: span 5;
             grid-row: 1;
         }
 
@@ -48,14 +49,13 @@
         }
        
         .briefe {
-            grid-row: span 2;
             background-color: rgb(182, 138, 145);
         }
 
         .quote {
             background-color: rgb(237, 150, 56);
-            grid-row: span 2;
-            grid-column: span 2;
+            grid-row: 2 / 5;
+            grid-column: 1 / 3;
         }
 
         .quote i {
@@ -73,12 +73,12 @@
         }
 
         .facsimile {
-            grid-row: span 2;
-            grid-column: span 2;
-            background-image: url(https://www.briefedition.alfred-escher.ch/media/upload/homepage/big/K_0086_1r_v1.jpg);
+            grid-row: 2 / 5;
+            grid-column:  4 / 6;
             background-position: top left;
             background-repeat: no-repeat;
             background-attachment: 0 0;
+            background-size: auto 100%;
         }
 
         .box {
@@ -101,6 +101,10 @@
         }
 
         .box div {
+            font-size: var(--pb-base-font-size);
+        }
+
+        .box .source {
             font-size: var(--pb-font-size-small);
         }
 
@@ -163,12 +167,12 @@
                     <h1 data-template="pages:parse-params">${people}</h1>
                     <div>Personen</div>
                 </a>
-                <a href="#" class="box facsimile"></a>
                 <a href="${app}/home.html" data-template="pages:parse-params" class="box orte">
                     <i class="fas fa-globe-europe"></i>
                     <h1 data-template="pages:parse-params">In Arbeit</h1>
                     <div>Orte</div>
                 </a>
+                <a href="#" class="box facsimile"></a>
             </main>
             <footer data-template="templates:include" data-template-path="templates/footer.html"/>
         </app-header-layout>
