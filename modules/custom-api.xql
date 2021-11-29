@@ -140,12 +140,12 @@ declare function api:people($request as map(*)) {
     let $people :=
         if ($view = "correspondents") then
             if ($search) then
-                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:' || $search)][@type="correspondent"]
+                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:' || $search || '*')][@type="correspondent"]
             else
                 doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[@type="correspondent"]
         else
             if ($search) then
-                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:' || $search)]
+                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:' || $search || '*')]
             else
                 doc($config:data-root || "/people.xml")//tei:listPerson/tei:person
     let $sorted := api:sort($people, $sortDir)

@@ -5,6 +5,9 @@ window.addEventListener('DOMContentLoaded', () => {
     function submit(ev) {
         ev.preventDefault();
         const params = form.serializeForm();
+        if (params.search == null) {
+            delete params.search;
+        }
         pbEvents.emit('pb-search-resubmit', 'grid', { params });
     }
 
