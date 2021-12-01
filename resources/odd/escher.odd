@@ -52,10 +52,12 @@
                 </elementSpec>
                 <elementSpec ident="placeName" mode="add">
                     <model predicate="$parameters?header='context'" behaviour="block">
+            <desc>
+                            <a href="[[uri]]" target="_blank">[[label]]</a> (not linking for the moment)</desc>
             <param name="label" value="@key/string()"/>
             <param name="uri" value="let $initial := substring(@key, 1, 1) return 'https://www.briefedition.alfred-escher.ch/kontexte/orte/' || $initial || '/' || @key"/>
             <param name="ref" value="@key"/>
-            <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
+            <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><span>[[label]]</span></pb:template>
         </model>
                     <model behaviour="inline" cssClass="popover">
             <param name="content" value="."/>
@@ -241,11 +243,11 @@
                 </elementSpec>
             <elementSpec ident="date" mode="change">
                     <model output="web" predicate="$parameters?header='context' and @when and ancestor::correspDesc" behaviour="block">
+            <desc>
+                            <a href="[[uri]]" target="_blank">[[label]]</a> (not linking for the moment)</desc>
             <param name="label" value="ec:format-date(.)"/>
             <param name="uri" value="let $date := replace(@when/string(), '-', '/') return 'https://www.briefedition.alfred-escher.ch/kontexte/chronologie/ansicht-tage/' || $date || '/'"/>
-            <pb:template xmlns="" xml:space="preserve">
-                                    <a href="[[uri]]" target="_blank">[[label]]</a>
-                        </pb:template>
+            <pb:template xmlns="" xml:space="preserve">[[label]]                  </pb:template>
         </model>
                 </elementSpec>
             <elementSpec ident="persName" mode="add">
@@ -267,7 +269,8 @@
             <param name="uri" value="'../kontexte/personen/' || @key"/>
             <param name="label" value="@key"/>
             <param name="ref" value="@key"/>
-            <pb:template xmlns="" xml:space="preserve"><paper-checkbox data-ref="[[ref]]"/><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
+            <param name="link" value="let $id := replace(@key, ' ', '-') let $target:= id($id, doc(&#34;/db/apps/escher/data/people.xml&#34;))  return   if ($target) then   &lt;a href=&#34;../kontexte/personen/{@key}&#34; target=&#34;_blank&#34;&gt;{@key/string()}&lt;/a&gt; else   @key/string()"/>
+            <pb:template xmlns="" xml:space="preserve"><span><paper-checkbox data-ref="[[ref]]"/>[[link]]</span></pb:template>
         </model>
                     <model behaviour="inline" cssClass="popover">
             <param name="content" value="."/>
@@ -592,11 +595,21 @@
             <outputRendition xml:space="preserve">
             
             
+            
                             float: right; 
                             margin-left: 20px;
                         
             
+            
             </outputRendition>
+        </model>
+                </elementSpec>
+            <elementSpec ident="a" mode="add">
+                    <model behaviour="pass-through">
+            <param name="href" value="@href"/>
+            <param name="target" value="@target"/>
+            <param name="label" value="."/>
+            <pb:template xmlns="" xml:space="preserve"><a href="[[href]]" target="[[target]]">[[label]]</a></pb:template>
         </model>
                 </elementSpec>
             </schemaSpec>
