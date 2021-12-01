@@ -172,6 +172,10 @@ paper-checkbox, paper-card {
     padding-bottom: 60px;
 }
 
+.letter:not(.toggle) .transcript {
+    --pb-view-max-width: auto;
+}
+
 .letter .transcript pb-view {
     margin: 0;
 }
