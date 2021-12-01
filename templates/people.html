@@ -21,16 +21,27 @@
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <script src="resources/scripts/app/people.js"></script>
         <style>
-            main {
-                margin: 0 auto;
-                max-width: 1024px;
+            .content-body.single-col {
+                grid-template-columns: minmax(auto, 64rem);
+                justify-content: center;
             }
 
-            pb-table-grid {
-                width: 100%;
-                --pb-table-grid-height: calc(100vh - 390px);
+            .content-body.single-col .transcript {
+                max-width: none;
             }
-            
+
+            .people-list header {
+                display: grid;
+                grid-auto-flow: column;
+                width: 100%;
+                column-gap: 10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .people-list .list {
+                display: grid;
+                grid-template-columns: auto auto;
+            }
             form {
                 display: flex;
                 justify-content: space-between;
@@ -59,26 +70,27 @@
                             </header>
                         </app-toolbar>
                     </app-header>
-                    <main>
-                        <iron-form id="options">
-                            <form>
-                                <paper-input id="query" name="search" label="Suche">
-                                    <paper-icon-button icon="search" slot="suffix"></paper-icon-button>
-                                </paper-input>
-                                <div class="radios">
-                                    <label>
-                                        <input type="radio" name="view" value="correspondents" checked="" data-template="templates:form-control"/> Korrespondenten
-                                    </label>
-                                    <label>
-                                        <input type="radio" name="view" value="mentions" data-template="templates:form-control"/> Korrespondenten und erwähnte Personen
-                                    </label>
-                                </div>
-                            </form>
-                        </iron-form>
-                        <pb-table-grid source="api/people/" resizable="" per-page="30" emit="grid" subscribe="grid">
-                            <pb-table-column label="Name" property="name" sort="sort"></pb-table-column>
-                            <pb-table-column label="Lebensdaten" property="dates"></pb-table-column>
-                        </pb-table-grid>
+                    <main class="content-body single-col">
+                        <div class="transcript">
+                            <iron-form id="options">
+                                <form>
+                                    <paper-input id="query" name="search" label="Suche">
+                                        <paper-icon-button icon="search" slot="suffix"></paper-icon-button>
+                                    </paper-input>
+                                    <div class="radios">
+                                        <label>
+                                            <input type="radio" name="view" value="correspondents" checked="" data-template="templates:form-control"/> Korrespondenten
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="view" value="mentions" data-template="templates:form-control"/> Korrespondenten und erwähnte Personen
+                                        </label>
+                                    </div>
+                                    <input type="hidden" name="letter" value="a" data-template="templates:form-control"/>
+                                </form>
+                            </iron-form>
+
+                            <pb-load url="api/people" subscribe="grid" emit="grid"></pb-load>
+                        </div>
                     </main>
                     <footer data-template="templates:include" data-template-path="templates/footer.html"/>
                 </app-header-layout>

@@ -131,7 +131,8 @@ declare function api:view-about($request as map(*)) {
 };
 
 declare function api:people($request as map(*)) {
-    let $search := $request?parameters?search
+    let $search := normalize-space($request?parameters?search)
+    let $letterParam := lower-case($request?parameters?letter)
     let $view := $request?parameters?view
     let $sortDir := $request?parameters?dir
     let $limit := $request?parameters?limit
@@ -140,50 +141,87 @@ declare function api:people($request as map(*)) {
     let $people :=
         if ($view = "correspondents") then
             if ($search) then
-                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:' || $search || '*')][@type="correspondent"]
+                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:(' || $search || '*)')][@type="correspondent"]
             else
                 doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[@type="correspondent"]
         else
             if ($search) then
-                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:' || $search || '*')]
+                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:(' || $search || '*)')]
             else
                 doc($config:data-root || "/people.xml")//tei:listPerson/tei:person
-    let $sorted := api:sort($people, $sortDir)
-    let $subset := subsequence($sorted, $start, $limit)
-    return (
-        session:set-attribute($config:session-prefix || ".hits", $people),
-        session:set-attribute($config:session-prefix || ".hitCount", count($people)),
-        map {
-            "count": count($people),
-            "results":
-                array {
-                    for $person in $subset
-                    let $name := $person/tei:persName
-                    let $label :=
-                        if ($name/tei:surname) then
-                            string-join(($name/tei:surname, $name/tei:forename), ", ")
-                        else
-                            $name/string()
+    let $byKey := for-each($people, function($person as element()) {
+        let $name := $person/tei:persName
+        let $label :=
+            if ($name/tei:surname) then
+                string-join(($name/tei:surname, $name/tei:forename), ", ")
+            else
+                $name/text()
+        let $sortKey :=
+            if (starts-with($label, "von ")) then
+                substring($label, 5)
+            else
+                $label
+        return
+            [lower-case($sortKey), $label, $person]
+    })
+    let $sorted := api:sort($byKey, $sortDir)
+    let $prevQuery := session:get-attribute($config:session-prefix || ".people.query")
+    let $letter := 
+        if (count($people) < $limit) then 
+            "all"
+        else if ($letterParam = '' or $prevQuery != $search) then
+            substring($sorted[1]?1, 1, 1)
+        else
+            $letterParam
+    let $byLetter :=
+        if ($letter = 'all') then
+            $sorted
+        else
+            filter($sorted, function($entry) {
+                starts-with($entry?1, $letter)
+            })
+    let $split := count($byLetter) idiv 2
+    return
+        <div class="people-list">
+            { session:set-attribute($config:session-prefix || ".people.query", $search) }
+            <header title="{$prevQuery}" data-active="{$letter}">
+            {
+                if (count($people) < $limit) then
+                    ()
+                else (
+                    for $index in 1 to string-length('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+                    let $alpha := substring('ABCDEFGHIJKLMNOPQRSTUVWXYZ', $index, 1)
+                    let $current := lower-case($alpha)
+                    let $hits := count(filter($sorted, function($entry) { starts-with($entry?1, $current)}))
+                    where $hits > 0
                     return
-                        map {
-                            "id": $person/@xml:id/string(),
-                            "name": <a href="{$person/@n}">{$label}</a>,
-                            "dates": string-join(($person/tei:birth, $person/tei:death), "–")
-                        }
-                }
-        }
-    )  
+                        <a href="#{$current}" title="{$hits} Einträge" class="{if ($current = $letter) then 'active' else ()}">{$alpha}</a>,
+                    <a href="#all" title="{count($sorted)} Einträge" class="{if ($letter = 'all') then 'active' else ()}">All</a>
+                )
+            }
+            </header>
+
+            <div class="list">
+                <div>{ api:output-person(subsequence($byLetter, 1, $split + 1)) }</div>
+                <div>{ api:output-person(subsequence($byLetter, $split + 2)) }</div>
+            </div>
+        </div>
 };
 
-declare function api:sort($people as element()*, $dir as xs:string) {
+declare function api:output-person($list) {
+    for $person in $list
+    let $dates := string-join(($person?3/tei:birth, $person?3/tei:death), "–")
+    return
+        <div class="person">
+            <a href="{$person?3/@n}">{$person?2}</a>
+            { if ($dates) then <span class="dates"> ({$dates})</span> else () }
+        </div>
+};
+
+declare function api:sort($people as array(*)*, $dir as xs:string) {
     let $sorted :=
-        sort($people, (), function($person) {
-            let $name := $person/tei:persName
-            return
-                if ($name/tei:surname) then
-                    string-join(($name/tei:surname, $name/tei:forename), ", ")
-                else
-                    $name/text()
+        sort($people, "?lang=de-DE", function($entry) {
+            $entry?1
         })
     return
         if ($dir = "asc") then

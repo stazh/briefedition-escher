@@ -820,6 +820,13 @@
                         }
                     },
 					{
+						"name": "letter",
+						"in": "query",
+						"schema": {
+							"type": "string"
+						}
+					},
+					{
 						"name": "view",
 						"in": "query",
 						"schema":{
@@ -836,26 +843,11 @@
                         }
                     },
                     {
-                        "name": "filter",
-                        "in": "query",
-                        "schema": {
-                            "type": "string"
-                        }
-                    },
-                    {
                         "name": "limit",
                         "in": "query",
                         "schema": {
                             "type": "integer",
-                            "default": 30
-                        }
-                    },
-                    {
-                        "name": "start",
-                        "in": "query",
-                        "schema": {
-                            "type": "integer",
-                            "default": 0
+                            "default": 50
                         }
                     },
                     {
@@ -870,9 +862,9 @@
                     "200": {
                         "description": "List of register entries",
                         "content": {
-                            "application/json": {
+                            "text/html": {
                                 "schema":{
-                                    "type": "object"
+                                    "type": "string"
                                 }
                             }
                         }
