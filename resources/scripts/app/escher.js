@@ -5,17 +5,28 @@
  * @param {Node} current the start node of the range
  * @param {string} selector a selector against which found nodes should match
  */
-function findEndOfRange(current, selector) {
+function findEndOfRange(root, current, selector) {
+    const walker = document.createTreeWalker(root);
+    walker.currentNode = current;
     let last = null;
-    let next = current.nextSibling;
-    while(next) {
-        if (next.nodeType === Node.ELEMENT_NODE && next.matches(selector)) {
-            return last;
+    while (walker.nextNode()) {
+        if (walker.currentNode.nodeType === Node.ELEMENT_NODE && walker.currentNode.matches(selector)) {
+            return walker.currentNode;
         }
-        last = next;
-        next = next.nextSibling;
+        last = walker.currentNode;
     }
     return last;
+}
+
+function ancestor(node, selector) {
+    let parent = node.parentNode;
+    while (parent && parent !== node.getRootNode()) {
+      if (parent.matches(selector)) {
+        return parent;
+      }
+      parent = parent.parentNode;
+    }
+    return parent;
 }
 
 let root;
@@ -33,7 +44,7 @@ function findPopovers(id, callback) {
  */
 function adjustCoords(coordsString) {
     const coords = coordsString.split(',');
-    return [coords[0], coords[1], coords[2] - coords[0], coords[3] - coords[1]];
+    return [parseInt(coords[0]), parseInt(coords[1]), coords[2] - coords[0], coords[3] - coords[1]];
 }
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -50,7 +61,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         // wrap all lines into ranges
         root.querySelectorAll('br').forEach((br) => {
-            const next = findEndOfRange(br, 'br');
+            const next = findEndOfRange(ancestor(br, 'p,div'), br, 'br');
             if (!next) {
                 return;
             }
@@ -66,10 +77,30 @@ window.addEventListener('DOMContentLoaded', () => {
                 if (target.querySelector('br.toggle')) {
                     return false;
                 }
+                pbEvents.emit('pb-show-annotation', 'transcription', {
+                    file,
+                    coordinates: updatedCoords
+                });
+                console.log(updatedCoords);
                 const top  = (target.offsetTop - updatedCoords[3] - 10) + 'px';
-                regionImage.src = `https://apps.existsolutions.com/cantaloupe/iiif/2/${file}/${updatedCoords.join(',')}/full/0/default.jpg`;
+                const containerWidth = wrapper.clientWidth;
+                const imgUrl = `https://apps.existsolutions.com/cantaloupe/iiif/2/${file}/${updatedCoords.join(',')}/full/0/default.jpg`;
+                regionImage.style.display = 'none';
                 regionImage.style.top = top;
-                regionImage.style.display = '';
+                const buffer = new Image();
+                buffer.addEventListener('load', () => {
+                    if (buffer.width > containerWidth) {
+                        regionImage.style.width = '100%';
+                        regionImage.style.height = 'auto';
+                    } else {
+                        regionImage.style.width = 'auto';
+                        regionImage.style.height = 'auto';
+                    }
+                    regionImage.style.display = '';
+                    regionImage.src = imgUrl;
+                });
+                buffer.src = imgUrl;
+                
                 target.classList.add('highlight-line');
             });
             wrapper.addEventListener('mouseleave', (ev) => {
@@ -78,17 +109,21 @@ window.addEventListener('DOMContentLoaded', () => {
             });
             const range = document.createRange();
             range.setStartBefore(br);
-            range.setEndAfter(next);
-            range.surroundContents(wrapper);
+            if (next.nodeName === 'BR') {
+                range.setEndBefore(next);
+            } else {
+                range.setEndAfter(next);
+            }
+            // range.surroundContents(wrapper);
 
             // the line may contain webcomponents like pb-popover which would be detached from the DOM
             // if we just copied nodes. Therefore we assign a serialized copy to wrapper.innerHTML, which
             // will cause nested webcomponents to be initialized.
-            // const contents = range.extractContents();
-            // const div = document.createElement('div');
-            // div.appendChild(contents.cloneNode(true));
-            // wrapper.innerHTML = div.innerHTML;
-            // range.insertNode(wrapper);
+            const contents = range.extractContents();
+            const div = document.createElement('div');
+            div.appendChild(contents.cloneNode(true));
+            wrapper.innerHTML = div.innerHTML;
+            range.insertNode(wrapper);
         });
 
         ev.detail.render(root);
