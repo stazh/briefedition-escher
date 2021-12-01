@@ -72,6 +72,16 @@ else if (matches($exist:resource, "\.(png|jpg|jpeg|gif|tif|tiff|txt|mei)$", "s")
         <forward url="{$exist:controller}/data/{$exist:path}"/>
     </dispatch>
 
+else if ($exist:path = "/kontexte/") then
+    <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+        <redirect url="{$config:context-path}/kontexte/alfred-escher"/>
+    </dispatch>
+
+else if ($exist:path = "/uber-die-edition/") then
+    <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+        <redirect url="{$config:context-path}/uber-die-edition/credits"/>
+    </dispatch>
+
 (: all other requests are passed on the Open API router :)
 else
     let $main := 
