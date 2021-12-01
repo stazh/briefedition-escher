@@ -15,6 +15,7 @@ import module namespace query="http://www.tei-c.org/tei-simple/query" at "../../
 import module namespace nav="http://www.tei-c.org/tei-simple/navigation" at "../../navigation.xql";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "../util.xql";
 import module namespace kwic="http://exist-db.org/xquery/kwic" at "resource:org/exist/xquery/lib/kwic.xql";
+import module namespace pm-config="http://www.tei-c.org/tei-simple/pm-config" at "pm-config.xql";
 
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 
@@ -103,8 +104,9 @@ declare function app:view-bibliography($node as node(), $model as map(*)) {
                 <div>
                 {
                     for $entry in $group
+                    let $content := $pm-config:web-transform($entry/tei:bibl, map { "root": $entry/tei:bibl, "webcomponents": 7 }, $config:default-odd)
                     return 
-                        <p>{$entry/tei:bibl} [{$entry/tei:abbr}]</p>
+                        <p>{$content} [{$entry/tei:abbr}]</p>
                 }
                 </div>
             </div>

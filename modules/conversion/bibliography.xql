@@ -44,8 +44,25 @@ declare function conv:entry($entry as element()) {
     <bibl xml:id="{$entry/@id}" type="{$entry/@type}">
         {if ($entry/@escheriana = "true") then attribute subtype {'escheriana'} else ()}
         <abbr>{$entry/rs/string()}</abbr>
-        <bibl>{$entry/bibl/string()}</bibl>
+        <bibl>{conv:transform($entry/bibl/node())}</bibl>
     </bibl>
+};
+
+declare function conv:transform($nodes as node()*) {
+    for $node in $nodes
+    return
+        typeswitch($node)
+            case element(ref) return
+                <ref target="{$node/text()}">{$node/string()}</ref>
+            case element(abbr) return
+                <choice><abbr>{conv:transform($node/node())}</abbr><expan>{$node/@norm/string()}</expan></choice>
+            case element() return
+                element { node-name($node) } {
+                    $node/@*,
+                    conv:transform($node/node())
+                }  
+            default return
+                $node
 };
 
 declare function conv:fix-xmlid($id as xs:string) {
