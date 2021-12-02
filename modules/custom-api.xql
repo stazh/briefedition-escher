@@ -136,8 +136,6 @@ declare function api:people($request as map(*)) {
     let $view := $request?parameters?view
     let $sortDir := $request?parameters?dir
     let $limit := $request?parameters?limit
-    let $start := $request?parameters?start
-    let $filter := $request?parameters?filter
     let $people :=
         if ($view = "correspondents") then
             if ($search) then

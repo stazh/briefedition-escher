@@ -81,7 +81,6 @@ window.addEventListener('DOMContentLoaded', () => {
                     file,
                     coordinates: updatedCoords
                 });
-                console.log(updatedCoords);
                 const top  = (target.offsetTop - updatedCoords[3] - 10) + 'px';
                 const containerWidth = wrapper.clientWidth;
                 const imgUrl = `https://apps.existsolutions.com/cantaloupe/iiif/2/${file}/${updatedCoords.join(',')}/full/0/default.jpg`;
