@@ -33,6 +33,16 @@
             font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
         }
 
+        @media (max-width: 1023px) {
+            main {
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: auto auto;
+                gap: 4px;
+                height: auto;
+                margin: 32px 10px 0 10px;
+            }
+        }
+
         .row {   
             grid-column: span 5;
             grid-row: 1;
@@ -81,6 +91,13 @@
             background-size: auto 100%;
         }
 
+        @media (max-width: 1023px) {
+            .homepage a.facsimile, .homepage a.facsimile:link,
+            .homepage a.quote, .homepage a.quote:link {
+                display: none;
+            }
+        }
+
         .box {
             display: block;
             position: relative;
@@ -108,14 +125,14 @@
             font-size: var(--pb-font-size-small);
         }
 
-        .tp-title {
-            font-size: 22px;
-            font-weight: bold;
+        .teaser {
+            line-height: 27px;
         }
 
-        .teaser {
-            font-size: 18px;
-            line-height: 27px;
+        @media (min-width: 1024px) {
+            teaser {
+                font-size: var(--pb-heading-h4-font-size);
+            }
         }
 
         .homepage a, .homepage a:link {
@@ -128,54 +145,57 @@
 <body>
     <pb-page data-template="pages:pb-page" unresolved="unresolved" 
         locales="resources/i18n/{{ns}}/{{lng}}.json" locale-fallback-ns="app">
-        <app-header-layout>
-            <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
-                <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
-                <pb-media-query query="(max-width: 1023px)">
-                    <app-toolbar class="toolbar" sticky="sticky">
-                        <!-- Search input -->
-                        <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" redirect="redirect"/>
-                        <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
-                    </app-toolbar>
-                </pb-media-query>
-            </app-header>
-            <main class="homepage" data-template="app:counts">
-                
-                <div id="wilkommen" class="row">
-                    <h1 class="tp-title">Herzlich willkommen bei der Alfred Escher-Briefedition</h1>
-                    <p class="teaser">Erleben Sie mit Alfred Escher die Schweiz im 19. Jahrhundert. Tauchen Sie ein in die faszinierende Welt der 
-                        Briefe und verfolgen Sie die einzigartige Agenda Alfred Eschers. Gewinnen Sie vielfältige Eindrücke von 
-                        Ereignissen und Phänomenen und lassen Sie sich von bisher unbekannten Zusammenhängen überraschen.</p>
-                </div>
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
+            <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                    <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                    <pb-media-query query="(max-width: 1023px)">
+                        <app-toolbar class="toolbar" sticky="sticky">
+                            <pb-media-query query="(max-width: 1023px)">
+                                <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
+                            </pb-media-query>
+                        </app-toolbar>
+                    </pb-media-query>
+                </app-header>
+                <main class="homepage" data-template="app:counts">
+                    
+                    <div id="wilkommen" class="row">
+                        <h1 class="tp-title">Herzlich willkommen bei der Alfred Escher-Briefedition</h1>
+                        <p class="teaser">Erleben Sie mit Alfred Escher die Schweiz im 19. Jahrhundert. Tauchen Sie ein in die faszinierende Welt der 
+                            Briefe und verfolgen Sie die einzigartige Agenda Alfred Eschers. Gewinnen Sie vielfältige Eindrücke von 
+                            Ereignissen und Phänomenen und lassen Sie sich von bisher unbekannten Zusammenhängen überraschen.</p>
+                    </div>
 
-                <a href="#" data-app="${app}" data-template="pages:parse-params" class="box quote">
-                    <i class="fas fa-quote-left"></i>
-                    <div class="bottom">
-                        <p></p>
-                        <div class="source"></div>
-                    </div>
-                </a>
-                <a href="${app}/briefe/" data-template="pages:parse-params" class="box briefe">
-                    <i class="fas fa-envelope"></i>
-                    <div class="bottom">
-                        <h1 data-template="pages:parse-params">${letters}</h1>
-                        <div>Briefe</div>
-                    </div>
-                </a>
-                <a href="${app}/kontexte/personen/" data-template="pages:parse-params" class="box personen">
-                    <i class="fas fa-users"></i>
-                    <h1 data-template="pages:parse-params">${people}</h1>
-                    <div>Personen</div>
-                </a>
-                <a href="${app}/home.html" data-template="pages:parse-params" class="box orte">
-                    <i class="fas fa-globe-europe"></i>
-                    <h1 data-template="pages:parse-params">In Arbeit</h1>
-                    <div>Orte</div>
-                </a>
-                <a href="#" class="box facsimile"></a>
-            </main>
-            <footer data-template="templates:include" data-template-path="templates/footer.html"/>
-        </app-header-layout>
+                    <a href="#" data-app="${app}" data-template="pages:parse-params" class="box quote">
+                        <i class="fas fa-quote-left"></i>
+                        <div class="bottom">
+                            <p></p>
+                            <div class="source"></div>
+                        </div>
+                    </a>
+                    <a href="${app}/briefe/" data-template="pages:parse-params" class="box briefe">
+                        <i class="fas fa-envelope"></i>
+                        <div class="bottom">
+                            <h1 data-template="pages:parse-params">${letters}</h1>
+                            <div>Briefe</div>
+                        </div>
+                    </a>
+                    <a href="${app}/kontexte/personen/" data-template="pages:parse-params" class="box personen">
+                        <i class="fas fa-users"></i>
+                        <h1 data-template="pages:parse-params">${people}</h1>
+                        <div>Personen</div>
+                    </a>
+                    <a href="${app}/home.html" data-template="pages:parse-params" class="box orte">
+                        <i class="fas fa-globe-europe"></i>
+                        <h1 data-template="pages:parse-params">In Arbeit</h1>
+                        <div>Orte</div>
+                    </a>
+                    <a href="#" class="box facsimile"></a>
+                </main>
+                <footer data-template="templates:include" data-template-path="templates/footer.html"/>
+            </app-header-layout>
+        </app-drawer-layout>
     </pb-page>
     <div class="splash"/>
 </body>

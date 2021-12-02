@@ -2,68 +2,87 @@
 <app-drawer slot="drawer" align="right">
     <div class="drawer-content">
         <pb-media-query query="max-width: 1023px">
-            <!-- language selector -->
-            <pb-lang name="lang" data-template="pages:languages"/>
+            <h3>
+                <a href="${app}/briefe/" data-template="pages:parse-params">Briefe</a>
+            </h3>
             <pb-collapse>
                 <h3 slot="collapse-trigger">
-                    <pb-i18n key="menu.documentation">Documentation</pb-i18n>
+                    <a href="#" data-i18n="[title]menu.contexts" title="foo">
+                        <pb-i18n key="menu.contexts">Kontexte</pb-i18n>
+                    </a>
                 </h3>
                 <paper-listbox slot="collapse-content">
                     <paper-item>
-                        <a href="${app}/doc/documentation.xml?odd=docbook.odd" data-template="pages:parse-params">
-                            <pb-i18n key="menu.documentation">Documentation</pb-i18n>
-                        </a>
+                        <a href="${app}/kontexte/alfred-escher" data-template="pages:parse-params"><pb-i18n key="menu.escher">Alfred Escher</pb-i18n></a>
+                    </paper-item>
+                    <paper-item disabled="disabled">
+                        <pb-i18n key="menu.chronologie">Chronologie</pb-i18n>
                     </paper-item>
                     <paper-item>
-                        <a href="https://faq.teipublisher.com/">FAQ</a>
+                        <a href="${app}/kontexte/personen/" data-template="pages:parse-params"><pb-i18n key="menu.escher">Personen</pb-i18n></a>
+                    </paper-item>
+                    <paper-item disabled="disabled">
+                        <pb-i18n key="menu.escher">Orte</pb-i18n>
                     </paper-item>
                     <paper-item>
-                        <a href="${app}/doc/blog/" data-template="pages:parse-params">
-                            <pb-i18n key="menu.news">News</pb-i18n>
-                        </a>
+                        <a href="${app}/kontexte/uberblickskommentare/" data-template="pages:parse-params"><pb-i18n key="menu.escher">Überblickskommentare</pb-i18n></a>
                     </paper-item>
                     <paper-item>
-                        <a href="https://unpkg.com/@teipublisher/pb-components@latest/dist/api.html" target="_blank">Webcomponents API</a>
+                        <a href="${app}/kontexte/abkurzungen/Quellen/A" data-template="pages:parse-params"><pb-i18n key="menu.escher">Abkürzungen</pb-i18n></a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="${app}/kontexte/bibliographie/Escheriana/Alle" data-template="pages:parse-params"><pb-i18n key="menu.escher">Bibliographie</pb-i18n></a>
                     </paper-item>
                 </paper-listbox>
             </pb-collapse>
+
             <pb-collapse>
                 <h3 slot="collapse-trigger">
-                    <pb-i18n key="menu.download.title">Download</pb-i18n>
+                    <a href="#" data-i18n="[title]menu.about" title="i18n(download)">
+                        <pb-i18n key="menu.about">Über die Edition</pb-i18n>
+                    </a>
                 </h3>
                 <paper-listbox slot="collapse-content">
-                    <paper-item>
-                        <pb-download type="tex" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)">
-                            <pb-i18n key="menu.download.pdf-latex"/>
-                        </pb-download>
+                    <paper-item disabled="disabled">
+                        <a href="${app}/uber-die-edition/credits" data-template="pages:parse-params">Credits</a>
                     </paper-item>
                     <paper-item>
-                        <pb-download type="tex" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.latex-source" title="i18n(pdf-latex)" source="source">
-                            <pb-i18n key="menu.download.latex-source"/>
-                        </pb-download>
+                        <a href="${app}/uber-die-edition/projektbeschrieb" data-template="pages:parse-params">Projektbeschrieb</a>
                     </paper-item>
                     <paper-item>
-                        <pb-download type="pdf" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="pdf-fo">
-                            <pb-i18n key="menu.download.pdf-fo"/>
-                        </pb-download>
+                        <a href="${app}/uber-die-edition/editionsprinzipien" data-template="pages:parse-params">Editionsprinzipien</a>
+                    </paper-item>
+                    <paper-item disabled="disabled">
+                        <a href="${app}/uber-die-edition/technische-grundlagen" data-template="pages:parse-params">Technische Grundlagen</a>
                     </paper-item>
                     <paper-item>
-                        <pb-download type="pdf" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="i18n(pdf-fo)" source="source">
-                            <pb-i18n key="menu.download.fo-source"/>
-                        </pb-download>
+                        <a href="${app}/uber-die-edition/impressum" data-template="pages:parse-params">Impressum</a>
                     </paper-item>
                     <paper-item>
-                        <pb-download type="epub" src="document1" data-i18n="[title]menu.download.epub" dialog="downloadDialog">
-                            ePUB
-                        </pb-download>
-                    </paper-item>
-                    <paper-item>
-                        <pb-edit-xml src="document1" data-i18n="[title]menu.download.view-tei" title="view-tei">
-                            XML
-                        </pb-edit-xml>
+                        <a href="${app}/uber-die-edition/disclaimer" data-template="pages:parse-params">Disclaimer</a>
                     </paper-item>
                 </paper-listbox>
-            </pb-collapse>
+            </pb-collapse>        
+            <div id="custom" style="display: none;"></div>
+            <pb-restricted login="login">
+                <paper-menu-button>
+                    <a href="#" slot="dropdown-trigger">
+                        <pb-i18n key="menu.admin.title">Admin</pb-i18n>
+                    </a>
+                    <paper-listbox slot="dropdown-content">
+                        <paper-item data-template="pages:edit-odd-list"/>
+                        <paper-item>
+                            <pb-download url="api/apps/download">
+                                <pb-i18n key="appgen.xar-download">Download App as .xar</pb-i18n>
+                            </pb-download>
+                        </paper-item>
+                        <paper-item>
+                            <a href="${app}/api.html" data-template="pages:parse-params" target="_blank">API Documentation</a>
+                        </paper-item>
+                    </paper-listbox>
+                </paper-menu-button>
+            </pb-restricted>
+            
             <pb-restricted login="login">
                 <pb-collapse>
                     <h3 slot="collapse-trigger">
@@ -84,16 +103,5 @@
                 </pb-collapse>
             </pb-restricted>
         </pb-media-query>
-        <div class="settings">
-            <h3>Settings</h3>
-            <pb-toggle-feature emit="transcription" subscribe="transcription" name="view" on="page" off="div" init-from-view="init-from-view">
-                <pb-i18n key="document.view-type">Page View</pb-i18n>
-            </pb-toggle-feature>
-            <pb-edit-xml src="document1">
-                <paper-button alt="Edit source">
-                    <iron-icon icon="icons:code"/> <pb-i18n key="menu.download.view-tei"/>
-                </paper-button>
-            </pb-edit-xml>
-        </div>
     </div>
 </app-drawer>

@@ -13,5 +13,8 @@
     <pb-zoom emit="transcription" direction="out" icon="icons:zoom-out"/-->
     <!--paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/-->
     <div id="toolbar-end" style="display: none"></div>
+    <pb-media-query query="(max-width: 1023px)">
+        <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
+    </pb-media-query>
     <pb-progress subscribe="transcription" indeterminate="indeterminate" bottom-item="bottom-item"/>
 </app-toolbar>
