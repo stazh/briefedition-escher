@@ -35,6 +35,7 @@
     <body>
         <pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription" locales="resources/i18n/{{ns}}/{{lng}}.json">
             <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
                 <app-header-layout data-template="app:bibliography-link">
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>

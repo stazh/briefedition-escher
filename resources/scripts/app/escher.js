@@ -81,13 +81,17 @@ window.addEventListener('DOMContentLoaded', () => {
                     file,
                     coordinates: updatedCoords
                 });
-                const top  = (target.offsetTop - updatedCoords[3] - 10) + 'px';
+                // const top  = (target.offsetTop - updatedCoords[3] - 10) + 'px';
                 const containerWidth = wrapper.clientWidth;
                 const imgUrl = `https://apps.existsolutions.com/cantaloupe/iiif/2/${file}/${updatedCoords.join(',')}/full/0/default.jpg`;
                 regionImage.style.display = 'none';
-                regionImage.style.top = top;
                 const buffer = new Image();
                 buffer.addEventListener('load', () => {
+                    const containerRect = root.getBoundingClientRect();
+                    const rects = target.getClientRects();
+                    regionImage.style.top = (rects[0].top - containerRect.top - updatedCoords[3] - 10)+ 'px';
+                    regionImage.style.left = (rects[0].left - containerRect.left) + 'px';
+                    regionImage.style.right = (rects[0].right - containerRect.right) + 'px';
                     if (buffer.width > containerWidth) {
                         regionImage.style.width = '100%';
                         regionImage.style.height = 'auto';

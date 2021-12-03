@@ -23,7 +23,7 @@ window.addEventListener('WebComponentsReady', () => {
 
     function submit(ev) {
         ev.preventDefault();
-        pbEvents.emit('pb-load', 'grid', { params: getFormParams() });
+        pbEvents.emit('pb-load', 'transcription', { params: getFormParams() });
     }
 
     const params = new URLSearchParams(location.search);
@@ -39,13 +39,13 @@ window.addEventListener('WebComponentsReady', () => {
         input.addEventListener('change', submit);
     });
 
-    pbEvents.subscribe('pb-end-update', 'grid', () => {
+    pbEvents.subscribe('pb-end-update', 'transcription', () => {
         document.querySelectorAll('.people-list header a').forEach(link => {
             link.addEventListener('click', (ev) => {
                 ev.preventDefault();
                 document.querySelector('[name=letter]').value = link.hash.substring(1);
                 const params = getFormParams();
-                pbEvents.emit('pb-load', 'grid', { params });
+                pbEvents.emit('pb-load', 'transcription', { params });
             });
         });
         const header = document.querySelector('.people-list header');
@@ -58,5 +58,5 @@ window.addEventListener('WebComponentsReady', () => {
     });
 
     const initial = getFormParams();
-    pbEvents.emit('pb-load', 'grid', { params: initial });
+    pbEvents.emit('pb-load', 'transcription', { params: initial });
 });

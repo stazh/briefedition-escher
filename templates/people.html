@@ -42,17 +42,39 @@
                 display: grid;
                 grid-template-columns: auto auto;
             }
+
             form {
                 display: flex;
                 justify-content: space-between;
                 width: 100%;
                 align-items: end;
             }
-            form input[type=radio] {
+            form label {
                 margin-left: 30px;
             }
             form [name=search] {
                 min-width: 280px;
+            }
+
+            @media (max-width: 767px) {
+                .people-list .list {
+                    grid-template-columns: auto;
+                }
+
+                form {
+                    display: block;
+                }
+                form label {
+                    margin: 0;
+                    display: block;
+                }
+                .people-list header {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                form [name=search] {
+                    min-width: auto;
+                }
             }
         </style>
     </head>
@@ -89,7 +111,7 @@
                                 </form>
                             </iron-form>
 
-                            <pb-load url="api/people" subscribe="grid" emit="grid"></pb-load>
+                            <pb-load url="api/people" subscribe="transcription" emit="transcription"></pb-load>
                         </div>
                     </main>
                     <footer data-template="templates:include" data-template-path="templates/footer.html"/>

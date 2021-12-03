@@ -51,6 +51,14 @@ body {
 @media (max-width: 1023px) {
     body {
         --pb-base-font-size: 14px;
+        --pb-content-font-size: var(--pb-base-font-size);
+        --pb-letter-font-size: var(--pb-base-font-size);
+        --pb-heading-h1-font-size: 2.074em;
+        --pb-heading-h2-font-size: 1.728em;
+        --pb-heading-h3-font-size: 1.44em;
+        --pb-heading-h4-font-size: 1.2em;
+        --pb-heading-h5-font-size: 1em;
+        --pb-heading-h6-font-size: 1em;
     }
 }
 
@@ -119,7 +127,7 @@ paper-checkbox, paper-card {
     /* grid-column: 1; */
 }
 
-@media (max-width: 400px) {
+@media (max-width: 459px) {
     .breadcrumbs {
         display: none;
     }
@@ -267,12 +275,15 @@ paper-checkbox, paper-card {
     margin: 0 20px;
     display: grid;
     column-gap: 40px;
-    grid-template-columns: 1fr minmax(360px, 33vw);
-    height: calc(100vh - 280px);
+    grid-template-columns: 1fr minmax(auto, 320px);
 }
 
 .content-body.single-col {
     grid-template-columns: auto;
+}
+
+.content-body .transcript {
+    height: calc(100vh - 270px);
 }
 
 .content-body.single-col .transcript {
@@ -312,12 +323,6 @@ paper-checkbox, paper-card {
     right: 20px;
 }
 
-@media (max-width: 769px) {
-    .content-body pb-navigation {
-        display: none;
-    }
-}
-
 pb-facsimile {
     --pb-facsimile-height: var(--pb-view-height);
 }
@@ -329,9 +334,36 @@ pb-facsimile {
     .letter, .letter.toggle {
         grid-template-columns: 1fr;
         column-gap: 0;
+        margin: 0 20px;
+    }
+    .content-body {
+        grid-template-columns: 1fr minmax(auto, 220px);
     }
     #register {
         --pb-content-font-size: var(--pb-font-size-small);
+    }
+}
+
+@media (max-width: 459px) {
+    .content-body {
+        grid-template-columns: 1fr;
+    }
+    .content-body .transcript, .content-body #register {
+        height: auto;
+    }
+    .corresp-nav div {
+        display: none;
+    }
+    .letter, .letter.toggle {
+        display: block;
+        margin: 0 10px;
+    }
+
+    .letter #register {
+        height: auto;
+    }
+    .letter .transcript {
+        height: auto;
     }
 }
 
