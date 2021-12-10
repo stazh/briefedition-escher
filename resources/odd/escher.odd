@@ -168,6 +168,11 @@
                 <param name="type" value="let $type:= .//msIdentifier/@type return if ($type != '') then ' (' || $type || ')' else ()"/>
                 <pb:template xmlns="" xml:space="preserve">AES B[[id]] | [[ref]][[type]]</pb:template>
             </model>
+            <model behaviour="pass-through">
+                <param name="uri" value="'https://briefedition.alfred-escher.ch'"/>
+                <param name="id" value="let $id := root(.)/TEI/@xml:id return  if (starts-with($id, 'K_')) then      &#34;B&#34; || substring($id, 3)     else      $id"/>
+                <pb:template xmlns="" xml:space="preserve"><p class="zitiervorschlag">Zitiervorschlag: Jung Joseph (Hrsg.), Digitale Briefedition Alfred Escher, Relaunch Januar 2022, Zürich. <a href="[[uri]]/briefe/[[id]]">[[uri]]/briefe/[[id]]</a></p></pb:template>
+            </model>
             <model behaviour="block">
                 <param name="content" value="fileDesc/titleStmt/title"/>
                 <pb:set-param name="header" value="'short'"/>
@@ -255,7 +260,8 @@
                     <model predicate="$parameters?header='context' and @key and ancestor::correspDesc" behaviour="block">
             <param name="label" value="."/>
             <param name="uri" value="'../kontexte/personen/' || @key"/>
-            <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" target="_blank">[[label]]</a></pb:template>
+            <param name="letter" value="substring(@key, 1, 1) =&gt; upper-case()"/>
+            <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]?letter=[[letter]]&amp;view=correspondents">[[label]]</a></pb:template>
         </model>
                     <model predicate="$parameters?header='context' and $parameters?url='commentary' and @key" behaviour="block">
             <desc>Checkboxes and links for the side panel: for the 2nd level, e.g. commentaries</desc>
@@ -269,7 +275,7 @@
             <param name="uri" value="'../kontexte/personen/' || @key"/>
             <param name="label" value="@key"/>
             <param name="ref" value="@key"/>
-            <param name="link" value="let $id := replace(@key, ' ', '-') let $target:= id($id, doc(&#34;/db/apps/escher/data/people.xml&#34;))  return   if ($target) then   &lt;a href=&#34;../kontexte/personen/{@key}&#34; target=&#34;_blank&#34;&gt;{@key/string()}&lt;/a&gt; else   @key/string()"/>
+            <param name="link" value="let $id := replace(@key, ' ', '-') let $target:= id($id, doc(&#34;/db/apps/escher/data/people.xml&#34;)) let $letter := substring($id, 1, 1) =&gt; upper-case() return     if ($target) then         &lt;a href=&#34;../kontexte/personen/{@key}?letter={$letter}&amp;amp;view=mentions&#34;&gt;{@key/string()}&lt;/a&gt;      else      @key/string()"/>
             <pb:template xmlns="" xml:space="preserve"><span><paper-checkbox data-ref="[[ref]]"/>[[link]]</span></pb:template>
         </model>
                     <model behaviour="inline" cssClass="popover">

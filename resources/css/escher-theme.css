@@ -17,6 +17,7 @@ app-header {
 }
 
 body {
+    --pb-content-height: calc(100vh - 345px);
     --pb-logo-image-width: 200px;
     --pb-logo-image-height: 109px;
     --pb-splash-image-size: 200px auto;
@@ -63,6 +64,10 @@ body {
     }
 }
 
+app-header-layout {
+    min-height: 100vh;
+}
+
 a:link, a:visited {
     text-decoration: none;
     color: var(--pb-link-color);
@@ -102,7 +107,6 @@ footer {
     display: flex;
     justify-content: flex-end;
     font-size: var(--pb-font-size-small);
-    margin-top: 5rem;
 }
 
 footer .contact {
@@ -125,6 +129,7 @@ paper-checkbox, paper-card {
 }
 
 .letter {
+    flex: 2;
     position: relative;
     margin: 0 20px;
     display: grid;
@@ -186,7 +191,7 @@ paper-checkbox, paper-card {
     --pb-view-max-width: 41.24rem;
     overflow: auto;
     justify-self: center;
-    height: calc(100vh - 320px);
+    height: var(--pb-content-height);
     padding-bottom: 60px;
 }
 
@@ -223,7 +228,7 @@ paper-checkbox, paper-card {
     grid-column: 2;
     grid-row: 3;
     width: 100%;
-    height: calc(100vh - 320px);
+    height: var(--pb-content-height);
     overflow: auto;
     padding-bottom: 60px;
 }
@@ -260,6 +265,7 @@ paper-checkbox, paper-card {
 }
 
 .content-body {
+    flex: 2;
     --pb-view-max-width: 41.24rem;
     --pb-view-height: 100%;
     position: relative;

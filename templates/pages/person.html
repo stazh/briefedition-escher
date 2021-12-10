@@ -18,7 +18,6 @@
         <link rel="stylesheet" href="resources/css/escher-theme.css"/>
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <style>
-           
             div {
                 margin: 0 16px;
             }
@@ -50,7 +49,7 @@
             <pb-document id="document1" data-template="pages:pb-document"/>
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
-                <app-header-layout>
+                <app-header-layout fullbleed="">
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
