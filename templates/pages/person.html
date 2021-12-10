@@ -56,12 +56,14 @@
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
                             <header class="breadcrumbs" data-template="pages:parse-params" data-path="/kontexte/personen/" data-target="toolbar-start">
                                 <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; 
-                                <a href="${app}/kontexte/personen/">Personen</a> &gt; <span>${label}</span>
+                                <a href="${app}/kontexte/personen/">Personen</a> &gt; 
+                                <a href="${app}/kontexte/personen/?letter=${letter}&amp;view=${view}&amp;search=${search}">${letter}</a> &gt; 
+                                <span>${label}</span>
                             </header>
                         </app-toolbar>
                     </app-header>
                     <main class="content-body single-col">
-                        <section class="transcript noscroll">
+                        <section class="transcript noscroll person">
                             <pb-view id="view1" src="document1" xpath="${xpath}" subscribe="transcription" emit="transcription"
                                 data-template="pages:parse-params">
                                 <pb-param name="display" value="person-meta"/>

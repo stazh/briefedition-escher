@@ -132,7 +132,7 @@ declare function api:view-about($request as map(*)) {
 
 declare function api:people($request as map(*)) {
     let $search := normalize-space($request?parameters?search)
-    let $letterParam := lower-case($request?parameters?letter)
+    let $letterParam := $request?parameters?letter
     let $view := $request?parameters?view
     let $sortDir := $request?parameters?dir
     let $limit := $request?parameters?limit
@@ -168,7 +168,7 @@ declare function api:people($request as map(*)) {
         if (count($people) < $limit) then 
             "all"
         else if ($letterParam = '' or $prevQuery != $search) then
-            substring($sorted[1]?1, 1, 1)
+            substring($sorted[1]?1, 1, 1) => upper-case()
         else
             $letterParam
     let $byLetter :=
@@ -176,7 +176,7 @@ declare function api:people($request as map(*)) {
             $sorted
         else
             filter($sorted, function($entry) {
-                starts-with($entry?1, $letter)
+                starts-with($entry?1, lower-case($letter))
             })
     let $split := count($byLetter) idiv 2
     return
@@ -189,29 +189,30 @@ declare function api:people($request as map(*)) {
                 else (
                     for $index in 1 to string-length('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
                     let $alpha := substring('ABCDEFGHIJKLMNOPQRSTUVWXYZ', $index, 1)
-                    let $current := lower-case($alpha)
-                    let $hits := count(filter($sorted, function($entry) { starts-with($entry?1, $current)}))
+                    let $hits := count(filter($sorted, function($entry) { starts-with($entry?1, lower-case($alpha))}))
                     where $hits > 0
                     return
-                        <a href="#{$current}" title="{$hits} Einträge" class="{if ($current = $letter) then 'active' else ()}">{$alpha}</a>,
+                        <a href="#{$alpha}" title="{$hits} Einträge" class="{if ($alpha = $letter) then 'active' else ()}">{$alpha}</a>,
                     <a href="#all" title="{count($sorted)} Einträge" class="{if ($letter = 'all') then 'active' else ()}">All</a>
                 )
             }
             </header>
 
             <div class="list">
-                <div>{ api:output-person(subsequence($byLetter, 1, $split + 1)) }</div>
-                <div>{ api:output-person(subsequence($byLetter, $split + 2)) }</div>
+                <div>{ api:output-person(subsequence($byLetter, 1, $split + 1), $letter, $view, $search) }</div>
+                <div>{ api:output-person(subsequence($byLetter, $split + 2), $letter, $view, $search) }</div>
             </div>
         </div>
 };
 
-declare function api:output-person($list) {
+declare function api:output-person($list, $letter as xs:string, $view as xs:string, $search as xs:string?) {
     for $person in $list
     let $dates := string-join(($person?3/tei:birth, $person?3/tei:death), "–")
+    let $letterParam := if ($letter = "all") then substring($person?3/@n, 1, 1) else $letter
+    let $params := "letter=" || $letterParam || "&amp;view=" || $view || "&amp;search=" || $search
     return
         <div class="person">
-            <a href="{$person?3/@n}">{$person?2}</a>
+            <a href="{$person?3/@n}?{$params}">{$person?2}</a>
             { if ($dates) then <span class="dates"> ({$dates})</span> else () }
         </div>
 };
@@ -232,48 +233,62 @@ declare function api:person-mentions($node as node(), $model as map(*)) {
     let $letters := collection($config:data-root || "/briefe")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
     let $commentaries := collection($config:data-root || "/commentary")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
     let $biographies := doc($config:data-root || "/people.xml")//tei:persName[@key=$model?key]/ancestor::tei:person[@xml:id != $model?key]
-            let $titles := doc($config:data-root || "/titles.xml")
-
+    let $titles := doc($config:data-root || "/titles.xml")
     return
         if (count($letters) or count($commentaries) or count($biographies)) then
             <div>
                 <h3>Erwähnungen von {$model?label}</h3>
-                <pb-collapse>
-                    <div slot="collapse-trigger">
-                        <h4><a href="../../briefe/?facet-mentioned={$model?key}">In Briefen</a>: {count($letters)}</h4>
-                    </div>
-                    <div slot="collapse-content">
-                        <ul>
-                           {api:letter-list($letters, $titles)}
-                        </ul>
-                    </div>
-                </pb-collapse>
+                {
+                    if (count($letters) > 0) then
+                        <pb-collapse>
+                            <div slot="collapse-trigger">
+                                <h4>In Briefen: {count($letters)}</h4>
+                            </div>
+                            <div slot="collapse-content">
+                                <ul>
+                                {api:letter-list("mentioned", $letters, $titles, $model?key)}
+                                </ul>
+                            </div>
+                        </pb-collapse>
+                    else
+                        ()
+                }
 
-                <pb-collapse>
-                    <div slot="collapse-trigger">
-                        <h4>In Überblickskommentaren: {count($commentaries)}</h4>
-                    </div>
-                    <div slot="collapse-content">
-                        <ul>
-                            {api:commentary-list($commentaries, $titles)}
-                        </ul>
-                    </div>
-                </pb-collapse>
+                {
+                    if (count($commentaries) > 0) then
+                        <pb-collapse>
+                            <div slot="collapse-trigger">
+                                <h4>In Überblickskommentaren: {count($commentaries)}</h4>
+                            </div>
+                            <div slot="collapse-content">
+                                <ul>
+                                    {api:commentary-list($commentaries, $titles)}
+                                </ul>
+                            </div>
+                        </pb-collapse>
+                    else
+                        ()
+                }
                 
-                <pb-collapse>
-                    <div slot="collapse-trigger">
-                       <h4>In Biographien: {count($biographies)}</h4>
-                    </div>
-                    <div slot="collapse-content">
-                        <ul>
-                            {
-                                for $p in $biographies
-                                return 
-                                <li><a href="{$p/@n}">{$p/@n/string()}</a> | {$p/tei:birth}—{$p/tei:death}</li>
-                            }
-                        </ul>
-                    </div>
-                </pb-collapse>
+                {
+                    if (count($biographies) > 0) then
+                        <pb-collapse>
+                            <div slot="collapse-trigger">
+                            <h4>In Biographien: {count($biographies)}</h4>
+                            </div>
+                            <div slot="collapse-content">
+                                <ul>
+                                    {
+                                        for $p in $biographies
+                                        return 
+                                        <li><a href="{$p/@n}">{$p/@n/string()}</a> | {$p/tei:birth}—{$p/tei:death}</li>
+                                    }
+                                </ul>
+                            </div>
+                        </pb-collapse>
+                    else
+                        ()
+                }
             </div>
         else 
             ()
@@ -287,33 +302,28 @@ declare function api:person-letters($node as node(), $model as map(*)) {
 
             return
             <div>
-                <h3><a href="../../briefe/?facet-correspondent={$model?key}">Briefe von und an {$model?label}</a>: {count($mentions)}</h3>
-
-                {
-                    if (count($mentions) < 15) then 
-                        <ul>
-                            {api:letter-list($mentions, $titles)}
-                        </ul>
-                    else
-                        <ul>
-                            {api:letter-list(subsequence($mentions, 1, 15), $titles)}
-                            <li><a href="../../briefe/?facet-correspondent={$model?key}">... &gt; <pb-i18n key="label.all"/></a></li>
-                        </ul>
-                }
+                <h3>Briefe von und an {$model?label}: {count($mentions)}</h3>
+                <ul>
+                    {api:letter-list("correspondent", $mentions, $titles, $model?key)}
+                </ul>
             </div>
         else
             ()
 };
 
-declare function api:letter-list($list, $titles) {
-    for $doc in $list
-        let $id := $doc/ancestor::tei:TEI/@xml:id
+declare function api:letter-list($type, $list, $titles, $key) {
+    for $doc in subsequence($list, 1, 15)
+    let $id := $doc/ancestor::tei:TEI/@xml:id
     return
         <li>
             <a href="../../briefe/B{substring($id, 3)}">
                 {$titles/id($id)/string()}
             </a>
-        </li>
+        </li>,
+    if (count($list) > 15) then
+        <li><a href="../../briefe/?facet-{$type}={$key}">... &gt; <pb-i18n key="label.all"/></a></li>
+    else
+        ()
 };
 
 declare function api:commentary-list($list, $titles) {

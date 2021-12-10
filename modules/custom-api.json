@@ -235,6 +235,14 @@
 							"type": "string",
 							"default": "kontexte/personen"
 						}
+					},
+					{
+						"name": "view",
+						"in": "query",
+						"schema":{
+							"type": "string",
+							"default": "correspondents"
+						}
 					}
 				],
 				"responses": {
