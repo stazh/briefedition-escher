@@ -1,5 +1,7 @@
 .content {
     position: relative;
+    --iron-icon-height: 16px;
+    --iron-icon-width: 16px;
 }
 
 .popover {
@@ -250,6 +252,11 @@ table {
         margin: 0;
         width: 100%;
     }
+}
+
+.icon-ref a, .icon-ref a:link {
+    color: var(--pb-color-primary);
+    padding: 0 4px;
 }
 
 .zitiervorschlag {

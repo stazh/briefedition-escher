@@ -354,7 +354,7 @@
                             <a href="[[uri]]">[[label]] [[letter]]</a>
                         </pb:template>
         </model>
-                    <model predicate="@type='sum'" behaviour="inline">
+                    <model predicate="@type='sum'" behaviour="inline" cssClass="icon-ref">
             <desc>Description link displaying an icon. If target ends with _d add Kapitel, _p Absatz</desc>
             <param name="ref" value="@target"/>
             <param name="label" value="id(@target, doc(&#34;/db/apps/escher/data/titles.xml&#34;))"/>
@@ -370,7 +370,7 @@
                 </pb-popover>
             </pb:template>
         </model>
-                    <model predicate="@type='letter'" behaviour="inline">
+                    <model predicate="@type='letter'" behaviour="inline" cssClass="icon-ref">
             <desc>Letter link displaying an icon</desc>
             <param name="ref" value="@target"/>
             <param name="label" value="let $target := replace(@target, '^(K_[^_]+).*$', '$1') return id($target, doc(&#34;/db/apps/escher/data/titles.xml&#34;))"/>
