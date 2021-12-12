@@ -51,26 +51,27 @@ declare function app:active-subcategory($type, $active) {
     if ($type = $active) then " active" else ""
 };
 
-declare function app:subcategories-bibliography($node as node(), $model as map(*)) {
+declare 
+    %templates:wrap
+function app:subcategories-bibliography($node as node(), $model as map(*)) {
     let $type := if ($model?name) then $model?name else 'Escheriana'
 
-    return
-    <div>
+    return (
         <a class="initial {app:active-subcategory('Escheriana', $type)}" 
-            href="../Escheriana/Alle" data-template="pages:parse-params">Escheriana</a>        
+            href="../Escheriana/Alle" data-template="pages:parse-params">Escheriana</a>,     
         <a class="initial {app:active-subcategory('Archivbestande', $type)}" 
-            href="../Archivbestande/A" data-template="pages:parse-params">Archivbestände</a>
+            href="../Archivbestande/A" data-template="pages:parse-params">Archivbestände</a>,
         <a class="initial {app:active-subcategory('Ungedruckte-Quellen', $type)}" 
-            href="../Ungedruckte-Quellen/A" data-template="pages:parse-params">Ungedruckte Quellen</a>         
+            href="../Ungedruckte-Quellen/A" data-template="pages:parse-params">Ungedruckte Quellen</a>,
         <a class="initial {app:active-subcategory('Gedruckte-Quellen', $type)}" 
-            href="../Gedruckte-Quellen/A" data-template="pages:parse-params">Gedruckte Quellen</a>
+            href="../Gedruckte-Quellen/A" data-template="pages:parse-params">Gedruckte Quellen</a>,
         <a class="initial {app:active-subcategory('Zeitungen-und-Zeitschriften', $type)}" 
-            href="../Zeitungen-und-Zeitschriften/A" data-template="pages:parse-params">Zeitungen und Zeitschriften</a>
+            href="../Zeitungen-und-Zeitschriften/A" data-template="pages:parse-params">Zeitungen und Zeitschriften</a>,
         <a class="initial {app:active-subcategory('Literatur', $type)}" 
-            href="../Literatur/A" data-template="pages:parse-params">Literatur</a>
+            href="../Literatur/A" data-template="pages:parse-params">Literatur</a>,
         <a class="initial {app:active-subcategory('Websites', $type)}" 
             href="../Websites/A" data-template="pages:parse-params">Websites</a> 
-    </div>
+    )
 };
 
 declare function app:view-bibliography($node as node(), $model as map(*)) {
@@ -171,13 +172,14 @@ declare function app:subcategories-abbreviations($node as node(), $model as map(
     let $type := if ($model?name) then $model?name else 'Quellen'
 
     return
-     <div>
+     <header class="categories">
         <a class="initial {app:active-subcategory('Quellen', $type)}" 
             href="../Quellen/A" data-template="pages:parse-params">Abkürzungen aus den Quellen</a>        
         <a class="initial {app:active-subcategory('Sekundartexte', $type)}" 
             href="../Sekundartexte/A" data-template="pages:parse-params">Abkürzungen aus Sekundärtexten</a>
-    </div>
+    </header>
 };
+
 declare function app:initial-abbreviations($node as node(), $model as map(*)) {
         let $type := if ($model?name) then $model?name else 'Quellen'
         let $letter := if ($model?letter) then $model?letter else 'A'
@@ -197,7 +199,8 @@ declare function app:initial-abbreviations($node as node(), $model as map(*)) {
                 return $foo
 
         return 
-            (
+            <header class="nav-by-letter">
+            {
                 for $i in $letters      
                     let $class := "initial" || (if ($i = $letter) then " active" else "")
                     return
@@ -207,7 +210,8 @@ declare function app:initial-abbreviations($node as node(), $model as map(*)) {
                             <span class="disabled {$class}">{$i}</span>
                     ,
                 <a href="other" class="initial">other</a>
-            )
+            }
+            </header>
 };
 
 declare function app:view-abbreviations($node as node(), $model as map(*)) {

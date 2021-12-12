@@ -29,6 +29,10 @@
                 text-decoration: none;
                 font-weight: bold;
             }
+
+            .bibentry p, .bibentry h3 {
+                margin-top: 0;
+            }
         </style>
     </head>
 
@@ -36,7 +40,7 @@
         <pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription" locales="resources/i18n/{{ns}}/{{lng}}.json">
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
-                <app-header-layout data-template="app:bibliography-link">
+                <app-header-layout fullbleed="" data-template="app:bibliography-link">
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
@@ -47,8 +51,8 @@
                     </app-header>
                     <main class="content-body single-col">
                         <section class="transcript">
-                            <div data-template="app:subcategories-bibliography"/>
-                            <div data-template="app:initial-bibliography"/>
+                            <header class="categories" data-template="app:subcategories-bibliography"/>
+                            <header class="nav-by-letter" data-template="app:initial-bibliography"/>
                             <div data-template="app:view-bibliography"/>
                         </section>
                     </main>
