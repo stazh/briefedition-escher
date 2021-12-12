@@ -18,6 +18,7 @@ import module namespace config="http://www.tei-c.org/tei-simple/config" at "conf
 import module namespace vapi="http://teipublisher.com/api/view" at "lib/api/view.xql";
 import module namespace errors = "http://exist-db.org/xquery/router/errors";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
+import module namespace pm-config="http://www.tei-c.org/tei-simple/pm-config" at "pm-config.xql";
 
 declare function api:view-bibliography($request as map(*)) {
     app:view-bibliography(<div/>, $request?parameters)
@@ -64,6 +65,26 @@ declare function api:view-commentary($request as map(*)) {
                 templates:apply($template, vapi:lookup#2, $model, tpu:get-template-config($request))
         else
             error($errors:NOT_FOUND, "Document " || $request?parameters?id || " not found")
+};
+
+declare function api:table-of-contents($request as map(*)) {
+    let $path := xmldb:decode($request?parameters?id)
+    let $doc := config:get-document($path)
+    return
+        <div>{
+            if ($doc//tei:div/tei:div) then
+                for $head in $doc//tei:head
+                let $level := count($head/ancestor::tei:div)
+                where $level > 1 and $level < 4
+                return
+                    <pb-link hash="{$head/parent::tei:div/@xml:id}" emit="transcription">
+                    {
+                        $pm-config:web-transform($head, map { "mode": "toc", "root": $head }, $config:default-odd)
+                    }
+                    </pb-link>
+            else
+                ()
+        }</div>
 };
 
 declare function api:view-person($request as map(*)) {

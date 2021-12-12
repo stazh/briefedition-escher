@@ -38,6 +38,7 @@ body {
     --pb-letter-font-family: "Libre Baskerville";
     --pb-letter-font-size: 18px;
     --pb-font-size-small: 0.8rem;
+    --pb-font-size-smallest: 0.64em;
     --pb-view-height: auto;
     --pb-link-color: #2474C2;
     --pb-color-focus: #FFA500;
@@ -410,4 +411,20 @@ pb-facsimile {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+header.categories, header.nav-by-letter {
+    margin-bottom: 20px;
+}
+
+#toc {
+    font-size: var(--pb-font-size-small);
+    overflow: auto;
+    height: calc(100vh - 270px);
+    padding-bottom: 60px;
+}
+
+#toc h1, #toc h2, #toc h3, #toc h4 {
+    margin-top: .5em;
+    margin-bottom: 0;
 }
