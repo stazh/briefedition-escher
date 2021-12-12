@@ -328,6 +328,9 @@ pb-facsimile {
     pb-facsimile, .letter aside, .letter.toggle aside {
         display: none;
     }
+    .letter.toggle {
+        grid-template-columns: 1fr minmax(auto, 240px) auto 1fr;
+    }
     .letter, .letter.toggle {
         grid-template-columns: 1fr;
         column-gap: 0;
@@ -352,6 +355,7 @@ pb-facsimile {
         display: none;
     }
     .letter, .letter.toggle {
+        grid-template-columns: 1fr;
         display: block;
         margin: 0 10px;
     }
@@ -361,6 +365,10 @@ pb-facsimile {
     }
     .letter .transcript {
         height: auto;
+    }
+
+    .hide-sm {
+        display: none;
     }
 }
 
