@@ -17,6 +17,7 @@ app-header {
 }
 
 body {
+    --pb-content-height: calc(100vh - 345px);
     --pb-logo-image-width: 200px;
     --pb-logo-image-height: 109px;
     --pb-splash-image-size: 200px auto;
@@ -37,6 +38,7 @@ body {
     --pb-letter-font-family: "Libre Baskerville";
     --pb-letter-font-size: 18px;
     --pb-font-size-small: 0.8rem;
+    --pb-font-size-smallest: 0.64em;
     --pb-view-height: auto;
     --pb-link-color: #2474C2;
     --pb-color-focus: #FFA500;
@@ -61,6 +63,10 @@ body {
         --pb-heading-h5-font-size: 1em;
         --pb-heading-h6-font-size: 1em;
     }
+}
+
+app-header-layout {
+    min-height: 100vh;
 }
 
 a:link, a:visited {
@@ -99,24 +105,13 @@ a:link, a:visited {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    padding: 8px 12px;
-    color: #424242;
-    background-color: #f1f1f1;
-}
-
-footer p {
-    margin: 0;
+    display: flex;
+    justify-content: flex-end;
     font-size: var(--pb-font-size-small);
 }
 
-@media (max-width: 1023px) {
-    footer {
-        display: none;
-    }
+footer .contact {
+    margin-right: 1rem;
 }
 
 paper-checkbox, paper-card {
@@ -135,6 +130,7 @@ paper-checkbox, paper-card {
 }
 
 .letter {
+    flex: 2;
     position: relative;
     margin: 0 20px;
     display: grid;
@@ -196,7 +192,7 @@ paper-checkbox, paper-card {
     --pb-view-max-width: 41.24rem;
     overflow: auto;
     justify-self: center;
-    height: calc(100vh - 320px);
+    height: var(--pb-content-height);
     padding-bottom: 60px;
 }
 
@@ -233,7 +229,7 @@ paper-checkbox, paper-card {
     grid-column: 2;
     grid-row: 3;
     width: 100%;
-    height: calc(100vh - 320px);
+    height: var(--pb-content-height);
     overflow: auto;
     padding-bottom: 60px;
 }
@@ -270,6 +266,7 @@ paper-checkbox, paper-card {
 }
 
 .content-body {
+    flex: 2;
     --pb-view-max-width: 41.24rem;
     --pb-view-height: 100%;
     position: relative;
@@ -332,6 +329,9 @@ pb-facsimile {
     pb-facsimile, .letter aside, .letter.toggle aside {
         display: none;
     }
+    .letter.toggle {
+        grid-template-columns: 1fr minmax(auto, 240px) auto 1fr;
+    }
     .letter, .letter.toggle {
         grid-template-columns: 1fr;
         column-gap: 0;
@@ -356,6 +356,7 @@ pb-facsimile {
         display: none;
     }
     .letter, .letter.toggle {
+        grid-template-columns: 1fr;
         display: block;
         margin: 0 10px;
     }
@@ -365,6 +366,10 @@ pb-facsimile {
     }
     .letter .transcript {
         height: auto;
+    }
+
+    .hide-sm {
+        display: none;
     }
 }
 
@@ -400,4 +405,26 @@ pb-facsimile {
 
 .active {
     color: #E36F1E !important;
+}
+
+.person ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header.categories, header.nav-by-letter {
+    margin-bottom: 20px;
+}
+
+#toc {
+    font-size: var(--pb-font-size-small);
+    overflow: auto;
+    height: calc(100vh - 270px);
+    padding-bottom: 60px;
+}
+
+#toc h1, #toc h2, #toc h3, #toc h4 {
+    margin-top: .5em;
+    margin-bottom: 0;
 }

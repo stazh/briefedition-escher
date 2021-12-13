@@ -24,22 +24,23 @@
                verschiedenen Arten der Darstellungen der Transkription siehe auch «<ref
                   target="https://www.briefedition.alfred-escher.ch/uber-die-edition/benutzeroberflache/"
                   >Benutzeroberfläche</ref>».--></p>
-            <div>
+            <div xml:id="briefselektion">
                <head>Briefselektion</head>
-               <div>
+               <div xml:id="briefe-und-weitere">
                   <head>Briefe und weitere Schreiben</head>
                   <p>Die digitale Edition der Alfred Escher-Briefe umfasst sämtliche überlieferten Briefe von und an Alfred Escher. Nicht aufgenommen ist die Geschäfts- und die weitere offizielle Korrespondenz, sofern Alfred Escher nicht als Einzelperson Empfänger oder Absender ist. Das Entscheidungskriterium ist die Unterschrift oder die Anrede. Erklärungsbeispiel: Unterschreibt Alfred Escher nicht als Einzelperson, sondern zusammen mit einem weiteren Vertreter derselben Institution (z.B. dem Sekretär), oder erhält nicht Escher als Einzelperson das entsprechende Schreiben, sondern ein Gremium, so wird es nicht in die Edition aufgenommen. Fallweise aufgenommen werden briefähnliche Korrespondenzstücke, beispielsweise Einladungskarten, Todesanzeigen, «offene Briefe» (mehrfach ausgefertigte bzw. mit technischen Verfahren vervielfältigte Briefe an einen weiteren Empfängerkreis) oder Begleitzettel zu einer Briefübermittlung. Telegramme werden nicht aufgenommen.</p>
                </div>
-               <div>
+               <div xml:id="briefvarianten">
                   <head>Briefvarianten</head>
                   <p>Die Briefe sind in verschiedenen Varianten überliefert: Original, Abzug,
                      Abschrift, Entwurf oder Mikrofilm. Ist das Original vorhanden, wird dieses in
                      die Edition aufgenommen. Fehlt dieses bzw. konnte es nicht ermittelt werden,
                      wird diejenige Form aufgenommen, die dem Original am nächsten steht. </p>
                </div>
-               <div>
+            </div>
+            <div xml:id="transkription">
                   <head>Transkription</head>
-                  <div>
+                  <div xml:id="grundsätzliches">
                      <head>Grundsätzliches</head>
                      <p>Die Briefe werden grundsätzlich buchstaben- und zeichengetreu transkribiert.
                         Dies betrifft sowohl die Orthographie als auch die Interpunktion. Können
@@ -53,7 +54,7 @@
                         eines Wortes nicht gemäss den in diesem Text aufgestellten Regeln
                         entschieden werden, gelangt die heutige Orthographie zur Anwendung. </p>
                   </div>
-                  <div>
+                  <div xml:id="briefelemente">
                      <head>Briefelemente</head>
                      <p>Transkribiert werden die folgenden Elemente eines Briefs: Briefkopf
                         (gedruckt, gestanzt, gepresst oder als Wasserzeichen), Datum, Anrede,
@@ -78,7 +79,7 @@
                         Bleistift auf dem nicht versandten Abzug eines Briefes ergänzt wurden. Diese
                         werden ebenfalls in einer Fussnote transkribiert. </p>
                   </div>
-                  <div>
+               <div xml:id="orthographie">
                      <head>Spezifikationen für Orthographie und Interpunktion</head>
                      <div>
                      <head>Spezialzeichen</head>
@@ -104,7 +105,7 @@
                         oder ligiertes «und» gelesen werden kann. Ein tironisches Et wird als
                         Et-Zeichen («&amp;») transkribiert. </p>
                         </div>
-                     <div>
+                  <div xml:id="interpunktion">
                      <head>Interpunktion</head>
                      <p>Fehlende Punkte am Satzende werden grundsätzlich stillschweigend ergänzt.
                         Zwischen Grussformel und Unterschrift sowie bei Nachsätzen, die oft nur in
@@ -207,7 +208,7 @@
                         typische Unterschrift Eschers, entziffert als «Dr A Escher», wird
                         entsprechend transkribiert. </p></div>
                   </div>
-                  <div>
+               <div xml:id="layout">
                      <head>Spezifikationen für Layout und Textformatierung</head>
                      <div><head>Lateinische und gesperrte Texte</head>
                      <p>Einzelne Begriffe und Buchstaben in lateinischer Schrift werden in der
@@ -266,7 +267,7 @@
                         Alfred Escher kommentiert, von wessen Hand die Ergänzung geschrieben ist.
                      </p></div>
                   </div>
-                  <div>
+                  <div xml:id="andere-sprachen">
                      <head>Französisch, italienisch oder englisch verfasste Briefe</head>
                      <p>Finden sich in einem Brief Begriffe mit und ohne Umlautzeichen (z.B.
                         «Splugen» neben «Splügen»), werden Umlautzeichen nicht ergänzt. Die Akzente
@@ -287,9 +288,10 @@
                         Bestandteil von Appellativen handelt. In Zweifelsfällen wird gemäss heutiger
                         französischer bzw. italienischer Praxis transkribiert. </p>
                   </div>
-                  <div>
+               </div>
+            <div xml:id="editorische-bearbeitung">
                      <head>Editorische Bearbeitung</head>
-                     <div>
+               <div xml:id="ed-briefe">
                         <head>Briefe</head>
                         <div><head>Metadaten</head>
                         <p>Die Korrespondenten des Briefs sind der Absender und der Empfänger
@@ -450,7 +452,7 @@
                         <p>Diese Digitalisate wurden mit einer Auflösung von 300 dpi im Format TIFF erstellt, das als Archivformat verwendet wird. Für die Präsentation in der digitalen Edition wurden die Dateien in JPEG-Dateien mit derselben Auflösung umgewandelt. Jeweils die ersten Seiten jedes Briefes sind mit einem Massraster und einer Norm-Farbskala versehen.</p>
                         <p>Von sämtlichen Briefen, von denen ein Digitalisat vorliegt, wird für die zeilengenaue synoptische Darstellung eine Mapping-Tabelle erstellt. Die Erkennung der einzelnen Zeilen geschah in einem ersten Schritt automatisch. Anschliessend erfolgte die manuelle Kontrolle und Bearbeitung. Der als Zeile erkannte Bildausschnitt soll so gewählt sein, dass das Schriftbild inklusive Ober- und Unterlängen vollständig ersichtlich ist.</p></div>
                      </div>
-                     <div>
+               <div xml:id="ed-kontexte">
                         <head>Kontextinformationen</head>
                         <div><head>Überblickskommentare</head>
                         <p>Der Einbettung der Briefe in den historischen Kontext dienen sogenannte
@@ -549,8 +551,6 @@
                      </div>
                   </div>
                </div>
-            </div>
-         </div>
       </body>
    </text>
 </TEI>

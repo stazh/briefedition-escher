@@ -29,52 +29,24 @@
             <pb-document id="document1" data-template="pages:pb-document"/>
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
-                <app-header-layout>
+                <app-header-layout fullbleed="">
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
-                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html">
-                            <!--paper-menu-button data-target="custom">
-                                <a href="#" slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
-                                    <pb-i18n key="menu.download.title">Download</pb-i18n>
-                                </a>
-                                <paper-listbox slot="dropdown-content">
-                                    <paper-item>
-                                        <pb-download type="tex" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)">
-                                            <pb-i18n key="menu.download.pdf-latex">Download</pb-i18n>
-                                        </pb-download>
-                                    </paper-item>
-                                    <paper-item>
-                                        <pb-download type="tex" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source">
-                                            <pb-i18n key="menu.download.latex-source"/>
-                                        </pb-download>
-                                    </paper-item>
-                                    <paper-item>
-                                        <pb-download type="pdf" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)">
-                                            <pb-i18n key="menu.download.pdf-fo"/>
-                                        </pb-download>
-                                    </paper-item>
-                                    <paper-item>
-                                        <pb-download type="pdf" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source">
-                                            <pb-i18n key="menu.download.fo-source"/>
-                                        </pb-download>
-                                    </paper-item>
-                                    <paper-item>
-                                        <pb-download type="epub" src="document1" dialog="downloadDialog">
-                                            ePUB
-                                        </pb-download>
-                                    </paper-item>
-                                    <paper-item>
-                                        <pb-edit-xml src="document1" data-i18n="[title]menu.download.view-tei" title="view-tei">
-                                            XML
-                                        </pb-edit-xml>
-                                    </paper-item>
-                                </paper-listbox>
-                            </paper-menu-button-->
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
+                            <header class="breadcrumbs" data-path="/uber-die-edition/" data-template="pages:parse-params" data-target="toolbar-start">
+                                <a href="${app}/">Home</a> &gt; Kontexte
+                            </header>
                         </app-toolbar>
-                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"/>
                     </app-header>
-                    <main class="article">
-                        <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"/>
+                    <main class="content-body">
+                        <div class="transcript">
+                            <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"/>
+                        </div>
+                        <pb-load id="toc" class="hide-sm" url="api/document/{doc}/contents?target=transcription&amp;icons=false" expand="expand" src="document1" subscribe="transcription" auto="">
+                            <pb-i18n key="dialogs.loading">Loading</pb-i18n>
+                        </pb-load>
                     </main>
+                    <footer data-template="lib:include" data-template-path="templates/footer.html"/>
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>

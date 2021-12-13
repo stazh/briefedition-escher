@@ -28,7 +28,6 @@
             gap: 10px 10px;
             justify-content: space-evenly;
             max-width: 980px;
-            height: 330px;
             margin: 32px auto 0 auto;
             font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
         }
@@ -41,6 +40,14 @@
                 height: auto;
                 margin: 32px 10px 0 10px;
             }
+        }
+        footer {
+            grid-column: span 5;
+            display: block;
+        }
+
+        footer img {
+            vertical-align: middle;
         }
 
         .row {
@@ -135,7 +142,7 @@
             }
         }
 
-        .homepage a, .homepage a:link {
+        .homepage > a, .homepage > a:link {
             display: block;
             text-decoration: none;
             color: white;
@@ -191,8 +198,14 @@
                         <div>Orte</div>
                     </a>
                     <a href="#" class="box facsimile"></a>
+                    <footer>
+                        <div class="zitiervorschlag">Zitiervorschlag: Jung Joseph (Hrsg.), Digitale Briefedition Alfred Escher, Relaunch Januar 2022, Zürich. <a href="https://briefedition.alfred-escher.ch">https://briefedition.alfred-escher.ch</a></div>
+                        <p>
+                            <span class="contact">Kontakt: <a href="mailto:staatsarchivzh@ji.zh.ch" target="_blank">staatsarchivzh@ji.zh.ch</a></span>
+                            <span class="license"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></span>
+                        </p>
+                    </footer>
                 </main>
-                <footer data-template="templates:include" data-template-path="templates/footer.html"/>
             </app-header-layout>
         </app-drawer-layout>
     </pb-page>

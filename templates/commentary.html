@@ -26,7 +26,7 @@
         <pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription">
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
-                <app-header-layout>
+                <app-header-layout fullbleed="">
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"></app-toolbar>
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
@@ -36,7 +36,7 @@
                         </app-toolbar>
                     </app-header>
                     <main class="content-body single-col">
-                        <section class="transcript">
+                        <section class="transcript noscroll">
                             <div>
                                 <h1>Überblickskommentare</h1>
                                 <p>Die Überblickskommentare kontextualisieren die Briefe von und an Alfred Escher. Sie sind der 

@@ -24,7 +24,7 @@
             <pb-document id="document1" data-template="pages:pb-document"/>
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
-                <app-header-layout>
+                <app-header-layout fullbleed="">
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
@@ -32,13 +32,17 @@
                                 <a href="${app}/">Home</a> &gt; <a href="${app}/uber-die-edition/">Über die Edition</a> &gt;
                                 <div data-template="custom:breadcrumb-suffix"></div>
                             </header>
-                        </app-toolbar>                    </app-header>
-                    <main class="content-body single-col">
+                        </app-toolbar>
+                    </app-header>
+                    <main class="content-body">
                         <div class="transcript">
                             <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription">
                                 <pb-param name="header" value="about"/>
                             </pb-view>
                         </div>
+                        <pb-load id="toc" class="hide-sm" url="api/document/{doc}/contents?target=transcription&amp;icons=false" expand="expand" src="document1" subscribe="transcription" auto="">
+                            <pb-i18n key="dialogs.loading">Loading</pb-i18n>
+                        </pb-load>
                     </main>
                     <footer data-template="lib:include" data-template-path="templates/footer.html"/>
                 </app-header-layout>
