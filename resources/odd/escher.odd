@@ -168,6 +168,9 @@
                 <param name="type" value="let $type:= .//msIdentifier/@type return if ($type != '') then ' (' || $type || ')' else ()"/>
                 <pb:template xmlns="" xml:space="preserve">AES B[[id]] | [[ref]][[type]]</pb:template>
             </model>
+            <model predicate="fileDesc/sourceDesc/bibl[@type='printed']/node()" behaviour="block" cssClass="subheading">
+                <param name="content" value="('In: ', fileDesc/sourceDesc/bibl[@type='printed']/node())"/>
+            </model>
             <model behaviour="pass-through">
                 <param name="uri" value="'https://briefedition.alfred-escher.ch'"/>
                 <param name="id" value="let $id := root(.)/TEI/@xml:id return  if (starts-with($id, 'K_')) then      &#34;B&#34; || substring($id, 3)     else      $id"/>

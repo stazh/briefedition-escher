@@ -35,6 +35,7 @@ let $indexCorresp :=
     where $item is $root
     return
         $p
+let $series := for $letter in $correspSorted return substring-after(root($letter)/tei:TEI/@xml:id, 'K_')
 let $context :=
     <correspContext xmlns="http://www.tei-c.org/ns/1.0">
     {
@@ -61,6 +62,7 @@ let $context :=
         else
             ()
     }
+        <ptr type="context" target="{string-join($series, ' ')}"/>
     </correspContext>
 return (
     update insert $context into $root//tei:correspDesc,

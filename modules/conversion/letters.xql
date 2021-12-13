@@ -31,6 +31,11 @@ declare function conv:main($letter as element(editedletter)) {
                         <msDesc>
                         { conv:msIdentifier($meta/manuscriptdata) }
                         </msDesc>
+                        {
+                            for $edition in $meta/editiondata/edition
+                            return
+                                <bibl type="printed">{$edition/text()}</bibl>
+                        }
                     </sourceDesc>
                 </fileDesc>
                 <profileDesc>
