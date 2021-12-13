@@ -10,16 +10,37 @@ let $sorted :=
         $t
 for $doc in $docs
 let $root := root($doc)
-let $sender := $root//tei:correspAction/tei:persName[@type="sender"]/@key
-let $receiver := $root//tei:correspAction/tei:persName[@type="addressee"]/@key
+let $senders := (
+    $root//tei:correspAction/tei:persName[@type="sender"]/@key,
+    $root//tei:correspAction/tei:orgName[@type="sender"]/string()
+)
+let $receivers := (
+    $root//tei:correspAction/tei:persName[@type="addressee"]/@key,
+    $root//tei:correspAction/tei:orgName[@type="addressee"]/string()
+)
+let $senderData :=
+    for $sender in $senders
+    return
+        typeswitch($sender)
+            case element(tei:orgName) return
+                $docs/ancestor::tei:TEI//tei:orgName[. = $sender]/ancestor::tei:correspAction
+            default return
+                $docs/ancestor::tei:TEI//tei:persName[@key = $sender]/ancestor::tei:correspAction
+let $receiverData :=
+    for $receiver in $receivers
+    return
+        typeswitch($receiver)
+            case element(tei:orgName) return
+                $docs/ancestor::tei:TEI//tei:orgName[. = $receiver]/ancestor::tei:correspAction
+            default return
+                $docs/ancestor::tei:TEI//tei:persName[@key = $receiver]/ancestor::tei:correspAction
 let $correspondence :=
-    if ($receiver and $sender) then
-        $docs/ancestor::tei:TEI//tei:persName[@key = $sender]/ancestor::tei:correspAction intersect
-        $docs/ancestor::tei:TEI//tei:persName[@key = $receiver]/ancestor::tei:correspAction
-    else if ($sender) then
-        $docs/ancestor::tei:TEI//tei:persName[@key = $sender]/ancestor::tei:correspAction
+    if (exists($receivers) and exists($senders)) then
+        $receiverData intersect $senderData
+    else if (exists($senders)) then
+        $senderData
     else
-        $docs/ancestor::tei:TEI//tei:persName[@key = $receiver]/ancestor::tei:correspAction
+        $receiverData
 let $correspSorted :=
     for $t in $correspondence
     order by ft:field($t, "date", "xs:date") empty least
@@ -35,7 +56,6 @@ let $indexCorresp :=
     where $item is $root
     return
         $p
-let $series := for $letter in $correspSorted return substring-after(root($letter)/tei:TEI/@xml:id, 'K_')
 let $context :=
     <correspContext xmlns="http://www.tei-c.org/ns/1.0">
     {
@@ -62,7 +82,6 @@ let $context :=
         else
             ()
     }
-        <ptr type="context" target="{string-join($series, ' ')}"/>
     </correspContext>
 return (
     update insert $context into $root//tei:correspDesc,
