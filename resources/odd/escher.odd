@@ -162,9 +162,9 @@
             <model behaviour="pass-through">
                 <param name="content" value="(root(.)//correspDesc/correspContext, root(.)//correspDesc/correspAction[@type='sent'])"/>
             </model>
-            <model behaviour="inline" cssClass="subheading">
+            <model behaviour="block" cssClass="subheading">
                 <param name="id" value="substring-after(ancestor::TEI/@xml:id, 'K_')"/>
-                <param name="ref" value="(.//msIdentifier/institution, ' ', .//msIdentifier/idno[@type='original'])"/>
+                <param name="ref" value="(.//msIdentifier/institution, ' ', (.//msIdentifier/idno[@type='identifier'], .//msIdentifier/idno)[1])"/>
                 <param name="type" value="let $type:= .//msIdentifier/@type return if ($type != '') then ' (' || $type || ')' else ()"/>
                 <pb:template xmlns="" xml:space="preserve">AES B[[id]] | [[ref]][[type]]</pb:template>
             </model>
@@ -590,7 +590,7 @@
                 </elementSpec>
             <elementSpec ident="correspAction" mode="add">
                     <model predicate="$parameters?display='letter-header'" behaviour="pass-through">
-            <param name="content" value="((persName|orgName)[@type='sender'], ' – ', (persName|orgName)[@type='addressee'])"/>
+            <param name="content" value="let $sender := (persName|orgName)[@type='sender'] let $receiver := (persName|orgName)[@type='addressee'] return (  $sender[1], if (count($sender) &gt; 1) then ' et al.' else (),     ' – ',     $receiver[1], if (count($receiver) &gt; 1) then ' et al.' else () )"/>
             <pb:template xmlns="" xml:space="preserve"><span class="correspondence" style="display: none">[[content]]</span></pb:template>
         </model>
                 </elementSpec>
@@ -609,9 +609,11 @@
             
             
             
+            
                             float: right; 
                             margin-left: 20px;
                         
+            
             
             
             
