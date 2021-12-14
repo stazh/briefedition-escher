@@ -79,7 +79,7 @@ else if ($exist:path = "/kontexte/") then
 
 else if ($exist:path = "/uber-die-edition/") then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
-        <redirect url="{$config:context-path}/uber-die-edition/credits"/>
+        <redirect url="{$config:context-path}/uber-die-edition/projektbeschrieb"/>
     </dispatch>
 
 (: all other requests are passed on the Open API router :)
