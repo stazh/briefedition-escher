@@ -9,7 +9,7 @@
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
 
-        <title data-template="config:app-title"/>
+        <title>Alfred Escher Briefedition - Suche</title>
         <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap"/>
         <link rel="stylesheet" href="resources/css/theme.css"/>
@@ -19,18 +19,16 @@
 
         <style>
             main {
-                display: flex;
-                flex-direction: row;
-                margin-top: 10px;
+                display: grid;
+                grid-template-columns: auto 1fr;
             }
 
             .search-panel {
-                flex: 1 1;
-                margin: 0 20px;
-            }
-
-            .search-panel paper-card {
-                width: 100%;
+                flex: 0;
+                width: 350px;
+                margin-right: 20px;
+                border-right: 2px solid #F0F0F0;
+                padding: 0 10px;
             }
 
             .targets paper-checkbox {
@@ -71,20 +69,8 @@
                 content: '';
             }
             .matches {
-                display: table;
                 margin-left: 20px;
                 margin-top: 10px;
-            }
-            .matches p {
-                display: table-row;
-            }
-            .matches p * {
-                display: table-cell;
-                padding: 4px 8px;
-            }
-
-            .hi {
-                display: block;
             }
 
             #facets h3 {
@@ -95,7 +81,8 @@
             }
 
             #facets h3 paper-checkbox {
-                font-size: 85%;
+                margin-left: 16px;
+                font-size: 11px;
             }
 
             #facets table td:nth-child(2) {
@@ -111,27 +98,27 @@
         <pb-page data-template="pages:pb-page" unresolved="unresolved" locales="resources/i18n/{{ns}}/{{lng}}.json">
             <app-header-layout>
                 <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
-                    <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
-                    <app-toolbar>
-                        <pb-paginate per-page="10" range="5" subscribe="results"/>
-                        <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
-                    </app-toolbar>
+                    <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"></app-toolbar>
+                    <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
+                            <header class="breadcrumbs" data-path="kontexte/uberblickskommentare/" data-template="pages:parse-params" data-target="toolbar-start">
+                                <a href="${app}/home.html">Home</a> &gt; Suche
+                            </header>
+                        </app-toolbar>
                 </app-header>
 
                 <main>
-                    <pb-load id="results" url="api/search" emit="results"/>
                     <div class="search-panel">
-                        <paper-card>
-                            <div class="card-content">
-                                <pb-search id="search-form" subscribe="search" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load">
-                                    <div class="targets">
-                                        <paper-checkbox name="field" value="text">Search sections</paper-checkbox>
-                                        <paper-checkbox name="field" value="head">Search headings</paper-checkbox>
-                                    </div>
-                                    <pb-custom-form id="facets" url="api/search/facets" subscribe="results" event="pb-results-received" emit="search"/>
-                                </pb-search>
+                        <pb-search id="search-form" subscribe="search" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load">
+                            <div class="targets">
+                                <paper-checkbox name="field" value="text">Search sections</paper-checkbox>
+                                <paper-checkbox name="field" value="head">Search headings</paper-checkbox>
                             </div>
-                        </paper-card>
+                            <pb-custom-form id="facets" url="api/search/facets" subscribe="results" event="pb-results-received" emit="search"/>
+                        </pb-search>
+                    </div>
+                    <div class="search-options">
+                        <pb-paginate per-page="10" range="5" subscribe="results"/>
+                        <pb-load id="results" url="api/search" emit="results"/>
                     </div>
                 </main>
             </app-header-layout>
