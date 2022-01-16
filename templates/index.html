@@ -182,6 +182,10 @@
                 padding-left: 1em;
                 vertical-align: middle;
             }
+
+            .timeline {
+                --pb-timeline-padding: 0 20px;
+            }
         </style>
     </custom-style>
 </head>
@@ -206,11 +210,17 @@
 
                 <main>
                     <section class="panels">
-                        <pb-custom-form id="facets" class="noscroll" url="api/search/facets" event="pb-results-received" subscribe="docs" emit="docs"/>
+                        <pb-custom-form id="facets" class="noscroll" url="api/search/facets" event="pb-results-received" subscribe="docs" emit="docs">
+                            <input slot="searchButtonBottom" type="hidden" name="dates" value=""/>
+                        </pb-custom-form>
                         <pb-browse-docs id="document-list" class="noscroll" url="api/collection/" collection="briefe"
                         sort-options="[{&#34;label&#34;: &#34;facets.sender&#34;, &#34;value&#34;: &#34;sender&#34;},{&#34;label&#34;: &#34;facets.addressee&#34;, &#34;value&#34;: &#34;addressee&#34;},{&#34;label&#34;: &#34;facets.place&#34;, &#34;value&#34;: &#34;place&#34;},{&#34;label&#34;: &#34;facets.date&#34;, &#34;value&#34;: &#34;date&#34;}]" sort-by="date" 
                         filter-options="[{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;facets.sender&#34;, &#34;value&#34;: &#34;sender&#34;},{&#34;label&#34;: &#34;facets.addressee&#34;, &#34;value&#34;: &#34;addressee&#34;},{&#34;label&#34;: &#34;facets.place&#34;, &#34;value&#34;: &#34;place&#34;},{&#34;label&#34;: &#34;facets.keyword&#34;, &#34;value&#34;: &#34;keyword&#34;}, {&#34;label&#34;: &#34;facets.number&#34;, &#34;value&#34;: &#34;number&#34;}, {&#34;label&#34;: &#34;facets.type&#34;, &#34;value&#34;: &#34;type&#34;}]" 
                         filter-by="title" auto="auto" history="history" login="login" emit="docs" subscribe="docs">
+                            <div slot="header" class="timeline">
+                                <pb-timeline slot="header" url="api/timeline" scopes='["D", "M", "Y", "5Y", "10Y"]'
+                                    subscribe="docs" emit="timeline"></pb-timeline>
+                            </div>
                             <pb-paginate slot="toolbar" id="paginate" per-page="10" range="5" emit="docs" subscribe="docs"/>
                             <pb-restricted login="login" slot="toolbar">
                                 <pb-ajax emit="docs" url="api/odd" method="post" data-template="pages:parse-params" event="pb-search-resubmit" title="Recompile ODD" data-i18n="[title]odd.manage.regenerate-all">
@@ -252,27 +262,6 @@
         </paper-dialog>
     </pb-page>
     <div class="splash"/>
-    <script>
-        const facets = document.getElementById('facets');
-        if (facets) {
-            facets.addEventListener('pb-custom-form-loaded', function(ev) {
-                const elems = ev.detail.querySelectorAll('.facet');
-                elems.forEach(facet =&gt; {
-                    facet.addEventListener('change', () =&gt; {
-                        const table = facet.closest('table');
-                        if (table) {
-                            const nested = table.querySelectorAll('.nested .facet').forEach(nested =&gt; {
-                                if (nested != facet) {
-                                    nested.checked = false;
-                                }
-                            });
-                        }
-                        facets.submit();
-                    });
-                });
-            });
-        }
-    </script>
 </body>
 
 </html>

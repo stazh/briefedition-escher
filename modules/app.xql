@@ -10,7 +10,7 @@ module namespace app="teipublisher.com/app";
 
 import module namespace templates="http://exist-db.org/xquery/html-templating";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "config.xqm";
-
+import module namespace browse="http://www.tei-c.org/tei-simple/templates" at "modules/lib/browse.xql";
 import module namespace query="http://www.tei-c.org/tei-simple/query" at "../../query.xql";
 import module namespace nav="http://www.tei-c.org/tei-simple/navigation" at "../../navigation.xql";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "../util.xql";
@@ -337,3 +337,50 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
         </paper-card>
 };
 
+(:~
+ : List documents in data collection
+ :)
+declare
+    %templates:wrap
+    %templates:default("sort", "title")
+function app:list-works($node as node(), $model as map(*), $filter as xs:string?, $browse as xs:string?, $odd as xs:string?, $sort as xs:string,
+    $dateStart as xs:string?, $dateEnd as xs:string?) {
+    let $params := browse:params2map($model?root)
+    let $cached := session:get-attribute($config:session-prefix || ".works")
+    let $filtered :=
+        if (browse:use-cache($params, $cached)) then
+            $cached
+        else if (exists($filter) and $filter != '') then
+            query:query-metadata($browse, $filter, $sort)
+        else
+            let $options := query:options($sort)
+            return
+                nav:get-root($model?root, $options)
+    (: let $filtered := app:filter-dates($filtered, $dateStart, $dateEnd) :)
+    let $sorted := browse:sort($filtered, $sort)
+    return (
+        session:set-attribute($config:session-prefix || ".timestamp", current-dateTime()),
+        session:set-attribute($config:session-prefix || '.hits', $filtered),
+        session:set-attribute($config:session-prefix || '.params', $params),
+        session:set-attribute($config:session-prefix || ".works", $sorted),
+        map {
+            "all" : $sorted,
+            "mode": "browse"
+        }
+    )
+};
+
+declare function app:filter-dates($items as element()*, $dateStart as xs:string?, $dateEnd as xs:string?) {
+    if (empty($dateStart) or $dateStart = '') then
+        $items
+    else
+        let $start := xs:date($dateStart)
+        let $end := if (empty($dateEnd)) then () else xs:date($dateEnd)
+        for $item in $items
+        let $date := ft:field($item, 'date', 'xs:date')
+        return
+            if (exists($date) and $date >= $start and (empty($end) or $date < $end)) then
+                $item
+            else
+                ()
+};

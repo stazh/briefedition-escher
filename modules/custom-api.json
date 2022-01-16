@@ -813,6 +813,24 @@
 				}
 			}
 		},
+		"/api/timeline": {
+			"get": {
+				"summary": "Retrieve timeline data",
+				"operationId": "custom:timeline",
+				"responses": {
+					"200": {
+						"description": "Timeline data",
+						"content": {
+							"application/json": {
+								"schema": {
+									"type": "object"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
         "/api/people": {
             "get": {
                 "summary": "List register entries",

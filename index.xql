@@ -63,7 +63,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "language" return
                 head(($root/@xml:lang, 'de'))
             case "date" return
-                ($header//tei:correspDesc//tei:date)[last()]/@when/xs:date(.)
+                head((($header//tei:correspDesc//tei:date)[last()]/@when/xs:date(.), xs:date('1000-01-01')))
             case "genre" return (
                 idx:get-genre($header),
                 $root/dbk:info/dbk:keywordset[@vocab="#genre"]/dbk:keyword,

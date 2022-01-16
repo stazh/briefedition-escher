@@ -20,6 +20,27 @@ import module namespace errors = "http://exist-db.org/xquery/router/errors";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
 import module namespace pm-config="http://www.tei-c.org/tei-simple/pm-config" at "pm-config.xql";
 
+declare function api:timeline($request as map(*)) {
+    let $entries := session:get-attribute($config:session-prefix || '.hits')
+    let $datedEntries := filter($entries, function($entry) {
+        let $date := ft:field($entry, "date", "xs:date")
+        return
+            exists($date) and year-from-date($date) != 1000
+    })
+    let $undatedEntries := $entries except $datedEntries
+    return
+        map:merge((
+            for $entry in $datedEntries
+            group by $date := ft:field($entry, "date", "xs:date")
+            return
+                map:entry(format-date($date, "[Y0001]-[M01]-[D01]"), count($entry)),
+            if ($undatedEntries) then
+                map:entry("?", count($undatedEntries))
+            else
+                ()
+        ))
+};
+
 declare function api:view-bibliography($request as map(*)) {
     app:view-bibliography(<div/>, $request?parameters)
 };
