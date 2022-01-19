@@ -390,12 +390,13 @@ declare function app:filter-dates($items as element()*, $dateStart as xs:string?
  :)
 declare
     %templates:wrap    
-function app:place($node as node(), $model as map(*), $name as xs:string) {
-    let $geo := doc($config:data-root || "/places.xml")//tei:place[@n = $name]//tei:geo/text()
-    let $geo-token := tokenize($geo, " ")
+function app:load-place($node as node(), $model as map(*), $name as xs:string) {
+    let $geo := doc($config:data-root || "/places.xml")//tei:place[@n = $name]
+    let $geo-token := tokenize($geo//tei:geo/text(), " ")
     return 
         map {
-            "latitude":"12312312",
-            "longitude":$geo-token[2]
+            "title": $geo/tei:placeName[@type="main"]/string(),
+            "latitude": $geo-token[1],
+            "longitude": $geo-token[2]
         }
 };
