@@ -384,3 +384,18 @@ declare function app:filter-dates($items as element()*, $dateStart as xs:string?
             else
                 ()
 };
+
+(:~
+ : List documents in data collection
+ :)
+declare
+    %templates:wrap    
+function app:place($node as node(), $model as map(*), $name as xs:string) {
+    let $geo := doc($config:data-root || "/places.xml")//tei:place[@n = $name]//tei:geo/text()
+    let $geo-token := tokenize($geo, " ")
+    return 
+        map {
+            "latitude":"12312312",
+            "longitude":$geo-token[2]
+        }
+};

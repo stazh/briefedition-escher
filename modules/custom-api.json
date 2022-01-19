@@ -322,6 +322,67 @@
 				}
 			}
         },
+		"/kontexte/orte/{name}": {
+            "get": {
+				"summary": "Retrieve the HTML template used for displaying places metadata",
+				"description": "Get the HTML template associated with the given document. This is called whenever the users tries to view a document. The actual content of the document will then be loaded by the template.",
+				"tags": ["view"],
+				"operationId": "vapi:html",				
+				"parameters": [
+					{
+						"name": "name",						
+						"in": "path",
+						"description": "Name of the place",
+						"required": true,
+						"schema": {
+							"type": "string",
+							"example": "Aalen%20(D)"
+						},
+						"allowReserved": true
+					},
+					{ 
+						"name":"file",
+						"in":"query",
+						"schema":{
+							"type": "string",
+							"default":"pages/place"
+						}
+					}
+ 				],
+				"responses": {
+					"200": {
+						"description": "HTML view for the document",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "The document was not found",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"500": {
+						"description": "An error occurred",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+        },		
         "/kontexte/bibliographie/{name}/{letter}": {
             "get": {
 				"summary": "Landing page for bibliography",
