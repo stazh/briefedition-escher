@@ -73,9 +73,8 @@ declare function conv:place($place as element(place), $places) {
            {conv:refs($place/@id, $places)}
            {if ($place//name/add) then <placeName type="add">{$place//name/add/node()}</placeName> else ()}
            
-           <location>
-              <geogFeat>{conv:type($place)}</geogFeat>
-              {$place//links/geo}
+           <location>              
+              <geo>{$place//links/geo/lat/text() || " " || $place//links/geo/lng/text()}</geo>
            </location>
            {
                 if (count($place//links/link)) then
