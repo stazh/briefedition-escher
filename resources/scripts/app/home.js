@@ -167,8 +167,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     randomImage();
     randomQuote();
-    setInterval(randomQuote, 5000);
+    setInterval(randomQuote, 15000);
     setTimeout(() => {
-        setInterval(randomImage, 5000);
+        setInterval(randomImage, 6000);
     }, 2000);
 });
