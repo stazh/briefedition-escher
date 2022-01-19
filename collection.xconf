@@ -23,7 +23,7 @@
                 <field name="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')" type="xs:date"/>
                 <field name="file" expression="util:document-name(.)"/>
 
-                <facet dimension="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date') => tokenize(':')" hierarchical="yes"/>
+                <facet dimension="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date') => tokenize('-')" hierarchical="yes"/>
                 <facet dimension="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
                 <facet dimension="author" expression="nav:get-metadata(ancestor::tei:TEI, 'author')"/>
                 <facet dimension="correspondent" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondent')"/>
