@@ -45,6 +45,9 @@
             <text qname="tei:person" index="no">
                 <field name="name" expression="@n"/>
             </text>
+            <text qname="tei:place" index="no">
+                <field name="lname" expression="tei:placeName[@type='main']"/>
+            </text>
             <text qname="tei:head"/>
             <text match="//tei:titleStmt/tei:title"/>
             <text match="//tei:msDesc/tei:head"/>

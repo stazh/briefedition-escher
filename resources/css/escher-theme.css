@@ -403,8 +403,12 @@ pb-facsimile {
     grid-template-columns: 3em 1fr;
 }
 
-.active {
+.active, pb-split-list::part(active-item) {
     color: #E36F1E !important;
+}
+
+pb-split-list::part(items) {
+    margin-top: 1em;
 }
 
 .person ul {

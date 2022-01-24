@@ -19,27 +19,32 @@
         <link rel="stylesheet" href="resources/css/escher-theme.css"/>
 
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <script type="module" src="pb-leaflet-map.js" data-template="pages:load-components"/>
         <style>
-            .content-body.single-col {
-                grid-template-columns: minmax(auto, 64rem);
+            main {
+                display: grid;
+                grid-template-columns: minmax(220px, 30vw) 1fr;
                 justify-content: center;
             }
 
-            .content-body.single-col .transcript {
+            .content-body .transcript {
                 max-width: none;
             }
 
-            .radios {
+            pb-leaflet-map {
+                height: calc(100vh - 175px);
+            }
+
+            [slot=controls] {
                 display: flex;
                 justify-content: space-between;
                 width: 100%;
                 align-items: center;
             }
-
-            pb-custom-form {
-                margin-bottom: 1em;
+            .radios label {
+                margin-left: 30px;
             }
-            
+
             @media (max-width: 767px) {
                 .people-list .list {
                     grid-template-columns: auto;
@@ -69,26 +74,28 @@
                         <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"></app-toolbar>
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
                             <header class="breadcrumbs" data-template="pages:parse-params" data-target="toolbar-start">
-                                <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; Personen
+                                <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; Orte
                             </header>
                         </app-toolbar>
                     </app-header>
-                    <main class="content-body single-col">
+                    <main>
+                        <pb-leaflet-map id="map" zoom="13">
+                            <pb-map-layer show="" 
+                                base="" 
+                                label="HikeBike Map" 
+                                url="https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}" 
+                                max-zoom="19" 
+                                access-token="pk.eyJ1Ijoid29sZmdhbmdtbSIsImEiOiJjam1kMjVpMnUwNm9wM3JwMzdsNGhhcnZ0In0.v65crewF-dkNsPF3o1Q4uw" 
+                                attribution="© Mapbox © OpenStreetMap">
+                            </pb-map-layer>
+                        </pb-leaflet-map>
                         <div class="transcript">
-                            <pb-custom-form id="options" auto-submit="input,paper-input,paper-icon-button" emit="transcription">
-                                <paper-input name="search" label="Suche" data-template="templates:form-control">
+                            <pb-custom-form id="options" auto-submit="paper-input,paper-icon-button" emit="transcription">
+                                <paper-input id="query" name="search" label="Suche" data-template="templates:form-control">
                                     <paper-icon-button icon="search" slot="suffix"></paper-icon-button>
                                 </paper-input>
-                                <div class="radios">
-                                    <label>
-                                        <input type="radio" name="view" value="correspondents" data-template="templates:form-control"/> Korrespondenten
-                                    </label>
-                                    <label>
-                                        <input type="radio" name="view" value="mentions" data-template="templates:form-control"/> Korrespondenten und erwähnte Personen
-                                    </label>
-                                </div>
                             </pb-custom-form>
-                            <pb-split-list url="api/people" subforms="#options" selected="A" emit="transcription" subscribe="transcription"></pb-split-list>
+                            <pb-split-list url="api/places" subforms="#options" selected="A" emit="transcription" subscribe="transcription"></pb-split-list>
                         </div>
                     </main>
                     <footer data-template="templates:include" data-template-path="templates/footer.html"/>

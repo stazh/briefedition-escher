@@ -174,18 +174,18 @@ declare function api:view-about($request as map(*)) {
 
 declare function api:people($request as map(*)) {
     let $search := normalize-space($request?parameters?search)
-    let $letterParam := $request?parameters?letter
+    let $letterParam := $request?parameters?category
     let $view := $request?parameters?view
     let $sortDir := $request?parameters?dir
     let $limit := $request?parameters?limit
     let $people :=
         if ($view = "correspondents") then
-            if ($search) then
+            if ($search and $search != '') then
                 doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:(' || $search || '*)')][@type="correspondent"]
             else
                 doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[@type="correspondent"]
         else
-            if ($search) then
+            if ($search and $search != '') then
                 doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:(' || $search || '*)')]
             else
                 doc($config:data-root || "/people.xml")//tei:listPerson/tei:person
@@ -205,11 +205,10 @@ declare function api:people($request as map(*)) {
             [lower-case($sortKey), $label, $person]
     })
     let $sorted := api:sort($byKey, $sortDir)
-    let $prevQuery := session:get-attribute($config:session-prefix || ".people.query")
     let $letter := 
         if (count($people) < $limit) then 
             "all"
-        else if ($letterParam = '' or $prevQuery != $search) then
+        else if ($letterParam = '') then
             substring($sorted[1]?1, 1, 1) => upper-case()
         else
             $letterParam
@@ -220,43 +219,111 @@ declare function api:people($request as map(*)) {
             filter($sorted, function($entry) {
                 starts-with($entry?1, lower-case($letter))
             })
-    let $split := count($byLetter) idiv 2
     return
-        <div class="people-list">
-            { session:set-attribute($config:session-prefix || ".people.query", $search) }
-            <header title="{$prevQuery}" data-active="{$letter}">
-            {
+        map {
+            "items": api:output-person($byLetter, $letter, $view, $search),
+            "categories":
                 if (count($people) < $limit) then
-                    ()
-                else (
+                    []
+                else array {
                     for $index in 1 to string-length('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
                     let $alpha := substring('ABCDEFGHIJKLMNOPQRSTUVWXYZ', $index, 1)
                     let $hits := count(filter($sorted, function($entry) { starts-with($entry?1, lower-case($alpha))}))
                     where $hits > 0
                     return
-                        <a href="#{$alpha}" title="{$hits} Einträge" class="{if ($alpha = $letter) then 'active' else ()}">{$alpha}</a>,
-                    <a href="#all" title="{count($sorted)} Einträge" class="{if ($letter = 'all') then 'active' else ()}">All</a>
-                )
-            }
-            </header>
-
-            <div class="list">
-                <div>{ api:output-person(subsequence($byLetter, 1, $split + 1), $letter, $view, $search) }</div>
-                <div>{ api:output-person(subsequence($byLetter, $split + 2), $letter, $view, $search) }</div>
-            </div>
-        </div>
+                        map {
+                            "category": $alpha,
+                            "count": $hits
+                        },
+                    map {
+                        "category": "all",
+                        "count": count($sorted)
+                    }
+                }
+        }
 };
 
 declare function api:output-person($list, $letter as xs:string, $view as xs:string, $search as xs:string?) {
-    for $person in $list
-    let $dates := string-join(($person?3/tei:birth, $person?3/tei:death), "–")
-    let $letterParam := if ($letter = "all") then substring($person?3/@n, 1, 1) else $letter
-    let $params := "letter=" || $letterParam || "&amp;view=" || $view || "&amp;search=" || $search
+    array {
+        for $person in $list
+        let $dates := string-join(($person?3/tei:birth, $person?3/tei:death), "–")
+        let $letterParam := if ($letter = "all") then substring($person?3/@n, 1, 1) else $letter
+        let $params := "category=" || $letterParam || "&amp;view=" || $view || "&amp;search=" || $search
+        return
+            <span>
+                <a href="{$person?3/@n}?{$params}">{$person?2}</a>
+                { if ($dates) then <span class="dates"> ({$dates})</span> else () }
+            </span>
+    }
+};
+
+declare function api:places($request as map(*)) {
+    let $search := normalize-space($request?parameters?search)
+    let $letterParam := $request?parameters?category
+    let $view := $request?parameters?view
+    let $sortDir := $request?parameters?dir
+    let $limit := $request?parameters?limit
+    let $places :=
+        if ($search and $search != '') then
+            doc($config:data-root || "/places.xml")//tei:listPlace/tei:place[ft:query(., 'name:(' || $search || '*)')]
+        else
+            doc($config:data-root || "/places.xml")//tei:listPlace/tei:place
+    let $byKey := for-each($places, function($place as element()) {
+        let $name := $place/tei:placeName[@type="main"]
+        return
+            [lower-case($place/@n), $name, $place]
+    })
+    let $sorted := api:sort($byKey, $sortDir)
+    let $letter := 
+        if (count($places) < $limit) then 
+            "all"
+        else if ($letterParam = '') then
+            substring($sorted[1]?1, 1, 1) => upper-case()
+        else
+            $letterParam
+    let $byLetter :=
+        if ($letter = 'all') then
+            $sorted
+        else
+            filter($sorted, function($entry) {
+                starts-with($entry?1, lower-case($letter))
+            })
     return
-        <div class="person">
-            <a href="{$person?3/@n}?{$params}">{$person?2}</a>
-            { if ($dates) then <span class="dates"> ({$dates})</span> else () }
-        </div>
+        map {
+            "items": api:output-place($byLetter, $letter, $view, $search),
+            "categories":
+                if (count($places) < $limit) then
+                    []
+                else array {
+                    for $index in 1 to string-length('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+                    let $alpha := substring('ABCDEFGHIJKLMNOPQRSTUVWXYZ', $index, 1)
+                    let $hits := count(filter($sorted, function($entry) { starts-with($entry?1, lower-case($alpha))}))
+                    where $hits > 0
+                    return
+                        map {
+                            "category": $alpha,
+                            "count": $hits
+                        },
+                    map {
+                        "category": "all",
+                        "count": count($sorted)
+                    }
+                }
+        }
+};
+
+declare function api:output-place($list, $letter as xs:string, $view as xs:string, $search as xs:string?) {
+    array {
+        for $place in $list
+        let $letterParam := if ($letter = "all") then substring($place?3/@n, 1, 1) else $letter
+        let $params := "category=" || $letterParam || "&amp;view=" || $view || "&amp;search=" || $search
+        let $label := $place?3/@n/string()
+        let $coords := tokenize($place?3/tei:location/tei:geo)
+        return
+            <a href="{$label}?{$params}">
+                <pb-geolocation latitude="{$coords[1]}" longitude="{$coords[2]}" label="{$label}">{$label}</pb-geolocation>
+            </a>
+    }
 };
 
 declare function api:sort($people as array(*)*, $dir as xs:string) {

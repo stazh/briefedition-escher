@@ -322,6 +322,63 @@
 				}
 			}
         },
+		"/kontexte/orte": {
+            "get": {
+				"summary": "Landing page for places",
+				"description": "Retrieve an HTML page expanded through eXist templating. This is used to load the top-level HTML pages, e.g. `index.html`.",
+				"tags": ["view"],
+				"operationId": "vapi:html",
+				"x-error-handler": "vapi:handle-error",
+				"parameters": [
+					{
+						"name": "file",
+						"in": "query",
+						"schema": {
+							"type": "string",
+                            "default": "places"
+						}
+					},
+					{
+						"name": "uri",
+						"in": "query",
+						"schema": {
+							"type": "string",
+							"default": "kontexte/orte"
+						}
+					},
+					{
+						"name": "view",
+						"in": "query",
+						"schema":{
+							"type": "string",
+							"default": "correspondents"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "HTML of the page",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "The document was not found",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+        },
 		"/kontexte/orte/{name}": {
             "get": {
 				"summary": "Retrieve the HTML template used for displaying places metadata",
@@ -907,7 +964,7 @@
                         }
                     },
 					{
-						"name": "letter",
+						"name": "category",
 						"in": "query",
 						"schema": {
 							"type": "string"
@@ -949,9 +1006,76 @@
                     "200": {
                         "description": "List of register entries",
                         "content": {
-                            "text/html": {
+                            "application/json": {
                                 "schema":{
-                                    "type": "string"
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+		"/api/places": {
+            "get": {
+                "summary": "List register entries",
+                "description": "Retrieve list of register entries in table structure",
+                "operationId": "custom:places",
+                "parameters": [
+                    {
+                        "name": "sort",
+                        "in": "query",
+                        "schema":{
+                            "type": "string",
+                            "default": "id"
+                        }
+                    },
+					{
+						"name": "category",
+						"in": "query",
+						"schema": {
+							"type": "string"
+						}
+					},
+					{
+						"name": "view",
+						"in": "query",
+						"schema":{
+							"type": "string",
+							"default": "correspondents"
+						}
+					},
+                    {
+                        "name": "dir",
+                        "in": "query",
+                        "schema": {
+                            "type": "string",
+                            "default": "asc"
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "schema": {
+                            "type": "integer",
+                            "default": 50
+                        }
+                    },
+                    {
+                        "name": "search",
+                        "in": "query",
+                        "schema":{
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of register entries",
+                        "content": {
+                            "application/json": {
+                                "schema":{
+                                    "type": "object"
                                 }
                             }
                         }
