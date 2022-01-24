@@ -1016,6 +1016,26 @@
                 }
             }
         },
+		"/api/places/all": {
+            "get": {
+                "summary": "List all places",
+                "description": "Retrieve list of all places",
+                "operationId": "custom:places-all",
+				"responses": {
+                    "200": {
+                        "description": "List of all places",
+                        "content": {
+                            "text/html": {
+                                "schema":{
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+				}
+			}			
+		},				
+                
 		"/api/places": {
             "get": {
                 "summary": "List register entries",

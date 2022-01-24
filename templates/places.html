@@ -79,6 +79,7 @@
                         </app-toolbar>
                     </app-header>
                     <main>
+                        <pb-load url="api/places/all" wait-for="#map" auto="auto"> </pb-load>
                         <pb-leaflet-map id="map" zoom="13">
                             <pb-map-layer show="" 
                                 base="" 
@@ -89,6 +90,7 @@
                                 attribution="© Mapbox © OpenStreetMap">
                             </pb-map-layer>
                         </pb-leaflet-map>
+                        
                         <div class="transcript">
                             <pb-custom-form id="options" auto-submit="paper-input,paper-icon-button" emit="transcription">
                                 <paper-input id="query" name="search" label="Suche" data-template="templates:form-control">
