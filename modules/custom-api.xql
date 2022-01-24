@@ -207,13 +207,13 @@ declare function api:people($request as map(*)) {
     let $sorted := api:sort($byKey, $sortDir)
     let $letter := 
         if (count($people) < $limit) then 
-            "all"
+            "Alle"
         else if ($letterParam = '') then
             substring($sorted[1]?1, 1, 1) => upper-case()
         else
             $letterParam
     let $byLetter :=
-        if ($letter = 'all') then
+        if ($letter = 'Alle') then
             $sorted
         else
             filter($sorted, function($entry) {
@@ -236,7 +236,7 @@ declare function api:people($request as map(*)) {
                             "count": $hits
                         },
                     map {
-                        "category": "all",
+                        "category": "Alle",
                         "count": count($sorted)
                     }
                 }
@@ -247,7 +247,7 @@ declare function api:output-person($list, $letter as xs:string, $view as xs:stri
     array {
         for $person in $list
         let $dates := string-join(($person?3/tei:birth, $person?3/tei:death), "–")
-        let $letterParam := if ($letter = "all") then substring($person?3/@n, 1, 1) else $letter
+        let $letterParam := if ($letter = "Alle") then substring($person?3/@n, 1, 1) else $letter
         let $params := "category=" || $letterParam || "&amp;view=" || $view || "&amp;search=" || $search
         return
             <span>
@@ -265,7 +265,7 @@ declare function api:places($request as map(*)) {
     let $limit := $request?parameters?limit
     let $places :=
         if ($search and $search != '') then
-            doc($config:data-root || "/places.xml")//tei:listPlace/tei:place[ft:query(., 'name:(' || $search || '*)')]
+            doc($config:data-root || "/places.xml")//tei:listPlace/tei:place[ft:query(., 'lname:(' || $search || '*)')]
         else
             doc($config:data-root || "/places.xml")//tei:listPlace/tei:place
     let $byKey := for-each($places, function($place as element()) {
@@ -276,13 +276,13 @@ declare function api:places($request as map(*)) {
     let $sorted := api:sort($byKey, $sortDir)
     let $letter := 
         if (count($places) < $limit) then 
-            "all"
+            "Alle"
         else if ($letterParam = '') then
             substring($sorted[1]?1, 1, 1) => upper-case()
         else
             $letterParam
     let $byLetter :=
-        if ($letter = 'all') then
+        if ($letter = 'Alle') then
             $sorted
         else
             filter($sorted, function($entry) {
@@ -305,7 +305,7 @@ declare function api:places($request as map(*)) {
                             "count": $hits
                         },
                     map {
-                        "category": "all",
+                        "category": "Alle",
                         "count": count($sorted)
                     }
                 }
