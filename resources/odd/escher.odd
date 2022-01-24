@@ -332,7 +332,11 @@
                 </pb:template>
             </model>
             <model predicate="@type='third-party-letter'" behaviour="inline"/>
-            <model predicate="@type='lit'" behaviour="inline"/>
+            <model predicate="@type='lit'" behaviour="alternate" useSourceRendition="true">
+                <param name="default" value="./string()"/>
+                <param name="alternate" value="let $abbr := . return doc(&#34;/db/apps/escher/data/bibliography/bibliography.xml&#34;)//bibl[abbr = $abbr ]/bibl "/>
+                <pb:set-param name="footnote" value="true()"/>
+            </model>
             <model predicate="ancestor::note and not(@type) and @target" behaviour="link" cssClass="external-link">
                 <desc>A ref in a note, containing a target, but not a type, currently an external link</desc>
                 <param name="uri" value="@target"/>
@@ -449,6 +453,7 @@
                     <model behaviour="inline"/>
                 </elementSpec>
                 <elementSpec ident="bibl" mode="change">
+                    <model predicate="$parameters?footnote" behaviour="inline"/>
                     <model predicate="$parameters?header=&#34;commentary&#34;" behaviour="heading">
             <param name="content" value="(title[@type=&#34;short&#34;], ref[@type=&#34;volume&#34;])"/>
             <param name="level" value="3"/>
@@ -612,14 +617,14 @@
             
             
             
-            
+                      
                             float: right; 
                             margin-left: 20px;
                         
             
             
             
-            
+                       
             </outputRendition>
         </model>
                 </elementSpec>
