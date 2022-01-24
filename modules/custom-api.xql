@@ -259,13 +259,16 @@ declare function api:output-person($list, $letter as xs:string, $view as xs:stri
 declare function api:places-all($request as map(*)) {
     let $places := doc($config:data-root || "/places.xml")//tei:listPlace/tei:place
     return 
-        <div>{ 
-            for $place in $places 
+        array { 
+            for $place in $places
                 let $tokenized := tokenize($place/tei:location/tei:geo)
                 return 
-                    <pb-geolocation latitude="{$tokenized[1]}" longitude="{$tokenized[2]}" label="{$place/@n}"/>
-            }
-        </div>
+                    map {
+                        "latitude":$tokenized[1],
+                        "longitude":$tokenized[2],
+                        "label":$place/@n/string()
+                    }
+            }        
 };
 
 declare function api:places($request as map(*)) {

@@ -78,9 +78,8 @@
                             </header>
                         </app-toolbar>
                     </app-header>
-                    <main>
-                        <pb-load url="api/places/all" wait-for="#map" auto="auto"> </pb-load>
-                        <pb-leaflet-map id="map" zoom="13">
+                    <main>                                             
+                        <pb-leaflet-map id="map" subscribe="map" zoom="13">
                             <pb-map-layer show="" 
                                 base="" 
                                 label="HikeBike Map" 
@@ -105,5 +104,18 @@
             </app-drawer-layout>
         </pb-page>
         <div class="splash"/>
+        <script>
+            window.addEventListener('WebComponentsReady', function() {
+                const endpoint = document.querySelector("pb-page").getEndpoint();
+                fetch(`${endpoint}/api/places/all`)                
+                .then(function(response) {
+                    return response.json();
+                })
+                .then(function(json) {
+                    console.log(json);
+                    pbEvents.emit("pb-update-map", "map", json)
+                });
+            });            
+        </script>
     </body>
 </html>

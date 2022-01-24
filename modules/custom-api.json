@@ -1025,9 +1025,9 @@
                     "200": {
                         "description": "List of all places",
                         "content": {
-                            "text/html": {
+                            "application/json": {
                                 "schema":{
-                                    "type": "string"
+                                    "type": "array"
                                 }
                             }
                         }
