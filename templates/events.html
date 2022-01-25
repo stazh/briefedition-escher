@@ -21,21 +21,19 @@
 
     <script type="module" src="pb-components-bundle.js" data-template="pages:load-components" />
     <style>
-        .content-body.single-col {
-            grid-template-columns: minmax(auto, 64rem);
-            justify-content: center;
+        #images {
+            float:left;
+            width: 200px; 
         }
 
-        .content-body.single-col .transcript {
-            max-width: none;
+        #chronologie td {            
+            border-top: 1px solid black;
+            vertical-align: top;
+            padding-left: 10px;            
         }
-
-        .radios {
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            align-items: center;
-        }
+        .csc-textpic-caption {
+                font-size: x-small;
+        }        
 
         pb-custom-form {
             margin-bottom: 1em;
@@ -77,13 +75,36 @@
                     </app-toolbar>
                 </app-header>
                 <main class="content-body single-col">
-                    <section class="transcript noscroll">
-                        <div>
-                            <h1>Chronologie</h1>
-                            <p>PROSA.</p>
+                    <section class="transcript">
+                        <h1>Alfred Escher – Chronologie</h1>
+                        <div id="images">
+                            <div>
+                                <figure>
+                                    <img src="https://www.alfred-escher.ch/fileadmin/_processed_/csm_zofingia_a910b4e668.jpg"  alt=""/>
+                                    <figcaption class="csc-textpic-caption">«Brüder, reicht die Hand zum Bunde.»
+                                        Festkarte des Schweizerischen Zofingervereins aus dem Jahr 1855.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="https://www.alfred-escher.ch/fileadmin/_processed_/csm_regierungsrat_996b6f8376.jpg" alt=""/>
+                                    <figcaption class="csc-textpic-caption">Dankesurkunde vom 2. Oktober 1855
+                                        für Alfred Escher nach dessen Rücktritt aus dem Zürcher
+                                        Regierungsrat.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="https://www.alfred-escher.ch/fileadmin/_processed_/csm_lydia_0e48cc0940.jpg" alt=""/>
+                                    <figcaption class="csc-textpic-caption">Alfred Eschers Tocher Lydia
+                                        (Photographie bearbeitet von John Schoch).
+                                    </figcaption>
+                                </figure>
+                            </div>                            
                         </div>
-                        
-                        <table class="contenttable-0 table">
+                        <table id="chronologie">
                             <tbody>
                                 <tr>
                                     <td>20.02.1819</td>
