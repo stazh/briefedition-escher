@@ -49,8 +49,9 @@
                         <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
                             <header class="breadcrumbs" data-template="pages:parse-params" data-path="/kontexte/personen/" data-target="toolbar-start">
-                                <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; 
+                                <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt;                                 
                                 <a href="${app}/kontexte/orte/">Orte</a> &gt; 
+                                <a href="${app}/kontexte/orte/?category=${category}">${category}</a> &gt; 
                                 ${title}                                
                             </header>
                         </app-toolbar>
