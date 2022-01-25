@@ -355,6 +355,19 @@ declare function api:sort($people as array(*)*, $dir as xs:string) {
             reverse($sorted)
 };
 
+declare function api:place-link($node as node(), $model as map(*) ) {
+    let $refs := doc($config:data-root || "/places.xml")//tei:place[@n = $model?key]//tei:ref 
+        where $refs
+    return     
+        <div>
+            <h3>Externe Links</h3>
+            <ul>{
+                for $ref in $refs
+                    return
+                        <li><a href="{$ref/@target/string()}" target="_blank">{$ref/text()}</a></li>
+            }</ul>
+        </div>
+};
 
 declare %templates:default("type", "person") 
 function api:person-mentions($node as node(), $model as map(*), $type as xs:string) {
