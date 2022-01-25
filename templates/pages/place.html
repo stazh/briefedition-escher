@@ -80,19 +80,5 @@
             </app-drawer-layout>
         </pb-page>
         <div class="splash"/>
-            <script type="text/javascript">
-                /**
-                 * Manually initialize map markers once components are ready.
-                 * Not necessary if the pb-geolocation appear inside a component
-                 * which does itself send the `pb-update` event, e.g. `pb-view`.
-                 */
-                document.addEventListener('WebComponentsReady', () => {
-                    document.dispatchEvent(new CustomEvent('pb-update', {
-                        detail: {
-                            root: document.getElementById('locations')
-                        }
-                    }));
-                });
-            </script>        
     </body>
 </html>
