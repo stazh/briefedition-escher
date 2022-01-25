@@ -392,7 +392,7 @@ declare function app:filter-dates($items as element()*, $dateStart as xs:string?
 declare
     %templates:wrap    
 function app:load-place($node as node(), $model as map(*), $name as xs:string) {
-    let $geo := doc($config:data-root || "/places.xml")//tei:place[@n = $name]
+    let $geo := doc($config:data-root || "/places.xml")//tei:place[@n = xmldb:decode($name)]
     let $geo-token := tokenize($geo//tei:geo/text(), " ")
     return 
         map {
