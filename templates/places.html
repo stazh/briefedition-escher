@@ -46,7 +46,7 @@
                 width: 100%;
                 align-items: center;
             }
-            
+
             pb-split-list::part(items) {
                 margin-top: 1em;
             }
@@ -119,7 +119,6 @@
             window.addEventListener('WebComponentsReady', function() {
                 pbEvents.subscribe('pb-page-ready', null, function() {
                     const endpoint = document.querySelector("pb-page").getEndpoint();
-                    console.log(`endpoint: ${endpoint}`);
                     fetch(`${endpoint}/api/places/all`)                
                     .then(function(response) {
                         return response.json();
@@ -127,6 +126,12 @@
                     .then(function(json) {
                         pbEvents.emit("pb-update-map", "map", json)
                     });
+                });
+
+                pbEvents.subscribe('pb-leaflet-marker-click', 'map', function(ev) {
+                    const label = ev.detail.label;
+                    const category = label.substring(0, 1);
+                    window.location = `${label}?category=${category}`;
                 });
             });
         </script>
