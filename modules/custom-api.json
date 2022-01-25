@@ -212,6 +212,63 @@
 					}
 				}
 			},
+			"/kontexte/chronologie": {
+				"get": {
+					"summary": "Landing page for Chronologie (Events)",
+					"description": "Retrieve an HTML page expanded through eXist templating. This is used to load the top-level HTML pages, e.g. `index.html`.",
+					"tags": ["view"],
+					"operationId": "vapi:html",
+					"x-error-handler": "vapi:handle-error",
+					"parameters": [
+						{
+							"name": "file",
+							"in": "query",
+							"schema": {
+								"type": "string",
+								"default": "events"
+							}
+						},
+						{
+							"name": "uri",
+							"in": "query",
+							"schema": {
+								"type": "string",
+								"default": "kontexte/chronologie"
+							}
+						},
+						{
+							"name": "view",
+							"in": "query",
+							"schema":{
+								"type": "string",
+								"default": "correspondents"
+							}
+						}
+					],
+					"responses": {
+						"200": {
+							"description": "HTML of the page",
+							"content": {
+								"text/html": {
+									"schema": {
+										"type": "string"
+									}
+								}
+							}
+						},
+						"404": {
+							"description": "The document was not found",
+							"content": {
+								"text/html": {
+									"schema": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				}
+			},			
 		   "/kontexte/personen": {
             "get": {
 				"summary": "Landing page for people",
@@ -770,7 +827,7 @@
 					}
 				}
 			}
-        },
+        },      
         "/kontexte/landing/uberblickskommentare": {
             "get": {
 				"summary": "Retrieve the HTML template used for displaying person metadata",

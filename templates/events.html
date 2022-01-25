@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes" />
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16" />
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24" />
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32" />
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64" />
+
+    <title>Chronologie - Alfred Escher Briefedition</title>
+    <meta name="description" content="Escher people" />
+    <meta name="pb-template" content="people.html" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap" />
+
+    <link rel="stylesheet" href="resources/css/theme.css" />
+    <link rel="stylesheet" href="resources/css/escher-theme.css" />
+
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components" />
+    <style>
+        .content-body.single-col {
+            grid-template-columns: minmax(auto, 64rem);
+            justify-content: center;
+        }
+
+        .content-body.single-col .transcript {
+            max-width: none;
+        }
+
+        .radios {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+        }
+
+        pb-custom-form {
+            margin-bottom: 1em;
+        }
+
+        @media (max-width: 767px) {
+            .people-list .list {
+                grid-template-columns: auto;
+            }
+
+            form {
+                display: block;
+            }
+
+            form label {
+                margin: 0;
+                display: block;
+            }
+
+            .people-list header {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer data-template="lib:include" data-template-path="templates/drawer.html" />
+            <app-header-layout fullbleed="">
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                    <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"></app-toolbar>
+                    <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
+                        <header class="breadcrumbs" data-template="pages:parse-params" data-target="toolbar-start">
+                            <a href="${app}/">Home</a> &gt; <a href="${app}/kontexte/">Kontexte</a> &gt; Chronologie
+                        </header>
+                    </app-toolbar>
+                </app-header>
+                <main class="content-body single-col">
+                    <section class="transcript noscroll">
+                        <div>
+                            <h1>Chronologie</h1>
+                            <p>PROSA.</p>
+                        </div>
+                        
+                        <table class="contenttable-0 table">
+                            <tbody>
+                                <tr>
+                                    <td>20.02.1819</td>
+                                    <td>Geburt in Zürich am Hirschengraben 56/60 als Sohn von Heinrich Escher und Lydia
+                                        Zollikofer von Altenklingen </td>
+                                </tr>
+                                <tr>
+                                    <td>1831</td>
+                                    <td>Bezug des Belvoir-Areals in der Gemeinde Enge bei Zürich </td>
+                                </tr>
+                                <tr>
+                                    <td>1834–1837 </td>
+                                    <td>Besuch des kantonalen Obergymnasiums, Erlangung der Maturität </td>
+                                </tr>
+                                <tr>
+                                    <td>1837–1842 </td>
+                                    <td>Studium der Rechtswissenschaften an der Universität Zürich (mit zwei
+                                        Auslandsemestern in Bonn und Berlin)</td>
+                                </tr>
+                                <tr>
+                                    <td>1840/41 </td>
+                                    <td>Zentralpräsident der Studentenverbindung «Zofingia» </td>
+                                </tr>
+                                <tr>
+                                    <td>1842 </td>
+                                    <td>Promotion als erster Dr. iur. utr. der Universität Zürich</td>
+                                </tr>
+                                <tr>
+                                    <td>1842/43 </td>
+                                    <td>Sechsmonatiger Aufenthalt in Paris </td>
+                                </tr>
+                                <tr>
+                                    <td>1844–1847 </td>
+                                    <td>Privatdozent an der Universität Zürich </td>
+                                </tr>
+                                <tr>
+                                    <td>1844–1882 </td>
+                                    <td>Mitglied des Zürcher Kantonsparlaments (Präsident 1848, 1852, 1857, 1861, 1864,
+                                        1868) </td>
+                                </tr>
+                                <tr>
+                                    <td>1845–1848</td>
+                                    <td>Eidgenössischer Tagsatzungsgesandter (mit Unterbrüchen)</td>
+                                </tr>
+                                <tr>
+                                    <td>1847/48</td>
+                                    <td>Staatsschreiber des Kantons Zürich</td>
+                                </tr>
+                                <tr>
+                                    <td>1848</td>
+                                    <td>Eidgenössischer Kommissär im Kanton Tessin</td>
+                                </tr>
+                                <tr>
+                                    <td>1848–1855</td>
+                                    <td>Regierungsrat des Kantons Zürich (Präsident 1849, 1851/52, 1853–1855)</td>
+                                </tr>
+                                <tr>
+                                    <td>1848–1882</td>
+                                    <td>Nationalrat (Präsident 1849/50, 1856/57, 1862/63)</td>
+                                </tr>
+                                <tr>
+                                    <td>1849</td>
+                                    <td>Büsinger Handel: Vereidigung von General Dufour</td>
+                                </tr>
+                                <tr>
+                                    <td>1852</td>
+                                    <td>Escher verhilft dem Eisenbahngesetz zum Durchbruch, das die Konzession für die
+                                        Vergabe der Linien den Kantonen sowie den Bau und Betrieb der Bahnen privaten
+                                        Unternehmen überträgt</td>
+                                </tr>
+                                <tr>
+                                    <td>1853–1871</td>
+                                    <td>Direktionspräsident der Schweizerischen Nordostbahn</td>
+                                </tr>
+                                <tr>
+                                    <td>1854–1882</td>
+                                    <td>Vizepräsident des Eidgenössischen Schulrats für das Polytechnikum (heute ETH
+                                        Zürich)</td>
+                                </tr>
+                                <tr>
+                                    <td>1856–1877</td>
+                                    <td>Verwaltungsratspräsident der Schweizerischen Kreditanstalt (heute Credit Suisse)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1856/57</td>
+                                    <td>Neuenburger Handel: führende Rolle bei der Konfliktlösung</td>
+                                </tr>
+                                <tr>
+                                    <td>23.04.1857</td>
+                                    <td>Heirat mit Augusta Uebel</td>
+                                </tr>
+                                <tr>
+                                    <td>1857–1874</td>
+                                    <td>Aufsichtsrat der Schweizerischen Lebensversicherungs- und Rentenanstalt (heute
+                                        Swiss Life)</td>
+                                </tr>
+                                <tr>
+                                    <td>10.07.1858</td>
+                                    <td>Geburt der Tochter Lydia</td>
+                                </tr>
+                                <tr>
+                                    <td>1859–1874</td>
+                                    <td>Mitglied des Grossen Stadtrats Zürich</td>
+                                </tr>
+                                <tr>
+                                    <td>1859/60</td>
+                                    <td>Savoyer Handel: führende Rolle bei der Konfliktlösung</td>
+                                </tr>
+                                <tr>
+                                    <td>04.06.1861</td>
+                                    <td>Geburt der Tochter Hedwig Escher</td>
+                                </tr>
+                                <tr>
+                                    <td>1861–1863</td>
+                                    <td>Dappentalfrage: führende Rolle bei der Konfliktlösung</td>
+                                </tr>
+                                <tr>
+                                    <td>28.07.1862</td>
+                                    <td>Tod der Tochter Hedwig Escher</td>
+                                </tr>
+                                <tr>
+                                    <td>1863–1871</td>
+                                    <td>Mitglied des Ausschusses der Gotthardvereinigung</td>
+                                </tr>
+                                <tr>
+                                    <td>22.07.1864</td>
+                                    <td>Tod von Augusta Escher-Uebel</td>
+                                </tr>
+                                <tr>
+                                    <td>1871–1878</td>
+                                    <td>Direktionspräsident der Gotthardbahn-Gesellschaft</td>
+                                </tr>
+                                <tr>
+                                    <td>1872–1882</td>
+                                    <td>Verwaltungsratspräsident der Schweizerischen Nordostbahn</td>
+                                </tr>
+                                <tr>
+                                    <td>1880–1882</td>
+                                    <td>Verwaltungsratspräsident der Schweizerischen Kreditanstalt (heute Credit Suisse)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>06.12.1882</td>
+                                    <td>Tod</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </main>
+
+                <footer data-template="templates:include" data-template-path="templates/footer.html" />
+            </app-header-layout>
+        </app-drawer-layout>
+    </pb-page>
+    <div class="splash" />
+</body>
+
+</html>
