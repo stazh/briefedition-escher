@@ -31,8 +31,13 @@
                 max-width: none;
             }
 
-            pb-leaflet-map {
-                height: calc(100vh - 175px);
+            pb-leaflet-map, .transcript {
+                height: calc(100vh - 200px);
+            }
+
+            .transcript {
+                margin-bottom: 0;
+                padding: 0;
             }
 
             [slot=controls] {
@@ -41,8 +46,14 @@
                 width: 100%;
                 align-items: center;
             }
-            .radios label {
-                margin-left: 30px;
+            
+            pb-split-list::part(items) {
+                margin-top: 1em;
+            }
+
+            .place iron-icon {
+                margin-left: 1em;
+                --iron-icon-height: 22px;
             }
 
             @media (max-width: 767px) {
@@ -79,8 +90,8 @@
                         </app-toolbar>
                     </app-header>
                     <main>                                             
-                        <pb-leaflet-map id="map" subscribe="map" zoom="13">
-                            <pb-map-layer show="" 
+                        <pb-leaflet-map id="map" subscribe="map" emit="map" zoom="13" cluster="" fit-markers="">
+                            <pb-map-layer show=""
                                 base="" 
                                 label="HikeBike Map" 
                                 url="https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}" 
@@ -106,16 +117,18 @@
         <div class="splash"/>
         <script>
             window.addEventListener('WebComponentsReady', function() {
-                const endpoint = document.querySelector("pb-page").getEndpoint();
-                fetch(`${endpoint}/api/places/all`)                
-                .then(function(response) {
-                    return response.json();
-                })
-                .then(function(json) {
-                    console.log(json);
-                    pbEvents.emit("pb-update-map", "map", json)
+                pbEvents.subscribe('pb-page-ready', null, function() {
+                    const endpoint = document.querySelector("pb-page").getEndpoint();
+                    console.log(`endpoint: ${endpoint}`);
+                    fetch(`${endpoint}/api/places/all`)                
+                    .then(function(response) {
+                        return response.json();
+                    })
+                    .then(function(json) {
+                        pbEvents.emit("pb-update-map", "map", json)
+                    });
                 });
-            });            
+            });
         </script>
     </body>
 </html>

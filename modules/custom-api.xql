@@ -334,9 +334,12 @@ declare function api:output-place($list, $letter as xs:string, $view as xs:strin
         let $label := $place?3/@n/string()
         let $coords := tokenize($place?3/tei:location/tei:geo)
         return
-            <a href="{$label}?{$params}">
-                <pb-geolocation latitude="{$coords[1]}" longitude="{$coords[2]}" label="{$label}">{$label}</pb-geolocation>
-            </a>
+            <span class="place">
+                <a href="{$label}?{$params}">{$label}</a>
+                <pb-geolocation latitude="{$coords[1]}" longitude="{$coords[2]}" label="{$label}" emit="map" event="click">
+                    <iron-icon icon="maps:map"></iron-icon>
+                </pb-geolocation>
+            </span>
     }
 };
 
