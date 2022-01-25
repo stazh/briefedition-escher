@@ -397,6 +397,7 @@ function app:load-place($node as node(), $model as map(*), $name as xs:string) {
     return 
         map {
             "title": $geo/tei:placeName[@type="main"]/string(),
+            "key":$geo/@n,
             "latitude": $geo-token[1],
             "longitude": $geo-token[2]
         }

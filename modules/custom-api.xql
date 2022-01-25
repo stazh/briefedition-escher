@@ -326,11 +326,11 @@ declare function api:places($request as map(*)) {
         }
 };
 
-declare function api:output-place($list, $letter as xs:string, $view as xs:string, $search as xs:string?) {
+declare function api:output-place($list, $category as xs:string, $view as xs:string, $search as xs:string?) {
     array {
         for $place in $list
-        let $letterParam := if ($letter = "all") then substring($place?3/@n, 1, 1) else $letter
-        let $params := "category=" || $letterParam || "&amp;view=" || $view || "&amp;search=" || $search
+        let $categoryParam := if ($category = "all") then substring($place?3/@n, 1, 1) else $category
+        let $params := "category=" || $categoryParam || "&amp;view=" || $view || "&amp;search=" || $search
         let $label := $place?3/@n/string()
         let $coords := tokenize($place?3/tei:location/tei:geo)
         return
@@ -355,10 +355,27 @@ declare function api:sort($people as array(*)*, $dir as xs:string) {
             reverse($sorted)
 };
 
-declare function api:person-mentions($node as node(), $model as map(*)) {
-    let $letters := collection($config:data-root || "/briefe")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
-    let $commentaries := collection($config:data-root || "/commentary")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
-    let $biographies := doc($config:data-root || "/people.xml")//tei:persName[@key=$model?key]/ancestor::tei:person[@xml:id != $model?key]
+
+declare %templates:default("type", "person") 
+function api:person-mentions($node as node(), $model as map(*), $type as xs:string) {
+    let $letters := if($type = "person") 
+                    then ( 
+                        collection($config:data-root || "/briefe")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')] 
+                    )else( 
+                        collection($config:data-root || "/briefe")//tei:text[.//tei:placeName/@key = $model?key]
+                    )
+    let $commentaries := if($type = "person") 
+                    then ( 
+                        collection($config:data-root || "/commentary")//tei:text[ft:query(., 'mentioned:"'||$model?key||'"')]
+                    ) else (  
+                        collection($config:data-root || "/commentary")//tei:text[.//tei:placeName/@key = $model?key]
+                    )
+    let $biographies := if($type = "person") 
+                        then ( 
+                            doc($config:data-root || "/people.xml")//tei:persName[@key=$model?key]/ancestor::tei:person[@xml:id != $model?key]
+                        ) else (  
+                            doc($config:data-root || "/people.xml")//tei:person[.//tei:placeName/@key = $model?key]
+                        )
     let $titles := doc($config:data-root || "/titles.xml")
     return
         if (count($letters) or count($commentaries) or count($biographies)) then
@@ -372,7 +389,7 @@ declare function api:person-mentions($node as node(), $model as map(*)) {
                             </div>
                             <div slot="collapse-content">
                                 <ul>
-                                {api:letter-list("mentioned", $letters, $titles, $model?key)}
+                                {api:letter-list(if($type="person") then("mentioned") else ("place"), $letters, $titles, $model?key)}
                                 </ul>
                             </div>
                         </pb-collapse>
@@ -407,7 +424,7 @@ declare function api:person-mentions($node as node(), $model as map(*)) {
                                     {
                                         for $p in $biographies
                                         return 
-                                        <li><a href="{$p/@n}">{$p/@n/string()}</a> | {$p/tei:birth}—{$p/tei:death}</li>
+                                        <li><a href="../personen/{$p/@n}">{$p/@n/string()}</a> | {$p/tei:birth}—{$p/tei:death}</li>
                                     }
                                 </ul>
                             </div>
