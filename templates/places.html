@@ -119,7 +119,9 @@
             window.addEventListener('WebComponentsReady', function() {
                 pbEvents.subscribe('pb-page-ready', null, function() {
                     const endpoint = document.querySelector("pb-page").getEndpoint();
-                    fetch(`${endpoint}/api/places/all`)                
+                    const url = `${endpoint}/api/places/all`;
+                    console.log(`fetching places from: ${url}`);
+                    fetch(url)                
                     .then(function(response) {
                         return response.json();
                     })
