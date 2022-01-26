@@ -22,22 +22,23 @@
         <script type="module" src="pb-leaflet-map.js" data-template="pages:load-components"/>
         <style>
             main {
-                display: grid;
-                grid-template-columns: minmax(220px, 30vw) 1fr;
-                justify-content: center;
+                height: calc(100vh - 200px);
+            }
+
+            pb-leaflet-map {
+                height: 40%;
+                width: 100%;
             }
 
             .content-body .transcript {
                 max-width: none;
             }
 
-            pb-leaflet-map, .transcript {
-                height: calc(100vh - 200px);
-            }
-
-            .transcript {
-                margin-bottom: 0;
-                padding: 0;
+            .list {
+                height: 60%;
+                max-width: 41.24rem;
+                margin: 0 auto;
+                overflow: auto;
             }
 
             [slot=controls] {
@@ -57,8 +58,11 @@
             }
 
             @media (max-width: 767px) {
-                .people-list .list {
-                    grid-template-columns: auto;
+                .list {
+                    --pb-categorized-list-columns: 1;
+                    max-width: auto;
+                    margin-left: 10px;
+                    margin-right: 10px;
                 }
 
                 form {
@@ -67,10 +71,6 @@
                 form label {
                     margin: 0;
                     display: block;
-                }
-                .people-list header {
-                    display: flex;
-                    flex-wrap: wrap;
                 }
             }
         </style>
@@ -101,7 +101,7 @@
                             </pb-map-layer>
                         </pb-leaflet-map>
                         
-                        <div class="transcript">
+                        <div class="list">
                             <pb-custom-form id="options" auto-submit="paper-input,paper-icon-button" emit="transcription">
                                 <paper-input id="query" name="search" label="Suche" data-template="templates:form-control">
                                     <paper-icon-button icon="search" slot="suffix"></paper-icon-button>

@@ -337,6 +337,7 @@ declare function api:output-place($list, $category as xs:string, $view as xs:str
             <span class="place">
                 <a href="{$label}?{$params}">{$label}</a>
                 <pb-geolocation latitude="{$coords[1]}" longitude="{$coords[2]}" label="{$label}" emit="map" event="click">
+                    { if ($place?3/@type != 'approximate') then attribute zoom { 9 } else () }
                     <iron-icon icon="maps:map"></iron-icon>
                 </pb-geolocation>
             </span>
