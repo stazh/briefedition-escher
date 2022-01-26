@@ -1,78 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
-        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
-        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
-        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
-        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
-        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
 
-        <title data-template="config:app-title"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
-        <link rel="stylesheet" href="resources/css/theme.css"/>
-        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
-        <custom-style>
-            <style include="pb-common-styles">
-                body {
-                    --pb-link-theme: {
-                        text-decoration: none;
-                        color: black;
-                    };
+<head>
+    <meta charset="utf-8"/>
+    <title>Error Page - Alfred Escher Briefedition</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/solid.min.css" integrity="sha512-tk4nGrLxft4l30r9ETuejLU0a3d7LwMzj0eXjzc16JQj+5U1IeVoCuGLObRDc3+eQMUcEQY1RIDPGvuA7SNQ2w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="resources/css/theme.css"/>
+    <link rel="stylesheet" href="resources/css/escher-theme.css"/>
 
-                    --pb-content-theme: {
-                        margin-right: 32px;
-                    };
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="resources/scripts/app/home.js"></script>
+    <style>
+        main {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: auto auto auto auto auto;
+            gap: 10px 10px;
+            justify-content: space-evenly;
+            max-width: 980px;
+            margin: 32px auto 0 auto;
+            font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
+        }
 
-                    --paper-card-header: {
-                        font-family: "Oswald",Verdana,"Helvetica",sans-serif;
-                        background-color: #607D8B;
-                    };
+        @media (max-width: 1023px) {
+            main {
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: auto auto;
+                gap: 4px;
+                height: auto;
+                margin: 32px 10px 0 10px;
+            }
+        }
+        footer {
+            grid-column: span 5;
+            display: block;
+        }
 
-                    --paper-card-header-color: #F0F0F0;
-                }
+        footer img {
+            vertical-align: middle;
+        }
 
-                .tp-title {
-                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
-                    font-size: 36px;
-                    font-weight: 400;
-                }
+        .row {
+            grid-column: span 5;
+            grid-row: 1;
+        }
 
-                pre {
-                    font-family: "Ubuntu Mono",Menlo,Consolas,Courier,monospace;
-                    font-size: 14px;
-                    width: 100%;
-                    overflow: auto;
-                }
+        .orte {
+            background-color: #c3ac8e;
+            max-height: 155px;
+        }
 
-                section {
-                    margin: 0 20px;
-                }
-                .content-body {
-                    position: relative;
-                    display: flex;
-                    justify-content: center;
-                }
-            </style>
-        </custom-style>
-    </head>
+        .personen {
+            background-color:rgb(83, 175, 217);
+            max-height: 155px;
+        }
 
-    <body unresolved="unresolved">
-        <pb-page data-template="pages:pb-page" unresolved="unresolved">
+        .briefe {
+            background-color: rgb(182, 138, 145);
+        }
+
+        .quote {
+            background-color: rgb(237, 150, 56);
+            grid-row: 2 / 5;
+            grid-column: 1 / 3;
+        }
+
+        .quote i {
+            position: absolute;
+            top: 10px;
+        }
+
+        .bottom {
+            margin-top: 10px;
+        }
+
+        .quote .bottom {
+            position: absolute;
+            bottom: 10px;
+        }
+
+        .facsimile {
+            grid-row: 2 / 5;
+            grid-column:  4 / 6;
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-attachment: 0 0;
+            background-size: auto 100%;
+        }
+
+        @media (max-width: 1023px) {
+            .homepage a.facsimile, .homepage a.facsimile:link,
+            .homepage a.quote, .homepage a.quote:link {
+                display: none;
+            }
+        }
+
+        .box {
+            display: block;
+            position: relative;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .box i {
+            display: block;
+            font-size: 48px;
+            opacity: .5;
+            color: white;
+        }
+
+        .box h1 {
+            font-size: 2em;
+            margin-bottom: 0;
+        }
+
+        .box div {
+            font-size: var(--pb-base-font-size);
+        }
+
+        .box .source {
+            font-size: var(--pb-font-size-small);
+        }
+
+        .teaser {
+            line-height: 27px;
+        }
+
+        @media (min-width: 1024px) {
+            teaser {
+                font-size: var(--pb-heading-h4-font-size);
+            }
+        }
+
+        .homepage > a, .homepage > a:link {
+            display: block;
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <pb-page data-template="pages:pb-page" unresolved="unresolved"
+        locales="resources/i18n/{{ns}}/{{lng}}.json" locale-fallback-ns="app">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
             <app-header-layout>
                 <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                     <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                    <pb-media-query query="(max-width: 1023px)">
+                        <app-toolbar class="toolbar" sticky="sticky">
+                            <pb-media-query query="(max-width: 1023px)">
+                                <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
+                            </pb-media-query>
+                        </app-toolbar>
+                    </pb-media-query>
                 </app-header>
+                <main class="homepage" data-template="app:counts">
 
-                <main>
-                    <section>
-                        <h1 class="tp-title">An error has occurred</h1>
-                        <p>An error has been generated by the application.</p>
-                        <pre class="error templates:error-description"/>
-                    </section>
+                    <div id="wilkommen" class="row">
+                        <h1 class="tp-title">Fehler</h1>
+                        <p class="teaser">Es tut uns leid, diese Seite existiert nicht.</p>                        
+                        <p class="teaser">Zurück zur <a href="${app}/home.html" data-template="pages:parse-params">Startseite</a>.</p>                        
+                    </div>
+
+                   
+                    <footer>
+                        <p>
+                            <span class="contact">Kontakt: <a href="mailto:staatsarchivzh@ji.zh.ch" target="_blank">staatsarchivzh@ji.zh.ch</a></span>
+                            <span class="license"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></span>
+                        </p>
+                    </footer>
                 </main>
             </app-header-layout>
-        </pb-page>
-    </body>
+        </app-drawer-layout>
+    </pb-page>
+    <div class="splash"/>
+</body>
 </html>
