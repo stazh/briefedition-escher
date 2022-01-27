@@ -29,24 +29,21 @@ declare function teis:query-default($fields as xs:string+, $query as xs:string, 
     $sortBy as xs:string*) {
     if(string($query)) then
         for $field in $fields
-        return
-            switch ($field)
-                case "head" return
-                    if ($target-texts) then
-                        for $text in $target-texts
-                        return
-                            $config:data-root ! doc(. || "/" || $text)//tei:head[ft:query(., $query, query:options($sortBy))]
-                    else
-                        collection($config:data-root)//tei:head[ft:query(., $query, query:options($sortBy))]
-                default return
-                    if ($target-texts) then
-                        for $text in $target-texts
-                        return
-                            $config:data-root ! doc(. || "/" || $text)//tei:div[ft:query(., $query, query:options($sortBy))] |
-                            $config:data-root ! doc(. || "/" || $text)//tei:text[ft:query(., $query, query:options($sortBy))]
-                    else
-                        collection($config:data-root)//tei:div[ft:query(., $query, query:options($sortBy))] |
-                        collection($config:data-root)//tei:text[ft:query(., $query, query:options($sortBy))]
+        return            
+            if ($target-texts) then
+                for $text in $target-texts
+                return
+                    $config:data-root ! doc(. || "/" || $text)//tei:div[ft:query(., $query, query:options($sortBy))] |
+                    $config:data-root ! doc(. || "/" || $text)//tei:text[ft:query(., $query, query:options($sortBy))] |
+                    $config:data-root ! doc(. || "/" || $text)//tei:bibl/tei:bibl[ft:query(., $query, query:options($sortBy))] |
+                    $config:data-root ! doc(. || "/" || $text)//tei:standOff//tei:p[ft:query(., $query, query:options($sortBy))] |
+                    $config:data-root ! doc(. || "/" || $text)//tei:listPlace//tei:placeName[ft:query(., $query, query:options($sortBy))]
+            else
+                collection($config:data-root)//tei:div[ft:query(., $query, query:options($sortBy))] |
+                collection($config:data-root)//tei:text[ft:query(., $query, query:options($sortBy))] |
+                collection($config:data-root)//tei:bibl/tei:bibl[ft:query(., $query, query:options($sortBy))] |
+                collection($config:data-root)//tei:standOff//tei:p[ft:query(., $query, query:options($sortBy))] |
+                collection($config:data-root)//tei:listPlace//tei:placeName[ft:query(., $query, query:options($sortBy))]
     else ()
 };
 

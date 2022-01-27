@@ -285,17 +285,66 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
     let $parent-id := config:get-identifier($parent)
     let $parent-id := if (exists($docs)) then replace($parent-id, "^.*?([^/]*)$", "$1") else $parent-id
 
-    let $uri := 
-        switch (util:collection-name($parent-id))
-                case 'briefe' return 'briefe/'
-                case 'commentary' return 'kontexte/uberblickskommentare/'
-                default return ()
+    let $metadata := 
+            switch (util:collection-name($parent-id))
+                case 'briefe' 
+                    return 
+                        map {
+                            'type':'Brief',
+                            'class':'letter',
+                            'uri':'briefe/',
+                            'parrent-id':$letterId
+                        }
+                case 'commentary' 
+                    return 
+                        map { 
+                            'type':'Überblickskommentar',
+                            'class':'comment',
+                            'uri':'kontexte/uberblickskommentare/',
+                            'parrent-id':$tei-id
+                        }
+                case 'uber-die-edition' 
+                    return 
+                        map { 
+                            'type':'Über die Edition',
+                            'class':'about',
+                            'uri':(),
+                            'parrent-id':$parent-id
+                        }              
+                default 
+                    return
+                        let $proerties := 
+                                if($parent-id = "bibliography/bibliography.xml") 
+                                then (    
+                                    let $type := $hit/ancestor::tei:bibl/@type/string()
+                                    let $abbr := $hit/ancestor::tei:bibl/tei:abbr/text()
+                                    return
+                                        map {"type":"Bibliographie","class":"bibliographie" } )                                                                            
+                                else if($parent-id = "people.xml")
+                                then (
+                                    let $name := $hit/ancestor::tei:person/@n/string()
+                                    return
+                                        map {"type":"Person","class":"people"} )
+                                else if($parent-id = "events.xml")
+                                then (
+                                    let $name := $hit/ancestor::tei:event/tei:head/text()
+                                    return
+                                        map {"type":"Chronologie","class":"event"} )
+                                else if($parent-id = "places.xml")
+                                then ( map {"type":"Ort","class":"place"} )
+                                else ( 
+                                    map {"type":$parent-id,"class":"unknown"} 
+                                )
+                        return
+                             map {
+                                'type':$proerties?type,
+                                'class':$proerties?class,
+                                'uri':(),
+                                'parrent-id':$parent-id
+                            }
 
-    let $parent-id := 
-        switch (util:collection-name($parent-id))
-            case 'briefe' return $letterId
-            case 'commentary' return $tei-id
-            default return $parent-id
+    let $uri := $metadata?uri
+    let $parent-id := $metadata?parrent-id
 
     let $div := query:get-current($config, $parent)
     let $expanded := util:expand($hit, "add-exist-id=all")
@@ -305,6 +354,7 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
             <header>
                 <div class="count">{$request?parameters?start + $p - 1}</div>
                 { query:get-breadcrumbs($config, $hit, $uri || $parent-id) }
+                <div class="type type-{$metadata?class}">{$metadata?type}</div>
             </header>
             <div class="matches">
             {
