@@ -221,4 +221,20 @@ window.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
+
+    const timelineChanged = (ev) => {
+        let correspondent;
+        document.querySelectorAll('#correspondence [data-ref]').forEach((elem) => {
+            const ref = elem.getAttribute('data-ref');
+            if (ref !== 'Escher (vom Glas) Alfred') {
+                correspondent = ref;
+            }
+        });
+        window.location = `./?dates=${ev.detail.categories.join(';')}&facet-correspondent=${correspondent}`;
+    };
+    pbEvents.subscribe('pb-timeline-date-changed', 'timeline', timelineChanged);
+    pbEvents.subscribe('pb-timeline-daterange-changed', 'timeline', timelineChanged);
+    pbEvents.subscribe('pb-timeline-reset-selection', 'timeline', () => {
+        pbEvents.emit('pb-search-resubmit', 'docs', { params: { dates: null }});
+    });
 });

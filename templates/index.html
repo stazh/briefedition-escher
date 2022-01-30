@@ -210,16 +210,17 @@
 
                 <main>
                     <section class="panels">
-                        <pb-custom-form id="facets" class="noscroll" url="api/search/facets" event="pb-results-received" subscribe="docs" emit="docs">
-                            <input slot="searchButtonBottom" type="hidden" name="dates" value=""/>
-                        </pb-custom-form>
-                        <pb-browse-docs id="document-list" class="noscroll" url="api/collection/" collection="briefe"
+                        <pb-custom-form id="facets" class="noscroll" url="api/search/facets" event="pb-results-received" subscribe="docs" emit="docs"></pb-custom-form>
+                        <pb-browse-docs id="document-list" class="noscroll" url="api/collection/" collection="briefe" subforms="#options"
                         sort-options="[{&#34;label&#34;: &#34;facets.sender&#34;, &#34;value&#34;: &#34;sender&#34;},{&#34;label&#34;: &#34;facets.addressee&#34;, &#34;value&#34;: &#34;addressee&#34;},{&#34;label&#34;: &#34;facets.place&#34;, &#34;value&#34;: &#34;place&#34;},{&#34;label&#34;: &#34;facets.date&#34;, &#34;value&#34;: &#34;date&#34;}]" sort-by="date" 
                         filter-options="[{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;facets.sender&#34;, &#34;value&#34;: &#34;sender&#34;},{&#34;label&#34;: &#34;facets.addressee&#34;, &#34;value&#34;: &#34;addressee&#34;},{&#34;label&#34;: &#34;facets.place&#34;, &#34;value&#34;: &#34;place&#34;},{&#34;label&#34;: &#34;facets.keyword&#34;, &#34;value&#34;: &#34;keyword&#34;}, {&#34;label&#34;: &#34;facets.number&#34;, &#34;value&#34;: &#34;number&#34;}, {&#34;label&#34;: &#34;facets.type&#34;, &#34;value&#34;: &#34;type&#34;}]" 
                         filter-by="title" auto="auto" history="history" login="login" emit="docs" subscribe="docs">
                             <div slot="header" class="timeline">
-                                <pb-timeline slot="header" url="api/timeline" scopes='["D", "M", "Y", "5Y", "10Y"]'
-                                    subscribe="docs" emit="timeline"></pb-timeline>
+                                <pb-timeline url="api/timeline" scopes='["D", "M", "Y", "5Y", "10Y"]'
+                                    resettable=""
+                                    subscribe="docs" emit="timeline">
+                                    <span slot="label">Angezeigter Zeitraum: </span>
+                                </pb-timeline>
                             </div>
                             <pb-paginate slot="toolbar" id="paginate" per-page="10" range="5" emit="docs" subscribe="docs"/>
                             <pb-restricted login="login" slot="toolbar">
@@ -231,6 +232,9 @@
                                 </pb-ajax>
                             </pb-restricted>
                         </pb-browse-docs>
+                        <pb-custom-form id="options" style="display: none">
+                            <input slot="searchButtonBottom" type="hidden" name="dates" value="" data-template="templates:form-control"/>
+                        </pb-custom-form>
                     </section>
                 </main>
                 <footer data-template="templates:include" data-template-path="templates/footer.html"/>

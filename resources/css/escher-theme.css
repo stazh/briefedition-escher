@@ -49,6 +49,10 @@ body {
     --pb-heading-h5-font-size: 1em;
     --pb-heading-h6-font-size: 1em;
     --pb-facsimile-border: 2px solid var(--pb-color-focus);
+    --pb-timeline-color-highlight: var(--pb-color-focus);
+    --pb-timeline-background-color-title: var(--pb-menubar-background-color);
+    --pb-timeline-title-font-size: var(--pb-font-size-small);
+    --pb-timeline-tooltip-font-size: var(--pb-font-size-smallest);
 }
 
 @media (max-width: 1023px) {
@@ -142,7 +146,7 @@ paper-checkbox, paper-card {
     height: auto;
     margin: auto;
     grid-template-columns: 1fr minmax(auto, 320px) auto 1fr;
-    grid-template-rows: auto auto 1fr;
+    grid-template-rows: auto auto auto 1fr;
     /* max-width: calc(var(--pb-view-max-width) + 360px); */
 }
 
@@ -165,8 +169,7 @@ paper-checkbox, paper-card {
     display: grid;
     grid-template-columns: auto 1fr auto;
     justify-content: space-between;
-    margin-bottom: 20px;
-    background-color: #f0f0f0;
+    background-color: var(--pb-toolbar-background-color);
     font-size: var(--pb-font-size-small);
 }
 
@@ -182,6 +185,16 @@ paper-checkbox, paper-card {
 .letter .corresp-nav div {
     grid-column: 2;
     text-align: center;
+}
+
+.letter .timeline-nav {
+    background-color: var(--pb-toolbar-background-color);
+    font-size: var(--pb-font-size-small);
+    grid-column: 2 / 4;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 .letter #reference-view1 {
@@ -227,7 +240,7 @@ paper-checkbox, paper-card {
 
 .letter #register {
     grid-column: 2;
-    grid-row: 3;
+    /* grid-row: 3; */
     width: 100%;
     height: var(--pb-content-height);
     overflow: auto;
@@ -236,7 +249,7 @@ paper-checkbox, paper-card {
 
 .letter pb-facsimile {
     grid-column: 2;
-    grid-row: 1 / 4;
+    grid-row: 1 / 5;
 }
 
 .letter.toggle pb-facsimile {

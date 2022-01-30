@@ -32,12 +32,13 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     const timelineChanged = (ev) => {
-        facets.querySelector('[name=dates]').value = ev.detail.categories.join(';');
+        document.querySelector('[name=dates]').value = ev.detail.categories.join(';');
         facets.submit();
     };
     pbEvents.subscribe('pb-timeline-date-changed', 'timeline', timelineChanged);
     pbEvents.subscribe('pb-timeline-daterange-changed', 'timeline', timelineChanged);
     pbEvents.subscribe('pb-timeline-reset-selection', 'timeline', () => {
-        pbEvents.emit('pb-search-resubmit', 'docs', { params: { dates: null }});
+        document.querySelector('[name=dates]').value = '';
+        facets.submit();
     });
 });

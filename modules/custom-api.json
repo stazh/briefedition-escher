@@ -988,6 +988,35 @@
 				}
 			}
 		},
+		"/api/timeline/B{id}": {
+			"get": {
+				"summary": "Retrieve timeline data",
+				"operationId": "custom:corresp-timeline",
+				"parameters": [
+					{
+						"name": "id",
+						"in": "path",
+						"schema": {
+							"type": "string",
+							"example": "B0022"
+						},
+						"required": true
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "Timeline data",
+						"content": {
+							"application/json": {
+								"schema": {
+									"type": "object"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
 		"/api/timeline": {
 			"get": {
 				"summary": "Retrieve timeline data",

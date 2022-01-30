@@ -33,12 +33,52 @@ declare function api:timeline($request as map(*)) {
             for $entry in $datedEntries
             group by $date := ft:field($entry, "date", "xs:date")
             return
-                map:entry(format-date($date, "[Y0001]-[M01]-[D01]"), count($entry)),
+                map:entry(format-date($date, "[Y0001]-[M01]-[D01]"), map {
+                    "count": count($entry)
+                }),
+            if ($undatedEntries) then
+                map:entry("?", map {
+                    "count": count($undatedEntries)
+                })
+            else
+                ()
+        ))
+};
+
+declare function api:corresp-timeline($request as map(*)) {
+    let $id := xmldb:decode($request?parameters?id)
+    let $timeline := id("K_" || $id, doc($config:data-root || "/timeline.xml"))
+    let $entries := $timeline/date
+    let $datedEntries := filter($entries, function($entry) {
+        let $date := $entry/@when/xs:date(.)
+        return
+            exists($date) and year-from-date($date) != 1000
+    })
+    let $undatedEntries := $entries except $datedEntries
+    return
+        map:merge((
+            for $entry in $datedEntries
+            return
+                map:entry($entry/@when/string(), map {
+                    "count": count($entry/ref),
+                    "info": api:corresp-titles($entry/ref)
+                }),
             if ($undatedEntries) then
                 map:entry("?", count($undatedEntries))
             else
                 ()
         ))
+};
+
+declare function api:corresp-titles($refs as element(ref)*) {
+    if (count($refs) < 3) then
+        array {
+            for $ref in $refs
+            return
+                id($ref/@target, doc($config:data-root || "/titles.xml"))/string()
+        }
+    else
+        []
 };
 
 declare function api:view-bibliography($request as map(*)) {
@@ -138,6 +178,7 @@ declare function api:view-letter($request as map(*)) {
     let $id := "B" || xmldb:decode($request?parameters?id)
     let $template := doc($config:app-root || "/templates/pages/escher.html")
     let $model := map {
+        "id": xmldb:decode($request?parameters?id),
         "doc": "briefe/" || $id,
         "template": "escher"
     }
