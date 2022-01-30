@@ -315,25 +315,18 @@ declare function api:places-all($request as map(*)) {
 declare function api:places($request as map(*)) {
     let $search := normalize-space($request?parameters?search)
     let $letterParam := $request?parameters?category
-    let $view := $request?parameters?view
-    let $sortDir := $request?parameters?dir
     let $limit := $request?parameters?limit
     let $places :=
         if ($search and $search != '') then
             doc($config:data-root || "/places.xml")//tei:listPlace/tei:place[ft:query(., 'lname:(' || $search || '*)')]
         else
             doc($config:data-root || "/places.xml")//tei:listPlace/tei:place
-    let $byKey := for-each($places, function($place as element()) {
-        let $name := $place/tei:placeName[@type="main"]
-        return
-            [lower-case($place/@n), $name, $place]
-    })
-    let $sorted := api:sort($byKey, $sortDir)
+    let $sorted := sort($places, "?lang=de-DE", function($place) { lower-case($place/@n) })
     let $letter := 
         if (count($places) < $limit) then 
             "Alle"
         else if ($letterParam = '') then
-            substring($sorted[1]?1, 1, 1) => upper-case()
+            substring($sorted[1], 1, 1) => upper-case()
         else
             $letterParam
     let $byLetter :=
@@ -341,18 +334,18 @@ declare function api:places($request as map(*)) {
             $sorted
         else
             filter($sorted, function($entry) {
-                starts-with($entry?1, lower-case($letter))
+                starts-with(lower-case($entry/@n), lower-case($letter))
             })
     return
         map {
-            "items": api:output-place($byLetter, $letter, $view, $search),
+            "items": api:output-place($byLetter, $letter, $search),
             "categories":
                 if (count($places) < $limit) then
                     []
                 else array {
                     for $index in 1 to string-length('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
                     let $alpha := substring('ABCDEFGHIJKLMNOPQRSTUVWXYZ', $index, 1)
-                    let $hits := count(filter($sorted, function($entry) { starts-with($entry?1, lower-case($alpha))}))
+                    let $hits := count(filter($sorted, function($entry) { starts-with(lower-case($entry/@n), lower-case($alpha))}))
                     where $hits > 0
                     return
                         map {
@@ -367,18 +360,18 @@ declare function api:places($request as map(*)) {
         }
 };
 
-declare function api:output-place($list, $category as xs:string, $view as xs:string, $search as xs:string?) {
+declare function api:output-place($list, $category as xs:string, $search as xs:string?) {
     array {
         for $place in $list
-        let $categoryParam := if ($category = "all") then substring($place?3/@n, 1, 1) else $category
-        let $params := "category=" || $categoryParam || "&amp;view=" || $view || "&amp;search=" || $search
-        let $label := $place?3/@n/string()
-        let $coords := tokenize($place?3/tei:location/tei:geo)
+        let $categoryParam := if ($category = "all") then substring($place/@n, 1, 1) else $category
+        let $params := "category=" || $categoryParam || "&amp;search=" || $search
+        let $label := $place/@n/string()
+        let $coords := tokenize($place/tei:location/tei:geo)
         return
             <span class="place">
                 <a href="{$label}?{$params}">{$label}</a>
                 <pb-geolocation latitude="{$coords[1]}" longitude="{$coords[2]}" label="{$label}" emit="map" event="click">
-                    { if ($place?3/@type != 'approximate') then attribute zoom { 9 } else () }
+                    { if ($place/@type != 'approximate') then attribute zoom { 9 } else () }
                     <iron-icon icon="maps:map"></iron-icon>
                 </pb-geolocation>
             </span>

@@ -1143,22 +1143,6 @@
 							"type": "string"
 						}
 					},
-					{
-						"name": "view",
-						"in": "query",
-						"schema":{
-							"type": "string",
-							"default": "correspondents"
-						}
-					},
-                    {
-                        "name": "dir",
-                        "in": "query",
-                        "schema": {
-                            "type": "string",
-                            "default": "asc"
-                        }
-                    },
                     {
                         "name": "limit",
                         "in": "query",
