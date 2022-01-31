@@ -79,7 +79,7 @@ declare function conv:commentary($entry as element(commentary)) {
     let $body := conv:body($entry/body)
 
     return
-        <TEI xml:id="{$c-id}">
+        <TEI xml:id="{$c-id}" type="Überblickskommentar">
           {$header}
             <text>
                 {$body}
