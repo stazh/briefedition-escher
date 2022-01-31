@@ -1124,18 +1124,10 @@
                 
 		"/api/places": {
             "get": {
-                "summary": "List register entries",
-                "description": "Retrieve list of register entries in table structure",
+                "summary": "List places",
+                "description": "Retrieve list of places in format required by pb-split-list",
                 "operationId": "custom:places",
                 "parameters": [
-                    {
-                        "name": "sort",
-                        "in": "query",
-                        "schema":{
-                            "type": "string",
-                            "default": "id"
-                        }
-                    },
 					{
 						"name": "category",
 						"in": "query",
@@ -1161,7 +1153,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "List of register entries",
+                        "description": "Categories and places to display",
                         "content": {
                             "application/json": {
                                 "schema":{
