@@ -17,7 +17,8 @@ app-header {
 }
 
 body {
-    --pb-content-height: calc(100vh - 345px);
+    --pb-content-height-dipl: calc(100vh - 325px);
+    --pb-content-height-norm: calc(100vh - 450px);
     --pb-logo-image-width: 200px;
     --pb-logo-image-height: 109px;
     --pb-splash-image-size: 200px auto;
@@ -140,6 +141,7 @@ paper-checkbox, paper-card {
     display: grid;
     column-gap: 40px;
     grid-template-columns: 1fr minmax(360px, 45vw);
+    grid-template-rows: auto auto 1fr;
 }
 
 .letter.toggle {
@@ -209,11 +211,12 @@ paper-checkbox, paper-card {
     --pb-view-max-width: 41.24rem;
     overflow: auto;
     justify-self: center;
-    height: var(--pb-content-height);
+    height: var(--pb-content-height-norm);
     padding-bottom: 60px;
 }
 
 .letter:not(.toggle) .transcript {
+    height: var(--pb-content-height-dipl);
     --pb-view-max-width: auto;
 }
 
@@ -246,7 +249,7 @@ paper-checkbox, paper-card {
     grid-column: 2;
     /* grid-row: 3; */
     width: 100%;
-    height: var(--pb-content-height);
+    height: var(--pb-content-height-norm);
     overflow: auto;
     padding-bottom: 60px;
 }
