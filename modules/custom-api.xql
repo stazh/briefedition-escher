@@ -298,7 +298,7 @@ declare function api:output-person($list, $letter as xs:string, $view as xs:stri
     }
 };
 declare function api:places-all($request as map(*)) {
-    let $places := doc($config:data-root || "/places.xml")//tei:listPlace/tei:place
+    let $places := doc($config:data-root || "/places/places.xml")//tei:listPlace/tei:place
     return 
         array { 
             for $place in $places
@@ -318,9 +318,9 @@ declare function api:places($request as map(*)) {
     let $limit := $request?parameters?limit
     let $places :=
         if ($search and $search != '') then
-            doc($config:data-root || "/places.xml")//tei:listPlace/tei:place[ft:query(., 'lname:(' || $search || '*)')]
+            doc($config:data-root || "/places/places.xml")//tei:listPlace/tei:place[ft:query(., 'lname:(' || $search || '*)')]
         else
-            doc($config:data-root || "/places.xml")//tei:listPlace/tei:place
+            doc($config:data-root || "/places/places.xml")//tei:listPlace/tei:place
     let $sorted := sort($places, "?lang=de-DE", function($place) { lower-case($place/@n) })
     let $letter := 
         if (count($places) < $limit) then 
@@ -391,7 +391,7 @@ declare function api:sort($people as array(*)*, $dir as xs:string) {
 };
 
 declare function api:place-link($node as node(), $model as map(*) ) {
-    let $refs := doc($config:data-root || "/places.xml")//tei:place[@n = $model?key]//tei:ref 
+    let $refs := doc($config:data-root || "/places/places.xml")//tei:place[@n = $model?key]//tei:ref 
         where $refs
     return     
         <div>

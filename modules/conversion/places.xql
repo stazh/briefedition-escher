@@ -33,7 +33,7 @@ declare function conv:main() {
             </standOff>
         </TEI>
     return
-        xmldb:store("/db/apps/escher/data", "places.xml", conv:fix-namespace($output))
+        xmldb:store("/db/apps/escher/data/places", "places.xml", conv:fix-namespace($output))
 };
 
 declare function conv:fix-namespace($nodes as node()*) {
