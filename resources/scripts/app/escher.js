@@ -237,4 +237,22 @@ window.addEventListener('DOMContentLoaded', () => {
     pbEvents.subscribe('pb-timeline-reset-selection', 'timeline', () => {
         pbEvents.emit('pb-search-resubmit', 'docs', { params: { dates: null }});
     });
+
+    /**
+     * Trigger for print icon (only available in TEI document templates)
+     * Will redirect to a printable HTML page of the document
+     */
+    const openPrintDialog = document.getElementById("openPrintDialog");
+    if (openPrintDialog) {
+        openPrintDialog.addEventListener( "click", () => {
+            let currentOrigin = window.location.origin.toString();
+            let currentPath = window.location.pathname.toString();
+            let docPath = currentPath.replace( /^.*\/([^/]+\/.*)$/, "$1" );
+            let urlPart = currentPath.replace( /^(.*)\/[^/]+\/.*$/, "$1" );
+            let updatedDocPath = docPath.replace( "/", "%2F" );
+            let newUrl = `${urlPart}/api/document/${updatedDocPath}/html?odd=escher.odd`;
+            console.log( newUrl );
+            window.open( newUrl );
+        } )
+    }
 });

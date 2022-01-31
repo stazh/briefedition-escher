@@ -60,6 +60,8 @@ declare function dapi:html($request as map(*)) {
             let $xml := config:get-document($doc)/*
             return
                 if (exists($xml)) then
+                    let $log := util:log('info', 'dapi:html, $xml exists')
+                    let $log := util:log('info', ('dapi:html, $xml=', $xml))
                     let $config := tpu:parse-pi(root($xml), ())
                     let $out := $pm-config:web-transform($xml, map { "root": $xml, "webcomponents": 7 }, $config?odd)
                     let $styles := if (count($out) > 1) then $out[1] else ()
