@@ -188,10 +188,14 @@ paper-checkbox, paper-card {
 }
 
 .letter .timeline-nav {
+    display: none;
+}
+
+.letter.toggle .timeline-nav {
+    display: flex;
+    grid-column: 2 / 4;
     background-color: var(--pb-toolbar-background-color);
     font-size: var(--pb-font-size-small);
-    grid-column: 2 / 4;
-    display: flex;
     justify-content: center;
     padding-bottom: 1em;
     margin-bottom: 1em;
