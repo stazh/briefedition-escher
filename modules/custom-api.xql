@@ -150,7 +150,7 @@ declare function api:table-of-contents($request as map(*)) {
 
 declare function api:view-person($request as map(*)) {
     let $name := xmldb:decode($request?parameters?name)
-    let $person := doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[@n = $name]
+    let $person := doc($config:data-root || "/people/people.xml")//tei:listPerson/tei:person[@n = $name]
     return
         if ($person) then
             let $persName := $person/tei:persName
@@ -161,7 +161,7 @@ declare function api:view-person($request as map(*)) {
                     $persName/string()
             let $template := doc($config:app-root || "/templates/pages/person.html")
             let $model := map { 
-                "doc": $config:data-root || "/people.xml",
+                "doc": $config:data-root || "/people/people.xml",
                 "xpath": '//tei:listPerson/tei:person[@n = "' || $name || '"]',
                 "label": $label,
                 "key": $name,
@@ -222,14 +222,14 @@ declare function api:people($request as map(*)) {
     let $people :=
         if ($view = "correspondents") then
             if ($search and $search != '') then
-                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:(' || $search || '*)')][@type="correspondent"]
+                doc($config:data-root || "/people/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:(' || $search || '*)')][@type="correspondent"]
             else
-                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[@type="correspondent"]
+                doc($config:data-root || "/people/people.xml")//tei:listPerson/tei:person[@type="correspondent"]
         else
             if ($search and $search != '') then
-                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:(' || $search || '*)')]
+                doc($config:data-root || "/people/people.xml")//tei:listPerson/tei:person[ft:query(., 'name:(' || $search || '*)')]
             else
-                doc($config:data-root || "/people.xml")//tei:listPerson/tei:person
+                doc($config:data-root || "/people/people.xml")//tei:listPerson/tei:person
     let $byKey := for-each($people, function($person as element()) {
         let $name := $person/tei:persName
         let $label :=
@@ -420,9 +420,9 @@ function api:person-mentions($node as node(), $model as map(*), $type as xs:stri
                     )
     let $biographies := if($type = "person") 
                         then ( 
-                            doc($config:data-root || "/people.xml")//tei:persName[@key=$model?key]/ancestor::tei:person[@xml:id != $model?key]
+                            doc($config:data-root || "/people/people.xml")//tei:persName[@key=$model?key]/ancestor::tei:person[@xml:id != $model?key]
                         ) else (  
-                            doc($config:data-root || "/people.xml")//tei:person[.//tei:placeName/@key = $model?key]
+                            doc($config:data-root || "/people/people.xml")//tei:person[.//tei:placeName/@key = $model?key]
                         )
     let $titles := doc($config:data-root || "/titles.xml")
     return

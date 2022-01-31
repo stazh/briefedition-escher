@@ -278,7 +278,7 @@
             <param name="uri" value="'../kontexte/personen/' || @key"/>
             <param name="label" value="@key"/>
             <param name="ref" value="@key"/>
-            <param name="link" value="let $id := replace(@key, ' ', '-') let $target:= id($id, doc(&#34;/db/apps/escher/data/people.xml&#34;)) let $letter := substring($id, 1, 1) =&gt; upper-case() return     if ($target) then         &lt;a href=&#34;../kontexte/personen/{@key}?category={$letter}&amp;amp;view=mentions&#34;&gt;{@key/string()}&lt;/a&gt;      else      @key/string()"/>
+            <param name="link" value="let $id := replace(@key, ' ', '-') let $target:= id($id, doc(&#34;/db/apps/escher/data/people/people.xml&#34;)) let $letter := substring($id, 1, 1) =&gt; upper-case() return     if ($target) then         &lt;a href=&#34;../kontexte/personen/{@key}?category={$letter}&amp;amp;view=mentions&#34;&gt;{@key/string()}&lt;/a&gt;      else      @key/string()"/>
             <pb:template xmlns="" xml:space="preserve"><span><paper-checkbox data-ref="[[ref]]"/>[[link]]</span></pb:template>
         </model>
                     <model behaviour="inline" cssClass="popover">

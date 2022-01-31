@@ -24,7 +24,7 @@ declare
 function app:counts($node as node(), $model as map(*)) {
     map {
         "letters": count(collection($config:data-root || "/briefe")/tei:TEI),
-        "people": count(doc($config:data-root || "/people.xml")//tei:person),
+        "people": count(doc($config:data-root || "/people/people.xml")//tei:person),
         "places": count(doc($config:data-root || "/places/places.xml")//tei:place)
     }
 };
