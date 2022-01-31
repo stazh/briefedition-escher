@@ -10,7 +10,7 @@ declare function conv:main() {
         return
             conv:event($entry, $events)
     let $output :=
-        <TEI>
+        <TEI xml:id="events" type="Chronologie">
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
