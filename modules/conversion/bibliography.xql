@@ -13,17 +13,33 @@ declare function conv:main() {
             </listBibl>
 
     let $xml :=
-        <standOff>
-            <listBibl>
-            {$bibl}
-            </listBibl>
-        </standOff>
+        <TEI xml:id="bibliography" type="Bibliographie"> 
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Alfred Escher Briefedition: Bibliographie</title>
+                    </titleStmt>
+                    <publicationStmt>
+                        <p>Publication Information</p>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <p>Information about the source</p>
+                    </sourceDesc>
+                </fileDesc>            
+            </teiHeader>
+            <standOff>
+                <listBibl>
+                    {$bibl}
+                </listBibl>
+            </standOff>
+        </TEI>
+
     return 
             xmldb:store("/db/apps/escher/data/bibliography", 'bibliography.xml', conv:fix-namespace($xml))
 };
 
 declare function conv:bibl($type as xs:string) {
-    for $entry in collection("/db/apps/escher/data/bibliography")//entry[@type=$type]
+    for $entry in doc("/db/apps/escher/data/temp/bibliography.xml")//entry[@type=$type]
         return conv:entry($entry)
 };
 
@@ -33,7 +49,7 @@ declare function conv:fix-namespace($nodes as node()*) {
         typeswitch($node)
             case element() return
                 element { QName("http://www.tei-c.org/ns/1.0", local-name($node)) } {
-                    $node/@*,
+                    $node/@*,                    
                     conv:fix-namespace($node/node())
                 }
             default return
