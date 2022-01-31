@@ -5,11 +5,11 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 
 declare function conv:main() {
     let $records :=
-        for $person in collection("/db/apps/escher/data/persons/persons")/biography
+        for $person in collection("/db/apps/escher/data/temp/persons")//biography
         return
             conv:person($person)
     let $output :=
-        <TEI>
+        <TEI xml:id="persons" type="Personen">
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
