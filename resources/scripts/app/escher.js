@@ -250,7 +250,7 @@ window.addEventListener('DOMContentLoaded', () => {
             let docPath = currentPath.replace( /^.*\/([^/]+\/.*)$/, "$1" );
             let urlPart = currentPath.replace( /^(.*)\/[^/]+\/.*$/, "$1" );
             let updatedDocPath = docPath.replace( "/", "%2F" );
-            let newUrl = `${urlPart}/api/document/${updatedDocPath}/html?odd=escher.odd`;
+            let newUrl = `${urlPart}/api/document/${updatedDocPath}/print?odd=escher.odd`;
             console.log( newUrl );
             window.open( newUrl );
         } )
