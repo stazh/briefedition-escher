@@ -546,17 +546,24 @@ declare function api:lookup($name as xs:string, $arity as xs:integer) {
 
 declare function api:html($request as map(*)) {
     let $doc := xmldb:decode($request?parameters?id)
-    let $log := util:log('info', 'api:html, wird aufgerufen!')
     return
         if ($doc) then
-            let $log := util:log('info', 'api:html, $doc exists')
-            let $xml := config:get-document($doc)/*
+            let $xml := config:get-document($doc)
             return
                 if (exists($xml)) then
-                    let $log := util:log('info', 'api:html, $xml exists')
                     let $config := tpu:parse-pi(root($xml), ())
-                    let $metadata := $pm-config:web-transform($xml, map { "root": $xml, "view": "metadata", "webcomponents": 7}, $config?odd)
-                    let $content := $pm-config:web-transform($xml//tei:body, map { "root": $xml, "webcomponents": 7 }, $config?odd)
+                    let $title :=
+                        $pm-config:web-transform(
+                            $xml//tei:teiHeader//tei:title,
+                            map { "root": $xml, "view": "metadata", "webcomponents": 7},
+                            $config?odd
+                        )
+                    let $content :=
+                        $pm-config:web-transform(
+                            $xml//tei:text,
+                            map { "root": $xml, "webcomponents": 7 },
+                            $config?odd
+                        )
                     let $locales := "resources/i18n/{{ns}}/{{lng}}.json"
                     let $page :=
                             <html>
@@ -566,21 +573,20 @@ declare function api:html($request as map(*)) {
                                     <link rel="stylesheet" type="text/css" href="resources/css/escher-theme.css"/>
                                 </head>
                                 <body class="printPreview">
-                                    <paper-button id="closePage" class="hidden-print" onclick="window.close()" title="close this page">
+                                    <paper-button id="closePage" class="hidden-print" onclick="window.close()" title="Seite schließen">
                                         <paper-icon-button icon="close"></paper-icon-button>
-                                        Close Page
+                                        Seite schließen
                                     </paper-button>
-                                    <paper-button id="printPage" class="hidden-print" onclick="window.print()" title="print this page">
+                                    <paper-button id="printPage" class="hidden-print" onclick="window.print()" title="Seite drucken">
                                         <paper-icon-button icon="print"></paper-icon-button>
-                                        Print Page
+                                        Seite drucken
                                     </paper-button>
 
                                     <pb-page unresolved="unresolved" locales="{$locales}" locale-fallback-ns="app" require-language="require-language" api-version="1.0.0">
-                                        { $metadata }
-                                        <h4 class="block-title edition">
-                                            <pb-i18n key="editiontext"/>
-                                        </h4>
-                                        { $content }
+                                        <h2 class="letter-title">
+                                            { $title }
+                                        </h2>
+                                            { $content }
                                     </pb-page>
                                 </body>
                             </html>

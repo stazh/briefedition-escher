@@ -487,6 +487,28 @@ app-drawer a, app-drawer a:link {
     border: #e1e1e1;
 }
 
+.printPreview .letter-title {
+    font-family: --pb-letter-font-family;
+}
+
+.printPreview .popover {
+    text-decoration-line: underline;
+    text-decoration-color: #8F9194;
+    text-underline-offset: 3px;
+}
+
+.printPreview .pb {
+    color: #8F9194;
+}
+
+.printPreview .closer {
+    text-align: center;
+}
+
+.printPreview .signature {
+    text-align: right;
+}
+
 @media print {
     *,
     *::before,
@@ -512,14 +534,18 @@ app-drawer a, app-drawer a:link {
     .splash,
     .toolbar,
     .edition-nav,
-    .corresp-nav {
-        display: none !important;
-    }
+    .corresp-nav { display: none !important; }
+    #reference-view1 { display: block; }
     body {font-size: 11pt;}
     h1 { font-size: 16pt;}
     h2 {font-size: 15pt;}
     h3 {font-size: 14pt;}
     h4 {font-size: 13pt;}
+    .letter-title {font-family: --pb-letter-font-family}
+    .popover { text-decoration-color: #8F9194; }
+    .signature { text-align: right; }
+    .closer { text-align: center; }
+    .pb { color: #8F9194; }
     .tei-summary, .footnotes {font-size: 11pt;}
     a { word-wrap: break-word; }
     .hidden-print { display: none !important; }
