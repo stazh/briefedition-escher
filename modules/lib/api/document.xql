@@ -57,7 +57,7 @@ declare function dapi:html($request as map(*)) {
     let $doc := xmldb:decode($request?parameters?id)
     return
         if ($doc) then
-            let $xml := config:get-document($doc)/*
+            let $xml := config:get-document($doc)
             return
                 if (exists($xml)) then
                     let $config := tpu:parse-pi(root($xml), ())
@@ -159,7 +159,7 @@ declare function dapi:latex($request as map(*)) {
         else
             (),
         if ($id) then
-            let $xml := config:get-document($id)/*
+            let $xml := config:get-document($id)
             return
                 if (exists($xml)) then
                     let $config := tpu:parse-pi(root($xml), ())

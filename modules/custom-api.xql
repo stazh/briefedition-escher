@@ -16,6 +16,7 @@ import module namespace templates="http://exist-db.org/xquery/html-templating";
 import module namespace app="teipublisher.com/app" at "app.xql";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "config.xqm";
 import module namespace vapi="http://teipublisher.com/api/view" at "lib/api/view.xql";
+import module namespace dapi="http://teipublisher.com/api/documents" at "lib/api/document.xql";
 import module namespace errors = "http://exist-db.org/xquery/router/errors";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
 import module namespace pm-config="http://www.tei-c.org/tei-simple/pm-config" at "pm-config.xql";
@@ -541,4 +542,58 @@ declare function api:lookup($name as xs:string, $arity as xs:integer) {
     } catch * {
         ()
     }
+};
+
+declare function api:html($request as map(*)) {
+    let $doc := xmldb:decode($request?parameters?id)
+    return
+        if ($doc) then
+            let $xml := config:get-document($doc)
+            return
+                if (exists($xml)) then
+                    let $config := tpu:parse-pi(root($xml), ())
+                    let $title :=
+                        $pm-config:web-transform(
+                            $xml//tei:teiHeader//tei:title,
+                            map { "root": $xml, "view": "metadata", "webcomponents": 7},
+                            $config?odd
+                        )
+                    let $content :=
+                        $pm-config:web-transform(
+                            $xml//tei:text,
+                            map { "root": $xml, "webcomponents": 7 },
+                            $config?odd
+                        )
+                    let $locales := "resources/i18n/{{ns}}/{{lng}}.json"
+                    let $page :=
+                            <html>
+                                <head>
+                                    <meta charset="utf-8"/>
+                                    <link rel="stylesheet" type="text/css" href="resources/css/theme.css"/>
+                                    <link rel="stylesheet" type="text/css" href="resources/css/escher-theme.css"/>
+                                </head>
+                                <body class="printPreview">
+                                    <paper-button id="closePage" class="hidden-print" onclick="window.close()" title="Seite schließen">
+                                        <paper-icon-button icon="close"></paper-icon-button>
+                                        Seite schließen
+                                    </paper-button>
+                                    <paper-button id="printPage" class="hidden-print" onclick="window.print()" title="Seite drucken">
+                                        <paper-icon-button icon="print"></paper-icon-button>
+                                        Seite drucken
+                                    </paper-button>
+
+                                    <pb-page unresolved="unresolved" locales="{$locales}" locale-fallback-ns="app" require-language="require-language" api-version="1.0.0">
+                                        <h2 class="letter-title">
+                                            { $title }
+                                        </h2>
+                                            { $content }
+                                    </pb-page>
+                                </body>
+                            </html>
+                    return
+                        dapi:postprocess($page, (), $config?odd, $config:context-path || "/", true())
+                else
+                    error($errors:NOT_FOUND, "Document " || $doc || " not found")
+        else
+            error($errors:BAD_REQUEST, "No document specified")
 };
