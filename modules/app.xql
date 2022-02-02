@@ -319,16 +319,34 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
                                 then (    
                                     let $type := $hit/ancestor::tei:bibl/@type/string()
                                     let $abbr := $hit/ancestor::tei:bibl/tei:abbr/text()
-                                    
+                                    let $bibl-type-german := switch($type)                                                 
+                                                case "unprinted_source" return "Ungedruckte-Quellen"
+                                                case "printed_source" return "Gedruckte-Quellen"
+                                                case "newspaper" return "Zeitungen-und-Zeitschriften" 
+                                                case "literature" return "Literatur"
+                                                case "online" return "Websites"
+                                                case "archive" return "Archivbestande"
+                                                default return "escheriana" 
+                                    let $first-letter := upper-case(substring($abbr,1,1))
+                                    let $uri := "kontexte/bibliographie/" || $bibl-type-german || "/" || $first-letter
+                                    let $parent-id := ""
                                     return
-                                        map {"type":"Bibliographie","class":"bibliographie" } )                                                                            
+                                        map {"type":"Bibliographie","class":"bibliographie", "uri":$uri, "parent-id":$parent-id } )                                                                            
                                 else if($parent-id = "people/people.xml")
                                 then (
-                                    let $name := $hit/ancestor::tei:person/@n/string()
+                                    let $name := ($hit/@n/string(), $hit/ancestor::tei:person/@n/string() )[1]
+                                    let $category := upper-case(substring($hit//tei:forename, 1,1))                                    
+                                    let $uri := "kontexte/personen/" || $name || "?category=" || $category
+                                    let $parent-id := ""
                                     return
-                                        map {"type":"Person","class":"people"} )
+                                        map {"type":"Person","class":"people", "uri":$uri, "parent-id":$parent-id } )
                                 else if($parent-id = "places/places.xml")
-                                then ( map {"type":"Ort","class":"place"} )
+                                then ( 
+                                    
+                                    let $uri := "kontexte/orte/" || $hit/@n/string() || "?category=Alle"
+                                    let $parent-id := ""
+                                    return
+                                        map {"type":"Ort","class":"place", "uri":$uri, "parent-id":$parent-id } )
                                 else ( 
                                     map {"type":$parent-id,"class":"unknown"} 
                                 )
@@ -336,10 +354,10 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
                              map {
                                 'type':$proerties?type,
                                 'class':$proerties?class,
-                                'uri':(),
-                                'parrent-id':$parent-id
+                                'uri':$proerties?uri,
+                                'parrent-id':$proerties?parent-id
                             }
-    let $log := util:log("info", "calc type: " || $metadata?type)
+    (: let $log := util:log("info", "calc type: " || $metadata?type) :)
     let $uri := $metadata?uri
 
     let $parent-id := $metadata?parrent-id
