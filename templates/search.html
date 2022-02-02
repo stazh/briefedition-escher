@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="resources/css/escher-theme.css"/>
 
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
-
+        <script src="resources/scripts/app/index.js"></script>
         <style>
             main {
                 display: grid;
@@ -147,38 +147,24 @@
 
                 <main>
                     <div class="search-panel">
-                        <pb-search id="search-form" subscribe="search" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load">
+                        <pb-search id="search-form" subscribe="search" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load" subforms="#options">
                             <pb-custom-form id="facets" url="api/search/facets" subscribe="results" event="pb-results-received" emit="search"/>
                         </pb-search>
                     </div>
                     <div class="search-options">
+                        <pb-timeline url="api/timeline" scopes='["D", "M", "Y", "5Y", "10Y"]'
+                            resettable=""
+                            subscribe="results" emit="timeline">
+                        </pb-timeline>
                         <pb-paginate per-page="10" range="5" subscribe="results"/>
                         <pb-load id="results" url="api/search" emit="results"/>
                     </div>
+                    <pb-custom-form id="options" style="display: none">
+                        <input slot="searchButtonBottom" type="hidden" name="dates" value="" data-template="templates:form-control"/>
+                    </pb-custom-form>
                 </main>
             </app-header-layout>
         </pb-page>
         <div class="splash"/>
-        <script>
-            const facets = document.getElementById('facets');
-            if (facets) {
-                facets.addEventListener('pb-custom-form-loaded', function(ev) {
-                    const elems = ev.detail.querySelectorAll('.facet');
-                    elems.forEach(facet =&gt; {
-                        facet.addEventListener('change', () =&gt; {
-                            const table = facet.closest('table');
-                            if (table) {
-                                const nested = table.querySelectorAll('.nested .facet').forEach(nested =&gt; {
-                                    if (nested != facet) {
-                                        nested.checked = false;
-                                    }
-                                });
-                            }
-                            facets._submit();
-                        });
-                    });
-                });
-            }
-        </script>
     </body>
 </html>

@@ -24,9 +24,12 @@ import module namespace pm-config="http://www.tei-c.org/tei-simple/pm-config" at
 declare function api:timeline($request as map(*)) {
     let $entries := session:get-attribute($config:session-prefix || '.hits')
     let $datedEntries := filter($entries, function($entry) {
-        let $date := ft:field($entry, "date", "xs:date")
-        return
-            exists($date) and year-from-date($date) != 1000
+        if (ft:field($entry, "type") = "Brief") then
+            let $date := ft:field($entry, "date", "xs:date")
+            return
+                exists($date) and year-from-date($date) != 1000
+        else
+            ()
     })
     let $undatedEntries := $entries except $datedEntries
     return

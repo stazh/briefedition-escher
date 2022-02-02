@@ -370,7 +370,7 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
             <header>
                 <div class="count">{$request?parameters?start + $p - 1}</div>
                 { query:get-breadcrumbs($config, $hit, $uri || $parent-id) }
-                <div class="type type-{$metadata?class}">{$metadata?type}</div>
+                <div><span class="type type-{$metadata?class}">{$metadata?type}</span></div>
             </header>
             <div class="matches">
             {
