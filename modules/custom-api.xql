@@ -35,11 +35,13 @@ declare function api:timeline($request as map(*)) {
             group by $date := ft:field($entry, "date", "xs:date")
             return
                 map:entry(format-date($date, "[Y0001]-[M01]-[D01]"), map {
-                    "count": count($entry)
+                    "count": count($entry),
+                    "info": api:corresp-titles($entry)
                 }),
             if ($undatedEntries) then
                 map:entry("?", map {
-                    "count": count($undatedEntries)
+                    "count": count($undatedEntries),
+                    "info": api:corresp-titles($undatedEntries)
                 })
             else
                 ()
@@ -74,13 +76,18 @@ declare function api:corresp-timeline($request as map(*)) {
         ))
 };
 
-declare function api:corresp-titles($refs as element(ref)*) {
+declare function api:corresp-titles($refs as element()*) {
     if (count($refs) < 6) then
         array {
             for $ref in $refs
-            let $id := replace($ref/@target, "^K_(.*)$", "B$1")
+            let $xmlId :=
+                if ($ref instance of element(ref)) then
+                    $ref/@target
+                else
+                    root($ref)/tei:TEI/@xml:id
+            let $id := replace($xmlId, "^K_(.*)$", "B$1")
             return
-                <a href="{$id}" part="tooltip-link">{id($ref/@target, doc($config:data-root || "/titles.xml"))/string()}</a>
+                <a href="{$id}" part="tooltip-link">{id($xmlId, doc($config:data-root || "/titles.xml"))/string()}</a>
         }
     else
         []
