@@ -53,7 +53,7 @@ body {
     --pb-timeline-color-highlight: var(--pb-color-focus);
     --pb-timeline-background-color-title: var(--pb-menubar-background-color);
     --pb-timeline-title-font-size: var(--pb-font-size-small);
-    --pb-timeline-tooltip-font-size: var(--pb-font-size-smallest);
+    --pb-timeline-tooltip-font-size: var(--pb-font-size-small);
 }
 
 @media (max-width: 1023px) {
@@ -472,6 +472,10 @@ app-drawer a, app-drawer a:link {
 
 #select-view1 {
     min-width: 18em;
+}
+
+pb-timeline::part(tooltip-link)  {
+    color: var(--pb-color-inverse);
 }
 
 /* ==========================================================================

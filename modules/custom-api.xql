@@ -65,18 +65,22 @@ declare function api:corresp-timeline($request as map(*)) {
                     "info": api:corresp-titles($entry/ref)
                 }),
             if ($undatedEntries) then
-                map:entry("?", count($undatedEntries))
+                map:entry("?", map {
+                    "count": count($undatedEntries),
+                    "info": api:corresp-titles($undatedEntries/ref)
+                })
             else
                 ()
         ))
 };
 
 declare function api:corresp-titles($refs as element(ref)*) {
-    if (count($refs) < 3) then
+    if (count($refs) < 6) then
         array {
             for $ref in $refs
+            let $id := replace($ref/@target, "^K_(.*)$", "B$1")
             return
-                id($ref/@target, doc($config:data-root || "/titles.xml"))/string()
+                <a href="{$id}" part="tooltip-link">{id($ref/@target, doc($config:data-root || "/titles.xml"))/string()}</a>
         }
     else
         []
