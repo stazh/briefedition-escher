@@ -98,6 +98,12 @@ declare variable $config:pagination-fill := 5;
  :)
 declare variable $config:facets := [
     map {
+        "dimension": "type",
+        "heading": "facets.type",
+        "max": 5,
+        "hierarchical": false()
+    },
+    map {
         "dimension": "keyword",
         "heading": "facets.keyword",
         "max": 5,
@@ -130,12 +136,6 @@ declare variable $config:facets := [
     map {
         "dimension": "provenience",
         "heading": "facets.provenience",
-        "max": 5,
-        "hierarchical": false()
-    },
-    map {
-        "dimension": "type",
-        "heading": "facets.type",
         "max": 5,
         "hierarchical": false()
     }

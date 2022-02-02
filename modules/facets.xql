@@ -90,7 +90,7 @@ declare function facets:display($config as map(*), $nodes as element()+) {
     let $table := facets:print-table($config, $nodes, (), $params)
     where $table
     return
-        <div>
+        <div class="facet-{$config?dimension}">
             <h3><pb-i18n key="{$config?heading}">{$config?heading}</pb-i18n>
             {
                 if (exists($config?max)) then
