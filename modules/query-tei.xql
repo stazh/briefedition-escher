@@ -58,8 +58,7 @@ declare function teis:query-default($fields as xs:string+, $query as xs:string, 
 };
 
 declare function teis:query-metadata($field as xs:string, $query as xs:string, $sort as xs:string) {
-    for $rootCol in $config:data-root
-    for $doc in collection($rootCol)//tei:text[ft:query(., $field || ":(" || $query || ")", query:options($sort))]
+    for $doc in collection($config:data-root || "/briefe")//tei:text[ft:query(., $field || ":(" || $query || ")", query:options($sort))]
     return
         $doc/ancestor::tei:TEI
 };
@@ -69,12 +68,22 @@ declare function teis:autocomplete($doc as xs:string?, $fields as xs:string+, $q
     return
         switch ($field)
             case "author" return
-                collection($config:data-root)/ft:index-keys-for-field("author", $q,
+                collection($config:data-root|| "/briefe")/ft:index-keys-for-field("author", $q,
                     function($key, $count) {
                         $key
                     }, 30)
             case "file" return
-                collection($config:data-root)/ft:index-keys-for-field("file", $q,
+                collection($config:data-root || "/briefe")/ft:index-keys-for-field("file", $q,
+                    function($key, $count) {
+                        $key
+                    }, 30)
+            case "keyword" return
+                collection($config:data-root || "/briefe")/ft:index-keys-for-field("keyword", $q,
+                    function($key, $count) {
+                        $key
+                    }, 30)
+            case "correspondent" return
+                collection($config:data-root || "/briefe")/ft:index-keys-for-field("correspondent", $q,
                     function($key, $count) {
                         $key
                     }, 30)
