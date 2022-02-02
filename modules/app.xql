@@ -260,7 +260,7 @@ declare function app:search($request as map(*)) {
                 order by ft:score($hit) descending
                 return $hit
         let $hitCount := count($hitsAll)
-        let $hits := if ($hitCount > 1000) then subsequence($hitsAll, 1, 1000) else $hitsAll
+        let $hits := if ($hitCount > 1000) then subsequence($hitsAll, 1, 1000) else $hitsAll        
         (:Store the result in the session.:)
         let $store := (
             session:set-attribute($config:session-prefix || ".hits", $hitsAll),
@@ -285,10 +285,9 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
     let $parent-id := config:get-identifier($parent)
     let $parent-id := if (exists($docs)) then replace($parent-id, "^.*?([^/]*)$", "$1") else $parent-id
     let $hit-type := ft:field($hit, "type")
-    
     let $metadata := 
-            switch (util:collection-name($parent-id))
-                case 'briefe' 
+            switch ($hit-type)
+                case 'Brief' 
                     return 
                         map {
                             'type':'Brief',
@@ -296,7 +295,7 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
                             'uri':'briefe/',
                             'parrent-id':$letterId
                         }
-                case 'commentary' 
+                case 'Comment' 
                     return 
                         map { 
                             'type':'Überblickskommentar',
@@ -304,7 +303,7 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
                             'uri':'kontexte/uberblickskommentare/',
                             'parrent-id':$tei-id
                         }
-                case 'uber-die-edition' 
+                case 'Über die Edition' 
                     return 
                         map { 
                             'type':'Über die Edition',
@@ -312,51 +311,60 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
                             'uri':(),
                             'parrent-id':$parent-id
                         }              
+                case "Person" 
+                    return
+                        let $name := ($hit/@n/string(), $hit/ancestor::tei:person/@n/string() )[1]
+                        let $category := upper-case(substring($hit//tei:forename, 1,1))                                    
+                        let $uri := "kontexte/personen/" || $name || "?category=" || $category
+                        let $parent-id := ""
+                        return
+                            map {
+                                "type":"Person",
+                                "class":"people", 
+                                "uri":$uri, 
+                                "parent-id":$parent-id 
+                        }
+                case "Ort"
+                    return
+                        let $uri := "kontexte/orte/" || $hit/@n/string() || "?category=Alle"
+                        let $parent-id := ""
+                        return
+                            map {
+                                "type":"Ort",
+                                "class":"place", 
+                                "uri":$uri, 
+                                "parent-id":$parent-id 
+                            } 
+                case "Bibliographie"
+                    return 
+                        let $type := $hit/ancestor::tei:bibl/@type/string()
+                        let $abbr := $hit/ancestor::tei:bibl/tei:abbr/text()
+                        let $bibl-type-german := switch($type)                                                 
+                                    case "unprinted_source" return "Ungedruckte-Quellen"
+                                    case "printed_source" return "Gedruckte-Quellen"
+                                    case "newspaper" return "Zeitungen-und-Zeitschriften" 
+                                    case "literature" return "Literatur"
+                                    case "online" return "Websites"
+                                    case "archive" return "Archivbestande"
+                                    default return "escheriana" 
+                        let $first-letter := upper-case(substring($abbr,1,1))
+                        let $uri := "kontexte/bibliographie/" || $bibl-type-german || "/" || $first-letter
+                        let $parent-id := ""
+                        return
+                            map {
+                                "type":"Bibliographie",
+                                "class":"bibliographie", 
+                                "uri":$uri, 
+                                "parent-id":$parent-id 
+                        } 
                 default                 
                     return
-                        let $proerties := 
-                                if($parent-id = "bibliography/bibliography.xml") 
-                                then (    
-                                    let $type := $hit/ancestor::tei:bibl/@type/string()
-                                    let $abbr := $hit/ancestor::tei:bibl/tei:abbr/text()
-                                    let $bibl-type-german := switch($type)                                                 
-                                                case "unprinted_source" return "Ungedruckte-Quellen"
-                                                case "printed_source" return "Gedruckte-Quellen"
-                                                case "newspaper" return "Zeitungen-und-Zeitschriften" 
-                                                case "literature" return "Literatur"
-                                                case "online" return "Websites"
-                                                case "archive" return "Archivbestande"
-                                                default return "escheriana" 
-                                    let $first-letter := upper-case(substring($abbr,1,1))
-                                    let $uri := "kontexte/bibliographie/" || $bibl-type-german || "/" || $first-letter
-                                    let $parent-id := ""
-                                    return
-                                        map {"type":"Bibliographie","class":"bibliographie", "uri":$uri, "parent-id":$parent-id } )                                                                            
-                                else if($parent-id = "people/people.xml")
-                                then (
-                                    let $name := ($hit/@n/string(), $hit/ancestor::tei:person/@n/string() )[1]
-                                    let $category := upper-case(substring($hit//tei:forename, 1,1))                                    
-                                    let $uri := "kontexte/personen/" || $name || "?category=" || $category
-                                    let $parent-id := ""
-                                    return
-                                        map {"type":"Person","class":"people", "uri":$uri, "parent-id":$parent-id } )
-                                else if($parent-id = "places/places.xml")
-                                then ( 
-                                    
-                                    let $uri := "kontexte/orte/" || $hit/@n/string() || "?category=Alle"
-                                    let $parent-id := ""
-                                    return
-                                        map {"type":"Ort","class":"place", "uri":$uri, "parent-id":$parent-id } )
-                                else ( 
-                                    map {"type":$parent-id,"class":"unknown"} 
-                                )
-                        return
-                             map {
-                                'type':$proerties?type,
-                                'class':$proerties?class,
-                                'uri':$proerties?uri,
-                                'parrent-id':$proerties?parent-id
-                            }
+                        map {
+                            "type":$parent-id,
+                            "class":"unknown"
+                        } 
+                                
+                            
     (: let $log := util:log("info", "calc type: " || $metadata?type) :)
     let $uri := $metadata?uri
 
