@@ -40,9 +40,9 @@ declare function teis:query-default($fields as xs:string+, $query as xs:string, 
                     $config:data-root || "/uber-die-edition" ! doc(. || "/" || $text)//tei:div[ft:query(., $query, query:options($sortBy))] |
                     $config:data-root || "/uber-die-edition" ! doc(. || "/" || $text)//tei:text[ft:query(., $query, query:options($sortBy))] |
                     $config:data-root  || "/bibliography" ! doc(. || "/" || $text)//tei:bibl/tei:bibl[ft:query(., $query, query:options($sortBy))] |                            
-                    $config:data-root  || "/people" ! doc(. || "/" || $text)//tei:person[ft:query-field('name', $query)] |
-                    $config:data-root  || "/people" ! doc(. || "/" || $text)//tei:person[ft:query-field('person-note', $query)] |
-                    $config:data-root  || "/places" ! doc(. || "/" || $text)//tei:place[ft:query-field('lname', $query)]
+                    $config:data-root  || "/people" ! doc(. || "/" || $text)//tei:person[ft:query(., 'name:(' || $query || '*)')] |
+                    $config:data-root  || "/people" ! doc(. || "/" || $text)//tei:person[ft:query(., 'person-note:(' || $query || '*)')]  |
+                    $config:data-root  || "/places" ! doc(. || "/" || $text)//tei:place[ft:query(., 'lname:(' || $query || '*)')] 
             else
                 collection($config:data-root || "/briefe")//tei:div[ft:query(., $query, query:options($sortBy))] |
                 collection($config:data-root || "/briefe")//tei:text[ft:query(., $query, query:options($sortBy))] |
@@ -51,9 +51,9 @@ declare function teis:query-default($fields as xs:string+, $query as xs:string, 
                 collection($config:data-root || "/uber-die-edition")//tei:div[ft:query(., $query, query:options($sortBy))] |
                 collection($config:data-root || "/uber-die-edition")//tei:text[ft:query(., $query, query:options($sortBy))] |
                 collection($config:data-root || "/bibliography")//tei:bibl/tei:bibl[ft:query(., $query, query:options($sortBy))] |                                                
-                collection($config:data-root || "/people")//tei:person[ft:query-field('name', $query)] |
-                collection($config:data-root || "/people")//tei:person[ft:query-field('person-note', $query)] |
-                collection($config:data-root || "/places")//tei:place[ft:query-field('lname', $query)]
+                collection($config:data-root || "/people")//tei:person[ft:query(., 'name:(' || $query || '*)')]  |
+                collection($config:data-root || "/people")//tei:person[ft:query(., 'person-note:(' || $query || '*)')] |
+                collection($config:data-root || "/places")//tei:listPlace/tei:place[ft:query(., 'lname:(' || $query || '*)')] 
     else ()
 };
 
