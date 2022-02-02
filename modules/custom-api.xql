@@ -90,7 +90,7 @@ declare function api:corresp-titles($refs as element()*) {
                     root($ref)/tei:TEI/@xml:id
             let $id := replace($xmlId, "^K_(.*)$", "B$1")
             return
-                <a href="{$id}" part="tooltip-link">{id($xmlId, doc($config:data-root || "/titles.xml"))/string()}</a>
+                <a href="{$config:context-path}/briefe/{$id}" part="tooltip-link">{id($xmlId, doc($config:data-root || "/titles.xml"))/string()}</a>
         }
     else
         []
