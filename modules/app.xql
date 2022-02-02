@@ -284,7 +284,8 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
     let $parent := query:get-parent-section($config, $hit)
     let $parent-id := config:get-identifier($parent)
     let $parent-id := if (exists($docs)) then replace($parent-id, "^.*?([^/]*)$", "$1") else $parent-id
-
+    let $hit-type := ft:field($hit, "type")
+    
     let $metadata := 
             switch (util:collection-name($parent-id))
                 case 'briefe' 
@@ -311,26 +312,22 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
                             'uri':(),
                             'parrent-id':$parent-id
                         }              
-                default 
+                default                 
                     return
                         let $proerties := 
                                 if($parent-id = "bibliography/bibliography.xml") 
                                 then (    
                                     let $type := $hit/ancestor::tei:bibl/@type/string()
                                     let $abbr := $hit/ancestor::tei:bibl/tei:abbr/text()
+                                    
                                     return
                                         map {"type":"Bibliographie","class":"bibliographie" } )                                                                            
-                                else if($parent-id = "people.xml")
+                                else if($parent-id = "people/people.xml")
                                 then (
                                     let $name := $hit/ancestor::tei:person/@n/string()
                                     return
                                         map {"type":"Person","class":"people"} )
-                                else if($parent-id = "events.xml")
-                                then (
-                                    let $name := $hit/ancestor::tei:event/tei:head/text()
-                                    return
-                                        map {"type":"Chronologie","class":"event"} )
-                                else if($parent-id = "places.xml")
+                                else if($parent-id = "places/places.xml")
                                 then ( map {"type":"Ort","class":"place"} )
                                 else ( 
                                     map {"type":$parent-id,"class":"unknown"} 
@@ -342,8 +339,9 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
                                 'uri':(),
                                 'parrent-id':$parent-id
                             }
-
+    let $log := util:log("info", "calc type: " || $metadata?type)
     let $uri := $metadata?uri
+
     let $parent-id := $metadata?parrent-id
 
     let $div := query:get-current($config, $parent)

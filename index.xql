@@ -34,7 +34,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                     $root/dbk:info/dbk:title
                 ), " - ")
             case "type" return
-                $header//tei:msIdentifier/@type
+                $root/@type
             case "provenience" return
                 $header//tei:msDesc//tei:institution
             case "number" return
