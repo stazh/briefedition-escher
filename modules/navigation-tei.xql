@@ -69,6 +69,9 @@ declare function nav:get-metadata($config as map(*), $root as element(), $field 
                 $header//tei:msDesc/tei:head, $header//tei:titleStmt/tei:title[@type = 'main'],
                 $header//tei:titleStmt/tei:title
             )[1]
+        case "type" return (
+            $root/@type
+        )
         case "author" return (
             $root/tei:teiHeader//tei:titleStmt/tei:author,
             $root/tei:teiHeader//tei:correspDesc/tei:correspAction/tei:persName
