@@ -10,14 +10,19 @@ declare function conv:main() {
         return
             conv:place($entry, $places)
     let $output :=
-        <TEI>
-            <teiHeader>
+        <TEI xml:id="places" type="Ort">
+                <teiHeader>
                 <fileDesc>
                     <titleStmt>
                         <title>Alfred Escher Briefedition: Ortsdaten</title>
                     </titleStmt>
                     <publicationStmt>
-                        <p>Publication Information</p>
+                        <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                                <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 License.</p>
+                            </licence>
+                        </availability>
                     </publicationStmt>
                     <sourceDesc>
                         <p>Information about the source</p>
@@ -86,7 +91,7 @@ declare function conv:place($place as element(place), $places) {
 };
 
 declare function conv:fix-xmlid($id as xs:string) {
-    translate($id, " ()'", "-_")
+    translate($id, " ()'',", "_")
 };
 
 declare function conv:idno($id, $type) {
