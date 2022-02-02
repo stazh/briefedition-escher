@@ -72,10 +72,8 @@
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
                             <header class="breadcrumbs" data-path="/briefe/" data-template="pages:parse-params" data-target="toolbar-start">
                                 <a href="${app}/">Home</a> &gt; <a href="${app}/briefe/">Briefe</a> &gt; <span id="letterId"></span>
-                            </header>
-                            <div data-target="toolbar-end">
                                 <paper-icon-button class="toolbar-button__label"  title="Seite drucken" id="openPrintDialog" icon="print"/>
-                            </div>
+                            </header>
                             <pb-select-feature id="select-view1" name="view1" label="Ansicht" items='[
                             {"name": "Edierter Text (mit Registereinträgen)", "selectors": [{"selector": ".popover,.annotation,.para", "state": false}, {"selector": "br,.underline,.hyphen,.metamark,.signature,.closer", "state": true}, {"selector": "pb-popover", "command": "disable", "state": false}, {"selector": ".letter", "state": true}, {"selector": ".addition,.deletion", "state": false}]},
                             {"name": "Diplomatischer Text (mit Digitalisat)", "selectors": [{"selector": ".popover,.annotation,.para", "state": true}, {"selector": "br,.underline,.hyphen,.metamark,.signature,.closer", "state": false}, {"selector": "pb-popover", "command": "disable", "state": true}, {"selector": ".letter", "state": false}, {"selector": ".addition,.deletion", "state": true}]}
