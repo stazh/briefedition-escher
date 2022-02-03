@@ -285,6 +285,7 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
     let $parent-id := config:get-identifier($parent)
     let $parent-id := if (exists($docs)) then replace($parent-id, "^.*?([^/]*)$", "$1") else $parent-id
     let $hit-type := ft:field($hit, "type")
+    let $log := util:log("info", "hit-type: " || $hit-type)
     let $metadata := 
             switch ($hit-type)
                 case 'Brief' 
@@ -295,7 +296,7 @@ declare %private function app:show-hits($request as map(*), $hits as item()*, $d
                             'uri':'briefe/',
                             'parrent-id':$letterId
                         }
-                case 'Comment' 
+                case 'Überblickskommentar' 
                     return 
                         map { 
                             'type':'Überblickskommentar',
