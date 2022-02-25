@@ -210,7 +210,7 @@ declare function app:initial-abbreviations($node as node(), $model as map(*)) {
                         else
                             <span class="disabled {$class}">{$i}</span>
                     ,
-                <a href="other" class="initial">other</a>
+                <a href="other" class="initial">Andere</a>
             }
             </header>
 };
@@ -227,7 +227,7 @@ declare function app:view-abbreviations($node as node(), $model as map(*)) {
 
     return 
         <div class="letter">
-            <h3>{$letter}</h3>
+            <h3>{if ($letter = "other") then "Andere" else $letter}</h3>
             <table>
             {
             switch($letter) 
