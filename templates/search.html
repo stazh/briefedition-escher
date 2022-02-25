@@ -148,16 +148,16 @@
                 <main>
                     <div class="search-panel">
                         <pb-search id="search-form" subscribe="search" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load" subforms="#options">
-                            <pb-custom-form id="facets" url="api/search/facets" subscribe="results" event="pb-results-received" emit="search"/>
+                            <pb-custom-form id="facets" url="api/search/facets" subscribe="transcription" event="pb-results-received" emit="search"/>
                         </pb-search>
                     </div>
                     <div class="search-options">
                         <pb-timeline url="api/timeline" scopes='["D", "M", "Y", "5Y", "10Y"]'
                             resettable=""
-                            subscribe="results" emit="timeline">
+                            subscribe="transcription" emit="timeline">
                         </pb-timeline>
-                        <pb-paginate per-page="10" range="5" subscribe="results"/>
-                        <pb-load id="results" url="api/search" emit="results"/>
+                        <pb-paginate per-page="10" range="5" subscribe="transcription"/>
+                        <pb-load id="results" url="api/search" emit="transcription"/>
                     </div>
                     <pb-custom-form id="options" style="display: none">
                         <input slot="searchButtonBottom" type="hidden" name="dates" value="" data-template="templates:form-control"/>
