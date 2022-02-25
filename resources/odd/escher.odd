@@ -53,7 +53,7 @@
                 <elementSpec ident="placeName" mode="add">
                     <model predicate="$parameters?header='context'" behaviour="block">
             <desc>
-                <a href="[[uri]]" target="_blank">[[label]]</a> (not linking for the moment)</desc>
+                [[label]] (not linking for the moment)</desc>
             <param name="label" value="@key/string()"/>
             <param name="uri" value="let $initial := substring(@key, 1, 1) return '../kontexte/orte/' || @key || '?category=' || $initial "/>
             <param name="ref" value="@key"/>
@@ -252,7 +252,7 @@
             <elementSpec ident="date" mode="change">
                     <model output="web" predicate="$parameters?header='context' and @when and ancestor::correspDesc" behaviour="block">
             <desc>
-                <a href="[[uri]]" target="_blank">[[label]]</a> (not linking for the moment)</desc>
+                [[label]] (not linking for the moment)</desc>
             <param name="label" value="ec:format-date(.)"/>
             <param name="uri" value="let $date := replace(@when/string(), '-', '/') return 'https://www.briefedition.alfred-escher.ch/kontexte/chronologie/ansicht-tage/' || $date || '/'"/>
             <pb:template xmlns="" xml:space="preserve">[[label]]                  </pb:template>
@@ -334,7 +334,7 @@
             <model predicate="@type='third-party-letter'" behaviour="inline"/>
             <model predicate="@type='lit'" behaviour="alternate" useSourceRendition="true">
                 <param name="default" value="./string()"/>
-                <param name="alternate" value="let $abbr := . return doc(&#34;/db/apps/escher/data/bibliography/bibliography.xml&#34;)//bibl[abbr = $abbr ]/bibl "/>
+                <param name="alternate" value="let $abbr := replace(., '\s+', ' ') return doc(&#34;/db/apps/escher/data/bibliography/bibliography.xml&#34;)//bibl[abbr = $abbr ]/bibl"/>
                 <pb:set-param name="footnote" value="true()"/>
             </model>
             <model predicate="ancestor::note and not(@type) and @target" behaviour="link" cssClass="external-link">
@@ -617,6 +617,7 @@
             
             
             
+            
                       
                             float: right; 
                             margin-left: 20px;
@@ -625,6 +626,7 @@
             
             
                        
+            
             </outputRendition>
         </model>
                 </elementSpec>
