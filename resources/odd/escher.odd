@@ -334,7 +334,7 @@
             <model predicate="@type='third-party-letter'" behaviour="inline"/>
             <model predicate="@type='lit'" behaviour="alternate" useSourceRendition="true">
                 <param name="default" value="./string()"/>
-                <param name="alternate" value="let $abbr := replace(., '\s+', ' ') return doc(&#34;/db/apps/escher/data/bibliography/bibliography.xml&#34;)//bibl[abbr = $abbr ]/bibl"/>
+                <param name="alternate" value="let $abbr := replace(., '\s+', ' ') return  doc(&#34;/db/apps/escher/data/bibliography/bibliography.xml&#34;)//bibl[ft:query(., 'abbr:&#34;' || $abbr || '&#34;')]/bibl"/>
                 <pb:set-param name="footnote" value="true()"/>
             </model>
             <model predicate="ancestor::note and not(@type) and @target" behaviour="link" cssClass="external-link">
@@ -618,6 +618,7 @@
             
             
             
+            
                       
                             float: right; 
                             margin-left: 20px;
@@ -626,6 +627,7 @@
             
             
                        
+            
             
             </outputRendition>
         </model>
