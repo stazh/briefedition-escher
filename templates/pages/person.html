@@ -16,20 +16,16 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap"/>
         <link rel="stylesheet" href="resources/css/theme.css"/>
         <link rel="stylesheet" href="resources/css/escher-theme.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css"/>
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+        <script src="resources/scripts/app/person.js"></script>
         <style>
-            div {
-                margin: 0 16px;
-            }
-
             section {
                 max-width: 1200px;
             }
 
             main {
-                position: relative;
-                display: grid;
                 height: var(--pb-view-height);
             }
 
@@ -41,6 +37,43 @@
 
             .transcript h3 {
                 font-weight: bold;
+            }
+
+            aside h3 {
+                margin-top: 1em;
+            }
+
+            #gallery {
+                margin: 0 0 10px 0;
+                width: 100%;
+            }
+
+            @media (max-width: 1023px) {
+                #gallery {
+                    display: none;
+                }
+            }
+
+            .splide__slide {
+                display: flex;
+                flex-direction: column;
+                font-size: var(--pb-font-size-small);
+            }
+            
+            .splide__slide .source {
+                text-align: right;
+            }
+            
+            .splide__slide img {
+                width: auto;
+                height: 100%;
+            }
+
+            #metagrid {
+                margin: 0;
+            }
+            #metagrid a {
+                display: block;
             }
         </style>
     </head>
@@ -62,51 +95,28 @@
                             </header>
                         </app-toolbar>
                     </app-header>
-                    <main class="content-body single-col">
+                    <main class="content-body">
                         <section class="transcript noscroll person">
                             <pb-view id="view1" src="document1" xpath="${xpath}" 
-                                before-update-event="before-person-update"
-                                subscribe="transcription" emit="transcription"
-                                data-template="pages:parse-params">
+                            before-update-event="before-person-update"
+                            subscribe="transcription" emit="transcription"
+                            data-template="pages:parse-params">
                                 <pb-param name="display" value="person-meta"/>
                             </pb-view>
                             <div data-template="custom:person-mentions"></div>
                             <div data-template="custom:person-letters"></div>
                         </section>
+                        <aside>
+                            <div id="gallery"></div>
+                            <h3>Externe Links aus Metagrid</h3>
+                            <div id="metagrid"></div>
+                        </aside>
                     </main>
                     <footer data-template="lib:include" data-template-path="templates/footer.html"/>
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>
         <div class="splash"/>
-        <script>
-            window.addEventListener('DOMContentLoaded', () => {
-                pbEvents.subscribe('before-person-update', 'transcription', (ev) => {
-                    const root = ev.detail.root;
-
-                    const link = document.createElement('link');
-                    link.href = 'https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css';
-                    link.rel = 'stylesheet';
-                    root.insertBefore(link, root.firstChild);
-
-                    ev.detail.render(root);
-                });
-
-                pbEvents.subscribe('pb-update', 'transcription', (ev) => { 
-                    const root = ev.detail.root;
-
-                    const images = root.querySelectorAll('.splide');
-                    images.forEach((img) => {
-                        const splide = new Splide(img, {
-                            pagination: false,
-                            autoplay: true,
-                            type: 'loop'
-                        });
-                        splide.mount();
-                    });
-                });
-            });
-        </script>
         <script data-template="lib:include" data-template-path="templates/matomo.html"/>
     </body>
 </html>

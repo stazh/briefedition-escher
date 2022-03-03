@@ -262,25 +262,3 @@ table {
 .zitiervorschlag {
     font-size: var(--pb-font-size-small);
 }
-
-.splide {
-    min-width: 320px;
-    max-width: 45%;
-    float: right;
-    margin-left: 20px;
-}
-
-.splide__slide {
-    display: flex;
-    flex-direction: column;
-    font-size: var(--pb-font-size-small);
-}
-
-.splide__slide .source {
-    text-align: right;
-}
-
-.splide__slide img {
-    width: auto;
-    height: 100%;
-}

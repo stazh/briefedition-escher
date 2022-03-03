@@ -434,7 +434,8 @@
                 <param name="uri" value="'https://briefedition.alfred-escher.ch'"/>
                 <param name="label" value="persName"/>
                 <param name="id" value="@n"/>
-                <pb:template xmlns="" xml:space="preserve"><p class="zitiervorschlag">Zitiervorschlag: Jung Joseph (Hrsg.), Digitale Briefedition Alfred Escher, Relaunch Januar 2022, Zürich. <a href="[[uri]]/kontexte/personen/[[id]]">[[uri]]/kontexte/personen/[[label]]</a></p></pb:template>
+                <param name="gnd" value="idno[@type='gnd']/string()"/>
+                <pb:template xmlns="" xml:space="preserve"><p class="zitiervorschlag" data-gnd="[[gnd]]">Zitiervorschlag: Jung Joseph (Hrsg.), Digitale Briefedition Alfred Escher, Relaunch Januar 2022, Zürich. <a href="[[uri]]/kontexte/personen/[[id]]">[[uri]]/kontexte/personen/[[label]]</a></p></pb:template>
             </model>
             <model behaviour="heading">
                 <param name="content" value="(persName, if (birth) then (&#34; | &#34;, birth, &#34;–&#34;, death) else ())"/>
