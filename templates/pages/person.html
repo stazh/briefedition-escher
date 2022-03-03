@@ -17,13 +17,14 @@
         <link rel="stylesheet" href="resources/css/theme.css"/>
         <link rel="stylesheet" href="resources/css/escher-theme.css"/>
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
         <style>
             div {
                 margin: 0 16px;
             }
 
             section {
-                max-width: 1014px;
+                max-width: 1200px;
             }
 
             main {
@@ -63,7 +64,9 @@
                     </app-header>
                     <main class="content-body single-col">
                         <section class="transcript noscroll person">
-                            <pb-view id="view1" src="document1" xpath="${xpath}" subscribe="transcription" emit="transcription"
+                            <pb-view id="view1" src="document1" xpath="${xpath}" 
+                                before-update-event="before-person-update"
+                                subscribe="transcription" emit="transcription"
                                 data-template="pages:parse-params">
                                 <pb-param name="display" value="person-meta"/>
                             </pb-view>
@@ -76,6 +79,34 @@
             </app-drawer-layout>
         </pb-page>
         <div class="splash"/>
+        <script>
+            window.addEventListener('DOMContentLoaded', () => {
+                pbEvents.subscribe('before-person-update', 'transcription', (ev) => {
+                    const root = ev.detail.root;
+
+                    const link = document.createElement('link');
+                    link.href = 'https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css';
+                    link.rel = 'stylesheet';
+                    root.insertBefore(link, root.firstChild);
+
+                    ev.detail.render(root);
+                });
+
+                pbEvents.subscribe('pb-update', 'transcription', (ev) => { 
+                    const root = ev.detail.root;
+
+                    const images = root.querySelectorAll('.splide');
+                    images.forEach((img) => {
+                        const splide = new Splide(img, {
+                            pagination: false,
+                            autoplay: true,
+                            type: 'loop'
+                        });
+                        splide.mount();
+                    });
+                });
+            });
+        </script>
         <script data-template="lib:include" data-template-path="templates/matomo.html"/>
     </body>
 </html>
