@@ -45,7 +45,17 @@
                </div>
                <div xml:id="technik">
                   <head>Technisches</head>
-                  <p>[Informationen zur Neuimplementierung werden in Kürze ergänzt]</p>
+                  <p>Die seit Ende 2021 entwickelte, neue technische Umgebung nutzt <ref target="https://teipublisher.com">TEI Publisher</ref> als zentrale Publikationsplattform. Dadurch konnte die mehrere
+                  Dienste bzw. Server umfassende Architektur stark vereinfacht werden und ist nun in einem einzelnen Dienst zusammengefasst. Sämtliche
+                  Quelldaten wurden in <ref target="https://tei-c.org/">TEI</ref> überführt. Auch die Transformation der Daten für die Ausgabe basiert nun gänzlich auf dem TEI Standard: alle
+                  Transformationsregeln werden in TEI selbst beschrieben, wodurch sich die Wartbarkeit im Vergleich zu handgeschriebenem Quellcode stark
+                  verbessert.</p>
+               <p>TEI Publisher versteht sich als Werkzeugkasten, d.h. als eine Sammlung von wiederverwertbaren Komponenten und Funktionen, die beliebig
+                  rekombiniert werden können. Im Zuge der Arbeiten wurden diverse Komponenten erweitert bzw. neu erstellt, so z.B. für die Personen- und
+                  Ortsübersicht oder die Zeitleiste. Sämtliche Erweiterungen wurden als Open Source veröffentlicht und stehen im Rahmen von TEI Publisher für
+                  die Wiederverwendung zur Verfügung. Ebenso kann der gesamte Quellcode der digitalen Briefedition auf <ref target="https://github.com/stazh/briefedition-escher">Github</ref> eingesehen und nachgenutzt werden.</p>
+                  <p>Durch die Nutzung einer quelloffenen, von einer <ref target="https://e-editiones.org/">grösseren Gemeinschaft</ref> entwickelten Plattform kann die langfristige Verfügbarkeit der
+                  digitalen Briefedition nachhaltig sichergestellt werden.</p>
                </div>
                <div xml:id="dank">
                   <head>Dank</head>
