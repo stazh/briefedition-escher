@@ -12,11 +12,11 @@ The app is licensed under [GNU General Public License](https://www.gnu.org/licen
 
 ### Data Conversion
 
-The original XML data was converted to TEI using the XQuery modules available in [modules/conversion](modules/conversion/). Letters were first transformed through the [main conversion script](modules/conversion/letters.xql) and then [post-processed](modules/conversion/correspContext.xql) to add a tei:correspDesc to the header, indicating the next and previous letters in the correspondence. Based on this, timeline information was later extracted in a [separate step](modules/conversion/timeline.xql).
+The original XML data was converted to TEI using the XQuery modules available in [modules/conversion](modules/conversion/). Letters were first transformed through the [main conversion script](modules/conversion/letters.xql) and then [post-processed](modules/conversion/correspContext.xql) to add a tei:correspDesc to the header, indicating the next and previous letters in the correspondence. Finding out which letters are part of a correspondence would otherwise be too time consuming. Based on this, timeline information was later extracted in a [separate step](modules/conversion/timeline.xql).
 
 The names of the other modules correspond to the type of data they process, i.e. places, people, abbreviations, commentaries and the bibliography.
 
-With all data processed, another auxiliary file was created to provide fast access to [letter titles](modules/conversion/titles.xql).
+With all data processed, another auxiliary file was created to provide fast access to [letter titles](modules/conversion/titles.xql). Those are displayed in various popups, so collecting them on the fly would be expensive.
 
 ### Application
 
