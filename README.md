@@ -22,7 +22,7 @@ With all data processed, another auxiliary file was created to provide fast acce
 
 The app was initially generated from TEI Publisher 7 and updated later to keep up with latest Publisher developments. Following general recommendations, server-side functionality is implemented in XQuery files directly below [modules](modules/). 
 
-The goal was to preserve backwards compatibility for all URLs as much as possible. To reflect the different browsing contexts for `/briefe`, `/kontexte` etc., new endpoints were added to [custom-api.json](modules/custom-api.json) and implemented in [custom-api.xql](modules/custom-api.xql) and (in some cases) [app.xql](modules/app.xql) - unless the request is forwarded to standard TEI Publisher endpoints.
+The goal was to preserve backwards compatibility for all URLs as much as possible. To reflect the different browsing contexts for `/briefe`, `/kontexte` etc., [new endpoints](https://briefedition.alfred-escher.ch/api.html) were added to [custom-api.json](modules/custom-api.json) and implemented in [custom-api.xql](modules/custom-api.xql) and (in some cases) [app.xql](modules/app.xql) - unless the request is forwarded to standard TEI Publisher endpoints.
 
 In the TEI sources, letters are identified by an @xml:id following the pattern "K_nnnnn", while users would access a letter using an ID like "Bnnnnnn". To retain this behaviour in a backwards-compatible way, the function `$config:get-document` was overwritten to translate the @xml:id.
 
