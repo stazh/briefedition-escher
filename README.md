@@ -18,7 +18,7 @@ The names of the other modules correspond to the type of data they process, i.e.
 
 With all data processed, another auxiliary file was created to provide fast access to [letter titles](modules/conversion/titles.xql).
 
-## Application
+### Application
 
 The app was initially generated from TEI Publisher 7 and updated later to keep up with latest Publisher developments. Following general recommendations, server-side functionality is implemented in XQuery files directly below [modules](modules/). 
 
