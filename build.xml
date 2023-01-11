@@ -66,7 +66,7 @@
 
     </target>
     
-    <target name="xar" depends="npm.install,git.revision,prepare">        
+    <target name="xar" depends="clean,npm.install,git.revision,prepare">        
         <zip basedir="${app.build.dir}" destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* node_modules/**"/>
     </target>
     
