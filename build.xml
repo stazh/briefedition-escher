@@ -12,7 +12,7 @@
         <delete dir="resources/images/leaflet"/>
         <delete dir="resources/images/openseadragon"/>
         <delete dir="resources/i18n/common"/>
-        <delete dir="resources/css" includes="leaflet/** prismjs/**"/>
+        <delete dir="resources/css" includes="leaflet/** prismjs/** gridjs/** tom-select/**"/>
         <delete dir="resources/lib"/>
     </target>
     <target name="prepare">
@@ -31,7 +31,9 @@
             </fileset>
         </copy>
         <copy todir="resources/images">
-            <fileset dir="node_modules/@teipublisher/pb-components/images"/>
+            <fileset dir="node_modules/@teipublisher/pb-components/images">
+                <include name="*/*.png"/>
+            </fileset>
         </copy>
         
         <copy todir="resources/i18n">
