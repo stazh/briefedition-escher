@@ -11,7 +11,7 @@
     <property name="scripts.dir" value="node_modules/@teipublisher/pb-components/dist"/>
 
     <target name="clean">
-        <delete includeemptydirs="true">
+        <delete includeemptydirs="true" failonerror="false">
           <fileset dir="${build.dir}" includes="**/*"/>
         </delete>
     </target>
