@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="escher" default="xar">
     <xmlproperty file="expath-pkg.xml"/><!-- Adjust path below to match location of your npm binary -->
-    <property name="npm" value="/usr/local/bin/npm"/>
+    <property name="npm" value="npm"/>
     <property name="project.version" value="${package(version)}"/>
     <property name="project.app" value="${package(abbrev)}"/>
     <property name="build.dir" value="build"/>

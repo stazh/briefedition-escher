@@ -22,6 +22,10 @@
         <module uri="http://www.tei-c.org/tei-simple/xquery/functions/escher-web" prefix="ext-html" at="xmldb:exist:///db/apps/escher/modules/ext-html.xql"/>
         <module uri="http://www.tei-c.org/tei-simple/xquery/functions/escher-common" prefix="ec" at="xmldb:exist:///db/apps/escher/modules/ext-common.xql"/>
     </output>
+    <output mode="print" odd="escher">
+        <module uri="http://www.tei-c.org/tei-simple/xquery/functions/escher-web" prefix="ext-html" at="xmldb:exist:///db/apps/escher/modules/ext-html.xql"/>
+        <module uri="http://www.tei-c.org/tei-simple/xquery/functions/escher-common" prefix="ec" at="xmldb:exist:///db/apps/escher/modules/ext-common.xql"/>
+    </output>
     <output mode="epub" odd="escher">
         <module uri="http://www.tei-c.org/tei-simple/xquery/functions/escher-common" prefix="ec" at="xmldb:exist:///db/apps/escher/modules/ext-common.xql"/>
     </output>

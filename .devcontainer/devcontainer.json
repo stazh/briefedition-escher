@@ -4,16 +4,24 @@
         "dockerfile": "Dockerfile.dev",
         "args": {
             "HTTP_PORT": "8080",
-            "HTTPS_PORT": "8443"
+            "HTTPS_PORT": "8443",
+            "INSTALL_TEXLIVE": "false"
         }
     },
-    "forwardPorts": [ 8080 ],
-    "runArgs": [
-        "--name=EscherEdition"
-    ],
-    "extensions": [ "exist-db.existdb-vscode", "42crunch.vscode-openapi", "redhat.vscode-xml" ],
+    "runArgs": ["--name=EscherEdition"],
+    "forwardPorts": [ 8080, 8001 ],
+    "customizations": {
+        "vscode": {
+            "extensions": [ "exist-db.existdb-vscode", "42crunch.vscode-openapi", "redhat.vscode-xml" ]
+        }
+    },
     "overrideCommand": false,
     "postCreateCommand": [
         "${containerWorkspaceFolder}/.devcontainer/init.sh"
-    ]
+    ],    
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "latest"
+        }
+    }
 }
