@@ -83,7 +83,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 });
                 // const top  = (target.offsetTop - updatedCoords[3] - 10) + 'px';
                 const containerWidth = wrapper.clientWidth;
-                const imgUrl = `https://apps.existsolutions.com/cantaloupe/iiif/2/${file}/${updatedCoords.join(',')}/full/0/default.jpg`;
+                const imgUrl = `https://media.sources-online.org/iiif/2/${file}/${updatedCoords.join(',')}/full/0/default.jpg`;
                 regionImage.style.display = 'none';
                 const buffer = new Image();
                 buffer.addEventListener('load', () => {

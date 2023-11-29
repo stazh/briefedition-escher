@@ -65,7 +65,7 @@ declare function oapi:recompile($request as map(*)) {
             if ($pi?output) then
                 tokenize($pi?output)
             else
-                ("web", "print", "latex", "epub")
+                ("web", "print", "latex", "epub","fo")
         return
             try {
                 for $output in pmu:process-odd(
