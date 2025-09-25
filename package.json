@@ -4,5 +4,11 @@
   },
   "name" : "escher",
   "version" : "1.0.0",
-  "description" : "Alfred Escher-Briefedition"
+  "description" : "Alfred Escher-Briefedition",
+  "devDependencies": {
+    "cypress": "^15.2.0"
+  },  
+  "scripts": {
+    "e2e": "cypress run"
+  }
 }
